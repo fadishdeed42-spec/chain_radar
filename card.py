@@ -76,22 +76,26 @@ FOOTER_LEFT = ''   # set by the caller: the reply idea goes here on non-chart ca
 
 
 def footer(d, right):
+    """Bottom strip: the post's punchline as a gold-barred italic pull-quote (left) and the source (right)."""
     d.line([56, 1262, W - 56, 1262], fill=LINE, width=2)
     rw = d.textlength(right, font=F(MED, 17))
     d.text((W - 56, 1302), right, font=F(MED, 17), fill=DIM, anchor='rm')
-    txt = (FOOTER_LEFT or '').strip()
-    if txt:
-        maxw = W - 112 - rw - 40
-        for size in (20, 18, 16):
-            lines = wrap_lines(d, txt, F(SEMI, size), maxw)
-            if len(lines) <= 2:
-                break
-        lines = lines[:2]
-        if sum(len(l) for l in lines) < len(txt.split()) and lines[-1]:
-            lines[-1][-1] += '…'
-        y = 1302 - (len(lines) - 1) * size * 0.65
-        for ln in lines:
-            d.text((56, y), ' '.join(ln), font=F(SEMI, size), fill=MUT, anchor='lm'); y += size * 1.3
+    txt = (FOOTER_LEFT or '').strip().strip('"“”')
+    if not txt:
+        return
+    maxw = W - 112 - rw - 60
+    for size in (22, 20, 18, 16):
+        lines = wrap_lines(d, txt, F(ITAL, size), maxw)
+        if len(lines) <= 2:
+            break
+    lines = lines[:2]
+    if sum(len(l) for l in lines) < len(txt.split()) and lines[-1]:
+        lines[-1][-1] += '…'
+    lh = size * 1.3; h = lh * len(lines)
+    y0 = 1302 - h / 2
+    d.rounded_rectangle([56, y0 + 2, 61, y0 + h - 2], radius=2, fill=GOLD)
+    for i, ln in enumerate(lines):
+        d.text((76, y0 + i * lh), ' '.join(ln), font=F(ITAL, size), fill=(214, 218, 228))
 
 
 def wrap_lines(d, text, font, maxw):

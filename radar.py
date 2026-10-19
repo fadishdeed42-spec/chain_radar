@@ -664,7 +664,7 @@ def build_image(p, item, facts, coin_hint=None, force=None):
     tag = p.get('tag') or item.get('tag') or 'BREAKING'
     title, src, kf = p['title'], item.get('src') or 'Chain Secrets', p.get('keyfact', '')
     vis = force or p.get('visual', '')
-    card.FOOTER_LEFT = f'Reply idea: {p["reply"]}' if p.get('reply') else ''
+    card.FOOTER_LEFT = p.get('reply') or ''
     if vis == 'HEADLINE':
         return card.headline_card(title, src, kf, tag)
     if vis == 'STAT' and not (p.get('stat') and '|' in p['stat']):
