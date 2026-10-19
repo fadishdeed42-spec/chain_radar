@@ -1,20 +1,18 @@
 name: listen
-# Every 5 min: handle Telegram taps (📝 Make post), /top and pasted links
+# Long-polls Telegram ~4.5 min per run (restarted every 5 min) so taps & commands are answered in seconds
 on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
-    inputs:
-      mode: {description: 'listen or top', default: listen}
 permissions:
   contents: write
 concurrency:
-  group: radar
+  group: listen
   cancel-in-progress: false
 jobs:
   listen:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 9
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,9 +26,9 @@ jobs:
         run: |
           mkdir -p state
           set -o pipefail
-          python radar.py ${{ github.event.inputs.mode || 'listen' }} 2>&1 | tee state/listen.log
+          python -u radar.py listen 2>&1 | tee state/listen.log
       - name: save state
         if: always()
         run: |
           git config user.name chain-radar; git config user.email noreply@github.com
-          git add state && git commit -qm "listen state [skip ci]" && for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done || true
+          git add state/tg.json state/listen.log && git commit -qm "listen state [skip ci]" && for i in 1 2 3 4; do git pull --rebase -q -X theirs && git push -q && break; sleep 3; done || true

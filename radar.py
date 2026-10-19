@@ -248,23 +248,11 @@ def chart(coin, label=''):
 
 # ---------------- drafts ----------------
 def draft(headline, coin, srcs):
-    base = f'⚡ {headline}'
-    if coin:
-        base += f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)'
-    if not GEMINI:
-        return base
-    prompt = ('Write ONE post for X (max 260 characters) for the crypto news account "Chain Secrets" (witty crypto-detective voice). '
-              'Use ONLY the facts below, no new numbers, no predictions, no hashtags spam (max 1), no links. Start with a strong hook.\n'
-              f'Headline(s): {headline}\nSources: {", ".join(list(srcs)[:4])}\n'
-              + (f'Price: {coin["name"]} ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h, {coin["h1"]:+.1f}% in 1h\n' if coin else ''))
-    try:
-        r = requests.post('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent',
-                          params={'key': GEMINI}, json={'contents': [{'parts': [{'text': prompt}]}]}, timeout=30)
-        t = r.json()['candidates'][0]['content']['parts'][0]['text'].strip()
-        return t[:280] if t else base
-    except Exception as e:
-        print('gemini fail', e)
-        return base
+    base = f'⚡ {headline}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')
+    out = gemini(STYLE + 'Write ONE X post (max 260 characters) with a strong hook. Reply with the post text only.\n\nFACTS:\n'
+                 f'Headline: {headline}\nSources: {", ".join(list(srcs)[:4])}\n'
+                 + (f'Price: {coin["name"]} ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h, {coin["h1"]:+.1f}% in 1h\n' if coin else ''))
+    return out[:280] if out else base
 
 
 # ---------------- telegram ----------------
@@ -311,6 +299,10 @@ def story_msg(sc, lead, coin, srcs, items, age_h, urgent):
 def main():
     st = load_state()
     first_run = not st.get('init')
+    try:
+        muted = json.load(open('state/tg.json')).get('mute_until', 0) > NOW
+    except Exception:
+        muted = False
     market, news, reddit, hacks = collect_market(), collect_news(), collect_reddit(), collect_hacks()
     print(f'market {len(market)} news {len(news)} reddit {len(reddit)} hacks {len(hacks)}')
     groups = cluster(news)
@@ -338,6 +330,8 @@ def main():
         if k in st['hacks'] or amt < 1e6:
             continue
         st['hacks'][k] = NOW
+        if muted:
+            continue
         tg(f'🚨 <b>HACK ALERT</b> · {E(str(h.get("name")))} · ${amt/1e6:,.1f}M\n'
            f'Chain: {E(str(h.get("chain") or h.get("chains") or "?"))} · Method: {E(str(h.get("technique") or h.get("classification") or "?"))}\n\n'
            f'✍️ <code>{E(draft(f"{h.get("name")} hacked for ${amt/1e6:,.1f}M ({h.get("technique") or "exploit"})", None, ["DefiLlama"]))}</code>\n\n'
@@ -358,7 +352,9 @@ def main():
              + (f'Possible reason: <b>{E(news_hit["title"])}</b>\n<a href="{E(news_hit["url"])}">{E(news_hit["src"])}</a>\n\n' if news_hit
                 else 'No news found yet. Check X search for the reason before posting.\n\n')
              + f'✍️ <code>{E(draft(f"{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour", c, ["CoinGecko"]))}</code>')
-        tg(m, chart(c, f'{c["h1"]:+.1f}% in the last hour'))
+        if not muted:
+            tg(m, coin_card(c, f'{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour', '1d', 'PRICE ALERT', card.GRN if c['h1'] > 0 else card.RED),
+               [('📝 Make full post', 'p:' + remember(st, {'items': [{'title': f'{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour', 'url': '', 'src': 'CoinGecko', 'ts': NOW}], 'w': {c['id'], 'move', verb}}, {'title': f'{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour', 'url': (news_hit or {}).get('url', ''), 'src': (news_hit or {}).get('src', 'CoinGecko')}, c, {'CoinGecko'}))])
         sent += 1
 
     # 3) news stories
@@ -370,8 +366,8 @@ def main():
         if sc >= ALERT:
             st['stories'][k] = NOW
             mk = remember(st, g, lead, coin, srcs)
-            tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), chart(coin, lead['title']) if coin else None,
-               [('📝 Make full post', 'p:' + mk)])
+            if not muted:
+                tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), None, [('📝 Make full post + image', 'p:' + mk)])
             sent += 1
         elif sc >= WATCH:
             st['stories'][k] = NOW
@@ -380,23 +376,64 @@ def main():
         msg = '📌 <b>Worth a look</b> (not urgent). Tap a number to get a full post:\n'
         for n, (sc, lead, srcs, mk) in enumerate(watch[:5], 1):
             msg += f'\n<b>{n}.</b> ({sc}/100, {len(srcs)} src) <a href="{E(lead["url"])}">{E(lead["title"])}</a>'
-        tg(msg, None, [(f'📝 {n}', 'p:' + w[3]) for n, w in enumerate(watch[:5], 1)])
+        if not muted:
+            tg(msg, None, [(f'📝 {n}', 'p:' + w[3]) for n, w in enumerate(watch[:5], 1)])
     print('alerts sent', sent, 'watch', len(watch))
     save_state(st)
 
 
 # ---------------- pick-a-story: full post ----------------
+import card
+TG_STATE = 'state/tg.json'
+
+
+def load_tg():
+    try:
+        return json.load(open(TG_STATE))
+    except Exception:
+        return {'offset': 0, 'menu': {}, 'mute_until': 0, 'story_i': 0}
+
+
+def save_tg(t):
+    os.makedirs('state', exist_ok=True)
+    t['menu'] = {k: m for k, m in t.get('menu', {}).items() if NOW - m.get('t', NOW) < 48 * 3600}
+    json.dump(t, open(TG_STATE, 'w'), indent=0, sort_keys=True)
+
+
+def menu_item(k, tgs):
+    if k in tgs.get('menu', {}):
+        return tgs['menu'][k]
+    return load_state().get('menu', {}).get(k)
+
+
 def send_top(st, scored, header='📰 <b>Top crypto stories right now</b>'):
-    msg, btn = header + '\n\nTap a number and I make a full post (title, text, thread, candle chart):\n', []
-    for n, ((sc, lead, coin, srcs, age), g) in enumerate(scored[:6], 1):
+    msg, btn = header + '\nTap a number → I make the full post (title, image, post, thread).\n', []
+    for n, ((sc, lead, coin, srcs, age), g) in enumerate(scored[:8], 1):
         k = remember(st, g, lead, coin, srcs)
-        msg += f'\n<b>{n}.</b> ({sc}/100, {len(srcs)} src) {E(lead["title"])}'
+        fire = '🔥' if sc >= ALERT else '•'
+        msg += f'\n<b>{n}.</b> {fire} {E(lead["title"])}  <i>({len(srcs)} src, {age*60:.0f}m)</i>'
         btn.append((f'📝 {n}', 'p:' + k))
     tg(msg, None, btn)
 
 
+def cg_search(sym):
+    r = get('https://api.coingecko.com/api/v3/search', params={'query': sym})
+    hits = [x for x in (r.json().get('coins', []) if r else []) if x['symbol'].upper() == sym.upper()]
+    hits.sort(key=lambda x: x.get('market_cap_rank') or 99999)
+    return hits[0] if hits else None
+
+
+def coin_by_id(cid):
+    r = get('https://api.coingecko.com/api/v3/coins/markets', params={'vs_currency': 'usd', 'ids': cid, 'price_change_percentage': '1h,24h'})
+    c = (r.json() if r else [None])[0] if r and r.json() else None
+    if not c:
+        return None
+    return {'id': c['id'], 'sym': c['symbol'].upper(), 'name': c['name'], 'price': c['current_price'] or 0,
+            'h1': c.get('price_change_percentage_1h_in_currency') or 0, 'h24': c.get('price_change_percentage_24h_in_currency') or 0,
+            'rank': c.get('market_cap_rank') or 999}
+
+
 def find_coin(text):
-    """Coin named in the text: top-250 by name/symbol, else CoinGecko search on $TICKER / CAPS words."""
     mk = []
     for page in (1, 2):
         r = get('https://api.coingecko.com/api/v3/coins/markets', params={'vs_currency': 'usd', 'order': 'market_cap_desc',
@@ -409,92 +446,45 @@ def find_coin(text):
     if c:
         return c
     for tok in re.findall(r'\$?\b([A-Z]{2,6})\b', text):
-        if tok in ('SEC', 'ETF', 'USD', 'CEO', 'DOJ', 'FBI', 'NFT', 'AI', 'US', 'UK', 'EU', 'IRS', 'CFTC', 'IPO', 'DAO', 'DEX'):
+        if tok in ('SEC', 'ETF', 'USD', 'CEO', 'DOJ', 'FBI', 'NFT', 'AI', 'US', 'UK', 'EU', 'IRS', 'CFTC', 'IPO', 'DAO', 'DEX', 'ETFS', 'OTC'):
             continue
-        r = get('https://api.coingecko.com/api/v3/search', params={'query': tok})
-        hits = [x for x in (r.json().get('coins', []) if r else []) if x['symbol'].upper() == tok]
-        if hits:
-            q = get('https://api.coingecko.com/api/v3/simple/price', params={'ids': hits[0]['id'], 'vs_currencies': 'usd',
-                    'include_24hr_change': 'true'})
-            d = (q.json() if q else {}).get(hits[0]['id'], {})
-            return {'id': hits[0]['id'], 'sym': tok, 'name': hits[0]['name'], 'price': d.get('usd', 0), 'h1': 0,
-                    'h24': d.get('usd_24h_change') or 0, 'rank': hits[0].get('market_cap_rank') or 999}
+        h = cg_search(tok)
+        if h:
+            return coin_by_id(h['id'])
     return None
 
 
-def wrap(t, n):
-    out, line = [], ''
-    for w in t.split():
-        if len(line) + len(w) + 1 > n:
-            out.append(line); line = w
-        else:
-            line = (line + ' ' + w).strip()
-    return out + [line] if line else out
+SPANS = {'1d': (900, 96, 1, '24h · 15m candles'), '7d': (3600, 168, 7, '7d · 1h candles'),
+         '30d': (21600, 120, 30, '30d · 6h candles'), '1y': (86400, 300, 365, '1y · daily candles')}
 
 
-def candle_chart(coin, title, days=1):
-    """Real OHLC candles (CoinGecko) in Chain Secrets style, biggest candle circled."""
+def candles(coin, span='1d'):
+    """Real OHLCV: Coinbase first (has volume), CoinGecko OHLC fallback. Returns (rows, source)."""
+    gran, n, days, _ = SPANS[span]
+    r = get(f'https://api.exchange.coinbase.com/products/{coin["sym"]}-USD/candles', params={'granularity': gran})
+    if r:
+        try:
+            rows = [(t * 1000, o, h, l, c, v) for t, l, h, o, c, v in r.json()][::-1][-n:]
+            if len(rows) >= 20:
+                return rows, 'Coinbase'
+        except Exception as e:
+            print('coinbase parse', e)
+    r = get(f'https://api.coingecko.com/api/v3/coins/{coin["id"]}/ohlc', params={'vs_currency': 'usd', 'days': days})
     try:
-        import matplotlib
-        matplotlib.use('Agg')
-        import matplotlib.pyplot as plt
-        from matplotlib.patches import Rectangle
-        r = get(f'https://api.coingecko.com/api/v3/coins/{coin["id"]}/ohlc', params={'vs_currency': 'usd', 'days': days})
-        rows = r.json() if r else []
-        if len(rows) < 8:
-            return None
-        BG, GOLD, RED, GRN, MUT = '#0b0d12', '#d4a843', '#e5484d', '#26c2a0', '#8a93a6'
-        fig = plt.figure(figsize=(10.8, 13.5), dpi=100, facecolor=BG)
-        ax = fig.add_axes([0.09, 0.16, 0.85, 0.52], facecolor=BG)
-        w = 0.62
-        for i, (t, o, h, l, c) in enumerate(rows):
-            col = GRN if c >= o else RED
-            ax.plot([i, i], [l, h], color=col, lw=2)
-            ax.add_patch(Rectangle((i - w / 2, min(o, c)), w, max(abs(c - o), (h - l) * 0.02 or 1e-9), color=col))
-        big = max(range(len(rows)), key=lambda i: abs(rows[i][4] - rows[i][1]))
-        ax.scatter([big], [(rows[big][2] + rows[big][3]) / 2], s=2600, facecolors='none', edgecolors=GOLD, linewidths=4, zorder=5)
-        ax.set_xlim(-1, len(rows)); ax.set_ylim(min(x[3] for x in rows) * 0.997, max(x[2] for x in rows) * 1.003)
-        for sp in ax.spines.values():
-            sp.set_visible(False)
-        ax.tick_params(colors=MUT, labelsize=15); ax.grid(color='#1c2130', lw=1)
-        ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f'${v:,.0f}' if v >= 100 else f'${v:,.4g}'))
-        step = max(1, len(rows) // 6)
-        ax.set_xticks(range(0, len(rows), step))
-        ax.set_xticklabels([datetime.fromtimestamp(rows[i][0] / 1000, timezone.utc).strftime('%H:%M' if days <= 1 else '%b %d')
-                            for i in range(0, len(rows), step)])
-        first, last = rows[0][1], rows[-1][4]; ch = (last / first - 1) * 100; col = GRN if ch >= 0 else RED
-        y = 0.94
-        for ln in wrap(title, 34)[:3]:
-            fig.text(0.07, y, ln, color='white', fontsize=34, weight='bold'); y -= 0.045
-        fig.text(0.07, y - 0.02, f'{coin["name"]} ({coin["sym"]})  ${last:,.6g}  {ch:+.1f}% ({"24h" if days <= 1 else f"{days}d"})',
-                 color=col, fontsize=26, weight='bold')
-        fig.text(0.07, 0.07, 'CHAIN SECRETS', color=GOLD, fontsize=26, weight='bold')
-        fig.text(0.07, 0.045, 'Every chart hides a story', color=MUT, fontsize=16)
-        fig.text(0.95, 0.045, f'Data: CoinGecko · {"30m" if days <= 1 else "4h"} candles · {datetime.now(timezone.utc):%b %d %H:%M} UTC',
-                 color=MUT, fontsize=13, ha='right')
-        buf = io.BytesIO(); fig.savefig(buf, format='png', facecolor=BG); plt.close(fig)
-        return buf.getvalue()
-    except Exception as e:
-        print('candle fail', e)
+        rows = [(t, o, h, l, c, None) for t, o, h, l, c in (r.json() if r else [])]
+        return (rows, 'CoinGecko') if len(rows) >= 8 else ([], '')
+    except Exception:
+        return [], ''
+
+
+def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None):
+    rows, src = candles(coin, span)
+    if not rows and span == '1d':
+        rows, src = candles(coin, '7d'); span = '7d'
+    if not rows:
         return None
-
-
-def title_card(title, src):
-    """Branded headline image for stories with no coin to chart."""
     try:
-        import matplotlib
-        matplotlib.use('Agg')
-        import matplotlib.pyplot as plt
-        BG, GOLD, MUT = '#0b0d12', '#d4a843', '#8a93a6'
-        fig = plt.figure(figsize=(10.8, 13.5), dpi=100, facecolor=BG)
-        fig.text(0.08, 0.86, 'BREAKING', color='#e5484d', fontsize=30, weight='bold')
-        y = 0.76
-        for ln in wrap(title, 22)[:7]:
-            fig.text(0.08, y, ln, color='white', fontsize=52, weight='bold'); y -= 0.075
-        fig.text(0.08, 0.10, 'CHAIN SECRETS', color=GOLD, fontsize=30, weight='bold')
-        fig.text(0.08, 0.07, f'Source: {src}', color=MUT, fontsize=18)
-        buf = io.BytesIO(); fig.savefig(buf, format='png', facecolor=BG); plt.close(fig)
-        return buf.getvalue()
+        return card.chart_card(title, coin, rows, SPANS[span][3], tag, col or card.RED, src, note)
     except Exception as e:
         print('card fail', e)
         return None
@@ -523,88 +513,213 @@ def gemini(prompt):
                               json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
             if r.ok:
                 return r.json()['candidates'][0]['content']['parts'][0]['text'].strip()
-            print('gemini', model, r.status_code)
+            print('gemini', model, r.status_code, r.text[:120])
         except Exception as e:
             print('gemini fail', model, e)
     return ''
 
 
+STYLE = ('You write for the X account "Chain Secrets": crypto news and true crypto stories with the chart that proves it, '
+         'in a sharp, witty crypto-detective voice. Rules: use ONLY the facts given (never invent numbers, names, quotes or claims; '
+         'say "reportedly" when the source is unsure), no price predictions, no financial advice, no links, max 1 hashtag, no emojis spam.\n')
+FORMAT = ('Reply in exactly this format and nothing else:\n'
+          'TITLE: <punchy image headline, max 60 characters, include the key number if there is one>\n'
+          'KEYFACT: <one short factual sentence, max 110 characters>\n'
+          'POST: <one X post, max 270 characters: hook line, what happened, key number, why it matters>\n'
+          'THREAD:\n1/ ...\n2/ ...\n3/ ...\n4/ ...\n'
+          'REPLY: <one short reply to post under big crypto news accounts>\n')
+
+
+def parse_out(out):
+    g = lambda k: (re.search(k + r':\s*(.+)', out) or [None, ''])[1].strip()
+    thread = (re.search(r'THREAD:\s*(.+?)(?:\nREPLY:|\Z)', out, re.S) or [None, ''])[1].strip()
+    return {'title': g('TITLE'), 'keyfact': g('KEYFACT'), 'post': g('POST'), 'thread': thread, 'reply': g('REPLY')}
+
+
+def deliver(p, img, url='', src=''):
+    tg(f'<b>{E(p["title"])}</b>', img)
+    tg(f'📝 <b>POST</b> (tap to copy)\n<code>{E(p["post"])}</code>' + (f'\n\n💬 <b>REPLY IDEA</b>\n<code>{E(p["reply"])}</code>' if p['reply'] else '')
+       + (f'\n\n🔗 <a href="{E(url)}">{E(src or "source")}</a> · check facts before posting' if url else ''))
+    if p['thread']:
+        tg(f'🧵 <b>THREAD</b> (post 1 = image above)\n<code>{E(p["thread"])}</code>')
+
+
 def make_post(item):
-    coin = find_coin(item['title'])
-    body = article_text(item.get('urls') or [item['url']])
-    facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item["src"]])}\n'
+    coin = coin_by_id(item['coin']) if item.get('coin') else find_coin(item['title'])
+    body = article_text(item.get('urls') or [item['url']]) if item.get('url') else ''
+    facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item.get("src", "")])}\n'
              + (f'Price now: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
-             + (f'Article text:\n{body}\n' if body else ''))
-    out = gemini('You write for the X account "Chain Secrets": crypto news with the chart that proves it, witty crypto-detective voice.\n'
-                 'Using ONLY the facts below (no invented numbers, quotes or claims; say "reportedly" if the source is unsure; '
-                 'no price predictions; no links; max 1 hashtag), reply in exactly this format:\n'
-                 'TITLE: <a punchy full title, max 70 chars>\n'
-                 'POST: <one X post, max 270 chars, strong hook first line, key number, why it matters>\n'
-                 'THREAD:\n1/ ...\n2/ ...\n3/ ...\n4/ ... (4 posts, each max 270 chars, story beats + twist + lesson)\n'
-                 'REPLY: <one short reply idea to post under big news accounts>\n\n' + facts)
-    if not out:
-        out = (f'TITLE: {item["title"]}\nPOST: ⚡ {item["title"]}'
-               + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')
-               + '\n\n(Add a Gemini key to get a written post + thread here.)')
-    img = None
-    if coin:
-        img = candle_chart(coin, item['title'], 1) or candle_chart(coin, item['title'], 7)
+             + (item.get('facts', '') + '\n') + (f'Article text:\n{body}\n' if body else ''))
+    p = parse_out(gemini(STYLE + FORMAT + '\nFACTS:\n' + facts))
+    if not p['title']:
+        p = {'title': item['title'][:90], 'keyfact': '', 'reply': '', 'thread': '',
+             'post': f'⚡ {item["title"]}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')}
+    img = coin_card(coin, p['title']) if coin else None
     if not img:
-        img = title_card(item['title'], item['src'])
-    m = re.search(r'TITLE:\s*(.+)', out)
-    cap = f'🖼 <b>{E(m.group(1).strip() if m else item["title"])}</b>\n' + (f'Chart: {coin["name"]} real candles' if coin else 'Headline card (no coin to chart)')
-    tg(cap, img)
-    tg(f'✍️ <b>Ready to post</b> (check the facts first):\n\n<code>{E(out)}</code>\n\n🔗 <a href="{E(item["url"])}">{E(item["src"])}</a>')
+        img = card.headline_card(p['title'], item.get('src', 'Chain Secrets'), p['keyfact'], item.get('tag', 'BREAKING'),
+                                 card.GOLD if item.get('tag') == 'TRUE STORY' else card.RED)
+    deliver(p, img, item.get('url', ''), item.get('src', ''))
 
 
-def listen():
-    """Handle button taps and messages: tap 📝 → full post; send /top → current list; send a link → post about it."""
-    st = load_state()
-    off = st.get('tg_offset', 0)
-    r = get(f'https://api.telegram.org/bot{TOKEN}/getUpdates', params={'offset': off + 1, 'timeout': 0})
-    ups = (r.json().get('result', []) if r else [])
-    print('updates', len(ups))
-    for u in ups:
-        st['tg_offset'] = max(st.get('tg_offset', 0), u['update_id'])
-        cb, msg = u.get('callback_query'), u.get('message')
-        who = str((cb or msg or {}).get('from', {}).get('id', '')) if (cb or msg) else ''
-        if who and CHAT and who != str(CHAT):
-            continue                                   # only obey the owner
-        if cb:
-            try:
-                requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'],
-                              'text': 'Making your post…'}, timeout=10)
-            except Exception:
-                pass
-            k = (cb.get('data') or '')[2:]
-            item = st.get('menu', {}).get(k)
+HELP = ('🕵️ <b>Chain Radar commands</b>\n\n'
+        '/top — today\'s hottest stories, tap one for a full post\n'
+        '/chart BTC — pro candle chart (add 7d, 30d or 1y)\n'
+        '/movers — biggest gainers & losers (top 100)\n'
+        '/hacks — latest hacks & exploits\n'
+        '/story — a true crypto story thread (from your Shorts)\n'
+        '/post + link — full post from any article (or just paste a link)\n'
+        '/mute 3 — pause alerts for 3 hours · /unmute\n'
+        '/help — this list')
+COMMANDS = [('top', 'Hottest stories now'), ('chart', 'Candle chart: /chart BTC 7d'), ('movers', 'Biggest gainers & losers'),
+            ('hacks', 'Latest hacks'), ('story', 'True crypto story thread'), ('post', 'Full post from a link'),
+            ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'All commands')]
+
+
+def cmd_chart(args):
+    sym = (args[0] if args else 'BTC').upper().lstrip('$'); span = args[1].lower() if len(args) > 1 and args[1].lower() in SPANS else '1d'
+    h = cg_search(sym)
+    coin = coin_by_id(h['id']) if h else None
+    if not coin:
+        tg(f'Couldn\'t find a coin called {E(sym)}.'); return
+    tag = {'1d': '24H CHART', '7d': '7D CHART', '30d': '30D CHART', '1y': '1Y CHART'}[span]
+    img = coin_card(coin, f'{coin["name"]} {SPANS[span][3].split(" · ")[0]} chart', span, tag, card.GOLD)
+    if img:
+        tg(f'📈 <b>{E(coin["name"])}</b> ${coin["price"]:,.6g} · {coin["h24"]:+.1f}% 24h', img,
+           [('1D', f'c:{coin["id"]}:1d'), ('7D', f'c:{coin["id"]}:7d'), ('30D', f'c:{coin["id"]}:30d')])
+    else:
+        tg('No candle data for that coin right now.')
+
+
+def cmd_movers(tgs):
+    m = [c for c in collect_market() if c['rank'] <= 100]
+    if not m:
+        tg('Market data unavailable, try again in a minute.'); return
+    up = sorted(m, key=lambda c: -c['h24'])[:5]; dn = sorted(m, key=lambda c: c['h24'])[:5]
+    msg = '🚀 <b>Top gainers 24h</b>\n' + '\n'.join(f'{c["sym"]} {c["h24"]:+.1f}% · ${c["price"]:,.6g}' for c in up)
+    msg += '\n\n🩸 <b>Top losers 24h</b>\n' + '\n'.join(f'{c["sym"]} {c["h24"]:+.1f}% · ${c["price"]:,.6g}' for c in dn)
+    tg(msg + '\n\nTap a coin for its chart card:', None, [(c['sym'], f'c:{c["id"]}:1d') for c in up + dn])
+
+
+def cmd_hacks(tgs):
+    r = get('https://api.llama.fi/hacks')
+    hs = sorted([h for h in (r.json() if r else []) if NOW - float(h.get('date', 0)) < 30 * 86400],
+                key=lambda h: -float(h.get('amount') or 0))[:6]
+    if not hs:
+        tg('No hacks logged in the last 30 days (DefiLlama).'); return
+    msg, btn = '🏴‍☠️ <b>Biggest hacks, last 30 days</b> (DefiLlama)\n', []
+    for n, h in enumerate(hs, 1):
+        amt = float(h.get('amount') or 0); when = datetime.fromtimestamp(float(h['date']), timezone.utc).strftime('%b %d')
+        msg += f'\n<b>{n}.</b> {E(str(h.get("name")))} · ${amt/1e6:,.1f}M · {when} · {E(str(h.get("technique") or h.get("classification") or ""))}'
+        k = hashlib.md5(f'{h.get("name")}{h.get("date")}'.encode()).hexdigest()[:12]
+        tgs['menu'][k] = {'t': NOW, 'title': f'{h.get("name")} hacked for ${amt/1e6:,.1f} million', 'url': '', 'src': 'DefiLlama',
+                          'tag': 'HACK', 'facts': f'Hack date: {when}. Chain: {h.get("chain") or h.get("chains")}. Method: {h.get("technique") or h.get("classification")}. Amount: ${amt:,.0f}. (From the DefiLlama hacks database.)'}
+        btn.append((f'📝 {n}', 'p:' + k))
+    tg(msg, None, btn)
+
+
+def cmd_story(tgs):
+    try:
+        bank = json.load(open('stories.json'))
+    except Exception:
+        tg('No story bank found.'); return
+    s = bank[tgs.get('story_i', 0) % len(bank)]; tgs['story_i'] = tgs.get('story_i', 0) + 1
+    tg(f'⏳ Writing a story thread: <b>{E(s["title"])}</b>')
+    make_post({'title': s['title'], 'facts': 'Verified story facts:\n' + s['facts'], 'src': 'Chain Secrets', 'tag': 'TRUE STORY'})
+
+
+def handle(u, tgs):
+    cb, msg = u.get('callback_query'), u.get('message')
+    who = str((cb or msg or {}).get('from', {}).get('id', ''))
+    if CHAT and who != str(CHAT):
+        return                                          # only obey the owner
+    if cb:
+        try:
+            requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'], 'text': 'On it…'}, timeout=10)
+        except Exception:
+            pass
+        data = cb.get('data') or ''
+        if data.startswith('p:'):
+            item = menu_item(data[2:], tgs)
             if item:
-                tg(f'⏳ Making a full post about:\n<b>{E(item["title"])}</b>')
+                tg(f'⏳ Making your post: <b>{E(item["title"])}</b>')
                 make_post(item)
             else:
                 tg('That story expired. Send /top for the current list.')
-        elif msg and msg.get('text'):
-            t = msg['text'].strip()
-            if t.lower().startswith('/top') or t.lower() in ('top', 'list', 'news'):
-                market, news = collect_market(), collect_news()
-                scored = sorted([(score_group(g, market, []), g) for g in cluster(news)], key=lambda x: -x[0][0])
-                send_top(st, scored)
-            elif re.match(r'https?://', t):
-                tg('⏳ Making a full post from your link…')
-                pg = get(t); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
-                ttl = html.unescape(ttl.group(1)).split(' | ')[0].split(' - ')[0].strip() if ttl else t
-                make_post({'title': ttl, 'url': t, 'src': re.sub(r'^https?://(www\.)?([^/]+).*', r'\2', t), 'urls': [t]})
-            else:
-                tg('Send <b>/top</b> for today\'s top stories, tap a 📝 button, or paste a news link.')
-    save_state(st)
+        elif data.startswith('c:'):
+            _, cid, span = (data.split(':') + ['1d'])[:3]
+            coin = coin_by_id(cid)
+            if coin:
+                img = coin_card(coin, f'{coin["name"]} {SPANS[span][3].split(" · ")[0]} chart', span, span.upper() + ' CHART', card.GOLD)
+                tg(f'📈 <b>{E(coin["name"])}</b> ${coin["price"]:,.6g} · {coin["h24"]:+.1f}% 24h', img,
+                   [('1D', f'c:{cid}:1d'), ('7D', f'c:{cid}:7d'), ('30D', f'c:{cid}:30d')])
+        return
+    t = (msg or {}).get('text', '').strip()
+    if not t:
+        return
+    parts = t.split(); c = parts[0].lower().split('@')[0]; args = parts[1:]
+    if c in ('/start', '/help', 'help'):
+        tg(HELP)
+    elif c in ('/top', 'top', 'news'):
+        tg('⏳ Scanning the news…')
+        st = load_state(); m, n = collect_market(), collect_news()
+        send_top(st, sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0]))
+        for k, v in st.get('menu', {}).items():
+            tgs['menu'][k] = v
+    elif c == '/chart':
+        cmd_chart(args)
+    elif c == '/movers':
+        cmd_movers(tgs)
+    elif c == '/hacks':
+        cmd_hacks(tgs)
+    elif c == '/story':
+        cmd_story(tgs)
+    elif c == '/mute':
+        hrs = float(args[0]) if args and re.match(r'^\d+(\.\d+)?$', args[0]) else 3
+        tgs['mute_until'] = NOW + hrs * 3600; tg(f'🔕 Alerts paused for {hrs:g}h. /unmute to resume.')
+    elif c == '/unmute':
+        tgs['mute_until'] = 0; tg('🔔 Alerts back on.')
+    elif c == '/post' or re.match(r'https?://', t):
+        url = args[0] if c == '/post' and args else t
+        if not re.match(r'https?://', url):
+            tg('Send /post followed by a news link.'); return
+        tg('⏳ Reading the article and making your post…')
+        pg = get(url); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
+        ttl = html.unescape(ttl.group(1)).split(' | ')[0].split(' - ')[0].strip() if ttl else url
+        make_post({'title': ttl, 'url': url, 'src': re.sub(r'^https?://(www\.)?([^/]+).*', r'\2', url), 'urls': [url]})
+    else:
+        tg(HELP)
+
+
+def listen(seconds=270):
+    """Long-poll Telegram for ~4.5 min so taps and commands get answered within seconds."""
+    tgs = load_tg()
+    try:
+        requests.post(f'https://api.telegram.org/bot{TOKEN}/setMyCommands', timeout=10,
+                      data={'commands': json.dumps([{'command': a, 'description': b} for a, b in COMMANDS])})
+    except Exception:
+        pass
+    end = time.time() + seconds
+    while time.time() < end - 5:
+        try:
+            r = requests.get(f'https://api.telegram.org/bot{TOKEN}/getUpdates', timeout=40,
+                             params={'offset': tgs.get('offset', 0) + 1, 'timeout': int(min(25, max(1, end - time.time() - 5)))})
+            ups = r.json().get('result', []) if r.ok else []
+        except Exception as e:
+            print('poll fail', e); time.sleep(3); continue
+        for u in ups:
+            tgs['offset'] = max(tgs.get('offset', 0), u['update_id'])
+            save_tg(tgs)                                 # never re-run a command if we crash
+            try:
+                handle(u, tgs)
+            except Exception as e:
+                print('handle fail', e); tg('⚠️ Something went wrong with that request. Try again.')
+            save_tg(tgs)
+    save_tg(tgs)
 
 
 if __name__ == '__main__':
     mode = sys.argv[1] if sys.argv[1:] else 'scan'
     if mode == 'listen':
         listen()
-    elif mode == 'top':
-        st = load_state(); m, n = collect_market(), collect_news()
-        send_top(st, sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0])); save_state(st)
     else:
         main()
