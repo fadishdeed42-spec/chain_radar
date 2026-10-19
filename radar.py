@@ -103,6 +103,11 @@ def collect_reddit():
                     out.append({'title': d['title'], 'ups': d.get('ups', 0), 'comments': d.get('num_comments', 0)})
         except Exception as e:
             print('reddit parse', e)
+    if not out:  # JSON API blocks cloud IPs; RSS often still works (no vote counts)
+        for kind in ('rising', 'hot'):
+            r = get(f'https://www.reddit.com/r/CryptoCurrency/{kind}/.rss')
+            if r:
+                out += [{'title': html.unescape(e.get('title', '')), 'ups': 0, 'comments': 0} for e in feedparser.parse(r.content).entries[:25]]
     return out
 
 
