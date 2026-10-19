@@ -1,0 +1,4 @@
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 326
+    (E(draft(f"{h.get("name")} hacked for ${amt/1e6:,.1f}M ({h.get("technique") or "exploit"})", None, ["DefiLlama"])))
+                       ^^^^
+SyntaxError: f-string: f-string: unmatched '('
