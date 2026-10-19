@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
+    inputs:
+      mode: {description: 'listen or test', default: listen}
 permissions:
   contents: write
 concurrency:
@@ -26,7 +28,7 @@ jobs:
         run: |
           mkdir -p state
           set -o pipefail
-          python -u radar.py listen 2>&1 | tee state/listen.log
+          python -u radar.py ${{ github.event.inputs.mode || 'listen' }} 2>&1 | tee state/listen.log
       - name: save state
         if: always()
         run: |

@@ -156,12 +156,20 @@ def cluster(items):
     return groups
 
 
+AMBIG = {'near', 'flow', 'pi', 'gas', 'sun', 'pump', 'core', 'story', 'movement', 'mantle', 'sonic', 'stacks', 'render', 'kaspa',
+         'injective', 'tron', 'sei', 'sui', 'ondo', 'aave', 'maker', 'sky', 'hype', 'bonk', 'jupiter', 'celestia', 'arbitrum', 'optimism',
+         'polygon', 'cronos', 'theta', 'the graph', 'gala', 'immutable', 'beam', 'ronin', 'pyth', 'worldcoin', 'virtual', 'ethena',
+         'bitget token', 'leo', 'dai', 'usds', 'world liberty financial', 'official trump', 'gate', 'dexe', 'jito', 'raydium', 'quant'}
+
+
 def coin_in(text, market):
     t = ' ' + text + ' '
     for c in market:
         if c['rank'] > 100:
             continue
-        if re.search(r'[\s(]' + re.escape(c['name']) + r'[\s,.:\'’)]', t, re.I) or \
+        if c['name'].lower() in AMBIG and not re.search(r'[\s($]' + re.escape(c['sym']) + r'[\s,.:)]', t):
+            continue
+        if re.search(r'[\s(]' + re.escape(c['name']) + r'[\s,.:\'’)]', t) or \
            (len(c['sym']) >= 3 and re.search(r'[\s($]' + re.escape(c['sym']) + r'[\s,.:)]', t)):
             return c
     return None
@@ -332,10 +340,15 @@ def main():
         st['hacks'][k] = NOW
         if muted:
             continue
-        tg(f'🚨 <b>HACK ALERT</b> · {E(str(h.get("name")))} · ${amt/1e6:,.1f}M\n'
-           f'Chain: {E(str(h.get("chain") or h.get("chains") or "?"))} · Method: {E(str(h.get("technique") or h.get("classification") or "?"))}\n\n'
-           f'✍️ <code>{E(draft(f"{h.get("name")} hacked for ${amt/1e6:,.1f}M ({h.get("technique") or "exploit"})", None, ["DefiLlama"]))}</code>\n\n'
-           f'🔗 <a href="https://defillama.com/hacks">DefiLlama hacks</a> (verify with a news source before posting)')
+        when = datetime.fromtimestamp(float(h.get('date', NOW)), timezone.utc).strftime('%b %d')
+        hk = hashlib.md5(k.encode()).hexdigest()[:12]
+        hitem = {'t': NOW, 'title': f'{h.get("name")} hacked for ${amt/1e6:,.1f} million', 'url': '', 'src': 'DefiLlama', 'tag': 'HACK',
+                 'hack': {'amount': card.big_money(f'${amt:,.0f}'), 'chain': str(h.get('chain') or (h.get('chains') or [''])[0] or ''),
+                          'method': str(h.get('technique') or h.get('classification') or '')[:28], 'date': when},
+                 'facts': f'Hack date: {when}. Chain: {h.get("chain") or h.get("chains")}. Method: {h.get("technique") or h.get("classification")}. Amount: ${amt:,.0f}. (DefiLlama hacks database.)'}
+        st.setdefault('menu', {})[hk] = hitem
+        img = card.alert_card(hitem['title'], hitem['hack']['amount'], [('Chain', hitem['hack']['chain']), ('Method', hitem['hack']['method']), ('Date', when)], 'HACKED', 'DefiLlama')
+        tg(f'🚨 <b>HACK ALERT</b> · {E(str(h.get("name")))} · ${amt/1e6:,.1f}M\nVerify with a news source before posting.', img, [('📝 Make full post', 'p:' + hk)])
         sent += 1
 
     # 2) big price movers
@@ -465,7 +478,7 @@ def candles(coin, span='1d'):
     if r:
         try:
             rows = [(t * 1000, o, h, l, c, v) for t, l, h, o, c, v in r.json()][::-1][-n:]
-            if len(rows) >= 20:
+            if len(rows) >= 20 and (not coin.get('price') or abs(rows[-1][4] / coin['price'] - 1) < 0.15):
                 return rows, 'Coinbase'
         except Exception as e:
             print('coinbase parse', e)
@@ -477,14 +490,14 @@ def candles(coin, span='1d'):
         return [], ''
 
 
-def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None):
+def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None):  # col kept for old calls
     rows, src = candles(coin, span)
     if not rows and span == '1d':
         rows, src = candles(coin, '7d'); span = '7d'
     if not rows:
         return None
     try:
-        return card.chart_card(title, coin, rows, SPANS[span][3], tag, col or card.RED, src, note)
+        return card.chart_card(title, coin, rows, SPANS[span][3], tag, src, note)
     except Exception as e:
         print('card fail', e)
         return None
@@ -503,19 +516,45 @@ def article_text(urls):
     return ''
 
 
+_MODELS = []
+
+
+def gemini_models():
+    """Ask Google which models this key can use; prefer fast 'flash' models, newest first."""
+    if _MODELS:
+        return _MODELS
+    try:
+        r = requests.get('https://generativelanguage.googleapis.com/v1beta/models', params={'key': GEMINI, 'pageSize': 200}, timeout=20)
+        ms = [m['name'].split('/')[-1] for m in r.json().get('models', []) if 'generateContent' in m.get('supportedGenerationMethods', [])]
+        def rank(n):
+            return (('flash' not in n) * 4 + ('lite' in n) * 1 + ('preview' in n or 'exp' in n) * 2 + ('tts' in n or 'image' in n or 'live' in n) * 9,
+                    -float((re.findall(r'(\d+(?:\.\d+)?)', n) or ['0'])[0]))
+        ms = [m for m in ms if 'gemini' in m and 'embedding' not in m]
+        _MODELS.extend(sorted(ms, key=rank)[:6])
+    except Exception as e:
+        print('model list fail', e)
+    if not _MODELS:
+        _MODELS.extend(['gemini-flash-latest', 'gemini-flash-lite-latest'])
+    print('gemini models', _MODELS)
+    return _MODELS
+
+
 def gemini(prompt):
     if not GEMINI:
         return ''
-    for model in ('gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.0-flash'):
-        try:
-            r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-                              params={'key': GEMINI}, timeout=60,
-                              json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
-            if r.ok:
-                return r.json()['candidates'][0]['content']['parts'][0]['text'].strip()
-            print('gemini', model, r.status_code, r.text[:120])
-        except Exception as e:
-            print('gemini fail', model, e)
+    for attempt in range(3):
+        for model in gemini_models():
+            try:
+                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
+                                  params={'key': GEMINI}, timeout=90,
+                                  json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
+                if r.ok:
+                    parts = r.json()['candidates'][0]['content']['parts']
+                    return ''.join(p.get('text', '') for p in parts).strip()
+                print('gemini', model, r.status_code, r.text[:90].replace('\n', ' '))
+            except Exception as e:
+                print('gemini fail', model, e)
+        time.sleep(4 * (attempt + 1))
     return ''
 
 
@@ -525,15 +564,75 @@ STYLE = ('You write for the X account "Chain Secrets": crypto news and true cryp
 FORMAT = ('Reply in exactly this format and nothing else:\n'
           'TITLE: <punchy image headline, max 60 characters, include the key number if there is one>\n'
           'KEYFACT: <one short factual sentence, max 110 characters>\n'
+          'TAG: <one of BREAKING, HACK, ARREST, LAWSUIT, COURT, REGULATION, ETF, MARKET, SCAM, WHALE, MYSTERY, TRUE STORY>\n'
+          'VISUAL: <choose the image that best tells THIS story: CHART only if the story is about the price move or market of one '
+          'specific coin/token; STAT if one striking number defines it; TIMELINE if it is a sequence of events over time; '
+          'VERSUS if it is a contrast (promised vs delivered, before vs after); QUOTE only if the facts contain an exact quote; '
+          'ALERT for hacks, exploits, outages or frozen withdrawals>\n'
+          'SYMBOL: <ticker of the coin to chart, or NONE>\n'
+          'STAT: <big value, max 10 chars, e.g. $15M or 11,196 YRS> | <label, max 30 chars>\n'
+          'TIMELINE: <date> = <event, max 60 chars> ; <date> = <event> ; <date> = <event> (3-4 steps, last = the twist)\n'
+          'VERSUS: <left label> = <left value> || <right label> = <right value>  (values max 18 chars)\n'
+          'QUOTE: <exact quote copied word for word from the facts> = <speaker>   (or NONE)\n'
           'POST: <one X post, max 270 characters: hook line, what happened, key number, why it matters>\n'
           'THREAD:\n1/ ...\n2/ ...\n3/ ...\n4/ ...\n'
           'REPLY: <one short reply to post under big crypto news accounts>\n')
 
 
 def parse_out(out):
-    g = lambda k: (re.search(k + r':\s*(.+)', out) or [None, ''])[1].strip()
+    g = lambda k: (re.search(r'(?m)^' + k + r':\s*(.+)', out) or [None, ''])[1].strip()
     thread = (re.search(r'THREAD:\s*(.+?)(?:\nREPLY:|\Z)', out, re.S) or [None, ''])[1].strip()
-    return {'title': g('TITLE'), 'keyfact': g('KEYFACT'), 'post': g('POST'), 'thread': thread, 'reply': g('REPLY')}
+    return {'title': g('TITLE'), 'keyfact': g('KEYFACT'), 'tag': g('TAG').upper(), 'visual': g('VISUAL').upper().split()[0] if g('VISUAL') else '',
+            'symbol': g('SYMBOL').upper().strip('$ '), 'stat': g('STAT'), 'timeline': g('TIMELINE'), 'versus': g('VERSUS'),
+            'quote': g('QUOTE'), 'post': g('POST'), 'thread': thread, 'reply': g('REPLY')}
+
+
+def build_image(p, item, facts, coin_hint=None):
+    """Pick the visual that fits the story; every branch is validated so we never show a misleading chart."""
+    tag = p.get('tag') or item.get('tag') or 'BREAKING'
+    title, src, kf = p['title'], item.get('src') or 'Chain Secrets', p.get('keyfact', '')
+    vis = p.get('visual', '')
+    low = facts.lower()
+    try:
+        if item.get('hack'):
+            h = item['hack']
+            return card.alert_card(title, h.get('amount', ''), [('Chain', h.get('chain', '')), ('Method', h.get('method', '')), ('Date', h.get('date', ''))],
+                                   'HACKED', src)
+        if vis == 'CHART' or coin_hint:
+            coin = coin_hint
+            if not coin and p.get('symbol') not in ('', 'NONE') and re.search(r'\b' + re.escape(p['symbol']) + r'\b', facts, re.I):
+                h = cg_search(p['symbol']); coin = coin_by_id(h['id']) if h else None
+            if coin:
+                img = coin_card(coin, title, '1d', tag if tag != 'BREAKING' else 'MARKET')
+                if img:
+                    return img
+        if vis == 'ALERT':
+            amt = card.big_money(title + ' ' + kf + ' ' + item.get('title', ''))
+            word = 'FROZEN' if re.search(r'halt|frozen|freeze|paus|suspend', low) else 'OUTAGE' if 'outage' in low else 'EXPLOITED' if 'exploit' in low else 'HACKED'
+            return card.alert_card(title, amt, [], word, src, 'HACK' if word in ('HACKED', 'EXPLOITED') else 'BREAKING')
+        if vis == 'QUOTE' and '=' in p.get('quote', '') and 'NONE' not in p['quote'].upper():
+            q, who = [x.strip() for x in p['quote'].rsplit('=', 1)]
+            core = re.sub(r'[^a-z0-9 ]', '', q.lower())[:60]
+            if core and core in re.sub(r'[^a-z0-9 ]', '', low):        # only quotes that really appear in the source
+                return card.quote_card(title, q, who, tag, src)
+        if vis == 'TIMELINE' and p.get('timeline'):
+            steps = [tuple(x.strip() for x in st.split('=', 1)) for st in p['timeline'].split(';') if '=' in st]
+            if len(steps) >= 3:
+                return card.timeline_card(title, steps, tag, src)
+        if vis == 'VERSUS' and '||' in p.get('versus', ''):
+            l, r = [x.split('=', 1) for x in p['versus'].split('||')]
+            if len(l) == 2 and len(r) == 2:
+                return card.versus_card(title, (l[0].strip(), l[1].strip()), (r[0].strip(), r[1].strip()), kf, tag, src)
+        if p.get('stat') and '|' in p['stat']:
+            v, lab = [x.strip() for x in p['stat'].split('|', 1)]
+            if v and len(v) <= 12:
+                return card.stat_card(title, v, lab, kf, tag, src)
+        bm = card.big_money(title + ' ' + item.get('title', ''))
+        if bm:
+            return card.stat_card(title, bm, 'at the center of this story', kf, tag, src)
+    except Exception as e:
+        print('visual fail', vis, e)
+    return card.headline_card(title, src, kf, tag)
 
 
 def deliver(p, img, url='', src=''):
@@ -545,19 +644,19 @@ def deliver(p, img, url='', src=''):
 
 
 def make_post(item):
-    coin = coin_by_id(item['coin']) if item.get('coin') else find_coin(item['title'])
+    coin = coin_by_id(item['coin']) if item.get('coin') else None
     body = article_text(item.get('urls') or [item['url']]) if item.get('url') else ''
     facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item.get("src", "")])}\n'
-             + (f'Price now: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
+             + (f'Coin in this story: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
              + (item.get('facts', '') + '\n') + (f'Article text:\n{body}\n' if body else ''))
     p = parse_out(gemini(STYLE + FORMAT + '\nFACTS:\n' + facts))
     if not p['title']:
-        p = {'title': item['title'][:90], 'keyfact': '', 'reply': '', 'thread': '',
+        p = {'title': item['title'][:90], 'keyfact': '', 'reply': '', 'thread': '', 'tag': item.get('tag', 'BREAKING'), 'visual': '',
+             'symbol': '', 'stat': '', 'timeline': '', 'versus': '', 'quote': '',
              'post': f'⚡ {item["title"]}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')}
-    img = coin_card(coin, p['title']) if coin else None
-    if not img:
-        img = card.headline_card(p['title'], item.get('src', 'Chain Secrets'), p['keyfact'], item.get('tag', 'BREAKING'),
-                                 card.GOLD if item.get('tag') == 'TRUE STORY' else card.RED)
+        tg('⚠️ The AI writer is busy right now, so this one is a simple version. Tap the button again in a minute for the full post.')
+    chart_it = item.get('chart') or re.search(r'\b(pumps|dumps) \d', item['title']) or p.get('visual') == 'CHART'
+    img = build_image(p, item, facts, coin if chart_it else None)
     deliver(p, img, item.get('url', ''), item.get('src', ''))
 
 
@@ -612,7 +711,9 @@ def cmd_hacks(tgs):
         msg += f'\n<b>{n}.</b> {E(str(h.get("name")))} · ${amt/1e6:,.1f}M · {when} · {E(str(h.get("technique") or h.get("classification") or ""))}'
         k = hashlib.md5(f'{h.get("name")}{h.get("date")}'.encode()).hexdigest()[:12]
         tgs['menu'][k] = {'t': NOW, 'title': f'{h.get("name")} hacked for ${amt/1e6:,.1f} million', 'url': '', 'src': 'DefiLlama',
-                          'tag': 'HACK', 'facts': f'Hack date: {when}. Chain: {h.get("chain") or h.get("chains")}. Method: {h.get("technique") or h.get("classification")}. Amount: ${amt:,.0f}. (From the DefiLlama hacks database.)'}
+                          'tag': 'HACK', 'hack': {'amount': card.big_money(f'${amt:,.0f}'), 'chain': str(h.get('chain') or (h.get('chains') or [''])[0] or ''),
+                                                  'method': str(h.get('technique') or h.get('classification') or '')[:28], 'date': when},
+                          'facts': f'Hack date: {when}. Chain: {h.get("chain") or h.get("chains")}. Method: {h.get("technique") or h.get("classification")}. Amount: ${amt:,.0f}. (From the DefiLlama hacks database.)'}
         btn.append((f'📝 {n}', 'p:' + k))
     tg(msg, None, btn)
 
@@ -721,5 +822,10 @@ if __name__ == '__main__':
     mode = sys.argv[1] if sys.argv[1:] else 'scan'
     if mode == 'listen':
         listen()
+    elif mode == 'test':                      # full post for the current #1 story (end-to-end check)
+        m, n = collect_market(), collect_news()
+        (sc, lead, coin, srcs, age), g = sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0])[0]
+        st = load_state(); k = remember(st, g, lead, coin, srcs)
+        tg('🧪 Test post for the #1 story right now:'); make_post(st['menu'][k])
     else:
         main()
