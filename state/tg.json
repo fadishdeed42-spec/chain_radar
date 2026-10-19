@@ -26,6 +26,37 @@
 },
 "t": 1792440863.053744
 },
+"74d03d898a": {
+"coin": "",
+"facts": "Headline: Bitget hacked for $387.0 million\nSources: DefiLlama\nHack date: Sep 24. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount: $387,000,000. (From the DefiLlama hacks database.)\n",
+"item": {
+"hack": {
+"amount": "$387M",
+"chain": "['Ethereum', 'XRP', 'Tron', 'Zcash']",
+"date": "Sep 24",
+"method": "Hot Wallet Key Compromised"
+},
+"src": "DefiLlama",
+"tag": "HACK",
+"title": "Bitget hacked for $387.0 million",
+"url": ""
+},
+"p": {
+"keyfact": "DefiLlama reports Bitget suffered a $387M hot wallet key compromise on Sep 24.",
+"post": "Hot wallets remain crypto's favorite trapdoor. DefiLlama reports Bitget was hit for a staggering $387.0 million on September 24 after a hot wallet key was compromised across multiple chains. When keys fall, the vault opens.",
+"quote": "NONE",
+"reply": "Another day, another hot wallet masterclass in why keys matter.",
+"stat": "$387.0M | Stolen funds",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "1/ Keys to the kingdom, handed over. On September 24, a major security breach hit Bitget, resulting in a massive crypto heist tracked directly by DefiLlama. \n2/ The damage? A cool $387,000,000 vanished into thin air. The attackers didn't just target one chain\u2014they struck across Ethereum, XRP, Tron, and Zcash.\n3/ The vector of choice: a compromised hot wallet key. It's the classic tale of digital doors left unlocked, proving once again that convenience often comes at a very high price in Web3.",
+"timeline": "Sep 24 = Hot wallet key compromised ; Sep 24 = $387,000,000 drained ; Sep 24 = DefiLlama logs breach across 4 chains",
+"title": "$387M Bitget Hot Wallet Drain",
+"versus": "Secured = Funds safe || Compromised = $387M stolen",
+"visual": "ALERT"
+},
+"t": 1792441566.0702703
+},
 "98aa933242": {
 "coin": "",
 "facts": "Headline: SEC Charges WhatsApp-Driven Crypto Fraud Schemes Totaling Over $15 Million\nSources: JD Supra\n\n",
@@ -51,6 +82,32 @@
 "visual": "STAT"
 },
 "t": 1792441142.068652
+},
+"b135c1ed24": {
+"coin": "bitcoin",
+"facts": "Headline: Elon Dumped Bitcoin After 49 Days\nSources: Chain Secrets\nVerified story facts:\nFeb 2021: Tesla reveals it bought $1.5B of bitcoin. Mar 24: \"You can now buy a Tesla with Bitcoin\", and bitcoin paid to Tesla \"will be retained as Bitcoin\". May 12: payments suspended, BTC drops ~$3,000 in 15 minutes, and Elon says Tesla will not be selling any bitcoin. 2022: Tesla converts ~75% of its bitcoin to cash (+$936M).\nReal BTC/USD daily chart (Bitstamp), Jan\u2013May 2021. Tweets/statements shown are recreations.\n",
+"item": {
+"hack": null,
+"src": "Chain Secrets",
+"tag": "TRUE STORY",
+"title": "Elon Dumped Bitcoin After 49 Days",
+"url": null
+},
+"p": {
+"keyfact": "Tesla bought $1.5B in BTC, accepted it for 49 days, then dumped 75% later.",
+"post": "Remember when Tesla promised to keep your Bitcoin? They accepted it for just 49 days before suspending payments, then quietly dumped 75% of their stash for cash. The chart tells the real story.",
+"quote": "You can now buy a Tesla with Bitcoin = Elon",
+"reply": "Actions speak louder than tweets.",
+"stat": "49 DAYS | BTC payment window",
+"symbol": "BTC",
+"tag": "TRUE STORY",
+"thread": "1/ In February 2021, Tesla shocked the market by revealing a massive $1.5B Bitcoin purchase.\n2/ By March 24, Elon Musk tweeted that you could buy a Tesla with Bitcoin, promising payments would be retained as crypto.\n3/ That promise lasted just 49 days. On May 12, payments were suspended and BTC dropped ~$3,000 in 15 minutes.\n4/ Despite claiming Tesla wouldn't sell, filings later showed they converted ~75% of their bitcoin to cash for a $936M gain.",
+"timeline": "Feb 2021 = Tesla buys $1.5B BTC ; Mar 24, 2021 = Tesla accepts BTC for cars ; May 12, 2021 = BTC payments suspended ; 2022 = Tesla converts 75% to cash",
+"title": "Elon's 49-Day Bitcoin Flip",
+"versus": "Promised = Retained as Bitcoin || Delivered = 75% sold for cash",
+"visual": "TIMELINE"
+},
+"t": 1792441495.1718488
 }
 },
 "menu": {
@@ -64,6 +121,20 @@
 "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
 "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ta1JaVmN3TXhUWVgwajQ3MmhSbUNmZXZWNDF4R2FFQ0pTOHo3WWE4VDVBQ01EQzQxRWtIbkVMY3R6VTZHMGNROGtNd2I0bHFTSndyd05xRG5pVDNqNkFES1BDeDZZMXo3YlFCSTFscHZlT3J6V1NXaUdfZzVfR00?oc=5",
 "urls": []
+},
+"53cfbe7cba24": {
+"facts": "Hack date: Sep 22. Chain: ['Neutron']. Method: Malicious Proposal. Amount: $4,400,000. (From the DefiLlama hacks database.)",
+"hack": {
+"amount": "$4.4M",
+"chain": "['Neutron']",
+"date": "Sep 22",
+"method": "Malicious Proposal"
+},
+"src": "DefiLlama",
+"t": 1792441555.114739,
+"tag": "HACK",
+"title": "Drop hacked for $4.4 million",
+"url": ""
 },
 "5b9a3547f707": {
 "coin": "",
@@ -135,6 +206,48 @@
 "https://cryptoslate.com/tether-loses-nearly-5-billion-across-crypto-exchanges-as-usdc-and-rlusd-rivals-pay-to-win-liquidity/"
 ]
 },
+"aaf1f21a1add": {
+"facts": "Hack date: Sep 24. Chain: ['Ethereum', 'BSC', 'Bitcoin', 'Tron']. Method: Hot Wallet Key Compromised. Amount: $7,000,000. (From the DefiLlama hacks database.)",
+"hack": {
+"amount": "$7M",
+"chain": "['Ethereum', 'BSC', 'Bitcoin', 'Tron']",
+"date": "Sep 24",
+"method": "Hot Wallet Key Compromised"
+},
+"src": "DefiLlama",
+"t": 1792441555.114739,
+"tag": "HACK",
+"title": "Duelbits hacked for $7.0 million",
+"url": ""
+},
+"b91934c8c70e": {
+"facts": "Hack date: Oct 13. Chain: ['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']. Method: Key Leaked via Infrastructure. Amount: $4,208,000. (From the DefiLlama hacks database.)",
+"hack": {
+"amount": "$4.21M",
+"chain": "['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']",
+"date": "Oct 13",
+"method": "Key Leaked via Infrastructur"
+},
+"src": "DefiLlama",
+"t": 1792441555.114739,
+"tag": "HACK",
+"title": "Gamdom hacked for $4.2 million",
+"url": ""
+},
+"c3c7c5f65313": {
+"facts": "Hack date: Sep 24. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount: $387,000,000. (From the DefiLlama hacks database.)",
+"hack": {
+"amount": "$387M",
+"chain": "['Ethereum', 'XRP', 'Tron', 'Zcash']",
+"date": "Sep 24",
+"method": "Hot Wallet Key Compromised"
+},
+"src": "DefiLlama",
+"t": 1792441555.114739,
+"tag": "HACK",
+"title": "Bitget hacked for $387.0 million",
+"url": ""
+},
 "cf5211dacea2": {
 "coin": "",
 "src": "Decrypt",
@@ -147,6 +260,20 @@
 "urls": [
 "https://decrypt.co/381337/abandoned-bitcoin-wallet-noah-doe-lawsuit-moves-33-million"
 ]
+},
+"d9225a5451d9": {
+"facts": "Hack date: Oct 09. Chain: None. Method: Supply Chain Attack. Amount: $93,000,000. (From the DefiLlama hacks database.)",
+"hack": {
+"amount": "$93M",
+"chain": "",
+"date": "Oct 09",
+"method": "Supply Chain Attack"
+},
+"src": "DefiLlama",
+"t": 1792441555.114739,
+"tag": "HACK",
+"title": "Ledger (Supply Chain) hacked for $93.0 million",
+"url": ""
 },
 "dde3129c36d1": {
 "coin": "",
@@ -172,6 +299,20 @@
 "https://www.theblock.co/news/business/2026-10-19-mastercard-unveils-stablecoin-security-tool-to-screen-payments-for-fraud-and-sanctions-risks-420658"
 ]
 },
+"e62b47851886": {
+"facts": "Hack date: Sep 22. Chain: ['Neutron']. Method: Malicious Proposal. Amount: $4,900,000. (From the DefiLlama hacks database.)",
+"hack": {
+"amount": "$4.9M",
+"chain": "['Neutron']",
+"date": "Sep 22",
+"method": "Malicious Proposal"
+},
+"src": "DefiLlama",
+"t": 1792441555.114739,
+"tag": "HACK",
+"title": "Astroport hacked for $4.9 million",
+"url": ""
+},
 "ff0248c8cb49": {
 "coin": "",
 "src": "CBC",
@@ -185,6 +326,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489138,
-"story_i": 0
+"offset": 138489146,
+"story_i": 1
 }
