@@ -24,7 +24,7 @@ GOLD, RED, GRN = (232, 181, 64), (239, 68, 80), (38, 210, 160)
 BLUE, PURPLE, ORANGE = (77, 132, 255), (139, 92, 246), (249, 140, 50)
 TAGS = {'BREAKING': RED, 'HACK': RED, 'EXPLOIT': RED, 'ARREST': PURPLE, 'LAWSUIT': PURPLE, 'REGULATION': BLUE, 'COURT': PURPLE,
         'ETF': BLUE, 'MARKET': GRN, 'PRICE ALERT': RED, 'SCAM': ORANGE, 'WHALE': (20, 184, 166), 'TRUE STORY': GOLD,
-        'CHART': GOLD, 'MYSTERY': PURPLE}
+        'CHART': GOLD, 'MYSTERY': PURPLE, 'MOVER': BLUE, '24H CHART': GOLD, '7D CHART': GOLD, '30D CHART': GOLD, '1Y CHART': GOLD}
 NUM = re.compile(r'^[\$€£]?\d[\d,.]*[%kKmMbBxX]?\+?$|^(million|billion|trillion|record|years?|%)$', re.I)
 _logo = None
 
@@ -248,18 +248,26 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
         for xx in range(int(xe), int(cx1), 12):
             d.line([xx, yb, xx + 6, yb], fill=(150, 156, 172), width=2)
         d.text((cx1 - 4, yb - 6), f'before news {fmt(p0)}', font=F(SEMI, 15), fill=MUT, anchor='rd')
-    # bracket showing the real move
     xa, xb = X(i0), X(i1); ya, yb2 = Y(p0), Y(p1)
-    bx = min(max(xb + bw + 14, xa + 20), cx1 - 8)
-    d.line([bx, ya, bx, yb2], fill=acc, width=4)
-    d.line([bx - 10, ya, bx + 2, ya], fill=acc, width=4); d.line([bx - 10, yb2, bx + 2, yb2], fill=acc, width=4)
-    if not ev:
-        d.ellipse([xa - 7, ya - 7, xa + 7, ya + 7], fill=acc); d.ellipse([xb - 7, yb2 - 7, xb + 7, yb2 + 7], fill=acc)
     secs = (rows[i1][0] - rows[i0][0]) / 1000
     label = f'{mv * 100:+.1f}% in {dur(max(secs, 60))}' + (' after the news' if ev else '')
     lw = d.textlength(label, font=F(BLACK, 22)) + 30
-    lx = min(max(bx - lw / 2, cx0), cx1 - lw)                    # label sits in the empty space beyond the starting level
-    lym = ya - 54 if mv < 0 else ya + 14
+    if ev:                                                          # vertical bracket: price at news -> extreme after it
+        bx = min(max(xb + bw + 14, xa + 20), cx1 - 8)
+        d.line([bx, ya, bx, yb2], fill=acc, width=4)
+        d.line([bx - 10, ya, bx + 2, ya], fill=acc, width=4); d.line([bx - 10, yb2, bx + 2, yb2], fill=acc, width=4)
+        lx = min(max(bx - lw / 2, cx0), cx1 - lw)
+        lym = ya - 54 if mv < 0 else ya + 14
+    else:                                                           # measure line from the swing start to its end
+        steps = 40
+        for j in range(steps):
+            if j % 2 == 0:
+                d.line([xa + (xb - xa) * j / steps, ya + (yb2 - ya) * j / steps, xa + (xb - xa) * (j + 1) / steps,
+                        ya + (yb2 - ya) * (j + 1) / steps], fill=acc, width=3)
+        for xx, yy in ((xa, ya), (xb, yb2)):
+            d.ellipse([xx - 9, yy - 9, xx + 9, yy + 9], fill=acc, outline=BG1, width=3)
+        lx = min(max(xb - lw / 2, cx0), cx1 - lw)
+        lym = yb2 - 60 if mv > 0 else yb2 + 20
     lym = min(max(lym, cy0 - 20), cy1 - 40)
     d.rounded_rectangle([lx, lym, lx + lw, lym + 40], radius=10, fill=acc)
     d.text((lx + lw / 2, lym + 20), label, font=F(BLACK, 22), fill=(8, 10, 12), anchor='mm')
@@ -334,13 +342,13 @@ def timeline_card(title, steps, tag='TRUE STORY', source=''):
 
 
 # ---------------------------------------------------------------- VERSUS
-def versus_card(title, left, right, keyfact='', tag='BREAKING', source=''):
+def versus_card(title, left, right, keyfact='', tag='BREAKING', source='', cols=None):
     """left/right: (label, value). Right side is the 'twist' side."""
     def body(im, y):
         d = ImageDraw.Draw(im)
         y = headline(d, title, y, sizes=(64, 58, 52, 46), maxlines=3) + 40
         pw = (W - 112 - 30) / 2; ph = 470
-        for i, ((lab, val), c) in enumerate([(left, GRN), (right, RED)]):
+        for i, ((lab, val), c) in enumerate(zip([left, right], cols or (GRN, RED))):
             x0 = 56 + i * (pw + 30); tint = tuple(int(v * 0.25) for v in c)
             d.rounded_rectangle([x0, y, x0 + pw, y + ph], radius=30, fill=PANEL, outline=c, width=3)
             d.rounded_rectangle([x0 + 3, y + 3, x0 + pw - 3, y + 72], radius=28, fill=tint)

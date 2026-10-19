@@ -871,7 +871,9 @@ def coin_move(cid, tgs):
         tg('Coin data unavailable right now.'); return
     verb = 'surges' if coin['h24'] >= 0 else 'drops'
     title = f'{coin["name"]} {verb} {abs(coin["h24"]):.1f}% in 24 hours'
-    heads = [h for h in gnews(f'"{coin["name"]}" crypto', 10) if re.search(re.escape(coin['name']) + '|' + re.escape(coin['sym']), h['title'], re.I)][:3]
+    junk = r'predict|could be worth|millionaire|should you buy|buy now|top \d|which is|best crypto|to buy|forecast|\?$'
+    heads = [h for h in gnews(f'"{coin["name"]}" crypto', 15) if re.search(re.escape(coin['name']) + '|' + re.escape(coin['sym']), h['title'], re.I)
+             and not re.search(junk, h['title'], re.I) and time.time() - h['ts'] < 36 * 3600][:3]
     img = coin_card(coin, title, '1d', 'MOVER')
     msg = f'<b>{E(coin["name"])} ({coin["sym"]})</b> · ${coin["price"]:,.6g}\n24h {coin["h24"]:+.1f}% · 1h {coin["h1"]:+.1f}%\n\n'
     if heads:
@@ -933,7 +935,7 @@ def on_this_day(tgs):
     hacks.sort(key=lambda x: -float(x[1].get('amount') or 0))
     msg, btn = f'📜 <b>On this day in crypto · {now:%B %d}</b>\n', []
     if prices:
-        msg += '\n💰 <b>Bitcoin on this date</b>\n<pre>' + '\n'.join(f'{y}  ${p:>10,.0f}   {(btc_now / p - 1) * 100:>+8,.0f}% since' for y, p in prices) \
+        msg += '\n💰 <b>Bitcoin on this date</b> <i>(and change to today)</i>\n<pre>' + '\n'.join(f'{y}  ${p:>10,.0f}   {(btc_now / p - 1) * 100:>+8,.0f}% since' for y, p in prices) \
                + (f'\nNow  ${btc_now:>10,.0f}' if btc_now else '') + '</pre>'
         y0, p0 = prices[-1]
         tgs['otd'] = {'year': y0, 'then': p0, 'now': btc_now, 'date': now.strftime('%b %d')}
@@ -956,7 +958,8 @@ def otd_card(tgs):
     pct = (o['now'] / o['then'] - 1) * 100
     card.FOOTER_LEFT = ''
     img = card.versus_card(f'Bitcoin on this day: {o["year"]} vs today', (f'{o["date"]}, {o["year"]}', f'${o["then"]:,.0f}'),
-                           ('Today', f'${o["now"]:,.0f}'), f'That is {pct:+,.0f}% in {datetime.now(timezone.utc).year - o["year"]} years.', 'MARKET', 'Coinbase daily candles')
+                           ('Today', f'${o["now"]:,.0f}'), f'That is {pct:+,.0f}% in {datetime.now(timezone.utc).year - o["year"]} years.', 'MARKET', 'Coinbase daily candles',
+                           (card.MUT, card.GRN if pct >= 0 else card.RED))
     post = f'Bitcoin on this day in {o["year"]}: ${o["then"]:,.0f}.\nToday: ${o["now"]:,.0f}.\n\nThat\'s {pct:+,.0f}%. Every chart hides a story.'
     tg(f'<b>Bitcoin: {o["year"]} vs today</b>', img)
     tg(f'📝 <b>POST</b> (tap to copy)\n<code>{E(post)}</code>')
