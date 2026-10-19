@@ -190,6 +190,34 @@
 "visual": "CHART"
 },
 "t": 1792443374.829834
+},
+"edeb4a91a1": {
+"coin": "",
+"facts": "Headline: DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks\nSources: CryptoRank\n\n",
+"item": {
+"hack": null,
+"src": "CryptoRank",
+"t0": 1792436363.0,
+"tag": null,
+"title": "DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks",
+"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX0pNVjdOb3hId0RqSVNtaWVJVDdSVGJYaVdXbHRhQW1qSkNUYno1SjFxcmJWT3RfMGJpRGJocnRkczA0U1FkT2NVQ3hmVDNGd0xzR0RKOEx0ZVlLVkF4dHo2WmNCWTRVYjRvOHBzd1NTb1p0RnJ0SDAxYzFWbC0wcldwNXRPYVBDd3QzOWltVzV1VmNYc3BKTVRBMFN2X21fTDNhSVFJV0lxX0FEeThGaTVOSFNjclZNMlhVUXJ0MUUwLW5Cd0ZF?oc=5"
+},
+"p": {
+"keyfact": "DeFi lending volume has climbed to $10B while regulators in the US and Europe investigate vault risks.",
+"post": "DeFi is back, but the regulators are watching. Lending volume just surged 150% to hit $10B, yet the SEC and European authorities are now circling to examine the risks hidden in crypto vaults. Growth is great, but the heat is rising. #DeFi",
+"quote": "NONE = NONE",
+"reply": "$10B in volume is a massive milestone, but that regulatory spotlight is going to be the real story to watch in the coming months.",
+"short": "",
+"stat": "150% | Lending Growth",
+"symbol": "NONE",
+"tag": "REGULATION",
+"thread": "1/ DeFi is hitting major milestones again. According to CryptoRank, the lending sector has seen a massive 150% surge, pushing total value to $10B.\n2/ But where there is high liquidity, there is high attention. Both the SEC and European regulators have turned their focus toward crypto vault risks.\n3/ These vaults often promise yield through complex automation, a black box that authorities are now looking to crack open.\n4/ A $10B milestone is a sign of market maturity, but it also paints a giant target for policy shifts. Stay sharp.",
+"timeline": "Q1 2024 = Volume baseline ; Q2 2024 = Rapid expansion ; Q3 2024 = $10B reached ; Present = Regulatory scrutiny",
+"title": "DeFi Lending Surges 150% to $10B",
+"versus": "NONE = NONE || NONE = NONE",
+"visual": "STAT"
+},
+"t": 1792443839.901936
 }
 },
 "menu": {
@@ -205,15 +233,16 @@
 "urls": []
 },
 "53cfbe7cba24": {
-"facts": "Hack date: Sep 22. Chain: ['Neutron']. Method: Malicious Proposal. Amount: $4,400,000. (From the DefiLlama hacks database.)",
+"facts": "Hack date: Sep 22, 2026. Protocol: Drop. Chain: ['Neutron']. Method: Malicious Proposal. Amount stolen: $4,400,000. (DefiLlama hacks database.)",
 "hack": {
 "amount": "$4.4M",
 "chain": "['Neutron']",
-"date": "Sep 22",
+"date": "Sep 22, 2026",
 "method": "Malicious Proposal"
 },
+"key": "53cfbe7cba24",
 "src": "DefiLlama",
-"t": 1792442284.1852984,
+"t": 1792443938.344863,
 "tag": "HACK",
 "title": "Drop hacked for $4.4 million",
 "url": ""
@@ -289,43 +318,46 @@
 ]
 },
 "aaf1f21a1add": {
-"facts": "Hack date: Sep 24. Chain: ['Ethereum', 'BSC', 'Bitcoin', 'Tron']. Method: Hot Wallet Key Compromised. Amount: $7,000,000. (From the DefiLlama hacks database.)",
+"facts": "Hack date: Sep 24, 2026. Protocol: Duelbits. Chain: ['Ethereum', 'BSC', 'Bitcoin', 'Tron']. Method: Hot Wallet Key Compromised. Amount stolen: $7,000,000. (DefiLlama hacks database.)",
 "hack": {
 "amount": "$7M",
 "chain": "['Ethereum', 'BSC', 'Bitcoin', 'Tron']",
-"date": "Sep 24",
+"date": "Sep 24, 2026",
 "method": "Hot Wallet Key Compromised"
 },
+"key": "aaf1f21a1add",
 "src": "DefiLlama",
-"t": 1792442284.1852984,
+"t": 1792443938.344863,
 "tag": "HACK",
 "title": "Duelbits hacked for $7.0 million",
 "url": ""
 },
 "b91934c8c70e": {
-"facts": "Hack date: Oct 13. Chain: ['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']. Method: Key Leaked via Infrastructure. Amount: $4,208,000. (From the DefiLlama hacks database.)",
+"facts": "Hack date: Oct 13, 2026. Protocol: Gamdom. Chain: ['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']. Method: Key Leaked via Infrastructure. Amount stolen: $4,208,000. (DefiLlama hacks database.)",
 "hack": {
 "amount": "$4.21M",
 "chain": "['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']",
-"date": "Oct 13",
+"date": "Oct 13, 2026",
 "method": "Key Leaked via Infrastructur"
 },
+"key": "b91934c8c70e",
 "src": "DefiLlama",
-"t": 1792442284.1852984,
+"t": 1792443938.344863,
 "tag": "HACK",
 "title": "Gamdom hacked for $4.2 million",
 "url": ""
 },
 "c3c7c5f65313": {
-"facts": "Hack date: Sep 24. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount: $387,000,000. (From the DefiLlama hacks database.)",
+"facts": "Hack date: Sep 24, 2026. Protocol: Bitget. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount stolen: $387,000,000. (DefiLlama hacks database.)",
 "hack": {
 "amount": "$387M",
 "chain": "['Ethereum', 'XRP', 'Tron', 'Zcash']",
-"date": "Sep 24",
+"date": "Sep 24, 2026",
 "method": "Hot Wallet Key Compromised"
 },
+"key": "c3c7c5f65313",
 "src": "DefiLlama",
-"t": 1792442284.1852984,
+"t": 1792443938.344863,
 "tag": "HACK",
 "title": "Bitget hacked for $387.0 million",
 "url": ""
@@ -344,15 +376,16 @@
 ]
 },
 "d9225a5451d9": {
-"facts": "Hack date: Oct 09. Chain: None. Method: Supply Chain Attack. Amount: $93,000,000. (From the DefiLlama hacks database.)",
+"facts": "Hack date: Oct 09, 2026. Protocol: Ledger (Supply Chain). Chain: None. Method: Supply Chain Attack. Amount stolen: $93,000,000. (DefiLlama hacks database.)",
 "hack": {
 "amount": "$93M",
 "chain": "",
-"date": "Oct 09",
+"date": "Oct 09, 2026",
 "method": "Supply Chain Attack"
 },
+"key": "d9225a5451d9",
 "src": "DefiLlama",
-"t": 1792442284.1852984,
+"t": 1792443938.344863,
 "tag": "HACK",
 "title": "Ledger (Supply Chain) hacked for $93.0 million",
 "url": ""
@@ -382,15 +415,16 @@
 ]
 },
 "e62b47851886": {
-"facts": "Hack date: Sep 22. Chain: ['Neutron']. Method: Malicious Proposal. Amount: $4,900,000. (From the DefiLlama hacks database.)",
+"facts": "Hack date: Sep 22, 2026. Protocol: Astroport. Chain: ['Neutron']. Method: Malicious Proposal. Amount stolen: $4,900,000. (DefiLlama hacks database.)",
 "hack": {
 "amount": "$4.9M",
 "chain": "['Neutron']",
-"date": "Sep 22",
+"date": "Sep 22, 2026",
 "method": "Malicious Proposal"
 },
+"key": "e62b47851886",
 "src": "DefiLlama",
-"t": 1792442284.1852984,
+"t": 1792443938.344863,
 "tag": "HACK",
 "title": "Astroport hacked for $4.9 million",
 "url": ""
@@ -418,6 +452,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489160,
+"offset": 138489163,
 "story_i": 2
 }
