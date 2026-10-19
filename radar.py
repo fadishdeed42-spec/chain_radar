@@ -526,11 +526,13 @@ def gemini_models():
     try:
         r = requests.get('https://generativelanguage.googleapis.com/v1beta/models', params={'key': GEMINI, 'pageSize': 200}, timeout=20)
         ms = [m['name'].split('/')[-1] for m in r.json().get('models', []) if 'generateContent' in m.get('supportedGenerationMethods', [])]
-        def rank(n):
-            return (('flash' not in n) * 4 + ('lite' in n) * 1 + ('preview' in n or 'exp' in n) * 2 + ('tts' in n or 'image' in n or 'live' in n) * 9,
-                    -float((re.findall(r'(\d+(?:\.\d+)?)', n) or ['0'])[0]))
-        ms = [m for m in ms if 'gemini' in m and 'embedding' not in m]
-        _MODELS.extend(sorted(ms, key=rank)[:6])
+        ms = [m for m in ms if ('gemini' in m or 'gemma' in m) and not re.search(r'embed|tts|image|live|audio|vision|robot|omni', m)]
+        ver = lambda n: -float((re.findall(r'(\d+(?:\.\d+)?)', n) or ['0'])[0])
+        flash = sorted([m for m in ms if 'flash' in m and 'lite' not in m and 'preview' not in m and 'exp' not in m], key=ver)[:2]
+        lite = sorted([m for m in ms if 'flash-lite' in m and 'preview' not in m], key=ver)[:2]
+        gemma = sorted([m for m in ms if 'gemma' in m and re.search(r'27b|12b', m)], key=ver)[:2]
+        other = sorted([m for m in ms if 'preview' in m and 'flash' in m], key=ver)[:1]
+        _MODELS.extend(dict.fromkeys(flash + lite + gemma + other))
     except Exception as e:
         print('model list fail', e)
     if not _MODELS:
@@ -542,11 +544,11 @@ def gemini_models():
 def gemini(prompt):
     if not GEMINI:
         return ''
-    for attempt in range(3):
+    for attempt in range(2):
         for model in gemini_models():
             try:
                 r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-                                  params={'key': GEMINI}, timeout=90,
+                                  params={'key': GEMINI}, timeout=45,
                                   json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
                 if r.ok:
                     parts = r.json()['candidates'][0]['content']['parts']
@@ -554,7 +556,7 @@ def gemini(prompt):
                 print('gemini', model, r.status_code, r.text[:90].replace('\n', ' '))
             except Exception as e:
                 print('gemini fail', model, e)
-        time.sleep(4 * (attempt + 1))
+        time.sleep(6)
     return ''
 
 
