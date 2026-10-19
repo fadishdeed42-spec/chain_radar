@@ -28,6 +28,34 @@
 },
 "t": 1792443206.839617
 },
+"305964e4cf": {
+"coin": "ishares-bitcoin-trust-etf-dinari-tokenized-etf",
+"facts": "Headline: BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT\nSources: Pluang, The Block\n\nArticle text:\nGet The Block\u2019s latest crypto news and price alerts for the coins you follow, right in Chrome. Add our free extension here. BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBITBlackRock filed with the Securities and Exchange Commission for the iShares Bitcoin Managed Protect ETF on Monday. Share<span class=\"acf-media-credit\"><span class=\"acf-credit\"><span class=\"acf-credit\"><a href=\"theblock.co\" target=\"_blank\">The Block</a></span></span></span>Quick Take\n\n\u201cThe Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection,\u201d BlackRock said in the filing on Monday.\nBlackRock\u2019s iShares Bitcoin Trust holds more than $65 billion in assets under management, making it the largest of its kind.\n\nBlackRock, the world's largest investment manager, has filed for another bitcoin fund, this time one that would give investors both downside protection and upside exposure to its flagship bitcoin exchange-traded fund. On Monday, the firm filed with the Securities and Exchange Commission for the iShares Bitcoin Managed Protect ETF. That fund will follow BlackRock's multi-billion-dollar iShares Bitcoin Trust ETF, the firm said. \"The Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF iShares Bitcoin Trust (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection,\" BlackRock said in the filing. BlackRock's iShares Bitcoin Trust holds more than $65 billion in assets under management, making it the largest of its kind, according to The Block's bitcoin ETF tracker. BlackRock launched IBIT in January 2024. In June, the firm launched its iShares Bitcoin Premium Income ETF, which is designed to provide investors with exposure to bitcoin while generating monthly option premium income. In a post on X, Bloomberg Intelligence's James Seyffart noted that BlackRock still just has bitcoin and Ethereum products. Over the past couple of years, other companies have launched ETFs tracking assets from XRP to SOL to DOGE. \"Notably, this is the third Bitcoin ETF filing from them,\" Seyffart said on Monday. \"Still only have Bitcoin and Ethereum products -- no other cryptos.\"\n",
+"item": {
+"hack": null,
+"src": "The Block",
+"t0": 1792446918.0,
+"tag": null,
+"title": "BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT",
+"url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+},
+"p": {
+"keyfact": "BlackRock filed with the SEC for the iShares Bitcoin Managed Protect ETF on Monday.",
+"post": "BlackRock is expanding its crypto lineup. The firm reportedly filed with the SEC for a new iShares Bitcoin Managed Protect ETF on Monday, offering downside protection and capped upside exposure to its $65B flagship IBIT. #Bitcoin",
+"quote": "The Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection = BlackRock",
+"reply": "Another massive move for institutional crypto products.",
+"short": "",
+"stat": "$65B | AUM in flagship IBIT",
+"symbol": "IBIT",
+"tag": "ETF",
+"thread": "1/ BlackRock is not slowing down its crypto product expansion. The world's largest investment manager reportedly filed with the SEC for a new fund on Monday.\n2/ The proposed iShares Bitcoin Managed Protect ETF is designed to provide downside protection while giving investors upside exposure to IBIT up to an approximate limit.\n3/ This marks the third Bitcoin ETF filing from BlackRock, according to Bloomberg Intelligence's James Seyffart. The firm's flagship IBIT currently holds over $65 billion in assets under management.\n4/ Despite expanding its ETF lineup, Seyffart noted that BlackRock still restricts its crypto products to Bitcoin and Ethereum, unlike other firms launching products for assets like SOL, XRP, and DOGE.",
+"timeline": "Jan 2024 = BlackRock launched IBIT ; Jun 2024 = Launched Bitcoin Premium Income ETF ; Mon = Filed for iShares Bitcoin Managed Protect ETF",
+"title": "BlackRock files 3rd Bitcoin ETF for IBIT protection",
+"versus": "Downside = Protected || Upside = Capped limit",
+"visual": "STAT"
+},
+"t": 1792447850.658132
+},
 "38b67748f6": {
 "coin": "",
 "facts": "Headline: Walmart Never Partnered With Litecoin. The Chart Didn't Know\nSources: Chain Secrets\nVerified story facts:\nSept 13, 2021: a fake press release on GlobeNewswire claimed Walmart would accept Litecoin from October 1, complete with made-up quotes from Walmart's CEO. Litecoin's official account shared it, and LTC ripped from ~$175 to ~$233 in minutes (Binance wick: $240). Then Walmart said it has no relationship with Litecoin, and the pump was gone. Litecoin's creator Charlie Lee: \"this time we really messed up.\" Two months later, the same trick hit Kroger with Bitcoin Cash. Real LTC/USDT daily chart (Binance), Aug\u2013Oct 2021. Posts shown are recreations.\n",
@@ -452,6 +480,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489164,
+"offset": 138489165,
 "story_i": 2
 }
