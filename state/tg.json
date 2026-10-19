@@ -1,5 +1,33 @@
 {
 "designs": {
+"212ff2c2f4": {
+"coin": "",
+"facts": "Headline: THORChain targets Rujira restart with v3.21 exploit fix around Oct 23\nSources: Crypto Briefing, Cryptonews.net\n\n",
+"item": {
+"hack": null,
+"src": "Crypto Briefing",
+"t0": 1792429948.0,
+"tag": null,
+"title": "THORChain targets Rujira restart with v3.21 exploit fix around Oct 23",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5MnkydlJvUzFkbUxzMFByajJhR1hoemdJV3FPR20tNFFUdTBHV3hTTmhTeWsxbjlSU3kyVGY0Y0JPLTJaYUMtR0Z2RGVraUdQNVNmN2l6UEZmcl9pd3pIMnR1RXZTTHhLRWZZeUtQckpfRnc?oc=5"
+},
+"p": {
+"keyfact": "THORChain aims to restart Rujira with a v3.21 exploit fix around Oct 23.",
+"post": "THORChain is eyeing an Oct 23 restart for Rujira, pending the deployment of the v3.21 exploit fix according to reports. Security patches are moving forward as the network prepares to bring the protocol back online.",
+"quote": "NONE",
+"reply": "Security first, but that Oct 23 target is one to watch.",
+"short": "",
+"stat": "v3.21 | Fix version",
+"symbol": "RUNE",
+"tag": "BREAKING",
+"thread": "1/ THORChain is reportedly targeting an Oct 23 restart for Rujira following a previous exploit.\n2/ The recovery plan hinges on the deployment of the v3.21 exploit fix.\n3/ Network upgrades and security checks are currently underway to ensure a safe relaunch.\n4/ Keep an eye on the calendar as the targeted date approaches.",
+"timeline": "Oct 2024 = Exploit occurs ; Oct 23 = Target restart date ; v3.21 = Patch deployed",
+"title": "THORChain targets Rujira restart",
+"versus": "Target = Oct 23 || Status = Pending restart",
+"visual": "ALERT"
+},
+"t": 1792443206.839617
+},
 "38b67748f6": {
 "coin": "",
 "facts": "Headline: Walmart Never Partnered With Litecoin. The Chart Didn't Know\nSources: Chain Secrets\nVerified story facts:\nSept 13, 2021: a fake press release on GlobeNewswire claimed Walmart would accept Litecoin from October 1, complete with made-up quotes from Walmart's CEO. Litecoin's official account shared it, and LTC ripped from ~$175 to ~$233 in minutes (Binance wick: $240). Then Walmart said it has no relationship with Litecoin, and the pump was gone. Litecoin's creator Charlie Lee: \"this time we really messed up.\" Two months later, the same trick hit Kroger with Bitcoin Cash. Real LTC/USDT daily chart (Binance), Aug\u2013Oct 2021. Posts shown are recreations.\n",
@@ -134,6 +162,34 @@
 "visual": "TIMELINE"
 },
 "t": 1792441495.1718488
+},
+"eaf3584a0b": {
+"coin": "venice-token",
+"facts": "Headline: Venice Token surges 13.9% in 24 hours\nSources: Pluang\nCoin in this story: Venice Token (VVV) $24.07, +13.7% in 24h\nRecent headlines about this coin:\n- Venice Token leads crypto gainers with 7% rise amid mixed market moves on Oct. 19 (Pluang, 18h ago)\n- Venice Token (VVV) Price Today, Live Chart, Market Cap & News (TechGraph, 17h ago)\n",
+"item": {
+"hack": null,
+"src": "Pluang",
+"t0": null,
+"tag": "MARKET",
+"title": "Venice Token surges 13.9% in 24 hours",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdmx4YldEYnBaMTIzUFV4QlFtaWozZDI3VjlQQ3BxRVNpLXhTdVkxVTJSY1RXT3dOY0JFSk1NRUVLazVzcGJrekhYeC04VzAwZWJXSEpfb2ZiNWRMeGcwaDFfZHl1S3hjTGRjOGRCRGtUSjhycjBOUWNuWE8yRmJsVzB2SnlXaHZoTnZmbFVtS0hoaUxQdTEtOUVTaw?oc=5"
+},
+"p": {
+"keyfact": "Venice Token surged 13.9% in 24 hours, leading crypto gainers.",
+"post": "Venice Token is defying mixed market moves. The token reportedly surged 13.9% in 24 hours to hit $24.07, leading the crypto gainers list. The chart tells the story. #VeniceToken",
+"quote": "NONE",
+"reply": "The chart proves some tokens simply refuse to follow the broader market.",
+"short": "",
+"stat": "+13.9% | 24H Price Surge",
+"symbol": "VVV",
+"tag": "MARKET",
+"thread": "1/ Markets are mixed, but Venice Token (VVV) is moving in one direction. Pluang reports the token surged 13.9% over a 24-hour period.\n2/ This follows a recent 7% rise on Oct. 19, where VVV already led the day's crypto gainers despite a flat broader market.\n3/ The token is currently trading at $24.07 as buying pressure continues to mount on the charts.\n4/ The chart proves the momentum. When the rest of the market hesitates, VVV carves its own path.",
+"timeline": "Oct 19 = Rose 7% amid mixed market ; Recent = Surged 13.9% in 24 hours ; Now = Trading at $24.07",
+"title": "Venice Token Surges 13.9%",
+"versus": "Oct 19 = +7% rise || Recent = +13.9% surge",
+"visual": "CHART"
+},
+"t": 1792443374.829834
 }
 },
 "menu": {
@@ -339,6 +395,16 @@
 "title": "Astroport hacked for $4.9 million",
 "url": ""
 },
+"f0a104578c1b": {
+"chart": true,
+"coin": "venice-token",
+"facts": "Recent headlines about this coin:\n- Venice Token leads crypto gainers with 7% rise amid mixed market moves on Oct. 19 (Pluang, 18h ago)\n- Venice Token (VVV) Price Today, Live Chart, Market Cap & News (TechGraph, 17h ago)",
+"src": "Pluang",
+"t": 1792443270.9299476,
+"tag": "MARKET",
+"title": "Venice Token surges 13.9% in 24 hours",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdmx4YldEYnBaMTIzUFV4QlFtaWozZDI3VjlQQ3BxRVNpLXhTdVkxVTJSY1RXT3dOY0JFSk1NRUVLazVzcGJrekhYeC04VzAwZWJXSEpfb2ZiNWRMeGcwaDFfZHl1S3hjTGRjOGRCRGtUSjhycjBOUWNuWE8yRmJsVzB2SnlXaHZoTnZmbFVtS0hoaUxQdTEtOUVTaw?oc=5"
+},
 "ff0248c8cb49": {
 "coin": "",
 "src": "CBC",
@@ -352,6 +418,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489153,
+"offset": 138489158,
 "story_i": 2
 }
