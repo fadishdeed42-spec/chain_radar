@@ -431,7 +431,7 @@ def git_sync(force=False):
     _last_sync[0] = time.time()
     sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
     sh('git config user.name chain-radar; git config user.email noreply@github.com')
-    sh('git add state/tg.json state/seen.json && git commit -qm "listen state [skip ci]"')
+    sh('git add state/tg.json state/seen.json state/listen.log && git commit -qm "listen state [skip ci]"')
     for _ in range(3):
         r = sh('git pull --rebase -q -X theirs && git push -q')
         if r.returncode == 0:
