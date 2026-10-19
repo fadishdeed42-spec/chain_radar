@@ -1098,6 +1098,22 @@ if __name__ == '__main__':
     mode = sys.argv[1] if sys.argv[1:] else 'scan'
     if mode == 'listen':
         listen()
+    elif mode == 'selftest':                  # silent: renders to state/selftest/ instead of Telegram
+        os.makedirs('state/selftest', exist_ok=True); n = [0]
+
+        def fake_tg(text, photo=None, buttons=None):
+            n[0] += 1
+            open(f'state/selftest/{n[0]:02d}.txt', 'w').write(text + '\n\nBUTTONS: ' + str(buttons))
+            if photo:
+                open(f'state/selftest/{n[0]:02d}.png', 'wb').write(photo)
+        globals()['tg'] = fake_tg
+        t = {'menu': {}}
+        cmd_movers(t); coin_move('solana', t); on_this_day(t); otd_card(t)
+        st = load_state()
+        for k, it in list(st.get('menu', {}).items())[:40]:
+            if it.get('coin') and it.get('t0'):
+                c = coin_by_id(it['coin']); img = coin_card(c, it['title'], event_ts=it['t0'])
+                fake_tg('EVENT CHART ' + it['title'], img); break
     elif mode == 'test':                      # full post for the current #1 story (end-to-end check)
         m, n = collect_market(), collect_news()
         (sc, lead, coin, srcs, age), g = sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0])[0]
