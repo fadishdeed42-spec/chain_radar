@@ -160,66 +160,128 @@ def fit_font(d, text, name, start, maxw, minsize=60):
 
 
 # ---------------------------------------------------------------- CHART
-def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', note=None):
-    """rows: (t_ms, o, h, l, c, vol|None) oldest first — real candles."""
-    first, last = rows[0][1], rows[-1][4]; ch = (last / first - 1) * 100; up = ch >= 0; acc = GRN if up else RED
+def dur(sec):
+    m = sec / 60
+    return f'{m:.0f} min' if m < 90 else f'{m/60:.0f}h' if m < 48 * 60 else f'{m/1440:.0f} days'
+
+
+def biggest_swing(rows):
+    """Largest peak->trough or trough->peak move in the window: (i_from, i_to, pct, price_from, price_to)."""
+    best = (0, 0, 0.0, rows[0][1], rows[0][1])
+    hi_i = lo_i = 0
+    for i, r in enumerate(rows):
+        if r[2] > rows[hi_i][2]:
+            hi_i = i
+        if r[3] < rows[lo_i][3]:
+            lo_i = i
+        dd = r[3] / rows[hi_i][2] - 1
+        ru = r[2] / rows[lo_i][3] - 1
+        if abs(dd) > abs(best[2]):
+            best = (hi_i, i, dd, rows[hi_i][2], r[3])
+        if abs(ru) > abs(best[2]):
+            best = (lo_i, i, ru, rows[lo_i][3], r[2])
+    return best
+
+
+def event_move(rows, event_ms):
+    """Move after the news: base = open of the news candle, extreme = biggest high/low after it."""
+    e = next((i for i, r in enumerate(rows) if r[0] + 1 >= event_ms), None)
+    if e is None or e >= len(rows) - 1:
+        return None
+    base = rows[e][1]
+    hi = max(range(e, len(rows)), key=lambda i: rows[i][2]); lo = min(range(e, len(rows)), key=lambda i: rows[i][3])
+    up, dn = rows[hi][2] / base - 1, rows[lo][3] / base - 1
+    x = hi if abs(up) >= abs(dn) else lo
+    return (e, x, up if x == hi else dn, base, rows[x][2] if x == hi else rows[x][3])
+
+
+def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', event_ms=None):
+    """Real candles. If event_ms is given: gold 'NEWS BREAKS' line, pre-news candles dimmed, bracket = move since the news.
+    Otherwise the bracket shows the biggest real swing in the window."""
+    first, last = rows[0][1], rows[-1][4]; ch = (last / first - 1) * 100; up = ch >= 0
+    ev = event_move(rows, event_ms) if event_ms else None
+    i0, i1, mv, p0, p1 = ev if ev else biggest_swing(rows)
+    acc = GRN if mv >= 0 else RED
     im = canvas(acc); d = header(im, tag)
-    y = headline(d, title, 140) + 6
+    y = headline(d, title, 140, sizes=(64, 58, 52, 46, 42)) + 6
     nm = f'{coin["name"]} ({coin["sym"]})'
     d.text((56, y), nm, font=F(BOLD, 32), fill=WHITE)
     px = 56 + d.textlength(nm + '  ', font=F(BOLD, 32))
     d.text((px, y), fmt(last), font=F(BOLD, 32), fill=WHITE); px += d.textlength(fmt(last) + '  ', font=F(BOLD, 32))
-    chip = f'{"▲" if up else "▼"} {abs(ch):.1f}%'; cw = d.textlength(chip, font=F(BLACK, 24)) + 28
-    d.rounded_rectangle([px, y + 1, px + cw, y + 40], radius=12, fill=tuple(int(v * 0.22) for v in acc), outline=acc, width=2)
-    d.text((px + cw / 2, y + 21), chip, font=F(BLACK, 24), fill=acc, anchor='mm')
+    chip = f'{"▲" if up else "▼"} {abs(ch):.1f}%'; c2 = GRN if up else RED; cw = d.textlength(chip, font=F(BLACK, 24)) + 28
+    d.rounded_rectangle([px, y + 1, px + cw, y + 40], radius=12, fill=tuple(int(v * 0.22) for v in c2), outline=c2, width=2)
+    d.text((px + cw / 2, y + 21), chip, font=F(BLACK, 24), fill=c2, anchor='mm')
     d.text((px + cw + 14, y + 21), tf_label, font=F(MED, 19), fill=MUT, anchor='lm')
-    top = max(y + 68, 460); bot = 1140
+    top = max(y + 66, 450); bot = 1140
     d.rounded_rectangle([36, top, W - 36, bot], radius=28, fill=PANEL, outline=LINE, width=2)
-    cx0, cx1 = 66, W - 156; has_v = any(r[5] for r in rows)
-    cy0, cy1 = top + 46, bot - (128 if has_v else 64)
-    hi = max(r[2] for r in rows); lo = min(r[3] for r in rows); pad = (hi - lo) * 0.10 or hi * 0.01; hi += pad; lo -= pad
+    cx0, cx1 = 66, W - 160; has_v = any(r[5] for r in rows)
+    cy0, cy1 = top + 70, bot - (120 if has_v else 60)
+    hi = max(r[2] for r in rows); lo = min(r[3] for r in rows); pad = (hi - lo) * 0.08 or hi * 0.01; hi += pad; lo -= pad
     Y = lambda p: cy1 - (p - lo) / (hi - lo) * (cy1 - cy0)
-    n = len(rows); step = (cx1 - cx0) / n; bw = max(3, step * 0.62)
+    n = len(rows); step = (cx1 - cx0) / n; bw = max(4, step * 0.66); X = lambda i: cx0 + step * (i + 0.5)
     for i in range(5):
         p = lo + (hi - lo) * i / 4; yy = Y(p)
-        d.line([cx0, yy, cx1, yy], fill=(28, 33, 46), width=1)
-        d.text((cx1 + 14, yy), fmt(p), font=F(MED, 17), fill=DIM, anchor='lm')
+        d.line([cx0, yy, cx1, yy], fill=(26, 31, 43), width=1)
+        d.text((cx1 + 16, yy), fmt(p), font=F(MED, 17), fill=DIM, anchor='lm')
+    if ev:                                                          # shade the 'after news' zone
+        d.rectangle([X(i0) - step / 2, cy0 - 50, cx1, cy1 + 8], fill=(21, 26, 38))
     vmax = max((r[5] or 0) for r in rows) or 1
-    big = max(range(n), key=lambda i: abs(rows[i][4] - rows[i][1]) / rows[i][1])
     for i, (t, o, h, l, c, v) in enumerate(rows):
-        x = cx0 + step * (i + 0.5); col = GRN if c >= o else RED
-        d.line([x, Y(h), x, Y(l)], fill=col, width=2 if bw > 5 else 1)
+        col = GRN if c >= o else RED
+        if ev and i < i0:
+            col = tuple(int(cc * 0.45 + 30) for cc in col)          # dim pre-news candles
+        x = X(i)
+        d.line([x, Y(h), x, Y(l)], fill=col, width=2)
         y0, y1 = sorted((Y(o), Y(c))); d.rectangle([x - bw / 2, y0, x + bw / 2, max(y1, y0 + 2)], fill=col)
         if has_v and v:
-            vh = v / vmax * 66; d.rectangle([x - bw / 2, bot - 38 - vh, x + bw / 2, bot - 38], fill=tuple(int(cc * 0.42) for cc in col))
-    ly = Y(last)
-    for xx in range(cx0, int(cx1), 14):
-        d.line([xx, ly, xx + 7, ly], fill=acc, width=2)
-    d.rounded_rectangle([cx1 + 6, ly - 18, W - 44, ly + 18], radius=9, fill=acc)
-    d.text(((cx1 + 6 + W - 44) / 2, ly), fmt(last), font=F(BLACK, 16), fill=(8, 10, 12), anchor='mm')
-    t, o, h, l, c, v = rows[big]; bx = cx0 + step * (big + 0.5); mv = (c / o - 1) * 100
-    by = Y(h) if mv >= 0 else Y(l)
-    d.ellipse([bx - 30, by - 30, bx + 30, by + 30], outline=GOLD, width=4)
-    label = note or f'{mv:+.1f}% in one candle'; lw = d.textlength(label, font=F(BLACK, 21)) + 30
-    lx = min(max(bx - lw / 2, cx0), cx1 - lw)
-    ly2 = by - 92 if by - 92 > cy0 else by + 52
-    d.line([bx, by + (-30 if ly2 < by else 30), bx, ly2 + (40 if ly2 < by else 0)], fill=GOLD, width=3)
-    d.rounded_rectangle([lx, ly2, lx + lw, ly2 + 40], radius=10, fill=GOLD)
-    d.text((lx + lw / 2, ly2 + 20), label, font=F(BLACK, 21), fill=(18, 14, 6), anchor='mm')
+            vh = v / vmax * 60; d.rectangle([x - bw / 2, bot - 34 - vh, x + bw / 2, bot - 34], fill=tuple(int(cc * 0.38) for cc in col))
+    if ev:                                                          # NEWS BREAKS marker + price-at-news level
+        xe = X(i0)
+        for yy in range(int(cy0 - 46), int(cy1), 12):
+            d.line([xe, yy, xe, yy + 6], fill=GOLD, width=3)
+        lab = 'NEWS BREAKS · ' + datetime.fromtimestamp(rows[i0][0] / 1000, timezone.utc).strftime('%H:%M UTC')
+        lw = d.textlength(lab, font=F(BLACK, 18)) + 26
+        lx = min(max(xe - lw / 2, cx0), cx1 - lw)
+        d.rounded_rectangle([lx, cy0 - 62, lx + lw, cy0 - 30], radius=8, fill=GOLD)
+        d.text((lx + lw / 2, cy0 - 46), lab, font=F(BLACK, 18), fill=(18, 14, 6), anchor='mm')
+        yb = Y(p0)
+        for xx in range(int(xe), int(cx1), 12):
+            d.line([xx, yb, xx + 6, yb], fill=(150, 156, 172), width=2)
+        d.text((cx1 - 4, yb - 6), f'before news {fmt(p0)}', font=F(SEMI, 15), fill=MUT, anchor='rd')
+    # bracket showing the real move
+    xa, xb = X(i0), X(i1); ya, yb2 = Y(p0), Y(p1)
+    bx = min(max(xb + bw + 14, xa + 20), cx1 - 8)
+    d.line([bx, ya, bx, yb2], fill=acc, width=4)
+    d.line([bx - 10, ya, bx + 2, ya], fill=acc, width=4); d.line([bx - 10, yb2, bx + 2, yb2], fill=acc, width=4)
+    if not ev:
+        d.ellipse([xa - 7, ya - 7, xa + 7, ya + 7], fill=acc); d.ellipse([xb - 7, yb2 - 7, xb + 7, yb2 + 7], fill=acc)
+    secs = (rows[i1][0] - rows[i0][0]) / 1000
+    label = f'{mv * 100:+.1f}% in {dur(max(secs, 60))}' + (' after the news' if ev else '')
+    lw = d.textlength(label, font=F(BLACK, 22)) + 30
+    lx = min(max(bx - lw / 2, cx0), cx1 - lw)                    # label sits in the empty space beyond the starting level
+    lym = ya - 54 if mv < 0 else ya + 14
+    lym = min(max(lym, cy0 - 20), cy1 - 40)
+    d.rounded_rectangle([lx, lym, lx + lw, lym + 40], radius=10, fill=acc)
+    d.text((lx + lw / 2, lym + 20), label, font=F(BLACK, 22), fill=(8, 10, 12), anchor='mm')
+    ly = Y(last)                                                    # live price tag
+    d.rounded_rectangle([cx1 + 6, ly - 17, W - 42, ly + 17], radius=8, fill=WHITE)
+    d.text(((cx1 + 6 + W - 42) / 2, ly), fmt(last), font=F(BLACK, 16), fill=(10, 12, 16), anchor='mm')
     k = max(1, n // 5); multi = (rows[-1][0] - rows[0][0]) >= 2 * 86400000
     for i in range(0, n, k):
         dt = datetime.fromtimestamp(rows[i][0] / 1000, timezone.utc)
-        d.text((cx0 + step * (i + 0.5), bot - 20), dt.strftime('%b %d' if multi else '%H:%M'), font=F(MED, 15), fill=DIM, anchor='mm')
-    hh = max(r[2] for r in rows); ll = min(r[3] for r in rows); span = tf_label.split(' · ')[0].upper()
-    tw = (W - 72 - 40) / 3
-    for i, (a, b, col) in enumerate([('HIGH', fmt(hh), WHITE), ('LOW', fmt(ll), WHITE), ('CHANGE', f'{ch:+.1f}%', acc)]):
+        d.text((X(i), bot - 16), dt.strftime('%b %d' if multi else '%H:%M'), font=F(MED, 15), fill=DIM, anchor='mm')
+    hh = max(r[2] for r in rows); ll = min(r[3] for r in rows)
+    tiles = ([('BEFORE NEWS', fmt(p0), WHITE), ('NOW', fmt(last), WHITE), ('SINCE NEWS', f'{(last / p0 - 1) * 100:+.1f}%', GRN if last >= p0 else RED)]
+             if ev else [('HIGH', fmt(hh), WHITE), ('LOW', fmt(ll), WHITE), ('CHANGE', f'{ch:+.1f}%', GRN if up else RED)])
+    tw = (W - 72 - 40) / 3; span = tf_label.split(' · ')[0].upper()
+    for i, (a, b, col) in enumerate(tiles):
         x0 = 36 + i * (tw + 20)
         d.rounded_rectangle([x0, 1158, x0 + tw, 1246], radius=20, fill=PANEL, outline=LINE, width=2)
-        d.text((x0 + 22, 1174), f'{a} · {span}', font=F(SEMI, 15), fill=DIM)
+        d.text((x0 + 22, 1174), a if ev else f'{a} · {span}', font=F(SEMI, 15), fill=DIM)
         d.text((x0 + 22, 1198), b, font=F(BLACK, 33), fill=col)
     d.text((56, 1302), 'Every chart hides a story', font=F(MED, 20), fill=MUT, anchor='lm')
     d.text((W - 56, 1302), f'Data: {source} · real candles', font=F(MED, 17), fill=DIM, anchor='rm')
-    return png(im)
+    return png(im), mv
 
 
 def centered(make_bg, tag, body, top=150, bottom=1240):
