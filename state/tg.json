@@ -1,5 +1,31 @@
 {
 "designs": {
+"38b67748f6": {
+"coin": "",
+"facts": "Headline: Walmart Never Partnered With Litecoin. The Chart Didn't Know\nSources: Chain Secrets\nVerified story facts:\nSept 13, 2021: a fake press release on GlobeNewswire claimed Walmart would accept Litecoin from October 1, complete with made-up quotes from Walmart's CEO. Litecoin's official account shared it, and LTC ripped from ~$175 to ~$233 in minutes (Binance wick: $240). Then Walmart said it has no relationship with Litecoin, and the pump was gone. Litecoin's creator Charlie Lee: \"this time we really messed up.\" Two months later, the same trick hit Kroger with Bitcoin Cash. Real LTC/USDT daily chart (Binance), Aug\u2013Oct 2021. Posts shown are recreations.\n",
+"item": {
+"hack": null,
+"src": "Chain Secrets",
+"tag": "TRUE STORY",
+"title": "Walmart Never Partnered With Litecoin. The Chart Didn't Know",
+"url": null
+},
+"p": {
+"keyfact": "A fake GlobeNewswire press release triggered a massive Litecoin pump before being debunked.",
+"post": "Never trust a headline until the chart confirms it. A fake press release claimed Walmart partnered with Litecoin, sending LTC ripping from $175 to $233 in minutes. The official LTC account even shared it. Then Walmart spoke up, and the pump vanished just as fast. #Litecoin",
+"quote": "this time we really messed up. = Charlie Lee",
+"reply": "Ah, the classic fake press release pump and dump. Reminds us that the chart doesn't care who retweets the headline.",
+"stat": "$240 | Binance wick peak",
+"symbol": "LTCUSDT",
+"tag": "SCAM",
+"thread": "1/ Markets trade on news, but sometimes the news is pure fiction. On Sept 13, 2021, a fake press release dropped on GlobeNewswire claiming Walmart would accept Litecoin starting October 1.\n2/ The fake release even featured made-up quotes from Walmart's CEO. Litecoin's official Twitter account shared the news, sparking instant FOMO.\n3/ LTC ripped from around $175 to roughly $233 in minutes, printing a Binance wick all the way up to $240. \n4/ The party ended when Walmart confirmed zero relationship with Litecoin. Litecoin's creator Charlie Lee admitted: \"this time we really messed up.\" Two months later, copycats tried the exact same trick on Kroger with Bitcoin Cash.",
+"timeline": "Sept 13, 2021 = Fake press release claims Walmart accepts LTC ; Sept 13, 2021 = LTC official account shares fake news ; Sept 13, 2021 = LTC rips from $175 to $233 ; Sept 13, 2021 = Walmart denies partnership and pump vanishes",
+"title": "Litecoin's Walmart Fake-Out",
+"versus": "Promoted Price = $233 USD || Reality = Dumped",
+"visual": "CHART"
+},
+"t": 1792442292.552247
+},
 "5543bb625b": {
 "coin": "",
 "facts": "Headline: DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks\nSources: Coinpaper\n\n",
@@ -131,7 +157,7 @@
 "method": "Malicious Proposal"
 },
 "src": "DefiLlama",
-"t": 1792441555.114739,
+"t": 1792442284.1852984,
 "tag": "HACK",
 "title": "Drop hacked for $4.4 million",
 "url": ""
@@ -215,7 +241,7 @@
 "method": "Hot Wallet Key Compromised"
 },
 "src": "DefiLlama",
-"t": 1792441555.114739,
+"t": 1792442284.1852984,
 "tag": "HACK",
 "title": "Duelbits hacked for $7.0 million",
 "url": ""
@@ -229,7 +255,7 @@
 "method": "Key Leaked via Infrastructur"
 },
 "src": "DefiLlama",
-"t": 1792441555.114739,
+"t": 1792442284.1852984,
 "tag": "HACK",
 "title": "Gamdom hacked for $4.2 million",
 "url": ""
@@ -243,7 +269,7 @@
 "method": "Hot Wallet Key Compromised"
 },
 "src": "DefiLlama",
-"t": 1792441555.114739,
+"t": 1792442284.1852984,
 "tag": "HACK",
 "title": "Bitget hacked for $387.0 million",
 "url": ""
@@ -270,7 +296,7 @@
 "method": "Supply Chain Attack"
 },
 "src": "DefiLlama",
-"t": 1792441555.114739,
+"t": 1792442284.1852984,
 "tag": "HACK",
 "title": "Ledger (Supply Chain) hacked for $93.0 million",
 "url": ""
@@ -308,7 +334,7 @@
 "method": "Malicious Proposal"
 },
 "src": "DefiLlama",
-"t": 1792441555.114739,
+"t": 1792442284.1852984,
 "tag": "HACK",
 "title": "Astroport hacked for $4.9 million",
 "url": ""
@@ -326,6 +352,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489146,
-"story_i": 1
+"offset": 138489152,
+"story_i": 2
 }
