@@ -532,7 +532,8 @@ def gemini_models():
         lite = sorted([m for m in ms if 'flash-lite' in m and 'preview' not in m], key=ver)[:2]
         gemma = sorted([m for m in ms if 'gemma' in m and re.search(r'27b|12b', m)], key=ver)[:2]
         other = sorted([m for m in ms if 'preview' in m and 'flash' in m], key=ver)[:1]
-        _MODELS.extend(dict.fromkeys(flash + lite + gemma + other))
+        mix = [x for pair in zip(lite + [None] * 2, flash + [None] * 2) for x in pair if x]   # lite first: fast & less overloaded
+        _MODELS.extend(dict.fromkeys(mix + gemma + other))
     except Exception as e:
         print('model list fail', e)
     if not _MODELS:
