@@ -59,6 +59,7 @@ def save_state(s):
     os.makedirs('state', exist_ok=True)
     for k in ('stories', 'movers', 'hacks'):
         s[k] = {i: t for i, t in s[k].items() if NOW - t < 72 * 3600}
+    s['menu'] = {i: m for i, m in s.get('menu', {}).items() if NOW - m['t'] < 48 * 3600}
     json.dump(s, open(STATE, 'w'), indent=0, sort_keys=True)
 
 
@@ -196,6 +197,15 @@ def key_of(g):
     return hashlib.md5(' '.join(sorted(list(g['w']))[:12]).encode()).hexdigest()[:12]
 
 
+def remember(st, g, lead, coin, srcs):
+    """Store a story so the owner can tap 'Make post' on it later."""
+    k = key_of(g)
+    st.setdefault('menu', {})[k] = {'title': lead['title'], 'url': lead['url'], 'src': lead['src'], 't': NOW,
+                                    'coin': coin['id'] if coin else '', 'srcs': sorted(srcs)[:5],
+                                    'urls': [i['url'] for i in g['items'] if 'news.google' not in i['url']][:4]}
+    return k
+
+
 # ---------------- chart ----------------
 def chart(coin, label=''):
     try:
@@ -258,20 +268,24 @@ def draft(headline, coin, srcs):
 
 
 # ---------------- telegram ----------------
-def tg(text, photo=None):
+def tg(text, photo=None, buttons=None):
+    """buttons: list of (label, callback_data) -> inline keyboard under the message."""
     if not TOKEN or not CHAT:
         print('NO TELEGRAM:\n', text); return
     api = f'https://api.telegram.org/bot{TOKEN}/'
+    kb = {}
+    if buttons:
+        rows = [buttons[i:i + 3] for i in range(0, len(buttons), 3)]
+        kb = {'reply_markup': json.dumps({'inline_keyboard': [[{'text': a, 'callback_data': b} for a, b in r] for r in rows]})}
     try:
         if photo:
-            r = requests.post(api + 'sendPhoto', data={'chat_id': CHAT, 'caption': text[:1024], 'parse_mode': 'HTML'},
-                              files={'photo': ('chart.png', photo)}, timeout=30)
-            if r.ok and len(text) <= 1024:
+            short = len(text) <= 1024
+            r = requests.post(api + 'sendPhoto', data={'chat_id': CHAT, 'caption': text if short else '', 'parse_mode': 'HTML',
+                                                      **(kb if short else {})}, files={'photo': ('chart.png', photo)}, timeout=30)
+            if r.ok and short:
                 return
-            if r.ok:
-                text = text[1000:]
         requests.post(api + 'sendMessage', data={'chat_id': CHAT, 'text': text[:4000], 'parse_mode': 'HTML',
-                                                  'disable_web_page_preview': 'true'}, timeout=30)
+                                                  'disable_web_page_preview': 'true', **kb}, timeout=30)
     except Exception as e:
         print('telegram fail', e)
 
@@ -303,12 +317,10 @@ def main():
     scored = sorted([(score_group(g, market, reddit), g) for g in groups], key=lambda x: -x[0][0])
     sent = 0
 
+    for (sc, lead, coin, srcs, age), g in scored[:10]:
+        remember(st, g, lead, coin, srcs)
     if first_run:
-        top = scored[:3]
-        msg = '✅ <b>Chain Radar is live.</b> I check crypto news, prices and hacks every 15 minutes and ping you here.\n\n<b>Top stories right now:</b>\n'
-        for (sc, lead, coin, srcs, age), g in top:
-            msg += f'\n• ({sc}/100, {len(srcs)} src) {E(lead["title"])}'
-        tg(msg)
+        send_top(st, scored, '✅ <b>Chain Radar is live.</b> I check crypto news, prices and hacks every 15 minutes and ping you here.')
         for _, g in scored:
             st['stories'][key_of(g)] = NOW
         for h in hacks:
@@ -357,19 +369,242 @@ def main():
             continue
         if sc >= ALERT:
             st['stories'][k] = NOW
-            tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), chart(coin, lead['title']) if coin else None)
+            mk = remember(st, g, lead, coin, srcs)
+            tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), chart(coin, lead['title']) if coin else None,
+               [('📝 Make full post', 'p:' + mk)])
             sent += 1
         elif sc >= WATCH:
             st['stories'][k] = NOW
-            watch.append((sc, lead, srcs))
+            watch.append((sc, lead, srcs, remember(st, g, lead, coin, srcs)))
     if watch:
-        msg = '📌 <b>Worth a look</b> (not urgent):\n'
-        for sc, lead, srcs in watch[:5]:
-            msg += f'\n• ({sc}/100, {len(srcs)} src) <a href="{E(lead["url"])}">{E(lead["title"])}</a>'
-        tg(msg)
+        msg = '📌 <b>Worth a look</b> (not urgent). Tap a number to get a full post:\n'
+        for n, (sc, lead, srcs, mk) in enumerate(watch[:5], 1):
+            msg += f'\n<b>{n}.</b> ({sc}/100, {len(srcs)} src) <a href="{E(lead["url"])}">{E(lead["title"])}</a>'
+        tg(msg, None, [(f'📝 {n}', 'p:' + w[3]) for n, w in enumerate(watch[:5], 1)])
     print('alerts sent', sent, 'watch', len(watch))
     save_state(st)
 
 
+# ---------------- pick-a-story: full post ----------------
+def send_top(st, scored, header='📰 <b>Top crypto stories right now</b>'):
+    msg, btn = header + '\n\nTap a number and I make a full post (title, text, thread, candle chart):\n', []
+    for n, ((sc, lead, coin, srcs, age), g) in enumerate(scored[:6], 1):
+        k = remember(st, g, lead, coin, srcs)
+        msg += f'\n<b>{n}.</b> ({sc}/100, {len(srcs)} src) {E(lead["title"])}'
+        btn.append((f'📝 {n}', 'p:' + k))
+    tg(msg, None, btn)
+
+
+def find_coin(text):
+    """Coin named in the text: top-250 by name/symbol, else CoinGecko search on $TICKER / CAPS words."""
+    mk = []
+    for page in (1, 2):
+        r = get('https://api.coingecko.com/api/v3/coins/markets', params={'vs_currency': 'usd', 'order': 'market_cap_desc',
+                'per_page': 125, 'page': page, 'price_change_percentage': '1h,24h'})
+        if r:
+            mk += [{'id': c['id'], 'sym': c['symbol'].upper(), 'name': c['name'], 'price': c['current_price'] or 0,
+                    'h1': c.get('price_change_percentage_1h_in_currency') or 0,
+                    'h24': c.get('price_change_percentage_24h_in_currency') or 0, 'rank': 1} for c in r.json()]
+    c = coin_in(text, mk)
+    if c:
+        return c
+    for tok in re.findall(r'\$?\b([A-Z]{2,6})\b', text):
+        if tok in ('SEC', 'ETF', 'USD', 'CEO', 'DOJ', 'FBI', 'NFT', 'AI', 'US', 'UK', 'EU', 'IRS', 'CFTC', 'IPO', 'DAO', 'DEX'):
+            continue
+        r = get('https://api.coingecko.com/api/v3/search', params={'query': tok})
+        hits = [x for x in (r.json().get('coins', []) if r else []) if x['symbol'].upper() == tok]
+        if hits:
+            q = get('https://api.coingecko.com/api/v3/simple/price', params={'ids': hits[0]['id'], 'vs_currencies': 'usd',
+                    'include_24hr_change': 'true'})
+            d = (q.json() if q else {}).get(hits[0]['id'], {})
+            return {'id': hits[0]['id'], 'sym': tok, 'name': hits[0]['name'], 'price': d.get('usd', 0), 'h1': 0,
+                    'h24': d.get('usd_24h_change') or 0, 'rank': hits[0].get('market_cap_rank') or 999}
+    return None
+
+
+def wrap(t, n):
+    out, line = [], ''
+    for w in t.split():
+        if len(line) + len(w) + 1 > n:
+            out.append(line); line = w
+        else:
+            line = (line + ' ' + w).strip()
+    return out + [line] if line else out
+
+
+def candle_chart(coin, title, days=1):
+    """Real OHLC candles (CoinGecko) in Chain Secrets style, biggest candle circled."""
+    try:
+        import matplotlib
+        matplotlib.use('Agg')
+        import matplotlib.pyplot as plt
+        from matplotlib.patches import Rectangle
+        r = get(f'https://api.coingecko.com/api/v3/coins/{coin["id"]}/ohlc', params={'vs_currency': 'usd', 'days': days})
+        rows = r.json() if r else []
+        if len(rows) < 8:
+            return None
+        BG, GOLD, RED, GRN, MUT = '#0b0d12', '#d4a843', '#e5484d', '#26c2a0', '#8a93a6'
+        fig = plt.figure(figsize=(10.8, 13.5), dpi=100, facecolor=BG)
+        ax = fig.add_axes([0.09, 0.16, 0.85, 0.52], facecolor=BG)
+        w = 0.62
+        for i, (t, o, h, l, c) in enumerate(rows):
+            col = GRN if c >= o else RED
+            ax.plot([i, i], [l, h], color=col, lw=2)
+            ax.add_patch(Rectangle((i - w / 2, min(o, c)), w, max(abs(c - o), (h - l) * 0.02 or 1e-9), color=col))
+        big = max(range(len(rows)), key=lambda i: abs(rows[i][4] - rows[i][1]))
+        ax.scatter([big], [(rows[big][2] + rows[big][3]) / 2], s=2600, facecolors='none', edgecolors=GOLD, linewidths=4, zorder=5)
+        ax.set_xlim(-1, len(rows)); ax.set_ylim(min(x[3] for x in rows) * 0.997, max(x[2] for x in rows) * 1.003)
+        for sp in ax.spines.values():
+            sp.set_visible(False)
+        ax.tick_params(colors=MUT, labelsize=15); ax.grid(color='#1c2130', lw=1)
+        ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f'${v:,.0f}' if v >= 100 else f'${v:,.4g}'))
+        step = max(1, len(rows) // 6)
+        ax.set_xticks(range(0, len(rows), step))
+        ax.set_xticklabels([datetime.fromtimestamp(rows[i][0] / 1000, timezone.utc).strftime('%H:%M' if days <= 1 else '%b %d')
+                            for i in range(0, len(rows), step)])
+        first, last = rows[0][1], rows[-1][4]; ch = (last / first - 1) * 100; col = GRN if ch >= 0 else RED
+        y = 0.94
+        for ln in wrap(title, 34)[:3]:
+            fig.text(0.07, y, ln, color='white', fontsize=34, weight='bold'); y -= 0.045
+        fig.text(0.07, y - 0.02, f'{coin["name"]} ({coin["sym"]})  ${last:,.6g}  {ch:+.1f}% ({"24h" if days <= 1 else f"{days}d"})',
+                 color=col, fontsize=26, weight='bold')
+        fig.text(0.07, 0.07, 'CHAIN SECRETS', color=GOLD, fontsize=26, weight='bold')
+        fig.text(0.07, 0.045, 'Every chart hides a story', color=MUT, fontsize=16)
+        fig.text(0.95, 0.045, f'Data: CoinGecko · {"30m" if days <= 1 else "4h"} candles · {datetime.now(timezone.utc):%b %d %H:%M} UTC',
+                 color=MUT, fontsize=13, ha='right')
+        buf = io.BytesIO(); fig.savefig(buf, format='png', facecolor=BG); plt.close(fig)
+        return buf.getvalue()
+    except Exception as e:
+        print('candle fail', e)
+        return None
+
+
+def title_card(title, src):
+    """Branded headline image for stories with no coin to chart."""
+    try:
+        import matplotlib
+        matplotlib.use('Agg')
+        import matplotlib.pyplot as plt
+        BG, GOLD, MUT = '#0b0d12', '#d4a843', '#8a93a6'
+        fig = plt.figure(figsize=(10.8, 13.5), dpi=100, facecolor=BG)
+        fig.text(0.08, 0.86, 'BREAKING', color='#e5484d', fontsize=30, weight='bold')
+        y = 0.76
+        for ln in wrap(title, 22)[:7]:
+            fig.text(0.08, y, ln, color='white', fontsize=52, weight='bold'); y -= 0.075
+        fig.text(0.08, 0.10, 'CHAIN SECRETS', color=GOLD, fontsize=30, weight='bold')
+        fig.text(0.08, 0.07, f'Source: {src}', color=MUT, fontsize=18)
+        buf = io.BytesIO(); fig.savefig(buf, format='png', facecolor=BG); plt.close(fig)
+        return buf.getvalue()
+    except Exception as e:
+        print('card fail', e)
+        return None
+
+
+def article_text(urls):
+    for u in urls:
+        r = get(u)
+        if not r or 'html' not in r.headers.get('content-type', ''):
+            continue
+        t = re.sub(r'(?is)<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>', ' ', r.text)
+        paras = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in re.findall(r'(?is)<p[^>]*>(.*?)</p>', t)]
+        paras = [p for p in paras if len(p) > 60]
+        if paras:
+            return ' '.join(paras)[:6000]
+    return ''
+
+
+def gemini(prompt):
+    if not GEMINI:
+        return ''
+    for model in ('gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.0-flash'):
+        try:
+            r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
+                              params={'key': GEMINI}, timeout=60,
+                              json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
+            if r.ok:
+                return r.json()['candidates'][0]['content']['parts'][0]['text'].strip()
+            print('gemini', model, r.status_code)
+        except Exception as e:
+            print('gemini fail', model, e)
+    return ''
+
+
+def make_post(item):
+    coin = find_coin(item['title'])
+    body = article_text(item.get('urls') or [item['url']])
+    facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item["src"]])}\n'
+             + (f'Price now: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
+             + (f'Article text:\n{body}\n' if body else ''))
+    out = gemini('You write for the X account "Chain Secrets": crypto news with the chart that proves it, witty crypto-detective voice.\n'
+                 'Using ONLY the facts below (no invented numbers, quotes or claims; say "reportedly" if the source is unsure; '
+                 'no price predictions; no links; max 1 hashtag), reply in exactly this format:\n'
+                 'TITLE: <a punchy full title, max 70 chars>\n'
+                 'POST: <one X post, max 270 chars, strong hook first line, key number, why it matters>\n'
+                 'THREAD:\n1/ ...\n2/ ...\n3/ ...\n4/ ... (4 posts, each max 270 chars, story beats + twist + lesson)\n'
+                 'REPLY: <one short reply idea to post under big news accounts>\n\n' + facts)
+    if not out:
+        out = (f'TITLE: {item["title"]}\nPOST: ⚡ {item["title"]}'
+               + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')
+               + '\n\n(Add a Gemini key to get a written post + thread here.)')
+    img = None
+    if coin:
+        img = candle_chart(coin, item['title'], 1) or candle_chart(coin, item['title'], 7)
+    if not img:
+        img = title_card(item['title'], item['src'])
+    m = re.search(r'TITLE:\s*(.+)', out)
+    cap = f'🖼 <b>{E(m.group(1).strip() if m else item["title"])}</b>\n' + (f'Chart: {coin["name"]} real candles' if coin else 'Headline card (no coin to chart)')
+    tg(cap, img)
+    tg(f'✍️ <b>Ready to post</b> (check the facts first):\n\n<code>{E(out)}</code>\n\n🔗 <a href="{E(item["url"])}">{E(item["src"])}</a>')
+
+
+def listen():
+    """Handle button taps and messages: tap 📝 → full post; send /top → current list; send a link → post about it."""
+    st = load_state()
+    off = st.get('tg_offset', 0)
+    r = get(f'https://api.telegram.org/bot{TOKEN}/getUpdates', params={'offset': off + 1, 'timeout': 0})
+    ups = (r.json().get('result', []) if r else [])
+    print('updates', len(ups))
+    for u in ups:
+        st['tg_offset'] = max(st.get('tg_offset', 0), u['update_id'])
+        cb, msg = u.get('callback_query'), u.get('message')
+        who = str((cb or msg or {}).get('from', {}).get('id', '')) if (cb or msg) else ''
+        if who and CHAT and who != str(CHAT):
+            continue                                   # only obey the owner
+        if cb:
+            try:
+                requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'],
+                              'text': 'Making your post…'}, timeout=10)
+            except Exception:
+                pass
+            k = (cb.get('data') or '')[2:]
+            item = st.get('menu', {}).get(k)
+            if item:
+                tg(f'⏳ Making a full post about:\n<b>{E(item["title"])}</b>')
+                make_post(item)
+            else:
+                tg('That story expired. Send /top for the current list.')
+        elif msg and msg.get('text'):
+            t = msg['text'].strip()
+            if t.lower().startswith('/top') or t.lower() in ('top', 'list', 'news'):
+                market, news = collect_market(), collect_news()
+                scored = sorted([(score_group(g, market, []), g) for g in cluster(news)], key=lambda x: -x[0][0])
+                send_top(st, scored)
+            elif re.match(r'https?://', t):
+                tg('⏳ Making a full post from your link…')
+                pg = get(t); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
+                ttl = html.unescape(ttl.group(1)).split(' | ')[0].split(' - ')[0].strip() if ttl else t
+                make_post({'title': ttl, 'url': t, 'src': re.sub(r'^https?://(www\.)?([^/]+).*', r'\2', t), 'urls': [t]})
+            else:
+                tg('Send <b>/top</b> for today\'s top stories, tap a 📝 button, or paste a news link.')
+    save_state(st)
+
+
 if __name__ == '__main__':
-    main()
+    mode = sys.argv[1] if sys.argv[1:] else 'scan'
+    if mode == 'listen':
+        listen()
+    elif mode == 'top':
+        st = load_state(); m, n = collect_market(), collect_news()
+        send_top(st, sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0])); save_state(st)
+    else:
+        main()
