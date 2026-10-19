@@ -1,4 +1,32 @@
 {
+"designs": {
+"5543bb625b": {
+"coin": "",
+"facts": "Headline: DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks\nSources: Coinpaper\n\n",
+"item": {
+"hack": null,
+"src": "Coinpaper",
+"tag": null,
+"title": "DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks",
+"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ1gyaXB3b3RTNUFxbjlIWjQ0N0tVcm0wTTE3UWlLNjJJQUdsdF9HeG9xd0IxQkh4ZFdJM1N6ZnozaUtra05WZTRTY1E5ZVNlcERPeGo0MWZJZmVvR2RTRmlBMXdvNnpmMFhUQ1llNzRFY2dlMzFUa1FxNXIxS1NiSTZJYTB2M25IdXJ6c3dlZUNhcXJiRUhZSnc5aC0xTHRocnNva3VDcXRRUGZZZjZYNzRQZUJrMEp4VUE?oc=5"
+},
+"p": {
+"keyfact": "DeFi lending surged 150% to $10B while regulators examine crypto vault risks.",
+"post": "DeFi lending reportedly surged 150% to hit $10B. But the celebration might be short-lived, as SEC and European regulators have now turned their attention to examine crypto vault risks. Watch this space. #DeFi",
+"quote": "NONE",
+"reply": "$10B is hard to ignore, and neither are the regulators.",
+"stat": "$10B | Total DeFi Lending Volume",
+"symbol": "NONE",
+"tag": "REGULATION",
+"thread": "1/ Numbers don't lie, but they do tell a story. DeFi lending reportedly surged 150% recently, climbing all the way to a massive $10B. \n2/ Growth is great, but it attracts attention. And not always the good kind. \n3/ Regulators from both the SEC and Europe have officially stepped in to examine potential crypto vault risks. \n4/ When the books get opened, the plot thickens. Let's see what the charts and regulators find next.",
+"timeline": "NONE",
+"title": "DeFi Lending Hits $10B Amid Regulators' Probe",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1792440863.053744
+}
+},
 "menu": {
 "008f91fbaf36": {
 "coin": "",
@@ -131,6 +159,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489128,
+"offset": 138489129,
 "story_i": 0
 }
