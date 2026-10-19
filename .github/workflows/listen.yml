@@ -1,20 +1,22 @@
 name: listen
-# Long-polls Telegram ~4.5 min per run (restarted every 5 min) so taps & commands are answered in seconds
+# Always-on bot: one job runs ~5h40m (answers Telegram in seconds + scans news every 10 min),
+# then starts the next run itself. The hourly schedule is only a safety net if the relay ever breaks.
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '7 * * * *'
   workflow_dispatch:
     inputs:
       mode: {description: 'listen or test', default: listen}
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: listen
   cancel-in-progress: false
 jobs:
   listen:
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,10 +29,14 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           mkdir -p state
-          set -o pipefail
           python -u radar.py ${{ github.event.inputs.mode || 'listen' }} 2>&1 | tee state/listen.log
       - name: save state
         if: always()
         run: |
           git config user.name chain-radar; git config user.email noreply@github.com
-          git add state/tg.json state/listen.log && git commit -qm "listen state [skip ci]" && for i in 1 2 3 4; do git pull --rebase -q -X theirs && git push -q && break; sleep 3; done || true
+          git add state/tg.json state/seen.json state/listen.log && git commit -qm "listen state [skip ci]" && for i in 1 2 3 4; do git pull --rebase -q -X theirs && git push -q && break; sleep 3; done || true
+      - name: start next run (relay)
+        if: always() && (github.event.inputs.mode || 'listen') == 'listen'
+        run: |
+          curl -s -X POST -H "Authorization: Bearer ${{ github.token }}" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/listen.yml/dispatches -d '{"ref":"main"}'

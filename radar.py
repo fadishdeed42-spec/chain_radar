@@ -38,9 +38,9 @@ KEYWORDS = [  # (regex, points)
 STOP = set('the a an of to in on for and or is are as at by with from after over into its it this that new says said will be has have more than up down crypto'.split())
 
 
-def get(url, **kw):
+def get(url, timeout=12, **kw):
     try:
-        r = requests.get(url, headers=UA, timeout=20, **kw)
+        r = requests.get(url, headers=UA, timeout=timeout, **kw)
         r.raise_for_status()
         return r
     except Exception as e:
@@ -69,25 +69,30 @@ def words(t):
 
 # ---------------- collect ----------------
 def collect_news():
-    items = []
-    for src, url in FEEDS.items():
-        r = get(url)
+    """All feeds fetched in parallel (~3-5 s total)."""
+    from concurrent.futures import ThreadPoolExecutor
+    jobs = [('feed', src, url, None) for src, url in FEEDS.items()] + \
+           [('g', None, 'https://news.google.com/rss/search', {'q': q + ' when:1d', 'hl': 'en-US', 'gl': 'US', 'ceid': 'US:en'}) for q in GNEWS]
+
+    def one(job):
+        kind, src, url, params = job
+        r = get(url, timeout=10, params=params)
+        out = []
         if not r:
-            continue
+            return out
         for e in feedparser.parse(r.content).entries[:40]:
             ts = e.get('published_parsed') or e.get('updated_parsed')
             ts = time.mktime(ts) - time.timezone if ts else NOW
-            items.append({'title': html.unescape(e.get('title', '')).strip(), 'url': e.get('link', ''), 'src': src, 'ts': ts})
-    for q in GNEWS:
-        r = get('https://news.google.com/rss/search', params={'q': q + ' when:1d', 'hl': 'en-US', 'gl': 'US', 'ceid': 'US:en'})
-        if not r:
-            continue
-        for e in feedparser.parse(r.content).entries[:25]:
-            ts = e.get('published_parsed')
-            ts = time.mktime(ts) - time.timezone if ts else NOW
-            t = html.unescape(e.get('title', ''))
-            src = t.rsplit(' - ', 1)[-1] if ' - ' in t else 'Google News'
-            items.append({'title': t.rsplit(' - ', 1)[0].strip(), 'url': e.get('link', ''), 'src': src, 'ts': ts})
+            t = html.unescape(e.get('title', '')).strip()
+            if kind == 'g':
+                s2 = t.rsplit(' - ', 1)[-1] if ' - ' in t else 'Google News'
+                t = t.rsplit(' - ', 1)[0].strip()
+            else:
+                s2 = src
+            out.append({'title': t, 'url': e.get('link', ''), 'src': s2, 'ts': ts})
+        return out
+    with ThreadPoolExecutor(16) as ex:
+        items = [i for lst in ex.map(one, jobs) for i in lst]
     return [i for i in items if i['title'] and NOW - i['ts'] < FRESH_H * 3600 and i['ts'] <= NOW + 600]
 
 
@@ -317,8 +322,10 @@ def main():
     scored = sorted([(score_group(g, market, reddit), g) for g in groups], key=lambda x: -x[0][0])
     sent = 0
 
+    st['top'] = []
     for (sc, lead, coin, srcs, age), g in scored[:10]:
-        remember(st, g, lead, coin, srcs)
+        st['top'].append([remember(st, g, lead, coin, srcs), sc, round(age * 60), len(srcs)])
+    st['top_at'] = NOW
     if first_run:
         send_top(st, scored, '✅ <b>Chain Radar is live.</b> I check crypto news, prices and hacks every 15 minutes and ping you here.')
         for _, g in scored:
@@ -413,10 +420,54 @@ def save_tg(t):
     json.dump(t, open(TG_STATE, 'w'), indent=0, sort_keys=True)
 
 
+_last_sync = [0]
+
+
+def git_sync(force=False):
+    """Save our state and pull the scanner's latest stories (at most once a minute unless forced)."""
+    import subprocess
+    if not force and time.time() - _last_sync[0] < 60:
+        return
+    _last_sync[0] = time.time()
+    sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
+    sh('git config user.name chain-radar; git config user.email noreply@github.com')
+    sh('git add state/tg.json state/seen.json && git commit -qm "listen state [skip ci]"')
+    for _ in range(3):
+        r = sh('git pull --rebase -q -X theirs && git push -q')
+        if r.returncode == 0:
+            break
+        time.sleep(2)
+
+
+def send_cached_top():
+    git_sync()
+    st = load_state(); top = st.get('top') or []
+    if not top:
+        return False
+    mins = int((NOW_() - st.get('top_at', 0)) / 60)
+    msg, btn = f'📰 <b>Top crypto stories</b> <i>(scanned {mins} min ago)</i>\nTap a number → full post with image.\n', []
+    for n, (k, sc, age, ns) in enumerate(top[:8], 1):
+        it = st.get('menu', {}).get(k)
+        if not it:
+            continue
+        msg += f'\n<b>{n}.</b> {"🔥" if sc >= ALERT else "•"} {E(it["title"])}  <i>({ns} src)</i>'
+        btn.append((f'📝 {n}', 'p:' + k))
+    btn.append(('🔄 Live refresh', 'r:'))
+    tg(msg, None, btn)
+    return True
+
+
+def NOW_():
+    return time.time()
+
+
 def menu_item(k, tgs):
     if k in tgs.get('menu', {}):
         return tgs['menu'][k]
-    return load_state().get('menu', {}).get(k)
+    it = load_state().get('menu', {}).get(k)
+    if not it:
+        git_sync(force=True); it = load_state().get('menu', {}).get(k)
+    return it
 
 
 def send_top(st, scored, header='📰 <b>Top crypto stories right now</b>'):
@@ -504,8 +555,8 @@ def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None):  # c
 
 
 def article_text(urls):
-    for u in urls:
-        r = get(u)
+    for u in urls[:2]:
+        r = get(u, timeout=8)
         if not r or 'html' not in r.headers.get('content-type', ''):
             continue
         t = re.sub(r'(?is)<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>', ' ', r.text)
@@ -549,7 +600,7 @@ def gemini(prompt):
         for model in gemini_models():
             try:
                 r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-                                  params={'key': GEMINI}, timeout=45,
+                                  params={'key': GEMINI}, timeout=25,
                                   json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
                 if r.ok:
                     parts = r.json()['candidates'][0]['content']['parts']
@@ -574,6 +625,7 @@ FORMAT = ('Reply in exactly this format and nothing else:\n'
           'ALERT for hacks, exploits, outages or frozen withdrawals>\n'
           'SYMBOL: <ticker of the coin to chart, or NONE>\n'
           'STAT: <big value, max 10 chars, e.g. $15M or 11,196 YRS> | <label, max 30 chars>\n'
+          '(Always fill STAT, TIMELINE and VERSUS when the facts allow it, even if VISUAL is something else; otherwise write NONE.)\n'
           'TIMELINE: <date> = <event, max 60 chars> ; <date> = <event> ; <date> = <event> (3-4 steps, last = the twist)\n'
           'VERSUS: <left label> = <left value> || <right label> = <right value>  (values max 18 chars)\n'
           'QUOTE: <exact quote copied word for word from the facts> = <speaker>   (or NONE)\n'
@@ -590,18 +642,42 @@ def parse_out(out):
             'quote': g('QUOTE'), 'post': g('POST'), 'thread': thread, 'reply': g('REPLY')}
 
 
-def build_image(p, item, facts, coin_hint=None):
+def options(p, item, coin):
+    """Which designs this story can be shown as (for the 🎨 switch buttons)."""
+    o = []
+    if coin:
+        o.append(('📈 Chart', 'CHART'))
+    if p.get('stat') and '|' in p['stat'] and 'NONE' not in p['stat'].upper() or card.big_money(p.get('title', '') + ' ' + item.get('title', '')):
+        o.append(('💰 Number', 'STAT'))
+    if len([x for x in p.get('timeline', '').split(';') if '=' in x]) >= 3:
+        o.append(('🕒 Timeline', 'TIMELINE'))
+    if '||' in p.get('versus', '') and 'NONE' not in p['versus'].upper():
+        o.append(('⚔️ Versus', 'VERSUS'))
+    if '=' in p.get('quote', '') and 'NONE' not in p['quote'].upper():
+        o.append(('💬 Quote', 'QUOTE'))
+    o.append(('📰 Headline', 'HEADLINE'))
+    return o
+
+
+def build_image(p, item, facts, coin_hint=None, force=None):
     """Pick the visual that fits the story; every branch is validated so we never show a misleading chart."""
     tag = p.get('tag') or item.get('tag') or 'BREAKING'
     title, src, kf = p['title'], item.get('src') or 'Chain Secrets', p.get('keyfact', '')
-    vis = p.get('visual', '')
+    vis = force or p.get('visual', '')
+    card.FOOTER_LEFT = f'Reply idea: {p["reply"]}' if p.get('reply') else ''
+    if vis == 'HEADLINE':
+        return card.headline_card(title, src, kf, tag)
+    if vis == 'STAT' and not (p.get('stat') and '|' in p['stat']):
+        bm = card.big_money(title + ' ' + item.get('title', ''))
+        if bm:
+            return card.stat_card(title, bm, 'at the center of this story', kf, tag, src)
     low = facts.lower()
     try:
-        if item.get('hack'):
+        if item.get('hack') and not force:
             h = item['hack']
             return card.alert_card(title, h.get('amount', ''), [('Chain', h.get('chain', '')), ('Method', h.get('method', '')), ('Date', h.get('date', ''))],
                                    'HACKED', src)
-        if vis == 'CHART' or coin_hint:
+        if vis == 'CHART' or (coin_hint and not force):
             coin = coin_hint
             if not coin and p.get('symbol') not in ('', 'NONE') and re.search(r'\b' + re.escape(p['symbol']) + r'\b', facts, re.I):
                 h = cg_search(p['symbol']); coin = coin_by_id(h['id']) if h else None
@@ -638,8 +714,11 @@ def build_image(p, item, facts, coin_hint=None):
     return card.headline_card(title, src, kf, tag)
 
 
-def deliver(p, img, url='', src=''):
-    tg(f'<b>{E(p["title"])}</b>', img)
+TGS = {}   # listener state, set in listen()
+
+
+def deliver(p, img, url='', src='', buttons=None):
+    tg(f'<b>{E(p["title"])}</b>' + ('\n🎨 Tap a design to switch the image:' if buttons else ''), img, buttons)
     tg(f'📝 <b>POST</b> (tap to copy)\n<code>{E(p["post"])}</code>' + (f'\n\n💬 <b>REPLY IDEA</b>\n<code>{E(p["reply"])}</code>' if p['reply'] else '')
        + (f'\n\n🔗 <a href="{E(url)}">{E(src or "source")}</a> · check facts before posting' if url else ''))
     if p['thread']:
@@ -658,9 +737,24 @@ def make_post(item):
              'symbol': '', 'stat': '', 'timeline': '', 'versus': '', 'quote': '',
              'post': f'⚡ {item["title"]}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')}
         tg('⚠️ The AI writer is busy right now, so this one is a simple version. Tap the button again in a minute for the full post.')
+    if not coin and p.get('symbol') not in ('', 'NONE') and re.search(r'\b' + re.escape(p['symbol']) + r'\b', facts, re.I):
+        h = cg_search(p['symbol']); coin = coin_by_id(h['id']) if h else None
     chart_it = item.get('chart') or re.search(r'\b(pumps|dumps) \d', item['title']) or p.get('visual') == 'CHART'
     img = build_image(p, item, facts, coin if chart_it else None)
-    deliver(p, img, item.get('url', ''), item.get('src', ''))
+    k = hashlib.md5((item['title'] + str(NOW)).encode()).hexdigest()[:10]
+    TGS.setdefault('designs', {})[k] = {'t': time.time(), 'p': p, 'item': {x: item.get(x) for x in ('title', 'src', 'tag', 'hack', 'url')},
+                                         'facts': facts[:4000], 'coin': coin['id'] if coin else ''}
+    TGS['designs'] = dict(sorted(TGS['designs'].items(), key=lambda kv: -kv[1]['t'])[:25])
+    deliver(p, img, item.get('url', ''), item.get('src', ''), [(a, f'v:{k}:{b}') for a, b in options(p, item, coin)])
+
+
+def switch_design(k, vis):
+    d = TGS.get('designs', {}).get(k)
+    if not d:
+        tg('That post is too old to redesign. Make it again from /top.'); return
+    coin = coin_by_id(d['coin']) if d.get('coin') and vis == 'CHART' else None
+    img = build_image(d['p'], d['item'], d['facts'], coin, vis)
+    tg(f'<b>{E(d["p"]["title"])}</b> · {vis.title()} design', img, [(a, f'v:{k}:{b}') for a, b in options(d['p'], d['item'], coin or d.get('coin'))])
 
 
 HELP = ('🕵️ <b>Chain Radar commands</b>\n\n'
@@ -731,6 +825,14 @@ def cmd_story(tgs):
     make_post({'title': s['title'], 'facts': 'Verified story facts:\n' + s['facts'], 'src': 'Chain Secrets', 'tag': 'TRUE STORY'})
 
 
+def live_top(tgs):
+    tg('⏳ Live scan of every news source…')
+    st = load_state(); m, n = collect_market(), collect_news()
+    send_top(st, sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0]))
+    for k, v in st.get('menu', {}).items():
+        tgs['menu'][k] = v
+
+
 def handle(u, tgs):
     cb, msg = u.get('callback_query'), u.get('message')
     who = str((cb or msg or {}).get('from', {}).get('id', ''))
@@ -749,6 +851,11 @@ def handle(u, tgs):
                 make_post(item)
             else:
                 tg('That story expired. Send /top for the current list.')
+        elif data.startswith('v:'):
+            _, k, vis = data.split(':', 2)
+            switch_design(k, vis)
+        elif data == 'r:':
+            live_top(tgs)
         elif data.startswith('c:'):
             _, cid, span = (data.split(':') + ['1d'])[:3]
             coin = coin_by_id(cid)
@@ -764,11 +871,8 @@ def handle(u, tgs):
     if c in ('/start', '/help', 'help'):
         tg(HELP)
     elif c in ('/top', 'top', 'news'):
-        tg('⏳ Scanning the news…')
-        st = load_state(); m, n = collect_market(), collect_news()
-        send_top(st, sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0]))
-        for k, v in st.get('menu', {}).items():
-            tgs['menu'][k] = v
+        if not send_cached_top():
+            live_top(tgs)
     elif c == '/chart':
         cmd_chart(args)
     elif c == '/movers':
@@ -794,30 +898,47 @@ def handle(u, tgs):
         tg(HELP)
 
 
-def listen(seconds=270):
-    """Long-poll Telegram for ~4.5 min so taps and commands get answered within seconds."""
-    tgs = load_tg()
+def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
+    """Long-poll Telegram for hours (GitHub allows 6h jobs) so every tap/command is answered in seconds."""
+    global TGS
+    tgs = load_tg(); TGS = tgs
     try:
         requests.post(f'https://api.telegram.org/bot{TOKEN}/setMyCommands', timeout=10,
                       data={'commands': json.dumps([{'command': a, 'description': b} for a, b in COMMANDS])})
     except Exception:
         pass
-    end = time.time() + seconds
+    import threading
+    end = time.time() + seconds; last_save = time.time(); last_scan = 0; scan_t = [None]
+
+    def safe_scan():
+        try:
+            main()
+        except Exception as e:
+            print('scan fail', repr(e))
     while time.time() < end - 5:
+        global NOW
+        NOW = time.time()
+        if time.time() - last_scan > 600 and not (scan_t[0] and scan_t[0].is_alive()):   # news scan every 10 min
+            last_scan = time.time(); scan_t[0] = threading.Thread(target=safe_scan, daemon=True); scan_t[0].start()
         try:
             r = requests.get(f'https://api.telegram.org/bot{TOKEN}/getUpdates', timeout=40,
                              params={'offset': tgs.get('offset', 0) + 1, 'timeout': int(min(25, max(1, end - time.time() - 5)))})
             ups = r.json().get('result', []) if r.ok else []
+            if r.status_code == 409:                      # another listener is running; let it work
+                print('another listener active, exiting'); return
         except Exception as e:
             print('poll fail', e); time.sleep(3); continue
         for u in ups:
+            NOW = time.time()
             tgs['offset'] = max(tgs.get('offset', 0), u['update_id'])
-            save_tg(tgs)                                 # never re-run a command if we crash
+            save_tg(tgs)
             try:
                 handle(u, tgs)
             except Exception as e:
-                print('handle fail', e); tg('⚠️ Something went wrong with that request. Try again.')
+                print('handle fail', repr(e)); tg('⚠️ Something went wrong with that request. Try again.')
             save_tg(tgs)
+        if time.time() - last_save > 600:
+            save_tg(tgs); git_sync(force=True); last_save = time.time()
     save_tg(tgs)
 
 

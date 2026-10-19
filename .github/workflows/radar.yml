@@ -1,7 +1,6 @@
 name: radar
 on:
-  schedule:
-    - cron: '*/15 * * * *'
+  # news scanning now runs every 10 min inside the always-on listen job; this is for manual runs only
   workflow_dispatch:
 permissions:
   contents: write

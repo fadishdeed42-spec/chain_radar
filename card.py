@@ -72,10 +72,26 @@ def header(im, tag, when=None):
     return d
 
 
+FOOTER_LEFT = ''   # set by the caller: the reply idea goes here on non-chart cards
+
+
 def footer(d, right):
     d.line([56, 1262, W - 56, 1262], fill=LINE, width=2)
-    d.text((56, 1302), 'Every chart hides a story', font=F(MED, 20), fill=MUT, anchor='lm')
+    rw = d.textlength(right, font=F(MED, 17))
     d.text((W - 56, 1302), right, font=F(MED, 17), fill=DIM, anchor='rm')
+    txt = (FOOTER_LEFT or '').strip()
+    if txt:
+        maxw = W - 112 - rw - 40
+        for size in (20, 18, 16):
+            lines = wrap_lines(d, txt, F(SEMI, size), maxw)
+            if len(lines) <= 2:
+                break
+        lines = lines[:2]
+        if sum(len(l) for l in lines) < len(txt.split()) and lines[-1]:
+            lines[-1][-1] += '…'
+        y = 1302 - (len(lines) - 1) * size * 0.65
+        for ln in lines:
+            d.text((56, y), ' '.join(ln), font=F(SEMI, size), fill=MUT, anchor='lm'); y += size * 1.3
 
 
 def wrap_lines(d, text, font, maxw):
