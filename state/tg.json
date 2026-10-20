@@ -309,6 +309,38 @@
 },
 "t": 1792500321.4778628
 },
+"c317cc2405": {
+"coin": "",
+"facts": "Headline: A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?\nSources: 24/7 Wall St., Yahoo Finance\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "24/7 Wall St.",
+"story": null,
+"t0": 1792510200.0,
+"tag": null,
+"title": "A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?",
+"url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS2dQTlZzdUw1R004MjFGWERtUlZOSmRyMmxYcnRSdVUzdkk2NXFSOEJUM0xFbGJZM0h4QVBCVUtvY1J3M0cwcmlfQWlqb1JoOXZyaVNWNlY2MktIeml3a3ZaYy1GcVhoelE5ZXQ1c1V6bzEtM25Hb3dZVk5OWUkwWWlNcElObnJOMkRrYnplLTE0eU0wWGtTMklPLTZGOFFIa2puNm1rOWJRTUZ4QU9McUd5aXlMNm9OZEpQLVN3LVA0V1dxQXB3eWxQTTNsaXNYajlqUk1za1gzdVJXdFo5bFE5YWlQb1U2WUljeQ?oc=5"
+},
+"p": {
+"keyfact": "A hacker is currently laundering $270 million in stolen crypto through the Tornado Cash mixer.",
+"post": "The $270 million heist is officially ghosting the blockchain. The hacker is currently funneling the stolen loot through Tornado Cash, effectively turning a traceable trail into a digital black hole. Can it ever be recovered? Don't hold your breath. #HACK",
+"quote": "NONE",
+"reply": "Another day, another $270 million disappearing into the mixer. If the trail goes cold here, it\u2019s gone for good.",
+"short": "",
+"stat": "$270M | Stolen Funds",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "",
+"timeline": "Hack Occurs = Assets taken ; Tracking Begins = Funds identified ; Mixing Phase = Moving to Tornado Cash",
+"title": "$270 Million Vanishes Into Tornado Cash",
+"versus": "NONE",
+"visual": "ALERT"
+},
+"t": 1792518377.176666
+},
 "eaf3584a0b": {
 "coin": "venice-token",
 "facts": "Headline: Venice Token surges 13.9% in 24 hours\nSources: Pluang\nCoin in this story: Venice Token (VVV) $24.07, +13.7% in 24h\nRecent headlines about this coin:\n- Venice Token leads crypto gainers with 7% rise amid mixed market moves on Oct. 19 (Pluang, 18h ago)\n- Venice Token (VVV) Price Today, Live Chart, Market Cap & News (TechGraph, 17h ago)\n",
@@ -598,6 +630,12 @@
 }
 },
 "mute_until": 0,
-"offset": 138489179,
+"offset": 138489184,
+"otd": {
+"date": "Oct 20",
+"now": 82764,
+"then": 630.83,
+"year": 2016
+},
 "story_i": 2
 }
