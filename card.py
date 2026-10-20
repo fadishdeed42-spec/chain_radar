@@ -213,6 +213,8 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     im = canvas(acc); d = header(im, tag)
     y = headline(d, title, 140, sizes=(64, 58, 52, 46, 42)) + 6
     nm = f'{coin["name"]} ({coin["sym"]})'
+    if d.textlength(nm, font=F(BOLD, 32)) > 420:                    # long names: ticker only, never run off the card
+        nm = coin['sym']
     d.text((56, y), nm, font=F(BOLD, 32), fill=WHITE)
     px = 56 + d.textlength(nm + '  ', font=F(BOLD, 32))
     d.text((px, y), fmt(last), font=F(BOLD, 32), fill=WHITE); px += d.textlength(fmt(last) + '  ', font=F(BOLD, 32))
@@ -222,7 +224,8 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     chip = f'{"▲" if up else "▼"} {abs(ch):.1f}%'; c2 = GRN if up else RED; cw = d.textlength(chip, font=F(BLACK, 24)) + 28
     d.rounded_rectangle([px, y + 1, px + cw, y + 40], radius=12, fill=tuple(int(v * 0.22) for v in c2), outline=c2, width=2)
     d.text((px + cw / 2, y + 21), chip, font=F(BLACK, 24), fill=c2, anchor='mm')
-    d.text((px + cw + 14, y + 21), tf_label, font=F(MED, 19), fill=MUT, anchor='lm')
+    if px + cw + 14 + d.textlength(tf_label, font=F(MED, 19)) <= W - 56:
+        d.text((px + cw + 14, y + 21), tf_label, font=F(MED, 19), fill=MUT, anchor='lm')
     top = max(y + 66, 450); bot = 1140
     d.rounded_rectangle([36, top, W - 36, bot], radius=28, fill=PANEL, outline=LINE, width=2)
     cx0, cx1 = 66, W - 160; has_v = any(r[5] for r in rows)

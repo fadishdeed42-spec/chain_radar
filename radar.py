@@ -562,9 +562,16 @@ def send_top(st, scored, header='📰 <b>Top crypto stories right now</b>'):
     tg(msg, None, btn)
 
 
-def cg_search(sym):
+NOT_CRYPTO = re.compile(r'tokeni[sz]ed|robinhood|xstock|\bstock\b|backed |ondo .*token|\binc\b|\bcorp|\betf\b|wrapped|bridged|'
+                        r'wormhole|\(.*\)|\bclass [ab]\b|holdings|trust', re.I)
+
+
+def cg_search(sym, strict=True):
+    """Real cryptocurrency for a ticker. Never tokenized stocks / wrapped copies; strict = only coins with a real market-cap rank."""
     r = get('https://api.coingecko.com/api/v3/search', params={'query': sym})
-    hits = [x for x in (r.json().get('coins', []) if r else []) if x['symbol'].upper() == sym.upper()]
+    hits = [x for x in (r.json().get('coins', []) if r else []) if x['symbol'].upper() == sym.upper() and not NOT_CRYPTO.search(x.get('name', ''))]
+    if strict:
+        hits = [x for x in hits if (x.get('market_cap_rank') or 99999) <= 500]
     hits.sort(key=lambda x: x.get('market_cap_rank') or 99999)
     return hits[0] if hits else None
 
@@ -652,7 +659,12 @@ def _candles(coin, span='1d', event_ts=None):
         rows = [(t, o, h, l, c, None) for t, o, h, l, c in (r.json() if r else []) if t / 1000 >= start]
     except Exception:
         rows = []
-    return (rows, 'CoinGecko', lab if event_ts else SPANS[span][3]) if len(rows) >= 8 else ([], '', '')
+    if len(rows) < 8:
+        return [], '', ''
+    gap = sorted(rows[i + 1][0] - rows[i][0] for i in range(len(rows) - 1))[len(rows) // 2] / 1000
+    real = '30m' if gap < 3600 else '4h' if gap < 86400 else 'daily'
+    base = (lab if event_ts else SPANS[span][3]).split(' · ')
+    return rows, 'CoinGecko', f'{base[0]} · {real} candles' if not event_ts else f'{real} candles · around the news'
 
 
 def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None, event_ts=None, strict=False, focus=None):
@@ -992,15 +1004,17 @@ def switch_design(k, vis, msg_id=None):
 # ---------------- replies: X post link -> 3 ready replies ----------------
 XLINK = re.compile(r'https?://(?:www\.|mobile\.)?(?:x|twitter|fxtwitter|vxtwitter|fixupx)\.com/([A-Za-z0-9_]+)/status(?:es)?/(\d+)', re.I)
 
-REPLY_RULES = ('Write replies to post under this X post, as the account "Chain Secrets" (crypto detective voice). Rules: each reply ONE or TWO '
-               'short sentences, max 200 characters; add something new (a fact, context, a number, a sharp angle) — never just agree or '
-               'praise; use ONLY facts given or widely known, well-established crypto history (no invented numbers, no price predictions, '
-               'no financial advice; if you are not sure a fact is true, do not use it — use an angle from the post itself instead); no links, no hashtags, max one emoji, no "great post", no self-promotion, must not sound like AI.\n'
+REPLY_RULES = ('You are a real person running the crypto account "Chain Secrets", replying under an X post. Write the ONE best reply — '
+               'the kind that gets the most likes under a big post.\n'
+               'How it must sound: like a sharp human scrolling X, not a brand and not an AI. Casual, confident, short (usually 6-20 words, '
+               'max 180 characters). Contractions, plain words, lowercase start is fine. One clear point: a dry joke, a sharp observation, '
+               'or one real fact that adds context. React to what THIS post actually says.\n'
+               'Never: em dashes, "Translation:", "This is huge", "Great post", "Let that sink in", "game changer", questions to farm '
+               'engagement, hashtags, links, more than one emoji, financial advice, price predictions, or any number/fact you are not sure is true.\n'
                'Reply in exactly this format and nothing else:\n'
-               'FACT: <reply that adds a real fact or context>\n'
-               'WITTY: <a clever, funny reply that still makes a point>\n'
-               'CHART: <a reply meant to go with a price chart image of the coin; mention what the chart shows>\n'
-               'SYMBOL: <ticker of the main coin in the post, or NONE>\n')
+               'REPLY: <the reply>\n'
+               'SYMBOL: <ticker of the crypto coin the post is mainly about, or NONE (stocks/companies are NONE)>\n'
+               'CHART: <YES only if the post is about that coin\'s price moving and a 24h price chart would back up the reply, else NO>\n')
 
 
 def read_x(user, sid):
@@ -1026,7 +1040,7 @@ def read_x(user, sid):
 
 def coin_from_text(text, symbol=''):
     """Main coin of a post: cashtags first, then the AI's pick — only if the coin really appears in the text."""
-    cand = [x.upper() for x in re.findall(r'\$([A-Za-z]{2,8})\b', text)] + ([symbol] if symbol and symbol != 'NONE' else [])
+    cand = ([symbol] if symbol and symbol != 'NONE' else []) + [x.upper() for x in re.findall(r'\$([A-Za-z]{2,8})\b', text)]
     for sym in dict.fromkeys(cand):
         h = cg_search(sym)
         c = coin_by_id(h['id']) if h else None
@@ -1050,15 +1064,13 @@ def move_card(coin, tag='CHART'):
 
 def parse_replies(out):
     g = lambda k: (re.search(r'(?m)^' + k + r':\s*(.+)', out or '') or [None, ''])[1].strip().strip('"')
-    return {'fact': g('FACT'), 'witty': g('WITTY'), 'chart': g('CHART'), 'symbol': g('SYMBOL').upper().strip('$ ')}
+    rep = g('REPLY').replace(' — ', ', ').replace('—', ', ')
+    return {'reply': rep, 'symbol': g('SYMBOL').upper().strip('$ '), 'chart': g('CHART').upper().startswith('Y')}
 
 
 def reply_msg(rp, head, with_chart):
-    m = head + '\n\n'
-    m += f'💡 <b>Fact</b>\n<code>{E(rp["fact"])}</code>\n\n' if rp['fact'] else ''
-    m += f'😏 <b>Witty</b>\n<code>{E(rp["witty"])}</code>\n\n' if rp['witty'] else ''
-    m += (f'📈 <b>With the chart</b> (attach this image)\n<code>{E(rp["chart"])}</code>\n\n' if with_chart and rp['chart'] else '')
-    return (m + '<i>Tap to copy · double-check any number before posting</i>').strip()
+    return (head + f'\n\n<code>{E(rp["reply"])}</code>\n\n'
+            + ('<i>📈 Attach this chart to the reply · tap the text to copy</i>' if with_chart else '<i>Tap to copy</i>'))
 
 
 def cmd_reply(url, tgs, fresh=False):
@@ -1076,19 +1088,19 @@ def cmd_reply(url, tgs, fresh=False):
 
 def reply_from_text(text, author, post, tgs, key):
     facts = f'Post by @{author}:\n{text[:2000]}'
-    rp = parse_replies(gemini(REPLY_RULES + ('Write a DIFFERENT set than usual: new angles.\n' if key in tgs.get('replies', {}) else '')
+    rp = parse_replies(gemini(REPLY_RULES + ('Use a different angle than the obvious one.\n' if key in tgs.get('replies', {}) else '')
                               + '\n' + facts))
-    if not (rp['fact'] or rp['witty']):
+    if not rp['reply']:
         unack(); tg('⚠️ The AI writer is busy, tap again in a minute.'); return
-    coin = coin_from_text(text, rp['symbol'])
+    coin = coin_from_text(text, rp['symbol']) if rp['chart'] and rp['symbol'] not in ('', 'NONE') else None
     img = move_card(coin)[0] if coin else None
     stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
     stats += f' · {ago(post["ts"])}' if post and post.get('ts') else ''
-    head = f'💬 <b>Replies for @{E(author)}</b>{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
+    head = f'💬 <b>Reply for @{E(author)}</b>{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
     tgs.setdefault('replies', {})[key] = {'t': time.time(), 'text': text[:2000], 'author': author}
     tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
     unack()
-    tg(reply_msg(rp, head, bool(img)), img, [('🔄 3 new replies', f'rr:{key}')])
+    tg(reply_msg(rp, head, bool(img)), img, [('🔄 Another one', f'rr:{key}')])
 
 
 def more_replies(key, tgs):
@@ -1133,10 +1145,9 @@ def viral_alert(st, sc, lead, coin, srcs, g, age):
     acc = who_posts(lead['title'])
     head = (f'🔥 <b>GOING VIRAL · REPLY WINDOW OPEN</b>\n<b>{E(lead["title"])}</b>\n{len(srcs)} sources · {age*60:.0f} min ago\n\n'
             f'👀 Watch for posts from: ' + ' · '.join(f'<a href="https://x.com/{a}">@{a}</a>' for a in acc)
-            + '\nReply in the first 15 minutes 👇')
-    img = move_card(coin)[0] if coin else None
-    if rp['fact'] or rp['witty']:
-        st.setdefault('menu', {})[mk]['replies'] = rp
+            + '\nReply in the first 15 minutes with 👇')
+    img = move_card(coin)[0] if coin and rp.get('chart') else None
+    if rp['reply']:
         tg(reply_msg(rp, head, bool(img)), img, [('📝 Make post', 'p:' + mk)])
     else:
         tg(head, img, [('📝 Make post', 'p:' + mk)])
@@ -1181,7 +1192,7 @@ def ago(ts):
 
 def cmd_chart(args):
     sym = (args[0] if args else 'BTC').upper().lstrip('$'); span = args[1].lower() if len(args) > 1 and args[1].lower() in SPANS else '1d'
-    h = cg_search(sym)
+    h = cg_search(sym, strict=False)
     coin = coin_by_id(h['id']) if h else None
     if not coin:
         tg(f'Couldn\'t find a coin called {E(sym)}.'); return
