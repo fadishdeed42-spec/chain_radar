@@ -614,7 +614,19 @@ def coinbase(sym, gran, start=None, end=None):
         return []
 
 
+_CC = {}
+
+
 def candles(coin, span='1d', event_ts=None):
+    k = (coin['id'], span, int(event_ts or 0))
+    if k in _CC and time.time() - _CC[k][0] < 90:
+        return _CC[k][1]
+    out = _candles(coin, span, event_ts)
+    _CC[k] = (time.time(), out)
+    return out
+
+
+def _candles(coin, span='1d', event_ts=None):
     """Real OHLCV. With event_ts the window is built around the news (some time before, everything after).
     Coinbase first (has volume, checked against CoinGecko price), CoinGecko OHLC fallback. Returns (rows, source, label)."""
     now = time.time()
@@ -666,17 +678,24 @@ def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None, event
         return None
 
 
+def _article(u):
+    r = get(u, timeout=6)
+    if not r or 'html' not in r.headers.get('content-type', ''):
+        return ''
+    t = re.sub(r'(?is)<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>', ' ', r.text)
+    paras = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in re.findall(r'(?is)<p[^>]*>(.*?)</p>', t)]
+    paras = [p for p in paras if len(p) > 60]
+    return ' '.join(paras)[:6000] if paras else ''
+
+
 def article_text(urls):
-    for u in urls[:2]:
-        r = get(u, timeout=8)
-        if not r or 'html' not in r.headers.get('content-type', ''):
-            continue
-        t = re.sub(r'(?is)<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>', ' ', r.text)
-        paras = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in re.findall(r'(?is)<p[^>]*>(.*?)</p>', t)]
-        paras = [p for p in paras if len(p) > 60]
-        if paras:
-            return ' '.join(paras)[:6000]
-    return ''
+    urls = [u for u in urls if u][:2]
+    if not urls:
+        return ''
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(2) as ex:
+        res = list(ex.map(_article, urls))
+    return next((x for x in res if x), '')
 
 
 _MODELS = []
@@ -705,22 +724,39 @@ def gemini_models():
     return _MODELS
 
 
-def gemini(prompt):
+_NOTHINK = {}
+
+
+def think_cfg(model):
+    if _NOTHINK.get(model) is False:
+        return {}
+    if re.search(r'gemini-2\.5', model):
+        return {'thinkingConfig': {'thinkingBudget': 0}}
+    if re.search(r'gemini-3', model):
+        return {'thinkingConfig': {'thinkingLevel': 'minimal'}}
+    return {}
+
+
+def gemini(prompt, timeout=20):
     if not GEMINI:
         return ''
     for attempt in range(2):
         for model in gemini_models():
-            try:
-                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-                                  params={'key': GEMINI}, timeout=25,
-                                  json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7}})
-                if r.ok:
-                    parts = r.json()['candidates'][0]['content']['parts']
-                    return ''.join(p.get('text', '') for p in parts).strip()
-                print('gemini', model, r.status_code, r.text[:90].replace('\n', ' '))
-            except Exception as e:
-                print('gemini fail', model, e)
-        time.sleep(6)
+            for tc in ([think_cfg(model), {}] if think_cfg(model) else [{}]):
+                try:
+                    r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
+                                      params={'key': GEMINI}, timeout=timeout,
+                                      json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7, **tc}})
+                    if r.ok:
+                        parts = r.json()['candidates'][0]['content']['parts']
+                        return ''.join(p.get('text', '') for p in parts if not p.get('thought')).strip()
+                    print('gemini', model, r.status_code, r.text[:90].replace('\n', ' '))
+                    if r.status_code == 400 and tc:
+                        _NOTHINK[model] = False; continue            # model doesn't accept the setting: retry plain
+                    break
+                except Exception as e:
+                    print('gemini fail', model, e); break
+        time.sleep(2)
     return ''
 
 
@@ -742,7 +778,6 @@ FORMAT = ('Reply in exactly this format and nothing else:\n'
           'VERSUS: <left label> = <left value> || <right label> = <right value>  (values max 18 chars)\n'
           'QUOTE: <exact quote copied word for word from the facts> = <speaker>   (or NONE)\n'
           'POST: <one X post, max 270 characters: hook line, what happened, key number, why it matters>\n'
-          'THREAD:\n1/ ...\n2/ ...\n3/ ...\n4/ ...\n'
           'REPLY: <one short reply to post under big crypto news accounts>\n')
 
 
@@ -839,9 +874,9 @@ def caption(p, url='', src='', note=''):
 
 def post_buttons(k, p, item, coin):
     b = [(a, f'v:{k}:{v}') for a, v in options(p, item, coin)]
-    extra = [('🧵 Thread', f'x:{k}:thread')] if p.get('thread') else []
+    extra = [('🧵 Thread', f'x:{k}:thread')]
     extra += [('💬 Reply idea', f'x:{k}:reply')] if p.get('reply') else []
-    extra += [('🎬 Shorts script', f'x:{k}:short')] if p.get('short') else []
+    extra += [('🎬 Shorts script', f'x:{k}:short')] if item.get('story') else []
     return b + extra
 
 
@@ -864,17 +899,50 @@ def edit_photo(msg_id, photo, text, buttons):
         return False
 
 
+EXTRA_PROMPT = {
+    'thread': 'Write an X thread of 4-5 posts about this, each under 270 characters, numbered 1/ 2/ 3/ ... Post 1 is the hook '
+              '(it goes with the image), the last post is the lesson. Reply with the thread only.',
+    'short': 'Write a 40-second voiceover script for a YouTube Short about this, max 110 words, hook in the first sentence, '
+             'loop-back last line. Reply with the script only.'}
+
+
 def send_extra(k, what):
     d = TGS.get('designs', {}).get(k)
     if not d:
         tg('That post is too old. Make it again from /top.'); return
     p = d['p']
-    if what == 'thread' and p.get('thread'):
-        tg(f'🧵 <b>Thread</b> (post 1 = the image post)\n<code>{E(p["thread"])}</code>')
-    elif what == 'reply' and p.get('reply'):
-        tg(f'💬 <b>Reply idea</b> (post under big accounts covering this)\n<code>{E(p["reply"])}</code>')
-    elif what == 'short' and p.get('short'):
-        tg(f'🎬 <b>Shorts script</b> (~40s)\n<code>{E(p["short"])}</code>')
+    if what == 'reply' and p.get('reply'):
+        tg(f'💬 <b>Reply idea</b> (post under big accounts covering this)\n<code>{E(p["reply"])}</code>'); return
+    if what not in EXTRA_PROMPT:
+        return
+    if not p.get(what):
+        chat_action('typing')
+        p[what] = gemini(STYLE + EXTRA_PROMPT[what] + '\n\nFACTS:\n' + d['facts'] + f'\n\nThe main post already written:\n{p["post"]}')
+    if not p.get(what):
+        tg('⚠️ The AI writer is busy, tap again in a minute.'); return
+    head = '🧵 <b>Thread</b> (post 1 = the image post)' if what == 'thread' else '🎬 <b>Shorts script</b> (~40s)'
+    tg(f'{head}\n<code>{E(p[what])}</code>')
+
+
+_ACK = [None]
+
+
+def ack(text='⏳ Making your post…'):
+    """Instant 'working' message; removed again as soon as the post arrives so the chat stays clean."""
+    try:
+        r = requests.post(f'https://api.telegram.org/bot{TOKEN}/sendMessage', data={'chat_id': CHAT, 'text': text}, timeout=8)
+        _ACK[0] = r.json()['result']['message_id']
+    except Exception:
+        _ACK[0] = None
+
+
+def unack():
+    if _ACK[0]:
+        try:
+            requests.post(f'https://api.telegram.org/bot{TOKEN}/deleteMessage', data={'chat_id': CHAT, 'message_id': _ACK[0]}, timeout=8)
+        except Exception:
+            pass
+        _ACK[0] = None
 
 
 def make_post(item):
@@ -883,9 +951,10 @@ def make_post(item):
     facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item.get("src", "")])}\n'
              + (f'Coin in this story: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
              + (item.get('facts', '') + '\n') + (f'Article text:\n{body}\n' if body else ''))
-    extra = ('This is a true-story thread for a crypto story channel: tell it as a story with a twist, in time order.\n'
-             'Also add a line: SHORT: <a 40-second voiceover script for a YouTube Short, max 110 words, hook in the first sentence>\n'
-             if item.get('story') else '')
+    extra = 'This is a true crypto story: tell the post as a story with a twist.\n' if item.get('story') else ''
+    if coin:                                                   # fetch the candles while the AI writes
+        import threading
+        threading.Thread(target=lambda: candles(coin, item.get('span') or '1d', None if item.get('focus') else item.get('t0')), daemon=True).start()
     p = parse_out(gemini(STYLE + FORMAT + extra + '\nFACTS:\n' + facts))
     if not p['title']:
         p = {'title': item['title'][:90], 'keyfact': '', 'reply': '', 'thread': '', 'tag': item.get('tag', 'BREAKING'), 'visual': '',
@@ -897,10 +966,11 @@ def make_post(item):
     chart_it = item.get('chart') or re.search(r'\b(pumps|dumps) \d', item['title']) or p.get('visual') == 'CHART'
     img = build_image(p, item, facts, coin if chart_it else None)
     k = hashlib.md5((item['title'] + str(NOW)).encode()).hexdigest()[:10]
-    TGS.setdefault('designs', {})[k] = {'t': time.time(), 'p': p, 'item': {x: item.get(x) for x in ('title', 'src', 'tag', 'hack', 'url', 't0', 'focus', 'span', 'chart')},
+    TGS.setdefault('designs', {})[k] = {'t': time.time(), 'p': p, 'item': {x: item.get(x) for x in ('title', 'src', 'tag', 'hack', 'url', 't0', 'focus', 'span', 'chart', 'story')},
                                          'facts': facts[:4000], 'coin': coin['id'] if coin else ''}
     TGS['designs'] = dict(sorted(TGS['designs'].items(), key=lambda kv: -kv[1]['t'])[:25])
     tg(caption(p, item.get('url', ''), item.get('src', ''), p.get('note', '')), img, post_buttons(k, p, item, coin))
+    unack()
 
 
 def switch_design(k, vis, msg_id=None):
@@ -1122,8 +1192,11 @@ def handle(u, tgs):
         if data.startswith('p:'):
             item = menu_item(data[2:], tgs)
             if item:
-                chat_action()
-                make_post(item)
+                ack()
+                try:
+                    make_post(item)
+                finally:
+                    unack()
             else:
                 tg('That story expired. Send /top for the current list.')
         elif data.startswith('v:'):
@@ -1175,12 +1248,12 @@ def handle(u, tgs):
         urls = re.findall(r'https?://\S+', t)
         if re.match(r'https?://\S+$', t):               # just a link
             url = t
-            chat_action()
-            pg = get(url); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
+            ack()
+            pg = get(url, timeout=8); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
             ttl = html.unescape(ttl.group(1)).split(' | ')[0].split(' - ')[0].strip() if ttl else url
             make_post({'title': ttl, 'url': url, 'src': re.sub(r'^https?://(www\.)?([^/]+).*', r'\2', url), 'urls': [url]})
         else:                                            # forwarded or pasted news text
-            chat_action()
+            ack()
             first = re.split(r'(?<=[.!?])\s|\n', re.sub(r'https?://\S+', '', t).strip())[0][:140]
             make_post({'title': first or t[:120], 'facts': 'News text (from a Telegram message):\n' + t[:3000], 'src': fwd_src or 'Telegram',
                        'url': urls[0] if urls else '', 'urls': urls[:2]})
