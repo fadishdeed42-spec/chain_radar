@@ -24,7 +24,7 @@ GOLD, RED, GRN = (232, 181, 64), (239, 68, 80), (38, 210, 160)
 BLUE, PURPLE, ORANGE = (77, 132, 255), (139, 92, 246), (249, 140, 50)
 TAGS = {'BREAKING': RED, 'HACK': RED, 'EXPLOIT': RED, 'ARREST': PURPLE, 'LAWSUIT': PURPLE, 'REGULATION': BLUE, 'COURT': PURPLE,
         'ETF': BLUE, 'MARKET': GRN, 'PRICE ALERT': RED, 'SCAM': ORANGE, 'WHALE': (20, 184, 166), 'TRUE STORY': GOLD,
-        'CHART': GOLD, 'MYSTERY': PURPLE, 'MOVER': BLUE, '24H CHART': GOLD, '7D CHART': GOLD, '30D CHART': GOLD, '1Y CHART': GOLD}
+        'CHART': GOLD, 'MYSTERY': PURPLE, 'MOVER': BLUE, '8H CHART': GOLD, '24H CHART': GOLD, '7D CHART': GOLD, '30D CHART': GOLD, '1Y CHART': GOLD}
 NUM = re.compile(r'^[\$€£]?\d[\d,.]*[%kKmMbBxX]?\+?$|^(million|billion|trillion|record|years?|%)$', re.I)
 _logo = None
 
@@ -195,12 +195,20 @@ def event_move(rows, event_ms):
     return (e, x, up if x == hi else dn, base, rows[x][2] if x == hi else rows[x][3])
 
 
-def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', event_ms=None):
+def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', event_ms=None, focus=None):
     """Real candles. If event_ms is given: gold 'NEWS BREAKS' line, pre-news candles dimmed, bracket = move since the news.
     Otherwise the bracket shows the biggest real swing in the window."""
     first, last = rows[0][1], rows[-1][4]; ch = (last / first - 1) * 100; up = ch >= 0
     ev = event_move(rows, event_ms) if event_ms else None
-    i0, i1, mv, p0, p1 = ev if ev else biggest_swing(rows)
+    if focus and not ev:
+        t_end = rows[-1][0]
+        rows = rows[next((k for k, r in enumerate(rows) if r[0] >= t_end - max(focus * 4, 4 * 3600) * 1000 + 1), 0):] if focus <= 3600 else rows
+    fo = None
+    if focus and not ev:                                            # the move the headline is about: last `focus` seconds
+        t_end = rows[-1][0]
+        j = next((k for k, r in enumerate(rows) if r[0] >= t_end - focus * 1000 + 1), 0)
+        fo = (j, len(rows) - 1, rows[-1][4] / rows[j][1] - 1, rows[j][1], rows[-1][4])
+    i0, i1, mv, p0, p1 = ev or fo or biggest_swing(rows)
     acc = GRN if mv >= 0 else RED
     im = canvas(acc); d = header(im, tag)
     y = headline(d, title, 140, sizes=(64, 58, 52, 46, 42)) + 6
@@ -208,6 +216,9 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     d.text((56, y), nm, font=F(BOLD, 32), fill=WHITE)
     px = 56 + d.textlength(nm + '  ', font=F(BOLD, 32))
     d.text((px, y), fmt(last), font=F(BOLD, 32), fill=WHITE); px += d.textlength(fmt(last) + '  ', font=F(BOLD, 32))
+    if fo:                                                          # header chip = the same move the headline states
+        ch, up = mv * 100, mv >= 0
+        tf_label = 'in ' + dur(focus).replace('60 min', '1h') + ' · ' + tf_label.split(' · ')[-1]
     chip = f'{"▲" if up else "▼"} {abs(ch):.1f}%'; c2 = GRN if up else RED; cw = d.textlength(chip, font=F(BLACK, 24)) + 28
     d.rounded_rectangle([px, y + 1, px + cw, y + 40], radius=12, fill=tuple(int(v * 0.22) for v in c2), outline=c2, width=2)
     d.text((px + cw / 2, y + 21), chip, font=F(BLACK, 24), fill=c2, anchor='mm')
@@ -222,7 +233,10 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     for i in range(5):
         p = lo + (hi - lo) * i / 4; yy = Y(p)
         d.line([cx0, yy, cx1, yy], fill=(26, 31, 43), width=1)
-        d.text((cx1 + 16, yy), fmt(p), font=F(MED, 17), fill=DIM, anchor='lm')
+        if abs(yy - Y(last)) > 26:                                  # don't print under the live price tag
+            d.text((cx1 + 16, yy), fmt(p), font=F(MED, 17), fill=DIM, anchor='lm')
+    if fo and fo[0] > 0:                                            # shade the window the headline talks about
+        d.rectangle([X(i0) - step / 2, cy0 - 50, cx1, cy1 + 8], fill=(21, 26, 38))
     if ev:                                                          # shade the 'after news' zone
         d.rectangle([X(i0) - step / 2, cy0 - 50, cx1, cy1 + 8], fill=(21, 26, 38))
     vmax = max((r[5] or 0) for r in rows) or 1
@@ -250,9 +264,21 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
         d.text((cx1 - 4, yb - 6), f'before news {fmt(p0)}', font=F(SEMI, 15), fill=MUT, anchor='rd')
     xa, xb = X(i0), X(i1); ya, yb2 = Y(p0), Y(p1)
     secs = (rows[i1][0] - rows[i0][0]) / 1000
-    label = f'{mv * 100:+.1f}% in {dur(max(secs, 60))}' + (' after the news' if ev else '')
+    fdur = dur(focus).replace('60 min', '1h').replace('24h', '24 hours') if fo else ''
+    label = f'{mv * 100:+.1f}% in {fdur}' if fo else f'{mv * 100:+.1f}% in {dur(max(secs, 60))}' + (' after the news' if ev else '')
     lw = d.textlength(label, font=F(BLACK, 22)) + 30
-    if ev:                                                          # vertical bracket: price at news -> extreme after it
+    if fo:                                                          # start-of-window level -> now, with a vertical bracket
+        for xx in range(int(xa), int(cx1), 12):
+            d.line([xx, ya, xx + 6, ya], fill=(150, 156, 172), width=2)
+        d.ellipse([xa - 8, ya - 8, xa + 8, ya + 8], fill=acc, outline=BG1, width=3)
+        bx = cx1 - 6
+        d.line([bx, ya, bx, yb2], fill=acc, width=4)
+        d.line([bx - 12, ya, bx, ya], fill=acc, width=4); d.line([bx - 12, yb2, bx, yb2], fill=acc, width=4)
+        if xa - 18 - lw >= cx0:                                     # pill left of the window, level with the new price
+            lx, lym = xa - 18 - lw, yb2 - 20
+        else:                                                       # window = whole chart: pill beside the bracket
+            lx, lym = cx1 - 18 - lw, (ya - 54 if mv < 0 else ya + 14)  # empty side of the start-price line
+    elif ev:                                                        # vertical bracket: price at news -> extreme after it
         bx = min(max(xb + bw + 14, xa + 20), cx1 - 8)
         d.line([bx, ya, bx, yb2], fill=acc, width=4)
         d.line([bx - 10, ya, bx + 2, ya], fill=acc, width=4); d.line([bx - 10, yb2, bx + 2, yb2], fill=acc, width=4)
@@ -280,12 +306,13 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
         d.text((X(i), bot - 16), dt.strftime('%b %d' if multi else '%H:%M'), font=F(MED, 15), fill=DIM, anchor='mm')
     hh = max(r[2] for r in rows); ll = min(r[3] for r in rows)
     tiles = ([('BEFORE NEWS', fmt(p0), WHITE), ('NOW', fmt(last), WHITE), ('SINCE NEWS', f'{(last / p0 - 1) * 100:+.1f}%', GRN if last >= p0 else RED)]
-             if ev else [('HIGH', fmt(hh), WHITE), ('LOW', fmt(ll), WHITE), ('CHANGE', f'{ch:+.1f}%', GRN if up else RED)])
+             if ev else [(f'{fdur.upper()} AGO', fmt(p0), WHITE), ('NOW', fmt(last), WHITE), (f'CHANGE · {fdur.upper()}', f'{mv * 100:+.1f}%', GRN if mv >= 0 else RED)]
+             if fo else [('HIGH', fmt(hh), WHITE), ('LOW', fmt(ll), WHITE), ('CHANGE', f'{ch:+.1f}%', GRN if up else RED)])
     tw = (W - 72 - 40) / 3; span = tf_label.split(' · ')[0].upper()
     for i, (a, b, col) in enumerate(tiles):
         x0 = 36 + i * (tw + 20)
         d.rounded_rectangle([x0, 1158, x0 + tw, 1246], radius=20, fill=PANEL, outline=LINE, width=2)
-        d.text((x0 + 22, 1174), a if ev else f'{a} · {span}', font=F(SEMI, 15), fill=DIM)
+        d.text((x0 + 22, 1174), a if ev or fo else f'{a} · {span}', font=F(SEMI, 15), fill=DIM)
         d.text((x0 + 22, 1198), b, font=F(BLACK, 33), fill=col)
     d.text((56, 1302), 'Every chart hides a story', font=F(MED, 20), fill=MUT, anchor='lm')
     d.text((W - 56, 1302), f'Data: {source} · real candles', font=F(MED, 17), fill=DIM, anchor='rm')

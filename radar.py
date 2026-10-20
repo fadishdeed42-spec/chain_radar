@@ -10,7 +10,7 @@ GEMINI = os.environ.get('GEMINI_API_KEY', '')
 STATE = 'state/seen.json'
 NOW = time.time()
 UA = {'User-Agent': 'Mozilla/5.0 (ChainRadar news scanner; +github.com/fadishdeed42-spec/chain_radar)'}
-ALERT, WATCH = 65, 50          # score thresholds
+ALERT, WATCH = 70, 50          # score thresholds
 FRESH_H = 6                    # only stories newer than this many hours
 
 FEEDS = {
@@ -58,7 +58,7 @@ def load_state():
 def save_state(s):
     os.makedirs('state', exist_ok=True)
     for k in ('stories', 'movers', 'hacks'):
-        s[k] = {i: t for i, t in s[k].items() if NOW - t < 72 * 3600}
+        s[k] = {i: t for i, t in s.get(k, {}).items() if NOW - t < 72 * 3600}
     s['menu'] = {i: m for i, m in s.get('menu', {}).items() if NOW - m['t'] < 48 * 3600}
     json.dump(s, open(STATE, 'w'), indent=0, sort_keys=True)
 
@@ -207,7 +207,8 @@ def score_group(g, market, reddit):
 
 
 def key_of(g):
-    return hashlib.md5(' '.join(sorted(list(g['w']))[:12]).encode()).hexdigest()[:12]
+    first = min(g['items'], key=lambda i: i.get('ts', 0))
+    return hashlib.md5((first.get('url') or first['title']).encode()).hexdigest()[:12]
 
 
 def remember(st, g, lead, coin, srcs):
@@ -296,20 +297,66 @@ E = html.escape
 
 
 def story_msg(sc, lead, coin, srcs, items, age_h, urgent):
-    head = '🚨 <b>POST NOW</b>' if urgent else '📌 <b>Worth posting</b>'
-    links = []
-    for it in sorted(items, key=lambda i: i['ts'])[:3]:
-        links.append(f'• <a href="{E(it["url"])}">{E(it["src"])}</a>')
-    d = draft(lead['title'], coin, srcs)
-    m = (f'{head} · score {sc}/100 · {len(srcs)} sources · {age_h*60:.0f} min old\n\n'
-         f'<b>{E(lead["title"])}</b>\n\n')
+    m = f'🔥 <b>BREAKING</b> · {len(srcs)} sources · {age_h*60:.0f} min ago\n<b>{E(lead["title"])}</b>'
     if coin:
-        m += f'📈 {coin["sym"]} ${coin["price"]:,.6g} · {coin["h1"]:+.1f}% 1h · {coin["h24"]:+.1f}% 24h\n\n'
-    m += f'✍️ <b>Draft (check facts, then post):</b>\n<code>{E(d)}</code>\n\n🔗 Sources:\n' + '\n'.join(links)
+        m += f'\n{coin["sym"]} {fmt_p(coin["price"])} · {coin["h1"]:+.1f}% 1h · {coin["h24"]:+.1f}% 24h'
+    m += '\n' + ' · '.join(f'<a href="{E(it["url"])}">{E(it["src"])}</a>' for it in sorted(items, key=lambda i: i['ts'])[:3])
     return m
 
 
 # ---------------- main ----------------
+# ---------------- duplicate guard ----------------
+DUP_KIND = {'hack': r'hack|exploit|drain|stole|steal|attack|breach', 'legal': r'arrest|charge|sentenc|lawsuit|sues|sued|court|indict|guilty',
+            'etf': r'\betf', 'list': r'listing|lists|delist', 'outage': r'outage|halt|freez|frozen|paus|suspend', 'ban': r'\bban|seiz',
+            'record': r'record|all-time high|\bath\b', 'crash': r'crash|plung|tumbl|dump|liquidat'}
+COMMON = set('bitcoin btc ethereum eth crypto cryptocurrency market price traders investors sec etf etfs cftc doj fbi defi nft dao ceo usd usdt usdc '
+             'breaking report new why how what this the after us'.split())
+
+
+def story_sig(title):
+    w = words(title)
+    ents = {x.lower() for x in re.findall(r"\b[A-Z][A-Za-z0-9]{2,}\b", title)} - COMMON - STOP
+    kinds = [k for k, rx in DUP_KIND.items() if re.search(rx, title.lower())]
+    return {'w': sorted(w), 'e': sorted(ents), 'k': kinds}
+
+
+def is_dup(st, title, urls=(), hours=36):
+    """True if this story (or a near copy from another outlet) was already sent."""
+    s = story_sig(title); w = set(s['w'])
+    for x in st.get('sent', []):
+        if NOW - x['t'] > hours * 3600:
+            continue
+        if set(urls) & set(x.get('u', [])):
+            return True
+        xw = set(x['w']); inter = len(w & xw)
+        if inter / max(1, len(w | xw)) >= 0.3 or inter >= 4:
+            return True
+        if set(s['e']) & set(x['e']) and set(s['k']) & set(x['k']) and inter >= 2:   # same name + same kind of event
+            return True
+    return False
+
+
+def mark_sent(st, title, urls=()):
+    s = story_sig(title); s.update({'t': NOW, 'u': [u for u in urls if u][:6]})
+    st['sent'] = [x for x in st.get('sent', []) if NOW - x['t'] < 48 * 3600][-150:] + [s]
+
+
+MAX_PER_SCAN, MAX_PER_DAY = 2, 14
+
+
+def budget_ok(st):
+    st['log'] = [t for t in st.get('log', []) if NOW - t < 86400]
+    return len(st['log']) < MAX_PER_DAY
+
+
+def recent_move(rows, secs):
+    """Move over the last `secs` from real candles: (pct, price_then, price_now)."""
+    t_end = rows[-1][0]
+    i = next((j for j, r in enumerate(rows) if r[0] >= t_end - secs * 1000 + 1), 0)
+    p0 = rows[i][1]
+    return rows[-1][4] / p0 - 1, p0, rows[-1][4]
+
+
 def main():
     st = load_state()
     first_run = not st.get('init')
@@ -328,9 +375,9 @@ def main():
         st['top'].append([remember(st, g, lead, coin, srcs), sc, round(age * 60), len(srcs)])
     st['top_at'] = NOW
     if first_run:
-        send_top(st, scored, '✅ <b>Chain Radar is live.</b> I check crypto news, prices and hacks every 15 minutes and ping you here.')
-        for _, g in scored:
-            st['stories'][key_of(g)] = NOW
+        send_top(st, scored, '✅ <b>Chain Radar is live.</b> I only ping you for big news. Send /top anytime.')
+        for (sc, lead, coin, srcs, age), g in scored:
+            mark_sent(st, lead['title'], [i['url'] for i in g['items']])
         for h in hacks:
             st['hacks'][str(h.get('name')) + str(h.get('date'))] = NOW
         for c in market:
@@ -339,67 +386,94 @@ def main():
         st['init'] = True
         save_state(st); return
 
-    # 1) hacks from DefiLlama
+    def can_send():
+        return not muted and sent < MAX_PER_SCAN and budget_ok(st)
+
+    def count():
+        nonlocal sent
+        sent += 1; st.setdefault('log', []).append(NOW)
+
+    # 1) hacks from DefiLlama (always worth it)
     for h in hacks:
         k = str(h.get('name')) + str(h.get('date'))
         amt = float(h.get('amount') or 0)
         if k in st['hacks'] or amt < 1e6:
             continue
         st['hacks'][k] = NOW
-        if muted:
-            continue
+        title = f'{h.get("name")} hacked for ${amt/1e6:,.1f} million'
+        if is_dup(st, title) or not can_send():
+            mark_sent(st, title); continue
+        mark_sent(st, title)
         when = datetime.fromtimestamp(float(h.get('date', NOW)), timezone.utc).strftime('%b %d')
         hk = hashlib.md5(k.encode()).hexdigest()[:12]
-        hitem = {'t': NOW, 'title': f'{h.get("name")} hacked for ${amt/1e6:,.1f} million', 'url': '', 'src': 'DefiLlama', 'tag': 'HACK',
+        hitem = {'t': NOW, 'title': title, 'url': '', 'src': 'DefiLlama', 'tag': 'HACK',
                  'hack': {'amount': card.big_money(f'${amt:,.0f}'), 'chain': str(h.get('chain') or (h.get('chains') or [''])[0] or ''),
                           'method': str(h.get('technique') or h.get('classification') or '')[:28], 'date': when},
                  'facts': f'Hack date: {when}. Chain: {h.get("chain") or h.get("chains")}. Method: {h.get("technique") or h.get("classification")}. Amount: ${amt:,.0f}. (DefiLlama hacks database.)'}
         st.setdefault('menu', {})[hk] = hitem
-        img = card.alert_card(hitem['title'], hitem['hack']['amount'], [('Chain', hitem['hack']['chain']), ('Method', hitem['hack']['method']), ('Date', when)], 'HACKED', 'DefiLlama')
-        tg(f'🚨 <b>HACK ALERT</b> · {E(str(h.get("name")))} · ${amt/1e6:,.1f}M\nVerify with a news source before posting.', img, [('📝 Make full post', 'p:' + hk)])
-        sent += 1
+        tg(f'🚨 <b>HACK</b> · <b>{E(title)}</b>\n<i>DefiLlama · verify with a news source before posting</i>', None, [('📝 Make post', 'p:' + hk)])
+        count()
 
-    # 2) big price movers
-    for c in market:
-        big = (c['sym'] in ('BTC', 'ETH') and abs(c['h1']) >= 2.5) or (c['rank'] <= 50 and abs(c['h1']) >= 6) or \
-              (c['rank'] <= 100 and abs(c['h1']) >= 9)
-        last = st['movers'].get(c['id'], 0)
-        if not big or NOW - last < 6 * 3600:
+    # 2) big price movers: only real, confirmed moves (CoinGecko and the candles must agree)
+    for c in sorted(market, key=lambda c: -abs(c['h1'])):
+        major = c['sym'] in ('BTC', 'ETH')
+        big = (major and abs(c['h1']) >= 2.5) or (c['rank'] <= 50 and abs(c['h1']) >= 7) or (c['rank'] <= 100 and abs(c['h1']) >= 10)
+        if not big or NOW - st['movers'].get(c['id'], 0) < (4 if major else 12) * 3600 or not can_send():
             continue
         st['movers'][c['id']] = NOW
-        verb = 'pumps' if c['h1'] > 0 else 'dumps'
-        news_hit = next((lead for (sc, lead, coin, srcs, age), g in scored if coin and coin['id'] == c['id']), None)
-        m = (f'🚨 <b>PRICE MOVE</b> · {c["name"]} {verb} {c["h1"]:+.1f}% in 1h ({c["h24"]:+.1f}% 24h) · ${c["price"]:,.6g}\n\n'
-             + (f'Possible reason: <b>{E(news_hit["title"])}</b>\n<a href="{E(news_hit["url"])}">{E(news_hit["src"])}</a>\n\n' if news_hit
-                else 'No news found yet. Check X search for the reason before posting.\n\n')
-             + f'✍️ <code>{E(draft(f"{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour", c, ["CoinGecko"]))}</code>')
-        if not muted:
-            tg(m, coin_card(c, f'{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour', '1d', 'PRICE ALERT', card.GRN if c['h1'] > 0 else card.RED),
-               [('📝 Make full post', 'p:' + remember(st, {'items': [{'title': f'{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour', 'url': '', 'src': 'CoinGecko', 'ts': NOW}], 'w': {c['id'], 'move', verb}}, {'title': f'{c["name"]} {verb} {abs(c["h1"]):.1f}% in one hour', 'url': (news_hit or {}).get('url', ''), 'src': (news_hit or {}).get('src', 'CoinGecko')}, c, {'CoinGecko'}))])
-        sent += 1
-
-    # 3) news stories
-    watch = []
-    for (sc, lead, coin, srcs, age), g in scored:
-        k = key_of(g)
-        if k in st['stories']:
+        rows, src, lab = candles(c, '8h')
+        if not rows:
             continue
-        if sc >= ALERT:
-            st['stories'][k] = NOW
-            mk = remember(st, g, lead, coin, srcs)
-            if not muted:
-                tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), None, [('📝 Make full post + image', 'p:' + mk)])
-            sent += 1
-        elif sc >= WATCH:
-            st['stories'][k] = NOW
-            watch.append((sc, lead, srcs, remember(st, g, lead, coin, srcs)))
-    if watch:
-        msg = '📌 <b>Worth a look</b> (not urgent). Tap a number to get a full post:\n'
-        for n, (sc, lead, srcs, mk) in enumerate(watch[:5], 1):
-            msg += f'\n<b>{n}.</b> ({sc}/100, {len(srcs)} src) <a href="{E(lead["url"])}">{E(lead["title"])}</a>'
-        if not muted:
-            tg(msg, None, [(f'📝 {n}', 'p:' + w[3]) for n, w in enumerate(watch[:5], 1)])
-    print('alerts sent', sent, 'watch', len(watch))
+        mv, p0, p1 = recent_move(rows, 3600)
+        if mv * c['h1'] <= 0 or abs(mv) < abs(c['h1']) * 0.5:               # sources disagree: not reliable, stay quiet
+            print('mover skipped, candles disagree', c['sym'], c['h1'], round(mv * 100, 2)); continue
+        verb = 'pumps' if mv > 0 else 'dumps'
+        title = f'{c["name"]} {verb} {abs(mv) * 100:.1f}% in one hour'
+        news_hit = next(((lead, g) for (sc, lead, coin, srcs, age), g in scored if coin and coin['id'] == c['id']), None)
+        try:
+            img, _ = card.chart_card(title, c, rows, lab, 'PRICE ALERT', src, focus=3600)
+        except Exception as e:
+            print('mover card fail', repr(e)); continue
+        mk = remember(st, {'items': [{'title': title, 'url': '', 'src': 'CoinGecko', 'ts': NOW}], 'w': {c['id'], 'move', verb}},
+                      {'title': title, 'url': news_hit[0]['url'] if news_hit else '', 'src': news_hit[0]['src'] if news_hit else src}, c, {src})
+        st['menu'][mk].update({'chart': True, 'focus': 3600, 'span': '8h', 'tag': 'PRICE ALERT'})
+        cap = f'⚡ <b>{E(title)}</b> · {fmt_p(p1)}'
+        if news_hit:
+            cap += f'\nLikely why: <a href="{E(news_hit[0]["url"])}">{E(news_hit[0]["title"])}</a>'
+            mark_sent(st, news_hit[0]['title'], [i['url'] for i in news_hit[1]['items']])
+        else:
+            cap += '\n<i>No news found yet — check X for the reason.</i>'
+        tg(cap, img, [('📝 Make post', 'p:' + mk)])
+        count()
+
+    # 3) breaking news: only strong stories never sent before (any outlet)
+    for (sc, lead, coin, srcs, age), g in scored:
+        if sc < ALERT:
+            break
+        urls = [i['url'] for i in g['items']]
+        if is_dup(st, lead['title'], urls):
+            continue
+        mark_sent(st, lead['title'], urls)
+        if not can_send():
+            continue
+        mk = remember(st, g, lead, coin, srcs)
+        tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), None, [('📝 Make post', 'p:' + mk)])
+        count()
+    print('alerts sent', sent)
+    save_state(st)
+
+
+def fmt_p(v):
+    return f'${v:,.0f}' if v >= 1000 else f'${v:,.2f}' if v >= 1 else f'${v:.4g}'
+
+
+def live_top(tgs):
+    m, n = collect_market(), collect_news()
+    if not n:
+        tg('News sources are slow right now, try again in a minute.'); return
+    st = load_state()
+    scored = sorted([(score_group(g, m, []), g) for g in cluster(n)], key=lambda x: -x[0][0])
+    send_top(st, scored, '📰 <b>Top crypto stories · live</b>')
     save_state(st)
 
 
@@ -472,7 +546,7 @@ def menu_item(k, tgs):
 
 
 def send_top(st, scored, header='📰 <b>Top crypto stories right now</b>'):
-    msg, btn = header + '\nTap a number → I make the full post (title, image, post, thread).\n', []
+    msg, btn = header + '\nTap a number → image + post text, ready to post.\n', []
     for n, ((sc, lead, coin, srcs, age), g) in enumerate(scored[:8], 1):
         k = remember(st, g, lead, coin, srcs)
         fire = '🔥' if sc >= ALERT else '•'
@@ -519,7 +593,7 @@ def find_coin(text):
     return None
 
 
-SPANS = {'1d': (900, 96, 1, '24h · 15m candles'), '7d': (3600, 168, 7, '7d · 1h candles'),
+SPANS = {'8h': (300, 96, 1, '8h · 5m candles'), '1d': (900, 96, 1, '24h · 15m candles'), '7d': (3600, 168, 7, '7d · 1h candles'),
          '30d': (21600, 120, 30, '30d · 6h candles'), '1y': (86400, 300, 365, '1y · daily candles')}
 GRAN_LABEL = {300: '5m', 900: '15m', 3600: '1h', 21600: '6h', 86400: 'daily'}
 
@@ -562,17 +636,25 @@ def candles(coin, span='1d', event_ts=None):
     return (rows, 'CoinGecko', lab if event_ts else SPANS[span][3]) if len(rows) >= 8 else ([], '', '')
 
 
-def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None, event_ts=None, strict=False):
+def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None, event_ts=None, strict=False, focus=None):
     """Candle card. strict=True (news posts): return None when the chart doesn't actually show a move worth showing."""
+    if focus:
+        event_ts = None
     rows, src, lab = candles(coin, span, event_ts)
     if not rows and not event_ts and span == '1d':
         rows, src, lab = candles(coin, '7d')
     if not rows:
         return None
     try:
-        img, mv = card.chart_card(title, coin, rows, lab, tag, src, int(event_ts * 1000) if event_ts else None)
+        img, mv = card.chart_card(title, coin, rows, lab, tag, src, int(event_ts * 1000) if event_ts else None, focus=focus)
         if strict and abs(mv) < 0.02:
             print('chart skipped: move too small', round(mv * 100, 2))
+            return None
+        tl = title.lower()                                    # never show a chart that contradicts the headline
+        says_up = re.search(r'pump|surg|soar|rall|jump|spike|rise|rises|climb|gain|rebound|record high|ath\b|rockets|moon', tl)
+        says_dn = re.search(r'dump|crash|plung|drop|fall|fell|tumbl|slid|sink|sank|tank|bleed|slump|dip|lose|loss', tl)
+        if (says_up and not says_dn and mv < 0) or (says_dn and not says_up and mv > 0):
+            print('chart skipped: contradicts headline', title, round(mv * 100, 2))
             return None
         return img
     except Exception as e:
@@ -708,8 +790,8 @@ def build_image(p, item, facts, coin_hint=None, force=None):
             if not coin and p.get('symbol') not in ('', 'NONE') and re.search(r'\b' + re.escape(p['symbol']) + r'\b', facts, re.I):
                 h = cg_search(p['symbol']); coin = coin_by_id(h['id']) if h else None
             if coin:
-                img = coin_card(coin, title, '1d', tag if tag != 'BREAKING' else 'MARKET', event_ts=item.get('t0'),
-                                strict=not force and not item.get('chart'))
+                img = coin_card(coin, title, item.get('span') or '1d', tag if tag != 'BREAKING' else 'MARKET', event_ts=item.get('t0'),
+                                strict=not force and not item.get('chart'), focus=item.get('focus'))
                 if img:
                     return img
         if vis == 'ALERT':
@@ -744,14 +826,51 @@ def build_image(p, item, facts, coin_hint=None, force=None):
 TGS = {}   # listener state, set in listen()
 
 
-def deliver(p, img, url='', src='', buttons=None):
-    tg(f'<b>{E(p["title"])}</b>' + ('\n🎨 Tap a design to switch the image:' if buttons else ''), img, buttons)
-    tg(f'📝 <b>POST</b> (tap to copy)\n<code>{E(p["post"])}</code>' + (f'\n\n💬 <b>REPLY IDEA</b>\n<code>{E(p["reply"])}</code>' if p['reply'] else '')
-       + (f'\n\n🔗 <a href="{E(url)}">{E(src or "source")}</a> · check facts before posting' if url else ''))
-    if p['thread']:
-        tg(f'🧵 <b>THREAD</b> (post 1 = image above)\n<code>{E(p["thread"])}</code>')
-    if p.get('short'):
-        tg(f'🎬 <b>SHORTS SCRIPT</b> (~40s)\n<code>{E(p["short"])}</code>')
+def caption(p, url='', src='', note=''):
+    c = f'<code>{E(p["post"])}</code>'
+    if url:
+        c += f'\n\n🔗 <a href="{E(url)}">{E(src or "source")}</a> · check facts before posting'
+    return (note + '\n\n' if note else '') + c
+
+
+def post_buttons(k, p, item, coin):
+    b = [(a, f'v:{k}:{v}') for a, v in options(p, item, coin)]
+    extra = [('🧵 Thread', f'x:{k}:thread')] if p.get('thread') else []
+    extra += [('💬 Reply idea', f'x:{k}:reply')] if p.get('reply') else []
+    extra += [('🎬 Shorts script', f'x:{k}:short')] if p.get('short') else []
+    return b + extra
+
+
+def chat_action(a='upload_photo'):
+    try:
+        requests.post(f'https://api.telegram.org/bot{TOKEN}/sendChatAction', data={'chat_id': CHAT, 'action': a}, timeout=5)
+    except Exception:
+        pass
+
+
+def edit_photo(msg_id, photo, text, buttons):
+    """Swap the image of an existing message in place (design switch) instead of sending a new one."""
+    kb = {'inline_keyboard': [[{'text': a, 'callback_data': b} for a, b in buttons[i:i + 3]] for i in range(0, len(buttons), 3)]}
+    try:
+        r = requests.post(f'https://api.telegram.org/bot{TOKEN}/editMessageMedia', timeout=30, files={'photo': ('card.png', photo)},
+                          data={'chat_id': CHAT, 'message_id': msg_id, 'reply_markup': json.dumps(kb),
+                                'media': json.dumps({'type': 'photo', 'media': 'attach://photo', 'caption': text[:1024], 'parse_mode': 'HTML'})})
+        return r.ok
+    except Exception:
+        return False
+
+
+def send_extra(k, what):
+    d = TGS.get('designs', {}).get(k)
+    if not d:
+        tg('That post is too old. Make it again from /top.'); return
+    p = d['p']
+    if what == 'thread' and p.get('thread'):
+        tg(f'🧵 <b>Thread</b> (post 1 = the image post)\n<code>{E(p["thread"])}</code>')
+    elif what == 'reply' and p.get('reply'):
+        tg(f'💬 <b>Reply idea</b> (post under big accounts covering this)\n<code>{E(p["reply"])}</code>')
+    elif what == 'short' and p.get('short'):
+        tg(f'🎬 <b>Shorts script</b> (~40s)\n<code>{E(p["short"])}</code>')
 
 
 def make_post(item):
@@ -768,25 +887,29 @@ def make_post(item):
         p = {'title': item['title'][:90], 'keyfact': '', 'reply': '', 'thread': '', 'tag': item.get('tag', 'BREAKING'), 'visual': '',
              'symbol': '', 'stat': '', 'timeline': '', 'versus': '', 'quote': '',
              'post': f'⚡ {item["title"]}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')}
-        tg('⚠️ The AI writer is busy right now, so this one is a simple version. Tap the button again in a minute for the full post.')
+        p['note'] = '⚠️ AI writer busy — simple version. Tap Make post again in a minute for the full one.'
     if not coin and p.get('symbol') not in ('', 'NONE') and re.search(r'\b' + re.escape(p['symbol']) + r'\b', facts, re.I):
         h = cg_search(p['symbol']); coin = coin_by_id(h['id']) if h else None
     chart_it = item.get('chart') or re.search(r'\b(pumps|dumps) \d', item['title']) or p.get('visual') == 'CHART'
     img = build_image(p, item, facts, coin if chart_it else None)
     k = hashlib.md5((item['title'] + str(NOW)).encode()).hexdigest()[:10]
-    TGS.setdefault('designs', {})[k] = {'t': time.time(), 'p': p, 'item': {x: item.get(x) for x in ('title', 'src', 'tag', 'hack', 'url', 't0')},
+    TGS.setdefault('designs', {})[k] = {'t': time.time(), 'p': p, 'item': {x: item.get(x) for x in ('title', 'src', 'tag', 'hack', 'url', 't0', 'focus', 'span', 'chart')},
                                          'facts': facts[:4000], 'coin': coin['id'] if coin else ''}
     TGS['designs'] = dict(sorted(TGS['designs'].items(), key=lambda kv: -kv[1]['t'])[:25])
-    deliver(p, img, item.get('url', ''), item.get('src', ''), [(a, f'v:{k}:{b}') for a, b in options(p, item, coin)])
+    tg(caption(p, item.get('url', ''), item.get('src', ''), p.get('note', '')), img, post_buttons(k, p, item, coin))
 
 
-def switch_design(k, vis):
+def switch_design(k, vis, msg_id=None):
     d = TGS.get('designs', {}).get(k)
     if not d:
         tg('That post is too old to redesign. Make it again from /top.'); return
     coin = coin_by_id(d['coin']) if d.get('coin') and vis == 'CHART' else None
+    chat_action()
     img = build_image(d['p'], d['item'], d['facts'], coin, vis)
-    tg(f'<b>{E(d["p"]["title"])}</b> · {vis.title()} design', img, [(a, f'v:{k}:{b}') for a, b in options(d['p'], d['item'], coin or d.get('coin'))])
+    cap = caption(d['p'], d['item'].get('url') or '', d['item'].get('src') or '')
+    btn = post_buttons(k, d['p'], d['item'], coin or d.get('coin'))
+    if not (msg_id and edit_photo(msg_id, img, cap, btn)):
+        tg(cap, img, btn)
 
 
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
@@ -835,7 +958,7 @@ def cmd_chart(args):
 def send_coin_chart(coin, span='1d'):
     lab = SPANS[span][3].split(' · ')[0]
     img = coin_card(coin, f'{coin["name"]}: the last {lab}' if span != '1d' else f'{coin["name"]} in the last 24 hours', span,
-                    {'1d': '24H CHART', '7d': '7D CHART', '30d': '30D CHART', '1y': '1Y CHART'}[span])
+                    {'8h': '8H CHART', '1d': '24H CHART', '7d': '7D CHART', '30d': '30D CHART', '1y': '1Y CHART'}[span])
     if not img:
         tg('No candle data for that coin right now.'); return
     tg(f'📈 <b>{E(coin["name"])} ({coin["sym"]})</b> · ${coin["price"]:,.6g} · {coin["h24"]:+.1f}% 24h', img,
@@ -869,12 +992,17 @@ def coin_move(cid, tgs):
     coin = coin_by_id(cid)
     if not coin:
         tg('Coin data unavailable right now.'); return
-    verb = 'surges' if coin['h24'] >= 0 else 'drops'
-    title = f'{coin["name"]} {verb} {abs(coin["h24"]):.1f}% in 24 hours'
+    rows, src, lab = candles(coin, '1d')
+    mv = recent_move(rows, 86400)[0] if rows else coin['h24'] / 100
+    verb = 'surges' if mv >= 0 else 'drops'
+    title = f'{coin["name"]} {verb} {abs(mv) * 100:.1f}% in 24 hours'
     junk = r'predict|could be worth|millionaire|should you buy|buy now|top \d|which is|best crypto|to buy|forecast|\?$'
     heads = [h for h in gnews(f'"{coin["name"]}" crypto', 15) if re.search(re.escape(coin['name']) + '|' + re.escape(coin['sym']), h['title'], re.I)
              and not re.search(junk, h['title'], re.I) and time.time() - h['ts'] < 36 * 3600][:3]
-    img = coin_card(coin, title, '1d', 'MOVER')
+    try:
+        img = card.chart_card(title, coin, rows, lab, 'MOVER', src, focus=86400)[0] if rows else None
+    except Exception as e:
+        print('mover card fail', repr(e)); img = None
     msg = f'<b>{E(coin["name"])} ({coin["sym"]})</b> · ${coin["price"]:,.6g}\n24h {coin["h24"]:+.1f}% · 1h {coin["h1"]:+.1f}%\n\n'
     if heads:
         msg += '📰 <b>What the news says</b>\n' + '\n'.join(f'• <a href="{E(h["url"])}">{E(h["title"])}</a> <i>({E(h["src"])}, {ago(h["ts"])})</i>' for h in heads)
@@ -882,7 +1010,7 @@ def coin_move(cid, tgs):
         msg += '📰 No coin-specific news in the last 2 days. The move looks market-driven.'
     k = hashlib.md5((cid + str(int(NOW / 600))).encode()).hexdigest()[:12]
     tgs['menu'][k] = {'t': NOW, 'title': title, 'url': heads[0]['url'] if heads else '', 'src': heads[0]['src'] if heads else 'CoinGecko',
-                      'coin': cid, 'chart': True, 'tag': 'MARKET',
+                      'coin': cid, 'chart': True, 'tag': 'MARKET', 'focus': 86400, 'span': '1d',
                       'facts': 'Recent headlines about this coin:\n' + '\n'.join(f'- {h["title"]} ({h["src"]}, {ago(h["ts"])})' for h in heads)
                                + ('' if heads else 'No coin-specific news found; do not invent a reason, say the move looks market-driven.')}
     tg(msg, img, [('📝 Make full post', 'p:' + k), ('7D', f'c:{cid}:7d'), ('30D', f'c:{cid}:30d')])
@@ -990,13 +1118,16 @@ def handle(u, tgs):
         if data.startswith('p:'):
             item = menu_item(data[2:], tgs)
             if item:
-                tg(f'⏳ Making your post: <b>{E(item["title"])}</b>')
+                chat_action()
                 make_post(item)
             else:
                 tg('That story expired. Send /top for the current list.')
         elif data.startswith('v:'):
             _, k, vis = data.split(':', 2)
-            switch_design(k, vis)
+            switch_design(k, vis, (cb.get('message') or {}).get('message_id'))
+        elif data.startswith('x:'):
+            _, k, what = data.split(':', 2)
+            send_extra(k, what)
         elif data == 'r:':
             live_top(tgs)
         elif data.startswith('m:'):
@@ -1040,12 +1171,12 @@ def handle(u, tgs):
         urls = re.findall(r'https?://\S+', t)
         if re.match(r'https?://\S+$', t):               # just a link
             url = t
-            tg('⏳ Reading the article and making your post…')
+            chat_action()
             pg = get(url); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
             ttl = html.unescape(ttl.group(1)).split(' | ')[0].split(' - ')[0].strip() if ttl else url
             make_post({'title': ttl, 'url': url, 'src': re.sub(r'^https?://(www\.)?([^/]+).*', r'\2', url), 'urls': [url]})
         else:                                            # forwarded or pasted news text
-            tg('⏳ Turning this news into a post…')
+            chat_action()
             first = re.split(r'(?<=[.!?])\s|\n', re.sub(r'https?://\S+', '', t).strip())[0][:140]
             make_post({'title': first or t[:120], 'facts': 'News text (from a Telegram message):\n' + t[:3000], 'src': fwd_src or 'Telegram',
                        'url': urls[0] if urls else '', 'urls': urls[:2]})
