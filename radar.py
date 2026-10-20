@@ -460,8 +460,11 @@ def main():
         mark_sent(st, lead['title'], urls)
         if not can_send():
             continue
-        mk = remember(st, g, lead, coin, srcs)
-        tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), None, [('📝 Make post', 'p:' + mk)])
+        if sc >= VIRAL or (len(srcs) >= 4 and age < 1.5):
+            viral_alert(st, sc, lead, coin, srcs, g, age)
+        else:
+            mk = remember(st, g, lead, coin, srcs)
+            tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), None, [('📝 Make post', 'p:' + mk)])
         count()
     print('alerts sent', sent)
     save_state(st)
@@ -986,6 +989,159 @@ def switch_design(k, vis, msg_id=None):
         tg(cap, img, btn)
 
 
+# ---------------- replies: X post link -> 3 ready replies ----------------
+XLINK = re.compile(r'https?://(?:www\.|mobile\.)?(?:x|twitter|fxtwitter|vxtwitter|fixupx)\.com/([A-Za-z0-9_]+)/status(?:es)?/(\d+)', re.I)
+
+REPLY_RULES = ('Write replies to post under this X post, as the account "Chain Secrets" (crypto detective voice). Rules: each reply ONE or TWO '
+               'short sentences, max 200 characters; add something new (a fact, context, a number, a sharp angle) — never just agree or '
+               'praise; use ONLY facts given or widely known, well-established crypto history (no invented numbers, no price predictions, '
+               'no financial advice; if you are not sure a fact is true, do not use it — use an angle from the post itself instead); no links, no hashtags, max one emoji, no "great post", no self-promotion, must not sound like AI.\n'
+               'Reply in exactly this format and nothing else:\n'
+               'FACT: <reply that adds a real fact or context>\n'
+               'WITTY: <a clever, funny reply that still makes a point>\n'
+               'CHART: <a reply meant to go with a price chart image of the coin; mention what the chart shows>\n'
+               'SYMBOL: <ticker of the main coin in the post, or NONE>\n')
+
+
+def read_x(user, sid):
+    """Read a public X post for free: fxtwitter JSON first, X's own oEmbed as fallback."""
+    r = get(f'https://api.fxtwitter.com/{user}/status/{sid}', timeout=8)
+    try:
+        t = r.json()['tweet']
+        quote = (t.get('quote') or {}).get('text') or ''
+        return {'text': t.get('text') or '', 'author': t['author'].get('screen_name') or user, 'name': t['author'].get('name') or user,
+                'likes': t.get('likes') or 0, 'views': t.get('views') or 0, 'ts': t.get('created_timestamp') or time.time(),
+                'quote': quote}
+    except Exception:
+        pass
+    r = get('https://publish.twitter.com/oembed', params={'url': f'https://twitter.com/{user}/status/{sid}', 'omit_script': 'true'}, timeout=8)
+    try:
+        j = r.json(); m = re.search(r'(?is)<p[^>]*>(.*?)</p>', j['html'])
+        txt = html.unescape(re.sub(r'<[^>]+>', ' ', m.group(1))).strip() if m else ''
+        return {'text': re.sub(r'\s+', ' ', txt), 'author': j.get('author_url', '').rsplit('/', 1)[-1] or user,
+                'name': j.get('author_name') or user, 'likes': 0, 'views': 0, 'ts': time.time(), 'quote': ''}
+    except Exception:
+        return None
+
+
+def coin_from_text(text, symbol=''):
+    """Main coin of a post: cashtags first, then the AI's pick — only if the coin really appears in the text."""
+    cand = [x.upper() for x in re.findall(r'\$([A-Za-z]{2,8})\b', text)] + ([symbol] if symbol and symbol != 'NONE' else [])
+    for sym in dict.fromkeys(cand):
+        h = cg_search(sym)
+        c = coin_by_id(h['id']) if h else None
+        if c and re.search(r'\b(' + re.escape(c['sym']) + '|' + re.escape(c['name']) + r')\b', text, re.I):
+            return c
+    return coin_in(' ' + text + ' ', collect_market())
+
+
+def move_card(coin, tag='CHART'):
+    """24h candle chart whose headline is computed from the same candles it shows."""
+    rows, src, lab = candles(coin, '1d')
+    if not rows:
+        return None, ''
+    mv = recent_move(rows, 86400)[0]
+    title = f'{coin["name"]} {"up" if mv >= 0 else "down"} {abs(mv) * 100:.1f}% in 24 hours'
+    try:
+        return card.chart_card(title, coin, rows, lab, tag, src, focus=86400)[0], title
+    except Exception as e:
+        print('move card fail', repr(e)); return None, ''
+
+
+def parse_replies(out):
+    g = lambda k: (re.search(r'(?m)^' + k + r':\s*(.+)', out or '') or [None, ''])[1].strip().strip('"')
+    return {'fact': g('FACT'), 'witty': g('WITTY'), 'chart': g('CHART'), 'symbol': g('SYMBOL').upper().strip('$ ')}
+
+
+def reply_msg(rp, head, with_chart):
+    m = head + '\n\n'
+    m += f'💡 <b>Fact</b>\n<code>{E(rp["fact"])}</code>\n\n' if rp['fact'] else ''
+    m += f'😏 <b>Witty</b>\n<code>{E(rp["witty"])}</code>\n\n' if rp['witty'] else ''
+    m += (f'📈 <b>With the chart</b> (attach this image)\n<code>{E(rp["chart"])}</code>\n\n' if with_chart and rp['chart'] else '')
+    return (m + '<i>Tap to copy · double-check any number before posting</i>').strip()
+
+
+def cmd_reply(url, tgs, fresh=False):
+    m = XLINK.search(url)
+    if not m:
+        tg('Send me an X post link, like <code>https://x.com/WatcherGuru/status/123…</code>'); return
+    user, sid = m.group(1), m.group(2)
+    if not fresh:
+        ack('⏳ Reading the post…')
+    post = read_x(user, sid)
+    if not post or not post['text']:
+        unack(); tg('Couldn\'t read that post (deleted, private or X blocked it). Paste its text here instead and I\'ll write replies.'); return
+    reply_from_text(post['text'] + (f'\n\n(Quoted post: {post["quote"]})' if post['quote'] else ''), post['author'], post, tgs, sid)
+
+
+def reply_from_text(text, author, post, tgs, key):
+    facts = f'Post by @{author}:\n{text[:2000]}'
+    rp = parse_replies(gemini(REPLY_RULES + ('Write a DIFFERENT set than usual: new angles.\n' if key in tgs.get('replies', {}) else '')
+                              + '\n' + facts))
+    if not (rp['fact'] or rp['witty']):
+        unack(); tg('⚠️ The AI writer is busy, tap again in a minute.'); return
+    coin = coin_from_text(text, rp['symbol'])
+    img = move_card(coin)[0] if coin else None
+    stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
+    stats += f' · {ago(post["ts"])}' if post and post.get('ts') else ''
+    head = f'💬 <b>Replies for @{E(author)}</b>{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
+    tgs.setdefault('replies', {})[key] = {'t': time.time(), 'text': text[:2000], 'author': author}
+    tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
+    unack()
+    tg(reply_msg(rp, head, bool(img)), img, [('🔄 3 new replies', f'rr:{key}')])
+
+
+def more_replies(key, tgs):
+    r = tgs.get('replies', {}).get(key)
+    if not r:
+        tg('That one is too old. Send the link again.'); return
+    chat_action('typing')
+    reply_from_text(r['text'], r['author'], None, tgs, key)
+
+
+# ---------------- reply window: viral story -> who will post + ready replies ----------------
+VIRAL = 85
+WHO = [  # (story keywords, accounts most likely to post it within minutes)
+    (r'hack|exploit|drain|stole|attack|breach|phish', ['zachxbt', 'PeckShieldAlert', 'lookonchain', 'WuBlockchain', 'Cointelegraph']),
+    (r'\betf|blackrock|fidelity|grayscale|inflow|outflow', ['EricBalchunas', 'JSeyff', 'WatcherGuru', 'BitcoinMagazine', 'CoinDesk']),
+    (r'\bsec\b|cftc|regulat|congress|senate|bill|law|trump|white house|fed\b|rate', ['WatcherGuru', 'CoinDesk', 'Cointelegraph', 'BitcoinMagazine']),
+    (r'arrest|charged|sentenc|court|lawsuit|sued|guilty|fraud|scam', ['zachxbt', 'WatcherGuru', 'Cointelegraph', 'CoinDesk']),
+    (r'whale|transfer|moved|dormant|wallet|sold|buys?\b|purchase|treasury|strategy|microstrategy',
+     ['whale_alert', 'lookonchain', 'saylor', 'WatcherGuru', 'BitcoinMagazine']),
+    (r'binance|\bcz\b', ['cz_binance', 'WuBlockchain', 'WatcherGuru']),
+    (r'ethereum|\beth\b|vitalik', ['VitalikButerin', 'lookonchain', 'WatcherGuru']),
+    (r'crash|plung|liquidat|dump|surge|soar|record|all-time high|rally|bitcoin|btc', ['WatcherGuru', 'BitcoinMagazine', 'whale_alert', 'lookonchain']),
+]
+
+
+def who_posts(title):
+    acc = []
+    for rx, names in WHO:
+        if re.search(rx, title.lower()):
+            acc += [n for n in names if n not in acc]
+    for n in ['WatcherGuru', 'Cointelegraph']:
+        if n not in acc:
+            acc.append(n)
+    return acc[:5]
+
+
+def viral_alert(st, sc, lead, coin, srcs, g, age):
+    mk = remember(st, g, lead, coin, srcs)
+    rp = parse_replies(gemini(REPLY_RULES + '\nThe post you reply to is a big account breaking this news:\n'
+                              f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
+                              + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
+    acc = who_posts(lead['title'])
+    head = (f'🔥 <b>GOING VIRAL · REPLY WINDOW OPEN</b>\n<b>{E(lead["title"])}</b>\n{len(srcs)} sources · {age*60:.0f} min ago\n\n'
+            f'👀 Watch for posts from: ' + ' · '.join(f'<a href="https://x.com/{a}">@{a}</a>' for a in acc)
+            + '\nReply in the first 15 minutes 👇')
+    img = move_card(coin)[0] if coin else None
+    if rp['fact'] or rp['witty']:
+        st.setdefault('menu', {})[mk]['replies'] = rp
+        tg(reply_msg(rp, head, bool(img)), img, [('📝 Make post', 'p:' + mk)])
+    else:
+        tg(head, img, [('📝 Make post', 'p:' + mk)])
+
+
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '<b>Find stories</b>\n'
         '/top — hottest crypto stories right now → tap one for a full post\n'
@@ -993,6 +1149,9 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/hacks — biggest hacks of the last 30 days\n'
         '/story — on this day in crypto (real prices & hacks)\n'
         '/story <i>topic</i> — research a story, e.g. <code>/story Do Kwon</code> → thread + Shorts script\n\n'
+        '<b>Replies</b>\n'
+        '• <b>Share any X post link</b> to me → 3 ready replies (fact, witty, chart + image)\n'
+        '• Viral stories come with a 🔥 reply-window alert + ready replies\n\n'
         '<b>Make posts from anything</b>\n'
         '• <b>Forward</b> any news message from another channel to me → full post\n'
         '• <b>Paste a link</b> to any article → full post\n'
@@ -1000,7 +1159,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '<b>Alerts</b>\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
 COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
-            ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
+            ('reply', 'Replies for an X post: /reply <link>'), ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
             ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
@@ -1202,6 +1361,8 @@ def handle(u, tgs):
         elif data.startswith('v:'):
             _, k, vis = data.split(':', 2)
             switch_design(k, vis, (cb.get('message') or {}).get('message_id'))
+        elif data.startswith('rr:'):
+            more_replies(data[3:], tgs)
         elif data.startswith('x:'):
             _, k, what = data.split(':', 2)
             send_extra(k, what)
@@ -1231,6 +1392,15 @@ def handle(u, tgs):
             live_top(tgs)
     elif c == '/chart':
         cmd_chart(args)
+    elif c == '/reply':
+        if args and XLINK.search(args[0]):
+            cmd_reply(args[0], tgs)
+        elif args:
+            ack('⏳ Writing replies…'); reply_from_text(' '.join(args), 'someone', None, tgs, hashlib.md5(t.encode()).hexdigest()[:10])
+        else:
+            tg('Send <code>/reply</code> + an X post link — or just paste/share the link to me.')
+    elif XLINK.search(t) and not fwd:
+        cmd_reply(XLINK.search(t).group(0), tgs)
     elif c == '/movers':
         cmd_movers(tgs)
     elif c == '/hacks':
