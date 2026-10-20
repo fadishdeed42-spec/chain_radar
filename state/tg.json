@@ -1,5 +1,33 @@
 {
 "designs": {
+"1aa3516a46": {
+"coin": "",
+"facts": "Headline: Bitget plans Thai crypto exchange acquisition weeks after $388M hack\nSources: Cointelegraph, Crypto News, TradingView\n\nArticle text:\n0.22%TRX$0.3322 0.34%LINK$11.92 1.19%ZEC$1,141.23 0.18%ADA$0.2161 1.14%XRP$1.29 0.81%ETH$2,386.23 1.62%BTC$81,530.19 1.05%XMR$611.21 3.93%BNB$729.10 0.54%XLM$0.1757 0.60%SOL$104.23 0.69%HYPE$78.38 1.19%Written by Felix Ngstaff editorEdited by Yohan Yunstaff editorWritten by Felix Ngstaff editorEdited by Yohan Yunstaff editorBitget plans Thai crypto exchange acquisition weeks after $388M hack Latest NewsPublishedOct 20, 2026The proposed acquisition would give Bitget a route into Thailand\u2019s crypto market through a locally licensed operator. Crypto exchange Bitget has announced plans to acquire Thailand\u2019s GMO-Z.com Cryptonomics, seeking to expand its Southeast Asia footprint weeks after a major hack impacting its hot and warm wallets. The proposed transaction involves BTGT Management (Thailand), a company in which Bitget says it holds an interest, according to an announcement shared with Cointelegraph.\u00a0 The acquisition will allow Bitget to introduce its trading platform to Thai users. \u201cThailand is an important part of Southeast Asia\u2019s digital asset landscape, and this acquisition gives us a great opportunity to establish local operations in a thriving country,\u201d said Bitget CEO Gracy Chen. GMO Internet disclosed the proposed sale to BTGT Management in a Sept. 24 filing, targeting completion for Oct. 31. Bitget\u2019s announcement identifies its involvement in the transaction. The company declined to comment on how much interest in BTGT Management the company holds and the financial and ownership terms of the proposed acquisition. GMO-Z.com Cryptonomics operates Z.com EX, which launched in February 2021. Thailand\u2019s Securities and Exchange Commission lists the company among its licensed digital asset exchange operators. Related: Thailand crypto ETFs may see slow start despite new rules: CoinShares Completion remains subject to regulatory approval and other conditions. The proposed deal follows a Sept. 24 attack on Bitget\u2019s hot and warm wallet infrastructure. In its account of the breach, Bitget said approximately $388 million was affected after attackers exploited a vulnerability in a third-party security product and issued fraudulent withdrawal commands. Bitget said customer account balances were unaffected and that it completed the phased restoration of withdrawals on Oct. 2. On Oct. 17, Bitget also announced plans to discontinue services for certain users, describing the move as a \u201cone-off exercise.\u201d Bitget\u2019s terms of use, updated Oct. 16, list Russia, Belarus and Kazakhstan among its prohibited jurisdictions. Thailand is also listed as a prohibited jurisdiction, although the proposed acquisition could provide Bitget with a route to serving the market through a locally licensed operator. Magazine: Scammer loses $4.8M stored on tampered Ledgers: Asia Express\n",
+"item": {
+"hack": null,
+"src": "Cointelegraph",
+"t0": 1792490400.0,
+"tag": null,
+"title": "Bitget plans Thai crypto exchange acquisition weeks after $388M hack",
+"url": "https://cointelegraph.com/news/bitget-plans-thai-crypto-exchange-acquisition-weeks-after-388m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+},
+"p": {
+"keyfact": "Bitget plans to acquire Thailand's GMO-Z.com Cryptonomics weeks after a $388M hack.",
+"post": "Weeks after a $388M hack hit its hot and warm wallets, crypto exchange Bitget is plotting a route into Southeast Asia. The firm plans to acquire Thailand's licensed GMO-Z.com Cryptonomics, despite Thailand previously being listed as a prohibited jurisdiction.",
+"quote": "Thailand is an important part of Southeast Asia\u2019s digital asset landscape, and this acquisition gives us a great opportunity to establish local operations in a thriving country = Gracy Chen",
+"reply": "Plot twist: expand where you were previously prohibited.",
+"short": "",
+"stat": "$388M | Hack Impact",
+"symbol": "NONE",
+"tag": "BREAKING",
+"thread": "1/ The plot thickens in Southeast Asia. Crypto exchange Bitget has announced plans to acquire Thailand's GMO-Z.com Cryptonomics to secure a licensed local operating route.\n2/ The timing raises eyebrows. The proposed transaction follows a Sept. 24 attack on Bitget's hot and warm wallets that reportedly affected approximately $388 million via fraudulent withdrawal commands.\n3/ While Bitget stated customer balances were safe and restored withdrawals by Oct. 2, the exchange's updated terms listed Thailand as a prohibited jurisdiction\u2014making this local acquisition its backdoor in.\n4/ With completion targeted for Oct. 31 pending regulatory approval, the deal shows expansion marches on even in the wake of massive security breaches.",
+"timeline": "Sep 24, 2026 = Attack on Bitget wallets & GMO filing ; Oct 2, 2026 = Phased restoration of withdrawals ; Oct 31, 2026 = Target completion for acquisition",
+"title": "Bitget's $388M Thai Takeover Move",
+"versus": "Target Completion = Oct 31, 2026 || Hack Date = Sep 24, 2026",
+"visual": "STAT"
+},
+"t": 1792494243.8191037
+},
 "212ff2c2f4": {
 "coin": "",
 "facts": "Headline: THORChain targets Rujira restart with v3.21 exploit fix around Oct 23\nSources: Crypto Briefing, Cryptonews.net\n\n",
@@ -480,6 +508,6 @@
 }
 },
 "mute_until": 0,
-"offset": 138489167,
+"offset": 138489169,
 "story_i": 2
 }
