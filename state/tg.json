@@ -198,6 +198,38 @@
 },
 "t": 1792441566.0702703
 },
+"7be20f7bc3": {
+"coin": "",
+"facts": "Headline: Drift Protocol Exploit Wallets Move $61.6 Million in Ether to Tornado Cash\nSources: Decrypt, Yahoo Finance, www.tokenpost.com\n\nArticle text:\nWallets tied to April's $295 million Drift Protocol exploit pushed 25,700 Ethereum, worth about $61.56 million, into the crypto mixer Tornado Cash over roughly two hours on Tuesday. The addresses had been quiet for about two months before the burst. Transfer data from\u00a0Arkham Intelligence shows the deposits landing in batches of 100 ETH, about $237,800 each, plus smaller 10 ETH chunks. Those sizes match the mixer's fixed deposit pools, which let users pull funds out later from fresh addresses and break the public link between sender and receiver. Arkham's entity page, which tracks 71 addresses linked to the attacker, still shows 81,454 ETH sitting in those wallets after Tuesday's deposits, worth roughly $198.58 million at current prices. Besides that ETH stash, the wallet holds around $561.6K in other coins like USDT, USDC, Solana, and USDY. Tuesday's deposits follow a first round on July 23 and 24, when an address labeled Drift Exploiter 4 sent about 23,095 ETH, then worth around $44.4 million, into the same mixer. The\u00a0April 1 exploit hit Drift's vaults on Solana after the attacker gained admin powers, introduced a fake token and used it to borrow out real liquidity. Drift's own\u00a0asset breakdown puts the haul at $295.7 million, led by $159.3 million in JLP\u2014the Jupiter Liquidity Provider token\u2014and $71.4 million in USDC, most of which was later swapped and bridged to Ethereum. Arkham's portfolio view still lists exactly one Fartcoin in the exploiter's holdings, worth about 15 cents, a long way from the $4.1 million in Fartcoin that Drift says was taken in April. Drift said in April that the attack was a\u00a0six-month operation in which the group posed as a quantitative trading firm, met contributors in person and deposited $1 million of its own money to build trust. In June, Drift said forensic firm Mandiant attributed the attack to UNC6862, a North Korean threat group. Oct 13Oct 15Oct 17Oct 19Oct 20$83.7k$82.6k$81.4k$80.2k24h HighHigh$83,24924h LowLow$81,155VolVol$1.1BMarket projectionsOdds by MyriadThis weekAbove $82,000Above $82k63% chance\u2192Buy Bitcoin with USDTPowered by Jupiter$50$100$500BuyPrice data by CoinGeckoCoinGeckoMore Bitcoin news and projections \u2192Drift, whose relaunched exchange now runs as Velocity, opened claims for its\u00a0DFX recovery token on Oct. 1, issuing one token for every USDT of verified loss, about 299.5 million in total. The recovery pool held about 3.1 million USDT at launch, so early redemptions paid roughly 0.0104 USDT per token, or about a penny on the dollar. The pool gets a daily cut of between 60% and 90% of Velocity's net protocol revenue, scaling up as daily revenue grows, and Tether has committed up to 127.5 million USDT toward the\u00a0relaunch and recovery. Any stolen funds recovered through freezes, the bounty, or law enforcement also go into the pool. Start every day with the top news stories right now, plus original features, a podcast, videos and more.\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "www.tokenpost.com",
+"story": null,
+"t0": 1792518984.0,
+"tag": null,
+"title": "Drift Protocol Exploit Wallets Move $61.6 Million in Ether to Tornado Cash",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hR1lwZ0U1TTVjS09hZ3Z0M2FOSHMxaHo2LXFvNjRzWjY2a0o5TklMS3ZRTHlhbm13bGdOTHlXZTZOUUtsaXNNN2tJc3FUUEZaa0dRR25pM1hBVE0?oc=5"
+},
+"p": {
+"keyfact": "Wallets tied to the April Drift Protocol exploit moved 25,700 ETH to Tornado Cash.",
+"post": "The April Drift Protocol exploiters are cashing out. Wallets tied to the $295M attack reportedly pushed 25,700 ETH worth $61.6M into Tornado Cash in two hours. The trail of the stolen funds just got much harder to follow.",
+"quote": "NONE",
+"reply": "Another massive batch headed straight for the mixer.",
+"short": "",
+"stat": "$61.6M | Tornado Cash ETH dump",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "",
+"timeline": "Apr 1 = Drift Protocol vaults hit by $295M exploit ; Jul 23 = First round of mixer deposits sent ; Oct 1 = DFX recovery token claims opened ; Tue = 25,700 ETH moved to Tornado Cash",
+"title": "$61.6M DRIFT EXPLOIT FUNDS MIXED",
+"versus": "Stolen to mixer = $61.6M || Remaining in wallets = $198.6M",
+"visual": "STAT"
+},
+"t": 1792532896.2249322
+},
 "98aa933242": {
 "coin": "",
 "facts": "Headline: SEC Charges WhatsApp-Driven Crypto Fraud Schemes Totaling Over $15 Million\nSources: JD Supra\n\n",
@@ -654,7 +686,7 @@
 }
 },
 "mute_until": 0,
-"offset": 138489201,
+"offset": 138489204,
 "otd": {
 "date": "Oct 20",
 "now": 82764,
