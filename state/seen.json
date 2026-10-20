@@ -291,7 +291,7 @@
 "CryptoRank",
 "CryptoTicker"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792513589.0,
 "title": "BlackRock Files for Bitcoin ETF With Downside Buffer and Capped Upside",
 "url": "https://bitcoinmagazine.com/news/blackrock-files-for-new-bitcoin-etf",
@@ -315,6 +315,20 @@
 "urls": [
 "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
 "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
+"1ffc03c885c0": {
+"coin": "bitcoin",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine"
+],
+"t": 1792529961.826911,
+"t0": 1792529612.0,
+"title": "Swiss Financial Regulator Gives Green Light to Country\u2019s First Bitcoin ETF",
+"url": "https://bitcoinmagazine.com/news/swiss-regulator-green-lights-bitcoin-etf",
+"urls": [
+"https://bitcoinmagazine.com/news/swiss-regulator-green-lights-bitcoin-etf"
 ]
 },
 "21baba86c6c9": {
@@ -592,7 +606,7 @@
 "Decrypt",
 "Yahoo Finance"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792521064.0,
 "title": "Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying",
 "url": "https://decrypt.co/381444/bitcoin-etfs-best-day-nearly-month-blackrock-does-most-buying",
@@ -1118,7 +1132,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792512900.0,
 "title": "BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing",
 "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGtZdzNNYlFLNDA3bk00ZVAybjEyZDhocWNZVXZwYUJLZl9pc05handMU2dBX1ktXzZyLUpqSk5kb0VVWi1JSDROQ2xKSzlzeUp6eWdpZDVTNlg5MExGSFMxOHFNbVAwZ01tRmJQbm9BNjVPR3AwZzJNekdEVkRfcVZYcGtVZW9oa2dQd2JFMkJWcnpHN0xN?oc=5",
@@ -1197,7 +1211,7 @@
 "srcs": [
 "marketscreener.com"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792523372.0,
 "title": "Business As Usual After Liquid Hack: Back",
 "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb2ZKZUtNUGl0SzlrV1N5b0RMaWk4emlQNTFKNHV1cHpBSTFPU2Y3elFXV3pJTkY1YnFOS1Q2WmZTU0hRanhEd0ozM1ViZVRzSTFQMUhUdlViX2RZYmlqWWhzTHRXM1Z6OFNDYUNGQXJoTXh1TGNjQzJUUHJXcFpiZHRTOXJtWE9EUmduOG0xRVVyUVpWS2RoNQ?oc=5",
@@ -1236,7 +1250,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792519252.0,
 "title": "Elon Musk and Anthropic unveil AI wealth-sharing plans that could reach over $110 billion",
 "url": "https://cryptoslate.com/elon-musk-and-anthropic-unveil-ai-wealth-sharing-plans-that-could-reach-over-110-billion/",
@@ -1733,7 +1747,7 @@
 "24/7 Wall St.",
 "Yahoo Finance"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792510200.0,
 "title": "A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?",
 "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS2dQTlZzdUw1R004MjFGWERtUlZOSmRyMmxYcnRSdVUzdkk2NXFSOEJUM0xFbGJZM0h4QVBCVUtvY1J3M0cwcmlfQWlqb1JoOXZyaVNWNlY2MktIeml3a3ZaYy1GcVhoelE5ZXQ1c1V6bzEtM25Hb3dZVk5OWUkwWWlNcElObnJOMkRrYnplLTE0eU0wWGtTMklPLTZGOFFIa2puNm1rOWJRTUZ4QU9McUd5aXlMNm9OZEpQLVN3LVA0V1dxQXB3eWxQTTNsaXNYajlqUk1za1gzdVJXdFo5bFE5YWlQb1U2WUljeQ?oc=5",
@@ -1928,9 +1942,10 @@
 "coin": "ethereum",
 "src": "Decrypt",
 "srcs": [
-"Decrypt"
+"Decrypt",
+"Yahoo Finance"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792529164.0,
 "title": "Wallet Linked to Drift Exploit Sends $61 Million in Ethereum to Tornado Cash",
 "url": "https://decrypt.co/381450/wallet-drift-exploit-sends-61-million-ethereum-tornado-cash",
@@ -1961,7 +1976,7 @@
 "srcs": [
 "The Cryptonomist"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792516716.0,
 "title": "Stolen Ethereum Laundering Resumes After Drift Protocol Hack",
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0cTVTOWFiY25zUzJ4WlAyYTdoOW13eWlmeEFCanVaZVFDcTBXS0s3c1FkeUhFOGJ0MkhBVmNKWnA1Z2M2TjQtUzhsOXp6dWoxTnB2SFBFNjZrODJoUU5YRWJXazNWR1JNRnhoaE91SHFLekZneFFuT2xuTQ?oc=5",
@@ -2015,7 +2030,7 @@
 "BigGo Finance",
 "www.tokenpost.com"
 ],
-"t": 1792529349.3716047,
+"t": 1792529961.826911,
 "t0": 1792508700.0,
 "title": "Drift Hackers Funnel $61 Million in Ether Through Tornado Cash as Victims Await Recovery",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lRmhKdEFkVVIwMjR3djBydk50YmpvMzhELWtNWnM4c2lidV84RVQ5NFE3TkJqeHNfYU1ySExjcTV1SGJ5NEJRa0JZNXplakxNYjFZOTc1TFNVenFQeWY3bWJzOHJlV1hlQThUVDhOMllIbnlmZEE?oc=5",
@@ -4815,65 +4830,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"1f83adce5e16",
-41,
-263,
-3
+"efe2ae2b2e1b",
+59,
+13,
+2
 ],
 [
-"efe2ae2b2e1b",
-41,
-3,
-1
+"1f83adce5e16",
+40,
+273,
+3
 ],
 [
 "95f36f55f830",
 35,
-100,
+110,
 1
-],
-[
-"de0adfa2ca47",
-33,
-319,
-2
 ],
 [
 "98d8aaab7ba9",
 33,
-168,
+178,
 1
 ],
 [
 "49ae385ef8d2",
 33,
-138,
+148,
+2
+],
+[
+"de0adfa2ca47",
+32,
+329,
 2
 ],
 [
 "f06ea743b2e4",
-31,
-211,
+30,
+221,
+1
+],
+[
+"8bc81189c136",
+29,
+284,
+2
+],
+[
+"1ffc03c885c0",
+29,
+6,
 1
 ],
 [
 "f5706a213936",
-30,
-344,
-2
-],
-[
-"8bc81189c136",
-30,
-274,
-2
-],
-[
-"b65e091f5b4b",
 28,
-281,
-1
+354,
+2
 ]
 ],
-"top_at": 1792529349.3716047
+"top_at": 1792529961.826911
 }
