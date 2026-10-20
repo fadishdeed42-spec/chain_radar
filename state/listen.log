@@ -14,3 +14,9 @@ fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Bl
 fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
 market 100 news 100 reddit 25 hacks 0
 alerts sent 0
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+market 100 news 102 reddit 25 hacks 0
+alerts sent 0
+poll fail HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8843216583:AAGr3HqYcAKCMcTcScZMrEt2PODn3BLPMz8/getUpdates?offset=138489196&timeout=25 (Caused by NewConnectionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))

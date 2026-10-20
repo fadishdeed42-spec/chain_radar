@@ -291,7 +291,7 @@
 "CryptoRank",
 "CryptoTicker"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792513589.0,
 "title": "BlackRock Files for Bitcoin ETF With Downside Buffer and Capped Upside",
 "url": "https://bitcoinmagazine.com/news/blackrock-files-for-new-bitcoin-etf",
@@ -323,7 +323,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792529612.0,
 "title": "Swiss Financial Regulator Gives Green Light to Country\u2019s First Bitcoin ETF",
 "url": "https://bitcoinmagazine.com/news/swiss-regulator-green-lights-bitcoin-etf",
@@ -606,7 +606,7 @@
 "Decrypt",
 "Yahoo Finance"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792521064.0,
 "title": "Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying",
 "url": "https://decrypt.co/381444/bitcoin-etfs-best-day-nearly-month-blackrock-does-most-buying",
@@ -1086,6 +1086,20 @@
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fNFVSVEtuOGlLeFJqay0wbVFCMTRIX1VlNXhmRndHcEZTOTBiTlV5YUkzWjFOd2gzQU1JekhQQnBCNmtBWUt4UUZ3T3FQd1lHaEhNcm91ekZoMW9Cd3NKdFp4ODJpUHducm1mdWNSdUpYWHVwSVE?oc=5",
 "urls": []
 },
+"891faf7a2b28": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block"
+],
+"t": 1792530574.2334335,
+"t0": 1792523558.0,
+"title": "Utah likens Kalshi to a \u2018back-alley gambling den\u2019 in lawsuit naming Susquehanna firms",
+"url": "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442"
+]
+},
 "89ae2f6019f6": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -1211,7 +1225,7 @@
 "srcs": [
 "marketscreener.com"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792523372.0,
 "title": "Business As Usual After Liquid Hack: Back",
 "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb2ZKZUtNUGl0SzlrV1N5b0RMaWk4emlQNTFKNHV1cHpBSTFPU2Y3elFXV3pJTkY1YnFOS1Q2WmZTU0hRanhEd0ozM1ViZVRzSTFQMUhUdlViX2RZYmlqWWhzTHRXM1Z6OFNDYUNGQXJoTXh1TGNjQzJUUHJXcFpiZHRTOXJtWE9EUmduOG0xRVVyUVpWS2RoNQ?oc=5",
@@ -1250,7 +1264,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792519252.0,
 "title": "Elon Musk and Anthropic unveil AI wealth-sharing plans that could reach over $110 billion",
 "url": "https://cryptoslate.com/elon-musk-and-anthropic-unveil-ai-wealth-sharing-plans-that-could-reach-over-110-billion/",
@@ -1636,6 +1650,19 @@
 "https://decrypt.co/381337/abandoned-bitcoin-wallet-noah-doe-lawsuit-moves-33-million"
 ]
 },
+"d1b398fe07c6": {
+"coin": "",
+"src": "Pluang",
+"srcs": [
+"Bitcoin News",
+"Pluang"
+],
+"t": 1792530574.2334335,
+"t0": 1792512065.0,
+"title": "Bitget to acquire licensed Thai crypto exchange, expanding in Southeast Asia after $388M hack",
+"url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQk5qSUpDX0NQaWhMNkQ4MWYyVmhKRDRBR25mZ2o5M2NkSVdTY1N4OHlkenhTV0JaX0U3VG95MzFJYXotcmhRcWRyVEc5RXFwZWNIWWYxRFF0bHQ2QUtybm9nVXQxNzNkU0t3MWVob0w4ZTlUb3dvUjJ4Zkx1YnNtdWRmbmtyNjBLUml1SllrQ0p3M3d4Z0o4V3RsQ29vaVE?oc=5",
+"urls": []
+},
 "d29154b2a167": {
 "coin": "",
 "src": "Binance",
@@ -1652,13 +1679,17 @@
 "coin": "",
 "src": "www.tokenpost.com",
 "srcs": [
+"Decrypt",
+"Yahoo Finance",
 "www.tokenpost.com"
 ],
-"t": 1792528731.4296563,
+"t": 1792530574.2334335,
 "t0": 1792518984.0,
 "title": "Drift Protocol Exploit Wallets Move $61.6 Million in Ether to Tornado Cash",
 "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hR1lwZ0U1TTVjS09hZ3Z0M2FOSHMxaHo2LXFvNjRzWjY2a0o5TklMS3ZRTHlhbm13bGdOTHlXZTZOUUtsaXNNN2tJc3FUUEZaa0dRR25pM1hBVE0?oc=5",
-"urls": []
+"urls": [
+"https://decrypt.co/381450/wallet-drift-exploit-sends-61-million-ethereum-tornado-cash"
+]
 },
 "db52926d6fc1": {
 "coin": "",
@@ -1747,7 +1778,7 @@
 "24/7 Wall St.",
 "Yahoo Finance"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792510200.0,
 "title": "A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?",
 "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS2dQTlZzdUw1R004MjFGWERtUlZOSmRyMmxYcnRSdVUzdkk2NXFSOEJUM0xFbGJZM0h4QVBCVUtvY1J3M0cwcmlfQWlqb1JoOXZyaVNWNlY2MktIeml3a3ZaYy1GcVhoelE5ZXQ1c1V6bzEtM25Hb3dZVk5OWUkwWWlNcElObnJOMkRrYnplLTE0eU0wWGtTMklPLTZGOFFIa2puNm1rOWJRTUZ4QU9McUd5aXlMNm9OZEpQLVN3LVA0V1dxQXB3eWxQTTNsaXNYajlqUk1za1gzdVJXdFo5bFE5YWlQb1U2WUljeQ?oc=5",
@@ -1976,7 +2007,7 @@
 "srcs": [
 "The Cryptonomist"
 ],
-"t": 1792529961.826911,
+"t": 1792530574.2334335,
 "t0": 1792516716.0,
 "title": "Stolen Ethereum Laundering Resumes After Drift Protocol Hack",
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0cTVTOWFiY25zUzJ4WlAyYTdoOW13eWlmeEFCanVaZVFDcTBXS0s3c1FkeUhFOGJ0MkhBVmNKWnA1Z2M2TjQtUzhsOXp6dWoxTnB2SFBFNjZrODJoUU5YRWJXazNWR1JNRnhoaE91SHFLekZneFFuT2xuTQ?oc=5",
@@ -4830,65 +4861,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"efe2ae2b2e1b",
-59,
-13,
-2
+"d91e2d84bc7a",
+60,
+193,
+3
 ],
 [
 "1f83adce5e16",
-40,
-273,
+39,
+283,
 3
 ],
 [
 "95f36f55f830",
 35,
-110,
+120,
 1
 ],
 [
-"98d8aaab7ba9",
-33,
-178,
-1
+"d1b398fe07c6",
+34,
+308,
+2
 ],
 [
 "49ae385ef8d2",
 33,
-148,
+159,
 2
 ],
 [
-"de0adfa2ca47",
+"98d8aaab7ba9",
 32,
-329,
+189,
+1
+],
+[
+"de0adfa2ca47",
+30,
+340,
 2
 ],
 [
 "f06ea743b2e4",
-30,
-221,
-1
-],
-[
-"8bc81189c136",
 29,
-284,
-2
+231,
+1
 ],
 [
 "1ffc03c885c0",
 29,
-6,
+16,
 1
 ],
 [
-"f5706a213936",
+"891faf7a2b28",
 28,
-354,
-2
+117,
+1
 ]
 ],
-"top_at": 1792529961.826911
+"top_at": 1792530574.2334335
 }
