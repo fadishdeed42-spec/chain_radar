@@ -436,6 +436,18 @@
 "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1NPakpRLTh2M0lCdVlTUF92Z0tDblh5YXRuV1J0alRka3BGbF9DbFl1aGZaRTlIeW00aTZ0bXRPTy11dE1UQ2dlSGhqdDFtY1g2V2x2UG51c1lUN1FyY0drUmpualdKWk4xcTBmanh1TUhuS01iYVZfVEpGc3JWcWNFVWRJMm5NUVNJMGxaVVFLcEtQWlk3NnRYWjg?oc=5",
 "urls": []
 },
+"5bdaea7a0be4": {
+"chart": true,
+"coin": "lighter",
+"facts": "Recent headlines about this coin:\n- 21shares launches Lighter, Venice crypto ETPs in Europe (Cryptonews.net, 4h ago)\n- 21shares launches Lighter, Venice crypto ETPs in Europe (Crypto News, 12h ago)\n- 21shares Expands Digital Asset Lineup with Launch of Lighter ETP (LIHT) and Venice Token ETP (VENC) (GlobeNewswire, 14h ago)",
+"focus": 86400,
+"span": "1d",
+"src": "Cryptonews.net",
+"t": 1792531364.6055293,
+"tag": "MARKET",
+"title": "Lighter surges 10.2% in 24 hours",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DRXhsWktDOWg5MXhFbVdfSy0zTFRQeERGX2VOVVpxb01wODhSRGtpUnBId0pnbF9saGpFSzZCbXk5QUtvVEtlRFZTZVFjazdQSTk2UGllRXltZw?oc=5"
+},
 "5f40f5db2732": {
 "coin": "",
 "src": "scanx.trade",
@@ -494,6 +506,18 @@
 "urls": [
 "https://cryptoslate.com/tether-loses-nearly-5-billion-across-crypto-exchanges-as-usdc-and-rlusd-rivals-pay-to-win-liquidity/"
 ]
+},
+"879af925a12b": {
+"chart": true,
+"coin": "pepe",
+"facts": "Recent headlines about this coin:\n- Doge Pepe (dogepepeeth.lol) price today, DOPE to USD live price, marketcap and chart (CoinMarketCap, 8h ago)\n- Bitcoin Price News Today: BTC ETFs Attract $526.6M as Pepe Cofounder's Pepeto Raises $11.2M (TechBullion, 58m ago)\n- PEPE Tests Crucial Barrier Amid Sideways Daily Market Bias (Bitget, 12h ago)",
+"focus": 86400,
+"span": "1d",
+"src": "CoinMarketCap",
+"t": 1792531391.5459936,
+"tag": "MARKET",
+"title": "Pepe surges 10.7% in 24 hours",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfQlVSa1FxZ3VxaGljb0VwcUZWU2JRblNheFBfb3pUNC13RklDdEx1MVhBZEZidnUzREFZU3ktSWFFOXB3dHMyd3djMjBWdlFCbldMMWtHTzVUODV5blE?oc=5"
 },
 "aaf1f21a1add": {
 "facts": "Hack date: Sep 24, 2026. Protocol: Duelbits. Chain: ['Ethereum', 'BSC', 'Bitcoin', 'Tron']. Method: Hot Wallet Key Compromised. Amount stolen: $7,000,000. (DefiLlama hacks database.)",
@@ -630,7 +654,7 @@
 }
 },
 "mute_until": 0,
-"offset": 138489195,
+"offset": 138489198,
 "otd": {
 "date": "Oct 20",
 "now": 82764,
