@@ -218,6 +218,9 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     d.text((56, y), nm, font=F(BOLD, 32), fill=WHITE)
     px = 56 + d.textlength(nm + '  ', font=F(BOLD, 32))
     d.text((px, y), fmt(last), font=F(BOLD, 32), fill=WHITE); px += d.textlength(fmt(last) + '  ', font=F(BOLD, 32))
+    if ev:                                                          # header chip = move since the news (matches the tile)
+        ch = (last / p0 - 1) * 100; up = ch >= 0
+        tf_label = 'since the news · ' + tf_label.split(' candles')[0] + ' candles'
     if fo:                                                          # header chip = the same move the headline states
         ch, up = mv * 100, mv >= 0
         tf_label = 'in ' + dur(focus).replace('60 min', '1h') + ' · ' + tf_label.split(' · ')[-1]
@@ -236,74 +239,44 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     for i in range(5):
         p = lo + (hi - lo) * i / 4; yy = Y(p)
         d.line([cx0, yy, cx1, yy], fill=(26, 31, 43), width=1)
-        if abs(yy - Y(last)) > 26:                                  # don't print under the live price tag
+        if abs(yy - Y(last)) > 24:                                  # don't print under the live price tag
             d.text((cx1 + 16, yy), fmt(p), font=F(MED, 17), fill=DIM, anchor='lm')
-    if fo and fo[0] > 0:                                            # shade the window the headline talks about
-        d.rectangle([X(i0) - step / 2, cy0 - 50, cx1, cy1 + 8], fill=(21, 26, 38))
-    if ev:                                                          # shade the 'after news' zone
-        d.rectangle([X(i0) - step / 2, cy0 - 50, cx1, cy1 + 8], fill=(21, 26, 38))
+    k = max(1, n // 5)
+    for i in range(0, n, k):                                        # faint vertical grid at the time labels
+        d.line([X(i), cy0 - 10, X(i), cy1 + 6], fill=(24, 29, 40), width=1)
     vmax = max((r[5] or 0) for r in rows) or 1
-    for i, (t, o, h, l, c, v) in enumerate(rows):
+    for i, (t, o, h, l, c, v) in enumerate(rows):                   # candles + volume, nothing on top of them
         col = GRN if c >= o else RED
-        if ev and i < i0:
-            col = tuple(int(cc * 0.45 + 30) for cc in col)          # dim pre-news candles
         x = X(i)
         d.line([x, Y(h), x, Y(l)], fill=col, width=2)
         y0, y1 = sorted((Y(o), Y(c))); d.rectangle([x - bw / 2, y0, x + bw / 2, max(y1, y0 + 2)], fill=col)
         if has_v and v:
-            vh = v / vmax * 60; d.rectangle([x - bw / 2, bot - 34 - vh, x + bw / 2, bot - 34], fill=tuple(int(cc * 0.38) for cc in col))
-    if ev:                                                          # NEWS BREAKS marker + price-at-news level
+            vh = v / vmax * 60; d.rectangle([x - bw / 2, bot - 34 - vh, x + bw / 2, bot - 34], fill=tuple(int(cc * 0.30) for cc in col))
+    if ev:                                                          # news moment: one thin line + small label, like a terminal marker
         xe = X(i0)
-        for yy in range(int(cy0 - 46), int(cy1), 12):
-            d.line([xe, yy, xe, yy + 6], fill=GOLD, width=3)
-        lab = 'NEWS BREAKS · ' + datetime.fromtimestamp(rows[i0][0] / 1000, timezone.utc).strftime('%H:%M UTC')
-        lw = d.textlength(lab, font=F(BLACK, 18)) + 26
+        for yy in range(int(cy0 - 20), int(cy1 + 6), 10):
+            d.line([xe, yy, xe, yy + 5], fill=GOLD, width=2)
+        lab = 'NEWS · ' + datetime.fromtimestamp(rows[i0][0] / 1000, timezone.utc).strftime('%H:%M UTC')
+        lw = d.textlength(lab, font=F(BOLD, 15)) + 16
         lx = min(max(xe - lw / 2, cx0), cx1 - lw)
-        d.rounded_rectangle([lx, cy0 - 62, lx + lw, cy0 - 30], radius=8, fill=GOLD)
-        d.text((lx + lw / 2, cy0 - 46), lab, font=F(BLACK, 18), fill=(18, 14, 6), anchor='mm')
-        yb = Y(p0)
-        for xx in range(int(xe), int(cx1), 12):
-            d.line([xx, yb, xx + 6, yb], fill=(150, 156, 172), width=2)
-        d.text((cx1 - 4, yb - 6), f'before news {fmt(p0)}', font=F(SEMI, 15), fill=MUT, anchor='rd')
-    xa, xb = X(i0), X(i1); ya, yb2 = Y(p0), Y(p1)
-    secs = (rows[i1][0] - rows[i0][0]) / 1000
+        d.rounded_rectangle([lx, cy0 - 48, lx + lw, cy0 - 24], radius=6, fill=GOLD)
+        d.text((lx + lw / 2, cy0 - 36), lab, font=F(BOLD, 15), fill=(18, 14, 6), anchor='mm')
+    ih = max(range(n), key=lambda i: rows[i][2]); il = min(range(n), key=lambda i: rows[i][3])
+    for i, pr, below in ((ih, rows[ih][2], False), (il, rows[il][3], True)):   # small high / low marks
+        if i >= n - 2 or abs(Y(pr) - Y(last)) < 30:                 # the live price tag already shows it
+            continue
+        tx = min(max(X(i), cx0 + 30), cx1 - 30); ty = Y(pr) + (14 if below else -14)
+        if ev and abs(tx - X(i0)) < 45:                             # keep clear of the news line
+            tx = X(i0) + (48 if i >= i0 else -48)
+        d.text((tx, ty), fmt(pr), font=F(SEMI, 15), fill=MUT, anchor='mt' if below else 'mb')
     fdur = dur(focus).replace('60 min', '1h').replace('24h', '24 hours') if fo else ''
-    label = f'{mv * 100:+.1f}% in {fdur}' if fo else f'{mv * 100:+.1f}% in {dur(max(secs, 60))}' + (' after the news' if ev else '')
-    lw = d.textlength(label, font=F(BLACK, 22)) + 30
-    if fo:                                                          # start-of-window level -> now, with a vertical bracket
-        for xx in range(int(xa), int(cx1), 12):
-            d.line([xx, ya, xx + 6, ya], fill=(150, 156, 172), width=2)
-        d.ellipse([xa - 8, ya - 8, xa + 8, ya + 8], fill=acc, outline=BG1, width=3)
-        bx = cx1 - 6
-        d.line([bx, ya, bx, yb2], fill=acc, width=4)
-        d.line([bx - 12, ya, bx, ya], fill=acc, width=4); d.line([bx - 12, yb2, bx, yb2], fill=acc, width=4)
-        if xa - 18 - lw >= cx0:                                     # pill left of the window, level with the new price
-            lx, lym = xa - 18 - lw, yb2 - 20
-        else:                                                       # window = whole chart: pill beside the bracket
-            lx, lym = cx1 - 18 - lw, (ya - 54 if mv < 0 else ya + 14)  # empty side of the start-price line
-    elif ev:                                                        # vertical bracket: price at news -> extreme after it
-        bx = min(max(xb + bw + 14, xa + 20), cx1 - 8)
-        d.line([bx, ya, bx, yb2], fill=acc, width=4)
-        d.line([bx - 10, ya, bx + 2, ya], fill=acc, width=4); d.line([bx - 10, yb2, bx + 2, yb2], fill=acc, width=4)
-        lx = min(max(bx - lw / 2, cx0), cx1 - lw)
-        lym = ya - 54 if mv < 0 else ya + 14
-    else:                                                           # measure line from the swing start to its end
-        steps = 40
-        for j in range(steps):
-            if j % 2 == 0:
-                d.line([xa + (xb - xa) * j / steps, ya + (yb2 - ya) * j / steps, xa + (xb - xa) * (j + 1) / steps,
-                        ya + (yb2 - ya) * (j + 1) / steps], fill=acc, width=3)
-        for xx, yy in ((xa, ya), (xb, yb2)):
-            d.ellipse([xx - 9, yy - 9, xx + 9, yy + 9], fill=acc, outline=BG1, width=3)
-        lx = min(max(xb - lw / 2, cx0), cx1 - lw)
-        lym = yb2 - 60 if mv > 0 else yb2 + 20
-    lym = min(max(lym, cy0 - 20), cy1 - 40)
-    d.rounded_rectangle([lx, lym, lx + lw, lym + 40], radius=10, fill=acc)
-    d.text((lx + lw / 2, lym + 20), label, font=F(BLACK, 22), fill=(8, 10, 12), anchor='mm')
-    ly = Y(last)                                                    # live price tag
-    d.rounded_rectangle([cx1 + 6, ly - 17, W - 42, ly + 17], radius=8, fill=WHITE)
-    d.text(((cx1 + 6 + W - 42) / 2, ly), fmt(last), font=F(BLACK, 16), fill=(10, 12, 16), anchor='mm')
-    k = max(1, n // 5); multi = (rows[-1][0] - rows[0][0]) >= 2 * 86400000
+    pc = GRN if up else RED                              # live price: thin dotted line + colored tag
+    ly = Y(last)
+    for xx in range(int(cx0), int(cx1), 8):
+        d.line([xx, ly, xx + 3, ly], fill=tuple(int(cc * 0.7) for cc in pc), width=1)
+    d.rounded_rectangle([cx1 + 6, ly - 16, W - 42, ly + 16], radius=6, fill=pc)
+    d.text(((cx1 + 6 + W - 42) / 2, ly), fmt(last), font=F(BLACK, 16), fill=(8, 10, 12), anchor='mm')
+    multi = (rows[-1][0] - rows[0][0]) >= 2 * 86400000
     for i in range(0, n, k):
         dt = datetime.fromtimestamp(rows[i][0] / 1000, timezone.utc)
         d.text((X(i), bot - 16), dt.strftime('%b %d' if multi else '%H:%M'), font=F(MED, 15), fill=DIM, anchor='mm')
