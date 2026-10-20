@@ -374,6 +374,10 @@ def main():
     for (sc, lead, coin, srcs, age), g in scored[:10]:
         st['top'].append([remember(st, g, lead, coin, srcs), sc, round(age * 60), len(srcs)])
     st['top_at'] = NOW
+    if not first_run and 'sent' not in st:          # upgrade from the old format: treat everything current as already sent
+        for (sc, lead, coin, srcs, age), g in scored:
+            mark_sent(st, lead['title'], [i['url'] for i in g['items']])
+        save_state(st); print('migrated sent list'); return
     if first_run:
         send_top(st, scored, '✅ <b>Chain Radar is live.</b> I only ping you for big news. Send /top anytime.')
         for (sc, lead, coin, srcs, age), g in scored:
