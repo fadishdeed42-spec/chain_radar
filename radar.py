@@ -280,10 +280,10 @@ def chart(coin, label=''):
 
 # ---------------- drafts ----------------
 def draft(headline, coin, srcs):
-    base = f'⚡ {headline}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')
+    base = f'⚡ {headline}' + (f'\n\n{coin["sym"]}: {fmt_p(coin["price"])} ({coin["h24"]:+.1f}% 24h)' if coin else '')
     out = gemini(STYLE + 'Write ONE X post (max 260 characters) with a strong hook. Reply with the post text only.\n\nFACTS:\n'
                  f'Headline: {headline}\nSources: {", ".join(list(srcs)[:4])}\n'
-                 + (f'Price: {coin["name"]} ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h, {coin["h1"]:+.1f}% in 1h\n' if coin else ''))
+                 + (f'Price: {coin["name"]} {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h, {coin["h1"]:+.1f}% in 1h\n' if coin else ''))
     return out[:280] if out else base
 
 
@@ -527,7 +527,7 @@ def main():
 
 
 def fmt_p(v):
-    return f'${v:,.0f}' if v >= 1000 else f'${v:,.2f}' if v >= 1 else f'${v:.4g}'
+    return card.fmt(v)
 
 
 def live_top(tgs):
@@ -1048,7 +1048,7 @@ def make_post(item):
     coin = coin_by_id(item['coin']) if item.get('coin') else None
     body = article_text(item.get('urls') or ([item['url']] if 't.me/' not in item.get('url', '') else [])) if item.get('url') else ''
     facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item.get("src", "")])}\n'
-             + (f'Coin in this story: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
+             + (f'Coin in this story: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
              + (item.get('facts', '') + '\n') + (f'Telegram news posts about it:\n{item["tgtext"]}\n' if item.get('tgtext') else '')
              + (f'Article text:\n{body}\n' if body else ''))
     extra = 'This is a true crypto story: tell the post as a story with a twist.\n' if item.get('story') else ''
@@ -1059,7 +1059,7 @@ def make_post(item):
     if not p['title']:
         p = {'title': item['title'][:90], 'keyfact': '', 'reply': '', 'thread': '', 'tag': item.get('tag', 'BREAKING'), 'visual': '',
              'symbol': '', 'stat': '', 'timeline': '', 'versus': '', 'quote': '',
-             'post': f'⚡ {item["title"]}' + (f'\n\n{coin["sym"]}: ${coin["price"]:,.6g} ({coin["h24"]:+.1f}% 24h)' if coin else '')}
+             'post': f'⚡ {item["title"]}' + (f'\n\n{coin["sym"]}: {fmt_p(coin["price"])} ({coin["h24"]:+.1f}% 24h)' if coin else '')}
         p['note'] = '⚠️ AI writer busy — simple version. Tap Make post again in a minute for the full one.'
     if not coin and p.get('symbol') not in ('', 'NONE') and re.search(r'\b' + re.escape(p['symbol']) + r'\b', facts, re.I):
         h = cg_search(p['symbol']); coin = coin_by_id(h['id']) if h else None
@@ -1498,13 +1498,15 @@ def coin_render(coin, win):
 
 
 def coin_heads(coin):
-    junk = r'predict|could be worth|millionaire|should you buy|buy now|top \d|which is|best crypto|to buy|forecast|\?$'
+    junk = (r'predict|could be worth|millionaire|should you buy|buy now|top \d|which is|best crypto|to buy|forecast|\?$|price today|'
+            r'live price|to usd|market ?cap|price chart|price index|\bvs\b|\.lol|\.io\)|presale|airdrop guide')
     if coin['name'] == coin['sym']:
         q = f'{coin["sym"]} crypto'
     else:
         q = f'"{coin["name"]}" crypto'
-    return [h for h in gnews(q, 15) if re.search(re.escape(coin['name']) + '|' + re.escape(coin['sym']), h['title'], re.I)
-            and not re.search(junk, h['title'], re.I) and time.time() - h['ts'] < 36 * 3600][:2]
+    other = r'\b(doge|baby|shib|floki|mini|inu|2\.0|classic)\s+' + re.escape(coin['name'])     # 'Doge Pepe' is not Pepe
+    return [h for h in gnews(q, 15) if re.search(r'\b(' + re.escape(coin['name']) + '|' + re.escape(coin['sym']) + r')\b', h['title'], re.I)
+            and not re.search(junk, h['title'], re.I) and not re.search(other, h['title'], re.I) and time.time() - h['ts'] < 36 * 3600][:2]
 
 
 def coin_sentence(coin, title, m, heads, other=False):
@@ -1770,7 +1772,7 @@ def send_coin_chart(coin, span='1d'):
                     {'8h': '8H CHART', '1d': '24H CHART', '7d': '7D CHART', '30d': '30D CHART', '1y': '1Y CHART'}[span])
     if not img:
         tg('No candle data for that coin right now.'); return
-    tg(f'📈 <b>{E(coin["name"])} ({coin["sym"]})</b> · ${coin["price"]:,.6g} · {coin["h24"]:+.1f}% 24h', img,
+    tg(f'📈 <b>{E(coin["name"])} ({coin["sym"]})</b> · {fmt_p(coin["price"])} · {coin["h24"]:+.1f}% 24h', img,
        [(x.upper(), f'c:{coin["id"]}:{x}') for x in ('1d', '7d', '30d', '1y') if x != span])
 
 

@@ -138,7 +138,11 @@ def fmt(v):
         return f'${v:,.0f}'
     if v >= 1:
         return f'${v:,.2f}'
-    return f'${v:.4g}'
+    if v <= 0:
+        return '$0'
+    import math
+    d = max(4, -math.floor(math.log10(v)) + 2)                      # 3 significant digits, never scientific notation
+    return '$' + f'{v:.{d}f}'
 
 
 def png(im):
