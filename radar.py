@@ -1125,9 +1125,16 @@ REPLY_EXAMPLES = ('Examples of the tone (do not copy them):\n'
                   '- "Quiet chart all week, then this. Someone knew before the headline did."\n')
 
 
-def reply_rules(style):
+OWNER_VIEW = ('The account owner is a long-term Bitcoin bull. Never mock Bitcoin, BTC holders or buying BTC; when news is good for '
+              'Bitcoin, lean positive. ')
+STANCE = {'agree': 'The owner AGREES with this post. Support it: back it up, add a fact that strengthens it, or build on it. Do not argue against it.',
+          'disagree': 'The owner DISAGREES with this post. Push back politely with a clear reason or a fact. Respectful, no insults.',
+          'neutral': 'The owner is NEUTRAL on this post. Add useful context or a sharp observation without taking a side.'}
+
+
+def reply_rules(style, stance='neutral'):
     name, how = style
-    return (VOICE + '\nYou are replying under an X post as the account "Chain Secrets". Write ONE reply that reads like a smart human wrote it '
+    return (VOICE + '\n' + OWNER_VIEW + STANCE.get(stance, STANCE['neutral']) + '\nYou are replying under an X post as the account "Chain Secrets". Write ONE reply that reads like a smart human wrote it '
             'in ten seconds: 8 to 25 words, max 180 characters, about what THIS post actually says. Never invent facts or numbers; if unsure, '
             'leave it out.\nStyle for this reply: ' + how + '\n' + REPLY_EXAMPLES +
             'Reply in exactly this format and nothing else:\n'
@@ -1206,15 +1213,40 @@ def cmd_reply(url, tgs, fresh=False):
     if post['author'].lower() == 'thechainsecrets' or user.lower() == 'thechainsecrets':     # your own post: track it
         unack(); track_mine(user, sid, post); return
     save_xpost(post)
-    reply_from_text(post['text'] + (f'\n\n(Quoted post: {post["quote"]})' if post['quote'] else ''), post['author'], post, tgs, sid)
+    ask_stance(post['text'] + (f'\n\n(Quoted post: {post["quote"]})' if post['quote'] else ''), post['author'], post, tgs, sid)
 
 
-def reply_from_text(text, author, post, tgs, key):
+def ask_stance(text, author, post, tgs, key):
+    """Show the post and ask the owner's side before writing the reply."""
+    tgs.setdefault('replies', {})[key] = {**(tgs.get('replies', {}).get(key) or {}), 't': time.time(), 'text': text[:2000], 'author': author,
+                                          'post': {x: (post or {}).get(x) for x in ('likes', 'ts')}}
+    tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
+    stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
+    unack()
+    tg(f'💬 <b>@{E(author)}</b>{stats}\n<i>{E(text[:300])}{"…" if len(text) > 300 else ""}</i>\n\n<b>Do you agree with this post?</b>', None,
+       [('👍 Agree', f'ra:{key}:agree'), ('👎 Disagree', f'ra:{key}:disagree'), ('🤷 Neutral', f'ra:{key}:neutral')])
+
+
+def on_stance(key, stance, tgs, mid):
+    r = tgs.get('replies', {}).get(key)
+    if not r:
+        tg('That one is too old. Send the link again.'); return
+    r['stance'] = stance
+    try:                                                              # replace the question with the reply (clean chat)
+        requests.post(f'https://api.telegram.org/bot{TOKEN}/deleteMessage', data={'chat_id': CHAT, 'message_id': mid}, timeout=8)
+    except Exception:
+        pass
+    ack('⏳ Writing your reply…')
+    reply_from_text(r['text'], r['author'], r.get('post'), tgs, key, stance)
+
+
+def reply_from_text(text, author, post, tgs, key, stance=None):
+    stance = stance or (tgs.get('replies', {}).get(key) or {}).get('stance') or 'neutral'
     facts = f'Post by @{author}:\n{text[:2000]}'
     used = (tgs.get('replies', {}).get(key) or {}).get('styles', [])
     import random
     style = random.choice([x for x in REPLY_STYLES if x[0] not in used] or REPLY_STYLES)
-    rp = parse_replies(gemini_voice(reply_rules(style) + '\n' + facts))
+    rp = parse_replies(gemini_voice(reply_rules(style, stance) + '\n' + facts))
     rp['reply'] = clean_voice(rp['reply'])
     if not rp['reply']:
         unack(); tg('⚠️ The AI writer is busy, tap again in a minute.'); return
@@ -1222,11 +1254,15 @@ def reply_from_text(text, author, post, tgs, key):
     img = move_card(coin)[0] if coin else None
     stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
     stats += f' · {ago(post["ts"])}' if post and post.get('ts') else ''
-    head = f'💬 <b>Reply for @{E(author)}</b>{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
-    tgs.setdefault('replies', {})[key] = {'t': time.time(), 'text': text[:2000], 'author': author, 'styles': used + [style[0]]}
+    face = {'agree': '👍 agreeing', 'disagree': '👎 pushing back', 'neutral': '🤷 neutral'}[stance]
+    head = f'💬 <b>Reply for @{E(author)}</b> · {face}{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
+    tgs.setdefault('replies', {})[key] = {**(tgs.get('replies', {}).get(key) or {}), 't': time.time(), 'text': text[:2000], 'author': author,
+                                          'styles': used + [style[0]], 'stance': stance, 'post': {x: (post or {}).get(x) for x in ('likes', 'ts')}}
     tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
     unack()
-    tg(reply_msg(rp, head, bool(img)), img, [('🔄 Another one', f'rr:{key}')])
+    other = [x for x in ('agree', 'disagree', 'neutral') if x != stance]
+    tg(reply_msg(rp, head, bool(img)), img, [('🔄 Another one', f'rr:{key}')]
+       + [({'agree': '👍 Agree instead', 'disagree': '👎 Disagree instead', 'neutral': '🤷 Neutral instead'}[x], f'ra:{key}:{x}:k') for x in other])
 
 
 def more_replies(key, tgs):
@@ -1234,7 +1270,7 @@ def more_replies(key, tgs):
     if not r:
         tg('That one is too old. Send the link again.'); return
     chat_action('typing')
-    reply_from_text(r['text'], r['author'], None, tgs, key)
+    reply_from_text(r['text'], r['author'], r.get('post'), tgs, key)
 
 
 # ---------------- reply window: viral story -> who will post + ready replies ----------------
@@ -1266,7 +1302,7 @@ def who_posts(title):
 def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
     mk = remember(st, g, lead, coin, srcs)
     import random
-    rp = parse_replies(gemini_voice(reply_rules(random.choice(REPLY_STYLES)) + '\nThe post you reply to is a big account breaking this news:\n'
+    rp = parse_replies(gemini_voice(reply_rules(random.choice(REPLY_STYLES), 'neutral') + '\nThe post you reply to is a big account breaking this news:\n'
                               f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
                               + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
     acc = who_posts(lead['title'])
@@ -1846,6 +1882,14 @@ def handle(u, tgs):
         elif data.startswith('v:'):
             _, k, vis = data.split(':', 2)
             switch_design(k, vis, (cb.get('message') or {}).get('message_id'))
+        elif data.startswith('ra:'):
+            parts = data.split(':'); keep = len(parts) > 3                  # ':k' = switching side: keep the old reply message
+            if keep:
+                r = tgs.get('replies', {}).get(parts[1])
+                if r:
+                    r['stance'] = parts[2]; ack('⏳ Writing your reply…'); reply_from_text(r['text'], r['author'], r.get('post'), tgs, parts[1], parts[2])
+            else:
+                on_stance(parts[1], parts[2], tgs, mid)
         elif data.startswith('rr:'):
             more_replies(data[3:], tgs)
         elif data.startswith('x:'):
@@ -1897,7 +1941,7 @@ def handle(u, tgs):
         if args and XLINK.search(args[0]):
             cmd_reply(args[0], tgs)
         elif args:
-            ack('⏳ Writing replies…'); reply_from_text(' '.join(args), 'someone', None, tgs, hashlib.md5(t.encode()).hexdigest()[:10])
+            ask_stance(' '.join(args), 'someone', None, tgs, hashlib.md5(t.encode()).hexdigest()[:10])
         else:
             tg('Send <code>/reply</code> + an X post link — or just paste/share the link to me.')
     elif XLINK.search(t) and not fwd:
