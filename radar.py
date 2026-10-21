@@ -4,6 +4,7 @@ Env: TELEGRAM_TOKEN, TELEGRAM_CHAT_ID (required), GEMINI_API_KEY (optional, for 
 import os, re, json, time, html, hashlib, io, sys
 from datetime import datetime, timezone
 import requests, feedparser
+import brain
 
 TOKEN, CHAT = os.environ.get('TELEGRAM_TOKEN', ''), os.environ.get('TELEGRAM_CHAT_ID', '')
 GEMINI = os.environ.get('GEMINI_API_KEY', '')
@@ -158,7 +159,22 @@ def cluster(items):
             best['items'].append(it); best['w'] |= w
         else:
             groups.append({'items': [it], 'w': set(w)})
-    return groups
+    merged = []                                                          # 2nd pass: same story, different wording
+    for g in groups:
+        sg = story_sig(max(g['items'], key=lambda i: len(i['title']))['title'])
+        for m in merged:
+            if same_story(sg, m['sig']):
+                m['items'] += g['items']; m['w'] |= g['w']; break
+        else:
+            g['sig'] = sg; merged.append(g)
+    return merged
+
+
+def same_story(a, b):
+    aw, bw = set(a['w']), set(b['w']); inter = len(aw & bw)
+    if inter / max(1, len(aw | bw)) >= 0.3 or inter >= 4:
+        return True
+    return bool(set(a['e']) & set(b['e']) and set(a['k']) & set(b['k']) and inter >= 2)
 
 
 AMBIG = {'near', 'flow', 'pi', 'gas', 'sun', 'pump', 'core', 'story', 'movement', 'mantle', 'sonic', 'stacks', 'render', 'kaspa',
@@ -217,7 +233,8 @@ def remember(st, g, lead, coin, srcs):
     st.setdefault('menu', {})[k] = {'title': lead['title'], 'url': lead['url'], 'src': lead['src'], 't': NOW,
                                     't0': min(i.get('ts', NOW) for i in g['items']),
                                     'coin': coin['id'] if coin else '', 'srcs': sorted(srcs)[:5],
-                                    'urls': [i['url'] for i in g['items'] if 'news.google' not in i['url']][:4]}
+                                    'urls': [i['url'] for i in g['items'] if 'news.google' not in i['url'] and not i.get('tg')][:4],
+                                    'tgtext': '\n'.join(i['text'] for i in g['items'] if i.get('tg'))[:2500]}
     return k
 
 
@@ -296,8 +313,9 @@ def tg(text, photo=None, buttons=None):
 E = html.escape
 
 
-def story_msg(sc, lead, coin, srcs, items, age_h, urgent):
-    m = f'🔥 <b>BREAKING</b> · {len(srcs)} sources · {age_h*60:.0f} min ago\n<b>{E(lead["title"])}</b>'
+def story_msg(sc, lead, coin, srcs, items, age_h, urgent, pr=None):
+    m = (f'🔥 <b>BREAKING</b> · {age_h*60:.0f} min ago\n<b>{E(lead["title"])}</b>\n'
+         f'{confirmed(srcs)} · {chance_txt(pr, sc)}')
     if coin:
         m += f'\n{coin["sym"]} {fmt_p(coin["price"])} · {coin["h1"]:+.1f}% 1h · {coin["h24"]:+.1f}% 24h'
     m += '\n' + ' · '.join(f'<a href="{E(it["url"])}">{E(it["src"])}</a>' for it in sorted(items, key=lambda i: i['ts'])[:3])
@@ -328,10 +346,7 @@ def is_dup(st, title, urls=(), hours=36):
             continue
         if set(urls) & set(x.get('u', [])):
             return True
-        xw = set(x['w']); inter = len(w & xw)
-        if inter / max(1, len(w | xw)) >= 0.3 or inter >= 4:
-            return True
-        if set(s['e']) & set(x['e']) and set(s['k']) & set(x['k']) and inter >= 2:   # same name + same kind of event
+        if same_story(s, x):
             return True
     return False
 
@@ -342,6 +357,28 @@ def mark_sent(st, title, urls=()):
 
 
 MAX_PER_SCAN, MAX_PER_DAY = 2, 14
+CH_NAMES = {'WatcherGuru': 'Watcher.Guru', 'wublockchainenglish': 'Wu Blockchain', 'cointelegraph': 'Cointelegraph', 'coindesk': 'CoinDesk',
+            'lookonchainchannel': 'Lookonchain', 'bitcoinmagazinetelegram': 'Bitcoin Magazine', 'TheBlockNews': 'The Block',
+            'decryptmedia': 'Decrypt', 'binance_announcements': 'Binance', 'PeckShieldAlert': 'PeckShield', 'tree_news_feed': 'Tree News',
+            'crypto_headlines': 'Crypto Headlines'}
+
+
+def quiet(now=None):
+    """1:00-9:00 Beirut (22:00-06:00 UTC): only huge news gets through."""
+    h = datetime.fromtimestamp(now or time.time(), timezone.utc).hour
+    return h >= 22 or h < 6
+
+
+def confirmed(srcs):
+    return f'✅ Confirmed · {len(srcs)} sources' if len(srcs) >= 2 else '⚠️ Unconfirmed · 1 source'
+
+
+def chance_txt(p, sc):
+    return f'🔥 Viral chance {p * 100:.0f}%' if p is not None else f'Score {sc}/100'
+
+
+def fb_buttons(mk):
+    return [('📝 Make post', 'p:' + mk), ('👍', f'f:{mk}:1'), ('👎', f'f:{mk}:0')]
 
 
 def budget_ok(st):
@@ -365,12 +402,22 @@ def main():
     except Exception:
         muted = False
     market, news, reddit, hacks = collect_market(), collect_news(), collect_reddit(), collect_hacks()
+    for it in brain.collect_channels(NOW):
+        it['src'] = CH_NAMES.get(it['src'], it['src']); news.append(it)
     print(f'market {len(market)} news {len(news)} reddit {len(reddit)} hacks {len(hacks)}')
     groups = cluster(news)
     scored = sorted([(score_group(g, market, reddit), g) for g in groups], key=lambda x: -x[0][0])
     sent = 0
+    for (sc, lead, coin, srcs, age), g in scored[:40]:                  # the brain logs every notable story
+        brain.log_story(key_of(g), g, sc, lead, coin, srcs, NOW)
+    print('labeled', brain.label_due(NOW))
+    probs = {key_of(g): brain.chance(brain.early_story(g, sc, lead, coin, srcs, NOW)) for (sc, lead, coin, srcs, age), g in scored[:40]}
+    st['probs'] = {k: round(v, 3) for k, v in probs.items() if v is not None}
+    brain.save()
 
     st['top'] = []
+    if brain.model().get('ready'):
+        scored.sort(key=lambda x: -(brain.chance(brain.early_story(x[1], *x[0][:4], NOW)) or 0))
     for (sc, lead, coin, srcs, age), g in scored[:10]:
         st['top'].append([remember(st, g, lead, coin, srcs), sc, round(age * 60), len(srcs)])
     st['top_at'] = NOW
@@ -390,8 +437,10 @@ def main():
         st['init'] = True
         save_state(st); return
 
-    def can_send():
-        return not muted and sent < MAX_PER_SCAN and budget_ok(st)
+    hush = quiet(NOW)
+
+    def can_send(huge=False):
+        return not muted and (huge or not hush) and sent < MAX_PER_SCAN and budget_ok(st)
 
     def count():
         nonlocal sent
@@ -405,7 +454,7 @@ def main():
             continue
         st['hacks'][k] = NOW
         title = f'{h.get("name")} hacked for ${amt/1e6:,.1f} million'
-        if is_dup(st, title) or not can_send():
+        if is_dup(st, title) or not can_send(amt >= 20e6):
             mark_sent(st, title); continue
         mark_sent(st, title)
         when = datetime.fromtimestamp(float(h.get('date', NOW)), timezone.utc).strftime('%b %d')
@@ -415,14 +464,15 @@ def main():
                           'method': str(h.get('technique') or h.get('classification') or '')[:28], 'date': when},
                  'facts': f'Hack date: {when}. Chain: {h.get("chain") or h.get("chains")}. Method: {h.get("technique") or h.get("classification")}. Amount: ${amt:,.0f}. (DefiLlama hacks database.)'}
         st.setdefault('menu', {})[hk] = hitem
-        tg(f'🚨 <b>HACK</b> · <b>{E(title)}</b>\n<i>DefiLlama · verify with a news source before posting</i>', None, [('📝 Make post', 'p:' + hk)])
+        tg(f'🚨 <b>HACK</b> · <b>{E(title)}</b>\n<i>DefiLlama · verify with a news source before posting</i>', None, fb_buttons(hk))
         count()
 
     # 2) big price movers: only real, confirmed moves (CoinGecko and the candles must agree)
     for c in sorted(market, key=lambda c: -abs(c['h1'])):
         major = c['sym'] in ('BTC', 'ETH')
         big = (major and abs(c['h1']) >= 2.5) or (c['rank'] <= 50 and abs(c['h1']) >= 7) or (c['rank'] <= 100 and abs(c['h1']) >= 10)
-        if not big or NOW - st['movers'].get(c['id'], 0) < (4 if major else 12) * 3600 or not can_send():
+        huge = (major and abs(c['h1']) >= 4) or (c['rank'] <= 20 and abs(c['h1']) >= 12)
+        if not big or NOW - st['movers'].get(c['id'], 0) < (4 if major else 12) * 3600 or not can_send(huge):
             continue
         st['movers'][c['id']] = NOW
         rows, src, lab = candles(c, '8h')
@@ -447,25 +497,31 @@ def main():
             mark_sent(st, news_hit[0]['title'], [i['url'] for i in news_hit[1]['items']])
         else:
             cap += '\n<i>No news found yet — check X for the reason.</i>'
-        tg(cap, img, [('📝 Make post', 'p:' + mk)])
+        tg(cap, img, fb_buttons(mk))
         count()
 
     # 3) breaking news: only strong stories never sent before (any outlet)
     for (sc, lead, coin, srcs, age), g in scored:
-        if sc < ALERT:
-            break
+        pr = probs.get(key_of(g))
+        strong = (sc >= ALERT and (pr is None or pr >= 0.5)) or (pr is not None and pr >= 0.8)
+        if not strong:
+            continue
         urls = [i['url'] for i in g['items']]
         if is_dup(st, lead['title'], urls):
             continue
         mark_sent(st, lead['title'], urls)
-        if not can_send():
+        viral = (pr is not None and pr >= 0.85) or (pr is None and (sc >= VIRAL or (len(srcs) >= 4 and age < 1.5)))
+        huge = (pr is not None and pr >= 0.9) or sc >= 92
+        if not can_send(huge):
             continue
-        if sc >= VIRAL or (len(srcs) >= 4 and age < 1.5):
-            viral_alert(st, sc, lead, coin, srcs, g, age)
+        if viral and len(srcs) >= 2:
+            viral_alert(st, sc, lead, coin, srcs, g, age, pr)
         else:
             mk = remember(st, g, lead, coin, srcs)
-            tg(story_msg(sc, lead, coin, srcs, g['items'], age, True), None, [('📝 Make post', 'p:' + mk)])
+            tg(story_msg(sc, lead, coin, srcs, g['items'], age, True, pr), None, fb_buttons(mk))
+        brain.mark(lead['title'], 'alerted', 1, NOW)
         count()
+    brain.save()
     print('alerts sent', sent)
     save_state(st)
 
@@ -476,6 +532,8 @@ def fmt_p(v):
 
 def live_top(tgs):
     m, n = collect_market(), collect_news()
+    for it in brain.collect_channels(time.time()):
+        it['src'] = CH_NAMES.get(it['src'], it['src']); n.append(it)
     if not n:
         tg('News sources are slow right now, try again in a minute.'); return
     st = load_state()
@@ -513,7 +571,7 @@ def git_sync(force=False):
     _last_sync[0] = time.time()
     sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
     sh('git config user.name chain-radar; git config user.email noreply@github.com')
-    sh('git add state/tg.json state/seen.json state/listen.log && git commit -qm "listen state [skip ci]"')
+    sh('git add state/tg.json state/seen.json state/listen.log state/brain.json state/model.json 2>/dev/null; git commit -qm "listen state [skip ci]"')
     for _ in range(3):
         r = sh('git pull --rebase -q -X theirs && git push -q')
         if r.returncode == 0:
@@ -528,11 +586,14 @@ def send_cached_top():
         return False
     mins = int((NOW_() - st.get('top_at', 0)) / 60)
     msg, btn = f'📰 <b>Top crypto stories</b> <i>(scanned {mins} min ago)</i>\nTap a number → full post with image.\n', []
+    pr = st.get('probs', {})
     for n, (k, sc, age, ns) in enumerate(top[:8], 1):
         it = st.get('menu', {}).get(k)
         if not it:
             continue
-        msg += f'\n<b>{n}.</b> {"🔥" if sc >= ALERT else "•"} {E(it["title"])}  <i>({ns} src)</i>'
+        p = pr.get(k)
+        tag = f'🔥 {p * 100:.0f}%' if p is not None and p >= 0.6 else f'{p * 100:.0f}%' if p is not None else ('🔥' if sc >= ALERT else '•')
+        msg += f'\n<b>{n}.</b> {tag} {E(it["title"])}  <i>({"✅" if ns >= 2 else "⚠️"} {ns} src)</i>'
         btn.append((f'📝 {n}', 'p:' + k))
     btn.append(('🔄 Live refresh', 'r:'))
     tg(msg, None, btn)
@@ -557,7 +618,7 @@ def send_top(st, scored, header='📰 <b>Top crypto stories right now</b>'):
     for n, ((sc, lead, coin, srcs, age), g) in enumerate(scored[:8], 1):
         k = remember(st, g, lead, coin, srcs)
         fire = '🔥' if sc >= ALERT else '•'
-        msg += f'\n<b>{n}.</b> {fire} {E(lead["title"])}  <i>({len(srcs)} src, {age*60:.0f}m)</i>'
+        msg += f'\n<b>{n}.</b> {fire} {E(lead["title"])}  <i>({"✅" if len(srcs) >= 2 else "⚠️"} {len(srcs)} src, {age*60:.0f}m)</i>'
         btn.append((f'📝 {n}', 'p:' + k))
     tg(msg, None, btn)
 
@@ -892,7 +953,7 @@ def post_buttons(k, p, item, coin):
     extra = [('🧵 Thread', f'x:{k}:thread')]
     extra += [('💬 Reply idea', f'x:{k}:reply')] if p.get('reply') else []
     extra += [('🎬 Shorts script', f'x:{k}:short')] if item.get('story') else []
-    return b + extra
+    return b + extra + [('✅ Posted', f'ps:{k}')]
 
 
 def chat_action(a='upload_photo'):
@@ -962,10 +1023,11 @@ def unack():
 
 def make_post(item):
     coin = coin_by_id(item['coin']) if item.get('coin') else None
-    body = article_text(item.get('urls') or [item['url']]) if item.get('url') else ''
+    body = article_text(item.get('urls') or ([item['url']] if 't.me/' not in item.get('url', '') else [])) if item.get('url') else ''
     facts = (f'Headline: {item["title"]}\nSources: {", ".join(item.get("srcs") or [item.get("src", "")])}\n'
              + (f'Coin in this story: {coin["name"]} ({coin["sym"]}) ${coin["price"]:,.6g}, {coin["h24"]:+.1f}% in 24h\n' if coin else '')
-             + (item.get('facts', '') + '\n') + (f'Article text:\n{body}\n' if body else ''))
+             + (item.get('facts', '') + '\n') + (f'Telegram news posts about it:\n{item["tgtext"]}\n' if item.get('tgtext') else '')
+             + (f'Article text:\n{body}\n' if body else ''))
     extra = 'This is a true crypto story: tell the post as a story with a twist.\n' if item.get('story') else ''
     if coin:                                                   # fetch the candles while the AI writes
         import threading
@@ -1083,6 +1145,9 @@ def cmd_reply(url, tgs, fresh=False):
     post = read_x(user, sid)
     if not post or not post['text']:
         unack(); tg('Couldn\'t read that post (deleted, private or X blocked it). Paste its text here instead and I\'ll write replies.'); return
+    if post['author'].lower() == 'thechainsecrets' or user.lower() == 'thechainsecrets':     # your own post: track it
+        unack(); track_mine(user, sid, post); return
+    save_xpost(post)
     reply_from_text(post['text'] + (f'\n\n(Quoted post: {post["quote"]})' if post['quote'] else ''), post['author'], post, tgs, sid)
 
 
@@ -1137,20 +1202,177 @@ def who_posts(title):
     return acc[:5]
 
 
-def viral_alert(st, sc, lead, coin, srcs, g, age):
+def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
     mk = remember(st, g, lead, coin, srcs)
     rp = parse_replies(gemini(REPLY_RULES + '\nThe post you reply to is a big account breaking this news:\n'
                               f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
                               + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
     acc = who_posts(lead['title'])
-    head = (f'🔥 <b>GOING VIRAL · REPLY WINDOW OPEN</b>\n<b>{E(lead["title"])}</b>\n{len(srcs)} sources · {age*60:.0f} min ago\n\n'
+    head = (f'🔥 <b>GOING VIRAL · REPLY WINDOW OPEN</b>\n<b>{E(lead["title"])}</b>\n{confirmed(srcs)} · {chance_txt(pr, sc)} · {age*60:.0f} min ago\n\n'
             f'👀 Watch for posts from: ' + ' · '.join(f'<a href="https://x.com/{a}">@{a}</a>' for a in acc)
             + '\nReply in the first 15 minutes with 👇')
     img = move_card(coin)[0] if coin and rp.get('chart') else None
     if rp['reply']:
-        tg(reply_msg(rp, head, bool(img)), img, [('📝 Make post', 'p:' + mk)])
+        tg(reply_msg(rp, head, bool(img)), img, fb_buttons(mk))
     else:
-        tg(head, img, [('📝 Make post', 'p:' + mk)])
+        tg(head, img, fb_buttons(mk))
+
+
+# ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
+MENU = [['📰 Top stories', '📊 Movers'], ['💬 Reply to a post', '🏴‍☠️ Hacks'], ['📖 Story', '🧠 Brain']]
+MENU_V = 2
+
+
+def send_menu(text='👇 Your menu is ready at the bottom of the chat.'):
+    kb = {'keyboard': [[{'text': b} for b in row] for row in MENU], 'resize_keyboard': True, 'is_persistent': True}
+    try:
+        requests.post(f'https://api.telegram.org/bot{TOKEN}/sendMessage', timeout=10,
+                      data={'chat_id': CHAT, 'text': text, 'reply_markup': json.dumps(kb)})
+    except Exception:
+        pass
+
+
+def brief(tgs, label):
+    """3 best stories right now, ranked by the brain (or the score while it learns). Never repeats a story within 2 days."""
+    git_sync()
+    st = load_state(); b = brain.load(); pr = st.get('probs', {})
+    rows = []
+    for k, sc, age, ns in st.get('top') or []:
+        it = st.get('menu', {}).get(k)
+        if not it or k in b['briefed']:
+            continue
+        if (k in pr and pr[k] < 0.35) or (k not in pr and sc < 45):          # only stories worth posting
+            continue
+        rows.append((pr.get(k, sc / 100 * 0.9), k, sc, ns, it))
+    rows.sort(key=lambda r: -r[0])
+    rows = rows[:3]
+    if not rows:
+        return
+    msg = f'{label}\n<b>Your {"3 best stories" if len(rows) == 3 else "best stories" if len(rows) > 1 else "best story"} now</b> · tap a number → image + post\n'
+    for n, (p, k, sc, ns, it) in enumerate(rows, 1):
+        b['briefed'][k] = time.time()
+        chance = f'🔥 {pr[k] * 100:.0f}%' if k in pr else f'score {sc}'
+        msg += f'\n<b>{n}.</b> {E(it["title"])}\n    <i>{chance} · {"✅ confirmed" if ns >= 2 else "⚠️ unconfirmed"} · {ns} src</i>'
+    brain.save()
+    tg(msg, None, [(f'📝 {n}', 'p:' + r[1]) for n, r in enumerate(rows, 1)])
+
+
+def on_feedback(k, val, tgs):
+    it = menu_item(k, tgs)
+    if not it:
+        return 'Too old'
+    sk = brain.mark(it['title'], 'fb', 1 if val == '1' else -1, time.time())
+    brain.save()
+    return 'Saved 👍 — more like this' if val == '1' else 'Saved 👎 — fewer like this'
+
+
+def on_posted(k):
+    d = TGS.get('designs', {}).get(k)
+    if not d:
+        return 'Too old'
+    t = d['item'].get('title') or d['p'].get('title', '')
+    brain.mark(t, 'posted', True, time.time())
+    with brain.LOCK:
+        brain.load()['posted'].append({'t': time.time(), 'title': t[:160], 'tp': brain.topics(t + ' ' + d['p'].get('title', ''))})
+    brain.save()
+    tg('✅ Logged. Send me the link of your X post and I\'ll track how it does.')
+    return 'Logged ✅'
+
+
+def track_mine(user, sid, post):
+    with brain.LOCK:
+        brain.load()['mine'][sid] = {'t': time.time(), 'url': f'https://x.com/{user}/status/{sid}', 'text': post['text'][:280],
+                                     'tp': brain.topics(post['text']), 'likes': post.get('likes', 0), 'views': post.get('views', 0), 'checked': 0}
+    brain.save()
+    tg('📈 Tracking your post. I\'ll check its likes and views tomorrow and learn from it.')
+
+
+def check_mine():
+    """24h after you post: read your post's real likes/views (free) so the brain learns what works on YOUR account."""
+    for sid, m in list(brain.load()['mine'].items()):
+        if m.get('checked') or time.time() - m['t'] < 24 * 3600:
+            continue
+        u = XLINK.search(m['url'])
+        p = read_x(u.group(1), sid) if u else None
+        with brain.LOCK:
+            if p:
+                m.update({'likes': p.get('likes', 0), 'views': p.get('views', 0)})
+            m['checked'] = time.time()
+    brain.save()
+
+
+def save_xpost(post):
+    if post and post.get('likes'):
+        with brain.LOCK:
+            brain.load()['xposts'].append({'a': post['author'], 'text': post['text'][:500], 'likes': post['likes'],
+                                           'views': post.get('views', 0), 't': time.time()})
+
+
+def weekly_report():
+    b = brain.load(); now = time.time(); wk = 7 * 86400
+    posted = [p for p in b['posted'] if now - p['t'] < wk]
+    tops = {}
+    for p in posted:
+        for t in p.get('tp') or ['other']:
+            tops[t] = tops.get(t, 0) + 1
+    mine = [m for m in b['mine'].values() if now - m['t'] < wk + 86400 and m.get('checked')]
+    best = max(mine, key=lambda m: m.get('likes', 0), default=None)
+    missed = sorted([s for s in b['stories'].values() if now - s['t0'] < wk and s['lab'] == 1 and not s.get('posted')],
+                    key=lambda s: -(s.get('vmax', 0) + s.get('smax', 0) / 3))[:3]
+    stt = brain.status()
+    m = '📅 <b>Your week on Chain Secrets</b>\n\n'
+    m += f'✍️ Posts made: <b>{len(posted)}</b>' + (f' · most: {", ".join(f"{k} ({v})" for k, v in sorted(tops.items(), key=lambda x: -x[1])[:3])}' if tops else '') + '\n'
+    if mine:
+        m += f'📈 Tracked X posts: {len(mine)} · avg ❤️ {sum(x.get("likes", 0) for x in mine) / len(mine):.0f} · avg 👁 {sum(x.get("views", 0) for x in mine) / len(mine):,.0f}\n'
+        m += f'🏆 Best: <i>{E(best["text"][:100])}</i> ({best.get("likes", 0)} ❤️)\n'
+    else:
+        m += '📈 No tracked X posts yet — send me your post links after posting.\n'
+    if missed:
+        m += '\n🙈 <b>Big stories you missed</b>\n' + '\n'.join(f'• {E(s["title"][:110])}' for s in missed) + '\n'
+    m += (f'\n🧠 Brain: {stt["labeled"]} stories learned ({stt["viral"]} viral)'
+          + (f' · accuracy score {stt["auc"]:.2f}' if stt.get('auc') else '') + (' · ✅ predicting' if stt['ready'] else ' · still learning'))
+    tg(m)
+
+
+def brain_status():
+    s = brain.status()
+    m = '🧠 <b>Chain Radar brain</b>\n\n'
+    m += f'Stories logged: <b>{s["stories"]}</b> ({s["days"]:.1f} days of data)\nLearned (6h+ old): <b>{s["labeled"]}</b> · went viral: <b>{s["viral"]}</b>\n'
+    m += f'Your taps: {s["fb"]} 👍/👎 · tracked X posts: {s["mine"]} · big-account posts seen: {s["xposts"]}\n'
+    m += f'Telegram channels live: {len(s["chan"])}\n\n'
+    if s['ready']:
+        m += f'✅ <b>Predicting.</b> Accuracy score {s["auc"]:.2f} (0.5 = guessing, 1.0 = perfect). Alerts now show viral chance %.'
+    else:
+        need = max(0, 150 - s['labeled'])
+        m += (f'⏳ <b>Still learning.</b> ~{need} more stories needed before it predicts (about {max(1, need // 40 + 1)} days). '
+              'Until then alerts use the score. Tap 👍/👎 to teach it your taste faster.')
+    tg(m)
+
+
+_SCHED = {}
+
+
+def scheduler(tgs):
+    """Runs inside the always-on listener: briefings 15:00 + 20:00 Beirut, nightly training, daily X checks, Sunday report."""
+    import threading
+    now = datetime.now(timezone.utc); day = now.strftime('%Y-%m-%d')
+    jobs = []
+    for hh, label in ((12, '☀️ <b>Afternoon briefing</b>'), (17, '🌆 <b>Evening briefing</b>')):
+        if now.hour == hh and now.minute < 40 and tgs.get(f'brief{hh}') != day:
+            tgs[f'brief{hh}'] = day; jobs.append(lambda l=label: brief(tgs, l))
+    if now.hour == 0 and now.minute >= 30 and tgs.get('trained') != day:
+        tgs['trained'] = day; jobs.append(lambda: (brain.label_due(time.time()), brain.train(), brain.save()))
+    if now.hour == 9 and tgs.get('checked') != day:
+        tgs['checked'] = day; jobs.append(check_mine)
+    if now.weekday() == 6 and now.hour == 15 and now.minute < 40 and tgs.get('weekly') != day:
+        tgs['weekly'] = day; jobs.append(weekly_report)
+    for j in jobs:
+        def run(j=j):
+            try:
+                j()
+            except Exception as e:
+                print('job fail', repr(e))
+        threading.Thread(target=run, daemon=True).start()
 
 
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
@@ -1159,6 +1381,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/movers — biggest gainers & losers + why they moved\n'
         '/hacks — biggest hacks of the last 30 days\n'
         '/story — on this day in crypto (real prices & hacks)\n'
+        '/brain — what the learning brain knows so far\n'
         '/story <i>topic</i> — research a story, e.g. <code>/story Do Kwon</code> → thread + Shorts script\n\n'
         '<b>Replies</b>\n'
         '• <b>Share any X post link</b> to me → 3 ready replies (fact, witty, chart + image)\n'
@@ -1171,7 +1394,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
 COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
             ('reply', 'Replies for an X post: /reply <link>'), ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
-            ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
+            ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
 def gnews(q, n=8, recent=True):
@@ -1354,11 +1577,20 @@ def handle(u, tgs):
     if CHAT and who != str(CHAT):
         return                                          # only obey the owner
     if cb:
+        data = cb.get('data') or ''
+        toast = 'On it…'
+        if data.startswith('f:'):
+            _, k, val = data.split(':', 2); toast = on_feedback(k, val, tgs)
+        elif data.startswith('ps:'):
+            toast = 'Logged ✅'
         try:
-            requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'], 'text': 'On it…'}, timeout=10)
+            requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'], 'text': toast}, timeout=10)
         except Exception:
             pass
-        data = cb.get('data') or ''
+        if data.startswith('f:'):
+            return
+        if data.startswith('ps:'):
+            on_posted(data[3:]); return
         if data.startswith('p:'):
             item = menu_item(data[2:], tgs)
             if item:
@@ -1396,8 +1628,15 @@ def handle(u, tgs):
     parts = t.split(); c = parts[0].lower().split('@')[0]; args = parts[1:]
     fwd = msg.get('forward_origin') or {}
     fwd_src = (fwd.get('chat') or {}).get('title') or (fwd.get('sender_user') or {}).get('first_name') or fwd.get('sender_user_name')
+    MAP = {'📰 Top stories': '/top', '📊 Movers': '/movers', '🏴‍☠️ Hacks': '/hacks', '📖 Story': '/story', '🧠 Brain': '/brain'}
+    if t in MAP:
+        c, args = MAP[t], []
+    if t == '💬 Reply to a post':
+        tg('💬 Share or paste the X post link here and I\'ll write the best reply.'); return
     if c in ('/start', '/help', 'help'):
-        tg(HELP)
+        tg(HELP); send_menu()
+    elif c == '/brain':
+        brain_status()
     elif c in ('/top', 'top', 'news'):
         if not send_cached_top():
             live_top(tgs)
@@ -1459,9 +1698,21 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
             main()
         except Exception as e:
             print('scan fail', repr(e))
+    if tgs.get('menu_v') != MENU_V:
+        tgs['menu_v'] = MENU_V; save_tg(tgs)
+        send_menu('🆕 <b>Chain Radar upgraded</b>\n\n'
+                  '• Menu buttons are now at the bottom of the chat 👇\n'
+                  '• Briefings at 15:00 and 20:00 (Beirut) with your 3 best stories\n'
+                  '• Quiet 1:00–9:00: only huge news wakes you\n'
+                  '• Tap 👍/👎 on alerts and ✅ Posted after posting — the brain learns from it\n'
+                  '• Send me your own X post links and I\'ll track how they do'.replace('<b>', '').replace('</b>', ''))
     while time.time() < end - 5:
         global NOW
         NOW = time.time()
+        try:
+            scheduler(tgs)
+        except Exception as e:
+            print('scheduler fail', repr(e))
         if time.time() - last_scan > 600 and not (scan_t[0] and scan_t[0].is_alive()):   # news scan every 10 min
             last_scan = time.time(); scan_t[0] = threading.Thread(target=safe_scan, daemon=True); scan_t[0].start()
         try:
