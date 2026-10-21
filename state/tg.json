@@ -87,6 +87,38 @@
 },
 "t": 1792443206.839617
 },
+"250da07218": {
+"coin": "qubic-network",
+"facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "NewsCord",
+"story": null,
+"t0": 1792558740.0,
+"tag": null,
+"title": "Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it",
+"url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5"
+},
+"p": {
+"keyfact": "Qubic restarted its Layer-1 blockchain and opened recovery claims following a hack.",
+"post": "The plot thickens. Qubic reportedly restarted its Layer-1 blockchain and opened recovery claims after a $1.4M hack, according to 8 outlets. When networks freeze, the real detective work begins. #Crypto",
+"quote": "NONE",
+"reply": "Another day, another restart.",
+"short": "",
+"stat": "$1.4M | Hack losses",
+"symbol": "QUBIC",
+"tag": "HACK",
+"thread": "",
+"timeline": "Before = Normal network operations ; Day of = $1.4M hack occurs ; After = Blockchain restarts & claims open",
+"title": "Qubic Restarts Layer-1 After $1.4M Hack",
+"versus": "Network status = Halted || Recovery = Claims open",
+"visual": "ALERT"
+},
+"t": 1792574671.700826
+},
 "305964e4cf": {
 "coin": "ishares-bitcoin-trust-etf-dinari-tokenized-etf",
 "facts": "Headline: BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT\nSources: Pluang, The Block\n\nArticle text:\nGet The Block\u2019s latest crypto news and price alerts for the coins you follow, right in Chrome. Add our free extension here. BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBITBlackRock filed with the Securities and Exchange Commission for the iShares Bitcoin Managed Protect ETF on Monday. Share<span class=\"acf-media-credit\"><span class=\"acf-credit\"><span class=\"acf-credit\"><a href=\"theblock.co\" target=\"_blank\">The Block</a></span></span></span>Quick Take\n\n\u201cThe Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection,\u201d BlackRock said in the filing on Monday.\nBlackRock\u2019s iShares Bitcoin Trust holds more than $65 billion in assets under management, making it the largest of its kind.\n\nBlackRock, the world's largest investment manager, has filed for another bitcoin fund, this time one that would give investors both downside protection and upside exposure to its flagship bitcoin exchange-traded fund. On Monday, the firm filed with the Securities and Exchange Commission for the iShares Bitcoin Managed Protect ETF. That fund will follow BlackRock's multi-billion-dollar iShares Bitcoin Trust ETF, the firm said. \"The Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF iShares Bitcoin Trust (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection,\" BlackRock said in the filing. BlackRock's iShares Bitcoin Trust holds more than $65 billion in assets under management, making it the largest of its kind, according to The Block's bitcoin ETF tracker. BlackRock launched IBIT in January 2024. In June, the firm launched its iShares Bitcoin Premium Income ETF, which is designed to provide investors with exposure to bitcoin while generating monthly option premium income. In a post on X, Bloomberg Intelligence's James Seyffart noted that BlackRock still just has bitcoin and Ethereum products. Over the past couple of years, other companies have launched ETFs tracking assets from XRP to SOL to DOGE. \"Notably, this is the third Bitcoin ETF filing from them,\" Seyffart said on Monday. \"Still only have Bitcoin and Ethereum products -- no other cryptos.\"\n",
@@ -718,7 +750,7 @@
 }
 },
 "mute_until": 0,
-"offset": 138489217,
+"offset": 138489218,
 "otd": {
 "date": "Oct 21",
 "now": 83272,
