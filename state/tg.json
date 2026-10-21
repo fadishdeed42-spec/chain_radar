@@ -538,6 +538,18 @@
 "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ta1JaVmN3TXhUWVgwajQ3MmhSbUNmZXZWNDF4R2FFQ0pTOHo3WWE4VDVBQ01EQzQxRWtIbkVMY3R6VTZHMGNROGtNd2I0bHFTSndyd05xRG5pVDNqNkFES1BDeDZZMXo3YlFCSTFscHZlT3J6V1NXaUdfZzVfR00?oc=5",
 "urls": []
 },
+"525e41e4669b": {
+"chart": true,
+"coin": "ethena",
+"facts": "Recent headlines about this coin:\n- Ethena Labs Brings Synthetic Stablecoin USDe to Solana (CoinMarketCap, 27h ago)\n- USDe backing reaches 101.43 percent: What it means for the Ethena USDe price (AD HOC NEWS, 6h ago)\n- Convert 5 ENA (Ethena) to MKD (Macedonian Denar) (Bybit, 36h ago)",
+"focus": 86400,
+"span": "1d",
+"src": "CoinMarketCap",
+"t": 1792582743.1869686,
+"tag": "MARKET",
+"title": "Ethena surges 12.5% in 24 hours",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON0pRaHVEQ0VQX1B0LVBBcU5STXZBLUM2Umd3bTBqUjFlaTZPOGNYeGhVLUhmQ0pRSU5BejVPYW5FcEpPY0NNcUpBUS1XaURKa19wOWxwVk5jYWQyQnpFYUtEQUEwUjRBZ0J3NEVNOEZ3TGJmZHY3QWNxbzM3eHU3WVBBZ3BvSldscHN1VERsZ2lQcGo1TmQ4T0hjQng?oc=5"
+},
 "53cfbe7cba24": {
 "facts": "Hack date: Sep 22, 2026. Protocol: Drop. Chain: ['Neutron']. Method: Malicious Proposal. Amount stolen: $4,400,000. (DefiLlama hacks database.)",
 "hack": {
@@ -548,7 +560,7 @@
 },
 "key": "53cfbe7cba24",
 "src": "DefiLlama",
-"t": 1792443938.344863,
+"t": 1792582729.8672538,
 "tag": "HACK",
 "title": "Drop hacked for $4.4 million",
 "url": ""
@@ -657,7 +669,7 @@
 },
 "key": "aaf1f21a1add",
 "src": "DefiLlama",
-"t": 1792443938.344863,
+"t": 1792582729.8672538,
 "tag": "HACK",
 "title": "Duelbits hacked for $7.0 million",
 "url": ""
@@ -672,7 +684,7 @@
 },
 "key": "b91934c8c70e",
 "src": "DefiLlama",
-"t": 1792443938.344863,
+"t": 1792582729.8672538,
 "tag": "HACK",
 "title": "Gamdom hacked for $4.2 million",
 "url": ""
@@ -687,7 +699,7 @@
 },
 "key": "c3c7c5f65313",
 "src": "DefiLlama",
-"t": 1792443938.344863,
+"t": 1792582729.8672538,
 "tag": "HACK",
 "title": "Bitget hacked for $387.0 million",
 "url": ""
@@ -715,7 +727,7 @@
 },
 "key": "d9225a5451d9",
 "src": "DefiLlama",
-"t": 1792443938.344863,
+"t": 1792582729.8672538,
 "tag": "HACK",
 "title": "Ledger (Supply Chain) hacked for $93.0 million",
 "url": ""
@@ -754,7 +766,7 @@
 },
 "key": "e62b47851886",
 "src": "DefiLlama",
-"t": 1792443938.344863,
+"t": 1792582729.8672538,
 "tag": "HACK",
 "title": "Astroport hacked for $4.9 million",
 "url": ""
@@ -783,7 +795,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489226,
+"offset": 138489230,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
