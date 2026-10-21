@@ -277,7 +277,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792570310.0,
 "tgtext": "",
 "title": "Ether ETF outflows continue, pass $1B in October so far",
@@ -595,6 +595,19 @@
 "https://decrypt.co/381373/mastercard-opens-up-ai-agent-payments-with-early-access-and-live-demo"
 ]
 },
+"2f9fa49f0d06": {
+"coin": "",
+"src": "FinanceFeeds",
+"srcs": [
+"FinanceFeeds"
+],
+"t": 1792584215.9385486,
+"t0": 1792583855.0,
+"tgtext": "",
+"title": "Trump Targets Overseas Crypto Scams as FBI Puts 2025 Losses at $11.37 Billion",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01cDFaWTl1NzhjRkRZejBFMEZLd1V3bmNmYmVNNGd6WXRoeTZuSmpVZWpOc2U5eUE0eG5ELUc2NHBSdmRDT0paczNVdk1wSGhGbjI4a2VCbnBPd1NGVjJNLTBYYUZ1OENBUEE5RF93d1o3MTVVemVxR3ZoYw?oc=5",
+"urls": []
+},
 "339b4d541208": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -668,7 +681,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792579153.0,
 "tgtext": "",
 "title": "Bitcoin \u2018top buyers\u2019 halt BTC price upside with $87.7K now key: Glassnode",
@@ -938,7 +951,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792580457.0,
 "tgtext": "",
 "title": "Zcash has one shot at $1,350 as ETF inflows return \u2013 Or it\u2019s back to $1,040",
@@ -1081,7 +1094,7 @@
 "Lookonchain",
 "TradingView"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792576689.0,
 "tgtext": "The Drift Protocol exploiter, who stole over $270M, deposited another 24,885 $ETH($61.3M) into #TornadoCash and still holds 56,569 $ETH ($139.3M).\nhttps://x.com/lookonchain/status/2112475259907846217",
 "title": "The Drift Protocol exploiter, who stole over $270M, deposited another 24,885 ETH($61.3M) into TornadoCash and still holds 56,569 ETH ($139.3M).",
@@ -1433,7 +1446,7 @@
 "International Business Times Australia",
 "Wu Blockchain"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792567522.0,
 "tgtext": "US Spot Bitcoin ETFs Log $23.16M in Net Inflows on Oct 20\n\nAccording to SoSoValue, US spot Bitcoin ETFs recorded a total net inflow of $23.1624 million on October 20 (EDT), led by BlackRock with an inflow of $29.8650 million. Meanwhile, spot Ethereum ETFs saw a total net outflow of $26.1343 million yesterday, marking five consecutive days of net outflows. \u2014 link",
 "title": "Spot Bitcoin ETFs Lost $681 Million in 1 Week as Bitcoin Trades Nearly 33% Below Its 2025 High",
@@ -1896,7 +1909,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792577929.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
@@ -2032,7 +2045,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792580400.0,
 "tgtext": "OCC Finalizes First GENIUS Act Rule: No Safe Harbor for Existing Stablecoin Rewards\n\nThe OCC has issued its first final rule implementing the GENIUS Act, covering stablecoin issuance, custody, and third-party partnerships, effective January 18, 2027. Existing yield and rewards programs receive no automatic grandfathering or safe harbor; compliance will be assessed case by case.\n\nThe act prohibits issuers from paying yield solely for holding, using, or retaining stablecoins, but does not ban all third-party rewards. The OCC said rewards based at least partly on other factors may fall outside the prohibition. The implications for programs offered by Coinbase, PayPal, and Kraken remain uncertain. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 BREAKING: The US OCC finalizes GENIUS Act rules for stablecoin issuers, covering reserves, redemptions, and custody.\n\nEffective January 18, 2027.\n\nNews | Markets | YouTube",
 "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban",
@@ -2256,7 +2269,7 @@
 "Traders Union",
 "Yahoo Finance"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792574666.0,
 "tgtext": "",
 "title": "Monero futures open interest nears record, raising liquidation risk in crypto market",
@@ -2752,7 +2765,7 @@
 "CryptoRank",
 "CryptoSlate"
 ],
-"t": 1792583912.332835,
+"t": 1792584215.9385486,
 "t0": 1792572675.0,
 "tgtext": "",
 "title": "Crypto Market Today: Bitcoin Holds Near $83,000 as Zcash Leads the Gains- What\u2019s Next?",
@@ -3071,6 +3084,7 @@
 }
 },
 "movers": {
+"akedo": 1792584215.9385486,
 "bitway": 1792580769.071904,
 "ethereum": 1792508508.979041,
 "near": 1792508534.3895855,
@@ -5821,64 +5835,64 @@
 "top": [
 [
 "af618cf08910",
-78,
-59,
+70,
+64,
 5
 ],
 [
 "7ec0ed6a64a3",
-58,
-273,
+57,
+278,
 3
 ],
 [
 "be409dba1c1a",
 57,
-154,
+159,
 3
+],
+[
+"2f9fa49f0d06",
+56,
+6,
+1
 ],
 [
 "39538052afc5",
 42,
-79,
+84,
 2
 ],
 [
 "a367ec825912",
 41,
-100,
+105,
 1
 ],
 [
 "514f895df5e1",
 39,
-58,
+63,
 1
 ],
 [
 "5e49bbc5ce62",
 36,
-120,
+125,
 3
 ],
 [
 "eb2b74486fbd",
-35,
-187,
+34,
+192,
 3
 ],
 [
 "15264f39f082",
 33,
-227,
-1
-],
-[
-"550acc446c35",
-32,
-127,
+232,
 1
 ]
 ],
-"top_at": 1792583912.332835
+"top_at": 1792584215.9385486
 }
