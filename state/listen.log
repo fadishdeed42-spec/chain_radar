@@ -23,3 +23,4 @@ fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Bl
 fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
 market 100 news 42 reddit 25 hacks 0
 alerts sent 0
+gemini models ['gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-3.1-flash-lite', 'gemini-3.7-flash', 'gemini-3.1-flash-lite-preview']

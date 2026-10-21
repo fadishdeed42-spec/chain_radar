@@ -428,6 +428,38 @@
 "visual": "STAT"
 },
 "t": 1792443839.901936
+},
+"f68e6b6cf4": {
+"coin": "",
+"facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "NewsCord",
+"story": null,
+"t0": 1792558740.0,
+"tag": null,
+"title": "Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it",
+"url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5"
+},
+"p": {
+"keyfact": "Qubic restarted its Layer-1 blockchain and opened recovery claims following a $1.4M hack.",
+"post": "Qubic is back online. After a $1.4M exploit hit the network, the Layer-1 blockchain reportedly restarted and opened recovery claims. Eight outlets tracked the fallout. Another network security test cleared.",
+"quote": "NONE",
+"reply": "Another day, another network restart after a cool million gone.",
+"short": "",
+"stat": "$1.4M | Hack losses",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "",
+"timeline": "NONE",
+"title": "Qubic Restarts L1 After $1.4M Hack",
+"versus": "NONE",
+"visual": "ALERT"
+},
+"t": 1792572517.7810433
 }
 },
 "menu": {
@@ -686,11 +718,11 @@
 }
 },
 "mute_until": 0,
-"offset": 138489206,
+"offset": 138489210,
 "otd": {
-"date": "Oct 20",
-"now": 82764,
-"then": 630.83,
+"date": "Oct 21",
+"now": 83272,
+"then": 652.75,
 "year": 2016
 },
 "replies": {
@@ -718,6 +750,11 @@
 "author": "Cointelegraph",
 "t": 1792532661.2889588,
 "text": "\ud83d\udea8 ALERT: At least 82 crypto projects have reportedly shut down in 2026 as weak demand, depleted funding, falling revenues and security breaches force closures."
+},
+"2112826472977031651": {
+"author": "cryptogoos",
+"t": 1792572608.7101455,
+"text": "Hey @grok, Bitcoin has massive liquidity sitting above $84K and below $80K.\n\nWhich side will $BTC grab first?"
 }
 },
 "story_i": 2
