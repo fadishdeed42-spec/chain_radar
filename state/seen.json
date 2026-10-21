@@ -39,7 +39,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792621114.3092015,
+"t": 1792622032.3013577,
 "t0": 1792613852.0,
 "tgtext": "",
 "title": "Bitcoin, Ethereum Rebound as $267M in Crypto Positions Are Liquidated",
@@ -684,7 +684,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792612812.0,
 "tgtext": "",
 "title": "SEC\u2019s $75 million crypto fundraising plan faces bank backlash and threats of legal action",
@@ -780,7 +780,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792612928.0,
 "tgtext": "JUST IN: $META reports $64.6 billion in revenue for Q3 2026, beating expectations.\n\n@WatcherGuru",
 "title": "META reports $64.6 billion in revenue for Q3 2026, beating expectations.",
@@ -1198,7 +1198,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792612478.0,
 "tgtext": "",
 "title": "Santiment reports crypto derivatives open interest climbs to $23B for Bitcoin",
@@ -1407,7 +1407,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792609659.0,
 "tgtext": "",
 "title": "Colombian broker sentenced to 13+ years for lau...",
@@ -1653,6 +1653,22 @@
 "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONzJPdW0zVkdybXF3cE1WTUZtdXFoTmppZnpzNmZWOU5OZkhuRlVsRGtHdEwyT1o4LVkxTzRIYjdzVGZGTlh2N0pRMksydDZJa0RLVWRWZy12eWxNZnJ1Zlo0TUs4c0xwNjJaaDF6QndJOWNVaWVrRm5fUjVHa0ROYm9JUkNvcTFPUmI1WjFfaDRRSXdCRFY2NUZBd2tRQQ?oc=5",
 "urls": []
 },
+"793e9932aa93": {
+"coin": "ripple",
+"src": "Pluang",
+"srcs": [
+"Benzinga",
+"CryptoTicker",
+"Pluang",
+"Yahoo Finance"
+],
+"t": 1792622032.3013577,
+"t0": 1792602566.0,
+"tgtext": "",
+"title": "XRP reaches $1.38 with $87.3B market cap after SEC case ends and US ETFs launch",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZlZmRkRHSXp0R29CcHVLbGNBTGMtQ2N0NkNvNTlrTGtoa2hHSUFfdlAwYWNxVUhuREVObVFGTERubm52M1ZZTFYwMXFEOWhaWXY3bTgxTnVhaGd1WGIzN2lvTksyU3o0Z0JCaFQ5X0NkN2R1WXJEOE1jWWZKUWZzRTU5WmVlZVhlNDM5TU5R?oc=5",
+"urls": []
+},
 "7a23ad765020": {
 "coin": "binancecoin",
 "src": "CryptoSlate",
@@ -1828,7 +1844,7 @@
 "srcs": [
 "Big News Network.com"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792605780.0,
 "tgtext": "",
 "title": "Best Crypto to Buy Now? OKX Offers $500,000 Hack Refunds, NEAR Jumps 11%, and Pepeto Tops $11.2M",
@@ -2694,7 +2710,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792610253.0,
 "tgtext": "",
 "title": "Colombia-based broker sentenced to 160 months for laundering $14.5M in USDT",
@@ -3070,7 +3086,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792621419.917105,
+"t": 1792622032.3013577,
 "t0": 1792613979.0,
 "tgtext": "",
 "title": "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable",
@@ -3291,7 +3307,7 @@
 "Pluang",
 "Yahoo Finance"
 ],
-"t": 1792621419.917105,
+"t": 1792621726.9959493,
 "t0": 1792601407.0,
 "tgtext": "",
 "title": "Grayscale Opens In-Kind Investing for BTC, ETH, SOL, XRP, DOGE and 5 Others",
@@ -3459,7 +3475,7 @@
 "srcs": [
 "Business & Financial Times"
 ],
-"t": 1792620806.4338179,
+"t": 1792622032.3013577,
 "t0": 1792613334.0,
 "tgtext": "",
 "title": "Binance helps disrupt West African scam centres in international operation",
@@ -6435,65 +6451,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"eba1a5706f73",
-49,
-334,
-5
+"793e9932aa93",
+50,
+324,
+4
 ],
 [
-"c4edbf705f5a",
-34,
-186,
+"f17b62d0fe24",
+36,
+145,
 1
 ],
 [
-"87c9402a7425",
+"c4edbf705f5a",
+32,
+196,
+1
+],
+[
+"018d18008e89",
 31,
-261,
+136,
 1
 ],
 [
 "29168d32aa7a",
 30,
-143,
+154,
+1
+],
+[
+"87c9402a7425",
+29,
+271,
 1
 ],
 [
 "e064bafb577d",
 28,
-124,
+134,
 2
 ],
 [
 "61ba0cdf0d8a",
-26,
-196,
+25,
+206,
 1
 ],
 [
 "4f97e0a95520",
 25,
-149,
+159,
 1
 ],
 [
 "32e62d079d17",
 25,
-142,
-1
-],
-[
-"c4ac8a9e3947",
-25,
-83,
-1
-],
-[
-"ec34e2f61859",
-24,
-88,
+152,
 1
 ]
 ],
-"top_at": 1792621419.917105
+"top_at": 1792622032.3013577
 }
