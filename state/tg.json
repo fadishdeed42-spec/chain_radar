@@ -392,6 +392,38 @@
 },
 "t": 1792516000.900105
 },
+"aeccd50dcb": {
+"coin": "bitcoin",
+"facts": "Headline: SpaceX and Tesla Are Exploring a Merger That Would Hold 30,000 BTC. What Could It Mean for Bitcoin?\nSources: 24/7 Wall St., CryptoTicker, Decrypt\nCoin in this story: Bitcoin (BTC) $84,405, +2.0% in 24h\n\nArticle text:\nElon Musk\u2019s floated merger of SpaceX and Tesla would do more than unite rockets and electric cars. It would fold two of the world\u2019s largest corporate Bitcoin stashes onto a single balance sheet. Speaking on SpaceX\u2019s third-quarter earnings call Tuesday, Musk said the boards of both companies had formed special committees of independent directors to weigh a tie-up, cautioning that treating a deal as \u201ca certainty\u201d would be \u201coverstating it.\u201d But the prospect alone has drawn fresh attention to the combined entity\u2019s crypto holdings. Tesla reported 11,509 BTC in its most recent quarterly filing, while SpaceX disclosed 18,712 BTC in the S-1 it filed ahead of its June IPO. Together, that\u2019s 30,221 BTC, worth roughly $2.5 billion at Bitcoin\u2019s recent price near $83,000. As Decrypt reported when the merger idea first surfaced, combining the two would stack one of the largest non-mining corporate Bitcoin positions anywhere under Musk\u2019s control, placing the merged company among the top handful of public holders, trailing only the likes of Michael Saylor\u2019s Strategy and a few others. Oct 14Oct 16Oct 18Oct 19Oct 21$84.6k$83.1k$81.7k$80.2k24h HighHigh$84,72024h LowLow$82,327VolVol$1.2BMarket projectionsOdds by MyriadToday$84,000 to $86,000$84k\u2013$86k56% chanceThis weekAbove $84,000Above $84k58% chance\u2192Buy Bitcoin with USDTPowered by Jupiter$50$100$500BuyPrice data by CoinGeckoCoinGeckoMore Bitcoin news and projections \u2192The SpaceX portion is the more striking piece. The rocket maker\u2019s 18,712 BTC was effectively invisible to public markets until its IPO filing, meaning a substantial treasury had quietly accumulated inside a private company for years before anyone could count it, more than double what blockchain trackers had previously attributed to SpaceX wallets. The combined cost basis across both firms sits around $1 billion, implying an average buy price near $35,000 per coin. A merger wouldn\u2019t change anything about Bitcoin itself, and neither company has signaled plans to buy or sell. Both have held their positions static, with SpaceX last moving coins in prior years and Tesla reporting no changes. What a deal would alter is governance and accounting: one of the most closely watched corporate Bitcoin piles would sit inside a single public vehicle, subject to quarterly disclosures and the fair-value accounting that recently forced Tesla to book a loss as Bitcoin slid. For now, the treasury math is hypothetical, living or dying with a transaction that remains exploratory. But it underscores how, almost incidentally, a Musk mega-merger would also create a Bitcoin giant. Start every day with the top news stories right now, plus original features, a podcast, videos and more.\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "24/7 Wall St.",
+"story": null,
+"t0": 1792593780.0,
+"tag": null,
+"title": "SpaceX and Tesla Are Exploring a Merger That Would Hold 30,000 BTC. What Could It Mean for Bitcoin?",
+"url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNaWNnWDl4UVY3c1haempXeEV3Mmp4SXdnU3hGM1RzdThPNjFqMEJNZ1JFN29KR3U2elpDbWlmbnptRWV3aHpTTVpaeTV5b0N1SENuVUVUOS03Q29XaFcxWHJZNDQ1S05lc0E2VGJmWlZPSnZxeFRSWUlkMTlsSTV2QjFoUXBEOENodTZOdmtaRHg4RksyTUYtV21PUjV2aUpYS2ZmNEJtSGR3UURXamkyX2FYRmRESDJmYmk3R2ZNVmpWSDBhWUdHV1hJUlNxMHBlXy01VGxWYURsTTl2eEZhRVliUHA2cTE0ekRv?oc=5"
+},
+"p": {
+"keyfact": "Musk floated a SpaceX and Tesla merger that would unite 30,221 BTC.",
+"post": "Rocket science meets electric cars and massive crypto treasuries. SpaceX and Tesla are exploring a merger that would combine 11,509 BTC from Tesla and 18,712 BTC from SpaceX. That creates a single 30,221 BTC corporate stash worth billions under one roof. #Bitcoin",
+"quote": "treating a deal as \u201ca certainty\u201d would be \u201coverstating it.\u201d = Elon Musk",
+"reply": "The treasury math alone changes the corporate leaderboard.",
+"short": "",
+"stat": "30,221 BTC | Combined Bitcoin Stash",
+"symbol": "BTC",
+"tag": "MARKET",
+"thread": "",
+"timeline": "June = SpaceX discloses 18,712 BTC in S-1 ; Tuesday = Musk reveals special committees formed ; Future = Potential merger creates corporate giant",
+"title": "SpaceX & Tesla Merger Could Form 30,221 BTC Giant",
+"versus": "Tesla Holdings = 11,509 BTC || SpaceX Holdings = 18,712 BTC",
+"visual": "STAT"
+},
+"t": 1792602491.2219198
+},
 "b135c1ed24": {
 "coin": "bitcoin",
 "facts": "Headline: Elon Dumped Bitcoin After 49 Days\nSources: Chain Secrets\nVerified story facts:\nFeb 2021: Tesla reveals it bought $1.5B of bitcoin. Mar 24: \"You can now buy a Tesla with Bitcoin\", and bitcoin paid to Tesla \"will be retained as Bitcoin\". May 12: payments suspended, BTC drops ~$3,000 in 15 minutes, and Elon says Tesla will not be selling any bitcoin. 2022: Tesla converts ~75% of its bitcoin to cash (+$936M).\nReal BTC/USD daily chart (Bitstamp), Jan\u2013May 2021. Tweets/statements shown are recreations.\n",
@@ -1004,7 +1036,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489250,
+"offset": 138489251,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
