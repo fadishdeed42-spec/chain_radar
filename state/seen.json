@@ -39,7 +39,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792613852.0,
 "tgtext": "",
 "title": "Bitcoin, Ethereum Rebound as $267M in Crypto Positions Are Liquidated",
@@ -667,7 +667,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792612812.0,
 "tgtext": "",
 "title": "SEC\u2019s $75 million crypto fundraising plan faces bank backlash and threats of legal action",
@@ -1388,9 +1388,10 @@
 "coin": "",
 "src": "Pluang",
 "srcs": [
+"Hoodline",
 "Pluang"
 ],
-"t": 1792622339.2972975,
+"t": 1792625114.4340656,
 "t0": 1792609659.0,
 "tgtext": "",
 "title": "Colombian broker sentenced to 13+ years for lau...",
@@ -1815,7 +1816,7 @@
 "srcs": [
 "Big News Network.com"
 ],
-"t": 1792624498.209346,
+"t": 1792624809.1997693,
 "t0": 1792605780.0,
 "tgtext": "",
 "title": "Best Crypto to Buy Now? OKX Offers $500,000 Hack Refunds, NEAR Jumps 11%, and Pepeto Tops $11.2M",
@@ -2529,6 +2530,21 @@
 "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9US1dtQkJpYjJQV1FOWVdEY2IwWnJqdldzN0tmNGctbV8zLXNZR2l0RXJMSDM1cF8tdzFnRjhFOHFEX1g4Y3lSUDdPbjhBM1dSVkxjVDlMU0hhbGR2TzhBVlNLRzRpTUxYMGxuYlFPMzV3cm1MWTAyZw?oc=5",
 "urls": []
 },
+"b754647dd815": {
+"coin": "bitcoin",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate"
+],
+"t": 1792625114.4340656,
+"t0": 1792624219.0,
+"tgtext": "",
+"title": "Irish drug lord\u2019s lost Bitcoin fortune comes back to life as $41 million moves to Coinbase",
+"url": "https://cryptoslate.com/irish-drug-lords-lost-bitcoin-fortune-comes-back-to-life-as-41-million-moves-to-coinbase/",
+"urls": [
+"https://cryptoslate.com/irish-drug-lords-lost-bitcoin-fortune-comes-back-to-life-as-41-million-moves-to-coinbase/"
+]
+},
 "b7acb814b2eb": {
 "coin": "",
 "src": "Tech Build Africa",
@@ -2668,7 +2684,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792616454.0,
 "tgtext": "",
 "title": "Useless Coin targets $0.21 \u2013 Can bulls overcome rising liquidation risks?",
@@ -2681,7 +2697,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792610253.0,
 "tgtext": "",
 "title": "Colombia-based broker sentenced to 160 months for laundering $14.5M in USDT",
@@ -2780,7 +2796,7 @@
 "CryptoTicker",
 "Pluang"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792618939.0,
 "tgtext": "",
 "title": "XRP reaches $1.38 with $87.3B market cap after SEC case ends and US ETFs launch",
@@ -3045,7 +3061,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792613979.0,
 "tgtext": "",
 "title": "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable",
@@ -3277,7 +3293,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792616123.0,
 "tgtext": "",
 "title": "Three Companies Have Notified the SEC of Intention To Start Tokenized Stocks Trading",
@@ -3417,7 +3433,7 @@
 "srcs": [
 "Business & Financial Times"
 ],
-"t": 1792624498.209346,
+"t": 1792625114.4340656,
 "t0": 1792613334.0,
 "tgtext": "",
 "title": "Binance helps disrupt West African scam centres in international operation",
@@ -6383,63 +6399,63 @@
 [
 "cc51618c2e81",
 49,
-93,
+103,
 2
 ],
 [
 "f17b62d0fe24",
-36,
-186,
+34,
+196,
 1
 ],
 [
 "018d18008e89",
-31,
-177,
+30,
+188,
 1
 ],
 [
-"29168d32aa7a",
-29,
-195,
-1
+"61ba0cdf0d8a",
+28,
+258,
+2
 ],
 [
 "e064bafb577d",
 28,
-175,
+186,
 2
 ],
 [
-"c4edbf705f5a",
+"29168d32aa7a",
 27,
-237,
+205,
+1
+],
+[
+"c4edbf705f5a",
+25,
+248,
 1
 ],
 [
 "c4ac8a9e3947",
 25,
-134,
-1
-],
-[
-"87c9402a7425",
-24,
-312,
-1
-],
-[
-"32e62d079d17",
-24,
-193,
+144,
 1
 ],
 [
 "ec34e2f61859",
 24,
-140,
+150,
+1
+],
+[
+"b754647dd815",
+24,
+15,
 1
 ]
 ],
-"top_at": 1792624498.209346
+"top_at": 1792625114.4340656
 }
