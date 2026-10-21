@@ -1,6 +1,7 @@
 {
 "hacks": {},
 "init": true,
+"log": [],
 "menu": {
 "0072b565589f": {
 "coin": "",
@@ -160,9 +161,9 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792563583.0,
-"title": "Bitcoin Price at $82,708: Levels Before the Fed Meeting",
+"title": "ETF inflows of $526.7 million meet a Bitcoin price of $82,708: the levels that decide before the Fed meeting",
 "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMG1IYVpNSEtZbDhHc2tWLUZSVkRZMEZmdmlNU285NU9oTlpPejFYeGJuRWVGUkRINWJ3c2dZalkweHFiSHliSk43RS1sbHVBZ1VMcGdZdjJYOHE3YndXMi1vMDRZd3paekVZOTdPWEZPZnFYQlBra01TRjByTVpiM2otMDdnd0VG?oc=5",
 "urls": []
 },
@@ -207,7 +208,7 @@
 "Crypto News",
 "NewsCord"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792558740.0,
 "title": "Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it",
 "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5",
@@ -680,7 +681,7 @@
 "srcs": [
 "Moomoo"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792559773.0,
 "title": "What could send Bitcoin\u2019s price SKY HIGH? Michael Saylor reveals the biggest bull catalysts ahead:",
 "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWlRqaDJPNWhyMWszQmE0QUhSNEtVZ2QwbzFPd285MUtNOUppSE5ONk02MzdjOVRYUUdkM0s1aWd1LTI4OGJYQjJxZHVHV19DNkpmVUJ0MnE0SldSY2JaNWNlZm1nLVQyNFlyaDB4YlpLcmZDS2pFcjcwbm1ZOHliNklPZEhIdUczREE3dGJqMEhyZTBOTEE0ZWtEVDJDcXg2LXo1eFIybFNBWUkyS3c?oc=5",
@@ -974,7 +975,7 @@
 "srcs": [
 "shattered.io"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792556792.0,
 "title": "NEAR Intents $3.8M Hack: Postmortem Clears Omni [2026]",
 "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RRDZ5WVB2dTZDMXpTR3A3bmpQcF9HS21KZURRR2ZBNzROeGNUR0ZGbDN5aUdYQ3dOcFpYNEtvS1MwNFFQWHVOd2xFektiZTJsWnRvcFBSb0IwWnltYldHT1hNWUNjMHFnVE1zaUpEWndQV2ZpV18xT1FIVFU?oc=5",
@@ -1084,7 +1085,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792563408.0,
 "title": "FinCEN Crypto Fraud: 33,904 Filings Explained",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqYXdtRzdNOEUxbWg4eTFLemZYUjA3cXludFVRTy1jb2ZES1ZGVmhlZzhrMDJaYkM4RU9tazRnc3dWbktfcWNWY01LSE91VWdVMko5aVNTN05BUzZRR0ljU3FKbVlLMXFnYnZ0YUVDSC1qcE9FckE?oc=5",
@@ -1773,7 +1774,7 @@
 "srcs": [
 "LatestLY"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792558147.0,
 "title": "Utah Woman Charged With Homicide After Allegedly Watching Explicit Content on Phone Before Fatal 3-Car",
 "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMkxSWlBCTDRiOWl2NlZKbzR1dl9LeHg0OUh3d21yRlpnalhGZzlPU0k2cmN0V3U5OXJVZXhFeW1GSmdCWFEyTXhrMHBDbWIxdUJQOGZrQzQybEh1ZlZna0xZeU9WaWxmQ09WZkwyM1VESVRzczR6YW9WMk5PN2VzbmR1TTVQYXRjeFZQNS13MUhxQTdNcVdkWjZ0OHlBVjBwYlF6WUIteWkxTy1jNVlRNVZxQkVFM1RfQk1BcWVrYTZWMVhQMWp6Rmd4TW1tcW1TQVdQSGFSV2ZYTXpFOEVaQ1FyazlJRDM30gHoAUFVX3lxTE8yTFJaUEJMNGI5aXY2VkpvNHV2X0t4eDQ5SHd3bXJGWmdqWEZnOU9TSTZyY3RXdTk5clVleEV5bUZKZ0JYUTJNeGswcENtYjF1QlA4ZmtDNDJsSHVmVmdrTFl5T1ZpbGZDT1ZmTDIzVURJVHNzNHphb1YyTk83ZXNuZHVNNVBhdGN4VlA1LXcxSHFBN01xV2RaNnQ4eUFWMHBiUXpZQi15aTFPLWM1WVE1VnFCRUUzVF9CTUFxZWthNlYxWFAxanpGZ3hNbW1xbVNBV1BIYVJXZlhNekU4RVpDUXJrOUlEMzc?oc=5",
@@ -1840,7 +1841,7 @@
 "srcs": [
 "CoinMarketCap"
 ],
-"t": 1792565636.3293087,
+"t": 1792566857.8473494,
 "t0": 1792547688.0,
 "title": "DeFi Losses Pass $600M in Three Weeks With Kelp DAO Bridge Exploit",
 "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb09WRzRjcmFicjdjMVlySU1KMHc2SUFfc0YycmJrRUNFN1h6NUVWYVlRUXNZaFZTcEhCNkZFVE1pNUVoWlJSMl9wSHZsQmExdThWLWk4VGl4R2g5Tno1RGVObFVBci0wOFhEeElOMkNva2pjRVN1ZkxTdkdDMFlHWTZsVUNzbDVzTW4yYk9MdG53NTFtcjVMS2ZKUUptRzI4TmFfdjRyYUVLa0FfYzdrWVVkSQ?oc=5",
@@ -1878,7 +1879,7 @@
 "srcs": [
 "The Daily Upside"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792555518.0,
 "title": "Latest Wellness ETF Supplement: Peptides",
 "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbFJIQ1Rtd1NYVU9fOG5qT29FamhZVVZJeUUwSHZ0R3U5eWw4cUdlTVd2NERyaExTdzBjVjlSUlBmSEczeldRMWktY1F3ZGM1NkZZMHVSeGdzcUpkOTdNbWo5ejRqTU1RTHRNc1BJOUlGcEhwVHJjazZxbW1HUGxQSl9NSzVzRV80UDlZVktxdUVlVGVfcTh4TA?oc=5",
@@ -1926,7 +1927,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792557625.0,
 "title": "Switzerland approves landmark Bitcoin ETF after ruling trading volume sufficient",
 "url": "https://cryptoslate.com/switzerland-approves-landmark-bitcoin-etf-after-ruling-trading-volume-sufficient/",
@@ -2314,7 +2315,7 @@
 "srcs": [
 "Traders Union"
 ],
-"t": 1792566247.1012967,
+"t": 1792566857.8473494,
 "t0": 1792565180.0,
 "title": "Ethena sees widespread short liquidations: Can ENA continue recent gains?",
 "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdWhNQVhMU0ozOHhuQ1VITGVIaEFQVTNmdVl6eFR6eVNjaDNTYm1KTENyVm5qUUo0bDFiQkthU1RjajUwZlRQTUZYcVljSkIxWkdUSWg0UFZvc2pwRnZ3enBiYlFBZW1xLU1KbUl4N1JITi1qVXlXQzZBZkR2bzR2d0pwTFB1NWVUZ0dYMWZxandvVEM0THAya0Nwd2h3dXlkQzlZ?oc=5",
@@ -2721,7 +2722,8 @@
 "movers": {
 "bitway": 1792508559.865831,
 "ethereum": 1792508508.979041,
-"near": 1792508534.3895855
+"near": 1792508534.3895855,
+"quack-ai": 1792566857.8473494
 },
 "sent": [
 {
@@ -5437,63 +5439,63 @@
 [
 "13583cd9b261",
 51,
-125,
+135,
 2
 ],
 [
 "5dfaf6eedb11",
 41,
-158,
+168,
+1
+],
+[
+"0b4fde4fb38e",
+30,
+55,
 1
 ],
 [
 "a77b7c73fc13",
 28,
-135,
+145,
 1
 ],
 [
 "6aa798ef83d6",
 28,
-47,
+57,
 1
 ],
 [
 "e0278e7fe1f7",
 25,
-18,
-1
-],
-[
-"b404a2e8f324",
-24,
-179,
-1
-],
-[
-"96337147ede7",
-24,
-162,
+28,
 1
 ],
 [
 "b72410b6054c",
 24,
-144,
+154,
 1
 ],
 [
-"0b4fde4fb38e",
-24,
-44,
+"ae4addea3f8f",
+23,
+319,
+1
+],
+[
+"b404a2e8f324",
+23,
+189,
 1
 ],
 [
 "3f8f37eb8966",
 18,
-108,
+118,
 1
 ]
 ],
-"top_at": 1792566247.1012967
+"top_at": 1792566857.8473494
 }
