@@ -303,6 +303,38 @@
 },
 "t": 1792532896.2249322
 },
+"9441b51bd6": {
+"coin": "ripple",
+"facts": "Headline: XRP Price Prediction: Recovery Begins for XRP as Short Liquidations Spike Near $200M\nSources: Crypto Economy, Cryptonews.net, FXEmpire\nCoin in this story: XRP (XRP) $1.38, +3.7% in 24h\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "FXEmpire",
+"story": null,
+"t0": 1792600196.0,
+"tag": null,
+"title": "XRP Price Prediction: Recovery Begins for XRP as Short Liquidations Spike Near $200M",
+"url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSTU3WFN2XzIybjlFQnAza1luYUJvTldaQXI2WGplX0FpRXJLRFBaOXFjM09Sel9mX1dtTEFaNUVPY1FjbGNDeVNLdTFOX0FIQjVqQUtuSVVvbVM0LWdhVUl1TEdPRmVUNU5Zc21weFpCNzFxUFJUVlR6QXFrNlQ0bFVKS05scTF1VVlqemZrTXZWWlZUMlZaLXRCS2FkY3N2TENBU2FMYzQ1aWJCT1FxdmJ4ZVQydVVjWG54eVUwZ2YxMDlaeGphLWlsa1dNdw?oc=5"
+},
+"p": {
+"keyfact": "XRP recovers as short liquidations near 200 million dollars.",
+"post": "The tables turn for XRP as short positions take a heavy hit. Nearly $200 million in short liquidations drive a notable recovery for the token, currently trading at $1.38 with a 3.7 percent gain in 24 hours. #XRP",
+"quote": "NONE",
+"reply": "Markets love a plot twist.",
+"short": "",
+"stat": "$200M | Short Liquidations",
+"symbol": "XRP",
+"tag": "MARKET",
+"thread": "",
+"timeline": "NONE",
+"title": "XRP Short Liquidations Spike Near $200M",
+"versus": "NONE",
+"visual": "CHART"
+},
+"t": 1792617746.8095665
+},
 "9690739536": {
 "coin": "",
 "facts": "Headline: Spanish Police Arrest Head of Billion-Dollar Crypto Arbitrage Platform on Fraud Allegations\nSources: CoinDesk\nThis happened on October 21, 2020 (6 years ago today). Headline from that day: Spanish Police Arrest Head of Billion-Dollar Crypto Arbitrage Platform on Fraud Allegations (CoinDesk).\n",
@@ -897,7 +929,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489265,
+"offset": 138489271,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
