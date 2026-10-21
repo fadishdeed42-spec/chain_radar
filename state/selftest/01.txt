@@ -1,22 +1,22 @@
-📊 <b>Market pulse</b> · top 100 coins, 24h
-🟢 BTC $81,941 (+1.4%)   🟢 ETH $2,400 (+2.5%)   🟢 SOL $104 (+3.6%)   
-🟢 81 up · 19 down
+📊 <b>Market pulse</b> · top 250 · updated 11:48 UTC
+🟢 BTC $83,366 (+2.4%)   🟢 ETH $2,461 (+3.3%)   🟢 SOL $106.65 (+2.5%)   
+🟢 180 up · 30 down
 
 🚀 <b>Top gainers</b>
 <pre>COIN        PRICE      24H      1H
-VVV        $24.15   +14.7%   -0.1%
-PUMP    $0.004384   +12.4%   -1.4%
-WLD       $0.5097   +10.8%   -0.3%
-ARB       $0.1924    +9.4%   -1.0%
-INJ         $8.51    +8.9%   -0.9%</pre>
+CVX         $2.60   +22.4%   -0.8%
+PEARL       $2.33   +19.4%   +2.2%
+ZBCN    $0.002428   +17.5%   +2.1%
+HASH     $0.00747   +15.2%   -0.0%
+USELES    $0.1604   +14.6%   +1.8%</pre>
 🩸 <b>Top losers</b>
-<pre>BTW         $2.05   -15.2%   -3.4%
-WLFI     $0.05437    -3.8%   +1.1%
-RAIN    $0.008817    -2.1%   -1.1%
-M         $0.7232    -0.9%   +1.1%
-HBAR     $0.08198    -0.2%   -0.4%</pre>
-⚡ <b>Moving right now (1h):</b> PRL +4.4%, BTW -3.4%, PUMP -1.4%
+<pre>MX          $1.68   -13.4%   +0.7%
+BAT       $0.1815   -10.0%   +0.3%
+BR        $0.5963    -8.6%   +1.7%
+Q         $0.1205    -7.7%   -0.9%
+M         $0.7604    -5.0%   -1.1%</pre>
+⚡ <b>Moving right now (1h):</b> GRX -15.6%, BTW -12.9%, PEARL +2.2%, KMNO +2.1%
 
-👇 Tap a coin → real chart + why it moved
+👇 Tap a coin → chart + sentence. Or type any coin, e.g. <code>$PEPE</code>
 
-BUTTONS: [('🚀 VVV', 'm:venice-token'), ('🚀 PUMP', 'm:pump-fun'), ('🚀 WLD', 'm:worldcoin-wld'), ('🚀 ARB', 'm:arbitrum'), ('🚀 INJ', 'm:injective-protocol'), ('🩸 BTW', 'm:bitway'), ('🩸 WLFI', 'm:world-liberty-financial'), ('🩸 RAIN', 'm:rain'), ('🩸 M', 'm:memecore'), ('🩸 HBAR', 'm:hedera-hashgraph')]
+BUTTONS: [('🚀 CVX', 'm:convex-finance'), ('🚀 PEARL', 'm:pearl-2'), ('🚀 ZBCN', 'm:zebec-network'), ('🚀 HASH', 'm:hash-2'), ('🚀 USELESS', 'm:useless-3'), ('🩸 MX', 'm:mx-token'), ('🩸 BAT', 'm:basic-attention-token'), ('🩸 BR', 'm:bedrock-token'), ('🩸 Q', 'm:quack-ai'), ('🩸 M', 'm:memecore'), ('⚡ GRX', 'm:grx-chain'), ('⚡ BTW', 'm:bitway'), ('🔄 Refresh', 'mr:')]
