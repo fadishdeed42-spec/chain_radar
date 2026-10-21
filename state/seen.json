@@ -616,7 +616,7 @@
 "srcs": [
 "FinanceFeeds"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792583855.0,
 "tgtext": "",
 "title": "Trump Targets Overseas Crypto Scams as FBI Puts 2025 Losses at $11.37 Billion",
@@ -696,7 +696,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792579153.0,
 "tgtext": "",
 "title": "Bitcoin \u2018top buyers\u2019 halt BTC price upside with $87.7K now key: Glassnode",
@@ -803,7 +803,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792588800.9378817,
+"t": 1792589410.0512617,
 "t0": 1792584000.0,
 "tgtext": "",
 "title": "Key facts: XRPUSD $1.35; $1.8B inflows; filed SEC comment; clear $1.40",
@@ -997,7 +997,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1792588800.9378817,
+"t": 1792589713.67311,
 "t0": 1792580457.0,
 "tgtext": "",
 "title": "Zcash has one shot at $1,350 as ETF inflows return \u2013 Or it\u2019s back to $1,040",
@@ -1186,6 +1186,21 @@
 "urls": [
 ""
 ]
+},
+"61cebb9c4936": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"CryptoPotato",
+"CryptoRank"
+],
+"t": 1792589713.67311,
+"t0": 1792576080.0,
+"tgtext": "",
+"title": "Spot Bitcoin ETFs Lost $681 Million in 1 Week as Bitcoin Trades Nearly 33% Below Its 2025 High",
+"url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMGM3czk4elN5UWhhRmEycGRSV28wSTRYVm9HSUxhMHpHU1BoeS1tTlpxOC1rcU5DMGFYZVo3enNaM1MyRUtUQWNiNnMxeWx1MHNzU0FlRkpGX1hWaXlGN2N1X2pjajRGY09wMGpHVHA4UjNxaUEzVnF2d2c3VU8ybzU5OU95OWlaQUt1M3dETU9yOTVTeThoUkRnb1NibnNuSXpfQTNhYUFORlZBQTI4Qk1FUUFOWm5CdjhWTDBFeWY0RkgtSzdKTnRCN1FXSUdqaFE2WWpxX1prQktPQWZlYWtLNTViUQ?oc=5",
+"urls": []
 },
 "6244a6b1d340": {
 "coin": "bitcoin",
@@ -1955,7 +1970,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792577929.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
@@ -2098,13 +2113,13 @@
 "coin": "",
 "src": "CoinDesk",
 "srcs": [
+"Bitcoin Magazine",
 "CoinDesk",
 "Cointelegraph",
 "Decrypt",
-"The Block",
-"Wu Blockchain"
+"The Block"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792580400.0,
 "tgtext": "OCC Finalizes First GENIUS Act Rule: No Safe Harbor for Existing Stablecoin Rewards\n\nThe OCC has issued its first final rule implementing the GENIUS Act, covering stablecoin issuance, custody, and third-party partnerships, effective January 18, 2027. Existing yield and rewards programs receive no automatic grandfathering or safe harbor; compliance will be assessed case by case.\n\nThe act prohibits issuers from paying yield solely for holding, using, or retaining stablecoins, but does not ban all third-party rewards. The OCC said rewards based at least partly on other factors may fall outside the prohibition. The implications for programs offered by Coinbase, PayPal, and Kraken remain uncertain. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 BREAKING: The US OCC finalizes GENIUS Act rules for stablecoin issuers, covering reserves, redemptions, and custody.\n\nEffective January 18, 2027.\n\nNews | Markets | YouTube",
 "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban",
@@ -2329,7 +2344,7 @@
 "Traders Union",
 "Yahoo Finance"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792574666.0,
 "tgtext": "",
 "title": "Monero futures open interest nears record, raising liquidation risk in crypto market",
@@ -2558,7 +2573,7 @@
 "Coinpedia",
 "FXStreet"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792585106.0,
 "tgtext": "",
 "title": "US Stock Market Crash Could Trigger Bitcoin Price Fall Toward $63,000",
@@ -2837,9 +2852,10 @@
 "srcs": [
 "Coinpedia",
 "CryptoRank",
-"CryptoSlate"
+"CryptoSlate",
+"International Business Times Australia"
 ],
-"t": 1792585129.321179,
+"t": 1792589410.0512617,
 "t0": 1792572675.0,
 "tgtext": "",
 "title": "Crypto Market Today: Bitcoin Holds Near $83,000 as Zcash Leads the Gains- What\u2019s Next?",
@@ -3085,7 +3101,7 @@
 "Pluang",
 "TradingView"
 ],
-"t": 1792589104.8081758,
+"t": 1792589713.67311,
 "t0": 1792577632.0,
 "tgtext": "",
 "title": "$109M in stolen Ether from Drift exploit moved to Tornado Cash, raising recovery challenges",
@@ -3136,11 +3152,12 @@
 "coin": "bitcoin",
 "src": "CryptoRank",
 "srcs": [
+"Coinpedia",
 "CryptoRank",
 "CryptoSlate",
-"KuCoin"
+"International Business Times Australia"
 ],
-"t": 1792582617.5983891,
+"t": 1792589713.67311,
 "t0": 1792575714.0,
 "tgtext": "",
 "title": "Crypto Market Today: Bitcoin Holds Near $83,000 as Zcash Leads the Gains- What\u2019s Next?",
@@ -5941,63 +5958,63 @@
 [
 "af618cf08910",
 70,
-145,
-5
+155,
+6
+],
+[
+"fc611d279daf",
+67,
+233,
+4
 ],
 [
 "f91dfe987257",
-60,
-191,
+59,
+201,
 3
 ],
 [
 "2f9fa49f0d06",
 56,
-87,
+98,
 1
 ],
 [
 "be409dba1c1a",
-49,
-241,
-3
-],
-[
-"7ec0ed6a64a3",
-47,
-360,
+48,
+251,
 3
 ],
 [
 "dc5860a38b80",
 44,
-67,
+77,
 2
 ],
 [
 "39538052afc5",
 42,
-166,
+176,
 2
 ],
 [
 "a367ec825912",
-41,
-186,
+39,
+196,
 1
 ],
 [
-"6e4907cf3798",
-38,
-265,
-2
+"514f895df5e1",
+39,
+154,
+1
 ],
 [
-"dd6dcc682910",
-32,
-204,
-1
+"61cebb9c4936",
+35,
+227,
+3
 ]
 ],
-"top_at": 1792589104.8081758
+"top_at": 1792589713.67311
 }
