@@ -2001,8 +2001,10 @@ if __name__ == '__main__':
             if photo:
                 open(f'state/selftest/{n[0]:02d}.png', 'wb').write(photo)
         globals()['tg'] = fake_tg
+        globals()['ack'] = lambda *a, **k: None; globals()['unack'] = lambda: None; globals()['chat_action'] = lambda *a: None
         t = {'menu': {}}
-        cmd_movers(t); coin_view('SOL', t); on_this_day(t)
+        cmd_movers(t); coin_view('SOL', t); coin_view('PEPE', t); on_this_day(t)
+        print('binance BTC 5m rows:', len(binance('BTC', 300, limit=10)))
         st = load_state()
         for k, it in list(st.get('menu', {}).items())[:40]:
             if it.get('coin') and it.get('t0'):
