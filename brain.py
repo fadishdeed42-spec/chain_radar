@@ -17,8 +17,8 @@ LOCK = threading.RLock()
 UA = {'User-Agent': 'Mozilla/5.0 (ChainRadar; +github.com/fadishdeed42-spec/chain_radar)'}
 
 # Public crypto news channels (the same outlets post the same news on X). Channels that fail to load are skipped and logged.
-CHANNELS = ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'coindesk', 'lookonchainchannel', 'bitcoinmagazinetelegram',
-            'TheBlockNews', 'decryptmedia', 'binance_announcements', 'PeckShieldAlert', 'tree_news_feed', 'crypto_headlines']
+CHANNELS = ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements',
+            'crypto_headlines']                                               # all verified live on Oct 21 2026
 
 TOPICS = {'hack': r'hack|exploit|drain|stole|steal|breach|attack|phish', 'legal': r'arrest|charge|sentenc|lawsuit|sue[sd]?\b|court|indict|fraud|guilty',
           'etf': r'\betf', 'reg': r'\bsec\b|cftc|regulat|congress|senate|\bbill\b|\blaw\b|ban\b|white house|trump',
