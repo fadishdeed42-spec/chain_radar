@@ -154,6 +154,18 @@
 "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV20tS1VWMmdIdEplNTJRSEdwMjduSWFCQ19uUFRYUk5qV3VVNl9sdnVBQ0M5QWk2OHo5SmlsRlFqbjZHeUM0YlpSejFfQ2M5M195aElnTFNkMUE1Q2M1S0pMbnVRTHhXMHB1dEFaaEEyc0ZCZkg2UnNpWlotZ0tET1ViMlJhQTgwVE05bUpZOHBsbVlSMzg4QmcyVGFwa3ljNmZWT1VCcThiWUxGOUJZLUF3?oc=5",
 "urls": []
 },
+"0b4fde4fb38e": {
+"coin": "bitcoin",
+"src": "CryptoTicker",
+"srcs": [
+"CryptoTicker"
+],
+"t": 1792563804.2968636,
+"t0": 1792563583.0,
+"title": "Bitcoin Price at $82,708: Levels Before the Fed Meeting",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMG1IYVpNSEtZbDhHc2tWLUZSVkRZMEZmdmlNU285NU9oTlpPejFYeGJuRWVGUkRINWJ3c2dZalkweHFiSHliSk43RS1sbHVBZ1VMcGdZdjJYOHE3YndXMi1vMDRZd3paekVZOTdPWEZPZnFYQlBra01TRjByTVpiM2otMDdnd0VG?oc=5",
+"urls": []
+},
 "0ed87eef11b1": {
 "coin": "bitcoin",
 "src": "CryptoRank",
@@ -206,7 +218,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792545067.0,
 "title": "$11.83M Ether futures long position liquidated on Binance at $2,433 price",
 "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbHVocWJ6T0lfN2xjUGNrSXRjTnBKeTNjbXpxdmlVbTVJUmkzZUNzOU5TcVJRTG9yemw3R2pna3hQTmNBYlp0bTJ4Yk16SFhJRUxZMldkY1JmNE1xRFRsYVI5Y3VVZEJmYkN6a1pxNmh2NG1EblJiOHVHOFpudmVXYkpWN3FYdw?oc=5",
@@ -547,16 +559,17 @@
 },
 "37db9938ccc2": {
 "coin": "",
-"src": "Crypto News",
+"src": "NewsCord",
 "srcs": [
 "Crypto News",
 "Cryptonews.net",
-"KuCoin"
+"KuCoin",
+"NewsCord"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792542400.0,
-"title": "Qubic restarts blockchain after $1.4M hack, opens recovery claims until May 2027",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqSENabkc5UHIyay1jVTFXMnFBX1lnUVRqWldSbDkwOV8yckUxWHRRb3g4XzZLR2hSeHdBSTZ0blQ2TDIyZjlNQWVMQ2tveFoxQmRrZlJuajhLYTBKNktaYkdhajhRVXQ0emY0WjBEX25oWElNclE?oc=5",
+"title": "Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it",
+"url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5",
 "urls": []
 },
 "3855d2edcd71": {
@@ -948,7 +961,7 @@
 "srcs": [
 "shattered.io"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792556792.0,
 "title": "NEAR Intents $3.8M Hack: Postmortem Clears Omni [2026]",
 "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RRDZ5WVB2dTZDMXpTR3A3bmpQcF9HS21KZURRR2ZBNzROeGNUR0ZGbDN5aUdYQ3dOcFpYNEtvS1MwNFFQWHVOd2xFektiZTJsWnRvcFBSb0IwWnltYldHT1hNWUNjMHFnVE1zaUpEWndQV2ZpV18xT1FIVFU?oc=5",
@@ -1052,6 +1065,18 @@
 "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGtpRWc2OGhIOU54ZHpXaVVoLWhqdndtRUlPTnk1RkMtLWczWHRrTlZ2WTQ1RmJJZTM3UmxydXNqYTdBVjRqYU8wZHdBb3d2LTE1LTNFQXA3blgtNmVUZ3JaYkFuODM2MHdnQ1lTY0JsajZNRVlUOFZMbU9lY2NhNHRaV2Zwdw?oc=5",
 "urls": []
 },
+"6aa798ef83d6": {
+"coin": "",
+"src": "CryptoTicker",
+"srcs": [
+"CryptoTicker"
+],
+"t": 1792563804.2968636,
+"t0": 1792563408.0,
+"title": "FinCEN Crypto Fraud: 33,904 Filings Explained",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqYXdtRzdNOEUxbWg4eTFLemZYUjA3cXludFVRTy1jb2ZES1ZGVmhlZzhrMDJaYkM4RU9tazRnc3dWbktfcWNWY01LSE91VWdVMko5aVNTN05BUzZRR0ljU3FKbVlLMXFnYnZ0YUVDSC1qcE9FckE?oc=5",
+"urls": []
+},
 "6b1f2b1b0b63": {
 "coin": "",
 "src": "Crypto Briefing",
@@ -1070,7 +1095,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792552476.0,
 "title": "Pump.fun launches perps with 40x leverage",
 "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZTVEVklsVU9HcG0zcEs5NmxESGk1bHl2M3RkR0MteEg5QzBGeDd0OUM3Z3c2NndQNllqdWZxRnFiZ1pmMUt1cHhONTdnclR3Q043dzZDVWRkcFNoWGJDeW9QNW8yeFptdzVhZm51OTM?oc=5",
@@ -1489,7 +1514,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792556515.0,
 "title": "Wintermute Moves $90M in Bitcoin as Whales Ramp Up",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yR19aOE9HV19uUTBDWDlyNWlEM25mcEM3ZHd2Y1FYdkxuenpjRDlPUGQ3Y1FuUjNOeWFyUm9yRGVKMFRKR0RFTDBSTTRkWGpFS3lEbUJ6dDU?oc=5",
@@ -1814,7 +1839,7 @@
 "srcs": [
 "LatestLY"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792548185.0,
 "title": "Tiger Shroff Firing Case: 4 More Arrested, Including 2 Women",
 "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaVhxbEpFcEhrQ0Q5VTdBbTYtX0M4Yk9DOFNUeGlwTEJsUTJVZHRyWFhUVjFpVmtIRkxGY3RrZXNFMDBfVVhXamJxQVN5cFoyVGhoMFZXX2k2N2s4X2RuTzNSMm0yN1lTUHM4NENvRVI1cUlFUkdDNGZnclJ5ZWM0NFEyNVhiRnk4R2R6ZWJPR2F0NWxXM2dDQ0RGT0Y3a21PYUtUSTAwMkgwR3FGQmJfM9IBsAFBVV95cUxQaVhxbEpFcEhrQ0Q5VTdBbTYtX0M4Yk9DOFNUeGlwTEJsUTJVZHRyWFhUVjFpVmtIRkxGY3RrZXNFMDBfVVhXamJxQVN5cFoyVGhoMFZXX2k2N2s4X2RuTzNSMm0yN1lTUHM4NENvRVI1cUlFUkdDNGZnclJ5ZWM0NFEyNVhiRnk4R2R6ZWJPR2F0NWxXM2dDQ0RGT0Y3a21PYUtUSTAwMkgwR3FGQmJfMw?oc=5",
@@ -1850,7 +1875,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792557625.0,
 "title": "Switzerland approves landmark Bitcoin ETF after ruling trading volume sufficient",
 "url": "https://cryptoslate.com/switzerland-approves-landmark-bitcoin-etf-after-ruling-trading-volume-sufficient/",
@@ -2522,7 +2547,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1792563193.7865787,
+"t": 1792563804.2968636,
 "t0": 1792555832.0,
 "title": "BlackRock\u2019s IBIT pulls in $29.86 million in fresh Bitcoin demand",
 "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPajJDbFFKVlZDOFVrTzVWQnVEWDk3OEplODBydS14RkVQQlNpWGZEM0ZXY2dOLVp0M0txMFUxeVlzQUk0WFRhb2lUUllHeG10TWpMUGNXeE1JZFc1dHhsS3RKVW9ndVhfNVk2N1RtU0pRaGJIWjVJY0tWcDREdGFOX3pjdkNhOEZsMXJHNE9ZdkJHaEVzNGtXUjhGdXdTSmFzRXIyYW1nMGhYejh1Wmc?oc=5",
@@ -5347,65 +5372,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"37db9938ccc2",
+48,
+357,
+4
+],
+[
 "5dfaf6eedb11",
 41,
-107,
+117,
 1
 ],
 [
-"37db9938ccc2",
-39,
-347,
-3
+"6aa798ef83d6",
+28,
+7,
+1
 ],
 [
 "6ba5b406fc33",
-25,
-179,
+24,
+189,
 1
 ],
 [
 "f5274d2e44fd",
 24,
-123,
+133,
 1
 ],
 [
 "96337147ede7",
 24,
-111,
+121,
 1
 ],
 [
 "b72410b6054c",
 24,
-93,
+103,
+1
+],
+[
+"0b4fde4fb38e",
+24,
+4,
 1
 ],
 [
 "1436e39fcaa4",
-23,
-302,
+22,
+312,
 1
 ],
 [
 "b4864292daf1",
-19,
-250,
-1
-],
-[
-"7c44d3cabbc1",
 18,
-281,
-1
-],
-[
-"3f8f37eb8966",
-18,
-57,
+260,
 1
 ]
 ],
-"top_at": 1792563193.7865787
+"top_at": 1792563804.2968636
 }
