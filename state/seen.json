@@ -193,7 +193,7 @@
 "Lookonchain",
 "NewsCord"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792574774.0,
 "tgtext": "The Drift Protocol exploiter, who stole over $270M, deposited another 24,885 $ETH($61.3M) into #TornadoCash and still holds 56,569 $ETH ($139.3M).\nhttps://x.com/lookonchain/status/2112475259907846217",
 "title": "The Drift Protocol exploiter, who stole over $270M, deposited another 24,885 ETH($61.3M) into TornadoCash and still holds 56,569 ETH ($139.3M).",
@@ -223,16 +223,17 @@
 },
 "0ff7670d7dc9": {
 "coin": "bitcoin",
-"src": "International Business Times Australia",
+"src": "Coinpedia",
 "srcs": [
+"Coinpedia",
 "Daily Forex",
 "International Business Times Australia"
 ],
-"t": 1792594322.843053,
+"t": 1792594634.9647026,
 "t0": 1792576482.0,
 "tgtext": "",
-"title": "Bitcoin Holds Near $83,315 as ETF Inflows and Liquidations Shape Volatile Trading",
-"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVTJDNmR3LTh3QUtEMUs0V2NwZjBlbnM5M0wtQ0Ywb1VYbzNOUXlISVRzSXJ4dkJOTTMzWGNUOEk5cUxHeldtNFBNd2FTUmJhRGQybUFRRmRCa3BlUk0taXpRX09nYm55VFhJVXZkSXRUNlRlTGNPU1h4MWtybHpYTg?oc=5",
+"title": "Crypto Market Today: Bitcoin Holds Near $83,000 as Zcash Leads the Gains- What\u2019s Next?",
+"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTy15SlpDU0x2SW9oa1FOYUZQdXh2ZjhnZlNWbmVZc3A0TTRhTUJCa1JwTkxZbkRTdVhjdVBzakdZXzVmaWhmQ2s0N2ZpcHRBRHNsVVYzNXF1NUgyTFM5bXk1di1jQlVHajg1MEVoVXE3amZ2aGZEUU13WWdDem5PMGhmTlpOYnFxS0lSLW9ITkdhUEw4b01uektZOG9IeXlDTXNtbGpEZDRwQ0FjZkptMVFUMWszY0tSbkHSAb8BQVVfeXFMT1RBUWpRTzJHbFpscEh4aFF2ek1PVUNTaWlMU25TS180YndubkplRkJud2hRZ1QzYmVlRXZfNXVfUUMxTW1oUmQyaW1yTWstUUMwdU04UEZPd3gwSm13RmU2b0Z4ME1zMGpVejJSem1rZlI2eDJXRVEwSGNYZTNxTC1Oa2lKekt0SmVaWUc3OTJvZi1QcC1vdjVuaGIwajZkRTkxSmxOd0xjYmdmWmI4STFweHlLRkFFUlBySDRKUDg?oc=5",
 "urls": []
 },
 "11c0ff81c23f": {
@@ -643,7 +644,7 @@
 "srcs": [
 "FinanceFeeds"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792583855.0,
 "tgtext": "",
 "title": "Trump Targets Overseas Crypto Scams as FBI Puts 2025 Losses at $11.37 Billion",
@@ -723,7 +724,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792579153.0,
 "tgtext": "",
 "title": "Bitcoin \u2018top buyers\u2019 halt BTC price upside with $87.7K now key: Glassnode",
@@ -830,7 +831,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792584000.0,
 "tgtext": "",
 "title": "Key facts: XRPUSD $1.35; $1.8B inflows; filed SEC comment; clear $1.40",
@@ -1914,7 +1915,7 @@
 "srcs": [
 "Unisba Media"
 ],
-"t": 1792593106.6574674,
+"t": 1792594634.9647026,
 "t0": 1792583088.0,
 "tgtext": "",
 "title": "XRP PUMP JUST LIKE EXPECTED, MASSIVE BITGET EXCHANGE HACK & MORE! Aldo Serena (rW5TVumwRZ)",
@@ -2010,14 +2011,17 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"Bitcoin Magazine",
 "Watcher.Guru"
 ],
-"t": 1792592154.1943243,
+"t": 1792594940.9071417,
 "t0": 1792577929.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
 "url": "https://t.me/WatcherGuru/15581",
-"urls": []
+"urls": [
+"https://bitcoinmagazine.com/news/president-trump-to-highlight-crackdown"
+]
 },
 "a383fa145cc4": {
 "coin": "bitcoin",
@@ -2035,9 +2039,10 @@
 "coin": "ethereum",
 "src": "Cryptonews",
 "srcs": [
-"Cryptonews"
+"Cryptonews",
+"Yahoo Finance"
 ],
-"t": 1792587581.173371,
+"t": 1792594940.9071417,
 "t0": 1792584095.0,
 "tgtext": "",
 "title": "Ethereum Price Disappoints: Bitmine Fails to Offset ETF Exodus",
@@ -2161,7 +2166,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792580400.0,
 "tgtext": "OCC Finalizes First GENIUS Act Rule: No Safe Harbor for Existing Stablecoin Rewards\n\nThe OCC has issued its first final rule implementing the GENIUS Act, covering stablecoin issuance, custody, and third-party partnerships, effective January 18, 2027. Existing yield and rewards programs receive no automatic grandfathering or safe harbor; compliance will be assessed case by case.\n\nThe act prohibits issuers from paying yield solely for holding, using, or retaining stablecoins, but does not ban all third-party rewards. The OCC said rewards based at least partly on other factors may fall outside the prohibition. The implications for programs offered by Coinbase, PayPal, and Kraken remain uncertain. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 BREAKING: The US OCC finalizes GENIUS Act rules for stablecoin issuers, covering reserves, redemptions, and custody.\n\nEffective January 18, 2027.\n\nNews | Markets | YouTube",
 "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban",
@@ -2386,7 +2391,7 @@
 "Traders Union",
 "Yahoo Finance"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792574666.0,
 "tgtext": "",
 "title": "Monero futures open interest nears record, raising liquidation risk in crypto market",
@@ -2399,7 +2404,7 @@
 "srcs": [
 "Coin Gabbar"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792593000.0,
 "tgtext": "",
 "title": "Blast Network News: Network Shutdown, Trading Suspended?",
@@ -2639,9 +2644,10 @@
 "src": "Coinpedia",
 "srcs": [
 "Coinpedia",
+"Daily Forex",
 "FXStreet"
 ],
-"t": 1792594322.843053,
+"t": 1792594940.9071417,
 "t0": 1792585106.0,
 "tgtext": "",
 "title": "US Stock Market Crash Could Trigger Bitcoin Price Fall Toward $63,000",
@@ -6037,64 +6043,64 @@
 "top": [
 [
 "af618cf08910",
-64,
-232,
+62,
+242,
 6
+],
+[
+"dc5860a38b80",
+59,
+164,
+3
 ],
 [
 "2f9fa49f0d06",
 56,
-174,
+185,
 1
 ],
 [
 "0e830d0472fb",
-52,
-326,
+51,
+336,
 7
-],
-[
-"dc5860a38b80",
-44,
-154,
-2
-],
-[
-"0ff7670d7dc9",
-39,
-297,
-2
 ],
 [
 "42c7f0a23493",
 39,
-172,
+182,
 1
 ],
 [
-"be409dba1c1a",
+"a367ec825912",
 38,
-328,
-3
-],
-[
-"39538052afc5",
-33,
-253,
+284,
 2
 ],
 [
-"514f895df5e1",
-33,
-231,
-1
+"be409dba1c1a",
+36,
+338,
+3
+],
+[
+"a4ede315d362",
+34,
+181,
+2
 ],
 [
 "bf7eb0a1d0ec",
 32,
-22,
+32,
 1
+],
+[
+"39538052afc5",
+31,
+263,
+2
 ]
 ],
-"top_at": 1792594322.843053
+"top_at": 1792594940.9071417
 }
