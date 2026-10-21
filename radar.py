@@ -2,7 +2,7 @@
 Runs every 15 min on GitHub Actions. Free sources only. State in state/seen.json.
 Env: TELEGRAM_TOKEN, TELEGRAM_CHAT_ID (required), GEMINI_API_KEY (optional, for drafts)."""
 import os, re, json, time, html, hashlib, io, sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import requests, feedparser
 import brain
 
@@ -698,6 +698,21 @@ def candles(coin, span='1d', event_ts=None):
     return out
 
 
+BN_INT = {300: '5m', 900: '15m', 3600: '1h', 21600: '6h', 86400: '1d'}
+
+
+def binance(sym, gran, start=None, end=None, limit=500):
+    """Real Binance spot candles (public market-data mirror, works from GitHub's servers)."""
+    p = {'symbol': sym.upper() + 'USDT', 'interval': BN_INT[gran], 'limit': limit}
+    if start:
+        p.update({'startTime': int(start * 1000), 'endTime': int((end or time.time()) * 1000)})
+    r = get('https://data-api.binance.vision/api/v3/klines', params=p, timeout=10)
+    try:
+        return [(k[0], float(k[1]), float(k[2]), float(k[3]), float(k[4]), float(k[7])) for k in (r.json() if r else [])]
+    except Exception:
+        return []
+
+
 def _candles(coin, span='1d', event_ts=None):
     """Real OHLCV. With event_ts the window is built around the news (some time before, everything after).
     Coinbase first (has volume, checked against CoinGecko price), CoinGecko OHLC fallback. Returns (rows, source, label)."""
@@ -707,15 +722,21 @@ def _candles(coin, span='1d', event_ts=None):
         total = max(age * 1.6, 3 * 3600)
         gran = next(g for g in (300, 900, 3600, 21600, 86400) if total / g <= 95 or g == 86400)
         start = max(event_ts - max(total - age, 4 * gran), now - 290 * gran)
-        rows = coinbase(coin['sym'], gran, start, now)
+        rows, src = binance(coin['sym'], gran, start, now), 'Binance'
+        if not rows or (coin.get('price') and abs(rows[-1][4] / coin['price'] - 1) >= 0.15):
+            rows, src = coinbase(coin['sym'], gran, start, now), 'Coinbase'
         lab = f'{GRAN_LABEL[gran]} candles · around the news'
         n_days = 1 if total <= 86400 else 7 if total <= 7 * 86400 else 30 if total <= 30 * 86400 else 90
     else:
         gran, n, n_days, lab = SPANS[span]
-        rows = coinbase(coin['sym'], gran)[-n:]
+        rows, src = binance(coin['sym'], gran, limit=n), 'Binance'
+        if len(rows) < 20 or (coin.get('price') and abs(rows[-1][4] / coin['price'] - 1) >= 0.15):
+            rows, src = coinbase(coin['sym'], gran)[-n:], 'Coinbase'
         start = 0
     if len(rows) >= 20 and (not coin.get('price') or abs(rows[-1][4] / coin['price'] - 1) < 0.15):
-        return rows, 'Coinbase', lab
+        return rows, src, lab
+    if not coin.get('id'):
+        return [], '', ''
     r = get(f'https://api.coingecko.com/api/v3/coins/{coin["id"]}/ohlc', params={'vs_currency': 'usd', 'days': n_days})
     try:
         rows = [(t, o, h, l, c, None) for t, o, h, l, c in (r.json() if r else []) if t / 1000 >= start]
@@ -839,7 +860,8 @@ def gemini(prompt, timeout=20):
 
 STYLE = ('You write for the X account "Chain Secrets": crypto news and true crypto stories with the chart that proves it, '
          'in a sharp, witty crypto-detective voice. Rules: use ONLY the facts given (never invent numbers, names, quotes or claims; '
-         'say "reportedly" when the source is unsure), no price predictions, no financial advice, no links, max 1 hashtag, no emojis spam.\n')
+         'say "reportedly" when the source is unsure), no price predictions, no financial advice, no links, max 1 hashtag, no emojis spam. '
+         'Never use slang like bro, fam, ser, wagmi, ngmi, lfg, degen, rekt, lol. No em dashes.\n')
 FORMAT = ('Reply in exactly this format and nothing else:\n'
           'TITLE: <punchy image headline, max 60 characters, include the key number if there is one>\n'
           'KEYFACT: <one short factual sentence, max 110 characters>\n'
@@ -1067,17 +1089,52 @@ def switch_design(k, vis, msg_id=None):
 # ---------------- replies: X post link -> 3 ready replies ----------------
 XLINK = re.compile(r'https?://(?:www\.|mobile\.)?(?:x|twitter|fxtwitter|vxtwitter|fixupx)\.com/([A-Za-z0-9_]+)/status(?:es)?/(\d+)', re.I)
 
-REPLY_RULES = ('You are a real person running the crypto account "Chain Secrets", replying under an X post. Write the ONE best reply — '
-               'the kind that gets the most likes under a big post.\n'
-               'How it must sound: like a sharp human scrolling X, not a brand and not an AI. Casual, confident, short (usually 6-20 words, '
-               'max 180 characters). Contractions, plain words, lowercase start is fine. One clear point: a dry joke, a sharp observation, '
-               'or one real fact that adds context. React to what THIS post actually says.\n'
-               'Never: em dashes, "Translation:", "This is huge", "Great post", "Let that sink in", "game changer", questions to farm '
-               'engagement, hashtags, links, more than one emoji, financial advice, price predictions, or any number/fact you are not sure is true.\n'
-               'Reply in exactly this format and nothing else:\n'
-               'REPLY: <the reply>\n'
-               'SYMBOL: <ticker of the crypto coin the post is mainly about, or NONE (stocks/companies are NONE)>\n'
-               'CHART: <YES only if the post is about that coin\'s price moving and a 24h price chart would back up the reply, else NO>\n')
+VOICE = ('Voice: a calm, sharp crypto news account written by a real person. Plain clean English, short sentences, contractions are fine. '
+         'Never use slang like bro, bruh, fam, ser, fren, gm, wagmi, ngmi, lfg, degen, ape, rekt, lol, lmao, "no cap", "fr", "ngl". '
+         'Never use em dashes, hashtags, links, "Let that sink in", "This is huge", "game changer", "Translation:", or financial advice. '
+         'Max one emoji, usually none.')
+SLANG = re.compile(r'\b(bro|bros|bruh|fam|ser|fren|frens|gm|wagmi|ngmi|lfg|degen|degens|ape|aped|rekt|lol|lmao|ngl|fr|no cap)\b', re.I)
+def gemini_voice(prompt):
+    """Gemini, but if it slips into slang or em dashes, ask once for a clean rewrite."""
+    out = gemini(prompt)
+    if out and (SLANG.search(out) or '—' in out):
+        bad = ', '.join(sorted({m.group(0).lower() for m in SLANG.finditer(out)})) or 'em dashes'
+        again = gemini(prompt + f'\n\nYour last answer used {bad}. Rewrite it in clean, natural English without that. Same format.')
+        out = again or out
+    return out
+
+
+def clean_voice(t):
+    t = SLANG.sub('', t or '').replace(' — ', ', ').replace('—', ', ')
+    return re.sub(r'\s{2,}', ' ', re.sub(r'\s+([,.!?])', r'\1', t)).strip(' ,')
+
+
+REPLY_STYLES = [
+    ('context', 'Add one piece of real context the post is missing (what happened before, who is involved, why it matters). Calm and informative.'),
+    ('observation', 'Make one sharp, dry observation about what this really means. Understated, no exaggeration.'),
+    ('history', 'Connect it to a well-known moment in crypto history that rhymes with this, only if you are sure of it. Short.'),
+    ('numbers', 'Put the key number from the post in perspective (compare it to something people understand). Use only numbers from the post.'),
+    ('calm_take', 'Give a level-headed take that cuts through the hype or panic in one or two sentences.'),
+    ('light_humor', 'A light, clever line with a point behind it. Witty, not silly, no slang.'),
+    ('question', 'Ask one genuine, smart question that experts would want answered about this (not engagement bait).'),
+]
+REPLY_EXAMPLES = ('Examples of the tone (do not copy them):\n'
+                  '- "Third exchange this year to pause withdrawals after a hot wallet issue. Cold storage really isn\'t optional anymore."\n'
+                  '- "The interesting part is the timing. This landed an hour before the ETF flow data."\n'
+                  '- "$80M sounds big until you remember Ronin lost $600M the same way."\n'
+                  '- "Quiet chart all week, then this. Someone knew before the headline did."\n')
+
+
+def reply_rules(style):
+    name, how = style
+    return (VOICE + '\nYou are replying under an X post as the account "Chain Secrets". Write ONE reply that reads like a smart human wrote it '
+            'in ten seconds: 8 to 25 words, max 180 characters, about what THIS post actually says. Never invent facts or numbers; if unsure, '
+            'leave it out.\nStyle for this reply: ' + how + '\n' + REPLY_EXAMPLES +
+            'Reply in exactly this format and nothing else:\n'
+            'REPLY: <the reply>\n'
+            'SYMBOL: <ticker of the crypto coin the post is mainly about, or NONE (stocks/companies are NONE)>\n'
+            'CHART: <YES only if the post is about that coin\'s price moving and a 24h price chart would back up the reply, else NO>\n')
+
 
 
 def read_x(user, sid):
@@ -1154,8 +1211,11 @@ def cmd_reply(url, tgs, fresh=False):
 
 def reply_from_text(text, author, post, tgs, key):
     facts = f'Post by @{author}:\n{text[:2000]}'
-    rp = parse_replies(gemini(REPLY_RULES + ('Use a different angle than the obvious one.\n' if key in tgs.get('replies', {}) else '')
-                              + '\n' + facts))
+    used = (tgs.get('replies', {}).get(key) or {}).get('styles', [])
+    import random
+    style = random.choice([x for x in REPLY_STYLES if x[0] not in used] or REPLY_STYLES)
+    rp = parse_replies(gemini_voice(reply_rules(style) + '\n' + facts))
+    rp['reply'] = clean_voice(rp['reply'])
     if not rp['reply']:
         unack(); tg('⚠️ The AI writer is busy, tap again in a minute.'); return
     coin = coin_from_text(text, rp['symbol']) if rp['chart'] and rp['symbol'] not in ('', 'NONE') else None
@@ -1163,7 +1223,7 @@ def reply_from_text(text, author, post, tgs, key):
     stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
     stats += f' · {ago(post["ts"])}' if post and post.get('ts') else ''
     head = f'💬 <b>Reply for @{E(author)}</b>{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
-    tgs.setdefault('replies', {})[key] = {'t': time.time(), 'text': text[:2000], 'author': author}
+    tgs.setdefault('replies', {})[key] = {'t': time.time(), 'text': text[:2000], 'author': author, 'styles': used + [style[0]]}
     tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
     unack()
     tg(reply_msg(rp, head, bool(img)), img, [('🔄 Another one', f'rr:{key}')])
@@ -1205,7 +1265,8 @@ def who_posts(title):
 
 def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
     mk = remember(st, g, lead, coin, srcs)
-    rp = parse_replies(gemini(REPLY_RULES + '\nThe post you reply to is a big account breaking this news:\n'
+    import random
+    rp = parse_replies(gemini_voice(reply_rules(random.choice(REPLY_STYLES)) + '\nThe post you reply to is a big account breaking this news:\n'
                               f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
                               + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
     acc = who_posts(lead['title'])
@@ -1213,6 +1274,7 @@ def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
             f'👀 Watch for posts from: ' + ' · '.join(f'<a href="https://x.com/{a}">@{a}</a>' for a in acc)
             + '\nReply in the first 15 minutes with 👇')
     img = move_card(coin)[0] if coin and rp.get('chart') else None
+    rp['reply'] = clean_voice(rp['reply'])
     if rp['reply']:
         tg(reply_msg(rp, head, bool(img)), img, fb_buttons(mk))
     else:
@@ -1363,6 +1425,8 @@ def scheduler(tgs):
             tgs[f'brief{hh}'] = day; jobs.append(lambda l=label: brief(tgs, l))
     if now.hour == 0 and now.minute >= 30 and tgs.get('trained') != day:
         tgs['trained'] = day; jobs.append(lambda: (brain.label_due(time.time()), brain.train(), brain.save()))
+    if now.hour == 9 and now.minute < 40 and tgs.get('otd_day') != day:                  # 12:00 Beirut: on this day in crypto
+        tgs['otd_day'] = day; jobs.append(lambda: on_this_day(tgs))
     if now.hour == 9 and tgs.get('checked') != day:
         tgs['checked'] = day; jobs.append(check_mine)
     if now.weekday() == 6 and now.hour == 15 and now.minute < 40 and tgs.get('weekly') != day:
@@ -1374,6 +1438,283 @@ def scheduler(tgs):
             except Exception as e:
                 print('job fail', repr(e))
         threading.Thread(target=run, daemon=True).start()
+
+
+# ---------------- any coin: chart + a ready sentence ----------------
+WIN = {'1h': (3600, '8h', '1 hour'), '24h': (86400, '1d', '24 hours'), '7d': (7 * 86400, '7d', '7 days')}
+
+
+def resolve_coin(q):
+    """Ticker or name -> coin. CoinGecko first (never stocks); Binance-only coins still work (price from Binance)."""
+    q = q.strip().lstrip('$').upper()
+    q = re.sub(r'(USDT|USDC|USD|PERP)$', '', q) or q
+    h = cg_search(q, strict=False)
+    if not h:
+        r = get('https://api.coingecko.com/api/v3/search', params={'query': q})
+        hits = [x for x in (r.json().get('coins', []) if r else []) if x['name'].upper() == q and not NOT_CRYPTO.search(x['name'])]
+        h = hits[0] if hits else None
+    c = coin_by_id(h['id']) if h else None
+    if c:
+        return c
+    rows = binance(q, 3600, limit=2)
+    if rows:
+        return {'id': '', 'sym': q, 'name': q, 'price': rows[-1][4], 'h1': 0, 'h24': 0, 'rank': 999}
+    return None
+
+
+def coin_query(t):
+    """Find a coin request in a sentence: '$PEPE', 'chart pepe', 'pepe chart', 'PEPEUSDT', or a lone ticker."""
+    m = re.search(r'\$([A-Za-z0-9]{2,12})\b', t)
+    if m:
+        return m.group(1)
+    m = re.search(r'(?i)\bchart\s+(?:of\s+|for\s+)?([A-Za-z0-9]{2,15})\b', t) or re.search(r'(?i)\b([A-Za-z0-9]{2,15})\s+chart\b', t)
+    if m:
+        return m.group(1)
+    m = re.match(r'^([A-Z0-9]{2,12})(?:USDT|/USDT)?$', t.strip())          # lone ticker only in CAPS: PEPE, SOLUSDT
+    return m.group(1) if m and not m.group(1).isdigit() else None
+
+
+def coin_window(coin):
+    """Pick the window that shows the real story: last hour if that's where the move is, else 24h."""
+    r8, _, _ = candles(coin, '8h'); r24, _, _ = candles(coin, '1d')
+    m1 = recent_move(r8, 3600)[0] if r8 else 0
+    m24 = recent_move(r24, 86400)[0] if r24 else 0
+    return '1h' if abs(m1) >= 0.04 and abs(m1) >= 0.5 * abs(m24) else '24h'
+
+
+def coin_render(coin, win):
+    secs, span, words_ = WIN[win]
+    rows, src, lab = candles(coin, span)
+    if not rows:
+        return None, None, None
+    mv, p0, p1 = recent_move(rows, secs)
+    verb = ('surges' if mv >= 0.08 else 'climbs' if mv >= 0 else 'plunges' if mv <= -0.08 else 'slips')
+    title = f'{coin["name"]} {verb} {abs(mv) * 100:.1f}% in {words_}'
+    try:
+        img = card.chart_card(title, coin, rows, lab, 'MOVER', src, focus=secs)[0]
+    except Exception as e:
+        print('coin card fail', repr(e)); return None, None, None
+    return img, title, {'mv': mv, 'p0': p0, 'p1': p1, 'src': src, 'win': words_}
+
+
+def coin_heads(coin):
+    junk = r'predict|could be worth|millionaire|should you buy|buy now|top \d|which is|best crypto|to buy|forecast|\?$'
+    if coin['name'] == coin['sym']:
+        q = f'{coin["sym"]} crypto'
+    else:
+        q = f'"{coin["name"]}" crypto'
+    return [h for h in gnews(q, 15) if re.search(re.escape(coin['name']) + '|' + re.escape(coin['sym']), h['title'], re.I)
+            and not re.search(junk, h['title'], re.I) and time.time() - h['ts'] < 36 * 3600][:2]
+
+
+def coin_sentence(coin, title, m, heads, other=False):
+    facts = (f'Coin: {coin["name"]} ({coin["sym"]}). Move: {m["mv"] * 100:+.1f}% in {m["win"]} (from {fmt_p(m["p0"])} to {fmt_p(m["p1"])}, '
+             f'real {m["src"]} candles).\n' + ('Recent headlines:\n' + '\n'.join(f'- {h["title"]} ({h["src"]}, {ago(h["ts"])})' for h in heads)
+                                                  if heads else 'No coin-specific news found: do not invent a reason.'))
+    out = gemini_voice(VOICE + '\nWrite ONE X post (max 230 characters) to go with a candle chart of this move. State the move with the real '
+                 'number, and if a headline explains it, say why in plain words. If there is no news, you can note the move came '
+                 'without a clear headline. ' + ('Take a different angle than usual. ' if other else '') + 'Reply with the post text only.\n\n' + facts)
+    return clean_voice(out.strip().strip('"')) if out else f'{title}. {fmt_p(m["p0"])} → {fmt_p(m["p1"])}.'
+
+
+def coin_buttons(k, win):
+    b = [(('• ' if w == win else '') + w.upper(), f'cw:{k}:{w}') for w in ('1h', '24h', '7d')]
+    return b + [('🔄 Another sentence', f'cs:{k}'), ('📝 Full post', f'cp:{k}')]
+
+
+def coin_caption(d):
+    c = f'<code>{E(d["sentence"])}</code>'
+    if d.get('heads'):
+        h = d['heads'][0]
+        c += f'\n\n📰 <a href="{E(h["url"])}">{E(h["title"][:120])}</a> <i>({E(h["src"])}, {ago(h["ts"])})</i>'
+    return c + f'\n<i>Tap to copy · {d["src"]} candles</i>'
+
+
+def coin_view(q, tgs, msg_id=None):
+    """'$PEPE' / 'chart sol' / a movers button -> real chart + a ready sentence to post."""
+    coin = coin_by_id(q[3:]) if q.startswith('id:') else resolve_coin(q)
+    if not coin:
+        unack(); tg(f'Couldn\'t find a coin called <b>{E(q)}</b> on CoinGecko or Binance. Try its ticker, like <code>$PEPE</code>.'); return
+    win = coin_window(coin)
+    img, title, m = coin_render(coin, win)
+    if not img:
+        unack(); tg(f'No candle data for {E(coin["name"])} right now.'); return
+    heads = coin_heads(coin) if coin.get('id') else []
+    k = hashlib.md5((coin['sym'] + str(time.time())).encode()).hexdigest()[:10]
+    d = {'t': time.time(), 'coin': coin, 'win': win, 'title': title, 'm': m, 'heads': heads, 'src': m['src']}
+    d['sentence'] = coin_sentence(coin, title, m, heads)
+    tgs.setdefault('coins', {})[k] = d
+    tgs['coins'] = dict(sorted(tgs['coins'].items(), key=lambda kv: -kv[1]['t'])[:20])
+    unack()
+    tg(coin_caption(d), img, coin_buttons(k, win))
+
+
+def coin_switch(k, win, tgs, msg_id):
+    d = tgs.get('coins', {}).get(k)
+    if not d:
+        tg('That chart is too old. Ask again, e.g. <code>$PEPE</code>.'); return
+    chat_action()
+    img, title, m = coin_render(d['coin'], win)
+    if not img:
+        tg('No candle data for that window.'); return
+    d.update({'win': win, 'title': title, 'm': m, 'src': m['src']})
+    d['sentence'] = coin_sentence(d['coin'], title, m, d['heads'])
+    if not (msg_id and edit_photo(msg_id, img, coin_caption(d), coin_buttons(k, win))):
+        tg(coin_caption(d), img, coin_buttons(k, win))
+
+
+def coin_resentence(k, tgs, msg_id):
+    d = tgs.get('coins', {}).get(k)
+    if not d:
+        return
+    chat_action('typing')
+    d['sentence'] = coin_sentence(d['coin'], d['title'], d['m'], d['heads'], other=True)
+    try:
+        kb = {'inline_keyboard': [[{'text': a, 'callback_data': b} for a, b in row] for row in
+                                  [coin_buttons(k, d['win'])[i:i + 3] for i in range(0, 6, 3)]]}
+        requests.post(f'https://api.telegram.org/bot{TOKEN}/editMessageCaption', timeout=10,
+                      data={'chat_id': CHAT, 'message_id': msg_id, 'caption': coin_caption(d), 'parse_mode': 'HTML', 'reply_markup': json.dumps(kb)})
+    except Exception:
+        tg(coin_caption(d))
+
+
+def coin_fullpost(k, tgs):
+    d = tgs.get('coins', {}).get(k)
+    if not d:
+        return
+    c = d['coin']; h = d['heads'][0] if d['heads'] else None
+    secs, span, _ = WIN[d['win']]
+    make_post({'title': d['title'], 'url': h['url'] if h else '', 'src': h['src'] if h else d['src'], 'coin': c.get('id', ''), 'chart': True,
+               'tag': 'MARKET', 'focus': secs, 'span': span,
+               'facts': f'Real move: {d["m"]["mv"] * 100:+.1f}% in {d["m"]["win"]} ({fmt_p(d["m"]["p0"])} -> {fmt_p(d["m"]["p1"])}).\n'
+                        + ('\n'.join(f'- {x["title"]} ({x["src"]})' for x in d['heads']) if d['heads'] else 'No coin-specific news found; do not invent a reason.')})
+
+
+def movers_msg():
+    r = get('https://api.coingecko.com/api/v3/coins/markets', params={'vs_currency': 'usd', 'order': 'market_cap_desc', 'per_page': 250,
+                                                                       'page': 1, 'price_change_percentage': '1h,24h'})
+    try:
+        m = [{'id': c['id'], 'sym': c['symbol'].upper(), 'price': c['current_price'] or 0, 'h1': c.get('price_change_percentage_1h_in_currency') or 0,
+              'h24': c.get('price_change_percentage_24h_in_currency') or 0} for c in r.json() if not NOT_CRYPTO.search(c['name'])
+             and not re.search(r'usd|eur|dai|gold|wrapped|staked|bridged', c['name'], re.I)]
+    except Exception:
+        return None, None
+    by = {c['sym']: c for c in m}
+    upn = sum(1 for c in m if c['h24'] > 0)
+    head = f'📊 <b>Market pulse</b> · top 250 · updated {datetime.now(timezone.utc):%H:%M} UTC\n'
+    for sym in ('BTC', 'ETH', 'SOL'):
+        if sym in by:
+            c = by[sym]; head += f'{"🟢" if c["h24"] >= 0 else "🔴"} {sym} {fmt_p(c["price"])} ({c["h24"]:+.1f}%)   '
+    head += f'\n{"🟢" if upn >= len(m) / 2 else "🔴"} {upn} up · {len(m) - upn} down\n'
+    row = lambda c: f'{c["sym"][:6]:<6}{fmt_p(c["price"]):>11}{c["h24"]:>+8.1f}%{c["h1"]:>+7.1f}%'
+    up = sorted(m, key=lambda c: -c['h24'])[:5]; dn = sorted(m, key=lambda c: c['h24'])[:5]
+    fast = sorted(m, key=lambda c: -abs(c['h1']))[:4]
+    msg = (head + '\n🚀 <b>Top gainers</b>\n<pre>' + f'{"COIN":<6}{"PRICE":>11}{"24H":>9}{"1H":>8}\n' + '\n'.join(map(row, up)) + '</pre>'
+           + '\n🩸 <b>Top losers</b>\n<pre>' + '\n'.join(map(row, dn)) + '</pre>'
+           + '\n⚡ <b>Moving right now (1h):</b> ' + ', '.join(f'{c["sym"]} {c["h1"]:+.1f}%' for c in fast)
+           + '\n\n👇 Tap a coin → chart + sentence. Or type any coin, e.g. <code>$PEPE</code>')
+    btn = [(f'{"🚀" if c["h24"] > 0 else "🩸"} {c["sym"]}', f'm:{c["id"]}') for c in up + dn]
+    btn += [(f'⚡ {c["sym"]}', f'm:{c["id"]}') for c in fast if c not in up + dn][:2] + [('🔄 Refresh', 'mr:')]
+    return msg, btn
+
+
+def cmd_movers(tgs, msg_id=None):
+    msg, btn = movers_msg()
+    if not msg:
+        tg('Market data unavailable, try again in a minute.'); return
+    if msg_id:                                                       # refresh in place, no new message
+        kb = {'inline_keyboard': [[{'text': a, 'callback_data': b} for a, b in btn[i:i + 3]] for i in range(0, len(btn), 3)]}
+        r = requests.post(f'https://api.telegram.org/bot{TOKEN}/editMessageText', timeout=10,
+                          data={'chat_id': CHAT, 'message_id': msg_id, 'text': msg, 'parse_mode': 'HTML', 'reply_markup': json.dumps(kb)})
+        if r.ok or 'not modified' in r.text:
+            return
+    tg(msg, None, btn)
+
+
+# ---------------- on this day: real stories from past years ----------------
+FAMOUS = {  # well-documented dates only
+    (10, 31): [(2008, 'Satoshi Nakamoto publishes the Bitcoin whitepaper')],
+    (1, 3): [(2009, 'The Bitcoin genesis block is mined')],
+    (1, 12): [(2009, 'First Bitcoin transaction: Satoshi sends 10 BTC to Hal Finney')],
+    (5, 22): [(2010, 'Bitcoin Pizza Day: 10,000 BTC buys two pizzas')],
+    (11, 28): [(2012, 'Bitcoin\'s first halving')], (7, 9): [(2016, 'Bitcoin\'s second halving')],
+    (5, 11): [(2020, 'Bitcoin\'s third halving')], (4, 20): [(2024, 'Bitcoin\'s fourth halving')],
+    (2, 24): [(2014, 'Mt. Gox halts all trading and goes offline')],
+    (6, 17): [(2016, 'The DAO is hacked: about 3.6 million ETH drained')],
+    (7, 30): [(2015, 'Ethereum mainnet launches')], (8, 1): [(2017, 'Bitcoin Cash splits from Bitcoin')],
+    (12, 10): [(2017, 'Bitcoin futures start trading on CBOE')], (12, 17): [(2017, 'Bitcoin peaks near $20,000 for the first time')],
+    (3, 12): [(2020, 'Black Thursday: Bitcoin crashes about 40% in a day')],
+    (4, 14): [(2021, 'Coinbase goes public on Nasdaq')], (9, 7): [(2021, 'Bitcoin becomes legal tender in El Salvador')],
+    (8, 10): [(2021, 'Poly Network hacked for $611 million')],
+    (5, 9): [(2022, 'UST loses its dollar peg, starting the Terra/LUNA collapse')],
+    (9, 15): [(2022, 'The Ethereum Merge: Ethereum switches to proof of stake')],
+    (11, 8): [(2022, 'Binance announces a deal to rescue FTX')], (11, 11): [(2022, 'FTX files for bankruptcy')],
+    (11, 21): [(2023, 'CZ pleads guilty and steps down as Binance CEO')],
+    (1, 10): [(2024, 'The SEC approves the first spot Bitcoin ETFs')],
+    (12, 5): [(2024, 'Bitcoin crosses $100,000 for the first time')], (2, 21): [(2025, 'Bybit hacked for about $1.5 billion')],
+}
+OTD_JUNK = re.compile(r'price (analysis|prediction|today|update)|technical analysis|\bTA\b|forecast|could reach|should you|how to|'
+                      r'what is|explained|weekly|daily|newsletter|podcast|roundup|recap|markets? wrap|\?$', re.I)
+
+
+def on_this_day(tgs):
+    now = datetime.now(timezone.utc); md = (now.month, now.day)
+    ack(f'⏳ Digging through crypto history for {now:%B %d}…')
+    from concurrent.futures import ThreadPoolExecutor
+
+    def year(y):
+        try:
+            d = now.replace(year=y)
+        except ValueError:
+            return []
+        q = f'(bitcoin OR crypto OR ethereum OR blockchain) after:{(d - timedelta(days=1)):%Y-%m-%d} before:{(d + timedelta(days=1)):%Y-%m-%d}'
+        r = get('https://news.google.com/rss/search', timeout=10, params={'q': q, 'hl': 'en-US', 'gl': 'US', 'ceid': 'US:en'})
+        out = []
+        for e in (feedparser.parse(r.content).entries if r else [])[:40]:
+            ts = e.get('published_parsed')
+            if not ts:
+                continue
+            dt = datetime(*ts[:6], tzinfo=timezone.utc)
+            if abs((dt - d).total_seconds()) > 36 * 3600:
+                continue
+            t = html.unescape(e.get('title', '')); title = t.rsplit(' - ', 1)[0].strip(); src = t.rsplit(' - ', 1)[-1] if ' - ' in t else 'Google News'
+            if OTD_JUNK.search(title) or len(title) < 30:
+                continue
+            sc = sum(p for rx, p in KEYWORDS if re.search(rx, title.lower()))
+            out.append({'year': y, 'title': title, 'src': src, 'url': e.get('link', ''), 'sc': sc, 'ts': dt.timestamp()})
+        return out
+    with ThreadPoolExecutor(8) as ex:
+        found = [h for lst in ex.map(year, range(2013, now.year)) for h in lst]
+    best, seen = [], []                                              # best story per year, no near-duplicates
+    for h in sorted(found, key=lambda h: -h['sc']):
+        sig = story_sig(h['title'])
+        if h['sc'] < 12 or sum(1 for b in best if b['year'] == h['year']) >= 2 or any(same_story(sig, x) for x in seen):
+            continue
+        best.append(h); seen.append(sig)
+    best = sorted(best[:6], key=lambda h: h['year'])
+    r = get('https://api.llama.fi/hacks')
+    hacks = sorted([(datetime.fromtimestamp(float(h.get('date', 0)), timezone.utc).year, h) for h in (r.json() if r else [])
+                    if (lambda dt: (dt.month, dt.day) == md and dt.year < now.year)(datetime.fromtimestamp(float(h.get('date', 0)), timezone.utc))
+                    and float(h.get('amount') or 0) >= 5e6], key=lambda x: -float(x[1].get('amount') or 0))[:3]
+    msg, btn, n = f'📜 <b>On this day in crypto · {now:%B %d}</b>\nTap a number → full story post\n', [], 0
+    for y, title in FAMOUS.get(md, []):
+        n += 1; k = hashlib.md5(f'otd{y}{title}'.encode()).hexdigest()[:12]
+        tgs['menu'][k] = {'t': time.time(), 'title': f'{title} ({now:%B %d}, {y})', 'url': '', 'src': 'Crypto history', 'tag': 'TRUE STORY',
+                          'story': True, 'facts': f'On {now:%B %d}, {y}: {title}. (Well-documented crypto history.)'}
+        msg += f'\n<b>{n}.</b> 📌 <b>{y}</b> · {E(title)}'; btn.append((f'📝 {n}', 'p:' + k))
+    for h in best:
+        n += 1; k = hashlib.md5(h['url'].encode()).hexdigest()[:12]
+        tgs['menu'][k] = {'t': time.time(), 'title': h['title'], 'url': h['url'], 'src': h['src'], 'tag': 'TRUE STORY', 'story': True,
+                          'urls': [h['url']], 'facts': f'This happened on {now:%B %d}, {h["year"]} ({now.year - h["year"]} years ago today). '
+                                                       f'Headline from that day: {h["title"]} ({h["src"]}).'}
+        msg += f'\n<b>{n}.</b> <b>{h["year"]}</b> · {E(h["title"])} <i>({E(h["src"])})</i>'; btn.append((f'📝 {n}', 'p:' + k))
+    for y, h in hacks:
+        n += 1; hk = hack_item(h, tgs)
+        msg += f'\n<b>{n}.</b> 🏴‍☠️ <b>{y}</b> · {E(str(h.get("name")))} hacked for ${float(h.get("amount") or 0)/1e6:,.1f}M'; btn.append((f'📝 {n}', 'p:' + hk['key']))
+    unack()
+    if n == 0:
+        tg(f'📜 Nothing notable found for {now:%B %d}. Try <code>/story Mt Gox</code> to research any story.'); return
+    tg(msg[:4000], None, btn[:12])
 
 
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
@@ -1390,7 +1731,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '<b>Make posts from anything</b>\n'
         '• <b>Forward</b> any news message from another channel to me → full post\n'
         '• <b>Paste a link</b> to any article → full post\n'
-        '/chart BTC — pro candle chart (add 7d, 30d or 1y)\n\n'
+        '• <b>Type any coin</b> (<code>$PEPE</code>, <code>chart sol</code>) → real chart + a ready sentence\n\n'
         '<b>Alerts</b>\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
 COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
@@ -1433,57 +1774,6 @@ def send_coin_chart(coin, span='1d'):
        [(x.upper(), f'c:{coin["id"]}:{x}') for x in ('1d', '7d', '30d', '1y') if x != span])
 
 
-def cmd_movers(tgs):
-    m = [c for c in collect_market() if c['rank'] <= 100]
-    if not m:
-        tg('Market data unavailable, try again in a minute.'); return
-    by = {c['sym']: c for c in m}
-    upn = sum(1 for c in m if c['h24'] > 0)
-    head = '📊 <b>Market pulse</b> · top 100 coins, 24h\n'
-    for sym in ('BTC', 'ETH', 'SOL'):
-        if sym in by:
-            c = by[sym]; head += f'{"🟢" if c["h24"] >= 0 else "🔴"} {sym} ${c["price"]:,.0f} ({c["h24"]:+.1f}%)   '
-    head += f'\n{"🟢" if upn >= 50 else "🔴"} {upn} up · {100 - upn if len(m) >= 100 else len(m) - upn} down\n'
-    pf = lambda v: f'${v:,.0f}' if v >= 1000 else f'${v:,.2f}' if v >= 1 else f'${v:.4g}'
-    row = lambda c: f'{c["sym"][:6]:<6}{pf(c["price"]):>11}{c["h24"]:>+8.1f}%{c["h1"]:>+7.1f}%'
-    up = sorted(m, key=lambda c: -c['h24'])[:5]; dn = sorted(m, key=lambda c: c['h24'])[:5]
-    fast = sorted(m, key=lambda c: -abs(c['h1']))[:3]
-    msg = (head + '\n🚀 <b>Top gainers</b>\n<pre>' + f'{"COIN":<6}{"PRICE":>11}{"24H":>9}{"1H":>8}\n' + '\n'.join(map(row, up)) + '</pre>'
-           + '\n🩸 <b>Top losers</b>\n<pre>' + '\n'.join(map(row, dn)) + '</pre>'
-           + '\n⚡ <b>Moving right now (1h):</b> ' + ', '.join(f'{c["sym"]} {c["h1"]:+.1f}%' for c in fast)
-           + '\n\n👇 Tap a coin → real chart + why it moved')
-    tg(msg, None, [(f'{"🚀" if c["h24"] > 0 else "🩸"} {c["sym"]}', f'm:{c["id"]}') for c in up + dn])
-
-
-def coin_move(cid, tgs):
-    """Chart + likely reason (real headlines) for one mover, with a button to turn it into a post."""
-    coin = coin_by_id(cid)
-    if not coin:
-        tg('Coin data unavailable right now.'); return
-    rows, src, lab = candles(coin, '1d')
-    mv = recent_move(rows, 86400)[0] if rows else coin['h24'] / 100
-    verb = 'surges' if mv >= 0 else 'drops'
-    title = f'{coin["name"]} {verb} {abs(mv) * 100:.1f}% in 24 hours'
-    junk = r'predict|could be worth|millionaire|should you buy|buy now|top \d|which is|best crypto|to buy|forecast|\?$'
-    heads = [h for h in gnews(f'"{coin["name"]}" crypto', 15) if re.search(re.escape(coin['name']) + '|' + re.escape(coin['sym']), h['title'], re.I)
-             and not re.search(junk, h['title'], re.I) and time.time() - h['ts'] < 36 * 3600][:3]
-    try:
-        img = card.chart_card(title, coin, rows, lab, 'MOVER', src, focus=86400)[0] if rows else None
-    except Exception as e:
-        print('mover card fail', repr(e)); img = None
-    msg = f'<b>{E(coin["name"])} ({coin["sym"]})</b> · ${coin["price"]:,.6g}\n24h {coin["h24"]:+.1f}% · 1h {coin["h1"]:+.1f}%\n\n'
-    if heads:
-        msg += '📰 <b>What the news says</b>\n' + '\n'.join(f'• <a href="{E(h["url"])}">{E(h["title"])}</a> <i>({E(h["src"])}, {ago(h["ts"])})</i>' for h in heads)
-    else:
-        msg += '📰 No coin-specific news in the last 2 days. The move looks market-driven.'
-    k = hashlib.md5((cid + str(int(NOW / 600))).encode()).hexdigest()[:12]
-    tgs['menu'][k] = {'t': NOW, 'title': title, 'url': heads[0]['url'] if heads else '', 'src': heads[0]['src'] if heads else 'CoinGecko',
-                      'coin': cid, 'chart': True, 'tag': 'MARKET', 'focus': 86400, 'span': '1d',
-                      'facts': 'Recent headlines about this coin:\n' + '\n'.join(f'- {h["title"]} ({h["src"]}, {ago(h["ts"])})' for h in heads)
-                               + ('' if heads else 'No coin-specific news found; do not invent a reason, say the move looks market-driven.')}
-    tg(msg, img, [('📝 Make full post', 'p:' + k), ('7D', f'c:{cid}:7d'), ('30D', f'c:{cid}:30d')])
-
-
 def cmd_hacks(tgs):
     r = get('https://api.llama.fi/hacks')
     hs = sorted([h for h in (r.json() if r else []) if NOW - float(h.get('date', 0)) < 30 * 86400],
@@ -1509,58 +1799,6 @@ def hack_item(h, tgs):
     return it
 
 
-def on_this_day(tgs):
-    now = datetime.now(timezone.utc); md = (now.month, now.day)
-    tg(f'⏳ Digging through crypto history for {now:%B %d}…')
-    btc_now = (coin_by_id('bitcoin') or {}).get('price', 0)
-    prices = []
-    for yrs in (1, 2, 3, 5, 8, 10):
-        try:
-            d = now.replace(year=now.year - yrs)
-        except ValueError:
-            continue
-        rows = coinbase('BTC', 86400, d.timestamp(), d.timestamp() + 86400)
-        if rows:
-            prices.append((d.year, rows[0][4]))
-    r = get('https://api.llama.fi/hacks')
-    hacks = []
-    for h in (r.json() if r else []):
-        dt = datetime.fromtimestamp(float(h.get('date', 0)), timezone.utc)
-        if (dt.month, dt.day) == md and dt.year < now.year and float(h.get('amount') or 0) >= 1e6:
-            hacks.append((dt.year, h))
-    hacks.sort(key=lambda x: -float(x[1].get('amount') or 0))
-    msg, btn = f'📜 <b>On this day in crypto · {now:%B %d}</b>\n', []
-    if prices:
-        msg += '\n💰 <b>Bitcoin on this date</b> <i>(and change to today)</i>\n<pre>' + '\n'.join(f'{y}  ${p:>10,.0f}   {(btc_now / p - 1) * 100:>+8,.0f}% since' for y, p in prices) \
-               + (f'\nNow  ${btc_now:>10,.0f}' if btc_now else '') + '</pre>'
-        y0, p0 = prices[-1]
-        tgs['otd'] = {'year': y0, 'then': p0, 'now': btc_now, 'date': now.strftime('%b %d')}
-        btn.append((f'📈 BTC {y0} vs today', 'o:btc'))
-    if hacks:
-        msg += '\n🏴‍☠️ <b>Hacks that happened on this date</b>\n'
-        for n, (y, h) in enumerate(hacks[:4], 1):
-            hk = hack_item(h, tgs)
-            msg += f'<b>{n}.</b> {y} · {E(str(h.get("name")))} · ${float(h.get("amount") or 0)/1e6:,.1f}M · {E(hk["hack"]["method"])}\n'
-            btn.append((f'📝 Hack {n}', 'p:' + hk['key']))
-    if not prices and not hacks:
-        msg += '\nNothing found for today. Try <code>/story Mt Gox</code> to research any story.'
-    tg(msg + '\nTip: <code>/story Do Kwon</code> researches any story → thread + Shorts script.', None, btn)
-
-
-def otd_card(tgs):
-    o = tgs.get('otd')
-    if not o:
-        tg('Send /story first.'); return
-    pct = (o['now'] / o['then'] - 1) * 100
-    card.FOOTER_LEFT = ''
-    img = card.versus_card(f'Bitcoin on this day: {o["year"]} vs today', (f'{o["date"]}, {o["year"]}', f'${o["then"]:,.0f}'),
-                           ('Today', f'${o["now"]:,.0f}'), f'That is {pct:+,.0f}% in {datetime.now(timezone.utc).year - o["year"]} years.', 'MARKET', 'Coinbase daily candles',
-                           (card.MUT, card.GRN if pct >= 0 else card.RED))
-    post = f'Bitcoin on this day in {o["year"]}: ${o["then"]:,.0f}.\nToday: ${o["now"]:,.0f}.\n\nThat\'s {pct:+,.0f}%. Every chart hides a story.'
-    tg(f'<b>Bitcoin: {o["year"]} vs today</b>', img)
-    tg(f'📝 <b>POST</b> (tap to copy)\n<code>{E(post)}</code>')
-
-
 def research_story(topic):
     tg(f'🔎 Researching <b>{E(topic)}</b> from real headlines…')
     heads = gnews(topic, 15, recent=False)
@@ -1579,7 +1817,7 @@ def handle(u, tgs):
         return                                          # only obey the owner
     if cb:
         data = cb.get('data') or ''
-        toast = 'On it…'
+        toast = 'Refreshing…' if data == 'mr:' else 'On it…'
         if data.startswith('f:'):
             _, k, val = data.split(':', 2); toast = on_feedback(k, val, tgs)
         elif data.startswith('ps:'):
@@ -1588,6 +1826,7 @@ def handle(u, tgs):
             requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'], 'text': toast}, timeout=10)
         except Exception:
             pass
+        mid = (cb.get('message') or {}).get('message_id')
         if data.startswith('f:'):
             return
         if data.startswith('ps:'):
@@ -1613,9 +1852,15 @@ def handle(u, tgs):
         elif data == 'r:':
             live_top(tgs)
         elif data.startswith('m:'):
-            coin_move(data[2:], tgs)
-        elif data == 'o:btc':
-            otd_card(tgs)
+            chat_action(); coin_view('id:' + data[2:], tgs)
+        elif data == 'mr:':
+            cmd_movers(tgs, mid)
+        elif data.startswith('cw:'):
+            _, k, w = data.split(':', 2); coin_switch(k, w, tgs, mid)
+        elif data.startswith('cs:'):
+            coin_resentence(data[3:], tgs, mid)
+        elif data.startswith('cp:'):
+            ack(); coin_fullpost(data[3:], tgs)
         elif data.startswith('c:'):
             _, cid, span = (data.split(':') + ['1d'])[:3]
             coin = coin_by_id(cid)
@@ -1642,7 +1887,10 @@ def handle(u, tgs):
         if not send_cached_top():
             live_top(tgs)
     elif c == '/chart':
-        cmd_chart(args)
+        if args and args[0].lower() not in SPANS:
+            ack(f'⏳ Pulling the {args[0].upper()} chart…'); coin_view(args[0], tgs)
+        else:
+            cmd_chart(args)
     elif c == '/reply':
         if args and XLINK.search(args[0]):
             cmd_reply(args[0], tgs)
@@ -1652,6 +1900,8 @@ def handle(u, tgs):
             tg('Send <code>/reply</code> + an X post link — or just paste/share the link to me.')
     elif XLINK.search(t) and not fwd:
         cmd_reply(XLINK.search(t).group(0), tgs)
+    elif not fwd and len(t) <= 40 and coin_query(t):
+        q = coin_query(t); ack(f'⏳ Pulling the {q.upper()} chart…'); coin_view(q, tgs)
     elif c == '/movers':
         cmd_movers(tgs)
     elif c == '/hacks':
@@ -1714,7 +1964,7 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
             scheduler(tgs)
         except Exception as e:
             print('scheduler fail', repr(e))
-        if time.time() - last_scan > 600 and not (scan_t[0] and scan_t[0].is_alive()):   # news scan every 10 min
+        if time.time() - last_scan > 300 and not (scan_t[0] and scan_t[0].is_alive()):   # news + movers scan every 5 min
             last_scan = time.time(); scan_t[0] = threading.Thread(target=safe_scan, daemon=True); scan_t[0].start()
         try:
             r = requests.get(f'https://api.telegram.org/bot{TOKEN}/getUpdates', timeout=40,
@@ -1752,7 +2002,7 @@ if __name__ == '__main__':
                 open(f'state/selftest/{n[0]:02d}.png', 'wb').write(photo)
         globals()['tg'] = fake_tg
         t = {'menu': {}}
-        cmd_movers(t); coin_move('solana', t); on_this_day(t); otd_card(t)
+        cmd_movers(t); coin_view('SOL', t); on_this_day(t)
         st = load_state()
         for k, it in list(st.get('menu', {}).items())[:40]:
             if it.get('coin') and it.get('t0'):
