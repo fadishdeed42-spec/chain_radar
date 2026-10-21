@@ -1,5 +1,6 @@
 {
 "brief12": "2026-10-21",
+"brief17": "2026-10-21",
 "coins": {
 "efe07dd5d4": {
 "coin": {
@@ -565,6 +566,38 @@
 },
 "t": 1792443839.901936
 },
+"f1c05a6305": {
+"coin": "",
+"facts": "Headline: Drift Exploiter Moves $61.56 Million in Ether to Tornado Cash, Still Holds $194 Million: 10 outlets compared\nSources: Crypto News, NewsCord, Pluang, Startup Fortune\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "NewsCord",
+"story": null,
+"t0": 1792581960.0,
+"tag": null,
+"title": "Drift Exploiter Moves $61.56 Million in Ether to Tornado Cash, Still Holds $194 Million: 10 outlets compared",
+"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU2tHd3RULWpkb25KUG44cDdWV01ZdTBjWDdUbDNFNFhWemd6T3Y4ZTVkY3FQNFFEb19NSWZiaDV0UnZBWUoxTXEwQjJnSjJkcGpQYlJJejFkY3c4ZmJHbnpPYWs3V01QcU9GTHA1VWRsRzJiNTJZSWpodUJzWGs5eFNRTzFWR19wWHY5VmtaUURRU2w0R19GOUFlbmNnTTd4WFBJdENhMjY4eGNUX1RiT0E3TDZJdEE5WW52djlZN2hEZVRPc2RMMEFBWi11Z05FOXBidDFxeEIxUnE5NmJyS0JBRENNeVNFMUE?oc=5"
+},
+"p": {
+"keyfact": "The Drift exploiter transferred 61.56 million dollars in Ether to Tornado Cash while holding 194 million.",
+"post": "The Drift exploiter just moved 61.56 million dollars in Ether to Tornado Cash. Despite this massive laundering transfer, the attacker still holds 194 million in funds. Tracking these wallet movements remains crucial as stolen capital flows through privacy tools. #Drift",
+"quote": "NONE",
+"reply": "On-chain trails never sleep when millions in stolen funds move through privacy tools.",
+"short": "",
+"stat": "$61.56M | Ether sent to Tornado Cash",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "",
+"timeline": "NONE",
+"title": "$61.56M moved after Drift Protocol exploit",
+"versus": "NONE",
+"visual": "ALERT"
+},
+"t": 1792602423.1186259
+},
 "f68e6b6cf4": {
 "coin": "",
 "facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
@@ -971,7 +1004,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489247,
+"offset": 138489250,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
