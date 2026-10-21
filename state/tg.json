@@ -907,7 +907,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489259,
+"offset": 138489263,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
@@ -1003,8 +1003,26 @@
 "likes": 7,
 "ts": 1792613440
 },
-"t": 1792613562.1317358,
+"stance": "agree",
+"styles": [
+"question"
+],
+"t": 1792613581.158786,
 "text": "\ud83d\udea8 LATEST: Grayscale says GPU rental prices are hitting new highs while compute stocks hover near one-year lows as AI agent demand accelerates.\n\nIs the market underestimating AI demand?"
+},
+"2113000626158538949": {
+"author": "BitcoinMagazine",
+"post": {
+"likes": 13,
+"ts": 1792613581
+},
+"stance": "neutral",
+"styles": [
+"context",
+"numbers"
+],
+"t": 1792613671.0982442,
+"text": "NEW: \ud83c\uddfa\ud83c\uddf8 SpaceX did not sell any of its 18,712 BTC treasury in Q3 2026, remaining one of the largest publicly traded companies holding bitcoin! \ud83d\ude80"
 }
 },
 "story_i": 2
