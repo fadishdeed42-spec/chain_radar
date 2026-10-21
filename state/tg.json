@@ -1,5 +1,44 @@
 {
 "brief12": "2026-10-21",
+"coins": {
+"efe07dd5d4": {
+"coin": {
+"h1": -0.6029,
+"h24": -14.23614,
+"id": "basic-attention-token",
+"name": "Basic Attention",
+"price": 0.178597,
+"rank": 153,
+"sym": "BAT"
+},
+"heads": [
+{
+"src": "AMBCrypto",
+"title": "Basic Attention Token \u2013 Why BAT crypto\u2019s 12% rally could face THIS test",
+"ts": 1792508402.0,
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDBSdmpqeHQ2T2JPM2ZBZFF5UllpN2VWcVVDOHowZFJuZzVRcGd2QXo5Zm41Xy1xbjF2WUE5bUJza3FKckFtVUJYeng2MmgydENzblJQS2FZRGQtenUzdk0xdzdiVktVVkRVTVZzajh1MlhKSEVUN3VXbWZRQTZ2OGhrdjlWRzBNYXYyZTZFTUsxTnVH?oc=5"
+},
+{
+"src": "Pluang",
+"title": "Basic Attention Token surges 12.28% as Brave br...",
+"ts": 1792509956.0,
+"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRzZiMEVfYTd3QTljYUlZLS1DeDlTSTdya2Z2Q0J6akdqLXFTa3ZIWkRpc0htek03bHltY2k5d3BRcXFHOW54eGNaREgxaDMzcFBkSGtCY1VkNHdPVnlFWkZRb3dTYkx2Uk1ERzQ4YTM1Tk00a3h4YWhYaTdMNTNUdWRZUE1TZDZjRFMyYzFfQ2VfdlE?oc=5"
+}
+],
+"m": {
+"mv": -0.15042979942693413,
+"p0": 0.2094,
+"p1": 0.1779,
+"src": "Binance",
+"win": "24 hours"
+},
+"sentence": "BAT dropped 15% over the last 24 hours, sliding from $0.2094 to $0.1779. The pullback follows yesterday's brief 12% rally sparked by Brave browser updates.",
+"src": "Binance",
+"t": 1792592521.2685552,
+"title": "Basic Attention plunges 15.0% in 24 hours",
+"win": "24h"
+}
+},
 "designs": {
 "0d2a84a24d": {
 "coin": "bitcoin",
@@ -796,7 +835,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489232,
+"offset": 138489239,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
@@ -843,6 +882,17 @@
 "author": "cryptorover",
 "t": 1792582360.9404995,
 "text": "BREAKING: \ud83c\uddfa\ud83c\uddf8 US banking regulator OCC finalizes its first rules under Trump\u2019s GENIUS Act, paving the way for nationwide stablecoin regulation.\n\nHUGE step for crypto adoption! \ud83d\ude80"
+},
+"2112913597793980538": {
+"author": "BitcoinMagazine",
+"styles": [
+"history",
+"question",
+"calm_take",
+"numbers"
+],
+"t": 1792593018.6986723,
+"text": "JUST IN: $84,003 Bitcoin \ud83d\ude80"
 }
 },
 "story_i": 2
