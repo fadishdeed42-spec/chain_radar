@@ -844,7 +844,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Crypto Exploit: How ARRR Users Upgrade Wallets?",
@@ -876,7 +876,7 @@
 "Crypto Briefing",
 "Crypto Economy"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
 "title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
@@ -1178,9 +1178,10 @@
 "coin": "bitcoin",
 "src": "Bitcoin Magazine",
 "srcs": [
-"Bitcoin Magazine"
+"Bitcoin Magazine",
+"CryptoRank"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1196,7 +1197,7 @@
 "Coinfomania",
 "Lookonchain"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1284,7 +1285,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792666493.0,
 "tgtext": "",
 "title": "Crypto Today: Bitcoin, Ethereum, XRP fall despite net ETF inflows",
@@ -1583,7 +1584,7 @@
 "Help Net Security",
 "The Eastleigh Voice"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792656186.0,
 "tgtext": "",
 "title": "INTERPOL cybercrime crackdown nets 1,462 suspects, recovers Sh13.6 billion",
@@ -1694,7 +1695,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792674000.0,
 "tgtext": "",
 "title": "DWF Labs finds Bitcoin ETF buyers follow trends, not set them",
@@ -1873,7 +1874,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792673766.0,
 "tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed. \u2014 link",
 "title": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence",
@@ -1997,7 +1998,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792670400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $SOFI launches FDIC-insured tokenized deposits.\n\n@WatcherGuru",
 "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
@@ -2509,6 +2510,22 @@
 "title": "Drift hack: ether worth $61m into Tornado Cash",
 "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FVHZLdkVlSDVxOWZDYVBKY3BJc1hRWGVELV9rSnUzOVhZR3hOTGhjdUt3TnlHWFJSQVU0c2dlRkVIVjRxdEoydHZFSUZBb2Q2QlFKaUVQR0hKZlZwZi1yVkpJZUI1c21zWnNDMA?oc=5",
 "urls": []
+},
+"ac06d2f5b3a1": {
+"coin": "bitcoin",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine",
+"CryptoRank"
+],
+"t": 1792677424.7040906,
+"t0": 1792675749.0,
+"tgtext": "",
+"title": "Retail Money is \u201cDead\u201d \u2013 Wall Street is how Bitcoin Actually Wins",
+"url": "https://bitcoinmagazine.com/videos/retail-money-is-dead-wall-street-is-how-bitcoin-actually-wins",
+"urls": [
+"https://bitcoinmagazine.com/videos/retail-money-is-dead-wall-street-is-how-bitcoin-actually-wins"
+]
 },
 "acbaae0b7cbf": {
 "coin": "bitcoin",
@@ -3406,7 +3423,7 @@
 "Cryptonews.net",
 "The Guardian"
 ],
-"t": 1792677118.5232675,
+"t": 1792677730.3309271,
 "t0": 1792659962.0,
 "tgtext": "",
 "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
@@ -6442,65 +6459,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"37eda6f9a046",
-49,
-346,
-13
-],
-[
-"7fddf41140c7",
-43,
-56,
-2
-],
-[
 "4aa0b9cd350c",
-43,
-19,
-1
+61,
+29,
+2
 ],
 [
-"72b7cf88b328",
-42,
-52,
-2
+"37eda6f9a046",
+48,
+356,
+12
 ],
 [
 "f15a6af0add4",
-41,
-286,
-3
-],
-[
-"37c2af22bf36",
 40,
-264,
-2
+296,
+3
 ],
 [
 "8821587405a8",
 40,
-112,
+122,
 4
 ],
 [
-"4ab0fe580482",
-38,
-268,
+"37c2af22bf36",
+39,
+274,
 2
 ],
 [
 "679af3f653ee",
-37,
-349,
+36,
+359,
+2
+],
+[
+"4ab0fe580482",
+36,
+279,
+2
+],
+[
+"7fddf41140c7",
+35,
+66,
 2
 ],
 [
 "51394322acc4",
 34,
-177,
+187,
+2
+],
+[
+"72b7cf88b328",
+34,
+62,
 2
 ]
 ],
-"top_at": 1792677118.5232675
+"top_at": 1792677730.3309271
 }
