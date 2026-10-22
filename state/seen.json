@@ -421,13 +421,27 @@
 "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTVVUS293bUJ6T3U4STExMzhCbnNLNHpNYy1rZzFOVllOUjNuQjN2a2VPNDBtczZFcGZVUXhHMlMwTDZyS21jeUExTVZad014ZkNxYXZDc3RKenFlX2VuZTZqVlFQX2RFTFFlNjhPTVowVzVlZkpnWWdUSUpKSWZxa005TXM3THA0VFJwM2x0S1FQZHdGWlNnbEJQRQ?oc=5",
 "urls": []
 },
+"1c4f8e82fdf1": {
+"coin": "tether",
+"src": "Crowdfund Insider",
+"srcs": [
+"Crowdfund Insider",
+"Hollywood Unlocked"
+],
+"t": 1792710416.9066277,
+"t0": 1792696878.0,
+"tgtext": "",
+"title": "Colombian Crypto Broker \u201cRey\u201d Sentenced to Prison for Laundering $14.5M in Drug Proceeds via USDT",
+"url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNWNqeDBPbTZLeXoyZ1U0bWYtZGN3VEpUSmliVzFBbnkzR0RhTEc4UUxFWVZGMzhRc3dOWlZGbWNNYkIybFg0bmEyU2NjNUpnaGtlSTQ2VmJkUG1lbEJDcTR4eTg3OUJ5cnlUT2duNUQyZklIZFgzbjV1MVhPZHlQMmhEQ1YzMUp4X0hvVFFKOW9WckdKcC1MZE9xSHktNkZ3bklscDExQURiamRCUGVOYkdvcmdZdjZvaVpBZjRpV1MwSUxpUnNKZ203Nm40M3J1ODBtUmlUeHZIZVE?oc=5",
+"urls": []
+},
 "1d79808dd5aa": {
 "coin": "",
 "src": "The Crypto Times",
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792697431.0,
 "tgtext": "",
 "title": "Blockaid Warns of DeFi Monitoring Gap After Balancer Exploit",
@@ -654,19 +668,6 @@
 "tgtext": "",
 "title": "Trust Wallet Dismisses Speculation Regarding Potential Security Impact From PHP Exploit",
 "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1BqcnBndFdLRDRvclNyWGpBZjNzTnFhY0k0eXd6aXZGYTBVZk91ZHZ1aGFfRUp3UnBBYkQ0N2FvVzRNQUNpU094aFY4UXROWl8tVHJGc1dfb1RQVmk4Ql9yTHpvNDdyRTZFWVlnNDc4NUNYU3NzdTdIbmE5aFQtZFRUdFc2QVA3VWtYbmdkSktCZ3hsLU5jOUJtMl9FTTE4bXpKMFhldW03RDh0VTJKMmxnalNzQQ?oc=5",
-"urls": []
-},
-"2df6b33ee67a": {
-"coin": "ethereum",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap",
-"Cryptonews.net"
-],
-"t": 1792537324.2143998,
-"t0": 1792525778.0,
-"title": "Drift Exploiter Sends $61M in ETH to Tornado Cash After 2-Month Lull",
-"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRGptNHkyTDRoRkR5WFB6M3hTMFhjUWRsdjRTVjdld2NKb3ZhZ2hyZkJ6eWM0QjNnQUFUV2lYRW55SHlnNzlwX2paUmM2M096UTVFb2wyMFRtWFNEbTdOd0IwYl8yd0p0UVpITkw0cEQwZ0lUZzM2Q1d5SllxQTZzZG9kdGdXUjdx?oc=5",
 "urls": []
 },
 "2ed85a938f3e": {
@@ -1051,7 +1052,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792700779.0,
 "tgtext": "",
 "title": "Over $210M in long crypto bets liquidated as Bi...",
@@ -1451,7 +1452,7 @@
 "srcs": [
 "CoinMarketCap"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792704300.0,
 "tgtext": "",
 "title": "XRP Declines 3.4% Amid Whale Deposits, Weak ETF Flows",
@@ -1676,7 +1677,7 @@
 "Forbes",
 "The Crypto Times"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792695844.0,
 "tgtext": "",
 "title": "Bitcoin Plunges Below $81,000 As 'Everything' Sell-Off Fuels Losses",
@@ -1941,7 +1942,7 @@
 "Blueprint Newspapers",
 "Sahara Reporters"
 ],
-"t": 1792709499.091617,
+"t": 1792710416.9066277,
 "t0": 1792692990.0,
 "tgtext": "",
 "title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
@@ -2084,15 +2085,16 @@
 },
 "931128fa35cb": {
 "coin": "bitcoin",
-"src": "Pluang",
+"src": "The Economic Times",
 "srcs": [
-"Pluang"
+"Pluang",
+"The Economic Times"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792692326.0,
 "tgtext": "",
-"title": "Bitcoin falls below $81K despite $1B ETF inflows, triggering $412M in long liquidations.",
-"url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUXkzdjY5dVA4Q3lTcm1IM1JxcGdjLUk0TllZdHI5YnVuTWJOZlFDMkFXZGl6TjJVTUVLcHpRcGRaZlRnWTFLOUxEaUNxX3pROGYzOVdhVnRTRG11M3pZSUxURmp2OERSanJJLXhfb2dvdzU3dzA4a0N1VDBxc1BNTS0xSGthRjNmTW50N09odnBTcU5PT3dMdg?oc=5",
+"title": "Why are Bitcoin price (BTC USD), Ethereum, XRP and Dogecoin falling despite ETF inflows as crypto liquidat",
+"url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNa25LTVd6LU8tSG5uZ2JPcFE1QkNtNWFDbWJkTG40Yi1scVN3eE5MYUNmbDBTV1N1alhnazFtTjdYNjhNMk00UHdwazlPTXJOWnkzU3hxeE5ORVNUQWpZM1NiNlpIam5iZ0k1OUlWeWJSTlE0ZFJBQTBNeXVqd25DdVdwa3dncHlxSEdEMlkxaG9jclVnc2ZRemNLTS1RN3R1YnZzVlpGN3BkajNMam5IeWM2N1haM1I4UE4yUnBQUER3TlRCWlZPaUhmWVpZWU5kM0QxLVkwcXZiUjJfREI2YV82dnJUUHEtUERjckx2bG1jdkRZdnhXZjhFbUNfN3hxZ2oxa3d4Ry1OcnNlS09OQm0ycXo1QlRZblp30gGgAkFVX3lxTE04V2J0Z2xsZUJBWlAwWnpLUC02VEs5LXJUbEsxcWVjYWVfRGhfWXd0bVFBVUh0VFh0cThqUDlKTnpuNkZCWnVhcXJvVDlidUx1UF9oRk56U1Y5bDRRTFZWQjJYc1dlQ2VWZkhXd0YyYmVpaVJ0UjZuYVlFcUZKRTdJc1l2X1ZXVTJ0cnA2TkVMc21SNmdaT1JFSzBhTlVVaEE2Umh0REVmRzUtbjNRbU5JdFZfNDZhOG1FM1pQY3BjNmxTbDF3Q0lUb2cwZEt5R09mN1A0RnlLZTJoMXpRNDVxTzJMQzhrcHliSmlkS3Brd0V4Yk12TVNZRUw0TmxCand4RkgwUVRpaTVXQ1pYZnVqUEx6dnQwdmdVZV80YVBlTw?oc=5",
 "urls": []
 },
 "945ec6f6fa39": {
@@ -2133,7 +2135,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792701676.0,
 "tgtext": "Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits\n\nAccording to Bloomberg, a Circle shareholder has sued President Donald Trump and World Liberty Financial, alleging that Trump violated the U.S. Constitution\u2019s Foreign Emoluments Clause through two UAE-linked transactions: the $500 million sale of a 49% stake in World Liberty and a $2 billion Binance investment funded using its USD1 stablecoin. The plaintiff claims the deals harmed Circle investors through unfair competition and seeks the return of alleged illegal profits and damages. Circle said it was not involved in the lawsuit, while World Liberty denied the allegations. \u2014 link\n\ud83d\udea8 JUST IN: A new lawsuit accuses Trump and World Liberty Financial of illegally profiting from more than $2 billion in UAE-linked crypto deals.\n\nNews | Markets | YouTube",
 "title": "Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits",
@@ -2268,18 +2270,6 @@
 "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMmo1T2hSSTBpMW42aFVieWM4cGdGdFlYUkU2TDNTcUZlNzFDdEJuVFM3N2ZKUWNSdEN2ZjNqQ3VzWmRtNEJEQXRPOHd0WWVhcEtWVUxnNDZNUHMwZ3RuSUllYnJ1YmFBeDlBaUVDTktSc1FZLXljVDdiM1JQQ3dzMFk0N3ZXSHZqUUR0X25ieDZXQThGQ1BXNEZqeHdoNFlwVVZrYXI2dnVfV0g5akxSa0hCTWhTaEExRHExa3JzWE5GV3NaeDFZOGNXSDJtUTd2UnRnenEzaGtjU01YalplY1cyXzdleWQ3TjVXbVZn?oc=5",
 "urls": []
 },
-"9fd7df84b2cf": {
-"coin": "bitcoin",
-"src": "Cryptonews.net",
-"srcs": [
-"Cryptonews.net"
-],
-"t": 1792537324.2143998,
-"t0": 1792535183.0,
-"title": "Bitcoin Faces Recovery Test as USDT Sees $1 Billion Outflow",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81X3lIeUdnMzNCTjdVbXU0RG9mSGNwRnFuNzhRVHNYVWd4a1RWUW41dXJPTTVzUHkycUJoby1Kcm0xQU1PcVZhWXJEUXZmVl9XU0xfb0dZN20?oc=5",
-"urls": []
-},
 "a0ea667ba177": {
 "coin": "",
 "src": "CryptoPotato",
@@ -2342,7 +2332,7 @@
 "CoinMarketCap",
 "The Economic Times"
 ],
-"t": 1792709804.3562737,
+"t": 1792710111.3708491,
 "t0": 1792688732.0,
 "tgtext": "",
 "title": "Why are Bitcoin price (BTC USD), Ethereum, XRP and Dogecoin falling despite ETF inflows as crypto liquidat",
@@ -2688,7 +2678,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792693922.0,
 "tgtext": "",
 "title": "China Moves to Confiscate $5 Billion in Bitcoin From Fraudster Who Fled to UK: Report",
@@ -3015,7 +3005,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792709804.3562737,
+"t": 1792710416.9066277,
 "t0": 1792698246.0,
 "tgtext": "",
 "title": "Binance sees $2.4M liquidation on an Ethereum l...",
@@ -3871,63 +3861,63 @@
 [
 "97141c39aad6",
 76,
-135,
+146,
 3
 ],
 [
-"75990a6438d6",
-44,
-233,
+"931128fa35cb",
+49,
+302,
 2
 ],
 [
-"931128fa35cb",
-41,
-291,
-1
+"75990a6438d6",
+43,
+243,
+2
+],
+[
+"1c4f8e82fdf1",
+38,
+226,
+2
 ],
 [
 "d89a0e8c9baa",
-38,
-193,
-1
-],
-[
-"a40ad58b57b0",
-35,
-351,
-2
-],
-[
-"bcf124da3205",
-32,
-265,
-1
-],
-[
-"1d79808dd5aa",
-32,
-206,
+36,
+203,
 1
 ],
 [
 "62d6baeb4137",
 32,
-92,
+102,
+1
+],
+[
+"bcf124da3205",
+31,
+275,
+1
+],
+[
+"1d79808dd5aa",
+31,
+216,
 1
 ],
 [
 "42bdc238c1c9",
 31,
-150,
+161,
 1
 ],
 [
-"3937aaaef85c",
+"85e3246cb8a7",
 30,
-211,
-1
+290,
+2
 ]
 ],
-"top_at": 1792709804.3562737
+"top_at": 1792710416.9066277
 }
