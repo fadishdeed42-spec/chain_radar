@@ -35,6 +35,22 @@
 "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12bGJJM2l3bWVIRFJBalQ0azlZNWdQQWxsUXhqSEttVlFTYldyaUdsTFlPUEYtcUpkb01uTUppU2d0aGNmMWl6Z0hCNUZESGRJeUU4UXZBS0oxby1zZVBVS3BaOGdaWloyUVdKOGcwTGVmZ0phQ2ZVdU8tVTQ?oc=5",
 "urls": []
 },
+"00defa6d370f": {
+"coin": "",
+"src": "news.lavx.hu",
+"srcs": [
+"Blueprint Newspapers",
+"Hackread",
+"Kanyi Daily News",
+"news.lavx.hu"
+],
+"t": 1792696931.9148548,
+"t0": 1792678466.0,
+"tgtext": "",
+"title": "INTERPOL operation Serengeti III disrupts 10,909 cybercrime networks, arrests 1,462",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkFUcGxiWlJGTVBNbmliMWttQW9CSk00QzJJOENVR05GU0ctZkFyb1FHWmVzTVJNbFRYVmY0WG43ZE44T1psSkVVS1RUUzl2VGVuYXpiUmp2RGJ1TzZaLVhIU25sbktmeFcyOTdBUkhaRHh6bTFSOF9USkJIcjMydG5aTXRiLXRBZ0xHZXdIU2FyOGo0UDV1LVhxVjJLSEJaLTM4OVJIVEdxZGhqN0xCMw?oc=5",
+"urls": []
+},
 "018d18008e89": {
 "coin": "bitcoin",
 "src": "The Crypto Times",
@@ -129,10 +145,9 @@
 "srcs": [
 "Coinpedia",
 "Protos | Informed crypto news",
-"TradingView",
-"shattered.io"
+"TradingView"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792676744.0,
 "tgtext": "",
 "title": "CoinDCX denies second hack as blockchain investigators allege $16 million theft",
@@ -648,7 +663,7 @@
 "Crypto Economy",
 "U.Today"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792683986.0,
 "tgtext": "",
 "title": "Trust Wallet Dismisses Speculation Regarding Potential Security Impact From PHP Exploit",
@@ -1126,7 +1141,7 @@
 "Bitcoin Magazine",
 "CryptoRank"
 ],
-"t": 1792696013.2588336,
+"t": 1792696626.2948346,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1619,7 +1634,7 @@
 "srcs": [
 "\u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792686832.0,
 "tgtext": "",
 "title": "INTERPOL nabs two Nigerian yahoo boys over $2.4m fraud, recovers $105m in Africa",
@@ -1906,7 +1921,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792675674.0,
 "tgtext": "\ud83d\udea8 JUST IN: Fireblocks disputes Axios\u2019 report of $2.5B Visa acquisition talks.\n\n\u201cThis is news to us, and not true at present time,\u201d the company told Cointelegraph.\n\nVisa declined to comment on rumors or speculation.\n\nRead more:\n\nhttps://ct.com/news/fireblocks-disputes-report-of-25b-visa-acquisition-talks\n\nNews | Markets | YouTube",
 "title": "Fireblocks denies report of $2.5 billion acquisition talks with Visa",
@@ -2097,7 +2112,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792692326.0,
 "tgtext": "",
 "title": "Bitcoin falls below $81K despite $1B ETF inflows, triggering $412M in long liquidations.",
@@ -2277,7 +2292,7 @@
 "Yahoo Finance",
 "Yahoo Finance UK"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792675380.0,
 "tgtext": "",
 "title": "Bitcoin Price Analysis: Treasury Companies Break Even Near $80,000. What Happens if BTC Falls Below It?",
@@ -2688,7 +2703,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792693922.0,
 "tgtext": "",
 "title": "China Moves to Confiscate $5 Billion in Bitcoin From Fraudster Who Fled to UK: Report",
@@ -2816,7 +2831,7 @@
 "Kanyi Daily News",
 "news.lavx.hu"
 ],
-"t": 1792696318.5347564,
+"t": 1792696626.2948346,
 "t0": 1792675238.0,
 "tgtext": "",
 "title": "INTERPOL operation Serengeti III disrupts 10,909 cybercrime networks, arrests 1,462",
@@ -2868,6 +2883,21 @@
 "title": "$4.82M short position in Ether futures liquidat...",
 "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb2Zia2p3M0ZRUWVNNFItUU5oaVpTU3VjX19Sbzl4Y0xZdXRtNmtLSE1VWGVqdDduR3RmV2NwN2h5R2EzZTlWSWs0NlREbEM2bUtmM2VYM2t5ZjFBaTFud2tlNjgydlIxZGFnUWJMTWM5cGxtV2RMQlMtQmZDUVpHdHRoamw0V19B?oc=5",
 "urls": []
+},
+"cc17c0565dfd": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792696931.9148548,
+"t0": 1792686035.0,
+"tgtext": "",
+"title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+"url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "cc51618c2e81": {
 "coin": "ripple",
@@ -3550,7 +3580,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1792696318.5347564,
+"t": 1792696931.9148548,
 "t0": 1792689602.0,
 "tgtext": "",
 "title": "Best Crypto Portfolio: Drift Hack Transfer Reports Put ETH, XRP and $33M Remittix in Focus",
@@ -6427,63 +6457,63 @@
 [
 "931128fa35cb",
 55,
-67,
+77,
 1
 ],
 [
-"0645c969949e",
-52,
-326,
+"00defa6d370f",
+47,
+308,
 4
 ],
 [
 "bcf124da3205",
 43,
-40,
+50,
 1
 ],
 [
-"c65d3506ac88",
-42,
-351,
-5
+"0645c969949e",
+41,
+336,
+3
 ],
 [
 "2a9115ad596b",
-42,
-206,
+41,
+216,
 2
 ],
 [
 "fa3db09e8ad4",
 41,
-112,
+122,
 1
 ],
 [
-"c9bff80d2514",
-36,
-360,
-6
-],
-[
 "9faaaa45fb0b",
-35,
-349,
-4
-],
-[
-"84c713b3b621",
 34,
-344,
+359,
 4
 ],
 [
 "6faf7649f795",
 34,
-158,
+168,
+1
+],
+[
+"84c713b3b621",
+32,
+354,
+4
+],
+[
+"cc17c0565dfd",
+32,
+182,
 1
 ]
 ],
-"top_at": 1792696318.5347564
+"top_at": 1792696931.9148548
 }
