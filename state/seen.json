@@ -226,7 +226,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792640702.0,
 "tgtext": "",
 "title": "Ledger unveils an $849 crypto phone weeks after a $90 million hardware hack",
@@ -270,7 +270,7 @@
 "srcs": [
 "Global Banking & Finance Review"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792642646.0,
 "tgtext": "",
 "title": "Cloudflare Reports Millions of PHP Exploit Attempts After Disclosure",
@@ -395,7 +395,7 @@
 "srcs": [
 "The Mining Journal"
 ],
-"t": 1792654866.84755,
+"t": 1792656088.438689,
 "t0": 1792652620.0,
 "tgtext": "",
 "title": "Illinois man arrested for alleged $665K Bitcoin scam of Escanaba resident",
@@ -729,7 +729,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792650250.0,
 "tgtext": "",
 "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
@@ -907,7 +907,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792654652.0,
 "tgtext": "",
 "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
@@ -977,7 +977,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792644119.0,
 "tgtext": "",
 "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
@@ -998,18 +998,6 @@
 "tgtext": "",
 "title": "Cloudflare CEO Reports Millions of PHP2Shell Exploit Attempts",
 "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFpRTEJKTlBTRnkwblVDSG1RdVA3MnVpOFdYYldLa2QwSThCd1AzYzlfSWYzMFdFWnk4WnhIZkRFY1JVN0Fmb01PTFVRWVktTDM0cENTREZTMUR0c3FDTjI3WkVFWFU0TnpGMURFVXBudkdaUV92RGloUGxMaHg2dDhtT2JQb1JYdmllcEFtOXBuSU9xT0tBOHlsZlBQUQ?oc=5",
-"urls": []
-},
-"3cca5c603767": {
-"coin": "bitcoin",
-"src": "Cryptonews.net",
-"srcs": [
-"Cryptonews.net"
-],
-"t": 1792482846.953276,
-"t0": 1792466805.0,
-"title": "Blackrock Files for Bitcoin ETF Designed to Limit Investor Losses",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zemU3OC1ZdUNjd1VqRjVpbnIzUDlTM3BQd0dLZzhqVlFpVXlXeDQ4a2pYcUNJdkJHVDhLWGdxdGJjTjJMMEI2RlZsOThUbTRZZ2h4LU1oZjA?oc=5",
 "urls": []
 },
 "3f06be738404": {
@@ -2090,7 +2078,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792654555.0,
 "tgtext": "",
 "title": "Railway Security Flaw Puts Customer Funds in Crypto at Risk, Deployments Halted",
@@ -2274,7 +2262,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792650060.0,
 "tgtext": "",
 "title": "CZ Warns Crypto Users as Critical PHP Vulnerabilities Put Websites at Risk",
@@ -2582,7 +2570,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792646717.0,
 "tgtext": "",
 "title": "Bitcoin tops $84,000 amid $188M in crypto short liquidations in 24 hours",
@@ -2716,7 +2704,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792655477.8018086,
+"t": 1792656088.438689,
 "t0": 1792646223.0,
 "tgtext": "",
 "title": "Yau Tong man, 26, arrested over two indecent exposure cases involving five schoolgirls",
@@ -6421,63 +6409,63 @@
 [
 "2946d786a5df",
 53,
-87,
+97,
 2
 ],
 [
 "38c5345e12b3",
 36,
-14,
-1
-],
-[
-"0a774dbbd943",
-33,
-246,
+24,
 1
 ],
 [
 "980a42a8f28b",
 32,
-15,
+26,
 1
 ],
 [
-"0e929dd88a77",
+"0a774dbbd943",
 31,
-214,
+256,
 1
 ],
 [
 "b519d7360f93",
 31,
-146,
+156,
+1
+],
+[
+"0e929dd88a77",
+30,
+224,
 1
 ],
 [
 "3c701d497aff",
-29,
-189,
-1
-],
-[
-"07ca4ff7d86c",
 28,
-299,
+199,
 1
 ],
 [
 "bd22bb532f34",
 28,
-154,
+164,
 1
 ],
 [
 "a0ea667ba177",
 28,
-90,
+100,
 2
+],
+[
+"167e94b3eb96",
+28,
+58,
+1
 ]
 ],
-"top_at": 1792655477.8018086
+"top_at": 1792656088.438689
 }
