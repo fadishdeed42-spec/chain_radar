@@ -247,6 +247,38 @@
 },
 "t": 1792681107.3755188
 },
+"5c318167a8": {
+"coin": "bitcoin",
+"facts": "Headline: Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?\nSources: Coinfomania, CryptoRank, Cryptonews.net, TradingView\nCoin in this story: Bitcoin (BTC) $81,394, -3.8% in 24h\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "CryptoRank",
+"story": null,
+"t0": 1792677110.0,
+"tag": null,
+"title": "Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?",
+"url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTR4U1Rzak5NeGx4YXpsMVo2UkllRTUzUWlyZ0FHdXBKXzkyRXAyQ294VkdpZzBKTVI5Y0x2VTRQUVV1RXFMdGhocEtZalV3cmNGM0FVNjFDNlhRZ2xuM1RmX3haNHgxTHJSNFlqai0zQkUxcy1IcWZ5UDBiQW5KaHZKVmdLdTBiZVZYRG5Jcm8yWGNtSGt6N3NOZ19IbzFnYWhFMnlJT3A0LTA1MzlCMXc0dEhCak90ODRMNHdHRnNYSGN3OU9zV0lmbw?oc=5"
+},
+"p": {
+"keyfact": "Bitcoin recorded $1.1 billion in inflows as the price moved to $81,394 despite a 3.8% daily decline.",
+"post": "Wall Street is pouring cash into Bitcoin. Despite a 3.8% dip today, $1.1 billion flowed into ETFs. The asset is trading at $81,394 as institutional demand tests market resilience. Follow the money to see where the trend goes next. #Bitcoin",
+"quote": "NONE",
+"reply": "The institutional appetite remains massive despite the short term volatility.",
+"short": "",
+"stat": "$1.1B | ETF Inflows",
+"symbol": "BTC",
+"tag": "ETF",
+"thread": "",
+"timeline": "NONE",
+"title": "$1.1 Billion Flows Into Bitcoin ETFs",
+"versus": "NONE",
+"visual": "CHART"
+},
+"t": 1792687758.5301409
+},
 "74d03d898a": {
 "coin": "",
 "facts": "Headline: Bitget hacked for $387.0 million\nSources: DefiLlama\nHack date: Sep 24. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount: $387,000,000. (From the DefiLlama hacks database.)\n",
@@ -373,32 +405,6 @@
 "visual": "STAT"
 },
 "t": 1792594556.833785
-},
-"98aa933242": {
-"coin": "",
-"facts": "Headline: SEC Charges WhatsApp-Driven Crypto Fraud Schemes Totaling Over $15 Million\nSources: JD Supra\n\n",
-"item": {
-"hack": null,
-"src": "JD Supra",
-"tag": null,
-"title": "SEC Charges WhatsApp-Driven Crypto Fraud Schemes Totaling Over $15 Million",
-"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdXVrTVN1V2VwOHdidGVhY3ZjRFlhbFB3amx4RDBoY3c0N3JiS0JwQWJYcjVtTlduX1k1aVRwWkFPUXJndk14TG85TW1QN3hhc3lwTVdaUGZtU0hlakNKV1dnWDAyTmp6UVBJdHZfZ240M0p2UHJtT0d2M2dwakxJLThpSQ?oc=5"
-},
-"p": {
-"keyfact": "The SEC reportedly charged multiple WhatsApp-driven crypto fraud schemes totaling over $15 million.",
-"post": "SEC just cracked down on crypto schemes running straight through WhatsApp. Total damage reportedly tops $15 million. Proof that even your group chats aren't safe from the next big con.",
-"quote": "NONE",
-"reply": "Another reminder that your DMs and group chats are a goldmine for scammers. Stay sharp out there.",
-"stat": "$15M+ | Total Fraud Schemes",
-"symbol": "NONE",
-"tag": "LAWSUIT",
-"thread": "1/ The SEC has reportedly filed charges against multiple crypto fraud schemes operating primarily through WhatsApp.\n2/ According to reports, the coordinated scams managed to extract over $15 million from unsuspecting targets.\n3/ The enforcement action highlights how fraudsters increasingly rely on encrypted messaging apps to pitch fake crypto investments.",
-"timeline": "NONE",
-"title": "SEC Charges $15M WhatsApp Crypto Schemes",
-"versus": "NONE",
-"visual": "STAT"
-},
-"t": 1792441142.068652
 },
 "a992bb40a5": {
 "coin": "bitcoin",
@@ -1060,7 +1066,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489278,
+"offset": 138489279,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
