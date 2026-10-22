@@ -142,7 +142,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792673219.840721,
+"t": 1792673526.0290778,
 "t0": 1792664633.0,
 "tgtext": "",
 "title": "$820K stolen from NEM token's PancakeSwap pool due to contract flaw on BNB Chain",
@@ -288,7 +288,7 @@
 "Global Banking & Finance Review",
 "The Guardian"
 ],
-"t": 1792673219.840721,
+"t": 1792673526.0290778,
 "t0": 1792653540.0,
 "tgtext": "",
 "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
@@ -862,7 +862,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1792673219.840721,
+"t": 1792673830.6431894,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Crypto Exploit: How ARRR Users Upgrade Wallets?",
@@ -891,10 +891,10 @@
 "BeInCrypto",
 "Coin Edition",
 "Coin Gabbar",
-"Crypto Briefing",
-"Crypto News"
+"Coinfomania",
+"Crypto Briefing"
 ],
-"t": 1792673219.840721,
+"t": 1792673830.6431894,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
 "title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
@@ -915,19 +915,6 @@
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"392e3e319828": {
-"coin": "",
-"src": "The Crypto Times",
-"srcs": [
-"The Crypto Times",
-"Yahoo Finance"
-],
-"t": 1792500974.1347387,
-"t0": 1792491913.0,
-"title": "Bitget to Buy Licensed Thai Crypto Exchange From GMO Weeks After $387.5M Hack",
-"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTml3dDhlbEtJQ09lWnJFNnZKdHZIUHQ1N0tWeUE2UFRtLW9SbGtFMzJ5UHhjSWEwbTBZakk5cHNNS3BZazVGZGN6WFNTWWhDN0JDRmxJeVEycVBlMlUxWEE3RU52WkE5NEJ1SFViN1hoWjZ4RTJ4RGdhR2ZiVHE1MDYzVmk3YkdxLVhRekk1eko2VGR5aWRXMVpkYlVzSHEtSXZGUWhXMWtYYjY0WDh6YWIxaG51QQ?oc=5",
-"urls": []
 },
 "394b72385a96": {
 "coin": "",
@@ -974,6 +961,21 @@
 "tgtext": "",
 "title": "Monero at $644: 24 percent short of its record high",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xdC1jQS1IWkV2RFNfRVdsUmpiSnl2SDFCM1psT1dnZGdqRWhWZFBlSHRSaEFNbzFkeG00Z3E5cTNRY2xLaU1KR3p1SHplS2VtYXdISjBJdWNpRFFXZER2Mmx2aWlRcjBOM2k0M3hpdGdaRkJUeEE?oc=5",
+"urls": []
+},
+"3b9d0b3c22c4": {
+"coin": "",
+"src": "Hokanews",
+"srcs": [
+"Hokanews",
+"Pluang",
+"TOKENPOST"
+],
+"t": 1792673526.0290778,
+"t0": 1792655227.0,
+"tgtext": "",
+"title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTjc5N1h5VkZVSDU5VWd5RTZaVlZucVRKWWVEVjJlaFlGTTR3QjY4UWVhaWhQdjg4ZUJnVkNpLUNQTzZCNFhYX0dJU0t3NnVRYnZvSmJwdkszR0pkZjVRUnlJQXV1Yk9STVpULVVzYmE4VW1ibGozQW4tdWZ1OEU?oc=5",
 "urls": []
 },
 "3bc527d231de": {
@@ -1197,7 +1199,7 @@
 "Coinfomania",
 "Lookonchain"
 ],
-"t": 1792673219.840721,
+"t": 1792673830.6431894,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1285,7 +1287,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1792672292.0536232,
+"t": 1792673830.6431894,
 "t0": 1792666493.0,
 "tgtext": "",
 "title": "Crypto Today: Bitcoin, Ethereum, XRP fall despite net ETF inflows",
@@ -1351,7 +1353,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792672915.361685,
+"t": 1792673830.6431894,
 "t0": 1792663067.0,
 "tgtext": "",
 "title": "Over $210M in crypto longs liquidated as BTC an...",
@@ -1598,7 +1600,7 @@
 "Decrypt",
 "The Defiant"
 ],
-"t": 1792673219.840721,
+"t": 1792673526.0290778,
 "t0": 1792662305.0,
 "tgtext": "",
 "title": "Chinese Prosecutors Seek Confiscation of 61,896 Bitcoin in Qian Case",
@@ -1965,7 +1967,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792673219.840721,
+"t": 1792673830.6431894,
 "t0": 1792670400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $SOFI launches FDIC-insured tokenized deposits.\n\n@WatcherGuru",
 "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
@@ -2089,7 +2091,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1792672915.361685,
+"t": 1792673526.0290778,
 "t0": 1792664573.0,
 "tgtext": "",
 "title": "Lawsuit Says ColdCard's Random Number Flaw Exposed $116 Million in Bitcoin",
@@ -2117,7 +2119,7 @@
 "CoinDesk",
 "TradingKey"
 ],
-"t": 1792673219.840721,
+"t": 1792673830.6431894,
 "t0": 1792662866.0,
 "tgtext": "",
 "title": "Crypto Market Wipes Out Both Longs and Shorts as Bitcoin Falls Below $82,000 and Ether Drops Below $2,400",
@@ -2188,20 +2190,6 @@
 "title": "Railway Security Flaw Puts Customer Funds in Crypto at Risk, Deployments Halted",
 "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRXJ3RG12VjdPTGl1RXVrSkJvRVhTR3BWTGtxa2p2ODZLZUZpYWxWaDhWNzM5VHBSZWJmd2pqNy11Q1RHaldqcm9fT2hON1lQdFpKeXRTdUV2SzRjbG5ob0twc2pSaWR2SkhpMEJyOVIwSURkbDhiSFZ1TjZVNVZCSkRwcWZpanZkeDlnNE4wOUlRZ0JKdWs2WVBJb2FWdDgyVktiZ2hqalVlSmVCZ2NaNUF4T3VQRUlr?oc=5",
 "urls": []
-},
-"9854c2b2f813": {
-"coin": "bitcoin",
-"src": "CryptoSlate",
-"srcs": [
-"CryptoSlate"
-],
-"t": 1792500974.1347387,
-"t0": 1792489852.0,
-"title": "Bitcoin ETF comeback exposes a $630 million divide with Ethereum as BlackRock dominates",
-"url": "https://cryptoslate.com/bitcoin-etf-comeback-exposes-a-630-million-divide-with-ethereum-as-blackrock-dominates/",
-"urls": [
-"https://cryptoslate.com/bitcoin-etf-comeback-exposes-a-630-million-divide-with-ethereum-as-blackrock-dominates/"
-]
 },
 "98d8aaab7ba9": {
 "coin": "",
@@ -3119,7 +3107,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792669841.7496371,
+"t": 1792673830.6431894,
 "t0": 1792665119.0,
 "tgtext": "",
 "title": "Bitcoin's rally stalled on Oct 21, triggering $91M in long liquidations amid uncertain price pattern.",
@@ -3385,7 +3373,7 @@
 "Cointelegraph",
 "KuCoin"
 ],
-"t": 1792671066.6971123,
+"t": 1792673830.6431894,
 "t0": 1792659962.0,
 "tgtext": "",
 "title": "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns",
@@ -3466,6 +3454,20 @@
 "urls": [
 "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural"
 ]
+},
+"f456d48dd55a": {
+"coin": "",
+"src": "Hokanews",
+"srcs": [
+"Hokanews",
+"Pluang"
+],
+"t": 1792673830.6431894,
+"t0": 1792656395.0,
+"tgtext": "",
+"title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTjc5N1h5VkZVSDU5VWd5RTZaVlZucVRKWWVEVjJlaFlGTTR3QjY4UWVhaWhQdjg4ZUJnVkNpLUNQTzZCNFhYX0dJU0t3NnVRYnZvSmJwdkszR0pkZjVRUnlJQXV1Yk9STVpULVVzYmE4VW1ibGozQW4tdWZ1OEU?oc=5",
+"urls": []
 },
 "f49efdcd8034": {
 "coin": "bitcoin",
@@ -6408,64 +6410,64 @@
 "top": [
 [
 "37eda6f9a046",
-58,
-281,
-11
+57,
+291,
+9
+],
+[
+"f15a6af0add4",
+49,
+231,
+3
 ],
 [
 "37c2af22bf36",
-49,
-199,
-2
-],
-[
-"0e929dd88a77",
-46,
-328,
-5
-],
-[
-"679af3f653ee",
-46,
-284,
+48,
+209,
 2
 ],
 [
 "4ab0fe580482",
-46,
-203,
+45,
+214,
 2
 ],
 [
 "945ec6f6fa39",
 40,
-173,
-3
-],
-[
-"d87e03706a09",
-39,
-356,
+183,
 3
 ],
 [
 "8821587405a8",
 38,
-47,
+57,
 3
 ],
 [
-"693a7fb60b7c",
-35,
-182,
+"51394322acc4",
+34,
+122,
 2
 ],
 [
-"063102931695",
-35,
-143,
+"57fbacdb8161",
+31,
+179,
 1
+],
+[
+"e217f4e62180",
+31,
+145,
+1
+],
+[
+"f456d48dd55a",
+30,
+291,
+2
 ]
 ],
-"top_at": 1792673219.840721
+"top_at": 1792673830.6431894
 }
