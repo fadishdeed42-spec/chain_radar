@@ -183,7 +183,7 @@
 "srcs": [
 "Gulf News"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792637559.0,
 "tgtext": "",
 "title": "UAE-led global crackdown uncovers $39 billion in fraud-linked assets, 960 arrested",
@@ -226,7 +226,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792640702.0,
 "tgtext": "",
 "title": "Ledger unveils an $849 crypto phone weeks after a $90 million hardware hack",
@@ -270,7 +270,7 @@
 "srcs": [
 "Global Banking & Finance Review"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792642646.0,
 "tgtext": "",
 "title": "Cloudflare Reports Millions of PHP Exploit Attempts After Disclosure",
@@ -729,7 +729,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792650250.0,
 "tgtext": "",
 "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
@@ -789,20 +789,6 @@
 "title": "Key facts: CRYPTO:ETHUSD; $1.02B/$553M risk; 1wk options; 35.9% held",
 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQelFTSjBvbHMtWTJKSTB1NGtTWmJSaUx2S0pTUGNHLTRTb3dVMDNkVkhQLVhHVzJ2cEkxQUtSRXZkQ0xhZG9pM0xBS1dGazMtSDlIcjM1R285RmY0UEhQcXF0Q2ZQTzQwR3lLa3NWNE1CeUFNdm9ENFdhQzZxTnYyenhKbDR0VFB3bFQwT2h0N2EwQ21jX29TdWVhYUN6Q2FCN2VQWGhzTFBMOTNtSHoyU1pXa0h3WkFnaXYxQmVhLWU?oc=5",
 "urls": []
-},
-"2f377de7e72c": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1792482238.60066,
-"t0": 1792469278.0,
-"title": "US bans DeepSeek from civilian agency IT systems",
-"url": "https://cointelegraph.com/news/us-bans-deepseek-from-civilian-agency-it-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/us-bans-deepseek-from-civilian-agency-it-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "2f6fb1b4dc35": {
 "coin": "",
@@ -915,6 +901,21 @@
 "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5",
 "urls": []
 },
+"38c5345e12b3": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792655477.8018086,
+"t0": 1792654652.0,
+"tgtext": "",
+"title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
+"url": "https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "38f4600b96e1": {
 "coin": "",
 "src": "KuCoin",
@@ -976,7 +977,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792644119.0,
 "tgtext": "",
 "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
@@ -1409,18 +1410,6 @@
 "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR01RZDF2S0FSTEZyMkFWdUVsakNnTE5OV2VHekVWZFFNMGJ6VkRpVnNrZXI2WkNZOEhHMzNlVEdEbU5NdHY4a0Y2TTV2WEQySUZHa1J5cFFYdzdkOTQ4WHNQd0VzZjdxeHFYT1cyc3lxVEE0anIzOXZJSU1uNjN2XzQtNzcwZw?oc=5",
 "urls": []
 },
-"5cfea084ee96": {
-"coin": "ethereum",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1792482238.60066,
-"t0": 1792465806.0,
-"title": "Ethereum News: BlackRock Ethereum ETF Staking Request Acknowledged by SEC",
-"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWXN4VGdWX0NRXzVfbm9VVzJJZml4QzhxUjRWRFBLLUZkdnpqOEJpMEd5Z1l5WDdWdnJQdnRhbGk1eGVQY3pfcTRUSWdLNHBzaHdmNTFpNFkyeWhCX3hJaExsWHFyanNlT2RTam95X0Z3NXFQb0ltdWQ5b21fYmU0eUlQeGI1a2hxd2o3elQ2Z1Z2cUVjeHdZVk9mZkpTMnRDSDBRc0xpQVRLVFRJeVJEQnJlSkI?oc=5",
-"urls": []
-},
 "5dfaf6eedb11": {
 "coin": "near",
 "src": "shattered.io",
@@ -1542,7 +1531,7 @@
 "The Market Periodical",
 "Wu Blockchain"
 ],
-"t": 1792653994.499472,
+"t": 1792655173.0449495,
 "t0": 1792642510.0,
 "tgtext": "U.S. Bitcoin ETFs Draw $528 Million, Ether ETFs Add $15 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $528 million in net inflows on October 21, led by BlackRock's IBIT with $235 million. Spot Ethereum ETFs attracted $14.96 million, with Grayscale's Ethereum Mini Trust (ETH) posting the largest inflow at $28.07 million. BlackRock is the world's largest asset manager, while Grayscale is a leading crypto-focused asset manager. \u2014 link",
 "title": "U.S. Bitcoin ETFs Draw $528 Million, Ether ETFs Add $15 Million",
@@ -2101,7 +2090,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792654555.0,
 "tgtext": "",
 "title": "Railway Security Flaw Puts Customer Funds in Crypto at Risk, Deployments Halted",
@@ -2285,7 +2274,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792650060.0,
 "tgtext": "",
 "title": "CZ Warns Crypto Users as Critical PHP Vulnerabilities Put Websites at Risk",
@@ -2593,7 +2582,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792646717.0,
 "tgtext": "",
 "title": "Bitcoin tops $84,000 amid $188M in crypto short liquidations in 24 hours",
@@ -2727,7 +2716,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792654866.84755,
+"t": 1792655477.8018086,
 "t0": 1792646223.0,
 "tgtext": "",
 "title": "Yau Tong man, 26, arrested over two indecent exposure cases involving five schoolgirls",
@@ -6432,63 +6421,63 @@
 [
 "2946d786a5df",
 53,
-77,
+87,
 2
 ],
 [
-"0a774dbbd943",
-34,
-236,
+"38c5345e12b3",
+36,
+14,
 1
 ],
 [
-"0e929dd88a77",
-32,
-204,
+"0a774dbbd943",
+33,
+246,
 1
 ],
 [
 "980a42a8f28b",
 32,
-5,
+15,
+1
+],
+[
+"0e929dd88a77",
+31,
+214,
 1
 ],
 [
 "b519d7360f93",
 31,
-136,
+146,
 1
 ],
 [
 "3c701d497aff",
-30,
-179,
+29,
+189,
 1
 ],
 [
 "07ca4ff7d86c",
-29,
-288,
+28,
+299,
 1
 ],
 [
 "bd22bb532f34",
 28,
-144,
+154,
 1
 ],
 [
 "a0ea667ba177",
 28,
-80,
+90,
 2
-],
-[
-"167e94b3eb96",
-28,
-37,
-1
 ]
 ],
-"top_at": 1792654866.84755
+"top_at": 1792655477.8018086
 }
