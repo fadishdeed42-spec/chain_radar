@@ -142,7 +142,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792675897.2016752,
+"t": 1792676203.3152084,
 "t0": 1792664633.0,
 "tgtext": "",
 "title": "$820K stolen from NEM token's PancakeSwap pool due to contract flaw on BNB Chain",
@@ -862,7 +862,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Crypto Exploit: How ARRR Users Upgrade Wallets?",
@@ -894,7 +894,7 @@
 "Crypto Briefing",
 "Crypto Economy"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
 "title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
@@ -1192,6 +1192,21 @@
 "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZnJFVTFlUkU5dHZUYVh2MnozQVJmWmpORDUwR0hBZUlBT012UjNIcm1lc3BSRUhCaWpuMlhoNTdHc0FUeTU5MFloY0pCazZNNkNLVHlMNnlGbGlCT1RnaUtwRlByWDl1U0dkZjVidk43OEdRcXdMSUg3RFlqQ0RoN3p2WWFFcXJWZEZTcVlPeTJ6R1FmUmNSYzlZdDdBOTZQcFBIU3hITWxneWIzQlJzXzVxTW1ERl90U213Y1FXYVZXUQ?oc=5",
 "urls": []
 },
+"4aa0b9cd350c": {
+"coin": "bitcoin",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine"
+],
+"t": 1792676507.7445397,
+"t0": 1792676004.0,
+"tgtext": "",
+"title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
+"url": "https://bitcoinmagazine.com/videos/spacex-tesla-merger-passive-flows-hack-could-bring-more-btc-exposure-to-sp-500",
+"urls": [
+"https://bitcoinmagazine.com/videos/spacex-tesla-merger-passive-flows-hack-could-bring-more-btc-exposure-to-sp-500"
+]
+},
 "4ab0fe580482": {
 "coin": "bitcoin",
 "src": "Lookonchain",
@@ -1199,7 +1214,7 @@
 "Coinfomania",
 "Lookonchain"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1287,7 +1302,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1792675286.3334126,
+"t": 1792676507.7445397,
 "t0": 1792666493.0,
 "tgtext": "",
 "title": "Crypto Today: Bitcoin, Ethereum, XRP fall despite net ETF inflows",
@@ -1586,7 +1601,7 @@
 "Help Net Security",
 "The Eastleigh Voice"
 ],
-"t": 1792675592.705583,
+"t": 1792676203.3152084,
 "t0": 1792656186.0,
 "tgtext": "",
 "title": "INTERPOL cybercrime crackdown nets 1,462 suspects, recovers Sh13.6 billion",
@@ -1697,7 +1712,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792674000.0,
 "tgtext": "",
 "title": "DWF Labs finds Bitcoin ETF buyers follow trends, not set them",
@@ -1876,7 +1891,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792673766.0,
 "tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed. \u2014 link",
 "title": "Visa in talks to acquire crypto custody firm Fireblocks for around $2.5 billion: Axios",
@@ -2000,7 +2015,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792670400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $SOFI launches FDIC-insured tokenized deposits.\n\n@WatcherGuru",
 "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
@@ -2153,7 +2168,7 @@
 "CoinDesk",
 "TradingKey"
 ],
-"t": 1792674981.8152158,
+"t": 1792676507.7445397,
 "t0": 1792662866.0,
 "tgtext": "",
 "title": "Crypto Market Wipes Out Both Longs and Shorts as Bitcoin Falls Below $82,000 and Ether Drops Below $2,400",
@@ -3425,7 +3440,7 @@
 "Cryptonews.net",
 "The Guardian"
 ],
-"t": 1792675897.2016752,
+"t": 1792676507.7445397,
 "t0": 1792659962.0,
 "tgtext": "",
 "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
@@ -6462,64 +6477,64 @@
 "top": [
 [
 "f15a6af0add4",
-54,
-266,
+53,
+276,
 4
 ],
 [
 "37eda6f9a046",
-52,
-325,
+51,
+335,
 11
-],
-[
-"37c2af22bf36",
-43,
-243,
-2
 ],
 [
 "7fddf41140c7",
 43,
-36,
+46,
+2
+],
+[
+"4aa0b9cd350c",
+43,
+8,
+1
+],
+[
+"37c2af22bf36",
+42,
+254,
 2
 ],
 [
 "72b7cf88b328",
 42,
-32,
-2
-],
-[
-"4ab0fe580482",
-40,
-248,
+42,
 2
 ],
 [
 "8821587405a8",
 40,
-92,
+102,
 4
 ],
 [
-"063102931695",
+"4ab0fe580482",
+39,
+258,
+2
+],
+[
+"945ec6f6fa39",
 34,
-188,
-1
-],
-[
-"916214524e54",
-33,
-189,
-1
-],
-[
-"9d3c8838abae",
-32,
-282,
+227,
 3
+],
+[
+"51394322acc4",
+34,
+167,
+2
 ]
 ],
-"top_at": 1792675897.2016752
+"top_at": 1792676507.7445397
 }
