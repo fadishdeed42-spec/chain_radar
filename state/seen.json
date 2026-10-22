@@ -775,9 +775,10 @@
 "src": "CryptoRank",
 "srcs": [
 "CoinDesk",
-"CryptoRank"
+"CryptoRank",
+"Cryptonews.net"
 ],
-"t": 1792683552.0947769,
+"t": 1792684467.409265,
 "t0": 1792671240.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?",
@@ -1155,7 +1156,7 @@
 "Bitcoin Magazine",
 "CryptoRank"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1260,7 +1261,7 @@
 "FXStreet",
 "TradingView"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792666493.0,
 "tgtext": "",
 "title": "Franklin\u2019s XRP ETF Buys $2.25 Million as Bitwise\u2019s Fund Sells: Is Wall Street Losing Interest in XRP, or Just Waiting?",
@@ -1483,7 +1484,7 @@
 "Protos | Informed crypto news",
 "TradingView"
 ],
-"t": 1792683856.4789708,
+"t": 1792684162.9270103,
 "t0": 1792662791.0,
 "tgtext": "",
 "title": "India\u2019s top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
@@ -1773,7 +1774,7 @@
 "srcs": [
 "Crypto Adventure"
 ],
-"t": 1792679257.934729,
+"t": 1792684467.409265,
 "t0": 1792674503.0,
 "tgtext": "",
 "title": "Zipcoin Shuts Down After UNCX Exploit and Codebase Compromise Warning",
@@ -1856,7 +1857,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792673766.0,
 "tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed.\n\nIn a statement to The Block, Fireblocks stated, \"This is news to us, and not true at present time.\" Meanwhile, Visa stated that the company does not comment on rumors or speculation. \u2014 link\n\ud83d\udea8 JUST IN: Fireblocks disputes Axios\u2019 report of $2.5B Visa acquisition talks.\n\n\u201cThis is news to us, and not true at present time,\u201d the company told Cointelegraph.\n\nVisa declined to comment on rumors or speculation.\n\nRead more:\n\nhttps://ct.com/news/fireblocks-disputes-report-of-25b-visa-acquisition-talks\n\nNews | Markets | YouTube",
 "title": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence",
@@ -1968,7 +1969,7 @@
 "Cryptonews.net",
 "TradingView"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792675257.0,
 "tgtext": "",
 "title": "Thailand SEC says asset managers want crypto ETFs, but no one has applied yet",
@@ -2062,6 +2063,22 @@
 "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGtZdzNNYlFLNDA3bk00ZVAybjEyZDhocWNZVXZwYUJLZl9pc05handMU2dBX1ktXzZyLUpqSk5kb0VVWi1JSDROQ2xKSzlzeUp6eWdpZDVTNlg5MExGSFMxOHFNbVAwZ01tRmJQbm9BNjVPR3AwZzJNekdEVkRfcVZYcGtVZW9oa2dQd2JFMkJWcnpHN0xN?oc=5",
 "urls": []
 },
+"8bd4357e96bd": {
+"coin": "",
+"src": "TradingView",
+"srcs": [
+"Coinpedia",
+"Protos | Informed crypto news",
+"TradingView",
+"shattered.io"
+],
+"t": 1792684467.409265,
+"t0": 1792666744.0,
+"tgtext": "",
+"title": "CoinDCX Hack Today [LIVE] Updates: Was India\u2019s Crypto Exchange Breached Again?",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQml2Sm9Xelo3UUUwdUY2LVBXeVlURmhFWk12bFBQbzduN1hOWUtzcjQ3UjFKR2g2U0hVTHlzRU40a0R0UzFDaW9aSnQ0V1dUUEFuNkhMQjh3VmdJN2lzeXdUaHB6QjVNZmlOVDA5RTlkRngya3ZRcHV5NS1qZjNHbkhxTkNzT1Zhc0UzS1Rvd1Zpbm9DcTNzeldrbFJHdGV6TGwzNjJWclF6VXdZZTU5S2ZsV05yMlM5WXptZGtvYWlDMk9oakxMcE1sOFFjX1E?oc=5",
+"urls": []
+},
 "8dd7ddc08b6e": {
 "coin": "",
 "src": "Startup Fortune",
@@ -2089,20 +2106,6 @@
 "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5",
 "urls": []
 },
-"90c74217690b": {
-"coin": "",
-"src": "The Crypto Times",
-"srcs": [
-"Startup Fortune",
-"The Crypto Times",
-"Yahoo Finance"
-],
-"t": 1792511580.772672,
-"t0": 1792491913.0,
-"title": "Bitget to Buy Licensed Thai Crypto Exchange From GMO Weeks After $387.5M Hack",
-"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTml3dDhlbEtJQ09lWnJFNnZKdHZIUHQ1N0tWeUE2UFRtLW9SbGtFMzJ5UHhjSWEwbTBZakk5cHNNS3BZazVGZGN6WFNTWWhDN0JDRmxJeVEycVBlMlUxWEE3RU52WkE5NEJ1SFViN1hoWjZ4RTJ4RGdhR2ZiVHE1MDYzVmk3YkdxLVhRekk1eko2VGR5aWRXMVpkYlVzSHEtSXZGUWhXMWtYYjY0WDh6YWIxaG51QQ?oc=5",
-"urls": []
-},
 "90fc0ca20af1": {
 "coin": "ethereum",
 "src": "Cryptonews.net",
@@ -2110,7 +2113,7 @@
 "CryptoRank",
 "Cryptonews.net"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792676146.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: ETH Slips Below $2,400 as ETF Outflows and Market Sell-Off Pressure Bulls",
@@ -2647,7 +2650,7 @@
 "AsiaOne.com",
 "The Straits Times"
 ],
-"t": 1792683856.4789708,
+"t": 1792684162.9270103,
 "t0": 1792677655.0,
 "tgtext": "",
 "title": "Man to be charged with allegedly cheating $186k out of friend who told him he was a crypto scam victim",
@@ -2716,7 +2719,7 @@
 "Sahara Reporters",
 "The Eastleigh Voice"
 ],
-"t": 1792683856.4789708,
+"t": 1792684162.9270103,
 "t0": 1792664713.0,
 "tgtext": "",
 "title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
@@ -2836,7 +2839,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792674722.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley, Bank of America, JPMorgan, and Wells Fargo detect unauthorized AI agents accessing customer accounts and attempting to act without user instructions.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Morgan Stanley, Bank of America, JPMorgan, and Wells Fargo detect unauthorized AI agents accessing customer accounts and attempting to act without user instructions.",
@@ -3238,24 +3241,6 @@
 "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONzJPdW0zVkdybXF3cE1WTUZtdXFoTmppZnpzNmZWOU5OZkhuRlVsRGtHdEwyT1o4LVkxTzRIYjdzVGZGTlh2N0pRMksydDZJa0RLVWRWZy12eWxNZnJ1Zlo0TUs4c0xwNjJaaDF6QndJOWNVaWVrRm5fUjVHa0ROYm9JUkNvcTFPUmI1WjFfaDRRSXdCRFY2NUZBd2tRQQ?oc=5",
 "urls": []
 },
-"e723db40fe89": {
-"coin": "",
-"src": "Pluang",
-"srcs": [
-"Cointelegraph",
-"Crypto News",
-"Pluang",
-"TradingView",
-"bloomingbit"
-],
-"t": 1792511580.772672,
-"t0": 1792490400.0,
-"title": "Bitget plans to acquire a licensed Thai crypto exchange to expand locally after a $388M hack.",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlROZDhXeWtKRjhRSVAzcGw3MEo4ZGdGS3pPRVB3M1FDUGFzc092SE1kQ2pLMUFEaHVJWDB1UFJjMG0tUEltSUdTc081NzZDdUg3anJ2LU80aUhOTTVKYjZBa1EtLUQ2c25BOU8yYlp4QXRES1p5Q0xzX1ZRQnk2c0pCZWFXVF9FaHNaSm9ZVzJaeENTWE5iOUVNSG1oUDBFRlVUTjJoQXk?oc=5",
-"urls": [
-"https://cointelegraph.com/news/bitget-plans-thai-crypto-exchange-acquisition-weeks-after-388m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "e8e33fa63e65": {
 "coin": "ripple",
 "src": "FXEmpire",
@@ -3606,7 +3591,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792683856.4789708,
+"t": 1792684467.409265,
 "t0": 1792681245.0,
 "tgtext": "",
 "title": "$25.91M liquidated from six Hyperliquid whale a...",
@@ -6508,65 +6493,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b887968afb41",
-61,
-319,
+"c9bff80d2514",
+59,
+162,
 4
 ],
 [
-"c9bff80d2514",
-59,
-152,
+"8bd4357e96bd",
+56,
+295,
 4
 ],
 [
 "7fddf41140c7",
 55,
-168,
+178,
 4
 ],
 [
 "4aa0b9cd350c",
 53,
-131,
+141,
 2
 ],
 [
-"62c0bbc821f4",
-49,
-351,
-6
+"33eeceda2d7f",
+45,
+220,
+3
 ],
 [
 "8708ade4c597",
 44,
-143,
+154,
 3
 ],
 [
 "90fc0ca20af1",
 44,
-129,
+139,
 2
 ],
 [
 "51394322acc4",
-41,
-289,
+40,
+300,
 3
 ],
 [
 "fa6a10e75502",
 39,
-44,
+54,
 1
 ],
 [
-"b596cd297be8",
-38,
-103,
-2
+"7bb53e794c3f",
+35,
+166,
+1
 ]
 ],
-"top_at": 1792683856.4789708
+"top_at": 1792684467.409265
 }
