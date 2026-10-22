@@ -215,31 +215,37 @@
 },
 "t": 1792442292.552247
 },
-"5543bb625b": {
+"39478e5a8c": {
 "coin": "",
-"facts": "Headline: DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks\nSources: Coinpaper\n\n",
+"facts": "Headline: INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries\nSources: Sahara Reporters, The Eastleigh Voice\n\n",
 "item": {
+"chart": null,
+"focus": null,
 "hack": null,
-"src": "Coinpaper",
+"span": null,
+"src": "Sahara Reporters",
+"story": null,
+"t0": 1792664713.0,
 "tag": null,
-"title": "DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks",
-"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ1gyaXB3b3RTNUFxbjlIWjQ0N0tVcm0wTTE3UWlLNjJJQUdsdF9HeG9xd0IxQkh4ZFdJM1N6ZnozaUtra05WZTRTY1E5ZVNlcERPeGo0MWZJZmVvR2RTRmlBMXdvNnpmMFhUQ1llNzRFY2dlMzFUa1FxNXIxS1NiSTZJYTB2M25IdXJ6c3dlZUNhcXJiRUhZSnc5aC0xTHRocnNva3VDcXRRUGZZZjZYNzRQZUJrMEp4VUE?oc=5"
+"title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
+"url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5"
 },
 "p": {
-"keyfact": "DeFi lending surged 150% to $10B while regulators examine crypto vault risks.",
-"post": "DeFi lending reportedly surged 150% to hit $10B. But the celebration might be short-lived, as SEC and European regulators have now turned their attention to examine crypto vault risks. Watch this space. #DeFi",
+"keyfact": "INTERPOL arrested 1,462 suspects and recovered over $105 million in a cybercrime crackdown.",
+"post": "INTERPOL just wrapped up a massive cybercrime crackdown across 20 African countries. The result? 1,462 suspects arrested and over $105 million recovered. Cross border operations are tightening the net on illicit digital networks.",
 "quote": "NONE",
-"reply": "$10B is hard to ignore, and neither are the regulators.",
-"stat": "$10B | Total DeFi Lending Volume",
+"reply": "Another massive international operation showing that digital borders are no hiding place.",
+"short": "",
+"stat": "$105M | Recovered Funds",
 "symbol": "NONE",
-"tag": "REGULATION",
-"thread": "1/ Numbers don't lie, but they do tell a story. DeFi lending reportedly surged 150% recently, climbing all the way to a massive $10B. \n2/ Growth is great, but it attracts attention. And not always the good kind. \n3/ Regulators from both the SEC and Europe have officially stepped in to examine potential crypto vault risks. \n4/ When the books get opened, the plot thickens. Let's see what the charts and regulators find next.",
-"timeline": "NONE",
-"title": "DeFi Lending Hits $10B Amid Regulators' Probe",
-"versus": "NONE",
+"tag": "ARREST",
+"thread": "",
+"timeline": "20 African Countries = Joint operation launched ; Crackdown = 1,462 suspects arrested ; Operation = Over $105m recovered",
+"title": "INTERPOL Arrests 1,462 In $105M African Crackdown",
+"versus": "Suspects = 1,462 || Recovered = $105M",
 "visual": "STAT"
 },
-"t": 1792440863.053744
+"t": 1792681107.3755188
 },
 "74d03d898a": {
 "coin": "",
@@ -1054,7 +1060,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489277,
+"offset": 138489278,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
