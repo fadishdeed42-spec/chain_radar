@@ -469,32 +469,6 @@
 },
 "t": 1792602491.2219198
 },
-"b135c1ed24": {
-"coin": "bitcoin",
-"facts": "Headline: Elon Dumped Bitcoin After 49 Days\nSources: Chain Secrets\nVerified story facts:\nFeb 2021: Tesla reveals it bought $1.5B of bitcoin. Mar 24: \"You can now buy a Tesla with Bitcoin\", and bitcoin paid to Tesla \"will be retained as Bitcoin\". May 12: payments suspended, BTC drops ~$3,000 in 15 minutes, and Elon says Tesla will not be selling any bitcoin. 2022: Tesla converts ~75% of its bitcoin to cash (+$936M).\nReal BTC/USD daily chart (Bitstamp), Jan\u2013May 2021. Tweets/statements shown are recreations.\n",
-"item": {
-"hack": null,
-"src": "Chain Secrets",
-"tag": "TRUE STORY",
-"title": "Elon Dumped Bitcoin After 49 Days",
-"url": null
-},
-"p": {
-"keyfact": "Tesla bought $1.5B in BTC, accepted it for 49 days, then dumped 75% later.",
-"post": "Remember when Tesla promised to keep your Bitcoin? They accepted it for just 49 days before suspending payments, then quietly dumped 75% of their stash for cash. The chart tells the real story.",
-"quote": "You can now buy a Tesla with Bitcoin = Elon",
-"reply": "Actions speak louder than tweets.",
-"stat": "49 DAYS | BTC payment window",
-"symbol": "BTC",
-"tag": "TRUE STORY",
-"thread": "1/ In February 2021, Tesla shocked the market by revealing a massive $1.5B Bitcoin purchase.\n2/ By March 24, Elon Musk tweeted that you could buy a Tesla with Bitcoin, promising payments would be retained as crypto.\n3/ That promise lasted just 49 days. On May 12, payments were suspended and BTC dropped ~$3,000 in 15 minutes.\n4/ Despite claiming Tesla wouldn't sell, filings later showed they converted ~75% of their bitcoin to cash for a $936M gain.",
-"timeline": "Feb 2021 = Tesla buys $1.5B BTC ; Mar 24, 2021 = Tesla accepts BTC for cars ; May 12, 2021 = BTC payments suspended ; 2022 = Tesla converts 75% to cash",
-"title": "Elon's 49-Day Bitcoin Flip",
-"versus": "Promised = Retained as Bitcoin || Delivered = 75% sold for cash",
-"visual": "TIMELINE"
-},
-"t": 1792441495.1718488
-},
 "b9149914f5": {
 "coin": "bitcoin",
 "facts": "Headline: Swiss regulator FINMA approves country\u2019s first spot bitcoin ETF for retail investors\nSources: The Block, The Defiant, TradingView\n\nArticle text:\nGet The Block\u2019s latest crypto news and price alerts for the coins you follow, right in Chrome. Add our free extension here. Swiss regulator FINMA approves country's first spot bitcoin ETF for retail investorsSwitzerland already has bitcoin exchange-traded products, but the newly approved ETF falls under a different regulatory framework for investment funds. ShareQuick Take\n\nSwitzerland\u2019s financial regulator FINMA has approved its first retail ETF that invests directly in bitcoin, with other fund providers also seeking approval.\nFINMA made an exception to its diversification rules for the bitcoin ETF and outlined safeguards for custody, operational risks, and investor disclosures.\n\nSwitzerland's financial regulator FINMA has approved the country's first spot bitcoin exchange-traded fund for retail investors, allowing a fund to invest directly in the cryptocurrency under Swiss investment fund rules. The Swiss Financial Market Supervisory Authority said Tuesday that the ETF falls into the category of \"other funds for alternative investments\" with a specific risk under Swiss law. Bitcoin Bitcoin (BTC) has a longer trading history and much higher trading volumes than most other cryptocurrencies, FINMA said, which allowed it to make an exception to the rules requiring funds to diversify their investments. Other fund providers have also submitted or announced applications for bitcoin ETFs, the regulator said. Switzerland is no stranger to exchange-traded crypto investments. The SIX Swiss Exchange has listed bitcoin exchange-traded products (ETPs) for years, including a bitcoin and ether product launched in 2019. FINMA also authorized a crypto fund for qualified investors in 2021. Existing Swiss bitcoin ETPs are debt securities, rather than investment funds. FINMA's newly approved ETF falls under Swiss fund law, with rules covering custody, operational risks, and investor disclosures. A FINMA spokesperson declined to identify the approved fund or its issuer when contacted by The Block, saying it does not provide institution-specific information. FINMA's January guidance set out the operational and custody risks associated with crypto investments. FINMA said supervised institutions must take measures to mitigate those risks and clearly explain them in fund documents, with the Financial Services Act rules of conduct applying when the ETF is sold. FINMA said approving the ETF does not change the risks of investing in bitcoin. The cryptocurrency remains highly volatile, and investors could lose a significant portion of their money, it said.\n",
@@ -586,6 +560,38 @@
 "visual": "STAT"
 },
 "t": 1792582014.7592666
+},
+"dda0db300b": {
+"coin": "",
+"facts": "Headline: Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits\nSources: Cointelegraph, Wu Blockchain\n\nTelegram news posts about it:\nCircle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits\n\nAccording to Bloomberg, a Circle shareholder has sued President Donald Trump and World Liberty Financial, alleging that Trump violated the U.S. Constitution\u2019s Foreign Emoluments Clause through two UAE-linked transactions: the $500 million sale of a 49% stake in World Liberty and a $2 billion Binance investment funded using its USD1 stablecoin. The plaintiff claims the deals harmed Circle investors through unfair competition and seeks the return of alleged illegal profits and damages. Circle said it was not involved in the lawsuit, while World Liberty denied the allegations. \u2014 link\n\ud83d\udea8 JUST IN: A new lawsuit accuses Trump and World Liberty Financial of illegally profiting from more than $2 billion in UAE-linked crypto deals.\n\nNews | Markets | YouTube\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Wu Blockchain",
+"story": null,
+"t0": 1792701676.0,
+"tag": null,
+"title": "Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits",
+"url": "https://t.me/wublockchainenglish/26517"
+},
+"p": {
+"keyfact": "A Circle shareholder sued Donald Trump and World Liberty Financial over alleged constitutional violations.",
+"post": "A Circle shareholder just sued Donald Trump and World Liberty Financial. The lawsuit alleges Trump violated the Foreign Emoluments Clause through a $500M stake sale and a $2B Binance investment. World Liberty denied the claims while Circle stated it was not involved. #Crypto",
+"quote": "NONE",
+"reply": "Another courtroom battle begins over crypto ties and foreign emoluments.",
+"short": "",
+"stat": "$2B | UAE-linked crypto deals",
+"symbol": "NONE",
+"tag": "LAWSUIT",
+"thread": "",
+"timeline": "NONE",
+"title": "Trump & World Liberty Sued Over $2B UAE Deals",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1792703342.1897984
 },
 "eaf3584a0b": {
 "coin": "venice-token",
@@ -1066,7 +1072,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489279,
+"offset": 138489280,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
