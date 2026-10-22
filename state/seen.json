@@ -378,18 +378,6 @@
 "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOUFmQUZ6M2s3NmdURjAyLVdObDZfNVg2UDVWd3NlMEZxOHhxTlNfcWotLVVQdmRBN3FBWHhWeFhabFljWFJKTGc3dkxhU2pveTBMdnBhV2FEV1pvYzRhY1RDTGlfaDFkZ1ozT2luUGJPM2VyNXJtMmFTTTUyUTRsWTB6b09mOG01RVU5NGhQZ0dUVTR4WElpU3R4MjVHX1REbGxmNEVBVTJBZDkzNXBfS3MzR3dZc29yT3R0eG5rZ2NMdkxYeUZIcXBacHN1aTRIOTZnWC1wR3hxMUp6MTNSSTdLQUhwZFVjaVE?oc=5",
 "urls": []
 },
-"17cdd4f10114": {
-"coin": "ethereum",
-"src": "Pluang",
-"srcs": [
-"Pluang"
-],
-"t": 1792510968.1887968,
-"t0": 1792492606.0,
-"title": "$61.56M in stolen Ethereum from Drift Protocol exploit moved to Tornado Cash after months of inactivity",
-"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemNveERyY3ZaR0JwQktUc1lLT3VvaDBTUnZaUU5XalZ2VTc0YWRMRU9rdy0wR1NjMVRVTk4wU0xnLVhjVGp3aXFGeXpOTDNEeGlFbUg0cjhzZWowNXpMODk5M3lLWXdaTmgzNmZMaU1PMVVwUG9VaW93eTYzSi1uMS1DTlJwSmZOeVhzeGhrQ1R6WlpFeUh3dm9HZGhoLVdMV2l5Rlp4QnNCRUk?oc=5",
-"urls": []
-},
 "1926fbebf31c": {
 "coin": "monero",
 "src": "The Crypto Times",
@@ -789,7 +777,7 @@
 "CoinDesk",
 "CryptoRank"
 ],
-"t": 1792683245.8646154,
+"t": 1792683552.0947769,
 "t0": 1792671240.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?",
@@ -1148,19 +1136,6 @@
 "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb1QwMmVCT1V3NUpqUER2WGFxR3RuY3Y4UnBESmNka3NWVi1iN01ZYnhjZGdqU2VBaVVuODUzVmJQTVFiWFhvRXhTbkN4UDBQNURqOXhNOFdpeEhVU1dhdzJuVEdBM0szVzlMTi1IdHF3SW1lZXdHSWdPVjNWbVVxWkdCSG5mRXlFWldPYzFDM0x2anZObV9Ud3Jhc1FmYjJFeWpqRFpTc3pGNlpwUFUw?oc=5",
 "urls": []
 },
-"4a68291eff05": {
-"coin": "bitcoin",
-"src": "Bitcoin Foundation",
-"srcs": [
-"Altcoin Buzz",
-"Bitcoin Foundation"
-],
-"t": 1792510968.1887968,
-"t0": 1792500449.0,
-"title": "BlackRock Files for Bitcoin ETF With Capped Gains and Conditional Protection",
-"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaVl1cWxJWnRJT0dZaS1YZEJWMkxnLWNma3JpdFBXdEdqZHBGdm5JY1hrNllHVjBRZTl4SW5IXzJXcHoyd2tSX1hsazNMSVRIMG5QQzNhbkRTQmtEc2k2SktmSDJuRmFSRVZUSV84WjBSM1BJNEgwQ1JhTVFTaWVhQWw2QVd1dmJUR2NtSTk1ek9RbGNZcnJWSEVpWmFXR3FDQ3FhSnNCNW1oNHdDYmJNaE5LdDA3RUhjRmJ3Rg?oc=5",
-"urls": []
-},
 "4a901f6ae24f": {
 "coin": "",
 "src": "Hartford Courant",
@@ -1180,7 +1155,7 @@
 "Bitcoin Magazine",
 "CryptoRank"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1281,10 +1256,11 @@
 "coin": "ripple",
 "src": "TradingView",
 "srcs": [
+"CryptoRank",
 "FXStreet",
 "TradingView"
 ],
-"t": 1792682024.4960258,
+"t": 1792683856.4789708,
 "t0": 1792666493.0,
 "tgtext": "",
 "title": "Franklin\u2019s XRP ETF Buys $2.25 Million as Bitwise\u2019s Fund Sells: Is Wall Street Losing Interest in XRP, or Just Waiting?",
@@ -1495,6 +1471,23 @@
 "t0": 1792540155.0,
 "title": "Bitcoin wallet dormant for more than 10 years moves, 55.1 billion won sent to Coinbase",
 "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMlNtSXZyRkxvNlA0U1A2b2NLNnBhTEV0bW1Obm9Ub1QzT1dqZExXeWdfQ0JRLV9fU3gwTjJqODU5bm9ZeUZmRS1GRm5UUElzWmJwc05rTU9aVThDbjFWV2JlZEFLaU1sSms3UkdtWjkwYjQ5UnhMQWowS2l2OThnWXlpQXl2bmNwWW5lVnlfdzM5bGNtdVJhOHg3WS0tcU9CcjVsSjJ3UnZaLW53aGd4YS1mazBmZnpGM3FwLWEzcTYxREh0OUZ3LXdqWE43MHhzTnJJRG1zajFvV2hFbUtiVjZ6bXU1cWc?oc=5",
+"urls": []
+},
+"62c0bbc821f4": {
+"coin": "tether",
+"src": "Cryptonews.net",
+"srcs": [
+"Coinpedia",
+"Cryptonews.net",
+"ForkLog",
+"Protos | Informed crypto news",
+"TradingView"
+],
+"t": 1792683856.4789708,
+"t0": 1792662791.0,
+"tgtext": "",
+"title": "India\u2019s top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wdmpDNXMyUVJianZ5dTJZU280RWF0aGVTRVBZS2hKQVFPRGRqSnNtUUwxS3BrQ0lBNDJYMHlKZzI1QnBFZGt2ay1DVEFhWDZwUTdTWURuN2tyZw?oc=5",
 "urls": []
 },
 "632a2b8d6b3d": {
@@ -1863,7 +1856,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792673766.0,
 "tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed.\n\nIn a statement to The Block, Fireblocks stated, \"This is news to us, and not true at present time.\" Meanwhile, Visa stated that the company does not comment on rumors or speculation. \u2014 link\n\ud83d\udea8 JUST IN: Fireblocks disputes Axios\u2019 report of $2.5B Visa acquisition talks.\n\n\u201cThis is news to us, and not true at present time,\u201d the company told Cointelegraph.\n\nVisa declined to comment on rumors or speculation.\n\nRead more:\n\nhttps://ct.com/news/fireblocks-disputes-report-of-25b-visa-acquisition-talks\n\nNews | Markets | YouTube",
 "title": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence",
@@ -1971,12 +1964,11 @@
 "coin": "",
 "src": "TradingView",
 "srcs": [
-"CoinNess",
 "Cointelegraph",
 "Cryptonews.net",
 "TradingView"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792675257.0,
 "tgtext": "",
 "title": "Thailand SEC says asset managers want crypto ETFs, but no one has applied yet",
@@ -2007,7 +1999,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792683245.8646154,
+"t": 1792683552.0947769,
 "t0": 1792670400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $SOFI launches FDIC-insured tokenized deposits.\n\n@WatcherGuru",
 "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
@@ -2109,6 +2101,20 @@
 "t0": 1792491913.0,
 "title": "Bitget to Buy Licensed Thai Crypto Exchange From GMO Weeks After $387.5M Hack",
 "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTml3dDhlbEtJQ09lWnJFNnZKdHZIUHQ1N0tWeUE2UFRtLW9SbGtFMzJ5UHhjSWEwbTBZakk5cHNNS3BZazVGZGN6WFNTWWhDN0JDRmxJeVEycVBlMlUxWEE3RU52WkE5NEJ1SFViN1hoWjZ4RTJ4RGdhR2ZiVHE1MDYzVmk3YkdxLVhRekk1eko2VGR5aWRXMVpkYlVzSHEtSXZGUWhXMWtYYjY0WDh6YWIxaG51QQ?oc=5",
+"urls": []
+},
+"90fc0ca20af1": {
+"coin": "ethereum",
+"src": "Cryptonews.net",
+"srcs": [
+"CryptoRank",
+"Cryptonews.net"
+],
+"t": 1792683856.4789708,
+"t0": 1792676146.0,
+"tgtext": "",
+"title": "Ethereum Price Prediction: ETH Slips Below $2,400 as ETF Outflows and Market Sell-Off Pressure Bulls",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nY1ZZNGtNbDdGV2w4c2thS3hZMVhXaHVRQ0lHY3FsWWk2QW8tZjcxQzZGbHl0RktpRnpPMmF4NjN4bWFTOGdWU2dKWWs3UVNzXzFfenpsNWtVQQ?oc=5",
 "urls": []
 },
 "916214524e54": {
@@ -2641,7 +2647,7 @@
 "AsiaOne.com",
 "The Straits Times"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792677655.0,
 "tgtext": "",
 "title": "Man to be charged with allegedly cheating $186k out of friend who told him he was a crypto scam victim",
@@ -2710,7 +2716,7 @@
 "Sahara Reporters",
 "The Eastleigh Voice"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792664713.0,
 "tgtext": "",
 "title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
@@ -2826,17 +2832,19 @@
 "src": "Watcher.Guru",
 "srcs": [
 "Bitcoin Magazine",
+"CoinDesk",
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792674722.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley, Bank of America, JPMorgan, and Wells Fargo detect unauthorized AI agents accessing customer accounts and attempting to act without user instructions.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Morgan Stanley, Bank of America, JPMorgan, and Wells Fargo detect unauthorized AI agents accessing customer accounts and attempting to act without user instructions.",
 "url": "https://t.me/WatcherGuru/15600",
 "urls": [
 "https://bitcoinmagazine.com/news/central-bank-of-ireland-fines-coinbase",
-"https://www.theblock.co/news/regulation/2026-10-22-coinbase-ireland-fined-3-6-million-over-customer-fund-segregation-oversight-failures-421943"
+"https://www.theblock.co/news/regulation/2026-10-22-coinbase-ireland-fined-3-6-million-over-customer-fund-segregation-oversight-failures-421943",
+"https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures"
 ]
 },
 "cbf435207b16": {
@@ -3598,7 +3606,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792683245.8646154,
+"t": 1792683856.4789708,
 "t0": 1792681245.0,
 "tgtext": "",
 "title": "$25.91M liquidated from six Hyperliquid whale a...",
@@ -6501,64 +6509,64 @@
 "top": [
 [
 "b887968afb41",
-62,
-309,
+61,
+319,
+4
+],
+[
+"c9bff80d2514",
+59,
+152,
 4
 ],
 [
 "7fddf41140c7",
 55,
-158,
-4
-],
-[
-"8708ade4c597",
-54,
-133,
+168,
 4
 ],
 [
 "4aa0b9cd350c",
 53,
-121,
+131,
 2
 ],
 [
-"c9bff80d2514",
+"62c0bbc821f4",
 49,
-142,
+351,
+6
+],
+[
+"8708ade4c597",
+44,
+143,
 3
 ],
 [
-"f89e3c7260a5",
-48,
-360,
-7
+"90fc0ca20af1",
+44,
+129,
+2
+],
+[
+"51394322acc4",
+41,
+289,
+3
 ],
 [
 "fa6a10e75502",
 39,
-33,
+44,
 1
-],
-[
-"33eeceda2d7f",
-38,
-200,
-2
 ],
 [
 "b596cd297be8",
 38,
-93,
+103,
 2
-],
-[
-"8821587405a8",
-36,
-214,
-4
 ]
 ],
-"top_at": 1792683245.8646154
+"top_at": 1792683856.4789708
 }
