@@ -113,3 +113,24 @@ telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'l
 market 100 news 66 reddit 25 hacks 1
 labeled 3
 alerts sent 0
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 14
+market 100 news 68 reddit 25 hacks 1
+labeled 1
+gemini models ['gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-3.1-flash-lite', 'gemini-3.7-flash', 'gemini-3.1-flash-lite-preview']
+alerts sent 1
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 14
+market 100 news 67 reddit 25 hacks 1
+labeled 1
+fetch fail https://data-api.binance.vision/api/v3/klines 400 Client Error: Bad Request for url: https://data-api.binance.vision/api/v3/klines?symbol=BTWUSDT&interval=5m&limit=96
+fetch fail https://api.exchange.coinbase.com/products/BTW-USD/candles 404 Client Error: Not Found for url: https://api.exchange.coinbase.com/products/BTW-USD/candles?granularity=300
+mover skipped, candles disagree BTW -11.9418 -8.33
+fetch fail https://data-api.binance.vision/api/v3/klines 400 Client Error: Bad Request for url: https://data-api.binance.vision/api/v3/klines?symbol=MUSDT&interval=5m&limit=96
+fetch fail https://api.exchange.coinbase.com/products/M-USD/candles 404 Client Error: Not Found for url: https://api.exchange.coinbase.com/products/M-USD/candles?granularity=300
+mover skipped, candles disagree M 11.0029 5.83
+alerts sent 0
