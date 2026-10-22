@@ -530,24 +530,6 @@
 "https://bitcoinmagazine.com/news/blackrock-files-for-new-bitcoin-etf"
 ]
 },
-"1fd1351e8bd9": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"Cointelegraph",
-"The Block",
-"The Defiant",
-"TradingView"
-],
-"t": 1792504207.2473924,
-"t0": 1792493969.0,
-"title": "Swiss regulator FINMA approves country\u2019s first spot bitcoin ETF for retail investors",
-"url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
-"urls": [
-"https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
-"https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "1ffc03c885c0": {
 "coin": "bitcoin",
 "src": "Bitcoin Magazine",
@@ -862,7 +844,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Crypto Exploit: How ARRR Users Upgrade Wallets?",
@@ -894,7 +876,7 @@
 "Crypto Briefing",
 "Crypto Economy"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
 "title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
@@ -1198,7 +1180,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1214,7 +1196,7 @@
 "Coinfomania",
 "Lookonchain"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1302,7 +1284,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792666493.0,
 "tgtext": "",
 "title": "Crypto Today: Bitcoin, Ethereum, XRP fall despite net ETF inflows",
@@ -1601,7 +1583,7 @@
 "Help Net Security",
 "The Eastleigh Voice"
 ],
-"t": 1792676203.3152084,
+"t": 1792677118.5232675,
 "t0": 1792656186.0,
 "tgtext": "",
 "title": "INTERPOL cybercrime crackdown nets 1,462 suspects, recovers Sh13.6 billion",
@@ -1712,7 +1694,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792674000.0,
 "tgtext": "",
 "title": "DWF Labs finds Bitcoin ETF buyers follow trends, not set them",
@@ -1886,16 +1868,16 @@
 },
 "7fddf41140c7": {
 "coin": "",
-"src": "The Block",
+"src": "Wu Blockchain",
 "srcs": [
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792673766.0,
 "tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed. \u2014 link",
-"title": "Visa in talks to acquire crypto custody firm Fireblocks for around $2.5 billion: Axios",
-"url": "https://www.theblock.co/news/deals/2026-10-22-visa-in-talks-acquire-crypto-custody-firm-fireblocks-around-2-5-billion-axios-421926",
+"title": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence",
+"url": "https://t.me/wublockchainenglish/26516",
 "urls": [
 "https://www.theblock.co/news/deals/2026-10-22-visa-in-talks-acquire-crypto-custody-firm-fireblocks-around-2-5-billion-axios-421926"
 ]
@@ -2015,7 +1997,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792670400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $SOFI launches FDIC-insured tokenized deposits.\n\n@WatcherGuru",
 "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
@@ -3133,21 +3115,6 @@
 "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"e071cb755db0": {
-"coin": "bitcoin",
-"src": "Decrypt",
-"srcs": [
-"Decrypt",
-"Yahoo Finance"
-],
-"t": 1792504207.2473924,
-"t0": 1792487610.0,
-"title": "BlackRock Files for 'Buffer' Bitcoin ETF as IBIT Draws $665M in a Day",
-"url": "https://decrypt.co/381385/blackrock-files-for-buffer-bitcoin-etf-as-ibit-draws-665m-in-a-day",
-"urls": [
-"https://decrypt.co/381385/blackrock-files-for-buffer-bitcoin-etf-as-ibit-draws-665m-in-a-day"
-]
-},
 "e1941a668e25": {
 "coin": "",
 "src": "TradingView",
@@ -3435,12 +3402,11 @@
 "coin": "",
 "src": "The Guardian",
 "srcs": [
-"Analytics Insight",
 "Cointelegraph",
 "Cryptonews.net",
 "The Guardian"
 ],
-"t": 1792676507.7445397,
+"t": 1792677118.5232675,
 "t0": 1792659962.0,
 "tgtext": "",
 "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
@@ -6476,65 +6442,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"f15a6af0add4",
-53,
-276,
-4
-],
-[
 "37eda6f9a046",
-51,
-335,
-11
+49,
+346,
+13
 ],
 [
 "7fddf41140c7",
 43,
-46,
+56,
 2
 ],
 [
 "4aa0b9cd350c",
 43,
-8,
+19,
 1
-],
-[
-"37c2af22bf36",
-42,
-254,
-2
 ],
 [
 "72b7cf88b328",
 42,
-42,
+52,
+2
+],
+[
+"f15a6af0add4",
+41,
+286,
+3
+],
+[
+"37c2af22bf36",
+40,
+264,
 2
 ],
 [
 "8821587405a8",
 40,
-102,
+112,
 4
 ],
 [
 "4ab0fe580482",
-39,
-258,
+38,
+268,
 2
 ],
 [
-"945ec6f6fa39",
-34,
-227,
-3
+"679af3f653ee",
+37,
+349,
+2
 ],
 [
 "51394322acc4",
 34,
-167,
+177,
 2
 ]
 ],
-"top_at": 1792676507.7445397
+"top_at": 1792677118.5232675
 }
