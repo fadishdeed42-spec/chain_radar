@@ -267,16 +267,19 @@
 },
 "0e929dd88a77": {
 "coin": "",
-"src": "Global Banking & Finance Review",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "Global Banking & Finance Review"
 ],
-"t": 1792657005.374611,
+"t": 1792660973.6610086,
 "t0": 1792642646.0,
 "tgtext": "",
-"title": "Cloudflare Reports Millions of PHP Exploit Attempts After Disclosure",
-"url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnd0Z2dLN3RGUVVMaU1BM0xxUDRvVzlqM0IxdEYzdkZnTFlVbmYtbXBKQThZR2N6am9JX3FreXJxSGh6cmQ3NzJDTjVZZ3FwaFdVMTJWTHYyMHJuVm40UHpGbE9hU3ctbXRpS0pfUWwwX1hDS1ZoVTRHUi1VX0RMeDZFM094ak5uSm1tN3V6bFB0NjhaUkFWeV83MVNxUQ?oc=5",
-"urls": []
+"title": "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns",
+"url": "https://cointelegraph.com/news/cloudflare-millions-exploit-attempts-php-vulnerability-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/cloudflare-millions-exploit-attempts-php-vulnerability-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "0ed87eef11b1": {
 "coin": "bitcoin",
@@ -461,7 +464,7 @@
 "Coin Gabbar",
 "Kalkine Media"
 ],
-"t": 1792660362.4719777,
+"t": 1792660973.6610086,
 "t0": 1792649100.0,
 "tgtext": "",
 "title": "Bitcoin ETF Inflows Rise, but Can the Rally Sustain?",
@@ -718,7 +721,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1792660362.4719777,
+"t": 1792660973.6610086,
 "t0": 1792650250.0,
 "tgtext": "",
 "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
@@ -912,9 +915,10 @@
 "BeInCrypto",
 "Coin Gabbar",
 "Coinfomania",
-"Wu Blockchain"
+"Wu Blockchain",
+"Yahoo Finance"
 ],
-"t": 1792660362.4719777,
+"t": 1792660973.6610086,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed. \u2014 link",
 "title": "CoinDCX Denies $16 Million Hack, Tracing Flagged Wallets to Its 2025 Breach",
@@ -927,7 +931,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792660362.4719777,
+"t": 1792660973.6610086,
 "t0": 1792654652.0,
 "tgtext": "",
 "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
@@ -994,6 +998,19 @@
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-top-buyers-halt-btc-price-upside-with-877k-now-key-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"3a25f3c06454": {
+"coin": "monero",
+"src": "CryptoTicker",
+"srcs": [
+"CryptoTicker"
+],
+"t": 1792660973.6610086,
+"t0": 1792660426.0,
+"tgtext": "",
+"title": "Monero at $644: 24 percent short of its record high",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xdC1jQS1IWkV2RFNfRVdsUmpiSnl2SDFCM1psT1dnZGdqRWhWZFBlSHRSaEFNbzFkeG00Z3E5cTNRY2xLaU1KR3p1SHplS2VtYXdISjBJdWNpRFFXZER2Mmx2aWlRcjBOM2k0M3hpdGdaRkJUeEE?oc=5",
+"urls": []
 },
 "3bc527d231de": {
 "coin": "",
@@ -1594,13 +1611,26 @@
 "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45SVBWZU1rbHp6YnhQTS1CQktTcjUtak5XbGNuRzczbTZIclBLXzZlT2ZqaFVSbFB6VDAxUGRxZ2ZHVS05Z1VXRzBKUWJFam9WOHEzcmU4TDBHNHZYdXQ2LTBZVTVDR2JkOWFuWFZEU0NtUVk?oc=5",
 "urls": []
 },
+"6726a1d57f49": {
+"coin": "bitcoin",
+"src": "Cryptonews",
+"srcs": [
+"Cryptonews"
+],
+"t": 1792660973.6610086,
+"t0": 1792660213.0,
+"tgtext": "",
+"title": "Bitcoin ETF Pull In $1.07B as Irish Drug Trafficker Moves 500 BTC",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSVcxVko3THkwYW1DemdKR0VOT0JiNm1weUh5dlgxem40MXdzUWxwd2pzdzI5SjFvalctM1F3VVdRdW9tQmt5bFpQMENEMzJSUmVJal9YRUxMTjFZWTBzbHU4dHNrbTl3YWtCSXI3TDJRYWhwY21sbkxYd0V6X1lPdURnaEs1SUdzN2hjWUNUQ3EyMVhwSi16eVllQzAxTTVoOEtkUHh3?oc=5",
+"urls": []
+},
 "679af3f653ee": {
 "coin": "",
 "src": "Help Net Security",
 "srcs": [
 "Help Net Security"
 ],
-"t": 1792660362.4719777,
+"t": 1792660973.6610086,
 "t0": 1792656186.0,
 "tgtext": "",
 "title": "Africa cybercrime crackdown nets 1,462 arrests and over $105 million",
@@ -1718,7 +1748,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792660362.4719777,
+"t": 1792660668.8010855,
 "t0": 1792658420.0,
 "tgtext": "",
 "title": "Bitcoin\u2019s $80,000 floor faces Friday inflation test as ETF inflows lose momentum",
@@ -2127,7 +2157,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792660362.4719777,
+"t": 1792660973.6610086,
 "t0": 1792654555.0,
 "tgtext": "",
 "title": "Railway Security Flaw Puts Customer Funds in Crypto at Risk, Deployments Halted",
@@ -2939,6 +2969,20 @@
 "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS2xZMWtSd1QtWndKZVVZR2c0eVBRanFwVVlsZG1pb1lDbkRvdi1wMF90Ym9DckhpRWIybGxPaGhFcWhrTDVCak1NX2ZfRU9DN21QZTA1ODVkZGhMQzU4UXBvdWZ0MU5ha09zQ1k3NEdGb3NZX1U5dlJIeDBmSWxFMUF6SXdZNko1V2V5STZkbWVCOVk?oc=5",
 "urls": []
 },
+"d87e03706a09": {
+"coin": "",
+"src": "Hokanews",
+"srcs": [
+"Coin Gabbar",
+"Hokanews"
+],
+"t": 1792660973.6610086,
+"t0": 1792651860.0,
+"tgtext": "",
+"title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTjc5N1h5VkZVSDU5VWd5RTZaVlZucVRKWWVEVjJlaFlGTTR3QjY4UWVhaWhQdjg4ZUJnVkNpLUNQTzZCNFhYX0dJU0t3NnVRYnZvSmJwdkszR0pkZjVRUnlJQXV1Yk9STVpULVVzYmE4VW1ibGozQW4tdWZ1OEU?oc=5",
+"urls": []
+},
 "d91e2d84bc7a": {
 "coin": "",
 "src": "TOKENPOST",
@@ -3362,18 +3406,6 @@
 "urls": [
 "https://bitcoinmagazine.com/news/companies-apply-to-list-tokenized-stocks"
 ]
-},
-"edbf178e8b0f": {
-"coin": "",
-"src": "Cryptonews.net",
-"srcs": [
-"Cryptonews.net"
-],
-"t": 1792488084.114775,
-"t0": 1792475503.0,
-"title": "Crypto hacks surge 55% to $1.2B, but key theft drops by 30%",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85ZW16TVMzVEdZTEFvc2JSdmZESDh4ZTlqb211Yms5dy1MVGRpbS1nZDNqaEVXbmRWN0pTLVl2cWJUUHYwczNyaEtsZUhLYVZDbDZvREhDZTlWZw?oc=5",
-"urls": []
 },
 "eefa0234f75a": {
 "coin": "zcash",
@@ -6442,63 +6474,63 @@
 [
 "37eda6f9a046",
 71,
-66,
-4
+77,
+5
 ],
 [
 "2946d786a5df",
 53,
-169,
+179,
 2
+],
+[
+"d87e03706a09",
+44,
+152,
+2
+],
+[
+"6726a1d57f49",
+39,
+13,
+1
+],
+[
+"3a25f3c06454",
+37,
+9,
+1
 ],
 [
 "38c5345e12b3",
 36,
-95,
+105,
 1
 ],
 [
 "679af3f653ee",
 34,
-70,
+80,
 1
 ],
 [
 "19f7e411aec9",
-33,
-188,
+32,
+198,
 2
 ],
 [
 "980a42a8f28b",
 32,
-97,
+107,
 1
 ],
 [
-"775737654ba6",
+"0e929dd88a77",
 29,
-32,
-1
-],
-[
-"167e94b3eb96",
-28,
-129,
-1
-],
-[
-"b519d7360f93",
-25,
-227,
-1
-],
-[
-"357ef196c86e",
-25,
-21,
-1
+305,
+2
 ]
 ],
-"top_at": 1792660362.4719777
+"top_at": 1792660973.6610086
 }
