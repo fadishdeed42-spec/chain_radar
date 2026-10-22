@@ -124,7 +124,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792633087.0,
 "tgtext": "\u26a1\ufe0f NOW: CZ warns users to be \u201cextra careful visiting ANY web site in the next few days,\u201d as unpatched sites vulnerable to two exploited PHP flaws could be used for credential theft or device exploits.\n\nNews | Markets | YouTube",
 "title": "NOW: CZ warns users to be \u201cextra careful visiting ANY web site in the next few days,\u201d as unpatched sites vulnerable to two exploited PHP flaws could be used for credential theft or device exploits.",
@@ -194,7 +194,7 @@
 "srcs": [
 "Gulf News"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792637559.0,
 "tgtext": "",
 "title": "UAE-led global crackdown uncovers $39 billion in fraud-linked assets, 960 arrested",
@@ -207,7 +207,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792628204.0,
 "tgtext": "",
 "title": "Crypto Overview: A $1.18B Hack Quarter Shows What Audits Miss, While Pepeto's Presale Tops $11.2M",
@@ -249,7 +249,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792640702.0,
 "tgtext": "",
 "title": "Ledger unveils an $849 crypto phone weeks after a $90 million hardware hack",
@@ -983,7 +983,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1792642384.200086,
+"t": 1792642690.0149002,
 "t0": 1792632300.0,
 "tgtext": "",
 "title": "Cloudflare CEO Reports Millions of PHP2Shell Exploit Attempts",
@@ -1160,7 +1160,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792629336.0,
 "tgtext": "",
 "title": "Ether sees $14.58M liquidations in an hour, mos...",
@@ -1198,7 +1198,7 @@
 "srcs": [
 "StreetInsider"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792634625.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Another ATH in 2027 or a Bear Market? Why BTC Whales Buy AlphaPepe Presale Instead",
@@ -1220,18 +1220,6 @@
 "urls": [
 "https://cointelegraph.com/news/strive-closes-630m-sats-ipo-leaves-bitcoin-allocation-unspecified?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"4cb67f07a0b7": {
-"coin": "",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1792470065.2423627,
-"t0": 1792449626.0,
-"title": "Aevo's Ribbon Vaults Lose $2.7M in Oracle Exploit",
-"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0N3NUVpRXVsR0JOU25PeFZKVjdXcjlUQ1NmekV5R0ZwNEFtUkJLVi1sZ3hZYUtQck5JSDBzdl9pSXZITC1TX1lNTTdGM3RvM0Jjd1dOUllHdHRrczAydm9qVE40V1UxQkxfOHNNMzdNUjQzVTZJU3ZhMjZRcUwyRjVscG83cWZmQkJvV2FYWVRlZ0FvbVdfUmRR?oc=5",
-"urls": []
 },
 "4d7fd1c0bd31": {
 "coin": "",
@@ -1972,7 +1960,7 @@
 "srcs": [
 "Traders Union"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792636826.0,
 "tgtext": "",
 "title": "Anndy Lian: 92% of Bitcoin liquidations were short positions",
@@ -2141,7 +2129,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792641161.7453327,
+"t": 1792642994.5460958,
 "t0": 1792636292.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The SEC reveals three firms, TSV LLC, OKXICE TSV and Perpetualscom, have filed to run tokenized securities venues under its new Innovation Exemption.\n\nNews | Markets | YouTube",
 "title": "The SEC reveals three firms, TSV LLC, OKXICE TSV and Perpetualscom, have filed to run tokenized securities venues under its new Innovation Exemption.",
@@ -2320,7 +2308,7 @@
 "srcs": [
 "Coinfomania"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792634044.0,
 "tgtext": "",
 "title": "Market Pulse Reveals $3.2B in Crypto Liquidations",
@@ -2405,7 +2393,7 @@
 "srcs": [
 "Stocktwits"
 ],
-"t": 1792642384.200086,
+"t": 1792642994.5460958,
 "t0": 1792630957.0,
 "tgtext": "",
 "title": "AI Chip Bets Suffer $34M Liquidation Wipeout As Bitcoin, Ethereum Near Danger Zone Ahead Of Black Monday Fears",
@@ -6463,64 +6451,64 @@
 "top": [
 [
 "099e7ab99138",
-48,
-236,
+47,
+247,
 1
 ],
 [
 "03a384139b3a",
 43,
-155,
+165,
 1
 ],
 [
 "07ca4ff7d86c",
 43,
-80,
+91,
 1
 ],
 [
 "0a774dbbd943",
 41,
-28,
+38,
 1
 ],
 [
 "a0f044c8c282",
 40,
-139,
-1
-],
-[
-"3cb61cf8f636",
-35,
-168,
-1
-],
-[
-"a69aac0b79a6",
-30,
-190,
+149,
 1
 ],
 [
 "4b71d407ffa5",
 30,
-129,
+139,
+1
+],
+[
+"a69aac0b79a6",
+29,
+201,
 1
 ],
 [
 "4a432663b382",
-27,
-217,
+25,
+228,
 1
 ],
 [
 "8ba9fe7294b2",
 25,
-93,
+103,
+1
+],
+[
+"98e4445d8efa",
+24,
+112,
 1
 ]
 ],
-"top_at": 1792642384.200086
+"top_at": 1792642994.5460958
 }
