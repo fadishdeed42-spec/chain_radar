@@ -122,11 +122,12 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Wu Blockchain"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792633087.0,
-"tgtext": "\u26a1\ufe0f NOW: CZ warns users to be \u201cextra careful visiting ANY web site in the next few days,\u201d as unpatched sites vulnerable to two exploited PHP flaws could be used for credential theft or device exploits.\n\nNews | Markets | YouTube",
+"tgtext": "\u26a1\ufe0f NOW: CZ warns users to be \u201cextra careful visiting ANY web site in the next few days,\u201d as unpatched sites vulnerable to two exploited PHP flaws could be used for credential theft or device exploits.\n\nNews | Markets | YouTube\nCZ Warns Users to Be Extra Cautious Online in Coming Days Amid PHP Exploits\n\nBinance founder Changpeng Zhao (CZ) warned users to exercise caution when visiting websites over the coming days, citing two critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) affecting servers running popular applications such as WordPress and Magento. The flaws, patched on October 21 after details leaked ahead of disclosure, could allow unauthenticated attackers to execute malicious code on vulnerable servers, potentially exposing visitors to credential theft. Exploitation attempts have already been detected, while some website operators may not yet have applied security updates. \u2014 link",
 "title": "NOW: CZ warns users to be \u201cextra careful visiting ANY web site in the next few days,\u201d as unpatched sites vulnerable to two exploited PHP flaws could be used for credential theft or device exploits.",
 "url": "https://t.me/cointelegraph/72793",
 "urls": []
@@ -194,7 +195,7 @@
 "srcs": [
 "Gulf News"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792637559.0,
 "tgtext": "",
 "title": "UAE-led global crackdown uncovers $39 billion in fraud-linked assets, 960 arrested",
@@ -207,7 +208,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792628204.0,
 "tgtext": "",
 "title": "Crypto Overview: A $1.18B Hack Quarter Shows What Audits Miss, While Pepeto's Presale Tops $11.2M",
@@ -237,7 +238,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792640702.0,
 "tgtext": "",
 "title": "Ledger unveils an $849 crypto phone weeks after a $90 million hardware hack",
@@ -918,7 +919,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792644119.0,
 "tgtext": "",
 "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
@@ -934,7 +935,7 @@
 "Global Banking & Finance Review",
 "The Defiant"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792632300.0,
 "tgtext": "",
 "title": "Cloudflare CEO Reports Millions of PHP2Shell Exploit Attempts",
@@ -1303,7 +1304,7 @@
 "srcs": [
 "Dailypress.net"
 ],
-"t": 1792646961.863481,
+"t": 1792648182.5445158,
 "t0": 1792646565.0,
 "tgtext": "",
 "title": "Illinois man arrested for $665K scam of Escanaba man",
@@ -2260,7 +2261,7 @@
 "srcs": [
 "Coinfomania"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792634044.0,
 "tgtext": "",
 "title": "Market Pulse Reveals $3.2B in Crypto Liquidations",
@@ -2555,7 +2556,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792646717.0,
 "tgtext": "",
 "title": "Bitcoin tops $84,000 amid $188M in crypto short liquidations in 24 hours",
@@ -2689,7 +2690,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792647876.699635,
+"t": 1792648487.0862453,
 "t0": 1792646223.0,
 "tgtext": "",
 "title": "Yau Tong man, 26, arrested over two indecent exposure cases involving five schoolgirls",
@@ -3169,7 +3170,7 @@
 "srcs": [
 "LatestLY"
 ],
-"t": 1792647572.2881327,
+"t": 1792648487.0862453,
 "t0": 1792637542.0,
 "tgtext": "",
 "title": "India News | 2 Convicted in 2017 Barabanki Drug Seizure Case, Sentenced to 10 Years in Jail: NCB",
@@ -3410,19 +3411,6 @@
 "tgtext": "",
 "title": "Zcash Rises 2.34% in One Hour to $1,221 on Binance Spot Market",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhbHJhQTFLNmM0ZVBxaTlVbFN1MDFwcFJaQ2R6OUhfdjZ0VHc3Q3dWX2U3OHJLcFZaNXBuVTNDN1pVcUV5MTRXLW41dGt2U3NXVjNvZW1oYXNlZw?oc=5",
-"urls": []
-},
-"ef03dc94b8ef": {
-"coin": "bitcoin",
-"src": "bloomingbit",
-"srcs": [
-"Crypto News",
-"bloomingbit"
-],
-"t": 1792475542.115522,
-"t0": 1792454540.0,
-"title": "BlackRock Files With SEC to Launch Downside-Protected Bitcoin ETF",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XQlkzcHJwWmR5MFAwajkteHQ3dlN6THNvQjhfX3QxOFBnNVg4Vmk0cGJkUGxmT1hrOVV1c0x4WWZ1b1p1bGZSZzU0bU4yTms1bkdGYg?oc=5",
 "urls": []
 },
 "ef4b734fe8d0": {
@@ -6429,65 +6417,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"03a384139b3a",
+43,
+257,
+2
+],
+[
 "07ca4ff7d86c",
 43,
-172,
+182,
 1
 ],
 [
 "0a774dbbd943",
 41,
-120,
+130,
 1
 ],
 [
 "099e7ab99138",
-36,
-328,
+34,
+338,
 1
 ],
 [
 "3cb61cf8f636",
-35,
-260,
+34,
+270,
 2
 ],
 [
-"03a384139b3a",
-35,
-246,
-1
-],
-[
 "a0f044c8c282",
-34,
-231,
-1
-],
-[
-"48e46f611ca6",
-31,
-256,
+32,
+241,
 1
 ],
 [
 "b519d7360f93",
 31,
-19,
+30,
 1
 ],
 [
 "3c701d497aff",
 30,
-63,
+73,
+1
+],
+[
+"e56cc21393e2",
+28,
+182,
 1
 ],
 [
 "bd22bb532f34",
 28,
-28,
+38,
 1
 ]
 ],
-"top_at": 1792647876.699635
+"top_at": 1792648487.0862453
 }
