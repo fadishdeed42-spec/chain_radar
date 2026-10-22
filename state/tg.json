@@ -695,6 +695,38 @@
 },
 "t": 1792602423.1186259
 },
+"f500d08ff1": {
+"coin": "tether",
+"facts": "Headline: India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported\nSources: BeInCrypto, Coin Edition, Coin Gabbar, Crypto Briefing, Crypto News\nCoin in this story: Tether (USDT) $0.9994, +0.0% in 24h\n\nTelegram news posts about it:\nCoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Crypto Briefing",
+"story": null,
+"t0": 1792656379.0,
+"tag": null,
+"title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5"
+},
+"p": {
+"keyfact": "On-chain data shows $15.8M in USDT moved from addresses CoinDCX claims were abandoned.",
+"post": "CoinDCX claims $16 million in USDT transfers are just ghosts from a 2025 hack. On-chain investigator ZachXBT disputes this, showing the addresses were active with user deposits as recently as May. Over $15 million remains in question. #Crypto",
+"quote": "NONE",
+"reply": "The discrepancy between the exchange narrative and the on-chain activity is significant. Users deserve transparency regarding these active deposit addresses.",
+"short": "",
+"stat": "$15.8M | USDT transferred",
+"symbol": "USDT",
+"tag": "HACK",
+"thread": "",
+"timeline": "July 2025 = Initial $44M exchange breach ; Oct 21 2026 = $16M moved from addresses ; Oct 2026 = Exchange claims addresses were legacy ; Oct 2026 = Investigator links address to active flow",
+"title": "CoinDCX denies $16M hack amid conflicting evidence",
+"versus": "Exchange claim = Abandoned addresses || On-chain data = Active until May 2026",
+"visual": "STAT"
+},
+"t": 1792672626.2264874
+},
 "f68e6b6cf4": {
 "coin": "",
 "facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
@@ -1022,7 +1054,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489275,
+"offset": 138489277,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
