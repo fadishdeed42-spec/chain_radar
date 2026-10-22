@@ -44,7 +44,7 @@
 "Kanyi Daily News",
 "news.lavx.hu"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792678466.0,
 "tgtext": "",
 "title": "INTERPOL operation Serengeti III disrupts 10,909 cybercrime networks, arrests 1,462",
@@ -145,9 +145,10 @@
 "srcs": [
 "Coinpedia",
 "Protos | Informed crypto news",
-"TradingView"
+"TradingView",
+"shattered.io"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792676744.0,
 "tgtext": "",
 "title": "CoinDCX denies second hack as blockchain investigators allege $16 million theft",
@@ -663,7 +664,7 @@
 "Crypto Economy",
 "U.Today"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792683986.0,
 "tgtext": "",
 "title": "Trust Wallet Dismisses Speculation Regarding Potential Security Impact From PHP Exploit",
@@ -882,6 +883,19 @@
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"3937aaaef85c": {
+"coin": "tether",
+"src": "Crowdfund Insider",
+"srcs": [
+"Crowdfund Insider"
+],
+"t": 1792697544.5140488,
+"t0": 1792697135.0,
+"tgtext": "",
+"title": "Colombian Crypto Broker \u201cRey\u201d Sentenced to Prison for Laundering $14.5M in Drug Proceeds via USDT",
+"url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNWNqeDBPbTZLeXoyZ1U0bWYtZGN3VEpUSmliVzFBbnkzR0RhTEc4UUxFWVZGMzhRc3dOWlZGbWNNYkIybFg0bmEyU2NjNUpnaGtlSTQ2VmJkUG1lbEJDcTR4eTg3OUJ5cnlUT2duNUQyZklIZFgzbjV1MVhPZHlQMmhEQ1YzMUp4X0hvVFFKOW9WckdKcC1MZE9xSHktNkZ3bklscDExQURiamRCUGVOYkdvcmdZdjZvaVpBZjRpV1MwSUxpUnNKZ203Nm40M3J1ODBtUmlUeHZIZVE?oc=5",
+"urls": []
 },
 "394b72385a96": {
 "coin": "",
@@ -1141,7 +1155,7 @@
 "Bitcoin Magazine",
 "CryptoRank"
 ],
-"t": 1792696626.2948346,
+"t": 1792697544.5140488,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1634,7 +1648,7 @@
 "srcs": [
 "\u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792686832.0,
 "tgtext": "",
 "title": "INTERPOL nabs two Nigerian yahoo boys over $2.4m fraud, recovers $105m in Africa",
@@ -1921,7 +1935,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1792696931.9148548,
+"t": 1792697239.3169885,
 "t0": 1792675674.0,
 "tgtext": "\ud83d\udea8 JUST IN: Fireblocks disputes Axios\u2019 report of $2.5B Visa acquisition talks.\n\n\u201cThis is news to us, and not true at present time,\u201d the company told Cointelegraph.\n\nVisa declined to comment on rumors or speculation.\n\nRead more:\n\nhttps://ct.com/news/fireblocks-disputes-report-of-25b-visa-acquisition-talks\n\nNews | Markets | YouTube",
 "title": "Fireblocks denies report of $2.5 billion acquisition talks with Visa",
@@ -2112,7 +2126,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792692326.0,
 "tgtext": "",
 "title": "Bitcoin falls below $81K despite $1B ETF inflows, triggering $412M in long liquidations.",
@@ -2703,7 +2717,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792693922.0,
 "tgtext": "",
 "title": "China Moves to Confiscate $5 Billion in Bitcoin From Fraudster Who Fled to UK: Report",
@@ -2890,7 +2904,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792686035.0,
 "tgtext": "",
 "title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
@@ -3580,7 +3594,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1792696931.9148548,
+"t": 1792697544.5140488,
 "t0": 1792689602.0,
 "tgtext": "",
 "title": "Best Crypto Portfolio: Drift Hack Transfer Reports Put ETH, XRP and $33M Remittix in Focus",
@@ -6457,63 +6471,63 @@
 [
 "931128fa35cb",
 55,
-77,
+87,
 1
 ],
 [
+"0645c969949e",
+49,
+347,
+4
+],
+[
 "00defa6d370f",
-47,
-308,
+46,
+318,
 4
 ],
 [
 "bcf124da3205",
 43,
-50,
+60,
 1
-],
-[
-"0645c969949e",
-41,
-336,
-3
-],
-[
-"2a9115ad596b",
-41,
-216,
-2
 ],
 [
 "fa3db09e8ad4",
 41,
-122,
+132,
 1
 ],
 [
-"9faaaa45fb0b",
-34,
-359,
-4
+"2a9115ad596b",
+39,
+226,
+2
 ],
 [
 "6faf7649f795",
 34,
-168,
+179,
 1
 ],
 [
-"84c713b3b621",
-32,
-354,
-4
+"3937aaaef85c",
+34,
+7,
+1
 ],
 [
 "cc17c0565dfd",
-32,
-182,
+31,
+192,
 1
+],
+[
+"4aa0b9cd350c",
+30,
+359,
+2
 ]
 ],
-"top_at": 1792696931.9148548
+"top_at": 1792697544.5140488
 }
