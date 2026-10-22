@@ -142,7 +142,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792664633.0,
 "tgtext": "",
 "title": "$820K stolen from NEM token's PancakeSwap pool due to contract flaw on BNB Chain",
@@ -286,7 +286,7 @@
 "Cryptonews.net",
 "Global Banking & Finance Review"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792653540.0,
 "tgtext": "",
 "title": "Worldwide Rush to Patch PHP Flaws Amid Millions of Hacking Attempts",
@@ -693,7 +693,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792650250.0,
 "tgtext": "",
 "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
@@ -872,7 +872,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Crypto Exploit: How ARRR Users Upgrade Wallets?",
@@ -904,7 +904,7 @@
 "Cryptonews.net",
 "ForkLog"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
 "title": "India\u2019s top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
@@ -1207,7 +1207,7 @@
 "Coinfomania",
 "Lookonchain"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1360,7 +1360,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792668619.7843637,
+"t": 1792669841.7496371,
 "t0": 1792663067.0,
 "tgtext": "",
 "title": "Over $210M in crypto longs liquidated as BTC an...",
@@ -1426,7 +1426,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792668004.0,
 "tgtext": "",
 "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
@@ -1593,7 +1593,7 @@
 "srcs": [
 "Cryptonews"
 ],
-"t": 1792668619.7843637,
+"t": 1792669841.7496371,
 "t0": 1792660213.0,
 "tgtext": "",
 "title": "Bitcoin ETFs Pull In $1.07B as Irish Drug Trafficker-Linked Wallet Moves $41M",
@@ -1607,7 +1607,7 @@
 "Help Net Security",
 "The Eastleigh Voice"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792656186.0,
 "tgtext": "",
 "title": "INTERPOL cybercrime crackdown nets 1,462 suspects, recovers Sh13.6 billion",
@@ -2078,7 +2078,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1792669535.3560336,
+"t": 1792670146.3544862,
 "t0": 1792664573.0,
 "tgtext": "",
 "title": "Lawsuit Says ColdCard's Random Number Flaw Exposed $116 Million in Bitcoin",
@@ -2877,9 +2877,9 @@
 "srcs": [
 "Coin Gabbar",
 "Hokanews",
-"Pluang"
+"TOKENPOST"
 ],
-"t": 1792669230.8975513,
+"t": 1792670146.3544862,
 "t0": 1792651860.0,
 "tgtext": "",
 "title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
@@ -3097,6 +3097,19 @@
 "urls": [
 "https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559"
 ]
+},
+"e217f4e62180": {
+"coin": "bitcoin",
+"src": "Pluang",
+"srcs": [
+"Pluang"
+],
+"t": 1792669841.7496371,
+"t0": 1792665119.0,
+"tgtext": "",
+"title": "Bitcoin's rally stalled on Oct 21, triggering $91M in long liquidations amid uncertain price pattern.",
+"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcVZieVFmSk1wOTk3M0Q5b2JTbmtlcG04b3NLVzFPRVYxNnBLS0k2TTlRSWtIbWZjY2JoZV9EcTNkaFdIRGFmcnVUMWNDaG9CWmhIM0ViejVkOWVmZ0lPUU5jU2gzbU43aUR4ZU5Ha1RheVFxUTdwMU1RWHNiTlFiM3V6MA?oc=5",
+"urls": []
 },
 "e56cc21393e2": {
 "coin": "",
@@ -3353,11 +3366,9 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
-"Analytics Insight",
-"Cointelegraph",
-"KuCoin"
+"Cointelegraph"
 ],
-"t": 1792668619.7843637,
+"t": 1792669841.7496371,
 "t0": 1792659962.0,
 "tgtext": "",
 "title": "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns",
@@ -6380,64 +6391,64 @@
 "top": [
 [
 "37eda6f9a046",
-66,
-219,
+65,
+229,
 7
 ],
 [
 "679af3f653ee",
-54,
-222,
+52,
+233,
 2
 ],
 [
 "37c2af22bf36",
 51,
-137,
+148,
 2
 ],
 [
 "4ab0fe580482",
 49,
-142,
+152,
 2
 ],
 [
-"0e929dd88a77",
-44,
-267,
+"d87e03706a09",
+46,
+305,
 3
 ],
 [
-"2946d786a5df",
-35,
-321,
-2
+"0e929dd88a77",
+43,
+277,
+3
 ],
 [
 "063102931695",
 35,
-82,
+92,
 1
 ],
 [
 "916214524e54",
 34,
-83,
+93,
 1
 ],
 [
-"51394322acc4",
-32,
-51,
-1
+"2946d786a5df",
+33,
+332,
+2
 ],
 [
 "5d4f121dcc27",
 32,
-26,
+36,
 1
 ]
 ],
-"top_at": 1792669535.3560336
+"top_at": 1792670146.3544862
 }
