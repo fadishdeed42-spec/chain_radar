@@ -427,7 +427,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792697431.0,
 "tgtext": "",
 "title": "Blockaid Warns of DeFi Monitoring Gap After Balancer Exploit",
@@ -718,9 +718,10 @@
 "Blueprint Newspapers",
 "Hackread",
 "Sahara Reporters",
+"The Defiant",
 "news.lavx.hu"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792684120.0,
 "tgtext": "",
 "title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
@@ -907,7 +908,7 @@
 "srcs": [
 "Crowdfund Insider"
 ],
-"t": 1792702752.9605238,
+"t": 1792704290.8908203,
 "t0": 1792697135.0,
 "tgtext": "",
 "title": "Colombian Crypto Broker \u201cRey\u201d Sentenced to Prison for Laundering $14.5M in Drug Proceeds via USDT",
@@ -1679,7 +1680,7 @@
 "Forbes",
 "The Crypto Times"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792695844.0,
 "tgtext": "",
 "title": "Bitcoin Plunges Below $81,000 As 'Everything' Sell-Off Fuels Losses",
@@ -2116,7 +2117,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792692326.0,
 "tgtext": "",
 "title": "Bitcoin falls below $81K despite $1B ETF inflows, triggering $412M in long liquidations.",
@@ -2169,15 +2170,18 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"Bitcoin Magazine",
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792701676.0,
 "tgtext": "Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits\n\nAccording to Bloomberg, a Circle shareholder has sued President Donald Trump and World Liberty Financial, alleging that Trump violated the U.S. Constitution\u2019s Foreign Emoluments Clause through two UAE-linked transactions: the $500 million sale of a 49% stake in World Liberty and a $2 billion Binance investment funded using its USD1 stablecoin. The plaintiff claims the deals harmed Circle investors through unfair competition and seeks the return of alleged illegal profits and damages. Circle said it was not involved in the lawsuit, while World Liberty denied the allegations. \u2014 link\n\ud83d\udea8 JUST IN: A new lawsuit accuses Trump and World Liberty Financial of illegally profiting from more than $2 billion in UAE-linked crypto deals.\n\nNews | Markets | YouTube",
 "title": "Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits",
 "url": "https://t.me/wublockchainenglish/26517",
-"urls": []
+"urls": [
+"https://bitcoinmagazine.com/news/trump-sued-for-alleged-crypto-corruption"
+]
 },
 "980a42a8f28b": {
 "coin": "",
@@ -2379,7 +2383,7 @@
 "CoinMarketCap",
 "The Economic Times"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792688732.0,
 "tgtext": "",
 "title": "Why are Bitcoin price (BTC USD), Ethereum, XRP and Dogecoin falling despite ETF inflows as crypto liquidat",
@@ -2711,7 +2715,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792693922.0,
 "tgtext": "",
 "title": "China Moves to Confiscate $5 Billion in Bitcoin From Fraudster Who Fled to UK: Report",
@@ -3051,7 +3055,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792698246.0,
 "tgtext": "",
 "title": "Binance sees $2.4M liquidation on an Ethereum l...",
@@ -3127,19 +3131,6 @@
 "tgtext": "",
 "title": "Cysic Bridge Exploit Leads to Unauthorized Minting of 10M CYS Tokens",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdmZHd3RGcDVOMFpVRmFrcmxjUlk5T19xQ01HdmVIMWVxWHpMY2ZlemNPSzZQREJpdUhCUTdFS2U2MmJsT1RiSlNQcFlFd3JnVUEzejZScXl6MkNuaEFLbDhBMThmYzhfekE2Nm8tR0JfcmZmazBfLXhrNVZpVTFSc3ExXy00d1NRd1BuRl9lWWVZYzF1TS1FaGI5U0syTWM?oc=5",
-"urls": []
-},
-"de0adfa2ca47": {
-"coin": "",
-"src": "24/7 Wall St.",
-"srcs": [
-"24/7 Wall St.",
-"Yahoo Finance"
-],
-"t": 1792531186.2316802,
-"t0": 1792510200.0,
-"title": "A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?",
-"url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS2dQTlZzdUw1R004MjFGWERtUlZOSmRyMmxYcnRSdVUzdkk2NXFSOEJUM0xFbGJZM0h4QVBCVUtvY1J3M0cwcmlfQWlqb1JoOXZyaVNWNlY2MktIeml3a3ZaYy1GcVhoelE5ZXQ1c1V6bzEtM25Hb3dZVk5OWUkwWWlNcElObnJOMkRrYnplLTE0eU0wWGtTMklPLTZGOFFIa2puNm1rOWJRTUZ4QU9McUd5aXlMNm9OZEpQLVN3LVA0V1dxQXB3eWxQTTNsaXNYajlqUk1za1gzdVJXdFo5bFE5YWlQb1U2WUljeQ?oc=5",
 "urls": []
 },
 "de97cc065d8e": {
@@ -3593,7 +3584,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1792703678.1046896,
+"t": 1792704290.8908203,
 "t0": 1792689602.0,
 "tgtext": "",
 "title": "Best Crypto Portfolio: Drift Hack Transfer Reports Put ETH, XRP and $33M Remittix in Focus",
@@ -3908,64 +3899,64 @@
 "top": [
 [
 "97141c39aad6",
-74,
-33,
-2
+84,
+44,
+3
 ],
 [
 "931128fa35cb",
-54,
-189,
+53,
+199,
 1
 ],
 [
 "75990a6438d6",
 51,
-131,
+141,
 2
 ],
 [
 "a40ad58b57b0",
-48,
-249,
+47,
+259,
 2
 ],
 [
 "30e69aeb0ae1",
-45,
-326,
-4
+44,
+336,
+5
 ],
 [
 "bcf124da3205",
 43,
-163,
+173,
 1
 ],
 [
 "d89a0e8c9baa",
 39,
-91,
+101,
 1
-],
-[
-"c5b10ecc8932",
-38,
-358,
-3
 ],
 [
 "1d79808dd5aa",
 35,
-104,
+114,
+1
+],
+[
+"3937aaaef85c",
+34,
+119,
 1
 ],
 [
 "fa3db09e8ad4",
-34,
-235,
+33,
+245,
 1
 ]
 ],
-"top_at": 1792703678.1046896
+"top_at": 1792704290.8908203
 }
