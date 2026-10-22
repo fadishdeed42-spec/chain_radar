@@ -270,9 +270,10 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
+"Cryptonews.net",
 "Global Banking & Finance Review"
 ],
-"t": 1792660973.6610086,
+"t": 1792664034.6212473,
 "t0": 1792642646.0,
 "tgtext": "",
 "title": "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns",
@@ -721,7 +722,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792650250.0,
 "tgtext": "",
 "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
@@ -860,7 +861,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792663418.2250998,
+"t": 1792663726.2781796,
 "t0": 1792645875.0,
 "tgtext": "",
 "title": "Bitcoin Tops $84,000 as Crypto Short Liquidations Reach $188 Million",
@@ -899,7 +900,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Ships Mandatory v6.0.14 Update After $39.8M Exploit",
@@ -927,11 +928,11 @@
 "srcs": [
 "BeInCrypto",
 "Coin Gabbar",
+"Coinfomania",
 "Crypto News",
-"Wu Blockchain",
-"Yahoo Finance"
+"Wu Blockchain"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792656379.0,
 "tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
 "title": "CoinDCX Denies $16 Million Hack, Tracing Flagged Wallets to Its 2025 Breach",
@@ -944,7 +945,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792654652.0,
 "tgtext": "",
 "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
@@ -1018,7 +1019,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792660426.0,
 "tgtext": "",
 "title": "Monero at $644: 24 percent short of its record high",
@@ -1245,7 +1246,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1630,7 +1631,7 @@
 "srcs": [
 "Cryptonews"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792660213.0,
 "tgtext": "",
 "title": "Bitcoin ETFs Pull In $1.07B as Irish Drug Trafficker-Linked Wallet Moves $41M",
@@ -1643,7 +1644,7 @@
 "srcs": [
 "Help Net Security"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792656186.0,
 "tgtext": "",
 "title": "Africa cybercrime crackdown nets 1,462 arrests and over $105 million",
@@ -2158,7 +2159,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1792663418.2250998,
+"t": 1792664034.6212473,
 "t0": 1792654555.0,
 "tgtext": "",
 "title": "Railway Security Flaw Puts Customer Funds in Crypto at Risk, Deployments Halted",
@@ -2947,9 +2948,10 @@
 "src": "Hokanews",
 "srcs": [
 "Coin Gabbar",
-"Hokanews"
+"Hokanews",
+"Pluang"
 ],
-"t": 1792660973.6610086,
+"t": 1792663726.2781796,
 "t0": 1792651860.0,
 "tgtext": "",
 "title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
@@ -6447,63 +6449,63 @@
 [
 "37eda6f9a046",
 71,
-117,
-5
+128,
+6
 ],
 [
 "2946d786a5df",
-48,
-219,
+47,
+230,
 2
 ],
 [
 "37c2af22bf36",
 41,
-35,
+46,
 1
 ],
 [
 "4ab0fe580482",
 39,
-40,
+50,
 1
 ],
 [
 "3a25f3c06454",
 37,
-50,
+60,
 1
 ],
 [
 "38c5345e12b3",
 36,
-146,
+156,
 1
 ],
 [
 "679af3f653ee",
 34,
-121,
+131,
 1
 ],
 [
-"3453363df233",
+"0e929dd88a77",
 32,
-292,
-2
+356,
+3
 ],
 [
 "980a42a8f28b",
 32,
-148,
+158,
 1
 ],
 [
 "6726a1d57f49",
 31,
-53,
+64,
 1
 ]
 ],
-"top_at": 1792663418.2250998
+"top_at": 1792664034.6212473
 }
