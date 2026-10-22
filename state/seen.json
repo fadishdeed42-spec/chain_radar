@@ -297,25 +297,6 @@
 "https://cointelegraph.com/news/cloudflare-millions-exploit-attempts-php-vulnerability-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"0ed87eef11b1": {
-"coin": "bitcoin",
-"src": "CryptoRank",
-"srcs": [
-"Cointelegraph",
-"Crypto News",
-"CryptoRank",
-"The Block",
-"The Defiant"
-],
-"t": 1792505436.5542645,
-"t0": 1792493969.0,
-"title": "FINMA approves Switzerland\u2019s first retail BTC ETF, waiving diversification rules for Bitcoin only",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSHhHWklXSVE1ZzJoQTJMTS1JUkZIXzdyOE1XSTI2NGtnbkM1MEdxVnhwT3hVMTV0bjMyZ0phYTU0SnQwcjE1OEpYbmFNYjRNNmZQY25WTThSeUdTQ1NvbzRKXzhvU1YtclQ2Mk9WamRxVzU0YWowUkExY2lBRmtCZ2Fn?oc=5",
-"urls": [
-"https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
-"https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "0ff7670d7dc9": {
 "coin": "bitcoin",
 "src": "Coinpedia",
@@ -844,7 +825,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792661296.0,
 "tgtext": "",
 "title": "Pirate Chain Crypto Exploit: How ARRR Users Upgrade Wallets?",
@@ -1181,7 +1162,7 @@
 "Bitcoin Magazine",
 "CryptoRank"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792676004.0,
 "tgtext": "",
 "title": "SpaceX-Tesla Merger: Passive Flows \u2018Hack\u2019, Could Bring More BTC Exposure to S&P 500",
@@ -1197,7 +1178,7 @@
 "Coinfomania",
 "Lookonchain"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792661019.0,
 "tgtext": "A whale just got liquidated for 121.33 $BTC ($9.91M) as the market dropped.\n\nhttps://hypurrscan.io/address/0x8eff8ff863c1a54ec6697b7ad98fe30aa344bd5e#txs",
 "title": "A whale just got liquidated for 121.33 BTC ($9.91M) as the market dropped.",
@@ -1279,17 +1260,18 @@
 ]
 },
 "51394322acc4": {
-"coin": "bitcoin",
-"src": "www.tmgm.com",
+"coin": "ripple",
+"src": "TradingView",
 "srcs": [
 "FXStreet",
+"TradingView",
 "www.tmgm.com"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792666493.0,
 "tgtext": "",
-"title": "Crypto Today: Bitcoin, Ethereum, XRP fall despite net ETF inflows",
-"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWVFfaXZ3MFFWaWs0aWUzTlFyYm9tOGhUVU9BOWMyWVpweWY2VjROSUp5el9JWVVPY0c0QlI2M0JCZHBBYl9jWUo1VVNvSVBOeFBEWHZ0aWxBb3ctTUlvT1VNNTFQdG1tRklCVUhIcWZ0MjhkYnhYaF81d1RJOE5QY2Y5MlVXcUFRR1RUMUxOdWxnRGVJYm1fZnFSNW9UcVp4dWRuaWJUT1V1S0FEczAyN2xidHowRmhpb2xPR0dRRlhmQnJTWHZB?oc=5",
+"title": "Franklin\u2019s XRP ETF Buys $2.25 Million as Bitwise\u2019s Fund Sells: Is Wall Street Losing Interest in XRP, or Just Waiting?",
+"url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQcHhWQVNqQUdQU05XYmM0V1BUdTlfWkIzLU9CODZRSl9ySi1wcllOcEQ2QnY2S0d2UmhrRzlaQjNQb25TbzBzR2V0UWpHWjR4N3VJUFBxbm5YeW1QUDF1TEI5R01CV3FRcEl3Sm16OEVpMEd4cDY1UzV3T2NiYVY3YVlNV3l3UXVwTmo4UkRJMTc1Yno3NzVfck54SVF0WWpJZXpPeVJnWnlPcW5NclVndUFFWDJTTDNlU0h2V1NMdy04OFdkcDlab2R2d09INW1iM2t2RWhNMTN2UFlyczRlc2xFSUlEbXF0UFhYbENRZFhHUDZxdHlLRmJzajlNaE1YekNWZEJB?oc=5",
 "urls": []
 },
 "514f895df5e1": {
@@ -1575,6 +1557,23 @@
 "tgtext": "",
 "title": "Bitcoin ETFs Pull In $1.07B as Irish Drug Trafficker-Linked Wallet Moves $41M",
 "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSVcxVko3THkwYW1DemdKR0VOT0JiNm1weUh5dlgxem40MXdzUWxwd2pzdzI5SjFvalctM1F3VVdRdW9tQmt5bFpQMENEMzJSUmVJal9YRUxMTjFZWTBzbHU4dHNrbTl3YWtCSXI3TDJRYWhwY21sbkxYd0V6X1lPdURnaEs1SUdzN2hjWUNUQ3EyMVhwSi16eVllQzAxTTVoOEtkUHh3?oc=5",
+"urls": []
+},
+"674e5cd24927": {
+"coin": "tether",
+"src": "Crypto Briefing",
+"srcs": [
+"BeInCrypto",
+"Coin Edition",
+"Coin Gabbar",
+"Crypto Briefing",
+"Crypto Economy"
+],
+"t": 1792678341.2478294,
+"t0": 1792658280.0,
+"tgtext": "",
+"title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
 "urls": []
 },
 "679af3f653ee": {
@@ -1871,12 +1870,13 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"Cointelegraph",
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792673766.0,
-"tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed. \u2014 link",
+"tgtext": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence\n\nAccording to Axios, Visa is in talks to acquire crypto custody infrastructure firm Fireblocks in a deal that would value the company at around $2.5 billion. If finalized, the transaction would further expand Visa's footprint in digital asset custody and blockchain-based payment infrastructure. The reports remain subject to further confirmation, and the specific terms and progress of the acquisition negotiations have not been disclosed. \u2014 link\n\ud83d\udea8 JUST IN: Fireblocks disputes Axios\u2019 report of $2.5B Visa acquisition talks.\n\n\u201cThis is news to us, and not true at present time,\u201d the company told Cointelegraph.\n\nVisa declined to comment on rumors or speculation.\n\nNews | Markets | YouTube",
 "title": "Visa in Talks to Acquire Fireblocks for ~$2.5 Billion to Expand Crypto Presence",
 "url": "https://t.me/wublockchainenglish/26516",
 "urls": [
@@ -1976,6 +1976,22 @@
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zX3hNSEkzVnNZU2VzcFA5V3hQN0FxVjVtalpXbzZ4UktGanZLTDI1R1RwRVpPaWplX2VFSVFoWVYyRVJSTWNIaXVHalc0MkVaLXJnLV94QnpKblNaSHBVZnBfVkZYRFVEZWg0eFNZNEM1NjZ5emVKTF95RQ?oc=5",
 "urls": []
 },
+"8708ade4c597": {
+"coin": "",
+"src": "TradingView",
+"srcs": [
+"Cointelegraph",
+"TradingView"
+],
+"t": 1792678341.2478294,
+"t0": 1792675257.0,
+"tgtext": "",
+"title": "Thailand SEC says asset managers want crypto ETFs, but no one has applied yet",
+"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVnFzdzctNXpqa3ZHZjB6NUpXc1J6Xy1YbW14M051YnhYeTNLSUl5bnI3MERZb2t5LXJvc2hzYnQzSEhnZi03dDJiVmV6NjBYMjFSVDNOaG9BQUFyZWF0M2pnQ1lxdUJwYWV1U2Yyb1lHTHFDa000ZGVPcFB4Y3lqOEpMMTkyam9KYkR5TG9rcU9DMlVTVjNXVDIyMDhtc1VKbHJ2RG00VVY5anNESV9kYjdrM3VHaG4wMG16T3Z6V29QV3VSS3pibFBUSXp6dkRreUo2Nlh3Yno?oc=5",
+"urls": [
+"https://cointelegraph.com/news/thailand-sec-crypto-etf-applications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "87c9402a7425": {
 "coin": "near",
 "src": "Big News Network.com",
@@ -1998,7 +2014,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792670400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $SOFI launches FDIC-insured tokenized deposits.\n\n@WatcherGuru",
 "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
@@ -2454,22 +2470,6 @@
 "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQT2cwME1TcHQ3REg2TlhPckRHTEtZQ3l0NjUwWHNteWRkQ2hOQWdWNk9vaDFNdWRfVnlRc3pFc3RMR0tsRE9qOE12cUdvM3VqTlY3TnhfaFhNeUlZeFJSWk1yM01QUmJHalZPb3lIRzdCX0dTYkZrMy1qUXBPZXhuRVphMjZLcE4zSjNzTU1jS3FHTmY4N2lENDN5RjZFcTE3V3ZEZW9hQ0E4WFZIbDNkWUJaVWR2OXlWSlVfR3BmUmpPYWVBVzg3QktHZngtSjJNd2VCWFo1QUxtU2toQXY5Y090dDc4YldCX2lfZg?oc=5",
 "urls": []
 },
-"a6b6cd60b0a7": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Decrypt"
-],
-"t": 1792505436.5542645,
-"t0": 1792491613.0,
-"title": "Mt. Gox pushes creditor repayment deadline to 2027 in sixth extension",
-"url": "https://cointelegraph.com/news/mt-gox-creditor-repayment-deadline-extended-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/mt-gox-creditor-repayment-deadline-extended-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute"
-]
-},
 "a77b7c73fc13": {
 "coin": "",
 "src": "LatestLY",
@@ -2719,6 +2719,21 @@
 "https://cryptoslate.com/irish-drug-lords-lost-bitcoin-fortune-comes-back-to-life-as-41-million-moves-to-coinbase/"
 ]
 },
+"b887968afb41": {
+"coin": "",
+"src": "Sahara Reporters",
+"srcs": [
+"Sahara Reporters",
+"TechJuice",
+"The Eastleigh Voice"
+],
+"t": 1792678341.2478294,
+"t0": 1792664713.0,
+"tgtext": "",
+"title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
+"url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5",
+"urls": []
+},
 "b99a4c3670c9": {
 "coin": "",
 "src": "Dimsum Daily",
@@ -2847,6 +2862,23 @@
 "title": "Tiger Shroff Firing Case: Delhi Police Arrest Four As Salman Khan Home Recce Link Emerges",
 "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaldkeVhoSjVMYWVXemRSUEpta2xHMHlZWW9HQlpEcXlZdEVaUkJGLVJ3Q0puR2ROUEo5eEtBR2hVaEFFR1RqTlNRYlYzSkdaeTV3MlRGX2Vqelhtb3ZKMFQzUGF0eEpNNWJmN2VjUjM3cTFKb3RJTGRUZ193bUtKWjFfWHU1WEN4SzNMOXFjbUJjQkFjV0xBTUljUWhMRnlrQUpVa1VUdFVwUVlJNzk2NXgzZ3lhdFFqTW9vaWt0UUZIcnprdVNQeldsNEJncWlzb2hvVFNKQ3A0aExPbk95eXlhd0VXUdIB5gFBVV95cUxQaldkeVhoSjVMYWVXemRSUEpta2xHMHlZWW9HQlpEcXlZdEVaUkJGLVJ3Q0puR2ROUEo5eEtBR2hVaEFFR1RqTlNRYlYzSkdaeTV3MlRGX2Vqelhtb3ZKMFQzUGF0eEpNNWJmN2VjUjM3cTFKb3RJTGRUZ193bUtKWjFfWHU1WEN4SzNMOXFjbUJjQkFjV0xBTUljUWhMRnlrQUpVa1VUdFVwUVlJNzk2NXgzZ3lhdFFqTW9vaWt0UUZIcnprdVNQeldsNEJncWlzb2hvVFNKQ3A0aExPbk95eXlhd0VXUQ?oc=5",
 "urls": []
+},
+"c9bff80d2514": {
+"coin": "",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine",
+"The Block"
+],
+"t": 1792678036.5632882,
+"t0": 1792674722.0,
+"tgtext": "",
+"title": "Central Bank of Ireland Fines Coinbase Unit \u20ac3.25 Million Over Customer Fund Safeguarding Failures",
+"url": "https://bitcoinmagazine.com/news/central-bank-of-ireland-fines-coinbase",
+"urls": [
+"https://bitcoinmagazine.com/news/central-bank-of-ireland-fines-coinbase",
+"https://www.theblock.co/news/regulation/2026-10-22-coinbase-ireland-fined-3-6-million-over-customer-fund-segregation-oversight-failures-421943"
+]
 },
 "cbf435207b16": {
 "coin": "",
@@ -3423,7 +3455,7 @@
 "Cryptonews.net",
 "The Guardian"
 ],
-"t": 1792677730.3309271,
+"t": 1792678341.2478294,
 "t0": 1792659962.0,
 "tgtext": "",
 "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
@@ -6459,65 +6491,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"4aa0b9cd350c",
-61,
-29,
-2
-],
-[
-"37eda6f9a046",
-48,
-356,
-12
-],
-[
-"f15a6af0add4",
-40,
-296,
+"b887968afb41",
+63,
+227,
 3
 ],
 [
-"8821587405a8",
-40,
-122,
-4
-],
-[
-"37c2af22bf36",
+"4aa0b9cd350c",
+61,
 39,
-274,
-2
-],
-[
-"679af3f653ee",
-36,
-359,
-2
-],
-[
-"4ab0fe580482",
-36,
-279,
-2
-],
-[
-"7fddf41140c7",
-35,
-66,
 2
 ],
 [
 "51394322acc4",
-34,
-187,
+53,
+197,
+3
+],
+[
+"674e5cd24927",
+51,
+334,
+11
+],
+[
+"7fddf41140c7",
+45,
+76,
+3
+],
+[
+"8708ade4c597",
+42,
+51,
 2
 ],
 [
-"72b7cf88b328",
-34,
-62,
+"8821587405a8",
+40,
+132,
+4
+],
+[
+"f15a6af0add4",
+39,
+306,
+3
+],
+[
+"37c2af22bf36",
+38,
+284,
+2
+],
+[
+"4ab0fe580482",
+35,
+289,
 2
 ]
 ],
-"top_at": 1792677730.3309271
+"top_at": 1792678341.2478294
 }
