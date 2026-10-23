@@ -204,7 +204,7 @@
 "Cryptopolitan",
 "Finanzen.net"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792775762.0,
 "tgtext": "",
 "title": "Agora Says Initia Exploit Hit Third-Party Product Using AUSD",
@@ -303,7 +303,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792790439.0,
 "tgtext": "",
 "title": "Blockstream Launches Institutional Consulting Services, Opens Lugano Office",
@@ -1516,7 +1516,7 @@
 "srcs": [
 "Powers of Africa"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792779522.0,
 "tgtext": "",
 "title": "Cybercrime: INTERPOL Strikes in 19 African Countries",
@@ -1659,7 +1659,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792777569.0,
 "tgtext": "",
 "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
@@ -2228,7 +2228,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792793003.3326592,
+"t": 1792797287.9152102,
 "t0": 1792787376.0,
 "tgtext": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD\n\nHyperliquid Strategies Inc. (NASDAQ: PURR), a HYPE-focused digital asset treasury company, has increased its share repurchase authorization from 30 million USD to 100 million USD, with approximately 72 million USD remaining available. The company also extended the program's expiration date from December 5, 2026, to October 31, 2027. Actual repurchases will depend on market conditions and management's discretion. \u2014 link",
 "title": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD",
@@ -2603,7 +2603,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792779355.0,
 "tgtext": "",
 "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
@@ -2803,7 +2803,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792784162.0,
 "tgtext": "",
 "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
@@ -2925,7 +2925,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792790506.0,
 "tgtext": "",
 "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
@@ -3083,7 +3083,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792791637.0,
 "tgtext": "",
 "title": "Account terminated over money laundering suspicion",
@@ -3227,7 +3227,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792796980.980722,
+"t": 1792797287.9152102,
 "t0": 1792788972.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.\n\n@WatcherGuru",
 "title": "\ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over LIBRA crypto memecoin scandal.",
@@ -3510,7 +3510,6 @@
 },
 "probs": {
 "08d2e462a8e1": 0.095,
-"0aa73d1c1f59": 0.027,
 "0b6f5d6e6756": 0.001,
 "12b4019d6fa5": 0.035,
 "171cd0498cda": 0.027,
@@ -3520,13 +3519,15 @@
 "4540ef780e8f": 0.001,
 "4742010de075": 0.001,
 "4f1c970d9515": 0.008,
+"53b56659e533": 0.001,
 "54f48fb5d3e1": 0.016,
 "5b5f9229dd1a": 0.007,
-"64c6671a7b45": 0.057,
+"64c6671a7b45": 0.026,
 "651777901c91": 0.003,
 "6582a52a88c4": 0.013,
 "69330f87b5ec": 0.01,
 "6b8d3a88d31e": 0.002,
+"6d8931090485": 0.001,
 "6edd14f0d572": 0.009,
 "71bfdddaa918": 0.069,
 "71c96ec5bdb3": 0.008,
@@ -3538,8 +3539,7 @@
 "b170f248e984": 0.004,
 "c00cf0acf505": 0.017,
 "c75ce099ae0c": 0.083,
-"cb3e69873b04": 0.003,
-"cc7c5bb2265e": 0.007,
+"cb3e69873b04": 0.005,
 "d6afb4d9d188": 0.115,
 "e0f16fa140f6": 0.051,
 "e4f58d69543c": 0.03,
@@ -4101,63 +4101,63 @@
 [
 "edd090310ca4",
 10,
-133,
+139,
 1
 ],
 [
 "d6afb4d9d188",
 43,
-108,
+113,
 1
 ],
 [
 "08d2e462a8e1",
 62,
-354,
+359,
 10
 ],
 [
 "66186eb2be69",
 0,
-291,
+296,
 1
 ],
 [
 "c75ce099ae0c",
-14,
-214,
+13,
+219,
 1
 ],
 [
 "bc1f7dc5af6c",
 0,
-294,
+299,
 1
 ],
 [
 "71bfdddaa918",
 9,
-324,
+329,
 2
-],
-[
-"64c6671a7b45",
-20,
-288,
-1
 ],
 [
 "e0f16fa140f6",
 10,
-89,
+94,
 1
 ],
 [
 "12b4019d6fa5",
 10,
-109,
+114,
+1
+],
+[
+"9c9aa63c7672",
+16,
+165,
 1
 ]
 ],
-"top_at": 1792796980.980722
+"top_at": 1792797287.9152102
 }
