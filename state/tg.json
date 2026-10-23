@@ -321,6 +321,43 @@
 },
 "t": 1792532896.2249322
 },
+"8f56c80599": {
+"coin": "",
+"facts": "Headline: Initia hacked for $2.6 million\nSources: DefiLlama\nHack date: Oct 23. Chain: ['Initia']. Method: Infinite Mint. Amount: $2,600,000. (DefiLlama hacks database.)\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": {
+"amount": "$2.6M",
+"chain": "['Initia']",
+"date": "Oct 23",
+"method": "Infinite Mint"
+},
+"span": null,
+"src": "DefiLlama",
+"story": null,
+"t0": null,
+"tag": "HACK",
+"title": "Initia hacked for $2.6 million",
+"url": ""
+},
+"p": {
+"keyfact": "Initia reportedly lost $2.6 million in an infinite mint exploit on October 23.",
+"post": "An infinite mint exploit drained Initia for $2.6 million according to DefiLlama data. The attack happened on October 23, exposing critical vulnerability in the network. Security incidents continue to test protocol defences across the ecosystem. #Initia",
+"quote": "NONE",
+"reply": "Another infinite mint exploit proves smart contract security remains the biggest risk in the ecosystem right now.",
+"short": "",
+"stat": "$2.6M | Exploited funds",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "",
+"timeline": "Oct 23 = Exploit executed ; Oct 23 = Infinite mint detected ; Oct 23 = $2.6 million lost",
+"title": "Initia drained for $2.6 million",
+"versus": "Chain = Initia || Loss = $2.6M",
+"visual": "ALERT"
+},
+"t": 1792782302.2068784
+},
 "92fa172f61": {
 "coin": "",
 "facts": "Headline: New York AG Seeks $1.37B From NovaTech Founders Over Alleged Crypto Ponzi Scheme\nSources: Cointelegraph, The Block, The Crypto Times, Wu Blockchain\n\nTelegram news posts about it:\nNew York AG Seeks $1.37B From NovaTech Founders Over Alleged Crypto Ponzi Scheme\n\nNew York AG seeks $1.37 billion from NovaTech founders Cynthia and Eddy Petion: $1.13 billion in disgorgement plus $232.5 million in prejudgment interest. Court filings show $1.16 billion in crypto deposits (2019\u20132023); just $25.99 million went to trading, losing $18.19 million, while at least $134.5 million reached founders\u2019 wallets.\n\nProsecutors allege NovaTech promised 2%\u20134% weekly returns, paying investors with new deposits. The founders reportedly fled the U.S. after an August 2025 default judgment. Four promoters agreed to pay nearly $6 million and accepted permanent industry bans. \u2014 link\nArticle text:\n1.08%TRX$0.3302 0.21%LINK$12.07 0.34%ZEC$1,230.78 1.57%ADA$0.2166 0.34%XRP$1.31 0.51%ETH$2,403.15 0.13%BTC$81,724.87 0.08%XMR$606.53 3.94%BNB$745.75 1.77%XLM$0.1767 0.32%SOL$104.48 0.11%HYPE$77.74 0.34%Written by Zoltan Vardaistaff writerEdited by Yohan Yunstaff editorWritten by Zoltan Vardaistaff writerEdited by Yohan Yunstaff editorNew York AG seeks $1.37B from NovaTech founders over Ponzi schemeLatest NewsPublishedOct 23, 2026The request follows an August 2025 default judgment, with the AG also announcing nearly $6 million in settlements with four promoters. New York Attorney General Letitia James has asked a court to order defunct crypto and forex trading platform NovaTech\u2019s founders, Cynthia and Eddy Petion, and related companies to pay $1.37 billion over its Ponzi scheme. The AG is seeking the return of about $1.13 billion in investor funds, plus $232.5 million in interest, according to a Thursday court filing. The court found the Petions and the companies liable by default in August 2025 after they failed to respond to the lawsuit. Four people who recruited investors into NovaTech have separately agreed to pay nearly $6 million in settlements intended to benefit victims, according to the AG\u2019s office. More than 11,000 New Yorkers lost tens of millions of dollars through NovaTech and an earlier crypto mining scheme, AWS Mining, the AG\u2019s office said. The complaint alleged that promoters targeted Haitian and other immigrant communities through prayer groups, social media and WhatsApp, promising high returns and recruitment bonuses. The filing says that investors deposited about $1.16 billion into NovaTech\u2019s crypto wallets between August 2019 and May 2023. Of that, only about $26 million was deposited with the platform\u2019s trading provider, B2Broker, for trading, according to the attorney general. The motion separately seeks about $6.15 million, including interest, over AWS Mining. AWS Mining collapsed in 2019. NovaTech collapsed in 2023, leaving tens of thousands of investors unable to withdraw their funds. James sued NovaTech, AWS Mining and other associated companies in June 2024. Cointelegraph sought comment from the New York Attorney General\u2019s Office on how any recovered funds would be distributed to victims and what steps could be taken to enforce the judgment, but had not received a response by publication. Related: Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash\n",
@@ -604,34 +641,6 @@
 },
 "t": 1792703342.1897984
 },
-"eaf3584a0b": {
-"coin": "venice-token",
-"facts": "Headline: Venice Token surges 13.9% in 24 hours\nSources: Pluang\nCoin in this story: Venice Token (VVV) $24.07, +13.7% in 24h\nRecent headlines about this coin:\n- Venice Token leads crypto gainers with 7% rise amid mixed market moves on Oct. 19 (Pluang, 18h ago)\n- Venice Token (VVV) Price Today, Live Chart, Market Cap & News (TechGraph, 17h ago)\n",
-"item": {
-"hack": null,
-"src": "Pluang",
-"t0": null,
-"tag": "MARKET",
-"title": "Venice Token surges 13.9% in 24 hours",
-"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdmx4YldEYnBaMTIzUFV4QlFtaWozZDI3VjlQQ3BxRVNpLXhTdVkxVTJSY1RXT3dOY0JFSk1NRUVLazVzcGJrekhYeC04VzAwZWJXSEpfb2ZiNWRMeGcwaDFfZHl1S3hjTGRjOGRCRGtUSjhycjBOUWNuWE8yRmJsVzB2SnlXaHZoTnZmbFVtS0hoaUxQdTEtOUVTaw?oc=5"
-},
-"p": {
-"keyfact": "Venice Token surged 13.9% in 24 hours, leading crypto gainers.",
-"post": "Venice Token is defying mixed market moves. The token reportedly surged 13.9% in 24 hours to hit $24.07, leading the crypto gainers list. The chart tells the story. #VeniceToken",
-"quote": "NONE",
-"reply": "The chart proves some tokens simply refuse to follow the broader market.",
-"short": "",
-"stat": "+13.9% | 24H Price Surge",
-"symbol": "VVV",
-"tag": "MARKET",
-"thread": "1/ Markets are mixed, but Venice Token (VVV) is moving in one direction. Pluang reports the token surged 13.9% over a 24-hour period.\n2/ This follows a recent 7% rise on Oct. 19, where VVV already led the day's crypto gainers despite a flat broader market.\n3/ The token is currently trading at $24.07 as buying pressure continues to mount on the charts.\n4/ The chart proves the momentum. When the rest of the market hesitates, VVV carves its own path.",
-"timeline": "Oct 19 = Rose 7% amid mixed market ; Recent = Surged 13.9% in 24 hours ; Now = Trading at $24.07",
-"title": "Venice Token Surges 13.9%",
-"versus": "Oct 19 = +7% rise || Recent = +13.9% surge",
-"visual": "CHART"
-},
-"t": 1792443374.829834
-},
 "edeb4a91a1": {
 "coin": "",
 "facts": "Headline: DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks\nSources: CryptoRank\n\n",
@@ -909,7 +918,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489285,
+"offset": 138489287,
 "otd": {
 "date": "Oct 21",
 "now": 83421,

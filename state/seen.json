@@ -1,9 +1,9 @@
 {
-"hacks": {},
+"hacks": {
+"Initia1792713600": 1792782284.9829712
+},
 "init": true,
 "log": [
-1792679869.2324247,
-1792685997.4314678,
 1792702140.6019025,
 1792719208.430811,
 1792721358.7631311,
@@ -15,7 +15,8 @@
 1792739907.516252,
 1792751537.5628924,
 1792752166.3430572,
-1792761545.4814467
+1792761545.4814467,
+1792782284.9829712
 ],
 "menu": {
 "0075a9a50711": {
@@ -383,7 +384,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792768226.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.",
@@ -1336,7 +1337,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792767033.0,
 "tgtext": "JUST IN: OpenAI's autonomous AI systems tried to stop employees from monitoring their actions and the company doesn't know why.\n\n@WatcherGuru",
 "title": "OpenAI's autonomous AI systems tried to stop employees from monitoring their actions and the company doesn't know why.",
@@ -1557,7 +1558,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792761642.0,
 "tgtext": "JUST IN: \ud83c\uddec\ud83c\udde7 UK government urges citizens to stockpile three days of emergency food and water due to growing cyberattack threats.\n\n@WatcherGuru",
 "title": "\ud83c\uddec\ud83c\udde7 UK government urges citizens to stockpile three days of emergency food and water due to growing cyberattack threats.",
@@ -1615,7 +1616,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792773523.0,
 "tgtext": "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.\n\n@WatcherGuru\n\ud83c\uddee\ud83c\uddf1 LATEST: Israeli Prime Minister Benjamin Netanyahu says he has requested a plan to use crypto as one way to bypass potential banking sanctions.\n\nNews | Markets | YouTube",
 "title": "Israeli Prime Minister Benjamin Netanyahu says he has requested a plan to use crypto as one way to bypass potential banking sanctions.",
@@ -1795,6 +1796,20 @@
 "title": "Zipcoin Shuts Down After UNCX Exploit and Codebase Compromise Warning",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOVJJdy1LQ1lnUXdpVTNvbVI0djFwVjlZRHZhTU40WVRpQjdReExMcnNkZkN0MlZRbXhTd01Hc0RUZnNRUmlPZmNPelI3MzRSaGFDZm5IVC1FV0NlY2JKdFExbklhdUVmdUhFa0JjRU5kWi1ZNEpmaHdpMnI5YXdPbUtfRUwtMUxXTlVGcjRhMU5JV3ZsVlhERjM0T0hmNUU?oc=5",
 "urls": []
+},
+"7d500285822b": {
+"facts": "Hack date: Oct 23. Chain: ['Initia']. Method: Infinite Mint. Amount: $2,600,000. (DefiLlama hacks database.)",
+"hack": {
+"amount": "$2.6M",
+"chain": "['Initia']",
+"date": "Oct 23",
+"method": "Infinite Mint"
+},
+"src": "DefiLlama",
+"t": 1792782284.9829712,
+"tag": "HACK",
+"title": "Initia hacked for $2.6 million",
+"url": ""
 },
 "7fddf41140c7": {
 "coin": "",
@@ -2134,7 +2149,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792762163.0,
 "tgtext": "James Wynn(@JamesWynnReal) is back after 49 days!\n\nHe opened a 40x short on 0.4947 $BTC ($40.5K), with a liquidation price of $82,671.48.\n\nhttps://hypurrscan.io/address/0x5078c2fbea2b2ad61bc840bc023e35fce56bedb6#perps",
 "title": "James Wynn(@JamesWynnReal) is back after 49 days!",
@@ -2398,25 +2413,6 @@
 "https://bitcoinmagazine.com/videos/retail-money-is-dead-wall-street-is-how-bitcoin-actually-wins"
 ]
 },
-"acbaae0b7cbf": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Benzinga",
-"CoinGape",
-"The Block",
-"TradingView",
-"Wu Blockchain"
-],
-"t": 1792609372.2077527,
-"t0": 1792588452.0,
-"tgtext": "Grayscale Launches In-Kind Investing Service Covering 10 Digital Assets, Including BTC, ETH, SOL, XRP, and DOGE\n\nGrayscale has announced In-kind Investing, allowing eligible investors to exchange digital assets directly for shares in its products without first converting their crypto into cash. The service currently covers 10 products involving BTC, ETH, SOL, AVAX, LINK, DOGE, HYPE, SUI, XRP, and ZEC. Grayscale said the mechanism can reduce self-custody burdens and potential transaction costs while bringing digital assets into traditional portfolio management. \u2014 link",
-"title": "Grayscale Launches In-Kind Investing Service Covering 10 Digital Assets, Including BTC, ETH, SOL, XRP, and DOGE",
-"url": "https://t.me/wublockchainenglish/26503",
-"urls": [
-"https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559"
-]
-},
 "ad2600c38910": {
 "coin": "bitcoin",
 "src": "TOKENPOST",
@@ -2437,7 +2433,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792781366.7570848,
+"t": 1792782284.9829712,
 "t0": 1792761667.0,
 "tgtext": "\ud83c\udde8\ud83c\uddf3 BIG: China targets 2030 to largely complete its national blockchain network, with plans to expand blockchain use in trade, finance, manufacturing and agriculture.\n\nhttps://ct.com/news/china-2030-national-blockchain-network-buildout\n\nNews | Markets | YouTube",
 "title": "BIG: China targets 2030 to largely complete its national blockchain network, with plans to expand blockchain use in trade, finance, manufacturing and agriculture.",
@@ -2891,7 +2887,7 @@
 "Crypto Briefing",
 "Wu Blockchain"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792762444.0,
 "tgtext": "CME Crypto Derivatives Trading Volume Reaches $469.5B in Q3\n\nCME Group reported record third-quarter revenue of $1.74 billion, up about 13% year over year, with net income of roughly $1 billion. Crypto derivatives averaged about 196,000 contracts per day during the quarter, representing approximately $469.5 billion in notional trading volume, including $326.7 billion in Bitcoin derivatives and $118.8 billion in Ether derivatives. \u2014 link",
 "title": "CME Group posts record $469.5 billion in crypto derivatives volume in Q3",
@@ -2990,7 +2986,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792770361.0,
 "tgtext": "\ud83d\udea8 ALERT: American Express is cutting 5% of its global workforce, roughly 3,850 jobs, to become \u201cleaner, more agile, and also to prepare for AI,\u201d its CFO said.\n\nNews | Markets | YouTube",
 "title": "American Express is cutting 5% of its global workforce, roughly 3,850 jobs, to become \u201cleaner, more agile, and also to prepare for AI,\u201d its CFO said.",
@@ -3124,7 +3120,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792764028.0,
 "tgtext": "JUST IN: Anthropic says its newer AI models are less likely to launch attacks on their own.\n\n@WatcherGuru",
 "title": "Anthropic says its newer AI models are less likely to launch attacks on their own.",
@@ -3271,7 +3267,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792781672.2680016,
+"t": 1792782284.9829712,
 "t0": 1792767701.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: The US Department of War releases its seventh batch of declassified UFO files, with more disclosures planned.\n\nNews | Markets | YouTube",
 "title": "TODAY: The US Department of War releases its seventh batch of declassified UFO files, with more disclosures planned.",
@@ -3457,8 +3453,9 @@
 "10584cb6cd36": 0.023,
 "14aeb332a6cf": 0.007,
 "1aa92512ef0c": 0.013,
+"20ebedf91386": 0.019,
 "281c5277fbef": 0.001,
-"2c825e881854": 0.02,
+"2c825e881854": 0.026,
 "2dd89cb5c505": 0.038,
 "379e1dc468a0": 0.024,
 "3c2783b5a435": 0.038,
@@ -3466,33 +3463,32 @@
 "4742010de075": 0.002,
 "4b55931913fa": 0.001,
 "502430c90d68": 0.003,
-"517ebfa9a638": 0.012,
+"517ebfa9a638": 0.01,
 "5b5f9229dd1a": 0.006,
 "67ce9e933946": 0.244,
+"685c2547a9fd": 0.007,
 "6b3a76604dbb": 0.0,
 "6eb51d8623b7": 0.008,
 "71bfdddaa918": 0.028,
 "760f0c31c1c7": 0.001,
-"7772d1af5282": 0.003,
-"7e36bc691f1e": 0.005,
 "805257949f2b": 0.085,
 "86949d6763b9": 0.039,
 "8925d9a2ddb2": 0.005,
+"8d4f3672f19a": 0.004,
 "8f61ea1d5da9": 0.018,
 "9aa6d7ec0047": 0.011,
 "9ce9cdf9e487": 0.031,
 "a3d3e14c5b07": 0.001,
 "b7665203c03b": 0.002,
-"be2e41caab7b": 0.012,
 "cbf06de646f4": 0.008,
+"cc7c5bb2265e": 0.003,
 "d79332e31598": 0.93,
 "e67805ac2cc2": 0.001,
-"e723afbf677f": 0.019,
+"e723afbf677f": 0.04,
 "e75ab2c20754": 0.037,
 "e9bbc947b469": 0.001,
 "f81724252473": 0.023,
-"fd02d28e56cc": 0.191,
-"ff4a7b630760": 0.007
+"fd02d28e56cc": 0.055
 },
 "sent": [
 {
@@ -3996,6 +3992,21 @@
 "priorities",
 "sec"
 ]
+},
+{
+"e": [
+"initia"
+],
+"k": [
+"hack"
+],
+"t": 1792782284.9829712,
+"u": [],
+"w": [
+"hacked",
+"initia",
+"million"
+]
 }
 ],
 "stories": {},
@@ -4003,64 +4014,64 @@
 "top": [
 [
 "d79332e31598",
-29,
-320,
+27,
+331,
 2
 ],
 [
 "96a48818a60d",
 0,
-325,
+335,
 1
 ],
 [
 "e9247abc39f6",
 0,
-294,
+304,
 1
 ],
 [
 "5c7f381a5ef5",
-2,
-244,
+1,
+254,
 1
 ],
 [
 "66eb0eb8554b",
 0,
-334,
+344,
 1
 ],
 [
 "67ce9e933946",
 20,
-136,
+146,
 2
 ],
 [
 "f4edb0e6b4a2",
-3,
-233,
-1
-],
-[
-"fd02d28e56cc",
-26,
-10,
+2,
+243,
 1
 ],
 [
 "1bf205dd77e3",
-5,
-224,
+3,
+234,
 1
 ],
 [
 "dff66ffe8192",
-9,
-189,
+8,
+199,
+1
+],
+[
+"af2e3f5da2cd",
+0,
+344,
 1
 ]
 ],
-"top_at": 1792781672.2680016
+"top_at": 1792782284.9829712
 }
