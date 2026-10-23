@@ -848,33 +848,6 @@
 "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOVg2RE9tbG5scXdzWkVvb0ltUFNsYzVaclhkMEQ0bmJpWlZJaHVrUG1Yb2dMZ0xVSkNrcWp4LUZ4dkxMUzhsU2p4eGxNeGg4RzRmdWVQYU5rU0FmU2xKb0tjaTdMaF83dVBDTDliOF9UN0pSSFNUbXNtRnBWbXdwOTN2NTdZRjZfVFg0NDNvU3I3NWtPRHRzdU9OYjVJTU42YzZ1MVV0Rkk5Q0dma0lhc3RZdlVybFNtX2QtQ2VwNzV3VENkdmVMRnV6d9IB0AFBVV95cUxOOWdHa2w1eXZsc3RmTGd3LVJadW1rSkZMaFFOYWZJbDhoSmx1S2ZvQUNEYVFFbFFGbnllcE5hYklwSlYtb2ZuRVpELUgtZE9JNGFpVE1IWktlODAxTUQtakhzNC1ZNXlhZEN2UC0xWmxjTWJaNVNYMFJDdDNBZFI0aVFqQzVFYXBsYThRSEU2c2dNLWJDRHJFRmV3bkpqYTF2OTVKU0RJLTBqNFg3TEladnMzZFhvRFNZeHFyMGJlaXdNbTJjaXV1azM2RTR2RVU0?oc=5"
 ]
 },
-"525e41e4669b": {
-"chart": true,
-"coin": "ethena",
-"facts": "Recent headlines about this coin:\n- Ethena Labs Brings Synthetic Stablecoin USDe to Solana (CoinMarketCap, 27h ago)\n- USDe backing reaches 101.43 percent: What it means for the Ethena USDe price (AD HOC NEWS, 6h ago)\n- Convert 5 ENA (Ethena) to MKD (Macedonian Denar) (Bybit, 36h ago)",
-"focus": 86400,
-"span": "1d",
-"src": "CoinMarketCap",
-"t": 1792582743.1869686,
-"tag": "MARKET",
-"title": "Ethena surges 12.5% in 24 hours",
-"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON0pRaHVEQ0VQX1B0LVBBcU5STXZBLUM2Umd3bTBqUjFlaTZPOGNYeGhVLUhmQ0pRSU5BejVPYW5FcEpPY0NNcUpBUS1XaURKa19wOWxwVk5jYWQyQnpFYUtEQUEwUjRBZ0J3NEVNOEZ3TGJmZHY3QWNxbzM3eHU3WVBBZ3BvSldscHN1VERsZ2lQcGo1TmQ4T0hjQng?oc=5"
-},
-"53cfbe7cba24": {
-"facts": "Hack date: Sep 22, 2026. Protocol: Drop. Chain: ['Neutron']. Method: Malicious Proposal. Amount stolen: $4,400,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$4.4M",
-"chain": "['Neutron']",
-"date": "Sep 22, 2026",
-"method": "Malicious Proposal"
-},
-"key": "53cfbe7cba24",
-"src": "DefiLlama",
-"t": 1792582729.8672538,
-"tag": "HACK",
-"title": "Drop hacked for $4.4 million",
-"url": ""
-},
 "5535f4d32a5c": {
 "facts": "This happened on October 23, 2024 (2 years ago today). Headline from that day: $230 million crypto scam one of largest single victim thefts in history, prosecutors say (Courthouse News).",
 "src": "Courthouse News",
@@ -923,21 +896,6 @@
 "https://news.google.com/rss/articles/CBMingFBVV95cUxNMktoV1p4eU44MGJVckF3R0xVaXZqUUV3VUIxQTBjVVR3emV2cXZPRXRKalBaOWh1bjRtRm1YVkc1Uk5TLVZwSlV0RTI5LWdQb2s2MkJSS21IalRJOGtTWXd3blR0NjhFdV9vY2NfRElqYVQ0aDY0TS1XanNSUDFnYWlQbXZuS1hKbGJ4VXBnQ25SSnQ1RnF4Zzl5eUJSQQ?oc=5"
 ]
 },
-"aaf1f21a1add": {
-"facts": "Hack date: Sep 24, 2026. Protocol: Duelbits. Chain: ['Ethereum', 'BSC', 'Bitcoin', 'Tron']. Method: Hot Wallet Key Compromised. Amount stolen: $7,000,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$7M",
-"chain": "['Ethereum', 'BSC', 'Bitcoin', 'Tron']",
-"date": "Sep 24, 2026",
-"method": "Hot Wallet Key Compromised"
-},
-"key": "aaf1f21a1add",
-"src": "DefiLlama",
-"t": 1792582729.8672538,
-"tag": "HACK",
-"title": "Duelbits hacked for $7.0 million",
-"url": ""
-},
 "b5c3363042f4": {
 "facts": "This happened on October 21, 2023 (3 years ago today). Headline from that day: Crypto investment firm AuBit International goes into liquidation amid suspected $160M fraud (OffshoreAlert).",
 "src": "OffshoreAlert",
@@ -949,36 +907,6 @@
 "urls": [
 "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQzM3UnZYVmRLR3YyQTZjTG8tZGlYSUxVTlNYcWNBTkp6UW1sMEVlbl9PTVhlYUt4WXRudnBmcGZEdkZLSGdxN2tHcDZPR1pGa1YydnRENHg2VU5tOWc3WmdYdU9WQWN0T0l3dHNocDBIZEpLeUExYm95UjY1OFY2QnlSSWN4SzZQZ2hBQkgwNFJBcHliN0NIMlJFUjBSajg5NlB5cy1mS2wzMTNhY1Z0V053RUVwWDBodG9qaWtaVm4tZTg?oc=5"
 ]
-},
-"b91934c8c70e": {
-"facts": "Hack date: Oct 13, 2026. Protocol: Gamdom. Chain: ['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']. Method: Key Leaked via Infrastructure. Amount stolen: $4,208,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$4.21M",
-"chain": "['Ethereum', 'BSC', 'Polygon', 'Arbitrum', 'Optimism', 'Solana', 'TRON', 'Bitcoin']",
-"date": "Oct 13, 2026",
-"method": "Key Leaked via Infrastructur"
-},
-"key": "b91934c8c70e",
-"src": "DefiLlama",
-"t": 1792582729.8672538,
-"tag": "HACK",
-"title": "Gamdom hacked for $4.2 million",
-"url": ""
-},
-"c3c7c5f65313": {
-"facts": "Hack date: Sep 24, 2026. Protocol: Bitget. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount stolen: $387,000,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$387M",
-"chain": "['Ethereum', 'XRP', 'Tron', 'Zcash']",
-"date": "Sep 24, 2026",
-"method": "Hot Wallet Key Compromised"
-},
-"key": "c3c7c5f65313",
-"src": "DefiLlama",
-"t": 1792582729.8672538,
-"tag": "HACK",
-"title": "Bitget hacked for $387.0 million",
-"url": ""
 },
 "d31f8c25557d": {
 "facts": "This happened on October 23, 2020 (6 years ago today). Headline from that day: Spanish Police Arrest Head of Billion-Dollar Crypto Arbitrage Platform on Fraud Allegations (CoinDesk).",
@@ -992,21 +920,6 @@
 "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYjJxOUNyeURrVkRfeFl4ZHFjM1Z4WW05RUM1cTV4elpxdUtGV3VqQUlZVHVlN2YtZXdSR3lyVUVDRVFCZHl0ZW1NSjVBd01xdUljaVpMSzZlck1EbnBrMUoySUN4bjludnRNOUd0QjBIV1dTc3JsRV9xdl9QRTc4SU5UTHdVTVVQcW9OT3dHMVN0ZlNLSkFaQ0RzcWJsMGJTY25TVWJfSW9PZU1naFVsdHo0ekZDb2JBdW1hOEVBd21OR3lpWm1oZlpzdjhLaW8w?oc=5"
 ]
 },
-"d9225a5451d9": {
-"facts": "Hack date: Oct 09, 2026. Protocol: Ledger (Supply Chain). Chain: None. Method: Supply Chain Attack. Amount stolen: $93,000,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$93M",
-"chain": "",
-"date": "Oct 09, 2026",
-"method": "Supply Chain Attack"
-},
-"key": "d9225a5451d9",
-"src": "DefiLlama",
-"t": 1792582729.8672538,
-"tag": "HACK",
-"title": "Ledger (Supply Chain) hacked for $93.0 million",
-"url": ""
-},
 "d9a29b80d366": {
 "facts": "This happened on October 23, 2014 (12 years ago today). Headline from that day: British serial entrepreneur missing as $1.4m bitcoin is apparently stolen (The Guardian).",
 "src": "The Guardian",
@@ -1018,21 +931,6 @@
 "urls": [
 "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeHFyUlBWbHdUU1NVLXVzejhqTlFxLTQ2ZnlDVTV5VzB2VHVUWUwyeDRsRDliQVFJdGcwclRRWWw4cWJZR3dGcUdkcC16R3dIUHNqNjVTSzQ1WERvMjJhRTMwOXVJQjRTZHhhSDE3bThVRy1PTEczZFI0Q3NDc2JVTHRPUHlGaklaWHAwSEN1R0RLTE80Wl83U3p1YTc5bnJQRjU4ZFZTZm00RTlaQWwyMGFB?oc=5"
 ]
-},
-"e62b47851886": {
-"facts": "Hack date: Sep 22, 2026. Protocol: Astroport. Chain: ['Neutron']. Method: Malicious Proposal. Amount stolen: $4,900,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$4.9M",
-"chain": "['Neutron']",
-"date": "Sep 22, 2026",
-"method": "Malicious Proposal"
-},
-"key": "e62b47851886",
-"src": "DefiLlama",
-"t": 1792582729.8672538,
-"tag": "HACK",
-"title": "Astroport hacked for $4.9 million",
-"url": ""
 },
 "e9225f9b8954": {
 "facts": "This happened on October 23, 2017 (9 years ago today). Headline from that day: TV news 'hack' sees bitcoins snatched (BBC).",
