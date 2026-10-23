@@ -303,7 +303,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792790439.0,
 "tgtext": "",
 "title": "Blockstream Launches Institutional Consulting Services, Opens Lugano Office",
@@ -342,16 +342,22 @@
 },
 "164cd5de6dac": {
 "coin": "",
-"src": "The Defiant",
+"src": "Crypto Economy",
 "srcs": [
+"Cointelegraph",
+"Crypto Economy",
+"Crypto News",
+"The Crypto Times",
 "The Defiant"
 ],
-"t": 1792796368.8793468,
-"t0": 1792779991.0,
+"t": 1792797797.1274729,
+"t0": 1792778902.0,
 "tgtext": "",
-"title": "Agora Freezes AUSD Account Linked to Initia Exploit",
-"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRmVtaHA1OVM5dEVjeFJJMnNGWjlWM0VGeFhrUm9VaDU4T2o1TmF3QW9mY3RkOGIxQzI2dXlzSVcyUllROUM5WTZvWW1SSnN4U0JLOWFaM0NYM05hRE1pWDdjTEdlandmTEVzY0RfWUJMX0NMTi1GRXk3Y0VTNnZKaDlxZ0xraE9nQVV6Vw?oc=5",
-"urls": []
+"title": "Initia Suspends Network Following Reported Token Minting Exploit",
+"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQndFMHBWTWVsbjhJNElDRFpOTzdSVzQycnZCV2pNTHVBcFhyQWxxV0Rja2ItNE1xLWR5RjNlNkp1MHZQT2F6cUJCSjlqN3FPUUZZWWc2Y2c5WjdhWHhQTk4yeEc2cXRXTU9haWJvTUl3anppQnlvdVZWRVhCMkd6c0tRelZUSEFpeDBjWHh5cGJKRHd3Y3FJ?oc=5",
+"urls": [
+"https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "167e94b3eb96": {
 "coin": "bitcoin",
@@ -364,6 +370,19 @@
 "tgtext": "",
 "title": "Illinois man arrested for alleged $665K Bitcoin scam of Escanaba resident",
 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWE5ZMGIzZk1Xa0tsR2dxazlXeDhHVmQ5cFZmYTFpdXRTRDhYak0tRmFhRlU1b1l5RnNKQ1VtM29oSThHUE9TeEJQQTRBam9nbEZydmEzREpCdGkzTVdoWUl3MFhKcDNJeG0taXozS1g0VWdHRzl4bGRjYnF5VTEyRmxScnRpSk9sQ1M5cm95b09abm1nN0EtbEZjSU9fZkZ2TVhjMWZBcWVkcG1pZ2c0RkFyTDdSdUJHQmpkdEhJd3U?oc=5",
+"urls": []
+},
+"171cd0498cda": {
+"coin": "",
+"src": "The Journal News | lohud.com",
+"srcs": [
+"The Journal News | lohud.com"
+],
+"t": 1792797797.1274729,
+"t0": 1792783800.0,
+"tgtext": "",
+"title": "$6 million recouped in crypto scheme targeting Haitian New Yorkers",
+"url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObzBvT0ZMWlg0Q3RkVHlPdzJhSEFWX1BWWUg2d3lsN3ZNMUxMNzdxNUdVMGt4T2wwOWduLUhlTEJiTnJBVU0xTEVkUjFNRGdmMFB1dzdaVU9lLXl6dHRjMjM5M3VLSnJNZDNRSzV1dHVIZkRfVmtBSXM2SWc2WF9lTVVPVkxGbmgtSEdTdHNUb0hmS2lXcVFCYXRqSXlFWERzeWRZTUVYdjhPd2dTaHR4Q2NnSXU3SUdjZDV0U2d0SWZuRXJHVTllcHQzTXY?oc=5",
 "urls": []
 },
 "1926fbebf31c": {
@@ -716,19 +735,6 @@
 "tgtext": "",
 "title": "WAX Multi-Chain Bridge Exploited for Roughly $75,000 as Attacker Withdraws Tokens",
 "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUjYxUWpFdXpiSkQzcEE2YlAzeGY3SlhGYXJTZGkzYjhaaXBjbFJ5S2NTcjZXcFNUX0ZvTzlwV3ZreXVOZjFhM2JRN1ZfbUNGenkzcF9vd1h5T3UtS2dvN3g3QXBVcWJWajRhWkRZVnoyei1laWd5Q2J2S2RwVC1HQ291RVdmYmtRRFd0NUlWSmNVa1U?oc=5",
-"urls": []
-},
-"32e62d079d17": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1792624498.209346,
-"t0": 1792612928.0,
-"tgtext": "JUST IN: $META reports $64.6 billion in revenue for Q3 2026, beating expectations.\n\n@WatcherGuru",
-"title": "META reports $64.6 billion in revenue for Q3 2026, beating expectations.",
-"url": "https://t.me/WatcherGuru/15588",
 "urls": []
 },
 "33eeceda2d7f": {
@@ -1516,7 +1522,7 @@
 "srcs": [
 "Powers of Africa"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792779522.0,
 "tgtext": "",
 "title": "Cybercrime: INTERPOL Strikes in 19 African Countries",
@@ -1659,7 +1665,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792777569.0,
 "tgtext": "",
 "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
@@ -1955,19 +1961,6 @@
 "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWJPWjdCWHVSNmM3TktnVG50YUNIVmJvMktSS1ZzaloxaUpDOVpwM2syY2dlZGFfUTRKeENhMUJRVFdWTXZ5cll4RjVrS0N5ci1iNlQxVV9vNXJrcU9iQlllb05ZbUE3UlN4aW95X3Y1VnFSVlJMWEJCNzZSOFNSZEt4U1lZMFJxaE95TGxkVTdsMHhlX21hTzRHZHlBTWFTTFBibjBXRmIwZw?oc=5",
 "urls": []
 },
-"87c9402a7425": {
-"coin": "near",
-"src": "Big News Network.com",
-"srcs": [
-"Big News Network.com"
-],
-"t": 1792624809.1997693,
-"t0": 1792605780.0,
-"tgtext": "",
-"title": "Best Crypto to Buy Now? OKX Offers $500,000 Hack Refunds, NEAR Jumps 11%, and Pepeto Tops $11.2M",
-"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY0hTWTQ0ZEZzdWFPOEhOblpxekt6c1ByLUw5dDdNNFo2QVFUWDBZM2tTOGpCT1lSdHRNR1ExRnVnbVlEYTJlTHh3OENSbUljYlE2VVBjeVZua0VTTTBZTzJIQ1hqV0VaY19HVXZDMUNqNmVMTERtcy0zangxWWN2QW1aOFhuS0J0M2M2NlRhMmdhTHpEUVJDaHJIMDk1M3EzeHJFNWJJWWNoY3pNcV9BU0h1RVFlUjhqM196Y214ajlBRUd5TkdCbHZzUjZIMUU?oc=5",
-"urls": []
-},
 "8821587405a8": {
 "coin": "",
 "src": "The Block",
@@ -2228,7 +2221,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792797287.9152102,
+"t": 1792797493.21706,
 "t0": 1792787376.0,
 "tgtext": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD\n\nHyperliquid Strategies Inc. (NASDAQ: PURR), a HYPE-focused digital asset treasury company, has increased its share repurchase authorization from 30 million USD to 100 million USD, with approximately 72 million USD remaining available. The company also extended the program's expiration date from December 5, 2026, to October 31, 2027. Actual repurchases will depend on market conditions and management's discretion. \u2014 link",
 "title": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD",
@@ -2603,7 +2596,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792779355.0,
 "tgtext": "",
 "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
@@ -2803,7 +2796,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792784162.0,
 "tgtext": "",
 "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
@@ -2925,7 +2918,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792790506.0,
 "tgtext": "",
 "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
@@ -3083,7 +3076,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792791637.0,
 "tgtext": "",
 "title": "Account terminated over money laundering suspicion",
@@ -3227,7 +3220,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792797287.9152102,
+"t": 1792797797.1274729,
 "t0": 1792788972.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.\n\n@WatcherGuru",
 "title": "\ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over LIBRA crypto memecoin scandal.",
@@ -3509,29 +3502,29 @@
 "quack-ai": 1792566857.8473494
 },
 "probs": {
-"08d2e462a8e1": 0.095,
-"0b6f5d6e6756": 0.001,
+"0b6f5d6e6756": 0.0,
 "12b4019d6fa5": 0.035,
-"171cd0498cda": 0.027,
+"164cd5de6dac": 0.207,
+"171cd0498cda": 0.052,
 "20ebedf91386": 0.014,
-"32575993f374": 0.009,
+"32575993f374": 0.018,
 "407cbc522c19": 0.016,
-"4540ef780e8f": 0.001,
 "4742010de075": 0.001,
 "4f1c970d9515": 0.008,
 "53b56659e533": 0.001,
 "54f48fb5d3e1": 0.016,
 "5b5f9229dd1a": 0.007,
+"62bb2211ff6a": 0.012,
 "64c6671a7b45": 0.026,
 "651777901c91": 0.003,
 "6582a52a88c4": 0.013,
 "69330f87b5ec": 0.01,
-"6b8d3a88d31e": 0.002,
 "6d8931090485": 0.001,
 "6edd14f0d572": 0.009,
 "71bfdddaa918": 0.069,
 "71c96ec5bdb3": 0.008,
 "76686f0fa26f": 0.001,
+"7c2921cd2901": 0.002,
 "823a42c5ce40": 0.021,
 "85dac6637aa3": 0.021,
 "9c9aa63c7672": 0.035,
@@ -4099,65 +4092,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"164cd5de6dac",
+68,
+315,
+6
+],
+[
 "edd090310ca4",
 10,
-139,
+147,
 1
 ],
 [
 "d6afb4d9d188",
 43,
-113,
+122,
 1
-],
-[
-"08d2e462a8e1",
-62,
-359,
-10
 ],
 [
 "66186eb2be69",
 0,
-296,
+305,
 1
 ],
 [
 "c75ce099ae0c",
-13,
-219,
+12,
+227,
 1
 ],
 [
 "bc1f7dc5af6c",
 0,
-299,
+307,
 1
 ],
 [
 "71bfdddaa918",
-9,
-329,
+8,
+337,
 2
+],
+[
+"171cd0498cda",
+9,
+233,
+1
 ],
 [
 "e0f16fa140f6",
 10,
-94,
+103,
 1
 ],
 [
 "12b4019d6fa5",
 10,
-114,
-1
-],
-[
-"9c9aa63c7672",
-16,
-165,
+123,
 1
 ]
 ],
-"top_at": 1792797287.9152102
+"top_at": 1792797797.1274729
 }
