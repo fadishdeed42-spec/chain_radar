@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1792702140.6019025,
 1792719208.430811,
 1792721358.7631311,
 1792723200.0306118,
@@ -16,7 +15,8 @@
 1792751537.5628924,
 1792752166.3430572,
 1792761545.4814467,
-1792782284.9829712
+1792782284.9829712,
+1792789329.9006922
 ],
 "menu": {
 "0075a9a50711": {
@@ -395,7 +395,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792768226.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.",
@@ -1531,7 +1531,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792773523.0,
 "tgtext": "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.\n\n@WatcherGuru\n\ud83c\uddee\ud83c\uddf1 LATEST: Israeli Prime Minister Benjamin Netanyahu says he has requested a plan to use crypto as one way to bypass potential banking sanctions.\n\nNews | Markets | YouTube",
 "title": "Israeli Prime Minister Benjamin Netanyahu says he has requested a plan to use crypto as one way to bypass potential banking sanctions.",
@@ -1600,7 +1600,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792777569.0,
 "tgtext": "",
 "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
@@ -2162,7 +2162,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792787376.0,
 "tgtext": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD\n\nHyperliquid Strategies Inc. (NASDAQ: PURR), a HYPE-focused digital asset treasury company, has increased its share repurchase authorization from 30 million USD to 100 million USD, with approximately 72 million USD remaining available. The company also extended the program's expiration date from December 5, 2026, to October 31, 2027. Actual repurchases will depend on market conditions and management's discretion. \u2014 link",
 "title": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD",
@@ -2221,7 +2221,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792788717.499253,
+"t": 1792789635.1322055,
 "t0": 1792782643.0,
 "tgtext": "",
 "title": "SpaceX perpetual futures traded about $6 billion after earnings",
@@ -2722,7 +2722,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792784162.0,
 "tgtext": "",
 "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
@@ -2971,7 +2971,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792770361.0,
 "tgtext": "\ud83d\udea8 ALERT: American Express is cutting 5% of its global workforce, roughly 3,850 jobs, to become \u201cleaner, more agile, and also to prepare for AI,\u201d its CFO said.\n\nNews | Markets | YouTube",
 "title": "American Express is cutting 5% of its global workforce, roughly 3,850 jobs, to become \u201cleaner, more agile, and also to prepare for AI,\u201d its CFO said.",
@@ -3077,7 +3077,7 @@
 "The Block",
 "The Crypto Times"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792771447.0,
 "tgtext": "",
 "title": "Hacker mints tokens on Initia Chain, cashes out about $2.6 million",
@@ -3166,7 +3166,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792788972.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.\n\n@WatcherGuru",
 "title": "\ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over LIBRA crypto memecoin scandal.",
@@ -3390,7 +3390,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792789022.748423,
+"t": 1792789635.1322055,
 "t0": 1792781090.0,
 "tgtext": "JUST IN: Binance Founder CZ says every time people declared Bitcoin \"dead\" in the past, it was the best time to buy.\n\n@WatcherGuru",
 "title": "Binance Founder CZ says every time people declared Bitcoin \"dead\" in the past, it was the best time to buy.",
@@ -3448,46 +3448,46 @@
 "quack-ai": 1792566857.8473494
 },
 "probs": {
-"0aa73d1c1f59": 0.016,
+"0aa73d1c1f59": 0.018,
 "166708ad5ee3": 0.001,
-"171cd0498cda": 0.017,
-"20ebedf91386": 0.019,
-"407cbc522c19": 0.014,
-"4742010de075": 0.002,
-"502430c90d68": 0.001,
-"517ebfa9a638": 0.015,
-"5832b32da03e": 0.005,
-"5b5f9229dd1a": 0.006,
-"5d7c06721023": 0.001,
-"64c6671a7b45": 0.024,
-"651777901c91": 0.002,
-"67ce9e933946": 0.127,
+"171cd0498cda": 0.027,
+"407cbc522c19": 0.015,
+"4742010de075": 0.003,
+"502430c90d68": 0.002,
+"517ebfa9a638": 0.012,
+"54f48fb5d3e1": 0.016,
+"5b5f9229dd1a": 0.01,
+"5d7c06721023": 0.002,
+"64c6671a7b45": 0.039,
+"651777901c91": 0.003,
+"67ce9e933946": 0.321,
 "6befe4f9edfd": 0.001,
-"6eb51d8623b7": 0.004,
-"71bfdddaa918": 0.048,
-"81b65ee713d2": 0.001,
-"823a42c5ce40": 0.012,
-"8925d9a2ddb2": 0.008,
-"965f575620e5": 0.023,
-"97f2944f8056": 0.006,
-"9c9aa63c7672": 0.12,
-"9e5704d505c5": 0.036,
-"a1e95f3e5cfb": 0.004,
-"a3d3e14c5b07": 0.0,
-"bc1f7dc5af6c": 0.023,
-"c75ce099ae0c": 0.051,
-"cb3e69873b04": 0.002,
-"cbf06de646f4": 0.008,
-"cc7c5bb2265e": 0.005,
-"e057d080112c": 0.002,
-"e4f58d69543c": 0.018,
-"e723afbf677f": 0.046,
-"e75ab2c20754": 0.017,
-"eb5485718a26": 0.001,
-"f614aeb2de52": 0.018,
-"f81724252473": 0.016,
-"fd02d28e56cc": 0.037,
-"fe60bb6d637d": 0.002
+"6eb51d8623b7": 0.006,
+"71bfdddaa918": 0.077,
+"81b65ee713d2": 0.002,
+"823a42c5ce40": 0.021,
+"85dac6637aa3": 0.021,
+"8925d9a2ddb2": 0.051,
+"965f575620e5": 0.017,
+"9c9aa63c7672": 0.185,
+"9e5704d505c5": 0.058,
+"a1e95f3e5cfb": 0.006,
+"a3d3e14c5b07": 0.001,
+"bc1f7dc5af6c": 0.037,
+"be23c9374c81": 0.001,
+"c75ce099ae0c": 0.083,
+"cb3e69873b04": 0.003,
+"cbf06de646f4": 0.012,
+"cc7c5bb2265e": 0.008,
+"e4f58d69543c": 0.03,
+"e723afbf677f": 0.114,
+"e75ab2c20754": 0.028,
+"eb5485718a26": 0.002,
+"edd090310ca4": 0.674,
+"f614aeb2de52": 0.029,
+"f81724252473": 0.027,
+"fd02d28e56cc": 0.06,
+"fe60bb6d637d": 0.004
 },
 "sent": [
 {
@@ -4006,71 +4006,97 @@
 "initia",
 "million"
 ]
+},
+{
+"e": [
+"argentina",
+"javier",
+"libra",
+"milei",
+"president"
+],
+"k": [],
+"t": 1792789329.9006922,
+"u": [
+"https://t.me/WatcherGuru/15618"
+],
+"w": [
+"argentina",
+"criminal",
+"drops",
+"investigation",
+"javier",
+"libra",
+"memecoin",
+"milei",
+"president",
+"scandal"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"f4edb0e6b4a2",
-0,
-355,
+"edd090310ca4",
+10,
+11,
 1
+],
+[
+"67ce9e933946",
+9,
+269,
+2
 ],
 [
 "1bf205dd77e3",
 0,
-347,
+357,
 1
 ],
 [
 "dff66ffe8192",
 0,
-311,
+321,
 1
-],
-[
-"67ce9e933946",
-10,
-258,
-2
 ],
 [
 "9c9aa63c7672",
 16,
-27,
+38,
 1
 ],
 [
-"edd090310ca4",
-10,
-1,
-1
+"e723afbf677f",
+69,
+303,
+4
 ],
 [
 "c75ce099ae0c",
 18,
-81,
+91,
 1
 ],
 [
 "71bfdddaa918",
-27,
-191,
+26,
+201,
 2
-],
-[
-"e723afbf677f",
-70,
-293,
-4
 ],
 [
 "fd02d28e56cc",
 26,
-132,
+142,
+1
+],
+[
+"9e5704d505c5",
+25,
+117,
 1
 ]
 ],
-"top_at": 1792789022.748423
+"top_at": 1792789635.1322055
 }
