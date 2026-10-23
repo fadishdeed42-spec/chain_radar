@@ -23,12 +23,11 @@
 "src": "Wu Blockchain",
 "srcs": [
 "Cointelegraph",
-"ForkLog",
 "The Block",
 "The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792750322.0,
 "tgtext": "New York AG Seeks $1.37B From NovaTech Founders Over Alleged Crypto Ponzi Scheme\n\nNew York AG seeks $1.37 billion from NovaTech founders Cynthia and Eddy Petion: $1.13 billion in disgorgement plus $232.5 million in prejudgment interest. Court filings show $1.16 billion in crypto deposits (2019\u20132023); just $25.99 million went to trading, losing $18.19 million, while at least $134.5 million reached founders\u2019 wallets.\n\nProsecutors allege NovaTech promised 2%\u20134% weekly returns, paying investors with new deposits. The founders reportedly fled the U.S. after an August 2025 default judgment. Four promoters agreed to pay nearly $6 million and accepted permanent industry bans. \u2014 link",
 "title": "New York AG Seeks $1.37B From NovaTech Founders Over Alleged Crypto Ponzi Scheme",
@@ -127,6 +126,19 @@
 "tgtext": "",
 "title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
 "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
+"urls": []
+},
+"032c0cd26b46": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792762465.7675915,
+"t0": 1792754466.0,
+"tgtext": "\ud83c\udde6\ud83c\uddea JUST IN: UAE-led operation identifies over $39B in scam-linked funds and crypto, leading to more than 960 arrests across 30 countries.\n\nNews | Markets | YouTube",
+"title": "UAE-led operation identifies over $39B in scam-linked funds and crypto, leading to more than 960 arrests across 30 countries.",
+"url": "https://t.me/cointelegraph/72813",
 "urls": []
 },
 "03a384139b3a": {
@@ -690,7 +702,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792742555.0,
 "tgtext": "",
 "title": "CoinDCX says it wasn't hacked, blames broken clean up job for $16 million outflow",
@@ -1184,7 +1196,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792761856.047572,
+"t": 1792762161.775837,
 "t0": 1792750976.0,
 "tgtext": "",
 "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
@@ -1563,7 +1575,7 @@
 "Bitcoin Foundation",
 "CoinGeek"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792751050.0,
 "tgtext": "",
 "title": "CoinDCX belatedly admits latest hack; Ireland fines Coinbase anew",
@@ -1724,7 +1736,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792761642.0,
 "tgtext": "JUST IN: \ud83c\uddec\ud83c\udde7 UK government urges citizens to stockpile three days of emergency food and water due to growing cyberattack threats.\n\n@WatcherGuru",
 "title": "\ud83c\uddec\ud83c\udde7 UK government urges citizens to stockpile three days of emergency food and water due to growing cyberattack threats.",
@@ -1790,20 +1802,6 @@
 "urls": [
 "https://decrypt.co/381580/chinese-prosecutors-seek-to-confiscate-5-1b-in-bitcoin-seized-by-uk-in-qian-case"
 ]
-},
-"6e4907cf3798": {
-"coin": "ethereum",
-"src": "The Crypto Times",
-"srcs": [
-"Coin Gabbar",
-"The Crypto Times"
-],
-"t": 1792589104.8081758,
-"t0": 1792573200.0,
-"tgtext": "",
-"title": "Ethereum Price Today: ETH Jumps to $2,444 as $1.12B Exits ETFs. Why",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTUE2ZWdiYnpnWGhTVXAwaTFjTmE0RzUxemEzZVI4SjNrckVqSk94c19vR0dxTTdlLW9xd05JcEZBVFpkODNnaC0wc2ZuaU9RR0QtdnBGRDFUSnd6MjQtU0tuRXpDV2lYSTYxOWZSVjJzNl9RUE1UNlZyeUxfNm1mdGFDZHNoVWoxOFplTkFISDAyOGtnbk1yZkxsWnNfVDJxdlo0d1doTmU?oc=5",
-"urls": []
 },
 "6f5d2a30e2cd": {
 "coin": "bitcoin",
@@ -1926,7 +1924,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792749638.0,
 "tgtext": "",
 "title": "CoinDCX faces fresh scrutiny over $16M crypto transfers \u2013 What happened?",
@@ -1961,21 +1959,6 @@
 "tgtext": "",
 "title": "Zipcoin Shuts Down After UNCX Exploit and Codebase Compromise Warning",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOVJJdy1LQ1lnUXdpVTNvbVI0djFwVjlZRHZhTU40WVRpQjdReExMcnNkZkN0MlZRbXhTd01Hc0RUZnNRUmlPZmNPelI3MzRSaGFDZm5IVC1FV0NlY2JKdFExbklhdUVmdUhFa0JjRU5kWi1ZNEpmaHdpMnI5YXdPbUtfRUwtMUxXTlVGcjRhMU5JV3ZsVlhERjM0T0hmNUU?oc=5",
-"urls": []
-},
-"7ec0ed6a64a3": {
-"coin": "bitcoin",
-"src": "24/7 Wall St.",
-"srcs": [
-"24/7 Wall St.",
-"International Business Times Australia",
-"Wu Blockchain"
-],
-"t": 1792589104.8081758,
-"t0": 1792567522.0,
-"tgtext": "US Spot Bitcoin ETFs Log $23.16M in Net Inflows on Oct 20\n\nAccording to SoSoValue, US spot Bitcoin ETFs recorded a total net inflow of $23.1624 million on October 20 (EDT), led by BlackRock with an inflow of $29.8650 million. Meanwhile, spot Ethereum ETFs saw a total net outflow of $26.1343 million yesterday, marking five consecutive days of net outflows. \u2014 link",
-"title": "Spot Bitcoin ETFs Lost $681 Million in 1 Week as Bitcoin Trades Nearly 33% Below Its 2025 High",
-"url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMGM3czk4elN5UWhhRmEycGRSV28wSTRYVm9HSUxhMHpHU1BoeS1tTlpxOC1rcU5DMGFYZVo3enNaM1MyRUtUQWNiNnMxeWx1MHNzU0FlRkpGX1hWaXlGN2N1X2pjajRGY09wMGpHVHA4UjNxaUEzVnF2d2c3VU8ybzU5OU95OWlaQUt1M3dETU9yOTVTeThoUkRnb1NibnNuSXpfQTNhYUFORlZBQTI4Qk1FUUFOWm5CdjhWTDBFeWY0RkgtSzdKTnRCN1FXSUdqaFE2WWpxX1prQktPQWZlYWtLNTViUQ?oc=5",
 "urls": []
 },
 "7f83b6a81858": {
@@ -2312,6 +2295,19 @@
 "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
 ]
 },
+"96a48818a60d": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1792762465.7675915,
+"t0": 1792762163.0,
+"tgtext": "James Wynn(@JamesWynnReal) is back after 49 days!\n\nHe opened a 40x short on 0.4947 $BTC ($40.5K), with a liquidation price of $82,671.48.\n\nhttps://hypurrscan.io/address/0x5078c2fbea2b2ad61bc840bc023e35fce56bedb6#perps",
+"title": "James Wynn(@JamesWynnReal) is back after 49 days!",
+"url": "https://t.me/lookonchainchannel/10748",
+"urls": []
+},
 "97141c39aad6": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2388,7 +2384,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792751363.0,
 "tgtext": "A whale deposited 4,000 $BTC ($327M) into #Binance and #Deribit over the past 5 hours.\n\nhttps://arkm.com/explorer/address/163qVtyqtN1YA5AGGjybQCxhEio1F7KQUV\nhttps://arkm.com/explorer/address/bc1qshhzf7cq25r4grkuzlkz2n4hwy2vljydqlvgvg",
 "title": "A whale deposited 4,000 BTC ($327M) into Binance and Deribit over the past 5 hours.",
@@ -2475,7 +2471,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792755579.0,
 "tgtext": "QCP: AI Infrastructure Credit Stress Spills Into Equities and Crypto Markets\n\nQCP Capital said in its October 23 report that rising financing risks in AI infrastructure are spilling into equities and crypto markets, with Bitcoin tracking U.S. stocks lower. Yields on some CoreWeave bonds have climbed to around 15%, while its shares fell roughly 10% on October 22, reflecting concerns over heavy capital spending, debt servicing and future financing costs.\n\nMeanwhile, French 10-year government bond yields exceeded 5.1%, with spreads over German Bunds widening to about 170 basis points. Middle East tensions pushed oil prices to five-month highs. QCP noted that Bitcoin continues to behave like a traditional risk asset, while expectations for an October Fed rate hike have fallen near zero and confidence in a December rate cut has weakened. \u2014 link",
 "title": "QCP: AI Infrastructure Credit Stress Spills Into Equities and Crypto Markets",
@@ -2987,7 +2983,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1792761856.047572,
+"t": 1792762465.7675915,
 "t0": 1792758909.0,
 "tgtext": "Singapore, Malaysia and Thailand Central Banks Push Cross-Border Stablecoin and Tokenized Deposit Settlement\n\nAccording to MAS, the central banks of Singapore, Malaysia and Thailand will work with industry participants on cross-border settlement using regulated stablecoins, tokenized deposits and other forms of digital money. Ripple, Visa, Mastercard, Airwallex and the World Bank Group are among the new participants, with work focused on interoperability between payment networks and programmable compliance controls. \u2014 link",
 "title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
@@ -3259,19 +3255,6 @@
 "urls": [
 "https://bitcoinmagazine.com/news/president-trump-to-highlight-crackdown"
 ]
-},
-"dd6dcc682910": {
-"coin": "",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1792589104.8081758,
-"t0": 1792576845.0,
-"tgtext": "",
-"title": "Cysic Bridge Exploit Leads to Unauthorized Minting of 10M CYS Tokens",
-"url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdmZHd3RGcDVOMFpVRmFrcmxjUlk5T19xQ01HdmVIMWVxWHpMY2ZlemNPSzZQREJpdUhCUTdFS2U2MmJsT1RiSlNQcFlFd3JnVUEzejZScXl6MkNuaEFLbDhBMThmYzhfekE2Nm8tR0JfcmZmazBfLXhrNVZpVTFSc3ExXy00d1NRd1BuRl9lWWVZYzF1TS1FaGI5U0syTWM?oc=5",
-"urls": []
 },
 "df09b96eae57": {
 "coin": "bitcoin",
@@ -3792,16 +3775,17 @@
 "quack-ai": 1792566857.8473494
 },
 "probs": {
-"0075a9a50711": 0.962,
+"0075a9a50711": 0.945,
 "01b51bd82620": 0.251,
-"05a33d27aa14": 0.857,
+"032c0cd26b46": 0.686,
 "0a60dc79af6f": 0.159,
 "0ecd5a4169b3": 0.09,
 "274de199eebe": 0.016,
 "2982f5649663": 0.429,
 "2a8b9b033236": 0.006,
 "2d79c66ce02f": 0.006,
-"2dd89cb5c505": 0.096,
+"2dd89cb5c505": 0.19,
+"42e6046f9608": 0.008,
 "42e91d293a47": 0.275,
 "44d1eed8f684": 0.409,
 "4b87ad295502": 0.039,
@@ -3818,20 +3802,19 @@
 "87ab4e0138b9": 0.193,
 "87c63c79677b": 0.018,
 "8c6be60c63e2": 0.056,
-"8cf2fb19161c": 0.067,
-"8f862300e712": 0.013,
+"8f862300e712": 0.019,
 "96d7ca15986f": 0.007,
 "9a75d14b5ce5": 0.942,
 "be2e41caab7b": 0.121,
-"c4d87a908209": 0.911,
+"c4d87a908209": 0.855,
 "c8c3fdcc5bb4": 0.101,
+"d4e83e4a5b5f": 0.199,
 "d65c7882f291": 0.002,
 "d7e71166fc68": 0.083,
 "dee56eeba532": 0.13,
 "e3f491a601cb": 0.004,
 "e614db2f2491": 0.108,
-"ff4a7b630760": 0.082,
-"ff501fd13f4f": 0.006
+"ff4a7b630760": 0.082
 },
 "sent": [
 {
@@ -4313,64 +4296,64 @@
 "top": [
 [
 "0075a9a50711",
-72,
-192,
-5
+71,
+202,
+4
 ],
 [
 "9a75d14b5ce5",
 32,
-175,
+185,
+1
+],
+[
+"96a48818a60d",
+10,
+5,
 1
 ],
 [
 "c4d87a908209",
 28,
-49,
+59,
 2
+],
+[
+"032c0cd26b46",
+43,
+133,
+1
 ],
 [
 "66eb0eb8554b",
 10,
-4,
+14,
 1
 ],
 [
-"05a33d27aa14",
-30,
-357,
-2
-],
-[
 "602a7c40fd47",
-64,
-180,
+63,
+190,
 2
 ],
 [
 "a0562192929a",
 10,
-105,
+115,
 1
 ],
 [
 "78cf52442bfe",
-13,
-204,
+12,
+214,
 1
 ],
 [
 "2982f5649663",
-28,
-322,
-1
-],
-[
-"44d1eed8f684",
-16,
-181,
+26,
+332,
 1
 ]
 ],
-"top_at": 1792761856.047572
+"top_at": 1792762465.7675915
 }
