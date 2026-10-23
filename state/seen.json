@@ -378,7 +378,7 @@
 "srcs": [
 "The Journal News | lohud.com"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792783800.0,
 "tgtext": "",
 "title": "$6 million recouped in crypto scheme targeting Haitian New Yorkers",
@@ -1522,7 +1522,7 @@
 "srcs": [
 "Powers of Africa"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792779522.0,
 "tgtext": "",
 "title": "Cybercrime: INTERPOL Strikes in 19 African Countries",
@@ -1665,7 +1665,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792777569.0,
 "tgtext": "",
 "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
@@ -2596,7 +2596,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792779355.0,
 "tgtext": "",
 "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
@@ -2648,20 +2648,20 @@
 "urls": []
 },
 "be8dc7c465d4": {
-"coin": "",
-"src": "Crypto Economy",
+"coin": "ethereum",
+"src": "NewsCord",
 "srcs": [
 "Cointelegraph",
 "Crypto Economy",
 "Crypto News",
 "Cryptopolitan",
-"Pluang"
+"NewsCord"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792780742.0,
 "tgtext": "",
-"title": "Initia Suspends Network Following Reported Token Minting Exploit",
-"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQndFMHBWTWVsbjhJNElDRFpOTzdSVzQycnZCV2pNTHVBcFhyQWxxV0Rja2ItNE1xLWR5RjNlNkp1MHZQT2F6cUJCSjlqN3FPUUZZWWc2Y2c5WjdhWHhQTk4yeEc2cXRXTU9haWJvTUl3anppQnlvdVZWRVhCMkd6c0tRelZUSEFpeDBjWHh5cGJKRHd3Y3FJ?oc=5",
+"title": "Initia Halts Blockchain After Unauthorized Token Minting, Transfers $2.6M to Ethereum: 10 outlets compared",
+"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdDRKVU1tZFlod3lMbVhDSmNsNk5VZkUzcnNQenlyX25UN1lWbm5fQnNGcVFWZ1ZUb2pMTGRHdUxZa0NSMUVmRnNLOEVzSGhVdmRxeEs5OHdtbWlVbnhOYkxrY0tzV2pnWE5lbUYtcWNfa29NcGNfUnYzQTlxMF9Ld1lyWE5EcDVQemx0WTlhUXRtXzUxVG4xY2tTNngxeWFNOVdUb004eHlaNmhSeFVJUXdMNFFOTDZMQXdQaUJJOGZJRHhjWVY3M2N2S3ppalRNeWRIUGx1M1Z3WDV1RlptYnpaR3c5NWpQOVE?oc=5",
 "urls": [
 "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -2815,7 +2815,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792784162.0,
 "tgtext": "",
 "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
@@ -2937,7 +2937,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792790506.0,
 "tgtext": "",
 "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
@@ -3095,7 +3095,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792791637.0,
 "tgtext": "",
 "title": "Account terminated over money laundering suspicion",
@@ -3130,6 +3130,21 @@
 "title": "Bitcoin's rally stalled on Oct 21, triggering $91M in long liquidations amid uncertain price pattern.",
 "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcVZieVFmSk1wOTk3M0Q5b2JTbmtlcG04b3NLVzFPRVYxNnBLS0k2TTlRSWtIbWZjY2JoZV9EcTNkaFdIRGFmcnVUMWNDaG9CWmhIM0ViejVkOWVmZ0lPUU5jU2gzbU43aUR4ZU5Ha1RheVFxUTdwMU1RWHNiTlFiM3V6MA?oc=5",
 "urls": []
+},
+"e4f58d69543c": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate"
+],
+"t": 1792799015.7596354,
+"t0": 1792787400.0,
+"tgtext": "",
+"title": "UK\u2019s FCA says crypto apps may need licenses when algorithms choose trade routes",
+"url": "https://cryptoslate.com/uks-fca-says-crypto-apps-may-need-licenses-when-algorithms-choose-trade-routes/",
+"urls": [
+"https://cryptoslate.com/uks-fca-says-crypto-apps-may-need-licenses-when-algorithms-choose-trade-routes/"
+]
 },
 "e56cc21393e2": {
 "coin": "",
@@ -3239,7 +3254,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792798406.4026494,
+"t": 1792799015.7596354,
 "t0": 1792788972.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.\n\n@WatcherGuru",
 "title": "\ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over LIBRA crypto memecoin scandal.",
@@ -3527,7 +3542,9 @@
 "171cd0498cda": 0.052,
 "20ebedf91386": 0.014,
 "32575993f374": 0.006,
+"354812a7492b": 0.001,
 "407cbc522c19": 0.022,
+"4540ef780e8f": 0.001,
 "4742010de075": 0.001,
 "4f1c970d9515": 0.008,
 "53b56659e533": 0.001,
@@ -3542,25 +3559,23 @@
 "71bfdddaa918": 0.069,
 "71c96ec5bdb3": 0.008,
 "76686f0fa26f": 0.001,
-"7c2921cd2901": 0.002,
-"823a42c5ce40": 0.021,
+"823a42c5ce40": 0.04,
 "85dac6637aa3": 0.021,
 "9c9aa63c7672": 0.035,
 "9e5704d505c5": 0.027,
 "b170f248e984": 0.004,
-"be8dc7c465d4": 0.121,
+"be8dc7c465d4": 0.082,
 "c00cf0acf505": 0.017,
-"c75ce099ae0c": 0.083,
+"c75ce099ae0c": 0.15,
 "cb3e69873b04": 0.005,
 "d6afb4d9d188": 0.115,
 "e0f16fa140f6": 0.051,
-"e4f58d69543c": 0.03,
+"e4f58d69543c": 0.057,
 "ebacc56c021f": 0.002,
 "edd090310ca4": 0.18,
-"f614aeb2de52": 0.013,
+"f614aeb2de52": 0.026,
 "fb4c34ad1f5d": 0.009,
-"fd02d28e56cc": 0.028,
-"fe60bb6d637d": 0.007
+"fd02d28e56cc": 0.028
 },
 "sent": [
 {
@@ -4113,63 +4128,63 @@
 [
 "edd090310ca4",
 10,
-157,
+167,
 1
 ],
 [
-"be8dc7c465d4",
-70,
-294,
-7
+"c75ce099ae0c",
+9,
+248,
+1
 ],
 [
 "d6afb4d9d188",
 43,
-132,
+142,
 1
 ],
 [
 "66186eb2be69",
 0,
-315,
+325,
 1
 ],
 [
-"c75ce099ae0c",
-11,
-237,
-1
+"be8dc7c465d4",
+69,
+305,
+8
 ],
 [
 "bc1f7dc5af6c",
 0,
-318,
+328,
 1
 ],
 [
 "71bfdddaa918",
-6,
-347,
+5,
+357,
 2
 ],
 [
+"e4f58d69543c",
+9,
+194,
+1
+],
+[
 "171cd0498cda",
-8,
-243,
+7,
+254,
 1
 ],
 [
 "e0f16fa140f6",
 10,
-113,
-1
-],
-[
-"12b4019d6fa5",
-10,
-133,
+123,
 1
 ]
 ],
-"top_at": 1792798406.4026494
+"top_at": 1792799015.7596354
 }
