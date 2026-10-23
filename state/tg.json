@@ -101,34 +101,6 @@
 },
 "t": 1792494243.8191037
 },
-"212ff2c2f4": {
-"coin": "",
-"facts": "Headline: THORChain targets Rujira restart with v3.21 exploit fix around Oct 23\nSources: Crypto Briefing, Cryptonews.net\n\n",
-"item": {
-"hack": null,
-"src": "Crypto Briefing",
-"t0": 1792429948.0,
-"tag": null,
-"title": "THORChain targets Rujira restart with v3.21 exploit fix around Oct 23",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5MnkydlJvUzFkbUxzMFByajJhR1hoemdJV3FPR20tNFFUdTBHV3hTTmhTeWsxbjlSU3kyVGY0Y0JPLTJaYUMtR0Z2RGVraUdQNVNmN2l6UEZmcl9pd3pIMnR1RXZTTHhLRWZZeUtQckpfRnc?oc=5"
-},
-"p": {
-"keyfact": "THORChain aims to restart Rujira with a v3.21 exploit fix around Oct 23.",
-"post": "THORChain is eyeing an Oct 23 restart for Rujira, pending the deployment of the v3.21 exploit fix according to reports. Security patches are moving forward as the network prepares to bring the protocol back online.",
-"quote": "NONE",
-"reply": "Security first, but that Oct 23 target is one to watch.",
-"short": "",
-"stat": "v3.21 | Fix version",
-"symbol": "RUNE",
-"tag": "BREAKING",
-"thread": "1/ THORChain is reportedly targeting an Oct 23 restart for Rujira following a previous exploit.\n2/ The recovery plan hinges on the deployment of the v3.21 exploit fix.\n3/ Network upgrades and security checks are currently underway to ensure a safe relaunch.\n4/ Keep an eye on the calendar as the targeted date approaches.",
-"timeline": "Oct 2024 = Exploit occurs ; Oct 23 = Target restart date ; v3.21 = Patch deployed",
-"title": "THORChain targets Rujira restart",
-"versus": "Target = Oct 23 || Status = Pending restart",
-"visual": "ALERT"
-},
-"t": 1792443206.839617
-},
 "250da07218": {
 "coin": "qubic-network",
 "facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
@@ -252,6 +224,38 @@
 "visual": "CHART"
 },
 "t": 1792687758.5301409
+},
+"60003b1fd1": {
+"coin": "",
+"facts": "Headline: Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard\nSources: The Block, Wu Blockchain\n\nTelegram news posts about it:\nSingapore, Malaysia and Thailand Central Banks Push Cross-Border Stablecoin and Tokenized Deposit Settlement\n\nAccording to MAS, the central banks of Singapore, Malaysia and Thailand will work with industry participants on cross-border settlement using regulated stablecoins, tokenized deposits and other forms of digital money. Ripple, Visa, Mastercard, Airwallex and the World Bank Group are among the new participants, with work focused on interoperability between payment networks and programmable compliance controls. \u2014 link\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "The Block",
+"story": null,
+"t0": 1792758909.0,
+"tag": null,
+"title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
+"url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
+},
+"p": {
+"keyfact": "Central banks of Singapore, Malaysia, and Thailand add Ripple, Visa, and Mastercard to settlement project.",
+"post": "Singapore, Malaysia and Thailand central banks expand their cross-border stablecoin initiative. Ripple, Visa, Mastercard, Airwallex and the World Bank Group join the project. Work focuses on interoperability and programmable compliance controls. #Crypto",
+"quote": "NONE",
+"reply": "Cross-border settlement tests expand with heavy industry backing.",
+"short": "",
+"stat": "3 | Central banks involved",
+"symbol": "XRP",
+"tag": "REGULATION",
+"thread": "1/ Three central banks just expanded a cross-border stablecoin initiative. Look at the chart. Follow the trail of institutional adoption. \n\n2/ According to reports from The Block and Wu Blockchain, the central banks of Singapore, Malaysia and Thailand are working on cross-border settlement using regulated stablecoins and tokenized deposits. \n\n3/ Industry heavyweights are stepping in. Ripple, Visa, Mastercard, Airwallex and the World Bank Group are among the new participants joining the project. \n\n4/ The stated focus is clear. Work centers on interoperability between payment networks and programmable compliance controls. \n\n5/ The lesson here is simple. While retail noise focuses on daily volatility, traditional finance and central banks quietly build the infrastructure for digital money settlement. #Crypto",
+"timeline": "NONE",
+"title": "MAS, Bank Negara, and BOT Expand Stablecoin Initiative",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1792761586.115322
 },
 "690edda5e1": {
 "coin": "bitcoin",
@@ -965,7 +969,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489283,
+"offset": 138489285,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
