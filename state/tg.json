@@ -279,36 +279,37 @@
 },
 "t": 1792687758.5301409
 },
-"74d03d898a": {
-"coin": "",
-"facts": "Headline: Bitget hacked for $387.0 million\nSources: DefiLlama\nHack date: Sep 24. Chain: ['Ethereum', 'XRP', 'Tron', 'Zcash']. Method: Hot Wallet Key Compromised. Amount: $387,000,000. (From the DefiLlama hacks database.)\n",
+"690edda5e1": {
+"coin": "bitcoin",
+"facts": "Headline: A whale deposited 4,000 BTC ($327M) into Binance and Deribit over the past 5 hours.\nSources: Lookonchain\nCoin in this story: Bitcoin (BTC) $81,628, -0.4% in 24h\n\nTelegram news posts about it:\nA whale deposited 4,000 $BTC ($327M) into #Binance and #Deribit over the past 5 hours.\n\nhttps://arkm.com/explorer/address/163qVtyqtN1YA5AGGjybQCxhEio1F7KQUV\nhttps://arkm.com/explorer/address/bc1qshhzf7cq25r4grkuzlkz2n4hwy2vljydqlvgvg\n",
 "item": {
-"hack": {
-"amount": "$387M",
-"chain": "['Ethereum', 'XRP', 'Tron', 'Zcash']",
-"date": "Sep 24",
-"method": "Hot Wallet Key Compromised"
-},
-"src": "DefiLlama",
-"tag": "HACK",
-"title": "Bitget hacked for $387.0 million",
-"url": ""
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Lookonchain",
+"story": null,
+"t0": 1792751363.0,
+"tag": null,
+"title": "A whale deposited 4,000 BTC ($327M) into Binance and Deribit over the past 5 hours.",
+"url": "https://t.me/lookonchainchannel/10746"
 },
 "p": {
-"keyfact": "DefiLlama reports Bitget suffered a $387M hot wallet key compromise on Sep 24.",
-"post": "Hot wallets remain crypto's favorite trapdoor. DefiLlama reports Bitget was hit for a staggering $387.0 million on September 24 after a hot wallet key was compromised across multiple chains. When keys fall, the vault opens.",
+"keyfact": "A whale deposited 4,000 BTC worth $327 million into Binance and Deribit over 5 hours.",
+"post": "Follow the trail. A single whale reportedly deposited 4,000 BTC worth $327 million into Binance and Deribit over the past 5 hours. Large exchange deposits often precede major market moves, making this wallet worth watching closely. #Bitcoin",
 "quote": "NONE",
-"reply": "Another day, another hot wallet masterclass in why keys matter.",
-"stat": "$387.0M | Stolen funds",
-"symbol": "NONE",
-"tag": "HACK",
-"thread": "1/ Keys to the kingdom, handed over. On September 24, a major security breach hit Bitget, resulting in a massive crypto heist tracked directly by DefiLlama. \n2/ The damage? A cool $387,000,000 vanished into thin air. The attackers didn't just target one chain\u2014they struck across Ethereum, XRP, Tron, and Zcash.\n3/ The vector of choice: a compromised hot wallet key. It's the classic tale of digital doors left unlocked, proving once again that convenience often comes at a very high price in Web3.",
-"timeline": "Sep 24 = Hot wallet key compromised ; Sep 24 = $387,000,000 drained ; Sep 24 = DefiLlama logs breach across 4 chains",
-"title": "$387M Bitget Hot Wallet Drain",
-"versus": "Secured = Funds safe || Compromised = $387M stolen",
-"visual": "ALERT"
+"reply": "Big exchange inflows like this always leave a paper trail.",
+"short": "",
+"stat": "$327M | Deposited to Exchanges",
+"symbol": "BTC",
+"tag": "WHALE",
+"thread": "",
+"timeline": "Past 5 hours = 4,000 BTC moved ; Binance = Exchange deposit 1 ; Deribit = Exchange deposit 2",
+"title": "4,000 BTC Moved to Exchanges",
+"versus": "Deposited BTC = 4,000 BTC || Total USD Value = $327M",
+"visual": "CHART"
 },
-"t": 1792441566.0702703
+"t": 1792751565.570382
 },
 "7be20f7bc3": {
 "coin": "",
@@ -1060,7 +1061,7 @@
 },
 "menu_v": 2,
 "mute_until": 0,
-"offset": 138489280,
+"offset": 138489282,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
