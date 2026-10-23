@@ -1532,7 +1532,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792773523.0,
 "tgtext": "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.\n\n@WatcherGuru\n\ud83c\uddee\ud83c\uddf1 LATEST: Israeli Prime Minister Benjamin Netanyahu says he has requested a plan to use crypto as one way to bypass potential banking sanctions.\n\nNews | Markets | YouTube",
 "title": "Israeli Prime Minister Benjamin Netanyahu says he has requested a plan to use crypto as one way to bypass potential banking sanctions.",
@@ -1603,7 +1603,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792777569.0,
 "tgtext": "",
 "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
@@ -2165,7 +2165,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792787376.0,
 "tgtext": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD\n\nHyperliquid Strategies Inc. (NASDAQ: PURR), a HYPE-focused digital asset treasury company, has increased its share repurchase authorization from 30 million USD to 100 million USD, with approximately 72 million USD remaining available. The company also extended the program's expiration date from December 5, 2026, to October 31, 2027. Actual repurchases will depend on market conditions and management's discretion. \u2014 link",
 "title": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD",
@@ -2540,7 +2540,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792779355.0,
 "tgtext": "",
 "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
@@ -2740,7 +2740,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792784162.0,
 "tgtext": "",
 "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
@@ -2862,7 +2862,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792790506.0,
 "tgtext": "",
 "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
@@ -3004,7 +3004,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792770361.0,
 "tgtext": "\ud83d\udea8 ALERT: American Express is cutting 5% of its global workforce, roughly 3,850 jobs, to become \u201cleaner, more agile, and also to prepare for AI,\u201d its CFO said.\n\nNews | Markets | YouTube",
 "title": "American Express is cutting 5% of its global workforce, roughly 3,850 jobs, to become \u201cleaner, more agile, and also to prepare for AI,\u201d its CFO said.",
@@ -3088,11 +3088,11 @@
 "srcs": [
 "Cointelegraph",
 "Crypto Briefing",
+"Cryptopolitan",
 "Finanzen.net",
-"KuCoin",
-"The Block"
+"KuCoin"
 ],
-"t": 1792790554.4122,
+"t": 1792791471.8713949,
 "t0": 1792771447.0,
 "tgtext": "",
 "title": "Hacker mints tokens on Initia Chain, cashes out about $2.6 million",
@@ -3181,7 +3181,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792788972.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.\n\n@WatcherGuru",
 "title": "\ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over LIBRA crypto memecoin scandal.",
@@ -3405,7 +3405,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792790859.6828475,
+"t": 1792791471.8713949,
 "t0": 1792781090.0,
 "tgtext": "JUST IN: Binance Founder CZ says every time people declared Bitcoin \"dead\" in the past, it was the best time to buy.\n\n@WatcherGuru",
 "title": "Binance Founder CZ says every time people declared Bitcoin \"dead\" in the past, it was the best time to buy.",
@@ -3464,9 +3464,9 @@
 },
 "probs": {
 "0aa73d1c1f59": 0.018,
+"0b6f5d6e6756": 0.0,
 "12b4019d6fa5": 0.035,
 "171cd0498cda": 0.027,
-"31fcff992d9a": 0.0,
 "407cbc522c19": 0.011,
 "4742010de075": 0.001,
 "502430c90d68": 0.002,
@@ -3476,18 +3476,17 @@
 "64c6671a7b45": 0.039,
 "651777901c91": 0.003,
 "67ce9e933946": 0.13,
-"6befe4f9edfd": 0.001,
 "71bfdddaa918": 0.077,
+"71c96ec5bdb3": 0.008,
 "81b65ee713d2": 0.002,
 "823a42c5ce40": 0.021,
 "85dac6637aa3": 0.021,
-"8925d9a2ddb2": 0.054,
+"8925d9a2ddb2": 0.051,
 "965f575620e5": 0.017,
-"9b7a4de02eef": 0.019,
 "9c9aa63c7672": 0.185,
 "9e5704d505c5": 0.058,
-"a1e95f3e5cfb": 0.006,
-"bc1f7dc5af6c": 0.07,
+"a1e95f3e5cfb": 0.013,
+"a3d3e14c5b07": 0.001,
 "be23c9374c81": 0.001,
 "c75ce099ae0c": 0.083,
 "c7779ab7723f": 0.002,
@@ -3496,9 +3495,10 @@
 "cc7c5bb2265e": 0.008,
 "d6afb4d9d188": 0.115,
 "e4f58d69543c": 0.03,
+"e723afbf677f": 0.193,
 "e75ab2c20754": 0.004,
 "eb5485718a26": 0.002,
-"edd090310ca4": 0.705,
+"edd090310ca4": 0.579,
 "f614aeb2de52": 0.029,
 "f81724252473": 0.039,
 "fd02d28e56cc": 0.06,
@@ -4055,63 +4055,63 @@
 [
 "edd090310ca4",
 10,
-31,
+42,
 1
 ],
 [
 "dff66ffe8192",
 0,
-342,
+352,
 1
+],
+[
+"e723afbf677f",
+65,
+334,
+7
 ],
 [
 "9c9aa63c7672",
 16,
-58,
+68,
 1
 ],
 [
 "67ce9e933946",
-16,
-289,
+15,
+299,
 3
-],
-[
-"ce192fefd8da",
-0,
-304,
-1
 ],
 [
 "d6afb4d9d188",
 43,
-6,
+16,
 1
 ],
 [
 "c75ce099ae0c",
 18,
-112,
+122,
 1
 ],
 [
 "71bfdddaa918",
-23,
-222,
+22,
+232,
 2
 ],
 [
 "bc1f7dc5af6c",
-9,
-192,
+8,
+202,
 1
 ],
 [
 "fd02d28e56cc",
 26,
-163,
+173,
 1
 ]
 ],
-"top_at": 1792790859.6828475
+"top_at": 1792791471.8713949
 }
