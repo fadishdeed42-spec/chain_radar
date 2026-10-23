@@ -303,7 +303,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792790439.0,
 "tgtext": "",
 "title": "Blockstream Launches Institutional Consulting Services, Opens Lugano Office",
@@ -378,7 +378,7 @@
 "srcs": [
 "The Journal News | lohud.com"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792783800.0,
 "tgtext": "",
 "title": "$6 million recouped in crypto scheme targeting Haitian New Yorkers",
@@ -1522,7 +1522,7 @@
 "srcs": [
 "Powers of Africa"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792779522.0,
 "tgtext": "",
 "title": "Cybercrime: INTERPOL Strikes in 19 African Countries",
@@ -1665,7 +1665,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792777569.0,
 "tgtext": "",
 "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
@@ -2596,7 +2596,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792779355.0,
 "tgtext": "",
 "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
@@ -2646,6 +2646,25 @@
 "title": "Yau Tong man, 26, arrested over two indecent exposure cases involving five schoolgirls",
 "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUzdVTUNGQ3VBNEE5cFgwWmxjWFk2NWRMTWNLQ2hUcHQ3ckM5eHRWZXg5S3dLbzF5REpHdzZ3SzNXR3ZzZDhNc0R6Tk14azcwUHBvOWswVDJDVmRMVWpYQjZXbzZrbkhpbm92UDBYRHZENHc5M1I0bkplMlY3SXY4SVdrYzdyajVRTDIyX1FsYkVFd0tQMk1xenpYMlFkSHZKc0xvNWlhTGFSaHZkSjhZSVRR?oc=5",
 "urls": []
+},
+"be8dc7c465d4": {
+"coin": "",
+"src": "Crypto Economy",
+"srcs": [
+"Cointelegraph",
+"Crypto Economy",
+"Crypto News",
+"Cryptopolitan",
+"Pluang"
+],
+"t": 1792798406.4026494,
+"t0": 1792780742.0,
+"tgtext": "",
+"title": "Initia Suspends Network Following Reported Token Minting Exploit",
+"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQndFMHBWTWVsbjhJNElDRFpOTzdSVzQycnZCV2pNTHVBcFhyQWxxV0Rja2ItNE1xLWR5RjNlNkp1MHZQT2F6cUJCSjlqN3FPUUZZWWc2Y2c5WjdhWHhQTk4yeEc2cXRXTU9haWJvTUl3anppQnlvdVZWRVhCMkd6c0tRelZUSEFpeDBjWHh5cGJKRHd3Y3FJ?oc=5",
+"urls": [
+"https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "be95862d0bbd": {
 "coin": "",
@@ -2796,7 +2815,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792784162.0,
 "tgtext": "",
 "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
@@ -2918,7 +2937,7 @@
 "srcs": [
 "Bitcoin Magazine"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792790506.0,
 "tgtext": "",
 "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
@@ -3076,7 +3095,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792791637.0,
 "tgtext": "",
 "title": "Account terminated over money laundering suspicion",
@@ -3220,7 +3239,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792797797.1274729,
+"t": 1792798406.4026494,
 "t0": 1792788972.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.\n\n@WatcherGuru",
 "title": "\ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over LIBRA crypto memecoin scandal.",
@@ -3502,24 +3521,23 @@
 "quack-ai": 1792566857.8473494
 },
 "probs": {
+"0322bddb2014": 0.001,
 "0b6f5d6e6756": 0.0,
 "12b4019d6fa5": 0.035,
-"164cd5de6dac": 0.207,
 "171cd0498cda": 0.052,
 "20ebedf91386": 0.014,
-"32575993f374": 0.018,
-"407cbc522c19": 0.016,
+"32575993f374": 0.006,
+"407cbc522c19": 0.022,
 "4742010de075": 0.001,
 "4f1c970d9515": 0.008,
 "53b56659e533": 0.001,
 "54f48fb5d3e1": 0.016,
 "5b5f9229dd1a": 0.007,
-"62bb2211ff6a": 0.012,
 "64c6671a7b45": 0.026,
-"651777901c91": 0.003,
+"651777901c91": 0.006,
 "6582a52a88c4": 0.013,
 "69330f87b5ec": 0.01,
-"6d8931090485": 0.001,
+"6b8d3a88d31e": 0.002,
 "6edd14f0d572": 0.009,
 "71bfdddaa918": 0.069,
 "71c96ec5bdb3": 0.008,
@@ -3530,18 +3548,19 @@
 "9c9aa63c7672": 0.035,
 "9e5704d505c5": 0.027,
 "b170f248e984": 0.004,
+"be8dc7c465d4": 0.121,
 "c00cf0acf505": 0.017,
 "c75ce099ae0c": 0.083,
 "cb3e69873b04": 0.005,
 "d6afb4d9d188": 0.115,
 "e0f16fa140f6": 0.051,
 "e4f58d69543c": 0.03,
-"e75ab2c20754": 0.003,
 "ebacc56c021f": 0.002,
 "edd090310ca4": 0.18,
 "f614aeb2de52": 0.013,
 "fb4c34ad1f5d": 0.009,
-"fd02d28e56cc": 0.028
+"fd02d28e56cc": 0.028,
+"fe60bb6d637d": 0.007
 },
 "sent": [
 {
@@ -4092,65 +4111,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"164cd5de6dac",
-68,
-315,
-6
-],
-[
 "edd090310ca4",
 10,
-147,
+157,
 1
+],
+[
+"be8dc7c465d4",
+70,
+294,
+7
 ],
 [
 "d6afb4d9d188",
 43,
-122,
+132,
 1
 ],
 [
 "66186eb2be69",
 0,
-305,
+315,
 1
 ],
 [
 "c75ce099ae0c",
-12,
-227,
+11,
+237,
 1
 ],
 [
 "bc1f7dc5af6c",
 0,
-307,
+318,
 1
 ],
 [
 "71bfdddaa918",
-8,
-337,
+6,
+347,
 2
 ],
 [
 "171cd0498cda",
-9,
-233,
+8,
+243,
 1
 ],
 [
 "e0f16fa140f6",
 10,
-103,
+113,
 1
 ],
 [
 "12b4019d6fa5",
 10,
-123,
+133,
 1
 ]
 ],
-"top_at": 1792797797.1274729
+"top_at": 1792798406.4026494
 }
