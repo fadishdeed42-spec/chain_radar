@@ -89,7 +89,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792835181.0,
 "tgtext": "",
 "title": "Arthur Hayes Dumps Entire Trading Book, Sells Over $22M In Tokens As He Says Crypto Needs To \u2018Go Down To Go Up\u2019",
@@ -194,7 +194,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -560,7 +560,7 @@
 "Coinfomania",
 "bloomingbit"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Swell Network Halts swETH, rswETH Deposits and Withdrawals, Says Assets Are Safe",
@@ -801,7 +801,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792839633.0,
 "tgtext": "",
 "title": "Senator probes Tether\u2019s reported $6 million payments to ex-White House crypto adviser\u2019s firm",
@@ -943,6 +943,21 @@
 "title": "Trump accuses Iran of fabricating attacks to drive up oil prices ahead of the U.S. midterm elections, reiterating that it must never obtain a nuclear weapon.",
 "url": "https://t.me/cointelegraph/72802",
 "urls": []
+},
+"494968d159bf": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate"
+],
+"t": 1792851193.3781257,
+"t0": 1792843247.0,
+"tgtext": "",
+"title": "Wall Street\u2019s $359 billion-a-day repo market has found a use for blockchain",
+"url": "https://cryptoslate.com/wall-streets-359-billion-a-day-repo-market-has-found-a-use-for-blockchain/",
+"urls": [
+"https://cryptoslate.com/wall-streets-359-billion-a-day-repo-market-has-found-a-use-for-blockchain/"
+]
 },
 "4aa0b9cd350c": {
 "coin": "bitcoin",
@@ -1094,7 +1109,7 @@
 "The Daily Hodl",
 "logos-pres.md"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792830295.0,
 "tgtext": "",
 "title": "Italy Dismantles Mafia-Linked Underground Bank Laundering $76,290,000 via Crypto",
@@ -1865,7 +1880,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792846862.0,
 "tgtext": "",
 "title": "Hong Kong\u2019s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
@@ -2246,7 +2261,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2261,7 +2276,7 @@
 "Pluang",
 "The Cryptonomist"
 ],
-"t": 1792850583.3269625,
+"t": 1792850889.1002436,
 "t0": 1792829302.0,
 "tgtext": "",
 "title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
@@ -2477,6 +2492,21 @@
 "tgtext": "",
 "title": "Bitwise Dogecoin ETF Reaches Scheduled Liquidation As Holders Face Cash Redemption",
 "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRzhhRm0xRnBJRHBJdUlWa21pX3NjekNlUGowYjhUYVZ3eWNRQWNnSnJZMFBBRlRPdzZ5S3FJVE5QNE5SZjUySE5jbktnbHhRSmNVSlNFR0d6TDNmV3dzWWhscF80SU5FS2dSeE9OOTJRX3hyUnB6WU1QYTlhVXUzWDcyMV9sM0lKRDczY09oNlN4QmVWU0tDYUdEUkJDa1pBWm5Nd0E4WnNQdFlndnd4YjNXTV85aWlHaDhSOHRLYkkxT2NvU2ZBVlNLYTJPSzhjSDdYR3p1UQ?oc=5",
+"urls": []
+},
+"b590ef302692": {
+"coin": "",
+"src": "AMBCrypto",
+"srcs": [
+"AMBCrypto",
+"CryptoTicker",
+"The Cryptonomist"
+],
+"t": 1792851193.3781257,
+"t0": 1792832408.0,
+"tgtext": "",
+"title": "Initia halts L1 and rollups after $2.7 million exploit \u2014 What happened?",
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa0ZsbUlCR2M1eHNmOTBCSVFfM0ktb3FHNXBLNlhUNlU3U1pkbTh0UmpNZnV1MnpiWlUtQ0FmR0o0RGhYQ2Z6bXhOOUJ6UkdUaWFDWS1KSkRuSkI0Smc0M0hDdFpYS2U0SGxHeXpSTXI4QThqRXVFUjZ0MkhYX09DQkozS0RnLVQ5bW5Kdk1qV0JSd012?oc=5",
 "urls": []
 },
 "b596cd297be8": {
@@ -2847,7 +2877,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792850583.3269625,
+"t": 1792850889.1002436,
 "t0": 1792834398.0,
 "tgtext": "",
 "title": "Initia halts blockchain after infinite mint attack",
@@ -2990,7 +3020,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792850583.3269625,
+"t": 1792851193.3781257,
 "t0": 1792833403.0,
 "tgtext": "",
 "title": "Solana price prediction: $30.3M out of the SOL ETFs",
@@ -3515,10 +3545,9 @@
 "016377b73016": 0.011,
 "04afcad5be5c": 0.563,
 "09c90228a4b2": 0.452,
-"0d7e8e1690e8": 0.003,
-"11fe9295ef11": 0.004,
-"198be2bc374d": 0.009,
-"263b82c8572e": 0.077,
+"11fe9295ef11": 0.012,
+"198be2bc374d": 0.024,
+"263b82c8572e": 0.027,
 "282099039f35": 0.456,
 "33a2cc56fef4": 0.023,
 "3d1be279557c": 0.109,
@@ -3534,20 +3563,23 @@
 "7ec93ede8400": 0.087,
 "8770799e7d0d": 0.148,
 "8ac1e39a9de9": 0.002,
+"9c4d02e91890": 0.02,
 "a12ca530ac5d": 0.344,
-"a2e260e94137": 0.852,
+"a169518d6138": 0.007,
+"a396dfe44760": 0.005,
 "b384f7583f10": 0.066,
 "b429bfa0c22a": 0.086,
+"b590ef302692": 0.629,
 "b9e5a1165e2d": 0.027,
 "c07557901e04": 0.045,
 "c120991d5d72": 0.041,
 "c4e0a881cfe6": 0.001,
-"c6486df8ef8b": 0.037,
-"cf3b73dae363": 0.301,
+"c6486df8ef8b": 0.019,
 "d7c949b4a7a6": 0.101,
-"d8a2d649d2cc": 0.049,
-"f09a56497535": 0.02,
-"f4e5e39e559c": 0.041
+"d8a2d649d2cc": 0.082,
+"d99bd390d204": 0.028,
+"f4e5e39e559c": 0.041,
+"fc5f691b1772": 0.02
 },
 "sent": [
 {
@@ -4331,65 +4363,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"a2e260e94137",
-52,
-355,
+"b590ef302692",
+58,
+313,
 3
 ],
 [
 "04afcad5be5c",
-16,
-257,
+15,
+267,
 1
 ],
 [
 "282099039f35",
 42,
-151,
+161,
 2
 ],
 [
 "09c90228a4b2",
 10,
-149,
+159,
 1
 ],
 [
 "a12ca530ac5d",
 10,
-150,
-1
-],
-[
-"cf3b73dae363",
-21,
-270,
+160,
 1
 ],
 [
 "55b669abc2eb",
-5,
-338,
+4,
+348,
 2
 ],
 [
 "8770799e7d0d",
 16,
-62,
+72,
 1
 ],
 [
 "3d1be279557c",
-24,
-183,
+23,
+193,
 1
 ],
 [
 "d7c949b4a7a6",
-2,
-286,
+1,
+297,
+1
+],
+[
+"494968d159bf",
+30,
+132,
 1
 ]
 ],
-"top_at": 1792850583.3269625
+"top_at": 1792851193.3781257
 }
