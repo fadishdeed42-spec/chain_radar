@@ -186,7 +186,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792861200.0,
 "tgtext": "",
 "title": "a16z Drops \"Crypto\" From Its Name: What the $2.2 Billion Pivot Means for the Market",
@@ -601,7 +601,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792855915.0,
 "tgtext": "HAYES: \"I dumped it all.\" \n\nArthur Hayes just unloaded $26M in crypto, including 8,000 $ETH, and says the market has to go down before it goes up.\n\nWhat are you doing?\n\nNews | Markets | YouTube",
 "title": "HAYES: \"I dumped it all.\"",
@@ -670,7 +670,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -1210,7 +1210,7 @@
 "srcs": [
 "BGR"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792855920.0,
 "tgtext": "",
 "title": "A Botnet Used Poetry To Mine Crypto From Over 3,000 Servers - Here's How",
@@ -1251,7 +1251,7 @@
 "srcs": [
 "Free Press Journal"
 ],
-"t": 1792875876.3412356,
+"t": 1792876181.769813,
 "t0": 1792861776.0,
 "tgtext": "",
 "title": "Mumbai FDA Suspends Licences Of 7 Eateries Over Food Safety Violations; Destroys 564 Litres Of Milk, Seizes",
@@ -1278,7 +1278,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -1304,7 +1304,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -1946,7 +1946,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792855707.0,
 "tgtext": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!\n\nHe now has only ~$5K left in his account.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs",
 "title": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!",
@@ -2300,6 +2300,19 @@
 "https://cointelegraph.com/news/circle-shareholder-lawsuit-donald-trump-world-liberty-financial-steve-witkoff-crypto-corruption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"bb4145366137": {
+"coin": "",
+"src": "TOKENPOST",
+"srcs": [
+"TOKENPOST"
+],
+"t": 1792876181.769813,
+"t0": 1792870812.0,
+"tgtext": "",
+"title": "Machi\u2019s Account Was Down to About $5,000 After Five Liquidations",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03THlHMHZHbXdVTG12VTJ3LW1nNzdtWkxpZEZJbzhkeGptZTJjZUVidzEyX1BkdldwcFVPY2RUQ1hqSTM4Zm9pbUZZRFI5Y3dmNkh4aElPdW13QQ?oc=5",
+"urls": []
+},
 "bc1f7dc5af6c": {
 "coin": "",
 "src": "The Block",
@@ -2369,7 +2382,7 @@
 "TOKENPOST",
 "www.tokenpost.com"
 ],
-"t": 1792875572.4778621,
+"t": 1792876485.665741,
 "t0": 1792869327.0,
 "tgtext": "",
 "title": "Ether Long Liquidations Reach $38.12 Million in One Hour",
@@ -2432,21 +2445,6 @@
 "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
 ]
 },
-"c5b10ecc8932": {
-"coin": "",
-"src": "TradingView",
-"srcs": [
-"Protos | Informed crypto news",
-"TradingView",
-"shattered.io"
-],
-"t": 1792703678.1046896,
-"t0": 1792682195.0,
-"tgtext": "",
-"title": "CoinDCX denies second hack as blockchain investigators allege $16 million theft",
-"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNblBjOG1HMTJyMm1kRUNlMXM2TzlreGxYdDBOb2JuUjBKbmQteTZqNTFnYXVuVmE1SUczZnhac2JBcy1ROVN4a09QTVNQUkdldW05dnNpS1BIM0ppSktKOS14RjVaMDJGT0ZsOFJWSFUwTWlOWGloR1NJT0s2LVdnZGVWa3dQS1VTazZTa1lBcWhMZmpFSjQ2ejNqWlpfUU5ZRkdpenR4UjNWVXI0bl90QmtqREh2cFRaT1VQaTFfX2lCSFpFZXY1VEJlUGlFM1E0elRjTURjaG0?oc=5",
-"urls": []
-},
 "c75ce099ae0c": {
 "coin": "",
 "src": "Decrypt",
@@ -2468,7 +2466,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792856744.0,
 "tgtext": "",
 "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
@@ -2729,7 +2727,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792875876.3412356,
+"t": 1792876485.665741,
 "t0": 1792858337.0,
 "tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
 "title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
@@ -3132,44 +3130,44 @@
 "probs": {
 "0389e4023e98": 0.016,
 "052215b10942": 0.055,
-"06c8ec381956": 0.009,
+"06c8ec381956": 0.016,
 "0be925f7c9d8": 0.132,
 "102156a88d27": 0.023,
+"16181c747453": 0.025,
 "1b90d8290e1d": 0.035,
-"1fb4197932c1": 0.005,
-"26819dca80cf": 0.02,
-"3085259044f0": 0.01,
+"1fb4197932c1": 0.008,
+"3085259044f0": 0.02,
 "380b94a50c1b": 0.242,
-"3ebf1582a24e": 0.033,
+"4877515920d8": 0.023,
 "4f9c8111add8": 0.037,
 "55dd8b4f3c14": 0.004,
 "58b99d5b4f2d": 0.003,
 "59cbfce09588": 0.055,
+"5c7a621efe0c": 0.016,
+"5cf6cc35172c": 0.008,
 "5fc931a6630d": 0.033,
-"6341b58d1cf0": 0.096,
+"61cca061c1ab": 0.027,
 "63fa93cab221": 0.193,
-"68a2b3f8b9aa": 0.01,
 "6d271d581295": 0.009,
-"77061018b04a": 0.01,
 "7e3977c2ea9a": 0.036,
 "8ab8313889c6": 0.008,
 "8d5b2c011a89": 0.019,
 "8f7c4e3f94a3": 0.011,
 "945ceb8824a5": 0.081,
 "94a3fe7d2df8": 0.026,
+"9a53eff44566": 0.611,
 "9a540a5ae19b": 0.007,
 "a0b1a45edc7c": 0.031,
-"ae633f7ae8b4": 0.041,
-"b57118ff6d8d": 0.005,
+"ae633f7ae8b4": 0.022,
 "c0b8bdef44f4": 0.027,
+"c108e1798c25": 0.122,
 "c1453a71517f": 0.003,
 "c7f510206e4d": 0.354,
 "d4ba23e7896e": 0.002,
+"dee8e8b2b203": 0.272,
 "eca83951efe0": 0.024,
 "ef5f4763899e": 0.007,
-"f20e091bc4c3": 0.033,
-"f43114dc040b": 0.006,
-"fab3debe6d72": 0.002
+"f20e091bc4c3": 0.033
 },
 "sent": [
 {
@@ -3973,64 +3971,64 @@
 "top": [
 [
 "9a53eff44566",
-5,
-336,
+3,
+346,
 1
 ],
 [
 "c7f510206e4d",
-24,
-319,
+23,
+329,
 1
 ],
 [
 "dee8e8b2b203",
-8,
-292,
+6,
+302,
 1
 ],
 [
 "2d60fe15414f",
 0,
-333,
+343,
 1
 ],
 [
 "380b94a50c1b",
 10,
-54,
+64,
 1
 ],
 [
 "63fa93cab221",
 16,
-34,
+44,
 1
 ],
 [
 "651367aa7891",
 0,
-328,
+338,
 1
 ],
 [
 "0be925f7c9d8",
-22,
-245,
+21,
+255,
 1
 ],
 [
-"6341b58d1cf0",
-25,
-235,
-1
+"c108e1798c25",
+41,
+119,
+2
 ],
 [
 "61664e9ce0f6",
 0,
-333,
+343,
 1
 ]
 ],
-"top_at": 1792875876.3412356
+"top_at": 1792876485.665741
 }
