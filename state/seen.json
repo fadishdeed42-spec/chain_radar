@@ -89,7 +89,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792845701.436017,
+"t": 1792846922.22277,
 "t0": 1792835181.0,
 "tgtext": "",
 "title": "Arthur Hayes Dumps Entire Trading Book, Sells Over $22M In Tokens As He Says Crypto Needs To \u2018Go Down To Go Up\u2019",
@@ -115,7 +115,7 @@
 "srcs": [
 "StreetInsider"
 ],
-"t": 1792845397.2169676,
+"t": 1792846922.22277,
 "t0": 1792841530.0,
 "tgtext": "",
 "title": "Cryptocurrency News: Reported Drift Hack Transfers Hit $61.56M as Remittix Earn Readies Morpho, Fluid and Maple Finance Pools",
@@ -207,7 +207,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -500,7 +500,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792827272.0,
 "tgtext": "HYPE has dropped 22% from its peak.\n\nThe largest $HYPE short, 0xf02d, currently holds a short on 715,334 $HYPE ($54.57M), with $5.56M in unrealized profit and another $620K earned in funding fees.\n\nhttps://hypurrscan.io/address/0xf02d16a272a842f8bac1d9a9e773aba1933454c6#perps",
 "title": "HYPE has dropped 22% from its peak.",
@@ -592,7 +592,7 @@
 "Coinfomania",
 "bloomingbit"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Swell Network Halts swETH, rswETH Deposits and Withdrawals, Says Assets Are Safe",
@@ -1072,7 +1072,7 @@
 "TOKENPOST",
 "The Cryptonomist"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792827684.0,
 "tgtext": "",
 "title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
@@ -1142,7 +1142,7 @@
 "srcs": [
 "logos-pres.md"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792830295.0,
 "tgtext": "",
 "title": "A shadow bank that laundered \u20ac68 million via cryptocurrencies has been uncovered in Italy",
@@ -1711,7 +1711,7 @@
 "srcs": [
 "Yahoo"
 ],
-"t": 1792846312.0794342,
+"t": 1792846617.9426382,
 "t0": 1792828861.0,
 "tgtext": "",
 "title": "Man jailed over cryptocurrency drug dealing",
@@ -2049,6 +2049,19 @@
 "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQml2Sm9Xelo3UUUwdUY2LVBXeVlURmhFWk12bFBQbzduN1hOWUtzcjQ3UjFKR2g2U0hVTHlzRU40a0R0UzFDaW9aSnQ0V1dUUEFuNkhMQjh3VmdJN2lzeXdUaHB6QjVNZmlOVDA5RTlkRngya3ZRcHV5NS1qZjNHbkhxTkNzT1Zhc0UzS1Rvd1Zpbm9DcTNzeldrbFJHdGV6TGwzNjJWclF6VXdZZTU5S2ZsV05yMlM5WXptZGtvYWlDMk9oakxMcE1sOFFjX1E?oc=5",
 "urls": []
 },
+"8d731bfcdaa4": {
+"coin": "",
+"src": "BBC",
+"srcs": [
+"BBC"
+],
+"t": 1792846922.22277,
+"t0": 1792828856.0,
+"tgtext": "",
+"title": "Scarborough man jailed over cryptocurrency drug dealing",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4b051M1J6dHdvRm5UbEQtaE05WkhuclZJbjRsOWJBb0g4bHhKeUoxMUVvOEtFa0l5Nkp2ZDNVRGhjbFVtOWU3U1BZbkU2YlduMjU5REFvMzVhdTQ?oc=5",
+"urls": []
+},
 "8f4800d6e383": {
 "coin": "",
 "src": "Crypto Briefing",
@@ -2356,7 +2369,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2474,6 +2487,19 @@
 "tgtext": "",
 "title": "Bitcoin Whale Is Liquidated for 121.33 BTC Worth About $9.91 Million",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85MU1fQUlpcDZ2aWxvQUQ1WXZyQjJ0bWp1eXh4cWNKa1lTSlJ6aTFnVHNFR21YYlIzcVVPckhSRTZ2UVU0ZU1HYm52V0htdzBDQUdoUDZENkotZw?oc=5",
+"urls": []
+},
+"ad545f5409ff": {
+"coin": "",
+"src": "finway.com.ua",
+"srcs": [
+"finway.com.ua"
+],
+"t": 1792846617.9426382,
+"t0": 1792828430.0,
+"tgtext": "",
+"title": "Cryptocurrency market faces $466 million loss in one day",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GdDY4Mnc0b2dnNjFJVmc4TlpqNkJhSlNsQ1lYOXZvdFRIQmJ0cmFwY29OaVd3NVpNc3JaQW55MDcyY1Z4M2QyX2hwTzVCR0p3eFlPcmdaUVdLTGs4UDZEV2FUY3BDZTRhbXZtb1dYcw?oc=5",
 "urls": []
 },
 "af2e3f5da2cd": {
@@ -2929,7 +2955,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792846312.0794342,
+"t": 1792846922.22277,
 "t0": 1792834398.0,
 "tgtext": "",
 "title": "Initia halts blockchain after infinite mint attack",
@@ -3397,20 +3423,6 @@
 "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5",
 "urls": []
 },
-"f456d48dd55a": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Hokanews",
-"Pluang"
-],
-"t": 1792673830.6431894,
-"t0": 1792656395.0,
-"tgtext": "",
-"title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTjc5N1h5VkZVSDU5VWd5RTZaVlZucVRKWWVEVjJlaFlGTTR3QjY4UWVhaWhQdjg4ZUJnVkNpLUNQTzZCNFhYX0dJU0t3NnVRYnZvSmJwdkszR0pkZjVRUnlJQXV1Yk9STVpULVVzYmE4VW1ibGozQW4tdWZ1OEU?oc=5",
-"urls": []
-},
 "f4edb0e6b4a2": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3609,17 +3621,15 @@
 },
 "probs": {
 "016377b73016": 0.011,
+"04afcad5be5c": 0.712,
 "050842c812d7": 0.16,
 "09c90228a4b2": 0.452,
 "0d7e8e1690e8": 0.003,
-"1873674762c0": 0.02,
-"1d866fa50fd2": 0.007,
-"21a9fa65e845": 0.044,
+"2574de60f667": 0.008,
 "25bdc815d78b": 0.581,
 "282099039f35": 0.456,
 "3d1be279557c": 0.109,
 "3ed46d2dee02": 0.001,
-"41ff81de43a0": 0.552,
 "43a20acf65f3": 0.09,
 "494968d159bf": 0.095,
 "4e01a5089228": 0.871,
@@ -3630,18 +3640,20 @@
 "63476b9ed579": 0.006,
 "68cdfb18bb6e": 0.003,
 "71c22a93bbc6": 0.024,
-"7955dd7edb49": 0.228,
-"7aa0b4f87913": 0.039,
-"7ec93ede8400": 0.168,
+"7ec93ede8400": 0.087,
+"8770799e7d0d": 0.148,
 "8ac1e39a9de9": 0.001,
 "8caf2878401f": 0.077,
+"8d731bfcdaa4": 0.239,
+"916bd7af32fc": 0.006,
 "a12ca530ac5d": 0.344,
-"a28df7038ee7": 0.003,
+"a28df7038ee7": 0.006,
 "b384f7583f10": 0.035,
 "b429bfa0c22a": 0.154,
 "b9e5a1165e2d": 0.027,
 "c6486df8ef8b": 0.037,
-"cf3b73dae363": 0.189,
+"cf3b73dae363": 0.301,
+"d4c5ade52b07": 0.024,
 "d7c949b4a7a6": 0.061,
 "d8a2d649d2cc": 0.049,
 "e06d328f4fab": 0.057,
@@ -4430,64 +4442,64 @@
 "top": [
 [
 "4e01a5089228",
-68,
-310,
+67,
+321,
 4
+],
+[
+"04afcad5be5c",
+24,
+196,
+1
 ],
 [
 "25bdc815d78b",
 0,
-317,
-1
-],
-[
-"41ff81de43a0",
-0,
-359,
+328,
 1
 ],
 [
 "282099039f35",
 42,
-80,
+90,
 2
 ],
 [
 "09c90228a4b2",
 10,
-78,
+88,
 1
 ],
 [
 "a12ca530ac5d",
 10,
-79,
-1
-],
-[
-"7955dd7edb49",
-0,
-291,
-1
-],
-[
-"55b669abc2eb",
-5,
-267,
+89,
 1
 ],
 [
 "cf3b73dae363",
-30,
-199,
+29,
+209,
 1
 ],
 [
-"7ec93ede8400",
-18,
-32,
+"8d731bfcdaa4",
+0,
+301,
+1
+],
+[
+"55b669abc2eb",
+4,
+277,
+1
+],
+[
+"050842c812d7",
+41,
+90,
 1
 ]
 ],
-"top_at": 1792846312.0794342
+"top_at": 1792846922.22277
 }
