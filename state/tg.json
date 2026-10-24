@@ -454,6 +454,38 @@
 },
 "t": 1792594556.833785
 },
+"96ad24b1f8": {
+"coin": "ethereum",
+"facts": "Headline: BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.\nSources: Cointelegraph\nCoin in this story: Ethereum (ETH) $2,308, -3.9% in 24h\n\nTelegram news posts about it:\n\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Cointelegraph",
+"story": null,
+"t0": 1792858337.0,
+"tag": null,
+"title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
+"url": "https://t.me/cointelegraph/72827"
+},
+"p": {
+"keyfact": "Over one third of all existing Ethereum supply is currently staked in the network.",
+"post": "Ethereum reaches a new milestone as staking hits 36% of total supply. Holders are locking assets rather than selling into the open market. This shift in liquidity reflects a major change in how the network is utilized by long term participants.",
+"quote": "NONE",
+"reply": "This shift in ETH supply dynamics is a significant development for market structure.",
+"short": "",
+"stat": "36% | Staked Supply",
+"symbol": "ETH",
+"tag": "MARKET",
+"thread": "",
+"timeline": "2022 = Merge transition ; 2023 = Shanghai upgrade enables withdrawals ; 2024 = Staking reaches 36% record",
+"title": "Ethereum Staking Hits Record 36% of Total Supply",
+"versus": "Liquid Supply = 64% || Staked Supply = 36%",
+"visual": "STAT"
+},
+"t": 1792858579.589717
+},
 "a992bb40a5": {
 "coin": "bitcoin",
 "facts": "Headline: BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing\nSources: CryptoPotato, CryptoRank\nCoin in this story: Bitcoin (BTC) $82,645, +0.8% in 24h\n\n",
@@ -640,34 +672,6 @@
 "visual": "STAT"
 },
 "t": 1792703342.1897984
-},
-"edeb4a91a1": {
-"coin": "",
-"facts": "Headline: DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks\nSources: CryptoRank\n\n",
-"item": {
-"hack": null,
-"src": "CryptoRank",
-"t0": 1792436363.0,
-"tag": null,
-"title": "DeFi Lending Surges 150% to $10B as SEC and European Regulators Examine Crypto Vault Risks",
-"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX0pNVjdOb3hId0RqSVNtaWVJVDdSVGJYaVdXbHRhQW1qSkNUYno1SjFxcmJWT3RfMGJpRGJocnRkczA0U1FkT2NVQ3hmVDNGd0xzR0RKOEx0ZVlLVkF4dHo2WmNCWTRVYjRvOHBzd1NTb1p0RnJ0SDAxYzFWbC0wcldwNXRPYVBDd3QzOWltVzV1VmNYc3BKTVRBMFN2X21fTDNhSVFJV0lxX0FEeThGaTVOSFNjclZNMlhVUXJ0MUUwLW5Cd0ZF?oc=5"
-},
-"p": {
-"keyfact": "DeFi lending volume has climbed to $10B while regulators in the US and Europe investigate vault risks.",
-"post": "DeFi is back, but the regulators are watching. Lending volume just surged 150% to hit $10B, yet the SEC and European authorities are now circling to examine the risks hidden in crypto vaults. Growth is great, but the heat is rising. #DeFi",
-"quote": "NONE = NONE",
-"reply": "$10B in volume is a massive milestone, but that regulatory spotlight is going to be the real story to watch in the coming months.",
-"short": "",
-"stat": "150% | Lending Growth",
-"symbol": "NONE",
-"tag": "REGULATION",
-"thread": "1/ DeFi is hitting major milestones again. According to CryptoRank, the lending sector has seen a massive 150% surge, pushing total value to $10B.\n2/ But where there is high liquidity, there is high attention. Both the SEC and European regulators have turned their focus toward crypto vault risks.\n3/ These vaults often promise yield through complex automation, a black box that authorities are now looking to crack open.\n4/ A $10B milestone is a sign of market maturity, but it also paints a giant target for policy shifts. Stay sharp.",
-"timeline": "Q1 2024 = Volume baseline ; Q2 2024 = Rapid expansion ; Q3 2024 = $10B reached ; Present = Regulatory scrutiny",
-"title": "DeFi Lending Surges 150% to $10B",
-"versus": "NONE = NONE || NONE = NONE",
-"visual": "STAT"
-},
-"t": 1792443839.901936
 },
 "f192a248d9": {
 "coin": "",
@@ -947,7 +951,7 @@
 },
 "menu_v": 3,
 "mute_until": 0,
-"offset": 138489288,
+"offset": 138489290,
 "otd": {
 "date": "Oct 21",
 "now": 83421,

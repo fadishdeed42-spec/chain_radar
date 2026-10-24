@@ -14,7 +14,8 @@
 1792829541.1810298,
 1792853329.5739021,
 1792856074.9351165,
-1792856380.7067063
+1792856380.7067063,
+1792858486.4152217
 ],
 "menu": {
 "0075a9a50711": {
@@ -191,7 +192,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -590,22 +591,6 @@
 "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMURFWDZpcXE3OWYzMERmU0FNQm9JYmhFTUEtMzRwbC1keWpDTFdIM1ZLb3lmVmhxT3VwZl9YcXU1VTFGcEdFX1p6LU1OXzlKd1hDVlB0UmJzY3pYS05Oci16Z2FWSUtqb1FDeXlpWWt0UEVqNC1ibmlPMU9ZaGRpTkU1a3JNQ09jbEdkbko3Njh1ODFzXzBxakVXcVlhbXNUdm0tcGlCT0l2b1B0UHVCZEFMWFVXbmNwTWRsWXpFRTRjejNyczJPcXVnc0I1OGdj0gHWAUFVX3lxTE1uUnFyZHpjQ3VPWWU0ekdBQjEydVlLaVgyMDJxRURyVTR0dUVTWW5zc3hfd25RMzlHdWZlbnpxbXl6MWc5ZEdUcGFYYXh1R0wyZFlUU1hkRFdyOE9HZ1lLRDZzcEZEQlc5R2p1VkRvRHM4bjFYNmlpV1ZZMUhjTzJpTzEyUWc3NXlHbVJCemFnck81MlVRZkc3cXFjUjliNUtkSmFqUW5nX0MyTGk1RmpCUDRiMVM2U09DLVBwOGlTVGZxVldEc1haakRhNmx5VWV4TjBRblE?oc=5",
 "urls": []
 },
-"2901aa56d95a": {
-"coin": "bitcoin",
-"src": "CryptoRank",
-"srcs": [
-"Coinfomania",
-"CryptoRank",
-"Cryptonews.net",
-"TradingView"
-],
-"t": 1792685997.4314678,
-"t0": 1792677110.0,
-"tgtext": "",
-"title": "Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?",
-"url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTR4U1Rzak5NeGx4YXpsMVo2UkllRTUzUWlyZ0FHdXBKXzkyRXAyQ294VkdpZzBKTVI5Y0x2VTRQUVV1RXFMdGhocEtZalV3cmNGM0FVNjFDNlhRZ2xuM1RmX3haNHgxTHJSNFlqai0zQkUxcy1IcWZ5UDBiQW5KaHZKVmdLdTBiZVZYRG5Jcm8yWGNtSGt6N3NOZ19IbzFnYWhFMnlJT3A0LTA1MzlCMXc0dEhCak90ODRMNHdHRnNYSGN3OU9zV0lmbw?oc=5",
-"urls": []
-},
 "2982f5649663": {
 "coin": "",
 "src": "CoinDesk",
@@ -652,7 +637,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792855915.0,
 "tgtext": "HAYES: \"I dumped it all.\" \n\nArthur Hayes just unloaded $26M in crypto, including 8,000 $ETH, and says the market has to go down before it goes up.\n\nWhat are you doing?\n\nNews | Markets | YouTube",
 "title": "HAYES: \"I dumped it all.\"",
@@ -1107,6 +1092,19 @@
 "url": "https://t.me/cointelegraph/72808",
 "urls": []
 },
+"59cbfce09588": {
+"coin": "",
+"src": "crimefightersng.com",
+"srcs": [
+"crimefightersng.com"
+],
+"t": 1792858808.9821708,
+"t0": 1792843372.0,
+"tgtext": "",
+"title": "NPF-NCCC ARRESTS NINE OVER INTERNATIONAL FRAUD, ELON MUSK IMPERSONATION",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHFjeW84U0pPdVFhREVnc0MzSkpydTNISDJhY1hMaHNSSWxPYm9tRWN1LW5SdTE1LWYxYnBZTktwWDJvOEI0QWdyZ0ZBNzdxNzlWOGJickRycE9ER2EtMHNIOG5kNDd5akNYREk0ZmhTRHJ0alNPOWZYb3UyOW9tMzJtaXJPVS1sLWZOcFd6bVI3R0dERzdWOHJnS1V0d2pJYS13eTBB?oc=5",
+"urls": []
+},
 "5a3922e1b75c": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -1321,7 +1319,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -1344,23 +1342,6 @@
 "https://www.theblock.co/news/regulation/2026-10-22-blockchain-association-pushes-crypto-tax-clarity-broader-bill-stalls-423475",
 "https://bitcoinmagazine.com/news/blockchain-association-presses-congress"
 ]
-},
-"655a49991313": {
-"coin": "tether",
-"src": "Cryptonews.net",
-"srcs": [
-"Coinpedia",
-"Cryptonews.net",
-"Protos | Informed crypto news",
-"TradingView",
-"shattered.io"
-],
-"t": 1792685690.9141805,
-"t0": 1792664355.0,
-"tgtext": "",
-"title": "India\u2019s top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wdmpDNXMyUVJianZ5dTJZU280RWF0aGVTRVBZS2hKQVFPRGRqSnNtUUwxS3BrQ0lBNDJYMHlKZzI1QnBFZGt2ay1DVEFhWDZwUTdTWURuN2tyZw?oc=5",
-"urls": []
 },
 "65a1a6fbb98d": {
 "coin": "",
@@ -1981,7 +1962,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2083,7 +2064,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792855707.0,
 "tgtext": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!\n\nHe now has only ~$5K left in his account.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs",
 "title": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!",
@@ -2206,7 +2187,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2682,7 +2663,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792856744.0,
 "tgtext": "",
 "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
@@ -2749,7 +2730,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792858180.8715727,
+"t": 1792858808.9821708,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -2975,6 +2956,19 @@
 "tgtext": "",
 "title": "Thousands of Popular Websites Weaponised to Drain Crypto Wallets from Apple iPhones Without Users Clicking a Single Link",
 "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSlkzVFp1WEY2b011QUJveXRBTWdTSEtHbmdVODViS1U3bEtJeWFBamhuUFlKaUVJa3dNRTdDeTlzNHNmTHA5b1pUWkZneElGUjhSYzlQM29oQk4xVTJpMTJrX2l6X2Q3V1dJaHN2dTczNGJTblJER3VoVk5OcnF1cXhReHAzVlh6TEtzeTBjQ2pkZ2FISFRkdkIxM2ViLUw4c1JFZUFCZUdqWXRFcjU1LTdiVVVGdVNfOEFOckozWGtrZ0xQTkpnTlJXT3FXNUVxTEwxMmV1OGxEZ1c5bTJnVnZmaGdKRGcxSFRWX3FHdw?oc=5",
+"urls": []
+},
+"dee8e8b2b203": {
+"coin": "ethereum",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792858808.9821708,
+"t0": 1792858337.0,
+"tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
+"title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
+"url": "https://t.me/cointelegraph/72827",
 "urls": []
 },
 "df09b96eae57": {
@@ -3446,17 +3440,17 @@
 "probs": {
 "04abfdf4156f": 0.027,
 "050842c812d7": 0.073,
-"0e6f433e3aab": 0.083,
+"0633ea8e9288": 0.032,
+"0e6f433e3aab": 0.045,
 "115553548bd2": 0.002,
 "1bfcbe616092": 0.039,
-"1fb4197932c1": 0.021,
+"1fb4197932c1": 0.013,
 "2213ed7cfc9f": 0.04,
 "2574de60f667": 0.003,
-"282099039f35": 0.099,
+"282099039f35": 0.08,
 "2d60fe15414f": 0.546,
-"33a2cc56fef4": 0.01,
 "494968d159bf": 0.078,
-"59efc2a997ef": 0.036,
+"59cbfce09588": 0.104,
 "5c7a621efe0c": 0.027,
 "75ca59dd3546": 0.001,
 "78fa6d6cd245": 0.002,
@@ -3467,23 +3461,23 @@
 "94a3fe7d2df8": 0.029,
 "9a53eff44566": 0.857,
 "9c4d02e91890": 0.007,
+"a1683a1df4da": 0.049,
 "a169518d6138": 0.003,
 "ae633f7ae8b4": 0.064,
 "b384f7583f10": 0.016,
+"b415b8d6bdda": 0.009,
 "ba794927b5ef": 0.004,
 "c07557901e04": 0.036,
 "c120991d5d72": 0.01,
 "c1a718f618b9": 0.005,
 "c7f510206e4d": 0.463,
-"d99bd390d204": 0.012,
+"dee8e8b2b203": 0.588,
 "e027071059b5": 0.001,
 "e06d328f4fab": 0.024,
 "e8a1842b908a": 0.046,
 "eca83951efe0": 0.035,
-"efe145a43363": 0.009,
 "f4e5e39e559c": 0.018,
-"f5e6ecabd2be": 0.004,
-"fab3debe6d72": 0.001
+"f5e6ecabd2be": 0.004
 },
 "sent": [
 {
@@ -4256,6 +4250,30 @@
 "dumped",
 "hayes"
 ]
+},
+{
+"e": [
+"big"
+],
+"k": [
+"record"
+],
+"t": 1792858486.4152217,
+"u": [
+"https://t.me/cointelegraph/72827"
+],
+"w": [
+"all",
+"big",
+"eth",
+"hitting",
+"now",
+"record",
+"roughly",
+"staked",
+"supply",
+"third"
+]
 }
 ],
 "stories": {},
@@ -4264,63 +4282,63 @@
 [
 "9a53eff44566",
 25,
-41,
+52,
+1
+],
+[
+"dee8e8b2b203",
+22,
+8,
 1
 ],
 [
 "2d60fe15414f",
 20,
-38,
+48,
 1
 ],
 [
 "c7f510206e4d",
 42,
-24,
+34,
 1
 ],
 [
 "cc1fac92c291",
 10,
-84,
+95,
 1
 ],
 [
 "09c90228a4b2",
 0,
-276,
+286,
 1
 ],
 [
 "651367aa7891",
 10,
-33,
+43,
 1
 ],
 [
 "a12ca530ac5d",
 0,
-277,
+287,
 1
 ],
 [
 "92edcc2941d3",
 20,
-91,
+101,
 1
 ],
 [
-"282099039f35",
-39,
-278,
-3
-],
-[
-"0e6f433e3aab",
-20,
-297,
+"59cbfce09588",
+26,
+257,
 1
 ]
 ],
-"top_at": 1792858180.8715727
+"top_at": 1792858808.9821708
 }
