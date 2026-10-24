@@ -363,6 +363,33 @@ CH_NAMES = {'WatcherGuru': 'Watcher.Guru', 'wublockchainenglish': 'Wu Blockchain
             'crypto_headlines': 'Crypto Headlines'}
 
 
+JUNK_RX = re.compile(r'highlight clip|^clip:|\bclip\b.*:|podcast|interview|livestream|\bama\b|giveaway|webinar|newsletter|'
+                     r'price prediction|could reach|weekly recap|market wrap|sponsored|press release', re.I)
+CRYPTO_RX = re.compile(r'crypto|bitcoin|btc|ethereum|\beth\b|solana|stablecoin|token|coin|blockchain|defi|exchange|binance|coinbase|'
+                       r'etf|sec\b|cftc|wallet|hack|exploit|nft|web3|mining|miner|tether|usdc|xrp|memecoin|altcoin|on-chain|onchain|dex\b|'
+                       r'saylor|strategy|blackrock|kraken|okx|bybit|bitfinex|kucoin|htx|huobi|gemini|robinhood|ftx|mt\.? gox|bitget|'
+                       r'withdrawal|staking|airdrop|halving|satoshi|sats\b|ordinals|layer.?2|validator|ledger|metamask|\$[a-z]{2,6}\b', re.I)
+CRYPTO_OUTLETS = {'CoinDesk', 'Cointelegraph', 'Decrypt', 'The Block', 'Bitcoin Magazine', 'CryptoSlate', 'Blockworks', 'Wu Blockchain',
+                  'Lookonchain', 'Binance', 'The Defiant', 'DL News', 'CryptoNews', 'Crypto Briefing', 'BeInCrypto', 'U.Today', 'CoinGape'}
+
+
+def junk_story(title, items, coin):
+    """Not worth an alert: clips/promos, non-crypto news, tiny memecoins, or small single-wallet trades."""
+    t = ' '.join(i['title'] for i in items[:4])
+    if JUNK_RX.search(title):
+        return True
+    if not coin and not CRYPTO_RX.search(t) and not ({i.get('src') for i in items} & CRYPTO_OUTLETS):
+        return True                                                      # e.g. tankers, oil, general politics
+    if re.search(r'market cap|mcap|\bpump\.?fun\b', t, re.I) and re.search(r'\$\d+(\.\d+)?\s?k\b', t, re.I):
+        return True                                                      # memecoins worth a few $K
+    m = re.findall(r'\$(\d+(?:\.\d+)?)\s?([kmb])\b', t.lower())
+    if re.search(r'\b(sold|bought|dumping|deposited|withdrew|moved|transferred|swapped)\b', t, re.I) and m and len({i['src'] for i in items}) < 2:
+        biggest = max(float(v) * {'k': 1e3, 'm': 1e6, 'b': 1e9}[u] for v, u in m)
+        if biggest < 20e6:
+            return True                                                  # single-wallet trades under $20M from one channel
+    return False
+
+
 def quiet(now=None):
     """1:00-9:00 Beirut (22:00-06:00 UTC): only huge news gets through."""
     h = datetime.fromtimestamp(now or time.time(), timezone.utc).hour
@@ -500,17 +527,21 @@ def main():
         tg(cap, img, fb_buttons(mk))
         count()
 
-    # 3) breaking news: only strong stories never sent before (any outlet)
+    # 3) breaking news: only strong, real crypto stories never sent before (any outlet)
     for (sc, lead, coin, srcs, age), g in scored:
         pr = probs.get(key_of(g))
-        strong = (sc >= ALERT and (pr is None or pr >= 0.5)) or (pr is not None and pr >= 0.8)
+        if junk_story(lead['title'], g['items'], coin):
+            continue
+        tgv = max([brain.view_ratio(i['url'], NOW, early=True) for i in g['items'] if i.get('tg')] or [0])
+        spreading = (len(srcs) >= 4 and age < 1.5) or (len(srcs) >= 3 and age < 1.0) or (tgv >= 2.5 and len(srcs) >= 2 and age < 1.5)
+        strong = (sc >= ALERT and (pr is None or pr >= 0.25)) or (pr is not None and pr >= 0.75) or (spreading and sc >= 50)
         if not strong:
             continue
         urls = [i['url'] for i in g['items']]
         if is_dup(st, lead['title'], urls):
             continue
         mark_sent(st, lead['title'], urls)
-        viral = (pr is not None and pr >= 0.85) or (pr is None and (sc >= VIRAL or (len(srcs) >= 4 and age < 1.5)))
+        viral = spreading or sc >= VIRAL or (pr is not None and pr >= 0.85)          # early warning: it's spreading before the big pages post
         huge = (pr is not None and pr >= 0.9) or sc >= 92
         if not can_send(huge):
             continue
@@ -1318,8 +1349,8 @@ def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
 
 
 # ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
-MENU = [['📰 Top stories', '📊 Movers'], ['💬 Reply to a post', '🏴‍☠️ Hacks'], ['📖 Story', '🧠 Brain']]
-MENU_V = 2
+MENU = [['📋 Today\'s kit', '📰 Top stories'], ['📊 Movers', '💬 Reply to a post'], ['🏴‍☠️ Hacks', '📖 Story']]
+MENU_V = 3
 
 
 def send_menu(text='👇 Your menu is ready at the bottom of the chat.'):
@@ -1340,7 +1371,9 @@ def brief(tgs, label):
         it = st.get('menu', {}).get(k)
         if not it or k in b['briefed']:
             continue
-        if (k in pr and pr[k] < 0.35) or (k not in pr and sc < 45):          # only stories worth posting
+        if (k in pr and pr[k] < 0.35 and sc < 60) or (k not in pr and sc < 45):  # only stories worth posting
+            continue
+        if junk_story(it['title'], [{'title': it['title'], 'src': it.get('src', '')}], it.get('coin')):
             continue
         rows.append((pr.get(k, sc / 100 * 0.9), k, sc, ns, it))
     rows.sort(key=lambda r: -r[0])
@@ -1354,6 +1387,56 @@ def brief(tgs, label):
         msg += f'\n<b>{n}.</b> {E(it["title"])}\n    <i>{chance} · {"✅ confirmed" if ns >= 2 else "⚠️ unconfirmed"} · {ns} src</i>'
     brain.save()
     tg(msg, None, [(f'📝 {n}', 'p:' + r[1]) for n, r in enumerate(rows, 1)])
+
+
+def daily_kit(tgs):
+    """15:00 Beirut: your posting plan for the day, everything one tap away.
+    1 news post · 1 chart post · 1 opinion post · who to reply to tonight."""
+    git_sync()
+    st = load_state(); b = brain.load(); pr = st.get('probs', {})
+    rows = []
+    for k, sc, age, ns in st.get('top') or []:
+        it = st.get('menu', {}).get(k)
+        if it and not junk_story(it['title'], [{'title': it['title'], 'src': it.get('src', '')}], it.get('coin')):
+            rows.append((pr.get(k, sc / 100), k, sc, ns, it))
+    rows.sort(key=lambda r: -r[0])
+    news = rows[0] if rows else None
+    r = get('https://api.coingecko.com/api/v3/coins/markets', params={'vs_currency': 'usd', 'order': 'market_cap_desc', 'per_page': 100,
+                                                                       'page': 1, 'price_change_percentage': '24h'})
+    try:
+        mv = max([c for c in r.json() if not NOT_CRYPTO.search(c['name']) and not re.search(r'usd|eur|dai|gold|wrapped|staked|bridged', c['name'], re.I)],
+                 key=lambda c: abs(c.get('price_change_percentage_24h_in_currency') or 0))
+    except Exception:
+        mv = None
+    theme = news[4]['title'] if news else 'the crypto market today'
+    q = clean_voice(gemini_voice(VOICE + '\n' + OWNER_VIEW + '\nWrite ONE short X post (max 200 characters) that shares a clear opinion about '
+                                 'this topic and invites people to reply with theirs. A real take, not engagement bait. Post text only.\n\nTopic: ' + theme) or '')
+    m = '📋 <b>Your posting kit for today</b>\n'
+    btn = []
+    if news:
+        m += f'\n<b>1. 📰 News post</b>\n{E(news[4]["title"])}\n<i>{"✅ confirmed" if news[3] >= 2 else "⚠️ unconfirmed"} · {news[3]} sources</i>\n'
+        btn.append(('📰 Make news post', 'p:' + news[1])); b['briefed'][news[1]] = time.time()
+    if mv:
+        ch = mv.get('price_change_percentage_24h_in_currency') or 0
+        m += f'\n<b>2. 📊 Chart post</b>\n{E(mv["name"])} ({mv["symbol"].upper()}) {ch:+.1f}% in 24h, biggest move in the top 100\n'
+        btn.append((f'📊 {mv["symbol"].upper()} chart', 'm:' + mv['id']))
+    if q:
+        tgs['kit_q'] = theme
+        m += f'\n<b>3. 💬 Your take</b> (tap to copy, edit it to your words)\n<code>{E(q)}</code>\n'
+        btn.append(('🔄 Another take', 'kq:'))
+    if news:
+        m += '\n<b>🎯 Reply tonight under:</b> ' + ' · '.join(f'@{a}' for a in who_posts(news[4]['title'])[:4]) + '\n'
+    m += '\n<i>Then 10–15 replies between 20:00 and 23:00. That\'s the whole day.</i>'
+    brain.save()
+    tg(m, None, btn)
+
+
+def kit_take(tgs):
+    theme = tgs.get('kit_q') or 'the crypto market today'
+    chat_action('typing')
+    q = clean_voice(gemini_voice(VOICE + '\n' + OWNER_VIEW + '\nWrite ONE short X post (max 200 characters) with a different, clear opinion '
+                                 'about this topic that invites replies. Post text only.\n\nTopic: ' + theme) or '')
+    tg(f'💬 <b>Your take</b>\n<code>{E(q)}</code>' if q else '⚠️ The AI writer is busy, tap again in a minute.')
 
 
 def on_feedback(k, val, tgs):
@@ -1456,9 +1539,10 @@ def scheduler(tgs):
     import threading
     now = datetime.now(timezone.utc); day = now.strftime('%Y-%m-%d')
     jobs = []
-    for hh, label in ((12, '☀️ <b>Afternoon briefing</b>'), (17, '🌆 <b>Evening briefing</b>')):
-        if now.hour == hh and now.minute < 40 and tgs.get(f'brief{hh}') != day:
-            tgs[f'brief{hh}'] = day; jobs.append(lambda l=label: brief(tgs, l))
+    if now.hour == 12 and now.minute < 40 and tgs.get('kit') != day:              # 15:00 Beirut: daily posting kit
+        tgs['kit'] = day; jobs.append(lambda: daily_kit(tgs))
+    if now.hour == 17 and now.minute < 40 and tgs.get('brief17') != day:          # 20:00 Beirut: evening news briefing
+        tgs['brief17'] = day; jobs.append(lambda: brief(tgs, '🌆 <b>Evening briefing</b>'))
     if now.hour == 0 and now.minute >= 30 and tgs.get('trained') != day:
         tgs['trained'] = day; jobs.append(lambda: (brain.label_due(time.time()), brain.train(), brain.save()))
     if now.hour == 9 and now.minute < 40 and tgs.get('otd_day') != day:                  # 12:00 Beirut: on this day in crypto
@@ -1774,7 +1858,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
 COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
             ('reply', 'Replies for an X post: /reply <link>'), ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
-            ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
+            ('kit', 'Today\'s posting kit'), ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
 def gnews(q, n=8, recent=True):
@@ -1890,6 +1974,8 @@ def handle(u, tgs):
                     r['stance'] = parts[2]; ack('⏳ Writing your reply…'); reply_from_text(r['text'], r['author'], r.get('post'), tgs, parts[1], parts[2])
             else:
                 on_stance(parts[1], parts[2], tgs, mid)
+        elif data == 'kq:':
+            kit_take(tgs)
         elif data.startswith('rr:'):
             more_replies(data[3:], tgs)
         elif data.startswith('x:'):
@@ -1920,7 +2006,7 @@ def handle(u, tgs):
     parts = t.split(); c = parts[0].lower().split('@')[0]; args = parts[1:]
     fwd = msg.get('forward_origin') or {}
     fwd_src = (fwd.get('chat') or {}).get('title') or (fwd.get('sender_user') or {}).get('first_name') or fwd.get('sender_user_name')
-    MAP = {'📰 Top stories': '/top', '📊 Movers': '/movers', '🏴‍☠️ Hacks': '/hacks', '📖 Story': '/story', '🧠 Brain': '/brain'}
+    MAP = {'📋 Today\'s kit': '/kit', '🧠 Brain': '/brain', '📰 Top stories': '/top', '📊 Movers': '/movers', '🏴‍☠️ Hacks': '/hacks', '📖 Story': '/story', '🧠 Brain': '/brain'}
     if t in MAP:
         c, args = MAP[t], []
     if t == '💬 Reply to a post':
@@ -1929,6 +2015,8 @@ def handle(u, tgs):
         tg(HELP); send_menu()
     elif c == '/brain':
         brain_status()
+    elif c == '/kit':
+        ack('⏳ Building today\'s kit…'); daily_kit(tgs); unack()
     elif c in ('/top', 'top', 'news'):
         if not send_cached_top():
             live_top(tgs)
@@ -1997,12 +2085,12 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
             print('scan fail', repr(e))
     if tgs.get('menu_v') != MENU_V:
         tgs['menu_v'] = MENU_V; save_tg(tgs)
-        send_menu('🆕 <b>Chain Radar upgraded</b>\n\n'
-                  '• Menu buttons are now at the bottom of the chat 👇\n'
-                  '• Briefings at 15:00 and 20:00 (Beirut) with your 3 best stories\n'
-                  '• Quiet 1:00–9:00: only huge news wakes you\n'
-                  '• Tap 👍/👎 on alerts and ✅ Posted after posting — the brain learns from it\n'
-                  '• Send me your own X post links and I\'ll track how they do'.replace('<b>', '').replace('</b>', ''))
+        send_menu('🆕 Chain Radar updated\n\n'
+                  '• 🔥 Early alerts are back: stories spreading fast, before the big pages post\n'
+                  '• Junk filtered out (clips, tiny memecoins, non-crypto news)\n'
+                  '• 📋 Daily kit at 15:00: your news post, chart post and opinion post, ready\n'
+                  '• 20:00 evening briefing stays\n'
+                  '• Menu updated below 👇 (send /brain anytime to see what the bot has learned)')
     while time.time() < end - 5:
         global NOW
         NOW = time.time()
