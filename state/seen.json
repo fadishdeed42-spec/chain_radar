@@ -186,7 +186,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792861200.0,
 "tgtext": "",
 "title": "a16z Drops \"Crypto\" From Its Name: What the $2.2 Billion Pivot Means for the Market",
@@ -340,7 +340,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792864827.0,
 "tgtext": "",
 "title": "Arthur Hayes exits crypto trading positions as analysts track $26 million in sales",
@@ -650,6 +650,21 @@
 "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUFBCNGQyUWxTWWxvUzBjQjd3SDNqNFduM1dBNVJNdDNqbE9PcFJBbERnQVJMM3RDN1FLMHlhLUs5b3J4d181R2t6QzFYTy1JT1VweGh6Nl9zOUdrellRSlA0MGxIUXFQTFVFdUNOaFltOGtPNUpDbWttMUM2WEFrRHRJX01EbS1LclZ0ZjhCTnNwaDRSNktGRV9WOERSVHNwa0l3eVVLSjFXbmc3a2NZOFdxTm81V2RBaTUwMkxuN3Z1R0tpaDNCejhiSWF0NmpCZDJFNkd3MVhoM04wUnRPTkoydlNUbFZFWW5N?oc=5",
 "urls": []
 },
+"369b3f1149ba": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block"
+],
+"t": 1792879818.1097548,
+"t0": 1792859053.0,
+"tgtext": "",
+"title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no \u2018criminally relevant deception\u2019",
+"url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606"
+]
+},
 "36f3f9b1cd9f": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -669,7 +684,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -1043,7 +1058,7 @@
 "srcs": [
 "Crime Fighters"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792861546.0,
 "tgtext": "",
 "title": "NPF-NCCC ARRESTS NINE OVER INTERNATIONAL FRAUD, ELON MUSK IMPERSONATION",
@@ -1208,12 +1223,12 @@
 "src": "The Block",
 "srcs": [
 "Altcoin Buzz",
-"Cryptonews.net",
 "FXDailyReport.Com",
 "Pluang",
-"The Block"
+"The Block",
+"The Crypto Times"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792860402.0,
 "tgtext": "",
 "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
@@ -1283,7 +1298,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -2401,6 +2416,21 @@
 "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"beb6500a9943": {
+"coin": "bitcoin",
+"src": "www.tokenpost.com",
+"srcs": [
+"Bitcoin Foundation",
+"TOKENPOST",
+"www.tokenpost.com"
+],
+"t": 1792879818.1097548,
+"t0": 1792863802.0,
+"tgtext": "",
+"title": "Bitcoin Rebounds Above $80,000 After $8.05M in Hyperliquid Long Liquidations",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GSG1vdDRMMExrc1F6STVoYVVlOG5BNXVQZmFHUFlrV2xZc0haSzBrRFlqWC1uQXBUQnYwd2FSbExWa2szOTAtenhmR2plSG9Uc1ZVdVV3ci1hZw?oc=5",
+"urls": []
+},
 "c0bb98f5a669": {
 "coin": "ethereum",
 "src": "Lookonchain",
@@ -2420,7 +2450,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792877637.0,
 "tgtext": "\u26a1 BIG: Fidelity's Zack Wainwright says $BTC took nearly 16 years to hit $100K, but the jump to $200K could happen much faster.\n\nHe says Bitcoin's up nearly 50% from its June low near $58K.\n\nNews | Markets | YouTube",
 "title": "BIG: Fidelity's Zack Wainwright says BTC took nearly 16 years to hit $100K, but the jump to $200K could happen much faster.",
@@ -2781,7 +2811,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792879208.1517391,
+"t": 1792879513.9215238,
 "t0": 1792869497.0,
 "tgtext": "",
 "title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
@@ -2807,7 +2837,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792879208.1517391,
+"t": 1792879818.1097548,
 "t0": 1792858337.0,
 "tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
 "title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
@@ -2860,7 +2890,7 @@
 "srcs": [
 "The Times of Israel"
 ],
-"t": 1792879208.1517391,
+"t": 1792879513.9215238,
 "t0": 1792860004.0,
 "tgtext": "",
 "title": "Rebuking Netanyahu, Bank of Israel says crypto can\u2019t be \u2018route for bypassing sanctions\u2019",
@@ -3197,26 +3227,26 @@
 "probs": {
 "0389e4023e98": 0.016,
 "052215b10942": 0.042,
+"06c8ec381956": 0.016,
 "0be925f7c9d8": 0.073,
 "102156a88d27": 0.039,
+"16181c747453": 0.025,
 "1b90d8290e1d": 0.059,
-"380b94a50c1b": 0.242,
+"3085259044f0": 0.01,
+"380b94a50c1b": 0.063,
 "3caaaaca6d2a": 0.04,
+"4877515920d8": 0.012,
 "4f9c8111add8": 0.019,
 "55dd8b4f3c14": 0.004,
-"58b99d5b4f2d": 0.021,
 "59cbfce09588": 0.055,
-"5fc931a6630d": 0.033,
-"61cca061c1ab": 0.027,
-"625bcaf0e431": 0.153,
-"6341b58d1cf0": 0.053,
+"625bcaf0e431": 0.143,
 "63fa93cab221": 0.193,
 "68a2b3f8b9aa": 0.01,
 "6d271d581295": 0.015,
-"77061018b04a": 0.01,
+"77344060eca7": 0.026,
 "793d7d87a214": 0.011,
 "7e3977c2ea9a": 0.019,
-"8bbb60b0a6a9": 0.037,
+"7f44c82c4166": 0.001,
 "8d5b2c011a89": 0.019,
 "8e9f6167c1c7": 0.006,
 "8f7c4e3f94a3": 0.018,
@@ -3225,13 +3255,13 @@
 "beb6500a9943": 0.046,
 "c0b8bdef44f4": 0.027,
 "c0cfaf62044a": 0.098,
-"c0e7aa26b81c": 0.005,
+"c0e7aa26b81c": 0.002,
 "c1453a71517f": 0.001,
 "c9abf2248f9b": 0.015,
-"d995da648ec1": 0.091,
+"d4ba23e7896e": 0.003,
 "df1229393aad": 0.017,
 "eca83951efe0": 0.024,
-"ef5f4763899e": 0.007,
+"ef5f4763899e": 0.011,
 "f20e091bc4c3": 0.018,
 "f43114dc040b": 0.006,
 "f8323e6d41d2": 0.002
@@ -4039,63 +4069,63 @@
 [
 "dee8e8b2b203",
 0,
-348,
-1
-],
-[
-"380b94a50c1b",
-10,
-109,
+358,
 1
 ],
 [
 "63fa93cab221",
 16,
-90,
+100,
 1
 ],
 [
 "625bcaf0e431",
-57,
-313,
-6
+50,
+324,
+5
 ],
 [
 "c0cfaf62044a",
 10,
-26,
-1
-],
-[
-"d995da648ec1",
-41,
-162,
-2
-],
-[
-"e2c2dd83ec5b",
-0,
-320,
+36,
 1
 ],
 [
 "0be925f7c9d8",
-14,
-300,
+13,
+310,
+1
+],
+[
+"380b94a50c1b",
+10,
+120,
 1
 ],
 [
 "1b90d8290e1d",
-9,
-240,
+7,
+250,
 1
 ],
 [
 "59cbfce09588",
-21,
-294,
+20,
+305,
 1
+],
+[
+"369b3f1149ba",
+0,
+346,
+1
+],
+[
+"beb6500a9943",
+40,
+267,
+3
 ]
 ],
-"top_at": 1792879208.1517391
+"top_at": 1792879818.1097548
 }
