@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1792734247.5731454,
 1792737765.1936474,
 1792739907.516252,
 1792751537.5628924,
@@ -13,7 +12,8 @@
 1792782284.9829712,
 1792789329.9006922,
 1792813651.2840354,
-1792819751.8484128
+1792819751.8484128,
+1792822810.2512836
 ],
 "menu": {
 "0075a9a50711": {
@@ -201,19 +201,6 @@
 "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"099e7ab99138": {
-"coin": "",
-"src": "openPR.com",
-"srcs": [
-"openPR.com"
-],
-"t": 1792649721.5063286,
-"t0": 1792628204.0,
-"tgtext": "",
-"title": "Crypto Overview: A $1.18B Hack Quarter Shows What Audits Miss, While Pepeto's Presale Tops $11.2M",
-"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOalduMHNmajFuRXlyZUhMUWlRdm9hazVfcFAxV0NtcXpGc0w2TmMwZDkzYXlvOXo3RzE1aXdlNzVyUEFKVXdHUFlMcTF1cTR2TUQ0LTFWaUo4bWdNamszMzhrTmVaa3V2M1RqcXE1bkRhNE9fcEZvUDV6TWp1X2ZpRVlpczEzSXJLZ0EtN1prQll1QVpjTG9ZaXZKNA?oc=5",
-"urls": []
-},
 "0a774dbbd943": {
 "coin": "",
 "src": "Startup Fortune",
@@ -393,7 +380,7 @@
 "Cointelegraph",
 "bloomingbit"
 ],
-"t": 1792822198.5081198,
+"t": 1792823115.2282066,
 "t0": 1792812164.0,
 "tgtext": "\ud83d\udea8 INSANE: The Total Crypto Market Cap has lost over $200B in less than a month.\n\nNews | Markets | YouTube",
 "title": "Crypto Winter Hopes Fade as More Than $200 Billion Wiped Off Market Cap in Less Than a Month",
@@ -681,6 +668,19 @@
 "tgtext": "",
 "title": "Trust Wallet Dismisses Speculation Regarding Potential Security Impact From PHP Exploit",
 "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1BqcnBndFdLRDRvclNyWGpBZjNzTnFhY0k0eXd6aXZGYTBVZk91ZHZ1aGFfRUp3UnBBYkQ0N2FvVzRNQUNpU094aFY4UXROWl8tVHJGc1dfb1RQVmk4Ql9yTHpvNDdyRTZFWVlnNDc4NUNYU3NzdTdIbmE5aFQtZFRUdFc2QVA3VWtYbmdkSktCZ3hsLU5jOUJtMl9FTTE4bXpKMFhldW03RDh0VTJKMmxnalNzQQ?oc=5",
+"urls": []
+},
+"2c9c4883ac9d": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1792823115.2282066,
+"t0": 1792822503.0,
+"tgtext": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!\n\nIncluding:\n6,400 $ETH ($15.2M),\n14M $ENA ($2.76M),\n323,000 $UNI ($2.24M),\n1.89M $ETHFI ($1.23M),\n546,609 $AERO ($398K),\n120,000 $PENDLE ($244K),\n3M $ZAMA ($214K).\n\nhttps://arkm.com/explorer/entity/arthur-hayes\nhttps://arkm.com/explorer/address/0xaE0316843710672EBC7452635010f96C8D08214D",
+"title": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!",
+"url": "https://t.me/lookonchainchannel/10757",
 "urls": []
 },
 "30e69aeb0ae1": {
@@ -1065,19 +1065,6 @@
 "url": "https://t.me/cointelegraph/72802",
 "urls": []
 },
-"48e46f611ca6": {
-"coin": "solana",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1792650027.414355,
-"t0": 1792632524.0,
-"tgtext": "",
-"title": "Allbridge Core Suffers 2nd Flash Loan Exploit, Loses $1.65M on Solana",
-"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPejBuNmJTbFg5ZlVsaV85ci1kY1dQOVVma2J4QUNZT3dGRkxvcjVBZy02dDMyNUttN0ctbDQzazEtUDdMbzhSWUk0OEROTzNsWWpMcnc4ZjlBVUVnZWNZcHB0UkgxUFdvZ3lkZFg1SFRabGpBME5LdTVuR0dSLUZ4NklGbGkzQkVGTkVWaFNLN0EzNVk?oc=5",
-"urls": []
-},
 "4aa0b9cd350c": {
 "coin": "bitcoin",
 "src": "Bitcoin Magazine",
@@ -1155,7 +1142,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792805171.0,
 "tgtext": "HTX Adds Russia to List of Restricted Jurisdictions, Following Bitget and MEXC\n\nAccording to Russian business media outlet RBC, cryptocurrency exchange HTX has included Russia in its list of restricted jurisdictions under its user agreement. The restrictions apply to individuals residing in or located in Russia, as well as companies registered or primarily operating there. Under the agreement, HTX may restrict access to its services, suspend withdrawals, or close affected accounts.\n\nEarlier in October, Bitget and MEXC also announced plans to discontinue services for Russian users. RBC did not specify when HTX's restrictions took effect. \u2014 link",
 "title": "HTX Adds Russia to List of Restricted Jurisdictions, Following Bitget and MEXC",
@@ -1224,7 +1211,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792819442.0,
 "tgtext": "Highlight Clip: Arthur Hayes: High-FDV Shitcoins Can't Even Pump on Binance Anymore\n\nArthur Hayes: High-FDV Shitcoins Can't Even Pump on Binance Anymore\n\nFlop Labs CEO Arthur Hayes said in an October 16 interview with LukeMartin that the entire crypto industry has abused tokenomics. From ICOs to VC private sales and presales, some projects raise funds supposedly to build products, only to dump tokens after launching protocols and unlocking allocations. Retail investors buying at TGE suffer heavy losses, sometimes watching token prices plunge 95%. Hayes argued that retail investors increasingly see through the high-FDV, low-float model, saying such tokens \"can't even pump on Binance anymore.\" He favors projects like Hyperliquid, which have genuine product-market fit, return revenue to token holders, and avoid massive sell pressure from presold token unlocks. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: High-FDV Shitcoins Can't Even Pump on Binance Anymore",
@@ -1793,6 +1780,19 @@
 "title": "Initia hacked for $2.6 million",
 "url": ""
 },
+"7dda1fbe8f68": {
+"coin": "",
+"src": "shattered.io",
+"srcs": [
+"shattered.io"
+],
+"t": 1792823115.2282066,
+"t0": 1792819806.0,
+"tgtext": "",
+"title": "Bitget Hack: $388M Stolen From Hot Wallets [2026]",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83cG1rTGEzX1BJLUM1QVhDN1ZLbW5PZDJ6cWNoRldCdFNOaVl0Z2R0TnQ4X291R3d2X2xGd2tuaDhsRTN6YlQwNFB1VGc0YXpoOTlqNng2VWVhOG52X3NaY1A0UG9NVDhNTXdXclZhQkE0TDhpeU1F?oc=5",
+"urls": []
+},
 "7fddf41140c7": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2107,7 +2107,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792801629.0,
 "tgtext": "Argentine Judge Drops LIBRA Criminal Probe Against President Milei and Hayden Davis\n\nAccording to Reuters, Argentine federal judge Marcelo Mart\u00ednez de Giorgi has dropped the criminal investigation into President Javier Milei, his sister Karina Milei, and U.S. businessman Hayden Davis over the LIBRA meme coin scandal, finding insufficient evidence of fraud.\n\nThe judge ruled that while Milei\u2019s endorsement on X may have amplified the token\u2019s launch, it did not in itself constitute a fraudulent scheme. Milei promoted LIBRA in February 2025 before deleting his post as the token\u2019s price collapsed. Blockchain researchers previously reported that eight wallets linked to the token\u2019s creator withdrew approximately $99 million in cryptocurrency from the token\u2019s trading market.\n\nArgentine President Javier Milei responded to the LIBRA ruling on X, asking who would compensate him for \"one year, eight months and nine days\" of alleged lies, slander and insults damaging his reputation. He accused opposition groups and parts of the media of exploiting the case for political purposes, calling it an operation aimed at undermining the presidency with \"coup-related objectives.\" He also named several journalists and demanded accountability for their coverage. \u2014 link",
 "title": "Argentine Judge Drops LIBRA Criminal Probe Against President Milei and Hayden Davis",
@@ -2421,7 +2421,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792813339.0,
 "tgtext": "After over a year of inactivity, an institution moved 156,690 $AAVE ($22.86M) and 19.74M $WLD ($10.04M) to sell.\n\nSo far, it has deposited 62,000 $AAVE ($9.12M) and 19M $WLD ($9.67M) into exchanges.\n\nhttps://arkm.com/explorer/entity/0e9dc52d-ae98-4c6f-8407-91e56713936a",
 "title": "After over a year of inactivity, an institution moved 156,690 AAVE ($22.86M) and 19.74M WLD ($10.04M) to sell.",
@@ -2760,7 +2760,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792809552.0,
 "tgtext": "Many Ethereum OGs are selling $ETH!\n\nAnother Ethereum OG who bought 100,000 $ETH at $0.31 each during the ICO sold 1,000 $ETH 6 hours ago.\n\nhttps://arkm.com/explorer/address/0x11A05633E78AAbF81cBc84d58E0F8D07fd25c992\nhttps://etherscan.io/address/0xf648ea89c27525710172944e79edff847803b775\nhttps://x.com/lookonchain/status/2113465196811538822",
 "title": "Many Ethereum OGs are selling ETH!",
@@ -3182,7 +3182,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792810831.0,
 "tgtext": "Kraken: Asking How Funds Will Be Used After Leaving the Platform Is Unacceptable; XMR Will Remain Listed\n\nKraken co-CEO Arjun Sethi said the platform was wrong to send emails to clients who bought and withdrew Monero (XMR) using their own money, asking for information about their employer, source of funds, and intended use of the coins. He said no rule required these inquiries, and someone had flagged a client simply for being young and having substantial funds. The requests have been withdrawn, and affected clients have been told they do not need to provide anything. Sethi said asking where funds came from is reasonable, but asking how they will be used after leaving the platform is unacceptable. Kraken has removed such questions and will keep XMR listed. \u2014 link",
 "title": "Kraken: Asking How Funds Will Be Used After Leaving the Platform Is Unacceptable; XMR Will Remain Listed",
@@ -3513,7 +3513,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792822503.543027,
+"t": 1792823115.2282066,
 "t0": 1792816957.0,
 "tgtext": "Salem(@Salem1299534) sold all 20.06M $AI for 460.9 $ETH ($1.1M) in a single transaction 5 hours ago.\n\nHe made a total profit of ~$2.9M on $AI.\n\nhttps://debank.com/profile/0xb8f305f27ccc406373de0082cc06cb1d065504ea/history?token=0x2e8c31162b855a2ffa90f6f8634643ad6f111e18_AI_hood",
 "title": "Salem(@Salem1299534) sold all 20.06M AI for 460.9 ETH ($1.1M) in a single transaction 5 hours ago.",
@@ -3610,7 +3610,11 @@
 "quack-ai": 1792566857.8473494
 },
 "probs": {
+"19b8beec94b4": 0.524,
 "265b5f653347": 0.003,
+"2a3dec4f4417": 0.054,
+"2b3fb9a69fa9": 0.045,
+"2c9c4883ac9d": 0.98,
 "35b809110878": 0.086,
 "4569f69b202f": 0.004,
 "4f5fb843133f": 0.005,
@@ -3621,20 +3625,19 @@
 "5fb3024622bd": 0.036,
 "68a42d19b62e": 0.082,
 "6bc2529db11b": 0.045,
-"72d76fc83e47": 0.052,
+"7dda1fbe8f68": 0.165,
 "807e7411e5a0": 0.039,
 "923ee6c31936": 0.666,
 "9e3e248f1ed0": 0.058,
 "a6af9e65576c": 0.432,
-"ae4500201ed7": 0.021,
 "b170f248e984": 0.005,
 "c0bb98f5a669": 0.22,
-"ced1aff439f8": 0.259,
 "cf6aa1a3a38e": 0.003,
 "db044c2dfb11": 0.01,
 "e467e7e5d020": 0.271,
 "ede63a35dcb5": 0.099,
 "eff7af1eaf3c": 0.036,
+"f5fbaf9f9864": 0.004,
 "fa280b1f4ee3": 0.218
 },
 "sent": [
@@ -4308,71 +4311,95 @@
 "pump",
 "shitcoins"
 ]
+},
+{
+"e": [
+"arthur",
+"cryptohayes",
+"hayes"
+],
+"k": [
+"crash"
+],
+"t": 1792822810.2512836,
+"u": [
+"https://t.me/lookonchainchannel/10757"
+],
+"w": [
+"$22",
+"28m",
+"arthur",
+"cryptohayes",
+"dumping",
+"hayes",
+"tokens",
+"worth"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"2c9c4883ac9d",
+26,
+10,
+1
+],
+[
 "5a3922e1b75c",
 18,
-51,
+61,
 1
 ],
 [
 "923ee6c31936",
 0,
-348,
+358,
 1
+],
+[
+"19b8beec94b4",
+35,
+183,
+2
 ],
 [
 "51ba17f713bd",
 0,
-289,
+299,
 1
 ],
 [
 "a6af9e65576c",
 16,
-153,
+163,
 1
 ],
 [
 "e467e7e5d020",
-9,
-195,
-1
-],
-[
-"ced1aff439f8",
-25,
-148,
+7,
+205,
 1
 ],
 [
 "c0bb98f5a669",
-6,
-216,
+4,
+226,
 1
 ],
 [
 "fa280b1f4ee3",
 16,
-92,
+103,
 1
 ],
 [
-"ede63a35dcb5",
-25,
-24,
-1
-],
-[
-"35b809110878",
-28,
-75,
+"7dda1fbe8f68",
+41,
+55,
 1
 ]
 ],
-"top_at": 1792822503.543027
+"top_at": 1792823115.2282066
 }
