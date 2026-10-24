@@ -175,6 +175,19 @@
 "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"09c90228a4b2": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1792842036.5650795,
+"t0": 1792841625.0,
+"tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
+"title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
+"url": "https://t.me/wublockchainenglish/26539",
+"urls": []
+},
 "0bc4fa27bed9": {
 "coin": "",
 "src": "WIBC 93.1 FM",
@@ -461,7 +474,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792827272.0,
 "tgtext": "HYPE has dropped 22% from its peak.\n\nThe largest $HYPE short, 0xf02d, currently holds a short on 715,334 $HYPE ($54.57M), with $5.56M in unrealized profit and another $620K earned in funding fees.\n\nhttps://hypurrscan.io/address/0xf02d16a272a842f8bac1d9a9e773aba1933454c6#perps",
 "title": "HYPE has dropped 22% from its peak.",
@@ -610,7 +623,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792822503.0,
 "tgtext": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!\n\nIncluding:\n6,400 $ETH ($15.2M),\n14M $ENA ($2.76M),\n323,000 $UNI ($2.24M),\n1.89M $ETHFI ($1.23M),\n546,609 $AERO ($398K),\n120,000 $PENDLE ($244K),\n3M $ZAMA ($214K).\n\nhttps://arkm.com/explorer/entity/arthur-hayes\nhttps://arkm.com/explorer/address/0xaE0316843710672EBC7452635010f96C8D08214D\nArthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!  Including: 6,400 $ETH ($15.2M), 14M $ENA ($2.76M), 323,000 $UNI ($2.24M), 1.89M $ETHFI ($1.23M), 546,609 $AERO ($398K), 120,000 $PENDLE ($244K), 3M $ZAMA ($214K).  https://arkm.com/explorer/entity/arthur\u2026",
 "title": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens! Including: 6,400 ETH ($15.2M), 14M ENA ($2.76M), 323,000 UNI ($2.24M), 1.89M ETHFI ($1.23M), 546,609 AERO ($398K), 120,000 PENDLE ($244K), 3M ZAMA ($214K). ",
@@ -850,7 +863,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792824795.0,
 "tgtext": "Arthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI\n\nArthur Hayes said Maelstrom has closed all positions in its directional trading book, taking profits on ETH, ENA, UNI and other altcoins. He believes the market may need to fall before rising, citing uncertainty surrounding macroeconomic and geopolitical conditions. He plans to remain on the sidelines and wait for an all-clear signal.\n\nAccording to @EmberCN, Arthur Hayes reduced his holdings in various tokens totaling approximately $26.08 million, including 8,000 ETH (approx. $19 million), 14 million ENA (approx. $2.76 million), and 323,000 UNI (approx. $2.24 million). \u2014 link",
 "title": "Arthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI",
@@ -863,7 +876,7 @@
 "srcs": [
 "Incrypted"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792822666.0,
 "tgtext": "",
 "title": "Crypto Market Lost over $466 Million in 24 Hours: Long Holders Were Hit the Hardest",
@@ -1361,7 +1374,7 @@
 "CryptoTicker",
 "Pluang"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792821961.0,
 "tgtext": "",
 "title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
@@ -1610,7 +1623,7 @@
 "srcs": [
 "Yahoo"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792828861.0,
 "tgtext": "",
 "title": "Man jailed over cryptocurrency drug dealing",
@@ -1646,16 +1659,17 @@
 "url": ""
 },
 "7dda1fbe8f68": {
-"coin": "",
-"src": "shattered.io",
+"coin": "morpho",
+"src": "StreetInsider",
 "srcs": [
+"StreetInsider",
 "shattered.io"
 ],
-"t": 1792840205.7822113,
+"t": 1792841732.2261279,
 "t0": 1792820250.0,
 "tgtext": "",
-"title": "Bitget\u2019s $388M Hack Hit Hot Wallets, Not Cold [2026]",
-"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83cG1rTGEzX1BJLUM1QVhDN1ZLbW5PZDJ6cWNoRldCdFNOaVl0Z2R0TnQ4X291R3d2X2xGd2tuaDhsRTN6YlQwNFB1VGc0YXpoOTlqNng2VWVhOG52X3NaY1A0UG9NVDhNTXdXclZhQkE0TDhpeU1F?oc=5",
+"title": "Cryptocurrency News: Reported Drift Hack Transfers Hit $61.56M as Remittix Earn Readies Morpho, Fluid and Maple Finance Pools",
+"url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNREx4cDRPSzUzWTduMmZoOVlodE9DVE1fOTE3a1AteHBIS3Myc1lsV2o2c0hBbjlFS1lKNVA2NG9Xa0ZxYkcxRXJhcERwMDQyUmpSQ0FaUldoMGhNWlNCWXJkSEU1dW9EeEh0dzBOYVdRZjFWS0RtZ0lNWHF0ZkNnLTQ1NzV4S2ZCaEg0YkQ0bnIxM1lFeXNQQzdKLUk2eW9jbDZmMHRsY2RaaFRnTFZyT0pNYUNDMThsNW5kbGUwQno4dTJQMkNQWmlJVHY1TTYyRFNMT2RoNTg3SXJYbkZxQjNPR1dHOU1JZDFQNTlqZXQ4ck1wRTFEQ3RiVkoxMWg0UTRIZWFtU0tleGkwODkyTEVNSndrX09WcC1r?oc=5",
 "urls": []
 },
 "7fddf41140c7": {
@@ -1785,24 +1799,6 @@
 "title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
 "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5",
 "urls": []
-},
-"845a2688ac7b": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Cointelegraph",
-"Cryptonews.net",
-"Global Banking & Finance Review",
-"Wu Blockchain"
-],
-"t": 1792669230.8975513,
-"t0": 1792647903.0,
-"tgtext": "CZ Warns Users to Be Extra Cautious Online in Coming Days Amid PHP Exploits\n\nBinance founder Changpeng Zhao (CZ) warned users to exercise caution when visiting websites over the coming days, citing two critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) affecting servers running popular applications such as WordPress and Magento. The flaws, patched on October 21 after details leaked ahead of disclosure, could allow unauthenticated attackers to execute malicious code on vulnerable servers, potentially exposing visitors to credential theft. Exploitation attempts have already been detected, while some website operators may not yet have applied security updates. \u2014 link",
-"title": "CZ Warns Users to Be Extra Cautious Online in Coming Days Amid PHP Exploits",
-"url": "https://t.me/wublockchainenglish/26510",
-"urls": [
-"https://cointelegraph.com/news/cloudflare-millions-exploit-attempts-php-vulnerability-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "84c713b3b621": {
 "coin": "",
@@ -2251,6 +2247,19 @@
 "tgtext": "QCP: AI Infrastructure Credit Stress Spills Into Equities and Crypto Markets\n\nQCP Capital said in its October 23 report that rising financing risks in AI infrastructure are spilling into equities and crypto markets, with Bitcoin tracking U.S. stocks lower. Yields on some CoreWeave bonds have climbed to around 15%, while its shares fell roughly 10% on October 22, reflecting concerns over heavy capital spending, debt servicing and future financing costs.\n\nMeanwhile, French 10-year government bond yields exceeded 5.1%, with spreads over German Bunds widening to about 170 basis points. Middle East tensions pushed oil prices to five-month highs. QCP noted that Bitcoin continues to behave like a traditional risk asset, while expectations for an October Fed rate hike have fallen near zero and confidence in a December rate cut has weakened. \u2014 link",
 "title": "QCP: AI Infrastructure Credit Stress Spills Into Equities and Crypto Markets",
 "url": "https://t.me/wublockchainenglish/26526",
+"urls": []
+},
+"a12ca530ac5d": {
+"coin": "dogecoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1792842036.5650795,
+"t0": 1792841578.0,
+"tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
+"title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
+"url": "https://t.me/wublockchainenglish/26538",
 "urls": []
 },
 "a40ad58b57b0": {
@@ -2728,7 +2737,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792823588.0,
 "tgtext": "",
 "title": "Initia blockchain exploited for $2.6M via unlim...",
@@ -3177,7 +3186,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1792841426.4666104,
+"t": 1792842036.5650795,
 "t0": 1792822588.0,
 "tgtext": "",
 "title": "Crypto Contract Liquidations Reach About $315 Million in 24 Hours",
@@ -3468,10 +3477,9 @@
 "coin": "",
 "src": "BBC",
 "srcs": [
-"BBC",
-"Yahoo"
+"BBC"
 ],
-"t": 1792830765.0731452,
+"t": 1792841732.2261279,
 "t0": 1792828856.0,
 "tgtext": "",
 "title": "Scarborough man jailed over cryptocurrency drug dealing",
@@ -3499,6 +3507,8 @@
 "memecore": 1792659751.888809
 },
 "probs": {
+"050842c812d7": 0.135,
+"09c90228a4b2": 0.608,
 "11fe9295ef11": 0.003,
 "198be2bc374d": 0.021,
 "25bdc815d78b": 0.533,
@@ -3520,17 +3530,15 @@
 "72d76fc83e47": 0.123,
 "78770d04ced1": 0.037,
 "7955dd7edb49": 0.196,
-"7dda1fbe8f68": 0.099,
+"802779749be4": 0.02,
 "81bafb4bafa7": 0.068,
 "8ac1e39a9de9": 0.002,
 "8caf2878401f": 0.064,
-"8f4800d6e383": 0.277,
 "96eb6664d6c1": 0.068,
+"a12ca530ac5d": 0.497,
 "a28df7038ee7": 0.005,
 "b384f7583f10": 0.055,
 "b429bfa0c22a": 0.13,
-"c4fd6c344783": 0.009,
-"c6486df8ef8b": 0.026,
 "c87d738b3e90": 0.202,
 "d4c5ade52b07": 0.016,
 "d7c949b4a7a6": 0.051,
@@ -4323,64 +4331,64 @@
 "top": [
 [
 "65a1a6fbb98d",
-66,
-324,
-7
+65,
+335,
+8
+],
+[
+"09c90228a4b2",
+10,
+7,
+1
 ],
 [
 "25bdc815d78b",
-3,
-236,
+2,
+246,
 1
 ],
 [
 "41ff81de43a0",
 0,
-277,
+287,
+1
+],
+[
+"a12ca530ac5d",
+10,
+8,
 1
 ],
 [
 "2c9c4883ac9d",
-8,
-315,
+7,
+326,
 1
 ],
 [
 "427ec60b9b55",
 0,
-313,
-1
-],
-[
-"8f4800d6e383",
-5,
-354,
+323,
 1
 ],
 [
 "c87d738b3e90",
-26,
-297,
+25,
+307,
 1
 ],
 [
 "eacfb4640c66",
-14,
-314,
+12,
+324,
 1
 ],
 [
 "7955dd7edb49",
-7,
-209,
-1
-],
-[
-"b429bfa0c22a",
-43,
-117,
+5,
+220,
 1
 ]
 ],
-"top_at": 1792841426.4666104
+"top_at": 1792842036.5650795
 }
