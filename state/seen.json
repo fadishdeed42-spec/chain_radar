@@ -64,13 +64,27 @@
 "url": "https://t.me/cointelegraph/72813",
 "urls": []
 },
+"04abfdf4156f": {
+"coin": "",
+"src": "CryptoPotato",
+"srcs": [
+"CryptoPotato",
+"Hokanews"
+],
+"t": 1792855160.1908643,
+"t0": 1792852440.0,
+"tgtext": "",
+"title": "Bitcoin Price Suddenly Dumps Below $80K as Liquidations Surge to $670M",
+"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObndoMWx2U2V5OWdzWGZNNmFmcUdfWUtiRU1XUS1NaDZSeVIwWUhiZDBqeGIwanpFU09kVVZUUC1jckZmeG1vOWFTU19nODA4YlZjbm5sU2VBNmJ3aFluY3BfdWtWYzFTdXlWZldqV3JCNWVZWmFBNUxyNVJtSlZ6aFpOSF9nb3NBVnU5SzBhTy1HZmxGWXFMdjNn?oc=5",
+"urls": []
+},
 "04afcad5be5c": {
 "coin": "",
 "src": "TradingView",
 "srcs": [
 "TradingView"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792835181.0,
 "tgtext": "",
 "title": "Arthur Hayes Dumps Entire Trading Book, Sells Over $22M In Tokens As He Says Crypto Needs To \u2018Go Down To Go Up\u2019",
@@ -175,7 +189,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -214,7 +228,7 @@
 "srcs": [
 "The Cryptonomist"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792840362.0,
 "tgtext": "",
 "title": "Initia Exploit AUSD Stablecoin: Key Details and Impact",
@@ -347,6 +361,19 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.",
 "url": "https://t.me/WatcherGuru/15614",
+"urls": []
+},
+"1bfcbe616092": {
+"coin": "",
+"src": "Cryptonews.net",
+"srcs": [
+"Cryptonews.net"
+],
+"t": 1792855160.1908643,
+"t0": 1792851007.0,
+"tgtext": "",
+"title": "GRAM crypto crashes 11% as long liquidations hit $5.8M \u2013 What\u2019s next?",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OdGFuYVR4T3A2OVAwU2drTm4tNjU5ZDRhMDQzUkswMUw5REdRbF9BbFo2NHlvNVpWR3F1MG9OREFTYnJPd2tXX2VPV2dBNlR6R2FBUEptZEJCX1k?oc=5",
 "urls": []
 },
 "1c4f8e82fdf1": {
@@ -538,7 +565,7 @@
 "Koin B\u00fclteni",
 "bloomingbit"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Ethereum Protocol Halts Deposits and Withdrawals Amid 2,500 ETH Security Concerns",
@@ -644,19 +671,6 @@
 "tgtext": "",
 "title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
 "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5",
-"urls": []
-},
-"3195a3c0c9dc": {
-"coin": "",
-"src": "The Crypto Times",
-"srcs": [
-"The Crypto Times"
-],
-"t": 1792682635.388153,
-"t0": 1792677551.0,
-"tgtext": "",
-"title": "WAX Multi-Chain Bridge Exploited for Roughly $75,000 as Attacker Withdraws Tokens",
-"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUjYxUWpFdXpiSkQzcEE2YlAzeGY3SlhGYXJTZGkzYjhaaXBjbFJ5S2NTcjZXcFNUX0ZvTzlwV3ZreXVOZjFhM2JRN1ZfbUNGenkzcF9vd1h5T3UtS2dvN3g3QXBVcWJWajRhWkRZVnoyei1laWd5Q2J2S2RwVC1HQ291RVdmYmtRRFd0NUlWSmNVa1U?oc=5",
 "urls": []
 },
 "33eeceda2d7f": {
@@ -914,7 +928,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792843247.0,
 "tgtext": "",
 "title": "Wall Street\u2019s $359 billion-a-day repo market has found a use for blockchain",
@@ -1991,7 +2005,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2203,7 +2217,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2276,23 +2290,6 @@
 "tgtext": "Binance Will Support the ASML Holding N.V. (ASML) and Nokia Corporation (NOK) Cash Dividend Distribution via bStocks\n\n\nBinance will support the ASML Holding N.V. (ASML) and Nokia Corporation (NOK) cash dividend distribution via bStocks for ASMLB and NOKB holders. Net amount of the cash dividend will be reinvested after applicable withholding taxes, fees, costs, and other deductions, into additional units or fractions of the same underlying security. Eligible users will receive dividends in the form of ASMLB and NOKB bStocks respectively.\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support the ASML Holding N.V. (ASML) and Nokia Corporation (NOK) Cash Dividend Distribution via bStocks",
 "url": "https://t.me/binance_announcements/9081",
-"urls": []
-},
-"a99df2769f28": {
-"coin": "tether",
-"src": "Crypto Briefing",
-"srcs": [
-"Crypto Briefing",
-"Crypto Economy",
-"Crypto News",
-"Cryptonews.net",
-"ForkLog"
-],
-"t": 1792682635.388153,
-"t0": 1792661278.0,
-"tgtext": "",
-"title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
-"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
 "urls": []
 },
 "ab6d73078082": {
@@ -2764,7 +2761,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -2816,7 +2813,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792834398.0,
 "tgtext": "",
 "title": "Initia halts blockchain after infinite mint attack",
@@ -3022,6 +3019,19 @@
 "url": "https://t.me/cointelegraph/72820",
 "urls": []
 },
+"e06d328f4fab": {
+"coin": "",
+"src": "Brave New Coin",
+"srcs": [
+"Brave New Coin"
+],
+"t": 1792855160.1908643,
+"t0": 1792840198.0,
+"tgtext": "",
+"title": "Ethereum (ETH) Price Prediction: Whale Rotates $155M Into ETH as Longs Surge Near $2,500",
+"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeU1SVUE0Sm1RWmFOVUVFUnhMU19vY0hfQkoydnlwOWRaWUVORzVRSkZSZUtMUUhyUmJ1a1U5TGVlYTN2bGtBdk5zRGl0eFNjZnlKUFdYY1M0d3RGRGZXcXJEeUY0QjNxUmp5MG0yV1lfVE9RMklwcjMyYXpTSm5qTVVXUW9OZERiQktrdFBlQW1CWjN6ajV0ZFc2QkJ3UjZ4cHp0SnBMVXdzRW84OGlHNDM5T1BndTA?oc=5",
+"urls": []
+},
 "e0f16fa140f6": {
 "coin": "",
 "src": "CryptoTicker",
@@ -3118,7 +3128,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792854854.3263097,
+"t": 1792855464.495452,
 "t0": 1792833882.0,
 "tgtext": "",
 "title": "Man arrested in Shek Kip Mei Park over suspected poisoning of cat food",
@@ -3464,36 +3474,36 @@
 },
 "probs": {
 "016377b73016": 0.005,
-"04abfdf4156f": 0.01,
-"04afcad5be5c": 0.491,
+"04abfdf4156f": 0.027,
 "0e6f433e3aab": 0.083,
+"152a0ad55054": 0.001,
 "1bfcbe616092": 0.039,
 "263b82c8572e": 0.026,
 "282099039f35": 0.175,
 "288563e97540": 0.001,
 "2dcafba0b7ac": 0.015,
-"33a2cc56fef4": 0.01,
+"33a2cc56fef4": 0.019,
 "3d1be279557c": 0.027,
 "436bd7c3142d": 0.003,
 "494968d159bf": 0.078,
 "514e3857f323": 0.028,
+"5c7a621efe0c": 0.027,
 "75ca59dd3546": 0.001,
-"7ec93ede8400": 0.009,
+"7ec93ede8400": 0.04,
+"7f0faf9cd817": 0.001,
 "802779749be4": 0.009,
 "8770799e7d0d": 0.07,
 "92edcc2941d3": 0.227,
+"945ceb8824a5": 0.039,
 "9c4d02e91890": 0.009,
 "a169518d6138": 0.003,
 "a396dfe44760": 0.002,
 "a73471bc0d51": 0.002,
-"aad553ba2bca": 0.003,
 "b384f7583f10": 0.03,
 "b429bfa0c22a": 0.07,
 "c07557901e04": 0.036,
 "c120991d5d72": 0.018,
-"c4e0a881cfe6": 0.001,
-"c5a4b045c8f1": 0.041,
-"cc1fac92c291": 0.642,
+"cc1fac92c291": 0.458,
 "cf3b73dae363": 0.089,
 "d99bd390d204": 0.012,
 "e06d328f4fab": 0.046,
@@ -4243,65 +4253,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"cc1fac92c291",
-10,
-29,
+"04afcad5be5c",
+5,
+338,
 1
 ],
 [
-"04afcad5be5c",
-7,
-328,
+"cc1fac92c291",
+10,
+39,
 1
 ],
 [
 "09c90228a4b2",
-5,
-220,
+4,
+231,
 1
 ],
 [
 "a12ca530ac5d",
-5,
-221,
+4,
+231,
 1
 ],
 [
 "92edcc2941d3",
 20,
-35,
+46,
 1
 ],
 [
 "282099039f35",
-47,
-222,
+45,
+233,
 3
 ],
 [
 "cf3b73dae363",
-11,
-341,
+10,
+351,
 1
 ],
 [
 "0e6f433e3aab",
-27,
-242,
+26,
+252,
 1
 ],
 [
 "494968d159bf",
-29,
-193,
+27,
+204,
 1
 ],
 [
 "e8a1842b908a",
-6,
-350,
+5,
+360,
 1
 ]
 ],
-"top_at": 1792854854.3263097
+"top_at": 1792855464.495452
 }
