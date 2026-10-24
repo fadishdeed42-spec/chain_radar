@@ -112,7 +112,7 @@
 "The Crypto Times",
 "The Cryptonomist"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792865253.0,
 "tgtext": "",
 "title": "X100's Ethereum exploit drains $4.85M USDT and 550,000 X tokens after governance takeover",
@@ -201,7 +201,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792882258.1235268,
+"t": 1792882563.7737877,
 "t0": 1792861200.0,
 "tgtext": "",
 "title": "a16z Drops \"Crypto\" From Its Name: What the $2.2 Billion Pivot Means for the Market",
@@ -272,7 +272,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792866255.0,
 "tgtext": "",
 "title": "Avalanche (AVAX): In-Kind From $235,800",
@@ -387,7 +387,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792864827.0,
 "tgtext": "",
 "title": "Arthur Hayes exits crypto trading positions as analysts track $26 million in sales",
@@ -550,6 +550,19 @@
 "tgtext": "",
 "title": "Bitcoin Whale Is Liquidated for 121.33 BTC Worth About $9.91 Million",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85MU1fQUlpcDZ2aWxvQUQ1WXZyQjJ0bWp1eXh4cWNKa1lTSlJ6aTFnVHNFR21YYlIzcVVPckhSRTZ2UVU0ZU1HYm52V0htdzBDQUdoUDZENkotZw?oc=5",
+"urls": []
+},
+"26819dca80cf": {
+"coin": "",
+"src": "Free Press Journal",
+"srcs": [
+"Free Press Journal"
+],
+"t": 1792882563.7737877,
+"t0": 1792865732.0,
+"tgtext": "",
+"title": "Houthi Missile Interceptions Leave Shrapnel In Mecca, Medina Regions",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZWxZSmFPSGhKZG9RaDMtamdlVjE5b1BpM3FXbDJtTEFHY3dOc1UzNEZTZXlXUEMxMURRcWNiUXN1UGpzMVZXaXE5QW9CV0pzaS0zbzkxOUVvN2ZNSlR2eDgxLWZaS0RobDd2UWg0OFlObTNEWmhVMENVQ1VXYTBNWV9rVVA2R0ZFd0g5NlNkTkl4T2lodVhUNGNwbHZoT1d1c0x2dVp2RU7SAa4BQVVfeXFMUDZfSS1JRXJNV08tbWNMeFE3Z2NYc09xU3JJUEFHNzVSVzdYbmw0cTQ5dVZITmg5cC1FSjY0VDhwS012a094TkVxam15N00wTzhQS0RyaWkxb2FwYkF1TTE4Y2RMWjRxOC1VdHJMWno3NDNOTGowdWJFVFVETFdDVnhWU3VoNTBWTF9UME1qR29tNjhFeWJpNFhaNjNqckQyenFiYzNXdGxMNFFpbGR3?oc=5",
 "urls": []
 },
 "268d548286f1": {
@@ -732,24 +745,11 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
 "url": "https://t.me/wublockchainenglish/26541",
-"urls": []
-},
-"3937aaaef85c": {
-"coin": "tether",
-"src": "Crowdfund Insider",
-"srcs": [
-"Crowdfund Insider"
-],
-"t": 1792709804.3562737,
-"t0": 1792697135.0,
-"tgtext": "",
-"title": "Colombian Crypto Broker \u201cRey\u201d Sentenced to Prison for Laundering $14.5M in Drug Proceeds via USDT",
-"url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNWNqeDBPbTZLeXoyZ1U0bWYtZGN3VEpUSmliVzFBbnkzR0RhTEc4UUxFWVZGMzhRc3dOWlZGbWNNYkIybFg0bmEyU2NjNUpnaGtlSTQ2VmJkUG1lbEJDcTR4eTg3OUJ5cnlUT2duNUQyZklIZFgzbjV1MVhPZHlQMmhEQ1YzMUp4X0hvVFFKOW9WckdKcC1MZE9xSHktNkZ3bklscDExQURiamRCUGVOYkdvcmdZdjZvaVpBZjRpV1MwSUxpUnNKZ203Nm40M3J1ODBtUmlUeHZIZVE?oc=5",
 "urls": []
 },
 "3985a0ff2d4b": {
@@ -1030,6 +1030,19 @@
 "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczdhREVSVTl4dE8zRDNCWEJRSkotUkFjM0lrQnlGRGxuZVl3RWpFNjhneVRSNFRJRUhsbnp5RW1Ea25rcGZKLW5iaE1UczRtVnE5WkZsNkQ3cTRJZjJJc3dyWVZPMnNlOXFSTTR2UHU3UkF1ekZWWlRrR0s1X2x2bVQwdjJDaGFyeVhRVlpUT2RQOGNUNHVMVF9GbVZESjl3b0E0?oc=5",
 "urls": []
 },
+"4f9c8111add8": {
+"coin": "",
+"src": "Morocco News",
+"srcs": [
+"Morocco News"
+],
+"t": 1792882868.6485407,
+"t0": 1792865475.0,
+"tgtext": "",
+"title": "Morocco joins UAE operation identifying $39 billion in fraud-linked assets - HESPRESS English",
+"url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlpMV2M1ckU3dmdXQkt3WWRIMmNyNDZHV1RiZHFQck14ZDJEV2VZR29qWFFEV3RqWDFzcVdKdmhxZ1phR2JMVUI3VmlVcGxad09USmx6UmxfTElKLVhQbWJuWDRaMlktMzY2RFUxbTJEeXhXSWhjbzIzTnBhUDIyWGliVjFoMFdOWmtKSlNkYkpmLXNkOV9iVXdUcDdqZWFJaHVKWVpFOEpfSjNUWmc?oc=5",
+"urls": []
+},
 "51ba17f713bd": {
 "coin": "htx-dao",
 "src": "Wu Blockchain",
@@ -1042,6 +1055,23 @@
 "title": "HTX Adds Russia to List of Restricted Jurisdictions, Following Bitget and MEXC",
 "url": "https://t.me/wublockchainenglish/26533",
 "urls": []
+},
+"5446654c785e": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"Cryptonews.net",
+"Pluang",
+"The Block"
+],
+"t": 1792882868.6485407,
+"t0": 1792863840.0,
+"tgtext": "",
+"title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
+"url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSDJ6WDZ1dnhtREhzQVU1ckVrSGttZE15eHZ6eTJ2czJ1eVFWM3JRekFRUWYyRUM3RGdMQ1YzS0VveDQ0RkRZaXVnUlNPU1FyUVZsWERhZDdxUnNRM1ZCdGRyYmNyYVlZb1ByUGRZaHd1OGxYQUZOaHBDSmZLRDlVanJ3ZlhVUFdKdVNZMEhUZGV3N2xyUUpWYklfcVRmT29SZHloak1YeDVZM3dWSXhFZHFDWmU1a0p2amlxcDFXTDlRLWE4NmEyVXd3MWRMVHdh?oc=5",
+"urls": [
+"https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608"
+]
 },
 "54f48fb5d3e1": {
 "coin": "",
@@ -1105,7 +1135,7 @@
 "srcs": [
 "Crime Fighters"
 ],
-"t": 1792879818.1097548,
+"t": 1792882868.6485407,
 "t0": 1792861546.0,
 "tgtext": "",
 "title": "NPF-NCCC ARRESTS NINE OVER INTERNATIONAL FRAUD, ELON MUSK IMPERSONATION",
@@ -1318,7 +1348,7 @@
 "srcs": [
 "Free Press Journal"
 ],
-"t": 1792878293.8301415,
+"t": 1792882563.7737877,
 "t0": 1792861776.0,
 "tgtext": "",
 "title": "Mumbai FDA Suspends Licences Of 7 Eateries Over Food Safety Violations; Destroys 564 Litres Of Milk, Seizes",
@@ -1345,7 +1375,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -2857,7 +2887,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792869497.0,
 "tgtext": "",
 "title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
@@ -3229,7 +3259,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792882258.1235268,
+"t": 1792882868.6485407,
 "t0": 1792881112.0,
 "tgtext": "\ud83d\udd25 BIG: Morgan Stanley is backing a $400M credit line for TeraWulf, up 60% from $250M.\n\nThe miner turned AI data center play keeps getting Wall Street money.\n\nNews | Markets | YouTube",
 "title": "BIG: Morgan Stanley is backing a $400M credit line for TeraWulf, up 60% from $250M.",
@@ -3271,37 +3301,37 @@
 "probs": {
 "0389e4023e98": 0.016,
 "052215b10942": 0.031,
-"0be925f7c9d8": 0.12,
-"0c09ebea3034": 0.076,
-"16181c747453": 0.025,
+"152a0ad55054": 0.002,
 "1b90d8290e1d": 0.059,
 "380b94a50c1b": 0.063,
 "3caaaaca6d2a": 0.021,
 "4877515920d8": 0.012,
-"4f9c8111add8": 0.019,
+"4f9c8111add8": 0.035,
+"5446654c785e": 0.05,
 "55dd8b4f3c14": 0.006,
 "59cbfce09588": 0.03,
+"5fc931a6630d": 0.018,
 "61cca061c1ab": 0.027,
 "63fa93cab221": 0.048,
-"68a2b3f8b9aa": 0.01,
+"68a2b3f8b9aa": 0.005,
 "6d75c875c7db": 0.003,
+"7165dd656d7e": 0.008,
 "793d7d87a214": 0.011,
 "7f44c82c4166": 0.001,
-"8bbb60b0a6a9": 0.037,
+"8ab8313889c6": 0.008,
 "8d5b2c011a89": 0.019,
 "8e9f6167c1c7": 0.006,
 "97cfe457d354": 0.008,
 "9a540a5ae19b": 0.007,
 "a0b1a45edc7c": 0.007,
-"a0caf982ed31": 0.001,
+"beb6500a9943": 0.02,
 "c0b8bdef44f4": 0.027,
 "c0cfaf62044a": 0.022,
 "c0e7aa26b81c": 0.002,
-"c1453a71517f": 0.001,
-"c8fe34a7c407": 0.009,
+"c1453a71517f": 0.002,
 "c9abf2248f9b": 0.015,
-"d27d34d369b5": 0.021,
-"d532e52f9d26": 0.003,
+"d4ba23e7896e": 0.003,
+"d532e52f9d26": 0.005,
 "d995da648ec1": 0.049,
 "df1229393aad": 0.029,
 "eca83951efe0": 0.012,
@@ -4113,63 +4143,63 @@
 [
 "fbddbff31f53",
 16,
-19,
+29,
 1
-],
-[
-"0be925f7c9d8",
-8,
-351,
-1
-],
-[
-"0c09ebea3034",
-46,
-359,
-6
 ],
 [
 "380b94a50c1b",
 10,
-160,
+170,
 1
 ],
 [
 "1b90d8290e1d",
-2,
-291,
+0,
+301,
 1
 ],
 [
+"5446654c785e",
+31,
+317,
+3
+],
+[
 "d995da648ec1",
-37,
-213,
+36,
+223,
 2
 ],
 [
 "63fa93cab221",
 16,
-140,
+151,
 1
 ],
 [
 "102156a88d27",
 0,
-267,
+277,
 1
 ],
 [
-"8bbb60b0a6a9",
-20,
-296,
+"4f9c8111add8",
+29,
+290,
 1
 ],
 [
 "052215b10942",
-58,
-283,
+56,
+294,
 3
+],
+[
+"59cbfce09588",
+13,
+355,
+1
 ]
 ],
-"top_at": 1792882258.1235268
+"top_at": 1792882868.6485407
 }
