@@ -272,7 +272,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792866255.0,
 "tgtext": "",
 "title": "Avalanche (AVAX): In-Kind From $235,800",
@@ -387,7 +387,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792864827.0,
 "tgtext": "",
 "title": "Arthur Hayes exits crypto trading positions as analysts track $26 million in sales",
@@ -558,7 +558,7 @@
 "srcs": [
 "Free Press Journal"
 ],
-"t": 1792885308.4797087,
+"t": 1792885614.09117,
 "t0": 1792865732.0,
 "tgtext": "",
 "title": "Houthi Missile Interceptions Leave Shrapnel In Mecca, Medina Regions",
@@ -745,7 +745,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -1036,7 +1036,7 @@
 "srcs": [
 "Morocco News"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792865475.0,
 "tgtext": "",
 "title": "Morocco joins UAE operation identifying $39 billion in fraud-linked assets - HESPRESS English",
@@ -1136,7 +1136,7 @@
 "24/7 Wall St.",
 "Yahoo Finance"
 ],
-"t": 1792884698.6222436,
+"t": 1792885918.2763638,
 "t0": 1792878480.0,
 "tgtext": "",
 "title": "Bitcoin or Gold: Which Is the Better Inflation Hedge With Prices Up 3.7%?",
@@ -1343,19 +1343,6 @@
 "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdDRKVU1tZFlod3lMbVhDSmNsNk5VZkUzcnNQenlyX25UN1lWbm5fQnNGcVFWZ1ZUb2pMTGRHdUxZa0NSMUVmRnNLOEVzSGhVdmRxeEs5OHdtbWlVbnhOYkxrY0tzV2pnWE5lbUYtcWNfa29NcGNfUnYzQTlxMF9Ld1lyWE5EcDVQemx0WTlhUXRtXzUxVG4xY2tTNngxeWFNOVdUb004eHlaNmhSeFVJUXdMNFFOTDZMQXdQaUJJOGZJRHhjWVY3M2N2S3ppalRNeWRIUGx1M1Z3WDV1RlptYnpaR3c5NWpQOVE?oc=5",
 "urls": []
 },
-"62d6baeb4137": {
-"coin": "ripple",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1792712867.6307826,
-"t0": 1792704300.0,
-"tgtext": "",
-"title": "XRP Declines 3.4% Amid Whale Deposits, Weak ETF Flows",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OTDFPby1hNWJ4N3VoWmFYeDlYQ0FidjdBNjV3a19HeHlWR3V1YktMVVpYN25PZkZ3bnRzQWJPZWtoSng1Wk9rQVA4NWtUVm0wWGhvYnMtWmdSM1hfVktwZ2F6RGdrSW9sMWJTRnBTQWY?oc=5",
-"urls": []
-},
 "6341b58d1cf0": {
 "coin": "",
 "src": "Free Press Journal",
@@ -1389,7 +1376,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -2448,7 +2435,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1792877095.210041,
+"t": 1792885918.2763638,
 "t0": 1792870812.0,
 "tgtext": "",
 "title": "Machi\u2019s Account Was Down to About $5,000 After Five Liquidations",
@@ -2510,7 +2497,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792872046.0,
 "tgtext": "",
 "title": "Circle\u2019s new USDC auctions let institutions collect the fees others pay to cash out",
@@ -2547,12 +2534,11 @@
 },
 "c108e1798c25": {
 "coin": "",
-"src": "www.tokenpost.com",
+"src": "TOKENPOST",
 "srcs": [
-"TOKENPOST",
-"www.tokenpost.com"
+"TOKENPOST"
 ],
-"t": 1792876485.665741,
+"t": 1792885918.2763638,
 "t0": 1792869327.0,
 "tgtext": "",
 "title": "Ether Long Liquidations Reach $38.12 Million in One Hour",
@@ -2899,7 +2885,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792885308.4797087,
+"t": 1792885918.2763638,
 "t0": 1792869497.0,
 "tgtext": "",
 "title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
@@ -3326,39 +3312,39 @@
 "probs": {
 "0389e4023e98": 0.028,
 "052215b10942": 0.031,
-"102156a88d27": 0.039,
 "1b90d8290e1d": 0.059,
 "26819dca80cf": 0.033,
 "380b94a50c1b": 0.103,
 "3caaaaca6d2a": 0.021,
 "4f9c8111add8": 0.035,
-"5446654c785e": 0.089,
 "5542e87dc111": 0.001,
 "55dd8b4f3c14": 0.006,
+"595997a43228": 0.041,
 "61cca061c1ab": 0.027,
 "63fa93cab221": 0.048,
 "68a2b3f8b9aa": 0.022,
-"6d271d581295": 0.015,
-"6d75c875c7db": 0.003,
+"7608df76ed23": 0.005,
 "793d7d87a214": 0.011,
 "7f44c82c4166": 0.001,
-"8ab8313889c6": 0.008,
 "8bbb60b0a6a9": 0.02,
 "8d5b2c011a89": 0.031,
 "8e9f6167c1c7": 0.003,
 "969c59929f46": 0.016,
-"97cfe457d354": 0.008,
+"97cfe457d354": 0.013,
 "9a540a5ae19b": 0.007,
-"a0b1a45edc7c": 0.007,
-"beb6500a9943": 0.014,
+"a0b1a45edc7c": 0.011,
+"a0caf982ed31": 0.001,
+"bb4145366137": 0.151,
 "c0b8bdef44f4": 0.046,
 "c0cfaf62044a": 0.022,
+"c0e7aa26b81c": 0.002,
+"c108e1798c25": 0.035,
 "c1453a71517f": 0.002,
-"c7170fc56321": 0.002,
-"c9abf2248f9b": 0.015,
+"c6f5849ab81c": 0.006,
 "d4ba23e7896e": 0.003,
 "d532e52f9d26": 0.005,
-"d995da648ec1": 0.049,
+"d995da648ec1": 0.087,
+"de06e5511a53": 0.015,
 "e9a2cbbef3ea": 0.021,
 "eca83951efe0": 0.012,
 "f43114dc040b": 0.011,
@@ -4166,65 +4152,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"bb4145366137",
+16,
+252,
+1
+],
+[
 "380b94a50c1b",
-6,
-211,
-1
-],
-[
-"5446654c785e",
-26,
-358,
-3
-],
-[
-"1b90d8290e1d",
-0,
-341,
-1
-],
-[
-"d995da648ec1",
-30,
-264,
-2
-],
-[
-"63fa93cab221",
-15,
-191,
-1
-],
-[
-"c0b8bdef44f4",
 5,
 221,
 1
 ],
 [
+"d995da648ec1",
+29,
+274,
+2
+],
+[
+"1b90d8290e1d",
+0,
+352,
+1
+],
+[
+"63fa93cab221",
+14,
+201,
+1
+],
+[
+"c0b8bdef44f4",
+4,
+231,
+1
+],
+[
+"595997a43228",
+20,
+124,
+2
+],
+[
 "102156a88d27",
 0,
-318,
+328,
 1
 ],
 [
 "4f9c8111add8",
-23,
-331,
-1
-],
-[
-"26819dca80cf",
-0,
-326,
-1
-],
-[
-"8d5b2c011a89",
 22,
-162,
+341,
+1
+],
+[
+"c108e1798c25",
+19,
+277,
 1
 ]
 ],
-"top_at": 1792885308.4797087
+"top_at": 1792885918.2763638
 }
