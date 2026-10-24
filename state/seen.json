@@ -192,7 +192,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -637,7 +637,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792855915.0,
 "tgtext": "HAYES: \"I dumped it all.\" \n\nArthur Hayes just unloaded $26M in crypto, including 8,000 $ETH, and says the market has to go down before it goes up.\n\nWhat are you doing?\n\nNews | Markets | YouTube",
 "title": "HAYES: \"I dumped it all.\"",
@@ -1348,7 +1348,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -1577,20 +1577,6 @@
 "tgtext": "",
 "title": "Man jailed over cryptocurrency drug dealing",
 "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1ZMbXplS3NWVUVTTEZzdFZ0eGJKdUZVMDFKdlFLRmNZcVZLd2VKZTdHYWFVLWZEemtidzNVTGJfaWxfQ0pWVXE4YW8zOC01LWFwQVFSdF9CSjBtWlVwZjFUd1VqS0hnSUpsYm5sUVlMWDJpeS1va0dyQnoyQThJZ3lWY1d6ZFozYlZHempIRThkNjQwNFNJ?oc=5",
-"urls": []
-},
-"7bb53e794c3f": {
-"coin": "",
-"src": "Crypto Adventure",
-"srcs": [
-"Crypto Adventure",
-"Cryptonews.net"
-],
-"t": 1792687839.2759087,
-"t0": 1792674503.0,
-"tgtext": "",
-"title": "Zipcoin Shuts Down After UNCX Exploit and Codebase Compromise Warning",
-"url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOVJJdy1LQ1lnUXdpVTNvbVI0djFwVjlZRHZhTU40WVRpQjdReExMcnNkZkN0MlZRbXhTd01Hc0RUZnNRUmlPZmNPelI3MzRSaGFDZm5IVC1FV0NlY2JKdFExbklhdUVmdUhFa0JjRU5kWi1ZNEpmaHdpMnI5YXdPbUtfRUwtMUxXTlVGcjRhMU5JV3ZsVlhERjM0T0hmNUU?oc=5",
 "urls": []
 },
 "7d500285822b": {
@@ -1889,22 +1875,6 @@
 "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Vc3Y4R0Z4a08tUjdYdGRJdVVZSGx1UDl0X2lmT0lMZ1BlSU9hTHphV0xSS0tPRHo1RGI5UXlFd2w1OGFZY2NTbnJScy0zb0Q3WU5zaG1ZdnpXTTA?oc=5",
 "urls": []
 },
-"8bd4357e96bd": {
-"coin": "",
-"src": "TradingView",
-"srcs": [
-"Coinpedia",
-"Protos | Informed crypto news",
-"TradingView",
-"shattered.io"
-],
-"t": 1792688143.6772377,
-"t0": 1792666744.0,
-"tgtext": "",
-"title": "CoinDCX Hack Today [LIVE] Updates: Was India\u2019s Crypto Exchange Breached Again?",
-"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQml2Sm9Xelo3UUUwdUY2LVBXeVlURmhFWk12bFBQbzduN1hOWUtzcjQ3UjFKR2g2U0hVTHlzRU40a0R0UzFDaW9aSnQ0V1dUUEFuNkhMQjh3VmdJN2lzeXdUaHB6QjVNZmlOVDA5RTlkRngya3ZRcHV5NS1qZjNHbkhxTkNzT1Zhc0UzS1Rvd1Zpbm9DcTNzeldrbFJHdGV6TGwzNjJWclF6VXdZZTU5S2ZsV05yMlM5WXptZGtvYWlDMk9oakxMcE1sOFFjX1E?oc=5",
-"urls": []
-},
 "8d731bfcdaa4": {
 "coin": "",
 "src": "BBC",
@@ -1991,7 +1961,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2093,7 +2063,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792855707.0,
 "tgtext": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!\n\nHe now has only ~$5K left in his account.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs",
 "title": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!",
@@ -2216,7 +2186,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2675,7 +2645,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792856744.0,
 "tgtext": "",
 "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
@@ -2742,7 +2712,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -2960,7 +2930,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792860638.683104,
+"t": 1792860943.9946797,
 "t0": 1792858337.0,
 "tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
 "title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
@@ -2998,12 +2968,13 @@
 "urls": []
 },
 "e06d328f4fab": {
-"coin": "",
+"coin": "ethereum",
 "src": "Brave New Coin",
 "srcs": [
+"24/7 Wall St.",
 "Brave New Coin"
 ],
-"t": 1792855160.1908643,
+"t": 1792860943.9946797,
 "t0": 1792840198.0,
 "tgtext": "",
 "title": "Ethereum (ETH) Price Prediction: Whale Rotates $155M Into ETH as Longs Surge Near $2,500",
@@ -3434,44 +3405,44 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"04abfdf4156f": 0.01,
+"04abfdf4156f": 0.019,
 "050842c812d7": 0.073,
 "0633ea8e9288": 0.058,
-"0e6f433e3aab": 0.037,
+"082e37336eed": 0.008,
+"0e6f433e3aab": 0.045,
 "115553548bd2": 0.002,
+"16181c747453": 0.036,
 "1d866fa50fd2": 0.011,
 "1fb4197932c1": 0.013,
 "2213ed7cfc9f": 0.04,
 "282099039f35": 0.08,
 "2d60fe15414f": 0.361,
-"33a2cc56fef4": 0.01,
 "36168d0da783": 0.014,
 "451b8d9646eb": 0.022,
 "494968d159bf": 0.042,
+"59cbfce09588": 0.104,
 "5c7a621efe0c": 0.027,
 "75ca59dd3546": 0.001,
 "7e3977c2ea9a": 0.03,
 "802779749be4": 0.007,
-"8770799e7d0d": 0.07,
 "92edcc2941d3": 0.227,
-"94a3fe7d2df8": 0.042,
+"94a3fe7d2df8": 0.015,
 "9a53eff44566": 0.848,
 "9c4d02e91890": 0.009,
 "a169518d6138": 0.003,
 "a73471bc0d51": 0.002,
 "ad0a69c508a0": 0.009,
 "ae633f7ae8b4": 0.064,
-"b384f7583f10": 0.016,
 "c07557901e04": 0.019,
 "c120991d5d72": 0.01,
 "c1a718f618b9": 0.005,
 "c7f510206e4d": 0.463,
+"cc1fac92c291": 0.458,
 "cfa2697540cd": 0.003,
 "dee8e8b2b203": 0.384,
-"e06d328f4fab": 0.024,
-"e0d0655262c4": 0.012,
+"e06d328f4fab": 0.132,
 "eca83951efe0": 0.018,
-"efe145a43363": 0.001,
+"f153b40815a1": 0.01,
 "f5e6ecabd2be": 0.004,
 "f7870c98d902": 0.051
 },
@@ -4278,63 +4249,63 @@
 [
 "9a53eff44566",
 25,
-82,
+87,
 1
 ],
 [
 "c7f510206e4d",
 42,
-65,
+70,
 1
 ],
 [
 "cc1fac92c291",
 10,
-125,
+130,
 1
 ],
 [
 "dee8e8b2b203",
 22,
-38,
+43,
 1
 ],
 [
 "09c90228a4b2",
 0,
-317,
+322,
 1
 ],
 [
 "2d60fe15414f",
 20,
-79,
+84,
 1
 ],
 [
 "651367aa7891",
 10,
-74,
+79,
 1
 ],
 [
 "a12ca530ac5d",
 0,
-318,
+323,
 1
 ],
 [
 "92edcc2941d3",
 20,
-132,
+137,
 1
 ],
 [
-"61664e9ce0f6",
-10,
-79,
-1
+"e06d328f4fab",
+22,
+346,
+2
 ]
 ],
-"top_at": 1792860638.683104
+"top_at": 1792860943.9946797
 }
