@@ -192,7 +192,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -637,7 +637,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792855915.0,
 "tgtext": "HAYES: \"I dumped it all.\" \n\nArthur Hayes just unloaded $26M in crypto, including 8,000 $ETH, and says the market has to go down before it goes up.\n\nWhat are you doing?\n\nNews | Markets | YouTube",
 "title": "HAYES: \"I dumped it all.\"",
@@ -834,7 +834,7 @@
 "CoinDesk",
 "The Block"
 ],
-"t": 1792860027.8379345,
+"t": 1792860334.7526982,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentine judge dismisses LIBRA criminal case against Milei, sister and token creator",
@@ -1280,7 +1280,7 @@
 "srcs": [
 "BGR"
 ],
-"t": 1792859723.951092,
+"t": 1792860638.683104,
 "t0": 1792855920.0,
 "tgtext": "",
 "title": "A Botnet Used Poetry To Mine Crypto From Over 3,000 Servers - Here's How",
@@ -1348,7 +1348,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -1991,7 +1991,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2093,7 +2093,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792855707.0,
 "tgtext": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!\n\nHe now has only ~$5K left in his account.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs",
 "title": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!",
@@ -2216,7 +2216,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2675,7 +2675,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792856744.0,
 "tgtext": "",
 "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
@@ -2742,7 +2742,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -2875,22 +2875,6 @@
 "https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech"
 ]
 },
-"d6eccd203acf": {
-"coin": "bitcoin",
-"src": "Bitcoin Magazine",
-"srcs": [
-"Bitcoin Foundation",
-"Bitcoin Magazine"
-],
-"t": 1792687524.5307105,
-"t0": 1792676290.0,
-"tgtext": "",
-"title": "Arkham CEO on $1 Billion of U.S. Government Bitcoin Moved to \u201cUnknown\u201d Wallet",
-"url": "https://bitcoinmagazine.com/videos/arkham-ceo-on-1-billion-of-u-s-government-bitcoin-moved-to-unknown-wallet",
-"urls": [
-"https://bitcoinmagazine.com/videos/arkham-ceo-on-1-billion-of-u-s-government-bitcoin-moved-to-unknown-wallet"
-]
-},
 "d702d7ad283e": {
 "coin": "",
 "src": "Lookonchain",
@@ -2976,7 +2960,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792860027.8379345,
+"t": 1792860638.683104,
 "t0": 1792858337.0,
 "tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
 "title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
@@ -3450,46 +3434,46 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"04abfdf4156f": 0.027,
+"04abfdf4156f": 0.01,
 "050842c812d7": 0.073,
 "0633ea8e9288": 0.058,
-"082e37336eed": 0.011,
-"0e6f433e3aab": 0.045,
+"0e6f433e3aab": 0.037,
 "115553548bd2": 0.002,
-"152a0ad55054": 0.001,
+"1d866fa50fd2": 0.011,
 "1fb4197932c1": 0.013,
 "2213ed7cfc9f": 0.04,
-"2574de60f667": 0.003,
 "282099039f35": 0.08,
-"2d60fe15414f": 0.546,
-"33a2cc56fef4": 0.019,
-"3f712de82bd9": 0.117,
+"2d60fe15414f": 0.361,
+"33a2cc56fef4": 0.01,
+"36168d0da783": 0.014,
 "451b8d9646eb": 0.022,
 "494968d159bf": 0.042,
 "5c7a621efe0c": 0.027,
 "75ca59dd3546": 0.001,
-"802779749be4": 0.008,
+"7e3977c2ea9a": 0.03,
+"802779749be4": 0.007,
 "8770799e7d0d": 0.07,
 "92edcc2941d3": 0.227,
-"94a3fe7d2df8": 0.023,
+"94a3fe7d2df8": 0.042,
 "9a53eff44566": 0.848,
-"9c4d02e91890": 0.007,
-"a1683a1df4da": 0.026,
-"a169518d6138": 0.008,
+"9c4d02e91890": 0.009,
+"a169518d6138": 0.003,
 "a73471bc0d51": 0.002,
+"ad0a69c508a0": 0.009,
 "ae633f7ae8b4": 0.064,
 "b384f7583f10": 0.016,
 "c07557901e04": 0.019,
 "c120991d5d72": 0.01,
 "c1a718f618b9": 0.005,
 "c7f510206e4d": 0.463,
-"cc1fac92c291": 0.458,
-"dee8e8b2b203": 0.57,
-"e027071059b5": 0.0,
+"cfa2697540cd": 0.003,
+"dee8e8b2b203": 0.384,
 "e06d328f4fab": 0.024,
-"e8a1842b908a": 0.046,
+"e0d0655262c4": 0.012,
 "eca83951efe0": 0.018,
-"f5e6ecabd2be": 0.004
+"efe145a43363": 0.001,
+"f5e6ecabd2be": 0.004,
+"f7870c98d902": 0.051
 },
 "sent": [
 {
@@ -4294,63 +4278,63 @@
 [
 "9a53eff44566",
 25,
-72,
-1
-],
-[
-"dee8e8b2b203",
-22,
-28,
-1
-],
-[
-"2d60fe15414f",
-20,
-69,
+82,
 1
 ],
 [
 "c7f510206e4d",
 42,
-55,
+65,
 1
 ],
 [
 "cc1fac92c291",
 10,
-115,
+125,
+1
+],
+[
+"dee8e8b2b203",
+22,
+38,
 1
 ],
 [
 "09c90228a4b2",
 0,
-307,
+317,
+1
+],
+[
+"2d60fe15414f",
+20,
+79,
 1
 ],
 [
 "651367aa7891",
 10,
-63,
+74,
 1
 ],
 [
 "a12ca530ac5d",
 0,
-307,
+318,
 1
 ],
 [
 "92edcc2941d3",
 20,
-122,
+132,
 1
 ],
 [
-"3f712de82bd9",
-20,
-122,
-2
+"61664e9ce0f6",
+10,
+79,
+1
 ]
 ],
-"top_at": 1792860027.8379345
+"top_at": 1792860638.683104
 }
