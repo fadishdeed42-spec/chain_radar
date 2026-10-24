@@ -89,7 +89,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792835181.0,
 "tgtext": "",
 "title": "Arthur Hayes Dumps Entire Trading Book, Sells Over $22M In Tokens As He Says Crypto Needs To \u2018Go Down To Go Up\u2019",
@@ -194,7 +194,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -560,7 +560,7 @@
 "Coinfomania",
 "bloomingbit"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Swell Network Halts swETH, rswETH Deposits and Withdrawals, Says Assets Are Safe",
@@ -740,23 +740,6 @@
 "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUWk0UWpXZkFHOURzR001enJNQ1lMaUcwbUJWNmdZcHppUVc4STdReElTMlZkQVVkWEJaRkFISjc2RElkSVZDWVpNMW9OSWcybUs1aDJMM0M3anB2cXVGdEEzZmdSMVM4dGdLaVo2TW9nVVBDQ1VyMlNGLWppdjVfaE1QbGRiRE50Ry0xTHl1YW56OW03Z3c?oc=5",
 "urls": []
 },
-"37eda6f9a046": {
-"coin": "tether",
-"src": "Crypto Briefing",
-"srcs": [
-"BeInCrypto",
-"Coin Edition",
-"Coin Gabbar",
-"Crypto Briefing",
-"Crypto Economy"
-],
-"t": 1792677730.3309271,
-"t0": 1792656379.0,
-"tgtext": "CoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid",
-"title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
-"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
-"urls": []
-},
 "3937aaaef85c": {
 "coin": "tether",
 "src": "Crowdfund Insider",
@@ -818,7 +801,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792839633.0,
 "tgtext": "",
 "title": "Senator probes Tether\u2019s reported $6 million payments to ex-White House crypto adviser\u2019s firm",
@@ -1111,7 +1094,7 @@
 "The Daily Hodl",
 "logos-pres.md"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792830295.0,
 "tgtext": "",
 "title": "Italy Dismantles Mafia-Linked Underground Bank Laundering $76,290,000 via Crypto",
@@ -1464,20 +1447,6 @@
 "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
 "urls": []
 },
-"679af3f653ee": {
-"coin": "",
-"src": "The Eastleigh Voice",
-"srcs": [
-"Help Net Security",
-"The Eastleigh Voice"
-],
-"t": 1792677730.3309271,
-"t0": 1792656186.0,
-"tgtext": "",
-"title": "INTERPOL cybercrime crackdown nets 1,462 suspects, recovers Sh13.6 billion",
-"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS2d5NXlmaWVzRjQ0RTZHdjFoLUg5VnJyaF84Y21UcUNfZjZaYmNnTkxsUW9nZkdjNHlNTXdBZ25xS2E3NkVwM09OUUZ1MHI3blpTSldyT2h4NnZhZnNrWnQ5QTFVb3BUZ2d0MEZzWWJ3SzRFZ3NWeHhVWnFnWnBZY0ZweFpuSTdCNy10cG9jazhVSHZpTm02SHN4QTlScjJMcUZtUEd3NDNZTjVDVVNxOVczSnhJeFI3akE?oc=5",
-"urls": []
-},
 "67ce9e933946": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1567,22 +1536,6 @@
 "urls": [
 "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785",
 "https://decrypt.co/381755/senate-democrat-tether-payments-ex-white-house-crypto-adviser"
-]
-},
-"72b7cf88b328": {
-"coin": "bitcoin",
-"src": "TradingView",
-"srcs": [
-"Cointelegraph",
-"TradingView"
-],
-"t": 1792677730.3309271,
-"t0": 1792674000.0,
-"tgtext": "",
-"title": "DWF Labs finds Bitcoin ETF buyers follow trends, not set them",
-"url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdUF5VnhMTkdHa3J2NzJWeVR1UWhmLXNJdHBlWUVMVC1zWnQ5ZEdjZVo4VzEyWUw1NHRIa2xpclY0eHVXamhIZDlYUGZqS1lpQjBQSDJPa3FrQmZXT2sxUU9BeUVUd3FBQ0VITGNqNVM1djRVd1QxYlAwbEFHVkxGcC1PcU5HVEZZZ0xLZE9UQmRKcUxjS0syLUxhd3BMNVRaWnBwX2J1a1VzNXpEd2JxTDl0RzVsY0QyazVycmYwTGg1R2M?oc=5",
-"urls": [
-"https://cointelegraph.com/news/bitcoin-etf-flows-follow-price-trends-dwf-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "742463a1cb97": {
@@ -1912,7 +1865,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792846862.0,
 "tgtext": "",
 "title": "Hong Kong\u2019s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
@@ -2010,7 +1963,7 @@
 "srcs": [
 "BBC"
 ],
-"t": 1792849973.1260796,
+"t": 1792850278.9702208,
 "t0": 1792828856.0,
 "tgtext": "",
 "title": "Scarborough man jailed over cryptocurrency drug dealing",
@@ -2293,7 +2246,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2308,7 +2261,7 @@
 "Pluang",
 "The Cryptonomist"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792829302.0,
 "tgtext": "",
 "title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
@@ -2894,7 +2847,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792849973.1260796,
+"t": 1792850583.3269625,
 "t0": 1792834398.0,
 "tgtext": "",
 "title": "Initia halts blockchain after infinite mint attack",
@@ -3029,6 +2982,19 @@
 "tgtext": "",
 "title": "Interpol recovers $105 million in Africa cybercrime sweep",
 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUE5lSEk1RUdUZUQxOEFyc3lXa3l2Sm5nakQ1UXFBODFZOEp2Z2w3eHVWM2NWd3RzamFjZ3hTY1hjOVA3ZkhYMUtuQUFadzhDVmMzZmVjWFRmejlYWk16clVmRkNWc2JTRWVrM3lQODZsQ2VMcnZQWmlHOFBMcmE5T0xRYy1OUFE?oc=5",
+"urls": []
+},
+"d7c949b4a7a6": {
+"coin": "solana",
+"src": "CryptoTicker",
+"srcs": [
+"CryptoTicker"
+],
+"t": 1792850583.3269625,
+"t0": 1792833403.0,
+"tgtext": "",
+"title": "Solana price prediction: $30.3M out of the SOL ETFs",
+"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcFRJbkhPS2FyUGFhdmxrSXprY01VV3k4OVZ5LVlDS25XZzByX1NGTkNPV1I1WDJVdHh5cFNtWmQwWUhrNjdJeE5JY1JWNTc1NVpFOG53N05FU3BFWEppbkNCcWdaZGNRbG5TUUJTLXBvaW1ETkhvbU55QURTdGY1RkdpbVF4RE9hUTlFMUNMdnc?oc=5",
 "urls": []
 },
 "d89a0e8c9baa": {
@@ -3564,13 +3530,10 @@
 "6043b79a5f53": 0.066,
 "63476b9ed579": 0.006,
 "68cdfb18bb6e": 0.006,
+"75ca59dd3546": 0.002,
 "7ec93ede8400": 0.087,
-"7f0faf9cd817": 0.003,
-"802779749be4": 0.011,
 "8770799e7d0d": 0.148,
 "8ac1e39a9de9": 0.002,
-"8caf2878401f": 0.077,
-"8d731bfcdaa4": 0.239,
 "a12ca530ac5d": 0.344,
 "a2e260e94137": 0.852,
 "b384f7583f10": 0.066,
@@ -3578,6 +3541,8 @@
 "b9e5a1165e2d": 0.027,
 "c07557901e04": 0.045,
 "c120991d5d72": 0.041,
+"c4e0a881cfe6": 0.001,
+"c6486df8ef8b": 0.037,
 "cf3b73dae363": 0.301,
 "d7c949b4a7a6": 0.101,
 "d8a2d649d2cc": 0.049,
@@ -4367,64 +4332,64 @@
 "top": [
 [
 "a2e260e94137",
-54,
-345,
+52,
+355,
 3
 ],
 [
 "04afcad5be5c",
-18,
-247,
+16,
+257,
 1
 ],
 [
 "282099039f35",
 42,
-141,
+151,
 2
 ],
 [
 "09c90228a4b2",
 10,
-139,
+149,
 1
 ],
 [
 "a12ca530ac5d",
 10,
-140,
+150,
 1
 ],
 [
 "cf3b73dae363",
-22,
-260,
-1
-],
-[
-"8d731bfcdaa4",
-0,
-352,
+21,
+270,
 1
 ],
 [
 "55b669abc2eb",
-7,
-328,
+5,
+338,
 2
 ],
 [
 "8770799e7d0d",
 16,
-52,
+62,
 1
 ],
 [
 "3d1be279557c",
 24,
-172,
+183,
+1
+],
+[
+"d7c949b4a7a6",
+2,
+286,
 1
 ]
 ],
-"top_at": 1792849973.1260796
+"top_at": 1792850583.3269625
 }
