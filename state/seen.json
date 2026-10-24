@@ -4,9 +4,6 @@
 },
 "init": true,
 "log": [
-1792751537.5628924,
-1792752166.3430572,
-1792761545.4814467,
 1792782284.9829712,
 1792789329.9006922,
 1792813651.2840354,
@@ -14,7 +11,8 @@
 1792822810.2512836,
 1792824951.1612852,
 1792828010.772887,
-1792829541.1810298
+1792829541.1810298,
+1792853329.5739021
 ],
 "menu": {
 "0075a9a50711": {
@@ -53,23 +51,6 @@
 "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkFUcGxiWlJGTVBNbmliMWttQW9CSk00QzJJOENVR05GU0ctZkFyb1FHWmVzTVJNbFRYVmY0WG43ZE44T1psSkVVS1RUUzl2VGVuYXpiUmp2RGJ1TzZaLVhIU25sbktmeFcyOTdBUkhaRHh6bTFSOF9USkJIcjMydG5aTXRiLXRBZ0xHZXdIU2FyOGo0UDV1LVhxVjJLSEJaLTM4OVJIVEdxZGhqN0xCMw?oc=5",
 "urls": []
 },
-"028f29145a33": {
-"coin": "tether",
-"src": "Crypto Briefing",
-"srcs": [
-"Coin Gabbar",
-"Crypto Briefing",
-"Crypto Economy",
-"Crypto News",
-"Cryptonews.net"
-],
-"t": 1792680479.8259223,
-"t0": 1792659000.0,
-"tgtext": "",
-"title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
-"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
-"urls": []
-},
 "032c0cd26b46": {
 "coin": "",
 "src": "Cointelegraph",
@@ -89,7 +70,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792835181.0,
 "tgtext": "",
 "title": "Arthur Hayes Dumps Entire Trading Book, Sells Over $22M In Tokens As He Says Crypto Needs To \u2018Go Down To Go Up\u2019",
@@ -194,7 +175,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -417,23 +398,6 @@
 "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"20bf02a4c578": {
-"coin": "tether",
-"src": "Crypto Briefing",
-"srcs": [
-"Crypto Briefing",
-"Crypto Economy",
-"Crypto News",
-"Cryptonews.net",
-"Cryptopolitan"
-],
-"t": 1792680784.3231163,
-"t0": 1792660805.0,
-"tgtext": "",
-"title": "India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
-"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUhnenNFLWo5SDJCa3E0QWtyclB2MlM3QkI0bC10VEwtYTBYdEpnT3FxRjZGWEhJT1ZCeEZma2NOUEowazBabVRhWHFPVWtTTnZqTEJJOHZpVFVKQUtxcFVuc0FYY1puamdrSFh2Y21KOHBqaWgwWEFsTVZFOWpJQ2xncERiY2hnNTUyRG5YdTB5SEhkXzBZTDN1MHEzcHhpOHlIaGlLUUFuZG1aWi1ERDJMV1hEX29MWDJQZWp4ZmpqTzNf?oc=5",
-"urls": []
-},
 "216d0cb68839": {
 "coin": "sui",
 "src": "Pluang",
@@ -561,7 +525,7 @@
 "Koin B\u00fclteni",
 "bloomingbit"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Ethereum Protocol Halts Deposits and Withdrawals Amid 2,500 ETH Security Concerns",
@@ -1836,7 +1800,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792846862.0,
 "tgtext": "",
 "title": "Hong Kong\u2019s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
@@ -2014,7 +1978,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2226,7 +2190,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2405,7 +2369,7 @@
 "srcs": [
 "Coin Gabbar"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792834380.0,
 "tgtext": "",
 "title": "IRYS Price Prediction: All-Time High, $68M Liquidation, What Now?",
@@ -2451,7 +2415,7 @@
 "CryptoTicker",
 "The Cryptonomist"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792832408.0,
 "tgtext": "",
 "title": "Initia halts L1 and rollups after $2.7 million exploit \u2014 What happened?",
@@ -2780,6 +2744,19 @@
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"cc1fac92c291": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792853633.7779498,
+"t0": 1792853124.0,
+"tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
+"title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
+"url": "https://t.me/cointelegraph/72824",
+"urls": []
 },
 "ce0c470c628e": {
 "coin": "",
@@ -3339,7 +3316,7 @@
 "srcs": [
 "The Daily Hodl"
 ],
-"t": 1792853023.6729662,
+"t": 1792853633.7779498,
 "t0": 1792833460.0,
 "tgtext": "",
 "title": "Georgia Social Media Star Allegedly Siphons $4,000,000 in Food Benefits Through 350+ Fake SNAP Accounts",
@@ -3475,8 +3452,7 @@
 "probs": {
 "016377b73016": 0.011,
 "04abfdf4156f": 0.023,
-"04afcad5be5c": 0.563,
-"07870fa48ef6": 0.015,
+"04afcad5be5c": 0.69,
 "09c90228a4b2": 0.587,
 "11fe9295ef11": 0.005,
 "263b82c8572e": 0.037,
@@ -3490,6 +3466,7 @@
 "6043b79a5f53": 0.066,
 "75ca59dd3546": 0.002,
 "7ec93ede8400": 0.087,
+"802779749be4": 0.02,
 "8770799e7d0d": 0.148,
 "8ac1e39a9de9": 0.004,
 "92edcc2941d3": 0.403,
@@ -3497,94 +3474,24 @@
 "a12ca530ac5d": 0.475,
 "a169518d6138": 0.007,
 "a396dfe44760": 0.005,
+"a73471bc0d51": 0.005,
 "b384f7583f10": 0.066,
 "b429bfa0c22a": 0.148,
 "b590ef302692": 0.629,
-"b9e5a1165e2d": 0.027,
+"b9e5a1165e2d": 0.046,
 "c07557901e04": 0.045,
 "c120991d5d72": 0.041,
 "c4e0a881cfe6": 0.001,
 "c5a4b045c8f1": 0.054,
-"c6486df8ef8b": 0.019,
-"d8a2d649d2cc": 0.082,
+"cc1fac92c291": 0.816,
 "d99bd390d204": 0.028,
-"e06d328f4fab": 0.057,
+"e06d328f4fab": 0.1,
 "eca83951efe0": 0.077,
 "f4e5e39e559c": 0.041,
 "f5e6ecabd2be": 0.008,
 "fc5f691b1772": 0.02
 },
 "sent": [
-{
-"e": [
-"breach",
-"coindcx",
-"denies",
-"flagged",
-"hack",
-"million",
-"tracing",
-"wallets"
-],
-"k": [
-"hack"
-],
-"t": 1792659447.4551191,
-"u": [
-"https://t.me/wublockchainenglish/26512",
-"https://news.google.com/rss/articles/CBMibEFVX3lxTE5Pb2htUTRVQU1nbXB2YThma3FUTjl1Slo1cTcxWTZPRllaMnRsYWFJR2phQWxiZFZRQUNoM0lyRmVROGFnOG9XVzRmRDF2T2hvWXMzSVBfVnF3MTVkMWNuajktTDRUemlVRXRBXw?oc=5",
-"https://news.google.com/rss/articles/CBMihwFBVV95cUxONUFrQnFMcmhWQlJvbTlXaTlTSWdwVGh5bWpPRVNlZ2Z6X2xTc1BDSTVxenp1QjN4ZF9UNldoX2w3THZVXy1SSS03UGp6eWFjbUhIOGlldW9DRTh5cmJ5TjdFN0dyNVhSZEQ3dTdIVTRRcThPNVZ1bWVUSm93eTdIX1pFblJBcVU?oc=5",
-"https://news.google.com/rss/articles/CBMijgFBVV95cUxOa0lDcWlsdnRvY3ZpczhFZGV2Z00tdkEzdDlDeVo4V3hydjRqQ3o1b2swM05Ja1ltYTN4OWZMa2hnc2NrUTl5QzRTMGpub18yWTZfUGxETEgwbWJnRlY4clNmQ3pvYWhWUnFPUlgwd0VHTGpiNGZTSGx5QloxYk5xOWpLUkhObTk2VFRBLXVn?oc=5"
-],
-"w": [
-"$16",
-"2025",
-"breach",
-"coindcx",
-"denies",
-"flagged",
-"hack",
-"million",
-"tracing",
-"wallets"
-]
-},
-{
-"e": [
-"across",
-"african",
-"arrests",
-"countries",
-"crackdown",
-"cybercrime",
-"interpol",
-"recovers",
-"suspects"
-],
-"k": [
-"legal"
-],
-"t": 1792679869.2324247,
-"u": [
-"https://news.google.com/rss/articles/CBMiugFBVV95cUxPS2d5NXlmaWVzRjQ0RTZHdjFoLUg5VnJyaF84Y21UcUNfZjZaYmNnTkxsUW9nZkdjNHlNTXdBZ25xS2E3NkVwM09OUUZ1MHI3blpTSldyT2h4NnZhZnNrWnQ5QTFVb3BUZ2d0MEZzWWJ3SzRFZ3NWeHhVWnFnWnBZY0ZweFpuSTdCNy10cG9jazhVSHZpTm02SHN4QTlScjJMcUZtUEd3NDNZTjVDVVNxOVczSnhJeFI3akE?oc=5",
-"https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5",
-"https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWRfZy1JbFRQclJsazhCeWJobVczTGNNUXY0ajlKYWNMRWV1NTFNd0NNbkNBdjkyY19uS0VRUTRrRks3Vy1lRXlYSFR5bC1ueDNrVlNkS05fU2dPVUx3ek5NLU9GeUY5N09oTjIyUlZ5YTJsMm11eTJDZXhJR0Z6ZzFqbXlkNWtBSllmM094aw?oc=5",
-"https://news.google.com/rss/articles/CBMiowFBVV95cUxPZFJuUmtIbG9aZUROMDRvZDV1cWt0STJ0djhUZ3ptbEJPc3JsZVo0QlNwcmpLSkxJNDlDNHhiNFVZQ2VNQUthbGo4LWVHS0QwRmRCZVloTzREY1p1ejJXZ1I3NkV3NmRYSVJ6RXMzTW9hd2lfbGU2TzAtNUZTNGduNmEwOFBlYTd1R0VkS2w2YzRhLUtDVjM1bG41elVFd21ULTdZ?oc=5"
-],
-"w": [
-"$105m",
-"462",
-"across",
-"african",
-"arrests",
-"countries",
-"crackdown",
-"cybercrime",
-"interpol",
-"recovers",
-"suspects"
-]
-},
 {
 "e": [
 "billion",
@@ -4290,71 +4197,98 @@
 "prompting",
 "third"
 ]
+},
+{
+"e": [
+"fca",
+"regulation"
+],
+"k": [],
+"t": 1792853329.5739021,
+"u": [
+"https://t.me/cointelegraph/72824"
+],
+"w": [
+"app",
+"decentralized",
+"defi",
+"fca",
+"get",
+"just",
+"out",
+"projects",
+"regulation",
+"slapping",
+"told",
+"won",
+"you",
+"your"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"b590ef302692",
-54,
-344,
-3
-],
-[
-"09c90228a4b2",
-9,
-190,
+"cc1fac92c291",
+10,
+8,
 1
 ],
 [
 "04afcad5be5c",
-11,
-297,
+9,
+308,
+1
+],
+[
+"b590ef302692",
+52,
+354,
+3
+],
+[
+"09c90228a4b2",
+8,
+200,
 1
 ],
 [
 "a12ca530ac5d",
-9,
-191,
+8,
+201,
 1
 ],
 [
 "92edcc2941d3",
 20,
-5,
+15,
 1
 ],
 [
 "282099039f35",
-51,
-192,
+50,
+202,
 3
 ],
 [
 "b429bfa0c22a",
-26,
-311,
+25,
+321,
 1
 ],
 [
 "8770799e7d0d",
 16,
-103,
+113,
 1
 ],
 [
 "f9ec8caf54ab",
 0,
-326,
-1
-],
-[
-"d7c949b4a7a6",
-0,
-327,
+336,
 1
 ]
 ],
-"top_at": 1792853023.6729662
+"top_at": 1792853633.7779498
 }
