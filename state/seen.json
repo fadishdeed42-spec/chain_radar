@@ -207,7 +207,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -500,7 +500,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792827272.0,
 "tgtext": "HYPE has dropped 22% from its peak.\n\nThe largest $HYPE short, 0xf02d, currently holds a short on 715,334 $HYPE ($54.57M), with $5.56M in unrealized profit and another $620K earned in funding fees.\n\nhttps://hypurrscan.io/address/0xf02d16a272a842f8bac1d9a9e773aba1933454c6#perps",
 "title": "HYPE has dropped 22% from its peak.",
@@ -592,7 +592,7 @@
 "Coinfomania",
 "bloomingbit"
 ],
-"t": 1792845091.3836098,
+"t": 1792846312.0794342,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Swell Network Halts swETH, rswETH Deposits and Withdrawals, Says Assets Are Safe",
@@ -904,7 +904,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792824795.0,
 "tgtext": "Arthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI\n\nArthur Hayes said Maelstrom has closed all positions in its directional trading book, taking profits on ETH, ENA, UNI and other altcoins. He believes the market may need to fall before rising, citing uncertainty surrounding macroeconomic and geopolitical conditions. He plans to remain on the sidelines and wait for an all-clear signal.\n\nAccording to @EmberCN, Arthur Hayes reduced his holdings in various tokens totaling approximately $26.08 million, including 8,000 ETH (approx. $19 million), 14 million ENA (approx. $2.76 million), and 323,000 UNI (approx. $2.24 million). \u2014 link",
 "title": "Arthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI",
@@ -1072,7 +1072,7 @@
 "TOKENPOST",
 "The Cryptonomist"
 ],
-"t": 1792844787.1789567,
+"t": 1792846312.0794342,
 "t0": 1792827684.0,
 "tgtext": "",
 "title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
@@ -1142,7 +1142,7 @@
 "srcs": [
 "logos-pres.md"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792830295.0,
 "tgtext": "",
 "title": "A shadow bank that laundered \u20ac68 million via cryptocurrencies has been uncovered in Italy",
@@ -1711,7 +1711,7 @@
 "srcs": [
 "Yahoo"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792828861.0,
 "tgtext": "",
 "title": "Man jailed over cryptocurrency drug dealing",
@@ -1766,7 +1766,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792844404.0,
 "tgtext": "Tether's Bitcoin Mining Development Kit Gains Backing from 15 Mining Companies to Accelerate Automated Mining\n\nTether announced that its open-source Mining Development Kit (MDK) has secured joint support and integration commitments from 15 leading mining companies, ASIC manufacturers, and mining pools, including Bitmain, Bitdeer, Canaan, MicroBT, Foundry Digital, F2Pool, Luxor, and Block's Proto. By establishing a unified open interface, the kit breaks down barriers between disparate hardware and mining pools, aiming to accelerate AI- and software-driven cross-platform automated dispatch and autonomous operations for physical mining infrastructure. MDK released version 0.11 at the Plan \u20bf Forum in Lugano, with a stable 1.0 release targeted by the end of 2026. \u2014 link",
 "title": "Tether's Bitcoin Mining Development Kit Gains Backing from 15 Mining Companies to Accelerate Automated Mining",
@@ -2356,7 +2356,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792845701.436017,
+"t": 1792846312.0794342,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2923,6 +2923,19 @@
 "url": "https://t.me/cointelegraph/72822",
 "urls": []
 },
+"cf3b73dae363": {
+"coin": "",
+"src": "CryptoTicker",
+"srcs": [
+"CryptoTicker"
+],
+"t": 1792846312.0794342,
+"t0": 1792834398.0,
+"tgtext": "",
+"title": "Initia halts blockchain after infinite mint attack",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGdURYbGp0cFpTNE8yUnlmcWM4bDBZd0JaUVJ4MGl3a3NZNEhIcmx6SkUwZ0cwMlZtNTh0bUZzMWlyWFJzM3pVMGJpbElkRm14MlVwRlpSUkxZWDRpNFBEYWhOYm1oOFRCeE1jSEhR?oc=5",
+"urls": []
+},
 "d2f379b6c041": {
 "coin": "ethereum",
 "src": "NewsCord",
@@ -3051,21 +3064,6 @@
 "tgtext": "",
 "title": "Interpol recovers $105 million in Africa cybercrime sweep",
 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUE5lSEk1RUdUZUQxOEFyc3lXa3l2Sm5nakQ1UXFBODFZOEp2Z2w3eHVWM2NWd3RzamFjZ3hTY1hjOVA3ZkhYMUtuQUFadzhDVmMzZmVjWFRmejlYWk16clVmRkNWc2JTRWVrM3lQODZsQ2VMcnZQWmlHOFBMcmE5T0xRYy1OUFE?oc=5",
-"urls": []
-},
-"d87e03706a09": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Coin Gabbar",
-"Hokanews",
-"TOKENPOST"
-],
-"t": 1792673219.840721,
-"t0": 1792651860.0,
-"tgtext": "",
-"title": "Colombian Crypto Broker Sentenced to 160 Months for $14.5 Million Money Laundering Scheme",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTjc5N1h5VkZVSDU5VWd5RTZaVlZucVRKWWVEVjJlaFlGTTR3QjY4UWVhaWhQdjg4ZUJnVkNpLUNQTzZCNFhYX0dJU0t3NnVRYnZvSmJwdkszR0pkZjVRUnlJQXV1Yk9STVpULVVzYmE4VW1ibGozQW4tdWZ1OEU?oc=5",
 "urls": []
 },
 "d89a0e8c9baa": {
@@ -3611,43 +3609,43 @@
 },
 "probs": {
 "016377b73016": 0.011,
-"04afcad5be5c": 0.712,
 "050842c812d7": 0.16,
-"07870fa48ef6": 0.009,
 "09c90228a4b2": 0.452,
+"0d7e8e1690e8": 0.003,
+"1873674762c0": 0.02,
 "1d866fa50fd2": 0.007,
 "21a9fa65e845": 0.044,
 "25bdc815d78b": 0.581,
-"27d848f67a80": 0.91,
-"282099039f35": 0.047,
+"282099039f35": 0.456,
 "3d1be279557c": 0.109,
 "3ed46d2dee02": 0.001,
 "41ff81de43a0": 0.552,
 "43a20acf65f3": 0.09,
 "494968d159bf": 0.095,
+"4e01a5089228": 0.871,
 "514e3857f323": 0.037,
 "55b669abc2eb": 0.192,
 "56e968640bed": 0.027,
-"5f69eba1e414": 0.496,
 "6043b79a5f53": 0.04,
+"63476b9ed579": 0.006,
 "68cdfb18bb6e": 0.003,
 "71c22a93bbc6": 0.024,
 "7955dd7edb49": 0.228,
+"7aa0b4f87913": 0.039,
 "7ec93ede8400": 0.168,
-"8ac1e39a9de9": 0.002,
+"8ac1e39a9de9": 0.001,
 "8caf2878401f": 0.077,
 "a12ca530ac5d": 0.344,
 "a28df7038ee7": 0.003,
 "b384f7583f10": 0.035,
 "b429bfa0c22a": 0.154,
 "b9e5a1165e2d": 0.027,
-"c120991d5d72": 0.041,
-"c4e0a881cfe6": 0.001,
 "c6486df8ef8b": 0.037,
-"d4c5ade52b07": 0.01,
+"cf3b73dae363": 0.189,
 "d7c949b4a7a6": 0.061,
 "d8a2d649d2cc": 0.049,
-"e06d328f4fab": 0.057
+"e06d328f4fab": 0.057,
+"f4e5e39e559c": 0.041
 },
 "sent": [
 {
@@ -4431,65 +4429,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"27d848f67a80",
-62,
-356,
-5
-],
-[
-"04afcad5be5c",
-26,
-175,
-1
+"4e01a5089228",
+68,
+310,
+4
 ],
 [
 "25bdc815d78b",
 0,
-307,
+317,
 1
 ],
 [
 "41ff81de43a0",
 0,
-348,
+359,
 1
 ],
 [
-"5f69eba1e414",
-52,
-355,
-3
+"282099039f35",
+42,
+80,
+2
 ],
 [
 "09c90228a4b2",
 10,
-68,
+78,
 1
 ],
 [
 "a12ca530ac5d",
 10,
-69,
+79,
 1
 ],
 [
 "7955dd7edb49",
 0,
-281,
+291,
 1
 ],
 [
 "55b669abc2eb",
-6,
-257,
+5,
+267,
+1
+],
+[
+"cf3b73dae363",
+30,
+199,
 1
 ],
 [
 "7ec93ede8400",
 18,
-22,
+32,
 1
 ]
 ],
-"top_at": 1792845701.436017
+"top_at": 1792846312.0794342
 }
