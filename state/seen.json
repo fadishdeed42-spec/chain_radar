@@ -191,7 +191,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -230,7 +230,7 @@
 "srcs": [
 "The Cryptonomist"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792840362.0,
 "tgtext": "",
 "title": "Initia Exploit AUSD Stablecoin: Key Details and Impact",
@@ -567,7 +567,7 @@
 "Koin B\u00fclteni",
 "bloomingbit"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Ethereum Protocol Halts Deposits and Withdrawals Amid 2,500 ETH Security Concerns",
@@ -652,7 +652,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792855915.0,
 "tgtext": "HAYES: \"I dumped it all.\" \n\nArthur Hayes just unloaded $26M in crypto, including 8,000 $ETH, and says the market has to go down before it goes up.\n\nWhat are you doing?\n\nNews | Markets | YouTube",
 "title": "HAYES: \"I dumped it all.\"",
@@ -1290,23 +1290,6 @@
 "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdDRKVU1tZFlod3lMbVhDSmNsNk5VZkUzcnNQenlyX25UN1lWbm5fQnNGcVFWZ1ZUb2pMTGRHdUxZa0NSMUVmRnNLOEVzSGhVdmRxeEs5OHdtbWlVbnhOYkxrY0tzV2pnWE5lbUYtcWNfa29NcGNfUnYzQTlxMF9Ld1lyWE5EcDVQemx0WTlhUXRtXzUxVG4xY2tTNngxeWFNOVdUb004eHlaNmhSeFVJUXdMNFFOTDZMQXdQaUJJOGZJRHhjWVY3M2N2S3ppalRNeWRIUGx1M1Z3WDV1RlptYnpaR3c5NWpQOVE?oc=5",
 "urls": []
 },
-"62c0bbc821f4": {
-"coin": "tether",
-"src": "Cryptonews.net",
-"srcs": [
-"Coinpedia",
-"Cryptonews.net",
-"ForkLog",
-"Protos | Informed crypto news",
-"TradingView"
-],
-"t": 1792684162.9270103,
-"t0": 1792662791.0,
-"tgtext": "",
-"title": "India\u2019s top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wdmpDNXMyUVJianZ5dTJZU280RWF0aGVTRVBZS2hKQVFPRGRqSnNtUUwxS3BrQ0lBNDJYMHlKZzI1QnBFZGt2ay1DVEFhWDZwUTdTWURuN2tyZw?oc=5",
-"urls": []
-},
 "62d6baeb4137": {
 "coin": "ripple",
 "src": "CoinMarketCap",
@@ -1353,7 +1336,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -2013,7 +1996,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2115,7 +2098,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792855707.0,
 "tgtext": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!\n\nHe now has only ~$5K left in his account.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs",
 "title": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!",
@@ -2238,7 +2221,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2724,6 +2707,21 @@
 "https://decrypt.co/381753/spacex-filing-elon-musk-final-word-tesla-merger"
 ]
 },
+"c7f510206e4d": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate"
+],
+"t": 1792856990.7607038,
+"t0": 1792856744.0,
+"tgtext": "",
+"title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
+"url": "https://cryptoslate.com/circle-shareholder-sues-trump-over-uae-crypto-deals-citing-up-to-82-million-in-potential-annual-revenue/",
+"urls": [
+"https://cryptoslate.com/circle-shareholder-sues-trump-over-uae-crypto-deals-citing-up-to-82-million-in-potential-annual-revenue/"
+]
+},
 "c87d738b3e90": {
 "coin": "",
 "src": "bloomingbit",
@@ -2782,7 +2780,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792856684.9107084,
+"t": 1792856990.7607038,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -3480,12 +3478,14 @@
 "04abfdf4156f": 0.027,
 "050842c812d7": 0.041,
 "0e6f433e3aab": 0.083,
+"115553548bd2": 0.002,
 "152a0ad55054": 0.001,
+"2213ed7cfc9f": 0.075,
 "2574de60f667": 0.005,
 "282099039f35": 0.175,
 "288563e97540": 0.001,
 "2d60fe15414f": 0.564,
-"33a2cc56fef4": 0.019,
+"33a2cc56fef4": 0.01,
 "3d1be279557c": 0.027,
 "451b8d9646eb": 0.042,
 "494968d159bf": 0.078,
@@ -3497,17 +3497,15 @@
 "8770799e7d0d": 0.07,
 "8ac1e39a9de9": 0.0,
 "92edcc2941d3": 0.227,
-"9a53eff44566": 0.863,
+"9a53eff44566": 0.9,
 "9c4d02e91890": 0.009,
 "a169518d6138": 0.003,
 "a396dfe44760": 0.002,
-"a73471bc0d51": 0.002,
 "ae633f7ae8b4": 0.064,
 "b384f7583f10": 0.016,
-"ba794927b5ef": 0.004,
 "c07557901e04": 0.036,
 "c120991d5d72": 0.018,
-"c1a718f618b9": 0.005,
+"c7f510206e4d": 0.463,
 "cfa2697540cd": 0.003,
 "d99bd390d204": 0.012,
 "e06d328f4fab": 0.046,
@@ -4297,63 +4295,63 @@
 [
 "9a53eff44566",
 25,
-16,
+21,
 1
 ],
 [
 "2d60fe15414f",
 20,
-13,
+18,
 1
 ],
 [
-"04afcad5be5c",
-3,
-358,
-1
-],
-[
-"651367aa7891",
-10,
-8,
+"c7f510206e4d",
+42,
+4,
 1
 ],
 [
 "cc1fac92c291",
 10,
-59,
+64,
+1
+],
+[
+"651367aa7891",
+10,
+13,
 1
 ],
 [
 "09c90228a4b2",
-1,
-251,
+0,
+256,
 1
 ],
 [
 "a12ca530ac5d",
-1,
-252,
+0,
+257,
 1
 ],
 [
 "92edcc2941d3",
 20,
-66,
+71,
 1
 ],
 [
 "282099039f35",
-43,
-253,
+42,
+258,
 3
 ],
 [
 "0e6f433e3aab",
 23,
-272,
+277,
 1
 ]
 ],
-"top_at": 1792856684.9107084
+"top_at": 1792856990.7607038
 }
