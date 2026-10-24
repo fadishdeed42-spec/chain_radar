@@ -70,7 +70,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792835181.0,
 "tgtext": "",
 "title": "Arthur Hayes Dumps Entire Trading Book, Sells Over $22M In Tokens As He Says Crypto Needs To \u2018Go Down To Go Up\u2019",
@@ -175,7 +175,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -214,7 +214,7 @@
 "srcs": [
 "The Cryptonomist"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792840362.0,
 "tgtext": "",
 "title": "Initia Exploit AUSD Stablecoin: Key Details and Impact",
@@ -538,7 +538,7 @@
 "Koin B\u00fclteni",
 "bloomingbit"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Ethereum Protocol Halts Deposits and Withdrawals Amid 2,500 ETH Security Concerns",
@@ -914,7 +914,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792852719.3137488,
+"t": 1792854854.3263097,
 "t0": 1792843247.0,
 "tgtext": "",
 "title": "Wall Street\u2019s $359 billion-a-day repo market has found a use for blockchain",
@@ -1991,7 +1991,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -2203,7 +2203,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2764,7 +2764,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -2816,7 +2816,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792834398.0,
 "tgtext": "",
 "title": "Initia halts blockchain after infinite mint attack",
@@ -3118,7 +3118,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792854244.3576312,
+"t": 1792854854.3263097,
 "t0": 1792833882.0,
 "tgtext": "",
 "title": "Man arrested in Shek Kip Mei Park over suspected poisoning of cat food",
@@ -3468,21 +3468,19 @@
 "04afcad5be5c": 0.491,
 "0e6f433e3aab": 0.083,
 "1bfcbe616092": 0.039,
-"263b82c8572e": 0.016,
+"263b82c8572e": 0.026,
 "282099039f35": 0.175,
 "288563e97540": 0.001,
 "2dcafba0b7ac": 0.015,
 "33a2cc56fef4": 0.01,
 "3d1be279557c": 0.027,
-"494968d159bf": 0.044,
-"514e3857f323": 0.017,
-"59cbfce09588": 0.059,
-"72cb724de2b6": 0.027,
+"436bd7c3142d": 0.003,
+"494968d159bf": 0.078,
+"514e3857f323": 0.028,
 "75ca59dd3546": 0.001,
 "7ec93ede8400": 0.009,
 "802779749be4": 0.009,
 "8770799e7d0d": 0.07,
-"91e0c46c4371": 0.089,
 "92edcc2941d3": 0.227,
 "9c4d02e91890": 0.009,
 "a169518d6138": 0.003,
@@ -3491,18 +3489,20 @@
 "aad553ba2bca": 0.003,
 "b384f7583f10": 0.03,
 "b429bfa0c22a": 0.07,
-"b9e5a1165e2d": 0.02,
-"c07557901e04": 0.02,
+"c07557901e04": 0.036,
 "c120991d5d72": 0.018,
 "c4e0a881cfe6": 0.001,
+"c5a4b045c8f1": 0.041,
 "cc1fac92c291": 0.642,
 "cf3b73dae363": 0.089,
 "d99bd390d204": 0.012,
 "e06d328f4fab": 0.046,
 "eca83951efe0": 0.035,
+"efe145a43363": 0.001,
 "f153b40815a1": 0.01,
 "f4e5e39e559c": 0.018,
-"f5e6ecabd2be": 0.004
+"f5e6ecabd2be": 0.004,
+"fab3debe6d72": 0.001
 },
 "sent": [
 {
@@ -4245,63 +4245,63 @@
 [
 "cc1fac92c291",
 10,
-19,
+29,
 1
 ],
 [
 "04afcad5be5c",
-8,
-318,
+7,
+328,
 1
 ],
 [
 "09c90228a4b2",
-6,
-210,
+5,
+220,
 1
 ],
 [
 "a12ca530ac5d",
-6,
-211,
+5,
+221,
 1
 ],
 [
 "92edcc2941d3",
 20,
-25,
+35,
 1
 ],
 [
 "282099039f35",
-48,
-212,
+47,
+222,
 3
 ],
 [
-"91e0c46c4371",
-41,
-119,
-1
-],
-[
 "cf3b73dae363",
-12,
-331,
+11,
+341,
 1
 ],
 [
 "0e6f433e3aab",
+27,
+242,
+1
+],
+[
+"494968d159bf",
 29,
-231,
+193,
 1
 ],
 [
 "e8a1842b908a",
-7,
-339,
+6,
+350,
 1
 ]
 ],
-"top_at": 1792854244.3576312
+"top_at": 1792854854.3263097
 }
