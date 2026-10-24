@@ -186,7 +186,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792861200.0,
 "tgtext": "",
 "title": "a16z Drops \"Crypto\" From Its Name: What the $2.2 Billion Pivot Means for the Market",
@@ -601,7 +601,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792855915.0,
 "tgtext": "HAYES: \"I dumped it all.\" \n\nArthur Hayes just unloaded $26M in crypto, including 8,000 $ETH, and says the market has to go down before it goes up.\n\nWhat are you doing?\n\nNews | Markets | YouTube",
 "title": "HAYES: \"I dumped it all.\"",
@@ -670,7 +670,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -1210,7 +1210,7 @@
 "srcs": [
 "BGR"
 ],
-"t": 1792872525.5928493,
+"t": 1792873744.0651062,
 "t0": 1792855920.0,
 "tgtext": "",
 "title": "A Botnet Used Poetry To Mine Crypto From Over 3,000 Servers - Here's How",
@@ -1259,6 +1259,19 @@
 "url": "https://t.me/cointelegraph/72806",
 "urls": []
 },
+"63fa93cab221": {
+"coin": "hyperliquid",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792874047.9670916,
+"t0": 1792873837.0,
+"tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
+"title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
+"url": "https://t.me/cointelegraph/72829",
+"urls": []
+},
 "64c6671a7b45": {
 "coin": "",
 "src": "BigGo Finance",
@@ -1278,7 +1291,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -1790,7 +1803,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792852727.0,
 "tgtext": "",
 "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
@@ -1905,7 +1918,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792855707.0,
 "tgtext": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!\n\nHe now has only ~$5K left in his account.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs",
 "title": "Machi (@machibigbrother) got liquidated 5 times in just 1 hour!",
@@ -2426,7 +2439,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792856744.0,
 "tgtext": "",
 "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
@@ -2456,7 +2469,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792853124.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
@@ -2687,7 +2700,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792873438.7098074,
+"t": 1792874047.9670916,
 "t0": 1792858337.0,
 "tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
 "title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
@@ -3088,36 +3101,37 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"04abfdf4156f": 0.008,
+"0389e4023e98": 0.012,
 "052215b10942": 0.041,
 "06c8ec381956": 0.007,
 "0be925f7c9d8": 0.1,
 "102156a88d27": 0.017,
+"152a0ad55054": 0.001,
+"16181c747453": 0.018,
 "1b90d8290e1d": 0.026,
 "1fb4197932c1": 0.003,
 "3085259044f0": 0.008,
+"380b94a50c1b": 0.19,
 "3ebf1582a24e": 0.025,
 "4f9c8111add8": 0.027,
+"55dd8b4f3c14": 0.003,
 "58b99d5b4f2d": 0.001,
 "59cbfce09588": 0.023,
 "5c7a621efe0c": 0.007,
 "5fc931a6630d": 0.025,
-"6341b58d1cf0": 0.041,
+"63fa93cab221": 0.288,
 "68a2b3f8b9aa": 0.007,
-"6b9fb1af6ed9": 0.005,
 "6d271d581295": 0.006,
-"6fcadd6e82bd": 0.004,
-"7e3977c2ea9a": 0.015,
-"8ab8313889c6": 0.004,
+"7e3977c2ea9a": 0.027,
 "8f7c4e3f94a3": 0.008,
 "945ceb8824a5": 0.036,
 "94a3fe7d2df8": 0.011,
-"9a53eff44566": 0.402,
-"9c230636dc53": 0.014,
+"9a53eff44566": 0.536,
 "a0b1a45edc7c": 0.023,
 "ae633f7ae8b4": 0.031,
+"b57118ff6d8d": 0.011,
 "bc71d1240529": 0.007,
-"c108e1798c25": 0.054,
+"c0b8bdef44f4": 0.02,
 "c1453a71517f": 0.002,
 "c7f510206e4d": 0.288,
 "d4ba23e7896e": 0.001,
@@ -3126,7 +3140,6 @@
 "ef5f4763899e": 0.005,
 "f20e091bc4c3": 0.025,
 "f43114dc040b": 0.004,
-"f5e6ecabd2be": 0.002,
 "fab3debe6d72": 0.001
 },
 "sent": [
@@ -3930,65 +3943,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"cc1fac92c291",
-0,
-339,
+"9a53eff44566",
+9,
+306,
 1
 ],
 [
-"9a53eff44566",
-10,
-296,
+"cc1fac92c291",
+0,
+349,
+1
+],
+[
+"c7f510206e4d",
+28,
+288,
+1
+],
+[
+"63fa93cab221",
+16,
+4,
+1
+],
+[
+"2d60fe15414f",
+4,
+302,
 1
 ],
 [
 "380b94a50c1b",
 10,
-13,
-1
-],
-[
-"c7f510206e4d",
-29,
-278,
-1
-],
-[
-"2d60fe15414f",
-6,
-292,
+23,
 1
 ],
 [
 "651367aa7891",
 0,
-287,
+297,
 1
 ],
 [
 "dee8e8b2b203",
-13,
-252,
+12,
+262,
 1
 ],
 [
 "92edcc2941d3",
 0,
-345,
+355,
 1
 ],
 [
 "0be925f7c9d8",
-27,
-204,
-1
-],
-[
-"d273a7a45334",
-0,
-325,
+26,
+214,
 1
 ]
 ],
-"top_at": 1792873438.7098074
+"top_at": 1792874047.9670916
 }
