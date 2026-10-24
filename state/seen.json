@@ -181,7 +181,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792843867.2794971,
+"t": 1792844481.3074403,
 "t0": 1792841625.0,
 "tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
 "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
@@ -474,7 +474,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792843867.2794971,
+"t": 1792844481.3074403,
 "t0": 1792827272.0,
 "tgtext": "HYPE has dropped 22% from its peak.\n\nThe largest $HYPE short, 0xf02d, currently holds a short on 715,334 $HYPE ($54.57M), with $5.56M in unrealized profit and another $620K earned in funding fees.\n\nhttps://hypurrscan.io/address/0xf02d16a272a842f8bac1d9a9e773aba1933454c6#perps",
 "title": "HYPE has dropped 22% from its peak.",
@@ -549,7 +549,7 @@
 "Coinfomania",
 "bloomingbit"
 ],
-"t": 1792843867.2794971,
+"t": 1792844481.3074403,
 "t0": 1792841514.0,
 "tgtext": "",
 "title": "Swell Network Halts swETH, rswETH Deposits and Withdrawals, Says Assets Are Safe",
@@ -874,7 +874,7 @@
 "srcs": [
 "Incrypted"
 ],
-"t": 1792843867.2794971,
+"t": 1792844177.0593016,
 "t0": 1792822666.0,
 "tgtext": "",
 "title": "Crypto Market Lost over $466 Million in 24 Hours: Long Holders Were Hit the Hardest",
@@ -1006,6 +1006,20 @@
 "url": "https://t.me/binance_announcements/9082",
 "urls": []
 },
+"4d20356fcede": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain",
+"Wu Blockchain"
+],
+"t": 1792844481.3074403,
+"t0": 1792823326.0,
+"tgtext": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!  Including: 6,400 $ETH ($15.2M), 14M $ENA ($2.76M), 323,000 $UNI ($2.24M), 1.89M $ETHFI ($1.23M), 546,609 $AERO ($398K), 120,000 $PENDLE ($244K), 3M $ZAMA ($214K).  https://arkm.com/explorer/entity/arthur\u2026\nArthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI\n\nArthur Hayes said Maelstrom has closed all positions in its directional trading book, taking profits on ETH, ENA, UNI and other altcoins. He believes the market may need to fall before rising, citing uncertainty surrounding macroeconomic and geopolitical conditions. He plans to remain on the sidelines and wait for an all-clear signal.\n\nAccording to @EmberCN, Arthur Hayes reduced his holdings in various tokens totaling approximately $26.08 million, including 8,000 ETH (approx. $19 million), 14 million ENA (approx. $2.76 million), and 323,000 UNI (approx. $2.24 million). \u2014 link",
+"title": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens! Including: 6,400 ETH ($15.2M), 14M ENA ($2.76M), 323,000 UNI ($2.24M), 1.89M ETHFI ($1.23M), 546,609 AERO ($398K), 120,000 PENDLE ($244K), 3M ZAMA ($214K). ",
+"url": "https://t.me/lookonchainchannel/10760",
+"urls": []
+},
 "51394322acc4": {
 "coin": "ripple",
 "src": "TradingView",
@@ -1062,6 +1076,19 @@
 "urls": [
 "https://cointelegraph.com/news/irs-plans-lower-penalties-for-crypto-tax-disclosures-forbes-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"55b669abc2eb": {
+"coin": "",
+"src": "logos-pres.md",
+"srcs": [
+"logos-pres.md"
+],
+"t": 1792844481.3074403,
+"t0": 1792830295.0,
+"tgtext": "",
+"title": "A shadow bank that laundered \u20ac68 million via cryptocurrencies has been uncovered in Italy",
+"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcXVjUlpONnBmWXZYYjBOZGpyUjF1TjFjQTRLT19NWXZuMUh2U0FacVNrLTdiZlQ2VXVkMTcwUkE5QlZtUVhTSUxadmFMMEdJWjk0QnJhV3AxVTdwNHdOYjJxTVptVU5QVXVCQUJ2S05xUzFyVFpFa3dhelh5clJRa0x2bVE5NFVqZXdvb1JPWmhIUno5a243bkdFRlN1M2lVVmFDVXJnY2V2X0ZoRC1VbTBIdENBbzJUSHRySw?oc=5",
+"urls": []
 },
 "57fbacdb8161": {
 "coin": "bitcoin",
@@ -1170,21 +1197,6 @@
 "https://cointelegraph.com/news/dune-launches-real-time-data-feeds-covering-200-onchain-trading-venues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"5d4f121dcc27": {
-"coin": "",
-"src": "CoinDesk",
-"srcs": [
-"CoinDesk"
-],
-"t": 1792671374.595434,
-"t0": 1792668004.0,
-"tgtext": "",
-"title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
-"url": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
-"urls": [
-"https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble"
-]
-},
 "5da37dc7c8a2": {
 "coin": "bitcoin",
 "src": "bloomingbit",
@@ -1202,6 +1214,22 @@
 "urls": [
 "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"5f69eba1e414": {
+"coin": "",
+"src": "Pluang",
+"srcs": [
+"AMBCrypto",
+"Pluang",
+"TOKENPOST",
+"The Cryptonomist"
+],
+"t": 1792844481.3074403,
+"t0": 1792824372.0,
+"tgtext": "",
+"title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
+"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczdhREVSVTl4dE8zRDNCWEJRSkotUkFjM0lrQnlGRGxuZVl3RWpFNjhneVRSNFRJRUhsbnp5RW1Ea25rcGZKLW5iaE1UczRtVnE5WkZsNkQ3cTRJZjJJc3dyWVZPMnNlOXFSTTR2UHU3UkF1ekZWWlRrR0s1X2x2bVQwdjJDaGFyeVhRVlpUT2RQOGNUNHVMVF9GbVZESjl3b0E0?oc=5",
+"urls": []
 },
 "5fb3024622bd": {
 "coin": "",
@@ -1625,7 +1653,7 @@
 "srcs": [
 "Yahoo"
 ],
-"t": 1792843257.1686795,
+"t": 1792844481.3074403,
 "t0": 1792828861.0,
 "tgtext": "",
 "title": "Man jailed over cryptocurrency drug dealing",
@@ -1672,6 +1700,19 @@
 "tgtext": "",
 "title": "Cryptocurrency News: Reported Drift Hack Transfers Hit $61.56M as Remittix Earn Readies Morpho, Fluid and Maple Finance Pools",
 "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNREx4cDRPSzUzWTduMmZoOVlodE9DVE1fOTE3a1AteHBIS3Myc1lsV2o2c0hBbjlFS1lKNVA2NG9Xa0ZxYkcxRXJhcERwMDQyUmpSQ0FaUldoMGhNWlNCWXJkSEU1dW9EeEh0dzBOYVdRZjFWS0RtZ0lNWHF0ZkNnLTQ1NzV4S2ZCaEg0YkQ0bnIxM1lFeXNQQzdKLUk2eW9jbDZmMHRsY2RaaFRnTFZyT0pNYUNDMThsNW5kbGUwQno4dTJQMkNQWmlJVHY1TTYyRFNMT2RoNTg3SXJYbkZxQjNPR1dHOU1JZDFQNTlqZXQ4ck1wRTFEQ3RiVkoxMWg0UTRIZWFtU0tleGkwODkyTEVNSndrX09WcC1r?oc=5",
+"urls": []
+},
+"7ec93ede8400": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1792844481.3074403,
+"t0": 1792844404.0,
+"tgtext": "Tether's Bitcoin Mining Development Kit Gains Backing from 15 Mining Companies to Accelerate Automated Mining\n\nTether announced that its open-source Mining Development Kit (MDK) has secured joint support and integration commitments from 15 leading mining companies, ASIC manufacturers, and mining pools, including Bitmain, Bitdeer, Canaan, MicroBT, Foundry Digital, F2Pool, Luxor, and Block's Proto. By establishing a unified open interface, the kit breaks down barriers between disparate hardware and mining pools, aiming to accelerate AI- and software-driven cross-platform automated dispatch and autonomous operations for physical mining infrastructure. MDK released version 0.11 at the Plan \u20bf Forum in Lugano, with a stable 1.0 release targeted by the end of 2026. \u2014 link",
+"title": "Tether's Bitcoin Mining Development Kit Gains Backing from 15 Mining Companies to Accelerate Automated Mining",
+"url": "https://t.me/wublockchainenglish/26540",
 "urls": []
 },
 "7fddf41140c7": {
@@ -2257,7 +2298,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792843867.2794971,
+"t": 1792844481.3074403,
 "t0": 1792841578.0,
 "tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
 "title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
@@ -2735,15 +2776,17 @@
 },
 "c87d738b3e90": {
 "coin": "",
-"src": "Pluang",
+"src": "bloomingbit",
 "srcs": [
-"Pluang"
+"CryptoTicker",
+"Pluang",
+"bloomingbit"
 ],
-"t": 1792843867.2794971,
+"t": 1792844481.3074403,
 "t0": 1792823588.0,
 "tgtext": "",
-"title": "Initia blockchain exploited for $2.6M via unlim...",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSExCblJCazVxVGJTeG5Icld0ODNtUDVzS2pMRkhlQ1I4TVc5MHRCaHJqeHNZS05iajJZQ3BoWkE3QnBNa0xvbDY5TE0zWG5WUkpXWFAtZFBlT0FUNFVKaGh4c3l6Q1V4RktwcE9YMUhEMjBPWDhYMkgxQVhDaHpsY3llbmxpQQ?oc=5",
+"title": "Layer-1 Blockchain Initia Halts Entire Network After $2.6 Million Hack",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzUkR5SVl1MUxndHZXZnpGRTRGYUIxamdTWWlhbHVqZGRoTkZMQmFwYXR5SWR1cWQ0S0dfUmxzdThqT2xxOHAzWlZwWnlYLWlsdzQzUw?oc=5",
 "urls": []
 },
 "c9bff80d2514": {
@@ -3188,7 +3231,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1792843867.2794971,
+"t": 1792844177.0593016,
 "t0": 1792822588.0,
 "tgtext": "",
 "title": "Crypto Contract Liquidations Reach About $315 Million in 24 Hours",
@@ -3510,45 +3553,45 @@
 },
 "probs": {
 "050842c812d7": 0.16,
-"09c90228a4b2": 0.637,
+"09c90228a4b2": 0.452,
 "11fe9295ef11": 0.008,
 "198be2bc374d": 0.025,
-"1c7e6fb48dbb": 0.153,
+"21a9fa65e845": 0.044,
 "2574de60f667": 0.008,
+"25bdc815d78b": 0.581,
 "26a5688f5e6b": 0.033,
 "282099039f35": 0.439,
-"2c9c4883ac9d": 0.49,
 "3d1be279557c": 0.109,
 "3ed46d2dee02": 0.001,
 "41664e0e1940": 0.022,
-"41ff81de43a0": 0.552,
-"427ec60b9b55": 0.402,
+"43a20acf65f3": 0.09,
 "494968d159bf": 0.095,
+"4d20356fcede": 0.828,
 "514e3857f323": 0.037,
-"55b669abc2eb": 0.121,
+"55b669abc2eb": 0.192,
 "56e968640bed": 0.027,
+"5f69eba1e414": 0.907,
 "5fc732e9b95e": 0.006,
 "6043b79a5f53": 0.073,
 "63476b9ed579": 0.006,
-"668b423b491c": 0.101,
 "68cdfb18bb6e": 0.003,
-"764602ad67f5": 0.83,
-"7955dd7edb49": 0.228,
+"7ec93ede8400": 0.168,
 "81bafb4bafa7": 0.081,
 "8ac1e39a9de9": 0.002,
-"a12ca530ac5d": 0.528,
+"8caf2878401f": 0.077,
+"916bd7af32fc": 0.006,
+"a12ca530ac5d": 0.344,
 "a28df7038ee7": 0.012,
 "b384f7583f10": 0.035,
+"b429bfa0c22a": 0.154,
 "b9e5a1165e2d": 0.027,
+"ba02e93a4057": 0.019,
 "c120991d5d72": 0.041,
 "c6486df8ef8b": 0.037,
-"c87d738b3e90": 0.236,
-"d4c5ade52b07": 0.019,
+"c87d738b3e90": 0.709,
+"d4c5ade52b07": 0.01,
 "d7c949b4a7a6": 0.061,
-"d8a2d649d2cc": 0.049,
-"dc7b5d78aca3": 0.055,
-"eacfb4640c66": 0.343,
-"f5fbaf9f9864": 0.007
+"d8a2d649d2cc": 0.049
 },
 "sent": [
 {
@@ -4332,65 +4375,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"764602ad67f5",
-62,
-359,
-7
+"5f69eba1e414",
+65,
+335,
+4
 ],
 [
-"09c90228a4b2",
-10,
-37,
-1
+"4d20356fcede",
+13,
+353,
+2
+],
+[
+"c87d738b3e90",
+53,
+348,
+3
 ],
 [
 "25bdc815d78b",
 0,
-277,
+287,
 1
 ],
 [
-"41ff81de43a0",
-0,
-318,
-1
-],
-[
-"a12ca530ac5d",
+"09c90228a4b2",
 10,
-38,
-1
-],
-[
-"2c9c4883ac9d",
-3,
-356,
+48,
 1
 ],
 [
 "282099039f35",
 50,
-39,
+49,
 2
 ],
 [
-"427ec60b9b55",
+"a12ca530ac5d",
+10,
+48,
+1
+],
+[
+"7955dd7edb49",
 0,
-353,
+260,
 1
 ],
 [
-"eacfb4640c66",
-8,
-355,
+"55b669abc2eb",
+9,
+236,
 1
 ],
 [
-"c87d738b3e90",
-20,
-338,
+"7ec93ede8400",
+18,
+1,
 1
 ]
 ],
-"top_at": 1792843867.2794971
+"top_at": 1792844481.3074403
 }
