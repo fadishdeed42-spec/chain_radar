@@ -186,7 +186,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792876791.2398043,
+"t": 1792877987.8547564,
 "t0": 1792861200.0,
 "tgtext": "",
 "title": "a16z Drops \"Crypto\" From Its Name: What the $2.2 Billion Pivot Means for the Market",
@@ -670,7 +670,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792877400.798235,
+"t": 1792877987.8547564,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -839,19 +839,6 @@
 "tgtext": "",
 "title": "Over $210M in long crypto bets liquidated as Bi...",
 "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDNPdmt3VFlVRFVhNFhYeVJqSFRUQjZzRnRhRDNQc055YVNodW81RHFBMUthcER1YzhSSG1EZ25fY2V4Tk5rUDJIWTFubnBUaDV6dEMza09zSGl2NVl6SkJlcVNNeXJVT1lVSldBZERpbDhHUnpqd3o1eVNuT1lqSTZzZUxnNUJIS3B4WVFtVnlYQ2RrNzYzMF9YRHNSakdoS3gwMVVlS2JQOS1xMm5WcA?oc=5",
-"urls": []
-},
-"42c7957c9b9b": {
-"coin": "",
-"src": "TradingView",
-"srcs": [
-"TradingView"
-],
-"t": 1792704903.5331774,
-"t0": 1792689290.0,
-"tgtext": "",
-"title": "CoinDCX denies second hack as blockchain investigators allege $16 million theft",
-"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNblBjOG1HMTJyMm1kRUNlMXM2TzlreGxYdDBOb2JuUjBKbmQteTZqNTFnYXVuVmE1SUczZnhac2JBcy1ROVN4a09QTVNQUkdldW05dnNpS1BIM0ppSktKOS14RjVaMDJGT0ZsOFJWSFUwTWlOWGloR1NJT0s2LVdnZGVWa3dQS1VTazZTa1lBcWhMZmpFSjQ2ejNqWlpfUU5ZRkdpenR4UjNWVXI0bl90QmtqREh2cFRaT1VQaTFfX2lCSFpFZXY1VEJlUGlFM1E0elRjTURjaG0?oc=5",
 "urls": []
 },
 "42e91d293a47": {
@@ -1251,7 +1238,7 @@
 "srcs": [
 "Free Press Journal"
 ],
-"t": 1792877095.210041,
+"t": 1792877683.702676,
 "t0": 1792861776.0,
 "tgtext": "",
 "title": "Mumbai FDA Suspends Licences Of 7 Eateries Over Food Safety Violations; Destroys 564 Litres Of Milk, Seizes",
@@ -1278,7 +1265,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792877400.798235,
+"t": 1792877987.8547564,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -1304,7 +1291,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792877400.798235,
+"t": 1792877683.702676,
 "t0": 1792856218.0,
 "tgtext": "Don't forget about this massive $ETH bull!\n\nIf the market keeps dropping, this whale's 93,184 $ETH ($214M) in long positions could get liquidated.\n\nLiquidation prices: $2,256.45 and $2,226.53.\n\nhttps://hypurrscan.io/address/0x0392a716dbee1661ea781881826b928daeb5d7d9#perps\nhttps://hypurrscan.io/address/0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9#perps",
 "title": "Don't forget about this massive ETH bull!",
@@ -1327,6 +1314,22 @@
 "https://www.theblock.co/news/regulation/2026-10-22-blockchain-association-pushes-crypto-tax-clarity-broader-bill-stalls-423475",
 "https://bitcoinmagazine.com/news/blockchain-association-presses-congress"
 ]
+},
+"659f67657a00": {
+"coin": "ethereum",
+"src": "Pluang",
+"srcs": [
+"Pluang",
+"The Crypto Times",
+"The Cryptonomist",
+"The Defiant"
+],
+"t": 1792877987.8547564,
+"t0": 1792857502.0,
+"tgtext": "",
+"title": "X100's Ethereum exploit drains $4.85M USDT and 550,000 X tokens after governance takeover",
+"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSjNOR21UazF2ZmJtOWVlRDcydEZxM2kwdVZDQ191SGt5M0hYSEVPOWlTTERIbjRPUFIxUVlzczhFMlBkbHYta3dMcHlqSEdleHNyd2VTdEFPV2FUSTU2WVlITldkRFBaTW53U2JiYmtxLWtRTVBxVm5EYnpjXzlraVNIU2VUc2Qxa0VMeV9fNlE?oc=5",
+"urls": []
 },
 "65a1a6fbb98d": {
 "coin": "",
@@ -1862,7 +1865,7 @@
 "The Block",
 "Yahoo Finance"
 ],
-"t": 1792877400.798235,
+"t": 1792877987.8547564,
 "t0": 1792856820.0,
 "tgtext": "",
 "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
@@ -2392,6 +2395,19 @@
 "url": "https://t.me/lookonchainchannel/10752",
 "urls": []
 },
+"c0cfaf62044a": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792877987.8547564,
+"t0": 1792877637.0,
+"tgtext": "\u26a1 BIG: Fidelity's Zack Wainwright says $BTC took nearly 16 years to hit $100K, but the jump to $200K could happen much faster.\n\nHe says Bitcoin's up nearly 50% from its June low near $58K.\n\nNews | Markets | YouTube",
+"title": "BIG: Fidelity's Zack Wainwright says BTC took nearly 16 years to hit $100K, but the jump to $200K could happen much faster.",
+"url": "https://t.me/cointelegraph/72830",
+"urls": []
+},
 "c108e1798c25": {
 "coin": "",
 "src": "www.tokenpost.com",
@@ -2483,7 +2499,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792877400.798235,
+"t": 1792877987.8547564,
 "t0": 1792856744.0,
 "tgtext": "",
 "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
@@ -2518,6 +2534,20 @@
 "tgtext": "\ud83c\uddec\ud83c\udde7 REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation. \n\nIt says \"true DeFi\" isn't even a legal concept.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The UK FCA just told DeFi projects that slapping \"decentralized\" on your app won't get you out of regulation.",
 "url": "https://t.me/cointelegraph/72824",
+"urls": []
+},
+"ccfabb5f12ff": {
+"coin": "near",
+"src": "TOKENPOST",
+"srcs": [
+"Pluang",
+"TOKENPOST"
+],
+"t": 1792877987.8547564,
+"t0": 1792869364.0,
+"tgtext": "",
+"title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1obmJHVXRfYzZqemdwaWNhRmRJTENGQzl3WUFkNDhia3MzUEdyNU1qSE9KOE5EZFdyV05aazJ6ckZ4bHl3a3NqME4wTHhuOVVXdWdhRUYxejludw?oc=5",
 "urls": []
 },
 "ce0c470c628e": {
@@ -2758,7 +2788,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792877400.798235,
+"t": 1792877987.8547564,
 "t0": 1792858337.0,
 "tgtext": "\ud83d\udd25 BIG: Over a third of all $ETH is now staked, hitting a record of roughly 36% of supply.\n\nHolders aren't selling, they're locking up.\n\nNews | Markets | YouTube",
 "title": "BIG: Over a third of all ETH is now staked, hitting a record of roughly 36% of supply.",
@@ -2811,7 +2841,7 @@
 "srcs": [
 "The Times of Israel"
 ],
-"t": 1792877400.798235,
+"t": 1792877987.8547564,
 "t0": 1792860004.0,
 "tgtext": "",
 "title": "Rebuking Netanyahu, Bank of Israel says crypto can\u2019t be \u2018route for bypassing sanctions\u2019",
@@ -3159,14 +3189,15 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0042dbf6bc43": 0.007,
 "0389e4023e98": 0.016,
+"06c8ec381956": 0.016,
 "0be925f7c9d8": 0.073,
-"102156a88d27": 0.023,
+"102156a88d27": 0.039,
 "1b90d8290e1d": 0.035,
 "1fb4197932c1": 0.008,
 "26819dca80cf": 0.033,
 "380b94a50c1b": 0.242,
+"4877515920d8": 0.023,
 "4f9c8111add8": 0.037,
 "55dd8b4f3c14": 0.004,
 "59cbfce09588": 0.055,
@@ -3174,25 +3205,24 @@
 "61cca061c1ab": 0.027,
 "625bcaf0e431": 0.017,
 "63fa93cab221": 0.193,
-"659f67657a00": 0.057,
+"659f67657a00": 0.069,
 "68a2b3f8b9aa": 0.01,
 "6d271d581295": 0.015,
-"77061018b04a": 0.01,
 "793d7d87a214": 0.011,
 "7e3977c2ea9a": 0.036,
-"8bbb60b0a6a9": 0.021,
+"8bbb60b0a6a9": 0.037,
 "8d5b2c011a89": 0.019,
-"8e9f6167c1c7": 0.006,
-"8f7c4e3f94a3": 0.011,
+"8f7c4e3f94a3": 0.018,
 "94a3fe7d2df8": 0.116,
 "9a540a5ae19b": 0.007,
 "a0b1a45edc7c": 0.031,
-"beb6500a9943": 0.046,
+"beb6500a9943": 0.028,
 "c0b8bdef44f4": 0.027,
-"c1453a71517f": 0.003,
-"c7f510206e4d": 0.354,
+"c0cfaf62044a": 0.188,
+"c1453a71517f": 0.001,
+"c7f510206e4d": 0.222,
+"ccfabb5f12ff": 0.081,
 "d4ba23e7896e": 0.003,
-"d995da648ec1": 0.091,
 "df1229393aad": 0.017,
 "eca83951efe0": 0.024,
 "ef5f4763899e": 0.007,
@@ -4001,65 +4031,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"c7f510206e4d",
-21,
-344,
-1
-],
-[
 "dee8e8b2b203",
-4,
-318,
-1
-],
-[
-"2d60fe15414f",
-0,
-358,
+3,
+328,
 1
 ],
 [
 "380b94a50c1b",
 10,
-79,
+89,
+1
+],
+[
+"c7f510206e4d",
+19,
+354,
 1
 ],
 [
 "63fa93cab221",
 16,
-59,
+69,
 1
 ],
 [
-"651367aa7891",
-0,
-353,
+"c0cfaf62044a",
+10,
+6,
 1
 ],
 [
 "94a3fe7d2df8",
-15,
-343,
+13,
+353,
 3
 ],
 [
-"d995da648ec1",
+"ccfabb5f12ff",
 41,
-132,
+144,
 2
-],
-[
-"61664e9ce0f6",
-0,
-358,
-1
 ],
 [
 "e2c2dd83ec5b",
 0,
-290,
+300,
 1
+],
+[
+"0be925f7c9d8",
+17,
+280,
+1
+],
+[
+"659f67657a00",
+60,
+341,
+4
 ]
 ],
-"top_at": 1792877400.798235
+"top_at": 1792877987.8547564
 }
