@@ -272,7 +272,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792866255.0,
 "tgtext": "",
 "title": "Avalanche (AVAX): In-Kind From $235,800",
@@ -387,7 +387,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792864827.0,
 "tgtext": "",
 "title": "Arthur Hayes exits crypto trading positions as analysts track $26 million in sales",
@@ -558,7 +558,7 @@
 "srcs": [
 "Free Press Journal"
 ],
-"t": 1792884088.4418225,
+"t": 1792884394.3833628,
 "t0": 1792865732.0,
 "tgtext": "",
 "title": "Houthi Missile Interceptions Leave Shrapnel In Mecca, Medina Regions",
@@ -745,7 +745,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -1036,7 +1036,7 @@
 "srcs": [
 "Morocco News"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792865475.0,
 "tgtext": "",
 "title": "Morocco joins UAE operation identifying $39 billion in fraud-linked assets - HESPRESS English",
@@ -1063,7 +1063,7 @@
 "Pluang",
 "The Block"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792863840.0,
 "tgtext": "",
 "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
@@ -1126,6 +1126,20 @@
 "tgtext": "\u26a1\ufe0f NOW: CZ says AI hacking fears around crypto are overblown since the internet and banking run on weaker encryption, but warns:\n\n\u201cAI doesn\u2019t need to break Bitcoin\u2019s cryptography to cause damage, leaked data already enables more phishing, social engineering, etc.\u201d\n\nNews | Markets | YouTube",
 "title": "NOW: CZ says AI hacking fears around crypto are overblown since the internet and banking run on weaker encryption, but warns:",
 "url": "https://t.me/cointelegraph/72808",
+"urls": []
+},
+"595997a43228": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"Yahoo Finance"
+],
+"t": 1792884698.6222436,
+"t0": 1792878480.0,
+"tgtext": "",
+"title": "Bitcoin or Gold: Which Is the Better Inflation Hedge With Prices Up 3.7%?",
+"url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUS1kdVFaR0tHOVB4X3RtdlIxb1hKVFROd0hWQ0M0SGhXbzRiQk9sLUVnRkNLZEtmUkF0dDR3WUhBUXJqX01Fbkh1NmV0djdTbzBkZ0IzV2dxREoyWVBCSFRSRF82U2VRYTUxU1hIOW1takdKZndsOU5hR29zRnpfb3hUaFJBSHI4NnRRYWVjS1owcDdQcG1Mbkc1NjFEOGNBUFE2LXowMG45NkZTSFpFQzE0MENHREhheWN5amlNalRjSktXTjRjSHlsSVFYUHJQdW1VWGhna0dHUTBxSk8tWUVvRnRnVHNiMWdkNUhMSDhiWjVpbTlJ?oc=5",
 "urls": []
 },
 "59cbfce09588": {
@@ -1374,7 +1388,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -2442,21 +2456,6 @@
 "https://www.theblock.co/news/markets/2026-10-23-netanyahu-israel-blockchain-plan-possible-sanctions-427792"
 ]
 },
-"bcf124da3205": {
-"coin": "bitcoin",
-"src": "Bitcoin Magazine",
-"srcs": [
-"Bitcoin Magazine"
-],
-"t": 1792711642.2492874,
-"t0": 1792693922.0,
-"tgtext": "",
-"title": "China Moves to Confiscate $5 Billion in Bitcoin From Fraudster Who Fled to UK: Report",
-"url": "https://bitcoinmagazine.com/news/china-to-confiscate-billions-in-bitcoin",
-"urls": [
-"https://bitcoinmagazine.com/news/china-to-confiscate-billions-in-bitcoin"
-]
-},
 "be8dc7c465d4": {
 "coin": "ethereum",
 "src": "NewsCord",
@@ -2497,7 +2496,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792872046.0,
 "tgtext": "",
 "title": "Circle\u2019s new USDC auctions let institutions collect the fees others pay to cash out",
@@ -2886,7 +2885,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792869497.0,
 "tgtext": "",
 "title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
@@ -3065,7 +3064,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1792884088.4418225,
+"t": 1792884698.6222436,
 "t0": 1792872007.0,
 "tgtext": "",
 "title": "Technical Analysis of Direxion Small Cap Bear 3X ETF (CRYPTOCOM:TZAUSD.P)",
@@ -3311,9 +3310,8 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0389e4023e98": 0.016,
+"0389e4023e98": 0.028,
 "052215b10942": 0.031,
-"102156a88d27": 0.039,
 "1b90d8290e1d": 0.059,
 "26819dca80cf": 0.033,
 "380b94a50c1b": 0.103,
@@ -3322,27 +3320,28 @@
 "5446654c785e": 0.055,
 "5542e87dc111": 0.001,
 "55dd8b4f3c14": 0.006,
+"595997a43228": 0.041,
 "61cca061c1ab": 0.027,
 "63fa93cab221": 0.048,
-"68a2b3f8b9aa": 0.022,
+"68a2b3f8b9aa": 0.005,
 "6d271d581295": 0.015,
 "6d75c875c7db": 0.003,
+"7165dd656d7e": 0.008,
 "793d7d87a214": 0.011,
 "7f44c82c4166": 0.001,
 "8ab8313889c6": 0.008,
 "8bbb60b0a6a9": 0.02,
 "8d5b2c011a89": 0.031,
-"8e9f6167c1c7": 0.006,
+"8e9f6167c1c7": 0.003,
 "969c59929f46": 0.016,
 "97cfe457d354": 0.008,
 "9a540a5ae19b": 0.007,
 "a0b1a45edc7c": 0.007,
-"beb6500a9943": 0.026,
+"beb6500a9943": 0.014,
 "c0b8bdef44f4": 0.046,
 "c0cfaf62044a": 0.022,
 "c0e7aa26b81c": 0.002,
 "c1453a71517f": 0.002,
-"c9abf2248f9b": 0.015,
 "d4ba23e7896e": 0.003,
 "d532e52f9d26": 0.005,
 "d995da648ec1": 0.049,
@@ -4154,64 +4153,64 @@
 "top": [
 [
 "380b94a50c1b",
-9,
-191,
-1
-],
-[
-"1b90d8290e1d",
-0,
-321,
-1
-],
-[
-"5446654c785e",
-14,
-337,
-2
-],
-[
-"d995da648ec1",
-33,
-243,
-2
-],
-[
-"63fa93cab221",
-16,
-171,
-1
-],
-[
-"c0b8bdef44f4",
 8,
 201,
 1
 ],
 [
+"1b90d8290e1d",
+0,
+331,
+1
+],
+[
+"5446654c785e",
+12,
+348,
+2
+],
+[
+"d995da648ec1",
+32,
+253,
+2
+],
+[
+"63fa93cab221",
+16,
+181,
+1
+],
+[
+"c0b8bdef44f4",
+6,
+211,
+1
+],
+[
+"595997a43228",
+20,
+104,
+2
+],
+[
 "102156a88d27",
 0,
-297,
+307,
 1
 ],
 [
 "e9a2cbbef3ea",
-22,
-201,
+20,
+212,
 1
 ],
 [
 "4f9c8111add8",
-26,
-310,
-1
-],
-[
-"26819dca80cf",
-0,
-306,
+25,
+320,
 1
 ]
 ],
-"top_at": 1792884088.4418225
+"top_at": 1792884698.6222436
 }
