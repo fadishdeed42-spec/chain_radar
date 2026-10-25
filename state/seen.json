@@ -919,7 +919,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792929723.5438838,
+"t": 1792930668.4574516,
 "t0": 1792920814.0,
 "tgtext": "",
 "title": "Macao student arrested over alleged dorm theft of MOP55,000 in electronics",
@@ -1075,7 +1075,7 @@
 "KuCoin",
 "openPR.com"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792926654.0,
 "tgtext": "",
 "title": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
@@ -1485,7 +1485,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792919320.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds to $80,600 after weekend dip below $80,000 triggers $547M crypto liquidations",
@@ -1782,7 +1782,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792913507.0,
 "tgtext": "\ud83d\udd25 NEW: Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.\n\n$532M of it traded on weekends alone, over just one month.\n\nNews | Markets | YouTube",
 "title": "Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.",
@@ -2304,7 +2304,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792914737.0,
 "tgtext": "",
 "title": "Over $815M in crypto liquidations hit as Bitcoi...",
@@ -2438,7 +2438,7 @@
 "BeInCrypto",
 "Yahoo Finance"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792910280.0,
 "tgtext": "",
 "title": "Trump Says Iran Strikes Could Come Today. Can Bitcoin Hold $80,000?",
@@ -2608,7 +2608,7 @@
 "Crypto Briefing",
 "Pluang"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792918838.0,
 "tgtext": "",
 "title": "25x leveraged Ether long liquidated with $180K loss amid crypto dip",
@@ -2736,6 +2736,19 @@
 "tgtext": "",
 "title": "Bitcoin Falls Below $80,000 as U.S. Pulls Staff From Middle East Posts",
 "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQnp4XzF6NjNUOVY5WEhpc0NXdExOV2MtVXFYZWc3SHA4NGY4Y3VKZnFWbEFJWWFlM0kycXFMMUJPMFl3N2lQUHlDQzV1T3U3alpDLVdxNTQyXzZ3Y2xkeV9KREJETHdJdmJOdmxpMG5TZ05VNGpROXdiVTNNVnRZRWVTQXF0MHMyd200TU0wS25oSl9ZWlhRM05vQ1IzaTk1dTAzVHRESHFhTTQ?oc=5",
+"urls": []
+},
+"d1b226fb1537": {
+"coin": "bitcoin",
+"src": "Yahoo Finance",
+"srcs": [
+"Yahoo Finance"
+],
+"t": 1792930668.4574516,
+"t0": 1792922359.0,
+"tgtext": "",
+"title": "Bitcoin Slips Below $80K As Peter Schiff Warns Of \u2018Very Long Weekend\u2019 For BTC Investors \u2014 Mike McGlone Says \u2018Don\u2019t Fight The Fed\u2019",
+"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ25nc1ZTMl9xcTctNUhxM0tCaFF5SEFxMnFRQ3Y3UGhtVjJKR2g2eXJ4MkRRRGNTdE9DWVRFdVR4YzZ6VW1ZNW41QmxwVmRCZ3dBdlZ5amVJSEthbG1NZ3ZJVzcyZ1VZbVpNaDB6a3ZYSWxFYm1FbkVkb3NRS3laU3lJV3Q2aFZLREpEalFDb09kT2tWaUE4ek9n?oc=5",
 "urls": []
 },
 "d2675ce0a189": {
@@ -3159,7 +3172,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792909892.0,
 "tgtext": "",
 "title": "Aave V3.8 Reentrancy Guard Preserves Flash-Loan Liquidations",
@@ -3304,7 +3317,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792930349.0973105,
+"t": 1792930668.4574516,
 "t0": 1792925488.0,
 "tgtext": "",
 "title": "Crypto Crash: Why the Top Cryptos Lost Up to 4% in One Week",
@@ -3318,7 +3331,7 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"01c6004fdf5a": 0.29,
+"01c6004fdf5a": 0.156,
 "07b15a5ab258": 0.027,
 "08a65cc5dc26": 0.059,
 "0b482c3c0ec5": 0.13,
@@ -3338,22 +3351,22 @@
 "70b4b053b43d": 0.173,
 "7399124bd0f6": 0.023,
 "78770d04ced1": 0.08,
-"792f434341c0": 0.051,
-"7a587a352c61": 0.1,
 "7fde10e167d1": 0.069,
 "89c2c7738fff": 0.028,
 "94e1de4bb136": 0.052,
+"99da28d8cfc3": 0.039,
 "9f09196d0611": 0.021,
 "a226da3bd92a": 0.009,
 "aed3c0ab0894": 0.026,
 "aedca0b3a8f0": 0.078,
 "b35462ec6b69": 0.141,
 "b3f6edc902e5": 0.444,
-"bb4927f2e929": 0.446,
 "beb471039c73": 0.175,
 "bfd3fdf06bda": 0.044,
 "c5d97ca53ed2": 0.002,
-"c81865a9bd0c": 0.613,
+"c81865a9bd0c": 0.337,
+"d1b226fb1537": 0.379,
+"d7cde55f442c": 0.092,
 "dea425933a35": 0.07,
 "ef2047972e49": 0.289,
 "fed0058c3832": 0.27,
@@ -3991,63 +4004,63 @@
 [
 "55afe9e24b80",
 65,
-62,
-2
-],
-[
-"c81865a9bd0c",
-40,
-192,
-2
-],
-[
-"bb4927f2e929",
-21,
-359,
+67,
 2
 ],
 [
 "b3f6edc902e5",
-21,
-260,
+20,
+266,
 1
 ],
 [
 "8937e12a7699",
 0,
-281,
+286,
 1
 ],
 [
-"01c6004fdf5a",
-20,
-186,
+"d1b226fb1537",
+24,
+138,
+1
+],
+[
+"c81865a9bd0c",
+39,
+197,
 2
 ],
 [
 "ef2047972e49",
-4,
-341,
+3,
+346,
 1
 ],
 [
 "fed0058c3832",
 20,
-81,
+86,
 1
 ],
 [
 "beb471039c73",
-8,
-334,
+7,
+340,
 2
 ],
 [
 "70b4b053b43d",
-31,
-184,
+30,
+189,
+1
+],
+[
+"47d4824c979c",
+28,
+164,
 1
 ]
 ],
-"top_at": 1792930349.0973105
+"top_at": 1792930668.4574516
 }
