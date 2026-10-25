@@ -177,7 +177,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792928520.0,
 "tgtext": "",
 "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
@@ -836,7 +836,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792947606.4962993,
+"t": 1792948522.4496818,
 "t0": 1792927735.0,
 "tgtext": "",
 "title": "Macao student arrested over alleged dorm theft of MOP55,000 in electronics",
@@ -992,7 +992,7 @@
 "KuCoin",
 "openPR.com"
 ],
-"t": 1792947910.6831105,
+"t": 1792948218.1585958,
 "t0": 1792926654.0,
 "tgtext": "",
 "title": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
@@ -1111,7 +1111,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792940385.0,
 "tgtext": "",
 "title": "CoinDCX admits $15.99M loss days after denying hack claims",
@@ -1342,7 +1342,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792933200.0,
 "tgtext": "",
 "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
@@ -1506,7 +1506,7 @@
 "24/7 Wall St.",
 "Yahoo Finance"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792945927.0,
 "tgtext": "",
 "title": "Bitcoin Analysis: BTC Slipped Below $80,000 Again. Is $77,600 the Next Stop?",
@@ -2339,7 +2339,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792934497.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 Russia says it is ready to supply unlimited diesel to the United States.\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 Russia says it is ready to supply unlimited diesel to the United States.",
@@ -2422,7 +2422,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792932851.0,
 "tgtext": "",
 "title": "Fomo co-founder rules out new token or Pump.fun rival, citing a market already flooded with coins",
@@ -2857,7 +2857,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792943790.0,
 "tgtext": "",
 "title": "Keystone customers say breach exposed data the hardware wallet maker promised to delete",
@@ -3205,7 +3205,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792931714.0,
 "tgtext": "",
 "title": "Zcash Slides Amid $14M Long Liquidations as NU7 Upgrade Looms",
@@ -3259,7 +3259,7 @@
 "srcs": [
 "FinanceFeeds"
 ],
-"t": 1792947910.6831105,
+"t": 1792948522.4496818,
 "t0": 1792935740.0,
 "tgtext": "",
 "title": "Bitcoin Below $80K: $404M in Crypto Longs Liquidated",
@@ -3364,12 +3364,11 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
+"00e2d1a0d0f0": 0.009,
 "034096b626af": 0.037,
-"07b15a5ab258": 0.013,
+"08321da8bacd": 0.011,
 "0b482c3c0ec5": 0.136,
-"1941c7f50fa8": 0.014,
 "1ef3341ad5f0": 0.059,
-"26a5688f5e6b": 0.014,
 "319702ebcec7": 0.056,
 "466838e05f77": 0.006,
 "47d4824c979c": 0.089,
@@ -3377,14 +3376,15 @@
 "49ca91979741": 0.028,
 "4dc49531617e": 0.042,
 "4e995165a58a": 0.032,
-"55afe9e24b80": 0.551,
 "5dc805ac0816": 0.223,
-"6658718c4eb0": 0.151,
+"67643e042474": 0.067,
 "6e37537bb553": 0.044,
 "7096b6a0c6c1": 0.041,
+"71aa35638c53": 0.015,
 "74608c17a73b": 0.027,
 "776f8e848808": 0.133,
 "797a049b8de9": 0.074,
+"7ebe29aee37d": 0.008,
 "828aa0a3e5d4": 0.019,
 "8988f3a6d492": 0.028,
 "8a76fb55fcd9": 0.009,
@@ -3395,13 +3395,13 @@
 "b161b8a6ad05": 0.005,
 "b35462ec6b69": 0.046,
 "b525233f4076": 0.256,
-"be142fdc358f": 0.13,
-"beb80a4a5b48": 0.027,
+"b91a2b188aef": 0.023,
+"c3795de2fcf4": 0.021,
 "cde39abb51d4": 0.002,
 "d3298fd34df1": 0.011,
 "d6d798c1f3b8": 0.178,
 "e8084a0049b9": 0.038,
-"f2e483b8f4e9": 0.153,
+"f2e483b8f4e9": 0.075,
 "f6244696ffe6": 0.015,
 "f9b71bd95ac5": 0.102
 },
@@ -4035,65 +4035,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"55afe9e24b80",
-42,
-354,
-2
-],
-[
 "b525233f4076",
-5,
-224,
+3,
+234,
 1
 ],
 [
 "5dc805ac0816",
 41,
-125,
+136,
 1
 ],
 [
 "d6d798c1f3b8",
 35,
-69,
-1
-],
-[
-"f2e483b8f4e9",
-20,
-270,
+79,
 1
 ],
 [
 "6658718c4eb0",
-2,
-245,
+0,
+255,
 1
 ],
 [
 "0b482c3c0ec5",
 0,
-323,
+333,
 1
 ],
 [
 "776f8e848808",
 28,
-33,
+43,
 2
 ],
 [
 "be142fdc358f",
-1,
-251,
+0,
+261,
 1
 ],
 [
 "f9b71bd95ac5",
-28,
-203,
+27,
+213,
+1
+],
+[
+"47d4824c979c",
+6,
+346,
+1
+],
+[
+"f2e483b8f4e9",
+18,
+280,
 1
 ]
 ],
-"top_at": 1792947910.6831105
+"top_at": 1792948522.4496818
 }
