@@ -1,0 +1,50 @@
+name: short
+# Automatic Chain Secrets Shorts. The Telegram bot starts this with a job id and a stage:
+#   voice  -> house voice (Chatterbox + am_liam) -> audio preview in Telegram (checkpoint 2)
+#   render -> real chart, animation, sfx, mix -> finished 1080p Short in Telegram (checkpoint 3)
+on:
+  workflow_dispatch:
+    inputs:
+      job: {description: 'job id (folder in jobs/)', required: true}
+      stage: {description: 'voice or render', required: true, default: voice}
+permissions:
+  contents: write
+concurrency:
+  group: short-${{ github.event.inputs.job }}
+  cancel-in-progress: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: install (voice)
+        if: github.event.inputs.stage == 'voice'
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng rubberband-cli
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts soundfile requests "kokoro>=0.9" "misaki[en]" librosa faster-whisper && pip cache purge
+      - name: install (render)
+        if: github.event.inputs.stage == 'render'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libraqm0 fonts-dejavu-core
+          pip install -q numpy opencv-python-headless pillow requests soundfile
+      - name: run
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -u studio/run.py ${{ github.event.inputs.stage }} ${{ github.event.inputs.job }} 2>&1 | grep -v Sampling | tee jobs/${{ github.event.inputs.job }}/${{ github.event.inputs.stage }}.runlog; exit ${PIPESTATUS[0]}
+      - name: keep the final video (90 days)
+        if: always() && github.event.inputs.stage == 'render'
+        uses: actions/upload-artifact@v4
+        with: {name: 'short-${{ github.event.inputs.job }}', path: 'jobs/${{ github.event.inputs.job }}/short*.mp4', if-no-files-found: ignore}
+      - name: save job files
+        if: always()
+        run: |
+          git config user.name chain-radar; git config user.email noreply@github.com
+          J=jobs/${{ github.event.inputs.job }}
+          for f in $J/storyboard.json $J/voice.json $J/plan.json $J/voice.log $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/*.runlog studio/ref_am_liam.wav; do [ -f $f ] && git add -f $f; done
+          git commit -qm "short ${{ github.event.inputs.stage }} ${{ github.event.inputs.job }} [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done || true

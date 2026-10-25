@@ -1,0 +1,89 @@
+{
+ "title": "He Paid for a Hit... The Hitman Was a Cop",
+ "tone": "mystery",
+ "ep": 18,
+ "respell": {
+  "Ulbricht": "Ull-brick"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2013-09-01",
+  "end": "2013-10-20",
+  "src": "Bitstamp"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "Prosecutors say he paid $80,000 for a murder... and the hitman was a cop.",
+   "hit": "cop",
+   "visual": {
+    "type": "title",
+    "text": "THE HITMAN WAS A COP",
+    "icon": "officer"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Ross Ulbricht ran Silk Road, the biggest dark web market on Earth.",
+   "hit": "silk",
+   "visual": {
+    "type": "person",
+    "name": "Ross Ulbricht",
+    "role": "Dread Pirate Roberts",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "He believed a worker stole his bitcoin, so he hired a hitman called Nob.",
+   "hit": "hitman",
+   "visual": {
+    "type": "counter",
+    "value": 80000,
+    "prefix": "$",
+    "label": "paid for the hit"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Nob was a DEA agent. The photos were staged. The victim was alive.",
+   "hit": "staged",
+   "visual": {
+    "type": "stamp",
+    "icon": "officer",
+    "label": "Nob = DEA agent Carl Force",
+    "word": "STAGED"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "On Oct 2, 2013, the FBI shut Silk Road down and bitcoin crashed to $85.",
+   "hit": "crashed",
+   "visual": {
+    "type": "chart",
+    "date": "2013-10-02",
+    "label": "OCT 2 \u00b7 FBI SHUTS SILK ROAD"
+   }
+  },
+  {
+   "role": "end",
+   "line": "He got life in prison. And the agent who stole the coins? He went to prison too.",
+   "hit": "too",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "Ulbricht",
+     "LIFE"
+    ],
+    "right": [
+     "The agents",
+     "PRISON"
+    ],
+    "note": "Everyone lost"
+   }
+  }
+ ],
+ "description": "2013: Silk Road boss Ross Ulbricht believed a worker had stolen his bitcoin. Prosecutors say he paid a hitman called Nob $80,000. Nob was DEA agent Carl Force, the photos were staged and the worker was alive. Oct 2, 2013: the FBI shut Silk Road down and BTC fell to about $85 on Bitstamp. Ulbricht got life in 2015 (pardoned in January 2025); both corrupt agents went to prison. The murder-for-hire allegation was never tried in court.",
+ "hashtags": "#silkroad #bitcoin #truecrime #crypto #shorts #cryptohistory",
+ "pinned": "Craziest plot twist in crypto history? Tell me a crazier one \ud83d\udc47"
+}
