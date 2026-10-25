@@ -999,7 +999,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489314,
+"offset": 138489315,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
@@ -1123,8 +1123,11 @@
 },
 "scenes": [
 {
+"beats": [],
+"footage": "",
 "hit": "richest",
 "line": "He became the richest inmate in American history while holding a multi-billion dollar empire.",
+"photo": "",
 "role": "hook",
 "visual": {
 "icon": "crown",
@@ -1134,8 +1137,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "mcdonalds",
 "line": "Changpeng Zhao started from humble beginnings, working at McDonald's in Vancouver flipping burgers.",
+"photo": "",
 "role": "setup",
 "visual": {
 "name": "Changpeng Zhao",
@@ -1145,8 +1151,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "2013",
 "line": "In 2013, a poker game changed everything when a friend introduced him to Bitcoin over drinks.",
+"photo": "",
 "role": "setup",
 "visual": {
 "day": 1,
@@ -1156,8 +1165,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "$900000",
 "line": "He went all in. He sold his apartment in Shanghai for $900,000 to buy entirely into Bitcoin.",
+"photo": "",
 "role": "setup",
 "visual": {
 "icon": "house",
@@ -1169,8 +1181,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "crashed",
 "line": "Bitcoin crashed shortly after. But Zhao did not panic. He stayed focused on building infrastructure.",
+"photo": "",
 "role": "turn",
 "visual": {
 "date": "2014-02-15",
@@ -1179,8 +1194,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "2017",
 "line": "By July 2017, he launched Binance. It processed orders at lightning speed and completely dominated markets.",
+"photo": "",
 "role": "turn",
 "visual": {
 "day": 17,
@@ -1190,8 +1208,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "largest",
 "line": "Within 180 days, Binance became the largest crypto exchange on Earth, handling billions daily.",
+"photo": "",
 "role": "twist",
 "visual": {
 "icon": "bitcoin",
@@ -1203,8 +1224,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "investigated",
 "line": "Regulators closed in fast. US authorities investigated Binance for severe anti-money laundering failures.",
+"photo": "",
 "role": "twist",
 "visual": {
 "bad": true,
@@ -1215,8 +1239,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "guilty",
 "line": "In November 2023, CZ stepped down as CEO and pleaded guilty to federal compliance violations.",
+"photo": "",
 "role": "setup",
 "visual": {
 "name": "Changpeng Zhao",
@@ -1226,8 +1253,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "$4300000000",
 "line": "Binance agreed to pay a staggering $4,300,000,000 fine to the United States government.",
+"photo": "",
 "role": "setup",
 "visual": {
 "icon": "bank",
@@ -1239,8 +1269,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "2024",
 "line": "In April 2024, a federal judge in Seattle sentenced CZ to 4 months inside a federal prison.",
+"photo": "",
 "role": "setup",
 "visual": {
 "day": 30,
@@ -1250,8 +1283,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "california",
 "line": "He served his time at Lompoc low-security facility in California, trading luxury for a tiny cell.",
+"photo": "",
 "role": "setup",
 "visual": {
 "bad": true,
@@ -1262,8 +1298,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "intact",
 "line": "Despite sitting behind bars, his massive net worth remained completely intact due to his equity.",
+"photo": "",
 "role": "setup",
 "visual": {
 "icon": "safe",
@@ -1275,8 +1314,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "released",
 "line": "Released in late 2024, CZ remains barred from running Binance directly but keeps massive influence.",
+"photo": "",
 "role": "setup",
 "visual": {
 "name": "Changpeng Zhao",
@@ -1286,8 +1328,11 @@
 }
 },
 {
+"beats": [],
+"footage": "",
 "hit": "empire",
 "line": "He became the richest inmate in American history while holding a multi-billion dollar empire.",
+"photo": "",
 "role": "end",
 "visual": {
 "icon": "crown",
