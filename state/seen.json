@@ -197,7 +197,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792940799.1229477,
+"t": 1792942027.102196,
 "t0": 1792928520.0,
 "tgtext": "",
 "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
@@ -666,7 +666,7 @@
 "srcs": [
 "The420.in"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792931410.0,
 "tgtext": "",
 "title": "Odisha Cyber Fraud Probe Uncovers Mule Account Network Linked to China",
@@ -1044,7 +1044,7 @@
 "KuCoin",
 "openPR.com"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792926654.0,
 "tgtext": "",
 "title": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
@@ -1163,7 +1163,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792940385.0,
 "tgtext": "",
 "title": "CoinDCX admits $15.99M loss days after denying hack claims",
@@ -1570,7 +1570,7 @@
 "srcs": [
 "Coinfomania"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792926109.0,
 "tgtext": "",
 "title": "Yapeswap Suffers $21.9K Loss from Governance Exploit",
@@ -1638,7 +1638,7 @@
 "Coin Gabbar",
 "Crypto News"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792923512.0,
 "tgtext": "",
 "title": "Keystone wallet hack exposes buyers\u2019 home addresses, sparking security fears",
@@ -2371,7 +2371,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792934497.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 Russia says it is ready to supply unlimited diesel to the United States.\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 Russia says it is ready to supply unlimited diesel to the United States.",
@@ -2556,7 +2556,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792920686.0,
 "tgtext": "",
 "title": "25x leveraged Ether long liquidated with $180K loss amid crypto dip",
@@ -2780,7 +2780,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792922359.0,
 "tgtext": "",
 "title": "Bitcoin Slips Below $80K As Peter Schiff Warns Of \u2018Very Long Weekend\u2019 For BTC Investors \u2014 Mike McGlone Says \u2018Don\u2019t Fight The Fed\u2019",
@@ -3328,7 +3328,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792941718.501934,
+"t": 1792942027.102196,
 "t0": 1792925488.0,
 "tgtext": "",
 "title": "Crypto Crash: Why the Top Cryptos Lost Up to 4% in One Week",
@@ -3344,12 +3344,11 @@
 "probs": {
 "02578ade09a9": 0.081,
 "07b15a5ab258": 0.008,
-"08321da8bacd": 0.007,
-"0b482c3c0ec5": 0.088,
+"08321da8bacd": 0.011,
+"0b482c3c0ec5": 0.136,
 "1ef3341ad5f0": 0.059,
-"2805e3456a32": 0.007,
+"26a5688f5e6b": 0.009,
 "319702ebcec7": 0.116,
-"46425e8b9eab": 0.003,
 "466838e05f77": 0.006,
 "47d4824c979c": 0.089,
 "4858b48b0c5b": 0.04,
@@ -3360,7 +3359,9 @@
 "5dc805ac0816": 0.223,
 "6658718c4eb0": 0.099,
 "67643e042474": 0.042,
+"6ff205a7b513": 0.002,
 "71aa35638c53": 0.009,
+"78482480b89d": 0.049,
 "797a049b8de9": 0.074,
 "7a587a352c61": 0.151,
 "7ebe29aee37d": 0.008,
@@ -3370,14 +3371,13 @@
 "a2bcce05fa2a": 0.02,
 "a2bd5100be13": 0.004,
 "acee926431d3": 0.111,
+"b0142be9caf1": 0.035,
 "b161b8a6ad05": 0.003,
 "b35462ec6b69": 0.046,
 "b525233f4076": 0.175,
-"bc60966b0a93": 0.153,
 "beb80a4a5b48": 0.017,
 "c21bc6447fe2": 0.18,
 "d1b226fb1537": 0.225,
-"dea425933a35": 0.034,
 "e8084a0049b9": 0.024,
 "f2e483b8f4e9": 0.068,
 "f9b71bd95ac5": 0.044,
@@ -4014,64 +4014,64 @@
 "top": [
 [
 "55afe9e24b80",
-56,
-251,
+55,
+256,
 2
 ],
 [
 "d1b226fb1537",
 5,
-323,
+328,
 1
 ],
 [
 "5dc805ac0816",
 41,
-22,
+27,
 1
 ],
 [
 "7fde10e167d1",
-29,
-303,
+28,
+309,
 2
 ],
 [
 "c21bc6447fe2",
-3,
-351,
+2,
+356,
 1
 ],
 [
 "b525233f4076",
 10,
-120,
-1
-],
-[
-"bc60966b0a93",
-0,
-356,
+126,
 1
 ],
 [
 "7a587a352c61",
-25,
-260,
+24,
+265,
 1
 ],
 [
 "fed0058c3832",
 8,
-271,
+276,
+1
+],
+[
+"0b482c3c0ec5",
+9,
+225,
 1
 ],
 [
 "319702ebcec7",
 28,
-172,
+177,
 1
 ]
 ],
-"top_at": 1792941718.501934
+"top_at": 1792942027.102196
 }
