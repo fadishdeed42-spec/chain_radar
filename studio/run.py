@@ -61,9 +61,10 @@ def daily(sym, start, end):
     s, e = int(s.timestamp()), min(int(e.timestamp()), int(time.time()))
     rows, src = [], ''
     try:                                                                  # Bitstamp: BTC/ETH/LTC/XRP history back to 2011
-        r = requests.get(f'https://www.bitstamp.net/api/v2/ohlc/{sym.lower()}usd/', params={'step': 86400, 'limit': 1000, 'start': s, 'end': e}, timeout=20)
+        r = requests.get(f'https://www.bitstamp.net/api/v2/ohlc/{sym.lower()}usd/', params={'step': 86400, 'limit': min(1000, (e - s) // 86400 + 1), 'start': s}, timeout=20)
         rows = [(int(x['timestamp']), float(x['open']), float(x['high']), float(x['low']), float(x['close']), float(x['volume']))
                 for x in r.json().get('data', {}).get('ohlc', [])]
+        rows = [x for x in rows if s <= x[0] <= e]                         # only the requested window
         src = 'Bitstamp'
     except Exception as ex:
         print('bitstamp', ex)
@@ -86,7 +87,7 @@ def daily(sym, start, end):
             rows = sorted(set(out)); src = 'Coinbase'
         except Exception as ex:
             print('coinbase', ex)
-    rows = sorted({r[0]: r for r in rows}.values())
+    rows = sorted({r[0]: r for r in rows if s <= r[0] <= e}.values())
     if len(rows) > 220:                                                   # long stories: weekly candles keep the chart readable
         wk = []
         for i in range(0, len(rows), 7):
