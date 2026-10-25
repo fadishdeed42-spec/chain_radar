@@ -39,7 +39,7 @@
 "Substack",
 "Wu Blockchain"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792919186.0,
 "tgtext": "Asia's Weekly TOP10 Crypto News\n\nSouth Korea Regulates Stablecoins as Payment Means, China to Build National Blockchain Network, HSBC Launches Stablecoin, Hong Kong Tokenization Moves to Deployment Phase, Robinhood Secures Dubai Approval.\n\nFor the complete article and weekly curated reports, subscribe to our Substack: \u2014 link",
 "title": "Asia's weekly TOP10 crypto news: South Korea Regulates Stablecoins as Payment Means, China to Build National Blockchain Network, HSBC Launches Stablecoin and Top10 News",
@@ -366,7 +366,7 @@
 "srcs": [
 "Benzinga"
 ],
-"t": 1792922847.781014,
+"t": 1792923168.1815317,
 "t0": 1792904264.0,
 "tgtext": "",
 "title": "Bitcoin Will Hit $100,000 Before $60,000, Says Mike Alfred, Who\u2019d Bet Up to $1 Million \u2014 Scaramucci Backs the Call",
@@ -946,7 +946,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792920814.0,
 "tgtext": "",
 "title": "Macao student arrested over alleged dorm theft of MOP55,000 in electronics",
@@ -1498,7 +1498,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792919320.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds to $80,600 after weekend dip below $80,000 triggers $547M crypto liquidations",
@@ -2054,16 +2054,17 @@
 "urls": []
 },
 "9a49a32225f8": {
-"coin": "",
-"src": "Pluang",
+"coin": "bitcoin",
+"src": "TradingView",
 "srcs": [
-"Pluang"
+"Pluang",
+"TradingView"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792903681.0,
 "tgtext": "",
-"title": "$184M in leveraged Ether positions liquidated a...",
-"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb0FDQTRzOXhCS1U4UkJ4WlFlc0psLUZscURsbmxtUmx1Wml5cVQ0aDU5cC1BN1VkdEtobzhaZFk2ZG1HcWZnOWRlUkVzbmVSU3Z2SmVnREFMSkdOZ3hEbWwxX2ZfaV85ZjlnMnhtUFdlRl9CR0RJVUpUdzJWNVh1TkMxRjhWQjRQRThralIzM3FUNFlXdUhDZE5FdnpUVEZxR3hHWW1JR29Cb0k?oc=5",
+"title": "Over $815M in crypto positions liquidated as Bitcoin, Ether prices drop",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ3VfZTFWNjZfTXdjOFlsY1luUGxROG0xY05YWU1YYVVBa0N4T3dHRjRiT0ViQVh5LV9BblF6MEhKSVJ5UHBPbkJ5cTFmUnZGV05tODJmZXJkVV9CbFo0VHdDMDd3Z1JWWFdjbE1XbUZHUmt6QXp0akFJeVdYTUdGcTZFcDE5NG9HQ3NHRHduck1jY20xM2RzVnZuTmItaWpRSW1HN3h4eVJKd2h4Q012V1M4NGlmU1JCV3RxTHVOVGdtZTliLTIteFJ1WnZJalE?oc=5",
 "urls": []
 },
 "9a53eff44566": {
@@ -2207,7 +2208,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792904506.0,
 "tgtext": "Smart trader 0xe813 opened a long on 26,974 $ETH ($63.88M) after the market drop and is already up $842K in unrealized profit.\n\nThis trader has a 100% win rate and made $3.3M on $NEAR.\n\nhttps://hyperbot.network/trader/0xe81309ec9b79309e4d108ae3a92d1aa618cd6d74",
 "title": "Smart trader 0xe813 opened a long on 26,974 ETH ($63.88M) after the market drop and is already up $842K in unrealized profit.",
@@ -2328,7 +2329,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792914737.0,
 "tgtext": "",
 "title": "Over $815M in crypto liquidations hit as Bitcoi...",
@@ -2448,7 +2449,7 @@
 "BeInCrypto",
 "Yahoo Finance"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792910280.0,
 "tgtext": "",
 "title": "Trump Says Iran Strikes Could Come Today. Can Bitcoin Hold $80,000?",
@@ -2727,7 +2728,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792903323.0,
 "tgtext": "\ud83c\uddee\ud83c\uddf1 BIG: The Bank of Israel just shot down Netanyahu's idea of using crypto to dodge sanctions, saying crypto \"cannot be used as a route for bypassing sanctions.\" \n\nNetanyahu's reply: \"I listen, but I do what I think [is best].\"\n\nNews | Markets | YouTube",
 "title": "BIG: The Bank of Israel just shot down Netanyahu's idea of using crypto to dodge sanctions, saying crypto \"cannot be used as a route for bypassing sanctions.\"",
@@ -2977,6 +2978,20 @@
 "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc3NtM1M3Vm1RRkw2LU13T0hKRVFRLVoxLWlIekhtUmFMSGsxS2tQN0FDdHhOcmdqclhybUlVRVNZSnNtSk10R2ZieGRSSDZJQnU1elIxQVprMHpQZFJaRGY5cHdha3NuOF85bWVHYUdxc3FtV2pQdVphQU1jdVczT2txY3NKbjNvVDJ5Y3loY2FFREpCdXRUUG82R0twdHdTcTdkckM5T3YwbnQ1aFVueUlmS2RHOU81eFFMLVB3MktuNnVLU2d3SA?oc=5",
 "urls": []
 },
+"e2ddff4ce011": {
+"coin": "bitcoin",
+"src": "Stocktwits",
+"srcs": [
+"Stocktwits",
+"StreetInsider"
+],
+"t": 1792923478.276105,
+"t0": 1792907189.0,
+"tgtext": "",
+"title": "Bitcoin Slips Below $80K As Peter Schiff Warns Of \u2018Very Long Weekend\u2019 For BTC Investors \u2014 Mike McGlone Says \u2018Don\u2019t Fight The Fed\u2019",
+"url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPRk9hUWs2OVg0Z0RrQVNWRDJhbEw3ZGIyUWo4YVNNdWtORVNlOE1BRk44S1pjVDQ4blNlem1adnZKNUlzamxFOWEtbUxKd3JxbzlwclBGc3dYajJCb3QyTDF5ZC1yamdHX3hjUEU2bnZOQ0xScG1Fc19RWWo1LTdvMGUwQzIzUkdVVGNPYTNNT0JpNWpsVFY3RmtiTkZyeURBS3N0UXhWQzVfbHZucnd5RnBpNU5lb1ZCRnBJSzl1MVpobWlGS092Ulg0dnVIczFJc1VhWlRhUVZqOXA2T1VWYUFpNmlCTUlRYmxGOGJiOHNqYzJNUGh1ak9RWUIxZzJ3T0diY0JjSkFxeExaUWNQQlB2TlJUMXBvZE8wRmx6TmZMZw?oc=5",
+"urls": []
+},
 "e467e7e5d020": {
 "coin": "monero",
 "src": "Wu Blockchain",
@@ -3128,7 +3143,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1792922847.781014,
+"t": 1792923478.276105,
 "t0": 1792909892.0,
 "tgtext": "",
 "title": "Aave V3.8 Reentrancy Guard Preserves Flash-Loan Liquidations",
@@ -3280,9 +3295,9 @@
 "22207f999434": 0.024,
 "251c9747148c": 0.02,
 "2805e3456a32": 0.008,
-"2b50cae72b28": 0.014,
+"2b50cae72b28": 0.023,
 "31317935f338": 0.043,
-"320bb8c02dcb": 0.062,
+"320bb8c02dcb": 0.029,
 "33fa5f9f3f58": 0.038,
 "46425e8b9eab": 0.002,
 "47d4824c979c": 0.136,
@@ -3295,19 +3310,19 @@
 "8937e12a7699": 0.065,
 "8c4a0cc1cd58": 0.042,
 "99da28d8cfc3": 0.019,
-"9a49a32225f8": 0.157,
-"a226da3bd92a": 0.022,
+"9a49a32225f8": 0.215,
+"a226da3bd92a": 0.007,
 "a44b9798824c": 0.432,
 "b35462ec6b69": 0.084,
 "b3f6edc902e5": 0.198,
 "bb4927f2e929": 0.086,
-"be3cd126282b": 0.061,
+"be3cd126282b": 0.029,
 "beb471039c73": 0.181,
-"bfd3fdf06bda": 0.021,
+"bfd3fdf06bda": 0.034,
 "d2675ce0a189": 0.72,
 "d2e1c2e7b252": 0.02,
-"e2ddff4ce011": 0.047,
-"ef2047972e49": 0.297
+"e2ddff4ce011": 0.236,
+"ef2047972e49": 0.16
 },
 "sent": [
 {
@@ -3939,63 +3954,63 @@
 [
 "d2675ce0a189",
 0,
-325,
+336,
 1
 ],
 [
 "01c6004fdf5a",
 20,
-61,
+72,
 2
 ],
 [
 "a44b9798824c",
 0,
-306,
+316,
 1
 ],
 [
-"ef2047972e49",
-21,
-216,
-1
-],
-[
-"b3f6edc902e5",
-31,
-135,
-1
-],
-[
-"beb471039c73",
-25,
-209,
+"e2ddff4ce011",
+22,
+271,
 2
 ],
 [
 "9a49a32225f8",
-13,
-319,
+22,
+330,
+2
+],
+[
+"b3f6edc902e5",
+31,
+146,
+1
+],
+[
+"beb471039c73",
+23,
+220,
+2
+],
+[
+"ef2047972e49",
+19,
+226,
 1
 ],
 [
 "70b4b053b43d",
 31,
-59,
+69,
 1
 ],
 [
 "47d4824c979c",
 28,
-34,
-1
-],
-[
-"1850c7a4ac8c",
-0,
-310,
+44,
 1
 ]
 ],
-"top_at": 1792922847.781014
+"top_at": 1792923478.276105
 }
