@@ -991,7 +991,7 @@
 },
 "menu_v": 4,
 "mute_until": 1792902190.2352862,
-"offset": 138489298,
+"offset": 138489301,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
@@ -1085,6 +1085,90 @@
 },
 "sh_analyze": "2026-10-25",
 "sh_collect": "2026-10-25",
+"short_edit": "ff17bb68",
+"shorts": {
+"ff17bb68": {
+"facts": "Real headlines about this story (oldest first):\n- Feb 05, 2026: Bitcoin's volatility spikes to its highest since FTX's collapse as prices crater to nearly $60,000 (CoinDesk)\n- Feb 11, 2026: A timeline of cryptocurrency exchange FTX's historic collapse - ABC News (Breaking News, Latest News and Videos)\n- May 20, 2026: The Next FTX? Crypto Exchange Risks Are Rising Again in 2026 (Bitcoin Foundation)\n- May 26, 2026: Fenwick & West to Pay $54 Million in FTX Collapse Settlement (2) (Bloomberg Law News)\n- Jun 07, 2026: Bitcoin\u2019s Worst Week Since FTX Raises The Question: Is The Bottom Already In? (TradingView)\n- Jun 09, 2026: FTX scam explained: Everything you need to know (TechTarget)\n- Jul 06, 2026: Michael Saylor's Strategy's Situation Feels 'Eerily Similar' to FTX Collapse, Says Crypto Analyst: 'Rumors Create Doubt, Doubt Creates Selling\u2026' (Yahoo Finance)\n- Jul 11, 2026: Sam Bankman-Fried recounts FTX\u2019s collapse and why he feels he was wrongly convicted of fraud (Mother Jones)\n- Jul 18, 2026: FTX\u2019s bankruptcy plan says customers are being paid back \u201cin full.\u201d But many feel they\u2019re being shortchanged. (Mother Jones)\n- Aug 19, 2026: FTX executives avoid fines in CFTC settlement over exchange collapse (Investing.com)\n- Oct 01, 2026: FTX has resurrected after it died by fraud, but who gets the Anthropic stock in the aftermath of Bankman-Fried? (MoneyWise.com)\n- Oct 08, 2026: Netflix Releases Trailer for Series About FTX Collapse (Mezha.net)\n- Oct 17, 2026: Exclusive | Ex-FTX boss finds Sam Bankman-Fried \u2018love story\u2019 series on Netflix laughable: \u2018No f\u2013king way\u2019 (New York Post)\n- Oct 22, 2026: Sam Bankman-Fried says he has paid his debts (The Economist)\n- Oct 24, 2026: Is Bitcoin Dead? CZ Says Those Calls Have Marked the Best Times to Buy (24/7 Wall St.)",
+"sb": {
+"chart": {
+"end": "2022-11-30",
+"start": "2022-11-01",
+"symbol": "BTC"
+},
+"description": "In November 2022, crypto exchange FTX collapsed, wiping out $32 billion in value and leading to major fraud convictions. Discover the true story behind one of history's largest financial disasters.",
+"est_secs": 28,
+"hashtags": "#crypto #ftx #bitcoin #investing #news #blockchain #money",
+"pinned": "Do you think retail customers will ever fully recover their funds?",
+"respell": {
+"FTX": "F-T-X",
+"Sam Bankman-Fried": "Sam Bank-man Freed"
+},
+"scenes": [
+{
+"hit": "vanished",
+"line": "$32 billion vanished in days, but the real crime happened behind closed doors.",
+"role": "hook",
+"visual": {
+"icon": "skull",
+"label": "Lost in FTX collapse",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 32000000000
+}
+},
+{
+"hit": "2022",
+"line": "In November 2022, crypto exchange FTX faced a sudden liquidity crisis.",
+"role": "setup",
+"visual": {
+"day": 11,
+"event": "FTX files for bankruptcy",
+"month": "NOV 2022",
+"type": "date"
+}
+},
+{
+"hit": "misused",
+"line": "Auditors found billions in customer funds were secretly misused by Alameda Research.",
+"role": "turn",
+"visual": {
+"bad": true,
+"icon": "bank",
+"label": "Customer Funds",
+"type": "stamp",
+"word": "GONE"
+}
+},
+{
+"hit": "convicted",
+"line": "Founder Sam Bankman-Fried was convicted of massive fraud.",
+"role": "twist",
+"visual": {
+"name": "Sam Bankman-Fried",
+"prop": "cuffs",
+"role": "Former CEO",
+"type": "person"
+}
+},
+{
+"hit": "days",
+"line": "Bankruptcy plans claim some customers may get paid back, but $32 billion vanished in days.",
+"role": "end",
+"visual": {
+"date": "2022-11-11",
+"label": "NOV 11 \u00b7 CRASH \u00b7 $32B LOST",
+"type": "chart"
+}
+}
+],
+"title": "How $32 Billion Vanished Overnight \ud83d\udcc9",
+"tone": "serious"
+},
+"t": 1792922945.0776737,
+"topic": "ftx collapse"
+}
+},
 "story_i": 2,
 "trained": "2026-10-25"
 }

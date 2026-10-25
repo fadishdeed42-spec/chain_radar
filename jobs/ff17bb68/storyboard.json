@@ -1,0 +1,77 @@
+{
+ "title": "How $32 Billion Vanished Overnight \ud83d\udcc9",
+ "tone": "serious",
+ "respell": {
+  "FTX": "F-T-X",
+  "Sam Bankman-Fried": "Sam Bank-man Freed"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2022-11-01",
+  "end": "2022-11-30"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$32 billion vanished in days, but the real crime happened behind closed doors.",
+   "hit": "vanished",
+   "visual": {
+    "type": "counter",
+    "value": 32000000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Lost in FTX collapse",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "In November 2022, crypto exchange FTX faced a sudden liquidity crisis.",
+   "hit": "2022",
+   "visual": {
+    "type": "date",
+    "month": "NOV 2022",
+    "day": 11,
+    "event": "FTX files for bankruptcy"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Auditors found billions in customer funds were secretly misused by Alameda Research.",
+   "hit": "misused",
+   "visual": {
+    "type": "stamp",
+    "icon": "bank",
+    "label": "Customer Funds",
+    "word": "GONE",
+    "bad": true
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Founder Sam Bankman-Fried was convicted of massive fraud.",
+   "hit": "convicted",
+   "visual": {
+    "type": "person",
+    "name": "Sam Bankman-Fried",
+    "role": "Former CEO",
+    "prop": "cuffs"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Bankruptcy plans claim some customers may get paid back, but $32 billion vanished in days.",
+   "hit": "days",
+   "visual": {
+    "type": "chart",
+    "date": "2022-11-11",
+    "label": "NOV 11 \u00b7 CRASH \u00b7 $32B LOST"
+   }
+  }
+ ],
+ "description": "In November 2022, crypto exchange FTX collapsed, wiping out $32 billion in value and leading to major fraud convictions. Discover the true story behind one of history's largest financial disasters.",
+ "hashtags": "#crypto #ftx #bitcoin #investing #news #blockchain #money",
+ "pinned": "Do you think retail customers will ever fully recover their funds?",
+ "est_secs": 28,
+ "ep": 25
+}
