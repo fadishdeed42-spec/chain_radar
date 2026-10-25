@@ -1,0 +1,10 @@
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/a55db3fd sfx
+$ ffmpeg -y -v error -f concat -safe 0 -i jobs/a55db3fd/parts.txt -c copy jobs/a55db3fd/silent.mp4
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/a55db3fd/voicep.wav jobs/a55db3fd/timing.json jobs/a55db3fd/voice_tight.wav
+ok jobs/a55db3fd/voice_tight.wav
+$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/a55db3fd/music_long.wav
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/a55db3fd/silent.mp4 jobs/a55db3fd/voice_tight.wav jobs/a55db3fd/sfx.wav jobs/a55db3fd/music_long.wav 102.68 jobs/a55db3fd/short.mp4 0.08
+voice-over-bed dB while speaking: median 48.2, 5th pct 24.0, worst 7.9
+worst windows: [(65.0, np.float32(7.9)), (24.8, np.float32(10.9)), (38.8, np.float32(11.3)), (17.8, np.float32(11.7)), (11.8, np.float32(12.1))]
+mixed -> jobs/a55db3fd/short.mp4
+$ ffmpeg -y -v error -i jobs/a55db3fd/short.mp4 -c:v libx264 -b:v 3250k -maxrate 4225k -bufsize 6500k -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/a55db3fd/short_s.mp4
