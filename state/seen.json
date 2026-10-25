@@ -247,7 +247,7 @@
 "srcs": [
 "Coinfomania"
 ],
-"t": 1792966497.9544501,
+"t": 1792966804.4350863,
 "t0": 1792953743.0,
 "tgtext": "",
 "title": "LiteLLM Completes Investigation into v1.107.0 Release Exploit",
@@ -275,7 +275,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792961189.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 President Trump says high gas prices are a \"small price to pay\" for the Iran war.\n\n\"I thought gas would be double and triple.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 President Trump says high gas prices are a \"small price to pay\" for the Iran war.",
@@ -313,6 +313,19 @@
 "urls": [
 "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"1676580b90a3": {
+"coin": "",
+"src": "Bitcoin Foundation",
+"srcs": [
+"Bitcoin Foundation"
+],
+"t": 1792967107.8328812,
+"t0": 1792953599.0,
+"tgtext": "",
+"title": "Keystone Breach Exposes Customer Addresses and Order Details",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1UwQS1tT3hVcTg0OFdfTjJzX0R2SWl6a0ZxNXNJS21LMFpRdHNEdTZqOGtMcGpwWEQyUTZpQXRYR0xobTRzRjk5Wk1GYXRNYW9rMnJ0aTFyNEt2SDhRYU5tY0NPQnZ6b1J6S3Rnb0hvMDRLSFRzbjFxVWhiRjF1WkhMaER1VThabG5wTHpZbFNzV2QzUkUyd2g5dkRlNjFSMWZ2LWhFU1U?oc=5",
+"urls": []
 },
 "16de651d1efc": {
 "coin": "ethereum",
@@ -1102,7 +1115,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792953629.0,
 "tgtext": "",
 "title": "How $37 million stolen from Americans moved through a Bahamas bank into Tether\u2019s USDT",
@@ -1610,7 +1623,7 @@
 "24/7 Wall St.",
 "Yahoo Finance"
 ],
-"t": 1792966497.9544501,
+"t": 1792966804.4350863,
 "t0": 1792945927.0,
 "tgtext": "",
 "title": "Bitcoin Analysis: BTC Slipped Below $80,000 Again. Is $77,600 the Next Stop?",
@@ -1748,7 +1761,7 @@
 "srcs": [
 "CryptoNinjas"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792946172.0,
 "tgtext": "",
 "title": "Initia Halts L1 and Rollups After $2.7M Exploit Tied to Unauthorized Token Minting",
@@ -1788,7 +1801,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792963956.0,
 "tgtext": "\ud83d\udd25 TODAY: Tom Lee says 99% of finance still runs on old rails, and that's exactly why banks are underestimating how fast crypto could take over.\n\nBanks without a crypto plan could get left behind.\n\nNews | Markets | YouTube",
 "title": "TODAY: Tom Lee says 99% of finance still runs on old rails, and that's exactly why banks are underestimating how fast crypto could take over.",
@@ -1928,7 +1941,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792952160.0,
 "tgtext": "",
 "title": "Swell Halts swETH and rswETH Withdrawals After Exchange Rates Jump About 6% Above NAV",
@@ -2180,7 +2193,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792949564.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa LATEST: The ECB says the digital euro is about \"sovereignty,\" with a pilot next year and a rollout as early as 2029.\n\nTwo-thirds of euro-area card payments currently run through non-European companies. \n\n\nNews | Markets | YouTube",
 "title": "The ECB says the digital euro is about \"sovereignty,\" with a pilot next year and a rollout as early as 2029.",
@@ -2406,6 +2419,19 @@
 "url": "https://t.me/cointelegraph/72835",
 "urls": []
 },
+"b0377108be91": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1792967107.8328812,
+"t0": 1792966847.0,
+"tgtext": "JUST IN: Elon Musk warns lenders have almost completely cut off funding to companies fully dependent on AI data center revenue.\n\n@WatcherGuru",
+"title": "Elon Musk warns lenders have almost completely cut off funding to companies fully dependent on AI data center revenue.",
+"url": "https://t.me/WatcherGuru/15623",
+"urls": []
+},
 "b35462ec6b69": {
 "coin": "",
 "src": "Dimsum Daily",
@@ -2509,10 +2535,11 @@
 "src": "The Block",
 "srcs": [
 "Crypto Briefing",
+"Cryptonews.net",
 "KuCoin",
 "The Block"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792953960.0,
 "tgtext": "",
 "title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a 'false alarm'",
@@ -2999,7 +3026,7 @@
 "srcs": [
 "Brave New Coin"
 ],
-"t": 1792966497.9544501,
+"t": 1792967107.8328812,
 "t0": 1792956818.0,
 "tgtext": "",
 "title": "Binance Founder CZ Makes Shocking Claim About AI Hacking: \u201cNo Crypto Wallet Is 100% Safe\u201d",
@@ -3507,16 +3534,16 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0b4bd8e74909": 0.009,
 "10673f65aaf7": 0.092,
 "13d080433ac4": 0.329,
-"1676580b90a3": 0.056,
+"1676580b90a3": 0.129,
 "3a5b2cdea672": 0.008,
 "459514354f7f": 0.05,
-"4aec460f984c": 0.003,
+"4aec460f984c": 0.004,
 "4e995165a58a": 0.024,
 "530aa46f00da": 0.01,
 "57a84a211385": 0.187,
+"6a95a65b8ab5": 0.049,
 "73e41d712e59": 0.006,
 "74608c17a73b": 0.007,
 "74ecc04c851f": 0.039,
@@ -3527,18 +3554,18 @@
 "871781e852bb": 0.004,
 "8b2bd4fa07e0": 0.012,
 "8c26984475bb": 0.22,
-"8f94aa458d8a": 0.022,
+"8f94aa458d8a": 0.036,
 "9b866dca5219": 0.062,
 "9c92f32f9428": 0.009,
-"9e0cdf69a5ad": 0.468,
 "a59142a4d79b": 0.019,
 "a929523d9673": 0.008,
 "ae8e60faf8fb": 0.016,
+"b0377108be91": 0.452,
 "b108ea1e3d29": 0.004,
-"b933d52d98ce": 0.845,
+"b933d52d98ce": 0.624,
 "c80801072bc5": 0.007,
 "cde39abb51d4": 0.002,
-"d2d4ab1a807d": 0.026,
+"d2d4ab1a807d": 0.062,
 "d6a9e2aedb60": 0.139,
 "dabebb9c9a84": 0.004,
 "e3af7f2a7a14": 0.018,
@@ -4096,64 +4123,64 @@
 "top": [
 [
 "b933d52d98ce",
-63,
-209,
-3
+71,
+219,
+4
 ],
 [
 "9e0cdf69a5ad",
 0,
-282,
+292,
+1
+],
+[
+"b0377108be91",
+18,
+4,
 1
 ],
 [
 "13d080433ac4",
 18,
-88,
+99,
 1
 ],
 [
 "8200240e8ef7",
 10,
-42,
+53,
 1
 ],
 [
 "8c26984475bb",
-25,
-239,
+23,
+249,
 1
 ],
 [
 "80b7e46e6eb6",
-34,
-339,
+33,
+349,
 1
 ],
 [
 "57a84a211385",
-45,
-214,
+44,
+225,
 1
 ],
 [
 "d6a9e2aedb60",
 23,
-161,
+171,
 1
 ],
 [
-"10673f65aaf7",
-31,
-213,
+"1676580b90a3",
+29,
+225,
 1
-],
-[
-"776f8e848808",
-0,
-343,
-2
 ]
 ],
-"top_at": 1792966497.9544501
+"top_at": 1792967107.8328812
 }
