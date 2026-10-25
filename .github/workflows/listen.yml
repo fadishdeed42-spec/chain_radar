@@ -27,6 +27,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           mkdir -p state
           python -u radar.py ${{ github.event.inputs.mode || 'listen' }} 2>&1 | tee state/listen.log
@@ -34,7 +35,7 @@ jobs:
         if: always()
         run: |
           git config user.name chain-radar; git config user.email noreply@github.com
-          for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json; do [ -f $f ] && git add $f; done; git commit -qm "listen state [skip ci]" && for i in 1 2 3 4; do git pull --rebase -q -X theirs && git push -q && break; sleep 3; done || true
+          for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json state/shorts.json; do [ -f $f ] && git add $f; done; git commit -qm "listen state [skip ci]" && for i in 1 2 3 4; do git pull --rebase -q -X theirs && git push -q && break; sleep 3; done || true
       - name: start next run (relay)
         if: always() && (github.event.inputs.mode || 'listen') == 'listen'
         run: |

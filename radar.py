@@ -5,6 +5,7 @@ import os, re, json, time, html, hashlib, io, sys
 from datetime import datetime, timezone, timedelta
 import requests, feedparser
 import brain
+import shorts
 
 TOKEN, CHAT = os.environ.get('TELEGRAM_TOKEN', ''), os.environ.get('TELEGRAM_CHAT_ID', '')
 GEMINI = os.environ.get('GEMINI_API_KEY', '')
@@ -390,10 +391,14 @@ def junk_story(title, items, coin):
     return False
 
 
+from zoneinfo import ZoneInfo
+BEIRUT = ZoneInfo('Asia/Beirut')                                         # follows Lebanon's summer/winter clock changes
+
+
 def quiet(now=None):
-    """1:00-9:00 Beirut (22:00-06:00 UTC): only huge news gets through."""
-    h = datetime.fromtimestamp(now or time.time(), timezone.utc).hour
-    return h >= 22 or h < 6
+    """1:00-9:00 Beirut time: only huge news gets through."""
+    h = datetime.fromtimestamp(now or time.time(), BEIRUT).hour
+    return 1 <= h < 9
 
 
 def confirmed(srcs):
@@ -602,7 +607,7 @@ def git_sync(force=False):
     _last_sync[0] = time.time()
     sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
     sh('git config user.name chain-radar; git config user.email noreply@github.com')
-    sh('for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json; do [ -f $f ] && git add $f; done; '
+    sh('for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json state/shorts.json; do [ -f $f ] && git add $f; done; '
        'git commit -qm "listen state [skip ci]"')
     for _ in range(3):
         r = sh('git pull --rebase -q -X theirs && git push -q')
@@ -1528,6 +1533,8 @@ def brain_status():
         need = max(0, 150 - s['labeled'])
         m += (f'⏳ <b>Still learning.</b> ~{need} more stories needed before it predicts (about {max(1, need // 40 + 1)} days). '
               'Until then alerts use the score. Tap 👍/👎 to teach it your taste faster.')
+    sh = shorts.status()
+    m += f'\n\n🎬 <b>Shorts brain</b>: {sh["shorts"]:,} Shorts studied · {sh["analyzed"]} watched by AI · {sh["winners"]} big winners'
     tg(m)
 
 
@@ -1535,22 +1542,37 @@ _SCHED = {}
 
 
 def scheduler(tgs):
-    """Runs inside the always-on listener: briefings 15:00 + 20:00 Beirut, nightly training, daily X checks, Sunday report."""
+    """Runs inside the always-on listener, on Beirut time: on-this-day 12:00, kit 15:00, briefing 20:00, training 03:30,
+    Shorts data 05:00 + analysis 06:00, own-post check 12:00, Sunday reports 18:00."""
     import threading
-    now = datetime.now(timezone.utc); day = now.strftime('%Y-%m-%d')
+    now = datetime.now(BEIRUT); day = now.strftime('%Y-%m-%d')
     jobs = []
-    if now.hour == 12 and now.minute < 40 and tgs.get('kit') != day:              # 15:00 Beirut: daily posting kit
-        tgs['kit'] = day; jobs.append(lambda: daily_kit(tgs))
-    if now.hour == 17 and now.minute < 40 and tgs.get('brief17') != day:          # 20:00 Beirut: evening news briefing
-        tgs['brief17'] = day; jobs.append(lambda: brief(tgs, '🌆 <b>Evening briefing</b>'))
-    if now.hour == 0 and now.minute >= 30 and tgs.get('trained') != day:
-        tgs['trained'] = day; jobs.append(lambda: (brain.label_due(time.time()), brain.train(), brain.save()))
-    if now.hour == 9 and now.minute < 40 and tgs.get('otd_day') != day:                  # 12:00 Beirut: on this day in crypto
-        tgs['otd_day'] = day; jobs.append(lambda: on_this_day(tgs))
-    if now.hour == 9 and tgs.get('checked') != day:
-        tgs['checked'] = day; jobs.append(check_mine)
-    if now.weekday() == 6 and now.hour == 15 and now.minute < 40 and tgs.get('weekly') != day:
-        tgs['weekly'] = day; jobs.append(weekly_report)
+
+    def due(key, hour, minute=0, window=40, weekday=None):
+        if weekday is not None and now.weekday() != weekday:
+            return False
+        if now.hour == hour and minute <= now.minute < minute + window and tgs.get(key) != day:
+            tgs[key] = day
+            return True
+        return False
+    if due('otd_day', 12):
+        jobs.append(lambda: on_this_day(tgs))
+    if due('kit', 15):
+        jobs.append(lambda: daily_kit(tgs))
+    if due('brief17', 20):
+        jobs.append(lambda: brief(tgs, '🌆 <b>Evening briefing</b>'))
+    if due('trained', 3, 30):
+        jobs.append(lambda: (brain.label_due(time.time()), brain.train(), brain.save()))
+    if due('checked', 12, 40, 60):
+        jobs.append(check_mine)
+    if due('weekly', 18, weekday=6):
+        jobs.append(weekly_report)
+    if due('sh_collect', 5):
+        jobs.append(lambda: shorts.collect())
+    if due('sh_analyze', 6):
+        jobs.append(lambda: shorts.analyze_batch(60, [m for m in gemini_models() if 'gemma' not in m][:3]))
+    if due('sh_weekly', 18, 45, weekday=6):
+        jobs.append(shorts_report)
     for j in jobs:
         def run(j=j):
             try:
@@ -1839,6 +1861,91 @@ def on_this_day(tgs):
     tg(msg[:4000], None, btn[:12])
 
 
+# ---------------- YouTube Shorts brain: /viral, /hook, weekly report ----------------
+PROVEN_HOOKS = [  # starting library until the brain has its own data (common, well-known hook patterns)
+    'A number that sounds impossible ("A bug once created 184 billion Bitcoin.")',
+    'Start at the twist, then rewind ("He lost $3 billion. It started with one tweet.")',
+    'A secret or mystery ("Nobody knows who owns this wallet.")',
+    'A direct warning ("If you hold this coin, watch this.")',
+    'A villain or conflict ("One man fooled an entire country.")',
+    'A question the viewer can\'t ignore ("What happens to your Bitcoin when you die?")']
+
+
+def cmd_viral(tgs):
+    ws = shorts.winners(days=60, k=10)
+    if not ws:
+        tg('📊 The Shorts brain is still collecting its first data (it runs every morning). Try again tomorrow.'); return
+    m = '🔥 <b>Most viral crypto & money Shorts</b> <i>(last 60 days, vs their channel\'s normal)</i>\n'
+    btn = []
+    for n, (vid, v) in enumerate(ws, 1):
+        hook = v.get('an', {}).get('hook')
+        m += (f'\n<b>{n}.</b> <a href="https://youtube.com/shorts/{vid}">{E(v["t"][:80])}</a>\n'
+              f'    <b>{v["out"]:.0f}x</b> their normal · 👁 {v["views"]:,} · {v["dur"]}s · {E(v["cht"][:30])}'
+              + (f'\n    🎣 <i>"{E(hook[:100])}"</i>' if hook else '') + '\n')
+        if not v.get('an'):
+            btn.append((f'🔍 Why #{n}', f'sw:{vid}'))
+    tg(m[:4000], None, btn[:6])
+
+
+def why_short(vid):
+    v = shorts.load()['v'].get(vid)
+    if not v:
+        tg('That Short is no longer in the data.'); return
+    chat_action('typing')
+    if not v.get('an') or v['an'].get('fail'):
+        a = shorts.gemini_video(vid, [x for x in gemini_models() if 'gemma' not in x][:3])
+        if not a:
+            tg('⚠️ Gemini couldn\'t watch that one right now. Try again later.'); return
+        with shorts.LOCK:
+            v['an'] = a
+        shorts.save()
+    a = v['an']
+    tg(f'🔍 <b>{E(v["t"][:90])}</b>\n<b>{v.get("out", 0):.0f}x</b> their channel\'s normal · {v["dur"]}s\n\n'
+       f'🎣 <b>Hook:</b> "{E(str(a.get("hook", ""))[:150])}"\n<i>{E(str(a.get("hook_type", "")))} · promise clear by {a.get("hook_seconds", "?")}s</i>\n'
+       f'🎭 Tone: {E(str(a.get("tone", "")))} · jokes: {a.get("jokes", "?")} · twist: {"yes" if a.get("twist") else "no"} · ending: {E(str(a.get("ending", "")))}\n'
+       f'🎬 {E(str(a.get("visual", ""))[:160])}\n\n💡 <b>Why it works:</b> {E(str(a.get("why", ""))[:250])}')
+
+
+def cmd_hook(text, tgs):
+    """Hook doctor: an idea or a script in -> 5 stronger hooks, ranked, based on real viral hooks."""
+    learned = shorts.best_hooks(25)
+    ex = ('Real hooks from crypto/money Shorts that beat their channel average (multiplier, hook):\n'
+          + '\n'.join(f'- {o:.0f}x: "{h}"' for o, h, t, vw in learned) if len(learned) >= 8
+          else 'Proven hook patterns:\n' + '\n'.join('- ' + h for h in PROVEN_HOOKS))
+    pat = shorts.patterns()
+    if pat:
+        ex += '\n\nWhat winners do vs flops: ' + '; '.join(f'{r[0]} {r[1]:.0f}{r[3]} vs {r[2]:.0f}{r[3]}' for r in pat['rows'][:5])
+    out = gemini_voice(VOICE + '\nYou write the first line (the hook, said in the first 2-3 seconds) for a faceless crypto story YouTube Short '
+                       'on the channel Chain Secrets. Write 5 different hooks for the idea below, strongest first. Each: max 14 words, '
+                       'creates curiosity instantly, uses a real number from the idea when there is one, no clickbait lies, no invented facts.\n'
+                       'Format exactly:\n1. <hook> | <hook type> | <why it works, max 10 words>\n2. ...\n\n' + ex + '\n\nIDEA OR SCRIPT:\n' + text[:2500])
+    rows = [r for r in re.findall(r'(?m)^\s*\d\.\s*(.+)$', out or '')][:5]
+    if not rows:
+        unack(); tg('⚠️ The AI writer is busy, try again in a minute.'); return
+    m = '🎣 <b>Hook doctor</b> · strongest first\n'
+    for n, r in enumerate(rows, 1):
+        parts = [x.strip() for x in r.split('|')]
+        m += f'\n<b>{n}.</b> <code>{E(clean_voice(parts[0]).strip(chr(34)))}</code>' + (f'\n    <i>{E(" · ".join(parts[1:3]))}</i>' if len(parts) > 1 else '')
+    m += '\n\n<i>' + ('Based on real viral Shorts from the brain.' if len(learned) >= 8 else 'Based on proven patterns (the brain is still learning).') + '</i>'
+    unack(); tg(m)
+
+
+def shorts_report():
+    st = shorts.status(); pat = shorts.patterns(); hooks = shorts.best_hooks(5); ws = shorts.winners(days=7, k=3)
+    m = f'🎬 <b>Shorts brain · weekly report</b>\n{st["shorts"]:,} Shorts studied · {st["analyzed"]} watched by AI · {st["winners"]} big winners\n'
+    if ws:
+        m += '\n🔥 <b>Top Shorts this week</b>\n' + '\n'.join(f'• <a href="https://youtube.com/shorts/{vid}">{E(v["t"][:70])}</a> · <b>{v["out"]:.0f}x</b>' for vid, v in ws) + '\n'
+    if hooks:
+        m += '\n🎣 <b>Best hooks</b>\n' + '\n'.join(f'• "{E(h[:100])}" <i>({o:.0f}x)</i>' for o, h, t, vw in hooks) + '\n'
+    if pat:
+        m += f'\n📐 <b>Winners vs flops</b> <i>({pat["n_w"]} vs {pat["n_f"]})</i>\n<pre>' + '\n'.join(
+            f'{r[0][:22]:<22}{r[1]:>6.0f}{r[3]:<1} {r[2]:>6.0f}{r[3]}' for r in pat['rows']) + '</pre>'
+        m += 'Top hook types: ' + ', '.join(f'{t} ({c})' for t, c in pat['types'])
+    else:
+        m += '\n<i>Patterns appear once ~8 winners and 8 flops are analyzed.</i>'
+    tg(m[:4000])
+
+
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '<b>Find stories</b>\n'
         '/top — hottest crypto stories right now → tap one for a full post\n'
@@ -1846,6 +1953,8 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/hacks — biggest hacks of the last 30 days\n'
         '/story — on this day in crypto (real prices & hacks)\n'
         '/brain — what the learning brain knows so far\n'
+        '/viral — most viral crypto Shorts right now + why they worked\n'
+        '/hook <i>idea</i> — 5 stronger hooks for your next Short\n'
         '/story <i>topic</i> — research a story, e.g. <code>/story Do Kwon</code> → thread + Shorts script\n\n'
         '<b>Replies</b>\n'
         '• <b>Share any X post link</b> to me → 3 ready replies (fact, witty, chart + image)\n'
@@ -1858,7 +1967,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
 COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
             ('reply', 'Replies for an X post: /reply <link>'), ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
-            ('kit', 'Today\'s posting kit'), ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
+            ('kit', 'Today\'s posting kit'), ('viral', 'Most viral crypto Shorts'), ('hook', 'Hook doctor: /hook idea'), ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
 def gnews(q, n=8, recent=True):
@@ -1974,6 +2083,8 @@ def handle(u, tgs):
                     r['stance'] = parts[2]; ack('⏳ Writing your reply…'); reply_from_text(r['text'], r['author'], r.get('post'), tgs, parts[1], parts[2])
             else:
                 on_stance(parts[1], parts[2], tgs, mid)
+        elif data.startswith('sw:'):
+            why_short(data[3:])
         elif data == 'kq:':
             kit_take(tgs)
         elif data.startswith('rr:'):
@@ -2015,6 +2126,13 @@ def handle(u, tgs):
         tg(HELP); send_menu()
     elif c == '/brain':
         brain_status()
+    elif c == '/viral':
+        cmd_viral(tgs)
+    elif c == '/hook':
+        if args:
+            ack('⏳ Writing hooks…'); cmd_hook(' '.join(args), tgs)
+        else:
+            tg('🎣 Send <code>/hook</code> + your Short idea or script, e.g. <code>/hook Mt Gox lost 850,000 bitcoin</code>')
     elif c == '/kit':
         ack('⏳ Building today\'s kit…'); daily_kit(tgs); unack()
     elif c in ('/top', 'top', 'news'):
@@ -2137,8 +2255,14 @@ if __name__ == '__main__':
         globals()['tg'] = fake_tg
         globals()['ack'] = lambda *a, **k: None; globals()['unack'] = lambda: None; globals()['chat_action'] = lambda *a: None
         t = {'menu': {}}
-        cmd_movers(t); coin_view('SOL', t); coin_view('PEPE', t); on_this_day(t)
-        print('binance BTC 5m rows:', len(binance('BTC', 300, limit=10)))
+        n_new = shorts.collect(4)                                         # live check: YouTube key + quota
+        models = [m for m in gemini_models() if 'gemma' not in m][:3]
+        n_an = shorts.analyze_batch(4, models)                              # live check: Gemini can watch YouTube Shorts
+        fake_tg(f'SHORTS status {shorts.status()} new={n_new} analyzed={n_an}')
+        sample = [(k, v) for k, v in shorts.load()['v'].items() if v.get('an')][:3]
+        fake_tg('SHORTS sample analyses\n' + json.dumps([{'t': v['t'], 'out': v.get('out'), 'an': v['an']} for k, v in sample], indent=1)[:3500])
+        cmd_viral(t); cmd_hook('Mt Gox lost 850,000 bitcoin in 2014 and users waited 10 years to get paid back', t)
+        print('beirut now', datetime.now(BEIRUT), 'quiet', quiet())
         st = load_state()
         for k, it in list(st.get('menu', {}).items())[:40]:
             if it.get('coin') and it.get('t0'):
