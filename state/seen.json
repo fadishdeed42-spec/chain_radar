@@ -702,7 +702,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -747,7 +747,7 @@
 "TOKENPOST",
 "The Cryptonomist"
 ],
-"t": 1792888611.8384726,
+"t": 1792888652.766551,
 "t0": 1792870336.0,
 "tgtext": "",
 "title": "X100's Ethereum exploit drains $4.85M USDT and 550,000 X tokens after governance takeover",
@@ -1297,7 +1297,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -1387,7 +1387,7 @@
 "srcs": [
 "MarketForces Africa"
 ],
-"t": 1792883478.5695488,
+"t": 1792888652.766551,
 "t0": 1792882365.0,
 "tgtext": "",
 "title": "Solana Drops 2.20% To $101.28 As Investors Liquidate Positions",
@@ -2093,7 +2093,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792870518.0,
 "tgtext": "\u26a1 NEW: Tether just got 15 Bitcoin mining heavyweights, including Bitmain, MicroBT and Foundry, to back its open-source mining kit.\n\nThe endgame is AI agents running mining farms.\n\nNews | Markets | YouTube",
 "title": "Tether just got 15 Bitcoin mining heavyweights, including Bitmain, MicroBT and Foundry, to back its open-source mining kit.",
@@ -2393,7 +2393,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792872046.0,
 "tgtext": "",
 "title": "Circle\u2019s new USDC auctions let institutions collect the fees others pay to cash out",
@@ -2421,7 +2421,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792881953.6303492,
+"t": 1792888956.9574156,
 "t0": 1792877637.0,
 "tgtext": "\u26a1 BIG: Fidelity's Zack Wainwright says $BTC took nearly 16 years to hit $100K, but the jump to $200K could happen much faster.\n\nHe says Bitcoin's up nearly 50% from its June low near $58K.\n\nNews | Markets | YouTube",
 "title": "BIG: Fidelity's Zack Wainwright says BTC took nearly 16 years to hit $100K, but the jump to $200K could happen much faster.",
@@ -2434,7 +2434,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792869327.0,
 "tgtext": "",
 "title": "Ether Long Liquidations Reach $38.12 Million in One Hour",
@@ -2642,7 +2642,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792888357.0,
 "tgtext": "\ud83d\udd25 INSIGHT: The crypto bull market has already started.\n\nMacro investor Jordi Visser told Ciaran Lyons that we're in the very early stages of the most important phase of crypto's maturation.\n\nHe traced the spark back to Treasury Secretary Scott Bessent stepping into the yen and opening the door to changes in Treasury buybacks, a debasement move that got the whole market excited, he said on #TRADESECRETS.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: The crypto bull market has already started.",
@@ -2767,7 +2767,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792869497.0,
 "tgtext": "",
 "title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
@@ -2819,7 +2819,7 @@
 "srcs": [
 "MarketForces Africa"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792883059.0,
 "tgtext": "",
 "title": "Ethereum Falls As BitMEX Co-Founder Arthur Hayes \u2018Dump It All\u2019",
@@ -3165,7 +3165,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792888611.8384726,
+"t": 1792888956.9574156,
 "t0": 1792881112.0,
 "tgtext": "\ud83d\udd25 BIG: Morgan Stanley is backing a $400M credit line for TeraWulf, up 60% from $250M.\n\nThe miner turned AI data center play keeps getting Wall Street money.\n\nNews | Markets | YouTube",
 "title": "BIG: Morgan Stanley is backing a $400M credit line for TeraWulf, up 60% from $250M.",
@@ -3205,35 +3205,36 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"029c93668f1b": 0.025,
 "0389e4023e98": 0.081,
+"32043bf38ee4": 0.016,
 "380b94a50c1b": 0.263,
-"3caaaaca6d2a": 0.135,
 "5542e87dc111": 0.004,
 "55dd8b4f3c14": 0.019,
 "61cca061c1ab": 0.043,
 "63fa93cab221": 0.211,
 "7165dd656d7e": 0.045,
 "7608df76ed23": 0.016,
+"77b3e98d4f5d": 0.079,
 "793d7d87a214": 0.054,
+"8592a36462e2": 0.012,
 "88587c509d84": 0.012,
 "8d5b2c011a89": 0.049,
-"8e9f6167c1c7": 0.009,
-"8f43887ba527": 0.041,
+"8e9f6167c1c7": 0.015,
+"8f43887ba527": 0.07,
 "9a540a5ae19b": 0.038,
 "a0b1a45edc7c": 0.145,
 "b2ba2e27dbc6": 0.015,
 "c0b8bdef44f4": 0.129,
-"c0cfaf62044a": 0.066,
+"c0cfaf62044a": 0.108,
+"c0e7aa26b81c": 0.005,
 "c108e1798c25": 0.1,
-"c7170fc56321": 0.005,
 "c9abf2248f9b": 0.045,
 "d35ee43a8ee4": 0.341,
+"d532e52f9d26": 0.015,
 "d995da648ec1": 0.228,
 "df1229393aad": 0.084,
 "e0204bc837cf": 0.086,
-"e9a2cbbef3ea": 0.061,
-"eca83951efe0": 0.069,
+"eca83951efe0": 0.037,
 "ef5f4763899e": 0.034,
 "f8323e6d41d2": 0.012,
 "fbddbff31f53": 0.084
@@ -4041,63 +4042,63 @@
 [
 "d35ee43a8ee4",
 10,
-4,
+10,
 1
 ],
 [
 "380b94a50c1b",
 0,
-266,
+272,
 1
 ],
 [
 "d995da648ec1",
-23,
-319,
+22,
+324,
 2
 ],
 [
 "63fa93cab221",
-8,
-246,
+7,
+252,
 1
 ],
 [
 "a0b1a45edc7c",
 2,
-302,
+307,
 1
-],
-[
-"3caaaaca6d2a",
-55,
-305,
-4
 ],
 [
 "c0b8bdef44f4",
 0,
-276,
+282,
+1
+],
+[
+"c0cfaf62044a",
+9,
+189,
 1
 ],
 [
 "c108e1798c25",
-13,
-321,
+12,
+327,
 1
 ],
 [
 "e0204bc837cf",
 20,
-93,
+98,
 1
 ],
 [
 "fbddbff31f53",
 16,
-125,
+131,
 1
 ]
 ],
-"top_at": 1792888611.8384726
+"top_at": 1792888956.9574156
 }
