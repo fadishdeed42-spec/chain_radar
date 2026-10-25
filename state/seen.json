@@ -4,14 +4,11 @@
 },
 "init": true,
 "log": [
-1792853329.5739021,
-1792856074.9351165,
-1792856380.7067063,
-1792858486.4152217,
 1792920701.0695655,
 1792921618.3004637,
 1792927543.1793945,
-1792929110.1027076
+1792929110.1027076,
+1792962517.8883111
 ],
 "menu": {
 "01c6004fdf5a": {
@@ -250,7 +247,7 @@
 "srcs": [
 "Coinfomania"
 ],
-"t": 1792962000.1483402,
+"t": 1792962821.475748,
 "t0": 1792953743.0,
 "tgtext": "",
 "title": "LiteLLM Completes Investigation into v1.107.0 Release Exploit",
@@ -278,7 +275,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792961189.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 President Trump says high gas prices are a \"small price to pay\" for the Iran war.\n\n\"I thought gas would be double and triple.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 President Trump says high gas prices are a \"small price to pay\" for the Iran war.",
@@ -385,19 +382,6 @@
 "https://cryptoslate.com/arthur-hayes-exits-crypto-trading-positions-as-analysts-track-26-million-in-sales/"
 ]
 },
-"1bf205dd77e3": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1792789635.1322055,
-"t0": 1792768226.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.",
-"url": "https://t.me/WatcherGuru/15614",
-"urls": []
-},
 "1bfcbe616092": {
 "coin": "",
 "src": "Cryptonews.net",
@@ -431,7 +415,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792962307.3524532,
+"t": 1792962517.8883111,
 "t0": 1792941060.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa LATEST: The ECB says the digital euro is about \"sovereignty,\" with a pilot next year and a rollout as early as 2029.\n\nTwo-thirds of euro-area card payments currently run through non-European companies. \n\n\nNews | Markets | YouTube",
 "title": "The ECB says the digital euro is about \"sovereignty,\" with a pilot next year and a rollout as early as 2029.",
@@ -851,11 +835,11 @@
 },
 "459514354f7f": {
 "coin": "zcash",
-"src": "TOKENPOST",
+"src": "www.tokenpost.com",
 "srcs": [
-"TOKENPOST"
+"www.tokenpost.com"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792950216.0,
 "tgtext": "",
 "title": "Zcash Rises 2.15% in an Hour to $1,234 as Short Liquidations Total $870,000",
@@ -1118,7 +1102,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792953629.0,
 "tgtext": "",
 "title": "How $37 million stolen from Americans moved through a Bahamas bank into Tether\u2019s USDT",
@@ -1764,7 +1748,7 @@
 "srcs": [
 "CryptoNinjas"
 ],
-"t": 1792962307.3524532,
+"t": 1792962517.8883111,
 "t0": 1792946172.0,
 "tgtext": "",
 "title": "Initia Halts L1 and Rollups After $2.7M Exploit Tied to Unauthorized Token Minting",
@@ -1931,7 +1915,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792952160.0,
 "tgtext": "",
 "title": "Swell Halts swETH and rswETH Withdrawals After Exchange Rates Jump About 6% Above NAV",
@@ -2175,6 +2159,19 @@
 "tgtext": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD\n\nHyperliquid Strategies Inc. (NASDAQ: PURR), a HYPE-focused digital asset treasury company, has increased its share repurchase authorization from 30 million USD to 100 million USD, with approximately 72 million USD remaining available. The company also extended the program's expiration date from December 5, 2026, to October 31, 2027. Actual repurchases will depend on market conditions and management's discretion. \u2014 link",
 "title": "Hyperliquid Strategies Expands Share Buyback Program to 100 Million USD",
 "url": "https://t.me/wublockchainenglish/26530",
+"urls": []
+},
+"9e0cdf69a5ad": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1792962821.475748,
+"t0": 1792949564.0,
+"tgtext": "\ud83c\uddea\ud83c\uddfa LATEST: The ECB says the digital euro is about \"sovereignty,\" with a pilot next year and a rollout as early as 2029.\n\nTwo-thirds of euro-area card payments currently run through non-European companies. \n\n\nNews | Markets | YouTube",
+"title": "The ECB says the digital euro is about \"sovereignty,\" with a pilot next year and a rollout as early as 2029.",
+"url": "https://t.me/cointelegraph/72838",
 "urls": []
 },
 "9e3e248f1ed0": {
@@ -2498,10 +2495,11 @@
 "coin": "",
 "src": "The Block",
 "srcs": [
+"Crypto Briefing",
 "Cryptonews.net",
 "The Block"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792953960.0,
 "tgtext": "",
 "title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a 'false alarm'",
@@ -2516,7 +2514,7 @@
 "srcs": [
 "Inshorts"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792944997.0,
 "tgtext": "",
 "title": "New website challenges anyone to hack it, offers \u20b91.9 lakh to prove PHP scare was overhyped | 'Donate the money if you don't need it' | Inshorts",
@@ -2988,7 +2986,7 @@
 "srcs": [
 "Brave New Coin"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792956818.0,
 "tgtext": "",
 "title": "Binance Founder CZ Makes Shocking Claim About AI Hacking: \u201cNo Crypto Wallet Is 100% Safe\u201d",
@@ -3017,7 +3015,7 @@
 "Bitcoin Foundation",
 "The Block"
 ],
-"t": 1792962307.3524532,
+"t": 1792962821.475748,
 "t0": 1792943790.0,
 "tgtext": "",
 "title": "Keystone customers say breach exposed data the hardware wallet maker promised to delete",
@@ -3186,6 +3184,23 @@
 "title": "Bitcoin Slips Below $80K As Peter Schiff Warns Of \u2018Very Long Weekend\u2019 For BTC Investors \u2014 Mike McGlone Says \u2018Don\u2019t Fight The Fed\u2019",
 "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ25nc1ZTMl9xcTctNUhxM0tCaFF5SEFxMnFRQ3Y3UGhtVjJKR2g2eXJ4MkRRRGNTdE9DWVRFdVR4YzZ6VW1ZNW41QmxwVmRCZ3dBdlZ5amVJSEthbG1NZ3ZJVzcyZ1VZbVpNaDB6a3ZYSWxFYm1FbkVkb3NRS3laU3lJV3Q2aFZLREpEalFDb09kT2tWaUE4ek9n?oc=5",
 "urls": []
+},
+"e464b35a87e3": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"Crypto Briefing",
+"Cryptonews.net",
+"The Block"
+],
+"t": 1792962517.8883111,
+"t0": 1792953981.0,
+"tgtext": "",
+"title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a \u2018false alarm\u2019",
+"url": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617",
+"urls": [
+"https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617"
+]
 },
 "e467e7e5d020": {
 "coin": "monero",
@@ -3499,35 +3514,33 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0b4bd8e74909": 0.014,
 "10673f65aaf7": 0.092,
-"13d080433ac4": 0.827,
+"13d080433ac4": 0.715,
 "16312efff6dc": 0.01,
-"1ef3341ad5f0": 0.138,
 "3a5b2cdea672": 0.008,
-"459514354f7f": 0.105,
-"4aec460f984c": 0.006,
+"459514354f7f": 0.1,
+"4aec460f984c": 0.003,
 "4e995165a58a": 0.024,
 "529be220dfa1": 0.017,
 "530aa46f00da": 0.05,
 "57a84a211385": 0.187,
-"62d1f885faf4": 0.011,
 "7096b6a0c6c1": 0.05,
 "74608c17a73b": 0.016,
 "776f8e848808": 0.079,
 "808dbbc8ddba": 0.012,
-"80b7e46e6eb6": 0.454,
 "828aa0a3e5d4": 0.035,
 "871781e852bb": 0.011,
 "8c26984475bb": 0.102,
+"8f94aa458d8a": 0.022,
 "9b866dca5219": 0.062,
 "9c92f32f9428": 0.009,
+"9e0cdf69a5ad": 0.468,
 "a59142a4d79b": 0.008,
 "a88136f520c9": 0.053,
 "a929523d9673": 0.018,
 "ae8e60faf8fb": 0.016,
 "b108ea1e3d29": 0.003,
-"b933d52d98ce": 0.535,
+"b933d52d98ce": 0.774,
 "b99205aab144": 0.13,
 "c80801072bc5": 0.004,
 "cde39abb51d4": 0.002,
@@ -3535,125 +3548,13 @@
 "d3298fd34df1": 0.013,
 "d6a9e2aedb60": 0.139,
 "d6d798c1f3b8": 0.332,
+"e3af7f2a7a14": 0.018,
 "e805e52ac2cf": 0.003,
 "ee29663f3868": 0.006,
-"f3df2df09bfd": 0.013,
+"f3df2df09bfd": 0.006,
 "f6244696ffe6": 0.018
 },
 "sent": [
-{
-"e": [
-"malaysia",
-"mastercard",
-"ripple",
-"singapore",
-"thailand",
-"visa"
-],
-"k": [
-"ban"
-],
-"t": 1792761545.4814467,
-"u": [
-"https://t.me/wublockchainenglish/26527",
-"https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
-],
-"w": [
-"banks",
-"border",
-"central",
-"cross",
-"expand",
-"initiative",
-"involving",
-"malaysia",
-"mastercard",
-"ripple",
-"singapore",
-"stablecoin",
-"thailand",
-"visa"
-]
-},
-{
-"e": [
-"cme",
-"derivatives",
-"reaches",
-"trading",
-"volume"
-],
-"k": [],
-"t": 1792762771.5474863,
-"u": [
-"https://t.me/wublockchainenglish/26528"
-],
-"w": [
-"$469",
-"cme",
-"derivatives",
-"reaches",
-"trading",
-"volume"
-]
-},
-{
-"e": [],
-"k": [],
-"t": 1792765515.838337,
-"u": [
-"https://t.me/cointelegraph/72817"
-],
-"w": [
-"2027",
-"announces",
-"examination",
-"fiscal",
-"priorities",
-"sec"
-]
-},
-{
-"e": [
-"initia"
-],
-"k": [
-"hack"
-],
-"t": 1792782284.9829712,
-"u": [],
-"w": [
-"hacked",
-"initia",
-"million"
-]
-},
-{
-"e": [
-"argentina",
-"javier",
-"libra",
-"milei",
-"president"
-],
-"k": [],
-"t": 1792789329.9006922,
-"u": [
-"https://t.me/WatcherGuru/15618"
-],
-"w": [
-"argentina",
-"criminal",
-"drops",
-"investigation",
-"javier",
-"libra",
-"memecoin",
-"milei",
-"president",
-"scandal"
-]
-},
 {
 "e": [
 "addressing",
@@ -4164,71 +4065,101 @@
 "long",
 "loss"
 ]
+},
+{
+"e": [
+"coindcx"
+],
+"k": [
+"hack"
+],
+"t": 1792962517.8883111,
+"u": [
+"https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617",
+"https://news.google.com/rss/articles/CBMibEFVX3lxTE9fUDdfa1h4N2Noc3RJVjh6dGZfZFBfd2FKcEotZ2ZrbXNQaFZXbDlvX1czV0w0SHNjb1RnWHExLTRvcVdZdXNGUThQMTF3WFhSOTNPZk1qcjk1WnhZY1E4azJJblF6dktkcEhHdw?oc=5",
+"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CWHpvcFNWV1ExeC1hUEtReHlaei15bXlzZ2w5YWFvRjhXdjRuZVl3MUlaWG92SlVDSlFzX2pEVmlrTnJJMm5ZRW9NSm9mcnNQVFZoOTRqVHZYZw?oc=5"
+],
+"w": [
+"$16",
+"alarm",
+"breach",
+"called",
+"ceo",
+"coindcx",
+"confirms",
+"days",
+"false",
+"loss",
+"million",
+"reports",
+"retired",
+"wallets"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"b933d52d98ce",
+66,
+148,
+3
+],
+[
 "13d080433ac4",
 18,
-19,
+27,
 1
 ],
 [
-"b933d52d98ce",
-56,
-139,
-2
-],
-[
-"80b7e46e6eb6",
-44,
-269,
+"9e0cdf69a5ad",
+5,
+221,
 1
 ],
 [
 "d6d798c1f3b8",
-28,
-309,
+27,
+317,
 2
 ],
 [
 "57a84a211385",
 49,
-145,
+153,
 1
 ],
 [
 "d6a9e2aedb60",
 23,
-91,
-1
-],
-[
-"1ef3341ad5f0",
-0,
-354,
+100,
 1
 ],
 [
 "b99205aab144",
-21,
-289,
-1
-],
-[
-"459514354f7f",
-23,
-202,
+20,
+297,
 1
 ],
 [
 "8c26984475bb",
 32,
-169,
+178,
+1
+],
+[
+"459514354f7f",
+21,
+210,
+1
+],
+[
+"10673f65aaf7",
+35,
+151,
 1
 ]
 ],
-"top_at": 1792962307.3524532
+"top_at": 1792962821.475748
 }
