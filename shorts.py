@@ -24,6 +24,25 @@ QUERIES = ['bitcoin story', 'crypto story', 'crypto scam story', 'crypto hack', 
            'bitcoin facts', 'crypto news', 'ethereum story', 'crypto billionaire', 'crypto crash', 'money story',
            'satoshi nakamoto', 'crypto mystery', 'ftx collapse', 'bitcoin pizza', 'memecoin', 'crypto fraud',
            'stock market story', 'finance facts', 'rich people facts', 'scam exposed']
+TOPIC = re.compile(r'crypto|bitcoin|btc|ethereum|\beth\b|solana|blockchain|token|coin|satoshi|binance|coinbase|ftx|exchange|wallet|'
+                   r'hack|scam|fraud|ponzi|money|million|billion|rich|wealth|stock|market|trader|trading|invest|bank|dollar|'
+                   r'price|crash|bubble|fortune|bankrupt|nft|defi|mining|tesla|musk|saylor', re.I)
+BAD_CATS = {'1', '2', '10', '15', '17', '19', '20', '23', '29', '30', '43', '44'}   # film, autos, music, pets, sports, travel, gaming, comedy skits...
+NON_LATIN = re.compile(r'[\u0400-\u04FF\u0590-\u06FF\u0900-\u0DFF\u0E00-\u0E7F\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]')
+
+
+def relevant(title, desc, lang, cat):
+    """English, on-topic (crypto / money) Shorts only: hashtags don't count as topic, music/gaming/etc. are excluded."""
+    clean = re.sub(r'#\w+', ' ', title)
+    if NON_LATIN.search(title + ' ' + desc[:150]):
+        return False
+    if lang and not lang.lower().startswith('en'):
+        return False
+    if cat in BAD_CATS:
+        return False
+    return bool(TOPIC.search(clean) or TOPIC.search(re.sub(r'#\w+', ' ', desc[:200])))
+
+
 HOOK_TYPES = ['shocking number', 'question', 'bold claim', 'mystery / secret', 'story opening', 'conflict / villain',
               'warning', 'contrarian', 'list', 'other']
 _D = None
@@ -93,16 +112,18 @@ def collect(n_queries=16):
         j = _get('videos', part='snippet,statistics,contentDetails', id=','.join(ids[i:i + 50])); _spend(1)
         for v in j.get('items', []):
             dur = _secs(v['contentDetails'].get('duration'))
-            if not 8 <= dur <= 75 or (v['snippet'].get('defaultAudioLanguage') or 'en')[:2] not in ('en', ''):
-                continue
             st, sn = v.get('statistics', {}), v['snippet']
+            if not 8 <= dur <= 75 or not relevant(sn['title'], sn.get('description') or '', sn.get('defaultAudioLanguage') or sn.get('defaultLanguage') or '',
+                                                   str(sn.get('categoryId', ''))):
+                d['v'].pop(v['id'], None); continue
             rec = d['v'].get(v['id'], {})
             if not rec:
                 new += 1
             rec.update({'t': sn['title'][:150], 'ch': sn['channelId'], 'cht': sn.get('channelTitle', '')[:60], 'dur': dur,
                         'pub': sn['publishedAt'], 'views': int(st.get('viewCount', 0)), 'likes': int(st.get('likeCount', 0)),
                         'com': int(st.get('commentCount', 0)), 'desc': (sn.get('description') or '')[:300],
-                        'tags': (sn.get('tags') or [])[:12], 'seen': now})
+                        'tags': (sn.get('tags') or [])[:12], 'seen': now, 'cat': str(sn.get('categoryId', '')),
+                        'lang': sn.get('defaultAudioLanguage') or sn.get('defaultLanguage') or ''})
             d['v'][v['id']] = rec; chans.add(sn['channelId'])
     need = [c for c in chans if now - d['ch'].get(c, {}).get('t', 0) > 7 * 86400]
     for i in range(0, len(need), 50):                                    # channel size + normal views per video
@@ -119,6 +140,9 @@ def collect(n_queries=16):
 
 def score_all():
     d = load()
+    for k in [k for k, v in d['v'].items() if not relevant(v['t'], v.get('desc', ''), v.get('lang', ''), v.get('cat', ''))
+              or (v.get('an') and str(v['an'].get('language', 'en')).lower()[:2] not in ('en', ''))]:
+        d['v'].pop(k, None)
     for v in d['v'].values():
         c = d['ch'].get(v['ch'])
         if c and c['avg'] > 0:
@@ -139,6 +163,7 @@ ANALYZE = ('You are analyzing a YouTube Short to learn what makes Shorts go vira
            ' "visual": one sentence on the visual style (captions, charts, stock footage, face, memes...),\n'
            ' "voice": "AI" or "human" plus one word for delivery,\n'
            ' "transcript": first 60 words of the narration,\n'
+           ' "language": spoken language as an ISO code like "en",\n'
            ' "why": one sentence: the main reason this Short works or fails}')
 
 
@@ -171,6 +196,10 @@ def analyze_batch(n, models):
     done = 0
     for k, v in win + flop:
         a = gemini_video(k, models)
+        if a and str(a.get('language', 'en')).lower()[:2] not in ('en', ''):
+            with LOCK:
+                d['v'].pop(k, None)                                      # not English: not useful for our channel
+            continue
         with LOCK:
             v['an'] = a or {'fail': 1}
         done += bool(a)
@@ -185,7 +214,7 @@ def analyze_batch(n, models):
 # ---------------------------------------------------------------- what the data says
 def winners(days=60, k=10):
     d = load(); cut = datetime.now(timezone.utc) - timedelta(days=days)
-    vs = [(vid, v) for vid, v in d['v'].items() if v.get('out') and v['views'] >= 20000
+    vs = [(vid, v) for vid, v in d['v'].items() if v.get('out', 0) >= 3 and v['views'] >= 20000
           and datetime.fromisoformat(v['pub'].replace('Z', '+00:00')) >= cut]
     return sorted(vs, key=lambda x: -x[1]['out'])[:k]
 
