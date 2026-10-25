@@ -1,0 +1,115 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Collecting en-core-web-sm==3.8.0
+  Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 89.7 MB/s  0:00:00
+Installing collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+Traceback (most recent call last):
+  File "/home/runner/work/chain_radar/chain_radar/studio/run.py", line 153, in <module>
+    voice(jid) if stage == 'voice' else render(jid)
+    ^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/studio/run.py", line 45, in voice
+    cvoice.run(f'{d}/voice.json')                                         # -> voice.wav, voice_words.srt, voicep.wav, voicep_words.srt, voice.log
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/studio/cvoice.py", line 60, in run
+    if not os.path.exists(ref): kok_ref(ref)
+                                ^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/studio/cvoice.py", line 16, in kok_ref
+    pipe = KPipeline(lang_code='a', repo_id='hexgrad/Kokoro-82M')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/kokoro/pipeline.py", line 113, in __init__
+    self.g2p = en.G2P(trf=trf, british=lang_code=='b', fallback=fallback, unk='')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/misaki/en.py", line 503, in __init__
+    self.nlp = spacy.load(name, enable=components)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/__init__.py", line 74, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 524, in load_model
+    return load_model_from_package(name, **kwargs)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 560, in load_model_from_package
+    return cls.load(
+           ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/en_core_web_sm/__init__.py", line 10, in load
+    return load_model_from_init_py(__file__, **overrides)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 743, in load_model_from_init_py
+    return load_model_from_path(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 608, in load_model_from_path
+    return nlp.from_disk(model_path, exclude=exclude, overrides=overrides)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/language.py", line 2249, in from_disk
+    util.from_disk(path, deserializers, exclude)  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 1450, in from_disk
+    reader(path / key)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/language.py", line 2235, in <lambda>
+    deserializers["tokenizer"] = lambda p: self.tokenizer.from_disk(  # type: ignore[union-attr]
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "spacy/tokenizer.pyx", line 787, in spacy.tokenizer.Tokenizer.from_disk
+  File "spacy/tokenizer.pyx", line 833, in spacy.tokenizer.Tokenizer.from_bytes
+  File "spacy/tokenizer.pyx", line 128, in spacy.tokenizer.Tokenizer.rules.__set__
+  File "spacy/tokenizer.pyx", line 239, in spacy.tokenizer.Tokenizer._flush_specials
+OverflowError: Python int too large to convert to C ssize_t
+Traceback (most recent call last):
+  File "/home/runner/work/chain_radar/chain_radar/studio/run.py", line 153, in <module>
+    voice(jid) if stage == 'voice' else render(jid)
+    ^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/studio/run.py", line 45, in voice
+    cvoice.run(f'{d}/voice.json')                                         # -> voice.wav, voice_words.srt, voicep.wav, voicep_words.srt, voice.log
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/studio/cvoice.py", line 60, in run
+    if not os.path.exists(ref): kok_ref(ref)
+                                ^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/studio/cvoice.py", line 16, in kok_ref
+    pipe = KPipeline(lang_code='a', repo_id='hexgrad/Kokoro-82M')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/kokoro/pipeline.py", line 113, in __init__
+    self.g2p = en.G2P(trf=trf, british=lang_code=='b', fallback=fallback, unk='')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/misaki/en.py", line 503, in __init__
+    self.nlp = spacy.load(name, enable=components)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/__init__.py", line 74, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 524, in load_model
+    return load_model_from_package(name, **kwargs)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 560, in load_model_from_package
+    return cls.load(
+           ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/en_core_web_sm/__init__.py", line 10, in load
+    return load_model_from_init_py(__file__, **overrides)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 743, in load_model_from_init_py
+    return load_model_from_path(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 608, in load_model_from_path
+    return nlp.from_disk(model_path, exclude=exclude, overrides=overrides)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/language.py", line 2249, in from_disk
+    util.from_disk(path, deserializers, exclude)  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/util.py", line 1450, in from_disk
+    reader(path / key)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/spacy/language.py", line 2235, in <lambda>
+    deserializers["tokenizer"] = lambda p: self.tokenizer.from_disk(  # type: ignore[union-attr]
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "spacy/tokenizer.pyx", line 787, in spacy.tokenizer.Tokenizer.from_disk
+  File "spacy/tokenizer.pyx", line 833, in spacy.tokenizer.Tokenizer.from_bytes
+  File "spacy/tokenizer.pyx", line 128, in spacy.tokenizer.Tokenizer.rules.__set__
+  File "spacy/tokenizer.pyx", line 239, in spacy.tokenizer.Tokenizer._flush_specials
+OverflowError: Python int too large to convert to C ssize_t
