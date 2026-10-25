@@ -1,0 +1,9 @@
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/test1 sfx
+$ ffmpeg -y -v error -f concat -safe 0 -i jobs/test1/parts.txt -c copy jobs/test1/silent.mp4
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/test1/voicep.wav jobs/test1/timing.json jobs/test1/voice_tight.wav
+ok jobs/test1/voice_tight.wav
+$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/test1/music_long.wav
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/test1/silent.mp4 jobs/test1/voice_tight.wav jobs/test1/sfx.wav jobs/test1/music_long.wav 36.69 jobs/test1/short.mp4 0.1
+voice-over-bed dB while speaking: median 43.7, 5th pct 19.1, worst 11.1
+worst windows: [(18.0, np.float32(11.1)), (9.4, np.float32(12.2)), (31.6, np.float32(12.9)), (14.2, np.float32(15.3)), (20.0, np.float32(17.4))]
+mixed -> jobs/test1/short.mp4
