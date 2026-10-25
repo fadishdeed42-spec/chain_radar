@@ -33,9 +33,23 @@ def sh(cmd, **kw):
 
 
 # ---------------------------------------------------------------- voice stage
+def drop_chart(sb, why):
+    print('chart dropped:', why)
+    for s in sb['scenes']:
+        if s['visual']['type'] == 'chart':
+            s['visual'] = {'type': 'title', 'text': s['visual'].get('label') or s['line'].split('.')[0][:22]}
+    sb['chart'] = None
+
+
 def voice(jid):
     d = f'jobs/{jid}'
     sb, probs = story.check(json.load(open(f'{d}/storyboard.json')))
+    if sb.get('chart'):                                                   # real candles first: no data -> no chart and no "every chart" line
+        D, src = daily(sb['chart']['symbol'], sb['chart']['start'], sb['chart']['end'])
+        if D:
+            json.dump(D, open(f'{d}/data.json', 'w')); sb['chart']['src'] = src
+        else:
+            drop_chart(sb, 'no candles for ' + sb['chart']['symbol'])
     vj, plan = story.voice_job(sb)
     vj['seed'] = int(sb.get('voice_seed', 7))
     json.dump(vj, open(f'{d}/voice.json', 'w'), indent=1)
@@ -47,7 +61,8 @@ def voice(jid):
     wers = [float(x) for x in re.findall(r'wer (\d\.\d+)', log)]
     secs = float(re.findall(r'total ([\d.]+)s', log)[-1]) if re.findall(r'total ([\d.]+)s', log) else 0
     q = 'clean' if wers and min(wers) < .08 else 'check it'
-    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}\n\n'
+    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · #{sb.get("ep", "")} {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}'
+                                + ('' if sb.get('chart') else ' · no chart for this story') + '\n\n'
                                 '<b>Checkpoint 2:</b> listen, then make the video.',
                      'title': sb.get('title', 'Chain Secrets'), 'performer': 'Chain Secrets',
                      'reply_markup': kb([[('🎬 Make the video', f'sv:{jid}')], [('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
@@ -105,16 +120,12 @@ def render(jid):
     sb = json.load(open(f'{d}/storyboard.json'))
     plan = json.load(open(f'{d}/plan.json'))
     T = story.build_timing(open(f'{d}/voicep_words.srt').read(), sb, plan, f'{d}/timing.json')
-    if sb.get('chart'):
+    if sb.get('chart') and not os.path.exists(f'{d}/data.json'):
         D, src = daily(sb['chart']['symbol'], sb['chart']['start'], sb['chart']['end'])
         if D:
             json.dump(D, open(f'{d}/data.json', 'w')); sb['chart']['src'] = src
-        else:                                                             # no candles found: show those scenes as titles instead of a fake chart
-            print('no chart data, chart scenes -> titles')
-            for s in sb['scenes']:
-                if s['visual']['type'] == 'chart':
-                    s['visual'] = {'type': 'title', 'text': s['visual'].get('label') or s['line'].split('.')[0][:22]}
-            sb['chart'] = None
+        else:
+            drop_chart(sb, 'no candles at render time')
         json.dump(sb, open(f'{d}/storyboard.json', 'w'), indent=1)
     env = {**os.environ, 'CS_SCALE': '1', 'FPS': '60'}
     info = json.loads(subprocess.run([sys.executable, f'{HERE}/auto.py', d, 'info'], capture_output=True, text=True, env=env, check=True).stdout.strip().split('\n')[-1])
@@ -133,8 +144,10 @@ def render(jid):
     mv = {'serious': .08, 'mystery': .1, 'funny': .11, 'hype': .13}[sb['tone']]
     out = f'{d}/short.mp4'
     sh([sys.executable, f'{HERE}/mix2.py', f'{d}/silent.mp4', f'{d}/voice_tight.wav', f'{d}/sfx.wav', f'{d}/music_long.wav', str(T['dur']), out, str(mv)])
-    if os.path.getsize(out) > 48e6:                                      # Telegram bots can send up to 50 MB
-        sh(['ffmpeg', '-y', '-v', 'error', '-i', out, '-c:v', 'libx264', '-crf', '24', '-preset', 'medium', '-c:a', 'copy', f'{d}/short_s.mp4'])
+    if os.path.getsize(out) > 47e6:                                      # Telegram bots can send up to 50 MB: fit by bitrate
+        kbps = int(45e6 * 8 / T['dur'] / 1000) - 256
+        sh(['ffmpeg', '-y', '-v', 'error', '-i', out, '-c:v', 'libx264', '-b:v', f'{kbps}k', '-maxrate', f'{int(kbps * 1.3)}k', '-bufsize', f'{kbps * 2}k',
+            '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', f'{d}/short_s.mp4'])
         out = f'{d}/short_s.mp4'
     hook_t = T['beats'].get('s0', 1.0)
     tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '

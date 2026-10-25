@@ -25,6 +25,7 @@ PACK = {  # tone style packs
 }[TONE]
 ACC, ALT, BAD = PACK['acc'], PACK['alt'], PACK['bad']
 cs.SHAKE, cs.WHIP = PACK['shake'], PACK['whip']
+cs.TAGLINE = 'every chart hides a story' if SB.get('chart') else ''
 EP = SB.get('ep', '')
 SCN = SB['scenes']
 

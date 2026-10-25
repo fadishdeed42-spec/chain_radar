@@ -145,13 +145,14 @@ def cta_layer(cv, t):
     if pf > 0:
         cv.rect(W / 2 - 350 * pf, 1140 - 56 * pf, W / 2 + 350 * pf, 1140 + 56 * pf, DN, 1, r=56 * pf)
         cv.text(W / 2, 1140, 'FOLLOW  ·  CHAIN SECRETS', 'black', 40, WHITE, 1, anchor='cm', scale=max(pf, .01))
-    cv.text(W / 2, 1290, 'every chart hides a story', 'semi', 44, MUTED, seg(t, (CTA2 or CTA + .85) - .05, (CTA2 or CTA + .85) + .35), anchor='cm')
+    if TAGLINE: cv.text(W / 2, 1290, TAGLINE, 'semi', 44, MUTED, seg(t, (CTA2 or CTA + .85) - .05, (CTA2 or CTA + .85) + .35), anchor='cm')
     lp = seg(t, DUR - .6, DUR)
     if lp > 0: cv.fill(BG, clamp(lp * 2.2))
 
 # ---------------- post FX ----------------
 _GRAIN = [np.random.default_rng(s).normal(0, 1, (RH // 2, RW // 2)).astype(np.float32) for s in range(4)]
 SCENES, IMPACTS, NAME = [], [], 'v'
+TAGLINE = 'every chart hides a story'   # set to '' for stories without a chart
 SHAKE, WHIP = 1.0, 1.0          # tone knobs for the automatic Shorts (serious = calmer camera)
 def post(img, t):
     f = img.astype(np.float32)

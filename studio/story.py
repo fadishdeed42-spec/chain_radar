@@ -187,9 +187,24 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
     'mystery': {'hook': .72, 'setup': .6, 'turn': .66, 'twist': .85, 'payoff': .72, 'end': .55},
     'hype':    {'hook': .95, 'setup': .8, 'turn': .85, 'twist': .95, 'payoff': .95, 'end': .65}}
 CTA = 'Follow Chain Secrets. Every chart hides a story.'
+CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
+LENGTHS = {  # target seconds -> (min scenes, max scenes, min words, max words)
+    30: (5, 6, 62, 82), 45: (6, 8, 98, 120), 60: (8, 11, 135, 165), 120: (15, 20, 280, 330)}
 
 
-def check(sb):
+def cta(sb):
+    return CTA if sb.get('chart') else CTA_NOCHART
+
+
+def length_of(sb):
+    try:
+        L = int(sb.get('length', 45))
+    except (TypeError, ValueError):
+        L = 45
+    return min(LENGTHS, key=lambda k: abs(k - L))
+
+
+def check(sb, strict=True):
     """Validate + repair a storyboard. Returns (storyboard, problems). Problems that can't be repaired raise ValueError."""
     probs = []
     if not isinstance(sb, dict) or not isinstance(sb.get('scenes'), list):
@@ -197,8 +212,12 @@ def check(sb):
     sb['tone'] = sb.get('tone') if sb.get('tone') in TONES else 'mystery'
     sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)}
     sc = [s for s in sb['scenes'] if isinstance(s, dict) and str(s.get('line', '')).strip()]
-    if not 4 <= len(sc) <= 8:
-        raise ValueError(f'{len(sc)} scenes (need 4-8)')
+    L = length_of(sb); sb['length'] = L
+    lo_s, hi_s, lo_w, hi_w = LENGTHS[L]
+    if not lo_s - 1 <= len(sc) <= hi_s + 2:
+        if strict or not 4 <= len(sc) <= 22:
+            raise ValueError(f'{len(sc)} scenes for a {L}s Short (need {lo_s}-{hi_s})')
+        probs.append(f'{len(sc)} scenes (asked {lo_s}-{hi_s})')
     words = 0
     for i, s in enumerate(sc):
         s['line'] = re.sub(r'\s+', ' ', str(s['line']).replace('—', ', ').replace('–', '-')).strip()
@@ -222,10 +241,13 @@ def check(sb):
         words += sum(len(sp) for _, sp in plan_line(s['line'], sb['respell']))
     sc[0]['role'] = 'hook'; sc[-1]['role'] = 'end'
     sb['scenes'] = sc
-    secs = words / 2.85 + len(sc) * .4 + 4                                    # house pace + gaps + CTA
-    if secs > 62:
-        raise ValueError(f'script too long (~{secs:.0f}s, max ~55s)')
-    sb['est_secs'] = round(secs)
+    secs = words / 2.85 + len(sc) * .4 + 3                                    # house pace + gaps + CTA
+    if words < lo_w * .85 or words > hi_w * 1.2:
+        msg = f'script too {"short" if words < lo_w * .85 else "long"}: {words} spoken words, a {L}s Short needs {lo_w}-{hi_w}'
+        if strict or secs > 185:
+            raise ValueError(msg)
+        probs.append(msg)
+    sb['est_secs'] = round(secs); sb['words'] = words
     ch = sb.get('chart')
     if ch:
         if not (isinstance(ch, dict) and re.match(r'^\d{4}-\d{2}-\d{2}$', str(ch.get('start', ''))) and re.match(r'^\d{4}-\d{2}-\d{2}$', str(ch.get('end', '')))):
@@ -248,8 +270,8 @@ def voice_job(sb):
         end = i == len(sb['scenes']) - 1
         scenes.append([text, ex['end'] if end else ex[s['role']], .55 if end else (.3 if s['role'] in ('twist', 'payoff') else .24)] + (['end'] if end else []))
         plan.append(pl)
-    scenes.append([CTA, .7, .3])
-    plan.append(plan_line(CTA))
+    scenes.append([cta(sb), .7, .3])
+    plan.append(plan_line(cta(sb)))
     return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .2, 'seed': 7, 'scenes': scenes}, plan
 
 
