@@ -1,0 +1,154 @@
+{
+ "title": "The Brutal Trap Before Bitcoin's Mega Rally \ud83d\ude80",
+ "alt_hooks": [
+  "It's 2022. Bitcoin just crashed to $15,500 and everyone thinks it's going to zero.",
+  "How did a $15,500 Bitcoin bottom trick 99 percent of traders before a massive rally?",
+  "The exact moment Bitcoin hit $15,500 and trapped every single short seller."
+ ],
+ "tone": "mystery",
+ "respell": {
+  "Satoshi": "suh-TOH-shee"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2022-11-01",
+  "end": "2023-01-15"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "Bitcoin crashed to $15,500 in Nov 2022. Everyone thought it was zero.",
+   "hit": "$15500",
+   "beats": [
+    {
+     "word": "Nov",
+     "text": "NOV 2022",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "trading screens red",
+   "photo": "",
+   "visual": {
+    "type": "chart",
+    "date": "2022-11-21",
+    "label": "NOV 21 \u00b7 $15,500 \u00b7 THE FLOOR"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Exchanges were collapsing. Billions vanished overnight. Panic gripped every single retail trader.",
+   "hit": "billions",
+   "beats": [
+    {
+     "word": "retail",
+     "text": "PURSES CLOSED",
+     "icon": "lock"
+    }
+   ],
+   "footage": "bank run crowd",
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 15500,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Bitcoin Price Floor",
+    "icon": "bitcoin"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Traders piled into massive short positions. They expected a drop straight down to $10,000.",
+   "hit": "short",
+   "beats": [
+    {
+     "word": "10,000",
+     "text": "TARGET $10K",
+     "icon": "skull"
+    }
+   ],
+   "footage": "wall street trading floor",
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "bear trap",
+    "word": "SHORT",
+    "bad": true
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Instead, smart money quietly accumulated 50,000 coins right at the exact bottom wick.",
+   "hit": "50000",
+   "beats": [
+    {
+     "word": "bottom",
+     "text": "EXACT WICK",
+     "icon": "safe"
+    }
+   ],
+   "footage": "bitcoin mining farm",
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 50000,
+    "prefix": "",
+    "suffix": " BTC",
+    "label": "Accumulated at Bottom",
+    "icon": "safe"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "That brutal fakeout triggered a relentless short squeeze that never looked back.",
+   "hit": "squeeze",
+   "beats": [
+    {
+     "word": "relentless",
+     "text": "NO MERCY",
+     "icon": "fire"
+    }
+   ],
+   "footage": "green crypto charts",
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "SHORT SQUEEZE",
+    "sub": "TRAPPED",
+    "icon": "fire"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Fueling the massive climb all the way up to $126,000.",
+   "hit": "$126000",
+   "beats": [
+    {
+     "word": "climb",
+     "text": "NEW HIGHS",
+     "icon": "crown"
+    }
+   ],
+   "footage": "skyscraper sunset",
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 126000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "The Target",
+    "icon": "bitcoin"
+   }
+  }
+ ],
+ "description": "When Bitcoin crashed to $15,500 in November 2022, retail traders panicked and loaded up on short positions. Little did they know, it was the ultimate bear trap before a monumental rally.",
+ "hashtags": "#Bitcoin #Crypto #BTC #CryptoTrading #ChainSecrets #BullRun",
+ "pinned": "Did you hold or sell your crypto at the $15.5k bottom?",
+ "length": 45,
+ "settings": {
+  "length": 45
+ },
+ "est_secs": 35,
+ "words": 85
+}
