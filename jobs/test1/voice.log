@@ -1,0 +1,43 @@
+json 630687c875f9
+   take 1: score -0.57  wer 0.10  end +0.0st  3.4w/s  heard: Prosecutors say he paid $80,000 for a murder, and the hitman was a cop
+   take 2: score -0.56  wer 0.10  end +0.0st  3.3w/s  heard: Prosecutors say he paid $80,000 for a murder, and the hitman was a cop
+scene 1: 4.79s ex 0.72
+   take 1: score -0.51  wer 0.12  end +0.0st  3.0w/s  heard: Ross Ulbrick ran Silk Road, the biggest dark web market on Earth.
+   take 2: score -0.59  wer 0.12  end +0.0st  3.3w/s  heard: Russell Brick ran Silk Road, the biggest dark web market on Earth.
+scene 2: 3.94s ex 0.6
+   take 1: score +1.69  wer 0.07  end -3.7st  3.1w/s  heard: He believed a worker stole his Bitcoin, so he hired a hitman called No
+   take 2: score -0.84  wer 0.07  end +0.0st  4.0w/s  heard: He believed a worker stole his Bitcoin, so he hired a hitman called Kn
+scene 3: 4.58s ex 0.66
+   take 1: score +1.08  wer 0.21  end -3.6st  3.0w/s  heard: Not was a DEA agent.  The photos were staged.  The victim was alive.
+   take 2: score -1.10  wer 0.21  end +2.7st  3.1w/s  heard: knob was a DEA agent, the photos were staged, the victim was alive.
+   take 3: score -1.28  wer 0.21  end +3.1st  2.8w/s  heard: Knob was a DEA agent, the photos were staged, the victim was alive.
+scene 4: 5.02s ex 0.85
+   take 1: score -1.25  wer 0.31  end +0.0st  3.1w/s  heard: On October 2, 2013, the FBI shut Silk Road down and Bitcoin crashed to
+   take 2: score -1.53  wer 0.31  end +0.0st  2.6w/s  heard: On October 2, 2013, the FBI shut Silk Road down and Bitcoin crashed to
+scene 5: 6.14s ex 0.72
+   take 1: score -0.73  wer 0.00  end +0.0st  3.8w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
+   take 2: score -0.61  wer 0.00  end +0.0st  3.6w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
+   take 3: score -0.56  wer 0.00  end +0.0st  3.5w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
+   take 4: score -0.85  wer 0.00  end +0.0st  4.0w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
+   take 5: score -0.71  wer 0.00  end +0.0st  3.8w/s  heard: He got life in prison.  And the agent who stole the coins, he went to 
+   take 6: score -0.78  wer 0.00  end -0.5st  3.9w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
+scene 6: 4.80s ex 0.55 END
+   take 1: score -0.27  wer 0.00  end +0.0st  2.6w/s  heard: Follow Chain Secrets.  Every chart hides a story.
+   take 2: score -0.81  wer 0.12  end +0.0st  2.6w/s  heard: Followed chain secrets.  Every chart hides a story.
+scene 7: 3.02s ex 0.7
+34.57s, force-aligned 101 words
+liampace -> jobs/test1/voicep.wav
+rate x1.00 gap 0.40 | Prosecutors say he paid eighty thousand dollars for a murder... and the hitman was a cop.
+rate x1.00 gap 0.40 | Ross Ull-brick ran Silk Road, the biggest dark web market on Earth.
+rate x1.00 gap 0.40 | He believed a worker stole his bitcoin, so he hired a hitman called Nob.
+rate x1.00 gap 0.40 | Nob was a D E A agent.
+rate x1.00 gap 0.40 | The photos were staged.
+rate x1.00 gap 0.40 | The victim was alive.
+rate x1.00 gap 0.40 | On October second, twenty thirteen, the F B I shut Silk Road down and bitcoin crashed to eighty-five dollars.
+rate x1.00 gap 0.40 | He got life in prison.
+rate x1.00 gap 0.40 | And the agent who stole the coins?
+rate x1.00 gap 0.60 | He went to prison too.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+rate x1.00 gap 0.40 | Every chart hides a story.
+total 35.37s (was 34.57s)
+
