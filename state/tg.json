@@ -133,34 +133,6 @@
 },
 "t": 1792574671.700826
 },
-"305964e4cf": {
-"coin": "ishares-bitcoin-trust-etf-dinari-tokenized-etf",
-"facts": "Headline: BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT\nSources: Pluang, The Block\n\nArticle text:\nGet The Block\u2019s latest crypto news and price alerts for the coins you follow, right in Chrome. Add our free extension here. BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBITBlackRock filed with the Securities and Exchange Commission for the iShares Bitcoin Managed Protect ETF on Monday. Share<span class=\"acf-media-credit\"><span class=\"acf-credit\"><span class=\"acf-credit\"><a href=\"theblock.co\" target=\"_blank\">The Block</a></span></span></span>Quick Take\n\n\u201cThe Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection,\u201d BlackRock said in the filing on Monday.\nBlackRock\u2019s iShares Bitcoin Trust holds more than $65 billion in assets under management, making it the largest of its kind.\n\nBlackRock, the world's largest investment manager, has filed for another bitcoin fund, this time one that would give investors both downside protection and upside exposure to its flagship bitcoin exchange-traded fund. On Monday, the firm filed with the Securities and Exchange Commission for the iShares Bitcoin Managed Protect ETF. That fund will follow BlackRock's multi-billion-dollar iShares Bitcoin Trust ETF, the firm said. \"The Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF iShares Bitcoin Trust (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection,\" BlackRock said in the filing. BlackRock's iShares Bitcoin Trust holds more than $65 billion in assets under management, making it the largest of its kind, according to The Block's bitcoin ETF tracker. BlackRock launched IBIT in January 2024. In June, the firm launched its iShares Bitcoin Premium Income ETF, which is designed to provide investors with exposure to bitcoin while generating monthly option premium income. In a post on X, Bloomberg Intelligence's James Seyffart noted that BlackRock still just has bitcoin and Ethereum products. Over the past couple of years, other companies have launched ETFs tracking assets from XRP to SOL to DOGE. \"Notably, this is the third Bitcoin ETF filing from them,\" Seyffart said on Monday. \"Still only have Bitcoin and Ethereum products -- no other cryptos.\"\n",
-"item": {
-"hack": null,
-"src": "The Block",
-"t0": 1792446918.0,
-"tag": null,
-"title": "BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT",
-"url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
-},
-"p": {
-"keyfact": "BlackRock filed with the SEC for the iShares Bitcoin Managed Protect ETF on Monday.",
-"post": "BlackRock is expanding its crypto lineup. The firm reportedly filed with the SEC for a new iShares Bitcoin Managed Protect ETF on Monday, offering downside protection and capped upside exposure to its $65B flagship IBIT. #Bitcoin",
-"quote": "The Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF (IBIT) and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection = BlackRock",
-"reply": "Another massive move for institutional crypto products.",
-"short": "",
-"stat": "$65B | AUM in flagship IBIT",
-"symbol": "IBIT",
-"tag": "ETF",
-"thread": "1/ BlackRock is not slowing down its crypto product expansion. The world's largest investment manager reportedly filed with the SEC for a new fund on Monday.\n2/ The proposed iShares Bitcoin Managed Protect ETF is designed to provide downside protection while giving investors upside exposure to IBIT up to an approximate limit.\n3/ This marks the third Bitcoin ETF filing from BlackRock, according to Bloomberg Intelligence's James Seyffart. The firm's flagship IBIT currently holds over $65 billion in assets under management.\n4/ Despite expanding its ETF lineup, Seyffart noted that BlackRock still restricts its crypto products to Bitcoin and Ethereum, unlike other firms launching products for assets like SOL, XRP, and DOGE.",
-"timeline": "Jan 2024 = BlackRock launched IBIT ; Jun 2024 = Launched Bitcoin Premium Income ETF ; Mon = Filed for iShares Bitcoin Managed Protect ETF",
-"title": "BlackRock files 3rd Bitcoin ETF for IBIT protection",
-"versus": "Downside = Protected || Upside = Capped limit",
-"visual": "STAT"
-},
-"t": 1792447850.658132
-},
 "39478e5a8c": {
 "coin": "",
 "facts": "Headline: INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries\nSources: Sahara Reporters, The Eastleigh Voice\n\n",
@@ -192,6 +164,38 @@
 "visual": "STAT"
 },
 "t": 1792681107.3755188
+},
+"590a8d19ef": {
+"coin": "bitcoin",
+"facts": "Headline: SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying?\nSources: Crypto News, The Motley Fool, Yahoo Finance\nCoin in this story: Bitcoin (BTC) $80,190, -0.3% in 24h\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "The Motley Fool",
+"story": null,
+"t0": 1792920300.0,
+"tag": null,
+"title": "SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying?",
+"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5"
+},
+"p": {
+"keyfact": "The SEC has reportedly approved leveraged Bitcoin and Ethereum funds for trading.",
+"post": "The SEC has reportedly approved leveraged Bitcoin and Ethereum funds for trading. As BTC trades at $80,190 down 0.3 percent in 24 hours, investors are weighing the risks. #Crypto",
+"quote": "NONE",
+"reply": "Another massive shift for regulated products.",
+"short": "",
+"stat": "$80,190 | BTC Price",
+"symbol": "BTC",
+"tag": "ETF",
+"thread": "",
+"timeline": "NONE",
+"title": "SEC Approves Leveraged Crypto ETFs",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1792921647.3145463
 },
 "5c318167a8": {
 "coin": "bitcoin",
@@ -927,7 +931,7 @@
 },
 "menu_v": 4,
 "mute_until": 1792902190.2352862,
-"offset": 138489297,
+"offset": 138489298,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
