@@ -1,0 +1,39 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "thirty-two billion dollar vanished in days, but the real crime happened behind closed doors.",
+   0.75,
+   0.24
+  ],
+  [
+   "In November twenty twenty-two, crypto exchange F-T-X faced a sudden liquidity crisis.",
+   0.6,
+   0.24
+  ],
+  [
+   "Auditors found billions in customer funds were secretly misused by Alameda Research.",
+   0.65,
+   0.24
+  ],
+  [
+   "Founder Sam Bankman-Fried was convicted of massive fraud.",
+   0.8,
+   0.3
+  ],
+  [
+   "Bankruptcy plans claim some customers may get paid back, but thirty-two billion dollar vanished in days.",
+   0.55,
+   0.55,
+   "end"
+  ],
+  [
+   "Follow Chain Secrets. Every chart hides a story.",
+   0.7,
+   0.3
+  ]
+ ]
+}

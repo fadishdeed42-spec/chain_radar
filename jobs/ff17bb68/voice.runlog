@@ -1,0 +1,47 @@
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  5%|▍         | 55.5M/1.18G [00:00<00:02, 581MB/s] 10%|▉         | 117M/1.18G [00:00<00:01, 617MB/s]  15%|█▍        | 176M/1.18G [00:00<00:01, 595MB/s] 20%|█▉        | 237M/1.18G [00:00<00:01, 612MB/s] 25%|██▌       | 301M/1.18G [00:00<00:01, 633MB/s] 30%|███       | 365M/1.18G [00:00<00:01, 646MB/s] 36%|███▌      | 429M/1.18G [00:00<00:01, 653MB/s] 41%|████      | 492M/1.18G [00:00<00:01, 655MB/s] 46%|████▌     | 554M/1.18G [00:00<00:01, 654MB/s] 51%|█████▏    | 619M/1.18G [00:01<00:00, 660MB/s] 57%|█████▋    | 682M/1.18G [00:01<00:00, 657MB/s] 62%|██████▏   | 744M/1.18G [00:01<00:00, 635MB/s] 67%|██████▋   | 805M/1.18G [00:01<00:00, 623MB/s] 72%|███████▏  | 865M/1.18G [00:01<00:00, 573MB/s] 76%|███████▋  | 920M/1.18G [00:01<00:00, 542MB/s] 81%|████████  | 973M/1.18G [00:01<00:00, 530MB/s] 85%|████████▌ | 1.00G/1.18G [00:01<00:00, 505MB/s] 89%|████████▉ | 1.05G/1.18G [00:01<00:00, 511MB/s] 94%|█████████▍| 1.10G/1.18G [00:02<00:00, 536MB/s] 99%|█████████▉| 1.16G/1.18G [00:02<00:00, 565MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 592MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json a228c689d220
+   take 1: score -0.32  wer 0.07  end +0.0st  3.0w/s  heard: 32 billion dollar vanished in days, but the real crime happened behind
+   take 2: score -0.81  wer 0.11  end +0.0st  2.5w/s  heard: $32 billion vanished in days, but the real crime happened behind close
+scene 1: 4.61s ex 0.75
+   take 1: score -1.71  wer 0.28  end +0.0st  2.1w/s  heard: In November 2022, crypto exchange FTX faced a sudden liquidity crisis.
+   take 2: score -1.68  wer 0.28  end +0.0st  2.2w/s  heard: In November 2022, crypto exchange FTX faced a sudden liquidity crisis.
+scene 2: 5.54s ex 0.6
+   take 1: score -0.60  wer 0.00  end +0.0st  2.1w/s  heard: Auditors found billions in customer funds were secretly misused by Ala
+   take 2: score +1.54  wer 0.00  end -2.0st  2.3w/s  heard: Auditors found billions in customer funds were secretly misused by Ala
+scene 3: 5.15s ex 0.65
+   take 1: score -0.52  wer 0.00  end +0.0st  2.2w/s  heard: Founder Sam Bankman Fried was convicted of massive fraud.
+   take 2: score -1.45  wer 0.22  end +0.0st  2.2w/s  heard: Founder Sam Bankwin-Fright was convicted of massive fraud.
+scene 4: 3.58s ex 0.8
+   take 1: score +1.52  wer 0.10  end -8.1st  2.4w/s  heard: Bankruptcy plans claim some customers may get paid back, but $32 billi
+   take 2: score -0.48  wer 0.10  end +0.0st  2.4w/s  heard: Bankruptcy plans claim some customers may get paid back, but $32 billi
+   take 3: score -0.52  wer 0.10  end +0.0st  2.4w/s  heard: Bankruptcy plans claim some customers may get paid back, but $32 billi
+   take 4: score +1.28  wer 0.16  end -7.0st  2.5w/s  heard: Bankruptcy Plans claims some customers may get paid back, but $32 bill
+   take 5: score -0.53  wer 0.10  end +0.0st  2.4w/s  heard: Bankruptcy plans claim some customers may get paid back, but $32 billi
+   take 6: score -0.43  wer 0.10  end +0.0st  2.7w/s  heard: Bankruptcy plans claim some customers may get paid back, but $32 billi
+scene 5: 6.55s ex 0.55 END
+   take 1: score +1.62  wer 0.00  end -1.9st  2.5w/s  heard: Follow Chain Secrets.  Every chart hides a story.
+   take 2: score -0.19  wer 0.00  end +0.0st  2.8w/s  heard: Follow chain secrets.  Every chart hides a story.
+scene 6: 3.24s ex 0.7
+30.66s, force-aligned 70 words
+liampace -> jobs/ff17bb68/voicep.wav
+rate x1.00 gap 0.40 | thirty-two billion dollar vanished in days, but the real crime happened behind closed doors.
+rate x1.00 gap 0.40 | In November twenty twenty-two, crypto exchange F-T-X faced a sudden liquidity crisis.
+rate x1.00 gap 0.40 | Auditors found billions in customer funds were secretly misused by Alameda Research.
+rate x1.00 gap 0.40 | Founder Sam Bankman-Fried was convicted of massive fraud.
+rate x1.00 gap 0.60 | Bankruptcy plans claim some customers may get paid back, but thirty-two billion dollar vanished in days.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+rate x1.00 gap 0.40 | Every chart hides a story.
+total 31.35s (was 30.66s)
+
