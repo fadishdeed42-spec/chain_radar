@@ -34,13 +34,15 @@ def pixabay_video(q, used):
     best = None
     for h in r.json().get('hits', []):
         if h['id'] in used or h.get('duration', 0) < 4: continue
-        v = h['videos'].get('medium') or h['videos'].get('small') or {}
-        if not v.get('url'): continue
+        vs = [h['videos'][k] for k in ('medium', 'small', 'tiny') if (h['videos'].get(k) or {}).get('url')]
+        vs = [x for x in vs if not x.get('size') or x['size'] < MAXB] or vs[-1:]
+        if not vs: continue
+        v = vs[0]
         score = (2 if v.get('height', 0) > v.get('width', 1) else 0) + min(h.get('likes', 0), 300) / 300
         if best is None or score > best[0]: best = (score, h, v)
     if not best: return None
     _, h, v = best
-    return {'kind': 'video', 'url': v['url'], 'id': h['id'], 'credit': f"Video: {h.get('user', 'Pixabay')} / Pixabay"}
+    return {'kind': 'video', 'url': v['url'], 'small': (h['videos'].get('small') or {}).get('url'), 'id': h['id'], 'credit': f"Video: {h.get('user', 'Pixabay')} / Pixabay"}
 
 
 def pixabay_photo(q, used):
@@ -102,7 +104,11 @@ def fetch(job):
             if not m: print('media: nothing for', i, q); continue
             ext = '.mp4' if m['kind'] == 'video' else '.jpg'
             f = f'media/{i}{ext}'
-            get(m['url'], os.path.join(job, f))
+            try:
+                get(m['url'], os.path.join(job, f))
+            except ValueError:                                            # too big: take the smaller rendition
+                if not m.get('small'): raise
+                get(m['small'], os.path.join(job, f))
             used.add(m['id'])
             got[str(i)] = {'kind': m['kind'], 'file': f, 'credit': m['credit'], 'real': bool(m.get('real')), 'q': q}
             print('media', i, m['kind'], q, '->', m['credit'])

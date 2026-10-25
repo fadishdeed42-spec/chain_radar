@@ -178,6 +178,14 @@ def render(jid):
         sh(['ffmpeg', '-y', '-v', 'error', '-i', out, '-c:v', 'libx264', '-b:v', f'{kbps}k', '-maxrate', f'{int(kbps * 1.3)}k', '-bufsize', f'{kbps * 2}k',
             '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', f'{d}/short_s.mp4'])
         out = f'{d}/short_s.mp4'
+    try:                                                                  # contact sheet of the final video (for review)
+        n_ = 12
+        for k in range(n_):
+            sh(['ffmpeg', '-y', '-v', 'error', '-ss', f'{T["dur"] * (k + .5) / n_:.2f}', '-i', out, '-frames:v', '1', '-vf', 'scale=270:480', f'{d}/sh_{k:02d}.png'])
+        sh(['ffmpeg', '-y', '-v', 'error', '-i', f'{d}/sh_%02d.png', '-vf', 'tile=6x2', '-q:v', '4', f'{d}/sheet.jpg'])
+        for f in glob.glob(f'{d}/sh_*.png'): os.remove(f)
+    except Exception as e:
+        print('sheet skipped', e)
     hook_t = T['beats'].get('s0', 1.0)
     tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '
                                 f'Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920, 'duration': int(T['dur']),
