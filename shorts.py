@@ -56,7 +56,7 @@ def load():
                 _D = json.load(open(FILE))
             except Exception:
                 _D = {}
-            _D.setdefault('v', {}); _D.setdefault('ch', {}); _D.setdefault('q', 0); _D.setdefault('quota', {})
+            _D.setdefault('v', {}); _D.setdefault('ch', {}); _D.setdefault('bad_ch', []); _D.setdefault('q', 0); _D.setdefault('quota', {})
         return _D
 
 
@@ -113,7 +113,7 @@ def collect(n_queries=16):
         for v in j.get('items', []):
             dur = _secs(v['contentDetails'].get('duration'))
             st, sn = v.get('statistics', {}), v['snippet']
-            if not 8 <= dur <= 75 or not relevant(sn['title'], sn.get('description') or '', sn.get('defaultAudioLanguage') or sn.get('defaultLanguage') or '',
+            if sn['channelId'] in d['bad_ch'] or not 8 <= dur <= 75 or not relevant(sn['title'], sn.get('description') or '', sn.get('defaultAudioLanguage') or sn.get('defaultLanguage') or '',
                                                    str(sn.get('categoryId', ''))):
                 d['v'].pop(v['id'], None); continue
             rec = d['v'].get(v['id'], {})
@@ -140,7 +140,7 @@ def collect(n_queries=16):
 
 def score_all():
     d = load()
-    for k in [k for k, v in d['v'].items() if not relevant(v['t'], v.get('desc', ''), v.get('lang', ''), v.get('cat', ''))
+    for k in [k for k, v in d['v'].items() if v['ch'] in d['bad_ch'] or not relevant(v['t'], v.get('desc', ''), v.get('lang', ''), v.get('cat', ''))
               or (v.get('an') and str(v['an'].get('language', 'en')).lower()[:2] not in ('en', ''))]:
         d['v'].pop(k, None)
     for v in d['v'].values():
@@ -195,10 +195,14 @@ def analyze_batch(n, models):
     flop = sorted([x for x in todo if x[1]['out'] <= 0.5], key=lambda x: x[1]['out'])[:n // 2]
     done = 0
     for k, v in win + flop:
+        if k not in d['v']:
+            continue
         a = gemini_video(k, models)
         if a and str(a.get('language', 'en')).lower()[:2] not in ('en', ''):
-            with LOCK:
-                d['v'].pop(k, None)                                      # not English: not useful for our channel
+            with LOCK:                                                   # not English: drop it and skip that channel from now on
+                d['bad_ch'] = sorted(set(d['bad_ch']) | {v['ch']})
+                for kk in [kk for kk, vv in d['v'].items() if vv['ch'] == v['ch']]:
+                    d['v'].pop(kk, None)
             continue
         with LOCK:
             v['an'] = a or {'fail': 1}
