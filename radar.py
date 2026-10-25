@@ -1961,6 +1961,9 @@ SB_SCHEMA = '''{"title": "YouTube title, max 60 chars, curiosity, may end with o
  "chart": null OR {"symbol": "BTC", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD"},
  "scenes": [ {"role": "hook|setup|turn|twist|payoff|end", "line": "narration with real digits ($4B, 2017, Oct 25)",
               "hit": "one word from the line where the visual punch lands",
+              "beats": [{"word": "a later word in the same line", "text": "MAX 3 WORDS shown on screen", "icon": "optional icon"}],
+              "footage": "2-4 word stock video search for the background, e.g. 'prison cell bars' (or empty)",
+              "photo": "Wikipedia/Commons search for a REAL photo of the person/place/company, e.g. 'Changpeng Zhao' (or empty)",
               "visual": {"type": "...", ...fields...}} ],
  "description": "2-4 factual sentences with dates and numbers for the YouTube description",
  "hashtags": "6-8 hashtags", "pinned": "a pinned comment question for viewers"}'''
@@ -2013,7 +2016,12 @@ LEN_SHAPE = {
          'consequences with real numbers -> second twist or reveal -> where it stands today -> end that loops to the hook. Every 10-15 seconds something new must happen.'}
 
 
-def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='auto'):
+def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='auto', sett=None):
+    sett = sett or {}
+    n_sc = str(sett.get('scenes', 'auto'))
+    lo_s, hi_s = (int(n_sc), int(n_sc)) if n_sc.isdigit() else sstory.LENGTHS[length][:2]
+    pace = sett.get('pace', 'normal')
+    beat_rule = {'calm': '1 beat per scene (2 on long lines)', 'fast': '2-3 beats per scene, something new every ~1.5 seconds'}.get(pace, '1-2 beats per scene, something new every ~2 seconds')
     chart_rule = {'off': 'set "chart" to null and use no chart visuals.',
                   'on': 'include a real chart whenever any coin price is part of the story (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.'
                   }.get(chart_pref, 'only if the story is about a crypto price on specific dates (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.')
@@ -2027,7 +2035,7 @@ def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='au
 with a real price chart when the story has one. Write the storyboard for this story as JSON.
 
 HOUSE RULES
-- LENGTH: a {LEN_NAME[length]} Short = {sstory.LENGTHS[length][0]} to {sstory.LENGTHS[length][1]} scenes and {sstory.LENGTHS[length][2]} to {sstory.LENGTHS[length][3]} spoken words in total (count them). Each line 1-2 short spoken sentences, max 22 words.
+- LENGTH: a {LEN_NAME[length]} Short = {lo_s} to {hi_s} scenes and {sstory.LENGTHS[length][2]} to {sstory.LENGTHS[length][3]} spoken words in total (count them). Each line 1-2 short spoken sentences, max 22 words.
 - STRUCTURE: {LEN_SHAPE[length]}
 - WRITE LIKE A STORYTELLER: concrete names, places, dates and amounts; every line is a punch. Never write vague filler like "faced a crisis",
   "massive", "significant", "shocking", "in the world of crypto". Short sentences. Show, don't summarize.
@@ -2040,6 +2048,11 @@ HOUSE RULES
 - FACTS: use the facts below and only well-documented facts you are certain of. Never invent numbers, quotes or dates. If unsure, leave it out.
 - Chart: {chart_rule}
 - "alt_hooks": 3 other strong hook lines for scene 1 (different angles), same rules as the hook.
+- MOTION: the screen must never freeze. "hit" is the first punch of a scene; "beats" are extra on-screen moments ({beat_rule}),
+  each on a LATER word of the same line than "hit" (a name, number, place or action word), with 1-3 words of on-screen text that ADD info
+  (an amount, a place, a date, a nickname), never a copy of the caption.
+- "footage": a concrete, filmable stock-video search for the background of that scene (things/places/actions, never a named person: 'courtroom gavel',
+  'bitcoin mining farm', 'luxury yacht', 'trading screens red'). "photo": only for a REAL named person, company or place that has a Wikipedia photo.
 - No financial advice, no slurs, no claims that real people committed crimes they were not convicted of (say "prosecutors say" when needed).
 
 {SB_VISUALS}
@@ -2069,7 +2082,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
         facts = short_facts(topic)
     sb, err, best, note = None, None, None, ''
     for _ in range(3):
-        raw = make_storyboard(topic, facts, tone, err, length, sett.get('chart', 'auto'))
+        raw = make_storyboard(topic, facts, tone, err, length, sett.get('chart', 'auto'), sett)
         if isinstance(raw, dict):
             raw['settings'] = dict(sett, length=length)
         if not raw:

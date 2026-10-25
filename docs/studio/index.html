@@ -85,6 +85,8 @@
   .toast.on { opacity: 1; }
   .warnbox { background: rgba(255,196,46,.08); border: 1px solid rgba(255,196,46,.35); color: #ffe199; border-radius: 12px; padding: 10px 12px; font-size: 13px; margin-bottom: 10px; }
   .muted { color: var(--mut); }
+details.motion{margin-top:8px;font-size:13px}details.motion summary{cursor:pointer;color:var(--hint,#8a94a6);padding:4px 0}
+details.motion label{display:block;margin:8px 0 3px;font-size:12px;color:var(--hint,#8a94a6)}
 </style>
 </head>
 <body>
@@ -400,8 +402,26 @@ function drawScenes() {
     card.append(line, meta);
     hitSelect(s, hit); upd();
     const vbox = el('div', { class: 'vis' }); visFields(s, vbox); card.append(vbox);
+    card.append(motionFields(s));
     box.append(card);
   });
+}
+function motionFields(s) {
+  // extra on-screen moments + real footage/photo for one scene
+  const det = el('details', { class: 'motion' });
+  det.append(el('summary', {}, '🎬 Moments & footage' + ((s.beats || []).length || s.footage || s.photo ? ' ●' : '')));
+  const beats = el('input', { placeholder: 'word = ON-SCREEN TEXT, word = TEXT' });
+  beats.value = (s.beats || []).map(b => `${b.word} = ${b.text || ''}`).join(', ');
+  beats.addEventListener('input', () => {
+    s.beats = beats.value.split(',').map(x => x.split('=')).filter(p => p[0] && p[0].trim())
+      .map(p => ({ word: p[0].trim().toLowerCase(), text: (p[1] || '').trim().toUpperCase().slice(0, 22) })).slice(0, 4);
+  });
+  const foot = el('input', { placeholder: 'stock video search, e.g. prison cell bars' }); foot.value = s.footage || '';
+  foot.addEventListener('input', () => s.footage = foot.value.slice(0, 60));
+  const photo = el('input', { placeholder: 'real photo (Wikipedia), e.g. Changpeng Zhao' }); photo.value = s.photo || '';
+  photo.addEventListener('input', () => s.photo = photo.value.slice(0, 60));
+  det.append(el('label', {}, 'Moments (pop on these words)'), beats, el('label', {}, 'Background footage'), foot, el('label', {}, 'Real photo'), photo);
+  return det;
 }
 function move(i, d) {
   const j = i + d, a = S.sb.scenes; if (j < 0 || j >= a.length) return;

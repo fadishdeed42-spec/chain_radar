@@ -14,9 +14,11 @@ Canvas.glow = _qglow
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CH = DUR = B = PARA = CAPS = CTA = CTA2 = None
+WORDS = []
 def load(path):
-    global CH, DUR, B, PARA, CAPS, CTA, CTA2
+    global CH, DUR, B, PARA, CAPS, CTA, CTA2, WORDS
     T_ = json.load(open(path))
+    WORDS = T_.get('words', [])             # [scene, word, time, display token] for every spoken word (Studio)
     CH, DUR, B, PARA, CAPS = T_['chunks'], T_['dur'], T_['beats'], T_['para'], T_['caps']
     CTA = T_.get('cta'); CTA2 = T_.get('cta2')   # end card start (set in the timing file); drawn by cta_layer over the last scene
 def P(i): return PARA[i][0]
@@ -155,6 +157,9 @@ SCENES, IMPACTS, NAME = [], [], 'v'
 CAP_SIZE = 58                   # caption size (Studio: 58 normal, 72 large)
 TAGLINE = 'every chart hides a story'   # set to '' for stories without a chart
 SHAKE, WHIP = 1.0, 1.0          # tone knobs for the automatic Shorts (serious = calmer camera)
+BACKDROP = None                 # Studio: fn(cv, t, i) draws real footage/photos behind scene i
+SCENE_CAM = None                # Studio: fn(t, i) -> 3x3 matrix (pixels of the render) moving the scene layer, captions stay put
+OVERLAY = None                  # Studio: fn(cv, t, i) drawn above the scene, below the captions (beat stickers, sting)
 def post(img, t):
     f = img.astype(np.float32)
     s = 1.0 + .012 * math.sin(t * .31) + .018 * ((t % 9) / 9)
@@ -195,7 +200,13 @@ def frame(t):
     cv = Canvas(); background(cv)
     i = 0
     while i + 1 < len(PARA) and t >= PARA[i + 1][0]: i += 1
+    if BACKDROP: BACKDROP(cv, t, i)
     SCENES[i](cv, t)
+    if SCENE_CAM:
+        Mx = SCENE_CAM(t, i)
+        if Mx is not None:
+            cv.a = cv2.warpPerspective(cv.a, Mx, (RW, RH), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+    if OVERLAY: OVERLAY(cv, t, i)
     cta_layer(cv, t)
     caption_layer(cv, t)
     progress_bar(cv, t, DUR)

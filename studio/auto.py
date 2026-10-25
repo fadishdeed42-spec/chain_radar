@@ -6,7 +6,7 @@ python auto.py JOBDIR sfx                   -> JOBDIR/sfx.wav
 
 JOBDIR holds storyboard.json, timing.json and (if the story has a chart) data.json with real daily candles.
 Every scene is one of the template types below; its punch lands on the scene's "hit" word (B['s<i>'])."""
-import os, sys, json, math
+import os, sys, json, math, re
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 JOB = sys.argv[1]
@@ -34,6 +34,9 @@ elif ST['captions'] == 'large': cs.CAP_SIZE = 72
 if ST['motion'] == 'calm': cs.SHAKE, cs.WHIP = .3, .4
 elif ST['motion'] == 'strong': cs.SHAKE, cs.WHIP = 1.45, 1.15
 SFX_K = {'off': 0, 'soft': .55, 'normal': 1.0, 'punchy': 1.35}.get(ST['sfx'], 1.0)
+STYLE = ST.get('style', 'mixed')
+PACE = {'calm': 2.6, 'normal': 1.8, 'fast': 1.25}.get(ST.get('pace', 'normal'), 1.8)   # max seconds without a new on-screen moment
+MOVE = {'calm': .6, 'auto': 1.0, 'strong': 1.35}.get(ST['motion'], 1.0)
 EP = SB.get('ep', '')
 SCN = SB['scenes']
 
@@ -49,6 +52,90 @@ if SB.get('chart') and os.path.exists(os.path.join(JOB, 'data.json')):
         return min(range(len(D['t'])), key=lambda i: abs(D['t'][i] - ts))
     CHART_SCENES = [i for i, s in enumerate(SCN) if s['visual']['type'] == 'chart']
     MARK = {i: didx(SCN[i]['visual'].get('date') or SB['chart']['end']) for i in CHART_SCENES}
+
+
+# ---------------------------------------------------------------- real footage + photos (media.py fetched them)
+MEDIA = {}
+if STYLE not in ('graphics', '3d') and os.path.exists(os.path.join(JOB, 'media.json')):
+    MEDIA = {int(k): v for k, v in json.load(open(os.path.join(JOB, 'media.json'))).items() if os.path.exists(os.path.join(JOB, v['file']))}
+_yy = np.linspace(0, 1, RH, dtype=np.float32)[:, None, None]
+GRADE = (.50 - .22 * np.clip((.22 - _yy) / .22, 0, 1) - .36 * np.clip((_yy - .6) / .4, 0, 1)).astype(np.float32)   # darker top + bottom
+_BGF = np.array(BG, np.float32)
+_cache = {}
+
+
+def cover(img, w, h):
+    ih, iw = img.shape[:2]
+    s = max(w / iw, h / ih)
+    nw, nh = int(iw * s + .5), int(ih * s + .5)
+    im = cv2.resize(img, (nw, nh), interpolation=cv2.INTER_AREA if s < 1 else cv2.INTER_LINEAR)
+    x0, y0 = (nw - w) // 2, max(0, int((nh - h) * .3))
+    return im[y0:y0 + h, x0:x0 + w]
+
+
+def media_frame(i, t):
+    m = MEDIA[i]; key = ('src', i)
+    if key not in _cache:
+        if m['kind'] == 'video':
+            cap = cv2.VideoCapture(os.path.join(JOB, m['file']))
+            _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
+        else:
+            im = cv2.imread(os.path.join(JOB, m['file']), cv2.IMREAD_COLOR)
+            _cache[key] = {'img': cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None}
+    c = _cache[key]
+    tl = max(0.0, t - P(i))
+    if m['kind'] == 'video':
+        idx = int(tl * c['fps']) % max(1, c['n'] - 2)
+        if idx != c['pos']:
+            if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
+            ok, fr = c['cap'].read()
+            if ok: c['img'] = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
+            c['pos'] = idx
+        return c['img']
+    if c['img'] is None: return None
+    if ('cov', i) not in _cache: _cache[('cov', i)] = cover(c['img'], int(RW * 1.15), int(RH * 1.15))
+    im = _cache[('cov', i)]
+    p = smooth(seg(t, P(i), PARA[i][1]))                                  # Ken Burns: slow push + pan
+    z = 1 / 1.15 * (1 + .1 * p); d = 1 if i % 2 else -1
+    M = np.float32([[z, 0, (RW - im.shape[1] * z) / 2 + d * 30 * K * (p - .5)], [0, z, (RH - im.shape[0] * z) / 2]])
+    return cv2.warpAffine(im, M, (RW, RH), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+
+
+def backdrop(cv, t, i):
+    if i not in MEDIA: return
+    a = 1.0 if i == len(SCN) - 1 else fade(t, i)
+    if i == 0 and len(SCN) > 1: a = 1 - seg(t, P(1) - .2, P(1))
+    if a <= .01: return
+    real_person = MEDIA[i].get('real') and SCN[i]['visual']['type'] == 'person'
+    im = media_frame(i, t)
+    if im is None: return
+    if real_person:                                                       # the portrait is drawn sharp; behind it a soft blur of it
+        if ('blur', i) not in _cache: _cache[('blur', i)] = cv2.GaussianBlur(cv2.resize(im, (RW // 8, RH // 8)), (0, 0), 6)
+        im = cv2.resize(_cache[('blur', i)], (RW, RH))
+    g = im * (GRADE * (.75 if real_person else 1)) + _BGF * (1 - GRADE) * .35
+    cv.a += (g - cv.a) * a
+
+
+def portrait(cv, i, cx, cy, r, alpha):
+    """real photo in a round frame (face = upper part of the photo)"""
+    c = _cache.get(('src', i)) or (media_frame(i, P(i)) is not None and _cache.get(('src', i)))
+    if not c or c.get('img') is None or r < 4 or alpha <= 0: return False
+    sz = int(2 * r * K)
+    if ('por', i, sz) not in _cache:
+        src = c['img']; h, w = src.shape[:2]; sd = min(h, w)
+        y0 = int(max(0, min(h - sd, h * .08))) if h > w else 0
+        sq = src[y0:y0 + sd, (w - sd) // 2:(w - sd) // 2 + sd]
+        yy, xx = np.mgrid[0:sz, 0:sz]
+        mk = np.clip(sz / 2 - np.sqrt((xx - sz / 2 + .5) ** 2 + (yy - sz / 2 + .5) ** 2), 0, 1).astype(np.float32)
+        _cache[('por', i, sz)] = (cv2.resize(sq, (sz, sz), interpolation=cv2.INTER_AREA), mk)
+        if len(_cache) > 60: [_cache.pop(k) for k in [k for k in _cache if k[0] == 'por'][:20]]
+    im, mk = _cache[('por', i, sz)]
+    x0, y0 = int(cx * K - sz / 2), int(cy * K - sz / 2)
+    xa, ya, xb, yb = max(0, x0), max(0, y0), min(RW, x0 + sz), min(RH, y0 + sz)
+    roi = cv.a[ya:yb, xa:xb]; mm = mk[ya - y0:yb - y0, xa - x0:xb - x0, None] * alpha
+    roi += (im[ya - y0:yb - y0, xa - x0:xb - x0] - roi) * mm
+    cv.ring(cx, cy, r + 4, ACC, 10, alpha)
+    return True
 
 
 def hit(i):
@@ -118,8 +205,12 @@ def cash(cv, x, y, s, a):
     cv.rect(x - 30 * s, y - 120 * s, x + 30 * s, y + 130 * s, (220, 200, 140), a * .9)
 
 
+ICON_NAMES = set(_story.ICONS)
+
+
 def icon(cv, name, x, y, s, a, t=0.0):
     if a <= 0 or s <= .02: return
+    y += 9 * s * math.sin(t * 2.1 + x * .01)                             # idle float: icons are never frozen
     if name == 'bitcoin': coin(cv, x, y, 150 * s, a, rot=.3 * math.sin(t * 2))
     elif name == 'ethereum': eth_logo(cv, x, y, 160 * s, a)
     elif name == 'dogecoin': doge(cv, x, y, 150 * s, a)
@@ -238,7 +329,8 @@ def sc_person(cv, t, i, v, a):
     h = hit(i)
     q = back(seg(t, P(i), P(i) + .4))
     prop = v.get('prop', 'none')
-    if prop == 'officer': officer(cv, W / 2, 760, 1.4 * q, a)
+    if i in MEDIA and MEDIA[i].get('real') and portrait(cv, i, W / 2, 720, 300 * max(.01, q), a * clamp(q)): pass
+    elif prop == 'officer': officer(cv, W / 2, 760, 1.4 * q, a)
     else: person(cv, W / 2, 760, 1.4 * q, PACK['person'], a)
     name = str(v.get('name', '')).upper()
     cv.text(W / 2, 1110, name, 'black', fit(name, 'black', 60, 980), TXT, a * clamp(q), anchor='cm', track=4)
@@ -333,6 +425,110 @@ def sc_list(cv, t, i, v, a):
         cv.text(260, y, it, 'black', fit(it, 'black', 54, 680), ACC if k == n - 1 else TXT, a * clamp(q), anchor='lm')
 
 
+
+# ---------------------------------------------------------------- motion: several moments inside every scene
+def scene_end(i):
+    e = PARA[i][1]
+    if CTA is not None: e = min(e, CTA)
+    return e
+
+
+def scene_beats(i):
+    """every on-screen moment of scene i after its hit: the storyboard's beats on their words, plus automatic punch-ins
+    so the picture never holds longer than PACE seconds"""
+    h, e = hit(i), scene_end(i)
+    ws = [w for w in cs.WORDS if w[0] == i and h + .45 < w[2] < e - .35]
+    out = []
+    for b in SCN[i].get('beats') or []:
+        key = re.sub(r'[^\w$%]', '', str(b.get('word', ''))).lower()
+        m = next((w for w in ws if w[1] == key and all(abs(w[2] - o['t']) > .7 for o in out)), None)
+        if m is None and b.get('text'):                                   # word not found: give it the next free slot
+            free = [w for w in ws if all(abs(w[2] - o['t']) > .9 for o in out) and w[2] > h + .9]
+            m = free[len(free) // 2] if free else None
+        if m: out.append({'t': m[2], 'text': str(b.get('text', '')).upper()[:22], 'icon': b.get('icon')})
+    anchors = sorted([h] + [o['t'] for o in out] + [e])
+    for a, b in zip(anchors, anchors[1:]):
+        n = int((b - a) / PACE)
+        for k in range(1, n + 1):
+            tt = a + (b - a) * k / (n + 1)
+            cand = [w for w in ws if abs(w[2] - tt) < .55 and (len(w[1]) >= 5 or re.search(r'\d', w[1]))]
+            if cand: tt = min(cand, key=lambda w: abs(w[2] - tt))[2]
+            out.append({'t': tt, 'text': '', 'icon': None})
+    return sorted(out, key=lambda o: o['t'])
+
+
+BEATS = [scene_beats(i) for i in range(len(SCN))]
+
+
+def zsteps(t, i):
+    """punch-in zoom: every hit/beat steps the camera closer (eased), the classic Shorts edit"""
+    z = 0.0
+    for k, tb in enumerate([hit(i)] + [b['t'] for b in BEATS[i]]):
+        z += .028 * MOVE * out3(seg(t, tb - .04, tb + .28))
+        z += .022 * MOVE * math.exp(-max(0.0, t - tb) * 9) * (t >= tb)  # a tiny overshoot kick
+    return min(z, .16)
+
+
+def scene_cam(t, i):
+    s0, e = P(i), max(P(i) + .5, PARA[i][1])
+    p = smooth(seg(t, s0, e))
+    d = 1 if i % 2 == 0 else -1
+    z = 1.0 + .035 * MOVE * p + zsteps(t, i)
+    cx, cy = RW / 2 + d * 18 * K * (p - .5) * MOVE, RH * (.42 if i % 3 else .38)       # zoom toward the visual, not the captions
+    M = np.array([[z, 0, cx - z * cx], [0, z, cy - z * cy], [0, 0, 1]], np.float64)
+    if STYLE == '3d':                                                     # a slow camera orbit + a swing on every beat = depth
+        sw = sum(math.exp(-max(0.0, t - b['t']) * 3) * (t >= b['t']) * (1 if n % 2 else -1) for n, b in enumerate(BEATS[i]))
+        yaw = (.05 * d * (p - .5) + .025 * math.sin(t * .7) + .02 * sw) * MOVE
+        pitch = (.035 + .015 * math.sin(t * .5 + i)) * MOVE
+        src = np.float32([[0, 0], [RW, 0], [RW, RH], [0, RH]])
+        ky, px = yaw * RH * .25, pitch * RW * .5                          # yaw: one side nearer; pitch: top leans away
+        dst = np.float32([[px, -ky], [RW - px, ky], [RW + px * .3, RH - ky], [-px * .3, RH + ky]])
+        dst = ((dst - [RW / 2, RH / 2]) * 1.06 + [RW / 2, RH / 2]).astype(np.float32)
+        M = cv2.getPerspectiveTransform(src, dst).astype(np.float64) @ M
+    return M
+
+
+STICK_Y = 1410
+
+
+def overlay(cv, t, i):
+    """beat stickers: short facts that pop in on their word, alternate sides, leave when the next one comes"""
+    bs = BEATS[i]; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
+    shown = [b for b in bs if b['text']]
+    for n, b in enumerate(shown):
+        t0 = b['t']; t1 = shown[n + 1]['t'] if n + 1 < len(shown) else scene_end(i)
+        if not (t0 - .05 <= t < t1): continue
+        q = back(seg(t, t0 - .05, t0 + .3)); out = seg(t, t1 - .2, t1)
+        x = W / 2 + (-150 if n % 2 == 0 else 150) * (len(shown) > 1)
+        y = STICK_Y + 10 * math.sin((t - t0) * 2.2)                       # sticker floats
+        sz = fit(b['text'], 'black', 50, 780)
+        tw, _ = text_size(b['text'], 'black', sz, track=3)
+        ic = b.get('icon') if b.get('icon') in ICON_NAMES else None
+        wbox = tw + 70 + (90 if ic else 0)
+        x = min(max(x, wbox / 2 + 40), W - wbox / 2 - 40)
+        s_ = max(.01, q * (1 - out))
+        col = ACC if n % 2 == 0 else ALT
+        cv.rect(x - wbox / 2 * s_, y - 52 * s_, x + wbox / 2 * s_, y + 52 * s_, col, a_sc * clamp(q) * (1 - out), r=52 * s_)
+        if ic: icon(cv, ic, x - wbox / 2 * s_ + 70 * s_, y, .22 * s_, a_sc * (1 - out), t)
+        cv.text(x + (45 if ic else 0) * s_, y, b['text'], 'black', sz, BG if col in (GOLD, UP) else WHITE, a_sc * clamp(q) * (1 - out),
+                anchor='cm', scale=s_, track=3)
+    for b in bs:                                                          # every moment also flashes a light burst
+        g = seg(t, b['t'] - .02, b['t'] + .35)
+        if 0 < g < 1:
+            r = lerp(120, 520, out3(g))
+            cv.ring(W / 2, 760, r, ACC, 6 * (1 - g) + 1, .35 * (1 - g) * a_sc)
+    if i == 0:                                                            # branded sting over the hook (no delay before the hook)
+        g = seg(t, .05, .6); g2 = 1 - seg(t, 2.2, 2.6)
+        if g2 > 0:
+            q = back(g)
+            txt = 'CHAIN SECRETS' + (f'  ·  #{EP}' if EP else '')
+            tw, _ = text_size(txt, 'black', 30, track=6)
+            cv.rect(W / 2 - (tw / 2 + 36) * q, 232 - 30 * q, W / 2 + (tw / 2 + 36) * q, 232 + 30 * q, (14, 18, 28), .82 * g2, r=30 * q)
+            cv.text(W / 2, 232, txt, 'black', 30, GOLD, g2 * clamp(q), anchor='cm', scale=max(.01, q), track=6)
+            sx = lerp(W / 2 - tw / 2 - 60, W / 2 + tw / 2 + 60, seg(t, .5, 1.1))   # light sweep across the badge
+            if .5 < t < 1.1: cv.glow(sx, 232, 50, WHITE, .35 * g2)
+
+
 TEMPLATES = {'title': sc_title, 'counter': sc_counter, 'stamp': sc_stamp, 'person': sc_person, 'date': sc_date, 'chart': sc_chart,
              'versus': sc_versus, 'quote': sc_quote, 'list': sc_list}
 
@@ -353,6 +549,9 @@ def make_scene(i):
 cs.SCENES = [make_scene(i) for i in range(len(SCN))]
 cs.IMPACTS = [hit(i) for i, s in enumerate(SCN) if s['role'] in PACK['impacts'] and s['visual']['type'] in ('title', 'stamp', 'counter', 'chart', 'versus', 'quote', 'person')]
 cs.NAME = 'auto'
+cs.SCENE_CAM = scene_cam
+cs.BACKDROP = backdrop if MEDIA else None
+cs.OVERLAY = overlay
 
 
 # ---------------------------------------------------------------- sound design (procedural, keyed to the same hits)
@@ -391,6 +590,10 @@ def make_sfx(out):
         elif ty == 'list':
             n = len(s['visual'].get('items') or [1])
             for j in range(n): place(tr, pop(.2 * k, 600 + 80 * j), lerp(P(i) + .2, h, j / max(1, n - 1)) if n > 1 else h)
+    for i in range(len(SCN)):                                             # every on-screen moment gets a soft accent
+        for n, b in enumerate(BEATS[i]):
+            if b['text']: place(tr, pop(.16 * k, 720 + 90 * (n % 3)), b['t'] - .02); place(tr, whoosh(.25, n % 2 == 0, .05 * k), b['t'] - .12)
+            else: place(tr, whoosh(.3, n % 2 == 0, .045 * k), b['t'] - .12, pan=(.3 if n % 2 else -.3))
     C = CTA
     if C is not None:
         place(tr, whoosh(.5, True, .14), C - .1); place(tr, thud(.4, .45), C + .2); place(tr, ding(1760, 1.0, .2), C + .5)

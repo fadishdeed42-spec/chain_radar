@@ -2,56 +2,544 @@
  "version": 1,
  "note": "One source of truth for Studio settings. The Mini App draws its controls from this file and the video pipeline (studio/story.py, auto.py, run.py) reads the same defaults. To add a setting: add it here, then use sb['settings'][key] in the pipeline.",
  "groups": [
-  {"id": "story", "label": "Story", "icon": "📖", "fields": [
-   {"key": "length", "label": "Length", "type": "choice", "default": 45,
-    "options": [[30, "30s"], [45, "45s"], [60, "1 min"], [90, "1.5 min"], [120, "2 min"]],
-    "help": "Shorter = more replays. 30-45s is best for growth; 1-2 min for big stories."},
-   {"key": "tone", "label": "Tone", "type": "choice", "default": "auto",
-    "options": [["auto", "Auto"], ["funny", "😂 Funny"], ["mystery", "🕵️ Mystery"], ["serious", "⚠️ Serious"], ["hype", "🔥 Hype"]],
-    "help": "Auto lets the AI pick: funny for absurd stories, serious for victims, mystery for secrets, hype for records."},
-   {"key": "chart", "label": "Price chart", "type": "choice", "default": "auto",
-    "options": [["auto", "When it fits"], ["on", "Try hard"], ["off", "No chart"]],
-    "help": "Real candles from Bitstamp, Binance or Coinbase. No chart = no \"every chart hides a story\" line."}
-  ]},
-  {"id": "voice", "label": "Voice", "icon": "🎙", "fields": [
-   {"key": "energy", "label": "Energy", "type": "choice", "default": "normal",
-    "options": [["calm", "Calm"], ["normal", "Normal"], ["punchy", "Punchy"]],
-    "help": "How much emotion the narrator puts in every line (the house Liam voice)."},
-   {"key": "pauses", "label": "Pauses", "type": "choice", "default": "normal",
-    "options": [["short", "Short"], ["normal", "Normal"], ["dramatic", "Dramatic"]],
-    "help": "Silence between lines. Dramatic suits mystery stories."},
-   {"key": "autorender", "label": "Make the video right after the voice", "type": "toggle", "default": false,
-    "help": "Skips checkpoint 2: the video arrives without you approving the voice first."}
-  ]},
-  {"id": "look", "label": "Look & sound", "icon": "🎨", "fields": [
-   {"key": "captions", "label": "Captions", "type": "choice", "default": "on",
-    "options": [["on", "Normal"], ["large", "Large"], ["off", "Off"]]},
-   {"key": "motion", "label": "Camera motion", "type": "choice", "default": "auto",
-    "options": [["calm", "Calm"], ["auto", "By tone"], ["strong", "Strong"]],
-    "help": "Shake and whip transitions on the big moments."},
-   {"key": "music", "label": "Music", "type": "choice", "default": "normal",
-    "options": [["off", "Off"], ["low", "Low"], ["normal", "Normal"], ["high", "High"]]},
-   {"key": "sfx", "label": "Sound effects", "type": "choice", "default": "normal",
-    "options": [["off", "Off"], ["soft", "Soft"], ["normal", "Normal"], ["punchy", "Punchy"]]}
-  ]},
-  {"id": "end", "label": "Ending", "icon": "🏁", "fields": [
-   {"key": "endcard", "label": "End card (logo + follow)", "type": "toggle", "default": true},
-   {"key": "cta", "label": "Last spoken line", "type": "text", "default": "", "placeholder": "Follow Chain Secrets.",
-    "help": "Empty = the default line. Type - for no last line."}
-  ]}
+  {
+   "id": "story",
+   "label": "Story",
+   "icon": "📖",
+   "fields": [
+    {
+     "key": "length",
+     "label": "Length",
+     "type": "choice",
+     "default": 45,
+     "options": [
+      [
+       30,
+       "30s"
+      ],
+      [
+       45,
+       "45s"
+      ],
+      [
+       60,
+       "1 min"
+      ],
+      [
+       90,
+       "1.5 min"
+      ],
+      [
+       120,
+       "2 min"
+      ]
+     ],
+     "help": "Shorter = more replays. 30-45s is best for growth; 1-2 min for big stories."
+    },
+    {
+     "key": "scenes",
+     "label": "Scenes",
+     "type": "choice",
+     "default": "auto",
+     "options": [
+      [
+       "auto",
+       "Auto"
+      ],
+      [
+       5,
+       "5"
+      ],
+      [
+       6,
+       "6"
+      ],
+      [
+       8,
+       "8"
+      ],
+      [
+       10,
+       "10"
+      ],
+      [
+       12,
+       "12"
+      ],
+      [
+       15,
+       "15"
+      ],
+      [
+       20,
+       "20"
+      ]
+     ],
+     "help": "How many scenes (story beats). More scenes = faster story. Auto picks a good number for the length."
+    },
+    {
+     "key": "tone",
+     "label": "Tone",
+     "type": "choice",
+     "default": "auto",
+     "options": [
+      [
+       "auto",
+       "Auto"
+      ],
+      [
+       "funny",
+       "😂 Funny"
+      ],
+      [
+       "mystery",
+       "🕵️ Mystery"
+      ],
+      [
+       "serious",
+       "⚠️ Serious"
+      ],
+      [
+       "hype",
+       "🔥 Hype"
+      ]
+     ],
+     "help": "Auto lets the AI pick: funny for absurd stories, serious for victims, mystery for secrets, hype for records."
+    },
+    {
+     "key": "chart",
+     "label": "Price chart",
+     "type": "choice",
+     "default": "auto",
+     "options": [
+      [
+       "auto",
+       "When it fits"
+      ],
+      [
+       "on",
+       "Try hard"
+      ],
+      [
+       "off",
+       "No chart"
+      ]
+     ],
+     "help": "Real candles from Bitstamp, Binance or Coinbase. No chart = no \"every chart hides a story\" line."
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "label": "Voice",
+   "icon": "🎙",
+   "fields": [
+    {
+     "key": "energy",
+     "label": "Energy",
+     "type": "choice",
+     "default": "normal",
+     "options": [
+      [
+       "calm",
+       "Calm"
+      ],
+      [
+       "normal",
+       "Normal"
+      ],
+      [
+       "punchy",
+       "Punchy"
+      ]
+     ],
+     "help": "How much emotion the narrator puts in every line (the house Liam voice)."
+    },
+    {
+     "key": "pauses",
+     "label": "Pauses",
+     "type": "choice",
+     "default": "normal",
+     "options": [
+      [
+       "short",
+       "Short"
+      ],
+      [
+       "normal",
+       "Normal"
+      ],
+      [
+       "dramatic",
+       "Dramatic"
+      ]
+     ],
+     "help": "Silence between lines. Dramatic suits mystery stories."
+    },
+    {
+     "key": "autorender",
+     "label": "Make the video right after the voice",
+     "type": "toggle",
+     "default": false,
+     "help": "Skips checkpoint 2: the video arrives without you approving the voice first."
+    }
+   ]
+  },
+  {
+   "id": "look",
+   "label": "Look & sound",
+   "icon": "🎨",
+   "fields": [
+    {
+     "key": "style",
+     "label": "Video style",
+     "type": "choice",
+     "default": "mixed",
+     "options": [
+      [
+       "mixed",
+       "🎬 Mixed"
+      ],
+      [
+       "documentary",
+       "📽 Documentary"
+      ],
+      [
+       "graphics",
+       "✨ Graphics"
+      ],
+      [
+       "3d",
+       "🧊 3D look"
+      ]
+     ],
+     "help": "Mixed = real footage for people and actions + graphics for numbers and charts. Documentary = footage behind every scene. Graphics = animation only. 3D look = graphics with depth and perspective."
+    },
+    {
+     "key": "pace",
+     "label": "Pace",
+     "type": "choice",
+     "default": "normal",
+     "options": [
+      [
+       "calm",
+       "Calm"
+      ],
+      [
+       "normal",
+       "Normal"
+      ],
+      [
+       "fast",
+       "Fast"
+      ]
+     ],
+     "help": "How often something new happens on screen (fast = an animation every ~1.5 s)."
+    },
+    {
+     "key": "captions",
+     "label": "Captions",
+     "type": "choice",
+     "default": "on",
+     "options": [
+      [
+       "on",
+       "Normal"
+      ],
+      [
+       "large",
+       "Large"
+      ],
+      [
+       "off",
+       "Off"
+      ]
+     ]
+    },
+    {
+     "key": "motion",
+     "label": "Camera motion",
+     "type": "choice",
+     "default": "auto",
+     "options": [
+      [
+       "calm",
+       "Calm"
+      ],
+      [
+       "auto",
+       "By tone"
+      ],
+      [
+       "strong",
+       "Strong"
+      ]
+     ],
+     "help": "Shake and whip transitions on the big moments."
+    },
+    {
+     "key": "music",
+     "label": "Music",
+     "type": "choice",
+     "default": "normal",
+     "options": [
+      [
+       "off",
+       "Off"
+      ],
+      [
+       "low",
+       "Low"
+      ],
+      [
+       "normal",
+       "Normal"
+      ],
+      [
+       "high",
+       "High"
+      ]
+     ]
+    },
+    {
+     "key": "sfx",
+     "label": "Sound effects",
+     "type": "choice",
+     "default": "normal",
+     "options": [
+      [
+       "off",
+       "Off"
+      ],
+      [
+       "soft",
+       "Soft"
+      ],
+      [
+       "normal",
+       "Normal"
+      ],
+      [
+       "punchy",
+       "Punchy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "Ending",
+   "icon": "🏁",
+   "fields": [
+    {
+     "key": "endcard",
+     "label": "End card (logo + follow)",
+     "type": "toggle",
+     "default": true
+    },
+    {
+     "key": "cta",
+     "label": "Last spoken line",
+     "type": "text",
+     "default": "",
+     "placeholder": "Follow Chain Secrets.",
+     "help": "Empty = the default line. Type - for no last line."
+    }
+   ]
+  }
  ],
  "visuals": {
-  "title":   {"label": "Big title", "fields": [["text", "Big words (max 4)"], ["sub", "Small line"], ["icon", "Icon"]]},
-  "counter": {"label": "Counter", "fields": [["value", "Number"], ["prefix", "Before (e.g. $)"], ["suffix", "After (e.g. BTC)"], ["label", "What it is"], ["icon", "Icon"]]},
-  "stamp":   {"label": "Stamp", "fields": [["icon", "Icon"], ["label", "Caption"], ["word", "Stamp word"]]},
-  "person":  {"label": "Person", "fields": [["name", "Name"], ["role", "Role / nickname"], ["prop", "Prop"]]},
-  "date":    {"label": "Calendar", "fields": [["month", "Month + year (OCT 2017)"], ["day", "Day"], ["event", "What happened"]]},
-  "chart":   {"label": "Real chart", "fields": [["date", "Date (YYYY-MM-DD)"], ["label", "Callout"]]},
-  "versus":  {"label": "Versus", "fields": [["left", "Left: label, value"], ["right", "Right: label, value"], ["note", "Note"]]},
-  "quote":   {"label": "Quote card", "fields": [["name", "Name"], ["handle", "@handle"], ["text", "Exact quote"], ["stamp", "Stamp word"]]},
-  "list":    {"label": "List", "fields": [["items", "Items (one per line)"]]}
+  "title": {
+   "label": "Big title",
+   "fields": [
+    [
+     "text",
+     "Big words (max 4)"
+    ],
+    [
+     "sub",
+     "Small line"
+    ],
+    [
+     "icon",
+     "Icon"
+    ]
+   ]
+  },
+  "counter": {
+   "label": "Counter",
+   "fields": [
+    [
+     "value",
+     "Number"
+    ],
+    [
+     "prefix",
+     "Before (e.g. $)"
+    ],
+    [
+     "suffix",
+     "After (e.g. BTC)"
+    ],
+    [
+     "label",
+     "What it is"
+    ],
+    [
+     "icon",
+     "Icon"
+    ]
+   ]
+  },
+  "stamp": {
+   "label": "Stamp",
+   "fields": [
+    [
+     "icon",
+     "Icon"
+    ],
+    [
+     "label",
+     "Caption"
+    ],
+    [
+     "word",
+     "Stamp word"
+    ]
+   ]
+  },
+  "person": {
+   "label": "Person",
+   "fields": [
+    [
+     "name",
+     "Name"
+    ],
+    [
+     "role",
+     "Role / nickname"
+    ],
+    [
+     "prop",
+     "Prop"
+    ]
+   ]
+  },
+  "date": {
+   "label": "Calendar",
+   "fields": [
+    [
+     "month",
+     "Month + year (OCT 2017)"
+    ],
+    [
+     "day",
+     "Day"
+    ],
+    [
+     "event",
+     "What happened"
+    ]
+   ]
+  },
+  "chart": {
+   "label": "Real chart",
+   "fields": [
+    [
+     "date",
+     "Date (YYYY-MM-DD)"
+    ],
+    [
+     "label",
+     "Callout"
+    ]
+   ]
+  },
+  "versus": {
+   "label": "Versus",
+   "fields": [
+    [
+     "left",
+     "Left: label, value"
+    ],
+    [
+     "right",
+     "Right: label, value"
+    ],
+    [
+     "note",
+     "Note"
+    ]
+   ]
+  },
+  "quote": {
+   "label": "Quote card",
+   "fields": [
+    [
+     "name",
+     "Name"
+    ],
+    [
+     "handle",
+     "@handle"
+    ],
+    [
+     "text",
+     "Exact quote"
+    ],
+    [
+     "stamp",
+     "Stamp word"
+    ]
+   ]
+  },
+  "list": {
+   "label": "List",
+   "fields": [
+    [
+     "items",
+     "Items (one per line)"
+    ]
+   ]
+  }
  },
- "icons": ["bitcoin", "ethereum", "dogecoin", "token", "cash", "lock", "plane", "laptop", "house", "safe", "car", "crown", "robot", "gavel", "officer", "person", "calendar", "phone", "bank", "fire", "skull", "question"],
- "props": ["none", "crown", "officer", "cuffs"],
- "roles": ["hook", "setup", "turn", "twist", "payoff", "end"]
+ "icons": [
+  "bitcoin",
+  "ethereum",
+  "dogecoin",
+  "token",
+  "cash",
+  "lock",
+  "plane",
+  "laptop",
+  "house",
+  "safe",
+  "car",
+  "crown",
+  "robot",
+  "gavel",
+  "officer",
+  "person",
+  "calendar",
+  "phone",
+  "bank",
+  "fire",
+  "skull",
+  "question"
+ ],
+ "props": [
+  "none",
+  "crown",
+  "officer",
+  "cuffs"
+ ],
+ "roles": [
+  "hook",
+  "setup",
+  "turn",
+  "twist",
+  "payoff",
+  "end"
+ ]
 }

@@ -197,8 +197,8 @@ _SCHEMA = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..', 'doc
 try:
     DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
 except Exception:
-    DEFAULTS = {'length': 45, 'tone': 'auto', 'chart': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
-                'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
+    DEFAULTS = {'length': 45, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
+                'style': 'mixed', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
 
 
 def settings(sb):
@@ -236,6 +236,9 @@ def check(sb, strict=True):
     sc = [s for s in sb['scenes'] if isinstance(s, dict) and str(s.get('line', '')).strip()]
     L = length_of(sb); sb['length'] = L
     lo_s, hi_s, lo_w, hi_w = LENGTHS[L]
+    want = settings(sb).get('scenes', 'auto')
+    if str(want).isdigit():                                               # Studio: an exact number of scenes
+        lo_s, hi_s = int(want) - 1, int(want) + 1
     if not lo_s - 1 <= len(sc) <= hi_s + 2:
         if strict or not 4 <= len(sc) <= 22:
             raise ValueError(f'{len(sc)} scenes for a {L}s Short (need {lo_s}-{hi_s})')
@@ -252,6 +255,9 @@ def check(sb, strict=True):
         if v.get('icon') and v['icon'] not in ICONS:
             v['icon'] = 'question'
         s['visual'] = v
+        s['beats'] = [b for b in (s.get('beats') or []) if isinstance(b, dict) and b.get('word')][:4]
+        s['footage'] = str(s.get('footage') or '')[:60]
+        s['photo'] = str(s.get('photo') or '')[:60]
         toks = [re.sub(r'[^\w$%]', '', t).lower() for t in s['line'].split()]
         h = re.sub(r'[^\w$%]', '', str(s.get('hit', ''))).lower()
         if h not in toks:                                                   # the punch must land on a real word of the line
@@ -342,7 +348,7 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
             if t >= b: s -= (b - a)
             elif t > a: s -= (t - a)
         return round(s + lead, 3)
-    chunks, caps, beats, starts = [], [], {}, []
+    chunks, caps, beats, starts, wlist = [], [], {}, [], []
     wi = 0
     for si, pl in enumerate(plan):
         starts.append(M(words[wi][0]))
@@ -366,6 +372,8 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
             caps.append([len(chunks) - 1, text, {k: v for k, v in hl.items() if v}])
             group = []
         for tok, sp, in pl:
+            if sp:
+                wlist.append([si, re.sub(r'[^\w$%]', '', tok).lower(), M(words[wi][0]), tok])
             if hit and re.sub(r'[^\w$%]', '', tok).lower() == hit and f's{si}' not in beats:
                 beats[f's{si}'] = M(words[wi][0])
             group.append((tok, sp, wi)); wi += len(sp)
@@ -387,7 +395,7 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
     para = [[round(starts[i] - (.12 if i else 0), 3) if i else 0.0, 0] for i in range(n_story)]   # story scenes; the CTA rides on the last one
     for i in range(len(para)):
         para[i][1] = para[i + 1][0] if i + 1 < len(para) else dur
-    T = {'chunks': chunks, 'dur': dur, 'beats': beats, 'para': para, 'caps': caps, 'cuts': cuts, 'lead': lead,
+    T = {'chunks': chunks, 'dur': dur, 'beats': beats, 'para': para, 'caps': caps, 'cuts': cuts, 'lead': lead, 'words': wlist,
          'cta': round(beats['z_follow'] + (.2 if has_cta else 0), 3) if settings(sb).get('endcard', True) else None, 'cta2': beats['z_every']}
     json.dump(T, open(out, 'w'), indent=1)
     return T

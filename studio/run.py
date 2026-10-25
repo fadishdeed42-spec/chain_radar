@@ -130,6 +130,14 @@ def daily(sym, start, end):
 
 
 # ---------------------------------------------------------------- render stage
+def media_credits(d):
+    try:
+        import media
+        return media.credits(d)
+    except Exception:
+        return ''
+
+
 def render(jid):
     d = f'jobs/{jid}'
     sb = json.load(open(f'{d}/storyboard.json'))
@@ -142,6 +150,12 @@ def render(jid):
         else:
             drop_chart(sb, 'no candles at render time')
         json.dump(sb, open(f'{d}/storyboard.json', 'w'), indent=1)
+    try:                                                                  # real footage + photos (style mixed/documentary)
+        import media
+        got = media.fetch(d)
+        print('media files:', len(got))
+    except Exception as e:
+        print('media skipped:', repr(e)[:150])
     env = {**os.environ, 'CS_SCALE': '1', 'FPS': '60'}
     info = json.loads(subprocess.run([sys.executable, f'{HERE}/auto.py', d, 'info'], capture_output=True, text=True, env=env, check=True).stdout.strip().split('\n')[-1])
     n, cores = info['frames'], max(2, os.cpu_count() or 2)
@@ -170,7 +184,7 @@ def render(jid):
                      'reply_markup': kb([[('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
        files={'video': open(out, 'rb')})
     kit = (f'📦 <b>Publish kit</b>\n\n<b>Title</b>\n<code>{E(sb.get("title", ""))}</code>\n\n<b>Description</b>\n<code>{E(sb.get("description", ""))}\n\n'
-           f'Not financial advice. Entertainment and education only.</code>\n\n<b>Hashtags</b>\n<code>{E(sb.get("hashtags", "#crypto #bitcoin #shorts"))}</code>\n\n'
+           f'Not financial advice. Entertainment and education only.{E(media_credits(d))}</code>\n\n<b>Hashtags</b>\n<code>{E(sb.get("hashtags", "#crypto #bitcoin #shorts"))}</code>\n\n'
            f'<b>Pinned comment</b>\n<code>{E(sb.get("pinned", ""))}</code>\n\n<b>Cover frame</b>: {hook_t + .6:.1f}s (the big hook title)\n'
            f'<b>Post time</b>: 19:00–20:00 Beirut')
     tg('sendMessage', {'text': kit[:4000]})

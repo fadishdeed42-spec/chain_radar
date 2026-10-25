@@ -26,7 +26,9 @@
     "text": "RICHEST INMATE",
     "sub": "CZ's Untold Story",
     "icon": "crown"
-   }
+   },
+   "footage": "prison bars",
+   "photo": ""
   },
   {
    "role": "setup",
@@ -37,7 +39,15 @@
     "name": "Changpeng Zhao",
     "role": "Founder of Binance",
     "prop": "none"
-   }
+   },
+   "footage": "city skyline night",
+   "photo": "Changpeng Zhao",
+   "beats": [
+    {
+     "word": "vancouver",
+     "text": "VANCOUVER, CANADA"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -48,7 +58,9 @@
     "month": "2013",
     "day": 1,
     "event": "Introduced to Bitcoin"
-   }
+   },
+   "footage": "poker cards chips",
+   "photo": ""
   },
   {
    "role": "setup",
@@ -61,7 +73,15 @@
     "suffix": "",
     "label": "Apartment Sold",
     "icon": "house"
-   }
+   },
+   "footage": "shanghai skyline",
+   "photo": "",
+   "beats": [
+    {
+     "word": "shanghai",
+     "text": "SHANGHAI"
+    }
+   ]
   },
   {
    "role": "turn",
@@ -82,7 +102,16 @@
     "month": "JULY",
     "day": 17,
     "event": "Binance Launched"
-   }
+   },
+   "footage": "stock trading screens",
+   "photo": "",
+   "beats": [
+    {
+     "word": "binance",
+     "text": "BINANCE IS BORN",
+     "icon": "bitcoin"
+    }
+   ]
   },
   {
    "role": "twist",
@@ -95,7 +124,9 @@
     "suffix": " Days",
     "label": "To #1 Exchange",
     "icon": "bitcoin"
-   }
+   },
+   "footage": "data center servers",
+   "photo": ""
   },
   {
    "role": "twist",
@@ -107,7 +138,9 @@
     "label": "Federal Probe",
     "word": "INVESTIGATED",
     "bad": true
-   }
+   },
+   "footage": "police lights night",
+   "photo": ""
   },
   {
    "role": "setup",
@@ -118,7 +151,9 @@
     "name": "Changpeng Zhao",
     "role": "Former CEO",
     "prop": "cuffs"
-   }
+   },
+   "footage": "courthouse",
+   "photo": "Changpeng Zhao"
   },
   {
    "role": "setup",
@@ -131,7 +166,9 @@
     "suffix": "",
     "label": "DoJ Settlement",
     "icon": "bank"
-   }
+   },
+   "footage": "money counting",
+   "photo": ""
   },
   {
    "role": "setup",
@@ -142,7 +179,16 @@
     "month": "APR",
     "day": 30,
     "event": "Sentenced to Prison"
-   }
+   },
+   "footage": "courtroom gavel",
+   "photo": "",
+   "beats": [
+    {
+     "word": "seattle",
+     "text": "SEATTLE COURT",
+     "icon": "gavel"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -154,7 +200,15 @@
     "label": "Federal Prison",
     "word": "INCARCERATED",
     "bad": true
-   }
+   },
+   "footage": "prison fence",
+   "photo": "",
+   "beats": [
+    {
+     "word": "lompoc",
+     "text": "LOMPOC, CA"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -167,7 +221,9 @@
     "suffix": "",
     "label": "Estimated Net Worth",
     "icon": "safe"
-   }
+   },
+   "footage": "luxury mansion",
+   "photo": ""
   },
   {
    "role": "setup",
@@ -178,7 +234,9 @@
     "name": "Changpeng Zhao",
     "role": "Free Man",
     "prop": "none"
-   }
+   },
+   "footage": "city skyline",
+   "photo": ""
   },
   {
    "role": "end",
@@ -189,7 +247,9 @@
     "text": "CZ SECRETS",
     "sub": "Looping Story",
     "icon": "crown"
-   }
+   },
+   "footage": "prison corridor",
+   "photo": ""
   }
  ],
  "description": "The untold story of Changpeng Zhao, from selling his Shanghai apartment for Bitcoin to building Binance, paying a $4.3B fine, and becoming America's richest inmate.",
@@ -197,7 +257,9 @@
  "pinned": "Would you sell your house to buy Bitcoin like CZ did in 2013?",
  "length": 120,
  "settings": {
-  "length": 120
+  "length": 120,
+  "style": "mixed",
+  "pace": "normal"
  },
  "est_secs": 94,
  "words": 243,
