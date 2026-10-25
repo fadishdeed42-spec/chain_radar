@@ -608,7 +608,7 @@ def git_sync(force=False):
     sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
     sh('git config user.name chain-radar; git config user.email noreply@github.com')
     sh('for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json state/shorts.json; do [ -f $f ] && git add $f; done; '
-       'git commit -qm "listen state [skip ci]"')
+       '[ -d jobs ] && git add jobs; git commit -qm "listen state [skip ci]"')
     for _ in range(3):
         r = sh('git pull --rebase -q -X theirs && git push -q')
         if r.returncode == 0:
@@ -1354,8 +1354,8 @@ def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
 
 
 # ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
-MENU = [['📋 Today\'s kit', '📰 Top stories'], ['📊 Movers', '💬 Reply to a post'], ['🏴‍☠️ Hacks', '📖 Story']]
-MENU_V = 3
+MENU = [['📋 Today\'s kit', '📰 Top stories'], ['📊 Movers', '💬 Reply to a post'], ['🎬 Make a Short', '📖 Story']]
+MENU_V = 4
 
 
 def send_menu(text='👇 Your menu is ready at the bottom of the chat.'):
@@ -1946,6 +1946,219 @@ def shorts_report():
     tg(m[:4000])
 
 
+# ---------------- 🎬 automatic Shorts: /short topic -> script (checkpoint 1) -> voice (2) -> video (3) ----------------
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'studio'))
+import story as sstory
+TONE_EMO = {'funny': '😂', 'mystery': '🕵️', 'serious': '⚠️', 'hype': '🔥'}
+SB_SCHEMA = '''{"title": "YouTube title, max 60 chars, curiosity, may end with one emoji",
+ "tone": "funny | mystery | serious | hype",
+ "respell": {"HardName": "how to say it", "...": "..."},
+ "chart": null OR {"symbol": "BTC", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD"},
+ "scenes": [ {"role": "hook|setup|turn|twist|payoff|end", "line": "narration with real digits ($4B, 2017, Oct 25)",
+              "hit": "one word from the line where the visual punch lands",
+              "visual": {"type": "...", ...fields...}} ],
+ "description": "2-4 factual sentences with dates and numbers for the YouTube description",
+ "hashtags": "6-8 hashtags", "pinned": "a pinned comment question for viewers"}'''
+SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
+ title   {"type":"title","text":"MAX 4 BIG WORDS","sub":"optional small line","icon":"optional icon"}
+ counter {"type":"counter","value":80000,"prefix":"$","suffix":"","label":"what the number is","icon":"optional icon"}
+ stamp   {"type":"stamp","icon":"icon","label":"short caption under the icon","word":"HACKED / GONE / FAKE / ARRESTED...","bad":true}
+ person  {"type":"person","name":"FULL NAME","role":"short role/nickname","prop":"none|crown|officer|cuffs"}
+ date    {"type":"date","month":"OCT 2017","day":25,"event":"what happened, max 6 words"}
+ chart   {"type":"chart","date":"YYYY-MM-DD","label":"OCT 2 · $85 · WHAT HAPPENED"}   (only when "chart" is set; date inside its range)
+ versus  {"type":"versus","left":["LABEL","VALUE"],"right":["LABEL","VALUE"],"note":"optional"}
+ quote   {"type":"quote","name":"Name","handle":"@handle","text":"exact short quote from the facts","stamp":"optional word"}
+ list    {"type":"list","items":["max 3","short","items"]}
+Icons: ''' + ', '.join(sstory.ICONS)
+
+
+def gemini_json(prompt):
+    for attempt in range(2):
+        for model in [m for m in gemini_models() if 'gemma' not in m][:4]:
+            try:
+                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': GEMINI}, timeout=60,
+                                  json={'contents': [{'parts': [{'text': prompt}]}],
+                                        'generationConfig': {'temperature': .8, 'response_mime_type': 'application/json', **think_cfg(model)}})
+                if r.status_code == 400 and think_cfg(model):
+                    _NOTHINK[model] = False; continue
+                if r.ok:
+                    txt = ''.join(p.get('text', '') for p in r.json()['candidates'][0]['content']['parts'] if not p.get('thought'))
+                    return json.loads(re.search(r'\{.*\}', txt, re.S).group(0))
+                print('gemini json', model, r.status_code, r.text[:100])
+            except Exception as e:
+                print('gemini json fail', model, repr(e)[:100])
+        time.sleep(2)
+    return None
+
+
+def short_facts(topic):
+    heads = gnews(topic, 15, recent=False)
+    heads.sort(key=lambda h: h['ts'])
+    lines = [f'- {datetime.fromtimestamp(h["ts"], timezone.utc):%b %d, %Y}: {h["title"]} ({h["src"]})' for h in heads if h['ts']]
+    return 'Real headlines about this story (oldest first):\n' + '\n'.join(lines[:15]) if lines else ''
+
+
+def make_storyboard(topic, facts, tone=None, fix=None):
+    hooks = shorts.best_hooks(15)
+    hook_ex = ('Hooks that beat their channel average on real crypto Shorts:\n' + '\n'.join(f'- "{h}" ({o:.0f}x)' for o, h, t, v in hooks)
+               if len(hooks) >= 6 else 'Proven hook patterns:\n' + '\n'.join('- ' + h for h in PROVEN_HOOKS))
+    pat = shorts.patterns()
+    if pat:
+        hook_ex += '\nWinners vs flops: ' + '; '.join(f'{r[0]} {r[1]:.0f}{r[3]} vs {r[2]:.0f}{r[3]}' for r in pat['rows'][:6])
+    prompt = (f'''You write faceless YouTube Shorts for "Chain Secrets": little-known TRUE crypto & money stories, narrated by a crypto detective,
+with a real price chart when the story has one. Write the storyboard for this story as JSON.
+
+HOUSE RULES
+- 5 to 7 scenes. Total narration 70-95 words (30-40 seconds). Each line 1-2 short spoken sentences, max 20 words.
+- Scene 1 (hook): the most shocking fact or the twist FIRST, max 14 words, opens a loop the viewer needs closed. Never start with "Today" or "In this video".
+- Middle: setup -> turn -> twist, every line moves the story. Viewers leave at 13 seconds, so the twist must come before 20 seconds.
+- Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically).
+- Tone: {('use the tone "' + tone + '".') if tone else 'pick the best one: funny for absurd stories, serious for victims and big losses, mystery for unsolved or secret stories, hype for records.'}
+  funny = a light joke every 5-8 seconds; serious = no jokes, respectful; mystery = tension and questions; hype = energy.
+- Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). Spell hard names in "respell".
+- FACTS: use the facts below and only well-documented facts you are certain of. Never invent numbers, quotes or dates. If unsure, leave it out.
+- Chart: only if the story is about a crypto price on specific dates (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.
+- No financial advice, no slurs, no claims that real people committed crimes they were not convicted of (say "prosecutors say" when needed).
+
+{SB_VISUALS}
+
+{hook_ex}
+
+FORMAT (JSON only):
+{SB_SCHEMA}
+
+STORY: {topic}
+{facts}
+''' + (f'\nYour previous storyboard had these problems, fix them: {fix}\n' if fix else ''))
+    return gemini_json(prompt)
+
+
+def short_draft(topic, tgs, tone=None, jid=None):
+    facts = (tgs.get('shorts', {}).get(jid) or {}).get('facts') if jid else None
+    if facts is None:
+        facts = short_facts(topic)
+    sb, err = None, None
+    for _ in range(2):
+        raw = make_storyboard(topic, facts, tone, err)
+        if not raw:
+            break
+        try:
+            sb, probs = sstory.check(raw); break
+        except ValueError as e:
+            err = str(e); print('storyboard invalid:', err)
+    if not sb:
+        unack(); tg('⚠️ Couldn\'t write a good script for that story right now' + (f' ({E(err)})' if err else '') + '. Try again, or give a more specific topic.'); return
+    if tone:
+        sb['tone'] = tone
+    jid = jid or hashlib.md5((topic + str(time.time())).encode()).hexdigest()[:8]
+    tgs.setdefault('shorts', {})[jid] = {'t': time.time(), 'topic': topic, 'facts': facts, 'sb': sb}
+    tgs['shorts'] = dict(sorted(tgs['shorts'].items(), key=lambda kv: -kv[1]['t'])[:10])
+    tgs['short_edit'] = jid
+    unack()
+    show_script(jid, tgs)
+
+
+def vis_txt(v):
+    ty = v['type']
+    if ty == 'title': return f'big title "{v.get("text", "")}"'
+    if ty == 'counter': return f'counter {v.get("prefix", "")}{v.get("value", "")}{v.get("suffix", "")} {v.get("label", "")}'
+    if ty == 'stamp': return f'{v.get("icon", "")} + stamp "{v.get("word", "")}"'
+    if ty == 'person': return f'person {v.get("name", "")} · {v.get("role", "")}'
+    if ty == 'date': return f'calendar {v.get("month", "")} {v.get("day", "")}'
+    if ty == 'chart': return f'real chart → {v.get("date", "")} "{v.get("label", "")}"'
+    if ty == 'versus': return f'versus {v.get("left")} vs {v.get("right")}'
+    if ty == 'quote': return f'quote card ({v.get("name", "")})'
+    return ty
+
+
+def show_script(jid, tgs):
+    d = tgs['shorts'][jid]; sb = d['sb']
+    sb, _ = sstory.check(sb); d['sb'] = sb
+    ch = sb.get('chart')
+    m = (f'🎬 <b>Script</b> · {E(sb.get("title", ""))}\n{TONE_EMO[sb["tone"]]} {sb["tone"]} · ~{sb["est_secs"]}s'
+         + (f' · real {ch["symbol"]} chart {ch["start"]} → {ch["end"]}' if ch else '') + '\n')
+    for n, s in enumerate(sb['scenes'], 1):
+        m += f'\n<b>{n}.</b> <i>{s["role"]}</i> · {E(s["line"])}\n     🎨 {E(vis_txt(s["visual"]))[:90]}'
+    m += ('\n\n<b>Checkpoint 1:</b> check the facts. To change a line, reply like <code>3: new line</code>.'
+          '\nThen tap ✅ and I record the voice (~10–15 min).')
+    tg(m[:4000], None, [('✅ Make the voice', f'sa:{jid}'), ('🔄 Rewrite', f'sx:{jid}')] +
+       [(f'{TONE_EMO[t]} {t.title()}', f'st:{jid}:{t}') for t in sstory.TONES if t != sb['tone']])
+
+
+def short_edit(t, tgs):
+    """'3: new line' while a script is open -> replace that line and show the script again."""
+    jid = tgs.get('short_edit'); d = tgs.get('shorts', {}).get(jid)
+    m = re.match(r'^\s*(\d)\s*[:.)\-]\s*(.+)$', t, re.S)
+    if not d or not m:
+        return False
+    n = int(m.group(1)) - 1
+    if not 0 <= n < len(d['sb']['scenes']):
+        tg(f'There are {len(d["sb"]["scenes"])} lines; send e.g. <code>2: new text</code>.'); return True
+    d['sb']['scenes'][n]['line'] = m.group(2).strip()
+    try:
+        d['sb'], _ = sstory.check(d['sb'])
+    except ValueError as e:
+        tg(f'⚠️ {E(e)}'); return True
+    show_script(jid, tgs)
+    return True
+
+
+def dispatch_short(jid, stage):
+    tok, repo = os.environ.get('GH_TOKEN', ''), os.environ.get('GITHUB_REPOSITORY', 'fadishdeed42-spec/chain_radar')
+    try:
+        r = requests.post(f'https://api.github.com/repos/{repo}/actions/workflows/short.yml/dispatches', timeout=15,
+                          headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'},
+                          json={'ref': 'main', 'inputs': {'job': jid, 'stage': stage}})
+        return r.status_code == 204
+    except Exception as e:
+        print('dispatch fail', e); return False
+
+
+def short_approve(jid, tgs, seed_bump=False):
+    d = tgs.get('shorts', {}).get(jid)
+    path = f'jobs/{jid}/storyboard.json'
+    if d:
+        sb = d['sb']
+    elif os.path.exists(path):
+        sb = json.load(open(path))
+    else:
+        git_sync(force=True)
+        if not os.path.exists(path):
+            tg('That Short is too old. Start again with /short.'); return
+        sb = json.load(open(path))
+    if seed_bump:
+        sb['voice_seed'] = int(sb.get('voice_seed', 7)) + 11
+    if not sb.get('ep'):
+        tgs['short_ep'] = tgs.get('short_ep', 24) + 1; sb['ep'] = tgs['short_ep']
+    os.makedirs(f'jobs/{jid}', exist_ok=True)
+    json.dump(sb, open(path, 'w'), indent=1)
+    if d: d['sb'] = sb
+    git_sync(force=True)
+    if dispatch_short(jid, 'voice'):
+        tg('🎙 Recording the voice' + (' (new take)' if seed_bump else '') + '. You\'ll get an audio preview here in ~10–15 minutes.')
+    else:
+        tg('⚠️ Couldn\'t start the voice job on GitHub. Try again in a minute.')
+
+
+def short_render(jid):
+    git_sync(force=True)
+    if dispatch_short(jid, 'render'):
+        tg('🎬 Making the video: real chart, animation, sound and mix. It arrives here in ~10–20 minutes.')
+    else:
+        tg('⚠️ Couldn\'t start the video job on GitHub. Try again in a minute.')
+
+
+def short_reedit(jid, tgs):
+    if jid not in tgs.get('shorts', {}):
+        git_sync(force=True)
+        p = f'jobs/{jid}/storyboard.json'
+        if not os.path.exists(p):
+            tg('That Short is too old. Start again with /short.'); return
+        tgs.setdefault('shorts', {})[jid] = {'t': time.time(), 'topic': json.load(open(p)).get('title', ''), 'facts': '', 'sb': json.load(open(p))}
+    tgs['short_edit'] = jid
+    show_script(jid, tgs)
+
+
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '<b>Find stories</b>\n'
         '/top — hottest crypto stories right now → tap one for a full post\n'
@@ -1953,6 +2166,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/hacks — biggest hacks of the last 30 days\n'
         '/story — on this day in crypto (real prices & hacks)\n'
         '/brain — what the learning brain knows so far\n'
+        '/short <i>story</i> — a finished YouTube Short in your style (script → voice → video)\n'
         '/viral — most viral crypto Shorts right now + why they worked\n'
         '/hook <i>idea</i> — 5 stronger hooks for your next Short\n'
         '/story <i>topic</i> — research a story, e.g. <code>/story Do Kwon</code> → thread + Shorts script\n\n'
@@ -1967,7 +2181,7 @@ HELP = ('🕵️ <b>Chain Radar</b>\n\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
 COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
             ('reply', 'Replies for an X post: /reply <link>'), ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
-            ('kit', 'Today\'s posting kit'), ('viral', 'Most viral crypto Shorts'), ('hook', 'Hook doctor: /hook idea'), ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
+            ('short', 'Make a YouTube Short: /short story'), ('kit', 'Today\'s posting kit'), ('viral', 'Most viral crypto Shorts'), ('hook', 'Hook doctor: /hook idea'), ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
 def gnews(q, n=8, recent=True):
@@ -2083,6 +2297,20 @@ def handle(u, tgs):
                     r['stance'] = parts[2]; ack('⏳ Writing your reply…'); reply_from_text(r['text'], r['author'], r.get('post'), tgs, parts[1], parts[2])
             else:
                 on_stance(parts[1], parts[2], tgs, mid)
+        elif data.startswith('sa:'):
+            short_approve(data[3:], tgs)
+        elif data.startswith('sx:'):
+            d_ = tgs.get('shorts', {}).get(data[3:])
+            if d_: ack('⏳ Rewriting…'); short_draft(d_['topic'], tgs, None, data[3:])
+        elif data.startswith('st:'):
+            _, jid_, tone_ = data.split(':', 2); d_ = tgs.get('shorts', {}).get(jid_)
+            if d_: ack(f'⏳ Rewriting as {tone_}…'); short_draft(d_['topic'], tgs, tone_, jid_)
+        elif data.startswith('sv:'):
+            short_render(data[3:])
+        elif data.startswith('sr:'):
+            short_approve(data[3:], tgs, seed_bump=True)
+        elif data.startswith('se:'):
+            short_reedit(data[3:], tgs)
         elif data.startswith('sw:'):
             why_short(data[3:])
         elif data == 'kq:':
@@ -2120,12 +2348,21 @@ def handle(u, tgs):
     MAP = {'📋 Today\'s kit': '/kit', '🧠 Brain': '/brain', '📰 Top stories': '/top', '📊 Movers': '/movers', '🏴‍☠️ Hacks': '/hacks', '📖 Story': '/story', '🧠 Brain': '/brain'}
     if t in MAP:
         c, args = MAP[t], []
+    if tgs.get('short_edit') and re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) and short_edit(t, tgs):
+        return
+    if t == '🎬 Make a Short':
+        tg('🎬 Send <code>/short</code> + any crypto or money story, e.g. <code>/short QuadrigaCX</code>'); return
     if t == '💬 Reply to a post':
         tg('💬 Share or paste the X post link here and I\'ll write the best reply.'); return
     if c in ('/start', '/help', 'help'):
         tg(HELP); send_menu()
     elif c == '/brain':
         brain_status()
+    elif c == '/short':
+        if args:
+            ack('⏳ Researching the story and writing the script…'); short_draft(' '.join(args), tgs)
+        else:
+            tg('🎬 Send <code>/short</code> + a story, e.g. <code>/short Mt Gox collapse</code> or <code>/short Bitcoin pizza</code>')
     elif c == '/viral':
         cmd_viral(tgs)
     elif c == '/hook':
@@ -2203,12 +2440,10 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
             print('scan fail', repr(e))
     if tgs.get('menu_v') != MENU_V:
         tgs['menu_v'] = MENU_V; save_tg(tgs)
-        send_menu('🆕 Chain Radar updated\n\n'
-                  '• 🔥 Early alerts are back: stories spreading fast, before the big pages post\n'
-                  '• Junk filtered out (clips, tiny memecoins, non-crypto news)\n'
-                  '• 📋 Daily kit at 15:00: your news post, chart post and opinion post, ready\n'
-                  '• 20:00 evening briefing stays\n'
-                  '• Menu updated below 👇 (send /brain anytime to see what the bot has learned)')
+        send_menu('🆕 Chain Radar: Shorts studio\n\n'
+                  '• 🎬 /short + any story → script → voice → finished Short, with 3 checkpoints\n'
+                  '• /viral and /hook: what is going viral and stronger hooks\n'
+                  '• Menu updated below 👇 (Hacks are still at /hacks)')
     while time.time() < end - 5:
         global NOW
         NOW = time.time()
