@@ -180,7 +180,7 @@ TONES = ('funny', 'serious', 'mystery', 'hype')
 ROLES = ('hook', 'setup', 'turn', 'twist', 'payoff', 'end')
 VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list')
 ICONS = ('bitcoin', 'ethereum', 'dogecoin', 'token', 'lock', 'plane', 'laptop', 'house', 'safe', 'car', 'crown', 'robot',
-         'gavel', 'officer', 'person', 'calendar', 'phone', 'bank', 'fire', 'skull', 'question')
+         'gavel', 'officer', 'person', 'calendar', 'phone', 'bank', 'fire', 'skull', 'question', 'cash')
 EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks and twists, calmer for setup
     'funny':   {'hook': .9, 'setup': .75, 'turn': .8, 'twist': .95, 'payoff': .9, 'end': .6},
     'serious': {'hook': .75, 'setup': .6, 'turn': .65, 'twist': .8, 'payoff': .72, 'end': .55},

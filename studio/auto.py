@@ -95,6 +95,16 @@ def token(cv, x, y, s, a, label='?'):
     cv.text(x, y, label, 'black', max(6, int(r * .9)), WHITE, a, anchor='cm')
 
 
+def cash(cv, x, y, s, a):
+    for k in range(5):
+        yy = y + 60 * s - k * 34 * s
+        cv.rect(x - 200 * s, yy - 60 * s, x + 200 * s, yy + 60 * s, (40, 120, 70), a, r=12 * s)
+        cv.rect(x - 186 * s, yy - 48 * s, x + 186 * s, yy + 48 * s, (70, 170, 100), a, r=8 * s)
+        cv.circle(x, yy, 34 * s, (40, 120, 70), a)
+        cv.text(x, yy, '$', 'black', max(6, int(52 * s)), (200, 240, 210), a, anchor='cm')
+    cv.rect(x - 30 * s, y - 120 * s, x + 30 * s, y + 130 * s, (220, 200, 140), a * .9)
+
+
 def icon(cv, name, x, y, s, a, t=0.0):
     if a <= 0 or s <= .02: return
     if name == 'bitcoin': coin(cv, x, y, 150 * s, a, rot=.3 * math.sin(t * 2))
@@ -117,13 +127,45 @@ def icon(cv, name, x, y, s, a, t=0.0):
     elif name == 'fire': flame(cv, x, y, s, a, t)
     elif name == 'skull': skull(cv, x, y, s, a)
     elif name == 'token': token(cv, x, y, s, a, '?')
+    elif name == 'cash': cash(cv, x, y, s, a)
     else:
         cv.glow(x, y, 160 * s, ACC, .2 * a); cv.text(x, y, '?', 'black', max(6, int(260 * s)), ACC, a, anchor='cm')
+
+
+import random as _r
+_r.seed(7)
+DUST = [(_r.uniform(0, W), _r.uniform(0, H), _r.uniform(2, 6), _r.uniform(8, 30), _r.uniform(0, 6.28)) for _ in range(38)]
+
+
+def ambient(cv, t):
+    """slow drifting particles in the tone colour: the frame is never static"""
+    for x, y, r, sp, ph in DUST:
+        yy = (y - t * sp) % H; xx = x + 18 * math.sin(t * .4 + ph)
+        cv.circle(xx, yy, r, ACC, .10 + .06 * math.sin(t * 1.3 + ph))
+
+
+KICK = {'setup': {'funny': 'MEET THE STAR', 'serious': 'THE BACKSTORY', 'mystery': 'THE SETUP', 'hype': 'HERE\'S THE DEAL'},
+        'turn': {'funny': 'AND THEN…', 'serious': 'THEN', 'mystery': 'BUT THEN…', 'hype': 'THEN BOOM'},
+        'twist': {'funny': 'PLOT TWIST', 'serious': 'THE TRUTH', 'mystery': 'THE TWIST', 'hype': 'PLOT TWIST'},
+        'payoff': {'funny': 'THE RESULT', 'serious': 'THE COST', 'mystery': 'THE ANSWER', 'hype': 'THE RESULT'},
+        'end': {'funny': 'TODAY', 'serious': 'TODAY', 'mystery': 'TODAY', 'hype': 'TODAY'}}
+
+
+def kicker(cv, t, i, a, y=420):
+    role = SCN[i]['role']
+    if role == 'hook' or role not in KICK: return
+    q = back(seg(t, P(i), P(i) + .35))
+    k = KICK[role][TONE]
+    pill(cv, W / 2, y, k, ACC, a * clamp(q), size=38, fg=BG if ACC in (GOLD, UP) else WHITE, s=max(.01, q))
 
 
 # ---------------------------------------------------------------- scene templates
 def sc_title(cv, t, i, v, a):
     h = hit(i)
+    if SCN[i]['role'] == 'hook':                                         # hook: the big words land in the first half second
+        h = min(h, P(i) + .45)
+    else:
+        kicker(cv, t, i, a)
     ic = v.get('icon')
     if ic: icon(cv, ic, W / 2, 620, back(seg(t, P(i), P(i) + .4)) * .9, a * (1 - .4 * seg(t, h, h + .3)), t)
     lines = wrap(str(v.get('text', '')).upper(), 12)[:3] or ['']
@@ -149,15 +191,18 @@ def sc_counter(cv, t, i, v, a):
     try: val = float(str(v.get('value', 0)).replace(',', '').replace('$', ''))
     except ValueError: val = 0
     pre, suf = str(v.get('prefix', '')), str(v.get('suffix', ''))
-    ic = v.get('icon') or ('bitcoin' if 'BTC' in suf.upper() else None)
-    if ic: icon(cv, ic, W / 2, 640, back(seg(t, P(i), P(i) + .4)) * .85, a, t)
+    ic = v.get('icon') or ('bitcoin' if 'BTC' in suf.upper() else 'cash' if '$' in pre else None)
+    if SCN[i]['role'] != 'hook': kicker(cv, t, i, a)
+    if ic: icon(cv, ic, W / 2, 680, back(seg(t, P(i), P(i) + .4)) * .85, a, t)
     p = out3(seg(t, h - .25, h + .75))
     s = fmt_num(val * p, pre, suf)
     size = fit(fmt_num(val, pre, suf), 'black', 130, 1000)
-    counter(cv, s, 1010 if ic else 880, size, ALT if val >= 0 else BAD, a * clamp(seg(t, h - .3, h - .1) * 3 + (p > 0)))
+    yc = 1050 if ic else 880
+    q = back(seg(t, P(i) + .1, P(i) + .5))                                # the counter waits at 0, then runs on the hit word
+    counter(cv, s, yc, size, ALT if val >= 0 else BAD, a * clamp(q) * (.55 + .45 * clamp(p * 4)), glow=p > 0)
     if v.get('label'):
-        cv.text(W / 2, (1010 if ic else 880) + size * .85, str(v['label']).upper(), 'black', fit(str(v['label']).upper(), 'black', 46, 960), MUTED,
-                a * seg(t, h + .4, h + .7), anchor='cm', track=10)
+        cv.text(W / 2, yc + size * .85, str(v['label']).upper(), 'black', fit(str(v['label']).upper(), 'black', 46, 960), MUTED,
+                a * seg(t, P(i) + .3, P(i) + .6), anchor='cm', track=10)
 
 
 def sc_stamp(cv, t, i, v, a):
@@ -282,6 +327,7 @@ def make_scene(i):
         a = 1.0 if last else fade(t, i)
         if i == 0:
             a = 1 - seg(t, P(1) - .2, P(1)) if len(SCN) > 1 else 1.0
+        ambient(cv, t)
         fn(cv, t, i, v, a)
     return scene
 
