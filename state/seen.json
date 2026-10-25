@@ -919,7 +919,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792920814.0,
 "tgtext": "",
 "title": "Macao student arrested over alleged dorm theft of MOP55,000 in electronics",
@@ -1075,7 +1075,7 @@
 "KuCoin",
 "openPR.com"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792926654.0,
 "tgtext": "",
 "title": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
@@ -1485,7 +1485,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792919320.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds to $80,600 after weekend dip below $80,000 triggers $547M crypto liquidations",
@@ -1782,7 +1782,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792913507.0,
 "tgtext": "\ud83d\udd25 NEW: Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.\n\n$532M of it traded on weekends alone, over just one month.\n\nNews | Markets | YouTube",
 "title": "Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.",
@@ -2304,7 +2304,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792914737.0,
 "tgtext": "",
 "title": "Over $815M in crypto liquidations hit as Bitcoi...",
@@ -2744,7 +2744,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792922359.0,
 "tgtext": "",
 "title": "Bitcoin Slips Below $80K As Peter Schiff Warns Of \u2018Very Long Weekend\u2019 For BTC Investors \u2014 Mike McGlone Says \u2018Don\u2019t Fight The Fed\u2019",
@@ -3172,7 +3172,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792909892.0,
 "tgtext": "",
 "title": "Aave V3.8 Reentrancy Guard Preserves Flash-Loan Liquidations",
@@ -3197,10 +3197,11 @@
 "coin": "",
 "src": "Pluang",
 "srcs": [
+"Crypto Briefing",
 "Pluang",
 "TradingView"
 ],
-"t": 1792930029.3026206,
+"t": 1792931282.233002,
 "t0": 1792913585.0,
 "tgtext": "",
 "title": "25x leveraged Ether long liquidated with $180K loss amid crypto dip",
@@ -3224,9 +3225,10 @@
 "coin": "bitcoin",
 "src": "BeInCrypto",
 "srcs": [
-"BeInCrypto"
+"BeInCrypto",
+"Yahoo Finance"
 ],
-"t": 1792925712.3212385,
+"t": 1792931282.233002,
 "t0": 1792910280.0,
 "tgtext": "",
 "title": "Trump Says Iran Strikes Could Come Today. Can Bitcoin Hold $80,000?",
@@ -3317,7 +3319,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792930668.4574516,
+"t": 1792931282.233002,
 "t0": 1792925488.0,
 "tgtext": "",
 "title": "Crypto Crash: Why the Top Cryptos Lost Up to 4% in One Week",
@@ -3333,14 +3335,12 @@
 "probs": {
 "01c6004fdf5a": 0.156,
 "07b15a5ab258": 0.027,
+"08321da8bacd": 0.01,
 "08a65cc5dc26": 0.059,
 "0b482c3c0ec5": 0.13,
-"18be25ae9fc7": 0.031,
 "251c9747148c": 0.026,
 "2805e3456a32": 0.014,
 "2b50cae72b28": 0.03,
-"31317935f338": 0.088,
-"33fa5f9f3f58": 0.023,
 "46425e8b9eab": 0.003,
 "47d4824c979c": 0.171,
 "49ca91979741": 0.038,
@@ -3348,27 +3348,29 @@
 "6614f43a1b6b": 0.083,
 "6d67aa478a13": 0.123,
 "6e9d8263669f": 0.027,
-"70b4b053b43d": 0.173,
+"70b4b053b43d": 0.341,
 "7399124bd0f6": 0.023,
 "78770d04ced1": 0.08,
+"7a9d4d772685": 0.028,
 "7fde10e167d1": 0.069,
+"8937e12a7699": 0.431,
 "89c2c7738fff": 0.028,
 "94e1de4bb136": 0.052,
 "99da28d8cfc3": 0.039,
 "9f09196d0611": 0.021,
 "a226da3bd92a": 0.009,
+"add99f0385de": 0.112,
 "aed3c0ab0894": 0.026,
 "aedca0b3a8f0": 0.078,
 "b35462ec6b69": 0.141,
-"b3f6edc902e5": 0.444,
-"beb471039c73": 0.175,
-"bfd3fdf06bda": 0.044,
+"b3f6edc902e5": 0.265,
 "c5d97ca53ed2": 0.002,
-"c81865a9bd0c": 0.337,
 "d1b226fb1537": 0.379,
 "d7cde55f442c": 0.092,
 "dea425933a35": 0.07,
 "ef2047972e49": 0.289,
+"f395910d2338": 0.587,
+"f5451e7f49b4": 0.175,
 "fed0058c3832": 0.27,
 "ffafd7f91bf8": 0.128
 },
@@ -4004,63 +4006,63 @@
 [
 "55afe9e24b80",
 65,
-67,
+77,
 2
 ],
 [
-"b3f6edc902e5",
-20,
-266,
-1
+"f395910d2338",
+36,
+295,
+3
 ],
 [
 "8937e12a7699",
 0,
-286,
+296,
 1
 ],
 [
 "d1b226fb1537",
 24,
-138,
+149,
 1
 ],
 [
-"c81865a9bd0c",
-39,
-197,
-2
+"70b4b053b43d",
+29,
+199,
+1
 ],
 [
 "ef2047972e49",
-3,
-346,
+2,
+357,
 1
 ],
 [
 "fed0058c3832",
 20,
-86,
+97,
 1
 ],
 [
-"beb471039c73",
-7,
-340,
+"b3f6edc902e5",
+19,
+276,
+1
+],
+[
+"f5451e7f49b4",
+6,
+350,
 2
-],
-[
-"70b4b053b43d",
-30,
-189,
-1
 ],
 [
 "47d4824c979c",
 28,
-164,
+174,
 1
 ]
 ],
-"top_at": 1792930668.4574516
+"top_at": 1792931282.233002
 }
