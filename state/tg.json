@@ -1094,7 +1094,7 @@
 "sh_analyze": "2026-10-25",
 "sh_collect": "2026-10-25",
 "sh_weekly": "2026-10-25",
-"short_edit": "a55db3fd",
+"short_edit": "ee007782",
 "short_ep": 26,
 "shorts": {
 "a55db3fd": {
@@ -1351,6 +1351,166 @@
 },
 "t": 1792932145.0629263,
 "topic": "cz story"
+},
+"ee007782": {
+"facts": "",
+"note": "",
+"sb": {
+"alt_hooks": [
+"It's 2022. Bitcoin just crashed to $15,500 and everyone thinks it's going to zero.",
+"How did a $15,500 Bitcoin bottom trick 99 percent of traders before a massive rally?",
+"The exact moment Bitcoin hit $15,500 and trapped every single short seller."
+],
+"chart": {
+"end": "2023-01-15",
+"start": "2022-11-01",
+"symbol": "BTC"
+},
+"description": "When Bitcoin crashed to $15,500 in November 2022, retail traders panicked and loaded up on short positions. Little did they know, it was the ultimate bear trap before a monumental rally.",
+"est_secs": 35,
+"hashtags": "#Bitcoin #Crypto #BTC #CryptoTrading #ChainSecrets #BullRun",
+"length": 45,
+"pinned": "Did you hold or sell your crypto at the $15.5k bottom?",
+"respell": {
+"Satoshi": "suh-TOH-shee"
+},
+"scenes": [
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "NOV 2022",
+"word": "Nov"
+}
+],
+"footage": "trading screens red",
+"hit": "$15500",
+"line": "Bitcoin crashed to $15,500 in Nov 2022. Everyone thought it was zero.",
+"photo": "",
+"role": "hook",
+"visual": {
+"date": "2022-11-21",
+"label": "NOV 21 \u00b7 $15,500 \u00b7 THE FLOOR",
+"type": "chart"
+}
+},
+{
+"beats": [
+{
+"icon": "lock",
+"text": "PURSES CLOSED",
+"word": "retail"
+}
+],
+"footage": "bank run crowd",
+"hit": "billions",
+"line": "Exchanges were collapsing. Billions vanished overnight. Panic gripped every single retail trader.",
+"photo": "",
+"role": "setup",
+"visual": {
+"icon": "bitcoin",
+"label": "Bitcoin Price Floor",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 15500
+}
+},
+{
+"beats": [
+{
+"icon": "skull",
+"text": "TARGET $10K",
+"word": "10,000"
+}
+],
+"footage": "wall street trading floor",
+"hit": "short",
+"line": "Traders piled into massive short positions. They expected a drop straight down to $10,000.",
+"photo": "",
+"role": "turn",
+"visual": {
+"bad": true,
+"icon": "skull",
+"label": "bear trap",
+"type": "stamp",
+"word": "SHORT"
+}
+},
+{
+"beats": [
+{
+"icon": "safe",
+"text": "EXACT WICK",
+"word": "bottom"
+}
+],
+"footage": "bitcoin mining farm",
+"hit": "50000",
+"line": "Instead, smart money quietly accumulated 50,000 coins right at the exact bottom wick.",
+"photo": "",
+"role": "twist",
+"visual": {
+"icon": "safe",
+"label": "Accumulated at Bottom",
+"prefix": "",
+"suffix": " BTC",
+"type": "counter",
+"value": 50000
+}
+},
+{
+"beats": [
+{
+"icon": "fire",
+"text": "NO MERCY",
+"word": "relentless"
+}
+],
+"footage": "green crypto charts",
+"hit": "squeeze",
+"line": "That brutal fakeout triggered a relentless short squeeze that never looked back.",
+"photo": "",
+"role": "payoff",
+"visual": {
+"icon": "fire",
+"sub": "TRAPPED",
+"text": "SHORT SQUEEZE",
+"type": "title"
+}
+},
+{
+"beats": [
+{
+"icon": "crown",
+"text": "NEW HIGHS",
+"word": "climb"
+}
+],
+"footage": "skyscraper sunset",
+"hit": "$126000",
+"line": "Fueling the massive climb all the way up to $126,000.",
+"photo": "",
+"role": "end",
+"visual": {
+"icon": "bitcoin",
+"label": "The Target",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 126000
+}
+}
+],
+"settings": {
+"length": 45
+},
+"title": "The Brutal Trap Before Bitcoin's Mega Rally \ud83d\ude80",
+"tone": "mystery",
+"words": 85
+},
+"t": 1792959197.1878612,
+"topic": "the last fakeout for btc when it botomed at 15000 and what happened before the rally to 126000"
 },
 "ff17bb68": {
 "facts": "Real headlines about this story (oldest first):\n- Feb 05, 2026: Bitcoin's volatility spikes to its highest since FTX's collapse as prices crater to nearly $60,000 (CoinDesk)\n- Feb 11, 2026: A timeline of cryptocurrency exchange FTX's historic collapse - ABC News (Breaking News, Latest News and Videos)\n- May 20, 2026: The Next FTX? Crypto Exchange Risks Are Rising Again in 2026 (Bitcoin Foundation)\n- May 26, 2026: Fenwick & West to Pay $54 Million in FTX Collapse Settlement (2) (Bloomberg Law News)\n- Jun 07, 2026: Bitcoin\u2019s Worst Week Since FTX Raises The Question: Is The Bottom Already In? (TradingView)\n- Jun 09, 2026: FTX scam explained: Everything you need to know (TechTarget)\n- Jul 06, 2026: Michael Saylor's Strategy's Situation Feels 'Eerily Similar' to FTX Collapse, Says Crypto Analyst: 'Rumors Create Doubt, Doubt Creates Selling\u2026' (Yahoo Finance)\n- Jul 11, 2026: Sam Bankman-Fried recounts FTX\u2019s collapse and why he feels he was wrongly convicted of fraud (Mother Jones)\n- Jul 18, 2026: FTX\u2019s bankruptcy plan says customers are being paid back \u201cin full.\u201d But many feel they\u2019re being shortchanged. (Mother Jones)\n- Aug 19, 2026: FTX executives avoid fines in CFTC settlement over exchange collapse (Investing.com)\n- Oct 01, 2026: FTX has resurrected after it died by fraud, but who gets the Anthropic stock in the aftermath of Bankman-Fried? (MoneyWise.com)\n- Oct 08, 2026: Netflix Releases Trailer for Series About FTX Collapse (Mezha.net)\n- Oct 17, 2026: Exclusive | Ex-FTX boss finds Sam Bankman-Fried \u2018love story\u2019 series on Netflix laughable: \u2018No f\u2013king way\u2019 (New York Post)\n- Oct 22, 2026: Sam Bankman-Fried says he has paid his debts (The Economist)\n- Oct 24, 2026: Is Bitcoin Dead? CZ Says Those Calls Have Marked the Best Times to Buy (24/7 Wall St.)",
