@@ -189,10 +189,32 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
 CTA = 'Follow Chain Secrets. Every chart hides a story.'
 CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
 LENGTHS = {  # target seconds -> (min scenes, max scenes, min words, max words)
-    30: (5, 6, 62, 82), 45: (6, 8, 98, 120), 60: (8, 11, 135, 165), 120: (15, 20, 280, 330)}
+    30: (5, 6, 62, 82), 45: (6, 8, 98, 120), 60: (8, 11, 135, 165), 90: (12, 15, 205, 245), 120: (15, 20, 280, 330)}
+
+# ---------------------------------------------------------------- Studio settings (docs/studio/schema.json is the source of truth)
+import os as _os
+_SCHEMA = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..', 'docs', 'studio', 'schema.json')
+try:
+    DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
+except Exception:
+    DEFAULTS = {'length': 45, 'tone': 'auto', 'chart': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
+                'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
+
+
+def settings(sb):
+    """The job's settings with defaults filled in (old jobs without settings behave exactly as before)."""
+    st = dict(DEFAULTS)
+    st.update({k: v for k, v in (sb.get('settings') or {}).items() if k in DEFAULTS})
+    return st
 
 
 def cta(sb):
+    """Last spoken line: custom text, '-' for none, else the default (the chart line only when there is a chart)."""
+    c = str(settings(sb).get('cta') or '').strip()
+    if c == '-':
+        return ''
+    if c:
+        return c if re.search(r'[.!?]$', c) else c + '.'
     return CTA if sb.get('chart') else CTA_NOCHART
 
 
@@ -248,6 +270,11 @@ def check(sb, strict=True):
             raise ValueError(msg)
         probs.append(msg)
     sb['est_secs'] = round(secs); sb['words'] = words
+    if settings(sb).get('chart') == 'off' and sb.get('chart'):
+        sb['chart'] = None
+        for s in sc:
+            if s['visual']['type'] == 'chart':
+                s['visual'] = {'type': 'title', 'text': s['visual'].get('label') or s['line'].split('.')[0][:22].upper(), 'icon': 'bitcoin'}
     ch = sb.get('chart')
     if ch:
         if not (isinstance(ch, dict) and re.match(r'^\d{4}-\d{2}-\d{2}$', str(ch.get('start', ''))) and re.match(r'^\d{4}-\d{2}-\d{2}$', str(ch.get('end', '')))):
@@ -263,15 +290,21 @@ def check(sb, strict=True):
 def voice_job(sb):
     """Storyboard -> cvoice json (spoken text per scene + emotion), plus the token plan used later for timing."""
     ex = EXAG[sb['tone']]
+    st = settings(sb)
+    de = {'calm': -.1, 'normal': 0, 'punchy': .07}.get(st['energy'], 0)
+    gk = {'short': .7, 'normal': 1.0, 'dramatic': 1.45}.get(st['pauses'], 1.0)
     scenes, plan = [], []
     for i, s in enumerate(sb['scenes']):
         pl = plan_line(s['line'], sb['respell'])
         text = ' '.join(w for _, sp in pl for w in sp)
         end = i == len(sb['scenes']) - 1
-        scenes.append([text, ex['end'] if end else ex[s['role']], .55 if end else (.3 if s['role'] in ('twist', 'payoff') else .24)] + (['end'] if end else []))
+        e = (ex['end'] if end else ex[s['role']]) + de
+        g = .55 if end else (.3 if s['role'] in ('twist', 'payoff') else .24)
+        scenes.append([text, round(min(1.0, max(.4, e)), 2), round(g * gk, 2)] + (['end'] if end else []))
         plan.append(pl)
-    scenes.append([cta(sb), .7, .3])
-    plan.append(plan_line(cta(sb)))
+    if cta(sb):
+        scenes.append([cta(sb), .7, .3])
+        plan.append(plan_line(cta(sb)))
     return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .2, 'seed': 7, 'scenes': scenes}, plan
 
 
@@ -341,15 +374,20 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
                 flush()
         flush()
         beats.setdefault(f's{si}', starts[-1] + .3)
-    beats['z_follow'] = starts[-1]
-    every = [i for i, (tok, _) in enumerate(plan[-1]) if tok.lower().startswith('every')]
-    beats['z_every'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:every[0]])][0]) if every else starts[-1] + 1.2
+    has_cta = len(plan) > len(sb['scenes'])
     end = M(words[-1][1]) + .35
     dur = round(end + 1.6, 2)
-    para = [[round(starts[i] - (.12 if i else 0), 3) if i else 0.0, 0] for i in range(len(starts) - 1)]   # story scenes; the CTA rides on the last one
+    if has_cta:
+        beats['z_follow'] = starts[-1]
+        every = [i for i, (tok, _) in enumerate(plan[-1]) if tok.lower().startswith('every')]
+        beats['z_every'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:every[0]])][0]) if every else starts[-1] + 1.2
+    else:                                                                 # no last line: end card after the story
+        beats['z_follow'] = round(end + .1, 3); beats['z_every'] = round(end + .9, 3); dur = round(end + 2.4, 2)
+    n_story = len(sb['scenes'])
+    para = [[round(starts[i] - (.12 if i else 0), 3) if i else 0.0, 0] for i in range(n_story)]   # story scenes; the CTA rides on the last one
     for i in range(len(para)):
         para[i][1] = para[i + 1][0] if i + 1 < len(para) else dur
     T = {'chunks': chunks, 'dur': dur, 'beats': beats, 'para': para, 'caps': caps, 'cuts': cuts, 'lead': lead,
-         'cta': round(beats['z_follow'] + .2, 3), 'cta2': beats['z_every']}
+         'cta': round(beats['z_follow'] + (.2 if has_cta else 0), 3) if settings(sb).get('endcard', True) else None, 'cta2': beats['z_every']}
     json.dump(T, open(out, 'w'), indent=1)
     return T

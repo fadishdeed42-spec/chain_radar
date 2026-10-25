@@ -33,11 +33,22 @@ def sh(cmd, **kw):
 
 
 # ---------------------------------------------------------------- voice stage
+def status(jid, state, **kw):
+    """jobs/<id>/status.json: what the Studio app shows (draft, voice_running, voice_ready, rendering, done, failed)."""
+    p = f'jobs/{jid}/status.json'
+    try:
+        st = json.load(open(p))
+    except Exception:
+        st = {}
+    st.update({'state': state, 't': int(time.time()), **kw})
+    json.dump(st, open(p, 'w'))
+
+
 def drop_chart(sb, why):
     print('chart dropped:', why)
     for s in sb['scenes']:
         if s['visual']['type'] == 'chart':
-            s['visual'] = {'type': 'title', 'text': s['visual'].get('label') or s['line'].split('.')[0][:22]}
+            s['visual'] = {'type': 'title', 'text': s['visual'].get('label') or s['line'].split('.')[0][:22], 'icon': 'bitcoin'}
     sb['chart'] = None
 
 
@@ -67,6 +78,10 @@ def voice(jid):
                      'title': sb.get('title', 'Chain Secrets'), 'performer': 'Chain Secrets',
                      'reply_markup': kb([[('🎬 Make the video', f'sv:{jid}')], [('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
        files={'audio': open(f'{d}/voicep.mp3', 'rb')})
+    status(jid, 'voice_ready', secs=round(secs), quality=q)
+    if story.settings(sb).get('autorender'):
+        open(f'{d}/autorender.flag', 'w').write('1')                      # the workflow starts the render after saving the voice
+        tg('sendMessage', {'text': '🎬 Auto-render is on: the video starts now (~5–15 min).'})
 
 
 # ---------------------------------------------------------------- chart data (real daily candles)
@@ -141,7 +156,7 @@ def render(jid):
     sh([sys.executable, f'{HERE}/tighten.py', f'{d}/voicep.wav', f'{d}/timing.json', f'{d}/voice_tight.wav'])
     sh(['ffmpeg', '-y', '-v', 'error', '-i', f'{HERE}/music.wav', '-i', f'{HERE}/music.wav', '-i', f'{HERE}/music.wav', '-filter_complex',
         '[0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2', f'{d}/music_long.wav'])
-    mv = {'serious': .08, 'mystery': .1, 'funny': .11, 'hype': .13}[sb['tone']]
+    mv = {'serious': .08, 'mystery': .1, 'funny': .11, 'hype': .13}[sb['tone']] * {'off': 0, 'low': .55, 'normal': 1.0, 'high': 1.4}.get(story.settings(sb)['music'], 1.0)
     out = f'{d}/short.mp4'
     sh([sys.executable, f'{HERE}/mix2.py', f'{d}/silent.mp4', f'{d}/voice_tight.wav', f'{d}/sfx.wav', f'{d}/music_long.wav', str(T['dur']), out, str(mv)])
     if os.path.getsize(out) > 47e6:                                      # Telegram bots can send up to 50 MB: fit by bitrate
@@ -159,6 +174,7 @@ def render(jid):
            f'<b>Pinned comment</b>\n<code>{E(sb.get("pinned", ""))}</code>\n\n<b>Cover frame</b>: {hook_t + .6:.1f}s (the big hook title)\n'
            f'<b>Post time</b>: 19:00–20:00 Beirut')
     tg('sendMessage', {'text': kit[:4000]})
+    status(jid, 'done', dur=round(T['dur']), size_mb=round(os.path.getsize(out) / 1e6, 1))
 
 
 if __name__ == '__main__':
@@ -167,6 +183,10 @@ if __name__ == '__main__':
         voice(jid) if stage == 'voice' else render(jid)
     except Exception as ex:
         import traceback; traceback.print_exc()
+        try:
+            status(jid, 'failed', stage=stage, error=repr(ex)[:200])
+        except Exception:
+            pass
         tg('sendMessage', {'text': f'⚠️ The {stage} step failed for this Short: <code>{E(repr(ex)[:300])}</code>\nTap to try again.',
                            'reply_markup': kb([[('🔁 Try again', f'{"sr" if stage == "voice" else "sv"}:{jid}')]])})
         raise

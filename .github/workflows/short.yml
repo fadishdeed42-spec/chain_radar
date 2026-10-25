@@ -9,6 +9,7 @@ on:
       stage: {description: 'voice or render', required: true, default: voice}
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: short-${{ github.event.inputs.job }}
   cancel-in-progress: true
@@ -46,5 +47,11 @@ jobs:
         run: |
           git config user.name chain-radar; git config user.email noreply@github.com
           J=jobs/${{ github.event.inputs.job }}
-          for f in $J/storyboard.json $J/voice.json $J/plan.json $J/voice.log $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/*.runlog studio/ref_am_liam.wav; do [ -f $f ] && git add -f $f; done
+          for f in $J/storyboard.json $J/status.json $J/voice.json $J/plan.json $J/voice.log $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/*.runlog studio/ref_am_liam.wav; do [ -f $f ] && git add -f $f; done
           git commit -qm "short ${{ github.event.inputs.stage }} ${{ github.event.inputs.job }} [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done || true
+      - name: auto-render (Studio setting)
+        if: success() && github.event.inputs.stage == 'voice' && hashFiles(format('jobs/{0}/autorender.flag', github.event.inputs.job)) != ''
+        run: |
+          curl -s -X POST -H "Authorization: Bearer ${{ github.token }}" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/short.yml/dispatches \
+            -d '{"ref":"main","inputs":{"job":"${{ github.event.inputs.job }}","stage":"render"}}'

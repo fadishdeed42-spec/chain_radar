@@ -72,7 +72,7 @@ def caption_layer(cv, t):
         if a0 - .05 <= t < min(a1 + .3, nxt):
             n = len(text.split(' '))
             al = (1 - seg(t, a1 + .12, a1 + .3)) * (1 - seg(t, nxt - .07, nxt))
-            pop_words(cv, t, a0 - .05, text, 1690, 58, kind='black', hl={k: tuple(v) for k, v in hl.items()},
+            pop_words(cv, t, a0 - .05, text, 1690 - (CAP_SIZE - 58) * .6, CAP_SIZE, kind='black', hl={k: tuple(v) for k, v in hl.items()},
                       per=max(.035, (a1 - a0) * .8 / max(1, n)), alpha=al, max_w=1000)
 
 def badge(cv, t, t0, text, y=290, col=GOLD, alpha=1.0, fg=BG):
@@ -152,6 +152,7 @@ def cta_layer(cv, t):
 # ---------------- post FX ----------------
 _GRAIN = [np.random.default_rng(s).normal(0, 1, (RH // 2, RW // 2)).astype(np.float32) for s in range(4)]
 SCENES, IMPACTS, NAME = [], [], 'v'
+CAP_SIZE = 58                   # caption size (Studio: 58 normal, 72 large)
 TAGLINE = 'every chart hides a story'   # set to '' for stories without a chart
 SHAKE, WHIP = 1.0, 1.0          # tone knobs for the automatic Shorts (serious = calmer camera)
 def post(img, t):

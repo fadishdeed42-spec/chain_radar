@@ -607,7 +607,7 @@ def git_sync(force=False):
     _last_sync[0] = time.time()
     sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
     sh('git config user.name chain-radar; git config user.email noreply@github.com')
-    sh('for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json state/shorts.json; do [ -f $f ] && git add $f; done; '
+    sh('for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json state/shorts.json state/studio.json; do [ -f $f ] && git add $f; done; '
        '[ -d jobs ] && git add jobs; git commit -qm "listen state [skip ci]"')
     for _ in range(3):
         r = sh('git pull --rebase -q -X theirs && git push -q')
@@ -1354,12 +1354,16 @@ def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
 
 
 # ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
-MENU = [['📋 Today\'s kit', '📰 Top stories'], ['📊 Movers', '💬 Reply to a post'], ['🎬 Make a Short', '📖 Story']]
-MENU_V = 4
+MENU = [['📋 Today\'s kit', '📰 Top stories'], ['📊 Movers', '💬 Reply to a post'], ['🎬 Studio', '📖 Story']]
+MENU_V = 5
 
 
-def send_menu(text='👇 Your menu is ready at the bottom of the chat.'):
-    kb = {'keyboard': [[{'text': b} for b in row] for row in MENU], 'resize_keyboard': True, 'is_persistent': True}
+def send_menu(text='👇 Your menu is ready at the bottom of the chat.', job=None):
+    def btn(b):
+        if b == '🎬 Studio':                                             # opens the Studio Mini App (sendData works from keyboard buttons)
+            return {'text': b, 'web_app': {'url': STUDIO_URL + (f'?job={job}' if job else '')}}
+        return {'text': b}
+    kb = {'keyboard': [[btn(b) for b in row] for row in MENU], 'resize_keyboard': True, 'is_persistent': True}
     try:
         requests.post(f'https://api.telegram.org/bot{TOKEN}/sendMessage', timeout=10,
                       data={'chat_id': CHAT, 'text': text, 'reply_markup': json.dumps(kb)})
@@ -1951,6 +1955,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stu
 import story as sstory
 TONE_EMO = {'funny': '😂', 'mystery': '🕵️', 'serious': '⚠️', 'hype': '🔥'}
 SB_SCHEMA = '''{"title": "YouTube title, max 60 chars, curiosity, may end with one emoji",
+ "alt_hooks": ["3 alternative hook lines"],
  "tone": "funny | mystery | serious | hype",
  "respell": {"HardName": "how to say it", "...": "..."},
  "chart": null OR {"symbol": "BTC", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD"},
@@ -1998,16 +2003,20 @@ def short_facts(topic):
     return 'Real headlines about this story (oldest first):\n' + '\n'.join(lines[:15]) if lines else ''
 
 
-LEN_NAME = {30: '30s', 45: '45s', 60: '1 min', 120: '2 min'}
+LEN_NAME = {30: '30s', 45: '45s', 60: '1 min', 90: '1.5 min', 120: '2 min'}
 LEN_SHAPE = {
     30: 'hook -> setup -> twist -> payoff -> end. One clear story beat per line.',
     45: 'hook -> setup -> turn -> twist -> payoff -> end. Add one vivid detail (a place, an amount, a quote) in the middle.',
     60: 'hook -> setup (who, where) -> turn -> first twist -> a re-hook line around the middle ("But that is not the strangest part.") -> second twist -> payoff -> end.',
+    90: 'hook -> setup (who, where, when) -> turn -> first twist -> re-hook around 40% ("But that is not the strangest part.") -> escalation with real numbers -> second twist -> payoff -> end.',
     120: 'cold open hook -> background (who, when, how it started) -> rising stakes with 2-3 concrete events -> re-hook around 40% -> first twist -> '
          'consequences with real numbers -> second twist or reveal -> where it stands today -> end that loops to the hook. Every 10-15 seconds something new must happen.'}
 
 
-def make_storyboard(topic, facts, tone=None, fix=None, length=45):
+def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='auto'):
+    chart_rule = {'off': 'set "chart" to null and use no chart visuals.',
+                  'on': 'include a real chart whenever any coin price is part of the story (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.'
+                  }.get(chart_pref, 'only if the story is about a crypto price on specific dates (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.')
     hooks = shorts.best_hooks(15)
     hook_ex = ('Hooks that beat their channel average on real crypto Shorts:\n' + '\n'.join(f'- "{h}" ({o:.0f}x)' for o, h, t, v in hooks)
                if len(hooks) >= 6 else 'Proven hook patterns:\n' + '\n'.join('- ' + h for h in PROVEN_HOOKS))
@@ -2029,7 +2038,8 @@ HOUSE RULES
   funny = a light joke every 5-8 seconds; serious = no jokes, respectful; mystery = tension and questions; hype = energy.
 - Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). Spell hard names in "respell".
 - FACTS: use the facts below and only well-documented facts you are certain of. Never invent numbers, quotes or dates. If unsure, leave it out.
-- Chart: only if the story is about a crypto price on specific dates (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.
+- Chart: {chart_rule}
+- "alt_hooks": 3 other strong hook lines for scene 1 (different angles), same rules as the hook.
 - No financial advice, no slurs, no claims that real people committed crimes they were not convicted of (say "prosecutors say" when needed).
 
 {SB_VISUALS}
@@ -2048,15 +2058,20 @@ STORY: {topic}
     return raw
 
 
-def short_draft(topic, tgs, tone=None, jid=None, length=None):
+def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
     old = (tgs.get('shorts', {}).get(jid) or {}) if jid else {}
+    if not old and jid and os.path.exists(f'jobs/{jid}/storyboard.json'):
+        old = {'sb': json.load(open(f'jobs/{jid}/storyboard.json'))}
     facts = old.get('facts')
     length = length or (old.get('sb') or {}).get('length') or 45
+    sett = dict(sett or (old.get('sb') or {}).get('settings') or {})
     if facts is None:
         facts = short_facts(topic)
     sb, err, best, note = None, None, None, ''
     for _ in range(3):
-        raw = make_storyboard(topic, facts, tone, err, length)
+        raw = make_storyboard(topic, facts, tone, err, length, sett.get('chart', 'auto'))
+        if isinstance(raw, dict):
+            raw['settings'] = dict(sett, length=length)
         if not raw:
             break
         best = raw
@@ -2074,13 +2089,17 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None):
         unack(); tg('⚠️ Couldn\'t write a good script for that story right now' + (f' ({E(err)})' if err else '') + '. Try again, or give a more specific topic.'); return
     if tone:
         sb['tone'] = tone
+    if old.get('sb', {}).get('ep'):
+        sb['ep'] = old['sb']['ep']                                        # a rewrite keeps its episode number
     jid = jid or hashlib.md5((topic + str(time.time())).encode()).hexdigest()[:8]
     tgs.setdefault('shorts', {})[jid] = {'t': time.time(), 'topic': topic, 'facts': facts, 'sb': sb}
+    save_job(jid, sb, 'draft'); studio_index(tgs); git_sync(force=True)
     tgs['shorts'] = dict(sorted(tgs['shorts'].items(), key=lambda kv: -kv[1]['t'])[:10])
     tgs['short_edit'] = jid
     tgs['shorts'][jid]['note'] = note
     unack()
     show_script(jid, tgs)
+    studio_button('✏️ To edit every line, visual and setting, tap 🎬 Studio below. It opens this script.', jid)
 
 
 def vis_txt(v):
@@ -2108,7 +2127,7 @@ def show_script(jid, tgs):
     for n, s in enumerate(sb['scenes'], 1):
         m += f'\n<b>{n}.</b> <i>{s["role"]}</i> · {E(s["line"])}\n     🎨 {E(vis_txt(s["visual"]))[:90]}'
     m += ('\n\n<b>Checkpoint 1:</b> check the facts. To change a line, reply like <code>3: new line</code>.'
-          '\nThen tap ✅ and I record the voice (' + {30: '~12 min', 45: '~15 min', 60: '~20 min', 120: '~35 min'}[sb['length']] + ').')
+          '\nThen tap ✅ and I record the voice (' + {30: '~12 min', 45: '~15 min', 60: '~20 min', 90: '~28 min', 120: '~35 min'}[sb['length']] + ').')
     if d.get('note'):
         m = m.replace('\n\n<b>Checkpoint 1:</b>', f'\n\n{E(d["note"])}\n\n<b>Checkpoint 1:</b>')
     if not ch:
@@ -2178,18 +2197,22 @@ def short_approve(jid, tgs, seed_bump=False):
         sb['voice_seed'] = int(sb.get('voice_seed', 7)) + 11
     if not sb.get('ep'):
         sb['ep'] = next_ep(tgs)
-    os.makedirs(f'jobs/{jid}', exist_ok=True)
-    json.dump(sb, open(path, 'w'), indent=1)
+    save_job(jid, sb, 'voice_running')
     if d: d['sb'] = sb
-    git_sync(force=True)
+    studio_index(tgs); git_sync(force=True)
     if dispatch_short(jid, 'voice'):
-        mins = {30: '12', 45: '15', 60: '20', 120: '35'}.get(sstory.length_of(sb), '15')
+        mins = {30: '12', 45: '15', 60: '20', 90: '28', 120: '35'}.get(sstory.length_of(sb), '15')
         tg('🎙 Recording the voice' + (' (new take)' if seed_bump else '') + f' for #{sb["ep"]}. You\'ll get an audio preview here in ~{mins} minutes.')
     else:
         tg('⚠️ Couldn\'t start the voice job on GitHub. Try again in a minute.')
 
 
-def short_render(jid):
+def short_render(jid, tgs=None):
+    git_sync(force=True)
+    if not os.path.exists(f'jobs/{jid}/voicep_words.srt'):
+        tg('🎙 Record the voice first (✅ Make the voice), then make the video.'); return
+    job_status(jid, 'rendering')
+    if tgs is not None: studio_index(tgs)
     git_sync(force=True)
     if dispatch_short(jid, 'render'):
         tg('🎬 Making the video: real chart, animation, sound and mix. It arrives here in ~10–20 minutes.')
@@ -2206,6 +2229,121 @@ def short_reedit(jid, tgs):
         tgs.setdefault('shorts', {})[jid] = {'t': time.time(), 'topic': json.load(open(p)).get('title', ''), 'facts': '', 'sb': json.load(open(p))}
     tgs['short_edit'] = jid
     show_script(jid, tgs)
+
+
+# ---------------- 🎬 Studio Mini App: jobs on disk, library index, actions sent from the app ----------------
+STUDIO_URL = 'https://fadishdeed42-spec.github.io/chain_radar/studio/'
+
+
+def job_status(jid, state=None, **kw):
+    p = f'jobs/{jid}/status.json'
+    try:
+        st = json.load(open(p))
+    except Exception:
+        st = {}
+    if state:
+        st.update({'state': state, 't': int(time.time()), **kw})
+        if state in ('draft', 'voice_running', 'rendering'):
+            st.pop('error', None)
+        os.makedirs(f'jobs/{jid}', exist_ok=True)
+        json.dump(st, open(p, 'w'))
+    return st
+
+
+def save_job(jid, sb, state=None):
+    os.makedirs(f'jobs/{jid}', exist_ok=True)
+    json.dump({k: v for k, v in sb.items() if not k.startswith('_')}, open(f'jobs/{jid}/storyboard.json', 'w'), indent=1)
+    if state or not os.path.exists(f'jobs/{jid}/status.json'):
+        job_status(jid, state or 'draft')
+
+
+def studio_index(tgs):
+    """state/studio.json: what the Studio app lists (jobs + live status) and suggests (ideas)."""
+    jobs = {}
+    for f in glob.glob('jobs/*/storyboard.json'):
+        jid = f.split('/')[1]
+        try:
+            sb = json.load(open(f)); st = job_status(jid)
+        except Exception:
+            continue
+        jobs[jid] = {'ep': sb.get('ep'), 'title': sb.get('title', ''), 'length': sb.get('length', 45), 'tone': sb.get('tone', ''),
+                     'state': st.get('state', 'draft'), 't': st.get('t') or int(os.path.getmtime(f))}
+    ideas = []
+    try:
+        s = load_state()
+        for k, sc, age, ns in (s.get('top') or [])[:6]:
+            it = s.get('menu', {}).get(k)
+            if it and not junk_story(it['title'], [{'title': it['title'], 'src': it.get('src', '')}], it.get('coin')):
+                ideas.append({'title': it['title'], 'kind': f'📰 news · {ns} sources'})
+    except Exception:
+        pass
+    now = datetime.now(timezone.utc)
+    for y, title in FAMOUS.get((now.month, now.day), []):
+        ideas.append({'title': f'{title} ({y})', 'kind': '📜 on this day'})
+    for vid, v in shorts.winners(days=30, k=3):
+        ideas.append({'title': v['t'][:90], 'kind': f'🔥 viral Short · {v["out"]:.0f}x'})
+    idx = {'jobs': jobs, 'ideas': ideas[:12], 'next_ep': next_ep(tgs, peek=True), 'updated': int(time.time())}
+    os.makedirs('state', exist_ok=True)
+    json.dump(idx, open('state/studio.json', 'w'), separators=(',', ':'))
+    return idx
+
+
+def studio_button(text, jid=None):
+    """Send a message with the menu keyboard whose 🎬 Studio button opens this job directly."""
+    send_menu(text, job=jid)
+
+
+def decode_app(data):
+    import base64, zlib
+    if data.startswith('z:'):
+        data = zlib.decompress(base64.b64decode(data[2:]), -15).decode()
+    return json.loads(data)
+
+
+def app_action(data, tgs):
+    try:
+        p = decode_app(data)
+    except Exception as e:
+        tg(f'⚠️ The Studio sent something I could not read ({E(repr(e)[:80])}). Try again.'); return
+    a, jid = p.get('a'), p.get('id')
+    sett = {k: v for k, v in (p.get('settings') or {}).items() if k in sstory.DEFAULTS}
+    if a == 'new':
+        L = int(sett.get('length') or 45)
+        tone = sett.get('tone') if sett.get('tone') in sstory.TONES else None
+        ack(f'⏳ Researching and writing a {LEN_NAME.get(L, str(L) + "s")} script…')
+        short_draft(p.get('topic', '')[:300], tgs, tone, None, L, sett)
+        return
+    if not jid or not re.match(r'^[a-z0-9]{4,16}$', jid):
+        tg('⚠️ That Short has no id. Open it again from the 📚 Library.'); return
+    if a == 'render':
+        short_render(jid, tgs); return
+    if a == 'rewrite':
+        d_ = tgs.get('shorts', {}).get(jid) or {}
+        topic = d_.get('topic') or (json.load(open(f'jobs/{jid}/storyboard.json')).get('title') if os.path.exists(f'jobs/{jid}/storyboard.json') else '')
+        if not topic:
+            tg('That Short is too old to rewrite. Start a new one.'); return
+        tone = p.get('tone') if p.get('tone') in sstory.TONES else None
+        ack('⏳ Rewriting the script…')
+        short_draft(topic, tgs, tone, jid, int(p.get('length') or 45), sett)
+        return
+    sb = p.get('sb')
+    if not isinstance(sb, dict):
+        tg('⚠️ The Studio did not send the script. Try again.'); return
+    try:
+        sb, probs = sstory.check(sb, strict=False)
+    except ValueError as e:
+        tg(f'⚠️ The script needs a fix before I can use it: {E(e)}'); return
+    old = tgs.setdefault('shorts', {}).setdefault(jid, {'t': time.time(), 'topic': sb.get('title', ''), 'facts': ''})
+    old.update({'sb': sb, 't': time.time(), 'note': ''})
+    tgs['short_edit'] = jid
+    if a == 'save':
+        save_job(jid, sb, 'draft'); studio_index(tgs); git_sync(force=True)
+        tg(f'💾 Saved <b>#{sb.get("ep") or next_ep(tgs, peek=True)} {E(sb.get("title", ""))}</b> · ~{sb["est_secs"]}s, {len(sb["scenes"])} scenes'
+           + ('\n⚠️ ' + E('; '.join(probs)) if probs else ''))
+    elif a == 'voice':
+        short_approve(jid, tgs)
+    elif a == 'retake':
+        short_approve(jid, tgs, seed_bump=True)
 
 
 HELP = ('🕵️ <b>Chain Radar</b>\n\n'
@@ -2358,7 +2496,7 @@ def handle(u, tgs):
             _, jid_, L_ = data.split(':', 2); d_ = tgs.get('shorts', {}).get(jid_)
             if d_: ack(f'⏳ Rewriting as a {LEN_NAME[int(L_)]} Short…'); short_draft(d_['topic'], tgs, d_['sb'].get('tone'), jid_, int(L_))
         elif data.startswith('sv:'):
-            short_render(data[3:])
+            short_render(data[3:], tgs)
         elif data.startswith('sr:'):
             short_approve(data[3:], tgs, seed_bump=True)
         elif data.startswith('se:'):
@@ -2391,6 +2529,8 @@ def handle(u, tgs):
                 send_coin_chart(coin, span if span in SPANS else '1d')
         return
     msg = msg or {}
+    if msg.get('web_app_data'):                                          # an action sent from the 🎬 Studio Mini App
+        app_action(msg['web_app_data'].get('data', ''), tgs); return
     t = (msg.get('text') or msg.get('caption') or '').strip()
     if not t:
         return
@@ -2402,7 +2542,7 @@ def handle(u, tgs):
         c, args = MAP[t], []
     if tgs.get('short_edit') and re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) and short_edit(t, tgs):
         return
-    if t == '🎬 Make a Short':
+    if t in ('🎬 Make a Short', '🎬 Studio'):
         tg('🎬 Send <code>/short</code> + any crypto or money story, e.g. <code>/short QuadrigaCX</code>. '
            'Choose the length: <code>/short 30 …</code>, <code>/short 1min …</code>, <code>/short 2min …</code> (default 45s), or change it later with the ⏱ buttons.'); return
     if t == '💬 Reply to a post':
@@ -2510,10 +2650,11 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
             print('scan fail', repr(e))
     if tgs.get('menu_v') != MENU_V:
         tgs['menu_v'] = MENU_V; save_tg(tgs)
-        send_menu('🆕 Chain Radar: Shorts studio\n\n'
-                  '• 🎬 /short + any story → script → voice → finished Short, with 3 checkpoints\n'
-                  '• /viral and /hook: what is going viral and stronger hooks\n'
-                  '• Menu updated below 👇 (Hacks are still at /hacks)')
+        send_menu('🆕 Chain Secrets Studio is here\n\n'
+                  '• Tap 🎬 Studio below: write, edit and render Shorts with all the settings\n'
+                  '• Length, tone, chart, voice energy, pauses, captions, motion, music, sound effects, end card\n'
+                  '• Library with every Short and its status\n'
+                  '• /short still works in the chat')
     while time.time() < end - 5:
         global NOW
         NOW = time.time()
@@ -2541,7 +2682,12 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
                 print('handle fail', repr(e)); tg('⚠️ Something went wrong with that request. Try again.')
             save_tg(tgs)
         if time.time() - last_save > 600:
-            save_tg(tgs); git_sync(force=True); last_save = time.time()
+            save_tg(tgs); git_sync(force=True)
+            try:
+                studio_index(tgs); git_sync(force=True)                  # library statuses (jobs finished on GitHub)
+            except Exception as e:
+                print('studio index fail', repr(e))
+            last_save = time.time()
     save_tg(tgs)
 
 

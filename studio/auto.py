@@ -26,6 +26,14 @@ PACK = {  # tone style packs
 ACC, ALT, BAD = PACK['acc'], PACK['alt'], PACK['bad']
 cs.SHAKE, cs.WHIP = PACK['shake'], PACK['whip']
 cs.TAGLINE = 'every chart hides a story' if SB.get('chart') else ''
+# ---------------------------------------------------------------- Studio settings
+import story as _story
+ST = _story.settings(SB)
+if ST['captions'] == 'off': cs.CAPS = []
+elif ST['captions'] == 'large': cs.CAP_SIZE = 72
+if ST['motion'] == 'calm': cs.SHAKE, cs.WHIP = .3, .4
+elif ST['motion'] == 'strong': cs.SHAKE, cs.WHIP = 1.45, 1.15
+SFX_K = {'off': 0, 'soft': .55, 'normal': 1.0, 'punchy': 1.35}.get(ST['sfx'], 1.0)
 EP = SB.get('ep', '')
 SCN = SB['scenes']
 
@@ -175,6 +183,11 @@ def sc_title(cv, t, i, v, a):
     if ic: icon(cv, ic, W / 2, 620, back(seg(t, P(i), P(i) + .4)) * .9, a * (1 - .4 * seg(t, h, h + .3)), t)
     lines = wrap(str(v.get('text', '')).upper(), 12)[:3] or ['']
     y0 = 1000 if ic else 860
+    if t < h - .05:                                                      # before the hit: the words wait faintly, never an empty frame
+        g = back(seg(t, P(i) + .1, P(i) + .5)) * .28
+        for k, ln in enumerate(lines):
+            size = fit(ln, 'black', 150, 980)
+            cv.text(W / 2, y0 + k * size * 1.02, ln, 'black', size, MUTED, a * g, anchor='cm', scale=.92)
     if t >= h - .05:
         for k, ln in enumerate(lines):
             size = fit(ln, 'black', 150, 980)
@@ -379,9 +392,10 @@ def make_sfx(out):
             n = len(s['visual'].get('items') or [1])
             for j in range(n): place(tr, pop(.2 * k, 600 + 80 * j), lerp(P(i) + .2, h, j / max(1, n - 1)) if n > 1 else h)
     C = CTA
-    place(tr, whoosh(.5, True, .14), C - .1); place(tr, thud(.4, .45), C + .2); place(tr, ding(1760, 1.0, .2), C + .5)
+    if C is not None:
+        place(tr, whoosh(.5, True, .14), C - .1); place(tr, thud(.4, .45), C + .2); place(tr, ding(1760, 1.0, .2), C + .5)
     place(tr, whoosh(.6, False, .3), DUR - .6)
-    write(out, tr)
+    write(out, tr * SFX_K if SFX_K else tr * 0)
 
 
 if __name__ == '__main__':

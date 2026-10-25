@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Chain Secrets Studio</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  :root {
+    --bg: #0d111a; --panel: #161b28; --panel2: #1d2333; --line: #2a3145; --txt: #eef1f7; --mut: #96a0b4; --dim: #5b6478;
+    --gold: #ffc42e; --up: #26c2a0; --dn: #f6465d; --blue: #4078ff; --purple: #966eff; --r: 14px;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--txt); font: 15px/1.45 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; }
+  body { padding: 0 0 calc(110px + env(safe-area-inset-bottom)); }
+  header { position: sticky; top: 0; z-index: 5; background: rgba(13,17,26,.96); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 10px; padding: 12px 16px 6px; }
+  .logo { width: 30px; height: 30px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffd76a, var(--gold)); color: #1a1405;
+          display: grid; place-items: center; font-weight: 900; font-size: 13px; }
+  .brand b { font-size: 16px; letter-spacing: .2px; } .brand small { color: var(--mut); margin-left: auto; font-size: 12px; }
+  nav { display: flex; gap: 6px; padding: 6px 12px 10px; }
+  nav button { flex: 1; padding: 9px 4px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--mut); font-weight: 600; font-size: 14px; }
+  nav button.on { background: var(--panel2); color: var(--txt); border-color: #3a4360; }
+  main { padding: 12px 14px; max-width: 720px; margin: 0 auto; }
+  section { display: none; } section.on { display: block; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 1.2px; color: var(--mut); margin: 18px 2px 8px; font-weight: 700; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 12px; margin-bottom: 10px; }
+  label { display: block; color: var(--mut); font-size: 12.5px; margin: 8px 0 4px; font-weight: 600; }
+  input, textarea, select { width: 100%; background: var(--bg); color: var(--txt); border: 1px solid var(--line); border-radius: 10px; padding: 10px 11px;
+                            font: inherit; outline: none; }
+  input:focus, textarea:focus, select:focus { border-color: var(--gold); }
+  textarea { resize: vertical; min-height: 64px; }
+  .help { color: var(--dim); font-size: 12px; margin-top: 4px; }
+  .seg { display: flex; flex-wrap: wrap; gap: 6px; }
+  .seg button { padding: 8px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--mut); font: inherit; font-size: 13.5px; }
+  .seg button.on { background: var(--gold); color: #1a1405; border-color: var(--gold); font-weight: 700; }
+  .toggle { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 6px 0; }
+  .toggle span { color: var(--txt); font-size: 14px; }
+  .sw { position: relative; width: 46px; height: 28px; flex: none; }
+  .sw input { display: none; } .sw i { position: absolute; inset: 0; background: var(--line); border-radius: 999px; transition: .2s; }
+  .sw i::after { content: ""; position: absolute; left: 3px; top: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; transition: .2s; }
+  .sw input:checked + i { background: var(--up); } .sw input:checked + i::after { left: 21px; }
+  details { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); margin-bottom: 10px; }
+  details summary { padding: 12px; cursor: pointer; font-weight: 700; list-style: none; display: flex; align-items: center; gap: 8px; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "›"; margin-left: auto; color: var(--mut); transform: rotate(90deg); transition: .2s; }
+  details[open] summary::after { transform: rotate(-90deg); }
+  details .body { padding: 0 12px 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { padding: 8px 11px; border-radius: 12px; background: var(--panel2); border: 1px solid var(--line); color: var(--txt); font-size: 13px; text-align: left; font: inherit; font-size: 13px; }
+  .chip small { display: block; color: var(--mut); font-size: 11px; }
+  .row { display: flex; gap: 8px; } .row > * { flex: 1; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line);
+         background: var(--panel2); color: var(--txt); font: inherit; font-weight: 700; font-size: 14px; }
+  .btn.gold { background: var(--gold); color: #1a1405; border-color: var(--gold); }
+  .btn.ghost { background: transparent; }
+  .btn.small { padding: 7px 10px; font-size: 12.5px; border-radius: 9px; font-weight: 600; }
+  .btn:disabled { opacity: .45; }
+  .scene { position: relative; }
+  .scene .top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .num { width: 26px; height: 26px; border-radius: 50%; background: var(--panel2); display: grid; place-items: center; font-weight: 800; font-size: 13px; flex: none; }
+  .scene .top select { width: auto; padding: 6px 8px; font-size: 13px; }
+  .scene .tools { margin-left: auto; display: flex; gap: 4px; }
+  .scene .tools button { width: 32px; height: 30px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--mut); font-size: 14px; }
+  .meta { display: flex; justify-content: space-between; color: var(--dim); font-size: 12px; margin-top: 4px; }
+  .vis { margin-top: 8px; padding: 10px; border-radius: 10px; background: var(--bg); border: 1px dashed var(--line); }
+  .vis .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 8px; }
+  .vis .grid .full { grid-column: 1 / -1; }
+  .status { display: flex; align-items: center; gap: 10px; padding: 11px 12px; border-radius: 12px; background: var(--panel2); border: 1px solid var(--line); margin-bottom: 10px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--mut); flex: none; }
+  .dot.run { background: var(--gold); animation: pulse 1.2s infinite; } .dot.ok { background: var(--up); } .dot.bad { background: var(--dn); }
+  @keyframes pulse { 50% { opacity: .35; } }
+  .est { display: flex; align-items: baseline; gap: 8px; } .est b { font-size: 22px; } .est .ok { color: var(--up); } .est .warn { color: var(--gold); } .est .bad { color: var(--dn); }
+  .lib { display: flex; align-items: center; gap: 12px; padding: 12px; }
+  .lib .ep { width: 44px; height: 44px; border-radius: 12px; background: var(--panel2); display: grid; place-items: center; font-weight: 800; color: var(--gold); flex: none; }
+  .lib .t { font-weight: 700; } .lib .s { color: var(--mut); font-size: 12.5px; }
+  .badge { font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 999px; background: var(--panel2); color: var(--mut); white-space: nowrap; margin-left: auto; }
+  .badge.run { color: #1a1405; background: var(--gold); } .badge.ok { color: #04261e; background: var(--up); } .badge.bad { color: #fff; background: var(--dn); }
+  .empty { text-align: center; color: var(--mut); padding: 30px 10px; }
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); background: rgba(13,17,26,.97);
+         border-top: 1px solid var(--line); display: flex; gap: 8px; }
+  .bar .btn { flex: 1; }
+  .toast { position: fixed; left: 50%; bottom: 96px; transform: translateX(-50%); background: #222a3d; border: 1px solid var(--line); padding: 10px 14px; border-radius: 12px;
+           font-size: 13.5px; opacity: 0; transition: .25s; pointer-events: none; z-index: 9; max-width: 90%; }
+  .toast.on { opacity: 1; }
+  .warnbox { background: rgba(255,196,46,.08); border: 1px solid rgba(255,196,46,.35); color: #ffe199; border-radius: 12px; padding: 10px 12px; font-size: 13px; margin-bottom: 10px; }
+  .muted { color: var(--mut); }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="logo">CS</div><b>Chain Secrets Studio</b><small id="nextEp"></small></div>
+  <nav>
+    <button data-tab="new" class="on">✨ New</button>
+    <button data-tab="edit">📝 Editor</button>
+    <button data-tab="lib">📚 Library</button>
+  </nav>
+</header>
+<main>
+  <!-- NEW -->
+  <section id="tab-new" class="on">
+    <h2>Story</h2>
+    <div class="card">
+      <label for="topic">What is the Short about?</label>
+      <textarea id="topic" placeholder="e.g. QuadrigaCX: the CEO who took the passwords to his grave"></textarea>
+      <div class="help">A name, an event or a whole idea. The bot researches real headlines first.</div>
+    </div>
+    <div id="ideasWrap" style="display:none">
+      <h2>Ideas right now</h2>
+      <div class="chips" id="ideas"></div>
+    </div>
+    <h2>Settings</h2>
+    <div id="newSettings"></div>
+  </section>
+
+  <!-- EDITOR -->
+  <section id="tab-edit">
+    <div id="editEmpty" class="empty">Open a Short from the 📚 Library, or write a new one in ✨ New.</div>
+    <div id="editor" style="display:none">
+      <div class="status" id="statusBox"><span class="dot" id="statusDot"></span><span id="statusTxt">Draft</span><span class="muted" id="statusAgo" style="margin-left:auto;font-size:12px"></span></div>
+      <div id="problems"></div>
+      <div class="card">
+        <div class="row">
+          <div style="flex:0 0 84px"><label>Episode</label><input id="ep" type="number" inputmode="numeric"></div>
+          <div><label>Title</label><input id="title" maxlength="90"></div>
+        </div>
+        <div class="row" style="margin-top:4px">
+          <div><label>Tone</label><select id="tone"></select></div>
+          <div><label>Length</label><select id="length"></select></div>
+        </div>
+        <div class="help" id="lenHelp"></div>
+        <div style="margin-top:10px" class="est"><b id="estSecs">0s</b><span id="estTxt" class="muted"></span></div>
+      </div>
+      <div id="hooksWrap" style="display:none">
+        <h2>Other hooks</h2>
+        <div class="chips" id="hooks"></div>
+      </div>
+      <h2>Scenes</h2>
+      <div id="scenes"></div>
+      <button class="btn ghost" id="addScene" style="width:100%">＋ Add scene</button>
+      <h2>Chart</h2>
+      <div class="card" id="chartCard">
+        <div class="toggle"><span>Real price chart</span><label class="sw"><input type="checkbox" id="chartOn"><i></i></label></div>
+        <div id="chartFields" class="row">
+          <div><label>Coin</label><input id="chSym" placeholder="BTC" maxlength="8"></div>
+          <div><label>From</label><input id="chStart" type="date"></div>
+          <div><label>To</label><input id="chEnd" type="date"></div>
+        </div>
+        <div class="help">BTC, ETH, LTC and XRP history works back to 2011. No chart = the "every chart hides a story" line is skipped.</div>
+      </div>
+      <h2>Settings</h2>
+      <div id="jobSettings"></div>
+      <h2>Publish kit</h2>
+      <div class="card">
+        <label>Description</label><textarea id="desc" rows="4"></textarea>
+        <label>Hashtags</label><input id="tags">
+        <label>Pinned comment</label><input id="pinned">
+        <label>Name pronunciation (Name = how to say it, one per line)</label><textarea id="respell" rows="2" placeholder="Ulbricht = Ull-brick"></textarea>
+      </div>
+      <div class="row" style="margin-top:6px">
+        <button class="btn" id="btnSave">💾 Save draft</button>
+        <button class="btn" id="btnRewrite">🔄 Rewrite</button>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button class="btn" id="btnRetake">🎙 New voice take</button>
+        <button class="btn" id="btnRender">🎬 Make the video</button>
+      </div>
+      <div class="help" style="margin-top:10px">Sending closes the Studio: the bot answers in the chat, and the voice preview and the video arrive there too.</div>
+    </div>
+  </section>
+
+  <!-- LIBRARY -->
+  <section id="tab-lib">
+    <div id="libList"></div>
+  </section>
+</main>
+<div class="bar" id="bar"><button class="btn gold" id="mainBtn">✍️ Write the script</button></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* Chain Secrets Studio: a Telegram Mini App.
+   Reads: docs/studio/schema.json (settings), state/studio.json (jobs + ideas), jobs/<id>/storyboard.json + status.json (from the public repo).
+   Writes: Telegram.WebApp.sendData(JSON) -> the bot (message.web_app_data). Long payloads are deflate-compressed ("z:" + base64). */
+const REPO = 'fadishdeed42-spec/chain_radar';
+const tg = window.Telegram && window.Telegram.WebApp;
+const $ = (s, r = document) => r.querySelector(s);
+const el = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') e.className = v; else if (k === 'html') e.innerHTML = v;
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2), v); else if (v !== undefined && v !== null) e.setAttribute(k, v);
+  }
+  for (const k of kids.flat()) if (k !== null && k !== undefined) e.append(k.nodeType ? k : document.createTextNode(k));
+  return e;
+};
+const S = { schema: null, index: { jobs: {}, ideas: [], next_ep: '' }, tab: 'new', newSettings: {}, job: null, sb: null, status: {} };
+
+function toast(msg, ms = 2600) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), ms); }
+function haptic(kind = 'light') { try { tg && tg.HapticFeedback && tg.HapticFeedback.impactOccurred(kind); } catch (e) {} }
+
+async function gh(path) {
+  // fresh copy from the GitHub API (no CDN delay); raw CDN as a fallback when the hourly API limit is hit
+  const bust = 't=' + Date.now();
+  try {
+    const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}?ref=main&${bust}`, { headers: { Accept: 'application/vnd.github.raw+json' } });
+    if (r.ok) return await r.json();
+    if (r.status === 404) return null;
+  } catch (e) {}
+  try {
+    const r = await fetch(`https://raw.githubusercontent.com/${REPO}/main/${path}?${bust}`);
+    if (r.ok) return await r.json();
+  } catch (e) {}
+  return null;
+}
+
+/* ---------- settings controls drawn from the schema ---------- */
+function control(f, values, onchange) {
+  const v = values[f.key] !== undefined ? values[f.key] : f.default;
+  const wrap = el('div');
+  if (f.type === 'toggle') {
+    const inp = el('input', { type: 'checkbox' }); inp.checked = !!v;
+    inp.addEventListener('change', () => { values[f.key] = inp.checked; haptic(); onchange && onchange(f.key); });
+    wrap.append(el('div', { class: 'toggle' }, el('span', {}, f.label), el('label', { class: 'sw' }, inp, el('i'))));
+  } else if (f.type === 'choice') {
+    wrap.append(el('label', {}, f.label));
+    const seg = el('div', { class: 'seg' });
+    for (const [val, lab] of f.options) {
+      const b = el('button', { type: 'button', class: String(val) === String(v) ? 'on' : '' }, lab);
+      b.addEventListener('click', () => { values[f.key] = val; [...seg.children].forEach(c => c.classList.remove('on')); b.classList.add('on'); haptic(); onchange && onchange(f.key); });
+      seg.append(b);
+    }
+    wrap.append(seg);
+  } else {
+    wrap.append(el('label', {}, f.label));
+    const inp = el('input', { placeholder: f.placeholder || '' }); inp.value = v || '';
+    inp.addEventListener('input', () => { values[f.key] = inp.value; onchange && onchange(f.key); });
+    wrap.append(inp);
+  }
+  if (f.help) wrap.append(el('div', { class: 'help' }, f.help));
+  return wrap;
+}
+
+function settingsPanel(container, values, opts = {}) {
+  container.innerHTML = '';
+  for (const g of S.schema.groups) {
+    const fields = g.fields.filter(f => !(opts.skip || []).includes(f.key));
+    if (!fields.length) continue;
+    const d = el('details', g.id === 'story' && !opts.closed ? { open: '' } : {});
+    d.append(el('summary', {}, `${g.icon} ${g.label}`));
+    const body = el('div', { class: 'body' });
+    fields.forEach(f => body.append(control(f, values, opts.onchange)));
+    d.append(body); container.append(d);
+  }
+}
+
+/* ---------- tabs ---------- */
+function setTab(t) {
+  S.tab = t;
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.tab === t));
+  document.querySelectorAll('section').forEach(s => s.classList.toggle('on', s.id === 'tab-' + t));
+  updateMain(); window.scrollTo(0, 0);
+}
+document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => { haptic(); setTab(b.dataset.tab); if (b.dataset.tab === 'lib') loadIndex(); }));
+
+function updateMain() {
+  const m = $('#mainBtn'), bar = $('#bar');
+  bar.style.display = '';
+  if (S.tab === 'new') { m.textContent = '✍️ Write the script'; m.disabled = false; }
+  else if (S.tab === 'edit') {
+    if (!S.sb) { bar.style.display = 'none'; return; }
+    const st = (S.status.state || 'draft');
+    m.textContent = st === 'voice_running' || st === 'rendering' ? '⏳ Working… (tap to refresh)' : '🎙 Save & make the voice';
+  } else { m.textContent = '🔄 Refresh'; }
+}
+
+/* ---------- send to the bot ---------- */
+async function deflateB64(str) {
+  const cs = new CompressionStream('deflate-raw');
+  const buf = await new Response(new Blob([new TextEncoder().encode(str)]).stream().pipeThrough(cs)).arrayBuffer();
+  let bin = ''; new Uint8Array(buf).forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin);
+}
+async function send(payload) {
+  let data = JSON.stringify(payload);
+  if (data.length > 900 && 'CompressionStream' in window) {
+    try { data = 'z:' + await deflateB64(data); } catch (e) {}
+  }
+  if (data.length > 4096) { toast('Too long to send: shorten some lines or the description.'); return false; }
+  if (!tg || !tg.sendData || !tg.initData) { toast('Open the Studio from the 🎬 Studio button in the bot chat to send.'); console.log('payload', payload); return false; }
+  haptic('medium');
+  tg.sendData(data);   // Telegram closes the Studio and delivers this to the bot
+  return true;
+}
+
+/* ---------- NEW ---------- */
+function drawNew() {
+  settingsPanel($('#newSettings'), S.newSettings, {});
+  const ideas = (S.index.ideas || []).slice(0, 12);
+  $('#ideasWrap').style.display = ideas.length ? '' : 'none';
+  const box = $('#ideas'); box.innerHTML = '';
+  ideas.forEach(i => box.append(el('button', { class: 'chip', type: 'button', onclick: () => { $('#topic').value = i.title; haptic(); toast('Idea added. Check the settings, then write the script.'); } },
+    i.title, el('small', {}, i.kind || ''))));
+}
+async function submitNew() {
+  const topic = $('#topic').value.trim();
+  if (topic.length < 3) { toast('Write what the Short is about first.'); $('#topic').focus(); return; }
+  await send({ a: 'new', topic, settings: S.newSettings });
+}
+
+/* ---------- EDITOR ---------- */
+const STATE_TXT = { draft: ['Draft · not recorded yet', ''], voice_running: ['Recording the voice…', 'run'], voice_ready: ['Voice ready · check the audio in the chat', 'ok'],
+                    rendering: ['Making the video…', 'run'], done: ['Video done · it is in the chat', 'ok'], failed: ['Something failed · try again', 'bad'] };
+const LEN = { 30: [62, 82], 45: [98, 120], 60: [135, 165], 90: [205, 245], 120: [280, 330] };
+const norm = w => w.replace(/[^\w$%]/g, '').toLowerCase();
+
+function spokenCount(line) {
+  // rough count of spoken words: numbers become several words ("$4,000" -> "four thousand dollars")
+  let n = 0;
+  for (const tok of line.split(/\s+/).filter(Boolean)) {
+    const d = tok.replace(/[^\d]/g, '');
+    if (!d) { n += /^[A-Z]{2,4}[.,!?]*$/.test(tok) ? Math.min(4, tok.replace(/\W/g, '').length) : 1; continue; }
+    n += Math.min(7, 1 + Math.ceil(d.replace(/^0+/, '').length / 1.5)) + (/[$%]/.test(tok) ? 1 : 0);
+  }
+  return n;
+}
+function estimate() {
+  if (!S.sb) return;
+  const words = S.sb.scenes.reduce((a, s) => a + spokenCount(s.line || ''), 0);
+  const secs = Math.round(words / 2.85 + S.sb.scenes.length * .4 + 3);
+  const L = Number(S.sb.length || 45), [lo, hi] = LEN[L] || LEN[45];
+  const cls = words < lo * .85 || words > hi * 1.2 ? 'bad' : (words < lo || words > hi ? 'warn' : 'ok');
+  $('#estSecs').textContent = `~${secs}s`; $('#estSecs').className = cls;
+  $('#estTxt').textContent = `${words} spoken words · target ${lo}–${hi} for ${L}s`;
+}
+
+function visFields(scene, box) {
+  const v = scene.visual; box.innerHTML = '';
+  const types = S.schema.visuals;
+  const sel = el('select');
+  for (const [k, d] of Object.entries(types)) sel.append(el('option', { value: k }, d.label));
+  sel.value = v.type in types ? v.type : 'title';
+  sel.addEventListener('change', () => { scene.visual = { type: sel.value }; visFields(scene, box); haptic(); });
+  box.append(el('label', {}, '🎨 What the viewer sees'), sel);
+  const grid = el('div', { class: 'grid' });
+  for (const [key, lab] of (types[v.type] || types.title).fields) {
+    const cellCls = ['text', 'label', 'event', 'note', 'items'].includes(key) ? 'full' : '';
+    const cell = el('div', { class: cellCls });
+    cell.append(el('label', {}, lab));
+    let inp;
+    if (key === 'icon') {
+      inp = el('select'); inp.append(el('option', { value: '' }, '—'));
+      S.schema.icons.forEach(i => inp.append(el('option', { value: i }, i)));
+      inp.value = v.icon || '';
+      inp.addEventListener('change', () => { v.icon = inp.value || undefined; });
+    } else if (key === 'prop') {
+      inp = el('select'); S.schema.props.forEach(p => inp.append(el('option', { value: p }, p)));
+      inp.value = v.prop || 'none'; inp.addEventListener('change', () => { v.prop = inp.value; });
+    } else if (key === 'items') {
+      inp = el('textarea', { rows: 3 }); inp.value = (v.items || []).join('\n');
+      inp.addEventListener('input', () => { v.items = inp.value.split('\n').map(x => x.trim()).filter(Boolean).slice(0, 4); });
+    } else if (key === 'left' || key === 'right') {
+      inp = el('input', { placeholder: 'THEN, $5,736' }); inp.value = (v[key] || []).join(', ');
+      inp.addEventListener('input', () => { const p = inp.value.split(','); v[key] = [p[0] ? p[0].trim() : '', p.slice(1).join(',').trim()]; });
+    } else {
+      inp = el('input', { type: key === 'date' ? 'date' : 'text', inputmode: key === 'value' || key === 'day' ? 'decimal' : undefined });
+      inp.value = v[key] !== undefined ? v[key] : '';
+      inp.addEventListener('input', () => { v[key] = key === 'value' ? inp.value.replace(/[^\d.\-]/g, '') : inp.value; });
+    }
+    cell.append(inp); grid.append(cell);
+  }
+  box.append(grid);
+}
+
+function hitSelect(scene, sel) {
+  const words = (scene.line || '').split(/\s+/).map(norm).filter(Boolean);
+  sel.innerHTML = '';
+  [...new Set(words)].forEach(w => sel.append(el('option', { value: w }, w)));
+  if (!words.includes(scene.hit)) scene.hit = (words.find(w => /\d/.test(w)) || words[Math.floor(words.length / 2)] || '');
+  sel.value = scene.hit;
+}
+
+function drawScenes() {
+  const box = $('#scenes'); box.innerHTML = '';
+  S.sb.scenes.forEach((s, i) => {
+    const card = el('div', { class: 'card scene' });
+    const role = el('select'); S.schema.roles.forEach(r => role.append(el('option', { value: r }, r))); role.value = s.role || 'setup';
+    role.addEventListener('change', () => s.role = role.value);
+    const tools = el('div', { class: 'tools' },
+      el('button', { type: 'button', title: 'Up', onclick: () => move(i, -1) }, '↑'),
+      el('button', { type: 'button', title: 'Down', onclick: () => move(i, 1) }, '↓'),
+      el('button', { type: 'button', title: 'Delete', onclick: () => { if (S.sb.scenes.length <= 3) return toast('A Short needs at least 3 scenes.'); S.sb.scenes.splice(i, 1); drawScenes(); estimate(); haptic(); } }, '✕'));
+    card.append(el('div', { class: 'top' }, el('div', { class: 'num' }, i + 1), role, tools));
+    const line = el('textarea', { rows: 2 }); line.value = s.line || '';
+    const meta = el('div', { class: 'meta' });
+    const hit = el('select', { style: 'width:auto;padding:4px 6px;font-size:12px' });
+    const upd = () => { meta.firstChild.textContent = `${spokenCount(line.value)} spoken words`; };
+    line.addEventListener('input', () => { s.line = line.value; upd(); hitSelect(s, hit); estimate(); });
+    hit.addEventListener('change', () => s.hit = hit.value);
+    meta.append(el('span', {}, ''), el('span', {}, 'punch on: ', hit));
+    card.append(line, meta);
+    hitSelect(s, hit); upd();
+    const vbox = el('div', { class: 'vis' }); visFields(s, vbox); card.append(vbox);
+    box.append(card);
+  });
+}
+function move(i, d) {
+  const j = i + d, a = S.sb.scenes; if (j < 0 || j >= a.length) return;
+  [a[i], a[j]] = [a[j], a[i]]; drawScenes(); haptic();
+}
+$('#addScene').addEventListener('click', () => {
+  const n = S.sb.scenes.length; const role = n ? 'payoff' : 'hook';
+  S.sb.scenes.splice(Math.max(0, n - 1), 0, { role, line: '', hit: '', visual: { type: 'title', text: '' } });
+  drawScenes(); estimate(); haptic();
+  setTimeout(() => { const t = $('#scenes').children[Math.max(0, n - 1)]; t && t.scrollIntoView({ behavior: 'smooth', block: 'center' }); t && t.querySelector('textarea').focus(); }, 50);
+});
+
+function readEditor() {
+  const sb = S.sb;
+  sb.title = $('#title').value.trim(); sb.ep = Number($('#ep').value) || sb.ep;
+  sb.tone = $('#tone').value; sb.length = Number($('#length').value);
+  sb.description = $('#desc').value; sb.hashtags = $('#tags').value; sb.pinned = $('#pinned').value;
+  sb.respell = {}; $('#respell').value.split('\n').forEach(l => { const p = l.split('='); if (p.length === 2 && p[0].trim() && p[1].trim()) sb.respell[p[0].trim()] = p[1].trim(); });
+  if ($('#chartOn').checked) {
+    const sym = ($('#chSym').value || 'BTC').toUpperCase().replace(/[^A-Z0-9]/g, '');
+    if ($('#chStart').value && $('#chEnd').value) sb.chart = { symbol: sym, start: $('#chStart').value, end: $('#chEnd').value };
+    else { toast('Set the chart dates, or switch the chart off.'); return null; }
+  } else sb.chart = null;
+  sb.settings = S.jobSettings; sb.settings.length = sb.length; sb.settings.tone = sb.tone;
+  for (const [i, s] of sb.scenes.entries()) {
+    if (!(s.line || '').trim()) { toast(`Scene ${i + 1} has no line.`); return null; }
+    if (s.visual.type === 'chart' && !sb.chart) { toast(`Scene ${i + 1} shows a chart but the chart is off.`); return null; }
+  }
+  return sb;
+}
+
+function drawEditor() {
+  const sb = S.sb;
+  $('#editEmpty').style.display = sb ? 'none' : ''; $('#editor').style.display = sb ? '' : 'none';
+  if (!sb) return updateMain();
+  const st = S.status.state || 'draft', [txt, cls] = STATE_TXT[st] || [st, ''];
+  $('#statusDot').className = 'dot ' + cls; $('#statusTxt').textContent = txt;
+  $('#statusAgo').textContent = S.status.t ? ago(S.status.t) : '';
+  $('#problems').innerHTML = (S.status.error ? `<div class="warnbox">⚠️ ${esc(S.status.error)}</div>` : '') + (sb._note ? `<div class="warnbox">${esc(sb._note)}</div>` : '');
+  $('#ep').value = sb.ep || ''; $('#title').value = sb.title || '';
+  const tone = $('#tone'); tone.innerHTML = '';
+  [['funny', '😂 Funny'], ['mystery', '🕵️ Mystery'], ['serious', '⚠️ Serious'], ['hype', '🔥 Hype']].forEach(([v, l]) => tone.append(el('option', { value: v }, l)));
+  tone.value = sb.tone || 'mystery';
+  const len = $('#length'); len.innerHTML = '';
+  S.schema.groups[0].fields[0].options.forEach(([v, l]) => len.append(el('option', { value: v }, l)));
+  len.value = sb.length || 45; S._origLen = Number(len.value);
+  len.onchange = () => { sb.length = Number(len.value); estimate(); $('#lenHelp').textContent = Number(len.value) !== S._origLen ? 'Tap 🔄 Rewrite to rewrite the script for this length.' : ''; };
+  $('#lenHelp').textContent = '';
+  const alts = (sb.alt_hooks || []).filter(h => h && h !== sb.scenes[0].line);
+  $('#hooksWrap').style.display = alts.length ? '' : 'none';
+  const hk = $('#hooks'); hk.innerHTML = '';
+  alts.forEach(h => hk.append(el('button', { class: 'chip', type: 'button', onclick: () => { sb.scenes[0].line = h; drawScenes(); estimate(); toast('Hook replaced.'); haptic(); } }, h)));
+  drawScenes();
+  const on = !!sb.chart; $('#chartOn').checked = on; $('#chartFields').style.display = on ? '' : 'none';
+  $('#chSym').value = on ? sb.chart.symbol : 'BTC'; $('#chStart').value = on ? sb.chart.start : ''; $('#chEnd').value = on ? sb.chart.end : '';
+  S.jobSettings = Object.assign({}, sb.settings || {});
+  settingsPanel($('#jobSettings'), S.jobSettings, { skip: ['length', 'tone', 'chart'], closed: true });
+  $('#desc').value = sb.description || ''; $('#tags').value = sb.hashtags || ''; $('#pinned').value = sb.pinned || '';
+  $('#respell').value = Object.entries(sb.respell || {}).map(([k, v]) => `${k} = ${v}`).join('\n');
+  const rendered = ['voice_ready', 'done', 'failed'].includes(st) || S.status.secs;
+  $('#btnRender').disabled = !rendered; $('#btnRetake').disabled = !rendered;
+  estimate(); updateMain();
+}
+$('#chartOn').addEventListener('change', () => { $('#chartFields').style.display = $('#chartOn').checked ? '' : 'none'; haptic(); });
+
+async function openJob(id) {
+  toast('Loading…', 1200);
+  const [sb, st] = await Promise.all([gh(`jobs/${id}/storyboard.json`), gh(`jobs/${id}/status.json`)]);
+  if (!sb) { toast('Could not load that Short yet. Try again in a few seconds.'); return; }
+  S.job = id; S.sb = sb; S.status = st || {}; S.sb.scenes = S.sb.scenes || [];
+  drawEditor(); setTab('edit');
+}
+
+$('#btnSave').addEventListener('click', async () => { const sb = readEditor(); if (sb) await send({ a: 'save', id: S.job, sb }); });
+$('#btnRewrite').addEventListener('click', async () => {
+  const sb = readEditor(); if (!sb) return;
+  await send({ a: 'rewrite', id: S.job, tone: sb.tone, length: sb.length, settings: sb.settings });
+});
+$('#btnRetake').addEventListener('click', async () => { const sb = readEditor(); if (sb) await send({ a: 'retake', id: S.job, sb }); });
+$('#btnRender').addEventListener('click', async () => { await send({ a: 'render', id: S.job }); });
+
+/* ---------- LIBRARY ---------- */
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function ago(t) { const m = Math.round((Date.now() / 1000 - t) / 60); return m < 1 ? 'just now' : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} d ago`; }
+const BADGE = { draft: ['Draft', ''], voice_running: ['Voice…', 'run'], voice_ready: ['Voice ready', 'ok'], rendering: ['Video…', 'run'], done: ['Done', 'ok'], failed: ['Failed', 'bad'] };
+function drawLib() {
+  const box = $('#libList'); box.innerHTML = '';
+  const jobs = Object.entries(S.index.jobs || {}).sort((a, b) => (b[1].t || 0) - (a[1].t || 0));
+  if (!jobs.length) { box.append(el('div', { class: 'empty' }, 'No Shorts yet. Write your first one in ✨ New.')); return; }
+  for (const [id, j] of jobs) {
+    const [bt, bc] = BADGE[j.state] || [j.state || 'Draft', ''];
+    box.append(el('div', { class: 'card lib', onclick: () => { haptic(); openJob(id); } },
+      el('div', { class: 'ep' }, j.ep ? '#' + j.ep : '—'),
+      el('div', { style: 'min-width:0' }, el('div', { class: 't' }, j.title || 'Untitled'),
+        el('div', { class: 's' }, `${j.length || 45}s · ${j.tone || ''} · ${ago(j.t || 0)}`)),
+      el('span', { class: 'badge ' + bc }, bt)));
+  }
+}
+
+async function loadIndex() {
+  const idx = await gh('state/studio.json');
+  if (idx) S.index = idx;
+  $('#nextEp').textContent = S.index.next_ep ? `next #${S.index.next_ep}` : '';
+  drawLib(); if (S.tab === 'new') drawNew();
+}
+
+/* ---------- main button ---------- */
+$('#mainBtn').addEventListener('click', async () => {
+  if (S.tab === 'new') return submitNew();
+  if (S.tab === 'lib') { await loadIndex(); return toast('Library refreshed.'); }
+  if (S.tab === 'edit' && S.sb) {
+    const st = S.status.state;
+    if (st === 'voice_running' || st === 'rendering') { await openJob(S.job); return; }
+    const sb = readEditor(); if (sb) await send({ a: 'voice', id: S.job, sb });
+  }
+});
+
+/* ---------- start ---------- */
+(async function start() {
+  if (tg) { tg.ready(); tg.expand(); try { tg.setHeaderColor('#0d111a'); tg.setBackgroundColor('#0d111a'); } catch (e) {} }
+  try { S.schema = await (await fetch('schema.json?t=' + Date.now())).json(); }
+  catch (e) { S.schema = await gh('docs/studio/schema.json'); }
+  for (const g of S.schema.groups) for (const f of g.fields) S.newSettings[f.key] = f.default;
+  drawNew(); updateMain();
+  await loadIndex();
+  const q = new URLSearchParams(location.search);
+  if (q.get('job')) openJob(q.get('job'));
+  else if (q.get('tab')) setTab(q.get('tab'));
+})();
+</script>
+</body>
+</html>

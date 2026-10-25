@@ -1,55 +1,0 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
-  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
-loaded PerthNet (Implicit) at step 250,000
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
-  self.gen = func(*args, **kwds)
-`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
-WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
-Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  1%|          | 6.62M/1.18G [00:00<00:18, 69.4MB/s]  4%|▍         | 46.4M/1.18G [00:00<00:04, 273MB/s]   6%|▌         | 72.6M/1.18G [00:00<00:04, 274MB/s]  8%|▊         | 101M/1.18G [00:00<00:04, 282MB/s]  11%|█         | 128M/1.18G [00:00<00:04, 276MB/s] 13%|█▎        | 155M/1.18G [00:00<00:03, 279MB/s] 15%|█▌        | 184M/1.18G [00:00<00:03, 287MB/s] 18%|█▊        | 217M/1.18G [00:00<00:03, 307MB/s] 21%|██▏       | 256M/1.18G [00:00<00:02, 339MB/s] 24%|██▍       | 294M/1.18G [00:01<00:02, 354MB/s] 27%|██▋       | 328M/1.18G [00:01<00:02, 342MB/s] 30%|██▉       | 360M/1.18G [00:01<00:02, 303MB/s] 32%|███▏      | 390M/1.18G [00:01<00:02, 295MB/s] 35%|███▍      | 419M/1.18G [00:01<00:02, 290MB/s] 37%|███▋      | 448M/1.18G [00:01<00:02, 295MB/s] 41%|████      | 488M/1.18G [00:01<00:02, 329MB/s] 44%|████▎     | 524M/1.18G [00:01<00:02, 343MB/s] 46%|████▋     | 557M/1.18G [00:01<00:02, 331MB/s] 50%|████▉     | 596M/1.18G [00:01<00:01, 353MB/s] 53%|█████▎    | 634M/1.18G [00:02<00:01, 368MB/s] 56%|█████▌    | 670M/1.18G [00:02<00:01, 343MB/s] 59%|█████▊    | 705M/1.18G [00:02<00:01, 351MB/s] 61%|██████▏   | 740M/1.18G [00:02<00:01, 355MB/s] 64%|██████▍   | 774M/1.18G [00:02<00:01, 343MB/s] 67%|██████▋   | 807M/1.18G [00:02<00:01, 312MB/s] 70%|██████▉   | 838M/1.18G [00:02<00:01, 292MB/s] 72%|███████▏  | 866M/1.18G [00:02<00:01, 287MB/s] 74%|███████▍  | 894M/1.18G [00:03<00:01, 290MB/s] 77%|███████▋  | 922M/1.18G [00:03<00:01, 280MB/s] 79%|███████▉  | 949M/1.18G [00:03<00:00, 278MB/s] 81%|████████  | 977M/1.18G [00:03<00:00, 283MB/s] 84%|████████▍ | 0.99G/1.18G [00:03<00:00, 319MB/s] 88%|████████▊ | 1.03G/1.18G [00:03<00:00, 346MB/s] 91%|█████████▏| 1.07G/1.18G [00:03<00:00, 379MB/s] 95%|█████████▍| 1.11G/1.18G [00:03<00:00, 397MB/s] 98%|█████████▊| 1.15G/1.18G [00:03<00:00, 397MB/s]100%|██████████| 1.18G/1.18G [00:03<00:00, 323MB/s]
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
-  self.gen = func(*args, **kwds)
-json 630687c875f9
-   take 1: score -0.57  wer 0.10  end +0.0st  3.4w/s  heard: Prosecutors say he paid $80,000 for a murder, and the hitman was a cop
-   take 2: score -0.56  wer 0.10  end +0.0st  3.3w/s  heard: Prosecutors say he paid $80,000 for a murder, and the hitman was a cop
-scene 1: 4.79s ex 0.72
-   take 1: score -0.51  wer 0.12  end +0.0st  3.0w/s  heard: Ross Ulbrick ran Silk Road, the biggest dark web market on Earth.
-   take 2: score -0.59  wer 0.12  end +0.0st  3.3w/s  heard: Russell Brick ran Silk Road, the biggest dark web market on Earth.
-scene 2: 3.94s ex 0.6
-   take 1: score +1.69  wer 0.07  end -3.7st  3.1w/s  heard: He believed a worker stole his Bitcoin, so he hired a hitman called No
-   take 2: score -0.84  wer 0.07  end +0.0st  4.0w/s  heard: He believed a worker stole his Bitcoin, so he hired a hitman called Kn
-scene 3: 4.58s ex 0.66
-   take 1: score +1.08  wer 0.21  end -3.6st  3.0w/s  heard: Not was a DEA agent.  The photos were staged.  The victim was alive.
-   take 2: score -1.10  wer 0.21  end +2.7st  3.1w/s  heard: knob was a DEA agent, the photos were staged, the victim was alive.
-   take 3: score -1.28  wer 0.21  end +3.1st  2.8w/s  heard: Knob was a DEA agent, the photos were staged, the victim was alive.
-scene 4: 5.02s ex 0.85
-   take 1: score -1.25  wer 0.31  end +0.0st  3.1w/s  heard: On October 2, 2013, the FBI shut Silk Road down and Bitcoin crashed to
-   take 2: score -1.53  wer 0.31  end +0.0st  2.6w/s  heard: On October 2, 2013, the FBI shut Silk Road down and Bitcoin crashed to
-scene 5: 6.14s ex 0.72
-   take 1: score -0.73  wer 0.00  end +0.0st  3.8w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
-   take 2: score -0.61  wer 0.00  end +0.0st  3.6w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
-   take 3: score -0.56  wer 0.00  end +0.0st  3.5w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
-   take 4: score -0.85  wer 0.00  end +0.0st  4.0w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
-   take 5: score -0.71  wer 0.00  end +0.0st  3.8w/s  heard: He got life in prison.  And the agent who stole the coins, he went to 
-   take 6: score -0.78  wer 0.00  end -0.5st  3.9w/s  heard: He got life in prison, and the agent who stole the coins, he went to p
-scene 6: 4.80s ex 0.55 END
-   take 1: score -0.27  wer 0.00  end +0.0st  2.6w/s  heard: Follow Chain Secrets.  Every chart hides a story.
-   take 2: score -0.81  wer 0.12  end +0.0st  2.6w/s  heard: Followed chain secrets.  Every chart hides a story.
-scene 7: 3.02s ex 0.7
-34.57s, force-aligned 101 words
-liampace -> jobs/test1/voicep.wav
-rate x1.00 gap 0.40 | Prosecutors say he paid eighty thousand dollars for a murder... and the hitman was a cop.
-rate x1.00 gap 0.40 | Ross Ull-brick ran Silk Road, the biggest dark web market on Earth.
-rate x1.00 gap 0.40 | He believed a worker stole his bitcoin, so he hired a hitman called Nob.
-rate x1.00 gap 0.40 | Nob was a D E A agent.
-rate x1.00 gap 0.40 | The photos were staged.
-rate x1.00 gap 0.40 | The victim was alive.
-rate x1.00 gap 0.40 | On October second, twenty thirteen, the F B I shut Silk Road down and bitcoin crashed to eighty-five dollars.
-rate x1.00 gap 0.40 | He got life in prison.
-rate x1.00 gap 0.40 | And the agent who stole the coins?
-rate x1.00 gap 0.60 | He went to prison too.
-rate x1.00 gap 0.40 | Follow Chain Secrets.
-rate x1.00 gap 0.40 | Every chart hides a story.
-total 35.37s (was 34.57s)
-
