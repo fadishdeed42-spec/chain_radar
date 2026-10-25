@@ -272,7 +272,7 @@
 "srcs": [
 "CryptoTicker"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792866255.0,
 "tgtext": "",
 "title": "Avalanche (AVAX): In-Kind From $235,800",
@@ -745,7 +745,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792872648.0,
 "tgtext": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access\n\nKeystone Hardware Wallet confirmed that a third party obtained customer shipping and order information following unauthorized access to its official website. The incident was detected on October 20, with the data exposure confirmed on October 23 after reviewing API activity with Shopify. Exposed information included names, contact details, shipping addresses, purchased items, and prices. Payment card and bank details, recovery phrases, private keys, and wallet passwords were not exposed. Keystone said it has blocked the access, fixed the vulnerability, and is notifying affected customers. It also warned of impersonation scams involving fake refunds, replacement devices, or order fixes. \u2014 link",
 "title": "Keystone Confirms Customer Data Exposure Following Unauthorized Website Access",
@@ -803,7 +803,7 @@
 "TOKENPOST",
 "The Cryptonomist"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792870336.0,
 "tgtext": "",
 "title": "X100's Ethereum exploit drains $4.85M USDT and 550,000 X tokens after governance takeover",
@@ -1379,7 +1379,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792873837.0,
 "tgtext": "\ud83d\udd25 LATEST: Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.\n\nMemecoins are printing again. \n\nNews | Markets | YouTube",
 "title": "Pump.fun just out-earned Hyperliquid, pulling in $1.98M in 24 hours to Hyperliquid's $1.96M.",
@@ -1880,7 +1880,7 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1792886528.5832963,
+"t": 1792887681.6115475,
 "t0": 1792875600.0,
 "tgtext": "",
 "title": "Ripple\u2019s XRP Is 65% Below Its Record High. Where Could It Be in 10 Years?",
@@ -2424,7 +2424,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792870812.0,
 "tgtext": "",
 "title": "Machi\u2019s Account Was Down to About $5,000 After Five Liquidations",
@@ -2486,7 +2486,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792872046.0,
 "tgtext": "",
 "title": "Circle\u2019s new USDC auctions let institutions collect the fees others pay to cash out",
@@ -2527,7 +2527,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792869327.0,
 "tgtext": "",
 "title": "Ether Long Liquidations Reach $38.12 Million in One Hour",
@@ -2874,7 +2874,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1792887065.8207345,
+"t": 1792887681.6115475,
 "t0": 1792869497.0,
 "tgtext": "",
 "title": "NEAR Protocol Sees $11.65 Million in Long Liquidations in One Hour",
@@ -3259,7 +3259,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792883478.5695488,
+"t": 1792887681.6115475,
 "t0": 1792881112.0,
 "tgtext": "\ud83d\udd25 BIG: Morgan Stanley is backing a $400M credit line for TeraWulf, up 60% from $250M.\n\nThe miner turned AI data center play keeps getting Wall Street money.\n\nNews | Markets | YouTube",
 "title": "BIG: Morgan Stanley is backing a $400M credit line for TeraWulf, up 60% from $250M.",
@@ -3301,15 +3301,13 @@
 "probs": {
 "0389e4023e98": 0.081,
 "102156a88d27": 0.111,
-"26819dca80cf": 0.096,
 "380b94a50c1b": 0.263,
 "3caaaaca6d2a": 0.135,
-"4f9c8111add8": 0.101,
 "5542e87dc111": 0.004,
-"61cca061c1ab": 0.08,
+"55dd8b4f3c14": 0.019,
+"61cca061c1ab": 0.043,
 "63fa93cab221": 0.134,
-"68a2b3f8b9aa": 0.065,
-"6d271d581295": 0.044,
+"68a2b3f8b9aa": 0.069,
 "6d75c875c7db": 0.009,
 "7165dd656d7e": 0.045,
 "7608df76ed23": 0.016,
@@ -3321,7 +3319,7 @@
 "97cfe457d354": 0.039,
 "9a540a5ae19b": 0.038,
 "a0b1a45edc7c": 0.034,
-"a0caf982ed31": 0.004,
+"a0caf982ed31": 0.007,
 "b2ba2e27dbc6": 0.015,
 "bb4145366137": 0.355,
 "c0b8bdef44f4": 0.129,
@@ -3330,9 +3328,10 @@
 "c108e1798c25": 0.1,
 "c6f5849ab81c": 0.018,
 "c9abf2248f9b": 0.045,
-"d4ba23e7896e": 0.008,
+"d532e52f9d26": 0.015,
 "d995da648ec1": 0.228,
 "de06e5511a53": 0.058,
+"df1229393aad": 0.084,
 "e9a2cbbef3ea": 0.061,
 "eca83951efe0": 0.063,
 "ef5f4763899e": 0.034,
@@ -4142,64 +4141,64 @@
 "top": [
 [
 "bb4145366137",
-13,
-271,
+12,
+281,
 1
 ],
 [
 "380b94a50c1b",
-2,
-240,
+1,
+251,
 1
 ],
 [
 "d995da648ec1",
-26,
-293,
+25,
+303,
 2
 ],
 [
 "3caaaaca6d2a",
-58,
-279,
+57,
+289,
 4
 ],
 [
 "63fa93cab221",
-11,
-220,
+10,
+231,
 1
 ],
 [
 "c0b8bdef44f4",
-1,
-250,
+0,
+261,
 1
 ],
 [
 "102156a88d27",
 0,
-347,
-1
-],
-[
-"4f9c8111add8",
-20,
-356,
+357,
 1
 ],
 [
 "c108e1798c25",
-16,
-296,
+15,
+306,
 1
 ],
 [
-"26819dca80cf",
-0,
-356,
+"8d5b2c011a89",
+20,
+201,
+1
+],
+[
+"fbddbff31f53",
+16,
+109,
 1
 ]
 ],
-"top_at": 1792887065.8207345
+"top_at": 1792887681.6115475
 }
