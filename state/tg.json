@@ -462,6 +462,38 @@
 },
 "t": 1792858579.589717
 },
+"a5850ded60": {
+"coin": "",
+"facts": "Headline: Crypto News Today: Initia Halts L1 and Rollups After Suspected\nSources: KuCoin, openPR.com\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "openPR.com",
+"story": null,
+"t0": 1792926654.0,
+"tag": null,
+"title": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
+"url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZlZzUWoyU09teHlTVUtBY04yZDBKQ3E5MUE2Y0lsdjBza21mNnV2aG50bFhra0U5bU8xZVhIak0zRllWU210eFZwYjYyVmJJSTRQanhWRFZ4VU5iaVRhbEtMRFVnS3BvLXV3bXE1b1dUT2VpSjFZcUg3MVU0NVJucUhZN3paSlppWWdKVFRSdm5CaktHd1pFX3h3VVctUQ?oc=5"
+},
+"p": {
+"keyfact": "Initia reportedly halted its Layer 1 network and rollups following a suspected security incident.",
+"post": "Crypto security alert today. Initia reportedly halted its Layer 1 network and rollups following a suspected security incident. The network pause highlights how quickly teams respond when vulnerabilities emerge. #Initia",
+"quote": "NONE",
+"reply": "Security teams moving fast today.",
+"short": "",
+"stat": "1 = Layer 1 halted | Initia network status",
+"symbol": "NONE",
+"tag": "BREAKING",
+"thread": "",
+"timeline": "Today = Initia halts L1 and rollups ; Today = Suspected security incident reported ; Today = Investigation ongoing by team",
+"title": "Initia halts L1 and rollups",
+"versus": "Network Status = Running || Current Status = Halted",
+"visual": "ALERT"
+},
+"t": 1792927564.1788967
+},
 "a992bb40a5": {
 "coin": "bitcoin",
 "facts": "Headline: BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing\nSources: CryptoPotato, CryptoRank\nCoin in this story: Bitcoin (BTC) $82,645, +0.8% in 24h\n\n",
@@ -524,34 +556,6 @@
 "visual": "STAT"
 },
 "t": 1792602491.2219198
-},
-"b9149914f5": {
-"coin": "bitcoin",
-"facts": "Headline: Swiss regulator FINMA approves country\u2019s first spot bitcoin ETF for retail investors\nSources: The Block, The Defiant, TradingView\n\nArticle text:\nGet The Block\u2019s latest crypto news and price alerts for the coins you follow, right in Chrome. Add our free extension here. Swiss regulator FINMA approves country's first spot bitcoin ETF for retail investorsSwitzerland already has bitcoin exchange-traded products, but the newly approved ETF falls under a different regulatory framework for investment funds. ShareQuick Take\n\nSwitzerland\u2019s financial regulator FINMA has approved its first retail ETF that invests directly in bitcoin, with other fund providers also seeking approval.\nFINMA made an exception to its diversification rules for the bitcoin ETF and outlined safeguards for custody, operational risks, and investor disclosures.\n\nSwitzerland's financial regulator FINMA has approved the country's first spot bitcoin exchange-traded fund for retail investors, allowing a fund to invest directly in the cryptocurrency under Swiss investment fund rules. The Swiss Financial Market Supervisory Authority said Tuesday that the ETF falls into the category of \"other funds for alternative investments\" with a specific risk under Swiss law. Bitcoin Bitcoin (BTC) has a longer trading history and much higher trading volumes than most other cryptocurrencies, FINMA said, which allowed it to make an exception to the rules requiring funds to diversify their investments. Other fund providers have also submitted or announced applications for bitcoin ETFs, the regulator said. Switzerland is no stranger to exchange-traded crypto investments. The SIX Swiss Exchange has listed bitcoin exchange-traded products (ETPs) for years, including a bitcoin and ether product launched in 2019. FINMA also authorized a crypto fund for qualified investors in 2021. Existing Swiss bitcoin ETPs are debt securities, rather than investment funds. FINMA's newly approved ETF falls under Swiss fund law, with rules covering custody, operational risks, and investor disclosures. A FINMA spokesperson declined to identify the approved fund or its issuer when contacted by The Block, saying it does not provide institution-specific information. FINMA's January guidance set out the operational and custody risks associated with crypto investments. FINMA said supervised institutions must take measures to mitigate those risks and clearly explain them in fund documents, with the Financial Services Act rules of conduct applying when the ETF is sold. FINMA said approving the ETF does not change the risks of investing in bitcoin. The cryptocurrency remains highly volatile, and investors could lose a significant portion of their money, it said.\n",
-"item": {
-"hack": null,
-"src": "The Block",
-"t0": 1792491273.0,
-"tag": null,
-"title": "Swiss regulator FINMA approves country\u2019s first spot bitcoin ETF for retail investors",
-"url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127"
-},
-"p": {
-"keyfact": "Switzerland\u2019s FINMA approved its first spot bitcoin ETF for retail investors.",
-"post": "Switzerland just cleared its first spot bitcoin ETF for retail investors. FINMA granted the approval under alternative investment fund rules, making an exception for bitcoin due to its volume. The mystery issuer wasn't named, but the green light is on. #Bitcoin",
-"quote": "NONE",
-"reply": "Spot bitcoin ETF approval in Switzerland sets a brand new regulatory standard for European retail investors.",
-"short": "",
-"stat": "1ST | Switzerland spot BTC ETF",
-"symbol": "BTC",
-"tag": "ETF",
-"thread": "1/ Switzerland's financial regulator FINMA has reportedly approved the country's first spot bitcoin exchange-traded fund for retail investors.\n2/ The newly approved fund falls under Swiss investment fund rules rather than existing debt security ETPs.\n3/ FINMA reportedly made an exception to diversification rules for bitcoin due to its high trading volume and history.\n4/ While the green light is on, the regulator declined to name the approved fund or its issuer when contacted.",
-"timeline": "2019 = SIX Swiss Exchange lists bitcoin ETPs ; 2021 = FINMA authorizes crypto fund for qualified investors ; Jan = FINMA issues guidance on crypto custody and risks ; Tuesday = FINMA approves first spot bitcoin ETF for retail",
-"title": "Swiss FINMA Approves First Spot Bitcoin ETF",
-"versus": "ETPs = Debt securities || New ETF = Investment fund",
-"visual": "STAT"
-},
-"t": 1792500321.4778628
 },
 "c317cc2405": {
 "coin": "",
@@ -995,7 +999,7 @@
 },
 "menu_v": 4,
 "mute_until": 1792902190.2352862,
-"offset": 138489306,
+"offset": 138489308,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
