@@ -156,7 +156,7 @@
 "srcs": [
 "Pragativadi"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792913621.0,
 "tgtext": "",
 "title": "Mastermind Behind Rs 92 Lakh Social Media Scam Arrested in Bhadrak; Linked to Chinese Cyber Network",
@@ -371,7 +371,7 @@
 "srcs": [
 "Benzinga"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792904264.0,
 "tgtext": "",
 "title": "Bitcoin Will Hit $100,000 Before $60,000, Says Mike Alfred, Who\u2019d Bet Up to $1 Million \u2014 Scaramucci Backs the Call",
@@ -913,7 +913,7 @@
 "KuCoin",
 "Pluang"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792899108.0,
 "tgtext": "",
 "title": "Aave V3.8 upgrade keeps flash loan liquidation route open, maintaining current DeFi operations.",
@@ -952,7 +952,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792899212.0,
 "tgtext": "",
 "title": "Macao student arrested over alleged dorm theft of MOP55,000 in electronics",
@@ -1827,7 +1827,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792913507.0,
 "tgtext": "\ud83d\udd25 NEW: Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.\n\n$532M of it traded on weekends alone, over just one month.\n\nNews | Markets | YouTube",
 "title": "Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.",
@@ -2092,7 +2092,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792903681.0,
 "tgtext": "",
 "title": "$184M in leveraged Ether positions liquidated a...",
@@ -2240,7 +2240,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792904506.0,
 "tgtext": "Smart trader 0xe813 opened a long on 26,974 $ETH ($63.88M) after the market drop and is already up $842K in unrealized profit.\n\nThis trader has a 100% win rate and made $3.3M on $NEAR.\n\nhttps://hyperbot.network/trader/0xe81309ec9b79309e4d108ae3a92d1aa618cd6d74",
 "title": "Smart trader 0xe813 opened a long on 26,974 ETH ($63.88M) after the market drop and is already up $842K in unrealized profit.",
@@ -2361,7 +2361,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792914737.0,
 "tgtext": "",
 "title": "Over $815M in crypto liquidations hit as Bitcoi...",
@@ -2481,7 +2481,7 @@
 "BeInCrypto",
 "Yahoo Finance"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792910280.0,
 "tgtext": "",
 "title": "Trump Says Iran Strikes Could Come Today. Can Bitcoin Hold $80,000?",
@@ -2760,7 +2760,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792919169.3986433,
+"t": 1792919782.2515266,
 "t0": 1792903323.0,
 "tgtext": "\ud83c\uddee\ud83c\uddf1 BIG: The Bank of Israel just shot down Netanyahu's idea of using crypto to dodge sanctions, saying crypto \"cannot be used as a route for bypassing sanctions.\" \n\nNetanyahu's reply: \"I listen, but I do what I think [is best].\"\n\nNews | Markets | YouTube",
 "title": "BIG: The Bank of Israel just shot down Netanyahu's idea of using crypto to dodge sanctions, saying crypto \"cannot be used as a route for bypassing sanctions.\"",
@@ -3293,6 +3293,7 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
+"01c6004fdf5a": 0.047,
 "04c45a2e76b1": 0.008,
 "08a65cc5dc26": 0.096,
 "1850c7a4ac8c": 0.104,
@@ -3302,12 +3303,13 @@
 "31317935f338": 0.043,
 "33fa5f9f3f58": 0.016,
 "38c94d9ce3e5": 0.009,
-"4542a9a3a5a5": 0.111,
+"4542a9a3a5a5": 0.1,
 "47d4824c979c": 0.104,
 "6614f43a1b6b": 0.041,
 "6e9d8263669f": 0.028,
 "7399124bd0f6": 0.024,
 "792f434341c0": 0.025,
+"874b6570f8b2": 0.005,
 "8937e12a7699": 0.262,
 "8c4a0cc1cd58": 0.026,
 "99da28d8cfc3": 0.019,
@@ -3318,6 +3320,7 @@
 "b3f6edc902e5": 0.198,
 "bb4927f2e929": 0.037,
 "be3cd126282b": 0.061,
+"be8ec8928aac": 0.032,
 "beb471039c73": 0.181,
 "bfd3fdf06bda": 0.021,
 "d2675ce0a189": 0.72,
@@ -3974,63 +3977,63 @@
 [
 "d2675ce0a189",
 0,
-264,
+274,
 1
 ],
 [
 "a44b9798824c",
-8,
-244,
+7,
+255,
 1
 ],
 [
 "9a49a32225f8",
-21,
-258,
+20,
+268,
 1
 ],
 [
 "8937e12a7699",
 10,
-94,
+105,
 1
 ],
 [
 "b3f6edc902e5",
 31,
-74,
+84,
 1
 ],
 [
 "beb471039c73",
 28,
-148,
-2
-],
-[
-"4542a9a3a5a5",
-15,
-334,
+158,
 2
 ],
 [
 "1850c7a4ac8c",
-7,
-248,
+6,
+259,
 1
 ],
 [
 "47d4824c979c",
-8,
-333,
+7,
+343,
 1
+],
+[
+"4542a9a3a5a5",
+14,
+345,
+2
 ],
 [
 "08a65cc5dc26",
 28,
-92,
+103,
 1
 ]
 ],
-"top_at": 1792919169.3986433
+"top_at": 1792919782.2515266
 }
