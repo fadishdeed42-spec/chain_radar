@@ -1354,86 +1354,235 @@
 },
 "ee007782": {
 "facts": "",
-"note": "\u26a0\ufe0f script too short: 193 spoken words, a 120s Short needs 280-330. Tap a \u23f1 length to try again, or use it as is.",
+"note": "\u26a0\ufe0f script too short: 139 spoken words, a 120s Short needs 280-330. Tap a \u23f1 length to try again, or use it as is.",
 "sb": {
 "alt_hooks": [
-"It's 2022. Bitcoin just crashed to $15,500. Everyone thinks it's going to zero.",
-"How did a brutal crypto collapse trap every single short seller before a massive rally?",
-"Did you know the scariest moment in Bitcoin history happened right at the absolute bottom?"
+"It's 2022. Bitcoin just crashed to $15,000 and everyone thought it was dead.",
+"How did a $15,000 bottom trigger the wildest crypto run in history?",
+"They told you crypto was over at $15,000. They were dead wrong."
 ],
 "chart": {
-"end": "2022-12-15",
+"end": "2023-01-01",
 "start": "2022-11-01",
 "symbol": "BTC"
 },
-"description": "Discover how the brutal Bitcoin bottom at $15,500 on November 21, 2022, trapped short sellers and set off the massive rally toward $126,000.",
-"est_secs": 78,
-"hashtags": "#Bitcoin #Crypto #BTC #CryptoNews #Trading #Blockchain #BullRun",
+"description": "When Bitcoin crashed to $15,000 in November 2022 after the FTX collapse, bears called for zero. Instead, it set the ultimate bear trap before the historic rally toward $126,000.",
+"est_secs": 58,
+"hashtags": "#Bitcoin #Crypto #BTC #CryptoNews #Investing #Blockchain #ChainSecrets",
 "length": 120,
-"pinned": "Were you buying the $15,500 bottom or panicking? Let us know below!",
+"pinned": "Did you buy the $15k bottom or did you panic sell? Let us know below!",
 "respell": {
-" FTX": "eff-tee-ex",
-"Satoshi": "suh-TOH-shee"
+"Bitcoin": "BIT-koyin"
 },
 "scenes": [
 {
 "beats": [
 {
-"icon": "calendar",
-"text": "Nov 21, 2022",
-"word": "Nov"
+"icon": "skull",
+"text": "ZERO HOPE",
+"word": "dead"
 }
 ],
-"footage": "trading screens red",
-"hit": "$15500",
-"line": "Bitcoin hit $15,500 on Nov 21, 2022. Total panic.",
+"footage": "crypto trading screens red",
+"hit": "$15000",
+"line": "Everyone thought Bitcoin was dead at $15,000 in November 2022.",
 "photo": "",
 "role": "hook",
 "visual": {
-"date": "2022-11-21",
-"label": "NOV 21 \u00b7 $15,500 \u00b7 BOTTOM",
+"date": "2022-11-15",
+"label": "NOV 15 \u00b7 $15,800 \u00b7 THE BOTTOM",
 "type": "chart"
 }
 },
 {
 "beats": [
 {
-"icon": "skull",
-"text": "$8 Billion Gone",
+"icon": "fire",
+"text": "$8B GONE",
 "word": "Billions"
 }
 ],
-"footage": "bank exterior sign",
-"hit": "ftx",
-"line": "FTX had just collapsed. Billions vanished overnight.",
-"photo": "FTX building",
+"footage": "bank exterior panic",
+"hit": "exchanges",
+"line": "Exchanges were collapsing. Billions vanished overnight.",
+"photo": "",
 "role": "setup",
 "visual": {
 "bad": true,
-"icon": "skull",
-"label": "exchange bankruptcy",
+"icon": "lock",
+"label": "WITHDRAWALS HALTED",
 "type": "stamp",
-"word": "BANKRUPT"
+"word": "FROZEN"
+}
+},
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "NOV 11 2022",
+"word": "November"
+}
+],
+"footage": "courtroom gavel",
+"hit": "bankrupt",
+"line": "FTX went bankrupt on November 11th.",
+"photo": "Sam Bankman-Fried",
+"role": "setup",
+"visual": {
+"day": 11,
+"event": "FTX collapse freezes billions",
+"month": "NOV 2022",
+"type": "date"
 }
 },
 {
 "beats": [
 {
 "icon": "laptop",
-"text": "All In Short",
+"text": "MASSIVE SHORTS",
+"word": "shorted"
+}
+],
+"footage": "typing fast on laptop",
+"hit": "panicked",
+"line": "Traders panicked and shorted everything in sight.",
+"photo": "",
+"role": "setup",
+"visual": {
+"left": [
+"SHORTS",
+"95%"
+],
+"note": "Maximum bear pessimism",
+"right": [
+"LONGS",
+"5%"
+],
+"type": "versus"
+}
+},
+{
+"beats": [
+{
+"icon": "safe",
+"text": "WHALE WALLETS",
+"word": "shadows"
+}
+],
+"footage": "dark trading room monitors",
+"hit": "accumulated",
+"line": "Smart money didn't sell. They accumulated in the shadows.",
+"photo": "",
+"role": "turn",
+"visual": {
+"icon": "bitcoin",
+"label": "Moved off exchanges",
+"prefix": "",
+"suffix": " BTC",
+"type": "counter",
+"value": 150000
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "$15,500 FLOOR",
+"word": "dip"
+}
+],
+"footage": "blockchain transaction code",
+"hit": "whales",
+"line": "On-chain data showed whales buying every single dip.",
+"photo": "",
+"role": "turn",
+"visual": {
+"date": "2022-12-01",
+"label": "DEC 1 \u00b7 ACCUMULATION ZONE",
+"type": "chart"
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "TRAP SPRUNG",
+"word": "breakout"
+}
+],
+"footage": "bull market green candles",
+"hit": "fakeout",
+"line": "Then came the ultimate fakeout before the massive breakout.",
+"photo": "",
+"role": "twist",
+"visual": {
+"bad": false,
+"icon": "skull",
+"label": "BEAR TRAP",
+"type": "stamp",
+"word": "GOTCHA"
+}
+},
+{
+"beats": [
+{
+"icon": "fire",
+"text": "$2B LIQUIDATED",
 "word": "positions"
 }
 ],
-"footage": "typing on laptop fast",
-"hit": "short",
-"line": "Traders panicked. They opened massive short positions.",
+"footage": "liquidation alerts flashing",
+"hit": "squeezed",
+"line": "Short sellers got completely squeezed out of their positions.",
+"photo": "",
+"role": "twist",
+"visual": {
+"icon": "cash",
+"label": "Shorts liquidated",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 2400000000
+}
+},
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "APR 2023",
+"word": "April"
+}
+],
+"footage": "bitcoin price chart climbing",
+"hit": "$30000",
+"line": "Bitcoin broke $30,000 by April 2023.",
+"photo": "",
+"role": "setup",
+"visual": {
+"day": 14,
+"event": "Bitcoin hits $30,000 resistance",
+"month": "APR 2023",
+"type": "date"
+}
+},
+{
+"beats": [
+{
+"icon": "bank",
+"text": "BILLIONS IN",
+"word": "capital"
+}
+],
+"footage": "wall street stock exchange",
+"hit": "etfs",
+"line": "Institutional ETFs flooded the market with fresh capital.",
 "photo": "",
 "role": "setup",
 "visual": {
 "items": [
-"Fear at Max",
-"Exchanges Bleeding",
-"Shorts Piling Up"
+"BlackRock",
+"Fidelity",
+"Bitwise"
 ],
 "type": "list"
 }
@@ -1441,265 +1590,82 @@
 {
 "beats": [
 {
-"icon": "question",
-"text": "Doom Forecast",
-"word": "analyst"
-}
-],
-"footage": "news anchor talking",
-"hit": "$10000",
-"line": "Every analyst on television predicted Bitcoin was dropping to $10,000.",
-"photo": "",
-"role": "setup",
-"visual": {
-"icon": "question",
-"label": "predicted bottom",
-"prefix": "$",
-"suffix": "",
-"type": "counter",
-"value": 10000
-}
-},
-{
-"beats": [
-{
-"icon": "fire",
-"text": "Forced Selling",
-"word": "sell"
-}
-],
-"footage": "bitcoin mining farm",
-"hit": "miners",
-"line": "Miners were capitulating. Power bills forced them to sell their reserves.",
-"photo": "",
-"role": "turn",
-"visual": {
-"bad": true,
-"icon": "fire",
-"label": "miner capitulation",
-"type": "stamp",
-"word": "SELLING"
-}
-},
-{
-"beats": [
-{
-"icon": "lock",
-"text": "Wallets Dormant",
-"word": "Whales"
-}
-],
-"footage": "dark ocean waves",
-"hit": "metrics",
-"line": "On-chain metrics showed absolute capitulation. Whales went silent.",
-"photo": "",
-"role": "turn",
-"visual": {
-"icon": "lock",
-"sub": "absolute silence",
-"text": "WHALES GONE",
-"type": "title"
-}
-},
-{
-"beats": [
-{
-"icon": "safe",
-"text": "Outflows Spiking",
-"word": "lows"
-}
-],
-"footage": "digital vault door",
-"hit": "reserves",
-"line": "Exchange reserves dropped to multi-year lows as coins moved to cold storage.",
-"photo": "",
-"role": "turn",
-"visual": {
-"date": "2022-12-01",
-"label": "DEC 2022 \u00b7 RESERVES EMPTY",
-"type": "chart"
-}
-},
-{
-"beats": [
-{
-"icon": "calendar",
-"text": "21 Days Flat",
-"word": "three"
-}
-],
-"footage": "empty city street night",
-"hit": "quiet",
-"line": "Then, unexpected quiet. Volume dried up completely for three weeks.",
-"photo": "",
-"role": "twist",
-"visual": {
-"icon": "calendar",
-"sub": "before the storm",
-"text": "THE CALM",
-"type": "title"
-}
-},
-{
-"beats": [
-{
-"icon": "skull",
-"text": "Local Low",
-"word": "bottom"
-}
-],
-"footage": "person holding head in hands",
-"hit": "retail",
-"line": "Retail investors capitulated. They sold at the exact absolute bottom.",
-"photo": "",
-"role": "twist",
-"visual": {
-"bad": true,
-"icon": "skull",
-"label": "market sentiment",
-"type": "stamp",
-"word": "CAPITULATION"
-}
-},
-{
-"beats": [
-{
 "icon": "bitcoin",
-"text": "Accumulation Phase",
-"word": "coins"
+"text": "3.125 BTC BLOCK",
+"word": "supply"
 }
 ],
-"footage": "golden coin spinning",
-"hit": "300000",
-"line": "Smart money accumulation wallets quietly gobbled up 300,000 coins.",
-"photo": "",
-"role": "twist",
-"visual": {
-"icon": "bitcoin",
-"label": "accumulated silently",
-"prefix": "",
-"suffix": " BTC",
-"type": "counter",
-"value": 300000
-}
-},
-{
-"beats": [
-{
-"icon": "fire",
-"text": "Short Squeeze",
-"word": "short"
-}
-],
-"footage": "green trading candles exploding",
-"hit": "2023",
-"line": "By early 2023, price broke out of the range, trapping every short.",
+"footage": "digital mining rig flashing lights",
+"hit": "halving",
+"line": "The halving in April 2024 cut new supply in half.",
 "photo": "",
 "role": "setup",
 "visual": {
-"date": "2023-01-15",
-"label": "JAN 2023 \u00b7 BREAKOUT",
-"type": "chart"
+"day": 19,
+"event": "Fourth Bitcoin halving event",
+"month": "APR 2024",
+"type": "date"
 }
 },
 {
 "beats": [
 {
-"icon": "cash",
-"text": "Margin Calls",
-"word": "wiped"
-}
-],
-"footage": "calculator smashing",
-"hit": "$1",
-"line": "Liquidations cascaded. Over $1 billion in shorts wiped out in days.",
-"photo": "",
-"role": "setup",
-"visual": {
-"icon": "cash",
-"label": "short liquidations",
-"prefix": "$",
-"suffix": "",
-"type": "counter",
-"value": 1000000000
-}
-},
-{
-"beats": [
-{
-"icon": "robot",
-"text": "Trap Sprung",
-"word": "hands"
-}
-],
-"footage": "mechanical trap snapping",
-"hit": "fakeout",
-"line": "The fakeout worked to perfection. Weak hands were completely shaken out.",
-"photo": "",
-"role": "setup",
-"visual": {
-"bad": true,
-"icon": "robot",
-"label": "market maker trap",
-"type": "stamp",
-"word": "TRAPPED"
-}
-},
-{
-"beats": [
-{
-"icon": "bitcoin",
-"text": "New Trend",
-"word": "bull"
-}
-],
-"footage": "bull statue wall street",
-"hit": "foundation",
-"line": "That brutal $15,500 flush set the foundation for the massive bull run.",
-"photo": "",
-"role": "setup",
-"visual": {
-"icon": "bitcoin",
-"sub": "trend reversal",
-"text": "THE LAUNCHPAD",
-"type": "title"
-}
-},
-{
-"beats": [
-{
-"icon": "cash",
-"text": "New ATH",
+"icon": "crown",
+"text": "$90,000+",
 "word": "highs"
 }
 ],
-"footage": "financial district skyscrapers",
-"hit": "etfs",
-"line": "Institutions stepped in through spot ETFs, driving prices past all-time highs.",
+"footage": "green trading candles exploding",
+"hit": "surged",
+"line": "By late 2024, prices surged past previous all-time highs.",
 "photo": "",
 "role": "setup",
 "visual": {
-"date": "2024-03-12",
-"label": "MAR 2024 \u00b7 NEW HIGHS",
-"type": "chart"
+"icon": "bitcoin",
+"label": "New ATH reached",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 90000
 }
 },
 {
 "beats": [
 {
-"icon": "cash",
-"text": "$126,000 Goal",
+"icon": "crown",
+"text": "NEW MILESTONE",
+"word": "either"
+}
+],
+"footage": "celebration trading floor",
+"hit": "$100000",
+"line": "The rally didn't stop at $100,000 either.",
+"photo": "",
+"role": "setup",
+"visual": {
+"bad": false,
+"icon": "crown",
+"label": "SIX FIGURES",
+"type": "stamp",
+"word": "ACHIEVED"
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "NEXT STOP",
 "word": "targets"
 }
 ],
-"footage": "rocket launch smoke",
-"hit": "sixfigure",
-"line": "From a freezing crypto winter straight to six-figure targets.",
+"footage": "futuristic price projection chart",
+"hit": "$126000",
+"line": "Analysts set targets pointing straight to $126,000.",
 "photo": "",
 "role": "payoff",
 "visual": {
-"icon": "cash",
-"label": "cycle target",
+"icon": "bitcoin",
+"label": "Projected cycle peak",
 "prefix": "$",
 "suffix": "",
 "type": "counter",
@@ -1709,31 +1675,32 @@
 {
 "beats": [
 {
-"icon": "calendar",
-"text": "Remember The Date",
-"word": "Nov"
+"icon": "skull",
+"text": "THE ULTIMATE TRAP",
+"word": "history"
 }
 ],
-"footage": "bitcoin clock ticking",
-"hit": "$15500",
-"line": "And it all started when Bitcoin hit $15,500 on Nov 21, 2022.",
+"footage": "bitcoin logo spinning dark background",
+"hit": "$15000",
+"line": "Making the $15,000 bottom the greatest trap in history.",
 "photo": "",
 "role": "end",
 "visual": {
-"date": "2022-11-21",
-"label": "NOV 21 \u00b7 $15,500 \u00b7 LOOP",
-"type": "chart"
+"icon": "bitcoin",
+"sub": "Chain Secrets",
+"text": "$15,000 TO $126K",
+"type": "title"
 }
 }
 ],
 "settings": {
 "length": 120
 },
-"title": "The Last Fakeout Before Bitcoin's Epic Run \ud83d\ude80",
+"title": "The Brutal Trap Before Bitcoin's 126k Run \ud83d\udcc9",
 "tone": "mystery",
-"words": 193
+"words": 139
 },
-"t": 1792959254.187393,
+"t": 1792960365.6158156,
 "topic": "the last fakeout for btc when it botomed at 15000 and what happened before the rally to 126000"
 },
 "ff17bb68": {
