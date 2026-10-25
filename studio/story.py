@@ -328,6 +328,6 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
     for i in range(len(para)):
         para[i][1] = para[i + 1][0] if i + 1 < len(para) else dur
     T = {'chunks': chunks, 'dur': dur, 'beats': beats, 'para': para, 'caps': caps, 'cuts': cuts, 'lead': lead,
-         'cta': round(beats['z_follow'] - .1, 3), 'cta2': beats['z_every']}
+         'cta': round(beats['z_follow'] + .2, 3), 'cta2': beats['z_every']}
     json.dump(T, open(out, 'w'), indent=1)
     return T

@@ -42,7 +42,11 @@ if SB.get('chart') and os.path.exists(os.path.join(JOB, 'data.json')):
     MARK = {i: didx(SCN[i]['visual'].get('date') or SB['chart']['end']) for i in CHART_SCENES}
 
 
-def hit(i): return B.get(f's{i}', P(i) + .4)
+def hit(i):
+    h = B.get(f's{i}', P(i) + .4)
+    if SCN[i]['role'] == 'end':                                          # the payoff must be on screen well before the end card
+        h = min(h, P(i) + max(.5, .55 * (h - P(i))))
+    return h
 
 
 def fit(text, kind, size, maxw):
