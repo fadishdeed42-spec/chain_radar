@@ -13,7 +13,8 @@
  "chart": {
   "symbol": "BTC",
   "start": "2014-01-01",
-  "end": "2014-02-28"
+  "end": "2014-02-28",
+  "src": "Bitstamp"
  },
  "scenes": [
   {

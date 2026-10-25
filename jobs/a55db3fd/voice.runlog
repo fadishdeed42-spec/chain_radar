@@ -1,0 +1,91 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  5%|▍         | 54.6M/1.18G [00:00<00:02, 572MB/s]  9%|▉         | 111M/1.18G [00:00<00:01, 585MB/s]  14%|█▍        | 167M/1.18G [00:00<00:01, 560MB/s] 18%|█▊        | 221M/1.18G [00:00<00:01, 557MB/s] 24%|██▎       | 284M/1.18G [00:00<00:01, 593MB/s] 29%|██▉       | 349M/1.18G [00:00<00:01, 622MB/s] 34%|███▍      | 413M/1.18G [00:00<00:01, 640MB/s] 39%|███▉      | 474M/1.18G [00:00<00:01, 631MB/s] 44%|████▍     | 535M/1.18G [00:00<00:01, 600MB/s] 50%|█████     | 605M/1.18G [00:01<00:00, 641MB/s] 55%|█████▌    | 667M/1.18G [00:01<00:00, 627MB/s] 60%|██████    | 727M/1.18G [00:01<00:00, 607MB/s] 66%|██████▌   | 791M/1.18G [00:01<00:00, 625MB/s] 71%|███████   | 851M/1.18G [00:01<00:00, 552MB/s] 75%|███████▌  | 905M/1.18G [00:01<00:00, 547MB/s] 80%|███████▉  | 959M/1.18G [00:01<00:00, 548MB/s] 84%|████████▍ | 0.99G/1.18G [00:01<00:00, 558MB/s] 89%|████████▊ | 1.04G/1.18G [00:01<00:00, 557MB/s] 94%|█████████▎| 1.10G/1.18G [00:02<00:00, 576MB/s] 98%|█████████▊| 1.16G/1.18G [00:02<00:00, 560MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 585MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json bcd130bce7b6
+   take 1: score +1.62  wer 0.00  end -3.5st  2.5w/s  heard: He became the richest inmate in American history while holding a multi
+   take 2: score +1.65  wer 0.00  end -1.8st  2.5w/s  heard: He became the richest inmate in American history while holding a multi
+scene 1: 5.57s ex 0.75
+   take 1: score -0.78  wer 0.07  end +0.0st  2.3w/s  heard: Changping Zhao started from humble beginnings, working at McDonald's i
+   take 2: score -0.92  wer 0.14  end +0.0st  2.5w/s  heard: John Punjau started from humble beginnings, working at McDonald's in V
+scene 2: 5.72s ex 0.6
+   take 1: score -0.28  wer 0.06  end +0.0st  3.1w/s  heard: In 2013, a poker game changed everything when a friend introduced him 
+   take 2: score +1.67  wer 0.06  end -11.6st  3.0w/s  heard: In 2013, a poker game changed everything when a friend introduced him 
+scene 3: 5.74s ex 0.6
+   take 1: score -0.79  wer 0.11  end +3.5st  3.0w/s  heard: He went all in.  He sold his apartment in Shanghai for $900,000 to buy
+   take 2: score -0.45  wer 0.11  end +0.0st  3.1w/s  heard: he went all in. He sold his apartment in Shanghai for $900,000 to buy 
+scene 4: 6.48s ex 0.6
+   take 1: score +1.63  wer 0.00  end -3.8st  2.5w/s  heard: Bitcoin crashed shortly after.  But Zhao did not panic.  He stayed foc
+   take 2: score +1.58  wer 0.00  end -4.4st  2.4w/s  heard: Bitcoin crashed shortly after, but Zhao did not panic.  He stayed focu
+scene 5: 6.03s ex 0.65
+   take 1: score +0.98  wer 0.15  end -1.8st  2.4w/s  heard: By July 2017, he launched Binance.  It processed orders at lightning s
+   take 2: score -1.09  wer 0.15  end +0.0st  2.3w/s  heard: By July 2017, he launched Binance.  It processed orders at lightning s
+scene 6: 7.08s ex 0.65
+   take 1: score -1.09  wer 0.20  end +0.0st  2.6w/s  heard: Within 180 days, Binance became the largest crypto exchange on Earth, 
+   take 2: score +1.11  wer 0.20  end -7.1st  2.9w/s  heard: Within 180 days, Binance became the largest crypto exchange on Earth, 
+scene 7: 5.43s ex 0.8
+   take 1: score +0.58  wer 0.20  end -11.9st  2.1w/s  heard: Regulators closed in fast.  US authorities investigated Binance for se
+   take 2: score -1.57  wer 0.16  end +3.6st  2.0w/s  heard: Regulators closed in fast.  US authorities investigated by-nance for s
+scene 8: 6.76s ex 0.8
+   take 1: score -1.56  wer 0.29  end +4.4st  3.0w/s  heard: In November 2023, CZ stepped down as CEO and pleaded guilty to federal
+   take 2: score +0.60  wer 0.29  end -4.4st  2.7w/s  heard: In November 2023, CZ stepped down as CEO and pleaded guilty to federal
+scene 9: 6.98s ex 0.6
+   take 1: score -0.92  wer 0.23  end +0.0st  3.1w/s  heard: Binance agreed to pay a staggering $4.3 billion fine to the United Sta
+   take 2: score +0.94  wer 0.23  end -5.3st  2.8w/s  heard: Binance agreed to pay a staggering $4.3 billion fine to the United Sta
+scene 10: 6.00s ex 0.6
+   take 1: score -0.93  wer 0.17  end +0.0st  2.7w/s  heard: In April 2024, a federal judge in Seattle sentenced CZ to four months 
+   take 2: score -0.82  wer 0.17  end +0.0st  2.8w/s  heard: In April 2024, a federal judge in Seattle sentenced CZ to four months 
+scene 11: 6.68s ex 0.6
+   take 1: score -0.42  wer 0.00  end +0.0st  2.4w/s  heard: He served his time at Lompoc Low Security Facility in California, trad
+   take 2: score -0.25  wer 0.00  end +0.0st  2.7w/s  heard: He served his time at Lompoc Low Security Facility in California, trad
+scene 12: 5.97s ex 0.6
+   take 1: score -0.28  wer 0.00  end +0.0st  2.6w/s  heard: Despite sitting behind bars, his massive net worth remained completely
+   take 2: score -0.29  wer 0.00  end +0.0st  2.6w/s  heard: Despite sitting behind bars, his massive net worth remained completely
+scene 13: 5.69s ex 0.6
+   take 1: score +0.28  wer 0.35  end -1.1st  2.6w/s  heard: Released in late 2024, CZ remains barred for running be-nanced directl
+   take 2: score +0.48  wer 0.29  end -4.5st  2.5w/s  heard: Released in late 2024, CZ remains barred from running by-nanced direct
+scene 14: 6.71s ex 0.6
+   take 1: score +1.93  wer 0.00  end -2.1st  2.5w/s  heard: He became the richest inmate in American history while holding a multi
+   take 2: score -0.02  wer 0.00  end -1.0st  2.6w/s  heard: He became the richest inmate in American history while holding a multi
+   take 3: score +1.90  wer 0.00  end -2.6st  2.8w/s  heard: He became the richest inmate in American history while holding a multi
+   take 4: score +1.99  wer 0.00  end -2.6st  2.6w/s  heard: He became the richest inmate in American history while holding a multi
+   take 5: score +2.00  wer 0.00  end -1.3st  2.6w/s  heard: He became the richest inmate in American history while holding a multi
+   take 6: score +1.91  wer 0.00  end -2.4st  2.5w/s  heard: he became the richest inmate in American history while holding a multi
+scene 15: 5.39s ex 0.55 END
+   take 1: score -0.41  wer 0.00  end +0.0st  2.4w/s  heard: Follow Chain Secrets. Every chart hides a story.
+   take 2: score -0.45  wer 0.00  end +0.0st  2.3w/s  heard: Follow Chain Secrets. Every chart hides a story.
+scene 16: 3.31s ex 0.7
+99.98s, force-aligned 251 words
+liampace -> jobs/a55db3fd/voicep.wav
+rate x1.00 gap 0.40 | He became the richest inmate in American history while holding a multi-billion dollar empire.
+rate x1.00 gap 0.40 | Changpeng Zhao started from humble beginnings, working at McDonald's in Vancouver flipping burgers.
+rate x1.00 gap 0.40 | In twenty thirteen, a poker game changed everything when a friend introduced him to Bitcoin over drinks.
+rate x1.00 gap 0.40 | He went all in.
+rate x1.00 gap 0.40 | He sold his apartment in Shanghai for nine hundred thousand dollars to buy entirely into Bitcoin.
+rate x1.00 gap 0.40 | Bitcoin crashed shortly after.
+rate x1.00 gap 0.40 | But Zhao did not panic.
+rate x1.00 gap 0.40 | He stayed focused on building infrastructure.
+rate x1.00 gap 0.40 | By July twenty seventeen, he launched Bi-nance.
+rate x1.00 gap 0.40 | It processed orders at lightning speed and completely dominated markets.
+rate x1.00 gap 0.40 | Within one hundred eighty days, Bi-nance became the largest crypto exchange on Earth, handling billions daily.
+rate x1.00 gap 0.40 | Regulators closed in fast.
+rate x1.00 gap 0.40 | U S authorities investigated Bi-nance for severe anti-money laundering failures.
+rate x1.00 gap 0.40 | In November twenty twenty-three, C Z stepped down as C E O and pleaded guilty to federal compliance violations.
+rate x1.00 gap 0.40 | Bi-nance agreed to pay a staggering four point three billion dollars fine to the United States government.
+rate x1.00 gap 0.40 | In April twenty twenty-four, a federal judge in Seattle sentenced C Z to four months inside a federal prison.
+rate x1.00 gap 0.40 | He served his time at Lompoc low-security facility in California, trading luxury for a tiny cell.
+rate x1.00 gap 0.40 | Despite sitting behind bars, his massive net worth remained completely intact due to his equity.
+rate x1.00 gap 0.40 | Released in late twenty twenty-four, C Z remains barred from running Bi-nance directly but keeps massive influence.
+rate x1.00 gap 0.60 | He became the richest inmate in American history while holding a multi-billion dollar empire.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+rate x1.00 gap 0.40 | Every chart hides a story.
+total 101.36s (was 99.98s)
+
