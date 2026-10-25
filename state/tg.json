@@ -462,6 +462,38 @@
 },
 "t": 1792858579.589717
 },
+"9a8acfe9ca": {
+"coin": "",
+"facts": "Headline: CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a \u2018false alarm\u2019\nSources: Crypto Briefing, Cryptonews.net, The Block\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "The Block",
+"story": null,
+"t0": 1792953981.0,
+"tag": null,
+"title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a \u2018false alarm\u2019",
+"url": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617"
+},
+"p": {
+"keyfact": "CoinDCX confirmed a $16 million loss from retired wallets after initially calling reports a false alarm.",
+"post": "First it was just a false alarm. Now CoinDCX confirms the reality. A staggering $16 million vanished from retired wallets days after the CEO denied the breach reports. Check the timeline and see how a denial turned into a multi-million dollar confirmation.",
+"quote": "NONE",
+"reply": "Denying a breach and confirming a $16 million loss days later is quite the plot twist.",
+"short": "",
+"stat": "$16M | Retired wallet loss",
+"symbol": "NONE",
+"tag": "BREAKING",
+"thread": "",
+"timeline": "Earlier = CEO called breach a false alarm ; Days later = CoinDCX confirmed the loss ; Result = $16M drained from retired wallets",
+"title": "CoinDCX confirms $16M loss",
+"versus": "Initial claim = False alarm || Actual loss = $16M drained",
+"visual": "ALERT"
+},
+"t": 1792964057.4952257
+},
 "a5850ded60": {
 "coin": "",
 "facts": "Headline: Crypto News Today: Initia Halts L1 and Rollups After Suspected\nSources: KuCoin, openPR.com\n\n",
@@ -493,37 +525,6 @@
 "visual": "ALERT"
 },
 "t": 1792927564.1788967
-},
-"a992bb40a5": {
-"coin": "bitcoin",
-"facts": "Headline: BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing\nSources: CryptoPotato, CryptoRank\nCoin in this story: Bitcoin (BTC) $82,645, +0.8% in 24h\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "CryptoPotato",
-"t0": 1792512900.0,
-"tag": null,
-"title": "BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing",
-"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGtZdzNNYlFLNDA3bk00ZVAybjEyZDhocWNZVXZwYUJLZl9pc05handMU2dBX1ktXzZyLUpqSk5kb0VVWi1JSDROQ2xKSzlzeUp6eWdpZDVTNlg5MExGSFMxOHFNbVAwZ01tRmJQbm9BNjVPR3AwZzJNekdEVkRfcVZYcGtVZW9oa2dQd2JFMkJWcnpHN0xN?oc=5"
-},
-"p": {
-"keyfact": "BlackRock has submitted an SEC filing to launch a new ETF offering buffered exposure to Bitcoin.",
-"post": "BlackRock isn't done with Bitcoin. The world\u2019s largest asset manager just filed for a new buffered Bitcoin ETF. As BTC trades at $82,645, Wall Street is doubling down on structured products to capture demand. The institutionalization of BTC continues. #Bitcoin",
-"quote": "NONE",
-"reply": "Another day, another BlackRock filing. The institutional appetite for BTC remains relentless.",
-"short": "",
-"stat": "$82,645 | BTC Price",
-"symbol": "BTC",
-"tag": "ETF",
-"thread": "1/ BlackRock is expanding its crypto footprint. A new SEC filing reveals plans for a buffered Bitcoin ETF.\n2/ Buffered ETFs are designed to offer a layer of protection against market volatility by capping potential losses for investors.\n3/ Bitcoin is currently trading at $82,645, up 0.8% over the last 24 hours.\n4/ This move signals that BlackRock sees long-term institutional appetite for regulated, risk-managed crypto vehicles.",
-"timeline": "2024 = BlackRock launches spot BTC ETF ; 2024 = BTC hits new cycle highs ; Nov 2024 = Filing for buffered BTC ETF",
-"title": "BlackRock Files for New Buffered Bitcoin ETF",
-"versus": "Spot ETF = Direct exposure || Buffered ETF = Limited downside",
-"visual": "CHART"
-},
-"t": 1792516000.900105
 },
 "aeccd50dcb": {
 "coin": "bitcoin",
@@ -999,7 +1000,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489319,
+"offset": 138489320,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
