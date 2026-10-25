@@ -81,7 +81,9 @@ def media_frame(i, t):
             _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
         else:
             im = cv2.imread(os.path.join(JOB, m['file']), cv2.IMREAD_COLOR)
-            _cache[key] = {'img': cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None}
+            im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None
+            if im is not None and not m.get('real'): im *= min(1.0, 85.0 / max(1.0, float(im.mean())))
+            _cache[key] = {'img': im}
     c = _cache[key]
     tl = max(0.0, t - P(i))
     if m['kind'] == 'video':
@@ -89,7 +91,10 @@ def media_frame(i, t):
         if idx != c['pos']:
             if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
             ok, fr = c['cap'].read()
-            if ok: c['img'] = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
+            if ok:
+                im = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
+                if 'gain' not in c: c['gain'] = min(1.0, 85.0 / max(1.0, float(im.mean())))   # bright clips are toned down
+                c['img'] = im * c['gain']
             c['pos'] = idx
         return c['img']
     if c['img'] is None: return None
@@ -288,7 +293,10 @@ def sc_title(cv, t, i, v, a):
                     a * seg(t, h + .3, h + .6), anchor='cm', track=4)
 
 
-def fmt_num(v, pre, suf):
+def fmt_num(v, pre, suf, big=None):
+    big = abs(v) if big is None else big                                  # 4,300,000,000 -> 4.3B (scale fixed by the final value)
+    if big >= 1e9: return f'{pre}{v / 1e9:,.1f}B{suf}'.replace('.0B', 'B')
+    if big >= 1e7: return f'{pre}{v / 1e6:,.1f}M{suf}'.replace('.0M', 'M')
     if abs(v) >= 100: s = f'{v:,.0f}'
     elif abs(v) >= 10: s = f'{v:,.1f}'.rstrip('0').rstrip('.')
     else: s = f'{v:,.2f}'.rstrip('0').rstrip('.')
@@ -304,8 +312,8 @@ def sc_counter(cv, t, i, v, a):
     if SCN[i]['role'] != 'hook': kicker(cv, t, i, a)
     if ic: icon(cv, ic, W / 2, 680, back(seg(t, P(i), P(i) + .4)) * .85, a, t)
     p = out3(seg(t, h - .25, h + .75))
-    s = fmt_num(val * p, pre, suf)
-    size = fit(fmt_num(val, pre, suf), 'black', 130, 1000)
+    s = fmt_num(val * p, pre, suf, abs(val))
+    size = fit(fmt_num(val, pre, suf), 'black', 130, 900)
     yc = 1050 if ic else 880
     q = back(seg(t, P(i) + .1, P(i) + .5))                                # the counter waits at 0, then runs on the hit word
     counter(cv, s, yc, size, ALT if val >= 0 else BAD, a * clamp(q) * (.55 + .45 * clamp(p * 4)), glow=p > 0)
