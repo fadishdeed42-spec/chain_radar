@@ -23,7 +23,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793036242.0,
 "tgtext": "\ud83c\udde7\ud83c\uddf7 REKT: Put $1,000 into Brazilian stocks at Friday's close and you'd have about $835 right now.\n\nConvert it to dollars and it's closer to $740, because the real got hit too. \n\nNews | Markets | YouTube",
 "title": "REKT: Put $1,000 into Brazilian stocks at Friday's close and you'd have about $835 right now.",
@@ -119,8 +119,8 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1793054869.4830596,
-"t0": 1793034971.0,
+"t": 1793056089.7879274,
+"t0": 1793037660.0,
 "tgtext": "",
 "title": "An Indian Exchange Lost $16 Million From Wallets It Said It Had Retired. Is It Safe to Leave Crypto on an Exchange?",
 "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOX0NyQlJveDlZVlA2UzFTRTc1MFVleXlkVXROYWwzcnFXdW13NjJfcTRaaEgwNVRRREUwZWE4TThkMzY5dDRhOUVpcDAzenJmNllwRklGZjZwNGRmX3BJMTg2ZFlYVVhWNkVYR0pfb0xqWWREaS1xUEU4ME52ZUhYTGdJLXkyYVFvcTh1YS10SVJWY2VXVkx2Tk9fb09wVlhXWmdHZjdmMVV5QzFleEQ3WWZ3RVBHUFV6QWtHT1VMVDNuZWlZbjlHUTJSbjJYZkFsaXFibGhpZXFZWkVZV1FLTG9tVGowY2c0SlFFdERWVVE4S2k4T3VwV1BEeXI2MWFI?oc=5",
@@ -191,6 +191,20 @@
 "tgtext": "",
 "title": "LiteLLM Completes Investigation into v1.107.0 Release Exploit",
 "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEZkQmFvbzdVeWRHalpoaHh0RGtQcmRLRnI5REl5NTBPOTBBLTlFNkVDMlRZMG1Tb0N6amN5c1p1Yy15Q056bW5hWncwS0lSTDNzaDMyQ2NOeFRXN0dyQzIxWUhNcl9vbTJBeGRlcmlOclo2aVluUDA0RnlNd3BKNUhqV1ZoMng1RV95M2VSRQ?oc=5",
+"urls": []
+},
+"12b4eea117b2": {
+"coin": "ethereum",
+"src": "KuCoin",
+"srcs": [
+"CryptoRank",
+"KuCoin"
+],
+"t": 1793056089.7879274,
+"t0": 1793035331.0,
+"tgtext": "",
+"title": "Ethereum Whale's $214M Long Position 5% Above Liquidation Level Amid ETF Outflows",
+"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNHAzNFNEMXBEUFNZVGJLbTRkbjZsLXI3eURYZ29SSmZyRkM2MGZBY2VOMUJ6WmVQWmJqY291V1NkcE1lMGhEc29UMG9WcVAzZkZNc2J2TDIxeTdVTEVIeDQ4LUdlLWJacENDekF0UGVfZFlzN2VvVDVnSU13aGxTRi1TY0JKR1V4Xy1wandYTjFpYTF4aXRhLXJfWDhvcGtrOVJ3NWd3Z2I5bkpJRUxROGxzUQ?oc=5",
 "urls": []
 },
 "13188065cd17": {
@@ -309,7 +323,7 @@
 "Pluang",
 "The Crypto Times"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793037993.0,
 "tgtext": "",
 "title": "X100 exploit wallets moved 420.8 ETH to Tornado Cash, holding 1,602 ETH across four wallets.",
@@ -337,7 +351,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793055479.407454,
+"t": 1793055786.1550312,
 "t0": 1793034377.0,
 "tgtext": "Ethereum Delays Glamsterdam Hoodi Fork Over EIP-8037 and EIP-8038 Risks\n\nEthereum researcher Toni Wahrst\u00e4tter said the planned Glamsterdam fork on the Hoodi testnet has been delayed after ChainSecurity identified compatibility risks in EIP-8037 and EIP-8038. The gas changes could break contracts that assume gas usage only decreases or cause failed sub-calls to behave unexpectedly. ChainSecurity has found 13 real-world cases, and developers are reviewing whether the upgrade specification needs changes. \u2014 link",
 "title": "Ethereum Delays Glamsterdam Hoodi Fork Over EIP-8037 and EIP-8038 Risks",
@@ -881,10 +895,9 @@
 "coin": "",
 "src": "TechBullion",
 "srcs": [
-"Crypto Economy",
 "TechBullion"
 ],
-"t": 1793054869.4830596,
+"t": 1793056089.7879274,
 "t0": 1793044202.0,
 "tgtext": "",
 "title": "New Crypto Risk: Zipcoin Closes After UNCX Exploit as Remittix Recruits 100 Earn Testers With Weekly Payouts",
@@ -1161,19 +1174,6 @@
 "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUS1kdVFaR0tHOVB4X3RtdlIxb1hKVFROd0hWQ0M0SGhXbzRiQk9sLUVnRkNLZEtmUkF0dDR3WUhBUXJqX01Fbkh1NmV0djdTbzBkZ0IzV2dxREoyWVBCSFRSRF82U2VRYTUxU1hIOW1takdKZndsOU5hR29zRnpfb3hUaFJBSHI4NnRRYWVjS1owcDdQcG1Mbkc1NjFEOGNBUFE2LXowMG45NkZTSFpFQzE0MENHREhheWN5amlNalRjSktXTjRjSHlsSVFYUHJQdW1VWGhna0dHUTBxSk8tWUVvRnRnVHNiMWdkNUhMSDhiWjVpbTlJ?oc=5",
 "urls": []
 },
-"59cbfce09588": {
-"coin": "",
-"src": "Crime Fighters",
-"srcs": [
-"Crime Fighters"
-],
-"t": 1792882868.6485407,
-"t0": 1792861546.0,
-"tgtext": "",
-"title": "NPF-NCCC ARRESTS NINE OVER INTERNATIONAL FRAUD, ELON MUSK IMPERSONATION",
-"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHFjeW84U0pPdVFhREVnc0MzSkpydTNISDJhY1hMaHNSSWxPYm9tRWN1LW5SdTE1LWYxYnBZTktwWDJvOEI0QWdyZ0ZBNzdxNzlWOGJickRycE9ER2EtMHNIOG5kNDd5akNYREk0ZmhTRHJ0alNPOWZYb3UyOW9tMzJtaXJPVS1sLWZOcFd6bVI3R0dERzdWOHJnS1V0d2pJYS13eTBB?oc=5",
-"urls": []
-},
 "5a7ba0e284bf": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -1273,19 +1273,6 @@
 "tgtext": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)\n\n\nBinance Wallet is excited to launch the AXIS Trading Competition on Binance Alpha! During the Promotion Periods, trade Axis Robotics (AXIS) in your Binance Wallet (Keyless) or via Binance Alpha to receive exclusive token rewards. Any user who is eligible to trade Binance Alpha tokens is eligible to participate in this trading competition.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)",
 "url": "https://t.me/binance_announcements/9085",
-"urls": []
-},
-"6341b58d1cf0": {
-"coin": "",
-"src": "Free Press Journal",
-"srcs": [
-"Free Press Journal"
-],
-"t": 1792883174.364339,
-"t0": 1792861776.0,
-"tgtext": "",
-"title": "Mumbai FDA Suspends Licences Of 7 Eateries Over Food Safety Violations; Destroys 564 Litres Of Milk, Seizes",
-"url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQU21nRG9tYjFaSVRUM0NxUTNVWTNDLV9DVVF1ZzZJdEphWEpvdF9MY3ZUS2s0d0RfWDhTc24tNm5ORm1ManNJcWJPdGJ6YXZ4clcyb21EVXlBQjdGNnEtcWxKcXlYQjN0STMtVFBpYU5NeUViU05hQWVIa3lUZTdwb2JvUGtSSzM4dk84R0NKZzZiMU5adkdPRjNYa0l1TW1TcEk4R1RDX19kVEF5Q2RQcjhHRHZxeXBrX3k0bDlaVWJXT04tNmpkVG5yT0RKU2FsZWVFNU5Gb1p5elJ0Qzdmd1h5LTJsZ9IB6wFBVV95cUxPbUxDTUhnM3pTRlNEU3dsdzFhcWVFblNmVHFRTkZQb2tSUUpfdC10akRZLWdJNkl3T2JyRl9ERWNpYzZKa3A5SGpyaUsybHh4V1NoQkdRdUVYQm1CMlFTZXEzNUNWVTBjM0ZocjU5aEc1a0xSak0zek4yZW43SGsxSjlocHh0R0ZONGh5VFkxelc3cW9yX2g4QlRqaEdGVVJZb05wdDJEeVdCc3gxUmVJN2NuTmluUmNSYmNUajJnSmY2WGdaNmhiSU9sR0dmUXJSSV9BRlYyYlBrTFl1b2FVSU03SE53akFBczVj?oc=5",
 "urls": []
 },
 "63a7b7006160": {
@@ -1730,7 +1717,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793038877.0,
 "tgtext": "Hyperliquid: Kraken Parent Payward Plans to Become First CFTC-Regulated HIP-3* Deployer\n\nHyperliquid announced that Kraken parent Payward plans to become the first CFTC-regulated HIP-3* deployer, using Hyperliquid infrastructure to offer perpetual futures markets to U.S. clients. Subject to regulatory approval, Payward's CFTC-regulated DCM and DCO, Bitnomial, would serve as the deployer, managing the markets and clearing and settling contracts, while its CFTC-registered FCM, NinjaTrader Clearing, would carry client accounts. HIP-3* will introduce optional onchain allowlists for permissioned markets without affecting existing HIP-3 markets. The initial version is available on testnet, with specifications subject to change. \u2014 link\n\ud83d\udd25 HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.\n\nNews | Markets | YouTube",
 "title": "HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.",
@@ -1846,7 +1833,7 @@
 "srcs": [
 "Facebook"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793052036.0,
 "tgtext": "",
 "title": "An Oct. 26 fact sheet from \"Presidential Spartan Fund LLC\" identified the donors supporting the $500,000 effort. See link below \u2b07\ufe0f \ud83d\udcf8 Junfu Han, Detroit Free Press",
@@ -2196,7 +2183,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793044509.0,
 "tgtext": "\u26a1 NEW: The FTC wants Anthropic execs to testify in its consumer harm probe, on the same day Anthropic is pitching investors on one of the biggest IPOs ever.\n\nTalk about timing... \n\nNews | Markets | YouTube",
 "title": "The FTC wants Anthropic execs to testify in its consumer harm probe, on the same day Anthropic is pitching investors on one of the biggest IPOs ever.",
@@ -2609,7 +2596,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793039580.0,
 "tgtext": "\ud83d\udea8 JUST IN: Microsoft is offering voluntary buyouts to around 60,000 employees, according to CNBC.\n\nIt comes six months after its first-ever voluntary retirement program, as AI data center spending strains its finances.\n\nNews | Markets | YouTube",
 "title": "Microsoft is offering voluntary buyouts to around 60,000 employees, according to CNBC.",
@@ -2922,7 +2909,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793055479.407454,
+"t": 1793056089.7879274,
 "t0": 1793051319.0,
 "tgtext": "\u26a1 LATEST: Ex-DOGE staffers say they broke into Anthropic.\n\nTheir months-old startup Cathedral claims it got into the AI giant's sensitive internal data and messaging systems.\n\nNews | Markets | YouTube",
 "title": "Ex-DOGE staffers say they broke into Anthropic.",
@@ -3221,13 +3208,13 @@
 },
 "probs": {
 "08f0274eecb8": 0.026,
-"12b4eea117b2": 0.065,
+"12b4eea117b2": 0.147,
 "153589b92620": 0.015,
+"18aaf369b11b": 0.053,
 "19b5f35813a1": 0.215,
 "1f7d41988753": 0.012,
 "335f626e8da6": 0.006,
-"3594989ece9b": 0.035,
-"3815bbd4cc0e": 0.067,
+"3815bbd4cc0e": 0.043,
 "3b89b8259663": 0.038,
 "3c2db105a97b": 0.03,
 "3d43f4512b4f": 0.017,
@@ -3237,14 +3224,16 @@
 "5d53abf85fbf": 0.024,
 "5edfa16959eb": 0.033,
 "7b9eba4a1ecc": 0.003,
-"891083c0c843": 0.08,
+"891083c0c843": 0.076,
 "8abb7f38c591": 0.437,
 "93fa81bcaaa2": 0.042,
+"94838013aa34": 0.092,
 "95ff0419de90": 0.17,
-"a0433a360aa0": 0.051,
+"a0433a360aa0": 0.064,
 "b4c9bac310a2": 0.015,
-"b4d0c2ac7bcb": 0.255,
+"b4d0c2ac7bcb": 0.303,
 "b8c83b26aff1": 0.014,
+"b9f327cccb01": 0.01,
 "bc95f5f17bcd": 0.029,
 "c157e0d568c5": 0.028,
 "c1b135b21b13": 0.021,
@@ -3253,13 +3242,11 @@
 "c7b2da42267b": 0.016,
 "cfec2d218a5c": 0.018,
 "d887fe93325b": 0.003,
-"dd9c70ada97c": 0.112,
 "de1ee98890a6": 0.088,
 "e30b8a550b71": 0.028,
 "e42e5aed33ab": 0.218,
 "f12d6f701515": 0.048,
-"f707699cd8b1": 0.005,
-"fca3dc85c515": 0.007
+"f707699cd8b1": 0.005
 },
 "sent": [
 {
@@ -4046,63 +4033,63 @@
 [
 "0080c1bb18be",
 0,
-321,
+331,
 1
 ],
 [
 "8abb7f38c591",
-18,
-277,
+16,
+287,
 3
 ],
 [
-"1c01b170831c",
-0,
-352,
-1
-],
-[
 "b4d0c2ac7bcb",
-10,
-183,
+9,
+193,
 1
 ],
 [
 "c9cde1ad7de0",
 0,
-265,
+275,
 1
 ],
 [
 "e42e5aed33ab",
 10,
-69,
+80,
 1
 ],
 [
 "19b5f35813a1",
-37,
-291,
+35,
+302,
 2
 ],
 [
 "95ff0419de90",
 10,
-57,
+68,
 1
 ],
 [
-"8c10e191a632",
-3,
-357,
+"12b4eea117b2",
+41,
+346,
 2
 ],
 [
-"dd9c70ada97c",
-50,
-360,
-3
+"089cb15d4f2a",
+0,
+307,
+1
+],
+[
+"4936948b1c23",
+33,
+198,
+1
 ]
 ],
-"top_at": 1793055479.407454
+"top_at": 1793056089.7879274
 }
