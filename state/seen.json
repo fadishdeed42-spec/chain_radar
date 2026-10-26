@@ -9,7 +9,8 @@
 1792985684.3985317,
 1793003121.7053874,
 1793007321.8625987,
-1793015901.0176318
+1793015901.0176318,
+1793016839.182601
 ],
 "menu": {
 "01c6004fdf5a": {
@@ -568,19 +569,6 @@
 "url": "https://t.me/cointelegraph/72851",
 "urls": []
 },
-"2c9c4883ac9d": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1792843867.2794971,
-"t0": 1792822503.0,
-"tgtext": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!\n\nIncluding:\n6,400 $ETH ($15.2M),\n14M $ENA ($2.76M),\n323,000 $UNI ($2.24M),\n1.89M $ETHFI ($1.23M),\n546,609 $AERO ($398K),\n120,000 $PENDLE ($244K),\n3M $ZAMA ($214K).\n\nhttps://arkm.com/explorer/entity/arthur-hayes\nhttps://arkm.com/explorer/address/0xaE0316843710672EBC7452635010f96C8D08214D\nArthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens!  Including: 6,400 $ETH ($15.2M), 14M $ENA ($2.76M), 323,000 $UNI ($2.24M), 1.89M $ETHFI ($1.23M), 546,609 $AERO ($398K), 120,000 $PENDLE ($244K), 3M $ZAMA ($214K).  https://arkm.com/explorer/entity/arthur\u2026",
-"title": "Arthur Hayes (@CryptoHayes) is dumping $22.28M worth of tokens! Including: 6,400 ETH ($15.2M), 14M ENA ($2.76M), 323,000 UNI ($2.24M), 1.89M ETHFI ($1.23M), 546,609 AERO ($398K), 120,000 PENDLE ($244K), 3M ZAMA ($214K). ",
-"url": "https://t.me/lookonchainchannel/10760",
-"urls": []
-},
 "2d5174fef338": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -627,7 +615,7 @@
 "Cointelegraph",
 "Moomoo"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793003000.0,
 "tgtext": "\ud83d\udd25 JUST IN: Strive acquires 6,182 $BTC, bringing its total holdings to 43,000 Bitcoin.\n\nNews | Markets | YouTube",
 "title": "Strive (ASST.US) raises $630 million to boost Bitcoin holdings; needs to purchase 700 BTC per week to rise to second place.",
@@ -673,15 +661,17 @@
 "Crypto News",
 "CryptoRank",
 "CryptoTicker",
-"Finance Magnates",
-"Forbes"
+"Cryptonews",
+"Decrypt"
 ],
-"t": 1793014984.7689397,
+"t": 1793017139.8365943,
 "t0": 1793000198.0,
 "tgtext": "",
 "title": "Crypto Price Analysis, BTC, ETH, HYPE, QNT and ICP, October 26: Quant Gains 3.2% as Bitcoin Falls Below $80,000 and Ethereum Weakens",
 "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYVlkdGVUSUZGLVUyQ2xQSTkyXzFnd2xlMXFIVnQxTHVVa3Z4U2JTcWFBaG9vZnlNSmRaSlphaHFiLXM5S0VJUWRkb2hIaXVkcVhGeU1uYjJONnU3eE9ZblJNVjF1Mno5Y2xIaHliUE43R3MzTjhYWEk0YXl2TlFSbE1kUF91RFRMWDZ6QlF1SEZQa0JVTmg3cEpJb09zM2NYVVFlb3h4UjdsNjRhUGVXekctU0lpaHBIRGdyT2NsVFQ5QnUzNnZMREM3bTZNR3VidXB2Y3R1VUJNNVVrSlJzMTVtZ2g3SDNuM3N4Rl91TkZmYTQ?oc=5",
-"urls": []
+"urls": [
+"https://decrypt.co/381797/morning-minute-bitcoin-breaks-below-80000-as-iran-fears-hit-the-weekend"
+]
 },
 "369b3f1149ba": {
 "coin": "",
@@ -731,7 +721,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793002395.0,
 "tgtext": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.\n\n$Kimchi briefly surged over 150%.\n\nCoincidentally, trader ja2trader spent $28.9K buying 4.61M $Kimchi just hours before @kimchi1x added @pumpfun back to his bio, and is now up $11K.\n\nhttps://solscan.io/account/8dxFkfYTddmgRpphqgvBkNN2LLz1MHgGzd63Wz79gfQz?exclude_amount_zero=true&remove_spam=false&token_address=CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump&page_size=100#transfers",
 "title": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.",
@@ -854,7 +844,7 @@
 "Cryptopolitan",
 "Gadgets 360"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793000995.0,
 "tgtext": "",
 "title": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
@@ -872,19 +862,6 @@
 "tgtext": "Arthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI\n\nArthur Hayes said Maelstrom has closed all positions in its directional trading book, taking profits on ETH, ENA, UNI and other altcoins. He believes the market may need to fall before rising, citing uncertainty surrounding macroeconomic and geopolitical conditions. He plans to remain on the sidelines and wait for an all-clear signal.\n\nAccording to @EmberCN, Arthur Hayes reduced his holdings in various tokens totaling approximately $26.08 million, including 8,000 ETH (approx. $19 million), 14 million ENA (approx. $2.76 million), and 323,000 UNI (approx. $2.24 million). \u2014 link",
 "title": "Arthur Hayes: Maelstrom Has Closed Its Directional Positions, Taking Profits on ETH, ENA and UNI",
 "url": "https://t.me/wublockchainenglish/26537",
-"urls": []
-},
-"427ec60b9b55": {
-"coin": "",
-"src": "Incrypted",
-"srcs": [
-"Incrypted"
-],
-"t": 1792844177.0593016,
-"t0": 1792822666.0,
-"tgtext": "",
-"title": "Crypto Market Lost over $466 Million in 24 Hours: Long Holders Were Hit the Hardest",
-"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcFRjSUhpVExZSGtHTjZRODZRRUVQaEFQQk5PdjZFanB6VDNJQUNtQ2lFTXY1TGQxall2QU9IaWtqRUNyM25tRFhZRjJkaUJVX0JLanN3SE1BejVFaXpuWXhyLUU1RTNDNEpENTY3blRtaERaUFR0d1NkcmJ1ZE1yNWRDN1lIdE1PVEtxdUEtT3NpYlNLVG1DWXVWbHhnN2xLdHFsY096ckdvdmM?oc=5",
 "urls": []
 },
 "4542a9a3a5a5": {
@@ -933,7 +910,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793004679.0,
 "tgtext": "",
 "title": "RWA perpetuals open interest nears $20 billion, CryptoRank data shows",
@@ -1026,7 +1003,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793007190.0,
 "tgtext": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands\n\nMEXC said it does not hold MiCA authorization in the EU and EEA and is winding down services in the Netherlands, with final offboarding scheduled for November 16. The exchange is also discontinuing services for users in Russia and Belarus. Separately, its User Agreement currently lists 13 prohibited jurisdictions, including the United States, Canada, the United Kingdom, Singapore, Hong Kong, Mainland China, Malaysia and Kazakhstan. \u2014 link",
 "title": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands",
@@ -1669,23 +1646,6 @@
 "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ21JTjBTWUNzdjE0NmphVEVRUUZQb2JGdjJVa2VtZHhDeHZQZmVoZzdqRmlUdDFWOTE3SVE2MEFyLXdjWkd2UV9EZUF5dGRVZG1GRk91V2l6OTh4ZHo0ai1CV2xvLXpoLVZteF9ETUVUclVwVVBYSlIwN0R4Uzk3MFViYUpFdkIxaDJBSXpSc1M5VURWcnEtUTR2NFo0X1Iwc1hoNEJHX1B6cXV6Y1E?oc=5",
 "urls": []
 },
-"764602ad67f5": {
-"coin": "",
-"src": "Pluang",
-"srcs": [
-"AMBCrypto",
-"CoinTrust",
-"CryptoTicker",
-"Pluang",
-"TOKENPOST"
-],
-"t": 1792843867.2794971,
-"t0": 1792822320.0,
-"tgtext": "",
-"title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
-"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczdhREVSVTl4dE8zRDNCWEJRSkotUkFjM0lrQnlGRGxuZVl3RWpFNjhneVRSNFRJRUhsbnp5RW1Ea25rcGZKLW5iaE1UczRtVnE5WkZsNkQ3cTRJZjJJc3dyWVZPMnNlOXFSTTR2UHU3UkF1ekZWWlRrR0s1X2x2bVQwdjJDaGFyeVhRVlpUT2RQOGNUNHVMVF9GbVZESjl3b0E0?oc=5",
-"urls": []
-},
 "776f8e848808": {
 "coin": "bitcoin",
 "src": "Yahoo Finance",
@@ -1830,7 +1790,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1792999104.0,
 "tgtext": "",
 "title": "Over 11 million BTC can't be linked to any known owner",
@@ -2614,7 +2574,7 @@
 "CryptoTicker",
 "Moomoo"
 ],
-"t": 1793016530.0020177,
+"t": 1793016839.182601,
 "t0": 1792995396.0,
 "tgtext": "",
 "title": "Retail Bitcoin Holders Are Sending Coins to Binance at a Six-Month High While Whales Pull Back: Who Is Right About $80,000?",
@@ -2755,7 +2715,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793015707.0,
 "tgtext": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\n\nAccording to an SEC filing, Strive entered into an at-the-market sales agreement with Cantor Fitzgerald, Barclays and five other firms to sell up to $1 billion of its Series A perpetual preferred stock, SATS. The shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive said net proceeds may be used for general corporate purposes, including Bitcoin purchases, working capital, income-generating investments and repurchases of common or preferred stock. \u2014 link",
 "title": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases",
@@ -3083,7 +3043,7 @@
 "Altcoin Buzz",
 "The Crypto Times"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793003839.0,
 "tgtext": "",
 "title": "Bithumb and Upbit Flag Initia (INIT) as High-Risk After $2.7M Exploit",
@@ -3202,19 +3162,6 @@
 "tgtext": "",
 "title": "Technical Analysis of Direxion Small Cap Bear 3X ETF (CRYPTOCOM:TZAUSD.P)",
 "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lYV9mOXhtT19wUl9SQUh0d0ZBNXB3VWFjQkpQQmZGd0JTbUFDdXZaXzJmYUo4MU9FQmhHckxJWF92a0tiMEl5d0w0Tl9xOWotd05zcDQxOTZOd2JJVmpMNFh5cVU1S3M?oc=5",
-"urls": []
-},
-"eacfb4640c66": {
-"coin": "",
-"src": "TOKENPOST",
-"srcs": [
-"TOKENPOST"
-],
-"t": 1792844177.0593016,
-"t0": 1792822588.0,
-"tgtext": "",
-"title": "Crypto Contract Liquidations Reach About $315 Million in 24 Hours",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rMUVzY1RzUzRkWWlSOTdha2NnYVBkMmI2Rk54M3p5cGR3eTVVWjJmMEEtWlZJeUFQWEdueDJDeEV5TElHb2podDN1ZE9uYUFUWm5YMi1TMXZBdw?oc=5",
 "urls": []
 },
 "ef2047972e49": {
@@ -3344,7 +3291,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793016530.0020177,
+"t": 1793017139.8365943,
 "t0": 1793007733.0,
 "tgtext": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board\n\nAsia Gulf Holdings, parent of Bahrain-licensed Singapore Gulf Bank, appointed Revolut Group chairman Martin Gilbert and former Singapore minister Maliki Osman to its Global Advisory Board. Gilbert will advise on investment strategy and asset management across Asia and the Middle East, while Osman will focus on geopolitics and government relations. \u2014 link",
 "title": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board",
@@ -3408,25 +3355,23 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0203d969a6e1": 0.011,
-"0f006ff6072a": 0.063,
+"0203d969a6e1": 0.014,
 "128f2c548bbf": 0.026,
-"1918bf8cb041": 0.188,
 "1f4c8e9366aa": 0.123,
 "2be76d2a8fbb": 0.024,
-"31df6394e534": 0.686,
-"34feda7c5b2d": 0.022,
+"31df6394e534": 0.928,
+"34feda7c5b2d": 0.014,
+"358b08b2ce7d": 0.616,
 "40cff6bc0273": 0.467,
 "45095dcf130f": 0.028,
 "4680459dd6ff": 0.42,
 "46df9476d93f": 0.022,
-"4e7ef4fb0819": 0.049,
 "54a21a5ec434": 0.121,
+"56ec1a231d8b": 0.107,
 "6075f6da82ea": 0.085,
 "623ab80418db": 0.369,
 "62665bff99ad": 0.212,
 "6b0ba3c0dc87": 0.018,
-"726244ca2f14": 0.035,
 "7688e8ae4cf3": 0.162,
 "7a325eae3174": 0.033,
 "83ba23226ca8": 0.073,
@@ -3438,16 +3383,18 @@
 "af2e4bb1d661": 0.023,
 "b5454a0256d3": 0.216,
 "c00e0f8339fb": 0.114,
-"c02e6eec9828": 0.494,
-"c8662715cadd": 0.932,
+"c8662715cadd": 0.594,
 "cca4e83f2e3b": 0.181,
 "d38a28c5749c": 0.146,
+"d5213e315809": 0.38,
 "db172b1d80d0": 0.177,
 "ddff45cd25a5": 0.089,
 "df70b66dc458": 0.501,
+"e5b186b05192": 0.057,
 "e850cad05e58": 0.024,
 "f5acfd18ff4f": 0.077,
-"ff9509beeab8": 0.127
+"fe9d43ea130d": 0.065,
+"ff9509beeab8": 0.134
 },
 "sent": [
 {
@@ -3965,71 +3912,102 @@
 "stock",
 "strive"
 ]
+},
+{
+"e": [
+"asst",
+"strive"
+],
+"k": [],
+"t": 1793016839.182601,
+"u": [
+"https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1pKeFNSZFBHTm9Ib2hfcnpiT1B2b2dVREg2WkMwSW94STduRi12ZmtSQjFiQml3MHh2Q2RCNkN0ZUhJb3RNOEFFUFZBNmZxcUpJXzAtSy1TMWVBMXF5c3ppaUphZEROT3hEOC1USUtIZXp2ZFJzNGtMbzE5M3lpOXhDQjB2aXc5UUhVampNQ1czb2hvMlAxd0ZpZlFHWlNncmhuWFVwUDZkNEJZ?oc=5",
+"https://t.me/cointelegraph/72853"
+],
+"w": [
+"$630",
+"700",
+"asst",
+"bitcoin",
+"boost",
+"btc",
+"holdings",
+"million",
+"needs",
+"per",
+"place",
+"purchase",
+"raises",
+"rise",
+"second",
+"strive",
+"week"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"c8662715cadd",
-25,
-14,
-1
+"31df6394e534",
+19,
+236,
+2
 ],
 [
 "3a57e651b6db",
-3,
-236,
+2,
+246,
 1
 ],
 [
 "4cfbfa5c246f",
 10,
-156,
+166,
 1
 ],
 [
-"31df6394e534",
-20,
-226,
-2
+"358b08b2ce7d",
+50,
+282,
+10
+],
+[
+"c8662715cadd",
+25,
+24,
+1
 ],
 [
 "fb466e79bee3",
 10,
-147,
+157,
 1
 ],
 [
 "df70b66dc458",
-61,
-212,
+60,
+222,
 2
 ],
 [
-"c02e6eec9828",
-63,
-352,
-10
-],
-[
 "40cff6bc0273",
-61,
-259,
+60,
+269,
 4
 ],
 [
 "4680459dd6ff",
-23,
-198,
+22,
+208,
 1
 ],
 [
 "81dfdeacdf5f",
-2,
-290,
+0,
+301,
 1
 ]
 ],
-"top_at": 1793016530.0020177
+"top_at": 1793017139.8365943
 }
