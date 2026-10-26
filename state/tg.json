@@ -74,38 +74,6 @@
 },
 "t": 1793012394.0386746
 },
-"250da07218": {
-"coin": "qubic-network",
-"facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "NewsCord",
-"story": null,
-"t0": 1792558740.0,
-"tag": null,
-"title": "Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it",
-"url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5"
-},
-"p": {
-"keyfact": "Qubic restarted its Layer-1 blockchain and opened recovery claims following a hack.",
-"post": "The plot thickens. Qubic reportedly restarted its Layer-1 blockchain and opened recovery claims after a $1.4M hack, according to 8 outlets. When networks freeze, the real detective work begins. #Crypto",
-"quote": "NONE",
-"reply": "Another day, another restart.",
-"short": "",
-"stat": "$1.4M | Hack losses",
-"symbol": "QUBIC",
-"tag": "HACK",
-"thread": "",
-"timeline": "Before = Normal network operations ; Day of = $1.4M hack occurs ; After = Blockchain restarts & claims open",
-"title": "Qubic Restarts Layer-1 After $1.4M Hack",
-"versus": "Network status = Halted || Recovery = Claims open",
-"visual": "ALERT"
-},
-"t": 1792574671.700826
-},
 "39478e5a8c": {
 "coin": "",
 "facts": "Headline: INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries\nSources: Sahara Reporters, The Eastleigh Voice\n\n",
@@ -233,6 +201,38 @@
 "visual": "STAT"
 },
 "t": 1792761586.115322
+},
+"680a32504d": {
+"coin": "bitcoin",
+"facts": "Headline: Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\nSources: Wu Blockchain\nCoin in this story: Bitcoin (BTC) $80,389, -0.2% in 24h\n\nTelegram news posts about it:\nStrive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\n\nAccording to an SEC filing, Strive entered into an at-the-market sales agreement with Cantor Fitzgerald, Barclays and five other firms to sell up to $1 billion of its Series A perpetual preferred stock, SATS. The shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive said net proceeds may be used for general corporate purposes, including Bitcoin purchases, working capital, income-generating investments and repurchases of common or preferred stock. \u2014 link\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Wu Blockchain",
+"story": null,
+"t0": 1793015707.0,
+"tag": null,
+"title": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases",
+"url": "https://t.me/wublockchainenglish/26550"
+},
+"p": {
+"keyfact": "Strive filed to sell up to $1 billion in preferred stock to possibly fund Bitcoin purchases.",
+"post": "Strive just made a move that could alter its balance sheet. An SEC filing reveals an at the market sales agreement for up to $1 billion in Series A perpetual preferred stock. The net proceeds may fund Bitcoin purchases among other goals.",
+"quote": "NONE",
+"reply": "Another corporate treasury eyeing Bitcoin.",
+"short": "",
+"stat": "$1B | ATM program size",
+"symbol": "BTC",
+"tag": "MARKET",
+"thread": "1/ Strive just made a move that could alter its balance sheet. An SEC filing reveals an at the market sales agreement for up to $1 billion in Series A perpetual preferred stock. The net proceeds may fund Bitcoin purchases among other goals.\n\n2/ Wu Blockchain reports that Strive entered into this sales agreement with Cantor Fitzgerald, Barclays and five other firms. The offering targets up to $1 billion of its Series A perpetual preferred stock, trading under the ticker SATS.\n\n3/ According to the filing, these shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive stated that net proceeds may be used for general corporate purposes, including Bitcoin purchases.\n\n4/ Other listed uses for the funds include working capital, income generating investments and repurchases of common or preferred stock. \n\n5/ Lesson: Always check the regulatory filings. Corporate balance sheet strategies are revealed in SEC documents long before the market fully prices in the impact. #Bitcoin",
+"timeline": "NONE",
+"title": "Strive Opens $1B ATM Program",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1793015929.27196
 },
 "690edda5e1": {
 "coin": "bitcoin",
@@ -1001,7 +1001,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489335,
+"offset": 138489337,
 "otd": {
 "date": "Oct 21",
 "now": 83421,

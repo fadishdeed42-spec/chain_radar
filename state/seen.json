@@ -4,14 +4,12 @@
 },
 "init": true,
 "log": [
-1792921618.3004637,
-1792927543.1793945,
-1792929110.1027076,
 1792962517.8883111,
 1792978702.8286002,
 1792985684.3985317,
 1793003121.7053874,
-1793007321.8625987
+1793007321.8625987,
+1793015901.0176318
 ],
 "menu": {
 "01c6004fdf5a": {
@@ -563,7 +561,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793011300.4077096,
+"t": 1793015901.0176318,
 "t0": 1793008914.0,
 "tgtext": "\ud83c\uddef\ud83c\uddf5 UPDATE: Japan\u2019s PM Sanae Takaichi will lead a cybersecurity meeting as mounting cyberattacks cause large-scale data leaks.\n\nNews | Markets | YouTube",
 "title": "Japan\u2019s PM Sanae Takaichi will lead a cybersecurity meeting as mounting cyberattacks cause large-scale data leaks.",
@@ -719,7 +717,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1793002395.0,
 "tgtext": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.\n\n$Kimchi briefly surged over 150%.\n\nCoincidentally, trader ja2trader spent $28.9K buying 4.61M $Kimchi just hours before @kimchi1x added @pumpfun back to his bio, and is now up $11K.\n\nhttps://solscan.io/account/8dxFkfYTddmgRpphqgvBkNN2LLz1MHgGzd63Wz79gfQz?exclude_amount_zero=true&remove_spam=false&token_address=CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump&page_size=100#transfers",
 "title": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.",
@@ -841,7 +839,7 @@
 "Coinpedia",
 "Cryptopolitan"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1793000995.0,
 "tgtext": "",
 "title": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
@@ -920,7 +918,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1793004679.0,
 "tgtext": "",
 "title": "RWA perpetuals open interest nears $20 billion, CryptoRank data shows",
@@ -1013,10 +1011,10 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1793007190.0,
-"tgtext": "MEXC winds down Netherlands, expands restricted-market list\n\nMEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands\n\nMEXC said it does not hold MiCA authorization in the EU and EEA and is winding down services in the Netherlands, with final offboarding scheduled for November 16. The exchange is also discontinuing services for users in Russia and Belarus. Separately, its User Agreement currently lists 13 prohibited jurisdictions, including the United States, Canada, the United Kingdom, Singapore, Hong Kong, Mainland China, Malaysia and Kazakhstan. \u2014 link",
-"title": "MEXC winds down Netherlands, expands restricted-market list",
+"tgtext": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands\n\nMEXC said it does not hold MiCA authorization in the EU and EEA and is winding down services in the Netherlands, with final offboarding scheduled for November 16. The exchange is also discontinuing services for users in Russia and Belarus. Separately, its User Agreement currently lists 13 prohibited jurisdictions, including the United States, Canada, the United Kingdom, Singapore, Hong Kong, Mainland China, Malaysia and Kazakhstan. \u2014 link",
+"title": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands",
 "url": "https://t.me/wublockchainenglish/26548",
 "urls": []
 },
@@ -1370,7 +1368,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793013451.6573358,
+"t": 1793015901.0176318,
 "t0": 1793012499.0,
 "tgtext": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)\n\n\nBinance Wallet is excited to launch the AXIS Trading Competition on Binance Alpha! During the Promotion Periods, trade Axis Robotics (AXIS) in your Binance Wallet (Keyless) or via Binance Alpha to receive exclusive token rewards. Any user who is eligible to trade Binance Alpha tokens is eligible to participate in this trading competition.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)",
@@ -1834,7 +1832,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793015289.0456533,
+"t": 1793015596.6854231,
 "t0": 1792999104.0,
 "tgtext": "",
 "title": "Over 11 million BTC can't be linked to any known owner",
@@ -2599,7 +2597,7 @@
 "StreetInsider",
 "TradingView"
 ],
-"t": 1793015289.0456533,
+"t": 1793015596.6854231,
 "t0": 1792994570.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Near $80K as Remittix\u2019s $33M Raise Meets a 300M RTX Burn Plan and November Debut",
@@ -2610,19 +2608,19 @@
 },
 "c02e6eec9828": {
 "coin": "bitcoin",
-"src": "CryptoRank",
+"src": "Yahoo Finance",
 "srcs": [
 "CoinDesk",
 "Crypto News",
-"CryptoRank",
 "CryptoTicker",
-"Moomoo"
+"Pintu",
+"The Crypto Times"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1792995396.0,
 "tgtext": "",
-"title": "Crypto Price Analysis, BTC, ETH, HYPE, QNT and ICP, October 26: Quant Gains 3.2% as Bitcoin Falls Below $80,000 and Ethereum Weakens",
-"url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYVlkdGVUSUZGLVUyQ2xQSTkyXzFnd2xlMXFIVnQxTHVVa3Z4U2JTcWFBaG9vZnlNSmRaSlphaHFiLXM5S0VJUWRkb2hIaXVkcVhGeU1uYjJONnU3eE9ZblJNVjF1Mno5Y2xIaHliUE43R3MzTjhYWEk0YXl2TlFSbE1kUF91RFRMWDZ6QlF1SEZQa0JVTmg3cEpJb09zM2NYVVFlb3h4UjdsNjRhUGVXekctU0lpaHBIRGdyT2NsVFQ5QnUzNnZMREM3bTZNR3VidXB2Y3R1VUJNNVVrSlJzMTVtZ2g3SDNuM3N4Rl91TkZmYTQ?oc=5",
+"title": "Retail Bitcoin Holders Are Sending Coins to Binance at a Six-Month High While Whales Pull Back: Who Is Right About $80,000?",
+"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHV1REtUNndhSUJ5b3ZtMEhWTHhzOXFpRXBsenM0eFNBX1dkeFowSWJ6bTlFS3dqdnV3WTkwSnlxLUZ2OTRjeXdOS3Jia2lnejBiZnNMR2FFLWJtVXJJTUp3MHhwTWNBNC1hSUlFMnNyMlVubkFkcVhNU21hdmxya1Y2aVpCV2duTXVzTDd6YVU2N291R0dLSzZuaUx3dHpFUFRF?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms"
 ]
@@ -2753,6 +2751,19 @@
 "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaktfNlhqd0RMNjNNOVB3aXlOcW5mLTNFSGlnSU1VaUg0SzFONl9tbWFTU0NoZ1R6Z2ZwTXJvMWR0a2Uxai1IOXI5d3ZZcmc4QzQzdk05ajBuZURFSXFVZTlwcExwOXFhSlFjQVJFcWo1NE43aWR1cVhRUzVZT0tETnRGd1c1dVdfYjZmeDNRYmtoeHhad2ZLRmxDcWlwT3cxMlE?oc=5",
 "urls": []
 },
+"c8662715cadd": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793015901.0176318,
+"t0": 1793015707.0,
+"tgtext": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\n\nAccording to an SEC filing, Strive entered into an at-the-market sales agreement with Cantor Fitzgerald, Barclays and five other firms to sell up to $1 billion of its Series A perpetual preferred stock, SATS. The shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive said net proceeds may be used for general corporate purposes, including Bitcoin purchases, working capital, income-generating investments and repurchases of common or preferred stock. \u2014 link",
+"title": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases",
+"url": "https://t.me/wublockchainenglish/26550",
+"urls": []
+},
 "c87d738b3e90": {
 "coin": "",
 "src": "bloomingbit",
@@ -2815,7 +2826,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793015289.0456533,
+"t": 1793015596.6854231,
 "t0": 1793008964.0,
 "tgtext": "Halloween Pumpkin Frenzy: Trade, Earn and Invite Friends to Share a $1.7M Prize Pool\n\n\nCelebrate Halloween with Binance's Halloween Pumpkin Frenzy! Complete trading tasks or invite friends to unlock Pumpkin rewards from a combined prize pool valued at $1.2 million across two promotions.\u00a0\n\nIn addition, join the Earn Leaderboard campaign to share $500,000 worth of XPL rewards. \n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Halloween Pumpkin Frenzy: Trade, Earn and Invite Friends to Share a $1.7M Prize Pool",
@@ -3074,7 +3085,7 @@
 "Altcoin Buzz",
 "The Crypto Times"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1793003839.0,
 "tgtext": "",
 "title": "Bithumb and Upbit Flag Initia (INIT) as High-Risk After $2.7M Exploit",
@@ -3335,7 +3346,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793015289.0456533,
+"t": 1793015901.0176318,
 "t0": 1793007733.0,
 "tgtext": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board\n\nAsia Gulf Holdings, parent of Bahrain-licensed Singapore Gulf Bank, appointed Revolut Group chairman Martin Gilbert and former Singapore minister Maliki Osman to its Global Advisory Board. Gilbert will advise on investment strategy and asset management across Asia and the Middle East, while Osman will focus on geopolitics and government relations. \u2014 link",
 "title": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board",
@@ -3399,12 +3410,12 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"00558062071d": 0.011,
-"0203d969a6e1": 0.023,
+"0203d969a6e1": 0.005,
+"0b6e229eabee": 0.013,
 "0f006ff6072a": 0.033,
 "128f2c548bbf": 0.014,
 "1918bf8cb041": 0.105,
-"1f4c8e9366aa": 0.102,
+"1f4c8e9366aa": 0.066,
 "2be76d2a8fbb": 0.012,
 "2df8260efdf8": 0.008,
 "31df6394e534": 0.052,
@@ -3420,24 +3431,24 @@
 "62665bff99ad": 0.119,
 "686e1371f71d": 0.025,
 "726244ca2f14": 0.065,
-"7407906ba7f0": 0.061,
 "7688e8ae4cf3": 0.089,
 "7a325eae3174": 0.017,
-"83ba23226ca8": 0.031,
+"83ba23226ca8": 0.038,
 "83ec5ad5a1c1": 0.051,
 "886a005702b3": 0.051,
 "92ba76d45022": 0.02,
 "9aafa9477107": 0.069,
 "ad683bbea58f": 0.09,
-"bedeca12568a": 0.347,
+"bedeca12568a": 0.122,
 "c00e0f8339fb": 0.061,
-"c02e6eec9828": 0.273,
-"cca4e83f2e3b": 0.356,
+"c02e6eec9828": 0.453,
+"c8662715cadd": 0.786,
+"cca4e83f2e3b": 0.101,
+"d38a28c5749c": 0.079,
 "db172b1d80d0": 0.098,
-"df5044bdc866": 0.045,
 "df70b66dc458": 0.337,
 "e5b186b05192": 0.029,
-"e850cad05e58": 0.006,
+"e850cad05e58": 0.015,
 "ff9509beeab8": 0.069
 },
 "sent": [
@@ -3930,6 +3941,32 @@
 "unexpected",
 "unpatched"
 ]
+},
+{
+"e": [
+"atm",
+"sats",
+"strive"
+],
+"k": [],
+"t": 1793015901.0176318,
+"u": [
+"https://t.me/wublockchainenglish/26550"
+],
+"w": [
+"$1b",
+"atm",
+"bitcoin",
+"fund",
+"may",
+"opens",
+"preferred",
+"program",
+"purchases",
+"sats",
+"stock",
+"strive"
+]
 }
 ],
 "stories": {},
@@ -3937,64 +3974,64 @@
 "top": [
 [
 "3a57e651b6db",
-6,
-215,
+4,
+225,
+1
+],
+[
+"c8662715cadd",
+25,
+3,
 1
 ],
 [
 "4cfbfa5c246f",
 10,
-135,
+145,
 1
+],
+[
+"c02e6eec9828",
+64,
+342,
+8
 ],
 [
 "fb466e79bee3",
 10,
-126,
-1
-],
-[
-"cca4e83f2e3b",
-16,
-105,
+136,
 1
 ],
 [
 "40cff6bc0273",
-54,
-238,
-3
-],
-[
-"bedeca12568a",
-19,
-345,
+52,
+248,
 3
 ],
 [
 "df70b66dc458",
-64,
-191,
+63,
+201,
 2
-],
-[
-"c02e6eec9828",
-49,
-332,
-9
 ],
 [
 "4680459dd6ff",
 25,
-177,
+187,
 1
 ],
 [
-"81dfdeacdf5f",
-5,
-270,
+"2b67d4f68b26",
+10,
+116,
+1
+],
+[
+"623ab80418db",
+18,
+57,
 1
 ]
 ],
-"top_at": 1793015289.0456533
+"top_at": 1793015901.0176318
 }
