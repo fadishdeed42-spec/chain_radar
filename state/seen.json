@@ -14,7 +14,8 @@
 1793017755.3988316,
 1793018701.1276052,
 1793019603.0162964,
-1793020214.8749537
+1793020214.8749537,
+1793020522.5291617
 ],
 "menu": {
 "01c6004fdf5a": {
@@ -613,15 +614,17 @@
 "src": "Moomoo",
 "srcs": [
 "Cointelegraph",
-"CryptoPotato",
-"Moomoo"
+"Moomoo",
+"The Block"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793003000.0,
 "tgtext": "\ud83d\udd25 JUST IN: Strive acquires 6,182 $BTC, bringing its total holdings to 43,000 Bitcoin.\n\nNews | Markets | YouTube",
 "title": "Strive (ASST.US) raises $630 million to boost Bitcoin holdings; needs to purchase 700 BTC per week to rise to second place.",
 "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1pKeFNSZFBHTm9Ib2hfcnpiT1B2b2dVREg2WkMwSW94STduRi12ZmtSQjFiQml3MHh2Q2RCNkN0ZUhJb3RNOEFFUFZBNmZxcUpJXzAtSy1TMWVBMXF5c3ppaUphZEROT3hEOC1USUtIZXp2ZFJzNGtMbzE5M3lpOXhDQjB2aXc5UUhVampNQ1czb2hvMlAxd0ZpZlFHWlNncmhuWFVwUDZkNEJZ?oc=5",
-"urls": []
+"urls": [
+"https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-511-million-purchase-431729"
+]
 },
 "323fdd9b8bb7": {
 "coin": "",
@@ -657,21 +660,20 @@
 },
 "358b08b2ce7d": {
 "coin": "bitcoin",
-"src": "TradingKey",
+"src": "CryptoRank",
 "srcs": [
 "Crypto News",
+"CryptoRank",
 "CryptoTicker",
 "Cryptonews",
-"Decrypt",
-"Finance Magnates"
+"Cryptonews.net"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793000198.0,
 "tgtext": "",
-"title": "Bitcoin Price Forecast: Drops Below $80,000 in Fifth Straight Loss, May Test $75,000 as FOMC Meeting Approaches",
-"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZUlyeFozU3REMC1SdGlDZFdZYWV4Tzl6TG9oR204RzltUFRzTVB2OFlLRWRZZVFfSkVGVzl1S0dheG9PUFBHQXJ1N0RPdWxwbkpCQkhLQjg0QVBvX2dlTDVySktkUmMzUUNUM1N6cFJWbC1udXNRbGtrWHQ1cmtDUFpGUUk0cWZoQlpKNS1lYjg1TlVFMV9LMXBlVDZ6Q1JCcW5acTRiSllWaklENWstTWlHUHNpTjkzNlFsYQ?oc=5",
+"title": "Crypto Price Analysis, BTC, ETH, HYPE, QNT and ICP, October 26: Quant Gains 3.2% as Bitcoin Falls Below $80,000 and Ethereum Weakens",
+"url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYVlkdGVUSUZGLVUyQ2xQSTkyXzFnd2xlMXFIVnQxTHVVa3Z4U2JTcWFBaG9vZnlNSmRaSlphaHFiLXM5S0VJUWRkb2hIaXVkcVhGeU1uYjJONnU3eE9ZblJNVjF1Mno5Y2xIaHliUE43R3MzTjhYWEk0YXl2TlFSbE1kUF91RFRMWDZ6QlF1SEZQa0JVTmg3cEpJb09zM2NYVVFlb3h4UjdsNjRhUGVXekctU0lpaHBIRGdyT2NsVFQ5QnUzNnZMREM3bTZNR3VidXB2Y3R1VUJNNVVrSlJzMTVtZ2g3SDNuM3N4Rl91TkZmYTQ?oc=5",
 "urls": [
-"https://decrypt.co/381802/bitcoin-dips-below-80000-ahead-of-fed-decision-midterms",
 "https://decrypt.co/381797/morning-minute-bitcoin-breaks-below-80000-as-iran-fears-hit-the-weekend"
 ]
 },
@@ -723,7 +725,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793002395.0,
 "tgtext": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.\n\n$Kimchi briefly surged over 150%.\n\nCoincidentally, trader ja2trader spent $28.9K buying 4.61M $Kimchi just hours before @kimchi1x added @pumpfun back to his bio, and is now up $11K.\n\nhttps://solscan.io/account/8dxFkfYTddmgRpphqgvBkNN2LLz1MHgGzd63Wz79gfQz?exclude_amount_zero=true&remove_spam=false&token_address=CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump&page_size=100#transfers",
 "title": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.",
@@ -854,6 +856,20 @@
 "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZUxMNzAxWnBmWFhlLW1CYm1SY2ppSjdVOXkwN0duMHRHQVR3QWhqMGItUm9mZVM0OUx4Rjk1d1h2aXIyWnZ5UXBKcjRfd01CZjRDTWJQN2kxODNMVzc2X2tVdThzSFlQV1BCczhrZ0RMTjNlalkwbjZlcHhHckxlN3o0MmtERGpDYThFTW1lV2VPb2FBcVNBa3NlODhBUW5zaVFIQ2RSYnI4dm9IYlZxZ0w5alVfUTNKS0RZOGttX2R1eUdacTFzTQ?oc=5",
 "urls": []
 },
+"4110d093f673": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1793020826.7162864,
+"t0": 1793020219.0,
+"tgtext": "JUST IN: Claude AI developer Anthropic officially files for IPO under ticker $ANT.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Anthropic files S-1 for IPO, seeking Nasdaq listing under $ANT.\n\nNews | Markets | YouTube",
+"title": "Claude AI developer Anthropic officially files for IPO under ticker ANT.",
+"url": "https://t.me/WatcherGuru/15628",
+"urls": []
+},
 "4542a9a3a5a5": {
 "coin": "",
 "src": "Pluang",
@@ -980,7 +996,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793019910.5728152,
+"t": 1793020826.7162864,
 "t0": 1793018497.0,
 "tgtext": "BitMine acquires 10,452 ETH, total holdings reach 6,051,933 ETH\n\nBitMine said it acquired 10,452 ETH over the past week, bringing total holdings to 6,051,933 ETH, or about 4.95% of Ethereum\u2019s supply. The company also repurchased 2.04 million shares at an average price of $22.48; its 2026 buybacks now total 22.9 million shares, or about $399.6 million. BitMine has 5.23 million ETH staked and reported total crypto, cash, marketable securities and other investments of about $15 billion. \u2014 link",
 "title": "BitMine acquires 10,452 ETH, total holdings reach 6,051,933 ETH",
@@ -1006,7 +1022,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793007190.0,
 "tgtext": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands\n\nMEXC said it does not hold MiCA authorization in the EU and EEA and is winding down services in the Netherlands, with final offboarding scheduled for November 16. The exchange is also discontinuing services for users in Russia and Belarus. Separately, its User Agreement currently lists 13 prohibited jurisdictions, including the United States, Canada, the United Kingdom, Singapore, Hong Kong, Mainland China, Malaysia and Kazakhstan. \u2014 link",
 "title": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands",
@@ -1147,7 +1163,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793020214.8749537,
+"t": 1793020522.5291617,
 "t0": 1793019584.0,
 "tgtext": "Strategy buys no Bitcoin for week, spends $205M on STRC buybacks\n\nStrategy said it made no Bitcoin purchases or sales and conducted no ATM stock sales between October 19 and 25, while spending about $204.9 million to repurchase 2.07 million STRC preferred shares. The company continues to hold 848,517 BTC acquired for about $64.02 billion at an average price of $75,446, alongside a $4.83 billion USD Reserve and roughly $242 million in additional cash. \u2014 link",
 "title": "Strategy buys no Bitcoin for week, spends $205M on STRC buybacks",
@@ -1846,7 +1862,7 @@
 "The Crypto Times",
 "Watcher.Guru"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793018783.0,
 "tgtext": "\ud83d\udd25 JUST IN: Tom Lee\u2019s Bitmine bought 10,452 $ETH last week.\n\nTotal holdings now stand at 6.05M ETH, or 4.95% of the supply.\n\nNews | Markets | YouTube\nJUST IN: Tom Lee's 'BitMine' buys 10,452 $ETH worth $24 million.\n\n@WatcherGuru",
 "title": "Tom Lee\u2019s Bitmine Spends More on BMNR Buyback Than ETH as Weekly Buy Slows to 10,452",
@@ -2239,7 +2255,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793020214.8749537,
+"t": 1793020522.5291617,
 "t0": 1793019915.0,
 "tgtext": "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's stock market suspends trading due to circuit breaker.\n\n@WatcherGuru",
 "title": "\ud83c\udde7\ud83c\uddf7 Brazil's stock market suspends trading due to circuit breaker.",
@@ -2660,7 +2676,7 @@
 "Bitcoin Magazine",
 "Lookonchain"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793017467.0,
 "tgtext": "Strategy didn't buy any $BTC last week, while #Strive bought 6,182 $BTC ($511.4M) at an average price of $82,732.",
 "title": "Strategy didn't buy any BTC last week, while Strive bought 6,182 BTC ($511.4M) at an average price of $82,732.",
@@ -2733,7 +2749,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793019910.5728152,
+"t": 1793020826.7162864,
 "t0": 1793015707.0,
 "tgtext": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\n\nAccording to an SEC filing, Strive entered into an at-the-market sales agreement with Cantor Fitzgerald, Barclays and five other firms to sell up to $1 billion of its Series A perpetual preferred stock, SATS. The shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive said net proceeds may be used for general corporate purposes, including Bitcoin purchases, working capital, income-generating investments and repurchases of common or preferred stock. \u2014 link",
 "title": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases",
@@ -3307,7 +3323,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793020214.8749537,
+"t": 1793020826.7162864,
 "t0": 1793007733.0,
 "tgtext": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board\n\nAsia Gulf Holdings, parent of Bahrain-licensed Singapore Gulf Bank, appointed Revolut Group chairman Martin Gilbert and former Singapore minister Maliki Osman to its Global Advisory Board. Gilbert will advise on investment strategy and asset management across Asia and the Middle East, while Osman will focus on geopolitics and government relations. \u2014 link",
 "title": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board",
@@ -3359,45 +3375,45 @@
 },
 "probs": {
 "0203d969a6e1": 0.045,
+"1cb822f4db67": 0.136,
 "2be76d2a8fbb": 0.053,
-"31df6394e534": 0.886,
-"358b08b2ce7d": 0.701,
+"31df6394e534": 0.916,
+"358b08b2ce7d": 0.721,
 "40cff6bc0273": 0.427,
+"4110d093f673": 0.941,
 "45095dcf130f": 0.007,
 "46df9476d93f": 0.022,
-"4e7ef4fb0819": 0.049,
 "4f3d1a8ea968": 0.268,
 "56ec1a231d8b": 0.107,
 "6075f6da82ea": 0.035,
 "623ab80418db": 0.106,
 "6b0ba3c0dc87": 0.018,
-"7688e8ae4cf3": 0.162,
 "76f5a314615e": 0.049,
 "7a325eae3174": 0.033,
-"7fec72739a5c": 0.012,
 "83ba23226ca8": 0.018,
-"83ec5ad5a1c1": 0.062,
+"83ec5ad5a1c1": 0.115,
 "886a005702b3": 0.062,
 "8af14190b1b8": 0.893,
 "92ba76d45022": 0.039,
-"98e25f04c7b4": 0.284,
+"98e25f04c7b4": 0.196,
 "9aafa9477107": 0.251,
-"a8ff9215bd4c": 0.905,
+"a8ff9215bd4c": 0.506,
 "ad683bbea58f": 0.044,
 "b5454a0256d3": 0.216,
 "b9c865b3a408": 0.018,
 "c00e0f8339fb": 0.114,
-"c66236a8e821": 0.917,
+"c159a91bfa3c": 0.131,
+"c66236a8e821": 0.913,
 "c8662715cadd": 0.592,
 "d38a28c5749c": 0.281,
-"d7d535c8648c": 0.025,
+"d7d535c8648c": 0.011,
 "db172b1d80d0": 0.177,
-"debb05df6113": 0.883,
+"debb05df6113": 0.447,
 "df70b66dc458": 0.461,
 "e850cad05e58": 0.024,
 "f5acfd18ff4f": 0.077,
 "fe9d43ea130d": 0.065,
-"ff9509beeab8": 0.134
+"ff9509beeab8": 0.106
 },
 "sent": [
 {
@@ -4069,71 +4085,96 @@
 "strategy",
 "unchanged"
 ]
+},
+{
+"e": [
+"ant",
+"anthropic",
+"claude",
+"ipo"
+],
+"k": [],
+"t": 1793020522.5291617,
+"u": [
+"https://t.me/WatcherGuru/15628",
+"https://t.me/cointelegraph/72859"
+],
+"w": [
+"ant",
+"anthropic",
+"claude",
+"developer",
+"files",
+"ipo",
+"officially",
+"ticker",
+"under"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"c66236a8e821",
-49,
-46,
+"4110d093f673",
+28,
+10,
 2
 ],
 [
-"a8ff9215bd4c",
-32,
-5,
-1
+"31df6394e534",
+21,
+297,
+3
+],
+[
+"c66236a8e821",
+49,
+56,
+2
 ],
 [
 "8af14190b1b8",
 44,
-24,
+34,
 3
-],
-[
-"31df6394e534",
-22,
-287,
-3
-],
-[
-"debb05df6113",
-18,
-10,
-1
 ],
 [
 "3a57e651b6db",
 0,
-297,
+307,
 1
 ],
 [
 "4cfbfa5c246f",
-6,
-217,
+4,
+227,
 1
 ],
 [
 "358b08b2ce7d",
-57,
-334,
-10
-],
-[
-"54deb8cad882",
-16,
-11,
-1
+69,
+344,
+11
 ],
 [
 "fb466e79bee3",
-7,
-208,
+5,
+218,
+1
+],
+[
+"49be0edcfc3a",
+10,
+39,
+1
+],
+[
+"c8662715cadd",
+25,
+85,
 1
 ]
 ],
-"top_at": 1793020214.8749537
+"top_at": 1793020826.7162864
 }
