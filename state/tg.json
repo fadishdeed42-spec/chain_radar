@@ -234,38 +234,6 @@
 },
 "t": 1792751565.570382
 },
-"7be20f7bc3": {
-"coin": "",
-"facts": "Headline: Drift Protocol Exploit Wallets Move $61.6 Million in Ether to Tornado Cash\nSources: Decrypt, Yahoo Finance, www.tokenpost.com\n\nArticle text:\nWallets tied to April's $295 million Drift Protocol exploit pushed 25,700 Ethereum, worth about $61.56 million, into the crypto mixer Tornado Cash over roughly two hours on Tuesday. The addresses had been quiet for about two months before the burst. Transfer data from\u00a0Arkham Intelligence shows the deposits landing in batches of 100 ETH, about $237,800 each, plus smaller 10 ETH chunks. Those sizes match the mixer's fixed deposit pools, which let users pull funds out later from fresh addresses and break the public link between sender and receiver. Arkham's entity page, which tracks 71 addresses linked to the attacker, still shows 81,454 ETH sitting in those wallets after Tuesday's deposits, worth roughly $198.58 million at current prices. Besides that ETH stash, the wallet holds around $561.6K in other coins like USDT, USDC, Solana, and USDY. Tuesday's deposits follow a first round on July 23 and 24, when an address labeled Drift Exploiter 4 sent about 23,095 ETH, then worth around $44.4 million, into the same mixer. The\u00a0April 1 exploit hit Drift's vaults on Solana after the attacker gained admin powers, introduced a fake token and used it to borrow out real liquidity. Drift's own\u00a0asset breakdown puts the haul at $295.7 million, led by $159.3 million in JLP\u2014the Jupiter Liquidity Provider token\u2014and $71.4 million in USDC, most of which was later swapped and bridged to Ethereum. Arkham's portfolio view still lists exactly one Fartcoin in the exploiter's holdings, worth about 15 cents, a long way from the $4.1 million in Fartcoin that Drift says was taken in April. Drift said in April that the attack was a\u00a0six-month operation in which the group posed as a quantitative trading firm, met contributors in person and deposited $1 million of its own money to build trust. In June, Drift said forensic firm Mandiant attributed the attack to UNC6862, a North Korean threat group. Oct 13Oct 15Oct 17Oct 19Oct 20$83.7k$82.6k$81.4k$80.2k24h HighHigh$83,24924h LowLow$81,155VolVol$1.1BMarket projectionsOdds by MyriadThis weekAbove $82,000Above $82k63% chance\u2192Buy Bitcoin with USDTPowered by Jupiter$50$100$500BuyPrice data by CoinGeckoCoinGeckoMore Bitcoin news and projections \u2192Drift, whose relaunched exchange now runs as Velocity, opened claims for its\u00a0DFX recovery token on Oct. 1, issuing one token for every USDT of verified loss, about 299.5 million in total. The recovery pool held about 3.1 million USDT at launch, so early redemptions paid roughly 0.0104 USDT per token, or about a penny on the dollar. The pool gets a daily cut of between 60% and 90% of Velocity's net protocol revenue, scaling up as daily revenue grows, and Tether has committed up to 127.5 million USDT toward the\u00a0relaunch and recovery. Any stolen funds recovered through freezes, the bounty, or law enforcement also go into the pool. Start every day with the top news stories right now, plus original features, a podcast, videos and more.\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "www.tokenpost.com",
-"story": null,
-"t0": 1792518984.0,
-"tag": null,
-"title": "Drift Protocol Exploit Wallets Move $61.6 Million in Ether to Tornado Cash",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hR1lwZ0U1TTVjS09hZ3Z0M2FOSHMxaHo2LXFvNjRzWjY2a0o5TklMS3ZRTHlhbm13bGdOTHlXZTZOUUtsaXNNN2tJc3FUUEZaa0dRR25pM1hBVE0?oc=5"
-},
-"p": {
-"keyfact": "Wallets tied to the April Drift Protocol exploit moved 25,700 ETH to Tornado Cash.",
-"post": "The April Drift Protocol exploiters are cashing out. Wallets tied to the $295M attack reportedly pushed 25,700 ETH worth $61.6M into Tornado Cash in two hours. The trail of the stolen funds just got much harder to follow.",
-"quote": "NONE",
-"reply": "Another massive batch headed straight for the mixer.",
-"short": "",
-"stat": "$61.6M | Tornado Cash ETH dump",
-"symbol": "NONE",
-"tag": "HACK",
-"thread": "",
-"timeline": "Apr 1 = Drift Protocol vaults hit by $295M exploit ; Jul 23 = First round of mixer deposits sent ; Oct 1 = DFX recovery token claims opened ; Tue = 25,700 ETH moved to Tornado Cash",
-"title": "$61.6M DRIFT EXPLOIT FUNDS MIXED",
-"versus": "Stolen to mixer = $61.6M || Remaining in wallets = $198.6M",
-"visual": "STAT"
-},
-"t": 1792532896.2249322
-},
 "8f56c80599": {
 "coin": "",
 "facts": "Headline: Initia hacked for $2.6 million\nSources: DefiLlama\nHack date: Oct 23. Chain: ['Initia']. Method: Infinite Mint. Amount: $2,600,000. (DefiLlama hacks database.)\n",
@@ -495,6 +463,38 @@
 },
 "t": 1792927564.1788967
 },
+"a8b10cdb78": {
+"coin": "",
+"facts": "Headline: Stanbic IBTC chairman and CEO suspended over alleged accounting inaccuracies\nSources: Yahoo Finance UK\nThis happened on October 26, 2015 (11 years ago today). Headline from that day: Stanbic IBTC chairman and CEO suspended over alleged accounting inaccuracies (Yahoo Finance UK).\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Yahoo Finance UK",
+"story": true,
+"t0": null,
+"tag": "TRUE STORY",
+"title": "Stanbic IBTC chairman and CEO suspended over alleged accounting inaccuracies",
+"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRVQ4RVhZOWlYdXRRU2ZPeE5WNEVCZk1yTTlLTVZkX2lacG44MVZLNzhZbE90RXlqLWFKb0Jtc3B4cWtrU2JPdUVqVDBUcmlrV3I1T1lBSFdpYXQzWmlSUlFueUVzSm5wa2o0QmdpZjViOEhPTFlsMHVzLWQ2dHRBQ29oTkZuTk1jeV9jbA?oc=5"
+},
+"p": {
+"keyfact": "Stanbic IBTC chairman and CEO were suspended over alleged accounting inaccuracies.",
+"post": "History repeats in the shadows of traditional finance. On this day in 2015, the chairman and CEO of Stanbic IBTC were reportedly suspended over alleged accounting inaccuracies. Even giants fall when the books do not add up.",
+"quote": "NONE",
+"reply": "The ledger always reveals the truth in the end.",
+"short": "",
+"stat": "11 YRS | Time since suspension",
+"symbol": "NONE",
+"tag": "BREAKING",
+"thread": "",
+"timeline": "Oct 26, 2015 = Chairman and CEO suspended ; Oct 26, 2015 = Accounting inaccuracies alleged ; Oct 26, 2015 = Yahoo Finance UK reports action",
+"title": "Stanbic IBTC CEO suspended over accounting",
+"versus": "NONE",
+"visual": "ALERT"
+},
+"t": 1793009588.659905
+},
 "aeccd50dcb": {
 "coin": "bitcoin",
 "facts": "Headline: SpaceX and Tesla Are Exploring a Merger That Would Hold 30,000 BTC. What Could It Mean for Bitcoin?\nSources: 24/7 Wall St., CryptoTicker, Decrypt\nCoin in this story: Bitcoin (BTC) $84,405, +2.0% in 24h\n\nArticle text:\nElon Musk\u2019s floated merger of SpaceX and Tesla would do more than unite rockets and electric cars. It would fold two of the world\u2019s largest corporate Bitcoin stashes onto a single balance sheet. Speaking on SpaceX\u2019s third-quarter earnings call Tuesday, Musk said the boards of both companies had formed special committees of independent directors to weigh a tie-up, cautioning that treating a deal as \u201ca certainty\u201d would be \u201coverstating it.\u201d But the prospect alone has drawn fresh attention to the combined entity\u2019s crypto holdings. Tesla reported 11,509 BTC in its most recent quarterly filing, while SpaceX disclosed 18,712 BTC in the S-1 it filed ahead of its June IPO. Together, that\u2019s 30,221 BTC, worth roughly $2.5 billion at Bitcoin\u2019s recent price near $83,000. As Decrypt reported when the merger idea first surfaced, combining the two would stack one of the largest non-mining corporate Bitcoin positions anywhere under Musk\u2019s control, placing the merged company among the top handful of public holders, trailing only the likes of Michael Saylor\u2019s Strategy and a few others. Oct 14Oct 16Oct 18Oct 19Oct 21$84.6k$83.1k$81.7k$80.2k24h HighHigh$84,72024h LowLow$82,327VolVol$1.2BMarket projectionsOdds by MyriadToday$84,000 to $86,000$84k\u2013$86k56% chanceThis weekAbove $84,000Above $84k58% chance\u2192Buy Bitcoin with USDTPowered by Jupiter$50$100$500BuyPrice data by CoinGeckoCoinGeckoMore Bitcoin news and projections \u2192The SpaceX portion is the more striking piece. The rocket maker\u2019s 18,712 BTC was effectively invisible to public markets until its IPO filing, meaning a substantial treasury had quietly accumulated inside a private company for years before anyone could count it, more than double what blockchain trackers had previously attributed to SpaceX wallets. The combined cost basis across both firms sits around $1 billion, implying an average buy price near $35,000 per coin. A merger wouldn\u2019t change anything about Bitcoin itself, and neither company has signaled plans to buy or sell. Both have held their positions static, with SpaceX last moving coins in prior years and Tesla reporting no changes. What a deal would alter is governance and accounting: one of the most closely watched corporate Bitcoin piles would sit inside a single public vehicle, subject to quarterly disclosures and the fair-value accounting that recently forced Tesla to book a loss as Bitcoin slid. For now, the treasury math is hypothetical, living or dying with a transaction that remains exploratory. But it underscores how, almost incidentally, a Musk mega-merger would also create a Bitcoin giant. Start every day with the top news stories right now, plus original features, a podcast, videos and more.\n",
@@ -559,37 +559,37 @@
 },
 "t": 1792978720.5761764
 },
-"c317cc2405": {
-"coin": "",
-"facts": "Headline: A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?\nSources: 24/7 Wall St., Yahoo Finance\n\n",
+"c37892f442": {
+"coin": "bitcoin",
+"facts": "Headline: Developer Left PHP Server Unpatched With Bitcoin Inside, but Hackers Hit an Unexpected Roadblock\nSources: CCN.com, CryptoSlate, www.techtimes.co.uk\nCoin in this story: Bitcoin (BTC) $80,373, +0.1% in 24h\n\nArticle text:\nBitcoin wallet Electrum has patched a security flaw that allowed hackers to redirect payments when users tried to increase transaction fees. The developers disclosed the vulnerability on Oct. 24, confirming that malicious servers had exploited the weakness and that at least one user lost Bitcoin after unknowingly approving a fraudulent transaction. The high-severity vulnerability affects Electrum versions earlier than 4.8.3. It exploits the wallet's reliance on external servers to track unconfirmed transactions, allowing attackers to manipulate the payment information users see before they authorize additional fees. The disclosure followed two complaints received on Oct. 11 and Oct. 18. The first user noticed an unfamiliar transaction appearing in their wallet after broadcasting a payment, while the second reported losing funds after attempting to accelerate a pending transfer. Both incidents involved attackers generating Bitcoin addresses that matched the final four characters of the intended recipients' addresses, potentially deceiving users who relied on partial address checks. Electrum did not disclose the amount stolen, although its maintainers confirmed that some servers were actively carrying out the attack. The exploit takes advantage of a weakness in how Electrum processes transaction information supplied by its connected servers. When a user broadcasts a Bitcoin payment, a malicious server can withhold the transaction from the network and instead supply a conflicting version that redirects the funds to an attacker-controlled address. The fraudulent transaction initially contains invalid signatures, meaning it cannot be processed as a legitimate payment. However, affected Electrum clients failed to verify those signatures before displaying the substituted transaction in the wallet's unconfirmed history. As a result, the legitimate payment disappears from that view, leaving the user with a manipulated transaction that appears to be awaiting confirmation. The attacker can then exploit Bitcoin's Replace-by-Fee feature, which allows users to increase transaction fees to encourage miners to confirm delayed payments. If the victim manually increases the fee on the substituted transaction, Electrum generates fresh signatures authorizing its altered payment details. That approval makes the attacker-directed transaction valid, allowing the funds to transfer without compromising the user's private keys. In the Oct. 18 incident, the attackers reportedly set the fraudulent transaction fee to zero, potentially encouraging the victim to raise it. The case shows how a routine wallet function can become a theft mechanism when the client accepts transaction details from an untrusted server without adequate verification. Electrum's latest release introduces signature checks for wallet-owned inputs before unconfirmed transactions enter the client's local history, preventing the reported substitution technique from reaching the fee-adjustment stage. The developers tagged version 4.8.3 on Oct. 23 and distributed the updated software on Oct. 24, alongside the public security disclosure. They advised users to download the patch from Electrum's official website and verify complete recipient addresses and payment amounts whenever signing transactions. The advisory also says clients connected exclusively to trusted servers, including privately operated ones, are not exposed to this attack. The patch does not extend signature verification to every incoming transaction. Oluwapelumi values Bitcoin's potential. He imparts insights on a range of topics like DeFi, hacks, mining and culture, underlining transformative power. We use cookies to improve your experience on our site. By using our site, you consent to cookies. Esse",
 "item": {
 "chart": null,
 "focus": null,
 "hack": null,
 "span": null,
-"src": "24/7 Wall St.",
+"src": "www.techtimes.co.uk",
 "story": null,
-"t0": 1792510200.0,
+"t0": 1793004338.0,
 "tag": null,
-"title": "A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?",
-"url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS2dQTlZzdUw1R004MjFGWERtUlZOSmRyMmxYcnRSdVUzdkk2NXFSOEJUM0xFbGJZM0h4QVBCVUtvY1J3M0cwcmlfQWlqb1JoOXZyaVNWNlY2MktIeml3a3ZaYy1GcVhoelE5ZXQ1c1V6bzEtM25Hb3dZVk5OWUkwWWlNcElObnJOMkRrYnplLTE0eU0wWGtTMklPLTZGOFFIa2puNm1rOWJRTUZ4QU9McUd5aXlMNm9OZEpQLVN3LVA0V1dxQXB3eWxQTTNsaXNYajlqUk1za1gzdVJXdFo5bFE5YWlQb1U2WUljeQ?oc=5"
+"title": "Developer Left PHP Server Unpatched With Bitcoin Inside, but Hackers Hit an Unexpected Roadblock",
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcEtfQWxCeElldWd1QWFJZ2piNk1ybDlqa2hSNmVkWk8zamJSZy1rRTNSbVlSbjRFUnI2eDBkUlJiSXJINnJrWXhERVRDVlNueEh2YTRUcFFOeFBONVBDN2RJMGtEVjIwZnAtTUNwQ05YZDk3bEx2YUxfdVZFSUZyd0tRTGRLY19NLWxpSzFaQy14RXd4?oc=5"
 },
 "p": {
-"keyfact": "A hacker is currently laundering $270 million in stolen crypto through the Tornado Cash mixer.",
-"post": "The $270 million heist is officially ghosting the blockchain. The hacker is currently funneling the stolen loot through Tornado Cash, effectively turning a traceable trail into a digital black hole. Can it ever be recovered? Don't hold your breath. #HACK",
+"keyfact": "Electrum patched a flaw allowing servers to redirect payments during fee increases.",
+"post": "Electrum just patched a vulnerability that let malicious servers redirect payments when users tried to increase transaction fees. At least one user lost Bitcoin after unknowingly approving a fraudulent transaction on versions earlier than 4.8.3. Always verify complete recipient addresses. #Bitcoin",
 "quote": "NONE",
-"reply": "Another day, another $270 million disappearing into the mixer. If the trail goes cold here, it\u2019s gone for good.",
+"reply": "Security audits and complete address verification remain essential defences against server-level manipulation.",
 "short": "",
-"stat": "$270M | Stolen Funds",
-"symbol": "NONE",
+"stat": "4.8.3 | Minimum safe version",
+"symbol": "BTC",
 "tag": "HACK",
 "thread": "",
-"timeline": "Hack Occurs = Assets taken ; Tracking Begins = Funds identified ; Mixing Phase = Moving to Tornado Cash",
-"title": "$270 Million Vanishes Into Tornado Cash",
-"versus": "NONE",
+"timeline": "Oct 11 = First user complaint || Oct 18 = Second user reported lost funds || Oct 23 = Developers tagged version 4.8.3 || Oct 24 = Public security disclosure released",
+"title": "Electrum Patch Fixes Fee Exploit",
+"versus": "Untrusted Server = Payment Redirected || Trusted Server = Fully Protected",
 "visual": "ALERT"
 },
-"t": 1792518377.176666
+"t": 1793009627.9362683
 },
 "dacc8889c2": {
 "coin": "",
@@ -1001,7 +1001,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489324,
+"offset": 138489329,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
