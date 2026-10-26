@@ -1,0 +1,151 @@
+{
+ "title": "The Last Fakeout Before $126K Bitcoin \ud83d\udcc8",
+ "alt_hooks": [
+  "Did Bitcoin just trap every single bear at $15,000 before the massive run to $126,000?",
+  "How the brutal $15,000 crypto crash in 2022 tricked everyone into missing the $126,000 rally.",
+  "Is this current market dip the exact same fakeout we saw right before $126,000?"
+ ],
+ "tone": "hype",
+ "respell": {
+  "Bitcoin": "BIT-koyn"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2022-11-01",
+  "end": "2025-01-15"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "Everyone panicked when Bitcoin crashed to $15,000 in November 2022.",
+   "hit": "$15000",
+   "beats": [
+    {
+     "word": "November",
+     "text": "NOV 2022",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "trading screens red",
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "THE $15K TRAP",
+    "sub": "Bitcoin's Ultimate Fakeout",
+    "icon": "bitcoin"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Exchange reserves dried up instantly as panic sellers dumped every single satoshi they owned.",
+   "hit": "panic",
+   "beats": [
+    {
+     "word": "dumped",
+     "text": "EXCHANGES EMPTY",
+     "icon": "bank"
+    }
+   ],
+   "footage": "digital numbers falling",
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 15000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "market bottom",
+    "icon": "bitcoin"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Smart money quietly accumulated at the absolute bottom while mainstream media shouted that crypto was dead.",
+   "hit": "bottom",
+   "beats": [
+    {
+     "word": "dead",
+     "text": "CRYPTO IS DEAD",
+     "icon": "skull"
+    }
+   ],
+   "footage": "news headline screens",
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "media narrative",
+    "word": "DEAD",
+    "bad": true
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Then institutional spot ETFs launched in January 2024, injecting billions of fresh Wall Street dollars.",
+   "hit": "etfs",
+   "beats": [
+    {
+     "word": "billions",
+     "text": "WALL STREET INFLOWS",
+     "icon": "cash"
+    }
+   ],
+   "footage": "wall street trading floor",
+   "photo": "",
+   "visual": {
+    "type": "date",
+    "month": "JAN",
+    "day": 2024,
+    "event": "Spot Bitcoin ETFs launch"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "That exact fakeout catalyzed an explosive vertical rally straight past $126,000.",
+   "hit": "vertical",
+   "beats": [
+    {
+     "word": "126,000",
+     "text": "$126K TARGET",
+     "icon": "crown"
+    }
+   ],
+   "chart": "2024-12-01",
+   "footage": "bitcoin price chart rising green",
+   "photo": "",
+   "visual": {
+    "type": "chart",
+    "date": "2024-12-15",
+    "label": "DEC 2024 \u00b7 $126K \u00b7 RALLY PEAK"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Look closely at the charts right now, because this current dip looks like the exact same trap.",
+   "hit": "trap",
+   "beats": [
+    {
+     "word": "dip",
+     "text": "FINAL SHAKE",
+     "icon": "lock"
+    }
+   ],
+   "footage": "cryptocurrency green candlestick chart",
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "HISTORY REPEATS",
+    "sub": "Watch the fakeout",
+    "icon": "bitcoin"
+   }
+  }
+ ],
+ "description": "When Bitcoin hit $15,000 in November 2022, most investors panicked and sold at the absolute bottom. That brutal fakeout set the stage for institutional ETF inflows and a massive rally all the way to $126,000. Are current market dips just another trap before the next leg up?",
+ "hashtags": "#Bitcoin #Crypto #BTC #CryptoNews #Trading #BullRun #Investing",
+ "pinned": "Are you buying this dip or waiting for another drop?",
+ "length": 45,
+ "settings": {
+  "length": 45
+ },
+ "est_secs": 37,
+ "words": 91
+}
