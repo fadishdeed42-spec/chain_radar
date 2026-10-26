@@ -42,6 +42,38 @@
 }
 },
 "designs": {
+"062dee849e": {
+"coin": "",
+"facts": "Headline: CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d\nSources: CoinCodex, Coinpedia, Cryptopolitan\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "CoinCodex",
+"story": null,
+"t0": 1793000995.0,
+"tag": null,
+"title": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
+"url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZUxMNzAxWnBmWFhlLW1CYm1SY2ppSjdVOXkwN0duMHRHQVR3QWhqMGItUm9mZVM0OUx4Rjk1d1h2aXIyWnZ5UXBKcjRfd01CZjRDTWJQN2kxODNMVzc2X2tVdThzSFlQV1BCczhrZ0RMTjNlalkwbjZlcHhHckxlN3o0MmtERGpDYThFTW1lV2VPb2FBcVNBa3NlODhBUW5zaVFIQ2RSYnI4dm9IYlZxZ0w5alVfUTNKS0RZOGttX2R1eUdacTFzTQ?oc=5"
+},
+"p": {
+"keyfact": "CoinDCX admitted a $16M loss from a July 2025 hack after initially calling reports false.",
+"post": "CoinDCX admitted to a $16M loss from a July 2025 hack. This confirmation follows an initial statement from the CEO dismissing early reports as a false alarm. Security incidents require transparency, and the truth eventually surfaces.",
+"quote": "False Alarm = CEO",
+"reply": "Transparency is not optional when millions vanish.",
+"short": "",
+"stat": "$16M | Verified Hack Loss",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "1/ CoinDCX admitted to a $16M loss from a July 2025 hack. This confirmation follows an initial statement from the CEO dismissing early reports as a false alarm. Security incidents require transparency, and the truth eventually surfaces.\n\n2/ Reports from sources including CoinCodex, Coinpedia, and Cryptopolitan outline how the narrative shifted from denial to confirmation regarding the July 2025 security breach at the platform.\n\n3/ Initially, leadership attempted to quiet market concerns by labeling the emerging intelligence as a false alarm, leaving users and observers in the dark about the actual network status.\n\n4/ The official admission of the $16M deficit proves that hiding security failures is a losing strategy. On chain forensics and persistent reporting always bring the reality to light. #Crypto",
+"timeline": "July 2025 = Security breach occurs ; July 2025 = CEO calls reports false ; Later = CoinDCX admits $16M loss",
+"title": "CoinDCX Admits $16M Loss After Hack",
+"versus": "Initial Claim = False Alarm || Reality = $16M Loss",
+"visual": "ALERT"
+},
+"t": 1793012394.0386746
+},
 "250da07218": {
 "coin": "qubic-network",
 "facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
@@ -751,38 +783,6 @@
 },
 "t": 1792672626.2264874
 },
-"f68e6b6cf4": {
-"coin": "",
-"facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "NewsCord",
-"story": null,
-"t0": 1792558740.0,
-"tag": null,
-"title": "Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it",
-"url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVWlTVlZvM0xub1ZjWWhQcXdmTjlVWktCbldITEZ0X1hIemluQjJwOG5YTFNtUmtvRkx4bDZGXzNZSmNaZmp1LVJnYWp2bWNhQ21xTlpNVi1tSDdxUmNpNnhHcE0tU3FWQTJKUk9uZk1WbHpHMngzS1pNbWxOZzhMeVktS2c0NDNadGkyRWxUMW84VmR2LXB5Q01uUkg1NWVJZW9WbFFybUJxbGRXbU5lb1ZxeXZyS3phaVpDZTViem9YN1NTUDFYcUR2dTdCLWZQTUJRUG5QRFhHczha?oc=5"
-},
-"p": {
-"keyfact": "Qubic restarted its Layer-1 blockchain and opened recovery claims following a $1.4M hack.",
-"post": "Qubic is back online. After a $1.4M exploit hit the network, the Layer-1 blockchain reportedly restarted and opened recovery claims. Eight outlets tracked the fallout. Another network security test cleared.",
-"quote": "NONE",
-"reply": "Another day, another network restart after a cool million gone.",
-"short": "",
-"stat": "$1.4M | Hack losses",
-"symbol": "NONE",
-"tag": "HACK",
-"thread": "",
-"timeline": "NONE",
-"title": "Qubic Restarts L1 After $1.4M Hack",
-"versus": "NONE",
-"visual": "ALERT"
-},
-"t": 1792572517.7810433
-},
 "f8175d723b": {
 "coin": "",
 "facts": "Headline: Asia's weekly TOP10 crypto news: South Korea Regulates Stablecoins as Payment Means, China to Build National Blockchain Network, HSBC Launches Stablecoin and Top10 News\nSources: Substack, Wu Blockchain\n\nTelegram news posts about it:\nAsia's Weekly TOP10 Crypto News\n\nSouth Korea Regulates Stablecoins as Payment Means, China to Build National Blockchain Network, HSBC Launches Stablecoin, Hong Kong Tokenization Moves to Deployment Phase, Robinhood Secures Dubai Approval.\n\nFor the complete article and weekly curated reports, subscribe to our Substack: \u2014 link\n",
@@ -849,7 +849,7 @@
 }
 },
 "kit": "2026-10-25",
-"kit_q": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
+"kit_q": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
 "menu": {
 "0ea29e788b49": {
 "facts": "This happened on October 25, 2025 (1 years ago today). Headline from that day: Trump Crypto Partner Alt5 Sigma Suspends CEO With No Explanation After Stock Crashes 74% (Forbes).",
@@ -1001,7 +1001,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489330,
+"offset": 138489333,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
