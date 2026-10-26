@@ -42,37 +42,6 @@
 }
 },
 "designs": {
-"0d2a84a24d": {
-"coin": "bitcoin",
-"facts": "Headline: BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing\nSources: CryptoPotato, CryptoRank\nCoin in this story: Bitcoin (BTC) $82,660, +0.9% in 24h\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "CryptoPotato",
-"t0": 1792512900.0,
-"tag": null,
-"title": "BlackRock Enters the Buffered Bitcoin ETF Race With New SEC Filing",
-"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGtZdzNNYlFLNDA3bk00ZVAybjEyZDhocWNZVXZwYUJLZl9pc05handMU2dBX1ktXzZyLUpqSk5kb0VVWi1JSDROQ2xKSzlzeUp6eWdpZDVTNlg5MExGSFMxOHFNbVAwZ01tRmJQbm9BNjVPR3AwZzJNekdEVkRfcVZYcGtVZW9oa2dQd2JFMkJWcnpHN0xN?oc=5"
-},
-"p": {
-"keyfact": "BlackRock has submitted an SEC filing to introduce a buffered Bitcoin ETF to its product suite.",
-"post": "BlackRock is doubling down on Bitcoin. The firm just filed with the SEC to launch a buffered Bitcoin ETF, aiming to provide a cushion against market volatility. With BTC sitting at $82,660, the institutional appetite shows no signs of slowing down.",
-"quote": "NONE",
-"reply": "BlackRock isn't stopping at spot ETFs. The race for buffered Bitcoin products is officially on.",
-"short": "",
-"stat": "$82,660 | BTC Price",
-"symbol": "BTC",
-"tag": "ETF",
-"thread": "1/ BlackRock is expanding its crypto footprint. The asset management giant has officially filed with the SEC for a new buffered Bitcoin ETF.\n2/ Buffered ETFs are designed to provide investors with a degree of downside protection, typically by capping potential gains.\n3/ This move signals a shift toward more complex, risk-managed crypto products for traditional institutional investors.\n4/ With BTC currently trading at $82,660, BlackRock is betting that demand for regulated exposure will only increase. #Bitcoin",
-"timeline": "NONE",
-"title": "BlackRock Files for New Buffered Bitcoin ETF",
-"versus": "NONE",
-"visual": "STAT"
-},
-"t": 1792516073.9430075
-},
 "250da07218": {
 "coin": "qubic-network",
 "facts": "Headline: Qubic Restarts Layer-1 Blockchain, Opens Recovery Claims After $1.4M Hack: how 8 outlets framed it\nSources: Crypto News, NewsCord\n\n",
@@ -558,6 +527,38 @@
 },
 "t": 1792602491.2219198
 },
+"af241b193d": {
+"coin": "",
+"facts": "Headline: Trump calls high gas prices \u201ca small price to pay\u201d for the Iran War, saying he expected them to double or triple.\nSources: Cointelegraph, Watcher.Guru\n\nTelegram news posts about it:\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 President Trump says high gas prices are a \"small price to pay\" for the Iran war.\n\n\"I thought gas would be double and triple.\"\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 LATEST: Trump calls high gas prices \u201ca small price to pay\u201d for the Iran War, saying he expected them to double or triple.\n\nNews | Markets | YouTube\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Cointelegraph",
+"story": null,
+"t0": 1792961189.0,
+"tag": null,
+"title": "Trump calls high gas prices \u201ca small price to pay\u201d for the Iran War, saying he expected them to double or triple.",
+"url": "https://t.me/cointelegraph/72845"
+},
+"p": {
+"keyfact": "President Trump stated that high gas prices are a small price to pay for the Iran War.",
+"post": "President Trump reportedly called high gas prices a small price to pay for the Iran War. He added that he actually expected gas prices to double or triple. Here is what is on the record regarding the administration stance on the conflict.",
+"quote": "I thought gas would be double and triple. = President Trump",
+"reply": "High gas prices are reportedly being dismissed as a small price to pay for the Iran War.",
+"short": "",
+"stat": "3X | Expected max gas price rise",
+"symbol": "NONE",
+"tag": "BREAKING",
+"thread": "1/ President Trump reportedly called high gas prices a small price to pay for the Iran War. He added that he actually expected gas prices to double or triple. Here is what is on the record regarding the administration stance on the conflict.\n\n2/ According to reports from Cointelegraph and Watcher Guru, the comments surfaced as markets reacted to the escalating situation. The administration stance on the conflict immediately drew attention from financial observers tracking commodities.\n\n3/ Global markets rarely ignore military conflict in the Middle East. Energy costs serve as a primary transmission belt for geopolitical tension to hit consumer inflation and broader asset valuations. \n\n4/ The takeaway is simple. Geopolitical shocks ripple through traditional energy markets before landing on broader financial portfolios. Track the macro data, not just the headlines. #Crypto",
+"timeline": "NONE",
+"title": "Trump on Iran War Gas Prices",
+"versus": "NONE",
+"visual": "QUOTE"
+},
+"t": 1792978720.5761764
+},
 "c317cc2405": {
 "coin": "",
 "facts": "Headline: A Hacker Who Stole $270 Million Is Moving It Into Tornado Cash. Can Stolen Crypto Ever Be Recovered?\nSources: 24/7 Wall St., Yahoo Finance\n\n",
@@ -1000,7 +1001,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489320,
+"offset": 138489324,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
