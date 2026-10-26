@@ -1101,159 +1101,314 @@
 "shorts": {
 "9f3c5489": {
 "facts": "",
-"note": "",
+"note": "\u26a0\ufe0f script too short: 161 spoken words, a 90s Short needs 205-245. Tap a \u23f1 length to try again, or use it as is.",
 "sb": {
 "alt_hooks": [
-"Did Bitcoin just trap every single bear at $15,000 before the massive run to $126,000?",
-"How the brutal $15,000 crypto crash in 2022 tricked everyone into missing the $126,000 rally.",
-"Is this current market dip the exact same fakeout we saw right before $126,000?"
+"Bitcoin just repeated the exact same 15,000 dollar fakeout.",
+"How the 15,000 dollar bottom mimics today's massive price trap.",
+"Did Bitcoin just trap every single bear before 126,000 dollars?"
 ],
 "chart": {
-"end": "2025-01-15",
-"start": "2022-11-01",
+"end": "2023-01-31",
+"start": "2022-10-01",
 "symbol": "BTC"
 },
-"description": "When Bitcoin hit $15,000 in November 2022, most investors panicked and sold at the absolute bottom. That brutal fakeout set the stage for institutional ETF inflows and a massive rally all the way to $126,000. Are current market dips just another trap before the next leg up?",
-"est_secs": 37,
-"hashtags": "#Bitcoin #Crypto #BTC #CryptoNews #Trading #BullRun #Investing",
-"length": 45,
-"pinned": "Are you buying this dip or waiting for another drop?",
-"respell": {
-"Bitcoin": "BIT-koyn"
-},
+"description": "Comparing the infamous 2022 Bitcoin bottom at $15,000 to today's market conditions. Discover why current price action mirrors the exact fakeout before the run to $126,000.",
+"est_secs": 65,
+"hashtags": "#Bitcoin #Crypto #BTC #CryptoTrading #BullRun #Investing #ChainSecrets",
+"length": 90,
+"pinned": "Are you buying this dip or waiting for $10k?",
+"respell": {},
 "scenes": [
 {
 "beats": [
 {
 "icon": "calendar",
-"text": "NOV 2022",
-"word": "November"
+"text": "November 2022",
+"word": "2022"
 }
 ],
-"footage": "trading screens red",
+"footage": "crypto trading screens red",
 "hit": "$15000",
-"line": "Everyone panicked when Bitcoin crashed to $15,000 in November 2022.",
+"line": "Bitcoin at $15,000 in 2022 felt like the end of the world.",
 "photo": "",
 "role": "hook",
 "visual": {
 "icon": "bitcoin",
-"sub": "Bitcoin's Ultimate Fakeout",
-"text": "THE $15K TRAP",
+"sub": "The 2022 Bottom",
+"text": "$15,000 BITCOIN",
 "type": "title"
 }
 },
 {
 "beats": [
 {
-"icon": "bank",
-"text": "EXCHANGES EMPTY",
-"word": "dumped"
+"icon": "fire",
+"text": "$8 Billion Gone",
+"word": "Billions"
 }
 ],
-"footage": "digital numbers falling",
-"hit": "panic",
-"line": "Exchange reserves dried up instantly as panic sellers dumped every single satoshi they owned.",
+"footage": "bank exterior protest",
+"hit": "collapsed",
+"line": "FTX had just collapsed. Billions vanished in hours. Panic ruled global markets.",
 "photo": "",
 "role": "setup",
 "visual": {
-"icon": "bitcoin",
-"label": "market bottom",
+"icon": "skull",
+"label": "FTX Hole",
 "prefix": "$",
 "suffix": "",
 "type": "counter",
-"value": 15000
+"value": 8000000000
 }
 },
 {
 "beats": [
 {
-"icon": "skull",
-"text": "CRYPTO IS DEAD",
-"word": "dead"
+"icon": "question",
+"text": "Total Crash",
+"word": "guaranteed"
 }
 ],
-"footage": "news headline screens",
-"hit": "bottom",
-"line": "Smart money quietly accumulated at the absolute bottom while mainstream media shouted that crypto was dead.",
+"footage": "panic stock traders",
+"hit": "$10000",
+"line": "Analysts screamed that $10,000 was guaranteed next.",
 "photo": "",
-"role": "turn",
+"role": "setup",
 "visual": {
 "bad": true,
 "icon": "skull",
-"label": "media narrative",
+"label": "Bear Market",
 "type": "stamp",
-"word": "DEAD"
+"word": "DOOMD"
 }
 },
 {
 "beats": [
 {
-"icon": "cash",
-"text": "WALL STREET INFLOWS",
-"word": "billions"
+"icon": "safe",
+"text": "Whale Accumulation",
+"word": "absorbed"
 }
 ],
-"footage": "wall street trading floor",
-"hit": "etfs",
-"line": "Then institutional spot ETFs launched in January 2024, injecting billions of fresh Wall Street dollars.",
+"footage": "bitcoin mining farm",
+"hit": "smart",
+"line": "Instead, smart money quietly absorbed every single coin thrown away.",
+"photo": "",
+"role": "turn",
+"visual": {
+"items": [
+"Whales Buying",
+"Exchange Outflows",
+"Supply Shock"
+],
+"type": "list"
+}
+},
+{
+"beats": [
+{
+"icon": "rocket",
+"text": "Trend Reversal",
+"word": "monster"
+}
+],
+"footage": "green crypto charts",
+"hit": "fakeout",
+"line": "That brutal drop was the ultimate fakeout before an unstoppable monster rally.",
 "photo": "",
 "role": "twist",
 "visual": {
-"day": 2024,
-"event": "Spot Bitcoin ETFs launch",
-"month": "JAN",
-"type": "date"
-}
+"chart": {
+"date": "2022-11-14",
+"label": "NOV 14 \u00b7 $15K \u00b7 THE BOTTOM"
 },
-{
-"beats": [
-{
-"icon": "crown",
-"text": "$126K TARGET",
-"word": "126,000"
-}
-],
-"chart": "2024-12-01",
-"footage": "bitcoin price chart rising green",
-"hit": "vertical",
-"line": "That exact fakeout catalyzed an explosive vertical rally straight past $126,000.",
-"photo": "",
-"role": "payoff",
-"visual": {
-"date": "2024-12-15",
-"label": "DEC 2024 \u00b7 $126K \u00b7 RALLY PEAK",
 "type": "chart"
 }
 },
 {
 "beats": [
 {
-"icon": "lock",
-"text": "FINAL SHAKE",
-"word": "dip"
+"icon": "calendar",
+"text": "March 2024",
+"word": "March"
 }
 ],
-"footage": "cryptocurrency green candlestick chart",
-"hit": "trap",
-"line": "Look closely at the charts right now, because this current dip looks like the exact same trap.",
+"footage": "bull statue wall street",
+"hit": "$73000",
+"line": "By March 2024, Bitcoin obliterated its old all-time high past $73,000.",
+"photo": "",
+"role": "twist",
+"visual": {
+"icon": "bitcoin",
+"label": "New High",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 73000
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "Pay Attention",
+"word": "part"
+}
+],
+"footage": "digital matrix code",
+"hit": "strangest",
+"line": "But that is not the strangest part of this cycle.",
+"photo": "",
+"role": "twist",
+"visual": {
+"icon": "question",
+"sub": "Look closer",
+"text": "THE TWIST",
+"type": "title"
+}
+},
+{
+"beats": [
+{
+"icon": "skull",
+"text": "Maximum Fear",
+"word": "top"
+}
+],
+"footage": "traders stressed phones",
+"hit": "catastrophic",
+"line": "Right now, traders are calling the recent dip a catastrophic top.",
+"photo": "",
+"role": "setup",
+"visual": {
+"bad": true,
+"icon": "fire",
+"label": "Market Panic",
+"type": "stamp",
+"word": "SELL"
+}
+},
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "History Repeats",
+"word": "thing"
+}
+],
+"footage": "historical timeline graphic",
+"hit": "$15000",
+"line": "They said the exact same thing when Bitcoin sat at $15,000.",
+"photo": "",
+"role": "setup",
+"visual": {
+"left": [
+"2022",
+"$15K"
+],
+"note": "Exact match",
+"right": [
+"NOW",
+"Dip"
+],
+"type": "versus"
+}
+},
+{
+"beats": [
+{
+"icon": "bank",
+"text": "Daily Inflows",
+"word": "thousands"
+}
+],
+"footage": "wall street trading floor",
+"hit": "etfs",
+"line": "Institutional ETFs are vacuuming up thousands of coins every single week.",
+"photo": "",
+"role": "setup",
+"visual": {
+"icon": "bank",
+"label": "ETF Holdings",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 1000000
+}
+},
+{
+"beats": [
+{
+"icon": "lock",
+"text": "Zero Coins Left",
+"word": "crunch"
+}
+],
+"footage": "server room flashing lights",
+"hit": "supply",
+"line": "On-chain metrics point to a massive supply crunch hitting dead ahead.",
+"photo": "",
+"role": "setup",
+"visual": {
+"bad": false,
+"icon": "lock",
+"label": "Exchange Reserves",
+"type": "stamp",
+"word": "LOW"
+}
+},
+{
+"beats": [
+{
+"icon": "rocket",
+"text": "Next Price Target",
+"word": "target"
+}
+],
+"footage": "bitcoin price chart moon",
+"hit": "$126000",
+"line": "Models project the target for this cycle leg reaches straight to $126,000.",
+"photo": "",
+"role": "payoff",
+"visual": {
+"icon": "bitcoin",
+"label": "Cycle Peak",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 126000
+}
+},
+{
+"beats": [
+{
+"icon": "bitcoin",
+"text": "Loop Starts",
+"word": "2022"
+}
+],
+"footage": "crypto trading screens green",
+"hit": "$15000",
+"line": "Bitcoin at $15,000 in 2022 felt like the end of the world.",
 "photo": "",
 "role": "end",
 "visual": {
 "icon": "bitcoin",
-"sub": "Watch the fakeout",
-"text": "HISTORY REPEATS",
+"sub": "Chain Secrets",
+"text": "$126,000 NEXT",
 "type": "title"
 }
 }
 ],
 "settings": {
-"length": 45
+"length": 90
 },
-"title": "The Last Fakeout Before $126K Bitcoin \ud83d\udcc8",
+"title": "The Last Bitcoin Fakeout Before 126k \ud83d\ude80",
 "tone": "hype",
-"words": 91
+"words": 161
 },
-"t": 1793012695.9271343,
+"t": 1793012735.850216,
 "topic": "the last btc fakeout at 15000 and the rally to 126000 and compere it to right now as now is the last fake out"
 },
 "a55db3fd": {
