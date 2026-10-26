@@ -351,3 +351,18 @@ telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'l
 market 100 news 49 reddit 25 hacks 1
 labeled 3
 alerts sent 0
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 7
+market 100 news 48 reddit 25 hacks 1
+labeled 0
+alerts sent 0
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 7
+market 100 news 47 reddit 25 hacks 1
+labeled 2
+alerts sent 0
+brain trained {'n': 1300, 'pos': 77, 'trained': 1792978219.6952195, 'ready': True, 'auc': 0.751}
