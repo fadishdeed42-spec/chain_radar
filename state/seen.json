@@ -113,7 +113,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792974175.0,
 "tgtext": "Highlight Clip: Michael Saylor: Digital Credit Is Our Product, MSTR Is Just a Byproduct\n\nMichael Saylor: Digital Credit Is Our Product, MSTR Is Just a Byproduct\n\nOn October 20, 2026, Michael Saylor explained in an interview with Schwab Network that Strategy converts Bitcoin into dividend-paying digital credit products to meet the cash flow needs of a different group of investors. He said supporting these products' prices and bringing them back to par allows the company to continue issuing them and command a premium to net asset value, which is why Strategy uses capital to buy back preferred stock. If the credit business doesn't work, Strategy is simply a Bitcoin holding company. \u2014 link",
 "title": "Highlight Clip: Michael Saylor: Digital Credit Is Our Product, MSTR Is Just a Byproduct",
@@ -126,7 +126,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792973457.0,
 "tgtext": "",
 "title": "India\u2019s CoinDCX Admits $16 Million Hack After CEO\u2019s Initial Denial Sparks Backlash",
@@ -212,7 +212,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792983569.0,
 "tgtext": "Abraxas Capital's 2 hedging accounts on Hyperliquid have made over $353M in total profit!\n\nThey currently hold over $1.29B in short positions.\n\nhttps://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13F298C060#perps\nhttps://hypurrscan.io/address/0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36#perps",
 "title": "Abraxas Capital's 2 hedging accounts on Hyperliquid have made over $353M in total profit!",
@@ -258,21 +258,6 @@
 "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEZkQmFvbzdVeWRHalpoaHh0RGtQcmRLRnI5REl5NTBPOTBBLTlFNkVDMlRZMG1Tb0N6amN5c1p1Yy15Q056bW5hWncwS0lSTDNzaDMyQ2NOeFRXN0dyQzIxWUhNcl9vbTJBeGRlcmlOclo2aVluUDA0RnlNd3BKNUhqV1ZoMng1RV95M2VSRQ?oc=5",
 "urls": []
 },
-"12b4019d6fa5": {
-"coin": "",
-"src": "Bitcoin Magazine",
-"srcs": [
-"Bitcoin Magazine"
-],
-"t": 1792811823.865555,
-"t0": 1792790439.0,
-"tgtext": "",
-"title": "Blockstream Launches Institutional Consulting Services, Opens Lugano Office",
-"url": "https://bitcoinmagazine.com/news/blockstream-launches-institutional-service",
-"urls": [
-"https://bitcoinmagazine.com/news/blockstream-launches-institutional-service"
-]
-},
 "13188065cd17": {
 "coin": "",
 "src": "Cointelegraph",
@@ -280,7 +265,7 @@
 "Cointelegraph",
 "CryptoTicker"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792974393.0,
 "tgtext": "",
 "title": "Keystone says website breach exposed hardware wallet buyers\u2019 addresses",
@@ -974,9 +959,10 @@
 "coin": "bitcoin",
 "src": "BigGo Finance",
 "srcs": [
-"BigGo Finance"
+"BigGo Finance",
+"FXStreet"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792970700.0,
 "tgtext": "",
 "title": "Bitcoin Briefly Dips Below $80,000; $436 Million in Longs Liquidated in Four Hours as Ethereum Losses Swell",
@@ -1415,7 +1401,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792978596.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Trump calls high gas prices \u201ca small price to pay\u201d for the Iran War, saying he expected them to double or triple.\n\nNews | Markets | YouTube",
 "title": "Trump calls high gas prices \u201ca small price to pay\u201d for the Iran War, saying he expected them to double or triple.",
@@ -1471,7 +1457,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792980540.0,
 "tgtext": "CZ Responds to BNB Chain\u2019s New L1 Plan: \u201cMultiple chains, one coins\u201d\n\nCZ responds to BNB Chain\u2019s updated New L1 plans: \u201cMultiple chains, one coins.\u201d According to BNB Chain docs updated on Oct 22, the new L1 (name TBD) will run in parallel with BSC via a native bridge and will not issue a separate token. It continues using BNB for gas, staking, and governance. Target specs include ~200ms blocks and ~20ms pre-confirmation. An internal multi-validator devnet is already running; public testnet is planned for end of 2026 and mainnet for early 2027. \u2014 link",
 "title": "CZ Responds to BNB Chain\u2019s New L1 Plan: \u201cMultiple chains, one coins\u201d",
@@ -1490,20 +1476,6 @@
 "tgtext": "",
 "title": "Bitcoin Price Sinks to $79,146 as Liquidations Rock Weekend Trading",
 "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOWF3OW9GWm9lVFJMaWxLNXk0NXhVT0F0T1dDMk05YUQyN05FZFRESTFpckltSnFmUXQ1QmtIVkw4a3dTM2NBSlV1WVhEUmtkb2hfRy1FTzJUQXJEMm8xOEJnVGZwVVRvUnZFRXlUU1pGMm9SejZwV0JZYklTa1Ita3FtdDRRNHpiMHpHRXRfLWY0TW1nREs1ZkdrQlhaOHNtQ2NVcjFvNzk0dw?oc=5",
-"urls": []
-},
-"6e3690d3cc2a": {
-"coin": "ethereum",
-"src": "NewsCord",
-"srcs": [
-"NewsCord",
-"Pluang"
-],
-"t": 1792811823.865555,
-"t0": 1792790711.0,
-"tgtext": "",
-"title": "Initia Halts Blockchain After Unauthorized Token Minting, Transfers $2.6M to Ethereum: 10 outlets compared",
-"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdDRKVU1tZFlod3lMbVhDSmNsNk5VZkUzcnNQenlyX25UN1lWbm5fQnNGcVFWZ1ZUb2pMTGRHdUxZa0NSMUVmRnNLOEVzSGhVdmRxeEs5OHdtbWlVbnhOYkxrY0tzV2pnWE5lbUYtcWNfa29NcGNfUnYzQTlxMF9Ld1lyWE5EcDVQemx0WTlhUXRtXzUxVG4xY2tTNngxeWFNOVdUb004eHlaNmhSeFVJUXdMNFFOTDZMQXdQaUJJOGZJRHhjWVY3M2N2S3ppalRNeWRIUGx1M1Z3WDV1RlptYnpaR3c5NWpQOVE?oc=5",
 "urls": []
 },
 "6e37537bb553": {
@@ -1762,7 +1734,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792963956.0,
 "tgtext": "\ud83d\udd25 TODAY: Tom Lee says 99% of finance still runs on old rails, and that's exactly why banks are underestimating how fast crypto could take over.\n\nBanks without a crypto plan could get left behind.\n\nNews | Markets | YouTube",
 "title": "TODAY: Tom Lee says 99% of finance still runs on old rails, and that's exactly why banks are underestimating how fast crypto could take over.",
@@ -2324,7 +2296,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792966847.0,
 "tgtext": "JUST IN: Elon Musk warns lenders have almost completely cut off funding to companies fully dependent on AI data center revenue.\n\n@WatcherGuru",
 "title": "Elon Musk warns lenders have almost completely cut off funding to companies fully dependent on AI data center revenue.",
@@ -2462,7 +2434,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1792984460.5188534,
+"t": 1792985072.1744037,
 "t0": 1792971062.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf7 BIG: Goldman Sachs just slashed its KOSPI target by 25%, from 12,000 to 9,000.\n\nThe index has crashed over 35% from its June peak as the AI trade unravels.\n\nNews | Markets | YouTube",
 "title": "BIG: Goldman Sachs just slashed its KOSPI target by 25%, from 12,000 to 9,000.",
@@ -2848,21 +2820,6 @@
 "title": "Binance Founder CZ Makes Shocking Claim About AI Hacking: \u201cNo Crypto Wallet Is 100% Safe\u201d",
 "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTC1ycEhaS2JWNW9fTzN6dk5WYjNEcWNnNWZfRWpmYjluaHBhbEo4OFBXX1kzaGwwWjRmWWxXcHdHNjZvMFJqZy1MXzA5RkdjV0ZlQXVkRlNvVTZ4bFlINWI1YzZmY1ZOZlVwRkhHYkMteF9rYTd3LUxIdFJmUlVkZTdueUJMT2JhanRpLVFoSDhOUnVHdm1CbDJrMC1YWE8wWmdYbzlNaHNuaFQ3R2Z5aE1VV0FoR0tCajc4?oc=5",
 "urls": []
-},
-"d6afb4d9d188": {
-"coin": "",
-"src": "Bitcoin Magazine",
-"srcs": [
-"Bitcoin Magazine"
-],
-"t": 1792811823.865555,
-"t0": 1792790506.0,
-"tgtext": "",
-"title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
-"url": "https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech",
-"urls": [
-"https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech"
-]
 },
 "d6d798c1f3b8": {
 "coin": "",
@@ -3314,11 +3271,10 @@
 "2c0039b50a77": 0.031,
 "323fdd9b8bb7": 0.055,
 "39e1f871470f": 0.028,
-"3c78181210ac": 0.001,
 "3c892bcbf9be": 0.017,
 "45da63016216": 0.007,
 "4e995165a58a": 0.008,
-"4ea93a836627": 0.094,
+"4ea93a836627": 0.122,
 "542409a1eefb": 0.021,
 "680b27a5331f": 0.241,
 "683e5202352f": 0.072,
@@ -3327,21 +3283,22 @@
 "70442c23c7ee": 0.006,
 "732805b2da01": 0.015,
 "73e41d712e59": 0.005,
-"73fbb5d271f4": 0.021,
+"73fbb5d271f4": 0.026,
 "74ecc04c851f": 0.038,
 "772073e439ca": 0.024,
+"78795ac5cc19": 0.016,
 "8200240e8ef7": 0.261,
 "8b2bd4fa07e0": 0.01,
+"add187f8eb56": 0.005,
 "aeff30edb4b7": 0.015,
 "b0377108be91": 0.078,
 "bb891b927f29": 0.081,
 "bbe1691a1ef2": 0.045,
 "c98fccef4e93": 0.013,
 "ce743041bc89": 0.045,
-"d2727c789cb0": 0.012,
+"d8fdbab5a7ba": 0.042,
 "dabebb9c9a84": 0.004,
 "f3403f65ec7c": 0.007,
-"f388ada385b7": 0.009,
 "f85c1bf8607e": 0.046,
 "fad6c73e8379": 0.015
 },
@@ -3914,63 +3871,63 @@
 [
 "0cf3da0e844d",
 16,
-15,
+25,
 1
 ],
 [
 "8200240e8ef7",
 0,
-342,
+352,
 1
 ],
 [
 "06acf94ff6ad",
 18,
-171,
+182,
 1
 ],
 [
 "680b27a5331f",
 18,
-98,
+108,
 1
 ],
 [
 "13188065cd17",
 45,
-168,
+178,
 2
 ],
 [
 "089b393c9424",
-41,
-183,
+40,
+194,
 1
 ],
 [
 "4ea93a836627",
-25,
-229,
-1
+34,
+240,
+2
 ],
 [
 "6d60f786c19e",
 18,
-65,
+76,
 1
 ],
 [
 "bb891b927f29",
-5,
-223,
+3,
+234,
 1
 ],
 [
 "b0377108be91",
-3,
-294,
+2,
+304,
 1
 ]
 ],
-"top_at": 1792984460.5188534
+"top_at": 1792985072.1744037
 }
