@@ -26,7 +26,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793036242.0,
 "tgtext": "\ud83c\udde7\ud83c\uddf7 REKT: Put $1,000 into Brazilian stocks at Friday's close and you'd have about $835 right now.\n\nConvert it to dollars and it's closer to $740, because the real got hit too. \n\nNews | Markets | YouTube",
 "title": "REKT: Put $1,000 into Brazilian stocks at Friday's close and you'd have about $835 right now.",
@@ -955,7 +955,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793030102.0,
 "tgtext": "JUST IN: Microsoft $MSFT offers buyouts to 60,000 employees as it cuts costs amid AI adoption.\n\n@WatcherGuru",
 "title": "Microsoft MSFT offers buyouts to 60,000 employees as it cuts costs amid AI adoption.",
@@ -2014,7 +2014,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793019600.0,
 "tgtext": "Galaxy: Bitcoin bear market ended in June, accumulation phase underway\n\nGalaxy Research said Bitcoin\u2019s bear market ended in June 2026 and the asset is now in an accumulation phase, with BTC closing above its 50-week moving average for five consecutive weeks. Monthly transfers from coins held for more than five years have fallen to about 34,000 BTC from 67,000 in 2024, suggesting reduced selling pressure from long-term holders. Galaxy said the bullish view would weaken if Bitcoin falls below its roughly $76,540 50-week moving average and fails to reclaim it within a month. \u2014 link",
 "title": "Bitcoin\u2019s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy'",
@@ -2214,7 +2214,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793025475.0,
 "tgtext": "Keystone Breach Exposed 25,964 Purchase Records and Compromised Device Verification Key\n\nKeystone said its latest investigation found that attackers obtained a WebAuth device-authentication key through the website breach, potentially allowing counterfeit hardware wallets to pass official authenticity checks. The company will destroy 18,835 unsold devices using the old key, pause unshipped orders and switch new production to a replacement key. The incident also affected 25,964 purchase records and 12,873 incomplete checkout records, while Keystone said seed phrases, private keys and transaction signing were not compromised. \u2014 link",
 "title": "Keystone Breach Exposed 25,964 Purchase Records and Compromised Device Verification Key",
@@ -2333,7 +2333,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793027955.0,
 "tgtext": "Oct 19\u2013Oct 25, 2026 #LookonchainWeeklyReport\nhttps://x.com/lookonchain/status/2114738555356623304",
 "title": "Oct 19\u2013Oct 25, 2026 LookonchainWeeklyReport",
@@ -2622,7 +2622,7 @@
 "Lookonchain",
 "The Block"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793017467.0,
 "tgtext": "Strategy didn't buy any $BTC last week, while #Strive bought 6,182 $BTC ($511.4M) at an average price of $82,732.",
 "title": "Strategy didn't buy any BTC last week, while Strive bought 6,182 BTC ($511.4M) at an average price of $82,732.",
@@ -2724,7 +2724,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793028923.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Markets price in a 90.6% chance the Fed holds rates steady on Oct. 28.\n\nWill the Fed hike or hold?\n\nNews | Markets | YouTube",
 "title": "Markets price in a 90.6% chance the Fed holds rates steady on Oct. 28.",
@@ -2750,7 +2750,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793021540.0,
 "tgtext": "S&P Global acquires OpenZeppelin to boost digital asset risk capabilities\n\nS&P Global has completed its acquisition of blockchain security firm OpenZeppelin for an undisclosed amount. The deal is intended to strengthen S&P Global\u2019s digital asset and smart contract risk capabilities. OpenZeppelin will continue to operate independently under founder Demian Brener, while its open-source smart contract libraries will remain freely available. \u2014 link",
 "title": "S&P Global acquires OpenZeppelin to boost digital asset risk capabilities",
@@ -3004,7 +3004,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1793032351.1577306,
+"t": 1793037567.1068442,
 "t0": 1793019601.0,
 "tgtext": "\u26a1\ufe0f JUST IN: Saylor\u2019s Strategy pauses Bitcoin purchases, leaving its holdings unchanged at 848,517 $BTC.\n\nNews | Markets | YouTube",
 "title": "Saylor\u2019s Strategy pauses Bitcoin purchases, leaving its holdings unchanged at 848,517 BTC.",
@@ -3239,7 +3239,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793036954.3188543,
+"t": 1793037567.1068442,
 "t0": 1793032103.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: CFTC Chairman Mike Selig says crypto markets should get the same protections as US derivatives markets.\n\nCongress hasn't acted, so the CFTC is moving on its own. Should it have waited?\n\nNews | Markets | YouTube",
 "title": "BIG: CFTC Chairman Mike Selig says crypto markets should get the same protections as US derivatives markets.",
@@ -3387,6 +3387,7 @@
 "probs": {
 "047569bbad1d": 0.035,
 "070979ac5dbe": 0.076,
+"27947a23d4b4": 0.089,
 "2a90b7a2ff0f": 0.052,
 "2bea9a097964": 0.079,
 "30d62a1bee9c": 0.065,
@@ -3394,7 +3395,7 @@
 "3f5be559018c": 0.031,
 "4110d093f673": 0.326,
 "46f182f5decb": 0.021,
-"494c4675a08e": 0.041,
+"494c4675a08e": 0.026,
 "4eca218ec35b": 0.007,
 "50a505c346f0": 0.245,
 "54deb8cad882": 0.107,
@@ -3403,26 +3404,25 @@
 "720cbfe808a1": 0.119,
 "7bcf3f282da7": 0.004,
 "854805cd0a6f": 0.02,
-"8af14190b1b8": 0.532,
+"8af14190b1b8": 0.414,
 "8c10e191a632": 0.099,
-"96c0df2559d7": 0.151,
 "98e25f04c7b4": 0.791,
 "a8ff9215bd4c": 0.285,
 "a904977ce662": 0.53,
 "b6288d1d2b4e": 0.032,
 "b9c865b3a408": 0.012,
 "bb2a699e2966": 0.01,
-"c159a91bfa3c": 0.042,
 "c66236a8e821": 0.766,
 "c8790dd77434": 0.103,
-"c963c3bfff67": 0.623,
+"c963c3bfff67": 0.496,
+"cdefbfa9b56c": 0.117,
 "d5213e315809": 0.042,
 "d596263621b4": 0.14,
 "d7d535c8648c": 0.004,
-"dd9c70ada97c": 0.13,
-"debb05df6113": 0.37,
+"dd9c70ada97c": 0.181,
+"debb05df6113": 0.574,
 "e31d9dd8089a": 0.047,
-"efad630bee01": 0.136,
+"efad630bee01": 0.189,
 "f93541be8f22": 0.06,
 "ff204a61a05e": 0.112
 },
@@ -4178,63 +4178,63 @@
 [
 "0080c1bb18be",
 10,
-12,
+22,
 1
 ],
 [
 "98e25f04c7b4",
-26,
-289,
+25,
+299,
 5
 ],
 [
 "c66236a8e821",
-32,
-325,
+31,
+335,
 3
-],
-[
-"c963c3bfff67",
-24,
-134,
-1
 ],
 [
 "cbff17e3c160",
 0,
-257,
+267,
 1
 ],
 [
-"8af14190b1b8",
-20,
-303,
+"debb05df6113",
+29,
+299,
 3
 ],
 [
 "a904977ce662",
-34,
-191,
+33,
+202,
 1
 ],
 [
 "f21938d79439",
 10,
-81,
+91,
+1
+],
+[
+"c963c3bfff67",
+24,
+144,
 1
 ],
 [
 "b723883106d6",
 10,
-150,
+160,
 1
 ],
 [
 "4bd00f9edf5b",
 10,
-114,
+124,
 1
 ]
 ],
-"top_at": 1793036954.3188543
+"top_at": 1793037567.1068442
 }
