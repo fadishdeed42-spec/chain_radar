@@ -11,7 +11,8 @@
 1793007321.8625987,
 1793015901.0176318,
 1793016839.182601,
-1793017755.3988316
+1793017755.3988316,
+1793018701.1276052
 ],
 "menu": {
 "01c6004fdf5a": {
@@ -510,23 +511,6 @@
 "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZWxZSmFPSGhKZG9RaDMtamdlVjE5b1BpM3FXbDJtTEFHY3dOc1UzNEZTZXlXUEMxMURRcWNiUXN1UGpzMVZXaXE5QW9CV0pzaS0zbzkxOUVvN2ZNSlR2eDgxLWZaS0RobDd2UWg0OFlObTNEWmhVMENVQ1VXYTBNWV9rVVA2R0ZFd0g5NlNkTkl4T2lodVhUNGNwbHZoT1d1c0x2dVp2RU7SAa4BQVVfeXFMUDZfSS1JRXJNV08tbWNMeFE3Z2NYc09xU3JJUEFHNzVSVzdYbmw0cTQ5dVZITmg5cC1FSjY0VDhwS012a094TkVxam15N00wTzhQS0RyaWkxb2FwYkF1TTE4Y2RMWjRxOC1VdHJMWno3NDNOTGowdWJFVFVETFdDVnhWU3VoNTBWTF9UME1qR29tNjhFeWJpNFhaNjNqckQyenFiYzNXdGxMNFFpbGR3?oc=5",
 "urls": []
 },
-"27d848f67a80": {
-"coin": "",
-"src": "Pluang",
-"srcs": [
-"AMBCrypto",
-"CryptoTicker",
-"Pluang",
-"TOKENPOST",
-"bloomingbit"
-],
-"t": 1792845701.436017,
-"t0": 1792824321.0,
-"tgtext": "",
-"title": "1.4M AUSD moved after exploit on Initia affects third-party product, prompting network halt and account freeze",
-"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczdhREVSVTl4dE8zRDNCWEJRSkotUkFjM0lrQnlGRGxuZVl3RWpFNjhneVRSNFRJRUhsbnp5RW1Ea25rcGZKLW5iaE1UczRtVnE5WkZsNkQ3cTRJZjJJc3dyWVZPMnNlOXFSTTR2UHU3UkF1ekZWWlRrR0s1X2x2bVQwdjJDaGFyeVhRVlpUT2RQOGNUNHVMVF9GbVZESjl3b0E0?oc=5",
-"urls": []
-},
 "2805e3456a32": {
 "coin": "bitcoin",
 "src": "The Motley Fool",
@@ -626,18 +610,15 @@
 "coin": "bitcoin",
 "src": "Moomoo",
 "srcs": [
-"Bitcoin Magazine",
 "Cointelegraph",
 "Moomoo"
 ],
-"t": 1793018367.1621952,
+"t": 1793018992.3536897,
 "t0": 1793003000.0,
 "tgtext": "\ud83d\udd25 JUST IN: Strive acquires 6,182 $BTC, bringing its total holdings to 43,000 Bitcoin.\n\nNews | Markets | YouTube",
 "title": "Strive (ASST.US) raises $630 million to boost Bitcoin holdings; needs to purchase 700 BTC per week to rise to second place.",
 "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1pKeFNSZFBHTm9Ib2hfcnpiT1B2b2dVREg2WkMwSW94STduRi12ZmtSQjFiQml3MHh2Q2RCNkN0ZUhJb3RNOEFFUFZBNmZxcUpJXzAtSy1TMWVBMXF5c3ppaUphZEROT3hEOC1USUtIZXp2ZFJzNGtMbzE5M3lpOXhDQjB2aXc5UUhVampNQ1czb2hvMlAxd0ZpZlFHWlNncmhuWFVwUDZkNEJZ?oc=5",
-"urls": [
-"https://bitcoinmagazine.com/news/strive-asst-buys-6182-bitcoin"
-]
+"urls": []
 },
 "323fdd9b8bb7": {
 "coin": "",
@@ -681,7 +662,7 @@
 "Cryptonews",
 "Decrypt"
 ],
-"t": 1793018367.1621952,
+"t": 1793018992.3536897,
 "t0": 1793000198.0,
 "tgtext": "",
 "title": "Crypto Price Analysis, BTC, ETH, HYPE, QNT and ICP, October 26: Quant Gains 3.2% as Bitcoin Falls Below $80,000 and Ethereum Weakens",
@@ -738,7 +719,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793018367.1621952,
+"t": 1793018992.3536897,
 "t0": 1793002395.0,
 "tgtext": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.\n\n$Kimchi briefly surged over 150%.\n\nCoincidentally, trader ja2trader spent $28.9K buying 4.61M $Kimchi just hours before @kimchi1x added @pumpfun back to his bio, and is now up $11K.\n\nhttps://solscan.io/account/8dxFkfYTddmgRpphqgvBkNN2LLz1MHgGzd63Wz79gfQz?exclude_amount_zero=true&remove_spam=false&token_address=CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump&page_size=100#transfers",
 "title": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.",
@@ -859,10 +840,9 @@
 "CoinCodex",
 "Coinpedia",
 "Cryptopolitan",
-"Gadgets 360",
-"TronWeekly"
+"Gadgets 360"
 ],
-"t": 1793018367.1621952,
+"t": 1793018675.7792916,
 "t0": 1793000995.0,
 "tgtext": "",
 "title": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
@@ -1002,6 +982,19 @@
 "https://cryptoslate.com/wall-streets-359-billion-a-day-repo-market-has-found-a-use-for-blockchain/"
 ]
 },
+"49be0edcfc3a": {
+"coin": "ethereum",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793018992.3536897,
+"t0": 1793018497.0,
+"tgtext": "BitMine acquires 10,452 ETH, total holdings reach 6,051,933 ETH\n\nBitMine said it acquired 10,452 ETH over the past week, bringing total holdings to 6,051,933 ETH, or about 4.95% of Ethereum\u2019s supply. The company also repurchased 2.04 million shares at an average price of $22.48; its 2026 buybacks now total 22.9 million shares, or about $399.6 million. BitMine has 5.23 million ETH staked and reported total crypto, cash, marketable securities and other investments of about $15 billion. \u2014 link",
+"title": "BitMine acquires 10,452 ETH, total holdings reach 6,051,933 ETH",
+"url": "https://t.me/wublockchainenglish/26551",
+"urls": []
+},
 "4a3c75a3943e": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -1021,7 +1014,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793018367.1621952,
+"t": 1793018992.3536897,
 "t0": 1793007190.0,
 "tgtext": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands\n\nMEXC said it does not hold MiCA authorization in the EU and EEA and is winding down services in the Netherlands, with final offboarding scheduled for November 16. The exchange is also discontinuing services for users in Russia and Belarus. Separately, its User Agreement currently lists 13 prohibited jurisdictions, including the United States, Canada, the United Kingdom, Singapore, Hong Kong, Mainland China, Malaysia and Kazakhstan. \u2014 link",
 "title": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands",
@@ -1300,21 +1293,6 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613"
 ]
-},
-"5f69eba1e414": {
-"coin": "",
-"src": "TOKENPOST",
-"srcs": [
-"Pluang",
-"TOKENPOST",
-"The Cryptonomist"
-],
-"t": 1792845701.436017,
-"t0": 1792824372.0,
-"tgtext": "",
-"title": "Mint Exploit Reports Prompt Initia to Halt Its L1 and Rollups",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkN1UtQXZfUXJqM2tzQ2FuZXpJcVNJbFJTemg0TEhBVUVhNTVCTXV2bVdTTExhQUJTbkc0Q19GS3FXSTctMmlmcFczV1FwU0JieFhOZThOWEhXTlU?oc=5",
-"urls": []
 },
 "6075f6da82ea": {
 "coin": "",
@@ -1866,6 +1844,19 @@
 "tgtext": "\ud83d\udd25 NEW: Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.\n\n$532M of it traded on weekends alone, over just one month.\n\nNews | Markets | YouTube",
 "title": "Nearly 60% of stock token trading on Robinhood Chain happens when Wall Street is closed, according to Entropy's Tom Wan.",
 "url": "https://t.me/cointelegraph/72837",
+"urls": []
+},
+"8af14190b1b8": {
+"coin": "ethereum",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793018992.3536897,
+"t0": 1793018783.0,
+"tgtext": "\ud83d\udd25 JUST IN: Tom Lee\u2019s Bitmine bought 10,452 $ETH last week.\n\nTotal holdings now stand at 6.05M ETH, or 4.95% of the supply.\n\nNews | Markets | YouTube",
+"title": "Tom Lee\u2019s Bitmine bought 10,452 ETH last week.",
+"url": "https://t.me/cointelegraph/72855",
 "urls": []
 },
 "8bbb60b0a6a9": {
@@ -2655,6 +2646,22 @@
 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUR6SmZJbXR4V0cwb19ydWRwSnI2ajNlZWcxd2t3bVhFQ3UxOEFOdU5hNENFdlZ5U1ZXV1ZJaWFwLUI4Ml9PdTlsSk5MdkI0RHhnR3Q1d2s3NTNhS3lKWUtUakN2aEV0T0Y3cUtmX0tBWFdnUnFKZEtrQXZSNEM2MDAzU3hqNlNTMXRVZGhB?oc=5",
 "urls": []
 },
+"c66236a8e821": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Bitcoin Magazine",
+"Lookonchain"
+],
+"t": 1793018992.3536897,
+"t0": 1793017467.0,
+"tgtext": "Strategy didn't buy any $BTC last week, while #Strive bought 6,182 $BTC ($511.4M) at an average price of $82,732.",
+"title": "Strategy didn't buy any BTC last week, while Strive bought 6,182 BTC ($511.4M) at an average price of $82,732.",
+"url": "https://t.me/lookonchainchannel/10786",
+"urls": [
+"https://bitcoinmagazine.com/news/strive-asst-buys-6182-bitcoin"
+]
+},
 "c6f85aec56c4": {
 "coin": "bitcoin",
 "src": "CryptoTicker",
@@ -2719,7 +2726,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793018367.1621952,
+"t": 1793018992.3536897,
 "t0": 1793015707.0,
 "tgtext": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\n\nAccording to an SEC filing, Strive entered into an at-the-market sales agreement with Cantor Fitzgerald, Barclays and five other firms to sell up to $1 billion of its Series A perpetual preferred stock, SATS. The shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive said net proceeds may be used for general corporate purposes, including Bitcoin purchases, working capital, income-generating investments and repurchases of common or preferred stock. \u2014 link",
 "title": "Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases",
@@ -3032,7 +3039,7 @@
 "Altcoin Buzz",
 "The Crypto Times"
 ],
-"t": 1793018367.1621952,
+"t": 1793018675.7792916,
 "t0": 1793003839.0,
 "tgtext": "",
 "title": "Bithumb and Upbit Flag Initia (INIT) as High-Risk After $2.7M Exploit",
@@ -3280,7 +3287,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793018367.1621952,
+"t": 1793018992.3536897,
 "t0": 1793007733.0,
 "tgtext": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board\n\nAsia Gulf Holdings, parent of Bahrain-licensed Singapore Gulf Bank, appointed Revolut Group chairman Martin Gilbert and former Singapore minister Maliki Osman to its Global Advisory Board. Gilbert will advise on investment strategy and asset management across Asia and the Middle East, while Osman will focus on geopolitics and government relations. \u2014 link",
 "title": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board",
@@ -3306,7 +3313,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793004570.9773126,
+"t": 1793018992.3536897,
 "t0": 1792999939.0,
 "tgtext": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28\n\n\nTo expand the list of trading choices offered on Binance Spot and enhance users' trading experience, Binance will open trading for USDC/AED trading pairs at 2026-10-28 08:00 (UTC).\n\nIn addition, Binance will enable Trading Bots services for the following pairs at 2026-10-28 08:00 (UTC):\n- Spot Algo Orders: USDC/AED\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28",
@@ -3331,35 +3338,34 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0203d969a6e1": 0.011,
-"0c008868377a": 0.231,
-"0f006ff6072a": 0.063,
+"0203d969a6e1": 0.045,
 "128f2c548bbf": 0.017,
-"1f4c8e9366aa": 0.123,
-"2269401dca51": 0.341,
 "28afbe023482": 0.282,
-"31df6394e534": 0.731,
-"34feda7c5b2d": 0.014,
+"2be76d2a8fbb": 0.024,
 "358b08b2ce7d": 0.653,
-"40cff6bc0273": 0.786,
-"45095dcf130f": 0.028,
+"40cff6bc0273": 0.427,
+"45095dcf130f": 0.007,
 "4680459dd6ff": 0.31,
 "46df9476d93f": 0.022,
+"4e7ef4fb0819": 0.049,
 "56ec1a231d8b": 0.107,
 "6075f6da82ea": 0.035,
 "623ab80418db": 0.106,
-"686e1371f71d": 0.048,
 "6b0ba3c0dc87": 0.018,
 "7688e8ae4cf3": 0.162,
 "7a325eae3174": 0.033,
 "83ba23226ca8": 0.018,
 "83ec5ad5a1c1": 0.097,
 "886a005702b3": 0.097,
-"9aafa9477107": 0.128,
+"8d9bb5972b0a": 0.049,
+"92ba76d45022": 0.039,
+"9aafa9477107": 0.251,
 "ad683bbea58f": 0.044,
+"af2e4bb1d661": 0.023,
 "b5454a0256d3": 0.216,
+"b9c865b3a408": 0.018,
 "c00e0f8339fb": 0.114,
-"c5da38cfaf3b": 0.085,
+"c66236a8e821": 0.958,
 "c8662715cadd": 0.592,
 "cca4e83f2e3b": 0.181,
 "d38a28c5749c": 0.146,
@@ -3368,7 +3374,8 @@
 "db172b1d80d0": 0.177,
 "df2989fc7b83": 0.07,
 "df70b66dc458": 0.461,
-"e821d17d1784": 0.063,
+"e850cad05e58": 0.024,
+"f5acfd18ff4f": 0.077,
 "fe9d43ea130d": 0.065,
 "ff9509beeab8": 0.134
 },
@@ -3962,71 +3969,101 @@
 "quant",
 "weakens"
 ]
+},
+{
+"e": [
+"strategy",
+"strive"
+],
+"k": [],
+"t": 1793018675.7792916,
+"u": [
+"https://bitcoinmagazine.com/news/strive-asst-buys-6182-bitcoin",
+"https://t.me/lookonchainchannel/10786"
+],
+"w": [
+"$511",
+"$82",
+"182",
+"732",
+"any",
+"average",
+"bought",
+"btc",
+"buy",
+"didn",
+"last",
+"price",
+"strategy",
+"strive",
+"week",
+"while"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"3a57e651b6db",
-0,
-266,
+"c66236a8e821",
+49,
+25,
+2
+],
+[
+"49be0edcfc3a",
+10,
+8,
 1
 ],
 [
-"40cff6bc0273",
-71,
-290,
-5
+"3a57e651b6db",
+0,
+277,
+1
 ],
 [
-"31df6394e534",
-26,
-256,
-3
+"8af14190b1b8",
+10,
+3,
+1
 ],
 [
 "4cfbfa5c246f",
-10,
-186,
+8,
+197,
 1
 ],
 [
 "358b08b2ce7d",
-61,
-303,
-11
+60,
+313,
+10
+],
+[
+"fb466e79bee3",
+9,
+188,
+1
 ],
 [
 "c8662715cadd",
 25,
-44,
+55,
 1
 ],
 [
-"fb466e79bee3",
-10,
-177,
-1
-],
-[
-"df70b66dc458",
-57,
-242,
+"31df6394e534",
+15,
+267,
 2
 ],
 [
-"81dfdeacdf5f",
+"fc37d96df21f",
 0,
-321,
-1
-],
-[
-"2b67d4f68b26",
-10,
-158,
+318,
 1
 ]
 ],
-"top_at": 1793018367.1621952
+"top_at": 1793018992.3536897
 }
