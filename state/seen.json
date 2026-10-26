@@ -20,6 +20,19 @@
 1793022358.892616
 ],
 "menu": {
+"0080c1bb18be": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793036338.9764984,
+"t0": 1793036242.0,
+"tgtext": "\ud83c\udde7\ud83c\uddf7 REKT: Put $1,000 into Brazilian stocks at Friday's close and you'd have about $835 right now.\n\nConvert it to dollars and it's closer to $740, because the real got hit too. \n\nNews | Markets | YouTube",
+"title": "REKT: Put $1,000 into Brazilian stocks at Friday's close and you'd have about $835 right now.",
+"url": "https://t.me/cointelegraph/72865",
+"urls": []
+},
 "01c6004fdf5a": {
 "coin": "",
 "src": "Substack",
@@ -114,19 +127,6 @@
 "tgtext": "",
 "title": "Mastermind Behind Rs 92 Lakh Social Media Scam Arrested in Bhadrak; Linked to Chinese Cyber Network",
 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWJBNGFMN0d6SmRDSUwwVmZrT0tBeWNBQlJ4UUt4WU5lMlVkRk9pVVRoanlKSXQ0bl9NTjFXazdxMzFBeldiSnZ1WGY5dTVhVEZ4U0NwOHVhWTBueW85d05HNHVOX21adGc5LW5TOXN4Y19NZlo0MFVad29VSEN1V2gwRFpfcXU2eHlFN1dRdEN1LXZpUWlVRWdQcUlUX3paMW12QktMZGVRdkt5T3RLV3Q1NVF6QWRlYWdIcmVLZ18?oc=5",
-"urls": []
-},
-"09c90228a4b2": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1792863076.1214614,
-"t0": 1792841625.0,
-"tgtext": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates\n\nAccording to Unchained, Ethereum staking protocol Swell has paused deposits and withdrawals for swETH and rswETH until it corrects the net asset values (NAV) and exchange rates of both tokens. Data shows that the swETH and rswETH contracts reported exchange rates of approximately 1.203 ETH and 1.138 ETH, respectively, about 6% and 5% higher than normal levels.\n\nOn-chain analyst Spreek suspected a compromise of the relevant token admin keys and identified a malicious upgrade contract that could potentially impact around 2,500 ETH, though the upgrade has not yet been executed. Swell stated that no ETH has been transferred out of the affected contracts and that the exact cause remains under investigation. \u2014 link",
-"title": "Swell Pauses swETH and rswETH Deposits and Withdrawals Amid Abnormally High Contract Exchange Rates",
-"url": "https://t.me/wublockchainenglish/26539",
 "urls": []
 },
 "0b482c3c0ec5": {
@@ -345,7 +345,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793034377.0,
 "tgtext": "Ethereum Delays Glamsterdam Hoodi Fork Over EIP-8037 and EIP-8038 Risks\n\nEthereum researcher Toni Wahrst\u00e4tter said the planned Glamsterdam fork on the Hoodi testnet has been delayed after ChainSecurity identified compatibility risks in EIP-8037 and EIP-8038. The gas changes could break contracts that assume gas usage only decreases or cause failed sub-calls to behave unexpectedly. ChainSecurity has found 13 real-world cases, and developers are reviewing whether the upgrade specification needs changes. \u2014 link",
 "title": "Ethereum Delays Glamsterdam Hoodi Fork Over EIP-8037 and EIP-8038 Risks",
@@ -955,7 +955,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793034189.896163,
+"t": 1793036034.178493,
 "t0": 1793030102.0,
 "tgtext": "JUST IN: Microsoft $MSFT offers buyouts to 60,000 employees as it cuts costs amid AI adoption.\n\n@WatcherGuru",
 "title": "Microsoft MSFT offers buyouts to 60,000 employees as it cuts costs amid AI adoption.",
@@ -1811,7 +1811,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793018783.0,
 "tgtext": "\ud83d\udd25 JUST IN: Tom Lee\u2019s Bitmine bought 10,452 $ETH last week.\n\nTotal holdings now stand at 6.05M ETH, or 4.95% of the supply.\n\nNews | Markets | YouTube\nJUST IN: Tom Lee's 'BitMine' buys 10,452 $ETH worth $24 million.\n\n@WatcherGuru",
 "title": "Tom Lee insists \u2018crypto bull market is underway\u2019 as Bitmine adds 10,452 ETH",
@@ -2014,7 +2014,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793019600.0,
 "tgtext": "Galaxy: Bitcoin bear market ended in June, accumulation phase underway\n\nGalaxy Research said Bitcoin\u2019s bear market ended in June 2026 and the asset is now in an accumulation phase, with BTC closing above its 50-week moving average for five consecutive weeks. Monthly transfers from coins held for more than five years have fallen to about 34,000 BTC from 67,000 in 2024, suggesting reduced selling pressure from long-term holders. Galaxy said the bullish view would weaken if Bitcoin falls below its roughly $76,540 50-week moving average and fails to reclaim it within a month. \u2014 link",
 "title": "Bitcoin\u2019s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy'",
@@ -2104,19 +2104,6 @@
 "tgtext": "\u26a1 NEW: Tether just got 15 Bitcoin mining heavyweights, including Bitmain, MicroBT and Foundry, to back its open-source mining kit.\n\nThe endgame is AI agents running mining farms.\n\nNews | Markets | YouTube",
 "title": "Tether just got 15 Bitcoin mining heavyweights, including Bitmain, MicroBT and Foundry, to back its open-source mining kit.",
 "url": "https://t.me/cointelegraph/72828",
-"urls": []
-},
-"a12ca530ac5d": {
-"coin": "dogecoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1792863076.1214614,
-"t0": 1792841578.0,
-"tgtext": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc\n\nDogecoin Labs has been officially established with backing from the Dogecoin Foundation. Jordan Jefferson, founder of DogeOS, serves as CEO. Read more: \u2014 link",
-"title": "Weekly Project Updates: Dogecoin Labs Launches for Payments, OpenSea App Goes Public, Starknet Votes for Independent L1 Transition, etc",
-"url": "https://t.me/wublockchainenglish/26538",
 "urls": []
 },
 "a272f9d3680a": {
@@ -2225,10 +2212,9 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
-"The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793025475.0,
 "tgtext": "Keystone Breach Exposed 25,964 Purchase Records and Compromised Device Verification Key\n\nKeystone said its latest investigation found that attackers obtained a WebAuth device-authentication key through the website breach, potentially allowing counterfeit hardware wallets to pass official authenticity checks. The company will destroy 18,835 unsold devices using the old key, pause unshipped orders and switch new production to a replacement key. The incident also affected 25,964 purchase records and 12,873 incomplete checkout records, while Keystone said seed phrases, private keys and transaction signing were not compromised. \u2014 link",
 "title": "Keystone Breach Exposed 25,964 Purchase Records and Compromised Device Verification Key",
@@ -2347,7 +2333,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793027955.0,
 "tgtext": "Oct 19\u2013Oct 25, 2026 #LookonchainWeeklyReport\nhttps://x.com/lookonchain/status/2114738555356623304",
 "title": "Oct 19\u2013Oct 25, 2026 LookonchainWeeklyReport",
@@ -2636,7 +2622,7 @@
 "Lookonchain",
 "The Block"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793017467.0,
 "tgtext": "Strategy didn't buy any $BTC last week, while #Strive bought 6,182 $BTC ($511.4M) at an average price of $82,732.",
 "title": "Strategy didn't buy any BTC last week, while Strive bought 6,182 BTC ($511.4M) at an average price of $82,732.",
@@ -2738,7 +2724,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793028923.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Markets price in a 90.6% chance the Fed holds rates steady on Oct. 28.\n\nWill the Fed hike or hold?\n\nNews | Markets | YouTube",
 "title": "Markets price in a 90.6% chance the Fed holds rates steady on Oct. 28.",
@@ -2764,7 +2750,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793021540.0,
 "tgtext": "S&P Global acquires OpenZeppelin to boost digital asset risk capabilities\n\nS&P Global has completed its acquisition of blockchain security firm OpenZeppelin for an undisclosed amount. The deal is intended to strengthen S&P Global\u2019s digital asset and smart contract risk capabilities. OpenZeppelin will continue to operate independently under founder Demian Brener, while its open-source smart contract libraries will remain freely available. \u2014 link",
 "title": "S&P Global acquires OpenZeppelin to boost digital asset risk capabilities",
@@ -3253,7 +3239,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793035720.99926,
+"t": 1793036338.9764984,
 "t0": 1793032103.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: CFTC Chairman Mike Selig says crypto markets should get the same protections as US derivatives markets.\n\nCongress hasn't acted, so the CFTC is moving on its own. Should it have waited?\n\nNews | Markets | YouTube",
 "title": "BIG: CFTC Chairman Mike Selig says crypto markets should get the same protections as US derivatives markets.",
@@ -3401,30 +3387,29 @@
 "probs": {
 "021a362862a2": 0.008,
 "047569bbad1d": 0.035,
-"070979ac5dbe": 0.263,
-"089cb15d4f2a": 0.162,
+"070979ac5dbe": 0.076,
 "0be1287b40c3": 0.223,
 "2a90b7a2ff0f": 0.052,
 "2bea9a097964": 0.079,
-"2db640327842": 0.191,
 "30d62a1bee9c": 0.065,
-"3f5be559018c": 0.021,
-"4110d093f673": 0.438,
+"367b395d5375": 0.159,
+"3f5be559018c": 0.031,
+"4110d093f673": 0.326,
 "46f182f5decb": 0.033,
 "494c4675a08e": 0.041,
+"4eca218ec35b": 0.007,
 "50a505c346f0": 0.245,
 "54deb8cad882": 0.107,
 "55ac84aa4793": 0.043,
-"5b8e2d8cd6b1": 0.07,
-"70274f17b33a": 0.055,
+"5b8e2d8cd6b1": 0.09,
 "720cbfe808a1": 0.119,
 "854805cd0a6f": 0.02,
 "8af14190b1b8": 0.532,
+"8c10e191a632": 0.099,
 "96c0df2559d7": 0.223,
 "98e25f04c7b4": 0.791,
-"a1353c1f41e5": 0.053,
 "a8ff9215bd4c": 0.391,
-"a904977ce662": 0.827,
+"a904977ce662": 0.53,
 "b6288d1d2b4e": 0.032,
 "b9c865b3a408": 0.012,
 "bb2a699e2966": 0.01,
@@ -3432,6 +3417,7 @@
 "c66236a8e821": 0.766,
 "c8790dd77434": 0.048,
 "c963c3bfff67": 0.623,
+"d5213e315809": 0.066,
 "d596263621b4": 0.14,
 "d7d535c8648c": 0.006,
 "dd9c70ada97c": 0.13,
@@ -4190,65 +4176,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"a904977ce662",
-45,
-171,
-2
+"0080c1bb18be",
+10,
+2,
+1
 ],
 [
 "98e25f04c7b4",
-29,
-269,
+27,
+279,
 5
 ],
 [
 "c66236a8e821",
-35,
-304,
+34,
+315,
 3
 ],
 [
 "c963c3bfff67",
 24,
-113,
+124,
 1
 ],
 [
 "cbff17e3c160",
-3,
-236,
+2,
+247,
 1
 ],
 [
 "8af14190b1b8",
-23,
-282,
+21,
+293,
 3
+],
+[
+"a904977ce662",
+35,
+181,
+1
 ],
 [
 "f21938d79439",
 10,
-60,
+71,
 1
 ],
 [
 "1c01b170831c",
 10,
-22,
+33,
 1
 ],
 [
 "b723883106d6",
 10,
-129,
+140,
 1
-],
-[
-"4110d093f673",
-20,
-258,
-3
 ]
 ],
-"top_at": 1793035720.99926
+"top_at": 1793036338.9764984
 }
