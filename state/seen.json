@@ -578,7 +578,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793025296.5863256,
+"t": 1793025605.281551,
 "t0": 1793022322.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The US OCC urges US community banks to explore becoming permitted payment stablecoin issuers.\n\nNews | Markets | YouTube",
 "title": "The US OCC urges US community banks to explore becoming permitted payment stablecoin issuers.",
@@ -996,7 +996,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793007190.0,
 "tgtext": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands\n\nMEXC said it does not hold MiCA authorization in the EU and EEA and is winding down services in the Netherlands, with final offboarding scheduled for November 16. The exchange is also discontinuing services for users in Russia and Belarus. Separately, its User Agreement currently lists 13 prohibited jurisdictions, including the United States, Canada, the United Kingdom, Singapore, Hong Kong, Mainland China, Malaysia and Kazakhstan. \u2014 link",
 "title": "MEXC Lacks MiCA Authorization, Winds Down Netherlands as Restricted-Market List Expands",
@@ -1120,12 +1120,11 @@
 "src": "The Block",
 "srcs": [
 "Cointelegraph",
-"CryptoPotato",
 "Decrypt",
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793019584.0,
 "tgtext": "Strategy buys no Bitcoin for week, spends $205M on STRC buybacks\n\nStrategy said it made no Bitcoin purchases or sales and conducted no ATM stock sales between October 19 and 25, while spending about $204.9 million to repurchase 2.07 million STRC preferred shares. The company continues to hold 848,517 BTC acquired for about $64.02 billion at an average price of $75,446, alongside a $4.83 billion USD Reserve and roughly $242 million in additional cash. \u2014 link",
 "title": "Strategy pauses bitcoin buys, repurchases $205 million of STRC preferred shares",
@@ -1488,6 +1487,19 @@
 "tgtext": "",
 "title": "USELESS climbs 12% as shorts take hit: Is $0.20 next for the memecoin?",
 "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYlgxcmVpRXZZTXFSNHVjUkZfU3h1V2d5a2dRVTB3RlFjaDhQWi1EMTZWdGhHa0ZQQ3NwOEhkNmEwYjZIRmtSTjNXV1QxWERyTC1GTkM5eGNlcDlQZjd5NUZoZnI4b2trUXBsSi1heG4xUS1JYlJXTm96SEtGR2k4TDNmZ090VTdEWVl2bzdrcjRxX3M?oc=5",
+"urls": []
+},
+"6b496635d096": {
+"coin": "",
+"src": "Altcoin Buzz",
+"srcs": [
+"Altcoin Buzz"
+],
+"t": 1793025910.1042058,
+"t0": 1793013437.0,
+"tgtext": "",
+"title": "Initia Exploit: L1 and Rollups Halted After $2.7M Drained",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON2lvX09BZVh1NmItcERDQzVLbE5zNDduaUJUM1dlSVFZVXdPUXZEMklweGRYV293VWdkRzJYVll4NUV2S1NvOVJDaWsxakdLc0dieldsVm1lMjdoQ0Z5Z1VteFNQanRxRm8xaWFXeFVFT1J6QVJOSWxOODBVWmZoUHJId082TGJxbW9JYWp4ZTBLbDN1X1E?oc=5",
 "urls": []
 },
 "6d60f786c19e": {
@@ -1995,19 +2007,21 @@
 "coin": "bitcoin",
 "src": "Decrypt",
 "srcs": [
+"Bitcoin Magazine",
 "Decrypt",
 "The Block",
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793019600.0,
 "tgtext": "Galaxy: Bitcoin bear market ended in June, accumulation phase underway\n\nGalaxy Research said Bitcoin\u2019s bear market ended in June 2026 and the asset is now in an accumulation phase, with BTC closing above its 50-week moving average for five consecutive weeks. Monthly transfers from coins held for more than five years have fallen to about 34,000 BTC from 67,000 in 2024, suggesting reduced selling pressure from long-term holders. Galaxy said the bullish view would weaken if Bitcoin falls below its roughly $76,540 50-week moving average and fails to reclaim it within a month. \u2014 link",
 "title": "Bitcoin\u2019s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy'",
 "url": "https://decrypt.co/381786/bitcoin-bear-market-is-over-galaxy-research-says",
 "urls": [
 "https://www.theblock.co/news/markets/2026-10-26-galaxy-says-bitcoin-bear-market-is-over-now-is-the-time-to-buy-and-hold-431720",
-"https://decrypt.co/381786/bitcoin-bear-market-is-over-galaxy-research-says"
+"https://decrypt.co/381786/bitcoin-bear-market-is-over-galaxy-research-says",
+"https://bitcoinmagazine.com/markets/bitcoins-bear-market-is-over-galaxy-says"
 ]
 },
 "9a49a32225f8": {
@@ -2204,6 +2218,19 @@
 "tgtext": "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's stock market suspends trading due to circuit breaker.\n\n@WatcherGuru",
 "title": "\ud83c\udde7\ud83c\uddf7 Brazil's stock market suspends trading due to circuit breaker.",
 "url": "https://t.me/WatcherGuru/15627",
+"urls": []
+},
+"a904977ce662": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793025910.1042058,
+"t0": 1793025475.0,
+"tgtext": "Keystone Breach Exposed 25,964 Purchase Records and Compromised Device Verification Key\n\nKeystone said its latest investigation found that attackers obtained a WebAuth device-authentication key through the website breach, potentially allowing counterfeit hardware wallets to pass official authenticity checks. The company will destroy 18,835 unsold devices using the old key, pause unshipped orders and switch new production to a replacement key. The incident also affected 25,964 purchase records and 12,873 incomplete checkout records, while Keystone said seed phrases, private keys and transaction signing were not compromised. \u2014 link",
+"title": "Keystone Breach Exposed 25,964 Purchase Records and Compromised Device Verification Key",
+"url": "https://t.me/wublockchainenglish/26555",
 "urls": []
 },
 "aa876fea50b8": {
@@ -2622,7 +2649,7 @@
 "Lookonchain",
 "The Block"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793017467.0,
 "tgtext": "Strategy didn't buy any $BTC last week, while #Strive bought 6,182 $BTC ($511.4M) at an average price of $82,732.",
 "title": "Strategy didn't buy any BTC last week, while Strive bought 6,182 BTC ($511.4M) at an average price of $82,732.",
@@ -2737,7 +2764,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793021540.0,
 "tgtext": "S&P Global acquires OpenZeppelin to boost digital asset risk capabilities\n\nS&P Global has completed its acquisition of blockchain security firm OpenZeppelin for an undisclosed amount. The deal is intended to strengthen S&P Global\u2019s digital asset and smart contract risk capabilities. OpenZeppelin will continue to operate independently under founder Demian Brener, while its open-source smart contract libraries will remain freely available. \u2014 link",
 "title": "S&P Global acquires OpenZeppelin to boost digital asset risk capabilities",
@@ -2919,19 +2946,6 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613"
 ]
-},
-"d7c949b4a7a6": {
-"coin": "solana",
-"src": "CryptoTicker",
-"srcs": [
-"CryptoTicker"
-],
-"t": 1792853023.6729662,
-"t0": 1792833403.0,
-"tgtext": "",
-"title": "Solana price prediction: $30.3M out of the SOL ETFs",
-"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcFRJbkhPS2FyUGFhdmxrSXprY01VV3k4OVZ5LVlDS25XZzByX1NGTkNPV1I1WDJVdHh5cFNtWmQwWUhrNjdJeE5JY1JWNTc1NVpFOG53N05FU3BFWEppbkNCcWdaZGNRbG5TUUJTLXBvaW1ETkhvbU55QURTdGY1RkdpbVF4RE9hUTlFMUNMdnc?oc=5",
-"urls": []
 },
 "d7cde55f442c": {
 "coin": "",
@@ -3123,7 +3137,7 @@
 "Decrypt",
 "Pintu"
 ],
-"t": 1793024991.9387453,
+"t": 1793025910.1042058,
 "t0": 1793005155.0,
 "tgtext": "",
 "title": "Crypto Market Analysis Today (October 26, 2026): Bitcoin Falls Below $80,000 Ahead of the Fed Decision",
@@ -3174,7 +3188,7 @@
 "Cryptopolitan",
 "Gadgets 360"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793007756.0,
 "tgtext": "",
 "title": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
@@ -3321,7 +3335,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793025296.5863256,
+"t": 1793025910.1042058,
 "t0": 1793007733.0,
 "tgtext": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board\n\nAsia Gulf Holdings, parent of Bahrain-licensed Singapore Gulf Bank, appointed Revolut Group chairman Martin Gilbert and former Singapore minister Maliki Osman to its Global Advisory Board. Gilbert will advise on investment strategy and asset management across Asia and the Middle East, while Osman will focus on geopolitics and government relations. \u2014 link",
 "title": "Singapore Gulf Bank's parent appoints Revolut chairman to advisory board",
@@ -3372,7 +3386,6 @@
 "memecore": 1792854244.3576312
 },
 "probs": {
-"0203d969a6e1": 0.011,
 "092f6854c22e": 0.012,
 "1cb822f4db67": 0.136,
 "2be76d2a8fbb": 0.034,
@@ -3380,38 +3393,39 @@
 "46df9476d93f": 0.022,
 "46f182f5decb": 0.032,
 "494c4675a08e": 0.084,
-"54deb8cad882": 0.818,
+"54deb8cad882": 0.651,
 "55ac84aa4793": 0.088,
-"56ec1a231d8b": 0.107,
+"635949ad49f9": 0.005,
 "6b0ba3c0dc87": 0.018,
+"6b496635d096": 0.559,
 "720cbfe808a1": 0.225,
-"726244ca2f14": 0.043,
+"726244ca2f14": 0.508,
 "7a325eae3174": 0.072,
 "83ba23226ca8": 0.029,
 "8af14190b1b8": 0.517,
 "92ba76d45022": 0.039,
-"98e25f04c7b4": 0.933,
+"98e25f04c7b4": 0.963,
+"a1353c1f41e5": 0.067,
 "a8ff9215bd4c": 0.377,
+"a904977ce662": 0.954,
 "ad683bbea58f": 0.044,
 "b9c865b3a408": 0.018,
 "c00e0f8339fb": 0.228,
 "c159a91bfa3c": 0.131,
-"c43b9f7d6b58": 0.545,
-"c66236a8e821": 0.932,
+"c43b9f7d6b58": 0.374,
+"c66236a8e821": 0.954,
 "c8662715cadd": 0.464,
 "c8790dd77434": 0.317,
 "cd22083abaaa": 0.021,
 "d38a28c5749c": 0.281,
 "db172b1d80d0": 0.177,
 "debb05df6113": 0.323,
-"df70b66dc458": 0.559,
-"e5fb1f595181": 0.459,
+"e5fb1f595181": 0.532,
 "e850cad05e58": 0.04,
 "e942d36f85eb": 0.58,
 "efad630bee01": 0.286,
 "f5acfd18ff4f": 0.077,
-"fe9d43ea130d": 0.065,
-"ff9509beeab8": 0.083
+"fe9d43ea130d": 0.041
 },
 "sent": [
 {
@@ -4167,6 +4181,39 @@
 "rate",
 "volatility"
 ]
+},
+{
+"e": [
+"breach",
+"compromised",
+"device",
+"exposed",
+"key",
+"keystone",
+"purchase",
+"records",
+"verification"
+],
+"k": [
+"hack",
+"record"
+],
+"t": 1793025605.281551,
+"u": [
+"https://t.me/wublockchainenglish/26555"
+],
+"w": [
+"964",
+"breach",
+"compromised",
+"device",
+"exposed",
+"key",
+"keystone",
+"purchase",
+"records",
+"verification"
+]
 }
 ],
 "stories": {},
@@ -4175,63 +4222,63 @@
 [
 "98e25f04c7b4",
 40,
-95,
-4
+105,
+5
 ],
 [
 "c66236a8e821",
 51,
-130,
+141,
 3
 ],
 [
-"54deb8cad882",
-46,
-95,
-5
-],
-[
-"cbff17e3c160",
-10,
-63,
+"a904977ce662",
+35,
+7,
 1
 ],
 [
 "4cfbfa5c246f",
 0,
-302,
+312,
 1
+],
+[
+"cbff17e3c160",
+10,
+73,
+1
+],
+[
+"54deb8cad882",
+46,
+105,
+4
 ],
 [
 "fb466e79bee3",
 0,
-293,
-1
-],
-[
-"2db640327842",
-10,
-50,
+303,
 1
 ],
 [
 "e942d36f85eb",
-57,
-292,
+55,
+303,
 4
 ],
 [
-"df70b66dc458",
-42,
-358,
-2
+"6b496635d096",
+52,
+208,
+1
 ],
 [
-"c43b9f7d6b58",
-20,
-148,
-2
+"e5fb1f595181",
+62,
+346,
+5
 ]
 ],
-"top_at": 1793025296.5863256
+"top_at": 1793025910.1042058
 }
