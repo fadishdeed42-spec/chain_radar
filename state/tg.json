@@ -1001,7 +1001,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489334,
+"offset": 138489335,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
@@ -1096,9 +1096,166 @@
 "sh_analyze": "2026-10-26",
 "sh_collect": "2026-10-26",
 "sh_weekly": "2026-10-25",
-"short_edit": "ee007782",
+"short_edit": "9f3c5489",
 "short_ep": 26,
 "shorts": {
+"9f3c5489": {
+"facts": "",
+"note": "",
+"sb": {
+"alt_hooks": [
+"Did Bitcoin just trap every single bear at $15,000 before the massive run to $126,000?",
+"How the brutal $15,000 crypto crash in 2022 tricked everyone into missing the $126,000 rally.",
+"Is this current market dip the exact same fakeout we saw right before $126,000?"
+],
+"chart": {
+"end": "2025-01-15",
+"start": "2022-11-01",
+"symbol": "BTC"
+},
+"description": "When Bitcoin hit $15,000 in November 2022, most investors panicked and sold at the absolute bottom. That brutal fakeout set the stage for institutional ETF inflows and a massive rally all the way to $126,000. Are current market dips just another trap before the next leg up?",
+"est_secs": 37,
+"hashtags": "#Bitcoin #Crypto #BTC #CryptoNews #Trading #BullRun #Investing",
+"length": 45,
+"pinned": "Are you buying this dip or waiting for another drop?",
+"respell": {
+"Bitcoin": "BIT-koyn"
+},
+"scenes": [
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "NOV 2022",
+"word": "November"
+}
+],
+"footage": "trading screens red",
+"hit": "$15000",
+"line": "Everyone panicked when Bitcoin crashed to $15,000 in November 2022.",
+"photo": "",
+"role": "hook",
+"visual": {
+"icon": "bitcoin",
+"sub": "Bitcoin's Ultimate Fakeout",
+"text": "THE $15K TRAP",
+"type": "title"
+}
+},
+{
+"beats": [
+{
+"icon": "bank",
+"text": "EXCHANGES EMPTY",
+"word": "dumped"
+}
+],
+"footage": "digital numbers falling",
+"hit": "panic",
+"line": "Exchange reserves dried up instantly as panic sellers dumped every single satoshi they owned.",
+"photo": "",
+"role": "setup",
+"visual": {
+"icon": "bitcoin",
+"label": "market bottom",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 15000
+}
+},
+{
+"beats": [
+{
+"icon": "skull",
+"text": "CRYPTO IS DEAD",
+"word": "dead"
+}
+],
+"footage": "news headline screens",
+"hit": "bottom",
+"line": "Smart money quietly accumulated at the absolute bottom while mainstream media shouted that crypto was dead.",
+"photo": "",
+"role": "turn",
+"visual": {
+"bad": true,
+"icon": "skull",
+"label": "media narrative",
+"type": "stamp",
+"word": "DEAD"
+}
+},
+{
+"beats": [
+{
+"icon": "cash",
+"text": "WALL STREET INFLOWS",
+"word": "billions"
+}
+],
+"footage": "wall street trading floor",
+"hit": "etfs",
+"line": "Then institutional spot ETFs launched in January 2024, injecting billions of fresh Wall Street dollars.",
+"photo": "",
+"role": "twist",
+"visual": {
+"day": 2024,
+"event": "Spot Bitcoin ETFs launch",
+"month": "JAN",
+"type": "date"
+}
+},
+{
+"beats": [
+{
+"icon": "crown",
+"text": "$126K TARGET",
+"word": "126,000"
+}
+],
+"chart": "2024-12-01",
+"footage": "bitcoin price chart rising green",
+"hit": "vertical",
+"line": "That exact fakeout catalyzed an explosive vertical rally straight past $126,000.",
+"photo": "",
+"role": "payoff",
+"visual": {
+"date": "2024-12-15",
+"label": "DEC 2024 \u00b7 $126K \u00b7 RALLY PEAK",
+"type": "chart"
+}
+},
+{
+"beats": [
+{
+"icon": "lock",
+"text": "FINAL SHAKE",
+"word": "dip"
+}
+],
+"footage": "cryptocurrency green candlestick chart",
+"hit": "trap",
+"line": "Look closely at the charts right now, because this current dip looks like the exact same trap.",
+"photo": "",
+"role": "end",
+"visual": {
+"icon": "bitcoin",
+"sub": "Watch the fakeout",
+"text": "HISTORY REPEATS",
+"type": "title"
+}
+}
+],
+"settings": {
+"length": 45
+},
+"title": "The Last Fakeout Before $126K Bitcoin \ud83d\udcc8",
+"tone": "hype",
+"words": 91
+},
+"t": 1793012695.9271343,
+"topic": "the last btc fakeout at 15000 and the rally to 126000 and compere it to right now as now is the last fake out"
+},
 "a55db3fd": {
 "facts": "Real headlines about this story (oldest first):\n- Mar 18, 2026: Iran\u2019s cryptocurrency enablers (Coda Story)\n- Apr 18, 2026: Changpeng Zhao\u2019s memoir is key to understanding the future of crypto (New York Post)\n- Apr 24, 2026: A Conversation with Crypto Billionaire CZ\u2014the Richest Former Inmate in U.S. History (The Free Press)\n- May 14, 2026: Czech animation at its best: Popular Czech bedtime story character Maxipes F\u00edk turns 50 (Radio Prague International)\n- May 14, 2026: Czechia at Eurovision: An awkward story of trying to stand out (Radio Prague International)\n- Jul 29, 2026: Irish musician Glen Hansard dies at 56: The Czech story behind \u2018Falling Slowly\u2019 - Prague, Czech Republic (Expats.cz)\n- Aug 20, 2026: CZ Honors a Defining Chapter in the Legacy of the CZ 75 (Outdoor Wire)\n- Aug 23, 2026: CZ Discontinues Three Major CZ 75 Models | An Official Journal Of The NRA (American Rifleman)\n- Aug 24, 2026: When CZ Spoke, the Bigger Story Wasn\u2019t Bitcoin \u2014 It Was How We Read the Market (Binance)\n- Sep 04, 2026: The Story of \u50bb\u5b69\u5b50: How a \u201cStupid Kid\u201d Bet Everything on Bitcoin and Built an Industry (Binance)\n- Sep 22, 2026: A Legendary Design Reborn: CZ 75 Legend Review (Guns.com)\n- Oct 05, 2026: Sold an Apartment for $900,000 and Bought Bitcoin: CZ\u2019s Story in a Major NYT Feature (Incrypted)\n- Oct 06, 2026: Inside CZ\u2019s Binance Story: FTX, USD1 and Trump Ties (Cryptonews.net)\n- Oct 06, 2026: Inside CZ\u2019s Binance Story: FTX, USD1 and Trump Ties (CryptoRank)\n- Oct 12, 2026: War Story (2014) | Videos - Trailer (\u010cSFD.cz)",
 "note": "",
