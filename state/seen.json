@@ -12,7 +12,9 @@
 1793114946.8951821,
 1793116479.74274,
 1793117091.5446706,
-1793119236.5912244
+1793119236.5912244,
+1793126469.048789,
+1793126773.571594
 ],
 "menu": {
 "0080c1bb18be": {
@@ -34,7 +36,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793107828.0,
 "tgtext": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\n\nAccording to Arkham, wallets it has labeled or tentatively attributed to Justin Sun collectively hold approximately $51.25 million in PEPE, representing 2.82% of the token's total supply, potentially making him the largest individual PEPE holder. Arkham tracked two transfers from Poloniex to the associated wallets on October 17 and 26, worth approximately $28.44 million and $20.32 million, respectively, totaling $48.76 million. Between October 15 and 25, wallets already labeled as belonging to Sun also transferred approximately $77 million in stablecoins to Poloniex. Some of the PEPE had previously moved between Binance, HTX and Poloniex. \u2014 link",
 "title": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply",
@@ -87,7 +89,7 @@
 "Bitcoin Magazine",
 "The Block"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793115332.0,
 "tgtext": "",
 "title": "SoFi discloses 503,000 crypto products as gross crypto revenue hits $162 million",
@@ -297,9 +299,10 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793114403.0,
 "tgtext": "Coinbase to Automatically Convert 14 Restricted Crypto Assets for EEA Users on October 30\n\nUnder Coinbase's previously announced MiCA compliance measures, retail users in the European Economic Area (EEA) must withdraw 14 restricted crypto assets, including USDT, PYUSD, USD1, DAI, and PAXG, before October 30. On that date, Coinbase will automatically convert remaining balances into USDC or other supported assets or currencies at prevailing market rates.\n\nTrading and conversions of these assets have already been restricted. Coinbase warned that deposits received after the deadline will not be credited to user accounts or included in the automatic conversion process, and recovery cannot be guaranteed. The restrictions affect assets issued by Tether, PayPal, and Trump-linked World Liberty Financial, among others. \u2014 link",
 "title": "Coinbase to Automatically Convert 14 Restricted Crypto Assets for EEA Users on October 30",
@@ -408,7 +411,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793115961.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump says consumer confidence is up 7.5%, calling it \u201can extremely big rise.\u201d\n\nNews | Markets | YouTube",
 "title": "Trump says consumer confidence is up 7.5%, calling it \u201can extremely big rise.\u201d",
@@ -491,7 +494,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793110339.0,
 "tgtext": "JUST IN: Michael Saylor says AI creates wealth while Bitcoin allows humanity to preserve it.\n\n@WatcherGuru",
 "title": "Michael Saylor says AI creates wealth while Bitcoin allows humanity to preserve it.",
@@ -811,7 +814,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793108962.0,
 "tgtext": "JUST IN: Ripple and Robinhood $HOOD officially announce strategic partnership to expand stablecoin adoption.\n\n@WatcherGuru",
 "title": "Ripple and Robinhood HOOD officially announce strategic partnership to expand stablecoin adoption.",
@@ -1000,7 +1003,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793118144.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the US will officially be \"BANNING\" the term \"AI/Artificial Intelligence\" in all documents.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump says he will ban the term \u201cartificial intelligence\u201d from relevant documents, calling it inaccurate and advocating \u201csuper intelligence\u201d instead.\n\nNews | Markets | YouTube",
 "title": "Trump says he will ban the term \u201cartificial intelligence\u201d from relevant documents, calling it inaccurate and advocating \u201csuper intelligence\u201d instead.",
@@ -2072,6 +2075,19 @@
 "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
 ]
 },
+"b5da870ad3fe": {
+"coin": "ethereum",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793126773.571594,
+"t0": 1793126506.0,
+"tgtext": "Wallet Potentially Linked to $40M UXLINK Hack Shows $6.54M in Unrealized ETH Gains\n\nA wallet suspected of belonging to the hacker behind last year\u2019s roughly $40 million UXLINK theft holds a 30,282 ETH long on Hyperliquid, according to on-chain data. The position has an average entry price of $2,134.45 and is worth approximately $71.17 million, with $6.54 million in unrealized gains. A funding address associated with the position and a known UXLINK hacker address both transferred ETH held for gas fees to the same wallet on the same day. The trader began trading ETH on Hyperliquid in early August after consolidating roughly 11.55 million USDC from multiple sources, with five of six trades showing a profit. \u2014 link",
+"title": "Wallet Potentially Linked to $40M UXLINK Hack Shows $6.54M in Unrealized ETH Gains",
+"url": "https://t.me/wublockchainenglish/26573",
+"urls": []
+},
 "b723883106d6": {
 "coin": "",
 "src": "Lookonchain",
@@ -2160,6 +2176,21 @@
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.\n\nNews | Markets | YouTube",
 "title": "The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.",
 "url": "https://t.me/cointelegraph/72882",
+"urls": []
+},
+"ba74fa42e68e": {
+"coin": "",
+"src": "WBFF",
+"srcs": [
+"KBOI",
+"WBFF",
+"WKEF"
+],
+"t": 1793126469.048789,
+"t0": 1793123118.0,
+"tgtext": "",
+"title": "6 accused scammers in Africa charged after dating scheme drained Americans' crypto wallets",
+"url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOQVhYSTZaOWViU1hsdXNMcDV4SFNEeWVfXzdxaFo0RWdUMG05aFowWm1QLWREMm5FM0NmVjB0dTVaSFUyMG5BdTlzN29qZWlNTU1oak9xZHQ2NEJSOU95WlA0SmlWa0lCWkE3NENzbi1WaUpzNXRaeEtUZ1dSaHN6S0NCNnViaW1ld241akhERDkwSURadDlOMy14R084M3AwNlk0eFQ0TkVQNUJfOHRfbFpVbUYzU2ZINU9uTVNySUJCc0wwM055UVFGNXdwRmNMaVhHTUNwNFE0ZkRKaV9ULWRUX3YyYkk3Tkh2cjdQOHhDYjdrODVnWVZFa1RWaEsxTXZzY0NrdkxNaEZKbFNGQmRzMnU?oc=5",
 "urls": []
 },
 "bb891b927f29": {
@@ -2290,7 +2321,7 @@
 "Bitcoin Magazine",
 "Wu Blockchain"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793123187.0,
 "tgtext": "Reuters: CFTC Again Probes Whether Polymarket Violated 2022 Settlement\n\nAccording to Reuters, citing two sources familiar with the matter, the CFTC is investigating whether Polymarket violated its 2022 settlement by failing to take sufficient steps to block U.S. users from its offshore platform. The investigation covers Polymarket's geolocation controls and U.S. advertising activities. The agency is also examining customer onboarding and protection measures on Polymarket's U.S. platform. The CFTC and DOJ closed similar investigations in 2025 without bringing charges. Both Polymarket and the CFTC declined to comment. \u2014 link",
 "title": "Reuters: CFTC Again Probes Whether Polymarket Violated 2022 Settlement",
@@ -2791,7 +2822,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793126159.0580027,
+"t": 1793126469.048789,
 "t0": 1793110793.0,
 "tgtext": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain\n\nOnchain trading platform Genius has launched its mobile app on Apple's App Store and Google Play. Built on BNB Chain, it combines token trading, social features, and token creation. Users can trade cryptocurrencies, follow other traders, explore market activity, and share insights from their phones. Integrated Genius fun lets users create tokens, select trading pairs, and launch new tokens. Genius fun launched on BNB Chain in September, and the new app brings these existing features to mobile. \u2014 link",
 "title": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain",
@@ -2996,7 +3027,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793126159.0580027,
+"t": 1793126773.571594,
 "t0": 1793116760.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues.\n\nTrillions of dollars have been wiped from China's stock markets in recent months.\n\nYesterday, Reuters reported that China's AI bubble has \"burst.\"\n\nMorgan Stanley also warned that Chinese stocks are set for further losses before they bottom.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues.",
@@ -3186,8 +3217,9 @@
 "probs": {
 "070608e35630": 0.341,
 "073712c2ce70": 0.004,
-"18540fe89d0d": 0.242,
+"18540fe89d0d": 0.512,
 "191444115e23": 0.097,
+"1946fe1314c9": 0.017,
 "1d35680e7377": 0.023,
 "233209444c76": 0.043,
 "23e8f36b80d0": 0.006,
@@ -3195,34 +3227,33 @@
 "2c5d4aa0f0ad": 0.028,
 "3117c6d54670": 0.038,
 "3f7e979bf490": 0.098,
+"427a13f85842": 0.086,
 "46ea3987c2a6": 0.016,
 "4a01e2477110": 0.074,
-"4c2c93bbf9a4": 0.032,
 "522305881aed": 0.776,
-"532968547aee": 0.031,
+"5251a0fb21f2": 0.013,
 "53a980574511": 0.09,
+"58fb4e8fa7b2": 0.047,
+"59fecae3c94c": 0.023,
 "649d68ee6be0": 0.011,
 "6757099d0991": 0.113,
-"72496d9d850d": 0.009,
-"76029211a3e0": 0.021,
 "7659cfbbc50b": 0.053,
+"76f249c10f53": 0.013,
 "8291915053fb": 0.047,
 "842e9ea3b5cc": 0.012,
 "8b6c8d457587": 0.026,
-"8cf0e12144a0": 0.013,
-"91d39a7ec258": 0.099,
+"8cf0e12144a0": 0.017,
 "9f437566e905": 0.01,
 "a41bfbf59589": 0.093,
 "a60a99777556": 0.012,
-"ac35accaabb4": 0.014,
+"b5da870ad3fe": 0.796,
+"bef787c78a87": 0.112,
 "c0165d9023b7": 0.017,
 "c23124943e0a": 0.718,
 "c2bbb8ece181": 0.058,
 "cb4fbcfe8959": 0.008,
 "d6f6c17d456a": 0.028,
-"d794dd0606cf": 0.101,
 "ef7bf4c3d423": 0.014,
-"f327cfeeef85": 0.04,
 "f35715290c4f": 0.469
 },
 "sent": [
@@ -4315,71 +4346,130 @@
 "term",
 "trump"
 ]
+},
+{
+"e": [
+"africa",
+"americans"
+],
+"k": [
+"hack",
+"legal"
+],
+"t": 1793126469.048789,
+"u": [
+"https://news.google.com/rss/articles/CBMilAJBVV95cUxOQVhYSTZaOWViU1hsdXNMcDV4SFNEeWVfXzdxaFo0RWdUMG05aFowWm1QLWREMm5FM0NmVjB0dTVaSFUyMG5BdTlzN29qZWlNTU1oak9xZHQ2NEJSOU95WlA0SmlWa0lCWkE3NENzbi1WaUpzNXRaeEtUZ1dSaHN6S0NCNnViaW1ld241akhERDkwSURadDlOMy14R084M3AwNlk0eFQ0TkVQNUJfOHRfbFpVbUYzU2ZINU9uTVNySUJCc0wwM055UVFGNXdwRmNMaVhHTUNwNFE0ZkRKaV9ULWRUX3YyYkk3Tkh2cjdQOHhDYjdrODVnWVZFa1RWaEsxTXZzY0NrdkxNaEZKbFNGQmRzMnU?oc=5",
+"https://news.google.com/rss/articles/CBMilAJBVV95cUxPMG9SNHp6MkFQX2wyam5qOEpkNFd2OURuN2VpQ2RJUktaVUdPQmVEUEY3Vk4tNHNmVDlJenRwRklsaHl6SUZERUJtZjg5QkpWTXpweEFpd2d2cWhfYWo3aTY3MVZaTmcyWWNRMXlqTGVNcktyNWl2WXJFUEI2UWpPb2E0eXlRWmZNX3pLOXFweGdqb3RrcjNjaU5PV0xNRWpsSVNaQ0FIeENNNnowdExVNXM0RUVtOGtIMUlnMDdJMk9SVzlMWjU4MW5iajdIWEpuWkxaQWozdG9mdVR6eWlvYmpMcXlyYmRfejFnMDFQTWhvVjlxSUxhU0JCam9oV3NPWm0xS1pTLU9peFRnYWN4TEN4aTY?oc=5",
+"https://news.google.com/rss/articles/CBMinwJBVV95cUxPSnE3YzNpa2hsSnlvcElXNTNRc0Z3Z1ItdG9Bcjh1bHNRczJIby12X0ExZnZQY1FRYWYzTUxLZEJjbHhQenducFg4U1Y5dU5yX09PY2FRNGg5MFdIMlJaRkR4WV9kSUtwWWxfb05qT2VIVXYwa2VleW5sNU52RFYzQk5rUHQza3VGZWRVT3NZb2Q5WXA4MF9IQThjenotd2h5RjNqSlJvSVJrcEVpZEtHYmtMME04SGQ0OGtSLTVpcVRsOWRyR1JYVGpJWVVyY2RkWlB5UjQyTzJYdjJTcTNSOVlHRFd3SXNpX2dOWVBpMlc3VWhOVkM3aVZtZG80aVdjYTd4eVBjR3Ftc2VIOTFPYjEyMmlwYnJtVXhvT3Fkdw?oc=5"
+],
+"w": [
+"accused",
+"africa",
+"americans",
+"charged",
+"dating",
+"drained",
+"scammers",
+"scheme",
+"wallets"
+]
+},
+{
+"e": [
+"gains",
+"hack",
+"linked",
+"potentially",
+"shows",
+"unrealized",
+"uxlink",
+"wallet"
+],
+"k": [
+"hack"
+],
+"t": 1793126773.571594,
+"u": [
+"https://t.me/wublockchainenglish/26573"
+],
+"w": [
+"$40m",
+"54m",
+"eth",
+"gains",
+"hack",
+"linked",
+"potentially",
+"shows",
+"unrealized",
+"uxlink",
+"wallet"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"b5da870ad3fe",
+41,
+4,
+1
+],
+[
 "522305881aed",
 42,
-134,
+144,
 2
 ],
 [
 "c23124943e0a",
 28,
-50,
+60,
+2
+],
+[
+"18540fe89d0d",
+25,
+206,
 2
 ],
 [
 "f35715290c4f",
 20,
-157,
+167,
 1
 ],
 [
 "022648e0854c",
 0,
-306,
+316,
 1
 ],
 [
 "070608e35630",
-48,
-180,
+47,
+191,
 2
-],
-[
-"18540fe89d0d",
-16,
-196,
-1
 ],
 [
 "256c768f9aa5",
 18,
-170,
+180,
 1
 ],
 [
 "2fe6e8d5baac",
-7,
-264,
+6,
+274,
 1
 ],
 [
 "470210a789c2",
 0,
-287,
-1
-],
-[
-"e6fa0c8ee0d0",
-0,
-256,
+297,
 1
 ]
 ],
-"top_at": 1793126159.0580027
+"top_at": 1793126773.571594
 }
