@@ -152,19 +152,6 @@
 "url": "https://t.me/lookonchainchannel/10777",
 "urls": []
 },
-"102156a88d27": {
-"coin": "avalanche-2",
-"src": "CryptoTicker",
-"srcs": [
-"CryptoTicker"
-],
-"t": 1792887681.6115475,
-"t0": 1792866255.0,
-"tgtext": "",
-"title": "Avalanche (AVAX): In-Kind From $235,800",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jaDloRGw0THNMd1NHX3JyOUlTWWNmcmtwNHhQc3hfeGg0dldYRlI1WHR6MEVYUngtajhpZnFYTHZZYUVyVGJxYnZwcDhrUHZrdmRsQXJUd0t6NEoyRnZjM1AzS01xbVY0TG9XeGFyd1JNMk4yTmhHcjhLM25nMnc?oc=5",
-"urls": []
-},
 "10673f65aaf7": {
 "coin": "",
 "src": "Coinfomania",
@@ -867,7 +854,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793044202.0,
 "tgtext": "",
 "title": "New Crypto Risk: Zipcoin Closes After UNCX Exploit as Remittix Recruits 100 Earn Testers With Weekly Payouts",
@@ -1113,6 +1100,19 @@
 "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQeXFkWU1IWkRVdUh6R2VXTHVNRGRLYW43WlRtb0RHZ05CRmV5Qm1MUW5keDhwdFNzSWsyLW9rcG9JTUpVWS1uaTE4RzBoT2dFYmVDZ3plZkZ6eUduanBYSnNYcUZsbzBnNm9MakhqQmkwSGxKQk1sbG5seHVCU0VsY3dZRGx4ZlBHNkR4UDZzc1VXNUZpVnNZRkxsbldlT0pJVzZxNDVETUsyb2gwU2NhSGkwMkozTHFZR2t1NHJtQzlCb2prNHhuQUhiYVRORXV3WEt4ZHNJNmZBV2RkVldVbW1GZkYtamNxY0JTVFdBcElMaUN0N1RxZWk5Ry13WVlHN2ZtMzBic3RsaGRHMWQydQ?oc=5",
 "urls": []
 },
+"5ad314a10e85": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793060972.470079,
+"t0": 1793060665.0,
+"tgtext": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident\n\nPassport hardware wallet maker Foundation said it has identified more than 23,000 phishing email attempts, including 19,057 messages delivered through Mailgun and 1,503 sent via Google Workspace. The number of affected users remains unknown.\n\nThe investigation found that personal information from historical WooCommerce orders remained in legacy database tables despite appearing redacted in the admin dashboard. Customer data from orders placed through Shopify since May may also have been exposed. Foundation said it has revoked affected email credentials and taken compromised legacy services offline. There is no evidence that Passport devices or their private keys were compromised. The phishing emails attempted to trick users into revealing their wallet recovery phrases. \u2014 link",
+"title": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident",
+"url": "https://t.me/wublockchainenglish/26561",
+"urls": []
+},
 "5cc32bae3fef": {
 "coin": "",
 "src": "FinanceFeeds",
@@ -1158,6 +1158,20 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613"
 ]
+},
+"5fc8e086febb": {
+"coin": "hyperliquid",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Wu Blockchain"
+],
+"t": 1793060668.822045,
+"t0": 1793039118.0,
+"tgtext": "Hyperliquid: Kraken Parent Payward Plans to Become First CFTC-Regulated HIP-3* Deployer\n\nHyperliquid announced that Kraken parent Payward plans to become the first CFTC-regulated HIP-3* deployer, using Hyperliquid infrastructure to offer perpetual futures markets to U.S. clients. Subject to regulatory approval, Payward's CFTC-regulated DCM and DCO, Bitnomial, would serve as the deployer, managing the markets and clearing and settling contracts, while its CFTC-registered FCM, NinjaTrader Clearing, would carry client accounts. HIP-3* will introduce optional onchain allowlists for permissioned markets without affecting existing HIP-3 markets. The initial version is available on testnet, with specifications subject to change. \u2014 link\n\ud83d\udd25 HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.\n\nNews | Markets | YouTube",
+"title": "HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.",
+"url": "https://t.me/cointelegraph/72869",
+"urls": []
 },
 "6075f6da82ea": {
 "coin": "",
@@ -1513,6 +1527,19 @@
 "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPenJGYVVKRGQ1V1QxVHNUMGg1dktkNjFJaDM1Nm5IV1ZTbG9rajJMSXJ2d2FRMEc5OGJRd0s3UE8zejdEeWQ3dnVVZHRFT0lZdDc5Qjhia3lYajVQODRSNXNackl2ZkNKYXN1SDNIVWx2NlNna2t0MFRIeU1hb1BZdDJYZFpMT2M2X3dxN3dzelRLSEJDcko3T21peXBjelFVYl9Fc05RVmhTZ0NqQkNfaV90OERXNF9HamFYWVRCLUI1TDgzV2d5UFJCSdIBywFBVV95cUxPenJGYVVKRGQ1V1QxVHNUMGg1dktkNjFJaDM1Nm5IV1ZTbG9rajJMSXJ2d2FRMEc5OGJRd0s3UE8zejdEeWQ3dnVVZHRFT0lZdDc5Qjhia3lYajVQODRSNXNackl2ZkNKYXN1SDNIVWx2NlNna2t0MFRIeU1hb1BZdDJYZFpMT2M2X3dxN3dzelRLSEJDcko3T21peXBjelFVYl9Fc05RVmhTZ0NqQkNfaV90OERXNF9HamFYWVRCLUI1TDgzV2d5UFJCSQ?oc=5",
 "urls": []
 },
+"7e37fd1a059b": {
+"coin": "hyperliquid",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793060972.470079,
+"t0": 1793047236.0,
+"tgtext": "\ud83d\udd25 HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.\n\nNews | Markets | YouTube",
+"title": "HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.",
+"url": "https://t.me/cointelegraph/72869",
+"urls": []
+},
 "7fde10e167d1": {
 "coin": "",
 "src": "The Block",
@@ -1759,7 +1786,7 @@
 "srcs": [
 "Facebook"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793052036.0,
 "tgtext": "",
 "title": "An Oct. 26 fact sheet from \"Presidential Spartan Fund LLC\" identified the donors supporting the $500,000 effort. See link below \u2b07\ufe0f \ud83d\udcf8 Junfu Han, Detroit Free Press",
@@ -1849,7 +1876,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793040939.0,
 "tgtext": "",
 "title": "X100 exploit wallets moved 420.8 ETH to Tornado Cash, holding 1,602 ETH across four wallets.",
@@ -2109,7 +2136,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793044509.0,
 "tgtext": "\u26a1 NEW: The FTC wants Anthropic execs to testify in its consumer harm probe, on the same day Anthropic is pitching investors on one of the biggest IPOs ever.\n\nTalk about timing... \n\nNews | Markets | YouTube",
 "title": "The FTC wants Anthropic execs to testify in its consumer harm probe, on the same day Anthropic is pitching investors on one of the biggest IPOs ever.",
@@ -2522,7 +2549,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793039580.0,
 "tgtext": "\ud83d\udea8 JUST IN: Microsoft is offering voluntary buyouts to around 60,000 employees, according to CNBC.\n\nIt comes six months after its first-ever voluntary retirement program, as AI data center spending strains its finances.\n\nNews | Markets | YouTube",
 "title": "Microsoft is offering voluntary buyouts to around 60,000 employees, according to CNBC.",
@@ -2562,7 +2589,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793057641.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Ripple officially receives full US regulatory approval to operate as a national trust bank.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for \n$RLUSD and enterprise crypto custody.\n\nNews | Markets | YouTube",
 "title": "Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for",
@@ -2778,7 +2805,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793044060.0,
 "tgtext": "",
 "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
@@ -2866,7 +2893,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793060362.223337,
+"t": 1793060668.822045,
 "t0": 1793051319.0,
 "tgtext": "\u26a1 LATEST: Ex-DOGE staffers say they broke into Anthropic.\n\nTheir months-old startup Cathedral claims it got into the AI giant's sensitive internal data and messaging systems.\n\nNews | Markets | YouTube",
 "title": "Ex-DOGE staffers say they broke into Anthropic.",
@@ -3005,7 +3032,7 @@
 "CryptoTicker.io",
 "FXStreet"
 ],
-"t": 1793060362.223337,
+"t": 1793060972.470079,
 "t0": 1793050343.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: BitMine continues buying as ETH slips below $2,355",
@@ -3178,10 +3205,10 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
+"05acfb906a83": 0.026,
 "08f0274eecb8": 0.038,
 "14ee2e479131": 0.012,
 "153589b92620": 0.014,
-"1f7d41988753": 0.023,
 "2047e52bb72c": 0.025,
 "29698568d18b": 0.004,
 "335f626e8da6": 0.012,
@@ -3192,32 +3219,32 @@
 "4697d736d5a0": 0.029,
 "4936948b1c23": 0.3,
 "5385b725bdc5": 0.055,
+"5ad314a10e85": 0.881,
 "5d53abf85fbf": 0.022,
 "5edfa16959eb": 0.049,
-"719d365f04d6": 0.032,
-"7b9eba4a1ecc": 0.002,
+"7e37fd1a059b": 0.157,
 "891083c0c843": 0.115,
-"8abb7f38c591": 0.595,
-"93fa81bcaaa2": 0.062,
+"93fa81bcaaa2": 0.077,
 "95ff0419de90": 0.235,
 "9aec74043065": 0.281,
 "b4c9bac310a2": 0.023,
 "b6d49aeefd08": 0.002,
 "b8c83b26aff1": 0.026,
 "b9f327cccb01": 0.015,
+"bd81fc64a17a": 0.004,
 "c157e0d568c5": 0.046,
 "c1b135b21b13": 0.031,
 "c22c36bc7a1f": 0.063,
-"c7aa97e0a0db": 0.079,
+"c7aa97e0a0db": 0.098,
 "c7b2da42267b": 0.031,
 "cd25bbe56c06": 0.778,
 "d887fe93325b": 0.005,
-"e30b8a550b71": 0.041,
-"e42e5aed33ab": 0.294,
+"e30b8a550b71": 0.026,
+"e42e5aed33ab": 0.078,
 "f12d6f701515": 0.201,
 "f198017c3955": 0.016,
 "f707699cd8b1": 0.007,
-"fca3dc85c515": 0.01
+"fca3dc85c515": 0.015
 },
 "sent": [
 {
@@ -4032,71 +4059,101 @@
 "supervised",
 "trust"
 ]
+},
+{
+"e": [
+"attempts",
+"email",
+"foundation",
+"identifies",
+"incident",
+"passport",
+"phishing",
+"security",
+"wallet"
+],
+"k": [],
+"t": 1793060972.470079,
+"u": [
+"https://t.me/wublockchainenglish/26561"
+],
+"w": [
+"000",
+"attempts",
+"email",
+"foundation",
+"identifies",
+"incident",
+"passport",
+"phishing",
+"security",
+"wallet"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"cd25bbe56c06",
-28,
-45,
-2
+"5ad314a10e85",
+15,
+5,
+1
 ],
 [
-"8abb7f38c591",
-7,
-358,
-3
+"cd25bbe56c06",
+28,
+56,
+2
 ],
 [
 "b4d0c2ac7bcb",
 0,
-264,
+274,
 1
 ],
 [
 "c9cde1ad7de0",
 0,
-346,
+357,
 1
 ],
 [
 "4936948b1c23",
-24,
-269,
-1
-],
-[
-"e42e5aed33ab",
-10,
-151,
+22,
+280,
 1
 ],
 [
 "9aec74043065",
-22,
-324,
+21,
+334,
 1
 ],
 [
 "95ff0419de90",
 10,
-139,
+149,
 1
 ],
 [
 "f12d6f701515",
 25,
-167,
+177,
 2
+],
+[
+"7e37fd1a059b",
+4,
+229,
+1
 ],
 [
 "de1ee98890a6",
 0,
-272,
+282,
 1
 ]
 ],
-"top_at": 1793060362.223337
+"top_at": 1793060972.470079
 }
