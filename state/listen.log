@@ -12,3 +12,6 @@ telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'l
 market 100 news 100 reddit 25 hacks 0
 labeled 0
 alerts sent 0
+gemini models ['gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-3.1-flash-lite', 'gemini-3.7-flash', 'gemini-3.1-flash-lite-preview']
+gemini fail gemini-3.5-flash-lite HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=20)
+gemini gemini-3.8-flash 400 {   "error": {     "code": 400,     "message": "Thinking level MINIMAL is not supported fo
