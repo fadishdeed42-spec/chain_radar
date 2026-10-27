@@ -2,8 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1793003121.7053874,
-1793007321.8625987,
 1793015901.0176318,
 1793016839.182601,
 1793017755.3988316,
@@ -15,7 +13,8 @@
 1793022358.892616,
 1793070708.00389,
 1793077120.6447532,
-1793079259.6243513
+1793079259.6243513,
+1793093859.0878484
 ],
 "menu": {
 "0080c1bb18be": {
@@ -51,7 +50,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793091713.0,
 "tgtext": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)\n\n\nBinance will update the Cross Margin Borrow and Transfer-out collateral ratio, Portfolio Margin collateral ratio, and Tiered Collateral Ratio for Portfolio Margin Pro for the following assets from 2026-10-30 06:00 (UTC). The update will be completed within approximately 30 minutes.\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)",
@@ -271,7 +270,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793078894.0,
 "tgtext": "Tron recorded 4.366M active accounts yesterday, up 12.06% from the previous day, while new accounts reached 177.5K, up 18.93%.\n\nhttps://tronscan.org/data/charts/accounts",
 "title": "Tron recorded 4.366M active accounts yesterday, up 12.06% from the previous day, while new accounts reached 177.5K, up 18.93%.",
@@ -669,6 +668,21 @@
 "https://bitcoinmagazine.com/markets/bitcoin-price-hovers-around-80000"
 ]
 },
+"3d4bbcee13c5": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk"
+],
+"t": 1793093555.2111127,
+"t0": 1793075329.0,
+"tgtext": "",
+"title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
+"url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
+]
+},
 "3e87614ca883": {
 "coin": "ethereum",
 "src": "StreetInsider",
@@ -692,7 +706,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793088261.0,
 "tgtext": "",
 "title": "Binance files for Brazil crypto license ahead of Friday deadline",
@@ -746,20 +760,6 @@
 "tgtext": "",
 "title": "Liquidity Heatmap, Liquidation Levels & Clusters [LunqFX] \u2014 LunqFX taraf\u0131ndan g\u00f6sterge",
 "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaFhmcGtmUXlkcTRtSVRZWGVacDNoTXdQOHdBaGNNcTdjWlY0YkFpSDBnNmlzZ0szeExqR2tQTUM0WVEzMVM0Zm5DX1hlTzdmc2RzZTZ3OHpHejc5ZFMzVDdIV080bmxnSXpvaUtvdEl4T3A1S1YyZXRYOVZxUnpzS0gwM1FRRno4YlUzTGlldk5VWVFQTENxdmFjeV8?oc=5",
-"urls": []
-},
-"4542a9a3a5a5": {
-"coin": "",
-"src": "Pluang",
-"srcs": [
-"KuCoin",
-"Pluang"
-],
-"t": 1792920701.0695655,
-"t0": 1792899108.0,
-"tgtext": "",
-"title": "Aave V3.8 upgrade keeps flash loan liquidation route open, maintaining current DeFi operations.",
-"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUR6SmZJbXR4V0cwb19ydWRwSnI2ajNlZWcxd2t3bVhFQ3UxOEFOdU5hNENFdlZ5U1ZXV1ZJaWFwLUI4Ml9PdTlsSk5MdkI0RHhnR3Q1d2s3NTNhS3lKWUtUakN2aEV0T0Y3cUtmX0tBWFdnUnFKZEtrQXZSNEM2MDAzU3hqNlNTMXRVZGhB?oc=5",
 "urls": []
 },
 "459514354f7f": {
@@ -894,6 +894,21 @@
 "url": "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
 "urls": [
 "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus"
+]
+},
+"4e778aaf80a9": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block"
+],
+"t": 1793093859.0878484,
+"t0": 1793082514.0,
+"tgtext": "",
+"title": "Circle faces up to 20% revenue risk from AI agents, Mizuho says",
+"url": "https://www.theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826",
+"urls": [
+"https://www.theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826"
 ]
 },
 "4ea93a836627": {
@@ -1667,7 +1682,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793088050.0,
 "tgtext": "",
 "title": "Tuen Mun convenience store worker arrested over suspected theft of HK$81,000 via e\u2011wallet top\u2011ups",
@@ -1761,6 +1776,19 @@
 "tgtext": "",
 "title": "X100 exploit wallets moved 420.8 ETH to Tornado Cash, holding 1,602 ETH across four wallets.",
 "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQzQ4bzE2Ti12VFZ4T2t1d0ZLcE92c05uNEtCV1BfaFI1Q0M4eGdVTUhmWFFYMy1ObHUybHIzSEJrdkpNMnBZUEtFc29BdnZPajFMZmdGSlBBOW1fcm96a3JQWVJNbDZ6d0JmSzByYTRybDRwZG5SQlBUaHlScXZiQnM0c1AwWmRWQnJhMWNJejRlRGY5WUE?oc=5",
+"urls": []
+},
+"9d16c1c9268f": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793093859.0878484,
+"t0": 1793093545.0,
+"tgtext": "\ud83c\uddf5\ud83c\udded TODAY: The Philippine peso has fallen to an all-time low against the US dollar.\n\nNews | Markets | YouTube",
+"title": "TODAY: The Philippine peso has fallen to an all-time low against the US dollar.",
+"url": "https://t.me/cointelegraph/72881",
 "urls": []
 },
 "9e0cdf69a5ad": {
@@ -2294,7 +2322,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793075211.0,
 "tgtext": "\ud83d\udd25 NEW: Hong Kong-based Redotpay is reportedly weighing a confidential US IPO filing by year-end while also discussing a pre-IPO round at a $4B\u2013$5B valuation, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "Hong Kong-based Redotpay is reportedly weighing a confidential US IPO filing by year-end while also discussing a pre-IPO round at a $4B\u2013$5B valuation, per Bloomberg.",
@@ -2633,7 +2661,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793073487.0,
 "tgtext": "",
 "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
@@ -2804,7 +2832,7 @@
 "srcs": [
 "Cryptonews"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793087666.0,
 "tgtext": "",
 "title": "Bitcoin Price Is Heading for Another Red October, but Galaxy Says the Worst Is Over",
@@ -2985,7 +3013,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793093248.5840213,
+"t": 1793093555.2111127,
 "t0": 1793088119.0,
 "tgtext": "Notice of Removal of Margin Trading Pairs - 2026-10-30\n\n\nBinance Margin will delist the following margin trading pairs at 2026-10-30 06:00 (UTC). \n- Cross Margin Pairs: RE/USD1, \u5e01\u5b89\u4eba\u751f/U, KAT/U, BTC/USDS, ETH/USDS, AVNT/U, FET/U, TRUMP/U, APT/U, WLFI/U\n\n\ud83d\udc49\ud83c\udffb Learn more here\nNotice of Removal of Spot Trading Pairs - 2026-10-30\n\n\nBased on our most recent reviews, Binance will remove and cease trading on the following spot trading pairs:\n- At 2026-10-30 03:00 (UTC): AAVE/BTC, ATOM/BTC, CAKE/BTC, DASH/BTC, ETC/BTC, ICP/BTC, PENDLE/BTC, RENDER/BTC, TAO/BTC, THETA/BTC, XAUT/BTC and XTZ/BTC\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Notice of Removal of Margin Trading Pairs - 2026-10-30",
@@ -3119,7 +3147,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793093248.5840213,
+"t": 1793093859.0878484,
 "t0": 1793073330.0,
 "tgtext": "",
 "title": "Over $1.1B in Bitcoin moved from Arbistar Ponzi wallets after collapse, Spanish probe reveals",
@@ -3158,11 +3186,12 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"01c00dac5f59": 0.058,
 "023bb95c4510": 0.235,
+"03c3bd813ad3": 0.019,
 "0beeaf326766": 0.029,
 "1a50ac0bc54f": 0.098,
 "1a78b54f17da": 0.047,
+"1bc7748b9b7a": 0.025,
 "2471b2ff7cb3": 0.097,
 "29436fe758c4": 0.039,
 "2ba2ca559c85": 0.13,
@@ -3171,82 +3200,34 @@
 "41ed75671f1d": 0.084,
 "4b3c676a0d0d": 0.026,
 "4ba1e6af156f": 0.053,
-"4e747c7ca484": 0.086,
-"4e778aaf80a9": 0.128,
+"4e747c7ca484": 0.12,
 "4fb6630526ae": 0.026,
-"5343f0634b9d": 0.018,
 "68d94abbb251": 0.045,
 "71d60a23f5a4": 0.014,
 "78deec2b4ee6": 0.058,
 "7ffd72a58b63": 0.077,
-"88bebfedbf5f": 0.036,
 "895191f48873": 0.011,
+"8bc3b5b6783a": 0.037,
 "8c885db613bf": 0.085,
+"906cf0e41630": 0.042,
 "9294e5d90bdb": 0.394,
 "968e652829e1": 0.053,
 "9959ddbfd480": 0.069,
+"9d16c1c9268f": 0.931,
 "a7f4605ff094": 0.018,
 "b17d15b7bdbe": 0.02,
 "b960ad20253c": 0.028,
+"ca8a5ae5fbe9": 0.061,
+"ca9d1fd3ad8c": 0.06,
 "dad0130de999": 0.087,
-"e4cde112d752": 0.007,
 "e765ed50bbf0": 0.138,
 "e9171c34c2f4": 0.021,
 "f0c33e500d2b": 0.054,
 "f4862d832a53": 0.138,
 "f9110baaa05f": 0.105,
-"fc8e5def938b": 0.145,
-"fdafdab7ba07": 0.07,
-"fff199cb9316": 0.044
+"fc8e5def938b": 0.145
 },
 "sent": [
-{
-"e": [
-"asia",
-"blockchain",
-"build",
-"china",
-"hsbc",
-"korea",
-"launches",
-"means",
-"national",
-"network",
-"news",
-"payment",
-"regulates",
-"south",
-"stablecoin",
-"stablecoins",
-"top10"
-],
-"k": [],
-"t": 1792920701.0695655,
-"u": [
-"https://news.google.com/rss/articles/CBMie0FVX3lxTE9zZmJpZE54c2F1VHdjdmN6RWpaSnFrS1JfdFJhM3RRSTN4cEFCNWF2SVYydGFuNm9oZUpnMGhqRWh3OHE3Q2ZhMUF0V0cwS3dzYV85QWlHYWhZRjBBeTZoUnNudm9TNTBfVjQteGlTZzZKV0ZSTkw4TUJCRQ?oc=5",
-"https://t.me/wublockchainenglish/26544"
-],
-"w": [
-"asia",
-"blockchain",
-"build",
-"china",
-"hsbc",
-"korea",
-"launches",
-"means",
-"national",
-"network",
-"news",
-"payment",
-"regulates",
-"south",
-"stablecoin",
-"stablecoins",
-"top10",
-"weekly"
-]
-},
 {
 "e": [
 "approves",
@@ -4145,71 +4126,93 @@
 "while",
 "yesterday"
 ]
+},
+{
+"e": [
+"philippine",
+"today"
+],
+"k": [],
+"t": 1793093859.0878484,
+"u": [
+"https://t.me/cointelegraph/72881"
+],
+"w": [
+"against",
+"all",
+"dollar",
+"fallen",
+"low",
+"peso",
+"philippine",
+"time",
+"today"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"9d16c1c9268f",
+10,
+5,
+1
+],
+[
 "164e16a815c3",
-3,
-239,
+1,
+249,
 1
 ],
 [
 "9294e5d90bdb",
 28,
-87,
+97,
 1
 ],
 [
 "c3976f4fb666",
-9,
-301,
+8,
+311,
 1
 ],
 [
 "3fe492c01d09",
 26,
-83,
+93,
 1
 ],
 [
 "023bb95c4510",
 10,
-26,
+36,
 1
 ],
 [
 "d99827be190a",
 0,
-329,
+340,
+1
+],
+[
+"4e778aaf80a9",
+9,
+189,
 1
 ],
 [
 "fc8e5def938b",
-33,
-332,
+32,
+342,
 1
 ],
 [
 "e765ed50bbf0",
 15,
-93,
+103,
 1
-],
-[
-"f4862d832a53",
-10,
-85,
-1
-],
-[
-"2ba2ca559c85",
-56,
-177,
-2
 ]
 ],
-"top_at": 1793093248.5840213
+"top_at": 1793093859.0878484
 }
