@@ -44,7 +44,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793107828.0,
 "tgtext": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\n\nAccording to Arkham, wallets it has labeled or tentatively attributed to Justin Sun collectively hold approximately $51.25 million in PEPE, representing 2.82% of the token's total supply, potentially making him the largest individual PEPE holder. Arkham tracked two transfers from Poloniex to the associated wallets on October 17 and 26, worth approximately $28.44 million and $20.32 million, respectively, totaling $48.76 million. Between October 15 and 25, wallets already labeled as belonging to Sun also transferred approximately $77 million in stablecoins to Poloniex. Some of the PEPE had previously moved between Binance, HTX and Poloniex. \u2014 link",
 "title": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply",
@@ -502,7 +502,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793110339.0,
 "tgtext": "JUST IN: Michael Saylor says AI creates wealth while Bitcoin allows humanity to preserve it.\n\n@WatcherGuru",
 "title": "Michael Saylor says AI creates wealth while Bitcoin allows humanity to preserve it.",
@@ -664,14 +664,17 @@
 "coin": "stellar",
 "src": "Cointelegraph",
 "srcs": [
+"CoinDesk",
 "Cointelegraph"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793108965.0,
 "tgtext": "\ud83d\udd25 JUST IN: Janus Henderson launches JQQQ, the first licensed tokenized Nasdaq-100 fund, on Stellar using Centrifuge.\n\nNews | Markets | YouTube",
 "title": "Janus Henderson launches JQQQ, the first licensed tokenized Nasdaq-100 fund, on Stellar using Centrifuge.",
 "url": "https://t.me/cointelegraph/72883",
-"urls": []
+"urls": [
+"https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund"
+]
 },
 "3b834d4fcf3d": {
 "coin": "ethereum",
@@ -831,7 +834,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793108962.0,
 "tgtext": "JUST IN: Ripple and Robinhood $HOOD officially announce strategic partnership to expand stablecoin adoption.\n\n@WatcherGuru",
 "title": "Ripple and Robinhood HOOD officially announce strategic partnership to expand stablecoin adoption.",
@@ -1739,7 +1742,7 @@
 "Crypto News",
 "FXStreet"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793093701.0,
 "tgtext": "",
 "title": "Bitcoin falls below $80,000 as $1.3 billion in positions are liquidated: How can holders seize the opportunity to earn $10,000 a day?",
@@ -1853,7 +1856,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793096627.0,
 "tgtext": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil\n\nBinance filed an application with Brazil\u2019s central bank on October 23 through its local entity BBrasil to operate as a virtual asset service provider (SPSAV), ahead of the October 30 regulatory deadline, according to Blocknews. To comply with local rules, Binance began restricting eight services for Brazilian users on October 27, including crypto loans, margin trading, mining pools and cloud mining, while delisting 22 tokens, including USDE, USTC, DCR and XVG. Existing positions in affected products are generally limited to reductions or closures, with new positions prohibited. Binance also plans to complete the migration of Brazilian users to its local payment-account structure by October 29. \u2014 link\nJUST IN: \ud83c\udde7\ud83c\uddf7 Binance files for crypto license in Brazil.\n\n@WatcherGuru",
 "title": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil",
@@ -1928,7 +1931,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793093545.0,
 "tgtext": "\ud83c\uddf5\ud83c\udded TODAY: The Philippine peso has fallen to an all-time low against the US dollar.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Philippine peso has fallen to an all-time low against the US dollar.",
@@ -2310,7 +2313,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793100831.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.\n\nNews | Markets | YouTube",
 "title": "The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.",
@@ -2977,6 +2980,19 @@
 "https://decrypt.co/381797/morning-minute-bitcoin-breaks-below-80000-as-iran-fears-hit-the-weekend"
 ]
 },
+"e6fa0c8ee0d0": {
+"coin": "binancecoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793111277.5160038,
+"t0": 1793110793.0,
+"tgtext": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain\n\nOnchain trading platform Genius has launched its mobile app on Apple's App Store and Google Play. Built on BNB Chain, it combines token trading, social features, and token creation. Users can trade cryptocurrencies, follow other traders, explore market activity, and share insights from their phones. Integrated Genius fun lets users create tokens, select trading pairs, and launch new tokens. Genius fun launched on BNB Chain in September, and the new app brings these existing features to mobile. \u2014 link",
+"title": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain",
+"url": "https://t.me/wublockchainenglish/26570",
+"urls": []
+},
 "e765ed50bbf0": {
 "coin": "bitcoin",
 "src": "Cryptonews",
@@ -3198,7 +3214,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793110663.5044334,
+"t": 1793111277.5160038,
 "t0": 1793100618.0,
 "tgtext": "Binance Says It Blocked Multiple North Korea-Linked Cyberattacks Over the Past Week, With No Asset Losses\n\nBinance said on October 27 that its security team had successfully identified and blocked multiple North Korea-linked cyberattacks over the past week, with no damage to company systems or loss of assets. Binance noted that North Korea-linked hacking groups have continued to conduct social engineering attacks under the \u201cContagious Interview\u201d campaign, using fake job interviews, coding tests, and software installation requests to trick targets into running malicious programs. The exchange advised users to avoid installing unauthorized software or executing code from untrusted sources, adding that it will continue strengthening security monitoring, threat detection, and internal security controls. \u2014 link",
 "title": "Binance Says It Blocked Multiple North Korea-Linked Cyberattacks Over the Past Week, With No Asset Losses",
@@ -3358,23 +3374,24 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
+"01ccab1a17d2": 0.087,
 "0466558b12c8": 0.038,
-"08a0652ffdc6": 0.481,
 "159484dc554e": 0.277,
+"182803325832": 0.069,
 "1886a53ff938": 0.025,
 "238d0611bea3": 0.052,
-"23c719e6bfa6": 0.028,
 "25ca5b4b70b4": 0.203,
-"2fe6e8d5baac": 0.876,
+"27483b2a7ca5": 0.059,
+"2fe6e8d5baac": 0.627,
 "3117c6d54670": 0.06,
-"3392f0c6a660": 0.379,
 "362819c0ba69": 0.081,
-"3f61904dcb4b": 0.104,
+"3b53b2323074": 0.614,
 "453a1581ed17": 0.218,
 "4975c7645530": 0.426,
 "4c2c93bbf9a4": 0.233,
+"53757b140aa7": 0.38,
 "56f820e2e462": 0.285,
-"629602406adf": 0.026,
+"691dc368d8dd": 0.026,
 "6a78960ef80d": 0.215,
 "70d01c057be6": 0.294,
 "773945c4d7d1": 0.048,
@@ -3386,13 +3403,12 @@
 "94e2f0009c9b": 0.859,
 "968e652829e1": 0.13,
 "9bc4afb07fc0": 0.109,
-"a0869916f35b": 0.394,
+"a0869916f35b": 0.364,
 "a0f814036088": 0.076,
 "a2bb1b057900": 0.085,
 "a41bfbf59589": 0.149,
 "ba45e7c563cd": 0.552,
-"c5b2ff1dfd19": 0.041,
-"c7192ce8d129": 0.096,
+"c5b2ff1dfd19": 0.021,
 "c8b96bc0663d": 0.161,
 "d1c088d7459c": 0.125,
 "e15739a75384": 0.18,
@@ -4395,64 +4411,64 @@
 "top": [
 [
 "8aeb57701427",
-66,
-283,
+64,
+293,
 3
 ],
 [
 "f77478cba952",
 18,
-167,
-1
-],
-[
-"2fe6e8d5baac",
-18,
-5,
+178,
 1
 ],
 [
 "94e2f0009c9b",
-29,
-234,
+28,
+244,
 2
 ],
 [
 "9d16c1c9268f",
 0,
-285,
+296,
 1
 ],
 [
 "022648e0854c",
 16,
-47,
+57,
 1
 ],
 [
-"ba45e7c563cd",
+"e6fa0c8ee0d0",
+10,
+8,
+1
+],
+[
+"2fe6e8d5baac",
+18,
 16,
-164,
 1
 ],
 [
 "3b53b2323074",
-10,
 28,
+39,
+2
+],
+[
+"ba45e7c563cd",
+16,
+174,
 1
 ],
 [
 "470210a789c2",
 10,
-28,
+39,
 1
-],
-[
-"08a0652ffdc6",
-28,
-200,
-3
 ]
 ],
-"top_at": 1793110663.5044334
+"top_at": 1793111277.5160038
 }
