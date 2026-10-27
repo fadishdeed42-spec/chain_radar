@@ -2,14 +2,13 @@
 "hacks": {},
 "init": true,
 "log": [
-1793021772.3051434,
-1793022358.892616,
 1793070708.00389,
 1793077120.6447532,
 1793079259.6243513,
 1793093859.0878484,
 1793096909.900296,
-1793107916.6432102
+1793107916.6432102,
+1793110663.5044334
 ],
 "menu": {
 "0080c1bb18be": {
@@ -45,7 +44,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793107828.0,
 "tgtext": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\n\nAccording to Arkham, wallets it has labeled or tentatively attributed to Justin Sun collectively hold approximately $51.25 million in PEPE, representing 2.82% of the token's total supply, potentially making him the largest individual PEPE holder. Arkham tracked two transfers from Poloniex to the associated wallets on October 17 and 26, worth approximately $28.44 million and $20.32 million, respectively, totaling $48.76 million. Between October 15 and 25, wallets already labeled as belonging to Sun also transferred approximately $77 million in stablecoins to Poloniex. Some of the PEPE had previously moved between Binance, HTX and Poloniex. \u2014 link",
 "title": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply",
@@ -131,6 +130,23 @@
 "title": "An Indian Exchange Lost $16 Million From Wallets It Said It Had Retired. Is It Safe to Leave Crypto on an Exchange?",
 "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOX0NyQlJveDlZVlA2UzFTRTc1MFVleXlkVXROYWwzcnFXdW13NjJfcTRaaEgwNVRRREUwZWE4TThkMzY5dDRhOUVpcDAzenJmNllwRklGZjZwNGRmX3BJMTg2ZFlYVVhWNkVYR0pfb0xqWWREaS1xUEU4ME52ZUhYTGdJLXkyYVFvcTh1YS10SVJWY2VXVkx2Tk9fb09wVlhXWmdHZjdmMVV5QzFleEQ3WWZ3RVBHUFV6QWtHT1VMVDNuZWlZbjlHUTJSbjJYZkFsaXFibGhpZXFZWkVZV1FLTG9tVGowY2c0SlFFdERWVVE4S2k4T3VwV1BEeXI2MWFI?oc=5",
 "urls": []
+},
+"08a0652ffdc6": {
+"coin": "bitcoin",
+"src": "Pluang",
+"srcs": [
+"CoinDesk",
+"Pluang",
+"TradingView"
+],
+"t": 1793110663.5044334,
+"t0": 1793098671.0,
+"tgtext": "",
+"title": "Investor Jason Calacanis predicts Bitcoin will drop to $57,000 and urges shift to AI investments.",
+"url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNzYzcktOblNJcVJlZkZCLXlSVUNkalRXX0RwZWhnLUJMUnY4YXZJb0RrZUdNZFNnR0kyWFBRelRKQVJibnZpaWJRY0hlUW1aVkRZWlBnVDNwNGhGTmpfWkdtY0pBdnpaamJpRnBUNFhaMC02SGRIQVVBR2JSOHpHZ0ZTdkNhdmlYYmRzQTN1aTMteWJLaFNFcg?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000"
+]
 },
 "0b482c3c0ec5": {
 "coin": "",
@@ -480,6 +496,19 @@
 "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market"
 ]
 },
+"2fe6e8d5baac": {
+"coin": "bitcoin",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1793110663.5044334,
+"t0": 1793110339.0,
+"tgtext": "JUST IN: Michael Saylor says AI creates wealth while Bitcoin allows humanity to preserve it.\n\n@WatcherGuru",
+"title": "Michael Saylor says AI creates wealth while Bitcoin allows humanity to preserve it.",
+"url": "https://t.me/WatcherGuru/15636",
+"urls": []
+},
 "319702ebcec7": {
 "coin": "",
 "src": "The420.in",
@@ -637,7 +666,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793108965.0,
 "tgtext": "\ud83d\udd25 JUST IN: Janus Henderson launches JQQQ, the first licensed tokenized Nasdaq-100 fund, on Stellar using Centrifuge.\n\nNews | Markets | YouTube",
 "title": "Janus Henderson launches JQQQ, the first licensed tokenized Nasdaq-100 fund, on Stellar using Centrifuge.",
@@ -802,7 +831,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793108962.0,
 "tgtext": "JUST IN: Ripple and Robinhood $HOOD officially announce strategic partnership to expand stablecoin adoption.\n\n@WatcherGuru",
 "title": "Ripple and Robinhood HOOD officially announce strategic partnership to expand stablecoin adoption.",
@@ -853,9 +882,10 @@
 "coin": "bitcoin",
 "src": "TradingView",
 "srcs": [
+"Crypto Briefing",
 "TradingView"
 ],
-"t": 1793104233.5812674,
+"t": 1793110359.1771152,
 "t0": 1793101582.0,
 "tgtext": "",
 "title": "Bitcoin hovers near $80,000 as AI stock jitters spill into crypto",
@@ -1709,7 +1739,7 @@
 "Crypto News",
 "FXStreet"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793093701.0,
 "tgtext": "",
 "title": "Bitcoin falls below $80,000 as $1.3 billion in positions are liquidated: How can holders seize the opportunity to earn $10,000 a day?",
@@ -1823,7 +1853,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793096627.0,
 "tgtext": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil\n\nBinance filed an application with Brazil\u2019s central bank on October 23 through its local entity BBrasil to operate as a virtual asset service provider (SPSAV), ahead of the October 30 regulatory deadline, according to Blocknews. To comply with local rules, Binance began restricting eight services for Brazilian users on October 27, including crypto loans, margin trading, mining pools and cloud mining, while delisting 22 tokens, including USDE, USTC, DCR and XVG. Existing positions in affected products are generally limited to reductions or closures, with new positions prohibited. Binance also plans to complete the migration of Brazilian users to its local payment-account structure by October 29. \u2014 link\nJUST IN: \ud83c\udde7\ud83c\uddf7 Binance files for crypto license in Brazil.\n\n@WatcherGuru",
 "title": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil",
@@ -1898,7 +1928,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793093545.0,
 "tgtext": "\ud83c\uddf5\ud83c\udded TODAY: The Philippine peso has fallen to an all-time low against the US dollar.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Philippine peso has fallen to an all-time low against the US dollar.",
@@ -2280,7 +2310,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793100831.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.\n\nNews | Markets | YouTube",
 "title": "The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.",
@@ -3029,7 +3059,7 @@
 "srcs": [
 "www.techtimes.co.uk"
 ],
-"t": 1793110051.4106283,
+"t": 1793110359.1771152,
 "t0": 1793094861.0,
 "tgtext": "",
 "title": "Sony Is Offering Hackers $50,000 To Break the PS5, Reigniting a Fight Over Who Really Owns It",
@@ -3168,7 +3198,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793110051.4106283,
+"t": 1793110663.5044334,
 "t0": 1793100618.0,
 "tgtext": "Binance Says It Blocked Multiple North Korea-Linked Cyberattacks Over the Past Week, With No Asset Losses\n\nBinance said on October 27 that its security team had successfully identified and blocked multiple North Korea-linked cyberattacks over the past week, with no damage to company systems or loss of assets. Binance noted that North Korea-linked hacking groups have continued to conduct social engineering attacks under the \u201cContagious Interview\u201d campaign, using fake job interviews, coding tests, and software installation requests to trick targets into running malicious programs. The exchange advised users to avoid installing unauthorized software or executing code from untrusted sources, adding that it will continue strengthening security monitoring, threat detection, and internal security controls. \u2014 link",
 "title": "Binance Says It Blocked Multiple North Korea-Linked Cyberattacks Over the Past Week, With No Asset Losses",
@@ -3328,32 +3358,32 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"01ccab1a17d2": 0.087,
 "0466558b12c8": 0.038,
+"08a0652ffdc6": 0.481,
 "159484dc554e": 0.277,
-"182803325832": 0.128,
+"1886a53ff938": 0.025,
 "238d0611bea3": 0.052,
 "23c719e6bfa6": 0.028,
 "25ca5b4b70b4": 0.203,
+"2fe6e8d5baac": 0.876,
 "3117c6d54670": 0.06,
+"3392f0c6a660": 0.379,
 "362819c0ba69": 0.081,
 "3f61904dcb4b": 0.104,
 "453a1581ed17": 0.218,
+"4975c7645530": 0.426,
 "4c2c93bbf9a4": 0.233,
 "56f820e2e462": 0.285,
 "629602406adf": 0.026,
+"6a78960ef80d": 0.215,
 "70d01c057be6": 0.294,
 "773945c4d7d1": 0.048,
-"779271324491": 0.042,
 "7ffd72a58b63": 0.14,
 "80f25ec946be": 0.286,
-"8488c3179227": 0.131,
 "8aeb57701427": 0.971,
-"906cf0e41630": 0.06,
-"90fe90f21dd6": 0.034,
+"906cf0e41630": 0.145,
 "9294e5d90bdb": 0.392,
-"935d160b2f82": 0.139,
-"94e2f0009c9b": 0.695,
+"94e2f0009c9b": 0.859,
 "968e652829e1": 0.13,
 "9bc4afb07fc0": 0.109,
 "a0869916f35b": 0.394,
@@ -3362,10 +3392,10 @@
 "a41bfbf59589": 0.149,
 "ba45e7c563cd": 0.552,
 "c5b2ff1dfd19": 0.041,
+"c7192ce8d129": 0.096,
 "c8b96bc0663d": 0.161,
 "d1c088d7459c": 0.125,
 "e15739a75384": 0.18,
-"eabe517bc2f7": 0.687,
 "ebf6eb6cc3d0": 0.126,
 "f77478cba952": 0.93
 },
@@ -4336,6 +4366,28 @@
 "supply",
 "wallets"
 ]
+},
+{
+"e": [
+"michael",
+"saylor"
+],
+"k": [],
+"t": 1793110663.5044334,
+"u": [
+"https://t.me/WatcherGuru/15636"
+],
+"w": [
+"allows",
+"bitcoin",
+"creates",
+"humanity",
+"michael",
+"preserve",
+"saylor",
+"wealth",
+"while"
+]
 }
 ],
 "stories": {},
@@ -4343,64 +4395,64 @@
 "top": [
 [
 "8aeb57701427",
-67,
-273,
+66,
+283,
 3
 ],
 [
 "f77478cba952",
 18,
-157,
+167,
+1
+],
+[
+"2fe6e8d5baac",
+18,
+5,
+1
+],
+[
+"94e2f0009c9b",
+29,
+234,
+2
+],
+[
+"9d16c1c9268f",
+0,
+285,
 1
 ],
 [
 "022648e0854c",
 16,
-37,
+47,
 1
-],
-[
-"9d16c1c9268f",
-0,
-275,
-1
-],
-[
-"94e2f0009c9b",
-31,
-224,
-2
-],
-[
-"eabe517bc2f7",
-32,
-356,
-3
 ],
 [
 "ba45e7c563cd",
 16,
-154,
+164,
 1
 ],
 [
 "3b53b2323074",
 10,
-18,
+28,
 1
 ],
 [
 "470210a789c2",
 10,
-18,
+28,
 1
 ],
 [
-"ef506eb1b1eb",
-1,
-253,
-1
+"08a0652ffdc6",
+28,
+200,
+3
 ]
 ],
-"top_at": 1793110051.4106283
+"top_at": 1793110663.5044334
 }
