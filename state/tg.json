@@ -74,6 +74,38 @@
 },
 "t": 1793012394.0386746
 },
+"0a3f36f5f5": {
+"coin": "",
+"facts": "Headline: OneKey to Delete Customer Order Data Within 30 Days After Keystone Hardware Wallet Breach\nSources: CoinDesk, The Crypto Times\n\nArticle text:\n2 min readMake  preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake  preferred on Keystone is destroying unsold stock after unauthorized access to its website. (Sebastiaan Stam/Unsplash)  SummaryShowKeystone will destroy 18,835 unsold hardware wallets after a website breach exposed a key that could let counterfeit devices pass its authenticity checks.The breach exposed 25,964 buyer records, some kept past Keystone\u2019s 180-day deletion policy after an automated tool failed without the firm noticing.The exploit adds to several attacks on rivals that undermine the security of hardware wallets.Hardware wallet maker Keystone said it will destroy almost 19,000 unsold devices and suspend shipments after a website breach exposed customer information and a key that could let counterfeit wallets pass authenticity checks. An attacker gained access to the company\u2019s website on Oct. 20 through a flaw in a third-party data monitoring tool, Keystone said Monday in a post on X. The attack exposed 25,964 buyer records from 2024 through 2026, including names, contact details, shipping addresses and order information. Another 12,873 unpaid checkout records may have been affected. The breach adds to a string of attacks on hardware wallet users this year. At Ledger, criminals fitted devices sold through resellers in Southeast Asia, with hidden components capturing recovery phrases during setup. Similarly, a flaw in Coldcard\u2019s seed-generation software let attackers reconstruct private keys and drain wallets remotely. The stolen Keystone key is built into devices during production and cannot be changed. It allows wallets to pass online authenticity checks, raising the risk that fake devices could appear genuine and put users' funds at risk, according to the firm. The company said it will destroy 18,835 unsold units. Keystone said the breach did not expose recovery phrases, private keys or wallet credentials. Some customer records should have been deleted under Keystone's 180-day retention policy, but an automated deletion tool failed without the company detecting the issue, it said. \u201cWe failed to fulfill our commitment to erase customer data on time, and we accept responsibility for this failure,\u201d Keystone wrote. Keystone\u2019s update came a day after hardware wallet maker Foundation disclosed a separate breach in which attackers sent phishing emails that appeared to come from its official domains. Foundation said it had identified more than 23,000 phishing email attempts. It found no evidence that Passport devices or private keys were compromised. Foundation also found older database copies that its 60-day data deletion process had missed. In an update, it said attackers could access records containing about 5,600 mailing addresses and 5,200 phone numbers, though it could not confirm how many were accessed. Keystone said devices delivered before Oct. 20 remain safe to use if they pass authentication, while customers who received devices using the old key after that date should seek further checks before use. The company said users do not need to move funds due to the breach alone and warned against fake recall or asset migration messages. Keystone will replace the authentication key in new devices, shift website sales to preorders and cut customer data retention to 90 days, it added. 1Bitcoin miners' move into AI is creating a new market for trading computing power7 minutes ago2Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP1 hour ago3Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital1 hour ago4Japan's top yen stablecoin falls short of its target in a disappointing first year1 hour ago5Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins1 hour ago6Investor who called for ",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "The Crypto Times",
+"story": null,
+"t0": 1793088718.0,
+"tag": null,
+"title": "OneKey to Delete Customer Order Data Within 30 Days After Keystone Hardware Wallet Breach",
+"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUC1aYnNqUWNYd3RNZnNkS2l3RHRkRFRPWHR1bFVOTFhvSHpzWm9UTVdJaVVHNWc5b0UwbVo5ZUtPZlpiSHZOaC1UbHhWOFowckM1NGhibERzVXlfUjhYNXZQOXVRVlkzZTl2ZnlEaUI3TmxqSXgzVGU0eHRnMjE0OGFTQnBFVWJSTmdrUnE3eUExVmVoNVNIYUticUx1d3EycFZSMUZZS0tfeHdRWVpONWJFdW5nVUUwVFVFeExpVHppSjFHRFJF?oc=5"
+},
+"p": {
+"keyfact": "Keystone destroyed unsold stock and suspended shipments after an attacker exposed a production authenticity key.",
+"post": "Security audit reveal: Keystone hardware wallet maker is destroying 18,835 unsold units after an October 20 website breach exposed buyer records and an unchangeable authenticity key. The twist is that an automated deletion tool failed silently, keeping data past the policy limit. #CryptoSecurity",
+"quote": "We failed to fulfill our commitment to erase customer data on time, and we accept responsibility for this failure = Keystone",
+"reply": "Another reminder that supply chain and database security are just as critical as on-chain code.",
+"short": "",
+"stat": "18,835 | Unsold units destroyed",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "1/ 25,964 buyer records exposed. Keystone admits an automated data deletion tool failed silently, keeping customer information past its scheduled deletion policy after an October 20 website breach. \n\n2/ The attacker gained access through a third party data monitoring tool. The breach exposed names, contact details, shipping addresses, and 12,873 unpaid checkout records according to company statements.\n\n3/ The core threat is a stolen authenticity key built directly into devices during production. Because this key cannot be changed, counterfeit hardware wallets could potentially pass online checks and appear genuine to users.\n\n4/ Keystone is destroying 18,835 unsold hardware wallets, suspending shipments, and cutting its data retention policy to 90 days. The firm reports recovery phrases and private keys were not exposed in the incident.\n\n5/ Lesson: Hardware security goes beyond the device itself. When companies fail to delete old buyer data, website breaches can expose the authentication keys meant to protect your offline funds.",
+"timeline": "Oct 20 = Attacker accessed Keystone website via third-party tool ; Oct 21 = Company disclosed breach of buyer records and keys ; Today = Keystone suspends shipments and destroys stock",
+"title": "18,835 Wallets Destroyed After Keystone Breach",
+"versus": "Unsold stock = 18,835 destroyed || Buyer records = 25,964 exposed",
+"visual": "STAT"
+},
+"t": 1793107295.907402
+},
 "39478e5a8c": {
 "coin": "",
 "facts": "Headline: INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries\nSources: Sahara Reporters, The Eastleigh Voice\n\n",
@@ -751,38 +783,6 @@
 },
 "t": 1792623620.441062
 },
-"f1c05a6305": {
-"coin": "",
-"facts": "Headline: Drift Exploiter Moves $61.56 Million in Ether to Tornado Cash, Still Holds $194 Million: 10 outlets compared\nSources: Crypto News, NewsCord, Pluang, Startup Fortune\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "NewsCord",
-"story": null,
-"t0": 1792581960.0,
-"tag": null,
-"title": "Drift Exploiter Moves $61.56 Million in Ether to Tornado Cash, Still Holds $194 Million: 10 outlets compared",
-"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU2tHd3RULWpkb25KUG44cDdWV01ZdTBjWDdUbDNFNFhWemd6T3Y4ZTVkY3FQNFFEb19NSWZiaDV0UnZBWUoxTXEwQjJnSjJkcGpQYlJJejFkY3c4ZmJHbnpPYWs3V01QcU9GTHA1VWRsRzJiNTJZSWpodUJzWGs5eFNRTzFWR19wWHY5VmtaUURRU2w0R19GOUFlbmNnTTd4WFBJdENhMjY4eGNUX1RiT0E3TDZJdEE5WW52djlZN2hEZVRPc2RMMEFBWi11Z05FOXBidDFxeEIxUnE5NmJyS0JBRENNeVNFMUE?oc=5"
-},
-"p": {
-"keyfact": "The Drift exploiter transferred 61.56 million dollars in Ether to Tornado Cash while holding 194 million.",
-"post": "The Drift exploiter just moved 61.56 million dollars in Ether to Tornado Cash. Despite this massive laundering transfer, the attacker still holds 194 million in funds. Tracking these wallet movements remains crucial as stolen capital flows through privacy tools. #Drift",
-"quote": "NONE",
-"reply": "On-chain trails never sleep when millions in stolen funds move through privacy tools.",
-"short": "",
-"stat": "$61.56M | Ether sent to Tornado Cash",
-"symbol": "NONE",
-"tag": "HACK",
-"thread": "",
-"timeline": "NONE",
-"title": "$61.56M moved after Drift Protocol exploit",
-"versus": "NONE",
-"visual": "ALERT"
-},
-"t": 1792602423.1186259
-},
 "f500d08ff1": {
 "coin": "tether",
 "facts": "Headline: India's top crypto exchange CoinDCX rejects hack claims after $16 million in USDT transfers reported\nSources: BeInCrypto, Coin Edition, Coin Gabbar, Crypto Briefing, Crypto News\nCoin in this story: Tether (USDT) $0.9994, +0.0% in 24h\n\nTelegram news posts about it:\nCoinDCX Faces Suspected $16 Million Hack After $44 Million Breach in 2025\n\nIndia's CoinDCX, one of the country's largest cryptocurrency exchanges, may have suffered another security breach, according to on-chain investigator Darcy. On October 21, approximately 15.99 million USDT and 5,784 TRX were transferred from CoinDCX hot wallets and deposit addresses to a single TRON address, including one transfer of 15.82 million USDT. The funds were subsequently split and routed to deposit addresses at Binance, OKX and Gate. CoinDCX previously lost about $44 million in a July 2025 hack. The latest suspected theft has not been officially confirmed.\n\nIn response to reports of suspicious outflows, CoinDCX and co-founder Sumit Gupta issued statements assuring users that funds remain safe, asserting that flagged transactions originated from legacy addresses compromised during its July 2025 exploit and abandoned since. Gupta maintained that no active CoinDCX hot wallets were breached and characterized the movement as hackers reusing obsolete addresses.\n\nBlockchain investigator ZachXBT swiftly disputed CoinDCX's explanation, providing on-chain evidence showing that the flagged deposit address remained active with a liquidity provider for ten months post-hack, routinely sweeping user deposits and interacting with CoinDCX's current hot wallet as recently as April and May 2026, indicating that roughly $15.8 million in user deposits was unaccounted for by the exchange. CoinDCX has not yet provid\n",
@@ -1043,7 +1043,7 @@
 },
 "menu_v": 5,
 "mute_until": 1792902190.2352862,
-"offset": 138489347,
+"offset": 138489349,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
