@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1792978702.8286002,
 1792985684.3985317,
 1793003121.7053874,
 1793007321.8625987,
@@ -14,7 +13,8 @@
 1793020214.8749537,
 1793020522.5291617,
 1793021772.3051434,
-1793022358.892616
+1793022358.892616,
+1793070708.00389
 ],
 "menu": {
 "0080c1bb18be": {
@@ -76,7 +76,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793065077.0,
 "tgtext": "Highlight Clip: Chris Dixon: Why Expand a16z Crypto into a16z Frontier?\n\nChris Dixon: Why Expand a16z Crypto into a16z Frontier?\n\nOn October 23, 2026, a16z Managing Partner Chris Dixon said the expansion of a16z Crypto into a16z Frontier reflects the increasingly blurred boundaries between crypto, fintech, Wall Street, and mainstream technology. Stablecoins have become a standard tool for fintech companies, while asset tokenization is growing rapidly. The team will explore frontier areas that remain underserved by existing investment efforts, continuing its approach of identifying investment opportunities in the second-order effects of technological advances. \u2014 link",
 "title": "Highlight Clip: Chris Dixon: Why Expand a16z Crypto into a16z Frontier?",
@@ -1054,7 +1054,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793060665.0,
 "tgtext": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident\n\nPassport hardware wallet maker Foundation said it has identified more than 23,000 phishing email attempts, including 19,057 messages delivered through Mailgun and 1,503 sent via Google Workspace. The number of affected users remains unknown.\n\nThe investigation found that personal information from historical WooCommerce orders remained in legacy database tables despite appearing redacted in the admin dashboard. Customer data from orders placed through Shopify since May may also have been exposed. Foundation said it has revoked affected email credentials and taken compromised legacy services offline. There is no evidence that Passport devices or their private keys were compromised. The phishing emails attempted to trick users into revealing their wallet recovery phrases. \u2014 link",
 "title": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident",
@@ -1182,7 +1182,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793067664.0,
 "tgtext": "This #EthereumOG, who bought 100,000 $ETH at just $0.31 each, sold another 1,500 $ETH ($3.48M) over the past 8 hours.\nhttps://x.com/lookonchain/status/2114593994227544105",
 "title": "This EthereumOG, who bought 100,000 ETH at just $0.31 each, sold another 1,500 ETH ($3.48M) over the past 8 hours.",
@@ -1247,7 +1247,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793064666.0,
 "tgtext": "Sixpence to run points campaign on Robinhood Chain with 10,000 USDG rewards\n\nSixpence, an onchain money market for tokenized U.S. stocks, will run a points campaign on Robinhood Chain from October 26 at 00:00 to November 23 at 00:00 (UTC), with a total reward pool of 10,000 USDG, split into two periods of 5,000 USDG each. Sixpence allows users to borrow stablecoins against tokenized U.S. stocks such as AAPL, TSLA, and NVDA, or deposit stock tokens into a Vault to earn interest. The project raised $5 million in seed funding from investors including a16z CSX. \u2014 link",
 "title": "Sixpence to run points campaign on Robinhood Chain with 10,000 USDG rewards",
@@ -1371,7 +1371,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793062100.0,
 "tgtext": "It seems that Bitcoin mining company MARA Holdings (@MARA) dumped 1,000 $BTC($80.19M) 6 hours ago.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "It seems that Bitcoin mining company MARA Holdings (@MARA) dumped 1,000 BTC($80.19M) 6 hours ago.",
@@ -1389,6 +1389,19 @@
 "tgtext": "",
 "title": "Ripple Targets High-Value Real Estate Deals With New Crypto Partnership",
 "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ21JTjBTWUNzdjE0NmphVEVRUUZQb2JGdjJVa2VtZHhDeHZQZmVoZzdqRmlUdDFWOTE3SVE2MEFyLXdjWkd2UV9EZUF5dGRVZG1GRk91V2l6OTh4ZHo0ai1CV2xvLXpoLVZteF9ETUVUclVwVVBYSlIwN0R4Uzk3MFViYUpFdkIxaDJBSXpSc1M5VURWcnEtUTR2NFo0X1Iwc1hoNEJHX1B6cXV6Y1E?oc=5",
+"urls": []
+},
+"7542750aaeb2": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793071011.890332,
+"t0": 1793070409.0,
+"tgtext": "Machi(@machibigbrother) has lost all his money on @papertrade_xyz!\n\nHe also has just $4,517.7 left on Hyperliquid.\n\nAn hour ago, he sold another Mutant Ape at a loss to fund more trading.\n\nhttps://opensea.io/MachiBigBrother/activity\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=history\nhttps://hypurrscan.io/address/0x020ca66c30bec2c4fe3861a94e4db4a498a35872#perps",
+"title": "Machi(@machibigbrother) has lost all his money on @papertrade_xyz!",
+"url": "https://t.me/lookonchainchannel/10801",
 "urls": []
 },
 "776f8e848808": {
@@ -1673,7 +1686,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793068818.0,
 "tgtext": "Two whales deposited 2,571 $BTC ($206.52M) into #CoinbasePrime 10 hours ago after 3 years of inactivity.\n\nhttps://arkm.com/explorer/address/14gFUD5ZncYgAsJmBiuxUXb2PCpkXYgNox\nhttps://arkm.com/explorer/address/1E8ui5fumCHj3KmUngKtYLBbeCx2dXM1Uc",
 "title": "Two whales deposited 2,571 BTC ($206.52M) into CoinbasePrime 10 hours ago after 3 years of inactivity.",
@@ -1686,7 +1699,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793066450.0,
 "tgtext": "",
 "title": "Tuen Mun convenience store worker arrested over suspected theft of HK$81,000 via e\u2011wallet top\u2011ups",
@@ -2521,7 +2534,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793057641.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Ripple officially receives full US regulatory approval to operate as a national trust bank.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for \n$RLUSD and enterprise crypto custody.\n\nNews | Markets | YouTube",
 "title": "Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for",
@@ -2939,7 +2952,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1793070401.0777369,
+"t": 1793071011.890332,
 "t0": 1793050343.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: ETH falls below $2,355 as BitMine maintains buying spree",
@@ -3125,71 +3138,48 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"000b6de6dd40": 0.113,
+"000b6de6dd40": 0.135,
 "00febf63ae79": 0.038,
-"01c00dac5f59": 0.046,
 "0290cf73c1c2": 0.047,
 "07b6a04f5084": 0.633,
-"08f0274eecb8": 0.017,
+"08f0274eecb8": 0.02,
+"0c57e4bea076": 0.024,
 "12086a42afc0": 0.016,
+"1649401a9af1": 0.015,
 "1c29a4ca9d5e": 0.121,
 "1ef166d7c8ac": 0.136,
-"2047e52bb72c": 0.019,
+"2047e52bb72c": 0.023,
 "29698568d18b": 0.009,
-"4c6ec89cd218": 0.082,
 "4da7ec5d4308": 0.02,
 "5385b725bdc5": 0.019,
 "5ad314a10e85": 0.368,
+"5edfa16959eb": 0.044,
 "66b22c411f34": 0.87,
 "6b3326d47e6e": 0.376,
-"72c21dff0c28": 0.862,
+"72c21dff0c28": 0.966,
+"7542750aaeb2": 0.655,
 "78f5b5556d52": 0.033,
-"891083c0c843": 0.069,
 "8ae2df3d842d": 0.012,
 "8d6701410e36": 0.854,
 "9294e5d90bdb": 0.339,
-"93fa81bcaaa2": 0.04,
 "b84341dc6f72": 0.174,
-"bf6bc0848d3d": 0.292,
-"c7aa97e0a0db": 0.19,
-"c7b2da42267b": 0.022,
+"bf6bc0848d3d": 0.233,
+"bfea4a5204f3": 0.088,
+"c1b135b21b13": 0.04,
 "cce90b3691d0": 0.017,
 "cd25bbe56c06": 0.81,
 "cf854aa5e193": 0.147,
 "dcc7c791cbe6": 0.065,
+"e42e5aed33ab": 0.261,
 "e45384d6232d": 0.021,
 "ed69d3556bb2": 0.061,
 "f12d6f701515": 0.417,
 "f198017c3955": 0.014,
 "f707699cd8b1": 0.009,
-"fca3dc85c515": 0.022,
 "ff2693f85656": 0.016,
 "ff71bd15b5af": 0.183
 },
 "sent": [
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1792896926.6686532,
-"u": [
-"https://t.me/lookonchainchannel/10770"
-],
-"w": [
-"$214m",
-"184",
-"67m",
-"added",
-"avoid",
-"eth",
-"liquidation",
-"longs",
-"margin",
-"usdc",
-"whale"
-]
-},
 {
 "e": [
 "bank",
@@ -4059,71 +4049,91 @@
 "whales",
 "years"
 ]
+},
+{
+"e": [
+"machi"
+],
+"k": [],
+"t": 1793070708.00389,
+"u": [
+"https://t.me/lookonchainchannel/10801"
+],
+"w": [
+"all",
+"his",
+"lost",
+"machi",
+"machibigbrother",
+"money",
+"papertrade",
+"xyz"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"66b22c411f34",
-16,
-46,
+"72c21dff0c28",
+26,
+149,
 1
 ],
 [
-"72c21dff0c28",
-26,
-138,
+"66b22c411f34",
+16,
+56,
 1
 ],
 [
 "8d6701410e36",
 24,
-26,
+37,
 1
 ],
 [
 "cd25bbe56c06",
-26,
-213,
+25,
+223,
 3
+],
+[
+"7542750aaeb2",
+10,
+10,
+1
 ],
 [
 "07b6a04f5084",
 10,
-89,
+99,
 1
 ],
 [
 "f12d6f701515",
-15,
-334,
+14,
+344,
 3
 ],
 [
 "6b3326d47e6e",
 10,
-96,
+106,
 1
 ],
 [
 "5ad314a10e85",
 15,
-162,
+172,
 1
 ],
 [
 "9294e5d90bdb",
 28,
-66,
-1
-],
-[
-"bf6bc0848d3d",
-18,
-3,
+76,
 1
 ]
 ],
-"top_at": 1793070401.0777369
+"top_at": 1793071011.890332
 }
