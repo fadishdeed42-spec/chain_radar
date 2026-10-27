@@ -14,7 +14,8 @@
 1793070708.00389,
 1793077120.6447532,
 1793079259.6243513,
-1793093859.0878484
+1793093859.0878484,
+1793096909.900296
 ],
 "menu": {
 "0080c1bb18be": {
@@ -270,7 +271,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793096300.2654314,
+"t": 1793096909.900296,
 "t0": 1793078894.0,
 "tgtext": "Tron recorded 4.366M active accounts yesterday, up 12.06% from the previous day, while new accounts reached 177.5K, up 18.93%.\n\nhttps://tronscan.org/data/charts/accounts",
 "title": "Tron recorded 4.366M active accounts yesterday, up 12.06% from the previous day, while new accounts reached 177.5K, up 18.93%.",
@@ -288,19 +289,6 @@
 "tgtext": "",
 "title": "Keystone Breach Exposes Customer Addresses and Order Details",
 "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1UwQS1tT3hVcTg0OFdfTjJzX0R2SWl6a0ZxNXNJS21LMFpRdHNEdTZqOGtMcGpwWEQyUTZpQXRYR0xobTRzRjk5Wk1GYXRNYW9rMnJ0aTFyNEt2SDhRYU5tY0NPQnZ6b1J6S3Rnb0hvMDRLSFRzbjFxVWhiRjF1WkhMaER1VThabG5wTHpZbFNzV2QzUkUyd2g5dkRlNjFSMWZ2LWhFU1U?oc=5",
-"urls": []
-},
-"1850c7a4ac8c": {
-"coin": "bitcoin",
-"src": "Benzinga",
-"srcs": [
-"Benzinga"
-],
-"t": 1792924091.0561454,
-"t0": 1792904264.0,
-"tgtext": "",
-"title": "Bitcoin Will Hit $100,000 Before $60,000, Says Mike Alfred, Who\u2019d Bet Up to $1 Million \u2014 Scaramucci Backs the Call",
-"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOajZVMXFvaUNBZjZaWlh2Tjc1UDV4UUVUd1hqa3gtSmE0TjYyZVB1QnpJN0U1d3lWaEpOMk9PcEZuQU9IRktNMWs1YVlCTEJQZFJmWjNpYUpFd0t2SlN4WkdQeDZvVU9JZGoxakVqQkx1QlBGN2gtU0dXOFVQdTY0LS1SLTBlR0QxdVdoQ1RORjZGS3B4bTkzay1YT1pqMnJi?oc=5",
 "urls": []
 },
 "19b5f35813a1": {
@@ -473,9 +461,10 @@
 "src": "The Crypto Times",
 "srcs": [
 "Coin Gabbar",
+"Startup Fortune",
 "The Crypto Times"
 ],
-"t": 1793093248.5840213,
+"t": 1793096909.900296,
 "t0": 1793082606.0,
 "tgtext": "",
 "title": "From $16M Wallet Drain to Phishing: CoinDCX\u2019s Security Issues Draw Fresh Attention After Fake Notifications",
@@ -700,15 +689,16 @@
 },
 "3fe492c01d09": {
 "coin": "",
-"src": "Cointelegraph",
+"src": "Wu Blockchain",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Wu Blockchain"
 ],
-"t": 1793096300.2654314,
+"t": 1793096909.900296,
 "t0": 1793088261.0,
-"tgtext": "",
-"title": "Binance files for Brazil crypto license ahead of Friday deadline",
-"url": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"tgtext": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil\n\nBinance filed an application with Brazil\u2019s central bank on October 23 through its local entity BBrasil to operate as a virtual asset service provider (SPSAV), ahead of the October 30 regulatory deadline, according to Blocknews. To comply with local rules, Binance began restricting eight services for Brazilian users on October 27, including crypto loans, margin trading, mining pools and cloud mining, while delisting 22 tokens, including USDE, USTC, DCR and XVG. Existing positions in affected products are generally limited to reductions or closures, with new positions prohibited. Binance also plans to complete the migration of Brazilian users to its local payment-account structure by October 29. \u2014 link",
+"title": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil",
+"url": "https://t.me/wublockchainenglish/26567",
 "urls": [
 "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -852,6 +842,23 @@
 "url": "https://t.me/wublockchainenglish/26551",
 "urls": []
 },
+"4ba1e6af156f": {
+"coin": "zcash",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Cointelegraph"
+],
+"t": 1793096909.900296,
+"t0": 1793081681.0,
+"tgtext": "",
+"title": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
+"url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+"https://cointelegraph.com/news/zcash-co-founder-ending-zcg-funding-125m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "4bd00f9edf5b": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -899,9 +906,10 @@
 "src": "CoinDesk",
 "srcs": [
 "CoinDesk",
-"The Crypto Times"
+"The Crypto Times",
+"bloomingbit"
 ],
-"t": 1793095079.206307,
+"t": 1793096606.4750988,
 "t0": 1793084996.0,
 "tgtext": "",
 "title": "ETH news: Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
@@ -1508,6 +1516,19 @@
 "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNWJVdXNWbFgzXzFURFZoWmxrcXhmWjVCbVIzUHlqV1pWYUkyMWtNaFBnTlY4bVpYdjI5UWoxbXhTeHYtM21uV3MxemZ6ajZ0SFE1Y1FyS2tULXU3WFNUTHYwS3ZpbU1OOU9YaDZHY2VoeGpIUWx1VThWN25OYmViTWpIZnVKRzlITlhVazU3R2VXMUxkbGJwTUtYZjl5aGt4cUR0WlQtcTNqZkN1VFhUS2JsSklCZzjSAbwBQVVfeXFMTnZwMUtLTi1DRmM2a3ZGQlEtYnFhSFFfdDR4bUh1RjVJbjY1S05DUXctM2pGeXZWeUFic09OTzhqR1dRMVZfdXZJSlZXZjk0TGFKSnVoS3NwVUNLZExnaUcwSGFlMWJMbmphek9zbDVtZWttcmpUS2h6SHZKZnM5c2NFeXBPLWRLcFM4ZG10VFJ1OVlEaTUxWFI0V1FHbWlBR2FyVmlDNy1DZUw0TWJEMzJScEk5d0tjV095Szg?oc=5",
 "urls": []
 },
+"8160ae5849bc": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793096909.900296,
+"t0": 1793078317.0,
+"tgtext": "\ud83d\udd25 NEW: Hong Kong-based Redotpay is reportedly weighing a confidential US IPO filing by year-end while also discussing a pre-IPO round at a $4B\u2013$5B valuation, per Bloomberg.\n\nNews | Markets | YouTube",
+"title": "Hong Kong-based Redotpay is reportedly weighing a confidential US IPO filing by year-end while also discussing a pre-IPO round at a $4B\u2013$5B valuation, per Bloomberg.",
+"url": "https://t.me/cointelegraph/72879",
+"urls": []
+},
 "81dfdeacdf5f": {
 "coin": "bitcoin",
 "src": "CoinDesk",
@@ -1638,7 +1659,7 @@
 "srcs": [
 "FXStreet"
 ],
-"t": 1793096300.2654314,
+"t": 1793096909.900296,
 "t0": 1793093701.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC consolidates below $80,000 as Middle East tensions, tech earnings loom",
@@ -1722,7 +1743,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1793096300.2654314,
+"t": 1793096909.900296,
 "t0": 1793088050.0,
 "tgtext": "",
 "title": "Tuen Mun convenience store worker arrested over suspected theft of HK$81,000 via e\u2011wallet top\u2011ups",
@@ -1824,7 +1845,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793096300.2654314,
+"t": 1793096909.900296,
 "t0": 1793093545.0,
 "tgtext": "\ud83c\uddf5\ud83c\udded TODAY: The Philippine peso has fallen to an all-time low against the US dollar.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Philippine peso has fallen to an all-time low against the US dollar.",
@@ -2044,7 +2065,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793095690.6082752,
+"t": 1793096909.900296,
 "t0": 1793076851.0,
 "tgtext": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumulative net inflows to $66.24 billion. Spot Ethereum ETFs saw $88.58 million in net outflows, although Fidelity's FETH led individual fund inflows with $16.13 million. BlackRock is the world's largest asset manager, while Fidelity is one of the largest U.S. investment firms. \u2014 link",
 "title": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million",
@@ -2351,7 +2372,7 @@
 "The Crypto Times",
 "Yahoo Finance"
 ],
-"t": 1793095385.858897,
+"t": 1793096606.4750988,
 "t0": 1793082255.0,
 "tgtext": "",
 "title": "Bitcoin Price Drops Below $80K as Markets Price 90% Fed Hold, Strategy Halts Buys, MARA Moves 1K BTC",
@@ -2377,7 +2398,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793096300.2654314,
+"t": 1793096606.4750988,
 "t0": 1793075211.0,
 "tgtext": "\ud83d\udd25 NEW: Hong Kong-based Redotpay is reportedly weighing a confidential US IPO filing by year-end while also discussing a pre-IPO round at a $4B\u2013$5B valuation, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "Hong Kong-based Redotpay is reportedly weighing a confidential US IPO filing by year-end while also discussing a pre-IPO round at a $4B\u2013$5B valuation, per Bloomberg.",
@@ -2822,7 +2843,7 @@
 "srcs": [
 "The Motley Fool"
 ],
-"t": 1793096300.2654314,
+"t": 1793096909.900296,
 "t0": 1793095937.0,
 "tgtext": "",
 "title": "JPMorgan Chase Says That Bitcoin Will Outperform Stocks, Bonds, and Gold Over the Next 10 Years. Here's Why It Might Be Right",
@@ -2946,7 +2967,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1793095690.6082752,
+"t": 1793096606.4750988,
 "t0": 1793088718.0,
 "tgtext": "",
 "title": "OneKey to Delete Customer Order Data Within 30 Days After Keystone Hardware Wallet Breach",
@@ -3270,82 +3291,47 @@
 },
 "probs": {
 "023bb95c4510": 0.063,
-"03c3bd813ad3": 0.019,
 "0beeaf326766": 0.029,
+"11eaf9e12fed": 0.015,
 "159484dc554e": 0.042,
 "1a50ac0bc54f": 0.098,
-"1a78b54f17da": 0.375,
-"1bc7748b9b7a": 0.025,
 "29436fe758c4": 0.039,
-"2ba2ca559c85": 0.13,
-"3d4bbcee13c5": 0.119,
-"3fe492c01d09": 0.298,
+"2ba2ca559c85": 0.354,
+"2c1d70995718": 0.036,
+"3d4bbcee13c5": 0.055,
+"3fe492c01d09": 0.889,
 "4078c66ff634": 0.032,
 "41ed75671f1d": 0.05,
-"4e747c7ca484": 0.065,
+"4ba1e6af156f": 0.198,
 "4fb6630526ae": 0.013,
+"5fcf32d114e7": 0.025,
 "659be4e34469": 0.165,
 "71d60a23f5a4": 0.014,
-"78deec2b4ee6": 0.058,
 "7ffd72a58b63": 0.041,
+"88bebfedbf5f": 0.036,
 "895191f48873": 0.011,
 "8aeb57701427": 0.353,
-"8c885db613bf": 0.085,
-"906cf0e41630": 0.042,
+"8b4dfbe31cb5": 0.036,
+"8c885db613bf": 0.036,
 "9294e5d90bdb": 0.394,
 "968e652829e1": 0.053,
 "a072808886d8": 0.089,
 "a7f4605ff094": 0.018,
 "b17d15b7bdbe": 0.02,
 "b960ad20253c": 0.028,
-"ca8a5ae5fbe9": 0.061,
 "ca9d1fd3ad8c": 0.06,
 "dad0130de999": 0.025,
 "e29654cc16cb": 0.067,
 "e765ed50bbf0": 0.138,
-"e9171c34c2f4": 0.021,
 "ebe6ca0ba7eb": 0.021,
+"ebf6eb6cc3d0": 0.027,
+"eddb26f2182a": 0.033,
 "f0c33e500d2b": 0.054,
 "f4862d832a53": 0.034,
 "f9110baaa05f": 0.105,
 "fa00b1f966fb": 0.018
 },
 "sent": [
-{
-"e": [
-"approves",
-"but",
-"buying",
-"funds",
-"leveraged",
-"these",
-"trading",
-"worth"
-],
-"k": [
-"etf"
-],
-"t": 1792921618.3004637,
-"u": [
-"https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVZib2VkNXhLNzhLclc1aW5pU0dlcGtLRXhSeE9fb0hfdTF5dklWcUg4bHNJMHhGbHVFRUpHNEpPVkhwUDM5MXgxLV9uMHk3MUZQUmhSbWpXcEZSRjB6NDhWRlBwR2F2VnlBd0wxX25sd2ZMSXVqQnpNY3luM1REdlNYNHdLY2hhNFIzNnFVWmVJMWVkS0dj?oc=5",
-"https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5",
-"https://news.google.com/rss/articles/CBMipwFBVV95cUxQcERwb1gtZDlLV2R2MFFHMDBOa29UZVFTVjFMaGxFNE53Wk55RUM2eGk3WUhxb0F0Q3hnUnRJV1B6LVR3Nzc3NEtndlh6ZG1RRm85T01VWF9TY3ZqaVM2czR1WlU2THExRUJDa3JwWHduTlBzeTRjQ1EtRFdqRUlOR1dOQUR0R1hZMEF3dW0wR3BCdmlmNTZqdTVucTNJQnFNQ1Ata3BvTQ?oc=5"
-],
-"w": [
-"approves",
-"bitcoin",
-"but",
-"buying",
-"etfs",
-"ethereum",
-"funds",
-"leveraged",
-"sec",
-"these",
-"trading",
-"worth"
-]
-},
 {
 "e": [
 "halts",
@@ -4231,71 +4217,109 @@
 "time",
 "today"
 ]
+},
+{
+"e": [
+"ahead",
+"binance",
+"brazil",
+"brazilian",
+"deadline",
+"delists",
+"files",
+"license",
+"october",
+"restricts",
+"services",
+"tokens"
+],
+"k": [
+"list"
+],
+"t": 1793096909.900296,
+"u": [
+"https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/wublockchainenglish/26567"
+],
+"w": [
+"ahead",
+"binance",
+"brazil",
+"brazilian",
+"deadline",
+"delists",
+"files",
+"license",
+"october",
+"restricts",
+"services",
+"tokens"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"3fe492c01d09",
+36,
+144,
+2
+],
+[
 "164e16a815c3",
 0,
-290,
+300,
 1
 ],
 [
 "9d16c1c9268f",
 10,
-46,
+56,
 1
 ],
 [
 "9294e5d90bdb",
 28,
-138,
+148,
 1
 ],
 [
-"1a78b54f17da",
-26,
-325,
-2
+"2ba2ca559c85",
+59,
+238,
+3
 ],
 [
 "8aeb57701427",
 15,
-43,
+53,
 1
 ],
 [
-"c3976f4fb666",
-3,
-351,
+"8160ae5849bc",
+8,
+310,
 1
 ],
 [
-"3fe492c01d09",
-26,
-134,
+"b06792087006",
+1,
+334,
 1
+],
+[
+"4ba1e6af156f",
+17,
+254,
+2
 ],
 [
 "e269c86090eb",
 10,
-6,
-1
-],
-[
-"659be4e34469",
-25,
-203,
-1
-],
-[
-"f711ba045ae3",
-10,
-36,
+16,
 1
 ]
 ],
-"top_at": 1793096300.2654314
+"top_at": 1793096909.900296
 }
