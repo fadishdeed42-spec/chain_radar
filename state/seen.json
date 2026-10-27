@@ -342,6 +342,19 @@
 "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaUtMRUF3UXhtajY0TVNpR1BtRVk3SVRrOEw0X0NRSGdrTG5WbnV6SVV4MTZwY1k1RGFtMFY1T1E5LWszUHFnNUMyajc4ai1tRTNaUUx3b0xwWGt2ODNuWThBVjdOVnA4bFlJaDB0aTVRbnF1cXJYYWl5ZGNvOGpqVGVLVQ?oc=5",
 "urls": []
 },
+"1ef166d7c8ac": {
+"coin": "ethereum",
+"src": "Pluang",
+"srcs": [
+"Pluang"
+],
+"t": 1793060058.2795255,
+"t0": 1793050466.0,
+"tgtext": "",
+"title": "$1.89M in stolen ETH from X100 hack moved to Tornado Cash after $4.75M attack",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYndTQURoMjNkVV9sVk41c3lyT0dySWVLZ19XU2hDS3lyLWp3N3N4b3VXWndFRmpYNHVNVWRxd01ianBOaXFkMk9YblBoN3JRMWtmTmh0TkdiZWN0Ulo2Tzl6WmNpaDBCSHNBcm5scHNJYkhrWFpiWXk3Vk83VHBYdnZlVWs3MWs0TEhiS3JzakdnZ0d1Wnc?oc=5",
+"urls": []
+},
 "1ef3341ad5f0": {
 "coin": "",
 "src": "Cointelegraph",
@@ -410,19 +423,6 @@
 "tgtext": "",
 "title": "With Oil Prices Rising, Bitcoin Remains Stuck Below $85,000. Here's Why I'm Still Buying Bitcoin Right Now.",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWW9XeVF6VTEyTXNVdEV1LTllYTd4Z1hfMnVNNHYxX3JxSHJsQ1Z0VkVnbHE5VzFtN2hRNlctWHhHSlVyQTJLUENNamNLTS1Rb2xSOWVFOFQzWUViRzNDVVh0N3hRZC1XRUZRc0o0WlEwalRQQk1kUFZvelB3TEFQNVBfd1pTdlczT3Q1XzduSUxScUVERURXekpTd0Zfb0E?oc=5",
-"urls": []
-},
-"26819dca80cf": {
-"coin": "",
-"src": "Free Press Journal",
-"srcs": [
-"Free Press Journal"
-],
-"t": 1792887065.8207345,
-"t0": 1792865732.0,
-"tgtext": "",
-"title": "Houthi Missile Interceptions Leave Shrapnel In Mecca, Medina Regions",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZWxZSmFPSGhKZG9RaDMtamdlVjE5b1BpM3FXbDJtTEFHY3dOc1UzNEZTZXlXUEMxMURRcWNiUXN1UGpzMVZXaXE5QW9CV0pzaS0zbzkxOUVvN2ZNSlR2eDgxLWZaS0RobDd2UWg0OFlObTNEWmhVMENVQ1VXYTBNWV9rVVA2R0ZFd0g5NlNkTkl4T2lodVhUNGNwbHZoT1d1c0x2dVp2RU7SAa4BQVVfeXFMUDZfSS1JRXJNV08tbWNMeFE3Z2NYc09xU3JJUEFHNzVSVzdYbmw0cTQ5dVZITmg5cC1FSjY0VDhwS012a094TkVxam15N00wTzhQS0RyaWkxb2FwYkF1TTE4Y2RMWjRxOC1VdHJMWno3NDNOTGowdWJFVFVETFdDVnhWU3VoNTBWTF9UME1qR29tNjhFeWJpNFhaNjNqckQyenFiYzNXdGxMNFFpbGR3?oc=5",
 "urls": []
 },
 "2805e3456a32": {
@@ -867,7 +867,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793044202.0,
 "tgtext": "",
 "title": "New Crypto Risk: Zipcoin Closes After UNCX Exploit as Remittix Recruits 100 Earn Testers With Weekly Payouts",
@@ -981,19 +981,6 @@
 "tgtext": "",
 "title": "Bitcoin Briefly Dips Below $80,000; $436 Million in Longs Liquidated in Four Hours as Ethereum Losses Swell",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5WU5qVWhDaF9oR3pLbVkyQjVIM08yb3U1N2RBNGhhcXJqSVgtY0pxS202RnB3Y19SSDktQkRkbl9Ia2t2OUFiYUIxbms0Y2U0Szh0MG5xWU15S0kyajFTUXktOTIwQWRmMW1zWVlKUkx1Z0hCVkE?oc=5",
-"urls": []
-},
-"4f9c8111add8": {
-"coin": "",
-"src": "Morocco News",
-"srcs": [
-"Morocco News"
-],
-"t": 1792887065.8207345,
-"t0": 1792865698.0,
-"tgtext": "",
-"title": "Morocco joins UAE operation identifying $39 billion in fraud-linked assets - HESPRESS English",
-"url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlpMV2M1ckU3dmdXQkt3WWRIMmNyNDZHV1RiZHFQck14ZDJEV2VZR29qWFFEV3RqWDFzcVdKdmhxZ1phR2JMVUI3VmlVcGxad09USmx6UmxfTElKLVhQbWJuWDRaMlktMzY2RFUxbTJEeXhXSWhjbzIzTnBhUDIyWGliVjFoMFdOWmtKSlNkYkpmLXNkOV9iVXdUcDdqZWFJaHVKWVpFOEpfSjNUWmc?oc=5",
 "urls": []
 },
 "50a505c346f0": {
@@ -1656,7 +1643,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793038877.0,
 "tgtext": "Hyperliquid: Kraken Parent Payward Plans to Become First CFTC-Regulated HIP-3* Deployer\n\nHyperliquid announced that Kraken parent Payward plans to become the first CFTC-regulated HIP-3* deployer, using Hyperliquid infrastructure to offer perpetual futures markets to U.S. clients. Subject to regulatory approval, Payward's CFTC-regulated DCM and DCO, Bitnomial, would serve as the deployer, managing the markets and clearing and settling contracts, while its CFTC-registered FCM, NinjaTrader Clearing, would carry client accounts. HIP-3* will introduce optional onchain allowlists for permissioned markets without affecting existing HIP-3 markets. The initial version is available on testnet, with specifications subject to change. \u2014 link\n\ud83d\udd25 HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.\n\nNews | Markets | YouTube",
 "title": "HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.",
@@ -1772,7 +1759,7 @@
 "srcs": [
 "Facebook"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793052036.0,
 "tgtext": "",
 "title": "An Oct. 26 fact sheet from \"Presidential Spartan Fund LLC\" identified the donors supporting the $500,000 effort. See link below \u2b07\ufe0f \ud83d\udcf8 Junfu Han, Detroit Free Press",
@@ -1862,7 +1849,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793040939.0,
 "tgtext": "",
 "title": "X100 exploit wallets moved 420.8 ETH to Tornado Cash, holding 1,602 ETH across four wallets.",
@@ -2122,7 +2109,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793044509.0,
 "tgtext": "\u26a1 NEW: The FTC wants Anthropic execs to testify in its consumer harm probe, on the same day Anthropic is pitching investors on one of the biggest IPOs ever.\n\nTalk about timing... \n\nNews | Markets | YouTube",
 "title": "The FTC wants Anthropic execs to testify in its consumer harm probe, on the same day Anthropic is pitching investors on one of the biggest IPOs ever.",
@@ -2535,7 +2522,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793039580.0,
 "tgtext": "\ud83d\udea8 JUST IN: Microsoft is offering voluntary buyouts to around 60,000 employees, according to CNBC.\n\nIt comes six months after its first-ever voluntary retirement program, as AI data center spending strains its finances.\n\nNews | Markets | YouTube",
 "title": "Microsoft is offering voluntary buyouts to around 60,000 employees, according to CNBC.",
@@ -2575,12 +2562,14 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793057641.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Ripple officially receives full US regulatory approval to operate as a national trust bank.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for \n$RLUSD and enterprise crypto custody.\n\nNews | Markets | YouTube",
 "title": "Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for",
 "url": "https://t.me/cointelegraph/72872",
-"urls": []
+"urls": [
+"https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "ce2ba7d0ed60": {
 "coin": "bitcoin",
@@ -2789,7 +2778,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793044060.0,
 "tgtext": "",
 "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
@@ -2877,7 +2866,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793051319.0,
 "tgtext": "\u26a1 LATEST: Ex-DOGE staffers say they broke into Anthropic.\n\nTheir months-old startup Cathedral claims it got into the AI giant's sensitive internal data and messaging systems.\n\nNews | Markets | YouTube",
 "title": "Ex-DOGE staffers say they broke into Anthropic.",
@@ -3016,7 +3005,7 @@
 "CryptoTicker.io",
 "FXStreet"
 ],
-"t": 1793059751.9638526,
+"t": 1793060362.223337,
 "t0": 1793050343.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: BitMine continues buying as ETH slips below $2,355",
@@ -3190,39 +3179,39 @@
 },
 "probs": {
 "08f0274eecb8": 0.038,
-"14ee2e479131": 0.027,
-"153589b92620": 0.022,
+"14ee2e479131": 0.012,
+"153589b92620": 0.014,
 "1f7d41988753": 0.023,
 "2047e52bb72c": 0.025,
 "29698568d18b": 0.004,
 "335f626e8da6": 0.012,
-"3815bbd4cc0e": 0.063,
 "3b89b8259663": 0.056,
 "3c2db105a97b": 0.055,
 "3d43f4512b4f": 0.016,
 "43dd14d48570": 0.083,
 "4697d736d5a0": 0.029,
-"46a1346391c9": 0.011,
 "4936948b1c23": 0.3,
 "5385b725bdc5": 0.055,
+"5d53abf85fbf": 0.022,
 "5edfa16959eb": 0.049,
 "719d365f04d6": 0.032,
-"7b9eba4a1ecc": 0.005,
+"7b9eba4a1ecc": 0.002,
 "891083c0c843": 0.115,
 "8abb7f38c591": 0.595,
 "93fa81bcaaa2": 0.062,
 "95ff0419de90": 0.235,
 "9aec74043065": 0.281,
 "b4c9bac310a2": 0.023,
-"b4d0c2ac7bcb": 0.394,
+"b6d49aeefd08": 0.002,
 "b8c83b26aff1": 0.026,
-"bc95f5f17bcd": 0.053,
+"b9f327cccb01": 0.015,
 "c157e0d568c5": 0.046,
 "c1b135b21b13": 0.031,
 "c22c36bc7a1f": 0.063,
 "c7aa97e0a0db": 0.079,
-"c7b2da42267b": 0.024,
-"cd25bbe56c06": 0.794,
+"c7b2da42267b": 0.031,
+"cd25bbe56c06": 0.778,
+"d887fe93325b": 0.005,
 "e30b8a550b71": 0.041,
 "e42e5aed33ab": 0.294,
 "f12d6f701515": 0.201,
@@ -4051,63 +4040,63 @@
 [
 "cd25bbe56c06",
 28,
-35,
+45,
 2
 ],
 [
 "8abb7f38c591",
-8,
-348,
+7,
+358,
 3
 ],
 [
 "b4d0c2ac7bcb",
-1,
-254,
+0,
+264,
 1
 ],
 [
 "c9cde1ad7de0",
 0,
-336,
+346,
 1
 ],
 [
 "4936948b1c23",
-25,
-259,
+24,
+269,
 1
 ],
 [
 "e42e5aed33ab",
 10,
-141,
+151,
 1
 ],
 [
 "9aec74043065",
-24,
-314,
+22,
+324,
 1
 ],
 [
 "95ff0419de90",
 10,
-129,
+139,
 1
 ],
 [
 "f12d6f701515",
 25,
-157,
+167,
 2
 ],
 [
 "de1ee98890a6",
 0,
-262,
+272,
 1
 ]
 ],
-"top_at": 1793059751.9638526
+"top_at": 1793060362.223337
 }
