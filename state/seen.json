@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1792985684.3985317,
 1793003121.7053874,
 1793007321.8625987,
 1793015901.0176318,
@@ -14,7 +13,8 @@
 1793020522.5291617,
 1793021772.3051434,
 1793022358.892616,
-1793070708.00389
+1793070708.00389,
+1793077120.6447532
 ],
 "menu": {
 "0080c1bb18be": {
@@ -76,7 +76,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793065077.0,
 "tgtext": "Highlight Clip: Chris Dixon: Why Expand a16z Crypto into a16z Frontier?\n\nChris Dixon: Why Expand a16z Crypto into a16z Frontier?\n\nOn October 23, 2026, a16z Managing Partner Chris Dixon said the expansion of a16z Crypto into a16z Frontier reflects the increasingly blurred boundaries between crypto, fintech, Wall Street, and mainstream technology. Stablecoins have become a standard tool for fintech companies, while asset tokenization is growing rapidly. The team will explore frontier areas that remain underserved by existing investment efforts, continuing its approach of identifying investment opportunities in the second-order effects of technological advances. \u2014 link",
 "title": "Highlight Clip: Chris Dixon: Why Expand a16z Crypto into a16z Frontier?",
@@ -325,7 +325,7 @@
 "The Motley Fool",
 "Yahoo Finance"
 ],
-"t": 1793076510.1812713,
+"t": 1793076816.8133788,
 "t0": 1793070088.0,
 "tgtext": "",
 "title": "Do Bitcoin ETF Flows Really Predict Future Bitcoin Price Moves? This New Research Has Important Implications for BTC Investors.",
@@ -1069,7 +1069,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793060665.0,
 "tgtext": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident\n\nPassport hardware wallet maker Foundation said it has identified more than 23,000 phishing email attempts, including 19,057 messages delivered through Mailgun and 1,503 sent via Google Workspace. The number of affected users remains unknown.\n\nThe investigation found that personal information from historical WooCommerce orders remained in legacy database tables despite appearing redacted in the admin dashboard. Customer data from orders placed through Shopify since May may also have been exposed. Foundation said it has revoked affected email credentials and taken compromised legacy services offline. There is no evidence that Passport devices or their private keys were compromised. The phishing emails attempted to trick users into revealing their wallet recovery phrases. \u2014 link",
 "title": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident",
@@ -1197,7 +1197,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793067664.0,
 "tgtext": "This #EthereumOG, who bought 100,000 $ETH at just $0.31 each, sold another 1,500 $ETH ($3.48M) over the past 8 hours.\nhttps://x.com/lookonchain/status/2114593994227544105",
 "title": "This EthereumOG, who bought 100,000 ETH at just $0.31 each, sold another 1,500 ETH ($3.48M) over the past 8 hours.",
@@ -1372,7 +1372,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793062100.0,
 "tgtext": "It seems that Bitcoin mining company MARA Holdings (@MARA) dumped 1,000 $BTC($80.19M) 6 hours ago.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "It seems that Bitcoin mining company MARA Holdings (@MARA) dumped 1,000 BTC($80.19M) 6 hours ago.",
@@ -1385,7 +1385,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793070409.0,
 "tgtext": "Machi(@machibigbrother) has lost all his money on @papertrade_xyz!\n\nHe also has just $4,517.7 left on Hyperliquid.\n\nAn hour ago, he sold another Mutant Ape at a loss to fund more trading.\n\nhttps://opensea.io/MachiBigBrother/activity\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=history\nhttps://hypurrscan.io/address/0x020ca66c30bec2c4fe3861a94e4db4a498a35872#perps",
 "title": "Machi(@machibigbrother) has lost all his money on @papertrade_xyz!",
@@ -1674,7 +1674,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793068818.0,
 "tgtext": "Two whales deposited 2,571 $BTC ($206.52M) into #CoinbasePrime 10 hours ago after 3 years of inactivity.\n\nhttps://arkm.com/explorer/address/14gFUD5ZncYgAsJmBiuxUXb2PCpkXYgNox\nhttps://arkm.com/explorer/address/1E8ui5fumCHj3KmUngKtYLBbeCx2dXM1Uc",
 "title": "Two whales deposited 2,571 BTC ($206.52M) into CoinbasePrime 10 hours ago after 3 years of inactivity.",
@@ -1687,7 +1687,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793066450.0,
 "tgtext": "",
 "title": "Tuen Mun convenience store worker arrested over suspected theft of HK$81,000 via e\u2011wallet top\u2011ups",
@@ -2043,6 +2043,19 @@
 "tgtext": "JUST IN: Elon Musk warns lenders have almost completely cut off funding to companies fully dependent on AI data center revenue.\n\n@WatcherGuru",
 "title": "Elon Musk warns lenders have almost completely cut off funding to companies fully dependent on AI data center revenue.",
 "url": "https://t.me/WatcherGuru/15623",
+"urls": []
+},
+"b06792087006": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793077120.6447532,
+"t0": 1793076851.0,
+"tgtext": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumulative net inflows to $66.24 billion. Spot Ethereum ETFs saw $88.58 million in net outflows, although Fidelity's FETH led individual fund inflows with $16.13 million. BlackRock is the world's largest asset manager, while Fidelity is one of the largest U.S. investment firms. \u2014 link",
+"title": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million",
+"url": "https://t.me/wublockchainenglish/26566",
 "urls": []
 },
 "b35462ec6b69": {
@@ -2509,7 +2522,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793057641.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Ripple officially receives full US regulatory approval to operate as a national trust bank.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for \n$RLUSD and enterprise crypto custody.\n\nNews | Markets | YouTube",
 "title": "Ripple CEO Brad Garlinghouse says the OCC has given final approval for Ripple National Trust Bank, creating a federally supervised home for",
@@ -3047,7 +3060,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793076510.1812713,
+"t": 1793077120.6447532,
 "t0": 1793073330.0,
 "tgtext": "",
 "title": "Over $1.1B in Bitcoin moved from Arbistar Ponzi wallets after collapse, Spanish probe reveals",
@@ -3086,79 +3099,48 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"000b6de6dd40": 0.135,
 "00febf63ae79": 0.038,
 "0290cf73c1c2": 0.047,
 "04f186165ed0": 0.045,
 "07b6a04f5084": 0.317,
 "0c57e4bea076": 0.03,
 "12086a42afc0": 0.043,
+"1649401a9af1": 0.015,
 "1c29a4ca9d5e": 0.242,
 "2047e52bb72c": 0.023,
 "29698568d18b": 0.009,
-"4da7ec5d4308": 0.024,
 "5ad314a10e85": 0.763,
 "66b22c411f34": 0.596,
 "6b3326d47e6e": 0.14,
 "72c21dff0c28": 0.935,
 "7542750aaeb2": 0.505,
 "78f5b5556d52": 0.033,
+"8ae2df3d842d": 0.012,
 "8d6701410e36": 0.81,
 "9294e5d90bdb": 0.339,
 "95b35b74d903": 0.053,
-"ade1948d40ef": 0.197,
+"ade1948d40ef": 0.103,
 "af4bfe0cff7e": 0.026,
-"b160877730a9": 0.073,
+"b06792087006": 0.909,
 "b84341dc6f72": 0.044,
 "b9f327cccb01": 0.019,
 "bf6bc0848d3d": 0.182,
 "c3976f4fb666": 0.036,
 "ca9d32242eda": 0.012,
 "ccc6072f3354": 0.241,
+"cce90b3691d0": 0.021,
 "cd25bbe56c06": 0.94,
 "d99827be190a": 0.132,
 "dcc7c791cbe6": 0.079,
 "e45384d6232d": 0.025,
 "ed69d3556bb2": 0.061,
-"f198017c3955": 0.009,
+"f198017c3955": 0.007,
+"f8941a8e167b": 0.018,
 "fc8e5def938b": 0.272,
-"ff2693f85656": 0.016,
+"ff2693f85656": 0.008,
 "ff71bd15b5af": 0.183
 },
 "sent": [
-{
-"e": [
-"bank",
-"big",
-"israel",
-"netanyahu"
-],
-"k": [
-"ban"
-],
-"t": 1792903637.7558353,
-"u": [
-"https://t.me/wublockchainenglish/26543",
-"https://t.me/cointelegraph/72835"
-],
-"w": [
-"bank",
-"big",
-"bypassing",
-"cannot",
-"dodge",
-"idea",
-"israel",
-"just",
-"netanyahu",
-"route",
-"sanctions",
-"saying",
-"shot",
-"used",
-"using"
-]
-},
 {
 "e": [
 "asia",
@@ -4052,6 +4034,33 @@
 "really",
 "research"
 ]
+},
+{
+"e": [
+"draw",
+"ether",
+"funds",
+"million",
+"shed"
+],
+"k": [
+"etf"
+],
+"t": 1793077120.6447532,
+"u": [
+"https://t.me/wublockchainenglish/26566"
+],
+"w": [
+"$110",
+"$88",
+"bitcoin",
+"draw",
+"etfs",
+"ether",
+"funds",
+"million",
+"shed"
+]
 }
 ],
 "stories": {},
@@ -4059,64 +4068,64 @@
 "top": [
 [
 "cd25bbe56c06",
-23,
-314,
+21,
+325,
 4
 ],
 [
 "72c21dff0c28",
-18,
-240,
+17,
+250,
+1
+],
+[
+"b06792087006",
+21,
+4,
 1
 ],
 [
 "8d6701410e36",
 24,
-128,
+138,
 1
 ],
 [
 "5ad314a10e85",
-4,
-264,
+3,
+274,
 1
 ],
 [
 "66b22c411f34",
 16,
-147,
+158,
 1
 ],
 [
 "7542750aaeb2",
 10,
-102,
+112,
 1
 ],
 [
 "9294e5d90bdb",
 28,
-168,
+178,
 1
 ],
 [
 "07b6a04f5084",
-9,
-191,
+8,
+201,
 1
 ],
 [
 "fc8e5def938b",
 53,
-53,
+63,
 1
-],
-[
-"1c29a4ca9d5e",
-44,
-107,
-3
 ]
 ],
-"top_at": 1793076510.1812713
+"top_at": 1793077120.6447532
 }
