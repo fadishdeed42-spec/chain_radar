@@ -451,7 +451,7 @@
 "Startup Fortune",
 "The Crypto Times"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793082606.0,
 "tgtext": "",
 "title": "From $16M Wallet Drain to Phishing: CoinDCX\u2019s Security Issues Draw Fresh Attention After Fake Notifications",
@@ -506,7 +506,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1793100266.4436421,
+"t": 1793100876.2882302,
 "t0": 1793096340.0,
 "tgtext": "",
 "title": "Bitcoin Has Lost 30,000 Wallets: Could That Be Good News for BTC?",
@@ -695,7 +695,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793088261.0,
 "tgtext": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil\n\nBinance filed an application with Brazil\u2019s central bank on October 23 through its local entity BBrasil to operate as a virtual asset service provider (SPSAV), ahead of the October 30 regulatory deadline, according to Blocknews. To comply with local rules, Binance began restricting eight services for Brazilian users on October 27, including crypto loans, margin trading, mining pools and cloud mining, while delisting 22 tokens, including USDE, USTC, DCR and XVG. Existing positions in affected products are generally limited to reductions or closures, with new positions prohibited. Binance also plans to complete the migration of Brazilian users to its local payment-account structure by October 29. \u2014 link\nJUST IN: \ud83c\udde7\ud83c\uddf7 Binance files for crypto license in Brazil.\n\n@WatcherGuru",
 "title": "Binance Files for Brazilian Crypto License Ahead of October 30 Deadline; Restricts 8 Services and Delists 22 Tokens in Brazil",
@@ -850,7 +850,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793081681.0,
 "tgtext": "",
 "title": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
@@ -907,10 +907,9 @@
 "src": "CoinDesk",
 "srcs": [
 "CoinDesk",
-"The Crypto Times",
-"bloomingbit"
+"The Crypto Times"
 ],
-"t": 1793099959.973985,
+"t": 1793101179.7035475,
 "t0": 1793084996.0,
 "tgtext": "",
 "title": "ETH news: Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
@@ -1659,15 +1658,18 @@
 "coin": "bitcoin",
 "src": "Crypto News",
 "srcs": [
+"CoinDesk",
 "Crypto News",
 "FXStreet"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793093701.0,
 "tgtext": "",
 "title": "Bitcoin falls below $80,000 as $1.3 billion in positions are liquidated: How can holders seize the opportunity to earn $10,000 a day?",
 "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ySzRrMDZFeGhVSVJqODExUk5jamNicHlZbUNBQ25NNFlhUnRpWnd2b1dwV3RaVWVNcUVlaVBHNkhpT1JYR0l3NzJMTDFyRHlvdzFXTTZlUzdGcDhaUHB2d2VkNnFDUjlXdEZ6YVZWTFJLeEZtcDQ0alpxYmpyUk0?oc=5",
-"urls": []
+"urls": [
+"https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins"
+]
 },
 "8af14190b1b8": {
 "coin": "ethereum",
@@ -1746,7 +1748,7 @@
 "srcs": [
 "Dimsum Daily"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793088050.0,
 "tgtext": "",
 "title": "Tuen Mun convenience store worker arrested over suspected theft of HK$81,000 via e\u2011wallet top\u2011ups",
@@ -1834,7 +1836,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793093545.0,
 "tgtext": "\ud83c\uddf5\ud83c\udded TODAY: The Philippine peso has fallen to an all-time low against the US dollar.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Philippine peso has fallen to an all-time low against the US dollar.",
@@ -1860,7 +1862,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793100570.0174377,
+"t": 1793101179.7035475,
 "t0": 1793098746.0,
 "tgtext": "",
 "title": "Over 20,000 bitcoin linked to failed Arbistar p...",
@@ -2207,6 +2209,19 @@
 "tgtext": "",
 "title": "New website challenges anyone to hack it, offers \u20b91.9 lakh to prove PHP scare was overhyped | 'Donate the money if you don't need it' | Inshorts",
 "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSHFuX01KVDhlMTAtaDdqYUJEQk1mWnBhREt1eHhDTTNtRS1aWl9haU5VR1pWNGxiRW5wSXd4MFlOOWdPMWVEWEliemFwMG0xVFI4ZnprcTJSZXhPZHBHTTRhc1FObmtrQTUzMC1PV3hWYkNIRl80OWVuUG9kUVBLa2FmdFFvZXVxbXZlVk4xS3Z6akcyRUk3Q0RSR0JGT0hxck5Da0M0OWQybERuNWFrTmF6OFU0VUtMYVFZYkJweFhxSzgtVkVuUzFjajllNE3SAdQBQVVfeXFMTUJWS1ItcmpPWGlreXhqVzc0bHJQY0xHUnFGTFNZWnNBM0lSRnpnQ3lmNmdCWTlMWHJ4M24xbmxGXzlSSTR6UE1zS05OZDRqS3djZW5Rcmp4YTJjSTZ5YlBGY0xIUzVaQjkyYzFoZzBEcV9pNzVmQWJ6bk1aRHRKSDZHaXc5SkJDbFhFbmRFTG1pdHA0RWJBSTFmWXlXNExBeDhCdGdSREhXWkpvZy15UERSSURVQng3bUVjNXhST1RfWTdYSTY3czA0NDc2OWVmTnlzeUo?oc=5",
+"urls": []
+},
+"ba45e7c563cd": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793101179.7035475,
+"t0": 1793100831.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.\n\nNews | Markets | YouTube",
+"title": "The crypto industry has spent roughly $176M across more than 100 US midterm races, seeking to build bipartisan support in Congress, per Reuters.",
+"url": "https://t.me/cointelegraph/72882",
 "urls": []
 },
 "bb4927f2e929": {
@@ -3123,7 +3138,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793100570.0174377,
+"t": 1793100876.2882302,
 "t0": 1793094166.0,
 "tgtext": "",
 "title": "Now is the time to accumulate bitcoin, Galaxy says",
@@ -3131,6 +3146,19 @@
 "urls": [
 "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says"
 ]
+},
+"f77478cba952": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793101179.7035475,
+"t0": 1793100618.0,
+"tgtext": "Binance Says It Blocked Multiple North Korea-Linked Cyberattacks Over the Past Week, With No Asset Losses\n\nBinance said on October 27 that its security team had successfully identified and blocked multiple North Korea-linked cyberattacks over the past week, with no damage to company systems or loss of assets. Binance noted that North Korea-linked hacking groups have continued to conduct social engineering attacks under the \u201cContagious Interview\u201d campaign, using fake job interviews, coding tests, and software installation requests to trick targets into running malicious programs. The exchange advised users to avoid installing unauthorized software or executing code from untrusted sources, adding that it will continue strengthening security monitoring, threat detection, and internal security controls. \u2014 link",
+"title": "Binance Says It Blocked Multiple North Korea-Linked Cyberattacks Over the Past Week, With No Asset Losses",
+"url": "https://t.me/wublockchainenglish/26568",
+"urls": []
 },
 "f78e2ac732a8": {
 "coin": "",
@@ -3291,67 +3319,41 @@
 "182803325832": 0.055,
 "1a50ac0bc54f": 0.126,
 "29436fe758c4": 0.039,
-"2ba2ca559c85": 0.354,
-"2c1d70995718": 0.019,
+"2ba2ca559c85": 0.421,
 "362819c0ba69": 0.043,
 "3fe492c01d09": 0.949,
-"41ed75671f1d": 0.044,
-"5fcf32d114e7": 0.025,
+"5dab28a7f37d": 0.033,
 "659be4e34469": 0.092,
 "6a78960ef80d": 0.123,
 "71d60a23f5a4": 0.014,
 "78deec2b4ee6": 0.058,
 "88bebfedbf5f": 0.019,
-"8aeb57701427": 0.855,
+"8aeb57701427": 0.945,
 "8c57d192cc4f": 0.036,
 "8c885db613bf": 0.045,
 "906cf0e41630": 0.042,
 "9294e5d90bdb": 0.394,
 "968e652829e1": 0.053,
+"9d16c1c9268f": 0.633,
 "a072808886d8": 0.089,
+"a0869916f35b": 0.111,
 "a2bb1b057900": 0.045,
 "b17d15b7bdbe": 0.02,
+"ba45e7c563cd": 0.832,
 "c5b2ff1dfd19": 0.021,
 "c8b96bc0663d": 0.089,
 "ca8a5ae5fbe9": 0.061,
 "ca9d1fd3ad8c": 0.06,
 "cdc9f9186499": 0.017,
 "dad0130de999": 0.064,
-"e6fe39b30a36": 0.029,
-"e765ed50bbf0": 0.138,
+"e9171c34c2f4": 0.021,
 "ebf6eb6cc3d0": 0.027,
-"f05fff05bee6": 0.162,
-"f0c33e500d2b": 0.054,
+"f711ba045ae3": 0.155,
+"f77478cba952": 0.992,
 "f9110baaa05f": 0.056,
 "fa00b1f966fb": 0.018
 },
 "sent": [
-{
-"e": [
-"halts",
-"initia",
-"news",
-"rollups",
-"suspected",
-"today"
-],
-"k": [
-"outage"
-],
-"t": 1792927543.1793945,
-"u": [
-"https://news.google.com/rss/articles/CBMingFBVV95cUxOZlZzUWoyU09teHlTVUtBY04yZDBKQ3E5MUE2Y0lsdjBza21mNnV2aG50bFhra0U5bU8xZVhIak0zRllWU210eFZwYjYyVmJJSTRQanhWRFZ4VU5iaVRhbEtMRFVnS3BvLXV3bXE1b1dUT2VpSjFZcUg3MVU0NVJucUhZN3paSlppWWdKVFRSdm5CaktHd1pFX3h3VVctUQ?oc=5",
-"https://news.google.com/rss/articles/CBMijgFBVV95cUxPSkViX1ZKVnVTSmZMOWwxa0htN0h5Qng1U3RpdnVWY0t1aWZrUTZqVktiMUF5dUc2eU1HNG9NdTVtZHA0VTVHUDdqdW5FNTRXekRrSGJRRmJkV2szOVJUcjE3WGhqeVlOTUJBTS1XZmZaaXI4UEptRGFURHFfdHVJaDI5TWFnU2M1MlpFb05n?oc=5"
-],
-"w": [
-"halts",
-"initia",
-"news",
-"rollups",
-"suspected",
-"today"
-]
-},
 {
 "e": [
 "ether"
@@ -4249,71 +4251,134 @@
 "services",
 "tokens"
 ]
+},
+{
+"e": [
+"asset",
+"binance",
+"blocked",
+"cyberattacks",
+"korea",
+"linked",
+"losses",
+"multiple",
+"north",
+"past",
+"week"
+],
+"k": [
+"hack"
+],
+"t": 1793100876.2882302,
+"u": [
+"https://t.me/wublockchainenglish/26568"
+],
+"w": [
+"asset",
+"binance",
+"blocked",
+"cyberattacks",
+"korea",
+"linked",
+"losses",
+"multiple",
+"north",
+"past",
+"week"
+]
+},
+{
+"e": [
+"congress",
+"reuters"
+],
+"k": [],
+"t": 1793101179.7035475,
+"u": [
+"https://t.me/cointelegraph/72882"
+],
+"w": [
+"$176m",
+"100",
+"across",
+"bipartisan",
+"build",
+"congress",
+"industry",
+"midterm",
+"per",
+"races",
+"reuters",
+"roughly",
+"seeking",
+"spent",
+"support"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"f77478cba952",
+18,
+9,
+1
+],
+[
 "3fe492c01d09",
-43,
-205,
+42,
+215,
 3
 ],
 [
 "8aeb57701427",
-55,
-114,
-2
+79,
+125,
+3
+],
+[
+"ba45e7c563cd",
+16,
+6,
+1
 ],
 [
 "9d16c1c9268f",
 10,
-117,
-1
-],
-[
-"9294e5d90bdb",
-25,
-209,
+127,
 1
 ],
 [
 "2ba2ca559c85",
-51,
-299,
+49,
+310,
 3
 ],
 [
+"9294e5d90bdb",
+23,
+219,
+1
+],
+[
 "4ba1e6af156f",
-9,
-315,
+7,
+325,
 2
 ],
 [
 "9f8ed3ce1462",
 10,
-30,
+41,
 1
 ],
 [
-"f05fff05bee6",
-34,
-230,
+"4e747c7ca484",
+9,
+270,
 2
-],
-[
-"f711ba045ae3",
-10,
-107,
-1
-],
-[
-"4e778aaf80a9",
-0,
-301,
-1
 ]
 ],
-"top_at": 1793100570.0174377
+"top_at": 1793101179.7035475
 }
