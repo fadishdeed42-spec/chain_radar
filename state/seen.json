@@ -696,7 +696,7 @@
 "Cointelegraph",
 "FinanceFeeds"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793158231.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf7 NOW: South Korea\u2019s Bithumb, Daishin Securities and Mirae Asset Global Investments have all reported customer data breaches, with Bithumb\u2019s linked to an external cyberattack, per Yonhap.\n\nNews | Markets | YouTube\n\ud83d\udea8 NOW: Coinbase says it has not suffered a data breach.\n\nA security incident at analytics vendor Amplitude exposed some users\u2019 contact data, but customer funds and Coinbase systems were unaffected.\n\nNews | Markets | YouTube",
 "title": "NOW: South Korea\u2019s Bithumb, Daishin Securities and Mirae Asset Global Investments have all reported customer data breaches, with Bithumb\u2019s linked to an external cyberattack, per Yonhap.",
@@ -883,7 +883,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793155793.0,
 "tgtext": "US Treasury Secretary: Crypto Leadership Strengthens Dollar Dominance, Stablecoins Expand Treasury Demand\n\nUS Treasury Secretary Scott Bessent stated at Ripple\u2019s Swell conference that global reserve currency dominance is shifting from a military umbrella to a \"technology umbrella,\" positioning US leadership in digital assets as a critical tool to reinforce the dollar\u2019s global standing; noting that over 90% of stablecoins are dollar-backed and heavily collateralized by US Treasuries.\n\nBessent highlighted that stablecoin expansion in emerging markets directly drives demand for government debt and serves as an important funding source for the Treasury; addressing Congress\u2019s failure to pass the Clarity Act, Bessent pledged to leverage Treasury\u2019s convening power alongside the SEC and CFTC to advance administrative rulemaking and establish regulatory guardrails to prevent the recurrence of crypto debanking. \u2014 link",
 "title": "US Treasury Secretary: Crypto Leadership Strengthens Dollar Dominance, Stablecoins Expand Treasury Demand",
@@ -1152,7 +1152,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793157060.0,
 "tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
 "title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
@@ -1326,7 +1326,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793158508.0,
 "tgtext": "Whale 0xdeA6 bought another 4,000 $ETH ($9.4M) 9 hours ago and deposited it into Aave.\n\nHe then borrowed 6M $USDT from Aave and deposited it into #Binance to buy more $ETH.\n\nThe whale now has 22,504 $ETH ($53.17M) deposited in Aave and has borrowed a total of $31M in stablecoins.\n\nhttps://arkm.com/explorer/address/0xdeA611a2f605FE63962E0151e724E9ce4C8a1d5c\nhttps://debank.com/profile/0xdea611a2f605fe63962e0151e724e9ce4c8a1d5c",
 "title": "Whale 0xdeA6 bought another 4,000 ETH ($9.4M) 9 hours ago and deposited it into Aave.",
@@ -1564,7 +1564,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793167623.0,
 "tgtext": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B\n\nAccording to BeInCrypto, Anthropic\u2019s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from the government in October 2025 at $140.9676 per share and resold them at cost to nine undisclosed buyers. Ahead of Anthropic\u2019s planned Nasdaq listing, the stake is now estimated to be worth approximately $3.94 billion based on projected IPO valuations, marking more than a sixfold increase from the resale price. \u2014 link",
 "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B",
@@ -1604,7 +1604,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793155302.0,
 "tgtext": "Machi (@machibigbrother) has sold over 60 NFTs in the past 6 months to fund high-leverage perp trades, taking a loss of over 1,000 $ETH ($2.35M).\n\nhttps://opensea.io/MachiBigBrother/activity?activityTypes=sale",
 "title": "Machi (@machibigbrother) has sold over 60 NFTs in the past 6 months to fund high-leverage perp trades, taking a loss of over 1,000 ETH ($2.35M).",
@@ -1622,6 +1622,19 @@
 "tgtext": "\ud83d\udd25 HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.\n\nNews | Markets | YouTube",
 "title": "HUGE: Kraken's parent Payward plans to offer US clients perpetual futures on Hyperliquid through its CFTC-regulated Bitnomial, pending approval.",
 "url": "https://t.me/cointelegraph/72869",
+"urls": []
+},
+"80924276261c": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793176167.7864795,
+"t0": 1793172402.0,
+"tgtext": "\ud83d\udcca BTC $81398 \u2022 ETH $2373 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81398 \u2022 ETH $2373 \u2022 GRAM $1.24\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81398 \u2022 ETH $2373 \u2022 GRAM $1.24\u00bb",
+"url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
 "8160ae5849bc": {
@@ -2116,6 +2129,21 @@
 "title": "Ethereum price prediction \u2014 Will ETH stay below $2,350 after whales take more short positions?",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJb1FPMjdLTTVPUzBwdTMyeFhfRTdqMkFxaDViaXFrSG0zMVV1bjRHRHJMdGFkaGhIZWk1RkNKLWFfZWIzODFtc1NvUnZLekM5Rnl0WGJHTlk5UQ?oc=5",
 "urls": []
+},
+"a4fca7d0542f": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793176167.7864795,
+"t0": 1793173375.0,
+"tgtext": "",
+"title": "Coinbase denies systems breach, says vendor exposed customer data",
+"url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "a7824ee4ae4b": {
 "coin": "",
@@ -2871,7 +2899,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793166904.0,
 "tgtext": "Two dormant $PEPE whales moved 2.27T $PEPE ($10.19M) today.\n\nhttps://arkm.com/explorer/address/0xCA6FeAdECFA7C186e5d974Cd85A4d615d059D0f1\nhttps://arkm.com/explorer/address/0x2daabb7d7d8114EE334D5A141A97ef181e565e69",
 "title": "Two dormant PEPE whales moved 2.27T PEPE ($10.19M) today.",
@@ -3266,7 +3294,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793175555.71599,
+"t": 1793176167.7864795,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3544,45 +3572,45 @@
 },
 "probs": {
 "022f700d02cb": 0.018,
-"0b2a285a73d1": 0.024,
+"08ab8ac0dc27": 0.066,
+"0d4d6c2b948a": 0.029,
 "14ad7ce4af9a": 0.099,
-"18f35019cb21": 0.137,
-"1b1f413d4c2c": 0.138,
 "27c89491aaaa": 0.016,
 "38bb377e4907": 0.889,
-"3e904f4e315f": 0.109,
 "410296780d74": 0.034,
 "455e33fc662d": 0.088,
 "4abc5be6a796": 0.044,
 "4e69852e5e80": 0.042,
 "53801a04a9a4": 0.657,
-"6083f1d6a333": 0.765,
-"642924e3f4ee": 0.135,
+"58eb5d7e3d83": 0.119,
+"6083f1d6a333": 0.805,
+"642924e3f4ee": 0.101,
 "6b7bc09ec5f6": 0.063,
-"72c3380743ae": 0.048,
+"72c3380743ae": 0.054,
 "73d414505739": 0.573,
 "78f7a83e386d": 0.063,
-"80924276261c": 0.385,
+"80924276261c": 0.32,
+"8379588d0473": 0.028,
 "87f7b06e0d70": 0.04,
-"8ad413e340d1": 0.788,
+"8ad413e340d1": 0.199,
 "976259c989a9": 0.097,
-"97878ae12fea": 0.044,
 "9ae150dbff07": 0.037,
+"9e2632c94b51": 0.039,
 "9e762d90fdb2": 0.015,
 "a0b350bfe08f": 0.041,
+"a1c76576356f": 0.077,
 "a4fca7d0542f": 0.419,
 "b32971afa87d": 0.175,
-"b4aead49e1d7": 0.014,
+"b4aead49e1d7": 0.031,
 "b4fa19ffce75": 0.156,
-"c2e790225120": 0.061,
+"c2e790225120": 0.068,
 "c73662c5cb87": 0.028,
 "cba709b047a2": 0.064,
+"d054d5feda32": 0.037,
 "d09d9bd3c64b": 0.712,
 "d33fd14f8574": 0.026,
-"e1fc8e89d9ce": 0.018,
 "e445e5bfc6e7": 0.074,
-"eac28a981965": 0.665,
-"ebed002d8597": 0.08
+"eac28a981965": 0.665
 },
 "sent": [
 {
@@ -4804,64 +4832,64 @@
 "top": [
 [
 "38bb377e4907",
-49,
-289,
+48,
+299,
 3
 ],
 [
 "7daa7373612a",
 0,
-338,
+348,
 1
-],
-[
-"8ad413e340d1",
-28,
-152,
-2
 ],
 [
 "6083f1d6a333",
-11,
-284,
-1
-],
-[
-"37441bed00df",
-0,
-357,
+9,
+294,
 1
 ],
 [
 "d09d9bd3c64b",
 39,
-144,
+154,
 1
 ],
 [
 "eac28a981965",
 24,
-96,
+106,
 1
 ],
 [
 "53801a04a9a4",
-11,
-308,
+10,
+318,
 2
 ],
 [
 "73d414505739",
 31,
-132,
+142,
 1
 ],
 [
 "43c559d5cbac",
 0,
-329,
+340,
+1
+],
+[
+"a4fca7d0542f",
+43,
+47,
+1
+],
+[
+"80924276261c",
+10,
+63,
 1
 ]
 ],
-"top_at": 1793175555.71599
+"top_at": 1793176167.7864795
 }
