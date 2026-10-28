@@ -34,7 +34,7 @@ def test_package_retries_then_flags_invented_numbers():
 
 
 def test_package_flags_unsupported_claims_from_the_judge():
-    r, _ = fake_radar(GOOD, {'p': [{'n': 3, 'unsupported': ['Panic selling hit every market']}]})
+    r, _ = fake_radar(GOOD, {'p': [{'n': 3, 'unsupported': ['Lehman Brothers collapsed first']}]})
     pk = r.build_package('Black Thursday', FACTS, [])
     assert 3 in pk['flags']
 
@@ -68,3 +68,12 @@ def test_scene_count_is_a_note_not_a_failure():
     sb['scenes'] = sb['scenes'][:11]
     out, probs = r.draft_check(sb)
     assert any('scenes' in p for p in probs)
+
+
+def test_judge_opinion_flags_are_dropped_but_invented_names_and_numbers_kept():
+    r = radar()
+    assert not r.concrete_unsupported('Global markets were already shaking', FACTS)
+    assert not r.concrete_unsupported('the charts still look brutal', FACTS)
+    assert r.concrete_unsupported('Lehman Brothers collapsed first', FACTS)
+    assert r.concrete_unsupported('fell 87 percent', FACTS)
+    assert not r.concrete_unsupported('fell below $4,000', FACTS)

@@ -2679,8 +2679,15 @@ def package_prompt(topic, facts, live=''):
 STYLE_X = 'You are a careful editor and writer.'
 
 
+def concrete_unsupported(claim, facts):
+    """The AI judge over-flags opinions. Keep a flag only if the claim holds a number or a proper name (not the first word) that is absent from the FACTS."""
+    f = facts.lower().replace(',', '')
+    toks = re.findall(r'\d[\d,.]*|(?<!^)(?<![.!?] )\b[A-Z][a-zA-Z]{2,}', claim.strip())
+    return any(t.lower().replace(',', '').strip('.') not in f for t in toks)
+
+
 def package_judge(posts, facts):
-    lst = '\n'.join(f'{i + 1}. {p}' for i, p in enumerate(posts))
+    lst = '\n'.join(f'{i + 1}. {p.replace("Full story in 40s 👇", "").strip()}' for i, p in enumerate(posts))
     return ('You are a strict fact-checker. Check each thread post against ONLY the FACTS.\nFACTS:\n' + facts[:7000] + '\n\nPOSTS:\n' + lst +
             '\n\nFor each post list the factual claims (names, numbers, dates, events, causes) that the FACTS do not support. Opinions and jokes are fine. '
             'Return JSON only: {"p": [{"n": 1, "unsupported": []}]}')
@@ -2710,8 +2717,9 @@ def build_package(topic, facts, sources, event_hint=None):
     unsup = {}
     for x in (verdict or {}).get('p') or []:
         try:
-            if x.get('unsupported'):
-                unsup[int(x['n'])] = x['unsupported']
+            real = [u for u in x.get('unsupported') or [] if concrete_unsupported(str(u), facts)]
+            if real:
+                unsup[int(x['n'])] = real
         except (KeyError, TypeError, ValueError):
             pass
     checked = 'full' if verdict else 'numbers'
