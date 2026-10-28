@@ -35,6 +35,8 @@ if ST['motion'] == 'calm': cs.SHAKE, cs.WHIP = .3, .4
 elif ST['motion'] == 'strong': cs.SHAKE, cs.WHIP = 1.45, 1.15
 SFX_K = {'off': 0, 'soft': .55, 'normal': 1.0, 'punchy': 1.35}.get(ST['sfx'], 1.0)
 STYLE = ST.get('style', 'mixed')
+LOOK = ST.get('look', 'none')
+import looklib
 PACE = {'calm': 2.6, 'normal': 1.8, 'fast': 1.25}.get(ST.get('pace', 'normal'), 1.8)   # max seconds without a new on-screen moment
 MOVE = {'calm': .6, 'auto': 1.0, 'strong': 1.35}.get(ST['motion'], 1.0)
 EP = SB.get('ep', '')
@@ -117,6 +119,7 @@ def backdrop(cv, t, i):
     if real_person:                                                       # the portrait is drawn sharp; behind it a soft blur of it
         if ('blur', i) not in _cache: _cache[('blur', i)] = cv2.GaussianBlur(cv2.resize(im, (RW // 8, RH // 8)), (0, 0), 6)
         im = cv2.resize(_cache[('blur', i)], (RW, RH))
+    if LOOK != 'none' and not real_person: im = looklib.apply(LOOK, im, t)
     g = im * (GRADE * (.75 if real_person else 1)) + _BGF * (1 - GRADE) * .35
     cv.a += (g - cv.a) * a
 

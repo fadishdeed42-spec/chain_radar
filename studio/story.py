@@ -244,7 +244,7 @@ try:
     DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
 except Exception:
     DEFAULTS = {'length': 45, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
-                'style': 'mixed', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
+                'style': 'mixed', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
 
 
 def settings(sb):

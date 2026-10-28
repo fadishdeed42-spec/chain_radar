@@ -216,6 +216,51 @@
      "help": "Mixed = real footage for people and actions + graphics for numbers and charts. Documentary = footage behind every scene. Graphics = animation only. 3D look = graphics with depth and perspective."
     },
     {
+     "key": "look",
+     "label": "Visual look",
+     "type": "choice",
+     "default": "none",
+     "options": [
+      [
+       "none",
+       "Original"
+      ],
+      [
+       "cinematic",
+       "🎞 Cinematic"
+      ],
+      [
+       "noir",
+       "🕶 Dark Noir"
+      ],
+      [
+       "comic",
+       "💥 Comic-Book"
+      ],
+      [
+       "cartoon",
+       "🎨 2D Cartoon"
+      ],
+      [
+       "lowpoly",
+       "🔷 Low-Poly"
+      ],
+      [
+       "miniature",
+       "🏙 3D Miniature"
+      ],
+      [
+       "clay",
+       "🧱 Claymation"
+      ],
+      [
+       "motion",
+       "📐 Motion Graphics"
+      ]
+     ],
+     "help": "Filter applied to the footage and photos behind the scenes. Original = unchanged."
+    },
+    {
      "key": "pace",
      "label": "Pace",
      "type": "choice",
