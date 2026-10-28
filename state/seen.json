@@ -343,7 +343,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -1045,6 +1045,25 @@
 "url": "https://t.me/wublockchainenglish/26557",
 "urls": []
 },
+"520643bac734": {
+"coin": "bitcoin",
+"src": "FXStreet",
+"srcs": [
+"CoinDesk",
+"Crypto News",
+"CryptoPotato",
+"FXStreet",
+"Yahoo Finance"
+],
+"t": 1793189866.124061,
+"t0": 1793171105.0,
+"tgtext": "",
+"title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
+"url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUTE5VVR0THlPaFBwU3IzQlMwbW81LThXOHRIWHd1TC1fOUotWE1lb0VJU0ZsTzBmX0twMkJNaENyZXhnd0pyQU9KWEc2d0tqdjUwWS1nZGlueUtjVkgwdjNac0VFMlMxN1FONW9xVGxxSHljMTNXZ0NpUnVldG1xNjd6UW15ZDc0MlhteG5hWWsxcVdkeGhhaHRSU1NVaVNjSF9fd1JoYm1UY1k1SmVmUUlOMkNkb3F0MS1HNWc1ZXJoTkllLV9weUpMTVhGZk9JUW04bk9rU1VyOXZJcEZOVWt4aXRqS1BTMjdvNW1R?oc=5",
+"urls": [
+"https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision"
+]
+},
 "522305881aed": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1126,7 +1145,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1550,10 +1569,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793189252.2009711,
+"t": 1793189561.0219219,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $81212 \u2022 ETH $2355 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81212 \u2022 ETH $2355 \u2022 GRAM $1.24\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81212 \u2022 ETH $2355 \u2022 GRAM $1.24\u00bb",
+"tgtext": "\ud83d\udcca BTC $81040 \u2022 ETH $2348 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81040 \u2022 ETH $2348 \u2022 GRAM $1.24\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81040 \u2022 ETH $2348 \u2022 GRAM $1.24\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -1740,7 +1759,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2156,7 +2175,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2174,6 +2193,19 @@
 "tgtext": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumulative net inflows to $66.24 billion. Spot Ethereum ETFs saw $88.58 million in net outflows, although Fidelity's FETH led individual fund inflows with $16.13 million. BlackRock is the world's largest asset manager, while Fidelity is one of the largest U.S. investment firms. \u2014 link",
 "title": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million",
 "url": "https://t.me/wublockchainenglish/26566",
+"urls": []
+},
+"b32971afa87d": {
+"coin": "",
+"src": "Binance",
+"srcs": [
+"Binance"
+],
+"t": 1793189866.124061,
+"t0": 1793171017.0,
+"tgtext": "Binance Earn Yield Arena: Earn Up to 35% APR With This Week\u2019s New Limited-Time Offers! (2026-10-28)\n\n\nBinance Earn presents to you new offers that are newly added to Yield Arena this week. Stay tuned for more campaigns in Yield Arena to earn rewards from Simple Earn, ETH Staking, SOL Staking, Dual Investment, and more. \n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
+"title": "Binance Earn Yield Arena: Earn Up to 35% APR With This Week\u2019s New Limited-Time Offers! (2026-10-28)",
+"url": "https://t.me/binance_announcements/9093",
 "urls": []
 },
 "b4d0c2ac7bcb": {
@@ -2321,25 +2353,6 @@
 "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
 ]
 },
-"c02e6eec9828": {
-"coin": "bitcoin",
-"src": "Yahoo Finance",
-"srcs": [
-"CoinDesk",
-"Crypto News",
-"CryptoRank",
-"CryptoTicker",
-"Moomoo"
-],
-"t": 1793016839.182601,
-"t0": 1792995396.0,
-"tgtext": "",
-"title": "Retail Bitcoin Holders Are Sending Coins to Binance at a Six-Month High While Whales Pull Back: Who Is Right About $80,000?",
-"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHV1REtUNndhSUJ5b3ZtMEhWTHhzOXFpRXBsenM0eFNBX1dkeFowSWJ6bTlFS3dqdnV3WTkwSnlxLUZ2OTRjeXdOS3Jia2lnejBiZnNMR2FFLWJtVXJJTUp3MHhwTWNBNC1hSUlFMnNyMlVubkFkcVhNU21hdmxya1Y2aVpCV2duTXVzTDd6YVU2N291R0dLSzZuaUx3dHpFUFRF?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms"
-]
-},
 "c0315dc0e4cd": {
 "coin": "bitcoin",
 "src": "Yahoo Finance",
@@ -2362,7 +2375,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -2411,7 +2424,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -3113,6 +3126,19 @@
 "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZUxMNzAxWnBmWFhlLW1CYm1SY2ppSjdVOXkwN0duMHRHQVR3QWhqMGItUm9mZVM0OUx4Rjk1d1h2aXIyWnZ5UXBKcjRfd01CZjRDTWJQN2kxODNMVzc2X2tVdThzSFlQV1BCczhrZ0RMTjNlalkwbjZlcHhHckxlN3o0MmtERGpDYThFTW1lV2VPb2FBcVNBa3NlODhBUW5zaVFIQ2RSYnI4dm9IYlZxZ0w5alVfUTNKS0RZOGttX2R1eUdacTFzTQ?oc=5",
 "urls": []
 },
+"e9937a5bf833": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793189866.124061,
+"t0": 1793189322.0,
+"tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link",
+"title": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities",
+"url": "https://t.me/wublockchainenglish/26586",
+"urls": []
+},
 "eabe517bc2f7": {
 "coin": "",
 "src": "The Crypto Times",
@@ -3136,7 +3162,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793189252.2009711,
+"t": 1793189866.124061,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3428,11 +3454,10 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"022f700d02cb": 0.093,
-"08b1e6aaded6": 0.335,
+"022f700d02cb": 0.052,
 "14ad7ce4af9a": 0.119,
-"186cb63b8fa2": 0.046,
-"1d92bb56bb28": 0.914,
+"18f35019cb21": 0.164,
+"1d92bb56bb28": 0.885,
 "2557fc2122ab": 0.019,
 "26871d2943ab": 0.068,
 "26fbd39ac8cf": 0.073,
@@ -3441,15 +3466,14 @@
 "2ec9b6c2a5c0": 0.108,
 "3007e1b9a85d": 0.081,
 "3fc1a47a51cb": 0.366,
-"425a723a8498": 0.023,
 "448978fe1bbd": 0.484,
 "44d7ff7d5b6e": 0.062,
-"455e33fc662d": 0.122,
+"455e33fc662d": 0.146,
+"520643bac734": 0.648,
 "54af389d38b6": 0.637,
 "623b778463d6": 0.139,
 "628823a380ae": 0.126,
 "7186ce01fb8a": 0.564,
-"758e60358730": 0.069,
 "87937ef02d2e": 0.042,
 "8d04bb417f8f": 0.892,
 "976259c989a9": 0.109,
@@ -3457,17 +3481,19 @@
 "a4fca7d0542f": 0.511,
 "acb923342f6a": 0.167,
 "ae6bddd50139": 0.895,
+"b1d749f11110": 0.165,
 "b4aead49e1d7": 0.063,
 "b788095b8710": 0.332,
 "b89221b2253e": 0.044,
 "be0e66133543": 0.157,
-"c11fdf997380": 0.985,
+"c11fdf997380": 0.997,
 "c1e1a4dee351": 0.738,
 "c7a872e51530": 0.069,
 "d5938ed3683e": 0.138,
 "d6c77e40fe39": 0.07,
 "efc857737a72": 0.268,
-"f8ed00046721": 0.052
+"f8ed00046721": 0.052,
+"fcc4e8e8e1cd": 0.043
 },
 "sent": [
 {
@@ -4810,63 +4836,63 @@
 [
 "c11fdf997380",
 30,
-120,
+130,
 3
 ],
 [
-"1d92bb56bb28",
-25,
-107,
+"e9937a5bf833",
+10,
+9,
 1
 ],
 [
 "ae6bddd50139",
 28,
-35,
+45,
 2
 ],
 [
 "8d04bb417f8f",
 16,
-124,
+134,
+1
+],
+[
+"1d92bb56bb28",
+25,
+118,
 1
 ],
 [
 "eac28a981965",
-5,
-324,
+4,
+335,
 1
 ],
 [
 "c1e1a4dee351",
-41,
-214,
+40,
+224,
 1
+],
+[
+"b32971afa87d",
+1,
+314,
+1
+],
+[
+"520643bac734",
+47,
+313,
+5
 ],
 [
 "54af389d38b6",
-15,
-205,
+14,
+215,
 1
-],
-[
-"80924276261c",
-0,
-281,
-1
-],
-[
-"7186ce01fb8a",
-41,
-21,
-1
-],
-[
-"a4fca7d0542f",
-42,
-265,
-2
 ]
 ],
-"top_at": 1793189252.2009711
+"top_at": 1793189866.124061
 }
