@@ -580,6 +580,7 @@ def live_top(tgs):
 
 # ---------------- pick-a-story: full post ----------------
 import card
+import looks
 TG_STATE = 'state/tg.json'
 
 
@@ -937,8 +938,21 @@ def options(p, item, coin):
         o.append(('⚔️ Versus', 'VERSUS'))
     if '=' in p.get('quote', '') and 'NONE' not in p['quote'].upper():
         o.append(('💬 Quote', 'QUOTE'))
-    o.append(('📰 Headline', 'HEADLINE'))
+    o.extend(looks.LABELS)
+    o.append(('📰 Classic', 'HEADLINE'))
     return o
+
+
+def default_look(tag, title=''):
+    """the look a story gets before you tap another one: hacks look like a terminal, true stories like a case file, news like a news flash"""
+    t = (tag or '').upper(); low = title.lower()
+    if t in ('HACK', 'EXPLOIT') or re.search(r'hack|exploit|drain|stolen|breach', low):
+        return 'TERMINAL'
+    if t in ('TRUE STORY', 'MYSTERY', 'SCAM'):
+        return 'CASEFILE'
+    if t in ('BREAKING', 'PRICE ALERT', 'ARREST', 'LAWSUIT', 'COURT'):
+        return 'BREAKING'
+    return 'GLASS' if int(hashlib.md5(title.encode()).hexdigest()[:2], 16) % 2 else 'POSTCARD'
 
 
 def build_image(p, item, facts, coin_hint=None, force=None):
@@ -947,7 +961,9 @@ def build_image(p, item, facts, coin_hint=None, force=None):
     title, src, kf = p['title'], item.get('src') or 'Chain Secrets', p.get('keyfact', '')
     vis = force or p.get('visual', '')
     card.FOOTER_LEFT = p.get('reply') or ''
-    if vis == 'HEADLINE':
+    if vis in looks.LOOKS:
+        return looks.LOOKS[vis](title, kf, src, tag)
+    if vis == 'HEADLINE' and force:
         return card.headline_card(title, src, kf, tag)
     if vis == 'STAT' and not (p.get('stat') and '|' in p['stat']):
         bm = card.big_money(title + ' ' + item.get('title', ''))
@@ -994,7 +1010,7 @@ def build_image(p, item, facts, coin_hint=None, force=None):
             return card.stat_card(title, bm, 'at the center of this story', kf, tag, src)
     except Exception as e:
         print('visual fail', vis, e)
-    return card.headline_card(title, src, kf, tag)
+    return looks.LOOKS[default_look(tag, title)](title, kf, src, tag)
 
 
 TGS = {}   # listener state, set in listen()
