@@ -1,5 +1,7 @@
 {
-"hacks": {},
+"hacks": {
+"Fence Finance1793059200": 1793180148.9645152
+},
 "init": true,
 "log": [
 1793093859.0878484,
@@ -321,13 +323,16 @@
 "src": "CoinDesk",
 "srcs": [
 "CoinDesk",
-"TradingView"
+"Coinpedia",
+"Crypto News",
+"TradingView",
+"Yahoo Finance"
 ],
-"t": 1793178312.0267122,
+"t": 1793180453.3719409,
 "t0": 1793160920.0,
 "tgtext": "",
-"title": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
-"url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+"title": "BTC, ETH price news: Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
+"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTkNaeE44eFBVY2pMUnFSTkY3ekxfaFZoQWxqQ19Hb193eVYzalI1c2IyUjQzSHY4YVQ0eEZMQVZXd3FGVGRvOFRXSEVSTEdMdXFpQ0ZrWHBvRF9wd0haVUVJcjlfMjk1ejhoaTNGTnhkdVB0bndzWTRnSXppSGpTa194Q1VOcGJqUnVFUVB6QTkwMEQydGFHMUctVUpqWG5tblpBT25yNA?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8"
 ]
@@ -881,7 +886,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793178652.0,
 "tgtext": "Highlight Clip: Jack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)\n\nJack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)\n\nIn a January 16, 2025 interview published by Abundant Mines, Block co-founder Jack Dorsey said nation-state Bitcoin reserves are good for the state but not necessarily for Bitcoin. He said Bitcoin would be a failure if it ends up just being digital gold, pointing to the white paper, which described peer-to-peer electronic cash. It would only succeed, he said, if people could use it as money in daily life and move funds without asking permission. \u2014 link",
 "title": "Highlight Clip: Jack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)",
@@ -1167,7 +1172,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1264,19 +1269,6 @@
 "url": "https://t.me/wublockchainenglish/26561",
 "urls": []
 },
-"5cc32bae3fef": {
-"coin": "",
-"src": "FinanceFeeds",
-"srcs": [
-"FinanceFeeds"
-],
-"t": 1793007321.8625987,
-"t0": 1792994601.0,
-"tgtext": "",
-"title": "Swell Halts swETH and rswETH Deposits and Withdrawals After Exchange Rates Rise Abnormally",
-"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcVBsUXNsdUgwcEZTaXhkbHJjUFlXQ1ZwSGVBSGtGVXQ1YkY2WWxkbVlzVGVmX3BWd0ppbWhXeWxBdmxjV2JwYUx0VEVrNlRLbGtSb19BRkRFMS15SW1mMXh5cXpkZXZqdTBNZ01TU29LZUloaUZOeVVmT2tWNlB1SFBrTDRmX0VXQkRLV3pZOEc0Tm9vTEh4eUktZ2ZKZ0tRbjQwNzdtNC0tVndlRjJNb3lmSmZ6RWc?oc=5",
-"urls": []
-},
 "5fc8e086febb": {
 "coin": "hyperliquid",
 "src": "Cointelegraph",
@@ -1328,19 +1320,6 @@
 "tgtext": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)\n\n\nBinance Wallet is excited to launch the AXIS Trading Competition on Binance Alpha! During the Promotion Periods, trade Axis Robotics (AXIS) in your Binance Wallet (Keyless) or via Binance Alpha to receive exclusive token rewards. Any user who is eligible to trade Binance Alpha tokens is eligible to participate in this trading competition.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)",
 "url": "https://t.me/binance_announcements/9085",
-"urls": []
-},
-"63a7b7006160": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1793007321.8625987,
-"t0": 1792985798.0,
-"tgtext": "\u26a1\ufe0f NOW: Vitalik Buterin backs Kimi 3.1 excluding offensive cyber capabilities from its training data, warning that mishandling AI risk could lead to locked-down models and KYC-gated access.\n\nNews | Markets | YouTube",
-"title": "NOW: Vitalik Buterin backs Kimi 3.1 excluding offensive cyber capabilities from its training data, warning that mishandling AI risk could lead to locked-down models and KYC-gated access.",
-"url": "https://t.me/cointelegraph/72847",
 "urls": []
 },
 "642924e3f4ee": {
@@ -1548,7 +1527,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793167623.0,
 "tgtext": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B\n\nAccording to BeInCrypto, Anthropic\u2019s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from the government in October 2025 at $140.9676 per share and resold them at cost to nine undisclosed buyers. Ahead of Anthropic\u2019s planned Nasdaq listing, the stake is now estimated to be worth approximately $3.94 billion based on projected IPO valuations, marking more than a sixfold increase from the resale price. \u2014 link",
 "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B",
@@ -1566,6 +1545,19 @@
 "tgtext": "Machi(@machibigbrother) has lost all his money on @papertrade_xyz!\n\nHe also has just $4,517.7 left on Hyperliquid.\n\nAn hour ago, he sold another Mutant Ape at a loss to fund more trading.\n\nhttps://opensea.io/MachiBigBrother/activity\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=history\nhttps://hypurrscan.io/address/0x020ca66c30bec2c4fe3861a94e4db4a498a35872#perps",
 "title": "Machi(@machibigbrother) has lost all his money on @papertrade_xyz!",
 "url": "https://t.me/lookonchainchannel/10801",
+"urls": []
+},
+"771ae4f4fcc0": {
+"coin": "ethereum",
+"src": "FinanceFeeds",
+"srcs": [
+"FinanceFeeds"
+],
+"t": 1793180453.3719409,
+"t0": 1793170021.0,
+"tgtext": "",
+"title": "Wallet Potentially Linked to $40 Million UXLINK Hack Shows $6.54 Million in Unrealized ETH Gains",
+"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVVNjZXNUQ1hobVNCdGYwcjUzZ1Jtb2tZdk4xaTJkZ1lEU2haRXI4ZWEwLUFrSXhMUDdQRzJoeTZtYTM2aEFZUWNqTGo0MDkxUDdDYUtvOTZmaFBkclY4S2FWYTktSzczbmp3WGtDUmF6aUt3VW1fc3VZMzlDaTdRTVQ2a3ZDOHNrQ1NnQmdNbF9LckxXUFVpb2FsblE3cXB2UTEyeWRjeXlkX19RMk9OR093QjBhVV9HZXR0aA?oc=5",
 "urls": []
 },
 "7786e18388c7": {
@@ -1614,10 +1606,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793179841.054639,
+"t": 1793180148.9645152,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $81461 \u2022 ETH $2369 \u2022 GRAM $1.25\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81461 \u2022 ETH $2369 \u2022 GRAM $1.25\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81461 \u2022 ETH $2369 \u2022 GRAM $1.25\u00bb",
+"tgtext": "\ud83d\udcca BTC $81388 \u2022 ETH $2367 \u2022 GRAM $1.25\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81388 \u2022 ETH $2367 \u2022 GRAM $1.25\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81388 \u2022 ETH $2367 \u2022 GRAM $1.25\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -2449,7 +2441,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -2811,7 +2803,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793167033.0,
 "tgtext": "\ud83d\udea8 NOW: Coinbase says it has not suffered a data breach.\n\nA security incident at analytics vendor Amplitude exposed some users\u2019 contact data, but customer funds and Coinbase systems were unaffected.\n\nNews | Markets | YouTube",
 "title": "Coinbase denies systems breach, says vendor exposed customer data",
@@ -2826,7 +2818,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793162337.0,
 "tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
 "title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
@@ -2839,7 +2831,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793166904.0,
 "tgtext": "Two dormant $PEPE whales moved 2.27T $PEPE ($10.19M) today.\n\nhttps://arkm.com/explorer/address/0xCA6FeAdECFA7C186e5d974Cd85A4d615d059D0f1\nhttps://arkm.com/explorer/address/0x2daabb7d7d8114EE334D5A141A97ef181e565e69",
 "title": "Two dormant PEPE whales moved 2.27T PEPE ($10.19M) today.",
@@ -3145,23 +3137,6 @@
 "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMEY4MzF2VW1DXzdicFU4TkJkTW1NUl9acUpQUHdaaEd4Yk4wTjVFTkQ4ZVlGQ0hfQ1J6UVZZeFp3NFNaZ0NMOGIyc1Nab1ktOV9XdE9JMzU2SWtoeFhXekozcnd3VWcyVE5lWjlrTkFnYWFsazV1N1E3aWJ0THpsWE5SY3NsZWJuaDM1YnZQa3NacnF6eWMtdUVuM0pSb0VpcEd0U0JWNUdQdHpmSG9SSjJ0MzIzSnVXUzRxSXJGeXg1MDBkN0YtQVFla21LRXJVMktXRTA1OE9rcVdKMzBvdjZiaVdSanpGa0dpWUZ2eUdScml6V1ZrYXNFRzVwclNw0gGGAkFVX3lxTE9xZEYwZFRqYndXMmszQ00tVE1MY1lMUTY4UWxGdnpiTnVtQVJneVpaSGc2d1dvVU1BMkVaWTF4VUlodXNUMHlCQXJiMjVQTUU1UDB5TE13TUtZb2dKMFBBX0RhMkRkcU9MRW4xU0Y5RmwwR2lXeFBhTDRubkEwUjdIT214WlZFak43SDBFMDlqMy13cjI2SG5JR2ZQcWVLc3pnbFZDeWNRZTl3a1pFZ0hwMWpzREdRT09jYXUtM0ZHUG5VOFJsWGowS1hXN0dMOEJDWC1JQU9vU1BEcUlwZFF3RVI5TVBFSFRhZFF3aHk0Slc1ZXdQdEk0VWZNMVVpMzdIbUFyaXc?oc=5",
 "urls": []
 },
-"e850cad05e58": {
-"coin": "bitcoin",
-"src": "www.techtimes.co.uk",
-"srcs": [
-"CCN.com",
-"CryptoSlate",
-"www.techtimes.co.uk"
-],
-"t": 1793007321.8625987,
-"t0": 1793004338.0,
-"tgtext": "",
-"title": "Developer Left PHP Server Unpatched With Bitcoin Inside, but Hackers Hit an Unexpected Roadblock",
-"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcEtfQWxCeElldWd1QWFJZ2piNk1ybDlqa2hSNmVkWk8zamJSZy1rRTNSbVlSbjRFUnI2eDBkUlJiSXJINnJrWXhERVRDVlNueEh2YTRUcFFOeFBONVBDN2RJMGtEVjIwZnAtTUNwQ05YZDk3bEx2YUxfdVZFSUZyd0tRTGRLY19NLWxpSzFaQy14RXd4?oc=5",
-"urls": [
-"https://cryptoslate.com/hackers-found-a-way-to-steal-bitcoin-without-private-keys/"
-]
-},
 "e864d3ab580b": {
 "coin": "bitcoin",
 "src": "NewsCord",
@@ -3234,7 +3209,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793179841.054639,
+"t": 1793180453.3719409,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3512,29 +3487,33 @@
 },
 "probs": {
 "022f700d02cb": 0.022,
+"0734119b2376": 0.024,
 "078d68222e19": 0.018,
+"0d4d6c2b948a": 0.036,
 "13caee1f3a7b": 0.018,
 "14ad7ce4af9a": 0.121,
+"1b1f413d4c2c": 0.387,
 "2557fc2122ab": 0.011,
 "2567e4c1092a": 0.041,
 "27c89491aaaa": 0.053,
 "2e8a7f703315": 0.063,
-"32e1f5b62d15": 0.031,
-"469aa99d42ef": 0.048,
+"469aa99d42ef": 0.008,
+"4abc5be6a796": 0.055,
 "4fefb33c6d0f": 0.034,
-"54af389d38b6": 0.591,
-"58eb5d7e3d83": 0.265,
+"54af389d38b6": 0.511,
+"623b778463d6": 0.305,
 "642924e3f4ee": 0.124,
-"709c850f805b": 0.273,
-"72c3380743ae": 0.162,
+"709c850f805b": 0.083,
+"72c3380743ae": 0.033,
 "73d414505739": 0.819,
-"758e60358730": 0.156,
+"758e60358730": 0.076,
 "771ae4f4fcc0": 0.373,
-"80924276261c": 0.381,
-"96c58ec20832": 0.083,
+"80924276261c": 0.326,
+"8ad413e340d1": 0.239,
+"976259c989a9": 0.12,
 "97d2224e7862": 0.118,
+"9ae150dbff07": 0.046,
 "9ce88d53750a": 0.032,
-"9e2632c94b51": 0.049,
 "acb923342f6a": 0.043,
 "b32971afa87d": 0.211,
 "b4aead49e1d7": 0.038,
@@ -3545,52 +3524,10 @@
 "cba709b047a2": 0.079,
 "cef2ccd4c25c": 0.631,
 "d09d9bd3c64b": 0.729,
-"d33fd14f8574": 0.032,
 "d668b288fae3": 0.311,
-"e445e5bfc6e7": 0.033,
-"eac28a981965": 0.715,
-"ff60098b8e96": 0.145,
-"ff9df26ca434": 0.281
+"eac28a981965": 0.715
 },
 "sent": [
-{
-"e": [
-"developer",
-"hackers",
-"hit",
-"inside",
-"left",
-"php",
-"roadblock",
-"server",
-"unexpected",
-"unpatched"
-],
-"k": [
-"hack"
-],
-"t": 1793007321.8625987,
-"u": [
-"https://news.google.com/rss/articles/CBMilAFBVV95cUxNcEtfQWxCeElldWd1QWFJZ2piNk1ybDlqa2hSNmVkWk8zamJSZy1rRTNSbVlSbjRFUnI2eDBkUlJiSXJINnJrWXhERVRDVlNueEh2YTRUcFFOeFBONVBDN2RJMGtEVjIwZnAtTUNwQ05YZDk3bEx2YUxfdVZFSUZyd0tRTGRLY19NLWxpSzFaQy14RXd4?oc=5",
-"https://cryptoslate.com/hackers-found-a-way-to-steal-bitcoin-without-private-keys/",
-"https://news.google.com/rss/articles/CBMiigFBVV95cUxOR3hvS1JVNzVCcVR6NkpYMjk3bU9sT3lQNjBVRTBZZV9taVNqWU1nczYtN3dELXhYN2YyZkxUOFZvX3RXQVoxMl95UDdEWHB6d1NXeWFFMTF5eWxObEUtV0dBaHJNTzF0NDB2TENpZHk3ZkZtN2EtZDY5Q1dKM2dRTk1qeXRacnZIUFE?oc=5",
-"https://news.google.com/rss/articles/CBMiggFBVV95cUxNbXNUNjFUZmNjdXBOSk5GUUdYcmJ2STJEaFJfS2JVRjFmdXJBUk9XZjdaMUxnaUxwOUtmekJVcUZpeDM1YVlDZnVqaktMTFRfaVEyNy1JRjc4ZjZZNkJuaDM2U1lqeTY1OHR2d0ZMX0x6SUI2OUgzNEdsbFhSN3RMd19B?oc=5"
-],
-"w": [
-"bitcoin",
-"but",
-"developer",
-"hackers",
-"hit",
-"inside",
-"left",
-"php",
-"roadblock",
-"server",
-"unexpected",
-"unpatched"
-]
-},
 {
 "e": [
 "atm",
@@ -4779,71 +4716,88 @@
 "warns",
 "world"
 ]
+},
+{
+"e": [
+"fence",
+"finance"
+],
+"k": [
+"hack"
+],
+"t": 1793180148.9645152,
+"u": [],
+"w": [
+"fence",
+"finance",
+"hacked",
+"million"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"6083f1d6a333",
-1,
-356,
-1
-],
-[
 "73d414505739",
-28,
-204,
+27,
+214,
 1
 ],
 [
 "d09d9bd3c64b",
-35,
-216,
+33,
+226,
 1
 ],
 [
 "eac28a981965",
 24,
-168,
+178,
 1
 ],
 [
 "cef2ccd4c25c",
-39,
-213,
+38,
+224,
 1
 ],
 [
 "c1e1a4dee351",
 45,
-57,
+67,
+1
+],
+[
+"cef305754c06",
+2,
+302,
 1
 ],
 [
 "54af389d38b6",
 18,
-48,
-1
-],
-[
-"cef305754c06",
-4,
-292,
+58,
 1
 ],
 [
 "448978fe1bbd",
 10,
-20,
+30,
 1
 ],
 [
-"80924276261c",
-10,
-124,
+"1b1f413d4c2c",
+35,
+326,
+5
+],
+[
+"771ae4f4fcc0",
+41,
+174,
 1
 ]
 ],
-"top_at": 1793179841.054639
+"top_at": 1793180453.3719409
 }
