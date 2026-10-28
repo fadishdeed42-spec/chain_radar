@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1793093859.0878484,
 1793096909.900296,
 1793107916.6432102,
 1793110663.5044334,
@@ -17,7 +16,8 @@
 1793133224.164461,
 1793162493.299481,
 1793167905.3122866,
-1793177392.095842
+1793177392.095842,
+1793181984.986136
 ],
 "menu": {
 "0080c1bb18be": {
@@ -886,7 +886,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793181372.9635463,
+"t": 1793182289.246956,
 "t0": 1793178652.0,
 "tgtext": "Highlight Clip: Jack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)\n\nJack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)\n\nIn a January 16, 2025 interview published by Abundant Mines, Block co-founder Jack Dorsey said nation-state Bitcoin reserves are good for the state but not necessarily for Bitcoin. He said Bitcoin would be a failure if it ends up just being digital gold, pointing to the white paper, which described peer-to-peer electronic cash. It would only succeed, he said, if people could use it as money in daily life and move funds without asking permission. \u2014 link",
 "title": "Highlight Clip: Jack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)",
@@ -1172,7 +1172,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1527,7 +1527,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793167623.0,
 "tgtext": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B\n\nAccording to BeInCrypto, Anthropic\u2019s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from the government in October 2025 at $140.9676 per share and resold them at cost to nine undisclosed buyers. Ahead of Anthropic\u2019s planned Nasdaq listing, the stake is now estimated to be worth approximately $3.94 billion based on projected IPO valuations, marking more than a sixfold increase from the resale price. \u2014 link",
 "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B",
@@ -1606,10 +1606,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793181372.9635463,
+"t": 1793182289.246956,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $81452 \u2022 ETH $2370 \u2022 GRAM $1.25\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81452 \u2022 ETH $2370 \u2022 GRAM $1.25\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81452 \u2022 ETH $2370 \u2022 GRAM $1.25\u00bb",
+"tgtext": "\ud83d\udcca BTC $81466 \u2022 ETH $2369 \u2022 GRAM $1.25\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81466 \u2022 ETH $2369 \u2022 GRAM $1.25\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81466 \u2022 ETH $2369 \u2022 GRAM $1.25\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -1788,6 +1788,19 @@
 "tgtext": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay\n\nCasa co-founder Jameson Lopp highlighted that Bitcoin treasury company Datavault (DVLT) saw its stock price crash, tumbling 49.55% over a 24-hour period. The plunge follows the company\u2019s notice to investors disclosing that its entire treasury reserves are held on crypto exchange Biconomy, but despite submitting transfer and withdrawal requests for four months, it has been unable to withdraw any BTC from the platform. \u2014 link",
 "title": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay",
 "url": "https://t.me/wublockchainenglish/26575",
+"urls": []
+},
+"8d04bb417f8f": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793182289.246956,
+"t0": 1793181836.0,
+"tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
+"title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
+"url": "https://t.me/lookonchainchannel/10818",
 "urls": []
 },
 "8d6701410e36": {
@@ -2438,7 +2451,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -2796,18 +2809,20 @@
 },
 "cef2ccd4c25c": {
 "coin": "",
-"src": "Cointelegraph",
+"src": "Decrypt",
 "srcs": [
 "Cointelegraph",
-"CryptoTicker.io"
+"CryptoTicker.io",
+"Decrypt"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793167033.0,
 "tgtext": "\ud83d\udea8 NOW: Coinbase says it has not suffered a data breach.\n\nA security incident at analytics vendor Amplitude exposed some users\u2019 contact data, but customer funds and Coinbase systems were unaffected.\n\nNews | Markets | YouTube",
-"title": "Coinbase denies systems breach, says vendor exposed customer data",
-"url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"title": "Coinbase Customer Data Hit in Analytics Vendor Breach, Funds \u2018Not Impacted\u2019",
+"url": "https://decrypt.co/382009/coinbase-customer-data-hit-in-analytics-vendor-breach-funds-not-impacted",
 "urls": [
-"https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/382009/coinbase-customer-data-hit-in-analytics-vendor-breach-funds-not-impacted"
 ]
 },
 "cef305754c06": {
@@ -2816,7 +2831,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793162337.0,
 "tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
 "title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
@@ -2829,7 +2844,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793166904.0,
 "tgtext": "Two dormant $PEPE whales moved 2.27T $PEPE ($10.19M) today.\n\nhttps://arkm.com/explorer/address/0xCA6FeAdECFA7C186e5d974Cd85A4d615d059D0f1\nhttps://arkm.com/explorer/address/0x2daabb7d7d8114EE334D5A141A97ef181e565e69",
 "title": "Two dormant PEPE whales moved 2.27T PEPE ($10.19M) today.",
@@ -3192,7 +3207,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793181677.1913607,
+"t": 1793182289.246956,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3471,41 +3486,41 @@
 "probs": {
 "022f700d02cb": 0.022,
 "078d68222e19": 0.018,
-"0b2a285a73d1": 0.03,
 "13caee1f3a7b": 0.018,
 "14ad7ce4af9a": 0.029,
-"18f35019cb21": 0.167,
-"1b1f413d4c2c": 0.136,
+"1b1f413d4c2c": 0.339,
 "2557fc2122ab": 0.011,
 "2567e4c1092a": 0.041,
 "26871d2943ab": 0.042,
-"27c89491aaaa": 0.053,
+"27c89491aaaa": 0.029,
 "2e8a7f703315": 0.063,
-"32e1f5b62d15": 0.031,
-"469aa99d42ef": 0.008,
-"4fefb33c6d0f": 0.034,
+"455e33fc662d": 0.109,
+"469aa99d42ef": 0.02,
+"4abc5be6a796": 0.055,
 "54af389d38b6": 0.511,
-"642924e3f4ee": 0.153,
-"709c850f805b": 0.273,
+"623b778463d6": 0.305,
+"642924e3f4ee": 0.124,
 "72c3380743ae": 0.033,
 "73d414505739": 0.819,
 "758e60358730": 0.076,
-"771ae4f4fcc0": 0.373,
-"80924276261c": 0.342,
-"8ad413e340d1": 0.714,
-"96cbce094974": 0.405,
-"976259c989a9": 0.12,
+"771ae4f4fcc0": 0.115,
+"80924276261c": 0.38,
+"8d04bb417f8f": 0.958,
+"96c58ec20832": 0.083,
 "97d2224e7862": 0.118,
+"9ae150dbff07": 0.046,
 "9ce88d53750a": 0.032,
 "acb923342f6a": 0.043,
+"adaab25fdcd7": 0.256,
 "b32971afa87d": 0.211,
-"b4aead49e1d7": 0.038,
+"b4aead49e1d7": 0.154,
+"b4fa19ffce75": 0.139,
 "c1e1a4dee351": 0.626,
-"c2e790225120": 0.123,
+"c2e790225120": 0.03,
 "c7a872e51530": 0.042,
 "cba709b047a2": 0.079,
-"cef2ccd4c25c": 0.886,
-"d09d9bd3c64b": 0.729,
+"cef2ccd4c25c": 0.906,
+"d09d9bd3c64b": 0.878,
 "d6c77e40fe39": 0.043,
 "eac28a981965": 0.715,
 "efc857737a72": 0.179
@@ -4716,71 +4731,99 @@
 "hacked",
 "million"
 ]
+},
+{
+"e": [
+"bitgo",
+"holdings",
+"mara"
+],
+"k": [],
+"t": 1793181984.986136,
+"u": [
+"https://t.me/lookonchainchannel/10818"
+],
+"w": [
+"$80",
+"000",
+"66m",
+"ago",
+"another",
+"bitcoin",
+"bitgo",
+"btc",
+"company",
+"holdings",
+"hours",
+"mara",
+"mining",
+"transferred"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"cef2ccd4c25c",
-45,
-244,
-2
-],
-[
-"73d414505739",
-24,
-234,
+"8d04bb417f8f",
+16,
+8,
 1
 ],
 [
+"cef2ccd4c25c",
+54,
+254,
+3
+],
+[
 "d09d9bd3c64b",
-31,
-246,
+29,
+256,
+1
+],
+[
+"73d414505739",
+23,
+244,
 1
 ],
 [
 "eac28a981965",
-22,
-198,
+21,
+208,
 1
-],
-[
-"8ad413e340d1",
-19,
-254,
-2
 ],
 [
 "c1e1a4dee351",
 45,
-88,
+98,
 1
 ],
 [
 "cef305754c06",
 0,
-322,
+333,
 1
 ],
 [
 "54af389d38b6",
 18,
-79,
+89,
 1
 ],
 [
-"96cbce094974",
-46,
-30,
-2
+"80924276261c",
+10,
+165,
+1
 ],
 [
-"771ae4f4fcc0",
-40,
-194,
+"448978fe1bbd",
+10,
+61,
 1
 ]
 ],
-"top_at": 1793181677.1913607
+"top_at": 1793182289.246956
 }
