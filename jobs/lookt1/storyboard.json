@@ -1,0 +1,268 @@
+{
+ "title": "How CZ Became America’s Richest Inmate 🟡",
+ "alt_hooks": [
+  "How did a former burger flipper build a $60B crypto empire from a prison cell?",
+  "He sold his apartment for $900k to buy Bitcoin. Then he built Binance.",
+  "From flipping burgers at McDonald's to the richest inmate in US history."
+ ],
+ "tone": "serious",
+ "respell": {
+  "Changpeng Zhao": "Chang-peng Zow",
+  "Binance": "Bi-nance"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2014-01-01",
+  "end": "2014-02-28",
+  "src": "Bitstamp"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "He became the richest inmate in American history while holding a multi-billion dollar empire.",
+   "hit": "richest",
+   "visual": {
+    "type": "title",
+    "text": "RICHEST INMATE",
+    "sub": "CZ's Untold Story",
+    "icon": "crown"
+   },
+   "footage": "prison bars",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "Changpeng Zhao started from humble beginnings, working at McDonald's in Vancouver flipping burgers.",
+   "hit": "mcdonalds",
+   "visual": {
+    "type": "person",
+    "name": "Changpeng Zhao",
+    "role": "Founder of Binance",
+    "prop": "none"
+   },
+   "footage": "city skyline night",
+   "photo": "Changpeng Zhao",
+   "beats": [
+    {
+     "word": "vancouver",
+     "text": "VANCOUVER, CANADA"
+    }
+   ]
+  },
+  {
+   "role": "setup",
+   "line": "In 2013, a poker game changed everything when a friend introduced him to Bitcoin over drinks.",
+   "hit": "2013",
+   "visual": {
+    "type": "date",
+    "month": "2013",
+    "day": 1,
+    "event": "Introduced to Bitcoin"
+   },
+   "footage": "poker cards chips",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "He went all in. He sold his apartment in Shanghai for $900,000 to buy entirely into Bitcoin.",
+   "hit": "$900000",
+   "visual": {
+    "type": "counter",
+    "value": 900000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Apartment Sold",
+    "icon": "house"
+   },
+   "footage": "shanghai skyline",
+   "photo": "",
+   "beats": [
+    {
+     "word": "shanghai",
+     "text": "SHANGHAI"
+    }
+   ]
+  },
+  {
+   "role": "turn",
+   "line": "Bitcoin crashed shortly after. But Zhao did not panic. He stayed focused on building infrastructure.",
+   "hit": "crashed",
+   "visual": {
+    "type": "chart",
+    "date": "2014-02-15",
+    "label": "FEB 2014 · BITCOIN CRASH"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "By July 2017, he launched Binance. It processed orders at lightning speed and completely dominated markets.",
+   "hit": "2017",
+   "visual": {
+    "type": "date",
+    "month": "JULY",
+    "day": 17,
+    "event": "Binance Launched"
+   },
+   "footage": "stock trading screens",
+   "photo": "",
+   "beats": [
+    {
+     "word": "binance",
+     "text": "BINANCE IS BORN",
+     "icon": "bitcoin"
+    }
+   ]
+  },
+  {
+   "role": "twist",
+   "line": "Within 180 days, Binance became the largest crypto exchange on Earth, handling billions daily.",
+   "hit": "largest",
+   "visual": {
+    "type": "counter",
+    "value": 180,
+    "prefix": "",
+    "suffix": " Days",
+    "label": "To #1 Exchange",
+    "icon": "bitcoin"
+   },
+   "footage": "data center servers",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "line": "Regulators closed in fast. US authorities investigated Binance for severe anti-money laundering failures.",
+   "hit": "investigated",
+   "visual": {
+    "type": "stamp",
+    "icon": "gavel",
+    "label": "Federal Probe",
+    "word": "INVESTIGATED",
+    "bad": true
+   },
+   "footage": "police lights night",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "In November 2023, CZ stepped down as CEO and pleaded guilty to federal compliance violations.",
+   "hit": "guilty",
+   "visual": {
+    "type": "person",
+    "name": "Changpeng Zhao",
+    "role": "Former CEO",
+    "prop": "cuffs"
+   },
+   "footage": "courthouse",
+   "photo": "Changpeng Zhao"
+  },
+  {
+   "role": "setup",
+   "line": "Binance agreed to pay a staggering $4,300,000,000 fine to the United States government.",
+   "hit": "$4300000000",
+   "visual": {
+    "type": "counter",
+    "value": 4300000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "DoJ Settlement",
+    "icon": "bank"
+   },
+   "footage": "money counting",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "In April 2024, a federal judge in Seattle sentenced CZ to 4 months inside a federal prison.",
+   "hit": "2024",
+   "visual": {
+    "type": "date",
+    "month": "APR",
+    "day": 30,
+    "event": "Sentenced to Prison"
+   },
+   "footage": "courtroom gavel",
+   "photo": "",
+   "beats": [
+    {
+     "word": "seattle",
+     "text": "SEATTLE COURT",
+     "icon": "gavel"
+    }
+   ]
+  },
+  {
+   "role": "setup",
+   "line": "He served his time at Lompoc low-security facility in California, trading luxury for a tiny cell.",
+   "hit": "california",
+   "visual": {
+    "type": "stamp",
+    "icon": "lock",
+    "label": "Federal Prison",
+    "word": "INCARCERATED",
+    "bad": true
+   },
+   "footage": "prison fence",
+   "photo": "",
+   "beats": [
+    {
+     "word": "lompoc",
+     "text": "LOMPOC, CA"
+    }
+   ]
+  },
+  {
+   "role": "setup",
+   "line": "Despite sitting behind bars, his massive net worth remained completely intact due to his equity.",
+   "hit": "intact",
+   "visual": {
+    "type": "counter",
+    "value": 60000000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Estimated Net Worth",
+    "icon": "safe"
+   },
+   "footage": "luxury mansion",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "Released in late 2024, CZ remains barred from running Binance directly but keeps massive influence.",
+   "hit": "released",
+   "visual": {
+    "type": "person",
+    "name": "Changpeng Zhao",
+    "role": "Free Man",
+    "prop": "none"
+   },
+   "footage": "city skyline",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "line": "He became the richest inmate in American history while holding a multi-billion dollar empire.",
+   "hit": "empire",
+   "visual": {
+    "type": "title",
+    "text": "CZ SECRETS",
+    "sub": "Looping Story",
+    "icon": "crown"
+   },
+   "footage": "prison corridor",
+   "photo": ""
+  }
+ ],
+ "description": "The untold story of Changpeng Zhao, from selling his Shanghai apartment for Bitcoin to building Binance, paying a $4.3B fine, and becoming America's richest inmate.",
+ "hashtags": "#crypto #bitcoin #binance #cz #investing #wealth #money #cryptonews",
+ "pinned": "Would you sell your house to buy Bitcoin like CZ did in 2013?",
+ "length": 120,
+ "settings": {
+  "length": 120,
+  "style": "documentary",
+  "pace": "normal",
+  "look": "noir"
+ },
+ "est_secs": 94,
+ "words": 243,
+ "ep": 26
+}
