@@ -29,60 +29,45 @@ def test_age_note():
     assert replies.age_note({}, now) == ''
 
 
-def test_choose_picks_best_and_drops_unsupported():
-    c = [{'style': 'a', 'reply': 'one', 'nums_ok': True, 'shape_ok': True}, {'style': 'b', 'reply': 'two', 'nums_ok': True, 'shape_ok': True},
-         {'style': 'c', 'reply': 'three', 'nums_ok': False, 'shape_ok': True}]
-    v = {'c': [{'n': 1, 'unsupported': ['invented name'], 'human': 9, 'value': 9, 'stance_fit': 9},
-               {'n': 2, 'unsupported': [], 'human': 6, 'value': 6, 'stance_fit': 6}]}
-    best, lvl = replies.choose(c, v)
-    assert best['reply'] == 'two' and lvl == 'verified'
-    best, lvl = replies.choose(c, None)                                      # judge down: numbers/shape only, labelled honestly
-    assert best['reply'] == 'one' and lvl == 'numbers'
-    assert replies.choose([c[2]], None) == (None, None)
+def test_choose_n_best_three_different_angles():
+    mk = lambda st, r, ok=True: {'style': st, 'reply': r, 'nums_ok': ok, 'shape_ok': True}
+    c = [mk('a', 'one'), mk('a', 'one b'), mk('b', 'two'), mk('c', 'three'), mk('d', 'four', False), mk('e', 'five')]
+    v = {'c': [{'n': 1, 'unsupported': [], 'human': 9, 'value': 9}, {'n': 2, 'unsupported': [], 'human': 8, 'value': 8},
+               {'n': 3, 'unsupported': ['invented'], 'human': 9, 'value': 9}, {'n': 4, 'unsupported': [], 'human': 5, 'value': 5},
+               {'n': 6, 'unsupported': [], 'human': 7, 'value': 7}]}
+    out, lvl = replies.choose_n(c, v, 3)
+    assert [x['reply'] for x in out] == ['one', 'five', 'three'] and lvl == 'verified'         # one per angle, unsupported + bad-number drafts dropped
+    out, lvl = replies.choose_n(c, None, 3)                                                     # judge down: labelled honestly
+    assert len(out) == 3 and lvl == 'numbers'
+    assert replies.choose_n([mk('x', 'y', False)], None) == ([], None)
 
 
-def test_pick_styles_prefers_what_worked():
-    stats = {'detail': (50, 50)}
-    rnd = random.Random(1); n = 0
-    for _ in range(1000):
-        n += 'detail' in replies.pick_styles(stats, n=1, rnd=rnd)
-    assert n > 1000 * .21                                                    # uniform would be 1/6 = 17%
-    assert len(set(replies.pick_styles({}, n=3))) == 3
+def test_pick_styles_new_ideas_come_from_unused_angles():
+    first = replies.pick_styles((), 3)
+    nxt = replies.pick_styles(first, 3)
+    assert len(set(first)) == 3 and not set(first) & set(nxt)
 
 
-def test_best_reply_with_stubbed_ai():
+def test_reply_ideas_with_stubbed_ai():
     r = radar()
     post = 'Strategy bought 4,300,000,000 dollars of bitcoin this week.'
-    calls = []
 
     def fake(prompt):
-        calls.append(prompt)
         if 'strict fact-checker' in prompt:
-            return {'c': [{'n': 1, 'unsupported': [], 'human': 8, 'value': 8, 'stance_fit': 8}]}
+            return {'c': [{'n': i, 'unsupported': [], 'human': 8, 'value': 8} for i in range(1, 6)]}
         return {'replies': [{'style': 'numbers', 'reply': 'That is $4.3B in a single week, a pace few buyers can match.'},
-                            {'style': 'detail', 'reply': 'They also hold 900k coins now, a record by far.'}], 'symbol': 'BTC', 'chart': False}
+                            {'style': 'detail', 'reply': 'They also hold 900k coins now, a record by far, apparently.'},
+                            {'style': 'question', 'reply': 'Who is selling to them at these prices, and why now?'},
+                            {'style': 'calm_take', 'reply': 'Big buy, but one week does not make a trend by itself.'},
+                            {'style': 'light_humor', 'reply': 'Somebody really did not want to wait for the dip.'}], 'symbol': 'BTC', 'chart': False}
     r.gemini_json = fake; r.live_data = lambda t: ('', None)
-    out = r.best_reply(post, 'someone', None, 'neutral')
-    assert out and out['reply'].startswith('That is $4.3B') and out['level'] == 'verified'
-    judged = [c for c in calls if 'strict fact-checker' in c][0]
-    assert '900k' not in judged                                              # the invented-number draft never reaches the judge
+    out = r.reply_ideas(post, 'someone')
+    assert out and len(out['ideas']) == 3 and out['level'] == 'verified'
+    assert not any('900k' in c['reply'] for c in out['ideas'])                                 # the invented number never gets through
 
 
-def test_best_reply_fails_closed():
+def test_reply_ideas_fail_closed():
     r = radar()
-    r.gemini_json = lambda p: {'replies': [{'style': 'numbers', 'reply': 'Up 77% since the dip, which is wild for such a big move.'}], 'symbol': 'NONE', 'chart': False}
+    r.gemini_json = lambda p: {'replies': [{'style': 'numbers', 'reply': 'Up 77% since the dip, which is wild for such a big move.'}]}
     r.live_data = lambda t: ('', None)
-    assert r.best_reply('Bitcoin moved today.', 'x', None, 'neutral') is None
-
-
-def test_brain_reply_stats_and_linking():
-    brain.load()['replies'] = []
-    now = time.time()
-    brain.reply_add({'rid': 'a1', 't': now, 'key': 'k', 'author': 'x', 'style': 'detail', 'stance': 'agree', 'reply': 'The custody detail is the part that really matters here', 'coin': None, 'chart': False, 'check': 'verified', 'age_min': 5})
-    brain.reply_add({'rid': 'a2', 't': now, 'key': 'k', 'author': 'x', 'style': 'question', 'stance': 'agree', 'reply': 'Who holds the keys for all of that coin supply anyway', 'coin': None, 'chart': False, 'check': 'verified', 'age_min': 5})
-    brain.reply_mark('a1', 'outcome', 1); brain.reply_mark('a2', 'outcome', -1)
-    assert brain.reply_stats() == {'detail': (1, 1), 'question': (0, 1)}
-    got = brain.reply_link('The custody detail is the part that really matters here friends', 'https://x.com/me/status/1', now)
-    assert got and got['rid'] == 'a1' and got['url'].endswith('/1')
-    assert brain.reply_link('totally unrelated words about something else entirely', 'https://x.com/me/status/2', now) is None
-    brain.load()['replies'] = []
+    assert r.reply_ideas('Bitcoin moved today.', 'x') is None

@@ -44,23 +44,18 @@ def test_package_fails_closed_without_enough_posts():
     assert r.build_package('x', FACTS, []) is None
 
 
-def test_removed_commands_and_menu_toggles():
+def test_removed_commands_and_features():
     r = radar(); sent = []
     r.tg = lambda text, photo=None, buttons=None: sent.append((text, buttons))
-    r.save_tg = lambda t: None; r.send_menu = lambda *a, **k: None
-    r.CHAT = ''; tgs = {'menu': {}}
-    for cmd in ('/movers', '/hacks', '/kit', '/hook x'):
+    r.save_tg = lambda t: None; r.CHAT = ''; tgs = {'menu': {}}
+    for cmd in ('/movers', '/hacks', '/kit', '/hook x', '/menu', '/brain'):
         sent.clear(); r.handle({'message': {'text': cmd, 'from': {'id': 1}}}, tgs)
         assert sent and sent[0][0] == r.HELP, cmd                                           # unknown now -> help text, not the old feature
-    sent.clear(); r.handle({'message': {'text': '/menu', 'from': {'id': 1}}}, tgs)
-    assert '⚙️' in sent[0][0] and any(b[1] == 'mn:kit' for b in sent[0][1])
-    r.TGS = tgs; r.toggle('kit', tgs)
-    assert r.is_off('kit') and 'kit' in tgs['off']
-    r.toggle('kit', tgs)
-    assert not r.is_off('kit')
-    r.toggle('nonsense', tgs); assert 'nonsense' not in tgs.get('off', [])
+    sent.clear(); r.handle({'message': {'text': 'Some pasted news article text that is long enough to have been turned into a post before ' * 2, 'from': {'id': 1}}}, tgs)
+    assert sent and sent[0][0] == r.HELP                                                    # pasted articles / forwards no longer make posts
     names = [c for c, _ in r.COMMANDS]
-    assert not {'movers', 'hacks', 'kit', 'hook', 'chart'} & set(names) and {'story', 'today', 'menu', 'top', 'short'} <= set(names)
+    assert not {'movers', 'hacks', 'kit', 'hook', 'chart', 'menu', 'brain'} & set(names) and {'story', 'today', 'top', 'short', 'viral'} <= set(names)
+    assert not hasattr(r, 'track_mine') and not hasattr(r, 'check_mine') and not hasattr(r, 'weekly_report') and not hasattr(r, 'on_feedback')
 
 
 def test_scene_count_is_a_note_not_a_failure():

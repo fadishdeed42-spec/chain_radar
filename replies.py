@@ -11,7 +11,7 @@ STYLES = [
     ('detail', 'Point at the one detail in the post that matters most and say why in plain words. Use only what the post says.'),
     ('observation', 'Make one sharp, dry observation about what this really means. Understated, no exaggeration.'),
     ('numbers', 'Put the key number in perspective. Use ONLY numbers that are in the post or in the LIVE DATA block.'),
-    ('calm_take', 'Give a level-headed take that cuts through hype or panic in one or two sentences.'),
+    ('calm_take', 'Politely push back or add the missing context, calmly, in one or two sentences. Respectful, no insults.'),
     ('light_humor', 'A light, clever line with a point behind it. Witty, not silly, no slang.'),
     ('question', 'Ask one genuine, smart question that experts would want answered about this (not engagement bait).'),
 ]
@@ -85,21 +85,17 @@ def age_note(post, now=None):
     return f'🔴 posted {age}: late, replies this old get little reach'
 
 
-def pick_styles(stats, used=(), n=3, rnd=None):
-    """3 styles for this round. stats = {style: (worked, rated)} from your 👍/👎 taps. With no data every style is equal;
-    with data, styles that worked for you are chosen more often (30% of the time a random one, so it keeps exploring)."""
+STYLE_LABEL = {'detail': 'adds the key detail', 'observation': 'sharp take', 'numbers': 'puts it in perspective', 'calm_take': 'calm pushback',
+               'light_humor': 'light humor', 'question': 'smart question'}
+
+
+def pick_styles(used=(), n=5, rnd=None):
+    """n different angles for this round; angles already shown for this post come last so 'new ideas' really are new."""
     import random
     rnd = rnd or random
-    pool = [s for s in STYLE_NAMES if s not in used] or STYLE_NAMES[:]
-    chosen = []
-    while pool and len(chosen) < n:
-        if rnd.random() < .3:
-            s = rnd.choice(pool)
-        else:
-            w = [((stats.get(x, (0, 0))[0] + 1) / (stats.get(x, (0, 0))[1] + 2)) for x in pool]       # worked rate with a neutral prior
-            s = rnd.choices(pool, weights=w)[0]
-        chosen.append(s); pool.remove(s)
-    return chosen
+    fresh = [x for x in STYLE_NAMES if x not in used]; old = [x for x in STYLE_NAMES if x in used]
+    rnd.shuffle(fresh); rnd.shuffle(old)
+    return (fresh + old)[:n]
 
 
 def style_text(name):
@@ -109,9 +105,9 @@ def style_text(name):
 def candidate_prompt(head, post_text, author, stance_text, styles, live, note=''):
     """head = the house VOICE + owner view text from radar.py"""
     lines = '\n'.join(f'{i + 1}. style "{s}": {style_text(s)}' for i, s in enumerate(styles))
-    return (head + '\n' + stance_text + f'\nYou reply under an X post as the account "Chain Secrets". Write {len(styles)} DIFFERENT replies, one per style below. '
-            'Each reads like a smart human wrote it in ten seconds: 8 to 25 words, max 180 characters, about what THIS post actually says. '
-            'Start with the point, no warm-up. Never invent facts. Every number must come from the post or the LIVE DATA block; if you are unsure, leave it out.\n'
+    return (head + '\n' + stance_text + f'\nYou reply under an X post as the account "Chain Secrets". Write {len(styles)} DIFFERENT reply ideas, one per style below (the owner will pick and copy one). '
+            'Each reads like a normal, relaxed person wrote it in ten seconds (contractions, plain words, a little personality, never marketing): 8 to 25 words, max 180 characters, about what THIS post actually says. '
+            'Start with the point, no warm-up; the first 8 words must add something the post does not already say. Never invent facts. Every number must come from the post or the LIVE DATA block; if you are unsure, leave it out.\n'
             f'Styles:\n{lines}\n\nPOST by @{author}:\n{post_text[:1500]}\n\n'
             + (f'LIVE DATA (verified just now):\n{live}\n\n' if live else '') + (note + '\n' if note else '')
             + 'Return JSON only: {"replies": [{"style": "...", "reply": "..."}], "symbol": "ticker of the crypto coin the post is mainly about, or NONE", '
@@ -123,14 +119,12 @@ def judge_prompt(post_text, live, cands, stance_text):
     return ('You are a strict fact-checker and editor for an X account. Check each candidate reply against ONLY the POST and the LIVE DATA.\n'
             f'POST:\n{post_text[:1500]}\n\n' + (f'LIVE DATA:\n{live}\n\n' if live else '') + f'{stance_text}\n\nCANDIDATES:\n{lst}\n\n'
             'For each candidate: "unsupported" = a list of factual claims (names, numbers, events, causes) that the POST and LIVE DATA do not support (empty list if every claim is supported; '
-            'opinions and questions are fine). Then score 0-10: "human" (sounds like a real person, not marketing or AI), "value" (adds something the post does not already say, in its first 8 words), '
-            '"stance_fit" (matches the owner\'s stance above).\n'
-            'Return JSON only: {"c": [{"n": 1, "unsupported": [], "human": 0, "value": 0, "stance_fit": 0}]} with one entry per candidate.')
+            'opinions and questions are fine). Then score 0-10: "human" (sounds like a real person, not marketing or AI), "value" (adds something the post does not already say, in its first 8 words).\n'
+            'Return JSON only: {"c": [{"n": 1, "unsupported": [], "human": 0, "value": 0}]} with one entry per candidate.')
 
 
-def choose(cands, verdict):
-    """cands: [{'style','reply','nums_ok','shape_ok'}]; verdict: judge JSON or None.
-    Returns (best, level) where level is 'verified' (all checks passed), 'numbers' (judge unavailable: only the numbers/shape checks), or None."""
+def choose_n(cands, verdict, n=3):
+    """The best n candidates that passed every check, with different angles. Returns (list, level): 'verified', 'numbers' (judge unavailable) or None."""
     by = {}
     if isinstance(verdict, dict):
         for x in verdict.get('c') or []:
@@ -138,7 +132,7 @@ def choose(cands, verdict):
                 by[int(x['n'])] = x
             except (KeyError, TypeError, ValueError):
                 pass
-    best, best_s = None, -1
+    scored = []
     for i, c in enumerate(cands, 1):
         if not (c['nums_ok'] and c['shape_ok']):
             continue
@@ -147,12 +141,16 @@ def choose(cands, verdict):
             continue
         if j is not None and j.get('unsupported'):
             continue
-        sc = sum(float(j.get(k) or 0) for k in ('human', 'value', 'stance_fit')) if j else 15.0
-        if sc > best_s:
-            best, best_s = c, sc
-    if best is None:
-        return None, None
-    return best, ('verified' if by else 'numbers')
+        sc = sum(float(j.get(k) or 0) for k in ('human', 'value')) if j else 10.0
+        scored.append((sc, c))
+    out, seen = [], set()
+    for sc, c in sorted(scored, key=lambda x: -x[0]):
+        if c['style'] in seen:
+            continue
+        seen.add(c['style']); out.append(c)
+        if len(out) == n:
+            break
+    return out, (('verified' if by else 'numbers') if out else None)
 
 
 def check_line(level, live):

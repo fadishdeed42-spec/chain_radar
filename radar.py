@@ -411,7 +411,7 @@ def chance_txt(p, sc):
 
 
 def fb_buttons(mk):
-    return [('📝 Make post', 'p:' + mk), ('👍', f'f:{mk}:1'), ('👎', f'f:{mk}:0')]
+    return [('📝 Make post', 'p:' + mk)]
 
 
 def budget_ok(st):
@@ -443,7 +443,6 @@ def main():
     sent = 0
     for (sc, lead, coin, srcs, age), g in scored[:40]:                  # the brain logs every notable story
         brain.log_story(key_of(g), g, sc, lead, coin, srcs, NOW)
-    print('labeled', brain.label_due(NOW))
     probs = {key_of(g): brain.chance(brain.early_story(g, sc, lead, coin, srcs, NOW)) for (sc, lead, coin, srcs, age), g in scored[:40]}
     st['probs'] = {k: round(v, 3) for k, v in probs.items() if v is not None}
     brain.save()
@@ -1013,7 +1012,7 @@ def post_buttons(k, p, item, coin):
     extra = [('🧵 Thread', f'x:{k}:thread')]
     extra += [('💬 Reply idea', f'x:{k}:reply')] if p.get('reply') else []
     extra += [('🎬 Shorts script', f'x:{k}:short')] if item.get('story') else []
-    return b + extra + [('✅ Posted', f'ps:{k}')]
+    return b + extra
 
 
 def chat_action(a='upload_photo'):
@@ -1246,35 +1245,12 @@ def cmd_reply(url, tgs, fresh=False):
         ack('⏳ Reading the post…')
     post = read_x(user, sid)
     if not post or not post['text']:
-        unack(); tg('Couldn\'t read that post (deleted, private or X blocked it). Paste its text here instead and I\'ll write replies.'); return
-    if post['author'].lower() == 'thechainsecrets' or user.lower() == 'thechainsecrets':     # your own post: track it
-        unack(); track_mine(user, sid, post); return
-    save_xpost(post)
-    ask_stance(post['text'] + (f'\n\n(Quoted post: {post["quote"]})' if post['quote'] else ''), post['author'], post, tgs, sid)
-
-
-def ask_stance(text, author, post, tgs, key):
-    """Show the post and ask the owner's side before writing the reply."""
-    tgs.setdefault('replies', {})[key] = {**(tgs.get('replies', {}).get(key) or {}), 't': time.time(), 'text': text[:2000], 'author': author,
-                                          'post': {x: (post or {}).get(x) for x in ('likes', 'ts')}}
+        unack(); tg('Couldn\'t read that post (deleted, private or X blocked it). Paste its text with /reply <i>text</i> and I\'ll write ideas.'); return
+    text = post['text'] + (f'\n\n(Quoted post: {post["quote"]})' if post['quote'] else '')
+    tgs.setdefault('replies', {})[sid] = {'t': time.time(), 'text': text[:2000], 'author': post['author'], 'post': {x: post.get(x) for x in ('likes', 'ts')}, 'used': []}
     tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
-    stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
-    unack()
-    tg(f'💬 <b>@{E(author)}</b>{stats}\n<i>{E(text[:300])}{"…" if len(text) > 300 else ""}</i>\n\n<b>Do you agree with this post?</b>', None,
-       [('👍 Agree', f'ra:{key}:agree'), ('👎 Disagree', f'ra:{key}:disagree'), ('🤷 Neutral', f'ra:{key}:neutral')])
-
-
-def on_stance(key, stance, tgs, mid):
-    r = tgs.get('replies', {}).get(key)
-    if not r:
-        tg('That one is too old. Send the link again.'); return
-    r['stance'] = stance
-    try:                                                              # replace the question with the reply (clean chat)
-        requests.post(f'https://api.telegram.org/bot{TOKEN}/deleteMessage', data={'chat_id': CHAT, 'message_id': mid}, timeout=8)
-    except Exception:
-        pass
-    ack('⏳ Writing your reply…')
-    reply_from_text(r['text'], r['author'], r.get('post'), tgs, key, stance)
+    ack('⏳ Writing 3 reply ideas…')
+    reply_from_text(text, post['author'], tgs['replies'][sid]['post'], tgs, sid)
 
 
 def live_data(text):
@@ -1288,14 +1264,13 @@ def live_data(text):
     return (f'{coin["name"]} ({coin["sym"]}) price {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h, {coin["h1"]:+.1f}% in 1h (CoinGecko, now)'), coin
 
 
-def best_reply(text, author, post, stance, used=()):
-    """3 candidates -> numbers/shape checks -> AI fact-check + judge -> the single best one.
-    Returns {'reply','style','symbol','chart','coin','live','level'} or None."""
-    live, coin = live_data(text)
-    styles = replies.pick_styles(brain.reply_stats(), used)
+def reply_ideas(text, author, used=()):
+    """5 drafts in different angles -> number/shape checks -> AI fact-check -> the best 3 (different angles). Returns {'ideas','live','level','styles'} or None."""
+    live, _ = live_data(text)
+    styles = replies.pick_styles(used, 5)
     note = ''
     for attempt in range(2):
-        j = gemini_json(replies.candidate_prompt(VOICE + '\n' + OWNER_VIEW, text, author, STANCE.get(stance, STANCE['neutral']), styles, live, note))
+        j = gemini_json(replies.candidate_prompt(VOICE + '\n' + OWNER_VIEW, text, author, '', styles, live, note))
         cands = []
         for c in (j or {}).get('replies') or []:
             r = clean_voice(str(c.get('reply', '')))
@@ -1304,66 +1279,38 @@ def best_reply(text, author, post, stance, used=()):
             n_ok, miss = replies.numbers_ok(r, text, live)
             s_ok, why = replies.shape_ok(r)
             cands.append({'style': str(c.get('style') or '?'), 'reply': r, 'nums_ok': n_ok, 'shape_ok': s_ok, 'why': why, 'miss': miss})
-        if not cands:
-            continue
         ok = [c for c in cands if c['nums_ok'] and c['shape_ok']]
-        verdict = gemini_json(replies.judge_prompt(text, live, ok, STANCE.get(stance, STANCE['neutral']))) if ok else None
-        best, level = replies.choose(ok, verdict)
-        if best:
-            sym = str((j or {}).get('symbol') or 'NONE').upper().strip('$ ')
-            return {**best, 'symbol': sym, 'chart': bool((j or {}).get('chart')), 'coin': coin, 'live': live, 'level': level}
+        verdict = gemini_json(replies.judge_prompt(text, live, ok, '')) if ok else None
+        best, level = replies.choose_n(ok, verdict, 3)
+        if len(best) >= 2:
+            return {'ideas': best, 'live': live, 'level': level, 'styles': [c['style'] for c in best]}
         bad = '; '.join(f'"{c["reply"][:60]}": ' + (f'numbers not in the post {c["miss"]}' if not c['nums_ok'] else c['why']) for c in cands if not (c['nums_ok'] and c['shape_ok']))
         note = ('Your last attempt was rejected (' + bad + '). Only use numbers that appear in the POST or LIVE DATA, and keep to the rules.') if bad else \
                'Your last attempt contained claims the post does not support. Stay strictly within what the post says.'
     return None
 
 
-def reply_from_text(text, author, post, tgs, key, stance=None):
-    stance = stance or (tgs.get('replies', {}).get(key) or {}).get('stance') or 'neutral'
-    used = (tgs.get('replies', {}).get(key) or {}).get('styles', [])
-    rp = None
+def reply_from_text(text, author, post, tgs, key):
+    used = (tgs.get('replies', {}).get(key) or {}).get('used', [])
+    out = None
     try:
-        rp = best_reply(text, author, post, stance, used)
+        out = reply_ideas(text, author, used)
     except Exception as e:
-        print('best_reply fail', repr(e)[:200])
-    if not rp:
-        unack(); tg('⚠️ I could not write a reply I trust for this post (the AI was busy or every draft failed my checks). Tap again in a minute.',
+        print('reply_ideas fail', repr(e)[:200])
+    if not out:
+        unack(); tg('⚠️ I could not write ideas I trust for this post (the AI was busy or the drafts failed my checks). Nothing was made up. Tap again in a minute.',
                     None, [('🔄 Try again', f'rr:{key}')]); return
-    coin = rp['coin'] if rp['chart'] and rp['coin'] else None
-    img = move_card(coin)[0] if coin else None
     stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
     stats += f' · {ago(post["ts"])}' if post and post.get('ts') else ''
-    face = {'agree': '👍 agreeing', 'disagree': '👎 pushing back', 'neutral': '🤷 neutral'}[stance]
     note = replies.age_note(post)
-    head = (f'💬 <b>Reply for @{E(author)}</b> · {face}{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
-            + (f'\n{note}' if note else ''))
-    rid = hashlib.md5(f'{key}{time.time()}'.encode()).hexdigest()[:8]
-    tgs.setdefault('replies', {})[key] = {**(tgs.get('replies', {}).get(key) or {}), 't': time.time(), 'text': text[:2000], 'author': author,
-                                          'styles': used + [rp['style']], 'stance': stance, 'post': {x: (post or {}).get(x) for x in ('likes', 'ts')}}
-    tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
-    brain.reply_add({'rid': rid, 't': time.time(), 'key': key, 'author': author, 'style': rp['style'], 'stance': stance, 'reply': rp['reply'],
-                     'coin': coin['sym'] if coin else None, 'chart': bool(img), 'check': rp['level'],
-                     'age_min': round((time.time() - post['ts']) / 60) if post and post.get('ts') else None})
-    brain.save()
+    body = (f'💬 <b>3 reply ideas for @{E(author)}</b>{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>' + (f'\n{note}' if note else '') + '\n')
+    for i, c in enumerate(out['ideas'], 1):
+        body += f'\n<b>{i} · {replies.STYLE_LABEL.get(c["style"], c["style"])}</b>\n<code>{E(c["reply"])}</code>\n'
+    body += (f'\n📊 <i>Live: {E(out["live"])}</i>' if out['live'] else '') + '\n' + replies.check_line(out['level'], out['live']) + '\n<i>Tap an idea to copy it</i>'
+    r = tgs.setdefault('replies', {}).setdefault(key, {'t': time.time(), 'text': text[:2000], 'author': author, 'post': {}})
+    r['used'] = (used + out['styles'])[-10:]; r['t'] = time.time()
     unack()
-    body = (head + f'\n\n<code>{E(rp["reply"])}</code>\n\n' + (f'📊 <i>Live: {E(rp["live"])}</i>\n' if rp['live'] else '')
-            + replies.check_line(rp['level'], rp['live']) + '\n'
-            + ('<i>📈 Attach this chart to the reply · tap the text to copy</i>' if img else '<i>Tap to copy</i>'))
-    other = [x for x in ('agree', 'disagree', 'neutral') if x != stance]
-    tg(body, img, [('🔄 Another one', f'rr:{key}')]
-       + [({'agree': '👍 Agree instead', 'disagree': '👎 Disagree instead', 'neutral': '🤷 Neutral instead'}[x], f'ra:{key}:{x}:k') for x in other]
-       + [('✅ I posted it', f'rf:{rid}:p'), ('👍 It worked', f'rf:{rid}:w'), ('👎 Didn\'t work', f'rf:{rid}:n')])
-
-
-def on_reply_feedback(data):
-    rid, what = data.split(':')[1:3]
-    if what == 'p':
-        r = brain.reply_mark(rid, 'posted', True); msg = '✅ Logged. Paste the link of your reply here later and I will read its likes and views.'
-    else:
-        r = brain.reply_mark(rid, 'outcome', 1 if what == 'w' else -1)
-        msg = '👍 Noted. I will write more like this one.' if what == 'w' else '👎 Noted. I will use that style less.'
-    brain.save()
-    tg(msg if r else 'That reply is too old to log.')
+    tg(body, None, [('🔄 3 new ideas', f'rr:{key}')])
 
 
 def more_replies(key, tgs):
@@ -1401,46 +1348,28 @@ def who_posts(title):
 
 
 def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
-    if is_off('viral'):
-        return
     mk = remember(st, g, lead, coin, srcs)
     import random
     post_txt = f'{lead["title"]} (sources: {", ".join(sorted(srcs))})' + (f'. {coin["name"]} ({coin["sym"]}) is {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h' if coin else '')
-    rp = None
+    out = None
     try:
-        rp = best_reply(post_txt, 'a big news account', None, 'neutral')
+        out = reply_ideas(post_txt, 'a big news account')
     except Exception as e:
-        print('viral best_reply fail', repr(e)[:150])
-    if rp:
-        rp['reply'] = clean_voice(rp['reply'])
-    else:                                                              # fallback: the old single-shot writer
-        rp = parse_replies(gemini_voice(reply_rules(random.choice(REPLY_STYLES), 'neutral') + '\nThe post you reply to is a big account breaking this news:\n'
-                                  f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
-                                  + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
-        rp['reply'] = clean_voice(rp['reply']); rp['level'] = None; rp['live'] = ''
+        print('viral reply_ideas fail', repr(e)[:150])
     acc = who_posts(lead['title'])
     head = (f'🔥 <b>GOING VIRAL · REPLY WINDOW OPEN</b>\n<b>{E(lead["title"])}</b>\n{confirmed(srcs)} · {chance_txt(pr, sc)} · {age*60:.0f} min ago\n\n'
             f'👀 Watch for posts from: ' + ' · '.join(f'<a href="https://x.com/{a}">@{a}</a>' for a in acc)
             + '\nReply in the first 15 minutes with 👇')
-    img = move_card(coin)[0] if coin and rp.get('chart') else None
-    if rp['reply']:
-        chk = ('\n' + replies.check_line(rp['level'], rp['live'])) if rp.get('level') else ''
-        tg(reply_msg(rp, head, bool(img)) + chk, img, fb_buttons(mk))
+    if out:
+        ideas = ''.join(f'\n<b>{i} · {replies.STYLE_LABEL.get(c["style"], c["style"])}</b>\n<code>{E(c["reply"])}</code>\n' for i, c in enumerate(out['ideas'], 1))
+        tg(head + '\n' + ideas + '\n' + replies.check_line(out['level'], out['live']), None, [('📝 Make post', 'p:' + mk)])
     else:
-        tg(head, img, fb_buttons(mk))
+        tg(head, None, [('📝 Make post', 'p:' + mk)])
 
 
 # ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
-MENU = [['📰 Top stories', '💬 Reply to a post'], ['🎬 Studio', '📖 Story'], ['📜 Today', '⚙️ Menu']]
-MENU_V = 6
-# what /menu can switch on and off: (key, label). Buttons hide from the keyboard; automations stop running. Learning jobs are not listed (the brain needs them).
-TOGGLE_BTNS = [('📰 Top stories', 'Button: Top stories'), ('💬 Reply to a post', 'Button: Reply to a post'), ('📖 Story', 'Button: Story'), ('📜 Today', 'Button: Today')]
-TOGGLE_AUTO = [('otd_day', 'Daily on-this-day list (12:00)'), ('kit', 'Daily posting kit (15:00)'), ('brief17', 'Evening briefing (20:00)'),
-               ('weekly', 'Sunday report (18:00)'), ('sh_weekly', 'Sunday Shorts report (18:45)'), ('viral', 'Viral news alerts')]
-
-
-def is_off(key):
-    return key in ((TGS or {}).get('off') or [])
+MENU = [['📰 Top stories', '💬 Reply to a post'], ['🎬 Studio', '📖 Story'], ['📜 Today']]
+MENU_V = 7
 
 
 def send_menu(text='👇 Your menu is ready at the bottom of the chat.', job=None):
@@ -1448,32 +1377,12 @@ def send_menu(text='👇 Your menu is ready at the bottom of the chat.', job=Non
         if b == '🎬 Studio':                                             # opens the Studio Mini App (sendData works from keyboard buttons)
             return {'text': b, 'web_app': {'url': STUDIO_URL + (f'?job={job}' if job else '')}}
         return {'text': b}
-    rows_ = [[btn(b) for b in row if not is_off(b)] for row in MENU]
-    kb = {'keyboard': [r for r in rows_ if r], 'resize_keyboard': True, 'is_persistent': True}
+    kb = {'keyboard': [[btn(b) for b in row] for row in MENU], 'resize_keyboard': True, 'is_persistent': True}
     try:
         requests.post(f'https://api.telegram.org/bot{TOKEN}/sendMessage', timeout=10,
                       data={'chat_id': CHAT, 'text': text, 'reply_markup': json.dumps(kb)})
     except Exception:
         pass
-
-
-def cmd_menu(tgs, note=''):
-    off = tgs.get('off') or []
-    mark = lambda k: '⛔ off' if k in off else '✅ on'
-    txt = (note + '⚙️ <b>Your menu</b>\nTap to switch on or off. Nothing is deleted, you can switch it back any time.\n\n<b>Buttons</b>\n'
-           + '\n'.join(f'{mark(k)} · {l}' for k, l in TOGGLE_BTNS) + '\n\n<b>Automatic messages</b>\n' + '\n'.join(f'{mark(k)} · {l}' for k, l in TOGGLE_AUTO)
-           + '\n\n<i>Commands that always work: /top /story /today /short /ep /mute /unmute /menu</i>')
-    tg(txt, None, [((('⛔ ' if k in off else '✅ ') + l.replace('Button: ', '')), f'mn:{k}') for k, l in TOGGLE_BTNS + TOGGLE_AUTO])
-
-
-def toggle(key, tgs):
-    if key not in dict(TOGGLE_BTNS + TOGGLE_AUTO):
-        return
-    off = tgs.setdefault('off', [])
-    off.remove(key) if key in off else off.append(key)
-    save_tg(tgs)
-    send_menu('Updated. ' + ('⛔ ' + key + ' is now off.' if key in off else '✅ ' + key + ' is back on.'))
-    cmd_menu(tgs)
 
 
 def brief(tgs, label):
@@ -1553,106 +1462,6 @@ def kit_take(tgs):
     tg(f'💬 <b>Your take</b>\n<code>{E(q)}</code>' if q else '⚠️ The AI writer is busy, tap again in a minute.')
 
 
-def on_feedback(k, val, tgs):
-    it = menu_item(k, tgs)
-    if not it:
-        return 'Too old'
-    sk = brain.mark(it['title'], 'fb', 1 if val == '1' else -1, time.time())
-    brain.save()
-    return 'Saved 👍 — more like this' if val == '1' else 'Saved 👎 — fewer like this'
-
-
-def on_posted(k):
-    d = TGS.get('designs', {}).get(k)
-    if not d:
-        return 'Too old'
-    t = d['item'].get('title') or d['p'].get('title', '')
-    brain.mark(t, 'posted', True, time.time())
-    with brain.LOCK:
-        brain.load()['posted'].append({'t': time.time(), 'title': t[:160], 'tp': brain.topics(t + ' ' + d['p'].get('title', ''))})
-    brain.save()
-    tg('✅ Logged. Send me the link of your X post and I\'ll track how it does.')
-    return 'Logged ✅'
-
-
-def track_mine(user, sid, post):
-    linked = brain.reply_link(post['text'], f'https://x.com/{user}/status/{sid}')
-    if linked:
-        brain.save(); tg(f'✅ Matched to the {linked["style"]} reply I wrote. I will read its likes and views tomorrow and learn which style works for you.')
-    with brain.LOCK:
-        brain.load()['mine'][sid] = {'t': time.time(), 'url': f'https://x.com/{user}/status/{sid}', 'text': post['text'][:280],
-                                     'tp': brain.topics(post['text']), 'likes': post.get('likes', 0), 'views': post.get('views', 0), 'checked': 0}
-    brain.save()
-    tg('📈 Tracking your post. I\'ll check its likes and views tomorrow and learn from it.')
-
-
-def check_mine():
-    """24h after you post: read your post's real likes/views (free) so the brain learns what works on YOUR account."""
-    for sid, m in list(brain.load()['mine'].items()):
-        if m.get('checked') or time.time() - m['t'] < 24 * 3600:
-            continue
-        u = XLINK.search(m['url'])
-        p = read_x(u.group(1), sid) if u else None
-        with brain.LOCK:
-            if p:
-                m.update({'likes': p.get('likes', 0), 'views': p.get('views', 0)})
-                for r in brain.load()['replies']:                      # a reply draft linked to this post: store its real result
-                    if r.get('url') == m['url']:
-                        r.update({'likes': p.get('likes', 0), 'views': p.get('views', 0)})
-            m['checked'] = time.time()
-    brain.save()
-
-
-def save_xpost(post):
-    if post and post.get('likes'):
-        with brain.LOCK:
-            brain.load()['xposts'].append({'a': post['author'], 'text': post['text'][:500], 'likes': post['likes'],
-                                           'views': post.get('views', 0), 't': time.time()})
-
-
-def weekly_report():
-    b = brain.load(); now = time.time(); wk = 7 * 86400
-    posted = [p for p in b['posted'] if now - p['t'] < wk]
-    tops = {}
-    for p in posted:
-        for t in p.get('tp') or ['other']:
-            tops[t] = tops.get(t, 0) + 1
-    mine = [m for m in b['mine'].values() if now - m['t'] < wk + 86400 and m.get('checked')]
-    best = max(mine, key=lambda m: m.get('likes', 0), default=None)
-    missed = sorted([s for s in b['stories'].values() if now - s['t0'] < wk and s['lab'] == 1 and not s.get('posted')],
-                    key=lambda s: -(s.get('vmax', 0) + s.get('smax', 0) / 3))[:3]
-    stt = brain.status()
-    m = '📅 <b>Your week on Chain Secrets</b>\n\n'
-    m += f'✍️ Posts made: <b>{len(posted)}</b>' + (f' · most: {", ".join(f"{k} ({v})" for k, v in sorted(tops.items(), key=lambda x: -x[1])[:3])}' if tops else '') + '\n'
-    if mine:
-        m += f'📈 Tracked X posts: {len(mine)} · avg ❤️ {sum(x.get("likes", 0) for x in mine) / len(mine):.0f} · avg 👁 {sum(x.get("views", 0) for x in mine) / len(mine):,.0f}\n'
-        m += f'🏆 Best: <i>{E(best["text"][:100])}</i> ({best.get("likes", 0)} ❤️)\n'
-    else:
-        m += '📈 No tracked X posts yet — send me your post links after posting.\n'
-    if missed:
-        m += '\n🙈 <b>Big stories you missed</b>\n' + '\n'.join(f'• {E(s["title"][:110])}' for s in missed) + '\n'
-    m += (f'\n🧠 Brain: {stt["labeled"]} stories learned ({stt["viral"]} viral)'
-          + (f' · accuracy score {stt["auc"]:.2f}' if stt.get('auc') else '') + (' · ✅ predicting' if stt['ready'] else ' · still learning'))
-    tg(m)
-
-
-def brain_status():
-    s = brain.status()
-    m = '🧠 <b>Chain Radar brain</b>\n\n'
-    m += f'Stories logged: <b>{s["stories"]}</b> ({s["days"]:.1f} days of data)\nLearned (6h+ old): <b>{s["labeled"]}</b> · went viral: <b>{s["viral"]}</b>\n'
-    m += f'Your taps: {s["fb"]} 👍/👎 · tracked X posts: {s["mine"]} · big-account posts seen: {s["xposts"]}\n'
-    m += f'Telegram channels live: {len(s["chan"])}\n\n'
-    if s['ready']:
-        m += f'✅ <b>Predicting.</b> Accuracy score {s["auc"]:.2f} (0.5 = guessing, 1.0 = perfect). Alerts now show viral chance %.'
-    else:
-        need = max(0, 150 - s['labeled'])
-        m += (f'⏳ <b>Still learning.</b> ~{need} more stories needed before it predicts (about {max(1, need // 40 + 1)} days). '
-              'Until then alerts use the score. Tap 👍/👎 to teach it your taste faster.')
-    sh = shorts.status()
-    m += f'\n\n🎬 <b>Shorts brain</b>: {sh["shorts"]:,} Shorts studied · {sh["analyzed"]} watched by AI · {sh["winners"]} big winners'
-    tg(m)
-
-
 _SCHED = {}
 
 
@@ -1666,8 +1475,6 @@ def scheduler(tgs):
     def due(key, hour, minute=0, window=40, weekday=None):
         if weekday is not None and now.weekday() != weekday:
             return False
-        if is_off(key):
-            return False
         if now.hour == hour and minute <= now.minute < minute + window and tgs.get(key) != day:
             tgs[key] = day
             return True
@@ -1678,18 +1485,6 @@ def scheduler(tgs):
         jobs.append(lambda: daily_kit(tgs))
     if due('brief17', 20):
         jobs.append(lambda: brief(tgs, '🌆 <b>Evening briefing</b>'))
-    if due('trained', 3, 30):
-        jobs.append(lambda: (brain.label_due(time.time()), brain.train(), brain.save()))
-    if due('checked', 12, 40, 60):
-        jobs.append(check_mine)
-    if due('weekly', 18, weekday=6):
-        jobs.append(weekly_report)
-    if due('sh_collect', 5):
-        jobs.append(lambda: shorts.collect())
-    if due('sh_analyze', 6):
-        jobs.append(lambda: shorts.analyze_batch(60, [m for m in gemini_models() if 'gemma' not in m][:3]))
-    if due('sh_weekly', 18, 45, weekday=6):
-        jobs.append(shorts_report)
     for j in jobs:
         def run(j=j):
             try:
@@ -2021,46 +1816,6 @@ def why_short(vid):
        f'🎣 <b>Hook:</b> "{E(str(a.get("hook", ""))[:150])}"\n<i>{E(str(a.get("hook_type", "")))} · promise clear by {a.get("hook_seconds", "?")}s</i>\n'
        f'🎭 Tone: {E(str(a.get("tone", "")))} · jokes: {a.get("jokes", "?")} · twist: {"yes" if a.get("twist") else "no"} · ending: {E(str(a.get("ending", "")))}\n'
        f'🎬 {E(str(a.get("visual", ""))[:160])}\n\n💡 <b>Why it works:</b> {E(str(a.get("why", ""))[:250])}')
-
-
-def cmd_hook(text, tgs):
-    """Hook doctor: an idea or a script in -> 5 stronger hooks, ranked, based on real viral hooks."""
-    learned = shorts.best_hooks(25)
-    ex = ('Real hooks from crypto/money Shorts that beat their channel average (multiplier, hook):\n'
-          + '\n'.join(f'- {o:.0f}x: "{h}"' for o, h, t, vw in learned) if len(learned) >= 8
-          else 'Proven hook patterns:\n' + '\n'.join('- ' + h for h in PROVEN_HOOKS))
-    pat = shorts.patterns()
-    if pat:
-        ex += '\n\nWhat winners do vs flops: ' + '; '.join(f'{r[0]} {r[1]:.0f}{r[3]} vs {r[2]:.0f}{r[3]}' for r in pat['rows'][:5])
-    out = gemini_voice(VOICE + '\nYou write the first line (the hook, said in the first 2-3 seconds) for a faceless crypto story YouTube Short '
-                       'on the channel Chain Secrets. Write 5 different hooks for the idea below, strongest first. Each: max 14 words, '
-                       'creates curiosity instantly, uses a real number from the idea when there is one, no clickbait lies, no invented facts.\n'
-                       'Format exactly:\n1. <hook> | <hook type> | <why it works, max 10 words>\n2. ...\n\n' + ex + '\n\nIDEA OR SCRIPT:\n' + text[:2500])
-    rows = [r for r in re.findall(r'(?m)^\s*\d\.\s*(.+)$', out or '')][:5]
-    if not rows:
-        unack(); tg('⚠️ The AI writer is busy, try again in a minute.'); return
-    m = '🎣 <b>Hook doctor</b> · strongest first\n'
-    for n, r in enumerate(rows, 1):
-        parts = [x.strip() for x in r.split('|')]
-        m += f'\n<b>{n}.</b> <code>{E(clean_voice(parts[0]).strip(chr(34)))}</code>' + (f'\n    <i>{E(" · ".join(parts[1:3]))}</i>' if len(parts) > 1 else '')
-    m += '\n\n<i>' + ('Based on real viral Shorts from the brain.' if len(learned) >= 8 else 'Based on proven patterns (the brain is still learning).') + '</i>'
-    unack(); tg(m)
-
-
-def shorts_report():
-    st = shorts.status(); pat = shorts.patterns(); hooks = shorts.best_hooks(5); ws = shorts.winners(days=7, k=3)
-    m = f'🎬 <b>Shorts brain · weekly report</b>\n{st["shorts"]:,} Shorts studied · {st["analyzed"]} watched by AI · {st["winners"]} big winners\n'
-    if ws:
-        m += '\n🔥 <b>Top Shorts this week</b>\n' + '\n'.join(f'• <a href="https://youtube.com/shorts/{vid}">{E(v["t"][:70])}</a> · <b>{v["out"]:.0f}x</b>' for vid, v in ws) + '\n'
-    if hooks:
-        m += '\n🎣 <b>Best hooks</b>\n' + '\n'.join(f'• "{E(h[:100])}" <i>({o:.0f}x)</i>' for o, h, t, vw in hooks) + '\n'
-    if pat:
-        m += f'\n📐 <b>Winners vs flops</b> <i>({pat["n_w"]} vs {pat["n_f"]})</i>\n<pre>' + '\n'.join(
-            f'{r[0][:22]:<22}{r[1]:>6.0f}{r[3]:<1} {r[2]:>6.0f}{r[3]}' for r in pat['rows']) + '</pre>'
-        m += 'Top hook types: ' + ', '.join(f'{t} ({c})' for t, c in pat['types'])
-    else:
-        m += '\n<i>Patterns appear once ~8 winners and 8 flops are analyzed.</i>'
-    tg(m[:4000])
 
 
 # ---------------- 🎬 automatic Shorts: /short topic -> script (checkpoint 1) -> voice (2) -> video (3) ----------------
@@ -2547,24 +2302,21 @@ def app_action(data, tgs):
 
 HELP = ('🕵️ <b>Chain Secrets bot</b>\n\n'
         '<b>Stories</b>\n'
-        '/top — hottest crypto stories right now → tap one for a full post\n'
-        '/story <i>topic</i> — a full package: 5-7 post X thread, real chart, sources, then a Short in one tap\n'
-        '/today — an old story that happened on this date, same full package\n'
-        '/short <i>story</i> — a finished YouTube Short (script → voice → video). Add 30 / 1min / 2min for the length\n'
+        '/top — hottest crypto stories right now → tap one for a full post, then pick its look\n'
+        '/viral — the ONE best thing to post right now, and why\n'
+        '/story <i>topic</i> — X thread + real chart (only when it matters) + sources, then a Short in one tap\n'
+        '/today — an old story from this date, same package\n'
+        '/short <i>story</i> — a finished YouTube Short. Add 30 / 1min / 2min for the length\n'
         '/ep — which Short number is next\n\n'
         '<b>Replies</b>\n'
-        '• <b>Share any X post link</b> → one checked reply (numbers verified, live coin data, tells you if the post is too old)\n'
-        '• Tap 👍 It worked / 👎 Didn\'t work so it learns your style; paste the link of your own reply and it reads its likes tomorrow\n'
-        '• Viral stories come with a 🔥 reply-window alert + a checked reply\n\n'
-        '<b>Make posts from anything</b>\n'
-        '• <b>Forward</b> a news message, or <b>paste an article link</b> → full post\n'
+        '• <b>Send an X post link</b> → 3 reply ideas to copy (facts checked, tells you if the post is too old)\n\n'
+        '<b>Coins</b>\n'
         '• <b>Type any coin</b> (<code>$PEPE</code>, <code>chart sol</code>) → real chart + a ready sentence\n\n'
-        '<b>Control</b>\n'
-        '/menu — switch buttons and automatic messages on or off\n'
+        '<b>Alerts</b>\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
-COMMANDS = [('top', 'Hottest stories now'), ('story', 'Full story package: /story Do Kwon'), ('today', 'Old story from this date'),
-            ('short', 'Make a YouTube Short: /short story'), ('reply', 'Reply for an X post: /reply <link>'), ('ep', 'Next Short number'),
-            ('menu', 'Buttons and automations on/off'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
+COMMANDS = [('top', 'Hottest stories now'), ('viral', 'The best thing to post right now'), ('story', 'Full story package: /story Do Kwon'), ('today', 'Old story from this date'),
+            ('short', 'Make a YouTube Short: /short story'), ('reply', 'Reply ideas: /reply <link>'), ('ep', 'Next Short number'),
+            ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
 def gnews(q, n=8, recent=True):
@@ -2800,19 +2552,11 @@ def handle(u, tgs):
     if cb:
         data = cb.get('data') or ''
         toast = 'Refreshing…' if data == 'mr:' else 'On it…'
-        if data.startswith('f:'):
-            _, k, val = data.split(':', 2); toast = on_feedback(k, val, tgs)
-        elif data.startswith('ps:'):
-            toast = 'Logged ✅'
         try:
             requests.post(f'https://api.telegram.org/bot{TOKEN}/answerCallbackQuery', data={'callback_query_id': cb['id'], 'text': toast}, timeout=10)
         except Exception:
             pass
         mid = (cb.get('message') or {}).get('message_id')
-        if data.startswith('f:'):
-            return
-        if data.startswith('ps:'):
-            on_posted(data[3:]); return
         if data.startswith('p:'):
             item = menu_item(data[2:], tgs)
             if item:
@@ -2826,14 +2570,6 @@ def handle(u, tgs):
         elif data.startswith('v:'):
             _, k, vis = data.split(':', 2)
             switch_design(k, vis, (cb.get('message') or {}).get('message_id'))
-        elif data.startswith('ra:'):
-            parts = data.split(':'); keep = len(parts) > 3                  # ':k' = switching side: keep the old reply message
-            if keep:
-                r = tgs.get('replies', {}).get(parts[1])
-                if r:
-                    r['stance'] = parts[2]; ack('⏳ Writing your reply…'); reply_from_text(r['text'], r['author'], r.get('post'), tgs, parts[1], parts[2])
-            else:
-                on_stance(parts[1], parts[2], tgs, mid)
         elif data.startswith('sa:'):
             short_approve(data[3:], tgs)
         elif data.startswith('sk:'):                                     # explicit consent to a script outside the length window
@@ -2860,16 +2596,12 @@ def handle(u, tgs):
             why_short(data[3:])
         elif data == 'kq:':
             kit_take(tgs)
-        elif data.startswith('mn:'):
-            toggle(data[3:], tgs)
         elif data.startswith('pk:'):
             _, k_, L_ = data.split(':'); p_ = tgs.get('packages', {}).get(k_)
             if p_: ack(f'⏳ Researching and writing a {LEN_NAME[int(L_)]} script…'); short_draft(p_['topic'], tgs, None, None, int(L_))
             else: tg('That package expired. Send /story again.')
         elif data.startswith('pt:'):
             tg('Send /story + the topic again.')
-        elif data.startswith('rf:'):
-            on_reply_feedback(data)
         elif data.startswith('rr:'):
             more_replies(data[3:], tgs)
         elif data.startswith('x:'):
@@ -2902,7 +2634,7 @@ def handle(u, tgs):
     parts = t.split(); c = parts[0].lower().split('@')[0]; args = parts[1:]
     fwd = msg.get('forward_origin') or {}
     fwd_src = (fwd.get('chat') or {}).get('title') or (fwd.get('sender_user') or {}).get('first_name') or fwd.get('sender_user_name')
-    MAP = {'📰 Top stories': '/top', '📖 Story': '/story', '📜 Today': '/today', '⚙️ Menu': '/menu'}
+    MAP = {'📰 Top stories': '/top', '📖 Story': '/story', '📜 Today': '/today'}
     if t in MAP:
         c, args = MAP[t], []
     if tgs.get('short_edit') and re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) and short_edit(t, tgs):
@@ -2914,8 +2646,6 @@ def handle(u, tgs):
         tg('💬 Share or paste the X post link here and I\'ll write the best reply.'); return
     if c in ('/start', '/help', 'help'):
         tg(HELP); send_menu()
-    elif c == '/brain':
-        brain_status()
     elif c == '/ep':
         if args and args[0].isdigit():
             tgs['short_ep'] = int(args[0]) - 1; tg(f'✅ The next Short will be <b>#{int(args[0])}</b>.')
@@ -2947,7 +2677,8 @@ def handle(u, tgs):
         if args and XLINK.search(args[0]):
             cmd_reply(args[0], tgs)
         elif args:
-            ask_stance(' '.join(args), 'someone', None, tgs, hashlib.md5(t.encode()).hexdigest()[:10])
+            k_ = hashlib.md5(t.encode()).hexdigest()[:10]; tgs.setdefault('replies', {})[k_] = {'t': time.time(), 'text': ' '.join(args)[:2000], 'author': 'someone', 'post': {}, 'used': []}
+            ack('⏳ Writing 3 reply ideas…'); reply_from_text(' '.join(args), 'someone', None, tgs, k_)
         else:
             tg('Send <code>/reply</code> + an X post link — or just paste/share the link to me.')
     elif XLINK.search(t) and not fwd:
@@ -2958,8 +2689,6 @@ def handle(u, tgs):
         research_story(' '.join(args), tgs) if args else tg('📖 Send <code>/story</code> + a topic, e.g. <code>/story Do Kwon</code>. For an old story from this date use /today.')
     elif c == '/today':
         cmd_today(tgs)
-    elif c == '/menu':
-        cmd_menu(tgs)
     elif c == '/mute':
         hrs = float(args[0]) if args and re.match(r'^\d+(\.\d+)?$', args[0]) else 3
         tgs['mute_until'] = NOW + hrs * 3600; tg(f'🔕 Alerts paused for {hrs:g}h. /unmute to resume.')
@@ -2967,19 +2696,6 @@ def handle(u, tgs):
         tgs['mute_until'] = 0; tg('🔔 Alerts back on.')
     elif c.startswith('/'):
         tg(HELP)
-    elif fwd or len(t) >= 60 or re.match(r'https?://', t) or c == '/post':
-        urls = re.findall(r'https?://\S+', t)
-        if re.match(r'https?://\S+$', t):               # just a link
-            url = t
-            ack()
-            pg = get(url, timeout=8); ttl = re.search(r'(?is)<title[^>]*>(.*?)</title>', pg.text) if pg else None
-            ttl = html.unescape(ttl.group(1)).split(' | ')[0].split(' - ')[0].strip() if ttl else url
-            make_post({'title': ttl, 'url': url, 'src': re.sub(r'^https?://(www\.)?([^/]+).*', r'\2', url), 'urls': [url]})
-        else:                                            # forwarded or pasted news text
-            ack()
-            first = re.split(r'(?<=[.!?])\s|\n', re.sub(r'https?://\S+', '', t).strip())[0][:140]
-            make_post({'title': first or t[:120], 'facts': 'News text (from a Telegram message):\n' + t[:3000], 'src': fwd_src or 'Telegram',
-                       'url': urls[0] if urls else '', 'urls': urls[:2]})
     else:
         tg(HELP)
 
@@ -3065,7 +2781,7 @@ if __name__ == '__main__':
         fake_tg(f'SHORTS status {shorts.status()} new={n_new} analyzed={n_an}')
         sample = [(k, v) for k, v in shorts.load()['v'].items() if v.get('an')][:3]
         fake_tg('SHORTS sample analyses\n' + json.dumps([{'t': v['t'], 'out': v.get('out'), 'an': v['an']} for k, v in sample], indent=1)[:3500])
-        cmd_viral(t); cmd_hook('Mt Gox lost 850,000 bitcoin in 2014 and users waited 10 years to get paid back', t)
+        cmd_viral(t)
         print('beirut now', datetime.now(BEIRUT), 'quiet', quiet())
         st = load_state()
         for k, it in list(st.get('menu', {}).items())[:40]:
