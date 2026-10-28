@@ -72,6 +72,44 @@ def live_replies():
     return ok >= 2
 
 
+def emit_image(name, png_bytes):
+    """the runner logs are unreadable from here, so a small JPEG goes out as one annotation (base64) and is decoded locally"""
+    import io, base64
+    from PIL import Image
+    im = Image.open(io.BytesIO(png_bytes)).convert('RGB').resize((540, 675)); b = io.BytesIO(); im.save(b, 'JPEG', quality=62)
+    _orig_print(f'::notice title=img-{name}::' + base64.b64encode(b.getvalue()).decode())
+
+
+def live_chart():
+    r = radar(); ok = True
+    for cid in ('bitcoin', 'ethereum', 'solana', 'pepe'):
+        coin = r.coin_by_id(cid)
+        if not coin:
+            print(cid, 'no coin data'); ok = False; continue
+        g, summary = r.chart_gate(coin)
+        print(f'{coin["sym"]:5} {fmt_(coin["price"])} | {summary} | gate: {g["key"] + " " + format(g["move"] * 100, "+.1f") + "%" if g else "no chart (not worth it)"}')
+    coin = r.coin_by_id('bitcoin')
+    rows, src, lab = r.candles(coin, '7d')
+    print('BTC 7d candles', len(rows), src, '| first', rows[0][:5] if rows else None)
+    if rows:
+        img, mv = r.card.chart_card('Bitcoin last 7 days', coin, rows, lab, 'MOVER', src, focus=7 * 86400)
+        print('7d chart move', round(mv * 100, 2), 'bytes', len(img)); emit_image('btc7d', img)
+    img, why = r.hist_chart('BTC', datetime(2020, 3, 12, tzinfo=timezone.utc).timestamp(), 'Black Thursday')
+    print('Black Thursday:', why, len(img) if img else None)
+    if img: emit_image('blackthursday', img)
+    # source agreement check for the same window
+    b = r.binance('BTC', 86400, datetime(2020, 2, 20, tzinfo=timezone.utc).timestamp(), datetime(2020, 3, 20, tzinfo=timezone.utc).timestamp())
+    c = r.coinbase('BTC', 86400, datetime(2020, 2, 20, tzinfo=timezone.utc).timestamp(), datetime(2020, 3, 20, tzinfo=timezone.utc).timestamp())
+    cm = {x[0] // 86400000: x[4] for x in c or []}
+    dev = sorted(abs(x[4] / cm[x[0] // 86400000] - 1) for x in b if x[0] // 86400000 in cm)
+    print(f'binance {len(b)} candles, coinbase {len(c or [])} candles, median close difference {dev[len(dev) // 2] * 100:.2f}%' if dev else f'binance {len(b)} coinbase {len(c or [])} no overlap')
+    return ok and bool(rows)
+
+
+def fmt_(v):
+    return f'${v:,.4g}'
+
+
 def live_package():
     r = radar()
     facts = ('On March 12, 2020: Black Thursday: Bitcoin crashes about 40% in a day. (Well-documented crypto history.)\n'
@@ -90,5 +128,6 @@ if __name__ == '__main__':
     if what in ('length', 'all'): results['length'] = live_length()
     if what in ('replies', 'all'): results['replies'] = live_replies()
     if what in ('package', 'all'): results['package'] = live_package()
+    if what in ('chart', 'all'): results['chart'] = live_chart()
     for k, v in results.items(): print(k, 'PASS' if v else 'FAIL')
     sys.exit(0 if all(results.values()) else 1)

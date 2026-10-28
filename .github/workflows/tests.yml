@@ -3,7 +3,7 @@ name: tests
 on:
   workflow_dispatch:
     inputs:
-      live: {description: 'live checks to run: none | length | replies | package | all', default: none}
+      live: {description: 'live checks to run: none | length | replies | package | chart | all', default: none}
 permissions:
   contents: read
 jobs:
