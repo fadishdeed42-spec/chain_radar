@@ -1,0 +1,36 @@
+name: lab
+# Manual feasibility tests for Studio video styles. Touches nothing in main; publishes sample images to the throwaway 'samples' branch.
+on:
+  workflow_dispatch:
+    inputs:
+      what: {description: 'blender | hf | all', default: all}
+permissions:
+  contents: write
+jobs:
+  blender:
+    if: github.event.inputs.what != 'hf'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q blender
+      - run: blender --version | head -2
+      - name: workbench engine (fast, flat look)
+        run: ENGINE=WORKBENCH blender -b -P lab/blender_test.py 2>&1 | grep -E "BLENDER|Error|error" || true
+      - name: cycles engine (real lighting, slow)
+        run: ENGINE=CYCLES FRAMES=6 blender -b -P lab/blender_test.py 2>&1 | grep -E "BLENDER|Error|error" || true
+      - name: publish samples
+        run: |
+          git config user.name lab; git config user.email lab@users.noreply.github.com
+          git checkout --orphan samples-blender; git rm -rf . -q 2>/dev/null || true
+          mkdir -p s && cp sample_out/*.png s/ && git add s && git commit -q -m samples && git push -f -q origin samples-blender
+  hf:
+    if: github.event.inputs.what != 'blender'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q gradio_client
+      - run: python lab/hf_test.py
