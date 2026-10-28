@@ -1,34 +1,38 @@
 media 0 video prison bars -> Video: Engin_Akyurt / Pixabay
 media 1 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
 media 2 video poker cards chips -> Video: LifeSigner / Pixabay
+media 3 video shanghai skyline -> Video: engrahmad2653 / Pixabay
 media 5 video stock trading screens -> Video: Dimitri_K / Pixabay
+media 6 video data center servers -> Video: FindingFootage / Pixabay
 media 7 video police lights night -> Video: doktorkleinmusic / Pixabay
 media 8 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
+media 9 video money counting -> Video: Hassas_Arts / Pixabay
 media 10 video courtroom gavel -> Video: tommyvideo / Pixabay
 media 11 video prison fence -> Video: Joe_hackney / Pixabay
+media 12 video luxury mansion -> Video: JoteF / Pixabay
 media 13 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
 media 14 video prison corridor -> Video: klimkin / Pixabay
-media files: 10
-$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/a55db3fd sfx
-$ ffmpeg -y -v error -f concat -safe 0 -i jobs/a55db3fd/parts.txt -c copy jobs/a55db3fd/silent.mp4
-$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/a55db3fd/voicep.wav jobs/a55db3fd/timing.json jobs/a55db3fd/voice_tight.wav
-ok jobs/a55db3fd/voice_tight.wav
-$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/a55db3fd/music_long.wav
-$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/a55db3fd/silent.mp4 jobs/a55db3fd/voice_tight.wav jobs/a55db3fd/sfx.wav jobs/a55db3fd/music_long.wav 102.68 jobs/a55db3fd/short.mp4 0.08
+media files: 14
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/lookt1 sfx
+$ ffmpeg -y -v error -f concat -safe 0 -i jobs/lookt1/parts.txt -c copy jobs/lookt1/silent.mp4
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/lookt1/voicep.wav jobs/lookt1/timing.json jobs/lookt1/voice_tight.wav
+ok jobs/lookt1/voice_tight.wav
+$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/lookt1/music_long.wav
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/lookt1/silent.mp4 jobs/lookt1/voice_tight.wav jobs/lookt1/sfx.wav jobs/lookt1/music_long.wav 102.68 jobs/lookt1/short.mp4 0.08
 voice-over-bed dB while speaking: median 47.7, 5th pct 24.0, worst 7.9
 worst windows: [(65.0, np.float32(7.9)), (24.8, np.float32(10.9)), (38.8, np.float32(11.3)), (17.8, np.float32(11.7)), (11.8, np.float32(12.1))]
-mixed -> jobs/a55db3fd/short.mp4
-$ ffmpeg -y -v error -i jobs/a55db3fd/short.mp4 -c:v libx264 -b:v 3250k -maxrate 4225k -bufsize 6500k -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/a55db3fd/short_s.mp4
-$ ffmpeg -y -v error -ss 4.28 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_00.png
-$ ffmpeg -y -v error -ss 12.84 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_01.png
-$ ffmpeg -y -v error -ss 21.39 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_02.png
-$ ffmpeg -y -v error -ss 29.95 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_03.png
-$ ffmpeg -y -v error -ss 38.51 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_04.png
-$ ffmpeg -y -v error -ss 47.06 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_05.png
-$ ffmpeg -y -v error -ss 55.62 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_06.png
-$ ffmpeg -y -v error -ss 64.17 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_07.png
-$ ffmpeg -y -v error -ss 72.73 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_08.png
-$ ffmpeg -y -v error -ss 81.29 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_09.png
-$ ffmpeg -y -v error -ss 89.85 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_10.png
-$ ffmpeg -y -v error -ss 98.40 -i jobs/a55db3fd/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/a55db3fd/sh_11.png
-$ ffmpeg -y -v error -i jobs/a55db3fd/sh_%02d.png -vf tile=6x2 -q:v 4 jobs/a55db3fd/sheet.jpg
+mixed -> jobs/lookt1/short.mp4
+$ ffmpeg -y -v error -i jobs/lookt1/short.mp4 -c:v libx264 -b:v 3250k -maxrate 4225k -bufsize 6500k -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/lookt1/short_s.mp4
+$ ffmpeg -y -v error -ss 4.28 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_00.png
+$ ffmpeg -y -v error -ss 12.84 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_01.png
+$ ffmpeg -y -v error -ss 21.39 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_02.png
+$ ffmpeg -y -v error -ss 29.95 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_03.png
+$ ffmpeg -y -v error -ss 38.51 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_04.png
+$ ffmpeg -y -v error -ss 47.06 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_05.png
+$ ffmpeg -y -v error -ss 55.62 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_06.png
+$ ffmpeg -y -v error -ss 64.17 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_07.png
+$ ffmpeg -y -v error -ss 72.73 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_08.png
+$ ffmpeg -y -v error -ss 81.29 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_09.png
+$ ffmpeg -y -v error -ss 89.85 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_10.png
+$ ffmpeg -y -v error -ss 98.40 -i jobs/lookt1/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/lookt1/sh_11.png
+$ ffmpeg -y -v error -i jobs/lookt1/sh_%02d.png -vf tile=6x2 -q:v 4 jobs/lookt1/sheet.jpg
