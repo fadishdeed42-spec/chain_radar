@@ -518,9 +518,10 @@
 "src": "Hokanews",
 "srcs": [
 "Bitcoin Magazine",
+"Cryptonews.net",
 "Hokanews"
 ],
-"t": 1793220343.462649,
+"t": 1793223429.1958237,
 "t0": 1793205360.0,
 "tgtext": "",
 "title": "Bitcoin Price Struggles Below $80,500 as Fed Decision and US Midterm Elections Weigh on Sentiment",
@@ -594,7 +595,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793210420.0,
 "tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 Federal Reserve leaves interest rates unchanged, remains at 3.75% - 4.00%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 BREAKING: The Federal Reserve has left interest rates unchanged.\n\nNews | Markets | YouTube\n\ud83d\udea8 TODAY: The Federal Reserve held interest rates steady at 3.75%\u20134.00%, citing strong economic activity and still-elevated inflation. \n\nThe decision passed 10\u20132, with Lisa Cook and Beth Hammack voting for a 25-basis-point hike instead. \n\nThe Fed said it needs more data to determine the policy stance needed to bring inflation back to its 2% target.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Federal Reserve held interest rates steady at 3.75%\u20134.00%, citing strong economic activity and still-elevated inflation.",
@@ -651,6 +652,23 @@
 "urls": [
 "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
 "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks"
+]
+},
+"3183a839e428": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Cointelegraph",
+"Decrypt"
+],
+"t": 1793223429.1958237,
+"t0": 1793207012.0,
+"tgtext": "",
+"title": "Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor",
+"url": "https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor",
+"urls": [
+"https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor",
+"https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "31c4b4aacc5d": {
@@ -842,7 +860,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793212963.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 UPDATE: The Fed will keep eight FOMC meetings per year starting in 2027, but one will focus solely on long-term monetary policy strategy with no rate vote or policy statement.\n\nNews | Markets | YouTube",
 "title": "The Fed will keep eight FOMC meetings per year starting in 2027, but one will focus solely on long-term monetary policy strategy with no rate vote or policy statement.",
@@ -1057,19 +1075,6 @@
 "https://www.theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826"
 ]
 },
-"50a505c346f0": {
-"coin": "binancecoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1793050596.6245153,
-"t0": 1793030734.0,
-"tgtext": "CZ Attends Nasdaq Bell-Ringing Ceremony for World's Largest Corporate BNB Treasury Firm\n\nNasdaq-listed BNB Standard Corporation (NASDAQ: BNC) rang the opening bell at Nasdaq's MarketSite in Times Square, New York, to mark its rebranding and the appointment of Alex Odagiu as CEO. Formerly known as CEA Industries, the company officially changed its name on September 29. Its business includes managing a corporate BNB treasury, and it plans to operate a validator node on BNB Chain. The company claims to hold the world's largest corporate BNB treasury. \u2014 link",
-"title": "CZ Attends Nasdaq Bell-Ringing Ceremony for World's Largest Corporate BNB Treasury Firm",
-"url": "https://t.me/wublockchainenglish/26557",
-"urls": []
-},
 "520643bac734": {
 "coin": "bitcoin",
 "src": "FXStreet",
@@ -1277,7 +1282,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793209854.0,
 "tgtext": "JUST IN: Solana $SOL co-founder Anatoly Yakovenko says US companies opposing tokenized stock trading \"should go private then.\"\n\n@WatcherGuru",
 "title": "Solana SOL co-founder Anatoly Yakovenko says US companies opposing tokenized stock trading \"should go private then.\"",
@@ -1656,7 +1661,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793222816.3921983,
+"t": 1793223125.1757934,
 "t0": 1793201528.0,
 "tgtext": "",
 "title": "Strategy (MSTR) Shareholders Approve Daily Dividends on Four Preferred Stocks",
@@ -1805,7 +1810,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793208077.0,
 "tgtext": "Bloomberg: Over $170M in Unusual Hyperliquid Oil Perp Orders Raise Spoofing Suspicions\n\nAccording to Bloomberg, market surveillance firm Solidus Labs identified over $170 million in unusual orders placed through two Hyperliquid accounts between March 8 and 10, amid sharp oil price swings linked to the Iran war. The activity raised concerns about potential spoofing in oil perpetual futures markets.\n\nThe trader repeatedly placed and canceled large orders on one side of the order book while executing trades on the other, with a cancellation-to-execution value ratio of roughly 30:1, generating about $119,000 in profits over three days. The activity primarily involved Brent crude perps. Solidus said the pattern resembled spoofing but acknowledged that manipulative intent remains unproven. Hyperliquid Labs emphasized that all orders, cancellations and trades are recorded on a transparent public blockchain and can be independently reviewed. \u2014 link",
 "title": "Bloomberg: Over $170M in Unusual Hyperliquid Oil Perp Orders Raise Spoofing Suspicions",
@@ -2636,7 +2641,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793209408.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says crypto stablecoins can strengthen the US dollar's global dominance.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says crypto stablecoins can strengthen the US dollar's global dominance.",
@@ -2710,19 +2715,6 @@
 "https://cointelegraph.com/news/bithumb-discloses-data-leak-after-internal-system-breach-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks"
 ]
-},
-"c963c3bfff67": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1793050292.8714194,
-"t0": 1793028923.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Markets price in a 90.6% chance the Fed holds rates steady on Oct. 28.\n\nWill the Fed hike or hold?\n\nNews | Markets | YouTube",
-"title": "Markets price in a 90.6% chance the Fed holds rates steady on Oct. 28.",
-"url": "https://t.me/cointelegraph/72863",
-"urls": []
 },
 "c9826eecfa30": {
 "coin": "bitcoin",
@@ -2999,7 +2991,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793212750.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"",
@@ -3183,7 +3175,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793221501.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: Peter Schiff says Warsh \u201cmay have bowed to political pressure from Trump not to hike rates a week before the midterms.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: Peter Schiff says Warsh \u201cmay have bowed to political pressure from Trump not to hike rates a week before the midterms.\u201d",
@@ -3368,7 +3360,7 @@
 "Pluang",
 "The Crypto Times"
 ],
-"t": 1793222816.3921983,
+"t": 1793223429.1958237,
 "t0": 1793211896.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: ETH edges up after Fed holds rates",
@@ -3653,10 +3645,9 @@
 "04e8eb08a4a3": 0.013,
 "0defc2a23bc6": 0.024,
 "14250bf6cdb5": 0.029,
-"1d3c9d093d84": 0.112,
-"1dc45f5ce1a8": 0.034,
-"1f55a16768f3": 0.011,
-"23eec8d98989": 0.14,
+"1afbf4604ddd": 0.017,
+"1d3c9d093d84": 0.026,
+"23eec8d98989": 0.303,
 "2d583674634b": 0.952,
 "325e8826aa0f": 0.021,
 "3ca74ddb95ea": 0.388,
@@ -3664,28 +3655,29 @@
 "43f1d9f1c84c": 0.059,
 "4af07db336e8": 0.015,
 "507656197162": 0.021,
-"56357c3917b4": 0.012,
-"5e496b64af69": 0.022,
+"56357c3917b4": 0.032,
+"596303bebf0d": 0.074,
+"5e496b64af69": 0.015,
 "686267bd22b4": 0.024,
-"75daaa1b654b": 0.041,
-"79617c8e00fe": 0.008,
+"6e610dfb44af": 0.151,
+"78f7a83e386d": 0.036,
 "7b0c3544df68": 0.032,
-"7b85a5b2467a": 0.03,
 "7d3129471422": 0.035,
 "97b75780258c": 0.004,
 "9a94c49b1ae0": 0.009,
-"a0fb9ddee391": 0.04,
 "a1b5a31b64ba": 0.057,
+"b5b9900e0b7f": 0.037,
 "c64371627b33": 0.025,
 "c8511e845ae9": 0.013,
+"d1a435e4fc87": 0.05,
+"d61c462a8b4e": 0.013,
 "d779a0d683f7": 0.316,
 "e63954554493": 0.055,
 "e721c1c1651c": 0.007,
 "e77fb5395843": 0.811,
-"eba9c002baa5": 0.003,
-"ec90ea06f4b8": 0.025,
 "ee3fb41bd1d5": 0.028,
 "eee024423c03": 0.206,
+"f0f386941379": 0.008,
 "f1fe3adcda09": 0.026,
 "faf751b2548b": 0.02,
 "fc91fc36df73": 0.114,
@@ -5011,64 +5003,64 @@
 "top": [
 [
 "2d583674634b",
-41,
-207,
+40,
+217,
 3
 ],
 [
 "e77fb5395843",
 18,
-22,
+32,
 1
-],
-[
-"8a0e1aeaee8a",
-7,
-355,
-3
 ],
 [
 "3ca74ddb95ea",
 24,
-164,
+174,
 1
+],
+[
+"3183a839e428",
+8,
+274,
+2
 ],
 [
 "d779a0d683f7",
 24,
-168,
+178,
 1
 ],
 [
+"23eec8d98989",
+28,
+301,
+3
+],
+[
 "c54af3ce17ed",
-5,
-223,
+3,
+234,
 1
 ],
 [
 "8dd43fc49169",
-8,
-246,
+6,
+256,
 1
 ],
 [
 "64021136245d",
-6,
-216,
+4,
+226,
 1
 ],
 [
 "eee024423c03",
-44,
-182,
+43,
+192,
 3
-],
-[
-"38ba688c4980",
-0,
-347,
-1
 ]
 ],
-"top_at": 1793222816.3921983
+"top_at": 1793223429.1958237
 }
