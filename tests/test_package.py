@@ -61,3 +61,10 @@ def test_removed_commands_and_menu_toggles():
     r.toggle('nonsense', tgs); assert 'nonsense' not in tgs.get('off', [])
     names = [c for c, _ in r.COMMANDS]
     assert not {'movers', 'hacks', 'kit', 'hook', 'chart'} & set(names) and {'story', 'today', 'menu', 'top', 'short'} <= set(names)
+
+
+def test_scene_count_is_a_note_not_a_failure():
+    r = radar(); sb = storyboard('a55db3fd'); sb['settings'] = {'length': 120}
+    sb['scenes'] = sb['scenes'][:11]
+    out, probs = r.draft_check(sb)
+    assert any('scenes' in p for p in probs)

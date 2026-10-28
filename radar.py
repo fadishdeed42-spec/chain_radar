@@ -2236,7 +2236,7 @@ def draft_check(raw):
     try:
         return sstory.check(json.loads(json.dumps(raw)), strict=True)
     except ValueError as e:
-        if str(e).startswith('script is'):
+        if str(e).startswith('script is') or ' scenes for a ' in str(e):          # a few scenes fewer/more than asked is a note, not a reason to throw the script away
             return sstory.check(json.loads(json.dumps(raw)), strict=False)
         raise
 
