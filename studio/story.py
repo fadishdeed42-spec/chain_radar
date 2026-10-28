@@ -5,7 +5,7 @@ with real digits: "$4B", "2017", "Oct 25") and a visual. The narrator must say e
 into SPOKEN words ("four billion dollars", "twenty seventeen", "October twenty-fifth") while remembering how many spoken
 words belong to each token. That count is what keeps captions and visual hits locked to the voice.
 """
-import json, re, math
+import json, re, math, os
 
 ONES = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split()
 TENS = 'zero ten twenty thirty forty fifty sixty seventy eighty ninety'.split()
@@ -188,8 +188,54 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
     'hype':    {'hook': .95, 'setup': .8, 'turn': .85, 'twist': .95, 'payoff': .95, 'end': .65}}
 CTA = 'Follow Chain Secrets. Every chart hides a story.'
 CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
-LENGTHS = {  # target seconds -> (min scenes, max scenes, min words, max words)
-    30: (5, 6, 62, 82), 45: (6, 8, 98, 120), 60: (8, 11, 135, 165), 90: (12, 15, 205, 245), 120: (15, 20, 280, 330)}
+# ---------------------------------------------------------------- length: ONE calibrated model for the writer, the editor and the checks
+# total video seconds = (story words + call-to-action words) / RATE + END_PAD.  RATE = spoken words per second of the real voice, pauses
+# included (measured from the voice files of finished jobs: state/studio.json "rate"); END_PAD = lead-in + end card.
+# A Short passes when its estimated length is within -6% / +8% of the length you picked.
+RATE_DEFAULT, END_PAD, WIN_LO, WIN_HI = 2.4, 2.7, .94, 1.08
+_SCENES = {30: (5, 6), 45: (6, 8), 60: (8, 11), 90: (12, 15), 120: (15, 20)}
+_STUDIO_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'state', 'studio.json')
+
+
+def rate():
+    try:
+        r = float(json.load(open(_STUDIO_JSON)).get('rate') or 0)
+        if 2.1 <= r <= 2.9:
+            return r
+    except Exception:
+        pass
+    return RATE_DEFAULT
+
+
+def window(L, cw=8, r=None):
+    """(min, max, target) spoken STORY words that land an L-second Short inside the window."""
+    r = r or rate()
+    f = lambda secs: max(10, round((secs - END_PAD) * r - cw))
+    return f(WIN_LO * L), f(WIN_HI * L), f(L)
+
+
+def est_secs(words, cw, r=None):
+    return (words + cw) / (r or rate()) + END_PAD
+
+
+def mmss(secs):
+    secs = int(round(secs))
+    return f'{secs // 60}:{secs % 60:02d}'
+
+
+def measured_rate(jobdir):
+    """spoken words per second of a finished voice (first to last word, pauses included), or None"""
+    try:
+        srt = open(os.path.join(jobdir, 'voicep_words.srt')).read()
+        ts = re.findall(r'(\d+):(\d+):(\d+)[,.](\d+) --> (\d+):(\d+):(\d+)[,.](\d+)', srt)
+        t = lambda h, m, s_, f: int(h) * 3600 + int(m) * 60 + int(s_) + int(f.ljust(3, '0')[:3]) / 1000
+        a, b = t(*ts[0][:4]), t(*ts[-1][4:])
+        return len(ts) / (b - a) if b - a > 10 and len(ts) > 20 else None
+    except Exception:
+        return None
+
+
+LENGTHS = {L: (*_SCENES[L], *window(L)[:2]) for L in _SCENES}      # target seconds -> (min scenes, max scenes, min words, max words)
 
 # ---------------------------------------------------------------- Studio settings (docs/studio/schema.json is the source of truth)
 import os as _os
@@ -231,11 +277,12 @@ def check(sb, strict=True):
     probs = []
     if not isinstance(sb, dict) or not isinstance(sb.get('scenes'), list):
         raise ValueError('no scenes')
+    sb.pop('outline', None)                                                 # planning notes only, never stored (the app payload must stay small)
     sb['tone'] = sb.get('tone') if sb.get('tone') in TONES else 'mystery'
     sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)}
     sc = [s for s in sb['scenes'] if isinstance(s, dict) and str(s.get('line', '')).strip()]
     L = length_of(sb); sb['length'] = L
-    lo_s, hi_s, lo_w, hi_w = LENGTHS[L]
+    lo_s, hi_s = LENGTHS[L][:2]
     want = settings(sb).get('scenes', 'auto')
     if str(want).isdigit():                                               # Studio: an exact number of scenes
         lo_s, hi_s = int(want) - 1, int(want) + 1
@@ -269,13 +316,19 @@ def check(sb, strict=True):
         words += sum(len(sp) for _, sp in plan_line(s['line'], sb['respell']))
     sc[0]['role'] = 'hook'; sc[-1]['role'] = 'end'
     sb['scenes'] = sc
-    secs = words / 2.85 + len(sc) * .4 + 3                                    # house pace + gaps + CTA
-    if words < lo_w * .85 or words > hi_w * 1.2:
-        msg = f'script too {"short" if words < lo_w * .85 else "long"}: {words} spoken words, a {L}s Short needs {lo_w}-{hi_w}'
-        if strict or secs > 185:
+    cw = len(cta(sb).split()); lo_w, hi_w, tgt_w = window(L, cw)
+    secs = est_secs(words, cw)                                              # the one calibrated model (see rate())
+    sb['est_secs'] = round(secs); sb['words'] = words; sb['target_words'] = tgt_w
+    sb['length_ok'] = lo_w <= words <= hi_w
+    if sb['length_ok']:
+        sb.pop('length_msg', None)
+    else:                                                                   # never silent: the exact numbers, and the caller decides
+        msg = (f'script is about {mmss(secs)}, a {mmss(L)} Short needs {mmss(WIN_LO * L)} to {mmss(WIN_HI * L)} '
+               f'({words} spoken words, need {lo_w} to {hi_w})')
+        sb['length_msg'] = msg
+        if strict or words > hi_w * 1.4 or secs > 185:
             raise ValueError(msg)
         probs.append(msg)
-    sb['est_secs'] = round(secs); sb['words'] = words
     if settings(sb).get('chart') == 'off' and sb.get('chart'):
         sb['chart'] = None
         for s in sc:
@@ -399,3 +452,15 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
          'cta': round(beats['z_follow'] + (.2 if has_cta else 0), 3) if settings(sb).get('endcard', True) else None, 'cta2': beats['z_every']}
     json.dump(T, open(out, 'w'), indent=1)
     return T
+
+
+def app_tables():
+    """The few word tables the Studio app needs to count spoken words exactly like plan_line() (generated into docs/studio/words.json; a test keeps it fresh)."""
+    return {'spell': {k: len(v.split()) for k, v in SPELL.items()}, 'words': sorted(WORDS), 'abbr': {k: len(v.split()) for k, v in ABBR.items()},
+            'months': sorted(MONTHS)}
+
+
+if __name__ == '__main__':                                                  # python3 studio/story.py  -> refresh docs/studio/words.json
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'docs', 'studio', 'words.json')
+    json.dump(app_tables(), open(out, 'w'), indent=1, sort_keys=True)
+    print('wrote', os.path.abspath(out))

@@ -1954,7 +1954,8 @@ def shorts_report():
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'studio'))
 import story as sstory
 TONE_EMO = {'funny': '😂', 'mystery': '🕵️', 'serious': '⚠️', 'hype': '🔥'}
-SB_SCHEMA = '''{"title": "YouTube title, max 60 chars, curiosity, may end with one emoji",
+SB_SCHEMA = '''{"outline": ["FIRST plan the script: one short entry per scene = the beat, the real fact it carries, its word budget"],
+ "title": "YouTube title, max 60 chars, curiosity, may end with one emoji",
  "alt_hooks": ["3 alternative hook lines"],
  "tone": "funny | mystery | serious | hype",
  "respell": {"HardName": "how to say it", "...": "..."},
@@ -2025,6 +2026,14 @@ def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='au
     chart_rule = {'off': 'set "chart" to null and use no chart visuals.',
                   'on': 'include a real chart whenever any coin price is part of the story (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.'
                   }.get(chart_pref, 'only if the story is about a crypto price on specific dates (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.')
+    cw = 3 if chart_pref == 'off' else 8                                  # call-to-action words added after the story
+    lo_w, hi_w, tgt_w = sstory.window(length, cw)
+    ww = round(tgt_w / 1.08)                                              # spoken words per written word is about 1.08 ($4.3B -> four point three billion dollars)
+    per = max(10, round(ww / max(1, (lo_s + hi_s) / 2)))
+    len_rule = (f'a {LEN_NAME[length]} Short must really run {sstory.mmss(sstory.WIN_LO * length)} to {sstory.mmss(sstory.WIN_HI * length)} when spoken. '
+                f'That is {lo_w} to {hi_w} spoken words in total (aim for {tgt_w}), so write about {ww} words as written (numbers like $4.3B are said as several words). '
+                f'Use {lo_s} to {hi_s} scenes with about {per} words per scene (hook 10 to 14, other lines {max(8, per - 4)} to {per + 5}). '
+                'Count your words before answering. A script that is too short is rejected and rewritten.')
     hooks = shorts.best_hooks(15)
     hook_ex = ('Hooks that beat their channel average on real crypto Shorts:\n' + '\n'.join(f'- "{h}" ({o:.0f}x)' for o, h, t, v in hooks)
                if len(hooks) >= 6 else 'Proven hook patterns:\n' + '\n'.join('- ' + h for h in PROVEN_HOOKS))
@@ -2035,7 +2044,8 @@ def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='au
 with a real price chart when the story has one. Write the storyboard for this story as JSON.
 
 HOUSE RULES
-- LENGTH: a {LEN_NAME[length]} Short = {lo_s} to {hi_s} scenes and {sstory.LENGTHS[length][2]} to {sstory.LENGTHS[length][3]} spoken words in total (count them). Each line 1-2 short spoken sentences, max 22 words.
+- LENGTH: {len_rule} Each line 1-2 short spoken sentences, max 24 words.
+- OUTLINE FIRST: fill "outline" before "scenes" (one entry per scene, with its word budget); the scene lines must follow the outline.
 - STRUCTURE: {LEN_SHAPE[length]}
 - WRITE LIKE A STORYTELLER: concrete names, places, dates and amounts; every line is a punch. Never write vague filler like "faced a crisis",
   "massive", "significant", "shocking", "in the world of crypto". Short sentences. Show, don't summarize.
@@ -2071,6 +2081,53 @@ STORY: {topic}
     return raw
 
 
+def fit_length(sb, facts, passes=3):
+    """The script is measured with the calibrated speaking rate. Outside the window? Ask for exactly the missing words (or cut the extra),
+    re-measure, repeat. Returns the closest version; sb['length_ok'] says whether it made it."""
+    best = sb
+    for _ in range(passes):
+        if best.get('length_ok'):
+            return best
+        sc = best['scenes']; tgt = best['target_words']
+        written = sum(len(x['line'].split()) for x in sc)
+        ratio = best['words'] / max(1, written)                           # spoken words per written word in THIS script
+        delta = round((tgt - best['words']) / ratio)
+        cur = '\n'.join(f'{i + 1}. [{x["role"]}] ({len(x["line"].split())} words, keep the word "{x["hit"]}") {x["line"]}' for i, x in enumerate(sc))
+        how = (f'ADD about {delta} words in total. Spread them over the scenes after the hook: more concrete detail (who, where, how much, what happened next) '
+               'taken ONLY from the FACTS or from what the lines already say. No filler, no repetition.') if delta > 0 else \
+              (f'CUT about {-delta} words in total. Remove the weakest details, never the twist or the numbers.')
+        prompt = ('You edit a faceless YouTube Short narration. It is measured by how long it takes to speak. '
+                  f'Now: {best["words"]} spoken words = about {sstory.mmss(best["est_secs"])}. Needed: {sstory.window(best["length"], len(sstory.cta(best).split()))[0]} to '
+                  f'{sstory.window(best["length"], len(sstory.cta(best).split()))[1]} spoken words (aim {tgt}).\n{how}\n'
+                  'Rules: same scenes, same order, same facts and numbers (digits like $4B, 2017); hook max 14 words; every other line max 26 words; '
+                  'keep the tone; never invent numbers, names, quotes or dates.\n\nSCRIPT:\n' + cur + '\n\nFACTS you may use:\n' + (facts or '(only well-documented facts already in the script)') +
+                  '\n\nReturn JSON only: {"lines": [{"n": 1, "line": "..."}, ...]} with all ' + str(len(sc)) + ' scenes.')
+        raw = gemini_json(prompt)
+        try:
+            new = {x['n']: str(x['line']) for x in raw['lines']}
+            if sorted(new) != list(range(1, len(sc) + 1)):
+                raise ValueError('lines missing')
+            cand = json.loads(json.dumps(best))
+            for i, x in enumerate(cand['scenes']):
+                x['line'] = new[i + 1]
+            cand, _ = sstory.check(cand, strict=False)
+        except Exception as e:
+            print('fit_length', repr(e)[:100]); continue
+        if abs(cand['words'] - tgt) < abs(best['words'] - tgt):
+            best = cand
+    return best
+
+
+def draft_check(raw):
+    """strict check, but a length-only problem is returned for fit_length() to repair instead of being thrown away"""
+    try:
+        return sstory.check(json.loads(json.dumps(raw)), strict=True)
+    except ValueError as e:
+        if str(e).startswith('script is'):
+            return sstory.check(json.loads(json.dumps(raw)), strict=False)
+        raise
+
+
 def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
     old = (tgs.get('shorts', {}).get(jid) or {}) if jid else {}
     if not old and jid and os.path.exists(f'jobs/{jid}/storyboard.json'):
@@ -2081,23 +2138,27 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
     if facts is None:
         facts = short_facts(topic)
     sb, err, best, note = None, None, None, ''
-    for _ in range(3):
+    for attempt in range(2):                                               # write -> measure -> expand/cut -> measure (never accept a short script silently)
         raw = make_storyboard(topic, facts, tone, err, length, sett.get('chart', 'auto'), sett)
         if isinstance(raw, dict):
             raw['settings'] = dict(sett, length=length)
         if not raw:
             break
-        best = raw
         try:
-            sb, probs = sstory.check(json.loads(json.dumps(raw))); break
+            cand, probs = draft_check(raw)
         except ValueError as e:
-            err = str(e); print('storyboard invalid:', err)
-    if not sb and best:                                                   # closest attempt, with a note, instead of giving up
-        try:
-            sb, probs = sstory.check(best, strict=False)
-            note = f'⚠️ {probs[-1] if probs else "length is off"}. Tap a ⏱ length to try again, or use it as is.'
-        except ValueError as e:
-            err = str(e)
+            err = str(e); print('storyboard invalid:', err); continue
+        cand = fit_length(cand, facts)
+        print('draft', attempt, 'words', cand['words'], 'est', cand['est_secs'], 'ok', cand.get('length_ok'))
+        if best is None or abs(cand['words'] - cand['target_words']) < abs(best['words'] - best['target_words']):
+            best = cand
+        if cand.get('length_ok'):
+            sb = cand; break
+    if not sb and best:                                                    # closest attempt, flagged loudly; the voice is blocked until you choose
+        sb = best
+        pct = round((sb['est_secs'] / sb['length'] - 1) * 100)
+        note = (f'⚠️ <b>Could not reach {LEN_NAME[sb["length"]]}.</b> The best version is about {sstory.mmss(sb["est_secs"])} ({pct:+d}% vs your pick). '
+                'I did not accept it silently. Choose: 🔁 Try again, ⏱ another length, edit lines in 🎬 Studio, or ✅ Use anyway.')
     if not sb:
         unack(); tg('⚠️ Couldn\'t write a good script for that story right now' + (f' ({E(err)})' if err else '') + '. Try again, or give a more specific topic.'); return
     if tone:
@@ -2135,7 +2196,7 @@ def show_script(jid, tgs):
     sb, _ = sstory.check(sb, strict=False); d['sb'] = sb
     ch = sb.get('chart')
     m = (f'🎬 <b>Script</b> · #{next_ep(tgs, peek=True) if not sb.get("ep") else sb["ep"]} {E(sb.get("title", ""))}\n'
-         f'{TONE_EMO[sb["tone"]]} {sb["tone"]} · ⏱ {LEN_NAME[sb["length"]]} (~{sb["est_secs"]}s, {sb["words"]} words)'
+         f'{TONE_EMO[sb["tone"]]} {sb["tone"]} · ⏱ {LEN_NAME[sb["length"]]} · {"✅" if sb.get("length_ok") else "⚠️"} ~{sstory.mmss(sb["est_secs"])} ({sb["words"]} words)'
          + (f' · real {ch["symbol"]} chart {ch["start"]} → {ch["end"]}' if ch else '') + '\n')
     for n, s in enumerate(sb['scenes'], 1):
         m += f'\n<b>{n}.</b> <i>{s["role"]}</i> · {E(s["line"])}\n     🎨 {E(vis_txt(s["visual"]))[:90]}'
@@ -2145,7 +2206,10 @@ def show_script(jid, tgs):
         m = m.replace('\n\n<b>Checkpoint 1:</b>', f'\n\n{E(d["note"])}\n\n<b>Checkpoint 1:</b>')
     if not ch:
         m = m.replace('\n\n<b>Checkpoint 1:</b>', '\n\n<i>No chart for this story: the end card skips "every chart hides a story".</i>\n\n<b>Checkpoint 1:</b>')
-    tg(m[:4000], None, [('✅ Make the voice', f'sa:{jid}'), ('🔄 Rewrite', f'sx:{jid}')] +
+    blocked = sb.get('length_ok') is False and not sb.get('length_override')
+    if blocked and not d.get('note'):
+        m = m.replace('\n\n<b>Checkpoint 1:</b>', f'\n\n⚠️ {E(sb.get("length_msg", "length is off"))}\n\n<b>Checkpoint 1:</b>')
+    tg(m[:4000], None, ([('🔁 Try again', f'sx:{jid}'), ('✅ Use anyway', f'sk:{jid}')] if blocked else [('✅ Make the voice', f'sa:{jid}'), ('🔄 Rewrite', f'sx:{jid}')]) +
        [(f'{TONE_EMO[t]} {t.title()}', f'st:{jid}:{t}') for t in sstory.TONES if t != sb['tone']] +
        [(('• ' if L == sb['length'] else '') + '⏱ ' + LEN_NAME[L], f'sl:{jid}:{L}') for L in sstory.LENGTHS])
 
@@ -2206,6 +2270,9 @@ def short_approve(jid, tgs, seed_bump=False):
         if not os.path.exists(path):
             tg('That Short is too old. Start again with /short.'); return
         sb = json.load(open(path))
+    if sb.get('length_ok') is False and not sb.get('length_override') and not seed_bump:      # never spend 20 minutes of voice on a script that is the wrong length
+        tg('⚠️ <b>This script is the wrong length.</b> ' + E(sb.get('length_msg', '')) + '\nFix it in 🎬 Studio, try again, or accept it knowingly.', None,
+           [('🔁 Try again', f'sx:{jid}'), ('✅ Use anyway', f'sk:{jid}')]); return
     if seed_bump:
         sb['voice_seed'] = int(sb.get('voice_seed', 7)) + 11
     if not sb.get('ep'):
@@ -2295,7 +2362,10 @@ def studio_index(tgs):
         ideas.append({'title': f'{title} ({y})', 'kind': '📜 on this day'})
     for vid, v in shorts.winners(days=30, k=3):
         ideas.append({'title': v['t'][:90], 'kind': f'🔥 viral Short · {v["out"]:.0f}x'})
-    idx = {'jobs': jobs, 'ideas': ideas[:12], 'next_ep': next_ep(tgs, peek=True), 'updated': int(time.time())}
+    rs = [(os.path.getmtime(d + '/voicep_words.srt'), r) for d in glob.glob('jobs/*') for r in [sstory.measured_rate(d)] if r]
+    rs = [r for _, r in sorted(rs)[-8:]]
+    rate_ = round(sorted(rs)[len(rs) // 2], 3) if rs else sstory.RATE_DEFAULT      # median speaking rate of the real voices (calibrates every length estimate)
+    idx = {'jobs': jobs, 'ideas': ideas[:12], 'next_ep': next_ep(tgs, peek=True), 'rate': rate_, 'updated': int(time.time())}
     os.makedirs('state', exist_ok=True)
     json.dump(idx, open('state/studio.json', 'w'), separators=(',', ':'))
     return idx
@@ -2354,6 +2424,9 @@ def app_action(data, tgs):
         tg(f'💾 Saved <b>#{sb.get("ep") or next_ep(tgs, peek=True)} {E(sb.get("title", ""))}</b> · ~{sb["est_secs"]}s, {len(sb["scenes"])} scenes'
            + ('\n⚠️ ' + E('; '.join(probs)) if probs else ''))
     elif a == 'voice':
+        if p.get('force'):
+            sb['length_override'] = True
+            tgs['shorts'][jid]['sb'] = sb
         short_approve(jid, tgs)
     elif a == 'retake':
         short_approve(jid, tgs, seed_bump=True)
@@ -2498,6 +2571,11 @@ def handle(u, tgs):
             else:
                 on_stance(parts[1], parts[2], tgs, mid)
         elif data.startswith('sa:'):
+            short_approve(data[3:], tgs)
+        elif data.startswith('sk:'):                                     # explicit consent to a script outside the length window
+            d_ = tgs.get('shorts', {}).get(data[3:])
+            if d_:
+                d_['sb']['length_override'] = True; d_['note'] = ''; save_job(data[3:], d_['sb'], 'draft')
             short_approve(data[3:], tgs)
         elif data.startswith('sx:'):
             d_ = tgs.get('shorts', {}).get(data[3:])

@@ -1,0 +1,26 @@
+name: tests
+# Manual only. Runs the unit tests, then (optionally) live checks that call the real AI. Changes nothing in the repo, sends nothing to Telegram.
+on:
+  workflow_dispatch:
+    inputs:
+      live: {description: 'live checks to run: none | length | replies | tools | all', default: none}
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12', cache: pip}
+      - run: pip install -q -r requirements.txt
+      - name: unit tests
+        run: python tests/run.py
+      - name: live checks
+        if: github.event.inputs.live != 'none'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: unused
+          TELEGRAM_CHAT_ID: '0'
+        run: python tests/live.py ${{ github.event.inputs.live }}

@@ -312,27 +312,82 @@ async function submitNew() {
 /* ---------- EDITOR ---------- */
 const STATE_TXT = { draft: ['Draft · not recorded yet', ''], voice_running: ['Recording the voice…', 'run'], voice_ready: ['Voice ready · check the audio in the chat', 'ok'],
                     rendering: ['Making the video…', 'run'], done: ['Video done · it is in the chat', 'ok'], failed: ['Something failed · try again', 'bad'] };
-const LEN = { 30: [62, 82], 45: [98, 120], 60: [135, 165], 90: [205, 245], 120: [280, 330] };
+// ONE length model, identical to studio/story.py: seconds = (story words + call-to-action words) / rate + END_PAD; pass = within -6% / +8% of the pick.
+// rate = spoken words per second measured from the real voices (state/studio.json "rate").
+const END_PAD = 2.7, WLO = .94, WHI = 1.08;
+const mmss = x => { x = Math.round(x); return Math.floor(x / 60) + ':' + String(x % 60).padStart(2, '0'); };
+function ctaWords() {
+  const c = String((S.jobSettings && S.jobSettings.cta) || '').trim();
+  if (c === '-') return 0; if (c) return c.split(/\s+/).length;
+  return S.sb && S.sb.chart ? 8 : 3;
+}
+function lenWindow(L) {
+  const r = (S.index && S.index.rate) || 2.4, cw = ctaWords();
+  const f = x => Math.max(10, Math.round((x - END_PAD) * r - cw));
+  return { lo: f(WLO * L), hi: f(WHI * L), r, cw };
+}
 const norm = w => w.replace(/[^\w$%]/g, '').toLowerCase();
 
-function spokenCount(line) {
-  // rough count of spoken words: numbers become several words ("$4,000" -> "four thousand dollars")
-  let n = 0;
-  for (const tok of line.split(/\s+/).filter(Boolean)) {
-    const d = tok.replace(/[^\d]/g, '');
-    if (!d) { n += /^[A-Z]{2,4}[.,!?]*$/.test(tok) ? Math.min(4, tok.replace(/\W/g, '').length) : 1; continue; }
-    n += Math.min(7, 1 + Math.ceil(d.replace(/^0+/, '').length / 1.5)) + (/[$%]/.test(tok) ? 1 : 0);
+// Spoken-word count: a port of plan_line()/spoken() in studio/story.py (numbers become several words). words.json is generated from the Python tables.
+const iw = n => { n = Math.floor(n); if (n < 100) return 1; if (n < 1000) return 2 + (n % 100 ? iw(n % 100) : 0);
+  for (const v of [1e12, 1e9, 1e6, 1e3]) if (n >= v) return iw(Math.floor(n / v)) + 1 + (n % v ? iw(n % v) : 0); return 1; };
+const dw = x => { const [a, b = ''] = String(x).split('.'); return iw(+a || 0) + (b ? 1 + b.length : 0); };
+const moneyW = v => {
+  if (v >= 1e6) for (const sv of [1e12, 1e9, 1e6]) if (v >= sv) return dw(+(v / sv).toFixed(2)) + 1;
+  if (v !== Math.floor(v)) { const d = Math.floor(v), c = Math.round((v - d) * 100); return iw(d) + (c ? 3 + iw(c) : 0); }
+  return iw(v);
+};
+const yearW = y => y >= 2000 && y <= 2009 ? 2 + (y > 2000 ? 1 : 0) : iw(Math.floor(y / 100)) + (y % 100 === 0 ? 1 : y % 100 < 10 ? 2 : iw(y % 100));
+const SUF = { k: 1e3, m: 1e6, mn: 1e6, b: 1e9, bn: 1e9, t: 1e12 };
+function tokWords(tok, nxt, prev) {
+  const T = S.words || { spell: {}, words: [], abbr: {}, months: [] };
+  const core = tok.replace(/^["'(\[]+/, '').replace(/[.,!?:;"')\]…]+$/, '');
+  if (!core) return 0;
+  const rs = (S.sb && S.sb.respell) || {};
+  for (const k in rs) if (k.toLowerCase() === core.toLowerCase()) return String(rs[k]).split(/\s+/).length;
+  if (T.abbr[tok.toLowerCase()]) return T.abbr[tok.toLowerCase()];
+  const up = core.toUpperCase();
+  if (T.spell[up] && (core === up || up === 'DEFI')) return T.spell[up];
+  if (/^[A-Z]{2,4}$/.test(core) && !T.words.includes(core)) return core.length;
+  const big = /^(million|billion|trillion|thousand)$/.test(nxt.toLowerCase().replace(/[^a-z]/g, ''));
+  let m;
+  if ((m = core.match(/^-?\$(\d[\d,]*(?:\.\d+)?)([kKmMbBtT][nN]?)?$/))) {
+    const raw = m[1].replace(/,/g, '');
+    return big ? dw(raw) : moneyW(parseFloat(raw) * (SUF[(m[2] || '').toLowerCase()] || 1)) + 1;
   }
+  if ((m = core.match(/^(\d[\d,]*(?:\.\d+)?)([kKmMbBtT][nN]?)$/))) return moneyW(parseFloat(m[1].replace(/,/g, '')) * SUF[m[2].toLowerCase()]);
+  if ((m = core.match(/^([+-]?)(\d[\d,]*(?:\.\d+)?)%$/))) return (m[1] ? 1 : 0) + dw(m[2].replace(/,/g, '')) + 1;
+  if ((m = core.match(/^(\d+(?:\.\d+)?)[xX]$/))) return dw(m[1]) + 1;
+  if ((m = core.match(/^(\d+)(st|nd|rd|th)$/i))) return iw(+m[1]);
+  if ((m = core.match(/^(\d{4})s$/))) return yearW(+m[1]);
+  if (/^'\d{2}$/.test(core)) return 2;
+  if (/^(1[89]|20)\d{2}$/.test(core) && !big) return yearW(+core);
+  if (/^\d[\d,]*(\.\d+)?$/.test(core)) return dw(core.replace(/,/g, ''));
+  if ((m = core.match(/^(\d+)[-/](\d+)$/))) return iw(+m[1]) + iw(+m[2]);
+  if (/^\d/.test(core)) return core.replace(/[^a-zA-Z0-9]/g, '').length;
+  return 1;
+}
+function spokenCount(line) {
+  const toks = String(line).split(/\s+/).filter(Boolean); let n = 0;
+  const MON = (S.words && S.words.months) || [];
+  toks.forEach((tok, i) => {
+    const prev = i ? toks[i - 1].toLowerCase().replace(/[^a-z]/g, '') : '';
+    if (MON.includes(prev) && /^\d{1,2}[.,!?:;]*$/.test(tok) && +tok.replace(/\D/g, '') >= 1 && +tok.replace(/\D/g, '') <= 31) { n += iw(+tok.replace(/\D/g, '')); return; }
+    if (/^-?\$\d/.test(i ? toks[i - 1] : '') && /^(million|billion|trillion|thousand)/i.test(tok)) { n += 2; return; }
+    n += tokWords(tok, toks[i + 1] || '', prev);
+  });
   return n;
 }
 function estimate() {
   if (!S.sb) return;
   const words = S.sb.scenes.reduce((a, s) => a + spokenCount(s.line || ''), 0);
-  const secs = Math.round(words / 2.85 + S.sb.scenes.length * .4 + 3);
-  const L = Number(S.sb.length || 45), [lo, hi] = LEN[L] || LEN[45];
-  const cls = words < lo * .85 || words > hi * 1.2 ? 'bad' : (words < lo || words > hi ? 'warn' : 'ok');
-  $('#estSecs').textContent = `~${secs}s`; $('#estSecs').className = cls;
-  $('#estTxt').textContent = `${words} spoken words · target ${lo}–${hi} for ${L}s`;
+  const L = Number(S.sb.length || 45), w = lenWindow(L);
+  const secs = (words + w.cw) / w.r + END_PAD;
+  const ok = words >= w.lo && words <= w.hi;
+  const cls = ok ? 'ok' : (words >= w.lo * .88 && words <= w.hi * 1.12 ? 'warn' : 'bad');
+  S.lenOk = ok; S.lenMsg = `${mmss(secs)} of ${mmss(L)}`;
+  $('#estSecs').textContent = `~${mmss(secs)}`; $('#estSecs').className = cls;
+  $('#estTxt').textContent = ` ${words} spoken words · need ${w.lo}–${w.hi} for ${mmss(L)}` + (ok ? ' ✓' : (words < w.lo ? ` · add ~${w.lo - words}` : ` · cut ~${words - w.hi}`));
 }
 
 function visFields(scene, box) {
@@ -535,13 +590,21 @@ $('#mainBtn').addEventListener('click', async () => {
   if (S.tab === 'edit' && S.sb) {
     const st = S.status.state;
     if (st === 'voice_running' || st === 'rendering') { await openJob(S.job); return; }
-    const sb = readEditor(); if (sb) await send({ a: 'voice', id: S.job, sb });
+    const sb = readEditor(); if (!sb) return;
+    let force = false;
+    if (S.lenOk === false) {                                                 // never silent: the length is off, ask before spending 20 minutes of voice
+      const q = `This script is ~${S.lenMsg}. Make the voice anyway?`;
+      force = tg && tg.showConfirm ? await new Promise(r => tg.showConfirm(q, r)) : confirm(q);
+      if (!force) return toast('Edit the lines until the estimate turns green, or tap again to accept.');
+    }
+    await send({ a: 'voice', id: S.job, sb, force });
   }
 });
 
 /* ---------- start ---------- */
 (async function start() {
   if (tg) { tg.ready(); tg.expand(); try { tg.setHeaderColor('#0d111a'); tg.setBackgroundColor('#0d111a'); } catch (e) {} }
+  try { S.words = await (await fetch('words.json?t=' + Date.now())).json(); } catch (e) { S.words = null; }
   try { S.schema = await (await fetch('schema.json?t=' + Date.now())).json(); }
   catch (e) { S.schema = await gh('docs/studio/schema.json'); }
   for (const g of S.schema.groups) for (const f of g.fields) S.newSettings[f.key] = f.default;

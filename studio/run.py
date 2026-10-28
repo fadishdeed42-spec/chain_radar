@@ -54,7 +54,7 @@ def drop_chart(sb, why):
 
 def voice(jid):
     d = f'jobs/{jid}'
-    sb, probs = story.check(json.load(open(f'{d}/storyboard.json')))
+    sb, probs = story.check(json.load(open(f'{d}/storyboard.json')), strict=False)      # length was decided (or accepted) before the voice
     if sb.get('chart'):                                                   # real candles first: no data -> no chart and no "every chart" line
         D, src = daily(sb['chart']['symbol'], sb['chart']['start'], sb['chart']['end'])
         if D:
@@ -72,13 +72,19 @@ def voice(jid):
     wers = [float(x) for x in re.findall(r'wer (\d\.\d+)', log)]
     secs = float(re.findall(r'total ([\d.]+)s', log)[-1]) if re.findall(r'total ([\d.]+)s', log) else 0
     q = 'clean' if wers and min(wers) < .08 else 'check it'
-    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · #{sb.get("ep", "")} {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}'
+    rate_ = story.measured_rate(d)
+    words_ = sum(len(sp) for pl in json.load(open(f'{d}/plan.json')) for _, sp in pl)
+    real = (words_ / rate_ if rate_ else secs) + story.END_PAD                  # same model the estimate uses, now with the real voice
+    L_ = sb.get('length', 45); off = (real / L_ - 1) * 100
+    lens = (f'\n⏱ <b>Real length: {story.mmss(real)}</b> (you picked {story.mmss(L_)}, {off:+.0f}%)'
+            + ('' if story.WIN_LO - 1 <= off / 100 <= story.WIN_HI - 1 else '\n⚠️ Outside the length you asked for. Tap ✏️ Edit script to fix it, or continue.'))
+    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · #{sb.get("ep", "")} {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}{lens}'
                                 + ('' if sb.get('chart') else ' · no chart for this story') + '\n\n'
                                 '<b>Checkpoint 2:</b> listen, then make the video.',
                      'title': sb.get('title', 'Chain Secrets'), 'performer': 'Chain Secrets',
                      'reply_markup': kb([[('🎬 Make the video', f'sv:{jid}')], [('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
        files={'audio': open(f'{d}/voicep.mp3', 'rb')})
-    status(jid, 'voice_ready', secs=round(secs), quality=q)
+    status(jid, 'voice_ready', secs=round(secs), quality=q, real=round(real), rate=round(rate_ or 0, 3))
     if story.settings(sb).get('autorender'):
         open(f'{d}/autorender.flag', 'w').write('1')                      # the workflow starts the render after saving the voice
         tg('sendMessage', {'text': '🎬 Auto-render is on: the video starts now (~5–15 min).'})
