@@ -364,6 +364,19 @@
 "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGNhcTIwRjZ2LWFPcDRJQmRlZUNUUjRpR1g0OTlpVWNNdzAxdy13LTh4NnVheGRvc1J2Y2R3VGl0N2dVMnYxVGV3UlVfSUpmZFhyR29TUXU3dUdreTlJdzhobVBYTDNhZXQ3R2s4LTF4azhoZkdWTzBOLUh2amV6ZjVBdjEyMUhqT1RMa1NVLV9DSExPWEo5emNNZHFPQ2h4T01uM000QkZpYUxmN3FxUnRyQWUydkNsNHJEczIxNDlrUklyUkRTNg?oc=5",
 "urls": []
 },
+"1d92bb56bb28": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793182901.5756078,
+"t0": 1793182812.0,
+"tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
+"title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
+"url": "https://t.me/lookonchainchannel/10819",
+"urls": []
+},
 "1ef166d7c8ac": {
 "coin": "ethereum",
 "src": "Pluang",
@@ -596,25 +609,6 @@
 "title": "BTCUSD Futures Contract Derivatives: Funding Rates, Liquidations",
 "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNndGT0g5aVNkWEg2VXBhMk5IYzl0dnN5X0lQNkhOa3RYUG5ZYlpRQVlxQ2dBSGNPbmlFU3FyVzlQbmNENmlsMDFUTnZIVHNMSVJRMGQyelhyRS0zeTBScFRsazJTLUVjMkhDUjdtbThPYUVHZGd1UDl3SDhDSFJKR0RSdng5WDB1QXI4Wnd2eVVMT0FqQklVYmdXUlVpZw?oc=5",
 "urls": []
-},
-"339d867227b6": {
-"coin": "bitcoin",
-"src": "TradingKey",
-"srcs": [
-"CoinDesk",
-"Crypto News",
-"Pintu",
-"The Crypto Times",
-"TradingKey"
-],
-"t": 1793009769.8622859,
-"t0": 1792989422.0,
-"tgtext": "",
-"title": "Bitcoin Price Forecast: Drops Below $80,000 in Fifth Straight Loss, May Test $75,000 as FOMC Meeting Approaches",
-"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZUlyeFozU3REMC1SdGlDZFdZYWV4Tzl6TG9oR204RzltUFRzTVB2OFlLRWRZZVFfSkVGVzl1S0dheG9PUFBHQXJ1N0RPdWxwbkpCQkhLQjg0QVBvX2dlTDVySktkUmMzUUNUM1N6cFJWbC1udXNRbGtrWHQ1cmtDUFpGUUk0cWZoQlpKNS1lYjg1TlVFMV9LMXBlVDZ6Q1JCcW5acTRiSllWaklENWstTWlHUHNpTjkzNlFsYQ?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting"
-]
 },
 "34acc146ef3e": {
 "coin": "",
@@ -1172,7 +1166,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1527,7 +1521,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793167623.0,
 "tgtext": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B\n\nAccording to BeInCrypto, Anthropic\u2019s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from the government in October 2025 at $140.9676 per share and resold them at cost to nine undisclosed buyers. Ahead of Anthropic\u2019s planned Nasdaq listing, the stake is now estimated to be worth approximately $3.94 billion based on projected IPO valuations, marking more than a sixfold increase from the resale price. \u2014 link",
 "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B",
@@ -1606,10 +1600,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793182289.246956,
+"t": 1793182597.1898656,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $81466 \u2022 ETH $2369 \u2022 GRAM $1.25\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81466 \u2022 ETH $2369 \u2022 GRAM $1.25\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81466 \u2022 ETH $2369 \u2022 GRAM $1.25\u00bb",
+"tgtext": "\ud83d\udcca BTC $81504 \u2022 ETH $2371 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81504 \u2022 ETH $2371 \u2022 GRAM $1.24\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81504 \u2022 ETH $2371 \u2022 GRAM $1.24\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -1706,7 +1700,7 @@
 "StreetInsider",
 "TechBullion"
 ],
-"t": 1793181677.1913607,
+"t": 1793182901.5756078,
 "t0": 1793166444.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Alpha Modus Reports 3,170 BTC Holdings as Remittix Plans a 64.3% Presale Price Increase",
@@ -1796,7 +1790,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2451,7 +2445,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -2812,10 +2806,9 @@
 "src": "Decrypt",
 "srcs": [
 "Cointelegraph",
-"CryptoTicker.io",
 "Decrypt"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793167033.0,
 "tgtext": "\ud83d\udea8 NOW: Coinbase says it has not suffered a data breach.\n\nA security incident at analytics vendor Amplitude exposed some users\u2019 contact data, but customer funds and Coinbase systems were unaffected.\n\nNews | Markets | YouTube",
 "title": "Coinbase Customer Data Hit in Analytics Vendor Breach, Funds \u2018Not Impacted\u2019",
@@ -2831,7 +2824,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793162337.0,
 "tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
 "title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
@@ -2844,7 +2837,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793166904.0,
 "tgtext": "Two dormant $PEPE whales moved 2.27T $PEPE ($10.19M) today.\n\nhttps://arkm.com/explorer/address/0xCA6FeAdECFA7C186e5d974Cd85A4d615d059D0f1\nhttps://arkm.com/explorer/address/0x2daabb7d7d8114EE334D5A141A97ef181e565e69",
 "title": "Two dormant PEPE whales moved 2.27T PEPE ($10.19M) today.",
@@ -3207,7 +3200,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793182289.246956,
+"t": 1793182901.5756078,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3485,45 +3478,45 @@
 },
 "probs": {
 "022f700d02cb": 0.022,
-"078d68222e19": 0.018,
-"13caee1f3a7b": 0.018,
+"0b2a285a73d1": 0.03,
 "14ad7ce4af9a": 0.029,
-"1b1f413d4c2c": 0.339,
+"18f35019cb21": 0.042,
+"1d92bb56bb28": 0.543,
 "2557fc2122ab": 0.011,
-"2567e4c1092a": 0.041,
 "26871d2943ab": 0.042,
 "27c89491aaaa": 0.029,
 "2e8a7f703315": 0.063,
+"32e1f5b62d15": 0.031,
 "455e33fc662d": 0.109,
 "469aa99d42ef": 0.02,
 "4abc5be6a796": 0.055,
 "54af389d38b6": 0.511,
-"623b778463d6": 0.305,
-"642924e3f4ee": 0.124,
+"60f6efd15e00": 0.405,
+"642924e3f4ee": 0.153,
 "72c3380743ae": 0.033,
 "73d414505739": 0.819,
-"758e60358730": 0.076,
-"771ae4f4fcc0": 0.115,
-"80924276261c": 0.38,
-"8d04bb417f8f": 0.958,
-"96c58ec20832": 0.083,
-"97d2224e7862": 0.118,
+"80924276261c": 0.386,
+"8ad413e340d1": 0.714,
+"8d04bb417f8f": 0.978,
+"976259c989a9": 0.12,
+"988e40db4d23": 0.014,
 "9ae150dbff07": 0.046,
-"9ce88d53750a": 0.032,
-"acb923342f6a": 0.043,
+"acb923342f6a": 0.107,
 "adaab25fdcd7": 0.256,
 "b32971afa87d": 0.211,
-"b4aead49e1d7": 0.154,
-"b4fa19ffce75": 0.139,
+"b4aead49e1d7": 0.038,
 "c1e1a4dee351": 0.626,
 "c2e790225120": 0.03,
 "c7a872e51530": 0.042,
 "cba709b047a2": 0.079,
-"cef2ccd4c25c": 0.906,
+"cef2ccd4c25c": 0.841,
 "d09d9bd3c64b": 0.878,
 "d6c77e40fe39": 0.043,
-"eac28a981965": 0.715,
-"efc857737a72": 0.179
+"e1fc8e89d9ce": 0.023,
+"eac28a981965": 0.573,
+"ec958ca0e9fe": 0.061,
+"efc857737a72": 0.179,
+"ff60098b8e96": 0.145
 },
 "sent": [
 {
@@ -4767,63 +4760,63 @@
 [
 "8d04bb417f8f",
 16,
-8,
+18,
+1
+],
+[
+"d09d9bd3c64b",
+28,
+267,
 1
 ],
 [
 "cef2ccd4c25c",
-54,
-254,
-3
-],
-[
-"d09d9bd3c64b",
-29,
-256,
-1
+42,
+264,
+2
 ],
 [
 "73d414505739",
-23,
-244,
+22,
+255,
 1
 ],
 [
-"eac28a981965",
-21,
-208,
-1
+"8ad413e340d1",
+16,
+274,
+2
 ],
 [
 "c1e1a4dee351",
 45,
-98,
+108,
+1
+],
+[
+"eac28a981965",
+19,
+219,
+1
+],
+[
+"1d92bb56bb28",
+25,
+1,
 1
 ],
 [
 "cef305754c06",
 0,
-333,
+343,
 1
 ],
 [
 "54af389d38b6",
 18,
-89,
-1
-],
-[
-"80924276261c",
-10,
-165,
-1
-],
-[
-"448978fe1bbd",
-10,
-61,
+99,
 1
 ]
 ],
-"top_at": 1793182289.246956
+"top_at": 1793182901.5756078
 }
