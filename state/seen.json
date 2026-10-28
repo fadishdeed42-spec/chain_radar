@@ -74,6 +74,21 @@
 "url": "https://t.me/binance_announcements/9090",
 "urls": []
 },
+"06c234f7b8d5": {
+"coin": "bitcoin",
+"src": "FXStreet",
+"srcs": [
+"Coinpedia",
+"FXStreet",
+"www.tmgm.com"
+],
+"t": 1793193246.5854194,
+"t0": 1793184864.0,
+"tgtext": "",
+"title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
+"url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUTE5VVR0THlPaFBwU3IzQlMwbW81LThXOHRIWHd1TC1fOUotWE1lb0VJU0ZsTzBmX0twMkJNaENyZXhnd0pyQU9KWEc2d0tqdjUwWS1nZGlueUtjVkgwdjNac0VFMlMxN1FONW9xVGxxSHljMTNXZ0NpUnVldG1xNjd6UW15ZDc0MlhteG5hWWsxcVdkeGhhaHRSU1NVaVNjSF9fd1JoYm1UY1k1SmVmUUlOMkNkb3F0MS1HNWc1ZXJoTkllLV9weUpMTVhGZk9JUW04bk9rU1VyOXZJcEZOVWt4aXRqS1BTMjdvNW1R?oc=5",
+"urls": []
+},
 "070608e35630": {
 "coin": "",
 "src": "The Block",
@@ -343,7 +358,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -1119,7 +1134,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1543,10 +1558,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $80718 \u2022 ETH $2340 \u2022 GRAM $1.23\nCointelegraph pinned \u00ab\ud83d\udcca BTC $80718 \u2022 ETH $2340 \u2022 GRAM $1.23\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $80718 \u2022 ETH $2340 \u2022 GRAM $1.23\u00bb",
+"tgtext": "\ud83d\udcca BTC $80684 \u2022 ETH $2338 \u2022 GRAM $1.23\nCointelegraph pinned \u00ab\ud83d\udcca BTC $80684 \u2022 ETH $2338 \u2022 GRAM $1.23\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $80684 \u2022 ETH $2338 \u2022 GRAM $1.23\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -1720,7 +1735,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -1986,6 +2001,19 @@
 "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcXI2ajdfWk1VYU16SklScjBGZVhPQ0taU3lTYnRHc0ozTE9fUGlyYmRJSXFieWhIMFhRd29DVDdqSDFyS19rYTNPZEQwU2FHT19pZ0gydzdNU0s4RmV6c2VVdkdaN2F0ZzJhQjBFWS00V19jOHYxZkFHNlo1bnRfZXo5VDVCYlJ1VjcyTGJmUEtHQQ?oc=5",
 "urls": []
 },
+"a23c23910c8f": {
+"coin": "ripple-usd",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1793193551.9366589,
+"t0": 1793193065.0,
+"tgtext": "JUST IN: Ripple partners with Coinbase to expand its $RLUSD crypto stablecoin across trading, payments, and institutional finance.\n\n@WatcherGuru",
+"title": "Ripple partners with Coinbase to expand its RLUSD crypto stablecoin across trading, payments, and institutional finance.",
+"url": "https://t.me/WatcherGuru/15648",
+"urls": []
+},
 "a2516075a260": {
 "coin": "bitcoin",
 "src": "Benzinga",
@@ -2021,7 +2049,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793173375.0,
 "tgtext": "",
 "title": "Coinbase Denies Internal Breach as Amplitude Security Incident Hits User Contact Info",
@@ -2045,19 +2073,6 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-10-27-robinhood-chain-brings-in-26-million-crypto-revenue-rises-20-q2-431935"
 ]
-},
-"a8ff9215bd4c": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1793020522.5291617,
-"t0": 1793019915.0,
-"tgtext": "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's stock market suspends trading due to circuit breaker.\n\n@WatcherGuru",
-"title": "\ud83c\udde7\ud83c\uddf7 Brazil's stock market suspends trading due to circuit breaker.",
-"url": "https://t.me/WatcherGuru/15627",
-"urls": []
 },
 "a904977ce662": {
 "coin": "",
@@ -2137,7 +2152,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2337,7 +2352,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -2387,7 +2402,7 @@
 "CryptoPotato",
 "Pluang"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -3096,7 +3111,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793192937.6078527,
+"t": 1793193551.9366589,
 "t0": 1793189322.0,
 "tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.\n\nNews | Markets | YouTube",
 "title": "$114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.",
@@ -3406,16 +3421,14 @@
 },
 "probs": {
 "06c234f7b8d5": 0.223,
-"076abfd811c5": 0.432,
+"076abfd811c5": 0.597,
+"186cb63b8fa2": 0.114,
 "1d92bb56bb28": 0.885,
 "26871d2943ab": 0.068,
-"26fbd39ac8cf": 0.044,
 "2ac3ba1424e4": 0.292,
-"2ec9b6c2a5c0": 0.061,
 "3007e1b9a85d": 0.081,
 "32d52fc286e0": 0.086,
 "32e1f5b62d15": 0.028,
-"382618527810": 0.014,
 "3fc1a47a51cb": 0.545,
 "44d7ff7d5b6e": 0.062,
 "455e33fc662d": 0.129,
@@ -3427,15 +3440,17 @@
 "87937ef02d2e": 0.042,
 "8d04bb417f8f": 0.892,
 "988e40db4d23": 0.024,
+"992882f41754": 0.024,
+"9e576d805850": 0.158,
+"a23c23910c8f": 0.911,
 "a4fca7d0542f": 0.621,
 "acb923342f6a": 0.097,
 "ae6bddd50139": 0.86,
-"b28b5eecf554": 0.383,
-"b4aead49e1d7": 0.152,
+"b4aead49e1d7": 0.087,
 "b788095b8710": 0.332,
 "b89221b2253e": 0.044,
 "be0e66133543": 0.039,
-"c11fdf997380": 0.966,
+"c11fdf997380": 0.987,
 "c1e1a4dee351": 0.935,
 "c7a872e51530": 0.069,
 "d5938ed3683e": 0.079,
@@ -3447,129 +3462,6 @@
 "fcc4e8e8e1cd": 0.107
 },
 "sent": [
-{
-"e": [
-"analysis",
-"below",
-"falls",
-"gains",
-"hype",
-"icp",
-"october",
-"qnt",
-"quant",
-"weakens"
-],
-"k": [],
-"t": 1793017755.3988316,
-"u": [
-"https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVJiZGdURF9OZEhaOHFkMlZnRTJVdkdxQl9TWnVHdUtsSGpoS2RMOHVpMjd4bmNPYmZlUFFtT1VEd0ZZN1BiOHh2VG5xOWtVekQtWVU3THFCNUE4VDYzd1FiOEc2NGw0anZiSFEyWkRiSzJzeTAtamdNTnBBbXgweTZvWQ?oc=5",
-"https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVJiZGdURF9OZEhaOHFkMlZnRTJVdkdxQl9TWnVHdUtsSGpoS2RMOHVpMjd4bmNPYmZlUFFtT1VEd0ZZN1BiOHh2VG5xOWtVekQtWVU3THFCNUE4VDYzd1FiOEc2NGw0anZiSFEyWkRiSzJzeTAtamdNTnBBbXgweTZvWQ?oc=5",
-"https://news.google.com/rss/articles/CBMigAFBVV95cUxOamNXZDhPRnluZDQtNzl4MXZmVFJrU2NLakJ2OUhidUpya2J3bG5ROHJYbHM2ZnhSZEdxcUxDSVFaYm5TcUpNc2hPNk9mUEtfVDQ2cWZBS05LV1VDRzh3ZlZqbVRVRmo2R0xGb1lqLWN5U3Axay1JRGczVU5CakJGTw?oc=5",
-"https://news.google.com/rss/articles/CBMigAFBVV95cUxOamNXZDhPRnluZDQtNzl4MXZmVFJrU2NLakJ2OUhidUpya2J3bG5ROHJYbHM2ZnhSZEdxcUxDSVFaYm5TcUpNc2hPNk9mUEtfVDQ2cWZBS05LV1VDRzh3ZlZqbVRVRmo2R0xGb1lqLWN5U3Axay1JRGczVU5CakJGTw?oc=5",
-"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRF9EQ3JLeWVSczNUOHR6Z1NqajRCZGxKV2RNSTM4SmhyRTY0clllZjhXM1p6NE5KOEV5c2thYlA1Rm43RHpzQWF6ZmZEclNGbXpaNXBEam9FNFlPeUppeVRUc2Q3X1NxMm5ITXBTX1JvZWUtYmYzM0d1bWZpX3E0U3RTVUwzdTRncEhSSThUck9MS3pqUElMOXZLbDdLOHp5cnBVak9iOEtpbV95THNIdWIteVdzczdRdDIzVXZGY2Fkckh2OWI3dEg2RWJZUXBPd3RiM0JUcnYxTUhINFYzN292LU9jSFl3U0U1eERjeDlVdw?oc=5",
-"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWXpBTkFKaEVfY2xWcmVwcDQxNEVBNW1iZ2ZzeE5pNUhMNndySDFPZDNrRlQ2M3JaQVQ5dnlhaXc2aXNPQmNvUnc2NGQxRE0xdmFXbWx3UW02RG9QLTJFUm8yVU9ad2hEcGtMcVg4T3Mtd2JKajlNa09KVGF0S1ZlZFBJQjFsQTdULW5ncjh4NTdhc0NYQXZYYUZBaC11Y05TdUI0ZWk4M1RHY2xmUk04cGtGakJPcS1XZWlyZ19nNVZ2c0pGZWQ2RFhCX3lQT3Nq?oc=5"
-],
-"w": [
-"$80",
-"000",
-"analysis",
-"below",
-"bitcoin",
-"btc",
-"eth",
-"ethereum",
-"falls",
-"gains",
-"hype",
-"icp",
-"october",
-"price",
-"qnt",
-"quant",
-"weakens"
-]
-},
-{
-"e": [
-"strategy",
-"strive"
-],
-"k": [],
-"t": 1793018675.7792916,
-"u": [
-"https://bitcoinmagazine.com/news/strive-asst-buys-6182-bitcoin",
-"https://t.me/lookonchainchannel/10786"
-],
-"w": [
-"$511",
-"$82",
-"182",
-"732",
-"any",
-"average",
-"bought",
-"btc",
-"buy",
-"didn",
-"last",
-"price",
-"strategy",
-"strive",
-"week",
-"while"
-]
-},
-{
-"e": [
-"bitmine",
-"lee",
-"tom"
-],
-"k": [],
-"t": 1793019603.0162964,
-"u": [
-"https://t.me/cointelegraph/72855",
-"https://t.me/WatcherGuru/15625"
-],
-"w": [
-"$24",
-"452",
-"bitmine",
-"buys",
-"eth",
-"lee",
-"million",
-"tom",
-"worth"
-]
-},
-{
-"e": [
-"saylor",
-"strategy"
-],
-"k": [
-"outage"
-],
-"t": 1793020214.8749537,
-"u": [
-"https://t.me/cointelegraph/72857"
-],
-"w": [
-"517",
-"848",
-"bitcoin",
-"btc",
-"holdings",
-"leaving",
-"pauses",
-"purchases",
-"saylor",
-"strategy",
-"unchanged"
-]
-},
 {
 "e": [
 "ant",
@@ -4778,6 +4670,31 @@
 "supporting",
 "tokenization"
 ]
+},
+{
+"e": [
+"coinbase",
+"ripple",
+"rlusd"
+],
+"k": [],
+"t": 1793193246.5854194,
+"u": [
+"https://t.me/WatcherGuru/15648"
+],
+"w": [
+"across",
+"coinbase",
+"expand",
+"finance",
+"institutional",
+"partners",
+"payments",
+"ripple",
+"rlusd",
+"stablecoin",
+"trading"
+]
 }
 ],
 "stories": {},
@@ -4785,64 +4702,64 @@
 "top": [
 [
 "c11fdf997380",
-30,
-181,
+29,
+191,
 3
 ],
 [
 "c1e1a4dee351",
-53,
-275,
+51,
+286,
 2
 ],
 [
+"a23c23910c8f",
+18,
+8,
+1
+],
+[
 "8d04bb417f8f",
-16,
-185,
+14,
+195,
 1
 ],
 [
 "1d92bb56bb28",
 25,
-169,
+179,
 1
 ],
 [
 "ae6bddd50139",
 20,
-96,
+106,
 2
 ],
 [
 "54af389d38b6",
-7,
-266,
+6,
+276,
 1
 ],
 [
 "e9937a5bf833",
 35,
-60,
+70,
 2
-],
-[
-"a4fca7d0542f",
-44,
-326,
-3
 ],
 [
 "80924276261c",
 0,
-342,
+352,
 1
 ],
 [
-"7186ce01fb8a",
-41,
-82,
-1
+"a4fca7d0542f",
+43,
+336,
+3
 ]
 ],
-"top_at": 1793192937.6078527
+"top_at": 1793193551.9366589
 }
