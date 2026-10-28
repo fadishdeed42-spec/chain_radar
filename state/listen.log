@@ -92,3 +92,52 @@ gemini json gemini-3.7-flash 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your p
+fetch fail https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first 429 Client Error: Too Many Requests for url: https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/rising/.rss
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 24
+market 100 news 125 reddit 0 hacks 0
+labeled 1
+alerts sent 0
+gemini json fail gemini-3.5-flash-lite JSONDecodeError('Extra data: line 10 column 4 (char 156)')
+gemini json gemini-3.8-flash 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+gemini json gemini-3.1-flash-lite 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+gemini json gemini-3.7-flash 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
+gemini json fail gemini-3.5-flash-lite JSONDecodeError('Extra data: line 10 column 4 (char 219)')
+gemini json gemini-3.8-flash 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
+gemini json fail gemini-3.5-flash-lite JSONDecodeError('Extra data: line 9 column 4 (char 136)')
+gemini json gemini-3.8-flash 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
+gemini json gemini-3.1-flash-lite 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+gemini json fail gemini-3.5-flash-lite JSONDecodeError('Extra data: line 9 column 4 (char 136)')
+gemini json gemini-3.8-flash 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
+gemini json gemini-3.1-flash-lite 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+gemini json gemini-3.7-flash 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p

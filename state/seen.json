@@ -171,13 +171,13 @@
 "coin": "bitcoin",
 "src": "FXStreet",
 "srcs": [
-"CoinDesk",
 "Coinpedia",
-"CryptoTicker.io",
+"CryptoPotato",
 "Decrypt",
-"FXStreet"
+"FXStreet",
+"TradingView"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793184512.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
@@ -395,7 +395,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -491,7 +491,7 @@
 "Analytics Insight",
 "Bitcoinist.com"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793185352.0,
 "tgtext": "",
 "title": "Crypto News Today: Bitcoin ETFs Gain USD 176 Million, Bithumb Reports Breach, Datavault AI Crashes 50%",
@@ -690,7 +690,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793202001.0,
 "tgtext": "\ud83d\udd25 JUST IN: Strategy shareholders approved an amendment allowing daily dividend accrual for $STRF, $STRC, $STRK and $STRD. \n\nPreliminary results show 99.3% voted in favor.",
 "title": "Strategy shareholders approved an amendment allowing daily dividend accrual for STRF, STRC, STRK and STRD.",
@@ -1748,7 +1748,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2005,7 +2005,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793201101.0,
 "tgtext": "\ud83d\udd25 BULLISH: Bitwise projects $BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.\n\nNews | Markets | YouTube",
 "title": "BULLISH: Bitwise projects BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.",
@@ -2163,7 +2163,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2365,7 +2365,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest bank Ita\u00fa Unibanco files to launch cryptocurrency trading and custody services.\n\n@WatcherGuru",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -3071,7 +3071,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793189322.0,
 "tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.\n\nNews | Markets | YouTube",
 "title": "$114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.",
@@ -3128,24 +3128,11 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793202595.7816706,
+"t": 1793202913.935319,
 "t0": 1793195381.0,
 "tgtext": "\ud83c\udde8\ud83c\udde6 JUST IN: Bank of Canada hikes its key interest rate by 25 basis points to 2.50%, matching expectations.\n\nNews | Markets | YouTube\nBank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years\n\nThe Bank of Canada on October 28, 2026, raised its target for the overnight rate by 25 basis points to 2.5%, the first increase since July 2023. The Bank Rate is now 2.75% and the deposit rate is 2.45%. The move aims to reduce the risk that persistently high energy prices spread to the prices of other goods and services. Governing Council said the policy rate may need to rise further, but it will proceed carefully given the uncertainties. \u2014 link",
 "title": "Bank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years",
 "url": "https://t.me/wublockchainenglish/26587",
-"urls": []
-},
-"ee12cb6e269f": {
-"coin": "solana",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1793029897.5004501,
-"t0": 1793028287.0,
-"tgtext": "Akash Network selects Solana for blockchain migration\n\nAkash Network said it has selected Solana as the destination for its planned blockchain migration. The decentralized GPU and AI compute network currently runs its own Cosmos SDK-based chain, but previously said it intends to move to a shared-security architecture to reduce network maintenance costs and the capital burden associated with AKT staking. Solana and Ethereum had both been under consideration before Akash made its final choice. \u2014 link",
-"title": "Akash Network selects Solana for blockchain migration",
-"url": "https://t.me/wublockchainenglish/26556",
 "urls": []
 },
 "ef506eb1b1eb": {
@@ -3394,28 +3381,31 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"08b1e6aaded6": 0.587,
+"08b1e6aaded6": 0.811,
 "0fa5fcf7e599": 0.019,
 "15fc1e0c1ec4": 0.031,
+"1d173c66d11c": 0.165,
 "22815839bff7": 0.301,
 "2780489f5e42": 0.552,
-"2ac3ba1424e4": 0.213,
+"2ac3ba1424e4": 0.126,
 "2dd8b00d4500": 0.019,
 "3007e1b9a85d": 0.133,
-"3070dd1c04e7": 0.269,
+"3070dd1c04e7": 0.495,
 "32d52fc286e0": 0.058,
+"3a200f87dc35": 0.111,
 "42394e4c38c6": 0.041,
+"434f380244bc": 0.099,
 "45fac861957c": 0.079,
 "57543ce9fd7d": 0.102,
 "628823a380ae": 0.048,
 "681c02ba7cd6": 0.072,
 "7186ce01fb8a": 0.156,
 "80602f0caef1": 0.041,
+"850e1a4e62b5": 0.03,
 "87937ef02d2e": 0.072,
 "8dc53687e881": 0.149,
 "93e7257f4da8": 0.147,
 "988e40db4d23": 0.022,
-"992882f41754": 0.022,
 "a0fb9ddee391": 0.251,
 "a176984b5772": 0.605,
 "a23c23910c8f": 0.261,
@@ -3423,13 +3413,10 @@
 "b573b2f2f6db": 0.022,
 "b788095b8710": 0.148,
 "b8580470be3b": 0.112,
-"be7d95003419": 0.048,
 "c11fdf997380": 0.98,
-"c691427b2fb7": 0.094,
+"d58b7de4a597": 0.142,
 "de00a49fdf96": 0.068,
-"e23efe6128d4": 0.03,
 "e8cb6af27180": 0.412,
-"e9937a5bf833": 0.626,
 "ea9c4d085e5d": 0.165,
 "ed4b64d5da16": 0.596,
 "f6e7bce954be": 0.09,
@@ -4622,64 +4609,64 @@
 "top": [
 [
 "c11fdf997380",
-19,
-342,
+18,
+347,
 5
 ],
 [
 "38ba688c4980",
 10,
-10,
+15,
 1
 ],
 [
 "8d04bb417f8f",
 0,
-346,
+351,
 1
 ],
 [
+"08b1e6aaded6",
+48,
+307,
+6
+],
+[
 "1d92bb56bb28",
-6,
-330,
+5,
+335,
 1
 ],
 [
 "ae6bddd50139",
 10,
-257,
+262,
 2
 ],
 [
 "e9937a5bf833",
-15,
-221,
+14,
+227,
 2
 ],
 [
 "a176984b5772",
 16,
-25,
+30,
 1
 ],
 [
 "ed4b64d5da16",
 20,
-120,
+126,
 2
-],
-[
-"08b1e6aaded6",
-53,
-301,
-8
 ],
 [
 "2780489f5e42",
-51,
-287,
+50,
+293,
 2
 ]
 ],
-"top_at": 1793202595.7816706
+"top_at": 1793202913.935319
 }
