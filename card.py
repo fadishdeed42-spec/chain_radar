@@ -206,7 +206,7 @@ def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', 
     ev = event_move(rows, event_ms) if event_ms else None
     hero = None
     if ev:
-        hero = (ev[2], 'after the news')
+        hero = (ev[2], ('at the low after the news' if ev[2] < 0 else 'at the high after the news'))
     elif focus:
         rows = [r for r in rows if r[0] >= rows[-1][0] - focus * 1000 + 1] or rows
     label = chart2.span_label((rows[-1][0] - rows[0][0]) / 1000)

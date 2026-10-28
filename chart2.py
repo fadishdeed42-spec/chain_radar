@@ -60,7 +60,8 @@ def render(title_name, sym, rows, label, source, tag='MOVER', event_ms=None, eve
     # hero number
     pct = f'{mv * 100:+,.0f}%' if abs(mv) >= 1 else f'{mv * 100:+.1f}%'
     d.text((56, 150), pct, font=F(BLACK, 190), fill=acc)
-    d.text((60, 352), f'{title_name} ({sym}) {label}', font=F(BOLD, 40), fill=WHITE)
+    who = title_name if title_name.strip().lower() == sym.strip().lower() else f'{title_name} ({sym})'
+    d.text((60, 352), f'{who} {label}', font=F(BOLD, 40), fill=WHITE)
     if headline:
         card.headline(d, headline, 412, sizes=(40, 36, 32), maxlines=2, gold_nums=False, color=MUT)
     # chart panel
@@ -73,7 +74,8 @@ def render(title_name, sym, rows, label, source, tag='MOVER', event_ms=None, eve
     for i in range(5):                                                 # four quiet price guides, labelled once
         p = lo + (hi - lo) * i / 4; yy = Y(p)
         d.line([cx0, yy, cx1, yy], fill=(26, 31, 43), width=1)
-        d.text((cx1 + 18, yy), fmt(p), font=F(MED, 18), fill=DIM, anchor='lm')
+        if abs(yy - Y(last)) > 30:                                     # never print a guide label under the live price tag
+            d.text((cx1 + 18, yy), fmt(p), font=F(MED, 18), fill=DIM, anchor='lm')
     # line + soft area, drawn 3x for smooth edges
     S = 3; lay = Image.new('RGBA', (W * S, H * S), (0, 0, 0, 0)); ld = ImageDraw.Draw(lay)
     pts = [(X(i) * S, Y(r[4]) * S) for i, r in enumerate(rows)]
