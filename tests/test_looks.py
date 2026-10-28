@@ -26,3 +26,17 @@ def test_default_look_and_buttons():
     assert {'BREAKING', 'CASEFILE', 'POSTCARD', 'GLASS', 'TERMINAL', 'HEADLINE'} <= set(o)
     img = r.build_image({'title': 'Some story', 'tag': 'TRUE STORY', 'visual': 'HEADLINE', 'keyfact': 'k'}, {'src': 's'}, 'facts', None, 'CASEFILE')
     assert Image.open(io.BytesIO(img)).size == (1080, 1350)
+
+
+def test_viral_picks_one_best_story_with_reasons():
+    r = radar(); sent = []
+    r.tg = lambda text, photo=None, buttons=None: sent.append((text, buttons)); r.git_sync = lambda *a, **k: None
+    st = {'menu': {'a': {'title': 'Bitcoin ETF sees record inflows as banks pile in', 'src': 'CoinDesk', 'tag': 'BREAKING'},
+                   'b': {'title': 'Small thing happens on a chain', 'src': 'X', 'tag': 'BREAKING'}},
+          'top': [['b', 50, 0.2, 1], ['a', 80, 0.5, 3]], 'probs': {'a': 0.7, 'b': 0.3}}
+    r.load_state = lambda: st
+    r.cmd_viral({})
+    assert len(sent) == 1 and 'Bitcoin ETF' in sent[0][0] and 'Small thing' not in sent[0][0] and 'Confirmed by 3 sources' in sent[0][0]
+    assert sent[0][1] == [('📝 Make post', 'p:a')]
+    sent.clear(); st['top'] = []; r.cmd_viral({})
+    assert 'Nothing strong' in sent[0][0]                                                  # honest when there is no good pick

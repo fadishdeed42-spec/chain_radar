@@ -10,6 +10,7 @@ import shorts
 
 TOKEN, CHAT = os.environ.get('TELEGRAM_TOKEN', ''), os.environ.get('TELEGRAM_CHAT_ID', '')
 GEMINI = os.environ.get('GEMINI_API_KEY', '')
+GEMINI2 = os.environ.get('GEMINI_API_KEY_2', '')      # second free key: used when the first one is out of quota (429)
 STATE = 'state/seen.json'
 NOW = time.time()
 UA = {'User-Agent': 'Mozilla/5.0 (ChainRadar news scanner; +github.com/fadishdeed42-spec/chain_radar)'}
@@ -836,6 +837,17 @@ def article_text(urls):
 _MODELS = []
 
 
+def gen_post(model, body, timeout=30):
+    """generateContent with the first key; if Google says the quota is used up (429), the second key takes over."""
+    last = None
+    for key in [k for k in (GEMINI, GEMINI2) if k]:
+        last = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, timeout=timeout, json=body)
+        if last.status_code != 429:
+            return last
+        print('gemini quota on a key, trying the next one')
+    return last
+
+
 def gemini_models():
     """Ask Google which models this key can use; prefer fast 'flash' models, newest first."""
     if _MODELS:
@@ -873,15 +885,13 @@ def think_cfg(model):
 
 
 def gemini(prompt, timeout=20):
-    if not GEMINI:
+    if not (GEMINI or GEMINI2):
         return ''
     for attempt in range(2):
         for model in gemini_models():
             for tc in ([think_cfg(model), {}] if think_cfg(model) else [{}]):
                 try:
-                    r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-                                      params={'key': GEMINI}, timeout=timeout,
-                                      json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7, **tc}})
+                    r = gen_post(model, {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0.7, **tc}}, timeout)
                     if r.ok:
                         parts = r.json()['candidates'][0]['content']['parts']
                         return ''.join(p.get('text', '') for p in parts if not p.get('thought')).strip()
@@ -1826,39 +1836,42 @@ PROVEN_HOOKS = [  # starting library until the brain has its own data (common, w
     'A question the viewer can\'t ignore ("What happens to your Bitcoin when you die?")']
 
 
+def best_now(st):
+    """The single best story to post right now from the scanner's current list: ranked by the viral chance (or score), skipping junk. Returns (key, item, sc, age_h, nsrc, pr) or None."""
+    pr = st.get('probs', {}); best = None
+    for k, sc, age, ns in st.get('top') or []:
+        it = st.get('menu', {}).get(k)
+        if not it or age > 12:
+            continue
+        if junk_story(it['title'], [{'title': it['title'], 'src': it.get('src', '')}], it.get('coin')):
+            continue
+        val = (pr[k] if k in pr else sc / 100 * .9) * (1.15 if ns >= 2 else 1.0) * (1.1 if age < 1 else 1.0)
+        if best is None or val > best[0]:
+            best = (val, k, it, sc, age, ns, pr.get(k))
+    return best[1:] if best else None
+
+
 def cmd_viral(tgs):
-    ws = shorts.winners(days=60, k=10)
-    if not ws:
-        tg('📊 The Shorts brain is still collecting its first data (it runs every morning). Try again tomorrow.'); return
-    m = '🔥 <b>Most viral crypto & money Shorts</b> <i>(last 60 days, vs their channel\'s normal)</i>\n'
-    btn = []
-    for n, (vid, v) in enumerate(ws, 1):
-        hook = v.get('an', {}).get('hook')
-        m += (f'\n<b>{n}.</b> <a href="https://youtube.com/shorts/{vid}">{E(v["t"][:80])}</a>\n'
-              f'    <b>{v["out"]:.0f}x</b> their normal · 👁 {v["views"]:,} · {v["dur"]}s · {E(v["cht"][:30])}'
-              + (f'\n    🎣 <i>"{E(hook[:100])}"</i>' if hook else '') + '\n')
-        if not v.get('an'):
-            btn.append((f'🔍 Why #{n}', f'sw:{vid}'))
-    tg(m[:4000], None, btn[:6])
-
-
-def why_short(vid):
-    v = shorts.load()['v'].get(vid)
-    if not v:
-        tg('That Short is no longer in the data.'); return
-    chat_action('typing')
-    if not v.get('an') or v['an'].get('fail'):
-        a = shorts.gemini_video(vid, [x for x in gemini_models() if 'gemma' not in x][:3])
-        if not a:
-            tg('⚠️ Gemini couldn\'t watch that one right now. Try again later.'); return
-        with shorts.LOCK:
-            v['an'] = a
-        shorts.save()
-    a = v['an']
-    tg(f'🔍 <b>{E(v["t"][:90])}</b>\n<b>{v.get("out", 0):.0f}x</b> their channel\'s normal · {v["dur"]}s\n\n'
-       f'🎣 <b>Hook:</b> "{E(str(a.get("hook", ""))[:150])}"\n<i>{E(str(a.get("hook_type", "")))} · promise clear by {a.get("hook_seconds", "?")}s</i>\n'
-       f'🎭 Tone: {E(str(a.get("tone", "")))} · jokes: {a.get("jokes", "?")} · twist: {"yes" if a.get("twist") else "no"} · ending: {E(str(a.get("ending", "")))}\n'
-       f'🎬 {E(str(a.get("visual", ""))[:160])}\n\n💡 <b>Why it works:</b> {E(str(a.get("why", ""))[:250])}')
+    """ONE answer: the best thing to post right now, why, and the best format for it."""
+    git_sync()
+    st = load_state()
+    b = best_now(st)
+    if not b:
+        tg('🎯 Nothing strong right now. The scanner has no story that is both fresh and big enough. Ask again in a few minutes, or try /story or /today.'); return
+    k, it, sc, age, ns, pr = b
+    why = [chance_txt(pr, sc), '✅ Confirmed by ' + str(ns) + ' sources' if ns >= 2 else '⚠️ Only 1 source so far: check it before you post',
+           f'🕒 Posted {age * 60:.0f} min ago' + (' · early, you can still be first' if age < 1 else ' · getting older' if age < 4 else ' · old news, low reach')]
+    fmt_ = None
+    coin = coin_by_id(it['coin']) if it.get('coin') else None
+    if coin:
+        g, summary = chart_gate(coin)
+        why.append(f'📈 {coin["name"]}: {summary or "no candle data"}')
+        fmt_ = 'Chart post (the move is big enough to react to)' if g else None
+    if not fmt_:
+        fmt_ = f'Post with the {looks.LABELS[[v for _, v in looks.LABELS].index(default_look(it.get("tag", ""), it["title"]))][0]} look' + (' (no chart: the move is too small)' if coin else '')
+    acc = who_posts(it['title'])
+    tg(f'🎯 <b>Best thing to post right now</b>\n\n<b>{E(it["title"])}</b>\n<i>{E(it.get("src", ""))}</i>\n\n<b>Why this one</b>\n' + '\n'.join('• ' + w for w in why)
+       + f'\n\n<b>Best format:</b> {E(fmt_)}\n👀 Big accounts that usually post it: ' + ' · '.join(f'@{a}' for a in acc[:3]), None, [('📝 Make post', 'p:' + k)])
 
 
 # ---------------- 🎬 automatic Shorts: /short topic -> script (checkpoint 1) -> voice (2) -> video (3) ----------------
@@ -1896,9 +1909,8 @@ def gemini_json(prompt):
     for attempt in range(2):
         for model in [m for m in gemini_models() if 'gemma' not in m][:4]:
             try:
-                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': GEMINI}, timeout=60,
-                                  json={'contents': [{'parts': [{'text': prompt}]}],
-                                        'generationConfig': {'temperature': .8, 'response_mime_type': 'application/json', **think_cfg(model)}})
+                r = gen_post(model, {'contents': [{'parts': [{'text': prompt}]}],
+                                     'generationConfig': {'temperature': .8, 'response_mime_type': 'application/json', **think_cfg(model)}}, 60)
                 if r.status_code == 400 and think_cfg(model):
                     _NOTHINK[model] = False; continue
                 if r.ok:
@@ -2635,8 +2647,6 @@ def handle(u, tgs):
             short_approve(data[3:], tgs, seed_bump=True)
         elif data.startswith('se:'):
             short_reedit(data[3:], tgs)
-        elif data.startswith('sw:'):
-            why_short(data[3:])
         elif data == 'kq:':
             kit_take(tgs)
         elif data.startswith('pk:'):

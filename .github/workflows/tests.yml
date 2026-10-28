@@ -21,6 +21,7 @@ jobs:
         if: github.event.inputs.live != 'none'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           TELEGRAM_TOKEN: unused
           TELEGRAM_CHAT_ID: '0'
         run: python tests/live.py ${{ github.event.inputs.live }}
