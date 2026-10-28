@@ -76,7 +76,8 @@ def emit_image(name, png_bytes):
     """the runner logs are unreadable from here, so a small JPEG goes out as one annotation (base64) and is decoded locally"""
     import io, base64
     from PIL import Image
-    im = Image.open(io.BytesIO(png_bytes)).convert('RGB').resize((540, 675)); b = io.BytesIO(); im.save(b, 'JPEG', quality=62)
+    im = Image.open(io.BytesIO(png_bytes)).convert('RGB').resize((432, 540)); b = io.BytesIO(); im.save(b, 'JPEG', quality=55, optimize=True)
+    _orig_print(f'image {name}: {len(b.getvalue())} bytes jpeg')
     _orig_print(f'::notice title=img-{name}::' + base64.b64encode(b.getvalue()).decode())
 
 
@@ -107,7 +108,7 @@ def live_chart():
 
 
 def fmt_(v):
-    return f'${v:,.4g}'
+    return f'${v:,.0f}' if v >= 1 else f'${v:.8f}'
 
 
 def live_package():

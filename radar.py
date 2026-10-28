@@ -2455,9 +2455,11 @@ def story_facts(topic, known=''):
 
 def hist_chart(sym, ts, title):
     """Daily candles around a PAST date (about a month either side), real exchange data. Returns (png, caption) or (None, why)."""
-    h = cg_search(sym, strict=False); coin = coin_by_id(h['id']) if h else None
-    if not coin:
-        return None, f'no coin found for {sym}'
+    try:
+        h = cg_search(sym, strict=False); coin = coin_by_id(h['id']) if h else None
+    except Exception:
+        coin = None
+    coin = coin or {'id': '', 'sym': sym.upper(), 'name': sym.upper(), 'price': 0}      # CoinGecko busy/rate-limited: the exchange candles are all the chart needs
     start, end = ts - 25 * 86400, min(ts + 25 * 86400, time.time())
     rows, src = binance(coin['sym'], 86400, start, end), 'Binance'
     if len(rows) < 15:
