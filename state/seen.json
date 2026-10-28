@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1793107916.6432102,
 1793110663.5044334,
 1793114946.8951821,
 1793116479.74274,
@@ -17,7 +16,8 @@
 1793167905.3122866,
 1793177392.095842,
 1793181984.986136,
-1793185658.4633334
+1793185658.4633334,
+1793196623.2511277
 ],
 "menu": {
 "0080c1bb18be": {
@@ -82,7 +82,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1793195703.7361085,
+"t": 1793196623.2511277,
 "t0": 1793184864.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
@@ -374,7 +374,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -705,19 +705,6 @@
 "tgtext": "",
 "title": "Pepe Rises 4.32% in an Hour as Short Liquidations Reach $240,000",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rY0VMaGtDazllNXhvRU1xU1NxZGYyNnBVUVlVMzZ4RTR6bkNNNHhCMzVpNEVOR29qVG00bVVWWHdQNHdBRk1JajlwcjdwY0pDOS00dmRBMnJUZw?oc=5",
-"urls": []
-},
-"3a57e651b6db": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1793023766.3217335,
-"t0": 1793002395.0,
-"tgtext": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.\n\n$Kimchi briefly surged over 150%.\n\nCoincidentally, trader ja2trader spent $28.9K buying 4.61M $Kimchi just hours before @kimchi1x added @pumpfun back to his bio, and is now up $11K.\n\nhttps://solscan.io/account/8dxFkfYTddmgRpphqgvBkNN2LLz1MHgGzd63Wz79gfQz?exclude_amount_zero=true&remove_spam=false&token_address=CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump&page_size=100#transfers",
-"title": "3 days after removing @pumpfun from his bio, @kimchi1x has added it back.",
-"url": "https://t.me/lookonchainchannel/10784",
 "urls": []
 },
 "3b53b2323074": {
@@ -1144,7 +1131,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1745,7 +1732,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2147,7 +2134,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2348,7 +2335,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -2399,7 +2386,7 @@
 "CryptoPotato",
 "Pluang"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -2873,6 +2860,21 @@
 "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818"
 ]
 },
+"dd7f22c2fba9": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793196623.2511277,
+"t0": 1793195271.0,
+"tgtext": "\ud83d\udd25 JUST IN: Google Cloud details a preview Bitcoin custody service that lets institutions sign transactions without one party controlling the full private key.\n\nhttps://ct.com/news/google-cloud-mpc-service-bitcoin-custody\n\nNews | Markets | YouTube",
+"title": "Google Cloud details a preview Bitcoin custody service that lets institutions sign transactions without one party controlling the full private key.",
+"url": "https://t.me/cointelegraph/72909",
+"urls": [
+"https://cointelegraph.com/news/google-cloud-mpc-service-bitcoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "dd9c70ada97c": {
 "coin": "ethereum",
 "src": "KuCoin",
@@ -3095,7 +3097,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793189322.0,
 "tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.\n\nNews | Markets | YouTube",
 "title": "$114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.",
@@ -3138,7 +3140,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793196008.8696752,
+"t": 1793196623.2511277,
 "t0": 1793195381.0,
 "tgtext": "\ud83c\udde8\ud83c\udde6 JUST IN: Bank of Canada hikes its key interest rate by 25 basis points to 2.50%, matching expectations.\n\nNews | Markets | YouTube",
 "title": "Bank of Canada hikes its key interest rate by 25 basis points to 2.50%, matching expectations.",
@@ -3417,31 +3419,29 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"06c234f7b8d5": 0.223,
-"076abfd811c5": 0.087,
-"1d92bb56bb28": 0.885,
-"22815839bff7": 0.926,
-"26871d2943ab": 0.037,
-"2780489f5e42": 0.354,
+"06c234f7b8d5": 0.615,
+"076abfd811c5": 0.597,
+"1d92bb56bb28": 0.803,
+"22815839bff7": 0.546,
 "2ac3ba1424e4": 0.292,
-"2dd8b00d4500": 0.029,
 "3007e1b9a85d": 0.081,
 "32d52fc286e0": 0.086,
 "382618527810": 0.014,
 "3835788a62f7": 0.129,
 "3fc1a47a51cb": 0.545,
 "44d7ff7d5b6e": 0.062,
+"45fac861957c": 0.047,
 "623b778463d6": 0.3,
 "628823a380ae": 0.126,
 "681c02ba7cd6": 0.106,
 "7186ce01fb8a": 0.564,
 "7b85a5b2467a": 0.107,
 "87937ef02d2e": 0.042,
+"8b8f790a3208": 0.102,
 "988e40db4d23": 0.062,
 "992882f41754": 0.06,
-"9e576d805850": 0.065,
 "a23c23910c8f": 0.427,
-"ac4422371254": 0.117,
+"ac4422371254": 0.15,
 "ae6bddd50139": 0.86,
 "b4d9fb8d4371": 0.093,
 "b788095b8710": 0.332,
@@ -3449,100 +3449,18 @@
 "be7d95003419": 0.045,
 "c11fdf997380": 0.925,
 "c1e1a4dee351": 0.956,
-"d5938ed3683e": 0.079,
+"dd7f22c2fba9": 0.824,
 "de00a49fdf96": 0.173,
 "e0d01a8b7373": 0.036,
-"e9937a5bf833": 0.591,
+"e8cb6af27180": 0.517,
+"e9459e38183b": 0.059,
+"e9937a5bf833": 0.805,
 "ebb105df793d": 0.141,
 "f6e7bce954be": 0.132,
 "f8ed00046721": 0.052,
 "fcc4e8e8e1cd": 0.107
 },
 "sent": [
-{
-"e": [
-"ant",
-"anthropic",
-"claude",
-"ipo"
-],
-"k": [],
-"t": 1793020522.5291617,
-"u": [
-"https://t.me/WatcherGuru/15628",
-"https://t.me/cointelegraph/72859"
-],
-"w": [
-"ant",
-"anthropic",
-"claude",
-"developer",
-"files",
-"ipo",
-"officially",
-"ticker",
-"under"
-]
-},
-{
-"e": [
-"attractive",
-"bear",
-"buy",
-"galaxy",
-"now",
-"research",
-"time"
-],
-"k": [],
-"t": 1793021746.9562101,
-"u": [
-"https://www.theblock.co/news/markets/2026-10-26-galaxy-says-bitcoin-bear-market-is-over-now-is-the-time-to-buy-and-hold-431720",
-"https://decrypt.co/381786/bitcoin-bear-market-is-over-galaxy-research-says",
-"https://news.google.com/rss/articles/CBMinAFBVV95cUxQQmE2V0R3bFhuWEpKd0FzV0J0OTFoYU1LRDlmSkZvSmxnZ3ViTEY4U1JaWHp4Z29FdmcxZFJteE92RDFLQ1ZSY29lcEx2NXJtLWp6T2dlT2lRWU1ZSUhyUHZaVUZpeUcyNE5iR3lRVHV4Nkl3bVpBSTlRYWo1dURtcmN5elVBMUlIckJpZUxOMWpuR2xnZzRYRTNVaE8?oc=5",
-"https://t.me/wublockchainenglish/26554"
-],
-"w": [
-"attractive",
-"bear",
-"bitcoin",
-"buy",
-"galaxy",
-"market",
-"now",
-"research",
-"time"
-]
-},
-{
-"e": [
-"fed"
-],
-"k": [
-"crash"
-],
-"t": 1793022358.892616,
-"u": [
-"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOUlkbE00NXFQOGNJSjFtZTExcGxUcEpYUjh1YTEySGhxNDNpM0pLT2Q3OGc3UHl4andkSDRDOXl6bWc0SGt5VTUyTklvaUlQUGlKVGJrUDA1OTVKZWN1OGRhcUh5WUxNbW1vei05dG5BR3A3eElYeVlhLWNoUmZJWC1CcDF3Ny1OM2xvd1cyTkJteVVvbVpLM0gyMEx2TzdBS0IyTHRFMlJoTm8?oc=5",
-"https://news.google.com/rss/articles/CBMihwFBVV95cUxNUWdRSWJ4dGVqaXJYNl9neWJxei1kXzRoekVYUmxuNXFMNmpHS1RCSFl0cDV2NERQcXQyOTRoWVRRYWhGdVc5N2dzNWpfb0FJTjlXWldvRGhXeFlqbjVOcmxldm5oY2JoRDJqSUVTbmdEMG9PUFZfQW9aVEFCUlk1dXY0OUZObG8?oc=5",
-"https://decrypt.co/381802/bitcoin-dips-below-80000-ahead-of-fed-decision-midterms"
-],
-"w": [
-"$80k",
-"amid",
-"below",
-"bitcoin",
-"decision",
-"dips",
-"fed",
-"heavy",
-"increase",
-"liquidations",
-"may",
-"rate",
-"volatility"
-]
-},
 {
 "e": [
 "breach",
@@ -4692,6 +4610,38 @@
 "stablecoin",
 "trading"
 ]
+},
+{
+"e": [
+"cloud",
+"google"
+],
+"k": [],
+"t": 1793196623.2511277,
+"u": [
+"https://cointelegraph.com/news/google-cloud-mpc-service-bitcoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/cointelegraph/72909"
+],
+"w": [
+"bitcoin",
+"cloud",
+"controlling",
+"custody",
+"details",
+"full",
+"google",
+"institutions",
+"key",
+"lets",
+"one",
+"party",
+"preview",
+"private",
+"service",
+"sign",
+"transactions",
+"without"
+]
 }
 ],
 "stories": {},
@@ -4699,64 +4649,64 @@
 "top": [
 [
 "c1e1a4dee351",
-46,
-326,
+45,
+337,
 2
 ],
 [
-"22815839bff7",
-18,
-12,
-1
-],
-[
 "c11fdf997380",
-34,
-232,
+32,
+242,
 4
 ],
 [
 "8d04bb417f8f",
-9,
-236,
+8,
+246,
 1
 ],
 [
-"1d92bb56bb28",
-20,
-220,
+"ed4b64d5da16",
+10,
+21,
 1
 ],
 [
 "ae6bddd50139",
 20,
-147,
+158,
 2
 ],
 [
-"ed4b64d5da16",
-10,
-10,
+"dd7f22c2fba9",
+18,
+23,
+1
+],
+[
+"e9937a5bf833",
+20,
+122,
+2
+],
+[
+"1d92bb56bb28",
+19,
+230,
 1
 ],
 [
 "54af389d38b6",
 0,
-317,
+328,
 1
 ],
 [
-"e9937a5bf833",
-35,
-111,
-2
-],
-[
-"7186ce01fb8a",
-41,
-133,
-1
+"06c234f7b8d5",
+42,
+196,
+3
 ]
 ],
-"top_at": 1793196008.8696752
+"top_at": 1793196623.2511277
 }
