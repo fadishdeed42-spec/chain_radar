@@ -343,7 +343,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -1126,7 +1126,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1245,19 +1245,6 @@
 "tgtext": "Whale 0xdeA6 bought another 4,000 $ETH ($9.4M) 9 hours ago and deposited it into Aave.\n\nHe then borrowed 6M $USDT from Aave and deposited it into #Binance to buy more $ETH.\n\nThe whale now has 22,504 $ETH ($53.17M) deposited in Aave and has borrowed a total of $31M in stablecoins.\n\nhttps://arkm.com/explorer/address/0xdeA611a2f605FE63962E0151e724E9ce4C8a1d5c\nhttps://debank.com/profile/0xdea611a2f605fe63962e0151e724e9ce4c8a1d5c",
 "title": "Whale 0xdeA6 bought another 4,000 ETH ($9.4M) 9 hours ago and deposited it into Aave.",
 "url": "https://t.me/lookonchainchannel/10811",
-"urls": []
-},
-"623ab80418db": {
-"coin": "",
-"src": "Binance",
-"srcs": [
-"Binance"
-],
-"t": 1793015901.0176318,
-"t0": 1793012499.0,
-"tgtext": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)\n\n\nBinance Wallet is excited to launch the AXIS Trading Competition on Binance Alpha! During the Promotion Periods, trade Axis Robotics (AXIS) in your Binance Wallet (Keyless) or via Binance Alpha to receive exclusive token rewards. Any user who is eligible to trade Binance Alpha tokens is eligible to participate in this trading competition.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
-"title": "Binance Alpha Trading Competition: Trade Axis Robotics (AXIS) and Share $200K Worth of Rewards (2026-10-26)",
-"url": "https://t.me/binance_announcements/9085",
 "urls": []
 },
 "642924e3f4ee": {
@@ -1426,7 +1413,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793188003.0,
 "tgtext": "",
 "title": "Curve Finance lost $69.3M in a DeFi exploit due to a Vyper compiler bug, not the unverified $351.6M figure.",
@@ -1459,13 +1446,32 @@
 "url": "https://t.me/lookonchainchannel/10792",
 "urls": []
 },
+"73b923753187": {
+"coin": "bitcoin",
+"src": "FXStreet",
+"srcs": [
+"CoinDesk",
+"CryptoPotato",
+"FXStreet",
+"TradingView",
+"Yahoo Finance"
+],
+"t": 1793188947.002959,
+"t0": 1793167761.0,
+"tgtext": "",
+"title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
+"url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUTE5VVR0THlPaFBwU3IzQlMwbW81LThXOHRIWHd1TC1fOUotWE1lb0VJU0ZsTzBmX0twMkJNaENyZXhnd0pyQU9KWEc2d0tqdjUwWS1nZGlueUtjVkgwdjNac0VFMlMxN1FONW9xVGxxSHljMTNXZ0NpUnVldG1xNjd6UW15ZDc0MlhteG5hWWsxcVdkeGhhaHRSU1NVaVNjSF9fd1JoYm1UY1k1SmVmUUlOMkNkb3F0MS1HNWc1ZXJoTkllLV9weUpMTVhGZk9JUW04bk9rU1VyOXZJcEZOVWt4aXRqS1BTMjdvNW1R?oc=5",
+"urls": [
+"https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision"
+]
+},
 "73d414505739": {
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793188638.1804464,
+"t": 1793188947.002959,
 "t0": 1793167623.0,
 "tgtext": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B\n\nAccording to BeInCrypto, Anthropic\u2019s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from the government in October 2025 at $140.9676 per share and resold them at cost to nine undisclosed buyers. Ahead of Anthropic\u2019s planned Nasdaq listing, the stake is now estimated to be worth approximately $3.94 billion based on projected IPO valuations, marking more than a sixfold increase from the resale price. \u2014 link",
 "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B",
@@ -1544,10 +1550,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $81290 \u2022 ETH $2361 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81290 \u2022 ETH $2361 \u2022 GRAM $1.24\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81290 \u2022 ETH $2361 \u2022 GRAM $1.24\u00bb",
+"tgtext": "\ud83d\udcca BTC $81212 \u2022 ETH $2355 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81212 \u2022 ETH $2355 \u2022 GRAM $1.24\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81212 \u2022 ETH $2355 \u2022 GRAM $1.24\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -1734,7 +1740,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2029,17 +2035,19 @@
 },
 "a4fca7d0542f": {
 "coin": "",
-"src": "Cointelegraph",
+"src": "Decrypt",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Decrypt"
 ],
-"t": 1793179536.8043556,
+"t": 1793189252.2009711,
 "t0": 1793173375.0,
 "tgtext": "",
-"title": "Coinbase denies systems breach, says vendor exposed customer data",
-"url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"title": "Coinbase Customer Data Hit in Analytics Vendor Breach, Funds \u2018Not Impacted\u2019",
+"url": "https://decrypt.co/382009/coinbase-customer-data-hit-in-analytics-vendor-breach-funds-not-impacted",
 "urls": [
-"https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/382009/coinbase-customer-data-hit-in-analytics-vendor-breach-funds-not-impacted"
 ]
 },
 "a7824ee4ae4b": {
@@ -2148,7 +2156,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2351,11 +2359,12 @@
 "src": "Wu Blockchain",
 "srcs": [
 "CoinDesk",
+"Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793182074.0,
-"tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link",
+"tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
 "url": "https://t.me/wublockchainenglish/26584",
 "urls": [
@@ -2402,7 +2411,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -3127,7 +3136,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793188638.1804464,
+"t": 1793189252.2009711,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3419,74 +3428,48 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"022f700d02cb": 0.058,
-"08b1e6aaded6": 0.139,
-"14ad7ce4af9a": 0.075,
-"186cb63b8fa2": 0.028,
-"1d92bb56bb28": 0.863,
-"2557fc2122ab": 0.011,
-"26871d2943ab": 0.042,
-"26fbd39ac8cf": 0.045,
-"29164ec77376": 0.038,
-"2e8a7f703315": 0.063,
-"2ec9b6c2a5c0": 0.067,
-"3007e1b9a85d": 0.05,
-"32e1f5b62d15": 0.031,
-"3fc1a47a51cb": 0.256,
-"425a723a8498": 0.014,
-"448978fe1bbd": 0.359,
-"455e33fc662d": 0.092,
-"54af389d38b6": 0.511,
-"623b778463d6": 0.087,
-"7186ce01fb8a": 0.435,
-"758e60358730": 0.042,
-"8d04bb417f8f": 0.831,
-"976259c989a9": 0.068,
-"988e40db4d23": 0.014,
-"a4fca7d0542f": 0.383,
-"acb923342f6a": 0.107,
-"ae6bddd50139": 0.87,
-"b33239a0be9e": 0.018,
-"b4aead49e1d7": 0.096,
-"b89221b2253e": 0.027,
-"be0e66133543": 0.1,
-"c11fdf997380": 0.871,
-"c1e1a4dee351": 0.626,
-"c7a872e51530": 0.042,
-"d5938ed3683e": 0.087,
-"d668b288fae3": 0.055,
-"d6c77e40fe39": 0.043,
-"efc857737a72": 0.179,
-"f8ed00046721": 0.031,
-"fcc4e8e8e1cd": 0.028
+"022f700d02cb": 0.093,
+"08b1e6aaded6": 0.335,
+"14ad7ce4af9a": 0.119,
+"186cb63b8fa2": 0.046,
+"1d92bb56bb28": 0.914,
+"2557fc2122ab": 0.019,
+"26871d2943ab": 0.068,
+"26fbd39ac8cf": 0.073,
+"2ac3ba1424e4": 0.292,
+"2e8a7f703315": 0.101,
+"2ec9b6c2a5c0": 0.108,
+"3007e1b9a85d": 0.081,
+"3fc1a47a51cb": 0.366,
+"425a723a8498": 0.023,
+"448978fe1bbd": 0.484,
+"44d7ff7d5b6e": 0.062,
+"455e33fc662d": 0.122,
+"54af389d38b6": 0.637,
+"623b778463d6": 0.139,
+"628823a380ae": 0.126,
+"7186ce01fb8a": 0.564,
+"758e60358730": 0.069,
+"87937ef02d2e": 0.042,
+"8d04bb417f8f": 0.892,
+"976259c989a9": 0.109,
+"988e40db4d23": 0.024,
+"a4fca7d0542f": 0.511,
+"acb923342f6a": 0.167,
+"ae6bddd50139": 0.895,
+"b4aead49e1d7": 0.063,
+"b788095b8710": 0.332,
+"b89221b2253e": 0.044,
+"be0e66133543": 0.157,
+"c11fdf997380": 0.985,
+"c1e1a4dee351": 0.738,
+"c7a872e51530": 0.069,
+"d5938ed3683e": 0.138,
+"d6c77e40fe39": 0.07,
+"efc857737a72": 0.268,
+"f8ed00046721": 0.052
 },
 "sent": [
-{
-"e": [
-"atm",
-"sats",
-"strive"
-],
-"k": [],
-"t": 1793015901.0176318,
-"u": [
-"https://t.me/wublockchainenglish/26550"
-],
-"w": [
-"$1b",
-"atm",
-"bitcoin",
-"fund",
-"may",
-"opens",
-"preferred",
-"program",
-"purchases",
-"sats",
-"stock",
-"strive"
-]
-},
 {
 "e": [
 "asst",
@@ -4785,6 +4768,40 @@
 "transfer",
 "unveils"
 ]
+},
+{
+"e": [
+"big",
+"fed",
+"forecast",
+"tech"
+],
+"k": [],
+"t": 1793188947.002959,
+"u": [
+"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVTVycHJrUzVnbkI0dXhNX0Z6WVh2SXA4bGIydzVNN2FVbjhHcl9rc1Fkczh1Z09LejNxT3hSZ2xvNEFvd0J5Qk8ycnZ0MmtuTGN0V2FnVlR6dTRFUVU2Mk92YVlOWnFyMjZPU29pWHZ2bW00cUVjdnlsd254WENINHpCUzBIUXhqMTlSYjIxWktMSXF3RUo3SUlEbTExTk1vV3BpQ1F3bW9PeW5fb29JVGY1ZzFCY0NJdUZOVVFyY3A2Zm5VYVM4bGJiLVNicDVlQzFhZ3ZzeHA2UGc?oc=5",
+"https://news.google.com/rss/articles/CBMioAFBVV95cUxOZU1HeHExdVJjMGlaZ2R3NEtHVzBPNkVsZHFWRndTazNsU1VXMlMwVDZNMjN5UXZBQU9HODFsRmVpV3JuUEc1OW1wbFI1VEFwSVlVV0tHYkNReFVydEtxLXQzZUMyMllEZmh0YmVVeDdvMG9XQmF3YzVianFLaTUtenItYWxaaXdBb1dvNXU2TFZfSEFVdEg2TjZyWHE5Tk5C?oc=5",
+"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUTE5VVR0THlPaFBwU3IzQlMwbW81LThXOHRIWHd1TC1fOUotWE1lb0VJU0ZsTzBmX0twMkJNaENyZXhnd0pyQU9KWEc2d0tqdjUwWS1nZGlueUtjVkgwdjNac0VFMlMxN1FONW9xVGxxSHljMTNXZ0NpUnVldG1xNjd6UW15ZDc0MlhteG5hWWsxcVdkeGhhaHRSU1NVaVNjSF9fd1JoYm1UY1k1SmVmUUlOMkNkb3F0MS1HNWc1ZXJoTkllLV9weUpMTVhGZk9JUW04bk9rU1VyOXZJcEZOVWt4aXRqS1BTMjdvNW1R?oc=5",
+"https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+"https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0ZQdFlpYUJ0bDY2MG9FU3Nzd2djNnJVZWYtZDZZa0Z2WDhkNGE0cXEtUnVzMWF1X0tmelEyZi10RUNsdmluSnFoa0F0X3p5cDJUZ21YVFB3TnI4amd1TXV6T1ZfcHVLTWxSVHEzOTZzSlNxZEVEdTMtWFJTNm54cjY0Nkh4LTg0bXNYTHpqalczaXVVU2dOWms0SjgtY2JHYnow?oc=5"
+],
+"w": [
+"$81",
+"000",
+"await",
+"big",
+"bitcoin",
+"btc",
+"decision",
+"earnings",
+"fed",
+"forecast",
+"policy",
+"price",
+"reclaims",
+"tech",
+"traders"
+]
 }
 ],
 "stories": {},
@@ -4792,64 +4809,64 @@
 "top": [
 [
 "c11fdf997380",
-20,
-109,
-2
-],
-[
-"ae6bddd50139",
-28,
-25,
-2
+30,
+120,
+3
 ],
 [
 "1d92bb56bb28",
 25,
-97,
+107,
 1
+],
+[
+"ae6bddd50139",
+28,
+35,
+2
 ],
 [
 "8d04bb417f8f",
 16,
-113,
-1
-],
-[
-"73d414505739",
-9,
-350,
+124,
 1
 ],
 [
 "eac28a981965",
-7,
-314,
+5,
+324,
 1
 ],
 [
 "c1e1a4dee351",
-42,
-204,
+41,
+214,
 1
 ],
 [
 "54af389d38b6",
-17,
-195,
-1
-],
-[
-"7186ce01fb8a",
-41,
-11,
+15,
+205,
 1
 ],
 [
 "80924276261c",
 0,
-271,
+281,
 1
+],
+[
+"7186ce01fb8a",
+41,
+21,
+1
+],
+[
+"a4fca7d0542f",
+42,
+265,
+2
 ]
 ],
-"top_at": 1793188638.1804464
+"top_at": 1793189252.2009711
 }
