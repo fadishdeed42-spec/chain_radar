@@ -38,7 +38,7 @@ def load():
                 _B = json.load(open(BRAIN_F))
             except Exception:
                 _B = {}
-            for k, v in (('stories', {}), ('chan', {}), ('xposts', []), ('mine', {}), ('posted', []), ('fb', {}), ('briefed', {})):
+            for k, v in (('stories', {}), ('chan', {}), ('xposts', []), ('mine', {}), ('posted', []), ('fb', {}), ('briefed', {}), ('replies', [])):
                 _B.setdefault(k, v)
         return _B
 
@@ -50,6 +50,7 @@ def save():
         b['xposts'] = b['xposts'][-600:]
         b['posted'] = [p for p in b['posted'] if now - p['t'] < 60 * 86400]
         b['mine'] = {k: m for k, m in b['mine'].items() if now - m['t'] < 60 * 86400}
+        b['replies'] = [r for r in b['replies'] if now - r['t'] < 120 * 86400][-400:]
         b['briefed'] = {k: t for k, t in b['briefed'].items() if now - t < 2 * 86400}
         os.makedirs('state', exist_ok=True)
         tmp = BRAIN_F + '.tmp'
@@ -320,3 +321,49 @@ def status():
             'xposts': len(b['xposts']), 'mine': len(b['mine']), 'fb': sum(1 for s in S if s.get('fb')),
             'ready': bool(m.get('ready')), 'auc': m.get('auc'), 'trained': m.get('trained'),
             'chan': {k: v.get('median', 0) for k, v in b['chan'].items() if time.time() - v.get('seen', 0) < 86400}}
+
+
+# ---------------------------------------------------------------- replies: what you posted and how it did
+def reply_add(rec):
+    """rec: rid, t, key, author, style, stance, reply, coin, chart, age_min, check. Outcome fields start empty."""
+    with LOCK:
+        b = load()
+        b['replies'] = [r for r in b['replies'] if r['rid'] != rec['rid']]
+        b['replies'].append({**rec, 'posted': False, 'outcome': None, 'url': None, 'likes': None, 'views': None})
+
+
+def reply_mark(rid, field, value):
+    with LOCK:
+        for r in load()['replies']:
+            if r['rid'] == rid:
+                r[field] = value
+                if field == 'outcome':
+                    r['posted'] = True                                   # rating a reply means you used it
+                return r
+    return None
+
+
+def reply_stats():
+    """{style: (worked, rated)} from your taps: this is what picks the styles for the next reply"""
+    out = {}
+    for r in load()['replies']:
+        if r.get('outcome') in (1, -1):
+            w, n = out.get(r['style'], (0, 0))
+            out[r['style']] = (w + (r['outcome'] == 1), n + 1)
+    return out
+
+
+def reply_link(text, url, now=None):
+    """you pasted the link of a reply you posted: attach it to the draft it came from (same words), so its likes/views can be read tomorrow"""
+    now = now or time.time(); tw = set(words(text))
+    best, bs = None, .5
+    with LOCK:
+        for r in load()['replies']:
+            if now - r['t'] > 12 * 3600 or r.get('url'):
+                continue
+            sc = _jac(tw, set(words(r['reply'])))
+            if sc >= bs:
+                best, bs = r, sc
+        if best:
+            best['url'] = url; best['posted'] = True
+    return best

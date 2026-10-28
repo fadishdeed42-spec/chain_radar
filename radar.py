@@ -5,6 +5,7 @@ import os, re, json, time, html, hashlib, io, sys, glob
 from datetime import datetime, timezone, timedelta
 import requests, feedparser
 import brain
+import replies
 import shorts
 
 TOKEN, CHAT = os.environ.get('TELEGRAM_TOKEN', ''), os.environ.get('TELEGRAM_CHAT_ID', '')
@@ -1276,29 +1277,93 @@ def on_stance(key, stance, tgs, mid):
     reply_from_text(r['text'], r['author'], r.get('post'), tgs, key, stance)
 
 
+def live_data(text):
+    """Verified numbers for the coin the post is about (CoinGecko, now). Returns (line, coin) or ('', None)."""
+    try:
+        coin = coin_from_text(text, '')
+    except Exception as e:
+        print('live data fail', repr(e)[:100]); coin = None
+    if not coin:
+        return '', None
+    return (f'{coin["name"]} ({coin["sym"]}) price {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h, {coin["h1"]:+.1f}% in 1h (CoinGecko, now)'), coin
+
+
+def best_reply(text, author, post, stance, used=()):
+    """3 candidates -> numbers/shape checks -> AI fact-check + judge -> the single best one.
+    Returns {'reply','style','symbol','chart','coin','live','level'} or None."""
+    live, coin = live_data(text)
+    styles = replies.pick_styles(brain.reply_stats(), used)
+    note = ''
+    for attempt in range(2):
+        j = gemini_json(replies.candidate_prompt(VOICE + '\n' + OWNER_VIEW, text, author, STANCE.get(stance, STANCE['neutral']), styles, live, note))
+        cands = []
+        for c in (j or {}).get('replies') or []:
+            r = clean_voice(str(c.get('reply', '')))
+            if not r:
+                continue
+            n_ok, miss = replies.numbers_ok(r, text, live)
+            s_ok, why = replies.shape_ok(r)
+            cands.append({'style': str(c.get('style') or '?'), 'reply': r, 'nums_ok': n_ok, 'shape_ok': s_ok, 'why': why, 'miss': miss})
+        if not cands:
+            continue
+        ok = [c for c in cands if c['nums_ok'] and c['shape_ok']]
+        verdict = gemini_json(replies.judge_prompt(text, live, ok, STANCE.get(stance, STANCE['neutral']))) if ok else None
+        best, level = replies.choose(ok, verdict)
+        if best:
+            sym = str((j or {}).get('symbol') or 'NONE').upper().strip('$ ')
+            return {**best, 'symbol': sym, 'chart': bool((j or {}).get('chart')), 'coin': coin, 'live': live, 'level': level}
+        bad = '; '.join(f'"{c["reply"][:60]}": ' + (f'numbers not in the post {c["miss"]}' if not c['nums_ok'] else c['why']) for c in cands if not (c['nums_ok'] and c['shape_ok']))
+        note = ('Your last attempt was rejected (' + bad + '). Only use numbers that appear in the POST or LIVE DATA, and keep to the rules.') if bad else \
+               'Your last attempt contained claims the post does not support. Stay strictly within what the post says.'
+    return None
+
+
 def reply_from_text(text, author, post, tgs, key, stance=None):
     stance = stance or (tgs.get('replies', {}).get(key) or {}).get('stance') or 'neutral'
-    facts = f'Post by @{author}:\n{text[:2000]}'
     used = (tgs.get('replies', {}).get(key) or {}).get('styles', [])
-    import random
-    style = random.choice([x for x in REPLY_STYLES if x[0] not in used] or REPLY_STYLES)
-    rp = parse_replies(gemini_voice(reply_rules(style, stance) + '\n' + facts))
-    rp['reply'] = clean_voice(rp['reply'])
-    if not rp['reply']:
-        unack(); tg('⚠️ The AI writer is busy, tap again in a minute.'); return
-    coin = coin_from_text(text, rp['symbol']) if rp['chart'] and rp['symbol'] not in ('', 'NONE') else None
+    rp = None
+    try:
+        rp = best_reply(text, author, post, stance, used)
+    except Exception as e:
+        print('best_reply fail', repr(e)[:200])
+    if not rp:
+        unack(); tg('⚠️ I could not write a reply I trust for this post (the AI was busy or every draft failed my checks). Tap again in a minute.',
+                    None, [('🔄 Try again', f'rr:{key}')]); return
+    coin = rp['coin'] if rp['chart'] and rp['coin'] else None
     img = move_card(coin)[0] if coin else None
     stats = f' · ❤️ {post["likes"]:,}' if post and post.get('likes') else ''
     stats += f' · {ago(post["ts"])}' if post and post.get('ts') else ''
     face = {'agree': '👍 agreeing', 'disagree': '👎 pushing back', 'neutral': '🤷 neutral'}[stance]
-    head = f'💬 <b>Reply for @{E(author)}</b> · {face}{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
+    note = replies.age_note(post)
+    head = (f'💬 <b>Reply for @{E(author)}</b> · {face}{stats}\n<i>{E(text[:160])}{"…" if len(text) > 160 else ""}</i>'
+            + (f'\n{note}' if note else ''))
+    rid = hashlib.md5(f'{key}{time.time()}'.encode()).hexdigest()[:8]
     tgs.setdefault('replies', {})[key] = {**(tgs.get('replies', {}).get(key) or {}), 't': time.time(), 'text': text[:2000], 'author': author,
-                                          'styles': used + [style[0]], 'stance': stance, 'post': {x: (post or {}).get(x) for x in ('likes', 'ts')}}
+                                          'styles': used + [rp['style']], 'stance': stance, 'post': {x: (post or {}).get(x) for x in ('likes', 'ts')}}
     tgs['replies'] = dict(sorted(tgs['replies'].items(), key=lambda kv: -kv[1]['t'])[:30])
+    brain.reply_add({'rid': rid, 't': time.time(), 'key': key, 'author': author, 'style': rp['style'], 'stance': stance, 'reply': rp['reply'],
+                     'coin': coin['sym'] if coin else None, 'chart': bool(img), 'check': rp['level'],
+                     'age_min': round((time.time() - post['ts']) / 60) if post and post.get('ts') else None})
+    brain.save()
     unack()
+    body = (head + f'\n\n<code>{E(rp["reply"])}</code>\n\n' + (f'📊 <i>Live: {E(rp["live"])}</i>\n' if rp['live'] else '')
+            + replies.check_line(rp['level'], rp['live']) + '\n'
+            + ('<i>📈 Attach this chart to the reply · tap the text to copy</i>' if img else '<i>Tap to copy</i>'))
     other = [x for x in ('agree', 'disagree', 'neutral') if x != stance]
-    tg(reply_msg(rp, head, bool(img)), img, [('🔄 Another one', f'rr:{key}')]
-       + [({'agree': '👍 Agree instead', 'disagree': '👎 Disagree instead', 'neutral': '🤷 Neutral instead'}[x], f'ra:{key}:{x}:k') for x in other])
+    tg(body, img, [('🔄 Another one', f'rr:{key}')]
+       + [({'agree': '👍 Agree instead', 'disagree': '👎 Disagree instead', 'neutral': '🤷 Neutral instead'}[x], f'ra:{key}:{x}:k') for x in other]
+       + [('✅ I posted it', f'rf:{rid}:p'), ('👍 It worked', f'rf:{rid}:w'), ('👎 Didn\'t work', f'rf:{rid}:n')])
+
+
+def on_reply_feedback(data):
+    rid, what = data.split(':')[1:3]
+    if what == 'p':
+        r = brain.reply_mark(rid, 'posted', True); msg = '✅ Logged. Paste the link of your reply here later and I will read its likes and views.'
+    else:
+        r = brain.reply_mark(rid, 'outcome', 1 if what == 'w' else -1)
+        msg = '👍 Noted. I will write more like this one.' if what == 'w' else '👎 Noted. I will use that style less.'
+    brain.save()
+    tg(msg if r else 'That reply is too old to log.')
 
 
 def more_replies(key, tgs):
@@ -1338,17 +1403,27 @@ def who_posts(title):
 def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
     mk = remember(st, g, lead, coin, srcs)
     import random
-    rp = parse_replies(gemini_voice(reply_rules(random.choice(REPLY_STYLES), 'neutral') + '\nThe post you reply to is a big account breaking this news:\n'
-                              f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
-                              + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
+    post_txt = f'{lead["title"]} (sources: {", ".join(sorted(srcs))})' + (f'. {coin["name"]} ({coin["sym"]}) is {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h' if coin else '')
+    rp = None
+    try:
+        rp = best_reply(post_txt, 'a big news account', None, 'neutral')
+    except Exception as e:
+        print('viral best_reply fail', repr(e)[:150])
+    if rp:
+        rp['reply'] = clean_voice(rp['reply'])
+    else:                                                              # fallback: the old single-shot writer
+        rp = parse_replies(gemini_voice(reply_rules(random.choice(REPLY_STYLES), 'neutral') + '\nThe post you reply to is a big account breaking this news:\n'
+                                  f'Headline: {lead["title"]}\nSources: {", ".join(sorted(srcs))}'
+                                  + (f'\nCoin: {coin["name"]} ({coin["sym"]}) {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% 24h' if coin else '')))
+        rp['reply'] = clean_voice(rp['reply']); rp['level'] = None; rp['live'] = ''
     acc = who_posts(lead['title'])
     head = (f'🔥 <b>GOING VIRAL · REPLY WINDOW OPEN</b>\n<b>{E(lead["title"])}</b>\n{confirmed(srcs)} · {chance_txt(pr, sc)} · {age*60:.0f} min ago\n\n'
             f'👀 Watch for posts from: ' + ' · '.join(f'<a href="https://x.com/{a}">@{a}</a>' for a in acc)
             + '\nReply in the first 15 minutes with 👇')
     img = move_card(coin)[0] if coin and rp.get('chart') else None
-    rp['reply'] = clean_voice(rp['reply'])
     if rp['reply']:
-        tg(reply_msg(rp, head, bool(img)), img, fb_buttons(mk))
+        chk = ('\n' + replies.check_line(rp['level'], rp['live'])) if rp.get('level') else ''
+        tg(reply_msg(rp, head, bool(img)) + chk, img, fb_buttons(mk))
     else:
         tg(head, img, fb_buttons(mk))
 
@@ -1471,6 +1546,9 @@ def on_posted(k):
 
 
 def track_mine(user, sid, post):
+    linked = brain.reply_link(post['text'], f'https://x.com/{user}/status/{sid}')
+    if linked:
+        brain.save(); tg(f'✅ Matched to the {linked["style"]} reply I wrote. I will read its likes and views tomorrow and learn which style works for you.')
     with brain.LOCK:
         brain.load()['mine'][sid] = {'t': time.time(), 'url': f'https://x.com/{user}/status/{sid}', 'text': post['text'][:280],
                                      'tp': brain.topics(post['text']), 'likes': post.get('likes', 0), 'views': post.get('views', 0), 'checked': 0}
@@ -1488,6 +1566,9 @@ def check_mine():
         with brain.LOCK:
             if p:
                 m.update({'likes': p.get('likes', 0), 'views': p.get('views', 0)})
+                for r in brain.load()['replies']:                      # a reply draft linked to this post: store its real result
+                    if r.get('url') == m['url']:
+                        r.update({'likes': p.get('likes', 0), 'views': p.get('views', 0)})
             m['checked'] = time.time()
     brain.save()
 
@@ -2596,6 +2677,8 @@ def handle(u, tgs):
             why_short(data[3:])
         elif data == 'kq:':
             kit_take(tgs)
+        elif data.startswith('rf:'):
+            on_reply_feedback(data)
         elif data.startswith('rr:'):
             more_replies(data[3:], tgs)
         elif data.startswith('x:'):
