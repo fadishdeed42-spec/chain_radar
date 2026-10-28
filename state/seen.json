@@ -111,16 +111,19 @@
 "src": "TradingView",
 "srcs": [
 "CoinDesk",
+"Coinpedia",
 "CryptoRank",
-"TradingView",
-"Yahoo Finance"
+"CryptoSlate",
+"TradingView"
 ],
-"t": 1793197237.6349895,
+"t": 1793199708.10951,
 "t0": 1793179353.0,
 "tgtext": "",
 "title": "Bitcoin Surges Above $81,000 Ahead of Fed Decision \u2013 Will BTC Price Rally Toward $88K or Drop to $76K?",
 "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc1BWdUEtcVVnR0RtNnhqWE11dlZYT0U3NmdOZEI4Tlc2eVB2SkxKZlBFTi1oeWY0Rkhtd2Rmb0pZcjNXalpORUpiVzlYZ1JucTR3SlpPejBrUU1ZVDZlb2Z0cWE1RWFPdU05eEpacnlzREtRS2ZsOHMwaFZGUjB5M2RVZ0lWekcxcnR2RTh5cHdwYVhNa3dEZ3lLNXFfbUF4OTdOa0RpSkNaMFh6TklFbThXOVJoWVNDeFBzc3NoRnYzMkl4RVVTUUJsYTRfbi1HMEsxNkZtdFk1cHdsWnB4dGY3RXc4YVVLcmpmeg?oc=5",
-"urls": []
+"urls": [
+"https://cryptoslate.com/bitcoin-option-buyers-face-a-fed-week-premium-that-can-fade-after-the-decision/"
+]
 },
 "07b6a04f5084": {
 "coin": "",
@@ -374,7 +377,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -836,7 +839,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793178652.0,
 "tgtext": "Highlight Clip: Jack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)\n\nJack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)\n\nIn a January 16, 2025 interview published by Abundant Mines, Block co-founder Jack Dorsey said nation-state Bitcoin reserves are good for the state but not necessarily for Bitcoin. He said Bitcoin would be a failure if it ends up just being digital gold, pointing to the white paper, which described peer-to-peer electronic cash. It would only succeed, he said, if people could use it as money in daily life and move funds without asking permission. \u2014 link",
 "title": "Highlight Clip: Jack Dorsey: Bitcoin Fails If It Ends Up Just Being Digital Gold (ARCHIVE FOOTAGE)",
@@ -1350,7 +1353,7 @@
 "srcs": [
 "CoinGape"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793184440.0,
 "tgtext": "",
 "title": "Franklin Templeton ETFs That Reinvest Stock Dividends into Bitcoin Go Effective",
@@ -1428,7 +1431,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793199093.1617427,
+"t": 1793199402.9471033,
 "t0": 1793188003.0,
 "tgtext": "",
 "title": "Curve Finance lost $69.3M in a DeFi exploit due to a Vyper compiler bug, not the unverified $351.6M figure.",
@@ -1742,7 +1745,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2144,7 +2147,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2346,7 +2349,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest bank Ita\u00fa Unibanco files to launch cryptocurrency trading and custody services.\n\n@WatcherGuru",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -2489,20 +2492,17 @@
 },
 "c691427b2fb7": {
 "coin": "bitcoin",
-"src": "Wu Blockchain",
+"src": "Analytics Insight",
 "srcs": [
-"CoinDesk",
-"The Defiant",
-"Wu Blockchain"
+"Analytics Insight",
+"The Defiant"
 ],
-"t": 1793170658.1470559,
-"t0": 1793149781.0,
-"tgtext": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay\n\nCasa co-founder Jameson Lopp highlighted that Bitcoin treasury company Datavault (DVLT) saw its stock price crash, tumbling 49.55% over a 24-hour period. The plunge follows the company\u2019s notice to investors disclosing that its entire treasury reserves are held on crypto exchange Biconomy, but despite submitting transfer and withdrawal requests for four months, it has been unable to withdraw any BTC from the platform. \u2014 link",
-"title": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay",
-"url": "https://t.me/wublockchainenglish/26575",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
-]
+"t": 1793199708.10951,
+"t0": 1793192384.0,
+"tgtext": "",
+"title": "Crypto News Today: Bitcoin ETFs Gain USD 176 Million, Bithumb Reports Breach, Datavault AI Crashes 50%",
+"url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOYUhaZHd3N2k2X3cwdExkMTJlX1RQQjBvTWdwZ3RVYnFhXzExY0RVOFRaMF9rYlVtZDlxNGNIbkVmcERjN2NMMjUwVUIzNUJHbDhYYVJzLUlGSEZOX2RzcVBZQ21aaFNDSmxsUHNBeDdnYnh3OTQ4dGNYVHRXbGl3VXRpN3ZWcnN1VGNUeXhqWFNKV08tZS0yLVg5UzRNcjB4ZkZEUnpHcWhuUVozdU5ZQUFrNmQ0d2gxM0NMRHJJUkwwNV9tTjA4VUFMS2htWThraE1hQ1RnQWpYZWoyUTdwUzU4bUg4M0U3RVlMWTl3M0RzRzBuMktV0gGEAkFVX3lxTFBBTlpwNkhMalJqY3hLYVUwRWpYUTd3MFNqWDNPMTRreUVpTjRLUDRaeFU4S2NZR2RjQVV2bnliM1RNWFZVZXJ4MjZFYW9QY2picTVwOG95UnV1UEtfYjZBd2Z1aHFJd0FSQWg3OEhHRFp2MzBZcERzNlIzamIzWmJ0dFRrNmNyLWNsUl9uVG91Z3hzV1ppUXRkRWMza3ZzLVZfb1hTOW5GNUtFamZfNlN6NUliRFlNOWtndDViQkR0T0FqZ0pKSURZOVFDUFZWUVRIbXZlMnBVMlRJM1JnRDBuYlZzeFY4OGlhVFFlbGZkUGFyVmRMdVhUUXg2V181Q1kwa1lD?oc=5",
+"urls": []
 },
 "c7aa97e0a0db": {
 "coin": "",
@@ -3071,7 +3071,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793189322.0,
 "tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.\n\nNews | Markets | YouTube",
 "title": "$114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.",
@@ -3115,7 +3115,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793199093.1617427,
+"t": 1793199708.10951,
 "t0": 1793195381.0,
 "tgtext": "\ud83c\udde8\ud83c\udde6 JUST IN: Bank of Canada hikes its key interest rate by 25 basis points to 2.50%, matching expectations.\n\nNews | Markets | YouTube\nBank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years\n\nThe Bank of Canada on October 28, 2026, raised its target for the overnight rate by 25 basis points to 2.5%, the first increase since July 2023. The Bank Rate is now 2.75% and the deposit rate is 2.45%. The move aims to reduce the risk that persistently high energy prices spread to the prices of other goods and services. Governing Council said the policy rate may need to rise further, but it will proceed carefully given the uncertainties. \u2014 link",
 "title": "Bank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years",
@@ -3394,46 +3394,46 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"06c234f7b8d5": 0.312,
-"076abfd811c5": 0.423,
-"0fa5fcf7e599": 0.028,
-"1d92bb56bb28": 0.803,
-"22815839bff7": 0.397,
-"26fbd39ac8cf": 0.044,
-"2780489f5e42": 0.653,
-"2ac3ba1424e4": 0.292,
-"2dd8b00d4500": 0.029,
-"3007e1b9a85d": 0.191,
-"32d52fc286e0": 0.086,
-"44d7ff7d5b6e": 0.062,
-"57543ce9fd7d": 0.147,
-"59bac58193cc": 0.045,
-"623b778463d6": 0.186,
-"628823a380ae": 0.126,
-"681c02ba7cd6": 0.106,
-"7186ce01fb8a": 0.564,
-"7b85a5b2467a": 0.107,
-"87937ef02d2e": 0.042,
-"988e40db4d23": 0.034,
-"992882f41754": 0.033,
-"9eb668a1b8b3": 0.038,
-"a23c23910c8f": 0.35,
-"ae6bddd50139": 0.767,
-"b4d9fb8d4371": 0.093,
-"b788095b8710": 0.332,
-"b89221b2253e": 0.024,
-"c11fdf997380": 0.995,
-"c691427b2fb7": 0.137,
-"c9c9d00e4681": 0.029,
-"ccccf8d38504": 0.094,
-"de00a49fdf96": 0.173,
-"e9937a5bf833": 0.805,
-"ebb105df793d": 0.141,
-"ebdf94358e60": 0.071,
-"ed4b64d5da16": 0.805,
-"f6e7bce954be": 0.132,
-"f8ed00046721": 0.052,
-"fcc4e8e8e1cd": 0.06
+"06c234f7b8d5": 0.229,
+"076abfd811c5": 0.422,
+"0fa5fcf7e599": 0.019,
+"15fc1e0c1ec4": 0.019,
+"1d92bb56bb28": 0.728,
+"22815839bff7": 0.301,
+"26fbd39ac8cf": 0.029,
+"2ac3ba1424e4": 0.213,
+"2dd8b00d4500": 0.019,
+"3007e1b9a85d": 0.133,
+"3070dd1c04e7": 0.237,
+"32d52fc286e0": 0.058,
+"44d7ff7d5b6e": 0.041,
+"4e7719e995c3": 0.145,
+"57543ce9fd7d": 0.102,
+"623b778463d6": 0.13,
+"628823a380ae": 0.086,
+"681c02ba7cd6": 0.072,
+"6fdd31b30d67": 0.041,
+"7186ce01fb8a": 0.156,
+"7b85a5b2467a": 0.072,
+"87937ef02d2e": 0.028,
+"8be72cde3006": 0.032,
+"988e40db4d23": 0.022,
+"992882f41754": 0.022,
+"9eb668a1b8b3": 0.025,
+"a1a4c679e7bc": 0.053,
+"a23c23910c8f": 0.261,
+"ae6bddd50139": 0.683,
+"b4d9fb8d4371": 0.063,
+"b788095b8710": 0.245,
+"c11fdf997380": 0.992,
+"c691427b2fb7": 0.415,
+"ccccf8d38504": 0.063,
+"de00a49fdf96": 0.12,
+"e9937a5bf833": 0.758,
+"ed4b64d5da16": 0.671,
+"f6e7bce954be": 0.09,
+"f8ed00046721": 0.034,
+"fcc4e8e8e1cd": 0.04
 },
 "sent": [
 {
@@ -4624,64 +4624,64 @@
 "top": [
 [
 "c11fdf997380",
-27,
-284,
+25,
+294,
 5
 ],
 [
 "8d04bb417f8f",
-2,
-288,
+1,
+298,
 1
 ],
 [
 "e9937a5bf833",
 20,
-163,
+173,
+2
+],
+[
+"1d92bb56bb28",
+12,
+282,
+1
+],
+[
+"ae6bddd50139",
+17,
+209,
 2
 ],
 [
 "ed4b64d5da16",
 20,
-62,
+72,
 2
-],
-[
-"1d92bb56bb28",
-13,
-271,
-1
-],
-[
-"ae6bddd50139",
-18,
-199,
-2
-],
-[
-"2780489f5e42",
-59,
-229,
-2
-],
-[
-"7186ce01fb8a",
-41,
-185,
-1
 ],
 [
 "448978fe1bbd",
 0,
-341,
+351,
 1
 ],
 [
+"076abfd811c5",
+48,
+339,
+6
+],
+[
+"c691427b2fb7",
+61,
+122,
+2
+],
+[
 "69bb0b279d94",
-2,
-244,
+1,
+254,
 1
 ]
 ],
-"top_at": 1793199093.1617427
+"top_at": 1793199708.10951
 }
