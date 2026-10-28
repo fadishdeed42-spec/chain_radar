@@ -3,6 +3,16 @@ python tests/live.py length"""
 import sys, os, json, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from helpers import *
+import builtins, atexit
+_buf = []; _orig_print = builtins.print
+
+
+def _print(*a, **k):                      # the runner's log download is blocked here, so also publish the whole output as ONE annotation (readable through the API)
+    _orig_print(*a, **k); _buf.append(' '.join(str(x) for x in a))
+
+
+builtins.print = _print
+atexit.register(lambda: _orig_print('::notice title=live-result::' + '\n'.join(_buf)[:30000].replace('%', '%25').replace('\r', '').replace('\n', '%0A')))
 import story, replies
 from datetime import datetime, timezone
 
