@@ -326,3 +326,17 @@ alerts sent 0
 gemini video fail gemini-3.5-flash-lite ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443
 gemini video gemini-3.8-flash 503 {   "error": {     "code": 503,     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Pl
 shorts analyzed: 4 of 5
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 13
+market 100 news 60 reddit 25 hacks 0
+labeled 0
+alerts sent 0
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 13
+market 100 news 61 reddit 25 hacks 0
+labeled 3
+alerts sent 0
