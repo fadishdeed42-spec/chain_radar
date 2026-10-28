@@ -5,7 +5,7 @@ on:
     inputs:
       live: {description: 'live checks to run: none | length | replies | package | chart | all', default: none}
 permissions:
-  contents: read
+  contents: write   # only to publish sample images to the throwaway 'samples' branch
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -25,3 +25,10 @@ jobs:
           TELEGRAM_TOKEN: unused
           TELEGRAM_CHAT_ID: '0'
         run: python tests/live.py ${{ github.event.inputs.live }}
+      - name: publish sample images (branch "samples" only, never main)
+        if: always() && github.event.inputs.live != 'none'
+        run: |
+          [ -d sample_out ] || exit 0
+          git config user.name "tests"; git config user.email "tests@users.noreply.github.com"
+          git checkout --orphan samples; git rm -rf . -q 2>/dev/null || true
+          mkdir -p s && cp sample_out/*.png s/ && git add s && git commit -q -m "samples" && git push -f -q origin samples

@@ -73,12 +73,9 @@ def live_replies():
 
 
 def emit_image(name, png_bytes):
-    """the runner logs are unreadable from here, so a small JPEG goes out as one annotation (base64) and is decoded locally"""
-    import io, base64
-    from PIL import Image
-    im = Image.open(io.BytesIO(png_bytes)).convert('RGB').resize((432, 540)); b = io.BytesIO(); im.save(b, 'JPEG', quality=55, optimize=True)
-    _orig_print(f'image {name}: {len(b.getvalue())} bytes jpeg')
-    _orig_print(f'::notice title=img-{name}::' + base64.b64encode(b.getvalue()).decode())
+    """saved to sample_out/ ; the workflow publishes that folder to the 'samples' branch so the images can be looked at"""
+    os.makedirs('sample_out', exist_ok=True)
+    open(f'sample_out/{name}.png', 'wb').write(png_bytes); print(f'sample image saved: {name}.png ({len(png_bytes)} bytes)')
 
 
 def live_chart():
