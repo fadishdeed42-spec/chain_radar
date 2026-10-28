@@ -594,7 +594,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793210420.0,
 "tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 Federal Reserve leaves interest rates unchanged, remains at 3.75% - 4.00%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 BREAKING: The Federal Reserve has left interest rates unchanged.\n\nNews | Markets | YouTube\n\ud83d\udea8 TODAY: The Federal Reserve held interest rates steady at 3.75%\u20134.00%, citing strong economic activity and still-elevated inflation. \n\nThe decision passed 10\u20132, with Lisa Cook and Beth Hammack voting for a 25-basis-point hike instead. \n\nThe Fed said it needs more data to determine the policy stance needed to bring inflation back to its 2% target.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Federal Reserve held interest rates steady at 3.75%\u20134.00%, citing strong economic activity and still-elevated inflation.",
@@ -749,7 +749,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793202001.0,
 "tgtext": "\ud83d\udd25 JUST IN: Strategy shareholders approved an amendment allowing daily dividend accrual for $STRF, $STRC, $STRK and $STRD. \n\nPreliminary results show 99.3% voted in favor.",
 "title": "Strategy shareholders approved an amendment allowing daily dividend accrual for STRF, STRC, STRK and STRD.",
@@ -842,7 +842,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793212963.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 UPDATE: The Fed will keep eight FOMC meetings per year starting in 2027, but one will focus solely on long-term monetary policy strategy with no rate vote or policy statement.\n\nNews | Markets | YouTube",
 "title": "The Fed will keep eight FOMC meetings per year starting in 2027, but one will focus solely on long-term monetary policy strategy with no rate vote or policy statement.",
@@ -1277,7 +1277,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793209854.0,
 "tgtext": "JUST IN: Solana $SOL co-founder Anatoly Yakovenko says US companies opposing tokenized stock trading \"should go private then.\"\n\n@WatcherGuru",
 "title": "Solana SOL co-founder Anatoly Yakovenko says US companies opposing tokenized stock trading \"should go private then.\"",
@@ -1656,7 +1656,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793201528.0,
 "tgtext": "",
 "title": "Strategy (MSTR) Shareholders Approve Daily Dividends on Four Preferred Stocks",
@@ -1805,7 +1805,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793208077.0,
 "tgtext": "Bloomberg: Over $170M in Unusual Hyperliquid Oil Perp Orders Raise Spoofing Suspicions\n\nAccording to Bloomberg, market surveillance firm Solidus Labs identified over $170 million in unusual orders placed through two Hyperliquid accounts between March 8 and 10, amid sharp oil price swings linked to the Iran war. The activity raised concerns about potential spoofing in oil perpetual futures markets.\n\nThe trader repeatedly placed and canceled large orders on one side of the order book while executing trades on the other, with a cancellation-to-execution value ratio of roughly 30:1, generating about $119,000 in profits over three days. The activity primarily involved Brent crude perps. Solidus said the pattern resembled spoofing but acknowledged that manipulative intent remains unproven. Hyperliquid Labs emphasized that all orders, cancellations and trades are recorded on a transparent public blockchain and can be independently reviewed. \u2014 link",
 "title": "Bloomberg: Over $170M in Unusual Hyperliquid Oil Perp Orders Raise Spoofing Suspicions",
@@ -1827,18 +1827,18 @@
 },
 "90bb87e881c6": {
 "coin": "bitcoin",
-"src": "Cryptonews.net",
+"src": "CryptoRank",
 "srcs": [
 "Bitcoin Magazine",
 "CryptoRank",
 "Cryptonews.net",
 "Hokanews"
 ],
-"t": 1793220039.4757512,
+"t": 1793220955.1432858,
 "t0": 1793199723.0,
 "tgtext": "",
 "title": "Bitcoin Surges Above $81,000 Ahead of Fed Decision \u2013 Will BTC Price Rally Toward $88K or Drop to $76K?",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoTFpVS1dJY3pmZEJqNlRNcnBPNGV2ank5SG5qcjgzZmdCcEpqM25HMHFiTXQ4QzJZcTlUWHdRLXkxdTBGRVJydWVTazJyYnMyVVh3d0RZLUQ?oc=5",
+"url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOEV6M3hpT29zMmtpWmJEaVNNTWliOERaY2VSSlV3THNQamlfZGpyR19zN2QyaVVSMWtsQWhaRjVHZm5lSm85Z0lVQ3dBdE5rMC1zQlRnNWRYV3owTXUzcnBRRUlSOV8wdEQ1X3VmTDU5aXlXN3VfdnZBVUdYSlNydml0UTlUTHlqMUhkMmlXaHl1bzRTY3hpY1B0MDJZTGJwRFg1eVRVdWlDVFZaakhCbVdNSnA4Z0puUHRpTHNHQmZwa3VtNUJpU0hqVFQ3UQ?oc=5",
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
 ]
@@ -2102,10 +2102,9 @@
 "coin": "bitcoin",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph",
-"bloomingbit"
+"Cointelegraph"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793201101.0,
 "tgtext": "\ud83d\udd25 BULLISH: Bitwise projects $BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.\n\nNews | Markets | YouTube",
 "title": "BULLISH: Bitwise projects BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.",
@@ -2647,7 +2646,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793209408.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says crypto stablecoins can strengthen the US dollar's global dominance.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says crypto stablecoins can strengthen the US dollar's global dominance.",
@@ -2994,7 +2993,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793220343.462649,
+"t": 1793220955.1432858,
 "t0": 1793212750.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"",
@@ -3305,6 +3304,25 @@
 "url": "https://t.me/wublockchainenglish/26587",
 "urls": []
 },
+"ee175cd64a76": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"CoinDesk",
+"Cryptonews.net",
+"Decrypt",
+"Yahoo Finance"
+],
+"t": 1793220651.3112552,
+"t0": 1793199338.0,
+"tgtext": "",
+"title": "Nine Wall Street Firms Dumped 68,000 BTC of Bitcoin ETFs as Sovereign Funds Bought the Dip",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02RGx2RHVRVDFkRWZDaWhtMWJNdGkwdHhmMUNuNlRyU3J0T3NBTTRNdFBQQTFHQ3hLUUZzMHl0dnVHUnNXbnhEd29rczR1OGFET2IyQkZubThMNGRLczJHRnV2M3JmU1VCQVZwWmJnLW9MMUhHY1E?oc=5",
+"urls": [
+"https://decrypt.co/382059/wall-street-fast-money-fled-bitcoin-etfs-sovereign-funds"
+]
+},
 "ee3fb41bd1d5": {
 "coin": "bitcoin",
 "src": "Decrypt",
@@ -3579,45 +3597,45 @@
 },
 "probs": {
 "14250bf6cdb5": 0.009,
-"1d3c9d093d84": 0.065,
-"23eec8d98989": 0.143,
+"1d3c9d093d84": 0.022,
 "2d583674634b": 0.943,
+"2dd4c41fc36f": 0.014,
 "325e8826aa0f": 0.018,
-"398ba5f65918": 0.013,
 "3ca74ddb95ea": 0.348,
 "3d35d2ffdd06": 0.099,
 "4af07db336e8": 0.013,
 "56357c3917b4": 0.01,
+"5e496b64af69": 0.013,
 "64021136245d": 0.165,
 "686267bd22b4": 0.037,
-"75daaa1b654b": 0.035,
 "79617c8e00fe": 0.007,
+"7ab7d15418de": 0.037,
 "7d3129471422": 0.029,
 "8a0e1aeaee8a": 0.322,
 "8dd43fc49169": 0.168,
-"a0fb9ddee391": 0.061,
-"a1b5a31b64ba": 0.018,
+"90bb87e881c6": 0.168,
+"94cc48e76715": 0.016,
+"a0fb9ddee391": 0.057,
+"a1b5a31b64ba": 0.048,
 "a232618e5cef": 0.045,
 "aac0e29bd82e": 0.01,
 "b0ae89171f3c": 0.036,
-"b4fb5a33eee5": 0.027,
+"b36ecf6d02d5": 0.014,
+"b49acf3f0d28": 0.086,
 "bb1973adbc0c": 0.023,
-"c54af3ce17ed": 0.177,
 "c8511e845ae9": 0.011,
 "c9c9d00e4681": 0.05,
-"cda6d17748da": 0.015,
 "d779a0d683f7": 0.28,
 "d80275a2593d": 0.014,
 "e63954554493": 0.047,
 "e721c1c1651c": 0.006,
 "ec90ea06f4b8": 0.021,
-"ee175cd64a76": 0.024,
 "ee3fb41bd1d5": 0.023,
-"f062a747c3ab": 0.009,
+"eee024423c03": 0.01,
 "f1fe3adcda09": 0.022,
-"fa8047a1dea4": 0.014,
 "faf751b2548b": 0.051,
-"fc91fc36df73": 0.13
+"fc91fc36df73": 0.13,
+"ff86ecaa02f6": 0.01
 },
 "sent": [
 {
@@ -4909,63 +4927,63 @@
 [
 "2d583674634b",
 44,
-165,
+176,
 3
 ],
 [
 "3ca74ddb95ea",
 24,
-123,
+133,
 1
 ],
 [
-"a176984b5772",
-8,
-321,
-2
-],
-[
 "8a0e1aeaee8a",
-13,
-314,
+11,
+324,
 3
 ],
 [
 "d779a0d683f7",
 24,
-127,
+137,
+1
+],
+[
+"a176984b5772",
+0,
+331,
 1
 ],
 [
 "c54af3ce17ed",
-10,
-182,
+9,
+192,
 1
 ],
 [
 "8dd43fc49169",
-13,
-204,
+12,
+215,
 1
+],
+[
+"90bb87e881c6",
+41,
+354,
+4
 ],
 [
 "38ba688c4980",
 0,
-306,
+316,
 1
 ],
 [
 "64021136245d",
 10,
-175,
+185,
 1
-],
-[
-"23eec8d98989",
-25,
-250,
-2
 ]
 ],
-"top_at": 1793220343.462649
+"top_at": 1793220955.1432858
 }
