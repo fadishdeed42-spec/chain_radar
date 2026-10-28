@@ -31,8 +31,8 @@ for f in range(1, frames + 1):
     cam.location = (math.sin(t * 1.2) * 3, 2 - t * 16, 3.2 + t); cam.rotation_euler = (math.radians(78), 0, math.radians(math.sin(t * 1.2) * -10))
     cam.keyframe_insert('location', frame=f); cam.keyframe_insert('rotation_euler', frame=f)
 os.makedirs('sample_out/blender', exist_ok=True)
-t0 = time.time(); sc.render.image_settings.file_format = 'PNG'
+t0 = time.time(); sc.render.image_settings.file_format = 'PNG'; os.makedirs('sample_out', exist_ok=True)
 for f in (1, frames // 2, frames):
-    sc.frame_set(f); sc.render.filepath = f'//../sample_out/blender_{engine}_{f}.png'; bpy.ops.render.render(write_still=True)
+    sc.frame_set(f); sc.render.filepath = os.path.abspath(f'sample_out/blender_{engine}_{f}.png'); bpy.ops.render.render(write_still=True)
 dt = (time.time() - t0) / 3
-print(f'BLENDER {engine} {W}x{Hh}: {dt:.2f} s per frame -> {dt * 60 * 40 / 60:.1f} min for a 40 s video at 60 fps, {dt * 30 * 40 / 60:.1f} min at 30 fps')
+print(f'::notice title=blender-{engine}::BLENDER {engine} {W}x{Hh}: {dt:.2f} s per frame -> {dt * 60 * 40 / 60:.1f} min for a 40 s video at 60 fps, {dt * 30 * 40 / 60:.1f} min at 30 fps')

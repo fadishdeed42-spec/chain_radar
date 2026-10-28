@@ -10,6 +10,6 @@ for space in ('Lightricks/ltx-video-distilled', 'KingNish/Instant-Video', 'multi
         c = Client(space, verbose=False)
         api = c.view_api(print_info=False, return_format='dict')
         names = list((api.get('named_endpoints') or {}).keys())[:5]
-        print(f'SPACE {space}: reachable, endpoints {names} ({time.time() - t0:.1f}s)')
+        print(f'::notice title=hf::SPACE {space}: reachable, endpoints {names} ({time.time() - t0:.1f}s)')
     except Exception as e:
-        print(f'SPACE {space}: FAILED {repr(e)[:160]}')
+        print(f'::notice title=hf::SPACE {space}: FAILED {repr(e)[:160]}')

@@ -14,11 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update -q && sudo apt-get install -y -q blender
-      - run: blender --version | head -2
+      - run: blender --version | head -2 | sed 's/^/::notice title=blender-version::/'
       - name: workbench engine (fast, flat look)
-        run: ENGINE=WORKBENCH blender -b -P lab/blender_test.py 2>&1 | grep -E "BLENDER|Error|error" || true
+        run: ENGINE=WORKBENCH blender -b -P lab/blender_test.py 2>&1 | grep -E "::notice|Error|error" || true
       - name: cycles engine (real lighting, slow)
-        run: ENGINE=CYCLES FRAMES=6 blender -b -P lab/blender_test.py 2>&1 | grep -E "BLENDER|Error|error" || true
+        run: ENGINE=CYCLES FRAMES=6 blender -b -P lab/blender_test.py 2>&1 | grep -E "::notice|Error|error" || true
       - name: publish samples
         run: |
           git config user.name lab; git config user.email lab@users.noreply.github.com
