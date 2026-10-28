@@ -1,0 +1,63 @@
+"""Step 3: /story and /today packages, removed commands, /menu toggles. Run: python3 tests/run.py"""
+from helpers import *
+import time
+
+FACTS = ('On March 12, 2020: Black Thursday: Bitcoin crashes about 40% in a day.\n- Mar 12, 2020: Bitcoin falls below $4,000 as markets panic (Reuters)')
+GOOD = ['Bitcoin lost about 40% in a single day. Here is how.', 'On March 12, 2020 it fell below $4,000 as markets panicked.', 'Panic selling hit every market at once.',
+        'Leverage unwound and exchanges struggled to keep up.', 'The lesson: no asset is a safe haven on the worst day. Full story in 40s 👇']
+
+
+def fake_radar(posts, judge=None):
+    r = radar(); calls = []
+
+    def gj(p):
+        calls.append(p)
+        if 'strict fact-checker' in p:
+            return judge if judge is not None else {'p': [{'n': i + 1, 'unsupported': []} for i in range(len(posts))]}
+        return {'title': 'Black Thursday', 'posts': posts, 'symbol': 'NONE', 'event_date': 'NONE', 'chart_title': 'x'}
+    r.gemini_json = gj
+    return r, calls
+
+
+def test_package_accepts_supported_thread():
+    r, _ = fake_radar(GOOD)
+    pk = r.build_package('Black Thursday', FACTS, [])
+    assert pk and len(pk['posts']) == 5 and not pk['flags'] and pk['checked'] == 'full'     # "Full story in 40s" is not flagged as an invented number
+
+
+def test_package_retries_then_flags_invented_numbers():
+    bad = GOOD[:1] + ['Bitcoin then rebounded 87% within a week.'] + GOOD[2:]
+    r, calls = fake_radar(bad)
+    pk = r.build_package('Black Thursday', FACTS, [])
+    assert pk and 2 in pk['flags'] and 'numbers' in pk['flags'][2]                          # never silently accepted: it is flagged for you
+    assert sum('strict fact-checker' not in c for c in calls) == 2                          # one retry with the reason
+
+
+def test_package_flags_unsupported_claims_from_the_judge():
+    r, _ = fake_radar(GOOD, {'p': [{'n': 3, 'unsupported': ['Panic selling hit every market']}]})
+    pk = r.build_package('Black Thursday', FACTS, [])
+    assert 3 in pk['flags']
+
+
+def test_package_fails_closed_without_enough_posts():
+    r, _ = fake_radar(GOOD[:2])
+    assert r.build_package('x', FACTS, []) is None
+
+
+def test_removed_commands_and_menu_toggles():
+    r = radar(); sent = []
+    r.tg = lambda text, photo=None, buttons=None: sent.append((text, buttons))
+    r.save_tg = lambda t: None; r.send_menu = lambda *a, **k: None
+    r.CHAT = ''; tgs = {'menu': {}}
+    for cmd in ('/movers', '/hacks', '/kit', '/hook x'):
+        sent.clear(); r.handle({'message': {'text': cmd, 'from': {'id': 1}}}, tgs)
+        assert sent and sent[0][0] == r.HELP, cmd                                           # unknown now -> help text, not the old feature
+    sent.clear(); r.handle({'message': {'text': '/menu', 'from': {'id': 1}}}, tgs)
+    assert '⚙️' in sent[0][0] and any(b[1] == 'mn:kit' for b in sent[0][1])
+    r.TGS = tgs; r.toggle('kit', tgs)
+    assert r.is_off('kit') and 'kit' in tgs['off']
+    r.toggle('kit', tgs)
+    assert not r.is_off('kit')
+    r.toggle('nonsense', tgs); assert 'nonsense' not in tgs.get('off', [])
+    names = [c for c, _ in r.COMMANDS]
+    assert not {'movers', 'hacks', 'kit', 'hook', 'chart'} & set(names) and {'story', 'today', 'menu', 'top', 'short'} <= set(names)

@@ -1401,6 +1401,8 @@ def who_posts(title):
 
 
 def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
+    if is_off('viral'):
+        return
     mk = remember(st, g, lead, coin, srcs)
     import random
     post_txt = f'{lead["title"]} (sources: {", ".join(sorted(srcs))})' + (f'. {coin["name"]} ({coin["sym"]}) is {fmt_p(coin["price"])}, {coin["h24"]:+.1f}% in 24h' if coin else '')
@@ -1429,8 +1431,16 @@ def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
 
 
 # ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
-MENU = [['📋 Today\'s kit', '📰 Top stories'], ['📊 Movers', '💬 Reply to a post'], ['🎬 Studio', '📖 Story']]
-MENU_V = 5
+MENU = [['📰 Top stories', '💬 Reply to a post'], ['🎬 Studio', '📖 Story'], ['📜 Today', '⚙️ Menu']]
+MENU_V = 6
+# what /menu can switch on and off: (key, label). Buttons hide from the keyboard; automations stop running. Learning jobs are not listed (the brain needs them).
+TOGGLE_BTNS = [('📰 Top stories', 'Button: Top stories'), ('💬 Reply to a post', 'Button: Reply to a post'), ('📖 Story', 'Button: Story'), ('📜 Today', 'Button: Today')]
+TOGGLE_AUTO = [('otd_day', 'Daily on-this-day list (12:00)'), ('kit', 'Daily posting kit (15:00)'), ('brief17', 'Evening briefing (20:00)'),
+               ('weekly', 'Sunday report (18:00)'), ('sh_weekly', 'Sunday Shorts report (18:45)'), ('viral', 'Viral news alerts')]
+
+
+def is_off(key):
+    return key in ((TGS or {}).get('off') or [])
 
 
 def send_menu(text='👇 Your menu is ready at the bottom of the chat.', job=None):
@@ -1438,12 +1448,32 @@ def send_menu(text='👇 Your menu is ready at the bottom of the chat.', job=Non
         if b == '🎬 Studio':                                             # opens the Studio Mini App (sendData works from keyboard buttons)
             return {'text': b, 'web_app': {'url': STUDIO_URL + (f'?job={job}' if job else '')}}
         return {'text': b}
-    kb = {'keyboard': [[btn(b) for b in row] for row in MENU], 'resize_keyboard': True, 'is_persistent': True}
+    rows_ = [[btn(b) for b in row if not is_off(b)] for row in MENU]
+    kb = {'keyboard': [r for r in rows_ if r], 'resize_keyboard': True, 'is_persistent': True}
     try:
         requests.post(f'https://api.telegram.org/bot{TOKEN}/sendMessage', timeout=10,
                       data={'chat_id': CHAT, 'text': text, 'reply_markup': json.dumps(kb)})
     except Exception:
         pass
+
+
+def cmd_menu(tgs, note=''):
+    off = tgs.get('off') or []
+    mark = lambda k: '⛔ off' if k in off else '✅ on'
+    txt = (note + '⚙️ <b>Your menu</b>\nTap to switch on or off. Nothing is deleted, you can switch it back any time.\n\n<b>Buttons</b>\n'
+           + '\n'.join(f'{mark(k)} · {l}' for k, l in TOGGLE_BTNS) + '\n\n<b>Automatic messages</b>\n' + '\n'.join(f'{mark(k)} · {l}' for k, l in TOGGLE_AUTO)
+           + '\n\n<i>Commands that always work: /top /story /today /short /ep /mute /unmute /menu</i>')
+    tg(txt, None, [((('⛔ ' if k in off else '✅ ') + l.replace('Button: ', '')), f'mn:{k}') for k, l in TOGGLE_BTNS + TOGGLE_AUTO])
+
+
+def toggle(key, tgs):
+    if key not in dict(TOGGLE_BTNS + TOGGLE_AUTO):
+        return
+    off = tgs.setdefault('off', [])
+    off.remove(key) if key in off else off.append(key)
+    save_tg(tgs)
+    send_menu('Updated. ' + ('⛔ ' + key + ' is now off.' if key in off else '✅ ' + key + ' is back on.'))
+    cmd_menu(tgs)
 
 
 def brief(tgs, label):
@@ -1635,6 +1665,8 @@ def scheduler(tgs):
 
     def due(key, hour, minute=0, window=40, weekday=None):
         if weekday is not None and now.weekday() != weekday:
+            return False
+        if is_off(key):
             return False
         if now.hour == hour and minute <= now.minute < minute + window and tgs.get(key) != day:
             tgs[key] = day
@@ -2513,29 +2545,26 @@ def app_action(data, tgs):
         short_approve(jid, tgs, seed_bump=True)
 
 
-HELP = ('🕵️ <b>Chain Radar</b>\n\n'
-        '<b>Find stories</b>\n'
+HELP = ('🕵️ <b>Chain Secrets bot</b>\n\n'
+        '<b>Stories</b>\n'
         '/top — hottest crypto stories right now → tap one for a full post\n'
-        '/movers — biggest gainers & losers + why they moved\n'
-        '/hacks — biggest hacks of the last 30 days\n'
-        '/story — on this day in crypto (real prices & hacks)\n'
-        '/brain — what the learning brain knows so far\n'
-        '/short <i>story</i> — a finished YouTube Short in your style (script → voice → video)\n'
-        '/viral — most viral crypto Shorts right now + why they worked\n'
-        '/hook <i>idea</i> — 5 stronger hooks for your next Short\n'
-        '/story <i>topic</i> — research a story, e.g. <code>/story Do Kwon</code> → thread + Shorts script\n\n'
+        '/story <i>topic</i> — a full package: 5-7 post X thread, real chart, sources, then a Short in one tap\n'
+        '/today — an old story that happened on this date, same full package\n'
+        '/short <i>story</i> — a finished YouTube Short (script → voice → video). Add 30 / 1min / 2min for the length\n'
+        '/ep — which Short number is next\n\n'
         '<b>Replies</b>\n'
-        '• <b>Share any X post link</b> to me → 3 ready replies (fact, witty, chart + image)\n'
-        '• Viral stories come with a 🔥 reply-window alert + ready replies\n\n'
+        '• <b>Share any X post link</b> → one checked reply (numbers verified, live coin data, tells you if the post is too old)\n'
+        '• Tap 👍 It worked / 👎 Didn\'t work so it learns your style; paste the link of your own reply and it reads its likes tomorrow\n'
+        '• Viral stories come with a 🔥 reply-window alert + a checked reply\n\n'
         '<b>Make posts from anything</b>\n'
-        '• <b>Forward</b> any news message from another channel to me → full post\n'
-        '• <b>Paste a link</b> to any article → full post\n'
+        '• <b>Forward</b> a news message, or <b>paste an article link</b> → full post\n'
         '• <b>Type any coin</b> (<code>$PEPE</code>, <code>chart sol</code>) → real chart + a ready sentence\n\n'
-        '<b>Alerts</b>\n'
+        '<b>Control</b>\n'
+        '/menu — switch buttons and automatic messages on or off\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
-COMMANDS = [('top', 'Hottest stories now'), ('movers', 'Gainers & losers + why'), ('hacks', 'Biggest hacks (30 days)'),
-            ('reply', 'Replies for an X post: /reply <link>'), ('story', 'On this day / research: /story Do Kwon'), ('chart', 'Candle chart: /chart BTC 7d'),
-            ('short', 'Make a YouTube Short: /short story'), ('kit', 'Today\'s posting kit'), ('viral', 'Most viral crypto Shorts'), ('hook', 'Hook doctor: /hook idea'), ('brain', 'Learning brain status'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
+COMMANDS = [('top', 'Hottest stories now'), ('story', 'Full story package: /story Do Kwon'), ('today', 'Old story from this date'),
+            ('short', 'Make a YouTube Short: /short story'), ('reply', 'Reply for an X post: /reply <link>'), ('ep', 'Next Short number'),
+            ('menu', 'Buttons and automations on/off'), ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
 def gnews(q, n=8, recent=True):
@@ -2598,15 +2627,161 @@ def hack_item(h, tgs):
     return it
 
 
-def research_story(topic):
-    tg(f'🔎 Researching <b>{E(topic)}</b> from real headlines…')
-    heads = gnews(topic, 15, recent=False)
-    if not heads:
-        tg('No news found for that topic. Try a different name.'); return
+# ---------------- /story and /today: a full Chain Secrets package (X thread + real chart + sources + Short) ----------------
+PKG_LEN_BTNS = [(' 30s', 30), (' 45s', 45), (' 1 min', 60), (' 2 min', 120)]
+
+
+def story_facts(topic, known=''):
+    """Real headlines (oldest first) + article text. Returns (facts text, sources [(title, src, url)], dates [ts])."""
+    heads = [h for h in gnews(topic, 15, recent=False) if h['ts']]
     heads.sort(key=lambda h: h['ts'])
-    facts = 'Real headlines about this story, oldest first (only use what they say):\n' + '\n'.join(
-        f'- {datetime.fromtimestamp(h["ts"], timezone.utc):%b %d, %Y}: {h["title"]} ({h["src"]})' for h in heads if h['ts'])
-    make_post({'title': topic, 'facts': facts, 'src': 'Google News', 'tag': 'TRUE STORY', 'story': True, 'url': heads[-1]['url']})
+    facts = ((known + '\n') if known else '') + ('Real headlines about this story, oldest first (use only what they say):\n' + '\n'.join(
+        f'- {datetime.fromtimestamp(h["ts"], timezone.utc):%b %d, %Y}: {h["title"]} ({h["src"]})' for h in heads) if heads else '')
+    try:
+        body = article_text([h['url'] for h in heads[-3:] if h['url']]) if heads else ''
+        if body:
+            facts += '\nArticle text:\n' + body[:3500]
+    except Exception as e:
+        print('story article fail', repr(e)[:100])
+    return facts, [(h['title'], h['src'], h['url']) for h in heads[:8]], [h['ts'] for h in heads]
+
+
+def hist_chart(sym, ts, title):
+    """Daily candles around a PAST date (about a month either side), real exchange data. Returns (png, caption) or (None, why)."""
+    h = cg_search(sym, strict=False); coin = coin_by_id(h['id']) if h else None
+    if not coin:
+        return None, f'no coin found for {sym}'
+    start, end = ts - 25 * 86400, min(ts + 25 * 86400, time.time())
+    rows, src = binance(coin['sym'], 86400, start, end), 'Binance'
+    if len(rows) < 15:
+        rows, src = coinbase(coin['sym'], 86400, start, end), 'Coinbase'
+    rows = [r for r in rows if start * 1000 <= r[0] <= end * 1000] if rows else []
+    if len(rows) < 15:
+        return None, f'no exchange candles for {coin["sym"]} around that date'
+    try:
+        img = card.chart_card(title, coin, rows, 'daily candles around the event', 'TRUE STORY', src, int(ts * 1000))[0]
+    except Exception as e:
+        return None, f'chart failed: {repr(e)[:80]}'
+    return img, f'{coin["name"]} daily candles ({src})'
+
+
+def package_prompt(topic, facts, live=''):
+    return (STYLE_X + '\nYou write a 5 to 7 post X thread for the channel Chain Secrets (crypto and money stories, true and little known). '
+            'Voice: an entertaining, funny crypto detective, dry and clever, never slang, no em dashes, no hashtags, no financial advice. '
+            'Post 1 is the hook: an open loop in the first line, one real number, makes people want post 2. Posts 2 to 6 tell the story beat by beat with real numbers and dates. '
+            'The LAST post is the lesson and ends with exactly: "Full story in 40s 👇". Each post under 270 characters. '
+            'EVERY number, date, name and claim must come from the FACTS below. If a fact is not there, leave it out. Do not guess.\n\n'
+            f'TOPIC: {topic}\n\nFACTS:\n{facts[:7000]}\n\n' + (f'LIVE DATA:\n{live}\n\n' if live else '') +
+            'Return JSON only: {"title": "short punchy title", "posts": ["..."], "symbol": "ticker of the ONE crypto coin whose price chart best backs the story, or NONE", '
+            '"event_date": "YYYY-MM-DD of the moment the chart should highlight, taken from the FACTS, or NONE", "chart_title": "chart headline under 60 chars that states only what the candles show"}')
+
+
+STYLE_X = 'You are a careful editor and writer.'
+
+
+def package_judge(posts, facts):
+    lst = '\n'.join(f'{i + 1}. {p}' for i, p in enumerate(posts))
+    return ('You are a strict fact-checker. Check each thread post against ONLY the FACTS.\nFACTS:\n' + facts[:7000] + '\n\nPOSTS:\n' + lst +
+            '\n\nFor each post list the factual claims (names, numbers, dates, events, causes) that the FACTS do not support. Opinions and jokes are fine. '
+            'Return JSON only: {"p": [{"n": 1, "unsupported": []}]}')
+
+
+def build_package(topic, facts, sources, event_hint=None):
+    """Writes the thread, verifies it, builds the chart. Returns dict or None."""
+    note, best = '', None
+    for attempt in range(2):
+        j = gemini_json(package_prompt(topic, facts) + (('\n' + note) if note else ''))
+        posts = [clean_voice(str(p)).strip() for p in (j or {}).get('posts') or []]
+        posts = [p for p in posts if p]
+        if not 5 <= len(posts) <= 7:
+            note = f'You returned {len(posts)} posts; return exactly 5 to 7.'; continue
+        strip = lambda p: p.replace('Full story in 40s 👇', '')
+        bad = [(i + 1, replies.numbers_ok(strip(p), facts)[1]) for i, p in enumerate(posts) if not replies.numbers_ok(strip(p), facts)[0]]
+        long_ = [i + 1 for i, p in enumerate(posts) if len(p) > 279]
+        if bad or long_ or '#' in ''.join(posts):
+            note = ('Your last attempt was rejected: ' + '; '.join([f'post {i} has numbers not in the FACTS {m}' for i, m in bad]
+                    + ([f'posts {long_} are too long'] if long_ else []) + (['no hashtags'] if '#' in ''.join(posts) else [])) + '. Fix exactly that.')
+            best = best or (j, posts, bad, long_); continue
+        best = (j, posts, [], []); break
+    if not best:
+        return None
+    j, posts, bad, long_ = best
+    verdict = gemini_json(package_judge(posts, facts))
+    unsup = {}
+    for x in (verdict or {}).get('p') or []:
+        try:
+            if x.get('unsupported'):
+                unsup[int(x['n'])] = x['unsupported']
+        except (KeyError, TypeError, ValueError):
+            pass
+    checked = 'full' if verdict else 'numbers'
+    flags = {i: ('numbers ' + ', '.join(m)) for i, m in bad}
+    flags.update({i: '; '.join(map(str, u))[:120] for i, u in unsup.items()})
+    img, chart_note = None, 'no chart (the story is not tied to one coin)'
+    sym, dt = str(j.get('symbol') or 'NONE').upper().strip('$ '), str(j.get('event_date') or 'NONE')
+    ts = event_hint
+    if not ts and re.match(r'^\d{4}-\d{2}-\d{2}$', dt):
+        try:
+            ts = datetime.strptime(dt, '%Y-%m-%d').replace(tzinfo=timezone.utc).timestamp()
+        except ValueError:
+            ts = None
+        if ts and not re.search(r'\b' + str(datetime.fromtimestamp(ts, timezone.utc).year) + r'\b', facts):
+            ts = None                                                       # a year that is nowhere in the facts: do not chart it
+    if sym not in ('', 'NONE') and ts:
+        img, chart_note = hist_chart(sym, ts, str(j.get('chart_title') or topic)[:60])
+        if not img:
+            chart_note = 'no chart: ' + chart_note
+    return {'title': str(j.get('title') or topic)[:90], 'posts': posts, 'flags': flags, 'checked': checked, 'img': img, 'chart_note': chart_note,
+            'sources': sources}
+
+
+def send_package(topic, tgs, facts, sources, event_hint=None, head=''):
+    pk = build_package(topic, facts, sources, event_hint)
+    unack()
+    if not pk:
+        tg('⚠️ I could not write a thread I trust for this (the AI was busy or its drafts kept failing the number check). Nothing was made up. Try again in a minute.',
+           None, [('🔄 Try again', 'pt:' + hashlib.md5(topic.encode()).hexdigest()[:10])]); return
+    key = hashlib.md5((topic + str(time.time())).encode()).hexdigest()[:10]
+    tgs.setdefault('packages', {})[key] = {'t': time.time(), 'topic': topic, 'facts': facts[:6000], 'sources': sources, 'event': event_hint}
+    tgs['packages'] = dict(sorted(tgs['packages'].items(), key=lambda kv: -kv[1]['t'])[:12])
+    src = '\n'.join(f'• <a href="{E(u)}">{E(t[:70])}</a> <i>({E(s)})</i>' for t, s, u in sources[:5]) or '• (no linked sources)'
+    chk = ('✅ Every number matches the sources and the AI fact-check found no unsupported claim' if pk['checked'] == 'full' and not pk['flags'] else
+           '🟡 Numbers match the sources. The AI fact-check was unavailable, read it once' if not pk['flags'] else
+           '⚠️ Check the posts marked ⚠️ below before you post them')
+    msg = (head + f'🧵 <b>{E(pk["title"])}</b>\n{chk}\n📈 {E(pk["chart_note"])}\n\n<b>Sources</b>\n{src}\n\n<b>Thread</b> (tap a post to copy)\n')
+    for i, p in enumerate(pk['posts'], 1):
+        msg += f'\n<b>{i}/{len(pk["posts"])}</b>{" ⚠️ " + E(pk["flags"][i]) if i in pk["flags"] else ""}\n<code>{E(p)}</code>\n'
+    msg += '\n<i>Post 1 + the chart image as the first post; put your YouTube link in a REPLY, not in the main post.</i>'
+    tg(msg[:4090], pk['img'], [('🎬 Short' + l, f'pk:{key}:{n}') for l, n in PKG_LEN_BTNS])
+
+
+def research_story(topic, tgs=None):
+    tgs = tgs if tgs is not None else TGS
+    tg(f'🔎 Researching <b>{E(topic)}</b> from real headlines…')
+    facts, sources, _ = story_facts(topic)
+    if not sources:
+        tg('No news found for that topic. Try a different name.'); return
+    ack('⏳ Writing the thread and building the chart…')
+    send_package(topic, tgs, facts, sources)
+
+
+def cmd_today(tgs):
+    """An old story that happened on this date (well-documented list), as a full package"""
+    now = datetime.now(timezone.utc); done = tgs.setdefault('today_done', [])
+    cands = []
+    for off in range(0, 8):
+        d = now + timedelta(days=off)
+        for y, title in FAMOUS.get((d.month, d.day), []):
+            cands.append((off, y, title, d))
+    fresh = [c for c in cands if c[2] not in done] or cands
+    if not fresh:
+        on_this_day(tgs); return
+    off, y, title, d = fresh[0]; done.append(title); del done[:-30]
+    when = 'today' if off == 0 else f'in {off} day{"s" if off > 1 else ""} ({d:%B %d})'
+    ack(f'⏳ Building the story that happened {when} in {y}…')
+    ev = datetime(y, d.month, d.day, tzinfo=timezone.utc).timestamp()
+    facts, sources, _ = story_facts(title, f'On {d:%B %d}, {y}: {title}. (Well-documented crypto history; the date is certain.)')
+    send_package(title, tgs, facts, sources, ev, head=f'📜 <b>On this day · {d:%B %d}, {y}</b>\n')
 
 
 def handle(u, tgs):
@@ -2677,6 +2852,14 @@ def handle(u, tgs):
             why_short(data[3:])
         elif data == 'kq:':
             kit_take(tgs)
+        elif data.startswith('mn:'):
+            toggle(data[3:], tgs)
+        elif data.startswith('pk:'):
+            _, k_, L_ = data.split(':'); p_ = tgs.get('packages', {}).get(k_)
+            if p_: ack(f'⏳ Researching and writing a {LEN_NAME[int(L_)]} script…'); short_draft(p_['topic'], tgs, None, None, int(L_))
+            else: tg('That package expired. Send /story again.')
+        elif data.startswith('pt:'):
+            tg('Send /story + the topic again.')
         elif data.startswith('rf:'):
             on_reply_feedback(data)
         elif data.startswith('rr:'):
@@ -2711,7 +2894,7 @@ def handle(u, tgs):
     parts = t.split(); c = parts[0].lower().split('@')[0]; args = parts[1:]
     fwd = msg.get('forward_origin') or {}
     fwd_src = (fwd.get('chat') or {}).get('title') or (fwd.get('sender_user') or {}).get('first_name') or fwd.get('sender_user_name')
-    MAP = {'📋 Today\'s kit': '/kit', '🧠 Brain': '/brain', '📰 Top stories': '/top', '📊 Movers': '/movers', '🏴‍☠️ Hacks': '/hacks', '📖 Story': '/story', '🧠 Brain': '/brain'}
+    MAP = {'📰 Top stories': '/top', '📖 Story': '/story', '📜 Today': '/today', '⚙️ Menu': '/menu'}
     if t in MAP:
         c, args = MAP[t], []
     if tgs.get('short_edit') and re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) and short_edit(t, tgs):
@@ -2749,21 +2932,9 @@ def handle(u, tgs):
                '<code>/short 1min FTX</code>, <code>/short 2min Silk Road</code> (default 45s).')
     elif c == '/viral':
         cmd_viral(tgs)
-    elif c == '/hook':
-        if args:
-            ack('⏳ Writing hooks…'); cmd_hook(' '.join(args), tgs)
-        else:
-            tg('🎣 Send <code>/hook</code> + your Short idea or script, e.g. <code>/hook Mt Gox lost 850,000 bitcoin</code>')
-    elif c == '/kit':
-        ack('⏳ Building today\'s kit…'); daily_kit(tgs); unack()
     elif c in ('/top', 'top', 'news'):
         if not send_cached_top():
             live_top(tgs)
-    elif c == '/chart':
-        if args and args[0].lower() not in SPANS:
-            ack(f'⏳ Pulling the {args[0].upper()} chart…'); coin_view(args[0], tgs)
-        else:
-            cmd_chart(args)
     elif c == '/reply':
         if args and XLINK.search(args[0]):
             cmd_reply(args[0], tgs)
@@ -2775,12 +2946,12 @@ def handle(u, tgs):
         cmd_reply(XLINK.search(t).group(0), tgs)
     elif not fwd and len(t) <= 40 and coin_query(t):
         q = coin_query(t); ack(f'⏳ Pulling the {q.upper()} chart…'); coin_view(q, tgs)
-    elif c == '/movers':
-        cmd_movers(tgs)
-    elif c == '/hacks':
-        cmd_hacks(tgs)
     elif c == '/story':
-        research_story(' '.join(args)) if args else on_this_day(tgs)
+        research_story(' '.join(args), tgs) if args else tg('📖 Send <code>/story</code> + a topic, e.g. <code>/story Do Kwon</code>. For an old story from this date use /today.')
+    elif c == '/today':
+        cmd_today(tgs)
+    elif c == '/menu':
+        cmd_menu(tgs)
     elif c == '/mute':
         hrs = float(args[0]) if args and re.match(r'^\d+(\.\d+)?$', args[0]) else 3
         tgs['mute_until'] = NOW + hrs * 3600; tg(f'🔕 Alerts paused for {hrs:g}h. /unmute to resume.')

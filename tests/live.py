@@ -3,7 +3,8 @@ python tests/live.py length"""
 import sys, os, json, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from helpers import *
-import story
+import story, replies
+from datetime import datetime, timezone
 
 
 def live_length():
@@ -39,9 +40,45 @@ def live_length():
     return ok_n >= len(cases) - 1
 
 
+def live_replies():
+    r = radar()
+    posts = [('WatcherGuru', 'JUST IN: Strategy buys 4,200 BTC for $487 million, bringing total holdings to 640,000 BTC.'),
+             ('zachxbt', 'A wallet linked to the Bybit hack just moved 10,000 ETH through a mixer.'),
+             ('CoinDesk', 'Ethereum ETFs saw net inflows of $120 million yesterday, the fifth straight day.')]
+    ok = 0
+    for author, text in posts:
+        out = None
+        try:
+            out = r.best_reply(text, author, None, 'neutral')
+        except Exception as e:
+            print('error', repr(e)[:120])
+        if out:
+            good, miss = replies.numbers_ok(out['reply'], text, out['live']); shape = replies.shape_ok(out['reply'])[0]
+            ok += good and shape
+            print(f'[{out["level"]}] ({out["style"]}) {out["reply"]}  | numbers ok={good} shape ok={shape}')
+        else:
+            print('NO REPLY (failed closed):', text[:60])
+    print(f'{ok}/{len(posts)} replies passed every check')
+    return ok >= 2
+
+
+def live_package():
+    r = radar()
+    facts = ('On March 12, 2020: Black Thursday: Bitcoin crashes about 40% in a day. (Well-documented crypto history.)\n'
+             'Real headlines: Bitcoin falls below $4,000 as markets panic (Mar 12, 2020).')
+    pk = r.build_package('Black Thursday', facts, [], datetime(2020, 3, 12, tzinfo=timezone.utc).timestamp())
+    if not pk:
+        print('no package'); return False
+    for i, p in enumerate(pk['posts'], 1): print(i, len(p), p)
+    print('flags', pk['flags'], '| checked', pk['checked'], '| chart:', pk['chart_note'], '| image bytes', len(pk['img']) if pk['img'] else None)
+    return 5 <= len(pk['posts']) <= 7 and not pk['flags']
+
+
 if __name__ == '__main__':
     what = sys.argv[1] if len(sys.argv) > 1 else 'all'
     results = {}
     if what in ('length', 'all'): results['length'] = live_length()
+    if what in ('replies', 'all'): results['replies'] = live_replies()
+    if what in ('package', 'all'): results['package'] = live_package()
     for k, v in results.items(): print(k, 'PASS' if v else 'FAIL')
     sys.exit(0 if all(results.values()) else 1)
