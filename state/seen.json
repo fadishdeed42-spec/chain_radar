@@ -112,11 +112,11 @@
 "srcs": [
 "CoinDesk",
 "Coinpedia",
+"CryptoRank",
 "CryptoSlate",
-"TradingView",
-"Yahoo Finance"
+"TradingView"
 ],
-"t": 1793200323.8416936,
+"t": 1793200753.3804157,
 "t0": 1793179353.0,
 "tgtext": "",
 "title": "Bitcoin Surges Above $81,000 Ahead of Fed Decision \u2013 Will BTC Price Rally Toward $88K or Drop to $76K?",
@@ -166,6 +166,25 @@
 "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNzYzcktOblNJcVJlZkZCLXlSVUNkalRXX0RwZWhnLUJMUnY4YXZJb0RrZUdNZFNnR0kyWFBRelRKQVJibnZpaWJRY0hlUW1aVkRZWlBnVDNwNGhGTmpfWkdtY0pBdnpaamJpRnBUNFhaMC02SGRIQVVBR2JSOHpHZ0ZTdkNhdmlYYmRzQTN1aTMteWJLaFNFcg?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000"
+]
+},
+"08b1e6aaded6": {
+"coin": "bitcoin",
+"src": "FXStreet",
+"srcs": [
+"Coinpedia",
+"CryptoPotato",
+"Decrypt",
+"FXStreet",
+"TradingView"
+],
+"t": 1793201059.018587,
+"t0": 1793184512.0,
+"tgtext": "",
+"title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
+"url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUTE5VVR0THlPaFBwU3IzQlMwbW81LThXOHRIWHd1TC1fOUotWE1lb0VJU0ZsTzBmX0twMkJNaENyZXhnd0pyQU9KWEc2d0tqdjUwWS1nZGlueUtjVkgwdjNac0VFMlMxN1FONW9xVGxxSHljMTNXZ0NpUnVldG1xNjd6UW15ZDc0MlhteG5hWWsxcVdkeGhhaHRSU1NVaVNjSF9fd1JoYm1UY1k1SmVmUUlOMkNkb3F0MS1HNWc1ZXJoTkllLV9weUpMTVhGZk9JUW04bk9rU1VyOXZJcEZOVWt4aXRqS1BTMjdvNW1R?oc=5",
+"urls": [
+"https://decrypt.co/382044/fed-rate-decision-what-markets-bitcoin-traders-expect"
 ]
 },
 "0b1662fb4f6d": {
@@ -377,7 +396,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -432,7 +451,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793200323.8416936,
+"t": 1793200753.3804157,
 "t0": 1793195288.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 Russian President Putin says Elon Musk is a \"true genius.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 Russian President Putin says Elon Musk is a \"true genius.\"",
@@ -473,7 +492,7 @@
 "Analytics Insight",
 "Bitcoinist.com"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793185352.0,
 "tgtext": "",
 "title": "Crypto News Today: Bitcoin ETFs Gain USD 176 Million, Bithumb Reports Breach, Datavault AI Crashes 50%",
@@ -562,14 +581,19 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"CoinDesk",
+"Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793191708.9740937,
+"t": 1793200753.3804157,
 "t0": 1793191382.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 33 major US companies now oppose having their stocks tokenized on OKX and ICE's planned exchange:\n\n\u2022 IBM\n\u2022 Dell\n\u2022 Intel\n\u2022 IonQ\n\u2022 AMD\n\u2022 Intuit\n\u2022 Oracle\n\u2022 Adobe\n\u2022 Verizon\n\u2022 Sandisk\n\u2022 Moderna\n\u2022 Alphabet\n\u2022 AppLovin\n\u2022 Microsoft\n\u2022 JPMorgan\n\u2022 Broadcom\n\u2022 Caterpillar\n\u2022 Coca-Cola\n\u2022 Qualcomm\n\u2022 Rocket Lab\n\u2022 CoreWeave\n\u2022 Wells Fargo\n\u2022 McDonald's\n\u2022 Arm Holdings\n\u2022 Cisco Systems\n\u2022 Applied Digital\n\u2022 Western Digital\n\u2022 Goldman Sachs\n\u2022 Applied Materials\n\u2022 Cerebras Systems\n\u2022 Marvell Technology\n\u2022 UnitedHealth Group\n\u2022 Applied Optoelectronics\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 33 major US companies now oppose having their stocks tokenized on OKX and ICE's planned exchange:",
 "url": "https://t.me/WatcherGuru/15647",
-"urls": []
+"urls": [
+"https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+"https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks"
+]
 },
 "31c4b4aacc5d": {
 "coin": "bitcoin",
@@ -1353,7 +1377,7 @@
 "srcs": [
 "CoinGape"
 ],
-"t": 1793200323.8416936,
+"t": 1793200753.3804157,
 "t0": 1793184440.0,
 "tgtext": "",
 "title": "Franklin Templeton ETFs That Reinvest Stock Dividends into Bitcoin Go Effective",
@@ -1745,7 +1769,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2147,7 +2171,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2349,7 +2373,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest bank Ita\u00fa Unibanco files to launch cryptocurrency trading and custody services.\n\n@WatcherGuru",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -3041,7 +3065,7 @@
 "srcs": [
 "Startup Fortune"
 ],
-"t": 1793198787.0588493,
+"t": 1793201059.018587,
 "t0": 1793194478.0,
 "tgtext": "",
 "title": "Hidden chip in fake Ledger wallets stole seed phrases and drained $90 million",
@@ -3071,11 +3095,24 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793189322.0,
 "tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.\n\nNews | Markets | YouTube",
 "title": "$114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.",
 "url": "https://t.me/cointelegraph/72906",
+"urls": []
+},
+"ea9c4d085e5d": {
+"coin": "",
+"src": "CryptoDaily",
+"srcs": [
+"CryptoDaily"
+],
+"t": 1793201059.018587,
+"t0": 1793190181.0,
+"tgtext": "",
+"title": "Initia Exploit Drains $2.7M After MoveVM Bug Allows Unauthorized Token Minting",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX25qVFdMOTdkVmtYTG5WamhCSTZtT2kxQ1JMd0JibWpDTzY5SkE0aC1aZ0NtaTdvblhwaTlXbEtkd1F4QTAyajVoUm1sTExRX2cwY2loVHdBSUkwaGJlWWJlUDlQXzJ6OE9LT2JVaV8tTU1qZ3ZpR1ZlS2xIRkxHYkZycWYyQjBXSm9TRmdLNVdRNjBJX3RBX0F1UkYxZkVveVUyOFZCUUx4Sk1iRTc4?oc=5",
 "urls": []
 },
 "eabe517bc2f7": {
@@ -3115,7 +3152,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793200323.8416936,
+"t": 1793201059.018587,
 "t0": 1793195381.0,
 "tgtext": "\ud83c\udde8\ud83c\udde6 JUST IN: Bank of Canada hikes its key interest rate by 25 basis points to 2.50%, matching expectations.\n\nNews | Markets | YouTube\nBank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years\n\nThe Bank of Canada on October 28, 2026, raised its target for the overnight rate by 25 basis points to 2.5%, the first increase since July 2023. The Bank Rate is now 2.75% and the deposit rate is 2.45%. The move aims to reduce the risk that persistently high energy prices spread to the prices of other goods and services. Governing Council said the policy rate may need to rise further, but it will proceed carefully given the uncertainties. \u2014 link",
 "title": "Bank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years",
@@ -3394,46 +3431,46 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"06c234f7b8d5": 0.229,
-"076abfd811c5": 0.353,
+"08b1e6aaded6": 0.738,
 "0fa5fcf7e599": 0.019,
 "15fc1e0c1ec4": 0.031,
-"1d92bb56bb28": 0.728,
+"1d173c66d11c": 0.165,
 "22815839bff7": 0.301,
-"26fbd39ac8cf": 0.029,
 "2780489f5e42": 0.552,
 "2ac3ba1424e4": 0.213,
 "2dd8b00d4500": 0.019,
 "3007e1b9a85d": 0.133,
 "3070dd1c04e7": 0.269,
 "32d52fc286e0": 0.058,
-"44d7ff7d5b6e": 0.041,
-"4e7719e995c3": 0.145,
+"42394e4c38c6": 0.041,
+"434f380244bc": 0.099,
+"45fac861957c": 0.079,
 "57543ce9fd7d": 0.102,
-"623b778463d6": 0.13,
-"628823a380ae": 0.086,
+"628823a380ae": 0.048,
 "681c02ba7cd6": 0.072,
 "7186ce01fb8a": 0.156,
 "7b85a5b2467a": 0.072,
+"80602f0caef1": 0.041,
 "87937ef02d2e": 0.028,
 "8dc53687e881": 0.149,
+"93e7257f4da8": 0.147,
+"980f3d8df044": 0.067,
 "988e40db4d23": 0.022,
 "992882f41754": 0.022,
-"9eb668a1b8b3": 0.025,
-"a1a4c679e7bc": 0.053,
 "a23c23910c8f": 0.261,
 "ae6bddd50139": 0.683,
 "b4d9fb8d4371": 0.063,
 "b788095b8710": 0.245,
 "c11fdf997380": 0.989,
-"c691427b2fb7": 0.094,
-"ccccf8d38504": 0.063,
-"de00a49fdf96": 0.12,
-"e9937a5bf833": 0.758,
+"d58b7de4a597": 0.142,
+"de00a49fdf96": 0.068,
+"e8cb6af27180": 0.412,
+"e9937a5bf833": 0.626,
+"ea9c4d085e5d": 0.474,
 "ed4b64d5da16": 0.671,
 "f6e7bce954be": 0.09,
-"f8ed00046721": 0.034,
-"fcc4e8e8e1cd": 0.04
+"f8ed00046721": 0.087,
+"ff9df26ca434": 0.187
 },
 "sent": [
 {
@@ -4624,64 +4661,64 @@
 "top": [
 [
 "c11fdf997380",
-24,
-304,
+22,
+316,
 5
 ],
 [
 "8d04bb417f8f",
 0,
-308,
+320,
 1
-],
-[
-"e9937a5bf833",
-20,
-183,
-2
 ],
 [
 "1d92bb56bb28",
-11,
-292,
+9,
+304,
 1
 ],
 [
+"08b1e6aaded6",
+57,
+276,
+5
+],
+[
 "ae6bddd50139",
-15,
-219,
+14,
+232,
 2
 ],
 [
 "ed4b64d5da16",
 20,
-82,
+95,
+2
+],
+[
+"e9937a5bf833",
+18,
+196,
 2
 ],
 [
 "2780489f5e42",
-56,
-250,
+55,
+262,
 2
 ],
 [
-"69bb0b279d94",
-0,
-265,
+"ea9c4d085e5d",
+41,
+181,
 1
 ],
 [
-"076abfd811c5",
-47,
-350,
-5
-],
-[
-"22815839bff7",
-18,
-84,
+"e8cb6af27180",
+41,
+110,
 1
 ]
 ],
-"top_at": 1793200323.8416936
+"top_at": 1793201059.018587
 }
