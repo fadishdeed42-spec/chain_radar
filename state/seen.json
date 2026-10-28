@@ -171,13 +171,13 @@
 "coin": "bitcoin",
 "src": "FXStreet",
 "srcs": [
+"CoinDesk",
 "Coinpedia",
-"CryptoPotato",
+"CryptoTicker.io",
 "Decrypt",
-"FXStreet",
-"TradingView"
+"FXStreet"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793184512.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC reclaims $81,000 as traders await Fed policy decision, Big Tech earnings",
@@ -395,7 +395,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -491,7 +491,7 @@
 "Analytics Insight",
 "Bitcoinist.com"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793185352.0,
 "tgtext": "",
 "title": "Crypto News Today: Bitcoin ETFs Gain USD 176 Million, Bithumb Reports Breach, Datavault AI Crashes 50%",
@@ -584,7 +584,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793200753.3804157,
+"t": 1793203699.5891337,
 "t0": 1793191382.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 33 major US companies now oppose having their stocks tokenized on OKX and ICE's planned exchange:\n\n\u2022 IBM\n\u2022 Dell\n\u2022 Intel\n\u2022 IonQ\n\u2022 AMD\n\u2022 Intuit\n\u2022 Oracle\n\u2022 Adobe\n\u2022 Verizon\n\u2022 Sandisk\n\u2022 Moderna\n\u2022 Alphabet\n\u2022 AppLovin\n\u2022 Microsoft\n\u2022 JPMorgan\n\u2022 Broadcom\n\u2022 Caterpillar\n\u2022 Coca-Cola\n\u2022 Qualcomm\n\u2022 Rocket Lab\n\u2022 CoreWeave\n\u2022 Wells Fargo\n\u2022 McDonald's\n\u2022 Arm Holdings\n\u2022 Cisco Systems\n\u2022 Applied Digital\n\u2022 Western Digital\n\u2022 Goldman Sachs\n\u2022 Applied Materials\n\u2022 Cerebras Systems\n\u2022 Marvell Technology\n\u2022 UnitedHealth Group\n\u2022 Applied Optoelectronics\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 33 major US companies now oppose having their stocks tokenized on OKX and ICE's planned exchange:",
@@ -690,7 +690,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793202001.0,
 "tgtext": "\ud83d\udd25 JUST IN: Strategy shareholders approved an amendment allowing daily dividend accrual for $STRF, $STRC, $STRK and $STRD. \n\nPreliminary results show 99.3% voted in favor.",
 "title": "Strategy shareholders approved an amendment allowing daily dividend accrual for STRF, STRC, STRK and STRD.",
@@ -1748,7 +1748,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793202913.935319,
+"t": 1793203395.8254297,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2005,7 +2005,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793201101.0,
 "tgtext": "\ud83d\udd25 BULLISH: Bitwise projects $BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.\n\nNews | Markets | YouTube",
 "title": "BULLISH: Bitwise projects BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.",
@@ -2163,7 +2163,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793187166.0,
 "tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
 "title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
@@ -2272,6 +2272,24 @@
 "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642"
 ]
 },
+"b93ad5c72915": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Bitcoin Magazine",
+"Cointelegraph",
+"Watcher.Guru",
+"Wu Blockchain"
+],
+"t": 1793203699.5891337,
+"t0": 1793185416.0,
+"tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest bank Ita\u00fa Unibanco files to launch cryptocurrency trading and custody services.\n\n@WatcherGuru",
+"title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
+"url": "https://t.me/wublockchainenglish/26584",
+"urls": [
+"https://bitcoinmagazine.com/news/brazilian-banking-giant-itau-crypto"
+]
+},
 "ba45e7c563cd": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2365,7 +2383,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793202913.935319,
+"t": 1793203395.8254297,
 "t0": 1793182074.0,
 "tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link\n\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s largest private bank, Ita\u00fa Unibanco, becomes the first bank to formalize crypto trading and custody under new central bank rules.\n\nThe bank offers 15 crypto assets:\n\u2022 BTC\n\u2022 ETH\n\u2022 SOL\n\u2022 XRP\n\u2022 USDC\n\u2022 LINK\n\u2022 LTC\n\u2022 AAVE\n\u2022 AVAX\n\u2022 POL\n\u2022 BCH\n\u2022 UNI\n\u2022 OP\n\u2022 ARB\n\u2022 PAXG\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest bank Ita\u00fa Unibanco files to launch cryptocurrency trading and custody services.\n\n@WatcherGuru",
 "title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
@@ -3071,7 +3089,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793189322.0,
 "tgtext": "DTCC Launches Securities Tokenization Service, Initially Supporting 34 Securities\n\nDTCC\u2019s website shows that its Tokenization Service is now live, initially supporting 34 securities, including selected large-cap Russell 1000 constituents, ETFs and U.S. Treasuries. Tokens are backed 1:1 by underlying securities held in custody by the Depository Trust Company (DTC), carry the same legal and ownership rights, and support round-the-clock onchain transfers between DTC-registered wallets. The service initially supports Canton Network and DTCC\u2019s Besu-based private network, with Stellar and Circle\u2019s Arc expected to join in 2027. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.\n\nNews | Markets | YouTube",
 "title": "$114T+ custodian DTCC launches its tokenization service with 34 securities available at launch, initially supporting Canton Network and Besu.",
@@ -3128,7 +3146,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793202913.935319,
+"t": 1793203699.5891337,
 "t0": 1793195381.0,
 "tgtext": "\ud83c\udde8\ud83c\udde6 JUST IN: Bank of Canada hikes its key interest rate by 25 basis points to 2.50%, matching expectations.\n\nNews | Markets | YouTube\nBank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years\n\nThe Bank of Canada on October 28, 2026, raised its target for the overnight rate by 25 basis points to 2.5%, the first increase since July 2023. The Bank Rate is now 2.75% and the deposit rate is 2.45%. The move aims to reduce the risk that persistently high energy prices spread to the prices of other goods and services. Governing Council said the policy rate may need to rise further, but it will proceed carefully given the uncertainties. \u2014 link",
 "title": "Bank of Canada Raises Policy Rate by 25 Basis Points to 2.5% in First Hike in Three Years",
@@ -3176,21 +3194,6 @@
 "tgtext": "",
 "title": "Chris Giancarlo wants to revive letters of marque to fight the Lazarus Group",
 "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OMDlLSjFkU3A4NS13Wl9nTkE0Y1FDRXhzdTRvXzRvZXZwajJtWWtHbkw0V1ZndjZudzdPOXF2MnZfMDc4TXVYbFd0QkRPenFadVQ2eUFhVDN3STNYaEUyRHFScEJNcmZpMUtjSDdubmo0NThkUHhoMw?oc=5",
-"urls": []
-},
-"f0a367e28c2e": {
-"coin": "",
-"src": "CoinCodex",
-"srcs": [
-"CCN.com",
-"CoinCodex",
-"Gadgets 360"
-],
-"t": 1793030202.1864336,
-"t0": 1793009520.0,
-"tgtext": "",
-"title": "CoinDCX Admits $16M Loss From July 2025 Hack After CEO Initially Called Reports a \u201cFalse Alarm\u201d",
-"url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZUxMNzAxWnBmWFhlLW1CYm1SY2ppSjdVOXkwN0duMHRHQVR3QWhqMGItUm9mZVM0OUx4Rjk1d1h2aXIyWnZ5UXBKcjRfd01CZjRDTWJQN2kxODNMVzc2X2tVdThzSFlQV1BCczhrZ0RMTjNlalkwbjZlcHhHckxlN3o0MmtERGpDYThFTW1lV2VPb2FBcVNBa3NlODhBUW5zaVFIQ2RSYnI4dm9IYlZxZ0w5alVfUTNKS0RZOGttX2R1eUdacTFzTQ?oc=5",
 "urls": []
 },
 "f0bd9b9c0f94": {
@@ -3381,42 +3384,42 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"08b1e6aaded6": 0.811,
+"08b1e6aaded6": 0.587,
 "0fa5fcf7e599": 0.019,
-"15fc1e0c1ec4": 0.031,
-"1d173c66d11c": 0.165,
+"15fc1e0c1ec4": 0.176,
 "22815839bff7": 0.301,
-"2780489f5e42": 0.552,
+"2780489f5e42": 0.652,
 "2ac3ba1424e4": 0.126,
 "2dd8b00d4500": 0.019,
-"3007e1b9a85d": 0.133,
+"3007e1b9a85d": 0.076,
 "3070dd1c04e7": 0.495,
 "32d52fc286e0": 0.058,
-"3a200f87dc35": 0.111,
 "42394e4c38c6": 0.041,
 "434f380244bc": 0.099,
-"45fac861957c": 0.079,
-"57543ce9fd7d": 0.102,
 "628823a380ae": 0.048,
 "681c02ba7cd6": 0.072,
+"6fdd31b30d67": 0.041,
 "7186ce01fb8a": 0.156,
-"80602f0caef1": 0.041,
+"7b85a5b2467a": 0.072,
+"80602f0caef1": 0.023,
 "850e1a4e62b5": 0.03,
 "87937ef02d2e": 0.072,
 "8dc53687e881": 0.149,
 "93e7257f4da8": 0.147,
 "988e40db4d23": 0.022,
 "a0fb9ddee391": 0.251,
-"a176984b5772": 0.605,
-"a23c23910c8f": 0.261,
+"a176984b5772": 0.536,
+"a23c23910c8f": 0.429,
+"ac4422371254": 0.019,
 "b4d9fb8d4371": 0.063,
 "b573b2f2f6db": 0.022,
 "b788095b8710": 0.148,
 "b8580470be3b": 0.112,
-"c11fdf997380": 0.98,
-"d58b7de4a597": 0.142,
+"b93ad5c72915": 0.965,
+"be7d95003419": 0.048,
+"c691427b2fb7": 0.217,
 "de00a49fdf96": 0.068,
-"e8cb6af27180": 0.412,
+"e9937a5bf833": 0.591,
 "ea9c4d085e5d": 0.165,
 "ed4b64d5da16": 0.596,
 "f6e7bce954be": 0.09,
@@ -4608,65 +4611,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"c11fdf997380",
-18,
-347,
-5
-],
-[
-"38ba688c4980",
-10,
-15,
-1
-],
-[
-"8d04bb417f8f",
-0,
-351,
-1
-],
-[
-"08b1e6aaded6",
-48,
-307,
-6
+"b93ad5c72915",
+24,
+305,
+4
 ],
 [
 "1d92bb56bb28",
-5,
-335,
+3,
+348,
 1
 ],
 [
 "ae6bddd50139",
-10,
-262,
-2
-],
-[
-"e9937a5bf833",
-14,
-227,
-2
-],
-[
-"a176984b5772",
-16,
-30,
-1
-],
-[
-"ed4b64d5da16",
-20,
-126,
+8,
+276,
 2
 ],
 [
 "2780489f5e42",
-50,
-293,
+49,
+306,
 2
+],
+[
+"ed4b64d5da16",
+20,
+139,
+2
+],
+[
+"e9937a5bf833",
+13,
+240,
+2
+],
+[
+"08b1e6aaded6",
+51,
+320,
+7
+],
+[
+"a176984b5772",
+16,
+43,
+1
+],
+[
+"3070dd1c04e7",
+27,
+205,
+3
+],
+[
+"38ba688c4980",
+10,
+28,
+1
 ]
 ],
-"top_at": 1793202913.935319
+"top_at": 1793203699.5891337
 }
