@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1793096909.900296,
 1793107916.6432102,
 1793110663.5044334,
 1793114946.8951821,
@@ -17,7 +16,8 @@
 1793162493.299481,
 1793167905.3122866,
 1793177392.095842,
-1793181984.986136
+1793181984.986136,
+1793185658.4633334
 ],
 "menu": {
 "0080c1bb18be": {
@@ -356,7 +356,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793182812.0,
 "tgtext": "Meet the recent \"king of liquidations\" \u2014 $ETH short 0xb15b!\n\n9 days ago, this trader created wallet 0xb15b, deposited 1.25M $USDC, and started shorting $ETH.\n\nSince then, he's been liquidated 13 times, with a total of 18,080 $ETH ($43.9M) liquidated and $1.14M lost.\n\nhttps://hypurrscan.io/address/0xb15b229203c383abf143b409e53315788e18dbae#txs",
 "title": "Meet the recent \"king of liquidations\" \u2014 ETH short 0xb15b!",
@@ -1152,7 +1152,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793176962.0,
 "tgtext": "\ud83d\udea8 ALERT: CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.\n\n\"Stay SAFU.\"\n\nNews | Markets | YouTube",
 "title": "CZ warns leaked exchange data can fuel phishing, SIM swaps and real-world attacks after four reported leaks across crypto and TradFi.",
@@ -1491,7 +1491,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793167623.0,
 "tgtext": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B\n\nAccording to BeInCrypto, Anthropic\u2019s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from the government in October 2025 at $140.9676 per share and resold them at cost to nine undisclosed buyers. Ahead of Anthropic\u2019s planned Nasdaq listing, the stake is now estimated to be worth approximately $3.94 billion based on projected IPO valuations, marking more than a sixfold increase from the resale price. \u2014 link",
 "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B",
@@ -1570,10 +1570,10 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793172402.0,
-"tgtext": "\ud83d\udcca BTC $81427 \u2022 ETH $2365 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81427 \u2022 ETH $2365 \u2022 GRAM $1.24\u00bb",
-"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81427 \u2022 ETH $2365 \u2022 GRAM $1.24\u00bb",
+"tgtext": "\ud83d\udcca BTC $81348 \u2022 ETH $2362 \u2022 GRAM $1.24\nCointelegraph pinned \u00ab\ud83d\udcca BTC $81348 \u2022 ETH $2362 \u2022 GRAM $1.24\u00bb",
+"title": "Cointelegraph pinned \u00ab\ud83d\udcca BTC $81348 \u2022 ETH $2362 \u2022 GRAM $1.24\u00bb",
 "url": "https://t.me/cointelegraph/72900",
 "urls": []
 },
@@ -1760,7 +1760,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793181836.0,
 "tgtext": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 $BTC ($80.66M) to BitGo 9 hours ago.\n\nhttps://x.com/lookonchain/status/2114881809175793806",
 "title": "Bitcoin mining company MARA Holdings (@MARA) transferred another 1,000 BTC ($80.66M) to BitGo 9 hours ago.",
@@ -2375,6 +2375,22 @@
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbHFnOWpLTmNmNl9MckJmWmRuRklocDIzZjA2SzltRE5GTDFPRjM3R0FnOXhZOWtRQVRUVThvSS1TSGoxU3ExVlVUbzBGWUlVTjd3T21PZEpGQVQ2WmdTdjFRVEtPRzkyWGhPOTN1Q3RnMmFab3pYcW1MVkwwOHVUOF8wbW1rWkRidk1MSURaeGtNWHUzZFdhM2dxb2xfNGs?oc=5",
 "urls": []
 },
+"c11fdf997380": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"CoinDesk",
+"Wu Blockchain"
+],
+"t": 1793185962.7764344,
+"t0": 1793182074.0,
+"tgtext": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules\n\nBrazil\u2019s largest private bank, Ita\u00fa Unibanco, notified the central bank of its cryptocurrency trading and custody operations on October 27, becoming the country\u2019s first bank to do so under the new digital-asset rules. The framework allows banks already authorized by the central bank to offer crypto services through a notification process, while dedicated virtual-asset service providers must apply for operating authorization. The deadline for existing operators to submit notifications or applications is October 30. Ita\u00fa has offered crypto services since December 2023 and currently supports 15 cryptoassets. \u2014 link",
+"title": "Brazil\u2019s Largest Private Bank Ita\u00fa Unibanco Becomes Country\u2019s First to Notify Regulator of Crypto Brokerage Operations Under New Rules",
+"url": "https://t.me/wublockchainenglish/26584",
+"urls": [
+"https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules"
+]
+},
 "c1b38ba5266b": {
 "coin": "",
 "src": "Decrypt",
@@ -2415,7 +2431,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793176421.0,
 "tgtext": "",
 "title": "Over $800M in leveraged crypto positions liquidated as Bitcoin dips below $80K amid Fed meeting.",
@@ -2761,10 +2777,9 @@
 "src": "Decrypt",
 "srcs": [
 "Cointelegraph",
-"CryptoTicker.io",
 "Decrypt"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793167033.0,
 "tgtext": "\ud83d\udea8 NOW: Coinbase says it has not suffered a data breach.\n\nA security incident at analytics vendor Amplitude exposed some users\u2019 contact data, but customer funds and Coinbase systems were unaffected.\n\nNews | Markets | YouTube",
 "title": "Coinbase Customer Data Hit in Analytics Vendor Breach, Funds \u2018Not Impacted\u2019",
@@ -2793,7 +2808,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793166904.0,
 "tgtext": "Two dormant $PEPE whales moved 2.27T $PEPE ($10.19M) today.\n\nhttps://arkm.com/explorer/address/0xCA6FeAdECFA7C186e5d974Cd85A4d615d059D0f1\nhttps://arkm.com/explorer/address/0x2daabb7d7d8114EE334D5A141A97ef181e565e69",
 "title": "Two dormant PEPE whales moved 2.27T PEPE ($10.19M) today.",
@@ -3156,7 +3171,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793185350.6832929,
+"t": 1793185962.7764344,
 "t0": 1793169790.0,
 "tgtext": "Three whales deposited 6,168 $BTC ($498.5M) into #CoinbasePrime 6 hours ago.\n\nhttps://arkm.com/explorer/address/bc1quq59kqghq6clwf40w6sk9hy9rnxkwnhgavu7kf\nhttps://arkm.com/explorer/address/bc1q9kaamrrp069ek3esf7n983y0ml8g0drp29l77q\nhttps://arkm.com/explorer/address/bc1qkgcn3tastkryuc3tfagf44rrk2nngrdlkzvz80",
 "title": "Three whales deposited 6,168 BTC ($498.5M) into CoinbasePrime 6 hours ago.",
@@ -3435,44 +3450,44 @@
 "probs": {
 "022f700d02cb": 0.058,
 "0734119b2376": 0.024,
-"078d68222e19": 0.018,
-"08b1e6aaded6": 0.197,
+"0b2a285a73d1": 0.03,
 "0d4d6c2b948a": 0.036,
-"10f0a3a0afc4": 0.056,
-"13caee1f3a7b": 0.018,
 "14ad7ce4af9a": 0.029,
+"18f35019cb21": 0.042,
 "1d92bb56bb28": 0.893,
 "2557fc2122ab": 0.011,
 "26871d2943ab": 0.042,
 "27c89491aaaa": 0.029,
 "2e8a7f703315": 0.063,
+"32e1f5b62d15": 0.031,
 "3fc1a47a51cb": 0.256,
-"455e33fc662d": 0.109,
-"45fac861957c": 0.119,
-"469aa99d42ef": 0.016,
-"4abc5be6a796": 0.055,
+"425a723a8498": 0.014,
+"448978fe1bbd": 0.359,
+"455e33fc662d": 0.037,
 "54af389d38b6": 0.511,
 "623b778463d6": 0.087,
 "642924e3f4ee": 0.124,
 "73d414505739": 0.707,
-"771ae4f4fcc0": 0.115,
-"8d04bb417f8f": 0.9,
-"96c58ec20832": 0.194,
+"8d04bb417f8f": 0.872,
+"976259c989a9": 0.12,
 "988e40db4d23": 0.014,
-"9ae150dbff07": 0.046,
 "acb923342f6a": 0.107,
-"b32971afa87d": 0.211,
-"b4aead49e1d7": 0.154,
-"b4fa19ffce75": 0.139,
+"b33239a0be9e": 0.018,
+"b4aead49e1d7": 0.096,
 "b89221b2253e": 0.027,
+"be0e66133543": 0.01,
+"c11fdf997380": 0.989,
 "c1e1a4dee351": 0.626,
 "c2e790225120": 0.03,
 "c7a872e51530": 0.042,
-"cef2ccd4c25c": 0.936,
+"cef2ccd4c25c": 0.537,
 "d09d9bd3c64b": 0.878,
 "d5938ed3683e": 0.087,
+"d6c77e40fe39": 0.043,
 "eac28a981965": 0.573,
-"efc857737a72": 0.179
+"ec958ca0e9fe": 0.061,
+"efc857737a72": 0.179,
+"ff60098b8e96": 0.138
 },
 "sent": [
 {
@@ -4729,71 +4744,114 @@
 "recent",
 "short"
 ]
+},
+{
+"e": [
+"bank",
+"becomes",
+"brazil",
+"brokerage",
+"country",
+"first",
+"largest",
+"notify",
+"operations",
+"private",
+"regulator",
+"rules",
+"under",
+"unibanco"
+],
+"k": [
+"ban"
+],
+"t": 1793185658.4633334,
+"u": [
+"https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules",
+"https://t.me/wublockchainenglish/26584"
+],
+"w": [
+"bank",
+"becomes",
+"brazil",
+"brokerage",
+"country",
+"first",
+"ita",
+"largest",
+"notify",
+"operations",
+"private",
+"regulator",
+"rules",
+"under",
+"unibanco"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"cef2ccd4c25c",
-47,
-305,
-3
-],
-[
-"8d04bb417f8f",
-16,
-59,
-1
+"c11fdf997380",
+20,
+65,
+2
 ],
 [
 "1d92bb56bb28",
 25,
-42,
+53,
 1
 ],
 [
 "d09d9bd3c64b",
-23,
-307,
+21,
+318,
+1
+],
+[
+"8d04bb417f8f",
+16,
+69,
 1
 ],
 [
 "73d414505739",
-16,
-295,
+15,
+306,
 1
 ],
 [
 "c1e1a4dee351",
 45,
-149,
+159,
 1
 ],
 [
 "eac28a981965",
-14,
-259,
+13,
+270,
 1
+],
+[
+"cef2ccd4c25c",
+35,
+315,
+2
 ],
 [
 "54af389d38b6",
 18,
-140,
+150,
 1
 ],
 [
 "80924276261c",
-6,
-216,
-1
-],
-[
-"448978fe1bbd",
-10,
-112,
+4,
+226,
 1
 ]
 ],
-"top_at": 1793185350.6832929
+"top_at": 1793185962.7764344
 }
