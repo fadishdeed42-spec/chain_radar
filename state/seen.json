@@ -191,6 +191,21 @@
 "https://decrypt.co/382044/fed-rate-decision-what-markets-bitcoin-traders-expect"
 ]
 },
+"0a962ef284d2": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793228939.3222508,
+"t0": 1793210454.0,
+"tgtext": "",
+"title": "Strategy shareholders approve daily dividends for four preferred stocks",
+"url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "0b1662fb4f6d": {
 "coin": "",
 "src": "Cointelegraph",
@@ -400,19 +415,6 @@
 "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8"
 ]
 },
-"1c01b170831c": {
-"coin": "ethereum",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1793055786.1550312,
-"t0": 1793034377.0,
-"tgtext": "Ethereum Delays Glamsterdam Hoodi Fork Over EIP-8037 and EIP-8038 Risks\n\nEthereum researcher Toni Wahrst\u00e4tter said the planned Glamsterdam fork on the Hoodi testnet has been delayed after ChainSecurity identified compatibility risks in EIP-8037 and EIP-8038. The gas changes could break contracts that assume gas usage only decreases or cause failed sub-calls to behave unexpectedly. ChainSecurity has found 13 real-world cases, and developers are reviewing whether the upgrade specification needs changes. \u2014 link",
-"title": "Ethereum Delays Glamsterdam Hoodi Fork Over EIP-8037 and EIP-8038 Risks",
-"url": "https://t.me/wublockchainenglish/26559",
-"urls": []
-},
 "1c29a4ca9d5e": {
 "coin": "bitcoin",
 "src": "The Crypto Times",
@@ -596,7 +598,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793210420.0,
 "tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 Federal Reserve leaves interest rates unchanged, remains at 3.75% - 4.00%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 BREAKING: The Federal Reserve has left interest rates unchanged.\n\nNews | Markets | YouTube\n\ud83d\udea8 TODAY: The Federal Reserve held interest rates steady at 3.75%\u20134.00%, citing strong economic activity and still-elevated inflation. \n\nThe decision passed 10\u20132, with Lisa Cook and Beth Hammack voting for a 25-basis-point hike instead. \n\nThe Fed said it needs more data to determine the policy stance needed to bring inflation back to its 2% target.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Federal Reserve held interest rates steady at 3.75%\u20134.00%, citing strong economic activity and still-elevated inflation.",
@@ -684,6 +686,22 @@
 "title": "Bitcoin Has Lost 30,000 Wallets: Could That Be Good News for BTC?",
 "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR3Bic3drSTNOd3Z0RUctXzd4TlBRcnlGNC1GVkRjN0lHWXhyUXNoSnY0V3VuMHpOMzI4R19nd1BlNHAxaTJzYU8wYWFyaUtqNmZ3akloS1loTFphRUt4MURrajlTU0Y4VDZuNl8xTU5Ja2paMWhYSGptbzg1cDFFV1lKUG01dlR1OXN3V0hJcl9Edw?oc=5",
 "urls": []
+},
+"31c83bccd935": {
+"coin": "bitcoin",
+"src": "Coinpedia",
+"srcs": [
+"Bitcoin Magazine",
+"Coinpedia"
+],
+"t": 1793228939.3222508,
+"t0": 1793207576.0,
+"tgtext": "",
+"title": "Bitcoin Surges Above $81,000 Ahead of Fed Decision \u2013 Will BTC Price Rally Toward $88K or Drop to $76K?",
+"url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS0lDNDFBTnpZTG5ld1JqYXVaWW5wRFc2YUVGY3BBcFZjSk8wNVZ6VjEta0R3YnFkVW55THRQc2NSLVJZZkRjQUI0QUszeUxTbGlIQndmUUUzWTlsUUtXZUVfeTB2cHVWRHRwdWdzTXVGbUZ0Y0dqWk5Yem1JRG9GSDFWMFNJbzhTMTVsbHBWT2FXbHRTQU5aaHpDT05Ia2xJNEw4RTdoUzhBUHR1N05iNnVqOWFkdGZLS19LT0FXV0xzM2t0Y3lVZ1UwNG0xQdIB0wFBVV95cUxOR1ROX3VZZFdVd2dBQ0QyU2NaTjk4cEgyTFcxSXctVzQ0RlV2Vi15YWtJM0hhemdaY2NnV3RIOHVKR2FXbE9jeFpWMVFhMkNoZXV0LW82dmFlZnVzV0pBcHNPX3I0T2haMnZ2TnNBUi1SV3dIY0E5aW5CcEZwdVpYTmZPSk1HRVFZc3M5cEw0enR4OXk0NUstR2Nnc0g1U2JOVHhvQVN4UXBvalEwb2c5dkg2SEJjRHFiV1EweFlMNzR3VEZVQXFYV1BIN0ZQdFJRZDNB?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
+]
 },
 "3261473b2180": {
 "coin": "bitcoin",
@@ -844,7 +862,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793212963.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 UPDATE: The Fed will keep eight FOMC meetings per year starting in 2027, but one will focus solely on long-term monetary policy strategy with no rate vote or policy statement.\n\nNews | Markets | YouTube",
 "title": "The Fed will keep eight FOMC meetings per year starting in 2027, but one will focus solely on long-term monetary policy strategy with no rate vote or policy statement.",
@@ -857,7 +875,7 @@
 "srcs": [
 "Bitcoin Sistemi"
 ],
-"t": 1793228327.1766195,
+"t": 1793228635.4248378,
 "t0": 1793218303.0,
 "tgtext": "",
 "title": "MemeToro AI Coin After the Fed Decision: Bitcoin and Pepe Coin in Focus",
@@ -1259,13 +1277,26 @@
 "url": "https://t.me/lookonchainchannel/10811",
 "urls": []
 },
+"608f2f40270e": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1793228939.3222508,
+"t0": 1793228669.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Billionaire Minecraft creator Markus \"Notch\" Persson flees California, listing his $70 million mansion for sale as the state considers new wealth tax.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Billionaire Minecraft creator Markus \"Notch\" Persson flees California, listing his $70 million mansion for sale as the state considers new wealth tax.",
+"url": "https://t.me/WatcherGuru/15659",
+"urls": []
+},
 "64021136245d": {
 "coin": "solana",
 "src": "Watcher.Guru",
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793209854.0,
 "tgtext": "JUST IN: Solana $SOL co-founder Anatoly Yakovenko says US companies opposing tokenized stock trading \"should go private then.\"\n\n@WatcherGuru",
 "title": "Solana SOL co-founder Anatoly Yakovenko says US companies opposing tokenized stock trading \"should go private then.\"",
@@ -1766,7 +1797,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793208077.0,
 "tgtext": "Bloomberg: Over $170M in Unusual Hyperliquid Oil Perp Orders Raise Spoofing Suspicions\n\nAccording to Bloomberg, market surveillance firm Solidus Labs identified over $170 million in unusual orders placed through two Hyperliquid accounts between March 8 and 10, amid sharp oil price swings linked to the Iran war. The activity raised concerns about potential spoofing in oil perpetual futures markets.\n\nThe trader repeatedly placed and canceled large orders on one side of the order book while executing trades on the other, with a cancellation-to-execution value ratio of roughly 30:1, generating about $119,000 in profits over three days. The activity primarily involved Brent crude perps. Solidus said the pattern resembled spoofing but acknowledged that manipulative intent remains unproven. Hyperliquid Labs emphasized that all orders, cancellations and trades are recorded on a transparent public blockchain and can be independently reviewed. \u2014 link",
 "title": "Bloomberg: Over $170M in Unusual Hyperliquid Oil Perp Orders Raise Spoofing Suspicions",
@@ -2597,7 +2628,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793209408.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says crypto stablecoins can strengthen the US dollar's global dominance.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says crypto stablecoins can strengthen the US dollar's global dominance.",
@@ -2947,7 +2978,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793212750.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"",
@@ -3116,7 +3147,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793228327.1766195,
+"t": 1793228939.3222508,
 "t0": 1793221501.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: Peter Schiff says Warsh \u201cmay have bowed to political pressure from Trump not to hike rates a week before the midterms.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: Peter Schiff says Warsh \u201cmay have bowed to political pressure from Trump not to hike rates a week before the midterms.\u201d",
@@ -3283,7 +3314,7 @@
 "Decrypt",
 "Wu Blockchain"
 ],
-"t": 1793222205.6789458,
+"t": 1793228635.4248378,
 "t0": 1793210938.0,
 "tgtext": "Fed Holds Rates Steady at 3.75%\u20134.00% in 10\u20132 Vote, Two Officials Favor Hike\n\nThe Federal Reserve voted 10\u20132 on October 28 to maintain the federal funds rate target range at 3.75%\u20134.00%. The FOMC said economic activity continues to expand at a strong pace, supported by resilient domestic spending, strong productivity growth, and robust capital investment, despite elevated geopolitical uncertainty. Job growth has kept pace with labor force growth, while unemployment has changed little. Inflation remains elevated, and the Committee will assess incoming data to determine the appropriate policy stance to return inflation to its 2% target. Lisa Cook and Beth Hammack dissented, favoring a 25-basis-point rate hike.\n\nFed Chair Kevin Warsh said the central bank will vote on interest rates at seven of its eight scheduled policy meetings in 2027, reducing that number to six in 2028. The remaining meetings will focus on broader monetary policy discussions. \u2014 link",
 "title": "Bitcoin Price Trades Above $81,500 as Fed Keeps Rates Steady in Split Vote",
@@ -3573,40 +3604,40 @@
 "04e8eb08a4a3": 0.013,
 "0731f7dc1cd4": 0.028,
 "14250bf6cdb5": 0.016,
-"190bd4352cf4": 0.034,
-"1d3c9d093d84": 0.094,
+"1dc45f5ce1a8": 0.034,
+"1f55a16768f3": 0.011,
 "27119951a1cb": 0.024,
-"2d583674634b": 0.92,
+"2d583674634b": 0.941,
+"31c83bccd935": 0.228,
 "325e8826aa0f": 0.021,
+"3a8b52677895": 0.012,
 "3ca74ddb95ea": 0.253,
 "3d35d2ffdd06": 0.115,
 "45e1bdd77571": 0.017,
 "4af07db336e8": 0.015,
 "4e00faa70a63": 0.013,
 "50c4eb32e69c": 0.074,
-"56357c3917b4": 0.018,
+"608f2f40270e": 0.981,
+"6dd11d5230fb": 0.046,
 "76ebfd28f1ea": 0.095,
 "7b0c3544df68": 0.032,
+"7b85a5b2467a": 0.03,
+"7c434a5472db": 0.039,
 "7d3129471422": 0.052,
-"978c3135b7ef": 0.023,
 "97b75780258c": 0.004,
-"982396f5da74": 0.052,
 "9a94c49b1ae0": 0.009,
 "a1b5a31b64ba": 0.031,
 "baa247db072d": 0.074,
 "c843fc50b8ae": 0.071,
 "c8511e845ae9": 0.013,
-"c88dd223ab2b": 0.016,
 "d1a435e4fc87": 0.05,
 "d779a0d683f7": 0.198,
 "e63954554493": 0.03,
 "e721c1c1651c": 0.007,
 "e77fb5395843": 0.756,
 "eb3dcd72fc1c": 0.008,
-"ee3fb41bd1d5": 0.1,
+"ee3fb41bd1d5": 0.039,
 "eee024423c03": 0.054,
-"f0f386941379": 0.008,
-"f1fe3adcda09": 0.014,
 "faf751b2548b": 0.02,
 "fc91fc36df73": 0.114,
 "ff86ecaa02f6": 0.012
@@ -4930,65 +4961,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"608f2f40270e",
+16,
+5,
+1
+],
+[
 "2d583674634b",
-29,
-298,
+27,
+309,
 3
 ],
 [
 "e77fb5395843",
 18,
-114,
+124,
 1
 ],
 [
-"3183a839e428",
-0,
-355,
-2
-],
-[
 "3ca74ddb95ea",
-14,
-256,
+13,
+266,
 1
 ],
 [
 "c54af3ce17ed",
 0,
-315,
+326,
 1
 ],
 [
 "8dd43fc49169",
 0,
-338,
+348,
 1
 ],
 [
 "64021136245d",
 0,
-308,
+318,
 1
+],
+[
+"31c83bccd935",
+21,
+356,
+2
 ],
 [
 "d779a0d683f7",
-14,
-260,
+13,
+270,
 1
 ],
 [
-"3d35d2ffdd06",
-24,
-167,
-1
-],
-[
-"fc91fc36df73",
-33,
-176,
+"0a962ef284d2",
+0,
+308,
 1
 ]
 ],
-"top_at": 1793228327.1766195
+"top_at": 1793228939.3222508
 }
