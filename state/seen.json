@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1793070708.00389,
 1793077120.6447532,
 1793079259.6243513,
 1793093859.0878484,
@@ -15,7 +14,8 @@
 1793119236.5912244,
 1793126469.048789,
 1793126773.571594,
-1793133224.164461
+1793133224.164461,
+1793162493.299481
 ],
 "menu": {
 "0080c1bb18be": {
@@ -167,7 +167,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793151633.0,
 "tgtext": "South Korea\u2019s Second-Largest Crypto Exchange Bithumb Confirms Security Breach\n\nAccording to Yonhap News Agency, South Korea\u2019s second-largest cryptocurrency exchange, Bithumb, confirmed that an unauthorized external party accessed its internal mobile groupware system, resulting in a personal data leak. The exchange discovered the incident on October 27 and is investigating whether customer information was compromised.\n\nTwo other South Korean financial institutions, Mirae Asset Global Investments and Daishin Securities, were also confirmed to have suffered cyber intrusions. Daishin Securities disclosed that the personal and credit information of 38,490 customers had been leaked. South Korea\u2019s Financial Supervisory Service (FSS) is investigating the incidents. \u2014 link\n\ud83c\uddf0\ud83c\uddf7 NOW: South Korea\u2019s Bithumb, Daishin Securities and Mirae Asset Global Investments have all reported customer data breaches, with Bithumb\u2019s linked to an external cyberattack, per Yonhap.\n\nNews | Markets | YouTube",
 "title": "NOW: South Korea\u2019s Bithumb, Daishin Securities and Mirae Asset Global Investments have all reported customer data breaches, with Bithumb\u2019s linked to an external cyberattack, per Yonhap.",
@@ -360,7 +360,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793161880.8162963,
+"t": 1793162188.780122,
 "t0": 1793160920.0,
 "tgtext": "",
 "title": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
@@ -703,12 +703,28 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793154114.0,
 "tgtext": "Highlight Clip: A 19th Birthday Party That Brought Together the Founders of Three Star Tech Companies\n\nA 19th Birthday Party That Brought Together the Founders of Three Star Tech Companies\n\nOn October 11, Meta Chief AI Officer Alexandr Wang recalled that more than a dozen guests at his 19th birthday party were mostly from Harvard University and the Massachusetts Institute of Technology. Years later, Jeff Yan founded Hyperliquid, Scott Wu founded Cognition, and Jesse Zhang founded Decagon. Looking back, these young people, who once competed together, have demonstrated remarkable creativity. Wang also discussed a core principle of innovation investing: giving exceptional talent enough time, space, and resources can lead to breakthroughs that deliver returns far beyond expectations. \u2014 link",
 "title": "Highlight Clip: A 19th Birthday Party That Brought Together the Founders of Three Star Tech Companies",
 "url": "https://t.me/wublockchainenglish/26578",
 "urls": []
+},
+"38e5a6180934": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"CoinDesk",
+"Wu Blockchain"
+],
+"t": 1793162493.299481,
+"t0": 1793157074.0,
+"tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
+"title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
+"url": "https://t.me/wublockchainenglish/26580",
+"urls": [
+"https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info"
+]
 },
 "3969ba547cb5": {
 "coin": "pepe",
@@ -898,7 +914,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793152600.0,
 "tgtext": "A #EthereumOG linked to the #EthereumFoundation sold 7,594 $ETH ($17.79M) after a year of inactivity.\n\nThis OG bought 200K $ETH(cost $61K) during the ICO at $0.31 and also received 42,654 $ETH from the #EthereumFoundation when $ETH was trading at $13.82.\n\nhttps://arkm.com/explorer/address/0xa0e239b0ABf4582366AdaFF486EE268C848c4409\nhttps://arkm.com/explorer/address/0xcA92BC1ff0c0681a1dac4BaaF79CD489Baf9710a",
 "title": "A EthereumOG linked to the EthereumFoundation sold 7,594 ETH ($17.79M) after a year of inactivity.",
@@ -1190,7 +1206,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793152267.0,
 "tgtext": "Highlight Clip: CZ: Today Is the Best Day in History to Start a Business\n\nCZ: Today Is the Best Day in History to Start a Business\n\nOn October 24, 2026, Binance founder CZ said in an interview with PIVOT that today is a better time to start a business than any previous day in history, with clear opportunities in AI, blockchain and the internet. He encouraged young people to learn new technologies, identify something others need that they enjoy and can build, and get started. He advised against the traditional path of lifetime employment at one company, encouraging more people to consider entrepreneurship while acknowledging its uncertainty and pain, alongside the potential for positive impact and financial rewards. \u2014 link",
 "title": "Highlight Clip: CZ: Today Is the Best Day in History to Start a Business",
@@ -1219,7 +1235,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793161880.8162963,
+"t": 1793162188.780122,
 "t0": 1793153528.0,
 "tgtext": "\ud83d\udea8 ALERT: Solflare\u2019s validator has stopped producing SOL staking rewards after a security incident at its staking provider affected the validator keys, though the wallet says user funds are safe.\n\nNews | Markets | YouTube",
 "title": "Solflare\u2019s validator has stopped producing SOL staking rewards after a security incident at its staking provider affected the validator keys, though the wallet says user funds are safe.",
@@ -1287,7 +1303,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793147779.0,
 "tgtext": "",
 "title": "Liquid Network to cover 600 BTC shortfall from September hack within days, restoring full Bitcoin backing.",
@@ -1314,7 +1330,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793158508.0,
 "tgtext": "Whale 0xdeA6 bought another 4,000 $ETH ($9.4M) 9 hours ago and deposited it into Aave.\n\nHe then borrowed 6M $USDT from Aave and deposited it into #Binance to buy more $ETH.\n\nThe whale now has 22,504 $ETH ($53.17M) deposited in Aave and has borrowed a total of $31M in stablecoins.\n\nhttps://arkm.com/explorer/address/0xdeA611a2f605FE63962E0151e724E9ce4C8a1d5c\nhttps://debank.com/profile/0xdea611a2f605fe63962e0151e724e9ce4c8a1d5c",
 "title": "Whale 0xdeA6 bought another 4,000 ETH ($9.4M) 9 hours ago and deposited it into Aave.",
@@ -1622,7 +1638,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793155302.0,
 "tgtext": "Machi (@machibigbrother) has sold over 60 NFTs in the past 6 months to fund high-leverage perp trades, taking a loss of over 1,000 $ETH ($2.35M).\n\nhttps://opensea.io/MachiBigBrother/activity?activityTypes=sale",
 "title": "Machi (@machibigbrother) has sold over 60 NFTs in the past 6 months to fund high-leverage perp trades, taking a loss of over 1,000 ETH ($2.35M).",
@@ -1798,7 +1814,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1793161880.8162963,
+"t": 1793162493.299481,
 "t0": 1793147820.0,
 "tgtext": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay\n\nCasa co-founder Jameson Lopp highlighted that Bitcoin treasury company Datavault (DVLT) saw its stock price crash, tumbling 49.55% over a 24-hour period. The plunge follows the company\u2019s notice to investors disclosing that its entire treasury reserves are held on crypto exchange Biconomy, but despite submitting transfer and withdrawal requests for four months, it has been unable to withdraw any BTC from the platform. \u2014 link",
 "title": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay",
@@ -2002,6 +2018,22 @@
 "tgtext": "\ud83c\uddf5\ud83c\udded TODAY: The Philippine peso has fallen to an all-time low against the US dollar.\n\nNews | Markets | YouTube",
 "title": "TODAY: The Philippine peso has fallen to an all-time low against the US dollar.",
 "url": "https://t.me/cointelegraph/72881",
+"urls": []
+},
+"9d2819d5ce53": {
+"coin": "",
+"src": "The Weekly Times",
+"srcs": [
+"Adelaide Now",
+"FOX 5 DC",
+"News.com.au",
+"The Weekly Times"
+],
+"t": 1793162493.299481,
+"t0": 1793147235.0,
+"tgtext": "",
+"title": "Six Charged in Crypto Scam That Used Fake Women\u2019s Profiles to Lure Americans",
+"url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdjBrMjY0aHZnSGxPTzZuZUluLS1rNndmY2dEdEdkWGRFOFlfQ1dUcFZybV85VjkwamRadzJQNlcwcnJ5RV8wTlRCRFhMbDVVX1pjeVhGOWRLakZVMl9YZHptaDBMYncxUWtDaGdDOTB1X096NFdRaXdYR3JnTmpqNEVIWm94TjhDVFFVYm9KWVIxeElkekY1dUFNLXhIOTNWWmkxUWZvSXVGN2JsbzNCd0lhTWl0VXBXWkZOYXlIREktcDlEYTJRdE9PQ2VhdVl6M1ByaWJiek9nLTF5cDROVU9md2FMdG1jQ2N3T2VrdGQ?oc=5",
 "urls": []
 },
 "9e9d9e318209": {
@@ -2715,7 +2747,7 @@
 "srcs": [
 "www.tokenpost.com"
 ],
-"t": 1793160655.9469864,
+"t": 1793162188.780122,
 "t0": 1793146020.0,
 "tgtext": "",
 "title": "Crypto Positions See $149 Million in 24-Hour Liquidations as Shorts Lead",
@@ -3497,7 +3529,7 @@
 "27553cd5fb6f": 0.026,
 "3443e092e180": 0.063,
 "37441bed00df": 0.384,
-"38e5a6180934": 0.09,
+"38e5a6180934": 0.982,
 "39d14ec6fa51": 0.037,
 "43c559d5cbac": 0.151,
 "44cf1233d4f3": 0.379,
@@ -3517,40 +3549,22 @@
 "7e95a5719272": 0.043,
 "8af9794d15ea": 0.088,
 "8cb0ddd48768": 0.417,
-"9d2819d5ce53": 0.223,
+"9d2819d5ce53": 0.279,
 "9e762d90fdb2": 0.011,
 "a1c76576356f": 0.116,
 "a2516075a260": 0.131,
-"b2230650fb48": 0.016,
-"bbf93c51fe01": 0.036,
+"b2230650fb48": 0.009,
+"bbf93c51fe01": 0.045,
 "bfff2cf7aec0": 0.006,
 "c691427b2fb7": 0.062,
 "ca50822dbd9c": 0.13,
-"cabef3e7c80e": 0.225,
+"cabef3e7c80e": 0.134,
 "cef3796ed027": 0.043,
 "e093e2fd2a0e": 0.075,
 "f4e36712fea8": 0.023,
 "fc4556d8fe69": 0.026
 },
 "sent": [
-{
-"e": [
-"ethereumfoundation"
-],
-"k": [
-"crash"
-],
-"t": 1792985684.3985317,
-"u": [
-"https://t.me/lookonchainchannel/10779"
-],
-"w": [
-"again",
-"dumping",
-"eth",
-"ethereumfoundation"
-]
-},
 {
 "e": [
 "around",
@@ -4721,71 +4735,113 @@
 "strengthens",
 "treasury"
 ]
+},
+{
+"e": [
+"amplitude",
+"analytics",
+"coinbase",
+"contact",
+"incident",
+"info",
+"leaking",
+"party",
+"security",
+"small",
+"subset",
+"suffers",
+"third",
+"users",
+"vendor"
+],
+"k": [],
+"t": 1793162493.299481,
+"u": [
+"https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+"https://t.me/wublockchainenglish/26580"
+],
+"w": [
+"amplitude",
+"analytics",
+"coinbase",
+"contact",
+"incident",
+"info",
+"leaking",
+"party",
+"security",
+"small",
+"subset",
+"suffers",
+"third",
+"users",
+"vendor"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"38e5a6180934",
+28,
+90,
+2
+],
+[
 "6083f1d6a333",
 24,
-56,
+66,
 1
 ],
 [
 "7daa7373612a",
 16,
-110,
+120,
 1
 ],
 [
 "0b1662fb4f6d",
 45,
-171,
+181,
 2
 ],
 [
 "8cb0ddd48768",
-23,
-234,
+22,
+245,
 2
 ],
 [
 "37441bed00df",
 10,
-129,
+140,
 1
 ],
 [
 "44cf1233d4f3",
 16,
-155,
+165,
 1
 ],
 [
 "56076a1f6d3c",
 18,
-160,
+170,
 1
 ],
 [
 "6030907bb911",
-28,
-235,
+27,
+245,
 1
 ],
 [
-"59396bff59b3",
-10,
-139,
-1
-],
-[
-"1b1f413d4c2c",
-24,
-16,
-1
+"9d2819d5ce53",
+49,
+254,
+4
 ]
 ],
-"top_at": 1793161880.8162963
+"top_at": 1793162493.299481
 }
