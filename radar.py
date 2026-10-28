@@ -797,7 +797,7 @@ def coin_card(coin, title, span='1d', tag='BREAKING', col=None, note=None, event
         return None
     try:
         img, mv = card.chart_card(title, coin, rows, lab, tag, src, int(event_ts * 1000) if event_ts else None, focus=focus)
-        if strict and abs(mv) < 0.02:
+        if strict and abs(mv) < 0.10:
             print('chart skipped: move too small', round(mv * 100, 2))
             return None
         tl = title.lower()                                    # never show a chart that contradicts the headline
@@ -1495,7 +1495,26 @@ def scheduler(tgs):
 
 
 # ---------------- any coin: chart + a ready sentence ----------------
-WIN = {'1h': (3600, '8h', '1 hour'), '24h': (86400, '1d', '24 hours'), '7d': (7 * 86400, '7d', '7 days')}
+WIN = {'1h': (3600, '8h', '1 hour'), '24h': (86400, '1d', '24 hours'), '7d': (7 * 86400, '7d', '7 days'),
+       '30d': (30 * 86400, '30d', '30 days'), '60d': (60 * 86400, '1y', '60 days')}
+GATE_SPAN = {'24h': '1d', '7d': '7d', '30d': '30d', '60d': '1y'}
+
+
+def chart_gate(coin):
+    """Is there a move worth a chart? 10% in 24h or 7d, or +100% (or -50%) in 30 or 60 days. Returns chart2.worth_it() result, or None.
+    The second element is a plain-text summary of the real moves, for the 'not worth a chart' message."""
+    import chart2
+    by, moves = {}, []
+    for key, span in GATE_SPAN.items():
+        try:
+            rows, _, _ = candles(coin, span)
+        except Exception as e:
+            print('gate candles fail', key, repr(e)[:80]); rows = []
+        by[key] = rows
+        mv = chart2.move(rows, WIN[key][0])[0]
+        if mv is not None:
+            moves.append(f'{mv * 100:+.1f}% in {WIN[key][2]}')
+    return chart2.worth_it(by), ' · '.join(moves)
 
 
 def resolve_coin(q):
@@ -1533,7 +1552,10 @@ def coin_window(coin):
     r8, _, _ = candles(coin, '8h'); r24, _, _ = candles(coin, '1d')
     m1 = recent_move(r8, 3600)[0] if r8 else 0
     m24 = recent_move(r24, 86400)[0] if r24 else 0
-    return '1h' if abs(m1) >= 0.04 and abs(m1) >= 0.5 * abs(m24) else '24h'
+    if abs(m1) >= 0.10 and abs(m1) >= 0.5 * abs(m24):
+        return '1h'
+    g, _ = chart_gate(coin)
+    return g['key'] if g else '24h'
 
 
 def coin_render(coin, win):
@@ -1574,7 +1596,7 @@ def coin_sentence(coin, title, m, heads, other=False):
 
 
 def coin_buttons(k, win):
-    b = [(('• ' if w == win else '') + w.upper(), f'cw:{k}:{w}') for w in ('1h', '24h', '7d')]
+    b = [(('• ' if w == win else '') + w.upper(), f'cw:{k}:{w}') for w in ('1h', '24h', '7d', '30d')]
     return b + [('🔄 Another sentence', f'cs:{k}'), ('📝 Full post', f'cp:{k}')]
 
 
@@ -1591,6 +1613,11 @@ def coin_view(q, tgs, msg_id=None):
     coin = coin_by_id(q[3:]) if q.startswith('id:') else resolve_coin(q)
     if not coin:
         unack(); tg(f'Couldn\'t find a coin called <b>{E(q)}</b> on CoinGecko or Binance. Try its ticker, like <code>$PEPE</code>.'); return
+    g, summary = chart_gate(coin)
+    if not g and not re.search(r'\b(1h|24h)\b', q):
+        unack(); tg(f'📉 <b>{E(coin["name"])} ({coin["sym"]})</b> is {fmt_p(coin["price"])} now.\n{summary or "No candle data right now."}\n\n'
+                    'That is not a move people will react to, so I did not make a chart.', None,
+                    [('📈 Show 24h chart anyway', f'c:{coin["id"]}:1d')] if coin.get('id') else None); return
     win = coin_window(coin)
     img, title, m = coin_render(coin, win)
     if not img:

@@ -200,103 +200,17 @@ def event_move(rows, event_ms):
 
 
 def chart_card(title, coin, rows, tf_label, tag='BREAKING', source='CoinGecko', event_ms=None, focus=None):
-    """Real candles. If event_ms is given: gold 'NEWS BREAKS' line, pre-news candles dimmed, bracket = move since the news.
-    Otherwise the bracket shows the biggest real swing in the window."""
-    first, last = rows[0][1], rows[-1][4]; ch = (last / first - 1) * 100; up = ch >= 0
+    """Real candles, drawn by chart2 (hero number, one clean chart, start/end/key moment marked).
+    event_ms: the news moment (hero = the move after it). focus: only the last `focus` seconds are shown."""
+    import chart2
     ev = event_move(rows, event_ms) if event_ms else None
-    if focus and not ev:
-        t_end = rows[-1][0]
-        rows = rows[next((k for k, r in enumerate(rows) if r[0] >= t_end - max(focus * 4, 4 * 3600) * 1000 + 1), 0):] if focus <= 3600 else rows
-    fo = None
-    if focus and not ev:                                            # the move the headline is about: last `focus` seconds
-        t_end = rows[-1][0]
-        j = next((k for k, r in enumerate(rows) if r[0] >= t_end - focus * 1000 + 1), 0)
-        fo = (j, len(rows) - 1, rows[-1][4] / rows[j][1] - 1, rows[j][1], rows[-1][4])
-    i0, i1, mv, p0, p1 = ev or fo or biggest_swing(rows)
-    acc = GRN if mv >= 0 else RED
-    im = canvas(acc); d = header(im, tag)
-    y = headline(d, title, 140, sizes=(64, 58, 52, 46, 42)) + 6
-    nm = f'{coin["name"]} ({coin["sym"]})'
-    if d.textlength(nm, font=F(BOLD, 32)) > 420:                    # long names: ticker only, never run off the card
-        nm = coin['sym']
-    d.text((56, y), nm, font=F(BOLD, 32), fill=WHITE)
-    px = 56 + d.textlength(nm + '  ', font=F(BOLD, 32))
-    d.text((px, y), fmt(last), font=F(BOLD, 32), fill=WHITE); px += d.textlength(fmt(last) + '  ', font=F(BOLD, 32))
-    if ev:                                                          # header chip = move since the news (matches the tile)
-        ch = (last / p0 - 1) * 100; up = ch >= 0
-        tf_label = 'since the news · ' + tf_label.split(' candles')[0] + ' candles'
-    if fo:                                                          # header chip = the same move the headline states
-        ch, up = mv * 100, mv >= 0
-        tf_label = 'in ' + dur(focus).replace('60 min', '1h') + ' · ' + tf_label.split(' · ')[-1]
-    chip = f'{"▲" if up else "▼"} {abs(ch):.1f}%'; c2 = GRN if up else RED; cw = d.textlength(chip, font=F(BLACK, 24)) + 28
-    d.rounded_rectangle([px, y + 1, px + cw, y + 40], radius=12, fill=tuple(int(v * 0.22) for v in c2), outline=c2, width=2)
-    d.text((px + cw / 2, y + 21), chip, font=F(BLACK, 24), fill=c2, anchor='mm')
-    if px + cw + 14 + d.textlength(tf_label, font=F(MED, 19)) <= W - 56:
-        d.text((px + cw + 14, y + 21), tf_label, font=F(MED, 19), fill=MUT, anchor='lm')
-    top = max(y + 66, 450); bot = 1140
-    d.rounded_rectangle([36, top, W - 36, bot], radius=28, fill=PANEL, outline=LINE, width=2)
-    cx0, cx1 = 66, W - 160; has_v = any(r[5] for r in rows)
-    cy0, cy1 = top + 70, bot - (120 if has_v else 60)
-    hi = max(r[2] for r in rows); lo = min(r[3] for r in rows); pad = (hi - lo) * 0.08 or hi * 0.01; hi += pad; lo -= pad
-    Y = lambda p: cy1 - (p - lo) / (hi - lo) * (cy1 - cy0)
-    n = len(rows); step = (cx1 - cx0) / n; bw = max(4, step * 0.66); X = lambda i: cx0 + step * (i + 0.5)
-    for i in range(5):
-        p = lo + (hi - lo) * i / 4; yy = Y(p)
-        d.line([cx0, yy, cx1, yy], fill=(26, 31, 43), width=1)
-        if abs(yy - Y(last)) > 24:                                  # don't print under the live price tag
-            d.text((cx1 + 16, yy), fmt(p), font=F(MED, 17), fill=DIM, anchor='lm')
-    k = max(1, n // 5)
-    for i in range(0, n, k):                                        # faint vertical grid at the time labels
-        d.line([X(i), cy0 - 10, X(i), cy1 + 6], fill=(24, 29, 40), width=1)
-    vmax = max((r[5] or 0) for r in rows) or 1
-    for i, (t, o, h, l, c, v) in enumerate(rows):                   # candles + volume, nothing on top of them
-        col = GRN if c >= o else RED
-        x = X(i)
-        d.line([x, Y(h), x, Y(l)], fill=col, width=2)
-        y0, y1 = sorted((Y(o), Y(c))); d.rectangle([x - bw / 2, y0, x + bw / 2, max(y1, y0 + 2)], fill=col)
-        if has_v and v:
-            vh = v / vmax * 60; d.rectangle([x - bw / 2, bot - 34 - vh, x + bw / 2, bot - 34], fill=tuple(int(cc * 0.30) for cc in col))
-    if ev:                                                          # news moment: one thin line + small label, like a terminal marker
-        xe = X(i0)
-        for yy in range(int(cy0 - 20), int(cy1 + 6), 10):
-            d.line([xe, yy, xe, yy + 5], fill=GOLD, width=2)
-        lab = 'NEWS · ' + datetime.fromtimestamp(rows[i0][0] / 1000, timezone.utc).strftime('%H:%M UTC')
-        lw = d.textlength(lab, font=F(BOLD, 15)) + 16
-        lx = min(max(xe - lw / 2, cx0), cx1 - lw)
-        d.rounded_rectangle([lx, cy0 - 48, lx + lw, cy0 - 24], radius=6, fill=GOLD)
-        d.text((lx + lw / 2, cy0 - 36), lab, font=F(BOLD, 15), fill=(18, 14, 6), anchor='mm')
-    ih = max(range(n), key=lambda i: rows[i][2]); il = min(range(n), key=lambda i: rows[i][3])
-    for i, pr, below in ((ih, rows[ih][2], False), (il, rows[il][3], True)):   # small high / low marks
-        if i >= n - 2 or abs(Y(pr) - Y(last)) < 30:                 # the live price tag already shows it
-            continue
-        tx = min(max(X(i), cx0 + 30), cx1 - 30); ty = Y(pr) + (14 if below else -14)
-        if ev and abs(tx - X(i0)) < 45:                             # keep clear of the news line
-            tx = X(i0) + (48 if i >= i0 else -48)
-        d.text((tx, ty), fmt(pr), font=F(SEMI, 15), fill=MUT, anchor='mt' if below else 'mb')
-    fdur = dur(focus).replace('60 min', '1h').replace('24h', '24 hours') if fo else ''
-    pc = GRN if up else RED                              # live price: thin dotted line + colored tag
-    ly = Y(last)
-    for xx in range(int(cx0), int(cx1), 8):
-        d.line([xx, ly, xx + 3, ly], fill=tuple(int(cc * 0.7) for cc in pc), width=1)
-    d.rounded_rectangle([cx1 + 6, ly - 16, W - 42, ly + 16], radius=6, fill=pc)
-    d.text(((cx1 + 6 + W - 42) / 2, ly), fmt(last), font=F(BLACK, 16), fill=(8, 10, 12), anchor='mm')
-    multi = (rows[-1][0] - rows[0][0]) >= 2 * 86400000
-    for i in range(0, n, k):
-        dt = datetime.fromtimestamp(rows[i][0] / 1000, timezone.utc)
-        d.text((X(i), bot - 16), dt.strftime('%b %d' if multi else '%H:%M'), font=F(MED, 15), fill=DIM, anchor='mm')
-    hh = max(r[2] for r in rows); ll = min(r[3] for r in rows)
-    tiles = ([('BEFORE NEWS', fmt(p0), WHITE), ('NOW', fmt(last), WHITE), ('SINCE NEWS', f'{(last / p0 - 1) * 100:+.1f}%', GRN if last >= p0 else RED)]
-             if ev else [(f'{fdur.upper()} AGO', fmt(p0), WHITE), ('NOW', fmt(last), WHITE), (f'CHANGE · {fdur.upper()}', f'{mv * 100:+.1f}%', GRN if mv >= 0 else RED)]
-             if fo else [('HIGH', fmt(hh), WHITE), ('LOW', fmt(ll), WHITE), ('CHANGE', f'{ch:+.1f}%', GRN if up else RED)])
-    tw = (W - 72 - 40) / 3; span = tf_label.split(' · ')[0].upper()
-    for i, (a, b, col) in enumerate(tiles):
-        x0 = 36 + i * (tw + 20)
-        d.rounded_rectangle([x0, 1158, x0 + tw, 1246], radius=20, fill=PANEL, outline=LINE, width=2)
-        d.text((x0 + 22, 1174), a if ev or fo else f'{a} · {span}', font=F(SEMI, 15), fill=DIM)
-        d.text((x0 + 22, 1198), b, font=F(BLACK, 33), fill=col)
-    d.text((56, 1302), 'Every chart hides a story', font=F(MED, 20), fill=MUT, anchor='lm')
-    d.text((W - 56, 1302), f'Data: {source} · real candles', font=F(MED, 17), fill=DIM, anchor='rm')
-    return png(im), mv
+    hero = None
+    if ev:
+        hero = (ev[2], 'after the news')
+    elif focus:
+        rows = [r for r in rows if r[0] >= rows[-1][0] - focus * 1000 + 1] or rows
+    label = chart2.span_label((rows[-1][0] - rows[0][0]) / 1000)
+    return chart2.render(coin['name'], coin['sym'], rows, label, source, tag, event_ms if ev else None, headline=(title if (ev or not focus) else None), hero=hero)
 
 
 def centered(make_bg, tag, body, top=150, bottom=1240):
