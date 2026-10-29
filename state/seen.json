@@ -61,6 +61,19 @@
 "url": "https://t.me/lookonchainchannel/10828",
 "urls": []
 },
+"05aac41d6a5a": {
+"coin": "hyperliquid",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793277883.889027,
+"t0": 1793277404.0,
+"tgtext": "Over the past few hours, 5 whales have all opened long positions on $HYPE, totaling 597,912 $HYPE ($52.7M).\n\nhttps://hypurrscan.io/address/0x9e2cbb5d800181c1ef21b25010dc4ea80eeb5508#perps\nhttps://hypurrscan.io/address/0xc8b527864ef2ad6dc49de7e99943a3a76ad48891#perps\nhttps://hypurrscan.io/address/0x2c6f7831be3fe15cc7025672f27623a921553725#perps\nhttps://hypurrscan.io/address/0xf54ac7966dad594dc4952b3eccc8f77cd77fde92#perps\nhttps://hypurrscan.io/address/0x90dbb196cacf24bd212b377a0dd62eaad5e8151b#perps",
+"title": "Over the past few hours, 5 whales have all opened long positions on HYPE, totaling 597,912 HYPE ($52.7M).",
+"url": "https://t.me/lookonchainchannel/10829",
+"urls": []
+},
 "06c234f7b8d5": {
 "coin": "bitcoin",
 "src": "FXStreet",
@@ -511,9 +524,10 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"Coinfomania",
 "Wu Blockchain"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793274765.0,
 "tgtext": "Indonesia's Largest Crypto Exchange Indodax Suspends Deposits and Withdrawals Amid Increased Cyberattack Attempts\n\nWilliam Sutanto, co-founder and CEO of Indonesia's largest cryptocurrency exchange Indodax, said the platform has temporarily suspended deposits and withdrawals as a precaution after detecting an increase in cyberattack attempts. The team is conducting security assessments and mitigation measures, with services to resume once safety is confirmed. Sutanto emphasized that customer assets remain secure and that no unauthorized withdrawals or data breaches have been detected. \u2014 link",
 "title": "Indonesia's Largest Crypto Exchange Indodax Suspends Deposits and Withdrawals Amid Increased Cyberattack Attempts",
@@ -1294,13 +1308,26 @@
 "url": "https://t.me/WatcherGuru/15659",
 "urls": []
 },
+"60d840939b76": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793277883.889027,
+"t0": 1793277360.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Q3 GDP grows 3.4% annualized vs. 3.2% expected.\n\nNews | Markets | YouTube",
+"title": "US Q3 GDP grows 3.4% annualized vs. 3.2% expected.",
+"url": "https://t.me/cointelegraph/72931",
+"urls": []
+},
 "6194302ba7ed": {
 "coin": "hyperliquid",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793267944.0,
 "tgtext": "A mysterious whale dumped 694,310 $HYPE ($53.27M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/8058920b-dbf1-4c5e-8a8d-025539e794b1",
 "title": "A mysterious whale dumped 694,310 HYPE ($53.27M) over the past 5 days!",
@@ -1435,7 +1462,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793272121.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's central bank officially registers its first regulatory organization for crypto exchanges.\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa Russia's central bank officially registers its first regulatory organization for crypto exchanges.",
@@ -2188,16 +2215,21 @@
 },
 "a5d25acd68c9": {
 "coin": "bitcoin",
-"src": "Hokanews",
+"src": "FXStreet",
 "srcs": [
+"CoinDesk",
+"FXStreet",
 "Hokanews"
 ],
-"t": 1793267764.8269303,
+"t": 1793277883.889027,
 "t0": 1793258400.0,
 "tgtext": "",
-"title": "Bitcoin Falls Below $80,000 as Samsung Earnings Miss and Fed Signals Pressure Crypto",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RUkZQcmxmWUFmaHZpY2dMMEhCajVnVjZzV0syVjBlT2hnWEVqTVFDalFLM2YwcnpMak1TclJYOTdWMXZGUGhhT0twdTNIVkhYQWwyQVNGSnc3SmVCaTNBbTd5aGNrMkdKYWdVUFlUVW5XLWxDS1B2MFZUTHJFczQ?oc=5",
-"urls": []
+"title": "Bitcoin Price Forecast: BTC slides below $80,000 as Fed holds rates steady with a hawkish tone",
+"url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUzVCYUJPMmk2ekRjTjJOanZ5UWYwdUJHaHFHQzdIM2JzeEFGOGRTYVBsWVV2MDhjQXdibWhLNmxrVEVjMy04XzdvdEV0Z0hYby1mRkNhQjlmd0wtUWJUbG5OU1drUXluWF9BOVBFRll4YlRBR21BWHVIci1YWGJkS21TRV9vQzJzaW04YUdPbHJnNlBMdWJZUFN0eE9vRmlwNG80Y2d3S0xPelYwRkE0bGw0X1d3UE8zdnBMZ1RZekRDVU95LWtFUkhDSjQwMlcySVdyQ3VzdnFXa050R0VDNGNHM2hiZlU?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+"https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings"
+]
 },
 "a76a81b7816a": {
 "coin": "",
@@ -2205,7 +2237,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793257450.0,
 "tgtext": "Highlight Clip: CZ: The Real Demand for Tokenized US Stocks Comes from Outside the US\n\nCZ: The Real Demand for Tokenized US Stocks Comes from Outside the US\n\nOn October 27, 2026, Binance founder CZ said in an interview with The Rollup founder Andy that demand for tokenized U.S. stocks primarily comes from people outside the United States who struggle to open U.S. brokerage accounts. He noted that in some countries with populations exceeding 100 million, the entire stock market\u2019s daily trading volume is just $50 million, comparable to the volume handled by a single trader in New York. He believes companies in these markets could tokenize their shares to reach global investors and enable round-the-clock trading. Tokenization could also extend to assets that lack established trading venues, such as water, rare earth minerals and certain precious metals, providing them with trading access and liquidity. \u2014 link",
 "title": "Highlight Clip: CZ: The Real Demand for Tokenized US Stocks Comes from Outside the US",
@@ -2649,7 +2681,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793268640.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank President Christine Lagarde to step down on February 7th.\n\n@WatcherGuru\n\ud83c\uddea\ud83c\uddfa JUST IN: Christine Lagarde to step down as ECB president on February 7, 2027.\n\nNews | Markets | YouTube\nRussian Central Bank: Restrictions on Non-Custodial Wallets Do Not Apply to Cross-Border Settlements\n\nAccording to TASS, Vladimir Chistyukhin, First Deputy Governor of the Bank of Russia, stated that proposed restrictions on non-custodial crypto wallets under the draft legislation regulating cryptocurrency circulation will not apply to international settlements, where the use of non-custodial wallets will remain permitted. Chistyukhin noted that while allowing domestic Russian investors to utilize non-custodial wallets was initially considered during the drafting process, authorities ultimately decided against permitting direct investments via non-custodial wallets due to investor protection concerns, AML requirements, and oversight constraints. However, the forthcoming restrictions do not prevent users from transferring cryptocurrencies from domestic custodial wallets to foreign custodial wallets, and subsequently moving them into non-custodial wallets. \u2014 link",
 "title": "Russian Central Bank: Restrictions on Non-Custodial Wallets Do Not Apply to Cross-Border Settlements",
@@ -3050,7 +3082,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793270674.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 NYSE owner to bring Hyperliquid $HYPE perpetual futures to regulated US markets.\n\n@WatcherGuru\nNYSE Parent ICE Plans to Partner With Trade xyz to Launch Perpetual Futures Market in the US\n\nAccording to Bloomberg, Intercontinental Exchange (ICE), parent company of the New York Stock Exchange, is partnering with Trade xyz to launch regulated perpetual futures contracts in the United States. The planned venue is slated to run on Hyperliquid's infrastructure with dedicated clearing, KYC, and AML compliance frameworks, featuring products pegged to equities, indexes, commodities, and FX pending regulatory approval. As part of the collaboration, ICE will take an equity stake in Trade xyz under undisclosed terms. Trade xyz has previously rolled out perpetual contracts tied to traditional assets like crude oil and equity benchmarks on Hyperliquid. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 JUST IN: NYSE parent ICE takes a stake in Trade.xyz and plans a US-regulated perpetual futures market built on Hyperliquid. \n\nNews | Markets | YouTube",
 "title": "NYSE parent ICE takes a stake in Trade.xyz and plans a US-regulated perpetual futures market built on Hyperliquid.",
@@ -3142,19 +3174,6 @@
 "tgtext": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain\n\nOnchain trading platform Genius has launched its mobile app on Apple's App Store and Google Play. Built on BNB Chain, it combines token trading, social features, and token creation. Users can trade cryptocurrencies, follow other traders, explore market activity, and share insights from their phones. Integrated Genius fun lets users create tokens, select trading pairs, and launch new tokens. Genius fun launched on BNB Chain in September, and the new app brings these existing features to mobile. \u2014 link",
 "title": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain",
 "url": "https://t.me/wublockchainenglish/26570",
-"urls": []
-},
-"e765ed50bbf0": {
-"coin": "bitcoin",
-"src": "Cryptonews",
-"srcs": [
-"Cryptonews"
-],
-"t": 1793104540.3341744,
-"t0": 1793087666.0,
-"tgtext": "",
-"title": "Bitcoin Price Is Heading for Another Red October, but Galaxy Says the Worst Is Over",
-"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWVRdVFjT1VEYzl3NC03S0ZZUUtDZUhWMVRONi1zMFZGTGV3bmh0NzVwaXNhbU42bWZzZzlBSXZMVENJQUtyMGJOX1FvVjhlR2RoWnptMVoxbDctaC1Yd2xyWng5QXZkV3VTOXN5UVlJY3I5YlZ4MnpDc2VpU2xpNDM0QXl6QmJ5eFRNZU5xZzFxeE1SeUVrcW1oN0NIbE9IVkZhZnotNFRPTGlGSWg5ZA?oc=5",
 "urls": []
 },
 "e77fb5395843": {
@@ -3474,7 +3493,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793277271.165983,
+"t": 1793277883.889027,
 "t0": 1793265329.0,
 "tgtext": "Smart trader 0xe813, with a 100% win rate, opened a 25x long on 19,491 $ETH ($45.34M) an hour ago and is now sitting on $315K in unrealized profit.\n\nThis trader has completed 5 trades, winning all of them and making a total profit of $4.6M.\n\nhttps://hyperbot.network/trader/0xe81309ec9b79309e4d108ae3a92d1aa618cd6d74",
 "title": "Smart trader 0xe813, with a 100% win rate, opened a 25x long on 19,491 ETH ($45.34M) an hour ago and is now sitting on $315K in unrealized profit.",
@@ -3614,45 +3633,45 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"01f9b0041e3d": 0.138,
+"05aac41d6a5a": 0.89,
 "06c760ec4ebb": 0.072,
 "09cb1ed6c288": 0.53,
+"0b24d3599b94": 0.355,
 "0f157afb1570": 0.139,
-"0f73d551f479": 0.192,
-"1d58ca2f4797": 0.431,
-"1f464bd3176a": 0.184,
+"0f73d551f479": 0.107,
+"1b8a09e58c81": 0.134,
+"1c163a44a00b": 0.108,
+"1cebfe09a900": 0.609,
 "221844390a3a": 0.047,
-"26cc58311312": 0.591,
+"22ba7caedb6b": 0.256,
+"26cc58311312": 0.806,
 "2877d25bbd8c": 0.374,
-"38220fdfab0c": 0.036,
+"2e0134ceff41": 0.184,
 "3c43c2738590": 0.173,
-"413e52dd424b": 0.421,
-"432f1f7bbbe7": 0.555,
-"4ac258e87bcd": 0.076,
-"5a33333fd169": 0.194,
+"413e52dd424b": 0.345,
+"50e98804a9db": 0.053,
 "6194302ba7ed": 0.988,
 "66d4f0d5e975": 0.556,
+"69c3b93a7cb1": 0.046,
 "6eafb005f062": 0.221,
-"7310392c6446": 0.05,
+"7310392c6446": 0.027,
 "7d65452d2673": 0.224,
 "8250b5e69441": 0.09,
-"8b0632de041a": 0.438,
 "917e5c94ef35": 0.096,
-"922f5ac36198": 0.034,
 "9ae43dc76c8b": 0.156,
+"9c938fad085f": 0.061,
 "a27a5de101e7": 0.274,
-"a5d25acd68c9": 0.481,
-"aa0ae30cd365": 0.055,
-"c0cc5127936d": 0.45,
-"c7261f2edb49": 0.86,
+"a5d25acd68c9": 0.775,
+"c0cc5127936d": 0.382,
 "c7c7d4c7e55c": 0.967,
 "c9dfc5d89ad2": 0.349,
 "ce532ff9c5a4": 0.072,
-"d174615f8490": 0.368,
-"d1d904d79a27": 0.078,
+"d174615f8490": 0.298,
+"d1d904d79a27": 0.275,
+"d502e72d4417": 0.093,
 "daa9c6511373": 0.953,
-"efd18afa4625": 0.879,
-"f47a5f0d53ff": 0.093,
+"efd18afa4625": 0.414,
+"f47a5f0d53ff": 0.079,
 "f7e487864aac": 0.025
 },
 "sent": [
@@ -5068,6 +5087,31 @@
 "options",
 "what"
 ]
+},
+{
+"e": [
+"hype"
+],
+"k": [],
+"t": 1793277579.2097223,
+"u": [
+"https://t.me/lookonchainchannel/10829"
+],
+"w": [
+"$52",
+"597",
+"912",
+"all",
+"few",
+"hours",
+"hype",
+"long",
+"opened",
+"past",
+"positions",
+"totaling",
+"whales"
+]
 }
 ],
 "stories": {},
@@ -5076,63 +5120,63 @@
 [
 "6194302ba7ed",
 49,
-155,
+166,
 1
 ],
 [
 "c7c7d4c7e55c",
 30,
-144,
+154,
 3
 ],
 [
 "daa9c6511373",
 55,
-110,
+120,
 4
 ],
 [
 "a76a81b7816a",
 0,
-330,
+341,
 1
 ],
 [
-"efd18afa4625",
-18,
-13,
-1
-],
-[
-"c7261f2edb49",
-45,
-261,
-3
-],
-[
-"6bfdaad165d1",
+"60d840939b76",
 10,
-86,
+9,
 1
 ],
 [
-"b5c2723e88d6",
-0,
-357,
-1
-],
-[
-"f2a26425a1e8",
-14,
-199,
+"05aac41d6a5a",
+39,
+8,
 1
 ],
 [
 "26cc58311312",
-32,
-42,
+60,
+52,
+2
+],
+[
+"6bfdaad165d1",
+10,
+96,
+1
+],
+[
+"a5d25acd68c9",
+35,
+325,
+3
+],
+[
+"f2a26425a1e8",
+13,
+209,
 1
 ]
 ],
-"top_at": 1793277271.165983
+"top_at": 1793277883.889027
 }
