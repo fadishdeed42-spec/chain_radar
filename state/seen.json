@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1793221594.3874876,
 1793253426.7549806,
 1793265610.4207442,
 1793268992.1795893,
@@ -15,7 +14,9 @@
 1793298254.5899715,
 1793299476.547458,
 1793300393.7069259,
-1793305891.9665356
+1793305891.9665356,
+1793308277.0735452,
+1793308277.0735452
 ],
 "menu": {
 "0152f292a2d7": {
@@ -823,7 +824,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793298708.0,
 "tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed.\n\nPolymarket said it has identified and fixed an issue affecting its international platform involving a compromised third-party service provider. The incident has been referred to relevant law enforcement authorities. Polymarket pledged to fully reimburse all affected users and said it has temporarily halted trading as a precaution while working to restore platform operations. \u2014 link\n\ud83d\udea8 UPDATE: Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.\n\nNews | Markets | YouTube",
 "title": "Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.",
@@ -1278,7 +1279,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793304841.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 20% after missing Q3 2026 earnings.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 20% after missing Q3 2026 earnings.",
@@ -1747,9 +1748,10 @@
 "srcs": [
 "Bitcoin News",
 "Cointelegraph",
+"Rolling Out",
 "bloomingbit"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793293721.0,
 "tgtext": "",
 "title": "KuCoin Halts All Services for Users in Russia and Belarus",
@@ -2115,7 +2117,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793298001.0,
 "tgtext": "\ud83d\udd25 HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.\n\nNews | Markets | YouTube",
 "title": "HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.",
@@ -2150,6 +2152,19 @@
 "tgtext": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay\n\nCasa co-founder Jameson Lopp highlighted that Bitcoin treasury company Datavault (DVLT) saw its stock price crash, tumbling 49.55% over a 24-hour period. The plunge follows the company\u2019s notice to investors disclosing that its entire treasury reserves are held on crypto exchange Biconomy, but despite submitting transfer and withdrawal requests for four months, it has been unable to withdraw any BTC from the platform. \u2014 link",
 "title": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay",
 "url": "https://t.me/wublockchainenglish/26575",
+"urls": []
+},
+"a0a1f515c436": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793308277.0735452,
+"t0": 1793308201.0,
+"tgtext": "\ud83d\udea8 HUGE: Over $590 million in crypto positions were liquidated in the past hour, including nearly $570 million in longs.\n\nNews | Markets | YouTube",
+"title": "HUGE: Over $590 million in crypto positions were liquidated in the past hour, including nearly $570 million in longs.",
+"url": "https://t.me/cointelegraph/72942",
 "urls": []
 },
 "a0fb9ddee391": {
@@ -2341,7 +2356,7 @@
 "The Times of Israel",
 "i24NEWS"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793294946.0,
 "tgtext": "",
 "title": "Israeli Soldier Charged With Passing Sensitive Military Information To Iranian Operatives",
@@ -2648,6 +2663,21 @@
 "https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules",
 "https://bitcoinmagazine.com/news/brazilian-banking-giant-itau-crypto"
 ]
+},
+"c17b4ed7e48c": {
+"coin": "",
+"src": "Global Crypto Press",
+"srcs": [
+"BeInCrypto",
+"Crypto Economy",
+"Global Crypto Press"
+],
+"t": 1793308277.0735452,
+"t0": 1793295360.0,
+"tgtext": "",
+"title": "CoinDCX Downplays Hack Claims as \"False Alarm\"... But Now Confirms $16 MILLION Missing.",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGRxV1Y5WWVkS0RRMGhEdGhfanVrbjNYZzdlU3ZaVm01ZHdrdUZOa3FGSnJzU2p0YTlFTEplZmVfeUpYejBRU2puQ2RlMnk5MW5OcHA2d3JwZjRxaDZJcWprckhJeTZmNUpLZktPcW1sT0g1NGxGVW1VNUI5MmxnS1VrV0dVSUxVdjdiOGJn?oc=5",
+"urls": []
 },
 "c1b38ba5266b": {
 "coin": "",
@@ -3080,7 +3110,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1793307362.6737523,
+"t": 1793307973.6351461,
 "t0": 1793300442.0,
 "tgtext": "",
 "title": "Mystery whale pulls $290 million from DeFi every midnight as Aave borrowing rates triple",
@@ -3304,7 +3334,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793294709.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.",
@@ -3366,6 +3396,20 @@
 "tgtext": "",
 "title": "\u2018They stole while victims trusted them\u2026': Africa, China-linked scammers charged in crypto scam",
 "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMEY4MzF2VW1DXzdicFU4TkJkTW1NUl9acUpQUHdaaEd4Yk4wTjVFTkQ4ZVlGQ0hfQ1J6UVZZeFp3NFNaZ0NMOGIyc1Nab1ktOV9XdE9JMzU2SWtoeFhXekozcnd3VWcyVE5lWjlrTkFnYWFsazV1N1E3aWJ0THpsWE5SY3NsZWJuaDM1YnZQa3NacnF6eWMtdUVuM0pSb0VpcEd0U0JWNUdQdHpmSG9SSjJ0MzIzSnVXUzRxSXJGeXg1MDBkN0YtQVFla21LRXJVMktXRTA1OE9rcVdKMzBvdjZiaVdSanpGa0dpWUZ2eUdScml6V1ZrYXNFRzVwclNw0gGGAkFVX3lxTE9xZEYwZFRqYndXMmszQ00tVE1MY1lMUTY4UWxGdnpiTnVtQVJneVpaSGc2d1dvVU1BMkVaWTF4VUlodXNUMHlCQXJiMjVQTUU1UDB5TE13TUtZb2dKMFBBX0RhMkRkcU9MRW4xU0Y5RmwwR2lXeFBhTDRubkEwUjdIT214WlZFak43SDBFMDlqMy13cjI2SG5JR2ZQcWVLc3pnbFZDeWNRZTl3a1pFZ0hwMWpzREdRT09jYXUtM0ZHUG5VOFJsWGowS1hXN0dMOEJDWC1JQU9vU1BEcUlwZFF3RVI5TVBFSFRhZFF3aHk0Slc1ZXdQdEk0VWZNMVVpMzdIbUFyaXc?oc=5",
+"urls": []
+},
+"e81feaf5ed13": {
+"coin": "tether",
+"src": "Watcher.Guru",
+"srcs": [
+"Coindoo",
+"Watcher.Guru"
+],
+"t": 1793308277.0735452,
+"t0": 1793307863.0,
+"tgtext": "JUST IN: Tether freezes $971 million $USDT linked to suspected Binance hack.\n\nNo official statement from Binance yet.\n\n@WatcherGuru",
+"title": "Tether freezes $971 million USDT linked to suspected Binance hack.",
+"url": "https://t.me/WatcherGuru/15683",
 "urls": []
 },
 "e864d3ab580b": {
@@ -3588,16 +3632,17 @@
 },
 "f1c21a8b1bba": {
 "coin": "bitcoin",
-"src": "Bitcoin Magazine",
+"src": "24/7 Wall St.",
 "srcs": [
+"24/7 Wall St.",
 "Bitcoin Magazine",
 "The Cryptonomist"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793288505.0,
 "tgtext": "",
-"title": "Franklin Templeton Officially Launches 2 Bitcoin DRIP ETFs That Turn Dividends Into Bitcoin",
-"url": "https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf",
+"title": "Franklin Templeton Just Launched ETFs That Turn Stock Dividends Into Bitcoin. Is That a Smarter Way to Own BTC?",
+"url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPXzQ4ZnRFNzFNMXhnenFueWZLTFMxRWRUYkpObmZjTV83OEplcW5yX3d2bkhidHdjRGo3dVlLckZJNk1BUUNUeGlReU55T2RmdWRwRjNxUEtpSnFWWFdwcmtuY3ctaXNiZ1VKUm5CenRocGtTR3JtVEh3LVdpa1lwVXExdXRWcElZWkxSRzQ3MWlfRGxkUTd1VmxJLVo2OTR5VVowZzR2c2p1Nkw1TzFVZ0xrM0VuNXNQS0JuWlY4R0NhOHo4dmNfU2lodnVFelJkQ3JVaW12U05rYWF0alVtN09ITHRpbkhYNkJROUJUOFkyZjIwcGNfSUZsMFU?oc=5",
 "urls": [
 "https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf"
 ]
@@ -3609,7 +3654,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793307666.1608412,
+"t": 1793308277.0735452,
 "t0": 1793299621.0,
 "tgtext": "\ud83d\udea8 ALERT: Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.\n\nNews | Markets | YouTube",
 "title": "Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.",
@@ -3651,7 +3696,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793307666.1608412,
+"t": 1793307973.6351461,
 "t0": 1793287053.0,
 "tgtext": "JUST IN: Elon Musk reacts to billionaire investor Stan Druckenmiller backing 24/7 Hyperliquid $HYPE futures trading in the US:\n\n\"Interesting\"\n\n@WatcherGuru\nLegendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%\n\nLegendary Wall Street investor Stan Druckenmiller stated in his debut post on X that he has invested in Trade xyz, expressing strong support for the platform's partnership with the Intercontinental Exchange (ICE) to bring 24/7 perpetual contract trading to the US market. Druckenmiller noted that, as an active market participant, he looks forward to utilizing the platform's innovative products to optimize his own investment decision-making process. The post was subsequently retweeted by Elon Musk with the comment \"Interesting.\" Driven by today's news, HYPE surged to $94.64, registering a 24-hour gain of 17.64% and sitting just 4.3% shy of its all-time high (ATH). \u2014 link",
 "title": "Legendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%",
@@ -3763,78 +3808,53 @@
 "movers": {
 "akedo": 1793118006.704163,
 "bitway": 1793295506.4879556,
-"quack-ai": 1793049071.9312153
+"ethena": 1793307973.6351461,
+"ethereum": 1793307973.6351461,
+"uniswap": 1793307973.6351461
 },
 "probs": {
-"0a6fccf3e19c": 0.053,
-"0d1c28984be5": 0.128,
-"0e050a9a2d66": 0.017,
-"0e104a7d6e83": 0.095,
-"0f490f842c94": 0.016,
+"0a6fccf3e19c": 0.024,
+"0d1c28984be5": 0.116,
+"0e104a7d6e83": 0.043,
+"0f490f842c94": 0.019,
 "15ebf8ab4bc5": 0.124,
-"16e9c7d9e844": 0.016,
+"1b2ef564af63": 0.034,
 "1b5fa7ded5b3": 0.144,
-"37cf01596785": 0.008,
+"37cf01596785": 0.018,
 "3853e60e7952": 0.96,
-"43b1e235bb2b": 0.016,
-"4aab50a17d6b": 0.015,
-"4bd0956a8bd4": 0.006,
-"4c267f04bab3": 0.011,
+"4aab50a17d6b": 0.074,
+"4bd0956a8bd4": 0.013,
 "58f11570b220": 0.129,
 "597405d99967": 0.693,
 "630b899516bd": 0.076,
-"745691133fa4": 0.006,
-"7c8dbca45034": 0.024,
-"7d623cd8eced": 0.028,
-"8173d5a64620": 0.012,
-"8340884ad289": 0.669,
-"9766d22b9df2": 0.095,
+"6d64bb7ff9cc": 0.031,
+"6ff99d9a44d6": 0.028,
+"745691133fa4": 0.012,
+"7d623cd8eced": 0.012,
+"8340884ad289": 0.571,
+"90a15db5b6d0": 0.046,
 "9ab0a9d8587f": 0.401,
-"a6ede653e372": 0.009,
+"a0a1f515c436": 0.945,
+"a1ef0a78b60e": 0.007,
+"a6ede653e372": 0.01,
 "a884cee081e7": 0.091,
 "a9347d489f5d": 0.432,
-"b854ee38ca0b": 0.017,
-"c17b4ed7e48c": 0.096,
-"c534b3adba7d": 0.079,
-"c6c5fa3a6736": 0.022,
-"cbc8f73d5b4e": 0.036,
+"b854ee38ca0b": 0.019,
+"c0146619aaf5": 0.017,
+"c17b4ed7e48c": 0.337,
+"c6c5fa3a6736": 0.04,
 "d168207ab6eb": 0.041,
 "d3abbfa8802f": 0.049,
 "d5adad63706c": 0.154,
-"d7b466fa1ca2": 0.078,
-"de54304f1bc2": 0.38,
 "e295733031d7": 0.674,
+"e81feaf5ed13": 0.732,
+"ee9312d0043d": 0.016,
+"f06c2fef12bd": 0.02,
+"f1c21a8b1bba": 0.709,
 "f2118f80711d": 0.41,
 "f416cce0e1e0": 0.371
 },
 "sent": [
-{
-"e": [
-"big",
-"gold",
-"robinhood"
-],
-"k": [
-"record"
-],
-"t": 1793133224.164461,
-"u": [
-"https://t.me/cointelegraph/72888"
-],
-"w": [
-"$16b",
-"big",
-"deposits",
-"gold",
-"net",
-"posted",
-"record",
-"revenue",
-"robinhood",
-"subscribers",
-"year"
-]
-},
 {
 "e": [
 "amid",
@@ -5380,6 +5400,71 @@
 "services",
 "users"
 ]
+},
+{
+"e": [
+"binance",
+"tether"
+],
+"k": [
+"hack",
+"outage"
+],
+"t": 1793308277.0735452,
+"u": [
+"https://news.google.com/rss/articles/CBMigAFBVV95cUxQYTJ0V2NjUElkTWtoVzZzZlM5RDk3bExzTDRIaGNIeDJXVjJXZDZIUFZfWllzSUlXQWRvUG05LWtoVDExYjk1dV9VNGRpZTh0YlZuVmFCOGpBWGczVE0wd1hzZjRaTjBydjNyVW1zZ0tjV3ZFSk5idDk0X29Vc2xycw?oc=5",
+"https://t.me/WatcherGuru/15683"
+],
+"w": [
+"$971",
+"binance",
+"freezes",
+"hack",
+"linked",
+"million",
+"suspected",
+"tether",
+"usdt"
+]
+},
+{
+"e": [
+"alarm",
+"but",
+"claims",
+"coindcx",
+"confirms",
+"downplays",
+"false",
+"hack",
+"million",
+"missing",
+"now"
+],
+"k": [
+"hack"
+],
+"t": 1793308277.0735452,
+"u": [
+"https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGRxV1Y5WWVkS0RRMGhEdGhfanVrbjNYZzdlU3ZaVm01ZHdrdUZOa3FGSnJzU2p0YTlFTEplZmVfeUpYejBRU2puQ2RlMnk5MW5OcHA2d3JwZjRxaDZJcWprckhJeTZmNUpLZktPcW1sT0g1NGxGVW1VNUI5MmxnS1VrV0dVSUxVdjdiOGJn?oc=5",
+"https://news.google.com/rss/articles/CBMipAFBVV95cUxNaFVHd1BYNk1fOUNHLUNxWUdSenB3RmpJTXRZNzRPMllOS3JlOXJYd29ySG1uTWp0dEF6UzY4V1A2UWhFT0syYmZWLUtCaWppc2pjUk1MM2oxR3p2Q0FiZ1BJSV90a0hCUnhZOTNaZU1lQXBKdklwMDNlMndkLUhhRE13M2tKOG1uTU9mX1N5UzFLeTFpdjFMV1oxa1FGTWhaZGVYUg?oc=5",
+"https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaksyaFBEck95Q1RTVzNfR3lpOHZmLU9Zd1hLS25WVmV1N1BQcFhSWkt3WXNOMVM4eVVTeGVqMmEyZ0pCYmxxZHpTZ1lCai0xMF9OV0t0Z0NIUXRkbkFVdEV4aTNtVUFhcUZVWFpFZw?oc=5",
+"https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaksyaFBEck95Q1RTVzNfR3lpOHZmLU9Zd1hLS25WVmV1N1BQcFhSWkt3WXNOMVM4eVVTeGVqMmEyZ0pCYmxxZHpTZ1lCai0xMF9OV0t0Z0NIUXRkbkFVdEV4aTNtVUFhcUZVWFpFZw?oc=5"
+],
+"w": [
+"$16",
+"alarm",
+"but",
+"claims",
+"coindcx",
+"confirms",
+"downplays",
+"false",
+"hack",
+"million",
+"missing",
+"now"
+]
 }
 ],
 "stories": {},
@@ -5388,63 +5473,63 @@
 [
 "3853e60e7952",
 90,
-149,
+159,
 4
+],
+[
+"a0a1f515c436",
+31,
+1,
+1
+],
+[
+"e81feaf5ed13",
+73,
+7,
+2
+],
+[
+"f1c21a8b1bba",
+21,
+330,
+3
 ],
 [
 "597405d99967",
 28,
-47,
+57,
 1
 ],
 [
 "e295733031d7",
-28,
-216,
+26,
+226,
 1
 ],
 [
 "8340884ad289",
-69,
-232,
-3
+77,
+243,
+4
 ],
 [
 "a9347d489f5d",
-44,
-212,
+43,
+222,
 3
 ],
 [
 "f2118f80711d",
 42,
-134,
+144,
 2
 ],
 [
 "9ab0a9d8587f",
 25,
-161,
+171,
 1
-],
-[
-"de54304f1bc2",
-24,
-262,
-2
-],
-[
-"f416cce0e1e0",
-32,
-344,
-2
-],
-[
-"f1c21a8b1bba",
-2,
-319,
-2
 ]
 ],
-"top_at": 1793307666.1608412
+"top_at": 1793308277.0735452
 }

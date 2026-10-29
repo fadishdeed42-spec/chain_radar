@@ -138,38 +138,6 @@
 },
 "t": 1793202253.9197717
 },
-"39478e5a8c": {
-"coin": "",
-"facts": "Headline: INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries\nSources: Sahara Reporters, The Eastleigh Voice\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "Sahara Reporters",
-"story": null,
-"t0": 1792664713.0,
-"tag": null,
-"title": "INTERPOL Arrests 1,462 Suspects, Recovers Over $105m In Cybercrime Crackdown Across 20 African Countries",
-"url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU41blpuSm5yQXBBaWpxM1ozMUNxTkF1UVRDTzQzdkFLc1Vmd3p1MTF6X3RwVk1nNDkxMEVBQmhHQmNodVJ5NkYyX0JVVHBzMDBpWFdHeWlOMnA0Qi1PRzE2SUxUdlJjQ0tjSjNKTDRwUEd3eVdOUUktZVNUSUNlODVDX0hHaUFGRzNCd1d6SnV6b0pqWDBxMlZXcGFQcU4xMUtWNHFZeUpZdU5tWEtvcHlkUkVyaDI0MGpLU3BXNXlHUnlCR3c?oc=5"
-},
-"p": {
-"keyfact": "INTERPOL arrested 1,462 suspects and recovered over $105 million in a cybercrime crackdown.",
-"post": "INTERPOL just wrapped up a massive cybercrime crackdown across 20 African countries. The result? 1,462 suspects arrested and over $105 million recovered. Cross border operations are tightening the net on illicit digital networks.",
-"quote": "NONE",
-"reply": "Another massive international operation showing that digital borders are no hiding place.",
-"short": "",
-"stat": "$105M | Recovered Funds",
-"symbol": "NONE",
-"tag": "ARREST",
-"thread": "",
-"timeline": "20 African Countries = Joint operation launched ; Crackdown = 1,462 suspects arrested ; Operation = Over $105m recovered",
-"title": "INTERPOL Arrests 1,462 In $105M African Crackdown",
-"versus": "Suspects = 1,462 || Recovered = $105M",
-"visual": "STAT"
-},
-"t": 1792681107.3755188
-},
 "42f8a5f738": {
 "coin": "pepe",
 "facts": "Headline: Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\nSources: Wu Blockchain\nCoin in this story: Pepe (PEPE) $0.00000431, -1.0% in 24h\n\nTelegram news posts about it:\nArkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\n\nAccording to Arkham, wallets it has labeled or tentatively attributed to Justin Sun collectively hold approximately $51.25 million in PEPE, representing 2.82% of the token's total supply, potentially making him the largest individual PEPE holder. Arkham tracked two transfers from Poloniex to the associated wallets on October 17 and 26, worth approximately $28.44 million and $20.32 million, respectively, totaling $48.76 million. Between October 15 and 25, wallets already labeled as belonging to Sun also transferred approximately $77 million in stablecoins to Poloniex. Some of the PEPE had previously moved between Binance, HTX and Poloniex. \u2014 link\n",
@@ -751,6 +719,38 @@
 },
 "t": 1792978720.5761764
 },
+"b7b7607bce": {
+"coin": "tether",
+"facts": "Headline: Tether freezes $971 million USDT linked to suspected Binance hack.\nSources: Coindoo, Watcher.Guru\nCoin in this story: Tether (USDT) $0.9989, -0.0% in 24h\n\nTelegram news posts about it:\nJUST IN: Tether freezes $971 million $USDT linked to suspected Binance hack.\n\nNo official statement from Binance yet.\n\n@WatcherGuru\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Watcher.Guru",
+"story": null,
+"t0": 1793307863.0,
+"tag": null,
+"title": "Tether freezes $971 million USDT linked to suspected Binance hack.",
+"url": "https://t.me/WatcherGuru/15683"
+},
+"p": {
+"keyfact": "Tether reportedly freezes $971 million in USDT tied to a suspected Binance hack.",
+"post": "Tether has reportedly frozen $971 million in USDT linked to a suspected Binance hack. No official statement from Binance has been released yet. This sudden freeze highlights the immense centralized control behind stablecoin liquidity.",
+"quote": "NONE",
+"reply": "Freezing nearly a billion dollars changes the entire narrative around this incident.",
+"short": "",
+"stat": "$971M | Frozen USDT",
+"symbol": "USDT",
+"tag": "BREAKING",
+"thread": "1/ Tether has reportedly frozen $971 million in USDT linked to a suspected Binance hack. No official statement from Binance has been released yet. This sudden freeze highlights the immense centralized control behind stablecoin liquidity. \n\n2/ Coindoo and Watcher.Guru sources confirmed the massive freeze involving nearly a billion dollars in digital assets. On-chain data captured the exact moment the funds were locked down by the issuer. \n\n3/ The chart proves the sheer scale of the action taken against the suspected exploit addresses. USDT remains trading at $0.9989 with a 0.0 percent change in 24 hours despite the massive intervention. \n\n4/ This event serves as a clear reminder of the power centralized issuers hold over supposedly decentralized tokens. When billions can be frozen instantly, custody assumptions matter more than ever. #Crypto",
+"timeline": "NONE",
+"title": "Tether Freezes $971M USDT",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1793308393.839655
+},
 "c37892f442": {
 "coin": "bitcoin",
 "facts": "Headline: Developer Left PHP Server Unpatched With Bitcoin Inside, but Hackers Hit an Unexpected Roadblock\nSources: CCN.com, CryptoSlate, www.techtimes.co.uk\nCoin in this story: Bitcoin (BTC) $80,373, +0.1% in 24h\n\nArticle text:\nBitcoin wallet Electrum has patched a security flaw that allowed hackers to redirect payments when users tried to increase transaction fees. The developers disclosed the vulnerability on Oct. 24, confirming that malicious servers had exploited the weakness and that at least one user lost Bitcoin after unknowingly approving a fraudulent transaction. The high-severity vulnerability affects Electrum versions earlier than 4.8.3. It exploits the wallet's reliance on external servers to track unconfirmed transactions, allowing attackers to manipulate the payment information users see before they authorize additional fees. The disclosure followed two complaints received on Oct. 11 and Oct. 18. The first user noticed an unfamiliar transaction appearing in their wallet after broadcasting a payment, while the second reported losing funds after attempting to accelerate a pending transfer. Both incidents involved attackers generating Bitcoin addresses that matched the final four characters of the intended recipients' addresses, potentially deceiving users who relied on partial address checks. Electrum did not disclose the amount stolen, although its maintainers confirmed that some servers were actively carrying out the attack. The exploit takes advantage of a weakness in how Electrum processes transaction information supplied by its connected servers. When a user broadcasts a Bitcoin payment, a malicious server can withhold the transaction from the network and instead supply a conflicting version that redirects the funds to an attacker-controlled address. The fraudulent transaction initially contains invalid signatures, meaning it cannot be processed as a legitimate payment. However, affected Electrum clients failed to verify those signatures before displaying the substituted transaction in the wallet's unconfirmed history. As a result, the legitimate payment disappears from that view, leaving the user with a manipulated transaction that appears to be awaiting confirmation. The attacker can then exploit Bitcoin's Replace-by-Fee feature, which allows users to increase transaction fees to encourage miners to confirm delayed payments. If the victim manually increases the fee on the substituted transaction, Electrum generates fresh signatures authorizing its altered payment details. That approval makes the attacker-directed transaction valid, allowing the funds to transfer without compromising the user's private keys. In the Oct. 18 incident, the attackers reportedly set the fraudulent transaction fee to zero, potentially encouraging the victim to raise it. The case shows how a routine wallet function can become a theft mechanism when the client accepts transaction details from an untrusted server without adequate verification. Electrum's latest release introduces signature checks for wallet-owned inputs before unconfirmed transactions enter the client's local history, preventing the reported substitution technique from reaching the fee-adjustment stage. The developers tagged version 4.8.3 on Oct. 23 and distributed the updated software on Oct. 24, alongside the public security disclosure. They advised users to download the patch from Electrum's official website and verify complete recipient addresses and payment amounts whenever signing transactions. The advisory also says clients connected exclusively to trusted servers, including privately operated ones, are not exposed to this attack. The patch does not extend signature verification to every incoming transaction. Oluwapelumi values Bitcoin's potential. He imparts insights on a range of topics like DeFi, hacks, mining and culture, underlining transformative power. We use cookies to improve your experience on our site. By using our site, you consent to cookies. Esse",
@@ -989,7 +989,7 @@
 },
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489371,
+"offset": 138489377,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
