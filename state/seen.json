@@ -32,19 +32,6 @@
 "https://bitcoinmagazine.com/news/sofi-stock-sofi-soars-15-on-record-quarter"
 ]
 },
-"022648e0854c": {
-"coin": "pepe",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1793129233.9226925,
-"t0": 1793107828.0,
-"tgtext": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\n\nAccording to Arkham, wallets it has labeled or tentatively attributed to Justin Sun collectively hold approximately $51.25 million in PEPE, representing 2.82% of the token's total supply, potentially making him the largest individual PEPE holder. Arkham tracked two transfers from Poloniex to the associated wallets on October 17 and 26, worth approximately $28.44 million and $20.32 million, respectively, totaling $48.76 million. Between October 15 and 25, wallets already labeled as belonging to Sun also transferred approximately $77 million in stablecoins to Poloniex. Some of the PEPE had previously moved between Binance, HTX and Poloniex. \u2014 link",
-"title": "Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply",
-"url": "https://t.me/wublockchainenglish/26569",
-"urls": []
-},
 "02a612de49b5": {
 "coin": "hyperliquid",
 "src": "Lookonchain",
@@ -545,6 +532,20 @@
 "url": "https://t.me/cointelegraph/72886",
 "urls": []
 },
+"25e5de792bbc": {
+"coin": "bitcoin",
+"src": "www.tmgm.com",
+"srcs": [
+"Analytics Insight",
+"www.tmgm.com"
+],
+"t": 1793302530.9340093,
+"t0": 1793281437.0,
+"tgtext": "",
+"title": "Bitcoin Price Forecast: Why has BTC slipped below $80,000 as Fed keeps rates unchanged with a hawkish tone?",
+"url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQU3dqZXRSbnZzNHRoUHFoVUZBYktrSkFqTVRoZlhMSGt0eWYzcHdYS2s5U1FBVmEyeHR4WHVaLTJhNkpCSjRtdXphVkVlZnVfY1c2S3l4aEZrZWIzYThmdFN1c2JiLXRyR25QTHREVHB1dTNaN3FqaV9mb0wxMXV0NTVnY0R1UGEwbEpWRmlNemRBOW96bFI1allqTnR2bGEzZmQ2S01UXzBudEpWNVcydG4zSDlNX1JDa1JENzBNWkhHdVhWSzV1cHlJVlJrQU8wUHZRTnZVZHFoZy1vYTMzVnFoZkVQVWZyRUtEUnl2RnE4Yjg?oc=5",
+"urls": []
+},
 "26cc58311312": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -834,14 +835,15 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793298708.0,
 "tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed.\n\nPolymarket said it has identified and fixed an issue affecting its international platform involving a compromised third-party service provider. The incident has been referred to relevant law enforcement authorities. Polymarket pledged to fully reimburse all affected users and said it has temporarily halted trading as a precaution while working to restore platform operations. \u2014 link\n\ud83d\udea8 UPDATE: Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.\n\nNews | Markets | YouTube",
 "title": "Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.",
 "url": "https://t.me/cointelegraph/72940",
 "urls": [
 "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
-"https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+"https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
+"https://cointelegraph.com/news/polymarket-suspends-trading-user-funds-compromised?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "38ba688c4980": {
@@ -1039,6 +1041,25 @@
 "url": "https://t.me/lookonchainchannel/10807",
 "urls": []
 },
+"4505e26bf40c": {
+"coin": "hyperliquid",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Decrypt",
+"The Block"
+],
+"t": 1793302530.9340093,
+"t0": 1793285093.0,
+"tgtext": "",
+"title": "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps",
+"url": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
+"https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us",
+"https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "47c8af235db2": {
 "coin": "bitcoin",
 "src": "Benzinga",
@@ -1077,7 +1098,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793301616.6537476,
+"t": 1793302227.2673442,
 "t0": 1793299801.0,
 "tgtext": "\ud83d\udea8 UPDATE: Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.\n\nNews | Markets | YouTube",
 "title": "Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.",
@@ -1927,7 +1948,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793301616.6537476,
+"t": 1793302227.2673442,
 "t0": 1793297575.0,
 "tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed.\n\nPolymarket said it has identified and fixed an issue affecting its international platform involving a compromised third-party service provider. The incident has been referred to relevant law enforcement authorities. Polymarket pledged to fully reimburse all affected users and said it has temporarily halted trading as a precaution while working to restore platform operations. \u2014 link\n\ud83d\udea8 ALERT: Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.\n\nNews | Markets | YouTube",
 "title": "Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.",
@@ -2075,7 +2096,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793298001.0,
 "tgtext": "\ud83d\udd25 HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.\n\nNews | Markets | YouTube",
 "title": "HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.",
@@ -2208,7 +2229,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793285467.0,
 "tgtext": "ZachXBT: AXIS Insiders Dump ~42M Tokens From Team Multisig, Triggering 40% Crash Just Days After Binance, Coinbase & Upbit Listings\n\nAccording to on-chain investigator ZachXBT, suspected insiders of Axis Robotics received over 76 million AXIS tokens (valued at over $12 million) from the team multisig wallet before dumping them via decentralized exchanges (DEXs) and depositing funds into Bitget. ZachXBT highlighted that one insider offloaded approximately 42 million tokens (~5.04 million USDC) directly from the team multisig, triggering a 40% price plunge just one week after the token was listed on Coinbase, Upbit, and Binance.\n\nResponding to the recent price crash and insider dumping rumors, Axis Robotics stated that 83.5% of tokens held by the team and investors remain locked in a Binance-co-managed vesting contract, with no unlocks for 12 months. The offloaded tokens came from the initial circulating ecosystem allocation, which were handed to an OTC counterparty to onboard non-crypto entities, but the counterparty allegedly breached lock-up terms and dumped them on the open market. Axis has paused ties, initiated legal action, and pledged to distribute future ecosystem tokens solely via on-chain vesting. ZachXBT pushed back, questioning why it took the team two full days to notice 25% of the TGE float being dumped, and why they neither stopped the sell-off nor issued a public statement before his post. \u2014 link",
 "title": "ZachXBT: AXIS Insiders Dump ~42M Tokens From Team Multisig, Triggering 40% Crash Just Days After Binance, Coinbase & Upbit Listings",
@@ -2314,7 +2335,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793301920.1873305,
+"t": 1793302227.2673442,
 "t0": 1793284309.0,
 "tgtext": "JUST IN: Elon Musk says Apple's $29,799 Mac Studio makes a Tesla seem \"quite affordable.\"\n\n@WatcherGuru",
 "title": "Elon Musk says Apple's $29,799 Mac Studio makes a Tesla seem \"quite affordable.\"",
@@ -2510,7 +2531,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793280943.0,
 "tgtext": "JUST IN: Google $GOOGL crashes over 12% at open.\n\n@WatcherGuru",
 "title": "Google GOOGL crashes over 12% at open.",
@@ -2850,7 +2871,7 @@
 "TradingView",
 "Watcher.Guru"
 ],
-"t": 1793301616.6537476,
+"t": 1793302227.2673442,
 "t0": 1793283830.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.\n\n@WatcherGuru\n\ud83c\udde6\ud83c\uddea BIG: Standard Asset Company has opened a UAE office to advance its $1.5 billion Bitcoin and real estate strategy.\n\nNews | Markets | YouTube",
 "title": "BIG: Standard Asset Company has opened a UAE office to advance its $1.5 billion Bitcoin and real estate strategy.",
@@ -3102,7 +3123,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793285758.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.\n\n@WatcherGuru\n\ud83c\udde6\ud83c\uddea BIG: Standard Asset Company has opened a UAE office to advance its $1.5 billion Bitcoin and real estate strategy.\n\nNews | Markets | YouTube",
 "title": "BIG: Standard Asset Company has opened a UAE office to advance its $1.5 billion Bitcoin and real estate strategy.",
@@ -3237,7 +3258,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793294709.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.",
@@ -3540,7 +3561,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793299621.0,
 "tgtext": "\ud83d\udea8 ALERT: Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.\n\nNews | Markets | YouTube",
 "title": "Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.",
@@ -3582,7 +3603,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793301920.1873305,
+"t": 1793302530.9340093,
 "t0": 1793287053.0,
 "tgtext": "JUST IN: Elon Musk reacts to billionaire investor Stan Druckenmiller backing 24/7 Hyperliquid $HYPE futures trading in the US:\n\n\"Interesting\"\n\n@WatcherGuru\nLegendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%\n\nLegendary Wall Street investor Stan Druckenmiller stated in his debut post on X that he has invested in Trade xyz, expressing strong support for the platform's partnership with the Intercontinental Exchange (ICE) to bring 24/7 perpetual contract trading to the US market. Druckenmiller noted that, as an active market participant, he looks forward to utilizing the platform's innovative products to optimize his own investment decision-making process. The post was subsequently retweeted by Elon Musk with the comment \"Interesting.\" Driven by today's news, HYPE surged to $94.64, registering a 24-hour gain of 17.64% and sitting just 4.3% shy of its all-time high (ATH). \u2014 link",
 "title": "Legendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%",
@@ -3698,33 +3719,33 @@
 },
 "probs": {
 "0402a4eccd01": 0.01,
-"0a7257c5c0ec": 0.067,
 "0e104a7d6e83": 0.04,
+"0ee84996ef18": 0.047,
 "0f490f842c94": 0.025,
 "16e9c7d9e844": 0.014,
+"25e5de792bbc": 0.519,
 "3333bbbd4d59": 0.039,
 "3853e60e7952": 0.966,
 "3e3d0c585fd5": 0.016,
 "42e6253a8127": 0.012,
+"4505e26bf40c": 0.214,
 "4bd0956a8bd4": 0.005,
 "4c1c87c380dc": 0.084,
 "51c36ac33dab": 0.035,
+"58f11570b220": 0.111,
 "5c0824c371fc": 0.009,
 "630b899516bd": 0.065,
+"658165fee3c8": 0.015,
 "745691133fa4": 0.009,
-"7ba0e17ecd6a": 0.017,
 "7ef361ee3404": 0.01,
 "8173d5a64620": 0.018,
 "8340884ad289": 0.022,
-"9ab0a9d8587f": 0.438,
-"a451cd279bf4": 0.01,
+"9ab0a9d8587f": 0.36,
 "a4dfb9893724": 0.617,
+"a63bbc272aa8": 0.042,
 "a6ede653e372": 0.034,
 "a884cee081e7": 0.077,
 "a9347d489f5d": 0.057,
-"ad3cb7cba5e3": 0.108,
-"b6452da4b1ef": 0.457,
-"be2fbf6874d2": 0.118,
 "c17b4ed7e48c": 0.085,
 "c2e08c232824": 0.112,
 "d3abbfa8802f": 0.016,
@@ -5289,64 +5310,64 @@
 "top": [
 [
 "3853e60e7952",
-98,
-54,
+90,
+64,
 4
 ],
 [
 "f416cce0e1e0",
-44,
-248,
+43,
+258,
 2
 ],
 [
 "a4dfb9893724",
-16,
-274,
+15,
+284,
 1
+],
+[
+"25e5de792bbc",
+12,
+352,
+2
 ],
 [
 "b93c27051ebc",
 0,
-350,
-1
-],
-[
-"b6452da4b1ef",
-32,
-359,
-3
-],
-[
-"9ab0a9d8587f",
-25,
-65,
+360,
 1
 ],
 [
 "e295733031d7",
 32,
-120,
+130,
+1
+],
+[
+"9ab0a9d8587f",
+25,
+75,
 1
 ],
 [
 "d9073fd24d6e",
-24,
-269,
+22,
+280,
 2
 ],
 [
 "f2118f80711d",
 50,
-38,
+48,
 2
 ],
 [
-"a9ed9ad2c7a6",
-3,
-294,
-1
+"4505e26bf40c",
+53,
+291,
+3
 ]
 ],
-"top_at": 1793301920.1873305
+"top_at": 1793302530.9340093
 }
