@@ -1,17 +1,40 @@
-media 0 video prison bars -> Video: Engin_Akyurt / Pixabay
 media 1 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
-media 2 video poker cards chips -> Video: turkapp / Pixabay
-media 3 video shanghai skyline -> Video: engrahmad2653 / Pixabay
-media 5 video stock trading screens -> Video: Dimitri_K / Pixabay
-media 6 video data center servers -> Video: FindingFootage / Pixabay
-media 7 video police lights night -> Video: doktorkleinmusic / Pixabay
 media 8 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
-media 9 video money counting -> Video: Hassas_Arts / Pixabay
-media 10 video courtroom gavel -> Video: tommyvideo / Pixabay
-media 11 video prison fence -> Video: Joe_hackney / Pixabay
-media 12 video luxury mansion -> Video: JoteF / Pixabay
 media 13 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
 media 14 video prison corridor -> Video: klimkin / Pixabay
+shot fail 0 0 prison bars ValueError('too big')
+shot 0 1 video luxury office skyline night
+shot 2 0 video calendar pages flipping
+shot 2 1 video poker cards chips
+shot 2 2 video bitcoin coin close up
+shot fail 2 3 friends drinks bar ValueError('too big')
+shot 3 0 video poker chips all in
+shot 3 1 video apartment keys house
+shot 3 2 video shanghai skyline
+shot 3 3 video bitcoin mining
+shot 5 0 video calendar date
+shot 5 1 video startup office team
+shot 5 2 video stock trading screens
+shot 5 3 video stock exchange screens green
+shot 6 0 video clock time lapse
+shot 6 1 video data center servers
+shot 6 2 video money counting
+shot 7 0 video police lights night
+shot 7 1 video government building washington
+shot 7 2 video money laundering cash
+shot 9 0 video signing contract pen
+shot 9 1 video money stack cash
+shot 9 2 video us capitol building
+shot 10 0 video calendar date
+shot 10 1 video seattle skyline
+shot 10 2 video judge gavel courtroom
+shot 10 3 video prison corridor
+shot 11 0 video prison fence
+shot 11 1 video california coast road
+shot 11 2 video prison cell bars
+shot fail 12 0 prison bars ValueError('too big')
+shot 12 1 video luxury mansion
+shot 12 2 video stock market chart
 media files: 14
 $ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/lookt1 sfx
 $ ffmpeg -y -v error -f concat -safe 0 -i jobs/lookt1/parts.txt -c copy jobs/lookt1/silent.mp4

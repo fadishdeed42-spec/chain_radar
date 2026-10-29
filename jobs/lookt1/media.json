@@ -1,16 +1,4 @@
 {
- "0": {
-  "kind": "video",
-  "file": "media/0.mp4",
-  "credit": "Video: Engin_Akyurt / Pixabay \u00b7 Video: kurt_BID / Pixabay \u00b7 Video: OrsonCarte / Pixabay \u00b7 Video: BackgroundsCHAIR / Pixabay",
-  "real": false,
-  "q": "prison bars",
-  "more": [
-   "media/0_1.mp4",
-   "media/0_2.mp4",
-   "media/0_3.mp4"
-  ]
- },
  "1": {
   "kind": "photo",
   "file": "media/1.jpg",
@@ -18,120 +6,12 @@
   "real": true,
   "q": "Changpeng Zhao"
  },
- "2": {
-  "kind": "video",
-  "file": "media/2.mp4",
-  "credit": "Video: turkapp / Pixabay \u00b7 Video: motionlabry / Pixabay \u00b7 Video: klimkin / Pixabay",
-  "real": false,
-  "q": "poker cards chips",
-  "more": [
-   "media/2_1.mp4",
-   "media/2_2.mp4",
-   "media/2_3.mp4"
-  ]
- },
- "3": {
-  "kind": "video",
-  "file": "media/3.mp4",
-  "credit": "Video: engrahmad2653 / Pixabay \u00b7 Video: doktorkleinmusic / Pixabay \u00b7 Video: kjrajib / Pixabay \u00b7 Video: TungArt7 / Pixabay",
-  "real": false,
-  "q": "shanghai skyline",
-  "more": [
-   "media/3_1.mp4",
-   "media/3_2.mp4",
-   "media/3_3.mp4"
-  ]
- },
- "5": {
-  "kind": "video",
-  "file": "media/5.mp4",
-  "credit": "Video: Dimitri_K / Pixabay \u00b7 Video: Natures_Embrace / Pixabay \u00b7 Video: Videos_Investors / Pixabay \u00b7 Video: CryptoSkylark / Pixabay",
-  "real": false,
-  "q": "stock trading screens",
-  "more": [
-   "media/5_1.mp4",
-   "media/5_2.mp4",
-   "media/5_3.mp4"
-  ]
- },
- "6": {
-  "kind": "video",
-  "file": "media/6.mp4",
-  "credit": "Video: FindingFootage / Pixabay \u00b7 Video: cipnt / Pixabay \u00b7 Video: TBIT / Pixabay",
-  "real": false,
-  "q": "data center servers",
-  "more": [
-   "media/6_1.mp4",
-   "media/6_2.mp4",
-   "media/6_3.mp4"
-  ]
- },
- "7": {
-  "kind": "video",
-  "file": "media/7.mp4",
-  "credit": "Video: doktorkleinmusic / Pixabay",
-  "real": false,
-  "q": "police lights night",
-  "more": [
-   "media/7_1.mp4",
-   "media/7_2.mp4",
-   "media/7_3.mp4"
-  ]
- },
  "8": {
   "kind": "photo",
   "file": "media/8.jpg",
   "credit": "Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons",
   "real": true,
   "q": "Changpeng Zhao"
- },
- "9": {
-  "kind": "video",
-  "file": "media/9.mp4",
-  "credit": "Video: Hassas_Arts / Pixabay \u00b7 Video: 34168960 / Pixabay",
-  "real": false,
-  "q": "money counting",
-  "more": [
-   "media/9_1.mp4",
-   "media/9_2.mp4",
-   "media/9_3.mp4"
-  ]
- },
- "10": {
-  "kind": "video",
-  "file": "media/10.mp4",
-  "credit": "Video: tommyvideo / Pixabay \u00b7 Video: Mohamed_hassan / Pixabay \u00b7 Video: Sapphoto / Pixabay",
-  "real": false,
-  "q": "courtroom gavel",
-  "more": [
-   "media/10_1.mp4",
-   "media/10_2.mp4",
-   "media/10_3.mp4"
-  ]
- },
- "11": {
-  "kind": "video",
-  "file": "media/11.mp4",
-  "credit": "Video: Joe_hackney / Pixabay \u00b7 Video: ArtSqb / Pixabay \u00b7 Video: MabelAmber / Pixabay",
-  "real": false,
-  "q": "prison fence",
-  "more": [
-   "media/11_1.mp4",
-   "media/11_2.mp4",
-   "media/11_3.mp4"
-  ]
- },
- "12": {
-  "kind": "video",
-  "file": "media/12.mp4",
-  "credit": "Video: JoteF / Pixabay \u00b7 Video: Vimeo-Free-Videos / Pixabay \u00b7 Video: NickyPe / Pixabay \u00b7 Video: visualhub / Pixabay",
-  "real": false,
-  "q": "luxury mansion",
-  "more": [
-   "media/12_1.mp4",
-   "media/12_2.mp4",
-   "media/12_3.mp4"
-  ]
  },
  "13": {
   "kind": "photo",
@@ -150,6 +30,276 @@
    "media/14_1.mp4",
    "media/14_2.mp4",
    "media/14_3.mp4"
+  ]
+ },
+ "0": {
+  "kind": "video",
+  "file": "media/0_s1.mp4",
+  "credit": "Video: KM007_ / Pixabay",
+  "real": false,
+  "q": "prison bars",
+  "shots": [
+   {
+    "file": "media/0_s1.mp4",
+    "kind": "video",
+    "words": "holding a multi-billion dollar empire",
+    "q": "luxury office skyline night"
+   }
+  ]
+ },
+ "2": {
+  "kind": "video",
+  "file": "media/2_s0.mp4",
+  "credit": "Video: AttilaPergel / Pixabay \u00b7 Video: LifeSigner / Pixabay \u00b7 Video: choxyltd / Pixabay",
+  "real": false,
+  "q": "calendar pages flipping",
+  "shots": [
+   {
+    "file": "media/2_s0.mp4",
+    "kind": "video",
+    "words": "In 2013",
+    "q": "calendar pages flipping"
+   },
+   {
+    "file": "media/2_s1.mp4",
+    "kind": "video",
+    "words": "a poker game changed everything",
+    "q": "poker cards chips"
+   },
+   {
+    "file": "media/2_s2.mp4",
+    "kind": "video",
+    "words": "introduced him to Bitcoin",
+    "q": "bitcoin coin close up"
+   }
+  ]
+ },
+ "3": {
+  "kind": "video",
+  "file": "media/3_s0.mp4",
+  "credit": "Video: Asif_khanAK / Pixabay \u00b7 Video: Monoar_CGI_Artist / Pixabay \u00b7 Video: engrahmad2653 / Pixabay \u00b7 Video: socialsudo / Pixabay",
+  "real": false,
+  "q": "poker chips all in",
+  "shots": [
+   {
+    "file": "media/3_s0.mp4",
+    "kind": "video",
+    "words": "He went all in",
+    "q": "poker chips all in"
+   },
+   {
+    "file": "media/3_s1.mp4",
+    "kind": "video",
+    "words": "He sold his apartment",
+    "q": "apartment keys house"
+   },
+   {
+    "file": "media/3_s2.mp4",
+    "kind": "video",
+    "words": "in Shanghai",
+    "q": "shanghai skyline"
+   },
+   {
+    "file": "media/3_s3.mp4",
+    "kind": "video",
+    "words": "to buy entirely into Bitcoin",
+    "q": "bitcoin mining"
+   }
+  ]
+ },
+ "5": {
+  "kind": "video",
+  "file": "media/5_s0.mp4",
+  "credit": "Video: Aviavlad / Pixabay \u00b7 Video: Dimitri_K / Pixabay \u00b7 Video: Videos_Investors / Pixabay \u00b7 Video: zameenaasman172 / Pixabay",
+  "real": false,
+  "q": "calendar date",
+  "shots": [
+   {
+    "file": "media/5_s0.mp4",
+    "kind": "video",
+    "words": "By July 2017",
+    "q": "calendar date"
+   },
+   {
+    "file": "media/5_s1.mp4",
+    "kind": "video",
+    "words": "he launched Binance",
+    "q": "startup office team"
+   },
+   {
+    "file": "media/5_s2.mp4",
+    "kind": "video",
+    "words": "It processed orders at lightning speed",
+    "q": "stock trading screens"
+   },
+   {
+    "file": "media/5_s3.mp4",
+    "kind": "video",
+    "words": "completely dominated markets",
+    "q": "stock exchange screens green"
+   }
+  ]
+ },
+ "6": {
+  "kind": "video",
+  "file": "media/6_s0.mp4",
+  "credit": "Video: FindingFootage / Pixabay \u00b7 Video: Hassas_Arts / Pixabay \u00b7 Video: josemdelaa / Pixabay",
+  "real": false,
+  "q": "clock time lapse",
+  "shots": [
+   {
+    "file": "media/6_s0.mp4",
+    "kind": "video",
+    "words": "Within 180 days",
+    "q": "clock time lapse"
+   },
+   {
+    "file": "media/6_s1.mp4",
+    "kind": "video",
+    "words": "Binance became the largest crypto exchange",
+    "q": "data center servers"
+   },
+   {
+    "file": "media/6_s2.mp4",
+    "kind": "video",
+    "words": "handling billions daily",
+    "q": "money counting"
+   }
+  ]
+ },
+ "7": {
+  "kind": "video",
+  "file": "media/7_s0.mp4",
+  "credit": "Video: Hassas_Arts / Pixabay \u00b7 Video: Kanenori / Pixabay \u00b7 Video: doktorkleinmusic / Pixabay",
+  "real": false,
+  "q": "police lights night",
+  "shots": [
+   {
+    "file": "media/7_s0.mp4",
+    "kind": "video",
+    "words": "Regulators closed in fast",
+    "q": "police lights night"
+   },
+   {
+    "file": "media/7_s1.mp4",
+    "kind": "video",
+    "words": "US authorities investigated Binance",
+    "q": "government building washington"
+   },
+   {
+    "file": "media/7_s2.mp4",
+    "kind": "video",
+    "words": "severe anti-money laundering failures",
+    "q": "money laundering cash"
+   }
+  ]
+ },
+ "9": {
+  "kind": "video",
+  "file": "media/9_s0.mp4",
+  "credit": "Video: Activedia / Pixabay \u00b7 Video: andrey3dp / Pixabay \u00b7 Video: klimkin / Pixabay",
+  "real": false,
+  "q": "signing contract pen",
+  "shots": [
+   {
+    "file": "media/9_s0.mp4",
+    "kind": "video",
+    "words": "Binance agreed to pay",
+    "q": "signing contract pen"
+   },
+   {
+    "file": "media/9_s1.mp4",
+    "kind": "video",
+    "words": "$4,300,000,000 fine",
+    "q": "money stack cash"
+   },
+   {
+    "file": "media/9_s2.mp4",
+    "kind": "video",
+    "words": "to the United States government",
+    "q": "us capitol building"
+   }
+  ]
+ },
+ "10": {
+  "kind": "video",
+  "file": "media/10_s0.mp4",
+  "credit": "Video: Roque_dg / Pixabay \u00b7 Video: harambewashere2016 / Pixabay \u00b7 Video: olenchic / Pixabay \u00b7 Video: sailseattle / Pixabay",
+  "real": false,
+  "q": "calendar date",
+  "shots": [
+   {
+    "file": "media/10_s0.mp4",
+    "kind": "video",
+    "words": "In April 2024",
+    "q": "calendar date"
+   },
+   {
+    "file": "media/10_s1.mp4",
+    "kind": "video",
+    "words": "a federal judge in Seattle",
+    "q": "seattle skyline"
+   },
+   {
+    "file": "media/10_s2.mp4",
+    "kind": "video",
+    "words": "sentenced CZ",
+    "q": "judge gavel courtroom"
+   },
+   {
+    "file": "media/10_s3.mp4",
+    "kind": "video",
+    "words": "4 months inside a federal prison",
+    "q": "prison corridor"
+   }
+  ]
+ },
+ "11": {
+  "kind": "video",
+  "file": "media/11_s0.mp4",
+  "credit": "Video: BackgroundsCHAIR / Pixabay \u00b7 Video: Joe_hackney / Pixabay \u00b7 Video: Rizwan_khan_9272 / Pixabay",
+  "real": false,
+  "q": "prison fence",
+  "shots": [
+   {
+    "file": "media/11_s0.mp4",
+    "kind": "video",
+    "words": "He served his time",
+    "q": "prison fence"
+   },
+   {
+    "file": "media/11_s1.mp4",
+    "kind": "video",
+    "words": "at Lompoc low-security facility in California",
+    "q": "california coast road"
+   },
+   {
+    "file": "media/11_s2.mp4",
+    "kind": "video",
+    "words": "trading luxury for a tiny cell",
+    "q": "prison cell bars"
+   }
+  ]
+ },
+ "12": {
+  "kind": "video",
+  "file": "media/12_s1.mp4",
+  "credit": "Video: JoteF / Pixabay \u00b7 Video: tommyvideo / Pixabay",
+  "real": false,
+  "q": "prison bars",
+  "shots": [
+   {
+    "file": "media/12_s1.mp4",
+    "kind": "video",
+    "words": "his massive net worth remained completely intact",
+    "q": "luxury mansion"
+   },
+   {
+    "file": "media/12_s2.mp4",
+    "kind": "video",
+    "words": "due to his equity",
+    "q": "stock market chart"
+   }
   ]
  }
 }
