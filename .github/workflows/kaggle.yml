@@ -17,23 +17,30 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.11'}
       - run: pip install -q kaggle
-      - name: check secrets
+      - name: check secrets + login
         run: |
-          [ -n "$KAGGLE_USERNAME" ] && [ -n "$KAGGLE_KEY" ] || { echo "::error title=secrets::KAGGLE_USERNAME / KAGGLE_KEY missing"; exit 1; }
-          echo "::notice title=kaggle-user::${KAGGLE_USERNAME}"
+          set -e
+          U=$(printf '%s' "$KAGGLE_USERNAME" | tr -d '[:space:]'); K=$(printf '%s' "$KAGGLE_KEY" | tr -d '[:space:]')
+          [ -n "$U" ] && [ -n "$K" ] || { echo "::error title=secrets::KAGGLE_USERNAME / KAGGLE_KEY missing"; exit 1; }
+          echo "KAGGLE_USERNAME=$U" >> $GITHUB_ENV
+          case "$K" in KGAT_*) echo "KAGGLE_API_TOKEN=$K" >> $GITHUB_ENV; echo "::notice title=auth::new-style token (KGAT_) -> KAGGLE_API_TOKEN";; *) echo "KAGGLE_KEY=$K" >> $GITHUB_ENV; echo "::notice title=auth::classic key (length ${#K}), username length ${#U}";; esac
+          echo "::notice title=kaggle-cli::$(kaggle --version 2>&1 | head -1)"
+      - name: login check
+        run: |
+          set -o pipefail
+          kaggle kernels list --mine --page-size 1 2>&1 | head -5 | sed 's/^/::notice title=login::/'
+          kaggle kernels list --mine --page-size 1 >/dev/null 2>&1 || { echo "::error title=login::Kaggle rejected the credentials"; exit 1; }
       - name: push the notebook
         run: |
+          set -o pipefail
           cd lab/kaggle
-          cat > kernel-metadata.json <<EOF
-          {"id": "${KAGGLE_USERNAME}/chain-video-test", "title": "chain video test", "code_file": "video_test.py", "language": "python",
-           "kernel_type": "script", "is_private": "true", "enable_gpu": "true", "enable_internet": "true"}
-          EOF
-          sed -i 's/^          //' kernel-metadata.json
+          printf '{"id": "%s/chain-video-test", "title": "chain video test", "code_file": "video_test.py", "language": "python", "kernel_type": "script", "is_private": "true", "enable_gpu": "true", "enable_internet": "true"}' "$KAGGLE_USERNAME" > kernel-metadata.json
           kaggle kernels push -p . 2>&1 | tee push.log | sed 's/^/::notice title=push::/'
+          grep -qi "error\|authentication\|unauthor" push.log && { echo "::error title=push::push failed"; exit 1; } || true
       - name: wait for it
         run: |
           for i in $(seq 1 60); do
-            s=$(kaggle kernels status ${KAGGLE_USERNAME}/chain-video-test 2>&1 | tr '\n' ' ')
+            s=$(kaggle kernels status "${KAGGLE_USERNAME}/chain-video-test" 2>&1 | tr '\n' ' ')
             echo "$s"
             case "$s" in *COMPLETE*|*ERROR*|*CANCEL*) break;; esac
             sleep 60
@@ -42,7 +49,7 @@ jobs:
       - name: fetch output + log
         if: always()
         run: |
-          mkdir -p out && kaggle kernels output ${KAGGLE_USERNAME}/chain-video-test -p out 2>&1 | tail -3
+          mkdir -p out && kaggle kernels output "${KAGGLE_USERNAME}/chain-video-test" -p out 2>&1 | tail -3
           ls -la out
           [ -f out/timing.json ] && echo "::notice title=timing::$(cat out/timing.json)"
           tail -c 1500 out/*.log 2>/dev/null | sed 's/^/::notice title=log::/' | head -30 || true
