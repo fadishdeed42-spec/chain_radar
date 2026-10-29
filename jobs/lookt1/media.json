@@ -34,11 +34,17 @@
  },
  "0": {
   "kind": "video",
-  "file": "media/0_s1.mp4",
-  "credit": "Video: KM007_ / Pixabay",
+  "file": "media/0_s0.mp4",
+  "credit": "Video: Life-Of-Vids / Pixabay \u00b7 Video: OrsonCarte / Pixabay",
   "real": false,
   "q": "prison bars",
   "shots": [
+   {
+    "file": "media/0_s0.mp4",
+    "kind": "video",
+    "words": "He became the richest inmate",
+    "q": "prison bars"
+   },
    {
     "file": "media/0_s1.mp4",
     "kind": "video",
@@ -50,7 +56,7 @@
  "2": {
   "kind": "video",
   "file": "media/2_s0.mp4",
-  "credit": "Video: AttilaPergel / Pixabay \u00b7 Video: LifeSigner / Pixabay \u00b7 Video: choxyltd / Pixabay",
+  "credit": "Video: AttilaPergel / Pixabay \u00b7 Video: Engin_Akyurt / Pixabay \u00b7 Video: LifeSigner / Pixabay \u00b7 Video: choxyltd / Pixabay",
   "real": false,
   "q": "calendar pages flipping",
   "shots": [
@@ -71,13 +77,19 @@
     "kind": "video",
     "words": "introduced him to Bitcoin",
     "q": "bitcoin coin close up"
+   },
+   {
+    "file": "media/2_s3.mp4",
+    "kind": "video",
+    "words": "over drinks",
+    "q": "friends drinks bar"
    }
   ]
  },
  "3": {
   "kind": "video",
   "file": "media/3_s0.mp4",
-  "credit": "Video: Asif_khanAK / Pixabay \u00b7 Video: Monoar_CGI_Artist / Pixabay \u00b7 Video: engrahmad2653 / Pixabay \u00b7 Video: socialsudo / Pixabay",
+  "credit": "Video: Asif_khanAK / Pixabay \u00b7 Video: Matthias_Groeneveld / Pixabay \u00b7 Video: Monoar_CGI_Artist / Pixabay \u00b7 Video: engrahmad2653 / Pixabay",
   "real": false,
   "q": "poker chips all in",
   "shots": [
@@ -110,7 +122,7 @@
  "5": {
   "kind": "video",
   "file": "media/5_s0.mp4",
-  "credit": "Video: Aviavlad / Pixabay \u00b7 Video: Dimitri_K / Pixabay \u00b7 Video: Videos_Investors / Pixabay \u00b7 Video: zameenaasman172 / Pixabay",
+  "credit": "Photo: 3844328 / Pixabay \u00b7 Video: InspiredImages / Pixabay \u00b7 Video: Natures_Embrace / Pixabay \u00b7 Video: zameenaasman172 / Pixabay",
   "real": false,
   "q": "calendar date",
   "shots": [
@@ -127,8 +139,8 @@
     "q": "startup office team"
    },
    {
-    "file": "media/5_s2.mp4",
-    "kind": "video",
+    "file": "media/5_s2.jpg",
+    "kind": "photo",
     "words": "It processed orders at lightning speed",
     "q": "stock trading screens"
    },
@@ -143,7 +155,7 @@
  "6": {
   "kind": "video",
   "file": "media/6_s0.mp4",
-  "credit": "Video: FindingFootage / Pixabay \u00b7 Video: Hassas_Arts / Pixabay \u00b7 Video: josemdelaa / Pixabay",
+  "credit": "Video: Hassas_Arts / Pixabay \u00b7 Video: PIRO4D / Pixabay \u00b7 Video: cipnt / Pixabay",
   "real": false,
   "q": "clock time lapse",
   "shots": [
@@ -170,7 +182,7 @@
  "7": {
   "kind": "video",
   "file": "media/7_s0.mp4",
-  "credit": "Video: Hassas_Arts / Pixabay \u00b7 Video: Kanenori / Pixabay \u00b7 Video: doktorkleinmusic / Pixabay",
+  "credit": "Video: ChristianBodhi / Pixabay \u00b7 Video: doktorkleinmusic / Pixabay \u00b7 Video: rashed7671 / Pixabay",
   "real": false,
   "q": "police lights night",
   "shots": [
@@ -197,7 +209,7 @@
  "9": {
   "kind": "video",
   "file": "media/9_s0.mp4",
-  "credit": "Video: Activedia / Pixabay \u00b7 Video: andrey3dp / Pixabay \u00b7 Video: klimkin / Pixabay",
+  "credit": "Photo: 12019 / Pixabay \u00b7 Video: andrey3dp / Pixabay \u00b7 Video: mootlak / Pixabay",
   "real": false,
   "q": "signing contract pen",
   "shots": [
@@ -214,8 +226,8 @@
     "q": "money stack cash"
    },
    {
-    "file": "media/9_s2.mp4",
-    "kind": "video",
+    "file": "media/9_s2.jpg",
+    "kind": "photo",
     "words": "to the United States government",
     "q": "us capitol building"
    }
@@ -224,7 +236,7 @@
  "10": {
   "kind": "video",
   "file": "media/10_s0.mp4",
-  "credit": "Video: Roque_dg / Pixabay \u00b7 Video: harambewashere2016 / Pixabay \u00b7 Video: olenchic / Pixabay \u00b7 Video: sailseattle / Pixabay",
+  "credit": "Video: Amigos3D / Pixabay \u00b7 Video: MagicTV / Pixabay \u00b7 Video: Roque_dg / Pixabay \u00b7 Video: harambewashere2016 / Pixabay",
   "real": false,
   "q": "calendar date",
   "shots": [
@@ -257,7 +269,7 @@
  "11": {
   "kind": "video",
   "file": "media/11_s0.mp4",
-  "credit": "Video: BackgroundsCHAIR / Pixabay \u00b7 Video: Joe_hackney / Pixabay \u00b7 Video: Rizwan_khan_9272 / Pixabay",
+  "credit": "Video: BackgroundsCHAIR / Pixabay \u00b7 Video: PIRO4D / Pixabay \u00b7 Video: badzhoo / Pixabay",
   "real": false,
   "q": "prison fence",
   "shots": [
@@ -283,14 +295,20 @@
  },
  "12": {
   "kind": "video",
-  "file": "media/12_s1.mp4",
-  "credit": "Video: JoteF / Pixabay \u00b7 Video: tommyvideo / Pixabay",
+  "file": "media/12_s0.mp4",
+  "credit": "Photo: mrganso / Pixabay \u00b7 Video: BackgroundsCHAIR / Pixabay \u00b7 Video: tommyvideo / Pixabay",
   "real": false,
   "q": "prison bars",
   "shots": [
    {
-    "file": "media/12_s1.mp4",
+    "file": "media/12_s0.mp4",
     "kind": "video",
+    "words": "Despite sitting behind bars",
+    "q": "prison bars"
+   },
+   {
+    "file": "media/12_s1.jpg",
+    "kind": "photo",
     "words": "his massive net worth remained completely intact",
     "q": "luxury mansion"
    },

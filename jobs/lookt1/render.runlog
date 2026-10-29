@@ -2,38 +2,154 @@ media 1 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, 
 media 8 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
 media 13 photo Changpeng Zhao -> Photo of Changpeng Zhao: Aevozer, CC BY-SA 4.0, via Wikimedia Commons
 media 14 video prison corridor -> Video: klimkin / Pixabay
-shot fail 0 0 prison bars ValueError('too big')
+  vision gemini-flash-latest 503
+  vision NO  prison bars | Shows beer instead of prison bars
+  vision gemini-flash-latest 503
+  vision NO  prison bars | Shows a drink bar, not prison bars.
+  vision gemini-flash-latest 503
+  vision gemini-flash-lite-latest 503
+shot 0 0 video prison bars
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  luxury office skyline night | Daytime skyscraper, not luxury skyline night.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision gemini-flash-lite-latest 503
 shot 0 1 video luxury office skyline night
+  vision gemini-flash-latest 503
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 2 0 video calendar pages flipping
+  vision gemini-flash-latest 503
+  vision gemini-flash-lite-latest 503
 shot 2 1 video poker cards chips
+  vision gemini-flash-latest 503
+  vision gemini-flash-lite-latest 503
 shot 2 2 video bitcoin coin close up
-shot fail 2 3 friends drinks bar ValueError('too big')
+  vision gemini-flash-latest 503
+  vision OK  friends drinks bar | Shows a glass of beer, matching drinks.
+shot 2 3 video friends drinks bar
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  poker chips all in | Shows a runner, not poker chips.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision gemini-flash-lite-latest 503
 shot 3 0 video poker chips all in
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision OK  apartment keys house | Living room interior fits selling an apartment.
 shot 3 1 video apartment keys house
+  vision gemini-flash-latest 503
+  vision gemini-flash-lite-latest 503
 shot 3 2 video shanghai skyline
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision OK  bitcoin mining | Shows falling bitcoin coins, fitting buying bitcoin.
 shot 3 3 video bitcoin mining
+  vision gemini-flash-latest 503
+  vision NO  calendar date | shows year 2027 instead of 2017
+  vision gemini-flash-latest 503
+  vision NO  calendar date | Shows a wristwatch instead of calendar date.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  calendar date | Shows astrology chart, not a calendar date.
+  vision gemini-flash-latest 503
+  vision NO  calendar date | Shows days of week, not specific date.
+  vision gemini-flash-latest 503
+  vision NO  By July 2017 | Fireworks do not represent July 2017 literally
+  vision NO  By July 2017 | Fireworks do not represent a date.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 5 0 video calendar date
+  vision OK  startup office team | Startup office team fits launching a company.
 shot 5 1 video startup office team
-shot 5 2 video stock trading screens
+  vision NO  stock trading screens | Shows generic charts, not stock trading screens.
+  vision gemini-flash-latest 503
+  vision NO  stock trading screens | Shows typing on phone, not trading screens.
+  vision gemini-flash-latest 503
+  vision NO  stock trading screens | shows a door, not stock trading screens
+  vision NO  stock trading screens | Shows cartoon YouTube elements, not stock trading screens.
+  vision NO  It processed orders at lightning speed | Shows a rainy landscape, unrelated to processing orders.
+  vision NO  It processed orders at lightning speed | Shows stormy clouds, not order processing.
+  vision NO  It processed orders at lightning speed | Shows traffic motion instead of processing orders.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  It processed orders at lightning speed | Shows an elevator instead of order processing.
+  vision OK  stock trading screens | Stock trading screens fit fast processing well.
+shot 5 2 photo stock trading screens
+  vision OK  stock exchange screens green | Shows stock exchange screens representing markets.
 shot 5 3 video stock exchange screens green
+  vision NO  clock time lapse | Shows clouds, not a clock.
+  vision OK  clock time lapse | Clock represents time passage.
 shot 6 0 video clock time lapse
+  vision NO  data center servers | Shows abstract matrix tunnel instead of server racks
+  vision NO  data center servers | Shows digital code, not data center servers.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 6 1 video data center servers
+  vision OK  money counting | Shows hands counting money directly.
 shot 6 2 video money counting
+  vision NO  police lights night | Futuristic flying car instead of police lights.
+  vision NO  police lights night | Futuristic vehicle does not fit documentary style.
+  vision NO  police lights night | Shows a futuristic vehicle, not police lights.
+  vision gemini-flash-lite-latest 503
 shot 7 0 video police lights night
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  government building washington | Shows an Asian temple, not Washington building.
+  vision NO  government building washington | Shows generic city skyscrapers, not Washington government buildings.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision gemini-flash-lite-latest 503
 shot 7 1 video government building washington
+  vision NO  money laundering cash | CGI money stacks do not show laundering failures.
+  vision OK  money laundering cash | Hands counting cash relates to money context.
 shot 7 2 video money laundering cash
+  vision NO  signing contract pen | Childish setting, not a formal business agreement.
+  vision OK  signing contract pen | Hand signing contract with pen fits literally.
 shot 9 0 video signing contract pen
+  vision gemini-flash-lite-latest 503
 shot 9 1 video money stack cash
-shot 9 2 video us capitol building
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  us capitol building | Shows Statue of Liberty, not Capitol building.
+  vision NO  us capitol building | Shows city skyscrapers, not the US Capitol building.
+  vision NO  us capitol building | Shows a stone house, not US Capitol.
+  vision NO  us capitol building | Shows a European village, not US Capitol.
+  vision NO  to the United States government | Shows a mosque, not the US government.
+  vision NO  to the United States government | Abstract pixelated flag, not the government
+  vision NO  to the United States government | Shows a skyscraper, not the US government.
+  vision NO  to the United States government | Shows Ukrainian flag, not United States government.
+  vision OK  us capitol building | Shows the US Capitol building representing government.
+shot 9 2 photo us capitol building
+  vision NO  calendar date | Calendar shows May, not April.
+  vision NO  calendar date | Image shows 2023 instead of April 2024
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 10 0 video calendar date
+  vision NO  seattle skyline | Focuses on a sailboat instead of Seattle skyline.
+  vision NO  seattle skyline | Shows sailboat, missing Seattle skyline.
+  vision NO  seattle skyline | Shows sailboat, not Seattle skyline.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 10 1 video seattle skyline
+  vision NO  judge gavel courtroom | Shows an office, not a courtroom or gavel.
+  vision OK  judge gavel courtroom | Shows courtroom gavel and legal sentencing context.
 shot 10 2 video judge gavel courtroom
+  vision OK  prison corridor | Shows a typical indoor prison corridor.
 shot 10 3 video prison corridor
+  vision NO  prison fence | Shows a cabin, not a prison fence.
+  vision NO  prison fence | It shows a cat on a fence.
+  vision NO  prison fence | Shows a rural road, not a prison fence.
+  vision NO  prison fence | Shows a cat, not a prison fence.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 11 0 video prison fence
+  vision NO  california coast road | European coastal town, not Lompoc prison.
+  vision NO  california coast road | Shows open water, not Lompoc prison.
+  vision NO  california coast road | Shows coast, not Lompoc prison facility
+  vision NO  california coast road | Shows ocean, not Lompoc prison facility
+  vision gemini-flash-lite-latest 503
 shot 11 1 video california coast road
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 11 2 video prison cell bars
-shot fail 12 0 prison bars ValueError('too big')
-shot 12 1 video luxury mansion
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+shot 12 0 video prison bars
+  vision NO  luxury mansion | Shows a city highway, not a luxury mansion.
+  vision NO  luxury mansion | Shows falling diamonds, not a luxury mansion.
+  vision NO  luxury mansion | Shows coffee beans, not a luxury mansion.
+  vision NO  luxury mansion | shows abstract gold dust, not a luxury mansion
+  vision NO  his massive net worth remained completely intact | shows a basketball net, not net worth
+  vision NO  his massive net worth remained completely intact | Abstract background does not show net worth
+  vision NO  his massive net worth remained completely intact | Irrelevant space image, does not show net worth
+  vision NO  his massive net worth remained completely intact | Abstract network graphic does not show net worth.
+  vision OK  luxury mansion | Shows a luxurious mansion interior.
+shot 12 1 photo luxury mansion
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 shot 12 2 video stock market chart
 media files: 14
 $ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/lookt1 sfx
