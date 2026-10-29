@@ -28,7 +28,17 @@
     "icon": "crown"
    },
    "footage": "prison bars",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "He became the richest inmate",
+     "q": "prison bars"
+    },
+    {
+     "words": "holding a multi-billion dollar empire",
+     "q": "luxury office skyline night"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -47,6 +57,20 @@
      "word": "vancouver",
      "text": "VANCOUVER, CANADA"
     }
+   ],
+   "shots": [
+    {
+     "words": "Changpeng Zhao started",
+     "q": "city skyline night"
+    },
+    {
+     "words": "working at McDonald's",
+     "q": "fast food restaurant kitchen"
+    },
+    {
+     "words": "flipping burgers",
+     "q": "cooking burgers grill"
+    }
    ]
   },
   {
@@ -60,7 +84,25 @@
     "event": "Introduced to Bitcoin"
    },
    "footage": "poker cards chips",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "In 2013",
+     "q": "calendar pages flipping"
+    },
+    {
+     "words": "a poker game changed everything",
+     "q": "poker cards chips"
+    },
+    {
+     "words": "introduced him to Bitcoin",
+     "q": "bitcoin coin close up"
+    },
+    {
+     "words": "over drinks",
+     "q": "friends drinks bar"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -80,6 +122,24 @@
     {
      "word": "shanghai",
      "text": "SHANGHAI"
+    }
+   ],
+   "shots": [
+    {
+     "words": "He went all in",
+     "q": "poker chips all in"
+    },
+    {
+     "words": "He sold his apartment",
+     "q": "apartment keys house"
+    },
+    {
+     "words": "in Shanghai",
+     "q": "shanghai skyline"
+    },
+    {
+     "words": "to buy entirely into Bitcoin",
+     "q": "bitcoin mining"
     }
    ]
   },
@@ -111,6 +171,24 @@
      "text": "BINANCE IS BORN",
      "icon": "bitcoin"
     }
+   ],
+   "shots": [
+    {
+     "words": "By July 2017",
+     "q": "calendar date"
+    },
+    {
+     "words": "he launched Binance",
+     "q": "startup office team"
+    },
+    {
+     "words": "It processed orders at lightning speed",
+     "q": "stock trading screens"
+    },
+    {
+     "words": "completely dominated markets",
+     "q": "stock exchange screens green"
+    }
    ]
   },
   {
@@ -126,7 +204,21 @@
     "icon": "bitcoin"
    },
    "footage": "data center servers",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "Within 180 days",
+     "q": "clock time lapse"
+    },
+    {
+     "words": "Binance became the largest crypto exchange",
+     "q": "data center servers"
+    },
+    {
+     "words": "handling billions daily",
+     "q": "money counting"
+    }
+   ]
   },
   {
    "role": "twist",
@@ -140,7 +232,21 @@
     "bad": true
    },
    "footage": "police lights night",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "Regulators closed in fast",
+     "q": "police lights night"
+    },
+    {
+     "words": "US authorities investigated Binance",
+     "q": "government building washington"
+    },
+    {
+     "words": "severe anti-money laundering failures",
+     "q": "money laundering cash"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -153,7 +259,21 @@
     "prop": "cuffs"
    },
    "footage": "courthouse",
-   "photo": "Changpeng Zhao"
+   "photo": "Changpeng Zhao",
+   "shots": [
+    {
+     "words": "In November 2023",
+     "q": "calendar date"
+    },
+    {
+     "words": "CZ stepped down as CEO",
+     "q": "businessman leaving office"
+    },
+    {
+     "words": "pleaded guilty",
+     "q": "courtroom gavel"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -168,7 +288,21 @@
     "icon": "bank"
    },
    "footage": "money counting",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "Binance agreed to pay",
+     "q": "signing contract pen"
+    },
+    {
+     "words": "$4,300,000,000 fine",
+     "q": "money stack cash"
+    },
+    {
+     "words": "to the United States government",
+     "q": "us capitol building"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -187,6 +321,24 @@
      "word": "seattle",
      "text": "SEATTLE COURT",
      "icon": "gavel"
+    }
+   ],
+   "shots": [
+    {
+     "words": "In April 2024",
+     "q": "calendar date"
+    },
+    {
+     "words": "a federal judge in Seattle",
+     "q": "seattle skyline"
+    },
+    {
+     "words": "sentenced CZ",
+     "q": "judge gavel courtroom"
+    },
+    {
+     "words": "4 months inside a federal prison",
+     "q": "prison corridor"
     }
    ]
   },
@@ -208,6 +360,20 @@
      "word": "lompoc",
      "text": "LOMPOC, CA"
     }
+   ],
+   "shots": [
+    {
+     "words": "He served his time",
+     "q": "prison fence"
+    },
+    {
+     "words": "at Lompoc low-security facility in California",
+     "q": "california coast road"
+    },
+    {
+     "words": "trading luxury for a tiny cell",
+     "q": "prison cell bars"
+    }
    ]
   },
   {
@@ -223,7 +389,21 @@
     "icon": "safe"
    },
    "footage": "luxury mansion",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "Despite sitting behind bars",
+     "q": "prison bars"
+    },
+    {
+     "words": "his massive net worth remained completely intact",
+     "q": "luxury mansion"
+    },
+    {
+     "words": "due to his equity",
+     "q": "stock market chart"
+    }
+   ]
   },
   {
    "role": "setup",
@@ -236,7 +416,21 @@
     "prop": "none"
    },
    "footage": "city skyline",
-   "photo": ""
+   "photo": "",
+   "shots": [
+    {
+     "words": "Released in late 2024",
+     "q": "prison gate opening"
+    },
+    {
+     "words": "CZ remains barred from running Binance directly",
+     "q": "office building glass"
+    },
+    {
+     "words": "keeps massive influence",
+     "q": "crowd city street"
+    }
+   ]
   },
   {
    "role": "end",
@@ -260,7 +454,7 @@
   "length": 120,
   "style": "documentary",
   "pace": "normal",
-  "look": "noir"
+  "look": "cinematic"
  },
  "est_secs": 94,
  "words": 243,

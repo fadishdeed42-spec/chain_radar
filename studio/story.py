@@ -304,6 +304,8 @@ def check(sb, strict=True):
         s['visual'] = v
         s['beats'] = [b for b in (s.get('beats') or []) if isinstance(b, dict) and b.get('word')][:4]
         s['footage'] = str(s.get('footage') or '')[:60]
+        s['shots'] = [{'words': re.sub(r'\s+', ' ', str(h.get('words', ''))).strip()[:60], 'q': str(h.get('q', '')).strip()[:60]}
+                      for h in (s.get('shots') or []) if isinstance(h, dict) and str(h.get('q', '')).strip()][:5]
         s['photo'] = str(s.get('photo') or '')[:60]
         toks = [re.sub(r'[^\w$%]', '', t).lower() for t in s['line'].split()]
         h = re.sub(r'[^\w$%]', '', str(s.get('hit', ''))).lower()

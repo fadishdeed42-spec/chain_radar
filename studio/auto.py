@@ -60,8 +60,34 @@ if SB.get('chart') and os.path.exists(os.path.join(JOB, 'data.json')):
 MEDIA = {}
 if STYLE not in ('graphics', '3d') and os.path.exists(os.path.join(JOB, 'media.json')):
     MEDIA = {int(k): v for k, v in json.load(open(os.path.join(JOB, 'media.json'))).items() if os.path.exists(os.path.join(JOB, v['file']))}
+SHOTS = {}                                                             # scene -> [{file, kind, t0}] : a new picture for every spoken phrase
+
+
+def _shot_times():
+    for i, m in MEDIA.items():
+        sh = m.get('shots')
+        if not sh or i >= len(PARA): continue
+        e = cs.PARA[i][1] if i < len(cs.PARA) else cs.DUR
+        ws = [w for w in cs.WORDS if w[0] == i]
+        cur, out = 0, []
+        for k, x in enumerate(sh):
+            t0 = None
+            toks = [re.sub(r'[^\w$%]', '', z).lower() for z in str(x.get('words', '')).split()]
+            if k == 0: t0 = P(i)
+            elif toks and toks[0]:
+                for j in range(cur, len(ws)):
+                    if ws[j][1] == toks[0]: t0 = ws[j][2]; cur = j + 1; break
+            if t0 is None: t0 = P(i) + (e - P(i)) * k / len(sh)
+            if out and t0 < out[-1]['t0'] + .9: t0 = out[-1]['t0'] + .9        # never a flash shorter than ~1 s
+            out.append({'file': x['file'], 'kind': x['kind'], 't0': t0})
+        for a, b in zip(out, out[1:] + [{'t0': e}]): a['t1'] = b['t0']
+        out = [o for o in out if o['t0'] < e - .3]
+        if out: SHOTS[i] = out
+
+
 _yy = np.linspace(0, 1, RH, dtype=np.float32)[:, None, None]
 GRADE = (.50 - .22 * np.clip((.22 - _yy) / .22, 0, 1) - .36 * np.clip((_yy - .6) / .4, 0, 1)).astype(np.float32)   # darker top + bottom
+GRADE_B = (.86 - .2 * np.clip((.22 - _yy) / .22, 0, 1) - .3 * np.clip((_yy - .6) / .4, 0, 1)).astype(np.float32)   # footage-first: brighter
 _BGF = np.array(BG, np.float32)
 _cache = {}
 
@@ -75,6 +101,7 @@ def cover(img, w, h):
     return im[y0:y0 + h, x0:x0 + w]
 
 
+_shot_times()
 CUT = 2.4                                                              # seconds per clip: a scene cuts between its clips
 
 
@@ -86,7 +113,43 @@ def _clip(i, k, f):
     return _cache[key]
 
 
+def _shot_frame(i, t):
+    L = SHOTS[i]
+    k = max(j for j, o in enumerate(L) if o['t0'] <= t) if t >= L[0]['t0'] else 0
+    o = L[k]; key = ('shot', i, k)
+    if key not in _cache:
+        if o['kind'] == 'video':
+            cap = cv2.VideoCapture(os.path.join(JOB, o['file']))
+            _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
+        else:
+            im = cv2.imread(os.path.join(JOB, o['file']), cv2.IMREAD_COLOR)
+            im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None
+            _cache[key] = {'img': cover(im, int(RW * 1.15), int(RH * 1.15)) if im is not None else None}
+        for kk in [kk for kk in _cache if kk[0] == 'shot' and kk[1] == i and kk[2] < k - 1]:      # keep memory flat
+            c0 = _cache.pop(kk)
+            if c0.get('cap'): c0['cap'].release()
+    c = _cache[key]
+    tl = max(0.0, t - o['t0'])
+    if o['kind'] == 'video':
+        idx = int(tl * c['fps']) % max(1, c['n'] - 2)
+        if idx != c['pos']:
+            if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
+            ok, fr = c['cap'].read()
+            if ok:
+                im = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
+                if 'gain' not in c: c['gain'] = min(1.0, 125.0 / max(1.0, float(im.mean())))
+                c['img'] = im * c['gain']
+            c['pos'] = idx
+        return c['img']
+    im = c['img']
+    if im is None: return None
+    p = smooth(seg(t, o['t0'], o['t1'])); z = 1 / 1.15 * (1 + .12 * p); d = 1 if k % 2 else -1
+    M = np.float32([[z, 0, (RW - im.shape[1] * z) / 2 + d * 40 * K * (p - .5)], [0, z, (RH - im.shape[0] * z) / 2]])
+    return cv2.warpAffine(im, M, (RW, RH), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+
+
 def media_frame(i, t):
+    if i in SHOTS: return _shot_frame(i, t)
     m = MEDIA[i]; key = ('src', i)
     if m['kind'] != 'video' and key not in _cache:
         im = cv2.imread(os.path.join(JOB, m['file']), cv2.IMREAD_COLOR)
@@ -132,7 +195,8 @@ def backdrop(cv, t, i):
         if ('blur', i) not in _cache: _cache[('blur', i)] = cv2.GaussianBlur(cv2.resize(im, (RW // 8, RH // 8)), (0, 0), 6)
         im = cv2.resize(_cache[('blur', i)], (RW, RH))
     if LOOK != 'none' and not real_person: im = looklib.apply(LOOK, im, t)
-    g = im * (GRADE * (.75 if real_person else 1)) + _BGF * (1 - GRADE) * .35
+    gr = GRADE_B if i in SHOTS else GRADE
+    g = im * (gr * (.75 if real_person else 1)) + _BGF * (1 - gr) * .35
     cv.a += (g - cv.a) * a
 
 
@@ -556,6 +620,19 @@ TEMPLATES = {'title': sc_title, 'counter': sc_counter, 'stamp': sc_stamp, 'perso
              'versus': sc_versus, 'quote': sc_quote, 'list': sc_list}
 
 
+SHRINK = {'date': .6, 'stamp': .72, 'title': .8, 'counter': .82, 'list': .78, 'versus': .82, 'quote': .82}   # graphics shrink so the footage leads
+
+
+def _shrink(cv, base, s):
+    """scale only what the template drew (not the footage behind it) toward the middle"""
+    L = cv.a
+    M = np.clip(np.abs(L - base).sum(2) / 30, 0, 1).astype(np.float32)
+    Mx = np.float32([[s, 0, RW / 2 * (1 - s)], [0, s, RH * .46 * (1 - s)]])
+    Lw = cv2.warpAffine(L, Mx, (RW, RH), flags=cv2.INTER_LINEAR)
+    Mw = cv2.warpAffine(M, Mx, (RW, RH), flags=cv2.INTER_LINEAR)[..., None]
+    cv.a = base * (1 - Mw) + Lw * Mw
+
+
 def make_scene(i):
     v = SCN[i]['visual']; fn = TEMPLATES[v['type']]
     last = i == len(SCN) - 1
@@ -564,8 +641,11 @@ def make_scene(i):
         a = 1.0 if last else fade(t, i)
         if i == 0:
             a = 1 - seg(t, P(1) - .2, P(1)) if len(SCN) > 1 else 1.0
+        sh = SHRINK.get(v['type']) if i in SHOTS else None
+        base = cv.a.copy() if sh else None
         ambient(cv, t)
         fn(cv, t, i, v, a)
+        if sh: _shrink(cv, base, sh)
     return scene
 
 

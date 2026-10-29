@@ -1888,6 +1888,7 @@ SB_SCHEMA = '''{"outline": ["FIRST plan the script: one short entry per scene = 
               "hit": "one word from the line where the visual punch lands",
               "beats": [{"word": "a later word in the same line", "text": "MAX 3 WORDS shown on screen", "icon": "optional icon"}],
               "footage": "2-4 word stock video search for the background, e.g. 'prison cell bars' (or empty)",
+              "shots": [{"words": "an EXACT phrase copied from this line, in order", "q": "2-4 word stock video search showing exactly what that phrase says"}],
               "photo": "Wikipedia/Commons search for a REAL photo of the person/place/company, e.g. 'Changpeng Zhao' (or empty)",
               "visual": {"type": "...", ...fields...}} ],
  "description": "2-4 factual sentences with dates and numbers for the YouTube description",
@@ -1984,6 +1985,9 @@ HOUSE RULES
 - MOTION: the screen must never freeze. "hit" is the first punch of a scene; "beats" are extra on-screen moments ({beat_rule}),
   each on a LATER word of the same line than "hit" (a name, number, place or action word), with 1-3 words of on-screen text that ADD info
   (an amount, a place, a date, a nickname), never a copy of the caption.
+- "shots": 2-4 per scene, one for each spoken phrase, in order; the first starts at the beginning of the line. "words" is copied EXACTLY from the line,
+  "q" is a concrete filmable search that shows literally what those words say ("poker game" -> 'poker cards chips', "sold his apartment" -> 'apartment keys house', "flipping burgers" -> 'cooking burgers grill').
+  The picture must match the words, never a generic mood. If a phrase has nothing filmable (a name, an abstract idea) leave it out.
 - "footage": a concrete, filmable stock-video search for the background of that scene (things/places/actions, never a named person: 'courtroom gavel',
   'bitcoin mining farm', 'luxury yacht', 'trading screens red'). "photo": only for a REAL named person, company or place that has a Wikipedia photo.
 - No financial advice, no slurs, no claims that real people committed crimes they were not convicted of (say "prosecutors say" when needed).

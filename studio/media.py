@@ -81,12 +81,42 @@ def wants(sb):
     for i, s in enumerate(sb['scenes']):
         ty = s['visual']['type']
         if ty == 'chart': continue
+        if s.get('shots') and ty != 'person': continue                    # fetched shot by shot (fetch_shots)
         foot, photo = s.get('footage', ''), s.get('photo', '')
         if ty == 'person' and not photo: photo = s['visual'].get('name', '')
         if photo and ty in ('person', 'title', 'stamp', 'quote'): out.append((i, 'real', photo, foot))
         elif foot and (st == 'documentary' or ty in ('title', 'stamp', 'date', 'list', 'versus', 'person')): out.append((i, 'stock', foot, ''))
         elif st == 'documentary' and foot: out.append((i, 'stock', foot, ''))
     return out[:16]
+
+
+MAX_SHOTS = 48
+
+
+def fetch_shots(job, sb, got, used):
+    """one clip (or photo) per spoken phrase: scene i -> got[i]['shots'] = [{file, kind, words}]"""
+    if story.settings(sb).get('style', 'mixed') in ('graphics', '3d'): return
+    n = 0
+    for i, sc in enumerate(sb['scenes']):
+        shots = sc.get('shots') or []
+        if not shots or sc['visual']['type'] == 'chart' or got.get(str(i), {}).get('real'): continue
+        out, credits = [], []
+        for k, sh in enumerate(shots):
+            if n >= MAX_SHOTS: break
+            q = sh.get('q', '')
+            try:
+                m = pixabay_video(q, used) or pixabay_photo(q, used)
+                if not m: print('shot: nothing for', i, k, q); continue
+                ext = '.mp4' if m['kind'] == 'video' else '.jpg'
+                f = f'media/{i}_s{k}{ext}'
+                get(m.get('small') or m['url'] if m['kind'] == 'video' else m['url'], os.path.join(job, f))
+                used.add(m['id']); n += 1
+                out.append({'file': f, 'kind': m['kind'], 'words': sh.get('words', ''), 'q': q}); credits.append(m['credit'])
+                print('shot', i, k, m['kind'], q)
+            except Exception as e:
+                print('shot fail', i, k, q, repr(e)[:100])
+        if out:
+            got[str(i)] = {'kind': out[0]['kind'], 'file': out[0]['file'], 'credit': ' · '.join(sorted(set(credits))), 'real': False, 'q': shots[0].get('q', ''), 'shots': out}
 
 
 def fetch(job):
@@ -127,6 +157,7 @@ def fetch(job):
             print('media', i, m['kind'], q, '->', m['credit'])
         except Exception as e:
             print('media fail', i, q, repr(e)[:120])
+    fetch_shots(job, sb, got, used)
     json.dump(got, open(os.path.join(job, 'media.json'), 'w'), indent=1)
     return got
 
