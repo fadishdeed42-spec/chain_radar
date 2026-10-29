@@ -51,3 +51,16 @@ market 100 news 99 reddit 25 hacks 0
 gemini models ['gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-3.1-flash-lite', 'gemini-3.7-flash', 'gemini-3.1-flash-lite-preview']
 alerts sent 2
 fetch fail https://data-api.binance.vision/api/v3/klines 400 Client Error: Bad Request for url: https://data-api.binance.vision/api/v3/klines?symbol=USDTUSDT&interval=5m&limit=500&startTime=1793297591757&endTime=1793308391757
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 21
+market 100 news 103 reddit 25 hacks 0
+gemini json fail gemini-3.5-flash-lite JSONDecodeError('Extra data: line 6 column 4 (char 71)')
+alerts sent 1
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 23
+market 100 news 117 reddit 25 hacks 0
+alerts sent 0
