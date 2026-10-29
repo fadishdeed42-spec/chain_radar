@@ -1,0 +1,55 @@
+name: kaggle
+# Manual test: can a free Kaggle GPU make an AI video clip? Needs secrets KAGGLE_USERNAME + KAGGLE_KEY.
+# Touches nothing in main; the sample clip goes to the throwaway 'samples-kaggle' branch.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -q kaggle
+      - name: check secrets
+        run: |
+          [ -n "$KAGGLE_USERNAME" ] && [ -n "$KAGGLE_KEY" ] || { echo "::error title=secrets::KAGGLE_USERNAME / KAGGLE_KEY missing"; exit 1; }
+          echo "::notice title=kaggle-user::${KAGGLE_USERNAME}"
+      - name: push the notebook
+        run: |
+          cd lab/kaggle
+          cat > kernel-metadata.json <<EOF
+          {"id": "${KAGGLE_USERNAME}/chain-video-test", "title": "chain video test", "code_file": "video_test.py", "language": "python",
+           "kernel_type": "script", "is_private": "true", "enable_gpu": "true", "enable_internet": "true"}
+          EOF
+          sed -i 's/^          //' kernel-metadata.json
+          kaggle kernels push -p . 2>&1 | tee push.log | sed 's/^/::notice title=push::/'
+      - name: wait for it
+        run: |
+          for i in $(seq 1 60); do
+            s=$(kaggle kernels status ${KAGGLE_USERNAME}/chain-video-test 2>&1 | tr '\n' ' ')
+            echo "$s"
+            case "$s" in *COMPLETE*|*ERROR*|*CANCEL*) break;; esac
+            sleep 60
+          done
+          echo "::notice title=kaggle-status::${s:0:300}"
+      - name: fetch output + log
+        if: always()
+        run: |
+          mkdir -p out && kaggle kernels output ${KAGGLE_USERNAME}/chain-video-test -p out 2>&1 | tail -3
+          ls -la out
+          [ -f out/timing.json ] && echo "::notice title=timing::$(cat out/timing.json)"
+          tail -c 1500 out/*.log 2>/dev/null | sed 's/^/::notice title=log::/' | head -30 || true
+      - name: publish sample
+        if: always()
+        run: |
+          [ -f out/test.mp4 ] || exit 0
+          git config user.name lab; git config user.email lab@users.noreply.github.com
+          git checkout --orphan samples-kaggle; git rm -rf . -q 2>/dev/null || true
+          mkdir -p s && cp out/test.mp4 s/ && git add -f s && git commit -q -m sample && git push -f -q origin samples-kaggle
