@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1793212936.1214902,
 1793213603.6165695,
 1793221594.3874876,
 1793253426.7549806,
@@ -14,7 +13,8 @@
 1793275432.42787,
 1793285676.2398536,
 1793288170.526984,
-1793298254.5899715
+1793298254.5899715,
+1793299476.547458
 ],
 "menu": {
 "0152f292a2d7": {
@@ -276,6 +276,19 @@
 "tgtext": "",
 "title": "Wallet linked to UXLINK hack sits on $6.54 million in unrealized ETH gains",
 "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qVks3QlYyTEF6OVhWVkpxWk9CT2E1MGd2dktUT1RhbW90Z1Zpa3ByOW5OZTZRSEg1UFdPQm9FbVJJal9RX3VVUXduRHluWTBJWVNVRjM0alF6dlowSVg4SFVSVy1qbmpldnRxLW12MGVLZlpMTnJMeA?oc=5",
+"urls": []
+},
+"115751dfc742": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793299476.547458,
+"t0": 1793278664.0,
+"tgtext": "US Q3 Advance Real GDP Annualized QoQ Hits 3.4%, Above 3.2% Expected\n\nThe advance estimate of US real GDP for the third quarter expanded at an annualized quarterly rate of 3.4%, topping the 3.2% forecast and accelerating from the previous quarter's 2.20%. Meanwhile, the advance reading for the Q3 annualized core PCE price index came in at 2.5%, slightly above the 2.40% estimate but down from 3.30% in the prior quarter. For September, the monthly core PCE price index rose 0.3%, matching the 0.30% expectation, while the previous month's figure was revised upward from 0.20% to 0.3%. The annual core PCE rate for September printed at 3.1%, meeting the 3.10% consensus and edging up from 3.00% previously. Analysts noted that US third-quarter GDP beat expectations while September inflation accelerated in tandem, matching market consensus. \u2014 link",
+"title": "US Q3 Advance Real GDP Annualized QoQ Hits 3.4%, Above 3.2% Expected",
+"url": "https://t.me/wublockchainenglish/26605",
 "urls": []
 },
 "16f78a415bb6": {
@@ -818,9 +831,9 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793298708.0,
-"tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed. \u2014 link",
+"tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed.\n\nPolymarket said it has identified and fixed an issue affecting its international platform involving a compromised third-party service provider. The incident has been referred to relevant law enforcement authorities. Polymarket pledged to fully reimburse all affected users and said it has temporarily halted trading as a precaution while working to restore platform operations. \u2014 link",
 "title": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation",
 "url": "https://t.me/wublockchainenglish/26608",
 "urls": []
@@ -2033,7 +2046,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793298001.0,
 "tgtext": "\ud83d\udd25 HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.\n\nNews | Markets | YouTube",
 "title": "HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.",
@@ -2166,7 +2179,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793285467.0,
 "tgtext": "ZachXBT: AXIS Insiders Dump ~42M Tokens From Team Multisig, Triggering 40% Crash Just Days After Binance, Coinbase & Upbit Listings\n\nAccording to on-chain investigator ZachXBT, suspected insiders of Axis Robotics received over 76 million AXIS tokens (valued at over $12 million) from the team multisig wallet before dumping them via decentralized exchanges (DEXs) and depositing funds into Bitget. ZachXBT highlighted that one insider offloaded approximately 42 million tokens (~5.04 million USDC) directly from the team multisig, triggering a 40% price plunge just one week after the token was listed on Coinbase, Upbit, and Binance.\n\nResponding to the recent price crash and insider dumping rumors, Axis Robotics stated that 83.5% of tokens held by the team and investors remain locked in a Binance-co-managed vesting contract, with no unlocks for 12 months. The offloaded tokens came from the initial circulating ecosystem allocation, which were handed to an OTC counterparty to onboard non-crypto entities, but the counterparty allegedly breached lock-up terms and dumped them on the open market. Axis has paused ties, initiated legal action, and pledged to distribute future ecosystem tokens solely via on-chain vesting. ZachXBT pushed back, questioning why it took the team two full days to notice 25% of the TGE float being dumped, and why they neither stopped the sell-off nor issued a public statement before his post. \u2014 link",
 "title": "ZachXBT: AXIS Insiders Dump ~42M Tokens From Team Multisig, Triggering 40% Crash Just Days After Binance, Coinbase & Upbit Listings",
@@ -2418,7 +2431,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793280389.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hyperliquid $HYPE pumps 13% to $91 after NYSE said it'll bring its perpetual futures to regulated US markets.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Hyperliquid HYPE pumps 13% to $91 after NYSE said it'll bring its perpetual futures to regulated US markets.",
@@ -2468,26 +2481,11 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793280943.0,
 "tgtext": "JUST IN: Google $GOOGL crashes over 12% at open.\n\n@WatcherGuru",
 "title": "Google GOOGL crashes over 12% at open.",
 "url": "https://t.me/WatcherGuru/15669",
-"urls": []
-},
-"ba74fa42e68e": {
-"coin": "",
-"src": "WBFF",
-"srcs": [
-"KBOI",
-"WBFF",
-"WKEF"
-],
-"t": 1793126469.048789,
-"t0": 1793123118.0,
-"tgtext": "",
-"title": "6 accused scammers in Africa charged after dating scheme drained Americans' crypto wallets",
-"url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOQVhYSTZaOWViU1hsdXNMcDV4SFNEeWVfXzdxaFo0RWdUMG05aFowWm1QLWREMm5FM0NmVjB0dTVaSFUyMG5BdTlzN29qZWlNTU1oak9xZHQ2NEJSOU95WlA0SmlWa0lCWkE3NENzbi1WaUpzNXRaeEtUZ1dSaHN6S0NCNnViaW1ld241akhERDkwSURadDlOMy14R084M3AwNlk0eFQ0TkVQNUJfOHRfbFpVbUYzU2ZINU9uTVNySUJCc0wwM055UVFGNXdwRmNMaVhHTUNwNFE0ZkRKaV9ULWRUX3YyYkk3Tkh2cjdQOHhDYjdrODVnWVZFa1RWaEsxTXZzY0NrdkxNaEZKbFNGQmRzMnU?oc=5",
 "urls": []
 },
 "bb06ba283727": {
@@ -2823,7 +2821,7 @@
 "TradingView",
 "Watcher.Guru"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793283830.0,
 "tgtext": "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.\n\n@WatcherGuru\n\ud83c\udde6\ud83c\uddea BIG: Standard Asset Company has opened a UAE office to advance its $1.5 billion Bitcoin and real estate strategy.\n\nNews | Markets | YouTube",
 "title": "BIG: Standard Asset Company has opened a UAE office to advance its $1.5 billion Bitcoin and real estate strategy.",
@@ -3210,7 +3208,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793294709.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.",
@@ -3497,7 +3495,7 @@
 "Bitcoin Magazine",
 "The Cryptonomist"
 ],
-"t": 1793298561.3700047,
+"t": 1793299476.547458,
 "t0": 1793288505.0,
 "tgtext": "",
 "title": "Franklin Templeton Officially Launches 2 Bitcoin DRIP ETFs That Turn Dividends Into Bitcoin",
@@ -3539,7 +3537,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793298865.7871342,
+"t": 1793299476.547458,
 "t0": 1793287053.0,
 "tgtext": "JUST IN: Elon Musk reacts to billionaire investor Stan Druckenmiller backing 24/7 Hyperliquid $HYPE futures trading in the US:\n\n\"Interesting\"\n\n@WatcherGuru\nLegendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%\n\nLegendary Wall Street investor Stan Druckenmiller stated in his debut post on X that he has invested in Trade xyz, expressing strong support for the platform's partnership with the Intercontinental Exchange (ICE) to bring 24/7 perpetual contract trading to the US market. Druckenmiller noted that, as an active market participant, he looks forward to utilizing the platform's innovative products to optimize his own investment decision-making process. The post was subsequently retweeted by Elon Musk with the comment \"Interesting.\" Driven by today's news, HYPE surged to $94.64, registering a 24-hour gain of 17.64% and sitting just 4.3% shy of its all-time high (ATH). \u2014 link",
 "title": "Legendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%",
@@ -3654,20 +3652,21 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
+"0402a4eccd01": 0.019,
 "050f20f47bda": 0.049,
-"05aac41d6a5a": 0.353,
+"0a7257c5c0ec": 0.067,
 "0f490f842c94": 0.025,
 "16e9c7d9e844": 0.014,
 "1aa7b70716e8": 0.029,
-"2e7e6c7da7df": 0.018,
-"3853e60e7952": 0.621,
-"3a822d36527a": 0.005,
+"27eb67034a0a": 0.023,
+"3333bbbd4d59": 0.014,
+"3853e60e7952": 0.777,
 "3e3d0c585fd5": 0.016,
 "4bd0956a8bd4": 0.005,
 "4c1c87c380dc": 0.084,
 "51c36ac33dab": 0.035,
 "5c0824c371fc": 0.01,
-"66429c568357": 0.015,
+"658165fee3c8": 0.015,
 "741cad3aeb88": 0.041,
 "745691133fa4": 0.009,
 "7ba0e17ecd6a": 0.019,
@@ -3675,54 +3674,26 @@
 "8173d5a64620": 0.018,
 "8340884ad289": 0.022,
 "93ba1fc93830": 0.109,
-"9ab0a9d8587f": 0.507,
+"9ab0a9d8587f": 0.438,
 "a4dfb9893724": 0.751,
-"a7c92f4b379f": 0.029,
+"a884cee081e7": 0.077,
 "a9347d489f5d": 0.057,
 "ac568b686697": 0.033,
-"ad3cb7cba5e3": 0.185,
+"ad3cb7cba5e3": 0.108,
 "b6452da4b1ef": 0.493,
-"bc0911f6a69b": 0.033,
 "be2fbf6874d2": 0.118,
 "c17b4ed7e48c": 0.085,
 "c2e08c232824": 0.112,
-"cbb50785c485": 0.009,
 "cdb82c6f697f": 0.306,
-"cee462c0d31c": 0.008,
+"cee462c0d31c": 0.004,
 "d3abbfa8802f": 0.018,
 "e295733031d7": 0.395,
 "e5bfd7bf346f": 0.032,
 "f1c21a8b1bba": 0.233,
-"f416cce0e1e0": 0.555
+"f416cce0e1e0": 0.555,
+"f9a2bcd0f8aa": 0.014
 },
 "sent": [
-{
-"e": [
-"africa",
-"americans"
-],
-"k": [
-"hack",
-"legal"
-],
-"t": 1793126469.048789,
-"u": [
-"https://news.google.com/rss/articles/CBMilAJBVV95cUxOQVhYSTZaOWViU1hsdXNMcDV4SFNEeWVfXzdxaFo0RWdUMG05aFowWm1QLWREMm5FM0NmVjB0dTVaSFUyMG5BdTlzN29qZWlNTU1oak9xZHQ2NEJSOU95WlA0SmlWa0lCWkE3NENzbi1WaUpzNXRaeEtUZ1dSaHN6S0NCNnViaW1ld241akhERDkwSURadDlOMy14R084M3AwNlk0eFQ0TkVQNUJfOHRfbFpVbUYzU2ZINU9uTVNySUJCc0wwM055UVFGNXdwRmNMaVhHTUNwNFE0ZkRKaV9ULWRUX3YyYkk3Tkh2cjdQOHhDYjdrODVnWVZFa1RWaEsxTXZzY0NrdkxNaEZKbFNGQmRzMnU?oc=5",
-"https://news.google.com/rss/articles/CBMilAJBVV95cUxPMG9SNHp6MkFQX2wyam5qOEpkNFd2OURuN2VpQ2RJUktaVUdPQmVEUEY3Vk4tNHNmVDlJenRwRklsaHl6SUZERUJtZjg5QkpWTXpweEFpd2d2cWhfYWo3aTY3MVZaTmcyWWNRMXlqTGVNcktyNWl2WXJFUEI2UWpPb2E0eXlRWmZNX3pLOXFweGdqb3RrcjNjaU5PV0xNRWpsSVNaQ0FIeENNNnowdExVNXM0RUVtOGtIMUlnMDdJMk9SVzlMWjU4MW5iajdIWEpuWkxaQWozdG9mdVR6eWlvYmpMcXlyYmRfejFnMDFQTWhvVjlxSUxhU0JCam9oV3NPWm0xS1pTLU9peFRnYWN4TEN4aTY?oc=5",
-"https://news.google.com/rss/articles/CBMinwJBVV95cUxPSnE3YzNpa2hsSnlvcElXNTNRc0Z3Z1ItdG9Bcjh1bHNRczJIby12X0ExZnZQY1FRYWYzTUxLZEJjbHhQenducFg4U1Y5dU5yX09PY2FRNGg5MFdIMlJaRkR4WV9kSUtwWWxfb05qT2VIVXYwa2VleW5sNU52RFYzQk5rUHQza3VGZWRVT3NZb2Q5WXA4MF9IQThjenotd2h5RjNqSlJvSVJrcEVpZEtHYmtMME04SGQ0OGtSLTVpcVRsOWRyR1JYVGpJWVVyY2RkWlB5UjQyTzJYdjJTcTNSOVlHRFd3SXNpX2dOWVBpMlc3VWhOVkM3aVZtZG80aVdjYTd4eVBjR3Ftc2VIOTFPYjEyMmlwYnJtVXhvT3Fkdw?oc=5"
-],
-"w": [
-"accused",
-"africa",
-"americans",
-"charged",
-"dating",
-"drained",
-"scammers",
-"scheme",
-"wallets"
-]
-},
 {
 "e": [
 "gains",
@@ -5232,71 +5203,105 @@
 "roughly",
 "year"
 ]
+},
+{
+"e": [
+"funds",
+"investigation",
+"launches",
+"multiple",
+"platform",
+"polymarket",
+"restricts",
+"stolen",
+"trading",
+"users"
+],
+"k": [
+"hack"
+],
+"t": 1793299476.547458,
+"u": [
+"https://t.me/wublockchainenglish/26608"
+],
+"w": [
+"funds",
+"investigation",
+"launches",
+"multiple",
+"platform",
+"polymarket",
+"report",
+"restricts",
+"stolen",
+"trading",
+"users"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"a4dfb9893724",
-23,
-223,
+"3853e60e7952",
+35,
+13,
 1
 ],
 [
-"3853e60e7952",
-35,
-3,
+"a4dfb9893724",
+21,
+233,
 1
 ],
 [
 "f416cce0e1e0",
-51,
-197,
+50,
+207,
 2
 ],
 [
-"9ab0a9d8587f",
-25,
-14,
-1
-],
-[
 "b6452da4b1ef",
-38,
-308,
+37,
+318,
 3
 ],
 [
 "b93c27051ebc",
-5,
-299,
+3,
+309,
+1
+],
+[
+"9ab0a9d8587f",
+25,
+25,
 1
 ],
 [
 "e295733031d7",
 32,
-69,
+79,
 1
-],
-[
-"05aac41d6a5a",
-16,
-358,
-1
-],
-[
-"60d840939b76",
-0,
-358,
-2
 ],
 [
 "cdb82c6f697f",
-36,
-251,
+35,
+261,
 3
+],
+[
+"f1c21a8b1bba",
+20,
+183,
+2
+],
+[
+"115751dfc742",
+0,
+347,
+1
 ]
 ],
-"top_at": 1793298865.7871342
+"top_at": 1793299476.547458
 }
