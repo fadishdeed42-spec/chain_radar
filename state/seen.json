@@ -61,16 +61,16 @@
 "urls": []
 },
 "02a612de49b5": {
-"coin": "solana",
+"coin": "hyperliquid",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793253182.0,
-"tgtext": "A mysterious whale has dumped 1.02M $SOL ($104.3M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/85ec10dc-382f-4b66-91a8-d1842b34a7fb",
-"title": "A mysterious whale has dumped 1.02M SOL ($104.3M) over the past 5 days!",
-"url": "https://t.me/lookonchainchannel/10825",
+"tgtext": "A mysterious whale has dumped 1.02M $SOL ($104.3M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/85ec10dc-382f-4b66-91a8-d1842b34a7fb\nA mysterious whale dumped 694,310 $HYPE ($53.27M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/8058920b-dbf1-4c5e-8a8d-025539e794b1",
+"title": "A mysterious whale dumped 694,310 HYPE ($53.27M) over the past 5 days!",
+"url": "https://t.me/lookonchainchannel/10828",
 "urls": []
 },
 "06c234f7b8d5": {
@@ -211,6 +211,19 @@
 "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks"
 ]
 },
+"0b24d3599b94": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793268069.581825,
+"t0": 1793267096.0,
+"tgtext": "Bithumb Details Internal System Breach: 6,444 Customers and 715 Employees Compromised\n\nSouth Korea's second-largest crypto exchange, Bithumb, disclosed that an unauthorized external intrusion into its internal corporate groupware (DaouOffice) for approximately one hour on October 27 resulted in the exfiltration of personal data belonging to 6,444 customers. The compromised records include names, mobile numbers, resident registration numbers, bank account numbers, and copies of identification documents\u2014of which 5,600 records remained encrypted and unreadable, while data belonging to 844 customers was directly exposed, alongside records of 715 employees and external personnel.\n\nBithumb emphasized that the breached groupware is completely isolated from its core trading operations and asset databases, ensuring that customer funds remain secure, while noting it has formally notified authorities and pledged full compensation for any verified damages resulting from the incident. \u2014 link",
+"title": "Bithumb Details Internal System Breach: 6,444 Customers and 715 Employees Compromised",
+"url": "https://t.me/wublockchainenglish/26599",
+"urls": []
+},
 "0c1f871f1b83": {
 "coin": "bitcoin",
 "src": "Watcher.Guru",
@@ -288,10 +301,10 @@
 "src": "The Crypto Times",
 "srcs": [
 "Crypto Adventure",
-"Cryptopolitan",
+"Hokanews",
 "The Crypto Times"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793250113.0,
 "tgtext": "",
 "title": "zkLink Nova Bridge Exploited for ~$786K as Forged Batch Root Drains Ethereum Escrow",
@@ -479,10 +492,9 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
-"Crypto Briefing",
 "Wu Blockchain"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793254065.0,
 "tgtext": "U.S. Bitcoin ETFs Draw $137 Million as Ether Funds Shed $21.4 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $137 million in net inflows on October 28, led by BlackRock's IBIT with $136 million. Spot Ethereum ETFs saw $21.41 million in net outflows, although Fidelity's FETH posted the largest individual inflow at $18.78 million. BlackRock is the world's largest asset manager, while Fidelity is one of the largest U.S. investment firms. \u2014 link",
 "title": "U.S. Bitcoin ETFs Draw $137 Million as Ether Funds Shed $21.4 Million",
@@ -749,7 +761,7 @@
 "CoinDesk",
 "The Block"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793250157.0,
 "tgtext": "",
 "title": "Utah files criminal charges against Kalshi, executives over alleged illegal gambling",
@@ -974,7 +986,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793255979.0,
 "tgtext": "",
 "title": "BTC price dips below $80,000, liquidating $356 million in crypto longs",
@@ -1731,7 +1743,7 @@
 "Wu Blockchain",
 "bloomingbit"
 ],
-"t": 1793267456.3082075,
+"t": 1793267764.8269303,
 "t0": 1793262141.0,
 "tgtext": "Bithumb Details Internal System Breach: 6,444 Customers and 715 Employees Compromised\n\nSouth Korea's second-largest crypto exchange, Bithumb, disclosed that an unauthorized external intrusion into its internal corporate groupware (DaouOffice) for approximately one hour on October 27 resulted in the exfiltration of personal data belonging to 6,444 customers. The compromised records include names, mobile numbers, resident registration numbers, bank account numbers, and copies of identification documents\u2014of which 5,600 records remained encrypted and unreadable, while data belonging to 844 customers was directly exposed, alongside records of 715 employees and external personnel.\n\nBithumb emphasized that the breached groupware is completely isolated from its core trading operations and asset databases, ensuring that customer funds remain secure, while noting it has formally notified authorities and pledged full compensation for any verified damages resulting from the incident. \u2014 link",
 "title": "Bithumb Hack Also Exposed Customer Personal Data, Widening Breach Scope",
@@ -2253,13 +2265,26 @@
 "https://decrypt.co/382009/coinbase-customer-data-hit-in-analytics-vendor-breach-funds-not-impacted"
 ]
 },
+"a5d25acd68c9": {
+"coin": "bitcoin",
+"src": "Hokanews",
+"srcs": [
+"Hokanews"
+],
+"t": 1793267764.8269303,
+"t0": 1793258400.0,
+"tgtext": "",
+"title": "Bitcoin Falls Below $80,000 as Samsung Earnings Miss and Fed Signals Pressure Crypto",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RUkZQcmxmWUFmaHZpY2dMMEhCajVnVjZzV0syVjBlT2hnWEVqTVFDalFLM2YwcnpMak1TclJYOTdWMXZGUGhhT0twdTNIVkhYQWwyQVNGSnc3SmVCaTNBbTd5aGNrMkdKYWdVUFlUVW5XLWxDS1B2MFZUTHJFczQ?oc=5",
+"urls": []
+},
 "a76a81b7816a": {
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793257450.0,
 "tgtext": "Highlight Clip: CZ: The Real Demand for Tokenized US Stocks Comes from Outside the US\n\nCZ: The Real Demand for Tokenized US Stocks Comes from Outside the US\n\nOn October 27, 2026, Binance founder CZ said in an interview with The Rollup founder Andy that demand for tokenized U.S. stocks primarily comes from people outside the United States who struggle to open U.S. brokerage accounts. He noted that in some countries with populations exceeding 100 million, the entire stock market\u2019s daily trading volume is just $50 million, comparable to the volume handled by a single trader in New York. He believes companies in these markets could tokenize their shares to reach global investors and enable round-the-clock trading. Tokenization could also extend to assets that lack established trading venues, such as water, rare earth minerals and certain precious metals, providing them with trading access and liquidity. \u2014 link",
 "title": "Highlight Clip: CZ: The Real Demand for Tokenized US Stocks Comes from Outside the US",
@@ -2789,7 +2814,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793255248.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: The CFTC will host an industry roundtable on Dec. 15 to discuss moving US derivatives markets to 24/7 trading.\n\nNews | Markets | YouTube",
 "title": "BIG: The CFTC will host an industry roundtable on Dec. 15 to discuss moving US derivatives markets to 24/7 trading.",
@@ -3053,29 +3078,13 @@
 "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT0NrNFN2ZU5OT0pSMDBLVmZ3TE83TFNfX2VlXzRhQUlnc3VXcjhQYzV3SEtQdGxrNVJRQWxfbFF4R1VmNEtMR3RBcUFVbzB0LUEtVnZ0bkg3RGhtUUc0UGhMRnNyTTFydGVhUjBhM195LUhodkJGUy0zNEM2UGViSVhtZnlDVFFKYlRUX2NUb1dFbXg0bVkyWEdEQmt3UUo1THVWTV9HOUZKQnlhVkE?oc=5",
 "urls": []
 },
-"d99827be190a": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"The Block"
-],
-"t": 1793094775.820837,
-"t0": 1793073487.0,
-"tgtext": "",
-"title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
-"url": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
-"urls": [
-"https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818"
-]
-},
 "da31d20c4180": {
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
-"The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793251967.0,
 "tgtext": "Singapore Police Say Ledger Wallets Sold at Local Retailers Contained Malicious Hardware Implants\n\nSingapore police said on October 28 that some Ledger cryptocurrency hardware wallets purchased from local retailers contained malicious hardware implants capable of stealing users' recovery phrases or private keys. At least two cases have been reported since September 10, resulting in losses of approximately S$3.5 million ($2.7 million). Ledger, a leading French hardware wallet manufacturer, is reviewing the affected cases, while police investigations remain ongoing. \u2014 link",
 "title": "Singapore Police Say Ledger Wallets Sold at Local Retailers Contained Malicious Hardware Implants",
@@ -3484,7 +3493,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793267456.3082075,
+"t": 1793268069.581825,
 "t0": 1793265329.0,
 "tgtext": "Smart trader 0xe813, with a 100% win rate, opened a 25x long on 19,491 $ETH ($45.34M) an hour ago and is now sitting on $315K in unrealized profit.\n\nThis trader has completed 5 trades, winning all of them and making a total profit of $4.6M.\n\nhttps://hyperbot.network/trader/0xe81309ec9b79309e4d108ae3a92d1aa618cd6d74",
 "title": "Smart trader 0xe813, with a 100% win rate, opened a 25x long on 19,491 ETH ($45.34M) an hour ago and is now sitting on $315K in unrealized profit.",
@@ -3611,44 +3620,44 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"02a612de49b5": 0.94,
+"02a612de49b5": 0.997,
 "046998605b0c": 0.148,
-"12f7896c303f": 0.155,
-"17e03ef8ae2d": 0.531,
-"1d58ca2f4797": 0.311,
-"1f464bd3176a": 0.201,
+"0b24d3599b94": 0.375,
+"12f7896c303f": 0.206,
+"17e03ef8ae2d": 0.548,
 "2158099f406b": 0.045,
 "221844390a3a": 0.052,
-"2314ead55ac4": 0.485,
+"2314ead55ac4": 0.371,
 "2d5e8c67cfc2": 0.107,
-"3b228edba6eb": 0.123,
+"351fe79affe5": 0.077,
+"3b228edba6eb": 0.063,
 "3c43c2738590": 0.189,
-"419abb36f087": 0.101,
-"432f1f7bbbe7": 0.43,
-"44e6ab12f205": 0.069,
-"49ae1f3b7b16": 0.221,
+"432f1f7bbbe7": 0.668,
 "4a97d66bca1a": 0.038,
 "54c53356c010": 0.108,
 "62bef60d8225": 0.06,
 "63aa453cc260": 0.019,
-"7310392c6446": 0.012,
+"7310392c6446": 0.03,
 "7d65452d2673": 0.146,
+"8250b5e69441": 0.04,
+"834e8b1be7d0": 0.065,
 "85f1aace6172": 0.09,
-"8909bc3117ee": 0.931,
-"8e4c4af27a90": 0.074,
+"922f5ac36198": 0.038,
 "98b5cc6b52b6": 0.162,
+"a5d25acd68c9": 0.323,
 "a76a81b7816a": 0.844,
 "a91f1239562a": 0.073,
+"b1c5f5dca0c1": 0.094,
 "b2a6719b55ff": 0.014,
 "b5c2723e88d6": 0.256,
 "bfce9c497c07": 0.027,
-"c776d0c2f37c": 0.131,
 "caf2ca9c9f4f": 0.227,
+"ce44be71e21d": 0.468,
+"d174615f8490": 0.032,
+"d502e72d4417": 0.058,
 "d9fcd80006f6": 0.048,
 "da076af61c4c": 0.218,
-"da31d20c4180": 0.414,
-"e3e58b1c4f6b": 0.032,
-"f200128d3f76": 0.04,
+"f200128d3f76": 0.1,
 "f2a26425a1e8": 0.613,
 "f7e487864aac": 0.027
 },
@@ -5055,64 +5064,64 @@
 "top": [
 [
 "02a612de49b5",
-27,
-238,
+25,
+248,
 1
-],
-[
-"8909bc3117ee",
-45,
-89,
-2
 ],
 [
 "a76a81b7816a",
 18,
-167,
+177,
+1
+],
+[
+"432f1f7bbbe7",
+29,
+202,
 1
 ],
 [
 "f2a26425a1e8",
 16,
-35,
+46,
 1
 ],
 [
 "17e03ef8ae2d",
-41,
-289,
+40,
+299,
 3
 ],
 [
 "332ed56168ed",
-6,
-288,
-2
-],
-[
-"2314ead55ac4",
-21,
-223,
+5,
+299,
 2
 ],
 [
 "ce44be71e21d",
-7,
-203,
-1
-],
-[
-"432f1f7bbbe7",
-30,
-191,
+6,
+214,
 1
 ],
 [
 "da31d20c4180",
+0,
+268,
+1
+],
+[
+"0b24d3599b94",
+35,
 16,
-258,
-2
+1
+],
+[
+"2314ead55ac4",
+9,
+233,
+1
 ]
 ],
-"top_at": 1793267456.3082075
+"top_at": 1793268069.581825
 }
