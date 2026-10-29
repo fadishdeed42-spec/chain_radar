@@ -479,19 +479,6 @@
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
 ]
 },
-"256c768f9aa5": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1793137516.7457454,
-"t0": 1793115961.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump says consumer confidence is up 7.5%, calling it \u201can extremely big rise.\u201d\n\nNews | Markets | YouTube",
-"title": "Trump says consumer confidence is up 7.5%, calling it \u201can extremely big rise.\u201d",
-"url": "https://t.me/cointelegraph/72886",
-"urls": []
-},
 "25e5de792bbc": {
 "coin": "bitcoin",
 "src": "www.tmgm.com",
@@ -587,6 +574,25 @@
 "title": "zkLink Nova Bridge Exploit Drains $778,625 in ETH and Tokens in One Transaction",
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iMGFyWDFGMEdwMExuR0daVk5IcmQ0MmJsOWVLZkI2ajZkWjVJNGQxVXZYR3VZTEgzTzdCSl9uLVE2d2ZYRDV5MGRRd092N1BtWkxQNEdtWE8xSzY0V1l4b3VuV3VEQTJYUTFYUUNVZHNVOWl1d3p1bW1lQQ?oc=5",
 "urls": []
+},
+"2c999d9a0ec8": {
+"coin": "tether",
+"src": "The Crypto Times",
+"srcs": [
+"BNO News",
+"BeInCrypto",
+"Bitcoin News",
+"Cointelegraph",
+"Crypto Briefing"
+],
+"t": 1793310722.6414914,
+"t0": 1793307720.0,
+"tgtext": "JUST IN: Tether freezes $971 million $USDT linked to suspected Binance hack.\n\nNo official statement from Binance yet.\n\n@WatcherGuru\nJUST IN: Circle freezes $823 million $USDC linked to suspected Binance hack.\n\n@WatcherGuru\nJUST IN: Tether has now frozen $1.5 billion in $USDT linked to suspected Binance hack.\n\n@WatcherGuru\nJUST IN: Binance issues statement following suspected crypto hack.\n\n\"Our teams are aware of reports of a potential security issue and are actively investigating. At this stage, we have not confirmed any impact to user funds.\n\nOur security teams are reviewing all relevant information with urgency, and we will provide updates through official Binance channels as soon as we have verified information. \"\n\n@WatcherGuru",
+"title": "Binance Hack: Tether (USDT) and Circle (USDC) Freeze $1.8B in Stablecoins Linked to Suspected Wallets",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWxSQTVydWh1cUtoMElCZkx3SjgyWGp6cUtXLW5CcHZ2Ty0yQWJJaWRlbjhjUTNTeDl1aDh2QWtHOWp2MlhpSF92Zmw2MUtlN21vVDA5WnFhQ0UxVlhwRXI3ZWdYakxlaklHV3o3dmVPMjFzODZPY253ZG9wVl8zNHcwQXNITWVvcmJlV1J5ZjN2Y3pwdm5aeHd1SXY4MHItS2N4c1l1U295ZWpFdTc0Yk9YaDZ4ci1WRVV3SFBmeE0tLTJMNHE3VTd6YjE3TTQ?oc=5",
+"urls": [
+"https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "2d583674634b": {
 "coin": "",
@@ -745,7 +751,7 @@
 },
 "363de98d0b57": {
 "coin": "",
-"src": "Cointelegraph",
+"src": "Hindustan Times",
 "srcs": [
 "BeInCrypto",
 "Bloomberg.com",
@@ -753,14 +759,15 @@
 "Cointelegraph",
 "Crypto Briefing"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793306940.0,
-"tgtext": "\ud83d\udea8 ALERT: Binance allegedly suffered a $2.77 billion hack.\n\nNews | Markets | YouTube\n\ud83d\udea8 JUST IN: CZ says Binance appears to have been hacked but user funds are safe, adding that he expects all user funds to be fully covered.\nJUST IN: Binance Founder CZ says it \"looks like\" Binance has been hacked.\n\n@WatcherGuru",
-"title": "CZ says Binance appears to have been hacked but user funds are safe, adding that he expects all user funds to be fully covered.",
-"url": "https://t.me/cointelegraph/72944",
+"tgtext": "\ud83d\udea8 ALERT: Binance allegedly suffered a $2.77 billion hack.\n\nNews | Markets | YouTube\n\ud83d\udea8 JUST IN: CZ says Binance appears to have been hacked but user funds are safe, adding that he expects all user funds to be fully covered.\nJUST IN: Binance Founder CZ says it \"looks like\" Binance has been hacked.\n\n@WatcherGuru\nBREAKING: World's largest crypto exchange Binance hacked with over $5.6 billion stolen:\n\n\u2022 $1.45 billion $BTC\n\u2022 $875 million $ETH\n\u2022 $234 million $TRX\n\u2022 $50 million $XAUT\n\u2022 $1.57 billion $USDT\n\u2022 $823 million $USDC\n\u2022 $75 million $WBETH\n\u2022 $88.5 million $RLUSD\n+ $447.5 million additional cryptocurrencies\n\nThis is the largest hack in crypto history.\n\n@WatcherGuru",
+"title": "Crypto giant Binance investigating security concerns amid reports of hack: 'User funds are completely safe' | World News",
+"url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaHFvRlZzaEVvSkpLOXhiYXkzMDFJU0ZWdVgzaE55eFByeGZ5X2dSQndpQWViYWdSQ1oxNXVRM2UtZTh4WFRRM3JLc18wcTVRNlNMSVYtRXlPU0p6TWlIQnQ1VExtOXh3YkRnUVJTVzhLSkthWUxFV3F3V2Q5aV9Yd0t4V1dfZHJQWEVqTDZSRVBTM0pIOERMWnRnRnBlVUQtVjJxNnAwd1lZTXI0cHlnQVlaMUNJb1p6RHZ6T1cza3N4UUJKclA0WC1yVWNwMjRTLW5wQmkxdG5UdklJeDQzYmVGemRDLUJvdzIzZjRkOEprM2pYSmdiMmxYRdIBgAJBVV95cUxPY1N4SS04ODZoR0Rpa2xzVENaTFUzM3BsNlV6SEpIZW5vUmtscTNhbnVub1JMNmoyM2ppSWExbHRTYjV6MEZEOTF0NzB2enhnS3VhUFpXREdUVUl0Xy1uUlI1d0FUQ25mNWZEZlpFODZFdkRaUnpTSUlnb0xIUG5LMkdJeFFXdW1uSkRuU0t2TWk0dlFDTUczUkJMbVk0aTBBamYtTlltUHdLSEo3cW5rTEN6ci1ydjZVZWE3TlpUTmw5UUhkSjV5MlFZSG5oZC1SdldPQlJ3eGd0S1FvLXltdGRGMGpsM01TNnRzemtyUWhPTVBiVDRfV0lzUUpjOWxB?oc=5",
 "urls": [
 "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
-"https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
+"https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+"https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171"
 ]
 },
 "368262d87964": {
@@ -802,7 +809,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793298708.0,
 "tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed.\n\nPolymarket said it has identified and fixed an issue affecting its international platform involving a compromised third-party service provider. The incident has been referred to relevant law enforcement authorities. Polymarket pledged to fully reimburse all affected users and said it has temporarily halted trading as a precaution while working to restore platform operations. \u2014 link\n\ud83d\udea8 UPDATE: Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.\n\nNews | Markets | YouTube",
 "title": "Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.",
@@ -910,6 +917,23 @@
 "title": "Bloomberg, Jump Trading and Susquehanna reportedly signed up for Truth Social\u2019s service offering faster access to Trump\u2019s posts, per Reuters.",
 "url": "https://t.me/cointelegraph/72920",
 "urls": []
+},
+"3f0238d50808": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"Bitcoin Magazine",
+"TradingView"
+],
+"t": 1793310722.6414914,
+"t0": 1793291184.0,
+"tgtext": "",
+"title": "Franklin Templeton Just Launched ETFs That Turn Stock Dividends Into Bitcoin. Is That a Smarter Way to Own BTC?",
+"url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPXzQ4ZnRFNzFNMXhnenFueWZLTFMxRWRUYkpObmZjTV83OEplcW5yX3d2bkhidHdjRGo3dVlLckZJNk1BUUNUeGlReU55T2RmdWRwRjNxUEtpSnFWWFdwcmtuY3ctaXNiZ1VKUm5CenRocGtTR3JtVEh3LVdpa1lwVXExdXRWcElZWkxSRzQ3MWlfRGxkUTd1VmxJLVo2OTR5VVowZzR2c2p1Nkw1TzFVZ0xrM0VuNXNQS0JuWlY4R0NhOHo4dmNfU2lodnVFelJkQ3JVaW12U05rYWF0alVtN09ITHRpbkhYNkJROUJUOFkyZjIwcGNfSUZsMFU?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf"
+]
 },
 "3fc1a47a51cb": {
 "coin": "bitcoin",
@@ -1257,7 +1281,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793304841.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 20% after missing Q3 2026 earnings.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 20% after missing Q3 2026 earnings.",
@@ -1351,9 +1375,9 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793309101.0,
-"tgtext": "\ud83d\udea8 BIG: Binance says it is investigating a potential security issue and has not confirmed any impact on user funds.\n\nNews | Markets | YouTube",
+"tgtext": "\ud83d\udea8 BIG: Binance says it is investigating a potential security issue and has not confirmed any impact on user funds.\n\nNews | Markets | YouTube\n\ud83d\udea8 JUST IN: Binance.US reports it is unaffected by the Binance.com security incident, with user funds safe and services operating normally.\n\nNews | Markets | YouTube",
 "title": "BIG: Binance says it is investigating a potential security issue and has not confirmed any impact on user funds.",
 "url": "https://t.me/cointelegraph/72946",
 "urls": []
@@ -1726,10 +1750,9 @@
 "srcs": [
 "Bitcoin News",
 "Cointelegraph",
-"Rolling Out",
 "bloomingbit"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793293721.0,
 "tgtext": "",
 "title": "KuCoin Halts All Services for Users in Russia and Belarus",
@@ -2138,7 +2161,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793308201.0,
 "tgtext": "\ud83d\udea8 HUGE: Over $590 million in crypto positions were liquidated in the past hour, including nearly $570 million in longs.\n\nNews | Markets | YouTube",
 "title": "HUGE: Over $590 million in crypto positions were liquidated in the past hour, including nearly $570 million in longs.",
@@ -3223,10 +3246,10 @@
 "Bitcoin News",
 "Cointelegraph",
 "Crypto Briefing",
-"Cryptonews.net",
-"Cyber Kendra"
+"CryptoTicker.io",
+"Cryptonews.net"
 ],
-"t": 1793310112.4329612,
+"t": 1793310419.24688,
 "t0": 1793308095.0,
 "tgtext": "JUST IN: Tether freezes $971 million $USDT linked to suspected Binance hack.\n\nNo official statement from Binance yet.\n\n@WatcherGuru\nJUST IN: Circle freezes $823 million $USDC linked to suspected Binance hack.\n\n@WatcherGuru\nJUST IN: Tether has now frozen $1.5 billion in $USDT linked to suspected Binance hack.\n\n@WatcherGuru\nJUST IN: Binance issues statement following suspected crypto hack.\n\n\"Our teams are aware of reports of a potential security issue and are actively investigating. At this stage, we have not confirmed any impact to user funds.\n\nOur security teams are reviewing all relevant information with urgency, and we will provide updates through official Binance channels as soon as we have verified information. \"\n\n@WatcherGuru",
 "title": "Binance Hack: Tether (USDT) and Circle (USDC) Freeze $1.8B in Stablecoins Linked to Suspected Wallets",
@@ -3314,7 +3337,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793294709.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.",
@@ -3639,7 +3662,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793310112.4329612,
+"t": 1793310722.6414914,
 "t0": 1793299621.0,
 "tgtext": "\ud83d\udea8 ALERT: Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.\n\nNews | Markets | YouTube",
 "title": "Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.",
@@ -3798,44 +3821,44 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"0035bf7a457e": 0.04,
 "00bf816f489c": 0.022,
-"09ed32aa200e": 0.122,
-"0d1c28984be5": 0.116,
+"07181809720f": 0.015,
+"0a6fccf3e19c": 0.024,
 "0e104a7d6e83": 0.043,
 "15ebf8ab4bc5": 0.03,
 "1b2ef564af63": 0.034,
 "1b5fa7ded5b3": 0.144,
 "1fd8af8ac86a": 0.064,
-"2523df4e3811": 0.023,
-"363de98d0b57": 0.961,
+"2c999d9a0ec8": 0.983,
+"363de98d0b57": 0.964,
 "3853e60e7952": 0.944,
-"3d487ac1d7f4": 0.034,
+"3f0238d50808": 0.57,
+"43b1e235bb2b": 0.016,
 "4aab50a17d6b": 0.017,
-"4bd0956a8bd4": 0.013,
+"4bd0956a8bd4": 0.007,
 "58f11570b220": 0.129,
 "597405d99967": 0.631,
+"62b5354ed41c": 0.799,
 "630b899516bd": 0.076,
-"69816639119f": 0.01,
 "6d64bb7ff9cc": 0.03,
 "745691133fa4": 0.012,
 "7d623cd8eced": 0.012,
-"8340884ad289": 0.571,
+"8340884ad289": 0.669,
 "90a15db5b6d0": 0.046,
-"95ed1d80d66d": 0.02,
 "9ab0a9d8587f": 0.401,
+"9cc5fe412576": 0.055,
 "a0a1f515c436": 0.945,
 "a54caaa2aff3": 0.279,
 "a6ede653e372": 0.01,
 "a884cee081e7": 0.091,
 "a9347d489f5d": 0.143,
-"c17b4ed7e48c": 0.126,
-"c6c5fa3a6736": 0.04,
+"c6c5fa3a6736": 0.009,
 "cb641998b7ff": 0.013,
 "d168207ab6eb": 0.041,
 "d5adad63706c": 0.154,
 "d7b466fa1ca2": 0.078,
-"dad2ad80ebd9": 0.945,
+"d8e6bd797809": 0.144,
+"de54304f1bc2": 0.343,
 "e295733031d7": 0.674,
 "f2118f80711d": 0.41
 },
@@ -5485,71 +5508,97 @@
 "puts",
 "question"
 ]
+},
+{
+"e": [
+"big",
+"binance"
+],
+"k": [],
+"t": 1793310722.6414914,
+"u": [
+"https://t.me/cointelegraph/72946",
+"https://t.me/cointelegraph/72947"
+],
+"w": [
+"any",
+"big",
+"binance",
+"confirmed",
+"funds",
+"impact",
+"investigating",
+"issue",
+"not",
+"potential",
+"security",
+"user"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"363de98d0b57",
+"2c999d9a0ec8",
 98,
-53,
-9
+50,
+13
 ],
 [
-"dad2ad80ebd9",
-98,
-34,
-8
+"363de98d0b57",
+90,
+63,
+12
 ],
 [
 "a0a1f515c436",
 31,
-32,
+42,
 1
 ],
 [
 "3853e60e7952",
-89,
-190,
+88,
+200,
 4
 ],
 [
-"e295733031d7",
-22,
-257,
+"62b5354ed41c",
+26,
+27,
 1
 ],
 [
-"597405d99967",
-28,
-88,
+"e295733031d7",
+21,
+267,
 1
 ],
 [
 "8340884ad289",
-73,
-273,
-4
+62,
+283,
+3
+],
+[
+"597405d99967",
+28,
+98,
+1
+],
+[
+"3f0238d50808",
+21,
+326,
+3
 ],
 [
 "f2118f80711d",
 42,
-175,
+185,
 2
-],
-[
-"62b5354ed41c",
-18,
-17,
-1
-],
-[
-"9ab0a9d8587f",
-23,
-202,
-1
 ]
 ],
-"top_at": 1793310112.4329612
+"top_at": 1793310722.6414914
 }
