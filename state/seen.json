@@ -67,7 +67,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793253182.0,
 "tgtext": "A mysterious whale has dumped 1.02M $SOL ($104.3M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/85ec10dc-382f-4b66-91a8-d1842b34a7fb",
 "title": "A mysterious whale has dumped 1.02M SOL ($104.3M) over the past 5 days!",
@@ -426,7 +426,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793233494.0,
 "tgtext": "\u26a1\ufe0f NOW: Coinbase CEO Brian Armstrong says, \u201cWith stablecoins and x402, businesses can accept usage-based micropayments, and reduce friction to checkout.\u201d\n\nNews | Markets | YouTube",
 "title": "NOW: Coinbase CEO Brian Armstrong says, \u201cWith stablecoins and x402, businesses can accept usage-based micropayments, and reduce friction to checkout.\u201d",
@@ -439,7 +439,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793242733.0,
 "tgtext": "Tether Blacklists Dozens of TRON Addresses Holding Approximately $27 Million in USDT\n\nAccording to TrustSniffer, Tether blacklisted at least 33 addresses on the TRON network on October 28. The addresses held approximately $27 million in USDT at the time they were flagged, with the largest individual address holding around $7.8 million. The figures are based on monitored address balances and do not necessarily represent the exact amount frozen at execution. Tether has not publicly disclosed the reasons for the coordinated blacklisting activity. \u2014 link",
 "title": "Tether Blacklists Dozens of TRON Addresses Holding Approximately $27 Million in USDT",
@@ -494,7 +494,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793254340.7437181,
+"t": 1793254647.578693,
 "t0": 1793254065.0,
 "tgtext": "U.S. Bitcoin ETFs Draw $137 Million as Ether Funds Shed $21.4 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $137 million in net inflows on October 28, led by BlackRock's IBIT with $136 million. Spot Ethereum ETFs saw $21.41 million in net outflows, although Fidelity's FETH posted the largest individual inflow at $18.78 million. BlackRock is the world's largest asset manager, while Fidelity is one of the largest U.S. investment firms. \u2014 link",
 "title": "U.S. Bitcoin ETFs Draw $137 Million as Ether Funds Shed $21.4 Million",
@@ -573,6 +573,21 @@
 "tgtext": "",
 "title": "Ki Young Ju Warns Bitcoin Must Hold $80,000 to Avoid Liquidation Cascade",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CSG9tMlpaZV9SU3dPT0ZzMGtFeHhfUXByTnRtMmtBS2xIN2h4TzR1QkF1UkhIam9QbVR2ajctX1lKa2NLVDVBS1o4TFl3Vzk2S3VZdDFGY0RQZw?oc=5",
+"urls": []
+},
+"29b49927af4a": {
+"coin": "ethereum",
+"src": "The Crypto Times",
+"srcs": [
+"Coinfomania",
+"The Crypto Times",
+"The Defiant"
+],
+"t": 1793254951.1955326,
+"t0": 1793241360.0,
+"tgtext": "",
+"title": "zkLink Nova Bridge Exploited for ~$786K as Forged Batch Root Drains Ethereum Escrow",
+"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZS1KWV8xNzV6a1hyaHdDcG9CZVhYaUVmNUVEZ0JKekdqaGVqbENnS1FTT25wS3pHMnhxYVBjblhiYld0UjZaWUdMakYyN190b01ZVEo5YnpTTzA3OWdzVDhEajRkZkJab2I2X2h2ZHB0NGVUTXJlQ1dabVVpRnBfYnhXVzNob3VsbllfN3o4Uk5NME10bzdGNERDYmxGNDBoZmFzdzQ3aktYUGJQT25Ib252SkpwMmowUWozRg?oc=5",
 "urls": []
 },
 "2ba2ca559c85": {
@@ -1301,19 +1316,6 @@
 "https://bitcoinmagazine.com/news/cftc-reopens-questions-about-polymarkets"
 ]
 },
-"5ad314a10e85": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1793082006.3099608,
-"t0": 1793060665.0,
-"tgtext": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident\n\nPassport hardware wallet maker Foundation said it has identified more than 23,000 phishing email attempts, including 19,057 messages delivered through Mailgun and 1,503 sent via Google Workspace. The number of affected users remains unknown.\n\nThe investigation found that personal information from historical WooCommerce orders remained in legacy database tables despite appearing redacted in the admin dashboard. Customer data from orders placed through Shopify since May may also have been exposed. Foundation said it has revoked affected email credentials and taken compromised legacy services offline. There is no evidence that Passport devices or their private keys were compromised. The phishing emails attempted to trick users into revealing their wallet recovery phrases. \u2014 link",
-"title": "Foundation Identifies Over 23,000 Phishing Email Attempts in Passport Wallet Security Incident",
-"url": "https://t.me/wublockchainenglish/26561",
-"urls": []
-},
 "6030907bb911": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -1997,7 +1999,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793242795.0,
 "tgtext": "This AAVE & WLD whale keeps dumping!\n\nOver the past 5 days, the whale has deposited 152,000 $AAVE ($21.3M) and 45.17M $WLD ($21.4M) into multiple exchanges.\nhttps://x.com/lookonchain/status/2113838395676114966",
 "title": "This AAVE & WLD whale keeps dumping!",
@@ -2319,7 +2321,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793233578.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bloomberg and major trading firms sign deals to gain faster access to President Trump's social media posts.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Bloomberg, Jump Trading and Susquehanna reportedly signed up for Truth Social\u2019s service offering faster access to Trump\u2019s posts, per Reuters.\n\nNews | Markets | YouTube",
 "title": "Bloomberg, Jump Trading and Susquehanna reportedly signed up for Truth Social\u2019s service offering faster access to Trump\u2019s posts, per Reuters.",
@@ -2807,7 +2809,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793253711.0,
 "tgtext": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-10-31\n\n\nU.S. Stock Trading on Binance will be temporarily unavailable due to a scheduled system upgrade by our partner broker. During this period, users will not be able to place stock trading orders. \n- System Upgrade Window: 2026-10-31 20:50 (UTC) - 2026-10-31 22:30 (UTC)\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-10-31",
@@ -3047,7 +3049,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793243792.0,
 "tgtext": "Singapore Police Say Ledger Wallets Sold at Local Retailers Contained Malicious Hardware Implants\n\nSingapore police said on October 28 that some Ledger cryptocurrency hardware wallets purchased from local retailers contained malicious hardware implants capable of stealing users' recovery phrases or private keys. At least two cases have been reported since September 10, resulting in losses of approximately S$3.5 million ($2.7 million). Ledger, a leading French hardware wallet manufacturer, is reviewing the affected cases, while police investigations remain ongoing. \u2014 link",
 "title": "Singapore Police Say Ledger Wallets Sold at Local Retailers Contained Malicious Hardware Implants",
@@ -3062,7 +3064,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793245769.0,
 "tgtext": "\ud83d\udea8 REKT: Over $356M in crypto positions were liquidated in the past 24 hours as $BTC\n fell below $80,000, with longs taking $207.7M of the hit.\n\nNews | Markets | YouTube",
 "title": "REKT: Over $356M in crypto positions were liquidated in the past 24 hours as BTC",
@@ -3582,7 +3584,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793254340.7437181,
+"t": 1793254951.1955326,
 "t0": 1793239047.0,
 "tgtext": "Many Ethereum OGs are waking up and dumping $ETH!\n\nAfter 3 years of inactivity, an Ethereum OG wallet (0x6D30) deposited all 2,119 $ETH ($4.99M) into #Coinbase 7 hours ago.\n\nhttps://arkm.com/explorer/address/0x6D30C34Cc79906CD4c10cD1d710D1d736aa679E2",
 "title": "Many Ethereum OGs are waking up and dumping ETH!",
@@ -3695,44 +3697,44 @@
 },
 "probs": {
 "01f9b0041e3d": 0.054,
-"02a612de49b5": 0.895,
+"02a612de49b5": 0.865,
 "10bd0289b9e0": 0.029,
-"1a0a851d2172": 0.037,
+"1a0a851d2172": 0.027,
 "1c0ab8909df2": 0.067,
 "1d5a3c7dcef6": 0.403,
-"2314ead55ac4": 0.767,
-"29b49927af4a": 0.33,
+"1ed08d6fe621": 0.036,
+"2314ead55ac4": 0.338,
+"29b49927af4a": 0.429,
 "2a8fd6c8a788": 0.058,
-"2ae2faf345ab": 0.049,
 "2bc7e52dea63": 0.03,
 "2ce249e8a9c0": 0.059,
-"31e52354c08a": 0.075,
 "332ed56168ed": 0.037,
 "351fe79affe5": 0.053,
 "432f1f7bbbe7": 0.349,
 "449b8f644d23": 0.056,
 "4542f3978c92": 0.035,
 "54c53356c010": 0.224,
-"652f4f290c52": 0.069,
-"6c14e4738372": 0.028,
+"6c14e4738372": 0.036,
 "78f7a83e386d": 0.063,
 "7ffb431719ba": 0.025,
 "958c4d030ac2": 0.868,
-"97d4730c6101": 0.166,
+"97d4730c6101": 0.088,
 "98b5cc6b52b6": 0.151,
-"a38e26b412fc": 0.035,
 "a6fcc72434af": 0.111,
 "aee67ff8ac6e": 0.034,
+"b1c5f5dca0c1": 0.109,
 "b2a6719b55ff": 0.009,
 "b318a215b6af": 0.296,
 "ca9e479c3432": 0.021,
-"caf2ca9c9f4f": 0.552,
+"caf2ca9c9f4f": 0.471,
+"d05e5c66f4c8": 0.028,
 "d62d7c5598e3": 0.11,
 "d7f0f22e8fd6": 0.661,
 "d8b73b638d1f": 0.625,
+"da076af61c4c": 0.126,
 "db685afb216e": 0.257,
 "ec1d4df324ab": 0.365,
-"fac8c5534f3e": 0.468,
+"fac8c5534f3e": 0.527,
 "fbbd908a23e8": 0.029
 },
 "sent": [
@@ -5106,64 +5108,64 @@
 "top": [
 [
 "a77bd69346a5",
-6,
-346,
+5,
+356,
 2
+],
+[
+"958c4d030ac2",
+25,
+203,
+1
 ],
 [
 "02a612de49b5",
 34,
-19,
-1
-],
-[
-"958c4d030ac2",
-27,
-192,
-1
-],
-[
-"2314ead55ac4",
-16,
-5,
+29,
 1
 ],
 [
 "d7f0f22e8fd6",
 26,
-176,
+186,
 2
 ],
 [
 "d8b73b638d1f",
 31,
-143,
+153,
+1
+],
+[
+"fac8c5534f3e",
+9,
+265,
 1
 ],
 [
 "caf2ca9c9f4f",
 18,
-10,
+21,
 1
 ],
 [
-"fac8c5534f3e",
-11,
-255,
-1
+"29b49927af4a",
+49,
+227,
+3
 ],
 [
 "1d5a3c7dcef6",
-23,
-193,
+21,
+204,
 1
 ],
 [
 "1d413ff299f0",
 0,
-347,
+358,
 1
 ]
 ],
-"top_at": 1793254340.7437181
+"top_at": 1793254951.1955326
 }
