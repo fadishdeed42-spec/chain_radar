@@ -214,3 +214,26 @@ fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: To
 telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 12
 market 100 news 47 reddit 25 hacks 0
 alerts sent 0
+Traceback (most recent call last):
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 2821, in <module>
+    listen()
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 2809, in listen
+    save_tg(tgs); git_sync(force=True)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 615, in git_sync
+    r = sh('git pull --rebase -q -X theirs && git push -q')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 610, in <lambda>
+    sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command 'git pull --rebase -q -X theirs && git push -q' timed out after 60 seconds
