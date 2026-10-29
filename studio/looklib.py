@@ -70,8 +70,8 @@ def _smooth(im):
 
 def noir(im, t):
     g = cv2.cvtColor(_u8(im), cv2.COLOR_RGB2GRAY).astype(np.float32)
-    g = np.clip((g - 128) * 1.55 + 120, 0, 255)                       # hard contrast, crushed blacks
-    g = g * _vig(*g.shape, .9)[..., 0]
+    g = np.clip((g - 118) * 1.4 + 150, 0, 255)                       # hard contrast, crushed blacks
+    g = g * _vig(*g.shape, .6)[..., 0]
     out = np.stack([g * 1.02, g * 1.0, g * .92], -1)                # faint warm-silver tone
     h, w = g.shape
     # light slats across the frame (venetian-blind shadow) drifting slowly

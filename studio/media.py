@@ -111,6 +111,19 @@ def fetch(job):
                 get(m['small'], os.path.join(job, f))
             used.add(m['id'])
             got[str(i)] = {'kind': m['kind'], 'file': f, 'credit': m['credit'], 'real': bool(m.get('real')), 'q': q}
+            if m['kind'] == 'video' and kind == 'stock':                  # fast cuts: a few more moving clips for the same scene
+                more = []
+                for k in range(1, 4):
+                    try:
+                        x = pixabay_video(q, used)
+                        if not x: break
+                        ff = f'media/{i}_{k}.mp4'
+                        get(x.get('small') or x['url'], os.path.join(job, ff))
+                        used.add(x['id']); more.append(ff)
+                        if x['credit'] not in got[str(i)]['credit']: got[str(i)]['credit'] += ' · ' + x['credit']
+                    except Exception as e:
+                        print('extra clip fail', i, k, repr(e)[:80]); break
+                if more: got[str(i)]['more'] = more
             print('media', i, m['kind'], q, '->', m['credit'])
         except Exception as e:
             print('media fail', i, q, repr(e)[:120])

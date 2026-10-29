@@ -75,20 +75,31 @@ def cover(img, w, h):
     return im[y0:y0 + h, x0:x0 + w]
 
 
+CUT = 2.4                                                              # seconds per clip: a scene cuts between its clips
+
+
+def _clip(i, k, f):
+    key = ('src', i) if k == 0 else ('src', i, k)
+    if key not in _cache:
+        cap = cv2.VideoCapture(os.path.join(JOB, f))
+        _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
+    return _cache[key]
+
+
 def media_frame(i, t):
     m = MEDIA[i]; key = ('src', i)
-    if key not in _cache:
-        if m['kind'] == 'video':
-            cap = cv2.VideoCapture(os.path.join(JOB, m['file']))
-            _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
-        else:
-            im = cv2.imread(os.path.join(JOB, m['file']), cv2.IMREAD_COLOR)
-            im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None
-            if im is not None and not m.get('real'): im *= min(1.0, 85.0 / max(1.0, float(im.mean())))
-            _cache[key] = {'img': im}
-    c = _cache[key]
+    if m['kind'] != 'video' and key not in _cache:
+        im = cv2.imread(os.path.join(JOB, m['file']), cv2.IMREAD_COLOR)
+        im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None
+        if im is not None and not m.get('real'): im *= min(1.0, 85.0 / max(1.0, float(im.mean())))
+        _cache[key] = {'img': im}
     tl = max(0.0, t - P(i))
     if m['kind'] == 'video':
+        files = [m['file']] + list(m.get('more') or [])
+        k = int(tl // CUT) % len(files) if len(files) > 1 else 0
+        c = _clip(i, k, files[k])
+        tl = tl - (tl // CUT) * CUT if len(files) > 1 else tl           # each clip restarts at its own start
+        tl += (int(max(0.0, t - P(i)) // (CUT * len(files)))) * CUT      # ...and continues on its next visit
         idx = int(tl * c['fps']) % max(1, c['n'] - 2)
         if idx != c['pos']:
             if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
@@ -99,6 +110,7 @@ def media_frame(i, t):
                 c['img'] = im * c['gain']
             c['pos'] = idx
         return c['img']
+    c = _cache[key]
     if c['img'] is None: return None
     if ('cov', i) not in _cache: _cache[('cov', i)] = cover(c['img'], int(RW * 1.15), int(RH * 1.15))
     im = _cache[('cov', i)]
