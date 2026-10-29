@@ -207,19 +207,6 @@
 "url": "https://t.me/wublockchainenglish/26599",
 "urls": []
 },
-"0c1f871f1b83": {
-"coin": "bitcoin",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1793134452.6684191,
-"t0": 1793133362.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
-"url": "https://t.me/WatcherGuru/15641",
-"urls": []
-},
 "0ef6cf9a58a5": {
 "coin": "bitcoin",
 "src": "www.tokenpost.com",
@@ -836,7 +823,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793298708.0,
 "tgtext": "Multiple Polymarket Users Report Stolen Funds as Platform Restricts Trading and Launches Investigation\n\nMultiple Polymarket users reported unauthorized fund transfers, with some claiming losses of hundreds of thousands of dollars. Users suspected a possible frontend compromise, though the cause remains unconfirmed. Polymarket said it had entered cancel-only mode and paused relayer actions while investigating. The platform previously reported a third-party vendor breach that led to approximately $3 million in stolen user funds, but said the vulnerability had been fixed and affected users would be fully reimbursed.\n\nPolymarket said it has identified and fixed an issue affecting its international platform involving a compromised third-party service provider. The incident has been referred to relevant law enforcement authorities. Polymarket pledged to fully reimburse all affected users and said it has temporarily halted trading as a precaution while working to restore platform operations. \u2014 link\n\ud83d\udea8 UPDATE: Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.\n\nNews | Markets | YouTube",
 "title": "Polymarket says it has fixed an issue involving a compromised third-party provider and will make affected users whole, with trading temporarily halted as it works to restore the platform.",
@@ -1291,7 +1278,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793304841.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 20% after missing Q3 2026 earnings.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 20% after missing Q3 2026 earnings.",
@@ -1762,7 +1749,7 @@
 "Cointelegraph",
 "bloomingbit"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793293721.0,
 "tgtext": "",
 "title": "KuCoin Halts All Services for Users in Russia and Belarus",
@@ -2128,7 +2115,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793298001.0,
 "tgtext": "\ud83d\udd25 HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.\n\nNews | Markets | YouTube",
 "title": "HUGE: Blockchain revenue is projected to reach roughly $100 billion in 2026 despite a 28% year-over-year decline, according to a new 1kx report.",
@@ -2354,7 +2341,7 @@
 "The Times of Israel",
 "i24NEWS"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793294946.0,
 "tgtext": "",
 "title": "Israeli Soldier Charged With Passing Sensitive Military Information To Iranian Operatives",
@@ -3087,6 +3074,21 @@
 "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXJmQWJQV2ZMb3R3em9sOUdjQUtMNVlENGZETHUxNm8zRTY1N2FuTDA5VFl4UGZPMFRENGdBSnJOQ3hQUTQtWHRrdTZHMDRrdWhQcTFrU0JZV0hvWVBXbk52c0h6SnhVSkxVQ3hfdVdpZlpwZHFTdUdKVDFHTVBpemVFeDdUaXQ5dFpMWjZqODhpNHdIQ0UzTFdlcmZka2JobmFJTTdJVTbSAbYBQVVfeXFMT1hPWTRsem1kQ24zV25iU1NqeXVuQVNxOG5JUGVzQUdPOGFXbERZNEI2eXJ6bkMzZzBzZWlGUExWMlVSZ2ZqcTRRN0UxUXhVQzB4VUk4UENCQ3ZvZF85VDI1cnRqTkhJd1hYVHZUOXhSR2RZcnlxSDRJNkFsaGdmOVlvYjd6QUFEQW5oOWRVRnRKWWZQTldEYlh6YjVOV1VzMUlWZENXVmFaci02WlBxVnFYSlBGMUE?oc=5",
 "urls": []
 },
+"d5adad63706c": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate"
+],
+"t": 1793307362.6737523,
+"t0": 1793300442.0,
+"tgtext": "",
+"title": "Mystery whale pulls $290 million from DeFi every midnight as Aave borrowing rates triple",
+"url": "https://cryptoslate.com/aaves-midnight-usdc-withdrawals-briefly-left-lenders-with-little-spare-cash/",
+"urls": [
+"https://cryptoslate.com/aaves-midnight-usdc-withdrawals-briefly-left-lenders-with-little-spare-cash/"
+]
+},
 "d779a0d683f7": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3286,9 +3288,10 @@
 "coin": "bitcoin",
 "src": "www.tmgm.com",
 "srcs": [
+"Coinpedia",
 "www.tmgm.com"
 ],
-"t": 1793305891.9665356,
+"t": 1793307666.1608412,
 "t0": 1793291925.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: Why has BTC slipped below $80,000 as Fed keeps rates unchanged with a hawkish tone?",
@@ -3301,7 +3304,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793294709.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the Federal Reserve \"hates\" cutting interest rates.",
@@ -3585,17 +3588,16 @@
 },
 "f1c21a8b1bba": {
 "coin": "bitcoin",
-"src": "Benzinga",
+"src": "Bitcoin Magazine",
 "srcs": [
-"Benzinga",
 "Bitcoin Magazine",
 "The Cryptonomist"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793288505.0,
 "tgtext": "",
-"title": "Franklin US Equity Bitcoin Drip Index ETF (FBEQ) Stock Price, Quote, News & History",
-"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BeHhHc3d6eFQ0Vmo3SS1PcWRiNWdBR2M3ZTdvZ1VmcGtITGJCaDlLWmx5blpmbDRsQ2VsMzFfYjM2bXRwTWxUd1pvNA?oc=5",
+"title": "Franklin Templeton Officially Launches 2 Bitcoin DRIP ETFs That Turn Dividends Into Bitcoin",
+"url": "https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf",
 "urls": [
 "https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf"
 ]
@@ -3607,7 +3609,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793299621.0,
 "tgtext": "\ud83d\udea8 ALERT: Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.\n\nNews | Markets | YouTube",
 "title": "Polymarket reports a major trading API outage, switches to cancel-only mode and pauses relay actions while investigating the incident.",
@@ -3649,7 +3651,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793307056.2416806,
+"t": 1793307666.1608412,
 "t0": 1793287053.0,
 "tgtext": "JUST IN: Elon Musk reacts to billionaire investor Stan Druckenmiller backing 24/7 Hyperliquid $HYPE futures trading in the US:\n\n\"Interesting\"\n\n@WatcherGuru\nLegendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%\n\nLegendary Wall Street investor Stan Druckenmiller stated in his debut post on X that he has invested in Trade xyz, expressing strong support for the platform's partnership with the Intercontinental Exchange (ICE) to bring 24/7 perpetual contract trading to the US market. Druckenmiller noted that, as an active market participant, he looks forward to utilizing the platform's innovative products to optimize his own investment decision-making process. The post was subsequently retweeted by Elon Musk with the comment \"Interesting.\" Driven by today's news, HYPE surged to $94.64, registering a 24-hour gain of 17.64% and sitting just 4.3% shy of its all-time high (ATH). \u2014 link",
 "title": "Legendary Wall Street Investor Stanley Druckenmiller Invests in Trade xyz; Musk Retweets as HYPE Surges 17.64%",
@@ -3764,46 +3766,46 @@
 "quack-ai": 1793049071.9312153
 },
 "probs": {
-"0a6fccf3e19c": 0.045,
-"0e104a7d6e83": 0.04,
-"0f490f842c94": 0.014,
-"15ebf8ab4bc5": 0.107,
-"16e9c7d9e844": 0.014,
-"1b5fa7ded5b3": 0.123,
-"37cf01596785": 0.007,
-"3853e60e7952": 0.953,
-"3d487ac1d7f4": 0.012,
-"43b1e235bb2b": 0.013,
-"4aab50a17d6b": 0.013,
-"4bd0956a8bd4": 0.005,
-"51c36ac33dab": 0.019,
-"58f11570b220": 0.111,
-"597405d99967": 0.655,
-"630b899516bd": 0.065,
-"6ff99d9a44d6": 0.053,
-"745691133fa4": 0.009,
-"7d623cd8eced": 0.009,
-"8173d5a64620": 0.01,
-"8340884ad289": 0.58,
-"95ed1d80d66d": 0.018,
-"9ab0a9d8587f": 0.36,
-"a2d81f9f1f94": 0.012,
-"a6ede653e372": 0.008,
-"a884cee081e7": 0.077,
-"a9347d489f5d": 0.39,
-"c17b4ed7e48c": 0.082,
-"c534b3adba7d": 0.067,
-"c6c5fa3a6736": 0.018,
-"d168207ab6eb": 0.035,
-"d3abbfa8802f": 0.041,
-"d5adad63706c": 0.133,
-"d9073fd24d6e": 0.221,
-"e295733031d7": 0.635,
-"ee9312d0043d": 0.03,
-"f06c2fef12bd": 0.016,
-"f1c21a8b1bba": 0.513,
-"f2118f80711d": 0.369,
-"f416cce0e1e0": 0.332
+"0a6fccf3e19c": 0.053,
+"0d1c28984be5": 0.128,
+"0e050a9a2d66": 0.017,
+"0e104a7d6e83": 0.095,
+"0f490f842c94": 0.016,
+"15ebf8ab4bc5": 0.124,
+"16e9c7d9e844": 0.016,
+"1b5fa7ded5b3": 0.144,
+"37cf01596785": 0.008,
+"3853e60e7952": 0.96,
+"43b1e235bb2b": 0.016,
+"4aab50a17d6b": 0.015,
+"4bd0956a8bd4": 0.006,
+"4c267f04bab3": 0.011,
+"58f11570b220": 0.129,
+"597405d99967": 0.693,
+"630b899516bd": 0.076,
+"745691133fa4": 0.006,
+"7c8dbca45034": 0.024,
+"7d623cd8eced": 0.028,
+"8173d5a64620": 0.012,
+"8340884ad289": 0.669,
+"9766d22b9df2": 0.095,
+"9ab0a9d8587f": 0.401,
+"a6ede653e372": 0.009,
+"a884cee081e7": 0.091,
+"a9347d489f5d": 0.432,
+"b854ee38ca0b": 0.017,
+"c17b4ed7e48c": 0.096,
+"c534b3adba7d": 0.079,
+"c6c5fa3a6736": 0.022,
+"cbc8f73d5b4e": 0.036,
+"d168207ab6eb": 0.041,
+"d3abbfa8802f": 0.049,
+"d5adad63706c": 0.154,
+"d7b466fa1ca2": 0.078,
+"de54304f1bc2": 0.38,
+"e295733031d7": 0.674,
+"f2118f80711d": 0.41,
+"f416cce0e1e0": 0.371
 },
 "sent": [
 {
@@ -5386,63 +5388,63 @@
 [
 "3853e60e7952",
 90,
-139,
+149,
 4
-],
-[
-"a4dfb9893724",
-5,
-360,
-1
 ],
 [
 "597405d99967",
 28,
-37,
+47,
 1
 ],
 [
 "e295733031d7",
-29,
-206,
+28,
+216,
 1
 ],
 [
 "8340884ad289",
-70,
-222,
-3
-],
-[
-"f1c21a8b1bba",
-27,
-309,
+69,
+232,
 3
 ],
 [
 "a9347d489f5d",
-46,
-202,
+44,
+212,
 3
 ],
 [
 "f2118f80711d",
 42,
-124,
+134,
 2
 ],
 [
 "9ab0a9d8587f",
 25,
-151,
+161,
 1
 ],
 [
+"de54304f1bc2",
+24,
+262,
+2
+],
+[
 "f416cce0e1e0",
-33,
-333,
+32,
+344,
+2
+],
+[
+"f1c21a8b1bba",
+2,
+319,
 2
 ]
 ],
-"top_at": 1793307056.2416806
+"top_at": 1793307666.1608412
 }
