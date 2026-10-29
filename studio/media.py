@@ -45,6 +45,60 @@ def pixabay_video(q, used):
     return {'kind': 'video', 'url': v['url'], 'small': (h['videos'].get('small') or {}).get('url'), 'id': h['id'], 'credit': f"Video: {h.get('user', 'Pixabay')} / Pixabay"}
 
 
+def pixabay_videos(q, used, n=4):
+    """up to n candidate videos for q, best first (vertical + liked ranks higher)"""
+    if not KEY or not q: return []
+    r = requests.get('https://pixabay.com/api/videos/', params={'key': KEY, 'q': q[:90], 'per_page': 20, 'safesearch': 'true'}, timeout=30)
+    if not r.ok: print('pixabay video', r.status_code, r.text[:80]); return []
+    c = []
+    for h in r.json().get('hits', []):
+        if h['id'] in used or h.get('duration', 0) < 4: continue
+        vs = [h['videos'][k] for k in ('small', 'tiny', 'medium') if (h['videos'].get(k) or {}).get('url')]
+        vs = [x for x in vs if not x.get('size') or x['size'] < MAXB]
+        if not vs: continue
+        v = vs[0]
+        c.append(((2 if v.get('height', 0) > v.get('width', 1) else 0) + min(h.get('likes', 0), 300) / 300, {
+            'kind': 'video', 'url': v['url'], 'id': h['id'], 'credit': f"Video: {h.get('user', 'Pixabay')} / Pixabay"}))
+    return [m for _, m in sorted(c, key=lambda x: -x[0])[:n]]
+
+
+def _vision_ok(path, kind, words, q):
+    """Does the picture literally show what the narration says? Gemini looks at one frame. Fails open (True) if it can't judge."""
+    keys = [k for k in (os.environ.get('GEMINI_API_KEY', ''), os.environ.get('GEMINI_API_KEY_2', '')) if k]
+    if not keys: return True
+    import base64, cv2
+    try:
+        if kind == 'video':
+            cap = cv2.VideoCapture(path); n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+            cap.set(cv2.CAP_PROP_POS_FRAMES, max(0, n // 3)); ok, fr = cap.read(); cap.release()
+        else:
+            fr = cv2.imread(path); ok = fr is not None
+        if not ok: return True
+        h, w = fr.shape[:2]; k = 512 / max(h, w)
+        fr = cv2.resize(fr, (int(w * k), int(h * k))) if k < 1 else fr
+        b64 = base64.b64encode(cv2.imencode('.jpg', fr, [cv2.IMWRITE_JPEG_QUALITY, 80])[1].tobytes()).decode()
+    except Exception as e:
+        print('vision frame fail', repr(e)[:80]); return True
+    prompt = (f'A short documentary video says: "{words}". We want a background picture that shows this literally (search was "{q}"). '
+              'Does this frame fit? It must show the thing said (or a clearly related scene), not a random or misleading place/object '
+              '(for example a temple for "government building", a door for "launched a company", or a cartoon for a real event are NOT ok). '
+              'Reply JSON only: {"ok": true or false, "why": "max 8 words"}')
+    body = {'contents': [{'parts': [{'text': prompt}, {'inline_data': {'mime_type': 'image/jpeg', 'data': b64}}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}}
+    for key in keys:
+        for model in ('gemini-flash-latest', 'gemini-flash-lite-latest'):
+            try:
+                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, json=body, timeout=40)
+                if r.ok:
+                    t = ''.join(p.get('text', '') for p in r.json()['candidates'][0]['content']['parts'])
+                    j = json.loads(re.search(r'\{.*\}', t, re.S).group(0))
+                    print('  vision', 'OK ' if j.get('ok') else 'NO ', q, '|', j.get('why', ''))
+                    return bool(j.get('ok'))
+                if r.status_code != 429: print('  vision', model, r.status_code); continue
+            except Exception as e:
+                print('  vision err', repr(e)[:80])
+    return True
+
+
 def pixabay_photo(q, used):
     if not KEY or not q: return None
     r = requests.get('https://pixabay.com/api/', params={'key': KEY, 'q': q[:90], 'per_page': 20, 'image_type': 'photo', 'safesearch': 'true'}, timeout=30)
@@ -105,12 +159,22 @@ def fetch_shots(job, sb, got, used):
             if n >= MAX_SHOTS: break
             q = sh.get('q', '')
             try:
-                m = pixabay_video(q, used) or pixabay_photo(q, used)
-                if not m: print('shot: nothing for', i, k, q); continue
-                ext = '.mp4' if m['kind'] == 'video' else '.jpg'
-                f = f'media/{i}_s{k}{ext}'
-                get(m.get('small') or m['url'] if m['kind'] == 'video' else m['url'], os.path.join(job, f))
-                used.add(m['id']); n += 1
+                done = None
+                for qq in dict.fromkeys([q, sh.get('words', '')]):             # the search, then the spoken words themselves
+                    for m in pixabay_videos(qq, used):
+                        f = f'media/{i}_s{k}.mp4'
+                        try: get(m['url'], os.path.join(job, f))
+                        except Exception: continue
+                        used.add(m['id'])
+                        if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq): done = (m, f); break
+                    if done: break
+                if not done:                                                   # no video matched: a real photo instead
+                    m = pixabay_photo(q, used)
+                    if m:
+                        f = f'media/{i}_s{k}.jpg'; get(m['url'], os.path.join(job, f)); used.add(m['id'])
+                        if _vision_ok(os.path.join(job, f), 'photo', sh.get('words', ''), q): done = (m, f)
+                if not done: print('shot: no match for', i, k, q); continue
+                m, f = done; n += 1
                 out.append({'file': f, 'kind': m['kind'], 'words': sh.get('words', ''), 'q': q}); credits.append(m['credit'])
                 print('shot', i, k, m['kind'], q)
             except Exception as e:

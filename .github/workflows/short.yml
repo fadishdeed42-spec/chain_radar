@@ -38,6 +38,8 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
         run: python -u studio/run.py ${{ github.event.inputs.stage }} ${{ github.event.inputs.job }} 2>&1 | grep -v Sampling | tee jobs/${{ github.event.inputs.job }}/${{ github.event.inputs.stage }}.runlog; exit ${PIPESTATUS[0]}
       - name: keep the final video (90 days)
         if: always() && github.event.inputs.stage == 'render'
