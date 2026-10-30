@@ -74,6 +74,38 @@
 },
 "t": 1793012394.0386746
 },
+"07acc05e68": {
+"coin": "",
+"facts": "Headline: The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.\nSources: AskTraders.com, BBC, Bitcoin News, Bitcoin Sistemi, CNBC\n\nTelegram news posts about it:\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nBreaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube\nJUST IN: Binance founder CZ tells Elon Musk to \"please stop\" trolling following major hack.\n\n\"Show a little support.\"\n\n@WatcherGuru\nJUST IN: CZ says Binance may use its over $1 billion stake in Elon Musk's SpaceX $SPCX to cover losses following major hack.\n\n@WatcherGuru\nArticle text:\n3.15%TRX$0.3391 2.30%LINK$11.06 4.17%ZEC$1,271.66 0.53%ADA$0.1932 3.65%XRP$1.25 3.00%ETH$2,238.81 3.69%BTC$77,578.05 3.33%XMR$589.55 1.55%BNB$703.52 5.15%XLM$0.1648 2.59%SOL$97.00 3.43%HYPE$92.85 12.06%Written by Felix Ngstaff editorEdited by Yohan Yunstaff editorWritten by Felix Ngstaff editorEdited by Yohan Yunstaff editorNorth Korea\u2019s TraderTraitor linked to $6.3B Binance hackLatest NewsPublishedOct 30, 2026TRM Labs says it has high confidence in the attribution, while ZachXBT identified stolen funds from the Binance and Bitget hacks converging at the same address. Cybersecurity researchers from TRM Labs and Chainalysis, along with onchain investigator ZachXBT, have linked the $6.3 billion Binance hack to North Korea\u2019s TraderTraitor group. TRM Labs attributed the attack to TraderTraitor with \u201chigh confidence,\u201d citing onchain and offchain intelligence. Onchain investigator ZachXBT said funds stolen from Binance and the earlier Bitget exploit were commingled at the same address after moving through THORChain. \u201cThis indicates the same actor is likely behind both incidents,\u201d he said, adding that the Bitget attack had been attributed to TraderTraitor. Chainalysis co-founder and CEO Jonathan Levin also pointed to TraderTraitor, saying the group stole $6.4 billion, slightly above Binance\u2019s estimated $6.3 billion impact. \u201cWe assess Binance hack for $6.4B was likely done by DPRK group TraderTraitor due to links to previous hack,\u201d he said. The attribution follows an earlier assessment by Blockaid CEO Ido Ben-Natan, who told Cointelegraph that the attack\u2019s sophistication and onchain preparations resembled North Korean activity. US authorities have linked TraderTraitor to some of crypto\u2019s largest thefts, including the Bybit hack in February 2025. The FBI also joined US and Japanese investigators in attributing the theft of more than $300 million from DMM Bitcoin in May 2024 to the North Korean actors. The FBI says TraderTraitor targets company employees through social engineering. In the DMM case, an attacker posing as a recruiter sent a malicious coding test to an employee of wallet provider Ginco. Investigators said the resulting access was likely used to manipulate a legitimate transaction request, diverting funds to attacker-controlled wallets. Related: Bitget CEO suspects North Korea behind $352M hack, citing IP clues\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Lookonchain",
+"story": null,
+"t0": 1793335199.0,
+"tag": null,
+"title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
+"url": "https://t.me/lookonchainchannel/10846"
+},
+"p": {
+"keyfact": "Investigators traced stolen funds from major crypto hacks to North Korean actors.",
+"post": "Investigators link the massive $6.3 billion Binance hack to North Korea's TraderTraitor group. Onchain data shows funds from Binance and Bitget converged at the same address, pointing to the same attacker behind multiple major security breaches. #CryptoSecurity",
+"quote": "\"Show a little support.\" = CZ",
+"reply": "Onchain breadcrumbs reveal the real story behind the massive losses.",
+"short": "",
+"stat": "$6.3B | Binance hack loss",
+"symbol": "NONE",
+"tag": "HACK",
+"thread": "",
+"timeline": "Feb 2025 = Bybit hack reported ; May 2024 = DMM Bitcoin theft ; Oct 2026 = Binance hack attributed to TraderTraitor",
+"title": "$6.3B Binance Hack Linked to North Korea",
+"versus": "Bitget stolen funds = $388M || Binance stolen funds = $6.3B",
+"visual": "STAT"
+},
+"t": 1793356583.0570877
+},
 "0a3f36f5f5": {
 "coin": "",
 "facts": "Headline: OneKey to Delete Customer Order Data Within 30 Days After Keystone Hardware Wallet Breach\nSources: CoinDesk, The Crypto Times\n\nArticle text:\n2 min readMake  preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake  preferred on Keystone is destroying unsold stock after unauthorized access to its website. (Sebastiaan Stam/Unsplash)  SummaryShowKeystone will destroy 18,835 unsold hardware wallets after a website breach exposed a key that could let counterfeit devices pass its authenticity checks.The breach exposed 25,964 buyer records, some kept past Keystone\u2019s 180-day deletion policy after an automated tool failed without the firm noticing.The exploit adds to several attacks on rivals that undermine the security of hardware wallets.Hardware wallet maker Keystone said it will destroy almost 19,000 unsold devices and suspend shipments after a website breach exposed customer information and a key that could let counterfeit wallets pass authenticity checks. An attacker gained access to the company\u2019s website on Oct. 20 through a flaw in a third-party data monitoring tool, Keystone said Monday in a post on X. The attack exposed 25,964 buyer records from 2024 through 2026, including names, contact details, shipping addresses and order information. Another 12,873 unpaid checkout records may have been affected. The breach adds to a string of attacks on hardware wallet users this year. At Ledger, criminals fitted devices sold through resellers in Southeast Asia, with hidden components capturing recovery phrases during setup. Similarly, a flaw in Coldcard\u2019s seed-generation software let attackers reconstruct private keys and drain wallets remotely. The stolen Keystone key is built into devices during production and cannot be changed. It allows wallets to pass online authenticity checks, raising the risk that fake devices could appear genuine and put users' funds at risk, according to the firm. The company said it will destroy 18,835 unsold units. Keystone said the breach did not expose recovery phrases, private keys or wallet credentials. Some customer records should have been deleted under Keystone's 180-day retention policy, but an automated deletion tool failed without the company detecting the issue, it said. \u201cWe failed to fulfill our commitment to erase customer data on time, and we accept responsibility for this failure,\u201d Keystone wrote. Keystone\u2019s update came a day after hardware wallet maker Foundation disclosed a separate breach in which attackers sent phishing emails that appeared to come from its official domains. Foundation said it had identified more than 23,000 phishing email attempts. It found no evidence that Passport devices or private keys were compromised. Foundation also found older database copies that its 60-day data deletion process had missed. In an update, it said attackers could access records containing about 5,600 mailing addresses and 5,200 phone numbers, though it could not confirm how many were accessed. Keystone said devices delivered before Oct. 20 remain safe to use if they pass authentication, while customers who received devices using the old key after that date should seek further checks before use. The company said users do not need to move funds due to the breach alone and warned against fake recall or asset migration messages. Keystone will replace the authentication key in new devices, shift website sales to preorders and cut customer data retention to 90 days, it added. 1Bitcoin miners' move into AI is creating a new market for trading computing power7 minutes ago2Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP1 hour ago3Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital1 hour ago4Japan's top yen stablecoin falls short of its target in a disappointing first year1 hour ago5Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins1 hour ago6Investor who called for ",
@@ -233,38 +265,6 @@
 "visual": "CHART"
 },
 "t": 1793018939.2024612
-},
-"5c318167a8": {
-"coin": "bitcoin",
-"facts": "Headline: Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?\nSources: Coinfomania, CryptoRank, Cryptonews.net, TradingView\nCoin in this story: Bitcoin (BTC) $81,394, -3.8% in 24h\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "CryptoRank",
-"story": null,
-"t0": 1792677110.0,
-"tag": null,
-"title": "Bitcoin Price Prediction: $1.1 Billion Flows Into ETFs, but Can BTC Break $87,500 and Hit $90,000?",
-"url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTR4U1Rzak5NeGx4YXpsMVo2UkllRTUzUWlyZ0FHdXBKXzkyRXAyQ294VkdpZzBKTVI5Y0x2VTRQUVV1RXFMdGhocEtZalV3cmNGM0FVNjFDNlhRZ2xuM1RmX3haNHgxTHJSNFlqai0zQkUxcy1IcWZ5UDBiQW5KaHZKVmdLdTBiZVZYRG5Jcm8yWGNtSGt6N3NOZ19IbzFnYWhFMnlJT3A0LTA1MzlCMXc0dEhCak90ODRMNHdHRnNYSGN3OU9zV0lmbw?oc=5"
-},
-"p": {
-"keyfact": "Bitcoin recorded $1.1 billion in inflows as the price moved to $81,394 despite a 3.8% daily decline.",
-"post": "Wall Street is pouring cash into Bitcoin. Despite a 3.8% dip today, $1.1 billion flowed into ETFs. The asset is trading at $81,394 as institutional demand tests market resilience. Follow the money to see where the trend goes next. #Bitcoin",
-"quote": "NONE",
-"reply": "The institutional appetite remains massive despite the short term volatility.",
-"short": "",
-"stat": "$1.1B | ETF Inflows",
-"symbol": "BTC",
-"tag": "ETF",
-"thread": "",
-"timeline": "NONE",
-"title": "$1.1 Billion Flows Into Bitcoin ETFs",
-"versus": "NONE",
-"visual": "CHART"
-},
-"t": 1792687758.5301409
 },
 "5cac1b99d1": {
 "coin": "",
@@ -1031,7 +1031,7 @@
 },
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489378,
+"offset": 138489379,
 "otd": {
 "date": "Oct 21",
 "now": 83421,

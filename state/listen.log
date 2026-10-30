@@ -189,3 +189,4 @@ fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: To
 telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 24
 market 100 news 137 reddit 25 hacks 2
 alerts sent 0
+gemini models ['gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-3.1-flash-lite', 'gemini-3.7-flash', 'gemini-3.1-flash-lite-preview']
