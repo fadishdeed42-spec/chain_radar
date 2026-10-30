@@ -426,6 +426,38 @@
 },
 "t": 1793202153.2947533
 },
+"88e73df3bd": {
+"coin": "",
+"facts": "Headline: Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist\nSources: Bring Me The News, Crypto Briefing, FOX 9 Minneapolis-St. Paul, Patch, The Block\n\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "The Block",
+"story": null,
+"t0": 1793369456.0,
+"tag": null,
+"title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORl94ekEyaURVYnZzbzdrdzc3bHlFMHNoaXNqVUpROGhhakdwMV9IVERocl9BaWhXZU1ReWlKSFZaX1YxaDhIMVpIaExDVUNWeUtUNHFaMjgzZ19xZGswWV9maGtzRWRKeDlnLWZmak5PU3dWSUVOeDBLMkkxNGtSZy0ySy14VldDTnhTSFVmLTNuazM3RXR3bm5vTzVIQmM2WDBnbGtzNjNWVEdpTXpOT05NOXFaTkpNZHBBN3pqZXpIcWEz?oc=5"
+},
+"p": {
+"keyfact": "Two Texas brothers were sentenced to 15 years for holding a Minnesota family at gunpoint.",
+"post": "Armed intruders broke into a Minnesota home, held a family at gunpoint, and forced them to transfer $8 million in cryptocurrency. The two Texas brothers behind the violent home invasion were just sentenced to 15 years in prison. Real crimes leave real paper trails.",
+"quote": "NONE",
+"reply": "Another reminder that digital assets still exist in the physical world.",
+"short": "",
+"stat": "15 YRS | Prison sentence",
+"symbol": "NONE",
+"tag": "ARREST",
+"thread": "",
+"timeline": "NONE",
+"title": "15 Years For $8M Crypto Heist",
+"versus": "",
+"visual": "STAT"
+},
+"t": 1793378638.2572286
+},
 "89ec00f2f9": {
 "coin": "bitcoin",
 "facts": "Headline: Strive (ASST.US) raises $630 million to boost Bitcoin holdings; needs to purchase 700 BTC per week to rise to second place.\nSources: Cointelegraph, Moomoo\nCoin in this story: Bitcoin (BTC) $80,234, -0.2% in 24h\n\nTelegram news posts about it:\n\ud83d\udd25 JUST IN: Strive acquires 6,182 $BTC, bringing its total holdings to 43,000 Bitcoin.\n\nNews | Markets | YouTube\n",
@@ -783,38 +815,6 @@
 },
 "t": 1793009627.9362683
 },
-"dda0db300b": {
-"coin": "",
-"facts": "Headline: Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits\nSources: Cointelegraph, Wu Blockchain\n\nTelegram news posts about it:\nCircle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits\n\nAccording to Bloomberg, a Circle shareholder has sued President Donald Trump and World Liberty Financial, alleging that Trump violated the U.S. Constitution\u2019s Foreign Emoluments Clause through two UAE-linked transactions: the $500 million sale of a 49% stake in World Liberty and a $2 billion Binance investment funded using its USD1 stablecoin. The plaintiff claims the deals harmed Circle investors through unfair competition and seeks the return of alleged illegal profits and damages. Circle said it was not involved in the lawsuit, while World Liberty denied the allegations. \u2014 link\n\ud83d\udea8 JUST IN: A new lawsuit accuses Trump and World Liberty Financial of illegally profiting from more than $2 billion in UAE-linked crypto deals.\n\nNews | Markets | YouTube\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "Wu Blockchain",
-"story": null,
-"t0": 1792701676.0,
-"tag": null,
-"title": "Circle Shareholder Sues Trump and World Liberty Over UAE-Linked Deals, Alleging Unconstitutional Profits",
-"url": "https://t.me/wublockchainenglish/26517"
-},
-"p": {
-"keyfact": "A Circle shareholder sued Donald Trump and World Liberty Financial over alleged constitutional violations.",
-"post": "A Circle shareholder just sued Donald Trump and World Liberty Financial. The lawsuit alleges Trump violated the Foreign Emoluments Clause through a $500M stake sale and a $2B Binance investment. World Liberty denied the claims while Circle stated it was not involved. #Crypto",
-"quote": "NONE",
-"reply": "Another courtroom battle begins over crypto ties and foreign emoluments.",
-"short": "",
-"stat": "$2B | UAE-linked crypto deals",
-"symbol": "NONE",
-"tag": "LAWSUIT",
-"thread": "",
-"timeline": "NONE",
-"title": "Trump & World Liberty Sued Over $2B UAE Deals",
-"versus": "NONE",
-"visual": "STAT"
-},
-"t": 1792703342.1897984
-},
 "f8175d723b": {
 "coin": "",
 "facts": "Headline: Asia's weekly TOP10 crypto news: South Korea Regulates Stablecoins as Payment Means, China to Build National Blockchain Network, HSBC Launches Stablecoin and Top10 News\nSources: Substack, Wu Blockchain\n\nTelegram news posts about it:\nAsia's Weekly TOP10 Crypto News\n\nSouth Korea Regulates Stablecoins as Payment Means, China to Build National Blockchain Network, HSBC Launches Stablecoin, Hong Kong Tokenization Moves to Deployment Phase, Robinhood Secures Dubai Approval.\n\nFor the complete article and weekly curated reports, subscribe to our Substack: \u2014 link\n",
@@ -1031,7 +1031,7 @@
 },
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489385,
+"offset": 138489387,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
