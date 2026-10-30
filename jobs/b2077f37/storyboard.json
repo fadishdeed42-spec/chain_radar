@@ -13,8 +13,7 @@
  "chart": {
   "symbol": "BTC",
   "start": "2026-10-20",
-  "end": "2026-11-05",
-  "src": "Bitstamp"
+  "end": "2026-11-05"
  },
  "scenes": [
   {
@@ -271,5 +270,6 @@
  "words": 128,
  "target_words": 135,
  "length_ok": true,
- "ep": 27
+ "ep": 27,
+ "voice_seed": 18
 }
