@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1793253426.7549806,
 1793265610.4207442,
 1793268992.1795893,
 1793271212.7302577,
@@ -19,7 +18,8 @@
 1793305891.9665356,
 1793308277.0735452,
 1793308277.0735452,
-1793308588.0454242
+1793308588.0454242,
+1793345587.7855017
 ],
 "menu": {
 "005a3baab7aa": {
@@ -263,7 +263,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793331509.0,
 "tgtext": "Despite the market drop, whales are still buying $BTC!\n\nOver the past 4 hours, 9 newly created wallets received 1,900 $BTC ($148M) from #GalaxyDigital.\n\nhttps://arkm.com/explorer/entity/galaxy-digital",
 "title": "Despite the market drop, whales are still buying BTC!",
@@ -372,7 +372,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793343600.0,
 "tgtext": "",
 "title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
@@ -620,7 +620,7 @@
 "CryptoRank",
 "Lookonchain"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793324325.0,
 "tgtext": "After the Binance hacker finished dumping all 217.5M $ENA ($33.93M), someone started going long on $ENA.\n\nA newly created wallet, 0xedc0, deposited 2M $USDC into Hyperliquid and opened a 3x long on 22.78M $ENA ($4.09M).\n\nhttps://hypurrscan.io/address/0xedc0895816b7bce45fe13f29b4521154d37a40c7#perps\nhttps://x.com/lookonchain/status/2115972257864687976\nBlockaid Reveals How Hacker Took Control of Binance Wallet: One of 50 EIP-7702 Authorizations Succeeded\n\nAccording to analysis by blockchain security firm Blockaid, the attacker used Ethereum\u2019s EIP-7702 authorization mechanism to attack Binance\u2019s Binance 14 hot wallet. Because the attacker could not determine the hot wallet\u2019s live nonce, and EIP-7702 authorizations must match the account\u2019s nonce at the time of transaction execution, the attacker submitted 50 authorizations with different nonces (18914775 to 18914824) in a single Type-4 transaction. Only one matched successfully, allowing the malicious delegation to take effect.\n\nThe successful authorization delegated the hot wallet\u2019s account code to an unverified malicious asset-transfer contract. The contract allows only the address designated by the attacker to execute the sweep() function, which can transfer ETH and ERC-20 tokens from the wallet while retaining 1 ETH for gas fees. Subsequent incoming assets may also be at risk of being transferred. \u2014 link\n\u26a1\ufe0f TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d",
@@ -878,7 +878,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793331079.0,
 "tgtext": "The Pando Rings hacker bought 7,548 $ETH ($16.72M) 2 hours ago.\n\nhttps://arkm.com/explorer/address/0x303D0A175CeEC14DD7B3d4F60CABE6CEc06a3d9F",
 "title": "The Pando Rings hacker bought 7,548 ETH ($16.72M) 2 hours ago.",
@@ -1026,12 +1026,12 @@
 "src": "Wu Blockchain",
 "srcs": [
 "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+"AskTraders.com",
 "Axios",
 "BBC",
-"Bitcoin Magazine",
-"Bitcoin Sistemi"
+"Bitcoin Magazine"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793324437.0,
 "tgtext": "Binance Says $6.3B Security Incident May Stem From Compromised DevOps Laptop, No Evidence of Private Key Leak\n\nBinance said its initial investigation suggests the security incident may have involved a compromised DevOps engineer's laptop, allowing the attacker to access a service container and submit unauthorized withdrawal transactions. The exchange said it has found no evidence that any wallet private keys were leaked.\n\nBinance estimates the total impact at approximately $6.3 billion, with around $3 billion in affected assets frozen on-chain. Deposits and withdrawals have been temporarily suspended, and the affected address authorization has been revoked. Binance said it will cover all losses through its SAFU fund and company funds, with a detailed technical post-mortem to follow. \u2014 link\n\ud83d\udea8 JUST IN: Binance says the hack likely stemmed from a compromised DevOps engineer\u2019s laptop, with no sign of a private key leak.\n\nIt puts the total impact at about $6.3B.\n\nNews | Markets | YouTube\nJUST IN: Binance says $6,300,000,000 worth of crypto was impacted following major hack.\n\n@WatcherGuru\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
 "title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
@@ -1449,7 +1449,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793338755.0,
 "tgtext": "\ud83d\udea8 NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.\n\nNews | Markets | YouTube",
 "title": "NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.",
@@ -1553,6 +1553,19 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Billionaire Minecraft creator Markus \"Notch\" Persson flees California, listing his $70 million mansion for sale as the state considers new wealth tax.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Billionaire Minecraft creator Markus \"Notch\" Persson flees California, listing his $70 million mansion for sale as the state considers new wealth tax.",
 "url": "https://t.me/WatcherGuru/15659",
+"urls": []
+},
+"609dfc1537d4": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793345892.8579688,
+"t0": 1793345484.0,
+"tgtext": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller\n\nTrezor said it received a credible report of a suspected hardware implant in a Trezor Safe 5 device purchased from reseller CryptoBilis in August 2026. The company has not yet received the device for verification, and no CryptoBilis customer has reported losing funds.\n\nTrezor urged customers who purchased devices from CryptoBilis since March 2026 to move their funds to newly created wallets with new recovery seeds as soon as possible. The company removed CryptoBilis as a reseller on October 9 following reports of tampered Ledger devices. Four Trezor devices inspected so far showed no signs of tampering, and the investigation remains ongoing. \u2014 link",
+"title": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller",
+"url": "https://t.me/wublockchainenglish/26621",
 "urls": []
 },
 "60d840939b76": {
@@ -2548,6 +2561,19 @@
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
 ]
 },
+"98633142b21a": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793345892.8579688,
+"t0": 1793345255.0,
+"tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
+"title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
+"url": "https://t.me/lookonchainchannel/10845",
+"urls": []
+},
 "987477c38274": {
 "coin": "",
 "src": "www.tokenpost.com",
@@ -2606,7 +2632,7 @@
 "Forbes",
 "Mashable"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793324688.0,
 "tgtext": "",
 "title": "Was Binance Hacked? Crypto Exchange Says Funds Are Safe After \u2018Potential Security Issue\u2019",
@@ -2621,7 +2647,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793345278.8270364,
+"t": 1793345587.7855017,
 "t0": 1793324016.0,
 "tgtext": "The whale holding a 93,184 $ETH ($214M) long closed 36,517 $ETH ($80.56M) to avoid liquidation and still holds 56,667 $ETH ($125M).\n\nNew liquidation prices: $2,122.44 and $2,129.72.\n\nThe whale has lost over $38M in total.\nhttps://x.com/lookonchain/status/2114187347906748592",
 "title": "The whale holding a 93,184 ETH ($214M) long closed 36,517 ETH ($80.56M) to avoid liquidation and still holds 56,667 ETH ($125M).",
@@ -3052,17 +3078,19 @@
 },
 "af1574b4442d": {
 "coin": "bitcoin",
-"src": "BeInCrypto",
+"src": "insidebitcoins.com",
 "srcs": [
 "BeInCrypto",
 "CryptoPotato",
-"CryptoRank"
+"CryptoRank",
+"Hokanews",
+"insidebitcoins.com"
 ],
-"t": 1793345278.8270364,
+"t": 1793345587.7855017,
 "t0": 1793324940.0,
 "tgtext": "",
-"title": "Bitcoin Bulls Take the Biggest Hit in a $1.49 Billion Crypto Liquidation Day",
-"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UMUNic256Wm5sNUpVUDNPdWdKZ2xKb1U2QUh6Y0hVZUF6OE1IVk1ZSXIza19xLVdTWkZEVWl3amRpT0dFQUFNcUdhRU5pVkY3bjlaNDBtVHh5UXdtTjNjeHJicmFMNVYzMGtoWjdrZ3prbmdyUFNXYnBB?oc=5",
+"title": "Nearly $1 Billion Liquidated as Bitcoin Slides Below $78,000 on Binance Fears",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaU5OQ1lUdVpUd0tJb25xSUxvNklqdzFfelA5RDNPYTJ3RXZ6T3hBWnZwWlhKbDU4eENEd0NSNTNxR1lSMlZLWFFneG4tVGZPSmNKVVJyMWpLTGhpVi1hU1F5SGVmWHhVcUVBOVhlZ0Rzdm1WM0txNUdLYUJabmJocDNNNzI?oc=5",
 "urls": []
 },
 "afade5943162": {
@@ -4008,7 +4036,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793345278.8270364,
+"t": 1793345892.8579688,
 "t0": 1793343196.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
 "title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
@@ -4546,31 +4574,32 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"094ec307dbaf": 0.129,
+"0b34919441d8": 0.057,
 "0cedb4c501e1": 0.523,
+"10b82f6a21d7": 0.022,
+"136fff5646cf": 0.031,
 "16a7cb1e6ccf": 0.367,
 "1aaf342c40b6": 0.12,
 "20a534938af0": 0.942,
+"2d7c302f68b9": 0.076,
 "310fbb642d1d": 0.742,
-"3bb11954c367": 0.873,
+"3bb11954c367": 0.871,
 "3d568794d677": 0.038,
 "46599676c441": 0.334,
-"47aa4d5cf5e5": 0.235,
 "4948c03b921c": 0.059,
+"4e95fc58ac42": 0.209,
 "57109a813f86": 0.718,
-"651777901c91": 0.035,
+"609dfc1537d4": 0.657,
 "6bb4a5270274": 0.323,
 "77e7b60563ec": 0.034,
 "78f7a83e386d": 0.063,
 "7b2c5ba68008": 0.011,
-"7c74c652b413": 0.051,
 "8197c3507326": 0.167,
-"81fea28e3de3": 0.027,
 "85c5b06d4601": 0.01,
 "9597a755fbb3": 0.121,
+"98633142b21a": 0.92,
 "99ee926e79e9": 0.039,
 "9acb20575dd0": 0.751,
-"9df5476ba366": 0.874,
 "a4c69c1d5f79": 0.188,
 "a64e9f93fb80": 0.188,
 "abe50070c8f4": 0.121,
@@ -4580,12 +4609,11 @@
 "d1f77e86ddda": 0.159,
 "d278a78681bb": 0.154,
 "d279d9000d35": 0.019,
-"dc3ec20974a5": 0.109,
 "e1b3aba13a6c": 0.976,
-"e72914b75c41": 0.05,
-"e7a99dd22c23": 0.018,
+"e7a99dd22c23": 0.047,
 "f2bd760a2a1e": 0.037,
-"f43d83d8f15e": 0.308
+"f43d83d8f15e": 0.308,
+"f44bd2211f42": 0.248
 },
 "sent": [
 {
@@ -6527,6 +6555,27 @@
 "targeted",
 "transactions"
 ]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1793345587.7855017,
+"u": [
+"https://t.me/lookonchainchannel/10845"
+],
+"w": [
+"$13",
+"174",
+"74m",
+"btc",
+"got",
+"liquidated",
+"market",
+"rebounded",
+"short"
+]
 }
 ],
 "stories": {},
@@ -6535,63 +6584,63 @@
 [
 "e1b3aba13a6c",
 46,
-35,
+45,
 1
 ],
 [
 "20a534938af0",
-68,
-349,
-9
+67,
+359,
+7
 ],
 [
-"9df5476ba366",
-16,
-354,
+"98633142b21a",
+31,
+11,
 1
 ],
 [
 "3bb11954c367",
-68,
-347,
+67,
+358,
 39
 ],
 [
 "9acb20575dd0",
-69,
-343,
+67,
+353,
 9
 ],
 [
 "310fbb642d1d",
-9,
-237,
+8,
+247,
 1
 ],
 [
 "57109a813f86",
 18,
-109,
+119,
+1
+],
+[
+"609dfc1537d4",
+10,
+7,
 1
 ],
 [
 "0cedb4c501e1",
-12,
-229,
+11,
+240,
 1
 ],
 [
 "16a7cb1e6ccf",
 29,
-28,
+38,
 1
-],
-[
-"af1574b4442d",
-54,
-339,
-3
 ]
 ],
-"top_at": 1793345278.8270364
+"top_at": 1793345892.8579688
 }
