@@ -344,7 +344,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793392040.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.",
@@ -577,11 +577,12 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793392612.0,
-"tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru",
+"tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru\n\u26a1\ufe0f LATEST: Apple overtakes Nvidia as the world\u2019s most valuable company, with a market cap of $5.03 trillion versus Nvidia\u2019s $4.94 trillion.\n\nNews | Markets | YouTube",
 "title": "Apple officially surpasses Nvidia to become the world's most valuable company by market cap.",
 "url": "https://t.me/WatcherGuru/15733",
 "urls": []
@@ -1128,13 +1129,13 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
+"24/7 Wall St.",
 "CNBC",
 "Cointelegraph",
 "Decrypt",
-"NBC News",
-"Watcher.Guru"
+"NBC News"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -1359,6 +1360,28 @@
 "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
 "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor"
+]
+},
+"3435c0012803": {
+"coin": "shiba-inu",
+"src": "Pluang",
+"srcs": [
+"AP News",
+"Altcoin Buzz",
+"Barron's",
+"CBC",
+"CNBC"
+],
+"t": 1793394531.1344914,
+"t0": 1793374627.0,
+"tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "Shiba Inu hits lowest price since August amid $1.54B crypto liquidations post-Binance hack",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNThYUERMRURsYkJlUXlHc3EzSTAtUzdRNTNSb05qRWlvRHhnME9jeGNObkF3azAxMmdZOHdzLUVHOGtobjJROHRSWGdDMWEwMlE2dG5qdy14WDZDS29MMlJpUWxxalV5Q2h1R3NTLWpzS05odlVtREN0WVd6Qldvdkd0YXdMNmtnVXFvUl9R?oc=5",
+"urls": [
+"https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+"https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+"https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "3436ea5e9682": {
@@ -2375,21 +2398,22 @@
 },
 "6ac342c39a2b": {
 "coin": "",
-"src": "CNBC",
+"src": "Business Insider",
 "srcs": [
 "Bloomberg.com",
-"CBC",
-"CNBC",
+"Business Insider",
 "CoinDesk",
+"CryptoSlate",
 "Yahoo Finance"
 ],
-"t": 1793391478.2223175,
+"t": 1793394531.1344914,
 "t0": 1793375375.0,
 "tgtext": "",
-"title": "Binance loses $6.3 billion in crypto heist\u2014what happens to your money when an exchange gets hacked",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc0dQM3c5OXJiTzNzd2VRVDY1MUpsNjd2Z3lVVl9VRDR4U3BjcGFHTXlZeG1RVGhYRVR0TUJuSnNZWFUxLWhadEd5OW1FMUJSMzhsUGZKek1tdEdCZWJrbHpvRkgtVHl1Y1V3ZDZjV0hOaHF1b0RsVzhaMmFkX3ZmTkVVTzlkQdIBiwFBVV95cUxNZFVhQ2xvVHNRNlN0SkVrQTBOWW5Ec09veXctQVRXU21EUmpjdkNLWUtYX3VkZ1JLWVdqMVJkWnpUTjdtR1Q2b1FzYTdtMXJRZGpacEkxWE9FdHBFVUpLVmlXRWJRbmcycUxNb1lCSVVHNjMwckpHOEY4cDNtOEphN0FncklDbUNYOGFr?oc=5",
+"title": "Binance says hackers who stole a record $6.3 billion in crypto used a 'self-destruct mechanism' to hide their tracks",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa0lDMHRlTDluZ1BKQVNuaDNDZWtkdllsQjFXVXRWVmtXOWdkb1hPS3B6Z25HWjlsOFl2cTVPX013MC03LVh1THA2dVFNUFBWbDY2Q0Yzam9FN1R6blVrQnJzcFhWWmJ5eExlU3UyQ1NBRmdGMmptY1lKS2ticVQ3S1Y2LWJvcGxmdHlsOTBXc3RhU0VwR2w2TnlsZThhSjZvdVZ0Szl2Qy0?oc=5",
 "urls": [
-"https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart"
+"https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+"https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/"
 ]
 },
 "6bb4a5270274": {
@@ -2808,7 +2832,7 @@
 "Coinpedia",
 "Decrypt"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793373536.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
@@ -4243,8 +4267,8 @@
 ]
 },
 "b121977a33c2": {
-"coin": "bitcoin",
-"src": "StreetInsider",
+"coin": "shiba-inu",
+"src": "Pluang",
 "srcs": [
 "AP News",
 "Altcoin Buzz",
@@ -4252,11 +4276,11 @@
 "Bloomberg.com",
 "CBC"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793375040.0,
 "tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
-"title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
-"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbmpySm1FTjJpczRYcUxheG1aNEwteUtCbHo4UXZDLXlOcW9pMlNmNGZ2Sk9hZFVqQlRHOTJVOUhwb3RSeGxDWW9nUXJmMzFRZHZYbjF1VTR6WXMyS01yN1l3bEt4bGxGV205Q2hWekVmc0U1NDc3UE9RdTFWLVBjaUV1dkpaSjQyRHVtQ0t6TXpHYVV5dFBNWV82UWN4RW9VWWRQYVNtakJ1djlBSGtZVmRyeFRwSjVzLWV4NGdjZmJZWmJodTlfQTVhSVdlaHhIVFNKZ3BZYUllWWc4NWRNUDRMbno0N1QxalY3YzRnbmNEVlItOUZRUmYtaTVMX2FKUlZTSVcwVEZEdVFh?oc=5",
+"title": "Shiba Inu hits lowest price since August amid $1.54B crypto liquidations post-Binance hack",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNThYUERMRURsYkJlUXlHc3EzSTAtUzdRNTNSb05qRWlvRHhnME9jeGNObkF3azAxMmdZOHdzLUVHOGtobjJROHRSWGdDMWEwMlE2dG5qdy14WDZDS29MMlJpUWxxalV5Q2h1R3NTLWpzS05odlVtREN0WVd6Qldvdkd0YXdMNmtnVXFvUl9R?oc=5",
 "urls": [
 "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
 "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
@@ -4363,7 +4387,7 @@
 "TOKENPOST",
 "www.tokenpost.com"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793381087.0,
 "tgtext": "",
 "title": "Crypto Liquidations Hit $1.67 Billion Across 254,045 Traders in 24 Hours",
@@ -4908,7 +4932,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.",
@@ -5201,7 +5225,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -6168,6 +6192,19 @@
 "url": "https://t.me/wublockchainenglish/26624",
 "urls": []
 },
+"f6e088f0dabe": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1793394834.6520436,
+"t0": 1793394347.0,
+"tgtext": "JUST IN: Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.\n\n@WatcherGuru",
+"title": "Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.",
+"url": "https://t.me/WatcherGuru/15735",
+"urls": []
+},
 "f7a6e9280dde": {
 "coin": "",
 "src": "Cointelegraph",
@@ -6231,7 +6268,7 @@
 "MPR News",
 "The Block"
 ],
-"t": 1793394224.2767394,
+"t": 1793394834.6520436,
 "t0": 1793377560.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -6317,24 +6354,6 @@
 "url": "https://t.me/WatcherGuru/15657",
 "urls": []
 },
-"fd58f095206c": {
-"coin": "bitcoin",
-"src": "Cointelegraph",
-"srcs": [
-"Bitcoin Magazine",
-"Cointelegraph",
-"The Block"
-],
-"t": 1793221594.3874876,
-"t0": 1793200058.0,
-"tgtext": "\ud83d\udd25 BULLISH: Bitwise projects $BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.\n\nNews | Markets | YouTube",
-"title": "BULLISH: Bitwise projects BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.",
-"url": "https://t.me/cointelegraph/72910",
-"urls": [
-"https://bitcoinmagazine.com/markets/bitwise-raises-bitcoin-target",
-"https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010"
-]
-},
 "fe0eda4cecdd": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -6402,38 +6421,38 @@
 "probs": {
 "05a681243d06": 0.053,
 "088cf4e753af": 0.038,
+"0dfcc0845486": 0.51,
 "192e6999cb10": 0.064,
+"1b2ad32ccebe": 0.603,
 "1be9cf0eca4c": 0.043,
 "1e37d28f3cea": 0.038,
-"2b5a6d8aebf2": 0.971,
-"33be9be8e630": 0.033,
+"2b5a6d8aebf2": 0.927,
 "33c820f95c34": 0.039,
 "35737ae8467c": 0.03,
-"54b6b1f5ecbd": 0.006,
 "5c1678698924": 0.013,
 "5d9a53f6181d": 0.08,
 "6cae71e32994": 0.005,
+"70f45b8753b4": 0.017,
 "712506752e30": 0.019,
 "75f178536690": 0.02,
-"7632a5f61335": 0.061,
-"792cb25b6b1f": 0.022,
 "7a500775caff": 0.21,
 "7db257373e68": 0.114,
-"7f39a27ff5e9": 0.39,
-"80d908e96f49": 0.016,
+"7f39a27ff5e9": 0.404,
 "84c1e5c18a54": 0.042,
-"8653898438e6": 0.081,
-"8aec5d0c60d7": 0.036,
 "9a5882033a1a": 0.012,
 "9cecc613f850": 0.029,
+"9defabaf51fa": 0.007,
 "9e35810d202f": 0.011,
 "a6d65a37ffaa": 0.026,
+"a8f99896e305": 0.025,
 "a9da0edace06": 0.009,
-"b121977a33c2": 0.691,
+"ae6a1040b689": 0.066,
+"b121977a33c2": 0.745,
 "b507b47233f6": 0.097,
 "b5a4d3df259f": 0.224,
 "b9205da188ff": 0.014,
 "ba37c221a79f": 0.021,
+"c7ded025655f": 0.01,
 "cc9d7e049dbc": 0.763,
 "cf5430aded6b": 0.138,
 "d6ba04fe3583": 0.292,
@@ -8381,64 +8400,64 @@
 "top": [
 [
 "2b5a6d8aebf2",
-70,
-333,
-6
+69,
+343,
+7
 ],
 [
 "cc9d7e049dbc",
 10,
-136,
+146,
 1
 ],
 [
 "b121977a33c2",
-72,
-320,
-27
+71,
+330,
+29
+],
+[
+"1b2ad32ccebe",
+28,
+37,
+2
 ],
 [
 "0dfcc0845486",
 10,
-36,
+47,
 1
 ],
 [
 "7f39a27ff5e9",
-59,
-345,
+57,
+355,
 3
 ],
 [
+"f6e088f0dabe",
+10,
+8,
+1
+],
+[
 "d6ba04fe3583",
-14,
-302,
+13,
+312,
 2
 ],
 [
 "f91cd28cdac2",
-62,
-278,
+61,
+288,
 3
 ],
 [
-"1b2ad32ccebe",
-10,
-27,
-1
-],
-[
 "b5a4d3df259f",
-45,
-219,
+44,
+229,
 2
-],
-[
-"7a500775caff",
-26,
-240,
-1
 ]
 ],
-"top_at": 1793394224.2767394
+"top_at": 1793394834.6520436
 }
