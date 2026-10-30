@@ -1381,7 +1381,7 @@
 "sh_analyze": "2026-10-28",
 "sh_collect": "2026-10-28",
 "sh_weekly": "2026-10-25",
-"short_edit": "9f3c5489",
+"short_edit": "b2077f37",
 "short_ep": 26,
 "shorts": {
 "9f3c5489": {
@@ -1950,6 +1950,285 @@
 },
 "t": 1792932145.0629263,
 "topic": "cz story"
+},
+"b2077f37": {
+"facts": "Real headlines about this story (oldest first):\n- Oct 29, 2026: Potential multi-billion Binance hack hitting crypto markets (CoinDesk)\n- Oct 29, 2026: Binance targeted in $6.3 billion crypto heist, the largest ever (NBC News)\n- Oct 30, 2026: Binance's $6.3 billion hack: What we know and what comes next (CNBC)\n- Oct 30, 2026: North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History (TRM Labs)\n- Oct 30, 2026: Binance Suspends Withdrawals After Crypto Hackers Steal $6.3 Billion (The New York Times)\n- Oct 30, 2026: $6 Billion Binance Hack Bears Hallmarks of North Korea\u2019s TraderTraitor (SecurityWeek)\n- Oct 30, 2026: How Much Would It Take to Bankrupt Binance? The $6 Billion Hack Explained (CryptoTicker.io)\n- Oct 30, 2026: Crypto giant Binance hit by $6.3bn hack suspected to be largest in history (BBC)\n- Oct 30, 2026: Binance Estimates $6.3 Billion Hacked in Crypto's Biggest Heist (Bloomberg)\n- Oct 30, 2026: North Korean hackers steal $6.3B from Binance in \u2018largest bank heist in human history\u2019 (New York Post)\n- Oct 30, 2026: Blockchain intelligence firms link North Korea to $6.3B hack on Binance (NPR)\n- Oct 30, 2026: Binance says it has $6.34 billion ready to cover hack losses (The Block)\n- Oct 30, 2026: Hackers steal $6.3 billion from Binance in world's biggest crypto heist (USA Today)\n- Oct 30, 2026: North Korean hackers steal over $6 billion from the largest cryptocurrency exchange (The National Desk)\n- Oct 30, 2026: $6.3 billion Binance hack was likely work of North Korea, blockchain intel firms say (CBS News)",
+"note": "",
+"sb": {
+"alt_hooks": [
+"How did North Korea just pull off the biggest bank heist in human history?",
+"North Korea just stole $6.3 billion from Binance in one single day.",
+"The largest crypto hack in history just happened on October 29, 2026."
+],
+"chart": {
+"end": "2026-11-05",
+"start": "2026-10-20",
+"symbol": "BTC"
+},
+"description": "On October 29, 2026, hackers stole $6.3 billion from Binance in the largest crypto heist in history. Blockchain intelligence firms linked the attack to North Korea, while Binance announced they had funds ready to cover losses.",
+"est_secs": 57,
+"hashtags": "#Binance #CryptoHack #NorthKorea #CryptoNews #Blockchain #Bitcoin #CryptoSecurity",
+"length": 60,
+"length_ok": true,
+"pinned": "Would you keep your funds on an exchange after a $6.3B hack?",
+"respell": {
+"Binance": "BY-nanse",
+"TraderTraitor": "TRAY-der TRAY-ter"
+},
+"scenes": [
+{
+"beats": [
+{
+"icon": "skull",
+"text": "$6.3B HACK",
+"word": "billion"
+}
+],
+"footage": "trading screens red",
+"hit": "billion",
+"line": "On Oct 29 2026 hackers stole $6.3 billion from Binance.",
+"photo": "Binance",
+"role": "hook",
+"shots": [
+{
+"q": "calendar dates ticking",
+"words": "On Oct 29 2026"
+},
+{
+"q": "money cash falling",
+"words": "$6.3 billion"
+}
+],
+"visual": {
+"day": 29,
+"event": "Binance suffers $6.3B crypto heist",
+"month": "OCT 2026",
+"type": "date"
+}
+},
+{
+"beats": [
+{
+"icon": "lock",
+"text": "BIGGEST HEIST",
+"word": "largest"
+}
+],
+"footage": "bank vault open",
+"hit": "drained",
+"line": "The massive crypto exchange was suddenly drained in the world's largest heist reported by major news networks.",
+"photo": "Changpeng Zhao",
+"role": "setup",
+"shots": [
+{
+"q": "computer servers blinking",
+"words": "crypto exchange"
+},
+{
+"q": "police tape crime scene",
+"words": "largest heist"
+}
+],
+"visual": {
+"icon": "skull",
+"sub": "World's Largest Crypto Heist",
+"text": "$6.3 BILLION",
+"type": "title"
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "TRACED FAST",
+"word": "quickly"
+}
+],
+"footage": "hacker typing code",
+"hit": "korea",
+"line": "Blockchain intelligence firms quickly linked the cyber attack directly to North Korea based on on-chain forensics.",
+"photo": "",
+"role": "turn",
+"shots": [
+{
+"q": "data network nodes",
+"words": "Blockchain intelligence"
+},
+{
+"q": "world map globe",
+"words": "North Korea"
+}
+],
+"visual": {
+"bad": true,
+"icon": "robot",
+"label": "TraderTraitor Group",
+"type": "stamp",
+"word": "SUSPECTED"
+}
+},
+{
+"beats": [
+{
+"icon": "cash",
+"text": "RECORD BREAKING",
+"word": "robbery"
+}
+],
+"footage": "courtroom gavel",
+"hit": "history",
+"line": "Experts called it the biggest bank robbery in human history affecting the largest cryptocurrency exchange.",
+"photo": "",
+"role": "twist",
+"shots": [
+{
+"q": "bank vault doors",
+"words": "bank robbery"
+},
+{
+"q": "ancient books library",
+"words": "human history"
+}
+],
+"visual": {
+"icon": "skull",
+"label": "Stolen Funds",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 6300000000
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "THE TWIST",
+"word": "strangest"
+}
+],
+"footage": "digital matrix code",
+"hit": "strangest",
+"line": "But that is not the strangest part of the story following the massive security breach.",
+"photo": "",
+"role": "twist",
+"shots": [
+{
+"q": "question mark neon",
+"words": "strangest part"
+}
+],
+"visual": {
+"icon": "question",
+"sub": "What happened next",
+"text": "THE TWIST",
+"type": "title"
+}
+},
+{
+"beats": [
+{
+"icon": "bank",
+"text": "FULL BACKING",
+"word": "instantly"
+}
+],
+"footage": "luxury office building",
+"hit": "billion",
+"line": "Binance instantly announced they had $6.34 billion ready to cover losses while suspending user withdrawals.",
+"photo": "Binance",
+"role": "twist",
+"shots": [
+{
+"q": "trading floor monitors",
+"words": "Binance instantly"
+},
+{
+"q": "stacks of money",
+"words": "$6.34 billion"
+}
+],
+"visual": {
+"icon": "bank",
+"label": "Cover Fund Ready",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 6340000000
+}
+},
+{
+"beats": [
+{
+"icon": "fire",
+"text": "GONE FOREVER",
+"word": "vanished"
+}
+],
+"footage": "trading charts green",
+"hit": "trading",
+"line": "Users kept trading on crypto markets while stolen billions vanished into thin air across global networks.",
+"photo": "",
+"role": "payoff",
+"shots": [
+{
+"q": "trader looking monitors",
+"words": "Users kept trading"
+},
+{
+"q": "smoke dissolving digital",
+"words": "vanished into thin air"
+}
+],
+"visual": {
+"bad": true,
+"icon": "fire",
+"label": "Crypto Heist",
+"type": "stamp",
+"word": "GONE"
+}
+},
+{
+"beats": [
+{
+"icon": "skull",
+"text": "$6.3B STOLEN",
+"word": "heist"
+}
+],
+"footage": "binary code falling",
+"hit": "recorded",
+"line": "On Oct 29 2026 the biggest heist ever recorded happened anyway according to breaking headlines.",
+"photo": "",
+"role": "end",
+"shots": [
+{
+"q": "clock ticking fast",
+"words": "On Oct 29 2026"
+},
+{
+"q": "security cameras flashing",
+"words": "biggest heist"
+}
+],
+"visual": {
+"day": 29,
+"event": "History's largest crypto hack",
+"month": "OCT 2026",
+"type": "date"
+}
+}
+],
+"settings": {
+"length": 60
+},
+"target_words": 135,
+"title": "Binance's $6.3 Billion North Korea Hack \ud83d\udea8",
+"tone": "mystery",
+"words": 128
+},
+"t": 1793373994.7596588,
+"topic": "binance gets hacked by 6 billion"
 },
 "ee007782": {
 "facts": "",
