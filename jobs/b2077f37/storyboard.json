@@ -1,28 +1,23 @@
 {
- "title": "Binance's $6.3 Billion North Korea Hack \ud83d\udea8",
+ "title": "The $6.3 Billion Binance Heist Exposed \ud83d\udea8",
  "alt_hooks": [
-  "How did North Korea just pull off the biggest bank heist in human history?",
-  "North Korea just stole $6.3 billion from Binance in one single day.",
-  "The largest crypto hack in history just happened on October 29, 2026."
+  "How did hackers steal $6.3 billion from Binance in a single day?",
+  "The largest bank heist in human history just happened on the blockchain.",
+  "Did North Korea really pull off a $6.3 billion crypto robbery?"
  ],
  "tone": "mystery",
  "respell": {
-  "Binance": "BY-nanse",
-  "TraderTraitor": "TRAY-der TRAY-ter"
+  "Binance": "bih-nance"
  },
- "chart": {
-  "symbol": "BTC",
-  "start": "2026-10-20",
-  "end": "2026-11-05"
- },
+ "chart": null,
  "scenes": [
   {
    "role": "hook",
-   "line": "On Oct 29 2026 hackers stole $6.3 billion from Binance.",
-   "hit": "billion",
+   "line": "Six billion three hundred million dollars vanished from Binance in seconds.",
+   "hit": "vanished",
    "beats": [
     {
-     "word": "billion",
+     "word": "Binance",
      "text": "$6.3B HACK",
      "icon": "skull"
     }
@@ -30,103 +25,8 @@
    "footage": "trading screens red",
    "shots": [
     {
-     "words": "On Oct 29 2026",
-     "q": "calendar dates ticking"
-    },
-    {
-     "words": "$6.3 billion",
-     "q": "money cash falling"
-    }
-   ],
-   "photo": "Binance",
-   "visual": {
-    "type": "date",
-    "month": "OCT 2026",
-    "day": 29,
-    "event": "Binance suffers $6.3B crypto heist"
-   }
-  },
-  {
-   "role": "setup",
-   "line": "The massive crypto exchange was suddenly drained in the world's largest heist reported by major news networks.",
-   "hit": "drained",
-   "beats": [
-    {
-     "word": "largest",
-     "text": "BIGGEST HEIST",
-     "icon": "lock"
-    }
-   ],
-   "footage": "bank vault open",
-   "shots": [
-    {
-     "words": "crypto exchange",
-     "q": "computer servers blinking"
-    },
-    {
-     "words": "largest heist",
-     "q": "police tape crime scene"
-    }
-   ],
-   "photo": "Changpeng Zhao",
-   "visual": {
-    "type": "title",
-    "text": "$6.3 BILLION",
-    "sub": "World's Largest Crypto Heist",
-    "icon": "skull"
-   }
-  },
-  {
-   "role": "turn",
-   "line": "Blockchain intelligence firms quickly linked the cyber attack directly to North Korea based on on-chain forensics.",
-   "hit": "korea",
-   "beats": [
-    {
-     "word": "quickly",
-     "text": "TRACED FAST",
-     "icon": "question"
-    }
-   ],
-   "footage": "hacker typing code",
-   "shots": [
-    {
-     "words": "Blockchain intelligence",
-     "q": "data network nodes"
-    },
-    {
-     "words": "North Korea",
-     "q": "world map globe"
-    }
-   ],
-   "photo": "",
-   "visual": {
-    "type": "stamp",
-    "icon": "robot",
-    "label": "TraderTraitor Group",
-    "word": "SUSPECTED",
-    "bad": true
-   }
-  },
-  {
-   "role": "twist",
-   "line": "Experts called it the biggest bank robbery in human history affecting the largest cryptocurrency exchange.",
-   "hit": "history",
-   "beats": [
-    {
-     "word": "robbery",
-     "text": "RECORD BREAKING",
-     "icon": "cash"
-    }
-   ],
-   "footage": "courtroom gavel",
-   "shots": [
-    {
-     "words": "bank robbery",
-     "q": "bank vault doors"
-    },
-    {
-     "words": "human history",
-     "q": "ancient books library"
+     "words": "Six billion",
+     "q": "digital currency chart"
     }
    ],
    "photo": "",
@@ -135,119 +35,26 @@
     "value": 6300000000,
     "prefix": "$",
     "suffix": "",
-    "label": "Stolen Funds",
+    "label": "Stolen from Binance",
     "icon": "skull"
    }
   },
   {
-   "role": "twist",
-   "line": "But that is not the strangest part of the story following the massive security breach.",
-   "hit": "strangest",
+   "role": "setup",
+   "line": "On October 29, 2026, the crypto giant faced an unprecedented digital siege that rattled global financial markets, alarming panicked traders and retail investors.",
+   "hit": "october",
    "beats": [
     {
-     "word": "strangest",
-     "text": "THE TWIST",
-     "icon": "question"
+     "word": "siege",
+     "text": "OCT 29, 2026",
+     "icon": "calendar"
     }
    ],
-   "footage": "digital matrix code",
+   "footage": "modern data center",
    "shots": [
     {
-     "words": "strangest part",
-     "q": "question mark neon"
-    }
-   ],
-   "photo": "",
-   "visual": {
-    "type": "title",
-    "text": "THE TWIST",
-    "sub": "What happened next",
-    "icon": "question"
-   }
-  },
-  {
-   "role": "twist",
-   "line": "Binance instantly announced they had $6.34 billion ready to cover losses while suspending user withdrawals.",
-   "hit": "billion",
-   "beats": [
-    {
-     "word": "instantly",
-     "text": "FULL BACKING",
-     "icon": "bank"
-    }
-   ],
-   "footage": "luxury office building",
-   "shots": [
-    {
-     "words": "Binance instantly",
-     "q": "trading floor monitors"
-    },
-    {
-     "words": "$6.34 billion",
-     "q": "stacks of money"
-    }
-   ],
-   "photo": "Binance",
-   "visual": {
-    "type": "counter",
-    "value": 6340000000,
-    "prefix": "$",
-    "suffix": "",
-    "label": "Cover Fund Ready",
-    "icon": "bank"
-   }
-  },
-  {
-   "role": "payoff",
-   "line": "Users kept trading on crypto markets while stolen billions vanished into thin air across global networks.",
-   "hit": "trading",
-   "beats": [
-    {
-     "word": "vanished",
-     "text": "GONE FOREVER",
-     "icon": "fire"
-    }
-   ],
-   "footage": "trading charts green",
-   "shots": [
-    {
-     "words": "Users kept trading",
-     "q": "trader looking monitors"
-    },
-    {
-     "words": "vanished into thin air",
-     "q": "smoke dissolving digital"
-    }
-   ],
-   "photo": "",
-   "visual": {
-    "type": "stamp",
-    "icon": "fire",
-    "label": "Crypto Heist",
-    "word": "GONE",
-    "bad": true
-   }
-  },
-  {
-   "role": "end",
-   "line": "On Oct 29 2026 the biggest heist ever recorded happened anyway according to breaking headlines.",
-   "hit": "recorded",
-   "beats": [
-    {
-     "word": "heist",
-     "text": "$6.3B STOLEN",
-     "icon": "skull"
-    }
-   ],
-   "footage": "binary code falling",
-   "shots": [
-    {
-     "words": "On Oct 29 2026",
-     "q": "clock ticking fast"
-    },
-    {
-     "words": "biggest heist",
-     "q": "security cameras flashing"
+     "words": "October 29",
+     "q": "calendar page flipping"
     }
    ],
    "photo": "",
@@ -255,21 +62,208 @@
     "type": "date",
     "month": "OCT 2026",
     "day": 29,
-    "event": "History's largest crypto hack"
+    "event": "Binance targeted in massive cyberattack"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Binance executives immediately suspended all withdrawals as the alarming security breach unfolded across their massive decentralized platform infrastructure, forcing a total exchange lockdown.",
+   "hit": "suspended",
+   "beats": [
+    {
+     "word": "withdrawals",
+     "text": "FUNDS LOCKED",
+     "icon": "lock"
+    }
+   ],
+   "footage": "panic trading floor",
+   "shots": [
+    {
+     "words": "suspended all withdrawals",
+     "q": "computer error screen"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "lock",
+    "label": "Withdrawals Frozen",
+    "word": "SUSPENDED",
+    "bad": true
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Blockchain intelligence firms quickly linked the massive attack to North Korea, identifying patterns consistent with state-sponsored cyber warfare used in previous heists.",
+   "hit": "linked",
+   "beats": [
+    {
+     "word": "Korea",
+     "text": "TRADER TRAITOR",
+     "icon": "question"
+    }
+   ],
+   "footage": "cyber security hackers",
+   "shots": [
+    {
+     "words": "North Korea",
+     "q": "world map hacking"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "STATE SPONSORED",
+    "sub": "APT Group",
+    "icon": "question"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "But that is not even the strangest part of the heist that shocked the entire digital economy, leaving cybersecurity analysts questioning our network security.",
+   "hit": "strangest",
+   "beats": [
+    {
+     "word": "heist",
+     "text": "BIGGEST EVER",
+     "icon": "skull"
+    }
+   ],
+   "footage": "matrix code falling",
+   "shots": [
+    {
+     "words": "strangest part",
+     "q": "digital code stream"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "THE TWIST",
+    "sub": "Unprecedented Scale",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "TRM Labs confirmed $6.36 billion drained in history's largest crypto robbery, marking a devastating day for millions of global retail investors worldwide today.",
+   "hit": "confirmed",
+   "beats": [
+    {
+     "word": "billion",
+     "text": "$6.36B STOLEN",
+     "icon": "bitcoin"
+    }
+   ],
+   "footage": "cryptocurrency mining rig",
+   "shots": [
+    {
+     "words": "$6.36 billion",
+     "q": "money transfer digital"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 6360000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "TRM Labs confirmed loss",
+    "icon": "bitcoin"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Security experts traced the funds using advanced on-chain analysis tools to expose the sophisticated methods used by the cyber criminals during the breach.",
+   "hit": "traced",
+   "beats": [
+    {
+     "word": "tools",
+     "text": "BLOCKCHAIN TRACKER",
+     "icon": "laptop"
+    }
+   ],
+   "footage": "blockchain data graphs",
+   "shots": [
+    {
+     "words": "advanced on-chain",
+     "q": "network nodes glowing"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "ON-CHAIN",
+    "sub": "Transaction Tracking",
+    "icon": "laptop"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "Binance announced six point three billion ready to cover all user losses, moving quickly to prevent a total market collapse after the massive theft.",
+   "hit": "announced",
+   "beats": [
+    {
+     "word": "losses",
+     "text": "SAFU FUNDS",
+     "icon": "bank"
+    }
+   ],
+   "footage": "modern bank vault",
+   "shots": [
+    {
+     "words": "cover all user losses",
+     "q": "secure vault door"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 6340000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Binance reserve fund",
+    "icon": "bank"
+   }
+  },
+  {
+   "role": "end",
+   "line": "The largest bank heist in human history left billions vanished from Binance, forever changing how we view digital asset security and exchange safety.",
+   "hit": "history",
+   "beats": [
+    {
+     "word": "Binance",
+     "text": "$6.3B GONE",
+     "icon": "skull"
+    }
+   ],
+   "footage": "empty digital vault",
+   "shots": [
+    {
+     "words": "human history",
+     "q": "empty cryptocurrency wallet"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "World Record Heist",
+    "word": "GONE",
+    "bad": true
    }
   }
  ],
- "description": "On October 29, 2026, hackers stole $6.3 billion from Binance in the largest crypto heist in history. Blockchain intelligence firms linked the attack to North Korea, while Binance announced they had funds ready to cover losses.",
- "hashtags": "#Binance #CryptoHack #NorthKorea #CryptoNews #Blockchain #Bitcoin #CryptoSecurity",
- "pinned": "Would you keep your funds on an exchange after a $6.3B hack?",
- "length": 60,
+ "description": "On October 29, 2026, Binance suffered a staggering $6.36 billion hack linked by blockchain firms to North Korea. Withdrawals were instantly frozen in the largest crypto heist in human history.",
+ "hashtags": "#Binance #CryptoNews #Blockchain #NorthKorea #CryptoHack #CyberSecurity #Money",
+ "pinned": "Do you think crypto exchanges are safe? Let us know below!",
+ "length": 90,
  "settings": {
-  "length": 60
+  "length": 90
  },
- "est_secs": 57,
- "words": 128,
- "target_words": 135,
+ "est_secs": 85,
+ "words": 203,
+ "target_words": 215,
  "length_ok": true,
- "ep": 27,
- "voice_seed": 18
+ "ep": 27
 }
