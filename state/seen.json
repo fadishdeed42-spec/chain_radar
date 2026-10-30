@@ -263,7 +263,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793331509.0,
 "tgtext": "Despite the market drop, whales are still buying $BTC!\n\nOver the past 4 hours, 9 newly created wallets received 1,900 $BTC ($148M) from #GalaxyDigital.\n\nhttps://arkm.com/explorer/entity/galaxy-digital",
 "title": "Despite the market drop, whales are still buying BTC!",
@@ -365,6 +365,19 @@
 "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack"
 ]
+},
+"16a7cb1e6ccf": {
+"coin": "bitcoin",
+"src": "TradingView",
+"srcs": [
+"TradingView"
+],
+"t": 1793345278.8270364,
+"t0": 1793343600.0,
+"tgtext": "",
+"title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
+"url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc2hPV0RQRGNWMnRSdlJpakUwSUY4QmJfcVotSm5WeTlGSFB6YllMSnpGQmF0MHBsSE5nZl9fX0gwUG9sbmdCc3FUdG9iQlhZR0cyM0loelVtcmVsdzJiNlNEOUpZS2VMN0NYbzJweENRRFdGazc3UnRNSXdsMkVXT3NwS1pNUFMxdHZzYTR6c1RzNmd0X3dFVnk2Y3NGbUFYZDM3TU9WREFLNldoaE5udlhMTlFwUXVQNUs0eVVqckluT3RSSG1oWQ?oc=5",
+"urls": []
 },
 "16f78a415bb6": {
 "coin": "bitcoin",
@@ -598,17 +611,23 @@
 ]
 },
 "20a534938af0": {
-"coin": "ethena",
-"src": "Lookonchain",
+"coin": "",
+"src": "Cointelegraph",
 "srcs": [
+"CoinDesk",
+"Cointelegraph",
+"CryptoPotato",
+"CryptoRank",
 "Lookonchain"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793324325.0,
-"tgtext": "After the Binance hacker finished dumping all 217.5M $ENA ($33.93M), someone started going long on $ENA.\n\nA newly created wallet, 0xedc0, deposited 2M $USDC into Hyperliquid and opened a 3x long on 22.78M $ENA ($4.09M).\n\nhttps://hypurrscan.io/address/0xedc0895816b7bce45fe13f29b4521154d37a40c7#perps\nhttps://x.com/lookonchain/status/2115972257864687976",
-"title": "After the Binance hacker finished dumping all 217.5M ENA ($33.93M), someone started going long on ENA.",
-"url": "https://t.me/lookonchainchannel/10841",
-"urls": []
+"tgtext": "After the Binance hacker finished dumping all 217.5M $ENA ($33.93M), someone started going long on $ENA.\n\nA newly created wallet, 0xedc0, deposited 2M $USDC into Hyperliquid and opened a 3x long on 22.78M $ENA ($4.09M).\n\nhttps://hypurrscan.io/address/0xedc0895816b7bce45fe13f29b4521154d37a40c7#perps\nhttps://x.com/lookonchain/status/2115972257864687976\nBlockaid Reveals How Hacker Took Control of Binance Wallet: One of 50 EIP-7702 Authorizations Succeeded\n\nAccording to analysis by blockchain security firm Blockaid, the attacker used Ethereum\u2019s EIP-7702 authorization mechanism to attack Binance\u2019s Binance 14 hot wallet. Because the attacker could not determine the hot wallet\u2019s live nonce, and EIP-7702 authorizations must match the account\u2019s nonce at the time of transaction execution, the attacker submitted 50 authorizations with different nonces (18914775 to 18914824) in a single Type-4 transaction. Only one matched successfully, allowing the malicious delegation to take effect.\n\nThe successful authorization delegated the hot wallet\u2019s account code to an unverified malicious asset-transfer contract. The contract allows only the address designated by the attacker to execute the sweep() function, which can transfer ETH and ERC-20 tokens from the wallet while retaining 1 ETH for gas fees. Subsequent incoming assets may also be at risk of being transferred. \u2014 link\n\u26a1\ufe0f TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d\n\nNews | Markets | YouTube",
+"title": "TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d",
+"url": "https://t.me/cointelegraph/72956",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze"
+]
 },
 "22815839bff7": {
 "coin": "",
@@ -859,7 +878,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793331079.0,
 "tgtext": "The Pando Rings hacker bought 7,548 $ETH ($16.72M) 2 hours ago.\n\nhttps://arkm.com/explorer/address/0x303D0A175CeEC14DD7B3d4F60CABE6CEc06a3d9F",
 "title": "The Pando Rings hacker bought 7,548 ETH ($16.72M) 2 hours ago.",
@@ -897,23 +916,6 @@
 "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS0lDNDFBTnpZTG5ld1JqYXVaWW5wRFc2YUVGY3BBcFZjSk8wNVZ6VjEta0R3YnFkVW55THRQc2NSLVJZZkRjQUI0QUszeUxTbGlIQndmUUUzWTlsUUtXZUVfeTB2cHVWRHRwdWdzTXVGbUZ0Y0dqWk5Yem1JRG9GSDFWMFNJbzhTMTVsbHBWT2FXbHRTQU5aaHpDT05Ia2xJNEw4RTdoUzhBUHR1N05iNnVqOWFkdGZLS19LT0FXV0xzM2t0Y3lVZ1UwNG0xQdIB0wFBVV95cUxOR1ROX3VZZFdVd2dBQ0QyU2NaTjk4cEgyTFcxSXctVzQ0RlV2Vi15YWtJM0hhemdaY2NnV3RIOHVKR2FXbE9jeFpWMVFhMkNoZXV0LW82dmFlZnVzV0pBcHNPX3I0T2haMnZ2TnNBUi1SV3dIY0E5aW5CcEZwdVpYTmZPSk1HRVFZc3M5cEw0enR4OXk0NUstR2Nnc0g1U2JOVHhvQVN4UXBvalEwb2c5dkg2SEJjRHFiV1EweFlMNzR3VEZVQXFYV1BIN0ZQdFJRZDNB?oc=5",
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
-]
-},
-"3261473b2180": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"CoinDesk",
-"The Defiant",
-"Wu Blockchain"
-],
-"t": 1793172190.71386,
-"t0": 1793150867.0,
-"tgtext": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay\n\nCasa co-founder Jameson Lopp highlighted that Bitcoin treasury company Datavault (DVLT) saw its stock price crash, tumbling 49.55% over a 24-hour period. The plunge follows the company\u2019s notice to investors disclosing that its entire treasury reserves are held on crypto exchange Biconomy, but despite submitting transfer and withdrawal requests for four months, it has been unable to withdraw any BTC from the platform. \u2014 link",
-"title": "Datavault Shares Crash as Bitcoin Treasury Remains Trapped on Biconomy Amid 4-Month Withdrawal Delay",
-"url": "https://t.me/wublockchainenglish/26575",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc"
 ]
 },
 "332ed56168ed": {
@@ -1019,20 +1021,26 @@
 "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks"
 ]
 },
-"38e5a6180934": {
+"3bb11954c367": {
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
-"CoinDesk",
-"Wu Blockchain"
+"ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+"Axios",
+"BBC",
+"Bitcoin Magazine",
+"Bitcoin Sistemi"
 ],
-"t": 1793171883.0333154,
-"t0": 1793157074.0,
-"tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
-"title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
-"url": "https://t.me/wublockchainenglish/26580",
+"t": 1793345278.8270364,
+"t0": 1793324437.0,
+"tgtext": "Binance Says $6.3B Security Incident May Stem From Compromised DevOps Laptop, No Evidence of Private Key Leak\n\nBinance said its initial investigation suggests the security incident may have involved a compromised DevOps engineer's laptop, allowing the attacker to access a service container and submit unauthorized withdrawal transactions. The exchange said it has found no evidence that any wallet private keys were leaked.\n\nBinance estimates the total impact at approximately $6.3 billion, with around $3 billion in affected assets frozen on-chain. Deposits and withdrawals have been temporarily suspended, and the affected address authorization has been revoked. Binance said it will cover all losses through its SAFU fund and company funds, with a detailed technical post-mortem to follow. \u2014 link\n\ud83d\udea8 JUST IN: Binance says the hack likely stemmed from a compromised DevOps engineer\u2019s laptop, with no sign of a private key leak.\n\nIt puts the total impact at about $6.3B.\n\nNews | Markets | YouTube\nJUST IN: Binance says $6,300,000,000 worth of crypto was impacted following major hack.\n\n@WatcherGuru\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
+"title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
+"url": "https://t.me/wublockchainenglish/26619",
 "urls": [
-"https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info"
+"https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
+"https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+"https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack"
 ]
 },
 "3ca74ddb95ea": {
@@ -1441,7 +1449,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793338755.0,
 "tgtext": "\ud83d\udea8 NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.\n\nNews | Markets | YouTube",
 "title": "NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.",
@@ -2553,6 +2561,28 @@
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MTEtXRHVxQmtzNnV6X2YtTkJUYkZrNGMtOEVHOEtGTVJjQXNsTHpvMXduaUY4bk13MGMtbFVGazk4QU5YUVlRZE9ybE5odldldk4xdUVXNEtNdw?oc=5",
 "urls": []
 },
+"993f9a4415b2": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+"Axios",
+"BBC",
+"Bitcoin Magazine",
+"Bloomberg.com"
+],
+"t": 1793344972.7109776,
+"t0": 1793323616.0,
+"tgtext": "JUST IN: Coinbase CEO Brain Armstrong says his team is doing everything they can to help following Binance hack.\n\n\"Crypto has been through many tough times, and has always come out stronger on the other side. This won't be any different.\"\n\n@WatcherGuru\nBinance Says $6.3B Security Incident May Stem From Compromised DevOps Laptop, No Evidence of Private Key Leak\n\nBinance said its initial investigation suggests the security incident may have involved a compromised DevOps engineer's laptop, allowing the attacker to access a service container and submit unauthorized withdrawal transactions. The exchange said it has found no evidence that any wallet private keys were leaked.\n\nBinance estimates the total impact at approximately $6.3 billion, with around $3 billion in affected assets frozen on-chain. Deposits and withdrawals have been temporarily suspended, and the affected address authorization has been revoked. Binance said it will cover all losses through its SAFU fund and company funds, with a detailed technical post-mortem to follow. \u2014 link\n\ud83d\udea8 JUST IN: Binance says the hack likely stemmed from a compromised DevOps engineer\u2019s laptop, with no sign of a private key leak.\n\nIt puts the total impact at about $6.3B.\n\nNews | Markets | YouTube\nJUST IN: Binance says $6,300,000,000 worth of crypto was impacted following major hack.\n\n@WatcherGuru\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru",
+"title": "Coinbase CEO Brain Armstrong says his team is doing everything they can to help following Binance hack.",
+"url": "https://t.me/WatcherGuru/15703",
+"urls": [
+"https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
+"https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+"https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack"
+]
+},
 "9ab0a9d8587f": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2567,21 +2597,23 @@
 "urls": []
 },
 "9acb20575dd0": {
-"coin": "bitcoin",
-"src": "insidebitcoins.com",
+"coin": "",
+"src": "Forbes",
 "srcs": [
 "AFR",
 "Bloomberg.com",
+"CoinDesk",
 "Forbes",
-"IBTimes India",
 "Mashable"
 ],
-"t": 1793344358.9724991,
+"t": 1793345278.8270364,
 "t0": 1793324688.0,
 "tgtext": "",
-"title": "Nearly $1 Billion Liquidated as Bitcoin Slides Below $78,000 on Binance Fears",
-"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaU5OQ1lUdVpUd0tJb25xSUxvNklqdzFfelA5RDNPYTJ3RXZ6T3hBWnZwWlhKbDU4eENEd0NSNTNxR1lSMlZLWFFneG4tVGZPSmNKVVJyMWpLTGhpVi1hU1F5SGVmWHhVcUVBOVhlZ0Rzdm1WM0txNUdLYUJabmJocDNNNzI?oc=5",
-"urls": []
+"title": "Was Binance Hacked? Crypto Exchange Says Funds Are Safe After \u2018Potential Security Issue\u2019",
+"url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQnl2b0lJUTFVWnJlaElQNDFNOExPVlBvcF9zbWYzUURKUUpibm1uaV9Qc0owdFpEQ3dmWVpLSjVSZjFzdDF2OVlBSVNtSjFHZWF4LU55OTFFOVpSMThoenJ6SF8yRUZyWmExV3lfYXo5bkx3RXA4RGxMaEFzVFZDb0xqRmM5Y0tyXzh5VVpXRGh5eXhMcjAyQnpiN2hSSlN6NTRfa3lGbFFxeG5CS0hZYXR6cTlJTzE2Z1VjS09oWW5ud2RQY0UzRk52eC1KQQ?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets"
+]
 },
 "9df5476ba366": {
 "coin": "ethereum",
@@ -2589,7 +2621,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793324016.0,
 "tgtext": "The whale holding a 93,184 $ETH ($214M) long closed 36,517 $ETH ($80.56M) to avoid liquidation and still holds 56,667 $ETH ($125M).\n\nNew liquidation prices: $2,122.44 and $2,129.72.\n\nThe whale has lost over $38M in total.\nhttps://x.com/lookonchain/status/2114187347906748592",
 "title": "The whale holding a 93,184 ETH ($214M) long closed 36,517 ETH ($80.56M) to avoid liquidation and still holds 56,667 ETH ($125M).",
@@ -2637,7 +2669,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793344664.2306795,
+"t": 1793344972.7109776,
 "t0": 1793338024.0,
 "tgtext": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
 "title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
@@ -3020,19 +3052,17 @@
 },
 "af1574b4442d": {
 "coin": "bitcoin",
-"src": "insidebitcoins.com",
+"src": "BeInCrypto",
 "srcs": [
 "BeInCrypto",
 "CryptoPotato",
-"CryptoRank",
-"Hokanews",
-"insidebitcoins.com"
+"CryptoRank"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793324940.0,
 "tgtext": "",
-"title": "Nearly $1 Billion Liquidated as Bitcoin Slides Below $78,000 on Binance Fears",
-"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaU5OQ1lUdVpUd0tJb25xSUxvNklqdzFfelA5RDNPYTJ3RXZ6T3hBWnZwWlhKbDU4eENEd0NSNTNxR1lSMlZLWFFneG4tVGZPSmNKVVJyMWpLTGhpVi1hU1F5SGVmWHhVcUVBOVhlZ0Rzdm1WM0txNUdLYUJabmJocDNNNzI?oc=5",
+"title": "Bitcoin Bulls Take the Biggest Hit in a $1.49 Billion Crypto Liquidation Day",
+"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UMUNic256Wm5sNUpVUDNPdWdKZ2xKb1U2QUh6Y0hVZUF6OE1IVk1ZSXIza19xLVdTWkZEVWl3amRpT0dFQUFNcUdhRU5pVkY3bjlaNDBtVHh5UXdtTjNjeHJicmFMNVYzMGtoWjdrZ3prbmdyUFNXYnBB?oc=5",
 "urls": []
 },
 "afade5943162": {
@@ -3978,7 +4008,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793344664.2306795,
+"t": 1793345278.8270364,
 "t0": 1793343196.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
 "title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
@@ -4516,46 +4546,46 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
+"094ec307dbaf": 0.129,
 "0cedb4c501e1": 0.523,
-"10b82f6a21d7": 0.022,
+"16a7cb1e6ccf": 0.367,
 "1aaf342c40b6": 0.12,
-"1e475130f3a3": 0.989,
-"20a534938af0": 0.722,
-"310fbb642d1d": 0.695,
+"20a534938af0": 0.942,
+"310fbb642d1d": 0.742,
+"3bb11954c367": 0.873,
 "3d568794d677": 0.038,
 "46599676c441": 0.334,
+"47aa4d5cf5e5": 0.235,
 "4948c03b921c": 0.059,
 "57109a813f86": 0.718,
-"5b77ff0bccc9": 0.181,
 "651777901c91": 0.035,
 "6bb4a5270274": 0.323,
-"739a8c52e411": 0.019,
 "77e7b60563ec": 0.034,
 "78f7a83e386d": 0.063,
 "7b2c5ba68008": 0.011,
-"7c74c652b413": 0.041,
+"7c74c652b413": 0.051,
 "8197c3507326": 0.167,
 "81fea28e3de3": 0.027,
-"856c2d41b0ba": 0.176,
 "85c5b06d4601": 0.01,
 "9597a755fbb3": 0.121,
-"9acb20575dd0": 0.476,
+"99ee926e79e9": 0.039,
+"9acb20575dd0": 0.751,
 "9df5476ba366": 0.874,
-"9fe2265d9a76": 0.899,
 "a4c69c1d5f79": 0.188,
 "a64e9f93fb80": 0.188,
-"af1574b4442d": 0.873,
+"abe50070c8f4": 0.121,
+"af1574b4442d": 0.344,
 "b1c86ef0e11d": 0.037,
 "c7a78fbcb862": 0.022,
 "d1f77e86ddda": 0.159,
-"d278a78681bb": 0.149,
+"d278a78681bb": 0.154,
+"d279d9000d35": 0.019,
 "dc3ec20974a5": 0.109,
 "e1b3aba13a6c": 0.976,
 "e72914b75c41": 0.05,
 "e7a99dd22c23": 0.018,
 "f2bd760a2a1e": 0.037,
-"f43d83d8f15e": 0.308,
-"f9cd8d13a02f": 0.732
+"f43d83d8f15e": 0.308
 },
 "sent": [
 {
@@ -6503,65 +6533,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"1e475130f3a3",
-67,
-359,
-37
-],
-[
 "e1b3aba13a6c",
 46,
-24,
-1
-],
-[
-"9fe2265d9a76",
-60,
-111,
-1
-],
-[
-"9df5476ba366",
-18,
-344,
-1
-],
-[
-"af1574b4442d",
-71,
-329,
-5
-],
-[
-"f9cd8d13a02f",
-17,
-357,
+35,
 1
 ],
 [
 "20a534938af0",
-13,
-339,
+68,
+349,
+9
+],
+[
+"9df5476ba366",
+16,
+354,
+1
+],
+[
+"3bb11954c367",
+68,
+347,
+39
+],
+[
+"9acb20575dd0",
+69,
+343,
+9
+],
+[
+"310fbb642d1d",
+9,
+237,
 1
 ],
 [
 "57109a813f86",
 18,
-98,
-1
-],
-[
-"310fbb642d1d",
-10,
-226,
+109,
 1
 ],
 [
 "0cedb4c501e1",
-13,
-219,
+12,
+229,
 1
+],
+[
+"16a7cb1e6ccf",
+29,
+28,
+1
+],
+[
+"af1574b4442d",
+54,
+339,
+3
 ]
 ],
-"top_at": 1793344664.2306795
+"top_at": 1793345278.8270364
 }
