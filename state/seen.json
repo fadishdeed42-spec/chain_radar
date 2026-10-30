@@ -6,9 +6,6 @@
 },
 "init": true,
 "log": [
-1793298254.5899715,
-1793299476.547458,
-1793300393.7069259,
 1793305891.9665356,
 1793308277.0735452,
 1793308277.0735452,
@@ -19,7 +16,8 @@
 1793361736.9297578,
 1793363273.0452292,
 1793378089.3404038,
-1793378625.1194944
+1793378625.1194944,
+1793387814.2312355
 ],
 "menu": {
 "005a3baab7aa": {
@@ -460,7 +458,7 @@
 "New Haven Register",
 "The New York Times"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793368800.0,
 "tgtext": "",
 "title": "Bitcoin fell after the Fed\u2019s pause, but blaming interest rates misses the Binance shock",
@@ -1075,12 +1073,34 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
 "url": "https://t.me/cointelegraph/72966",
 "urls": []
+},
+"2c043d16a6c8": {
+"coin": "",
+"src": "CNBC",
+"srcs": [
+"24/7 Wall St.",
+"AP News",
+"Altcoin Buzz",
+"Barron's",
+"Bitcoin Magazine"
+],
+"t": 1793388117.7040322,
+"t0": 1793366876.0,
+"tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea's $6,300,000,000 Binance crypto hack is the largest heist in human history.\n\n@WatcherGuru\nJUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MVV9nR01mTTV2Q05KSy1zWVRnRFZ6YV94dkhERzhtUUxMVk9USjZxd0tmUERBcC05eTlnRDVLNjk3SzdTZHQwVnNRaFZUY05xNHo1SnVrVXlDUjlTTVhvUWxEbncwNlF6NTE0VF9pc1pOemRXWXpCa20wVDPSAYIBQVVfeXFMTWUyaks4OEVScW5NcEtZTTN6LVBURDBvQjdVQ2JtNExKMUsxc2FmMU95U192dG9EanhDSl9PNTY0b045ZV9oVEcwc1c2M1ZPZ0prTkRoY2kwaFlSUGwtQ2hFNzVhalRXN2RuNzlUSGU3bkFKNUZnZ1g5X1kzME8xSUQtUQ?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/news/north-korea-6-3-billion-binance-hack",
+"https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+"https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
+"https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack"
+]
 },
 "2c999d9a0ec8": {
 "coin": "bitcoin",
@@ -1420,6 +1440,23 @@
 "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTURLVWRxNGVld0k1MDFEeUFoczJqVmNUMWtaeUxhWnUwQ0RQeUt3LWNtODlqYmFjbEx3aExaUDZQNlZMWUl0Z3A1ZmRNVTBWNFNrV2t4Z1FDOVJCRjdvZ3NCNU1RazgyNWxVSTZUNC15NlB2dTNXblFpWXdPajlDbHdLOURSazVNMmViM1c1TTlsbF9IWnFDalRiWkx5aERqOFpR?oc=5",
 "urls": []
 },
+"3d66f875adfe": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Crypto Economy",
+"Decrypt",
+"MPR News"
+],
+"t": 1793387814.2312355,
+"t0": 1793381007.0,
+"tgtext": "",
+"title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
+"url": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
+"urls": [
+"https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison"
+]
+},
 "3e3e549dd1df": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1666,11 +1703,11 @@
 "srcs": [
 "CBS News",
 "FOX 9 Minneapolis-St. Paul",
+"MPR News",
 "Patch",
-"The Block",
-"Yahoo"
+"The Block"
 ],
-"t": 1793386009.5166285,
+"t": 1793388117.7040322,
 "t0": 1793370046.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -2843,7 +2880,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793380826.0,
 "tgtext": "Tether Reports $1.5B in Q3 Operating Profit as Excess Reserves Nearly Double to $7.95B\n\nTether released its Q3 2026 reserve attestation prepared by BDO, reporting $1.5 billion in net operating profit for the quarter, roughly flat quarter-over-quarter, and $4.5 billion for the first nine months, primarily driven by U.S. Treasury bills and reverse repos. As of September 30, USDT issuance stood at approximately $184 billion, with total reserve assets of $191.5 billion and liabilities of $183.5 billion. Excess reserves nearly doubled from $4.1 billion at the end of Q2 to $7.95 billion, while direct and indirect U.S. Treasury bill holdings totaled $132.4 billion. \u2014 link",
 "title": "Tether Reports $1.5B in Q3 Operating Profit as Excess Reserves Nearly Double to $7.95B",
@@ -2966,9 +3003,10 @@
 "src": "Yahoo Finance",
 "srcs": [
 "24/7 Wall St.",
-"Yahoo Finance"
+"Yahoo Finance",
+"www.tokenpost.com"
 ],
-"t": 1793387537.3877733,
+"t": 1793387814.2312355,
 "t0": 1793371999.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
@@ -4079,7 +4117,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793368905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.",
@@ -4455,7 +4493,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793366709.0,
 "tgtext": "The Binance hacker sent ~$3.32M worth of altcoins to the $NEWT token contract address by mistake.\n\nThe funds are now unrecoverable.\n\nhttps://arkm.com/explorer/address/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
 "title": "The Binance hacker sent ~$3.32M worth of altcoins to the NEWT token contract address by mistake.",
@@ -4618,7 +4656,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.",
@@ -4909,7 +4947,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -6041,7 +6079,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793387537.3877733,
+"t": 1793388117.7040322,
 "t0": 1793368257.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 30% at open.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 30% at open.",
@@ -6100,39 +6138,39 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
+"05a681243d06": 0.081,
 "088cf4e753af": 0.032,
 "12733bd815e1": 0.187,
 "1326b2cb95ae": 0.037,
 "18f066b58df6": 0.012,
-"1af78a343e82": 0.081,
-"1e37d28f3cea": 0.055,
+"1be9cf0eca4c": 0.061,
+"1e37d28f3cea": 0.032,
 "2b5a6d8aebf2": 0.883,
-"2f2db9ee4920": 0.037,
-"35891c45c505": 0.086,
-"3eacbed12c8a": 0.017,
-"4d94c4f469bf": 0.177,
-"5d523d9c8776": 0.041,
+"2c043d16a6c8": 0.283,
+"2f2db9ee4920": 0.092,
+"35891c45c505": 0.073,
+"4d94c4f469bf": 0.211,
+"50c072cd0024": 0.011,
 "5d9a53f6181d": 0.068,
 "5f7f02d591c1": 0.04,
-"698e92e2e2cf": 0.015,
-"6ac342c39a2b": 0.037,
+"6ac342c39a2b": 0.051,
 "6cae71e32994": 0.003,
 "712506752e30": 0.016,
+"75f178536690": 0.017,
 "776ec75bc2bc": 0.155,
 "7a500775caff": 0.077,
 "7b87949be93e": 0.026,
 "7bf2aa4b19b2": 0.015,
 "7db257373e68": 0.097,
 "8068996543e8": 0.033,
-"82c9fe6abcbe": 0.012,
+"80d908e96f49": 0.013,
 "84c1e5c18a54": 0.395,
-"8cffc0b359f6": 0.19,
+"8cffc0b359f6": 0.049,
 "9a5882033a1a": 0.01,
 "9cecc613f850": 0.087,
-"a6d65a37ffaa": 0.04,
-"b5a4d3df259f": 0.181,
+"a6d65a37ffaa": 0.02,
+"b5a4d3df259f": 0.085,
 "b6936a9d75d6": 0.037,
-"b828c3688741": 0.405,
 "cd42f45e3421": 0.014,
 "d6ba04fe3583": 0.341,
 "d7042868a0de": 0.02,
@@ -6142,187 +6180,6 @@
 "fcb2283292ce": 0.019
 },
 "sent": [
-{
-"e": [
-"bloomberg",
-"hyperliquid",
-"oil",
-"orders",
-"perp",
-"raise",
-"spoofing",
-"suspicions",
-"unusual"
-],
-"k": [],
-"t": 1793208934.741931,
-"u": [
-"https://t.me/wublockchainenglish/26589"
-],
-"w": [
-"$170m",
-"bloomberg",
-"hyperliquid",
-"oil",
-"orders",
-"perp",
-"raise",
-"spoofing",
-"suspicions",
-"unusual"
-]
-},
-{
-"e": [
-"before",
-"fairshake",
-"fec",
-"filings",
-"hits",
-"midterms",
-"other",
-"outage",
-"pac",
-"super"
-],
-"k": [
-"outage"
-],
-"t": 1793209549.46211,
-"u": [
-"https://cointelegraph.com/news/crypto-pac-spending-midterms-fec-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM0NSVW9ITDhFVEt6UnhMSGdDaVk2bzEwTzRzQkFneFRrb3NidzhfOEY5TFhTYlBNSHM2cUNsbEhtMXNYVnJfU0F4NG9uNGRKQmp2OFpSN1RYVTNucGFZa2tjeXgtZkdfd2lPeUxlb1BBLUM0bzVYNngxQzN4Rk5SMW1zTnB5TWdEVk9JekpRTnlFNDJYUWl5OGNkTTBpeVBESjIxYWtpQlh5cENvMjI5Zy1iNElOYTdzN0I4MExzM21rci1OMUVPOE1rOWxHYVNIZC1uOHo3X3E?oc=5",
-"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPd2tsbk9iUUxVX2NMeWtWVW5KUXcxTHY3X0FWallQS09hcmJRZ3Q1cUZIYXpSR0xHN0ZhY3kwZ3hLQ2RkTjVZc1k1aHN1ZWo5c212by1FOUFqbTByTGh3ek02cFlMQko4SmdJdWY0U3RHcnFxWUJwaHQxNXdNZjgyRkFqb25xN3V2Z1VQUXZhQ1pvM3FfQUlmOWV1STVEb18yZzhlMmV2QmQzc0xUMHBxUDJBelAySmhtMmhoM1ltV1htSGpWN0VhNTNHVHdOSDRlQjNBdzJpZTZTa3NLdmxQekFQS3J4a3NmYUE?oc=5"
-],
-"w": [
-"2026",
-"before",
-"compared",
-"fairshake",
-"fec",
-"filings",
-"hits",
-"midterms",
-"other",
-"outage",
-"outlets",
-"pac",
-"super"
-]
-},
-{
-"e": [
-"federal",
-"reserve"
-],
-"k": [],
-"t": 1793210781.46498,
-"u": [
-"https://t.me/WatcherGuru/15655",
-"https://t.me/cointelegraph/72913",
-"https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected"
-],
-"w": [
-"federal",
-"interest",
-"leaves",
-"rates",
-"remains",
-"reserve",
-"unchanged"
-]
-},
-{
-"e": [
-"favor",
-"fed",
-"hike",
-"holds",
-"officials",
-"rates",
-"steady",
-"two",
-"vote"
-],
-"k": [],
-"t": 1793211087.0262618,
-"u": [
-"https://t.me/wublockchainenglish/26590"
-],
-"w": [
-"favor",
-"fed",
-"hike",
-"holds",
-"officials",
-"rates",
-"steady",
-"two",
-"vote"
-]
-},
-{
-"e": [
-"federal",
-"holds",
-"rates",
-"reserve",
-"returns",
-"steady"
-],
-"k": [],
-"t": 1793212936.1214902,
-"u": [
-"https://news.google.com/rss/articles/CBMiowFBVV95cUxQLTktMnhIbElucE9jdHROUTdrcE9kczdPWmhNNF9PSlg5T2hrZUtTRF8wLWtFX3lhQ0xER3ZGNE84RmpyUmFYTlU2YTlIR19PRFFnNDRzSWYzLTdDZU80UUFTQkMzYXcxNmVBU1JzUDFuQXM3aldmc3BZRHFiVC0ySHp3SnFfNFlpQnB3RnVTWkxQUkVXYjdCbElYX1E2c1V4NTVr?oc=5",
-"https://news.google.com/rss/articles/CBMiigFBVV95cUxPMVllNGRGYS01UEg5TFhVV0pJT0NOdFNzR0FlUXo1QXhQUmVqNEVzZkJ6SE5wbUpwUE9qUy1iRHpVWm9qUEV1ZFd3ZnR1WGJlV3FwTklBSGlTT0dNSXBiM05fZllHNkxSaGhzR3ctSjBFTG03a0Vyak1LWWRqekNYYUVCVVZvM2FFR3c?oc=5",
-"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tYTFHS3VQcXN2NXdhUnZ2VkFmakFvRGhtQlZQeGUzTFUzWDFUY25XSU5TRmxFY3lsUGE2VEFVeTc3Tlg1a3NNSTQ3RF8yNVZxTHliVUZNOHdnRFZJM1lYaklQMG9vSGJT?oc=5"
-],
-"w": [
-"$81k",
-"bitcoin",
-"federal",
-"holds",
-"price",
-"rates",
-"reserve",
-"returns",
-"steady"
-]
-},
-{
-"e": [
-"fed",
-"fomc"
-],
-"k": [],
-"t": 1793213603.6165695,
-"u": [
-"https://t.me/cointelegraph/72915"
-],
-"w": [
-"2027",
-"but",
-"eight",
-"fed",
-"focus",
-"fomc",
-"keep",
-"long",
-"meetings",
-"monetary",
-"one",
-"per",
-"policy",
-"rate",
-"solely",
-"starting",
-"statement",
-"strategy",
-"term",
-"vote",
-"year"
-]
-},
 {
 "e": [
 "peter",
@@ -8220,6 +8077,21 @@
 "reserves",
 "tether"
 ]
+},
+{
+"e": [],
+"k": [],
+"t": 1793387814.2312355,
+"u": [
+"https://t.me/WatcherGuru/15727"
+],
+"w": [
+"market",
+"memecoin",
+"stock",
+"today",
+"turned"
+]
 }
 ],
 "stories": {},
@@ -8228,63 +8100,63 @@
 [
 "cc9d7e049dbc",
 10,
-25,
+35,
 1
 ],
 [
 "2b5a6d8aebf2",
-65,
-221,
+64,
+231,
 2
 ],
 [
 "b1663f6f0353",
 0,
-311,
-1
-],
-[
-"c62130fd2271",
-2,
-347,
+320,
 1
 ],
 [
 "fe0eda4cecdd",
-2,
-321,
+0,
+331,
 1
 ],
 [
-"b828c3688741",
-67,
-360,
-23
+"c62130fd2271",
+1,
+357,
+1
 ],
 [
 "84c1e5c18a54",
 43,
-112,
+122,
 2
 ],
 [
 "d6ba04fe3583",
-19,
-191,
+18,
+200,
 1
 ],
 [
-"8cffc0b359f6",
-40,
-259,
-2
+"2c043d16a6c8",
+67,
+354,
+24
+],
+[
+"4d94c4f469bf",
+69,
+301,
+6
 ],
 [
 "12733bd815e1",
-73,
-312,
+72,
+322,
 5
 ]
 ],
-"top_at": 1793387537.3877733
+"top_at": 1793388117.7040322
 }
