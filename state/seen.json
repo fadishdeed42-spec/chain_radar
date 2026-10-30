@@ -344,7 +344,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793392040.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.",
@@ -579,7 +579,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793392612.0,
 "tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru",
 "title": "Apple officially surpasses Nvidia to become the world's most valuable company by market cap.",
@@ -1131,10 +1131,10 @@
 "CNBC",
 "Cointelegraph",
 "Decrypt",
-"Watcher.Guru",
-"Yahoo Finance"
+"NBC News",
+"Watcher.Guru"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -1312,7 +1312,7 @@
 "CoinDesk",
 "Coinpedia"
 ],
-"t": 1793393614.0513859,
+"t": 1793393920.6568701,
 "t0": 1793372599.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
@@ -2708,7 +2708,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793379829.0,
 "tgtext": "\ud83d\udd25 BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
 "title": "BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
@@ -2805,14 +2805,17 @@
 "src": "24/7 Wall St.",
 "srcs": [
 "24/7 Wall St.",
-"Coinpedia"
+"Coinpedia",
+"Decrypt"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793373536.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
 "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVWFCbHR0RlVtWDFnb25OSjVuREY4WEhMU1FWNVFkX3FEUGhGYUM1XzZ3X2h1WmRIUEFwSXR0VVBnSXlaRTNtOGNxWjJPeEQ4dVBEcGdUQmRaNU1vOE15T0tNNlk2ZUp3bHJzT2RSVkVHRUQ2NDBYQVU4N1JOWnljN1VoREstb1c4S1ZnNWNMVFZBUjhRRHJ2bG4wRjlpTXRZUkV3b2xoRy1DQUt0dU91NGxjSFQ4WFJNU212cGtXZFM3Y3l1TzFTcUpJYXhkay1BaEJuN3pueUtYdHR3VUtVeDI0aExLQThmUFJPdk9lMHZ3Y05oNWNj?oc=5",
-"urls": []
+"urls": [
+"https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash"
+]
 },
 "7f4402ffde91": {
 "coin": "bitcoin",
@@ -3212,24 +3215,6 @@
 "url": "https://t.me/wublockchainenglish/26619",
 "urls": []
 },
-"90bb87e881c6": {
-"coin": "bitcoin",
-"src": "CryptoRank",
-"srcs": [
-"Bitcoin Magazine",
-"CryptoRank",
-"Cryptonews.net",
-"Hokanews"
-],
-"t": 1793220955.1432858,
-"t0": 1793199723.0,
-"tgtext": "",
-"title": "Bitcoin Surges Above $81,000 Ahead of Fed Decision \u2013 Will BTC Price Rally Toward $88K or Drop to $76K?",
-"url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOEV6M3hpT29zMmtpWmJEaVNNTWliOERaY2VSSlV3THNQamlfZGpyR19zN2QyaVVSMWtsQWhaRjVHZm5lSm85Z0lVQ3dBdE5rMC1zQlRnNWRYV3owTXUzcnBRRUlSOV8wdEQ1X3VmTDU5aXlXN3VfdnZBVUdYSlNydml0UTlUTHlqMUhkMmlXaHl1bzRTY3hpY1B0MDJZTGJwRFg1eVRVdWlDVFZaakhCbVdNSnA4Z0puUHRpTHNHQmZwa3VtNUJpU0hqVFQ3UQ?oc=5",
-"urls": [
-"https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
-]
-},
 "90dc593de173": {
 "coin": "ethereum",
 "src": "Lookonchain",
@@ -3594,13 +3579,12 @@
 "coin": "",
 "src": "The Block",
 "srcs": [
-"5 EYEWITNESS NEWS",
 "CBS News",
-"Coin Edition",
-"Crypto Economy",
-"Cryptopolitan"
+"FOX 9 Minneapolis-St. Paul",
+"MPR News",
+"The Block"
 ],
-"t": 1793393310.427472,
+"t": 1793393920.6568701,
 "t0": 1793372383.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -4259,25 +4243,25 @@
 ]
 },
 "b121977a33c2": {
-"coin": "",
-"src": "Business Insider",
+"coin": "bitcoin",
+"src": "StreetInsider",
 "srcs": [
 "AP News",
+"Altcoin Buzz",
 "Barron's",
 "Bloomberg.com",
-"Business Insider",
 "CBC"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793375040.0,
 "tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
-"title": "Binance says hackers who stole a record $6.3 billion in crypto used a 'self-destruct mechanism' to hide their tracks",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa0lDMHRlTDluZ1BKQVNuaDNDZWtkdllsQjFXVXRWVmtXOWdkb1hPS3B6Z25HWjlsOFl2cTVPX013MC03LVh1THA2dVFNUFBWbDY2Q0Yzam9FN1R6blVrQnJzcFhWWmJ5eExlU3UyQ1NBRmdGMmptY1lKS2ticVQ3S1Y2LWJvcGxmdHlsOTBXc3RhU0VwR2w2TnlsZThhSjZvdVZ0Szl2Qy0?oc=5",
+"title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
+"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbmpySm1FTjJpczRYcUxheG1aNEwteUtCbHo4UXZDLXlOcW9pMlNmNGZ2Sk9hZFVqQlRHOTJVOUhwb3RSeGxDWW9nUXJmMzFRZHZYbjF1VTR6WXMyS01yN1l3bEt4bGxGV205Q2hWekVmc0U1NDc3UE9RdTFWLVBjaUV1dkpaSjQyRHVtQ0t6TXpHYVV5dFBNWV82UWN4RW9VWWRQYVNtakJ1djlBSGtZVmRyeFRwSjVzLWV4NGdjZmJZWmJodTlfQTVhSVdlaHhIVFNKZ3BZYUllWWc4NWRNUDRMbno0N1QxalY3YzRnbmNEVlItOUZRUmYtaTVMX2FKUlZTSVcwVEZEdVFh?oc=5",
 "urls": [
 "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+"https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
 "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
-"https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "b1663f6f0353": {
@@ -4379,7 +4363,7 @@
 "TOKENPOST",
 "www.tokenpost.com"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793381087.0,
 "tgtext": "",
 "title": "Crypto Liquidations Hit $1.67 Billion Across 254,045 Traders in 24 Hours",
@@ -4924,7 +4908,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.",
@@ -5217,7 +5201,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793393614.0513859,
+"t": 1793394224.2767394,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -6239,6 +6223,23 @@
 "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNelRxd3dVa0RkV1BMbUJWcmlJR0FscnNUU0NOdmlybUNqZk82akk0aDdaa3hyMkJtazUxNWRlODJDbzN4VVdSNFZhUkQwSkt3UXlDdmxZVnpBQkJqdWppRW55UWFGb243aXBmN2NtdTQ1RmJxUWV0T09TNlhsams5MGVQUzBEOVZVRmpEUDh0bnFGc2ZoUlF6di15eVE1OE9SSkM4dzdYNnFzNTVmeHd1bHdEdU9xVEFaUVFUdF8yMlZpa0ZCb1hIVXUtdHRNZGppU0gxT2FIb2tkZGdlU0QtWldrOS1IVGdmbF85dXRubGkxUVh1RlE?oc=5",
 "urls": []
 },
+"f91cd28cdac2": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"CBS News",
+"MPR News",
+"The Block"
+],
+"t": 1793394224.2767394,
+"t0": 1793377560.0,
+"tgtext": "",
+"title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORl94ekEyaURVYnZzbzdrdzc3bHlFMHNoaXNqVUpROGhhakdwMV9IVERocl9BaWhXZU1ReWlKSFZaX1YxaDhIMVpIaExDVUNWeUtUNHFaMjgzZ19xZGswWV9maGtzRWRKeDlnLWZmak5PU3dWSUVOeDBLMkkxNGtSZy0ySy14VldDTnhTSFVmLTNuazM3RXR3bm5vTzVIQmM2WDBnbGtzNjNWVEdpTXpOT05NOXFaTkpNZHBBN3pqZXpIcWEz?oc=5",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221"
+]
+},
 "f9c37ba6f152": {
 "coin": "bitcoin",
 "src": "The Economic Times",
@@ -6399,46 +6400,46 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"03f3b22912b3": 0.108,
-"05a681243d06": 0.081,
-"088cf4e753af": 0.032,
-"1326b2cb95ae": 0.02,
-"1be9cf0eca4c": 0.037,
-"1e37d28f3cea": 0.032,
-"2b5a6d8aebf2": 0.923,
-"3219407622f3": 0.235,
-"33be9be8e630": 0.028,
-"33c820f95c34": 0.033,
-"35737ae8467c": 0.025,
-"54b6b1f5ecbd": 0.005,
-"5c1678698924": 0.011,
-"5d9a53f6181d": 0.068,
-"6cae71e32994": 0.004,
-"712506752e30": 0.016,
-"75f178536690": 0.017,
-"792cb25b6b1f": 0.018,
-"7a500775caff": 0.183,
-"7db257373e68": 0.097,
-"7f39a27ff5e9": 0.273,
-"80d908e96f49": 0.013,
-"84c1e5c18a54": 0.036,
-"8aec5d0c60d7": 0.031,
-"9a5882033a1a": 0.01,
-"9cecc613f850": 0.024,
-"9dfcac0c4f55": 0.15,
-"9e35810d202f": 0.009,
-"a6d65a37ffaa": 0.022,
-"a9da0edace06": 0.007,
-"b121977a33c2": 0.936,
-"b5a4d3df259f": 0.195,
-"b9205da188ff": 0.012,
-"ba37c221a79f": 0.018,
-"ca54dec6fc45": 0.067,
-"cc9d7e049dbc": 0.782,
-"d6ba04fe3583": 0.257,
-"e0962514c820": 0.013,
-"f3228fb1595f": 0.014,
-"fcb2283292ce": 0.019
+"05a681243d06": 0.053,
+"088cf4e753af": 0.038,
+"192e6999cb10": 0.064,
+"1be9cf0eca4c": 0.043,
+"1e37d28f3cea": 0.038,
+"2b5a6d8aebf2": 0.971,
+"33be9be8e630": 0.033,
+"33c820f95c34": 0.039,
+"35737ae8467c": 0.03,
+"54b6b1f5ecbd": 0.006,
+"5c1678698924": 0.013,
+"5d9a53f6181d": 0.08,
+"6cae71e32994": 0.005,
+"712506752e30": 0.019,
+"75f178536690": 0.02,
+"7632a5f61335": 0.061,
+"792cb25b6b1f": 0.022,
+"7a500775caff": 0.21,
+"7db257373e68": 0.114,
+"7f39a27ff5e9": 0.39,
+"80d908e96f49": 0.016,
+"84c1e5c18a54": 0.042,
+"8653898438e6": 0.081,
+"8aec5d0c60d7": 0.036,
+"9a5882033a1a": 0.012,
+"9cecc613f850": 0.029,
+"9e35810d202f": 0.011,
+"a6d65a37ffaa": 0.026,
+"a9da0edace06": 0.009,
+"b121977a33c2": 0.691,
+"b507b47233f6": 0.097,
+"b5a4d3df259f": 0.224,
+"b9205da188ff": 0.014,
+"ba37c221a79f": 0.021,
+"cc9d7e049dbc": 0.763,
+"cf5430aded6b": 0.138,
+"d6ba04fe3583": 0.292,
+"e0962514c820": 0.015,
+"f3228fb1595f": 0.017,
+"f91cd28cdac2": 0.285
 },
 "sent": [
 {
@@ -8379,65 +8380,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b121977a33c2",
-73,
-310,
-19
-],
-[
 "2b5a6d8aebf2",
-71,
-323,
-5
+70,
+333,
+6
 ],
 [
 "cc9d7e049dbc",
 10,
-126,
+136,
 1
 ],
 [
-"1b2ad32ccebe",
-10,
-17,
-1
+"b121977a33c2",
+72,
+320,
+27
 ],
 [
 "0dfcc0845486",
 10,
-26,
+36,
 1
 ],
 [
 "7f39a27ff5e9",
-45,
-335,
-2
+59,
+345,
+3
 ],
 [
 "d6ba04fe3583",
-16,
-292,
+14,
+302,
 2
 ],
 [
-"3219407622f3",
-68,
-350,
-15
+"f91cd28cdac2",
+62,
+278,
+3
+],
+[
+"1b2ad32ccebe",
+10,
+27,
+1
 ],
 [
 "b5a4d3df259f",
-47,
-209,
+45,
+219,
 2
 ],
 [
 "7a500775caff",
-27,
-230,
+26,
+240,
 1
 ]
 ],
-"top_at": 1793393614.0513859
+"top_at": 1793394224.2767394
 }
