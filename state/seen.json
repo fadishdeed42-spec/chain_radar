@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1793265610.4207442,
 1793268992.1795893,
 1793271212.7302577,
 1793275432.42787,
@@ -19,7 +18,8 @@
 1793308277.0735452,
 1793308277.0735452,
 1793308588.0454242,
-1793345587.7855017
+1793345587.7855017,
+1793352816.7211683
 ],
 "menu": {
 "005a3baab7aa": {
@@ -283,7 +283,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793350973.013831,
+"t": 1793352816.7211683,
 "t0": 1793331509.0,
 "tgtext": "Despite the market drop, whales are still buying $BTC!\n\nOver the past 4 hours, 9 newly created wallets received 1,900 $BTC ($148M) from #GalaxyDigital.\n\nhttps://arkm.com/explorer/entity/galaxy-digital",
 "title": "Despite the market drop, whales are still buying BTC!",
@@ -392,7 +392,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1793347284.5965745,
+"t": 1793352816.7211683,
 "t0": 1793343600.0,
 "tgtext": "",
 "title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
@@ -893,6 +893,28 @@
 "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/"
 ]
 },
+"2d1eee98e6b9": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"AskTraders.com",
+"Axios",
+"BBC",
+"Bitcoin Magazine",
+"Bitcoin News"
+],
+"t": 1793352816.7211683,
+"t0": 1793331360.0,
+"tgtext": "Breaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube",
+"title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
+"url": "https://t.me/lookonchainchannel/10846",
+"urls": [
+"https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+"https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
+"https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
+]
+},
 "2d583674634b": {
 "coin": "",
 "src": "Cointelegraph",
@@ -916,7 +938,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793352201.8565135,
+"t": 1793352816.7211683,
 "t0": 1793346851.0,
 "tgtext": "Trader 0x15a4 just closed his longs on 1,000 $BTC ($78.18M) and 10,000 $ETH ($22.35M) after holding them for 4 months, making over $20M in profit.\n\nHe then flipped short, opening a 20x short on 13,000 $ETH ($29M).\n\nhttps://hyperbot.network/trader/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
 "title": "Trader 0x15a4 just closed his longs on 1,000 BTC ($78.18M) and 10,000 ETH ($22.35M) after holding them for 4 months, making over $20M in profit.",
@@ -964,7 +986,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793352201.8565135,
+"t": 1793352511.0573406,
 "t0": 1793331079.0,
 "tgtext": "The Pando Rings hacker bought 7,548 $ETH ($16.72M) 2 hours ago.\n\nhttps://arkm.com/explorer/address/0x303D0A175CeEC14DD7B3d4F60CABE6CEc06a3d9F",
 "title": "The Pando Rings hacker bought 7,548 ETH ($16.72M) 2 hours ago.",
@@ -1090,23 +1112,6 @@
 "title": "Strategy shareholders approved an amendment allowing daily dividend accrual for STRF, STRC, STRK and STRD.",
 "url": "https://t.me/cointelegraph/72912",
 "urls": []
-},
-"38bb377e4907": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"CoinDesk",
-"Cointelegraph",
-"FinanceFeeds"
-],
-"t": 1793179536.8043556,
-"t0": 1793158231.0,
-"tgtext": "\ud83c\uddf0\ud83c\uddf7 NOW: South Korea\u2019s Bithumb, Daishin Securities and Mirae Asset Global Investments have all reported customer data breaches, with Bithumb\u2019s linked to an external cyberattack, per Yonhap.\n\nNews | Markets | YouTube\n\ud83d\udea8 NOW: Coinbase says it has not suffered a data breach.\n\nA security incident at analytics vendor Amplitude exposed some users\u2019 contact data, but customer funds and Coinbase systems were unaffected.\n\nNews | Markets | YouTube",
-"title": "NOW: South Korea\u2019s Bithumb, Daishin Securities and Mirae Asset Global Investments have all reported customer data breaches, with Bithumb\u2019s linked to an external cyberattack, per Yonhap.",
-"url": "https://t.me/cointelegraph/72894",
-"urls": [
-"https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks"
-]
 },
 "392e0c052b1e": {
 "coin": "",
@@ -1525,7 +1530,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793352201.8565135,
+"t": 1793352816.7211683,
 "t0": 1793338755.0,
 "tgtext": "\ud83d\udea8 NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.\n\nNews | Markets | YouTube",
 "title": "NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.",
@@ -1609,19 +1614,6 @@
 "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3Q5MGZta1ljV3JfT1hCYk9NY0U4NzdOVU54SlpFR0N6NkQ0eHpsbGtrT1pOZjBuSktVdFBNNE1MVE10MWM1ZS1LWm9jYjNnLXRncjhhUHpJc0hkZkl4NXpxM1JiUHdiVS1Lb0l3bkhnRTVVRWZRQTg5RnZvWGppaFB1R0tlcndqdVhLQ1U2MlpGaVRCWEU1ZUwxdDBuenNfaWhocjg2cEV0NUl0dTlaTTk0ZmxBY1A1NVd5Z0xrc0xmQVNoeFJYY2hzUXNhaFFfYXNHck1EdjJvbEE?oc=5",
 "urls": []
 },
-"6083f1d6a333": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1793179841.054639,
-"t0": 1793158508.0,
-"tgtext": "Whale 0xdeA6 bought another 4,000 $ETH ($9.4M) 9 hours ago and deposited it into Aave.\n\nHe then borrowed 6M $USDT from Aave and deposited it into #Binance to buy more $ETH.\n\nThe whale now has 22,504 $ETH ($53.17M) deposited in Aave and has borrowed a total of $31M in stablecoins.\n\nhttps://arkm.com/explorer/address/0xdeA611a2f605FE63962E0151e724E9ce4C8a1d5c\nhttps://debank.com/profile/0xdea611a2f605fe63962e0151e724e9ce4c8a1d5c",
-"title": "Whale 0xdeA6 bought another 4,000 ETH ($9.4M) 9 hours ago and deposited it into Aave.",
-"url": "https://t.me/lookonchainchannel/10811",
-"urls": []
-},
 "608f2f40270e": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1639,16 +1631,18 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"Cointelegraph",
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793351587.3386357,
+"t": 1793352816.7211683,
 "t0": 1793345484.0,
 "tgtext": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller\n\nTrezor said it received a credible report of a suspected hardware implant in a Trezor Safe 5 device purchased from reseller CryptoBilis in August 2026. The company has not yet received the device for verification, and no CryptoBilis customer has reported losing funds.\n\nTrezor urged customers who purchased devices from CryptoBilis since March 2026 to move their funds to newly created wallets with new recovery seeds as soon as possible. The company removed CryptoBilis as a reseller on October 9 following reports of tampered Ledger devices. Four Trezor devices inspected so far showed no signs of tampering, and the investigation remains ongoing. \u2014 link",
 "title": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller",
 "url": "https://t.me/wublockchainenglish/26621",
 "urls": [
-"https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196"
+"https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196",
+"https://cointelegraph.com/news/trezor-cryptobilis-wallet-implant-funds-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "60d840939b76": {
@@ -2508,6 +2502,24 @@
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
 ]
 },
+"90dc593de173": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"CoinDesk",
+"Cointelegraph",
+"Lookonchain",
+"TradingView"
+],
+"t": 1793352816.7211683,
+"t0": 1793335270.0,
+"tgtext": "\u26a1\ufe0f TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d\n\nNews | Markets | YouTube\nLegendary trader dimethyltryptamine.eth, who once spent just 0.125 $ETH ($251) to buy 5.9T $PEPE ($100M at peak), bought another 45.08B $PEPE ($206.5K) after the Binance hacker finished dumping $PEPE.\n\nhttps://arkm.com/explorer/address/0x4a2C786651229175407d3A2D405d1998bcf40614",
+"title": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 ETH ($251) to buy 5.9T PEPE ($100M at peak), bought another 45.08B PEPE ($206.5K) after the Binance hacker finished dumping PEPE.",
+"url": "https://t.me/lookonchainchannel/10847",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90"
+]
+},
 "92687d7bf284": {
 "coin": "bitcoin",
 "src": "CryptoSlate",
@@ -2668,7 +2680,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793352201.8565135,
+"t": 1793352816.7211683,
 "t0": 1793345255.0,
 "tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
 "title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
@@ -3186,6 +3198,28 @@
 "url": "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
+"ae431833bc57": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"AskTraders.com",
+"Axios",
+"BBC",
+"Bitcoin Magazine",
+"Bitcoin News"
+],
+"t": 1793352511.0573406,
+"t0": 1793331371.0,
+"tgtext": "Breaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube",
+"title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
+"url": "https://t.me/lookonchainchannel/10846",
+"urls": [
+"https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+"https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
+"https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
 ]
 },
 "ae6bddd50139": {
@@ -3852,6 +3886,23 @@
 "url": "https://t.me/WatcherGuru/15645",
 "urls": []
 },
+"d278a78681bb": {
+"coin": "",
+"src": "Nepalnews.com",
+"srcs": [
+"Hamro Patro",
+"Khabarhub",
+"Nepalnews.com",
+"OnlineKhabar English News",
+"myRepublica"
+],
+"t": 1793352816.7211683,
+"t0": 1793342931.0,
+"tgtext": "",
+"title": "Man arrested for allegedly conducting illegal crypto transactions worth Rs 2.16 billion",
+"url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPakxkY01fUUpLc1pCeDItYWY2V3JUcEM0MXYwZ1k4eGRwc1FHT1RuSnRDZkJQRlBlSmViWjFfUGo5X1U2cHRCVGRXTUZZMkhEWkt5ekp2YmpUYzBnUnpGOXdZcnJuVUNMNkdyT0dpLXBXcEdIMUFNM0NsVEpZNDRxaTIwSkpET29MY29aOHluQkx4UHlnVEltbDYzNmo3cGRmalV0WnVSQUhGWE1yYWk1bWF6Z1VxNXdyNGlVS3JBdmtpQXJhMHlQNkFiYw?oc=5",
+"urls": []
+},
 "d2e3da698646": {
 "coin": "ethereum",
 "src": "Lookonchain",
@@ -4195,7 +4246,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793352201.8565135,
+"t": 1793352816.7211683,
 "t0": 1793343196.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
 "title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
@@ -4527,7 +4578,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793352201.8565135,
+"t": 1793352816.7211683,
 "t0": 1793351054.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.\n\nWithdrawals are expected to resume in 45 hours.\n\nNews | Markets | YouTube",
 "title": "Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.",
@@ -4789,30 +4840,34 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"048faaf32e15": 0.802,
+"059978c5634d": 0.038,
 "0b34919441d8": 0.071,
 "16a7cb1e6ccf": 0.422,
 "1aaf342c40b6": 0.147,
+"1cc981ba6308": 0.062,
 "29ab818d1aa5": 0.127,
+"2d1eee98e6b9": 0.673,
 "2d7c302f68b9": 0.075,
 "2dbafa9c9ac1": 0.85,
-"3d568794d677": 0.026,
+"45a80ebef33e": 0.252,
 "45e8ad8f51ec": 0.142,
 "46599676c441": 0.253,
 "4afa85151a92": 0.094,
 "4e95fc58ac42": 0.25,
 "57109a813f86": 0.763,
-"5feefee9ef3b": 0.307,
-"609dfc1537d4": 0.762,
+"5b77ff0bccc9": 0.085,
+"60992376c9e5": 0.013,
+"609dfc1537d4": 0.901,
 "719105391c61": 0.02,
-"7e4c0a2a9014": 0.15,
-"8197c3507326": 0.279,
-"81e1d9e315ab": 0.237,
-"856c2d41b0ba": 0.056,
+"77e7b60563ec": 0.042,
+"802f6ccce467": 0.405,
+"8197c3507326": 0.314,
+"856c2d41b0ba": 0.136,
+"8d80632c5e99": 0.023,
+"90dc593de173": 0.981,
 "915c266e7d0e": 0.048,
 "98633142b21a": 0.768,
 "99ee926e79e9": 0.048,
-"9fe2265d9a76": 0.912,
 "a4c69c1d5f79": 0.06,
 "a64e9f93fb80": 0.226,
 "a86918ecc68c": 0.039,
@@ -4821,14 +4876,10 @@
 "ac4ad637e9f7": 0.033,
 "bac576a140dd": 0.235,
 "c7a78fbcb862": 0.028,
-"d278a78681bb": 0.14,
-"d2e3da698646": 0.995,
-"d604f56a18c6": 0.69,
+"d278a78681bb": 0.267,
 "e1b3aba13a6c": 0.791,
-"f06d5eaa5aad": 0.869,
-"f3d890d64a04": 0.047,
-"f43d83d8f15e": 0.781,
-"f6e4550347a3": 0.288
+"ea124e7a0e9a": 0.159,
+"f06d5eaa5aad": 0.869
 },
 "sent": [
 {
@@ -6851,71 +6902,97 @@
 "potentially",
 "uncovered"
 ]
+},
+{
+"e": [
+"man"
+],
+"k": [
+"legal"
+],
+"t": 1793352816.7211683,
+"u": [
+"https://news.google.com/rss/articles/CBMiywFBVV95cUxPakxkY01fUUpLc1pCeDItYWY2V3JUcEM0MXYwZ1k4eGRwc1FHT1RuSnRDZkJQRlBlSmViWjFfUGo5X1U2cHRCVGRXTUZZMkhEWkt5ekp2YmpUYzBnUnpGOXdZcnJuVUNMNkdyT0dpLXBXcEdIMUFNM0NsVEpZNDRxaTIwSkpET29MY29aOHluQkx4UHlnVEltbDYzNmo3cGRmalV0WnVSQUhGWE1yYWk1bWF6Z1VxNXdyNGlVS3JBdmtpQXJhMHlQNkFiYw?oc=5",
+"https://news.google.com/rss/articles/CBMicEFVX3lxTE14RkFHcVdHbzZOU19BZ3pOWFBMZGMxWExRX28xSkpBZXFEMjBjYWlHV2E4RjZINm9malZKb2NrcjZmSGM2bFZvVXlBWFF3dk1LaDFPaXNtb01ScDN4VTZFSE1mMk1CV1FfajBwSzcwTGc?oc=5",
+"https://news.google.com/rss/articles/CBMizAFBVV95cUxPcHU3SGJ5RUlLT0hVWTZfTWJMbmRnSFRWdUJtbGJRU0Z2LXVIX2RSdXl3ZWZ5VjhpU0VSb1piQXBDQmRVc1NUQkVMOVNvaDhMajhFejFQb05yNF90UlY0b05WTGxsUzU5dVZZUy1FNFNnTi1LdHZleHJ4TEZjUVJjVS1EQV9RdWYtUC13MExrMWNUaHotU1d5MlplREFScG5VYWVoQXB3R3pZTW45SkVMSVVUSUM2bHRMckw5NTh0blVkd1d1QXU0X2d1Z3Y?oc=5",
+"https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHlrTkQ0Y2FwRDg2Y2dWeHpLcHZRQ1dEUmVLX1d6eGZSUklaQk5PN2xOZEgwQk5GNm9sYlVoSVU5eGdGXzdwVTNmc0ctWXJ5RU1EYWgyRXBhaWxYdU9PY0tKczlLbjhib3RlaW9hVDQ0T2dobkFRcFVCaGtIOUR3bDliZ29TTndjWW1VTEFLOUlLTi03b2liMkY0c1ZoTXZzUzVEb0gtdG5XQkZPcWZaenRyaFQ3bDcwUW1RQg?oc=5",
+"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ma2RFSTVXdVBzSDJORWs2ZE1tT0pkUkZVdVhTandzU0lpbVktM2RpRUdUeG5IYW5IYVhxaC1VUllYTlptLWNka3FvNzl5RlY2Q0FNTVVnenU?oc=5"
+],
+"w": [
+"allegedly",
+"arrested",
+"billion",
+"conducting",
+"illegal",
+"man",
+"transactions",
+"worth"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"d2e3da698646",
-44,
-99,
-2
+"90dc593de173",
+76,
+292,
+4
 ],
 [
-"9fe2265d9a76",
-73,
-236,
+"609dfc1537d4",
+30,
+122,
 3
 ],
 [
 "f06d5eaa5aad",
 43,
-19,
+29,
 1
 ],
 [
 "2dbafa9c9ac1",
 16,
-89,
+99,
 1
-],
-[
-"048faaf32e15",
-67,
-357,
-13
 ],
 [
 "e1b3aba13a6c",
 46,
-150,
+160,
 1
-],
-[
-"310fbb642d1d",
-0,
-352,
-1
-],
-[
-"f43d83d8f15e",
-30,
-359,
-2
 ],
 [
 "98633142b21a",
 31,
-116,
+126,
 1
 ],
 [
 "57109a813f86",
-13,
-224,
+11,
+234,
+1
+],
+[
+"2d1eee98e6b9",
+67,
+358,
+38
+],
+[
+"0cedb4c501e1",
+0,
+355,
+1
+],
+[
+"16a7cb1e6ccf",
+29,
+154,
 1
 ]
 ],
-"top_at": 1793352201.8565135
+"top_at": 1793352816.7211683
 }
