@@ -344,7 +344,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793392040.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.",
@@ -579,7 +579,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793392612.0,
 "tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru",
 "title": "Apple officially surpasses Nvidia to become the world's most valuable company by market cap.",
@@ -1134,7 +1134,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -1312,7 +1312,7 @@
 "CoinDesk",
 "Coinpedia"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793372599.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
@@ -2708,7 +2708,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793379829.0,
 "tgtext": "\ud83d\udd25 BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
 "title": "BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
@@ -2807,7 +2807,7 @@
 "24/7 Wall St.",
 "Coinpedia"
 ],
-"t": 1793390559.9922693,
+"t": 1793393614.0513859,
 "t0": 1793373536.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
@@ -3600,7 +3600,7 @@
 "Crypto Economy",
 "Cryptopolitan"
 ],
-"t": 1793393003.8320198,
+"t": 1793393310.427472,
 "t0": 1793372383.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -4259,8 +4259,8 @@
 ]
 },
 "b121977a33c2": {
-"coin": "shiba-inu",
-"src": "Pluang",
+"coin": "",
+"src": "Business Insider",
 "srcs": [
 "AP News",
 "Barron's",
@@ -4268,11 +4268,11 @@
 "Business Insider",
 "CBC"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793375040.0,
 "tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
-"title": "Shiba Inu hits lowest price since August amid $1.54B crypto liquidations post-Binance hack",
-"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNThYUERMRURsYkJlUXlHc3EzSTAtUzdRNTNSb05qRWlvRHhnME9jeGNObkF3azAxMmdZOHdzLUVHOGtobjJROHRSWGdDMWEwMlE2dG5qdy14WDZDS29MMlJpUWxxalV5Q2h1R3NTLWpzS05odlVtREN0WVd6Qldvdkd0YXdMNmtnVXFvUl9R?oc=5",
+"title": "Binance says hackers who stole a record $6.3 billion in crypto used a 'self-destruct mechanism' to hide their tracks",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa0lDMHRlTDluZ1BKQVNuaDNDZWtkdllsQjFXVXRWVmtXOWdkb1hPS3B6Z25HWjlsOFl2cTVPX013MC03LVh1THA2dVFNUFBWbDY2Q0Yzam9FN1R6blVrQnJzcFhWWmJ5eExlU3UyQ1NBRmdGMmptY1lKS2ticVQ3S1Y2LWJvcGxmdHlsOTBXc3RhU0VwR2w2TnlsZThhSjZvdVZ0Szl2Qy0?oc=5",
 "urls": [
 "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
 "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
@@ -4376,9 +4376,10 @@
 "coin": "",
 "src": "www.tokenpost.com",
 "srcs": [
+"TOKENPOST",
 "www.tokenpost.com"
 ],
-"t": 1793392088.5296602,
+"t": 1793393614.0513859,
 "t0": 1793381087.0,
 "tgtext": "",
 "title": "Crypto Liquidations Hit $1.67 Billion Across 254,045 Traders in 24 Hours",
@@ -4923,7 +4924,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.",
@@ -5216,7 +5217,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793393003.8320198,
+"t": 1793393614.0513859,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -5885,25 +5886,6 @@
 "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze"
 ]
 },
-"ee175cd64a76": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"CoinDesk",
-"Cryptonews.net",
-"Decrypt",
-"Yahoo Finance"
-],
-"t": 1793220651.3112552,
-"t0": 1793199338.0,
-"tgtext": "",
-"title": "Nine Wall Street Firms Dumped 68,000 BTC of Bitcoin ETFs as Sovereign Funds Bought the Dip",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02RGx2RHVRVDFkRWZDaWhtMWJNdGkwdHhmMUNuNlRyU3J0T3NBTTRNdFBQQTFHQ3hLUUZzMHl0dnVHUnNXbnhEd29rczR1OGFET2IyQkZubThMNGRLczJHRnV2M3JmU1VCQVZwWmJnLW9MMUhHY1E?oc=5",
-"urls": [
-"https://decrypt.co/382059/wall-street-fast-money-fled-bitcoin-etfs-sovereign-funds"
-]
-},
 "ee3fb41bd1d5": {
 "coin": "bitcoin",
 "src": "Bitcoin Magazine",
@@ -6417,45 +6399,45 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
+"03f3b22912b3": 0.108,
 "05a681243d06": 0.081,
 "088cf4e753af": 0.032,
-"0dfcc0845486": 0.923,
 "1326b2cb95ae": 0.02,
-"192e6999cb10": 0.055,
+"1be9cf0eca4c": 0.037,
 "1e37d28f3cea": 0.032,
 "2b5a6d8aebf2": 0.923,
-"3219407622f3": 0.151,
+"3219407622f3": 0.235,
+"33be9be8e630": 0.028,
+"33c820f95c34": 0.033,
 "35737ae8467c": 0.025,
-"399b85a04910": 0.06,
-"4c708c5dc89e": 0.009,
 "54b6b1f5ecbd": 0.005,
 "5c1678698924": 0.011,
 "5d9a53f6181d": 0.068,
-"6cae71e32994": 0.007,
+"6cae71e32994": 0.004,
 "712506752e30": 0.016,
+"75f178536690": 0.017,
 "792cb25b6b1f": 0.018,
 "7a500775caff": 0.183,
 "7db257373e68": 0.097,
+"7f39a27ff5e9": 0.273,
 "80d908e96f49": 0.013,
-"84c1e5c18a54": 0.146,
-"8cffc0b359f6": 0.402,
+"84c1e5c18a54": 0.036,
+"8aec5d0c60d7": 0.031,
 "9a5882033a1a": 0.01,
 "9cecc613f850": 0.024,
-"9dfcac0c4f55": 0.226,
+"9dfcac0c4f55": 0.15,
 "9e35810d202f": 0.009,
 "a6d65a37ffaa": 0.022,
-"b121977a33c2": 0.895,
-"b6936a9d75d6": 0.019,
+"a9da0edace06": 0.007,
+"b121977a33c2": 0.936,
+"b5a4d3df259f": 0.195,
 "b9205da188ff": 0.012,
 "ba37c221a79f": 0.018,
 "ca54dec6fc45": 0.067,
 "cc9d7e049dbc": 0.782,
-"d634a35c09df": 0.029,
 "d6ba04fe3583": 0.257,
 "e0962514c820": 0.013,
-"e5400d7e1def": 0.018,
 "f3228fb1595f": 0.014,
-"fa063683cf08": 0.034,
 "fcb2283292ce": 0.019
 },
 "sent": [
@@ -8397,65 +8379,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"2b5a6d8aebf2",
-73,
-312,
-5
-],
-[
-"0dfcc0845486",
-10,
-16,
-1
-],
-[
 "b121977a33c2",
-75,
-299,
+73,
+310,
 19
+],
+[
+"2b5a6d8aebf2",
+71,
+323,
+5
 ],
 [
 "cc9d7e049dbc",
 10,
-116,
+126,
 1
 ],
 [
 "1b2ad32ccebe",
 10,
-7,
+17,
 1
 ],
 [
-"8cffc0b359f6",
-53,
-350,
-3
+"0dfcc0845486",
+10,
+26,
+1
 ],
 [
-"d6ba04fe3583",
-17,
-282,
+"7f39a27ff5e9",
+45,
+335,
 2
 ],
 [
-"9dfcac0c4f55",
-64,
-344,
-8
-],
-[
-"7a500775caff",
-28,
-220,
-1
+"d6ba04fe3583",
+16,
+292,
+2
 ],
 [
 "3219407622f3",
-69,
-340,
-14
+68,
+350,
+15
+],
+[
+"b5a4d3df259f",
+47,
+209,
+2
+],
+[
+"7a500775caff",
+27,
+230,
+1
 ]
 ],
-"top_at": 1793393003.8320198
+"top_at": 1793393614.0513859
 }
