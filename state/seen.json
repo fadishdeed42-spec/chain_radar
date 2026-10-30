@@ -455,10 +455,10 @@
 "CT Insider",
 "CryptoDaily",
 "CryptoSlate",
-"New Haven Register",
-"The New York Times"
+"Legit News",
+"Luxembourg Times"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793368800.0,
 "tgtext": "",
 "title": "Bitcoin fell after the Fed\u2019s pause, but blaming interest rates misses the Binance shock",
@@ -983,6 +983,28 @@
 "https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us"
 ]
 },
+"293ae097d7f9": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Altcoin Buzz",
+"Barron's",
+"Bloomberg.com",
+"Business Insider",
+"CNBC"
+],
+"t": 1793388728.2913728,
+"t0": 1793369614.0,
+"tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea's $6,300,000,000 Binance crypto hack is the largest heist in human history.\n\n@WatcherGuru\nJUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "$6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?",
+"url": "https://t.me/cointelegraph/72965",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+"https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
+"https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+"https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart"
+]
+},
 "29a9e446452e": {
 "coin": "",
 "src": "BigGo Finance",
@@ -1073,7 +1095,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -2880,7 +2902,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793380826.0,
 "tgtext": "Tether Reports $1.5B in Q3 Operating Profit as Excess Reserves Nearly Double to $7.95B\n\nTether released its Q3 2026 reserve attestation prepared by BDO, reporting $1.5 billion in net operating profit for the quarter, roughly flat quarter-over-quarter, and $4.5 billion for the first nine months, primarily driven by U.S. Treasury bills and reverse repos. As of September 30, USDT issuance stood at approximately $184 billion, with total reserve assets of $191.5 billion and liabilities of $183.5 billion. Excess reserves nearly doubled from $4.1 billion at the end of Q2 to $7.95 billion, while direct and indirect U.S. Treasury bill holdings totaled $132.4 billion. \u2014 link",
 "title": "Tether Reports $1.5B in Q3 Operating Profit as Excess Reserves Nearly Double to $7.95B",
@@ -3110,6 +3132,28 @@
 "urls": [
 "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
 "https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90"
+]
+},
+"924f45a9b77f": {
+"coin": "",
+"src": "CNBC",
+"srcs": [
+"AP News",
+"Altcoin Buzz",
+"Barron's",
+"Bitcoin Magazine",
+"CNBC"
+],
+"t": 1793388424.6217551,
+"t0": 1793366922.0,
+"tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea's $6,300,000,000 Binance crypto hack is the largest heist in human history.\n\n@WatcherGuru\nJUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MVV9nR01mTTV2Q05KSy1zWVRnRFZ6YV94dkhERzhtUUxMVk9USjZxd0tmUERBcC05eTlnRDVLNjk3SzdTZHQwVnNRaFZUY05xNHo1SnVrVXlDUjlTTVhvUWxEbncwNlF6NTE0VF9pc1pOemRXWXpCa20wVDPSAYIBQVVfeXFMTWUyaks4OEVScW5NcEtZTTN6LVBURDBvQjdVQ2JtNExKMUsxc2FmMU95U192dG9EanhDSl9PNTY0b045ZV9oVEcwc1c2M1ZPZ0prTkRoY2kwaFlSUGwtQ2hFNzVhalRXN2RuNzlUSGU3bkFKNUZnZ1g5X1kzME8xSUQtUQ?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/news/north-korea-6-3-billion-binance-hack",
+"https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+"https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
+"https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack"
 ]
 },
 "92687d7bf284": {
@@ -4117,7 +4161,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793368905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.",
@@ -4201,6 +4245,19 @@
 "tgtext": "Someone created a new wallet, deposited 4M $USDC into #Hyperliquid, and opened a 5x long on 3,000 $XMR ($1.77M).\n\nhttps://hypurrscan.io/address/0x5f2e7489ebffdd736154ae818d398256753c9e2d#perps",
 "title": "Someone created a new wallet, deposited 4M USDC into Hyperliquid, and opened a 5x long on 3,000 XMR ($1.77M).",
 "url": "https://t.me/lookonchainchannel/10823",
+"urls": []
+},
+"b5a4d3df259f": {
+"coin": "",
+"src": "www.tokenpost.com",
+"srcs": [
+"www.tokenpost.com"
+],
+"t": 1793388424.6217551,
+"t0": 1793381087.0,
+"tgtext": "",
+"title": "Crypto Liquidations Hit $1.67 Billion Across 254,045 Traders in 24 Hours",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Za3hZYmE5T1pabG1pS0ZIcDZPU29yWDhGYmZDSFozUUhiTzJWc2JTUUZJSjZxNXhHTlJjeksxSjlQYnh4UXdtejQ3OUVfSGdCdUFyaWdpeTlVQQ?oc=5",
 "urls": []
 },
 "b5c2723e88d6": {
@@ -4339,10 +4396,10 @@
 "CBS News",
 "Coin Edition",
 "Crypto Briefing",
-"Crypto Economy",
-"Cryptopolitan"
+"Cryptopolitan",
+"FOX 9 Minneapolis-St. Paul"
 ],
-"t": 1793384172.6436377,
+"t": 1793388728.2913728,
 "t0": 1793369456.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -4656,7 +4713,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.",
@@ -4705,6 +4762,22 @@
 "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
 "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/"
+]
+},
+"cd42f45e3421": {
+"coin": "",
+"src": "TheStreet",
+"srcs": [
+"Cointelegraph",
+"TheStreet"
+],
+"t": 1793388728.2913728,
+"t0": 1793369186.0,
+"tgtext": "",
+"title": "Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc1dzcHZxZ1BDaXdiSzUwX0NWM3BEVDJIQXg0bm9CbkJCcWxvdXVoSEY1ZFVpU1c1dEVfdDItbHpEUjVrMTNBd2RzOFhxbExEQkFlRWtOLUJqLTJqZmYyZkFqRXB5OFMwbktqa1JqcExvaEhzRE1lM1czUk5tV2VpV0hNWWJJQjNYcG1IVUpNRno5eHZzUmM2RExfU05SWGZOeHYwVWNSSmRsQlhNRVFsR2Vn?oc=5",
+"urls": [
+"https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "cd9c48fb0a87": {
@@ -4945,14 +5018,17 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
 "url": "https://t.me/WatcherGuru/15724",
-"urls": []
+"urls": [
+"https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search"
+]
 },
 "d779a0d683f7": {
 "coin": "",
@@ -6079,7 +6155,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793388117.7040322,
+"t": 1793388728.2913728,
 "t0": 1793368257.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 30% at open.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 30% at open.",
@@ -6138,44 +6214,44 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
+"0565d9d8782f": 0.013,
 "05a681243d06": 0.081,
 "088cf4e753af": 0.032,
-"12733bd815e1": 0.187,
+"12733bd815e1": 0.175,
 "1326b2cb95ae": 0.037,
 "18f066b58df6": 0.012,
-"1be9cf0eca4c": 0.061,
-"1e37d28f3cea": 0.032,
+"293ae097d7f9": 0.775,
 "2b5a6d8aebf2": 0.883,
-"2c043d16a6c8": 0.283,
-"2f2db9ee4920": 0.092,
+"2f2db9ee4920": 0.027,
 "35891c45c505": 0.073,
-"4d94c4f469bf": 0.211,
-"50c072cd0024": 0.011,
+"3d66f875adfe": 0.073,
+"54b6b1f5ecbd": 0.005,
 "5d9a53f6181d": 0.068,
-"5f7f02d591c1": 0.04,
-"6ac342c39a2b": 0.051,
-"6cae71e32994": 0.003,
+"6cae71e32994": 0.007,
 "712506752e30": 0.016,
-"75f178536690": 0.017,
-"776ec75bc2bc": 0.155,
+"792cb25b6b1f": 0.018,
 "7a500775caff": 0.077,
 "7b87949be93e": 0.026,
 "7bf2aa4b19b2": 0.015,
 "7db257373e68": 0.097,
-"8068996543e8": 0.033,
 "80d908e96f49": 0.013,
-"84c1e5c18a54": 0.395,
+"814a5f58eece": 0.055,
+"84c1e5c18a54": 0.146,
 "8cffc0b359f6": 0.049,
 "9a5882033a1a": 0.01,
-"9cecc613f850": 0.087,
+"9cecc613f850": 0.024,
 "a6d65a37ffaa": 0.02,
 "b5a4d3df259f": 0.085,
-"b6936a9d75d6": 0.037,
-"cd42f45e3421": 0.014,
-"d6ba04fe3583": 0.341,
+"b6936a9d75d6": 0.076,
+"bb811450326d": 0.168,
+"ca54dec6fc45": 0.118,
+"cc9d7e049dbc": 0.436,
+"cd42f45e3421": 0.16,
+"d6ba04fe3583": 0.394,
 "d7042868a0de": 0.02,
-"e5400d7e1def": 0.033,
-"e7a99dd22c23": 0.014,
+"e5400d7e1def": 0.018,
+"e7a99dd22c23": 0.09,
+"f3228fb1595f": 0.014,
 "fa063683cf08": 0.013,
 "fcb2283292ce": 0.019
 },
@@ -8098,65 +8174,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"cc9d7e049dbc",
-10,
-35,
-1
-],
-[
 "2b5a6d8aebf2",
-64,
-231,
+62,
+241,
 2
 ],
 [
 "b1663f6f0353",
 0,
-320,
+330,
 1
+],
+[
+"293ae097d7f9",
+72,
+319,
+21
 ],
 [
 "fe0eda4cecdd",
 0,
-331,
+341,
 1
 ],
 [
-"c62130fd2271",
-1,
-357,
+"cc9d7e049dbc",
+10,
+45,
 1
+],
+[
+"d6ba04fe3583",
+26,
+211,
+2
+],
+[
+"12733bd815e1",
+70,
+332,
+7
+],
+[
+"bb811450326d",
+67,
+321,
+9
+],
+[
+"cd42f45e3421",
+51,
+326,
+2
 ],
 [
 "84c1e5c18a54",
 43,
-122,
+132,
 2
-],
-[
-"d6ba04fe3583",
-18,
-200,
-1
-],
-[
-"2c043d16a6c8",
-67,
-354,
-24
-],
-[
-"4d94c4f469bf",
-69,
-301,
-6
-],
-[
-"12733bd815e1",
-72,
-322,
-5
 ]
 ],
-"top_at": 1793388117.7040322
+"top_at": 1793388728.2913728
 }
