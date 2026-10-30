@@ -649,7 +649,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1793357122.5613093,
+"t": 1793357431.1627448,
 "t0": 1793336117.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link\nBreaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\nJUST IN: Binance founder CZ tells Elon Musk to \"please stop\" trolling following major hack.\n\n\"Show a little support.\"\n\n@WatcherGuru",
 "title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
@@ -1004,7 +1004,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793346851.0,
 "tgtext": "Trader 0x15a4 just closed his longs on 1,000 $BTC ($78.18M) and 10,000 $ETH ($22.35M) after holding them for 4 months, making over $20M in profit.\n\nHe then flipped short, opening a 20x short on 13,000 $ETH ($29M).\n\nhttps://hyperbot.network/trader/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
 "title": "Trader 0x15a4 just closed his longs on 1,000 BTC ($78.18M) and 10,000 ETH ($22.35M) after holding them for 4 months, making over $20M in profit.",
@@ -1413,7 +1413,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793350629.0,
 "tgtext": "Coinbase Q3 Revenue Falls 35% to $1.22B, Net Profit Rebounds to $719M; Prediction Markets Top $200M Annualized\n\nCoinbase reported Q3 2026 revenue of $1.22 billion, down 35% year over year, while net income rose 66% to $719 million, ending three consecutive quarters of losses. Earnings per share reached $2.51, with profits largely driven by unrealized crypto gains. Adjusted net income was $78 million. Meanwhile, prediction markets surpassed $200 million in annualized revenue, with 82% quarterly compound growth since launch. Coinbase's crypto trading market share reached 10.7%, while average USDC holdings hit a record $22 billion. \u2014 link",
 "title": "Coinbase Q3 Revenue Falls 35% to $1.22B, Net Profit Rebounds to $719M; Prediction Markets Top $200M Annualized",
@@ -1634,7 +1634,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793338755.0,
 "tgtext": "\ud83d\udea8 NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.\n\nNews | Markets | YouTube",
 "title": "NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.",
@@ -1740,7 +1740,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793345484.0,
 "tgtext": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller\n\nTrezor said it received a credible report of a suspected hardware implant in a Trezor Safe 5 device purchased from reseller CryptoBilis in August 2026. The company has not yet received the device for verification, and no CryptoBilis customer has reported losing funds.\n\nTrezor urged customers who purchased devices from CryptoBilis since March 2026 to move their funds to newly created wallets with new recovery seeds as soon as possible. The company removed CryptoBilis as a reseller on October 9 following reports of tampered Ledger devices. Four Trezor devices inspected so far showed no signs of tampering, and the investigation remains ongoing. \u2014 link",
 "title": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller",
@@ -2224,6 +2224,28 @@
 "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze"
 ]
 },
+"7aa6bd497c6b": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"AskTraders.com",
+"BBC",
+"Bitcoin News",
+"Bloomberg.com",
+"CNBC"
+],
+"t": 1793357736.823253,
+"t0": 1793336750.0,
+"tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link\nBreaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube\nJUST IN: Binance founder CZ tells Elon Musk to \"please stop\" trolling following major hack.\n\n\"Show a little support.\"\n\n@WatcherGuru\nJUST IN: CZ says Binance may use its over $1 billion stake in Elon Musk's SpaceX $SPCX to cover losses following major hack.\n\n@WatcherGuru",
+"title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
+"url": "https://t.me/wublockchainenglish/26619",
+"urls": [
+"https://cointelegraph.com/news/north-korea-linked-to-63b-binance-hack-by-crypto-investigators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cryptoslate.com/binance-hack-began-with-a-296-million-xrp-drain-after-36-hour-preparation/",
+"https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
+"https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets"
+]
+},
 "7ac9eb4d35eb": {
 "coin": "shiba-inu",
 "src": "BeInCrypto",
@@ -2273,6 +2295,22 @@
 "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/",
 "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171"
 ]
+},
+"7f4402ffde91": {
+"coin": "bitcoin",
+"src": "FinanceFeeds",
+"srcs": [
+"Crypto News",
+"FinanceFeeds",
+"Pluang",
+"TOKENPOST"
+],
+"t": 1793357736.823253,
+"t0": 1793336608.0,
+"tgtext": "",
+"title": "Bitcoin Falls Below $77,000 as Binance Hack Triggers $1.5 Billion in Crypto Liquidations",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYlhGNElESlRSZjJTR1loZjA2bU9xUXNBZ2hkNTBpMWtjSkdFeWFvdjVNNG9IOGlmX25kUjFvekZ0NFhXMUtVVmZpRko0YUpDakotSDhTTWtrUDBtRFpybXVURDJETkJfUmxjNG42clJBRFNCZ25xRVlaaXpXUmVFVS15cnNCOWZubDFuWkhZb1FmOHBuYU1WOW4ydTBqNWM1SnJCSDZ1Mng4dWd4RkxTUw?oc=5",
+"urls": []
 },
 "802f6ccce467": {
 "coin": "bitcoin",
@@ -2799,7 +2837,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793345255.0,
 "tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
 "title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
@@ -2860,11 +2898,11 @@
 "srcs": [
 "AskTraders.com",
 "Barron's",
-"Bloomberg.com",
 "CoinDesk",
+"Coinpaper",
 "Coinpedia"
 ],
-"t": 1793357122.5613093,
+"t": 1793357431.1627448,
 "t0": 1793335842.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube\nLegendary trader dimethyltryptamine.eth, who once spent just 0.125 $ETH ($251) to buy 5.9T $PEPE ($100M at peak), bought another 45.08B $PEPE ($206.5K) after the Binance hacker finished dumping $PEPE.\n\nhttps://arkm.com/explorer/address/0x4a2C786651229175407d3A2D405d1998bcf40614\nJUST IN: CZ says Binance may use its over $1 billion stake in Elon Musk's SpaceX $SPCX to cover losses following major hack.\n\n@WatcherGuru",
 "title": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 ETH ($251) to buy 5.9T PEPE ($100M at peak), bought another 45.08B PEPE ($206.5K) after the Binance hacker finished dumping PEPE.",
@@ -3191,7 +3229,7 @@
 "Forbes",
 "Wu Blockchain"
 ],
-"t": 1793357122.5613093,
+"t": 1793357431.1627448,
 "t0": 1793337960.0,
 "tgtext": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
 "title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
@@ -3283,7 +3321,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793356563.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says inflation is \"way down\" and income for people and companies is \"way up.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says inflation is \"way down\" and income for people and companies is \"way up.\"",
@@ -4132,7 +4170,7 @@
 "CoinDesk",
 "Lookonchain"
 ],
-"t": 1793353124.9050167,
+"t": 1793357736.823253,
 "t0": 1793346234.0,
 "tgtext": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 $ETH ($251) to buy 5.9T $PEPE ($100M at peak), bought another 45.08B $PEPE ($206.5K) after the Binance hacker finished dumping $PEPE.\n\nhttps://arkm.com/explorer/address/0x4a2C786651229175407d3A2D405d1998bcf40614",
 "title": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 ETH ($251) to buy 5.9T PEPE ($100M at peak), bought another 45.08B PEPE ($206.5K) after the Binance hacker finished dumping PEPE.",
@@ -4883,7 +4921,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793357122.5613093,
+"t": 1793357736.823253,
 "t0": 1793351054.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.\n\nWithdrawals are expected to resume in 45 hours.\n\nNews | Markets | YouTube",
 "title": "Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.",
@@ -5171,38 +5209,38 @@
 "16a7cb1e6ccf": 0.422,
 "1aaf342c40b6": 0.084,
 "1b7fb8886ede": 0.052,
-"1f9cd9220d36": 0.907,
 "2883771aac69": 0.082,
 "29ab818d1aa5": 0.127,
 "2dbafa9c9ac1": 0.85,
-"45a80ebef33e": 0.304,
 "45e8ad8f51ec": 0.897,
 "4afa85151a92": 0.094,
 "4e95fc58ac42": 0.151,
-"5feefee9ef3b": 0.089,
-"60992376c9e5": 0.013,
+"5d9a53f6181d": 0.042,
+"5feefee9ef3b": 0.442,
 "609dfc1537d4": 0.786,
-"654155ff23f0": 0.037,
+"654155ff23f0": 0.163,
 "719105391c61": 0.02,
 "7424f8092d9f": 0.143,
+"7aa6bd497c6b": 0.885,
 "7ac9eb4d35eb": 0.43,
+"7f4402ffde91": 0.748,
 "8197c3507326": 0.264,
-"856c2d41b0ba": 0.077,
-"8d80632c5e99": 0.023,
+"856c2d41b0ba": 0.59,
 "915c266e7d0e": 0.048,
 "98633142b21a": 0.898,
 "99ee926e79e9": 0.048,
-"9abaccb81037": 0.796,
 "9e3d16d55704": 0.149,
 "a4c69c1d5f79": 0.225,
-"a5694cf9e151": 0.885,
 "a64e9f93fb80": 0.06,
 "a86918ecc68c": 0.039,
-"a8f0edbfa341": 0.97,
+"a8f0edbfa341": 0.76,
 "ab162ecfb088": 0.128,
 "abe50070c8f4": 0.148,
 "ac4ad637e9f7": 0.018,
 "d278a78681bb": 0.31,
+"d2e3da698646": 0.995,
+"d46b912ae076": 0.075,
+"e1b3aba13a6c": 0.454,
 "e7a99dd22c23": 0.101,
 "e9e6febd3c5d": 0.054,
 "eb904f862563": 0.031,
@@ -7279,65 +7317,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"a8f0edbfa341",
-18,
-9,
-1
-],
-[
-"1f9cd9220d36",
-68,
-350,
-17
+"d2e3da698646",
+43,
+192,
+2
 ],
 [
 "98633142b21a",
-29,
-198,
+28,
+208,
 1
 ],
 [
 "45e8ad8f51ec",
 49,
-108,
+118,
 2
 ],
 [
-"a5694cf9e151",
-52,
-319,
-2
+"7aa6bd497c6b",
+68,
+350,
+30
 ],
 [
 "2dbafa9c9ac1",
 16,
-171,
+181,
 1
 ],
 [
 "57109a813f86",
-2,
-306,
+0,
+316,
 1
 ],
 [
-"9abaccb81037",
-67,
-355,
-23
-],
-[
 "609dfc1537d4",
-39,
-194,
+37,
+204,
 4
 ],
 [
 "f06d5eaa5aad",
 43,
-101,
+111,
 1
+],
+[
+"a8f0edbfa341",
+18,
+20,
+1
+],
+[
+"7f4402ffde91",
+68,
+352,
+4
 ]
 ],
-"top_at": 1793357122.5613093
+"top_at": 1793357736.823253
 }
