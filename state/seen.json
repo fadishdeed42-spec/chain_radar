@@ -65,7 +65,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793358057.0,
 "tgtext": "\ud83d\udd25 JUST IN: Binance has begun recovering affected assets and reserved over $6.34B in company funds to cover losses.\n\nNews | Markets | YouTube\nBinance Reserves Over $6.34B in Company Funds to Cover Hack Losses, Including $5B in Affected Tokens\n\nBinance said it has reserved over $6.34 billion in company funds to cover losses from the hack, including $5 billion already held in the affected tokens. It is purchasing the remaining tokens through market and OTC channels, a process that may take longer due to limited liquidity. The reserved funds are separate from approximately $3 billion in frozen assets. Binance will publicly verify user assets through its Proof of Reserves. \u2014 link\nJUST IN: Binance reserves over $6.34 billion of company funds to cover losses from the hack.\n\n@WatcherGuru",
 "title": "Binance Reserves Over $6.34B in Company Funds to Cover Hack Losses, Including $5B in Affected Tokens",
@@ -1477,7 +1477,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793350629.0,
 "tgtext": "Coinbase Q3 Revenue Falls 35% to $1.22B, Net Profit Rebounds to $719M; Prediction Markets Top $200M Annualized\n\nCoinbase reported Q3 2026 revenue of $1.22 billion, down 35% year over year, while net income rose 66% to $719 million, ending three consecutive quarters of losses. Earnings per share reached $2.51, with profits largely driven by unrealized crypto gains. Adjusted net income was $78 million. Meanwhile, prediction markets surpassed $200 million in annualized revenue, with 82% quarterly compound growth since launch. Coinbase's crypto trading market share reached 10.7%, while average USDC holdings hit a record $22 billion. \u2014 link",
 "title": "Coinbase Q3 Revenue Falls 35% to $1.22B, Net Profit Rebounds to $719M; Prediction Markets Top $200M Annualized",
@@ -2324,7 +2324,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793365680.0,
 "tgtext": "A newly created wallet (2VXozU) withdrew 68,773 $SOL($6.65M) from #Kraken, #Bybit and #OKX.\n\nhttps://arkm.com/explorer/address/2VXozUqccKmDYAsZSbjJtEnK5d4NufrkYutRxPUUkLfK",
 "title": "A newly created wallet (2VXozU) withdrew 68,773 SOL($6.65M) from Kraken, Bybit and OKX.",
@@ -2621,21 +2621,23 @@
 ]
 },
 "852178684dca": {
-"coin": "tether",
-"src": "Wu Blockchain",
+"coin": "ethereum",
+"src": "CoinDesk",
 "srcs": [
-"Bloomberg.com",
+"Bloomberg",
 "CTV News",
-"Help Net Security",
-"WSJ",
-"Wu Blockchain"
+"CoinDesk",
+"Knews, Kathimerini",
+"Luxembourg Times"
 ],
-"t": 1793356198.267138,
-"t0": 1793336995.0,
-"tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
-"title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
-"url": "https://t.me/wublockchainenglish/26620",
-"urls": []
+"t": 1793368932.4266653,
+"t0": 1793348957.0,
+"tgtext": "",
+"title": "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss",
+"url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+"urls": [
+"https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance"
+]
 },
 "868b8419d5d0": {
 "coin": "bitcoin",
@@ -3171,6 +3173,28 @@
 "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack"
 ]
 },
+"9ec89ba08e8c": {
+"coin": "",
+"src": "BigGo Finance",
+"srcs": [
+"24/7 Wall St.",
+"AP News",
+"Al Jazeera",
+"BBC",
+"Barron's"
+],
+"t": 1793368932.4266653,
+"t0": 1793347356.0,
+"tgtext": "JUST IN: Binance founder CZ tells Elon Musk to \"please stop\" trolling following major hack.\n\n\"Show a little support.\"\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Binance says it is working with the FBI and US Secret Service following $6.3 billion crypto hack.\n\n@WatcherGuru",
+"title": "Binance Hack Storm Triggers Liquidation Tsunami: \"Machi Big Brother\" Liquidated 8 Times in 6 Hours, Account Briefly Down to NT$49",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85YW5lUlhCZVdQT0UwTmw5VFhPekVVYlJIQXhJQkRqM1dJUHRPbHVtakFVZGNwWkhNWnlsVTlPUE1ieTFheXR4VXdOS2VCOUdwcWswdXVKN2hEYUxzUzZQTE9GTmFHby1ZM0k0VWZLSVMwdTZvVEE?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+"https://decrypt.co/382203/binance-finds-additional-points-of-breach-in-6-3b-hack",
+"https://cryptoslate.com/binance-breach-points-6-billion-hack/",
+"https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "9edb4fd2442b": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3474,6 +3498,23 @@
 "url": "https://t.me/cointelegraph/72920",
 "urls": []
 },
+"a7d0454df60d": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Cointelegraph",
+"Lookonchain",
+"Open Magazine"
+],
+"t": 1793368627.5870068,
+"t0": 1793357670.0,
+"tgtext": "The Binance hacker sent ~$3.32M worth of altcoins to the $NEWT token contract address by mistake.\n\nThe funds are now unrecoverable.\n\nhttps://arkm.com/explorer/address/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+"title": "The Binance hacker sent ~$3.32M worth of altcoins to the NEWT token contract address by mistake.",
+"url": "https://t.me/lookonchainchannel/10852",
+"urls": [
+"https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "a8adbdbd2413": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -3495,7 +3536,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793356563.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says inflation is \"way down\" and income for people and companies is \"way up.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says inflation is \"way down\" and income for people and companies is \"way up.\"",
@@ -3769,12 +3810,10 @@
 "coin": "",
 "src": "European Business Magazine",
 "srcs": [
-"Electronic Payments International",
 "European Business Magazine",
-"Knews, Kathimerini",
-"Luxembourg Times"
+"Straight Arrow"
 ],
-"t": 1793368015.8589785,
+"t": 1793368627.5870068,
 "t0": 1793353626.0,
 "tgtext": "",
 "title": "Binance Halts Withdrawals After a Record \u20ac5.7bn Heist Shakes the Crypto Mark",
@@ -3871,7 +3910,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793350539.0,
 "tgtext": "",
 "title": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
@@ -4121,6 +4160,19 @@
 "tgtext": "\u2744\ufe0f Tether \u0438 Circle \u0437\u0430\u043c\u043e\u0440\u043e\u0437\u0438\u043b\u0438 \u0431\u043e\u043b\u0435\u0435 $2,3b \u043f\u043e\u0445\u0438\u0449\u0435\u043d\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0435 \u0432\u0437\u043b\u043e\u043c\u0430 Binance.\n\n\u27a4 CEO Tether: \u041c\u044b \u0437\u0430\u043c\u043e\u0440\u043e\u0437\u0438\u043b\u0438 \u0431\u043e\u043b\u0435\u0435 1,567b USDT. \u0417\u0430\u0449\u0438\u0442\u0430 \u043a\u0440\u0438\u043f\u0442\u043e\u0438\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0438 \u0438 \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u043e\u0432 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0433\u043b\u0430\u0432\u043d\u044b\u043c \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043e\u043c.\n\n\u27a4 CEO Circle: \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u0441 \u043f\u0440\u0430\u0432\u043e\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438 \u043e\u0440\u0433\u0430\u043d\u0430\u043c\u0438 \u0437\u0430\u043c\u043e\u0440\u043e\u0437\u0438\u043b\u0430 \u0431\u043e\u043b\u0435\u0435 800m USDC \u0438 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0435\u0442 \u0441\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0440\u0430\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044e.\n\nUPD: Tether \u0437\u0430\u043c\u043e\u0440\u043e\u0437\u0438\u043b \u0435\u0449\u0435 200m USDT.\n\nCrypto Headlines\nCZ: Binance May Have Been Hacked as Tether and Circle Freeze Over $2.3B in Stablecoins\n\nBreaking: Binance co-founder Changpeng Zhao (CZ) said the exchange appeared to have been hacked but that user funds were safe. Tether CEO Paolo Ardoino said the company had frozen over 1.567 billion USDT linked to the potential hack, while Circle CEO Jeremy Allaire said Circle had frozen more than 800 million USDC associated with the incident in coordination with law enforcement. CZ thanked both companies and said that although he no longer manages Binance, he expects all user funds to be fully covered.\n\nBinance said it is actively investigating reports of a potential security issue and confirmed that user funds are completely safe. Its security team is urgently reviewing the situation and will provide updates through official channels once information is verified. Binance also warned users to beware of scams, unofficial links, messages, and requests for account information.\n\nBinance said its team is conducting security checks and that withdrawals will resume as soon as the security issue is fully resolved. The exchange reiterated that user funds remain safe and said it will provide further updates.\n\nBinance said it has temporarily suspended Binance Alpha trading as part of its ongoing security measures, including token purchases and instant trading using funds from spot wallets. Trading will resume once the security issue is resolved.\n\nBinance said the current verified total of frozen ass\nBinance has been hacked for over $5.8B!\n\nOf that, 1.58B $USDT and 823M $USDC (a total of $2.41B) have been frozen.\n\nhttps://arkm.com/explorer/entity/ee28af27-2694-409b-b40e-cef142d00f33",
 "title": "CZ: Binance May Have Been Hacked as Tether and Circle Freeze Over $2.3B in Stablecoins",
 "url": "https://t.me/wublockchainenglish/26609",
+"urls": []
+},
+"c62130fd2271": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793368932.4266653,
+"t0": 1793366709.0,
+"tgtext": "The Binance hacker sent ~$3.32M worth of altcoins to the $NEWT token contract address by mistake.\n\nThe funds are now unrecoverable.\n\nhttps://arkm.com/explorer/address/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+"title": "The Binance hacker sent ~$3.32M worth of altcoins to the NEWT token contract address by mistake.",
+"url": "https://t.me/lookonchainchannel/10852",
 "urls": []
 },
 "c691427b2fb7": {
@@ -5214,7 +5266,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793351054.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.\n\nWithdrawals are expected to resume in 45 hours.\n\nNews | Markets | YouTube",
 "title": "Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.",
@@ -5515,7 +5567,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793368320.042514,
+"t": 1793368932.4266653,
 "t0": 1793368257.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 30% at open.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 30% at open.",
@@ -5543,6 +5595,28 @@
 "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
 "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
 ]
+},
+"ffd1d126574b": {
+"coin": "",
+"src": "BigGo Finance",
+"srcs": [
+"AP News",
+"Barron's",
+"BigGo Finance",
+"Bloomberg",
+"Business Insider"
+],
+"t": 1793368627.5870068,
+"t0": 1793349412.0,
+"tgtext": "JUST IN: Binance founder CZ tells Elon Musk to \"please stop\" trolling following major hack.\n\n\"Show a little support.\"\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Binance says it is working with the FBI and US Secret Service following $6.3 billion crypto hack.\n\n@WatcherGuru",
+"title": "Binance Hack Storm Triggers Liquidation Tsunami: \"Machi Big Brother\" Liquidated 8 Times in 6 Hours, Account Briefly Down to NT$49",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85YW5lUlhCZVdQT0UwTmw5VFhPekVVYlJIQXhJQkRqM1dJUHRPbHVtakFVZGNwWkhNWnlsVTlPUE1ieTFheXR4VXdOS2VCOUdwcWswdXVKN2hEYUxzUzZQTE9GTmFHby1ZM0k0VWZLSVMwdTZvVEE?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+"https://decrypt.co/382203/binance-finds-additional-points-of-breach-in-6-3b-hack",
+"https://cryptoslate.com/binance-breach-points-6-billion-hack/",
+"https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 }
 },
 "movers": {
@@ -5554,45 +5628,45 @@
 },
 "probs": {
 "027a5ca9663a": 0.995,
-"0ed522b1449a": 0.085,
 "1b7fb8886ede": 0.046,
 "2945001f0a01": 0.099,
-"3335c0af8989": 0.062,
-"3436ea5e9682": 0.028,
-"3c78181210ac": 0.02,
+"2f2e9af7f1b2": 0.04,
 "45e8ad8f51ec": 0.697,
+"5360dd897fad": 0.42,
 "5d9a53f6181d": 0.25,
 "61f326bfbe60": 0.025,
+"6bf7be5cadfd": 0.18,
 "6ea70f631e94": 0.056,
 "719105391c61": 0.084,
 "726bf8f55170": 0.007,
-"7366f0c4a819": 0.908,
 "73efa0306e25": 0.688,
 "7424f8092d9f": 0.13,
 "776a8131240f": 0.149,
-"7ac9eb4d35eb": 0.539,
+"7ac9eb4d35eb": 0.297,
+"7f28ab4ab77b": 0.315,
 "80f6d2b344f9": 0.402,
+"852178684dca": 0.588,
 "900055d1a661": 0.014,
 "954ac4db0727": 0.581,
-"9e3d16d55704": 0.457,
+"9ec89ba08e8c": 0.686,
 "a8f0edbfa341": 0.744,
-"a8f60899020c": 0.99,
-"b30ce93a488d": 0.554,
+"b30ce93a488d": 0.549,
 "b3ff5dd68490": 0.067,
 "b8fde2840ef2": 0.586,
 "bbdd51f2e191": 0.095,
+"c432eb5e3f42": 0.103,
+"c62130fd2271": 0.99,
 "ce849d961175": 0.208,
 "cf0468b02c56": 0.036,
 "d925cf323ccf": 0.072,
+"defa94b5abae": 0.043,
 "e7a99dd22c23": 0.059,
 "e87f8738051a": 0.121,
 "e9e6febd3c5d": 0.087,
 "eb904f862563": 0.052,
 "f06d5eaa5aad": 0.78,
 "f6ac7324ac3a": 0.433,
-"f7a6e9280dde": 0.439,
-"fcd4d90639a1": 0.04,
-"fe0eda4cecdd": 0.879
+"fe0eda4cecdd": 0.979
 },
 "sent": [
 {
@@ -7603,63 +7677,63 @@
 [
 "027a5ca9663a",
 80,
-171,
+181,
 3
 ],
 [
-"a8f60899020c",
-21,
-358,
-2
-],
-[
-"2dbafa9c9ac1",
-0,
-358,
+"c62130fd2271",
+24,
+37,
 1
-],
-[
-"7366f0c4a819",
-67,
-360,
-25
 ],
 [
 "fe0eda4cecdd",
 20,
-1,
+11,
 1
 ],
 [
 "f06d5eaa5aad",
-29,
-288,
+28,
+298,
 1
 ],
 [
 "a8f0edbfa341",
-16,
-196,
+15,
+206,
 1
 ],
 [
 "45e8ad8f51ec",
-34,
-295,
+33,
+305,
 2
 ],
 [
 "73efa0306e25",
 16,
-44,
+54,
 1
 ],
 [
+"9ec89ba08e8c",
+67,
+360,
+30
+],
+[
+"852178684dca",
+70,
+333,
+8
+],
+[
 "b8fde2840ef2",
-15,
-296,
+14,
+307,
 3
 ]
 ],
-"top_at": 1793368320.042514
+"top_at": 1793368932.4266653
 }
