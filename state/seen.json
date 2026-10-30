@@ -176,7 +176,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793373997.6365967,
+"t": 1793390559.9922693,
 "t0": 1793373350.0,
 "tgtext": "JUST IN: \ud83c\uddef\ud83c\uddf5 Japan asks OpenAI and Anthropic for access to their most advanced AI models.\n\n@WatcherGuru",
 "title": "\ud83c\uddef\ud83c\uddf5 Japan asks OpenAI and Anthropic for access to their most advanced AI models.",
@@ -458,7 +458,7 @@
 "Legit News",
 "Luxembourg Times"
 ],
-"t": 1793389949.3603919,
+"t": 1793390256.348016,
 "t0": 1793368800.0,
 "tgtext": "",
 "title": "Bitcoin fell after the Fed\u2019s pause, but blaming interest rates misses the Binance shock",
@@ -981,20 +981,20 @@
 ]
 },
 "293ae097d7f9": {
-"coin": "",
-"src": "Cointelegraph",
+"coin": "bitcoin",
+"src": "StreetInsider",
 "srcs": [
+"AP News",
 "Altcoin Buzz",
 "Barron's",
 "Bloomberg.com",
-"Business Insider",
 "CNBC"
 ],
-"t": 1793389949.3603919,
+"t": 1793390256.348016,
 "t0": 1793369614.0,
 "tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea's $6,300,000,000 Binance crypto hack is the largest heist in human history.\n\n@WatcherGuru\nJUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
-"title": "$6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?",
-"url": "https://t.me/cointelegraph/72965",
+"title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
+"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbmpySm1FTjJpczRYcUxheG1aNEwteUtCbHo4UXZDLXlOcW9pMlNmNGZ2Sk9hZFVqQlRHOTJVOUhwb3RSeGxDWW9nUXJmMzFRZHZYbjF1VTR6WXMyS01yN1l3bEt4bGxGV205Q2hWekVmc0U1NDc3UE9RdTFWLVBjaUV1dkpaSjQyRHVtQ0t6TXpHYVV5dFBNWV82UWN4RW9VWWRQYVNtakJ1djlBSGtZVmRyeFRwSjVzLWV4NGdjZmJZWmJodTlfQTVhSVdlaHhIVFNKZ3BZYUllWWc4NWRNUDRMbno0N1QxalY3YzRnbmNEVlItOUZRUmYtaTVMX2FKUlZTSVcwVEZEdVFh?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
 "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
@@ -1092,7 +1092,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793389949.3603919,
+"t": 1793390559.9922693,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -1726,7 +1726,7 @@
 "Patch",
 "The Block"
 ],
-"t": 1793389949.3603919,
+"t": 1793390559.9922693,
 "t0": 1793370046.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -2598,7 +2598,7 @@
 "srcs": [
 "The Motley Fool"
 ],
-"t": 1793385701.7158964,
+"t": 1793390256.348016,
 "t0": 1793376557.0,
 "tgtext": "",
 "title": "Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now.",
@@ -2719,7 +2719,7 @@
 "24/7 Wall St.",
 "Coinpedia"
 ],
-"t": 1793389338.5043316,
+"t": 1793390559.9922693,
 "t0": 1793373536.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
@@ -2741,6 +2741,28 @@
 "title": "Bitcoin Falls Below $77,000 as Binance Hack Triggers $1.5 Billion in Crypto Liquidations",
 "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYlhGNElESlRSZjJTR1loZjA2bU9xUXNBZ2hkNTBpMWtjSkdFeWFvdjVNNG9IOGlmX25kUjFvekZ0NFhXMUtVVmZpRko0YUpDakotSDhTTWtrUDBtRFpybXVURDJETkJfUmxjNG42clJBRFNCZ25xRVlaaXpXUmVFVS15cnNCOWZubDFuWkhZb1FmOHBuYU1WOW4ydTBqNWM1SnJCSDZ1Mng4dWd4RkxTUw?oc=5",
 "urls": []
+},
+"7fb205c2d7ba": {
+"coin": "bitcoin",
+"src": "StreetInsider",
+"srcs": [
+"AP News",
+"Altcoin Buzz",
+"Barron's",
+"CoinDesk",
+"Cointelegraph"
+],
+"t": 1793390559.9922693,
+"t0": 1793369854.0,
+"tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea's $6,300,000,000 Binance crypto hack is the largest heist in human history.\n\n@WatcherGuru",
+"title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
+"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbmpySm1FTjJpczRYcUxheG1aNEwteUtCbHo4UXZDLXlOcW9pMlNmNGZ2Sk9hZFVqQlRHOTJVOUhwb3RSeGxDWW9nUXJmMzFRZHZYbjF1VTR6WXMyS01yN1l3bEt4bGxGV205Q2hWekVmc0U1NDc3UE9RdTFWLVBjaUV1dkpaSjQyRHVtQ0t6TXpHYVV5dFBNWV82UWN4RW9VWWRQYVNtakJ1djlBSGtZVmRyeFRwSjVzLWV4NGdjZmJZWmJodTlfQTVhSVdlaHhIVFNKZ3BZYUllWWc4NWRNUDRMbno0N1QxalY3YzRnbmNEVlItOUZRUmYtaTVMX2FKUlZTSVcwVEZEdVFh?oc=5",
+"urls": [
+"https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
+"https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+"https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
+]
 },
 "802f6ccce467": {
 "coin": "bitcoin",
@@ -2899,7 +2921,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793389034.9201097,
+"t": 1793390559.9922693,
 "t0": 1793380826.0,
 "tgtext": "Tether Reports $1.5B in Q3 Operating Profit as Excess Reserves Nearly Double to $7.95B\n\nTether released its Q3 2026 reserve attestation prepared by BDO, reporting $1.5 billion in net operating profit for the quarter, roughly flat quarter-over-quarter, and $4.5 billion for the first nine months, primarily driven by U.S. Treasury bills and reverse repos. As of September 30, USDT issuance stood at approximately $184 billion, with total reserve assets of $191.5 billion and liabilities of $183.5 billion. Excess reserves nearly doubled from $4.1 billion at the end of Q2 to $7.95 billion, while direct and indirect U.S. Treasury bill holdings totaled $132.4 billion. \u2014 link",
 "title": "Tether Reports $1.5B in Q3 Operating Profit as Excess Reserves Nearly Double to $7.95B",
@@ -3016,6 +3038,28 @@
 "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
 "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWkQzTkRCTXE0XzBYMTlOZ1ZFbEtvTU42M0V5cGRKUjNGdTFhamNLbnVXWnFucDNTYmNINEgyaU0ySS1JajA3Sm5aU2ZSeWhDZ3kzMGxNMlRyTldOUmpWQUtCaGtSTzlzQ1RVVUNyZ2NHUlY4SGRPRVQ2eTdBbW9OZWRVLW9VUmpsRmJxTFM2Y3MwVURhNnhBMDFKMDAtblBRbHZpc0pTU3JiV0l1eUdtZ2tWcFhUUzJpTDlzR3ZQUDNYQURQbGJ2amZWbk5meGdmY000X0dUanlyc1kxZGFQeE9VZFhFWWJwS2JGNHJDRksxY2poazRwUjdFYWVCMjB5NGd6TlNLWVF6UdIBjwJBVV95cUxNNHVrbkFPeXhVUllteXp2Ri1uR3Z4b2ZYRGg2eDh2dm1tSjRpdWExbFJlMFFiWGNlTjQyM0tIbWpULTJvZHJ3MGFjSkl1REZ0Zm1FSkRNcEwtZ1Zmd2lxWUc2T2NYaDUwNElBbXRIUVBnNUJPcTd2SnZyRHhiVkNvenRPUElYS0k5WjNncE9FenpEOWZBS0VSWlVZWFZVMnlVZjctTU5lNUIwVVVzMDhXVGNlWDlaU0RDcmJ3T1dPZFhCaEYzRF9uR0hYbFMzUTlva0NPdERxbGZOUUxTdGhNUkp2QjdmMVRXR3NiWlJTMUpwZk8wcXluNTZKX2VlclU2dHRoMUNRejMzNGEzRHRR?oc=5",
 "urls": []
+},
+"8c04342543df": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Bitcoin Magazine",
+"Bloomberg.com",
+"CBC",
+"CNBC",
+"CT Insider"
+],
+"t": 1793390559.9922693,
+"t0": 1793369114.0,
+"tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube\nJUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "$6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?",
+"url": "https://t.me/cointelegraph/72965",
+"urls": [
+"https://bitcoinmagazine.com/news/north-korea-6-3-billion-binance-hack",
+"https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+"https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+"https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "8cffc0b359f6": {
 "coin": "bitcoin",
@@ -3576,20 +3620,6 @@
 "tgtext": "\ud83d\udea8 HUGE: Over $590 million in crypto positions were liquidated in the past hour, including nearly $570 million in longs.\n\nNews | Markets | YouTube",
 "title": "HUGE: Over $590 million in crypto positions were liquidated in the past hour, including nearly $570 million in longs.",
 "url": "https://t.me/cointelegraph/72942",
-"urls": []
-},
-"a0fb9ddee391": {
-"coin": "ethereum",
-"src": "Hokanews",
-"srcs": [
-"Cryptonews.net",
-"Hokanews"
-],
-"t": 1793217590.8196876,
-"t0": 1793201490.0,
-"tgtext": "",
-"title": "UXLINK Hack-Linked Wallet Holds $71.17 Million in ETH With $6.54 Million in Unrealized Gains",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpV1NJa2NCaktTZkZDeDJXaW5uV1owdUlZekNod1BiSFNZM2hwV2Z0amtndWFsMkpoOTlHUUR4MTNMNFc0OTNWTkVWV25rSXA5alhRM25qQnpNT3lXcndENXlRcGUxYjdzZjhNdUJfb2dqSDFVS3M0WVVlSzVZZ0U?oc=5",
 "urls": []
 },
 "a176984b5772": {
@@ -4158,7 +4188,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793389949.3603919,
+"t": 1793390256.348016,
 "t0": 1793368905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.",
@@ -4390,13 +4420,13 @@
 "coin": "",
 "src": "The Block",
 "srcs": [
+"5 EYEWITNESS NEWS",
 "CBS News",
 "Coin Edition",
 "Crypto Briefing",
-"Cryptopolitan",
-"FOX 9 Minneapolis-St. Paul"
+"Cryptopolitan"
 ],
-"t": 1793389644.8671246,
+"t": 1793390256.348016,
 "t0": 1793369456.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -4710,7 +4740,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793389949.3603919,
+"t": 1793390559.9922693,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.",
@@ -4768,7 +4798,7 @@
 "Cointelegraph",
 "TheStreet"
 ],
-"t": 1793389949.3603919,
+"t": 1793390256.348016,
 "t0": 1793369186.0,
 "tgtext": "",
 "title": "Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever",
@@ -5003,7 +5033,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793389949.3603919,
+"t": 1793390559.9922693,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -5839,6 +5869,19 @@
 "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOczJNenRORC1ESEQ0Vzh2RDY5cVJMb1VzY1JWaTMyTjg0ajhyMmp4NUxuVWdSakxkMDhmT0VheWUzQU4wbGN6bFk2TFVVS1Y3eXhEWWZvcnFnTDB4akItRWUzR3pVa2JtMFVZd3pmZ3c3aFlfZ0FELW1raU43alZZNW94M3FzUkxkRS00VVN5QndxQVZNbEJncHFqVUc0MjVQUlR2dnFuaHJ6OC1qMXRXNDBWRTJjQTVwN2tHWnhCN3g0ZDhtR3BxSXJPMkxDR0Z0ODQ2bzE1Mnd2V25rTjJqR1FIVlQ4alAxYTNOWGNDdXFDenB3dE5yNF9sN2xoYkwxbWN5QU5KRGM?oc=5",
 "urls": []
 },
+"f20080825303": {
+"coin": "bitcoin",
+"src": "Yahoo Finance",
+"srcs": [
+"Yahoo Finance"
+],
+"t": 1793390559.9922693,
+"t0": 1793376900.0,
+"tgtext": "",
+"title": "Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now.",
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdHpkYXNxMGlTeTdJQU5fSUNfYVZwbjdMWm9heS1NTmJoRkxmRTdpT2pmQW9KY0RfbU5wak01RkpjWU1RTG10Skd1ZUNxa2ZsNWRzSUl3ZnZBdnZ4U0JqTWdNb242bHNzNEVQZWdFWVAtakdmNHU4c2ZOX2d4UDhUa0NWQXpzRU5KZ0t4WEpPTEJuYTFa?oc=5",
+"urls": []
+},
 "f2118f80711d": {
 "coin": "",
 "src": "Cointelegraph",
@@ -6182,46 +6225,46 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"030bda06c8d1": 0.015,
-"05a681243d06": 0.081,
 "088cf4e753af": 0.032,
-"12733bd815e1": 0.207,
+"11a952b8b093": 0.081,
 "1326b2cb95ae": 0.02,
-"18f066b58df6": 0.012,
 "1be9cf0eca4c": 0.014,
-"1e37d28f3cea": 0.013,
-"293ae097d7f9": 0.809,
-"2b5a6d8aebf2": 0.883,
+"1e37d28f3cea": 0.032,
+"2b5a6d8aebf2": 0.842,
 "2f2db9ee4920": 0.091,
-"35891c45c505": 0.073,
+"35891c45c505": 0.105,
+"36b08d8d4e61": 0.031,
 "4d94c4f469bf": 0.211,
 "50c072cd0024": 0.029,
+"54b6b1f5ecbd": 0.005,
 "5c1678698924": 0.011,
 "5d9a53f6181d": 0.068,
 "6cae71e32994": 0.007,
 "712506752e30": 0.016,
+"75f178536690": 0.017,
+"792cb25b6b1f": 0.018,
 "7a500775caff": 0.077,
 "7b87949be93e": 0.026,
 "7bf2aa4b19b2": 0.015,
 "7db257373e68": 0.097,
+"7f39a27ff5e9": 0.198,
+"7fb205c2d7ba": 0.796,
 "80d908e96f49": 0.013,
-"814a5f58eece": 0.04,
 "84c1e5c18a54": 0.146,
-"8cffc0b359f6": 0.346,
+"8c04342543df": 0.509,
 "9a5882033a1a": 0.01,
 "9cecc613f850": 0.024,
+"9e35810d202f": 0.009,
 "a6d65a37ffaa": 0.04,
-"b5a4d3df259f": 0.181,
+"b5a4d3df259f": 0.085,
 "b6936a9d75d6": 0.055,
 "b9205da188ff": 0.012,
-"cd42f45e3421": 0.225,
 "d6ba04fe3583": 0.394,
 "d7042868a0de": 0.02,
 "e5400d7e1def": 0.018,
-"e7a99dd22c23": 0.108,
-"f20080825303": 0.103,
-"fa063683cf08": 0.034,
-"fcb2283292ce": 0.019
+"e7a99dd22c23": 0.08,
+"f3228fb1595f": 0.014,
+"fa063683cf08": 0.034
 },
 "sent": [
 {
@@ -8143,64 +8186,64 @@
 "top": [
 [
 "2b5a6d8aebf2",
-60,
-262,
+58,
+272,
 2
 ],
 [
-"b1663f6f0353",
-0,
-351,
-1
+"7fb205c2d7ba",
+68,
+345,
+15
 ],
 [
-"293ae097d7f9",
-69,
-339,
+"8c04342543df",
+67,
+357,
 20
 ],
 [
 "d6ba04fe3583",
-24,
-231,
+22,
+241,
 2
 ],
 [
 "cc9d7e049dbc",
 10,
-65,
+75,
 1
-],
-[
-"8cffc0b359f6",
-51,
-299,
-3
-],
-[
-"cd42f45e3421",
-48,
-346,
-2
 ],
 [
 "4d94c4f469bf",
-65,
-332,
+64,
+342,
 6
 ],
 [
-"12733bd815e1",
-68,
-352,
-7
+"7f39a27ff5e9",
+52,
+284,
+2
 ],
 [
-"b5a4d3df259f",
-40,
-148,
+"84c1e5c18a54",
+43,
+162,
+2
+],
+[
+"07f99fd3f0ae",
+0,
+287,
+1
+],
+[
+"f20080825303",
+9,
+228,
 1
 ]
 ],
-"top_at": 1793389949.3603919
+"top_at": 1793390559.9922693
 }
