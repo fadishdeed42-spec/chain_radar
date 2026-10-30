@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1793305891.9665356,
 1793308277.0735452,
 1793308277.0735452,
 1793308588.0454242,
@@ -17,7 +16,8 @@
 1793363273.0452292,
 1793378089.3404038,
 1793378625.1194944,
-1793387814.2312355
+1793387814.2312355,
+1793392700.2675653
 ],
 "menu": {
 "005a3baab7aa": {
@@ -344,7 +344,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793392392.629964,
+"t": 1793393003.8320198,
 "t0": 1793392040.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.",
@@ -571,6 +571,19 @@
 "tgtext": "Security Incident Update #2 (2026-10-30)\n\nWe recognize the seriousness of this incident and the concern it has caused across our community. We are treating this as our highest priority. We have been working non-stop on security investigation, infrastructure system upgrading, fund loss prevention and recovery. In this update, we want to give a clear summary of what has been done in the last 24 hours and what we are working towards. \n\n\ud83d\udc49\ud83c\udffbLearn more here",
 "title": "Security Incident Update #2 (2026-10-30)",
 "url": "https://t.me/binance_announcements/9102",
+"urls": []
+},
+"1b2ad32ccebe": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1793393003.8320198,
+"t0": 1793392612.0,
+"tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru",
+"title": "Apple officially surpasses Nvidia to become the world's most valuable company by market cap.",
+"url": "https://t.me/WatcherGuru/15733",
 "urls": []
 },
 "1b3ddbecf38f": {
@@ -1115,15 +1128,20 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
+"CNBC",
 "Cointelegraph",
-"Watcher.Guru"
+"Decrypt",
+"Watcher.Guru",
+"Yahoo Finance"
 ],
-"t": 1793392392.629964,
+"t": 1793393003.8320198,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
 "url": "https://t.me/cointelegraph/72966",
-"urls": []
+"urls": [
+"https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
+]
 },
 "2c043d16a6c8": {
 "coin": "",
@@ -1285,18 +1303,24 @@
 ]
 },
 "3219407622f3": {
-"coin": "",
-"src": "Wu Blockchain",
+"coin": "bitcoin",
+"src": "StreetInsider",
 "srcs": [
-"Coinpedia",
-"Wu Blockchain"
+"Altcoin Buzz",
+"Barron's",
+"CNBC",
+"CoinDesk",
+"Coinpedia"
 ],
-"t": 1793351587.3386357,
-"t0": 1793336093.0,
-"tgtext": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
-"title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
-"url": "https://t.me/wublockchainenglish/26619",
-"urls": []
+"t": 1793393003.8320198,
+"t0": 1793372599.0,
+"tgtext": "",
+"title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
+"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbmpySm1FTjJpczRYcUxheG1aNEwteUtCbHo4UXZDLXlOcW9pMlNmNGZ2Sk9hZFVqQlRHOTJVOUhwb3RSeGxDWW9nUXJmMzFRZHZYbjF1VTR6WXMyS01yN1l3bEt4bGxGV205Q2hWekVmc0U1NDc3UE9RdTFWLVBjaUV1dkpaSjQyRHVtQ0t6TXpHYVV5dFBNWV82UWN4RW9VWWRQYVNtakJ1djlBSGtZVmRyeFRwSjVzLWV4NGdjZmJZWmJodTlfQTVhSVdlaHhIVFNKZ3BZYUllWWc4NWRNUDRMbno0N1QxalY3YzRnbmNEVlItOUZRUmYtaTVMX2FKUlZTSVcwVEZEdVFh?oc=5",
+"urls": [
+"https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+"https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash"
+]
 },
 "332ed56168ed": {
 "coin": "",
@@ -2684,7 +2708,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793380185.9073775,
+"t": 1793393003.8320198,
 "t0": 1793379829.0,
 "tgtext": "\ud83d\udd25 BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
 "title": "BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
@@ -3131,10 +3155,9 @@
 "srcs": [
 "24/7 Wall St.",
 "Coinpedia",
-"Yahoo Finance",
-"www.tokenpost.com"
+"Yahoo Finance"
 ],
-"t": 1793392088.5296602,
+"t": 1793393003.8320198,
 "t0": 1793371999.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
@@ -3577,7 +3600,7 @@
 "Crypto Economy",
 "Cryptopolitan"
 ],
-"t": 1793392392.629964,
+"t": 1793393003.8320198,
 "t0": 1793372383.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -4235,6 +4258,28 @@
 "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208"
 ]
 },
+"b121977a33c2": {
+"coin": "shiba-inu",
+"src": "Pluang",
+"srcs": [
+"AP News",
+"Barron's",
+"Bloomberg.com",
+"Business Insider",
+"CBC"
+],
+"t": 1793393003.8320198,
+"t0": 1793375040.0,
+"tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "Shiba Inu hits lowest price since August amid $1.54B crypto liquidations post-Binance hack",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNThYUERMRURsYkJlUXlHc3EzSTAtUzdRNTNSb05qRWlvRHhnME9jeGNObkF3azAxMmdZOHdzLUVHOGtobjJROHRSWGdDMWEwMlE2dG5qdy14WDZDS29MMlJpUWxxalV5Q2h1R3NTLWpzS05odlVtREN0WVd6Qldvdkd0YXdMNmtnVXFvUl9R?oc=5",
+"urls": [
+"https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+"https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+"https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "b1663f6f0353": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -4878,7 +4923,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793392392.629964,
+"t": 1793393003.8320198,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.",
@@ -5171,7 +5216,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793392392.629964,
+"t": 1793393003.8320198,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -6374,38 +6419,38 @@
 "probs": {
 "05a681243d06": 0.081,
 "088cf4e753af": 0.032,
+"0dfcc0845486": 0.923,
 "1326b2cb95ae": 0.02,
-"18f066b58df6": 0.012,
 "192e6999cb10": 0.055,
 "1e37d28f3cea": 0.032,
-"2b5a6d8aebf2": 0.842,
-"33be9be8e630": 0.028,
+"2b5a6d8aebf2": 0.923,
+"3219407622f3": 0.151,
 "35737ae8467c": 0.025,
-"35891c45c505": 0.01,
+"399b85a04910": 0.06,
+"4c708c5dc89e": 0.009,
 "54b6b1f5ecbd": 0.005,
 "5c1678698924": 0.011,
 "5d9a53f6181d": 0.068,
 "6cae71e32994": 0.007,
 "712506752e30": 0.016,
 "792cb25b6b1f": 0.018,
-"7a500775caff": 0.077,
-"7b87949be93e": 0.026,
+"7a500775caff": 0.183,
 "7db257373e68": 0.097,
 "80d908e96f49": 0.013,
-"814a5f58eece": 0.04,
 "84c1e5c18a54": 0.146,
+"8cffc0b359f6": 0.402,
 "9a5882033a1a": 0.01,
 "9cecc613f850": 0.024,
 "9dfcac0c4f55": 0.226,
 "9e35810d202f": 0.009,
 "a6d65a37ffaa": 0.022,
-"b5a4d3df259f": 0.046,
-"b6936a9d75d6": 0.055,
+"b121977a33c2": 0.895,
+"b6936a9d75d6": 0.019,
 "b9205da188ff": 0.012,
 "ba37c221a79f": 0.018,
-"bc1d8472b4df": 0.626,
 "ca54dec6fc45": 0.067,
 "cc9d7e049dbc": 0.782,
+"d634a35c09df": 0.029,
 "d6ba04fe3583": 0.257,
 "e0962514c820": 0.013,
 "e5400d7e1def": 0.018,
@@ -8326,71 +8371,91 @@
 "today",
 "turned"
 ]
+},
+{
+"e": [],
+"k": [
+"hack"
+],
+"t": 1793392700.2675653,
+"u": [
+"https://t.me/WatcherGuru/15732"
+],
+"w": [
+"against",
+"cftc",
+"cyberattacks",
+"exchanges",
+"proposes",
+"regulations",
+"security",
+"strengthen"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"2b5a6d8aebf2",
+73,
+312,
+5
+],
+[
 "0dfcc0845486",
 10,
-6,
+16,
 1
 ],
 [
-"2b5a6d8aebf2",
-54,
-302,
-2
+"b121977a33c2",
+75,
+299,
+19
 ],
 [
 "cc9d7e049dbc",
 10,
-106,
+116,
 1
 ],
 [
-"bc1d8472b4df",
-67,
-356,
-27
+"1b2ad32ccebe",
+10,
+7,
+1
+],
+[
+"8cffc0b359f6",
+53,
+350,
+3
 ],
 [
 "d6ba04fe3583",
-18,
-272,
+17,
+282,
 2
 ],
 [
 "9dfcac0c4f55",
-65,
-333,
+64,
+344,
 8
 ],
 [
-"84c1e5c18a54",
-42,
-193,
-2
-],
-[
-"07f99fd3f0ae",
-0,
-317,
+"7a500775caff",
+28,
+220,
 1
 ],
 [
-"7db257373e68",
-40,
-126,
-1
-],
-[
-"05a681243d06",
-20,
-165,
-1
+"3219407622f3",
+69,
+340,
+14
 ]
 ],
-"top_at": 1793392392.629964
+"top_at": 1793393003.8320198
 }
