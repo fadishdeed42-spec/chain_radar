@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1793275432.42787,
 1793285676.2398536,
 1793288170.526984,
 1793298254.5899715,
@@ -19,7 +18,8 @@
 1793345587.7855017,
 1793352816.7211683,
 1793358351.8863752,
-1793361736.9297578
+1793361736.9297578,
+1793363273.0452292
 ],
 "menu": {
 "005a3baab7aa": {
@@ -65,7 +65,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793358057.0,
 "tgtext": "\ud83d\udd25 JUST IN: Binance has begun recovering affected assets and reserved over $6.34B in company funds to cover losses.\n\nNews | Markets | YouTube\nBinance Reserves Over $6.34B in Company Funds to Cover Hack Losses, Including $5B in Affected Tokens\n\nBinance said it has reserved over $6.34 billion in company funds to cover losses from the hack, including $5 billion already held in the affected tokens. It is purchasing the remaining tokens through market and OTC channels, a process that may take longer due to limited liquidity. The reserved funds are separate from approximately $3 billion in frozen assets. Binance will publicly verify user assets through its Proof of Reserves. \u2014 link\nJUST IN: Binance reserves over $6.34 billion of company funds to cover losses from the hack.\n\n@WatcherGuru",
 "title": "Binance Reserves Over $6.34B in Company Funds to Cover Hack Losses, Including $5B in Affected Tokens",
@@ -1063,7 +1063,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793346851.0,
 "tgtext": "Trader 0x15a4 just closed his longs on 1,000 $BTC ($78.18M) and 10,000 $ETH ($22.35M) after holding them for 4 months, making over $20M in profit.\n\nHe then flipped short, opening a 20x short on 13,000 $ETH ($29M).\n\nhttps://hyperbot.network/trader/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
 "title": "Trader 0x15a4 just closed his longs on 1,000 BTC ($78.18M) and 10,000 ETH ($22.35M) after holding them for 4 months, making over $20M in profit.",
@@ -1472,7 +1472,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793350629.0,
 "tgtext": "Coinbase Q3 Revenue Falls 35% to $1.22B, Net Profit Rebounds to $719M; Prediction Markets Top $200M Annualized\n\nCoinbase reported Q3 2026 revenue of $1.22 billion, down 35% year over year, while net income rose 66% to $719 million, ending three consecutive quarters of losses. Earnings per share reached $2.51, with profits largely driven by unrealized crypto gains. Adjusted net income was $78 million. Meanwhile, prediction markets surpassed $200 million in annualized revenue, with 82% quarterly compound growth since launch. Coinbase's crypto trading market share reached 10.7%, while average USDC holdings hit a record $22 billion. \u2014 link",
 "title": "Coinbase Q3 Revenue Falls 35% to $1.22B, Net Profit Rebounds to $719M; Prediction Markets Top $200M Annualized",
@@ -1843,7 +1843,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793345484.0,
 "tgtext": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller\n\nTrezor said it received a credible report of a suspected hardware implant in a Trezor Safe 5 device purchased from reseller CryptoBilis in August 2026. The company has not yet received the device for verification, and no CryptoBilis customer has reported losing funds.\n\nTrezor urged customers who purchased devices from CryptoBilis since March 2026 to move their funds to newly created wallets with new recovery seeds as soon as possible. The company removed CryptoBilis as a reseller on October 9 following reports of tampered Ledger devices. Four Trezor devices inspected so far showed no signs of tampering, and the investigation remains ongoing. \u2014 link",
 "title": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller",
@@ -2097,6 +2097,28 @@
 "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
 "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack"
+]
+},
+"6ac342c39a2b": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Barron's",
+"Bloomberg",
+"Bloomberg.com",
+"Business Insider",
+"CoinDesk"
+],
+"t": 1793362967.4116669,
+"t0": 1793342820.0,
+"tgtext": "Breaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Binance says it is working with the FBI and US Secret Service following $6.3 billion crypto hack.\n\n@WatcherGuru",
+"title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
+"url": "https://t.me/lookonchainchannel/10846",
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+"https://decrypt.co/382203/binance-finds-additional-points-of-breach-in-6-3b-hack",
+"https://cryptoslate.com/binance-breach-points-6-billion-hack/",
+"https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
 ]
 },
 "6bb4a5270274": {
@@ -2930,7 +2952,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793345255.0,
 "tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
 "title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
@@ -3447,7 +3469,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793356563.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says inflation is \"way down\" and income for people and companies is \"way up.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says inflation is \"way down\" and income for people and companies is \"way up.\"",
@@ -4273,15 +4295,17 @@
 "src": "Lookonchain",
 "srcs": [
 "CoinDesk",
+"Cointelegraph",
 "Lookonchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793346234.0,
 "tgtext": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 $ETH ($251) to buy 5.9T $PEPE ($100M at peak), bought another 45.08B $PEPE ($206.5K) after the Binance hacker finished dumping $PEPE.\n\nhttps://arkm.com/explorer/address/0x4a2C786651229175407d3A2D405d1998bcf40614",
 "title": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 ETH ($251) to buy 5.9T PEPE ($100M at peak), bought another 45.08B PEPE ($206.5K) after the Binance hacker finished dumping PEPE.",
 "url": "https://t.me/lookonchainchannel/10847",
 "urls": [
-"https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90"
+"https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90",
+"https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "d3c6160356d7": {
@@ -4628,16 +4652,17 @@
 "urls": []
 },
 "e1b3aba13a6c": {
-"coin": "tether",
-"src": "Wu Blockchain",
+"coin": "bitcoin",
+"src": "CoinDesk",
 "srcs": [
+"CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793343196.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
-"title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
-"url": "https://t.me/wublockchainenglish/26620",
+"title": "BTC price falls to $76,400 Binance hack triggers $1.57 billion in liquidations: Crypto Markets Today",
+"url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbEN1NWhVMklUbC1VSVgxclhhS1AzS2JnOERtMldpODVlRmZRdGktN19ucnF2YTNlNm1HY0hoVUpiejBYNEtBT0xuZlV0U0FISDZ1YXVUWXlaMElaR3MtdWMwYXpKdS0yLVBFdTMtQnRpak55WmhVMjdJa1dnZXcxRHFWeWVnVUxDTXhadllTZ3h4b28zTlIzOVZiZUhEdWJPSE1RQnc3OVNPOUJKYV91emxqVHY2bUk1TUxrckJwVEx4aTJMQ25vVA?oc=5",
 "urls": []
 },
 "e295733031d7": {
@@ -4711,6 +4736,21 @@
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: Peter Schiff says Warsh \u201cmay have bowed to political pressure from Trump not to hike rates a week before the midterms.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: Peter Schiff says Warsh \u201cmay have bowed to political pressure from Trump not to hike rates a week before the midterms.\u201d",
 "url": "https://t.me/cointelegraph/72916",
+"urls": []
+},
+"e7a99dd22c23": {
+"coin": "",
+"src": "WSJ",
+"srcs": [
+"Newsweek",
+"The National",
+"WSJ"
+],
+"t": 1793363273.0452292,
+"t0": 1793350740.0,
+"tgtext": "",
+"title": "Cryptocurrencies Pare Losses After $6.3 Billion Hack Spooks Markets",
+"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2pvbXR3d05UQTgwVHVNdjdPdF9xak5XYjFZb2NOZVN6NXljUkpoWlRiQ1pMSzY2WS1fRHN2amdPa3k0X29oSWpMdXExNUhsQXk1alZYNlBzT25jeXZYV1EtRTdUaFZFbzJ4a0E4YVFCY19Sa0VLaEt0YnVmcTFsaXAyem51RHRIOHRWcjBqYy1ia1NTU1EzRDV1bEd5bDI4MGVWNWdSM1dUajA?oc=5",
 "urls": []
 },
 "e81feaf5ed13": {
@@ -5024,19 +5064,35 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
-"Business Insider",
-"Cointelegraph",
-"CryptoSlate",
-"Decrypt"
+"Cointelegraph"
 ],
-"t": 1793362658.2206738,
+"t": 1793363273.0452292,
 "t0": 1793351054.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.\n\nWithdrawals are expected to resume in 45 hours.\n\nNews | Markets | YouTube",
 "title": "Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.",
 "url": "https://t.me/cointelegraph/72961",
+"urls": []
+},
+"f09dce6c47a5": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"BBC",
+"Barron's",
+"Bloomberg",
+"CBS News",
+"CNBC"
+],
+"t": 1793363273.0452292,
+"t0": 1793344301.0,
+"tgtext": "Breaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube\nJUST IN: Binance founder CZ tells Elon Musk to \"please stop\" trolling following major hack.\n\n\"Show a little support.\"\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Binance says it is working with the FBI and US Secret Service following $6.3 billion crypto hack.\n\n@WatcherGuru",
+"title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
+"url": "https://t.me/lookonchainchannel/10846",
 "urls": [
-"https://decrypt.co/382203/binance-finds-additional-points-of-breach-in-6-3b-hack",
-"https://cryptoslate.com/binance-breach-points-6-billion-hack/"
+"https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+"https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack"
 ]
 },
 "f1017b13c0db": {
@@ -5323,112 +5379,48 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"027a5ca9663a": 0.997,
-"057d85300b8f": 0.128,
-"059978c5634d": 0.077,
-"16a7cb1e6ccf": 0.683,
-"181025610fd8": 0.14,
+"027a5ca9663a": 0.995,
+"09de31adfb7e": 0.198,
+"16a7cb1e6ccf": 0.396,
 "1b7fb8886ede": 0.084,
-"21a1efd52165": 0.408,
-"29ab818d1aa5": 0.115,
-"2dbafa9c9ac1": 0.923,
+"29ab818d1aa5": 0.141,
 "39e023268aa2": 0.04,
 "45e8ad8f51ec": 0.913,
-"4afa85151a92": 0.149,
-"4ee750e9708b": 0.068,
+"4afa85151a92": 0.181,
 "5d9a53f6181d": 0.163,
-"5feefee9ef3b": 0.62,
+"5feefee9ef3b": 0.685,
 "609dfc1537d4": 0.958,
 "6ea70f631e94": 0.056,
 "719105391c61": 0.033,
 "726bf8f55170": 0.007,
 "7424f8092d9f": 0.219,
-"7ac9eb4d35eb": 0.659,
-"8197c3507326": 0.373,
-"8d80632c5e99": 0.047,
+"776a8131240f": 0.149,
+"7ac9eb4d35eb": 0.434,
+"7f28ab4ab77b": 0.315,
+"80f6d2b344f9": 0.402,
+"814a5f58eece": 0.152,
+"8197c3507326": 0.376,
+"852178684dca": 0.432,
 "900055d1a661": 0.014,
-"909a237e38bc": 0.083,
 "98633142b21a": 0.888,
-"9adf8777fa2d": 0.778,
 "9e3d16d55704": 0.06,
-"a64e9f93fb80": 0.223,
+"a462ce13a00c": 0.334,
 "a86918ecc68c": 0.094,
 "a8f0edbfa341": 0.744,
+"ab162ecfb088": 0.075,
 "abe50070c8f4": 0.135,
 "b3ff5dd68490": 0.077,
 "d278a78681bb": 0.348,
-"d2e3da698646": 0.988,
+"d2e3da698646": 0.998,
 "d925cf323ccf": 0.072,
-"e1b3aba13a6c": 0.788,
+"e1b3aba13a6c": 0.989,
+"e7a99dd22c23": 0.272,
 "e9e6febd3c5d": 0.087,
 "eb904f862563": 0.052,
-"f06d5eaa5aad": 0.805
+"f06d5eaa5aad": 0.859,
+"f09dce6c47a5": 0.854
 },
 "sent": [
-{
-"e": [
-"big",
-"fed",
-"forecast",
-"tech"
-],
-"k": [],
-"t": 1793188947.002959,
-"u": [
-"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVTVycHJrUzVnbkI0dXhNX0Z6WVh2SXA4bGIydzVNN2FVbjhHcl9rc1Fkczh1Z09LejNxT3hSZ2xvNEFvd0J5Qk8ycnZ0MmtuTGN0V2FnVlR6dTRFUVU2Mk92YVlOWnFyMjZPU29pWHZ2bW00cUVjdnlsd254WENINHpCUzBIUXhqMTlSYjIxWktMSXF3RUo3SUlEbTExTk1vV3BpQ1F3bW9PeW5fb29JVGY1ZzFCY0NJdUZOVVFyY3A2Zm5VYVM4bGJiLVNicDVlQzFhZ3ZzeHA2UGc?oc=5",
-"https://news.google.com/rss/articles/CBMioAFBVV95cUxOZU1HeHExdVJjMGlaZ2R3NEtHVzBPNkVsZHFWRndTazNsU1VXMlMwVDZNMjN5UXZBQU9HODFsRmVpV3JuUEc1OW1wbFI1VEFwSVlVV0tHYkNReFVydEtxLXQzZUMyMllEZmh0YmVVeDdvMG9XQmF3YzVianFLaTUtenItYWxaaXdBb1dvNXU2TFZfSEFVdEg2TjZyWHE5Tk5C?oc=5",
-"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUTE5VVR0THlPaFBwU3IzQlMwbW81LThXOHRIWHd1TC1fOUotWE1lb0VJU0ZsTzBmX0twMkJNaENyZXhnd0pyQU9KWEc2d0tqdjUwWS1nZGlueUtjVkgwdjNac0VFMlMxN1FONW9xVGxxSHljMTNXZ0NpUnVldG1xNjd6UW15ZDc0MlhteG5hWWsxcVdkeGhhaHRSU1NVaVNjSF9fd1JoYm1UY1k1SmVmUUlOMkNkb3F0MS1HNWc1ZXJoTkllLV9weUpMTVhGZk9JUW04bk9rU1VyOXZJcEZOVWt4aXRqS1BTMjdvNW1R?oc=5",
-"https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
-"https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0ZQdFlpYUJ0bDY2MG9FU3Nzd2djNnJVZWYtZDZZa0Z2WDhkNGE0cXEtUnVzMWF1X0tmelEyZi10RUNsdmluSnFoa0F0X3p5cDJUZ21YVFB3TnI4amd1TXV6T1ZfcHVLTWxSVHEzOTZzSlNxZEVEdTMtWFJTNm54cjY0Nkh4LTg0bXNYTHpqalczaXVVU2dOWms0SjgtY2JHYnow?oc=5"
-],
-"w": [
-"$81",
-"000",
-"await",
-"big",
-"bitcoin",
-"btc",
-"decision",
-"earnings",
-"fed",
-"forecast",
-"policy",
-"price",
-"reclaims",
-"tech",
-"traders"
-]
-},
-{
-"e": [
-"besu",
-"canton",
-"dtcc",
-"network"
-],
-"k": [],
-"t": 1793190175.0555615,
-"u": [
-"https://t.me/wublockchainenglish/26586",
-"https://t.me/cointelegraph/72906"
-],
-"w": [
-"$114t",
-"available",
-"besu",
-"canton",
-"custodian",
-"dtcc",
-"initially",
-"launch",
-"launches",
-"network",
-"securities",
-"service",
-"supporting",
-"tokenization"
-]
-},
 {
 "e": [
 "coinbase",
@@ -7371,71 +7363,100 @@
 "taken",
 "triggers"
 ]
+},
+{
+"e": [
+"billion",
+"cryptocurrencies",
+"hack",
+"losses",
+"markets",
+"pare",
+"spooks"
+],
+"k": [
+"hack"
+],
+"t": 1793363273.0452292,
+"u": [
+"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2pvbXR3d05UQTgwVHVNdjdPdF9xak5XYjFZb2NOZVN6NXljUkpoWlRiQ1pMSzY2WS1fRHN2amdPa3k0X29oSWpMdXExNUhsQXk1alZYNlBzT25jeXZYV1EtRTdUaFZFbzJ4a0E4YVFCY19Sa0VLaEt0YnVmcTFsaXAyem51RHRIOHRWcjBqYy1ia1NTU1EzRDV1bEd5bDI4MGVWNWdSM1dUajA?oc=5",
+"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTNGSDhCX2NkcVROSWJ2c1NQMlBjem1sUDA2TGZxdHBmOXZCX0VhUWx1cGZlVTF3eGRaeUFxclNUT3hqLV9yT2xnTEpxUExRYkJpUTUzTWdNbFh1eUk2bnhEcGVQdlRnNWVMLWp0V3d6U3hVTXFuSVhZZ2pweGxyVmhfNVQ2TWcwSG5rZXlmWXdJRWlrdUdJaFZac2QtTXJ2Q2FaZ2dxT3JRdHNDc0M5QUdoUWlONmMzV0F3?oc=5",
+"https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2JYZ0VVdUVPSVlXeFhtTFZvdjRDZ3NiM0NNNTFULU5XR0pkQnhBQkNNNEZIQXd5YWd3OUQ3RExpY0xXZ2FCNXh1UXVEWV85U2RmM3VDUjhSMEFqSzdvaEItMVV4TDhOSVh1N3ZweWNZS21lVjZzSGFGc0xNajNwUGZvQWlKZkdndHVBNjZzaXIxbldOdGllM2Nxcw?oc=5"
+],
+"w": [
+"billion",
+"cryptocurrencies",
+"hack",
+"losses",
+"markets",
+"pare",
+"spooks"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"027a5ca9663a",
-80,
-77,
+"d2e3da698646",
+41,
+284,
 3
 ],
 [
-"d2e3da698646",
-32,
-274,
+"027a5ca9663a",
+80,
+87,
+3
+],
+[
+"e1b3aba13a6c",
+50,
+335,
 2
 ],
 [
 "609dfc1537d4",
-26,
-286,
+25,
+296,
 4
 ],
 [
 "2dbafa9c9ac1",
-5,
-263,
+4,
+274,
 1
 ],
 [
 "45e8ad8f51ec",
-47,
-200,
+45,
+211,
 2
 ],
 [
 "98633142b21a",
-17,
-290,
+15,
+300,
 1
 ],
 [
 "f06d5eaa5aad",
-89,
-193,
-4
-],
-[
-"e1b3aba13a6c",
-27,
-324,
+40,
+204,
 1
 ],
 [
-"9adf8777fa2d",
-67,
-358,
-32
+"f09dce6c47a5",
+72,
+316,
+18
 ],
 [
 "a8f0edbfa341",
 18,
-102,
+112,
 1
 ]
 ],
-"top_at": 1793362658.2206738
+"top_at": 1793363273.0452292
 }
