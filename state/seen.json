@@ -913,7 +913,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793346851.0,
 "tgtext": "Trader 0x15a4 just closed his longs on 1,000 $BTC ($78.18M) and 10,000 $ETH ($22.35M) after holding them for 4 months, making over $20M in profit.\n\nHe then flipped short, opening a 20x short on 13,000 $ETH ($29M).\n\nhttps://hyperbot.network/trader/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
 "title": "Trader 0x15a4 just closed his longs on 1,000 BTC ($78.18M) and 10,000 ETH ($22.35M) after holding them for 4 months, making over $20M in profit.",
@@ -961,7 +961,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793331079.0,
 "tgtext": "The Pando Rings hacker bought 7,548 $ETH ($16.72M) 2 hours ago.\n\nhttps://arkm.com/explorer/address/0x303D0A175CeEC14DD7B3d4F60CABE6CEc06a3d9F",
 "title": "The Pando Rings hacker bought 7,548 ETH ($16.72M) 2 hours ago.",
@@ -1000,6 +1000,20 @@
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-81500-fed"
 ]
+},
+"3219407622f3": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Coinpedia",
+"Wu Blockchain"
+],
+"t": 1793351587.3386357,
+"t0": 1793336093.0,
+"tgtext": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
+"title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
+"url": "https://t.me/wublockchainenglish/26619",
+"urls": []
 },
 "332ed56168ed": {
 "coin": "",
@@ -1467,22 +1481,6 @@
 "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision"
 ]
 },
-"53801a04a9a4": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"CoinDesk",
-"Wu Blockchain"
-],
-"t": 1793178616.3563116,
-"t0": 1793157060.0,
-"tgtext": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users\n\nSlowMist CISO 23pds posted that a data leak involving Coinbase has been confirmed, though it remains unconfirmed whether passwords or funds were compromised. The hacker obtained contact information for more than 70,000 users. Subsequently, Coinbase Support clarified that Coinbase itself did not experience a data breach. The incident originated from a security breach at third-party data analytics vendor Amplitude, which affected several of its clients, including Coinbase, leading to the leak of contact details for a small subset of Coinbase users. Coinbase stated that it found no evidence of unauthorized access to its internal systems, that customer funds remain entirely unaffected, and that it is notifying affected users and relevant regulatory authorities in accordance with legal requirements. \u2014 link",
-"title": "Third-Party Analytics Vendor Amplitude Suffers Security Incident, Leaking Contact Info for a Small Subset of Coinbase Users",
-"url": "https://t.me/wublockchainenglish/26580",
-"urls": [
-"https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info"
-]
-},
 "54af389d38b6": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1524,7 +1522,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793338755.0,
 "tgtext": "\ud83d\udea8 NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.\n\nNews | Markets | YouTube",
 "title": "NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.",
@@ -1641,7 +1639,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793345484.0,
 "tgtext": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller\n\nTrezor said it received a credible report of a suspected hardware implant in a Trezor Safe 5 device purchased from reseller CryptoBilis in August 2026. The company has not yet received the device for verification, and no CryptoBilis customer has reported losing funds.\n\nTrezor urged customers who purchased devices from CryptoBilis since March 2026 to move their funds to newly created wallets with new recovery seeds as soon as possible. The company removed CryptoBilis as a reseller on October 9 following reports of tampered Ledger devices. Four Trezor devices inspected so far showed no signs of tampering, and the investigation remains ongoing. \u2014 link",
 "title": "World\u2019s Second-Largest Hardware Wallet Maker Trezor Warns of Suspected Hardware Implant in Device Sold by Reseller",
@@ -1983,7 +1981,7 @@
 "BBC",
 "Bitcoin Foundation"
 ],
-"t": 1793350973.013831,
+"t": 1793351281.6455417,
 "t0": 1793329935.0,
 "tgtext": "Breaking: The hackers behind the $6B #Binance hack, $1.5B #Bybit hack, and $388M #Bitget hack may all be linked to North Korea's Lazarus Group.\nhttps://x.com/lookonchain/status/2115932070858158190\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea responsible for $6 billion Binance hack, CNN reports.\n\n@WatcherGuru\nAave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link\n\ud83d\udea8 Follow the latest developments on Binance\u2019s ~$6B hack, all in one place:\n\nhttps://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor \n\nNews | Markets | YouTube",
 "title": "The hackers behind the $6B Binance hack, $1.5B Bybit hack, and $388M Bitget hack may all be linked to North Korea's Lazarus Group.",
@@ -2667,7 +2665,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793345255.0,
 "tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
 "title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
@@ -3000,7 +2998,7 @@
 "Forbes",
 "Wu Blockchain"
 ],
-"t": 1793348514.50618,
+"t": 1793351281.6455417,
 "t0": 1793337960.0,
 "tgtext": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
 "title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
@@ -3857,7 +3855,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793346234.0,
 "tgtext": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 $ETH ($251) to buy 5.9T $PEPE ($100M at peak), bought another 45.08B $PEPE ($206.5K) after the Binance hacker finished dumping $PEPE.\n\nhttps://arkm.com/explorer/address/0x4a2C786651229175407d3A2D405d1998bcf40614",
 "title": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 ETH ($251) to buy 5.9T PEPE ($100M at peak), bought another 45.08B PEPE ($206.5K) after the Binance hacker finished dumping PEPE.",
@@ -4191,7 +4189,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793350667.4696784,
+"t": 1793351587.3386357,
 "t0": 1793343196.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
 "title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
@@ -4517,6 +4515,19 @@
 "url": "https://t.me/wublockchainenglish/26604",
 "urls": []
 },
+"f06d5eaa5aad": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1793351587.3386357,
+"t0": 1793351054.0,
+"tgtext": "\ud83d\udea8 UPDATE: Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.\n\nWithdrawals are expected to resume in 45 hours.\n\nNews | Markets | YouTube",
+"title": "Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.",
+"url": "https://t.me/cointelegraph/72961",
+"urls": []
+},
 "f1c21a8b1bba": {
 "coin": "bitcoin",
 "src": "24/7 Wall St.",
@@ -4587,7 +4598,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793350973.013831,
+"t": 1793351587.3386357,
 "t0": 1793330639.0,
 "tgtext": "JUST IN: Elon Musk says super intelligence AI agents will eventually hack financial systems to obtain money for themselves, not humans.\n\n@WatcherGuru\n\u26a1\ufe0f TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d",
@@ -4776,76 +4787,44 @@
 "16a7cb1e6ccf": 0.422,
 "1aaf342c40b6": 0.147,
 "29ab818d1aa5": 0.127,
-"2d7c302f68b9": 0.133,
-"2dbafa9c9ac1": 0.887,
-"45a80ebef33e": 0.084,
+"2d7c302f68b9": 0.075,
+"2dbafa9c9ac1": 0.85,
+"3219407622f3": 0.809,
+"3d568794d677": 0.026,
+"45a80ebef33e": 0.081,
 "45e8ad8f51ec": 0.142,
 "46599676c441": 0.253,
 "4948c03b921c": 0.073,
 "4afa85151a92": 0.094,
 "4e95fc58ac42": 0.25,
 "57109a813f86": 0.763,
-"5b77ff0bccc9": 0.298,
-"60992376c9e5": 0.013,
+"5b77ff0bccc9": 0.085,
 "609dfc1537d4": 0.762,
-"651777901c91": 0.044,
-"6f61650b4226": 0.912,
-"77e7b60563ec": 0.042,
-"78f7a83e386d": 0.079,
-"7c74c652b413": 0.074,
-"7e4c0a2a9014": 0.199,
-"8197c3507326": 0.279,
-"892cface2b67": 0.112,
-"915c266e7d0e": 0.048,
+"719105391c61": 0.02,
+"7c74c652b413": 0.227,
+"8197c3507326": 0.298,
+"81e1d9e315ab": 0.103,
+"892cface2b67": 0.465,
+"968d5e51d353": 0.069,
 "98633142b21a": 0.768,
 "99ee926e79e9": 0.048,
-"9fe2265d9a76": 0.89,
+"9adf8777fa2d": 0.237,
 "a4c69c1d5f79": 0.226,
+"a5694cf9e151": 0.172,
 "a64e9f93fb80": 0.226,
 "a86918ecc68c": 0.039,
+"ab162ecfb088": 0.128,
 "abe50070c8f4": 0.148,
 "c7a78fbcb862": 0.028,
-"d1f77e86ddda": 0.113,
-"d278a78681bb": 0.194,
-"d279d9000d35": 0.047,
-"d2e3da698646": 0.983,
-"e72914b75c41": 0.062,
+"d278a78681bb": 0.14,
+"d2e3da698646": 0.976,
+"d604f56a18c6": 0.641,
+"e1b3aba13a6c": 0.791,
 "ea124e7a0e9a": 0.312,
+"f06d5eaa5aad": 0.97,
 "f43d83d8f15e": 0.781
 },
 "sent": [
-{
-"e": [
-"sim",
-"tradfi"
-],
-"k": [
-"hack"
-],
-"t": 1793177392.095842,
-"u": [
-"https://t.me/cointelegraph/72901"
-],
-"w": [
-"across",
-"attacks",
-"can",
-"data",
-"exchange",
-"four",
-"fuel",
-"leaked",
-"leaks",
-"phishing",
-"real",
-"reported",
-"sim",
-"swaps",
-"tradfi",
-"warns",
-"world"
-]
-},
 {
 "e": [
 "fence",
@@ -6842,6 +6821,30 @@
 "them",
 "trader"
 ]
+},
+{
+"e": [
+"binance"
+],
+"k": [
+"hack"
+],
+"t": 1793351281.6455417,
+"u": [
+"https://t.me/cointelegraph/72961"
+],
+"w": [
+"additional",
+"beyond",
+"binance",
+"breach",
+"compromised",
+"investigation",
+"laptop",
+"points",
+"potentially",
+"uncovered"
+]
 }
 ],
 "stories": {},
@@ -6850,63 +6853,63 @@
 [
 "d2e3da698646",
 34,
-79,
+89,
 1
 ],
 [
-"6f61650b4226",
-68,
-351,
-44
-],
-[
-"9fe2265d9a76",
-76,
-216,
-3
+"f06d5eaa5aad",
+43,
+9,
+1
 ],
 [
 "2dbafa9c9ac1",
 16,
-69,
+79,
+1
+],
+[
+"3219407622f3",
+60,
+258,
+2
+],
+[
+"e1b3aba13a6c",
+46,
+140,
 1
 ],
 [
 "310fbb642d1d",
 0,
-332,
+342,
 1
 ],
 [
 "f43d83d8f15e",
-32,
-339,
+31,
+349,
 2
 ],
 [
 "98633142b21a",
 31,
-95,
+106,
 1
 ],
 [
 "57109a813f86",
-15,
-204,
+14,
+214,
 1
 ],
 [
 "609dfc1537d4",
 20,
-91,
+102,
 2
-],
-[
-"0cedb4c501e1",
-0,
-324,
-1
 ]
 ],
-"top_at": 1793350973.013831
+"top_at": 1793351587.3386357
 }
