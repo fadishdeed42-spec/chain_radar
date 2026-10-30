@@ -445,6 +445,28 @@
 "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack"
 ]
 },
+"120201cb8e72": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"AP News",
+"Al Jazeera",
+"BBC",
+"Bitcoin Magazine",
+"Bloomberg.com"
+],
+"t": 1793382024.6394882,
+"t0": 1793360880.0,
+"tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea's $6,300,000,000 Binance crypto hack is the largest heist in human history.\n\n@WatcherGuru\nJUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
+"title": "$6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?",
+"url": "https://t.me/cointelegraph/72965",
+"urls": [
+"https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+"https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+"https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor"
+]
+},
 "16a7cb1e6ccf": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -1020,7 +1042,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793381107.7146218,
+"t": 1793382024.6394882,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -2387,7 +2409,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793365680.0,
 "tgtext": "A newly created wallet (2VXozU) withdrew 68,773 $SOL($6.65M) from #Kraken, #Bybit and #OKX.\n\nhttps://arkm.com/explorer/address/2VXozUqccKmDYAsZSbjJtEnK5d4NufrkYutRxPUUkLfK",
 "title": "A newly created wallet (2VXozU) withdrew 68,773 SOL($6.65M) from Kraken, Bybit and OKX.",
@@ -3048,7 +3070,7 @@
 "The Defiant",
 "TradingView"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793362914.0,
 "tgtext": "",
 "title": "U.S. spot bitcoin ETF cumulative net inflows reach $57.624 billion, with daily net inflows hitting $17.2 million \u2014 holders generate daily earnings of $3,000 to $5,000",
@@ -3847,20 +3869,6 @@
 "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
 ]
 },
-"ae6bddd50139": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru",
-"Wu Blockchain"
-],
-"t": 1793208625.4446135,
-"t0": 1793187166.0,
-"tgtext": "Google Unveils MPC Service to Secure Crypto and Tokenized Assets\n\nGoogle is developing an MPC service to help financial institutions secure and transfer crypto and tokenized assets. Now in private preview, it is expected to launch commercially in early 2027. Google\u2019s parent company, Alphabet, already uses the technology to secure digital assets on Ethereum and Solana, though it has not disclosed which assets. \u2014 link\nJUST IN: Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.\n\n@WatcherGuru",
-"title": "Google unveils new security system to help banks safely store and transfer cryptocurrencies and tokenized assets.",
-"url": "https://t.me/WatcherGuru/15646",
-"urls": []
-},
 "af04eb507fe3": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -3949,13 +3957,35 @@
 "url": "https://t.me/lookonchainchannel/10841",
 "urls": []
 },
+"b00495d74f13": {
+"coin": "",
+"src": "BigGo Finance",
+"srcs": [
+"BBC",
+"Barron's",
+"BigGo Finance",
+"Business Insider",
+"CNBC"
+],
+"t": 1793382024.6394882,
+"t0": 1793361086.0,
+"tgtext": "",
+"title": "Binance Hack Storm Triggers Liquidation Tsunami: \"Machi Big Brother\" Liquidated 8 Times in 6 Hours, Account Briefly Down to NT$49",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85YW5lUlhCZVdQT0UwTmw5VFhPekVVYlJIQXhJQkRqM1dJUHRPbHVtakFVZGNwWkhNWnlsVTlPUE1ieTFheXR4VXdOS2VCOUdwcWswdXVKN2hEYUxzUzZQTE9GTmFHby1ZM0k0VWZLSVMwdTZvVEE?oc=5",
+"urls": [
+"https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
+"https://decrypt.co/382225/morning-minute-binances-6-4b-hack-overshadows-hyperliquids-biggest-day",
+"https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack"
+]
+},
 "b1663f6f0353": {
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793368905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $850,000,000,000 wiped out from the US stock market at open.",
@@ -4325,7 +4355,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793366709.0,
 "tgtext": "The Binance hacker sent ~$3.32M worth of altcoins to the $NEWT token contract address by mistake.\n\nThe funds are now unrecoverable.\n\nhttps://arkm.com/explorer/address/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
 "title": "The Binance hacker sent ~$3.32M worth of altcoins to the NEWT token contract address by mistake.",
@@ -4730,7 +4760,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -4813,6 +4843,20 @@
 "tgtext": "\ud83d\udea8 REKT: Over $356M in crypto positions were liquidated in the past 24 hours as $BTC\n fell below $80,000, with longs taking $207.7M of the hit.\n\nNews | Markets | YouTube",
 "title": "REKT: Over $356M in crypto positions were liquidated in the past 24 hours as BTC",
 "url": "https://t.me/cointelegraph/72923",
+"urls": []
+},
+"d8f5427b5e53": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"BBC",
+"Cointelegraph"
+],
+"t": 1793381719.9574068,
+"t0": 1793360151.0,
+"tgtext": "\ud83d\udea8 $6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?\n\nOur latest explainer breaks down what happened:\n\nhttps://youtu.be/gUTDIlh-bCQ\n\nNews | Markets | YouTube",
+"title": "$6.3 billion stolen. How did Binance suffer the largest crypto hack in history, and what does it mean for your Bitcoin?",
+"url": "https://t.me/cointelegraph/72965",
 "urls": []
 },
 "d9073fd24d6e": {
@@ -5690,7 +5734,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793363331.0,
 "tgtext": "Coinbase Executives Plan Potential Sale of Up to 13.6M COIN Shares Worth $2.2B\n\nAccording to Coinbase's Q3 SEC filing, CEO Brian Armstrong, co-founder Fred Ehrsam, and President Emilie Choi adopted Rule 10b5-1 trading plans allowing potential sales of up to 13.6 million COIN shares, worth approximately $2.2 billion based on the October 29 closing price. Armstrong's plan covers up to 8.17 million shares between November 16, 2026, and October 2027, subject to predetermined price thresholds. These are planned transactions, not completed sales. \u2014 link",
 "title": "Coinbase Executives Plan Potential Sale of Up to 13.6M COIN Shares Worth $2.2B",
@@ -5841,7 +5885,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793381412.1619394,
+"t": 1793382024.6394882,
 "t0": 1793368257.0,
 "tgtext": "JUST IN: Intel $INTC crashes over 30% at open.\n\n@WatcherGuru",
 "title": "Intel INTC crashes over 30% at open.",
@@ -5902,42 +5946,42 @@
 "probs": {
 "07f99fd3f0ae": 0.258,
 "095bb46de397": 0.107,
+"120201cb8e72": 0.843,
 "12733bd815e1": 0.223,
 "1326b2cb95ae": 0.102,
+"2b5a6d8aebf2": 0.948,
 "2f2db9ee4920": 0.055,
-"3436ea5e9682": 0.73,
-"35891c45c505": 0.123,
+"35891c45c505": 0.245,
 "3eacbed12c8a": 0.05,
 "4d97412a3cae": 0.133,
 "50c072cd0024": 0.03,
 "5d9a53f6181d": 0.179,
 "5f7f02d591c1": 0.089,
 "61f326bfbe60": 0.024,
-"6bf7be5cadfd": 0.179,
-"6c888af4b229": 0.886,
+"6bf7be5cadfd": 0.046,
 "6cae71e32994": 0.008,
-"711d0d601d40": 0.018,
 "76c28e1e5c4d": 0.099,
 "776a8131240f": 0.14,
 "776ec75bc2bc": 0.354,
 "7a500775caff": 0.257,
 "7bf2aa4b19b2": 0.031,
+"8068996543e8": 0.094,
+"814a5f58eece": 0.15,
 "82c9fe6abcbe": 0.034,
-"84c1e5c18a54": 0.325,
+"84c1e5c18a54": 0.267,
 "954ac4db0727": 0.702,
 "9fd276d84e5c": 0.042,
+"b00495d74f13": 0.82,
 "b6936a9d75d6": 0.026,
 "bb811450326d": 0.311,
-"bd77d96f039e": 0.098,
 "c62130fd2271": 0.648,
-"cd42f45e3421": 0.115,
+"cd42f45e3421": 0.165,
 "ce849d961175": 0.091,
 "d6ba04fe3583": 0.801,
 "e5400d7e1def": 0.037,
 "e7a99dd22c23": 0.158,
 "e87f8738051a": 0.193,
 "f6ac7324ac3a": 0.415,
-"f7a6e9280dde": 0.864,
 "fa063683cf08": 0.152,
 "fe0eda4cecdd": 0.647
 },
@@ -8026,65 +8070,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b1663f6f0353",
-7,
-208,
-1
-],
-[
-"6c888af4b229",
+"2b5a6d8aebf2",
 70,
-335,
-15
+129,
+2
 ],
 [
-"f7a6e9280dde",
-74,
-303,
-7
-],
-[
-"d6ba04fe3583",
-20,
-89,
-1
-],
-[
-"3436ea5e9682",
-67,
-355,
-16
-],
-[
-"954ac4db0727",
-73,
-308,
-7
-],
-[
-"c62130fd2271",
-16,
-245,
-1
-],
-[
-"fe0eda4cecdd",
-15,
+"b1663f6f0353",
+5,
 219,
 1
 ],
 [
+"120201cb8e72",
+68,
+352,
+21
+],
+[
+"b00495d74f13",
+68,
+349,
+13
+],
+[
+"d6ba04fe3583",
+20,
+99,
+1
+],
+[
+"954ac4db0727",
+72,
+319,
+8
+],
+[
+"c62130fd2271",
+14,
+255,
+1
+],
+[
+"fe0eda4cecdd",
+14,
+229,
+1
+],
+[
 "73efa0306e25",
-6,
-262,
+4,
+272,
 1
 ],
 [
 "f6ac7324ac3a",
-17,
-301,
+16,
+312,
 1
 ]
 ],
-"top_at": 1793381412.1619394
+"top_at": 1793382024.6394882
 }
