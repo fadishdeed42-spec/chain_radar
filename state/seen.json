@@ -75,17 +75,20 @@
 "src": "Cryptonews.net",
 "srcs": [
 "Bitcoin Foundation",
-"CryptoPotato",
-"CryptoRank",
-"Cryptonews.net",
-"TradingView"
+"Bitcoin Magazine",
+"CoinDesk",
+"Crypto News",
+"CryptoPotato"
 ],
-"t": 1793350053.1621716,
+"t": 1793352201.8565135,
 "t0": 1793330762.0,
 "tgtext": "",
 "title": "Bitcoin Slides to Six-Week Low Below $77K as Binance Halts Withdrawals and Vows to Cover Losses",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OYjFkWWNWSEtTT1pUbGtKWHMzRGo2d1V5MDFNQTFRWjA4OVV1Qi1hZ3dVMkxRRklPWmNJTDNnNHVpWmRKbWhVaHNodUxQNDZ4XzV2cmJSUnE?oc=5",
-"urls": []
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+"https://bitcoinmagazine.com/news/bitcoin-price-slides-near-76000-binance"
+]
 },
 "05a3fb0b4b3e": {
 "coin": "",
@@ -913,7 +916,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793346851.0,
 "tgtext": "Trader 0x15a4 just closed his longs on 1,000 $BTC ($78.18M) and 10,000 $ETH ($22.35M) after holding them for 4 months, making over $20M in profit.\n\nHe then flipped short, opening a 20x short on 13,000 $ETH ($29M).\n\nhttps://hyperbot.network/trader/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
 "title": "Trader 0x15a4 just closed his longs on 1,000 BTC ($78.18M) and 10,000 ETH ($22.35M) after holding them for 4 months, making over $20M in profit.",
@@ -961,7 +964,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793331079.0,
 "tgtext": "The Pando Rings hacker bought 7,548 $ETH ($16.72M) 2 hours ago.\n\nhttps://arkm.com/explorer/address/0x303D0A175CeEC14DD7B3d4F60CABE6CEc06a3d9F",
 "title": "The Pando Rings hacker bought 7,548 ETH ($16.72M) 2 hours ago.",
@@ -1522,7 +1525,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793338755.0,
 "tgtext": "\ud83d\udea8 NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.\n\nNews | Markets | YouTube",
 "title": "NOW: Binance co-founder Yi He says deposits operate as normal, and withdrawals should resume within the next 48 hours after upgrades to the withdrawal service.",
@@ -2665,7 +2668,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793345255.0,
 "tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
 "title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
@@ -2816,11 +2819,11 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
-"Coinpedia",
 "Mashable",
+"TradingView",
 "Wu Blockchain"
 ],
-"t": 1793350973.013831,
+"t": 1793352201.8565135,
 "t0": 1793338024.0,
 "tgtext": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker\n\nZachXBT posted that stolen funds from the $6.3 billion Binance exploit and the $388 million Bitget exploit arrived via THORChain and were commingled at the same address. ZachXBT stated that this indicates the same actor is likely behind both incidents. The Bitget exploit had previously been attributed to the North Korea-linked TraiderTraitor, which has overlap with other previous exploits such as Kelp DAO.\n\nAccording to MistTrack, stolen TRX from the Binance incident flowed through Bitget Wallet Swap Bridge into an address beginning with 0xCd68. On-chain tracking shows that this address was previously used by the Phemex hacker. \u2014 link",
 "title": "ZachXBT: Stolen Funds from the $6.3B Binance Exploit and $388M Bitget Exploit Commingled at Same Address, Suspected Same North Korea-Linked Attacker",
@@ -3853,14 +3856,17 @@
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
+"CoinDesk",
 "Lookonchain"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793346234.0,
 "tgtext": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 $ETH ($251) to buy 5.9T $PEPE ($100M at peak), bought another 45.08B $PEPE ($206.5K) after the Binance hacker finished dumping $PEPE.\n\nhttps://arkm.com/explorer/address/0x4a2C786651229175407d3A2D405d1998bcf40614",
 "title": "Legendary trader dimethyltryptamine.eth, who once spent just 0.125 ETH ($251) to buy 5.9T PEPE ($100M at peak), bought another 45.08B PEPE ($206.5K) after the Binance hacker finished dumping PEPE.",
 "url": "https://t.me/lookonchainchannel/10847",
-"urls": []
+"urls": [
+"https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90"
+]
 },
 "d3c6160356d7": {
 "coin": "",
@@ -4189,7 +4195,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793343196.0,
 "tgtext": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH\n\nAave risk service provider LlamaRisk said one wallet linked to the Binance exploiter deposited about 60 million USDT into Aave V3 Ethereum Core and borrowed 19,762 WETH (worth roughly $44.6 million) between 20:58 and 21:01 UTC on October 29, about 40 minutes before the first freeze. The position remains over-collateralized and is the exploiter\u2019s only position on Aave.\n\nAave froze all DAO-operated V3 and V4 markets as a precaution after a potential security incident involving Binance-affiliated wallets, pausing new deposits and borrowing. Users can still withdraw assets and repay existing loans. In total, 175 V3 reserves across 16 networks and 117 V4 reserves across four networks were frozen. Aave said its contracts were unaffected and it aims to lift the freeze as soon as possible. \u2014 link",
 "title": "Aave Freezes V3 and V4 Markets After Binance Exploiter Deposits $60M USDT and Borrows 19,762 WETH",
@@ -4521,7 +4527,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793351054.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.\n\nWithdrawals are expected to resume in 45 hours.\n\nNews | Markets | YouTube",
 "title": "Binance\u2019s investigation has uncovered additional breach points beyond a potentially compromised laptop.",
@@ -4598,7 +4604,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793351587.3386357,
+"t": 1793352201.8565135,
 "t0": 1793330639.0,
 "tgtext": "JUST IN: Elon Musk says super intelligence AI agents will eventually hack financial systems to obtain money for themselves, not humans.\n\n@WatcherGuru\n\u26a1\ufe0f TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: Elon Musk says super intelligence agents will one day exploit the financial system like the Binance hacker did, \u201cto gain currency for themselves, not a human.\u201d",
@@ -4783,46 +4789,46 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
+"048faaf32e15": 0.802,
 "0b34919441d8": 0.071,
 "16a7cb1e6ccf": 0.422,
 "1aaf342c40b6": 0.147,
 "29ab818d1aa5": 0.127,
 "2d7c302f68b9": 0.075,
 "2dbafa9c9ac1": 0.85,
-"3219407622f3": 0.809,
 "3d568794d677": 0.026,
-"45a80ebef33e": 0.081,
 "45e8ad8f51ec": 0.142,
 "46599676c441": 0.253,
-"4948c03b921c": 0.073,
 "4afa85151a92": 0.094,
 "4e95fc58ac42": 0.25,
 "57109a813f86": 0.763,
-"5b77ff0bccc9": 0.085,
+"5feefee9ef3b": 0.307,
 "609dfc1537d4": 0.762,
 "719105391c61": 0.02,
-"7c74c652b413": 0.227,
-"8197c3507326": 0.298,
-"81e1d9e315ab": 0.103,
-"892cface2b67": 0.465,
-"968d5e51d353": 0.069,
+"7e4c0a2a9014": 0.15,
+"8197c3507326": 0.279,
+"81e1d9e315ab": 0.237,
+"856c2d41b0ba": 0.056,
+"915c266e7d0e": 0.048,
 "98633142b21a": 0.768,
 "99ee926e79e9": 0.048,
-"9adf8777fa2d": 0.237,
-"a4c69c1d5f79": 0.226,
-"a5694cf9e151": 0.172,
+"9fe2265d9a76": 0.912,
+"a4c69c1d5f79": 0.06,
 "a64e9f93fb80": 0.226,
 "a86918ecc68c": 0.039,
 "ab162ecfb088": 0.128,
 "abe50070c8f4": 0.148,
+"ac4ad637e9f7": 0.033,
+"bac576a140dd": 0.235,
 "c7a78fbcb862": 0.028,
 "d278a78681bb": 0.14,
-"d2e3da698646": 0.976,
-"d604f56a18c6": 0.641,
+"d2e3da698646": 0.995,
+"d604f56a18c6": 0.69,
 "e1b3aba13a6c": 0.791,
-"ea124e7a0e9a": 0.312,
-"f06d5eaa5aad": 0.97,
-"f43d83d8f15e": 0.781
+"f06d5eaa5aad": 0.869,
+"f3d890d64a04": 0.047,
+"f43d83d8f15e": 0.781,
+"f6e4550347a3": 0.288
 },
 "sent": [
 {
@@ -6852,64 +6858,64 @@
 "top": [
 [
 "d2e3da698646",
-34,
-89,
-1
+44,
+99,
+2
+],
+[
+"9fe2265d9a76",
+73,
+236,
+3
 ],
 [
 "f06d5eaa5aad",
 43,
-9,
+19,
 1
 ],
 [
 "2dbafa9c9ac1",
 16,
-79,
+89,
 1
 ],
 [
-"3219407622f3",
-60,
-258,
-2
+"048faaf32e15",
+67,
+357,
+13
 ],
 [
 "e1b3aba13a6c",
 46,
-140,
+150,
 1
 ],
 [
 "310fbb642d1d",
 0,
-342,
+352,
 1
 ],
 [
 "f43d83d8f15e",
-31,
-349,
+30,
+359,
 2
 ],
 [
 "98633142b21a",
 31,
-106,
+116,
 1
 ],
 [
 "57109a813f86",
-14,
-214,
+13,
+224,
 1
-],
-[
-"609dfc1537d4",
-20,
-102,
-2
 ]
 ],
-"top_at": 1793351587.3386357
+"top_at": 1793352201.8565135
 }
