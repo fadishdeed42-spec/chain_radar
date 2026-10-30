@@ -1,0 +1,64 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  0%|          | 3.88M/1.18G [00:00<00:31, 40.1MB/s]  1%|          | 7.88M/1.18G [00:00<00:30, 41.0MB/s]  3%|▎         | 38.9M/1.18G [00:00<00:07, 170MB/s]   5%|▌         | 64.5M/1.18G [00:00<00:05, 208MB/s]  7%|▋         | 89.2M/1.18G [00:00<00:05, 226MB/s]  9%|▉         | 111M/1.18G [00:00<00:05, 224MB/s]  11%|█         | 132M/1.18G [00:00<00:05, 222MB/s] 13%|█▎        | 154M/1.18G [00:00<00:05, 204MB/s] 15%|█▍        | 177M/1.18G [00:00<00:04, 217MB/s] 17%|█▋        | 201M/1.18G [00:01<00:04, 225MB/s] 18%|█▊        | 222M/1.18G [00:01<00:04, 220MB/s] 20%|██        | 245M/1.18G [00:01<00:04, 226MB/s] 23%|██▎       | 272M/1.18G [00:01<00:04, 243MB/s] 25%|██▍       | 296M/1.18G [00:01<00:03, 241MB/s] 27%|██▋       | 321M/1.18G [00:01<00:03, 246MB/s] 29%|██▊       | 345M/1.18G [00:01<00:03, 249MB/s] 31%|███       | 370M/1.18G [00:01<00:03, 252MB/s] 33%|███▎      | 394M/1.18G [00:01<00:03, 237MB/s] 35%|███▍      | 417M/1.18G [00:02<00:03, 215MB/s] 36%|███▋      | 438M/1.18G [00:02<00:03, 211MB/s] 39%|███▊      | 465M/1.18G [00:02<00:03, 231MB/s] 41%|████      | 492M/1.18G [00:02<00:03, 246MB/s] 43%|████▎     | 516M/1.18G [00:02<00:02, 246MB/s] 45%|████▍     | 540M/1.18G [00:02<00:02, 243MB/s] 47%|████▋     | 564M/1.18G [00:02<00:02, 242MB/s] 49%|████▉     | 587M/1.18G [00:02<00:02, 227MB/s] 51%|█████     | 609M/1.18G [00:02<00:02, 217MB/s] 52%|█████▏    | 630M/1.18G [00:02<00:02, 216MB/s] 55%|█████▍    | 658M/1.18G [00:03<00:02, 237MB/s] 57%|█████▋    | 683M/1.18G [00:03<00:02, 246MB/s] 59%|█████▉    | 707M/1.18G [00:03<00:02, 241MB/s] 61%|██████    | 730M/1.18G [00:03<00:02, 234MB/s] 63%|██████▎   | 753M/1.18G [00:03<00:02, 224MB/s] 64%|██████▍   | 774M/1.18G [00:03<00:02, 220MB/s] 66%|██████▌   | 796M/1.18G [00:03<00:01, 221MB/s] 68%|██████▊   | 817M/1.18G [00:03<00:01, 206MB/s] 70%|███████   | 844M/1.18G [00:03<00:01, 227MB/s] 73%|███████▎  | 873M/1.18G [00:04<00:01, 246MB/s] 75%|███████▍  | 901M/1.18G [00:04<00:01, 259MB/s] 77%|███████▋  | 927M/1.18G [00:04<00:01, 265MB/s] 80%|███████▉  | 958M/1.18G [00:04<00:00, 282MB/s] 82%|████████▏ | 985M/1.18G [00:04<00:00, 278MB/s] 84%|████████▍ | 0.99G/1.18G [00:04<00:00, 254MB/s] 86%|████████▌ | 1.01G/1.18G [00:04<00:00, 248MB/s] 88%|████████▊ | 1.04G/1.18G [00:04<00:00, 239MB/s] 90%|█████████ | 1.06G/1.18G [00:04<00:00, 252MB/s] 93%|█████████▎| 1.09G/1.18G [00:05<00:00, 273MB/s] 95%|█████████▌| 1.12G/1.18G [00:05<00:00, 263MB/s] 97%|█████████▋| 1.14G/1.18G [00:05<00:00, 247MB/s] 99%|█████████▉| 1.17G/1.18G [00:05<00:00, 246MB/s]100%|██████████| 1.18G/1.18G [00:05<00:00, 234MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json 742985709188
+   take 1: score -2.19  wer 0.44  end +0.0st  2.4w/s  heard: $6,300 million vanished from Bishnance in seconds.
+   take 2: score -2.33  wer 0.44  end +0.0st  2.2w/s  heard: $6,300 million vanished from Binance in seconds.
+scene 1: 4.55s ex 0.72
+   take 1: score -1.10  wer 0.15  end -0.8st  2.3w/s  heard: On October 29, 2026, the crypto giant faced an unprecedented digital s
+   take 2: score +0.92  wer 0.15  end -1.4st  2.3w/s  heard: On October 29, 2026, the crypto giant faced an unprecedented digital s
+scene 2: 10.47s ex 0.6
+   take 1: score -0.83  wer 0.08  end +0.0st  2.3w/s  heard: Bishnan's executives immediately suspended all withdrawals as the alar
+   take 2: score -1.02  wer 0.08  end +0.0st  2.0w/s  heard: Fish dance executives immediately suspended all withdrawals as the ala
+scene 3: 10.16s ex 0.66
+   take 1: score -0.65  wer 0.04  end +0.0st  2.3w/s  heard: Blotchin intelligence firms quickly linked the massive attack to North
+   take 2: score -0.52  wer 0.00  end +0.0st  2.2w/s  heard: Blockchain intelligence firms quickly linked the massive attack to Nor
+   take 3: score -0.31  wer 0.00  end +0.0st  2.6w/s  heard: Blockchain intelligence firms quickly linked the massive attack to Nor
+scene 4: 8.49s ex 0.85
+   take 1: score -0.16  wer 0.00  end +0.0st  2.8w/s  heard: But that is not even the strangest part of the heist that shocked the 
+   take 2: score -0.19  wer 0.00  end +0.0st  2.8w/s  heard: But that is not even the strangest part of the heist that shocked the 
+   take 3: score -0.04  wer 0.00  end +0.0st  3.0w/s  heard: But that is not even the strangest part of the heist  that shocked the
+scene 5: 7.92s ex 0.85
+   take 1: score -0.99  wer 0.17  end +0.0st  2.6w/s  heard: TRM Labs confirmed $6.36 billion drained in history's largest crypto r
+   take 2: score -1.10  wer 0.17  end +0.0st  2.4w/s  heard: TRM Labs confirmed $6.36 billion, drained in history's largest crypto 
+scene 6: 11.26s ex 0.6
+   take 1: score -0.27  wer 0.00  end +0.0st  2.7w/s  heard: Security experts traced the funds using advanced on-chain analysis too
+   take 2: score -0.45  wer 0.04  end +0.0st  2.6w/s  heard: Security experts trace the funds using advanced on-chain analysis tool
+scene 7: 8.65s ex 0.6
+   take 1: score -0.72  wer 0.13  end +0.0st  2.8w/s  heard: Fishnance announced 6.3 billion ready to cover all user losses, moving
+   take 2: score -0.86  wer 0.15  end +0.0st  2.7w/s  heard: Beef Nuts announced 6.3 billion ready to cover all user losses, moving
+scene 8: 8.67s ex 0.72
+   take 1: score +1.57  wer 0.11  end -3.4st  2.6w/s  heard: The largest bank heist in human history left billions banished from ba
+   take 2: score -0.33  wer 0.06  end +0.0st  2.5w/s  heard: The largest bank heist in human history left billions vanished from fi
+   take 3: score +1.61  wer 0.06  end -1.7st  2.4w/s  heard: The largest bank heist in human history left billions vanished from Bi
+   take 4: score -0.23  wer 0.04  end +0.0st  2.7w/s  heard: The largest bank heist in human history left billions vanished from by
+   take 5: score -0.28  wer 0.04  end +0.0st  2.4w/s  heard: The largest bank heist in human history left billions vanished from by
+   take 6: score -0.19  wer 0.04  end +0.0st  2.6w/s  heard: The largest bank heist in human history left billions vanished from by
+scene 9: 9.69s ex 0.55 END
+   take 1: score -0.89  wer 0.00  end +0.0st  1.6w/s  heard: Follow chain secrets.
+   take 2: score -0.82  wer 0.00  end +0.0st  1.7w/s  heard: Follow Chain Secrets.
+   take 3: score -1.93  wer 0.33  end +0.0st  2.1w/s  heard: Followed chain secrets.
+scene 10: 1.73s ex 0.7
+84.66s, force-aligned 206 words
+liampace -> jobs/b2077f37/voicep.wav
+rate x1.00 gap 0.40 | Six billion three hundred million dollars vanished from bih-nance in seconds.
+rate x1.00 gap 0.40 | On October twenty-nine, twenty twenty-six, the crypto giant faced an unprecedented digital siege that rattled global financial markets, alarming panicked traders and retail investors.
+rate x1.00 gap 0.40 | bih-nance executives immediately suspended all withdrawals as the alarming security breach unfolded across their massive decentralized platform infrastructure, forcing a total exchange lockdown.
+rate x1.00 gap 0.40 | Blockchain intelligence firms quickly linked the massive attack to North Korea, identifying patterns consistent with state-sponsored cyber warfare used in previous heists.
+rate x1.00 gap 0.40 | But that is not even the strangest part of the heist that shocked the entire digital economy, leaving cybersecurity analysts questioning our network security.
+rate x1.00 gap 0.40 | T R M Labs confirmed six point three six billion dollar drained in history's largest crypto robbery, marking a devastating day for millions of global retail investors worldwide today.
+rate x1.00 gap 0.40 | Security experts traced the funds using advanced on-chain analysis tools to expose the sophisticated methods used by the cyber criminals during the breach.
+rate x1.00 gap 0.60 | bih-nance announced six point three billion ready to cover all user losses, moving quickly to prevent a total market collapse after the massive theft.
+rate x1.00 gap 0.40 | The largest bank heist in human history left billions vanished from bih-nance, forever changing how we view digital asset security and exchange safety.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 85.18s (was 84.66s)
+
