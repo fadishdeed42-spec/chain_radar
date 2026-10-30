@@ -344,7 +344,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793392040.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.",
@@ -580,7 +580,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793392612.0,
 "tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru\n\u26a1\ufe0f LATEST: Apple overtakes Nvidia as the world\u2019s most valuable company, with a market cap of $5.03 trillion versus Nvidia\u2019s $4.94 trillion.\n\nNews | Markets | YouTube",
 "title": "Apple officially surpasses Nvidia to become the world's most valuable company by market cap.",
@@ -1135,7 +1135,7 @@
 "Decrypt",
 "NBC News"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793374259.0,
 "tgtext": "\ud83d\udea8 UPDATE: Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.\n\nhttps://ct.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Secret Service is working with Circle to identify, freeze, and recover funds stolen from Binance.\n\n@WatcherGuru",
 "title": "Binance is working with the FBI and other law enforcement agencies to recover stolen funds, while $3B has already been frozen.",
@@ -1366,13 +1366,13 @@
 "coin": "shiba-inu",
 "src": "Pluang",
 "srcs": [
-"AP News",
 "Altcoin Buzz",
 "Barron's",
 "CBC",
-"CNBC"
+"CNBC",
+"Cleveland.com"
 ],
-"t": 1793394531.1344914,
+"t": 1793395141.18897,
 "t0": 1793374627.0,
 "tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
 "title": "Shiba Inu hits lowest price since August amid $1.54B crypto liquidations post-Binance hack",
@@ -2631,9 +2631,12 @@
 "coin": "bitcoin",
 "src": "24/7 Wall St.",
 "srcs": [
-"24/7 Wall St."
+"24/7 Wall St.",
+"Benzinga",
+"Coinpedia",
+"TOKENPOST"
 ],
-"t": 1793386009.5166285,
+"t": 1793395444.8620389,
 "t0": 1793375580.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
@@ -2732,7 +2735,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793394224.2767394,
+"t": 1793395444.8620389,
 "t0": 1793379829.0,
 "tgtext": "\ud83d\udd25 BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
 "title": "BIG: Tether generates $1.5B in Q3 net operating profit, with its reserve buffer doubling.",
@@ -3706,22 +3709,6 @@
 "url": "https://t.me/cointelegraph/72942",
 "urls": []
 },
-"a176984b5772": {
-"coin": "bitcoin",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"The Block"
-],
-"t": 1793222512.5086808,
-"t0": 1793201101.0,
-"tgtext": "\ud83d\udd25 BULLISH: Bitwise projects $BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.\n\nNews | Markets | YouTube",
-"title": "BULLISH: Bitwise projects BTC will reach $1.6 million by 2036, driven by rising institutional demand, limited supply and growing concerns over fiat currency debasement.",
-"url": "https://t.me/cointelegraph/72910",
-"urls": [
-"https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010"
-]
-},
 "a1ef0a78b60e": {
 "coin": "tether",
 "src": "CNBC",
@@ -4267,20 +4254,20 @@
 ]
 },
 "b121977a33c2": {
-"coin": "shiba-inu",
-"src": "Pluang",
+"coin": "bitcoin",
+"src": "StreetInsider",
 "srcs": [
 "AP News",
 "Altcoin Buzz",
 "Barron's",
 "Bloomberg.com",
-"CBC"
+"Business Insider"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793375040.0,
 "tgtext": "JUST IN: Binance founder CZ says $6.3 billion crypto hack is a \"major disaster for the industry.\"\n\n\"It hurts, but we survive.\"\n\n@WatcherGuru",
-"title": "Shiba Inu hits lowest price since August amid $1.54B crypto liquidations post-Binance hack",
-"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNThYUERMRURsYkJlUXlHc3EzSTAtUzdRNTNSb05qRWlvRHhnME9jeGNObkF3azAxMmdZOHdzLUVHOGtobjJROHRSWGdDMWEwMlE2dG5qdy14WDZDS29MMlJpUWxxalV5Q2h1R3NTLWpzS05odlVtREN0WVd6Qldvdkd0YXdMNmtnVXFvUl9R?oc=5",
+"title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
+"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbmpySm1FTjJpczRYcUxheG1aNEwteUtCbHo4UXZDLXlOcW9pMlNmNGZ2Sk9hZFVqQlRHOTJVOUhwb3RSeGxDWW9nUXJmMzFRZHZYbjF1VTR6WXMyS01yN1l3bEt4bGxGV205Q2hWekVmc0U1NDc3UE9RdTFWLVBjaUV1dkpaSjQyRHVtQ0t6TXpHYVV5dFBNWV82UWN4RW9VWWRQYVNtakJ1djlBSGtZVmRyeFRwSjVzLWV4NGdjZmJZWmJodTlfQTVhSVdlaHhIVFNKZ3BZYUllWWc4NWRNUDRMbno0N1QxalY3YzRnbmNEVlItOUZRUmYtaTVMX2FKUlZTSVcwVEZEdVFh?oc=5",
 "urls": [
 "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
 "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
@@ -4387,7 +4374,7 @@
 "TOKENPOST",
 "www.tokenpost.com"
 ],
-"t": 1793394834.6520436,
+"t": 1793395141.18897,
 "t0": 1793381087.0,
 "tgtext": "",
 "title": "Crypto Liquidations Hit $1.67 Billion Across 254,045 Traders in 24 Hours",
@@ -4932,7 +4919,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793386046.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today.\n\n\u2022 Intel $INTC: -31%\n\u2022 Reddit $RDDT: -30%\n\u2022 Roblox $RBLX: -20%\n\u2022 Illumina $ILMN: -19%\n\u2022 SanDisk $SNDK: -15%\n\u2022 Arm $ARM: -12.7%\n\u2022 Dell $DELL: -12.5%\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.",
@@ -5151,22 +5138,6 @@
 "url": "https://t.me/wublockchainenglish/26588",
 "urls": []
 },
-"d42a6b69cd36": {
-"coin": "bitcoin",
-"src": "Cryptonews.net",
-"srcs": [
-"CryptoPotato",
-"CryptoRank",
-"Cryptonews.net",
-"Hokanews"
-],
-"t": 1793222205.6789458,
-"t0": 1793201004.0,
-"tgtext": "",
-"title": "Bitcoin Surges Above $81,000 Ahead of Fed Decision \u2013 Will BTC Price Rally Toward $88K or Drop to $76K?",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoTFpVS1dJY3pmZEJqNlRNcnBPNGV2ank5SG5qcjgzZmdCcEpqM25HMHFiTXQ4QzJZcTlUWHdRLXkxdTBGRVJydWVTazJyYnMyVVh3d0RZLUQ?oc=5",
-"urls": []
-},
 "d5adad63706c": {
 "coin": "",
 "src": "CryptoSlate",
@@ -5225,7 +5196,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793376094.0,
 "tgtext": "JUST IN: Reddit $RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.\n\n@WatcherGuru",
 "title": "Reddit RDDT stock crashes 28% after CEO reveals Google AI search is driving significantly less traffic to the platform.",
@@ -6198,7 +6169,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793394347.0,
 "tgtext": "JUST IN: Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.\n\n@WatcherGuru",
 "title": "Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.",
@@ -6265,10 +6236,12 @@
 "src": "The Block",
 "srcs": [
 "CBS News",
+"Coin Edition",
+"Cryptopolitan",
 "MPR News",
 "The Block"
 ],
-"t": 1793394834.6520436,
+"t": 1793395444.8620389,
 "t0": 1793377560.0,
 "tgtext": "",
 "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
@@ -6422,43 +6395,43 @@
 "05a681243d06": 0.053,
 "088cf4e753af": 0.038,
 "0dfcc0845486": 0.51,
-"192e6999cb10": 0.064,
+"192e6999cb10": 0.018,
 "1b2ad32ccebe": 0.603,
-"1be9cf0eca4c": 0.043,
-"1e37d28f3cea": 0.038,
 "2b5a6d8aebf2": 0.927,
 "33c820f95c34": 0.039,
 "35737ae8467c": 0.03,
+"3d66f875adfe": 0.124,
+"4c708c5dc89e": 0.01,
+"5520b1af3d84": 0.055,
 "5c1678698924": 0.013,
 "5d9a53f6181d": 0.08,
+"65a848f2dc48": 0.011,
 "6cae71e32994": 0.005,
 "70f45b8753b4": 0.017,
 "712506752e30": 0.019,
+"74547f94fcfc": 0.501,
 "75f178536690": 0.02,
 "7a500775caff": 0.21,
 "7db257373e68": 0.114,
-"7f39a27ff5e9": 0.404,
 "84c1e5c18a54": 0.042,
 "9a5882033a1a": 0.012,
 "9cecc613f850": 0.029,
-"9defabaf51fa": 0.007,
 "9e35810d202f": 0.011,
+"a2bad5624333": 0.017,
 "a6d65a37ffaa": 0.026,
-"a8f99896e305": 0.025,
-"a9da0edace06": 0.009,
-"ae6a1040b689": 0.066,
-"b121977a33c2": 0.745,
+"b121977a33c2": 0.921,
 "b507b47233f6": 0.097,
-"b5a4d3df259f": 0.224,
+"b5a4d3df259f": 0.055,
 "b9205da188ff": 0.014,
 "ba37c221a79f": 0.021,
-"c7ded025655f": 0.01,
 "cc9d7e049dbc": 0.763,
 "cf5430aded6b": 0.138,
+"d634a35c09df": 0.037,
 "d6ba04fe3583": 0.292,
 "e0962514c820": 0.015,
-"f3228fb1595f": 0.017,
-"f91cd28cdac2": 0.285
+"f3228fb1595f": 0.021,
+"f6e088f0dabe": 0.249,
+"f91cd28cdac2": 0.408
 },
 "sent": [
 {
@@ -8400,64 +8373,64 @@
 "top": [
 [
 "2b5a6d8aebf2",
-69,
-343,
+67,
+353,
 7
+],
+[
+"b121977a33c2",
+69,
+340,
+27
 ],
 [
 "cc9d7e049dbc",
 10,
-146,
+157,
 1
-],
-[
-"b121977a33c2",
-71,
-330,
-29
 ],
 [
 "1b2ad32ccebe",
 28,
-37,
+47,
 2
 ],
 [
 "0dfcc0845486",
 10,
-47,
+57,
 1
 ],
 [
-"7f39a27ff5e9",
-57,
-355,
-3
+"74547f94fcfc",
+65,
+331,
+4
+],
+[
+"f91cd28cdac2",
+70,
+298,
+5
+],
+[
+"d6ba04fe3583",
+11,
+323,
+2
 ],
 [
 "f6e088f0dabe",
 10,
-8,
+18,
 1
 ],
 [
-"d6ba04fe3583",
-13,
-312,
-2
-],
-[
-"f91cd28cdac2",
-61,
-288,
-3
-],
-[
-"b5a4d3df259f",
-44,
-229,
-2
+"7a500775caff",
+23,
+260,
+1
 ]
 ],
-"top_at": 1793394834.6520436
+"top_at": 1793395444.8620389
 }
