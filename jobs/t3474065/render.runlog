@@ -1,0 +1,61 @@
+media 3 photo Richard Teng -> Photo of Richard Teng: Binance, CC BY 4.0, via Wikimedia Commons
+  clip rejected: 6.0s, motion 0.0 4_s0.mp4
+  vision NO  fast computer code scrolling | Shows typing on keyboard, not code scrolling.
+  vision OK  hacker typing on laptop | Person typing on keyboard, fits hacking scene.
+shot 0 0 video hacker typing on laptop
+  vision NO  percentage loading bar full | Loading bar is at 33 percent, not full
+  vision NO  blockchain network graph | Shows person using phone, not blockchain network.
+  clip rejected: 6.0s, motion 1.2 2_s0.mp4
+  vision NO  percentage loading bar full | Shows tree branches and moon, not loading bar.
+  vision OK  fast computer code scrolling | Shows scrolling computer code and digital data.
+shot 1 0 video fast computer code scrolling
+  vision OK  blockchain network graph | Blockchain network graph fits the narrative.
+shot 2 0 video blockchain network graph
+  vision NO  cryptocurrency exchange office | Shows falling coins, not an exchange office.
+  vision NO  hacker dark room hood | Shows code, not hacker in dark room.
+  vision NO  bank vault door closing | Shows ocean water, not a bank vault.
+  vision NO  cryptocurrency exchange office | Shows people writing, not a crypto exchange.
+  vision NO  percentage loading bar full | Shows robot, not a percentage loading bar.
+  vision NO  hacker dark room hood | Shows antique room instead of modern hacker.
+  clip rejected: 6.0s, motion 0.9 2_s1.mp4
+  clip rejected: 6.0s, motion 0.5 2_s1.mp4
+  vision NO  cryptocurrency exchange office | Shows mining, not a crypto exchange office.
+  vision NO  An astonishing 90 percent of all stolen assets | Cityscape does not depict stolen assets.
+  vision NO  North Korean hackers executing the sophisticated breach. | Shows rural village instead of hackers.
+  vision NO  bank vault door closing | Shows gold bars, not a bank vault door.
+  vision NO  bank vault door closing | It shows a standard door, not bank vault.
+  vision NO  cryptocurrency exchange office | Generic desk scene, not a cryptocurrency exchange.
+shot 2 1 video hacker dark room hood
+  vision NO  An astonishing 90 percent of all stolen assets | Shows cassette tapes, not stolen assets.
+shot 1 1 video bank vault door closing
+shot 0 1 video cryptocurrency exchange office
+shot 5 0 video bank account positive balance
+shot 4 0 video percentage loading bar full
+  clip rejected: 6.0s, motion 1.0 5_s1.mp4
+shot 5 1 video atm cash machine dispensing
+shot 4 1 video money pile cash stack
+media files: 6
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/t3474065 sfx
+$ ffmpeg -y -v error -f concat -safe 0 -i jobs/t3474065/parts.txt -c copy jobs/t3474065/silent.mp4
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/t3474065/voicep.wav jobs/t3474065/timing.json jobs/t3474065/voice_tight.wav
+ok jobs/t3474065/voice_tight.wav
+$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/t3474065/music_long.wav
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/t3474065/silent.mp4 jobs/t3474065/voice_tight.wav jobs/t3474065/sfx.wav jobs/t3474065/music_long.wav 43.52 jobs/t3474065/short.mp4 0.13
+voice-over-bed dB while speaking: median 41.6, 5th pct 17.3, worst 6.7
+worst windows: [(39.6, np.float32(6.7)), (28.0, np.float32(10.1)), (34.6, np.float32(11.6)), (13.4, np.float32(12.6)), (27.8, np.float32(12.7))]
+mixed -> jobs/t3474065/short.mp4
+$ ffmpeg -y -v error -i jobs/t3474065/short.mp4 -c:v libx264 -crf 19 -maxrate 8016k -bufsize 16032k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3474065/short_s.mp4
+video check: []
+$ ffmpeg -y -v error -ss 1.81 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_00.png
+$ ffmpeg -y -v error -ss 5.44 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_01.png
+$ ffmpeg -y -v error -ss 9.07 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_02.png
+$ ffmpeg -y -v error -ss 12.69 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_03.png
+$ ffmpeg -y -v error -ss 16.32 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_04.png
+$ ffmpeg -y -v error -ss 19.95 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_05.png
+$ ffmpeg -y -v error -ss 23.57 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_06.png
+$ ffmpeg -y -v error -ss 27.20 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_07.png
+$ ffmpeg -y -v error -ss 30.83 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_08.png
+$ ffmpeg -y -v error -ss 34.45 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_09.png
+$ ffmpeg -y -v error -ss 38.08 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_10.png
+$ ffmpeg -y -v error -ss 41.71 -i jobs/t3474065/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3474065/sh_11.png
+$ ffmpeg -y -v error -i jobs/t3474065/sh_%02d.png -vf tile=6x2 -q:v 4 jobs/t3474065/sheet.jpg

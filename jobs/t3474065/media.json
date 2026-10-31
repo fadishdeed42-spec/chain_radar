@@ -1,0 +1,114 @@
+{
+ "3": {
+  "kind": "photo",
+  "file": "media/3.jpg",
+  "credit": "Photo of Richard Teng: Binance, CC BY 4.0, via Wikimedia Commons",
+  "real": true,
+  "q": "Richard Teng"
+ },
+ "2": {
+  "kind": "video",
+  "file": "media/2_s0.mp4",
+  "credit": "Video: Ceos_Stock / Pixabay \u00b7 Video: NewHumanDesigns / Pixabay",
+  "real": false,
+  "q": "blockchain network graph",
+  "shots": [
+   {
+    "file": "media/2_s0.mp4",
+    "kind": "video",
+    "words": "Blockchain firms quickly unmasked elite",
+    "q": "blockchain network graph"
+   },
+   {
+    "file": "media/2_s1.mp4",
+    "kind": "video",
+    "words": "North Korean hackers executing the sophisticated breach.",
+    "q": "hacker dark room hood"
+   }
+  ]
+ },
+ "1": {
+  "kind": "video",
+  "file": "media/1_s0.mp4",
+  "credit": "Video: geralt / Pixabay \u00b7 Video: tv84 / Pixabay",
+  "real": false,
+  "q": "fast computer code scrolling",
+  "shots": [
+   {
+    "file": "media/1_s0.mp4",
+    "kind": "video",
+    "words": "Automated scripts siphoned customer wallets instantly",
+    "q": "fast computer code scrolling"
+   },
+   {
+    "file": "media/1_s1.mp4",
+    "kind": "video",
+    "words": "while terrified executives froze all exchange withdrawals.",
+    "q": "bank vault door closing"
+   }
+  ]
+ },
+ "0": {
+  "kind": "video",
+  "file": "media/0_s0.mp4",
+  "credit": "Video: AiVreaSaStii / Pixabay \u00b7 Video: Darioguzben / Pixabay",
+  "real": false,
+  "q": "hacker typing on laptop",
+  "shots": [
+   {
+    "file": "media/0_s0.mp4",
+    "kind": "video",
+    "words": "Hackers drained a staggering $6.3 billion",
+    "q": "hacker typing on laptop"
+   },
+   {
+    "file": "media/0_s1.mp4",
+    "kind": "video",
+    "words": "from Binance in history's biggest crypto heist.",
+    "q": "cryptocurrency exchange office"
+   }
+  ]
+ },
+ "5": {
+  "kind": "video",
+  "file": "media/5_s0.mp4",
+  "credit": "Video: Hassas_Arts / Pixabay \u00b7 Video: QuinceCreative / Pixabay",
+  "real": false,
+  "q": "bank account positive balance",
+  "shots": [
+   {
+    "file": "media/5_s0.mp4",
+    "kind": "video",
+    "words": "User balances stayed completely whole",
+    "q": "bank account positive balance"
+   },
+   {
+    "file": "media/5_s1.mp4",
+    "kind": "video",
+    "words": "as Sunday withdrawals officially resumed right on schedule.",
+    "q": "atm cash machine dispensing"
+   }
+  ]
+ },
+ "4": {
+  "kind": "video",
+  "file": "media/4_s0.mp4",
+  "credit": "Video: rashed7671 / Pixabay \u00b7 Video: ucuzucuyorum / Pixabay",
+  "real": false,
+  "q": "percentage loading bar full",
+  "shots": [
+   {
+    "file": "media/4_s0.mp4",
+    "kind": "video",
+    "words": "An astonishing 90 percent of all stolen assets",
+    "q": "percentage loading bar full"
+   },
+   {
+    "file": "media/4_s1.mp4",
+    "kind": "video",
+    "words": "were fully replenished within forty-eight hours.",
+    "q": "money pile cash stack"
+   }
+  ]
+ }
+}
