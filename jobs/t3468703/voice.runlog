@@ -1,0 +1,70 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  6%|▌         | 66.9M/1.18G [00:00<00:01, 701MB/s] 12%|█▏        | 140M/1.18G [00:00<00:01, 736MB/s]  17%|█▋        | 210M/1.18G [00:00<00:01, 688MB/s] 23%|██▎       | 276M/1.18G [00:00<00:01, 606MB/s] 28%|██▊       | 335M/1.18G [00:00<00:01, 567MB/s] 32%|███▏      | 390M/1.18G [00:00<00:01, 550MB/s] 37%|███▋      | 449M/1.18G [00:00<00:01, 570MB/s] 42%|████▏     | 504M/1.18G [00:00<00:01, 548MB/s] 46%|████▌     | 556M/1.18G [00:01<00:01, 532MB/s] 50%|█████     | 608M/1.18G [00:01<00:01, 518MB/s] 55%|█████▍    | 657M/1.18G [00:01<00:01, 509MB/s] 59%|█████▊    | 706M/1.18G [00:01<00:01, 506MB/s] 63%|██████▎   | 754M/1.18G [00:01<00:00, 501MB/s] 67%|██████▋   | 802M/1.18G [00:01<00:00, 499MB/s] 71%|███████   | 856M/1.18G [00:01<00:00, 519MB/s] 75%|███████▌  | 906M/1.18G [00:01<00:00, 509MB/s] 80%|███████▉  | 957M/1.18G [00:01<00:00, 515MB/s] 84%|████████▎ | 0.98G/1.18G [00:01<00:00, 506MB/s] 88%|████████▊ | 1.03G/1.18G [00:02<00:00, 506MB/s] 92%|█████████▏| 1.08G/1.18G [00:02<00:00, 487MB/s] 96%|█████████▋| 1.13G/1.18G [00:02<00:00, 519MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 536MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json 71eb9b6464c7
+   take 1: score -1.22  wer 0.18  end +0.0st  2.9w/s  heard: Hackers stole $6.3 billion from Binance in under an hour.
+   take 2: score +0.21  wer 0.27  end -6.9st  2.8w/s  heard: Hacker stole $6.3 billion from Binance in under an hour.
+   take 3: score -1.65  wer 0.27  end +0.0st  3.1w/s  heard: Hacker stole $6.3 billion from Binance in under an hour.
+   take 4: score -1.10  wer 0.18  end +0.0st  3.1w/s  heard: hackers stole $6.3 billion from Binance in under an hour.
+   take 5: score +0.76  wer 0.18  end -3.5st  2.8w/s  heard: hackers stole $6.3 billion from Binance in under an hour.
+   take 6: score -1.84  wer 0.27  end +0.0st  2.8w/s  heard: Hacker stole $6.3 billion from Binance in under an hour.
+scene 1: 4.57s ex 0.75  chosen wer 0.18
+   take 1: score -0.91  wer 0.14  end +0.0st  3.0w/s  heard: Blockchain firms, TRN Labs and Chainalysis linked it to North Korea on
+   take 2: score +0.91  wer 0.14  end -2.8st  2.7w/s  heard: Blockchain firms, TRM Labs and Chainalysis, linked it to North Korea o
+   take 3: score +0.37  wer 0.21  end -3.9st  2.5w/s  heard: Blockchain firms, TRN Labs, and Chanelis, linked it to North Korea on 
+   take 4: score +0.53  wer 0.21  end -2.0st  2.8w/s  heard: Blockchain firms, TRM Labs, and Chanelisis, linked it to North Korea o
+   take 5: score +0.69  wer 0.21  end -6.8st  3.1w/s  heard: Blockchain firms TRM Labs and Channelisis, linked it to North Korea on
+   take 6: score +0.51  wer 0.21  end -3.4st  2.8w/s  heard: Blockchain firms, TRN Labs and Chanelis, linked it to North Korea on T
+scene 2: 5.52s ex 0.6  chosen wer 0.14
+   take 1: score +0.37  wer 0.17  end -10.3st  2.1w/s  heard: Attackers exploited in Engineer laptop and EIP-7702 to drain hot walle
+   take 2: score -1.19  wer 0.11  end +0.0st  2.2w/s  heard: Attackers exploited in Engineer Laptop and EIP-7722 to drain hot walle
+   take 3: score +1.30  wer 0.00  end -6.1st  1.9w/s  heard: Attackers exploited an engineer laptop and EIP-7702 to drain hot walle
+scene 3: 7.24s ex 0.65  chosen wer 0.00
+   take 1: score -1.37  wer 0.19  end +0.0st  2.7w/s  heard: Stablecoin providers froze $2.8 billion, but about $3 billion vanished
+   take 2: score -1.47  wer 0.19  end +0.0st  2.5w/s  heard: Stablecoin providers froze $2.8 billion, but about $3 billion vanished
+   take 3: score -1.25  wer 0.19  end +0.0st  2.9w/s  heard: Stablecoin providers froze $2.8 billion, but about $3 billion vanished
+   take 4: score -1.32  wer 0.19  end +0.0st  2.8w/s  heard: Stablecoin providers froze $2.8 billion, but about $3 billion vanished
+   take 5: score -1.28  wer 0.19  end +0.0st  2.8w/s  heard: Stablecoin providers froze $2.8 billion, but about $3 billion vanished
+   take 6: score -1.20  wer 0.19  end +0.0st  3.0w/s  heard: Stablecoin providers froze $2.8 billion, but about $3 billion vanished
+scene 4: 6.40s ex 0.8  chosen wer 0.19
+   take 1: score -0.54  wer 0.06  end +0.0st  2.8w/s  heard: Co-CEO Richard Tang vowed corporate funds will cover all customer loss
+   take 2: score -0.71  wer 0.06  end +0.0st  2.5w/s  heard: Co-CEO Richard Tang vowed corporate funds will cover all customer loss
+   take 3: score -0.82  wer 0.06  end +0.0st  2.4w/s  heard: Co-CEO Richard Tong vowed corporate funds will cover all customer loss
+   take 4: score -0.60  wer 0.06  end +0.0st  2.7w/s  heard: Co-CEO Richard Tang, vowed corporate funds will cover all customer los
+   take 5: score -0.58  wer 0.06  end +0.0st  2.8w/s  heard: Co-CEO Richard Tang vowed corporate funds will cover all customer loss
+   take 6: score -0.61  wer 0.06  end +0.0st  2.7w/s  heard: Co-CEO Richard Teng.  Bowed corporate funds will cover all customer lo
+scene 5: 5.32s ex 0.72  chosen wer 0.06
+   take 1: score -0.81  wer 0.09  end +0.0st  3.1w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 2: score -0.74  wer 0.09  end +0.0st  3.0w/s  heard: as withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 3: score -0.84  wer 0.09  end +0.0st  3.1w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 4: score -0.60  wer 0.09  end +0.0st  2.7w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 5: score -0.66  wer 0.09  end +0.0st  2.8w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 6: score -0.52  wer 0.09  end +0.0st  2.6w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 7: score -0.85  wer 0.09  end +0.0st  3.2w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+   take 8: score -0.63  wer 0.09  end +0.0st  2.8w/s  heard: As withdrawals paused, Bitcoin crashed below $80,000 for the first tim
+scene 6: 7.35s ex 0.55 END  chosen wer 0.09
+   take 1: score -0.33  wer 0.00  end +0.0st  2.5w/s  heard: Follow chain secrets.  Every chart hides a story.
+   take 2: score -0.43  wer 0.00  end +0.0st  2.4w/s  heard: Follow chain secrets.  Every chart hides a story.
+   take 3: score -0.35  wer 0.00  end +0.0st  2.5w/s  heard: Follow Chain Secrets.  Every chart hides a story.
+scene 7: 3.14s ex 0.7  chosen wer 0.00
+41.83s, force-aligned 103 words
+liampace -> jobs/t3468703/voicep.wav
+rate x1.00 gap 0.40 | Hackers stole six point three billion dollar from Binance in under an hour.
+rate x1.00 gap 0.40 | Blockchain firms T R M Labs and Chainalysis linked it to North Korea on Thursday.
+rate x1.00 gap 0.40 | Attackers exploited an engineer laptop and EIP-7702 to drain hot wallets during the cyberattack.
+rate x1.00 gap 0.40 | Stablecoin providers froze two point eight billion dollars, but about three billion dollar vanished forever in the crypto heist.
+rate x1.00 gap 0.40 | Co-CEO Richard Teng vowed corporate funds will cover all customer losses from the security breach.
+rate x1.00 gap 0.60 | As withdrawals paused, Bitcoin crashed below eighty thousand dollars for the first time in a month following the exploit.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+rate x1.00 gap 0.40 | Every chart hides a story.
+total 42.33s (was 41.83s)
+

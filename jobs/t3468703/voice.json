@@ -1,0 +1,62 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "Hackers stole six point three billion dollar from Binance in under an hour.",
+   0.75,
+   0.24
+  ],
+  [
+   "Blockchain firms T R M Labs and Chainalysis linked it to North Korea on Thursday.",
+   0.6,
+   0.24
+  ],
+  [
+   "Attackers exploited an engineer laptop and EIP-7702 to drain hot wallets during the cyberattack.",
+   0.65,
+   0.24
+  ],
+  [
+   "Stablecoin providers froze two point eight billion dollars, but about three billion dollar vanished forever in the crypto heist.",
+   0.8,
+   0.3
+  ],
+  [
+   "Co-CEO Richard Teng vowed corporate funds will cover all customer losses from the security breach.",
+   0.72,
+   0.3
+  ],
+  [
+   "As withdrawals paused, Bitcoin crashed below eighty thousand dollars for the first time in a month following the exploit.",
+   0.55,
+   0.55,
+   "end"
+  ],
+  [
+   "Follow Chain Secrets. Every chart hides a story.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Hackers stole six point three billion dollar from Binance in under an hour.",
+  "Blockchain firms T R M Labs and Chainalysis linked it to North Korea on Thursday.",
+  "Attackers exploited an engineer laptop and EIP-7702 to drain hot wallets during the cyberattack.",
+  "Stablecoin providers froze two point eight billion dollars, but about three billion dollar vanished forever in the crypto heist.",
+  "Co-CEO Richard Teng vowed corporate funds will cover all customer losses from the security breach.",
+  "As withdrawals paused, Bitcoin crashed below eighty thousand dollars for the first time in a month following the exploit.",
+  "Follow Chain Secrets. Every chart hides a story."
+ ]
+}
