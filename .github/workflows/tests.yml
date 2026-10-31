@@ -3,7 +3,7 @@ name: tests
 on:
   workflow_dispatch:
     inputs:
-      live: {description: 'live checks to run: none | length | replies | package | chart | all', default: none}
+      live: {description: 'live checks to run: none | length | script | replies | package | chart | all', default: none}
 permissions:
   contents: write   # only to publish sample images to the throwaway 'samples' branch
 jobs:

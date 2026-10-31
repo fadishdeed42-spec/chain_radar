@@ -120,10 +120,35 @@ def live_package():
     return 5 <= len(pk['posts']) <= 7 and not pk['flags']
 
 
+def live_script():
+    """facts -> storyboard -> fit -> polish, for a breaking story and an old one. Prints everything so a human can judge."""
+    r = radar(); ok = 0
+    for topic, L in [('Binance $6.3 billion hack North Korea', 45), ('QuadrigaCX CEO Gerald Cotten death', 45)]:
+        facts = r.short_facts(topic)
+        print(f'\n=== {topic} ({L}s) facts chars {len(facts)}')
+        print('facts head:', facts[:600].replace('\n', ' | '))
+        raw = r.make_storyboard(topic, facts, None, None, L, 'auto', {})
+        if not isinstance(raw, dict): print('no storyboard'); continue
+        raw['settings'] = {'length': L}
+        try:
+            sb, _ = r.draft_check(raw)
+        except ValueError as e:
+            print('invalid', e); continue
+        sb = r.fit_length(sb, facts)
+        before = r.filler_hits(sb)
+        sb, left = r.polish_script(sb, facts)
+        print(f'words {sb["words"]} est {story.mmss(sb["est_secs"])} length_ok {sb.get("length_ok")} | filler before {before} after {r.filler_hits(sb)}')
+        for i, x in enumerate(sb['scenes'], 1): print(f'{i}. {x["line"]}')
+        print('still flagged:', left or 'none')
+        ok += (not r.filler_hits(sb)) and len(left) <= 1
+    return ok == 2
+
+
 if __name__ == '__main__':
     what = sys.argv[1] if len(sys.argv) > 1 else 'all'
     results = {}
     if what in ('length', 'all'): results['length'] = live_length()
+    if what in ('script', 'all'): results['script'] = live_script()
     if what in ('replies', 'all'): results['replies'] = live_replies()
     if what in ('package', 'all'): results['package'] = live_package()
     if what in ('chart', 'all'): results['chart'] = live_chart()

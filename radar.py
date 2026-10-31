@@ -824,14 +824,17 @@ def _article(u):
     return ' '.join(paras)[:6000] if paras else ''
 
 
-def article_text(urls):
-    urls = [u for u in urls if u][:2]
+def article_text(urls, n=2, each=6000):
+    """text of up to n articles (fetched in parallel), joined; empty if none could be read"""
+    urls = [u for u in urls if u][:max(n, 2) + 2]
     if not urls:
         return ''
     from concurrent.futures import ThreadPoolExecutor
-    with ThreadPoolExecutor(2) as ex:
-        res = list(ex.map(_article, urls))
-    return next((x for x in res if x), '')
+    with ThreadPoolExecutor(4) as ex:
+        res = [x for x in ex.map(_article, urls) if x]
+    if n <= 1:
+        return res[0] if res else ''
+    return '\n\n'.join(x[:each] for x in res[:n])
 
 
 _MODELS = []
@@ -1924,11 +1927,123 @@ def gemini_json(prompt):
     return None
 
 
+def bing_news(q, n=10):
+    """Bing News RSS: direct article links (Google News links are redirects that can't be read) + a snippet per story"""
+    from urllib.parse import urlparse, parse_qs
+    r = get('https://www.bing.com/news/search', timeout=10, params={'q': q, 'format': 'rss', 'setlang': 'en-us'})
+    out = []
+    for e in (feedparser.parse(r.content).entries if r else [])[:n]:
+        link = e.get('link', '')
+        u = (parse_qs(urlparse(link).query).get('url') or [link])[0]
+        ts = e.get('published_parsed')
+        out.append({'title': html.unescape(e.get('title', '')), 'url': u, 'snip': html.unescape(re.sub(r'<[^>]+>', '', e.get('description', ''))).strip(),
+                    'src': urlparse(u).netloc.replace('www.', ''), 'ts': time.mktime(ts) - time.timezone if ts else 0})
+    return out
+
+
+def wiki_intro(q):
+    """plain-text intro of the best Wikipedia article for q (good for older, well-documented stories)"""
+    try:
+        r = get('https://en.wikipedia.org/w/api.php', timeout=10, params={'action': 'query', 'format': 'json', 'generator': 'search', 'gsrsearch': q, 'gsrlimit': 1,
+                                                                          'prop': 'extracts', 'exintro': 1, 'explaintext': 1})
+        pg = list(((r.json() if r else {}).get('query') or {}).get('pages', {}).values())
+        return (pg[0]['title'], pg[0].get('extract', '')[:2500]) if pg and pg[0].get('extract') else ('', '')
+    except Exception as e:
+        print('wiki intro', repr(e)[:80]); return '', ''
+
+
 def short_facts(topic):
-    heads = gnews(topic, 15, recent=False)
-    heads.sort(key=lambda h: h['ts'])
-    lines = [f'- {datetime.fromtimestamp(h["ts"], timezone.utc):%b %d, %Y}: {h["title"]} ({h["src"]})' for h in heads if h['ts']]
-    return 'Real headlines about this story (oldest first):\n' + '\n'.join(lines[:15]) if lines else ''
+    """Everything the script may use: dated headlines, news snippets, the text of a few real articles and the Wikipedia intro.
+    The script writer and the fact-checker both get exactly this text."""
+    heads = [h for h in gnews(topic, 12, recent=False) if h['ts']]
+    try:
+        bing = bing_news(topic, 10)
+    except Exception as e:
+        print('bing news', repr(e)[:80]); bing = []
+    allh = sorted(heads + [b for b in bing if b['ts']], key=lambda h: h['ts'])
+    parts = []
+    if allh:
+        parts.append('Real headlines about this story (oldest first):\n' + '\n'.join(
+            f'- {datetime.fromtimestamp(h["ts"], timezone.utc):%b %d, %Y}: {h["title"]} ({h["src"]})' for h in allh[-18:]))
+    snips = [f'- {b["src"]}: {b["snip"]}' for b in bing if len(b.get('snip', '')) > 60][:8]
+    if snips:
+        parts.append('News snippets:\n' + '\n'.join(snips))
+    try:
+        body = article_text([b['url'] for b in sorted(bing, key=lambda b: -b['ts']) if b['url']], n=3, each=2500)
+        if body:
+            parts.append('Article text (real reporting):\n' + body[:7500])
+    except Exception as e:
+        print('short article fail', repr(e)[:100])
+    wt, wx = wiki_intro(topic)
+    if wx:
+        parts.append(f'Wikipedia ({wt}):\n{wx}')
+    out = '\n\n'.join(parts)
+    print('short_facts', topic[:40], '| headlines', len(allh), '| snippets', len(snips), '| chars', len(out))
+    return out
+
+
+# lines that sound like a script but say nothing: found -> the line is rewritten with a real fact
+FILLER = [r'forever chang\w*', r'shock\w* the (?:entire|whole)', r'unprecedented', r'\bmassive\b', r'digital (?:economy|siege|asset security)', r'worldwide',
+          r'sophisticated', r'\badvanced\b', r'in the world of crypto', r'global financial markets', r'sent shockwaves', r'devastating', r'alarming',
+          r'panicked', r'staggering', r'completely', r'\bseverely?\b', r'how we view', r'questioning', r'rattled', r'millions of (?:global )?(?:retail )?investors',
+          r'the crypto (?:world|space|community)', r'nobody (?:saw|expected)', r'changed the game', r'like never before', r'once and for all']
+_FILLER_RE = re.compile('|'.join(FILLER), re.I)
+
+
+def filler_hits(sb):
+    return [(i + 1, m.group(0)) for i, x in enumerate(sb['scenes']) for m in [_FILLER_RE.search(x['line'])] if m]
+
+
+def script_review(sb, facts):
+    """Fact-checker: every line against ONLY the facts. Returns {scene_no: [problems]} (unsupported, wrong, or vague lines)."""
+    lst = '\n'.join(f'{i + 1}. {x["line"]}' for i, x in enumerate(sb['scenes']))
+    j = gemini_json('You are a strict fact-checker and script editor for a true-crime crypto Short. Check every line against ONLY the FACTS.\n'
+                    'Flag a line if it (a) states a number, date, name, place, cause or event the FACTS do not support, (b) gets a fact wrong '
+                    '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount), or (c) is filler with no concrete fact '
+                    '(only adjectives or mood). Jokes and the detective voice are fine if the facts in them are true.\n\n'
+                    f'FACTS:\n{facts[:12000]}\n\nLINES:\n{lst}\n\n'
+                    'Return JSON only: {"lines": [{"n": 1, "problems": ["short reason quoting the bad words"]}]} (empty list when a line is fine).')
+    out = {}
+    for x in (j or {}).get('lines') or []:
+        try:
+            pr = [str(p) for p in x.get('problems') or [] if str(p).strip()]
+            if pr: out[int(x['n'])] = pr
+        except Exception:
+            pass
+    return out
+
+
+def polish_script(sb, facts, rounds=2):
+    """filler + fact-check -> rewrite only the flagged lines -> check again. Returns (script, problems still left)."""
+    left = {}
+    for _ in range(rounds):
+        issues = {}
+        for n, w in filler_hits(sb):
+            issues.setdefault(n, []).append(f'filler words "{w}": replace with a concrete fact from the FACTS')
+        for n, pr in script_review(sb, facts).items():
+            if 1 <= n <= len(sb['scenes']): issues.setdefault(n, []).extend(pr)
+        left = issues
+        if not issues:
+            return sb, {}
+        sc = sb['scenes']
+        cur = '\n'.join(f'{i + 1}. [{x["role"]}] (keep the word "{x["hit"]}") {x["line"]}' + (f'\n   PROBLEMS: {"; ".join(issues[i + 1])}' if i + 1 in issues else '')
+                         for i, x in enumerate(sc))
+        raw = gemini_json('Fix this faceless YouTube Short narration. Rewrite ONLY the lines that have PROBLEMS; copy every other line exactly. '
+                          'Each fixed line keeps its role, about the same length, and its kept word, and carries at least one concrete fact (number, name, date, place or specific action) '
+                          'taken ONLY from the FACTS. No filler adjectives. Never invent anything. Digits for numbers ($6.3B, 2026, Oct 29).\n\n'
+                          f'SCRIPT:\n{cur}\n\nFACTS:\n{facts[:12000]}\n\n'
+                          'Return JSON only: {"lines": [{"n": 1, "line": "..."}, ...]} with all ' + str(len(sc)) + ' lines.')
+        try:
+            new = {int(x['n']): str(x['line']) for x in raw['lines']}
+            if sorted(new) != list(range(1, len(sc) + 1)): raise ValueError('lines missing')
+            cand = json.loads(json.dumps(sb))
+            for i, x in enumerate(cand['scenes']):
+                x['line'] = new[i + 1]
+            sb, _ = sstory.check(cand, strict=False)
+        except Exception as e:
+            print('polish', repr(e)[:100]); break
+    left = {n: v for n, v in left.items()}
+    return sb, left
 
 
 LEN_NAME = {30: '30s', 45: '45s', 60: '1 min', 90: '1.5 min', 120: '2 min'}
@@ -1979,7 +2094,9 @@ HOUSE RULES
 - Tone: {('use the tone "' + tone + '".') if tone else 'pick the best one: funny for absurd stories, serious for victims and big losses, mystery for unsolved or secret stories, hype for records.'}
   funny = a light joke every 5-8 seconds; serious = no jokes, respectful; mystery = tension and questions; hype = energy.
 - Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). Spell hard names in "respell".
-- FACTS: use the facts below and only well-documented facts you are certain of. Never invent numbers, quotes or dates. If unsure, leave it out.
+- FACTS: use ONLY the facts below (and, for old stories, well-documented facts you are certain of). Never invent numbers, quotes or dates. If unsure, leave it out.
+- EVERY line must carry at least one concrete fact from the FACTS (a number, name, date, place or specific action). A line with only adjectives is rejected.
+- NEVER PAD: if the FACTS cannot fill the length without filler, write fewer words. A shorter true script beats a padded one.
 - Chart: {chart_rule}
 - "alt_hooks": 3 other strong hook lines for scene 1 (different angles), same rules as the hook.
 - MOTION: the screen must never freeze. "hit" is the first punch of a scene; "beats" are extra on-screen moments ({beat_rule}),
@@ -2021,7 +2138,7 @@ def fit_length(sb, facts, passes=3):
         delta = round((tgt - best['words']) / ratio)
         cur = '\n'.join(f'{i + 1}. [{x["role"]}] ({len(x["line"].split())} words, keep the word "{x["hit"]}") {x["line"]}' for i, x in enumerate(sc))
         how = (f'ADD about {delta} words in total. Spread them over the scenes after the hook: more concrete detail (who, where, how much, what happened next) '
-               'taken ONLY from the FACTS or from what the lines already say. No filler, no repetition.') if delta > 0 else \
+               'taken ONLY from the FACTS and not already used in the script. If no unused facts are left, add fewer words: never pad, no filler adjectives, no repetition.') if delta > 0 else \
               (f'CUT about {-delta} words in total. Remove the weakest details, never the twist or the numbers.')
         prompt = ('You edit a faceless YouTube Short narration. It is measured by how long it takes to speak. '
                   f'Now: {best["words"]} spoken words = about {sstory.mmss(best["est_secs"])}. Needed: {sstory.window(best["length"], len(sstory.cta(best).split()))[0]} to '
@@ -2076,6 +2193,8 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
         except ValueError as e:
             err = str(e); print('storyboard invalid:', err); continue
         cand = fit_length(cand, facts)
+        cand, left = polish_script(cand, facts)
+        cand['review'] = {str(k): v[:2] for k, v in left.items()}
         print('draft', attempt, 'words', cand['words'], 'est', cand['est_secs'], 'ok', cand.get('length_ok'))
         if best is None or abs(cand['words'] - cand['target_words']) < abs(best['words'] - best['target_words']):
             best = cand
@@ -2127,6 +2246,11 @@ def show_script(jid, tgs):
          + (f' · real {ch["symbol"]} chart {ch["start"]} → {ch["end"]}' if ch else '') + '\n')
     for n, s in enumerate(sb['scenes'], 1):
         m += f'\n<b>{n}.</b> <i>{s["role"]}</i> · {E(s["line"])}\n     🎨 {E(vis_txt(s["visual"]))[:90]}'
+    rv = sb.get('review') or {}
+    if rv:
+        m += '\n\n⚠️ <b>Fact-check could not confirm:</b>\n' + '\n'.join(f'{n}. {E("; ".join(v))[:160]}' for n, v in sorted(rv.items(), key=lambda kv: int(kv[0])))
+    else:
+        m += '\n\n✅ Every line was checked against the sources.'
     m += ('\n\n<b>Checkpoint 1:</b> check the facts. To change a line, reply like <code>3: new line</code>.'
           '\nThen tap ✅ and I record the voice (' + {30: '~12 min', 45: '~15 min', 60: '~20 min', 90: '~28 min', 120: '~35 min'}[sb['length']] + ').')
     if d.get('note'):
