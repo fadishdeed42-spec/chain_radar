@@ -2041,7 +2041,8 @@ def script_review(sb, facts):
     lst = '\n'.join(f'{i + 1}. {x["line"]}' for i, x in enumerate(sb['scenes']))
     j = gemini_json(strong=True, prompt='You are a strict fact-checker and script editor for a true-crime crypto Short. Check every line against ONLY the FACTS.\n'
                     'Flag a line if it (a) states a number, date, name, place, cause or event the FACTS do not support, (b) gets a fact wrong '
-                    '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount; a headline publication date is NOT the event date), or (c) is filler with no concrete fact '
+                    '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount; a headline publication date is NOT the event date; '
+                    'a planned event told as already done, like "resumed" when the FACTS say "set to resume"; invented feelings or actions like "terrified executives"), or (c) is filler with no concrete fact '
                     '(ONLY adjectives or mood, no fact at all). Vivid storytelling, tension, jokes and the detective voice are GOOD: never flag a line for its wording when it also carries a true fact.\n\n'
                     f'FACTS:\n{facts[:12000]}\n\nLINES:\n{lst}\n\n'
                     'Return JSON only: {"lines": [{"n": 1, "problems": ["short reason quoting the bad words"]}]} (empty list when a line is fine).')
@@ -2075,7 +2076,7 @@ def story_pass(sb, facts):
     raw = gemini_json(strong=True, prompt='You are the narrator of a viral true-crime crypto YouTube Short. Rewrite each line so it sounds like a gripping story told out loud, not a news report: '
                       'put the viewer inside the moment, build tension toward the twist, short spoken sentences (6 to 14 words), contractions, at most one question to the viewer. '
                       'Each line keeps its feeling (in brackets), its kept word, about the same number of words, and EXACTLY the same facts, names and dates; numbers stay written in digits exactly as they are ($6.3B, 90%, 2026). Do not repeat the same number in several lines. '
-                      'Add nothing that is not in the line or the FACTS. Never write role tags. The last line must close the story and echo the first line.\n\n'
+                      'Add nothing that is not in the line or the FACTS: no invented feelings or reactions, and planned events stay planned ("set to resume", never "resumed"). Never write role tags. The last line must close the story and echo the first line.\n\n'
                       f'LINES:\n{cur}\n\nFACTS:\n{facts[:6000]}\n\nReturn JSON only: {{"lines": [{{"n": 1, "line": "..."}}, ...]}} with all {len(sc)} lines.')
     try:
         new = {int(x['n']): str(x['line']) for x in raw['lines']}
@@ -2183,6 +2184,7 @@ HOUSE RULES
 - Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). "respell" only for rare names a voice would misread (Quadriga C X, Ulbricht -> UHL-brikt); never for well-known words or brands (Binance, Coinbase, Tether, Bitcoin, Ethereum).
 - FACTS: use ONLY the facts below (and, for old stories, well-documented facts you are certain of). Never invent numbers, quotes or dates. If unsure, leave it out.
 - DATES: Dates in "Real headlines" are when the article was PUBLISHED, not when the event happened; give an event date only if the article text states it.
+- TENSE AND FEELINGS: never describe a planned or expected event as if it already happened ("set to resume Sunday" is NOT "resumed"); never invent what people felt or did ("terrified executives") unless the FACTS say it.
 - EVERY line must carry at least one concrete fact from the FACTS (a number, name, date, place or specific action). A line with only adjectives is rejected.
 - NEVER PAD: if the FACTS cannot fill the length without filler, write fewer words. A shorter true script beats a padded one.
 - Chart: {chart_rule}
