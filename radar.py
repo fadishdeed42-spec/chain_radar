@@ -631,6 +631,17 @@ def git_sync(force=False):
         time.sleep(2)
 
 
+_STOP = set('the a an of to in on for and with by at from is are was were be has have had its it this that as after over new says said will just hits hit price now than more less amid into out up down'.split())
+
+
+def same_story(a, b):
+    """two headlines about the same event (shared key words: names, numbers)"""
+    w = lambda t: {x[:6] for x in re.findall(r"[a-z0-9$%]+", html.unescape(t).replace(',', '').lower()) if x not in _STOP and len(x) > 2}
+    A, B = w(a), w(b)
+    common = A & B
+    return len(common) >= 2 and len(common) / min(len(A), len(B)) >= .4
+
+
 def send_cached_top():
     git_sync()
     st = load_state(); top = st.get('top') or []
@@ -639,13 +650,20 @@ def send_cached_top():
     mins = int((NOW_() - st.get('top_at', 0)) / 60)
     msg, btn = f'📰 <b>Top crypto stories</b> <i>(scanned {mins} min ago)</i>\nTap a number → full post with image.\n', []
     pr = st.get('probs', {})
-    for n, (k, sc, age, ns) in enumerate(top[:8], 1):
+    shown, n = [], 0
+    for k, sc, age_m, ns in top:
         it = st.get('menu', {}).get(k)
-        if not it:
+        if not it or n >= 8:
             continue
+        title = html.unescape(html.unescape(it['title'])).strip()
+        if not it.get('coin') and not CRYPTO_RX.search(title.lower()):        # not about crypto at all (a CEO tweet about Tesla...)
+            continue
+        if any(same_story(title, t) for t in shown):                         # the same story from another outlet: show it once
+            continue
+        shown.append(title); n += 1
         p = pr.get(k)
         tag = f'🔥 {p * 100:.0f}%' if p is not None and p >= 0.6 else f'{p * 100:.0f}%' if p is not None else ('🔥' if sc >= ALERT else '•')
-        msg += f'\n<b>{n}.</b> {tag} {E(it["title"])}  <i>({"✅" if ns >= 2 else "⚠️"} {ns} src)</i>'
+        msg += f'\n<b>{n}.</b> {tag} {E(title)}  <i>({"✅" if ns >= 2 else "⚠️"} {ns} src · {ago(NOW_() - age_m * 60 - (NOW_() - st.get("top_at", NOW_())))})</i>'
         btn.append((f'📝 {n}', 'p:' + k))
     btn.append(('🔄 Live refresh', 'r:'))
     tg(msg, None, btn)
@@ -1858,7 +1876,8 @@ PROVEN_HOOKS = [  # starting library until the brain has its own data (common, w
 def best_now(st):
     """The single best story to post right now from the scanner's current list: ranked by the viral chance (or score), skipping junk. Returns (key, item, sc, age_h, nsrc, pr) or None."""
     pr = st.get('probs', {}); best = None
-    for k, sc, age, ns in st.get('top') or []:
+    for k, sc, age_m, ns in st.get('top') or []:
+        age = age_m / 60                                                  # the scanner stores minutes
         it = st.get('menu', {}).get(k)
         if not it or age > 12:
             continue
@@ -2001,7 +2020,7 @@ def short_facts(topic):
 # lines that sound like a script but say nothing: found -> the line is rewritten with a real fact
 FILLER = [r'forever chang\w*', r'shock\w* the (?:entire|whole)', r'unprecedented', r'\bmassive\b', r'digital (?:economy|siege|asset security)', r'worldwide',
           r'sophisticated', r'\badvanced\b', r'in the world of crypto', r'global financial markets', r'sent shockwaves', r'devastating', r'alarming',
-          r'panicked', r'staggering', r'completely', r'\bseverely?\b', r'how we view', r'questioning', r'rattled', r'millions of (?:global )?(?:retail )?investors',
+          r'staggering', r'completely', r'\bseverely?\b', r'how we view', r'questioning', r'rattled', r'millions of (?:global )?(?:retail )?investors',
           r'the crypto (?:world|space|community)', r'nobody (?:saw|expected)', r'changed the game', r'like never before', r'once and for all']
 _FILLER_RE = re.compile('|'.join(FILLER), re.I)
 
@@ -2583,18 +2602,11 @@ PKG_LEN_BTNS = [(' 30s', 30), (' 45s', 45), (' 1 min', 60), (' 2 min', 120)]
 
 
 def story_facts(topic, known=''):
-    """Real headlines (oldest first) + article text. Returns (facts text, sources [(title, src, url)], dates [ts])."""
+    """Real headlines (oldest first) + text of real articles + Wikipedia. Returns (facts text, sources [(title, src, url)], dates [ts])."""
     heads = [h for h in gnews(topic, 15, recent=False) if h['ts']]
     heads.sort(key=lambda h: h['ts'])
-    facts = ((known + '\n') if known else '') + ('Real headlines about this story, oldest first (use only what they say):\n' + '\n'.join(
-        f'- {datetime.fromtimestamp(h["ts"], timezone.utc):%b %d, %Y}: {h["title"]} ({h["src"]})' for h in heads) if heads else '')
-    try:
-        body = article_text([h['url'] for h in heads[-3:] if h['url']]) if heads else ''
-        if body:
-            facts += '\nArticle text:\n' + body[:3500]
-    except Exception as e:
-        print('story article fail', repr(e)[:100])
-    return facts, [(h['title'], h['src'], h['url']) for h in heads[:8]], [h['ts'] for h in heads]
+    facts = ((known + '\n') if known else '') + short_facts(topic)
+    return facts, [(h['title'], h['src'], h['url']) for h in heads[-8:]], [h['ts'] for h in heads]
 
 
 def hist_chart(sym, ts, title):
@@ -2623,7 +2635,9 @@ def package_prompt(topic, facts, live=''):
             'Voice: an entertaining, funny crypto detective, dry and clever, never slang, no em dashes, no hashtags, no financial advice. '
             'Post 1 is the hook: an open loop in the first line, one real number, makes people want post 2. Posts 2 to 6 tell the story beat by beat with real numbers and dates. '
             'The LAST post is the lesson and ends with exactly: "Full story in 40s 👇". Each post under 270 characters. '
-            'EVERY number, date, name and claim must come from the FACTS below. If a fact is not there, leave it out. Do not guess.\n\n'
+            'EVERY number, date, name and claim must come from the FACTS below. If a fact is not there, leave it out. Do not guess. '
+            'Every post carries at least one concrete fact (a number, name, date or specific action). No filler adjectives (staggering, massive, unimaginable, unprecedented, global emergency) '
+            'and no superlatives like "largest in human history" unless the FACTS say exactly that. Never say a report "confirmed" something the FACTS only suggest.\n\n'
             f'TOPIC: {topic}\n\nFACTS:\n{facts[:7000]}\n\n' + (f'LIVE DATA:\n{live}\n\n' if live else '') +
             'Return JSON only: {"title": "short punchy title", "posts": ["..."], "symbol": "ticker of the ONE crypto coin whose price chart best backs the story, or NONE", '
             '"event_date": "YYYY-MM-DD of the moment the chart should highlight, taken from the FACTS, or NONE", "chart_title": "chart headline under 60 chars that states only what the candles show"}')
@@ -2658,8 +2672,11 @@ def build_package(topic, facts, sources, event_hint=None):
         strip = lambda p: p.replace('Full story in 40s 👇', '')
         bad = [(i + 1, replies.numbers_ok(strip(p), facts)[1]) for i, p in enumerate(posts) if not replies.numbers_ok(strip(p), facts)[0]]
         long_ = [i + 1 for i, p in enumerate(posts) if len(p) > 279]
+        fill = [(i + 1, _FILLER_RE.search(p).group(0)) for i, p in enumerate(posts) if _FILLER_RE.search(p)]
+        if fill:
+            bad = bad + [(i, [f'filler word "{w}" (replace it with a concrete fact)']) for i, w in fill]
         if bad or long_ or '#' in ''.join(posts):
-            note = ('Your last attempt was rejected: ' + '; '.join([f'post {i} has numbers not in the FACTS {m}' for i, m in bad]
+            note = ('Your last attempt was rejected: ' + '; '.join([f'post {i}: {m}' for i, m in bad]
                     + ([f'posts {long_} are too long'] if long_ else []) + (['no hashtags'] if '#' in ''.join(posts) else [])) + '. Fix exactly that.')
             best = best or (j, posts, bad, long_); continue
         best = (j, posts, [], []); break
@@ -2667,6 +2684,16 @@ def build_package(topic, facts, sources, event_hint=None):
         return None
     j, posts, bad, long_ = best
     verdict = gemini_json(package_judge(posts, facts))
+    raw_flags = {int(x['n']): [str(u) for u in x.get('unsupported') or []] for x in (verdict or {}).get('p') or [] if isinstance(x, dict) and x.get('unsupported') and str(x.get('n', '')).isdigit()}
+    if raw_flags:                                                         # one repair pass: rewrite only the flagged posts, then check again
+        lst = '\n'.join(f'{i + 1}. {p}' + (f'\n   NOT SUPPORTED: {"; ".join(raw_flags[i + 1])}' if i + 1 in raw_flags else '') for i, p in enumerate(posts))
+        fx = gemini_json('Fix this X thread. Rewrite ONLY the posts marked NOT SUPPORTED so every claim is backed by the FACTS (drop or soften the claim); copy the others exactly. '
+                         'Each post under 270 characters, no hashtags, keep "Full story in 40s 👇" on the last post.\n\nFACTS:\n' + facts[:7000] + '\n\nTHREAD:\n' + lst +
+                         '\n\nReturn JSON only: {"posts": ["..."]} with all ' + str(len(posts)) + ' posts.')
+        new_posts = [clean_voice(str(p)).strip() for p in (fx or {}).get('posts') or []]
+        if len(new_posts) == len(posts) and all(len(p) <= 279 for p in new_posts):
+            posts = new_posts
+            verdict = gemini_json(package_judge(posts, facts)) or verdict
     unsup = {}
     for x in (verdict or {}).get('p') or []:
         try:

@@ -159,6 +159,10 @@ def live_bot():
     r.send_menu = lambda *a, **k: None
     tgs = {'menu': {}, 'shorts': {}, 'replies': {}, 'packages': {}}
     me = str(r.CHAT)
+    log = []
+    _p = print
+    def print(*a, **k):
+        log.append(' '.join(str(x) for x in a)); _p(*a, **k)
     cases = ['/help', '/top', '/viral', '/story Binance hack North Korea', '/today', '$SOL', 'chart pepe',
              '/reply JUST IN: Binance says it has replaced 90% of the $6.3 billion stolen in the hack.']
     ok = True
@@ -177,6 +181,7 @@ def live_bot():
                 if b: print('   [buttons]', str(b)[:200])
             else:
                 print(f'   [{kind}] {txt}')
+    open('sample_out/bot_audit.txt', 'w').write('\n'.join(log))
     return ok
 
 
