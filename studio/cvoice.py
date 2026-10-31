@@ -61,27 +61,40 @@ def run(path):
     torch.manual_seed(cfg.get('seed', 7))
     m = ChatterboxTTS.from_pretrained(device='cpu'); sr = m.sr
     parts, words, owner = [np.zeros(int(.12 * sr), np.float32)], [], []
+    alts = cfg.get('alt') or []; checks = cfg.get('check') or []
+    quality = []
     for i, sc in enumerate(cfg['scenes']):
         t, ex, gap = sc[0], sc[1], sc[2]; end = len(sc) > 3 and sc[3] == 'end'
-        n = 6 if end else (3 if ex >= .85 or t.rstrip().endswith('.') and len(t.split()) <= 6 else 2)
+        alt = alts[i] if i < len(alts) else None
+        chk = checks[i] if i < len(checks) else t
+        variants = [t] + ([alt] if alt else [])                     # respelled text and the plain text: whichever the voice says right wins
+        n_max = 8 if end else 6
         target = 2.6 if end else 3.1; best = None
-        for k in range(n):
-            w = m.generate(t, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
+        for k in range(n_max):
+            tt = variants[k % len(variants)]
+            w = m.generate(tt, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
             w = trim(w.squeeze().numpy().astype(np.float32), sr, .45 if end else .12)
-            try: wer, heard = asr_wer(w, sr, t)
+            try:
+                wer, heard = asr_wer(w, sr, chk)
+                if tt != chk: wer = min(wer, asr_wer(w, sr, tt)[0])
             except Exception as e: wer, heard = 0.0, f'asr failed {e}'
-            try: sl = end_slope(w, sr, t)
+            try: sl = end_slope(w, sr, tt)
             except Exception: sl = 0.0
-            wps = len(t.split()) / (len(w) / sr)
-            want_up = t.rstrip().endswith('?')
+            wps = len(tt.split()) / (len(w) / sr)
+            want_up = tt.rstrip().endswith('?')
             ok_end = (sl > 0) if want_up else (sl < -1.0)
-            score = 2.0 * ok_end - 4.0 * wer - .6 * abs(wps - target) - (.08 * max(0, sl) if not want_up else 0)
-            log.append(f'   take {k+1}: score {score:+.2f}  wer {wer:.2f}  end {sl:+.1f}st  {wps:.1f}w/s  heard: {heard.strip()[:70]}')
-            if best is None or score > best[0]: best = (score, w)
-        w = best[1]
+            score = 2.0 * ok_end - 6.0 * wer - .6 * abs(wps - target) - (.08 * max(0, sl) if not want_up else 0)
+            log.append(f'   take {k+1}{" (plain)" if tt is alt else ""}: score {score:+.2f}  wer {wer:.2f}  end {sl:+.1f}st  {wps:.1f}w/s  heard: {heard.strip()[:70]}')
+            if best is None or score > best[0]: best = (score, w, wer, heard, tt)
+            good_words = wer <= .06
+            if good_words and (ok_end or k >= 2) and k >= (1 if end else 0):   # every word right (and a finished ending when possible): stop early
+                break
+        _, w, wer, heard, tt = best
         parts += [w, np.zeros(int(gap * sr), np.float32)]
-        for x in t.split(): words.append(x); owner.append(i)
-        log.append(f'scene {i+1}: {len(w)/sr:.2f}s ex {ex}{" END" if end else ""}')
+        for x in tt.split(): words.append(x); owner.append(i)
+        quality.append({'scene': i + 1, 'wer': round(wer, 3), 'heard': heard.strip()[:160], 'said': chk[:160]})
+        log.append(f'scene {i+1}: {len(w)/sr:.2f}s ex {ex}{" END" if end else ""}  chosen wer {wer:.2f}')
+    json.dump(quality, open(base + '_quality.json', 'w'), indent=1)
     audio = np.concatenate(parts); audio = audio / max(1e-6, np.abs(audio).max()) * .9
     wt = align_words(audio, sr, words); log.append(f'{len(audio)/sr:.2f}s, force-aligned {len(words)} words')
     cues = []

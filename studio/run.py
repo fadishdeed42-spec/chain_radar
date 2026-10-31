@@ -69,16 +69,21 @@ def voice(jid):
     import cvoice
     cvoice.run(f'{d}/voice.json')                                         # -> voice.wav, voice_words.srt, voicep.wav, voicep_words.srt, voice.log
     log = open(f'{d}/voice.log').read()
-    wers = [float(x) for x in re.findall(r'wer (\d\.\d+)', log)]
     secs = float(re.findall(r'total ([\d.]+)s', log)[-1]) if re.findall(r'total ([\d.]+)s', log) else 0
-    q = 'clean' if wers and min(wers) < .08 else 'check it'
+    try:
+        qual = json.load(open(f'{d}/voice_quality.json'))
+    except Exception:
+        qual = []
+    bad = [x for x in qual if x['wer'] > .1]
+    q = 'clean, every line heard correctly' if qual and not bad else ('⚠️ check lines ' + ', '.join(str(x['scene']) for x in bad) if bad else 'not checked')
+    misheard = ''.join(f'\n• line {x["scene"]}: heard "{E(x["heard"][:90])}"' for x in bad[:4])
     rate_ = story.measured_rate(d)
     words_ = sum(len(sp) for pl in json.load(open(f'{d}/plan.json')) for _, sp in pl)
     real = (words_ / rate_ if rate_ else secs) + story.END_PAD                  # same model the estimate uses, now with the real voice
     L_ = sb.get('length', 45); off = (real / L_ - 1) * 100
     lens = (f'\n⏱ <b>Real length: {story.mmss(real)}</b> (you picked {story.mmss(L_)}, {off:+.0f}%)'
             + ('' if story.WIN_LO - 1 <= off / 100 <= story.WIN_HI - 1 else '\n⚠️ Outside the length you asked for. Tap ✏️ Edit script to fix it, or continue.'))
-    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · #{sb.get("ep", "")} {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}{lens}'
+    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · #{sb.get("ep", "")} {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}{misheard}{lens}'
                                 + ('' if sb.get('chart') else ' · no chart for this story') + '\n\n'
                                 '<b>Checkpoint 2:</b> listen, then make the video.',
                      'title': sb.get('title', 'Chain Secrets'), 'performer': 'Chain Secrets',
@@ -144,6 +149,27 @@ def media_credits(d):
         return ''
 
 
+def video_qa(path, T):
+    """Finished video check: picture as long as the sound, and no frozen stretches outside the end card.
+    Returns a list of problems (empty = clean)."""
+    probs = []
+    def probe(sel):
+        x = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', sel, '-show_entries', 'stream=duration', '-of', 'csv=p=0', path], capture_output=True, text=True).stdout
+        try: return float(x.strip().split()[0])
+        except Exception: return 0.0
+    vd, ad = probe('v:0'), probe('a:0')
+    if vd and ad and vd < ad - .4:
+        probs.append(f'picture ends {ad - vd:.1f}s before the sound')
+    log = subprocess.run(['ffmpeg', '-v', 'info', '-i', path, '-vf', 'freezedetect=n=0.003:d=1.3', '-map', '0:v', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    starts = [float(x) for x in re.findall(r'freeze_start: ([\d.]+)', log)]
+    durs = [float(x) for x in re.findall(r'freeze_duration: ([\d.]+)', log)]
+    end_card = (T.get('cta') or T['dur']) - .5
+    for a, b in zip(starts, durs + [T['dur']] * (len(starts) - len(durs))):
+        if a < end_card:
+            probs.append(f'frozen {b:.1f}s at {int(a // 60)}:{a % 60:04.1f}')
+    return probs
+
+
 def render(jid):
     d = f'jobs/{jid}'
     sb = json.load(open(f'{d}/storyboard.json'))
@@ -179,11 +205,13 @@ def render(jid):
     mv = {'serious': .08, 'mystery': .1, 'funny': .11, 'hype': .13}[sb['tone']] * {'off': 0, 'low': .55, 'normal': 1.0, 'high': 1.4}.get(story.settings(sb)['music'], 1.0)
     out = f'{d}/short.mp4'
     sh([sys.executable, f'{HERE}/mix2.py', f'{d}/silent.mp4', f'{d}/voice_tight.wav', f'{d}/sfx.wav', f'{d}/music_long.wav', str(T['dur']), out, str(mv)])
-    if os.path.getsize(out) > 47e6:                                      # Telegram bots can send up to 50 MB: fit by bitrate
-        kbps = int(45e6 * 8 / T['dur'] / 1000) - 256
-        sh(['ffmpeg', '-y', '-v', 'error', '-i', out, '-c:v', 'libx264', '-b:v', f'{kbps}k', '-maxrate', f'{int(kbps * 1.3)}k', '-bufsize', f'{kbps * 2}k',
-            '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', f'{d}/short_s.mp4'])
-        out = f'{d}/short_s.mp4'
+    # always one clean final encode (fixes timestamps where the render parts were joined; keeps it under Telegram's 50 MB)
+    kbps = max(2500, min(9000, int(45e6 * 8 / T['dur'] / 1000) - 256))
+    sh(['ffmpeg', '-y', '-v', 'error', '-i', out, '-c:v', 'libx264', '-crf', '19', '-maxrate', f'{kbps}k', '-bufsize', f'{kbps * 2}k', '-g', '60',
+        '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', f'{d}/short_s.mp4'])
+    out = f'{d}/short_s.mp4'
+    qa = video_qa(out, T)
+    print('video check:', qa)
     try:                                                                  # contact sheet of the final video (for review)
         n_ = 12
         for k in range(n_):
@@ -193,7 +221,7 @@ def render(jid):
     except Exception as e:
         print('sheet skipped', e)
     hook_t = T['beats'].get('s0', 1.0)
-    tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '
+    tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n' + ('✅ Video check: no frozen picture, picture and sound line up.' if not qa else '⚠️ Video check: ' + E('; '.join(qa[:4]))) + f'\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '
                                 f'Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920, 'duration': int(T['dur']),
                      'reply_markup': kb([[('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
        files={'video': open(out, 'rb')})
@@ -202,7 +230,7 @@ def render(jid):
            f'<b>Pinned comment</b>\n<code>{E(sb.get("pinned", ""))}</code>\n\n<b>Cover frame</b>: {hook_t + .6:.1f}s (the big hook title)\n'
            f'<b>Post time</b>: 19:00–20:00 Beirut')
     tg('sendMessage', {'text': kit[:4000]})
-    status(jid, 'done', dur=round(T['dur']), size_mb=round(os.path.getsize(out) / 1e6, 1))
+    status(jid, 'done', dur=round(T['dur']), size_mb=round(os.path.getsize(out) / 1e6, 1), video_check=qa)
 
 
 if __name__ == '__main__':

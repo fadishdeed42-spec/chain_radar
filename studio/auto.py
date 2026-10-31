@@ -105,11 +105,39 @@ _shot_times()
 CUT = 2.4                                                              # seconds per clip: a scene cuts between its clips
 
 
+def _open_video(path):
+    """VideoCapture + the REAL frame count (some files report 0 or a wrong length -> the picture would freeze)"""
+    cap = cv2.VideoCapture(path)
+    fps = cap.get(cv2.CAP_PROP_FPS) or 30
+    n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+    if not 10 <= n <= 20000:
+        n = 0
+        while cap.grab(): n += 1
+        cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
+    return {'cap': cap, 'fps': fps if 1 < fps < 121 else 30, 'n': max(3, n), 'pos': -1, 'img': None}
+
+
+def _video_img(c, tl, gain_to):
+    """frame at local time tl (looping); a failed read means the length was wrong: learn it and loop from the start"""
+    idx = int(tl * c['fps']) % max(1, c['n'] - 2)
+    if idx != c['pos']:
+        if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
+        ok, fr = c['cap'].read()
+        if not ok:
+            c['n'] = max(3, idx - 1)
+            c['cap'].set(cv2.CAP_PROP_POS_FRAMES, 0); ok, fr = c['cap'].read(); idx = 0
+        if ok:
+            im = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
+            if 'gain' not in c: c['gain'] = min(1.0, gain_to / max(1.0, float(im.mean())))
+            c['img'] = im * c['gain']
+        c['pos'] = idx
+    return c['img']
+
+
 def _clip(i, k, f):
     key = ('src', i) if k == 0 else ('src', i, k)
     if key not in _cache:
-        cap = cv2.VideoCapture(os.path.join(JOB, f))
-        _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
+        _cache[key] = _open_video(os.path.join(JOB, f))
     return _cache[key]
 
 
@@ -119,8 +147,7 @@ def _shot_frame(i, t):
     o = L[k]; key = ('shot', i, k)
     if key not in _cache:
         if o['kind'] == 'video':
-            cap = cv2.VideoCapture(os.path.join(JOB, o['file']))
-            _cache[key] = {'cap': cap, 'fps': cap.get(cv2.CAP_PROP_FPS) or 30, 'n': max(1, int(cap.get(cv2.CAP_PROP_FRAME_COUNT))), 'pos': -1, 'img': None}
+            _cache[key] = _open_video(os.path.join(JOB, o['file']))
         else:
             im = cv2.imread(os.path.join(JOB, o['file']), cv2.IMREAD_COLOR)
             im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None
@@ -131,16 +158,7 @@ def _shot_frame(i, t):
     c = _cache[key]
     tl = max(0.0, t - o['t0'])
     if o['kind'] == 'video':
-        idx = int(tl * c['fps']) % max(1, c['n'] - 2)
-        if idx != c['pos']:
-            if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
-            ok, fr = c['cap'].read()
-            if ok:
-                im = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
-                if 'gain' not in c: c['gain'] = min(1.0, 125.0 / max(1.0, float(im.mean())))
-                c['img'] = im * c['gain']
-            c['pos'] = idx
-        return c['img']
+        return _video_img(c, tl, 125.0)
     im = c['img']
     if im is None: return None
     p = smooth(seg(t, o['t0'], o['t1'])); z = 1 / 1.15 * (1 + .12 * p); d = 1 if k % 2 else -1
@@ -163,16 +181,7 @@ def media_frame(i, t):
         c = _clip(i, k, files[k])
         tl = tl - (tl // CUT) * CUT if len(files) > 1 else tl           # each clip restarts at its own start
         tl += (int(max(0.0, t - P(i)) // (CUT * len(files)))) * CUT      # ...and continues on its next visit
-        idx = int(tl * c['fps']) % max(1, c['n'] - 2)
-        if idx != c['pos']:
-            if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
-            ok, fr = c['cap'].read()
-            if ok:
-                im = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
-                if 'gain' not in c: c['gain'] = min(1.0, 85.0 / max(1.0, float(im.mean())))   # bright clips are toned down
-                c['img'] = im * c['gain']
-            c['pos'] = idx
-        return c['img']
+        return _video_img(c, tl, 85.0)
     c = _cache[key]
     if c['img'] is None: return None
     if ('cov', i) not in _cache: _cache[('cov', i)] = cover(c['img'], int(RW * 1.15), int(RH * 1.15))

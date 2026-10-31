@@ -62,6 +62,27 @@ def pixabay_videos(q, used, n=4):
     return [m for _, m in sorted(c, key=lambda x: -x[0])[:n]]
 
 
+def _clip_ok(path, min_s=2.5):
+    """a usable clip: decodes, lasts min_s seconds, and actually moves (not a still picture saved as video)"""
+    import cv2
+    cap = cv2.VideoCapture(path); fps = cap.get(cv2.CAP_PROP_FPS) or 30
+    if not 1 < fps < 121: fps = 30
+    n, prev, diffs = 0, None, []
+    while n < int(fps * 6):
+        ok, fr = cap.read()
+        if not ok: break
+        if n % int(fps // 2 or 1) == 0:
+            g = cv2.resize(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY), (96, 160)).astype('float32')
+            if prev is not None: diffs.append(float(abs(g - prev).mean()))
+            prev = g
+        n += 1
+    cap.release()
+    moving = sorted(diffs)[len(diffs) // 2] if diffs else 0.0
+    ok = n >= fps * min_s and moving >= 1.2
+    if not ok: print(f'  clip rejected: {n / fps:.1f}s, motion {moving:.1f}', os.path.basename(path))
+    return ok
+
+
 def _vision_ok(path, kind, words, q):
     """Does the picture literally show what the narration says? Gemini looks at one frame. Fails open (True) if it can't judge."""
     keys = [k for k in (os.environ.get('GEMINI_API_KEY', ''), os.environ.get('GEMINI_API_KEY_2', '')) if k]
@@ -166,6 +187,7 @@ def fetch_shots(job, sb, got, used):
                         try: get(m['url'], os.path.join(job, f))
                         except Exception: continue
                         used.add(m['id'])
+                        if not _clip_ok(os.path.join(job, f)): continue
                         if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq): done = (m, f); break
                     if done: break
                 if not done:                                                   # no video matched: a real photo instead
@@ -204,6 +226,10 @@ def fetch(job):
                 if not m.get('small'): raise
                 get(m['small'], os.path.join(job, f))
             used.add(m['id'])
+            if m['kind'] == 'video' and not _clip_ok(os.path.join(job, f)):        # broken or motionless clip: a photo instead
+                m = pixabay_photo(q, used) if kind == 'stock' else None
+                if not m: continue
+                f = f'media/{i}.jpg'; get(m['url'], os.path.join(job, f)); used.add(m['id'])
             got[str(i)] = {'kind': m['kind'], 'file': f, 'credit': m['credit'], 'real': bool(m.get('real')), 'q': q}
             if m['kind'] == 'video' and kind == 'stock':                  # fast cuts: a few more moving clips for the same scene
                 more = []
@@ -213,7 +239,9 @@ def fetch(job):
                         if not x: break
                         ff = f'media/{i}_{k}.mp4'
                         get(x.get('small') or x['url'], os.path.join(job, ff))
-                        used.add(x['id']); more.append(ff)
+                        used.add(x['id'])
+                        if not _clip_ok(os.path.join(job, ff)): continue
+                        more.append(ff)
                         if x['credit'] not in got[str(i)]['credit']: got[str(i)]['credit'] += ' · ' + x['credit']
                     except Exception as e:
                         print('extra clip fail', i, k, repr(e)[:80]); break

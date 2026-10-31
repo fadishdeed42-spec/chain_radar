@@ -12,6 +12,7 @@ TENS = 'zero ten twenty thirty forty fifty sixty seventy eighty ninety'.split()
 ORD = {'one': 'first', 'two': 'second', 'three': 'third', 'five': 'fifth', 'eight': 'eighth', 'nine': 'ninth', 'twelve': 'twelfth'}
 MONTHS = {'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April', 'may': 'May', 'jun': 'June', 'jul': 'July',
           'aug': 'August', 'sep': 'September', 'sept': 'September', 'oct': 'October', 'nov': 'November', 'dec': 'December'}
+FULL_MONTHS = {v.lower() for v in MONTHS.values()}
 SPELL = {'BTC': 'bitcoin', 'ETH': 'ether', 'FBI': 'F B I', 'SEC': 'S E C', 'CEO': 'C E O', 'NFT': 'N F T', 'NFTS': 'N F Ts',
          'DAO': 'dow', 'USD': 'dollars', 'DOJ': 'D O J', 'IRS': 'I R S', 'ETF': 'E T F', 'ETFS': 'E T Fs', 'ATM': 'A T M',
          'DEFI': 'Dee-fye', 'IPO': 'I P O', 'USDT': 'tether', 'USDC': 'U S D C', 'CFTC': 'C F T C', 'XRP': 'X R P', 'FTX': 'F T X',
@@ -160,7 +161,7 @@ def plan_line(line, respell=None, after_month=False):
         nxt = toks[i + 1] if i + 1 < len(toks) else ''
         prev = re.sub(r'[^a-z]', '', toks[i - 1].lower()) if i else ''
         core = re.sub(r'[^\d]', '', tok)
-        if prev in MONTHS and core and 1 <= int(core) <= 31 and re.match(r'^\d{1,2}[.,!?:;]*$', tok):
+        if (prev in MONTHS or prev in FULL_MONTHS) and core and 1 <= int(core) <= 31 and re.match(r'^\d{1,2}[.,!?:;]*$', tok):
             sp = ordinal(int(core)) + re.sub(r'^\d+', '', tok)
         else:
             sp = spoken(tok, nxt, respell)
@@ -354,10 +355,13 @@ def voice_job(sb):
     st = settings(sb)
     de = {'calm': -.1, 'normal': 0, 'punchy': .07}.get(st['energy'], 0)
     gk = {'short': .7, 'normal': 1.0, 'dramatic': 1.45}.get(st['pauses'], 1.0)
-    scenes, plan = [], []
+    scenes, plan, alts, checks = [], [], [], []
     for i, s in enumerate(sb['scenes']):
         pl = plan_line(s['line'], sb['respell'])
         text = ' '.join(w for _, sp in pl for w in sp)
+        plain = ' '.join(w for _, sp in plan_line(s['line'], {}) for w in sp)   # the same line without respellings (the voice often says real names best)
+        alts.append(plain if plain != text and len(plain.split()) == len(text.split()) else None)
+        checks.append(plain)
         end = i == len(sb['scenes']) - 1
         e = (ex['end'] if end else ex[s['role']]) + de
         g = .55 if end else (.3 if s['role'] in ('twist', 'payoff') else .24)
@@ -365,8 +369,8 @@ def voice_job(sb):
         plan.append(pl)
     if cta(sb):
         scenes.append([cta(sb), .7, .3])
-        plan.append(plan_line(cta(sb)))
-    return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .2, 'seed': 7, 'scenes': scenes}, plan
+        plan.append(plan_line(cta(sb))); alts.append(None); checks.append(cta(sb))
+    return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .2, 'seed': 7, 'scenes': scenes, 'alt': alts, 'check': checks}, plan
 
 
 # ---------------------------------------------------------------- timing (same output format as the hand-made bt*.py files)

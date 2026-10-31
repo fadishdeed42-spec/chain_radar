@@ -2093,7 +2093,7 @@ HOUSE RULES
 - Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically).
 - Tone: {('use the tone "' + tone + '".') if tone else 'pick the best one: funny for absurd stories, serious for victims and big losses, mystery for unsolved or secret stories, hype for records.'}
   funny = a light joke every 5-8 seconds; serious = no jokes, respectful; mystery = tension and questions; hype = energy.
-- Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). Spell hard names in "respell".
+- Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). "respell" only for rare names a voice would misread (Quadriga C X, Ulbricht -> UHL-brikt); never for well-known words or brands (Binance, Coinbase, Tether, Bitcoin, Ethereum).
 - FACTS: use ONLY the facts below (and, for old stories, well-documented facts you are certain of). Never invent numbers, quotes or dates. If unsure, leave it out.
 - EVERY line must carry at least one concrete fact from the FACTS (a number, name, date, place or specific action). A line with only adjectives is rejected.
 - NEVER PAD: if the FACTS cannot fill the length without filler, write fewer words. A shorter true script beats a padded one.
