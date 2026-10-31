@@ -11,16 +11,8 @@
      "key": "length",
      "label": "Length",
      "type": "choice",
-     "default": 45,
+     "default": 60,
      "options": [
-      [
-       30,
-       "30s"
-      ],
-      [
-       45,
-       "45s"
-      ],
       [
        60,
        "1 min"

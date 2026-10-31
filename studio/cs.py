@@ -20,7 +20,9 @@ def load(path):
     T_ = json.load(open(path))
     WORDS = T_.get('words', [])             # [scene, word, time, display token] for every spoken word (Studio)
     CH, DUR, B, PARA, CAPS = T_['chunks'], T_['dur'], T_['beats'], T_['para'], T_['caps']
-    CTA = T_.get('cta'); CTA2 = T_.get('cta2')   # end card start (set in the timing file); drawn by cta_layer over the last scene
+    CTA = T_.get('cta'); CTA2 = T_.get('cta2')
+    global LESSON_T
+    LESSON_T = T_.get('lesson_t')   # end card start (set in the timing file); drawn by cta_layer over the last scene
 def P(i): return PARA[i][0]
 COIN = (247, 147, 26); COIN_L = (255, 190, 80); TERM = (60, 230, 120)
 
@@ -68,14 +70,19 @@ def counter(cv, s, y, size, col, alpha=1.0, glow=True, x=W / 2):
     cv.text(x, y, s, 'black', size, col, alpha, anchor='cm', tnum=True, shadow=10)
 
 def caption_layer(cv, t):
+    if LESSON and LESSON_T is not None and CTA is not None and LESSON_T - .1 <= t < CTA + .3: return     # the lesson card shows the words itself
     for k, (ci, text, hl) in enumerate(CAPS):
         a0, a1 = CH[ci]
         nxt = CH[CAPS[k + 1][0]][0] - .05 if k + 1 < len(CAPS) else 1e9
         if a0 - .05 <= t < min(a1 + .3, nxt):
             n = len(text.split(' '))
             al = (1 - seg(t, a1 + .12, a1 + .3)) * (1 - seg(t, nxt - .07, nxt))
+            ws = [w for w in WORDS if a0 - .06 <= w[2] <= a1 + .02]          # the spoken word right now (real voice timing)
+            act = None
+            if KARAOKE and ws and len(ws) == n:
+                act = max([j for j, w in enumerate(ws) if w[2] <= t + .02] or [None]) if any(w[2] <= t + .02 for w in ws) else None
             pop_words(cv, t, a0 - .05, text, 1690 - (CAP_SIZE - 58) * .6, CAP_SIZE, kind='black', hl={k: tuple(v) for k, v in hl.items()},
-                      per=max(.035, (a1 - a0) * .8 / max(1, n)), alpha=al, max_w=1000)
+                      per=max(.035, (a1 - a0) * .8 / max(1, n)), alpha=al, max_w=1000, active=act)
 
 def badge(cv, t, t0, text, y=290, col=GOLD, alpha=1.0, fg=BG):
     p = back(seg(t, t0, t0 + .4))
@@ -136,8 +143,31 @@ def gavel(cv, x, y, s, ang, a=1.0):
     cv.poly([R(175, -70), R(245, -70), R(245, -56), R(175, -56)], GOLD, a)
     cv.poly([R(175, 56), R(245, 56), R(245, 70), R(175, 70)], GOLD, a)
 
+def lesson_layer(cv, t):
+    """'Chain Secrets lesson' card: from the lesson's first word until the end card (the channel's trademark ending)"""
+    if not LESSON or LESSON_T is None or CTA is None or not (LESSON_T - .1 <= t < CTA + .3): return
+    q = back(seg(t, LESSON_T - .1, LESSON_T + .35)); o = seg(t, CTA - .05, CTA + .3)
+    al = clamp(q) * (1 - o)
+    cv.fill(BG, .94 * al)
+    cv.rect(W / 2 - 330 * q, 560 - 46 * q, W / 2 + 330 * q, 560 + 46 * q, GOLD, al, r=46 * q)
+    cv.text(W / 2, 560, '🕵 CHAIN SECRETS LESSON'.replace('🕵 ', ''), 'black', 38, BG, al, anchor='cm', scale=max(.01, q), track=6)
+    for k, ln in enumerate(wrap_lines(LESSON.upper(), 18)[:4]):
+        p = back(seg(t, LESSON_T + .1 + k * .12, LESSON_T + .45 + k * .12))
+        cv.text(W / 2, 760 + k * 104, ln, 'black', 84, WHITE, al * clamp(p), anchor='cm', scale=max(.01, lerp(.7, 1, p)), shadow=8)
+
+
+def wrap_lines(text, n):
+    out, cur = [], ''
+    for w in text.split():
+        if cur and len(cur) + 1 + len(w) > n: out.append(cur); cur = w
+        else: cur = (cur + ' ' + w).strip()
+    if cur: out.append(cur)
+    return out
+
+
 def cta_layer(cv, t):
     """The channel end card (as in v12/v13): scene dims out, logo pops, red FOLLOW pill, tagline, fade to BG for the loop."""
+    lesson_layer(cv, t)
     if CTA is None or t < CTA - .02: return
     cv.fill(BG, out3(seg(t, CTA, CTA + .3)))
     pl = back(seg(t, CTA + .1, CTA + .6), 1.8)
@@ -155,6 +185,8 @@ def cta_layer(cv, t):
 _GRAIN = [np.random.default_rng(s).normal(0, 1, (RH // 2, RW // 2)).astype(np.float32) for s in range(4)]
 SCENES, IMPACTS, NAME = [], [], 'v'
 CAP_SIZE = 58                   # caption size (Studio: 58 normal, 72 large)
+KARAOKE = True                  # the spoken word lights up
+LESSON, LESSON_T = '', None     # the closing 'Chain Secrets lesson' card (text, start time)
 TAGLINE = 'every chart hides a story'   # set to '' for stories without a chart
 SHAKE, WHIP = 1.0, 1.0          # tone knobs for the automatic Shorts (serious = calmer camera)
 BACKDROP = None                 # Studio: fn(cv, t, i) draws real footage/photos behind scene i

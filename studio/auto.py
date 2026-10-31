@@ -26,6 +26,7 @@ PACK = {  # tone style packs
 ACC, ALT, BAD = PACK['acc'], PACK['alt'], PACK['bad']
 cs.SHAKE, cs.WHIP = PACK['shake'], PACK['whip']
 cs.TAGLINE = 'every chart hides a story' if SB.get('chart') else ''
+cs.LESSON = str(SB.get('lesson') or '') if cs.LESSON_T is not None else ''
 # ---------------------------------------------------------------- Studio settings
 import story as _story
 ST = _story.settings(SB)
@@ -39,7 +40,7 @@ LOOK = ST.get('look', 'none')
 import looklib
 PACE = {'calm': 2.6, 'normal': 1.8, 'fast': 1.25}.get(ST.get('pace', 'normal'), 1.8)   # max seconds without a new on-screen moment
 MOVE = {'calm': .6, 'auto': 1.0, 'strong': 1.35}.get(ST['motion'], 1.0)
-EP = SB.get('ep', '')
+EP = ''                                                                # owner: no episode number on screen, videos can go out in any order
 SCN = SB['scenes']
 
 # ---------------------------------------------------------------- real chart data (optional)
@@ -589,6 +590,7 @@ STICK_Y = 1410
 
 def overlay(cv, t, i):
     """beat stickers: short facts that pop in on their word, alternate sides, leave when the next one comes"""
+    receipt_card(cv, t, i)
     bs = BEATS[i]; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
     shown = [b for b in bs if b['text']]
     for n, b in enumerate(shown):
@@ -625,8 +627,88 @@ def overlay(cv, t, i):
             if .5 < t < 1.1: cv.glow(sx, 232, 50, WHITE, .35 * g2)
 
 
+def sc_slam(cv, t, i, v, a):
+    """the hook: the shock fills the screen in the first frames (no build-up), hard flash + shake on frame 3"""
+    t0 = P(i) - .02                                                        # visible on the very first frame
+    txt = str(v.get('text', '')).upper() or 'WAIT.'
+    lines = wrap(txt, 9)[:2]
+    q = seg(t, t0, t0 + .22)
+    s_ = lerp(2.4, 1.0, out3(q))                                           # crashes in from huge
+    cv.fill(BG, .38 * a)
+    for k, ln in enumerate(lines):
+        size = fit(ln, 'black', 200, 1000)
+        y = 880 + (k - (len(lines) - 1) / 2) * size * 1.02
+        cv.text(W / 2, y, ln, 'black', size, ACC if k == len(lines) - 1 else WHITE, a * clamp(q * 3), anchor='cm', scale=s_, shadow=10)
+    bar = out3(seg(t, t0 + .2, t0 + .45))
+    if bar > 0:
+        cv.rect(W / 2 - 380 * bar, 1080, W / 2 + 380 * bar, 1094, BAD, a, r=7)
+    if v.get('sub'):
+        sb_ = str(v['sub']).upper()
+        cv.text(W / 2, 1160, sb_, 'black', fit(sb_, 'black', 52, 960), TXT, a * seg(t, t0 + .35, t0 + .7), anchor='cm', track=6)
+    fl = 1 - seg(t, t0, t0 + .12)                                          # white flash on impact
+    if 0 < fl < 1: cv.fill(WHITE, .55 * fl)
+
+
+def sc_flow(cv, t, i, v, a):
+    """follow the money: coins stream out of the vault into the wallets; a frozen part gets stamped"""
+    h = hit(i); e = scene_end(i)
+    src = str(v.get('from', 'VAULT')).upper()[:14]
+    tos = [str(x).upper()[:10] for x in (v.get('to') or ['WALLET 1', 'WALLET 2', 'WALLET 3'])][:4] or ['WALLET']
+    q = back(seg(t, P(i), P(i) + .4))
+    vx, vy = W / 2, 720
+    cv.rect(vx - 170 * q, vy - 110 * q, vx + 170 * q, vy + 110 * q, (28, 34, 48), a * .95, r=26 * q)
+    cv.ring(vx, vy, 62 * q, GOLD, 8, a * clamp(q))
+    for k in range(6):                                                     # vault wheel
+        ang = k * math.pi / 3 + t * .8
+        cv.line([(vx, vy), (vx + 52 * q * math.cos(ang), vy + 52 * q * math.sin(ang))], GOLD, 5, a * clamp(q))
+    cv.text(vx - 230, vy + 10, src, 'black', fit(src, 'black', 54, 330), WHITE, a * clamp(q), anchor='rm', track=4)
+    n = len(tos); ys = 1320
+    xs = [W / 2 + (k - (n - 1) / 2) * min(250, 900 / max(1, n - 1) if n > 1 else 0) for k in range(n)]
+    frozen = str(v.get('frozen', '') or '').strip()
+    froze_k = n - 1 if frozen else -1
+    run = seg(t, P(i) + .3, e)
+    for k, x in enumerate(xs):
+        p = back(seg(t, P(i) + .25 + k * .08, P(i) + .6 + k * .08))
+        cv.line([(vx, vy + 110), (x, ys - 70)], (70, 80, 100), 4, a * clamp(p) * .8)
+        cv.rect(x - 105 * p, ys - 62 * p, x + 105 * p, ys + 62 * p, (20, 26, 38), a * clamp(p), r=18 * p)
+        cv.text(x, ys, tos[k], 'black', fit(tos[k], 'black', 40, 190), BAD if k != froze_k or t < h else ALT, a * clamp(p), anchor='cm')
+        stopped = k == froze_k and t >= h
+        for c in range(5):                                                 # coins travelling down the line
+            if stopped: break
+            f = ((t - P(i)) * .9 + c / 5 + k * .13) % 1.0
+            if run <= 0: break
+            cx, cy = lerp(vx, x, f), lerp(vy + 110, ys - 70, f)
+            cv.circle(cx, cy, 16, GOLD, a * (1 - abs(f - .5)) * 1.4 * clamp(run * 4))
+    amt = str(v.get('amount', '')).upper()
+    if amt:
+        g = out3(seg(t, P(i) + .2, P(i) + .6))
+        cv.text(vx + 200, vy + 10, amt, 'black', fit(amt, 'black', 96, 330), GOLD, a * g, anchor='lm', scale=max(.01, lerp(.6, 1, g)), shadow=8)
+    if frozen and t >= h - .1:
+        stamp(cv, t, h - .1, frozen.upper()[:18], W / 2, ys + 170, fit(frozen.upper()[:18], 'black', 70, 700), ALT, a)
+
+
+def receipt_card(cv, t, i):
+    """proof on screen: the real headline (outlet + headline text, plain card, not the outlet's design) slides in under the top"""
+    rc = SCN[i].get('receipt')
+    if not rc or SCN[i]['visual']['type'] in ('chart', 'slam'): return
+    t0, t1 = P(i) + .35, scene_end(i) - .15
+    if not (t0 <= t < t1): return
+    p = back(seg(t, t0, t0 + .35)); o = seg(t, t1 - .25, t1)
+    al = clamp(p) * (1 - o)
+    x0 = lerp(-900, 60, out3(seg(t, t0, t0 + .35))) - 900 * o; x1 = x0 + W - 120; y0 = 300
+    lines = wrap(str(rc.get('headline', '')), 34)[:3]
+    hgt = 96 + 58 * len(lines)
+    cv.rect(x0, y0, x1, y0 + hgt, (246, 247, 250), .97 * al, r=22)
+    cv.rect(x0, y0, x0 + 14, y0 + hgt, BAD, al, r=7)
+    src = ('📰 ' if False else '') + str(rc.get('src', 'NEWS')).upper()[:30]
+    cv.text(x0 + 44, y0 + 46, src, 'black', 30, (190, 40, 60), al, anchor='lm', track=4)
+    cv.text(x1 - 30, y0 + 46, 'REAL HEADLINE', 'bold', 24, (120, 128, 140), al, anchor='rm', track=3)
+    for k, ln in enumerate(lines):
+        cv.text(x0 + 44, y0 + 108 + k * 58, ln, 'black', 44, (16, 20, 28), al, anchor='lm')
+
+
 TEMPLATES = {'title': sc_title, 'counter': sc_counter, 'stamp': sc_stamp, 'person': sc_person, 'date': sc_date, 'chart': sc_chart,
-             'versus': sc_versus, 'quote': sc_quote, 'list': sc_list}
+             'versus': sc_versus, 'quote': sc_quote, 'list': sc_list, 'slam': sc_slam, 'flow': sc_flow}
 
 
 SHRINK = {'date': .6, 'stamp': .72, 'title': .8, 'counter': .82, 'list': .78, 'versus': .82, 'quote': .82}   # graphics shrink so the footage leads
@@ -658,8 +740,19 @@ def make_scene(i):
     return scene
 
 
+if SCN and SCN[0]['role'] == 'hook' and SCN[0]['visual']['type'] not in ('chart', 'person', 'flow'):
+    _v = SCN[0]['visual']                                                  # the hook becomes a full-screen slam of its shock (number or word)
+    if _v['type'] == 'counter':
+        try: _txt = fmt_num(float(str(_v.get('value', 0)).replace(',', '').replace('$', '')), str(_v.get('prefix', '')), str(_v.get('suffix', '')))
+        except ValueError: _txt = ''
+    else:
+        _txt = str(_v.get('text') or _v.get('word') or '')
+    if not _txt:
+        _txt = ' '.join(SCN[0]['line'].split()[:3])
+    SCN[0]['visual'] = {'type': 'slam', 'text': _txt, 'sub': str(_v.get('label') or _v.get('sub') or '')}
 cs.SCENES = [make_scene(i) for i in range(len(SCN))]
-cs.IMPACTS = [hit(i) for i, s in enumerate(SCN) if s['role'] in PACK['impacts'] and s['visual']['type'] in ('title', 'stamp', 'counter', 'chart', 'versus', 'quote', 'person')]
+cs.IMPACTS = sorted(([P(0) + .05] if SCN and SCN[0]['visual']['type'] == 'slam' else []) +
+                    [hit(i) for i, s in enumerate(SCN) if s['role'] in PACK['impacts'] and s['visual']['type'] in ('title', 'stamp', 'counter', 'chart', 'versus', 'quote', 'person', 'flow')])
 cs.NAME = 'auto'
 cs.SCENE_CAM = scene_cam
 cs.BACKDROP = backdrop if MEDIA else None
@@ -702,6 +795,18 @@ def make_sfx(out):
         elif ty == 'list':
             n = len(s['visual'].get('items') or [1])
             for j in range(n): place(tr, pop(.2 * k, 600 + 80 * j), lerp(P(i) + .2, h, j / max(1, n - 1)) if n > 1 else h)
+    if SCN and SCN[0]['visual']['type'] == 'slam':                         # the hook lands with a hit
+        place(tr, boom(1.2, 70, 28, .7 * k), P(0) + .05); place(tr, thud(.45, .6 * k), P(0) + .05)
+    for i, sh in SHOTS.items():                                            # a soft whoosh on every picture change
+        for n, o in enumerate(sh[1:]):
+            place(tr, whoosh(.28, n % 2 == 0, .05 * k), o['t0'] - .1, pan=(.35 if n % 2 else -.35))
+    for i, s in enumerate(SCN):
+        if s['role'] == 'twist' and TONE != 'mystery': place(tr, riser(.8, .1 * k), hit(i) - .8)   # tension before every twist
+        if s['visual']['type'] == 'flow':
+            for n in range(int((scene_end(i) - P(i)) * 6)): place(tr, tick(.05 * k), P(i) + .3 + n / 6, pan=((n % 5) - 2) * .15)
+            if s['visual'].get('frozen'): place(tr, thud(.45, .55 * k), hit(i))
+        if s.get('receipt') and s['visual']['type'] not in ('chart', 'slam'):
+            place(tr, whoosh(.35, True, .07 * k), P(i) + .3); place(tr, pop(.18 * k, 900), P(i) + .5)
     for i in range(len(SCN)):                                             # every on-screen moment gets a soft accent
         for n, b in enumerate(BEATS[i]):
             if b['text']: place(tr, pop(.16 * k, 720 + 90 * (n % 3)), b['t'] - .02); place(tr, whoosh(.25, n % 2 == 0, .05 * k), b['t'] - .12)

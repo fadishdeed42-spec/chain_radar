@@ -1930,8 +1930,10 @@ SB_SCHEMA = '''{"outline": ["FIRST plan the script: one short entry per scene = 
               "beats": [{"word": "a later word in the same line", "text": "MAX 3 WORDS shown on screen", "icon": "optional icon"}],
               "footage": "2-4 word stock video search for the background, e.g. 'prison cell bars' (or empty)",
               "shots": [{"words": "an EXACT phrase copied from this line, in order", "q": "2-4 word stock video search showing exactly what that phrase says"}],
+              "receipt": null OR {"src": "outlet name", "headline": "a real headline copied WORD FOR WORD from the FACTS that proves this line"},
               "photo": "Wikipedia/Commons search for a REAL photo of the person/place/company, e.g. 'Changpeng Zhao' (or empty)",
               "visual": {"type": "...", ...fields...}} ],
+ "lesson": "ONE useful, practical takeaway for viewers from this story, max 14 words, e.g. 'Never keep all your crypto on one exchange.' (no financial advice, no buy/sell)",
  "description": "2-4 factual sentences with dates and numbers for the YouTube description",
  "hashtags": "6-8 hashtags", "pinned": "a pinned comment question for viewers"}'''
 SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
@@ -1944,6 +1946,8 @@ SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
  versus  {"type":"versus","left":["LABEL","VALUE"],"right":["LABEL","VALUE"],"note":"optional"}
  quote   {"type":"quote","name":"Name","text":"a quote copied WORD FOR WORD from the FACTS (never invented or paraphrased; no quote in the FACTS = do not use this type)","stamp":"optional word"}
  list    {"type":"list","items":["max 3","short","items"]}
+ flow    {"type":"flow","from":"BINANCE","amount":"$6.3B","to":["ETH","BTC","SOL"],"frozen":"$3B FROZEN (optional, only if the FACTS say it)"}
+         follow-the-money animation: coins pour out of the "from" vault into 2-4 wallets. Use it for hacks, thefts, big transfers and seizures.
 Icons: ''' + ', '.join(sstory.ICONS)
 
 
@@ -2056,6 +2060,48 @@ def script_review(sb, facts):
     return out
 
 
+def verify_receipts(sb, facts):
+    """A receipt on screen must be a real headline from the sources, word for word."""
+    norm = lambda t: re.sub(r'[^a-z0-9 ]', '', html.unescape(t).lower())
+    f = norm(facts)
+    for x in sb['scenes']:
+        rc = x.get('receipt')
+        if rc and (len(norm(rc.get('headline', ''))) < 20 or norm(rc['headline']) not in f):
+            print('receipt not in sources -> dropped:', rc.get('headline', '')[:70]); x.pop('receipt', None)
+    return sb
+
+
+LABEL_KEYS = ('text', 'sub', 'label', 'word', 'event', 'note', 'amount', 'frozen', 'role', 'month')
+
+
+def label_check(sb, facts):
+    """Small on-screen texts (labels, pills, beats) are facts too: any the sources don't support are removed (never shown wrong)."""
+    items = []
+    for i, x in enumerate(sb['scenes']):
+        v = x.get('visual') or {}
+        for k in LABEL_KEYS:
+            if str(v.get(k, '')).strip(): items.append((i, 'v', k, str(v[k])))
+        for side in ('left', 'right'):
+            if isinstance(v.get(side), list): items.append((i, 'v', side, ' '.join(map(str, v[side]))))
+        for n, b in enumerate(x.get('beats') or []):
+            if str(b.get('text', '')).strip(): items.append((i, 'b', n, str(b['text'])))
+    if not items: return sb
+    lst = '\n'.join(f'{n + 1}. (line: "{sb["scenes"][i]["line"][:90]}") {t}' for n, (i, _, _, t) in enumerate(items))
+    j = gemini_json(strong=True, prompt='These are short on-screen labels of a factual crypto Short. Flag every label that states a fact (date, number, name, place, action) '
+                    'the FACTS do not support or get wrong (a headline publication date is not the event date). Mood words and generic labels ("THE TWIST", "HACKED") are fine.\n\n'
+                    f'FACTS:\n{facts[:10000]}\n\nLABELS:\n{lst}\n\nReturn JSON only: {{"bad": [label numbers]}}')
+    bad = {int(n) for n in (j or {}).get('bad') or [] if str(n).isdigit()}
+    for n in sorted(bad):
+        if not 1 <= n <= len(items): continue
+        i, kind, k, t = items[n - 1]
+        print('label not supported -> removed:', t[:60])
+        if kind == 'b': sb['scenes'][i]['beats'][k]['text'] = ''
+        elif k in ('left', 'right'): pass                                 # a versus card without one side makes no sense: keep, the line was fact-checked
+        elif k in ('text', 'word', 'amount'): sb['scenes'][i]['visual'][k] = ''
+        else: sb['scenes'][i]['visual'].pop(k, None)
+    return sb
+
+
 def verify_quotes(sb, facts):
     """A quote card shows a real person's words: only if those words are in the sources, word for word. Otherwise it becomes a title card."""
     norm = lambda t: re.sub(r'[^a-z0-9 ]', '', t.lower())
@@ -2147,7 +2193,7 @@ def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='au
     chart_rule = {'off': 'set "chart" to null and use no chart visuals.',
                   'on': 'include a real chart whenever any coin price is part of the story (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.'
                   }.get(chart_pref, 'only if the story is about a crypto price on specific dates (BTC/ETH/LTC/XRP history works back to 2011). Range = a few weeks around the event.')
-    cw = 3 if chart_pref == 'off' else 8                                  # call-to-action words added after the story
+    cw = (3 if chart_pref == 'off' else 8) + 16                           # call-to-action words + the closing lesson (~16 spoken words)
     lo_w, hi_w, tgt_w = sstory.window(length, cw)
     ww = round(tgt_w / 1.08)                                              # spoken words per written word is about 1.08 ($4.3B -> four point three billion dollars)
     per = max(10, round(ww / max(1, (lo_s + hi_s) / 2)))
@@ -2177,6 +2223,10 @@ HOUSE RULES
 - FEELING: give every line an "emotion" and write it so it feels that way: the hook is shock or curious, the build is tense, the twist is shock or dark,
   the payoff lands (triumph, dark or sad), funny only when the story is absurd. The voice performs the emotion you choose.
 - Scene 1 (hook): the most shocking fact or the twist FIRST, max 14 words, opens a loop the viewer needs closed. Never start with "Today" or "In this video".
+  The FIRST one or two spoken words must already be the shock (a big number or a punchy word: "$6.3 billion. Gone in twenty minutes."). Within the first 3 seconds tease the twist ("But that's not even the crazy part.").
+- RE-HOOK: every 10-15 seconds one short line that pulls the viewer forward ("And then it got worse." / "Here's the strange part.").
+- RECEIPTS: on 2-4 scenes add a "receipt": a real headline copied word for word from the FACTS headlines, with its outlet. It is shown on screen as proof.
+- "lesson": one practical takeaway for the viewer that this story teaches (safety, scams, self-custody, risk). It is spoken at the very end as "Chain Secrets lesson: ...".
 - Middle: every line moves the story. Viewers leave at 13 seconds, so the first twist must come before 20 seconds.
 - Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically).
 - Tone: {('use the tone "' + tone + '".') if tone else 'pick the best one: funny for absurd stories, serious for victims and big losses, mystery for unsolved or secret stories, hype for records.'}
@@ -2192,7 +2242,7 @@ HOUSE RULES
 - MOTION: the screen must never freeze. "hit" is the first punch of a scene; "beats" are extra on-screen moments ({beat_rule}),
   each on a LATER word of the same line than "hit" (a name, number, place or action word), with 1-3 words of on-screen text that ADD info
   (an amount, a place, a date, a nickname), never a copy of the caption.
-- "shots": 2-4 per scene, one for each spoken phrase, in order; the first starts at the beginning of the line. "words" is copied EXACTLY from the line,
+- "shots": 3-5 per scene (a new picture every 1.5-2.5 seconds), one for each spoken phrase, in order; the first starts at the beginning of the line. "words" is copied EXACTLY from the line,
   "q" is a concrete filmable search that shows literally what those words say ("poker game" -> 'poker cards chips', "sold his apartment" -> 'apartment keys house', "flipping burgers" -> 'cooking burgers grill').
   The picture must match the words, never a generic mood. If a phrase has nothing filmable (a name, an abstract idea) leave it out.
 - "footage": a concrete, filmable stock-video search for the background of that scene (things/places/actions, never a named person: 'courtroom gavel',
@@ -2267,7 +2317,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
     if not old and jid and os.path.exists(f'jobs/{jid}/storyboard.json'):
         old = {'sb': json.load(open(f'jobs/{jid}/storyboard.json'))}
     facts = old.get('facts')
-    length = length or (old.get('sb') or {}).get('length') or 45
+    length = max(60, length or (old.get('sb') or {}).get('length') or 60)            # owner: Shorts are 1 minute or longer
     sett = dict(sett or (old.get('sb') or {}).get('settings') or {})
     if facts is None:
         facts = short_facts(topic)
@@ -2285,7 +2335,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
         cand = fit_length(cand, facts)
         cand = story_pass(cand, facts)
         cand, left = polish_script(cand, facts)
-        verify_quotes(cand, facts)
+        verify_quotes(cand, facts); verify_receipts(cand, facts); label_check(cand, facts)
         cand['review'] = {str(k): v[:2] for k, v in left.items()}
         print('draft', attempt, 'words', cand['words'], 'est', cand['est_secs'], 'ok', cand.get('length_ok'))
         if best is None or abs(cand['words'] - cand['target_words']) < abs(best['words'] - best['target_words']):
@@ -2354,7 +2404,7 @@ def show_script(jid, tgs):
         m = m.replace('\n\n<b>Checkpoint 1:</b>', f'\n\n⚠️ {E(sb.get("length_msg", "length is off"))}\n\n<b>Checkpoint 1:</b>')
     tg(m[:4000], None, ([('🔁 Try again', f'sx:{jid}'), ('✅ Use anyway', f'sk:{jid}')] if blocked else [('✅ Make the voice', f'sa:{jid}'), ('🔄 Rewrite', f'sx:{jid}')]) +
        [(f'{TONE_EMO[t]} {t.title()}', f'st:{jid}:{t}') for t in sstory.TONES if t != sb['tone']] +
-       [(('• ' if L == sb['length'] else '') + '⏱ ' + LEN_NAME[L], f'sl:{jid}:{L}') for L in sstory.LENGTHS])
+       [(('• ' if L == sb['length'] else '') + '⏱ ' + LEN_NAME[L], f'sl:{jid}:{L}') for L in sstory.LENGTHS if L >= 60])
 
 
 def short_edit(t, tgs):
@@ -2581,7 +2631,7 @@ HELP = ('🕵️ <b>Chain Secrets bot</b>\n\n'
         '/viral — the ONE best thing to post right now, and why\n'
         '/story <i>topic</i> — X thread + real chart (only when it matters) + sources, then a Short in one tap\n'
         '/today — an old story from this date, same package\n'
-        '/short <i>story</i> — a finished YouTube Short. Add 30 / 1min / 2min for the length\n'
+        '/short <i>story</i> — a finished YouTube Short (1 min). Add 1.5min / 2min for longer\n'
         '/ep — which Short number is next\n\n'
         '<b>Replies</b>\n'
         '• <b>Send an X post link</b> → 3 reply ideas to copy (facts checked, tells you if the post is too old)\n\n'
@@ -2655,7 +2705,7 @@ def hack_item(h, tgs):
 
 
 # ---------------- /story and /today: a full Chain Secrets package (X thread + real chart + sources + Short) ----------------
-PKG_LEN_BTNS = [(' 30s', 30), (' 45s', 45), (' 1 min', 60), (' 2 min', 120)]
+PKG_LEN_BTNS = [(' 1 min', 60), (' 1.5 min', 90), (' 2 min', 120)]
 
 
 def story_facts(topic, known=''):
@@ -2926,7 +2976,7 @@ def handle(u, tgs):
         return
     if t in ('🎬 Make a Short', '🎬 Studio'):
         tg('🎬 Send <code>/short</code> + any crypto or money story, e.g. <code>/short QuadrigaCX</code>. '
-           'Choose the length: <code>/short 30 …</code>, <code>/short 1min …</code>, <code>/short 2min …</code> (default 45s), or change it later with the ⏱ buttons.'); return
+           'Choose the length: <code>/short 1.5min …</code> or <code>/short 2min …</code> (default 1 min), or change it later with the ⏱ buttons.'); return
     if t == '💬 Reply to a post':
         tg('💬 Share or paste the X post link here and I\'ll write the best reply.'); return
     if c in ('/start', '/help', 'help'):
@@ -2937,7 +2987,7 @@ def handle(u, tgs):
         else:
             tg(f'The next Short will be <b>#{next_ep(tgs, peek=True)}</b>. Change it with <code>/ep 30</code>.')
     elif c == '/short':
-        L, rest, skip = 45, [], False
+        L, rest, skip = 60, [], False
         for a in args:
             if skip and a.lower() in ('s', 'sec', 'secs', 'seconds', 'm', 'min', 'mins', 'minute', 'minutes'):
                 skip = False; continue
@@ -2946,12 +2996,12 @@ def handle(u, tgs):
             if m_ and not rest or m_ and m_.group(2):
                 v_ = int(m_.group(1)) * (60 if (m_.group(2) or '').startswith('m') else 1)
                 if v_ in (1, 2): v_ *= 60
-                if 20 <= v_ <= 180: L = min(sstory.LENGTHS, key=lambda k: abs(k - v_)); skip = True; continue
+                if 20 <= v_ <= 180: L = max(60, min(sstory.LENGTHS, key=lambda k: abs(k - v_))); skip = True; continue
             rest.append(a)
         if rest:
             ack(f'⏳ Researching the story and writing a {LEN_NAME[L]} script…'); short_draft(' '.join(rest), tgs, None, None, L)
         else:
-            tg('🎬 Send <code>/short</code> + a story, e.g. <code>/short Mt Gox collapse</code>. Add a length: <code>/short 30 Bitcoin pizza</code>, '
+            tg('🎬 Send <code>/short</code> + a story, e.g. <code>/short Mt Gox collapse</code>. Add a length: <code>/short 2min Bitcoin pizza</code>, '
                '<code>/short 1min FTX</code>, <code>/short 2min Silk Road</code> (default 45s).')
     elif c == '/viral':
         ack('⏳ Finding the one best thing to post right now…')

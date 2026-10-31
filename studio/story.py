@@ -186,7 +186,7 @@ def plan_line(line, respell=None, after_month=False):
 # ---------------------------------------------------------------- storyboard
 TONES = ('funny', 'serious', 'mystery', 'hype')
 ROLES = ('hook', 'setup', 'turn', 'twist', 'payoff', 'end')
-VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list')
+VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow')
 ICONS = ('bitcoin', 'ethereum', 'dogecoin', 'token', 'lock', 'plane', 'laptop', 'house', 'safe', 'car', 'crown', 'robot',
          'gavel', 'officer', 'person', 'calendar', 'phone', 'bank', 'fire', 'skull', 'question', 'cash')
 EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks and twists, calmer for setup
@@ -254,7 +254,7 @@ _SCHEMA = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..', 'doc
 try:
     DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
 except Exception:
-    DEFAULTS = {'length': 45, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
+    DEFAULTS = {'length': 60, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
                 'style': 'documentary', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
 
 
@@ -272,7 +272,9 @@ def cta(sb):
         return ''
     if c:
         return c if re.search(r'[.!?]$', c) else c + '.'
-    return CTA if sb.get('chart') else CTA_NOCHART
+    base = CTA if sb.get('chart') else CTA_NOCHART
+    les = str(sb.get('lesson') or '').strip()
+    return (f'Chain Secrets lesson: {les} ' + base) if les else base       # the useful closing line (trademark), then the channel line
 
 
 def length_of(sb):
@@ -290,6 +292,8 @@ def check(sb, strict=True):
         raise ValueError('no scenes')
     sb.pop('outline', None)                                                 # planning notes only, never stored (the app payload must stay small)
     sb['tone'] = sb.get('tone') if sb.get('tone') in TONES else 'mystery'
+    sb['lesson'] = re.sub(r'\s+', ' ', str(sb.get('lesson') or '')).strip()[:110]
+    if sb['lesson'] and not re.search(r'[.!?]$', sb['lesson']): sb['lesson'] += '.'
     sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)
                      and k.lower() not in KNOWN_OK and v.lower().replace('-', '') != k.lower()}      # the voice says well-known names right; respelling made them worse
     sc = [s for s in sb['scenes'] if isinstance(s, dict) and str(s.get('line', '')).strip()]
@@ -328,6 +332,9 @@ def check(sb, strict=True):
         s['footage'] = str(s.get('footage') or '')[:60]
         s['shots'] = [{'words': re.sub(r'\s+', ' ', str(h.get('words', ''))).strip()[:60], 'q': str(h.get('q', '')).strip()[:60]}
                       for h in (s.get('shots') or []) if isinstance(h, dict) and str(h.get('q', '')).strip()][:5]
+        rc = s.get('receipt') if isinstance(s.get('receipt'), dict) else None
+        s['receipt'] = {'src': str(rc.get('src', ''))[:40], 'headline': str(rc.get('headline', ''))[:140]} if rc and str(rc.get('headline', '')).strip() else None
+        if not s['receipt']: s.pop('receipt')
         s['photo'] = str(s.get('photo') or '')[:60]
         toks = [re.sub(r'[^\w$%]', '', t).lower() for t in s['line'].split()]
         h = re.sub(r'[^\w$%]', '', str(s.get('hit', ''))).lower()
@@ -466,8 +473,14 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
     has_cta = len(plan) > len(sb['scenes'])
     end = M(words[-1][1]) + .35
     dur = round(end + 1.6, 2)
+    lesson_t = None
     if has_cta:
         beats['z_follow'] = starts[-1]
+        toks = [tok.lower() for tok, _ in plan[-1]]
+        if len(toks) > 3 and toks[:3] == ['chain', 'secrets', 'lesson:'] and 'follow' in toks:     # "Chain Secrets lesson: ... Follow Chain Secrets."
+            lesson_t = starts[-1]
+            fi = toks.index('follow')
+            beats['z_follow'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:fi])][0])
         every = [i for i, (tok, _) in enumerate(plan[-1]) if tok.lower().startswith('every')]
         beats['z_every'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:every[0]])][0]) if every else starts[-1] + 1.2
     else:                                                                 # no last line: end card after the story
@@ -477,7 +490,8 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
     for i in range(len(para)):
         para[i][1] = para[i + 1][0] if i + 1 < len(para) else dur
     T = {'chunks': chunks, 'dur': dur, 'beats': beats, 'para': para, 'caps': caps, 'cuts': cuts, 'lead': lead, 'words': wlist,
-         'cta': round(beats['z_follow'] + (.2 if has_cta else 0), 3) if settings(sb).get('endcard', True) else None, 'cta2': beats['z_every']}
+         'cta': round(beats['z_follow'] + (.2 if has_cta else 0), 3) if settings(sb).get('endcard', True) else None, 'cta2': beats['z_every'],
+         'lesson_t': lesson_t}
     json.dump(T, open(out, 'w'), indent=1)
     return T
 

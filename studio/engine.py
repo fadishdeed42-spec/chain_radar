@@ -314,7 +314,7 @@ def callout(cv, x0, y0, x1, y1, text, col, p, size=40, kind='bold', side=None):
         cv.text(cx, cy, text, kind, size, WHITE, clamp(q), anchor='cm', scale=max(q, .01))
 
 def pop_words(cv, t, t0, text, y, size=58, kind='black', color=TXT, hl=None, per=0.07, alpha=1.0,
-              stroke_bg=True, max_w=980, line_gap=1.18):
+              stroke_bg=True, max_w=980, line_gap=1.18, active=None, active_col=None):
     """word-by-word pop caption. hl: {word: color}. Wraps to lines."""
     if t < t0 or alpha <= 0: return
     words = text.split(' ')
@@ -334,7 +334,11 @@ def pop_words(cv, t, t0, text, y, size=58, kind='black', color=TXT, hl=None, per
             if p > 0:
                 s = lerp(.55, 1, back(p, 2.2))
                 col = (hl or {}).get(wd.strip('.,!?:'), color)
-                cv.text(x + ww / 2, yy, wd, kind, size, col, alpha * clamp(p * 2), anchor='cm', scale=s, shadow=6)
+                if active is not None and i == active:                  # karaoke: the word being spoken right now sits on a bright pill
+                    pad = size * .22
+                    cv.rect(x - pad, yy - size * .62, x + ww + pad, yy + size * .62, active_col or (255, 196, 46), alpha * .95, r=size * .25)
+                    col = (14, 16, 22); s *= 1.06
+                cv.text(x + ww / 2, yy, wd, kind, size, col, alpha * clamp(p * 2), anchor='cm', scale=s, shadow=0 if (active is not None and i == active) else 6)
             x += ww + sp; i += 1
 
 def header(cv, series, ep, symbol, sub, price, pcol, date, tf=None, alpha=1.0, badge=GOLD, badge_txt=BG):

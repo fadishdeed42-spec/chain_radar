@@ -7,7 +7,7 @@ os.chdir(ROOT)
 import radar as r, story
 
 topic, L, jid = sys.argv[1], int(sys.argv[2]), sys.argv[3]
-sett = {'length': L, 'style': 'documentary', 'autorender': True}
+sett = {'length': max(60, L), 'style': 'documentary', 'autorender': True}
 facts = r.short_facts(topic)
 best = None
 for attempt in range(2):
@@ -21,7 +21,7 @@ for attempt in range(2):
     cand = r.fit_length(cand, facts)
     cand = r.story_pass(cand, facts)
     cand, left = r.polish_script(cand, facts)
-    r.verify_quotes(cand, facts)
+    r.verify_quotes(cand, facts); r.verify_receipts(cand, facts); r.label_check(cand, facts)
     cand['review'] = {str(k): v[:2] for k, v in left.items()}
     print('attempt', attempt, 'words', cand['words'], 'ok', cand.get('length_ok'), 'flags', len(left), 'filler', r.filler_hits(cand))
     if best is None or (len(left), abs(cand['words'] - cand['target_words'])) < (len(best['review']), abs(best['words'] - best['target_words'])):
