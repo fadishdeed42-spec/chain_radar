@@ -276,9 +276,10 @@ def cta(sb):
         return ''
     if c:
         return c if re.search(r'[.!?]$', c) else c + '.'
-    base = CTA if sb.get('chart') else CTA_NOCHART
     les = str(sb.get('lesson') or '').strip()
-    return (f'Chain Secrets lesson: {les} ' + base) if les else base       # the useful closing line (trademark), then the channel line
+    if les:                                                               # owner: say only the lesson, then "Follow Chain Secrets."
+        return f'{les} {CTA_NOCHART}'
+    return CTA if sb.get('chart') else CTA_NOCHART
 
 
 def length_of(sb):
@@ -481,7 +482,7 @@ def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
     if has_cta:
         beats['z_follow'] = starts[-1]
         toks = [tok.lower() for tok, _ in plan[-1]]
-        if len(toks) > 3 and toks[:3] == ['chain', 'secrets', 'lesson:'] and 'follow' in toks:     # "Chain Secrets lesson: ... Follow Chain Secrets."
+        if str(sb.get('lesson') or '').strip() and 'follow' in toks and toks.index('follow') > 2:   # "<lesson> Follow Chain Secrets."
             lesson_t = starts[-1]
             fi = toks.index('follow')
             beats['z_follow'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:fi])][0])

@@ -27,6 +27,7 @@ def trim(w, sr, tail):
     return w
 
 _asr = None
+LAST_RUSHED = []
 def asr_wer(w, sr, text):
     """speech recognition check: share of script words the take got wrong (catches misread words)"""
     global _asr
@@ -35,7 +36,11 @@ def asr_wer(w, sr, text):
     if _asr is None: _asr = WhisperModel('base.en', device='cpu', compute_type='int8')
     import librosa
     y = librosa.resample(w, orig_sr=sr, target_sr=16000)
-    got = ' '.join(s.text for s in _asr.transcribe(y, language='en', beam_size=1)[0])
+    segs = list(_asr.transcribe(y, language='en', beam_size=1, word_timestamps=True)[0])
+    got = ' '.join(s.text for s in segs)
+    global LAST_RUSHED
+    LAST_RUSHED = [w.word.strip() for s in segs for w in (s.words or [])                 # a long word squeezed into a blink = hard to understand
+                   if len(re.sub(r'\W', '', w.word)) >= 5 and (w.end - w.start) < .045 * len(re.sub(r'\W', '', w.word)) + .05]
     def n(t):                                                     # both sides as spoken words: "$6.3 billion" == "six point three billion dollars"
         try:
             import story
@@ -101,24 +106,24 @@ def run(path):
         chk = checks[i] if i < len(checks) else t
         variants = [t] + ([alt] if alt else [])                     # respelled text and the plain text: whichever the voice says right wins
         n_max = 6 if end else 4                                     # fewer wasted takes: misread names go to the phonetic retry instead
-        target = 2.4 if end else 2.75; best = None                     # calm, clear storytelling pace (fast takes swallowed words)
+        target = 2.35 if end else 2.6; best = None                     # calm, clear storytelling pace (fast takes swallowed words)
         for k in range(n_max):
             tt = variants[k % len(variants)]
             w = m.generate(tt, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
             w = trim(w.squeeze().numpy().astype(np.float32), sr, .45 if end else .12)
             try:
-                wer, heard = asr_wer(w, sr, chk)
+                wer, heard = asr_wer(w, sr, chk); rushed = list(LAST_RUSHED)
                 if tt != chk: wer = min(wer, asr_wer(w, sr, tt)[0])
-            except Exception as e: wer, heard = 0.0, f'asr failed {e}'
+            except Exception as e: wer, heard, rushed = 0.0, f'asr failed {e}', []
             try: sl = end_slope(w, sr, tt)
             except Exception: sl = 0.0
             wps = len(tt.split()) / (len(w) / sr)
             want_up = tt.rstrip().endswith('?')
             ok_end = (sl > 0) if want_up else (sl < -1.0)
-            score = 2.0 * ok_end - 6.0 * wer - .6 * abs(wps - target) - 1.5 * max(0, wps - 3.05) - (.08 * max(0, sl) if not want_up else 0)
-            log.append(f'   take {k+1}{" (plain)" if tt is alt else ""}: score {score:+.2f}  wer {wer:.2f}  end {sl:+.1f}st  {wps:.1f}w/s  heard: {heard.strip()[:70]}')
+            score = 2.0 * ok_end - 6.0 * wer - .6 * abs(wps - target) - 1.5 * max(0, wps - 2.9) - .8 * len(rushed) - (.08 * max(0, sl) if not want_up else 0)
+            log.append(f'   take {k+1}{" (plain)" if tt is alt else ""}: score {score:+.2f}  wer {wer:.2f}  end {sl:+.1f}st  {wps:.1f}w/s' + (f'  rushed {rushed}' if rushed else '') + f'  heard: {heard.strip()[:70]}')
             if best is None or score > best[0]: best = (score, w, wer, heard, tt)
-            good_words = wer <= .06
+            good_words = wer <= .06 and not rushed
             if good_words and (ok_end or k >= 2) and k >= (1 if end else 0):   # every word right (and a finished ending when possible): stop early
                 break
         def name_missed(said, heard):                               # a NAME the listener didn't hear right counts even when the rest is perfect
@@ -148,6 +153,17 @@ def run(path):
         log.append(f'scene {i+1}: {len(w)/sr:.2f}s ex {ex}{" END" if end else ""}  chosen wer {wer:.2f}')
     json.dump(quality, open(base + '_quality.json', 'w'), indent=1)
     audio = np.concatenate(parts); audio = audio / max(1e-6, np.abs(audio).max()) * .9
+    try:                                                          # even loudness: no quiet first word ("gone"), no soft line endings
+        import subprocess, tempfile
+        a_, b_ = tempfile.mktemp(suffix='.wav'), tempfile.mktemp(suffix='.wav'); sf.write(a_, audio, sr)
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', a_, '-af',
+                        'dynaudnorm=f=100:g=5:p=0.92:m=20,acompressor=threshold=-20dB:ratio=3:attack=5:release=120:makeup=2,alimiter=limit=0.93',
+                        b_], check=True)
+        lev, _ = sf.read(b_, dtype='float32')
+        if len(lev) >= len(audio) - sr // 10: audio = lev[:len(audio)] if len(lev) >= len(audio) else np.pad(lev, (0, len(audio) - len(lev)))
+        os.remove(a_); os.remove(b_); log.append('loudness levelled (dynaudnorm + compressor)')
+    except Exception as e:
+        log.append(f'leveling skipped {e}')
     wt = align_words(audio, sr, words); log.append(f'{len(audio)/sr:.2f}s, force-aligned {len(words)} words')
     cues = []
     for i, sc in enumerate(cfg['scenes']):
