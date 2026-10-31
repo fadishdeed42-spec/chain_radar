@@ -1,0 +1,251 @@
+{
+ "title": "How Binance Replaced $6.3 Billion in Hours \ud83e\udd2f",
+ "alt_hooks": [
+  "Hackers stole $6.3 billion from Binance in the biggest crypto heist ever.",
+  "How did Binance replace $5.7 billion of stolen crypto in a single day?",
+  "When North Korea stole $6.3 billion, Binance did the unthinkable."
+ ],
+ "tone": "mystery",
+ "respell": {
+  "Binance": "bih-nance",
+  "Teng": "teng"
+ },
+ "chart": null,
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "[hook] Hackers stole a record $6.3 billion from Binance in history's biggest crypto heist.",
+   "hit": "$63",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "$6.3 billion",
+     "text": "$6.3 BILLION",
+     "icon": "skull"
+    },
+    {
+     "word": "Binance",
+     "text": "BINANCE",
+     "icon": "bank"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "Hackers stole a staggering $6.3 billion",
+     "q": "hacker typing code laptop"
+    },
+    {
+     "words": "from Binance in history's biggest crypto heist.",
+     "q": "cryptocurrency chart crash"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 6300000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Stolen from Binance",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "[setup] North Korean attackers drained user wallets within minutes using automated transfer scripts, leveraging a compromised employee laptop.",
+   "hit": "within",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "North Korean",
+     "text": "NORTH KOREA",
+     "icon": "question"
+    },
+    {
+     "word": "minutes",
+     "text": "MINUTES",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "digital code matrix green",
+   "shots": [
+    {
+     "words": "North Korean attackers drained user wallets",
+     "q": "hacker dark room"
+    },
+    {
+     "words": "within minutes using automated transfer scripts.",
+     "q": "fast typing code screen"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "NORTH KOREAN HACK",
+    "sub": "Automated scripts drain wallets",
+    "icon": "lock"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "[turn] Co-CEO Richard Teng immediately tapped the billion dollar SAFU emergency fund, futures reserves, and corporate treasury.",
+   "hit": "dollar",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "Richard Teng",
+     "text": "CEO RICHARD TENG",
+     "icon": "person"
+    },
+    {
+     "word": "emergency fund",
+     "text": "SAFU FUND",
+     "icon": "safe"
+    }
+   ],
+   "footage": "financial trading floor busy",
+   "shots": [
+    {
+     "words": "CEO Richard Teng immediately tapped",
+     "q": "businessman phone call serious"
+    },
+    {
+     "words": "the billion dollar SAFU emergency fund",
+     "q": "bank vault open gold"
+    }
+   ],
+   "photo": "Richard Teng",
+   "visual": {
+    "type": "person",
+    "name": "RICHARD TENG",
+    "role": "Binance CEO",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "[twist] By Saturday morning, Dubai-based Binance used company money to buy back 90 percent of the assets from the market.",
+   "hit": "90",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "Saturday morning",
+     "text": "SATURDAY",
+     "icon": "calendar"
+    },
+    {
+     "word": "90 percent",
+     "text": "90% REPLACED",
+     "icon": "cash"
+    }
+   ],
+   "footage": "bitcoin trading charts green",
+   "shots": [
+    {
+     "words": "By Saturday morning, Binance used company money",
+     "q": "crypto exchange charts"
+    },
+    {
+     "words": "to buy back 90 percent of the assets.",
+     "q": "money counting machine cash"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 90,
+    "prefix": "",
+    "suffix": "%",
+    "label": "Stolen Assets Replenished",
+    "icon": "cash"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "[payoff] Users bore zero financial impact as withdrawal services prepared to reopen on Sunday as scheduled.",
+   "hit": "zero",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "zero",
+     "text": "ZERO LOSS",
+     "icon": "safe"
+    },
+    {
+     "word": "Sunday",
+     "text": "REOPENING",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "happy smiling investors",
+   "shots": [
+    {
+     "words": "Users bore zero financial impact",
+     "q": "person relieved phone"
+    },
+    {
+     "words": "as withdrawal services prepared to reopen on Sunday.",
+     "q": "atm cash dispensing"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "lock",
+    "label": "User funds protected",
+    "word": "RESTORED",
+    "bad": false
+   }
+  },
+  {
+   "role": "end",
+   "line": "[end] Leaving hackers with a historic heist that the world's largest exchange absorbed almost overnight through transparent reporting.",
+   "hit": "that",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "historic heist",
+     "text": "$6.3B HEIST",
+     "icon": "skull"
+    },
+    {
+     "word": "almost overnight",
+     "text": "OVERNIGHT",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "server room lights blinking",
+   "shots": [
+    {
+     "words": "Leaving hackers with a historic heist",
+     "q": "digital hacker screen red"
+    },
+    {
+     "words": "that the exchange absorbed almost overnight.",
+     "q": "server rack blue lights"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "ABSORBED",
+    "sub": "History's biggest crypto heist",
+    "icon": "skull"
+   }
+  }
+ ],
+ "description": "After hackers stole $6.3 billion in a massive crypto breach linked to North Korea, Binance CEO Richard Teng announced that 90% of the stolen assets were replenished using corporate treasuries and emergency funds, keeping user balances completely whole.",
+ "hashtags": "#Binance #CryptoNews #NorthKorea #CryptoHack #Bitcoin #Blockchain #Finance",
+ "pinned": "Would you trust an exchange that replaces a $6.3 billion hack overnight?",
+ "length": 45,
+ "settings": {
+  "length": 45,
+  "style": "documentary",
+  "autorender": true
+ },
+ "est_secs": 48,
+ "words": 109,
+ "target_words": 102,
+ "length_ok": true,
+ "review": {}
+}
