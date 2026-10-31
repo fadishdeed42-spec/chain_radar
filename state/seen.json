@@ -862,13 +862,13 @@
 "coin": "bitcoin",
 "src": "CryptoSlate",
 "srcs": [
+"CryptoRank",
 "CryptoSlate",
 "CryptoTicker.io",
 "Cryptonews.net",
-"Decrypt",
-"Yahoo Finance"
+"Decrypt"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793446183.0,
 "tgtext": "",
 "title": "Bitcoin ETFs lose $643 million in a day, wiping out the week\u2019s inflows",
@@ -951,7 +951,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793459120.0,
 "tgtext": "Binance: 90% of Stolen Assets Replenished; Withdrawals Set to Resume on Nov. 1\n\nBinance announced that it has now replenished 90% of the stolen asset shortfall. The top ten major tokens\u2014including BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD, and ZEC\u2014are now 100% fully backed by reserves. The funding sources for this replenishment include: a partial deployment of the SAFU, reallocated balances from the Futures Insurance Fund exceeding regulatory and risk-management requirements, and Binance\u2019s own corporate treasury. Binance committed to subsequently replenishing SAFU back to approximately US$1 billion. Additionally, the exchange stated that withdrawal services remain on track to resume on November 1 as previously scheduled.\n\nAccording to Arkham on-chain data, Binance's SAFU fund transferred 7,499 BTC, worth approximately $581 million, from wallet 1BAuq to address 165Eur...SMmee at 10:51:41 a.m. EDT on October 31. Binance subsequently confirmed the transfer was complete. \u2014 link\n\ud83d\udd25 HUGE: Binance has announced that 90% of the stolen assets have been replenished.\n\nNews | Markets | YouTube",
 "title": "Binance: 90% of Stolen Assets Replenished; Withdrawals Set to Resume on Nov. 1",
@@ -1804,7 +1804,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793449927.0,
 "tgtext": "ICE Reposts Trade[XYZ] Partnership Announcement, Emphasizing \"Plans to Bring\" and \"Subject to Regulatory Approvals\"\n\nFollowing the deletion of its earlier post, Intercontinental Exchange (ICE) reposted its partnership announcement with Trade[XYZ]. In the updated post, ICE amended its phrasing to emphasize that the two parties \"plan to bring Hyperliquid-based perps to the U.S.\" and that operating \"U.S. regulated versions\" remains strictly \"subject to regulatory approvals,\" with both parties seeking approvals to launch a new market built on Hyperliquid to operate KYC-compliant perp markets, including approvals to support leveraged trading. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].\n\nThis comes after X users were pointing out a deleted tweet on the matter\n\nNews | Markets | YouTube",
 "title": "HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].",
@@ -2261,7 +2261,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793460498.0,
 "tgtext": "JUST IN: Elon Musk says Tesla and SpaceX have created significant wealth for hundreds of thousands of employees and boosted retirement savings for hundreds of millions of people.\n\n@WatcherGuru",
 "title": "Elon Musk says Tesla and SpaceX have created significant wealth for hundreds of thousands of employees and boosted retirement savings for hundreds of millions of people.",
@@ -2990,7 +2990,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793461965.0,
 "tgtext": "Binance SAFU Fund transferred 7,500 $BTC($580.88M) to a new wallet an hour ago.\n\nhttps://arkm.com/explorer/address/1BAuq7Vho2CEkVkUxbfU26LhwQjbCmWQkD",
 "title": "Binance SAFU Fund transferred 7,500 BTC($580.88M) to a new wallet an hour ago.",
@@ -3008,19 +3008,6 @@
 "tgtext": "Kraken Suffers Connectivity and Order Issues at 02:42 UTC, Spot and Derivatives Trading Affected; Issue Resolved by 03:42 UTC\n\nAccording to Kraken\u2019s status page, the platform began investigating connectivity and order placement issues at 02:42 UTC on October 30, affecting spot and derivatives users across the web, mobile app, and REST, WebSocket, and FIX interfaces. Kraken announced the issue was resolved at 03:42 UTC the same day. \u2014 link",
 "title": "Kraken Suffers Connectivity and Order Issues at 02:42 UTC, Spot and Derivatives Trading Affected; Issue Resolved by 03:42 UTC",
 "url": "https://t.me/wublockchainenglish/26617",
-"urls": []
-},
-"6bfdaad165d1": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1793293673.1268718,
-"t0": 1793272121.0,
-"tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's central bank officially registers its first regulatory organization for crypto exchanges.\n\n@WatcherGuru",
-"title": "\ud83c\uddf7\ud83c\uddfa Russia's central bank officially registers its first regulatory organization for crypto exchanges.",
-"url": "https://t.me/WatcherGuru/15667",
 "urls": []
 },
 "6c888af4b229": {
@@ -3065,23 +3052,6 @@
 "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/",
 "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
 "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance"
-]
-},
-"6e557b4fc034": {
-"coin": "bitcoin",
-"src": "Analytics Insight",
-"srcs": [
-"Analytics Insight",
-"CoinDesk",
-"The Economic Times"
-],
-"t": 1793293673.1268718,
-"t0": 1793272308.0,
-"tgtext": "",
-"title": "Bitcoin Price Falls Below USD 80,000 Amid Samsung Stock Losses, Fed Rate Caution",
-"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc2dpTDBVdmJaLV81WnJUT1dkRjdPWG9uQVVoYmVucmpIMmw2MXQ5Vmc2dHBtd2ZpSEF6NnhySC1SdWJ0SWM5eXpOVF8wQ0xCckVMei0tR1FyT1VQX0xxZV9oSGo4dGRxTkdpcjQ3b1JtRFlPc1VHYVdTRGM1M2Y4N3pRUlZDQm5zZU14NVRQV3JicndtTHRYTXNjNjB6dFVfS0llRGtVNUY3YVFWckE5Z05yeVk0MlZqSk9RR1FBWEhvdVVv0gHEAUFVX3lxTE5zZ2lMMFV2YlotXzVaclRPV2RGN09Yb25BVWhiZW5yakgybDYxdDlWZzZ0cG13ZmlIQXo2eHJILVJ1YnRJYzl5ek5UXzBDTEJyRUx6LS1HUXJPVVBfTHFlX2hIajh0ZHFOR2lyNDdvUm1EWU9zVUdhV1NEYzUzZjg3elFSVkNCbnNlTXg1VFBXcmJyd21MdFhNc2M2MHp0VV9LSWVEa1U1RjdhUVZyQTlnTnJ5WTQyVmpKT1FHUUFYSG91VW8?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump"
 ]
 },
 "6eeaf6af702c": {
@@ -3187,7 +3157,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793465747.0,
 "tgtext": "\ud83d\udd25 LATEST: CZ says he never said Binance would sell its SpaceX shares and only mentioned it as a proof of funds.\n\nNews | Markets | YouTube",
 "title": "CZ says he never said Binance would sell its SpaceX shares and only mentioned it as a proof of funds.",
@@ -3991,21 +3961,6 @@
 "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236"
 ]
 },
-"8b897d807349": {
-"coin": "bitcoin",
-"src": "The Economic Times",
-"srcs": [
-"Benzinga",
-"InsuranceNewsNet",
-"The Economic Times"
-],
-"t": 1793293976.805062,
-"t0": 1793276613.0,
-"tgtext": "",
-"title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
-"url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWkQzTkRCTXE0XzBYMTlOZ1ZFbEtvTU42M0V5cGRKUjNGdTFhamNLbnVXWnFucDNTYmNINEgyaU0ySS1JajA3Sm5aU2ZSeWhDZ3kzMGxNMlRyTldOUmpWQUtCaGtSTzlzQ1RVVUNyZ2NHUlY4SGRPRVQ2eTdBbW9OZWRVLW9VUmpsRmJxTFM2Y3MwVURhNnhBMDFKMDAtblBRbHZpc0pTU3JiV0l1eUdtZ2tWcFhUUzJpTDlzR3ZQUDNYQURQbGJ2amZWbk5meGdmY000X0dUanlyc1kxZGFQeE9VZFhFWWJwS2JGNHJDRksxY2poazRwUjdFYWVCMjB5NGd6TlNLWVF6UdIBjwJBVV95cUxNNHVrbkFPeXhVUllteXp2Ri1uR3Z4b2ZYRGg2eDh2dm1tSjRpdWExbFJlMFFiWGNlTjQyM0tIbWpULTJvZHJ3MGFjSkl1REZ0Zm1FSkRNcEwtZ1Zmd2lxWUc2T2NYaDUwNElBbXRIUVBnNUJPcTd2SnZyRHhiVkNvenRPUElYS0k5WjNncE9FenpEOWZBS0VSWlVZWFZVMnlVZjctTU5lNUIwVVVzMDhXVGNlWDlaU0RDcmJ3T1dPZFhCaEYzRF9uR0hYbFMzUTlva0NPdERxbGZOUUxTdGhNUkp2QjdmMVRXR3NiWlJTMUpwZk8wcXluNTZKX2VlclU2dHRoMUNRejMzNGEzRHRR?oc=5",
-"urls": []
-},
 "8c04342543df": {
 "coin": "",
 "src": "Cointelegraph",
@@ -4092,26 +4047,6 @@
 "title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOYmFOLUNiWFJoWk1VZ1RhWTZocVNtVWRkbW9BOWdPX2Q4X0V3TndsRUI5ZWhnSFJrUzJfNEtsd0dlSEZiNS1qMnNmeW1Fbm5XSDZKeGp3MHJtd1ktOWlWX0EzcnVfR0pkRzE5TllGeHZLd2VNTUdwX2Zpbw?oc=5",
 "urls": []
-},
-"8fb6504da815": {
-"coin": "hyperliquid",
-"src": "Watcher.Guru",
-"srcs": [
-"CoinDesk",
-"Decrypt",
-"The Block",
-"Watcher.Guru"
-],
-"t": 1793293673.1268718,
-"t0": 1793272285.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hyperliquid $HYPE pumps 13% to $91 after NYSE said it'll bring its perpetual futures to regulated US markets.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 Hyperliquid HYPE pumps 13% to $91 after NYSE said it'll bring its perpetual futures to regulated US markets.",
-"url": "https://t.me/WatcherGuru/15668",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
-"https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
-"https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us"
-]
 },
 "909a237e38bc": {
 "coin": "",
@@ -5437,7 +5372,7 @@
 "FXEmpire",
 "Sky News"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793448000.0,
 "tgtext": "",
 "title": "US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019",
@@ -6866,7 +6801,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793457275.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.\n\nNews | Markets | YouTube",
 "title": "The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.",
@@ -7014,20 +6949,20 @@
 ]
 },
 "ec266ab30b9b": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
+"coin": "",
+"src": "CoinDesk",
 "srcs": [
 "Analytics Insight",
-"BigGo Finance",
 "CoinDesk",
 "Cointelegraph",
-"Finbold"
+"MarketForces Africa",
+"The Rahnuma Daily"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793446077.0,
 "tgtext": "",
-"title": "Nasdaq-Listed Firm With approximately $7.8 Million Market Cap Weighs Selling $449 Million in Bitcoin, Citing Binance Hack and Quantum Computer Risks",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0X0tzTTNxcU9aUlc3MFRiVWdKZGRBVlJXaEdzV0hWLTh6S0E2ZmxyS19iSkNjUHVISEVGWUY4Uk5FOF8xYmJOWGFuMEZFbE9vaWxiVk9uZmNWaEtEYkhUeFlOVUxrZjA1YzQzcFJYa19aM0M5NWc?oc=5",
+"title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+"url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
 "urls": [
 "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
 "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
@@ -7435,7 +7370,7 @@
 "srcs": [
 "Business Insider"
 ],
-"t": 1793466440.6239562,
+"t": 1793467050.505054,
 "t0": 1793465188.0,
 "tgtext": "",
 "title": "Binance says it's replenished losses after a record-breaking heist and will soon let users withdraw funds",
@@ -7630,11 +7565,11 @@
 },
 "probs": {
 "0ca964b04e54": 0.073,
-"1e0103930ab7": 0.369,
+"0ee81065182a": 0.121,
+"1e0103930ab7": 0.356,
 "209c175fca52": 0.943,
 "20aea2f41894": 0.042,
-"248465ee81cb": 0.078,
-"2aead7c1fb6d": 0.244,
+"2aead7c1fb6d": 0.066,
 "4b7d8358b8e7": 0.061,
 "4f8a58b653ac": 0.516,
 "5d79cd439b95": 0.107,
@@ -7644,31 +7579,31 @@
 "637165771283": 0.054,
 "65b2bf2d658e": 0.037,
 "693932b5097a": 0.061,
-"6b84ac32a4fd": 0.893,
-"714485ed53c6": 0.554,
+"6b556f5f9093": 0.036,
+"6b84ac32a4fd": 0.858,
+"714485ed53c6": 0.484,
 "75d536262d5a": 0.069,
 "78f7a83e386d": 0.086,
-"794da1671fe8": 0.084,
+"8192b48f8986": 0.307,
 "8651ba46d415": 0.023,
 "8b2d448e5122": 0.111,
 "9252056521a1": 0.06,
-"ab903c705511": 0.022,
+"ab903c705511": 0.028,
+"aed416b5319e": 0.028,
 "aee133301279": 0.217,
 "b3cac27ddae9": 0.754,
 "bf54bd55e102": 0.283,
 "c3a4f6686428": 0.094,
 "c71e3bfc31ea": 0.02,
 "d38eec0b35bb": 0.107,
-"da37f92aa047": 0.081,
 "daf4f89d7a5f": 0.044,
 "e0a412a93cb3": 0.081,
 "e955f6146631": 0.672,
 "eafc27413f8b": 0.152,
-"ec266ab30b9b": 0.62,
+"ec266ab30b9b": 0.709,
 "efbfa1d218ff": 0.031,
 "f7e7c51435c3": 0.492,
-"fc39b9c1f8f6": 0.116,
-"fe27a32a1924": 0.088
+"fc39b9c1f8f6": 0.116
 },
 "sent": [
 {
@@ -9094,63 +9029,63 @@
 [
 "209c175fca52",
 53,
-122,
+132,
 2
 ],
 [
 "6b84ac32a4fd",
 24,
-75,
+85,
 1
 ],
 [
 "b3cac27ddae9",
-74,
-307,
+72,
+318,
 9
+],
+[
+"ec266ab30b9b",
+68,
+350,
+7
 ],
 [
 "e955f6146631",
 26,
-153,
+163,
 1
 ],
 [
 "3c564a957bc8",
-8,
-275,
+6,
+285,
 2
-],
-[
-"ec266ab30b9b",
-69,
-339,
-9
-],
-[
-"714485ed53c6",
-18,
-12,
-1
 ],
 [
 "4f8a58b653ac",
 18,
-99,
+109,
 1
 ],
 [
 "f7e7c51435c3",
 60,
-21,
+31,
+1
+],
+[
+"714485ed53c6",
+18,
+22,
 1
 ],
 [
 "1e0103930ab7",
-69,
-338,
-5
+68,
+348,
+6
 ]
 ],
-"top_at": 1793466440.6239562
+"top_at": 1793467050.505054
 }
