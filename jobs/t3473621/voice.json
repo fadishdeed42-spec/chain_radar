@@ -1,0 +1,62 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "Hackers stole a record six point three billion dollar from Binance in history's biggest crypto heist.",
+   0.9,
+   0.42
+  ],
+  [
+   "North Korean attackers drained user wallets within minutes using automated transfer scripts, leveraging a compromised employee laptop.",
+   0.62,
+   0.32
+  ],
+  [
+   "Co-CEO Richard Teng immediately tapped the billion dollar S A F U emergency fund, futures reserves, and corporate treasury.",
+   0.66,
+   0.24
+  ],
+  [
+   "By Saturday morning, Dubai-based Binance used company money to buy back ninety percent of the assets from the market.",
+   0.9,
+   0.42
+  ],
+  [
+   "Users bore zero financial impact as withdrawal services prepared to reopen on Sunday as scheduled.",
+   0.88,
+   0.3
+  ],
+  [
+   "Leaving hackers with a historic heist that the world's largest exchange absorbed almost overnight through transparent reporting.",
+   0.55,
+   0.55,
+   "end"
+  ],
+  [
+   "Follow Chain Secrets.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Hackers stole a record six point three billion dollar from Binance in history's biggest crypto heist.",
+  "North Korean attackers drained user wallets within minutes using automated transfer scripts, leveraging a compromised employee laptop.",
+  "Co-CEO Richard Teng immediately tapped the billion dollar S A F U emergency fund, futures reserves, and corporate treasury.",
+  "By Saturday morning, Dubai-based Binance used company money to buy back ninety percent of the assets from the market.",
+  "Users bore zero financial impact as withdrawal services prepared to reopen on Sunday as scheduled.",
+  "Leaving hackers with a historic heist that the world's largest exchange absorbed almost overnight through transparent reporting.",
+  "Follow Chain Secrets."
+ ]
+}
