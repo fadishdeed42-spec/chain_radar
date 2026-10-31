@@ -221,7 +221,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1793417094.460268,
+"t": 1793417401.634474,
 "t0": 1793408457.0,
 "tgtext": "",
 "title": "Bitwise, Galaxy, and Morpho back CCI\u2019s new framework for U.S crypto vault regulations",
@@ -234,7 +234,7 @@
 "srcs": [
 "FOREX.com"
 ],
-"t": 1793417094.460268,
+"t": 1793417401.634474,
 "t0": 1793404932.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -427,7 +427,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793417094.460268,
+"t": 1793417705.8511522,
 "t0": 1793413807.0,
 "tgtext": "JUST IN: Anthropic says thousands of Claude AI agents bypassed safety monitors by hiding dangerous behavior in training data during internal test.\n\n@WatcherGuru",
 "title": "Anthropic says thousands of Claude AI agents bypassed safety monitors by hiding dangerous behavior in training data during internal test.",
@@ -589,6 +589,21 @@
 "https://cryptoslate.com/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock/"
 ]
 },
+"133238f65a6f": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk"
+],
+"t": 1793417401.634474,
+"t0": 1793407736.0,
+"tgtext": "",
+"title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
+"url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
+"urls": [
+"https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters"
+]
+},
 "16a7cb1e6ccf": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -662,7 +677,7 @@
 "srcs": [
 "ABC News & Headlines \u2013 Australian Broadcasting Corporation"
 ],
-"t": 1793417094.460268,
+"t": 1793417401.634474,
 "t0": 1793400612.0,
 "tgtext": "",
 "title": "Who is behind the largest crypto heist in history?",
@@ -2588,7 +2603,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1793417094.460268,
+"t": 1793417705.8511522,
 "t0": 1793400218.0,
 "tgtext": "",
 "title": "Machi Liquidated 8 Times in 6 Hours, Leaving Just $1.50",
@@ -2954,6 +2969,19 @@
 "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVWFCbHR0RlVtWDFnb25OSjVuREY4WEhMU1FWNVFkX3FEUGhGYUM1XzZ3X2h1WmRIUEFwSXR0VVBnSXlaRTNtOGNxWjJPeEQ4dVBEcGdUQmRaNU1vOE15T0tNNlk2ZUp3bHJzT2RSVkVHRUQ2NDBYQVU4N1JOWnljN1VoREstb1c4S1ZnNWNMVFZBUjhRRHJ2bG4wRjlpTXRZUkV3b2xoRy1DQUt0dU91NGxjSFQ4WFJNU212cGtXZFM3Y3l1TzFTcUpJYXhkay1BaEJuN3pueUtYdHR3VUtVeDI0aExLQThmUFJPdk9lMHZ3Y05oNWNj?oc=5",
 "urls": []
 },
+"74850d908cb4": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1793417705.8511522,
+"t0": 1793417474.0,
+"tgtext": "Highlight Clip: Binance Co-CEO: Binance's Own Hot Wallet Was Compromised, Customer Funds Were Unaffected\n\nBinance Co-CEO: Binance's Own Hot Wallet Was Compromised, Customer Funds Were Unaffected\n\nBinance Co-CEO Richard Teng addressed users on October 30 following a roughly $6.3 billion hack, stating that Binance's own hot wallet was compromised while customer funds remained unaffected. He explained that most user assets are stored in cold wallets and only moved to hot wallets for withdrawals. Teng said Binance would cover all losses using company funds, with over $6.34 billion reserved, including $5 billion already held in affected assets such as USDC, USDT, BTC, ETH, and BNB. Binance is purchasing the remaining tokens through open-market and OTC transactions. To address concerns about asset safety, Teng said Binance plans to release an initial Proof of Reserves for public verification on Monday. \u2014 link",
+"title": "Highlight Clip: Binance Co-CEO: Binance's Own Hot Wallet Was Compromised, Customer Funds Were Unaffected",
+"url": "https://t.me/wublockchainenglish/26627",
+"urls": []
+},
 "75ec6909677e": {
 "coin": "bitcoin",
 "src": "CryptoPotato",
@@ -3011,7 +3039,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1793416178.45721,
+"t": 1793417705.8511522,
 "t0": 1793404973.0,
 "tgtext": "",
 "title": "Stock Market Crash: Why US Stocks Now Swing Like Meme Tokens",
@@ -3406,7 +3434,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1793417094.460268,
+"t": 1793417705.8511522,
 "t0": 1793397607.0,
 "tgtext": "",
 "title": "Binance seeks to shore up confidence after record $6.3 billion heist",
@@ -3838,19 +3866,6 @@
 "tgtext": "A $BTC short got liquidated for 174.86 $BTC ($13.74M) as the market rebounded.\n\nhttps://hypurrscan.io/address/0x4b62652d2f176bf5422c8157c5b37984837d57ca#txs",
 "title": "A BTC short got liquidated for 174.86 BTC ($13.74M) as the market rebounded.",
 "url": "https://t.me/lookonchainchannel/10845",
-"urls": []
-},
-"987477c38274": {
-"coin": "",
-"src": "www.tokenpost.com",
-"srcs": [
-"www.tokenpost.com"
-],
-"t": 1793244423.5148637,
-"t0": 1793232720.0,
-"tgtext": "",
-"title": "Crypto Liquidations Reach $150.3 Million, With Shorts Taking 65%",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MTEtXRHVxQmtzNnV6X2YtTkJUYkZrNGMtOEVHOEtGTVJjQXNsTHpvMXduaUY4bk13MGMtbFVGazk4QU5YUVlRZE9ybE5odldldk4xdUVXNEtNdw?oc=5",
 "urls": []
 },
 "993f9a4415b2": {
@@ -4886,7 +4901,7 @@
 "srcs": [
 "unchainedcrypto.com"
 ],
-"t": 1793416790.2402086,
+"t": 1793417705.8511522,
 "t0": 1793405959.0,
 "tgtext": "",
 "title": "Franklin Templeton\u2019s Dividend-to-Bitcoin ETFs Open on Nasdaq With About $72,000 in Trades",
@@ -4967,7 +4982,7 @@
 "srcs": [
 "Financial Times"
 ],
-"t": 1793417094.460268,
+"t": 1793417401.634474,
 "t0": 1793398378.0,
 "tgtext": "",
 "title": "Binance rushes to recover customer money after $6.3bn heist",
@@ -5526,7 +5541,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1793416178.45721,
+"t": 1793417705.8511522,
 "t0": 1793405098.0,
 "tgtext": "",
 "title": "Why Is Gold Going Down? Gold Falls 27% From Its Record",
@@ -5733,7 +5748,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1793417094.460268,
+"t": 1793417401.634474,
 "t0": 1793411734.0,
 "tgtext": "",
 "title": "Crypto ETFs now include many altcoins beyond Bi...",
@@ -6100,7 +6115,7 @@
 "srcs": [
 "CBS News"
 ],
-"t": 1793416482.9935744,
+"t": 1793417705.8511522,
 "t0": 1793402568.0,
 "tgtext": "",
 "title": "$6 billion stolen in crypto hack, expert says financial institutions are \"tested on a daily basis\"",
@@ -6458,7 +6473,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1793417094.460268,
+"t": 1793417705.8511522,
 "t0": 1793396184.0,
 "tgtext": "",
 "title": "TRON (TRX) Rose on the Day of the Binance Hack While Bitcoin, Ethereum and XRP Fell. What Is Holding It Up?",
@@ -6896,6 +6911,19 @@
 "url": "https://t.me/lookonchainchannel/10821",
 "urls": []
 },
+"fad23ce5e1c4": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793417705.8511522,
+"t0": 1793417510.0,
+"tgtext": "Binance is buying back the stolen assets through market channels and OTC deals.\n\nOver the past 8 hours, Ethena(@ethena) has deposited 128.63M $ENA ($24M) into #Binance.\n\nhttps://arkm.com/explorer/address/0xD45e232819045d9D34fd107d19b594170515580E",
+"title": "Binance is buying back the stolen assets through market channels and OTC deals.",
+"url": "https://t.me/lookonchainchannel/10858",
+"urls": []
+},
 "fb7aeea266d7": {
 "coin": "bitcoin",
 "src": "FXStreet",
@@ -6978,26 +7006,29 @@
 },
 "probs": {
 "066e3529303e": 0.058,
-"06bd4b321530": 0.097,
 "0dc4774f0b5d": 0.141,
 "133238f65a6f": 0.057,
 "186ae44d9291": 0.102,
 "3ed81f144f5f": 0.026,
-"477ab1691ca4": 0.037,
 "5024fce5af70": 0.008,
 "66a7cbc4add2": 0.129,
 "72424608152d": 0.04,
+"74850d908cb4": 0.755,
+"785471136718": 0.164,
 "7d3135276a10": 0.033,
 "7da4b01c9d19": 0.017,
 "852178684dca": 0.296,
-"90d8af1cb9c3": 0.011,
+"90d8af1cb9c3": 0.029,
 "999d5fe6da7c": 0.023,
-"ac500f69330f": 0.169,
+"b4daf66c3e3f": 0.164,
 "b6f970f91beb": 0.049,
 "b7b5adb54be3": 0.097,
+"cba5dc9b8658": 0.111,
 "d2b47d7a8aad": 0.064,
+"de78dade4c11": 0.135,
 "df0dac5e9f6a": 0.034,
 "ec64dd2b41f4": 0.546,
+"fad23ce5e1c4": 0.94,
 "fe2fceb2ffd6": 0.044
 },
 "sent": [
@@ -8939,65 +8970,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"ec64dd2b41f4",
-68,
-349,
-13
-],
-[
-"852178684dca",
-41,
-325,
+"fad23ce5e1c4",
+43,
+3,
 1
 ],
 [
-"ac500f69330f",
-43,
-176,
+"74850d908cb4",
+23,
+4,
+1
+],
+[
+"ec64dd2b41f4",
+67,
+359,
+12
+],
+[
+"852178684dca",
+40,
+335,
+1
+],
+[
+"785471136718",
+16,
+212,
+1
+],
+[
+"b4daf66c3e3f",
+8,
+196,
 1
 ],
 [
 "0dc4774f0b5d",
 10,
-55,
+65,
+1
+],
+[
+"de78dade4c11",
+41,
+252,
 1
 ],
 [
 "66a7cbc4add2",
-12,
-281,
+11,
+291,
 1
 ],
 [
-"186ae44d9291",
-23,
-275,
-1
-],
-[
-"06bd4b321530",
-17,
-203,
-1
-],
-[
-"b7b5adb54be3",
-31,
-312,
-1
-],
-[
-"d2b47d7a8aad",
-10,
-89,
-1
-],
-[
-"066e3529303e",
-10,
-144,
+"cba5dc9b8658",
+18,
+210,
 1
 ]
 ],
-"top_at": 1793417094.460268
+"top_at": 1793417705.8511522
 }
