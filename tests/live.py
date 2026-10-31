@@ -1,6 +1,6 @@
 """Live checks against the real AI (manual workflow: tests.yml). Prints a result table; exits 1 if a check fails.
 python tests/live.py length"""
-import sys, os, json, time
+import sys, os, json, time, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from helpers import *
 import builtins, atexit
@@ -144,11 +144,48 @@ def live_script():
     return ok == 2
 
 
+def live_bot():
+    """Every command through the real code with Telegram swapped out: what it answers and how long it takes."""
+    r = radar(); out = []; pics = [0]
+    os.makedirs('sample_out', exist_ok=True)
+
+    def fake_tg(text, photo=None, buttons=None):
+        out.append(('MSG', str(text), buttons))
+        if photo:
+            pics[0] += 1; open(f'sample_out/bot_{pics[0]:02d}.png', 'wb').write(photo); out.append(('PIC', f'bot_{pics[0]:02d}.png', None))
+        return {'message_id': 1}
+    r.tg = fake_tg; r.ack = lambda *a, **k: out.append(('ACK', str(a[:1]), None)); r.unack = lambda: None; r.chat_action = lambda *a: None
+    r.git_sync = lambda *a, **k: None; r.studio_index = lambda *a, **k: None
+    r.send_menu = lambda *a, **k: None
+    tgs = {'menu': {}, 'shorts': {}, 'replies': {}, 'packages': {}}
+    me = str(r.CHAT)
+    cases = ['/help', '/top', '/viral', '/story Binance hack North Korea', '/today', '$SOL', 'chart pepe',
+             '/reply JUST IN: Binance says it has replaced 90% of the $6.3 billion stolen in the hack.']
+    ok = True
+    for c in cases:
+        out.clear(); t0 = time.time()
+        try:
+            r.handle({'update_id': 1, 'message': {'from': {'id': me}, 'chat': {'id': me}, 'text': c}}, tgs)
+            err = ''
+        except Exception as e:
+            err = repr(e)[:200]; ok = False
+        dt = time.time() - t0
+        print(f'\n######## {c}   ({dt:.1f}s){"  ERROR " + err if err else ""}')
+        for kind, txt, b in out:
+            if kind == 'MSG':
+                print(re.sub(r'<[^>]+>', '', txt)[:1400])
+                if b: print('   [buttons]', str(b)[:200])
+            else:
+                print(f'   [{kind}] {txt}')
+    return ok
+
+
 if __name__ == '__main__':
     what = sys.argv[1] if len(sys.argv) > 1 else 'all'
     results = {}
     if what in ('length', 'all'): results['length'] = live_length()
     if what in ('script', 'all'): results['script'] = live_script()
+    if what == 'bot': results['bot'] = live_bot()
     if what in ('replies', 'all'): results['replies'] = live_replies()
     if what in ('package', 'all'): results['package'] = live_package()
     if what in ('chart', 'all'): results['chart'] = live_chart()
