@@ -160,7 +160,7 @@ def live_bot():
     tgs = {'menu': {}, 'shorts': {}, 'replies': {}, 'packages': {}}
     me = str(r.CHAT)
     log = []
-    _p = print
+    _p = _orig_print
     def print(*a, **k):
         log.append(' '.join(str(x) for x in a)); _p(*a, **k)
     cases = ['/help', '/top', '/viral', '/story Binance hack North Korea', '/today', '$SOL', 'chart pepe',

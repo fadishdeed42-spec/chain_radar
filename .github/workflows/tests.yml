@@ -31,4 +31,4 @@ jobs:
           [ -d sample_out ] || exit 0
           git config user.name "tests"; git config user.email "tests@users.noreply.github.com"
           git checkout --orphan samples; git rm -rf . -q 2>/dev/null || true
-          mkdir -p s && cp sample_out/*.png sample_out/*.txt s/ 2>/dev/null; git add s && git commit -q -m "samples" && git push -f -q origin samples
+          mkdir -p s && (cp sample_out/* s/ 2>/dev/null || true); git add s && git commit -q -m "samples" && git push -f -q origin samples
