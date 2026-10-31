@@ -2042,7 +2042,7 @@ def script_review(sb, facts):
     j = gemini_json(strong=True, prompt='You are a strict fact-checker and script editor for a true-crime crypto Short. Check every line against ONLY the FACTS.\n'
                     'Flag a line if it (a) states a number, date, name, place, cause or event the FACTS do not support, (b) gets a fact wrong '
                     '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount; a headline publication date is NOT the event date), or (c) is filler with no concrete fact '
-                    '(only adjectives or mood). Jokes and the detective voice are fine if the facts in them are true.\n\n'
+                    '(ONLY adjectives or mood, no fact at all). Vivid storytelling, tension, jokes and the detective voice are GOOD: never flag a line for its wording when it also carries a true fact.\n\n'
                     f'FACTS:\n{facts[:12000]}\n\nLINES:\n{lst}\n\n'
                     'Return JSON only: {"lines": [{"n": 1, "problems": ["short reason quoting the bad words"]}]} (empty list when a line is fine).')
     out = {}
@@ -2072,9 +2072,9 @@ def story_pass(sb, facts):
     Kept only if the length stays inside the window and no number was added or lost."""
     sc = sb['scenes']
     cur = '\n'.join(f'{i + 1}. ({x.get("emotion", x["role"])}, keep the word "{x["hit"]}") {x["line"]}' for i, x in enumerate(sc))
-    raw = gemini_json('You are the narrator of a viral true-crime crypto YouTube Short. Rewrite each line so it sounds like a gripping story told out loud, not a news report: '
+    raw = gemini_json(strong=True, prompt='You are the narrator of a viral true-crime crypto YouTube Short. Rewrite each line so it sounds like a gripping story told out loud, not a news report: '
                       'put the viewer inside the moment, build tension toward the twist, short spoken sentences (6 to 14 words), contractions, at most one question to the viewer. '
-                      'Each line keeps its feeling (in brackets), its kept word, about the same number of words, and EXACTLY the same facts, numbers, names and dates. '
+                      'Each line keeps its feeling (in brackets), its kept word, about the same number of words, and EXACTLY the same facts, names and dates; numbers stay written in digits exactly as they are ($6.3B, 90%, 2026). Do not repeat the same number in several lines. '
                       'Add nothing that is not in the line or the FACTS. Never write role tags. The last line must close the story and echo the first line.\n\n'
                       f'LINES:\n{cur}\n\nFACTS:\n{facts[:6000]}\n\nReturn JSON only: {{"lines": [{{"n": 1, "line": "..."}}, ...]}} with all {len(sc)} lines.')
     try:
@@ -2207,7 +2207,7 @@ FORMAT (JSON only):
 STORY: {topic}
 {facts}
 ''' + (f'\nYour previous storyboard had these problems, fix them: {fix}\n' if fix else ''))
-    raw = gemini_json(prompt)
+    raw = gemini_json(prompt, strong=True)
     if isinstance(raw, dict):
         raw['length'] = length
     return raw
