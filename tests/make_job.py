@@ -30,6 +30,7 @@ for attempt in range(2):
 assert best, 'no script'
 r.save_job(jid, best, 'draft')
 open(f'jobs/{jid}/autorender.flag', 'w').write('1')
+open(f'jobs/{jid}/hold.flag', 'w').write('1')                       # test videos wait for review before they are sent
 lines = '%0A'.join(f'{i}. {x["line"]}' for i, x in enumerate(best['scenes'], 1)).replace('%', '%25').replace('%250A', '%0A')
 print(f'::notice title=script {jid} ({best["words"]} words, flags {len(best["review"])})::' + best.get('title', '') + '%0A' + lines + '%0Aflags: ' + json.dumps(best['review'])[:600])
 print('respell', best.get('respell'))

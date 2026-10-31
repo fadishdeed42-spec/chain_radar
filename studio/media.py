@@ -86,7 +86,7 @@ def _clip_ok(path, min_s=2.5):
 def _vision_ok(path, kind, words, q):
     """Does the picture literally show what the narration says? Gemini looks at one frame. Fails open (True) if it can't judge."""
     keys = [k for k in (os.environ.get('GEMINI_API_KEY', ''), os.environ.get('GEMINI_API_KEY_2', '')) if k]
-    if not keys: return True
+    if not keys: return None
     import base64, cv2
     try:
         if kind == 'video':
@@ -94,12 +94,12 @@ def _vision_ok(path, kind, words, q):
             cap.set(cv2.CAP_PROP_POS_FRAMES, max(0, n // 3)); ok, fr = cap.read(); cap.release()
         else:
             fr = cv2.imread(path); ok = fr is not None
-        if not ok: return True
+        if not ok: return None
         h, w = fr.shape[:2]; k = 512 / max(h, w)
         fr = cv2.resize(fr, (int(w * k), int(h * k))) if k < 1 else fr
         b64 = base64.b64encode(cv2.imencode('.jpg', fr, [cv2.IMWRITE_JPEG_QUALITY, 80])[1].tobytes()).decode()
     except Exception as e:
-        print('vision frame fail', repr(e)[:80]); return True
+        print('vision frame fail', repr(e)[:80]); return None
     prompt = (f'A short documentary video says: "{words}". We want a background picture that shows this literally (search was "{q}"). '
               'Does this frame fit? It must show the thing said (or a clearly related scene), not a random or misleading place/object '
               '(for example a temple for "government building", a door for "launched a company", animals, beaches, forests or confetti for news about hackers, money or courts, or a cartoon for a real event are NOT ok). '
@@ -107,12 +107,12 @@ def _vision_ok(path, kind, words, q):
               'Reply JSON only: {"ok": true or false, "why": "max 8 words"}')
     body = {'contents': [{'parts': [{'text': prompt}, {'inline_data': {'mime_type': 'image/jpeg', 'data': b64}}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}}
     import time as _t
-    for rnd in range(3):                                            # Google busy: wait and ask again before letting a clip through unchecked
+    for rnd in range(4):                                            # Google busy: wait and ask again before letting a clip through unchecked
       if rnd: _t.sleep(4 * rnd)
       for key in keys:
         for model in ('gemini-flash-latest', 'gemini-flash-lite-latest'):
               try:
-                  r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, json=body, timeout=20)
+                  r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, json=body, timeout=30)
                   if r.ok:
                       t = ''.join(p.get('text', '') for p in r.json()['candidates'][0]['content']['parts'])
                       j = json.loads(re.search(r'\{.*\}', t, re.S).group(0))
@@ -121,8 +121,7 @@ def _vision_ok(path, kind, words, q):
                   if r.status_code != 429: print('  vision', model, r.status_code); continue
               except Exception as e:
                   print('  vision err', repr(e)[:80])
-    return True
-
+    print('  vision: no answer -> clip not used'); return None   # never let an unchecked clip through
 
 def pixabay_photo(q, used):
     if not KEY or not q: return None
@@ -200,13 +199,13 @@ def fetch_shots(job, sb, got, used):
                         try: get(m['url'], os.path.join(job, f))
                         except Exception: continue
                         if not _clip_ok(os.path.join(job, f)): continue
-                        if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq): done = (m, f); break
+                        if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq) is True: done = (m, f); break
                     if done: break
                 if not done:                                                   # no video matched: a real photo instead
                     m = pixabay_photo(q, used)
                     if m and take(m):
                         f = f'media/{i}_s{k}.jpg'; get(m['url'], os.path.join(job, f))
-                        if _vision_ok(os.path.join(job, f), 'photo', sh.get('words', ''), q): done = (m, f)
+                        if _vision_ok(os.path.join(job, f), 'photo', sh.get('words', ''), q) is True: done = (m, f)
                 if not done: print('shot: no match for', i, k, q); continue
                 m, f = done
                 with lock: n[0] += 1
@@ -215,10 +214,12 @@ def fetch_shots(job, sb, got, used):
             except Exception as e:
                 print('shot fail', i, k, q, repr(e)[:100])
         if out:
-            got[str(i)] = {'kind': out[0]['kind'], 'file': out[0]['file'], 'credit': ' · '.join(sorted(set(credits))), 'real': False, 'q': shots[0].get('q', ''), 'shots': out}
+            if got.get(str(i), {}).get('real'):                                # real photo of the person/company stays (round portrait); footage goes behind it
+                got[str(i)]['shots'] = out; got[str(i)]['credit'] += ' · ' + ' · '.join(sorted(set(credits)))
+            else:
+                got[str(i)] = {'kind': out[0]['kind'], 'file': out[0]['file'], 'credit': ' · '.join(sorted(set(credits))), 'real': False, 'q': shots[0].get('q', ''), 'shots': out}
 
-    todo = [(i, sc) for i, sc in enumerate(sb['scenes'])
-            if sc.get('shots') and sc['visual']['type'] != 'chart' and not got.get(str(i), {}).get('real')]
+    todo = [(i, sc) for i, sc in enumerate(sb['scenes']) if sc.get('shots') and sc['visual']['type'] != 'chart']
     with ThreadPoolExecutor(4) as ex:
         list(ex.map(lambda a: scene(*a), todo))
 

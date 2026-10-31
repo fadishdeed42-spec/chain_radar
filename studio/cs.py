@@ -148,7 +148,7 @@ def lesson_layer(cv, t):
     if not LESSON or LESSON_T is None or CTA is None or not (LESSON_T - .1 <= t < CTA + .3): return
     q = back(seg(t, LESSON_T - .1, LESSON_T + .35)); o = seg(t, CTA - .05, CTA + .3)
     al = clamp(q) * (1 - o)
-    cv.fill(BG, .94 * al)
+    cv.fill(BG, al)
     cv.rect(W / 2 - 330 * q, 560 - 46 * q, W / 2 + 330 * q, 560 + 46 * q, GOLD, al, r=46 * q)
     cv.text(W / 2, 560, '🕵 CHAIN SECRETS LESSON'.replace('🕵 ', ''), 'black', 38, BG, al, anchor='cm', scale=max(.01, q), track=6)
     for k, ln in enumerate(wrap_lines(LESSON.upper(), 18)[:4]):

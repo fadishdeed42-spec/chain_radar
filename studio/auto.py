@@ -195,10 +195,9 @@ def media_frame(i, t):
 
 def backdrop(cv, t, i):
     if i not in MEDIA: return
-    a = 1.0 if i == len(SCN) - 1 else fade(t, i)
-    if i == 0 and len(SCN) > 1: a = 1 - seg(t, P(1) - .2, P(1))
+    a = out3(seg(t, P(i) - .02, P(i) + .08)) if i else 1.0                  # hard cut in, no fade to black between scenes
     if a <= .01: return
-    real_person = MEDIA[i].get('real') and SCN[i]['visual']['type'] == 'person'
+    real_person = MEDIA[i].get('real') and SCN[i]['visual']['type'] == 'person' and i not in SHOTS
     im = media_frame(i, t)
     if im is None: return
     if real_person:                                                       # the portrait is drawn sharp; behind it a soft blur of it
@@ -212,7 +211,10 @@ def backdrop(cv, t, i):
 
 def portrait(cv, i, cx, cy, r, alpha):
     """real photo in a round frame (face = upper part of the photo)"""
-    c = _cache.get(('src', i)) or (media_frame(i, P(i)) is not None and _cache.get(('src', i)))
+    if ('pphoto', i) not in _cache:
+        im = cv2.imread(os.path.join(JOB, MEDIA[i]['file']), cv2.IMREAD_COLOR) if i in MEDIA and MEDIA[i].get('kind') == 'photo' else None
+        _cache[('pphoto', i)] = {'img': cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) if im is not None else None}
+    c = _cache[('pphoto', i)]
     if not c or c.get('img') is None or r < 4 or alpha <= 0: return False
     sz = int(2 * r * K)
     if ('por', i, sz) not in _cache:
@@ -400,7 +402,7 @@ def sc_counter(cv, t, i, v, a):
     ic = v.get('icon') or ('bitcoin' if 'BTC' in suf.upper() else 'cash' if '$' in pre else None)
     if SCN[i]['role'] != 'hook': kicker(cv, t, i, a)
     if ic: icon(cv, ic, W / 2, 680, back(seg(t, P(i), P(i) + .4)) * .85, a, t)
-    p = out3(seg(t, h - .25, h + .75))
+    p = out3(seg(t, P(i) + .1, max(P(i) + .7, h + .25)))                 # counts up from the scene start, lands on the hit word
     s = fmt_num(val * p, pre, suf, abs(val))
     size = fit(fmt_num(val, pre, suf), 'black', 130, 900)
     yc = 1050 if ic else 880
@@ -591,7 +593,7 @@ STICK_Y = 1410
 def overlay(cv, t, i):
     """beat stickers: short facts that pop in on their word, alternate sides, leave when the next one comes"""
     receipt_card(cv, t, i)
-    bs = BEATS[i]; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
+    bs = BEATS[i] if SCN[i]['visual']['type'] != 'flow' else []; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
     shown = [b for b in bs if b['text']]
     for n, b in enumerate(shown):
         t0 = b['t']; t1 = shown[n + 1]['t'] if n + 1 < len(shown) else scene_end(i)

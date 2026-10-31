@@ -2252,7 +2252,7 @@ HOUSE RULES
   each on a LATER word of the same line than "hit" (a name, number, place or action word), with 1-3 words of on-screen text that ADD info
   (an amount, a place, a date, a nickname), never a copy of the caption.
 - "shots": 3-5 per scene (a new picture every 1.5-2.5 seconds), one for each spoken phrase, in order; the first starts at the beginning of the line. "words" is copied EXACTLY from the line,
-  "q" is a concrete filmable search that shows literally what those words say ("poker game" -> 'poker cards chips', "sold his apartment" -> 'apartment keys house', "flipping burgers" -> 'cooking burgers grill').
+  "q" is a concrete filmable search that shows literally what those words say (avoid words with a second meaning: seal, bull, bear, mint, key, token, cell, bar, ring) ("poker game" -> 'poker cards chips', "sold his apartment" -> 'apartment keys house', "flipping burgers" -> 'cooking burgers grill').
   The picture must match the words, never a generic mood. If a phrase has nothing filmable (a name, an abstract idea) leave it out.
 - "footage": a concrete, filmable stock-video search for the background of that scene (things/places/actions, never a named person: 'courtroom gavel',
   'bitcoin mining farm', 'luxury yacht', 'trading screens red'). "photo": only for a REAL named person, company or place that has a Wikipedia photo.
