@@ -13,7 +13,8 @@
 1793439687.8581157,
 1793450912.2510288,
 1793457289.6964211,
-1793457596.226955
+1793457596.226955,
+1793462169.8521385
 ],
 "menu": {
 "005a3baab7aa": {
@@ -631,24 +632,6 @@
 "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc2hPV0RQRGNWMnRSdlJpakUwSUY4QmJfcVotSm5WeTlGSFB6YllMSnpGQmF0MHBsSE5nZl9fX0gwUG9sbmdCc3FUdG9iQlhZR0cyM0loelVtcmVsdzJiNlNEOUpZS2VMN0NYbzJweENRRFdGazc3UnRNSXdsMkVXT3NwS1pNUFMxdHZzYTR6c1RzNmd0X3dFVnk2Y3NGbUFYZDM3TU9WREFLNldoaE5udlhMTlFwUXVQNUs0eVVqckluT3RSSG1oWQ?oc=5",
 "urls": []
 },
-"16f78a415bb6": {
-"coin": "bitcoin",
-"src": "FXStreet",
-"srcs": [
-"CoinDesk",
-"FXStreet",
-"InsuranceNewsNet",
-"TradingView"
-],
-"t": 1793289084.8793232,
-"t0": 1793267937.0,
-"tgtext": "",
-"title": "Bitcoin Price Forecast: BTC slides below $80,000 as Fed holds rates steady with a hawkish tone",
-"url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUzVCYUJPMmk2ekRjTjJOanZ5UWYwdUJHaHFHQzdIM2JzeEFGOGRTYVBsWVV2MDhjQXdibWhLNmxrVEVjMy04XzdvdEV0Z0hYby1mRkNhQjlmd0wtUWJUbG5OU1drUXluWF9BOVBFRll4YlRBR21BWHVIci1YWGJkS21TRV9vQzJzaW04YUdPbHJnNlBMdWJZUFN0eE9vRmlwNG80Y2d3S0xPelYwRkE0bGw0X1d3UE8zdnBMZ1RZekRDVU95LWtFUkhDSjQwMlcySVdyQ3VzdnFXa050R0VDNGNHM2hiZlU?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump"
-]
-},
 "1785377f8d36": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -966,12 +949,14 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793459120.0,
 "tgtext": "Binance: 90% of Stolen Assets Replenished; Withdrawals Set to Resume on Nov. 1\n\nBinance announced that it has now replenished 90% of the stolen asset shortfall. The top ten major tokens\u2014including BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD, and ZEC\u2014are now 100% fully backed by reserves. The funding sources for this replenishment include: a partial deployment of the SAFU, reallocated balances from the Futures Insurance Fund exceeding regulatory and risk-management requirements, and Binance\u2019s own corporate treasury. Binance committed to subsequently replenishing SAFU back to approximately US$1 billion. Additionally, the exchange stated that withdrawal services remain on track to resume on November 1 as previously scheduled. \u2014 link\n\ud83d\udd25 HUGE: Binance has announced that 90% of the stolen assets have been replenished.\n\nNews | Markets | YouTube",
 "title": "Binance: 90% of Stolen Assets Replenished; Withdrawals Set to Resume on Nov. 1",
 "url": "https://t.me/wublockchainenglish/26634",
-"urls": []
+"urls": [
+"https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "20a534938af0": {
 "coin": "",
@@ -1821,7 +1806,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793449927.0,
 "tgtext": "ICE Reposts Trade[XYZ] Partnership Announcement, Emphasizing \"Plans to Bring\" and \"Subject to Regulatory Approvals\"\n\nFollowing the deletion of its earlier post, Intercontinental Exchange (ICE) reposted its partnership announcement with Trade[XYZ]. In the updated post, ICE amended its phrasing to emphasize that the two parties \"plan to bring Hyperliquid-based perps to the U.S.\" and that operating \"U.S. regulated versions\" remains strictly \"subject to regulatory approvals,\" with both parties seeking approvals to launch a new market built on Hyperliquid to operate KYC-compliant perp markets, including approvals to support leveraged trading. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].\n\nThis comes after X users were pointing out a deleted tweet on the matter\n\nNews | Markets | YouTube",
 "title": "HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].",
@@ -2193,11 +2178,11 @@
 "srcs": [
 "AP News",
 "Analytics Insight",
-"BigGo Finance",
 "Bloomberg.com",
-"CNBC"
+"CNBC",
+"CoinDesk"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793440730.0,
 "tgtext": "",
 "title": "US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019",
@@ -2289,7 +2274,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793460498.0,
 "tgtext": "JUST IN: Elon Musk says Tesla and SpaceX have created significant wealth for hundreds of thousands of employees and boosted retirement savings for hundreds of millions of people.\n\n@WatcherGuru",
 "title": "Elon Musk says Tesla and SpaceX have created significant wealth for hundreds of thousands of employees and boosted retirement savings for hundreds of millions of people.",
@@ -2743,6 +2728,21 @@
 "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xQ2pGODNKLWl6SkhOR05VZ0Jfa2NUV1VtdFdsSUJwUjBONzN2NWZLZERJRGh4YlVRWk9Qa2ZxOFB4SGRXWElfVGJrWXhUZkE0V1hGYXlPX09xNUVLejN4ajZUOVRaMWNYc1Ezdi00cm5xZw?oc=5",
 "urls": []
 },
+"6224bb8b648e": {
+"coin": "bitcoin",
+"src": "CryptoRank",
+"srcs": [
+"Crypto News",
+"CryptoRank",
+"Yahoo Finance"
+],
+"t": 1793461866.0407078,
+"t0": 1793442600.0,
+"tgtext": "",
+"title": "Bitcoin ETFs Bleed $643M in Biggest Exit Since June: What\u2019s Next?",
+"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlpoSzJtR0xtR3ZzU0Y0eUpPZkMtVG8zeTF4ZGl6MUQxM1JtejNlakZoSHNsZ2lmbGRtY2IxNmNBY1VmMi1jT05kZWVvWDVlTlA5RjFoVmNHMUREbFhtLVpEYnV5UnhocWREdWNaYUFMb0tTcXkxM2JIWHJ2eUR6X1VTQXVlaXB5NmNxSDFZMlRGWGJETE9ZVjlwTzRIVnlW?oc=5",
+"urls": []
+},
 "62b5354ed41c": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2989,6 +2989,19 @@
 "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
 "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"6b84ac32a4fd": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1793462169.8521385,
+"t0": 1793461965.0,
+"tgtext": "Binance SAFU Fund transferred 7,500 $BTC($580.88M) to a new wallet an hour ago.\n\nhttps://arkm.com/explorer/address/1BAuq7Vho2CEkVkUxbfU26LhwQjbCmWQkD",
+"title": "Binance SAFU Fund transferred 7,500 BTC($580.88M) to a new wallet an hour ago.",
+"url": "https://t.me/lookonchainchannel/10860",
+"urls": []
 },
 "6bb4a5270274": {
 "coin": "",
@@ -3765,7 +3778,7 @@
 "srcs": [
 "CTV News"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793452563.0,
 "tgtext": "",
 "title": "Brampton truck driver charged in crash that killed Toronto traffic agent",
@@ -5706,7 +5719,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793457009.0,
 "tgtext": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)\n\nOur last update explained that Binance had set aside more than $6.34B in company funds to cover hacked losses, and we had already covered approximately 80% of the impacted amount of the hacked loss at that time. That covered amount is now up to 90%. \n\n\ud83d\udc49\ud83c\udffbLearn more here",
 "title": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)",
@@ -6861,7 +6874,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793461256.4410663,
+"t": 1793462169.8521385,
 "t0": 1793457275.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.\n\nNews | Markets | YouTube",
 "title": "The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.",
@@ -7016,7 +7029,7 @@
 "MarketForces Africa",
 "The Rahnuma Daily"
 ],
-"t": 1793461559.8748639,
+"t": 1793462169.8521385,
 "t0": 1793446077.0,
 "tgtext": "",
 "title": "Bitcoin Sinks Below $77k As Binance Security Breach Stokes Sell-Off",
@@ -7087,6 +7100,19 @@
 "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
 "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears"
 ]
+},
+"efb4c21fd90e": {
+"coin": "bitcoin",
+"src": "The Market Periodical",
+"srcs": [
+"The Market Periodical"
+],
+"t": 1793462169.8521385,
+"t0": 1793442830.0,
+"tgtext": "",
+"title": "Is Uptober Dead? Bitcoin Whales Buy 1,900 BTC Amid Market Crash",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92ZjA5akJuaEw5SUN0RHNNTEE3UDRZeUxwRzMyUGFobFA1WURpTThndzFlNV9CN3ZNWjhLNnVmNHNOWUlVZnpYNVFMRUYxc29wRDl1SklEb3hoUndBUTBONVZHUUt6VzB5YlptbzJYdHhPcWpfc21Ncm1WM0cwbFU?oc=5",
+"urls": []
 },
 "f0349604383f": {
 "coin": "",
@@ -7573,180 +7599,47 @@
 },
 "probs": {
 "0ca964b04e54": 0.073,
-"13315d0a51a4": 0.091,
-"18de53299939": 0.144,
-"1e0103930ab7": 0.114,
+"18de53299939": 0.082,
+"1e0103930ab7": 0.164,
 "1f410aa85882": 0.018,
-"209c175fca52": 0.96,
+"209c175fca52": 0.97,
 "20aea2f41894": 0.016,
 "247b32e6d7b4": 0.081,
 "2aead7c1fb6d": 0.087,
 "2bfe24389158": 0.076,
 "2f3c29f4ccf1": 0.033,
-"368aa004ab65": 0.589,
 "3c1b6c10d6d5": 0.251,
 "3c564a957bc8": 0.588,
-"4a6c6c2d86c7": 0.469,
+"4a6c6c2d86c7": 0.562,
 "4e7e202f8a22": 0.159,
-"4f8a58b653ac": 0.661,
+"4f8a58b653ac": 0.596,
 "55ea9e73178d": 0.031,
 "5ff8955bf5de": 0.105,
 "62e79b446fac": 0.116,
 "637165771283": 0.054,
 "693932b5097a": 0.061,
+"6b84ac32a4fd": 0.965,
 "75d536262d5a": 0.107,
 "794da1671fe8": 0.084,
 "8192b48f8986": 0.307,
 "8651ba46d415": 0.023,
 "9222a61d3a3f": 0.057,
-"96f505721f68": 0.053,
 "9730fc00002b": 0.046,
 "a3d38f217a95": 0.019,
 "ab903c705511": 0.022,
-"aee133301279": 0.054,
+"aee133301279": 0.217,
 "b883c5c0b60c": 0.033,
 "bf54bd55e102": 0.283,
 "c640d56259c1": 0.042,
 "c71e3bfc31ea": 0.02,
 "d38eec0b35bb": 0.107,
+"e955f6146631": 0.672,
 "eafc27413f8b": 0.152,
-"ec266ab30b9b": 0.368,
+"ec266ab30b9b": 0.418,
+"efb4c21fd90e": 0.273,
 "ff35b1a24815": 0.039
 },
 "sent": [
-{
-"e": [
-"axis",
-"binance",
-"coinbase",
-"crash",
-"days",
-"dump",
-"insiders",
-"just",
-"listings",
-"multisig",
-"team",
-"tokens",
-"triggering",
-"upbit",
-"zachxbt"
-],
-"k": [
-"list",
-"crash"
-],
-"t": 1793285676.2398536,
-"u": [
-"https://t.me/wublockchainenglish/26606"
-],
-"w": [
-"42m",
-"axis",
-"binance",
-"coinbase",
-"crash",
-"days",
-"dump",
-"insiders",
-"just",
-"listings",
-"multisig",
-"team",
-"tokens",
-"triggering",
-"upbit",
-"zachxbt"
-]
-},
-{
-"e": [
-"analysis",
-"breaks",
-"could",
-"crash",
-"far",
-"support"
-],
-"k": [
-"crash"
-],
-"t": 1793285725.1849802,
-"u": [
-"https://news.google.com/rss/articles/CBMilgFBVV95cUxNaV9aOTNLR0tKUHM5N1NnVkZudDdNYnlXbkVoenhURVV5dFNNbV95czVYbEg1RzBTNEpUTXA5RWhqVThHLWNQSnZiUEtQXzFscUxwSkw4VmhDbmIyM0VVVjNzdktBNWJVaTd0cV9jN0VLUDJHZ2NQd3FMY1hEMlJyOXRMdHdLQUp6blNScUlBM2ZlMnc0V2fSAZYBQVVfeXFMTWlfWjkzS0dLSlBzOTdTZ1ZGbnQ3TWJ5V25FaHp4VEVVeXRTTW1feXM1WGxINUcwUzRKVE1wOUVoalU4Ry1jUEp2YlBLUF8xbHFMcEpMOFZoQ25iMjNFVVYzc3ZLQTViVWk3dHFfYzdFS1AyR2djUHdxTGNYRDJScjl0THR3S0FKem5TUnFJQTNmZTJ3NFdn?oc=5",
-"https://news.google.com/rss/articles/CBMimgFBVV95cUxNWll5YjVXclMwRHZLT0ljM04yWWRfWDJORG1lbmwyYmZqOFR5YlFRU01NUEs5cER1UjBha0x3WnN3VkF6a1BxdTV1OGFRVm1iZTJBTzlWcFFpVm1uY2ptOFlDeDFHRW4tZXM5ai1GLWlNQXU5Rm9EWk5uMHBDNER2amNBMkhld3l5TjFJSGlkRjBjZm56UDBycGh3?oc=5",
-"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmFRV3dRSW9qbHBpNWVseWNGcW56ZXlFNU5naVpVRGEyZm5lNHR4VVhYNER0amJEeHhmQzdQXzl4c3Z4X1FUcG53SmgzSG9YNDFRby0tcGI3NHdiMDFyeV9JZkdBU1lhaEFOYjIxblJHMVBBOF9TeUdubUd3dVd6US1CaWFRTV9fUFQ4bmhaeEZvbkdZZzRKT0hSWEpvRU1LQ3A4UHAtMGxtQQ?oc=5"
-],
-"w": [
-"$80k",
-"analysis",
-"bitcoin",
-"breaks",
-"btc",
-"could",
-"crash",
-"far",
-"how",
-"price",
-"support"
-]
-},
-{
-"e": [
-"asset",
-"company",
-"dubai",
-"standard"
-],
-"k": [],
-"t": 1793286028.8110828,
-"u": [
-"https://t.me/WatcherGuru/15672"
-],
-"w": [
-"asset",
-"backed",
-"billion",
-"bitcoin",
-"company",
-"dubai",
-"family",
-"investment",
-"launches",
-"royal",
-"standard",
-"strategy"
-]
-},
-{
-"e": [
-"druckenmiller",
-"elon",
-"hype",
-"hyperliquid",
-"musk",
-"stan"
-],
-"k": [],
-"t": 1793288170.526984,
-"u": [
-"https://t.me/WatcherGuru/15673"
-],
-"w": [
-"backing",
-"billionaire",
-"druckenmiller",
-"elon",
-"futures",
-"hype",
-"hyperliquid",
-"investor",
-"musk",
-"reacts",
-"stan",
-"trading"
-]
-},
 {
 "e": [
 "blockchain",
@@ -9110,6 +9003,31 @@
 "still",
 "straight"
 ]
+},
+{
+"e": [
+"binance",
+"fund",
+"safu"
+],
+"k": [],
+"t": 1793462169.8521385,
+"u": [
+"https://t.me/lookonchainchannel/10860"
+],
+"w": [
+"$580",
+"500",
+"88m",
+"ago",
+"binance",
+"btc",
+"fund",
+"hour",
+"safu",
+"transferred",
+"wallet"
+]
 }
 ],
 "stories": {},
@@ -9118,63 +9036,63 @@
 [
 "209c175fca52",
 61,
-41,
+51,
 2
+],
+[
+"6b84ac32a4fd",
+24,
+3,
+1
+],
+[
+"e955f6146631",
+26,
+82,
+1
 ],
 [
 "4f8a58b653ac",
 18,
-18,
+28,
 1
 ],
 [
-"368aa004ab65",
-13,
-356,
-2
-],
-[
 "3c564a957bc8",
-19,
-194,
+17,
+204,
 2
 ],
 [
 "4a6c6c2d86c7",
-68,
-347,
+67,
+357,
 13
 ],
 [
 "ec266ab30b9b",
-70,
-258,
+69,
+268,
 3
-],
-[
-"8f0610ceda83",
-0,
-360,
-1
 ],
 [
 "8192b48f8986",
 38,
-150,
+160,
 1
 ],
 [
 "bf54bd55e102",
 35,
-76,
+86,
 1
 ],
 [
-"3c1b6c10d6d5",
-43,
-181,
+"efb4c21fd90e",
+10,
+322,
 1
 ]
 ],
-"top_at": 1793461559.8748639
+"top_at": 1793462169.8521385
 }
