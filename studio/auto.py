@@ -702,7 +702,7 @@ def receipt_card(cv, t, i):
     cv.rect(x0, y0, x0 + 14, y0 + hgt, BAD, al, r=7)
     src = ('📰 ' if False else '') + str(rc.get('src', 'NEWS')).upper()[:30]
     cv.text(x0 + 44, y0 + 46, src, 'black', 30, (190, 40, 60), al, anchor='lm', track=4)
-    cv.text(x1 - 30, y0 + 46, 'REAL HEADLINE', 'bold', 24, (120, 128, 140), al, anchor='rm', track=3)
+    cv.text(x1 - 30, y0 + 46, 'HEADLINE', 'bold', 24, (120, 128, 140), al, anchor='rm', track=3)
     for k, ln in enumerate(lines):
         cv.text(x0 + 44, y0 + 108 + k * 58, ln, 'black', 44, (16, 20, 28), al, anchor='lm')
 

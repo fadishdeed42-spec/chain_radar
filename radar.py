@@ -1933,7 +1933,7 @@ SB_SCHEMA = '''{"outline": ["FIRST plan the script: one short entry per scene = 
               "receipt": null OR {"src": "outlet name", "headline": "a real headline copied WORD FOR WORD from the FACTS that proves this line"},
               "photo": "Wikipedia/Commons search for a REAL photo of the person/place/company, e.g. 'Changpeng Zhao' (or empty)",
               "visual": {"type": "...", ...fields...}} ],
- "lesson": "ONE useful, practical takeaway for viewers from this story, max 14 words, e.g. 'Never keep all your crypto on one exchange.' (no financial advice, no buy/sell)",
+ "lesson": "ONE useful takeaway for ordinary viewers about their own money, max 14 words, e.g. 'Never keep all your crypto on one exchange.' (no financial advice, no buy/sell, not for companies)",
  "description": "2-4 factual sentences with dates and numbers for the YouTube description",
  "hashtags": "6-8 hashtags", "pinned": "a pinned comment question for viewers"}'''
 SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
@@ -2006,6 +2006,11 @@ def short_facts(topic):
         bing = bing_news(topic, 10)
     except Exception as e:
         print('bing news', repr(e)[:80]); bing = []
+    key = [w for w in re.findall(r'[A-Za-z][A-Za-z0-9]{3,}', topic) if w.lower() not in _STOP and not w.isdigit()][:3]
+    if key:                                                               # keep the story asked for: items that name it (other news only as context)
+        rel = lambda x: any(k.lower() in (x.get('title', '') + ' ' + x.get('snip', '')).lower() for k in key[:1])
+        heads = [h for h in heads if rel(h)] or heads
+        bing = [b for b in bing if rel(b)] or bing
     allh = sorted(heads + [b for b in bing if b['ts']], key=lambda h: h['ts'])
     parts = []
     if allh:
@@ -2021,9 +2026,11 @@ def short_facts(topic):
     except Exception as e:
         print('short article fail', repr(e)[:100])
     wt, wx = wiki_intro(topic)
+    if not wx and key:
+        wt, wx = wiki_intro(' '.join(key[:2]))
     if wx:
-        parts.append(f'Wikipedia ({wt}):\n{wx}')
-    out = '\n\n'.join(parts)
+        parts.insert(0, f'Wikipedia ({wt}):\n{wx}')
+    out = f'THE STORY TO TELL: {topic}\n\n' + '\n\n'.join(parts)
     print('short_facts', topic[:40], '| headlines', len(allh), '| snippets', len(snips), '| chars', len(out))
     return out
 
@@ -2063,7 +2070,7 @@ def script_review(sb, facts):
 def verify_receipts(sb, facts):
     """A receipt on screen must be a real headline from the sources, word for word."""
     norm = lambda t: re.sub(r'[^a-z0-9 ]', '', html.unescape(t).lower())
-    f = norm(facts)
+    f = norm(' '.join(re.findall(r'(?m)^- [A-Z][a-z]{2} \d{2}, \d{4}: (.+)$', facts)))      # only the "Real headlines" lines count
     for x in sb['scenes']:
         rc = x.get('receipt')
         if rc and (len(norm(rc.get('headline', ''))) < 20 or norm(rc['headline']) not in f):
@@ -2225,8 +2232,10 @@ HOUSE RULES
 - Scene 1 (hook): the most shocking fact or the twist FIRST, max 14 words, opens a loop the viewer needs closed. Never start with "Today" or "In this video".
   The FIRST one or two spoken words must already be the shock (a big number or a punchy word: "$6.3 billion. Gone in twenty minutes."). Within the first 3 seconds tease the twist ("But that's not even the crazy part.").
 - RE-HOOK: every 10-15 seconds one short line that pulls the viewer forward ("And then it got worse." / "Here's the strange part.").
-- RECEIPTS: on 2-4 scenes add a "receipt": a real headline copied word for word from the FACTS headlines, with its outlet. It is shown on screen as proof.
-- "lesson": one practical takeaway for the viewer that this story teaches (safety, scams, self-custody, risk). It is spoken at the very end as "Chain Secrets lesson: ...".
+- TOPIC: tell exactly the STORY asked for. Other events in the FACTS are context only; never switch to a different (newer) story.
+- RECEIPTS: on 2-4 scenes add a "receipt": one of the lines under "Real headlines" copied word for word (without the date and outlet), with its outlet. Only real headlines, never article sentences.
+- HACKS AND THEFTS: use the "flow" visual (follow the money) on at least one scene.
+- "lesson": one practical takeaway for an ORDINARY viewer about their own money (safety, scams, self-custody, risk), never advice for companies or engineers. Spoken at the very end as "Chain Secrets lesson: ...".
 - Middle: every line moves the story. Viewers leave at 13 seconds, so the first twist must come before 20 seconds.
 - Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically).
 - Tone: {('use the tone "' + tone + '".') if tone else 'pick the best one: funny for absurd stories, serious for victims and big losses, mystery for unsolved or secret stories, hype for records.'}
