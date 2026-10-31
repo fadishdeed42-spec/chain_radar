@@ -1,0 +1,341 @@
+{
+ "title": "$6.3B Binance Hack: Inside North Korea's Record Heist \ud83d\udd75\ufe0f",
+ "alt_hooks": [
+  "$6.3 billion vanished from Binance in twenty minutes on Thursday.",
+  "How did North Korea steal $6.3 billion from Binance in one day?",
+  "The largest crypto heist in history drained $6.3 billion in minutes."
+ ],
+ "tone": "mystery",
+ "respell": {},
+ "chart": null,
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$6.3 billion. Drained from Binance in twenty minutes on Thursday.",
+   "hit": "$63",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "Binance",
+     "text": "$6.3B STOLEN",
+     "icon": "skull"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "$6.3 billion.",
+     "q": "digital currency numbers red"
+    },
+    {
+     "words": "Drained from Binance",
+     "q": "hacker typing laptop dark"
+    },
+    {
+     "words": "in twenty minutes",
+     "q": "stopwatch ticking fast"
+    }
+   ],
+   "receipt": {
+    "src": "Mashable",
+    "headline": "Hackers drained about $6.36 billion from Binance on Thursday, which reportedly is the largest crypto theft on record."
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 6300000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Largest crypto theft on record",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "A compromised DevOps engineer laptop gave hackers access to a service container.",
+   "hit": "hackers",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "laptop",
+     "text": "COMPROMISED",
+     "icon": "laptop"
+    }
+   ],
+   "footage": "hacker typing code",
+   "shots": [
+    {
+     "words": "A compromised DevOps laptop",
+     "q": "laptop keyboard dark room"
+    },
+    {
+     "words": "gave hackers access",
+     "q": "code streaming terminal screen"
+    },
+    {
+     "words": "to a service container.",
+     "q": "server rack lights flashing"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "DEVOPS HACK",
+    "sub": "Compromised laptop",
+    "icon": "laptop"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "The attacker moved funds across ten blockchains starting at 20:05 UTC.",
+   "hit": "ten",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "ten",
+     "text": "10 CHAINS",
+     "icon": "ethereum"
+    }
+   ],
+   "footage": "blockchain network nodes",
+   "shots": [
+    {
+     "words": "The attacker moved funds",
+     "q": "money transfer digital graph"
+    },
+    {
+     "words": "across ten blockchains",
+     "q": "crypto network nodes glowing"
+    },
+    {
+     "words": "in broad daylight.",
+     "q": "city street timelapse traffic"
+    }
+   ],
+   "receipt": {
+    "src": "Mashable",
+    "headline": "The attacker moved funds across ten blockchains, most of it in about 20 minutes starting at 20:05 UTC."
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 10,
+    "prefix": "",
+    "suffix": " CHAINS",
+    "label": "Blockchains drained",
+    "icon": "ethereum"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "That is four times the record $1.5 billion Bybit hack of February 2025.",
+   "hit": "$15",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "Bybit",
+     "text": "BYBIT 2025",
+     "icon": "bank"
+    }
+   ],
+   "footage": "courtroom gavel bang",
+   "shots": [
+    {
+     "words": "That is four times",
+     "q": "scale comparison chart"
+    },
+    {
+     "words": "the record $1.5 billion",
+     "q": "banking vault door open"
+    },
+    {
+     "words": "Bybit hack.",
+     "q": "crypto exchange office building"
+    }
+   ],
+   "receipt": {
+    "src": "Mashable",
+    "headline": "That is roughly four times the $1.5 billion Bybit hack of February 2025, which the FBI also pinned on North Korea."
+   },
+   "photo": "Bybit",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "BINANCE",
+     "$6.3B"
+    ],
+    "right": [
+     "BYBIT",
+     "$1.5B"
+    ],
+    "note": "October 2026 vs February 2025"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "But that is not the only theft North Korea committed in 2025.",
+   "hit": "not",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "strangest",
+     "text": "THE TWIST",
+     "icon": "question"
+    }
+   ],
+   "footage": "digital magnifying glass",
+   "shots": [
+    {
+     "words": "But that is not",
+     "q": "question mark digital glow"
+    },
+    {
+     "words": "the strangest part.",
+     "q": "detective board strings"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "THE TWIST",
+    "sub": "What happened next?",
+    "icon": "question"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "TRM Labs and Chainalysis tied the theft to North Korea's Lazarus-linked TraderTraitor unit.",
+   "hit": "the",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "North Korea",
+     "text": "",
+     "icon": "skull"
+    }
+   ],
+   "footage": "global map surveillance",
+   "shots": [
+    {
+     "words": "TRM Labs and Chainalysis",
+     "q": "analytics dashboard graphs"
+    },
+    {
+     "words": "tied the theft",
+     "q": "investigation red string board"
+    },
+    {
+     "words": "to North Korea.",
+     "q": "satellite earth dark side"
+    }
+   ],
+   "receipt": {
+    "src": "FinanceFeeds",
+    "headline": "TRM Labs and Chainalysis blame North Korea's TraderTraitor, a Lazarus-linked unit, for the $6.3B Binance hack."
+   },
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "Attribution",
+    "word": "LAZARUS",
+    "bad": true
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "About $3 billion was frozen with blockchain partners on-chain through transparent technology.",
+   "hit": "$3",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "frozen",
+     "text": "$3B FROZEN",
+     "icon": "lock"
+    }
+   ],
+   "footage": "secure digital vault lock",
+   "shots": [
+    {
+     "words": "About $3 billion",
+     "q": "secure digital vault closed"
+    },
+    {
+     "words": "was frozen with blockchain partners",
+     "q": "handshake digital contract"
+    },
+    {
+     "words": "on-chain.",
+     "q": "blockchain blocks freezing blue"
+    }
+   ],
+   "receipt": {
+    "src": "Binance Official",
+    "headline": "~$3B frozen thanks to transparent technology + industry-wide coordination."
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 3000000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Frozen on-chain",
+    "icon": "lock"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Binance covered all losses from SAFU as investigations continue and withdrawals are suspended.",
+   "hit": "safu",
+   "emotion": "calm",
+   "beats": [
+    {
+     "word": "SAFU",
+     "text": "USER FUNDS SAFE",
+     "icon": "safe"
+    }
+   ],
+   "footage": "modern bank vault secure",
+   "shots": [
+    {
+     "words": "Binance covered all losses",
+     "q": "financial reserve funds gold"
+    },
+    {
+     "words": "from SAFU",
+     "q": "secure badge shield icon"
+    },
+    {
+     "words": "as investigations continue.",
+     "q": "police tape digital screen"
+    }
+   ],
+   "receipt": {
+    "src": "Binance Official",
+    "headline": "Binance said it will cover all losses from its SAFU fund and company funds and that user funds are safe."
+   },
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "SAFU FUND",
+    "sub": "User funds covered",
+    "icon": "safe"
+   }
+  }
+ ],
+ "lesson": "Chain Secrets lesson: Always isolate DevOps environments to prevent unauthorized hot wallet access.",
+ "description": "In October 2026, hackers drained approximately $6.3 billion from Binance in just twenty minutes across ten blockchains. Blockchain analytics firms TRM Labs and Chainalysis attributed the record heist to North Korea's TraderTraitor unit, linked to the Lazarus Group. Binance successfully froze roughly $3 billion on-chain and covered remaining user losses through its SAFU fund.",
+ "hashtags": "#CryptoNews #Binance #BlockchainSecurity #ChainSecrets #CyberSecurity #LazarusGroup #CryptoHack",
+ "pinned": "Did you expect $3 billion of the stolen funds to be frozen so fast?",
+ "length": 60,
+ "settings": {
+  "length": 60,
+  "style": "documentary",
+  "autorender": true
+ },
+ "est_secs": 57,
+ "words": 115,
+ "target_words": 124,
+ "length_ok": true,
+ "review": {}
+}
