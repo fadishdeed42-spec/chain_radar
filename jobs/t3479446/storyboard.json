@@ -1,0 +1,309 @@
+{
+ "title": "$1.5 Billion Gone: Inside The Bybit Hack \ud83d\udcc9",
+ "alt_hooks": [
+  "$1.5 billion vanished from Bybit in twenty minutes.",
+  "How did North Korea steal $1.5 billion from Bybit?",
+  "401,000 Ethereum tokens vanished in a single February day."
+ ],
+ "tone": "mystery",
+ "respell": {
+  "Lazarus": "LAZ-uh-rus"
+ },
+ "chart": null,
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$1.5 billion. Gone from Bybit in a single February day.",
+   "hit": "$15",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "February",
+     "text": "FEB 2025",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "digital banking breach red alerts",
+   "shots": [
+    {
+     "words": "$1.5 billion.",
+     "q": "digital crypto wealth vault zero"
+    },
+    {
+     "words": "Gone from Bybit",
+     "q": "exchange trading floor empty"
+    },
+    {
+     "words": "in a single February day.",
+     "q": "calendar date February"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 1500000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Bybit Hack Loss",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Hackers compromised a supplier and altered the digital wallet address during the transfer.",
+   "hit": "compromised",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "supplier",
+     "text": "SUPPLIER HACKED",
+     "icon": "lock"
+    }
+   ],
+   "footage": "server room cables flashing lights",
+   "shots": [
+    {
+     "words": "Hackers compromised a supplier",
+     "q": "cyber hacker computer terminal"
+    },
+    {
+     "words": "and altered the digital wallet address.",
+     "q": "crypto wallet transfer code"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "lock",
+    "label": "Address Altered",
+    "word": "BREACHED",
+    "bad": true
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Around 401,000 Ethereum tokens poured straight into attacker wallets instantly.",
+   "hit": "401000",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "Ethereum",
+     "text": "401K ETH",
+     "icon": "ethereum"
+    }
+   ],
+   "footage": "flow of digital coins animation",
+   "shots": [
+    {
+     "words": "A staggering 401,000 Ethereum tokens",
+     "q": "ethereum coin crypto symbol"
+    },
+    {
+     "words": "poured straight into attacker wallets.",
+     "q": "crypto money transfer screen"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "flow",
+    "from": "BYBIT",
+    "amount": "401K ETH",
+    "to": [
+     "HACKER",
+     "WALLET"
+    ]
+   }
+  },
+  {
+   "role": "twist",
+   "line": "By February 26, 2025, the FBI pinned it on North Korea's Lazarus Group.",
+   "hit": "fbi",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "North",
+     "text": "LAZARUS GROUP",
+     "icon": "skull"
+    }
+   ],
+   "footage": "fbi investigation agency office",
+   "shots": [
+    {
+     "words": "By February 26, 2025,",
+     "q": "calendar february date"
+    },
+    {
+     "words": "the FBI pinned it on North Korea.",
+     "q": "fbi seal badge emblem"
+    }
+   ],
+   "receipt": {
+    "src": "BBC",
+    "headline": "North Korean hackers cash out hundreds of millions from $1.5bn ByBit hack"
+   },
+   "photo": "",
+   "visual": {
+    "type": "date",
+    "month": "FEB 2025",
+    "day": 26,
+    "event": "FBI blames North Korea"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "And then it got stranger. Dubai-based Bybit actually sued a foreign nation-state in court.",
+   "hit": "sued",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "nation-state",
+     "text": "COURT LAWSUIT",
+     "icon": "gavel"
+    }
+   ],
+   "footage": "courtroom gavel judge bench",
+   "shots": [
+    {
+     "words": "And then it got stranger.",
+     "q": "question mark digital mystery"
+    },
+    {
+     "words": "Bybit actually sued a nation-state.",
+     "q": "court legal documents gavel"
+    }
+   ],
+   "receipt": {
+    "src": "thestreet.com",
+    "headline": "Bybit takes North Korea and Lazarus Group to court over $1.5 billion hack"
+   },
+   "photo": "",
+   "visual": {
+    "type": "person",
+    "name": "Bybit Exchange",
+    "role": "Plaintiff",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "But out of 1.5 billion, only $48.4 million came back to the exchange.",
+   "hit": "$484",
+   "emotion": "sad",
+   "beats": [
+    {
+     "word": "million",
+     "text": "RECOVERED ONLY",
+     "icon": "cash"
+    }
+   ],
+   "footage": "counting money sparse pile",
+   "shots": [
+    {
+     "words": "But out of 1.5 billion,",
+     "q": "pile of money coins"
+    },
+    {
+     "words": "only $48.4 million came back.",
+     "q": "empty digital wallet balance"
+    }
+   ],
+   "receipt": {
+    "src": "financefeeds.com",
+    "headline": "Bybit Has Recovered $48.4 Million From Its $1.5 Billion Lazarus Hack"
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 48400000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Recovered Funds",
+    "icon": "cash"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "Another $30.5 million remains frozen across 28 exchanges and custodians pending further legal action.",
+   "hit": "frozen",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "28",
+     "text": "28 EXCHANGES",
+     "icon": "bank"
+    }
+   ],
+   "footage": "digital security shield freezing lock",
+   "shots": [
+    {
+     "words": "Another $30.5 million remains frozen",
+     "q": "frozen ice lock security"
+    },
+    {
+     "words": "across 28 exchanges and custodians.",
+     "q": "global bank exchange servers"
+    }
+   ],
+   "receipt": {
+    "src": "gulfnews.com",
+    "headline": "Bybit sues North Korea over $1.5 billion crypto hack, wins court-ordered asset freeze"
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 30500000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Frozen Assets",
+    "icon": "lock"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Proving even a $1.5 billion cyber heist leaves traces.",
+   "hit": "traces",
+   "emotion": "calm",
+   "beats": [
+    {
+     "word": "heist",
+     "text": "CHAIN SECRETS",
+     "icon": "bitcoin"
+    }
+   ],
+   "footage": "blockchain data node network",
+   "shots": [
+    {
+     "words": "Proving even a $1.5 billion",
+     "q": "digital currency numbers glowing"
+    },
+    {
+     "words": "cyber heist leaves traces.",
+     "q": "blockchain transaction trail graph"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "CHAIN SECRETS",
+    "sub": "Follow the money",
+    "icon": "bitcoin"
+   }
+  }
+ ],
+ "lesson": "Chain Secrets lesson: Always verify exchange custody and asset security practices.",
+ "description": "In February 2025, cryptocurrency exchange Bybit suffered a massive $1.5 billion cyberattack when 401,000 Ethereum tokens were stolen. The FBI attributed the breach to North Korea's Lazarus Group, prompting Bybit to file a federal lawsuit and freeze $30.5 million across 28 exchanges.",
+ "hashtags": "#Bybit #CryptoHack #LazarusGroup #Blockchain #CryptoNews #Security #ChainSecrets",
+ "pinned": "How would you trace $1.5 billion in stolen crypto?",
+ "length": 60,
+ "settings": {
+  "length": 60,
+  "style": "documentary",
+  "autorender": true
+ },
+ "est_secs": 56,
+ "words": 116,
+ "target_words": 126,
+ "length_ok": false,
+ "length_msg": "script is about 0:56, a 1:00 Short needs 0:56 to 1:05 (116 spoken words, need 117 to 138)",
+ "review": {}
+}
