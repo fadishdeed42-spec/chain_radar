@@ -99,6 +99,26 @@
 "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"0246c624f51a": {
+"coin": "",
+"src": "House Financial Services Committee Democrats (.gov)",
+"srcs": [
+"BBC",
+"Business Insider",
+"CBS News",
+"Cointelegraph",
+"House Financial Services Committee Democrats (.gov)"
+],
+"t": 1793415259.3041036,
+"t0": 1793394300.0,
+"tgtext": "",
+"title": "Ranking Member Maxine Waters Responds to $6.3 Billion Binance Hack, Calls for Stronger Crypto Accountability",
+"url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbkJRUGE0aEtiM21WcERSM1c4alpNSkxHc01tWEVGWHdZc0FIYV9xdUtBYS1xRGJrRTJvQkY2RzQwZC04MzZsLXZPb2ZSaDhhU0poRjVPVEVadEswS1drc3p6QUhlS0hMQ29KNWJSTWVpRXlwMTg0UHBWTXNBcS1fbTBJTDZFSXQzU3AwSi15blpLQQ?oc=5",
+"urls": [
+"https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+"https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "027a5ca9663a": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -201,7 +221,7 @@
 "srcs": [
 "FOREX.com"
 ],
-"t": 1793414342.7644463,
+"t": 1793415259.3041036,
 "t0": 1793404932.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -367,13 +387,34 @@
 "url": "https://t.me/lookonchainchannel/10844",
 "urls": []
 },
+"0d338e2c3523": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"AP News",
+"Bitcoin Magazine",
+"Decrypt",
+"NBC News"
+],
+"t": 1793415259.3041036,
+"t0": 1793394363.0,
+"tgtext": "",
+"title": "TRON (TRX) Rose on the Day of the Binance Hack While Bitcoin, Ethereum and XRP Fell. What Is Holding It Up?",
+"url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTWl3bnFuYjV1WGNQSV9qYXZ0MDJPcm5KUEstVXYxcVZVQmRrc3huRnVOOUkxOXB2ZWx4MGZLd0ktMExWTzdMTHMxTjc3aXJLc0lhcDdvRmhJWjV6WDZ3M1MyTEhNVFlrdXI4WVNhblVNY2tRYTN2SWV3aGlybVRYN0M4WHlvcW1GUk82eWtqT0JseGtpR3FvU0YxcDNkUEVEdmJkUm1ablpDNHh4TXBSam56XzFheGpQLWJWUEdYV1llRVFFNjRMVmFUUlNELTEzeVd4R0loN0ZJeWNFVllZaGtzLTJEY05MUWRhMGs1dGhoY1U?oc=5",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+"https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+"https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack"
+]
+},
 "0dc4774f0b5d": {
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793414647.1392374,
+"t": 1793415259.3041036,
 "t0": 1793413807.0,
 "tgtext": "JUST IN: Anthropic says thousands of Claude AI agents bypassed safety monitors by hiding dangerous behavior in training data during internal test.\n\n@WatcherGuru",
 "title": "Anthropic says thousands of Claude AI agents bypassed safety monitors by hiding dangerous behavior in training data during internal test.",
@@ -608,7 +649,7 @@
 "srcs": [
 "ABC News & Headlines \u2013 Australian Broadcasting Corporation"
 ],
-"t": 1793414342.7644463,
+"t": 1793414954.5215752,
 "t0": 1793400612.0,
 "tgtext": "",
 "title": "Who is behind the largest crypto heist in history?",
@@ -2113,7 +2154,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793414647.1392374,
+"t": 1793415259.3041036,
 "t0": 1793395396.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea says international sanctions do not work.\n\nThe statement comes just one day after North Korea's $6.3 billion Binance crypto hack, the largest heist in human history.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf5 North Korea says international sanctions do not work.",
@@ -2214,19 +2255,19 @@
 },
 "5888293e34e4": {
 "coin": "bitcoin",
-"src": "The Motley Fool",
+"src": "24/7 Wall St.",
 "srcs": [
 "24/7 Wall St.",
+"AP News",
 "BBC",
 "Bitcoin Magazine",
-"Business Insider",
-"CBS News"
+"Business Insider"
 ],
-"t": 1793414647.1392374,
+"t": 1793414954.5215752,
 "t0": 1793393520.0,
 "tgtext": "",
-"title": "Crypto Market Today, Oct. 30: Bitcoin Tests Key Support as Binance Hack and Tech Sell-Off Rattle Markets",
-"url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTGVsQ2trWlU5X2dyLU5JMmVpNmRtOXhuQ0VIZHk3V0Z5WjJvTXcyUS13YUoybERhMk5qY2JJZklzTU9mY0NvLWhTR0JHUXZaT1lNWC13WmN5My1BQXlxTXhSVWtpT2ZjZUZlSlpJMUlyV0NnaG81bUJCdmgzc3BPMHlFU1N2ekxjQlREOFdLMkVBdHA1bnNlM1F2SkJFdWNyei1YUUR5RkctenYtaEtVLU5lWVZXTXczdm8yV3BvUGIwSTA4VlhKcHJOaTNHaFdiaEE5VFJzS1dOQ3M?oc=5",
+"title": "TRON (TRX) Rose on the Day of the Binance Hack While Bitcoin, Ethereum and XRP Fell. What Is Holding It Up?",
+"url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTWl3bnFuYjV1WGNQSV9qYXZ0MDJPcm5KUEstVXYxcVZVQmRrc3huRnVOOUkxOXB2ZWx4MGZLd0ktMExWTzdMTHMxTjc3aXJLc0lhcDdvRmhJWjV6WDZ3M1MyTEhNVFlrdXI4WVNhblVNY2tRYTN2SWV3aGlybVRYN0M4WHlvcW1GUk82eWtqT0JseGtpR3FvU0YxcDNkUEVEdmJkUm1ablpDNHh4TXBSam56XzFheGpQLWJWUEdYV1llRVFFNjRMVmFUUlNELTEzeVd4R0loN0ZJeWNFVllZaGtzLTJEY05MUWRhMGs1dGhoY1U?oc=5",
 "urls": [
 "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
 "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
@@ -2480,7 +2521,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1793414647.1392374,
+"t": 1793415259.3041036,
 "t0": 1793400218.0,
 "tgtext": "",
 "title": "Machi Liquidated 8 Times in 6 Hours, Leaving Just $1.50",
@@ -3023,7 +3064,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793414647.1392374,
+"t": 1793415259.3041036,
 "t0": 1793394601.0,
 "tgtext": "\u26a1\ufe0f LATEST: Apple overtakes Nvidia as the world\u2019s most valuable company, with a market cap of $5.03 trillion versus Nvidia\u2019s $4.94 trillion.\n\nNews | Markets | YouTube",
 "title": "Apple overtakes Nvidia as the world\u2019s most valuable company, with a market cap of $5.03 trillion versus Nvidia\u2019s $4.94 trillion.",
@@ -4781,10 +4822,10 @@
 "srcs": [
 "unchainedcrypto.com"
 ],
-"t": 1793414647.1392374,
+"t": 1793415259.3041036,
 "t0": 1793405959.0,
 "tgtext": "",
-"title": "Franklin Templeton's Dividend-to-Bitcoin ETFs Open on Nasdaq With About $72,000 in Trades",
+"title": "Franklin Templeton\u2019s Dividend-to-Bitcoin ETFs Open on Nasdaq With About $72,000 in Trades",
 "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbXdTT05DdGd2cUs1Sk4zYkhnSXB5alRKQU9zNWRZWjN5Skd5N2V3QUhOMDc3VWVrb0dQRk9SRTI2V296c0FkZVJORjdqenItaTJOWGJsajVxX05nSWZHSEpscTJxLUJvSk9Sc2hHcUhTREZPUzFsZGM0NWhDWWk3V3FpN0x4WFFZS2ZQTzZWa3NPaHBvQl9MQ3lxLUhMNnFCc0h1Y05DbEx0VGcyMENHU3MtWVhfZw?oc=5",
 "urls": []
 },
@@ -5419,7 +5460,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793414647.1392374,
+"t": 1793414954.5215752,
 "t0": 1793397600.0,
 "tgtext": "",
 "title": "Binance hackers raced to move billions before it could be frozen",
@@ -5590,10 +5631,9 @@
 "coin": "",
 "src": "Decrypt",
 "srcs": [
-"CryptoTicker.io",
 "Decrypt"
 ],
-"t": 1793414647.1392374,
+"t": 1793414954.5215752,
 "t0": 1793393603.0,
 "tgtext": "",
 "title": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
@@ -5996,7 +6036,7 @@
 "srcs": [
 "CBS News"
 ],
-"t": 1793414035.5862987,
+"t": 1793415259.3041036,
 "t0": 1793402568.0,
 "tgtext": "",
 "title": "$6 billion stolen in crypto hack, expert says financial institutions are \"tested on a daily basis\"",
@@ -6247,19 +6287,6 @@
 "https://cryptoslate.com/binance-hack-began-with-a-296-million-xrp-drain-after-36-hour-preparation/",
 "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity"
 ]
-},
-"e9dc172f3c67": {
-"coin": "",
-"src": "Coinfomania",
-"srcs": [
-"Coinfomania"
-],
-"t": 1793242281.5774326,
-"t0": 1793230409.0,
-"tgtext": "",
-"title": "SEC Filings Spark Debate on Crypto Regulations, Says James",
-"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaXNfQ2JPUkk0ZEZKMk5jVEtLZGJtS19GYkthU0JRUTdCN3Z4MUxSZFVCUEYwSURGX0VwWXdQSzFmSWJNQlRXdm1rc0xfWUQtQ1M0UGV2dFlabG9TQ1N5MG15M3lvWEF1NkdXMFFuakdQalhWanpHZlJtVUpSc0ZJdnpKZnJrOTFWb1E?oc=5",
-"urls": []
 },
 "ea124e7a0e9a": {
 "coin": "bitcoin",
@@ -6658,7 +6685,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793414647.1392374,
+"t": 1793415259.3041036,
 "t0": 1793394347.0,
 "tgtext": "JUST IN: Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.\n\n@WatcherGuru",
 "title": "Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.",
@@ -6866,17 +6893,19 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
+"0246c624f51a": 0.848,
 "051d9b6982b6": 0.093,
 "066e3529303e": 0.06,
-"0dc4774f0b5d": 0.191,
+"06bd4b321530": 0.173,
+"0d338e2c3523": 0.509,
+"0dc4774f0b5d": 0.146,
 "133238f65a6f": 0.059,
 "186ae44d9291": 0.106,
-"368edbffef62": 0.009,
+"2ad4fdc6f51f": 0.039,
 "3da48445497f": 0.008,
 "3ed81f144f5f": 0.027,
 "529f76c524ca": 0.094,
 "5520b1af3d84": 0.362,
-"5888293e34e4": 0.51,
 "66a7cbc4add2": 0.133,
 "72424608152d": 0.041,
 "730a60e9ea21": 0.034,
@@ -6886,14 +6915,11 @@
 "8f94aa458d8a": 0.062,
 "999d5fe6da7c": 0.024,
 "a2bad5624333": 0.042,
-"a8f99896e305": 0.068,
 "b4daf66c3e3f": 0.139,
-"b6f970f91beb": 0.041,
+"b6f970f91beb": 0.051,
 "b7b5adb54be3": 0.1,
-"cb727e8795c9": 0.197,
-"cba5dc9b8658": 0.196,
-"cf5430aded6b": 0.175,
 "d2b47d7a8aad": 0.067,
+"de78dade4c11": 0.14,
 "df0dac5e9f6a": 0.036,
 "e1c99c03b9c9": 0.094,
 "f6e088f0dabe": 0.378,
@@ -8838,65 +8864,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"5888293e34e4",
+"0246c624f51a",
 68,
-352,
-16
+349,
+8
+],
+[
+"0d338e2c3523",
+68,
+348,
+9
 ],
 [
 "f6e088f0dabe",
 0,
-338,
+349,
 1
 ],
 [
 "5520b1af3d84",
 0,
-321,
+331,
 1
 ],
 [
-"cb727e8795c9",
-27,
-284,
-1
-],
-[
-"cba5dc9b8658",
-22,
-159,
+"06bd4b321530",
+20,
+172,
 1
 ],
 [
 "0dc4774f0b5d",
 10,
-14,
+24,
 1
 ],
 [
-"cf5430aded6b",
-8,
-351,
-2
+"de78dade4c11",
+46,
+212,
+1
 ],
 [
 "b4daf66c3e3f",
 10,
-145,
+155,
 1
 ],
 [
 "66a7cbc4add2",
-17,
-240,
+16,
+251,
 1
 ],
 [
 "7de2d65ee55d",
 0,
-334,
+344,
 1
 ]
 ],
-"top_at": 1793414647.1392374
+"top_at": 1793415259.3041036
 }
