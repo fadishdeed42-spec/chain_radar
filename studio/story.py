@@ -109,6 +109,11 @@ def spoken(token, nxt='', respell=None):
         return SPELL[key.upper()] + post
     if key.isalpha() and key.isupper() and 2 <= len(key) <= 4 and key not in WORDS:      # DEA, CIA, OKX -> letter by letter
         return ' '.join(key) + post
+    mm = re.match(r'^([A-Z]{2,5})-(\d{1,5})$', key)                       # EIP-7702, BIP-39 -> letters, then the number (long ones digit by digit)
+    if mm:
+        num = mm.group(2)
+        said = int_words(int(num)) if len(num) <= 2 else ' '.join(ONES[int(c)] for c in num)
+        return ' '.join(mm.group(1)) + ' ' + said + post
     nxt_l = re.sub(r'[^a-z]', '', nxt.lower())
     big_next = nxt_l in ('million', 'billion', 'trillion', 'thousand')
     # $4B, $1.5M, $19,666, $4,000,000,000, $15 (million)
