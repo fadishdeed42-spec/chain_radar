@@ -14,6 +14,8 @@ MONTHS = {'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April', '
           'aug': 'August', 'sep': 'September', 'sept': 'September', 'oct': 'October', 'nov': 'November', 'dec': 'December'}
 KNOWN_OK = {'binance', 'coinbase', 'tether', 'bitcoin', 'ethereum', 'solana', 'ripple', 'kraken', 'bybit', 'okx', 'chainalysis', 'blackrock', 'nasdaq',
             'microstrategy', 'strategy', 'teng', 'trump', 'musk', 'saylor', 'dogecoin', 'cardano', 'polygon', 'uniswap', 'opensea', 'metamask', 'ledger', 'circle'}
+PRONOUNCE = {'bybit': 'Bye-bit', 'okx': 'O K X', 'kucoin': 'Koo-coin', 'huobi': 'Hwo-bee', 'bitfinex': 'Bit-finex', 'quadrigacx': 'Quadriga C X',
+             'ulbricht': 'Uhl-brikt', 'lazarus': 'Lazarus', 'chainalysis': 'Chain-alysis', 'kwon': 'Kwahn', 'wazirx': 'Wazir X'}   # always said this way
 FULL_MONTHS = {v.lower() for v in MONTHS.values()}
 SPELL = {'BTC': 'bitcoin', 'ETH': 'ether', 'FBI': 'F B I', 'SEC': 'S E C', 'CEO': 'C E O', 'NFT': 'N F T', 'NFTS': 'N F Ts',
          'DAO': 'dow', 'USD': 'dollars', 'DOJ': 'D O J', 'IRS': 'I R S', 'ETF': 'E T F', 'ETFS': 'E T Fs', 'ATM': 'A T M',
@@ -104,6 +106,8 @@ def spoken(token, nxt='', respell=None):
     key = core.strip()
     if token.lower() in ABBR:
         return ABBR[token.lower()]
+    if key.lower() in PRONOUNCE and PRONOUNCE[key.lower()].lower() != key.lower():
+        return PRONOUNCE[key.lower()] + post
     for k, v in respell.items():                                            # names the voice must say differently
         if key.lower() == k.lower():
             return v + post
@@ -292,7 +296,7 @@ def check(sb, strict=True):
         raise ValueError('no scenes')
     sb.pop('outline', None)                                                 # planning notes only, never stored (the app payload must stay small)
     sb['tone'] = sb.get('tone') if sb.get('tone') in TONES else 'mystery'
-    sb['lesson'] = re.sub(r'\s+', ' ', str(sb.get('lesson') or '')).strip()[:110]
+    sb['lesson'] = re.sub(r'^\s*(chain secrets\s+)?lesson\s*[:\-—]\s*', '', re.sub(r'\s+', ' ', str(sb.get('lesson') or '')).strip(), flags=re.I)[:110]   # the prefix is added when spoken
     if sb['lesson'] and not re.search(r'[.!?]$', sb['lesson']): sb['lesson'] += '.'
     sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)
                      and k.lower() not in KNOWN_OK and v.lower().replace('-', '') != k.lower()}      # the voice says well-known names right; respelling made them worse

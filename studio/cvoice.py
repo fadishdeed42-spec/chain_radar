@@ -69,11 +69,11 @@ def phonetic_variant(said, heard):
     if not keys or not bad: return None
     prompt = ('A text-to-speech voice misreads these words in the sentence below. For each, give ONE respelling (letters and hyphens only, no spaces) that makes '
               f'an English voice say it correctly.\nSentence: {said}\nThe voice said: {heard}\nWords: {bad}\nReturn JSON only: {{"word": "respelling", ...}}')
-    for key in keys:
+    for key, model in [(k, m) for k in keys for m in ('gemini-flash-latest', 'gemini-flash-lite-latest', 'gemini-2.5-flash')]:
         try:
-            r = requests.post('https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent', params={'key': key}, timeout=25,
+            r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, timeout=25,
                               json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}})
-            if not r.ok: continue
+            if not r.ok: print('phonetic', model, r.status_code); continue
             m = json.loads(re.search(r'\{.*\}', r.json()['candidates'][0]['content']['parts'][0]['text'], re.S).group(0))
             out = [(m.get(re.sub(r'[^\w-]', '', w)) or m.get(w) or w) if w in bad or re.sub(r'[^\w-]', '', w) in m else w for w in a]
             out = [re.sub(r'\s+', '-', str(x)) + (re.search(r'[.,!?;:]+$', w).group(0) if re.search(r'[.,!?;:]+$', w) and not re.search(r'[.,!?;:]$', str(x)) else '') for x, w in zip(out, a)]
@@ -100,7 +100,7 @@ def run(path):
         alt = alts[i] if i < len(alts) else None
         chk = checks[i] if i < len(checks) else t
         variants = [t] + ([alt] if alt else [])                     # respelled text and the plain text: whichever the voice says right wins
-        n_max = 8 if end else 6
+        n_max = 6 if end else 4                                     # fewer wasted takes: misread names go to the phonetic retry instead
         target = 2.4 if end else 2.75; best = None                     # calm, clear storytelling pace (fast takes swallowed words)
         for k in range(n_max):
             tt = variants[k % len(variants)]
