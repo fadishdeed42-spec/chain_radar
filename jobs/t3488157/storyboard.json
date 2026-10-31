@@ -1,0 +1,289 @@
+{
+ "title": "When North Korea Stole $1.5 Billion From Bybit \ud83d\udcb8",
+ "alt_hooks": [
+  "$1.5 billion stolen in minutes. How North Korea pulled off the biggest crypto heist.",
+  "Did you know a single crypto exchange hack in February 2025 drained $1.5 billion?",
+  "How did North Korea's Lazarus Group walk away with $1.5 billion in broad daylight?"
+ ],
+ "tone": "mystery",
+ "respell": {},
+ "chart": null,
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$1.5 billion dollars vanished from a crypto exchange in February 2025.",
+   "hit": "billion",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "February",
+     "text": "FEB 2025",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "$1.5 billion dollars",
+     "q": "digital currency chart"
+    },
+    {
+     "words": "crypto exchange",
+     "q": "crypto exchange logo"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 1500000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Stolen from Bybit",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Dubai based exchange Bybit suffered the $1.5 billion theft by Lazarus hackers, marking the largest cryptocurrency theft on record.",
+   "hit": "bybit",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "Dubai",
+     "text": "DUBAI HQ",
+     "icon": "bank"
+    }
+   ],
+   "footage": "luxury skyscraper city",
+   "shots": [
+    {
+     "words": "Dubai based exchange",
+     "q": "modern city skyline"
+    },
+    {
+     "words": "Bybit",
+     "q": "laptop typing code"
+    }
+   ],
+   "photo": "Bybit",
+   "visual": {
+    "type": "person",
+    "name": "Ben Zhou",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Hackers rushed to launder hundreds of millions through Bitcoin mixers fast while CEO Ben Zhou reported ongoing recovery challenges.",
+   "hit": "launder",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "Bitcoin",
+     "text": "MIXERS",
+     "icon": "token"
+    }
+   ],
+   "footage": "flow",
+   "shots": [
+    {
+     "words": "launder hundreds",
+     "q": "digital code matrix"
+    },
+    {
+     "words": "Bitcoin mixers",
+     "q": "cryptocurrency coins stack"
+    }
+   ],
+   "receipt": {
+    "src": "thestreet.com",
+    "headline": "Bybit tracks $1.5 billion in stolen crypto through mixers"
+   },
+   "photo": "",
+   "visual": {
+    "type": "flow",
+    "from": "BYBIT",
+    "amount": "$1.5B",
+    "to": [
+     "MIXER A",
+     "MIXER B",
+     "WALLET"
+    ]
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Investigator ZachXBT secretly infiltrated a Chinese laundering crew moving the funds after spending months posing as a paying client.",
+   "hit": "zachxbt",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "crew",
+     "text": "UNDERCOVER",
+     "icon": "lock"
+    }
+   ],
+   "footage": "dark room computer screens",
+   "shots": [
+    {
+     "words": "Investigator ZachXBT",
+     "q": "cyber security hacker"
+    },
+    {
+     "words": "laundering crew",
+     "q": "money cash hidden"
+    }
+   ],
+   "receipt": {
+    "src": "msn.com",
+    "headline": "ZachXBT infiltrates Chinese laundering crew tied to Bybit and Bitget thefts"
+   },
+   "photo": "ZachXBT",
+   "visual": {
+    "type": "stamp",
+    "icon": "question",
+    "label": "Undercover Operation",
+    "word": "INFILTRATED"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "But that is not even the strangest part of this story.",
+   "hit": "strangest",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "part",
+     "text": "THE TWIST",
+     "icon": "question"
+    }
+   ],
+   "footage": "courtroom gavel",
+   "shots": [
+    {
+     "words": "strangest part",
+     "q": "mystery question mark"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "THE LAWSUIT",
+    "sub": "Taking on a nation",
+    "icon": "gavel"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "In August 2026, Bybit officially sued North Korea in court, targeting the state-sanctioned hacking organization and intelligence agency.",
+   "hit": "sued",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "August",
+     "text": "AUG 2026",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "courtroom judge gavel",
+   "shots": [
+    {
+     "words": "August 2026",
+     "q": "calendar page date"
+    },
+    {
+     "words": "sued North Korea",
+     "q": "lawyer courtroom papers"
+    }
+   ],
+   "receipt": {
+    "src": "coindesk.com",
+    "headline": "Bybit sues North Korea and Lazarus Group over $1.5 billion hack, secures asset freeze"
+   },
+   "photo": "",
+   "visual": {
+    "type": "date",
+    "month": "AUG 2026",
+    "day": 7,
+    "event": "Bybit sues North Korea in court"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "The exchange miraculously secured an early order freezing stolen crypto assets as it chases the funds lost in last year's hack.",
+   "hit": "freezing",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "assets",
+     "text": "FROZEN",
+     "icon": "lock"
+    }
+   ],
+   "footage": "vault door closing security",
+   "shots": [
+    {
+     "words": "early order",
+     "q": "legal document stamp"
+    },
+    {
+     "words": "freezing stolen crypto",
+     "q": "digital vault lock"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "lock",
+    "label": "Court Order Won",
+    "word": "FROZEN"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Proving even billion-dollar state hackers leave a trail to follow.",
+   "hit": "trail",
+   "emotion": "calm",
+   "beats": [
+    {
+     "word": "hackers",
+     "text": "$1.5B HEIST",
+     "icon": "skull"
+    }
+   ],
+   "footage": "digital blockchain nodes",
+   "shots": [
+    {
+     "words": "state hackers",
+     "q": "hacker hooded face"
+    },
+    {
+     "words": "leave a trail",
+     "q": "blockchain network map"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "$1.5 BILLION",
+    "sub": "Bybit Hack Trail",
+    "icon": "bitcoin"
+   }
+  }
+ ],
+ "lesson": "Always use hardware wallets to keep your funds secure.",
+ "description": "In February 2025, cryptocurrency exchange Bybit suffered a massive $1.5 billion hack linked to North Korea's Lazarus Group. By August 2026, Bybit took unprecedented legal action by suing North Korea and successfully securing an asset freeze.",
+ "hashtags": "#Bybit #CryptoHack #ZachXBT #NorthKorea #LazarusGroup #Blockchain #ChainSecrets",
+ "pinned": "Would you ever expect an exchange to sue an entire country? Let us know below!",
+ "length": 60,
+ "settings": {
+  "length": 60,
+  "style": "documentary",
+  "autorender": true
+ },
+ "est_secs": 64,
+ "words": 138,
+ "target_words": 128,
+ "length_ok": true,
+ "review": {}
+}
