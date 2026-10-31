@@ -201,7 +201,7 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
     'mystery': {'hook': .72, 'setup': .6, 'turn': .66, 'twist': .85, 'payoff': .72, 'end': .55},
     'hype':    {'hook': .95, 'setup': .8, 'turn': .85, 'twist': .95, 'payoff': .95, 'end': .65}}
 EMOTIONS = ('tense', 'shock', 'curious', 'dark', 'funny', 'calm', 'triumph', 'sad')
-EMO_EX = {'tense': .62, 'shock': .9, 'curious': .66, 'dark': .55, 'funny': .85, 'calm': .5, 'triumph': .88, 'sad': .5}   # how hard the voice pushes each feeling
+EMO_EX = {'tense': .62, 'shock': .76, 'curious': .64, 'dark': .58, 'funny': .74, 'calm': .56, 'triumph': .74, 'sad': .56}   # one narrator: feelings stay in a narrow band so lines don't sound like different readings
 EMO_GAP = {'shock': .42, 'dark': .38, 'sad': .4, 'tense': .32}                                                           # a beat of silence after heavy lines
 CTA = 'Follow Chain Secrets. Every chart hides a story.'
 CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
@@ -402,7 +402,7 @@ def voice_job(sb):
         emo = s.get('emotion') if s.get('emotion') in EMOTIONS else None
         e = (EMO_EX[emo] if emo and not end else ex['end'] if end else ex[s['role']]) + de     # the line's feeling decides how the voice says it
         g = .55 if end else EMO_GAP.get(emo, .3 if s['role'] in ('twist', 'payoff') else .24)
-        scenes.append([text, round(min(1.0, max(.4, e)), 2), round(g * gk, 2)] + (['end'] if end else []))
+        scenes.append([text, round(min(.8, max(.5, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .5-.8: smooth, same voice on every line
         plan.append(pl)
     if cta(sb):
         scenes.append([cta(sb), .7, .3])

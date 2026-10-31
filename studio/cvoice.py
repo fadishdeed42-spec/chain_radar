@@ -20,11 +20,27 @@ def kok_ref(path):
     sf.write(path, a, 24000)
 
 def trim(w, sr, tail):
-    nz = np.where(np.abs(w) > .004)[0]
+    """cut silence around a take without touching soft word starts: find speech by short-window energy, keep 60 ms before it, smooth fades"""
+    win = int(.01 * sr)
+    if len(w) < win * 4: return w
+    e = np.sqrt(np.convolve(w ** 2, np.ones(win) / win, mode='same'))
+    nz = np.where(e > max(.002, .03 * e.max()))[0]
     if not len(nz): return w
-    w = w[max(0, nz[0] - int(.02 * sr)):min(len(w), nz[-1] + int(tail * sr))].copy()
-    f = int(.03 * sr); w[-f:] *= np.linspace(1, 0, f)
+    w = w[max(0, nz[0] - int(.06 * sr)):min(len(w), nz[-1] + int(tail * sr))].copy()
+    fi, fo = int(.012 * sr), int(.04 * sr)
+    w[:fi] *= np.linspace(0, 1, fi) ** .5; w[-fo:] *= np.linspace(1, 0, fo) ** 1.5      # no clicks at line edges
     return w
+
+
+def level(w, target=.075):
+    """every line at the same loudness (speech-only RMS), so no line or first word sounds quieter than the rest"""
+    e = np.abs(w); thr = .1 * e.max()
+    sp = w[e > thr]
+    r = float(np.sqrt((sp ** 2).mean())) if len(sp) > 100 else float(np.sqrt((w ** 2).mean()))
+    g = min(4.0, target / max(1e-5, r))
+    w = w * g
+    pk = np.abs(w).max()
+    return w * (.95 / pk) if pk > .95 else w
 
 _asr = None
 LAST_RUSHED = []
@@ -147,6 +163,7 @@ def run(path):
                     if wer < best[2] - .02: best = (score, w, wer, heard, ph)
                     if wer <= .06: break
         _, w, wer, heard, tt = best
+        w = level(w)
         parts += [w, np.zeros(int(gap * sr), np.float32)]
         for x in tt.split(): words.append(x); owner.append(i)
         quality.append({'scene': i + 1, 'wer': round(wer, 3), 'heard': heard.strip()[:160], 'said': chk[:160]})
@@ -157,11 +174,11 @@ def run(path):
         import subprocess, tempfile
         a_, b_ = tempfile.mktemp(suffix='.wav'), tempfile.mktemp(suffix='.wav'); sf.write(a_, audio, sr)
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', a_, '-af',
-                        'dynaudnorm=f=100:g=5:p=0.92:m=20,acompressor=threshold=-20dB:ratio=3:attack=5:release=120:makeup=2,alimiter=limit=0.93',
+                        'acompressor=threshold=-21dB:ratio=2.2:attack=12:release=220:knee=6,highpass=f=70,alimiter=limit=0.95:attack=5:release=60',
                         b_], check=True)
         lev, _ = sf.read(b_, dtype='float32')
         if len(lev) >= len(audio) - sr // 10: audio = lev[:len(audio)] if len(lev) >= len(audio) else np.pad(lev, (0, len(audio) - len(lev)))
-        os.remove(a_); os.remove(b_); log.append('loudness levelled (dynaudnorm + compressor)')
+        os.remove(a_); os.remove(b_); log.append('lines levelled + gentle compressor (no pumping)')
     except Exception as e:
         log.append(f'leveling skipped {e}')
     wt = align_words(audio, sr, words); log.append(f'{len(audio)/sr:.2f}s, force-aligned {len(words)} words')
