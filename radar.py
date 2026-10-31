@@ -1941,7 +1941,7 @@ SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
  date    {"type":"date","month":"OCT 2017","day":25,"event":"what happened, max 6 words"}
  chart   {"type":"chart","date":"YYYY-MM-DD","label":"OCT 2 · $85 · WHAT HAPPENED"}   (only when "chart" is set; date inside its range)
  versus  {"type":"versus","left":["LABEL","VALUE"],"right":["LABEL","VALUE"],"note":"optional"}
- quote   {"type":"quote","name":"Name","handle":"@handle","text":"exact short quote from the facts","stamp":"optional word"}
+ quote   {"type":"quote","name":"Name","text":"a quote copied WORD FOR WORD from the FACTS (never invented or paraphrased; no quote in the FACTS = do not use this type)","stamp":"optional word"}
  list    {"type":"list","items":["max 3","short","items"]}
 Icons: ''' + ', '.join(sstory.ICONS)
 
@@ -2052,6 +2052,18 @@ def script_review(sb, facts):
         except Exception:
             pass
     return out
+
+
+def verify_quotes(sb, facts):
+    """A quote card shows a real person's words: only if those words are in the sources, word for word. Otherwise it becomes a title card."""
+    norm = lambda t: re.sub(r'[^a-z0-9 ]', '', t.lower())
+    f = norm(facts)
+    for s in sb['scenes']:
+        v = s.get('visual') or {}
+        if v.get('type') == 'quote' and (len(norm(str(v.get('text', '')))) < 12 or norm(str(v.get('text', ''))) not in f):
+            print('quote not in sources -> title:', str(v.get('text', ''))[:60])
+            s['visual'] = {'type': 'title', 'text': str(v.get('name', '') or s['line'].split('.')[0])[:22].upper(), 'sub': '', 'icon': 'person'}
+    return sb
 
 
 def polish_script(sb, facts, rounds=2):
@@ -2236,6 +2248,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
             err = str(e); print('storyboard invalid:', err); continue
         cand = fit_length(cand, facts)
         cand, left = polish_script(cand, facts)
+        verify_quotes(cand, facts)
         cand['review'] = {str(k): v[:2] for k, v in left.items()}
         print('draft', attempt, 'words', cand['words'], 'est', cand['est_secs'], 'ok', cand.get('length_ok'))
         if best is None or abs(cand['words'] - cand['target_words']) < abs(best['words'] - best['target_words']):

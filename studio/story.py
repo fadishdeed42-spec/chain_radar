@@ -307,6 +307,14 @@ def check(sb, strict=True):
             probs.append(f'scene {i + 1}: chart without chart data -> title'); v = {'type': 'title', 'text': s['line'].split('.')[0][:22].upper()}
         if v.get('icon') and v['icon'] not in ICONS:
             v['icon'] = 'question'
+        if v['type'] == 'counter':                                          # 6300000000 + "B" would show "$6.3BB": the value already carries the scale
+            try:
+                if abs(float(v.get('value', 0))) >= 1e6 and str(v.get('suffix', '')).strip().upper() in ('B', 'BN', 'M', 'MN', 'K'):
+                    v['suffix'] = ''
+            except (TypeError, ValueError):
+                pass
+        if v['type'] == 'quote':
+            v.pop('handle', None)                                           # never show an X handle we can't verify
         s['visual'] = v
         s['beats'] = [b for b in (s.get('beats') or []) if isinstance(b, dict) and b.get('word')][:4]
         s['footage'] = str(s.get('footage') or '')[:60]
