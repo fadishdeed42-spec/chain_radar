@@ -182,10 +182,9 @@
 "coin": "bitcoin",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph",
-"Crypto News"
+"Cointelegraph"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793439520.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 The US $BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.\n\nNews | Markets | YouTube",
 "title": "The US BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.",
@@ -1746,7 +1745,7 @@
 "srcs": [
 "The Times"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793450700.0,
 "tgtext": "",
 "title": "Inside \u2018The Misfits\u2019 on the trail of the $6bn Binance crypto heist",
@@ -1760,7 +1759,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793449927.0,
 "tgtext": "ICE Reposts Trade[XYZ] Partnership Announcement, Emphasizing \"Plans to Bring\" and \"Subject to Regulatory Approvals\"\n\nFollowing the deletion of its earlier post, Intercontinental Exchange (ICE) reposted its partnership announcement with Trade[XYZ]. In the updated post, ICE amended its phrasing to emphasize that the two parties \"plan to bring Hyperliquid-based perps to the U.S.\" and that operating \"U.S. regulated versions\" remains strictly \"subject to regulatory approvals,\" with both parties seeking approvals to launch a new market built on Hyperliquid to operate KYC-compliant perp markets, including approvals to support leveraged trading. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].\n\nThis comes after X users were pointing out a deleted tweet on the matter\n\nNews | Markets | YouTube",
 "title": "HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].",
@@ -1807,7 +1806,7 @@
 "srcs": [
 "Stock Titan"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793432075.0,
 "tgtext": "",
 "title": "VanEck Wealth Builder ETF (WBMO) Stock Price, News & Analysis",
@@ -1927,7 +1926,7 @@
 "srcs": [
 "Hokanews"
 ],
-"t": 1793452715.5647964,
+"t": 1793453628.9501283,
 "t0": 1793434860.0,
 "tgtext": "",
 "title": "Dogecoin Death Cross Confirmed as DOGE Falls to $0.072 Amid $1.68 Billion Crypto Liquidations",
@@ -2564,7 +2563,7 @@
 "srcs": [
 "Axios"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793445650.0,
 "tgtext": "",
 "title": "How North Korea perfected the crypto heist",
@@ -3526,7 +3525,7 @@
 "Cointelegraph",
 "CryptoNinjas"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793433062.0,
 "tgtext": "Highlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
 "title": "US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019",
@@ -3870,9 +3869,10 @@
 "coin": "bitcoin",
 "src": "CryptoTicker.io",
 "srcs": [
-"CryptoTicker.io"
+"CryptoTicker.io",
+"The Market Periodical"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793439986.0,
 "tgtext": "",
 "title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
@@ -5128,7 +5128,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793446502.0,
 "tgtext": "",
 "title": "Ethereum Price Today: ETH Slips as Whales Sell 160,000 Coins and Pepeto Buyers Eye 100x",
@@ -6800,16 +6800,19 @@
 },
 "f0349604383f": {
 "coin": "",
-"src": "Wu Blockchain",
+"src": "The Block",
 "srcs": [
+"The Block",
 "Wu Blockchain"
 ],
-"t": 1793453019.0062323,
+"t": 1793453628.9501283,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
-"title": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles",
-"url": "https://t.me/wublockchainenglish/26632",
-"urls": []
+"title": "Chainalysis says hacker using \u2018offensive agentic techniques\u2019 accessed its customers\u2019 names and emails",
+"url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244",
+"urls": [
+"https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+]
 },
 "f06d5eaa5aad": {
 "coin": "bitcoin",
@@ -7271,7 +7274,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1793453019.0062323,
+"t": 1793453325.4020889,
 "t0": 1793443098.0,
 "tgtext": "",
 "title": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
@@ -7308,40 +7311,39 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"05555931eb5e": 0.684,
-"0e92ae9eee7a": 0.089,
+"05555931eb5e": 0.698,
+"09aee5683869": 0.113,
+"13315d0a51a4": 0.133,
 "18de53299939": 0.205,
-"1e0103930ab7": 0.206,
 "20aea2f41894": 0.063,
-"2b3e445c3112": 0.218,
 "2bfe24389158": 0.176,
 "2f3c29f4ccf1": 0.05,
-"368aa004ab65": 0.118,
 "3c1b6c10d6d5": 0.339,
 "3c564a957bc8": 0.803,
-"3ef1e4eeba6f": 0.027,
 "40b78943f1d6": 0.262,
+"46f97163a265": 0.341,
+"4bdcf3f79392": 0.14,
 "55ea9e73178d": 0.046,
 "57152ebfee69": 0.162,
 "5d7337f2a18e": 0.121,
 "5ff8955bf5de": 0.235,
-"68c750954bf3": 0.063,
 "75d536262d5a": 0.102,
-"76081a40a064": 0.073,
 "80d4e78ed442": 0.136,
-"811a482828ab": 0.983,
+"811a482828ab": 0.989,
 "87f350bbbbbb": 0.015,
-"8f0610ceda83": 0.348,
+"8ec0baa9224e": 0.072,
+"8f0610ceda83": 0.363,
 "9222a61d3a3f": 0.085,
 "9412286ab3f7": 0.024,
+"9acc8a65efaf": 0.047,
 "a3d38f217a95": 0.052,
-"ad2756a32e06": 0.129,
 "b25c875e8ebe": 0.3,
+"c640d56259c1": 0.062,
 "d0ac506c37e0": 0.048,
-"e46b9e63cda2": 0.062,
+"e46b9e63cda2": 0.077,
 "ec266ab30b9b": 0.179,
 "efbfa1d218ff": 0.046,
-"f0349604383f": 0.551,
+"f0349604383f": 0.705,
 "ff35b1a24815": 0.219
 },
 "sent": [
@@ -8876,64 +8878,64 @@
 "top": [
 [
 "811a482828ab",
-70,
-333,
-13
+69,
+343,
+12
 ],
 [
 "3c564a957bc8",
-28,
-52,
-2
-],
-[
-"05555931eb5e",
-21,
-225,
+20,
+62,
 2
 ],
 [
 "f0349604383f",
-0,
-262,
+8,
+272,
+2
+],
+[
+"05555931eb5e",
+9,
+235,
 1
 ],
 [
 "8f0610ceda83",
-16,
-217,
+32,
+227,
+2
+],
+[
+"46f97163a265",
+23,
+313,
 1
 ],
 [
 "3c1b6c10d6d5",
 43,
-39,
+49,
 1
 ],
 [
 "b25c875e8ebe",
 18,
-109,
+119,
 1
 ],
 [
 "40b78943f1d6",
-2,
-349,
+1,
+359,
 1
 ],
 [
 "5ff8955bf5de",
 40,
-123,
-1
-],
-[
-"ff35b1a24815",
-48,
-165,
+133,
 1
 ]
 ],
-"top_at": 1793453019.0062323
+"top_at": 1793453628.9501283
 }
