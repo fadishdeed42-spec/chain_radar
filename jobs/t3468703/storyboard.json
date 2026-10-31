@@ -1,0 +1,220 @@
+{
+ "title": "The $6.3 Billion Binance Hack Explained \ud83d\udea8",
+ "alt_hooks": [
+  "North Korea just stole $6.3 billion from Binance in under an hour.",
+  "How did hackers drain $6.3 billion from Binance in just 20 minutes?",
+  "The largest crypto hack in history just happened on Binance."
+ ],
+ "tone": "serious",
+ "respell": {},
+ "chart": {
+  "symbol": "BTC",
+  "start": "2026-10-23",
+  "end": "2026-11-02"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "Hackers stole $6.3 billion from Binance in under an hour.",
+   "hit": "$63",
+   "beats": [
+    {
+     "word": "Binance",
+     "text": "Largest Hack",
+     "icon": "skull"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "Hackers stole $6.3 billion",
+     "q": "hacker typing laptop dark"
+    },
+    {
+     "words": "from Binance in under an hour.",
+     "q": "crypto exchange logo"
+    }
+   ],
+   "photo": "Binance",
+   "visual": {
+    "type": "counter",
+    "value": 6300000000,
+    "prefix": "$",
+    "suffix": "B",
+    "label": "Stolen from Binance",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Blockchain firms TRM Labs and Chainalysis linked it to North Korea on Thursday.",
+   "hit": "north",
+   "beats": [
+    {
+     "word": "TRM",
+     "text": "TraderTraitor Group",
+     "icon": "lock"
+    }
+   ],
+   "footage": "hacker matrix code",
+   "shots": [
+    {
+     "words": "Blockchain firms TRM Labs",
+     "q": "data analytics graph"
+    },
+    {
+     "words": "and Chainalysis linked it to North Korea.",
+     "q": "world map red dots"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "TRM Labs Trace",
+    "word": "LINKED",
+    "bad": true
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Attackers exploited an engineer laptop and EIP-7702 to drain hot wallets during the cyberattack.",
+   "hit": "eip7702",
+   "beats": [
+    {
+     "word": "laptop",
+     "text": "Hot Wallets",
+     "icon": "laptop"
+    }
+   ],
+   "footage": "engineer working laptop",
+   "shots": [
+    {
+     "words": "Attackers exploited an engineer laptop",
+     "q": "open laptop desk"
+    },
+    {
+     "words": "and EIP-7702 to drain hot wallets.",
+     "q": "code scrolling fast"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "EIP-7702 EXPLOIT",
+    "sub": "Hot wallets drained",
+    "icon": "laptop"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Stablecoin providers froze $2.8 billion, but about $3 billion vanished forever in the crypto heist.",
+   "hit": "$28",
+   "beats": [
+    {
+     "word": "billion",
+     "text": "$3B Gone",
+     "icon": "safe"
+    }
+   ],
+   "footage": "bank vault door",
+   "shots": [
+    {
+     "words": "Stablecoin providers froze $2.8 billion,",
+     "q": "frozen ice lock"
+    },
+    {
+     "words": "but $3 billion vanished forever.",
+     "q": "digital money fading"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "FROZEN",
+     "$2.8B"
+    ],
+    "right": [
+     "GONE",
+     "$3.0B"
+    ],
+    "note": "Stablecoin rescue"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "Co-CEO Richard Teng vowed corporate funds will cover all customer losses from the security breach.",
+   "hit": "richard",
+   "beats": [
+    {
+     "word": "vowed",
+     "text": "Assets Safe",
+     "icon": "bank"
+    }
+   ],
+   "footage": "corporate office meeting",
+   "shots": [
+    {
+     "words": "Co-CEO Richard Teng vowed",
+     "q": "ceo speaking microphone"
+    },
+    {
+     "words": "corporate funds will cover all customer losses.",
+     "q": "stacks of cash bank"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "quote",
+    "name": "Richard Teng",
+    "handle": "@_RichardTeng",
+    "text": "We are committed to covering all hacked losses.",
+    "stamp": "COVERED"
+   }
+  },
+  {
+   "role": "end",
+   "line": "As withdrawals paused, Bitcoin crashed below $80,000 for the first time in a month following the exploit.",
+   "hit": "$80000",
+   "beats": [
+    {
+     "word": "paused",
+     "text": "BTC Crash",
+     "icon": "bitcoin"
+    }
+   ],
+   "footage": "bitcoin price chart crashing",
+   "shots": [
+    {
+     "words": "As withdrawals paused,",
+     "q": "atm out of order sign"
+    },
+    {
+     "words": "Bitcoin crashed below $80,000 for the first time.",
+     "q": "red stock chart drop"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "chart",
+    "date": "2026-10-30",
+    "label": "OCT 30 \u00b7 $79K \u00b7 BTC CRASH"
+   }
+  }
+ ],
+ "description": "On October 30, 2026, Binance suffered a historic $6.3 billion cyberattack linked by TRM Labs and Chainalysis to North Korea's TraderTraitor group. Co-CEO Richard Teng confirmed that company reserves will cover all user losses, while stablecoin providers managed to freeze $2.8 billion of the stolen funds.",
+ "hashtags": "#Binance #CryptoNews #Bitcoin #NorthKorea #CyberSecurity #CryptoHack #Blockchain",
+ "pinned": "Would you keep your funds on an exchange after a hack this size?",
+ "length": 45,
+ "settings": {
+  "length": 45,
+  "style": "documentary",
+  "autorender": true
+ },
+ "est_secs": 44,
+ "words": 95,
+ "target_words": 98,
+ "length_ok": true,
+ "review": {}
+}
