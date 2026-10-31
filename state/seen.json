@@ -130,19 +130,6 @@
 "url": "https://t.me/wublockchainenglish/26623",
 "urls": []
 },
-"02a612de49b5": {
-"coin": "hyperliquid",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1793274514.710781,
-"t0": 1793253182.0,
-"tgtext": "A mysterious whale has dumped 1.02M $SOL ($104.3M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/85ec10dc-382f-4b66-91a8-d1842b34a7fb\nA mysterious whale dumped 694,310 $HYPE ($53.27M) over the past 5 days!\n\nhttps://arkm.com/explorer/entity/8058920b-dbf1-4c5e-8a8d-025539e794b1",
-"title": "A mysterious whale dumped 694,310 HYPE ($53.27M) over the past 5 days!",
-"url": "https://t.me/lookonchainchannel/10828",
-"urls": []
-},
 "033265025048": {
 "coin": "",
 "src": "Cointelegraph",
@@ -199,7 +186,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793439520.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 The US $BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.\n\nNews | Markets | YouTube",
 "title": "The US BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.",
@@ -1726,7 +1713,7 @@
 "srcs": [
 "Stock Titan"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793432075.0,
 "tgtext": "",
 "title": "VanEck Wealth Builder ETF (WBMO) Stock Price, News & Analysis",
@@ -3077,7 +3064,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793429066.0,
 "tgtext": "\ud83d\udcca MARKET: October wiped out $300B from the market.\n\nWhat happened to Uptober?\n\nNews | Markets | YouTube",
 "title": "MARKET: October wiped out $300B from the market.",
@@ -3443,12 +3430,13 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"AP News",
 "Cointelegraph",
 "CryptoPotato",
 "Wu Blockchain",
 "openPR.com"
 ],
-"t": 1793444902.537077,
+"t": 1793447357.1872368,
 "t0": 1793433062.0,
 "tgtext": "Highlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
 "title": "Highlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks",
@@ -3777,7 +3765,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793439986.0,
 "tgtext": "",
 "title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
@@ -3889,7 +3877,7 @@
 "srcs": [
 "ad-hoc-news.de"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793426672.0,
 "tgtext": "",
 "title": "Bitcoin price tests support after leveraged liquidations",
@@ -5058,6 +5046,19 @@
 "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance"
 ]
 },
+"b25c875e8ebe": {
+"coin": "ethereum",
+"src": "TechBullion",
+"srcs": [
+"TechBullion"
+],
+"t": 1793447357.1872368,
+"t0": 1793446502.0,
+"tgtext": "",
+"title": "Ethereum Price Today: ETH Slips as Whales Sell 160,000 Coins and Pepeto Buyers Eye 100x",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSV9wMlJyS2ZQeVBvaExhZTFUQVFydHEwdnNMZ0xoTWpOdTZndTl3bExhQXdOcUFrTDFJOWVZSkNMX3BOMWNDYTNhSGZPNW5Wbm5ITG9lVl9pN3dPam5RdHZjQ3BhakVXdzVJa1k5UVNIaVFOU09TRHVDNlNjOVlYQ2ZHOTZzUTRsOGV5LTlKSi04VWxsRmhkWjRWOEVaQnhWSm02QzlmV0pvaWdFMV9z?oc=5",
+"urls": []
+},
 "b266dd3a0a73": {
 "coin": "",
 "src": "CryptoSlate",
@@ -5187,9 +5188,10 @@
 "coin": "ethereum",
 "src": "Wu Blockchain",
 "srcs": [
-"Wu Blockchain"
+"Wu Blockchain",
+"bloomingbit"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793429309.0,
 "tgtext": "Ethereum Block Builder Titan Builder Briefly Tops 24-Hour Protocol Revenue Rankings With $22.83M, Surpassing Tether\n\nAccording to DeFiLlama, Ethereum block builder Titan Builder briefly ranked first in 24-hour protocol revenue with $22.83 million, surpassing Tether. DeFiLlama co-founder 0xngmi said Titan Builder generated approximately $24.7 million in fees over the same period, an unusually high figure that DeFiLlama\u2019s systems initially flagged and blocked as a data error. He attributed the surge in MEV activity to arbitrage opportunities created by hacker-related market disruptions and widespread panic. \u2014 link",
 "title": "Ethereum Block Builder Titan Builder Briefly Tops 24-Hour Protocol Revenue Rankings With $22.83M, Surpassing Tether",
@@ -5225,6 +5227,25 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
 "https://decrypt.co/382149/hyperliquid-hype-jumps-nyse-owner-ice-perpetual-futures-us"
+]
+},
+"b688239b0424": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"AP News",
+"Cointelegraph",
+"CryptoPotato",
+"MarketForces Africa",
+"Wu Blockchain"
+],
+"t": 1793447052.166863,
+"t0": 1793427360.0,
+"tgtext": "Highlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
+"title": "Highlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks",
+"url": "https://t.me/wublockchainenglish/26631",
+"urls": [
+"https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "b7b5adb54be3": {
@@ -5476,6 +5497,20 @@
 "tgtext": "",
 "title": "CoinDCX Downplays Hack Claims as \"False Alarm\"... But Now Confirms $16 MILLION Missing.",
 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGRxV1Y5WWVkS0RRMGhEdGhfanVrbjNYZzdlU3ZaVm01ZHdrdUZOa3FGSnJzU2p0YTlFTEplZmVfeUpYejBRU2puQ2RlMnk5MW5OcHA2d3JwZjRxaDZJcWprckhJeTZmNUpLZktPcW1sT0g1NGxGVW1VNUI5MmxnS1VrV0dVSUxVdjdiOGJn?oc=5",
+"urls": []
+},
+"c26c02f62f52": {
+"coin": "bitcoin",
+"src": "The Crypto Times",
+"srcs": [
+"Hokanews",
+"The Crypto Times"
+],
+"t": 1793447357.1872368,
+"t0": 1793428254.0,
+"tgtext": "",
+"title": "Bitcoin Price Today: BTC Falls to $77K as $427M in Crypto Liquidations Hit, ETFs See $643M Outflow",
+"url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ05nS2xlbjVZeFROVEEwYlR5ZGVic3Q1NmFhZFZHUHBCRXdXbGJRNThYcXV1cElpYnhUTUNpcUJQMmxBdURjRWpUTGZSSE1neEh1dlFwRklZZURWeWoxcFpuSUFfVE1valZaWVNEU0RDN1NhZW9laDcwaGoyMTItTk9FQmtKb05rZDd1ZEpTM2huMHpjSjFYNVZnbVcyMVFRSHNYaUEyX2VFX1gwd2hIZy0tVWd3b2pjVy1rN0tXSmRjaXVLMEdCUkpKeW8?oc=5",
 "urls": []
 },
 "c26f454b5d8b": {
@@ -6786,7 +6821,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793446743.3829625,
+"t": 1793447357.1872368,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
 "title": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles",
@@ -7277,31 +7312,33 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"04a23fcdd74c": 0.024,
 "05555931eb5e": 0.52,
-"2b3e445c3112": 0.142,
 "2bfe24389158": 0.113,
 "368aa004ab65": 0.074,
 "3ef1e4eeba6f": 0.016,
 "40b78943f1d6": 0.143,
 "5d7337f2a18e": 0.075,
 "5ff8955bf5de": 0.039,
-"767d3edc2a6e": 0.436,
+"767d3edc2a6e": 0.494,
+"811a482828ab": 0.992,
 "87f350bbbbbb": 0.009,
+"8ec0baa9224e": 0.036,
 "8f0610ceda83": 0.374,
-"8f94aa458d8a": 0.07,
 "92918218b577": 0.2,
 "9412286ab3f7": 0.021,
+"9acc8a65efaf": 0.029,
 "9e07ec69114c": 0.085,
 "a3d38f217a95": 0.032,
-"a71566f87631": 0.939,
-"b5d110dc5020": 0.27,
-"c42ceae4c55c": 0.034,
+"b25c875e8ebe": 0.204,
+"b5d110dc5020": 0.413,
+"c26c02f62f52": 0.321,
+"ca4ecfe899a7": 0.092,
+"ca55d7f18783": 0.075,
 "d0ac506c37e0": 0.023,
 "e46b9e63cda2": 0.038,
 "ec266ab30b9b": 0.115,
-"f0349604383f": 0.131,
-"f99636f7bfc1": 0.872
+"efbfa1d218ff": 0.028,
+"f0349604383f": 0.131
 },
 "sent": [
 {
@@ -8961,65 +8998,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"a71566f87631",
-28,
-359,
-3
-],
-[
-"f99636f7bfc1",
-69,
-340,
-11
+"811a482828ab",
+83,
+238,
+5
 ],
 [
 "05555931eb5e",
 16,
-120,
+131,
 1
 ],
 [
 "767d3edc2a6e",
-10,
-295,
-1
-],
-[
-"8f0610ceda83",
-20,
-113,
+9,
+305,
 1
 ],
 [
 "b5d110dc5020",
-10,
-291,
+18,
+301,
+2
+],
+[
+"8f0610ceda83",
+20,
+123,
+1
+],
+[
+"c26c02f62f52",
+38,
+318,
+2
+],
+[
+"b25c875e8ebe",
+18,
+14,
 1
 ],
 [
 "92918218b577",
-5,
-335,
+4,
+345,
 1
 ],
 [
 "40b78943f1d6",
-16,
-244,
-1
-],
-[
-"2b3e445c3112",
-5,
-225,
+15,
+255,
 1
 ],
 [
 "f0349604383f",
 10,
-157,
+167,
 1
 ]
 ],
-"top_at": 1793446743.3829625
+"top_at": 1793447357.1872368
 }
