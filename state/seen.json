@@ -199,7 +199,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793439520.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 The US $BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.\n\nNews | Markets | YouTube",
 "title": "The US BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.",
@@ -1717,7 +1717,7 @@
 "srcs": [
 "Stock Titan"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793432075.0,
 "tgtext": "",
 "title": "VanEck Wealth Builder ETF (WBMO) Stock Price, News & Analysis",
@@ -1850,7 +1850,7 @@
 "srcs": [
 "Hokanews"
 ],
-"t": 1793442447.664661,
+"t": 1793442756.0832195,
 "t0": 1793434860.0,
 "tgtext": "",
 "title": "Dogecoin Death Cross Confirmed as DOGE Falls to $0.072 Amid $1.68 Billion Crypto Liquidations",
@@ -2028,7 +2028,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793421858.0,
 "tgtext": "A newly created wallet (0x1c75) withdrew 1.15M $LIT($3.31M), 7.995M $ENA($1.51M) and 7.31M $ARB($1.18M) from #OKX.\n\nhttps://arkm.com/explorer/address/0x1c75ce784b4a8509840CdAFA09BC382dbD89C3bA",
 "title": "A newly created wallet (0x1c75) withdrew 1.15M LIT($3.31M), 7.995M ENA($1.51M) and 7.31M ARB($1.18M) from OKX.",
@@ -3068,7 +3068,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793429066.0,
 "tgtext": "\ud83d\udcca MARKET: October wiped out $300B from the market.\n\nWhat happened to Uptober?\n\nNews | Markets | YouTube",
 "title": "MARKET: October wiped out $300B from the market.",
@@ -3116,7 +3116,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793422892.0,
 "tgtext": "",
 "title": "Bitcoin stolen from Binance tops Tesla\u2019s holdings and is over twice El Salvador\u2019s reserve",
@@ -3419,7 +3419,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793421498.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Senator Lummis says the CLARITY Act would have given crypto firms legal cover to freeze funds \"the instant law enforcement calls\" during the $6.3B Binance hack.\n\nThe bill is still stuck in the Senate after a 49-50 vote.\n\nNews | Markets | YouTube\nHighlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
 "title": "REGULATION: Senator Lummis says the CLARITY Act would have given crypto firms legal cover to freeze funds \"the instant law enforcement calls\" during the $6.3B Binance hack.",
@@ -3762,7 +3762,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793439986.0,
 "tgtext": "",
 "title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
@@ -3874,7 +3874,7 @@
 "srcs": [
 "ad-hoc-news.de"
 ],
-"t": 1793442142.6726453,
+"t": 1793443061.3421757,
 "t0": 1793426672.0,
 "tgtext": "",
 "title": "Bitcoin price tests support after leveraged liquidations",
@@ -4574,10 +4574,11 @@
 "coin": "bitcoin",
 "src": "The Crypto Times",
 "srcs": [
+"Crypto News",
 "The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793425230.0,
 "tgtext": "Spot Bitcoin ETFs See $643M in Net Outflows, Ethereum ETFs Lose $156M\n\nAccording to SoSoValue data, U.S. spot Bitcoin ETFs recorded total net outflows of $643 million on October 30 (ET). BlackRock's IBIT saw the largest daily net outflow among spot Bitcoin ETFs at $234 million. Spot Ethereum ETFs recorded total net outflows of $156 million, marking their fifth consecutive day of net outflows. BlackRock\u2019s ETHA saw the largest daily net outflow among spot Ethereum ETFs at $76.64 million. \u2014 link",
 "title": "Bitcoin Price Today: BTC Falls to $77K as $427M in Crypto Liquidations Hit, ETFs See $643M Outflow",
@@ -4637,21 +4638,6 @@
 "https://cryptoslate.com/binance-breach-points-6-billion-hack/",
 "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"a8adbdbd2413": {
-"coin": "bitcoin",
-"src": "TradingView",
-"srcs": [
-"CoinDesk",
-"FXStreet",
-"TradingView"
-],
-"t": 1793269910.2290552,
-"t0": 1793255400.0,
-"tgtext": "",
-"title": "Bitcoin Price News: Why BTC May Have Hit Its Cycle Low Near $80,000",
-"url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcXp0NVBYR2dtRTlKa0UyOTlGVnVsRm1sNjFZbU5wTzk4RzRNWFhrNDdDRjF3Nl81bi1pOElaRlRHc1ptWDlhcFJCQ2NwRE04bjI1Zkt6N19lbTlNOU1zbXl1Vk56SjAwM3R4MHRfTVNTUnR2d0hyNXVMelllLWtjS2taejNMaGVRelZhMHhGS3ZKRUFQSjloU1pURFdtYzcwOEVxeDc1cndpcG53SEk2MzFKUWdBWEN5cnNkZE1DZDJIU1k?oc=5",
-"urls": []
 },
 "a8f0edbfa341": {
 "coin": "",
@@ -5186,9 +5172,10 @@
 "coin": "ethereum",
 "src": "Wu Blockchain",
 "srcs": [
-"Wu Blockchain"
+"Wu Blockchain",
+"bloomingbit"
 ],
-"t": 1793439687.8581157,
+"t": 1793442756.0832195,
 "t0": 1793429309.0,
 "tgtext": "Ethereum Block Builder Titan Builder Briefly Tops 24-Hour Protocol Revenue Rankings With $22.83M, Surpassing Tether\n\nAccording to DeFiLlama, Ethereum block builder Titan Builder briefly ranked first in 24-hour protocol revenue with $22.83 million, surpassing Tether. DeFiLlama co-founder 0xngmi said Titan Builder generated approximately $24.7 million in fees over the same period, an unusually high figure that DeFiLlama\u2019s systems initially flagged and blocked as a data error. He attributed the surge in MEV activity to arbitrage opportunities created by hacker-related market disruptions and widespread panic. \u2014 link",
 "title": "Ethereum Block Builder Titan Builder Briefly Tops 24-Hour Protocol Revenue Rankings With $22.83M, Surpassing Tether",
@@ -6785,7 +6772,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793442447.664661,
+"t": 1793443061.3421757,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
 "title": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles",
@@ -7259,23 +7246,26 @@
 "probs": {
 "05555931eb5e": 0.806,
 "2b3e445c3112": 0.116,
+"2bfe24389158": 0.113,
 "368aa004ab65": 0.074,
 "40b78943f1d6": 0.239,
-"46f97163a265": 0.345,
+"40e8fb70b6ad": 0.03,
 "4a42ba3cbb7c": 0.774,
-"767d3edc2a6e": 0.274,
+"767d3edc2a6e": 0.168,
 "783e410cb3aa": 0.224,
-"80ef32f0d05f": 0.98,
+"80ef32f0d05f": 0.961,
 "8f0610ceda83": 0.419,
+"8f94aa458d8a": 0.07,
 "92918218b577": 0.165,
 "9412286ab3f7": 0.021,
-"9acc8a65efaf": 0.023,
 "9e07ec69114c": 0.068,
-"a71566f87631": 0.601,
+"a71566f87631": 0.603,
 "b5d110dc5020": 0.088,
+"c8e2639eecab": 0.041,
 "d0ac506c37e0": 0.023,
 "d58661923895": 0.133,
 "e46b9e63cda2": 0.038,
+"e7aed9899e21": 0.134,
 "efbfa1d218ff": 0.028,
 "f0349604383f": 0.366
 },
@@ -8938,64 +8928,64 @@
 "top": [
 [
 "80ef32f0d05f",
-68,
-349,
-7
+67,
+359,
+8
 ],
 [
 "05555931eb5e",
 16,
-49,
+59,
 1
 ],
 [
 "4a42ba3cbb7c",
 0,
-343,
+353,
 1
 ],
 [
 "a71566f87631",
-27,
-287,
-2
+36,
+297,
+3
 ],
 [
 "8f0610ceda83",
 20,
-41,
+51,
 1
 ],
 [
 "f0349604383f",
 10,
-85,
-1
-],
-[
-"46f97163a265",
-40,
-126,
-1
-],
-[
-"767d3edc2a6e",
-20,
-223,
+96,
 1
 ],
 [
 "40b78943f1d6",
 24,
-173,
+183,
 1
 ],
 [
 "783e410cb3aa",
-24,
-326,
+23,
+336,
+1
+],
+[
+"767d3edc2a6e",
+18,
+233,
+1
+],
+[
+"92918218b577",
+13,
+273,
 1
 ]
 ],
-"top_at": 1793442447.664661
+"top_at": 1793443061.3421757
 }
