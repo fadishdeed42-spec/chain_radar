@@ -851,16 +851,43 @@
 "kit": "2026-10-30",
 "kit_q": "Binance Reserves Over $6.34B in Company Funds to Cover Hack Losses, Including $5B in Affected Tokens",
 "menu": {
-"2996a1be8922": {
-"facts": "This happened on October 29, 2014 (12 years ago today). Headline from that day: Ex-SEC Chairman Levitt to Advise Two Bitcoin Companies (WSJ).",
-"src": "WSJ",
+"0c7a3da06d6a": {
+"facts": "This happened on October 31, 2021 (5 years ago today). Headline from that day: Squid Game crypto plunges to $0 after scammers steal millions of dollars from investors | CNN Business (CNN).",
+"src": "CNN",
 "story": true,
-"t": 1793268020.3775258,
+"t": 1793440811.3131115,
 "tag": "TRUE STORY",
-"title": "Ex-SEC Chairman Levitt to Advise Two Bitcoin Companies",
-"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVVA5eGdPOW14Rldsb0pHWndrV09oWWVfbElXSWh3VlJBODFuUUg3b0ZsZ1daajllNEY4M2dwQUs4Y3V2YkdvRnZzaE0xdGlLWWhfczVjRWt4SVlmRjBpMXgtTjcxWFM2Nkx1YktlTG4zUU5pdVRSczBPZk1lczlGLS1tYVNya3ljMFRsWTRLSGN5Ty1PTGpuTXBR?oc=5",
+"title": "Squid Game crypto plunges to $0 after scammers steal millions of dollars from investors | CNN Business",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuVTFVWlhWUkowLWlCUk9lMUl3VnBfM1NQUnJFOVFDa3RhS185Y0dIV19lUWx5NGxnY2g1TThfMlZ1a2tZcHRqdjRFcVFuUDY0U3BQbXNqaFZGczJadlBOcHJNQ0JwTkpuRHpqLWNUQkQ5aGF3T2Z6NFZuYw?oc=5",
 "urls": [
-"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVVA5eGdPOW14Rldsb0pHWndrV09oWWVfbElXSWh3VlJBODFuUUg3b0ZsZ1daajllNEY4M2dwQUs4Y3V2YkdvRnZzaE0xdGlLWWhfczVjRWt4SVlmRjBpMXgtTjcxWFM2Nkx1YktlTG4zUU5pdVRSczBPZk1lczlGLS1tYVNya3ljMFRsWTRLSGN5Ty1PTGpuTXBR?oc=5"
+"https://news.google.com/rss/articles/CBMie0FVX3lxTFBuVTFVWlhWUkowLWlCUk9lMUl3VnBfM1NQUnJFOVFDa3RhS185Y0dIV19lUWx5NGxnY2g1TThfMlZ1a2tZcHRqdjRFcVFuUDY0U3BQbXNqaFZGczJadlBOcHJNQ0JwTkpuRHpqLWNUQkQ5aGF3T2Z6NFZuYw?oc=5"
+]
+},
+"3281c8659cb1": {
+"facts": "Hack date: Oct 31, 2024. Protocol: M2 Exchange. Chain: ['Ethereum', 'Solana', 'Bitcoin']. Method: Hot Wallet Key Compromised. Amount stolen: $13,700,000. (DefiLlama hacks database.)",
+"hack": {
+"amount": "$13.7M",
+"chain": "['Ethereum', 'Solana', 'Bitcoin']",
+"date": "Oct 31, 2024",
+"method": "Hot Wallet Key Compromised"
+},
+"key": "3281c8659cb1",
+"src": "DefiLlama",
+"t": 1793440809.8024654,
+"tag": "HACK",
+"title": "M2 Exchange hacked for $13.7 million",
+"url": ""
+},
+"3a6c05544b40": {
+"facts": "This happened on October 31, 2018 (8 years ago today). Headline from that day: Bitcoin turns 10 \u2014 how it went from an abstract idea to a $100 billion market in a decade (CNBC).",
+"src": "CNBC",
+"story": true,
+"t": 1793440811.3131022,
+"tag": "TRUE STORY",
+"title": "Bitcoin turns 10 \u2014 how it went from an abstract idea to a $100 billion market in a decade",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fZl9xVV9RbXFqSFZMUGVoaGllQVRWWEdadExUQWpZSDFWSWJ4R1JFeXh4NERUMGdmMlRPVzM5NHFBSkRqRDdJMWVMcXY4cUV6TmFRYk5UYTgzUDI5OHE2NHhMOVQ3RW1vVlZfOEkwVEnSAXZBVV95cUxPYUFHTzVNY1FEMjRMRjJrTEl2S2s1RkpGdzQ2bFlaU3RGcjJSRVBxWWhRZU9XampVbnoxMHgtV0Q4VEhmaXRILXI1Ul8zdF9obGFTTU5sb0VLTVZJUmxMQmluUEpvaUdGUzE1RG1iMEVfU0E2WGhn?oc=5",
+"urls": [
+"https://news.google.com/rss/articles/CBMicEFVX3lxTE5fZl9xVV9RbXFqSFZMUGVoaGllQVRWWEdadExUQWpZSDFWSWJ4R1JFeXh4NERUMGdmMlRPVzM5NHFBSkRqRDdJMWVMcXY4cUV6TmFRYk5UYTgzUDI5OHE2NHhMOVQ3RW1vVlZfOEkwVEnSAXZBVV95cUxPYUFHTzVNY1FEMjRMRjJrTEl2S2s1RkpGdzQ2bFlaU3RGcjJSRVBxWWhRZU9XampVbnoxMHgtV0Q4VEhmaXRILXI1Ul8zdF9obGFTTU5sb0VLTVZJUmxMQmluUEpvaUdGUzE1RG1iMEVfU0E2WGhn?oc=5"
 ]
 },
 "40d59022d847": {
@@ -890,6 +917,18 @@
 "title": "BXH hacked for $139.0 million",
 "url": ""
 },
+"48ee3ac1facd": {
+"facts": "This happened on October 31, 2021 (5 years ago today). Headline from that day: ProShares Bitcoin ETF (BITO) Options Chain - Yahoo Finance (Yahoo! Finance Canada).",
+"src": "Yahoo! Finance Canada",
+"story": true,
+"t": 1793440811.313119,
+"tag": "TRUE STORY",
+"title": "ProShares Bitcoin ETF (BITO) Options Chain - Yahoo Finance",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRQjdHdTMzTHdaaDEzSmJvT3pXeE15cGI0ZTZFaXZ5ZzVDbzZ4YUNjQ0FYYTFhNkYyeUQwdkJFMUtoQjFseGtxanF2NU85V0tSbTJYNmlvS2pWc2Nh?oc=5",
+"urls": [
+"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRQjdHdTMzTHdaaDEzSmJvT3pXeE15cGI0ZTZFaXZ5ZzVDbzZ4YUNjQ0FYYTFhNkYyeUQwdkJFMUtoQjFseGtxanF2NU85V0tSbTJYNmlvS2pWc2Nh?oc=5"
+]
+},
 "4e052b0e8433": {
 "facts": "This happened on October 30, 2023 (3 years ago today). Headline from that day: Bittrex's US wind-down approved in bankruptcy court (Reuters).",
 "src": "Reuters",
@@ -902,11 +941,44 @@
 "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcUR0SWNHeTNwVlQ1U3UtY3puNXY5OXBvbEF0T2hvWnVkTzdudUo5RlRmRGpmdnVkMXp1enFOOXUwdlVMTUN3aGFrTy1qRkY4Q2ZzMFl4U094MVFrUlprMWZVS0hVT2VSNER4NHJNUTRDZ0NsNm9EUG5PRm04WkdsTzU5SF9NdEFWRVRRbWlhUkkweXJRcURQOU10RmxHejN4Y3c?oc=5"
 ]
 },
+"544c6e5fa71f": {
+"facts": "This happened on October 31, 2023 (3 years ago today). Headline from that day: SEC failed to follow the Congressional Review Act, may have broken the law (Blockworks).",
+"src": "Blockworks",
+"story": true,
+"t": 1793440811.3131256,
+"tag": "TRUE STORY",
+"title": "SEC failed to follow the Congressional Review Act, may have broken the law",
+"url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zdnM0TkZpX3NJNm1UX2lCQVF0Zzk3Sm9IWkZ1VXBsWnhUZ2RIRl8tMWl5bXdNcTJySWtOTHJwSXRLQlVlRWxzWGJtbHJUdGFscktzQVdNMGd5dGRqZWFud1ZR?oc=5",
+"urls": [
+"https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zdnM0TkZpX3NJNm1UX2lCQVF0Zzk3Sm9IWkZ1VXBsWnhUZ2RIRl8tMWl5bXdNcTJySWtOTHJwSXRLQlVlRWxzWGJtbHJUdGFscktzQVdNMGd5dGRqZWFud1ZR?oc=5"
+]
+},
+"5867f68dc1a9": {
+"facts": "On October 31, 2008: Satoshi Nakamoto publishes the Bitcoin whitepaper. (Well-documented crypto history.)",
+"src": "Crypto history",
+"story": true,
+"t": 1793440811.3130584,
+"tag": "TRUE STORY",
+"title": "Satoshi Nakamoto publishes the Bitcoin whitepaper (October 31, 2008)",
+"url": ""
+},
+"7097278db36a": {
+"facts": "This happened on October 31, 2015 (11 years ago today). Headline from that day: Bitcoin Price Hits New High for 2015 (CoinDesk).",
+"src": "CoinDesk",
+"story": true,
+"t": 1793440811.3130782,
+"tag": "TRUE STORY",
+"title": "Bitcoin Price Hits New High for 2015",
+"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYzV5RV9CRHcwcU92eFcxdnk4b2thTHNXdlRmRm9Ea2ZiV0xxbERsREYtbWFNdENrNHNWVnhUNEs5OUFHMF95cUVXWndVZGFTZ0lEdzgteHV6bmw2Rnczdm41bFBrRW5WSUxGLTNqaE1adXBHZ2d3LTFzc3BHSjRQbVpGWkJhSEU?oc=5",
+"urls": [
+"https://news.google.com/rss/articles/CBMihwFBVV95cUxOYzV5RV9CRHcwcU92eFcxdnk4b2thTHNXdlRmRm9Ea2ZiV0xxbERsREYtbWFNdENrNHNWVnhUNEs5OUFHMF95cUVXWndVZGFTZ0lEdzgteHV6bmw2Rnczdm41bFBrRW5WSUxGLTNqaE1adXBHZ2d3LTFzc3BHSjRQbVpGWkJhSEU?oc=5"
+]
+},
 "7a101e3bfad5": {
-"facts": "This happened on October 30, 2018 (8 years ago today). Headline from that day: Cryptocurrency start-up Coinbase valued at $8 billion despite bitcoin's plunge (CNBC).",
+"facts": "This happened on October 31, 2018 (8 years ago today). Headline from that day: Cryptocurrency start-up Coinbase valued at $8 billion despite bitcoin's plunge (CNBC).",
 "src": "CNBC",
 "story": true,
-"t": 1793354406.580377,
+"t": 1793440811.31309,
 "tag": "TRUE STORY",
 "title": "Cryptocurrency start-up Coinbase valued at $8 billion despite bitcoin's plunge",
 "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblRVYW9tVkl3NDhSWV9iZ1JXQjJud3FvS09feDVsLWI1QWFxbnVwSk5USTRaS2xVd2xnSmREM2F4RHotVXJjLWVsZmJLLWV3ZXRVdzY1d0UzVHc0QjVYRmJid2VLRGNQaEVEck1XdHBqM0NrT3hhOHVIVnUzRExieDM5RkF5U3dvV29tVTc3SEV2VDRiZXZhVGxWWHZZTmRvV2s3YzFZSTZla1A2S2tzV2RJd9IBuAFBVV95cUxQRFFuZDh4OTVFdWhRMl9yOHd5b045YjFjNW15Nk82b2pxYngxM0xTaFJDZzU2S0JuejBIVDl0dV9RSWloNGJ4ZEVUNUNGNlctZThSYmdENE91bzlmaktIdHFYOXZfVVFzQzBURE1qQmsyNWxJMkFiVmc2YUZvMjNuSEgxNnQzMXpkWVMxWk5fY1E3UHEyd2JaRXQyZmZQUHAzaW9Ncm0tTzgzbHl0U2tVdmRkd2MteTlJ?oc=5",
@@ -941,18 +1013,6 @@
 "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdU1oNnpCTzQ0Z1B0UnVhMG9PM2VDZndHR1Bja0NPYnVxcTJzTFNERWtJal9sOE1OUUN2NHp4OXEwVlNLUlVHQnJQcV95MUsxOTNkcEVhS0FBQVdXazJtNXZhcHhMdFF4WEVkbGw4dTVaQS1jV3BlWDZMTTctbXFjSjU1S2QxMTgyaXRid0FEN2dPakt6aHNNazdR?oc=5"
 ]
 },
-"8ac133864e28": {
-"facts": "This happened on October 29, 2016 (10 years ago today). Headline from that day: Delco man charged after allegedly smuggling Xanax pills into prison (PhillyVoice).",
-"src": "PhillyVoice",
-"story": true,
-"t": 1793268020.3775425,
-"tag": "TRUE STORY",
-"title": "Delco man charged after allegedly smuggling Xanax pills into prison",
-"url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcGplRHpKMU8xNGtjQkZ6N0kzcy1rZ1RqU3o1c1lVX0NOOHZILW9MRUNUMUtDUmVuU0UzeHFlOXhaeGRFQVZJUWJUQTRWYlRjT1BVODVwQk9RUjJ5VEdjRHJKQjNJOENBV0JNUU1CZkoxRHNXbXRmRVVPSWFjbUFFN0VEa2VDM3U4U0U0RF9CYVExUDdidDBwNEhoVUpwWDJmR2poSTl4MTlVcE4y?oc=5",
-"urls": [
-"https://news.google.com/rss/articles/CBMirAFBVV95cUxNcGplRHpKMU8xNGtjQkZ6N0kzcy1rZ1RqU3o1c1lVX0NOOHZILW9MRUNUMUtDUmVuU0UzeHFlOXhaeGRFQVZJUWJUQTRWYlRjT1BVODVwQk9RUjJ5VEdjRHJKQjNJOENBV0JNUU1CZkoxRHNXbXRmRVVPSWFjbUFFN0VEa2VDM3U4U0U0RF9CYVExUDdidDBwNEhoVUpwWDJmR2poSTl4MTlVcE4y?oc=5"
-]
-},
 "8f1c0f93efc7": {
 "facts": "This happened on October 30, 2023 (3 years ago today). Headline from that day: BlackRock's Bitcoin ETF Might Have Trading Support of Heavyweights Like Jane Street, Jump and Virtu: Source (CoinDesk).",
 "src": "CoinDesk",
@@ -965,45 +1025,6 @@
 "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYTdxbldILTYwVlpKZENJUHAzWU9qZXhIVHJtWEhYLWVWRkRWcGE1LURMQ04wb3I5Z01udVVVMzdtcDZEQXZkUzhiNVVOelhJcElDT29kV0YwZEhkbVBHWFRFLV94NTlKc25oTzJ4OEVod19jcGNtR0U0TE8weWhlN0tLVVNBSTNUWDlab0t3S2FPOV8tclliR2ZQcFY1dE9Kd1FpRVBtSW5pa1JnMGRvV2tLTFVZMjJKYTFsbDBiSFNTMENrWTRLaWU4RUg5eEpkbXpJYmJVS1FnYlVkMWxBSFJjWQ?oc=5"
 ]
 },
-"99f46683eaf4": {
-"facts": "This happened on October 29, 2024 (2 years ago today). Headline from that day: Bitcoin Blackmail: Online Scammers Target Santa Barbara Residents (The Santa Barbara Independent).",
-"src": "The Santa Barbara Independent",
-"story": true,
-"t": 1793268020.3775754,
-"tag": "TRUE STORY",
-"title": "Bitcoin Blackmail: Online Scammers Target Santa Barbara Residents",
-"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tNWpSN01EZWF0Rk42Y2dmR1NKTlVDVDlCQk9Oc0pVaHZ5TlNiUTNPVWJnM1RFdThYTi02bGtDYmJTZ01vUW9fOEcwTERBLUpfWkZvZkxRQ3pPUzZ6OGI2dno0U19HdEFW?oc=5",
-"urls": [
-"https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tNWpSN01EZWF0Rk42Y2dmR1NKTlVDVDlCQk9Oc0pVaHZ5TlNiUTNPVWJnM1RFdThYTi02bGtDYmJTZ01vUW9fOEcwTERBLUpfWkZvZkxRQ3pPUzZ6OGI2dno0U19HdEFW?oc=5"
-]
-},
-"a0f53b039c39": {
-"facts": "This happened on October 29, 2016 (10 years ago today). Headline from that day: The CEO of a \u00a31.4 billion software giant says blockchain won't succeed because the world is too 'tribal' (Business Insider).",
-"src": "Business Insider",
-"story": true,
-"t": 1793268020.377554,
-"tag": "TRUE STORY",
-"title": "The CEO of a \u00a31.4 billion software giant says blockchain won't succeed because the world is too 'tribal'",
-"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRQ3pXVVhGbV83YTd1Z0taTTdKbEloWlBlbURnbDVGSjhGTUhyNU5wVjFQQ3dOUU00RC1OOHIzQ0hCNC14ek9HZk9LTktqY3N5SWkxSjYyWTRkZmswdTM4aXZlbWYwMi0tZDhRV1FheXAxNkZVdnp6eWtMeDE?oc=5",
-"urls": [
-"https://news.google.com/rss/articles/CBMifEFVX3lxTFBRQ3pXVVhGbV83YTd1Z0taTTdKbEloWlBlbURnbDVGSjhGTUhyNU5wVjFQQ3dOUU00RC1OOHIzQ0hCNC14ek9HZk9LTktqY3N5SWkxSjYyWTRkZmswdTM4aXZlbWYwMi0tZDhRV1FheXAxNkZVdnp6eWtMeDE?oc=5"
-]
-},
-"ab0031af9d1a": {
-"facts": "Hack date: Oct 29, 2021. Protocol: AnubisDAO. Chain: ['Ethereum']. Method: Admin Drain. Amount stolen: $60,000,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$60M",
-"chain": "['Ethereum']",
-"date": "Oct 29, 2021",
-"method": "Admin Drain"
-},
-"key": "ab0031af9d1a",
-"src": "DefiLlama",
-"t": 1793268018.8424726,
-"tag": "HACK",
-"title": "AnubisDAO hacked for $60.0 million",
-"url": ""
-},
 "b81ef1e65453": {
 "facts": "This happened on October 30, 2025 (1 years ago today). Headline from that day: Bitcoin, Ethereum Tumble After Fed Cuts Rates, but Powell Says Another 'Not a Forgone Conclusion' (Yahoo Finance).",
 "src": "Yahoo Finance",
@@ -1014,18 +1035,6 @@
 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdEswWWdFQ3hhMi1HbGtUZUF4VmxfTVpZWThacXJrV0pUSkJYZVl2bXFxVEt2X2dUNE5iQS1EUTBGYV9kc3llb3ctUVVDZzRacFhLS1RIbldpS1E0MUlKUWI5S1dBVkVjalVxdGZrbkZ4QkdEVXk1OGgtSXFVRmswMmlnWnFuZnM?oc=5",
 "urls": [
 "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdEswWWdFQ3hhMi1HbGtUZUF4VmxfTVpZWThacXJrV0pUSkJYZVl2bXFxVEt2X2dUNE5iQS1EUTBGYV9kc3llb3ctUVVDZzRacFhLS1RIbldpS1E0MUlKUWI5S1dBVkVjalVxdGZrbkZ4QkdEVXk1OGgtSXFVRmswMmlnWnFuZnM?oc=5"
-]
-},
-"e61e27882348": {
-"facts": "This happened on October 29, 2024 (2 years ago today). Headline from that day: Bitcoin price closes in on all-time high, Dogecoin rallies as crypto meme coins ride Trump and Musk's election waves (Fast Company).",
-"src": "Fast Company",
-"story": true,
-"t": 1793268020.3775656,
-"tag": "TRUE STORY",
-"title": "Bitcoin price closes in on all-time high, Dogecoin rallies as crypto meme coins ride Trump and Musk's election waves",
-"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd3hjNm9meWJQNF93U0l6N0VCTFl1d1BOWTdWTElSNGEzVXBBRWtoOUdJaGdvMWx4TWJPSEJpbTUzNDk2RnNrc1BCeFZfaXI1NlVCcEdhcm5TZk9VRjFoM1VyTF9TMG14TmJoRl9EMktSNnFGcGVKclgyeWVrdVp5WmFWUjR0V0taVm5WWm8zQXQ1Rl9TWmI5XzJFS2t3V2FISVk5b1JuQUZXeWRWeXdYZ1RjV1Y3UlM3T08yWmVkVFg3MEItMkZPcTdvZlB6S1E?oc=5",
-"urls": [
-"https://news.google.com/rss/articles/CBMizwFBVV95cUxNd3hjNm9meWJQNF93U0l6N0VCTFl1d1BOWTdWTElSNGEzVXBBRWtoOUdJaGdvMWx4TWJPSEJpbTUzNDk2RnNrc1BCeFZfaXI1NlVCcEdhcm5TZk9VRjFoM1VyTF9TMG14TmJoRl9EMktSNnFGcGVKclgyeWVrdVp5WmFWUjR0V0taVm5WWm8zQXQ1Rl9TWmI5XzJFS2t3V2FISVk5b1JuQUZXeWRWeXdYZ1RjV1Y3UlM3T08yWmVkVFg3MEItMkZPcTdvZlB6S1E?oc=5"
 ]
 }
 },
@@ -1038,7 +1047,7 @@
 "then": 652.75,
 "year": 2016
 },
-"otd_day": "2026-10-30",
+"otd_day": "2026-10-31",
 "packages": {
 "3833363488": {
 "event": 1225411200.0,

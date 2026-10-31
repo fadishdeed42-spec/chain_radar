@@ -199,7 +199,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793439520.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 The US $BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.\n\nNews | Markets | YouTube",
 "title": "The US BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.",
@@ -1758,7 +1758,7 @@
 "srcs": [
 "Stock Titan"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793432075.0,
 "tgtext": "",
 "title": "VanEck Wealth Builder ETF (WBMO) Stock Price, News & Analysis",
@@ -2056,7 +2056,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793421858.0,
 "tgtext": "A newly created wallet (0x1c75) withdrew 1.15M $LIT($3.31M), 7.995M $ENA($1.51M) and 7.31M $ARB($1.18M) from #OKX.\n\nhttps://arkm.com/explorer/address/0x1c75ce784b4a8509840CdAFA09BC382dbD89C3bA",
 "title": "A newly created wallet (0x1c75) withdrew 1.15M LIT($3.31M), 7.995M ENA($1.51M) and 7.31M ARB($1.18M) from OKX.",
@@ -3096,7 +3096,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793429066.0,
 "tgtext": "\ud83d\udcca MARKET: October wiped out $300B from the market.\n\nWhat happened to Uptober?\n\nNews | Markets | YouTube",
 "title": "MARKET: October wiped out $300B from the market.",
@@ -3144,7 +3144,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793422892.0,
 "tgtext": "",
 "title": "Bitcoin stolen from Binance tops Tesla\u2019s holdings and is over twice El Salvador\u2019s reserve",
@@ -3436,6 +3436,23 @@
 "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/",
 "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171"
 ]
+},
+"80ef32f0d05f": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"CryptoPotato",
+"StreetInsider",
+"Wu Blockchain",
+"Yahoo Finance"
+],
+"t": 1793440606.454742,
+"t0": 1793421498.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Senator Lummis says the CLARITY Act would have given crypto firms legal cover to freeze funds \"the instant law enforcement calls\" during the $6.3B Binance hack.\n\nThe bill is still stuck in the Senate after a 49-50 vote.\n\nNews | Markets | YouTube\nHighlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
+"title": "REGULATION: Senator Lummis says the CLARITY Act would have given crypto firms legal cover to freeze funds \"the instant law enforcement calls\" during the $6.3B Binance hack.",
+"url": "https://t.me/cointelegraph/72970",
+"urls": []
 },
 "81366c8fc01e": {
 "coin": "bitcoin",
@@ -3764,6 +3781,19 @@
 "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
 "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
 ]
+},
+"8f0610ceda83": {
+"coin": "bitcoin",
+"src": "CryptoTicker.io",
+"srcs": [
+"CryptoTicker.io"
+],
+"t": 1793440606.454742,
+"t0": 1793439986.0,
+"tgtext": "",
+"title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOYmFOLUNiWFJoWk1VZ1RhWTZocVNtVWRkbW9BOWdPX2Q4X0V3TndsRUI5ZWhnSFJrUzJfNEtsd0dlSEZiNS1qMnNmeW1Fbm5XSDZKeGp3MHJtd1ktOWlWX0EzcnVfR0pkRzE5TllGeHZLd2VNTUdwX2Zpbw?oc=5",
+"urls": []
 },
 "8fb6504da815": {
 "coin": "hyperliquid",
@@ -4573,7 +4603,7 @@
 "The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793425230.0,
 "tgtext": "Spot Bitcoin ETFs See $643M in Net Outflows, Ethereum ETFs Lose $156M\n\nAccording to SoSoValue data, U.S. spot Bitcoin ETFs recorded total net outflows of $643 million on October 30 (ET). BlackRock's IBIT saw the largest daily net outflow among spot Bitcoin ETFs at $234 million. Spot Ethereum ETFs recorded total net outflows of $156 million, marking their fifth consecutive day of net outflows. BlackRock\u2019s ETHA saw the largest daily net outflow among spot Ethereum ETFs at $76.64 million. \u2014 link",
 "title": "Bitcoin Price Today: BTC Falls to $77K as $427M in Crypto Liquidations Hit, ETFs See $643M Outflow",
@@ -5847,7 +5877,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793420286.0,
 "tgtext": "Blockaid: 12 Crypto Project Websites Linked to Frontend Attacks; Flap and Kintsu Confirm DNS Hijacks\n\nSecurity firm Blockaid initially flagged potential frontend attacks targeting Flap and Kintsu. It later identified 10 additional websites serving the Step Drainer wallet-draining tool, including pickle[.]finance, origami[.]finance, and fluxbeam[.]xyz. The investigation is ongoing.\n\nFlap and Kintsu have confirmed DNS hijacks affecting their websites, warning users against visiting, connecting wallets, or signing transactions. Flap founder Cedric said users who had previously connected to the legitimate website were unaffected. The risk concerns users who visited the malicious site and connected wallets or signed approvals in the tens of minutes before the announcement. Kintsu advised users who connected wallets or signed anything since approximately 00:00 UTC on October 31 to revoke approvals and move funds. Both projects said they would announce when their websites are safe to use. \u2014 link",
 "title": "Blockaid: 12 Crypto Project Websites Linked to Frontend Attacks; Flap and Kintsu Confirm DNS Hijacks",
@@ -6781,7 +6811,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793439992.8183482,
+"t": 1793440606.454742,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
 "title": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles",
@@ -7267,24 +7297,27 @@
 },
 "probs": {
 "05555931eb5e": 0.852,
-"13315d0a51a4": 0.104,
+"2b3e445c3112": 0.116,
 "40b78943f1d6": 0.239,
 "4a42ba3cbb7c": 0.774,
+"638601264df4": 0.038,
 "767d3edc2a6e": 0.274,
 "783e410cb3aa": 0.224,
-"92918218b577": 0.27,
+"80ef32f0d05f": 0.952,
+"8f0610ceda83": 0.419,
+"8f94aa458d8a": 0.056,
+"92918218b577": 0.165,
 "9412286ab3f7": 0.021,
-"94b47aa319af": 0.98,
 "9acc8a65efaf": 0.023,
 "9e07ec69114c": 0.121,
 "a71566f87631": 0.361,
 "b5d110dc5020": 0.153,
-"c16a0809a392": 0.033,
-"c42ceae4c55c": 0.034,
-"cab298df55f1": 0.083,
+"c8e2639eecab": 0.033,
 "cd0232d74d2d": 0.504,
 "d0ac506c37e0": 0.023,
 "d58661923895": 0.108,
+"e7aed9899e21": 0.134,
+"efbfa1d218ff": 0.028,
 "f0349604383f": 0.366
 },
 "sent": [
@@ -8945,65 +8978,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"94b47aa319af",
-67,
-357,
+"80ef32f0d05f",
+72,
+318,
 7
 ],
 [
 "05555931eb5e",
 16,
-8,
+18,
 1
 ],
 [
 "4a42ba3cbb7c",
 0,
-302,
+312,
 1
 ],
 [
 "cd0232d74d2d",
 0,
-328,
+339,
+1
+],
+[
+"8f0610ceda83",
+20,
+10,
 1
 ],
 [
 "f0349604383f",
 10,
-44,
+55,
 1
 ],
 [
 "a71566f87631",
-33,
-246,
+31,
+256,
 2
 ],
 [
 "767d3edc2a6e",
-25,
-182,
-1
-],
-[
-"92918218b577",
-20,
-222,
+24,
+192,
 1
 ],
 [
 "40b78943f1d6",
 24,
-132,
+142,
 1
 ],
 [
 "783e410cb3aa",
-29,
-285,
+28,
+295,
 1
 ]
 ],
-"top_at": 1793439992.8183482
+"top_at": 1793440606.454742
 }
