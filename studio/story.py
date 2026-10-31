@@ -15,7 +15,7 @@ MONTHS = {'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April', '
 KNOWN_OK = {'binance', 'coinbase', 'tether', 'bitcoin', 'ethereum', 'solana', 'ripple', 'kraken', 'bybit', 'okx', 'chainalysis', 'blackrock', 'nasdaq',
             'microstrategy', 'strategy', 'teng', 'trump', 'musk', 'saylor', 'dogecoin', 'cardano', 'polygon', 'uniswap', 'opensea', 'metamask', 'ledger', 'circle'}
 PRONOUNCE = {'bybit': 'Bye-bit', 'okx': 'O K X', 'kucoin': 'Koo-coin', 'huobi': 'Hwo-bee', 'bitfinex': 'Bit-finex', 'quadrigacx': 'Quadriga C X',
-             'ulbricht': 'Uhl-brikt', 'lazarus': 'Lazarus', 'chainalysis': 'Chain-alysis', 'kwon': 'Kwahn', 'wazirx': 'Wazir X'}   # always said this way
+             'ulbricht': 'Uhl-brikt', 'zachxbt': 'Zack X B T', 'lazarus': 'Lazarus', 'chainalysis': 'Chain-alysis', 'kwon': 'Kwahn', 'wazirx': 'Wazir X'}   # always said this way
 MONEY_NOUNS = {'reward', 'fine', 'hack', 'heist', 'deal', 'fund', 'bounty', 'settlement', 'company', 'loan', 'bet', 'lawsuit', 'sale', 'mansion', 'exploit',
                'theft', 'scam', 'fraud', 'question', 'mistake', 'penalty', 'bail', 'bond', 'payout', 'ransom', 'bribe', 'pizza', 'yacht', 'house', 'raise', 'round'}
 FULL_MONTHS = {v.lower() for v in MONTHS.values()}
@@ -316,7 +316,8 @@ def check(sb, strict=True):
     words = 0
     for i, s in enumerate(sc):
         s['line'] = re.sub(r'\s+', ' ', str(s['line']).replace('—', ', ').replace('–', '-')).strip()
-        s['line'] = re.sub(r'^\s*(?:\d+\s*[.)]\s*)?\[(?:hook|setup|turn|twist|payoff|end)\]\s*', '', s['line'], flags=re.I)   # a role tag the AI echoed back is never spoken
+        s['line'] = re.sub(r'^\s*(?:\d+\s*[.)]\s*)?\[(?:hook|setup|turn|twist|payoff|end)\]\s*', '', s['line'], flags=re.I)
+        s['line'] = re.sub(r'(\$\d[\d,.]*\s*(?:[kmbt]n?|thousand|million|billion|trillion)?)\s+(?:us\s+)?dollars?\b', r'\1', s['line'], flags=re.I)   # "$1.5 billion dollars" would say dollars twice   # a role tag the AI echoed back is never spoken
         s['role'] = s.get('role') if s.get('role') in ROLES else ('hook' if i == 0 else 'end' if i == len(sc) - 1 else 'setup')
         v = s.get('visual') if isinstance(s.get('visual'), dict) else {}
         if v.get('type') not in VISUALS:

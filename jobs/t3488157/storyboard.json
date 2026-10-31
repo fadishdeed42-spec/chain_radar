@@ -11,7 +11,7 @@
  "scenes": [
   {
    "role": "hook",
-   "line": "$1.5 billion dollars vanished from a crypto exchange in February 2025.",
+   "line": "$1.5 billion vanished from a crypto exchange in February 2025.",
    "hit": "billion",
    "emotion": "shock",
    "beats": [
@@ -281,8 +281,8 @@
   "style": "documentary",
   "autorender": true
  },
- "est_secs": 64,
- "words": 138,
+ "est_secs": 65,
+ "words": 140,
  "target_words": 128,
  "length_ok": true,
  "review": {}
