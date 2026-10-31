@@ -201,7 +201,7 @@
 "srcs": [
 "FOREX.com"
 ],
-"t": 1793410366.1355784,
+"t": 1793410673.5131464,
 "t0": 1793404932.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -226,19 +226,6 @@
 "urls": [
 "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183"
 ]
-},
-"0731f7dc1cd4": {
-"coin": "bitcoin",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1793237691.6137435,
-"t0": 1793222490.0,
-"tgtext": "",
-"title": "Osmosis Restores Full Bitcoin Backing After Seizing Exploiter's Frozen BTC",
-"url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTGZzQXpwSVV4SkZDQkhKODJ3OWZCeVBDMXFYUXEwcF9LMF80V24wY1pwWndQaXNtYkxobFpLMXFqWFFUSi0yRy14VDZwZUlESFhPdkhQSFZyb0ZMNjEwXzlCQXJjUnN4N3EyTUZEQ0hvaVBrWDQ2YjM3OU5Sb1ROV0ZQZHVjZUUwY3Y0RF84Uy1mUQ?oc=5",
-"urls": []
 },
 "07f99fd3f0ae": {
 "coin": "",
@@ -386,7 +373,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793392040.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 CFTC proposes new regulations for crypto exchanges to strengthen security against cyberattacks.",
@@ -622,7 +609,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793392612.0,
 "tgtext": "JUST IN: Apple officially surpasses Nvidia to become the world's most valuable company by market cap.\n\n$AAPL: $5.0 trillion\n$NVDA: $4.9 trillion\n\n@WatcherGuru\n\u26a1\ufe0f LATEST: Apple overtakes Nvidia as the world\u2019s most valuable company, with a market cap of $5.03 trillion versus Nvidia\u2019s $4.94 trillion.\n\nNews | Markets | YouTube",
 "title": "Apple officially surpasses Nvidia to become the world's most valuable company by market cap.",
@@ -880,13 +867,13 @@
 "coin": "bitcoin",
 "src": "StreetInsider",
 "srcs": [
-"Barron's",
+"24/7 Wall St.",
+"AP News",
+"Bitcoin Magazine",
 "Business Insider",
-"CoinDesk",
-"Cryptonews.net",
-"Decrypt"
+"CoinDesk"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793389902.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Dips After Binance Hack but Eyes $90K This Year as AlphaPepe Offers 100x Presale Entry",
@@ -894,7 +881,8 @@
 "urls": [
 "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
 "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
-"https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair"
+"https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+"https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
 ]
 },
 "2300d9cc39e5": {
@@ -2106,7 +2094,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793395396.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea says international sanctions do not work.\n\nThe statement comes just one day after North Korea's $6.3 billion Binance crypto hack, the largest heist in human history.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf5 North Korea says international sanctions do not work.",
@@ -2451,7 +2439,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793400218.0,
 "tgtext": "",
 "title": "Machi Liquidated 8 Times in 6 Hours, Leaving Just $1.50",
@@ -3597,7 +3585,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793390939.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.8 trillion wiped out from the US stock market today.",
@@ -3654,6 +3642,25 @@
 "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
 "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/"
+]
+},
+"973a16773a0c": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CBS News",
+"Cointelegraph",
+"CryptoSlate",
+"Yahoo Finance"
+],
+"t": 1793410977.7956698,
+"t0": 1793390419.0,
+"tgtext": "",
+"title": "Binance hackers deploy never-seen-before laundering tactics to conceal $6.3 billion theft",
+"url": "https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/",
+"urls": [
+"https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/",
+"https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "97d4730c6101": {
@@ -4764,7 +4771,7 @@
 "srcs": [
 "Financial Times"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793398378.0,
 "tgtext": "",
 "title": "Binance rushes to recover customer money after $6.3bn heist",
@@ -5494,7 +5501,7 @@
 "srcs": [
 "Decrypt"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793393603.0,
 "tgtext": "",
 "title": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
@@ -6563,7 +6570,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1793410366.1355784,
+"t": 1793410977.7956698,
 "t0": 1793394347.0,
 "tgtext": "JUST IN: Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.\n\n@WatcherGuru",
 "title": "Polymarket launches gold and silver price markets worldwide, with 15-minute, hourly and daily trading.",
@@ -6788,33 +6795,29 @@
 "06bd4b321530": 0.173,
 "0dfcc0845486": 0.656,
 "133238f65a6f": 0.059,
-"16356b088aa8": 0.129,
 "186ae44d9291": 0.044,
-"192e6999cb10": 0.043,
 "1b2ad32ccebe": 0.597,
-"21cd94e96640": 0.545,
-"5024fce5af70": 0.016,
+"21cd94e96640": 0.482,
+"3ed81f144f5f": 0.027,
+"4c708c5dc89e": 0.026,
 "529f76c524ca": 0.064,
 "5520b1af3d84": 0.362,
 "5d9a53f6181d": 0.051,
 "66a7cbc4add2": 0.224,
 "70f45b8753b4": 0.042,
-"72424608152d": 0.033,
-"7632a5f61335": 0.08,
+"72424608152d": 0.041,
 "7d3135276a10": 0.035,
 "7da4b01c9d19": 0.018,
-"8f94aa458d8a": 0.062,
+"909a237e38bc": 0.039,
 "94944e3a996e": 0.829,
+"973a16773a0c": 0.258,
 "999d5fe6da7c": 0.019,
 "9a955f044ce3": 0.033,
-"9defabaf51fa": 0.02,
 "a2bad5624333": 0.042,
-"a7228c8e6614": 0.08,
 "a8f99896e305": 0.12,
 "b6f970f91beb": 0.041,
 "b7b5adb54be3": 0.338,
 "b9205da188ff": 0.035,
-"cb727e8795c9": 0.084,
 "cf5430aded6b": 0.178,
 "d7d2d068cb7b": 0.14,
 "de78dade4c11": 0.096,
@@ -8764,63 +8767,63 @@
 [
 "94944e3a996e",
 0,
-324,
+334,
 1
 ],
 [
 "0dfcc0845486",
 0,
-305,
+316,
 1
 ],
 [
 "1b2ad32ccebe",
-5,
-296,
+4,
+306,
 2
 ],
 [
 "21cd94e96640",
-69,
-341,
-13
+68,
+351,
+18
 ],
 [
 "f6e088f0dabe",
 0,
-267,
+277,
 1
 ],
 [
 "5520b1af3d84",
-1,
-250,
+0,
+260,
 1
 ],
 [
 "b7b5adb54be3",
-46,
-200,
+45,
+210,
 1
+],
+[
+"973a16773a0c",
+69,
+343,
+4
 ],
 [
 "66a7cbc4add2",
 25,
-169,
+179,
 1
 ],
 [
 "cf5430aded6b",
-7,
-279,
-1
-],
-[
-"06bd4b321530",
-20,
-91,
+6,
+290,
 1
 ]
 ],
-"top_at": 1793410366.1355784
+"top_at": 1793410977.7956698
 }
