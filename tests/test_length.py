@@ -80,7 +80,7 @@ def test_fit_length_expands_with_a_stubbed_model():
 def test_fit_length_failure_is_reported_not_hidden():
     r = radar()
     sb, _ = story.check(storyboard('a55db3fd'), strict=False)
-    r.gemini_json = lambda prompt: None                                # the model is down
+    r.gemini_json = lambda prompt, strong=False: None                               # the model is down
     out = r.fit_length(sb, 'facts')
     assert out['length_ok'] is False and out['length_msg']             # returned as-is, flagged; the caller blocks the voice
 

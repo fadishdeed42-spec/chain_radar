@@ -183,10 +183,12 @@ def same_story(a, b):
 AMBIG = {'near', 'flow', 'pi', 'gas', 'sun', 'pump', 'core', 'story', 'movement', 'mantle', 'sonic', 'stacks', 'render', 'kaspa',
          'injective', 'tron', 'sei', 'sui', 'ondo', 'aave', 'maker', 'sky', 'hype', 'bonk', 'jupiter', 'celestia', 'arbitrum', 'optimism',
          'polygon', 'cronos', 'theta', 'the graph', 'gala', 'immutable', 'beam', 'ronin', 'pyth', 'worldcoin', 'virtual', 'ethena',
-         'bitget token', 'leo', 'dai', 'usds', 'world liberty financial', 'official trump', 'gate', 'dexe', 'jito', 'raydium', 'quant'}
+         'bitget token', 'leo', 'dai', 'usds', 'world liberty financial', 'official trump', 'gate', 'dexe', 'jito', 'raydium', 'quant',
+         'just', 'merit', 'aria', 'safe', 'open', 'zero', 'echo', 'frax', 'magic', 'kite', 'plume', 'humanity'}
 
 
 def coin_in(text, market):
+    text = re.sub(r'^\W*(JUST IN|BREAKING|UPDATE|NEW|ALERT|HUGE|NOW)\s*[:\-—]\s*', ' ', text, flags=re.I)   # news prefixes are not coins
     t = ' ' + text + ' '
     for c in market:
         if c['rank'] > 100:
@@ -1944,9 +1946,13 @@ SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
 Icons: ''' + ', '.join(sstory.ICONS)
 
 
-def gemini_json(prompt):
+def gemini_json(prompt, strong=False):
+    """JSON from Gemini. strong=True (fact-checkers) tries the full 'flash' models before the faster 'lite' ones."""
     for attempt in range(2):
-        for model in [m for m in gemini_models() if 'gemma' not in m][:4]:
+        ms = [m for m in gemini_models() if 'gemma' not in m][:4]
+        if strong:
+            ms = sorted(ms, key=lambda m: 'lite' in m)
+        for model in ms:
             try:
                 r = gen_post(model, {'contents': [{'parts': [{'text': prompt}]}],
                                      'generationConfig': {'temperature': .8, 'response_mime_type': 'application/json', **think_cfg(model)}}, 60)
@@ -2032,9 +2038,9 @@ def filler_hits(sb):
 def script_review(sb, facts):
     """Fact-checker: every line against ONLY the facts. Returns {scene_no: [problems]} (unsupported, wrong, or vague lines)."""
     lst = '\n'.join(f'{i + 1}. {x["line"]}' for i, x in enumerate(sb['scenes']))
-    j = gemini_json('You are a strict fact-checker and script editor for a true-crime crypto Short. Check every line against ONLY the FACTS.\n'
+    j = gemini_json(strong=True, prompt='You are a strict fact-checker and script editor for a true-crime crypto Short. Check every line against ONLY the FACTS.\n'
                     'Flag a line if it (a) states a number, date, name, place, cause or event the FACTS do not support, (b) gets a fact wrong '
-                    '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount), or (c) is filler with no concrete fact '
+                    '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount; a headline publication date is NOT the event date), or (c) is filler with no concrete fact '
                     '(only adjectives or mood). Jokes and the detective voice are fine if the facts in them are true.\n\n'
                     f'FACTS:\n{facts[:12000]}\n\nLINES:\n{lst}\n\n'
                     'Return JSON only: {"lines": [{"n": 1, "problems": ["short reason quoting the bad words"]}]} (empty list when a line is fine).')
@@ -2130,6 +2136,7 @@ HOUSE RULES
   funny = a light joke every 5-8 seconds; serious = no jokes, respectful; mystery = tension and questions; hype = energy.
 - Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). "respell" only for rare names a voice would misread (Quadriga C X, Ulbricht -> UHL-brikt); never for well-known words or brands (Binance, Coinbase, Tether, Bitcoin, Ethereum).
 - FACTS: use ONLY the facts below (and, for old stories, well-documented facts you are certain of). Never invent numbers, quotes or dates. If unsure, leave it out.
+- DATES: Dates in "Real headlines" are when the article was PUBLISHED, not when the event happened; give an event date only if the article text states it.
 - EVERY line must carry at least one concrete fact from the FACTS (a number, name, date, place or specific action). A line with only adjectives is rejected.
 - NEVER PAD: if the FACTS cannot fill the length without filler, write fewer words. A shorter true script beats a padded one.
 - Chart: {chart_rule}
@@ -2635,7 +2642,7 @@ def package_prompt(topic, facts, live=''):
             'Voice: an entertaining, funny crypto detective, dry and clever, never slang, no em dashes, no hashtags, no financial advice. '
             'Post 1 is the hook: an open loop in the first line, one real number, makes people want post 2. Posts 2 to 6 tell the story beat by beat with real numbers and dates. '
             'The LAST post is the lesson and ends with exactly: "Full story in 40s 👇". Each post under 270 characters. '
-            'EVERY number, date, name and claim must come from the FACTS below. If a fact is not there, leave it out. Do not guess. '
+            'EVERY number, date, name and claim must come from the FACTS below. If a fact is not there, leave it out. Do not guess. Dates in \"Real headlines\" are when the article was PUBLISHED, not when the event happened; give an event date only if the article text states it. '
             'Every post carries at least one concrete fact (a number, name, date or specific action). No filler adjectives (staggering, massive, unimaginable, unprecedented, global emergency) '
             'and no superlatives like "largest in human history" unless the FACTS say exactly that. Never say a report "confirmed" something the FACTS only suggest.\n\n'
             f'TOPIC: {topic}\n\nFACTS:\n{facts[:7000]}\n\n' + (f'LIVE DATA:\n{live}\n\n' if live else '') +
@@ -2655,8 +2662,10 @@ def concrete_unsupported(claim, facts):
 
 def package_judge(posts, facts):
     lst = '\n'.join(f'{i + 1}. {p.replace("Full story in 40s 👇", "").strip()}' for i, p in enumerate(posts))
-    return ('You are a strict fact-checker. Check each thread post against ONLY the FACTS.\nFACTS:\n' + facts[:7000] + '\n\nPOSTS:\n' + lst +
+    return ('You are a strict fact-checker. Check each thread post against ONLY the FACTS.\nFACTS:\n' + facts[:12000] + '\n\nPOSTS:\n' + lst +
             '\n\nFor each post list the factual claims (names, numbers, dates, events, causes) that the FACTS do not support. Opinions and jokes are fine. '
+            'Check every DATE carefully: the date a post gives for an event must be the date the FACTS give for THAT event. A headline\'s publication date is not the event date '
+            '(a hack reported on Oct 30 may have happened on Oct 29). Also flag wrong actions (e.g. "suspended trading" when the FACTS say withdrawals were paused). '
             'Return JSON only: {"p": [{"n": 1, "unsupported": []}]}')
 
 
@@ -2683,7 +2692,7 @@ def build_package(topic, facts, sources, event_hint=None):
     if not best:
         return None
     j, posts, bad, long_ = best
-    verdict = gemini_json(package_judge(posts, facts))
+    verdict = gemini_json(package_judge(posts, facts), strong=True)
     raw_flags = {int(x['n']): [str(u) for u in x.get('unsupported') or []] for x in (verdict or {}).get('p') or [] if isinstance(x, dict) and x.get('unsupported') and str(x.get('n', '')).isdigit()}
     if raw_flags:                                                         # one repair pass: rewrite only the flagged posts, then check again
         lst = '\n'.join(f'{i + 1}. {p}' + (f'\n   NOT SUPPORTED: {"; ".join(raw_flags[i + 1])}' if i + 1 in raw_flags else '') for i, p in enumerate(posts))
@@ -2693,7 +2702,7 @@ def build_package(topic, facts, sources, event_hint=None):
         new_posts = [clean_voice(str(p)).strip() for p in (fx or {}).get('posts') or []]
         if len(new_posts) == len(posts) and all(len(p) <= 279 for p in new_posts):
             posts = new_posts
-            verdict = gemini_json(package_judge(posts, facts)) or verdict
+            verdict = gemini_json(package_judge(posts, facts), strong=True) or verdict
     unsup = {}
     for x in (verdict or {}).get('p') or []:
         try:

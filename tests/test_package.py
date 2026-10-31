@@ -10,7 +10,7 @@ GOOD = ['Bitcoin lost about 40% in a single day. Here is how.', 'On March 12, 20
 def fake_radar(posts, judge=None):
     r = radar(); calls = []
 
-    def gj(p):
+    def gj(p, strong=False):
         calls.append(p)
         if 'strict fact-checker' in p:
             return judge if judge is not None else {'p': [{'n': i + 1, 'unsupported': []} for i in range(len(posts))]}

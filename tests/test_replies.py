@@ -68,6 +68,6 @@ def test_reply_ideas_with_stubbed_ai():
 
 def test_reply_ideas_fail_closed():
     r = radar()
-    r.gemini_json = lambda p: {'replies': [{'style': 'numbers', 'reply': 'Up 77% since the dip, which is wild for such a big move.'}]}
+    r.gemini_json = lambda p, strong=False: {'replies': [{'style': 'numbers', 'reply': 'Up 77% since the dip, which is wild for such a big move.'}]}
     r.live_data = lambda t: ('', None)
     assert r.reply_ideas('Bitcoin moved today.', 'x') is None
