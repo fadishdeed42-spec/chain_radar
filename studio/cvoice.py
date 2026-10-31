@@ -121,7 +121,13 @@ def run(path):
             good_words = wer <= .06
             if good_words and (ok_end or k >= 2) and k >= (1 if end else 0):   # every word right (and a finished ending when possible): stop early
                 break
-        if best[2] > .08:                                           # still a misread word after every take: try a phonetic spelling of just those words
+        def name_missed(said, heard):                               # a NAME the listener didn't hear right counts even when the rest is perfect
+            import difflib, re as _re
+            a = said.split(); b = [_re.sub(r'\W', '', x).lower() for x in heard.split()]
+            sm = difflib.SequenceMatcher(None, [_re.sub(r'\W', '', x).lower() for x in a], b)
+            return any(a[k][:1].isupper() and k > 0 and len(_re.sub(r'\W', '', a[k])) > 2
+                       for op, i1, i2, _, _ in sm.get_opcodes() if op in ('replace', 'delete') for k in range(i1, i2))
+        if best[2] > .08 or name_missed(chk, best[3]):              # misread word or name after every take: try a phonetic spelling of just those words
             ph = phonetic_variant(chk, best[3])
             if ph:
                 log.append(f'   phonetic variant: {ph[:90]}')
