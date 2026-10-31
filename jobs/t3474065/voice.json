@@ -1,0 +1,62 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "Hackers drained a record six point three billion dollar from Binance in history's biggest crypto heist.",
+   0.9,
+   0.42
+  ],
+  [
+   "Automated scripts siphoned customer wallets in minutes, and Binance froze all withdrawals across the Dubai-based platform.",
+   0.62,
+   0.32
+  ],
+  [
+   "Blockchain firms quickly unmasked elite North Korean hackers executing the complex attack involving a compromised laptop.",
+   0.66,
+   0.24
+  ],
+  [
+   "Co-CEO Richard Teng immediately tapped corporate treasuries to buy billions in replacement tokens from the open market.",
+   0.9,
+   0.42
+  ],
+  [
+   "An astonishing ninety percent of all stolen assets were fully replenished within forty-eight hours using company money.",
+   0.88,
+   0.3
+  ],
+  [
+   "User balances stayed whole, and withdrawals were set to resume on Sunday, right on schedule.",
+   0.65,
+   0.55,
+   "end"
+  ],
+  [
+   "Follow Chain Secrets.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Hackers drained a record six point three billion dollar from Binance in history's biggest crypto heist.",
+  "Automated scripts siphoned customer wallets in minutes, and Binance froze all withdrawals across the Dubai-based platform.",
+  "Blockchain firms quickly unmasked elite North Korean hackers executing the complex attack involving a compromised laptop.",
+  "Co-CEO Richard Teng immediately tapped corporate treasuries to buy billions in replacement tokens from the open market.",
+  "An astonishing ninety percent of all stolen assets were fully replenished within forty-eight hours using company money.",
+  "User balances stayed whole, and withdrawals were set to resume on Sunday, right on schedule.",
+  "Follow Chain Secrets."
+ ]
+}

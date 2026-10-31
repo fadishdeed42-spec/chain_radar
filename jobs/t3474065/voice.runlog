@@ -1,0 +1,49 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 41.8M/1.18G [00:00<00:02, 437MB/s]  8%|▊         | 91.5M/1.18G [00:00<00:02, 486MB/s] 11%|█▏        | 138M/1.18G [00:00<00:02, 442MB/s]  16%|█▌        | 190M/1.18G [00:00<00:02, 481MB/s] 20%|██        | 243M/1.18G [00:00<00:01, 505MB/s] 25%|██▍       | 295M/1.18G [00:00<00:01, 520MB/s] 29%|██▊       | 345M/1.18G [00:00<00:01, 515MB/s] 33%|███▎      | 395M/1.18G [00:00<00:01, 500MB/s] 37%|███▋      | 443M/1.18G [00:00<00:01, 490MB/s] 41%|████      | 490M/1.18G [00:01<00:01, 492MB/s] 45%|████▍     | 540M/1.18G [00:01<00:01, 502MB/s] 49%|████▉     | 588M/1.18G [00:01<00:01, 490MB/s] 53%|█████▎    | 637M/1.18G [00:01<00:01, 498MB/s] 58%|█████▊    | 694M/1.18G [00:01<00:01, 524MB/s] 63%|██████▎   | 756M/1.18G [00:01<00:00, 562MB/s] 67%|██████▋   | 810M/1.18G [00:01<00:00, 543MB/s] 72%|███████▏  | 862M/1.18G [00:01<00:00, 542MB/s] 76%|███████▋  | 920M/1.18G [00:01<00:00, 564MB/s] 82%|████████▏ | 989M/1.18G [00:01<00:00, 609MB/s] 87%|████████▋ | 1.02G/1.18G [00:02<00:00, 582MB/s] 92%|█████████▏| 1.08G/1.18G [00:02<00:00, 594MB/s] 97%|█████████▋| 1.14G/1.18G [00:02<00:00, 620MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 539MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json 332f2ad72ef0
+   take 1: score -0.01  wer 0.00  end +0.0st  2.8w/s  heard: Hackers drained a record $6.3 billion from Binance in history's bigges
+   take 2: score -0.11  wer 0.00  end +0.0st  2.6w/s  heard: Hackers drained a record $6.3 billion from Binance in history's bigges
+   take 3: score -0.14  wer 0.00  end +0.0st  2.5w/s  heard: Hackers drained a record $6.3 billion from Binance in history's bigges
+scene 1: 5.79s ex 0.9  chosen wer 0.00
+   take 1: score -0.54  wer 0.06  end +0.0st  2.4w/s  heard: automated script siphoned customer wallets in minutes, and Binance fro
+   take 2: score -0.28  wer 0.00  end +0.0st  2.3w/s  heard: automated scripts siphoned customer wallets in minutes, and Binance fr
+   take 3: score -0.25  wer 0.00  end +0.0st  2.3w/s  heard: automated scripts, siphoned customer wallets in minutes, and Binance f
+scene 2: 6.88s ex 0.62  chosen wer 0.00
+   take 1: score -0.30  wer 0.00  end +0.0st  2.2w/s  heard: Blockchain firms quickly unmasked elite North Korean hackers executing
+   take 2: score +1.63  wer 0.00  end -1.6st  2.1w/s  heard: Blockchain firms quickly unmasked elite North Korean hackers executing
+scene 3: 7.49s ex 0.66  chosen wer 0.00
+   take 1: score -0.40  wer 0.06  end +0.0st  2.6w/s  heard: Co-CEO Richard Tang immediately tapped corporate treasuries to buy bil
+   take 2: score +1.53  wer 0.06  end -1.3st  2.5w/s  heard: Co-CEO Richard Tang immediately tapped corporate treasuries to buy bil
+scene 4: 6.76s ex 0.9  chosen wer 0.06
+   take 1: score +1.63  wer 0.06  end -5.0st  2.8w/s  heard: and astonishing 90% of all stolen assets were fully replenished within
+scene 5: 6.06s ex 0.88  chosen wer 0.06
+   take 1: score -0.56  wer 0.00  end +0.0st  3.1w/s  heard: User balances stayed whole, and withdrawals were set to resume on Sund
+   take 2: score -0.39  wer 0.00  end +0.0st  3.0w/s  heard: user balances stayed whole and withdrawals were set to resume on Sunda
+   take 3: score -0.43  wer 0.00  end +1.0st  3.0w/s  heard: User balances stayed whole and withdrawals were set to resume on Sunda
+scene 6: 4.93s ex 0.65 END  chosen wer 0.00
+   take 1: score -0.54  wer 0.00  end -0.6st  1.9w/s  heard: Follow Chain Secrets.
+   take 2: score -0.54  wer 0.00  end +0.0st  1.9w/s  heard: Follow Chain Secrets.
+   take 3: score -3.42  wer 0.33  end +5.0st  1.1w/s  heard: Follow Chain Secrets.  These in Everjello  //
+   take 4: score -0.70  wer 0.00  end +0.0st  1.6w/s  heard: Follow Chain Secrets.
+scene 7: 1.62s ex 0.7  chosen wer 0.00
+42.19s, force-aligned 100 words
+liampace -> jobs/t3474065/voicep.wav
+rate x1.00 gap 0.40 | Hackers drained a record six point three billion dollar from Binance in history's biggest crypto heist.
+rate x1.00 gap 0.40 | Automated scripts siphoned customer wallets in minutes, and Binance froze all withdrawals across the Dubai-based platform.
+rate x1.00 gap 0.40 | Blockchain firms quickly unmasked elite North Korean hackers executing the complex attack involving a compromised laptop.
+rate x1.00 gap 0.40 | Co-CEO Richard Teng immediately tapped corporate treasuries to buy billions in replacement tokens from the open market.
+rate x1.00 gap 0.60 | An astonishing ninety percent of all stolen assets were fully replenished within forty-eight hours using company money.
+rate x1.00 gap 0.40 | User balances stayed whole, and withdrawals were set to resume on Sunday, right on schedule.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 42.20s (was 42.19s)
+
