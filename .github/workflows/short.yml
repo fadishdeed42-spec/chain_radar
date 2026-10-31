@@ -12,7 +12,7 @@ permissions:
   actions: write
 concurrency:
   group: short-${{ github.event.inputs.job }}
-  cancel-in-progress: true
+  cancel-in-progress: false   # a second tap waits instead of killing a 50-minute voice
 jobs:
   run:
     runs-on: ubuntu-latest
