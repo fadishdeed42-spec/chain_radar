@@ -1,0 +1,37 @@
+name: studio_test
+# Manual end-to-end test: real facts -> checked script -> commit job -> voice (+ auto render) -> result in Telegram.
+on:
+  workflow_dispatch:
+    inputs:
+      topic: {description: 'story topic', required: true}
+      length: {description: '30 | 45 | 60', default: '45'}
+permissions:
+  contents: write
+  actions: write
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12', cache: pip}
+      - run: pip install -q -r requirements.txt
+      - name: write the script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          TELEGRAM_TOKEN: unused
+          TELEGRAM_CHAT_ID: '0'
+        run: |
+          JID=t$(date +%s | tail -c 8)
+          echo "JID=$JID" >> $GITHUB_ENV
+          python tests/make_job.py "${{ github.event.inputs.topic }}" "${{ github.event.inputs.length }}" $JID
+      - name: save job + start the voice
+        run: |
+          git config user.name chain-radar; git config user.email noreply@github.com
+          git add -f jobs/$JID && git commit -qm "test job $JID [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done
+          curl -s -X POST -H "Authorization: Bearer ${{ github.token }}" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/short.yml/dispatches \
+            -d "{\"ref\":\"main\",\"inputs\":{\"job\":\"$JID\",\"stage\":\"voice\"}}"
+          echo "::notice title=job::$JID"
