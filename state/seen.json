@@ -186,7 +186,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793439520.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 The US $BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.\n\nNews | Markets | YouTube",
 "title": "The US BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.",
@@ -1330,7 +1330,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793433267.0,
 "tgtext": "",
 "title": "Anthropic files for IPO, aims for $2T valuation on NASDAQ",
@@ -1746,7 +1746,7 @@
 "srcs": [
 "Stock Titan"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793432075.0,
 "tgtext": "",
 "title": "VanEck Wealth Builder ETF (WBMO) Stock Price, News & Analysis",
@@ -2736,7 +2736,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793436003.0,
 "tgtext": "",
 "title": "Ethereum Price Today: ETH Slips as Whales Sell 160,000 Coins and Pepeto Buyers Eye 100x",
@@ -3097,7 +3097,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793429066.0,
 "tgtext": "\ud83d\udcca MARKET: October wiped out $300B from the market.\n\nWhat happened to Uptober?\n\nNews | Markets | YouTube",
 "title": "MARKET: October wiped out $300B from the market.",
@@ -3464,18 +3464,19 @@
 "src": "WBOC TV",
 "srcs": [
 "AP News",
+"CoinDesk",
 "Cointelegraph",
 "CryptoPotato",
-"WBOC TV",
-"Wu Blockchain"
+"WBOC TV"
 ],
-"t": 1793447970.5570285,
+"t": 1793448892.2318351,
 "t0": 1793433062.0,
 "tgtext": "Highlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
 "title": "Crypto News: Pepeto Announces $11.27M Raised While Bitcoin Price Prediction Targets $1M Despite The Binance Hack",
 "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOUWxPalBWenoxN1hpSTYyTnktZ0NGNHQ1by1vaHZVTk8wWkxaTTRLUXFMeGRZcXZtcG1Mbnc0bmdjNl9CM2xJa1NPVk5lWVdWN0Y5VTlmUVJfVmM3MHl5Q2NycjJSYzUzZklaZ3pOTy1DVGotemVodDRUeGtRMklGTURyUnpSbFZHd1ZMdDhDNWcwU3VDak1aYUd1Y0p2bFZ3dHZZYnhDTW5HQUpTVXVJbjdfRDJ5akE3aU5jWjBnMmRNdEFlVWhZS3NsVG9TUTlicWRUWlp4dk9FN2hjOHE4RmQ1Ym9FSUhHcHV3VTZiNUYyZHpOUWFkNGExQzZQd1ljSWZUaXJSY2RNZEFETV96WkFLZktmeGhJOEx4SDlOdWVydVpO?oc=5",
 "urls": [
-"https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion"
 ]
 },
 "81366c8fc01e": {
@@ -3798,7 +3799,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793439986.0,
 "tgtext": "",
 "title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
@@ -5221,10 +5222,9 @@
 "coin": "ethereum",
 "src": "Wu Blockchain",
 "srcs": [
-"Wu Blockchain",
-"bloomingbit"
+"Wu Blockchain"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793429309.0,
 "tgtext": "Ethereum Block Builder Titan Builder Briefly Tops 24-Hour Protocol Revenue Rankings With $22.83M, Surpassing Tether\n\nAccording to DeFiLlama, Ethereum block builder Titan Builder briefly ranked first in 24-hour protocol revenue with $22.83 million, surpassing Tether. DeFiLlama co-founder 0xngmi said Titan Builder generated approximately $24.7 million in fees over the same period, an unusually high figure that DeFiLlama\u2019s systems initially flagged and blocked as a data error. He attributed the surge in MEV activity to arbitrage opportunities created by hacker-related market disruptions and widespread panic. \u2014 link",
 "title": "Ethereum Block Builder Titan Builder Briefly Tops 24-Hour Protocol Revenue Rankings With $22.83M, Surpassing Tether",
@@ -5538,10 +5538,9 @@
 "src": "The Crypto Times",
 "srcs": [
 "Crypto News",
-"Hokanews",
 "The Crypto Times"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793428254.0,
 "tgtext": "",
 "title": "Bitcoin Price Today: BTC Falls to $77K as $427M in Crypto Liquidations Hit, ETFs See $643M Outflow",
@@ -6829,7 +6828,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793448583.9494336,
+"t": 1793448892.2318351,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
 "title": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles",
@@ -7325,24 +7324,26 @@
 "2bfe24389158": 0.176,
 "368aa004ab65": 0.118,
 "40b78943f1d6": 0.219,
+"4bdcf3f79392": 0.084,
 "5d7337f2a18e": 0.121,
 "5ff8955bf5de": 0.063,
 "681326519a1e": 0.395,
 "767d3edc2a6e": 0.621,
+"811a482828ab": 0.984,
 "87f350bbbbbb": 0.015,
-"8ec0baa9224e": 0.193,
+"8ec0baa9224e": 0.073,
 "8f0610ceda83": 0.501,
-"8f94aa458d8a": 0.145,
+"8f94aa458d8a": 0.112,
 "9412286ab3f7": 0.019,
 "9acc8a65efaf": 0.047,
 "9e07ec69114c": 0.135,
 "a3d38f217a95": 0.052,
-"b5d110dc5020": 0.542,
-"b688239b0424": 0.97,
-"c26c02f62f52": 0.899,
+"b5d110dc5020": 0.44,
+"c26c02f62f52": 0.681,
 "ca55d7f18783": 0.147,
 "d0ac506c37e0": 0.038,
 "e46b9e63cda2": 0.062,
+"ec266ab30b9b": 0.125,
 "efbfa1d218ff": 0.046,
 "f0349604383f": 0.242
 },
@@ -9004,65 +9005,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b688239b0424",
-67,
-354,
-9
+"811a482828ab",
+79,
+264,
+7
 ],
 [
 "c26c02f62f52",
-45,
-339,
-3
+20,
+344,
+2
 ],
 [
 "05555931eb5e",
 16,
-151,
+156,
 1
 ],
 [
 "767d3edc2a6e",
-6,
-325,
+5,
+330,
 1
-],
-[
-"b5d110dc5020",
-16,
-321,
-2
 ],
 [
 "8f0610ceda83",
 20,
-143,
+148,
+1
+],
+[
+"b5d110dc5020",
+5,
+326,
 1
 ],
 [
 "681326519a1e",
-15,
-210,
+14,
+215,
 1
 ],
 [
 "f0349604383f",
 9,
-188,
+193,
 1
 ],
 [
 "40b78943f1d6",
-12,
-275,
+11,
+280,
 1
 ],
 [
 "2b3e445c3112",
 0,
-255,
+260,
 1
 ]
 ],
-"top_at": 1793448583.9494336
+"top_at": 1793448892.2318351
 }
