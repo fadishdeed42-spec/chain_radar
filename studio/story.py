@@ -16,6 +16,8 @@ KNOWN_OK = {'binance', 'coinbase', 'tether', 'bitcoin', 'ethereum', 'solana', 'r
             'microstrategy', 'strategy', 'teng', 'trump', 'musk', 'saylor', 'dogecoin', 'cardano', 'polygon', 'uniswap', 'opensea', 'metamask', 'ledger', 'circle'}
 PRONOUNCE = {'bybit': 'Bye-bit', 'okx': 'O K X', 'kucoin': 'Koo-coin', 'huobi': 'Hwo-bee', 'bitfinex': 'Bit-finex', 'quadrigacx': 'Quadriga C X',
              'ulbricht': 'Uhl-brikt', 'lazarus': 'Lazarus', 'chainalysis': 'Chain-alysis', 'kwon': 'Kwahn', 'wazirx': 'Wazir X'}   # always said this way
+MONEY_NOUNS = {'reward', 'fine', 'hack', 'heist', 'deal', 'fund', 'bounty', 'settlement', 'company', 'loan', 'bet', 'lawsuit', 'sale', 'mansion', 'exploit',
+               'theft', 'scam', 'fraud', 'question', 'mistake', 'penalty', 'bail', 'bond', 'payout', 'ransom', 'bribe', 'pizza', 'yacht', 'house', 'raise', 'round'}
 FULL_MONTHS = {v.lower() for v in MONTHS.values()}
 SPELL = {'BTC': 'bitcoin', 'ETH': 'ether', 'FBI': 'F B I', 'SEC': 'S E C', 'CEO': 'C E O', 'NFT': 'N F T', 'NFTS': 'N F Ts',
          'DAO': 'dow', 'USD': 'dollars', 'DOJ': 'D O J', 'IRS': 'I R S', 'ETF': 'E T F', 'ETFS': 'E T Fs', 'ATM': 'A T M',
@@ -181,7 +183,7 @@ def plan_line(line, respell=None, after_month=False):
         words = sp.split()
         if out and re.match(r'^-?\$\d', toks[i - 1]) and re.sub(r'[^a-z]', '', tok.lower()) in ('million', 'billion', 'trillion', 'thousand'):
             m = re.match(r'^([a-zA-Z]+)(.*)$', tok)                         # "$15 million." -> "million dollars." / "$5 million reward" -> "million dollar reward"
-            adj = not m.group(2) and i + 1 < len(toks) and re.match(r'^[a-z]', toks[i + 1])
+            adj = not m.group(2) and i + 1 < len(toks) and re.sub(r'[^a-z]', '', toks[i + 1].lower()) in MONEY_NOUNS     # '$5 million reward' but '$48 million came back'
             words = [m.group(1).lower(), ('dollar' if adj else 'dollars') + m.group(2)]
         out.append((tok, [w for w in words if w]))
     return out

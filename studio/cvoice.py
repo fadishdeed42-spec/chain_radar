@@ -40,7 +40,7 @@ def asr_wer(w, sr, text):
     got = ' '.join(s.text for s in segs)
     global LAST_RUSHED
     LAST_RUSHED = [w.word.strip() for s in segs for w in (s.words or [])                 # a long word squeezed into a blink = hard to understand
-                   if len(re.sub(r'\W', '', w.word)) >= 5 and (w.end - w.start) < .045 * len(re.sub(r'\W', '', w.word)) + .05]
+                   if len(re.sub(r'\W', '', w.word)) >= 6 and (w.end - w.start) < .032 * len(re.sub(r'\W', '', w.word)) + .04]
     def n(t):                                                     # both sides as spoken words: "$6.3 billion" == "six point three billion dollars"
         try:
             import story
