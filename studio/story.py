@@ -192,6 +192,9 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
     'serious': {'hook': .75, 'setup': .6, 'turn': .65, 'twist': .8, 'payoff': .72, 'end': .55},
     'mystery': {'hook': .72, 'setup': .6, 'turn': .66, 'twist': .85, 'payoff': .72, 'end': .55},
     'hype':    {'hook': .95, 'setup': .8, 'turn': .85, 'twist': .95, 'payoff': .95, 'end': .65}}
+EMOTIONS = ('tense', 'shock', 'curious', 'dark', 'funny', 'calm', 'triumph', 'sad')
+EMO_EX = {'tense': .62, 'shock': .9, 'curious': .66, 'dark': .55, 'funny': .85, 'calm': .5, 'triumph': .88, 'sad': .5}   # how hard the voice pushes each feeling
+EMO_GAP = {'shock': .42, 'dark': .38, 'sad': .4, 'tense': .32}                                                           # a beat of silence after heavy lines
 CTA = 'Follow Chain Secrets. Every chart hides a story.'
 CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
 # ---------------------------------------------------------------- length: ONE calibrated model for the writer, the editor and the checks
@@ -250,7 +253,7 @@ try:
     DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
 except Exception:
     DEFAULTS = {'length': 45, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
-                'style': 'mixed', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
+                'style': 'documentary', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
 
 
 def settings(sb):
@@ -316,6 +319,7 @@ def check(sb, strict=True):
         if v['type'] == 'quote':
             v.pop('handle', None)                                           # never show an X handle we can't verify
         s['visual'] = v
+        if s.get('emotion') not in EMOTIONS: s.pop('emotion', None)
         s['beats'] = [b for b in (s.get('beats') or []) if isinstance(b, dict) and b.get('word')][:4]
         s['footage'] = str(s.get('footage') or '')[:60]
         s['shots'] = [{'words': re.sub(r'\s+', ' ', str(h.get('words', ''))).strip()[:60], 'q': str(h.get('q', '')).strip()[:60]}
@@ -376,8 +380,9 @@ def voice_job(sb):
         alts.append(plain if plain != text and len(plain.split()) == len(text.split()) else None)
         checks.append(plain)
         end = i == len(sb['scenes']) - 1
-        e = (ex['end'] if end else ex[s['role']]) + de
-        g = .55 if end else (.3 if s['role'] in ('twist', 'payoff') else .24)
+        emo = s.get('emotion') if s.get('emotion') in EMOTIONS else None
+        e = (EMO_EX[emo] if emo and not end else ex['end'] if end else ex[s['role']]) + de     # the line's feeling decides how the voice says it
+        g = .55 if end else EMO_GAP.get(emo, .3 if s['role'] in ('twist', 'payoff') else .24)
         scenes.append([text, round(min(1.0, max(.4, e)), 2), round(g * gk, 2)] + (['end'] if end else []))
         plan.append(pl)
     if cta(sb):

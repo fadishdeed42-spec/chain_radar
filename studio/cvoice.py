@@ -58,6 +58,32 @@ def end_slope(w, sr, text):
     k = max(2, len(v) // 3)
     return float(12 * np.log2(np.median(v[-k:]) / np.median(v[:k])))
 
+def phonetic_variant(said, heard):
+    """The voice keeps misreading a word: ask Gemini how to spell it so a voice says it right ("Chainalysis" -> "Chain-alysis").
+    Returns a new text with the same number of words, or None."""
+    import re, difflib, requests
+    keys = [k for k in (os.environ.get('GEMINI_API_KEY', ''), os.environ.get('GEMINI_API_KEY_2', '')) if k]
+    a = said.split(); b = re.sub(r"[^\w' -]", ' ', heard).split()
+    sm = difflib.SequenceMatcher(None, [re.sub(r'\W', '', x).lower() for x in a], [x.lower() for x in b])
+    bad = sorted({a[k] for op, i1, i2, _, _ in sm.get_opcodes() if op in ('replace', 'delete') for k in range(i1, i2) if len(re.sub(r'\W', '', a[k])) > 3})
+    if not keys or not bad: return None
+    prompt = ('A text-to-speech voice misreads these words in the sentence below. For each, give ONE respelling (letters and hyphens only, no spaces) that makes '
+              f'an English voice say it correctly.\nSentence: {said}\nThe voice said: {heard}\nWords: {bad}\nReturn JSON only: {{"word": "respelling", ...}}')
+    for key in keys:
+        try:
+            r = requests.post('https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent', params={'key': key}, timeout=25,
+                              json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}})
+            if not r.ok: continue
+            m = json.loads(re.search(r'\{.*\}', r.json()['candidates'][0]['content']['parts'][0]['text'], re.S).group(0))
+            out = [(m.get(re.sub(r'[^\w-]', '', w)) or m.get(w) or w) if w in bad or re.sub(r'[^\w-]', '', w) in m else w for w in a]
+            out = [re.sub(r'\s+', '-', str(x)) + (re.search(r'[.,!?;:]+$', w).group(0) if re.search(r'[.,!?;:]+$', w) and not re.search(r'[.,!?;:]$', str(x)) else '') for x, w in zip(out, a)]
+            txt = ' '.join(out)
+            return txt if txt != said and len(txt.split()) == len(a) else None
+        except Exception as e:
+            print('phonetic fail', repr(e)[:80])
+    return None
+
+
 def run(path):
     import torch
     from chatterbox.tts import ChatterboxTTS
@@ -75,7 +101,7 @@ def run(path):
         chk = checks[i] if i < len(checks) else t
         variants = [t] + ([alt] if alt else [])                     # respelled text and the plain text: whichever the voice says right wins
         n_max = 8 if end else 6
-        target = 2.6 if end else 3.1; best = None
+        target = 2.4 if end else 2.75; best = None                     # calm, clear storytelling pace (fast takes swallowed words)
         for k in range(n_max):
             tt = variants[k % len(variants)]
             w = m.generate(tt, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
@@ -89,12 +115,26 @@ def run(path):
             wps = len(tt.split()) / (len(w) / sr)
             want_up = tt.rstrip().endswith('?')
             ok_end = (sl > 0) if want_up else (sl < -1.0)
-            score = 2.0 * ok_end - 6.0 * wer - .6 * abs(wps - target) - (.08 * max(0, sl) if not want_up else 0)
+            score = 2.0 * ok_end - 6.0 * wer - .6 * abs(wps - target) - 1.5 * max(0, wps - 3.05) - (.08 * max(0, sl) if not want_up else 0)
             log.append(f'   take {k+1}{" (plain)" if tt is alt else ""}: score {score:+.2f}  wer {wer:.2f}  end {sl:+.1f}st  {wps:.1f}w/s  heard: {heard.strip()[:70]}')
             if best is None or score > best[0]: best = (score, w, wer, heard, tt)
             good_words = wer <= .06
             if good_words and (ok_end or k >= 2) and k >= (1 if end else 0):   # every word right (and a finished ending when possible): stop early
                 break
+        if best[2] > .08:                                           # still a misread word after every take: try a phonetic spelling of just those words
+            ph = phonetic_variant(chk, best[3])
+            if ph:
+                log.append(f'   phonetic variant: {ph[:90]}')
+                for k in range(3):
+                    w = m.generate(ph, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
+                    w = trim(w.squeeze().numpy().astype(np.float32), sr, .45 if end else .12)
+                    try: wer, heard = asr_wer(w, sr, chk)
+                    except Exception as e: wer, heard = 1.0, f'asr failed {e}'
+                    wps = len(ph.split()) / (len(w) / sr)
+                    score = -6.0 * wer - .6 * abs(wps - target) - 1.5 * max(0, wps - 3.05)
+                    log.append(f'   take P{k+1}: score {score:+.2f}  wer {wer:.2f}  {wps:.1f}w/s  heard: {heard.strip()[:70]}')
+                    if wer < best[2] - .02: best = (score, w, wer, heard, ph)
+                    if wer <= .06: break
         _, w, wer, heard, tt = best
         parts += [w, np.zeros(int(gap * sr), np.float32)]
         for x in tt.split(): words.append(x); owner.append(i)

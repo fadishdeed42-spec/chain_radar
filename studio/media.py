@@ -105,18 +105,21 @@ def _vision_ok(path, kind, words, q):
               '(for example a temple for "government building", a door for "launched a company", or a cartoon for a real event are NOT ok). '
               'Reply JSON only: {"ok": true or false, "why": "max 8 words"}')
     body = {'contents': [{'parts': [{'text': prompt}, {'inline_data': {'mime_type': 'image/jpeg', 'data': b64}}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}}
-    for key in keys:
+    import time as _t
+    for rnd in range(3):                                            # Google busy: wait and ask again before letting a clip through unchecked
+      if rnd: _t.sleep(4 * rnd)
+      for key in keys:
         for model in ('gemini-flash-latest', 'gemini-flash-lite-latest'):
-            try:
-                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, json=body, timeout=40)
-                if r.ok:
-                    t = ''.join(p.get('text', '') for p in r.json()['candidates'][0]['content']['parts'])
-                    j = json.loads(re.search(r'\{.*\}', t, re.S).group(0))
-                    print('  vision', 'OK ' if j.get('ok') else 'NO ', q, '|', j.get('why', ''))
-                    return bool(j.get('ok'))
-                if r.status_code != 429: print('  vision', model, r.status_code); continue
-            except Exception as e:
-                print('  vision err', repr(e)[:80])
+              try:
+                  r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', params={'key': key}, json=body, timeout=20)
+                  if r.ok:
+                      t = ''.join(p.get('text', '') for p in r.json()['candidates'][0]['content']['parts'])
+                      j = json.loads(re.search(r'\{.*\}', t, re.S).group(0))
+                      print('  vision', 'OK ' if j.get('ok') else 'NO ', q, '|', j.get('why', ''))
+                      return bool(j.get('ok'))
+                  if r.status_code != 429: print('  vision', model, r.status_code); continue
+              except Exception as e:
+                  print('  vision err', repr(e)[:80])
     return True
 
 
@@ -169,34 +172,43 @@ MAX_SHOTS = 48
 
 
 def fetch_shots(job, sb, got, used):
-    """one clip (or photo) per spoken phrase: scene i -> got[i]['shots'] = [{file, kind, words}]"""
+    """one clip (or photo) per spoken phrase: scene i -> got[i]['shots'] = [{file, kind, words}]. Scenes are fetched 4 at a time."""
     if story.settings(sb).get('style', 'mixed') in ('graphics', '3d'): return
-    n = 0
-    for i, sc in enumerate(sb['scenes']):
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+    lock, n = threading.Lock(), [0]
+
+    def take(m):
+        with lock:
+            if m['id'] in used: return False
+            used.add(m['id']); return True
+
+    def scene(i, sc):
         shots = sc.get('shots') or []
-        if not shots or sc['visual']['type'] == 'chart' or got.get(str(i), {}).get('real'): continue
         out, credits = [], []
         for k, sh in enumerate(shots):
-            if n >= MAX_SHOTS: break
+            with lock:
+                if n[0] >= MAX_SHOTS: break
             q = sh.get('q', '')
             try:
                 done = None
                 for qq in dict.fromkeys([q, sh.get('words', '')]):             # the search, then the spoken words themselves
                     for m in pixabay_videos(qq, used):
+                        if not take(m): continue
                         f = f'media/{i}_s{k}.mp4'
                         try: get(m['url'], os.path.join(job, f))
                         except Exception: continue
-                        used.add(m['id'])
                         if not _clip_ok(os.path.join(job, f)): continue
                         if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq): done = (m, f); break
                     if done: break
                 if not done:                                                   # no video matched: a real photo instead
                     m = pixabay_photo(q, used)
-                    if m:
-                        f = f'media/{i}_s{k}.jpg'; get(m['url'], os.path.join(job, f)); used.add(m['id'])
+                    if m and take(m):
+                        f = f'media/{i}_s{k}.jpg'; get(m['url'], os.path.join(job, f))
                         if _vision_ok(os.path.join(job, f), 'photo', sh.get('words', ''), q): done = (m, f)
                 if not done: print('shot: no match for', i, k, q); continue
-                m, f = done; n += 1
+                m, f = done
+                with lock: n[0] += 1
                 out.append({'file': f, 'kind': m['kind'], 'words': sh.get('words', ''), 'q': q}); credits.append(m['credit'])
                 print('shot', i, k, m['kind'], q)
             except Exception as e:
@@ -204,6 +216,10 @@ def fetch_shots(job, sb, got, used):
         if out:
             got[str(i)] = {'kind': out[0]['kind'], 'file': out[0]['file'], 'credit': ' · '.join(sorted(set(credits))), 'real': False, 'q': shots[0].get('q', ''), 'shots': out}
 
+    todo = [(i, sc) for i, sc in enumerate(sb['scenes'])
+            if sc.get('shots') and sc['visual']['type'] != 'chart' and not got.get(str(i), {}).get('real')]
+    with ThreadPoolExecutor(4) as ex:
+        list(ex.map(lambda a: scene(*a), todo))
 
 def fetch(job):
     sb = json.load(open(os.path.join(job, 'storyboard.json')))

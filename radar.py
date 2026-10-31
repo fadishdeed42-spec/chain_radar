@@ -1926,6 +1926,7 @@ SB_SCHEMA = '''{"outline": ["FIRST plan the script: one short entry per scene = 
  "chart": null OR {"symbol": "BTC", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD"},
  "scenes": [ {"role": "hook|setup|turn|twist|payoff|end", "line": "narration with real digits ($4B, 2017, Oct 25)",
               "hit": "one word from the line where the visual punch lands",
+              "emotion": "the feeling of this line: tense | shock | curious | dark | funny | calm | triumph | sad",
               "beats": [{"word": "a later word in the same line", "text": "MAX 3 WORDS shown on screen", "icon": "optional icon"}],
               "footage": "2-4 word stock video search for the background, e.g. 'prison cell bars' (or empty)",
               "shots": [{"words": "an EXACT phrase copied from this line, in order", "q": "2-4 word stock video search showing exactly what that phrase says"}],
@@ -2082,7 +2083,7 @@ def polish_script(sb, facts, rounds=2):
         cur = '\n'.join(f'{i + 1}. [{x["role"]}] (keep the word "{x["hit"]}") {x["line"]}' + (f'\n   PROBLEMS: {"; ".join(issues[i + 1])}' if i + 1 in issues else '')
                          for i, x in enumerate(sc))
         raw = gemini_json('Fix this faceless YouTube Short narration. Rewrite ONLY the lines that have PROBLEMS; copy every other line exactly. '
-                          'Each fixed line keeps its role, about the same length, and its kept word, and carries at least one concrete fact (number, name, date, place or specific action) '
+                          'Each fixed line keeps its role, about the same length, its kept word and its storyteller feel (short spoken sentences, not news-speak), and carries at least one concrete fact (number, name, date, place or specific action) '
                           'taken ONLY from the FACTS. No filler adjectives. Never invent anything. Digits for numbers ($6.3B, 2026, Oct 29).\n\n'
                           f'SCRIPT:\n{cur}\n\nFACTS:\n{facts[:12000]}\n\n'
                           'Return JSON only: {"lines": [{"n": 1, "line": "..."}, ...]} with all ' + str(len(sc)) + ' lines.')
@@ -2139,8 +2140,14 @@ HOUSE RULES
 - LENGTH: {len_rule} Each line 1-2 short spoken sentences, max 24 words.
 - OUTLINE FIRST: fill "outline" before "scenes" (one entry per scene, with its word budget); the scene lines must follow the outline.
 - STRUCTURE: {LEN_SHAPE[length]}
-- WRITE LIKE A STORYTELLER: concrete names, places, dates and amounts; every line is a punch. Never write vague filler like "faced a crisis",
-  "massive", "significant", "shocking", "in the world of crypto". Short sentences. Show, don't summarize.
+- WRITE LIKE A STORYTELLER, NOT A NEWS READER: put the viewer INSIDE the moment ("Thursday night. A Binance engineer opens his laptop."), then build tension
+  line by line toward the twist. Use concrete names, places, dates and amounts; every line is a punch. Short spoken sentences (6-14 words), contractions,
+  an occasional question to the viewer ("So where did the other three billion go?"). Never write vague filler like "faced a crisis",
+  "massive", "significant", "shocking", "in the world of crypto". Show, don't summarize.
+  NEWS READER (bad): "Blockchain firms linked the attack to North Korea on Thursday."
+  STORYTELLER (good): "By morning, two blockchain firms had a name. North Korea."
+- FEELING: give every line an "emotion" and write it so it feels that way: the hook is shock or curious, the build is tense, the twist is shock or dark,
+  the payoff lands (triumph, dark or sad), funny only when the story is absurd. The voice performs the emotion you choose.
 - Scene 1 (hook): the most shocking fact or the twist FIRST, max 14 words, opens a loop the viewer needs closed. Never start with "Today" or "In this video".
 - Middle: every line moves the story. Viewers leave at 13 seconds, so the first twist must come before 20 seconds.
 - Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically).
@@ -2198,7 +2205,7 @@ def fit_length(sb, facts, passes=3):
                   f'Now: {best["words"]} spoken words = about {sstory.mmss(best["est_secs"])}. Needed: {sstory.window(best["length"], len(sstory.cta(best).split()))[0]} to '
                   f'{sstory.window(best["length"], len(sstory.cta(best).split()))[1]} spoken words (aim {tgt}).\n{how}\n'
                   'Rules: same scenes, same order, same facts and numbers (digits like $4B, 2017); hook max 14 words; every other line max 26 words; '
-                  'keep the tone; never invent numbers, names, quotes or dates.\n\nSCRIPT:\n' + cur + '\n\nFACTS you may use:\n' + (facts or '(only well-documented facts already in the script)') +
+                  'keep the tone and the storyteller voice (short spoken sentences, tension building to the twist); never invent numbers, names, quotes or dates.\n\nSCRIPT:\n' + cur + '\n\nFACTS you may use:\n' + (facts or '(only well-documented facts already in the script)') +
                   '\n\nReturn JSON only: {"lines": [{"n": 1, "line": "..."}, ...]} with all ' + str(len(sc)) + ' scenes.')
         raw = gemini_json(prompt)
         try:
