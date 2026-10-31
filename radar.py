@@ -2237,7 +2237,7 @@ HOUSE RULES
 - HACKS AND THEFTS: use the "flow" visual (follow the money) on at least one scene.
 - "lesson": one practical takeaway for an ORDINARY viewer about their own money (safety, scams, self-custody, risk), never advice for companies or engineers. Spoken at the very end as "Chain Secrets lesson: ...".
 - Middle: every line moves the story. Viewers leave at 13 seconds, so the first twist must come before 20 seconds.
-- Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically).
+- Last scene (end): a short payoff that loops back to the hook so the replay feels seamless. No call to action (it is added automatically). Its visual shows a story moment (a number, a name, a stamp), never the channel name.
 - Tone: {('use the tone "' + tone + '".') if tone else 'pick the best one: funny for absurd stories, serious for victims and big losses, mystery for unsolved or secret stories, hype for records.'}
   funny = a light joke every 5-8 seconds; serious = no jokes, respectful; mystery = tension and questions; hype = energy.
 - Write numbers with digits in the lines ($4B, 50,000 BTC, 2017, Oct 25). "respell" only for rare names a voice would misread (Quadriga C X, Ulbricht -> UHL-brikt); never for well-known words or brands (Binance, Coinbase, Tether, Bitcoin, Ethereum).

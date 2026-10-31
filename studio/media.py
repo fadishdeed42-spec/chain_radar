@@ -102,7 +102,8 @@ def _vision_ok(path, kind, words, q):
         print('vision frame fail', repr(e)[:80]); return True
     prompt = (f'A short documentary video says: "{words}". We want a background picture that shows this literally (search was "{q}"). '
               'Does this frame fit? It must show the thing said (or a clearly related scene), not a random or misleading place/object '
-              '(for example a temple for "government building", a door for "launched a company", or a cartoon for a real event are NOT ok). '
+              '(for example a temple for "government building", a door for "launched a company", animals, beaches, forests or confetti for news about hackers, money or courts, or a cartoon for a real event are NOT ok). '
+              'Landscapes and nature only fit when the words are about that place or nature. When in doubt, answer false. '
               'Reply JSON only: {"ok": true or false, "why": "max 8 words"}')
     body = {'contents': [{'parts': [{'text': prompt}, {'inline_data': {'mime_type': 'image/jpeg', 'data': b64}}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}}
     import time as _t
