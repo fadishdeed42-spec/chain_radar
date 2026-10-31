@@ -6,15 +6,12 @@
   "When North Korea stole $6.3 billion, Binance did the unthinkable."
  ],
  "tone": "mystery",
- "respell": {
-  "Binance": "bih-nance",
-  "Teng": "teng"
- },
+ "respell": {},
  "chart": null,
  "scenes": [
   {
    "role": "hook",
-   "line": "[hook] Hackers stole a record $6.3 billion from Binance in history's biggest crypto heist.",
+   "line": "Hackers stole a record $6.3 billion from Binance in history's biggest crypto heist.",
    "hit": "$63",
    "emotion": "shock",
    "beats": [
@@ -52,7 +49,7 @@
   },
   {
    "role": "setup",
-   "line": "[setup] North Korean attackers drained user wallets within minutes using automated transfer scripts, leveraging a compromised employee laptop.",
+   "line": "North Korean attackers drained user wallets within minutes using automated transfer scripts, leveraging a compromised employee laptop.",
    "hit": "within",
    "emotion": "tense",
    "beats": [
@@ -88,7 +85,7 @@
   },
   {
    "role": "turn",
-   "line": "[turn] Co-CEO Richard Teng immediately tapped the billion dollar SAFU emergency fund, futures reserves, and corporate treasury.",
+   "line": "Co-CEO Richard Teng immediately tapped the billion dollar SAFU emergency fund, futures reserves, and corporate treasury.",
    "hit": "dollar",
    "emotion": "curious",
    "beats": [
@@ -124,7 +121,7 @@
   },
   {
    "role": "twist",
-   "line": "[twist] By Saturday morning, Dubai-based Binance used company money to buy back 90 percent of the assets from the market.",
+   "line": "By Saturday morning, Dubai-based Binance used company money to buy back 90 percent of the assets from the market.",
    "hit": "90",
    "emotion": "shock",
    "beats": [
@@ -162,7 +159,7 @@
   },
   {
    "role": "payoff",
-   "line": "[payoff] Users bore zero financial impact as withdrawal services prepared to reopen on Sunday as scheduled.",
+   "line": "Users bore zero financial impact as withdrawal services prepared to reopen on Sunday as scheduled.",
    "hit": "zero",
    "emotion": "triumph",
    "beats": [
@@ -199,7 +196,7 @@
   },
   {
    "role": "end",
-   "line": "[end] Leaving hackers with a historic heist that the world's largest exchange absorbed almost overnight through transparent reporting.",
+   "line": "Leaving hackers with a historic heist that the world's largest exchange absorbed almost overnight through transparent reporting.",
    "hit": "that",
    "emotion": "dark",
    "beats": [
@@ -243,8 +240,8 @@
   "style": "documentary",
   "autorender": true
  },
- "est_secs": 48,
- "words": 109,
+ "est_secs": 45,
+ "words": 103,
  "target_words": 102,
  "length_ok": true,
  "review": {}

@@ -12,6 +12,8 @@ TENS = 'zero ten twenty thirty forty fifty sixty seventy eighty ninety'.split()
 ORD = {'one': 'first', 'two': 'second', 'three': 'third', 'five': 'fifth', 'eight': 'eighth', 'nine': 'ninth', 'twelve': 'twelfth'}
 MONTHS = {'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April', 'may': 'May', 'jun': 'June', 'jul': 'July',
           'aug': 'August', 'sep': 'September', 'sept': 'September', 'oct': 'October', 'nov': 'November', 'dec': 'December'}
+KNOWN_OK = {'binance', 'coinbase', 'tether', 'bitcoin', 'ethereum', 'solana', 'ripple', 'kraken', 'bybit', 'okx', 'chainalysis', 'blackrock', 'nasdaq',
+            'microstrategy', 'strategy', 'teng', 'trump', 'musk', 'saylor', 'dogecoin', 'cardano', 'polygon', 'uniswap', 'opensea', 'metamask', 'ledger', 'circle'}
 FULL_MONTHS = {v.lower() for v in MONTHS.values()}
 SPELL = {'BTC': 'bitcoin', 'ETH': 'ether', 'FBI': 'F B I', 'SEC': 'S E C', 'CEO': 'C E O', 'NFT': 'N F T', 'NFTS': 'N F Ts',
          'DAO': 'dow', 'USD': 'dollars', 'DOJ': 'D O J', 'IRS': 'I R S', 'ETF': 'E T F', 'ETFS': 'E T Fs', 'ATM': 'A T M',
@@ -288,7 +290,8 @@ def check(sb, strict=True):
         raise ValueError('no scenes')
     sb.pop('outline', None)                                                 # planning notes only, never stored (the app payload must stay small)
     sb['tone'] = sb.get('tone') if sb.get('tone') in TONES else 'mystery'
-    sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)}
+    sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)
+                     and k.lower() not in KNOWN_OK and v.lower().replace('-', '') != k.lower()}      # the voice says well-known names right; respelling made them worse
     sc = [s for s in sb['scenes'] if isinstance(s, dict) and str(s.get('line', '')).strip()]
     L = length_of(sb); sb['length'] = L
     lo_s, hi_s = LENGTHS[L][:2]
@@ -302,6 +305,7 @@ def check(sb, strict=True):
     words = 0
     for i, s in enumerate(sc):
         s['line'] = re.sub(r'\s+', ' ', str(s['line']).replace('—', ', ').replace('–', '-')).strip()
+        s['line'] = re.sub(r'^\s*(?:\d+\s*[.)]\s*)?\[(?:hook|setup|turn|twist|payoff|end)\]\s*', '', s['line'], flags=re.I)   # a role tag the AI echoed back is never spoken
         s['role'] = s.get('role') if s.get('role') in ROLES else ('hook' if i == 0 else 'end' if i == len(sc) - 1 else 'setup')
         v = s.get('visual') if isinstance(s.get('visual'), dict) else {}
         if v.get('type') not in VISUALS:
