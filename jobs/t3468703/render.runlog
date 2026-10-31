@@ -1,0 +1,58 @@
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision OK  hacker typing laptop dark | Shows typing in dark setting representing hackers
+shot 0 0 video hacker typing laptop dark
+  vision NO  crypto exchange logo | Shows falling coins, not Binance logo.
+  vision NO  crypto exchange logo | It shows a generic globe, not Binance.
+  vision NO  crypto exchange logo | Does not show Binance crypto exchange logo.
+  vision NO  crypto exchange logo | Shows mining pickaxe, not Binance logo.
+  vision NO  from Binance in under an hour. | Turtle image unrelated to Binance transfer.
+  vision NO  from Binance in under an hour. | Irrelevant image of Earth, not Binance context.
+  vision NO  from Binance in under an hour. | Shows clouds, unrelated to Binance.
+  clip rejected: 6.0s, motion 1.0 0_s1.mp4
+  vision NO  crypto exchange logo | Shows Bitcoin symbols, not Binance exchange.
+shot: no match for 0 1 crypto exchange logo
+  clip rejected: 5.0s, motion 0.0 1_s0.mp4
+  clip rejected: 6.0s, motion 0.6 1_s0.mp4
+  vision NO  data analytics graph | Too abstract, lacks data analytics graph content.
+  clip rejected: 6.0s, motion 1.0 1_s0.mp4
+  vision NO  Blockchain firms TRM Labs | Shows architectural drawings, not blockchain firm TRM Labs.
+  vision NO  Blockchain firms TRM Labs | Shows a laboratory, unrelated to TRM Labs.
+  vision NO  Blockchain firms TRM Labs | Shows legal setting, not blockchain firm TRM Labs.
+  vision NO  Blockchain firms TRM Labs | Shows industrial bottling, unrelated to blockchain firms.
+  vision OK  data analytics graph | Shows data analytics graphs matching the search.
+shot 1 0 photo data analytics graph
+  vision NO  world map red dots | No world map with red dots shown.
+  vision NO  world map red dots | Shows Earth, missing map and red dots.
+  vision NO  world map red dots | It shows a world map without red dots.
+shot 1 1 video world map red dots
+shot 2 0 video open laptop desk
+shot 2 1 video code scrolling fast
+shot 3 0 video frozen ice lock
+shot 3 1 video digital money fading
+shot 4 0 video ceo speaking microphone
+shot 4 1 video stacks of cash bank
+media files: 5
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/t3468703 sfx
+$ ffmpeg -y -v error -f concat -safe 0 -i jobs/t3468703/parts.txt -c copy jobs/t3468703/silent.mp4
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/t3468703/voicep.wav jobs/t3468703/timing.json jobs/t3468703/voice_tight.wav
+ok jobs/t3468703/voice_tight.wav
+$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/t3468703/music_long.wav
+$ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/t3468703/silent.mp4 jobs/t3468703/voice_tight.wav jobs/t3468703/sfx.wav jobs/t3468703/music_long.wav 42.85 jobs/t3468703/short.mp4 0.08
+voice-over-bed dB while speaking: median 46.7, 5th pct 21.5, worst 9.5
+worst windows: [(24.2, np.float32(9.5)), (5.0, np.float32(12.9)), (10.8, np.float32(16.3)), (0.2, np.float32(19.1)), (4.8, np.float32(19.3))]
+mixed -> jobs/t3468703/short.mp4
+$ ffmpeg -y -v error -i jobs/t3468703/short.mp4 -c:v libx264 -crf 19 -maxrate 8145k -bufsize 16290k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3468703/short_s.mp4
+video check: []
+$ ffmpeg -y -v error -ss 1.79 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_00.png
+$ ffmpeg -y -v error -ss 5.36 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_01.png
+$ ffmpeg -y -v error -ss 8.93 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_02.png
+$ ffmpeg -y -v error -ss 12.50 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_03.png
+$ ffmpeg -y -v error -ss 16.07 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_04.png
+$ ffmpeg -y -v error -ss 19.64 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_05.png
+$ ffmpeg -y -v error -ss 23.21 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_06.png
+$ ffmpeg -y -v error -ss 26.78 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_07.png
+$ ffmpeg -y -v error -ss 30.35 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_08.png
+$ ffmpeg -y -v error -ss 33.92 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_09.png
+$ ffmpeg -y -v error -ss 37.49 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_10.png
+$ ffmpeg -y -v error -ss 41.06 -i jobs/t3468703/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3468703/sh_11.png
+$ ffmpeg -y -v error -i jobs/t3468703/sh_%02d.png -vf tile=6x2 -q:v 4 jobs/t3468703/sheet.jpg

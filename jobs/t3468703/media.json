@@ -1,0 +1,101 @@
+{
+ "0": {
+  "kind": "video",
+  "file": "media/0_s0.mp4",
+  "credit": "Video: Darioguzben / Pixabay",
+  "real": false,
+  "q": "hacker typing laptop dark",
+  "shots": [
+   {
+    "file": "media/0_s0.mp4",
+    "kind": "video",
+    "words": "Hackers stole $6.3 billion",
+    "q": "hacker typing laptop dark"
+   }
+  ]
+ },
+ "1": {
+  "kind": "photo",
+  "file": "media/1_s0.jpg",
+  "credit": "Photo: Pexels / Pixabay \u00b7 Video: tommyvideo / Pixabay",
+  "real": false,
+  "q": "data analytics graph",
+  "shots": [
+   {
+    "file": "media/1_s0.jpg",
+    "kind": "photo",
+    "words": "Blockchain firms TRM Labs",
+    "q": "data analytics graph"
+   },
+   {
+    "file": "media/1_s1.mp4",
+    "kind": "video",
+    "words": "and Chainalysis linked it to North Korea.",
+    "q": "world map red dots"
+   }
+  ]
+ },
+ "2": {
+  "kind": "video",
+  "file": "media/2_s0.mp4",
+  "credit": "Video: Coverr-Free-Footage / Pixabay \u00b7 Video: Kmeel_com / Pixabay",
+  "real": false,
+  "q": "open laptop desk",
+  "shots": [
+   {
+    "file": "media/2_s0.mp4",
+    "kind": "video",
+    "words": "Attackers exploited an engineer laptop",
+    "q": "open laptop desk"
+   },
+   {
+    "file": "media/2_s1.mp4",
+    "kind": "video",
+    "words": "and EIP-7702 to drain hot wallets.",
+    "q": "code scrolling fast"
+   }
+  ]
+ },
+ "3": {
+  "kind": "video",
+  "file": "media/3_s0.mp4",
+  "credit": "Video: Arystan_001 / Pixabay \u00b7 Video: KlausHausmann / Pixabay",
+  "real": false,
+  "q": "frozen ice lock",
+  "shots": [
+   {
+    "file": "media/3_s0.mp4",
+    "kind": "video",
+    "words": "Stablecoin providers froze $2.8 billion,",
+    "q": "frozen ice lock"
+   },
+   {
+    "file": "media/3_s1.mp4",
+    "kind": "video",
+    "words": "but $3 billion vanished forever.",
+    "q": "digital money fading"
+   }
+  ]
+ },
+ "4": {
+  "kind": "video",
+  "file": "media/4_s0.mp4",
+  "credit": "Video: andrey3dp / Pixabay \u00b7 Video: videoplasty / Pixabay",
+  "real": false,
+  "q": "ceo speaking microphone",
+  "shots": [
+   {
+    "file": "media/4_s0.mp4",
+    "kind": "video",
+    "words": "Co-CEO Richard Teng vowed",
+    "q": "ceo speaking microphone"
+   },
+   {
+    "file": "media/4_s1.mp4",
+    "kind": "video",
+    "words": "corporate funds will cover all customer losses.",
+    "q": "stacks of cash bank"
+   }
+  ]
+ }
+}
