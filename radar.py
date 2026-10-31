@@ -592,10 +592,23 @@ def load_tg():
         return {'offset': 0, 'menu': {}, 'mute_until': 0, 'story_i': 0}
 
 
+import threading as _thr
+_SAVE_LOCK = _thr.RLock()
+
+
 def save_tg(t):
     os.makedirs('state', exist_ok=True)
-    t['menu'] = {k: m for k, m in t.get('menu', {}).items() if NOW - m.get('t', NOW) < 48 * 3600}
-    json.dump(t, open(TG_STATE, 'w'), indent=0, sort_keys=True)
+    with _SAVE_LOCK:
+        for _ in range(3):                                                # another command may be changing the state right now: retry
+            try:
+                t['menu'] = {k: m for k, m in list(t.get('menu', {}).items()) if NOW - m.get('t', NOW) < 48 * 3600}
+                txt = json.dumps(t, indent=0, sort_keys=True)
+                break
+            except RuntimeError:
+                time.sleep(.05)
+        else:
+            return
+        open(TG_STATE + '.tmp', 'w').write(txt); os.replace(TG_STATE + '.tmp', TG_STATE)
 
 
 _last_sync = [0]
@@ -1088,25 +1101,28 @@ def send_extra(k, what):
     tg(f'{head}\n<code>{E(p[what])}</code>')
 
 
-_ACK = [None]
+_ACK = {}                                                                 # thread -> 'working' message id (commands run in parallel)
 
 
 def ack(text='⏳ Making your post…'):
     """Instant 'working' message; removed again as soon as the post arrives so the chat stays clean."""
+    import threading
+    k = threading.get_ident()
     try:
         r = requests.post(f'https://api.telegram.org/bot{TOKEN}/sendMessage', data={'chat_id': CHAT, 'text': text}, timeout=8)
-        _ACK[0] = r.json()['result']['message_id']
+        _ACK[k] = r.json()['result']['message_id']
     except Exception:
-        _ACK[0] = None
+        _ACK[k] = None
 
 
 def unack():
-    if _ACK[0]:
+    import threading
+    mid = _ACK.pop(threading.get_ident(), None)
+    if mid:
         try:
-            requests.post(f'https://api.telegram.org/bot{TOKEN}/deleteMessage', data={'chat_id': CHAT, 'message_id': _ACK[0]}, timeout=8)
+            requests.post(f'https://api.telegram.org/bot{TOKEN}/deleteMessage', data={'chat_id': CHAT, 'message_id': mid}, timeout=8)
         except Exception:
             pass
-        _ACK[0] = None
 
 
 def make_post(item):
@@ -2852,10 +2868,14 @@ def handle(u, tgs):
             tg('🎬 Send <code>/short</code> + a story, e.g. <code>/short Mt Gox collapse</code>. Add a length: <code>/short 30 Bitcoin pizza</code>, '
                '<code>/short 1min FTX</code>, <code>/short 2min Silk Road</code> (default 45s).')
     elif c == '/viral':
-        cmd_viral(tgs)
+        ack('⏳ Finding the one best thing to post right now…')
+        try: cmd_viral(tgs)
+        finally: unack()
     elif c in ('/top', 'top', 'news'):
         if not send_cached_top():
-            live_top(tgs)
+            ack('⏳ Getting the hottest stories…')
+            try: live_top(tgs)
+            finally: unack()
     elif c == '/reply':
         if args and XLINK.search(args[0]):
             cmd_reply(args[0], tgs)
@@ -2881,6 +2901,50 @@ def handle(u, tgs):
         tg(HELP)
     else:
         tg(HELP)
+
+
+from concurrent.futures import ThreadPoolExecutor as _TPE
+POOL = _TPE(3)                                                            # up to 3 slow requests at once; the chat never waits behind one
+INSTANT = ('/help', '/start', 'help', '/ep', '/mute', '/unmute', '💬 Reply to a post', '🎬 Studio', '🎬 Make a Short')
+SLOW_HINT = {'/top': '⏳ Getting the hottest stories…', '📰 Top stories': '⏳ Getting the hottest stories…', '/viral': '⏳ Finding the best thing to post right now…',
+             '/story': '⏳ Researching the story (real articles, about a minute)…', '📖 Story': '⏳ Researching…', '/today': '⏳ Finding a story from this date…',
+             '📜 Today': '⏳ Finding a story from this date…'}
+
+
+def is_instant(u):
+    m = u.get('message') or {}
+    t = (m.get('text') or '').strip()
+    c = t.split()[0].lower().split('@')[0] if t else ''
+    return bool(m) and (c in INSTANT or t in INSTANT or (re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) is not None))
+
+
+def quick_ack(u):
+    """an instant sign of life for commands that do their own longer work (only where the command itself doesn't already say so)"""
+    m = u.get('message') or {}
+    t = (m.get('text') or '').strip()
+    c = t.split()[0].lower().split('@')[0] if t else ''
+    hint = SLOW_HINT.get(c) or SLOW_HINT.get(t)
+    if hint and (c not in ('/story',) or len(t.split()) > 1):
+        try:
+            requests.post(f'https://api.telegram.org/bot{TOKEN}/sendChatAction', data={'chat_id': CHAT, 'action': 'typing'}, timeout=5)
+        except Exception:
+            pass
+
+
+def run_update(u, tgs):
+    global NOW
+    NOW = time.time()
+    t0 = time.time()
+    try:
+        handle(u, tgs)
+    except Exception as e:
+        print('handle fail', repr(e)); tg('⚠️ Something went wrong with that request. Try again.')
+        try: unack()
+        except Exception: pass
+    finally:
+        save_tg(tgs)
+        m = u.get('message') or {}; cb = u.get('callback_query') or {}
+        print(f'answered {(m.get("text") or cb.get("data") or "?")[:30]!r} in {time.time() - t0:.1f}s')
 
 
 def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
@@ -2928,11 +2992,11 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
             NOW = time.time()
             tgs['offset'] = max(tgs.get('offset', 0), u['update_id'])
             save_tg(tgs)
-            try:
-                handle(u, tgs)
-            except Exception as e:
-                print('handle fail', repr(e)); tg('⚠️ Something went wrong with that request. Try again.')
-            save_tg(tgs)
+            if is_instant(u):                                             # tiny commands: answered right here
+                run_update(u, tgs)
+            else:                                                         # everything slow runs in the background: the bot keeps listening
+                quick_ack(u)
+                POOL.submit(run_update, u, tgs)
         if time.time() - last_save > 600:
             save_tg(tgs); git_sync(force=True)
             try:
