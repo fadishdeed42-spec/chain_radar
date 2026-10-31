@@ -1309,23 +1309,6 @@
 "https://bitcoinmagazine.com/news/north-korea-6-3-billion-binance-hack"
 ]
 },
-"29b49927af4a": {
-"coin": "ethereum",
-"src": "Hokanews",
-"srcs": [
-"Coinfomania",
-"Crypto Adventure",
-"Hokanews",
-"The Crypto Times",
-"The Defiant"
-],
-"t": 1793265610.4207442,
-"t0": 1793244240.0,
-"tgtext": "",
-"title": "zkLink Nova Bridge Exploit Drains $778,625 in ETH and Tokens in One Transaction",
-"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iMGFyWDFGMEdwMExuR0daVk5IcmQ0MmJsOWVLZkI2ajZkWjVJNGQxVXZYR3VZTEgzTzdCSl9uLVE2d2ZYRDV5MGRRd092N1BtWkxQNEdtWE8xSzY0V1l4b3VuV3VEQTJYUTFYUUNVZHNVOWl1d3p1bW1lQQ?oc=5",
-"urls": []
-},
 "29fdef73645b": {
 "coin": "bitcoin",
 "src": "The Economic Times",
@@ -1467,23 +1450,6 @@
 "title": "Trader 0x15a4 just closed his longs on 1,000 BTC ($78.18M) and 10,000 ETH ($22.35M) after holding them for 4 months, making over $20M in profit.",
 "url": "https://t.me/lookonchainchannel/10849",
 "urls": []
-},
-"2f022fad61f7": {
-"coin": "bitcoin",
-"src": "TradingKey",
-"srcs": [
-"CoinDesk",
-"Hokanews",
-"TradingKey"
-],
-"t": 1793265610.4207442,
-"t0": 1793244763.0,
-"tgtext": "",
-"title": "Bitcoin Price Forecast: Hawkish Fed Signals Weigh, September PCE in Focus; Can Bitcoin Hold $80,000?",
-"url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVmlrRWtsOVpMU2JhTU53QmNZV0FraVM5bmd5d29hQUMtd2pXNjdWTmFtaE8zRzVGQ0lLdm5ZU3FvaEhERVhXV0JlZmpockVBUkNPS0lCdTJIREo0UnZTWjBpRW8zLXVjNUxDWWxrdWJJcHh4ZDhsaEluRnNiNWlxM3ZSWW42NGZWRkpTMDhyNXdxNHZCQjJObjV0clA4OVN6bWw1QVREcW5QZFMzWDU1T2k5UE1ZSFJmR0EzY0Nzc3JNUQ?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto"
-]
 },
 "310fbb642d1d": {
 "coin": "ethereum",
@@ -1780,7 +1746,7 @@
 "srcs": [
 "Stock Titan"
 ],
-"t": 1793437538.7332003,
+"t": 1793438765.6352801,
 "t0": 1793432075.0,
 "tgtext": "",
 "title": "VanEck Wealth Builder ETF (WBMO) Stock Price, News & Analysis",
@@ -2078,7 +2044,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793421858.0,
 "tgtext": "A newly created wallet (0x1c75) withdrew 1.15M $LIT($3.31M), 7.995M $ENA($1.51M) and 7.31M $ARB($1.18M) from #OKX.\n\nhttps://arkm.com/explorer/address/0x1c75ce784b4a8509840CdAFA09BC382dbD89C3bA",
 "title": "A newly created wallet (0x1c75) withdrew 1.15M LIT($3.31M), 7.995M ENA($1.51M) and 7.31M ARB($1.18M) from OKX.",
@@ -3089,7 +3055,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793417474.0,
 "tgtext": "Highlight Clip: Binance Co-CEO: Binance's Own Hot Wallet Was Compromised, Customer Funds Were Unaffected\n\nBinance Co-CEO: Binance's Own Hot Wallet Was Compromised, Customer Funds Were Unaffected\n\nBinance Co-CEO Richard Teng addressed users on October 30 following a roughly $6.3 billion hack, stating that Binance's own hot wallet was compromised while customer funds remained unaffected. He explained that most user assets are stored in cold wallets and only moved to hot wallets for withdrawals. Teng said Binance would cover all losses using company funds, with over $6.34 billion reserved, including $5 billion already held in affected assets such as USDC, USDT, BTC, ETH, and BNB. Binance is purchasing the remaining tokens through open-market and OTC transactions. To address concerns about asset safety, Teng said Binance plans to release an initial Proof of Reserves for public verification on Monday. \u2014 link",
 "title": "Highlight Clip: Binance Co-CEO: Binance's Own Hot Wallet Was Compromised, Customer Funds Were Unaffected",
@@ -3118,7 +3084,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793429066.0,
 "tgtext": "\ud83d\udcca MARKET: October wiped out $300B from the market.\n\nWhat happened to Uptober?\n\nNews | Markets | YouTube",
 "title": "MARKET: October wiped out $300B from the market.",
@@ -3877,7 +3843,7 @@
 "srcs": [
 "ad-hoc-news.de"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793426672.0,
 "tgtext": "",
 "title": "Bitcoin price tests support after leveraged liquidations",
@@ -3945,12 +3911,12 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
-"CryptoPotato",
 "Law360",
+"StreetInsider",
 "Wu Blockchain",
-"openPR.com"
+"Yahoo Finance"
 ],
-"t": 1793437847.233902,
+"t": 1793438765.6352801,
 "t0": 1793418548.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Senator Lummis says the CLARITY Act would have given crypto firms legal cover to freeze funds \"the instant law enforcement calls\" during the $6.3B Binance hack.\n\nThe bill is still stuck in the Senate after a 49-50 vote.\n\nNews | Markets | YouTube\nHighlight Clip: Trump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nTrump on Binance Hack: Says He Has Long Been Wary of Digital Money Risks\n\nOn October 30, President Donald Trump addressed Binance\u2019s reported $6.3 billion crypto theft during a press exchange in the White House Oval Office. Asked whether North Korea was responsible, Trump said the U.S. was still investigating. He added that Binance claimed it would recover the stolen funds and had the situation largely under control, but cautioned, \u201cWe\u2019ll see.\u201d Comparing digital transactions with traditional paper checks, Trump said people no longer see their money physically and that he had always considered this \u201ca little bit dangerous.\u201d \u2014 link",
 "title": "REGULATION: Senator Lummis says the CLARITY Act would have given crypto firms legal cover to freeze funds \"the instant law enforcement calls\" during the $6.3B Binance hack.",
@@ -4477,7 +4443,7 @@
 "srcs": [
 "CoinGape"
 ],
-"t": 1793437847.233902,
+"t": 1793438460.6848829,
 "t0": 1793432648.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast as Fed\u2019s Logan Calls For 2 More Rate Hikes \u2013 Can BTC Hold $75K?",
@@ -4580,7 +4546,7 @@
 "The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793425230.0,
 "tgtext": "Spot Bitcoin ETFs See $643M in Net Outflows, Ethereum ETFs Lose $156M\n\nAccording to SoSoValue data, U.S. spot Bitcoin ETFs recorded total net outflows of $643 million on October 30 (ET). BlackRock's IBIT saw the largest daily net outflow among spot Bitcoin ETFs at $234 million. Spot Ethereum ETFs recorded total net outflows of $156 million, marking their fifth consecutive day of net outflows. BlackRock\u2019s ETHA saw the largest daily net outflow among spot Ethereum ETFs at $76.64 million. \u2014 link",
 "title": "Bitcoin Price Today: BTC Falls to $77K as $427M in Crypto Liquidations Hit, ETFs See $643M Outflow",
@@ -5121,19 +5087,6 @@
 "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208"
 ]
-},
-"b318a215b6af": {
-"coin": "usd-coin",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1793265919.7370784,
-"t0": 1793244377.0,
-"tgtext": "Someone created a new wallet, deposited 4M $USDC into #Hyperliquid, and opened a 5x long on 3,000 $XMR ($1.77M).\n\nhttps://hypurrscan.io/address/0x5f2e7489ebffdd736154ae818d398256753c9e2d#perps",
-"title": "Someone created a new wallet, deposited 4M USDC into Hyperliquid, and opened a 5x long on 3,000 XMR ($1.77M).",
-"url": "https://t.me/lookonchainchannel/10823",
-"urls": []
 },
 "b4daf66c3e3f": {
 "coin": "",
@@ -5690,21 +5643,6 @@
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52MDMxNTE4Z080TFczV0tWQ05FUHk2RnhEaUR3UEh6NjlMVXZ0S0ZVcTlCV1h0cmd3SnNyV1l0bHRaLW5OclhfbUJNNUJiN05zdzFCUQ?oc=5",
 "urls": []
 },
-"c776d0c2f37c": {
-"coin": "bitcoin",
-"src": "CoinGape",
-"srcs": [
-"Coin Gabbar",
-"CoinGape",
-"Crypto News Australia"
-],
-"t": 1793265919.7370784,
-"t0": 1793252955.0,
-"tgtext": "",
-"title": "Why Bitcoin, ETH and XRP Falling Despite Fed Keeps Interest Rates Steady?",
-"url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWFB0SUpvckJYYWJiSHpkVXFSYWUxUlVHTmZiUE94OWlhMlJYbWZmQW12VElCZE0wWVJRQ2hTbEdjbDd2Vm5zT1BHUWhEV1BseGl0cmlIVi1uS1FaR2Y4bExqaVZVQzkwTllzY3ZqWEx2VG9HUHBOd1U0R1p2NWUwMnFnMXFYZDhOMFRLdllya2hnZzdhZ3dOLQ?oc=5",
-"urls": []
-},
 "c7c7d4c7e55c": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -5882,7 +5820,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793420286.0,
 "tgtext": "Blockaid: 12 Crypto Project Websites Linked to Frontend Attacks; Flap and Kintsu Confirm DNS Hijacks\n\nSecurity firm Blockaid initially flagged potential frontend attacks targeting Flap and Kintsu. It later identified 10 additional websites serving the Step Drainer wallet-draining tool, including pickle[.]finance, origami[.]finance, and fluxbeam[.]xyz. The investigation is ongoing.\n\nFlap and Kintsu have confirmed DNS hijacks affecting their websites, warning users against visiting, connecting wallets, or signing transactions. Flap founder Cedric said users who had previously connected to the legitimate website were unaffected. The risk concerns users who visited the malicious site and connected wallets or signed approvals in the tens of minutes before the announcement. Kintsu advised users who connected wallets or signed anything since approximately 00:00 UTC on October 31 to revoke approvals and move funds. Both projects said they would announce when their websites are safe to use. \u2014 link",
 "title": "Blockaid: 12 Crypto Project Websites Linked to Frontend Attacks; Flap and Kintsu Confirm DNS Hijacks",
@@ -6842,7 +6780,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
 "title": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles",
@@ -7237,7 +7175,7 @@
 "CoinDesk",
 "Lookonchain"
 ],
-"t": 1793438152.2774143,
+"t": 1793438765.6352801,
 "t0": 1793417510.0,
 "tgtext": "Binance is buying back the stolen assets through market channels and OTC deals.\n\nOver the past 8 hours, Ethena(@ethena) has deposited 128.63M $ENA ($24M) into #Binance.\n\nhttps://arkm.com/explorer/address/0xD45e232819045d9D34fd107d19b594170515580E",
 "title": "Binance is buying back the stolen assets through market channels and OTC deals.",
@@ -7329,6 +7267,7 @@
 "probs": {
 "13315d0a51a4": 0.077,
 "2b3e445c3112": 0.116,
+"40b78943f1d6": 0.239,
 "4a42ba3cbb7c": 0.774,
 "638601264df4": 0.038,
 "7036a2834687": 0.096,
@@ -7336,10 +7275,11 @@
 "767d3edc2a6e": 0.274,
 "92918218b577": 0.27,
 "9412286ab3f7": 0.021,
+"94b47aa319af": 0.939,
 "9e07ec69114c": 0.121,
 "a71566f87631": 0.361,
 "b5d110dc5020": 0.153,
-"c7066d795127": 0.97,
+"c8e2639eecab": 0.033,
 "cd0232d74d2d": 0.21,
 "d58661923895": 0.108,
 "e7aed9899e21": 0.134,
@@ -9011,65 +8951,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"c7066d795127",
-67,
-355,
-7
+"94b47aa319af",
+70,
+337,
+6
 ],
 [
 "4a42ba3cbb7c",
-4,
-272,
+3,
+282,
 1
 ],
 [
 "fad23ce5e1c4",
-32,
-344,
+30,
+354,
 2
 ],
 [
 "74850d908cb4",
-2,
-345,
+0,
+355,
 1
 ],
 [
 "f0349604383f",
 10,
-14,
+24,
 1
 ],
 [
 "a71566f87631",
-37,
-215,
+35,
+226,
 2
 ],
 [
 "767d3edc2a6e",
 25,
-151,
+162,
 1
 ],
 [
 "92918218b577",
+23,
+202,
+1
+],
+[
+"40b78943f1d6",
 24,
-191,
+112,
 1
 ],
 [
 "cd0232d74d2d",
 0,
-298,
-1
-],
-[
-"b5d110dc5020",
-24,
-147,
+308,
 1
 ]
 ],
-"top_at": 1793438152.2774143
+"top_at": 1793438765.6352801
 }
