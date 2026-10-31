@@ -1,0 +1,75 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  4%|▍         | 54.0M/1.18G [00:00<00:02, 565MB/s]  9%|▉         | 111M/1.18G [00:00<00:01, 585MB/s]  14%|█▍        | 173M/1.18G [00:00<00:01, 613MB/s] 19%|█▉        | 232M/1.18G [00:00<00:01, 589MB/s] 24%|██▍       | 288M/1.18G [00:00<00:01, 588MB/s] 29%|██▊       | 344M/1.18G [00:00<00:01, 542MB/s] 33%|███▎      | 396M/1.18G [00:00<00:01, 516MB/s] 37%|███▋      | 446M/1.18G [00:00<00:01, 514MB/s] 41%|████      | 496M/1.18G [00:00<00:01, 511MB/s] 45%|████▌     | 545M/1.18G [00:01<00:01, 511MB/s] 49%|████▉     | 595M/1.18G [00:01<00:01, 516MB/s] 54%|█████▍    | 649M/1.18G [00:01<00:01, 532MB/s] 59%|█████▊    | 707M/1.18G [00:01<00:00, 553MB/s] 63%|██████▎   | 760M/1.18G [00:01<00:00, 551MB/s] 68%|██████▊   | 817M/1.18G [00:01<00:00, 564MB/s] 72%|███████▏  | 871M/1.18G [00:01<00:00, 551MB/s] 77%|███████▋  | 930M/1.18G [00:01<00:00, 570MB/s] 82%|████████▏ | 992M/1.18G [00:01<00:00, 593MB/s] 87%|████████▋ | 1.03G/1.18G [00:01<00:00, 606MB/s] 92%|█████████▏| 1.09G/1.18G [00:02<00:00, 614MB/s] 97%|█████████▋| 1.14G/1.18G [00:02<00:00, 601MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 563MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json 32d5ee562ea6
+   take 1: score -0.67  wer 0.11  end +0.0st  2.7w/s  heard: $1.5 billion gone from buy bit in a single February day.
+   take 2: score -0.50  wer 0.08  end +0.0st  2.7w/s  heard: $1.5 billion. Gone from bivot in a single February day.
+   take 3: score -0.83  wer 0.08  end +4.3st  2.8w/s  heard: $1.5 billion.  Gone from Bibit in a single February day,
+   take 4: score +1.27  wer 0.11  end -5.2st  2.9w/s  heard: $1.5 billion gone from buy bit in a single February day.
+   take 5: score -0.57  wer 0.08  end +0.0st  2.6w/s  heard: $1.5 billion gone from bibot in a single February day.
+   take 6: score -0.51  wer 0.08  end +0.0st  2.8w/s  heard: $1.5 billion gone from BIBIT in a single February day.
+scene 1: 4.54s ex 0.9  chosen wer 0.11
+   take 1: score -0.18  wer 0.00  end +1.4st  2.9w/s  heard: hackers compromised a supplier and altered the digital wallet address 
+   take 2: score +2.00  wer 0.00  end -2.5st  2.8w/s  heard: hackers compromised a supplier and altered the digital wallet address 
+scene 2: 4.72s ex 0.62  chosen wer 0.00
+   take 1: score +1.39  wer 0.08  end -1.4st  2.5w/s  heard: Around four of 1,000 Ethereum tokens poured straight into attacker wal
+   take 2: score +0.60  wer 0.20  end -1.0st  2.4w/s  heard: Around 4,000 O'Thurium tokens poured straight into attacker wallets in
+   take 3: score +1.36  wer 0.08  end -1.1st  3.0w/s  heard: Around 4,000 Ethereum tokens poured straight into attacker wallets ins
+   take 4: score +1.39  wer 0.08  end -4.9st  2.9w/s  heard: Around 4,000 Ethereum tokens poured straight into attacker wallets ins
+   take 5: score -0.74  wer 0.08  end -0.6st  2.4w/s  heard: Around 4,000 Ethereum tokens poured straight into attacker wallets ins
+   take 6: score +1.88  wer 0.00  end -5.4st  2.9w/s  heard: Around 401,000 Ethereum tokens poured straight into attacker wallets i
+scene 3: 4.42s ex 0.9  chosen wer 0.00
+   take 1: score -0.93  wer 0.14  end +0.0st  2.6w/s  heard: By February 26, 2025, the FBI pinned it on North Korea's LAZ a-rust gr
+   take 2 (plain): score -0.45  wer 0.05  end +0.0st  3.0w/s  heard: By February 26, 2025, the FBI penned it on North Korea's Lazarus Group
+   take 3: score -1.92  wer 0.26  end +0.0st  2.1w/s  heard: By February 26, 2025, the FB1 DI pinned it on North Korea's LAZ RUS gr
+   take 4 (plain): score -0.01  wer 0.00  end +0.0st  2.7w/s  heard: By February 26, 2025, the FBI pinned it on North Korea's Lazarus Group
+scene 4: 5.86s ex 0.55  chosen wer 0.00
+   take 1: score -1.14  wer 0.18  end +0.0st  2.6w/s  heard: and then it got stranger, to buy based by bit actually sued a foreign 
+   take 2: score -1.07  wer 0.15  end +0.0st  3.0w/s  heard: and then it got stranger, to buy based bibit actually sued a foreign n
+   take 3: score -0.84  wer 0.06  end +5.2st  2.8w/s  heard: and then it got stranger.  Dubai based Bibit actually sued a foreign n
+   take 4: score -0.68  wer 0.06  end +0.0st  2.2w/s  heard: and then it got stranger.  Dubai-based Bivit actually sued a foreign n
+   take 5: score -0.95  wer 0.15  end +0.0st  2.8w/s  heard: and then it got stranger to buy based bibit actually sued a foreign na
+   take 6: score -1.14  wer 0.19  end +0.0st  2.7w/s  heard: and then a cut stranger,  Dubai based Bibit actually sued a foreign na
+scene 5: 6.22s ex 0.66  chosen wer 0.06
+   take 1: score -0.22  wer 0.00  end -0.2st  3.1w/s  heard: but out of 1.5 billion, only $48.4 million came back to the exchange.
+   take 2: score +1.08  wer 0.00  end -2.2st  3.4w/s  heard: but out of 1.5 billion, only $48.4 million came back to the exchange.
+scene 6: 5.29s ex 0.5  chosen wer 0.00
+   take 1: score -0.24  wer 0.00  end +0.0st  2.3w/s  heard: Another $30.5 million remains frozen across 28 exchanges and custodian
+   take 2: score -0.18  wer 0.00  end +0.0st  2.4w/s  heard: Another $30.5 million remains frozen across 28 exchanges and custodian
+   take 3: score -0.36  wer 0.00  end +0.0st  2.1w/s  heard: Another $30.5 million remains frozen across 28 exchanges and custodian
+scene 7: 6.95s ex 0.88  chosen wer 0.00
+   take 1: score -0.54  wer 0.00  end +0.0st  3.1w/s  heard: proving even a $1.5 billion cyber heist leaves traces.
+   take 2: score -0.29  wer 0.00  end +0.0st  2.9w/s  heard: proving even a $1.5 billion cyber heist leaves traces.
+   take 3: score -0.35  wer 0.00  end +0.0st  3.0w/s  heard: proving even a $1.5 billion cyber heist leaves traces.
+scene 8: 4.16s ex 0.55 END  chosen wer 0.00
+   take 1: score -0.56  wer 0.00  end +0.0st  1.8w/s  heard: Chain Secrets lesson. Chain Secrets lesson. Always verify exchange cus
+   take 2: score -0.42  wer 0.00  end +0.0st  2.1w/s  heard: Chain Secrets lesson, chain Secrets lesson, always verify exchange cus
+   take 3: score -0.50  wer 0.00  end +0.0st  1.9w/s  heard: Chain Secrets lesson, chain secrets lesson, always verify exchange cus
+scene 9: 8.26s ex 0.7  chosen wer 0.00
+53.88s, force-aligned 133 words
+liampace -> jobs/t3479446/voicep.wav
+rate x1.00 gap 0.40 | one point five billion dollars.
+rate x1.00 gap 0.40 | Gone from Bybit in a single February day.
+rate x1.00 gap 0.40 | Hackers compromised a supplier and altered the digital wallet address during the transfer.
+rate x1.00 gap 0.40 | Around four hundred one thousand Ethereum tokens poured straight into attacker wallets instantly.
+rate x1.00 gap 0.40 | By February twenty-sixth, twenty twenty-five, the F B I pinned it on North Korea's Lazarus Group.
+rate x1.00 gap 0.40 | And then it got stranger.
+rate x1.00 gap 0.40 | Dubai-based Bybit actually sued a foreign nation-state in court.
+rate x1.00 gap 0.40 | But out of one point five billion, only forty-eight point four million dollar came back to the exchange.
+rate x1.00 gap 0.40 | Another thirty point five million dollar remains frozen across twenty-eight exchanges and custodians pending further legal action.
+rate x1.00 gap 0.40 | Proving even a one point five billion dollar cyber heist leaves traces.
+rate x1.00 gap 0.40 | Chain Secrets lesson:
+rate x1.00 gap 0.60 | Chain Secrets lesson:
+rate x1.00 gap 0.40 | Always verify exchange custody and asset security practices.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 54.54s (was 53.88s)
+
