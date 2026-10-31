@@ -29,10 +29,15 @@ jobs:
           pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
           pip install -q chatterbox-tts soundfile requests librosa faster-whisper && pip cache purge
       - name: install (render)
-        if: github.event.inputs.stage == 'render'
+        if: github.event.inputs.stage == 'render' || github.event.inputs.stage == 'send'
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libraqm0 fonts-dejavu-core
           pip install -q numpy opencv-python-headless pillow requests soundfile
+      - name: get the held video (send stage)
+        if: github.event.inputs.stage == 'send'
+        run: |
+          git fetch -q origin held && git show origin/held:held/${{ github.event.inputs.job }}.mp4 > jobs/${{ github.event.inputs.job }}/short_s.mp4
+          ls -la jobs/${{ github.event.inputs.job }}/short_s.mp4
       - name: run
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -45,12 +50,20 @@ jobs:
         if: always() && github.event.inputs.stage == 'render'
         uses: actions/upload-artifact@v4
         with: {name: 'short-${{ github.event.inputs.job }}', path: 'jobs/${{ github.event.inputs.job }}/short*.mp4', if-no-files-found: ignore}
+      - name: keep a held video on the 'held' branch (reviewed before sending)
+        if: success() && github.event.inputs.stage == 'render' && hashFiles(format('jobs/{0}/hold.flag', github.event.inputs.job)) != ''
+        run: |
+          J=${{ github.event.inputs.job }}
+          cp jobs/$J/short_s.mp4 /tmp/held.mp4
+          git config user.name chain-radar; git config user.email noreply@github.com
+          git fetch -q origin held && git worktree add -q /tmp/hw origin/held || (git worktree add -q --detach /tmp/hw && cd /tmp/hw && git checkout -q --orphan held && git rm -rfq . ; true)
+          cd /tmp/hw && mkdir -p held && cp /tmp/held.mp4 held/$J.mp4 && git add held/$J.mp4 && git commit -qm "held $J [skip ci]" && git push -q origin HEAD:held
       - name: save job files
         if: always()
         run: |
           git config user.name chain-radar; git config user.email noreply@github.com
           J=jobs/${{ github.event.inputs.job }}
-          for f in $J/storyboard.json $J/status.json $J/voice.json $J/plan.json $J/voice.log $J/voice_quality.json $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/media.json $J/sheet.jpg $J/*.runlog studio/ref_am_liam.wav; do [ -f $f ] && git add -f $f; done
+          for f in $J/storyboard.json $J/status.json $J/voice.json $J/plan.json $J/voice.log $J/voice_quality.json $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/media.json $J/sheet.jpg $J/review_*.jpg $J/*.runlog studio/ref_am_liam.wav; do [ -f $f ] && git add -f $f; done
           git commit -qm "short ${{ github.event.inputs.stage }} ${{ github.event.inputs.job }} [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done || true
       - name: auto-render (Studio setting)
         if: success() && github.event.inputs.stage == 'voice' && hashFiles(format('jobs/{0}/autorender.flag', github.event.inputs.job)) != ''

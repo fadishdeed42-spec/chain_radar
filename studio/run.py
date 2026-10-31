@@ -221,6 +221,18 @@ def render(jid):
     except Exception as e:
         print('sheet skipped', e)
     hook_t = T['beats'].get('s0', 1.0)
+    if os.path.exists(f'{d}/hold.flag'):                                  # review first: frames every 1.5 s for a full check, the video waits on the 'held' branch
+        n_ = int(T['dur'] / 1.5)
+        for k in range(n_):
+            sh(['ffmpeg', '-y', '-v', 'error', '-ss', f'{k * 1.5 + .5:.2f}', '-i', out, '-frames:v', '1', '-vf', 'scale=270:480', f'{d}/q_{k:03d}.png'])
+        import subprocess as _sp
+        for g in range(0, n_, 12):
+            lst = ''.join(f"file '{os.path.abspath(f'{d}/q_{x:03d}.png')}'\n" for x in range(g, min(g + 12, n_)))
+            open(f'{d}/q_list.txt', 'w').write(lst)
+            _sp.run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', f'{d}/q_list.txt', '-vf', 'tile=6x2', '-frames:v', '1', '-q:v', '4', f'{d}/review_{g // 12}.jpg'])
+        for f in glob.glob(f'{d}/q_*.png') + [f'{d}/q_list.txt']: os.remove(f)
+        status(jid, 'held', dur=round(T['dur']), video_check=qa, hook_t=round(hook_t + .6, 1))
+        print('held for review'); return
     tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n' + ('✅ Video check: no frozen picture, picture and sound line up.' if not qa else '⚠️ Video check: ' + E('; '.join(qa[:4]))) + f'\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '
                                 f'Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920, 'duration': int(T['dur']),
                      'reply_markup': kb([[('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
@@ -233,10 +245,30 @@ def render(jid):
     status(jid, 'done', dur=round(T['dur']), size_mb=round(os.path.getsize(out) / 1e6, 1), video_check=qa)
 
 
+def send(jid):
+    """release a held video after review: same message + publish kit as a normal render"""
+    d = f'jobs/{jid}'
+    sb = json.load(open(f'{d}/storyboard.json')); T = json.load(open(f'{d}/timing.json'))
+    out = f'{d}/short_s.mp4'
+    st = json.load(open(f'{d}/status.json')) if os.path.exists(f'{d}/status.json') else {}
+    qa = st.get('video_check') or []
+    tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n' + ('✅ Checked frame by frame before sending.' if not qa else '⚠️ Video check: ' + E('; '.join(qa[:4])))
+                                + '\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920,
+                     'duration': int(T['dur']), 'reply_markup': kb([[('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
+       files={'video': open(out, 'rb')})
+    hook_t = st.get('hook_t', 1.6)
+    kit = (f'📦 <b>Publish kit</b>\n\n<b>Title</b>\n<code>{E(sb.get("title", ""))}</code>\n\n<b>Description</b>\n<code>{E(sb.get("description", ""))}\n\n'
+           f'Not financial advice. Entertainment and education only.{E(media_credits(d))}</code>\n\n<b>Hashtags</b>\n<code>{E(sb.get("hashtags", "#crypto #bitcoin #shorts"))}</code>\n\n'
+           f'<b>Pinned comment</b>\n<code>{E(sb.get("pinned", ""))}</code>\n\n<b>Cover frame</b>: {hook_t:.1f}s (the big hook title)\n'
+           f'<b>Post time</b>: 19:00–20:00 Beirut')
+    tg('sendMessage', {'text': kit[:4000]})
+    status(jid, 'done', dur=round(T['dur']), video_check=qa)
+
+
 if __name__ == '__main__':
     stage, jid = sys.argv[1], sys.argv[2]
     try:
-        voice(jid) if stage == 'voice' else render(jid)
+        voice(jid) if stage == 'voice' else send(jid) if stage == 'send' else render(jid)
     except Exception as ex:
         import traceback; traceback.print_exc()
         try:
