@@ -2067,6 +2067,33 @@ def verify_quotes(sb, facts):
     return sb
 
 
+def story_pass(sb, facts):
+    """Rewrite the lines like a storyteller (tension, short spoken sentences, a question to the viewer), keeping every fact, number and name.
+    Kept only if the length stays inside the window and no number was added or lost."""
+    sc = sb['scenes']
+    cur = '\n'.join(f'{i + 1}. ({x.get("emotion", x["role"])}, keep the word "{x["hit"]}") {x["line"]}' for i, x in enumerate(sc))
+    raw = gemini_json('You are the narrator of a viral true-crime crypto YouTube Short. Rewrite each line so it sounds like a gripping story told out loud, not a news report: '
+                      'put the viewer inside the moment, build tension toward the twist, short spoken sentences (6 to 14 words), contractions, at most one question to the viewer. '
+                      'Each line keeps its feeling (in brackets), its kept word, about the same number of words, and EXACTLY the same facts, numbers, names and dates. '
+                      'Add nothing that is not in the line or the FACTS. Never write role tags. The last line must close the story and echo the first line.\n\n'
+                      f'LINES:\n{cur}\n\nFACTS:\n{facts[:6000]}\n\nReturn JSON only: {{"lines": [{{"n": 1, "line": "..."}}, ...]}} with all {len(sc)} lines.')
+    try:
+        new = {int(x['n']): str(x['line']) for x in raw['lines']}
+        if sorted(new) != list(range(1, len(sc) + 1)): raise ValueError('lines missing')
+        cand = json.loads(json.dumps(sb))
+        for i, x in enumerate(cand['scenes']):
+            x['line'] = new[i + 1]
+        cand, _ = sstory.check(cand, strict=False)
+    except Exception as e:
+        print('story pass', repr(e)[:100]); return sb
+    nums = lambda b: sorted(re.findall(r'\d[\d,.]*', ' '.join(x['line'] for x in b['scenes'])))
+    if nums(cand) != nums(sb):
+        print('story pass changed numbers -> kept the old lines', nums(sb), nums(cand)); return sb
+    if sb.get('length_ok') and not cand.get('length_ok'):
+        print('story pass broke the length -> kept the old lines'); return sb
+    return cand
+
+
 def polish_script(sb, facts, rounds=2):
     """filler + fact-check -> rewrite only the flagged lines -> check again. Returns (script, problems still left)."""
     left = {}
@@ -2254,6 +2281,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
         except ValueError as e:
             err = str(e); print('storyboard invalid:', err); continue
         cand = fit_length(cand, facts)
+        cand = story_pass(cand, facts)
         cand, left = polish_script(cand, facts)
         verify_quotes(cand, facts)
         cand['review'] = {str(k): v[:2] for k, v in left.items()}

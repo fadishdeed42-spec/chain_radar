@@ -19,7 +19,9 @@ for attempt in range(2):
     except ValueError as e:
         print('invalid', e); continue
     cand = r.fit_length(cand, facts)
+    cand = r.story_pass(cand, facts)
     cand, left = r.polish_script(cand, facts)
+    r.verify_quotes(cand, facts)
     cand['review'] = {str(k): v[:2] for k, v in left.items()}
     print('attempt', attempt, 'words', cand['words'], 'ok', cand.get('length_ok'), 'flags', len(left), 'filler', r.filler_hits(cand))
     if best is None or (len(left), abs(cand['words'] - cand['target_words'])) < (len(best['review']), abs(best['words'] - best['target_words'])):

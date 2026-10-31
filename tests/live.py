@@ -135,10 +135,11 @@ def live_script():
         except ValueError as e:
             print('invalid', e); continue
         sb = r.fit_length(sb, facts)
+        sb = r.story_pass(sb, facts)
         before = r.filler_hits(sb)
         sb, left = r.polish_script(sb, facts)
         print(f'words {sb["words"]} est {story.mmss(sb["est_secs"])} length_ok {sb.get("length_ok")} | filler before {before} after {r.filler_hits(sb)}')
-        for i, x in enumerate(sb['scenes'], 1): print(f'{i}. {x["line"]}')
+        for i, x in enumerate(sb['scenes'], 1): print(f'{i}. ({x.get("emotion", "-")}) {x["line"]}')
         print('still flagged:', left or 'none')
         ok += (not r.filler_hits(sb)) and len(left) <= 1
     return ok == 2
