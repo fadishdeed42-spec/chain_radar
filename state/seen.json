@@ -187,7 +187,7 @@
 "Cointelegraph",
 "Crypto News"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793439520.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 The US $BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.\n\nNews | Markets | YouTube",
 "title": "The US BTC ETFs saw their largest single day outflows since June with over $643M flowing out in a single day.",
@@ -688,7 +688,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1793457289.6964211,
+"t": 1793459119.605862,
 "t0": 1793448920.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast as Fed\u2019s Logan Calls For 2 More Rate Hikes \u2013 Can BTC Hold $75K?",
@@ -1663,7 +1663,7 @@
 "Cointelegraph",
 "bloomingbit"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793440194.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.\n\nNews | Markets | YouTube",
 "title": "The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.",
@@ -1793,7 +1793,7 @@
 "srcs": [
 "The Times"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793450700.0,
 "tgtext": "",
 "title": "Inside \u2018The Misfits\u2019 on the trail of the $6bn Binance crypto heist",
@@ -1807,7 +1807,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793449927.0,
 "tgtext": "ICE Reposts Trade[XYZ] Partnership Announcement, Emphasizing \"Plans to Bring\" and \"Subject to Regulatory Approvals\"\n\nFollowing the deletion of its earlier post, Intercontinental Exchange (ICE) reposted its partnership announcement with Trade[XYZ]. In the updated post, ICE amended its phrasing to emphasize that the two parties \"plan to bring Hyperliquid-based perps to the U.S.\" and that operating \"U.S. regulated versions\" remains strictly \"subject to regulatory approvals,\" with both parties seeking approvals to launch a new market built on Hyperliquid to operate KYC-compliant perp markets, including approvals to support leveraged trading. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].\n\nThis comes after X users were pointing out a deleted tweet on the matter\n\nNews | Markets | YouTube",
 "title": "HUGE: NYSE owner ICE, which asked U.S. regulators to rein in Hyperliquid, now plans to bring Hyperliquid-based perps to American retail traders with Trade[XYZ].",
@@ -2124,6 +2124,19 @@
 "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183"
 ]
 },
+"49d253c07bb8": {
+"coin": "",
+"src": "The Rahnuma Daily",
+"srcs": [
+"The Rahnuma Daily"
+],
+"t": 1793459119.605862,
+"t0": 1793453533.0,
+"tgtext": "",
+"title": "Binance halts deposits, withdrawals after security breach; impact estimated at $6.3 billion",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVNuX1NmdFNfaG5pVFNXUUY2Vy1OUjFZeDVadTF0STdtTndmQzZjQi1DcDRDRkdKaTl4eV9PZENTUV9KYW0wTzltN2RubFhoemd3MnJTMzNnOVZEUUwtTnd3QUNtVFhDSUM3bmdZM0VjZVpLU21EcHhBUFIweFc0V0lqTFg3TzBYcnhDWVRfdnFGTmphTmZscHk3SkJtVmU3OFpqdHBuR0wzX3VnUzYyT2xB?oc=5",
+"urls": []
+},
 "4a271585d87b": {
 "coin": "bitcoin",
 "src": "The Motley Fool",
@@ -2166,10 +2179,10 @@
 "AP News",
 "Analytics Insight",
 "BigGo Finance",
-"CNBC",
-"CoinDesk"
+"Bloomberg.com",
+"CNBC"
 ],
-"t": 1793458206.5934894,
+"t": 1793458816.1871648,
 "t0": 1793440730.0,
 "tgtext": "",
 "title": "US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019",
@@ -3313,6 +3326,22 @@
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBTUxNXy1HUC1PamJ4RXgtWWFyRm1FcmVtQXRjcWVPTE93QnNCTkMxNzZNMmw3X1lFOTh0Y3FGbF96UGlmWlYyU2tkUTdPb0hsbENNTQ?oc=5",
 "urls": []
 },
+"794da1671fe8": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Moomoo"
+],
+"t": 1793459119.605862,
+"t0": 1793455200.0,
+"tgtext": "",
+"title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+"url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+"urls": [
+"https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards"
+]
+},
 "7a117eaa7d02": {
 "coin": "bitcoin",
 "src": "24/7 Wall St.",
@@ -3692,7 +3721,7 @@
 "srcs": [
 "CTV News"
 ],
-"t": 1793458510.1350894,
+"t": 1793458816.1871648,
 "t0": 1793452563.0,
 "tgtext": "",
 "title": "Brampton truck driver charged in crash that killed Toronto traffic agent",
@@ -3980,7 +4009,7 @@
 "Cryptonews.net",
 "Yahoo Finance"
 ],
-"t": 1793458206.5934894,
+"t": 1793458816.1871648,
 "t0": 1793437399.0,
 "tgtext": "",
 "title": "Investors Pull $643 Million From Bitcoin ETFs After the Biggest Crypto Hack in History",
@@ -3991,9 +4020,10 @@
 "coin": "bitcoin",
 "src": "CryptoTicker.io",
 "srcs": [
-"CryptoTicker.io"
+"CryptoTicker.io",
+"The Market Periodical"
 ],
-"t": 1793458206.5934894,
+"t": 1793458816.1871648,
 "t0": 1793439986.0,
 "tgtext": "",
 "title": "Bitcoin Price Crash Continues: BTC Slips Below $78,000, Here Is the Next Target",
@@ -5617,7 +5647,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793457009.0,
 "tgtext": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)\n\nOur last update explained that Binance had set aside more than $6.34B in company funds to cover hacked losses, and we had already covered approximately 80% of the impacted amount of the hacked loss at that time. That covered amount is now up to 90%. \n\n\ud83d\udc49\ud83c\udffbLearn more here",
 "title": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)",
@@ -6772,7 +6802,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1793458206.5934894,
+"t": 1793458816.1871648,
 "t0": 1793457275.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.\n\nNews | Markets | YouTube",
 "title": "The Coinbase Bitcoin Premium has been negative for 38 days straight and now sits at -0.2434%, so US buyers are still missing in action.",
@@ -6868,7 +6898,7 @@
 "srcs": [
 "CNBC"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793455120.0,
 "tgtext": "",
 "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
@@ -6966,17 +6996,18 @@
 "srcs": [
 "AP News",
 "Analytics Insight",
+"Bloomberg.com",
 "CNBC",
-"CoinDesk",
-"Cointelegraph"
+"CoinDesk"
 ],
-"t": 1793458510.1350894,
+"t": 1793459119.605862,
 "t0": 1793438650.0,
 "tgtext": "",
 "title": "US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019",
 "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWdLRW9LZzJtU1NqZjFoWmxsUThPc19WdUc0X2dpRm9LdE5RQkcxelQ5ckU2WlQxRXZqbVJETWpsYjFZYXpGTmh2ZV9yb2xKTmNpUnVmYXowSW5mRGVZaTlTU0tiV2gtRUFDa0wtYVlkUFJ1OHhrVm5ZMzVWcThSWFFWcWRjd0tTdG9IVjZFSlRTWDI0cmg1cmlPVmM?oc=5",
 "urls": [
 "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
 "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
 "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears"
 ]
@@ -6988,7 +7019,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1793458510.1350894,
+"t": 1793458816.1871648,
 "t0": 1793437324.0,
 "tgtext": "Chainalysis Hit by Cyberattack, Accessing User Names, Emails, and Organization Roles\n\nBlockchain data analytics and tracking firm Chainalysis disclosed that an external hacker used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools, leading to the compromise of some non-sensitive customer data, including user IDs, full names, email addresses, and organization role labels. Chainalysis emphasized in an email that the security incident is unrelated to the recent crypto theft involving Binance. The current investigation has found no indication that investigative content (such as graphs, notes, or cases), transaction or query results, plaintext passwords, MFA secrets, or user session tokens were accessed. The team is actively determining the specific affected records while patching vulnerabilities and hardening system security. \u2014 link",
 "title": "Chainalysis says hacker using \u2018offensive agentic techniques\u2019 accessed its customers\u2019 names and emails",
@@ -7170,19 +7201,6 @@
 "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
 "https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"f2a26425a1e8": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1793286028.8110828,
-"t0": 1793265329.0,
-"tgtext": "Smart trader 0xe813, with a 100% win rate, opened a 25x long on 19,491 $ETH ($45.34M) an hour ago and is now sitting on $315K in unrealized profit.\n\nThis trader has completed 5 trades, winning all of them and making a total profit of $4.6M.\n\nhttps://hyperbot.network/trader/0xe81309ec9b79309e4d108ae3a92d1aa618cd6d74",
-"title": "Smart trader 0xe813, with a 100% win rate, opened a 25x long on 19,491 ETH ($45.34M) an hour ago and is now sitting on $315K in unrealized profit.",
-"url": "https://t.me/lookonchainchannel/10826",
-"urls": []
 },
 "f416cce0e1e0": {
 "coin": "hyperliquid",
@@ -7494,46 +7512,46 @@
 "uniswap": 1793307973.6351461
 },
 "probs": {
-"05555931eb5e": 0.849,
-"05fda7777381": 0.036,
-"09aee5683869": 0.113,
-"18de53299939": 0.205,
-"20aea2f41894": 0.063,
-"247b32e6d7b4": 0.118,
-"2bfe24389158": 0.045,
-"2f3c29f4ccf1": 0.05,
-"368aa004ab65": 0.85,
-"3c1b6c10d6d5": 0.339,
-"3c564a957bc8": 0.803,
-"3ef1e4eeba6f": 0.03,
-"55ea9e73178d": 0.046,
-"5d7337f2a18e": 0.148,
-"5ff8955bf5de": 0.063,
-"62e79b446fac": 0.168,
-"637165771283": 0.08,
-"757d0ac882fe": 0.028,
-"794da1671fe8": 0.124,
-"80d4e78ed442": 0.136,
-"8192b48f8986": 0.403,
-"8273a33e342c": 0.063,
-"8651ba46d415": 0.035,
-"87f350bbbbbb": 0.019,
-"9222a61d3a3f": 0.085,
-"9730fc00002b": 0.069,
-"a3d38f217a95": 0.028,
-"ab903c705511": 0.034,
-"ad2756a32e06": 0.158,
-"aee133301279": 0.08,
-"b25c875e8ebe": 0.3,
-"bf54bd55e102": 0.455,
-"c640d56259c1": 0.062,
-"c8aae4916e5c": 0.086,
-"d38eec0b35bb": 0.155,
-"eafc27413f8b": 0.215,
-"ed35816710eb": 0.93,
-"efbfa1d218ff": 0.046,
-"f0d862371b7a": 0.107,
-"ff35b1a24815": 0.058
+"00224ab8024d": 0.015,
+"05555931eb5e": 0.786,
+"09aee5683869": 0.077,
+"0ca964b04e54": 0.073,
+"13315d0a51a4": 0.091,
+"17503db3950a": 0.024,
+"18de53299939": 0.144,
+"1f410aa85882": 0.018,
+"2aead7c1fb6d": 0.087,
+"2bfe24389158": 0.03,
+"2f3c29f4ccf1": 0.033,
+"368aa004ab65": 0.589,
+"3c1b6c10d6d5": 0.251,
+"3c564a957bc8": 0.728,
+"3ef1e4eeba6f": 0.02,
+"49d253c07bb8": 0.359,
+"55ea9e73178d": 0.031,
+"5ff8955bf5de": 0.042,
+"62e79b446fac": 0.116,
+"637165771283": 0.054,
+"75d536262d5a": 0.107,
+"794da1671fe8": 0.196,
+"80d4e78ed442": 0.052,
+"8273a33e342c": 0.042,
+"8651ba46d415": 0.023,
+"87f350bbbbbb": 0.012,
+"9222a61d3a3f": 0.057,
+"9730fc00002b": 0.046,
+"a3d38f217a95": 0.019,
+"ab903c705511": 0.022,
+"aee133301279": 0.054,
+"bf54bd55e102": 0.353,
+"c640d56259c1": 0.042,
+"d38eec0b35bb": 0.107,
+"e0a412a93cb3": 0.081,
+"eafc27413f8b": 0.152,
+"ed35816710eb": 0.852,
+"efbfa1d218ff": 0.031,
+"f0d862371b7a": 0.072,
+"ff35b1a24815": 0.039
 },
 "sent": [
 {
@@ -9039,64 +9057,64 @@
 "top": [
 [
 "ed35816710eb",
-70,
-331,
-14
-],
-[
-"368aa004ab65",
-20,
-305,
-2
+69,
+341,
+17
 ],
 [
 "05555931eb5e",
-8,
-317,
+7,
+327,
 2
 ],
 [
 "3c564a957bc8",
 20,
-143,
+153,
 2
 ],
 [
-"f0349604383f",
-0,
-353,
+"368aa004ab65",
+18,
+315,
 2
+],
+[
+"49d253c07bb8",
+60,
+93,
+1
 ],
 [
 "bf54bd55e102",
 35,
-25,
-1
-],
-[
-"8192b48f8986",
-38,
-99,
+35,
 1
 ],
 [
 "3c1b6c10d6d5",
 43,
-130,
+140,
 1
 ],
 [
-"b25c875e8ebe",
-16,
-200,
-1
+"794da1671fe8",
+20,
+65,
+2
 ],
 [
 "eafc27413f8b",
 23,
-57,
+67,
+1
+],
+[
+"18de53299939",
+24,
+170,
 1
 ]
 ],
-"top_at": 1793458510.1350894
+"top_at": 1793459119.605862
 }
