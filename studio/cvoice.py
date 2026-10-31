@@ -36,7 +36,13 @@ def asr_wer(w, sr, text):
     import librosa
     y = librosa.resample(w, orig_sr=sr, target_sr=16000)
     got = ' '.join(s.text for s in _asr.transcribe(y, language='en', beam_size=1)[0])
-    n = lambda t: re.sub(r"[^a-z ]", ' ', t.lower()).split()
+    def n(t):                                                     # both sides as spoken words: "$6.3 billion" == "six point three billion dollars"
+        try:
+            import story
+            t = ' '.join(w for _, sp in story.plan_line(t) for w in sp)
+        except Exception:
+            pass
+        return [w[:-1] if w in ('dollars', 'percents') else w for w in re.sub(r"[^a-z ]", ' ', t.lower().replace('-', ' ')).split()]
     a, b = n(text), n(got)
     return 1 - difflib.SequenceMatcher(None, a, b).ratio(), got
 
