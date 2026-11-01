@@ -1,5 +1,5 @@
 {
- "title": "NYSE Owner ICE Enters Hyperliquid \ud83d\ude80",
+ "title": "Wall Street Tried to Stop Hyperliquid. Now It's Buying In \ud83e\udd2f",
  "alt_hooks": [
   "Hyperliquid's HYPE jumped 17% after the NYSE owner made its move.",
   "Did the New York Stock Exchange just adopt Hyperliquid?",
@@ -9,274 +9,158 @@
  "respell": {},
  "chart": {
   "symbol": "HYPE",
-  "start": "2026-10-25",
-  "end": "2026-10-31"
+  "start": "2026-10-15",
+  "end": "2026-11-01"
  },
  "scenes": [
   {
    "role": "hook",
-   "line": "NYSE owner ICE just stepped into Hyperliquid ice.",
-   "hit": "ice",
    "emotion": "shock",
-   "beats": [
-    {
-     "word": "Oct",
-     "text": "Oct 29, 2026",
-     "icon": "calendar"
-    }
-   ],
-   "footage": "trading screens green",
-   "shots": [
-    {
-     "words": "$93.74 on Oct 29.",
-     "q": "stock price chart green"
-    },
-    {
-     "words": "NYSE owner ICE",
-     "q": "wall street building facade"
-    }
-   ],
-   "receipt": {
-    "src": "coincentral.com",
-    "headline": "Hyperliquid (HYPE) Price: NYSE Owner Picks Its Network and the Token Jumps 17%"
-   },
-   "photo": "",
+   "line": "Wall Street tried to stop it. Now it is buying in.",
+   "hit": "buying",
    "visual": {
-    "type": "counter",
-    "value": 9374,
-    "prefix": "$",
-    "suffix": "",
-    "label": "HYPE PRICE OCT 29",
-    "icon": "bitcoin"
-   }
+    "type": "title",
+    "text": "TRIED TO STOP IT",
+    "sub": "now it is buying in"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
   },
   {
    "role": "setup",
-   "line": "Intercontinental Exchange signed a definitive deal with Trade[XYZ] to build U.S. perps.",
-   "hit": "deal",
-   "emotion": "curious",
-   "beats": [
-    {
-     "word": "U.S.",
-     "text": "REGULATED US MARKET",
-     "icon": "lock"
-    }
-   ],
-   "footage": "business handshake contract",
-   "shots": [
-    {
-     "words": "Intercontinental Exchange signed a deal",
-     "q": "corporate office boardroom"
-    },
-    {
-     "words": "Trade[XYZ] to build U.S. perps.",
-     "q": "cryptocurrency trading dashboard"
-    }
-   ],
-   "photo": "",
+   "emotion": "tense",
+   "line": "This spring, the owner of the New York Stock Exchange pushed regulators to rein in Hyperliquid.",
+   "hit": "rein",
    "visual": {
-    "type": "title",
-    "text": "ICE + TRADE[XYZ]",
-    "sub": "US RETAIL PERPETUALS",
-    "icon": "bank"
-   }
+    "type": "stamp",
+    "icon": "bank",
+    "label": "ICE + CME vs HYPERLIQUID",
+    "word": "REIN IT IN",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
   },
   {
    "role": "turn",
-   "line": "Billionaire investor Stanley Druckenmiller revealed he is an investor in Trade[XYZ].",
-   "hit": "druckenmiller",
-   "emotion": "shock",
-   "beats": [
-    {
-     "word": "investor",
-     "text": "STANLEY DRUCKENMILLER",
-     "icon": "crown"
-    }
-   ],
-   "footage": "wall street stock exchange floor",
-   "shots": [
-    {
-     "words": "Billionaire investor Stanley Druckenmiller",
-     "q": "billionaire businessman portrait"
-    },
-    {
-     "words": "investor in Trade[XYZ].",
-     "q": "financial agreement paper"
-    }
-   ],
-   "photo": "Stanley Druckenmiller",
-   "visual": {
-    "type": "person",
-    "name": "STANLEY DRUCKENMILLER",
-    "role": "Billionaire Investor",
-    "prop": "crown"
-   }
-  },
-  {
-   "role": "setup",
-   "line": "HYPE surged 17.4% to $93.74 as daily volume hit $1.73 billion across crypto markets.",
-   "hit": "surged",
-   "beats": [
-    {
-     "word": "17.4%",
-     "text": "+17.4% JUMP",
-     "icon": "bitcoin"
-    }
-   ],
-   "footage": "crypto price chart soaring",
-   "shots": [
-    {
-     "words": "HYPE surged 17.4%",
-     "q": "green candlestick chart"
-    },
-    {
-     "words": "massive news broke.",
-     "q": "breaking news screen"
-    }
-   ],
-   "photo": "",
-   "visual": {
-    "type": "chart",
-    "date": "2026-10-29",
-    "label": "OCT 29 \u00b7 $93.74 \u00b7 HYPE SURGE"
-   }
-  },
-  {
-   "role": "setup",
-   "line": "But how high can HYPE go from here toward its all-time high?",
-   "hit": "high",
    "emotion": "curious",
-   "beats": [
-    {
-     "word": "HYPE",
-     "text": "NEXT TARGET",
-     "icon": "question"
-    }
-   ],
-   "footage": "trader looking at multiple screens",
-   "shots": [
-    {
-     "words": "But how high",
-     "q": "trader watching monitors"
-    },
-    {
-     "words": "can HYPE go from here?",
-     "q": "cryptocurrency chart upward"
-    }
-   ],
-   "photo": "",
+   "line": "Two weeks later, its own CEO called the eleven-person exchange bigger than Nasdaq.",
+   "hit": "bigger",
    "visual": {
     "type": "face",
-    "mood": "shock",
-    "text": "HOW HIGH?",
-    "sub": "ATH AWAITS"
-   }
+    "mood": "sideeye",
+    "text": "BIGGER THAN NASDAQ?",
+    "sub": "11 people"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
   },
   {
-   "role": "setup",
-   "line": "Elon Musk shared the announcement with a single word: Interesting, as volume topped billions.",
-   "hit": "musk",
+   "role": "twist",
    "emotion": "shock",
-   "beats": [
-    {
-     "word": "Interesting",
-     "text": "ELON MUSK",
-     "icon": "robot"
-    }
-   ],
-   "footage": "smartphone screen social media",
-   "shots": [
-    {
-     "words": "Elon Musk shared",
-     "q": "smartphone twitter post"
-    },
-    {
-     "words": "single word: Interesting.",
-     "q": "typing on keyboard"
-    }
-   ],
-   "photo": "Elon Musk",
-   "visual": {
-    "type": "person",
-    "name": "ELON MUSK",
-    "role": "Tech Entrepreneur",
-    "prop": "none"
-   }
-  },
-  {
-   "role": "payoff",
-   "line": "ICE is taking a minority stake, pending regulatory approvals from the CFTC.",
+   "line": "Then on October 29, ICE bought a stake in Trade XYZ, a market built on Hyperliquid.",
    "hit": "stake",
-   "emotion": "tense",
-   "beats": [
-    {
-     "word": "regulatory",
-     "text": "PENDING CFTC APPROVAL",
-     "icon": "gavel"
-    }
-   ],
-   "footage": "government building courthouse",
-   "shots": [
-    {
-     "words": "ICE is taking a minority stake,",
-     "q": "signing business contract"
-    },
-    {
-     "words": "pending regulatory approvals.",
-     "q": "legal stamp approved"
-    }
-   ],
-   "photo": "",
    "visual": {
-    "type": "stamp",
-    "icon": "gavel",
-    "label": "PENDING APPROVAL",
-    "word": "PENDING",
-    "bad": false
-   }
-  },
-  {
-   "role": "end",
-   "line": "All-time highs near $97.96 are now within reach after the definitive agreement.",
-   "hit": "$9796",
-   "emotion": "triumph",
-   "beats": [
-    {
-     "word": "reach",
-     "text": "$97.96 RECORD",
-     "icon": "bitcoin"
-    }
-   ],
-   "footage": "stock market bell ringing celebration",
-   "shots": [
-    {
-     "words": "All-time highs near $97.96",
-     "q": "price record peak chart"
-    },
-    {
-     "words": "are now within reach.",
-     "q": "rocket taking off"
-    }
-   ],
+    "type": "title",
+    "text": "ICE x TRADE XYZ",
+    "sub": "minority stake",
+    "icon": "bank"
+   },
+   "beats": [],
+   "shots": [],
    "receipt": {
     "src": "cointelegraph.com",
     "headline": "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps"
    },
-   "photo": "",
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "curious",
+   "line": "The plan? Hyperliquid-style perpetual futures for American retail traders.",
+   "hit": "retail",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "SPRING",
+     "REIN IT IN"
+    ],
+    "right": [
+     "OCTOBER",
+     "BUY IN"
+    ],
+    "note": "same company"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "triumph",
+   "line": "Trade XYZ says its markets did over $650 billion in volume in just over a year.",
+   "hit": "volume",
    "visual": {
     "type": "counter",
-    "value": 9796,
+    "value": 650000000000,
     "prefix": "$",
     "suffix": "",
-    "label": "ALL TIME HIGH",
-    "icon": "bitcoin"
-   }
+    "label": "TRADE XYZ VOLUME"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "And the HYPE token? It jumped 17% on the news.",
+   "hit": "jumped",
+   "visual": {
+    "type": "chart",
+    "date": "2026-10-29",
+    "label": "OCT 29 \u00b7 +17% ON THE NEWS"
+   },
+   "beats": [],
+   "shots": [],
+   "receipt": {
+    "src": "coincentral.com",
+    "headline": "Hyperliquid (HYPE) Price: NYSE Owner Picks Its Network and the Token Jumps 17%"
+   },
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "dark",
+   "line": "It still needs regulators to say yes. The same regulators ICE called on this spring.",
+   "hit": "same",
+   "visual": {
+    "type": "stamp",
+    "icon": "gavel",
+    "label": "APPROVAL NEEDED",
+    "word": "PENDING",
+    "bad": false
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
   }
  ],
- "lesson": "Institutional backing can trigger major crypto rallies overnight.",
- "description": "NYSE owner Intercontinental Exchange announced a partnership with Trade[XYZ] to bring Hyperliquid perpetual futures to U.S. retail markets. Backed by Stanley Druckenmiller, the news sent HYPE surging 17.4% to $93.74, nearing its all-time high of $97.96.",
- "hashtags": "#Hyperliquid #HYPE #NYSE #CryptoNews #Trading #DeFi #StanleyDruckenmiller",
- "pinned": "Do you think HYPE will break its all-time high next? Let us know below!",
+ "lesson": "When a coin jumps on a headline, read the whole story before you act.",
+ "description": "In spring 2026, ICE, the owner of the New York Stock Exchange, and CME reportedly pushed US regulators to rein in Hyperliquid. Two weeks later ICE's CEO called the 11-person exchange \"bigger than Nasdaq.\" On October 29, 2026, ICE took a minority stake in Trade[XYZ] to bring Hyperliquid-based perpetual futures to US retail traders, pending regulatory approval. HYPE jumped about 17% on the news.",
+ "hashtags": "#Hyperliquid #HYPE #NYSE #CryptoNews #WallStreet #ChainSecrets #shorts",
+ "pinned": "Wall Street joining crypto: good news or bad news for traders?",
  "length": 60,
  "settings": {
   "length": 60,
@@ -285,8 +169,8 @@
   "autorender": true
  },
  "est_secs": 60,
- "words": 129,
- "target_words": 128,
+ "words": 123,
+ "target_words": 122,
  "length_ok": true,
  "review": {}
 }

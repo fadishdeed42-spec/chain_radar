@@ -25,7 +25,7 @@ SPELL = {'BTC': 'bitcoin', 'ETH': 'ether', 'FBI': 'F B I', 'SEC': 'S E C', 'CEO'
          'AI': 'A I', 'US': 'U S', 'UK': 'U K', 'UAE': 'U A E', 'NYC': 'New York', 'BNB': 'B N B', 'SOL': 'sol', 'OK': 'okay'}
 ABBR = {'mt.': 'Mount', 'mt': 'Mount', 'vs': 'versus', 'vs.': 'versus', 'st.': 'Saint', 'dr.': 'Doctor', 'mr.': 'Mister',
         'mrs.': 'Missus', 'u.s.': 'U S', 'approx.': 'about', '&': 'and', 'w/': 'with', 'jr.': 'Junior'}
-WORDS = {'NASA', 'FOMO', 'HODL', 'LUNA', 'DOGE', 'PEPE', 'APE', 'SHIB', 'GOX', 'MOON', 'REKT', 'FUD', 'WAGMI', 'BOOM', 'GONE',
+WORDS = {'NASA', 'FOMO', 'HODL', 'HYPE', 'LUNA', 'DOGE', 'PEPE', 'APE', 'SHIB', 'GOX', 'MOON', 'REKT', 'FUD', 'WAGMI', 'BOOM', 'GONE',
          'LIFE', 'FAKE', 'SCAM', 'ZERO', 'HACK', 'RICH', 'BROKE', 'WHY', 'HOW', 'WHO', 'NOT', 'ALL', 'BUY', 'SELL', 'NEW', 'TRON', 'COIN',
          'NO', 'YES', 'GO', 'UP', 'WE', 'ME', 'IT', 'IS', 'BE', 'BY', 'SO', 'OR', 'IF', 'IN', 'ON', 'AT', 'TO', 'OF', 'AN', 'AND', 'THE',
          'BIG', 'WIN', 'WON', 'RUN', 'END', 'TOP', 'OUT', 'OFF', 'ONE', 'TWO', 'TEN', 'BAD', 'MAD', 'WOW', 'HUGE', 'NEXT', 'LAST', 'ONLY',
