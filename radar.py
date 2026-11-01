@@ -2234,7 +2234,7 @@ HOUSE RULES
   the payoff lands (triumph, dark or sad), funny only when the story is absurd. The voice performs the emotion you choose.
 - Scene 1 (hook): the most shocking fact or the twist FIRST, max 14 words, opens a loop the viewer needs closed. Never start with "Today" or "In this video".
   The FIRST one or two spoken words must already be the shock (a big number or a punchy word: "$6.3 billion. Gone in twenty minutes."). Within the first 3 seconds tease the twist ("But that's not even the crazy part.").
-- RE-HOOK: every 10-15 seconds one short line that pulls the viewer forward ("And then it got worse." / "Here's the strange part.").
+- RE-HOOK: every 10-15 seconds one short line that pulls the viewer forward ("And then it got worse." / "Here's the strange part."). The very next line MUST deliver the surprising fact it promises; better still, make the re-hook a question that the next fact answers ("But how did they get in? One engineer's laptop.").
 - TOPIC: tell exactly the STORY asked for. Other events in the FACTS are context only; never switch to a different (newer) story.
 - RECEIPTS: on 2-4 scenes add a "receipt": one of the lines under "Real headlines" copied word for word (without the date and outlet), with its outlet. Only real headlines, never article sentences.
 - HACKS AND THEFTS: use the "flow" visual (follow the money) on at least one scene.
