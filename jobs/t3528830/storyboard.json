@@ -148,8 +148,8 @@
   },
   {
    "role": "twist",
-   "line": "But that is not the strangest part.",
-   "hit": "strangest",
+   "line": "But how did they even get in? One Binance engineer's laptop.",
+   "hit": "laptop",
    "emotion": "curious",
    "beats": [
     {
@@ -174,7 +174,7 @@
     "type": "face",
     "mood": "shock",
     "text": "HOW?!",
-    "sub": "Compromised laptop"
+    "sub": "one hacked laptop"
    }
   },
   {
@@ -331,8 +331,8 @@
   "chart": "on",
   "autorender": true
  },
- "est_secs": 61,
- "words": 130,
+ "est_secs": 63,
+ "words": 134,
  "target_words": 127,
  "length_ok": true,
  "review": {}
