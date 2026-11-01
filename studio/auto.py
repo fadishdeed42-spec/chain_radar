@@ -193,7 +193,23 @@ def media_frame(i, t):
     return cv2.warpAffine(im, M, (RW, RH), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
 
 
+BORROW = {}                                                            # a scene without its own footage keeps the previous scene's footage running (never an empty screen)
+for _i in range(len(SCN)):
+    if _i not in MEDIA and SCN[_i]['visual']['type'] != 'chart':
+        _j = next((j for j in range(_i - 1, -1, -1) if j in MEDIA), None)
+        if _j is None: _j = next((j for j in range(_i + 1, len(SCN)) if j in MEDIA), None)
+        if _j is not None: BORROW[_i] = _j
+
+
 def backdrop(cv, t, i):
+    if i not in MEDIA and i in BORROW:
+        j = BORROW[i]
+        im = media_frame(j, t) if not (MEDIA[j].get('real') and j not in SHOTS) else None
+        if im is not None:
+            if LOOK != 'none': im = looklib.apply(LOOK, im, t)
+            g = im * GRADE_B + _BGF * (1 - GRADE_B) * .35
+            cv.a += (g - cv.a)
+        return
     if i not in MEDIA: return
     a = out3(seg(t, P(i) - .02, P(i) + .08)) if i else 1.0                  # hard cut in, no fade to black between scenes
     if a <= .01: return

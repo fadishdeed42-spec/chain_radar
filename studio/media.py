@@ -232,6 +232,11 @@ def fetch(job):
         try:
             if kind == 'real':
                 m = wiki_photo(q)
+                if m and sb['scenes'][i]['visual']['type'] == 'person':          # a person's photo must come from THEIR page (not their company's logo)
+                    name = [w.lower() for w in re.findall(r'[A-Za-z]{3,}', q)]
+                    title = m['credit'].split(':')[0].lower()
+                    if not any(w in title for w in name[-1:]) or 'logo' in m.get('id', '').lower():
+                        print('photo is not of', q, '->', m['credit'][:60]); m = None
                 if not m and alt: kind, q = 'stock', alt
             if kind == 'stock':
                 m = pixabay_video(q, used) or pixabay_photo(q, used)
