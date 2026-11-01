@@ -1,0 +1,317 @@
+{
+ "title": "The $6.3 Billion Binance Hack That Shook Crypto \ud83d\udea8",
+ "alt_hooks": [
+  "$6.3 billion gone in the largest crypto heist in history.",
+  "How did a $6.3 billion hack wipe out $100 billion from crypto in hours?",
+  "The biggest exchange exploit ever just happened. Here is where the money went."
+ ],
+ "tone": "serious",
+ "respell": {
+  "DefiLlama": "DEH-fee-yah-mah"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2026-10-25",
+  "end": "2026-11-02"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$6.3 billion stolen. The biggest crypto heist in history.",
+   "hit": "$63",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "biggest",
+     "text": "RECORD HEIST",
+     "icon": "skull"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "$6.3 billion stolen.",
+     "q": "digital currency numbers red"
+    },
+    {
+     "words": "The biggest crypto heist in history.",
+     "q": "computer hacker code dark"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 6300000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "BINANCE HACK LOSS",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "On Oct 29, 2026, Bitcoin crashed to a six-week low, hit by a $6.3 billion attack.",
+   "hit": "29",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "crashed",
+     "text": "SIX-WEEK LOW",
+     "icon": "bank"
+    }
+   ],
+   "footage": "bitcoin price chart drop",
+   "shots": [
+    {
+     "words": "On Oct 29, 2026,",
+     "q": "calendar page flipping"
+    },
+    {
+     "words": "Bitcoin crashed to a six-week low.",
+     "q": "downward stock chart red"
+    }
+   ],
+   "receipt": {
+    "src": "CoinDesk",
+    "headline": "BTC price falls to $76,400 Binance hack triggers $1.57 billion in liquidations: Crypto Markets Today"
+   },
+   "photo": "",
+   "visual": {
+    "type": "date",
+    "month": "OCT 2026",
+    "day": 29,
+    "event": "Bitcoin crashes to 6-week low"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Traders panicked as $1.57 billion in liquidations wiped accounts clean while crypto stocks fell.",
+   "hit": "$157",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "wiped",
+     "text": "LIQUIDATIONS",
+     "icon": "fire"
+    }
+   ],
+   "footage": "stressed trader at desk",
+   "shots": [
+    {
+     "words": "Traders panicked as",
+     "q": "stressed trader looking at monitor"
+    },
+    {
+     "words": "$1.57 billion in liquidations wiped accounts clean.",
+     "q": "liquidation alert screen"
+    }
+   ],
+   "receipt": {
+    "src": "CoinDesk",
+    "headline": "BTC price falls to $76,400 Binance hack triggers $1.57 billion in liquidations: Crypto Markets Today"
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 1570000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "LIQUIDATIONS",
+    "icon": "fire"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Where did the stolen funds go? Follow the frozen trail.",
+   "hit": "funds",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "frozen",
+     "text": "$3B FROZEN",
+     "icon": "lock"
+    }
+   ],
+   "footage": "blockchain data graphic",
+   "shots": [
+    {
+     "words": "But where did the stolen funds go?",
+     "q": "question mark digital glow"
+    },
+    {
+     "words": "Follow the frozen trail.",
+     "q": "blockchain transaction nodes link"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "flow",
+    "from": "BINANCE",
+    "amount": "$6.3B",
+    "to": [
+     "TETHER",
+     "CIRCLE",
+     "RIPPLE"
+    ],
+    "frozen": "$3B FROZEN"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Tether froze $1.5 billion, and Circle blocked $800 million while Ripple froze about $200 million.",
+   "hit": "$15",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "blocked",
+     "text": "$800M BLOCKED",
+     "icon": "lock"
+    }
+   ],
+   "footage": "cyber security shield lock",
+   "shots": [
+    {
+     "words": "Tether froze $1.5 billion,",
+     "q": "digital token lock security"
+    },
+    {
+     "words": "and Circle blocked $800 million.",
+     "q": "stop sign crypto network"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 1500000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "TETHER FROZEN",
+    "icon": "lock"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Founder CZ argued Mt. Gox lost 650,000 bitcoins, making this smaller in coin terms.",
+   "hit": "650000",
+   "emotion": "calm",
+   "beats": [
+    {
+     "word": "smaller",
+     "text": "MT. GOX COMPARISON",
+     "icon": "person"
+    }
+   ],
+   "footage": "changpeng zhao speaking press conference",
+   "shots": [
+    {
+     "words": "Founder CZ argued Mt. Gox lost 650,000 bitcoins,",
+     "q": "bitcoin coin pile gold"
+    },
+    {
+     "words": "making this smaller in coin terms.",
+     "q": "comparison scale digital"
+    }
+   ],
+   "receipt": {
+    "src": "247wallst.com",
+    "headline": "CZ Says the Binance Hack Is Smaller Than Mt. Gox in Bitcoin Terms. What Did Bitcoin Do After Mt. Gox?"
+   },
+   "photo": "Changpeng Zhao",
+   "visual": {
+    "type": "person",
+    "name": "CHANGPENG ZHAO",
+    "role": "Binance Founder",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "Binance reserved company funds and covered 95% of losses within days after the breach.",
+   "hit": "95%",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "covered",
+     "text": "95% RESTORED",
+     "icon": "bank"
+    }
+   ],
+   "footage": "bank vault security doors open",
+   "shots": [
+    {
+     "words": "Binance reserved funds",
+     "q": "exchange reserve vault cash"
+    },
+    {
+     "words": "and covered 95% of losses within days.",
+     "q": "success checkmark green graph"
+    }
+   ],
+   "receipt": {
+    "src": "Yahoo Finance",
+    "headline": "Binance Resumes Crypto Withdrawals After Record Hack, 95% of Losses Covered"
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 95,
+    "prefix": "",
+    "suffix": "%",
+    "label": "LOSSES COVERED",
+    "icon": "bank"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Withdrawals resumed as the $6.3 billion exploit tested exchange security across global markets.",
+   "hit": "$63",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "resumed",
+     "text": "WITHDRAWALS OPEN",
+     "icon": "lock"
+    }
+   ],
+   "footage": "cryptocurrency exchange trading dashboard green",
+   "shots": [
+    {
+     "words": "Withdrawals resumed",
+     "q": "unlock screen success check"
+    },
+    {
+     "words": "as the $6.3 billion exploit tested exchange security.",
+     "q": "digital vault door secure"
+    }
+   ],
+   "receipt": {
+    "src": "The Guardian",
+    "headline": "Binance resumes customer withdrawals after record $6.3bn hack"
+   },
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "lock",
+    "label": "SECURITY TESTED",
+    "word": "RESUMED",
+    "bad": false
+   }
+  }
+ ],
+ "lesson": "Never keep all your crypto on a single exchange.",
+ "description": "On October 29, 2026, Binance suffered a record $6.3 billion hack that triggered $1.57 billion in liquidations and sent Bitcoin to a six-week low. Tether froze $1.5 billion while Binance moved quickly to cover 95% of losses and resume customer withdrawals.",
+ "hashtags": "#Binance #CryptoHack #Bitcoin #CryptoNews #ChainSecrets #Blockchain",
+ "pinned": "Did you expect Binance to recover this fast after a $6.3B hack? Let us know below!",
+ "length": 60,
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "chart": "on",
+  "autorender": true
+ },
+ "est_secs": 62,
+ "words": 131,
+ "target_words": 127,
+ "length_ok": true,
+ "review": {}
+}
