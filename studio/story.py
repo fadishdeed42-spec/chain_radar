@@ -192,7 +192,7 @@ def plan_line(line, respell=None, after_month=False):
 # ---------------------------------------------------------------- storyboard
 TONES = ('funny', 'serious', 'mystery', 'hype')
 ROLES = ('hook', 'setup', 'turn', 'twist', 'payoff', 'end')
-VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow')
+VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow', 'face', 'timer')
 ICONS = ('bitcoin', 'ethereum', 'dogecoin', 'token', 'lock', 'plane', 'laptop', 'house', 'safe', 'car', 'crown', 'robot',
          'gavel', 'officer', 'person', 'calendar', 'phone', 'bank', 'fire', 'skull', 'question', 'cash')
 EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks and twists, calmer for setup
@@ -261,7 +261,7 @@ try:
     DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
 except Exception:
     DEFAULTS = {'length': 60, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
-                'style': 'documentary', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
+                'style': 'graphics', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
 
 
 def settings(sb):

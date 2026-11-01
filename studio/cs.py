@@ -185,7 +185,7 @@ def cta_layer(cv, t):
 _GRAIN = [np.random.default_rng(s).normal(0, 1, (RH // 2, RW // 2)).astype(np.float32) for s in range(4)]
 SCENES, IMPACTS, NAME = [], [], 'v'
 CAP_SIZE = 58                   # caption size (Studio: 58 normal, 72 large)
-KARAOKE = True                  # the spoken word lights up
+KARAOKE = False                 # old house style: coloured key words, no pill
 LESSON, LESSON_T = '', None     # the closing 'Chain Secrets lesson' card (text, start time)
 TAGLINE = 'every chart hides a story'   # set to '' for stories without a chart
 SHAKE, WHIP = 1.0, 1.0          # tone knobs for the automatic Shorts (serious = calmer camera)

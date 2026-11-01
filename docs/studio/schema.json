@@ -102,7 +102,7 @@
      "key": "chart",
      "label": "Price chart",
      "type": "choice",
-     "default": "auto",
+     "default": "on",
      "options": [
       [
        "auto",
@@ -186,7 +186,7 @@
      "key": "style",
      "label": "Video style",
      "type": "choice",
-     "default": "documentary",
+     "default": "graphics",
      "options": [
       [
        "mixed",

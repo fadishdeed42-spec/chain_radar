@@ -1946,6 +1946,9 @@ SB_VISUALS = '''Visual types (pick the one that best SHOWS that line):
  versus  {"type":"versus","left":["LABEL","VALUE"],"right":["LABEL","VALUE"],"note":"optional"}
  quote   {"type":"quote","name":"Name","text":"a quote copied WORD FOR WORD from the FACTS (never invented or paraphrased; no quote in the FACTS = do not use this type)","stamp":"optional word"}
  list    {"type":"list","items":["max 3","short","items"]}
+ face    {"type":"face","mood":"smile|flat|shock|worried|sideeye|wink|cry","text":"MAX 3 WORDS (STAY CALM :) / AAAAAH / hmm...)","sub":"optional"}
+         a big cartoon reaction face: use it for the human reaction in the story (panic, calm denial, disbelief, a suspicious "hmm"). Funny and readable.
+ timer   {"type":"timer","text":"25 MIN","label":"SAVED THE MARKET?"}   a countdown ring for any "in X minutes/hours/days" fact
  flow    {"type":"flow","from":"BINANCE","amount":"$6.3B","to":["ETH","BTC","SOL"],"frozen":"$3B FROZEN (optional, only if the FACTS say it)"}
          follow-the-money animation: coins pour out of the "from" vault into 2-4 wallets. Use it for hacks, thefts, big transfers and seizures.
 Icons: ''' + ', '.join(sstory.ICONS)
@@ -2248,6 +2251,10 @@ HOUSE RULES
 - NEVER PAD: if the FACTS cannot fill the length without filler, write fewer words. A shorter true script beats a padded one.
 - Chart: {chart_rule}
 - "alt_hooks": 3 other strong hook lines for scene 1 (different angles), same rules as the hook.
+- VISUAL STYLE (the channel's look): clean dark motion graphics, like a smart cartoon explainer. ONE strong visual idea per line that SHOWS exactly what is said:
+  a counter for every big number, a versus card for before/after prices ($1.00 -> $0.93), a stamp for the verdict (FAKE, ARRESTED, GONE), a cartoon face for reactions,
+  a timer for "in X minutes", the real chart for price moves. Vary the visual types; never the same type twice in a row.
+- CHART AS HERO: when "chart" is set, use the chart visual on 2-3 scenes that walk along the price (start -> crash -> where it ended), each with its own label.
 - MOTION: the screen must never freeze. "hit" is the first punch of a scene; "beats" are extra on-screen moments ({beat_rule}),
   each on a LATER word of the same line than "hit" (a name, number, place or action word), with 1-3 words of on-screen text that ADD info
   (an amount, a place, a date, a nickname), never a copy of the caption.

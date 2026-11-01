@@ -7,7 +7,7 @@ os.chdir(ROOT)
 import radar as r, story
 
 topic, L, jid = sys.argv[1], int(sys.argv[2]), sys.argv[3]
-sett = {'length': max(60, L), 'style': 'documentary', 'autorender': True}
+sett = {'length': max(60, L), 'style': 'graphics', 'chart': 'on', 'autorender': True}
 facts = r.short_facts(topic)
 best = None
 for attempt in range(2):

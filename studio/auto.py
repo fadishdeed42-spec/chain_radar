@@ -369,6 +369,7 @@ KICK = {'setup': {'funny': 'MEET THE STAR', 'serious': 'THE BACKSTORY', 'mystery
 
 def kicker(cv, t, i, a, y=420):
     role = SCN[i]['role']
+    if SCN[i].get('receipt'): return                                     # the headline card sits there
     if role == 'hook' or role not in KICK: return
     q = back(seg(t, P(i), P(i) + .35))
     k = KICK[role][TONE]
@@ -645,6 +646,74 @@ def overlay(cv, t, i):
             if .5 < t < 1.1: cv.glow(sx, 232, 50, WHITE, .35 * g2)
 
 
+def face(cv, x, y, r, mood, a, t=0.0, col=GOLD):
+    """cartoon reaction face (the old Shorts' trademark): smile, flat, shock, worried, sideeye, wink, cry"""
+    if r < 4 or a <= 0: return
+    y += 8 * math.sin(t * 2.3)
+    cv.glow(x, y, r * 1.25, col, .18 * a)
+    cv.circle(x, y, r, col, a)
+    ex = r * .35; ey = y - r * .2; er = r * .1
+    if mood == 'sideeye':
+        for sx in (-1, 1):
+            cv.circle(x + sx * ex, ey, r * .2, WHITE, a); cv.circle(x + sx * ex + r * .1 * math.sin(t * 1.5), ey, r * .09, BG, a)
+    elif mood == 'shock':
+        cv.circle(x - ex, ey, er * 1.3, BG, a); cv.circle(x + ex, ey, er * 1.3, BG, a)
+    else:
+        cv.circle(x - ex, ey, er, BG, a)
+        if mood == 'wink': cv.line([(x + ex - er * 1.4, ey), (x + ex + er * 1.4, ey)], BG, r * .07, a)
+        else: cv.circle(x + ex, ey, er, BG, a)
+    if mood in ('smile', 'wink'):
+        cv.line([(x - r * .45 + k * r * .09, y + r * .3 + r * .18 * math.sin(k / 10 * math.pi)) for k in range(11)], BG, r * .09, a)
+    elif mood in ('flat', 'sideeye'):
+        cv.line([(x - r * .4, y + r * .4), (x + r * .4, y + r * .4)], BG, r * .09, a)
+    elif mood == 'shock':
+        cv.circle(x, y + r * .42, r * .2, BG, a)
+    elif mood in ('worried', 'cry'):
+        cv.line([(x - r * .42 + k * r * .084, y + r * .52 - r * .16 * math.sin(k / 10 * math.pi)) for k in range(11)], BG, r * .09, a)
+        cv.line([(x - ex - er * 1.5, ey - er * 2.2), (x - ex + er * 1.2, ey - er * 3)], BG, r * .06, a)
+        cv.line([(x + ex + er * 1.5, ey - er * 2.2), (x + ex - er * 1.2, ey - er * 3)], BG, r * .06, a)
+        if mood == 'cry':
+            dy = (t * 120) % (r * .8)
+            cv.circle(x - ex, ey + er * 2 + dy, er * .8, (90, 170, 255), a * (1 - dy / (r * .8)))
+
+
+def sc_face(cv, t, i, v, a):
+    """reaction beat: a big cartoon face + one punch line (STAY CALM :) / AAAAAH / hmm...)"""
+    h = hit(i)
+    p = back(seg(t, P(i) + .05, P(i) + .45))
+    mood = str(v.get('mood', 'shock')).lower()
+    kicker(cv, t, i, a, y=330)
+    shake = 6 * math.sin(t * 22) * seg(t, h, h + .4) * (1 - seg(t, h + .4, h + .8)) if mood in ('shock', 'worried') else 0
+    face(cv, W / 2 + shake, 820, 200 * p, mood, a * clamp(p), t)
+    txt = str(v.get('text', '')).upper()
+    if txt and t >= h - .1:
+        q = back(seg(t, h - .1, h + .25))
+        col = {'smile': UP, 'wink': UP, 'flat': GOLD, 'sideeye': MUTED, 'shock': GOLD, 'worried': BAD, 'cry': BAD}.get(mood, ACC)
+        size = fit(txt, 'black', 96, 960)
+        cv.text(W / 2, 1150, txt, 'black', size, col, a * clamp(q), anchor='cm', scale=max(.01, q), shadow=8)
+    if v.get('sub') and t >= h + .2:
+        cv.text(W / 2, 1260, str(v['sub']).upper(), 'black', fit(str(v['sub']).upper(), 'black', 44, 960), MUTED, a * seg(t, h + .2, h + .5), anchor='cm', track=6)
+
+
+def sc_timer(cv, t, i, v, a):
+    """a countdown ring that fills to the number (25 MIN / 48 HOURS / 7 DAYS)"""
+    h = hit(i)
+    p = back(seg(t, P(i), P(i) + .4))
+    kicker(cv, t, i, a, y=330)
+    cx, cy, r = W / 2, 800, 230 * p
+    cv.ring(cx, cy, r, (40, 46, 62), 26, a * clamp(p))
+    fill = out3(seg(t, P(i) + .2, max(P(i) + .8, h + .2)))
+    n = int(48 * fill)
+    for k in range(n):                                                     # the arc grows like a clock hand
+        ang = -math.pi / 2 + 2 * math.pi * .85 * k / 48
+        cv.circle(cx + r * math.cos(ang), cy + r * math.sin(ang), 13, GOLD, a)
+    txt = str(v.get('text', '')).upper()
+    cv.text(cx, cy, txt, 'black', fit(txt, 'black', 110, 380), GOLD, a * clamp(p), anchor='cm')
+    lab = str(v.get('label', '')).upper()
+    if lab and t >= h - .1:
+        stamp(cv, t, h - .1, lab, W / 2, 1180, fit(lab, 'black', 64, 900), ALT, a)
+
+
 def sc_slam(cv, t, i, v, a):
     """the hook: the shock fills the screen in the first frames (no build-up), hard flash + shake on frame 3"""
     t0 = P(i) - .02                                                        # visible on the very first frame
@@ -726,7 +795,7 @@ def receipt_card(cv, t, i):
 
 
 TEMPLATES = {'title': sc_title, 'counter': sc_counter, 'stamp': sc_stamp, 'person': sc_person, 'date': sc_date, 'chart': sc_chart,
-             'versus': sc_versus, 'quote': sc_quote, 'list': sc_list, 'slam': sc_slam, 'flow': sc_flow}
+             'versus': sc_versus, 'quote': sc_quote, 'list': sc_list, 'slam': sc_slam, 'flow': sc_flow, 'face': sc_face, 'timer': sc_timer}
 
 
 SHRINK = {'date': .6, 'stamp': .72, 'title': .8, 'counter': .82, 'list': .78, 'versus': .82, 'quote': .82}   # graphics shrink so the footage leads
