@@ -86,7 +86,8 @@ def phonetic_variant(said, heard):
     keys = [k for k in (os.environ.get('GEMINI_API_KEY', ''), os.environ.get('GEMINI_API_KEY_2', '')) if k]
     a = said.split(); b = re.sub(r"[^\w' -]", ' ', heard).split()
     sm = difflib.SequenceMatcher(None, [re.sub(r'\W', '', x).lower() for x in a], [x.lower() for x in b])
-    bad = sorted({a[k] for op, i1, i2, _, _ in sm.get_opcodes() if op in ('replace', 'delete') for k in range(i1, i2) if len(re.sub(r'\W', '', a[k])) > 3})
+    bad = sorted({a[k] for op, i1, i2, _, _ in sm.get_opcodes() if op in ('replace', 'delete') for k in range(i1, i2)
+                  if len(re.sub(r'\W', '', a[k])) > 2 and a[k][:1].isupper() and k > 0 and not re.search(r'\d', a[k])})   # only NAMES get respelled, never years or normal words
     if not keys or not bad: return None
     prompt = ('A text-to-speech voice misreads these words in the sentence below. For each, give ONE respelling (letters and hyphens only, no spaces) that makes '
               f'an English voice say it correctly.\nSentence: {said}\nThe voice said: {heard}\nWords: {bad}\nReturn JSON only: {{"word": "respelling", ...}}')
@@ -96,7 +97,7 @@ def phonetic_variant(said, heard):
                               json={'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json'}})
             if not r.ok: print('phonetic', model, r.status_code); continue
             m = json.loads(re.search(r'\{.*\}', r.json()['candidates'][0]['content']['parts'][0]['text'], re.S).group(0))
-            out = [(m.get(re.sub(r'[^\w-]', '', w)) or m.get(w) or w) if w in bad or re.sub(r'[^\w-]', '', w) in m else w for w in a]
+            out = [(m.get(re.sub(r'[^\w-]', '', w)) or m.get(w) or w) if w in bad else w for w in a]          # touch only the misread names
             out = [re.sub(r'\s+', '-', str(x)) + (re.search(r'[.,!?;:]+$', w).group(0) if re.search(r'[.,!?;:]+$', w) and not re.search(r'[.,!?;:]$', str(x)) else '') for x, w in zip(out, a)]
             txt = ' '.join(out)
             return txt if txt != said and len(txt.split()) == len(a) else None
