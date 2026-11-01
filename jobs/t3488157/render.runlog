@@ -1,104 +1,114 @@
-media 1 photo Bybit -> Photo of Bybit: Bybit, Public domain, via Wikimedia Commons
-  vision OK  digital currency chart | Shows falling gold coins for money amount
-shot 0 0 video digital currency chart
-  vision OK  modern city skyline | Shows the Dubai skyline clearly.
-shot 1 0 video modern city skyline
-  vision NO  cyber security hacker | Generic stock hacker image, not ZachXBT
-  vision NO  laptop typing code | Shows code, not the crypto exchange Bybit.
-  vision NO  crypto exchange logo | Generic abstract graphic, not a crypto exchange logo.
-  vision OK  cyber security hacker | Abstract digital cyber security hacker background fits investigator.
+photo is not of Bybit -> Photo of Bybit: Bybit, Public domain, via Wikimedia Commons
+media 1 video luxury skyscraper city -> Video: engrahmad2653 / Pixabay
+  vision gemini-flash-latest 503
+  vision OK  cyber security hacker | Generic hacker image matches the search context.
 shot 3 0 video cyber security hacker
-  vision NO  laptop typing code | Shows typing, but not specifically Bybit.
-  vision OK  money cash hidden | Shows stacks of money matching laundering context.
+  vision NO  digital code matrix | Digital code does not depict money laundering.
+  vision NO  money cash hidden | shows piles of cash, not laundering
+  vision NO  modern city skyline | This is Hong Kong, not Dubai
+  vision NO  digital code matrix | Code matrix does not show money laundering.
+  vision OK  money cash hidden | Hands counting cash fits money laundering theme.
 shot 3 1 video money cash hidden
-  vision OK  laptop typing code | Typing on keyboard matches trading context
+  vision OK  modern city skyline | Shows modern city skyline matching Dubai context.
+shot 1 0 video modern city skyline
+  vision NO  mystery question mark | Abstract question marks do not show strangest part.
+  clip rejected: 6.0s, motion 0.8 4_s0.mp4
+  vision NO  laptop typing code | Shows code, but Bybit requires specific branding.
+  vision NO  mystery question mark | Cartoon character does not match documentary style.
+  vision NO  digital code matrix | Matrix code does not show laundering money
+  vision gemini-flash-lite-latest 503
+  vision OK  laptop typing code | Typing on keyboard matches crypto trading context.
 shot 1 1 video laptop typing code
   clip rejected: 6.0s, motion 1.2 5_s0.mp4
-  vision NO  mystery question mark | Generic question marks do not show strangeness.
-  clip rejected: 6.0s, motion 0.8 4_s0.mp4
-  vision NO  calendar page date | Shows astrology chart, not a calendar page.
-  vision NO  mystery question mark | Cartoon character does not match documentary style
-  vision NO  calendar page date | Shows an open book, not a calendar.
+  vision NO  digital code matrix | Shows an eye with code, not laundering money.
   vision NO  mystery question mark | Shows writing, not strangest part or mystery.
-  vision NO  calendar page date | Shows a watch instead of a calendar date.
-  vision NO  strangest part | Disco ball does not match 'strangest part'.
   vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-  vision NO  August 2026 | Shows a generic new year image, not August.
-  vision NO  digital code matrix | Shows digital code, not financial laundering.
-  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-  vision: no answer -> clip not used
+  vision NO  calendar page date | Shows astrology chart, not a calendar date.
+  vision NO  calendar page date | Shows a glowing book, not a calendar.
+  vision NO  strangest part | Disco ball does not illustrate strangest part.
+  vision NO  calendar page date | Shows a wristwatch, not a calendar page.
+  vision NO  strangest part | Abstract graphic does not show 'strangest part'.
+  vision NO  launder hundreds | Shows counting money, not laundering.
   clip rejected: 6.0s, motion 0.5 4_s0.mp4
-  vision: no answer -> clip not used
-  vision NO  August 2026 | Shows an Indian flag, not date August 2026.
-  vision OK  digital code matrix | Digital code matrix matches money laundering context.
+  vision NO  August 2026 | Shows a generic new year image, not August
+  vision NO  strangest part | Abstract concept visualized literally as electronic parts
+  vision OK  launder hundreds | Shows hundred dollar bills
 shot 2 0 video digital code matrix
-  vision NO  crypto exchange logo | shows futuristic interface, not crypto exchange logo
-  vision NO  August 2026 | Shows New Year, not August
-  vision NO  cryptocurrency coins stack | Shows a clock and coins, not mixers
-  vision NO  crypto exchange logo | Shows crypto mining, not a crypto exchange.
-  clip rejected: 6.0s, motion 0.2 2_s1.mp4
-  vision OK  calendar page date | Calendar page clearly shows dates.
-shot 5 0 photo calendar page date
-  vision OK  cryptocurrency coins stack | Shows stacked bitcoin relevant to mixers topic
-shot 2 1 video cryptocurrency coins stack
-  vision NO  crypto exchange logo | Shows mechanical gears instead of crypto exchange
-  vision NO  legal document stamp | Flowers do not match early order
-  vision NO  lawyer courtroom papers | Shows only crumpled paper, not legal courtroom context.
-  vision NO  crypto exchange | Shows physical coins, not crypto exchange.
-  vision NO  legal document stamp | Shows a line graph, not early order
-  vision NO  lawyer courtroom papers | Shows children drawing, unrelated to lawsuits.
-  vision NO  crypto exchange | Too dark to see anything clearly
-  clip rejected: 6.0s, motion 0.3 0_s1.mp4
-  vision NO  strangest part | Ambiguous abstract phrase, not specifically a circuit board
-  vision NO  legal document stamp | Shows a lawyer desk, not an early order.
-  vision: no answer -> clip not used
-  vision: no answer -> clip not used
+  vision gemini-flash-lite-latest 503
+  vision NO  August 2026 | Cityscape does not represent August 2026.
+  vision NO  cryptocurrency coins stack | Shows futuristic interface, not cryptocurrency coin stacks.
+  vision NO  August 2026 | Shows an Indian flag, not August 2026.
+  vision NO  mystery question mark | Cartoon figure with question mark is misleading.
 shot: no match for 4 0 mystery question mark
-  vision OK  crypto exchange | shows crypto symbols relevant to crypto exchange
+  vision NO  cryptocurrency coins stack | Shows a clock and coins, not Bitcoin mixers.
+  clip rejected: 6.0s, motion 0.2 2_s1.mp4
+  vision gemini-flash-lite-latest 503
+  vision NO  August 2026 | Shows New Year instead of August.
+  vision NO  cryptocurrency coins stack | Shows mining pick instead of cryptocurrency mixer
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision: no answer -> clip not used
+  vision: no answer -> clip not used
+  vision: no answer -> clip not used
+shot: no match for 5 0 calendar page date
+  vision: no answer -> clip not used
+  vision gemini-flash-lite-latest 503
+  vision OK  digital currency chart | Laptop shows financial charts and data.
+shot 0 0 video digital currency chart
+  vision NO  Bitcoin mixers | Shows DJ mixer instead of Bitcoin privacy service
+  vision NO  legal document stamp | Shows a chart, not a legal document stamp.
+  vision NO  crypto exchange logo | Abstract logo, not a crypto exchange.
+  vision gemini-flash-lite-latest 503
+  vision NO  Bitcoin mixers | Shows a nightclub instead of bitcoin mixing
+  vision NO  crypto exchange logo | Shows mechanical gears, not a crypto exchange.
+  clip rejected: 6.0s, motion 0.3 0_s1.mp4
+  vision NO  lawyer courtroom papers | Shows crumpled paper, not a courtroom or lawsuit.
+  vision NO  legal document stamp | Shows writing with a pen, not a stamp.
+  vision NO  Bitcoin mixers | Abstract background, not showing Bitcoin mixers.
+  vision NO  crypto exchange logo | Abstract logo does not clearly depict crypto exchange.
+  vision NO  lawyer courtroom papers | shows children drawing, not a lawsuit or courtroom
+  vision NO  legal document stamp | Shows legal setting, not early order.
+  vision gemini-flash-latest 503
+  vision OK  cryptocurrency coins stack | Shows bitcoin and coins related to mixers
+shot 2 1 photo cryptocurrency coins stack
+  vision OK  crypto exchange | Shows stacks of bitcoin coins related to crypto.
 shot 0 1 video crypto exchange logo
   vision: no answer -> clip not used
+  vision: no answer -> clip not used
+  vision: no answer -> clip not used
   vision NO  lawyer courtroom papers | Shows writing, not a courtroom or lawsuit.
-  vision NO  early order | City skyline does not show early order
-  vision NO  sued North Korea | Shows a city, not a lawsuit.
-  vision NO  hacker hooded face | Shows woman in hat, not a hacker.
-  vision NO  sued North Korea | Shows water lilies, not suing North Korea.
-  vision NO  hacker hooded face | Shows code, not a hooded hacker face.
   vision NO  early order | Forest does not show early order.
-  vision NO  early order | Shows flowers, not related to early order
-  vision NO  hacker hooded face | Shows digital interface, not a hooded hacker face.
-  clip rejected: 6.0s, motion 1.1 7_s0.mp4
+  vision NO  hacker hooded face | Shows code and binary, not a hooded face.
+  vision NO  early order | It shows a beach sunrise, not early order.
+  vision NO  sued North Korea | Shows a city, not a lawsuit.
+  vision NO  hacker hooded face | Shows abstract digital lines, not a hooded hacker.
+  vision NO  sued North Korea | Shows water lilies, not a lawsuit.
+  vision NO  early order | Shows flowers, unrelated to early order.
+  vision NO  hacker hooded face | Shows abstract data, not a hooded hacker face.
   clip rejected: 6.0s, motion 0.4 7_s0.mp4
-  vision NO  early order | Landscape does not show early order
-  vision NO  legal document stamp | Shows a document stamp, not early order
+  vision NO  legal document stamp | Stamp on document does not illustrate 'early order'.
 shot: no match for 6 0 legal document stamp
+  vision NO  sued North Korea | Shows cityscape, not a lawsuit against North Korea.
   vision NO  state hackers | Shows a skyscraper, not state hackers.
-  vision NO  state hackers | Shows a flag and city, not hackers.
-  vision NO  digital vault lock | Waterfall shows literal freezing, not crypto security
-  vision NO  state hackers | Shows only a flag, not hackers
-  vision OK  hacker hooded face | shows hooded hacker figure and digital code background
-shot 7 0 photo hacker hooded face
+  vision NO  digital vault lock | Shows a waterfall, not digital vault lock.
+  vision NO  sued North Korea | Shows a city skyline, not a lawsuit.
+  vision NO  state hackers | Shows a flag, not state hackers.
   vision NO  digital vault lock | Shows ocean, not digital vault or crypto.
   vision: no answer -> clip not used
-  vision NO  blockchain network map | Shows Earth, not a blockchain network map.
-  vision NO  digital vault lock | Shows sea, not digital vault lock.
-  vision NO  blockchain network map | Shows world map instead of blockchain trail.
-  vision NO  digital vault lock | Shows nature, unrelated to crypto freezing.
-  vision NO  blockchain network map | Shows person using phone, not blockchain network.
-  vision NO  freezing stolen crypto | Literally shows snow, not freezing crypto currency.
-  clip rejected: 6.0s, motion 0.9 6_s1.mp4
-  vision NO  leave a trail | Shows trees, not a trail.
-  vision NO  freezing stolen crypto | shows literal ice instead of crypto
-  vision NO  freezing stolen crypto | Shows winter forest instead of cryptocurrency.
-  vision OK  digital vault lock | Shows a digital vault lock representing crypto security.
-shot 6 1 photo digital vault lock
-  vision NO  leave a trail | Forest image does not fit metaphorical leave a trail
-  vision NO  leave a trail | Shows a lizard, not a trail.
-  vision OK  leave a trail | Person walking on a forest trail.
+shot: no match for 5 1 lawyer courtroom papers
+  vision NO  state hackers | Shows a flag, not state hackers.
+  vision OK  hacker hooded face | Shows hooded hacker and digital code background.
+shot 7 0 photo hacker hooded face
+  vision NO  digital vault lock | Shows sea, not a digital vault lock
+  vision NO  digital vault lock | Shows a cave and water, not crypto.
+  vision OK  blockchain network map | Shows digital trail visually over map.
 shot 7 1 video blockchain network map
-  vision NO  sued North Korea | Shows a city skyline, not a lawsuit.
-  vision OK  lawyer courtroom papers | Gavel and scales represent a lawsuit appropriately.
-shot 5 1 photo lawyer courtroom papers
-media files: 7
+  vision NO  freezing stolen crypto | Shows winter forest instead of cryptocurrency seizure.
+  clip rejected: 6.0s, motion 0.9 6_s1.mp4
+  vision NO  freezing stolen crypto | Shows literal ice instead of cryptocurrency
+  vision NO  freezing stolen crypto | Shows literal freezing weather, not crypto.
+  vision OK  digital vault lock | Digital safe matches vault lock metaphor.
+shot 6 1 photo digital vault lock
+media files: 6
 $ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/t3488157 sfx
 $ ffmpeg -y -v error -f concat -safe 0 -i jobs/t3488157/parts.txt -c copy jobs/t3488157/silent.mp4
 $ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/t3488157/voicep.wav jobs/t3488157/timing.json jobs/t3488157/voice_tight.wav

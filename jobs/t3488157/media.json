@@ -1,10 +1,10 @@
 {
  "1": {
-  "kind": "photo",
-  "file": "media/1.jpg",
-  "credit": "Photo of Bybit: Bybit, Public domain, via Wikimedia Commons \u00b7 Video: Coverr-Free-Footage / Pixabay \u00b7 Video: engrahmad2653 / Pixabay",
-  "real": true,
-  "q": "Bybit",
+  "kind": "video",
+  "file": "media/1_s0.mp4",
+  "credit": "Video: Coverr-Free-Footage / Pixabay \u00b7 Video: FindingFootage / Pixabay",
+  "real": false,
+  "q": "modern city skyline",
   "shots": [
    {
     "file": "media/1_s0.mp4",
@@ -23,7 +23,7 @@
  "3": {
   "kind": "video",
   "file": "media/3_s0.mp4",
-  "credit": "Video: Ceos_Stock / Pixabay \u00b7 Video: Hassas_Arts / Pixabay",
+  "credit": "Video: NickyPe / Pixabay \u00b7 Video: rashed7671 / Pixabay",
   "real": false,
   "q": "cyber security hacker",
   "shots": [
@@ -44,7 +44,7 @@
  "2": {
   "kind": "video",
   "file": "media/2_s0.mp4",
-  "credit": "Video: Ceos_Stock / Pixabay \u00b7 Video: QuinceCreative / Pixabay",
+  "credit": "Photo: MichaelWuensch / Pixabay \u00b7 Video: chayka1270 / Pixabay",
   "real": false,
   "q": "digital code matrix",
   "shots": [
@@ -55,8 +55,8 @@
     "q": "digital code matrix"
    },
    {
-    "file": "media/2_s1.mp4",
-    "kind": "video",
+    "file": "media/2_s1.jpg",
+    "kind": "photo",
     "words": "Bitcoin mixers",
     "q": "cryptocurrency coins stack"
    }
@@ -65,7 +65,7 @@
  "0": {
   "kind": "video",
   "file": "media/0_s0.mp4",
-  "credit": "Video: MASTERSYSTEM60 / Pixabay \u00b7 Video: Monoar_CGI_Artist / Pixabay",
+  "credit": "Video: Domka_1611 / Pixabay \u00b7 Video: QuinceCreative / Pixabay",
   "real": false,
   "q": "digital currency chart",
   "shots": [
@@ -83,25 +83,10 @@
    }
   ]
  },
- "6": {
-  "kind": "photo",
-  "file": "media/6_s1.jpg",
-  "credit": "Photo: stevepb / Pixabay",
-  "real": false,
-  "q": "legal document stamp",
-  "shots": [
-   {
-    "file": "media/6_s1.jpg",
-    "kind": "photo",
-    "words": "freezing stolen crypto",
-    "q": "digital vault lock"
-   }
-  ]
- },
  "7": {
   "kind": "photo",
   "file": "media/7_s0.jpg",
-  "credit": "Photo: methodshop / Pixabay \u00b7 Video: Matthias_Groeneveld / Pixabay",
+  "credit": "Photo: methodshop / Pixabay \u00b7 Video: tommyvideo / Pixabay",
   "real": false,
   "q": "hacker hooded face",
   "shots": [
@@ -119,24 +104,18 @@
    }
   ]
  },
- "5": {
+ "6": {
   "kind": "photo",
-  "file": "media/5_s0.jpg",
-  "credit": "Photo: succo / Pixabay \u00b7 Photo: tigerlily713 / Pixabay",
+  "file": "media/6_s1.jpg",
+  "credit": "Photo: stevepb / Pixabay",
   "real": false,
-  "q": "calendar page date",
+  "q": "legal document stamp",
   "shots": [
    {
-    "file": "media/5_s0.jpg",
+    "file": "media/6_s1.jpg",
     "kind": "photo",
-    "words": "August 2026",
-    "q": "calendar page date"
-   },
-   {
-    "file": "media/5_s1.jpg",
-    "kind": "photo",
-    "words": "sued North Korea",
-    "q": "lawyer courtroom papers"
+    "words": "freezing stolen crypto",
+    "q": "digital vault lock"
    }
   ]
  }
