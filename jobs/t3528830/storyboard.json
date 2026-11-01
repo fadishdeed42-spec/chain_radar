@@ -1,0 +1,339 @@
+{
+ "title": "When $6.3 Billion Vanished From Binance in 20 Minutes \ud83d\udea8",
+ "alt_hooks": [
+  "$6.3 billion vanished from Binance in twenty minutes. Here is how.",
+  "North Korea just pulled off the largest crypto heist in history.",
+  "Did you know hackers drained ten blockchains in a single morning?"
+ ],
+ "tone": "mystery",
+ "respell": {},
+ "chart": null,
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$6.3 billion vanished from Binance on October 29, 2026.",
+   "hit": "vanished",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "Binance",
+     "text": "RECORD HEIST",
+     "icon": "skull"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "$6.3 billion",
+     "q": "digital currency numbers counter"
+    },
+    {
+     "words": "Binance on October 29, 2026.",
+     "q": "crypto exchange office"
+    }
+   ],
+   "receipt": {
+    "src": "azat.tv",
+    "headline": "Binance Confirms $6.3 Billion Crypto Theft in Largest Industry Breach"
+   },
+   "photo": "Binance",
+   "visual": {
+    "type": "counter",
+    "value": 6300000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Stolen from Binance",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "North Korean hackers drained hot wallets across ten separate blockchains in twenty minutes.",
+   "hit": "drained",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "ten",
+     "text": "10 BLOCKCHAINS",
+     "icon": "token"
+    }
+   ],
+   "footage": "blockchain data transfer animation",
+   "shots": [
+    {
+     "words": "Hackers drained hot wallets",
+     "q": "computer hacker code"
+    },
+    {
+     "words": "in twenty minutes.",
+     "q": "digital timer countdown"
+    }
+   ],
+   "receipt": {
+    "src": "finance.yahoo.com",
+    "headline": "Binance\u2019s $6.3 Billion Hack: North Korea Linked to Record Theft as Exchange Freezes $3 Billion"
+   },
+   "photo": "",
+   "visual": {
+    "type": "timer",
+    "text": "20 MIN",
+    "label": "WALLET DRAIN"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "TraderTraitor actors quickly converted those stolen assets primarily into Ethereum using decentralized finance services and instant swaps.",
+   "hit": "converted",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "TraderTraitor",
+     "text": "NORTH KOREA",
+     "icon": "robot"
+    }
+   ],
+   "footage": "crypto transactions flowchart",
+   "shots": [
+    {
+     "words": "TraderTraitor actors",
+     "q": "masked hacker typing"
+    },
+    {
+     "words": "into Ethereum.",
+     "q": "ethereum coin crypto"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "flow",
+    "from": "BINANCE",
+    "amount": "$6.3B",
+    "to": [
+     "ETH",
+     "BTC"
+    ]
+   }
+  },
+  {
+   "role": "turn",
+   "line": "The FBI, US Secret Service, and IRS-CI tracked the funds across multiple blockchain analytics firms like TRM Labs.",
+   "hit": "tracked",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "FBI",
+     "text": "FEDERAL AGENTS",
+     "icon": "gavel"
+    }
+   ],
+   "footage": "investigation boardroom meeting",
+   "shots": [
+    {
+     "words": "The FBI, US Secret Service,",
+     "q": "fbi federal badge"
+    },
+    {
+     "words": "tracked the funds.",
+     "q": "detective magnifying glass"
+    }
+   ],
+   "photo": "Federal Bureau of Investigation",
+   "visual": {
+    "type": "stamp",
+    "icon": "gavel",
+    "label": "US LAW ENFORCEMENT",
+    "word": "TRACKED",
+    "bad": false
+   }
+  },
+  {
+   "role": "twist",
+   "line": "But that is not the strangest part.",
+   "hit": "strangest",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "strangest",
+     "text": "THE COMPROMISE",
+     "icon": "question"
+    }
+   ],
+   "footage": "laptop computer glowing screen",
+   "shots": [
+    {
+     "words": "But that is not",
+     "q": "question mark neon"
+    },
+    {
+     "words": "the strangest part.",
+     "q": "laptop keyboard typing"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "face",
+    "mood": "shock",
+    "text": "HOW?!",
+    "sub": "Compromised laptop"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Tether and Circle froze approximately three billion dollars of tokens to stop laundering and market turmoil.",
+   "hit": "froze",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "three",
+     "text": "$3B FROZEN",
+     "icon": "lock"
+    }
+   ],
+   "footage": "bank vault door locking",
+   "shots": [
+    {
+     "words": "Tether and Circle",
+     "q": "cryptocurrency coins stack"
+    },
+    {
+     "words": "froze approximately three billion",
+     "q": "padlock security lock"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 3000000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Frozen Tokens",
+    "icon": "lock"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "Binance covered ninety percent of losses using company funds and corporate reserves to protect customer balances.",
+   "hit": "covered",
+   "emotion": "triumph",
+   "beats": [
+    {
+     "word": "ninety",
+     "text": "90% REPLACED",
+     "icon": "cash"
+    }
+   ],
+   "footage": "financial charts green recovery",
+   "shots": [
+    {
+     "words": "Binance covered ninety percent",
+     "q": "money cash bills"
+    },
+    {
+     "words": "of losses",
+     "q": "balance scale finance"
+    }
+   ],
+   "receipt": {
+    "src": "irishtimes.com",
+    "headline": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack"
+   },
+   "photo": "",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "STOLEN",
+     "$6.3B"
+    ],
+    "right": [
+     "COVERED",
+     "90%"
+    ],
+    "note": "Company funds used"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "This shattered the previous record held by the Bybit hack in February 2025.",
+   "hit": "shattered",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "Bybit",
+     "text": "$1.5B BYBIT 2025",
+     "icon": "skull"
+    }
+   ],
+   "footage": "breaking news screen graphic",
+   "shots": [
+    {
+     "words": "This shattered the previous record",
+     "q": "glass shattering explosion"
+    },
+    {
+     "words": "held by the Bybit hack.",
+     "q": "cyber attack warning"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "PREVIOUS RECORD",
+    "word": "BYBIT",
+    "bad": true
+   }
+  },
+  {
+   "role": "end",
+   "line": "$6.3 billion. The largest crypto heist in history.",
+   "hit": "largest",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "history",
+     "text": "RECORD HEIST",
+     "icon": "skull"
+    }
+   ],
+   "footage": "dark digital matrix code",
+   "shots": [
+    {
+     "words": "$6.3 billion.",
+     "q": "maximum security vault"
+    },
+    {
+     "words": "The largest crypto heist",
+     "q": "cyber crime code"
+    }
+   ],
+   "receipt": {
+    "src": "azat.tv",
+    "headline": "Binance Halts Withdrawals Following Historic $6.3 Billion Security Breach"
+   },
+   "photo": "",
+   "visual": {
+    "type": "stamp",
+    "icon": "skull",
+    "label": "TOTAL LOSS",
+    "word": "$6.3B",
+    "bad": true
+   }
+  }
+ ],
+ "lesson": "Use hardware wallets to protect your funds from exchange breaches.",
+ "description": "On October 29, 2026, $6.3 billion was stolen from Binance in the largest cryptocurrency heist in history. The FBI attributed the attack to North Korea's TraderTraitor hacking group, which drained wallets across 10 blockchains in just 20 minutes.",
+ "hashtags": "#Binance #CryptoNews #CryptoHack #Blockchain #NorthKorea #CyberSecurity #ChainSecrets",
+ "pinned": "What would you do if your exchange was hacked? Let us know below!",
+ "length": 60,
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "chart": "on",
+  "autorender": true
+ },
+ "est_secs": 61,
+ "words": 130,
+ "target_words": 127,
+ "length_ok": true,
+ "review": {}
+}
