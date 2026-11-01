@@ -92,7 +92,7 @@
     "to": [
      "TETHER",
      "CIRCLE",
-     "RIPPLE"
+     "HACKER"
     ],
     "frozen": "$3B FROZEN"
    },
@@ -104,14 +104,14 @@
   {
    "role": "twist",
    "emotion": "shock",
-   "line": "Tether froze $1.5 billion, Circle $800 million, and Ripple about $200 million.",
+   "line": "Tether and Circle alone froze over $2.3 billion of it.",
    "hit": "froze",
    "visual": {
     "type": "counter",
-    "value": 1500000000,
+    "value": 2300000000,
     "prefix": "$",
     "suffix": "",
-    "label": "FROZEN BY TETHER",
+    "label": "FROZEN BY TETHER + CIRCLE",
     "icon": "lock"
    },
    "beats": [],
@@ -184,7 +184,7 @@
   }
  ],
  "lesson": "Never keep all your crypto on a single exchange.",
- "description": "On October 29, 2026, hackers drained $6.3 billion from Binance. By the next day Bitcoin fell to about $76,400, a six-week low, and $1.57 billion in leveraged positions were liquidated. Tether, Circle and Ripple froze about $3 billion of the stolen funds, and Binance says it covered 95% of losses as withdrawals reopened.",
+ "description": "On October 29, 2026, hackers drained $6.3 billion from Binance. By the next day Bitcoin fell to about $76,400, a six-week low, and $1.57 billion in leveraged positions were liquidated. About $3 billion of the stolen funds was frozen, over $2.3 billion of it by Tether and Circle, and Binance says it covered 95% of losses as withdrawals reopened.",
  "hashtags": "#Bitcoin #Binance #CryptoNews #Liquidations #CryptoHack #ChainSecrets #shorts",
  "pinned": "Did the Binance hack make you move your coins off exchanges?",
  "length": 60,
@@ -194,8 +194,8 @@
   "chart": "on",
   "autorender": true
  },
- "est_secs": 63,
- "words": 133,
+ "est_secs": 60,
+ "words": 127,
  "target_words": 127,
  "length_ok": true,
  "review": {}
