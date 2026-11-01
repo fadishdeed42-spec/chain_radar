@@ -604,7 +604,7 @@ def scene_cam(t, i):
     return M
 
 
-STICK_Y = 1410
+STICK_Y = 1530                                                         # stickers sit below the stamps/labels, above the captions
 
 
 def overlay(cv, t, i):
@@ -743,12 +743,12 @@ def sc_flow(cv, t, i, v, a):
     tos = [str(x).upper()[:10] for x in (v.get('to') or ['WALLET 1', 'WALLET 2', 'WALLET 3'])][:4] or ['WALLET']
     q = back(seg(t, P(i), P(i) + .4))
     vx, vy = W / 2, 720
-    cv.rect(vx - 170 * q, vy - 110 * q, vx + 170 * q, vy + 110 * q, (28, 34, 48), a * .95, r=26 * q)
+    cv.rect(vx - 125 * q, vy - 110 * q, vx + 125 * q, vy + 110 * q, (28, 34, 48), a * .95, r=26 * q)
     cv.ring(vx, vy, 62 * q, GOLD, 8, a * clamp(q))
     for k in range(6):                                                     # vault wheel
         ang = k * math.pi / 3 + t * .8
         cv.line([(vx, vy), (vx + 52 * q * math.cos(ang), vy + 52 * q * math.sin(ang))], GOLD, 5, a * clamp(q))
-    cv.text(vx - 230, vy + 10, src, 'black', fit(src, 'black', 54, 330), WHITE, a * clamp(q), anchor='rm', track=4)
+    cv.text(vx - 150, vy, src, 'black', fit(src, 'black', 50, 280), WHITE, a * clamp(q), anchor='rm', track=3)
     n = len(tos); ys = 1320
     xs = [W / 2 + (k - (n - 1) / 2) * min(250, 900 / max(1, n - 1) if n > 1 else 0) for k in range(n)]
     frozen = str(v.get('frozen', '') or '').strip()
@@ -769,7 +769,7 @@ def sc_flow(cv, t, i, v, a):
     amt = str(v.get('amount', '')).upper()
     if amt:
         g = out3(seg(t, P(i) + .2, P(i) + .6))
-        cv.text(vx + 200, vy + 10, amt, 'black', fit(amt, 'black', 96, 330), GOLD, a * g, anchor='lm', scale=max(.01, lerp(.6, 1, g)), shadow=8)
+        cv.text(vx + 150, vy, amt, 'black', fit(amt, 'black', 84, 300), GOLD, a * g, anchor='lm', scale=max(.01, lerp(.6, 1, g)), shadow=8)
     if frozen and t >= h - .1:
         stamp(cv, t, h - .1, frozen.upper()[:18], W / 2, ys + 170, fit(frozen.upper()[:18], 'black', 70, 700), ALT, a)
 
