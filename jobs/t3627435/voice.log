@@ -1,61 +1,60 @@
-json e4c099178f15
-   take 1: score -0.93  wer 0.00  end -2.5st  3.1w/s  rushed ['blocked', 'crypto', 'including']  heard: 50 giant companies just blocked a crypto plan, including Nvidia.
-   take 2: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['crypto']  heard: 50 giant companies just blocked a crypto plan, including Nvidia.
-   take 3: score +1.70  wer 0.00  end -8.8st  2.1w/s  heard: 50 giant companies just blocked a crypto plan, including Nvidia.
-scene 1: 4.77s ex 0.76  chosen wer 0.00
-   take 1: score -1.54  wer 0.00  end +0.0st  3.5w/s  heard: The plan came from OKX and ICE, the company that owns the New York Sto
-   take 2: score -2.84  wer 0.00  end +0.0st  3.8w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
-   take 3: score -2.45  wer 0.00  end +0.0st  3.6w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
-   take 4: score -3.13  wer 0.00  end +0.0st  3.9w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
-scene 2: 5.64s ex 0.64  chosen wer 0.00
-   take 1: score -0.17  wer 0.00  end +0.0st  2.9w/s  heard: The idea?  Trade tokens of 62 big US stocks around the clock paid in s
-   take 2: score +1.89  wer 0.00  end -3.7st  2.8w/s  heard: The idea? Trade tokens of 62 big US stocks around the clock paid in st
-scene 3: 5.76s ex 0.62  chosen wer 0.00
-   take 1: score +0.47  wer 0.00  end -3.8st  3.5w/s  heard: But a new SEC rule gives every company 30 days to say no.
-scene 4: 4.23s ex 0.62  chosen wer 0.00
-   take 1: score -0.49  wer 0.00  end +0.0st  1.8w/s  heard: October 26, 26 objections. Two days later, 38, then 50.
-   take 2: score -1.70  wer 0.08  end +0.0st  1.9w/s  rushed ['objections.']  heard: October 26th, 26th objections. Two days later, 38, then 50.
-   take 3: score -0.54  wer 0.00  end +0.0st  1.7w/s  heard: October 26th, 26 objections. Two days later, 38, then 50.
-scene 5: 5.58s ex 0.76  chosen wer 0.00
-   take 1: score -1.16  wer 0.00  end +0.0st  2.0w/s  rushed ['Walmart,']  heard: Nvidia, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
-   take 2: score -2.74  wer 0.00  end +0.0st  2.0w/s  rushed ['Costco,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
-   take 3: score -0.64  wer 0.00  end -7.3st  2.2w/s  rushed ['NVIDIA,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said, no.
-   take 4: score -1.87  wer 0.00  end -1.0st  2.1w/s  rushed ['Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
-scene 6: 4.98s ex 0.58  chosen wer 0.00
-   take 1: score +0.38  wer 0.00  end -1.4st  2.6w/s  rushed ['strange', 'Reports']  heard: And here's the strange part.  Reports say Nasdaq reps pushed companies
-   take 2: score +0.39  wer 0.00  end -3.3st  2.6w/s  rushed ['strange', 'reports']  heard: And here's the strange part, reports say Nasdaq reps pushed companies 
-   take 3: score -2.54  wer 0.00  end -0.7st  2.8w/s  rushed ['strange', 'reports', 'companies']  heard: And here's the strange part, reports say Nasdaq reps pushed companies 
-   take 4: score -4.40  wer 0.10  end +2.8st  3.0w/s  rushed ['strange', 'reports', 'companies', 'object.']  heard: And here's the strange part, reports say Nasdaq Rep's pushed companies
-scene 7: 5.05s ex 0.64  chosen wer 0.00
-   take 1: score +0.30  wer 0.00  end -2.1st  2.8w/s  rushed ['building', 'Kraken,']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
-   take 2: score +1.06  wer 0.00  end -3.1st  2.8w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
-   take 3: score +1.11  wer 0.00  end -1.6st  2.7w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks with Kraken aimed at 2027.
-   take 4: score +1.19  wer 0.00  end -2.0st  2.6w/s  rushed ['Kraken,']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
-scene 8: 4.96s ex 0.64  chosen wer 0.00
-   take 1: score -0.44  wer 0.00  end -3.0st  2.3w/s  rushed ['companies,', 'crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
-   take 2: score -1.63  wer 0.00  end +0.0st  2.3w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
-   take 3: score -2.49  wer 0.00  end +0.0st  2.2w/s  rushed ['companies,', 'crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
-   take 4: score +0.40  wer 0.00  end -4.6st  2.4w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
-   take 5: score -1.72  wer 0.00  end +0.0st  2.1w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
-   take 6: score -1.65  wer 0.00  end +0.0st  2.4w/s  rushed ['companies,', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
-scene 9: 4.68s ex 0.55 END  chosen wer 0.00
-   take 1: score -2.76  wer 0.06  end +0.0st  3.2w/s  rushed ['itself.', 'Follow']  heard: A token of a stock is not the stock itself.  Know what you were buying
-   take 2: score -1.61  wer 0.00  end +0.0st  3.2w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself.  Know what you are buying.
-   take 3: score -1.93  wer 0.06  end +0.0st  3.2w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself, know what you were buying.
-   take 4: score +0.29  wer 0.11  end -2.7st  3.3w/s  heard: A token of a stock is not the stock itself.  Know what you were buying
-   phonetic variant: A token of a stock is not the stock itself. Know what you are buying. Fahl-oh Chain Secret
-   take P1: score -0.68  wer 0.08  2.9w/s  heard: A token of a stock is not the stock itself.  Know what you are buying.
-   take P2: score -1.13  wer 0.17  2.8w/s  heard: A token of a stock is not the stock itself.  Know what you were buying
-   take P3: score -1.04  wer 0.14  3.0w/s  heard: A token of a stock is not the stock itself.  Know what you were buying
-scene 10: 6.14s ex 0.7  chosen wer 0.08
+json 99174584db73
+   take 1: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['crypto']  heard: 50 giant companies just blocked a crypto plan, including Nvidia, but w
+   take 2: score -2.32  wer 0.00  end -1.6st  3.2w/s  rushed ['crypto', 'including']  heard: 50 giant companies just blocked a crypto plan, including Nvidia, but w
+   take 3: score +0.12  wer 0.00  end +4.4st  2.9w/s  rushed ['crypto', 'Nvidia.']  heard: 50 giant companies just blocked a crypto plan, including Nvidia. But w
+   take 4: score -0.86  wer 0.00  end +0.0st  2.7w/s  rushed ['crypto']  heard: 50 giant companies just blocked a crypto plan, including Nvidia, but w
+scene 1: 5.77s ex 0.76  chosen wer 0.00
+   take 1: score -3.41  wer 0.05  end +0.0st  3.9w/s  rushed ['company']  heard: The claim came from OKX and ICE, the company that owns the New York St
+   take 2: score -2.86  wer 0.00  end +0.0st  3.8w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+   take 3: score -2.61  wer 0.00  end +0.0st  3.7w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+   take 4: score -1.74  wer 0.00  end +0.0st  3.6w/s  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+scene 2: 5.49s ex 0.64  chosen wer 0.00
+   take 1: score +1.87  wer 0.00  end -5.8st  2.4w/s  heard: The idea?  Trade tokens of 62 big US stocks around the clock, even on 
+scene 3: 7.99s ex 0.62  chosen wer 0.00
+   take 1: score -1.55  wer 0.00  end +0.0st  3.6w/s  heard: But a new SEC rule gives every company 30 days to say no.
+   take 2: score -1.21  wer 0.00  end +0.0st  3.4w/s  heard: But a new SEC rule gives every company 30 days to say no.
+   take 3: score -0.78  wer 0.00  end +0.0st  3.2w/s  heard: But a new SEC rule gives every company 30 days to say no.
+scene 4: 4.71s ex 0.62  chosen wer 0.00
+   take 1: score -0.95  wer 0.08  end +0.0st  1.8w/s  heard: October 26th, 26th objections, two days later, 38, then 50.
+   take 2: score -0.55  wer 0.00  end +0.0st  1.7w/s  heard: October 26, 26 objections. Two days later, 38. Then 50.
+   take 3: score -0.51  wer 0.00  end +0.0st  1.8w/s  heard: October 26th, 26 objections.  Two days later, 38, then 50.
+scene 5: 5.71s ex 0.76  chosen wer 0.00
+   take 1: score -2.83  wer 0.00  end +0.0st  1.9w/s  rushed ['Costco,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+   take 2: score -1.07  wer 0.00  end +0.0st  2.2w/s  rushed ['Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+   take 3: score -2.59  wer 0.00  end +0.0st  2.3w/s  rushed ['Costco,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+   take 4: score -2.88  wer 0.00  end +0.0st  1.8w/s  rushed ['Costco,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+scene 6: 5.11s ex 0.58  chosen wer 0.00
+   take 1: score -1.24  wer 0.00  end -1.5st  2.5w/s  rushed ['strange', 'Reports', 'companies', 'object.']  heard: And here's the strange part.  Reports say NASDAQ reps pushed companies
+   take 2: score -3.82  wer 0.07  end +0.0st  2.9w/s  rushed ['strange', 'reports', 'companies', 'object.']  heard: And here's the strange part, reports saying Nasdaq reps pushed compani
+   take 3: score -0.59  wer 0.00  end -1.8st  2.9w/s  rushed ['strange', 'Reports', 'companies']  heard: And here's the strange part.  Reports say Nasdaq reps pushed companies
+   take 4: score -2.53  wer 0.00  end -0.6st  2.8w/s  rushed ['strange', 'Reports', 'object.']  heard: And here's the strange part.  Reports say NASDAQ reps pushed companies
+scene 7: 4.48s ex 0.64  chosen wer 0.00
+   take 1: score -1.43  wer 0.07  end +1.4st  2.8w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks with Crocken aimed at 2027
+   take 2: score +0.67  wer 0.07  end -10.0st  2.8w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks, with Krakhan aimed at 202
+   take 3: score +1.17  wer 0.00  end -10.5st  2.7w/s  rushed ['Kraken,']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
+   take 4: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
+scene 8: 4.89s ex 0.64  chosen wer 0.00
+   take 1: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 2: score -2.43  wer 0.00  end +0.0st  2.4w/s  rushed ['companies,', 'crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 3: score +1.20  wer 0.00  end -4.7st  2.3w/s  rushed ['battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 4: score +0.38  wer 0.00  end -4.1st  2.3w/s  rushed ['companies,', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 5: score -1.73  wer 0.00  end +0.0st  2.6w/s  rushed ['companies,', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 6: score -1.60  wer 0.00  end +0.0st  2.4w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+scene 9: 4.69s ex 0.55 END  chosen wer 0.00
+   take 1: score +0.68  wer 0.00  end -2.6st  3.1w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself.  Know what you are buying.
+   take 2: score -1.13  wer 0.00  end +0.0st  3.0w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself.  Know what you are buying.
+   take 3: score -2.34  wer 0.00  end +0.0st  3.5w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself.  Know what you are buying.
+   take 4: score -1.22  wer 0.00  end +0.0st  3.0w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself.  Know what you are buying.
+scene 10: 5.88s ex 0.7  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-55.46s, force-aligned 137 words
+58.39s, force-aligned 147 words
 liampace -> jobs/t3627435/voicep.wav
 rate x1.00 gap 0.40 | Fifty giant companies just blocked a crypto plan.
 rate x1.00 gap 0.40 | Including Nvidia.
+rate x1.00 gap 0.40 | But who told them to say no?
 rate x1.00 gap 0.40 | The plan came from O K X and I C E, the company that owns the New York Stock Exchange.
 rate x1.00 gap 0.40 | The idea?
-rate x1.00 gap 0.40 | Trade tokens of sixty-two big U S stocks, around the clock, paid in stablecoins.
+rate x1.00 gap 0.40 | Trade tokens of sixty-two big U S stocks, around the clock, even on weekends, paid in stablecoins.
 rate x1.00 gap 0.40 | But a new S E C rule gives every company thirty days to say no.
 rate x1.00 gap 0.40 | October twenty-sixth:
 rate x1.00 gap 0.40 | twenty-six objections.
@@ -71,6 +70,6 @@ rate x1.00 gap 0.40 | One stock market war.
 rate x1.00 gap 0.40 | And crypto is the battlefield.
 rate x1.00 gap 0.60 | A token of a stock is not the stock itself.
 rate x1.00 gap 0.40 | Know what you are buying.
-rate x1.00 gap 0.40 | Fahl-oh Chain Secrets.
-total 56.08s (was 55.46s)
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 58.91s (was 58.39s)
 
