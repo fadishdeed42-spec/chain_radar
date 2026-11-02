@@ -1,17 +1,18 @@
 {
- "title": "61,000 Bitcoin Found in Britain… Taken from 128,000 People 👑",
+ "title": "61,000 Bitcoin Found in Britain\u2026 Taken from 128,000 People \ud83d\udc51",
  "tone": "serious",
  "theme": "teal",
  "length": 60,
  "chart": {
   "symbol": "BTC",
   "start": "2017-01-01",
-  "end": "2026-11-02"
+  "end": "2026-11-02",
+  "src": "Bitstamp weekly"
  },
  "lesson": "Every bitcoin move stays on a public record. Crime leaves a trail forever.",
  "description": "2014-2017: Zhimin Qian ran an investment fraud in China with 128,000 victims, then fled on a fake passport to the UK. UK police seized 61,000 BTC, a UK record. She wanted to become 'monarch' of the micronation Liberland. A transfer to her helper led police to arrest her in York in 2024. She pleaded guilty and in November 2025 was sentenced to 11 years and 8 months.\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Bitcoin #Crime #UK #CryptoNews #ChainSecrets #shorts",
- "pinned": "What should happen to the 61,000 bitcoin? 👇",
+ "pinned": "What should happen to the 61,000 bitcoin? \ud83d\udc47",
  "respell": {
   "Zhimin Qian": "Jee-min Chyen",
   "Qian": "Chyen"
@@ -27,7 +28,7 @@
    "role": "hook",
    "emotion": "shock",
    "line": "61,000 bitcoin. Found in Britain. Taken from 128,000 people in China.",
-   "hit": "Britain",
+   "hit": "britain",
    "visual": {
     "type": "counter",
     "value": 61000,
@@ -103,7 +104,7 @@
    "visual": {
     "type": "chart",
     "date": "2018-06-01",
-    "label": "2018 · 61,000 BTC SEIZED"
+    "label": "2018 \u00b7 61,000 BTC SEIZED"
    },
    "beats": [],
    "shots": [],
@@ -114,7 +115,7 @@
    "role": "twist",
    "emotion": "funny",
    "line": "Her dream: to become the 'monarch' of a tiny micronation called Liberland.",
-   "hit": "Liberland",
+   "hit": "liberland",
    "visual": {
     "type": "title",
     "text": "QUEEN OF LIBERLAND?",
@@ -129,7 +130,7 @@
    "role": "twist",
    "emotion": "tense",
    "line": "In 2024, a fast-food worker who helped her gets a small bitcoin transfer. Police are watching. They arrest her in York.",
-   "hit": "York",
+   "hit": "york",
    "visual": {
     "type": "stamp",
     "icon": "officer",
@@ -170,7 +171,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-11-02",
-    "label": "TODAY · ~$4.75 BILLION"
+    "label": "TODAY \u00b7 ~$4.75 BILLION"
    },
    "beats": [],
    "shots": [],
@@ -178,5 +179,10 @@
    "photo": ""
   }
  ],
- "library": "st-33"
+ "library": "st-33",
+ "est_secs": 68,
+ "words": 143,
+ "target_words": 123,
+ "length_ok": false,
+ "length_msg": "script is about 1:08, a 1:00 Short needs 0:56 to 1:05 (143 spoken words, need 114 to 134)"
 }
