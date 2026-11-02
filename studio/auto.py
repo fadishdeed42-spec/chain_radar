@@ -437,7 +437,7 @@ def sc_title(cv, t, i, v, a):
         for k, ln in enumerate(lines):
             size = fit(ln, 'black', 150, 980)
             slam(cv, t, h - .05 + k * .12, ln, y0 + k * size * 1.02, size, ACC if k == len(lines) - 1 else TXT, a)
-        if v.get('sub'):
+        if v.get('sub') and not SCN[i].get('beats'):                    # stickers sit right there: the sub would collide with them
             cv.text(W / 2, y0 + len(lines) * 150 + 10, str(v['sub']).upper(), 'xbold', fit(str(v['sub']).upper(), 'xbold', 46, 960), MUTED,
                     a * seg(t, h + .3, h + .6), anchor='cm', track=4)
 
