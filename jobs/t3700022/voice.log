@@ -1,0 +1,69 @@
+json 550d9b54630c
+   take 1: score -0.89  wer 0.00  end +0.0st  2.5w/s  rushed ['nuclear']  heard: They used a nuclear weapons supercomputer to mine Bitcoin.
+   take 2 (plain): score +1.13  wer 0.00  end -1.6st  2.5w/s  rushed ['nuclear']  heard: They used a nuclear weapons supercomputer to mine bitcoin.
+   take 3: score -0.83  wer 0.00  end +0.0st  2.7w/s  rushed ['nuclear']  heard: They used a nuclear weapons supercomputer to mine bitcoin.
+   take 4 (plain): score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['nuclear']  heard: They used a nuclear weapons supercomputer to mine Bitcoin.
+scene 1: 3.63s ex 0.72  chosen wer 0.00
+   take 1: score -2.16  wer 0.22  end +0.0st  2.5w/s  rushed ['appear']  heard: Sa'rulf, Russia, a close city that doesn't appear on maps.
+   take 2 (plain): score -2.23  wer 0.09  end +0.0st  2.5w/s  rushed ['Russia.', 'appear']  heard: Seraf, Russia. A closed city that doesn't appear on maps?  //
+   take 3: score -2.30  wer 0.09  end +0.0st  2.3w/s  rushed ['closed', 'appear']  heard: Sahov, Russia, a closed city that doesn't appear on maps.
+   take 4 (plain): score -2.44  wer 0.13  end +0.0st  2.7w/s  rushed ['Russia,', 'closed']  heard: Sarah of Russia, a closed city that doesn't appear on maps.
+   take R1: wer 0.09  heard: Saarov, Russia, a closed city that doesn't appear on maps.
+   take R2: wer 0.09  heard: Saarov, Russia, a closed city that doesn't appear on maps.
+   take R3: wer 0.13  heard: Saho-Rav Russia, a closed city that doesn't appear on maps.
+   take R4: wer 0.38  heard: Modimos as BIO, Artrash, a closed city that doesn't appear on naps.
+scene 2: 3.31s ex 0.64  chosen wer 0.09
+   take 1: score +0.35  wer 0.00  end -2.1st  2.7w/s  rushed ['Soviet', 'nuclear']  heard: This is where the Soviet Union built its first atomic bomb. Today, it 
+   take 2: score +0.25  wer 0.00  end -8.0st  2.8w/s  rushed ['Soviet', 'nuclear']  heard: This is where the Soviet Union built its first atomic bomb.  Today, it
+   take 3: score +0.05  wer 0.00  end -6.1st  3.0w/s  rushed ['Soviet', 'nuclear']  heard: This is where the Soviet Union built its first atomic bomb.  Today, it
+   take 4: score -0.43  wer 0.00  end -5.9st  2.6w/s  rushed ['Soviet', 'atomic', 'nuclear']  heard: This is where the Soviet Union built its first atomic bomb. Today, it 
+scene 3: 6.71s ex 0.62  chosen wer 0.00
+   take 1: score -0.34  wer 0.00  end +0.0st  2.0w/s  heard: Inside, a supercomputer with one petaflop of power, a million billion 
+   take 2: score -0.24  wer 0.00  end +0.0st  2.2w/s  heard: Inside, a supercomputer with one petaflop of power, a million billion 
+   take 3: score -0.24  wer 0.00  end +0.0st  2.2w/s  heard: Inside, a supercomputer with one petaflop of power, a million billion 
+scene 4: 6.34s ex 0.72  chosen wer 0.00
+   take 1: score -3.28  wer 0.00  end +0.0st  2.5w/s  rushed ['February', 'Bitcoin', 'touched', 'months']  heard: February 2018. Bitcoin had touched almost $20,000 two months earlier.
+   take 2: score -0.48  wer 0.00  end -2.9st  2.5w/s  rushed ['February', 'touched', 'months']  heard: February 2018, Bitcoin had touched almost $20,000 two months earlier.
+   take 3: score -0.56  wer 0.00  end -5.5st  2.3w/s  rushed ['February', 'Bitcoin', 'touched']  heard: February 2018. Bitcoin had touched almost $20,000 two months earlier.
+   take 4: score -0.53  wer 0.00  end -12.4st  2.4w/s  rushed ['February', 'Bitcoin', 'touched']  heard: February 2018. Bitcoin had touched almost $20,000 two months earlier.
+scene 5: 5.26s ex 0.64  chosen wer 0.00
+   take 1: score -1.21  wer 0.00  end +0.0st  3.0w/s  rushed ['engineers']  heard: And a few engineers get an idea.  They quietly put the supercomputer t
+   take 2: score -4.25  wer 0.00  end +0.0st  3.3w/s  rushed ['engineers', 'quietly', 'supercomputer', 'Bitcoin.']  heard: And a few engineers get an idea.  They quietly put the supercomputer t
+   take 3: score -2.30  wer 0.00  end +0.0st  3.1w/s  rushed ['quietly', 'Bitcoin.']  heard: and a few engineers get an idea. They quietly put the supercomputer to
+   take 4: score -2.46  wer 0.00  end +0.0st  3.2w/s  rushed ['engineers', 'bitcoin.']  heard: and a few engineers get an idea. They quietly put the supercomputer to
+scene 6: 5.32s ex 0.72  chosen wer 0.00
+   take 1: score -2.55  wer 0.00  end +0.0st  2.3w/s  rushed ['Mining', 'nuclear', 'supposed']  heard: One problem.  Mining needs the internet, and a nuclear weapons lab is 
+   take 2: score -4.37  wer 0.00  end +0.0st  3.0w/s  rushed ['Mining', 'internet,', 'nuclear', 'supposed', 'offline.']  heard: One problem.  Mining needs the internet, and a nuclear weapons lab is 
+   take 3: score -1.37  wer 0.00  end -1.7st  2.9w/s  rushed ['Mining', 'internet,', 'nuclear', 'supposed']  heard: One problem. Mining needs the internet, and a nuclear weapons lab is s
+   take 4: score -1.29  wer 0.00  end -1.8st  2.7w/s  rushed ['Mining', 'internet,', 'nuclear', 'supposed']  heard: One problem.  Mining needs the internet, and a nuclear weapons lab is 
+scene 7: 5.84s ex 0.62  chosen wer 0.00
+   take 1: score -4.19  wer 0.03  end +0.0st  3.2w/s  rushed ['moment', 'connect', 'security', 'Russia']  heard: The moment they connect it, security sees everything.  Russia Security
+   take 2 (plain): score -2.46  wer 0.00  end +0.0st  2.7w/s  rushed ['moment', 'connect', 'security']  heard: The moment they connect it, security sees everything.  Russia's securi
+   take 3: score -2.58  wer 0.00  end +0.0st  2.9w/s  rushed ['connect', "Russia's", 'security']  heard: The moment they connect it, security sees everything.  Russia's securi
+   take 4 (plain): score -0.89  wer 0.00  end +0.0st  2.4w/s  rushed ["Russia's"]  heard: The moment they connect it, security sees everything.  Russia's securi
+scene 8: 6.96s ex 0.72  chosen wer 0.00
+   take 1: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: The lab calls it a hopeless and criminal offense.
+   take 2: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: The lab calls it a hopeless and criminal offense.
+   take 3: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: The lab calls it a hopeless and criminal offense.
+scene 9: 3.52s ex 0.72  chosen wer 0.00
+   take 1: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['engineer']  heard: The price?  One engineer was fined 450,000 rubles, about $7,000.
+   take 2: score -0.93  wer 0.00  end +0.0st  2.4w/s  rushed ['engineer']  heard: The price? One engineer was fined 450,000 rubles, about $7,000.  //
+   take 3: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['engineer']  heard: The price?  One engineer was fined 450,000 rubles, about $7,000.
+   take 4: score -2.02  wer 0.07  end +0.0st  2.6w/s  rushed ['engineer', 'buying']  heard: The price?  One engineer was buying 450,000 rubles, about $7,000.
+scene 10: 5.69s ex 0.72  chosen wer 0.00
+   take 1: score -2.90  wer 0.00  end +0.0st  3.7w/s  rushed ['earned']  heard: The most powerful computer in town, and all it earned them, was a fine
+   take 2 (plain): score -2.69  wer 0.00  end +0.0st  3.6w/s  rushed ['earned']  heard: The most powerful computer in town, and all it earned them was a fine.
+   take 3: score -1.92  wer 0.00  end +0.0st  3.3w/s  rushed ['earned']  heard: The most powerful computer in town and all it earned them was a fine.
+   take 4 (plain): score -2.67  wer 0.00  end +0.0st  3.6w/s  rushed ['earned']  heard: the most powerful computer in town, and all it earned them was a fine.
+   take 5: score -2.82  wer 0.07  end +0.0st  3.5w/s  rushed ['earned']  heard: The most powerful computer in town and all that earned them was a fine
+   take 6 (plain): score -2.12  wer 0.00  end +0.0st  3.4w/s  rushed ['earned']  heard: The most powerful computer in town and all it earned them was a fine.
+scene 11: 4.27s ex 0.6 END  chosen wer 0.00
+   take 1: score -2.49  wer 0.00  end +0.0st  2.5w/s  rushed ['computer', 'Someone', 'Follow']  heard: Side money on a work computer is never secret. Someone is always watch
+   take 2: score -1.77  wer 0.00  end +0.0st  2.3w/s  rushed ['Someone', 'Follow']  heard: Side money on a work computer is never secret. Someone is always watch
+   take 3: score +0.37  wer 0.00  end -4.2st  2.6w/s  rushed ['someone', 'Follow']  heard: Side money on a work computer is never secret, someone is always watch
+   take 4: score -2.45  wer 0.00  end +0.0st  2.7w/s  rushed ['computer', 'Someone', 'Follow']  heard: Side money on a work computer is never secret. Someone is always watch
+scene 12: 6.26s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+66.91s, force-aligned 167 words
+takes kept whole (no sentence re-cut) -> jobs/t3700022/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.82, 0.62, 0.6, 0.68, 0.44, 0.58, 0.5, 0.64, 0.4, 0.5, 1.1]

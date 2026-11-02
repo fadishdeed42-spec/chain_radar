@@ -1,0 +1,97 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "They used a nuclear weapons supercomputer, to mine bitcoin.",
+   0.72,
+   0.36
+  ],
+  [
+   "Sah-rov, Russia. A closed city that doesn't appear on maps.",
+   0.64,
+   0.22
+  ],
+  [
+   "This is where the Soviet Union built its first atomic bomb. Today, it still works on nuclear warheads.",
+   0.62,
+   0.3
+  ],
+  [
+   "Inside: a supercomputer with one petaflop of power. A million billion calculations every second.",
+   0.72,
+   0.36
+  ],
+  [
+   "February twenty eighteen. Bitcoin had touched almost twenty thousand dollars two months earlier.",
+   0.64,
+   0.22
+  ],
+  [
+   "And a few engineers get an idea. They quietly put the supercomputer to work mining bitcoin.",
+   0.72,
+   0.22
+  ],
+  [
+   "One problem. Mining needs the internet. And a nuclear weapons lab is supposed to stay offline.",
+   0.62,
+   0.3
+  ],
+  [
+   "The moment they connect it, security sees everything. Russia's security service, the F S B, walks in.",
+   0.72,
+   0.36
+  ],
+  [
+   "The lab calls it 'a hopeless and criminal offense.'",
+   0.72,
+   0.28
+  ],
+  [
+   "The price? One engineer was fined four hundred fifty thousand rubles. About seven thousand dollars.",
+   0.72,
+   0.28
+  ],
+  [
+   "The most powerful computer in town, and all it earned them was a fine.",
+   0.6,
+   0.5,
+   "end"
+  ],
+  [
+   "Side money on a work computer is never secret. Someone is always watching. Follow Chain Secrets.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  "They used a nuclear weapons supercomputer... to mine bitcoin.",
+  "Sarov, Russia. A closed city that doesn't appear on maps.",
+  null,
+  null,
+  null,
+  null,
+  null,
+  "The moment they connect it... security sees everything. Russia's security service, the F S B, walks in.",
+  null,
+  null,
+  "The most powerful computer in town... and all it earned them was a fine.",
+  null
+ ],
+ "check": [
+  "They used a nuclear weapons supercomputer... to mine bitcoin.",
+  "Sarov, Russia. A closed city that doesn't appear on maps.",
+  "This is where the Soviet Union built its first atomic bomb. Today, it still works on nuclear warheads.",
+  "Inside: a supercomputer with one petaflop of power. A million billion calculations every second.",
+  "February twenty eighteen. Bitcoin had touched almost twenty thousand dollars two months earlier.",
+  "And a few engineers get an idea. They quietly put the supercomputer to work mining bitcoin.",
+  "One problem. Mining needs the internet. And a nuclear weapons lab is supposed to stay offline.",
+  "The moment they connect it... security sees everything. Russia's security service, the F S B, walks in.",
+  "The lab calls it 'a hopeless and criminal offense.'",
+  "The price? One engineer was fined four hundred fifty thousand rubles. About seven thousand dollars.",
+  "The most powerful computer in town... and all it earned them was a fine.",
+  "Side money on a work computer is never secret. Someone is always watching. Follow Chain Secrets."
+ ]
+}
