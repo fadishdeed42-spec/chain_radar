@@ -1,0 +1,38 @@
+name: longvoice
+# Long YouTube videos: the house voice (Chatterbox + am_liam, studio/cvoice.py), one parallel job per chapter chunk.
+on:
+  workflow_dispatch:
+    inputs:
+      dir: {description: 'folder with cN.json voice files', required: true, default: long/iran/voice}
+      chunks: {description: 'JSON list of chunk names', required: true, default: '["c0"]'}
+permissions:
+  contents: read
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: ${{ fromJSON(github.event.inputs.chunks) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: install
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng rubberband-cli
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts soundfile requests librosa faster-whisper && pip cache purge
+      - name: voice
+        run: python -u studio/cvoice.py ${{ github.event.inputs.dir }}/${{ matrix.chunk }}.json 2>&1 | grep -v Sampling
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: voice-${{ matrix.chunk }}
+          path: |
+            ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.wav
+            ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.srt
+            ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.log
+            ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.json
