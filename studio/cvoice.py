@@ -59,6 +59,7 @@ def asr_wer(w, sr, text):
     LAST_RUSHED = [w.word.strip() for s in segs for w in (s.words or [])                 # a long word squeezed into a blink = hard to understand
                    if len(re.sub(r'\W', '', w.word)) >= 6 and (w.end - w.start) < .032 * len(re.sub(r'\W', '', w.word)) + .04]
     def n(t):                                                     # both sides as spoken words: "$6.3 billion" == "six point three billion dollars"
+        t = re.sub(r'(\d)\s*[-–]\s*(\d)', r'\1 to \2', t)           # "2014-2017" heard == "2014 to 2017" said
         try:
             import story
             t = ' '.join(w for _, sp in story.plan_line(t) for w in sp)
