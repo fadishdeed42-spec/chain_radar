@@ -9,7 +9,7 @@ Output: <name>.wav (24k), <name>_words.srt (forced-aligned word times), <name>.s
 import sys, os, json
 import numpy as np, soundfile as sf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from align import align_words, ts, jhash
+from align import align_words, refine_words, ts, jhash
 
 def kok_ref(path):
     from kokoro import KPipeline
@@ -207,7 +207,7 @@ def run(path):
         os.remove(a_); os.remove(b_); log.append('lines levelled + gentle compressor (no pumping)')
     except Exception as e:
         log.append(f'leveling skipped {e}')
-    wt = align_words(audio, sr, words); log.append(f'{len(audio)/sr:.2f}s, force-aligned {len(words)} words')
+    wt = refine_words(audio, sr, align_words(audio, sr, words)); log.append(f'{len(audio)/sr:.2f}s, force-aligned {len(words)} words (snapped to the voice)')
     cues = []
     for i, sc in enumerate(cfg['scenes']):
         idx = [k for k in range(len(words)) if owner[k] == i]; cues.append((wt[idx[0]][0], wt[idx[-1]][1], sc[0]))
