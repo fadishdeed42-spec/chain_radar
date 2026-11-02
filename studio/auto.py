@@ -500,8 +500,9 @@ def sc_counter(cv, t, i, v, a):
     q = back(seg(t, P(i) + .1, P(i) + .5))                                # the counter waits at 0, then runs on the hit word
     counter(cv, s, yc, size, ALT if val >= 0 else BAD, a * clamp(q) * (.55 + .45 * clamp(p * 4)), glow=p > 0)
     if v.get('label'):
-        cv.text(W / 2, yc + size * .85, str(v['label']).upper(), 'black', fit(str(v['label']).upper(), 'black', 46, 960), MUTED,
-                a * seg(t, P(i) + .3, P(i) + .6), anchor='cm', track=10)
+        lab = str(v['label']).upper(); tr = 10 if len(lab) <= 18 else 3                 # wide tracking only for short labels (never off-screen)
+        cv.text(W / 2, yc + size * .85, lab, 'black', fit(lab, 'black', 46, 960 - tr * len(lab)), MUTED,
+                a * seg(t, P(i) + .3, P(i) + .6), anchor='cm', track=tr)
 
 
 def sc_stamp(cv, t, i, v, a):

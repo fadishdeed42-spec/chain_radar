@@ -235,7 +235,7 @@ def sc_servers(cv, t, i, v, a):
         lab = str(v['label']).upper()
         slam(cv, t, h - .1, lab, 400, fit(lab, 'black', 120, 980), ACC, a)
         if v.get('sub'):
-            cv.text(W / 2, 480, str(v['sub']).upper(), 'black', fit(str(v['sub']).upper(), 'black', 40, 960), TXT, a * seg(t, h + .2, h + .5), anchor='cm', track=4)
+            cv.text(W / 2, 480, str(v['sub']).upper(), 'black', fit(str(v['sub']).upper(), 'black', 40, 900), TXT, a * seg(t, h + .2, h + .5), anchor='cm')
 
 
 # ---------------------------------------------------------------- vote / ballot
