@@ -24,11 +24,12 @@ def trim(w, sr, tail):
     win = int(.01 * sr)
     if len(w) < win * 4: return w
     e = np.sqrt(np.convolve(w ** 2, np.ones(win) / win, mode='same'))
-    nz = np.where(e > max(.002, .03 * e.max()))[0]
+    nz = np.where(e > max(.0015, .015 * e.max()))[0]               # 1.5 %: soft word endings ("s", falling vowels) are kept, not chopped
     if not len(nz): return w
-    w = w[max(0, nz[0] - int(.06 * sr)):min(len(w), nz[-1] + int(tail * sr))].copy()
-    fi, fo = int(.012 * sr), int(.04 * sr)
-    w[:fi] *= np.linspace(0, 1, fi) ** .5; w[-fo:] *= np.linspace(1, 0, fo) ** 1.5      # no clicks at line edges
+    w = w[max(0, nz[0] - int(.08 * sr)):min(len(w), nz[-1] + int(tail * sr))].copy()
+    fi, fo = int(.015 * sr), int(.09 * sr)
+    w[:fi] *= np.linspace(0, 1, fi) ** .5
+    w[-fo:] *= (.5 + .5 * np.cos(np.linspace(0, np.pi, fo)))           # long cosine fade: lines end naturally, never a sharp stop
     return w
 
 
@@ -105,6 +106,21 @@ def phonetic_variant(said, heard):
             print('phonetic fail', repr(e)[:80])
     return None
 
+def flow_report(audio, sr, wt, owner, base):
+    """measure what a listener hears: pauses inside lines (hangs), gaps between lines, and line ends that stop sharply"""
+    rep = {'hangs': [], 'sharp_ends': [], 'line_gaps': []}
+    for k in range(len(wt) - 1):
+        g = wt[k + 1][0] - wt[k][1]
+        if owner[k] == owner[k + 1] and g > .7: rep['hangs'].append([round(wt[k][1], 2), round(g, 2)])
+        if owner[k] != owner[k + 1]: rep['line_gaps'].append(round(g, 2))
+    env = lambda a, b: float(np.sqrt((audio[max(0, int(a * sr)):max(int(a * sr) + 1, int(b * sr))] ** 2).mean()))
+    for k in range(len(wt)):
+        if k == len(wt) - 1 or owner[k] != owner[k + 1]:
+            e1 = wt[k][1]; body = env(wt[k][0], e1); tail = env(e1 + .12, e1 + .16)
+            if body > 0 and tail / body > .35: rep['sharp_ends'].append([round(e1, 2), round(tail / body, 2)])
+    json.dump(rep, open(base + '_flow.json', 'w'), indent=1)
+    return f"flow: {len(rep['hangs'])} hangs >0.7s inside lines, {len(rep['sharp_ends'])} possible sharp line ends, line gaps {rep['line_gaps']}"
+
 
 def run(path):
     import torch
@@ -127,7 +143,7 @@ def run(path):
         for k in range(n_max):
             tt = variants[k % len(variants)]
             w = m.generate(tt, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
-            w = trim(w.squeeze().numpy().astype(np.float32), sr, .45 if end else .12)
+            w = trim(w.squeeze().numpy().astype(np.float32), sr, .5 if end else .22)
             try:
                 wer, heard = asr_wer(w, sr, chk); rushed = list(LAST_RUSHED)
                 if tt != chk: wer = min(wer, asr_wer(w, sr, tt)[0])
@@ -155,7 +171,7 @@ def run(path):
                 log.append(f'   phonetic variant: {ph[:90]}')
                 for k in range(3):
                     w = m.generate(ph, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
-                    w = trim(w.squeeze().numpy().astype(np.float32), sr, .45 if end else .12)
+                    w = trim(w.squeeze().numpy().astype(np.float32), sr, .5 if end else .22)
                     try: wer, heard = asr_wer(w, sr, chk)
                     except Exception as e: wer, heard = 1.0, f'asr failed {e}'
                     wps = len(ph.split()) / (len(w) / sr)
@@ -163,6 +179,15 @@ def run(path):
                     log.append(f'   take P{k+1}: score {score:+.2f}  wer {wer:.2f}  {wps:.1f}w/s  heard: {heard.strip()[:70]}')
                     if wer < best[2] - .02: best = (score, w, wer, heard, ph)
                     if wer <= .06: break
+        if best[2] > .08:                                           # still a wrong/extra/repeated word: more plain takes until one is clean
+            for k in range(4):
+                w = m.generate(t, audio_prompt_path=ref, exaggeration=ex, cfg_weight=.35 if end else cfg.get('cfg', .2))
+                w = trim(w.squeeze().numpy().astype(np.float32), sr, .5 if end else .22)
+                try: wer, heard = asr_wer(w, sr, chk)
+                except Exception as e: wer, heard = 1.0, f'asr failed {e}'
+                log.append(f'   take R{k+1}: wer {wer:.2f}  heard: {heard.strip()[:70]}')
+                if wer < best[2] - .02: best = (0.0, w, wer, heard, t)
+                if wer <= .06: break
         _, w, wer, heard, tt = best
         w = level(w)
         parts += [w, np.zeros(int(gap * sr), np.float32)]
@@ -193,10 +218,19 @@ def run(path):
     lv = cfg.get('liam')                          # re-time to the original Liam take (pace + pauses); no take -> Liam-rate pacing
     d = os.path.dirname(path); import subprocess
     has = bool(lv) and os.path.exists(os.path.join(d, str(lv) + '.wav'))
-    if True:
+    if os.environ.get('LIAMPACE') == '1':
         r = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'liampace.py'), base + '.wav', base + '_words.srt',
                             f'{d}/{lv}.wav' if has else '-', f'{d}/{lv}_words.srt' if has else '-', base + 'p'], capture_output=True, text=True)
         log.append('liampace -> ' + base + 'p.wav\n' + r.stdout + r.stderr)
+    else:                                                          # Nov 2: re-cutting sentences on aligned word times chopped word endings and
+        import shutil                                              # put dead 0.4 s holes inside lines -> keep each take whole, gaps set per line
+        shutil.copy(base + '.wav', base + 'p.wav'); shutil.copy(base + '_words.srt', base + 'p_words.srt')
+        os.system(f'ffmpeg -y -loglevel error -i {base}p.wav -b:a 160k {base}p.mp3')
+        log.append('takes kept whole (no sentence re-cut) -> ' + base + 'p.wav')
+    try:
+        log.append(flow_report(audio, sr, wt, owner, base))
+    except Exception as e:
+        log.append(f'flow report failed {e}')
     open(base + '.log', 'w').write('\n'.join(log) + '\n'); print('\n'.join(log))
 
 if __name__ == '__main__':

@@ -203,7 +203,7 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
     'hype':    {'hook': .95, 'setup': .8, 'turn': .85, 'twist': .95, 'payoff': .95, 'end': .65}}
 EMOTIONS = ('tense', 'shock', 'curious', 'dark', 'funny', 'calm', 'triumph', 'sad')
 EMO_EX = {'tense': .62, 'shock': .76, 'curious': .64, 'dark': .58, 'funny': .74, 'calm': .56, 'triumph': .74, 'sad': .56}   # one narrator: feelings stay in a narrow band so lines don't sound like different readings
-EMO_GAP = {'shock': .42, 'dark': .38, 'sad': .4, 'tense': .32}                                                           # a beat of silence after heavy lines
+EMO_GAP = {'shock': .36, 'dark': .34, 'sad': .36, 'tense': .3}                                                           # a beat of silence after heavy lines
 CTA = 'Follow Chain Secrets. Every chart hides a story.'
 CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
 # ---------------------------------------------------------------- length: ONE calibrated model for the writer, the editor and the checks
@@ -396,15 +396,15 @@ def voice_job(sb):
     scenes, plan, alts, checks = [], [], [], []
     for i, s in enumerate(sb['scenes']):
         pl = plan_line(s['line'], sb['respell'])
-        text = ' '.join(w for _, sp in pl for w in sp)
+        text = ' '.join(w for _, sp in pl for w in sp).replace('…', ',').replace('...', ',').replace(',,', ',')   # '...' made the voice hang mid-line
         plain = ' '.join(w for _, sp in plan_line(s['line'], {}) for w in sp)   # the same line without respellings (the voice often says real names best)
         alts.append(plain if plain != text and len(plain.split()) == len(text.split()) else None)
         checks.append(plain)
         end = i == len(sb['scenes']) - 1
         emo = s.get('emotion') if s.get('emotion') in EMOTIONS else None
         e = (EMO_EX[emo] if emo and not end else ex['end'] if end else ex[s['role']]) + de     # the line's feeling decides how the voice says it
-        g = .55 if end else EMO_GAP.get(emo, .3 if s['role'] in ('twist', 'payoff') else .24)
-        scenes.append([text, round(min(.8, max(.5, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .5-.8: smooth, same voice on every line
+        g = .5 if end else EMO_GAP.get(emo, .28 if s['role'] in ('twist', 'payoff') else .22)
+        scenes.append([text, round(min(.72, max(.56, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .56-.72: one steady narrator, no line over- or under-acted
         plan.append(pl)
     if cta(sb):
         scenes.append([cta(sb), .7, .3])
@@ -428,7 +428,7 @@ NEG = re.compile(r'hack|stole|steal|lost|lose|crash|scam|fraud|fake|gone|vanish|
 POS = re.compile(r'won|win|rich|record|pump|soar|surge|moon|million|billion|free|profit|up', re.I)
 
 
-def build_timing(words_srt, sb, plan, out, maxg=.8, lead=.25):
+def build_timing(words_srt, sb, plan, out, maxg=.6, lead=.25):
     """Aligned spoken words -> captions (2-4 display words each), scene starts, the hit time per scene, CTA times."""
     words = parse_srt(words_srt)
     total = sum(len(sp) for pl in plan for _, sp in pl)
