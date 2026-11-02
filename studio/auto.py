@@ -396,6 +396,7 @@ def sc_title(cv, t, i, v, a):
     if SCN[i]['role'] == 'hook':                                         # hook: the big words land in the first half second
         h = min(h, P(i) + .45)
     else:
+        h = min(h, P(i) + 1.4)                                           # never a long faint wait: the title lands within 1.4 s
         kicker(cv, t, i, a)
     ic = v.get('icon')
     low = 80 if (ic and SCN[i]['role'] != 'hook') else 0                  # room for the kicker pill above the icon
