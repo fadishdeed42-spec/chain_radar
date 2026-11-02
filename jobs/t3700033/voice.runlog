@@ -7,87 +7,67 @@ loaded PerthNet (Implicit) at step 250,000
 `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  2%|▏         | 23.4M/1.18G [00:00<00:05, 245MB/s]  5%|▌         | 60.8M/1.18G [00:00<00:03, 331MB/s]  8%|▊         | 92.4M/1.18G [00:00<00:03, 326MB/s] 11%|█         | 128M/1.18G [00:00<00:03, 343MB/s]  14%|█▎        | 164M/1.18G [00:00<00:03, 357MB/s] 17%|█▋        | 202M/1.18G [00:00<00:02, 369MB/s] 20%|█▉        | 239M/1.18G [00:00<00:02, 375MB/s] 23%|██▎       | 274M/1.18G [00:00<00:02, 351MB/s] 26%|██▌       | 314M/1.18G [00:00<00:02, 371MB/s] 29%|██▉       | 350M/1.18G [00:01<00:02, 357MB/s] 32%|███▏      | 385M/1.18G [00:01<00:02, 357MB/s] 35%|███▍      | 419M/1.18G [00:01<00:02, 352MB/s] 38%|███▊      | 453M/1.18G [00:01<00:02, 351MB/s] 40%|████      | 486M/1.18G [00:01<00:02, 345MB/s] 43%|████▎     | 520M/1.18G [00:01<00:02, 349MB/s] 47%|████▋     | 560M/1.18G [00:01<00:01, 369MB/s] 50%|████▉     | 600M/1.18G [00:01<00:01, 385MB/s] 53%|█████▎    | 644M/1.18G [00:01<00:01, 404MB/s] 57%|█████▋    | 682M/1.18G [00:01<00:01, 398MB/s] 60%|█████▉    | 720M/1.18G [00:02<00:01, 398MB/s] 63%|██████▎   | 760M/1.18G [00:02<00:01, 403MB/s] 66%|██████▋   | 799M/1.18G [00:02<00:01, 395MB/s] 70%|██████▉   | 837M/1.18G [00:02<00:01, 372MB/s] 73%|███████▎  | 874M/1.18G [00:02<00:00, 379MB/s] 76%|███████▌  | 911M/1.18G [00:02<00:00, 377MB/s] 79%|███████▉  | 948M/1.18G [00:02<00:00, 380MB/s] 82%|████████▏ | 990M/1.18G [00:02<00:00, 398MB/s] 86%|████████▌ | 1.01G/1.18G [00:02<00:00, 412MB/s] 89%|████████▉ | 1.05G/1.18G [00:02<00:00, 408MB/s] 92%|█████████▏| 1.09G/1.18G [00:03<00:00, 404MB/s] 96%|█████████▌| 1.12G/1.18G [00:03<00:00, 398MB/s] 99%|█████████▉| 1.16G/1.18G [00:03<00:00, 407MB/s]100%|██████████| 1.18G/1.18G [00:03<00:00, 378MB/s]
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  1%|          | 12.8M/1.18G [00:00<00:09, 134MB/s]  6%|▌         | 69.5M/1.18G [00:00<00:02, 405MB/s] 10%|█         | 121M/1.18G [00:00<00:02, 467MB/s]  14%|█▍        | 166M/1.18G [00:00<00:03, 323MB/s] 19%|█▉        | 226M/1.18G [00:00<00:02, 410MB/s] 23%|██▎       | 281M/1.18G [00:00<00:02, 457MB/s] 29%|██▉       | 347M/1.18G [00:00<00:01, 523MB/s] 33%|███▎      | 400M/1.18G [00:00<00:01, 519MB/s] 39%|███▊      | 464M/1.18G [00:01<00:01, 561MB/s] 44%|████▍     | 527M/1.18G [00:01<00:01, 590MB/s] 49%|████▊     | 586M/1.18G [00:01<00:01, 597MB/s] 53%|█████▎    | 644M/1.18G [00:01<00:01, 574MB/s] 58%|█████▊    | 699M/1.18G [00:01<00:00, 543MB/s] 62%|██████▏   | 752M/1.18G [00:01<00:00, 527MB/s] 67%|██████▋   | 803M/1.18G [00:01<00:00, 524MB/s] 71%|███████   | 856M/1.18G [00:01<00:00, 531MB/s] 75%|███████▌  | 907M/1.18G [00:01<00:00, 532MB/s] 80%|███████▉  | 963M/1.18G [00:01<00:00, 548MB/s] 84%|████████▍ | 0.99G/1.18G [00:02<00:00, 546MB/s] 89%|████████▉ | 1.05G/1.18G [00:02<00:00, 571MB/s] 94%|█████████▍| 1.10G/1.18G [00:02<00:00, 558MB/s] 99%|█████████▉| 1.16G/1.18G [00:02<00:00, 584MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 524MB/s]
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
   self.gen = func(*args, **kwds)
-json 87e5866ac873
-   take 1: score -1.68  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'Britain']  heard: 61,000 Bitcoin found in Britain taken from 128,000 people in China.
-   take 2: score -1.66  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'Britain,']  heard: 61,000 Bitcoin found in Britain, taken from 128,000 people in China.
-   take 3: score +1.14  wer 0.00  end -9.7st  2.5w/s  rushed ['Britain']  heard: 61,000 bitcoin found in Britain taken from 128,000 people in China.
-   take 4: score -3.07  wer 0.06  end +0.0st  3.0w/s  rushed ['Bitcoin,', 'Britain,', 'people']  heard: 61,000 Bitcoin, down in Britain, taken from 128,000 people in China.
-scene 1: 5.99s ex 0.76  chosen wer 0.00
-   take 1: score -1.45  wer 0.24  end +0.0st  2.6w/s  heard: 2014-2017, a woman in China runs a fake investment scheme.
-   take 2: score -2.46  wer 0.24  end +0.0st  2.9w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
-   take 3: score -1.65  wer 0.24  end +0.0st  2.9w/s  heard: 2014-2017, a woman in China runs a fake investment scheme.
-   take 4: score -2.70  wer 0.24  end +0.0st  3.0w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
-scene 2: 5.39s ex 0.58  chosen wer 0.24
-   take 1: score -0.06  wer 0.00  end +0.0st  2.5w/s  heard: Police close in.  She flees on a fake passport through Southeast Asia 
-   take 2: score -0.04  wer 0.00  end +0.0st  2.7w/s  heard: Police close in.  She flees on a fake passport through Southeast Asia 
-   take 3: score -0.70  wer 0.00  end +0.0st  3.1w/s  heard: Police close in.  She flees on a fake passport through Southeast Asia 
-scene 3: 6.00s ex 0.62  chosen wer 0.00
-   take 1: score -2.15  wer 0.07  end +0.0st  2.8w/s  rushed ['lavish', 'Bitcoin.']  heard: Bear, she lives a lavish life and tries to buy London houses with Bitc
-   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
-   take 3: score -2.64  wer 0.00  end +0.0st  3.3w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
-   take 4: score -2.41  wer 0.00  end +0.0st  3.2w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
-scene 4: 4.96s ex 0.64  chosen wer 0.00
-   take 1: score -1.64  wer 0.00  end +0.0st  2.5w/s  rushed ['Police', 'Bitcoin,']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
-   take 2: score -1.97  wer 0.04  end +0.0st  2.8w/s  rushed ['Police', 'Bitcoin,']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
-   take 3: score -1.97  wer 0.04  end +0.6st  2.5w/s  rushed ['Police', 'Bitcoin.']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
-   take 4: score -1.97  wer 0.04  end +0.0st  2.4w/s  rushed ['Police', 'bitcoin,']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
-scene 5: 9.07s ex 0.76  chosen wer 0.00
-   take 1: score +0.61  wer 0.08  end -9.7st  2.8w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called, Liberla
-   take 2: score +0.44  wer 0.08  end -4.9st  2.2w/s  rushed ['become']  heard: her dream to become the monarchs of a tiny micronation called Liberlan
-   take 3: score +0.09  wer 0.17  end -9.8st  2.8w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called  Liverla
-   take 4: score -1.33  wer 0.08  end +0.0st  2.6w/s  rushed ['become']  heard: her dream to become the monarchs of a tiny micronation called  Liberla
-scene 6: 4.36s ex 0.74  chosen wer 0.08
-   take 1: score -2.87  wer 0.00  end +0.0st  3.0w/s  rushed ['helped', 'Police', 'arrest']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
-   take 2: score -2.48  wer 0.02  end +0.0st  3.2w/s  rushed ['bitcoin', 'Police']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
-   take 3: score -2.56  wer 0.00  end +0.0st  2.9w/s  rushed ['helped', 'Police', 'arrest']  heard: In 2024, a fast-food worker who helped her gets a small Bitcoin transf
-   take 4: score -1.65  wer 0.00  end +0.0st  2.7w/s  rushed ['helped', 'arrest']  heard: In 2024, a fast-food worker who helped her gets a small Bitcoin transf
-scene 7: 8.21s ex 0.62  chosen wer 0.00
-   take 1: score -3.18  wer 0.00  end +0.0st  3.2w/s  rushed ['guilty.', 'sentence', 'months.']  heard: In 2025, she pleads guilty. Her sentence 11 years and 8 months. Her ac
-   take 2: score +0.29  wer 0.00  end -2.8st  2.4w/s  rushed ['guilty.', 'months.']  heard: In 2025, she pleads guilty. Her sentence, 11 years and 8 months. Her a
-   take 3: score -2.90  wer 0.00  end +0.0st  3.1w/s  rushed ['guilty.', 'sentence,', 'months,']  heard: In 2025, she pleads guilty. Her sentence, 11 years and eight months, h
-   take 4: score -1.65  wer 0.00  end +0.0st  2.7w/s  rushed ['guilty.', 'months.']  heard: In 2025, she pleads guilty. Her sentence 11 years and 8 months. Her ac
-scene 8: 7.85s ex 0.58  chosen wer 0.00
-   take 1: score -0.08  wer 0.00  end +0.0st  2.2w/s  heard: Those coins worth almost $5 billion today.
-   take 2: score +1.77  wer 0.00  end -6.4st  2.0w/s  heard: Those coins worth almost $5 billion today.
-scene 9: 4.06s ex 0.55 END  chosen wer 0.00
-   take 1: score -1.90  wer 0.00  end +0.0st  2.1w/s  rushed ['public', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
-   take 2: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
-   take 3: score -3.72  wer 0.00  end +0.0st  3.1w/s  rushed ['Bitcoin', 'public', 'leaves', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
-   take 4: score -2.51  wer 0.00  end +0.0st  2.4w/s  rushed ['Bitcoin', 'public', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
-scene 10: 6.41s ex 0.7  chosen wer 0.00
+json ae7f713ea881
+   take 1: score -1.62  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin,', 'Britain,']  heard: 61,000 Bitcoin, found in Britain, taken from 128,000 people in China.
+   take 2: score -1.65  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin,', 'Britain,']  heard: 61,000 Bitcoin, found in Britain, taken from 128,000 people in China.
+   take 3: score -1.66  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'Britain']  heard: 61,000 Bitcoin found in Britain taken from 128,000 people in China
+   take 4: score -1.79  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin', 'people']  heard: 61,000 Bitcoin found in Britain, taken from 128,000 people in China.
+scene 1: 5.84s ex 0.72  chosen wer 0.00
+   take 1: score -0.29  wer 0.24  end -3.2st  2.7w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take 2: score -2.64  wer 0.24  end +0.0st  3.0w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take 3: score -0.86  wer 0.00  end -0.6st  2.7w/s  rushed ['investment']  heard: 2014 to 2017. A woman in China runs a fake investment scheme.
+   take 4: score -2.32  wer 0.24  end +0.0st  2.7w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take R1: wer 0.24  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take R2: wer 0.24  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take R3: wer 0.24  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take R4: wer 0.24  heard: 2014-2017. A woman in China runs a fake investment scheme.
+scene 2: 5.26s ex 0.58  chosen wer 0.24
+   take 1: score -1.27  wer 0.00  end +0.0st  3.0w/s  rushed ['Southeast']  heard: Police close in.  She flees on a fake passport through Southeast Asia 
+   take 2: score -1.43  wer 0.00  end +0.0st  3.1w/s  rushed ['Southeast']  heard: Police close in.  She flees on a fake passport through Southeast Asia 
+   take 3: score -0.17  wer 0.00  end +0.0st  2.9w/s  heard: Police close in. She flees on a fake passport through Southeast Asia t
+scene 3: 5.54s ex 0.62  chosen wer 0.00
+   take 1: score -2.02  wer 0.00  end +0.0st  3.0w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
+   take 2: score -1.81  wer 0.00  end +0.0st  2.9w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
+   take 3: score -1.98  wer 0.00  end +0.0st  3.0w/s  rushed ['lavish', 'bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with bit
+   take 4: score -2.36  wer 0.00  end +0.0st  3.2w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life, and tries to buy London houses with Bi
+scene 4: 4.81s ex 0.64  chosen wer 0.00
+   take 1: score -1.89  wer 0.04  end +0.0st  2.7w/s  rushed ['Police', 'Bitcoin']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
+   take 2: score +0.11  wer 0.04  end -1.5st  2.7w/s  rushed ['Police', 'Bitcoin']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
+   take 3: score -0.12  wer 0.08  end -1.6st  2.5w/s  rushed ['Police', 'Bitcoin.']  heard: That's our mistake.  In 2018, a law firm raises the alarm.  Police sei
+   take 4: score -1.88  wer 0.04  end +0.0st  2.7w/s  rushed ['Police', 'bitcoin.']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
+scene 5: 8.56s ex 0.72  chosen wer 0.04
+   take 1: score -1.03  wer 0.08  end -8.1st  3.3w/s  rushed ['become', 'monarch']  heard: Her dream to become the monarch of a tiny micronation called Liverland
+   take 2: score +0.70  wer 0.08  end -13.2st  2.6w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called  Liberla
+   take 3: score -0.67  wer 0.30  end -10.4st  2.5w/s  rushed ['become']  heard: Herdring to become the monarchs of a tiny micronation called  Liverlan
+   take 4: score +0.51  wer 0.08  end -2.4st  2.9w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called Liberlan
+   take R1: wer 0.25  heard: Her dream to become the monarchs of a tiny migration called Liverland.
+   take R2: wer 0.22  heard: Herdrine to become the monarchs of a tiny micronation called  Liberlan
+   take R3: wer 0.08  heard: Her dream to become the monarchs of a tiny micronation called Liberlan
+   take R4: wer 0.08  heard: her dream to become the monarch of a tiny micronation called Liverland
+scene 6: 4.61s ex 0.72  chosen wer 0.08
+   take 1: score -0.57  wer 0.00  end -2.5st  2.9w/s  rushed ['Bitcoin', 'Police', 'arrest']  heard: In 2024, a fast food worker who helped her gets a small Bitcoin transf
+   take 2: score -0.84  wer 0.00  end +0.0st  2.7w/s  rushed ['arrest']  heard: In 2024, a fast food worker who helped her gets a small Bitcoin transf
+   take 3: score -3.35  wer 0.00  end +0.0st  2.9w/s  rushed ['bitcoin', 'Police', 'watching.', 'arrest']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
+   take 4: score -1.66  wer 0.00  end -2.8st  3.0w/s  rushed ['helped', 'Police', 'watching.', 'arrest']  heard: In 2024, a fast-food worker who helped her gets a small bitcoin transf
+scene 7: 7.65s ex 0.62  chosen wer 0.00
+   take 1: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['guilty.']  heard: In 2025, she pleads guilty. Her sentence, 11 years and eight months. H
+   take 2: score -0.83  wer 0.00  end +0.0st  2.5w/s  rushed ['guilty.']  heard: In 2025, she pleads guilty. Her sentence, 11 years and eight months, h
+   take 3: score -1.61  wer 0.00  end +0.0st  2.6w/s  rushed ['guilty.', 'months.']  heard: In 2025, she pleads guilty. Her sentence 11 years and 8 months. Her ac
+   take 4: score +0.26  wer 0.00  end -1.3st  2.4w/s  rushed ['guilty.', 'sentence,']  heard: In 2025, she pleads guilty. Her sentence, 11 years and 8 months. Her a
+scene 8: 8.03s ex 0.58  chosen wer 0.00
+   take 1: score -0.22  wer 0.00  end +0.0st  2.0w/s  heard: Those coins worth almost $5 billion today.
+   take 2: score -0.28  wer 0.00  end +0.0st  1.9w/s  heard: Those coins worth almost $5 billion today.
+   take 3: score +1.73  wer 0.00  end -8.1st  1.9w/s  heard: Those coins worth almost $5 billion today.
+scene 9: 4.19s ex 0.56 END  chosen wer 0.00
+   take 1: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['public']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+   take 2: score -1.61  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin', 'public']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+   take 3: score -1.69  wer 0.00  end +0.0st  2.5w/s  rushed ['public', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+   take 4: score -1.61  wer 0.00  end +0.0st  2.6w/s  rushed ['public', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+scene 10: 6.10s ex 0.7  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-66.06s, force-aligned 159 words
-liampace -> jobs/t3700033/voicep.wav
-rate x1.00 gap 0.40 | sixty-one thousand bitcoin.
-rate x1.00 gap 0.40 | Found in Britain.
-rate x1.00 gap 0.40 | Taken from one hundred twenty-eight thousand people in China.
-rate x1.00 gap 0.40 | twenty fourteen to twenty seventeen.
-rate x1.00 gap 0.40 | A woman in China runs a fake investment scheme.
-rate x1.00 gap 0.40 | Police close in.
-rate x1.00 gap 0.40 | She flees on a fake passport, through Southeast Asia, to the U K.
-rate x1.00 gap 0.40 | There, she lives a lavish life.
-rate x1.00 gap 0.40 | And tries to buy London houses with bitcoin.
-rate x1.00 gap 0.40 | That's her mistake.
-rate x1.00 gap 0.40 | In twenty eighteen, a law firm raises the alarm.
-rate x1.00 gap 0.40 | Police seize the bitcoin.
-rate x1.00 gap 0.40 | sixty-one thousand coins.
-rate x1.00 gap 0.40 | A U K record.
-rate x1.00 gap 0.40 | Her dream:
-rate x1.00 gap 0.40 | to become the 'monarch' of a tiny micronation called Liberland.
-rate x1.00 gap 0.40 | In twenty twenty-four, a fast-food worker who helped her gets a small bitcoin transfer.
-rate x1.00 gap 0.40 | Police are watching.
-rate x1.00 gap 0.40 | They arrest her in York.
-rate x1.00 gap 0.40 | In twenty twenty-five, she pleads guilty.
-rate x1.00 gap 0.40 | Her sentence:
-rate x1.00 gap 0.40 | eleven years and eight months.
-rate x1.00 gap 0.40 | Her accomplice gets almost five years.
-rate x1.00 gap 0.40 | Those coins?
-rate x1.00 gap 0.40 | Worth almost five billion dollars today.
-rate x1.00 gap 0.60 | Every bitcoin move stays on a public record.
-rate x1.00 gap 0.40 | Crime leaves a trail forever.
-rate x1.00 gap 0.40 | Follow Chain Secrets.
-total 66.73s (was 66.06s)
-
+64.00s, force-aligned 159 words
+takes kept whole (no sentence re-cut) -> jobs/t3700033/voicep.wav
+flow: 0 hangs >0.7s inside lines, 1 possible sharp line ends, line gaps [0.72, 0.6, 0.86, 0.42, 0.6, 0.6, 0.62, 0.72, 1.08]
