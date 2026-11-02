@@ -341,7 +341,8 @@ def check(sb, strict=True):
         s['shots'] = [{'words': re.sub(r'\s+', ' ', str(h.get('words', ''))).strip()[:60], 'q': str(h.get('q', '')).strip()[:60]}
                       for h in (s.get('shots') or []) if isinstance(h, dict) and str(h.get('q', '')).strip()][:5]
         rc = s.get('receipt') if isinstance(s.get('receipt'), dict) else None
-        s['receipt'] = {'src': str(rc.get('src', ''))[:40], 'headline': str(rc.get('headline', ''))[:140]} if rc and str(rc.get('headline', '')).strip() else None
+        s['receipt'] = {'src': str(rc.get('src', ''))[:40], 'headline': str(rc.get('headline', ''))[:140],
+                        'kind': str(rc.get('kind', 'headline'))[:12]} if rc and str(rc.get('headline', '')).strip() else None
         if not s['receipt']: s.pop('receipt')
         s['photo'] = str(s.get('photo') or '')[:60]
         toks = [re.sub(r'[^\w$%]', '', t).lower() for t in s['line'].split()]

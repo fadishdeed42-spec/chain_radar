@@ -1,0 +1,184 @@
+{
+ "title": "They Meant to Refund $100… They Sent $10.5 Million 💸",
+ "tone": "funny",
+ "theme": "emerald",
+ "length": 60,
+ "chart": null,
+ "lesson": "Money sent to you by mistake is never yours. It always comes back for you.",
+ "description": "May 2021: Crypto.com owed an Australian customer a refund of about A$100. An employee entered an account number in the amount field and A$10.47 million was sent. Nobody noticed for seven months, until a December 2021 audit. By then a A$1.35M house in Melbourne had been bought for her sister. The Supreme Court of Victoria ordered the house sold and the money returned, with interest.\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#CryptoCom #Crypto #Mistake #Australia #ChainSecrets #shorts",
+ "pinned": "Be honest: would YOU have noticed $10 million in your account? 👇",
+ "respell": {},
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "10.5 million Australian dollars. Sent by mistake. It was supposed to be a 100 dollar refund.",
+   "hit": "mistake",
+   "visual": {
+    "type": "counter",
+    "value": 10470000,
+    "prefix": "A$",
+    "suffix": "",
+    "label": "SENT BY MISTAKE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "May 2021. Crypto.com, the company that paid 700 million dollars to put its name on an arena in Los Angeles, owes an Australian woman a small refund. About 100 dollars.",
+   "hit": "refund",
+   "visual": {
+    "type": "title",
+    "text": "REFUND: A$100",
+    "sub": "May 2021",
+    "icon": "cash"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "funny",
+   "line": "An employee types her account number… into the amount box.",
+   "hit": "box",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "AMOUNT BOX",
+     "A$100"
+    ],
+    "right": [
+     "TYPED IN",
+     "ACCOUNT NO."
+    ],
+    "note": "ONE WRONG BOX"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "shock",
+   "line": "10.47 million dollars lands in her account. And nobody notices.",
+   "hit": "notices",
+   "visual": {
+    "type": "counter",
+    "value": 10470000,
+    "prefix": "A$",
+    "suffix": "",
+    "label": "LANDS IN HER ACCOUNT"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Yahoo Finance",
+    "headline": "Woman buys house after crypto firm accidentally sends her $10.5 million",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "turn",
+   "emotion": "funny",
+   "line": "Not for a day. Not for a week. For seven months.",
+   "hit": "months",
+   "visual": {
+    "type": "timer",
+    "text": "7 MONTHS",
+    "label": "NOBODY NOTICED"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "tense",
+   "line": "In December, an audit finally finds the hole.",
+   "hit": "hole",
+   "visual": {
+    "type": "stamp",
+    "icon": "safe",
+    "label": "DECEMBER 2021 AUDIT",
+    "word": "FOUND IT",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "funny",
+   "line": "But the money has already moved. A five-bedroom house in Melbourne. 1.35 million dollars. Bought for her sister.",
+   "hit": "sister",
+   "visual": {
+    "type": "title",
+    "text": "A$1.35M HOUSE",
+    "sub": "bought for her sister",
+    "icon": "house"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Decrypt",
+    "headline": "Crypto.com Sues Woman After Sending Her $10 Million by Mistake: Report",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "payoff",
+   "emotion": "triumph",
+   "line": "Crypto.com takes her to court. The judge orders the house sold.",
+   "hit": "sold",
+   "visual": {
+    "type": "stamp",
+    "icon": "gavel",
+    "label": "SUPREME COURT OF VICTORIA",
+    "word": "SELL IT",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "funny",
+   "line": "And the money goes back. With interest. One wrong box. Ten million dollars.",
+   "hit": "interest",
+   "visual": {
+    "type": "face",
+    "mood": "cry",
+    "text": "WITH INTEREST",
+    "sub": "one wrong box"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "library": "st-21"
+}

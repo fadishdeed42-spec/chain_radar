@@ -24,6 +24,20 @@ PACK = {  # tone style packs
     'hype':    dict(acc=UP, alt=GOLD, bad=DN, shake=1.2, whip=1.0, person=(150, 158, 176), impacts=('hook', 'turn', 'twist', 'payoff', 'end')),
 }[TONE]
 ACC, ALT, BAD = PACK['acc'], PACK['alt'], PACK['bad']
+THEMES = {  # colour themes, so back-to-back Shorts never look the same (storyboard "theme")
+    'violet':  dict(acc=PURPLE, alt=(190, 160, 255), bg=(13, 17, 26), bg2=(19, 24, 36)),
+    'crimson': dict(acc=(255, 84, 92), alt=(255, 176, 120), bg=(18, 11, 15), bg2=(42, 17, 24)),
+    'emerald': dict(acc=(38, 214, 160), alt=(255, 206, 84), bg=(9, 18, 17), bg2=(14, 38, 34)),
+    'ocean':   dict(acc=(76, 156, 255), alt=(120, 226, 255), bg=(9, 14, 26), bg2=(16, 30, 56)),
+    'amber':   dict(acc=(255, 186, 46), alt=(255, 132, 64), bg=(17, 14, 9), bg2=(42, 31, 12)),
+    'teal':    dict(acc=(40, 210, 220), alt=(255, 120, 170), bg=(8, 17, 21), bg2=(12, 36, 44)),
+}
+THEME = THEMES.get(str(SB.get('theme') or '').lower())
+if THEME:
+    ACC, ALT = THEME['acc'], THEME['alt']
+    import engine as _eng
+    _eng.BG, _eng.BG2 = THEME['bg'], THEME['bg2']                      # background() reads these on its first frame
+    cs.BG = BG = THEME['bg']                                            # fades, lesson card and end card match the theme
 cs.SHAKE, cs.WHIP = PACK['shake'], PACK['whip']
 cs.TAGLINE = 'every chart hides a story' if SB.get('chart') else ''
 cs.LESSON = str(SB.get('lesson') or '') if cs.LESSON_T is not None else ''
@@ -823,7 +837,8 @@ def receipt_card(cv, t, i):
     cv.rect(x0, y0, x0 + 14, y0 + hgt, BAD, al, r=7)
     src = ('📰 ' if False else '') + str(rc.get('src', 'NEWS')).upper()[:30]
     cv.text(x0 + 44, y0 + 46, src, 'black', 30, (190, 40, 60), al, anchor='lm', track=4)
-    cv.text(x1 - 30, y0 + 46, 'HEADLINE', 'bold', 24, (120, 128, 140), al, anchor='rm', track=3)
+    kind = {'post': 'POST', 'quote': 'ON THE RECORD', 'court': 'COURT RECORD', 'data': 'ON-CHAIN DATA'}.get(str(rc.get('kind', '')).lower(), 'HEADLINE')
+    cv.text(x1 - 30, y0 + 46, kind, 'bold', 24, (120, 128, 140), al, anchor='rm', track=3)
     for k, ln in enumerate(lines):
         cv.text(x0 + 44, y0 + 108 + k * 58, ln, 'black', 44, (16, 20, 28), al, anchor='lm')
 
@@ -845,9 +860,23 @@ def _shrink(cv, base, s):
     cv.a = base * (1 - Mw) + Lw * Mw
 
 
+def _lower(cv, base, s=.84, dy=.09):
+    """a headline card sits at the top: scale what the template drew and move it down so nothing overlaps"""
+    L = cv.a
+    M = np.clip(np.abs(L - base).sum(2) / 30, 0, 1).astype(np.float32)
+    Mx = np.float32([[s, 0, RW / 2 * (1 - s)], [0, s, RH * .30 * (1 - s) + RH * dy]])
+    Lw = cv2.warpAffine(L, Mx, (RW, RH), flags=cv2.INTER_LINEAR)
+    Mw = cv2.warpAffine(M, Mx, (RW, RH), flags=cv2.INTER_LINEAR)[..., None]
+    cv.a = base * (1 - Mw) + Lw * Mw
+
+
+LOWER = ('title', 'versus', 'quote', 'stamp', 'face', 'timer', 'date', 'person', 'flow')   # counter and list already make room
+
+
 def make_scene(i):
     v = SCN[i]['visual']; fn = TEMPLATES[v['type']]
     last = i == len(SCN) - 1
+    low = bool(SCN[i].get('receipt')) and v['type'] in LOWER
 
     def scene(cv, t):
         a = 1.0 if last else fade(t, i)
@@ -856,7 +885,9 @@ def make_scene(i):
         sh = SHRINK.get(v['type']) if i in SHOTS else None
         base = cv.a.copy() if sh else None
         ambient(cv, t)
+        lb = cv.a.copy() if low else None
         fn(cv, t, i, v, a)
+        if low: _lower(cv, lb)
         if sh: _shrink(cv, base, sh)
     return scene
 

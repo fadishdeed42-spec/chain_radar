@@ -1,0 +1,182 @@
+{
+ "title": "61,000 Bitcoin Found in Britain… Taken from 128,000 People 👑",
+ "tone": "serious",
+ "theme": "teal",
+ "length": 60,
+ "chart": {
+  "symbol": "BTC",
+  "start": "2017-01-01",
+  "end": "2026-11-02"
+ },
+ "lesson": "Every bitcoin move stays on a public record. Crime leaves a trail forever.",
+ "description": "2014-2017: Zhimin Qian ran an investment fraud in China with 128,000 victims, then fled on a fake passport to the UK. UK police seized 61,000 BTC, a UK record. She wanted to become 'monarch' of the micronation Liberland. A transfer to her helper led police to arrest her in York in 2024. She pleaded guilty and in November 2025 was sentenced to 11 years and 8 months.\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Bitcoin #Crime #UK #CryptoNews #ChainSecrets #shorts",
+ "pinned": "What should happen to the 61,000 bitcoin? 👇",
+ "respell": {
+  "Zhimin Qian": "Jee-min Chyen",
+  "Qian": "Chyen"
+ },
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "on"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "61,000 bitcoin. Found in Britain. Taken from 128,000 people in China.",
+   "hit": "Britain",
+   "visual": {
+    "type": "counter",
+    "value": 61000,
+    "prefix": "",
+    "suffix": " BTC",
+    "label": "SEIZED IN THE UK"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "dark",
+   "line": "2014 to 2017. Zhimin Qian runs a fake investment scheme in China.",
+   "hit": "scheme",
+   "visual": {
+    "type": "counter",
+    "value": 128000,
+    "prefix": "",
+    "suffix": "",
+    "label": "VICTIMS IN CHINA"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Al Jazeera",
+    "headline": "UK sentences Chinese scammer after record-breaking Bitcoin seizure",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "turn",
+   "emotion": "tense",
+   "line": "Police close in. She flees on a fake passport, through Southeast Asia, to the UK.",
+   "hit": "passport",
+   "visual": {
+    "type": "stamp",
+    "icon": "plane",
+    "label": "FAKE PASSPORT",
+    "word": "ESCAPED",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "curious",
+   "line": "There, she lives a lavish life. And tries to buy London houses with bitcoin.",
+   "hit": "houses",
+   "visual": {
+    "type": "title",
+    "text": "LONDON HOUSES",
+    "sub": "paid in bitcoin?",
+    "icon": "house"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "That's her mistake. In 2018, a law firm raises the alarm. Police seize the bitcoin. 61,000 coins. A UK record.",
+   "hit": "record",
+   "visual": {
+    "type": "chart",
+    "date": "2018-06-01",
+    "label": "2018 · 61,000 BTC SEIZED"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "funny",
+   "line": "Her dream: to become the 'monarch' of a tiny micronation called Liberland.",
+   "hit": "Liberland",
+   "visual": {
+    "type": "title",
+    "text": "QUEEN OF LIBERLAND?",
+    "icon": "crown"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "tense",
+   "line": "In 2024, a fast-food worker who helped her gets a small bitcoin transfer. Police are watching. They arrest her in York.",
+   "hit": "York",
+   "visual": {
+    "type": "stamp",
+    "icon": "officer",
+    "label": "YORK, 2024",
+    "word": "ARRESTED",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "dark",
+   "line": "In 2025, she pleads guilty. Her sentence: 11 years and 8 months. Her accomplice gets almost 5 years.",
+   "hit": "months",
+   "visual": {
+    "type": "timer",
+    "text": "11Y 8M",
+    "label": "HER SENTENCE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "RNZ",
+    "headline": "UK court jails Chinese bitcoin fraudster for over 11 years",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "end",
+   "emotion": "dark",
+   "line": "Those coins? Worth almost 5 billion dollars today.",
+   "hit": "today",
+   "visual": {
+    "type": "chart",
+    "date": "2026-11-02",
+    "label": "TODAY · ~$4.75 BILLION"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "library": "st-33"
+}

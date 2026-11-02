@@ -1,0 +1,248 @@
+{
+ "title": "He Said 4–5 Weeks. It's Day 247 ⏳",
+ "tone": "serious",
+ "theme": "crimson",
+ "length": 60,
+ "chart": {
+  "symbol": "BTC",
+  "start": "2026-02-27",
+  "end": "2026-11-02"
+ },
+ "lesson": "Markets move on words. Your money should move on facts.",
+ "description": "Feb 28, 2026: US and Israeli strikes on Iran began. Mar 1, Trump: \"We intended four to five weeks.\" We counted every dated, on-record statement where he said the war would end soon, was nearly over, or that a deal to end it was days away: at least 30 (Mar 1 to Nov 1). Mar 9 \"very soon\": oil fell from above $110 to the mid-$80s, bitcoin rose to about $69K. Apr 7 ceasefire: bitcoin +2.6% in an hour. Jul 8 ceasefire \"over\": bitcoin about $62K. Trump says (Oct 1) his 4-6 weeks meant the Iran nuclear threat.\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Iran #Trump #Bitcoin #Oil #Markets #ChainSecrets #shorts",
+ "pinned": "Should markets react to \"soon\" anymore? 👇",
+ "respell": {},
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "on"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "Four to five weeks. That's how long the Iran war was supposed to take. It's been 247 days.",
+   "hit": "days",
+   "visual": {
+    "type": "counter",
+    "value": 247,
+    "prefix": "",
+    "suffix": "",
+    "label": "DAYS OF WAR"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "tense",
+   "line": "February 28, 2026. US and Israeli strikes hit Iran.",
+   "hit": "strikes",
+   "visual": {
+    "type": "date",
+    "month": "FEB",
+    "day": "28",
+    "event": "STRIKES ON IRAN"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "The next day, Trump says: 'We intended four to five weeks.'",
+   "hit": "weeks",
+   "visual": {
+    "type": "quote",
+    "name": "Donald Trump · Mar 1, 2026",
+    "text": "We intended four to five weeks."
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "shock",
+   "line": "March 9: 'Soon. Very soon.' Oil had spiked above 110 dollars. It falls back to the mid-80s.",
+   "hit": "falls",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "OIL SPIKE",
+     "$110+"
+    ],
+    "right": [
+     "AFTER 'SOON'",
+     "MID-$80s"
+    ],
+    "note": "ONE SENTENCE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "CNN",
+    "headline": "Oil prices dive as Trump says Iran war will end ‘very soon’",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "turn",
+   "emotion": "curious",
+   "line": "Bitcoin jumps to 69,000.",
+   "hit": "jumps",
+   "visual": {
+    "type": "chart",
+    "date": "2026-03-09",
+    "label": "'VERY SOON' · BTC ~$69K"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "triumph",
+   "line": "April 7: a two-week ceasefire. Bitcoin jumps 2.6 percent in one hour.",
+   "hit": "hour",
+   "visual": {
+    "type": "chart",
+    "date": "2026-04-07",
+    "label": "CEASEFIRE · +2.6% IN 1 HOUR"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "tense",
+   "line": "June: a deal is 'two or three days' away.",
+   "hit": "away",
+   "visual": {
+    "type": "quote",
+    "name": "Donald Trump · Jun 9, 2026",
+    "text": "…upon signing, which could be in two or three days."
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "dark",
+   "line": "July 8: the ceasefire is 'over.' Bitcoin drops to 62,000.",
+   "hit": "drops",
+   "visual": {
+    "type": "chart",
+    "date": "2026-07-08",
+    "label": "'CEASEFIRE OVER' · BTC ~$62K"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "tense",
+   "line": "September: the war 'will end immediately after our election.'",
+   "hit": "election",
+   "visual": {
+    "type": "title",
+    "text": "AFTER THE ELECTION",
+    "icon": "calendar"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Al Jazeera",
+    "headline": "Trump says Iran war ‘will end immediately’ after US midterm elections",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "twist",
+   "emotion": "curious",
+   "line": "November 1: 'We'll put it away very soon.'",
+   "hit": "soon",
+   "visual": {
+    "type": "quote",
+    "name": "Donald Trump · Nov 1, 2026",
+    "text": "We'll put it away very soon, one way or the other."
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "We counted every time on the record. At least 30 times, he said the end was near.",
+   "hit": "near",
+   "visual": {
+    "type": "counter",
+    "value": 30,
+    "prefix": "",
+    "suffix": "+",
+    "label": "TIMES 'SOON' · ON RECORD"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "calm",
+   "line": "Every time, the market listened. Trump now says those weeks meant the nuclear threat.",
+   "hit": "threat",
+   "visual": {
+    "type": "title",
+    "text": "HIS ANSWER",
+    "sub": "the weeks = the nuclear threat",
+    "icon": "question"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Poynter",
+    "headline": "Trump said the Iran war would last weeks. Now he says the media got it wrong.",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "end",
+   "emotion": "dark",
+   "line": "Day 247. No final deal.",
+   "hit": "deal",
+   "visual": {
+    "type": "chart",
+    "date": "2026-11-01",
+    "label": "DAY 247 · NO FINAL DEAL"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "library": "st-34"
+}

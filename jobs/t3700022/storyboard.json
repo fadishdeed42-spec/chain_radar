@@ -1,0 +1,219 @@
+{
+ "title": "They Mined Bitcoin on a Nuclear Weapons Supercomputer ☢️",
+ "tone": "funny",
+ "theme": "amber",
+ "length": 60,
+ "chart": {
+  "symbol": "BTC",
+  "start": "2017-11-01",
+  "end": "2018-02-28"
+ },
+ "lesson": "Side money on a work computer is never secret. Someone is always watching.",
+ "description": "Sarov, Russia: a closed city home to Russia's Federal Nuclear Center, where the first Soviet atomic bomb was built. In February 2018, engineers used the lab's one-petaflop supercomputer to mine crypto and were caught when they connected it to the internet. The institute called it \"a hopeless and criminal offense.\" In 2019 one engineer was fined 450,000 rubles (about $7,000).\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Bitcoin #Mining #Russia #Supercomputer #ChainSecrets #shorts",
+ "pinned": "Worst place ever to mine bitcoin? 😂 👇",
+ "respell": {
+  "Sarov": "Sah-rov",
+  "FSB": "F S B"
+ },
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "on"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "They used a nuclear weapons supercomputer… to mine bitcoin.",
+   "hit": "bitcoin",
+   "visual": {
+    "type": "title",
+    "text": "NUCLEAR MINERS",
+    "icon": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "Sarov, Russia. A closed city that doesn't appear on maps.",
+   "hit": "maps",
+   "visual": {
+    "type": "stamp",
+    "icon": "question",
+    "label": "SAROV, RUSSIA",
+    "word": "NOT ON MAPS",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "tense",
+   "line": "This is where the Soviet Union built its first atomic bomb. Today, it still works on nuclear warheads.",
+   "hit": "warheads",
+   "visual": {
+    "type": "title",
+    "text": "FIRST SOVIET A-BOMB",
+    "sub": "built here",
+    "icon": "fire"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "shock",
+   "line": "Inside: a supercomputer with one petaflop of power. A million billion calculations every second.",
+   "hit": "second",
+   "visual": {
+    "type": "title",
+    "text": "1 PETAFLOP",
+    "sub": "a million billion calculations / second",
+    "icon": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "curious",
+   "line": "February 2018. Bitcoin had touched almost 20,000 dollars two months earlier.",
+   "hit": "earlier",
+   "visual": {
+    "type": "chart",
+    "date": "2017-12-17",
+    "label": "DEC 2017 · ALMOST $20,000"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "funny",
+   "line": "And a few engineers get an idea. They quietly put the supercomputer to work mining bitcoin.",
+   "hit": "mining",
+   "visual": {
+    "type": "face",
+    "mood": "wink",
+    "text": "SIDE HUSTLE",
+    "sub": "on a nuclear computer"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "tense",
+   "line": "One problem. Mining needs the internet. And a nuclear weapons lab is supposed to stay offline.",
+   "hit": "offline",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "MINING NEEDS",
+     "INTERNET"
+    ],
+    "right": [
+     "NUKE LAB",
+     "OFFLINE"
+    ],
+    "note": "UH-OH"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "The moment they connect it… security sees everything. Russia's security service, the FSB, walks in.",
+   "hit": "walks",
+   "visual": {
+    "type": "stamp",
+    "icon": "officer",
+    "label": "RUSSIA'S FSB",
+    "word": "BUSTED",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Fortune",
+    "headline": "Russia Arrests Nuclear Scientists Who Used a Supercomputer to Mine Bitcoin",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "twist",
+   "emotion": "funny",
+   "line": "The lab calls it 'a hopeless and criminal offense.'",
+   "hit": "offense",
+   "visual": {
+    "type": "quote",
+    "name": "Institute press service (Interfax)",
+    "text": "a hopeless and criminal offense"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "funny",
+   "line": "The price? One engineer was fined 450,000 rubles. About 7,000 dollars.",
+   "hit": "dollars",
+   "visual": {
+    "type": "counter",
+    "value": 450000,
+    "prefix": "",
+    "suffix": " RUB",
+    "label": "THE FINE · ABOUT $7,000"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Decrypt",
+    "headline": "Man fined $7,000 for using Russian supercomputer to mine Bitcoin",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "end",
+   "emotion": "funny",
+   "line": "The most powerful computer in town… and all it earned them was a fine.",
+   "hit": "fine",
+   "visual": {
+    "type": "chart",
+    "date": "2018-02-09",
+    "label": "FEB 2018 · BUSTED"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "library": "st-22"
+}

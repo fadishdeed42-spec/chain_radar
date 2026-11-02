@@ -1,0 +1,206 @@
+{
+ "title": "He Borrowed $1 Billion… and Voted Himself the Treasury 🗳️",
+ "tone": "mystery",
+ "theme": "ocean",
+ "length": 60,
+ "chart": null,
+ "lesson": "If votes can be borrowed, the vote can be bought.",
+ "description": "April 2022: Beanstalk let token holders vote on proposals. An attacker submitted a proposal partly disguised as a donation to Ukraine, waited the one-day delay, then in a single transaction took about $1 billion in flash loans (Aave and others), bought voting power, passed his own proposal and drained about $181M. He repaid the loan in the same transaction, kept about $76M, and sent $250,000 to Ukraine.\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#DeFi #Ethereum #Hack #FlashLoan #ChainSecrets #shorts",
+ "pinned": "Genius or villain? 🤔 👇",
+ "respell": {
+  "Aave": "Ah-vay"
+ },
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "He borrowed one billion dollars… to vote himself the money.",
+   "hit": "money",
+   "visual": {
+    "type": "counter",
+    "value": 1000000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "BORROWED FOR ONE VOTE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "April 2022. Beanstalk, a crypto stablecoin project. Its rule: whoever holds the most votes decides.",
+   "hit": "decides",
+   "visual": {
+    "type": "title",
+    "text": "BEANSTALK",
+    "sub": "most votes decides",
+    "icon": "bank"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "An attacker posts a proposal. It looks like a donation to Ukraine.",
+   "hit": "Ukraine",
+   "visual": {
+    "type": "stamp",
+    "icon": "question",
+    "label": "PROPOSAL #18",
+    "word": "A DONATION?",
+    "bad": false
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "tense",
+   "line": "Then he waits one day.",
+   "hit": "day",
+   "visual": {
+    "type": "timer",
+    "text": "24 HRS",
+    "label": "THE WAIT"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "shock",
+   "line": "In one single transaction, he borrows about one billion dollars. A flash loan, from Aave and others.",
+   "hit": "loan",
+   "visual": {
+    "type": "title",
+    "text": "FLASH LOAN",
+    "sub": "~$1 billion · Aave + others",
+    "icon": "bank"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "rekt.news",
+    "headline": "Beanstalk - REKT",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "turn",
+   "emotion": "curious",
+   "line": "A flash loan is money you borrow and repay in the same transaction. No credit check. No collateral.",
+   "hit": "collateral",
+   "visual": {
+    "type": "list",
+    "items": [
+     "BORROW $1B",
+     "USE IT",
+     "PAY IT BACK · SAME TX"
+    ]
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "dark",
+   "line": "He uses it to buy voting power. Votes yes on his own proposal. But hidden inside is code that sends him the project's money.",
+   "hit": "money",
+   "visual": {
+    "type": "flow",
+    "from": "BEANSTALK",
+    "to": [
+     "ATTACKER"
+    ],
+    "amount": "$181M"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "181 million dollars, drained.",
+   "hit": "drained",
+   "visual": {
+    "type": "counter",
+    "value": 181000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "DRAINED"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "BleepingComputer",
+    "headline": "Beanstalk DeFi platform loses $182 million in flash-loan attack",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "payoff",
+   "emotion": "dark",
+   "line": "He pays the loan back in the same transaction. He walks away with about 76 million.",
+   "hit": "million",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "PROTOCOL LOST",
+     "$181M"
+    ],
+    "right": [
+     "HE KEPT",
+     "~$76M"
+    ],
+    "note": "ONE TRANSACTION"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "funny",
+   "line": "And the Ukraine part? He really did send 250,000 dollars.",
+   "hit": "dollars",
+   "visual": {
+    "type": "stamp",
+    "icon": "cash",
+    "label": "$250,000 TO UKRAINE",
+    "word": "REAL",
+    "bad": false
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "library": "st-23"
+}
