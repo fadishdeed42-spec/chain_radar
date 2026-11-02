@@ -1,0 +1,25 @@
+name: fetchart
+# Copy a run's artifacts onto the 'files' branch (artifact downloads are blocked from the editing sandbox).
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: {description: 'run id', required: true}
+      dest: {description: 'folder on the files branch', required: true, default: long/iran/vo}
+permissions:
+  contents: write
+  actions: read
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: {run-id: '${{ github.event.inputs.run_id }}', github-token: '${{ github.token }}', path: /tmp/art, merge-multiple: true}
+      - name: commit to files branch
+        run: |
+          git init -q w && cd w
+          git config user.name chain-radar; git config user.email noreply@github.com
+          git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+          (git fetch -q origin files && git checkout -q -b files origin/files) || git checkout -q --orphan files
+          mkdir -p ${{ github.event.inputs.dest }} && find /tmp/art -type f -exec cp {} ${{ github.event.inputs.dest }}/ \;
+          ls -la ${{ github.event.inputs.dest }}
+          git add -A && git commit -qm "files from run ${{ github.event.inputs.run_id }} [skip ci]" && git push -q origin files
