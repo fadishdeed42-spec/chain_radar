@@ -1,65 +1,59 @@
-json d6a9782ee311
-   take 1: score -2.48  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'Britain', 'people']  heard: 61,000 Bitcoin found in Britain taken from 128,000 people in China.
+json 87e5866ac873
+   take 1: score -1.68  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'Britain']  heard: 61,000 Bitcoin found in Britain taken from 128,000 people in China.
    take 2: score -1.66  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'Britain,']  heard: 61,000 Bitcoin found in Britain, taken from 128,000 people in China.
-   take 3: score +1.14  wer 0.00  end -9.7st  2.5w/s  rushed ['Britain,']  heard: 61,000 Bitcoin found in Britain, taken from 128,000 people in China.
+   take 3: score +1.14  wer 0.00  end -9.7st  2.5w/s  rushed ['Britain']  heard: 61,000 bitcoin found in Britain taken from 128,000 people in China.
    take 4: score -3.07  wer 0.06  end +0.0st  3.0w/s  rushed ['Bitcoin,', 'Britain,', 'people']  heard: 61,000 Bitcoin, down in Britain, taken from 128,000 people in China.
 scene 1: 5.99s ex 0.76  chosen wer 0.00
-   take 1: score -3.12  wer 0.38  end +0.0st  2.5w/s  rushed ['Shiman']  heard: 2014-2017. Shiman Shian runs a fake investment scheme in China.
-   take 2 (plain): score -1.11  wer 0.38  end -5.4st  2.5w/s  rushed ['investment']  heard: 2014-2017. Ziming Keon runs a fake investment scheme in China.
-   take 3: score -2.44  wer 0.38  end +0.0st  2.3w/s  heard: 2014-2017.  Jimin Chian runs a fake investment scheme in China.
-   take 4 (plain): score -2.36  wer 0.38  end +0.0st  2.5w/s  heard: 2014-2017, Jimin Chian runs a fake investment scheme in China.
-   phonetic variant: twenty fourteen to twenty seventeen. chee-min chee-ahn runs a fake investment scheme in Ch
-   take P1: score -2.58  wer 0.42  2.7w/s  heard: 2014-2017.  Chi Minh Chi-An runs a fake investment scheme in China.
-   take P2: score -3.37  wer 0.55  2.5w/s  heard: 2014-2017.  Chi Minh Chi An, run the fake investment scheme in China.
-   take P3: score -2.65  wer 0.42  2.8w/s  heard: 2014-2017. She-min She-On runs a fake investment scheme in China.
-scene 2: 5.52s ex 0.58  chosen wer 0.38
-   take 1: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Southeast']  heard: Police close in.  She flees on a fake passport through Southeast Asia 
-   take 2: score -2.18  wer 0.00  end +0.0st  3.5w/s  rushed ['Southeast']  heard: Police close in.  She flees on a fake passport through Southeast Asia 
-   take 3: score -1.96  wer 0.00  end +0.0st  3.4w/s  rushed ['Southeast']  heard: Police close in.  She flees on a fake passport through Southeast Asia 
-   take 4: score -0.69  wer 0.00  end +0.0st  3.1w/s  heard: Police close in. She flees on a fake passport through Southeast Asia t
-scene 3: 5.09s ex 0.62  chosen wer 0.00
-   take 1: score -1.00  wer 0.00  end +0.0st  2.9w/s  rushed ['bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with bit
-   take 2: score -2.60  wer 0.00  end +0.0st  3.3w/s  rushed ['lavish', 'bitcoin.']  heard: There she lives a lavish life and tries to buy London houses with bitc
-   take 3: score -0.90  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
-   take 4: score -1.79  wer 0.00  end +0.0st  2.9w/s  rushed ['London', 'bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with bit
-scene 4: 5.06s ex 0.64  chosen wer 0.00
-   take 1: score -1.97  wer 0.04  end +0.0st  2.8w/s  rushed ['Police', 'bitcoin,']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
-   take 2: score +0.14  wer 0.04  end -1.6st  2.6w/s  rushed ['Police', 'Bitcoin']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
-   take 3: score -1.94  wer 0.04  end +0.0st  2.8w/s  rushed ['Police', 'Bitcoin']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
-   take 4: score -3.56  wer 0.17  end +0.0st  2.8w/s  rushed ['Police', 'Bitcoin.', 'record.']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
-scene 5: 8.72s ex 0.76  chosen wer 0.04
-   take 1: score +0.67  wer 0.08  end -12.8st  2.7w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called Liberlan
-   take 2: score -0.60  wer 0.08  end +0.0st  2.8w/s  heard: Her dream to become the monarchs of a tiny micronation called Liberlan
-   take 3: score +0.69  wer 0.08  end -12.6st  2.6w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called, Liberla
-   take 4: score +0.46  wer 0.08  end -3.3st  2.9w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called Liberlan
-scene 6: 4.59s ex 0.74  chosen wer 0.08
-   take 1: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
-   take 2: score -0.86  wer 0.00  end -0.6st  2.5w/s  rushed ['arrest']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
-   take 3: score -1.75  wer 0.00  end +0.0st  2.9w/s  rushed ['helped', 'arrest']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
-   take 4: score -3.27  wer 0.00  end +0.0st  2.7w/s  rushed ['helped', 'Bitcoin', 'Police', 'arrest']  heard: In 2024, a fast food worker who helped her gets a small Bitcoin transf
-scene 7: 9.42s ex 0.62  chosen wer 0.00
-   take 1: score -1.65  wer 0.00  end +0.0st  2.5w/s  rushed ['guilty.', 'almost']  heard: In 2025, she pleads guilty.  Her sentence 11 years and 8 months.  Her 
-   take 2: score -1.60  wer 0.00  end +0.0st  2.6w/s  rushed ['guilty.', 'sentence,']  heard: In 2025, she pleads guilty.  Her sentence, 11 years and 8 months.  Her
-   take 3: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['guilty,']  heard: In 2025, she pleads guilty, her sentence 11 years and 8 months.  Her a
-   take 4: score -1.60  wer 0.00  end +0.0st  2.6w/s  rushed ['sentence,', 'months,']  heard: In 2025, she pleads guilty. Her sentence, 11 years and 8 months, her a
+   take 1: score -1.45  wer 0.24  end +0.0st  2.6w/s  heard: 2014-2017, a woman in China runs a fake investment scheme.
+   take 2: score -2.46  wer 0.24  end +0.0st  2.9w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
+   take 3: score -1.65  wer 0.24  end +0.0st  2.9w/s  heard: 2014-2017, a woman in China runs a fake investment scheme.
+   take 4: score -2.70  wer 0.24  end +0.0st  3.0w/s  rushed ['investment']  heard: 2014-2017. A woman in China runs a fake investment scheme.
+scene 2: 5.39s ex 0.58  chosen wer 0.24
+   take 1: score -0.06  wer 0.00  end +0.0st  2.5w/s  heard: Police close in.  She flees on a fake passport through Southeast Asia 
+   take 2: score -0.04  wer 0.00  end +0.0st  2.7w/s  heard: Police close in.  She flees on a fake passport through Southeast Asia 
+   take 3: score -0.70  wer 0.00  end +0.0st  3.1w/s  heard: Police close in.  She flees on a fake passport through Southeast Asia 
+scene 3: 6.00s ex 0.62  chosen wer 0.00
+   take 1: score -2.15  wer 0.07  end +0.0st  2.8w/s  rushed ['lavish', 'Bitcoin.']  heard: Bear, she lives a lavish life and tries to buy London houses with Bitc
+   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
+   take 3: score -2.64  wer 0.00  end +0.0st  3.3w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
+   take 4: score -2.41  wer 0.00  end +0.0st  3.2w/s  rushed ['lavish', 'Bitcoin.']  heard: There, she lives a lavish life and tries to buy London houses with Bit
+scene 4: 4.96s ex 0.64  chosen wer 0.00
+   take 1: score -1.64  wer 0.00  end +0.0st  2.5w/s  rushed ['Police', 'Bitcoin,']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
+   take 2: score -1.97  wer 0.04  end +0.0st  2.8w/s  rushed ['Police', 'Bitcoin,']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
+   take 3: score -1.97  wer 0.04  end +0.6st  2.5w/s  rushed ['Police', 'Bitcoin.']  heard: That's her mistake.  In 2018, a law firm raises the alarm.  Police sei
+   take 4: score -1.97  wer 0.04  end +0.0st  2.4w/s  rushed ['Police', 'bitcoin,']  heard: That's her mistake. In 2018, a law firm raises the alarm. Police seize
+scene 5: 9.07s ex 0.76  chosen wer 0.00
+   take 1: score +0.61  wer 0.08  end -9.7st  2.8w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called, Liberla
+   take 2: score +0.44  wer 0.08  end -4.9st  2.2w/s  rushed ['become']  heard: her dream to become the monarchs of a tiny micronation called Liberlan
+   take 3: score +0.09  wer 0.17  end -9.8st  2.8w/s  rushed ['become']  heard: Her dream to become the monarchs of a tiny micronation called  Liverla
+   take 4: score -1.33  wer 0.08  end +0.0st  2.6w/s  rushed ['become']  heard: her dream to become the monarchs of a tiny micronation called  Liberla
+scene 6: 4.36s ex 0.74  chosen wer 0.08
+   take 1: score -2.87  wer 0.00  end +0.0st  3.0w/s  rushed ['helped', 'Police', 'arrest']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
+   take 2: score -2.48  wer 0.02  end +0.0st  3.2w/s  rushed ['bitcoin', 'Police']  heard: In 2024, a fast food worker who helped her gets a small bitcoin transf
+   take 3: score -2.56  wer 0.00  end +0.0st  2.9w/s  rushed ['helped', 'Police', 'arrest']  heard: In 2024, a fast-food worker who helped her gets a small Bitcoin transf
+   take 4: score -1.65  wer 0.00  end +0.0st  2.7w/s  rushed ['helped', 'arrest']  heard: In 2024, a fast-food worker who helped her gets a small Bitcoin transf
+scene 7: 8.21s ex 0.62  chosen wer 0.00
+   take 1: score -3.18  wer 0.00  end +0.0st  3.2w/s  rushed ['guilty.', 'sentence', 'months.']  heard: In 2025, she pleads guilty. Her sentence 11 years and 8 months. Her ac
+   take 2: score +0.29  wer 0.00  end -2.8st  2.4w/s  rushed ['guilty.', 'months.']  heard: In 2025, she pleads guilty. Her sentence, 11 years and 8 months. Her a
+   take 3: score -2.90  wer 0.00  end +0.0st  3.1w/s  rushed ['guilty.', 'sentence,', 'months,']  heard: In 2025, she pleads guilty. Her sentence, 11 years and eight months, h
+   take 4: score -1.65  wer 0.00  end +0.0st  2.7w/s  rushed ['guilty.', 'months.']  heard: In 2025, she pleads guilty. Her sentence 11 years and 8 months. Her ac
 scene 8: 7.85s ex 0.58  chosen wer 0.00
-   take 1: score -0.80  wer 0.12  end +0.0st  2.4w/s  heard: Those coins were almost $5 billion today.
-   take 2: score -0.16  wer 0.00  end +0.0st  2.1w/s  heard: Those coins worth almost $5 billion today.
-   take 3: score -0.01  wer 0.00  end +0.0st  2.4w/s  heard: Those coins worth almost $5 billion today.
-scene 9: 3.37s ex 0.55 END  chosen wer 0.00
-   take 1: score -4.29  wer 0.00  end +0.0st  3.3w/s  rushed ['Bitcoin', 'public', 'leaves', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
-   take 2: score -3.92  wer 0.06  end +2.1st  2.9w/s  rushed ['Bitcoin', 'public', 'leaves', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crying leaves a trail fo
-   take 3: score -2.47  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin', 'public', 'Follow']  heard: Every Bitcoin move stays on a public record, crime leaves a trail fore
-   take 4: score -2.57  wer 0.00  end +0.0st  2.9w/s  rushed ['Bitcoin', 'public', 'Follow']  heard: Every Bitcoin move stays on a public record, crime leaves a trail fore
-scene 10: 6.44s ex 0.7  chosen wer 0.00
+   take 1: score -0.08  wer 0.00  end +0.0st  2.2w/s  heard: Those coins worth almost $5 billion today.
+   take 2: score +1.77  wer 0.00  end -6.4st  2.0w/s  heard: Those coins worth almost $5 billion today.
+scene 9: 4.06s ex 0.55 END  chosen wer 0.00
+   take 1: score -1.90  wer 0.00  end +0.0st  2.1w/s  rushed ['public', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+   take 2: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+   take 3: score -3.72  wer 0.00  end +0.0st  3.1w/s  rushed ['Bitcoin', 'public', 'leaves', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+   take 4: score -2.51  wer 0.00  end +0.0st  2.4w/s  rushed ['Bitcoin', 'public', 'Follow']  heard: Every Bitcoin move stays on a public record.  Crime leaves a trail for
+scene 10: 6.41s ex 0.7  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-65.81s, force-aligned 159 words
+66.06s, force-aligned 159 words
 liampace -> jobs/t3700033/voicep.wav
 rate x1.00 gap 0.40 | sixty-one thousand bitcoin.
 rate x1.00 gap 0.40 | Found in Britain.
 rate x1.00 gap 0.40 | Taken from one hundred twenty-eight thousand people in China.
 rate x1.00 gap 0.40 | twenty fourteen to twenty seventeen.
-rate x1.00 gap 0.40 | Zhimin Qian runs a fake investment scheme in China.
+rate x1.00 gap 0.40 | A woman in China runs a fake investment scheme.
 rate x1.00 gap 0.40 | Police close in.
 rate x1.00 gap 0.40 | She flees on a fake passport, through Southeast Asia, to the U K.
 rate x1.00 gap 0.40 | There, she lives a lavish life.
@@ -83,5 +77,5 @@ rate x1.00 gap 0.40 | Worth almost five billion dollars today.
 rate x1.00 gap 0.60 | Every bitcoin move stays on a public record.
 rate x1.00 gap 0.40 | Crime leaves a trail forever.
 rate x1.00 gap 0.40 | Follow Chain Secrets.
-total 67.23s (was 65.81s)
+total 66.73s (was 66.06s)
 
