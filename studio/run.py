@@ -102,9 +102,15 @@ def daily(sym, start, end):
     s, e = int(s.timestamp()), min(int(e.timestamp()), int(time.time()))
     rows, src = [], ''
     try:                                                                  # Bitstamp: BTC/ETH/LTC/XRP history back to 2011
-        r = requests.get(f'https://www.bitstamp.net/api/v2/ohlc/{sym.lower()}usd/', params={'step': 86400, 'limit': min(1000, (e - s) // 86400 + 1), 'start': s}, timeout=20)
-        rows = [(int(x['timestamp']), float(x['open']), float(x['high']), float(x['low']), float(x['close']), float(x['volume']))
-                for x in r.json().get('data', {}).get('ohlc', [])]
+        a = s                                                             # Bitstamp returns at most 1000 candles: page through long spans
+        while a <= e:
+            r = requests.get(f'https://www.bitstamp.net/api/v2/ohlc/{sym.lower()}usd/', params={'step': 86400, 'limit': min(1000, (e - a) // 86400 + 1), 'start': a}, timeout=20)
+            got = [(int(x['timestamp']), float(x['open']), float(x['high']), float(x['low']), float(x['close']), float(x['volume']))
+                   for x in r.json().get('data', {}).get('ohlc', [])]
+            if not got: break
+            rows += got
+            if max(x[0] for x in got) <= a: break
+            a = max(x[0] for x in got) + 86400
         rows = [x for x in rows if s <= x[0] <= e]                         # only the requested window
         src = 'Bitstamp'
     except Exception as ex:
