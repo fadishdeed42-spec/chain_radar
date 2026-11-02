@@ -1,0 +1,103 @@
+json d9d63157cb76
+   take 1: score -0.89  wer 0.00  end +0.0st  2.4w/s  rushed ['supposed']  heard: four to five weeks. That's how long the Iran war was supposed to take.
+   take 2: score +1.07  wer 0.00  end -8.7st  2.8w/s  rushed ['supposed']  heard: four to five weeks. That's how long the Iran war was supposed to take.
+   take 3: score -0.12  wer 0.02  end -4.6st  3.4w/s  rushed ['supposed']  heard: 4-5 weeks.  That's how long the Iran war was supposed to take.  It's b
+   take 4: score -1.51  wer 0.02  end +0.0st  3.1w/s  rushed ['supposed']  heard: 4-5 weeks.  That's how long the Iran war was supposed to take.  It's b
+scene 1: 7.09s ex 0.76  chosen wer 0.00
+   take 1: score +1.00  wer 0.00  end -1.6st  2.3w/s  rushed ['February']  heard: February 28, 2026, U.S. and Israeli strikes hit Iran.
+   take 2: score -1.81  wer 0.00  end +0.0st  2.2w/s  rushed ['February', 'Israeli']  heard: February 28, 2026.  US and Israeli strikes hit Iran.
+   take 3: score +1.01  wer 0.00  end -5.9st  2.3w/s  rushed ['February']  heard: February 28, 2026.  U.S. and Israeli strikes hit Iran.
+   take 4: score +0.30  wer 0.00  end -5.1st  2.4w/s  rushed ['February', 'Israeli']  heard: February 28, 2026.  US and Israeli strikes hit Iran.
+scene 2: 4.83s ex 0.62  chosen wer 0.00
+   take 1: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: The next day, Trump says, we intended four to five weeks.
+   take 2: score -1.16  wer 0.00  end +0.0st  3.0w/s  rushed ['intended']  heard: The next day, Trump says, we intended four to five weeks.
+   take 3: score -1.85  wer 0.00  end -0.8st  3.3w/s  rushed ['intended']  heard: The next day Trump says, we intended four to five weeks.
+   take 4: score -1.53  wer 0.00  end +0.0st  3.2w/s  rushed ['intended']  heard: The next day, Trump says, we intended four to five weeks.
+scene 3: 3.90s ex 0.64  chosen wer 0.00
+   take 1: score +1.71  wer 0.05  end -6.6st  2.6w/s  heard: March 9, soon. Very soon. Oil had spiked above $110. It falls back to 
+scene 4: 7.29s ex 0.76  chosen wer 0.05
+   take 1: score -1.12  wer 0.00  end +0.0st  2.1w/s  rushed ['Bitcoin']  heard: Bitcoin jumps to 69,000.
+   take 2: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['Bitcoin']  heard: Bitcoin jumps to 69,000.
+   take 3: score -1.13  wer 0.00  end +0.0st  2.0w/s  rushed ['Bitcoin']  heard: Bitcoin jumps to 69,000.
+   take 4: score -1.11  wer 0.00  end +0.0st  2.1w/s  rushed ['Bitcoin']  heard: Bitcoin jumps to 69,000.
+scene 5: 2.08s ex 0.64  chosen wer 0.00
+   take 1: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: April 7, a two-week ceasefire. Bitcoin jumps 2.6% in one hour.
+   take 2: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin']  heard: April 7, a two-week ceasefire. Bitcoin jumps 2.6% in one hour.
+   take 3: score -0.95  wer 0.00  end +0.0st  2.9w/s  rushed ['Bitcoin']  heard: April 7, a two-week ceasefire.  Bitcoin jumps 2.6% in one hour.
+   take 4: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: April 7, a two-week ceasefire. Bitcoin jumps 2.6% in one hour.
+scene 6: 5.48s ex 0.74  chosen wer 0.00
+   take 1: score +0.23  wer 0.00  end -1.3st  3.7w/s  heard: June, a deal is two or three days away.
+scene 7: 2.46s ex 0.62  chosen wer 0.00
+   take 1: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['Bitcoin']  heard: July 8, the ceasefire is over. Bitcoin drops to 62,000.
+   take 2: score -1.80  wer 0.00  end +0.0st  2.3w/s  rushed ['ceasefire', 'Bitcoin']  heard: July 8th, the ceasefire is over.  Bitcoin drops to 62,000.
+   take 3: score -1.71  wer 0.00  end +0.0st  2.8w/s  rushed ['ceasefire', 'Bitcoin']  heard: July 8th, the ceasefire is over. Bitcoin drops to 62,000.
+   take 4: score -1.12  wer 0.00  end +0.0st  2.1w/s  rushed ['Bitcoin']  heard: July 8th, the ceasefire is over.  Bitcoin drops to 62,000.
+scene 8: 5.14s ex 0.58  chosen wer 0.00
+   take 1: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['election.']  heard: September, the war will end immediately after our election.
+   take 2: score -0.09  wer 0.00  end -0.1st  2.5w/s  heard: September, the war will end immediately after our election.
+   take 3: score -0.92  wer 0.00  end +1.0st  2.7w/s  rushed ['election.']  heard: September. The war will end immediately after our election.
+   take 4: score -0.85  wer 0.00  end -0.3st  2.5w/s  rushed ['election.']  heard: September, the war will end immediately after our election.
+scene 9: 3.67s ex 0.62  chosen wer 0.00
+   take 1: score -0.15  wer 0.00  end +0.0st  2.8w/s  heard: November 1st, we'll put it away very soon.
+   take 2: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: November 1st, we'll put it away very soon.
+   take 3: score -0.89  wer 0.00  end +0.0st  2.7w/s  rushed ['November']  heard: November 1st, we'll put it away very soon.
+   take 4: score -2.41  wer 0.14  end +4.6st  2.0w/s  rushed ['November']  heard: November 1st, we'll put it away very soon.  W.I.  Hours
+scene 10: 2.84s ex 0.64  chosen wer 0.00
+   take 1: score -0.42  wer 0.00  end -7.5st  3.6w/s  rushed ['counted']  heard: We counted every time on the record, at least 30 times, he said the en
+   take 2: score -0.91  wer 0.00  end -8.2st  3.4w/s  rushed ['counted', 'record.']  heard: We counted every time on the record.  At least 30 times, he said the e
+   take 3: score +0.07  wer 0.00  end -6.9st  3.4w/s  rushed ['record,']  heard: We counted every time on the record, at least 30 times, he said the en
+   take 4: score -1.81  wer 0.00  end +0.0st  3.7w/s  heard: We counted every time on the record.  At least 30 times, he said the e
+scene 11: 5.07s ex 0.76  chosen wer 0.00
+   take 1: score -0.13  wer 0.00  end +0.0st  2.4w/s  heard: Every time the market listened, Trump now says those weeks meant the n
+   take 2: score -1.64  wer 0.00  end +0.0st  2.5w/s  rushed ['listened.', 'nuclear']  heard: Every time, the market listened.  Trump now says those weeks meant the
+   take 3: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['nuclear']  heard: Every time, the market listened.  Trump now says those weeks meant the
+   take 4: score -0.80  wer 0.00  end +0.0st  2.6w/s  rushed ['nuclear']  heard: Every time the market listened, Trump now says those weeks meant the n
+scene 12: 5.88s ex 0.56  chosen wer 0.00
+   take 1: score -0.30  wer 0.00  end +0.0st  2.9w/s  heard: Day 247, no final deal.
+   take 2: score -0.08  wer 0.00  end +0.0st  2.2w/s  heard: Day 247. No final deal.
+   take 3: score -0.20  wer 0.00  end +0.0st  2.0w/s  heard: Day 247. No final deal.
+scene 13: 3.15s ex 0.55 END  chosen wer 0.00
+   take 1: score -0.39  wer 0.00  end +0.0st  3.0w/s  heard: Markets move on words, your money should move on facts.  Follow chain 
+   take 2: score -1.09  wer 0.00  end +0.0st  3.0w/s  rushed ['Follow']  heard: Markets move on words.  Your money should move on facts.  Follow chain
+   take 3: score -0.86  wer 0.00  end +0.0st  2.7w/s  rushed ['Follow']  heard: Markets move on words. Your money should move on facts. Follow Chain S
+   take 4: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Follow']  heard: Markets move on words. Your money should move on facts. Follow Chain S
+scene 14: 4.34s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+68.10s, force-aligned 168 words
+liampace -> jobs/t3700034/voicep.wav
+rate x1.00 gap 0.40 | Four to five weeks.
+rate x1.00 gap 0.40 | That's how long the Iran war was supposed to take.
+rate x1.00 gap 0.40 | It's been two hundred forty-seven days.
+rate x1.00 gap 0.40 | February twenty-eighth, twenty twenty-six.
+rate x1.00 gap 0.40 | U S and Israeli strikes hit Iran.
+rate x1.00 gap 0.40 | The next day, Trump says:
+rate x1.00 gap 0.40 | 'We intended four to five weeks.'
+rate x1.00 gap 0.40 | March ninth:
+rate x1.00 gap 0.40 | 'Soon.
+rate x1.00 gap 0.40 | Very soon.'
+rate x1.00 gap 0.40 | Oil had spiked above one hundred ten dollars.
+rate x1.00 gap 0.40 | It falls back to the mid-80s.
+rate x1.00 gap 0.40 | Bitcoin jumps to sixty-nine thousand.
+rate x1.00 gap 0.40 | April seventh:
+rate x1.00 gap 0.40 | a two-week ceasefire.
+rate x1.00 gap 0.40 | Bitcoin jumps two point six percent in one hour.
+rate x1.00 gap 0.40 | June:
+rate x1.00 gap 0.40 | a deal is 'two or three days' away.
+rate x1.00 gap 0.40 | July eighth:
+rate x1.00 gap 0.40 | the ceasefire is 'over.'
+rate x1.00 gap 0.40 | Bitcoin drops to sixty-two thousand.
+rate x1.00 gap 0.40 | September:
+rate x1.00 gap 0.40 | the war 'will end immediately after our election.'
+rate x1.00 gap 0.40 | November first:
+rate x1.00 gap 0.40 | 'We'll put it away very soon.'
+rate x1.00 gap 0.40 | We counted every time on the record.
+rate x1.00 gap 0.40 | At least thirty times, he said the end was near.
+rate x1.00 gap 0.40 | Every time, the market listened.
+rate x1.00 gap 0.40 | Trump now says those weeks meant the nuclear threat.
+rate x1.00 gap 0.40 | Day two hundred forty-seven.
+rate x1.00 gap 0.40 | No final deal.
+rate x1.00 gap 0.60 | Markets move on words.
+rate x1.00 gap 0.40 | Your money should move on facts.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 71.37s (was 68.10s)
+
