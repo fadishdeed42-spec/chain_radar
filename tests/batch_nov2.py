@@ -125,7 +125,7 @@ JOBS['t3700022'] = dict(
            {'type': 'stamp', 'icon': 'officer', 'label': "RUSSIA'S FSB", 'word': 'BUSTED', 'bad': True},
            rc('Fortune', 'Russia Arrests Nuclear Scientists Who Used a Supercomputer to Mine Bitcoin')),
         sc('twist', 'funny', "The lab calls it 'a hopeless and criminal offense.'", 'offense',
-           {'type': 'quote', 'name': 'Institute press service (Interfax)', 'text': 'a hopeless and criminal offense'}),
+           {'type': 'quote', 'name': 'Institute press service', 'text': 'a hopeless and criminal offense'}),
         sc('payoff', 'funny', 'The price? One engineer was fined 450,000 rubles. About 7,000 dollars.', 'dollars',
            {'type': 'counter', 'value': 450000, 'prefix': '', 'suffix': ' RUB', 'label': 'THE FINE · ABOUT $7,000'},
            rc('Decrypt', 'Man fined $7,000 for using Russian supercomputer to mine Bitcoin')),

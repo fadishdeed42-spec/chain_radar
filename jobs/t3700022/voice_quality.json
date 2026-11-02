@@ -55,9 +55,10 @@
  },
  {
   "scene": 10,
-  "wer": 0.118,
-  "heard": "The price?  One engineer was fined 450,000 rubles.  About $7,000.  About $7,000.",
-  "said": "The price? One engineer was fined four hundred fifty thousand rubles. About seven thousand dollars."
+  "wer": 0.0,
+  "heard": "The price?  One engineer was fined 450,000 rubles.  About $7,000.",
+  "said": "The price? One engineer was fined four hundred fifty thousand rubles. About seven thousand dollars.",
+  "note": "repeated phrase cut by hand"
  },
  {
   "scene": 11,
