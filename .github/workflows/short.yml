@@ -57,7 +57,7 @@ jobs:
           cp jobs/$J/short_s.mp4 /tmp/held.mp4
           git config user.name chain-radar; git config user.email noreply@github.com
           git fetch -q origin held && git worktree add -q /tmp/hw origin/held || (git worktree add -q --detach /tmp/hw && cd /tmp/hw && git checkout -q --orphan held && git rm -rfq . ; true)
-          cd /tmp/hw && mkdir -p held && cp /tmp/held.mp4 held/$J.mp4 && git add held/$J.mp4 && git commit -qm "held $J [skip ci]" && git push -q origin HEAD:held
+          cd /tmp/hw && mkdir -p held && cp /tmp/held.mp4 held/$J.mp4 && git add held/$J.mp4 && git commit -qm "held $J [skip ci]" && for i in 1 2 3 4 5 6; do git push -q origin HEAD:held && break; sleep $((i*3)); git pull -q --rebase origin held; done
       - name: save job files
         if: always()
         run: |
