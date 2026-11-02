@@ -632,7 +632,8 @@ def scene_beats(i):
     out = []
     for b in SCN[i].get('beats') or []:
         key = re.sub(r'[^\w$%]', '', str(b.get('word', ''))).lower()
-        m = next((w for w in ws if w[1] == key and all(abs(w[2] - o['t']) > .7 for o in out)), None)
+        early = [w for w in cs.WORDS if w[0] == i and P(i) + .6 < w[2] < e - .35]   # a named word may come before the hit
+        m = next((w for w in early if w[1] == key and all(abs(w[2] - o['t']) > .7 for o in out)), None)
         if m is None and b.get('text'):                                   # word not found: give it the next free slot
             free = [w for w in ws if all(abs(w[2] - o['t']) > .9 for o in out) and w[2] > h + .9]
             m = free[len(free) // 2] if free else None
