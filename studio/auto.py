@@ -877,7 +877,8 @@ LOWER = ('title', 'versus', 'quote', 'stamp', 'face', 'timer', 'date', 'person',
 def make_scene(i):
     v = SCN[i]['visual']; fn = TEMPLATES[v['type']]
     last = i == len(SCN) - 1
-    low = bool(SCN[i].get('receipt')) and v['type'] in LOWER
+    has_icon = v['type'] == 'counter' and (v.get('icon') or 'BTC' in str(v.get('suffix', '')).upper() or '$' in str(v.get('prefix', '')))
+    low = bool(SCN[i].get('receipt')) and (v['type'] in LOWER or has_icon)   # a counter with an icon needs the room too
 
     def scene(cv, t):
         a = 1.0 if last else fade(t, i)

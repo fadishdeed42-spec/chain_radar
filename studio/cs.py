@@ -151,9 +151,12 @@ def lesson_layer(cv, t):
     cv.fill(BG, al)
     cv.rect(W / 2 - 330 * q, 560 - 46 * q, W / 2 + 330 * q, 560 + 46 * q, GOLD, al, r=46 * q)
     cv.text(W / 2, 560, '🕵 CHAIN SECRETS LESSON'.replace('🕵 ', ''), 'black', 38, BG, al, anchor='cm', scale=max(.01, q), track=6)
-    for k, ln in enumerate(wrap_lines(LESSON.upper(), 18)[:4]):
+    for n, sz in ((18, 84), (22, 70), (26, 60), (30, 52)):              # longer lessons get smaller type, never cut off
+        lines = wrap_lines(LESSON.upper(), n)
+        if len(lines) <= 5: break
+    for k, ln in enumerate(lines):
         p = back(seg(t, LESSON_T + .1 + k * .12, LESSON_T + .45 + k * .12))
-        cv.text(W / 2, 760 + k * 104, ln, 'black', 84, WHITE, al * clamp(p), anchor='cm', scale=max(.01, lerp(.7, 1, p)), shadow=8)
+        cv.text(W / 2, 760 + k * sz * 1.24, ln, 'black', sz, WHITE, al * clamp(p), anchor='cm', scale=max(.01, lerp(.7, 1, p)), shadow=8)
 
 
 def wrap_lines(text, n):
