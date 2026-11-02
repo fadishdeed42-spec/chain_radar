@@ -384,9 +384,10 @@ def sc_title(cv, t, i, v, a):
     else:
         kicker(cv, t, i, a)
     ic = v.get('icon')
-    if ic: icon(cv, ic, W / 2, 620, back(seg(t, P(i), P(i) + .4)) * .9, a * (1 - .4 * seg(t, h, h + .3)), t)
+    low = 80 if (ic and SCN[i]['role'] != 'hook') else 0                  # room for the kicker pill above the icon
+    if ic: icon(cv, ic, W / 2, 620 + low, back(seg(t, P(i), P(i) + .4)) * .9, a * (1 - .4 * seg(t, h, h + .3)), t)
     lines = wrap(str(v.get('text', '')).upper(), 12)[:3] or ['']
-    y0 = 1000 if ic else 860
+    y0 = (1000 + low) if ic else 860
     if t < h - .05:                                                      # before the hit: the words wait faintly, never an empty frame
         g = back(seg(t, P(i) + .1, P(i) + .5)) * .28
         for k, ln in enumerate(lines):
@@ -411,6 +412,27 @@ def fmt_num(v, pre, suf, big=None):
     return f'{pre}{s}{suf}'
 
 
+_STEPS = {}
+
+
+def _counter_steps(i, v):
+    """visual.steps = [26, 38, 50]: find the spoken word for each number (in order, the last match before the next one)"""
+    if i in _STEPS: return _STEPS[i]
+    out, ws = [], [w for w in cs.WORDS if w[0] == i]
+    try: vals = [float(x) for x in (v.get('steps') or [])]
+    except (TypeError, ValueError): vals = []
+    lo = -1.0
+    for k, sv in enumerate(vals):
+        key = fmt_num(sv, '', '').replace(',', '')
+        nxt = fmt_num(vals[k + 1], '', '').replace(',', '') if k + 1 < len(vals) else None
+        lim = next((w[2] for w in ws if nxt and w[1] == nxt and w[2] > lo), 1e9)
+        m = [w for w in ws if w[1] == key and lo < w[2] < lim]
+        if not m: out = []; break
+        lo = m[-1][2]; out.append((lo, sv))
+    _STEPS[i] = out
+    return out
+
+
 def sc_counter(cv, t, i, v, a):
     h = hit(i)
     try: val = float(str(v.get('value', 0)).replace(',', '').replace('$', ''))
@@ -420,7 +442,19 @@ def sc_counter(cv, t, i, v, a):
     if SCN[i]['role'] != 'hook': kicker(cv, t, i, a)
     if ic: icon(cv, ic, W / 2, 680, back(seg(t, P(i), P(i) + .4)) * .85, a, t)
     p = out3(seg(t, P(i) + .1, max(P(i) + .7, h + .25)))                 # counts up from the scene start, lands on the hit word
-    s = fmt_num(val * p, pre, suf, abs(val))
+    try: st = float(v.get('start', 0) or 0)
+    except (TypeError, ValueError): st = 0
+    cur = st + (val - st) * p                                             # counts from 'start' (e.g. 26 -> 50) or from 0
+    steps = _counter_steps(i, v)
+    if steps:                                                             # 26 ... 38 ... 50: each number lands on its spoken word
+        cur = steps[0][1]
+        for k, (tw, sv) in enumerate(steps):
+            if t >= tw - .05:
+                prev = steps[k - 1][1] if k else sv
+                cur = prev + (sv - prev) * out3(seg(t, tw - .05, tw + .3))
+        p = 1.0
+    if val == int(val) and st == int(st) and abs(val) < 1e7: cur = round(cur)   # whole numbers stay whole (no "43.4 objections")
+    s = fmt_num(cur, pre, suf, abs(val))
     size = fit(fmt_num(val, pre, suf), 'black', 130, 900)
     yc = 1050 if ic else 880
     q = back(seg(t, P(i) + .1, P(i) + .5))                                # the counter waits at 0, then runs on the hit word
@@ -534,7 +568,7 @@ def sc_list(cv, t, i, v, a):
         t0 = lerp(P(i) + .2, h, k / max(1, n - 1)) if n > 1 else h
         q = back(seg(t, t0 - .1, t0 + .3))
         if q <= 0: continue
-        y = 560 + k * 190
+        y = (700 if SCN[i].get('receipt') else 560) + k * 190            # below the headline card when one shows
         cv.rect(110, y - 70, W - 110, y + 70, PANEL, a, r=24)
         cv.circle(190, y, 40 * q, ACC if k == n - 1 else (60, 70, 92), a)
         cv.text(190, y, str(k + 1), 'black', 40, BG if k == n - 1 else TXT, a * clamp(q), anchor='cm')

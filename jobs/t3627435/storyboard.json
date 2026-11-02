@@ -18,7 +18,7 @@
   {
    "role": "hook",
    "emotion": "shock",
-   "line": "Fifty giant companies just blocked a crypto plan. Including Nvidia.",
+   "line": "Fifty giant companies just blocked a crypto plan. Including Nvidia. But who told them to say no?",
    "hit": "blocked",
    "visual": {
     "type": "counter",
@@ -51,7 +51,7 @@
   {
    "role": "setup",
    "emotion": "tense",
-   "line": "The idea? Trade tokens of 62 big US stocks, around the clock, paid in stablecoins.",
+   "line": "The idea? Trade tokens of 62 big US stocks, around the clock, even on weekends, paid in stablecoins.",
    "hit": "clock",
    "visual": {
     "type": "timer",
@@ -88,7 +88,12 @@
     "value": 50,
     "prefix": "",
     "suffix": "",
-    "label": "OBJECTIONS"
+    "label": "OBJECTIONS",
+    "steps": [
+     26,
+     38,
+     50
+    ]
    },
    "beats": [],
    "shots": [],
