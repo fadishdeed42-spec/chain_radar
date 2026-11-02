@@ -1,5 +1,5 @@
 {
- "title": "He Borrowed $1 Billion… and Voted Himself the Treasury 🗳️",
+ "title": "He Borrowed $1 Billion\u2026 and Voted Himself the Treasury \ud83d\uddf3\ufe0f",
  "tone": "mystery",
  "theme": "ocean",
  "length": 60,
@@ -7,7 +7,7 @@
  "lesson": "If votes can be borrowed, the vote can be bought.",
  "description": "April 2022: Beanstalk let token holders vote on proposals. An attacker submitted a proposal partly disguised as a donation to Ukraine, waited the one-day delay, then in a single transaction took about $1 billion in flash loans (Aave and others), bought voting power, passed his own proposal and drained about $181M. He repaid the loan in the same transaction, kept about $76M, and sent $250,000 to Ukraine.\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#DeFi #Ethereum #Hack #FlashLoan #ChainSecrets #shorts",
- "pinned": "Genius or villain? 🤔 👇",
+ "pinned": "Genius or villain? \ud83e\udd14 \ud83d\udc47",
  "respell": {
   "Aave": "Ah-vay"
  },
@@ -21,7 +21,7 @@
   {
    "role": "hook",
    "emotion": "shock",
-   "line": "He borrowed one billion dollars… to vote himself the money.",
+   "line": "He borrowed one billion dollars\u2026 to vote himself the money.",
    "hit": "money",
    "visual": {
     "type": "counter",
@@ -55,7 +55,7 @@
    "role": "setup",
    "emotion": "curious",
    "line": "An attacker posts a proposal. It looks like a donation to Ukraine.",
-   "hit": "Ukraine",
+   "hit": "ukraine",
    "visual": {
     "type": "stamp",
     "icon": "question",
@@ -91,7 +91,7 @@
    "visual": {
     "type": "title",
     "text": "FLASH LOAN",
-    "sub": "~$1 billion · Aave + others",
+    "sub": "~$1 billion \u00b7 Aave + others",
     "icon": "bank"
    },
    "beats": [],
@@ -114,7 +114,7 @@
     "items": [
      "BORROW $1B",
      "USE IT",
-     "PAY IT BACK · SAME TX"
+     "PAY IT BACK \u00b7 SAME TX"
     ]
    },
    "beats": [],
@@ -202,5 +202,9 @@
    "photo": ""
   }
  ],
- "library": "st-23"
+ "library": "st-23",
+ "est_secs": 65,
+ "words": 137,
+ "target_words": 126,
+ "length_ok": true
 }

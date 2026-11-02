@@ -1,0 +1,90 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "He borrowed one billion dollars... to vote himself the money.",
+   0.76,
+   0.42
+  ],
+  [
+   "April twenty twenty-two. Beanstalk, a crypto stablecoin project. Its rule: whoever holds the most votes decides.",
+   0.64,
+   0.24
+  ],
+  [
+   "An attacker posts a proposal. It looks like a donation to Ukraine.",
+   0.64,
+   0.24
+  ],
+  [
+   "Then he waits one day.",
+   0.62,
+   0.32
+  ],
+  [
+   "In one single transaction, he borrows about one billion dollars. A flash loan, from Ah-vay and others.",
+   0.76,
+   0.42
+  ],
+  [
+   "A flash loan is money you borrow and repay in the same transaction. No credit check. No collateral.",
+   0.64,
+   0.24
+  ],
+  [
+   "He uses it to buy voting power. Votes yes on his own proposal. But hidden inside is code that sends him the project's money.",
+   0.58,
+   0.38
+  ],
+  [
+   "one hundred eighty-one million dollars, drained.",
+   0.76,
+   0.42
+  ],
+  [
+   "He pays the loan back in the same transaction. He walks away with about seventy-six million.",
+   0.58,
+   0.38
+  ],
+  [
+   "And the Ukraine part? He really did send two hundred fifty thousand dollars.",
+   0.55,
+   0.55,
+   "end"
+  ],
+  [
+   "If votes can be borrowed, the vote can be bought. Follow Chain Secrets.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  "In one single transaction, he borrows about one billion dollars. A flash loan, from Aave and others.",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "He borrowed one billion dollars... to vote himself the money.",
+  "April twenty twenty-two. Beanstalk, a crypto stablecoin project. Its rule: whoever holds the most votes decides.",
+  "An attacker posts a proposal. It looks like a donation to Ukraine.",
+  "Then he waits one day.",
+  "In one single transaction, he borrows about one billion dollars. A flash loan, from Aave and others.",
+  "A flash loan is money you borrow and repay in the same transaction. No credit check. No collateral.",
+  "He uses it to buy voting power. Votes yes on his own proposal. But hidden inside is code that sends him the project's money.",
+  "one hundred eighty-one million dollars, drained.",
+  "He pays the loan back in the same transaction. He walks away with about seventy-six million.",
+  "And the Ukraine part? He really did send two hundred fifty thousand dollars.",
+  "If votes can be borrowed, the vote can be bought. Follow Chain Secrets."
+ ]
+}

@@ -1,0 +1,80 @@
+json 3c46d58b9954
+   take 1: score -0.88  wer 0.00  end -0.1st  2.7w/s  rushed ['borrowed']  heard: He borrowed $1 billion to vote himself the money.
+   take 2: score +1.09  wer 0.00  end -6.1st  2.8w/s  rushed ['borrowed']  heard: He borrowed $1 billion to vote himself the money.
+   take 3: score -0.53  wer 0.00  end -3.3st  3.3w/s  rushed ['borrowed', 'himself']  heard: He borrowed $1 billion to vote himself the money.
+   take 4: score -0.90  wer 0.00  end +0.0st  2.8w/s  rushed ['borrowed']  heard: He borrowed $1 billion to vote himself the money.
+scene 1: 3.58s ex 0.76  chosen wer 0.00
+   take 1: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['crypto']  heard: April 2022. Beanstalk, a crypto stablecoin project. Its rule, whoever 
+   take 2: score -2.04  wer 0.06  end +0.0st  2.5w/s  rushed ['crypto', 'whoever']  heard: April 2022, Beanstuck, a crypto stablecoin project.  Its rule, whoever
+   take 3: score -2.61  wer 0.00  end +0.0st  2.3w/s  rushed ['crypto', 'whoever', 'decides.']  heard: April 2022. Beanstalk, a crypto stablecoin project. Its rule, whoever 
+   take 4: score -2.53  wer 0.00  end +0.0st  2.4w/s  rushed ['crypto', 'whoever', 'decides.']  heard: April 2022, Beanstalk, a crypto stablecoin project. Its rule, whoever 
+scene 2: 7.41s ex 0.64  chosen wer 0.00
+   take 1: score -3.55  wer 0.00  end -0.0st  3.4w/s  rushed ['attacker', 'donation', 'Ukraine.']  heard: An attacker posts a proposal, it looks like a donation to Ukraine.
+   take 2: score -3.19  wer 0.00  end +0.0st  3.2w/s  rushed ['attacker', 'donation', 'Ukraine.']  heard: An attacker posts a proposal.  It looks like a donation to Ukraine.
+   take 3: score -2.98  wer 0.17  end -0.8st  3.0w/s  rushed ['attacker', 'donation']  heard: and attacker post a proposal.  It looks like a donation to Ukraine.
+   take 4: score -0.21  wer 0.00  end -1.3st  3.1w/s  rushed ['attacker', 'donation']  heard: An attacker posts a proposal.  It looks like a donation to Ukraine.
+scene 3: 3.87s ex 0.64  chosen wer 0.00
+   take 1: score -2.52  wer 0.00  end +0.0st  4.0w/s  heard: Then he waits one day.
+   take 2: score -1.64  wer 0.00  end +0.0st  3.6w/s  heard: Then he waits one day.
+   take 3: score -3.53  wer 0.00  end +0.0st  4.5w/s  heard: Then he waits one day.
+scene 4: 1.39s ex 0.62  chosen wer 0.00
+   take 1: score -0.72  wer 0.12  end +0.0st  2.6w/s  heard: In one single transaction, he bars about $1 billion, a flash loan from
+   take 2 (plain): score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['others.']  heard: In one single transaction, he borrows about $1 billion, a flash loan f
+   take 3: score -2.45  wer 0.06  end +0.0st  3.1w/s  rushed ['billion,', 'others.']  heard: In one single transaction, he borrows about $1 billion, a flash loan f
+   take 4 (plain): score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: In one single transaction, he borrows about $1 billion, a flash loan f
+scene 5: 7.18s ex 0.76  chosen wer 0.00
+   take 1: score -4.92  wer 0.00  end +8.3st  3.3w/s  rushed ['borrow', 'transaction.', 'credit', 'collateral.']  heard: A flash loan is money you borrow and repay in the same transaction.  N
+   take 2: score -4.36  wer 0.00  end +0.0st  3.4w/s  rushed ['borrow', 'transaction.', 'credit', 'collateral.']  heard: A flash loan is money you borrow and repay in the same transaction.  N
+   take 3: score -3.64  wer 0.00  end +0.0st  3.4w/s  rushed ['borrow', 'credit', 'collateral.']  heard: A flash loan is money you borrow and repay in the same transaction.  N
+   take 4: score -1.80  wer 0.00  end +0.0st  2.9w/s  rushed ['credit', 'collateral.']  heard: A flash loan is money you borrow and repay in the same transaction.  N
+scene 6: 6.19s ex 0.64  chosen wer 0.00
+   take 1: score -2.25  wer 0.00  end +0.0st  3.1w/s  rushed ['proposal,', 'hidden']  heard: He uses it to buy voting power.  Votes yes on his own proposal, but hi
+   take 2: score -0.96  wer 0.00  end +0.0st  2.9w/s  rushed ['hidden']  heard: He uses it to buy voting power.  Votes yes on his own proposal, but hi
+   take 3: score -1.19  wer 0.00  end +0.0st  3.0w/s  rushed ['hidden']  heard: He uses it to buy voting power, votes yes on his own proposal, but hid
+   take 4: score +0.82  wer 0.00  end -5.0st  3.0w/s  rushed ['hidden']  heard: He uses it to buy voting power.  Votes yes on his own proposal, but hi
+scene 7: 8.01s ex 0.58  chosen wer 0.00
+   take 1: score -0.40  wer 0.00  end -0.7st  1.9w/s  heard: $181 million drained.
+   take 2: score -0.45  wer 0.00  end +0.0st  1.9w/s  heard: $181 million, drained.
+   take 3: score -1.16  wer 0.00  end +0.0st  2.0w/s  rushed ['drained.']  heard: $181 million, drained.
+   take 4: score +1.10  wer 0.00  end -7.1st  2.4w/s  rushed ['drained.']  heard: $181 million, drained.
+scene 8: 2.46s ex 0.76  chosen wer 0.00
+   take 1: score +1.20  wer 0.00  end -6.0st  3.2w/s  heard: He pays the loan back in the same transaction.  He walks away with abo
+scene 9: 5.00s ex 0.58  chosen wer 0.00
+   take 1: score -1.60  wer 0.00  end +0.0st  3.1w/s  rushed ['Ukraine']  heard: and the Ukraine part, he really did send $250,000.
+   take 2: score -2.90  wer 0.00  end +0.0st  3.4w/s  rushed ['Ukraine', 'really']  heard: and the Ukraine part, he really did send $250,000.
+   take 3: score -1.09  wer 0.00  end +0.0st  2.8w/s  rushed ['Ukraine']  heard: and the Ukraine part, he really did send $250,000.
+   take 4: score -0.32  wer 0.00  end +0.0st  2.9w/s  heard: and the Ukraine part, he really did send $250,000.
+scene 10: 4.50s ex 0.55 END  chosen wer 0.00
+   take 1: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['Follow']  heard: If votes can be borrowed, the vote can be bought.  Follow Chain Secret
+   take 2: score -1.56  wer 0.08  end +0.0st  3.3w/s  heard: If those can be borrowed, the vote can be bought.  Follow chain secret
+   take 3: score +1.01  wer 0.00  end -5.9st  2.3w/s  rushed ['Follow']  heard: If votes can be borrowed, the vote can be bought.  Follow Chain Secret
+   take 4: score +1.06  wer 0.00  end -5.2st  2.8w/s  rushed ['Follow']  heard: If votes can be borrowed, the vote can be bought.  Follow Chain Secret
+scene 11: 4.59s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+58.21s, force-aligned 150 words
+liampace -> jobs/t3700023/voicep.wav
+rate x1.00 gap 0.40 | He borrowed one billion dollars... to vote himself the money.
+rate x1.00 gap 0.40 | April twenty twenty-two.
+rate x1.00 gap 0.40 | Beanstalk, a crypto stablecoin project.
+rate x1.00 gap 0.40 | Its rule:
+rate x1.00 gap 0.40 | whoever holds the most votes decides.
+rate x1.00 gap 0.40 | An attacker posts a proposal.
+rate x1.00 gap 0.40 | It looks like a donation to Ukraine.
+rate x1.00 gap 0.40 | Then he waits one day.
+rate x1.00 gap 0.40 | In one single transaction, he borrows about one billion dollars.
+rate x1.00 gap 0.40 | A flash loan, from Aave and others.
+rate x1.00 gap 0.40 | A flash loan is money you borrow and repay in the same transaction.
+rate x1.00 gap 0.40 | No credit check.
+rate x1.00 gap 0.40 | No collateral.
+rate x1.00 gap 0.40 | He uses it to buy voting power.
+rate x1.00 gap 0.40 | Votes yes on his own proposal.
+rate x1.00 gap 0.40 | But hidden inside is code that sends him the project's money.
+rate x1.00 gap 0.40 | one hundred eighty-one million dollars, drained.
+rate x1.00 gap 0.40 | He pays the loan back in the same transaction.
+rate x1.00 gap 0.40 | He walks away with about seventy-six million.
+rate x1.00 gap 0.40 | And the Ukraine part?
+rate x1.00 gap 0.60 | He really did send two hundred fifty thousand dollars.
+rate x1.00 gap 0.40 | If votes can be borrowed, the vote can be bought.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 59.23s (was 58.21s)
+
