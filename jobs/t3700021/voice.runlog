@@ -7,88 +7,58 @@ loaded PerthNet (Implicit) at step 250,000
 `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 36.0M/1.18G [00:00<00:03, 377MB/s]  7%|▋         | 85.0M/1.18G [00:00<00:02, 457MB/s] 11%|█         | 135M/1.18G [00:00<00:02, 486MB/s]  15%|█▌        | 185M/1.18G [00:00<00:02, 502MB/s] 20%|█▉        | 236M/1.18G [00:00<00:01, 511MB/s] 24%|██▎       | 284M/1.18G [00:00<00:01, 497MB/s] 28%|██▊       | 332M/1.18G [00:00<00:01, 496MB/s] 32%|███▏      | 380M/1.18G [00:00<00:01, 497MB/s] 35%|███▌      | 427M/1.18G [00:00<00:01, 490MB/s] 39%|███▉      | 474M/1.18G [00:01<00:01, 483MB/s] 43%|████▎     | 520M/1.18G [00:01<00:01, 472MB/s] 47%|████▋     | 565M/1.18G [00:01<00:01, 467MB/s] 51%|█████     | 610M/1.18G [00:01<00:01, 466MB/s] 54%|█████▍    | 656M/1.18G [00:01<00:01, 470MB/s] 59%|█████▊    | 705M/1.18G [00:01<00:01, 485MB/s] 62%|██████▏   | 752M/1.18G [00:01<00:00, 485MB/s] 66%|██████▋   | 800M/1.18G [00:01<00:00, 493MB/s] 70%|███████   | 848M/1.18G [00:01<00:00, 496MB/s] 74%|███████▍  | 896M/1.18G [00:01<00:00, 497MB/s] 78%|███████▊  | 944M/1.18G [00:02<00:00, 500MB/s] 82%|████████▏ | 993M/1.18G [00:02<00:00, 502MB/s] 87%|████████▋ | 1.02G/1.18G [00:02<00:00, 504MB/s] 91%|█████████ | 1.07G/1.18G [00:02<00:00, 511MB/s] 95%|█████████▌| 1.12G/1.18G [00:02<00:00, 524MB/s] 99%|█████████▉| 1.17G/1.18G [00:02<00:00, 516MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 494MB/s]
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  0%|          | 3.25M/1.18G [00:00<00:37, 33.8MB/s]  4%|▍         | 52.0M/1.18G [00:00<00:03, 314MB/s]  10%|█         | 120M/1.18G [00:00<00:02, 498MB/s]  15%|█▍        | 177M/1.18G [00:00<00:02, 536MB/s] 20%|█▉        | 237M/1.18G [00:00<00:01, 567MB/s] 24%|██▍       | 291M/1.18G [00:00<00:01, 561MB/s] 29%|██▉       | 350M/1.18G [00:00<00:01, 580MB/s] 34%|███▍      | 410M/1.18G [00:00<00:01, 596MB/s] 39%|███▉      | 467M/1.18G [00:00<00:01, 581MB/s] 44%|████▍     | 532M/1.18G [00:01<00:01, 610MB/s] 49%|████▉     | 590M/1.18G [00:01<00:01, 583MB/s] 54%|█████▍    | 649M/1.18G [00:01<00:00, 592MB/s] 59%|█████▊    | 706M/1.18G [00:01<00:00, 572MB/s] 63%|██████▎   | 761M/1.18G [00:01<00:00, 568MB/s] 68%|██████▊   | 815M/1.18G [00:01<00:00, 549MB/s] 72%|███████▏  | 868M/1.18G [00:01<00:00, 511MB/s] 77%|███████▋  | 930M/1.18G [00:01<00:00, 550MB/s] 82%|████████▏ | 983M/1.18G [00:01<00:00, 541MB/s] 87%|████████▋ | 1.02G/1.18G [00:01<00:00, 562MB/s] 92%|█████████▏| 1.08G/1.18G [00:02<00:00, 588MB/s] 98%|█████████▊| 1.15G/1.18G [00:02<00:00, 654MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 565MB/s]
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
   self.gen = func(*args, **kwds)
 phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-json 1fdb3273f15e
-   take 1: score +0.31  wer 0.00  end -4.4st  2.8w/s  rushed ['mistake.', 'supposed']  heard: 10.5 million Australian dollars sent by mistake. It was supposed to be
-   take 2: score -1.02  wer 0.05  end -2.8st  3.0w/s  rushed ['million', 'mistake,', 'supposed']  heard: $10.5 million dollars.  Sent by mistake, it was supposed to be a $100 
-   take 3: score +1.04  wer 0.00  end -2.2st  2.9w/s  rushed ['supposed']  heard: 10.5 million Australian dollars. Sent by mistake, it was supposed to b
-   take 4: score -0.32  wer 0.00  end -1.9st  3.2w/s  rushed ['mistake,', 'supposed']  heard: 10.5 million Australian dollars. Sent by mistake, it was supposed to b
-scene 1: 6.64s ex 0.76  chosen wer 0.00
-   take 1: score -1.96  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company']  heard: May 2021.  Crypto.com, the company that paid $700 million to put its n
-   take 2: score -2.05  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company']  heard: May 2021, Crypto.com, the company that paid $700 million to put its na
-   take 3: score -5.87  wer 0.79  end +0.0st  3.3w/s  heard: May 2021.
-   take 4: score -2.09  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company']  heard: May 2021. Crypto.com, the company that paid $700 million to put its na
-scene 2: 11.05s ex 0.64  chosen wer 0.00
-   take 1: score -4.85  wer 0.20  end +0.0st  3.4w/s  rushed ['employee', 'account', 'amount']  heard: and employee types or account number into the amount box.
-   take 2: score -5.33  wer 0.30  end +0.0st  3.4w/s  rushed ['employee', 'account', 'amount']  heard: and employee tied to account number into the amount box.
-   take 3: score -3.51  wer 0.10  end +0.0st  3.1w/s  rushed ['employee', 'account', 'amount']  heard: and employee types her account number into the amount box.
-   take 4: score -5.01  wer 0.20  end +0.0st  3.5w/s  rushed ['employee', 'account', 'amount']  heard: and employee types our account number into the amount box.
-scene 3: 3.27s ex 0.74  chosen wer 0.10
-   take 1: score +1.13  wer 0.04  end -7.9st  3.1w/s  heard: $10.47 million in her account, and nobody notices.
-scene 4: 4.17s ex 0.76  chosen wer 0.04
-   take 1: score -1.17  wer 0.00  end +0.0st  3.4w/s  heard: Not for a day, not for a week, for seven months.
-   take 2: score -1.70  wer 0.00  end +0.0st  3.6w/s  heard: Not for a day, not for a week, for seven months.
-   take 3: score +0.32  wer 0.00  end -7.4st  3.6w/s  heard: Not for a day, not for a week, for seven months.
-scene 5: 3.04s ex 0.74  chosen wer 0.00
-   take 1: score -1.50  wer 0.12  end +0.0st  3.2w/s  heard: in December and audit finally finds the hole.
-   take 2: score -0.91  wer 0.12  end +0.0st  2.9w/s  heard: in December and audit finally finds the hole.
-   take 3: score -0.88  wer 0.12  end +0.0st  2.8w/s  heard: in December and audit finally finds the hole.
-   take 4: score -0.80  wer 0.12  end +0.0st  2.7w/s  heard: in December and audit finally finds the hole.
-scene 6: 2.99s ex 0.62  chosen wer 0.12
-   take 1: score -1.93  wer 0.00  end +0.0st  3.0w/s  rushed ['already', 'Melbourne,']  heard: But the money has already moved, a five-bedroom house in Melbourne, $1
-   take 2: score -1.78  wer 0.16  end +0.0st  2.6w/s  rushed ['Melbourne,']  heard: but the money has already moved. A 5-bedroom house in Melbourne, $1.35
-   take 3: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['Melbourne,']  heard: But the money has already moved.  A five-bedroom house in Melbourne, $
-   take 4: score -2.28  wer 0.00  end +0.0st  3.1w/s  rushed ['Melbourne,', 'sister.']  heard: But the money has already moved.  A five-bedroom house in Melbourne, $
-scene 7: 7.46s ex 0.74  chosen wer 0.00
-   take 1: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
-   take 2: score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
-   take 3: score -1.54  wer 0.00  end +8.5st  2.5w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold?
-   take 4: score -0.96  wer 0.00  end +0.0st  2.9w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
-scene 8: 3.95s ex 0.74  chosen wer 0.00
-   take 1: score -1.01  wer 0.00  end +0.0st  2.7w/s  rushed ['million.']  heard: and the money goes back with interest, one wrong box, $10 million.
-   take 2: score -1.17  wer 0.00  end +0.0st  2.9w/s  rushed ['interest,']  heard: and the money goes back with interest, one wrong box, $10 million.
-   take 3: score +1.79  wer 0.00  end -8.9st  2.7w/s  heard: and the money goes back with interest, one wrong box, $10 million.
-   phonetic variant: And the money goes back. With interest. One wrong box. Tahn million dollars.
-   take P1: score -0.63  wer 0.08  2.6w/s  heard: and the money goes back with interest. One wrong box, ton million doll
-   take P2: score -1.08  wer 0.12  2.9w/s  heard: and the money goes back with interest, one wrong box, $ton million.
-   take P3: score -0.56  wer 0.08  2.5w/s  heard: and the money goes back. With interest, one wrong box, ton million dol
-scene 9: 4.83s ex 0.6 END  chosen wer 0.00
-   take 1: score -3.03  wer 0.08  end +0.0st  2.8w/s  rushed ['mistake', 'Follow', 'secrets.']  heard: Money sent to you by mistake is never yours.  It always comes back for
-   take 2: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours.  It always comes back for
-   take 3: score -1.74  wer 0.00  end +0.0st  3.3w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours.  It always comes back for
-   take 4: score -1.63  wer 0.00  end +0.0st  3.2w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours. It always comes back for 
-scene 10: 6.23s ex 0.7  chosen wer 0.00
+json 2b833b67bda7
+   take 1: score -1.78  wer 0.03  end -0.1st  2.6w/s  rushed ['mistake,', 'supposed']  heard: $10.5 million Australian dollars. Sent by mistake, it was supposed to 
+   take 2: score -1.67  wer 0.03  end -1.7st  3.3w/s  rushed ['million', 'mistake.', 'supposed']  heard: $10.5 million Australian dollars, sent by mistake. It was supposed to 
+   take 3: score -0.94  wer 0.00  end -0.1st  2.4w/s  rushed ['supposed']  heard: 10.5 million Australian dollars, sent by mistake. It was supposed to b
+   take 4: score -1.25  wer 0.05  end -4.9st  3.1w/s  rushed ['million', 'mistake,', 'supposed']  heard: $10.5 million dollars. Sent by mistake, it was supposed to be a $100 r
+scene 1: 8.00s ex 0.72  chosen wer 0.00
+   take 1: score +0.24  wer 0.00  end -4.5st  2.9w/s  rushed ['Crypto', 'company']  heard: May 2021, Crypto.com, the company that paid $700 million to put its na
+   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto']  heard: May 2021. Crypto.com, the company that paid $700 million to put its na
+   take 3: score -2.51  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto', 'company', 'Australian']  heard: May 2021.  Crypto.com, the company that paid $700 million  to put its 
+   take 4: score -2.74  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company', 'Australian']  heard: May 2021. Crypto.com, the company that paid $700 million to put its na
+scene 2: 11.48s ex 0.64  chosen wer 0.00
+   take 1: score -2.96  wer 0.20  end +0.0st  2.9w/s  rushed ['account', 'amount']  heard: and employee types our account number into the amount box.
+   take 2 (plain): score -2.88  wer 0.00  end +0.0st  3.0w/s  rushed ['employee', 'account', 'amount']  heard: An employee types her account number into the amount box.
+   take 3: score -2.39  wer 0.10  end +0.0st  2.9w/s  rushed ['account', 'amount']  heard: An employee takes her account number into the amount box.
+   take 4 (plain): score -2.32  wer 0.00  end +0.0st  3.2w/s  rushed ['account', 'amount']  heard: An employee types her account number into the amount box.
+scene 3: 3.17s ex 0.72  chosen wer 0.00
+   take 1: score +1.93  wer 0.00  end -7.6st  2.5w/s  heard: $10.47 million lands in her account, and nobody notices.
+scene 4: 5.23s ex 0.72  chosen wer 0.00
+   take 1: score -1.52  wer 0.00  end +0.0st  3.5w/s  heard: not for a day, not for a week, for seven months.
+   take 2: score +1.14  wer 0.00  end -5.6st  3.2w/s  heard: Not for a day, not for a week, for seven months.
+scene 5: 3.41s ex 0.72  chosen wer 0.00
+   take 1: score -1.69  wer 0.12  end +0.0st  3.3w/s  heard: in December and audit finally finds the hole.
+   take 2: score -0.09  wer 0.00  end +0.0st  2.8w/s  heard: In December, an audit finally finds the hole.
+   take 3: score -0.89  wer 0.12  end +0.0st  2.8w/s  heard: in December and audit finally finds the hole.
+   take 4: score -0.04  wer 0.00  end +0.0st  2.7w/s  heard: In December, an audit finally finds the hole.
+scene 6: 2.99s ex 0.62  chosen wer 0.00
+   take 1: score -2.00  wer 0.00  end +0.0st  3.0w/s  rushed ['Melbourne,', 'bought']  heard: But the money has already moved.  A five bedroom house in Melbourne, $
+   take 2: score -2.73  wer 0.00  end +0.0st  3.0w/s  rushed ['already', 'Melbourne,', 'bought']  heard: But the money has already moved.  A five-bedroom house in Melbourne, $
+   take 3: score -2.16  wer 0.00  end +0.0st  3.1w/s  rushed ['already', 'Bought']  heard: But the money has already moved.  A five-bedroom house in Melbourne, $
+   take 4: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['Melbourne,']  heard: But the money has already moved.  A five bedroom house in Melbourne, $
+scene 7: 8.22s ex 0.64  chosen wer 0.00
+   take 1: score -0.90  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+   take 2: score -0.98  wer 0.00  end +0.0st  2.9w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+   take 3: score -1.13  wer 0.00  end -0.8st  3.0w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+   take 4: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+scene 8: 3.98s ex 0.56  chosen wer 0.00
+   take 1: score -0.15  wer 0.00  end +0.0st  2.1w/s  heard: and the money goes back with interest, one wrong box, 10 million dolla
+   take 2: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['million']  heard: and the money goes back with interest, one wrong box, 10 million dolla
+   take 3: score -0.03  wer 0.00  end +0.0st  2.4w/s  heard: And the money goes back with interest one wrong box 10 million dollars
+   phonetic variant: And the money goes back. With interest. One wrong box. T-e-n million dollars.
+   take P1: score -0.03  wer 0.00  2.3w/s  heard: and the money goes back with interest. One wrong box TEN million dolla
+scene 9: 5.41s ex 0.6 END  chosen wer 0.00
+   take 1: score -0.31  wer 0.00  end -3.2st  3.2w/s  rushed ['always', 'Follow']  heard: Money sent to you by mistake is never yours.  It always comes back for
+   take 2: score -2.08  wer 0.00  end +0.0st  3.0w/s  rushed ['mistake', 'Follow']  heard: Money sent to you by mistake is never yours. It always comes back for 
+   take 3: score -0.85  wer 0.00  end -3.4st  3.4w/s  rushed ['mistake', 'Follow']  heard: Money sent to you by mistake is never yours.  It always comes back for
+   take 4: score -2.05  wer 0.00  end +0.0st  3.4w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours. It always comes back for 
+scene 10: 5.71s ex 0.7  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-57.08s, force-aligned 157 words
-liampace -> jobs/t3700021/voicep.wav
-rate x1.00 gap 0.40 | ten point five million Australian dollars.
-rate x1.00 gap 0.40 | Sent by mistake.
-rate x1.00 gap 0.40 | It was supposed to be a one hundred dollar refund.
-rate x1.00 gap 0.40 | May twenty twenty-one.
-rate x1.00 gap 0.40 | Crypto.com, the company that paid seven hundred million dollars to put its name on an arena in Los Angeles, owes an Australian woman a small refund.
-rate x1.00 gap 0.40 | About one hundred dollars.
-rate x1.00 gap 0.40 | An employee types her account number... into the amount box.
-rate x1.00 gap 0.40 | ten point four seven million dollars lands in her account.
-rate x1.00 gap 0.40 | And nobody notices.
-rate x1.00 gap 0.40 | Not for a day.
-rate x1.00 gap 0.40 | Not for a week.
-rate x1.00 gap 0.40 | For seven months.
-rate x1.00 gap 0.40 | In December, an audit finally finds the hole.
-rate x1.00 gap 0.40 | But the money has already moved.
-rate x1.00 gap 0.40 | A five-bedroom house in Melbourne.
-rate x1.00 gap 0.40 | one point three five million dollars.
-rate x1.00 gap 0.40 | Bought for her sister.
-rate x1.00 gap 0.40 | Crypto.com takes her to court.
-rate x1.00 gap 0.40 | The judge orders the house sold.
-rate x1.00 gap 0.40 | And the money goes back.
-rate x1.00 gap 0.40 | With interest.
-rate x1.00 gap 0.40 | One wrong box.
-rate x1.00 gap 0.40 | Ten million dollars.
-rate x1.00 gap 0.60 | Money sent to you by mistake is never yours.
-rate x1.00 gap 0.40 | It always comes back for you.
-rate x1.00 gap 0.40 | Follow Chain Secrets.
-total 59.54s (was 57.08s)
-
+60.76s, force-aligned 157 words
+takes kept whole (no sentence re-cut) -> jobs/t3700021/voicep.wav
+flow: 0 hangs >0.7s inside lines, 1 possible sharp line ends, line gaps [0.72, 0.52, 0.08, 0.74, 0.62, 0.56, 0.52, 0.58, 0.82]

@@ -1,5 +1,5 @@
 {
- "title": "They Meant to Refund $100… They Sent $10.5 Million 💸",
+ "title": "They Meant to Refund $100\u2026 They Sent $10.5 Million \ud83d\udcb8",
  "tone": "funny",
  "theme": "emerald",
  "length": 60,
@@ -7,7 +7,7 @@
  "lesson": "Money sent to you by mistake is never yours. It always comes back for you.",
  "description": "May 2021: Crypto.com owed an Australian customer a refund of about A$100. An employee entered an account number in the amount field and A$10.47 million was sent. Nobody noticed for seven months, until a December 2021 audit. By then a A$1.35M house in Melbourne had been bought for her sister. The Supreme Court of Victoria ordered the house sold and the money returned, with interest.\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#CryptoCom #Crypto #Mistake #Australia #ChainSecrets #shorts",
- "pinned": "Be honest: would YOU have noticed $10 million in your account? 👇",
+ "pinned": "Be honest: would YOU have noticed $10 million in your account? \ud83d\udc47",
  "respell": {},
  "settings": {
   "length": 60,
@@ -41,7 +41,7 @@
    "role": "setup",
    "emotion": "curious",
    "line": "May 2021. Crypto.com, the company that paid 700 million dollars to put its name on an arena in Los Angeles, owes an Australian woman a small refund. About 100 dollars.",
-   "hit": "Angeles",
+   "hit": "angeles",
    "visual": {
     "type": "counter",
     "value": 700000000,
@@ -66,7 +66,7 @@
   {
    "role": "turn",
    "emotion": "funny",
-   "line": "An employee types her account number… into the amount box.",
+   "line": "An employee types her account number\u2026 into the amount box.",
    "hit": "box",
    "visual": {
     "type": "app",
@@ -139,7 +139,7 @@
    "hit": "hole",
    "visual": {
     "type": "doc",
-    "head": "Internal audit · December 2021",
+    "head": "Internal audit \u00b7 December 2021",
     "title": "Payment review",
     "lines": [
      "Customer refund",
@@ -227,10 +227,10 @@
   }
  ],
  "library": "st-21",
- "est_secs": 67,
+ "est_secs": 68,
  "words": 139,
  "target_words": 121,
  "length_ok": false,
- "length_msg": "script is about 1:07, a 1:00 Short needs 0:56 to 1:05 (139 spoken words, need 112 to 132)",
+ "length_msg": "script is about 1:08, a 1:00 Short needs 0:56 to 1:05 (139 spoken words, need 112 to 132)",
  "bgstyle": "grid"
 }

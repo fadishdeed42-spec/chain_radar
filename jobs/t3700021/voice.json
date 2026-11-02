@@ -1,0 +1,83 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "ten point five million Australian dollars. Sent by mistake. It was supposed to be a one hundred dollar refund.",
+   0.72,
+   0.36
+  ],
+  [
+   "May twenty twenty-one. Crypto.com, the company that paid seven hundred million dollars to put its name on an arena in Los Angeles, owes an Australian woman a small refund. About one hundred dollars.",
+   0.64,
+   0.22
+  ],
+  [
+   "An employee types her account number, into the amount box.",
+   0.72,
+   0.22
+  ],
+  [
+   "ten point four seven million dollars lands in her account. And nobody notices.",
+   0.72,
+   0.36
+  ],
+  [
+   "Not for a day. Not for a week. For seven months.",
+   0.72,
+   0.22
+  ],
+  [
+   "In December, an audit finally finds the hole.",
+   0.62,
+   0.3
+  ],
+  [
+   "But the money has already moved. A five-bedroom house in Melbourne. one point three five million dollars. Bought for her sister.",
+   0.64,
+   0.28
+  ],
+  [
+   "Crypto.com takes her to court. The judge orders the house sold.",
+   0.56,
+   0.28
+  ],
+  [
+   "And the money goes back. With interest. One wrong box. Ten million dollars.",
+   0.6,
+   0.5,
+   "end"
+  ],
+  [
+   "Money sent to you by mistake is never yours. It always comes back for you. Follow Chain Secrets.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  "An employee types her account number... into the amount box.",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "ten point five million Australian dollars. Sent by mistake. It was supposed to be a one hundred dollar refund.",
+  "May twenty twenty-one. Crypto.com, the company that paid seven hundred million dollars to put its name on an arena in Los Angeles, owes an Australian woman a small refund. About one hundred dollars.",
+  "An employee types her account number... into the amount box.",
+  "ten point four seven million dollars lands in her account. And nobody notices.",
+  "Not for a day. Not for a week. For seven months.",
+  "In December, an audit finally finds the hole.",
+  "But the money has already moved. A five-bedroom house in Melbourne. one point three five million dollars. Bought for her sister.",
+  "Crypto.com takes her to court. The judge orders the house sold.",
+  "And the money goes back. With interest. One wrong box. Ten million dollars.",
+  "Money sent to you by mistake is never yours. It always comes back for you. Follow Chain Secrets."
+ ]
+}
