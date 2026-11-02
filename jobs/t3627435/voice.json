@@ -1,0 +1,83 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.2,
+ "seed": 7,
+ "scenes": [
+  [
+   "Fifty giant companies just blocked a crypto plan. Including Nvidia.",
+   0.76,
+   0.42
+  ],
+  [
+   "The plan came from O K X and I C E, the company that owns the New York Stock Exchange.",
+   0.64,
+   0.24
+  ],
+  [
+   "The idea? Trade tokens of sixty-two big U S stocks, around the clock, paid in stablecoins.",
+   0.62,
+   0.32
+  ],
+  [
+   "But a new S E C rule gives every company thirty days to say no.",
+   0.62,
+   0.32
+  ],
+  [
+   "October twenty-sixth: twenty-six objections. Two days later: thirty-eight. Then fifty.",
+   0.76,
+   0.42
+  ],
+  [
+   "Nvidia, Nike, Costco, Microsoft, Walmart, even J P Morgan said no.",
+   0.58,
+   0.38
+  ],
+  [
+   "And here's the strange part. Reports say Nasdaq reps pushed companies to object.",
+   0.64,
+   0.3
+  ],
+  [
+   "Nasdaq is building its own tokenized stocks with Kraken, aimed at twenty twenty-seven.",
+   0.64,
+   0.3
+  ],
+  [
+   "Fifty companies. One stock market war. And crypto is the battlefield.",
+   0.55,
+   0.55,
+   "end"
+  ],
+  [
+   "A token of a stock is not the stock itself. Know what you are buying. Follow Chain Secrets.",
+   0.7,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Fifty giant companies just blocked a crypto plan. Including Nvidia.",
+  "The plan came from O K X and I C E, the company that owns the New York Stock Exchange.",
+  "The idea? Trade tokens of sixty-two big U S stocks, around the clock, paid in stablecoins.",
+  "But a new S E C rule gives every company thirty days to say no.",
+  "October twenty-sixth: twenty-six objections. Two days later: thirty-eight. Then fifty.",
+  "Nvidia, Nike, Costco, Microsoft, Walmart, even J P Morgan said no.",
+  "And here's the strange part. Reports say Nasdaq reps pushed companies to object.",
+  "Nasdaq is building its own tokenized stocks with Kraken, aimed at twenty twenty-seven.",
+  "Fifty companies. One stock market war. And crypto is the battlefield.",
+  "A token of a stock is not the stock itself. Know what you are buying. Follow Chain Secrets."
+ ]
+}

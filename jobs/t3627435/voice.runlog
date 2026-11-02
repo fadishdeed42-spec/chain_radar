@@ -1,0 +1,89 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 36.6M/1.18G [00:00<00:03, 384MB/s]  7%|▋         | 86.5M/1.18G [00:00<00:02, 465MB/s] 11%|█         | 134M/1.18G [00:00<00:02, 478MB/s]  16%|█▌        | 193M/1.18G [00:00<00:01, 534MB/s] 21%|██        | 254M/1.18G [00:00<00:01, 572MB/s] 26%|██▌       | 310M/1.18G [00:00<00:01, 578MB/s] 30%|███       | 366M/1.18G [00:00<00:01, 547MB/s] 35%|███▍      | 418M/1.18G [00:00<00:01, 509MB/s] 39%|███▉      | 468M/1.18G [00:00<00:01, 504MB/s] 43%|████▎     | 516M/1.18G [00:01<00:01, 483MB/s] 48%|████▊     | 574M/1.18G [00:01<00:01, 517MB/s] 53%|█████▎    | 633M/1.18G [00:01<00:01, 548MB/s] 57%|█████▋    | 688M/1.18G [00:01<00:00, 557MB/s] 62%|██████▏   | 744M/1.18G [00:01<00:00, 562MB/s] 66%|██████▋   | 798M/1.18G [00:01<00:00, 554MB/s] 71%|███████   | 851M/1.18G [00:01<00:00, 542MB/s] 75%|███████▍  | 903M/1.18G [00:01<00:00, 541MB/s] 80%|███████▉  | 958M/1.18G [00:01<00:00, 554MB/s] 84%|████████▍ | 0.99G/1.18G [00:01<00:00, 565MB/s] 89%|████████▉ | 1.04G/1.18G [00:02<00:00, 567MB/s] 93%|█████████▎| 1.10G/1.18G [00:02<00:00, 521MB/s] 98%|█████████▊| 1.15G/1.18G [00:02<00:00, 491MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 526MB/s]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+phonetic gemini-flash-latest 503
+json e4c099178f15
+   take 1: score -0.93  wer 0.00  end -2.5st  3.1w/s  rushed ['blocked', 'crypto', 'including']  heard: 50 giant companies just blocked a crypto plan, including Nvidia.
+   take 2: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['crypto']  heard: 50 giant companies just blocked a crypto plan, including Nvidia.
+   take 3: score +1.70  wer 0.00  end -8.8st  2.1w/s  heard: 50 giant companies just blocked a crypto plan, including Nvidia.
+scene 1: 4.77s ex 0.76  chosen wer 0.00
+   take 1: score -1.54  wer 0.00  end +0.0st  3.5w/s  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+   take 2: score -2.84  wer 0.00  end +0.0st  3.8w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+   take 3: score -2.45  wer 0.00  end +0.0st  3.6w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+   take 4: score -3.13  wer 0.00  end +0.0st  3.9w/s  rushed ['company']  heard: The plan came from OKX and ICE, the company that owns the New York Sto
+scene 2: 5.64s ex 0.64  chosen wer 0.00
+   take 1: score -0.17  wer 0.00  end +0.0st  2.9w/s  heard: The idea?  Trade tokens of 62 big US stocks around the clock paid in s
+   take 2: score +1.89  wer 0.00  end -3.7st  2.8w/s  heard: The idea? Trade tokens of 62 big US stocks around the clock paid in st
+scene 3: 5.76s ex 0.62  chosen wer 0.00
+   take 1: score +0.47  wer 0.00  end -3.8st  3.5w/s  heard: But a new SEC rule gives every company 30 days to say no.
+scene 4: 4.23s ex 0.62  chosen wer 0.00
+   take 1: score -0.49  wer 0.00  end +0.0st  1.8w/s  heard: October 26, 26 objections. Two days later, 38, then 50.
+   take 2: score -1.70  wer 0.08  end +0.0st  1.9w/s  rushed ['objections.']  heard: October 26th, 26th objections. Two days later, 38, then 50.
+   take 3: score -0.54  wer 0.00  end +0.0st  1.7w/s  heard: October 26th, 26 objections. Two days later, 38, then 50.
+scene 5: 5.58s ex 0.76  chosen wer 0.00
+   take 1: score -1.16  wer 0.00  end +0.0st  2.0w/s  rushed ['Walmart,']  heard: Nvidia, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+   take 2: score -2.74  wer 0.00  end +0.0st  2.0w/s  rushed ['Costco,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+   take 3: score -0.64  wer 0.00  end -7.3st  2.2w/s  rushed ['NVIDIA,', 'Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said, no.
+   take 4: score -1.87  wer 0.00  end -1.0st  2.1w/s  rushed ['Microsoft,', 'Walmart,']  heard: NVIDIA, Nike, Costco, Microsoft, Walmart, even JP Morgan said no.
+scene 6: 4.98s ex 0.58  chosen wer 0.00
+   take 1: score +0.38  wer 0.00  end -1.4st  2.6w/s  rushed ['strange', 'Reports']  heard: And here's the strange part.  Reports say Nasdaq reps pushed companies
+   take 2: score +0.39  wer 0.00  end -3.3st  2.6w/s  rushed ['strange', 'reports']  heard: And here's the strange part, reports say Nasdaq reps pushed companies 
+   take 3: score -2.54  wer 0.00  end -0.7st  2.8w/s  rushed ['strange', 'reports', 'companies']  heard: And here's the strange part, reports say Nasdaq reps pushed companies 
+   take 4: score -4.40  wer 0.10  end +2.8st  3.0w/s  rushed ['strange', 'reports', 'companies', 'object.']  heard: And here's the strange part, reports say Nasdaq Rep's pushed companies
+scene 7: 5.05s ex 0.64  chosen wer 0.00
+   take 1: score +0.30  wer 0.00  end -2.1st  2.8w/s  rushed ['building', 'Kraken,']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
+   take 2: score +1.06  wer 0.00  end -3.1st  2.8w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
+   take 3: score +1.11  wer 0.00  end -1.6st  2.7w/s  rushed ['building']  heard: Nasdaq is building its own tokenized stocks with Kraken aimed at 2027.
+   take 4: score +1.19  wer 0.00  end -2.0st  2.6w/s  rushed ['Kraken,']  heard: Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027
+scene 8: 4.96s ex 0.64  chosen wer 0.00
+   take 1: score -0.44  wer 0.00  end -3.0st  2.3w/s  rushed ['companies,', 'crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 2: score -1.63  wer 0.00  end +0.0st  2.3w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 3: score -2.49  wer 0.00  end +0.0st  2.2w/s  rushed ['companies,', 'crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 4: score +0.40  wer 0.00  end -4.6st  2.4w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 5: score -1.72  wer 0.00  end +0.0st  2.1w/s  rushed ['crypto', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+   take 6: score -1.65  wer 0.00  end +0.0st  2.4w/s  rushed ['companies,', 'battlefield.']  heard: 50 companies, one stock market war, and crypto is the battlefield.
+scene 9: 4.68s ex 0.55 END  chosen wer 0.00
+   take 1: score -2.76  wer 0.06  end +0.0st  3.2w/s  rushed ['itself.', 'Follow']  heard: A token of a stock is not the stock itself.  Know what you were buying
+   take 2: score -1.61  wer 0.00  end +0.0st  3.2w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself.  Know what you are buying.
+   take 3: score -1.93  wer 0.06  end +0.0st  3.2w/s  rushed ['Follow']  heard: A token of a stock is not the stock itself, know what you were buying.
+   take 4: score +0.29  wer 0.11  end -2.7st  3.3w/s  heard: A token of a stock is not the stock itself.  Know what you were buying
+   phonetic variant: A token of a stock is not the stock itself. Know what you are buying. Fahl-oh Chain Secret
+   take P1: score -0.68  wer 0.08  2.9w/s  heard: A token of a stock is not the stock itself.  Know what you are buying.
+   take P2: score -1.13  wer 0.17  2.8w/s  heard: A token of a stock is not the stock itself.  Know what you were buying
+   take P3: score -1.04  wer 0.14  3.0w/s  heard: A token of a stock is not the stock itself.  Know what you were buying
+scene 10: 6.14s ex 0.7  chosen wer 0.08
+lines levelled + gentle compressor (no pumping)
+55.46s, force-aligned 137 words
+liampace -> jobs/t3627435/voicep.wav
+rate x1.00 gap 0.40 | Fifty giant companies just blocked a crypto plan.
+rate x1.00 gap 0.40 | Including Nvidia.
+rate x1.00 gap 0.40 | The plan came from O K X and I C E, the company that owns the New York Stock Exchange.
+rate x1.00 gap 0.40 | The idea?
+rate x1.00 gap 0.40 | Trade tokens of sixty-two big U S stocks, around the clock, paid in stablecoins.
+rate x1.00 gap 0.40 | But a new S E C rule gives every company thirty days to say no.
+rate x1.00 gap 0.40 | October twenty-sixth:
+rate x1.00 gap 0.40 | twenty-six objections.
+rate x1.00 gap 0.40 | Two days later:
+rate x1.00 gap 0.40 | thirty-eight.
+rate x1.00 gap 0.40 | Then fifty.
+rate x1.00 gap 0.40 | Nvidia, Nike, Costco, Microsoft, Walmart, even J P Morgan said no.
+rate x1.00 gap 0.40 | And here's the strange part.
+rate x1.00 gap 0.40 | Reports say Nasdaq reps pushed companies to object.
+rate x1.00 gap 0.40 | Nasdaq is building its own tokenized stocks with Kraken, aimed at twenty twenty-seven.
+rate x1.00 gap 0.40 | Fifty companies.
+rate x1.00 gap 0.40 | One stock market war.
+rate x1.00 gap 0.40 | And crypto is the battlefield.
+rate x1.00 gap 0.60 | A token of a stock is not the stock itself.
+rate x1.00 gap 0.40 | Know what you are buying.
+rate x1.00 gap 0.40 | Fahl-oh Chain Secrets.
+total 56.08s (was 55.46s)
+
