@@ -481,7 +481,7 @@ def sc_counter(cv, t, i, v, a):
     ic = v.get('icon') or ('bitcoin' if 'BTC' in suf.upper() else 'cash' if '$' in pre else None)
     if SCN[i]['role'] != 'hook': kicker(cv, t, i, a)
     if ic: icon(cv, ic, W / 2, 680, back(seg(t, P(i), P(i) + .4)) * .85, a, t)
-    p = out3(seg(t, P(i) + .1, max(P(i) + .7, h + .25)))                 # counts up from the scene start, lands on the hit word
+    p = out3(seg(t, P(i) + .1, max(P(i) + .6, h)))                       # lands exactly on the hit word (never still counting when the scene ends)                 # counts up from the scene start, lands on the hit word
     try: st = float(v.get('start', 0) or 0)
     except (TypeError, ValueError): st = 0
     cur = st + (val - st) * p                                             # counts from 'start' (e.g. 26 -> 50) or from 0
