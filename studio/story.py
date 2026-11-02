@@ -192,7 +192,8 @@ def plan_line(line, respell=None, after_month=False):
 # ---------------------------------------------------------------- storyboard
 TONES = ('funny', 'serious', 'mystery', 'hype')
 ROLES = ('hook', 'setup', 'turn', 'twist', 'payoff', 'end')
-VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow', 'face', 'timer')
+VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow', 'face', 'timer',
+           'app', 'doc', 'route', 'crowd', 'facility', 'servers', 'vote', 'news')
 ICONS = ('bitcoin', 'ethereum', 'dogecoin', 'token', 'lock', 'plane', 'laptop', 'house', 'safe', 'car', 'crown', 'robot',
          'gavel', 'officer', 'person', 'calendar', 'phone', 'bank', 'fire', 'skull', 'question', 'cash')
 EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks and twists, calmer for setup

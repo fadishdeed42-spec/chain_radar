@@ -30,9 +30,9 @@
    "line": "They used a nuclear weapons supercomputer… to mine bitcoin.",
    "hit": "bitcoin",
    "visual": {
-    "type": "title",
-    "text": "NUCLEAR MINERS",
-    "icon": "laptop"
+    "type": "servers",
+    "label": "NUCLEAR MINERS",
+    "coin": true
    },
    "beats": [],
    "shots": [],
@@ -45,11 +45,10 @@
    "line": "Sarov, Russia. A closed city that doesn't appear on maps.",
    "hit": "maps",
    "visual": {
-    "type": "stamp",
-    "icon": "question",
-    "label": "SAROV, RUSSIA",
-    "word": "NOT ON MAPS",
-    "bad": true
+    "type": "facility",
+    "name": "SAROV, RUSSIA",
+    "sign": "radiation",
+    "tag": "NOT ON MAPS"
    },
    "beats": [],
    "shots": [],
@@ -60,14 +59,19 @@
    "role": "setup",
    "emotion": "tense",
    "line": "This is where the Soviet Union built its first atomic bomb. Today, it still works on nuclear warheads.",
-   "hit": "warheads",
+   "hit": "bomb",
    "visual": {
     "type": "title",
     "text": "FIRST SOVIET A-BOMB",
-    "sub": "built here",
+    "sub": "designed here",
     "icon": "fire"
    },
-   "beats": [],
+   "beats": [
+    {
+     "word": "warheads",
+     "text": "STILL: NUCLEAR WARHEADS"
+    }
+   ],
    "shots": [],
    "footage": "",
    "photo": ""
@@ -76,12 +80,11 @@
    "role": "setup",
    "emotion": "shock",
    "line": "Inside: a supercomputer with one petaflop of power. A million billion calculations every second.",
-   "hit": "second",
+   "hit": "petaflop",
    "visual": {
-    "type": "title",
-    "text": "1 PETAFLOP",
-    "sub": "a million billion calculations / second",
-    "icon": "laptop"
+    "type": "servers",
+    "label": "1 PETAFLOP",
+    "sub": "a million billion calculations every second"
    },
    "beats": [],
    "shots": [],
@@ -109,10 +112,10 @@
    "line": "And a few engineers get an idea. They quietly put the supercomputer to work mining bitcoin.",
    "hit": "mining",
    "visual": {
-    "type": "face",
-    "mood": "wink",
-    "text": "SIDE HUSTLE",
-    "sub": "on a nuclear computer"
+    "type": "servers",
+    "label": "MINING BITCOIN",
+    "sub": "on a nuclear supercomputer",
+    "coin": true
    },
    "beats": [],
    "shots": [],
@@ -125,16 +128,10 @@
    "line": "One problem. Mining needs the internet. And a nuclear weapons lab is supposed to stay offline.",
    "hit": "offline",
    "visual": {
-    "type": "versus",
-    "left": [
-     "MINING NEEDS",
-     "INTERNET"
-    ],
-    "right": [
-     "NUKE LAB",
-     "OFFLINE"
-    ],
-    "note": "UH-OH"
+    "type": "facility",
+    "name": "MINING NEEDS INTERNET",
+    "sign": "radiation",
+    "tag": "LAB = OFFLINE"
    },
    "beats": [],
    "shots": [],
@@ -221,5 +218,6 @@
  "words": 151,
  "target_words": 123,
  "length_ok": false,
- "length_msg": "script is about 1:12, a 1:00 Short needs 0:56 to 1:05 (151 spoken words, need 114 to 134)"
+ "length_msg": "script is about 1:12, a 1:00 Short needs 0:56 to 1:05 (151 spoken words, need 114 to 134)",
+ "bgstyle": "dots"
 }

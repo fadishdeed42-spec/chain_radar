@@ -367,8 +367,33 @@ _r.seed(7)
 DUST = [(_r.uniform(0, W), _r.uniform(0, H), _r.uniform(2, 6), _r.uniform(8, 30), _r.uniform(0, 6.28)) for _ in range(38)]
 
 
+BGSTYLE = str(SB.get('bgstyle') or '').lower()
+
+
+def backdrop(cv, t):
+    """a per-video background pattern, so back-to-back Shorts don't look alike"""
+    if BGSTYLE == 'grid':
+        off = (t * 12) % 90
+        for k in range(-1, 14): cv.line([(k * 90 + off, 0), (k * 90 + off, H)], ACC, 1, .05)
+        for k in range(-1, 23): cv.line([(0, k * 90 + off), (W, k * 90 + off)], ACC, 1, .05)
+    elif BGSTYLE == 'dots':
+        for r_ in range(22):
+            for c_ in range(12):
+                cv.circle(45 + c_ * 90 + (45 if r_ % 2 else 0), 40 + r_ * 90 + (t * 10) % 90, 3, ACC, .10)
+    elif BGSTYLE == 'diagonal':
+        off = (t * 20) % 120
+        for k in range(-20, 20): cv.line([(k * 120 + off, 0), (k * 120 + off + H * .6, H)], ACC, 2, .045)
+    elif BGSTYLE == 'rings':
+        for k in range(1, 9):
+            cv.ring(W / 2, H * .42, (k * 140 + t * 25) % 1260, ACC, 2, .06)
+    elif BGSTYLE == 'scan':
+        for k in range(0, 1920, 8): cv.line([(0, k), (W, k)], (0, 0, 0), 2, .12)
+        y = (t * 260) % H; cv.rect(0, y, W, y + 60, ACC, .035)
+
+
 def ambient(cv, t):
     """slow drifting particles in the tone colour: the frame is never static"""
+    backdrop(cv, t)
     for x, y, r, sp, ph in DUST:
         yy = (y - t * sp) % H; xx = x + 18 * math.sin(t * .4 + ph)
         cv.circle(xx, yy, r, ACC, .10 + .06 * math.sin(t * 1.3 + ph))
@@ -844,8 +869,11 @@ def receipt_card(cv, t, i):
         cv.text(x0 + 44, y0 + 108 + k * 58, ln, 'black', 44, (16, 20, 28), al, anchor='lm')
 
 
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'illus.py')).read())   # illustrated scene types
+
 TEMPLATES = {'title': sc_title, 'counter': sc_counter, 'stamp': sc_stamp, 'person': sc_person, 'date': sc_date, 'chart': sc_chart,
              'versus': sc_versus, 'quote': sc_quote, 'list': sc_list, 'slam': sc_slam, 'flow': sc_flow, 'face': sc_face, 'timer': sc_timer}
+TEMPLATES.update(ILLUS)
 
 
 SHRINK = {'date': .6, 'stamp': .72, 'title': .8, 'counter': .82, 'list': .78, 'versus': .82, 'quote': .82}   # graphics shrink so the footage leads
@@ -871,7 +899,7 @@ def _lower(cv, base, s=.84, dy=.09):
     cv.a = base * (1 - Mw) + Lw * Mw
 
 
-LOWER = ('title', 'versus', 'quote', 'stamp', 'face', 'timer', 'date', 'person', 'flow')   # counter and list already make room
+LOWER = ('title', 'versus', 'quote', 'stamp', 'face', 'timer', 'date', 'person', 'flow', 'app', 'doc', 'route', 'crowd', 'facility', 'servers', 'vote')   # counter and list already make room
 
 
 def make_scene(i):
@@ -889,12 +917,12 @@ def make_scene(i):
         ambient(cv, t)
         lb = cv.a.copy() if low else None
         fn(cv, t, i, v, a)
-        if low: _lower(cv, lb)
+        if low: _lower(cv, lb, *((.78, .12) if v['type'] in ('app', 'doc', 'crowd', 'servers', 'facility', 'vote') else (.84, .09)))
         if sh: _shrink(cv, base, sh)
     return scene
 
 
-if SCN and SCN[0]['role'] == 'hook' and SCN[0]['visual']['type'] not in ('chart', 'person', 'flow'):
+if SCN and SCN[0]['role'] == 'hook' and SCN[0]['visual']['type'] not in ('chart', 'person', 'flow') + tuple(ILLUS):
     _v = SCN[0]['visual']                                                  # the hook becomes a full-screen slam of its shock (number or word)
     if _v['type'] == 'counter':
         try: _txt = fmt_num(float(str(_v.get('value', 0)).replace(',', '').replace('$', '')), str(_v.get('prefix', '')), str(_v.get('suffix', '')))

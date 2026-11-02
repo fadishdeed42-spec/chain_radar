@@ -1,5 +1,5 @@
 {
- "title": "61,000 Bitcoin Found in Britain\u2026 Taken from 128,000 People \ud83d\udc51",
+ "title": "61,000 Bitcoin Found in Britain… Taken from 128,000 People 👑",
  "tone": "serious",
  "theme": "teal",
  "length": 60,
@@ -12,7 +12,7 @@
  "lesson": "Every bitcoin move stays on a public record. Crime leaves a trail forever.",
  "description": "2014-2017: Zhimin Qian ran an investment fraud in China with 128,000 victims, then fled on a fake passport to the UK. UK police seized 61,000 BTC, a UK record. She wanted to become 'monarch' of the micronation Liberland. A transfer to her helper led police to arrest her in York in 2024. She pleaded guilty and in November 2025 was sentenced to 11 years and 8 months.\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Bitcoin #Crime #UK #CryptoNews #ChainSecrets #shorts",
- "pinned": "What should happen to the 61,000 bitcoin? \ud83d\udc47",
+ "pinned": "What should happen to the 61,000 bitcoin? 👇",
  "respell": {
   "Zhimin Qian": "Jee-min Chyen",
   "Qian": "Chyen"
@@ -47,10 +47,8 @@
    "line": "2014 to 2017. Zhimin Qian runs a fake investment scheme in China.",
    "hit": "scheme",
    "visual": {
-    "type": "counter",
+    "type": "crowd",
     "value": 128000,
-    "prefix": "",
-    "suffix": "",
     "label": "VICTIMS IN CHINA"
    },
    "beats": [],
@@ -67,13 +65,13 @@
    "role": "turn",
    "emotion": "tense",
    "line": "Police close in. She flees on a fake passport, through Southeast Asia, to the UK.",
-   "hit": "passport",
+   "hit": "UK",
    "visual": {
-    "type": "stamp",
-    "icon": "plane",
-    "label": "FAKE PASSPORT",
-    "word": "ESCAPED",
-    "bad": true
+    "type": "route",
+    "from": "China",
+    "via": "SE Asia",
+    "to": "UK",
+    "label": "FAKE PASSPORT"
    },
    "beats": [],
    "shots": [],
@@ -91,7 +89,12 @@
     "sub": "paid in bitcoin?",
     "icon": "house"
    },
-   "beats": [],
+   "beats": [
+    {
+     "word": "lavish",
+     "text": "LAVISH LIFE"
+    }
+   ],
    "shots": [],
    "footage": "",
    "photo": ""
@@ -104,7 +107,7 @@
    "visual": {
     "type": "chart",
     "date": "2018-06-01",
-    "label": "2018 \u00b7 61,000 BTC SEIZED"
+    "label": "2018 · 61,000 BTC SEIZED"
    },
    "beats": [],
    "shots": [],
@@ -130,15 +133,24 @@
    "role": "twist",
    "emotion": "tense",
    "line": "In 2024, a fast-food worker who helped her gets a small bitcoin transfer. Police are watching. They arrest her in York.",
-   "hit": "york",
+   "hit": "transfer",
    "visual": {
-    "type": "stamp",
-    "icon": "officer",
-    "label": "YORK, 2024",
-    "word": "ARRESTED",
-    "bad": true
+    "type": "app",
+    "app": "Bitcoin wallet",
+    "title": "Helper's wallet",
+    "sub": "2024",
+    "field": "Incoming (BTC)",
+    "value": "0.0",
+    "value2": "8.2",
+    "alert": "Transfer from Qian · traced",
+    "alert_from": "Police"
    },
-   "beats": [],
+   "beats": [
+    {
+     "word": "York",
+     "text": "ARRESTED IN YORK"
+    }
+   ],
    "shots": [],
    "footage": "",
    "photo": ""
@@ -149,9 +161,15 @@
    "line": "In 2025, she pleads guilty. Her sentence: 11 years and 8 months. Her accomplice gets almost 5 years.",
    "hit": "months",
    "visual": {
-    "type": "timer",
-    "text": "11Y 8M",
-    "label": "HER SENTENCE"
+    "type": "doc",
+    "head": "UK court · November 2025",
+    "title": "Sentence",
+    "lines": [
+     "Zhimin Qian: guilty plea",
+     "11 years 8 months",
+     "Accomplice: almost 5 years"
+    ],
+    "stamp": "SENTENCED"
    },
    "beats": [],
    "shots": [],
@@ -171,7 +189,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-11-02",
-    "label": "TODAY \u00b7 ~$4.75 BILLION"
+    "label": "TODAY · ~$4.75 BILLION"
    },
    "beats": [],
    "shots": [],
@@ -184,5 +202,6 @@
  "words": 143,
  "target_words": 123,
  "length_ok": false,
- "length_msg": "script is about 1:08, a 1:00 Short needs 0:56 to 1:05 (143 spoken words, need 114 to 134)"
+ "length_msg": "script is about 1:08, a 1:00 Short needs 0:56 to 1:05 (143 spoken words, need 114 to 134)",
+ "bgstyle": "rings"
 }

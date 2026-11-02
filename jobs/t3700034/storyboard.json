@@ -1,5 +1,5 @@
 {
- "title": "He Said 4\u20135 Weeks. It's Day 247 \u23f3",
+ "title": "He Said 4–5 Weeks. It's Day 247 ⏳",
  "tone": "serious",
  "theme": "crimson",
  "length": 60,
@@ -12,7 +12,7 @@
  "lesson": "Markets move on words. Your money should move on facts.",
  "description": "Feb 28, 2026: US and Israeli strikes on Iran began. Mar 1, Trump: \"We intended four to five weeks.\" We counted every dated, on-record statement where he said the war would end soon, was nearly over, or that a deal to end it was days away: at least 30 (Mar 1 to Nov 1). Mar 9 \"very soon\": oil fell from above $110 to the mid-$80s, bitcoin rose to about $69K. Apr 7 ceasefire: bitcoin +2.6% in an hour. Jul 8 ceasefire \"over\": bitcoin about $62K. Trump says (Oct 1) his 4-6 weeks meant the Iran nuclear threat.\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Iran #Trump #Bitcoin #Oil #Markets #ChainSecrets #shorts",
- "pinned": "Should markets react to \"soon\" anymore? \ud83d\udc47",
+ "pinned": "Should markets react to \"soon\" anymore? 👇",
  "respell": {},
  "settings": {
   "length": 60,
@@ -61,7 +61,7 @@
    "hit": "weeks",
    "visual": {
     "type": "quote",
-    "name": "Donald Trump \u00b7 Mar 1, 2026",
+    "name": "Donald Trump · Mar 1, 2026",
     "text": "We intended four to five weeks."
    },
    "beats": [],
@@ -92,7 +92,7 @@
    "photo": "",
    "receipt": {
     "src": "CNN",
-    "headline": "Oil prices dive as Trump says Iran war will end \u2018very soon\u2019",
+    "headline": "Oil prices dive as Trump says Iran war will end ‘very soon’",
     "kind": "headline"
    }
   },
@@ -104,7 +104,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-03-09",
-    "label": "'VERY SOON' \u00b7 BTC ~$69K"
+    "label": "'VERY SOON' · BTC ~$69K"
    },
    "beats": [],
    "shots": [],
@@ -119,7 +119,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-04-07",
-    "label": "CEASEFIRE \u00b7 +2.6% IN 1 HOUR"
+    "label": "CEASEFIRE · +2.6% IN 1 HOUR"
    },
    "beats": [],
    "shots": [],
@@ -133,8 +133,8 @@
    "hit": "away",
    "visual": {
     "type": "quote",
-    "name": "Donald Trump \u00b7 Jun 9, 2026",
-    "text": "\u2026upon signing, which could be in two or three days."
+    "name": "Donald Trump · Jun 9, 2026",
+    "text": "…upon signing, which could be in two or three days."
    },
    "beats": [],
    "shots": [],
@@ -149,7 +149,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-07-08",
-    "label": "'CEASEFIRE OVER' \u00b7 BTC ~$62K"
+    "label": "'CEASEFIRE OVER' · BTC ~$62K"
    },
    "beats": [],
    "shots": [],
@@ -162,9 +162,9 @@
    "line": "September: the war 'will end immediately after our election.'",
    "hit": "election",
    "visual": {
-    "type": "title",
-    "text": "AFTER THE ELECTION",
-    "icon": "calendar"
+    "type": "quote",
+    "name": "Donald Trump · Sep 9, 2026",
+    "text": "This war will end immediately after our election."
    },
    "beats": [],
    "shots": [],
@@ -172,7 +172,7 @@
    "photo": "",
    "receipt": {
     "src": "Al Jazeera",
-    "headline": "Trump says Iran war \u2018will end immediately\u2019 after US midterm elections",
+    "headline": "Trump says Iran war ‘will end immediately’ after US midterm elections",
     "kind": "headline"
    }
   },
@@ -183,10 +183,15 @@
    "hit": "soon",
    "visual": {
     "type": "quote",
-    "name": "Donald Trump \u00b7 Nov 1, 2026",
+    "name": "Donald Trump · Nov 1, 2026",
     "text": "We'll put it away very soon, one way or the other."
    },
-   "beats": [],
+   "beats": [
+    {
+     "word": "November",
+     "text": "NOV 1, 2026"
+    }
+   ],
    "shots": [],
    "footage": "",
    "photo": ""
@@ -201,7 +206,7 @@
     "value": 30,
     "prefix": "",
     "suffix": "+",
-    "label": "TIMES 'SOON' \u00b7 ON RECORD"
+    "label": "TIMES 'SOON' · ON RECORD"
    },
    "beats": [],
    "shots": [],
@@ -214,10 +219,9 @@
    "line": "Every time, the market listened. Trump now says those weeks meant the nuclear threat.",
    "hit": "threat",
    "visual": {
-    "type": "title",
-    "text": "HIS ANSWER",
-    "sub": "the weeks = the nuclear threat",
-    "icon": "question"
+    "type": "quote",
+    "name": "Donald Trump · Oct 1, 2026",
+    "text": "…4-6 weeks to get rid of THE IRAN NUCLEAR THREAT, and I did it in one night!"
    },
    "beats": [],
    "shots": [],
@@ -237,7 +241,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-11-01",
-    "label": "DAY 247 \u00b7 NO FINAL DEAL"
+    "label": "DAY 247 · NO FINAL DEAL"
    },
    "beats": [],
    "shots": [],
@@ -250,5 +254,6 @@
  "words": 155,
  "target_words": 126,
  "length_ok": false,
- "length_msg": "script is about 1:12, a 1:00 Short needs 0:56 to 1:05 (155 spoken words, need 117 to 137)"
+ "length_msg": "script is about 1:12, a 1:00 Short needs 0:56 to 1:05 (155 spoken words, need 117 to 137)",
+ "bgstyle": "scan"
 }
