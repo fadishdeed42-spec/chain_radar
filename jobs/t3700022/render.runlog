@@ -5,8 +5,8 @@ $ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_rad
 ok jobs/t3700022/voice_tight.wav
 $ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/t3700022/music_long.wav
 $ /opt/hostedtoolcache/Python/3.11.17/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/t3700022/silent.mp4 jobs/t3700022/voice_tight.wav jobs/t3700022/sfx.wav jobs/t3700022/music_long.wav 71.33 jobs/t3700022/short.mp4 0.11
-voice-over-bed dB while speaking: median 45.1, 5th pct 19.6, worst 6.0
-worst windows: [(23.0, np.float32(6.0)), (4.0, np.float32(8.1)), (61.6, np.float32(9.4)), (46.0, np.float32(9.7)), (0.2, np.float32(10.4))]
+voice-over-bed dB while speaking: median 45.3, 5th pct 18.6, worst 4.9
+worst windows: [(23.0, np.float32(4.9)), (4.0, np.float32(6.9)), (46.0, np.float32(9.2)), (61.6, np.float32(9.4)), (39.4, np.float32(10.1))]
 mixed -> jobs/t3700022/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700022/short.mp4 -c:v libx264 -crf 19 -maxrate 4790k -bufsize 9580k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700022/short_s.mp4
 video check: []
