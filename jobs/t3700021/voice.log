@@ -1,0 +1,81 @@
+json 1fdb3273f15e
+   take 1: score +0.31  wer 0.00  end -4.4st  2.8w/s  rushed ['mistake.', 'supposed']  heard: 10.5 million Australian dollars sent by mistake. It was supposed to be
+   take 2: score -1.02  wer 0.05  end -2.8st  3.0w/s  rushed ['million', 'mistake,', 'supposed']  heard: $10.5 million dollars.  Sent by mistake, it was supposed to be a $100 
+   take 3: score +1.04  wer 0.00  end -2.2st  2.9w/s  rushed ['supposed']  heard: 10.5 million Australian dollars. Sent by mistake, it was supposed to b
+   take 4: score -0.32  wer 0.00  end -1.9st  3.2w/s  rushed ['mistake,', 'supposed']  heard: 10.5 million Australian dollars. Sent by mistake, it was supposed to b
+scene 1: 6.64s ex 0.76  chosen wer 0.00
+   take 1: score -1.96  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company']  heard: May 2021.  Crypto.com, the company that paid $700 million to put its n
+   take 2: score -2.05  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company']  heard: May 2021, Crypto.com, the company that paid $700 million to put its na
+   take 3: score -5.87  wer 0.79  end +0.0st  3.3w/s  heard: May 2021.
+   take 4: score -2.09  wer 0.00  end +0.0st  3.0w/s  rushed ['Crypto', 'company']  heard: May 2021. Crypto.com, the company that paid $700 million to put its na
+scene 2: 11.05s ex 0.64  chosen wer 0.00
+   take 1: score -4.85  wer 0.20  end +0.0st  3.4w/s  rushed ['employee', 'account', 'amount']  heard: and employee types or account number into the amount box.
+   take 2: score -5.33  wer 0.30  end +0.0st  3.4w/s  rushed ['employee', 'account', 'amount']  heard: and employee tied to account number into the amount box.
+   take 3: score -3.51  wer 0.10  end +0.0st  3.1w/s  rushed ['employee', 'account', 'amount']  heard: and employee types her account number into the amount box.
+   take 4: score -5.01  wer 0.20  end +0.0st  3.5w/s  rushed ['employee', 'account', 'amount']  heard: and employee types our account number into the amount box.
+scene 3: 3.27s ex 0.74  chosen wer 0.10
+   take 1: score +1.13  wer 0.04  end -7.9st  3.1w/s  heard: $10.47 million in her account, and nobody notices.
+scene 4: 4.17s ex 0.76  chosen wer 0.04
+   take 1: score -1.17  wer 0.00  end +0.0st  3.4w/s  heard: Not for a day, not for a week, for seven months.
+   take 2: score -1.70  wer 0.00  end +0.0st  3.6w/s  heard: Not for a day, not for a week, for seven months.
+   take 3: score +0.32  wer 0.00  end -7.4st  3.6w/s  heard: Not for a day, not for a week, for seven months.
+scene 5: 3.04s ex 0.74  chosen wer 0.00
+   take 1: score -1.50  wer 0.12  end +0.0st  3.2w/s  heard: in December and audit finally finds the hole.
+   take 2: score -0.91  wer 0.12  end +0.0st  2.9w/s  heard: in December and audit finally finds the hole.
+   take 3: score -0.88  wer 0.12  end +0.0st  2.8w/s  heard: in December and audit finally finds the hole.
+   take 4: score -0.80  wer 0.12  end +0.0st  2.7w/s  heard: in December and audit finally finds the hole.
+scene 6: 2.99s ex 0.62  chosen wer 0.12
+   take 1: score -1.93  wer 0.00  end +0.0st  3.0w/s  rushed ['already', 'Melbourne,']  heard: But the money has already moved, a five-bedroom house in Melbourne, $1
+   take 2: score -1.78  wer 0.16  end +0.0st  2.6w/s  rushed ['Melbourne,']  heard: but the money has already moved. A 5-bedroom house in Melbourne, $1.35
+   take 3: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['Melbourne,']  heard: But the money has already moved.  A five-bedroom house in Melbourne, $
+   take 4: score -2.28  wer 0.00  end +0.0st  3.1w/s  rushed ['Melbourne,', 'sister.']  heard: But the money has already moved.  A five-bedroom house in Melbourne, $
+scene 7: 7.46s ex 0.74  chosen wer 0.00
+   take 1: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+   take 2: score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+   take 3: score -1.54  wer 0.00  end +8.5st  2.5w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold?
+   take 4: score -0.96  wer 0.00  end +0.0st  2.9w/s  rushed ['Crypto']  heard: Crypto.com takes her to court.  The judge orders the house sold.
+scene 8: 3.95s ex 0.74  chosen wer 0.00
+   take 1: score -1.01  wer 0.00  end +0.0st  2.7w/s  rushed ['million.']  heard: and the money goes back with interest, one wrong box, $10 million.
+   take 2: score -1.17  wer 0.00  end +0.0st  2.9w/s  rushed ['interest,']  heard: and the money goes back with interest, one wrong box, $10 million.
+   take 3: score +1.79  wer 0.00  end -8.9st  2.7w/s  heard: and the money goes back with interest, one wrong box, $10 million.
+   phonetic variant: And the money goes back. With interest. One wrong box. Tahn million dollars.
+   take P1: score -0.63  wer 0.08  2.6w/s  heard: and the money goes back with interest. One wrong box, ton million doll
+   take P2: score -1.08  wer 0.12  2.9w/s  heard: and the money goes back with interest, one wrong box, $ton million.
+   take P3: score -0.56  wer 0.08  2.5w/s  heard: and the money goes back. With interest, one wrong box, ton million dol
+scene 9: 4.83s ex 0.6 END  chosen wer 0.00
+   take 1: score -3.03  wer 0.08  end +0.0st  2.8w/s  rushed ['mistake', 'Follow', 'secrets.']  heard: Money sent to you by mistake is never yours.  It always comes back for
+   take 2: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours.  It always comes back for
+   take 3: score -1.74  wer 0.00  end +0.0st  3.3w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours.  It always comes back for
+   take 4: score -1.63  wer 0.00  end +0.0st  3.2w/s  rushed ['Follow']  heard: Money sent to you by mistake is never yours. It always comes back for 
+scene 10: 6.23s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+57.08s, force-aligned 157 words
+liampace -> jobs/t3700021/voicep.wav
+rate x1.00 gap 0.40 | ten point five million Australian dollars.
+rate x1.00 gap 0.40 | Sent by mistake.
+rate x1.00 gap 0.40 | It was supposed to be a one hundred dollar refund.
+rate x1.00 gap 0.40 | May twenty twenty-one.
+rate x1.00 gap 0.40 | Crypto.com, the company that paid seven hundred million dollars to put its name on an arena in Los Angeles, owes an Australian woman a small refund.
+rate x1.00 gap 0.40 | About one hundred dollars.
+rate x1.00 gap 0.40 | An employee types her account number... into the amount box.
+rate x1.00 gap 0.40 | ten point four seven million dollars lands in her account.
+rate x1.00 gap 0.40 | And nobody notices.
+rate x1.00 gap 0.40 | Not for a day.
+rate x1.00 gap 0.40 | Not for a week.
+rate x1.00 gap 0.40 | For seven months.
+rate x1.00 gap 0.40 | In December, an audit finally finds the hole.
+rate x1.00 gap 0.40 | But the money has already moved.
+rate x1.00 gap 0.40 | A five-bedroom house in Melbourne.
+rate x1.00 gap 0.40 | one point three five million dollars.
+rate x1.00 gap 0.40 | Bought for her sister.
+rate x1.00 gap 0.40 | Crypto.com takes her to court.
+rate x1.00 gap 0.40 | The judge orders the house sold.
+rate x1.00 gap 0.40 | And the money goes back.
+rate x1.00 gap 0.40 | With interest.
+rate x1.00 gap 0.40 | One wrong box.
+rate x1.00 gap 0.40 | Ten million dollars.
+rate x1.00 gap 0.60 | Money sent to you by mistake is never yours.
+rate x1.00 gap 0.40 | It always comes back for you.
+rate x1.00 gap 0.40 | Follow Chain Secrets.
+total 59.54s (was 57.08s)
+
