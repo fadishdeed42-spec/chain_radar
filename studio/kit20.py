@@ -15,7 +15,7 @@ def chart_base(cv, t, ch, D, f, ep, symbol, sub, a, foot='Not financial advice Â
     ch.price_tag(cv, c, col, a)
     if dot:
         cv.glow(ch.X(last), ch.Y(c), 28, col, .5 * a); cv.circle(ch.X(last), ch.Y(c), 8, WHITE, a)
-    header(cv, 'CHAIN SECRETS', ep, symbol, sub, c, col, dfmt(D)(last), tf='1D', alpha=a)
+    header(cv, 'CHAIN SECRETS', ep, symbol, sub, c, col, dfmt(D)(last), tf=('1W' if 'weekly' in str(sub) else '1M' if 'monthly' in str(sub) else '1D'), alpha=a)
     footer(cv, foot)
     return last, c
 

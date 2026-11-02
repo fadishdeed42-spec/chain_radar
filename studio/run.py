@@ -129,12 +129,13 @@ def daily(sym, start, end):
         except Exception as ex:
             print('coinbase', ex)
     rows = sorted({r[0]: r for r in rows if s <= r[0] <= e}.values())
-    if len(rows) > 220:                                                   # long stories: weekly candles keep the chart readable
+    if len(rows) > 270:                                                   # long stories: weekly (or monthly) candles keep the chart readable
+        n = 7 if len(rows) <= 270 * 7 else 30
         wk = []
-        for i in range(0, len(rows), 7):
-            g = rows[i:i + 7]
+        for i in range(0, len(rows), n):
+            g = rows[i:i + n]
             wk.append((g[0][0], g[0][1], max(x[2] for x in g), min(x[3] for x in g), g[-1][4], sum(x[5] for x in g)))
-        rows = wk; src += ' weekly'
+        rows = wk; src += ' weekly' if n == 7 else ' monthly'
     if len(rows) < 10:
         return None, ''
     return {k: [r[n] for r in rows] for n, k in enumerate('tohlcv')}, src

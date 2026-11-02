@@ -469,7 +469,7 @@ def sc_counter(cv, t, i, v, a):
                 cur = prev + (sv - prev) * out3(seg(t, tw - .05, tw + .3))
         p = 1.0
     if val == int(val) and st == int(st) and abs(val) < 1e7: cur = round(cur)   # whole numbers stay whole (no "43.4 objections")
-    s = fmt_num(cur, pre, suf, abs(val))
+    s = fmt_num(cur, pre, suf if (p >= .999 or suf.strip() not in ('+',)) else '', abs(val))   # "30+" only once it lands
     size = fit(fmt_num(val, pre, suf), 'black', 130, 900)
     yc = 1050 if ic else 880
     q = back(seg(t, P(i) + .1, P(i) + .5))                                # the counter waits at 0, then runs on the hit word
@@ -533,7 +533,7 @@ def sc_chart(cv, t, i, v, a):
     lo = min(D['l'][x0:last + 1]); hi_ = max(D['h'][x0:last + 1]); pad = (hi_ - lo) * .12 or hi_ * .05
     ch.cam = (x0 - 1, max(last + 2, 20), max(0, lo - pad), hi_ + pad)
     chart_base(cv, t, ch, D, f, EP, SB['chart']['symbol'] + 'USD', SB['chart'].get('src', 'daily candles'), a,
-               foot='Not financial advice · Data: ' + SB['chart'].get('src', 'exchange') + ' daily')
+               foot='Not financial advice · Data: ' + SB['chart'].get('src', 'exchange') + ('' if re.search(r'weekly|monthly', SB['chart'].get('src', '')) else ' daily'))
     if t >= h - .1 and v.get('label'):
         x, y = ch.X(to), ch.Y(D['c'][to])
         up = D['c'][to] >= D['c'][frm]
