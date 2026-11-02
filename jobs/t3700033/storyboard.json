@@ -13,10 +13,7 @@
  "description": "2014-2017: Zhimin Qian ran an investment fraud in China with 128,000 victims, then fled on a fake passport to the UK. UK police seized 61,000 BTC, a UK record. She wanted to become 'monarch' of the micronation Liberland. A transfer to her helper led police to arrest her in York in 2024. She pleaded guilty and in November 2025 was sentenced to 11 years and 8 months.\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Bitcoin #Crime #UK #CryptoNews #ChainSecrets #shorts",
  "pinned": "What should happen to the 61,000 bitcoin? 👇",
- "respell": {
-  "Zhimin Qian": "Jee-min Chyen",
-  "Qian": "Chyen"
- },
+ "respell": {},
  "settings": {
   "length": 60,
   "style": "graphics",
@@ -44,14 +41,19 @@
   {
    "role": "setup",
    "emotion": "dark",
-   "line": "2014 to 2017. Zhimin Qian runs a fake investment scheme in China.",
+   "line": "2014 to 2017. A woman in China runs a fake investment scheme.",
    "hit": "scheme",
    "visual": {
     "type": "crowd",
     "value": 128000,
     "label": "VICTIMS IN CHINA"
    },
-   "beats": [],
+   "beats": [
+    {
+     "word": "woman",
+     "text": "ZHIMIN QIAN"
+    }
+   ],
    "shots": [],
    "footage": "",
    "photo": "",
@@ -142,8 +144,8 @@
     "field": "Incoming (BTC)",
     "value": "0.0",
     "value2": "8.2",
-    "alert": "Transfer from Qian · traced",
-    "alert_from": "Police"
+    "alert": "From: Qian · 8.2 BTC",
+    "alert_from": "On-chain"
    },
    "beats": [
     {
