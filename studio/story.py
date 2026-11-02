@@ -15,7 +15,7 @@ MONTHS = {'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April', '
 KNOWN_OK = {'binance', 'coinbase', 'tether', 'bitcoin', 'ethereum', 'solana', 'ripple', 'kraken', 'bybit', 'okx', 'chainalysis', 'blackrock', 'nasdaq',
             'microstrategy', 'strategy', 'teng', 'trump', 'musk', 'saylor', 'dogecoin', 'cardano', 'polygon', 'uniswap', 'opensea', 'metamask', 'ledger', 'circle'}
 PRONOUNCE = {'bybit': 'Bye-bit', 'okx': 'O K X', 'kucoin': 'Koo-coin', 'huobi': 'Hwo-bee', 'bitfinex': 'Bit-finex', 'quadrigacx': 'Quadriga C X',
-             'ulbricht': 'Uhl-brikt', 'zachxbt': 'Zack X B T', 'lazarus': 'Lazarus', 'chainalysis': 'Chain-alysis', 'kwon': 'Kwahn', 'wazirx': 'Wazir X'}   # always said this way
+             'ulbricht': 'Uhl-brikt', 'zachxbt': 'Zack X B T', 'jpmorgan': 'J P Morgan', 'lazarus': 'Lazarus', 'chainalysis': 'Chain-alysis', 'kwon': 'Kwahn', 'wazirx': 'Wazir X'}   # always said this way
 MONEY_NOUNS = {'reward', 'fine', 'hack', 'heist', 'deal', 'fund', 'bounty', 'settlement', 'company', 'loan', 'bet', 'lawsuit', 'sale', 'mansion', 'exploit',
                'theft', 'scam', 'fraud', 'question', 'mistake', 'penalty', 'bail', 'bond', 'payout', 'ransom', 'bribe', 'pizza', 'yacht', 'house', 'raise', 'round'}
 FULL_MONTHS = {v.lower() for v in MONTHS.values()}

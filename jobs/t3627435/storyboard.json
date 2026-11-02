@@ -1,0 +1,184 @@
+{
+ "title": "50 Giant Companies Just Blocked a Crypto Plan \ud83d\udeab",
+ "tone": "mystery",
+ "length": 60,
+ "chart": null,
+ "lesson": "A token of a stock is not the stock itself. Know what you are buying.",
+ "description": "OKXICE, a venture of crypto exchange OKX and NYSE owner ICE, planned 24/7 trading of tokenized versions of 62 US stocks. Under the SEC's new exemption, companies get 30 days to object. Objections rose from 26 on October 26 to 50 by October 30, including Nvidia, Nike, Costco, Microsoft, Walmart and JPMorgan. Reports say Nasdaq representatives encouraged companies to object; Nasdaq plans its own issuer-led tokenized stocks with Kraken, targeted for 2027.",
+ "hashtags": "#Tokenization #OKX #NYSE #Nasdaq #CryptoNews #ChainSecrets #shorts",
+ "pinned": "Would you trade a token of a stock 24/7, or stick with the real share?",
+ "respell": {},
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "chart": "off",
+  "autorender": true
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "Fifty giant companies just blocked a crypto plan. Including Nvidia.",
+   "hit": "blocked",
+   "visual": {
+    "type": "counter",
+    "value": 50,
+    "prefix": "",
+    "suffix": "",
+    "label": "COMPANIES SAID NO"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "The plan came from OKX and ICE, the company that owns the New York Stock Exchange.",
+   "hit": "owns",
+   "visual": {
+    "type": "title",
+    "text": "OKX + ICE",
+    "sub": "owner of the NYSE",
+    "icon": "bank"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "tense",
+   "line": "The idea? Trade tokens of 62 big US stocks, around the clock, paid in stablecoins.",
+   "hit": "clock",
+   "visual": {
+    "type": "timer",
+    "text": "24/7",
+    "label": "62 STOCKS AS TOKENS"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "tense",
+   "line": "But a new SEC rule gives every company 30 days to say no.",
+   "hit": "no",
+   "visual": {
+    "type": "timer",
+    "text": "30 DAYS",
+    "label": "TO SAY NO"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "shock",
+   "line": "October 26: 26 objections. Two days later: 38. Then 50.",
+   "hit": "50",
+   "visual": {
+    "type": "counter",
+    "value": 50,
+    "prefix": "",
+    "suffix": "",
+    "label": "OBJECTIONS"
+   },
+   "beats": [],
+   "shots": [],
+   "receipt": {
+    "src": "crypto.news",
+    "headline": "OKXICE faces 50 issuer objections as Nvidia and Nike join opposition"
+   },
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "dark",
+   "line": "Nvidia, Nike, Costco, Microsoft, Walmart, even JPMorgan said no.",
+   "hit": "no",
+   "visual": {
+    "type": "list",
+    "items": [
+     "NVIDIA \u00b7 NIKE",
+     "COSTCO \u00b7 MICROSOFT",
+     "WALMART \u00b7 JPMORGAN"
+    ]
+   },
+   "beats": [],
+   "shots": [],
+   "receipt": {
+    "src": "Stocktwits",
+    "headline": "ICE And OKX's Tokenized Stock Venue Hits A Wall As Nvidia, Nike Join Growing List Of Objectors"
+   },
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "curious",
+   "line": "And here's the strange part. Reports say Nasdaq reps pushed companies to object.",
+   "hit": "nasdaq",
+   "visual": {
+    "type": "face",
+    "mood": "sideeye",
+    "text": "NASDAQ?",
+    "sub": "reports say"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "curious",
+   "line": "Nasdaq is building its own tokenized stocks with Kraken, aimed at 2027.",
+   "hit": "kraken",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "NYSE OWNER",
+     "+ OKX"
+    ],
+    "right": [
+     "NASDAQ",
+     "+ KRAKEN"
+    ],
+    "note": "stock market war"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "dark",
+   "line": "Fifty companies. One stock market war. And crypto is the battlefield.",
+   "hit": "battlefield",
+   "visual": {
+    "type": "stamp",
+    "icon": "gavel",
+    "label": "50 COMPANIES",
+    "word": "BLOCKED",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "est_secs": 58,
+ "words": 117,
+ "target_words": 121,
+ "length_ok": true
+}
