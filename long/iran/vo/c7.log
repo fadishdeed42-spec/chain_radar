@@ -1,0 +1,39 @@
+json 5bdff0fe36ea
+   take 1: score -0.30  wer 0.00  end +0.0st  3.0w/s  heard: his side and the count.
+   take 2: score -0.10  wer 0.00  end +0.0st  2.8w/s  heard: his side and the count.
+   take 3: score -1.51  wer 0.20  end +0.0st  3.0w/s  heard: is side and the count.
+   take 4: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: his side and the count.
+scene 1: 1.89s ex 0.58  chosen wer 0.00
+   take 1: score +0.56  wer 0.00  end -1.9st  3.5w/s  heard: Trump has his own answer.
+scene 2: 1.43s ex 0.56  chosen wer 0.00
+   take 1: score -1.90  wer 0.00  end +0.0st  3.3w/s  rushed ['October']  heard: On October 1st, he said his four to six weeks meant the Iran nuclear t
+   take 2: score -1.94  wer 0.00  end +0.0st  3.4w/s  rushed ['October']  heard: On October 1, he said his four to six weeks meant the Iran nuclear thr
+   take 3: score -1.52  wer 0.00  end +0.0st  3.2w/s  rushed ['October']  heard: On October 1st, he said his four to six weeks meant the Iran nuclear t
+   take 4: score -1.64  wer 0.00  end +0.0st  3.2w/s  rushed ['October']  heard: On October 1, he said his four to six weeks meant the Iran nuclear thr
+scene 3: 7.29s ex 0.58  chosen wer 0.00
+   take 1: score -0.05  wer 0.00  end +0.0st  2.5w/s  heard: Other counts use other rules.
+   take 2: score -0.24  wer 0.00  end +0.0st  2.2w/s  heard: Other counts use other rules.
+   take 3: score -0.80  wer 0.00  end +0.0st  2.6w/s  rushed ['counts']  heard: Other counts use other rules.
+   take 4: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: other counts use other rules.
+scene 4: 1.99s ex 0.56  chosen wer 0.00
+   take 1: score -0.24  wer 0.00  end +0.0st  2.2w/s  heard: Axios counted 12 signals by March 30.
+   take 2: score +1.16  wer 0.00  end -10.0st  2.7w/s  rushed ['counted']  heard: Axios counted 12 signals by March 30.
+   take 3: score -0.09  wer 0.00  end +0.0st  2.5w/s  heard: Axios counted 12 signals by March 30th.
+scene 5: 2.63s ex 0.56  chosen wer 0.00
+   take 1: score -0.78  wer 0.00  end +0.0st  3.2w/s  heard: CNN counted 38 times he said a deal was close by June 9th.
+   take 2: score -0.52  wer 0.00  end +0.0st  3.1w/s  heard: CNN counted 38 times, he said a deal was close. By June 9th.
+   take 3: score -0.53  wer 0.00  end +0.0st  3.1w/s  heard: CNN counted 38 times he said a deal was close by June 9th.
+scene 6: 4.90s ex 0.56  chosen wer 0.00
+   take 1: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: Our rule, one dated public statement per place, per day.
+   take 2: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: Our rule, one dated public statement per place per day.
+   take 3: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: Our rule, one dated public statement per place per day.
+scene 7: 3.91s ex 0.56  chosen wer 0.00
+   take 1: score -1.25  wer 0.00  end +0.6st  3.0w/s  rushed ['description.']  heard: All 34 sources are in the description.
+   take 2: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['description.']  heard: All 34 sources are in the description.
+   take 3: score -1.08  wer 0.00  end +0.0st  2.9w/s  rushed ['description.']  heard: All 34 sources are in the description.
+   take 4: score -1.12  wer 0.00  end +0.0st  3.0w/s  rushed ['description.']  heard: All 34 sources are in the description.
+scene 8: 2.85s ex 0.56  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+29.43s, force-aligned 77 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c7p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.82, 0.56, 0.74, 0.55, 0.56, 0.54, 0.46]
