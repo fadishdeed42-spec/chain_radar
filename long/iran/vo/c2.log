@@ -1,0 +1,99 @@
+json a69075c12bcd
+   take 1: score +1.88  wer 0.00  end -2.4st  2.4w/s  heard: Chapter 1, 4-5 Weeks.
+scene 1: 2.50s ex 0.6  chosen wer 0.00
+   take 1: score +0.08  wer 0.00  end -1.9st  2.1w/s  rushed ['February', 'Israeli']  heard: February 28, 2026, American and Israeli strikes hit Iran.
+   take 2: score -0.71  wer 0.00  end -4.2st  2.1w/s  rushed ['February', 'American', 'Israeli']  heard: February 28, 2026. American and Israeli strikes hit Iran.
+   take 3: score -0.77  wer 0.00  end -5.3st  2.0w/s  rushed ['February', 'American', 'Israeli']  heard: February 28, 2026.  American and Israeli strikes hit Iran.
+   take 4: score -1.07  wer 0.00  end +0.0st  2.2w/s  rushed ['February']  heard: February 28, 2026, American and Israeli strikes hit Iran.
+scene 2: 4.86s ex 0.66  chosen wer 0.00
+   take 1: score -1.42  wer 0.00  end +0.0st  3.1w/s  rushed ['narrow']  heard: Iran answers by closing the Strait of Hormuz, the narrow channel that 
+   take 2: score -4.17  wer 0.00  end +0.0st  3.7w/s  rushed ['Strait', 'narrow', "world's"]  heard: Iran answers by closing the Strait of Hormuz, the narrow channel that 
+   take 3: score -2.81  wer 0.00  end +0.0st  3.4w/s  rushed ['Strait', 'narrow']  heard: Iran answers by closing the Strait of Hormuz, the narrow channel that 
+   take 4: score -4.00  wer 0.00  end +0.0st  3.6w/s  rushed ['closing', 'Strait', 'narrow']  heard: Iran answers by closing the Strait of Hormuz, the narrow channel that 
+scene 3: 6.75s ex 0.62  chosen wer 0.00
+   take 1: score -2.60  wer 0.00  end +0.0st  3.3w/s  rushed ['before', 'barrel.']  heard: The day before the war, U.S. oil closed at $67 a barrel.
+   take 2: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: The day before the war, U.S. oil closed at $67 a barrel.
+   take 3: score -1.22  wer 0.00  end +0.0st  3.0w/s  rushed ['before']  heard: The day before the war, U.S. oil closed at $67 a barrel.
+   take 4: score -0.51  wer 0.00  end +0.0st  3.1w/s  heard: The day before the war, U.S. oil closed at $67 a barrel.
+scene 4: 4.53s ex 0.58  chosen wer 0.00
+   take 1: score +1.25  wer 0.06  end -7.9st  1.9w/s  heard: Bitcoin closed near $65,900.
+scene 5: 3.60s ex 0.58  chosen wer 0.06
+   take 1: score +0.98  wer 0.00  end -3.9st  2.9w/s  rushed ['intended']  heard: The next day, Trump gives his first timeline.  We intended 4-5 weeks.
+   take 2: score -1.87  wer 0.00  end +0.0st  3.3w/s  rushed ['intended']  heard: The next day Trump gives his first timeline.  We intended 4-5 weeks.
+   take 3: score +1.83  wer 0.00  end -4.4st  2.9w/s  heard: The next day, Trump gives his first timeline. We intended 4-5 weeks.  
+scene 6: 4.86s ex 0.62  chosen wer 0.00
+   take 1: score -0.67  wer 0.00  end +0.0st  3.1w/s  heard: Oil doesn't wait. By March 6th, it's at $91.
+   take 2: score -0.44  wer 0.00  end +3.3st  2.9w/s  heard: Oil doesn't wait.  By March 6th, it's at $91.
+   take 3: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: Oil doesn't wait. By March 6th, it's at $91.
+scene 7: 3.87s ex 0.7  chosen wer 0.00
+   take 1: score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: March 9th. Trump says the end is coming. Soon, very soon.
+   take 2: score -0.06  wer 0.00  end +0.0st  2.7w/s  heard: March 9th, Trump says the end is coming. Soon, very soon.
+   take 3: score -0.06  wer 0.00  end +0.0st  2.5w/s  heard: March 9th. Trump says the end is coming. Soon, very soon.
+scene 8: 4.40s ex 0.62  chosen wer 0.00
+   take 1: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['Bitcoin']  heard: That day, Bitcoin jumps almost 4%.
+   take 2: score -0.98  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin']  heard: That day, Bitcoin jumps almost 4%.
+   take 3: score -1.76  wer 0.14  end +0.0st  2.4w/s  rushed ['bitcoin']  heard: That day, bitcoin jumped almost 4%.
+   take 4: score -0.98  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin']  heard: That day, Bitcoin jumps almost 4%.
+scene 9: 2.92s ex 0.68  chosen wer 0.00
+   take 1: score -0.44  wer 0.00  end +3.4st  2.9w/s  heard: The next day, oil drops from $95 to 84.
+   take 2: score +1.74  wer 0.04  end -1.5st  2.6w/s  heard: The next day, oil drops from $95 to $84.
+scene 10: 3.79s ex 0.66  chosen wer 0.04
+   take 1: score -1.09  wer 0.00  end +0.0st  3.3w/s  heard: For a moment, the words work.
+   take 2: score -0.32  wer 0.00  end +0.0st  3.0w/s  heard: For a moment, the words work.
+   take 3: score -1.32  wer 0.00  end +0.0st  3.4w/s  heard: For a moment, the words work.
+scene 11: 2.02s ex 0.62  chosen wer 0.00
+   take 1: score -1.53  wer 0.00  end +0.0st  3.5w/s  heard: But the war keeps going.
+   take 2: score -3.42  wer 0.00  end +7.8st  4.1w/s  heard: But the war keeps going.
+   take 3: score -0.39  wer 0.00  end +0.0st  3.0w/s  heard: But the war keeps going.
+scene 12: 1.67s ex 0.6  chosen wer 0.00
+   take 1: score -2.84  wer 0.13  end +9.1st  3.4w/s  heard: March 13th. I don't think it's going to be long.
+   take 2: score -2.71  wer 0.13  end +0.0st  3.7w/s  heard: March 13th. I don't think it's going to be long.
+   take 3: score -2.30  wer 0.13  end +2.3st  3.5w/s  heard: March 13th. I don't think it's going to be long.
+   take 4: score -1.92  wer 0.13  end +0.0st  3.4w/s  heard: March 13th. I don't think it's going to be long.
+   take R1: wer 0.13  heard: March 13th. I don't think it's going to be long.
+   take R2: wer 0.13  heard: March 13th. I don't think it's going to be long.
+   take R3: wer 0.13  heard: March 13th. I don't think it's going to be long.
+   take R4: wer 0.13  heard: March 13th. I don't think it's going to be long.
+scene 13: 2.68s ex 0.62  chosen wer 0.13
+   take 1: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['schedule.']  heard: March 26, 4 to 6 weeks. We're way ahead of schedule.
+   take 2: score +1.12  wer 0.00  end -3.6st  2.5w/s  rushed ['schedule.']  heard: March 26, 4 to 6 weeks. We're way ahead of schedule.
+   take 3: score -1.55  wer 0.12  end +0.0st  2.5w/s  rushed ['schedule.']  heard: March 26, 4 to 6 weeks, were way ahead of schedule.
+   take 4: score -1.65  wer 0.12  end +0.0st  2.8w/s  rushed ['schedule.']  heard: March 26, 4-6 weeks, or way ahead of schedule.
+scene 14: 4.45s ex 0.62  chosen wer 0.00
+   take 1: score +1.79  wer 0.00  end -5.0st  2.2w/s  heard: March 31st, two or three weeks.
+scene 15: 2.67s ex 0.62  chosen wer 0.00
+   take 1: score -1.72  wer 0.00  end +0.0st  3.6w/s  heard: By then, oil is above $100.
+   take 2: score -0.12  wer 0.00  end +0.0st  2.8w/s  heard: By then, oil is above $100.
+   take 3: score -0.59  wer 0.00  end +0.0st  3.1w/s  heard: By then, oil is above $100.
+scene 16: 2.85s ex 0.66  chosen wer 0.00
+   take 1: score -1.72  wer 0.00  end +0.0st  2.8w/s  rushed ['address', 'finish']  heard: April 1st, in an address to the nation, he promises to finish the job 
+   take 2: score -2.45  wer 0.00  end +0.0st  2.7w/s  rushed ['address', 'nation,', 'finish']  heard: April 1st, in an address to the nation, he promises to finish the job 
+   take 3: score -0.87  wer 0.00  end +0.0st  2.7w/s  rushed ['address']  heard: April 1st, in an address to the nation, he promises to finish the job,
+   take 4: score -1.11  wer 0.00  end +0.0st  3.0w/s  rushed ['finish']  heard: April 1st, in an address to the nation, he promises to finish the job 
+scene 17: 6.27s ex 0.62  chosen wer 0.00
+   take 1: score -0.53  wer 0.00  end +0.0st  3.1w/s  heard: April 7th, oil hits its highest price of the whole war, 114 dollars.
+   take 2: score -0.17  wer 0.00  end +0.0st  2.9w/s  heard: April 7th, oil hits its highest price of the whole war, $114.
+   take 3: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['highest']  heard: April 7th, oil hits its highest price of the whole war, $114.
+   take 4: score -0.70  wer 0.07  end +0.0st  3.0w/s  heard: April 7th, oil hit its highest price of the whole war, $114.
+scene 18: 5.20s ex 0.7  chosen wer 0.00
+   take 1: score +1.87  wer 0.00  end -4.4st  2.4w/s  heard: That night comes a two week ceasefire.
+scene 19: 2.52s ex 0.66  chosen wer 0.00
+   take 1: score +0.81  wer 0.00  end -2.2st  3.0w/s  rushed ['Bitcoin']  heard: Bitcoin jumps 2.6% in one hour to 72,300.
+   take 2: score +1.11  wer 0.00  end -6.1st  2.8w/s  rushed ['Bitcoin']  heard: Bitcoin jumps 2.6% in one hour to 72,300.
+   take 3: score +1.13  wer 0.00  end -6.5st  2.7w/s  rushed ['Bitcoin']  heard: Bitcoin jumps 2.6% in one hour to 72,300.
+   take 4: score +1.03  wer 0.00  end -5.4st  2.3w/s  rushed ['Bitcoin']  heard: Bitcoin jumps 2.6% in 1 hour to 72,300.
+scene 20: 5.16s ex 0.68  chosen wer 0.00
+   take 1: score -0.15  wer 0.00  end +0.0st  2.3w/s  heard: The next day, oil falls 16%.
+   take 2: score -0.28  wer 0.00  end +0.0st  2.1w/s  heard: The next day, oil falls 16%.
+   take 3: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: The next day, oil falls 16%.
+scene 21: 2.64s ex 0.68  chosen wer 0.00
+   take 1: score -0.04  wer 0.00  end +0.0st  2.5w/s  heard: Trump calls it, total and complete victory, 100%.
+   take 2: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['complete']  heard: Trump calls it total and complete victory. 100%.
+   take 3: score -0.09  wer 0.00  end +0.0st  2.5w/s  heard: Trump calls it, total and complete victory, 100%.
+scene 22: 3.94s ex 0.62  chosen wer 0.00
+   take 1: score +0.61  wer 0.00  end -1.9st  3.5w/s  heard: Five weeks had passed, the war had not ended.
+scene 23: 2.59s ex 0.6  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+94.38s, force-aligned 232 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c2p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.82, 0.7, 0.58, 0.56, 0.63, 0.73, 0.54, 0.69, 0.54, 0.64, 0.78, 0.63, 0.62, 0.54, 0.61, 0.69, 0.67, 0.59, 0.48, 0.49, 0.6, 0.54]

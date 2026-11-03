@@ -40,7 +40,7 @@ def main(tlp, out):
         a = int(t0 * SR); m = int(BAR * SR) + xf
         if a >= n: break
         m = min(m, n - a)
-        env = np.ones(m, np.float32); env[:xf] = np.linspace(0, 1, xf) ** .7; env[-xf:] = np.linspace(1, 0, xf) ** .7
+        x_ = min(xf, m // 2); env = np.ones(m, np.float32); env[:x_] = np.linspace(0, 1, x_) ** .7; env[-x_:] = np.linspace(1, 0, x_) ** .7
         pad = sum(voice_tone(NOTE(x), m, rng) for x in ch[1:]) * .045
         mix[a:a + m] += pad * env
         # bass: root, long notes; pulsing quarter notes when intensity >= 2

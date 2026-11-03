@@ -14,11 +14,11 @@ def main(tlp, out):
     for s in R.SC:
         v = s['v']; k = v['kind']; t0 = s['s0']
         if k == 'chapter':
-            put(RISER, t0 - 1.5); put(WH, t0 - .15)
+            put(RISER, t0 - 1.9); put(WH, t0 - .6)
         elif k == 'number':
             if s['k'] == 0: put(BOOM, t0 + .05)
             elif v.get('hit') and not v.get('somber'): put(THUD, R.hit_t(s) - .02)
-            else: put(WHD, t0 - .1)
+            else: put(WHD, t0 - .35)
         elif k == 'quote':
             put(TICK if v.get('fast') else POP, t0 + .02, -.2)
         elif k == 'chart':
@@ -32,13 +32,13 @@ def main(tlp, out):
         elif k == 'doc':
             put(WHD, t0 - .05); put(THUD, R.hit_t(s, .6))
         elif k == 'map':
-            put(WHD, t0 - .1)
+            put(WHD, t0 - .35)
             if v['state'] == 'closed': put(THUD, R.hit_t(s, .3))
             if v['state'] == 'attack':
                 for j in range(3): put(X.boom(.9, 90, 45, .3), R.hit_t(s, .3) + .25 * j, (j - 1) * .4)
         elif k in ('event', 'headline', 'post', 'calendar', 'ships', 'duo', 'stack', 'versus', 'counts', 'lesson', 'events', 'dots'):
             prev = R.SC[s['k'] - 1]['v'] if s['k'] else {}
-            if prev.get('kind') != k: put(WHD, t0 - .1)
+            if prev.get('kind') != k: put(WHD, t0 - .35)
             elif k in ('counts', 'lesson', 'versus'): put(POP, t0 + .1)
         elif k == 'bars':
             put(SWEEP, t0 + .2)

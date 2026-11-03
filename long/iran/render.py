@@ -256,7 +256,7 @@ def p_quote(L, d, s, t):
     elif v.get('paraphrase'):
         text(d, (1680, 278 + dy), 'PARAPHRASED · HIS EXPLANATION', F(MONO, 26), MUTED, x, 'rm')
     if not v.get('paraphrase'):
-        text(d, (232, 300 + dy), '“', F(LORA_I, 260, 'Bold Italic'), A(RED, 1)[:3], x * .9, 'la')
+        text(d, (226, 312 + dy), '“', F(LORA_I, 190, 'Bold Italic'), A(RED, 1)[:3], x * .9, 'la')
     # the quote, word by word as it is spoken
     said = v['said']; size = 96 if len(said) < 40 else 84 if len(said) < 70 else 72
     while True:
@@ -399,7 +399,7 @@ def p_map(L, d, s, t):
     d.rectangle([0, 0, W, H], fill=A((8, 18, 32), x))
     for poly, nm in ((IRAN, 'IRAN'), (ARAB, 'ARAB'), (QESHM, 'Q')):
         d.polygon([pj(*p) for p in poly], fill=A((34, 38, 48), x), outline=A((84, 92, 110), x))
-    for lab, lo, la, sz in (('IRAN', 55.0, 27.55, 54), ('OMAN', 57.2, 23.62, 40), ('UAE', 54.0, 23.7, 40), ('PERSIAN GULF', 53.2, 25.5, 30),
+    for lab, lo, la, sz in (('IRAN', 55.0, 27.55, 54), ('OMAN', 56.95, 24.1, 40), ('UAE', 54.0, 23.7, 40), ('PERSIAN GULF', 53.2, 25.5, 30),
                             ('GULF OF OMAN', 59.35, 25.0, 30), ('MUSANDAM (OMAN)', 56.1, 25.6, 22)):
         text(d, pj(lo, la), lab, F(MONOB if sz > 30 else MONO, sz), (120, 128, 145) if sz > 30 else (95, 104, 122), x, 'mm', spacing=4 if sz > 30 else 2)
     st = v['state']
@@ -516,7 +516,7 @@ def p_doc(L, d, s, t):
 def p_calendar(L, d, s, t):
     v = s['v']; t0, t1 = s['s0'], s['s1']; x = out3(seg(t, t0, t0 + .35))
     weeks, day = v['weeks'], v['day']
-    prog = out3(seg(t, t0 + .2, t1 - .3))
+    prog = out3(seg(t, t0 + .2, max(t0 + .8, s['b'] - .15)))
     if weeks <= 6:
         cols, cw, chh = weeks + 1, 200, 200
         x0 = W / 2 - cols * cw / 2
@@ -584,15 +584,16 @@ def p_bars(L, d, s, t):
 
 def p_coin(L, d, s, t):
     v = s['v']; t0, t1 = s['s0'], s['s1']; x = out3(seg(t, t0, t0 + .3))
-    sp = seg(t, t0, t0 + 1.4); ang = (1 - (1 - sp) ** 2) * 8 * math.pi
+    SP = min(1.1, max(.6, (s['b'] - t0) * .6)); sp = seg(t, t0, t0 + SP); ang = (1 - (1 - sp) ** 2) * 8 * math.pi
     wdt = abs(math.cos(ang)) * 230 + 6; face = 'UP' if math.cos(ang) >= 0 else 'DOWN'
     cy = 450 - 160 * math.sin(math.pi * sp)
     col = GREEN if face == 'UP' else RED
+    if sp >= 1: col = INK
     d.ellipse([W / 2 - wdt, cy - 230, W / 2 + wdt, cy + 230], fill=A((40, 43, 54), x), outline=A(col, x), width=10)
     face = '50/50' if sp >= 1 else face; col = INK if sp >= 1 else col
     if wdt > 120: text(d, (W / 2, cy), face, F(BLACK, 110), col, x * min(1, (wdt - 120) / 80), 'mm')
-    text(d, (W / 2, 800), '16 UP · 15 DOWN', F(BLACK, 80), INK, out3(seg(t, t0 + 1.2, t0 + 1.6)), 'mm')
-    text(d, (W / 2, 880), 'A COIN FLIP', F(MONOB, 34), MUTED, out3(seg(t, t0 + 1.3, t0 + 1.7)), 'mm', spacing=6)
+    text(d, (W / 2, 800), '16 UP · 15 DOWN', F(BLACK, 80), INK, out3(seg(t, t0 + SP * .8, t0 + SP * .8 + .3)), 'mm')
+    text(d, (W / 2, 880), 'A COIN FLIP', F(MONOB, 34), MUTED, out3(seg(t, t0 + SP * .9, t0 + SP * .9 + .3)), 'mm', spacing=6)
 
 def p_versus(L, d, s, t):
     v = s['v']; t0 = s['s0']; prevv = SC[s['k'] - 1]['v'] if s['k'] > 0 else {}
@@ -706,13 +707,17 @@ PAINT = {'number': p_number, 'stack': p_stack, 'files': p_files, 'duo': p_duo, '
 def phrases():
     out = []
     for s in SC:
-        cur = []
-        for w in s['words']:
+        cur = []; ws = []
+        for w in s['words']:                       # voice respellings back to how they are written ("C N N" -> "CNN")
+            if ws and len(w[0]) == 1 and w[0].isupper() and len(ws[-1][0]) <= 2 and ws[-1][0].isupper() and ws[-1][0].isalpha():
+                ws[-1] = [ws[-1][0] + w[0], ws[-1][1], w[2]]
+            else: ws.append(list(w))
+        for w in ws:
             cur.append(w)
             if len(cur) >= 7 or w[0][-1:] in '.?!' and len(cur) >= 3:
                 out.append(cur); cur = []
         if cur:
-            if out and len(cur) <= 2 and out[-1][-1][0][-1:] not in '.?!' and len(out[-1]) + len(cur) <= 9 and out[-1][0] in s['words']: out[-1] += cur
+            if out and len(cur) <= 2 and out[-1][-1][0][-1:] not in '.?!' and len(out[-1]) + len(cur) <= 9 and out[-1][0] in ws: out[-1] += cur
             else: out.append(cur)
     return out
 PH = None
