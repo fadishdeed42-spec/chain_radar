@@ -1,0 +1,67 @@
+json d0fd100452a4
+   take 1: score -0.53  wer 0.00  end +0.0st  3.1w/s  heard: Here's every kind of promise in his own words.
+   take 2: score -1.58  wer 0.00  end +0.0st  3.2w/s  rushed ['promise']  heard: Here's every kind of promise in his own words.
+   take 3: score -0.25  wer 0.00  end +0.0st  2.9w/s  heard: Here's every kind of promise, in his own words.
+scene 1: 3.07s ex 0.6  chosen wer 0.00
+   take 1: score +1.09  wer 0.00  end -1.9st  2.4w/s  rushed ['intended']  heard: March 1st, we intended 4-5 weeks.
+   take 2: score +0.82  wer 0.00  end -1.2st  3.0w/s  rushed ['intended']  heard: March 1st, we intended 4-5 weeks.
+   take 3: score +1.15  wer 0.00  end -5.6st  2.7w/s  rushed ['intended']  heard: March 1st, we intended 4 to 5 weeks.
+   take 4: score +1.07  wer 0.00  end -5.5st  2.8w/s  rushed ['intended']  heard: March 1st, we intended 4-5 weeks.
+scene 2: 2.98s ex 0.62  chosen wer 0.00
+   take 1: score -0.43  wer 0.00  end +0.0st  1.9w/s  heard: March 9th. Soon. Very soon.
+   take 2: score -0.38  wer 0.00  end +0.0st  2.0w/s  heard: March 9th. Soon. Very soon.
+   take 3: score -0.52  wer 0.00  end +0.0st  1.7w/s  heard: March 9th. Soon. Very soon.
+scene 3: 2.54s ex 0.62  chosen wer 0.00
+   take 1: score -0.49  wer 0.12  end -3.3st  2.9w/s  rushed ['leaving', 'pretty']  heard: March 17th, will be leaving in pretty much the very near future.
+   take 2: score -2.87  wer 0.00  end +0.0st  3.4w/s  rushed ['leaving', 'pretty']  heard: March 17th, we'll be leaving in pretty much the very near future.
+   take 3: score -4.02  wer 0.25  end +0.0st  3.3w/s  rushed ['believing', 'pretty']  heard: March 17th, while believing in pretty much the very near future.
+   take 4: score -2.30  wer 0.00  end +0.0st  3.1w/s  rushed ['leaving', 'pretty']  heard: March 17th. We'll be leaving in pretty much the very near future.
+   take R1: wer 0.00  heard: March 17th. We'll be leaving in pretty much the very near future.
+scene 4: 3.75s ex 0.62  chosen wer 0.00
+   take 1: score -0.15  wer 0.00  end +0.6st  2.4w/s  heard: March 31, 2 or 3 weeks.
+   take 2: score +1.72  wer 0.00  end -5.1st  2.1w/s  heard: March 31st, 2 or 3 weeks.
+scene 5: 2.81s ex 0.62  chosen wer 0.00
+   take 1: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['should']  heard: April 16th. It should be ending pretty soon.  //
+   take 2: score -1.64  wer 0.00  end +0.0st  2.5w/s  rushed ['should', 'ending']  heard: April 16th. It should be ending pretty soon.
+   take 3: score -0.90  wer 0.00  end +0.0st  2.8w/s  rushed ['should']  heard: April 16th. It should be ending pretty soon.
+   take 4: score +0.37  wer 0.00  end -13.7st  2.6w/s  rushed ['should', 'ending']  heard: April 16th, it should be ending pretty soon.
+scene 6: 3.02s ex 0.62  chosen wer 0.00
+   take 1: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: June 9, 2 or 3 days.
+   take 2: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: June 9th, two or three days.
+   take 3: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: June 9th, two or three days.
+scene 7: 2.32s ex 0.62  chosen wer 0.00
+   take 1: score -0.85  wer 0.00  end +0.0st  3.2w/s  heard: June 11th over the next few days.
+   take 2: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: June 11th. Over the next few days.
+   take 3: score -1.53  wer 0.00  end -0.5st  3.5w/s  heard: June 11th over the next few days.
+scene 8: 3.00s ex 0.62  chosen wer 0.00
+   take 1: score +1.82  wer 0.00  end -6.0st  2.3w/s  heard: September 9th, this war will end immediately after our election.
+scene 9: 4.35s ex 0.62  chosen wer 0.00
+   take 1: score -0.99  wer 0.12  end +0.0st  2.9w/s  heard: October 9th, one way or another, it's going to be over soon.
+   take 2: score -2.52  wer 0.12  end +0.0st  3.3w/s  rushed ['another,']  heard: October 9th. One way or another, it's going to be over soon.
+   take 3: score -2.05  wer 0.12  end +0.0st  3.1w/s  rushed ['another,']  heard: October 9th, one way or another, it's going to be over soon.
+   take 4: score -2.52  wer 0.12  end +0.0st  3.3w/s  rushed ['another,']  heard: October 9th, one way or another, it's going to be over soon.
+   take R1: wer 0.12  heard: October 9th. One way or another, it's going to be over soon.
+   take R2: wer 0.00  heard: October 9th, one way or another, it's gonna be over soon.
+scene 10: 3.81s ex 0.62  chosen wer 0.00
+   take 1: score -2.48  wer 0.00  end +0.0st  3.6w/s  rushed ['wrapped']  heard: October 30th, it's going to get wrapped up soon.
+   take 2: score -1.38  wer 0.00  end +0.0st  3.1w/s  rushed ['wrapped']  heard: October 30th, it's going to get wrapped up soon.
+   take 3: score -1.56  wer 0.00  end +0.0st  3.2w/s  rushed ['wrapped']  heard: October 30th, it's going to get wrapped up soon.
+   take 4: score -1.33  wer 0.00  end +0.0st  3.1w/s  rushed ['wrapped']  heard: October 30th, it's going to get wrapped up soon.
+scene 11: 2.93s ex 0.62  chosen wer 0.00
+   take 1: score -1.54  wer 0.00  end +0.0st  3.2w/s  rushed ['November']  heard: November 1st, we'll put it away very soon.
+   take 2: score -0.42  wer 0.00  end +0.0st  3.0w/s  heard: November 1st, we'll put it away very soon.
+   take 3: score -0.66  wer 0.00  end +0.0st  3.1w/s  heard: November 1st, we'll put it away very soon.
+scene 12: 2.65s ex 0.62  chosen wer 0.00
+   take 1: score -1.66  wer 0.00  end +0.0st  3.6w/s  heard: And that same night, it's going to be over very soon.  Very soon.
+   take 2: score -0.46  wer 0.00  end +3.0st  2.9w/s  heard: And that same night, it's going to be over very soon, very soon.
+   take 3: score -0.09  wer 0.00  end +0.0st  2.7w/s  heard: And that same night, it's going to be over very soon.  Very soon.
+scene 13: 4.73s ex 0.62  chosen wer 0.00
+   take 1: score -2.02  wer 0.00  end +0.0st  1.9w/s  rushed ['happened', 'between.']  heard: 34 times. Here's what happened in between.
+   take 2: score -0.89  wer 0.00  end +0.0st  2.8w/s  rushed ['happened']  heard: 34 times. Here's what happened in between.
+   take 3: score -1.76  wer 0.00  end +0.0st  2.3w/s  rushed ['happened', 'between.']  heard: 34 times. Here's what happened in between.
+   take 4: score +0.22  wer 0.00  end -1.2st  2.3w/s  rushed ['happened', 'between.']  heard: 34 times. Here's what happened in between.
+scene 14: 3.05s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+49.04s, force-aligned 119 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c1p.wav
+flow: 1 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.58, 0.54, 0.58, 0.58, 0.55, 0.6, 0.7, 0.62, 0.53, 0.55, 0.55, 0.5, 0.74]

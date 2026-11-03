@@ -1,0 +1,62 @@
+json 4aba02c78dca
+   take 1: score -3.06  wer 0.00  end +0.0st  3.5w/s  rushed ['lesson', 'traders?']  heard: So what's the lesson for traders?
+   take 2: score -1.95  wer 0.00  end +0.0st  3.4w/s  rushed ['lesson']  heard: So what's the lesson for traders?
+   take 3: score -3.24  wer 0.00  end +0.0st  3.6w/s  rushed ['lesson', 'traders?']  heard: So what's the lesson for traders?
+   take 4: score -2.97  wer 0.00  end +0.0st  3.5w/s  rushed ['lesson', 'traders?']  heard: So what's the lesson for traders?
+scene 1: 1.78s ex 0.62  chosen wer 0.00
+   take 1: score -0.18  wer 0.00  end +0.0st  2.3w/s  heard: 1. A promise isn't a price.
+   take 2: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: 1. A promise isn't a price.
+   take 3: score -0.13  wer 0.00  end +0.0st  2.4w/s  heard: 1. A promise isn't a price.
+scene 2: 2.20s ex 0.7  chosen wer 0.00
+   take 1: score -0.02  wer 0.14  end -1.5st  2.0w/s  rushed ['Bitcoin']  heard: Bitcoin treated 34 soon like noise.
+   take 2: score -2.11  wer 0.14  end +0.0st  1.8w/s  rushed ['Bitcoin']  heard: Bitcoin treated 34 soon like noise.
+   take 3: score -2.16  wer 0.14  end +0.0st  1.8w/s  rushed ['Bitcoin']  heard: Bitcoin treated 34 soon like noise.
+   take 4: score +0.74  wer 0.14  end -3.0st  1.9w/s  heard: Bitcoin treated 34 soon like noise.
+   take R1: wer 0.14  heard: Bitcoin treated 34 soon like noise.
+   take R2: wer 0.14  heard: Bitcoin treated 34 soon like noise.
+   take R3: wer 0.14  heard: Bitcoin treated 34 soon like noise.
+   take R4: wer 0.14  heard: Bitcoin treated 34 soon like noise.
+scene 3: 3.12s ex 0.62  chosen wer 0.14
+   take 1: score -1.18  wer 0.00  end +0.0st  3.0w/s  rushed ['measure.']  heard: 2. Watch what you can measure.
+   take 2: score -0.84  wer 0.00  end +0.0st  2.7w/s  rushed ['measure.']  heard: 2. Watch what you can measure.
+   take 3: score -2.11  wer 0.00  end +0.0st  3.4w/s  rushed ['measure.']  heard: 2. Watch what you can measure.
+   take 4: score -1.05  wer 0.00  end +0.0st  2.9w/s  rushed ['measure.']  heard: 2. Watch what you can measure.
+scene 4: 2.25s ex 0.68  chosen wer 0.00
+   take 1: score -2.75  wer 0.30  end -0.2st  2.4w/s  rushed ['assigned']  heard: Ships through hormones, the blockade, assigned paper, those move the m
+   take 2: score -2.31  wer 0.25  end +0.0st  2.6w/s  rushed ['hormones,']  heard: Ships through hormones, a blockade, a signed paper, those move the mar
+   take 3: score -0.35  wer 0.22  end -2.9st  2.2w/s  rushed ['assigned']  heard: Ships through hormones, the blockade, assigned paper, those moved the 
+   take 4: score -2.74  wer 0.30  end +0.9st  2.5w/s  rushed ['assigned']  heard: Ships through hormones, the blockade, assigned paper, those move the m
+   take R1: wer 0.22  heard: Ships through hormones, the blockade, assigned paper, those moved the 
+   take R2: wer 0.22  heard: Ships through hormones, the blockade, assigned paper, those moved the 
+   take R3: wer 0.30  heard: Ships through hormones, the blockade, assigned paper, those move the m
+   take R4: wer 0.30  heard: ships through hormones, the blockade, assigned paper, those move the m
+scene 5: 5.49s ex 0.62  chosen wer 0.22
+   take 1: score -1.10  wer 0.00  end +0.0st  2.1w/s  rushed ['someone']  heard: 3. When someone says soon, ask, soon compared to what?
+   take 2: score +1.09  wer 0.00  end +2.0st  2.4w/s  rushed ['someone']  heard: 3. When someone says soon, ask, soon compared to what?
+   take 3: score -1.13  wer 0.00  end +0.0st  2.0w/s  rushed ['someone']  heard: 3. When someone says, soon, ask, soon compared to what?
+   take 4: score -0.90  wer 0.00  end +0.0st  2.8w/s  rushed ['someone']  heard: 3. When someone says soon, ask soon compared to what?
+scene 6: 4.15s ex 0.66  chosen wer 0.00
+   take 1: score -1.01  wer 0.00  end +0.0st  3.3w/s  heard: 4 to 5 weeks has now lasted more than 8 months.
+   take 2: score -2.18  wer 0.00  end +0.0st  3.9w/s  heard: 4 to 5 weeks has now lasted more than 8 months.
+   take 3: score -1.27  wer 0.00  end +0.0st  3.4w/s  heard: Four to five weeks has now lasted more than eight months.
+scene 7: 3.34s ex 0.62  chosen wer 0.00
+   take 1: score -1.65  wer 0.00  end +0.0st  3.2w/s  rushed ['November']  heard: The midterms were on November 3rd.  He said the war would end right af
+   take 2: score -1.45  wer 0.00  end +0.0st  3.1w/s  rushed ['November']  heard: The midterms were on November 3rd.  He said the war would end right af
+   take 3: score -1.11  wer 0.00  end +0.0st  3.0w/s  rushed ['November']  heard: The midterms were on November 3rd.  He said the war would end right af
+   take 4: score -2.72  wer 0.00  end +0.0st  3.7w/s  rushed ['November']  heard: The midterms were on November 3rd.  He said the war would end right af
+scene 8: 4.73s ex 0.58  chosen wer 0.00
+   take 1: score +0.57  wer 0.00  end +1.7st  3.5w/s  heard: Will it end soon this time?
+scene 9: 1.72s ex 0.66  chosen wer 0.00
+   take 1: score -1.37  wer 0.00  end +0.0st  3.1w/s  rushed ['comments.']  heard: Tell us in the comments.
+   take 2: score -3.25  wer 0.00  end +0.0st  4.0w/s  rushed ['comments.']  heard: Tell us in the comments.
+   take 3: score -2.01  wer 0.00  end +0.0st  3.4w/s  rushed ['comments.']  heard: Tell us in the comments.
+   take 4: score -4.10  wer 0.00  end +0.0st  4.4w/s  rushed ['comments.']  heard: Tell us in the comments.
+scene 10: 1.62s ex 0.6  chosen wer 0.00
+   take 1: score -0.31  wer 0.00  end +0.0st  3.0w/s  heard: Follow Chain Secrets.  Every chart hides a story.
+   take 2: score -0.03  wer 0.00  end +0.0st  2.5w/s  heard: Follow Chain Secrets. Every chart hides a story.
+   take 3: score -0.00  wer 0.00  end +0.0st  2.6w/s  heard: Follow Chain Secrets.  Every chart hides a story.
+scene 11: 3.07s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+37.35s, force-aligned 90 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c8p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.76, 0.53, 0.66, 0.56, 0.66, 0.64, 0.76, 0.62, 0.76, 0.86]
