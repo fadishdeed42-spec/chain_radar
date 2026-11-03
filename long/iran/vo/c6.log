@@ -1,0 +1,59 @@
+json f287340701b7
+   take 1: score +0.36  wer 0.00  end +2.4st  2.7w/s  rushed ['Chapter', 'market']  heard: Chapter 5. Did the market believe him?
+   take 2: score +0.39  wer 0.00  end +2.2st  2.6w/s  rushed ['Chapter', 'market']  heard: Chapter 5. Did the market believe him?
+   take 3: score +0.29  wer 0.00  end +3.4st  2.8w/s  rushed ['Chapter', 'market']  heard: Chapter 5. Did the market believe him?
+   take 4: score +1.16  wer 0.00  end +2.7st  2.7w/s  rushed ['Chapter']  heard: Chapter 5. Did the market believe him?
+scene 1: 2.63s ex 0.62  chosen wer 0.00
+   take 1: score -1.43  wer 0.00  end +0.0st  3.5w/s  heard: Here's the part we didn't expect.
+   take 2: score -0.53  wer 0.00  end +0.0st  3.1w/s  heard: Here's the part we didn't expect.
+   take 3: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: Here's the part we didn't expect.
+scene 2: 2.10s ex 0.66  chosen wer 0.00
+   take 1: score -0.59  wer 0.00  end +0.0st  3.1w/s  heard: We lined up all 34 statements against the daily prices.
+   take 2: score -0.65  wer 0.00  end +0.0st  3.1w/s  heard: We lined up all 34 statements against the daily prices.
+   take 3: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: We lined up all 34 statements against the daily prices.
+scene 3: 3.65s ex 0.6  chosen wer 0.00
+   take 1: score -1.26  wer 0.12  end +0.0st  3.1w/s  heard: He set it on 31 different days.
+   take 2: score -1.59  wer 0.12  end +0.0st  3.2w/s  heard: He set it on 31 different days.
+   take 3: score -1.14  wer 0.12  end +0.0st  3.0w/s  heard: He set it on 31 different days.
+   take 4: score -0.04  wer 0.00  end +0.0st  2.7w/s  heard: He said it on 31 different days.
+scene 4: 2.62s ex 0.6  chosen wer 0.00
+   take 1: score +1.05  wer 0.00  end -9.2st  2.8w/s  rushed ['Bitcoin']  heard: Bitcoin closed higher on 16 of them and lower on 15.
+   take 2: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin']  heard: Bitcoin closed higher on 16 of them and lower on 15.
+   take 3: score +0.96  wer 0.00  end -8.4st  2.9w/s  rushed ['Bitcoin']  heard: Bitcoin closed higher on 16 of them and lower on 15.
+   take 4: score -0.07  wer 0.00  end +0.0st  2.5w/s  heard: Bitcoin closed higher on 16 of them and lower on 15.
+scene 5: 3.87s ex 0.64  chosen wer 0.00
+   take 1: score -2.77  wer 0.00  end +0.0st  4.1w/s  heard: That's a coin flip.
+   take 2: score -0.93  wer 0.00  end +0.0st  3.3w/s  heard: That's a coin flip.
+   take 3: score -1.67  wer 0.00  end +0.0st  3.6w/s  heard: That's a coin flip.
+scene 6: 1.23s ex 0.74  chosen wer 0.00
+   take 1: score +0.29  wer 0.00  end -3.5st  2.8w/s  rushed ['trading', 'statements,']  heard: oil. In the trading session on or after his statements, U.S. oil went 
+   take 2: score +1.10  wer 0.00  end -3.9st  2.4w/s  rushed ['trading']  heard: Oil? In the trading session, on or after his statements, U.S. oil went
+   take 3: score -1.65  wer 0.00  end +0.0st  2.5w/s  rushed ['trading', 'statements,']  heard: oil. In the trading session on or after his statements, US oil went up
+   take 4: score +0.34  wer 0.00  end -2.6st  2.7w/s  rushed ['trading', 'statements,']  heard: oil. In the trading session on or after his statements, US oil went up
+scene 7: 7.79s ex 0.62  chosen wer 0.00
+   take 1: score +1.95  wer 0.00  end -4.6st  2.5w/s  heard: The words said almost over.
+scene 8: 1.98s ex 0.62  chosen wer 0.00
+   take 1: score -0.73  wer 0.00  end +0.0st  3.2w/s  heard: The oil price kept saying not yet.
+   take 2: score -0.57  wer 0.00  end +0.0st  3.1w/s  heard: The oil price kept saying not yet.
+   take 3: score -1.07  wer 0.00  end +0.0st  3.3w/s  heard: The oil price kept saying not yet.
+scene 9: 2.27s ex 0.66  chosen wer 0.00
+   take 1: score -1.07  wer 0.08  end +2.4st  3.0w/s  heard: The biggest moves didn't come from words that came from events.
+   take 2: score +0.78  wer 0.00  end -4.5st  3.0w/s  rushed ['biggest']  heard: The biggest moves didn't come from words.  They came from events.
+   take 3: score -0.34  wer 0.00  end -2.8st  3.2w/s  rushed ['biggest', 'events.']  heard: The biggest moves didn't come from words.  They came from events.
+   take 4: score -1.54  wer 0.00  end -0.5st  3.2w/s  rushed ['biggest']  heard: The biggest moves didn't come from words.  They came from events.
+scene 10: 3.65s ex 0.64  chosen wer 0.00
+   take 1: score +1.96  wer 0.00  end -1.8st  2.7w/s  heard: The April 7 ceasefire.  The June Memorandum.  The July 8th Collapse.  
+scene 11: 4.88s ex 0.62  chosen wer 0.00
+   take 1: score -0.84  wer 0.00  end +0.0st  2.7w/s  rushed ['November']  heard: From the day before the first strike to November 2nd, Bitcoin rose abo
+   take 2: score -1.81  wer 0.00  end +0.0st  2.9w/s  rushed ['before', 'November']  heard: From the day before the first strike to November 2, Bitcoin rose about
+   take 3: score -3.62  wer 0.00  end +0.0st  3.4w/s  rushed ['before', 'November', 'Bitcoin']  heard: From the day before the first strike to November 2, Bitcoin rose about
+   take 4: score -1.78  wer 0.00  end +0.0st  2.9w/s  rushed ['before', 'November']  heard: From the day before the first strike to November 2, Bitcoin rose about
+scene 12: 5.62s ex 0.6  chosen wer 0.00
+   take 1: score -0.32  wer 0.00  end +0.0st  3.0w/s  heard: By late October, U.S. oil was up about 54%.
+   take 2: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: By late October, U.S. oil was up about 54%.
+   take 3: score -0.05  wer 0.00  end +0.0st  2.7w/s  heard: By late October, U.S. oil was up about 54%.
+scene 13: 3.73s ex 0.64  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+50.17s, force-aligned 125 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c6p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.82, 0.56, 0.68, 0.62, 0.5, 0.8, 0.45, 0.46, 0.7, 0.57, 0.55, 0.51]
