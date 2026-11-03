@@ -6,7 +6,7 @@ on:
       dir: {description: 'folder with cN.json voice files', required: true, default: long/iran/voice}
       chunks: {description: 'JSON list of chunk names', required: true, default: '["c0"]'}
 permissions:
-  contents: read
+  contents: write
 jobs:
   voice:
     runs-on: ubuntu-latest
@@ -36,3 +36,14 @@ jobs:
             ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.srt
             ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.log
             ${{ github.event.inputs.dir }}/${{ matrix.chunk }}*.json
+      - name: save to the files branch
+        if: always()
+        run: |
+          D=${{ github.event.inputs.dir }}; C=${{ matrix.chunk }}
+          mkdir -p /tmp/out && cp $D/$C*.wav $D/$C*.srt $D/$C*.log $D/$C*.json /tmp/out/ 2>/dev/null || true
+          git config --global user.name chain-radar; git config --global user.email noreply@github.com
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
+            mkdir -p /tmp/w/long/iran/vo && cp /tmp/out/* /tmp/w/long/iran/vo/ && cd /tmp/w && git add -A && git commit -qm "voice $C [skip ci]" && git push -q && break
+            cd /; sleep $((i*4))
+          done

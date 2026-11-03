@@ -1,0 +1,75 @@
+json c1670c84bc9d
+   take 1: score +1.91  wer 0.00  end -2.8st  2.7w/s  heard: Chapter 3. I think it's over.
+scene 1: 2.18s ex 0.6  chosen wer 0.00
+   take 1: score +1.84  wer 0.00  end -5.1st  2.3w/s  heard: July 8, Iran attacks three ships in Hormuz.
+scene 2: 3.44s ex 0.7  chosen wer 0.00
+   take 1: score +1.05  wer 0.00  end -1.9st  2.9w/s  rushed ['strikes']  heard: The U.S. strikes more than 80 targets.
+   take 2: score -2.09  wer 0.00  end +0.0st  3.4w/s  rushed ['strikes']  heard: The U.S. strikes more than 80 targets.
+   take 3: score -0.23  wer 0.00  end +0.0st  2.9w/s  heard: The US strikes more than 80 targets.
+scene 3: 2.45s ex 0.68  chosen wer 0.00
+   take 1: score +0.32  wer 0.00  end -5.0st  2.5w/s  rushed ['Revolutionary', 'military']  heard: Iran's Revolutionary Guards say they hit 85 U.S. military sites in Bah
+   take 2: score -0.82  wer 0.06  end -5.6st  2.5w/s  rushed ['Revolutionary', 'military', 'Kuwait.']  heard: Iran's Revolutionary Guards say they had 85 U.S. military sites in Bah
+   take 3: score -1.67  wer 0.06  end -4.9st  2.4w/s  rushed ['Revolutionary', 'military', 'Bahrain', 'Kuwait.']  heard: Iran's Revolutionary Guard say they hit 85 U.S. military sites in Bahr
+   take 4: score -3.22  wer 0.00  end +0.0st  2.6w/s  rushed ['Revolutionary', 'military', 'Bahrain', 'Kuwait.']  heard: Iran's Revolutionary Guards say they hit 85 U.S. military sites in Bah
+scene 4: 5.67s ex 0.64  chosen wer 0.00
+   take 1: score -2.55  wer 0.07  end +0.0st  3.8w/s  heard: Trump at the NATO summit. I think it's over. I don't want to deal with
+   take 2: score -0.75  wer 0.07  end -2.6st  3.9w/s  heard: Trump at the NATO Summit. I think it's over. I don't want to deal with
+   take 3: score -3.91  wer 0.07  end +0.0st  4.5w/s  heard: Trump at the NATO summit. I think it's over. I don't want to deal with
+   take 4: score -1.71  wer 0.07  end -4.8st  4.4w/s  heard: Trump at the NATO summit. I think it's over. I don't want to deal with
+scene 5: 4.58s ex 0.62  chosen wer 0.07
+   take 1: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['ceasefire.']  heard: This time, over meant the ceasefire.
+   take 2: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['ceasefire.']  heard: This time over, meant the ceasefire.
+   take 3: score -0.41  wer 0.00  end +0.0st  1.9w/s  heard: This time over meant the ceasefire.
+scene 6: 3.13s ex 0.6  chosen wer 0.00
+   take 1: score -2.33  wer 0.20  end +0.0st  3.0w/s  rushed ['Bitcoin']  heard: Bitcoin fell about 2.5%, to around 62,000.
+   take 2: score -3.19  wer 0.20  end +0.0st  3.0w/s  rushed ['Bitcoin', 'around']  heard: Bitcoin fell about 2.5% to around 62,000.
+   take 3: score -3.26  wer 0.20  end +0.0st  3.0w/s  rushed ['Bitcoin', 'around']  heard: Bitcoin fell about 2.5 percent to around 62,000.
+   take 4: score -0.08  wer 0.20  end -3.8st  2.5w/s  rushed ['around']  heard: Bitcoin fell about 2.5% to around 62,000.
+   take R1: wer 0.20  heard: Bitcoin fell about 2.5% to around 62,000.
+   take R2: wer 0.00  heard: Bitcoin fell about two and a half percent to around 62,000.
+scene 7: 4.32s ex 0.64  chosen wer 0.00
+   take 1: score -2.91  wer 0.00  end +0.0st  3.4w/s  rushed ['blockade', 'coming']  heard: July 13th. Trump says the blockade is coming back with a toll on ships
+   take 2: score -2.26  wer 0.00  end +0.0st  3.1w/s  rushed ['blockade', 'coming']  heard: July 13th, Trump says the blockade is coming back with a toll on ships
+   take 3: score -2.49  wer 0.00  end +0.0st  3.2w/s  rushed ['blockade', 'coming']  heard: July 13th, Trump says the blockade is coming back with a toll on ships
+   take 4: score -2.32  wer 0.00  end +0.0st  3.2w/s  rushed ['blockade', 'coming']  heard: July 13th. Trump says the blockade is coming back with a toll on ships
+scene 8: 4.47s ex 0.64  chosen wer 0.00
+   take 1: score -0.70  wer 0.11  end +0.0st  2.6w/s  heard: In two trading days, Brent crew jumps 11%.
+   take 2: score -0.78  wer 0.11  end +0.0st  2.4w/s  heard: In two trading days, Brent Crew jumps 11%.
+   take 3: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['trading']  heard: In two trading days, Brent crude jumps 11%.
+   take 4: score -0.49  wer 0.00  end +0.0st  1.8w/s  heard: In two trading days, Brent crude jumps 11%.
+scene 9: 5.03s ex 0.68  chosen wer 0.00
+   take 1: score +0.38  wer 0.00  end -4.5st  3.6w/s  heard: August 6th in the Oval Office, I don't think they can go much longer.
+scene 10: 3.90s ex 0.62  chosen wer 0.00
+   take 1: score -2.09  wer 0.00  end +0.0st  3.4w/s  rushed ['months']  heard: By late August, the war is six months old.
+   take 2: score -1.34  wer 0.00  end +0.0st  3.5w/s  heard: By late August, the war is six months old.
+   take 3: score -2.16  wer 0.00  end +0.0st  3.5w/s  rushed ['months']  heard: By late August, the war is six months old.
+   take 4: score -0.55  wer 0.00  end +0.0st  3.1w/s  heard: By late August, the war is six months old.
+scene 11: 2.93s ex 0.58  chosen wer 0.00
+   take 1: score -1.61  wer 0.17  end +0.0st  3.1w/s  heard: It has cost the US more than 37.5 billion dollars.
+   take 2: score -2.14  wer 0.17  end +0.0st  3.3w/s  heard: It has cost the US more than $37.5 billion.
+   take 3: score -1.64  wer 0.17  end +0.0st  3.1w/s  heard: It has cost the US more than $37.5 billion.
+   take 4: score -3.41  wer 0.17  end +0.0st  3.9w/s  heard: It has cost the US more than $37.5 billion.
+   take R1: wer 0.17  heard: It has cost the US more than $37.5 billion.
+   take R2: wer 0.17  heard: It has cost the US more than $37.5 billion.
+   take R3: wer 0.17  heard: It has cost the US more than 37.5 billion dollars.
+   take R4: wer 0.17  heard: It has cost the US more than $37.5 billion.
+scene 12: 4.21s ex 0.64  chosen wer 0.17
+   take 1: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['August']  heard: before the war, about 130 ships a day crossed Hormuz.  On August 26, 2
+   take 2: score -0.09  wer 0.00  end +0.0st  2.7w/s  heard: Before the war, about 130 ships a day crossed Hormuz.  On August 26, 2
+   take 3: score -0.34  wer 0.05  end +0.0st  2.6w/s  heard: before the war about 130 ships a day crossed Tormuz. On August 26, 24 
+scene 13: 6.19s ex 0.62  chosen wer 0.00
+   take 1: score +1.89  wer 0.00  end -6.4st  2.8w/s  heard: Then the tone changes.
+scene 14: 1.44s ex 0.6  chosen wer 0.00
+   take 1: score -3.06  wer 0.00  end +0.0st  4.3w/s  heard: He's not in a hurry to get Iran back to the table.
+   take 2: score -2.40  wer 0.00  end +0.0st  4.0w/s  heard: He's not in a hurry to get Iran back to the table.
+   take 3: score -5.18  wer 0.11  end +0.0st  5.0w/s  heard: He's not in a hurry to get a run back to the table.
+   take 4: score -3.16  wer 0.00  end +0.0st  4.3w/s  heard: He's not in a hurry to get Iran back to the table.
+scene 15: 3.03s ex 0.6  chosen wer 0.00
+   take 1: score -1.21  wer 0.00  end -0.6st  1.9w/s  rushed ['accomplished,']  heard: He posts, mission accomplished, 2026.
+   take 2: score +0.69  wer 0.00  end -1.4st  1.7w/s  rushed ['accomplished,']  heard: He posts, mission accomplished, 2026.
+   take 3: score -0.61  wer 0.00  end +0.0st  1.6w/s  heard: He posts, mission accomplished, 2026.
+scene 16: 3.43s ex 0.66  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+65.52s, force-aligned 169 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c4p.wav
+flow: 0 hangs >0.7s inside lines, 1 possible sharp line ends, line gaps [0.77, 0.65, 0.6, 0.71, 0.74, 0.58, 0.67, 0.53, 0.76, 0.66, 0.5, 0.65, 0.78, 0.48, 0.49]

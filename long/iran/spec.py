@@ -23,8 +23,8 @@ line(0, 'We went through eight months of speeches, interviews and posts.', .58, 
      kind='files', items=['SPEECHES', 'INTERVIEWS', 'POSTS'], span='MAR 1 – NOV 1, 2026')
 line(0, 'We counted every one we could prove, with the date and the source.', .6, .4,
      kind='files', items=['DATE', 'PLACE', 'SOURCE'], span='34 STATEMENTS · 34 SOURCES', stamp='VERIFIED')
-line(0, 'Then we checked something else.', .62, .22, kind='duo', a='BITCOIN', b='OIL', reveal=0)
-line(0, 'What bitcoin and oil actually did, on every one of those days.', .62, .4, kind='duo', a='BITCOIN', b='OIL', reveal=1)
+line(0, 'Then we looked at something else.', .62, .22, kind='duo', a='BITCOIN', b='OIL', reveal=0)
+line(0, 'We checked what bitcoin and oil actually did, on every one of those days.', .62, .4, kind='duo', a='BITCOIN', b='OIL', reveal=1)
 line(0, 'The answer surprised us.', .78, .6, kind='number', big='?', sub='THE ANSWER SURPRISED US')
 
 # ---------------------------------------------------------------- 1. montage (fast)
@@ -86,7 +86,7 @@ line(3, 'But talks in Islamabad failed, and on April thirteenth, a US naval bloc
      kind='map', state='blockade', label='US NAVAL BLOCKADE', sub='In effect April 13', hit='blockade')
 line(3, 'On April twenty-first, the ceasefire was extended, with no end date.', .56, .26,
      kind='event', date='APR 21, 2026', head='Ceasefire extended with no end date', tag='DAY 53')
-line(3, 'In May, the US struck Iran twice more, and called it "self-defense."', .6, .36,
+line(3, 'In May, the US struck Iran twice more, and called it self-defense.', .6, .36,
      kind='event', date='MAY 7 · MAY 25', head='Two more US strikes, called "self-defense"', tag='MAY')
 line(3, 'And the deal was always almost done.', .64, .3, kind='number', big='ALMOST DONE', sub='THE DEAL, AGAIN AND AGAIN', small=1)
 quote(3, 'MAY 23', 'Details will be announced shortly.', 'Truth Social', 'CBS News', 'May twenty-third. Details "will be announced shortly."')
@@ -188,7 +188,7 @@ line(8, "So what's the lesson for traders?", .62, .3, kind='chapter', num='THE L
 line(8, 'One. A promise isn\'t a price.', .7, .2, kind='lesson', step=1, hit='price.')
 line(8, 'Bitcoin treated thirty-four "soons" like noise.', .62, .34, kind='lesson', step=1)
 line(8, 'Two. Watch what you can measure.', .68, .2, kind='lesson', step=2)
-line(8, 'Ships through Hormuz. The blockade. A signed paper. Those moved the market.', .62, .34, kind='lesson', step=2)
+line(8, 'Ships through the Strait of Hormuz. The blockade. A signed paper. Those moved the market.', .62, .34, kind='lesson', step=2)
 line(8, 'Three. When someone says "soon," ask: soon compared to what?', .66, .24, kind='lesson', step=3)
 line(8, 'Four to five weeks has now lasted more than eight months.', .62, .45, kind='calendar', weeks=35, day=248, months=8, hit='eight')
 line(8, 'The midterms were on November third. He said the war would end right after.', .58, .4, kind='event', date='NOV 3, 2026', head='Midterm elections', tag='DAY 249')

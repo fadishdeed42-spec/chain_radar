@@ -1,0 +1,43 @@
+json c2998684524e
+   take 1: score -1.26  wer 0.00  end +5.6st  1.2w/s  heard: 34.
+   take 2: score -1.36  wer 0.00  end +5.3st  1.0w/s  heard: 34
+   take 3: score +1.10  wer 0.00  end -3.1st  1.1w/s  heard: 34
+scene 1: 0.92s ex 0.8  chosen wer 0.00
+   take 1: score -2.12  wer 0.00  end +0.0st  3.1w/s  rushed ['record,', 'Donald']  heard: That's how many times, on the record, Donald Trump said the Iran war w
+   take 2: score -1.22  wer 0.00  end +0.0st  3.4w/s  heard: That's how many times on the record Donald Trump said the Iran war wou
+   take 3: score +0.86  wer 0.00  end -8.6st  3.0w/s  rushed ['Donald']  heard: That's how many times on the record, Donald Trump said the Iran war wo
+   take 4: score -2.11  wer 0.00  end +0.0st  3.4w/s  rushed ['Donald']  heard: That's how many times, on the record, Donald Trump said the Iran war w
+scene 2: 5.37s ex 0.62  chosen wer 0.00
+   take 1: score -0.46  wer 0.00  end -3.9st  3.6w/s  rushed ['almost']  heard: or that it was almost over, or that a deal to end it was days away.
+   take 2: score -3.41  wer 0.00  end +2.4st  4.0w/s  rushed ['almost']  heard: or that it was almost over, or that a deal to end it was days away.
+   take 3: score +0.57  wer 0.00  end -1.8st  3.5w/s  heard: or that it was almost over, or that a deal to end it was days away.
+scene 3: 4.58s ex 0.64  chosen wer 0.00
+   take 1: score -1.64  wer 0.00  end +0.0st  2.7w/s  rushed ['through', 'interviews,']  heard: We went through eight months of speeches, interviews, and posts.
+   take 2: score -1.69  wer 0.00  end +0.0st  2.7w/s  rushed ['through', 'interviews,']  heard: We went through eight months of speeches, interviews, and posts.
+   take 3: score -1.64  wer 0.00  end +0.0st  2.5w/s  rushed ['through', 'interviews']  heard: We went through eight months of speeches, interviews and posts.
+   take 4: score -2.55  wer 0.00  end +0.0st  2.9w/s  rushed ['through', 'months', 'interviews']  heard: We went through eight months of speeches, interviews and posts.
+scene 4: 3.75s ex 0.58  chosen wer 0.00
+   take 1: score -2.72  wer 0.12  end +0.0st  3.4w/s  rushed ['counted']  heard: We counted everyone we could prove with the date and the source.
+   take 2: score -2.37  wer 0.12  end +0.0st  3.2w/s  rushed ['counted']  heard: We counted everyone we could prove with the date and the source.
+   take 3: score -1.93  wer 0.00  end +0.0st  3.4w/s  rushed ['counted']  heard: We counted every one we could prove with the date and the source.
+   take 4: score -3.53  wer 0.12  end +0.0st  3.8w/s  rushed ['counted']  heard: We counted everyone we could prove, with the date and the source.
+scene 5: 3.88s ex 0.6  chosen wer 0.00
+   take 1: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['checked']  heard: Then we checked something else.
+   take 2: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['checked']  heard: Then, we checked something else.
+   take 3: score -1.34  wer 0.20  end +0.0st  2.8w/s  heard: Then we check something else.
+   take 4: score -2.19  wer 0.20  end +0.0st  3.3w/s  heard: Then we check something else.
+scene 6: 1.92s ex 0.62  chosen wer 0.00
+   take 1: score -1.10  wer 0.00  end +0.0st  3.0w/s  rushed ['Bitcoin']  heard: What Bitcoin and oil actually did on every one of those days?
+   take 2: score -1.60  wer 0.00  end +0.0st  3.2w/s  rushed ['Bitcoin']  heard: What Bitcoin and oil actually did on every one of those days?
+   take 3: score -1.32  wer 0.00  end +0.0st  3.1w/s  rushed ['Bitcoin']  heard: What Bitcoin and oil actually did on every one of those days?
+   take 4: score -1.67  wer 0.00  end +0.0st  3.2w/s  rushed ['Bitcoin']  heard: what Bitcoin and oil actually did on every one of those days.
+scene 7: 4.06s ex 0.62  chosen wer 0.00
+   take 1: score -1.02  wer 0.00  end +0.0st  2.2w/s  rushed ['answer']  heard: The answer surprised us.
+   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['answer']  heard: The answer surprised us.
+   take 3: score -1.01  wer 0.00  end +0.0st  2.3w/s  rushed ['answer']  heard: The answer surprised us.
+   take 4: score -0.19  wer 0.00  end +0.0st  2.3w/s  heard: The answer surprised us.
+scene 8: 1.76s ex 0.78  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+29.48s, force-aligned 77 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c0p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.88, 0.66, 0.76, 0.49, 0.74, 0.5, 0.77]

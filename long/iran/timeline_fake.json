@@ -1,0 +1,8115 @@
+{
+"dur": 632.32,
+"scenes": [
+{
+"i": 0,
+"c": 0,
+"t": "Thirty-four.",
+"a": 0.6,
+"b": 1.127,
+"words": [
+[
+"Thirty-four.",
+0.6,
+1.127
+]
+],
+"v": {
+"kind": "number",
+"big": "34",
+"sub": "TIMES"
+}
+},
+{
+"i": 1,
+"c": 0,
+"t": "That's how many times, on the record, Donald Trump said the Iran war would end soon.",
+"a": 1.77,
+"b": 9.158,
+"words": [
+[
+"That's",
+1.77,
+2.195
+],
+[
+"how",
+2.27,
+2.644
+],
+[
+"many",
+2.71,
+3.101
+],
+[
+"times,",
+3.17,
+3.595
+],
+[
+"on",
+3.67,
+4.027
+],
+[
+"the",
+4.09,
+4.464
+],
+[
+"record,",
+4.53,
+4.972
+],
+[
+"Donald",
+5.05,
+5.475
+],
+[
+"Trump",
+5.55,
+5.958
+],
+[
+"said",
+6.03,
+6.421
+],
+[
+"the",
+6.49,
+6.864
+],
+[
+"Iran",
+6.93,
+7.321
+],
+[
+"war",
+7.39,
+7.764
+],
+[
+"would",
+7.83,
+8.238
+],
+[
+"end",
+8.31,
+8.684
+],
+[
+"soon.",
+8.75,
+9.158
+]
+],
+"v": {
+"kind": "number",
+"big": "34",
+"sub": "TIMES HE SAID THE WAR WOULD END SOON",
+"hit": "soon"
+}
+},
+{
+"i": 2,
+"c": 0,
+"t": "Or that it was almost over. Or that a deal to end it was days away.",
+"a": 9.53,
+"b": 16.578,
+"words": [
+[
+"Or",
+9.53,
+9.887
+],
+[
+"that",
+9.95,
+10.341
+],
+[
+"it",
+10.41,
+10.767
+],
+[
+"was",
+10.83,
+11.204
+],
+[
+"almost",
+11.27,
+11.695
+],
+[
+"over.",
+11.77,
+12.178
+],
+[
+"Or",
+12.25,
+12.607
+],
+[
+"that",
+12.67,
+13.061
+],
+[
+"a",
+13.13,
+13.47
+],
+[
+"deal",
+13.53,
+13.921
+],
+[
+"to",
+13.99,
+14.347
+],
+[
+"end",
+14.41,
+14.784
+],
+[
+"it",
+14.85,
+15.207
+],
+[
+"was",
+15.27,
+15.644
+],
+[
+"days",
+15.71,
+16.101
+],
+[
+"away.",
+16.17,
+16.578
+]
+],
+"v": {
+"kind": "stack",
+"items": [
+"\"END SOON\"",
+"\"ALMOST OVER\"",
+"\"A DEAL IS DAYS AWAY\""
+],
+"hits": [
+"soon.",
+"over.",
+"away."
+]
+}
+},
+{
+"i": 3,
+"c": 0,
+"t": "We went through eight months of speeches, interviews and posts.",
+"a": 17.05,
+"b": 21.855,
+"words": [
+[
+"We",
+17.05,
+17.407
+],
+[
+"went",
+17.47,
+17.861
+],
+[
+"through",
+17.93,
+18.372
+],
+[
+"eight",
+18.45,
+18.858
+],
+[
+"months",
+18.93,
+19.355
+],
+[
+"of",
+19.43,
+19.787
+],
+[
+"speeches,",
+19.85,
+20.326
+],
+[
+"interviews",
+20.41,
+20.903
+],
+[
+"and",
+20.99,
+21.364
+],
+[
+"posts.",
+21.43,
+21.855
+]
+],
+"v": {
+"kind": "files",
+"items": [
+"SPEECHES",
+"INTERVIEWS",
+"POSTS"
+],
+"span": "MAR 1 \u2013 NOV 1, 2026"
+}
+},
+{
+"i": 4,
+"c": 0,
+"t": "We counted every one we could prove, with the date and the source.",
+"a": 22.19,
+"b": 28.132,
+"words": [
+[
+"We",
+22.19,
+22.547
+],
+[
+"counted",
+22.61,
+23.052
+],
+[
+"every",
+23.13,
+23.538
+],
+[
+"one",
+23.61,
+23.984
+],
+[
+"we",
+24.05,
+24.407
+],
+[
+"could",
+24.47,
+24.878
+],
+[
+"prove,",
+24.95,
+25.375
+],
+[
+"with",
+25.45,
+25.841
+],
+[
+"the",
+25.91,
+26.284
+],
+[
+"date",
+26.35,
+26.741
+],
+[
+"and",
+26.81,
+27.184
+],
+[
+"the",
+27.25,
+27.624
+],
+[
+"source.",
+27.69,
+28.132
+]
+],
+"v": {
+"kind": "files",
+"items": [
+"DATE",
+"PLACE",
+"SOURCE"
+],
+"span": "34 STATEMENTS \u00b7 34 SOURCES",
+"stamp": "VERIFIED"
+}
+},
+{
+"i": 5,
+"c": 0,
+"t": "Then we checked something else.",
+"a": 28.61,
+"b": 30.978,
+"words": [
+[
+"Then",
+28.61,
+29.001
+],
+[
+"we",
+29.07,
+29.427
+],
+[
+"checked",
+29.49,
+29.932
+],
+[
+"something",
+30.01,
+30.486
+],
+[
+"else.",
+30.57,
+30.978
+]
+],
+"v": {
+"kind": "duo",
+"a": "BITCOIN",
+"b": "OIL",
+"reveal": 0
+}
+},
+{
+"i": 6,
+"c": 0,
+"t": "What bitcoin and oil actually did, on every one of those days.",
+"a": 31.27,
+"b": 36.778,
+"words": [
+[
+"What",
+31.27,
+31.661
+],
+[
+"bitcoin",
+31.73,
+32.172
+],
+[
+"and",
+32.25,
+32.624
+],
+[
+"oil",
+32.69,
+33.064
+],
+[
+"actually",
+33.13,
+33.589
+],
+[
+"did,",
+33.67,
+34.061
+],
+[
+"on",
+34.13,
+34.487
+],
+[
+"every",
+34.55,
+34.958
+],
+[
+"one",
+35.03,
+35.404
+],
+[
+"of",
+35.47,
+35.827
+],
+[
+"those",
+35.89,
+36.298
+],
+[
+"days.",
+36.37,
+36.778
+]
+],
+"v": {
+"kind": "duo",
+"a": "BITCOIN",
+"b": "OIL",
+"reveal": 1
+}
+},
+{
+"i": 7,
+"c": 0,
+"t": "The answer surprised us.",
+"a": 37.25,
+"b": 39.124,
+"words": [
+[
+"The",
+37.25,
+37.624
+],
+[
+"answer",
+37.69,
+38.115
+],
+[
+"surprised",
+38.19,
+38.666
+],
+[
+"us.",
+38.75,
+39.124
+]
+],
+"v": {
+"kind": "number",
+"big": "?",
+"sub": "THE ANSWER SURPRISED US"
+}
+},
+{
+"i": 8,
+"c": 1,
+"t": "Here's every kind of promise, in his own words.",
+"a": 40.69,
+"b": 44.815,
+"words": [
+[
+"Here's",
+40.69,
+41.115
+],
+[
+"every",
+41.19,
+41.598
+],
+[
+"kind",
+41.67,
+42.061
+],
+[
+"of",
+42.13,
+42.487
+],
+[
+"promise,",
+42.55,
+43.009
+],
+[
+"in",
+43.09,
+43.447
+],
+[
+"his",
+43.51,
+43.884
+],
+[
+"own",
+43.95,
+44.324
+],
+[
+"words.",
+44.39,
+44.815
+]
+],
+"v": {
+"kind": "chapter",
+"num": "",
+"title": "IN HIS OWN WORDS",
+"sub": "The montage"
+}
+},
+{
+"i": 9,
+"c": 1,
+"t": "March first. \"We intended four to five weeks.\"",
+"a": 45.19,
+"b": 48.932,
+"words": [
+[
+"March",
+45.19,
+45.598
+],
+[
+"first.",
+45.67,
+46.095
+],
+[
+"\"We",
+46.17,
+46.544
+],
+[
+"intended",
+46.61,
+47.069
+],
+[
+"four",
+47.15,
+47.541
+],
+[
+"to",
+47.61,
+47.967
+],
+[
+"five",
+48.03,
+48.421
+],
+[
+"weeks.\"",
+48.49,
+48.932
+]
+],
+"v": {
+"kind": "quote",
+"n": 1,
+"date": "MAR 1",
+"said": "We intended four to five weeks.",
+"where": "NYT interview",
+"src": "CBS News",
+"fast": 1
+}
+},
+{
+"i": 10,
+"c": 1,
+"t": "March ninth. \"Soon. Very soon.\"",
+"a": 49.25,
+"b": 51.615,
+"words": [
+[
+"March",
+49.25,
+49.658
+],
+[
+"ninth.",
+49.73,
+50.155
+],
+[
+"\"Soon.",
+50.23,
+50.655
+],
+[
+"Very",
+50.73,
+51.121
+],
+[
+"soon.\"",
+51.19,
+51.615
+]
+],
+"v": {
+"kind": "quote",
+"n": 4,
+"date": "MAR 9",
+"said": "Soon. Very soon.",
+"where": "Miami press conference",
+"src": "CBS News",
+"fast": 1
+}
+},
+{
+"i": 11,
+"c": 1,
+"t": "March seventeenth. \"We'll be leaving in pretty much the very near future.\"",
+"a": 51.93,
+"b": 57.669,
+"words": [
+[
+"March",
+51.93,
+52.338
+],
+[
+"seventeenth.",
+52.41,
+52.937
+],
+[
+"\"We'll",
+53.03,
+53.455
+],
+[
+"be",
+53.53,
+53.887
+],
+[
+"leaving",
+53.95,
+54.392
+],
+[
+"in",
+54.47,
+54.827
+],
+[
+"pretty",
+54.89,
+55.315
+],
+[
+"much",
+55.39,
+55.781
+],
+[
+"the",
+55.85,
+56.224
+],
+[
+"very",
+56.29,
+56.681
+],
+[
+"near",
+56.75,
+57.141
+],
+[
+"future.\"",
+57.21,
+57.669
+]
+],
+"v": {
+"kind": "quote",
+"n": 10,
+"date": "MAR 17",
+"said": "We'll be leaving in pretty much the very near future.",
+"where": "Reporters",
+"src": "PBS",
+"fast": 1
+}
+},
+{
+"i": 12,
+"c": 1,
+"t": "March thirty-first. \"Two or three weeks.\"",
+"a": 57.99,
+"b": 60.912,
+"words": [
+[
+"March",
+57.99,
+58.398
+],
+[
+"thirty-first.",
+58.47,
+59.014
+],
+[
+"\"Two",
+59.11,
+59.501
+],
+[
+"or",
+59.57,
+59.927
+],
+[
+"three",
+59.99,
+60.398
+],
+[
+"weeks.\"",
+60.47,
+60.912
+]
+],
+"v": {
+"kind": "quote",
+"n": 15,
+"date": "MAR 31",
+"said": "Two or three weeks.",
+"where": "Oval Office",
+"src": "CBS News",
+"fast": 1
+}
+},
+{
+"i": 13,
+"c": 1,
+"t": "April sixteenth. \"It should be ending pretty soon.\"",
+"a": 61.23,
+"b": 65.075,
+"words": [
+[
+"April",
+61.23,
+61.638
+],
+[
+"sixteenth.",
+61.71,
+62.203
+],
+[
+"\"It",
+62.29,
+62.664
+],
+[
+"should",
+62.73,
+63.155
+],
+[
+"be",
+63.23,
+63.587
+],
+[
+"ending",
+63.65,
+64.075
+],
+[
+"pretty",
+64.15,
+64.575
+],
+[
+"soon.\"",
+64.65,
+65.075
+]
+],
+"v": {
+"kind": "quote",
+"n": 19,
+"date": "APR 16",
+"said": "It should be ending pretty soon.",
+"where": "Nevada event",
+"src": "PBS",
+"fast": 1
+}
+},
+{
+"i": 14,
+"c": 1,
+"t": "June ninth. \"Two or three days.\"",
+"a": 65.39,
+"b": 68.135,
+"words": [
+[
+"June",
+65.39,
+65.781
+],
+[
+"ninth.",
+65.85,
+66.275
+],
+[
+"\"Two",
+66.35,
+66.741
+],
+[
+"or",
+66.81,
+67.167
+],
+[
+"three",
+67.23,
+67.638
+],
+[
+"days.\"",
+67.71,
+68.135
+]
+],
+"v": {
+"kind": "quote",
+"n": 25,
+"date": "JUN 9",
+"said": "Two or three days.",
+"where": "After the NBA Finals",
+"src": "CBS News",
+"fast": 1
+}
+},
+{
+"i": 15,
+"c": 1,
+"t": "June eleventh. \"Over the next few days.\"",
+"a": 68.45,
+"b": 71.715,
+"words": [
+[
+"June",
+68.45,
+68.841
+],
+[
+"eleventh.",
+68.91,
+69.386
+],
+[
+"\"Over",
+69.47,
+69.878
+],
+[
+"the",
+69.95,
+70.324
+],
+[
+"next",
+70.39,
+70.781
+],
+[
+"few",
+70.85,
+71.224
+],
+[
+"days.\"",
+71.29,
+71.715
+]
+],
+"v": {
+"kind": "quote",
+"n": 26,
+"date": "JUN 11",
+"said": "Over the next few days.",
+"where": "Oval Office",
+"src": "CBS News",
+"fast": 1
+}
+},
+{
+"i": 16,
+"c": 1,
+"t": "September ninth. \"This war will end immediately after our election.\"",
+"a": 72.03,
+"b": 76.923,
+"words": [
+[
+"September",
+72.03,
+72.506
+],
+[
+"ninth.",
+72.59,
+73.015
+],
+[
+"\"This",
+73.09,
+73.498
+],
+[
+"war",
+73.57,
+73.944
+],
+[
+"will",
+74.01,
+74.401
+],
+[
+"end",
+74.47,
+74.844
+],
+[
+"immediately",
+74.91,
+75.42
+],
+[
+"after",
+75.51,
+75.918
+],
+[
+"our",
+75.99,
+76.364
+],
+[
+"election.\"",
+76.43,
+76.923
+]
+],
+"v": {
+"kind": "quote",
+"n": 28,
+"date": "SEP 9",
+"said": "This war will end immediately after our election.",
+"where": "Joint Base Andrews",
+"src": "Al Jazeera",
+"fast": 1
+}
+},
+{
+"i": 17,
+"c": 1,
+"t": "October ninth. \"One way or another, it's gonna be over soon.\"",
+"a": 77.25,
+"b": 82.375,
+"words": [
+[
+"October",
+77.25,
+77.692
+],
+[
+"ninth.",
+77.77,
+78.195
+],
+[
+"\"One",
+78.27,
+78.661
+],
+[
+"way",
+78.73,
+79.104
+],
+[
+"or",
+79.17,
+79.527
+],
+[
+"another,",
+79.59,
+80.049
+],
+[
+"it's",
+80.13,
+80.521
+],
+[
+"gonna",
+80.59,
+80.998
+],
+[
+"be",
+81.07,
+81.427
+],
+[
+"over",
+81.49,
+81.881
+],
+[
+"soon.\"",
+81.95,
+82.375
+]
+],
+"v": {
+"kind": "quote",
+"n": 31,
+"date": "OCT 9",
+"said": "One way or another, it's gonna be over soon.",
+"where": "White House event",
+"src": "Times of Israel",
+"fast": 1
+}
+},
+{
+"i": 18,
+"c": 1,
+"t": "October thirtieth. \"It's going to get wrapped up soon.\"",
+"a": 82.69,
+"b": 86.975,
+"words": [
+[
+"October",
+82.69,
+83.132
+],
+[
+"thirtieth.",
+83.21,
+83.703
+],
+[
+"\"It's",
+83.79,
+84.198
+],
+[
+"going",
+84.27,
+84.678
+],
+[
+"to",
+84.75,
+85.107
+],
+[
+"get",
+85.17,
+85.544
+],
+[
+"wrapped",
+85.61,
+86.052
+],
+[
+"up",
+86.13,
+86.487
+],
+[
+"soon.\"",
+86.55,
+86.975
+]
+],
+"v": {
+"kind": "quote",
+"n": 32,
+"date": "OCT 30",
+"said": "It's going to get wrapped up soon.",
+"where": "KCMO radio",
+"src": "PTI / ThePrint",
+"fast": 1
+}
+},
+{
+"i": 19,
+"c": 1,
+"t": "November first. \"We'll put it away very soon.\"",
+"a": 87.29,
+"b": 91.035,
+"words": [
+[
+"November",
+87.29,
+87.749
+],
+[
+"first.",
+87.83,
+88.255
+],
+[
+"\"We'll",
+88.33,
+88.755
+],
+[
+"put",
+88.83,
+89.204
+],
+[
+"it",
+89.27,
+89.627
+],
+[
+"away",
+89.69,
+90.081
+],
+[
+"very",
+90.15,
+90.541
+],
+[
+"soon.\"",
+90.61,
+91.035
+]
+],
+"v": {
+"kind": "quote",
+"n": 33,
+"date": "NOV 1",
+"said": "We'll put it away very soon.",
+"where": "RSBN interview, Iowa",
+"src": "CBS News",
+"fast": 1
+}
+},
+{
+"i": 20,
+"c": 1,
+"t": "And that same night: \"It's going to be over very soon. Very soon.\"",
+"a": 91.31,
+"b": 97.255,
+"words": [
+[
+"And",
+91.31,
+91.684
+],
+[
+"that",
+91.75,
+92.141
+],
+[
+"same",
+92.21,
+92.601
+],
+[
+"night:",
+92.67,
+93.095
+],
+[
+"\"It's",
+93.17,
+93.578
+],
+[
+"going",
+93.65,
+94.058
+],
+[
+"to",
+94.13,
+94.487
+],
+[
+"be",
+94.55,
+94.907
+],
+[
+"over",
+94.97,
+95.361
+],
+[
+"very",
+95.43,
+95.821
+],
+[
+"soon.",
+95.89,
+96.298
+],
+[
+"Very",
+96.37,
+96.761
+],
+[
+"soon.\"",
+96.83,
+97.255
+]
+],
+"v": {
+"kind": "quote",
+"n": 34,
+"date": "NOV 1",
+"said": "It's going to be over very soon. Very soon.",
+"where": "Iowa rally",
+"src": "Fox News",
+"fast": 1
+}
+},
+{
+"i": 21,
+"c": 1,
+"t": "Thirty-four times. Here's what happened in between.",
+"a": 97.73,
+"b": 101.209,
+"words": [
+[
+"Thirty-four",
+97.73,
+98.24
+],
+[
+"times.",
+98.33,
+98.755
+],
+[
+"Here's",
+98.83,
+99.255
+],
+[
+"what",
+99.33,
+99.721
+],
+[
+"happened",
+99.79,
+100.249
+],
+[
+"in",
+100.33,
+100.687
+],
+[
+"between.",
+100.75,
+101.209
+]
+],
+"v": {
+"kind": "number",
+"big": "34",
+"sub": "HERE'S WHAT HAPPENED IN BETWEEN",
+"hit": "Thirty-four"
+}
+},
+{
+"i": 22,
+"c": 2,
+"t": "Chapter one. Four to five weeks.",
+"a": 102.79,
+"b": 105.535,
+"words": [
+[
+"Chapter",
+102.79,
+103.232
+],
+[
+"one.",
+103.31,
+103.701
+],
+[
+"Four",
+103.77,
+104.161
+],
+[
+"to",
+104.23,
+104.587
+],
+[
+"five",
+104.65,
+105.041
+],
+[
+"weeks.",
+105.11,
+105.535
+]
+],
+"v": {
+"kind": "chapter",
+"num": "CHAPTER 1",
+"title": "FOUR TO FIVE WEEKS",
+"sub": "Feb 28 \u2013 Apr 8"
+}
+},
+{
+"i": 23,
+"c": 2,
+"t": "February twenty-eighth, twenty twenty-six. American and Israeli strikes hit Iran.",
+"a": 106.01,
+"b": 111.178,
+"words": [
+[
+"February",
+106.01,
+106.469
+],
+[
+"twenty-eighth,",
+106.55,
+107.111
+],
+[
+"twenty",
+107.21,
+107.635
+],
+[
+"twenty-six.",
+107.71,
+108.22
+],
+[
+"American",
+108.31,
+108.769
+],
+[
+"and",
+108.85,
+109.224
+],
+[
+"Israeli",
+109.29,
+109.732
+],
+[
+"strikes",
+109.81,
+110.252
+],
+[
+"hit",
+110.33,
+110.704
+],
+[
+"Iran.",
+110.77,
+111.178
+]
+],
+"v": {
+"kind": "event",
+"date": "FEB 28, 2026",
+"head": "US and Israeli strikes hit Iran",
+"tag": "DAY 1"
+}
+},
+{
+"i": 24,
+"c": 2,
+"t": "Iran answers by closing the Strait of Hormuz, the narrow channel that about a fifth of the world's oil passes through.",
+"a": 111.55,
+"b": 121.409,
+"words": [
+[
+"Iran",
+111.55,
+111.941
+],
+[
+"answers",
+112.01,
+112.452
+],
+[
+"by",
+112.53,
+112.887
+],
+[
+"closing",
+112.95,
+113.392
+],
+[
+"the",
+113.47,
+113.844
+],
+[
+"Strait",
+113.91,
+114.335
+],
+[
+"of",
+114.41,
+114.767
+],
+[
+"Hormuz,",
+114.83,
+115.272
+],
+[
+"the",
+115.35,
+115.724
+],
+[
+"narrow",
+115.79,
+116.215
+],
+[
+"channel",
+116.29,
+116.732
+],
+[
+"that",
+116.81,
+117.201
+],
+[
+"about",
+117.27,
+117.678
+],
+[
+"a",
+117.75,
+118.09
+],
+[
+"fifth",
+118.15,
+118.558
+],
+[
+"of",
+118.63,
+118.987
+],
+[
+"the",
+119.05,
+119.424
+],
+[
+"world's",
+119.49,
+119.932
+],
+[
+"oil",
+120.01,
+120.384
+],
+[
+"passes",
+120.45,
+120.875
+],
+[
+"through.",
+120.95,
+121.409
+]
+],
+"v": {
+"kind": "map",
+"state": "closed",
+"label": "STRAIT OF HORMUZ",
+"sub": "~1/5 of the world's oil passes here",
+"hit": "closing"
+}
+},
+{
+"i": 25,
+"c": 2,
+"t": "The day before the war, US oil closed at sixty-seven dollars a barrel.",
+"a": 121.83,
+"b": 127.852,
+"words": [
+[
+"The",
+121.83,
+122.204
+],
+[
+"day",
+122.27,
+122.644
+],
+[
+"before",
+122.71,
+123.135
+],
+[
+"the",
+123.21,
+123.584
+],
+[
+"war,",
+123.65,
+124.041
+],
+[
+"US",
+124.11,
+124.467
+],
+[
+"oil",
+124.53,
+124.904
+],
+[
+"closed",
+124.97,
+125.395
+],
+[
+"at",
+125.47,
+125.827
+],
+[
+"sixty-seven",
+125.89,
+126.4
+],
+[
+"dollars",
+126.49,
+126.932
+],
+[
+"a",
+127.01,
+127.35
+],
+[
+"barrel.",
+127.41,
+127.852
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-02-02",
+"b": "2026-02-27",
+"mark": "2026-02-27",
+"tag": "$66.96",
+"title": "US OIL (WTI) \u00b7 DAY BEFORE THE WAR"
+}
+},
+{
+"i": 26,
+"c": 2,
+"t": "Bitcoin closed near sixty-five thousand nine hundred.",
+"a": 128.15,
+"b": 131.669,
+"words": [
+[
+"Bitcoin",
+128.15,
+128.592
+],
+[
+"closed",
+128.67,
+129.095
+],
+[
+"near",
+129.17,
+129.561
+],
+[
+"sixty-five",
+129.63,
+130.123
+],
+[
+"thousand",
+130.21,
+130.669
+],
+[
+"nine",
+130.75,
+131.141
+],
+[
+"hundred.",
+131.21,
+131.669
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-02-02",
+"b": "2026-02-27",
+"mark": "2026-02-27",
+"tag": "$65,868",
+"title": "BITCOIN \u00b7 DAY BEFORE THE WAR"
+}
+},
+{
+"i": 27,
+"c": 2,
+"t": "The next day, Trump gives his first timeline. \"We intended four to five weeks.\"",
+"a": 132.07,
+"b": 138.632,
+"words": [
+[
+"The",
+132.07,
+132.444
+],
+[
+"next",
+132.51,
+132.901
+],
+[
+"day,",
+132.97,
+133.361
+],
+[
+"Trump",
+133.43,
+133.838
+],
+[
+"gives",
+133.91,
+134.318
+],
+[
+"his",
+134.39,
+134.764
+],
+[
+"first",
+134.83,
+135.238
+],
+[
+"timeline.",
+135.31,
+135.786
+],
+[
+"\"We",
+135.87,
+136.244
+],
+[
+"intended",
+136.31,
+136.769
+],
+[
+"four",
+136.85,
+137.241
+],
+[
+"to",
+137.31,
+137.667
+],
+[
+"five",
+137.73,
+138.121
+],
+[
+"weeks.\"",
+138.19,
+138.632
+]
+],
+"v": {
+"kind": "quote",
+"n": 1,
+"date": "MAR 1",
+"said": "We intended four to five weeks.",
+"where": "NYT interview",
+"src": "CBS News",
+"hit": "intended"
+}
+},
+{
+"i": 28,
+"c": 2,
+"t": "Oil doesn't wait. By March sixth, it's at ninety-one dollars.",
+"a": 139.03,
+"b": 143.789,
+"words": [
+[
+"Oil",
+139.03,
+139.404
+],
+[
+"doesn't",
+139.47,
+139.912
+],
+[
+"wait.",
+139.99,
+140.398
+],
+[
+"By",
+140.47,
+140.827
+],
+[
+"March",
+140.89,
+141.298
+],
+[
+"sixth,",
+141.37,
+141.795
+],
+[
+"it's",
+141.87,
+142.261
+],
+[
+"at",
+142.33,
+142.687
+],
+[
+"ninety-one",
+142.75,
+143.243
+],
+[
+"dollars.",
+143.33,
+143.789
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-02-02",
+"b": "2026-03-06",
+"mark": "2026-03-06",
+"tag": "$90.77",
+"title": "US OIL (WTI)",
+"hit": "ninety-one"
+}
+},
+{
+"i": 29,
+"c": 2,
+"t": "March ninth. Trump says the end is coming. \"Soon, very soon.\"",
+"a": 144.19,
+"b": 149.315,
+"words": [
+[
+"March",
+144.19,
+144.598
+],
+[
+"ninth.",
+144.67,
+145.095
+],
+[
+"Trump",
+145.17,
+145.578
+],
+[
+"says",
+145.65,
+146.041
+],
+[
+"the",
+146.11,
+146.484
+],
+[
+"end",
+146.55,
+146.924
+],
+[
+"is",
+146.99,
+147.347
+],
+[
+"coming.",
+147.41,
+147.852
+],
+[
+"\"Soon,",
+147.93,
+148.355
+],
+[
+"very",
+148.43,
+148.821
+],
+[
+"soon.\"",
+148.89,
+149.315
+]
+],
+"v": {
+"kind": "quote",
+"n": 4,
+"date": "MAR 9",
+"said": "Soon, very soon.",
+"where": "Miami press conference",
+"src": "CBS News",
+"hit": "Soon,"
+}
+},
+{
+"i": 30,
+"c": 2,
+"t": "That day, bitcoin jumps almost four percent.",
+"a": 149.71,
+"b": 153.049,
+"words": [
+[
+"That",
+149.71,
+150.101
+],
+[
+"day,",
+150.17,
+150.561
+],
+[
+"bitcoin",
+150.63,
+151.072
+],
+[
+"jumps",
+151.15,
+151.558
+],
+[
+"almost",
+151.63,
+152.055
+],
+[
+"four",
+152.13,
+152.521
+],
+[
+"percent.",
+152.59,
+153.049
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-02-20",
+"b": "2026-03-09",
+"mark": "2026-03-09",
+"tag": "+3.8%",
+"title": "BITCOIN \u00b7 MARCH 9",
+"hit": "jumps"
+}
+},
+{
+"i": 31,
+"c": 2,
+"t": "The next day, oil drops from ninety-five dollars to eighty-four.",
+"a": 153.35,
+"b": 158.157,
+"words": [
+[
+"The",
+153.35,
+153.724
+],
+[
+"next",
+153.79,
+154.181
+],
+[
+"day,",
+154.25,
+154.641
+],
+[
+"oil",
+154.71,
+155.084
+],
+[
+"drops",
+155.15,
+155.558
+],
+[
+"from",
+155.63,
+156.021
+],
+[
+"ninety-five",
+156.09,
+156.6
+],
+[
+"dollars",
+156.69,
+157.132
+],
+[
+"to",
+157.21,
+157.567
+],
+[
+"eighty-four.",
+157.63,
+158.157
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-02-20",
+"b": "2026-03-10",
+"mark": "2026-03-10",
+"tag": "$94.65 \u2192 $83.71",
+"title": "US OIL (WTI) \u00b7 MARCH 10",
+"hit": "drops"
+}
+},
+{
+"i": 32,
+"c": 2,
+"t": "For a moment, the words work.",
+"a": 158.51,
+"b": 161.198,
+"words": [
+[
+"For",
+158.51,
+158.884
+],
+[
+"a",
+158.95,
+159.29
+],
+[
+"moment,",
+159.35,
+159.792
+],
+[
+"the",
+159.87,
+160.244
+],
+[
+"words",
+160.31,
+160.718
+],
+[
+"work.",
+160.79,
+161.198
+]
+],
+"v": {
+"kind": "number",
+"big": "FOR A MOMENT",
+"sub": "THE WORDS WORK",
+"small": 1
+}
+},
+{
+"i": 33,
+"c": 2,
+"t": "But the war keeps going.",
+"a": 161.72,
+"b": 163.945,
+"words": [
+[
+"But",
+161.72,
+162.094
+],
+[
+"the",
+162.16,
+162.534
+],
+[
+"war",
+162.6,
+162.974
+],
+[
+"keeps",
+163.04,
+163.448
+],
+[
+"going.",
+163.52,
+163.945
+]
+],
+"v": {
+"kind": "event",
+"date": "MARCH 2026",
+"head": "The war keeps going",
+"tag": ""
+}
+},
+{
+"i": 34,
+"c": 2,
+"t": "March thirteenth. \"I don't think it's gonna be long.\"",
+"a": 164.32,
+"b": 168.565,
+"words": [
+[
+"March",
+164.32,
+164.728
+],
+[
+"thirteenth.",
+164.8,
+165.31
+],
+[
+"\"I",
+165.4,
+165.757
+],
+[
+"don't",
+165.82,
+166.228
+],
+[
+"think",
+166.3,
+166.708
+],
+[
+"it's",
+166.78,
+167.171
+],
+[
+"gonna",
+167.24,
+167.648
+],
+[
+"be",
+167.72,
+168.077
+],
+[
+"long.\"",
+168.14,
+168.565
+]
+],
+"v": {
+"kind": "quote",
+"n": 8,
+"date": "MAR 13",
+"said": "I don't think it's gonna be long.",
+"where": "Fox News Radio",
+"src": "PBS"
+}
+},
+{
+"i": 35,
+"c": 2,
+"t": "March twenty-sixth. \"Four to six weeks. We're way ahead of schedule.\"",
+"a": 168.96,
+"b": 174.233,
+"words": [
+[
+"March",
+168.96,
+169.368
+],
+[
+"twenty-sixth.",
+169.44,
+169.984
+],
+[
+"\"Four",
+170.08,
+170.488
+],
+[
+"to",
+170.56,
+170.917
+],
+[
+"six",
+170.98,
+171.354
+],
+[
+"weeks.",
+171.42,
+171.845
+],
+[
+"We're",
+171.92,
+172.328
+],
+[
+"way",
+172.4,
+172.774
+],
+[
+"ahead",
+172.84,
+173.248
+],
+[
+"of",
+173.32,
+173.677
+],
+[
+"schedule.\"",
+173.74,
+174.233
+]
+],
+"v": {
+"kind": "quote",
+"n": 13,
+"date": "MAR 26",
+"said": "Four to six weeks. We're way ahead of schedule.",
+"where": "Cabinet meeting",
+"src": "PBS"
+}
+},
+{
+"i": 36,
+"c": 2,
+"t": "March thirty-first. \"Two or three weeks.\"",
+"a": 174.64,
+"b": 177.562,
+"words": [
+[
+"March",
+174.64,
+175.048
+],
+[
+"thirty-first.",
+175.12,
+175.664
+],
+[
+"\"Two",
+175.76,
+176.151
+],
+[
+"or",
+176.22,
+176.577
+],
+[
+"three",
+176.64,
+177.048
+],
+[
+"weeks.\"",
+177.12,
+177.562
+]
+],
+"v": {
+"kind": "quote",
+"n": 15,
+"date": "MAR 31",
+"said": "Two or three weeks.",
+"where": "Oval Office",
+"src": "CBS News"
+}
+},
+{
+"i": 37,
+"c": 2,
+"t": "By then, oil is above one hundred dollars.",
+"a": 177.96,
+"b": 181.619,
+"words": [
+[
+"By",
+177.96,
+178.317
+],
+[
+"then,",
+178.38,
+178.788
+],
+[
+"oil",
+178.86,
+179.234
+],
+[
+"is",
+179.3,
+179.657
+],
+[
+"above",
+179.72,
+180.128
+],
+[
+"one",
+180.2,
+180.574
+],
+[
+"hundred",
+180.64,
+181.082
+],
+[
+"dollars.",
+181.16,
+181.619
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-02-20",
+"b": "2026-03-31",
+"mark": "2026-03-31",
+"tag": "$102.86",
+"title": "US OIL (WTI) \u00b7 MARCH 31",
+"hit": "hundred"
+}
+},
+{
+"i": 38,
+"c": 2,
+"t": "April first, in an address to the nation, he promises to finish the job \"shortly, very shortly.\"",
+"a": 182.04,
+"b": 190.016,
+"words": [
+[
+"April",
+182.04,
+182.448
+],
+[
+"first,",
+182.52,
+182.945
+],
+[
+"in",
+183.02,
+183.377
+],
+[
+"an",
+183.44,
+183.797
+],
+[
+"address",
+183.86,
+184.302
+],
+[
+"to",
+184.38,
+184.737
+],
+[
+"the",
+184.8,
+185.174
+],
+[
+"nation,",
+185.24,
+185.682
+],
+[
+"he",
+185.76,
+186.117
+],
+[
+"promises",
+186.18,
+186.639
+],
+[
+"to",
+186.72,
+187.077
+],
+[
+"finish",
+187.14,
+187.565
+],
+[
+"the",
+187.64,
+188.014
+],
+[
+"job",
+188.08,
+188.454
+],
+[
+"\"shortly,",
+188.52,
+188.996
+],
+[
+"very",
+189.08,
+189.471
+],
+[
+"shortly.\"",
+189.54,
+190.016
+]
+],
+"v": {
+"kind": "quote",
+"n": 16,
+"date": "APR 1",
+"said": "Shortly, very shortly.",
+"where": "Address to the nation",
+"src": "PBS"
+}
+},
+{
+"i": 39,
+"c": 2,
+"t": "April seventh. Oil hits its highest price of the whole war. One hundred fourteen dollars.",
+"a": 190.42,
+"b": 197.539,
+"words": [
+[
+"April",
+190.42,
+190.828
+],
+[
+"seventh.",
+190.9,
+191.359
+],
+[
+"Oil",
+191.44,
+191.814
+],
+[
+"hits",
+191.88,
+192.271
+],
+[
+"its",
+192.34,
+192.714
+],
+[
+"highest",
+192.78,
+193.222
+],
+[
+"price",
+193.3,
+193.708
+],
+[
+"of",
+193.78,
+194.137
+],
+[
+"the",
+194.2,
+194.574
+],
+[
+"whole",
+194.64,
+195.048
+],
+[
+"war.",
+195.12,
+195.511
+],
+[
+"One",
+195.58,
+195.954
+],
+[
+"hundred",
+196.02,
+196.462
+],
+[
+"fourteen",
+196.54,
+196.999
+],
+[
+"dollars.",
+197.08,
+197.539
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-02-20",
+"b": "2026-04-07",
+"mark": "2026-04-07",
+"tag": "$114.58  WAR HIGH",
+"title": "US OIL (WTI) \u00b7 APRIL 7",
+"hit": "fourteen"
+}
+},
+{
+"i": 40,
+"c": 2,
+"t": "That night comes a two-week ceasefire.",
+"a": 197.92,
+"b": 200.773,
+"words": [
+[
+"That",
+197.92,
+198.311
+],
+[
+"night",
+198.38,
+198.788
+],
+[
+"comes",
+198.86,
+199.268
+],
+[
+"a",
+199.34,
+199.68
+],
+[
+"two-week",
+199.74,
+200.199
+],
+[
+"ceasefire.",
+200.28,
+200.773
+]
+],
+"v": {
+"kind": "event",
+"date": "APR 7, 2026",
+"head": "A two-week ceasefire",
+"tag": "DAY 39"
+}
+},
+{
+"i": 41,
+"c": 2,
+"t": "Bitcoin jumps two point six percent in one hour, to seventy-two thousand three hundred.",
+"a": 201.12,
+"b": 207.839,
+"words": [
+[
+"Bitcoin",
+201.12,
+201.562
+],
+[
+"jumps",
+201.64,
+202.048
+],
+[
+"two",
+202.12,
+202.494
+],
+[
+"point",
+202.56,
+202.968
+],
+[
+"six",
+203.04,
+203.414
+],
+[
+"percent",
+203.48,
+203.922
+],
+[
+"in",
+204.0,
+204.357
+],
+[
+"one",
+204.42,
+204.794
+],
+[
+"hour,",
+204.86,
+205.268
+],
+[
+"to",
+205.34,
+205.697
+],
+[
+"seventy-two",
+205.76,
+206.27
+],
+[
+"thousand",
+206.36,
+206.819
+],
+[
+"three",
+206.9,
+207.308
+],
+[
+"hundred.",
+207.38,
+207.839
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-03-10",
+"b": "2026-04-08",
+"mark": "2026-04-07",
+"tag": "+2.6% IN 1 HOUR \u00b7 $72,339",
+"title": "BITCOIN \u00b7 APRIL 7",
+"hit": "jumps"
+}
+},
+{
+"i": 42,
+"c": 2,
+"t": "The next day, oil falls sixteen percent.",
+"a": 208.16,
+"b": 211.419,
+"words": [
+[
+"The",
+208.16,
+208.534
+],
+[
+"next",
+208.6,
+208.991
+],
+[
+"day,",
+209.06,
+209.451
+],
+[
+"oil",
+209.52,
+209.894
+],
+[
+"falls",
+209.96,
+210.368
+],
+[
+"sixteen",
+210.44,
+210.882
+],
+[
+"percent.",
+210.96,
+211.419
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-03-10",
+"b": "2026-04-08",
+"mark": "2026-04-08",
+"tag": "\u221216%  $114.58 \u2192 $96.17",
+"title": "US OIL (WTI) \u00b7 APRIL 8",
+"hit": "sixteen"
+}
+},
+{
+"i": 43,
+"c": 2,
+"t": "Trump calls it \"Total and complete victory. One hundred percent.\"",
+"a": 211.8,
+"b": 216.636,
+"words": [
+[
+"Trump",
+211.8,
+212.208
+],
+[
+"calls",
+212.28,
+212.688
+],
+[
+"it",
+212.76,
+213.117
+],
+[
+"\"Total",
+213.18,
+213.605
+],
+[
+"and",
+213.68,
+214.054
+],
+[
+"complete",
+214.12,
+214.579
+],
+[
+"victory.",
+214.66,
+215.119
+],
+[
+"One",
+215.2,
+215.574
+],
+[
+"hundred",
+215.64,
+216.082
+],
+[
+"percent.\"",
+216.16,
+216.636
+]
+],
+"v": {
+"kind": "quote",
+"n": 18,
+"date": "APR 7",
+"said": "Total and complete victory. 100%.",
+"where": "AFP, after the ceasefire",
+"src": "PBS",
+"hit": "victory."
+}
+},
+{
+"i": 44,
+"c": 2,
+"t": "Five weeks had passed. The war had not ended.",
+"a": 217.04,
+"b": 221.125,
+"words": [
+[
+"Five",
+217.04,
+217.431
+],
+[
+"weeks",
+217.5,
+217.908
+],
+[
+"had",
+217.98,
+218.354
+],
+[
+"passed.",
+218.42,
+218.862
+],
+[
+"The",
+218.94,
+219.314
+],
+[
+"war",
+219.38,
+219.754
+],
+[
+"had",
+219.82,
+220.194
+],
+[
+"not",
+220.26,
+220.634
+],
+[
+"ended.",
+220.7,
+221.125
+]
+],
+"v": {
+"kind": "calendar",
+"weeks": 5,
+"day": 40,
+"hit": "ended."
+}
+},
+{
+"i": 45,
+"c": 3,
+"t": "Chapter two. Days away.",
+"a": 222.8,
+"b": 224.648,
+"words": [
+[
+"Chapter",
+222.8,
+223.242
+],
+[
+"two.",
+223.32,
+223.711
+],
+[
+"Days",
+223.78,
+224.171
+],
+[
+"away.",
+224.24,
+224.648
+]
+],
+"v": {
+"kind": "chapter",
+"num": "CHAPTER 2",
+"title": "DAYS AWAY",
+"sub": "Apr 8 \u2013 Jul 7"
+}
+},
+{
+"i": 46,
+"c": 3,
+"t": "The ceasefire mostly held.",
+"a": 225.12,
+"b": 227.028,
+"words": [
+[
+"The",
+225.12,
+225.494
+],
+[
+"ceasefire",
+225.56,
+226.036
+],
+[
+"mostly",
+226.12,
+226.545
+],
+[
+"held.",
+226.62,
+227.028
+]
+],
+"v": {
+"kind": "event",
+"date": "APRIL 2026",
+"head": "The ceasefire mostly holds",
+"tag": ""
+}
+},
+{
+"i": 47,
+"c": 3,
+"t": "But talks in Islamabad failed, and on April thirteenth, a US naval blockade of Iran's ports took effect.",
+"a": 227.34,
+"b": 235.842,
+"words": [
+[
+"But",
+227.34,
+227.714
+],
+[
+"talks",
+227.78,
+228.188
+],
+[
+"in",
+228.26,
+228.617
+],
+[
+"Islamabad",
+228.68,
+229.156
+],
+[
+"failed,",
+229.24,
+229.682
+],
+[
+"and",
+229.76,
+230.134
+],
+[
+"on",
+230.2,
+230.557
+],
+[
+"April",
+230.62,
+231.028
+],
+[
+"thirteenth,",
+231.1,
+231.61
+],
+[
+"a",
+231.7,
+232.04
+],
+[
+"US",
+232.1,
+232.457
+],
+[
+"naval",
+232.52,
+232.928
+],
+[
+"blockade",
+233.0,
+233.459
+],
+[
+"of",
+233.54,
+233.897
+],
+[
+"Iran's",
+233.96,
+234.385
+],
+[
+"ports",
+234.46,
+234.868
+],
+[
+"took",
+234.94,
+235.331
+],
+[
+"effect.",
+235.4,
+235.842
+]
+],
+"v": {
+"kind": "map",
+"state": "blockade",
+"label": "US NAVAL BLOCKADE",
+"sub": "In effect April 13",
+"hit": "blockade"
+}
+},
+{
+"i": 48,
+"c": 3,
+"t": "On April twenty-first, the ceasefire was extended, with no end date.",
+"a": 236.22,
+"b": 241.488,
+"words": [
+[
+"On",
+236.22,
+236.577
+],
+[
+"April",
+236.64,
+237.048
+],
+[
+"twenty-first,",
+237.12,
+237.664
+],
+[
+"the",
+237.76,
+238.134
+],
+[
+"ceasefire",
+238.2,
+238.676
+],
+[
+"was",
+238.76,
+239.134
+],
+[
+"extended,",
+239.2,
+239.676
+],
+[
+"with",
+239.76,
+240.151
+],
+[
+"no",
+240.22,
+240.577
+],
+[
+"end",
+240.64,
+241.014
+],
+[
+"date.",
+241.08,
+241.488
+]
+],
+"v": {
+"kind": "event",
+"date": "APR 21, 2026",
+"head": "Ceasefire extended with no end date",
+"tag": "DAY 53"
+}
+},
+{
+"i": 49,
+"c": 3,
+"t": "In May, the US struck Iran twice more, and called it \"self-defense.\"",
+"a": 241.82,
+"b": 247.418,
+"words": [
+[
+"In",
+241.82,
+242.177
+],
+[
+"May,",
+242.24,
+242.631
+],
+[
+"the",
+242.7,
+243.074
+],
+[
+"US",
+243.14,
+243.497
+],
+[
+"struck",
+243.56,
+243.985
+],
+[
+"Iran",
+244.06,
+244.451
+],
+[
+"twice",
+244.52,
+244.928
+],
+[
+"more,",
+245.0,
+245.408
+],
+[
+"and",
+245.48,
+245.854
+],
+[
+"called",
+245.92,
+246.345
+],
+[
+"it",
+246.42,
+246.777
+],
+[
+"\"self-defense.\"",
+246.84,
+247.418
+]
+],
+"v": {
+"kind": "event",
+"date": "MAY 7 \u00b7 MAY 25",
+"head": "Two more US strikes, called \"self-defense\"",
+"tag": "MAY"
+}
+},
+{
+"i": 50,
+"c": 3,
+"t": "And the deal was always almost done.",
+"a": 247.88,
+"b": 251.068,
+"words": [
+[
+"And",
+247.88,
+248.254
+],
+[
+"the",
+248.32,
+248.694
+],
+[
+"deal",
+248.76,
+249.151
+],
+[
+"was",
+249.22,
+249.594
+],
+[
+"always",
+249.66,
+250.085
+],
+[
+"almost",
+250.16,
+250.585
+],
+[
+"done.",
+250.66,
+251.068
+]
+],
+"v": {
+"kind": "number",
+"big": "ALMOST DONE",
+"sub": "THE DEAL, AGAIN AND AGAIN",
+"small": 1
+}
+},
+{
+"i": 51,
+"c": 3,
+"t": "May twenty-third. Details \"will be announced shortly.\"",
+"a": 251.44,
+"b": 254.976,
+"words": [
+[
+"May",
+251.44,
+251.814
+],
+[
+"twenty-third.",
+251.88,
+252.424
+],
+[
+"Details",
+252.52,
+252.962
+],
+[
+"\"will",
+253.04,
+253.448
+],
+[
+"be",
+253.52,
+253.877
+],
+[
+"announced",
+253.94,
+254.416
+],
+[
+"shortly.\"",
+254.5,
+254.976
+]
+],
+"v": {
+"kind": "quote",
+"n": 21,
+"date": "MAY 23",
+"said": "Details will be announced shortly.",
+"where": "Truth Social",
+"src": "CBS News"
+}
+},
+{
+"i": 52,
+"c": 3,
+"t": "June first. An agreement, \"over the next week.\"",
+"a": 255.38,
+"b": 259.145,
+"words": [
+[
+"June",
+255.38,
+255.771
+],
+[
+"first.",
+255.84,
+256.265
+],
+[
+"An",
+256.34,
+256.697
+],
+[
+"agreement,",
+256.76,
+257.253
+],
+[
+"\"over",
+257.34,
+257.748
+],
+[
+"the",
+257.82,
+258.194
+],
+[
+"next",
+258.26,
+258.651
+],
+[
+"week.\"",
+258.72,
+259.145
+]
+],
+"v": {
+"kind": "quote",
+"n": 22,
+"date": "JUN 1",
+"said": "An agreement over the next week.",
+"where": "ABC News",
+"src": "CBS News"
+}
+},
+{
+"i": 53,
+"c": 3,
+"t": "June ninth. Signing \"could be in two or three days.\"",
+"a": 259.54,
+"b": 264.125,
+"words": [
+[
+"June",
+259.54,
+259.931
+],
+[
+"ninth.",
+260.0,
+260.425
+],
+[
+"Signing",
+260.5,
+260.942
+],
+[
+"\"could",
+261.02,
+261.445
+],
+[
+"be",
+261.52,
+261.877
+],
+[
+"in",
+261.94,
+262.297
+],
+[
+"two",
+262.36,
+262.734
+],
+[
+"or",
+262.8,
+263.157
+],
+[
+"three",
+263.22,
+263.628
+],
+[
+"days.\"",
+263.7,
+264.125
+]
+],
+"v": {
+"kind": "quote",
+"n": 25,
+"date": "JUN 9",
+"said": "Upon signing, which could be in two or three days.",
+"where": "After the NBA Finals",
+"src": "CBS News"
+}
+},
+{
+"i": 54,
+"c": 3,
+"t": "Bitcoin didn't wait for it. From May thirty-first to June second, it fell more than nine percent.",
+"a": 264.52,
+"b": 272.519,
+"words": [
+[
+"Bitcoin",
+264.52,
+264.962
+],
+[
+"didn't",
+265.04,
+265.465
+],
+[
+"wait",
+265.54,
+265.931
+],
+[
+"for",
+266.0,
+266.374
+],
+[
+"it.",
+266.44,
+266.814
+],
+[
+"From",
+266.88,
+267.271
+],
+[
+"May",
+267.34,
+267.714
+],
+[
+"thirty-first",
+267.78,
+268.307
+],
+[
+"to",
+268.4,
+268.757
+],
+[
+"June",
+268.82,
+269.211
+],
+[
+"second,",
+269.28,
+269.722
+],
+[
+"it",
+269.8,
+270.157
+],
+[
+"fell",
+270.22,
+270.611
+],
+[
+"more",
+270.68,
+271.071
+],
+[
+"than",
+271.14,
+271.531
+],
+[
+"nine",
+271.6,
+271.991
+],
+[
+"percent.",
+272.06,
+272.519
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-05-01",
+"b": "2026-06-02",
+"mark": "2026-06-02",
+"tag": "\u22129.4% IN 2 DAYS",
+"title": "BITCOIN \u00b7 JUNE 2",
+"hit": "nine"
+}
+},
+{
+"i": 55,
+"c": 3,
+"t": "By June thirtieth, it was at fifty-eight thousand five hundred.",
+"a": 272.86,
+"b": 277.659,
+"words": [
+[
+"By",
+272.86,
+273.217
+],
+[
+"June",
+273.28,
+273.671
+],
+[
+"thirtieth,",
+273.74,
+274.233
+],
+[
+"it",
+274.32,
+274.677
+],
+[
+"was",
+274.74,
+275.114
+],
+[
+"at",
+275.18,
+275.537
+],
+[
+"fifty-eight",
+275.6,
+276.11
+],
+[
+"thousand",
+276.2,
+276.659
+],
+[
+"five",
+276.74,
+277.131
+],
+[
+"hundred.",
+277.2,
+277.659
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-05-01",
+"b": "2026-06-30",
+"mark": "2026-06-30",
+"tag": "$58,526",
+"title": "BITCOIN \u00b7 JUNE 30",
+"hit": "fifty-eight"
+}
+},
+{
+"i": 56,
+"c": 3,
+"t": "June seventeenth. Finally, a signed paper. The Islamabad Memorandum, with sixty days to negotiate.",
+"a": 278.08,
+"b": 285.013,
+"words": [
+[
+"June",
+278.08,
+278.471
+],
+[
+"seventeenth.",
+278.54,
+279.067
+],
+[
+"Finally,",
+279.16,
+279.619
+],
+[
+"a",
+279.7,
+280.04
+],
+[
+"signed",
+280.1,
+280.525
+],
+[
+"paper.",
+280.6,
+281.025
+],
+[
+"The",
+281.1,
+281.474
+],
+[
+"Islamabad",
+281.54,
+282.016
+],
+[
+"Memorandum,",
+282.1,
+282.61
+],
+[
+"with",
+282.7,
+283.091
+],
+[
+"sixty",
+283.16,
+283.568
+],
+[
+"days",
+283.64,
+284.031
+],
+[
+"to",
+284.1,
+284.457
+],
+[
+"negotiate.",
+284.52,
+285.013
+]
+],
+"v": {
+"kind": "doc",
+"title": "ISLAMABAD MEMORANDUM",
+"sub": "Signed June 17, 2026",
+"lines": [
+"60 days of negotiations",
+"Nuclear program",
+"The Strait of Hormuz",
+"Frozen funds"
+],
+"stamp": "SIGNED",
+"hit": "signed"
+}
+},
+{
+"i": 57,
+"c": 3,
+"t": "The next day, the US ended the blockade, and Hormuz reopened.",
+"a": 285.4,
+"b": 290.516,
+"words": [
+[
+"The",
+285.4,
+285.774
+],
+[
+"next",
+285.84,
+286.231
+],
+[
+"day,",
+286.3,
+286.691
+],
+[
+"the",
+286.76,
+287.134
+],
+[
+"US",
+287.2,
+287.557
+],
+[
+"ended",
+287.62,
+288.028
+],
+[
+"the",
+288.1,
+288.474
+],
+[
+"blockade,",
+288.54,
+289.016
+],
+[
+"and",
+289.1,
+289.474
+],
+[
+"Hormuz",
+289.54,
+289.965
+],
+[
+"reopened.",
+290.04,
+290.516
+]
+],
+"v": {
+"kind": "map",
+"state": "open",
+"label": "HORMUZ REOPENS",
+"sub": "June 18",
+"hit": "reopened."
+}
+},
+{
+"i": 58,
+"c": 3,
+"t": "By early July, oil had slid below seventy dollars.",
+"a": 290.86,
+"b": 295.039,
+"words": [
+[
+"By",
+290.86,
+291.217
+],
+[
+"early",
+291.28,
+291.688
+],
+[
+"July,",
+291.76,
+292.168
+],
+[
+"oil",
+292.24,
+292.614
+],
+[
+"had",
+292.68,
+293.054
+],
+[
+"slid",
+293.12,
+293.511
+],
+[
+"below",
+293.58,
+293.988
+],
+[
+"seventy",
+294.06,
+294.502
+],
+[
+"dollars.",
+294.58,
+295.039
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-04-01",
+"b": "2026-07-06",
+"mark": "2026-07-06",
+"tag": "$69.60",
+"title": "US OIL (WTI) \u00b7 JULY 6",
+"hit": "seventy"
+}
+},
+{
+"i": 59,
+"c": 3,
+"t": "For three weeks, it looked over.",
+"a": 295.46,
+"b": 298.208,
+"words": [
+[
+"For",
+295.46,
+295.834
+],
+[
+"three",
+295.9,
+296.308
+],
+[
+"weeks,",
+296.38,
+296.805
+],
+[
+"it",
+296.88,
+297.237
+],
+[
+"looked",
+297.3,
+297.725
+],
+[
+"over.",
+297.8,
+298.208
+]
+],
+"v": {
+"kind": "number",
+"big": "3 WEEKS",
+"sub": "IT LOOKED OVER",
+"small": 1
+}
+},
+{
+"i": 60,
+"c": 4,
+"t": "Chapter three. \"I think it's over.\"",
+"a": 299.88,
+"b": 302.685,
+"words": [
+[
+"Chapter",
+299.88,
+300.322
+],
+[
+"three.",
+300.4,
+300.825
+],
+[
+"\"I",
+300.9,
+301.257
+],
+[
+"think",
+301.32,
+301.728
+],
+[
+"it's",
+301.8,
+302.191
+],
+[
+"over.\"",
+302.26,
+302.685
+]
+],
+"v": {
+"kind": "chapter",
+"num": "CHAPTER 3",
+"title": "\"I THINK IT'S OVER\"",
+"sub": "Jul 8 \u2013 Aug 31"
+}
+},
+{
+"i": 61,
+"c": 4,
+"t": "July eighth. Iran attacks three ships in Hormuz.",
+"a": 303.16,
+"b": 306.942,
+"words": [
+[
+"July",
+303.16,
+303.551
+],
+[
+"eighth.",
+303.62,
+304.062
+],
+[
+"Iran",
+304.14,
+304.531
+],
+[
+"attacks",
+304.6,
+305.042
+],
+[
+"three",
+305.12,
+305.528
+],
+[
+"ships",
+305.6,
+306.008
+],
+[
+"in",
+306.08,
+306.437
+],
+[
+"Hormuz.",
+306.5,
+306.942
+]
+],
+"v": {
+"kind": "map",
+"state": "attack",
+"label": "JULY 8",
+"sub": "Three ships attacked",
+"hit": "attacks"
+}
+},
+{
+"i": 62,
+"c": 4,
+"t": "The US strikes more than eighty targets.",
+"a": 307.26,
+"b": 310.519,
+"words": [
+[
+"The",
+307.26,
+307.634
+],
+[
+"US",
+307.7,
+308.057
+],
+[
+"strikes",
+308.12,
+308.562
+],
+[
+"more",
+308.64,
+309.031
+],
+[
+"than",
+309.1,
+309.491
+],
+[
+"eighty",
+309.56,
+309.985
+],
+[
+"targets.",
+310.06,
+310.519
+]
+],
+"v": {
+"kind": "number",
+"big": "80+",
+"sub": "TARGETS STRUCK BY THE US",
+"hit": "eighty"
+}
+},
+{
+"i": 63,
+"c": 4,
+"t": "Iran's Revolutionary Guards say they hit eighty-five US military sites in Bahrain and Kuwait.",
+"a": 310.82,
+"b": 317.662,
+"words": [
+[
+"Iran's",
+310.82,
+311.245
+],
+[
+"Revolutionary",
+311.32,
+311.864
+],
+[
+"Guards",
+311.96,
+312.385
+],
+[
+"say",
+312.46,
+312.834
+],
+[
+"they",
+312.9,
+313.291
+],
+[
+"hit",
+313.36,
+313.734
+],
+[
+"eighty-five",
+313.8,
+314.31
+],
+[
+"US",
+314.4,
+314.757
+],
+[
+"military",
+314.82,
+315.279
+],
+[
+"sites",
+315.36,
+315.768
+],
+[
+"in",
+315.84,
+316.197
+],
+[
+"Bahrain",
+316.26,
+316.702
+],
+[
+"and",
+316.78,
+317.154
+],
+[
+"Kuwait.",
+317.22,
+317.662
+]
+],
+"v": {
+"kind": "number",
+"big": "85",
+"sub": "US SITES IRAN SAYS IT HIT (BAHRAIN, KUWAIT)",
+"hit": "eighty-five"
+}
+},
+{
+"i": 64,
+"c": 4,
+"t": "Trump, at the NATO summit. \"I think it's over. I don't want to deal with them any more.\"",
+"a": 318.04,
+"b": 326.225,
+"words": [
+[
+"Trump,",
+318.04,
+318.465
+],
+[
+"at",
+318.54,
+318.897
+],
+[
+"the",
+318.96,
+319.334
+],
+[
+"NATO",
+319.4,
+319.791
+],
+[
+"summit.",
+319.86,
+320.302
+],
+[
+"\"I",
+320.38,
+320.737
+],
+[
+"think",
+320.8,
+321.208
+],
+[
+"it's",
+321.28,
+321.671
+],
+[
+"over.",
+321.74,
+322.148
+],
+[
+"I",
+322.22,
+322.56
+],
+[
+"don't",
+322.62,
+323.028
+],
+[
+"want",
+323.1,
+323.491
+],
+[
+"to",
+323.56,
+323.917
+],
+[
+"deal",
+323.98,
+324.371
+],
+[
+"with",
+324.44,
+324.831
+],
+[
+"them",
+324.9,
+325.291
+],
+[
+"any",
+325.36,
+325.734
+],
+[
+"more.\"",
+325.8,
+326.225
+]
+],
+"v": {
+"kind": "quote",
+"n": 0,
+"date": "JUL 8",
+"said": "I think it's over. I don't want to deal with them any more.",
+"where": "NATO summit, Ankara",
+"src": "Al Jazeera",
+"hit": "over."
+}
+},
+{
+"i": 65,
+"c": 4,
+"t": "This time, \"over\" meant the ceasefire.",
+"a": 326.62,
+"b": 329.473,
+"words": [
+[
+"This",
+326.62,
+327.011
+],
+[
+"time,",
+327.08,
+327.488
+],
+[
+"\"over\"",
+327.56,
+327.985
+],
+[
+"meant",
+328.06,
+328.468
+],
+[
+"the",
+328.54,
+328.914
+],
+[
+"ceasefire.",
+328.98,
+329.473
+]
+],
+"v": {
+"kind": "headline",
+"src": "Al Jazeera",
+"head": "Trump says ceasefire over after US, Iran trade attacks",
+"date": "JUL 8, 2026"
+}
+},
+{
+"i": 66,
+"c": 4,
+"t": "Bitcoin fell about two and a half percent, to around sixty-two thousand.",
+"a": 329.8,
+"b": 335.496,
+"words": [
+[
+"Bitcoin",
+329.8,
+330.242
+],
+[
+"fell",
+330.32,
+330.711
+],
+[
+"about",
+330.78,
+331.188
+],
+[
+"two",
+331.26,
+331.634
+],
+[
+"and",
+331.7,
+332.074
+],
+[
+"a",
+332.14,
+332.48
+],
+[
+"half",
+332.54,
+332.931
+],
+[
+"percent,",
+333.0,
+333.459
+],
+[
+"to",
+333.54,
+333.897
+],
+[
+"around",
+333.96,
+334.385
+],
+[
+"sixty-two",
+334.46,
+334.936
+],
+[
+"thousand.",
+335.02,
+335.496
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-06-01",
+"b": "2026-07-09",
+"mark": "2026-07-08",
+"tag": "\u2248 \u22122.5% \u00b7 \u2248 $62,000",
+"title": "BITCOIN \u00b7 JULY 8",
+"hit": "fell"
+}
+},
+{
+"i": 67,
+"c": 4,
+"t": "July thirteenth. Trump says the blockade is coming back, with a toll on ships.",
+"a": 335.92,
+"b": 342.465,
+"words": [
+[
+"July",
+335.92,
+336.311
+],
+[
+"thirteenth.",
+336.38,
+336.89
+],
+[
+"Trump",
+336.98,
+337.388
+],
+[
+"says",
+337.46,
+337.851
+],
+[
+"the",
+337.92,
+338.294
+],
+[
+"blockade",
+338.36,
+338.819
+],
+[
+"is",
+338.9,
+339.257
+],
+[
+"coming",
+339.32,
+339.745
+],
+[
+"back,",
+339.82,
+340.228
+],
+[
+"with",
+340.3,
+340.691
+],
+[
+"a",
+340.76,
+341.1
+],
+[
+"toll",
+341.16,
+341.551
+],
+[
+"on",
+341.62,
+341.977
+],
+[
+"ships.",
+342.04,
+342.465
+]
+],
+"v": {
+"kind": "headline",
+"src": "NPR",
+"head": "Trump says the U.S. will reinstate its blockade on Iran and charge a toll on ships",
+"date": "JUL 13, 2026"
+}
+},
+{
+"i": 68,
+"c": 4,
+"t": "In two trading days, Brent crude jumps eleven percent.",
+"a": 342.8,
+"b": 347.059,
+"words": [
+[
+"In",
+342.8,
+343.157
+],
+[
+"two",
+343.22,
+343.594
+],
+[
+"trading",
+343.66,
+344.102
+],
+[
+"days,",
+344.18,
+344.588
+],
+[
+"Brent",
+344.66,
+345.068
+],
+[
+"crude",
+345.14,
+345.548
+],
+[
+"jumps",
+345.62,
+346.028
+],
+[
+"eleven",
+346.1,
+346.525
+],
+[
+"percent.",
+346.6,
+347.059
+]
+],
+"v": {
+"kind": "number",
+"big": "+11%",
+"sub": "BRENT CRUDE IN TWO TRADING DAYS",
+"hit": "eleven"
+}
+},
+{
+"i": 69,
+"c": 4,
+"t": "August sixth, in the Oval Office. \"I don't think they can go much longer.\"",
+"a": 347.48,
+"b": 353.939,
+"words": [
+[
+"August",
+347.48,
+347.905
+],
+[
+"sixth,",
+347.98,
+348.405
+],
+[
+"in",
+348.48,
+348.837
+],
+[
+"the",
+348.9,
+349.274
+],
+[
+"Oval",
+349.34,
+349.731
+],
+[
+"Office.",
+349.8,
+350.242
+],
+[
+"\"I",
+350.32,
+350.677
+],
+[
+"don't",
+350.74,
+351.148
+],
+[
+"think",
+351.22,
+351.628
+],
+[
+"they",
+351.7,
+352.091
+],
+[
+"can",
+352.16,
+352.534
+],
+[
+"go",
+352.6,
+352.957
+],
+[
+"much",
+353.02,
+353.411
+],
+[
+"longer.\"",
+353.48,
+353.939
+]
+],
+"v": {
+"kind": "quote",
+"n": 27,
+"date": "AUG 6",
+"said": "I don't think they can go much longer.",
+"where": "Oval Office",
+"src": "The National Desk"
+}
+},
+{
+"i": 70,
+"c": 4,
+"t": "By late August, the war is six months old.",
+"a": 354.34,
+"b": 358.371,
+"words": [
+[
+"By",
+354.34,
+354.697
+],
+[
+"late",
+354.76,
+355.151
+],
+[
+"August,",
+355.22,
+355.662
+],
+[
+"the",
+355.74,
+356.114
+],
+[
+"war",
+356.18,
+356.554
+],
+[
+"is",
+356.62,
+356.977
+],
+[
+"six",
+357.04,
+357.414
+],
+[
+"months",
+357.48,
+357.905
+],
+[
+"old.",
+357.98,
+358.371
+]
+],
+"v": {
+"kind": "calendar",
+"weeks": 26,
+"day": 180,
+"months": 6
+}
+},
+{
+"i": 71,
+"c": 4,
+"t": "It has cost the US more than thirty-seven and a half billion dollars.",
+"a": 358.66,
+"b": 364.659,
+"words": [
+[
+"It",
+358.66,
+359.017
+],
+[
+"has",
+359.08,
+359.454
+],
+[
+"cost",
+359.52,
+359.911
+],
+[
+"the",
+359.98,
+360.354
+],
+[
+"US",
+360.42,
+360.777
+],
+[
+"more",
+360.84,
+361.231
+],
+[
+"than",
+361.3,
+361.691
+],
+[
+"thirty-seven",
+361.76,
+362.287
+],
+[
+"and",
+362.38,
+362.754
+],
+[
+"a",
+362.82,
+363.16
+],
+[
+"half",
+363.22,
+363.611
+],
+[
+"billion",
+363.68,
+364.122
+],
+[
+"dollars.",
+364.2,
+364.659
+]
+],
+"v": {
+"kind": "number",
+"big": "$37.5B+",
+"sub": "COST TO THE US BY LATE AUGUST (AP)",
+"hit": "thirty-seven"
+}
+},
+{
+"i": 72,
+"c": 4,
+"t": "Before the war, about one hundred thirty ships a day crossed Hormuz. On August twenty-sixth, twenty-four did.",
+"a": 365.04,
+"b": 373.291,
+"words": [
+[
+"Before",
+365.04,
+365.465
+],
+[
+"the",
+365.54,
+365.914
+],
+[
+"war,",
+365.98,
+366.371
+],
+[
+"about",
+366.44,
+366.848
+],
+[
+"one",
+366.92,
+367.294
+],
+[
+"hundred",
+367.36,
+367.802
+],
+[
+"thirty",
+367.88,
+368.305
+],
+[
+"ships",
+368.38,
+368.788
+],
+[
+"a",
+368.86,
+369.2
+],
+[
+"day",
+369.26,
+369.634
+],
+[
+"crossed",
+369.7,
+370.142
+],
+[
+"Hormuz.",
+370.22,
+370.662
+],
+[
+"On",
+370.74,
+371.097
+],
+[
+"August",
+371.16,
+371.585
+],
+[
+"twenty-sixth,",
+371.66,
+372.204
+],
+[
+"twenty-four",
+372.3,
+372.81
+],
+[
+"did.",
+372.9,
+373.291
+]
+],
+"v": {
+"kind": "ships",
+"a": 130,
+"b": 24,
+"hit": "twenty-four"
+}
+},
+{
+"i": 73,
+"c": 4,
+"t": "Then the tone changes.",
+"a": 373.72,
+"b": 375.539,
+"words": [
+[
+"Then",
+373.72,
+374.111
+],
+[
+"the",
+374.18,
+374.554
+],
+[
+"tone",
+374.62,
+375.011
+],
+[
+"changes.",
+375.08,
+375.539
+]
+],
+"v": {
+"kind": "number",
+"big": "THE TONE CHANGES",
+"sub": "",
+"small": 1
+}
+},
+{
+"i": 74,
+"c": 4,
+"t": "He's \"not in a hurry\" to get Iran back to the table.",
+"a": 375.84,
+"b": 381.145,
+"words": [
+[
+"He's",
+375.84,
+376.231
+],
+[
+"\"not",
+376.3,
+376.691
+],
+[
+"in",
+376.76,
+377.117
+],
+[
+"a",
+377.18,
+377.52
+],
+[
+"hurry\"",
+377.58,
+378.005
+],
+[
+"to",
+378.08,
+378.437
+],
+[
+"get",
+378.5,
+378.874
+],
+[
+"Iran",
+378.94,
+379.331
+],
+[
+"back",
+379.4,
+379.791
+],
+[
+"to",
+379.86,
+380.217
+],
+[
+"the",
+380.28,
+380.654
+],
+[
+"table.",
+380.72,
+381.145
+]
+],
+"v": {
+"kind": "headline",
+"src": "AP",
+"head": "Trump used to say he saw a quick end to his Iran war, but 6 months later he claims he's in no hurry",
+"date": "AUG 28, 2026"
+}
+},
+{
+"i": 75,
+"c": 4,
+"t": "He posts. \"Mission accomplished. Twenty twenty-six.\"",
+"a": 381.44,
+"b": 384.567,
+"words": [
+[
+"He",
+381.44,
+381.797
+],
+[
+"posts.",
+381.86,
+382.285
+],
+[
+"\"Mission",
+382.36,
+382.819
+],
+[
+"accomplished.",
+382.9,
+383.444
+],
+[
+"Twenty",
+383.54,
+383.965
+],
+[
+"twenty-six.\"",
+384.04,
+384.567
+]
+],
+"v": {
+"kind": "post",
+"text": "MISSION ACCOMPLISHED 2026",
+"where": "Social media post, late August",
+"hit": "accomplished."
+}
+},
+{
+"i": 76,
+"c": 5,
+"t": "Chapter four. After the election.",
+"a": 386.26,
+"b": 388.656,
+"words": [
+[
+"Chapter",
+386.26,
+386.702
+],
+[
+"four.",
+386.78,
+387.188
+],
+[
+"After",
+387.26,
+387.668
+],
+[
+"the",
+387.74,
+388.114
+],
+[
+"election.",
+388.18,
+388.656
+]
+],
+"v": {
+"kind": "chapter",
+"num": "CHAPTER 4",
+"title": "AFTER THE ELECTION",
+"sub": "Sep 1 \u2013 Nov 1"
+}
+},
+{
+"i": 77,
+"c": 5,
+"t": "September ninth, at Joint Base Andrews. \"This war will end immediately after our election.\"",
+"a": 389.14,
+"b": 395.933,
+"words": [
+[
+"September",
+389.14,
+389.616
+],
+[
+"ninth,",
+389.7,
+390.125
+],
+[
+"at",
+390.2,
+390.557
+],
+[
+"Joint",
+390.62,
+391.028
+],
+[
+"Base",
+391.1,
+391.491
+],
+[
+"Andrews.",
+391.56,
+392.019
+],
+[
+"\"This",
+392.1,
+392.508
+],
+[
+"war",
+392.58,
+392.954
+],
+[
+"will",
+393.02,
+393.411
+],
+[
+"end",
+393.48,
+393.854
+],
+[
+"immediately",
+393.92,
+394.43
+],
+[
+"after",
+394.52,
+394.928
+],
+[
+"our",
+395.0,
+395.374
+],
+[
+"election.\"",
+395.44,
+395.933
+]
+],
+"v": {
+"kind": "quote",
+"n": 28,
+"date": "SEP 9",
+"said": "This war will end immediately after our election.",
+"where": "Joint Base Andrews",
+"src": "Al Jazeera",
+"hit": "election."
+}
+},
+{
+"i": 78,
+"c": 5,
+"t": "That week, US oil crossed one hundred dollars again.",
+"a": 396.34,
+"b": 400.565,
+"words": [
+[
+"That",
+396.34,
+396.731
+],
+[
+"week,",
+396.8,
+397.208
+],
+[
+"US",
+397.28,
+397.637
+],
+[
+"oil",
+397.7,
+398.074
+],
+[
+"crossed",
+398.14,
+398.582
+],
+[
+"one",
+398.66,
+399.034
+],
+[
+"hundred",
+399.1,
+399.542
+],
+[
+"dollars",
+399.62,
+400.062
+],
+[
+"again.",
+400.14,
+400.565
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-07-01",
+"b": "2026-09-10",
+"mark": "2026-09-10",
+"tag": "$103.57",
+"title": "US OIL (WTI) \u00b7 SEPTEMBER 10",
+"hit": "hundred"
+}
+},
+{
+"i": 79,
+"c": 5,
+"t": "Three days later, in Ireland. \"I think it'll be right after the midterms, actually.\"",
+"a": 400.98,
+"b": 407.633,
+"words": [
+[
+"Three",
+400.98,
+401.388
+],
+[
+"days",
+401.46,
+401.851
+],
+[
+"later,",
+401.92,
+402.345
+],
+[
+"in",
+402.42,
+402.777
+],
+[
+"Ireland.",
+402.84,
+403.299
+],
+[
+"\"I",
+403.38,
+403.737
+],
+[
+"think",
+403.8,
+404.208
+],
+[
+"it'll",
+404.28,
+404.688
+],
+[
+"be",
+404.76,
+405.117
+],
+[
+"right",
+405.18,
+405.588
+],
+[
+"after",
+405.66,
+406.068
+],
+[
+"the",
+406.14,
+406.514
+],
+[
+"midterms,",
+406.58,
+407.056
+],
+[
+"actually.\"",
+407.14,
+407.633
+]
+],
+"v": {
+"kind": "quote",
+"n": 29,
+"date": "SEP 12",
+"said": "I think it'll be right after the midterms, actually.",
+"where": "Ireland visit",
+"src": "The Post Millennial"
+}
+},
+{
+"i": 80,
+"c": 5,
+"t": "\"And oil will come tumbling down when that happens.\"",
+"a": 408.04,
+"b": 412.256,
+"words": [
+[
+"\"And",
+408.04,
+408.431
+],
+[
+"oil",
+408.5,
+408.874
+],
+[
+"will",
+408.94,
+409.331
+],
+[
+"come",
+409.4,
+409.791
+],
+[
+"tumbling",
+409.86,
+410.319
+],
+[
+"down",
+410.4,
+410.791
+],
+[
+"when",
+410.86,
+411.251
+],
+[
+"that",
+411.32,
+411.711
+],
+[
+"happens.\"",
+411.78,
+412.256
+]
+],
+"v": {
+"kind": "quote",
+"n": 0,
+"date": "SEP 12",
+"said": "And oil will come tumbling down when that happens.",
+"where": "Ireland visit",
+"src": "The Post Millennial",
+"hit": "tumbling"
+}
+},
+{
+"i": 81,
+"c": 5,
+"t": "October second, at a rally in Mobile, Alabama. \"It's going to end very soon, and probably right after the midterms.\"",
+"a": 412.66,
+"b": 422.113,
+"words": [
+[
+"October",
+412.66,
+413.102
+],
+[
+"second,",
+413.18,
+413.622
+],
+[
+"at",
+413.7,
+414.057
+],
+[
+"a",
+414.12,
+414.46
+],
+[
+"rally",
+414.52,
+414.928
+],
+[
+"in",
+415.0,
+415.357
+],
+[
+"Mobile,",
+415.42,
+415.862
+],
+[
+"Alabama.",
+415.94,
+416.399
+],
+[
+"\"It's",
+416.48,
+416.888
+],
+[
+"going",
+416.96,
+417.368
+],
+[
+"to",
+417.44,
+417.797
+],
+[
+"end",
+417.86,
+418.234
+],
+[
+"very",
+418.3,
+418.691
+],
+[
+"soon,",
+418.76,
+419.168
+],
+[
+"and",
+419.24,
+419.614
+],
+[
+"probably",
+419.68,
+420.139
+],
+[
+"right",
+420.22,
+420.628
+],
+[
+"after",
+420.7,
+421.108
+],
+[
+"the",
+421.18,
+421.554
+],
+[
+"midterms.\"",
+421.62,
+422.113
+]
+],
+"v": {
+"kind": "quote",
+"n": 30,
+"date": "OCT 2",
+"said": "It's going to end very soon and probably right after the midterms.",
+"where": "Rally, Mobile, Alabama",
+"src": "Iran International"
+}
+},
+{
+"i": 82,
+"c": 5,
+"t": "October eighth, on Truth Social. The blockade stays.",
+"a": 422.52,
+"b": 426.385,
+"words": [
+[
+"October",
+422.52,
+422.962
+],
+[
+"eighth,",
+423.04,
+423.482
+],
+[
+"on",
+423.56,
+423.917
+],
+[
+"Truth",
+423.98,
+424.388
+],
+[
+"Social.",
+424.46,
+424.902
+],
+[
+"The",
+424.98,
+425.354
+],
+[
+"blockade",
+425.42,
+425.879
+],
+[
+"stays.",
+425.96,
+426.385
+]
+],
+"v": {
+"kind": "post",
+"text": "\u2026the Blockade will remain in full force and effect\u2026",
+"where": "Truth Social \u00b7 Oct 8, 2026",
+"hit": "stays."
+}
+},
+{
+"i": 83,
+"c": 5,
+"t": "But \"we will not be attacking Iran at any time prior to the Midterm Elections.\"",
+"a": 426.66,
+"b": 433.57,
+"words": [
+[
+"But",
+426.66,
+427.034
+],
+[
+"\"we",
+427.1,
+427.474
+],
+[
+"will",
+427.54,
+427.931
+],
+[
+"not",
+428.0,
+428.374
+],
+[
+"be",
+428.44,
+428.797
+],
+[
+"attacking",
+428.86,
+429.336
+],
+[
+"Iran",
+429.42,
+429.811
+],
+[
+"at",
+429.88,
+430.237
+],
+[
+"any",
+430.3,
+430.674
+],
+[
+"time",
+430.74,
+431.131
+],
+[
+"prior",
+431.2,
+431.608
+],
+[
+"to",
+431.68,
+432.037
+],
+[
+"the",
+432.1,
+432.474
+],
+[
+"Midterm",
+432.54,
+432.982
+],
+[
+"Elections.\"",
+433.06,
+433.57
+]
+],
+"v": {
+"kind": "post",
+"text": "\u2026we will not be attacking Iran at any time prior to the Midterm Elections\u2026",
+"where": "Truth Social \u00b7 Oct 8, 2026"
+}
+},
+{
+"i": 84,
+"c": 5,
+"t": "October ninth. \"One way or another, it's gonna be over soon.\"",
+"a": 434.0,
+"b": 439.125,
+"words": [
+[
+"October",
+434.0,
+434.442
+],
+[
+"ninth.",
+434.52,
+434.945
+],
+[
+"\"One",
+435.02,
+435.411
+],
+[
+"way",
+435.48,
+435.854
+],
+[
+"or",
+435.92,
+436.277
+],
+[
+"another,",
+436.34,
+436.799
+],
+[
+"it's",
+436.88,
+437.271
+],
+[
+"gonna",
+437.34,
+437.748
+],
+[
+"be",
+437.82,
+438.177
+],
+[
+"over",
+438.24,
+438.631
+],
+[
+"soon.\"",
+438.7,
+439.125
+]
+],
+"v": {
+"kind": "quote",
+"n": 31,
+"date": "OCT 9",
+"said": "One way or another it's gonna be over soon.",
+"where": "White House event",
+"src": "Times of Israel"
+}
+},
+{
+"i": 85,
+"c": 5,
+"t": "October thirtieth. \"It's going to get wrapped up soon.\"",
+"a": 439.52,
+"b": 443.805,
+"words": [
+[
+"October",
+439.52,
+439.962
+],
+[
+"thirtieth.",
+440.04,
+440.533
+],
+[
+"\"It's",
+440.62,
+441.028
+],
+[
+"going",
+441.1,
+441.508
+],
+[
+"to",
+441.58,
+441.937
+],
+[
+"get",
+442.0,
+442.374
+],
+[
+"wrapped",
+442.44,
+442.882
+],
+[
+"up",
+442.96,
+443.317
+],
+[
+"soon.\"",
+443.38,
+443.805
+]
+],
+"v": {
+"kind": "quote",
+"n": 32,
+"date": "OCT 30",
+"said": "It's going to get wrapped up soon.",
+"where": "KCMO radio",
+"src": "PTI / ThePrint"
+}
+},
+{
+"i": 86,
+"c": 5,
+"t": "November first. Before a rally in Iowa. \"We'll put it away very soon, one way or the other.\"",
+"a": 444.2,
+"b": 452.462,
+"words": [
+[
+"November",
+444.2,
+444.659
+],
+[
+"first.",
+444.74,
+445.165
+],
+[
+"Before",
+445.24,
+445.665
+],
+[
+"a",
+445.74,
+446.08
+],
+[
+"rally",
+446.14,
+446.548
+],
+[
+"in",
+446.62,
+446.977
+],
+[
+"Iowa.",
+447.04,
+447.448
+],
+[
+"\"We'll",
+447.52,
+447.945
+],
+[
+"put",
+448.02,
+448.394
+],
+[
+"it",
+448.46,
+448.817
+],
+[
+"away",
+448.88,
+449.271
+],
+[
+"very",
+449.34,
+449.731
+],
+[
+"soon,",
+449.8,
+450.208
+],
+[
+"one",
+450.28,
+450.654
+],
+[
+"way",
+450.72,
+451.094
+],
+[
+"or",
+451.16,
+451.517
+],
+[
+"the",
+451.58,
+451.954
+],
+[
+"other.\"",
+452.02,
+452.462
+]
+],
+"v": {
+"kind": "quote",
+"n": 33,
+"date": "NOV 1",
+"said": "We'll put it away very soon, one way or the other.",
+"where": "RSBN interview, before the Iowa rally",
+"src": "CBS News"
+}
+},
+{
+"i": 87,
+"c": 5,
+"t": "On stage that night. \"It's going to be over very soon. Very soon.\"",
+"a": 452.86,
+"b": 458.805,
+"words": [
+[
+"On",
+452.86,
+453.217
+],
+[
+"stage",
+453.28,
+453.688
+],
+[
+"that",
+453.76,
+454.151
+],
+[
+"night.",
+454.22,
+454.645
+],
+[
+"\"It's",
+454.72,
+455.128
+],
+[
+"going",
+455.2,
+455.608
+],
+[
+"to",
+455.68,
+456.037
+],
+[
+"be",
+456.1,
+456.457
+],
+[
+"over",
+456.52,
+456.911
+],
+[
+"very",
+456.98,
+457.371
+],
+[
+"soon.",
+457.44,
+457.848
+],
+[
+"Very",
+457.92,
+458.311
+],
+[
+"soon.\"",
+458.38,
+458.805
+]
+],
+"v": {
+"kind": "quote",
+"n": 34,
+"date": "NOV 1",
+"said": "It's going to be over very soon. Very soon.",
+"where": "Iowa rally",
+"src": "Fox News"
+}
+},
+{
+"i": 88,
+"c": 5,
+"t": "And. \"At some point, we're going to have to give them the hammer.\"",
+"a": 459.2,
+"b": 465.139,
+"words": [
+[
+"And.",
+459.2,
+459.591
+],
+[
+"\"At",
+459.66,
+460.034
+],
+[
+"some",
+460.1,
+460.491
+],
+[
+"point,",
+460.56,
+460.985
+],
+[
+"we're",
+461.06,
+461.468
+],
+[
+"going",
+461.54,
+461.948
+],
+[
+"to",
+462.02,
+462.377
+],
+[
+"have",
+462.44,
+462.831
+],
+[
+"to",
+462.9,
+463.257
+],
+[
+"give",
+463.32,
+463.711
+],
+[
+"them",
+463.78,
+464.171
+],
+[
+"the",
+464.24,
+464.614
+],
+[
+"hammer.\"",
+464.68,
+465.139
+]
+],
+"v": {
+"kind": "quote",
+"n": 0,
+"date": "NOV 1",
+"said": "At some point, we're going to have to give them the hammer.",
+"where": "Iowa rally",
+"src": "Fox News",
+"hit": "hammer."
+}
+},
+{
+"i": 89,
+"c": 5,
+"t": "By the end of October, the Pentagon counted twenty-three American service members killed in the war.",
+"a": 465.54,
+"b": 473.251,
+"words": [
+[
+"By",
+465.54,
+465.897
+],
+[
+"the",
+465.96,
+466.334
+],
+[
+"end",
+466.4,
+466.774
+],
+[
+"of",
+466.84,
+467.197
+],
+[
+"October,",
+467.26,
+467.719
+],
+[
+"the",
+467.8,
+468.174
+],
+[
+"Pentagon",
+468.24,
+468.699
+],
+[
+"counted",
+468.78,
+469.222
+],
+[
+"twenty-three",
+469.3,
+469.827
+],
+[
+"American",
+469.92,
+470.379
+],
+[
+"service",
+470.46,
+470.902
+],
+[
+"members",
+470.98,
+471.422
+],
+[
+"killed",
+471.5,
+471.925
+],
+[
+"in",
+472.0,
+472.357
+],
+[
+"the",
+472.42,
+472.794
+],
+[
+"war.",
+472.86,
+473.251
+]
+],
+"v": {
+"kind": "number",
+"big": "23",
+"sub": "US SERVICE MEMBERS KILLED (PENTAGON, OCT 30)",
+"hit": "twenty-three",
+"somber": 1
+}
+},
+{
+"i": 90,
+"c": 5,
+"t": "Oil was up about seventy percent from a year earlier.",
+"a": 473.62,
+"b": 478.219,
+"words": [
+[
+"Oil",
+473.62,
+473.994
+],
+[
+"was",
+474.06,
+474.434
+],
+[
+"up",
+474.5,
+474.857
+],
+[
+"about",
+474.92,
+475.328
+],
+[
+"seventy",
+475.4,
+475.842
+],
+[
+"percent",
+475.92,
+476.362
+],
+[
+"from",
+476.44,
+476.831
+],
+[
+"a",
+476.9,
+477.24
+],
+[
+"year",
+477.3,
+477.691
+],
+[
+"earlier.",
+477.76,
+478.219
+]
+],
+"v": {
+"kind": "number",
+"big": "+70%",
+"sub": "OIL vs A YEAR EARLIER (OCT 30)",
+"hit": "seventy"
+}
+},
+{
+"i": 91,
+"c": 6,
+"t": "Chapter five. Did the market believe him?",
+"a": 479.8,
+"b": 483.091,
+"words": [
+[
+"Chapter",
+479.8,
+480.242
+],
+[
+"five.",
+480.32,
+480.728
+],
+[
+"Did",
+480.8,
+481.174
+],
+[
+"the",
+481.24,
+481.614
+],
+[
+"market",
+481.68,
+482.105
+],
+[
+"believe",
+482.18,
+482.622
+],
+[
+"him?",
+482.7,
+483.091
+]
+],
+"v": {
+"kind": "chapter",
+"num": "CHAPTER 5",
+"title": "DID THE MARKET BELIEVE HIM?",
+"sub": "The test"
+}
+},
+{
+"i": 92,
+"c": 6,
+"t": "Here's the part we didn't expect.",
+"a": 483.56,
+"b": 486.322,
+"words": [
+[
+"Here's",
+483.56,
+483.985
+],
+[
+"the",
+484.06,
+484.434
+],
+[
+"part",
+484.5,
+484.891
+],
+[
+"we",
+484.96,
+485.317
+],
+[
+"didn't",
+485.38,
+485.805
+],
+[
+"expect.",
+485.88,
+486.322
+]
+],
+"v": {
+"kind": "number",
+"big": "THE TEST",
+"sub": "",
+"small": 1
+}
+},
+{
+"i": 93,
+"c": 6,
+"t": "We lined up all thirty-four statements against the daily prices.",
+"a": 486.62,
+"b": 491.442,
+"words": [
+[
+"We",
+486.62,
+486.977
+],
+[
+"lined",
+487.04,
+487.448
+],
+[
+"up",
+487.52,
+487.877
+],
+[
+"all",
+487.94,
+488.314
+],
+[
+"thirty-four",
+488.38,
+488.89
+],
+[
+"statements",
+488.98,
+489.473
+],
+[
+"against",
+489.56,
+490.002
+],
+[
+"the",
+490.08,
+490.454
+],
+[
+"daily",
+490.52,
+490.928
+],
+[
+"prices.",
+491.0,
+491.442
+]
+],
+"v": {
+"kind": "dots",
+"series": "btc",
+"hit": "thirty-four"
+}
+},
+{
+"i": 94,
+"c": 6,
+"t": "He said it on thirty-one different days.",
+"a": 491.86,
+"b": 495.128,
+"words": [
+[
+"He",
+491.86,
+492.217
+],
+[
+"said",
+492.28,
+492.671
+],
+[
+"it",
+492.74,
+493.097
+],
+[
+"on",
+493.16,
+493.517
+],
+[
+"thirty-one",
+493.58,
+494.073
+],
+[
+"different",
+494.16,
+494.636
+],
+[
+"days.",
+494.72,
+495.128
+]
+],
+"v": {
+"kind": "dots",
+"series": "btc",
+"show": "days",
+"hit": "thirty-one"
+}
+},
+{
+"i": 95,
+"c": 6,
+"t": "Bitcoin closed higher on sixteen of them, and lower on fifteen.",
+"a": 495.42,
+"b": 500.579,
+"words": [
+[
+"Bitcoin",
+495.42,
+495.862
+],
+[
+"closed",
+495.94,
+496.365
+],
+[
+"higher",
+496.44,
+496.865
+],
+[
+"on",
+496.94,
+497.297
+],
+[
+"sixteen",
+497.36,
+497.802
+],
+[
+"of",
+497.88,
+498.237
+],
+[
+"them,",
+498.3,
+498.708
+],
+[
+"and",
+498.78,
+499.154
+],
+[
+"lower",
+499.22,
+499.628
+],
+[
+"on",
+499.7,
+500.057
+],
+[
+"fifteen.",
+500.12,
+500.579
+]
+],
+"v": {
+"kind": "bars",
+"a": 16,
+"b": 15,
+"la": "UP DAYS",
+"lb": "DOWN DAYS",
+"title": "BITCOIN ON THE 31 DAYS",
+"hit": "sixteen"
+}
+},
+{
+"i": 96,
+"c": 6,
+"t": "That's a coin flip.",
+"a": 500.9,
+"b": 502.668,
+"words": [
+[
+"That's",
+500.9,
+501.325
+],
+[
+"a",
+501.4,
+501.74
+],
+[
+"coin",
+501.8,
+502.191
+],
+[
+"flip.",
+502.26,
+502.668
+]
+],
+"v": {
+"kind": "coin",
+"hit": "flip."
+}
+},
+{
+"i": 97,
+"c": 6,
+"t": "Oil? In the trading session on or after his statements, US oil went up nineteen times out of twenty-seven.",
+"a": 503.14,
+"b": 512.024,
+"words": [
+[
+"Oil?",
+503.14,
+503.531
+],
+[
+"In",
+503.6,
+503.957
+],
+[
+"the",
+504.02,
+504.394
+],
+[
+"trading",
+504.46,
+504.902
+],
+[
+"session",
+504.98,
+505.422
+],
+[
+"on",
+505.5,
+505.857
+],
+[
+"or",
+505.92,
+506.277
+],
+[
+"after",
+506.34,
+506.748
+],
+[
+"his",
+506.82,
+507.194
+],
+[
+"statements,",
+507.26,
+507.77
+],
+[
+"US",
+507.86,
+508.217
+],
+[
+"oil",
+508.28,
+508.654
+],
+[
+"went",
+508.72,
+509.111
+],
+[
+"up",
+509.18,
+509.537
+],
+[
+"nineteen",
+509.6,
+510.059
+],
+[
+"times",
+510.14,
+510.548
+],
+[
+"out",
+510.62,
+510.994
+],
+[
+"of",
+511.06,
+511.417
+],
+[
+"twenty-seven.",
+511.48,
+512.024
+]
+],
+"v": {
+"kind": "bars",
+"a": 19,
+"b": 8,
+"la": "UP",
+"lb": "DOWN",
+"title": "US OIL (WTI) \u00b7 27 SESSIONS",
+"hit": "nineteen"
+}
+},
+{
+"i": 98,
+"c": 6,
+"t": "The words said \"almost over.\"",
+"a": 512.38,
+"b": 514.705,
+"words": [
+[
+"The",
+512.38,
+512.754
+],
+[
+"words",
+512.82,
+513.228
+],
+[
+"said",
+513.3,
+513.691
+],
+[
+"\"almost",
+513.76,
+514.202
+],
+[
+"over.\"",
+514.28,
+514.705
+]
+],
+"v": {
+"kind": "versus",
+"a": "THE WORDS",
+"av": "\"ALMOST OVER\"",
+"b": "THE OIL PRICE",
+"bv": "\"NOT YET\"",
+"reveal": 0
+}
+},
+{
+"i": 99,
+"c": 6,
+"t": "The oil price kept saying \"not yet.\"",
+"a": 514.98,
+"b": 518.168,
+"words": [
+[
+"The",
+514.98,
+515.354
+],
+[
+"oil",
+515.42,
+515.794
+],
+[
+"price",
+515.86,
+516.268
+],
+[
+"kept",
+516.34,
+516.731
+],
+[
+"saying",
+516.8,
+517.225
+],
+[
+"\"not",
+517.3,
+517.691
+],
+[
+"yet.\"",
+517.76,
+518.168
+]
+],
+"v": {
+"kind": "versus",
+"a": "THE WORDS",
+"av": "\"ALMOST OVER\"",
+"b": "THE OIL PRICE",
+"bv": "\"NOT YET\"",
+"reveal": 1
+}
+},
+{
+"i": 100,
+"c": 6,
+"t": "The biggest moves didn't come from words. They came from events.",
+"a": 518.64,
+"b": 523.822,
+"words": [
+[
+"The",
+518.64,
+519.014
+],
+[
+"biggest",
+519.08,
+519.522
+],
+[
+"moves",
+519.6,
+520.008
+],
+[
+"didn't",
+520.08,
+520.505
+],
+[
+"come",
+520.58,
+520.971
+],
+[
+"from",
+521.04,
+521.431
+],
+[
+"words.",
+521.5,
+521.925
+],
+[
+"They",
+522.0,
+522.391
+],
+[
+"came",
+522.46,
+522.851
+],
+[
+"from",
+522.92,
+523.311
+],
+[
+"events.",
+523.38,
+523.822
+]
+],
+"v": {
+"kind": "events",
+"hit": "events."
+}
+},
+{
+"i": 101,
+"c": 6,
+"t": "The April seventh ceasefire. The June memorandum. The July eighth collapse. The blockade.",
+"a": 524.14,
+"b": 530.536,
+"words": [
+[
+"The",
+524.14,
+524.514
+],
+[
+"April",
+524.58,
+524.988
+],
+[
+"seventh",
+525.06,
+525.502
+],
+[
+"ceasefire.",
+525.58,
+526.073
+],
+[
+"The",
+526.16,
+526.534
+],
+[
+"June",
+526.6,
+526.991
+],
+[
+"memorandum.",
+527.06,
+527.57
+],
+[
+"The",
+527.66,
+528.034
+],
+[
+"July",
+528.1,
+528.491
+],
+[
+"eighth",
+528.56,
+528.985
+],
+[
+"collapse.",
+529.06,
+529.536
+],
+[
+"The",
+529.62,
+529.994
+],
+[
+"blockade.",
+530.06,
+530.536
+]
+],
+"v": {
+"kind": "events",
+"step": 1
+}
+},
+{
+"i": 102,
+"c": 6,
+"t": "From the day before the first strike to November second, bitcoin rose about sixteen percent.",
+"a": 530.96,
+"b": 538.139,
+"words": [
+[
+"From",
+530.96,
+531.351
+],
+[
+"the",
+531.42,
+531.794
+],
+[
+"day",
+531.86,
+532.234
+],
+[
+"before",
+532.3,
+532.725
+],
+[
+"the",
+532.8,
+533.174
+],
+[
+"first",
+533.24,
+533.648
+],
+[
+"strike",
+533.72,
+534.145
+],
+[
+"to",
+534.22,
+534.577
+],
+[
+"November",
+534.64,
+535.099
+],
+[
+"second,",
+535.18,
+535.622
+],
+[
+"bitcoin",
+535.7,
+536.142
+],
+[
+"rose",
+536.22,
+536.611
+],
+[
+"about",
+536.68,
+537.088
+],
+[
+"sixteen",
+537.16,
+537.602
+],
+[
+"percent.",
+537.68,
+538.139
+]
+],
+"v": {
+"kind": "chart",
+"series": "btc",
+"a": "2026-02-27",
+"b": "2026-11-02",
+"mark": "2026-11-02",
+"tag": "+16%",
+"title": "BITCOIN \u00b7 THE WHOLE WAR",
+"hit": "sixteen",
+"full": 1
+}
+},
+{
+"i": 103,
+"c": 6,
+"t": "By late October, US oil was up about fifty-four percent.",
+"a": 538.44,
+"b": 543.099,
+"words": [
+[
+"By",
+538.44,
+538.797
+],
+[
+"late",
+538.86,
+539.251
+],
+[
+"October,",
+539.32,
+539.779
+],
+[
+"US",
+539.86,
+540.217
+],
+[
+"oil",
+540.28,
+540.654
+],
+[
+"was",
+540.72,
+541.094
+],
+[
+"up",
+541.16,
+541.517
+],
+[
+"about",
+541.58,
+541.988
+],
+[
+"fifty-four",
+542.06,
+542.553
+],
+[
+"percent.",
+542.64,
+543.099
+]
+],
+"v": {
+"kind": "chart",
+"series": "wti",
+"a": "2026-02-27",
+"b": "2026-10-27",
+"mark": "2026-10-27",
+"tag": "+54%",
+"title": "US OIL (WTI) \u00b7 THE WHOLE WAR",
+"hit": "fifty-four",
+"full": 1
+}
+},
+{
+"i": 104,
+"c": 7,
+"t": "His side, and the count.",
+"a": 544.63,
+"b": 546.855,
+"words": [
+[
+"His",
+544.63,
+545.004
+],
+[
+"side,",
+545.07,
+545.478
+],
+[
+"and",
+545.55,
+545.924
+],
+[
+"the",
+545.99,
+546.364
+],
+[
+"count.",
+546.43,
+546.855
+]
+],
+"v": {
+"kind": "chapter",
+"num": "FAIRNESS",
+"title": "HIS SIDE AND THE COUNT",
+"sub": ""
+}
+},
+{
+"i": 105,
+"c": 7,
+"t": "Trump has his own answer.",
+"a": 547.33,
+"b": 549.572,
+"words": [
+[
+"Trump",
+547.33,
+547.738
+],
+[
+"has",
+547.81,
+548.184
+],
+[
+"his",
+548.25,
+548.624
+],
+[
+"own",
+548.69,
+549.064
+],
+[
+"answer.",
+549.13,
+549.572
+]
+],
+"v": {
+"kind": "number",
+"big": "HIS ANSWER",
+"sub": "",
+"small": 1
+}
+},
+{
+"i": 106,
+"c": 7,
+"t": "On October first, he said his \"four to six weeks\" meant the Iran nuclear threat, which he says he ended \"in one night.\"",
+"a": 549.87,
+"b": 560.472,
+"words": [
+[
+"On",
+549.87,
+550.227
+],
+[
+"October",
+550.29,
+550.732
+],
+[
+"first,",
+550.81,
+551.235
+],
+[
+"he",
+551.31,
+551.667
+],
+[
+"said",
+551.73,
+552.121
+],
+[
+"his",
+552.19,
+552.564
+],
+[
+"\"four",
+552.63,
+553.038
+],
+[
+"to",
+553.11,
+553.467
+],
+[
+"six",
+553.53,
+553.904
+],
+[
+"weeks\"",
+553.97,
+554.395
+],
+[
+"meant",
+554.47,
+554.878
+],
+[
+"the",
+554.95,
+555.324
+],
+[
+"Iran",
+555.39,
+555.781
+],
+[
+"nuclear",
+555.85,
+556.292
+],
+[
+"threat,",
+556.37,
+556.812
+],
+[
+"which",
+556.89,
+557.298
+],
+[
+"he",
+557.37,
+557.727
+],
+[
+"says",
+557.79,
+558.181
+],
+[
+"he",
+558.25,
+558.607
+],
+[
+"ended",
+558.67,
+559.078
+],
+[
+"\"in",
+559.15,
+559.524
+],
+[
+"one",
+559.59,
+559.964
+],
+[
+"night.\"",
+560.03,
+560.472
+]
+],
+"v": {
+"kind": "quote",
+"n": 0,
+"date": "OCT 1",
+"said": "Four to six weeks \u2026 meant the nuclear threat, ended \"in one night.\"",
+"where": "His explanation",
+"src": "Poynter",
+"paraphrase": 1
+}
+},
+{
+"i": 107,
+"c": 7,
+"t": "Other counts use other rules.",
+"a": 560.91,
+"b": 563.235,
+"words": [
+[
+"Other",
+560.91,
+561.318
+],
+[
+"counts",
+561.39,
+561.815
+],
+[
+"use",
+561.89,
+562.264
+],
+[
+"other",
+562.33,
+562.738
+],
+[
+"rules.",
+562.81,
+563.235
+]
+],
+"v": {
+"kind": "counts",
+"step": 0
+}
+},
+{
+"i": 108,
+"c": 7,
+"t": "Axios counted twelve signals by March thirtieth.",
+"a": 563.53,
+"b": 566.943,
+"words": [
+[
+"Axios",
+563.53,
+563.938
+],
+[
+"counted",
+564.01,
+564.452
+],
+[
+"twelve",
+564.53,
+564.955
+],
+[
+"signals",
+565.03,
+565.472
+],
+[
+"by",
+565.55,
+565.907
+],
+[
+"March",
+565.97,
+566.378
+],
+[
+"thirtieth.",
+566.45,
+566.943
+]
+],
+"v": {
+"kind": "counts",
+"step": 1,
+"hit": "twelve"
+}
+},
+{
+"i": 109,
+"c": 7,
+"t": "C N N counted thirty-eight times he said a deal was close, by June ninth.",
+"a": 567.23,
+"b": 574.035,
+"words": [
+[
+"C",
+567.23,
+567.57
+],
+[
+"N",
+567.63,
+567.97
+],
+[
+"N",
+568.03,
+568.37
+],
+[
+"counted",
+568.43,
+568.872
+],
+[
+"thirty-eight",
+568.95,
+569.477
+],
+[
+"times",
+569.57,
+569.978
+],
+[
+"he",
+570.05,
+570.407
+],
+[
+"said",
+570.47,
+570.861
+],
+[
+"a",
+570.93,
+571.27
+],
+[
+"deal",
+571.33,
+571.721
+],
+[
+"was",
+571.79,
+572.164
+],
+[
+"close,",
+572.23,
+572.655
+],
+[
+"by",
+572.73,
+573.087
+],
+[
+"June",
+573.15,
+573.541
+],
+[
+"ninth.",
+573.61,
+574.035
+]
+],
+"v": {
+"kind": "counts",
+"step": 2,
+"hit": "thirty-eight"
+}
+},
+{
+"i": 110,
+"c": 7,
+"t": "Our rule. One dated, public statement per place, per day.",
+"a": 574.33,
+"b": 579.021,
+"words": [
+[
+"Our",
+574.33,
+574.704
+],
+[
+"rule.",
+574.77,
+575.178
+],
+[
+"One",
+575.25,
+575.624
+],
+[
+"dated,",
+575.69,
+576.115
+],
+[
+"public",
+576.19,
+576.615
+],
+[
+"statement",
+576.69,
+577.166
+],
+[
+"per",
+577.25,
+577.624
+],
+[
+"place,",
+577.69,
+578.115
+],
+[
+"per",
+578.19,
+578.564
+],
+[
+"day.",
+578.63,
+579.021
+]
+],
+"v": {
+"kind": "counts",
+"step": 3
+}
+},
+{
+"i": 111,
+"c": 7,
+"t": "All thirty-four sources are in the description.",
+"a": 579.31,
+"b": 582.697,
+"words": [
+[
+"All",
+579.31,
+579.684
+],
+[
+"thirty-four",
+579.75,
+580.26
+],
+[
+"sources",
+580.35,
+580.792
+],
+[
+"are",
+580.87,
+581.244
+],
+[
+"in",
+581.31,
+581.667
+],
+[
+"the",
+581.73,
+582.104
+],
+[
+"description.",
+582.17,
+582.697
+]
+],
+"v": {
+"kind": "counts",
+"step": 4
+}
+},
+{
+"i": 112,
+"c": 8,
+"t": "So what's the lesson for traders?",
+"a": 584.29,
+"b": 587.049,
+"words": [
+[
+"So",
+584.29,
+584.647
+],
+[
+"what's",
+584.71,
+585.135
+],
+[
+"the",
+585.21,
+585.584
+],
+[
+"lesson",
+585.65,
+586.075
+],
+[
+"for",
+586.15,
+586.524
+],
+[
+"traders?",
+586.59,
+587.049
+]
+],
+"v": {
+"kind": "chapter",
+"num": "THE LESSON",
+"title": "FOR TRADERS",
+"sub": ""
+}
+},
+{
+"i": 113,
+"c": 8,
+"t": "One. A promise isn't a price.",
+"a": 587.43,
+"b": 590.115,
+"words": [
+[
+"One.",
+587.43,
+587.821
+],
+[
+"A",
+587.89,
+588.23
+],
+[
+"promise",
+588.29,
+588.732
+],
+[
+"isn't",
+588.81,
+589.218
+],
+[
+"a",
+589.29,
+589.63
+],
+[
+"price.",
+589.69,
+590.115
+]
+],
+"v": {
+"kind": "lesson",
+"step": 1,
+"hit": "price."
+}
+},
+{
+"i": 114,
+"c": 8,
+"t": "Bitcoin treated thirty-four \"soons\" like noise.",
+"a": 590.39,
+"b": 593.435,
+"words": [
+[
+"Bitcoin",
+590.39,
+590.832
+],
+[
+"treated",
+590.91,
+591.352
+],
+[
+"thirty-four",
+591.43,
+591.94
+],
+[
+"\"soons\"",
+592.03,
+592.472
+],
+[
+"like",
+592.55,
+592.941
+],
+[
+"noise.",
+593.01,
+593.435
+]
+],
+"v": {
+"kind": "lesson",
+"step": 1
+}
+},
+{
+"i": 115,
+"c": 8,
+"t": "Two. Watch what you can measure.",
+"a": 593.85,
+"b": 596.589,
+"words": [
+[
+"Two.",
+593.85,
+594.241
+],
+[
+"Watch",
+594.31,
+594.718
+],
+[
+"what",
+594.79,
+595.181
+],
+[
+"you",
+595.25,
+595.624
+],
+[
+"can",
+595.69,
+596.064
+],
+[
+"measure.",
+596.13,
+596.589
+]
+],
+"v": {
+"kind": "lesson",
+"step": 2
+}
+},
+{
+"i": 116,
+"c": 8,
+"t": "Ships through Hormuz. The blockade. A signed paper. Those moved the market.",
+"a": 596.87,
+"b": 602.632,
+"words": [
+[
+"Ships",
+596.87,
+597.278
+],
+[
+"through",
+597.35,
+597.792
+],
+[
+"Hormuz.",
+597.87,
+598.312
+],
+[
+"The",
+598.39,
+598.764
+],
+[
+"blockade.",
+598.83,
+599.306
+],
+[
+"A",
+599.39,
+599.73
+],
+[
+"signed",
+599.79,
+600.215
+],
+[
+"paper.",
+600.29,
+600.715
+],
+[
+"Those",
+600.79,
+601.198
+],
+[
+"moved",
+601.27,
+601.678
+],
+[
+"the",
+601.75,
+602.124
+],
+[
+"market.",
+602.19,
+602.632
+]
+],
+"v": {
+"kind": "lesson",
+"step": 2
+}
+},
+{
+"i": 117,
+"c": 8,
+"t": "Three. When someone says \"soon,\" ask: soon compared to what?",
+"a": 603.05,
+"b": 607.798,
+"words": [
+[
+"Three.",
+603.05,
+603.475
+],
+[
+"When",
+603.55,
+603.941
+],
+[
+"someone",
+604.01,
+604.452
+],
+[
+"says",
+604.53,
+604.921
+],
+[
+"\"soon,\"",
+604.99,
+605.432
+],
+[
+"ask:",
+605.51,
+605.901
+],
+[
+"soon",
+605.97,
+606.361
+],
+[
+"compared",
+606.43,
+606.889
+],
+[
+"to",
+606.97,
+607.327
+],
+[
+"what?",
+607.39,
+607.798
+]
+],
+"v": {
+"kind": "lesson",
+"step": 3
+}
+},
+{
+"i": 118,
+"c": 8,
+"t": "Four to five weeks has now lasted more than eight months.",
+"a": 608.11,
+"b": 613.152,
+"words": [
+[
+"Four",
+608.11,
+608.501
+],
+[
+"to",
+608.57,
+608.927
+],
+[
+"five",
+608.99,
+609.381
+],
+[
+"weeks",
+609.45,
+609.858
+],
+[
+"has",
+609.93,
+610.304
+],
+[
+"now",
+610.37,
+610.744
+],
+[
+"lasted",
+610.81,
+611.235
+],
+[
+"more",
+611.31,
+611.701
+],
+[
+"than",
+611.77,
+612.161
+],
+[
+"eight",
+612.23,
+612.638
+],
+[
+"months.",
+612.71,
+613.152
+]
+],
+"v": {
+"kind": "calendar",
+"weeks": 35,
+"day": 248,
+"months": 8,
+"hit": "eight"
+}
+},
+{
+"i": 119,
+"c": 8,
+"t": "The midterms were on November third. He said the war would end right after.",
+"a": 613.68,
+"b": 620.165,
+"words": [
+[
+"The",
+613.68,
+614.054
+],
+[
+"midterms",
+614.12,
+614.579
+],
+[
+"were",
+614.66,
+615.051
+],
+[
+"on",
+615.12,
+615.477
+],
+[
+"November",
+615.54,
+615.999
+],
+[
+"third.",
+616.08,
+616.505
+],
+[
+"He",
+616.58,
+616.937
+],
+[
+"said",
+617.0,
+617.391
+],
+[
+"the",
+617.46,
+617.834
+],
+[
+"war",
+617.9,
+618.274
+],
+[
+"would",
+618.34,
+618.748
+],
+[
+"end",
+618.82,
+619.194
+],
+[
+"right",
+619.26,
+619.668
+],
+[
+"after.",
+619.74,
+620.165
+]
+],
+"v": {
+"kind": "event",
+"date": "NOV 3, 2026",
+"head": "Midterm elections",
+"tag": "DAY 249"
+}
+},
+{
+"i": 120,
+"c": 8,
+"t": "Will it end soon this time?",
+"a": 620.64,
+"b": 623.288,
+"words": [
+[
+"Will",
+620.64,
+621.031
+],
+[
+"it",
+621.1,
+621.457
+],
+[
+"end",
+621.52,
+621.894
+],
+[
+"soon",
+621.96,
+622.351
+],
+[
+"this",
+622.42,
+622.811
+],
+[
+"time?",
+622.88,
+623.288
+]
+],
+"v": {
+"kind": "number",
+"big": "WILL IT END SOON THIS TIME?",
+"sub": "",
+"small": 1,
+"q": 1
+}
+},
+{
+"i": 121,
+"c": 8,
+"t": "Tell us in the comments.",
+"a": 623.86,
+"b": 626.076,
+"words": [
+[
+"Tell",
+623.86,
+624.251
+],
+[
+"us",
+624.32,
+624.677
+],
+[
+"in",
+624.74,
+625.097
+],
+[
+"the",
+625.16,
+625.534
+],
+[
+"comments.",
+625.6,
+626.076
+]
+],
+"v": {
+"kind": "number",
+"big": "TELL US IN THE COMMENTS",
+"sub": "",
+"small": 1
+}
+},
+{
+"i": 122,
+"c": 8,
+"t": "Follow Chain Secrets. Every chart hides a story.",
+"a": 626.66,
+"b": 630.445,
+"words": [
+[
+"Follow",
+626.66,
+627.085
+],
+[
+"Chain",
+627.16,
+627.568
+],
+[
+"Secrets.",
+627.64,
+628.099
+],
+[
+"Every",
+628.18,
+628.588
+],
+[
+"chart",
+628.66,
+629.068
+],
+[
+"hides",
+629.14,
+629.548
+],
+[
+"a",
+629.62,
+629.96
+],
+[
+"story.",
+630.02,
+630.445
+]
+],
+"v": {
+"kind": "end"
+}
+}
+]
+}

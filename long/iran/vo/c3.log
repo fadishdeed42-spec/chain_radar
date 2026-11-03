@@ -1,0 +1,73 @@
+json c7836a5629bb
+   take 1: score +0.78  wer 0.00  end -4.1st  1.9w/s  rushed ['Chapter']  heard: Chapter 2. Days Away.
+   take 2: score +0.95  wer 0.00  end -4.5st  2.2w/s  rushed ['Chapter']  heard: Chapter 2 Days Away
+   take 3: score +1.08  wer 0.00  end -1.8st  2.4w/s  rushed ['Chapter']  heard: Chapter 2, Days Away.
+   take 4: score +0.92  wer 0.00  end -7.5st  2.1w/s  rushed ['Chapter']  heard: Chapter 2, Days Away.
+scene 1: 1.66s ex 0.6  chosen wer 0.00
+   take 1: score -0.98  wer 0.00  end +0.0st  2.3w/s  rushed ['ceasefire']  heard: The ceasefire mostly held.
+   take 2: score -1.09  wer 0.00  end +0.0st  2.1w/s  rushed ['ceasefire']  heard: The ceasefire mostly held.
+   take 3: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['ceasefire']  heard: The ceasefire mostly held.
+   take 4: score -0.99  wer 0.00  end +0.0st  2.3w/s  rushed ['ceasefire']  heard: The ceasefire mostly held.
+scene 2: 1.74s ex 0.56  chosen wer 0.00
+   take 1: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['Islamabad']  heard: But talks in Islamabad failed, and on April 13, a U.S. naval blockade 
+   take 2: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['Islamabad']  heard: But talks in Islamabad failed, and on April 13, a U.S. naval blockade 
+   take 3: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['Islamabad']  heard: But talks in Islamabad failed, and on April 13, a U.S. naval blockade 
+   take 4: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['Islamabad']  heard: But talks in Islamabad failed, and on April 13, a U.S. naval blockade 
+scene 3: 6.71s ex 0.62  chosen wer 0.00
+   take 1: score -0.92  wer 0.00  end +0.0st  2.8w/s  rushed ['ceasefire']  heard: On April 21st, the ceasefire was extended with no end date.
+   take 2: score -0.88  wer 0.00  end +0.0st  2.7w/s  rushed ['ceasefire']  heard: On April 21st, the ceasefire was extended with no end date.
+   take 3: score -0.80  wer 0.00  end +0.0st  2.6w/s  rushed ['ceasefire']  heard: On April 21st, the ceasefire was extended with no end date.
+   take 4: score -0.11  wer 0.00  end +0.0st  2.4w/s  heard: On April 21st, the ceasefire was extended with no end date.
+scene 4: 4.56s ex 0.56  chosen wer 0.00
+   take 1: score +1.17  wer 0.00  end -2.5st  2.5w/s  rushed ['called']  heard: In May, the US struck Iran twice more and called it self-defense.
+   take 2: score +1.15  wer 0.00  end -7.3st  2.7w/s  rushed ['called']  heard: In May, the US struck Iran twice more and called it self-defense.
+   take 3: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['struck']  heard: In May, the U.S. struck Iran twice more and called it self-defense.
+   take 4: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['called']  heard: In May, the US struck Iran twice more and called it self-defense.
+scene 5: 4.71s ex 0.6  chosen wer 0.00
+   take 1: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: and the deal was always almost done.
+   take 2: score -0.38  wer 0.00  end +0.0st  3.0w/s  heard: and the deal was always almost done.
+   take 3: score -0.94  wer 0.00  end +0.0st  3.3w/s  heard: and the deal was always almost done.
+scene 6: 2.49s ex 0.64  chosen wer 0.00
+   take 1: score -0.93  wer 0.00  end +0.0st  2.4w/s  rushed ['announced']  heard: May 23rd, details will be announced shortly.
+   take 2: score -1.01  wer 0.00  end +0.0st  2.2w/s  rushed ['announced']  heard: May 23rd, details will be announced shortly.
+   take 3: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['announced']  heard: May 23rd, details will be announced shortly.
+   take 4: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['announced']  heard: May 23rd, details will be announced shortly.
+scene 7: 2.94s ex 0.62  chosen wer 0.00
+   take 1: score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['agreement']  heard: June 1st, an agreement over the next week.
+   take 2: score -0.87  wer 0.00  end +0.0st  2.7w/s  rushed ['agreement']  heard: June 1st, an agreement over the next week.
+   take 3: score +1.15  wer 0.00  end -6.7st  2.5w/s  rushed ['agreement']  heard: June 1st, an agreement over the next week.
+   take 4: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['agreement']  heard: June 1st, an agreement over the next week.
+scene 8: 3.18s ex 0.62  chosen wer 0.00
+   take 1: score -1.32  wer 0.00  end +0.0st  3.1w/s  rushed ['signing']  heard: June 9th, signing could be in two or three days.
+   take 2: score -1.40  wer 0.00  end +0.0st  3.1w/s  rushed ['signing']  heard: June 9th, signing could be in two or three days.
+   take 3: score -1.10  wer 0.00  end +0.0st  3.0w/s  rushed ['signing']  heard: June 9th, signing could be in two or three days.
+   take 4: score -0.63  wer 0.00  end +0.0st  3.1w/s  heard: June 9th, signing could be in two or three days.
+scene 9: 3.21s ex 0.62  chosen wer 0.00
+   take 1: score -1.19  wer 0.00  end +0.0st  3.0w/s  rushed ['Bitcoin']  heard: Bitcoin didn't wait for it. From May 31st to June 2nd, it fell more th
+   take 2: score -0.54  wer 0.00  end +0.0st  3.1w/s  heard: Bitcoin didn't wait for it. From May 31st to June 2nd, it fell more th
+   take 3: score -1.18  wer 0.00  end +0.0st  3.0w/s  rushed ['Bitcoin']  heard: Bitcoin didn't wait for it. From May 31st to June 2nd, it fell more th
+   take 4: score -1.70  wer 0.00  end +0.0st  3.2w/s  rushed ['Bitcoin']  heard: Bitcoin didn't wait for it. From May 31st to June 2nd, it fell more th
+scene 10: 5.54s ex 0.66  chosen wer 0.00
+   take 1: score +1.97  wer 0.00  end -2.5st  2.6w/s  heard: By June 30th, it was at 58,500.
+scene 11: 3.92s ex 0.62  chosen wer 0.00
+   take 1: score +1.05  wer 0.00  end -1.6st  2.4w/s  rushed ['Finally,']  heard: June 17th.  Finally, a signed paper, the Islamabad Memorandum with 60 
+   take 2: score +0.89  wer 0.00  end -4.3st  2.1w/s  rushed ['negotiate.']  heard: June 17th, finally, a signed paper. The Islamabad Memorandum with 60 d
+   take 3: score -1.35  wer 0.00  end -5.7st  2.4w/s  rushed ['Finally,', 'signed', 'Islamabad', 'negotiate.']  heard: June 17th. Finally, a signed paper. The Islamabad Memorandum with 60 d
+   take 4: score -2.60  wer 0.00  end -0.9st  2.3w/s  rushed ['finally,', 'signed', 'Islamabad']  heard: June 17th, finally, a signed paper.  The Islamabad Memorandum with 60 
+scene 12: 5.95s ex 0.64  chosen wer 0.00
+   take 1: score -0.47  wer 0.00  end +3.4st  2.3w/s  heard: The next day, the US ended the blockade, and Hormuz reopened.
+   take 2: score +1.95  wer 0.00  end -11.8st  2.7w/s  heard: The next day, the U.S. ended the blockade and Hormuz reopened.
+scene 13: 4.11s ex 0.62  chosen wer 0.00
+   take 1: score -0.65  wer 0.00  end +0.0st  3.1w/s  heard: By early July, oil had slid below $70.
+   take 2: score -0.12  wer 0.00  end +0.0st  2.8w/s  heard: By early July, oil had slid below $70.
+   take 3: score -0.69  wer 0.00  end +0.0st  3.1w/s  heard: By early July, oil had slid below $70.
+scene 14: 3.22s ex 0.6  chosen wer 0.00
+   take 1: score -1.48  wer 0.00  end +0.0st  3.1w/s  rushed ['looked']  heard: For three weeks, it looked over.
+   take 2: score -0.91  wer 0.00  end -0.1st  2.8w/s  rushed ['looked']  heard: For three weeks, it looked over.
+   take 3: score -1.17  wer 0.00  end +0.0st  3.0w/s  rushed ['looked']  heard: For three weeks, it looked over.
+   take 4: score +0.35  wer 0.00  end -2.6st  3.2w/s  rushed ['looked']  heard: For three weeks, it looked over.
+scene 15: 1.86s ex 0.58  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+60.94s, force-aligned 148 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/iran/voice/c3p.wav
+flow: 1 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.66, 0.57, 0.58, 0.55, 0.67, 0.56, 0.73, 0.8, 0.69, 0.58, 0.61, 0.54, 0.55, 0.69]
