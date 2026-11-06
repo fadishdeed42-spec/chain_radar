@@ -1433,7 +1433,7 @@ def viral_alert(st, sc, lead, coin, srcs, g, age, pr=None):
 
 
 # ---------------- easy daily use: menu, briefings, feedback, tracking, weekly report ----------------
-MENU = [['📰 Top stories', '💬 Reply to a post'], ['🎬 Studio', '📖 Story'], ['📜 Today']]
+MENU = [['📰 Top stories', '💬 Reply to a post'], ['🎬 Studio', '📖 Story']]
 MENU_V = 7
 
 
@@ -1544,12 +1544,7 @@ def scheduler(tgs):
             tgs[key] = day
             return True
         return False
-    if due('otd_day', 12):
-        jobs.append(lambda: on_this_day(tgs))
-    if due('kit', 15):
-        jobs.append(lambda: daily_kit(tgs))
-    if due('brief17', 20):
-        jobs.append(lambda: brief(tgs, '🌆 <b>Evening briefing</b>'))
+    # Nov 6 2026: owner removed the 12:00 on-this-day, 15:00 kit and 20:00 briefing messages (they hung)
     for j in jobs:
         def run(j=j):
             try:
@@ -2399,7 +2394,7 @@ def show_script(jid, tgs):
     d = tgs['shorts'][jid]; sb = d['sb']
     sb, _ = sstory.check(sb, strict=False); d['sb'] = sb
     ch = sb.get('chart')
-    m = (f'🎬 <b>Script</b> · #{next_ep(tgs, peek=True) if not sb.get("ep") else sb["ep"]} {E(sb.get("title", ""))}\n'
+    m = (f'🎬 <b>Script</b> · {E(sb.get("title", ""))}\n'
          f'{TONE_EMO[sb["tone"]]} {sb["tone"]} · ⏱ {LEN_NAME[sb["length"]]} · {"✅" if sb.get("length_ok") else "⚠️"} ~{sstory.mmss(sb["est_secs"])} ({sb["words"]} words)'
          + (f' · real {ch["symbol"]} chart {ch["start"]} → {ch["end"]}' if ch else '') + '\n')
     for n, s in enumerate(sb['scenes'], 1):
@@ -2630,7 +2625,7 @@ def app_action(data, tgs):
     tgs['short_edit'] = jid
     if a == 'save':
         save_job(jid, sb, 'draft'); studio_index(tgs); git_sync(force=True)
-        tg(f'💾 Saved <b>#{sb.get("ep") or next_ep(tgs, peek=True)} {E(sb.get("title", ""))}</b> · ~{sb["est_secs"]}s, {len(sb["scenes"])} scenes'
+        tg(f'💾 Saved <b>{E(sb.get("title", ""))}</b> · ~{sb["est_secs"]}s, {len(sb["scenes"])} scenes'
            + ('\n⚠️ ' + E('; '.join(probs)) if probs else ''))
     elif a == 'voice':
         if p.get('force'):
@@ -2644,19 +2639,17 @@ def app_action(data, tgs):
 HELP = ('🕵️ <b>Chain Secrets bot</b>\n\n'
         '<b>Stories</b>\n'
         '/top — hottest crypto stories right now → tap one for a full post, then pick its look\n'
-        '/viral — the ONE best thing to post right now, and why\n'
         '/story <i>topic</i> — X thread + real chart (only when it matters) + sources, then a Short in one tap\n'
-        '/today — an old story from this date, same package\n'
         '/short <i>story</i> — a finished YouTube Short (1 min). Add 1.5min / 2min for longer\n'
-        '/ep — which Short number is next\n\n'
+        '\n'
         '<b>Replies</b>\n'
         '• <b>Send an X post link</b> → 3 reply ideas to copy (facts checked, tells you if the post is too old)\n\n'
         '<b>Coins</b>\n'
         '• <b>Type any coin</b> (<code>$PEPE</code>, <code>chart sol</code>) → real chart + a ready sentence\n\n'
         '<b>Alerts</b>\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
-COMMANDS = [('top', 'Hottest stories now'), ('viral', 'The best thing to post right now'), ('story', 'Full story package: /story Do Kwon'), ('today', 'Old story from this date'),
-            ('short', 'Make a YouTube Short: /short story'), ('reply', 'Reply ideas: /reply <link>'), ('ep', 'Next Short number'),
+COMMANDS = [('top', 'Hottest stories now'), ('story', 'Full story package: /story Do Kwon'), 
+            ('short', 'Make a YouTube Short: /short story'), ('reply', 'Reply ideas: /reply <link>'),
             ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
 
@@ -2985,7 +2978,7 @@ def handle(u, tgs):
     parts = t.split(); c = parts[0].lower().split('@')[0]; args = parts[1:]
     fwd = msg.get('forward_origin') or {}
     fwd_src = (fwd.get('chat') or {}).get('title') or (fwd.get('sender_user') or {}).get('first_name') or fwd.get('sender_user_name')
-    MAP = {'📰 Top stories': '/top', '📖 Story': '/story', '📜 Today': '/today'}
+    MAP = {'📰 Top stories': '/top', '📖 Story': '/story'}
     if t in MAP:
         c, args = MAP[t], []
     if tgs.get('short_edit') and re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) and short_edit(t, tgs):
@@ -2997,11 +2990,6 @@ def handle(u, tgs):
         tg('💬 Share or paste the X post link here and I\'ll write the best reply.'); return
     if c in ('/start', '/help', 'help'):
         tg(HELP); send_menu()
-    elif c == '/ep':
-        if args and args[0].isdigit():
-            tgs['short_ep'] = int(args[0]) - 1; tg(f'✅ The next Short will be <b>#{int(args[0])}</b>.')
-        else:
-            tg(f'The next Short will be <b>#{next_ep(tgs, peek=True)}</b>. Change it with <code>/ep 30</code>.')
     elif c == '/short':
         L, rest, skip = 60, [], False
         for a in args:
@@ -3019,10 +3007,6 @@ def handle(u, tgs):
         else:
             tg('🎬 Send <code>/short</code> + a story, e.g. <code>/short Mt Gox collapse</code>. Add a length: <code>/short 2min Bitcoin pizza</code>, '
                '<code>/short 1min FTX</code>, <code>/short 2min Silk Road</code> (default 45s).')
-    elif c == '/viral':
-        ack('⏳ Finding the one best thing to post right now…')
-        try: cmd_viral(tgs)
-        finally: unack()
     elif c in ('/top', 'top', 'news'):
         if not send_cached_top():
             ack('⏳ Getting the hottest stories…')
@@ -3041,9 +3025,7 @@ def handle(u, tgs):
     elif not fwd and len(t) <= 40 and coin_query(t):
         q = coin_query(t); ack(f'⏳ Pulling the {q.upper()} chart…'); coin_view(q, tgs)
     elif c == '/story':
-        research_story(' '.join(args), tgs) if args else tg('📖 Send <code>/story</code> + a topic, e.g. <code>/story Do Kwon</code>. For an old story from this date use /today.')
-    elif c == '/today':
-        cmd_today(tgs)
+        research_story(' '.join(args), tgs) if args else tg('📖 Send <code>/story</code> + a topic, e.g. <code>/story Do Kwon</code>.')
     elif c == '/mute':
         hrs = float(args[0]) if args and re.match(r'^\d+(\.\d+)?$', args[0]) else 3
         tgs['mute_until'] = NOW + hrs * 3600; tg(f'🔕 Alerts paused for {hrs:g}h. /unmute to resume.')
@@ -3057,10 +3039,9 @@ def handle(u, tgs):
 
 from concurrent.futures import ThreadPoolExecutor as _TPE
 POOL = _TPE(3)                                                            # up to 3 slow requests at once; the chat never waits behind one
-INSTANT = ('/help', '/start', 'help', '/ep', '/mute', '/unmute', '💬 Reply to a post', '🎬 Studio', '🎬 Make a Short')
-SLOW_HINT = {'/top': '⏳ Getting the hottest stories…', '📰 Top stories': '⏳ Getting the hottest stories…', '/viral': '⏳ Finding the best thing to post right now…',
-             '/story': '⏳ Researching the story (real articles, about a minute)…', '📖 Story': '⏳ Researching…', '/today': '⏳ Finding a story from this date…',
-             '📜 Today': '⏳ Finding a story from this date…'}
+INSTANT = ('/help', '/start', 'help', '/mute', '/unmute', '💬 Reply to a post', '🎬 Studio', '🎬 Make a Short')
+SLOW_HINT = {'/top': '⏳ Getting the hottest stories…', '📰 Top stories': '⏳ Getting the hottest stories…',
+             '/story': '⏳ Researching the story (real articles, about a minute)…', '📖 Story': '⏳ Researching…',}
 
 
 def is_instant(u):
