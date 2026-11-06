@@ -1,0 +1,41 @@
+json efe1c8ec2c0f
+   take 1: score +0.34  wer 0.11  end -3.9st  2.3w/s  rushed ['programmer']  heard: May 2010. A programmer named Lazlo is hungry.
+   take 2: score +1.09  wer 0.11  end -5.2st  2.2w/s  heard: May 2010, a programmer named Lazlo is hungry.
+   take 3: score -2.36  wer 0.11  end +0.6st  2.5w/s  rushed ['programmer', 'hungry.']  heard: May 2010, a programmer named Laslo is hungry.
+   take 4: score +0.38  wer 0.11  end -5.8st  2.3w/s  rushed ['programmer']  heard: May 2010, a programmer named Lazlo is hungry.
+   take R1: wer 0.11  heard: May 2010, a programmer named Lazlo is hungry.
+   take R2: wer 0.11  heard: May 2010. A programmer named Lazlo is hungry.
+   take R3: wer 0.11  heard: May 2010. A programmer named Lazlo is hungry.
+   take R4: wer 0.11  heard: May 2010, a programmer named Lazlo is hungry.
+scene 1: 4.11s ex 0.7  chosen wer 0.11
+   take 1: score -0.85  wer 0.00  end +0.0st  2.5w/s  rushed ['bitcoin']  heard: He posts online. I will pay 10,000 bitcoin for two pizzas.
+   take 2: score -0.92  wer 0.00  end +0.0st  2.8w/s  rushed ['bitcoin']  heard: He posts online. I will pay 10,000 bitcoin for two pizzas.
+   take 3: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['bitcoin']  heard: He posts online, I will pay 10,000 bitcoin for two pizzas.
+   take 4: score -1.39  wer 0.00  end +0.0st  3.1w/s  rushed ['Bitcoin']  heard: He posts online, I will pay 10,000 Bitcoin for two pizzas.
+scene 2: 4.78s ex 0.68  chosen wer 0.00
+   take 1: score +0.90  wer 0.00  end -4.9st  3.0w/s  rushed ['stranger']  heard: Four days later, a stranger takes the deal.
+   take 2: score +1.84  wer 0.00  end -5.4st  2.9w/s  heard: Four days later, a stranger takes the deal.
+scene 3: 2.79s ex 0.66  chosen wer 0.00
+   take 1: score -0.51  wer 0.00  end +0.0st  3.1w/s  heard: Two large pizzas arrive at his door.
+   take 2: score -0.44  wer 0.00  end +0.0st  3.0w/s  heard: Two large pizzas arrive at his door.
+   take 3: score -0.88  wer 0.00  end +0.1st  3.2w/s  heard: Two large pizzas arrive at his door.
+scene 4: 2.31s ex 0.64  chosen wer 0.00
+   take 1: score -0.85  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin worth about $41 back then.
+   take 2: score -0.89  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin worth about $41 back then.
+   take 3: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin worth about $41 back then.
+   take 4: score -0.88  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin worth about $41 back then.
+scene 5: 3.58s ex 0.66  chosen wer 0.00
+   take 1: score -0.07  wer 0.00  end +0.0st  2.5w/s  heard: Today, those coins are worth over 700 million dollars.
+   take 2: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: Today, those coins are worth over $700 million.
+   take 3: score +1.96  wer 0.00  end -3.1st  2.5w/s  heard: Today, those coins are worth over 700 million dollars.
+scene 6: 3.95s ex 0.8  chosen wer 0.00
+   take 1: score -0.02  wer 0.00  end -0.3st  2.6w/s  heard: the most expensive dinner in history.
+   take 2: score -0.05  wer 0.00  end +0.0st  2.5w/s  heard: the most expensive dinner in history.
+   take 3: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: the most expensive dinner in history.
+scene 7: 2.28s ex 0.6  chosen wer 0.00
+   take 1: score +1.91  wer 0.00  end -13.8st  2.5w/s  heard: Follow Chain Secrets.  Every chart hides a story.
+scene 8: 3.26s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+29.63s, force-aligned 69 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/pizza/voice/p0p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.57, 0.66, 0.55, 0.64, 0.68, 0.59, 0.71]
