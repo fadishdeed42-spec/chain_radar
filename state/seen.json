@@ -8,7 +8,8 @@
 1794051540.4814157,
 1794055515.135441,
 1794063735.183712,
-1794064686.2175324
+1794064686.2175324,
+1794066524.7124763
 ],
 "menu": {
 "0694f983dc6a": {
@@ -71,7 +72,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794049848.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US reportedly approved Nvidia $NVDA chip sales to Chinese firms with empty offices and suspicious ties.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US reportedly approved Nvidia NVDA chip sales to Chinese firms with empty offices and suspicious ties.",
@@ -95,9 +96,10 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"CryptoTicker.io",
 "Wu Blockchain"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794055189.0,
 "tgtext": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record\n\nBitcoin's mining difficulty has spent 374 consecutive days below its all-time high of 155.97 T (set on October 29, 2025), officially marking the longest such stretch in the network's history and surpassing the previous 364-day record from the 2011 crash as well as the 253-day gap following China's 2021 mining ban. The protracted plateau is driven by muted BTC price action (~$76,000) and escalating overhead, prompting publicly listed miners to liquidate Bitcoin reserves and pivot site power toward AI colocation. \u2014 link",
 "title": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record",
@@ -156,6 +158,20 @@
 "tgtext": "",
 "title": "Tom Lee Ether Price Prediction Has No Target as ETH Trades at $2,244",
 "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLTVOYVc5ekkyRTRKdlR2OWozWTBuckdHQkg0bFBtT0pqeXI5RkJ4NUE0TUwzcG0zNjY2d0RrQ2JpV3V0cFhtcXJORVpoNGsweGN5TVN4MWdQMDZ6b0t0ZndzM1l1SHpCa0VfLXZKSGdGeG5yRkVnR1VJcGJ4emFiZVZxYU9hVngzbnM4dnRHMmpIQVMtcDNicTlFSzYzaE5xWFdQOFJyQUx6dDZzTUpWcENB?oc=5",
+"urls": []
+},
+"65b92e4b47c0": {
+"coin": "bitcoin",
+"src": "Coinpedia",
+"srcs": [
+"BeInCrypto",
+"Coinpedia"
+],
+"t": 1794066829.3322423,
+"t0": 1794045584.0,
+"tgtext": "",
+"title": "Bitcoin Price Prediction: Is a BTC Price Crash to $67,000 Coming Next Week?",
+"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3Z6bXd2N2RoZXZkSktsZjRWRGRjOUVjWnI3UmtQdDZPNGNVNUFQaTdFcE9mTXprVDNDUURiVjBpUW9sbkIwMEdFSllDNDdwVHR2a2ktV3VxWTJyVzBrNUxMYzU0UDRtbE5pWmRDeDlIUEMwOEJhajJZYW00UklndjJpb25VQndXa3ZWNUNRMmVyMVBZeTE0VHE3MjR6MXJm0gGmAUFVX3lxTE5hVDZCNVkyRjZlWXhjNkF2YXFXWDVRVmEwOW5wQ3cxcWJZRDNKRDFzV19vcTc5S2NPV2lDRUdxV3dyMndYLXV6RkV0YlVIems2eWc3Xy1QMTJwNjNsN1h4N21Cd0p4QUp5aU5RRk9XUUlfdjEwblJTZ3EtRWJCUGhVYUFqRmJhTGd2NmZTYXAtNThZaEEzM1Z6VllMWU1paDlfU0VYaGc?oc=5",
 "urls": []
 },
 "74b7b6c6cedc": {
@@ -234,7 +250,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794063601.0,
 "tgtext": "\ud83d\udd25 JUST IN: Berkshire Hathaway shares surged over 5% this week as investors fled AI-linked tech stocks, while the S&P 500 fell 2.7% and the Nasdaq dropped 3.4%.\n\nNews | Markets | YouTube",
 "title": "Berkshire Hathaway shares surged over 5% this week as investors fled AI-linked tech stocks, while the S&P 500 fell 2.7% and the Nasdaq dropped 3.4%.",
@@ -247,7 +263,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794046801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.\n\nNews | Markets | YouTube",
 "title": "The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.",
@@ -275,7 +291,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794049847.0,
 "tgtext": "\ud83d\udea8 JUST IN: The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.\n\nNews | Markets | YouTube",
 "title": "The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.",
@@ -317,7 +333,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794051204.0,
 "tgtext": "",
 "title": "From Hack Spat to Memes: Binance\u2019s CZ and Elon Musk Trade Jokes as Markets Plunge",
@@ -330,7 +346,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794065898.0,
 "tgtext": "",
 "title": "Copper Price Today: Per Tonne and Per Kilo, the Record High and What Drives It",
@@ -343,7 +359,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794054425.0,
 "tgtext": "Whale 0x4AB7 bought another 3,300 $ETH ($7.41M) 2 hours ago.\n\nOver the past week, the whale has bought a total of 13,077 $ETH ($29.95M).\n\nhttps://arkm.com/explorer/address/0x4AB785F639D3437298d780d15FD43a228A4845b8",
 "title": "Whale 0x4AB7 bought another 3,300 ETH ($7.41M) 2 hours ago.",
@@ -374,6 +390,20 @@
 "tgtext": "",
 "title": "\u2018Extreme Fear\u2019 Hits Bitcoin for the First Time in 3 Months as BTC Plummets",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVAxNFFRdDdaREFTSkJ2RHJDUk8yWDVuQjUxR2hZblRjMUNxRGJmQVhZbmtWSDlxRXdsQ0tWcmJNQ1R3NXVRNTZsaDUyb2daeWVMLTZWbFY3M1N1dnpBZnAxTkFkZmUxQ1lFSFNtcXdwcGd6cVJoQm1HRG9mU2ZsaDQ4UnBPTTB3TUhzblBIMC1PejJiRFFCQUJzdHJhVUE?oc=5",
+"urls": []
+},
+"d889e885a92b": {
+"coin": "",
+"src": "Coinpaper",
+"srcs": [
+"Coinpaper",
+"Hokanews"
+],
+"t": 1794066524.7124763,
+"t0": 1794065563.0,
+"tgtext": "",
+"title": "XRP-Backed Loans Face $8.84M Liquidation Risk if Token Price Falls Another 10%",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORENuYVhuLWhwZGt4NEVyWnY1MmVpZS1VRzBEc2toVVE5UEMxanhNZFNrWV9oYk1jdHR0VFVQYzB4eVdpMlpRSjB4ZEs2Y1RoLWlJWGdZRy1rbVN5b19ib3BqNG93NVRYUE5QZ3dIV0N5Tk1PWm1FUlN0eHhiZzl2dU9sWVdldkpxbDk1QVc3YVlPaUNSNUIxVGxlQV9iemIxc0VKWmVQSzM?oc=5",
 "urls": []
 },
 "e221bb4632d4": {
@@ -408,7 +438,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794066216.948214,
+"t": 1794066829.3322423,
 "t0": 1794064501.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 BIG: The U.S. expands its naval blockade with a task force to disrupt Iran\u2019s ground transport.\n\nNews | Markets | YouTube",
 "title": "BIG: The U.S. expands its naval blockade with a task force to disrupt Iran\u2019s ground transport.",
@@ -451,22 +481,22 @@
 "07a91cf3ffe2": 0.059,
 "0a569f7f4386": 0.027,
 "0ffe9ad37bc2": 0.014,
+"163798dbeaf4": 0.177,
 "18aefc9dfae9": 0.053,
 "24fe2aed6474": 0.155,
 "31a98e47049d": 0.039,
 "3c964e56aae8": 0.093,
-"43b0004a73ed": 0.046,
-"489c863e4d8d": 0.032,
+"43b0004a73ed": 0.058,
+"49813dcbeb4a": 0.076,
 "4ac5e69ef91b": 0.124,
-"4f9f8a43df98": 0.498,
+"4f9f8a43df98": 0.307,
 "56808a6ba647": 0.02,
 "605620fe35e9": 0.156,
+"65b92e4b47c0": 0.336,
 "78f7a83e386d": 0.086,
 "8b4a0379da57": 0.063,
-"90413bb63dfa": 0.377,
 "90dca9590919": 0.983,
 "94b36c3c7c9f": 0.068,
-"9e58754c4705": 0.029,
 "aa3415c14a61": 0.058,
 "b1aa79155c64": 0.035,
 "b50f621b0718": 0.26,
@@ -481,8 +511,8 @@
 "e12885d48718": 0.04,
 "e221bb4632d4": 0.118,
 "eb92efe71764": 0.08,
-"ed7e9868aaab": 0.013,
-"eedf538e05a0": 0.617,
+"ed7e9868aaab": 0.024,
+"eedf538e05a0": 0.549,
 "efe035a82606": 0.012,
 "f29791448f26": 0.049,
 "fd882547bfc8": 0.168
@@ -699,6 +729,40 @@
 "task",
 "transport"
 ]
+},
+{
+"e": [
+"another",
+"backed",
+"face",
+"falls",
+"liquidation",
+"loans",
+"risk",
+"token",
+"xrp"
+],
+"k": [
+"crash"
+],
+"t": 1794066524.7124763,
+"u": [
+"https://news.google.com/rss/articles/CBMiqAFBVV95cUxORENuYVhuLWhwZGt4NEVyWnY1MmVpZS1VRzBEc2toVVE5UEMxanhNZFNrWV9oYk1jdHR0VFVQYzB4eVdpMlpRSjB4ZEs2Y1RoLWlJWGdZRy1rbVN5b19ib3BqNG93NVRYUE5QZ3dIV0N5Tk1PWm1FUlN0eHhiZzl2dU9sWVdldkpxbDk1QVc3YVlPaUNSNUIxVGxlQV9iemIxc0VKWmVQSzM?oc=5",
+"https://news.google.com/rss/articles/CBMiggFBVV95cUxNLWpacU16SzdZT05QLTdjaVVBekRXejRmZ2h5WEdsTVdZQzFZZzRQSWtrc1c5VUhNTWcxTS1xTno0Zi1SRjFjV1pUR3M4Z21NTW5zc0NJd0RFZEtzXzZpN2M4aEpwcV9KNjFuRG55NVk1eGZBWFZHZlAxUVhuMWhnQ3pR?oc=5"
+],
+"w": [
+"84m",
+"another",
+"backed",
+"face",
+"falls",
+"liquidation",
+"loans",
+"price",
+"risk",
+"token",
+"xrp"
+]
 }
 ],
 "stories": {},
@@ -707,63 +771,63 @@
 [
 "90dca9590919",
 20,
-44,
+54,
 1
 ],
 [
 "98611ff64443",
 0,
-324,
+334,
 1
 ],
 [
 "a24d7bd99b31",
-4,
-273,
+3,
+283,
 1
 ],
 [
 "bd229bf4268b",
-22,
-197,
+21,
+207,
 1
 ],
 [
 "eedf538e05a0",
 10,
-29,
-1
-],
-[
-"4f9f8a43df98",
-22,
-184,
+39,
 1
 ],
 [
 "3c0f5d7519b6",
 0,
-273,
+283,
 1
 ],
 [
 "bcd821fbfbb5",
 22,
-5,
+16,
 1
 ],
 [
-"90413bb63dfa",
-67,
-358,
-4
+"65b92e4b47c0",
+13,
+354,
+2
+],
+[
+"4f9f8a43df98",
+31,
+194,
+2
 ],
 [
 "b50f621b0718",
-44,
-250,
+43,
+260,
 1
 ]
 ],
-"top_at": 1794066216.948214
+"top_at": 1794066829.3322423
 }

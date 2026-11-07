@@ -426,42 +426,37 @@
 },
 "t": 1793016885.0325358
 },
-"8f56c80599": {
-"coin": "",
-"facts": "Headline: Initia hacked for $2.6 million\nSources: DefiLlama\nHack date: Oct 23. Chain: ['Initia']. Method: Infinite Mint. Amount: $2,600,000. (DefiLlama hacks database.)\n",
+"8d36e726e2": {
+"coin": "ripple",
+"facts": "Headline: XRP-Backed Loans Face $8.84M Liquidation Risk if Token Price Falls Another 10%\nSources: Coinpaper, Hokanews\n\n",
 "item": {
 "chart": null,
 "focus": null,
-"hack": {
-"amount": "$2.6M",
-"chain": "['Initia']",
-"date": "Oct 23",
-"method": "Infinite Mint"
-},
+"hack": null,
 "span": null,
-"src": "DefiLlama",
+"src": "Coinpaper",
 "story": null,
-"t0": null,
-"tag": "HACK",
-"title": "Initia hacked for $2.6 million",
-"url": ""
+"t0": 1794065563.0,
+"tag": null,
+"title": "XRP-Backed Loans Face $8.84M Liquidation Risk if Token Price Falls Another 10%",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORENuYVhuLWhwZGt4NEVyWnY1MmVpZS1VRzBEc2toVVE5UEMxanhNZFNrWV9oYk1jdHR0VFVQYzB4eVdpMlpRSjB4ZEs2Y1RoLWlJWGdZRy1rbVN5b19ib3BqNG93NVRYUE5QZ3dIV0N5Tk1PWm1FUlN0eHhiZzl2dU9sWVdldkpxbDk1QVc3YVlPaUNSNUIxVGxlQV9iemIxc0VKWmVQSzM?oc=5"
 },
 "p": {
-"keyfact": "Initia reportedly lost $2.6 million in an infinite mint exploit on October 23.",
-"post": "An infinite mint exploit drained Initia for $2.6 million according to DefiLlama data. The attack happened on October 23, exposing critical vulnerability in the network. Security incidents continue to test protocol defences across the ecosystem. #Initia",
+"keyfact": "XRP-backed loans face an $8.84M liquidation risk if the token price drops another 10%.",
+"post": "XRP-backed loans face an $8.84M liquidation risk if the token price drops by another 10%, according to reports from Coinpaper and Hokanews. This critical threshold highlights the looming pressure on leveraged positions in the current market. #XRP",
 "quote": "NONE",
-"reply": "Another infinite mint exploit proves smart contract security remains the biggest risk in the ecosystem right now.",
+"reply": "High liquidation risks are piling up as positions get squeezed near these critical support levels.",
 "short": "",
-"stat": "$2.6M | Exploited funds",
-"symbol": "NONE",
-"tag": "HACK",
+"stat": "$8.84M | Liquidation risk",
+"symbol": "XRP",
+"tag": "MARKET",
 "thread": "",
-"timeline": "Oct 23 = Exploit executed ; Oct 23 = Infinite mint detected ; Oct 23 = $2.6 million lost",
-"title": "Initia drained for $2.6 million",
-"versus": "Chain = Initia || Loss = $2.6M",
-"visual": "ALERT"
+"timeline": "NONE",
+"title": "$8.84M XRP Loan Liquidation Risk",
+"versus": "NONE",
+"visual": "CHART"
 },
-"t": 1792782302.2068784
+"t": 1794066974.992591
 },
 "96ad24b1f8": {
 "coin": "ethereum",
@@ -853,7 +848,7 @@
 "menu": {},
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489403,
+"offset": 138489407,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
