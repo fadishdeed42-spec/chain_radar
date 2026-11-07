@@ -4,7 +4,8 @@ import bpy, sys, math, random
 from mathutils import Vector
 argv = sys.argv[sys.argv.index('--') + 1:]
 DUR, START, END, OUT = float(argv[0]), int(argv[1]), int(argv[2]), argv[3]
-PREVIEW = len(argv) > 4
+PREVIEW = len(argv) > 4 and argv[4] == '1'
+MID = len(argv) > 4 and argv[4] == 'mid'
 FPS = 30; NF = int(DUR * FPS)
 f = lambda s: 1 + int(s / 15.0 * NF)            # story beats are written on a 15 s clock and stretched to the real voice length
 random.seed(4)
@@ -12,9 +13,9 @@ random.seed(4)
 bpy.ops.wm.read_factory_settings(use_empty=True)
 sc = bpy.context.scene
 sc.render.engine = 'CYCLES'; sc.cycles.device = 'CPU'
-sc.cycles.samples = 8 if PREVIEW else 40; sc.cycles.use_denoising = True
+sc.cycles.samples = 8 if PREVIEW else 14 if MID else 40; sc.cycles.use_denoising = True
 sc.cycles.max_bounces = 4; sc.render.use_persistent_data = True
-sc.render.resolution_x, sc.render.resolution_y = (360, 640) if PREVIEW else (720, 1280)
+sc.render.resolution_x, sc.render.resolution_y = (360, 640) if PREVIEW else (540, 960) if MID else (720, 1280)
 sc.render.fps = FPS; sc.frame_start, sc.frame_end = 1, NF
 sc.view_settings.view_transform = 'AgX'; sc.view_settings.look = 'AgX - Medium High Contrast'
 sc.render.image_settings.file_format = 'PNG'
@@ -57,7 +58,7 @@ bpy.ops.mesh.primitive_plane_add(size=40); obj(bpy.context.object, FLOOR)
 bpy.ops.mesh.primitive_cube_add(location=(0, -7, 4)); o = bpy.context.object; o.scale = (12, .3, 4); obj(o, DARK)          # back wall
 for x in (-9, 9):
     bpy.ops.mesh.primitive_cube_add(location=(x, 0, 4)); o = bpy.context.object; o.scale = (.3, 8, 4); obj(o, DARK)
-for x in range(-6, 7, 3):                                                                                           # pillars
+for x in (-7.5, -4.5, 4.5, 7.5):                                                                                    # pillars (none in front of the vault)
     bpy.ops.mesh.primitive_cylinder_add(vertices=8, radius=.35, depth=8, location=(x, -6.2, 4)); obj(bpy.context.object, STEEL)
 
 # vault door (hinged on the left)
@@ -85,9 +86,11 @@ bpy.ops.object.empty_add(location=(5.5, 3.5, 0)); rig = bpy.context.object
 def part(add, m, **kw):
     add(**kw); o = bpy.context.object; obj(o, m, True); o.parent = rig; return o
 body = part(bpy.ops.mesh.primitive_cylinder_add, HOOD, vertices=16, radius=.42, depth=1.25, location=(0, 0, 1.45)); body.scale = (1, .75, 1)
-part(bpy.ops.mesh.primitive_cone_add, HOOD, vertices=16, radius1=.48, radius2=.08, depth=.95, location=(0, 0, 2.45))
-part(bpy.ops.mesh.primitive_uv_sphere_add, SKIN, radius=.3, location=(0, -.12, 2.3))
-for x in (-.11, .11): part(bpy.ops.mesh.primitive_uv_sphere_add, EYES, radius=.045, location=(x, -.38, 2.33))
+part(bpy.ops.mesh.primitive_cone_add, HOOD, vertices=16, radius1=.4, radius2=.06, depth=.9, location=(0, .1, 2.5))
+part(bpy.ops.mesh.primitive_uv_sphere_add, SKIN, radius=.27, location=(0, -.14, 2.25))
+for x in (-.1, .1): part(bpy.ops.mesh.primitive_uv_sphere_add, EYES, radius=.05, location=(x, -.4, 2.28))
+for x in (-.38, .38):
+    a_ = part(bpy.ops.mesh.primitive_cylinder_add, HOOD, vertices=10, radius=.1, depth=.7, location=(x * .9, -.3, 1.6)); a_.rotation_euler = (math.radians(70), 0, 0)
 legs = []
 for x in (-.18, .18):
     bpy.ops.object.empty_add(location=(x, 0, .85)); hip = bpy.context.object; hip.parent = rig
@@ -120,7 +123,7 @@ for i, c in enumerate(fly):
 
 # 3D titles: "$6.3B" (hook, and again at the end for the loop) and "20 MIN"
 def title(txt, m, loc, size):
-    bpy.ops.object.text_add(location=loc, rotation=(math.radians(80), 0, 0)); t = bpy.context.object
+    bpy.ops.object.text_add(location=loc, rotation=(math.radians(80), 0, math.pi)); t = bpy.context.object
     t.data.body = txt; t.data.align_x = 'CENTER'; t.data.size = size; t.data.extrude = .08; t.data.bevel_depth = .01
     try: t.data.font = bpy.data.fonts.load('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf')
     except Exception: pass
