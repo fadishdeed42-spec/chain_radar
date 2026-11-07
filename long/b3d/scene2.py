@@ -30,7 +30,7 @@ def put(o, m):
     o.data.materials.append(m); return o
 def cube(loc, scale, m):
     bpy.ops.mesh.primitive_cube_add(location=loc); o = bpy.context.object; o.scale = scale; return put(o, m)
-def text(body, loc, size, m, rot=(math.radians(90), 0, 0), align='CENTER'):
+def text(body, loc, size, m, rot=(math.radians(90), 0, math.pi), align='CENTER'):   # faces +Y, where the camera is
     bpy.ops.object.text_add(location=loc, rotation=rot); t = bpy.context.object
     t.data.body = body; t.data.align_x = align; t.data.align_y = 'CENTER'; t.data.size = size; t.data.extrude = .02
     try: t.data.font = bpy.data.fonts.load(FONT)
@@ -81,7 +81,7 @@ def laptop(x, y):
     for dx in (-1, 1): cube((x + dx, y, .35), (.05, .05, .35), STEEL)
     cube((x, y, .82), (.45, .3, .02), STEEL)                                        # base
     scrm = mat(f'scr{x}', (.1, .3, .6), 0, .3, (.15, .45, 1), 3)
-    s = cube((x, y - .28, 1.1), (.44, .02, .28), scrm); s.rotation_euler = (math.radians(-12), 0, 0)
+    s = cube((x, y + .28, 1.1), (.44, .02, .28), scrm); s.rotation_euler = (math.radians(12), 0, 0)
     return s, scrm
 LA, LA_M = laptop(-2.6, 2)
 LB, LB_M = laptop(2.6, 2)
@@ -89,26 +89,26 @@ LB, LB_M = laptop(2.6, 2)
 # ---- June: search results panel with an AD on top ----
 SP = Vector((-2.6, 0.9, 2.6))
 panel = cube(SP, (1.3, .03, .9), PAPER)
-ad = cube(SP + Vector((0, -.05, .5)), (1.1, .02, .14), RED)
-adl = text('AD  ·  download tool', SP + Vector((-1.0, -.09, .5)), .16, WHITE, align='LEFT')
-real = [cube(SP + Vector((0, -.05, .15 - k * .32)), (1.1, .02, .11), BAR) for k in range(3)]
-dl_bg = cube(SP + Vector((0, -.05, -.95)), (1.1, .02, .05), BAR)
-dl = cube(SP + Vector((-1.1, -.07, -.95)), (.001, .02, .05), RED)
+ad = cube(SP + Vector((0, .05, .5)), (1.1, .02, .14), RED)
+adl = text('AD  ·  download tool', SP + Vector((1.0, .09, .5)), .16, WHITE, align='LEFT')
+real = [cube(SP + Vector((0, .05, .15 - k * .32)), (1.1, .02, .11), BAR) for k in range(3)]
+dl_bg = cube(SP + Vector((0, .05, -.95)), (1.1, .02, .05), BAR)
+dl = cube(SP + Vector((1.1, .07, -.95)), (.001, .02, .05), RED)
 for o in [panel, ad, adl, dl_bg, dl] + real: appear(o, bt('june'))
 emit_to(RED, bt('ad'), (1, .06, .03), 14, .2); emit_to(RED, bt('ad') + .25, (1, .06, .03), 6, .3)
 kf(dl, 'scale', bt('downloaded'), (.001, .02, .05)); kf(dl, 'scale', bt('downloaded') + 1.4, (1.1, .02, .05))
-kf(dl, 'location', bt('downloaded'), tuple(SP + Vector((-1.1, -.07, -.95)))); kf(dl, 'location', bt('downloaded') + 1.4, tuple(SP + Vector((0, -.07, -.95))))
+kf(dl, 'location', bt('downloaded'), tuple(SP + Vector((1.1, .07, -.95)))); kf(dl, 'location', bt('downloaded') + 1.4, tuple(SP + Vector((0, .07, -.95))))
 emit_to(LA_M, bt('downloaded') + 1.3, (1, .08, .05), 5)
 
 # ---- September: video call with a CEO who does not exist ----
 CP = Vector((2.6, 0.9, 2.6))
 call = cube(CP, (1.3, .03, .9), mat('callbg', (.05, .07, .12), 0, .5, (.04, .06, .12), 1))
-head = bpy.ops.mesh.primitive_uv_sphere_add(radius=.32, location=CP + Vector((0, -.08, .25))); head = put(bpy.context.object, BLACKT)
-bpy.ops.mesh.primitive_cylinder_add(radius=.55, depth=.5, location=CP + Vector((0, -.08, -.45))); body = put(bpy.context.object, BLACKT)
-ceo = text('"CEO"', CP + Vector((0, -.1, -.78)), .18, WHITE)
-hire = text('JOB INTERVIEW', CP + Vector((0, -.1, .72)), .17, CYAN)
+head = bpy.ops.mesh.primitive_uv_sphere_add(radius=.32, location=CP + Vector((0, .1, .25))); head = put(bpy.context.object, BLACKT)
+bpy.ops.mesh.primitive_cylinder_add(radius=.55, depth=.5, location=CP + Vector((0, .1, -.45))); body = put(bpy.context.object, BLACKT)
+ceo = text('"CEO"', CP + Vector((0, .12, -.78)), .18, WHITE)
+hire = text('JOB INTERVIEW', CP + Vector((0, .12, .72)), .17, CYAN)
 for o in (call, head, body, ceo, hire): appear(o, bt('september'))
-fake = text('DOES NOT EXIST', CP + Vector((0, -.16, 0)), .26, RED)
+fake = text('DOES NOT EXIST', CP + Vector((0, .3, 0)), .26, RED)
 appear(fake, bt('exist'), .25)
 for o in (head, body): vanish(o, bt('exist'))
 emit_to(LB_M, bt('code') + .3, (1, .08, .05), 5)
@@ -122,12 +122,13 @@ for p in WAL:
     text('HOT WALLET', p + Vector((0, .75, 2.3)), .2, WHITE)
 def beam(a, b, t):
     mid = (a + b) / 2; d = b - a
-    bpy.ops.mesh.primitive_cylinder_add(radius=.035, depth=d.length, location=mid); c = put(bpy.context.object, RED)
+    bpy.ops.mesh.primitive_cylinder_add(radius=.02, depth=d.length, location=mid); c = put(bpy.context.object, RED)
     c.rotation_euler = d.to_track_quat('Z', 'Y').to_euler(); appear(c, t, .8, (1, 1, 1))
 k = 0
 for src in (Vector((-2.6, 1.7, 1.1)), Vector((2.6, 1.7, 1.1))):
-    for p in WAL:
-        beam(src, p + Vector((0, .7, 1.2)), bt('twentieth') + .1 + k * .12); k += 1
+    for j, p in enumerate(WAL):
+        if (j + k) % 2 == 0: beam(src, p + Vector((0, .7, 1.2)), bt('twentieth') + .1 + j * .15)
+    k += 1
 
 # ---- October 29: one script, the wallets drain ----
 for i, g in enumerate(vault_gold):
