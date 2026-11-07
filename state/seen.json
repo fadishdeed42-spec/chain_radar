@@ -9,6 +9,21 @@
 1794055515.135441
 ],
 "menu": {
+"0694f983dc6a": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794061928.247124,
+"t0": 1794060960.0,
+"tgtext": "",
+"title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
+"url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "08cba140292d": {
 "coin": "",
 "src": "bloomingbit",
@@ -41,7 +56,7 @@
 "srcs": [
 "JournalArta"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794053216.0,
 "tgtext": "",
 "title": "Bitcoin Today: Bitcoin Steadies at 75,882.5 After a Week of $1 Billion Liquidations",
@@ -80,7 +95,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794055189.0,
 "tgtext": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record\n\nBitcoin's mining difficulty has spent 374 consecutive days below its all-time high of 155.97 T (set on October 29, 2025), officially marking the longest such stretch in the network's history and surpassing the previous 364-day record from the 2011 crash as well as the 253-day gap following China's 2021 mining ban. The protracted plateau is driven by muted BTC price action (~$76,000) and escalating overhead, prompting publicly listed miners to liquidate Bitcoin reserves and pivot site power toward AI colocation. \u2014 link",
 "title": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record",
@@ -121,7 +136,7 @@
 "Crypto News",
 "Cryptonews.net"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794046056.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast as BTC ETFs Record Highest Weekly Outflows Since June - Will $75K Hold?",
@@ -204,7 +219,7 @@
 "Cryptonews.net",
 "JournalArta"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794044760.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Is a BTC Price Crash to $67,000 Coming Next Week?",
@@ -217,7 +232,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794046801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.\n\nNews | Markets | YouTube",
 "title": "The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.",
@@ -245,7 +260,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794049847.0,
 "tgtext": "\ud83d\udea8 JUST IN: The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.\n\nNews | Markets | YouTube",
 "title": "The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.",
@@ -300,7 +315,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794054425.0,
 "tgtext": "Whale 0x4AB7 bought another 3,300 $ETH ($7.41M) 2 hours ago.\n\nOver the past week, the whale has bought a total of 13,077 $ETH ($29.95M).\n\nhttps://arkm.com/explorer/address/0x4AB785F639D3437298d780d15FD43a228A4845b8",
 "title": "Whale 0x4AB7 bought another 3,300 ETH ($7.41M) 2 hours ago.",
@@ -313,7 +328,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794046205.0,
 "tgtext": "",
 "title": "Nubank, Mercado Pago Halt Crypto Transfers Over Provider Issues",
@@ -339,7 +354,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1794061317.2958424,
+"t": 1794061928.247124,
 "t0": 1794046286.0,
 "tgtext": "",
 "title": "GOPAX Halts Trading and Withdrawals After Hacking Threat, Moves User Crypto to Cold Wallets",
@@ -391,21 +406,24 @@
 "movers": {},
 "probs": {
 "059c7b8e41d1": 0.106,
+"0694f983dc6a": 0.277,
 "07a91cf3ffe2": 0.153,
 "08cba140292d": 0.213,
+"0a569f7f4386": 0.041,
 "0ffe9ad37bc2": 0.021,
 "24fe2aed6474": 0.561,
 "2682c6bcfd49": 0.108,
 "290fd2e1c336": 0.058,
 "3c0f5d7519b6": 0.225,
 "3c964e56aae8": 0.136,
-"43b0004a73ed": 0.122,
+"43b0004a73ed": 0.069,
 "4ac5e69ef91b": 0.178,
 "4f9f8a43df98": 0.853,
 "56808a6ba647": 0.03,
 "5dd6874bf9ae": 0.239,
 "605620fe35e9": 0.492,
 "64483100b0b6": 0.172,
+"78f7a83e386d": 0.126,
 "822695012461": 0.139,
 "90413bb63dfa": 0.409,
 "98611ff64443": 0.927,
@@ -594,64 +612,64 @@
 "top": [
 [
 "98611ff64443",
-8,
-242,
+7,
+252,
 1
 ],
 [
 "a24d7bd99b31",
-15,
-191,
+14,
+201,
 1
 ],
 [
 "bd229bf4268b",
 24,
-115,
+125,
 1
 ],
 [
 "4f9f8a43df98",
 22,
-102,
+112,
 1
 ],
 [
 "24fe2aed6474",
 40,
-135,
+145,
 1
 ],
 [
 "605620fe35e9",
-47,
-254,
+45,
+265,
 3
 ],
 [
 "90413bb63dfa",
-73,
-276,
+71,
+286,
 4
 ],
 [
 "cdc2787749d9",
-23,
-252,
+22,
+262,
 1
 ],
 [
 "e221bb4632d4",
-23,
-251,
+22,
+261,
 1
 ],
 [
-"b50f621b0718",
-53,
-169,
+"0694f983dc6a",
+16,
+16,
 1
 ]
 ],
-"top_at": 1794061317.2958424
+"top_at": 1794061928.247124
 }
