@@ -15,7 +15,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1794056429.912126,
+"t": 1794058262.4531167,
 "t0": 1794042527.0,
 "tgtext": "",
 "title": "Binance France to Close All Customer Accounts by Dec. 31",
@@ -41,7 +41,7 @@
 "srcs": [
 "JournalArta"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794053216.0,
 "tgtext": "",
 "title": "Bitcoin Today: Bitcoin Steadies at 75,882.5 After a Week of $1 Billion Liquidations",
@@ -54,7 +54,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794057651.718595,
+"t": 1794057958.3993347,
 "t0": 1794049848.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US reportedly approved Nvidia $NVDA chip sales to Chinese firms with empty offices and suspicious ties.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US reportedly approved Nvidia NVDA chip sales to Chinese firms with empty offices and suspicious ties.",
@@ -80,7 +80,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794055189.0,
 "tgtext": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record\n\nBitcoin's mining difficulty has spent 374 consecutive days below its all-time high of 155.97 T (set on October 29, 2025), officially marking the longest such stretch in the network's history and surpassing the previous 364-day record from the 2011 crash as well as the 253-day gap following China's 2021 mining ban. The protracted plateau is driven by muted BTC price action (~$76,000) and escalating overhead, prompting publicly listed miners to liquidate Bitcoin reserves and pivot site power toward AI colocation. \u2014 link",
 "title": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record",
@@ -93,7 +93,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1794057040.7531235,
+"t": 1794058262.4531167,
 "t0": 1794044117.0,
 "tgtext": "",
 "title": "Ethereum News: ETH Leverage Traders Lose $150M as 13,000+ Holders Back AlphaPepe Without the Liquidation Risk",
@@ -173,7 +173,7 @@
 "Yahoo Finance UK",
 "Yahoo! Finance Canada"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794043586.0,
 "tgtext": "",
 "title": "Ethereum ETH (ETH-GBP) Live Price, News, Chart and Price History",
@@ -188,7 +188,7 @@
 "CryptoTicker.io",
 "JournalArta"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794044760.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Is a BTC Price Crash to $67,000 Coming Next Week?",
@@ -201,7 +201,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794046801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.\n\nNews | Markets | YouTube",
 "title": "The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.",
@@ -214,7 +214,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794049847.0,
 "tgtext": "\ud83d\udea8 JUST IN: The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.\n\nNews | Markets | YouTube",
 "title": "The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.",
@@ -229,7 +229,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1794057347.7601445,
+"t": 1794057958.3993347,
 "t0": 1794045246.0,
 "tgtext": "",
 "title": "Ark Invest Seeks to Launch 14 New Thematic ETFs Including AI, Tokenization Funds",
@@ -243,7 +243,7 @@
 "Pluang",
 "The Crypto Times"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794038653.0,
 "tgtext": "",
 "title": "From Hack Spat to Memes: Binance\u2019s CZ and Elon Musk Trade Jokes as Markets Plunge",
@@ -256,7 +256,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794057651.718595,
+"t": 1794058262.4531167,
 "t0": 1794054425.0,
 "tgtext": "Whale 0x4AB7 bought another 3,300 $ETH ($7.41M) 2 hours ago.\n\nOver the past week, the whale has bought a total of 13,077 $ETH ($29.95M).\n\nhttps://arkm.com/explorer/address/0x4AB785F639D3437298d780d15FD43a228A4845b8",
 "title": "Whale 0x4AB7 bought another 3,300 ETH ($7.41M) 2 hours ago.",
@@ -335,32 +335,33 @@
 "probs": {
 "059c7b8e41d1": 0.106,
 "07a91cf3ffe2": 0.115,
+"08cba140292d": 0.213,
 "24fe2aed6474": 0.561,
 "2682c6bcfd49": 0.108,
 "290fd2e1c336": 0.058,
-"3c0f5d7519b6": 0.469,
+"2fb0d75b6ac9": 0.138,
+"3c0f5d7519b6": 0.187,
 "3c964e56aae8": 0.136,
 "43b0004a73ed": 0.122,
+"4ac5e69ef91b": 0.178,
 "4f9f8a43df98": 0.853,
+"5dd6874bf9ae": 0.371,
 "605620fe35e9": 0.075,
-"644106861775": 0.057,
 "64483100b0b6": 0.172,
-"74b7b6c6cedc": 0.807,
-"7be83f8b6753": 0.147,
 "822695012461": 0.232,
 "8fe955c9833a": 0.067,
-"90413bb63dfa": 0.698,
+"90413bb63dfa": 0.526,
 "98611ff64443": 0.91,
 "9c74fd754d85": 0.075,
 "9d6a65533242": 0.102,
 "9e58754c4705": 0.035,
 "9f35e2e35c79": 0.142,
 "a24d7bd99b31": 0.885,
-"a47a8e6946ce": 0.05,
 "a628989e7353": 0.189,
+"aeb68f81c594": 0.057,
 "b48f0ddd13b9": 0.242,
 "bd007f224ed2": 0.108,
-"bd229bf4268b": 0.912,
+"bd229bf4268b": 0.882,
 "c2271bb245ce": 0.062,
 "cdc2787749d9": 0.142,
 "cf3f804148b0": 0.099,
@@ -536,65 +537,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"bd229bf4268b",
-24,
-54,
-1
-],
-[
 "98611ff64443",
-16,
-181,
+15,
+191,
 1
 ],
 [
 "a24d7bd99b31",
 16,
-130,
+140,
+1
+],
+[
+"bd229bf4268b",
+24,
+64,
 1
 ],
 [
 "4f9f8a43df98",
 22,
-41,
+51,
 1
-],
-[
-"74b7b6c6cedc",
-2,
-357,
-1
-],
-[
-"90413bb63dfa",
-71,
-215,
-3
 ],
 [
 "24fe2aed6474",
 40,
-74,
+84,
 1
 ],
 [
-"3c0f5d7519b6",
-10,
-130,
+"90413bb63dfa",
+69,
+225,
+3
+],
+[
+"5dd6874bf9ae",
+24,
+236,
 1
 ],
 [
 "b48f0ddd13b9",
-47,
-317,
+46,
+327,
 2
 ],
 [
 "822695012461",
-23,
-234,
+22,
+245,
 3
+],
+[
+"08cba140292d",
+8,
+262,
+1
 ]
 ],
-"top_at": 1794057651.718595
+"top_at": 1794058262.4531167
 }
