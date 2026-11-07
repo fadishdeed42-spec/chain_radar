@@ -638,7 +638,7 @@ def git_sync(force=False):
 _STOP = set('the a an of to in on for and with by at from is are was were be has have had its it this that as after over new says said will just hits hit price now than more less amid into out up down'.split())
 
 
-def same_story(a, b):
+def same_headline(a, b):
     """two headlines about the same event (shared key words: names, numbers)"""
     w = lambda t: {x[:6] for x in re.findall(r"[a-z0-9$%]+", html.unescape(t).replace(',', '').lower()) if x not in _STOP and len(x) > 2}
     A, B = w(a), w(b)
@@ -662,7 +662,7 @@ def send_cached_top():
         title = html.unescape(html.unescape(it['title'])).strip()
         if not it.get('coin') and not CRYPTO_RX.search(title.lower()):        # not about crypto at all (a CEO tweet about Tesla...)
             continue
-        if any(same_story(title, t) for t in shown):                         # the same story from another outlet: show it once
+        if any(same_headline(title, t) for t in shown):                         # the same story from another outlet: show it once
             continue
         shown.append(title); n += 1
         p = pr.get(k)
