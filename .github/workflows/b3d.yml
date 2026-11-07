@@ -1,0 +1,36 @@
+name: b3d
+# 3D Shorts: render a Blender scene in parallel parts on free runners (Cycles CPU), save the parts to the files branch.
+on:
+  workflow_dispatch:
+    inputs:
+      scene: {description: 'scene script', required: true, default: long/b3d/scene.py}
+      dur: {description: 'seconds', required: true, default: '15'}
+      parts: {description: 'JSON list of part numbers', required: true, default: '[0,1,2,3,4,5]'}
+      n: {description: 'how many parts in total', required: true, default: '6'}
+      preview: {description: '1 = small fast preview', required: false, default: ''}
+permissions: {contents: write}
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy: {fail-fast: false, matrix: {part: '${{ fromJSON(github.event.inputs.parts) }}'}}
+    steps:
+      - uses: actions/checkout@v4
+      - name: blender
+        run: |
+          sudo apt-get install -y -qq ffmpeg libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 >/dev/null
+          curl -sL https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz | tar -xJ -C /tmp && mv /tmp/blender-4.2.3-linux-x64 /tmp/blender
+      - name: render
+        run: |
+          N=$(python3 -c "print(int(float('${{ github.event.inputs.dur }}')*30))"); P=${{ matrix.part }}; K=${{ github.event.inputs.n }}
+          A=$(( P*N/K + 1 )); B=$(( (P+1)*N/K ))
+          mkdir -p /tmp/fr && /tmp/blender/blender -b -P ${{ github.event.inputs.scene }} -- ${{ github.event.inputs.dur }} $A $B /tmp/fr ${{ github.event.inputs.preview }} 2>&1 | grep -v "^Fra:\|Sample\|Rendering" | tail -20
+          ffmpeg -v error -y -framerate 30 -start_number $A -i /tmp/fr/f_%04d.png -c:v libx264 -crf 16 -pix_fmt yuv420p /tmp/part_$(printf %02d $P).mp4
+      - name: save part
+        run: |
+          git config --global user.name chain-radar; git config --global user.email noreply@github.com
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
+            mkdir -p /tmp/w/long/b3d/parts && cp /tmp/part_*.mp4 /tmp/w/long/b3d/parts/ && cd /tmp/w && git add -A && git commit -qm "b3d part ${{ matrix.part }} [skip ci]" && git push -q && break
+            cd /; sleep $((i*3))
+          done
