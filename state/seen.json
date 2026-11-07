@@ -3,7 +3,9 @@
 "init": true,
 "log": [
 1794048177.4471896,
-1794048177.4471896
+1794048177.4471896,
+1794051236.4384232,
+1794051540.4814157
 ],
 "menu": {
 "1fb38e5f6a51": {
@@ -12,7 +14,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794031180.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -25,7 +27,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794049848.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US reportedly approved Nvidia $NVDA chip sales to Chinese firms with empty offices and suspicious ties.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US reportedly approved Nvidia NVDA chip sales to Chinese firms with empty offices and suspicious ties.",
@@ -39,7 +41,7 @@
 "BitKE",
 "WSJ"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794034811.0,
 "tgtext": "",
 "title": "REALITY CHECK | Hackers Spent Weeks Inside Binance Systems Before Exploit, Reveals SEAL Report",
@@ -65,7 +67,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794036241.0,
 "tgtext": "\ud83d\udea8 LATEST: $BTC open interest rose by nearly $1.5 billion during the recent selloff, suggesting traders are adding leveraged positions despite falling prices, per Glassnode.\n\nNews | Markets | YouTube",
 "title": "BTC open interest rose by nearly $1.5 billion during the recent selloff, suggesting traders are adding leveraged positions despite falling prices, per Glassnode.",
@@ -78,7 +80,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1794050929.5717137,
+"t": 1794051236.4384232,
 "t0": 1794036614.0,
 "tgtext": "",
 "title": "BTC to PHP: Bitcoin Price in Philippine Peso",
@@ -91,11 +93,26 @@
 "srcs": [
 "The Edge Malaysia"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794033113.0,
 "tgtext": "",
 "title": "Crypto tracks stocks higher after Democrat midterm wins",
 "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RUzN1TWlQZ0x1M3N4Sl9zQU9HVFBhQW5lbDRnTUhCZGRFb3pmZl85d2ktdDBVS0JYTFNsLXhPUUtURUlmcS1meUJZamlwdWxk?oc=5",
+"urls": []
+},
+"90413bb63dfa": {
+"coin": "bitcoin",
+"src": "Coinpedia",
+"srcs": [
+"Coinpedia",
+"CryptoTicker.io",
+"JournalArta"
+],
+"t": 1794051540.4814157,
+"t0": 1794044760.0,
+"tgtext": "",
+"title": "How Low Could Bitcoin, Ethereum, and XRP Go If Crypto Keeps Dumping?",
+"url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUdMQ2dqT1RteHdyamdDaHNHbFJmX2o2UnQtdWZZUExMc29ob2l5WExBX1pBU0dOT0xBaG83azc2MXRXT1dhY2FLTjR5YXExUFdUVUx6Y25vSi1hYlE3V09qdUJ5c0dzaVp0NTdicldkTlc5Um5qc0xheXNHYnp0RkNiSFlVSU8xOUozS2RMWVR4Yk1zUFlTcdIBngFBVV95cUxPaG1UTENFTFkwbUVjeElnRnBsaVVVTDlHYVM5ZEJ2WEg5SmhuRG5yS0VrT3pXTVJCZ1hrdTJ3LVRXVEh3d2tXeVZiT3o2SUo2a2JrMkpNbEFWdURlSDVDYmE1RzRfZVl2bXMyMjh2XzVzT2h6YUFkcUpQblBZaVc3SzB3cW9nR2JyLWozNDNKTFpGWWRTb3FJeDhHdDNHQQ?oc=5",
 "urls": []
 },
 "98611ff64443": {
@@ -104,7 +121,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794046801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.\n\nNews | Markets | YouTube",
 "title": "The average time Americans spend unemployed rose to 27.1 weeks in October, the longest outside the pandemic since 2016, with 2 million people out of work for at least six months.",
@@ -117,11 +134,11 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794049847.0,
-"tgtext": "",
-"title": "US sanctions Canadian money-exchange firms over Iran ties",
-"url": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"tgtext": "\ud83d\udea8 JUST IN: The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.\n\nNews | Markets | YouTube",
+"title": "The US Treasury sanctioned 8 Canadian money-service firms over alleged crypto transactions linked to Iran and offered up to $20 million for information on Iran\u2019s nuclear program.",
+"url": "https://t.me/cointelegraph/73112",
 "urls": [
 "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -132,7 +149,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794045246.0,
 "tgtext": "",
 "title": "Ark Invest Seeks to Launch 14 New Thematic ETFs Including AI, Tokenization Funds",
@@ -158,7 +175,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794050929.5717137,
+"t": 1794051540.4814157,
 "t0": 1794031509.0,
 "tgtext": "\ud83c\udde8\ud83c\uddf3 JUST IN: US Treasury Secretary Scott Bessent urged China to immediately honor its trade commitments, raising concerns over recent Chinese actions following talks with Vice Premier He Lifeng.\n\nNews | Markets | YouTube",
 "title": "US Treasury Secretary Scott Bessent urged China to immediately honor its trade commitments, raising concerns over recent Chinese actions following talks with Vice Premier He Lifeng.",
@@ -212,12 +229,12 @@
 "7d99d9a842c0": 0.106,
 "822695012461": 0.017,
 "8fe955c9833a": 0.041,
-"90413bb63dfa": 0.043,
+"90413bb63dfa": 0.349,
 "98611ff64443": 0.857,
 "9c74fd754d85": 0.037,
 "9d6a65533242": 0.05,
 "9f35e2e35c79": 0.072,
-"a24d7bd99b31": 0.155,
+"a24d7bd99b31": 0.94,
 "a628989e7353": 0.099,
 "aeb68f81c594": 0.028,
 "b48f0ddd13b9": 0.072,
@@ -293,71 +310,130 @@
 "suggesting",
 "traders"
 ]
+},
+{
+"e": [
+"could",
+"dumping",
+"keeps",
+"low",
+"xrp"
+],
+"k": [
+"crash"
+],
+"t": 1794051236.4384232,
+"u": [
+"https://news.google.com/rss/articles/CBMiigFBVV95cUxNXzhkNXo5a1BodzRiTC1lU19ZdThoTWlBa3dvalhTaU53d0twS1BhWEtGSlNCNzlocEg4cEdXcktZaWxYU0laZFNsU0pFLVMwN3hwbDczdXI3VnIwR3I0ajR2dkhnSnctQkN2VnZ4cUIyOS1EbWZTZEd3RGs4TXF2UXlGU0JTaklrMmc?oc=5",
+"https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUdMQ2dqT1RteHdyamdDaHNHbFJmX2o2UnQtdWZZUExMc29ob2l5WExBX1pBU0dOT0xBaG83azc2MXRXT1dhY2FLTjR5YXExUFdUVUx6Y25vSi1hYlE3V09qdUJ5c0dzaVp0NTdicldkTlc5Um5qc0xheXNHYnp0RkNiSFlVSU8xOUozS2RMWVR4Yk1zUFlTcdIBngFBVV95cUxPaG1UTENFTFkwbUVjeElnRnBsaVVVTDlHYVM5ZEJ2WEg5SmhuRG5yS0VrT3pXTVJCZ1hrdTJ3LVRXVEh3d2tXeVZiT3o2SUo2a2JrMkpNbEFWdURlSDVDYmE1RzRfZVl2bXMyMjh2XzVzT2h6YUFkcUpQblBZaVc3SzB3cW9nR2JyLWozNDNKTFpGWWRTb3FJeDhHdDNHQQ?oc=5",
+"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUVlnSFp4RWtJeWUyQTJrLVdRX1d2bHY3bUpqV1hXc21heEZaMF93QVRmd3duV2dLU1U1ck5FVTBVMnpURnpRa0N0Vk5sOUhNTHpZeXQweHVsR0lXM3B3Nkx6SFFGNEVFNFNVajk2UGVIRU1KT1hUVnFtRXAxbjc1aUlWOF9Yd19X?oc=5"
+],
+"w": [
+"bitcoin",
+"could",
+"dumping",
+"ethereum",
+"how",
+"keeps",
+"low",
+"xrp"
+]
+},
+{
+"e": [
+"canadian",
+"iran",
+"treasury"
+],
+"k": [],
+"t": 1794051540.4814157,
+"u": [
+"https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/cointelegraph/73112"
+],
+"w": [
+"$20",
+"alleged",
+"canadian",
+"firms",
+"information",
+"iran",
+"linked",
+"million",
+"money",
+"nuclear",
+"offered",
+"program",
+"sanctioned",
+"service",
+"transactions",
+"treasury"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"a24d7bd99b31",
+24,
+28,
+1
+],
+[
 "98611ff64443",
 16,
-69,
+79,
 1
 ],
 [
 "74b7b6c6cedc",
-17,
-245,
+16,
+255,
 1
 ],
 [
 "e61dcd84dc55",
 0,
-324,
+334,
 1
 ],
 [
 "3c0f5d7519b6",
 10,
-18,
+28,
 1
+],
+[
+"90413bb63dfa",
+75,
+113,
+3
 ],
 [
 "5e3a9ebc78a5",
-47,
-269,
+45,
+279,
 2
 ],
 [
-"a24d7bd99b31",
-10,
-18,
-1
-],
-[
 "1fb38e5f6a51",
-1,
-329,
+0,
+339,
 1
 ],
 [
 "7d99d9a842c0",
 0,
-297,
+307,
 1
 ],
 [
 "a628989e7353",
 10,
-95,
-1
-],
-[
-"7be83f8b6753",
-3,
-239,
+105,
 1
 ]
 ],
-"top_at": 1794050929.5717137
+"top_at": 1794051540.4814157
 }
