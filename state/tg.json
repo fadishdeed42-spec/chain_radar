@@ -298,38 +298,6 @@
 },
 "t": 1793202810.6304655
 },
-"60003b1fd1": {
-"coin": "",
-"facts": "Headline: Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard\nSources: The Block, Wu Blockchain\n\nTelegram news posts about it:\nSingapore, Malaysia and Thailand Central Banks Push Cross-Border Stablecoin and Tokenized Deposit Settlement\n\nAccording to MAS, the central banks of Singapore, Malaysia and Thailand will work with industry participants on cross-border settlement using regulated stablecoins, tokenized deposits and other forms of digital money. Ripple, Visa, Mastercard, Airwallex and the World Bank Group are among the new participants, with work focused on interoperability between payment networks and programmable compliance controls. \u2014 link\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "The Block",
-"story": null,
-"t0": 1792758909.0,
-"tag": null,
-"title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
-"url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
-},
-"p": {
-"keyfact": "Central banks of Singapore, Malaysia, and Thailand add Ripple, Visa, and Mastercard to settlement project.",
-"post": "Singapore, Malaysia and Thailand central banks expand their cross-border stablecoin initiative. Ripple, Visa, Mastercard, Airwallex and the World Bank Group join the project. Work focuses on interoperability and programmable compliance controls. #Crypto",
-"quote": "NONE",
-"reply": "Cross-border settlement tests expand with heavy industry backing.",
-"short": "",
-"stat": "3 | Central banks involved",
-"symbol": "XRP",
-"tag": "REGULATION",
-"thread": "1/ Three central banks just expanded a cross-border stablecoin initiative. Look at the chart. Follow the trail of institutional adoption. \n\n2/ According to reports from The Block and Wu Blockchain, the central banks of Singapore, Malaysia and Thailand are working on cross-border settlement using regulated stablecoins and tokenized deposits. \n\n3/ Industry heavyweights are stepping in. Ripple, Visa, Mastercard, Airwallex and the World Bank Group are among the new participants joining the project. \n\n4/ The stated focus is clear. Work centers on interoperability between payment networks and programmable compliance controls. \n\n5/ The lesson here is simple. While retail noise focuses on daily volatility, traditional finance and central banks quietly build the infrastructure for digital money settlement. #Crypto",
-"timeline": "NONE",
-"title": "MAS, Bank Negara, and BOT Expand Stablecoin Initiative",
-"versus": "NONE",
-"visual": "STAT"
-},
-"t": 1792761586.115322
-},
 "680a32504d": {
 "coin": "bitcoin",
 "facts": "Headline: Strive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\nSources: Wu Blockchain\nCoin in this story: Bitcoin (BTC) $80,389, -0.2% in 24h\n\nTelegram news posts about it:\nStrive opens $1B ATM program for SATS preferred stock, may fund Bitcoin purchases\n\nAccording to an SEC filing, Strive entered into an at-the-market sales agreement with Cantor Fitzgerald, Barclays and five other firms to sell up to $1 billion of its Series A perpetual preferred stock, SATS. The shares carry a 15% annual cumulative dividend rate based on a $100 liquidation preference. Strive said net proceeds may be used for general corporate purposes, including Bitcoin purchases, working capital, income-generating investments and repurchases of common or preferred stock. \u2014 link\n",
@@ -590,6 +558,38 @@
 "visual": "ALERT"
 },
 "t": 1792964057.4952257
+},
+"a09cb90dab": {
+"coin": "bitcoin",
+"facts": "Headline: Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record\nSources: Wu Blockchain\nCoin in this story: Bitcoin (BTC) $75,811, +0.2% in 24h\n\nTelegram news posts about it:\nBitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record\n\nBitcoin's mining difficulty has spent 374 consecutive days below its all-time high of 155.97 T (set on October 29, 2025), officially marking the longest such stretch in the network's history and surpassing the previous 364-day record from the 2011 crash as well as the 253-day gap following China's 2021 mining ban. The protracted plateau is driven by muted BTC price action (~$76,000) and escalating overhead, prompting publicly listed miners to liquidate Bitcoin reserves and pivot site power toward AI colocation. \u2014 link\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Wu Blockchain",
+"story": null,
+"t0": 1794055189.0,
+"tag": null,
+"title": "Bitcoin Mining Difficulty Has Remained Below Its ATH for 374 Consecutive Days, Setting an All-Time Record",
+"url": "https://t.me/wublockchainenglish/26727"
+},
+"p": {
+"keyfact": "Bitcoin mining difficulty has stayed below its peak for 374 consecutive days, setting a new record.",
+"post": "The numbers tell the story. Bitcoin mining difficulty has spent 374 consecutive days below its 155.97 T peak. That breaks the previous 364-day record from the 2011 crash. Muted price action and rising costs are forcing miners to sell reserves and pivot toward AI power.",
+"quote": "NONE",
+"reply": "The network data reveals the exact scale of the miner squeeze.",
+"short": "",
+"stat": "374 DAYS | Below peak difficulty",
+"symbol": "BTC",
+"tag": "MARKET",
+"thread": "",
+"timeline": "Oct 29, 2025 = Peak difficulty hits 155.97 T ; Day 364 = Previous record surpassed ; Day 374 = Longest plateau in network history",
+"title": "374 Days Below ATH: Mining Record Set",
+"versus": "Current streak = 374 days || 2011 crash record = 364 days",
+"visual": "STAT"
+},
+"t": 1794064866.8231814
 },
 "a5850ded60": {
 "coin": "",
@@ -853,7 +853,7 @@
 "menu": {},
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489402,
+"offset": 138489403,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
