@@ -315,7 +315,9 @@ def tg(text, photo=None, buttons=None):
         print('telegram fail', e)
 
 
-E = html.escape
+def E(s, quote=True):                                                   # safe: a dict/None here used to crash the whole news scan
+    if isinstance(s, dict): s = s.get('title') or s.get('text') or ''
+    return html.escape(s if isinstance(s, str) else str(s or ''), quote)
 
 
 def story_msg(sc, lead, coin, srcs, items, age_h, urgent, pr=None):
@@ -3038,7 +3040,7 @@ def handle(u, tgs):
 
 
 from concurrent.futures import ThreadPoolExecutor as _TPE
-POOL = _TPE(3)                                                            # up to 3 slow requests at once; the chat never waits behind one
+POOL = _TPE(6)                                                            # up to 3 slow requests at once; the chat never waits behind one
 INSTANT = ('/help', '/start', 'help', '/mute', '/unmute', '💬 Reply to a post', '🎬 Studio', '🎬 Make a Short')
 SLOW_HINT = {'/top': '⏳ Getting the hottest stories…', '📰 Top stories': '⏳ Getting the hottest stories…',
              '/story': '⏳ Researching the story (real articles, about a minute)…', '📖 Story': '⏳ Researching…',}
@@ -3096,7 +3098,7 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
         try:
             main()
         except Exception as e:
-            print('scan fail', repr(e))
+            import traceback; print('scan fail', repr(e), traceback.format_exc()[-900:])
     if tgs.get('menu_v') != MENU_V:
         tgs['menu_v'] = MENU_V; save_tg(tgs)
         send_menu('🆕 Chain Secrets Studio is here\n\n'
@@ -3129,7 +3131,14 @@ def listen(seconds=int(os.environ.get('LISTEN_SECONDS', 20400))):
                 run_update(u, tgs)
             else:                                                         # everything slow runs in the background: the bot keeps listening
                 quick_ack(u)
-                POOL.submit(run_update, u, tgs)
+                fut = POOL.submit(run_update, u, tgs)
+                def watchdog(fut=fut):                                    # never leave the chat hanging: report after 4 min
+                    if not fut.done():
+                        print('request timeout')
+                        try: unack()
+                        except Exception: pass
+                        tg('⚠️ That request is taking too long. Please try again in a minute.')
+                _thr.Timer(240, watchdog).start()
         if time.time() - last_save > 600:
             save_tg(tgs); git_sync(force=True)
             try:
