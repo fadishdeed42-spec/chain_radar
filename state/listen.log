@@ -42,3 +42,25 @@ scan fail AttributeError("'dict' object has no attribute 'replace'") Traceback (
                                                              ^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'dict' object has no attribute 'replace'
 
+fetch fail https://www.reddit.com/r/CryptoCurrency/rising.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/rising.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot.json 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=30
+fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurrency/hot/.rss
+telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 4
+market 100 news 33 reddit 25 hacks 0
+scan fail AttributeError("'dict' object has no attribute 'replace'") Traceback (most recent call last):
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 3099, in safe_scan
+    main()
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 446, in main
+    groups = cluster(news)
+             ^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 169, in cluster
+    if same_story(sg, m['sig']):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 644, in same_story
+    A, B = w(a), w(b)
+           ^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 643, in <lambda>
+    w = lambda t: {x[:6] for x in re.findall(r"[a-z0-9$%]+", html.unescape(t).replace(',', '').lower()) if x not in _STOP and len(x) > 2}
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'replace'
+
