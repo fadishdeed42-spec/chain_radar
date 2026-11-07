@@ -1,0 +1,16 @@
+json eadaf28321cf
+   take 1: score +1.90  wer 0.00  end -2.6st  2.4w/s  heard: $6.3 billion gone in 20 minutes.
+scene 1: 3.71s ex 0.78  chosen wer 0.00
+   take 1: score -2.44  wer 0.00  end +0.0st  2.7w/s  rushed ['November', 'hacker', 'exchange']  heard: On November 1st, a hacker got inside Binance, the biggest crypto excha
+   take 2: score -3.35  wer 0.00  end +0.0st  2.9w/s  rushed ['November', 'hacker', 'inside', 'biggest']  heard: On November 1st, a hacker got inside Binance, the biggest crypto excha
+   take 3: score -1.63  wer 0.00  end +0.0st  2.6w/s  rushed ['November', 'exchange']  heard: On November 1st, a hacker got inside Binance, the biggest crypto excha
+   take 4: score -2.61  wer 0.00  end +0.0st  2.9w/s  rushed ['November', 'hacker', 'exchange']  heard: On November 1st, a hacker got inside Binance, the biggest crypto excha
+scene 2: 5.47s ex 0.68  chosen wer 0.00
+   take 1: score +1.83  wer 0.00  end -9.7st  2.9w/s  heard: The vault opened, and before anyone noticed...
+scene 3: 2.43s ex 0.7  chosen wer 0.00
+   take 1: score +1.95  wer 0.00  end -3.5st  2.5w/s  heard: $6.3 billion.
+scene 4: 1.99s ex 0.75  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+14.64s, force-aligned 35 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/b3d/voice/b0p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.64, 0.53, 0.47]

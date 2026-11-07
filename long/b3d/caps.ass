@@ -1,0 +1,45 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginV
+Style: W,DejaVu Sans,110,&H00FFFFFF,&H00000000,&H64000000,1,1,9,3,2,560
+
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0,0:00:00.48,0:00:00.75,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}SIX
+Dialogue: 0,0:00:00.75,0:00:00.96,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}POINT
+Dialogue: 0,0:00:00.96,0:00:01.22,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}THREE
+Dialogue: 0,0:00:01.22,0:00:01.58,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)\c&H3C3CFF&}BILLION
+Dialogue: 0,0:00:01.58,0:00:02.19,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}DOLLARS
+Dialogue: 0,0:00:02.19,0:00:02.64,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)\c&H3C3CFF&}GONE
+Dialogue: 0,0:00:02.64,0:00:02.82,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}IN
+Dialogue: 0,0:00:02.82,0:00:03.40,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}TWENTY
+Dialogue: 0,0:00:03.40,0:00:04.40,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)\c&H3C3CFF&}MINUTES
+Dialogue: 0,0:00:04.40,0:00:04.52,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}ON
+Dialogue: 0,0:00:04.52,0:00:05.00,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}NOVEMBER
+Dialogue: 0,0:00:05.00,0:00:05.67,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}FIRST
+Dialogue: 0,0:00:05.67,0:00:05.84,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}A
+Dialogue: 0,0:00:05.84,0:00:06.26,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}HACKER
+Dialogue: 0,0:00:06.26,0:00:06.46,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}GOT
+Dialogue: 0,0:00:06.46,0:00:06.97,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}INSIDE
+Dialogue: 0,0:00:06.97,0:00:07.79,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}BINANCE
+Dialogue: 0,0:00:07.79,0:00:08.11,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:08.11,0:00:08.45,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}BIGGEST
+Dialogue: 0,0:00:08.45,0:00:08.79,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}CRYPTO
+Dialogue: 0,0:00:08.79,0:00:09.29,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}EXCHANGE
+Dialogue: 0,0:00:09.29,0:00:09.41,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}ON
+Dialogue: 0,0:00:09.41,0:00:10.09,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}EARTH
+Dialogue: 0,0:00:10.09,0:00:10.17,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:10.17,0:00:10.49,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}VAULT
+Dialogue: 0,0:00:10.49,0:00:11.09,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}OPENED
+Dialogue: 0,0:00:11.09,0:00:11.19,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:11.19,0:00:11.61,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}BEFORE
+Dialogue: 0,0:00:11.61,0:00:11.93,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}ANYONE
+Dialogue: 0,0:00:11.93,0:00:12.75,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}NOTICED
+Dialogue: 0,0:00:12.75,0:00:13.00,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}SIX
+Dialogue: 0,0:00:13.00,0:00:13.23,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}POINT
+Dialogue: 0,0:00:13.23,0:00:13.52,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}THREE
+Dialogue: 0,0:00:13.52,0:00:13.87,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)\c&H3C3CFF&}BILLION
+Dialogue: 0,0:00:13.87,0:00:14.60,W,{\fscx120\fscy120\t(0,90,\fscx100\fscy100)}DOLLARS
