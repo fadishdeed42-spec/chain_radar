@@ -2406,6 +2406,12 @@ def show_script(jid, tgs):
         m += '\n\n⚠️ <b>Fact-check could not confirm:</b>\n' + '\n'.join(f'{n}. {E("; ".join(v))[:160]}' for n, v in sorted(rv.items(), key=lambda kv: int(kv[0])))
     else:
         m += '\n\n✅ Every line was checked against the sources.'
+    try:                                                                  # the checker: hook, pacing, wording, every number vs the research, loop ending
+        import qc as sqc
+        qci = sqc.script(sb, d.get('facts') or ''); d['qc'] = sqc.verdict(qci)
+        m += '\n\n' + sqc.report(qci, 'Script')
+    except Exception as e:
+        print('script qc fail', repr(e)); d['qc'] = None
     m += ('\n\n<b>Checkpoint 1:</b> check the facts. To change a line, reply like <code>3: new line</code>.'
           '\nThen tap ✅ and I record the voice (' + {30: '~12 min', 45: '~15 min', 60: '~20 min', 90: '~28 min', 120: '~35 min'}[sb['length']] + ').')
     if d.get('note'):
@@ -2415,7 +2421,7 @@ def show_script(jid, tgs):
     blocked = sb.get('length_ok') is False and not sb.get('length_override')
     if blocked and not d.get('note'):
         m = m.replace('\n\n<b>Checkpoint 1:</b>', f'\n\n⚠️ {E(sb.get("length_msg", "length is off"))}\n\n<b>Checkpoint 1:</b>')
-    tg(m[:4000], None, ([('🔁 Try again', f'sx:{jid}'), ('✅ Use anyway', f'sk:{jid}')] if blocked else [('✅ Make the voice', f'sa:{jid}'), ('🔄 Rewrite', f'sx:{jid}')]) +
+    tg(m[:4000], None, ([('🔁 Try again', f'sx:{jid}'), ('✅ Use anyway', f'sk:{jid}')] if blocked else [('✅ Make the voice' + (' anyway' if d.get('qc') == 'fail' else ''), f'sa:{jid}'), ('🔄 Rewrite', f'sx:{jid}')]) +
        [(f'{TONE_EMO[t]} {t.title()}', f'st:{jid}:{t}') for t in sstory.TONES if t != sb['tone']] +
        [(('• ' if L == sb['length'] else '') + '⏱ ' + LEN_NAME[L], f'sl:{jid}:{L}') for L in sstory.LENGTHS if L >= 60])
 
@@ -2488,7 +2494,7 @@ def short_approve(jid, tgs, seed_bump=False):
     studio_index(tgs); git_sync(force=True)
     if dispatch_short(jid, 'voice'):
         mins = {30: '12', 45: '15', 60: '20', 90: '28', 120: '35'}.get(sstory.length_of(sb), '15')
-        tg('🎙 Recording the voice' + (' (new take)' if seed_bump else '') + f' for #{sb["ep"]}. You\'ll get an audio preview here in ~{mins} minutes.')
+        tg('🎙 Recording the voice' + (' (new take)' if seed_bump else '') + f'. You\'ll get an audio preview here in ~{mins} minutes.')
     else:
         tg('⚠️ Couldn\'t start the voice job on GitHub. Try again in a minute.')
 

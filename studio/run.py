@@ -83,8 +83,13 @@ def voice(jid):
     L_ = sb.get('length', 45); off = (real / L_ - 1) * 100
     lens = (f'\n⏱ <b>Real length: {story.mmss(real)}</b> (you picked {story.mmss(L_)}, {off:+.0f}%)'
             + ('' if story.WIN_LO - 1 <= off / 100 <= story.WIN_HI - 1 else '\n⚠️ Outside the length you asked for. Tap ✏️ Edit script to fix it, or continue.'))
-    tg('sendAudio', {'caption': f'🎙 <b>Voice ready</b> · #{sb.get("ep", "")} {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]} · speech check: {q}{misheard}{lens}'
-                                + ('' if sb.get('chart') else ' · no chart for this story') + '\n\n'
+    try:
+        import qc
+        vqc = qc.voice(d); qc.save(d, 'voice', vqc); vrep = '\n\n' + qc.report(vqc, 'Voice')
+    except Exception as e:
+        print('voice qc fail', repr(e)); vrep = '\n\n➖ Voice check could not run'
+    tg('sendAudio', {'caption': (f'🎙 <b>Voice ready</b> · {E(sb.get("title", ""))}\n{secs:.0f}s · tone: {sb["tone"]}{lens}'
+                                + ('' if sb.get('chart') else ' · no chart for this story') + vrep)[:900] + '\n\n'
                                 '<b>Checkpoint 2:</b> listen, then make the video.',
                      'title': sb.get('title', 'Chain Secrets'), 'performer': 'Chain Secrets',
                      'reply_markup': kb([[('🎬 Make the video', f'sv:{jid}')], [('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
@@ -219,6 +224,12 @@ def render(jid):
     out = f'{d}/short_s.mp4'
     qa = video_qa(out, T)
     print('video check:', qa)
+    try:
+        import qc
+        vq = qc.video(out, T, d, sb); qc.save(d, 'video', vq); vrep = qc.report(vq, 'Video')
+    except Exception as e:
+        print('video qc fail', repr(e)); vrep = '➖ Video check could not run'
+    open(f'{d}/qc_video.txt', 'w').write(vrep); print(vrep)
     try:                                                                  # contact sheet of the final video (for review)
         n_ = 12
         for k in range(n_):
@@ -240,8 +251,10 @@ def render(jid):
         for f in glob.glob(f'{d}/q_*.png') + [f'{d}/q_list.txt']: os.remove(f)
         status(jid, 'held', dur=round(T['dur']), video_check=qa, hook_t=round(hook_t + .6, 1))
         print('held for review'); return
-    tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n' + ('✅ Video check: no frozen picture, picture and sound line up.' if not qa else '⚠️ Video check: ' + E('; '.join(qa[:4]))) + f'\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '
-                                f'Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920, 'duration': int(T['dur']),
+    if os.path.exists(f'{d}/sheet.jpg'):
+        tg('sendPhoto', {'caption': '🖼 12 frames from the video, for a quick look.'}, files={'photo': open(f'{d}/sheet.jpg', 'rb')})
+    tg('sendVideo', {'caption': (f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n\n' + vrep)[:900] + '\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. '
+                                'Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920, 'duration': int(T['dur']),
                      'reply_markup': kb([[('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
        files={'video': open(out, 'rb')})
     kit = (f'📦 <b>Publish kit</b>\n\n<b>Title</b>\n<code>{E(sb.get("title", ""))}</code>\n\n<b>Description</b>\n<code>{E(sb.get("description", ""))}\n\n'
@@ -259,7 +272,8 @@ def send(jid):
     out = f'{d}/short_s.mp4'
     st = json.load(open(f'{d}/status.json')) if os.path.exists(f'{d}/status.json') else {}
     qa = st.get('video_check') or []
-    tg('sendVideo', {'caption': f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n' + ('✅ Checked frame by frame before sending.' if not qa else '⚠️ Video check: ' + E('; '.join(qa[:4])))
+    vrep = open(f'{d}/qc_video.txt').read() if os.path.exists(f'{d}/qc_video.txt') else ('✅ Checked frame by frame before sending.' if not qa else '⚠️ Video check: ' + E('; '.join(qa[:4])))
+    tg('sendVideo', {'caption': (f'🎬 <b>{E(sb.get("title", ""))}</b>\n{T["dur"]:.0f}s · {sb["tone"]} · 1080p\n\n' + vrep)[:900]
                                 + '\n\n<b>Checkpoint 3:</b> watch it. Happy? Upload it. Want changes? Tap below.', 'supports_streaming': 'true', 'width': 1080, 'height': 1920,
                      'duration': int(T['dur']), 'reply_markup': kb([[('🔄 New voice take', f'sr:{jid}'), ('✏️ Edit script', f'se:{jid}')]])},
        files={'video': open(out, 'rb')})

@@ -54,7 +54,7 @@ def test_removed_commands_and_features():
     sent.clear(); r.handle({'message': {'text': 'Some pasted news article text that is long enough to have been turned into a post before ' * 2, 'from': {'id': 1}}}, tgs)
     assert sent and sent[0][0] == r.HELP                                                    # pasted articles / forwards no longer make posts
     names = [c for c, _ in r.COMMANDS]
-    assert not {'movers', 'hacks', 'kit', 'hook', 'chart', 'menu', 'brain'} & set(names) and {'story', 'today', 'top', 'short', 'viral'} <= set(names)
+    assert not {'movers', 'hacks', 'kit', 'hook', 'chart', 'menu', 'brain'} & set(names) and {'story', 'top', 'short'} <= set(names) and not {'today', 'viral', 'ep'} & set(names)
     assert not hasattr(r, 'track_mine') and not hasattr(r, 'check_mine') and not hasattr(r, 'weekly_report') and not hasattr(r, 'on_feedback')
 
 
