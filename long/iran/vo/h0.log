@@ -1,0 +1,47 @@
+json bfa790f6bb0e
+   take 1: score +0.49  wer 0.09  end -2.0st  2.9w/s  rushed ['started']  heard: $6.3 billion left by once in one night. It started with a job intervie
+   take 2: score -1.24  wer 0.06  end -0.9st  2.7w/s  rushed ['started']  heard: $6.3 billion left finance in one night. It started with a job intervie
+   take 3: score -1.09  wer 0.03  end +0.0st  2.4w/s  rushed ['interview.']  heard: $6.3 billion left in one night. It started with a job interview.
+   take 4: score -0.55  wer 0.03  end -2.0st  3.2w/s  rushed ['started', 'interview.']  heard: $6.3 billion left in one night. It started with a job interview.
+   take R1: wer 0.09  heard: $6.3 billion left by once in one night. It started with a job intervie
+   take R2: wer 0.06  heard: 6.3 billion dollars left finance in one night. It started with a job i
+   take R3: wer 0.06  heard: $6.3 billion left finance in one night. It started with a job intervie
+   take R4: wer 0.06  heard: $6.3 billion left finance in one night. It started with a job intervie
+scene 1: 4.72s ex 0.55  chosen wer 0.06
+   take 1: score -3.08  wer 0.00  end +0.0st  3.5w/s  rushed ['developer', 'search']  heard: In June, a Binance Wallet developer downloaded a fake copy of a tool. 
+   take 2: score -4.26  wer 0.00  end +0.0st  3.3w/s  rushed ['Binance', 'Wallet', 'developer', 'search']  heard: In June, a Binance Wallet developer downloaded a fake copy of a tool. 
+   take 3: score -3.01  wer 0.00  end +0.0st  3.5w/s  rushed ['developer', 'search']  heard: In June, a Binance Wallet developer downloaded a fake copy of a tool. 
+   take 4: score -3.00  wer 0.00  end +0.0st  3.5w/s  rushed ['developer', 'search']  heard: In June, a Binance Wallet developer downloaded a fake copy of a tool. 
+scene 2: 7.47s ex 0.5  chosen wer 0.00
+   take 1: score -2.75  wer 0.00  end +0.0st  3.0w/s  rushed ['September,', 'another', 'looking']  heard: In September, another engineer, looking for a new job, had a video int
+   take 2: score -2.96  wer 0.00  end +0.0st  3.1w/s  rushed ['September,', 'looking', 'company']  heard: In September, another engineer, looking for a new job, had a video int
+   take 3: score -1.11  wer 0.00  end +0.0st  3.0w/s  rushed ['September,']  heard: In September, another engineer looking for a new job had a video inter
+   take 4: score -2.96  wer 0.00  end +0.0st  3.1w/s  rushed ['September,', 'another', 'looking']  heard: In September, another engineer, looking for a new job, had a video int
+scene 3: 9.11s ex 0.52  chosen wer 0.00
+   take 1: score -3.23  wer 0.09  end +0.0st  2.9w/s  rushed ['hackers', 'computers', 'wallet']  heard: On October 20th, the hackers used those two computers to take over the
+   take 2: score -4.02  wer 0.09  end +0.0st  2.9w/s  rushed ['hackers', 'computers', 'wallet', 'systems.']  heard: On October 20, the hackers used those two computers to take over the w
+   take 3: score -4.40  wer 0.06  end +0.0st  2.6w/s  rushed ['October', 'hackers', 'computers', 'wallet', 'developer']  heard: On October 20th, the hackers used those two computers to take over the
+   take 4: score -3.30  wer 0.09  end +0.0st  3.0w/s  rushed ['hackers', 'computers', 'wallet']  heard: On October 20th, the hackers used those two computers to take over the
+   take R1: wer 0.09  heard: On October 20, the hackers used those two computers to take over the w
+   take R2: wer 0.06  heard: On October 20th, the hackers used those two computers to take over the
+   take R3: wer 0.09  heard: On October 20th, the hackers used those two computers to take over the
+   take R4: wer 0.09  heard: On October 20th, the hackers used those two computers to take over the
+scene 4: 5.81s ex 0.5  chosen wer 0.06
+   take 1: score +1.06  wer 0.00  end -6.6st  2.4w/s  rushed ['October']  heard: On October 29th, they ran one script.  233 million XRP left five hot w
+   take 2: score -1.96  wer 0.00  end +0.0st  3.0w/s  rushed ['October', 'wallets']  heard: On October 29th, they ran one script.  233 million XRP left five hot w
+   take 3: score +0.33  wer 0.00  end -2.5st  2.5w/s  rushed ['October', 'wallets']  heard: On October 29th, they ran one script.  233 million XRP left five hot w
+   take 4: score +1.19  wer 0.00  end -5.0st  2.6w/s  rushed ['October']  heard: On October 29th, they ran one script.  233 million XRP left five hot w
+scene 5: 9.67s ex 0.55  chosen wer 0.00
+   take 1: score -0.93  wer 0.00  end +0.0st  3.3w/s  heard: Most of it was gone in about 20 minutes.  Binance froze about $2.85 bi
+   take 2: score -1.28  wer 0.06  end +0.0st  2.8w/s  rushed ['Finance']  heard: Most of it was gone in about 20 minutes. Finance froze about $2.85 bil
+   take 3: score -0.88  wer 0.06  end -2.6st  3.3w/s  rushed ['Finance', 'billion.']  heard: Most of it was gone in about 20 minutes.  Finance froze about $2.85 bi
+   take 4: score -1.18  wer 0.00  end +0.0st  3.0w/s  rushed ['Binance']  heard: Most of it was gone in about 20 minutes.  Binance froze about $2.85 bi
+scene 6: 5.52s ex 0.5  chosen wer 0.06
+   take 1: score +0.20  wer 0.00  end -2.3st  3.3w/s  rushed ['started']  heard: The FBI blames North Korean hackers, and it all started with a job int
+   take 2: score -1.48  wer 0.00  end +0.0st  3.5w/s  heard: The FBI blames North Korean hackers, and it all started with a job int
+   take 3: score +0.09  wer 0.00  end -1.3st  3.7w/s  heard: The FBI blames North Korean hackers, and it all started with a job int
+scene 7: 4.87s ex 0.5  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+49.53s, force-aligned 144 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/b3d/v2/h0p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.66, 0.62, 0.52, 0.83, 0.63, 0.61]
