@@ -364,3 +364,4 @@ fetch fail https://www.reddit.com/r/CryptoCurrency/hot/.rss 429 Client Error: To
 telegram channels ok: ['WatcherGuru', 'wublockchainenglish', 'cointelegraph', 'lookonchainchannel', 'TheBlockNews', 'binance_announcements', 'crypto_headlines'] | failed: [] | posts 5
 market 100 news 34 reddit 25 hacks 0
 scan fail AttributeError("'dict' object has no attribute 'replace'")
+answered '/top' in 1.5s
