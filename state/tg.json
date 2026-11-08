@@ -170,6 +170,38 @@
 },
 "t": 1793202253.9197717
 },
+"30bab482ff": {
+"coin": "",
+"facts": "Headline: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.\nSources: Watcher.Guru\n\nTelegram news posts about it:\nBREAKING: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.\n\n$BTC falls under $74,000\n$ETH falls under $2,125\n$XRP falls under $1.10\n$SOL falls under $90\n\n@WatcherGuru\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Watcher.Guru",
+"story": null,
+"t0": 1794175482.0,
+"tag": null,
+"title": "$1,000,000,000 liquidated from the crypto market in the past 10 minutes.",
+"url": "https://t.me/WatcherGuru/15881"
+},
+"p": {
+"keyfact": "Watcher.Guru reports $1,000,000,000 liquidated from the crypto market in ten minutes.",
+"post": "The charts just flashed red. Watcher.Guru reports $1,000,000,000 liquidated from the crypto market in the past 10 minutes. Bitcoin dropped under $74,000, Ethereum fell under $2,125, Ripple slipped under $1.10, and Solana dipped under $90. Sudden market wipes leave a paper trail. #Crypto",
+"quote": "NONE",
+"reply": "The numbers tell the story.",
+"short": "",
+"stat": "$1,000,000,000 | 10 Min Liquidations",
+"symbol": "NONE",
+"tag": "BREAKING",
+"thread": "",
+"timeline": "NONE",
+"title": "$1B Liquidated In 10 Minutes",
+"versus": "NONE",
+"visual": "STAT"
+},
+"t": 1794175627.0534678
+},
 "42f8a5f738": {
 "coin": "pepe",
 "facts": "Headline: Arkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\nSources: Wu Blockchain\nCoin in this story: Pepe (PEPE) $0.00000431, -1.0% in 24h\n\nTelegram news posts about it:\nArkham: Justin Sun-Linked Wallets Hold $51.25M in PEPE, Accounting for 2.82% of Supply\n\nAccording to Arkham, wallets it has labeled or tentatively attributed to Justin Sun collectively hold approximately $51.25 million in PEPE, representing 2.82% of the token's total supply, potentially making him the largest individual PEPE holder. Arkham tracked two transfers from Poloniex to the associated wallets on October 17 and 26, worth approximately $28.44 million and $20.32 million, respectively, totaling $48.76 million. Between October 15 and 25, wallets already labeled as belonging to Sun also transferred approximately $77 million in stablecoins to Poloniex. Some of the PEPE had previously moved between Binance, HTX and Poloniex. \u2014 link\n",
@@ -201,38 +233,6 @@
 "visual": "STAT"
 },
 "t": 1793107963.2196207
-},
-"590a8d19ef": {
-"coin": "bitcoin",
-"facts": "Headline: SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying?\nSources: Crypto News, The Motley Fool, Yahoo Finance\nCoin in this story: Bitcoin (BTC) $80,190, -0.3% in 24h\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "The Motley Fool",
-"story": null,
-"t0": 1792920300.0,
-"tag": null,
-"title": "SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying?",
-"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5"
-},
-"p": {
-"keyfact": "The SEC has reportedly approved leveraged Bitcoin and Ethereum funds for trading.",
-"post": "The SEC has reportedly approved leveraged Bitcoin and Ethereum funds for trading. As BTC trades at $80,190 down 0.3 percent in 24 hours, investors are weighing the risks. #Crypto",
-"quote": "NONE",
-"reply": "Another massive shift for regulated products.",
-"short": "",
-"stat": "$80,190 | BTC Price",
-"symbol": "BTC",
-"tag": "ETF",
-"thread": "",
-"timeline": "NONE",
-"title": "SEC Approves Leveraged Crypto ETFs",
-"versus": "NONE",
-"visual": "STAT"
-},
-"t": 1792921647.3145463
 },
 "5b05fb9fbf": {
 "coin": "bitcoin",
@@ -945,7 +945,7 @@
 "menu": {},
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489413,
+"offset": 138489414,
 "otd": {
 "date": "Oct 21",
 "now": 83421,

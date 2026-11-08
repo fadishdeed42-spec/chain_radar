@@ -5,7 +5,8 @@
 1794128665.686269,
 1794132361.9607666,
 1794142122.8885212,
-1794148181.694124
+1794148181.694124,
+1794175612.3821495
 ],
 "menu": {
 "0694f983dc6a": {
@@ -43,9 +44,10 @@
 "CoinGape",
 "CryptoPotato",
 "Cryptonews.net",
+"FXLeaders",
 "TechBullion"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794157770.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can BTC Retake $77,900 as Remittix Earn Opens ETH, USDT and USDC Yield Options?",
@@ -89,6 +91,19 @@
 "tgtext": "",
 "title": "Bitcoin Mining Difficulty Below Record for Over a Year",
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUVpSYUViVjNUYjJIME1SZzY4dEk0VkllYk9WQVNmSzZVRXFhcmFVbXF1ZmVNQ0N4bTFBcUNQR2FMMW05c20tUVVGdkYxeU1IanpoSVNVSk1QQklObEdXeC1QY3RIaXp0ZGp4THU1OG9Ebm5jZFBBN2lEYzZWOEdoTVZYblVONDJzSUVSUEJ6czBuRTNDV0U3TXFsNVRCdzZFN0RlNWY3UQ?oc=5",
+"urls": []
+},
+"107a210b3c50": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794175928.9059336,
+"t0": 1794175482.0,
+"tgtext": "BREAKING: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.\n\n$BTC falls under $74,000\n$ETH falls under $2,125\n$XRP falls under $1.10\n$SOL falls under $90\n\n@WatcherGuru",
+"title": "$1,000,000,000 liquidated from the crypto market in the past 10 minutes.",
+"url": "https://t.me/WatcherGuru/15881",
 "urls": []
 },
 "13660494826a": {
@@ -375,7 +390,7 @@
 "Nikkei Asia",
 "Traders Union"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794161897.0,
 "tgtext": "",
 "title": "U.S. crypto policy outlook sharpens as Congress shift, Binance hack draw focus",
@@ -510,7 +525,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794162731.0,
 "tgtext": "",
 "title": "Web3Auth says it frontran hackers by moving $5.6 million out of exposed Keplr wallets",
@@ -555,7 +570,7 @@
 "srcs": [
 "Daily Mail"
 ],
-"t": 1794175278.9348242,
+"t": 1794175612.3821495,
 "t0": 1794169648.0,
 "tgtext": "",
 "title": "Nvidia boss sensationally admits to cheating on wife in Chinese spy scandal as it's revealed Marco Rubio knew about breach but still let billionaire in Trump's orbit",
@@ -668,7 +683,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794170401.0,
 "tgtext": "\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -1086,7 +1101,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794155451.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.",
@@ -1226,7 +1241,7 @@
 "srcs": [
 "Cryptonews"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794164400.0,
 "tgtext": "",
 "title": "Elon Musk\u2019s Grok AI Predicts an Unbelievable BTC Price",
@@ -1341,6 +1356,20 @@
 "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeG9NSmFBZW1IWEFyM3AzYlZXXzlTUHNoX0dUemxCckhjVG5Sb0ppa0lLczhFTUhMT0VRdXlwODRIVWMyMUZ6elFrLXNROEtjZTBtSmZyZkhFSkxhUEE5STJBWUcyV3VPLUJfSkdvYnJ3T2FvV2hYR0lmR0NNNUZCNVZsQlhmOVJzMGFxRGtYMWFmNHllQ3h5MnZDNllBN0MtRFpLTXl0Q1I2VlFqVGNkajdqaDZxU3lmTVViLWVTR0xzamN4b0NzZDJ0c3l5MkluRmJ0OWRMWWhJZ0xWYlhTbzlMWTJWREpPWEE?oc=5",
 "urls": []
 },
+"870040703f9e": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"The Defiant"
+],
+"t": 1794175612.3821495,
+"t0": 1794162660.0,
+"tgtext": "",
+"title": "Bitcoin Trades $200 Above Strategy's Average Cost of $75,451. What Happens to MSTR if BTC Closes Below It?",
+"url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNUU1ZDV4NGpvajc0Z0lzUDl4TVY0QlI0RWFETWFKZ1JsOU9xc1J5SW81QzBFVVhTNHhCamxNenFWSmU3NG1EUDdrdm52M0JxUGt1VWtlTlFCVlJHbE10WG8yN2oyRXZnai1BekMxYm83S0tmUGo0Z2w4M0F0UlIyMy14aHByN1FlSU51VUFvTDYzM1JjVER0VE9pSHBZeHFuRWlQNGxlenkwUTlVSXFqREdvRGNTVTJRMThKRlNYeWNMYlhYLUI4UHRUWFcxZlRMQmhHd1FoX2poWU1Ka18tRUZYRjBaaTA4MFNtdUZteWI?oc=5",
+"urls": []
+},
 "8736d70f80e5": {
 "coin": "",
 "src": "Gridiron Heroics",
@@ -1377,7 +1406,7 @@
 "Cointelegraph",
 "Cryptonews.net"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794155701.0,
 "tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -1419,7 +1448,7 @@
 "srcs": [
 "Seoul Economic Daily"
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794171605.0,
 "tgtext": "",
 "title": "Gopax Halts Trading After Hacking Threats, Raising Doubts",
@@ -1896,7 +1925,7 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1794175278.9348242,
+"t": 1794175928.9059336,
 "t0": 1794173460.0,
 "tgtext": "",
 "title": "Bitdeer and Riot Jumped 13% in a Day as Bitcoin Fell Under $75,000. Why Are Miner Stocks Rallying While BTC Drops?",
@@ -2594,20 +2623,20 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
-"0c8fc3805c3b": 0.145,
+"0c8fc3805c3b": 0.605,
+"107a210b3c50": 0.879,
 "117f26445cb1": 0.026,
 "1fb38e5f6a51": 0.06,
 "2a4a4a162280": 0.037,
-"2bdcd0206c05": 0.02,
+"2bdcd0206c05": 0.011,
 "2fd6c0f0ccd2": 0.341,
 "3694f874ff41": 0.051,
-"36a9ac884d66": 0.005,
 "3b8ac45e9723": 0.135,
-"4184b63d6e3b": 0.17,
 "4657a3ad0294": 0.023,
 "4c1be5f0837a": 0.234,
 "62b600882fdd": 0.004,
 "6b144c3bca64": 0.007,
+"7085682ebf92": 0.073,
 "76c6272d4454": 0.042,
 "79c684d894e0": 0.186,
 "7a1a56ca7fcd": 0.048,
@@ -2615,11 +2644,10 @@
 "7ef001e2c304": 0.078,
 "870040703f9e": 0.032,
 "8736d70f80e5": 0.036,
-"8ad4c8b2b87d": 0.061,
+"8ad4c8b2b87d": 0.045,
 "8c2465a183ed": 0.045,
 "8d30102c4b21": 0.587,
 "935d32699a54": 0.088,
-"97a59e0bd5d1": 0.015,
 "9b0d763fff85": 0.01,
 "a293db974ad6": 0.035,
 "a5501fb630b9": 0.028,
@@ -3182,71 +3210,88 @@
 "trump",
 "vowing"
 ]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1794175612.3821495,
+"u": [
+"https://t.me/WatcherGuru/15881"
+],
+"w": [
+"000",
+"liquidated",
+"market",
+"minutes",
+"past"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"107a210b3c50",
+25,
+7,
+1
+],
+[
+"0c8fc3805c3b",
+48,
+303,
+5
+],
+[
 "8d30102c4b21",
-44,
-326,
+43,
+337,
 3
 ],
 [
 "2fd6c0f0ccd2",
-58,
-223,
+56,
+234,
 3
 ],
 [
 "4c1be5f0837a",
 10,
-81,
+92,
 1
 ],
 [
 "79c684d894e0",
 0,
-330,
+341,
 2
 ],
 [
-"4184b63d6e3b",
-43,
-94,
-1
-],
-[
-"0c8fc3805c3b",
-36,
-292,
-4
-],
-[
 "3b8ac45e9723",
-13,
-209,
+11,
+220,
 1
 ],
 [
 "b79515a48b3d",
 20,
-30,
+41,
 1
 ],
 [
 "935d32699a54",
 32,
-61,
+72,
 1
 ],
 [
 "7ef001e2c304",
-28,
-181,
+27,
+192,
 1
 ]
 ],
-"top_at": 1794175278.9348242
+"top_at": 1794175928.9059336
 }
