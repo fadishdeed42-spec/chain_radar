@@ -13,7 +13,7 @@ bt = lambda k: B[k]
 
 bpy.ops.wm.read_factory_settings(use_empty=True)
 sc = bpy.context.scene
-sc.render.engine = 'CYCLES'; sc.cycles.use_denoising = True
+sc.render.engine = 'CYCLES'; sc.cycles.use_denoising = True; sc.cycles.adaptive_threshold = .05
 sc.cycles.max_bounces = 4; sc.cycles.transmission_bounces = 4; sc.render.use_persistent_data = True
 sc.render.resolution_x, sc.render.resolution_y = (540, 960) if MODE in ('mid', 'stills') else (1080, 1920)
 sc.render.fps = FPS; sc.frame_start, sc.frame_end = 1, NF
@@ -32,7 +32,7 @@ try:
         except Exception as e: print('no', kind, e)
 except Exception as e: print('gpu setup', e)
 sc.cycles.device = 'GPU' if GPU else 'CPU'
-sc.cycles.samples = 96 if GPU else (10 if MODE in ('mid', 'stills') else 14)
+sc.cycles.samples = 32 if GPU else (10 if MODE in ('mid', 'stills') else 14)
 sc.cycles.denoiser = 'OPENIMAGEDENOISE'                      # OptiX denoiser fails on Kaggle's driver
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 if not os.path.exists(FONT): FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../studio/fonts/InterDisplay-ExtraBold.otf')
