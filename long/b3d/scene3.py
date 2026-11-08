@@ -15,7 +15,7 @@ bpy.ops.wm.read_factory_settings(use_empty=True)
 sc = bpy.context.scene
 sc.render.engine = 'CYCLES'; sc.cycles.use_denoising = True
 sc.cycles.max_bounces = 4; sc.cycles.transmission_bounces = 4; sc.render.use_persistent_data = True
-sc.render.resolution_x, sc.render.resolution_y = (540, 960) if MODE == 'mid' else (1080, 1920)
+sc.render.resolution_x, sc.render.resolution_y = (540, 960) if MODE in ('mid', 'stills') else (1080, 1920)
 sc.render.fps = FPS; sc.frame_start, sc.frame_end = 1, NF
 sc.view_settings.view_transform = 'AgX'; sc.view_settings.look = 'AgX - Medium High Contrast'
 sc.render.image_settings.file_format = 'JPEG'; sc.render.image_settings.quality = 95
@@ -32,7 +32,7 @@ try:
         except Exception as e: print('no', kind, e)
 except Exception as e: print('gpu setup', e)
 sc.cycles.device = 'GPU' if GPU else 'CPU'
-sc.cycles.samples = 96 if GPU else 14
+sc.cycles.samples = 96 if GPU else (10 if MODE in ('mid', 'stills') else 20)
 if GPU: sc.cycles.denoiser = 'OPTIX' if pr.compute_device_type == 'OPTIX' else 'OPENIMAGEDENOISE'
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 if not os.path.exists(FONT): FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../studio/fonts/InterDisplay-ExtraBold.otf')
@@ -236,7 +236,9 @@ if MODE == 'check' or START == 1:
     json.dump(rep, open(os.path.join(OUT, 'safe.json'), 'w'))
 if MODE == 'check': sys.exit(0)
 
-for fr in range(START, min(END, NF) + 1):
+FRAMES = range(START, min(END, NF) + 1)
+if MODE == 'stills': FRAMES = [F(float(x)) for x in os.environ.get('STILLS', '1,9,17,24,34,42').split(',')]
+for fr in FRAMES:
     sc.frame_set(fr); sc.render.filepath = f'{OUT}/f_{fr:04d}.jpg'
     bpy.ops.render.render(write_still=True)
 print('rendered', START, END, 'of', NF)

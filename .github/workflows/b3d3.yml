@@ -1,0 +1,42 @@
+name: b3d3
+# 3D Shorts v3 on free GitHub runners (Cycles CPU): screen UI frames + scene. mode=stills renders a few frames (STILLS seconds) + safe-frame report.
+on:
+  workflow_dispatch:
+    inputs:
+      scene: {description: 'scene script', required: true, default: long/b3d/scene3.py}
+      dur: {description: 'seconds', required: true, default: '53'}
+      parts: {description: 'JSON list of part numbers', required: true, default: '[0]'}
+      n: {description: 'parts in total', required: true, default: '20'}
+      mode: {description: "'' full 1080x1920, mid, stills", required: false, default: 'stills'}
+      stills: {description: 'seconds for stills', required: false, default: '1,7,12,17,21,25,33,36,39,44,48,52'}
+permissions: {contents: write}
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy: {fail-fast: false, matrix: {part: '${{ fromJSON(inputs.parts) }}'}}
+    steps:
+      - uses: actions/checkout@v4
+      - name: blender + ui
+        run: |
+          sudo apt-get install -y -qq ffmpeg libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 >/dev/null
+          curl -sL https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz | tar -xJ -C /tmp && mv /tmp/blender-4.2.3-linux-x64 /tmp/blender
+          D=$(dirname ${{ inputs.scene }}); python3 $D/ui.py $D/beats.json ${{ inputs.dur }} /tmp/ui studio/fonts
+      - name: render
+        env: {STILLS: '${{ inputs.stills }}'}
+        run: |
+          N=$(python3 -c "print(int(float('${{ inputs.dur }}')*30))"); P=${{ matrix.part }}; K=${{ inputs.n }}
+          A=$(( P*N/K + 1 )); B=$(( (P+1)*N/K ))
+          mkdir -p /tmp/fr && /tmp/blender/blender -b -P ${{ inputs.scene }} -- ${{ inputs.dur }} $A $B /tmp/fr /tmp/ui ${{ inputs.mode }} 2>&1 | grep -v "^Fra:\|Sample\|Rendering\|Updating" | tail -25
+          mkdir -p /tmp/o
+          if [ "${{ inputs.mode }}" = stills ]; then cp /tmp/fr/*.jpg /tmp/fr/safe.json /tmp/o/ 2>/dev/null; cat /tmp/fr/safe.json
+          else ffmpeg -v error -y -framerate 30 -start_number $A -i /tmp/fr/f_%04d.jpg -c:v libx264 -crf 15 -pix_fmt yuv420p /tmp/o/part_$(printf %02d $P).mp4; fi
+      - name: save
+        run: |
+          git config --global user.name chain-radar; git config --global user.email noreply@github.com
+          SUB=$([ "${{ inputs.mode }}" = stills ] && echo stills || echo parts3)
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
+            mkdir -p /tmp/w/long/b3d/$SUB && cp /tmp/o/* /tmp/w/long/b3d/$SUB/ && cd /tmp/w && git add -A && git commit -qm "b3d3 ${{ matrix.part }} [skip ci]" && git push -q && break
+            cd /; sleep $((i*3))
+          done
