@@ -6,6 +6,7 @@ on:
       scene: {description: 'scene script', required: true, default: long/b3d/scene3.py}
       dur: {description: 'seconds', required: true, default: '50'}
       mode: {description: "'' full, mid = small, check = safe-frame only", required: false, default: ''}
+      fetch_only: {description: '1 = do not push, only wait for / fetch the running kernel', required: false, default: ''}
 permissions: {contents: write}
 jobs:
   render:
@@ -21,6 +22,7 @@ jobs:
           echo "KAGGLE_USERNAME=$U" >> $GITHUB_ENV
           case "$K" in KGAT_*) echo "KAGGLE_API_TOKEN=$K" >> $GITHUB_ENV;; *) echo "KAGGLE_KEY=$K" >> $GITHUB_ENV;; esac
       - name: push kernel
+        if: inputs.fetch_only != '1'
         run: |
           cd lab/kaggle3d
           sed -i "s#__SCENE__#${{ inputs.scene }}#; s#__DUR__#${{ inputs.dur }}#; s#__MODE__#${{ inputs.mode }}#" render3d.py
@@ -29,7 +31,7 @@ jobs:
           grep -qi "error\|unauthor" push.log && exit 1 || true
       - name: wait
         run: |
-          sleep 60
+          sleep 20
           for i in $(seq 1 330); do
             s=$(kaggle kernels status "$KAGGLE_USERNAME/chain-3d-render" 2>&1 | tr '\n' ' ')
             case "$s" in *COMPLETE*|*ERROR*|*CANCEL*) break;; esac
