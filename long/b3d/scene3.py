@@ -156,16 +156,16 @@ vault_gold = []
 for p in WAL:
     cube(p + Vector((0, 0, 1)), (.7, .7, 1), GLASS, 0)
     vault_gold.append(cube(p + Vector((0, 0, .9)), (.55, .55, .9), GOLD))
-WALL = Vector((0, -5.6, 4.3))
-cube(WALL - Vector((0, .08, 0)), (2.5, .05, 1.6), BLACK, .02)
-plane(WALL, (2.4, 1.5), screen_mat('wall', 'w', 2.6))
+WALL = Vector((0, -5.6, 3.95))
+cube(WALL - Vector((0, .08, 0)), (2.08, .05, 1.32), BLACK, .02)
+plane(WALL, (2.0, 1.25), screen_mat('wall', 'w', 2.6))
 def beam(a, b, t):
     mid = (a + b) / 2; d = b - a
     bpy.ops.mesh.primitive_cylinder_add(radius=.025, depth=d.length, location=mid); c = put(bpy.context.object, RED)
     c.rotation_euler = d.to_track_quat('Z', 'Y').to_euler(); s = tuple(c.scale)
     kf(c, 'scale', 0, (0, 0, 0)); kf(c, 'scale', t, (0, 0, 0)); kf(c, 'scale', t + .8, s); kf(c, 'scale', bt('script') - 1.2, s); kf(c, 'scale', bt('script') - .8, (0, 0, 0))
-beam(Vector((-2.4, 1.7, 1.25)), WALL + Vector((-1, .05, -1.4)), bt('twentieth') + .1)
-beam(Vector((2.4, 1.7, 1.25)), WALL + Vector((1, .05, -1.4)), bt('twentieth') + .25)
+beam(Vector((-2.4, 1.7, 1.25)), WALL + Vector((-1, .05, -1.2)), bt('twentieth') + 1.6)
+beam(Vector((2.4, 1.7, 1.25)), WALL + Vector((1, .05, -1.2)), bt('twentieth') + 1.75)
 for i, g in enumerate(vault_gold):                               # Oct 29: the vaults drain while the wall counts the XRP
     t0 = bt('xrp') + i * .15
     kf(g, 'scale', t0, (.55, .55, .9)); kf(g, 'scale', t0 + 2.4, (.55, .55, .04))
@@ -175,8 +175,8 @@ for i, ob in enumerate(GOLDBARS):                                # then bitcoin 
     kf(ob, 'scale', t0, tuple(ob.scale)); kf(ob, 'scale', t0 + 1.4, (0, 0, 0))
 for i in range(5):                                               # $2.85B frozen: ice over the vaults
     ic = cube(WAL[i] + Vector((0, 0, 1)), (.82, .82, 1.1), ICE, .05); appear(ic, bt('froze') + i * .12, .5)
-frz = text('$2.85B FROZEN', Vector((0, -4.4, 2.35)), .5, CYAN); appear(frz, bt('froze') + .3, .35, bt('fbi') - .3)
-fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.35)), .3, WHITE); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.5)
+frz = text('$2.85B FROZEN', Vector((0, -4.4, 2.3)), .5, CYAN); appear(frz, bt('froze') + .3, .35, bt('fbi') - .3)
+fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.3)), .3, mat('white2', (1, 1, 1), 0, .4, (1, 1, 1), 1.5)); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.5)
 
 # ---- light ----
 bpy.ops.object.light_add(type='AREA', location=(0, 7, 8)); l = bpy.context.object; l.data.energy = 900; l.data.size = 10; l.data.color = (.55, .65, 1)
@@ -197,23 +197,23 @@ cam.data.dof.use_dof = True; cam.data.dof.focus_object = aim; cam.data.dof.apert
 tc = cam.constraints.new('TRACK_TO'); tc.target = aim; tc.track_axis = 'TRACK_NEGATIVE_Z'; tc.up_axis = 'UP_Y'
 SCRA, SCRB = Vector((-2.4, 1.75, 1.25)), Vector((2.4, 1.75, 1.25))
 shots = [(0, (0, -1.5, 9.8), TOWER + Vector((0, 0, 10.4))),                         # $6.3B left Binance
-         (bt('started') - .3, (0, -4.5, 8.6), TOWER + Vector((0, 0, 8.6))),
+         (bt('started') - .3, (0, -3.0, 9.0), TOWER + Vector((0, 0, 9.4))),
          (bt('june') - .5, (-1.0, 4.9, 2.3), (-2.4, 2.4, 1.2)),                  # over her shoulder
-         (bt('june') + .6, (-1.75, 3.6, 2.05), SCRA),                            # the search page
-         (bt('september') - .7, (-1.77, 3.5, 2.0), SCRA),
+         (bt('june') + .6, (-2.15, 3.4, 2.2), SCRA),                            # the search page
+         (bt('september') - .7, (-2.16, 3.3, 2.15), SCRA),
          (bt('september') - .1, (1.0, 4.9, 2.3), (2.4, 2.4, 1.2)),
-         (bt('september') + .9, (3.05, 3.6, 2.05), SCRB),                        # the video call
-         (bt('twentieth') + .9, (3.03, 3.5, 2.0), SCRB),
+         (bt('september') + .9, (2.65, 3.4, 2.2), SCRB),                        # the video call
+         (bt('twentieth') + .9, (2.64, 3.3, 2.15), SCRB),
          (bt('twentieth') + 2.4, (0, 10.5, 4.8), (0, 0.5, 1.4)),                    # both screens taken over
          (bt('script') - 1.0, (0, 6.5, 4.2), (0, -3.5, 2.6)),                     # to the wallets
-         (bt('script') - .1, (0, 2.9, 3.9), WALL + Vector((0, 0, -.6))),          # the wall: script, XRP, 4 minutes
-         (bt('bitcoin') - .2, (0, 1.5, 4.6), WALL + Vector((0, 0, -.8))),
+         (bt('script') - .1, (0, .6, 3.4), (0, -5.6, 2.9)),          # the wall: script, XRP, 4 minutes
+         (bt('bitcoin') - .2, (0, .2, 3.4), (0, -5.6, 2.9)),
          (bt('bitcoin') + .4, (0, -4, 7), TOWER + Vector((0, 0, 5))),             # tower empties
          (bt('most') + .2, (0, -4.5, 6.5), TOWER + Vector((0, 0, 4))),
-         (bt('froze') - .3, (0, 2.6, 2.6), (0, -6.5, 1.3)),                      # frozen vaults
-         (bt('fbi') + 1.5, (0, 2.0, 2.8), (0, -6.5, 1.5)),
-         (bt('interview2') - .9, (1.0, 4.9, 2.3), (2.4, 2.4, 1.3)),               # back to the job interview
-         (DUR, (3.05, 3.6, 2.05), SCRB)]
+         (bt('froze') - .8, (0, .6, 2.5), (0, -6.5, 1.7)),                      # frozen vaults
+         (bt('fbi') + 1.5, (0, .2, 2.6), (0, -6.5, 1.8)),
+         (bt('interview2') - .9, (1.2, 5.5, 2.8), (2.4, 2.0, 1.3)),               # back to the job interview
+         (DUR, (2.65, 3.35, 2.2), SCRB)]
 for t, cl, al_ in shots:
     kf(cam, 'location', t, tuple(cl)); kf(aim, 'location', t, tuple(al_))
 for a in bpy.data.actions:
