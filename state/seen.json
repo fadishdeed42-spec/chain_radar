@@ -104,7 +104,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794141976.0,
 "tgtext": "Vitalik: ETH Should Focus on Store of Value, Not Fee Burning\n\nVitalik Buterin said Ethereum should focus more on ETH as a store of value rather than as a \u201cfee-burning token,\u201d arguing that fee burn was never as strong a valuation floor as it appeared and that maximizing fees could conflict with decentralization and capture resistance.\n\nHe said Ethereum\u2019s strongest attributes are decentralization and \u201cCROPS\u201d \u2014 censorship and capture resistance, open source, privacy and security \u2014 and that these qualities are better aligned with ETH\u2019s role as a store of value. Buterin added that Ethereum should not be concerned even if fee burn remains below 10% of breakeven over the long term, saying ETH\u2019s value can come from elsewhere. \u2014 link\n\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -132,14 +132,17 @@
 "coin": "",
 "src": "Hokanews",
 "srcs": [
-"Hokanews"
+"Hokanews",
+"The Block"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794152940.0,
 "tgtext": "",
 "title": "Web3Auth Exploit Drains $6 Million From 44,000 Wallets, Trust Wallet and MetaMask Respond",
 "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN0pwd1ZFRWhFYlY4YWJPSWhvb05GaDJma1hPekQySmtaS2dJNkctNTVDTjU1UXMtVGE5OThwZEl3VHV4ekpZZWxNS0h2MWNJMDVqZjE3RTIxd284WGczd1NnQ24wOGNGWFFnc2dtUGxyUllBbFhLeHFJV21oZHVsNmxR?oc=5",
-"urls": []
+"urls": [
+"https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029"
+]
 },
 "17f936954fbd": {
 "coin": "",
@@ -272,7 +275,7 @@
 "Hokanews",
 "KuCoin"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794141786.0,
 "tgtext": "",
 "title": "Former Holograph Foundation Employee Sentenced to Five Years Over $14M HLG Token Minting",
@@ -490,7 +493,7 @@
 "Brave New Coin",
 "StreetInsider"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794141458.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: Amundi Tokenizes Equity Fund on Ethereum as Remittix Earn Welcomes ETH, USDT and USDC",
@@ -604,7 +607,7 @@
 "AMBCrypto",
 "CoinGape"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794142854.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists",
@@ -617,7 +620,7 @@
 "srcs": [
 "BusinessMirror"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794144922.0,
 "tgtext": "",
 "title": "Binance\u2019s CFO leaves firm in wake of $6B crypto heist",
@@ -704,7 +707,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794147153.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says US stock market lost $3 trillion in a single day following the midterm elections.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: President Donald Trump blamed the election results for a $3 trillion one-day stock market loss, vowing that the US will come back \u201cbigger and stronger than ever before.\u201d",
 "title": "President Donald Trump blamed the election results for a $3 trillion one-day stock market loss, vowing that the US will come back \u201cbigger and stronger than ever before.\u201d",
@@ -2060,7 +2063,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794142559.0,
 "tgtext": "",
 "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
@@ -2088,7 +2091,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794151572.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.",
@@ -2233,7 +2236,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1794162245.9322877,
+"t": 1794162858.1227314,
 "t0": 1794157920.0,
 "tgtext": "",
 "title": "BTC Price Analysis: Key Support Levels to Watch as Bitcoin Enters a Crucial Week",
@@ -2261,11 +2264,11 @@
 "probs": {
 "13660494826a": 0.069,
 "1547dda954f2": 0.951,
-"16754fd1d8a4": 0.157,
+"16754fd1d8a4": 0.248,
 "22a069c21832": 0.066,
 "23a795a0a939": 0.057,
-"25e2bbb6256e": 0.038,
 "271a071d15a2": 0.124,
+"388625139e58": 0.022,
 "4657a3ad0294": 0.016,
 "47198c80f992": 0.123,
 "58bdb0bf7cf5": 0.225,
@@ -2280,10 +2283,13 @@
 "9088097e5925": 0.014,
 "97a59e0bd5d1": 0.019,
 "a02932eaf5bb": 0.025,
+"a902f3385bc6": 0.026,
 "b289312b0e55": 0.039,
+"b81bb8c72b70": 0.008,
 "b9d6ebd367ce": 0.009,
 "c156efa6d9ba": 0.037,
-"c7ba844c79bc": 0.04,
+"c2916bd64567": 0.033,
+"c7ba844c79bc": 0.026,
 "d1b44f89ca96": 0.037,
 "d8f95bafaa99": 0.009,
 "e7f24389f5ab": 0.072,
@@ -2845,64 +2851,64 @@
 "top": [
 [
 "1547dda954f2",
-27,
-338,
+26,
+348,
 5
 ],
 [
 "625d9fe91916",
-19,
-252,
-2
-],
-[
-"58bdb0bf7cf5",
-1,
-323,
+18,
+262,
 2
 ],
 [
 "16754fd1d8a4",
-41,
-155,
-1
+51,
+165,
+2
+],
+[
+"58bdb0bf7cf5",
+0,
+333,
+2
 ],
 [
 "271a071d15a2",
-23,
-341,
+22,
+351,
 2
 ],
 [
 "47198c80f992",
-6,
-346,
+5,
+357,
 2
 ],
 [
 "ea031266c50b",
-18,
-178,
+17,
+188,
 1
 ],
 [
 "fd0427a4ec47",
 10,
-72,
+82,
 1
 ],
 [
 "e7f24389f5ab",
 0,
-328,
+338,
 1
 ],
 [
 "59857ffd2956",
-41,
-289,
+40,
+299,
 1
 ]
 ],
-"top_at": 1794162245.9322877
+"top_at": 1794162858.1227314
 }
