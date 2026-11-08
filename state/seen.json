@@ -2,12 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794063735.183712,
-1794064686.2175324,
-1794066524.7124763,
-1794067445.2013068,
-1794070818.1430833,
-1794075117.57933,
 1794128665.686269,
 1794132361.9607666,
 1794142122.8885212,
@@ -44,17 +38,18 @@
 },
 "0c8fc3805c3b": {
 "coin": "bitcoin",
-"src": "CoinGape",
+"src": "TechBullion",
 "srcs": [
 "CoinGape",
 "CryptoPotato",
-"Cryptonews.net"
+"Cryptonews.net",
+"TechBullion"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794157770.0,
 "tgtext": "",
-"title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzhweVZkUzRUTFNKTFhYdXFpMGctVXE5Vk5wb2s5R1VveGxRWTc5VzBpZjdTb05iY0VjcTNjZFBSZllQOGU0aGstdk5MLWZDMHhvZlUwNHVsN0pqa2luRFdLTU1TMzlkcGxoMkY3LXJZMlAxZjFxME04cDVaS25OTkJnN0s2cERuNGMzcHdJM0dvX1NvLU03S2FHek1VQTBGUURsWTcyYUk?oc=5",
+"title": "Bitcoin Price Prediction: Can BTC Retake $77,900 as Remittix Earn Opens ETH, USDT and USDC Yield Options?",
+"url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNUVwMXdJbWNLWE9tSXRZdzNsSkgxNWxZMWZsaE9fa3l6bHU3QjdFSXNlbGRIUnl3WEloejlFMGhNWVlRaVloZXRnWVhOX0VST0Vnb28zVTNRNFg2ZTVUajVmTjM0RmVpYlRxcUJPRVp1MG9yaFQ5THJLcWlNUnZmRGhlVlh1dGh5X0tXUTgzSi1iQmFQMHE1UzhvamtzR2JaWkNxUk1jUlFreUlrZHpETnRpQjVKamNodHhIYmFLaDNWSTQ?oc=5",
 "urls": []
 },
 "0caa37bcbccd": {
@@ -234,7 +229,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794174820.8096652,
+"t": 1794174974.5968986,
 "t0": 1794158222.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -380,7 +375,7 @@
 "Nikkei Asia",
 "Traders Union"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794161897.0,
 "tgtext": "",
 "title": "U.S. crypto policy outlook sharpens as Congress shift, Binance hack draw focus",
@@ -515,7 +510,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794162731.0,
 "tgtext": "",
 "title": "Web3Auth says it frontran hackers by moving $5.6 million out of exposed Keplr wallets",
@@ -560,7 +555,7 @@
 "srcs": [
 "Daily Mail"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794169648.0,
 "tgtext": "",
 "title": "Nvidia boss sensationally admits to cheating on wife in Chinese spy scandal as it's revealed Marco Rubio knew about breach but still let billionaire in Trump's orbit",
@@ -673,7 +668,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794170401.0,
 "tgtext": "\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -1091,7 +1086,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794155451.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.",
@@ -1223,6 +1218,19 @@
 "tgtext": "",
 "title": "Binance CFO Kaiser Ng Resigns After $6.3 Billion Hack, Justin Yek Named Finance Chief: 18 outlets compared",
 "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeG9NSmFBZW1IWEFyM3AzYlZXXzlTUHNoX0dUemxCckhjVG5Sb0ppa0lLczhFTUhMT0VRdXlwODRIVWMyMUZ6elFrLXNROEtjZTBtSmZyZkhFSkxhUEE5STJBWUcyV3VPLUJfSkdvYnJ3T2FvV2hYR0lmR0NNNUZCNVZsQlhmOVJzMGFxRGtYMWFmNHllQ3h5MnZDNllBN0MtRFpLTXl0Q1I2VlFqVGNkajdqaDZxU3lmTVViLWVTR0xzamN4b0NzZDJ0c3l5MkluRmJ0OWRMWWhJZ0xWYlhTbzlMWTJWREpPWEE?oc=5",
+"urls": []
+},
+"7ef001e2c304": {
+"coin": "bitcoin",
+"src": "Cryptonews",
+"srcs": [
+"Cryptonews"
+],
+"t": 1794175278.9348242,
+"t0": 1794164400.0,
+"tgtext": "",
+"title": "Elon Musk\u2019s Grok AI Predicts an Unbelievable BTC Price",
+"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYUF0MDBGTXNnQkVDVU9QZzJxMDgzcEhqMFpIb2g4LWZNd3dubDNlLXpFdThQMEZlSW9VZUJ3UkVyenJDaUdiSkN4MVkzYXRzTEE0VU1KVFA2Wlg4RmF2eC00VVRldVVJZmhFd1J5anRJbFpBeC1qUVBtLW9TMDBPWmZ5QnAyQQ?oc=5",
 "urls": []
 },
 "7f98d8efb45c": {
@@ -1369,7 +1377,7 @@
 "Cointelegraph",
 "Cryptonews.net"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794155701.0,
 "tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -1411,7 +1419,7 @@
 "srcs": [
 "Seoul Economic Daily"
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794171605.0,
 "tgtext": "",
 "title": "Gopax Halts Trading After Hacking Threats, Raising Doubts",
@@ -1888,7 +1896,7 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1794174820.8096652,
+"t": 1794175278.9348242,
 "t0": 1794173460.0,
 "tgtext": "",
 "title": "Bitdeer and Riot Jumped 13% in a Day as Bitcoin Fell Under $75,000. Why Are Miner Stocks Rallying While BTC Drops?",
@@ -2582,44 +2590,46 @@
 "urls": []
 }
 },
-"movers": {},
+"movers": {
+"ethereum": 1794175278.9348242
+},
 "probs": {
-"0c8fc3805c3b": 0.236,
+"0c8fc3805c3b": 0.145,
 "117f26445cb1": 0.026,
-"1af00ea5b07b": 0.042,
-"1fb38e5f6a51": 0.065,
+"1fb38e5f6a51": 0.06,
 "2a4a4a162280": 0.037,
-"2bdcd0206c05": 0.017,
+"2bdcd0206c05": 0.02,
 "2fd6c0f0ccd2": 0.341,
-"3694f874ff41": 0.018,
-"36a9ac884d66": 0.013,
+"3694f874ff41": 0.051,
+"36a9ac884d66": 0.005,
 "3b8ac45e9723": 0.135,
 "4184b63d6e3b": 0.17,
-"4657a3ad0294": 0.004,
+"4657a3ad0294": 0.023,
 "4c1be5f0837a": 0.234,
-"593b4f7a8790": 0.006,
-"62b600882fdd": 0.009,
-"6b144c3bca64": 0.006,
-"76c6272d4454": 0.036,
+"62b600882fdd": 0.004,
+"6b144c3bca64": 0.007,
+"76c6272d4454": 0.042,
 "79c684d894e0": 0.186,
-"7a1a56ca7fcd": 0.023,
-"7e8b8d46e85a": 0.037,
-"7ef001e2c304": 0.037,
-"870040703f9e": 0.035,
+"7a1a56ca7fcd": 0.048,
+"7e8b8d46e85a": 0.016,
+"7ef001e2c304": 0.078,
+"870040703f9e": 0.032,
 "8736d70f80e5": 0.036,
-"8c2465a183ed": 0.039,
-"8d30102c4b21": 0.47,
+"8ad4c8b2b87d": 0.061,
+"8c2465a183ed": 0.045,
+"8d30102c4b21": 0.587,
 "935d32699a54": 0.088,
 "97a59e0bd5d1": 0.015,
 "9b0d763fff85": 0.01,
-"a293db974ad6": 0.016,
+"a293db974ad6": 0.035,
 "a5501fb630b9": 0.028,
-"a902f3385bc6": 0.038,
-"b79515a48b3d": 0.055,
-"b80cdba2556b": 0.029,
+"a902f3385bc6": 0.035,
+"b79515a48b3d": 0.112,
+"b80cdba2556b": 0.061,
+"bce039853ca3": 0.016,
 "bedc59667d64": 0.042,
-"ca0351e422de": 0.03,
-"caffc349ac64": 0.01,
+"ca0351e422de": 0.02,
+"caffc349ac64": 0.03,
 "ccaca24b7ea2": 0.013,
 "d4f51b919522": 0.031,
 "e04ecf8a9817": 0.017
@@ -3179,64 +3189,64 @@
 "top": [
 [
 "8d30102c4b21",
-20,
-319,
+44,
+326,
 3
 ],
 [
 "2fd6c0f0ccd2",
-59,
-215,
-3
-],
-[
-"0c8fc3805c3b",
-17,
-284,
+58,
+223,
 3
 ],
 [
 "4c1be5f0837a",
 10,
-74,
+81,
 1
 ],
 [
 "79c684d894e0",
-1,
-323,
+0,
+330,
 2
 ],
 [
 "4184b63d6e3b",
 43,
-86,
+94,
 1
 ],
 [
+"0c8fc3805c3b",
+36,
+292,
+4
+],
+[
 "3b8ac45e9723",
-14,
-201,
+13,
+209,
+1
+],
+[
+"b79515a48b3d",
+20,
+30,
 1
 ],
 [
 "935d32699a54",
 32,
-54,
+61,
 1
 ],
 [
-"1fb38e5f6a51",
-8,
-277,
-1
-],
-[
-"b79515a48b3d",
-10,
-23,
+"7ef001e2c304",
+28,
+181,
 1
 ]
 ],
-"top_at": 1794174820.8096652
+"top_at": 1794175278.9348242
 }
