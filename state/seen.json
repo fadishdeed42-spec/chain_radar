@@ -47,9 +47,10 @@
 "src": "CoinGape",
 "srcs": [
 "CoinGape",
-"CryptoPotato"
+"CryptoPotato",
+"Cryptonews.net"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794157770.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists",
@@ -149,7 +150,7 @@
 "Hokanews",
 "The Block"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794152940.0,
 "tgtext": "",
 "title": "Web3Auth Exploit Drains $6 Million From 44,000 Wallets, Trust Wallet and MetaMask Respond",
@@ -188,6 +189,19 @@
 "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlZ1UHNDQmhONUFZZnAycU1pMFhOT0ZMUE90WGRzelZub0RNRGp6TGZpODN2VlJRV25lSXR1dEJtTVV0eEh0ZHhLazJlX3NzVjJnWEFvUGliQWZ5SGxoNE5qS09SSEhXX0E5cHJIMTg3R1ZCSmtXZllYSERiSDMyaG1CUXQtWVJKa2VDS0thcWlRTzZ2NVZ0UV9adHBtc0JHZTN6QXRkbmQtUU0?oc=5",
 "urls": []
 },
+"1af00ea5b07b": {
+"coin": "bitcoin",
+"src": "Cryptonews.net",
+"srcs": [
+"Cryptonews.net"
+],
+"t": 1794172059.616647,
+"t0": 1794171403.0,
+"tgtext": "",
+"title": "Michael Saylor Hints at Another Strategy Bitcoin Purchase as STRC Reclaims Par Value",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TN1JBYVVldE9vZ3loZHVEUWR2TG5tTzF1RmFBX0ctMFhVMXkxakFUTlJabGVaX28xdVlVejJsdEFzZ0ZqNmxWcEZxNmg0U08weTl6R0s5SHg?oc=5",
+"urls": []
+},
 "1da61d941aca": {
 "coin": "bitcoin",
 "src": "https://tech-insider.org/",
@@ -220,7 +234,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794158222.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -438,7 +452,7 @@
 "Cryptonews.net",
 "The Block"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794153120.0,
 "tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -616,7 +630,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794170401.0,
 "tgtext": "\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -915,9 +929,10 @@
 "srcs": [
 "Crypto Economy",
 "Hokanews",
+"Nikkei Asia",
 "Traders Union"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794152340.0,
 "tgtext": "",
 "title": "CZ Urges Crypto Industry to Unite as Binance Hack Highlights Risks of Exchange Security Breaches",
@@ -1032,7 +1047,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794155451.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.",
@@ -1566,7 +1581,7 @@
 "srcs": [
 "https://globalpost.com/"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794162631.0,
 "tgtext": "",
 "title": "North Korea Rejects Accusations of Role in Record-Breaking Cryptocurrency Theft",
@@ -1679,7 +1694,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794171446.8111591,
+"t": 1794171754.9325902,
 "t0": 1794150200.0,
 "tgtext": "JUST IN: \ud83c\uddec\ud83c\udde7 UK rejects calls to slow down AI development.\n\n@WatcherGuru",
 "title": "\ud83c\uddec\ud83c\udde7 UK rejects calls to slow down AI development.",
@@ -2300,7 +2315,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794171446.8111591,
+"t": 1794172059.616647,
 "t0": 1794151572.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.",
@@ -2484,37 +2499,38 @@
 },
 "movers": {},
 "probs": {
-"0c8fc3805c3b": 0.112,
-"117f26445cb1": 0.022,
-"16754fd1d8a4": 0.099,
-"1af00ea5b07b": 0.036,
-"1fb38e5f6a51": 0.044,
-"2a4a4a162280": 0.031,
-"2bdcd0206c05": 0.014,
-"34e3970ab108": 0.321,
-"4657a3ad0294": 0.016,
-"4c1be5f0837a": 0.262,
-"593b4f7a8790": 0.024,
-"62b600882fdd": 0.008,
-"6d05f339b5dd": 0.149,
-"79c684d894e0": 0.21,
-"7a1a56ca7fcd": 0.019,
-"7ef001e2c304": 0.032,
-"870040703f9e": 0.024,
-"8736d70f80e5": 0.024,
-"8c2465a183ed": 0.026,
-"97a59e0bd5d1": 0.01,
-"a02932eaf5bb": 0.017,
-"a5501fb630b9": 0.044,
-"a902f3385bc6": 0.026,
-"b289312b0e55": 0.134,
-"b80cdba2556b": 0.024,
-"bedc59667d64": 0.035,
-"ca0351e422de": 0.025,
-"ccaca24b7ea2": 0.011,
-"d1b44f89ca96": 0.037,
-"e04ecf8a9817": 0.014,
-"ea031266c50b": 0.324
+"0c8fc3805c3b": 0.366,
+"117f26445cb1": 0.026,
+"16754fd1d8a4": 0.116,
+"1af00ea5b07b": 0.042,
+"1fb38e5f6a51": 0.052,
+"2a4a4a162280": 0.037,
+"2bdcd0206c05": 0.017,
+"34e3970ab108": 0.36,
+"4657a3ad0294": 0.02,
+"4c1be5f0837a": 0.234,
+"593b4f7a8790": 0.006,
+"62b600882fdd": 0.009,
+"6d05f339b5dd": 0.129,
+"76c6272d4454": 0.036,
+"79c684d894e0": 0.24,
+"7a1a56ca7fcd": 0.023,
+"7ef001e2c304": 0.037,
+"870040703f9e": 0.028,
+"8736d70f80e5": 0.029,
+"8c2465a183ed": 0.031,
+"97a59e0bd5d1": 0.012,
+"a02932eaf5bb": 0.02,
+"a5501fb630b9": 0.052,
+"a902f3385bc6": 0.03,
+"b80cdba2556b": 0.029,
+"bedc59667d64": 0.042,
+"ca0351e422de": 0.03,
+"caffc349ac64": 0.01,
+"ccaca24b7ea2": 0.013,
+"d4f51b919522": 0.031,
+"e04ecf8a9817": 0.017,
+"ea031266c50b": 0.363
 },
 "sent": [
 {
@@ -3070,65 +3086,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"0c8fc3805c3b",
+23,
+238,
+3
+],
+[
 "ea031266c50b",
 0,
-331,
+341,
 1
 ],
 [
 "34e3970ab108",
-32,
-305,
+30,
+316,
 4
+],
+[
+"79c684d894e0",
+8,
+277,
+2
 ],
 [
 "4c1be5f0837a",
 10,
-17,
+28,
 1
-],
-[
-"79c684d894e0",
-9,
-267,
-2
 ],
 [
 "6d05f339b5dd",
-45,
-318,
-3
-],
-[
-"b289312b0e55",
-0,
-354,
-1
-],
-[
-"0c8fc3805c3b",
-14,
-228,
-2
+54,
+329,
+4
 ],
 [
 "16754fd1d8a4",
-34,
-308,
+33,
+319,
 2
 ],
 [
 "1fb38e5f6a51",
-15,
-220,
+14,
+231,
 1
 ],
 [
 "a5501fb630b9",
 22,
-147,
+157,
+1
+],
+[
+"1af00ea5b07b",
+18,
+11,
 1
 ]
 ],
-"top_at": 1794171446.8111591
+"top_at": 1794172059.616647
 }
