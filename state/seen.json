@@ -76,7 +76,7 @@
 "srcs": [
 "https://tech-insider.org/"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794091176.0,
 "tgtext": "",
 "title": "Crypto to Buy for 2030: BTC $250K, ETH $10K Targets [2026]",
@@ -187,7 +187,7 @@
 "U.Today",
 "openPR.com"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794080241.0,
 "tgtext": "",
 "title": "XRP longs face a 3,090% liquidation imbalance amid market stagnation",
@@ -334,7 +334,7 @@
 "srcs": [
 "Gulf News"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794079659.0,
 "tgtext": "",
 "title": "Binance hackers used over 10,000 wallets to move stolen billions",
@@ -348,7 +348,7 @@
 "Pluang",
 "The Crypto Times"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794081107.0,
 "tgtext": "",
 "title": "Zcash (ZEC) drops 7.3% amid $4.73M liquidations after NU7 upgrade changes network dynamics",
@@ -406,7 +406,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794085187.0,
 "tgtext": "",
 "title": "Ex-FBI agent pleads guilty to stealing $2.47 million in crypto from wallets tied to 35 investigations",
@@ -449,7 +449,7 @@
 "srcs": [
 "CryptoRank"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794085063.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Is a BTC Price Crash to $67,000 Coming Next Week?",
@@ -616,7 +616,7 @@
 "The Block",
 "The Crypto Times"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794078016.0,
 "tgtext": "",
 "title": "Binance CFO steps down nine days after record hack; co-CEO says transition was planned six months ago",
@@ -675,7 +675,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794076714.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk says California's extreme taxes and regulations forced SpaceX $SPCX and Tesla $TSLA to move operations to Texas.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Elon Musk says California's extreme taxes and regulations forced SpaceX SPCX and Tesla TSLA to move operations to Texas.",
@@ -925,7 +925,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1794097306.2792044,
+"t": 1794098219.9963593,
 "t0": 1794091252.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: ETH's $2,000 Odds Rise to 47% as Pepeto's AI Scanner Draws Buyers",
@@ -1048,7 +1048,7 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1794097610.0249844,
+"t": 1794098219.9963593,
 "t0": 1794092340.0,
 "tgtext": "",
 "title": "Stablecoins Shrank by $5 Billion in a Week. Can Ethereum Rally While Money Leaves Crypto?",
@@ -1119,7 +1119,6 @@
 "0309dea4675f": 0.025,
 "073e514ceb90": 0.066,
 "0cd36d8f3719": 0.025,
-"0cd70ead2a59": 0.185,
 "1da61d941aca": 0.185,
 "1ee9be08f0b6": 0.083,
 "27e1abeaf801": 0.014,
@@ -1137,6 +1136,7 @@
 "80e616f77db2": 0.04,
 "8fbe86b9644e": 0.054,
 "9604d8ed59e5": 0.029,
+"9d54b799cb35": 0.09,
 "9e5110f037a7": 0.075,
 "a2dbe2581985": 0.374,
 "a742aa175793": 0.028,
@@ -1150,7 +1150,7 @@
 "dc95ed85f4fd": 0.092,
 "df03069e0672": 0.017,
 "e90b11331604": 0.093,
-"eca25bea21bf": 0.022,
+"eca25bea21bf": 0.012,
 "ece3fe1863d3": 0.018,
 "f9b359d9ba11": 0.028
 },
@@ -1498,64 +1498,64 @@
 "top": [
 [
 "49f05bd9c289",
-46,
-289,
+45,
+300,
 3
 ],
 [
 "b037b5a8c144",
 0,
-348,
+358,
 1
 ],
 [
 "a2dbe2581985",
-46,
-327,
+45,
+337,
 2
 ],
 [
 "6ca861e7dad5",
-29,
-275,
+27,
+285,
 2
 ],
 [
 "7f98d8efb45c",
-17,
-209,
+15,
+219,
 1
 ],
 [
 "1da61d941aca",
 10,
-107,
-1
-],
-[
-"0cd70ead2a59",
-16,
-360,
+117,
 1
 ],
 [
 "7c0726124c0d",
-13,
-207,
+12,
+217,
 1
 ],
 [
 "69601b9c6d35",
-33,
-299,
+31,
+309,
 1
 ],
 [
 "e90b11331604",
 25,
-88,
+98,
+1
+],
+[
+"d9c9a0ff2e9d",
+10,
+116,
 1
 ]
 ],
-"top_at": 1794097610.0249844
+"top_at": 1794098219.9963593
 }
