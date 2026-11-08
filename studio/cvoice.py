@@ -26,7 +26,9 @@ def trim(w, sr, tail):
     e = np.sqrt(np.convolve(w ** 2, np.ones(win) / win, mode='same'))
     nz = np.where(e > max(.0015, .015 * e.max()))[0]               # 1.5 %: soft word endings ("s", falling vowels) are kept, not chopped
     if not len(nz): return w
-    w = w[max(0, nz[0] - int(.08 * sr)):min(len(w), nz[-1] + int(tail * sr))].copy()
+    on = np.where(e > max(.0008, .006 * e.max()))[0]                  # the start uses a lower bar: soft first sounds ("s", "f", "th") are kept whole
+    st = on[0] if len(on) and on[0] < nz[0] else nz[0]
+    w = w[max(0, st - int(.15 * sr)):min(len(w), nz[-1] + int(tail * sr))].copy()
     fi, fo = int(.015 * sr), int(.09 * sr)
     w[:fi] *= np.linspace(0, 1, fi) ** .5
     w[-fo:] *= (.5 + .5 * np.cos(np.linspace(0, np.pi, fo)))           # long cosine fade: lines end naturally, never a sharp stop
