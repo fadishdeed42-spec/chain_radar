@@ -1,0 +1,53 @@
+name: k3d
+# 3D Shorts on a free Kaggle GPU: render a Blender scene at 1080x1920, save silent.mp4 + stills to files:long/b3d/k3d/
+on:
+  workflow_dispatch:
+    inputs:
+      scene: {description: 'scene script', required: true, default: long/b3d/scene3.py}
+      dur: {description: 'seconds', required: true, default: '50'}
+      mode: {description: "'' full, mid = small, check = safe-frame only", required: false, default: ''}
+permissions: {contents: write}
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q kaggle
+      - name: login
+        env: {KAGGLE_USERNAME: '${{ secrets.KAGGLE_USERNAME }}', KAGGLE_KEY: '${{ secrets.KAGGLE_KEY }}'}
+        run: |
+          U=$(printf '%s' "$KAGGLE_USERNAME" | tr -d '[:space:]'); K=$(printf '%s' "$KAGGLE_KEY" | tr -d '[:space:]')
+          echo "KAGGLE_USERNAME=$U" >> $GITHUB_ENV
+          case "$K" in KGAT_*) echo "KAGGLE_API_TOKEN=$K" >> $GITHUB_ENV;; *) echo "KAGGLE_KEY=$K" >> $GITHUB_ENV;; esac
+      - name: push kernel
+        run: |
+          cd lab/kaggle3d
+          sed -i "s#__SCENE__#${{ inputs.scene }}#; s#__DUR__#${{ inputs.dur }}#; s#__MODE__#${{ inputs.mode }}#" render3d.py
+          printf '{"id": "%s/chain-3d-render", "title": "chain 3d render", "code_file": "render3d.py", "language": "python", "kernel_type": "script", "is_private": "true", "enable_gpu": "true", "enable_internet": "true"}' "$KAGGLE_USERNAME" > kernel-metadata.json
+          kaggle kernels push -p . 2>&1 | tee push.log
+          grep -qi "error\|unauthor" push.log && exit 1 || true
+      - name: wait
+        run: |
+          sleep 60
+          for i in $(seq 1 330); do
+            s=$(kaggle kernels status "$KAGGLE_USERNAME/chain-3d-render" 2>&1 | tr '\n' ' ')
+            case "$s" in *COMPLETE*|*ERROR*|*CANCEL*) break;; esac
+            sleep 60
+          done
+          echo "::notice title=status::${s:0:200}"
+      - name: fetch + save
+        if: always()
+        run: |
+          mkdir -p out && kaggle kernels output "$KAGGLE_USERNAME/chain-3d-render" -p out 2>&1 | tail -2; ls -la out
+          [ -f out/timing.json ] && echo "::notice title=timing::$(cat out/timing.json)"
+          [ -f out/safe.json ] && echo "::notice title=safe::$(cat out/safe.json)"
+          tail -c 3000 out/*.log 2>/dev/null | tail -40 || true
+          ls out/*.mp4 out/*.jpg >/dev/null 2>&1 || exit 0
+          git config --global user.name chain-radar; git config --global user.email noreply@github.com
+          for i in 1 2 3 4 5; do
+            rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
+            mkdir -p /tmp/w/long/b3d/k3d && cp out/*.mp4 out/*.jpg out/*.json /tmp/w/long/b3d/k3d/ 2>/dev/null
+            cd /tmp/w && git add -A && git commit -qm "k3d render [skip ci]" && git push -q && break
+            cd -; sleep $((i*3))
+          done
