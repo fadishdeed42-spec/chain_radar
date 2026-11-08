@@ -21,7 +21,7 @@ jobs:
         run: |
           sudo apt-get install -y -qq ffmpeg libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 >/dev/null
           curl -sL https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz | tar -xJ -C /tmp && mv /tmp/blender-4.2.3-linux-x64 /tmp/blender
-          D=$(dirname ${{ inputs.scene }}); python3 $D/ui.py $D/beats.json ${{ inputs.dur }} /tmp/ui studio/fonts
+          pip install -q pillow; D=$(dirname ${{ inputs.scene }}); python3 $D/ui.py $D/beats.json ${{ inputs.dur }} /tmp/ui studio/fonts
       - name: render
         env: {STILLS: '${{ inputs.stills }}'}
         run: |
