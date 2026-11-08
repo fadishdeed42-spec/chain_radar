@@ -132,7 +132,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794115358.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -185,7 +185,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794135410.6262028,
+"t": 1794136323.2529318,
 "t0": 1794131328.0,
 "tgtext": "",
 "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
@@ -227,7 +227,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794127860.0,
 "tgtext": "",
 "title": "Bitcoin Mining Enters a New Reality: Even the China Ban Wasn\u2019t This Bad",
@@ -404,7 +404,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794133861.0,
 "tgtext": "\u26a1\ufe0f LATEST: Elon Musk says Tesla\u2019s Cybertruck order backlog exceeds production capacity ahead of plans to repurpose the line for Cybercab expansion around June or July 2027, prompting the company to add an extra shift.\n\nNews | Markets | YouTube",
 "title": "Elon Musk says Tesla\u2019s Cybertruck order backlog exceeds production capacity ahead of plans to repurpose the line for Cybercab expansion around June or July 2027, prompting the company to add an extra shift.",
@@ -418,7 +418,7 @@
 "Crypto News",
 "Pluang"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794121800.0,
 "tgtext": "",
 "title": "Former Holograph employee gets 5 years over $14M HLG token theft",
@@ -684,6 +684,19 @@
 "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
 ]
 },
+"7a2d8c1a1bfd": {
+"coin": "",
+"src": "MLQ.ai",
+"srcs": [
+"MLQ.ai"
+],
+"t": 1794136323.2529318,
+"t0": 1794124779.0,
+"tgtext": "",
+"title": "Binance will close some EU accounts on Dec. 31 and start charging fees on idle balances from Nov. 29",
+"url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSzB4UU1TQ3dsYW5La2NndkNmdkNIdjRhXzh0ZHQ3M3RyNDExeWhCU0hfY0tLaXg2MlIydV9veGRJY2Z2OXh3TXJGbmF2eG1ETHJXYXAxYmktaUFmN0xWcndvRmFTd245dUFBZjFRYVoxS3RlQzg0Njl4N0FwZnFRM1FQOTlCX0NFVUl4QTh1a0tSY1JWMlJaaTFaN19tSmFFZl9pY2dkc0FWQlQ5RThMbkVuSGY2dHJzWFI4?oc=5",
+"urls": []
+},
 "7b25bc8bf3bb": {
 "coin": "bitcoin",
 "src": "CoinGecko",
@@ -860,7 +873,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794125576.0,
 "tgtext": "",
 "title": "Binance\u2019s  finance chief Kaiser Ng to leave company, report says",
@@ -1117,7 +1130,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794120858.0,
 "tgtext": "Vitalik Shanghai Speech: Blockchain Needs New Cryptographic Tools\n\nThis episode features a public speech by Ethereum co-founder Vitalik Buterin at the 12th Glo... Read more: \u2014 link Video link: \u2014 link",
 "title": "Vitalik Shanghai Speech: Blockchain Needs New Cryptographic Tools",
@@ -1309,7 +1322,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794132040.0,
 "tgtext": "It appears the hacker is selling ETH to buy ZEC!\n\nOver the past 20 hours, 1,670 $ETH ($3.73M) from #TornadoCash was deposited into Hyperliquid and sold to buy 2,959 $ZEC ($3.73M).\n\nhttps://arkm.com/explorer/entity/7f21cbbf-11e5-47e3-a8cf-5b16d8c1bd35",
 "title": "It appears the hacker is selling ETH to buy ZEC!",
@@ -1396,7 +1409,7 @@
 "NewsBytes",
 "TOKENPOST"
 ],
-"t": 1794135713.956912,
+"t": 1794136019.9129267,
 "t0": 1794115258.0,
 "tgtext": "",
 "title": "SEAL Puts Binance Device Compromise About Eight Weeks Before $6.3 Billion Exploit",
@@ -1454,9 +1467,11 @@
 "srcs": [
 "Bitcoin News",
 "Crypto News",
-"Pluang"
+"IDNFinancials",
+"Nairametrics",
+"NewsBytes"
 ],
-"t": 1794135713.956912,
+"t": 1794136323.2529318,
 "t0": 1794115411.0,
 "tgtext": "",
 "title": "$124M in Bitcoin from Binance hack stolen assets converted, mostly from XRP via THORChain.",
@@ -1851,29 +1866,27 @@
 "2a90495a05a1": 0.106,
 "33655d171ea1": 0.141,
 "4590a033c134": 0.031,
-"4ffc701e5864": 0.266,
 "52204d8a3ad2": 0.542,
 "569a2ef0c4ce": 0.152,
 "62b4f010fbaa": 0.058,
+"66199da78595": 0.071,
 "7a2d8c1a1bfd": 0.099,
 "7f5131e74909": 0.029,
 "85ef9efcb71f": 0.038,
 "86122aa359f0": 0.131,
+"8d7632cae156": 0.031,
 "9088097e5925": 0.056,
 "9e7504c94618": 0.052,
 "a482227171f0": 0.555,
 "b2bd99ca770d": 0.086,
 "b8162767d779": 0.81,
 "c08d6654fcb8": 0.032,
-"c82cfa519240": 0.463,
-"cf1f383c6987": 0.144,
-"d348d3ec7c2a": 0.052,
+"cf1f383c6987": 0.349,
 "dafd4533fcd5": 0.067,
 "def71d14729a": 0.048,
-"eb8a2f9e509b": 0.084,
 "ed57b6fbbce1": 0.085,
 "ee3eca578900": 0.072,
-"f2fc21f795b4": 0.057
+"f2fc21f795b4": 0.084
 },
 "sent": [
 {
@@ -2369,63 +2382,63 @@
 [
 "b8162767d779",
 10,
-61,
+71,
 1
 ],
 [
 "a482227171f0",
-9,
-248,
+8,
+258,
 1
 ],
 [
 "52204d8a3ad2",
 18,
-31,
+41,
 1
-],
-[
-"c82cfa519240",
-64,
-341,
-4
-],
-[
-"4ffc701e5864",
-2,
-356,
-1
-],
-[
-"569a2ef0c4ce",
-38,
-232,
-2
 ],
 [
 "cf1f383c6987",
-48,
-338,
-3
+68,
+349,
+7
+],
+[
+"569a2ef0c4ce",
+36,
+242,
+2
 ],
 [
 "33655d171ea1",
 24,
-131,
+141,
 1
 ],
 [
 "1fb38e5f6a51",
 0,
-339,
+349,
 1
 ],
 [
 "86122aa359f0",
 18,
-169,
+179,
+1
+],
+[
+"2a90495a05a1",
+10,
+83,
+1
+],
+[
+"7a2d8c1a1bfd",
+17,
+192,
 1
 ]
 ],
-"top_at": 1794135713.956912
+"top_at": 1794136323.2529318
 }
