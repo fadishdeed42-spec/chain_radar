@@ -37,7 +37,7 @@ def search(d, t):
         d.rounded_rectangle([240, 690, 1040, 720], 15, fill=(70, 74, 86)); d.rounded_rectangle([240, 690, 240 + 800 * p, 720], 15, fill=(80, 200, 120))
 def infected(d, t, t0, label):
     u = seg(t, t0, t0 + .5)
-    if u <= 0: return
+    if u <= 0 or t > B['interview2'] - 1.2: return
     ov = Image.new('RGBA', (SW, SH), (200, 20, 20, int(150 * u))); d._image.paste(Image.alpha_composite(d._image.convert('RGBA'), ov).convert('RGB'))
     d.rectangle([0, SH / 2 - 95, SW, SH / 2 + 95], fill=(20, 4, 6))
     d.text((SW / 2, SH / 2), label, font=F(BOLD, 110), fill=(255, 255, 255), anchor='mm')
@@ -45,7 +45,8 @@ def call(d, t):
     d.rectangle([0, 0, SW, SH], fill=(18, 20, 28))
     d.rectangle([0, 0, SW, 70], fill=(30, 33, 45)); d.text((40, 35), 'Job interview  ·  video call', font=F(SEMI, 32), fill=(230, 232, 240), anchor='lm')
     d.ellipse([1180, 22, 1206, 48], fill=(230, 60, 60)); d.text((1170, 35), 'REC', font=F(SEMI, 24), fill=(230, 60, 60), anchor='rm')
-    gone = seg(t, B['exist'], B['exist'] + .5)
+    back = t > B['interview2'] - 1.2                                      # the ending goes back to the interview
+    gone = 0. if back else seg(t, B['exist'], B['exist'] + .5)
     d.rounded_rectangle([60, 100, 1220, 700], 20, fill=(40, 46, 62))
     if gone < 1:
         a = int(255 * (1 - gone))
@@ -58,7 +59,7 @@ def call(d, t):
     if gone >= .5: d.text((640, 400), 'THIS COMPANY DOES NOT EXIST', font=F(BOLD, 58), fill=(255, 80, 80), anchor='mm')
     d.rounded_rectangle([1000, 560, 1200, 690], 14, fill=(70, 80, 100)); d.text((1100, 625), 'you', font=F(SEMI, 28), fill=(220, 225, 235), anchor='mm')
     p = seg(t, B['code'], B['code'] + 1.2)
-    if 0 < p and t < B['code'] + 2.4:
+    if 0 < p and t < B['code'] + 2.4 and not back:
         d.rounded_rectangle([200, 600, 1080, 760], 20, fill=(10, 12, 16))
         d.text((240, 640), 'Downloading  test-project', font=F(SEMI, 34), fill=(255, 255, 255), anchor='lm')
         d.rounded_rectangle([240, 690, 1040, 720], 15, fill=(70, 74, 86)); d.rounded_rectangle([240, 690, 240 + 800 * p, 720], 15, fill=(80, 200, 120))

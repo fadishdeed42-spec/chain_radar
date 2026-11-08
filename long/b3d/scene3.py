@@ -87,13 +87,13 @@ DESK = mat('desk', (.16, .1, .06), 0, .45)
 FLOOR = mat('floor', (.025, .03, .04), .2, .25)
 ALU = mat('alu', (.62, .64, .68), 1, .3)
 BLACK = mat('black', (.015, .015, .02), 0, .4)
-HOOD1 = mat('hood1', (.05, .07, .11), 0, .85, sheen=.4)
-HOOD2 = mat('hood2', (.12, .05, .05), 0, .85, sheen=.4)
+HOOD1 = mat('hood1', (.02, .03, .05), 0, .8, sheen=.12)
+HOOD2 = mat('hood2', (.07, .025, .025), 0, .8, sheen=.12)
 SKIN = mat('skin', (.55, .38, .28), 0, .55)
 HAIR = mat('hair', (.03, .02, .015), 0, .6)
 RED = mat('red', (1, .1, .08), 0, .4, (1, .06, .03), 8)
 WHITE = mat('white', (1, 1, 1), 0, .4, (1, 1, 1), 4)
-ICE = mat('ice', (.6, .85, 1), 0, .05, (.3, .6, 1), .8, trans=1)
+ICE = mat('ice', (.5, .8, 1), 0, .08, (.2, .55, 1), .25, trans=1)
 CYAN = mat('cyan', (.2, .7, 1), 0, .4, (.2, .6, 1), 5)
 
 w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True
@@ -107,17 +107,18 @@ GOLDBARS = []
 for i in range(9):
     for j in range(3):
         GOLDBARS.append(cube(TOWER + Vector((-1.4 + j * 1.4, 0, .5 + i * 1.05)), (.6, 1.8, .45), GOLD))
-t63 = text('$6.3B', TOWER + Vector((0, 2.8, 11.6)), 2.6, RED); TEXTS.append((t63, 0, bt('june')))
-tbn = text('BINANCE', TOWER + Vector((0, 2.6, 10.3)), .9, WHITE); TEXTS.append((tbn, 0, bt('june')))
+t63 = text('$6.3B', TOWER + Vector((0, 2.8, 11.6)), 2.6, RED); tbn = text('BINANCE', TOWER + Vector((0, 2.6, 10.3)), .9, WHITE)
+for o in (t63, tbn):
+    TEXTS.append((o, 0, bt('june') - .6)); kf(o, 'scale', bt('june') - .6, (1, 1, 1)); kf(o, 'scale', bt('june') - .3, (0, 0, 0))
 
 # ---- a person at a laptop (seen from behind / over the shoulder) ----
 def person(x, y, hood, tag):
     root = bpy.data.objects.new('p' + tag, None); bpy.context.collection.objects.link(root); root.location = (x, y, 0)
     def part(o): o.parent = root; o.location = o.location - Vector((x, y, 0)); return o
-    bpy.ops.mesh.primitive_uv_sphere_add(radius=.24, location=(x, y + .02, 1.18), segments=32, ring_count=16); torso = bpy.context.object
-    torso.scale = (1, .62, 1.45); smooth(put(torso, hood)); part(torso)
+    bpy.ops.mesh.primitive_uv_sphere_add(radius=.21, location=(x, y + .02, 1.13), segments=32, ring_count=16); torso = bpy.context.object
+    torso.scale = (.95, .6, 1.4); smooth(put(torso, hood)); part(torso)
     for s in (-1, 1):                                               # upper + lower arm reaching to the keyboard
-        bpy.ops.mesh.primitive_cylinder_add(radius=.06, depth=.36, location=(x + s * .25, y - .1, 1.2)); a = bpy.context.object
+        bpy.ops.mesh.primitive_cylinder_add(radius=.06, depth=.36, location=(x + s * .22, y - .1, 1.15)); a = bpy.context.object
         a.rotation_euler = (math.radians(-35), 0, s * math.radians(-12)); smooth(put(a, hood), .04); part(a)
         bpy.ops.mesh.primitive_cylinder_add(radius=.05, depth=.34, location=(x + s * .17, y - .36, .98)); f = bpy.context.object
         f.rotation_euler = (math.radians(-85), 0, s * math.radians(25)); smooth(put(f, hood), .03); part(f)
@@ -143,7 +144,7 @@ SA = laptop(-2.4, 2, 'a'); SB = laptop(2.4, 2, 'b')
 PA, HA, TA = person(-2.4, 2.75, HOOD1, 'A'); PB, HB, TB = person(2.4, 2.75, HOOD2, 'B')
 for hp, tor, ph in ((HA, TA, 0), (HB, TB, 1.3)):                 # breathing + small head moves while working
     for k in range(0, int(DUR) + 1, 2):
-        kf(tor, 'scale', k + ph % 2, (1, .62, 1.45)); kf(tor, 'scale', k + 1 + ph % 2, (1.015, .63, 1.47))
+        kf(tor, 'scale', k + ph % 2, (.95, .6, 1.4)); kf(tor, 'scale', k + 1 + ph % 2, (.965, .61, 1.42))
         kf(hp, 'rotation_euler', k + ph, (math.radians(-6 + 3 * math.sin(k)), 0, math.radians(4 * math.sin(k * 1.7))))
 for hp, t0 in ((HA, bt('twentieth') + .2), (HB, bt('twentieth') + .35)):   # leans back when the screen is taken over
     kf(hp, 'rotation_euler', t0, (math.radians(-4), 0, 0)); kf(hp, 'rotation_euler', t0 + .4, (math.radians(10), 0, math.radians(8)))
@@ -162,7 +163,7 @@ def beam(a, b, t):
     mid = (a + b) / 2; d = b - a
     bpy.ops.mesh.primitive_cylinder_add(radius=.025, depth=d.length, location=mid); c = put(bpy.context.object, RED)
     c.rotation_euler = d.to_track_quat('Z', 'Y').to_euler(); s = tuple(c.scale)
-    kf(c, 'scale', 0, (0, 0, 0)); kf(c, 'scale', t, (0, 0, 0)); kf(c, 'scale', t + .8, s)
+    kf(c, 'scale', 0, (0, 0, 0)); kf(c, 'scale', t, (0, 0, 0)); kf(c, 'scale', t + .8, s); kf(c, 'scale', bt('script') - 1.2, s); kf(c, 'scale', bt('script') - .8, (0, 0, 0))
 beam(Vector((-2.4, 1.7, 1.25)), WALL + Vector((-1, .05, -1.4)), bt('twentieth') + .1)
 beam(Vector((2.4, 1.7, 1.25)), WALL + Vector((1, .05, -1.4)), bt('twentieth') + .25)
 for i, g in enumerate(vault_gold):                               # Oct 29: the vaults drain while the wall counts the XRP
@@ -174,8 +175,8 @@ for i, ob in enumerate(GOLDBARS):                                # then bitcoin 
     kf(ob, 'scale', t0, tuple(ob.scale)); kf(ob, 'scale', t0 + 1.4, (0, 0, 0))
 for i in range(5):                                               # $2.85B frozen: ice over the vaults
     ic = cube(WAL[i] + Vector((0, 0, 1)), (.82, .82, 1.1), ICE, .05); appear(ic, bt('froze') + i * .12, .5)
-frz = text('$2.85B FROZEN', WALL + Vector((0, 1.2, -2.15)), .42, CYAN); appear(frz, bt('froze') + .3, .35, bt('fbi') - .3)
-fbi = text('FBI: NORTH KOREAN HACKERS', WALL + Vector((0, 1.2, -2.15)), .3, WHITE); appear(fbi, bt('fbi'), .35, bt('interview2') - .5)
+frz = text('$2.85B FROZEN', Vector((0, -4.4, 2.35)), .5, CYAN); appear(frz, bt('froze') + .3, .35, bt('fbi') - .3)
+fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.35)), .3, WHITE); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.5)
 
 # ---- light ----
 bpy.ops.object.light_add(type='AREA', location=(0, 7, 8)); l = bpy.context.object; l.data.energy = 900; l.data.size = 10; l.data.color = (.55, .65, 1)
@@ -195,15 +196,15 @@ bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data
 cam.data.dof.use_dof = True; cam.data.dof.focus_object = aim; cam.data.dof.aperture_fstop = 2.8
 tc = cam.constraints.new('TRACK_TO'); tc.target = aim; tc.track_axis = 'TRACK_NEGATIVE_Z'; tc.up_axis = 'UP_Y'
 SCRA, SCRB = Vector((-2.4, 1.75, 1.25)), Vector((2.4, 1.75, 1.25))
-shots = [(0, (0, -7, 9.5), TOWER + Vector((0, 0, 10.6))),                         # $6.3B left Binance
-         (bt('started') - .3, (0, -9.5, 8), TOWER + Vector((0, 0, 9))),
+shots = [(0, (0, -1.5, 9.8), TOWER + Vector((0, 0, 10.4))),                         # $6.3B left Binance
+         (bt('started') - .3, (0, -4.5, 8.6), TOWER + Vector((0, 0, 8.6))),
          (bt('june') - .5, (-1.0, 4.9, 2.3), (-2.4, 2.4, 1.2)),                  # over her shoulder
-         (bt('june') + .6, (-1.7, 3.75, 1.75), SCRA),                            # the search page
-         (bt('september') - .7, (-1.72, 3.65, 1.72), SCRA),
+         (bt('june') + .6, (-1.75, 3.6, 2.05), SCRA),                            # the search page
+         (bt('september') - .7, (-1.77, 3.5, 2.0), SCRA),
          (bt('september') - .1, (1.0, 4.9, 2.3), (2.4, 2.4, 1.2)),
-         (bt('september') + .9, (3.1, 3.75, 1.75), SCRB),                        # the video call
-         (bt('twentieth') - .5, (3.08, 3.65, 1.72), SCRB),
-         (bt('twentieth') + .3, (0, 6.8, 4.5), (0, 1.2, 1.3)),                    # both screens taken over
+         (bt('september') + .9, (3.05, 3.6, 2.05), SCRB),                        # the video call
+         (bt('twentieth') + .9, (3.03, 3.5, 2.0), SCRB),
+         (bt('twentieth') + 2.4, (0, 10.5, 4.8), (0, 0.5, 1.4)),                    # both screens taken over
          (bt('script') - 1.0, (0, 6.5, 4.2), (0, -3.5, 2.6)),                     # to the wallets
          (bt('script') - .1, (0, 2.9, 3.9), WALL + Vector((0, 0, -.6))),          # the wall: script, XRP, 4 minutes
          (bt('bitcoin') - .2, (0, 1.5, 4.6), WALL + Vector((0, 0, -.8))),
@@ -211,8 +212,8 @@ shots = [(0, (0, -7, 9.5), TOWER + Vector((0, 0, 10.6))),                       
          (bt('most') + .2, (0, -4.5, 6.5), TOWER + Vector((0, 0, 4))),
          (bt('froze') - .3, (0, 2.6, 2.6), (0, -6.5, 1.3)),                      # frozen vaults
          (bt('fbi') + 1.5, (0, 2.0, 2.8), (0, -6.5, 1.5)),
-         (bt('interview2') - .7, (-1.0, 4.9, 2.3), (-2.4, 2.4, 1.2)),             # back to the job interview
-         (DUR, (-1.5, 4.3, 1.9), (-2.4, 2.2, 1.1))]
+         (bt('interview2') - .9, (1.0, 4.9, 2.3), (2.4, 2.4, 1.3)),               # back to the job interview
+         (DUR, (3.05, 3.6, 2.05), SCRB)]
 for t, cl, al_ in shots:
     kf(cam, 'location', t, tuple(cl)); kf(aim, 'location', t, tuple(al_))
 for a in bpy.data.actions:
