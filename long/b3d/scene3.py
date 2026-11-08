@@ -109,10 +109,10 @@ for i in range(9):
         GOLDBARS.append(cube(TOWER + Vector((-1.4 + j * 1.4, 0, .5 + i * 1.05)), (.6, 1.8, .45), GOLD))
 t63 = text('$6.3B', TOWER + Vector((0, 2.8, 11.6)), 2.6, RED); tbn = text('BINANCE', TOWER + Vector((0, 2.6, 10.3)), .9, WHITE)
 for o in (t63, tbn):
-    TEXTS.append((o, 0, bt('june') - .6)); kf(o, 'scale', bt('june') - .6, (1, 1, 1)); kf(o, 'scale', bt('june') - .3, (0, 0, 0))
+    TEXTS.append((o, 0, bt('started') + .3)); kf(o, 'scale', bt('started') + .3, (1, 1, 1)); kf(o, 'scale', bt('started') + .6, (0, 0, 0))
 
 # ---- a person at a laptop (seen from behind / over the shoulder) ----
-def person(x, y, hood, tag):
+def person(x, y, hood, tag, turn=0.):
     root = bpy.data.objects.new('p' + tag, None); bpy.context.collection.objects.link(root); root.location = (x, y, 0)
     def part(o): o.parent = root; o.location = o.location - Vector((x, y, 0)); return o
     bpy.ops.mesh.primitive_uv_sphere_add(radius=.21, location=(x, y + .02, 1.13), segments=32, ring_count=16); torso = bpy.context.object
@@ -131,17 +131,20 @@ def person(x, y, hood, tag):
     bpy.ops.mesh.primitive_cylinder_add(radius=.05, depth=.12, location=(0, 0, 0)); nk = bpy.context.object; smooth(put(nk, SKIN)); nk.parent = hp; nk.location = (0, 0, -.03)
     cube((x, y + .12, .55), (.24, .22, .04), BLACK, .02); cube((x, y + .33, .9), (.24, .03, .32), BLACK, .02)   # chair
     cube((x, y + .12, .27), (.03, .03, .27), ALU, 0)
+    cube((x, y - .45, .785), (.3, .1, .012), BLACK, .006)                                  # keyboard
+    for o in bpy.data.objects:
+        if o.parent is None and o is not root and (Vector(o.location[:2]) - Vector((x, y))).length < .7 and o.location.y > y - .6: o.parent = root; o.matrix_parent_inverse = root.matrix_world.inverted()
+    root.rotation_euler = (0, 0, turn)
     return root, hp, torso
 def laptop(x, y, folder):                                          # desk, keyboard and a big monitor
     cube((x, y, .74), (1.0, .55, .03), DESK, .01)
     for dx in (-.9, .9):
         for dy in (-.45, .45): cube((x + dx, y + dy, .36), (.03, .03, .36), ALU, 0)
-    cube((x, y + .3, .785), (.3, .1, .012), BLACK, .006)                                    # keyboard
     cube((x, y - .25, .9), (.04, .03, .15), ALU, .01); cube((x, y - .25, .78), (.18, .12, .01), ALU, .005)   # stand
     cube((x, y - .27, 1.25), (.6, .02, .38), BLACK, .015)                                   # bezel
     return plane((x, y - .245, 1.25), (.56, .35), screen_mat('scr' + folder, folder))
 SA = laptop(-2.4, 2, 'a'); SB = laptop(2.4, 2, 'b')
-PA, HA, TA = person(-2.4, 2.75, HOOD1, 'A'); PB, HB, TB = person(2.4, 2.75, HOOD2, 'B')
+PA, HA, TA = person(-1.8, 2.75, HOOD1, 'A', math.radians(-22)); PB, HB, TB = person(1.8, 2.75, HOOD2, 'B', math.radians(22))   # sitting beside the screen, so close shots see it whole
 for hp, tor, ph in ((HA, TA, 0), (HB, TB, 1.3)):                 # breathing + small head moves while working
     for k in range(0, int(DUR) + 1, 2):
         kf(tor, 'scale', k + ph % 2, (.95, .6, 1.4)); kf(tor, 'scale', k + 1 + ph % 2, (.965, .61, 1.42))
@@ -176,7 +179,7 @@ for i, ob in enumerate(GOLDBARS):                                # then bitcoin 
 for i in range(5):                                               # $2.85B frozen: ice over the vaults
     ic = cube(WAL[i] + Vector((0, 0, 1)), (.82, .82, 1.1), ICE, .05); appear(ic, bt('froze') + i * .12, .5)
 frz = text('$2.85B FROZEN', Vector((0, -4.4, 2.3)), .5, CYAN); appear(frz, bt('froze') + .3, .35, bt('fbi') - .3)
-fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.3)), .3, mat('white2', (1, 1, 1), 0, .4, (1, 1, 1), 1.5)); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.5)
+fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.3)), .21, mat('white2', (1, 1, 1), 0, .4, (1, 1, 1), 1.5)); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.5)
 
 # ---- light ----
 bpy.ops.object.light_add(type='AREA', location=(0, 7, 8)); l = bpy.context.object; l.data.energy = 900; l.data.size = 10; l.data.color = (.55, .65, 1)
@@ -208,8 +211,8 @@ shots = [(0, (0, -1.5, 9.8), TOWER + Vector((0, 0, 10.4))),                     
          (bt('script') - 1.0, (0, 6.5, 4.2), (0, -3.5, 2.6)),                     # to the wallets
          (bt('script') - .1, (0, .6, 3.4), (0, -5.6, 2.9)),          # the wall: script, XRP, 4 minutes
          (bt('bitcoin') - .2, (0, .2, 3.4), (0, -5.6, 2.9)),
-         (bt('bitcoin') + .4, (0, -4, 7), TOWER + Vector((0, 0, 5))),             # tower empties
-         (bt('most') + .2, (0, -4.5, 6.5), TOWER + Vector((0, 0, 4))),
+         (bt('bitcoin') + .4, (0, -8, 6.5), TOWER + Vector((0, 0, 5))),             # tower empties
+         (bt('most') + .2, (0, -8.5, 6), TOWER + Vector((0, 0, 4))),
          (bt('froze') - .8, (0, .6, 2.5), (0, -6.5, 1.7)),                      # frozen vaults
          (bt('fbi') + 1.5, (0, .2, 2.6), (0, -6.5, 1.8)),
          (bt('interview2') - .9, (1.2, 5.5, 2.8), (2.4, 2.0, 1.3)),               # back to the job interview
@@ -218,7 +221,7 @@ for t, cl, al_ in shots:
     kf(cam, 'location', t, tuple(cl)); kf(aim, 'location', t, tuple(al_))
 for a in bpy.data.actions:
     for fc in a.fcurves:
-        for kp in fc.keyframe_points: kp.interpolation = 'BEZIER'; kp.easing = 'AUTO'
+        for kp in fc.keyframe_points: kp.interpolation = 'BEZIER'; kp.handle_left_type = kp.handle_right_type = 'AUTO_CLAMPED'   # no overshoot
 
 # ---- safe-frame check: every 3D label fully inside the frame (with a 6% margin) while it is on screen ----
 def safe_check():
