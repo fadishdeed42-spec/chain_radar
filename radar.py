@@ -2649,6 +2649,7 @@ HELP = ('🕵️ <b>Chain Secrets bot</b>\n\n'
         '/top — hottest crypto stories right now → tap one for a full post, then pick its look\n'
         '/story <i>topic</i> — X thread + real chart (only when it matters) + sources, then a Short in one tap\n'
         '/short <i>story</i> — a finished YouTube Short (1 min). Add 1.5min / 2min for longer\n'
+        '/card — a tall true-story image for X (pick a hot story, or /card + topic or link)\n'
         '\n'
         '<b>Replies</b>\n'
         '• <b>Send an X post link</b> → 3 reply ideas to copy (facts checked, tells you if the post is too old)\n\n'
@@ -2656,7 +2657,7 @@ HELP = ('🕵️ <b>Chain Secrets bot</b>\n\n'
         '• <b>Type any coin</b> (<code>$PEPE</code>, <code>chart sol</code>) → real chart + a ready sentence\n\n'
         '<b>Alerts</b>\n'
         '/mute 3 — pause alerts for 3 hours · /unmute')
-COMMANDS = [('top', 'Hottest stories now'), ('story', 'Full story package: /story Do Kwon'), 
+COMMANDS = [('top', 'Hottest stories now'), ('card', 'Story card for X: /card topic'), ('story', 'Full story package: /story Do Kwon'), 
             ('short', 'Make a YouTube Short: /short story'), ('reply', 'Reply ideas: /reply <link>'),
             ('mute', 'Pause alerts: /mute 3'), ('unmute', 'Resume alerts'), ('help', 'How to use the bot')]
 
@@ -2911,6 +2912,15 @@ def handle(u, tgs):
         except Exception:
             pass
         mid = (cb.get('message') or {}).get('message_id')
+        if data.startswith('lc:'):
+            item = menu_item(data[3:], tgs)
+            card_make(item['title'], tgs, item) if item else tg('That story expired. Send /card again.')
+            return
+        if data.startswith('lca:'): card_approve(data[4:], tgs); return
+        if data.startswith('lcr:'):
+            c_ = tgs.get('lcards', {}).get(data[4:]); card_make(c_['topic'], tgs, c_.get('item')) if c_ else tg('That card expired. Send /card again.'); return
+        if data.startswith('lcf:'):
+            tgs['lc_edit'] = data[4:]; tg('✏️ Type what to change (e.g. <i>shorter title</i>, <i>remove the 3rd paragraph</i>, <i>say 173,600 ETH</i>).'); return
         if data.startswith('p:'):
             item = menu_item(data[2:], tgs)
             if item:
@@ -2989,6 +2999,11 @@ def handle(u, tgs):
     MAP = {'📰 Top stories': '/top', '📖 Story': '/story'}
     if t in MAP:
         c, args = MAP[t], []
+    if tgs.get('lc_edit') and not t.startswith('/'):
+        k_ = tgs.pop('lc_edit'); ack('⏳ Redrawing the card…')
+        try: card_fix(k_, t, tgs)
+        finally: unack()
+        return
     if tgs.get('short_edit') and re.match(r'^\s*\d\s*[:.)\-]\s*\S', t) and short_edit(t, tgs):
         return
     if t in ('🎬 Make a Short', '🎬 Studio'):
@@ -3032,6 +3047,11 @@ def handle(u, tgs):
         cmd_reply(XLINK.search(t).group(0), tgs)
     elif not fwd and len(t) <= 40 and coin_query(t):
         q = coin_query(t); ack(f'⏳ Pulling the {q.upper()} chart…'); coin_view(q, tgs)
+    elif c == '/card':
+        if args and (XLINK.search(args[0]) or args[0].startswith('http')):
+            card_make(args[0], tgs, {'title': args[0], 'url': args[0]})
+        elif args: card_make(' '.join(args), tgs)
+        else: send_card_menu(tgs)
     elif c == '/story':
         research_story(' '.join(args), tgs) if args else tg('📖 Send <code>/story</code> + a topic, e.g. <code>/story Do Kwon</code>.')
     elif c == '/mute':
@@ -3045,11 +3065,136 @@ def handle(u, tgs):
         tg(HELP)
 
 
+
+# ---------------- /card: a fresh 'true story' long card for X (research -> facts-only spec -> real chart -> tall image) ----------------
+import longcard
+CARD_PROMPT = ('You write ONE tall X image post for Chain Secrets (true crypto & money stories), in this exact JSON shape:\n'
+    '{"title": "max 9 words, the shock first, a number if there is one", "tag": "Month Year · place/company · thing", '
+    '"stats": [{"value": "short e.g. $625M / 6 days / 5 of 9", "label": "max 4 words", "color": "red|gold|green"}] (exactly 3), '
+    '"story": ["5 to 7 short paragraphs, plain words a 12-year-old gets, each max 35 words; start the 2 most shocking ones with !"], '
+    '"lesson": "one sentence, max 22 words", "question": "a short question people want to answer", '
+    '"post_text": "the X post text, max 240 chars, hook first, no hashtags, no links", '
+    '"coin": "ticker of the coin whose price chart fits this story best, or empty", "event_date": "YYYY-MM-DD the day the news hit", '
+    '"chart_label": "max 4 words e.g. Mar 29: hack revealed"}\n'
+    'RULES: use ONLY facts in FACTS below. Every number, date, name must be in FACTS. If something is not in FACTS, leave it out. '
+    'No guesses, no "reportedly" padding, no opinions. Return JSON only.\n')
+
+
+def card_facts(topic, item=None):
+    f = short_facts(topic)
+    if item:
+        try: f = 'HEADLINE: ' + item.get('title', '') + '\n' + article_text([item.get('url', '')], 1) + '\n' + f
+        except Exception: pass
+    return f[:24000]
+
+
+def card_chart(spec):
+    """real candles for the card: hourly around fresh news, daily around older events. Returns (rows, chart dict) or ([], None)."""
+    sym = re.sub(r'[^A-Z0-9]', '', str(spec.get('coin') or '').upper())
+    if not sym:
+        return [], None
+    try:
+        ev = datetime.strptime(str(spec.get('event_date'))[:10], '%Y-%m-%d').replace(tzinfo=timezone.utc).timestamp() + 12 * 3600
+    except Exception:
+        ev = time.time()
+    ev = min(ev, time.time())
+    fresh = time.time() - ev < 4 * 86400
+    if fresh:
+        gran, start, end, lab = 3600, ev - 36 * 3600, min(time.time(), ev + 36 * 3600), 'hourly'
+    else:
+        gran, start, end, lab = 86400, ev - 20 * 86400, min(time.time(), ev + 20 * 86400), 'daily'
+    rows, src = binance(sym, gran, start, end), 'Binance'
+    if len(rows) < 12:
+        try: rows, src = coinbase(sym, gran, start, end), 'Coinbase'
+        except Exception: rows = []
+    rows = [r for r in rows if start * 1000 <= r[0] <= end * 1000]
+    if len(rows) < 12:
+        return [], None
+    mark = min(range(len(rows)), key=lambda i: abs(rows[i][0] / 1000 - ev))
+    fmt_ = (lambda ms: datetime.fromtimestamp(ms / 1000, timezone.utc).strftime('%b %d %H:%M' if fresh else '%b %d'))
+    return rows, {'title': f'{sym} price ({src}, {lab}) · real chart', 'mark': mark, 'label': (spec.get('chart_label') or 'The news')[:28],
+                  'from': fmt_(rows[0][0]), 'to': fmt_(rows[-1][0])}
+
+
+def card_check(spec, facts):
+    """every number on the card must be in the research"""
+    try:
+        import qc as sqc
+        fn = sqc.numbers_in(facts); txt = ' '.join([spec.get('title', ''), spec.get('tag', ''), spec.get('lesson', ''), spec.get('question', ''), spec.get('post_text', '')]
+                                                   + [str(x.get('value', '')) + ' ' + str(x.get('label', '')) for x in spec.get('stats') or []] + list(spec.get('story') or []))
+        return sorted({f'{n:g}' for n in sqc.numbers_in(txt) if not sqc._ok_number(n, fn, facts)})
+    except Exception as e:
+        print('card check', e); return []
+
+
+def card_send(k, tgs):
+    c = tgs['lcards'][k]; spec = c['spec']
+    rows, ch = card_chart(spec)
+    spec['chart'] = ch
+    img = longcard.render(spec, rows)
+    bad = card_check(spec, c['facts'])
+    chk = ('✅ Every number on the card was found in the sources.' if not bad else
+           '❌ Not found in the sources: <b>' + E(', '.join(bad)) + '</b> — tap ✏️ Fix text or 🔁 Redo.')
+    cap = (f'📇 <b>Story card</b> · {E(c["topic"])[:80]}\n{chk}\n{"📈 real " + E(ch["title"].split(" · ")[0]) if ch else "📈 no chart (no coin price fits this story)"}'
+           f'\n\n<b>Post text (copy):</b>\n<code>{E(spec.get("post_text", ""))}</code>')
+    tg(cap, img, [('✅ Approve', 'lca:' + k), ('✏️ Fix text', 'lcf:' + k), ('🔁 Redo', 'lcr:' + k)])
+
+
+def card_make(topic, tgs, item=None, k=None):
+    tg(f'🔎 Researching <b>{E(topic)[:120]}</b> for a story card (2–4 min)…')
+    facts = card_facts(topic, item)
+    if len(facts) < 300:
+        tg('Not enough real sources for that story yet. Try a different name or a link.'); return
+    spec = gemini_json(CARD_PROMPT + f'\nSTORY: {topic}\nTODAY: {datetime.now(timezone.utc):%Y-%m-%d}\n\nFACTS:\n{facts}', strong=True)
+    if not spec or not spec.get('title') or not spec.get('story'):
+        tg('The writer did not return a card. Tap 🔁 or try again in a minute.'); return
+    k = k or hashlib.md5((topic + str(time.time())).encode()).hexdigest()[:8]
+    tgs.setdefault('lcards', {})[k] = {'topic': topic, 'spec': spec, 'facts': facts, 'item': item, 't': time.time()}
+    for old in sorted(tgs['lcards'], key=lambda x: tgs['lcards'][x].get('t', 0))[:-6]:   # keep the last 6 only (state stays small)
+        tgs['lcards'].pop(old, None)
+    card_send(k, tgs)
+
+
+def card_fix(k, note, tgs):
+    c = tgs.get('lcards', {}).get(k)
+    if not c:
+        tg('That card expired. Send /card again.'); return
+    spec = gemini_json(CARD_PROMPT + f'\nHere is the current card JSON:\n{json.dumps({x: y for x, y in c["spec"].items() if x != "chart"})}\n'
+                       f'Apply this change from the owner, keep everything else: {note}\n\nFACTS:\n{c["facts"]}', strong=True)
+    if not spec or not spec.get('title'):
+        tg('Could not apply that change. Try saying it another way.'); return
+    c['spec'] = spec; c['t'] = time.time(); card_send(k, tgs)
+
+
+def card_approve(k, tgs):
+    c = tgs.get('lcards', {}).get(k)
+    if not c:
+        tg('That card expired. Send /card again.'); return
+    os.makedirs('cards', exist_ok=True); d_ = datetime.now(timezone.utc).strftime('%Y%m%d')
+    slug = re.sub(r'[^a-z0-9]+', '_', c['topic'].lower())[:40].strip('_') or k
+    json.dump({x: y for x, y in c.items() if x != 'facts'}, open(f'cards/{d_}_{slug}.json', 'w'), indent=1, default=str)
+    git_sync(force=True)
+    tg(f'✅ Approved and saved (cards/{d_}_{slug}.json). Post the image above with this text:\n\n<code>{E(c["spec"].get("post_text", ""))}</code>')
+
+
+def send_card_menu(tgs):
+    """/card with no topic: today's hottest stories, each with a card button"""
+    git_sync(); st = load_state(); top = st.get('top') or []; msg, btn, n, shown = '📇 <b>Pick a story for a card</b> (or send <code>/card</code> + any topic or link)\n', [], 0, []
+    for k, sc, age_m, ns in top:
+        it = st.get('menu', {}).get(k)
+        if not it or n >= 6: continue
+        title = html.unescape(html.unescape(it['title'])).strip()
+        if any(same_headline(title, t) for t in shown): continue
+        shown.append(title); n += 1; msg += f'\n<b>{n}.</b> {E(title)}'; btn.append((f'📇 {n}', 'lc:' + k))
+    if not btn:
+        tg('No fresh stories in the scanner right now. Send <code>/card</code> + a topic, e.g. <code>/card Ronin bridge hack</code>.'); return
+    tg(msg, None, btn)
+
 from concurrent.futures import ThreadPoolExecutor as _TPE
 POOL = _TPE(6)                                                            # up to 3 slow requests at once; the chat never waits behind one
 INSTANT = ('/help', '/start', 'help', '/mute', '/unmute', '💬 Reply to a post', '🎬 Studio', '🎬 Make a Short')
 SLOW_HINT = {'/top': '⏳ Getting the hottest stories…', '📰 Top stories': '⏳ Getting the hottest stories…',
-             '/story': '⏳ Researching the story (real articles, about a minute)…', '📖 Story': '⏳ Researching…',}
+             '/story': '⏳ Researching the story (real articles, about a minute)…', '/card': '⏳ Making a story card…', '📖 Story': '⏳ Researching…',}
 
 
 def is_instant(u):
