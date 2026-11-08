@@ -132,7 +132,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794115358.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -227,7 +227,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794127860.0,
 "tgtext": "",
 "title": "Bitcoin Mining Enters a New Reality: Even the China Ban Wasn\u2019t This Bad",
@@ -391,7 +391,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794114337.0,
 "tgtext": "",
 "title": "Altcoins shed about $200 billion as 70% slip below 200-day moving average",
@@ -404,7 +404,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794133861.0,
 "tgtext": "\u26a1\ufe0f LATEST: Elon Musk says Tesla\u2019s Cybertruck order backlog exceeds production capacity ahead of plans to repurpose the line for Cybercab expansion around June or July 2027, prompting the company to add an extra shift.\n\nNews | Markets | YouTube",
 "title": "Elon Musk says Tesla\u2019s Cybertruck order backlog exceeds production capacity ahead of plans to repurpose the line for Cybercab expansion around June or July 2027, prompting the company to add an extra shift.",
@@ -418,7 +418,7 @@
 "Crypto News",
 "Pluang"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794121800.0,
 "tgtext": "",
 "title": "Former Holograph employee gets 5 years over $14M HLG token theft",
@@ -860,7 +860,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794133581.5928118,
+"t": 1794135104.1572268,
 "t0": 1794125576.0,
 "tgtext": "",
 "title": "Binance\u2019s  finance chief Kaiser Ng to leave company, report says",
@@ -1117,7 +1117,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794120858.0,
 "tgtext": "Vitalik Shanghai Speech: Blockchain Needs New Cryptographic Tools\n\nThis episode features a public speech by Ethereum co-founder Vitalik Buterin at the 12th Glo... Read more: \u2014 link Video link: \u2014 link",
 "title": "Vitalik Shanghai Speech: Blockchain Needs New Cryptographic Tools",
@@ -1309,7 +1309,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794132040.0,
 "tgtext": "It appears the hacker is selling ETH to buy ZEC!\n\nOver the past 20 hours, 1,670 $ETH ($3.73M) from #TornadoCash was deposited into Hyperliquid and sold to buy 2,959 $ZEC ($3.73M).\n\nhttps://arkm.com/explorer/entity/7f21cbbf-11e5-47e3-a8cf-5b16d8c1bd35",
 "title": "It appears the hacker is selling ETH to buy ZEC!",
@@ -1452,13 +1452,13 @@
 "coin": "bitcoin",
 "src": "Pluang",
 "srcs": [
+"Bitcoin News",
 "Crypto News",
 "IDNFinancials",
 "Nairametrics",
-"NewsBytes",
-"Pluang"
+"NewsBytes"
 ],
-"t": 1794133275.2968585,
+"t": 1794135104.1572268,
 "t0": 1794115411.0,
 "tgtext": "",
 "title": "$124M in Bitcoin from Binance hack stolen assets converted, mostly from XRP via THORChain.",
@@ -1731,7 +1731,7 @@
 "Substack",
 "Wu Blockchain"
 ],
-"t": 1794134494.4908552,
+"t": 1794135104.1572268,
 "t0": 1794128466.0,
 "tgtext": "Asia\u2019s weekly TOP10 crypto news\n\nPBOC to Probe Solana\u2019s Lujiazui Ad Campaign, South Korea Pushes Crypto Gains Tax to 2029, Bank of Russia Opens BTC, ETH and USDT to Retail Investors, Hong Kong to License Crypto Custody Services.\n\nFor the complete article and weekly curated reports, subscribe to our Substack: \u2014 link",
 "title": "Asia's weekly TOP10 crypto news: PBOC to Probe Solana's Lujiazui Ad Campaign, South Korea Pushes Crypto Gains Tax to 2029 and Top10 News",
@@ -1850,32 +1850,29 @@
 "movers": {},
 "probs": {
 "1fb38e5f6a51": 0.138,
-"230653d17348": 0.087,
 "2a90495a05a1": 0.106,
 "33655d171ea1": 0.141,
-"4590a033c134": 0.057,
+"4590a033c134": 0.031,
 "4ffc701e5864": 0.266,
 "52204d8a3ad2": 0.621,
-"569a2ef0c4ce": 0.45,
+"569a2ef0c4ce": 0.152,
 "62b4f010fbaa": 0.058,
 "66199da78595": 0.071,
 "7a2d8c1a1bfd": 0.099,
-"7dab216c0943": 0.686,
 "7f5131e74909": 0.029,
 "85ef9efcb71f": 0.038,
 "86122aa359f0": 0.131,
 "8d7632cae156": 0.031,
 "9088097e5925": 0.056,
-"9e7504c94618": 0.052,
 "a482227171f0": 0.496,
 "b2bd99ca770d": 0.086,
 "b8162767d779": 0.81,
 "c08d6654fcb8": 0.032,
-"c82cfa519240": 0.463,
-"cf1f383c6987": 0.099,
+"cf1f383c6987": 0.349,
 "d348d3ec7c2a": 0.052,
 "dafd4533fcd5": 0.067,
 "def71d14729a": 0.048,
+"eb8a2f9e509b": 0.084,
 "ed57b6fbbce1": 0.068,
 "ee3eca578900": 0.229,
 "f2fc21f795b4": 0.057
@@ -2374,63 +2371,63 @@
 [
 "b8162767d779",
 10,
-41,
-1
-],
-[
-"7dab216c0943",
-0,
-359,
+51,
 1
 ],
 [
 "52204d8a3ad2",
 18,
-11,
+21,
 1
 ],
 [
 "a482227171f0",
-12,
-227,
+11,
+237,
 1
 ],
 [
-"c82cfa519240",
-67,
-321,
-4
-],
-[
-"569a2ef0c4ce",
-40,
-212,
-2
+"cf1f383c6987",
+66,
+328,
+6
 ],
 [
 "4ffc701e5864",
-5,
-336,
+3,
+346,
 1
 ],
 [
 "ee3eca578900",
 20,
-100,
+111,
+2
+],
+[
+"569a2ef0c4ce",
+39,
+222,
 2
 ],
 [
 "33655d171ea1",
 24,
-111,
+121,
 1
 ],
 [
 "1fb38e5f6a51",
-2,
-319,
+1,
+329,
+1
+],
+[
+"86122aa359f0",
+18,
+159,
 1
 ]
 ],
-"top_at": 1794134494.4908552
+"top_at": 1794135104.1572268
 }
