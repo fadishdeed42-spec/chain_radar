@@ -49,7 +49,7 @@
 "CoinGape",
 "CryptoPotato"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794157770.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists",
@@ -149,7 +149,7 @@
 "Hokanews",
 "The Block"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794152940.0,
 "tgtext": "",
 "title": "Web3Auth Exploit Drains $6 Million From 44,000 Wallets, Trust Wallet and MetaMask Respond",
@@ -220,7 +220,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794158222.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -438,7 +438,7 @@
 "Cryptonews.net",
 "The Block"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794153120.0,
 "tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -616,7 +616,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794170401.0,
 "tgtext": "\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -917,7 +917,7 @@
 "Hokanews",
 "Traders Union"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794152340.0,
 "tgtext": "",
 "title": "CZ Urges Crypto Industry to Unite as Binance Hack Highlights Risks of Exchange Security Breaches",
@@ -1032,7 +1032,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794155451.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.",
@@ -1560,6 +1560,19 @@
 "url": "https://t.me/wublockchainenglish/26734",
 "urls": []
 },
+"a5501fb630b9": {
+"coin": "",
+"src": "https://globalpost.com/",
+"srcs": [
+"https://globalpost.com/"
+],
+"t": 1794171446.8111591,
+"t0": 1794162631.0,
+"tgtext": "",
+"title": "North Korea Rejects Accusations of Role in Record-Breaking Cryptocurrency Theft",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbnZIWjVEZWIxcGsxLWlFb2U3M0kzVlcyY280eW9fS21RQk9OOXBBRHF1M2xVcHpsMnd4MDhPRkdCeFE1cnBLZmNPUGUwd0tjUDlnUDloQUNHMWpscXZqYVpOeXhDbmpsbTZFdUpvcXVOZVU0Zjg3cGlVU1hERGNVRTRNR0dSYUhlZF95MnpSUGJLTnNFcWU0V3pvVzVoZ0lOTnJLYll6SkQ1NGhyMm5udg?oc=5",
+"urls": []
+},
 "a628989e7353": {
 "coin": "",
 "src": "bloomingbit",
@@ -1666,7 +1679,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794150200.0,
 "tgtext": "JUST IN: \ud83c\uddec\ud83c\udde7 UK rejects calls to slow down AI development.\n\n@WatcherGuru",
 "title": "\ud83c\uddec\ud83c\udde7 UK rejects calls to slow down AI development.",
@@ -2287,7 +2300,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794170834.4780118,
+"t": 1794171446.8111591,
 "t0": 1794151572.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.",
@@ -2473,25 +2486,26 @@
 "probs": {
 "0c8fc3805c3b": 0.112,
 "117f26445cb1": 0.022,
-"13660494826a": 0.048,
 "16754fd1d8a4": 0.099,
+"1af00ea5b07b": 0.036,
 "1fb38e5f6a51": 0.044,
 "2a4a4a162280": 0.031,
 "2bdcd0206c05": 0.014,
 "34e3970ab108": 0.321,
 "4657a3ad0294": 0.016,
-"4c1be5f0837a": 0.319,
+"4c1be5f0837a": 0.262,
 "593b4f7a8790": 0.024,
 "62b600882fdd": 0.008,
 "6d05f339b5dd": 0.149,
-"76c6272d4454": 0.031,
-"79c684d894e0": 0.218,
+"79c684d894e0": 0.21,
+"7a1a56ca7fcd": 0.019,
+"7ef001e2c304": 0.032,
 "870040703f9e": 0.024,
 "8736d70f80e5": 0.024,
 "8c2465a183ed": 0.026,
-"9088097e5925": 0.014,
 "97a59e0bd5d1": 0.01,
 "a02932eaf5bb": 0.017,
+"a5501fb630b9": 0.044,
 "a902f3385bc6": 0.026,
 "b289312b0e55": 0.134,
 "b80cdba2556b": 0.024,
@@ -3058,63 +3072,63 @@
 [
 "ea031266c50b",
 0,
-321,
+331,
 1
 ],
 [
 "34e3970ab108",
-33,
-295,
+32,
+305,
 4
 ],
 [
 "4c1be5f0837a",
 10,
-7,
+17,
 1
 ],
 [
 "79c684d894e0",
-10,
-256,
+9,
+267,
 2
 ],
 [
 "6d05f339b5dd",
-46,
-308,
+45,
+318,
 3
 ],
 [
 "b289312b0e55",
 0,
-344,
+354,
 1
 ],
 [
 "0c8fc3805c3b",
-15,
-218,
+14,
+228,
 2
 ],
 [
 "16754fd1d8a4",
-36,
-298,
+34,
+308,
 2
 ],
 [
-"13660494826a",
-5,
-359,
+"1fb38e5f6a51",
+15,
+220,
 1
 ],
 [
-"1fb38e5f6a51",
-16,
-210,
+"a5501fb630b9",
+22,
+147,
 1
 ]
 ],
-"top_at": 1794170834.4780118
+"top_at": 1794171446.8111591
 }
