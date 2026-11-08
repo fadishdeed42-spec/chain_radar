@@ -47,7 +47,7 @@
 "FXLeaders",
 "TechBullion"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794157770.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can BTC Retake $77,900 as Remittix Earn Opens ETH, USDT and USDC Yield Options?",
@@ -99,7 +99,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794175482.0,
 "tgtext": "BREAKING: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.\n\n$BTC falls under $74,000\n$ETH falls under $2,125\n$XRP falls under $1.10\n$SOL falls under $90\n\n@WatcherGuru",
 "title": "$1,000,000,000 liquidated from the crypto market in the past 10 minutes.",
@@ -390,7 +390,7 @@
 "Nikkei Asia",
 "Traders Union"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794161897.0,
 "tgtext": "",
 "title": "U.S. crypto policy outlook sharpens as Congress shift, Binance hack draw focus",
@@ -525,7 +525,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794162731.0,
 "tgtext": "",
 "title": "Web3Auth says it frontran hackers by moving $5.6 million out of exposed Keplr wallets",
@@ -683,7 +683,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794170401.0,
 "tgtext": "\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -1101,7 +1101,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794155451.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.",
@@ -1241,7 +1241,7 @@
 "srcs": [
 "Cryptonews"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794164400.0,
 "tgtext": "",
 "title": "Elon Musk\u2019s Grok AI Predicts an Unbelievable BTC Price",
@@ -1406,7 +1406,7 @@
 "Cointelegraph",
 "Cryptonews.net"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794155701.0,
 "tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -1448,7 +1448,7 @@
 "srcs": [
 "Seoul Economic Daily"
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794171605.0,
 "tgtext": "",
 "title": "Gopax Halts Trading After Hacking Threats, Raising Doubts",
@@ -1925,7 +1925,7 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1794175928.9059336,
+"t": 1794176540.6406305,
 "t0": 1794173460.0,
 "tgtext": "",
 "title": "Bitdeer and Riot Jumped 13% in a Day as Bitcoin Fell Under $75,000. Why Are Miner Stocks Rallying While BTC Drops?",
@@ -2624,7 +2624,7 @@
 },
 "probs": {
 "0c8fc3805c3b": 0.605,
-"107a210b3c50": 0.879,
+"107a210b3c50": 0.967,
 "117f26445cb1": 0.026,
 "1fb38e5f6a51": 0.06,
 "2a4a4a162280": 0.037,
@@ -2643,9 +2643,8 @@
 "7e8b8d46e85a": 0.016,
 "7ef001e2c304": 0.078,
 "870040703f9e": 0.032,
-"8736d70f80e5": 0.036,
-"8ad4c8b2b87d": 0.045,
-"8c2465a183ed": 0.045,
+"8ad4c8b2b87d": 0.061,
+"8c2465a183ed": 0.051,
 "8d30102c4b21": 0.587,
 "935d32699a54": 0.088,
 "9b0d763fff85": 0.01,
@@ -2660,7 +2659,8 @@
 "caffc349ac64": 0.03,
 "ccaca24b7ea2": 0.013,
 "d4f51b919522": 0.031,
-"e04ecf8a9817": 0.017
+"e04ecf8a9817": 0.017,
+"f6a63070efda": 0.046
 },
 "sent": [
 {
@@ -3235,63 +3235,63 @@
 [
 "107a210b3c50",
 25,
-7,
+18,
 1
 ],
 [
 "0c8fc3805c3b",
-48,
-303,
+47,
+313,
 5
 ],
 [
 "8d30102c4b21",
-43,
-337,
+41,
+347,
 3
 ],
 [
 "2fd6c0f0ccd2",
-56,
-234,
+55,
+244,
 3
 ],
 [
 "4c1be5f0837a",
 10,
-92,
+102,
 1
 ],
 [
 "79c684d894e0",
 0,
-341,
+351,
 2
 ],
 [
 "3b8ac45e9723",
-11,
-220,
+10,
+230,
 1
 ],
 [
 "b79515a48b3d",
 20,
-41,
+51,
 1
 ],
 [
 "935d32699a54",
 32,
-72,
+82,
 1
 ],
 [
 "7ef001e2c304",
-27,
-192,
+26,
+202,
 1
 ]
 ],
-"top_at": 1794175928.9059336
+"top_at": 1794176540.6406305
 }
