@@ -32,7 +32,7 @@ try:
         except Exception as e: print('no', kind, e)
 except Exception as e: print('gpu setup', e)
 sc.cycles.device = 'GPU' if GPU else 'CPU'
-sc.cycles.samples = 96 if GPU else (10 if MODE in ('mid', 'stills') else 20)
+sc.cycles.samples = 96 if GPU else (10 if MODE in ('mid', 'stills') else 14)
 if GPU: sc.cycles.denoiser = 'OPTIX' if pr.compute_device_type == 'OPTIX' else 'OPENIMAGEDENOISE'
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 if not os.path.exists(FONT): FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../studio/fonts/InterDisplay-ExtraBold.otf')
@@ -179,7 +179,7 @@ for i, ob in enumerate(GOLDBARS):                                # then bitcoin 
 for i in range(5):                                               # $2.85B frozen: ice over the vaults
     ic = cube(WAL[i] + Vector((0, 0, 1)), (.82, .82, 1.1), ICE, .05); appear(ic, bt('froze') + i * .12, .5)
 frz = text('$2.85B FROZEN', Vector((0, -4.4, 2.3)), .5, CYAN); appear(frz, bt('froze') + .3, .35, bt('fbi') - .3)
-fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.3)), .21, mat('white2', (1, 1, 1), 0, .4, (1, 1, 1), 1.5)); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.5)
+fbi = text('FBI: NORTH KOREAN HACKERS', Vector((0, -4.4, 2.3)), .21, mat('white2', (1, 1, 1), 0, .4, (1, 1, 1), 1.5)); appear(fbi, bt('fbi'), .35, bt('interview2') - 1.9)
 
 # ---- light ----
 bpy.ops.object.light_add(type='AREA', location=(0, 7, 8)); l = bpy.context.object; l.data.energy = 900; l.data.size = 10; l.data.color = (.55, .65, 1)
@@ -198,13 +198,13 @@ bpy.ops.object.empty_add(); aim = bpy.context.object
 bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data.lens = 30
 cam.data.dof.use_dof = True; cam.data.dof.focus_object = aim; cam.data.dof.aperture_fstop = 2.8
 tc = cam.constraints.new('TRACK_TO'); tc.target = aim; tc.track_axis = 'TRACK_NEGATIVE_Z'; tc.up_axis = 'UP_Y'
-SCRA, SCRB = Vector((-2.4, 1.75, 1.25)), Vector((2.4, 1.75, 1.25))
+SCRA, SCRB = Vector((-2.4, 1.75, 1.33)), Vector((2.4, 1.75, 1.33))
 shots = [(0, (0, -1.5, 9.8), TOWER + Vector((0, 0, 10.4))),                         # $6.3B left Binance
          (bt('started') - .3, (0, -3.0, 9.0), TOWER + Vector((0, 0, 9.4))),
-         (bt('june') - .5, (-1.0, 4.9, 2.3), (-2.4, 2.4, 1.2)),                  # over her shoulder
+         (bt('june') - .5, (-2.6, 5.8, 3.3), (-2.4, 1.75, 1.3)),                  # over her shoulder
          (bt('june') + .6, (-2.15, 3.4, 2.2), SCRA),                            # the search page
          (bt('september') - .7, (-2.16, 3.3, 2.15), SCRA),
-         (bt('september') - .1, (1.0, 4.9, 2.3), (2.4, 2.4, 1.2)),
+         (bt('september') - .1, (2.6, 5.8, 3.3), (2.4, 1.75, 1.3)),
          (bt('september') + .9, (2.65, 3.4, 2.2), SCRB),                        # the video call
          (bt('twentieth') + .9, (2.64, 3.3, 2.15), SCRB),
          (bt('twentieth') + 2.4, (0, 10.5, 4.8), (0, 0.5, 1.4)),                    # both screens taken over
