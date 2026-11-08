@@ -49,7 +49,7 @@
 "CoinGape",
 "CryptoPotato"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794157770.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists",
@@ -149,7 +149,7 @@
 "Hokanews",
 "The Block"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794152940.0,
 "tgtext": "",
 "title": "Web3Auth Exploit Drains $6 Million From 44,000 Wallets, Trust Wallet and MetaMask Respond",
@@ -220,7 +220,7 @@
 "srcs": [
 "StoneX"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794158222.0,
 "tgtext": "",
 "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support",
@@ -249,7 +249,7 @@
 "Traders Union",
 "WSJ"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794145320.0,
 "tgtext": "",
 "title": "CZ Urges Crypto Industry to Unite as Binance Hack Highlights Risks of Exchange Security Breaches",
@@ -421,7 +421,7 @@
 "srcs": [
 "StreetInsider"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794144658.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: Amundi Tokenizes Equity Fund on Ethereum as Remittix Earn Welcomes ETH, USDT and USDC",
@@ -482,7 +482,7 @@
 "Cryptonews.net",
 "The Block"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794153137.0,
 "tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
 "title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
@@ -768,7 +768,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794147153.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says US stock market lost $3 trillion in a single day following the midterm elections.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: President Donald Trump blamed the election results for a $3 trillion one-day stock market loss, vowing that the US will come back \u201cbigger and stronger than ever before.\u201d",
 "title": "President Donald Trump blamed the election results for a $3 trillion one-day stock market loss, vowing that the US will come back \u201cbigger and stronger than ever before.\u201d",
@@ -1217,7 +1217,7 @@
 "srcs": [
 "Gridiron Heroics"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794154513.0,
 "tgtext": "",
 "title": "\"He Is My Father\" Man Arrested At LeBron James' Home, Says He's His Son (Breaking News)",
@@ -1797,7 +1797,7 @@
 "24/7 Wall St.",
 "Cryptonews.net"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794147237.0,
 "tgtext": "",
 "title": "Vitalik Buterin Says Ethereum's Fee Burn Was Never a Price Floor. What Is Holding ETH at $2,200?",
@@ -2197,7 +2197,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794165003.8327525,
+"t": 1794165321.6012487,
 "t0": 1794151572.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.",
@@ -2387,7 +2387,6 @@
 "1fb38e5f6a51": 0.08,
 "22a069c21832": 0.143,
 "349b517e6b6a": 0.048,
-"388625139e58": 0.022,
 "3e63fe275367": 0.418,
 "4657a3ad0294": 0.016,
 "593b4f7a8790": 0.016,
@@ -2397,17 +2396,20 @@
 "79c684d894e0": 0.008,
 "8736d70f80e5": 0.045,
 "9088097e5925": 0.011,
+"95c781a281ba": 0.011,
 "97a59e0bd5d1": 0.019,
-"a02932eaf5bb": 0.025,
+"a02932eaf5bb": 0.013,
 "a902f3385bc6": 0.026,
+"b20aa108eaa3": 0.024,
 "b289312b0e55": 0.039,
 "b9d6ebd367ce": 0.009,
 "c156efa6d9ba": 0.043,
 "c2916bd64567": 0.033,
-"c7ba844c79bc": 0.026,
+"c7ba844c79bc": 0.039,
 "d1b44f89ca96": 0.037,
 "ea031266c50b": 0.09,
-"f104c0b266a3": 0.041
+"f104c0b266a3": 0.041,
+"fd88e84fcb8a": 0.032
 },
 "sent": [
 {
@@ -2964,64 +2966,64 @@
 "top": [
 [
 "625d9fe91916",
-13,
-298,
+12,
+303,
 2
 ],
 [
 "3e63fe275367",
-36,
-198,
+35,
+203,
 3
 ],
 [
 "16754fd1d8a4",
-49,
-201,
+48,
+206,
 2
 ],
 [
 "0c8fc3805c3b",
 20,
-121,
+126,
 2
 ],
 [
 "22a069c21832",
-66,
-328,
+65,
+333,
 4
 ],
 [
 "ea031266c50b",
-13,
-224,
+12,
+229,
 1
 ],
 [
 "1fb38e5f6a51",
 20,
-113,
+118,
 1
 ],
 [
 "349b517e6b6a",
 0,
-339,
+344,
 1
 ],
 [
 "8736d70f80e5",
 28,
-175,
+180,
 1
 ],
 [
 "c156efa6d9ba",
-13,
-296,
+12,
+301,
 2
 ]
 ],
-"top_at": 1794165003.8327525
+"top_at": 1794165321.6012487
 }
