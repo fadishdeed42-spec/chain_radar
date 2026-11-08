@@ -33,7 +33,7 @@ try:
 except Exception as e: print('gpu setup', e)
 sc.cycles.device = 'GPU' if GPU else 'CPU'
 sc.cycles.samples = 96 if GPU else (10 if MODE in ('mid', 'stills') else 14)
-if GPU: sc.cycles.denoiser = 'OPTIX' if pr.compute_device_type == 'OPTIX' else 'OPENIMAGEDENOISE'
+sc.cycles.denoiser = 'OPENIMAGEDENOISE'                      # OptiX denoiser fails on Kaggle's driver
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 if not os.path.exists(FONT): FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../studio/fonts/InterDisplay-ExtraBold.otf')
 
