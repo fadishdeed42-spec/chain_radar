@@ -2,7 +2,11 @@
 import os, subprocess, time, json, glob
 SCENE, DUR, MODE = '__SCENE__', '__DUR__', '__MODE__'
 t0 = time.time()
-def run(c): print('$', c, flush=True); return subprocess.run(c, shell=True).returncode
+LOG = open('/kaggle/working/run.txt', 'a')
+def run(c):
+    print('$', c, flush=True); LOG.write('$ ' + c + '\n')
+    p = subprocess.run(c, shell=True, capture_output=True, text=True); o = (p.stdout + p.stderr)[-4000:]
+    print(o, flush=True); LOG.write(o + f'\n[rc {p.returncode}]\n'); LOG.flush(); return p.returncode
 run('nvidia-smi --query-gpu=name,memory.total --format=csv')
 run('apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 fonts-dejavu-core ffmpeg >/dev/null 2>&1')
 run('cd /kaggle/tmp 2>/dev/null || mkdir -p /kaggle/tmp; cd /kaggle/tmp && git clone -q --depth 1 https://github.com/fadishdeed42-spec/chain_radar.git repo')
