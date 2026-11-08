@@ -185,7 +185,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794131328.0,
 "tgtext": "",
 "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
@@ -193,6 +193,23 @@
 "urls": [
 "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"2e40c96ebc39": {
+"coin": "hyperliquid",
+"src": "Crypto News",
+"srcs": [
+"Bitcoin News",
+"Crypto News",
+"IDNFinancials",
+"Nairametrics",
+"NewsBytes"
+],
+"t": 1794137543.153941,
+"t0": 1794116155.0,
+"tgtext": "",
+"title": "Binance restores HYPE, APT withdrawals as post-hack recovery continues",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9weG1HU25IUGJpcHEwR0I4RDZYNE13T3BhOEEzbXhrd3ViV0lCNWs5MXJGd0ltcEVmOGdfOG5JS1ZzYWQ5S1RLZVU2VVcxRTBlYTV6SHE5Ums5cVpzMEU1eGZnU09MWTVVRVNYNHpFOWZoeXJPUm4xTg?oc=5",
+"urls": []
 },
 "2f8f19e2dc23": {
 "coin": "",
@@ -227,7 +244,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794127860.0,
 "tgtext": "",
 "title": "Bitcoin Mining Enters a New Reality: Even the China Ban Wasn\u2019t This Bad",
@@ -345,7 +362,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794136850.0,
 "tgtext": "",
 "title": "Gold is still 25% below its peak even as demand reaches $188B in Q3",
@@ -419,7 +436,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794133861.0,
 "tgtext": "\u26a1\ufe0f LATEST: Elon Musk says Tesla\u2019s Cybertruck order backlog exceeds production capacity ahead of plans to repurpose the line for Cybercab expansion around June or July 2027, prompting the company to add an extra shift.\n\nNews | Markets | YouTube",
 "title": "Elon Musk says Tesla\u2019s Cybertruck order backlog exceeds production capacity ahead of plans to repurpose the line for Cybercab expansion around June or July 2027, prompting the company to add an extra shift.",
@@ -433,7 +450,7 @@
 "Crypto News",
 "Pluang"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794121800.0,
 "tgtext": "",
 "title": "Former Holograph employee gets 5 years over $14M HLG token theft",
@@ -705,7 +722,7 @@
 "srcs": [
 "MLQ.ai"
 ],
-"t": 1794136629.5569415,
+"t": 1794137543.153941,
 "t0": 1794124779.0,
 "tgtext": "",
 "title": "Binance will close some EU accounts on Dec. 31 and start charging fees on idle balances from Nov. 29",
@@ -888,7 +905,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794125576.0,
 "tgtext": "",
 "title": "Binance\u2019s  finance chief Kaiser Ng to leave company, report says",
@@ -1145,7 +1162,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794120858.0,
 "tgtext": "Vitalik Shanghai Speech: Blockchain Needs New Cryptographic Tools\n\nThis episode features a public speech by Ethereum co-founder Vitalik Buterin at the 12th Glo... Read more: \u2014 link Video link: \u2014 link",
 "title": "Vitalik Shanghai Speech: Blockchain Needs New Cryptographic Tools",
@@ -1337,7 +1354,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794136933.151236,
+"t": 1794137543.153941,
 "t0": 1794132040.0,
 "tgtext": "It appears the hacker is selling ETH to buy ZEC!\n\nOver the past 20 hours, 1,670 $ETH ($3.73M) from #TornadoCash was deposited into Hyperliquid and sold to buy 2,959 $ZEC ($3.73M).\n\nhttps://arkm.com/explorer/entity/7f21cbbf-11e5-47e3-a8cf-5b16d8c1bd35",
 "title": "It appears the hacker is selling ETH to buy ZEC!",
@@ -1877,11 +1894,10 @@
 },
 "movers": {},
 "probs": {
-"1fb38e5f6a51": 0.138,
 "2a90495a05a1": 0.106,
+"2e40c96ebc39": 0.333,
 "33655d171ea1": 0.141,
 "4566753dfa34": 0.16,
-"4590a033c134": 0.031,
 "52204d8a3ad2": 0.542,
 "569a2ef0c4ce": 0.152,
 "62b4f010fbaa": 0.058,
@@ -1897,7 +1913,7 @@
 "b2bd99ca770d": 0.086,
 "b8162767d779": 0.81,
 "c08d6654fcb8": 0.032,
-"cf1f383c6987": 0.349,
+"c624ea0aa916": 0.045,
 "def71d14729a": 0.048,
 "eb8a2f9e509b": 0.084,
 "ed57b6fbbce1": 0.085,
@@ -2398,63 +2414,63 @@
 [
 "b8162767d779",
 10,
-82,
+92,
 1
 ],
 [
 "a482227171f0",
-7,
-268,
+5,
+278,
 1
 ],
 [
 "52204d8a3ad2",
 18,
-51,
+61,
 1
 ],
 [
-"cf1f383c6987",
-67,
-359,
-7
+"2e40c96ebc39",
+62,
+356,
+6
 ],
 [
 "4566753dfa34",
 25,
-1,
+12,
 1
 ],
 [
 "569a2ef0c4ce",
-35,
-252,
+34,
+262,
 2
 ],
 [
 "33655d171ea1",
 24,
-151,
-1
-],
-[
-"1fb38e5f6a51",
-0,
-360,
+161,
 1
 ],
 [
 "86122aa359f0",
-17,
-189,
+16,
+199,
 1
 ],
 [
 "2a90495a05a1",
 10,
-93,
+104,
+1
+],
+[
+"7a2d8c1a1bfd",
+14,
+213,
 1
 ]
 ],
-"top_at": 1794136933.151236
+"top_at": 1794137543.153941
 }
