@@ -16,11 +16,17 @@
  },
  "0": {
   "kind": "video",
-  "file": "media/0_s1.mp4",
-  "credit": "Video: jelena2810 / Pixabay",
+  "file": "media/0_s0.mp4",
+  "credit": "Video: Coverr-Free-Footage / Pixabay \u00b7 Video: Monoar_CGI_Artist / Pixabay",
   "real": false,
   "q": "hacker typing code dark room",
   "shots": [
+   {
+    "file": "media/0_s0.mp4",
+    "kind": "video",
+    "words": "North Korea is making",
+    "q": "hacker typing code dark room"
+   },
    {
     "file": "media/0_s1.mp4",
     "kind": "video",
@@ -44,46 +50,40 @@
    }
   ]
  },
- "6": {
+ "4": {
   "kind": "video",
-  "file": "media/6_s0.mp4",
-  "credit": "Video: Fidato78 / Pixabay",
+  "file": "media/4_s0.mp4",
+  "credit": "Video: Videos_Investors / Pixabay",
   "real": false,
-  "q": "blockchain network",
+  "q": "bank vault door",
   "shots": [
    {
-    "file": "media/6_s0.mp4",
+    "file": "media/4_s0.mp4",
     "kind": "video",
-    "words": "Over 20,000 wallets",
-    "q": "blockchain network"
+    "words": "About $2.85 billion was frozen",
+    "q": "bank vault door"
    }
   ]
  },
- "9": {
+ "5": {
   "kind": "video",
-  "file": "media/9_s0.mp4",
-  "credit": "Video: Ceos_Stock / Pixabay \u00b7 Video: Domka_1611 / Pixabay",
+  "file": "media/5_s0.mp4",
+  "credit": "Video: doktorkleinmusic / Pixabay",
   "real": false,
-  "q": "crypto trading chart",
+  "q": "digital network data flow",
   "shots": [
    {
-    "file": "media/9_s0.mp4",
+    "file": "media/5_s0.mp4",
     "kind": "video",
-    "words": "On NEAR alone",
-    "q": "crypto trading chart"
-   },
-   {
-    "file": "media/9_s1.mp4",
-    "kind": "video",
-    "words": "About $430,000",
-    "q": "money transfer digital"
+    "words": "About $3 billion",
+    "q": "digital network data flow"
    }
   ]
  },
  "7": {
   "kind": "video",
   "file": "media/7_s0.mp4",
-  "credit": "Video: Monoar_CGI_Artist / Pixabay \u00b7 Video: doktorkleinmusic / Pixabay",
+  "credit": "Video: Ceos_Stock / Pixabay \u00b7 Video: PascalBeckmann / Pixabay",
   "real": false,
   "q": "bitcoin coins",
   "shots": [
@@ -101,10 +101,55 @@
    }
   ]
  },
+ "10": {
+  "kind": "video",
+  "file": "media/10_s0.mp4",
+  "credit": "Video: Coverr-Free-Footage / Pixabay",
+  "real": false,
+  "q": "hacker hoodie computer night",
+  "shots": [
+   {
+    "file": "media/10_s0.mp4",
+    "kind": "video",
+    "words": "They have done this before",
+    "q": "hacker hoodie computer night"
+   }
+  ]
+ },
+ "11": {
+  "kind": "video",
+  "file": "media/11_s0.mp4",
+  "credit": "Video: Coverr-Free-Footage / Pixabay",
+  "real": false,
+  "q": "ethereum coin",
+  "shots": [
+   {
+    "file": "media/11_s0.mp4",
+    "kind": "video",
+    "words": "After the Bybit hack",
+    "q": "ethereum coin"
+   }
+  ]
+ },
+ "8": {
+  "kind": "video",
+  "file": "media/8_s1.mp4",
+  "credit": "Video: Coverr-Free-Footage / Pixabay",
+  "real": false,
+  "q": "stock trading screen",
+  "shots": [
+   {
+    "file": "media/8_s1.mp4",
+    "kind": "video",
+    "words": "The money never goes",
+    "q": "phone crypto app"
+   }
+  ]
+ },
  "12": {
   "kind": "video",
   "file": "media/12_s0.mp4",
-  "credit": "Video: badzhoo / Pixabay",
+  "credit": "Video: Engin_Akyurt / Pixabay",
   "real": false,
   "q": "person looking at phone at night",
   "shots": [
@@ -116,24 +161,24 @@
    }
   ]
  },
- "8": {
+ "9": {
   "kind": "video",
-  "file": "media/8_s0.mp4",
-  "credit": "Video: Coverr-Free-Footage / Pixabay \u00b7 Video: PNA7 / Pixabay",
+  "file": "media/9_s0.mp4",
+  "credit": "Video: Domka_1611 / Pixabay \u00b7 Video: tmeier1964 / Pixabay",
   "real": false,
-  "q": "stock trading screen",
+  "q": "crypto trading chart",
   "shots": [
    {
-    "file": "media/8_s0.mp4",
+    "file": "media/9_s0.mp4",
     "kind": "video",
-    "words": "They trade them through pools",
-    "q": "stock trading screen"
+    "words": "On NEAR alone",
+    "q": "crypto trading chart"
    },
    {
-    "file": "media/8_s1.mp4",
+    "file": "media/9_s1.mp4",
     "kind": "video",
-    "words": "The money never goes",
-    "q": "phone crypto app"
+    "words": "About $430,000",
+    "q": "money transfer digital"
    }
   ]
  }
