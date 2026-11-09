@@ -2194,37 +2194,37 @@
 "qc": "warn",
 "sb": {
 "alt_hooks": [
-"$1,000,000,000 vanished from crypto in a single weekend. Here is why.",
-"How did an Nvidia CEO scandal trigger a $1B crypto bloodbath?",
-"When crypto is the only open market, weekend panic hits hard."
+"$1 billion gone in hours as crypto markets crashed over the weekend.",
+"Did you know a CEO scandal and Iran tensions wiped out $1B in crypto?",
+"Over $1 billion liquidated in hours during a brutal crypto weekend crash."
 ],
 "chart": {
 "end": "2026-11-09",
 "start": "2026-11-06",
 "symbol": "BTC"
 },
-"description": "A weekend crypto flash crash triggered over $1 billion in liquidations as Bitcoin dropped to $73,761. Markets reacted to an Nvidia CEO investigation and stalled U.S.-Iran diplomatic talks.",
-"est_secs": 63,
-"hashtags": "#Bitcoin #CryptoCrash #Ethereum #Nvidia #Trading #Blockchain #News",
+"description": "Over $1 billion in crypto positions were liquidated in 24 hours as Bitcoin dropped to $73,761 amid Nvidia CEO scandal reports and stalled U.S.-Iran negotiations.",
+"est_secs": 64,
+"hashtags": "#Bitcoin #CryptoCrash #Nvidia #Trading #Ethereum #MarketNews",
 "length": 60,
 "length_ok": true,
-"lesson": "manage leverage wisely during high market volatility.",
-"pinned": "Did you trade this weekend dip? Let us know below!",
+"lesson": "High leverage in thin weekend markets invites massive liquidation risks.",
+"pinned": "Did you trade this weekend dip or stay in cash? Let us know below.",
 "respell": {},
 "review": {},
 "scenes": [
 {
 "beats": [
 {
-"icon": "fire",
-"text": "FLASH CRASH",
-"word": "weekend"
+"icon": "timer",
+"text": "24 HOURS",
+"word": "hours"
 }
 ],
 "emotion": "shock",
 "footage": "trading screens red",
 "hit": "billion",
-"line": "You won't believe how exactly $1 billion in crypto liquidations wiped out markets over a chaotic weekend.",
+"line": "$1 billion vanished in hours as the Nvidia scandal and Iran tensions struck.",
 "photo": "",
 "receipt": {
 "headline": "Bitcoin, Ethereum, XRP whipsaw on Nvidia scandal, Iran tensions: Crypto sell-off sparks $1B liquidation wave",
@@ -2234,17 +2234,17 @@
 "role": "hook",
 "shots": [
 {
-"q": "trading charts crashing down",
-"words": "$1 billion in crypto liquidations"
+"q": "digital counter numbers dropping",
+"words": "$1 billion wiped out"
 },
 {
-"q": "stock market red numbers",
-"words": "wiped out markets"
+"q": "crypto market chart crash",
+"words": "massive crypto sell-off"
 }
 ],
 "visual": {
 "icon": "fire",
-"label": "TOTAL LIQUIDATIONS",
+"label": "liquidated in 24 hours",
 "prefix": "$",
 "suffix": "",
 "type": "counter",
@@ -2255,24 +2255,29 @@
 "beats": [
 {
 "icon": "calendar",
-"text": "LOWEST SINCE AUGUST",
-"word": "Sunday"
+"text": "LOWEST SINCE AUG",
+"word": "August"
 }
 ],
 "emotion": "tense",
-"footage": "bitcoin ticker dropping",
+"footage": "bitcoin trading charts",
 "hit": "$73761",
-"line": "Bitcoin's crashing down to $73,761 late Sunday as traders panicked during a broader crypto sell-off.",
+"line": "Sunday night, Bitcoin plunged to $73,761, its lowest point since August, joining Ethereum, Solana, and Ripple's XRP.",
 "photo": "",
+"receipt": {
+"headline": "Bitcoin (BTC) Price: $1 Billion in Crypto Liquidations Hit as Nvidia CEO Scandal Rocks Markets",
+"kind": "headline",
+"src": "coincentral.com"
+},
 "role": "setup",
 "shots": [
 {
-"q": "bitcoin chart red candle",
-"words": "Bitcoin dropped to $73,761"
+"q": "night city skyline",
+"words": "Sunday night"
 },
 {
-"q": "night city skyline dark",
-"words": "late Sunday"
+"q": "bitcoin price line chart down",
+"words": "Bitcoin plunged"
 }
 ],
 "visual": {
@@ -2284,29 +2289,61 @@
 {
 "beats": [
 {
-"icon": "gavel",
-"text": "BOARD REVIEW",
-"word": "investigation"
+"icon": "bank",
+"text": "ONLY OPEN MARKET",
+"word": "open"
 }
 ],
-"emotion": "dark",
-"footage": "corporate boardroom meeting",
-"hit": "jensen",
-"line": "Nvidia CEO Jensen Huang suddenly faced an independent board investigation amid stalled U.S.-Iran negotiations and fear.",
-"photo": "Jensen Huang",
+"emotion": "curious",
+"footage": "stock exchange empty",
+"hit": "weekend",
+"line": "Traders reacted over the weekend when crypto was the only open major market, pushing investors toward safer assets.",
+"photo": "",
 "role": "turn",
 "shots": [
 {
-"q": "business man portrait",
-"words": "Nvidia CEO Jensen Huang"
+"q": "empty office desk",
+"words": "over the weekend"
 },
 {
-"q": "legal documents gavel",
-"words": "independent board investigation"
+"q": "smartphone crypto app",
+"words": "only open market"
 }
 ],
 "visual": {
-"name": "JENSEN HUANG",
+"bad": false,
+"icon": "lock",
+"label": "Traditional markets closed",
+"type": "stamp",
+"word": "OPEN"
+}
+},
+{
+"beats": [
+{
+"icon": "question",
+"text": "BOARD INVESTIGATION",
+"word": "affair"
+}
+],
+"emotion": "dark",
+"footage": "corporate headquarters building",
+"hit": "investigation",
+"line": "Nvidia CEO Jensen Huang faced an independent investigation over an affair, while tokenized stock NVDAX fell.",
+"photo": "Jensen Huang",
+"role": "twist",
+"shots": [
+{
+"q": "business executive meeting",
+"words": "Nvidia CEO"
+},
+{
+"q": "legal documents review",
+"words": "independent investigation"
+}
+],
+"visual": {
+"name": "Jensen Huang",
 "prop": "none",
 "role": "Nvidia CEO",
 "type": "person"
@@ -2316,93 +2353,91 @@
 "beats": [
 {
 "icon": "skull",
-"text": "LARGEST ORDER",
-"word": "worse"
+"text": "GLOBAL SHOCK",
+"word": "shock"
 }
 ],
-"emotion": "shock",
-"footage": "ethereum logo red",
-"hit": "$48",
-"line": "And then it got worse because a single ETH order lost $48 million in futures markets.",
+"emotion": "curious",
+"footage": "world map digital lines",
+"hit": "strangest",
+"line": "NVDAX fell 3.55% as the strangest part of this market reaction hit.",
 "photo": "",
 "role": "twist",
 "shots": [
 {
-"q": "ethereum coin crypto",
-"words": "A single ETH order"
+"q": "question mark neon",
+"words": "strangest part"
 },
 {
-"q": "money burning fire",
-"words": "lost $48 million"
+"q": "breaking news screen",
+"words": "global shock"
 }
 ],
 "visual": {
-"icon": "skull",
-"label": "SINGLE ETH LIQUIDATION",
-"prefix": "$",
-"suffix": "",
-"type": "counter",
-"value": 48000000
+"mood": "shock",
+"sub": "Iran tensions too",
+"text": "WHAT ELSE?!",
+"type": "face"
 }
 },
 {
 "beats": [
 {
-"icon": "question",
-"text": "STALLED TALKS",
-"word": "outrageous"
+"icon": "gavel",
+"text": "TALKS FAILED",
+"word": "stalled"
 }
 ],
 "emotion": "tense",
-"footage": "washington dc capitol",
-"hit": "rubio",
-"line": "Meanwhile Secretary of State Marco Rubio called Iran demands outrageous as oil prices rallied higher.",
+"footage": "government press conference",
+"hit": "outrageous",
+"line": "Secretary of State Marco Rubio called Iran demands outrageous as stalled U.S.-Iran negotiations made no progress.",
 "photo": "Marco Rubio",
-"role": "turn",
+"role": "twist",
 "shots": [
 {
 "q": "politician speaking podium",
-"words": "Secretary of State Marco Rubio"
+"words": "Marco Rubio"
 },
 {
-"q": "news broadcast screen",
-"words": "Iran demands outrageous"
+"q": "middle east map",
+"words": "Iran demands"
 }
 ],
 "visual": {
-"name": "MARCO RUBIO",
+"name": "Marco Rubio",
 "prop": "none",
-"role": "U.S. Secretary of State",
+"role": "Secretary of State",
 "type": "person"
 }
 },
 {
 "beats": [
 {
-"icon": "bank",
-"text": "FORCED SELLING",
-"word": "losses"
+"icon": "cash",
+"text": "$913M WIPED OUT",
+"word": "hours"
 }
 ],
-"emotion": "shock",
-"footage": "futures trading desk",
+"emotion": "sad",
+"footage": "liquidated trading positions",
 "hit": "$913",
-"line": "Long traders betting on higher prices suffered $913 million in losses during the 24-hour crash.",
+"line": "Long traders lost $913 million in forced liquidations within hours as volatility hit futures markets.",
 "photo": "",
-"role": "twist",
+"role": "payoff",
 "shots": [
 {
-"q": "trader looking at monitors",
-"words": "Long traders betting"
+"q": "bullish chart red",
+"words": "Long traders"
 },
 {
-"q": "stock exchange numbers falling",
-"words": "$913 million in losses"
+"q": "computer monitor error",
+"words": "forced liquidations"
 }
 ],
 "visual": {
-"icon": "bank",
-"label": "LONG TRADER LOSSES",
+"icon": "skull",
+"label": "Long positions liquidated",
 "prefix": "$",
 "suffix": "",
 "type": "counter",
@@ -2413,24 +2448,29 @@
 "beats": [
 {
 "icon": "bitcoin",
-"text": "PRICE BOUNCE",
-"word": "recovery"
+"text": "REBOUND TO $75K",
+"word": "shock"
 }
 ],
 "emotion": "triumph",
-"footage": "bitcoin green candle chart",
+"footage": "green trading candles",
 "hit": "$75000",
-"line": "Bitcoin rebounded above $75,000 as CoinDesk data confirmed the recovery after the sharp price drop.",
+"line": "Bitcoin rebounded above $75,000 as markets absorbed the billion-dollar shock after dropping to support levels.",
 "photo": "",
-"role": "payoff",
+"receipt": {
+"headline": "Bitcoin, Ethereum, XRP Whipsaw On Nvidia Scandal, Iran Tensions: Crypto Sell-Off Sparks $1B Liquidation Wave",
+"kind": "headline",
+"src": "coincentral.com"
+},
+"role": "end",
 "shots": [
 {
-"q": "bitcoin price chart up",
-"words": "Bitcoin rebounded above $75,000"
+"q": "bitcoin price line chart up",
+"words": "Bitcoin rebounded"
 },
 {
-"q": "financial news website",
-"words": "CoinDesk data confirmed"
+"q": "stock market green",
+"words": "billion-dollar shock"
 }
 ],
 "visual": {
@@ -2438,49 +2478,17 @@
 "label": "NOV 9 \u00b7 $75,000 \u00b7 REBOUND",
 "type": "chart"
 }
-},
-{
-"beats": [
-{
-"icon": "lock",
-"text": "CONTROL RISK",
-"word": "wisely"
-}
-],
-"emotion": "calm",
-"footage": "crypto vault security",
-"hit": "billion",
-"line": "That's $1 billion gone in hours, so manage leverage wisely and watch the charts.",
-"photo": "",
-"role": "end",
-"shots": [
-{
-"q": "digital counter zero",
-"words": "$1 billion gone"
-},
-{
-"q": "lock symbol safety",
-"words": "manage leverage wisely"
-}
-],
-"visual": {
-"bad": true,
-"icon": "lock",
-"label": "MANAGE LEVERAGE",
-"type": "stamp",
-"word": "$1B WIPED"
-}
 }
 ],
 "settings": {
 "length": 60
 },
-"target_words": 135,
-"title": "$1 Billion Crypto Liquidations Hit Markets In Sunday Flash Crash! \ud83d\udcc9",
+"target_words": 132,
+"title": "When A $1B Crypto Liquidation Wave Hit \ud83d\udca5",
 "tone": "serious",
-"words": 143
+"words": 141
 },
-"t": 1794237725.186068,
+"t": 1794238471.2839024,
 "topic": "Crypto sell-off sparks $1B liquidation wave on Nvidia scandal and Iran tensions"
 },
 "cece0d80": {
