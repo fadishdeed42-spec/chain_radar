@@ -47,7 +47,16 @@ ST = _story.settings(SB)
 if ST['captions'] == 'off': cs.CAPS = []
 elif ST['captions'] == 'key':                                          # owner (Nov 9): only the numbers and names, big, above the Shorts buttons
     import re as _re
-    cs.CAPS = [c for c in cs.CAPS if _re.search(r'[0-9$%]', c[1])]; cs.CAP_SIZE = 84; cs.CAP_Y = 1380
+    def _scene_at(t0):
+        return max([k for k, pr in enumerate(cs.PARA) if pr[0] <= t0 + .05] or [0])
+    def _shown(c):                                                        # a number the scene's graphic already shows big is not captioned again
+        nums = set(_re.findall(r'\d[\d,.]*', c[1].replace(',', '')))
+        if not nums: return False
+        k = _scene_at(cs.CH[c[0]][0])
+        vis = json.dumps(SB['scenes'][k].get('visual') if k < len(SB['scenes']) else {}).replace(',', '')
+        vis_n = set(_re.findall(r'\d[\d.]*', vis))
+        return all(n.rstrip('.') in vis_n or any(v.startswith(n.rstrip('.')) for v in vis_n) for n in nums)
+    cs.CAPS = [c for c in cs.CAPS if _re.search(r'[0-9$%]', c[1]) and not _shown(c)]; cs.CAP_SIZE = 84; cs.CAP_Y = 1380
 elif ST['captions'] == 'large': cs.CAP_SIZE = 72
 if ST['motion'] == 'calm': cs.SHAKE, cs.WHIP = .3, .4
 elif ST['motion'] == 'strong': cs.SHAKE, cs.WHIP = 1.45, 1.15
@@ -436,6 +445,7 @@ def kicker(cv, t, i, a, y=420):
     role = SCN[i]['role']
     if SCN[i].get('receipt'): return                                     # the headline card sits there
     if role == 'hook' or role not in KICK: return
+    return                                                              # owner (Nov 9): no generic labels ('BUT THEN…', 'THE ANSWER') - the facts carry the story
     q = back(seg(t, P(i), P(i) + .35))
     k = KICK[role][TONE]
     pill(cv, W / 2, y, k, ACC, a * clamp(q), size=38, fg=BG if ACC in (GOLD, UP) else WHITE, s=max(.01, q))

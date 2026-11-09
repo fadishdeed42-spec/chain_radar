@@ -23,7 +23,7 @@ JOBS = {'t3700040': dict(
     respell={'Bybit': 'Bye-bit', 'NEAR': 'Near'},
     scenes=[
         sc('hook', 'shock', 'North Korea is making its own meme coins. To hide stolen Binance money.', 'coins',
-           {'type': 'title', 'text': "NORTH KOREA'S MEME COINS", 'sub': 'built to hide stolen money', 'icon': 'token'}),
+           {'type': 'title', 'text': 'MEME COINS', 'sub': 'made by North Korea', 'icon': 'token'}),
         sc('setup', 'tense', 'October 29. Hackers took $6.4 billion from Binance in under four hours.', 'billion',
            {'type': 'chart', 'date': '2026-10-29', 'label': 'OCT 29 · $6.4B TAKEN'}),
         sc('setup', 'tense', 'Investigators blame North Korea. About $2.85 billion was frozen in time.', 'frozen',
