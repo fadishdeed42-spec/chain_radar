@@ -13,7 +13,8 @@
 1794202458.3123853,
 1794207054.173305,
 1794207666.4968543,
-1794217369.4538724
+1794217369.4538724,
+1794218289.5225196
 ],
 "menu": {
 "00f555793394": {
@@ -149,7 +150,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794203499.0,
 "tgtext": "\ud83d\udd25 BIG: US M2 money supply rose $113 billion in August to a record $23.41 trillion.\n\nNews | Markets | YouTube",
 "title": "BIG: US M2 money supply rose $113 billion in August to a record $23.41 trillion.",
@@ -256,7 +257,7 @@
 "Tech Times",
 "The Crypto Times"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794201389.0,
 "tgtext": "",
 "title": "Bitcoin Liquidations Erase $715M in Long Bets in One Hour; Price Falls Under Strategy's $75,451 Cost",
@@ -691,7 +692,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794207573.0,
 "tgtext": "Nvidia CEO Affair Fallout: Binance NVDAUSDT Drops 4.2% vs Last US Close, Volume and Open Interest Rank No. 1 Among Top 8 Platforms\n\nBinance Research said management-related uncertainty at Nvidia emerged over the weekend. With US stocks closed, Binance\u2019s NVDAUSDT perpetual contract briefly traded 4.2% below Nvidia\u2019s previous US close. Over the past 24 hours, Binance\u2019s Nvidia perpetual recorded $360.35 million in volume and $90.57 million in open interest, ranking first in both among the top eight platforms it tracks, accounting for 44% and 30.1% respectively.\n\nEarlier, Jensen Huang admitted being unfaithful to his wife and apologized. The person involved is reportedly Alice Huang, an executive at Megaspeed. Nvidia\u2019s board launched an independent investigation the same day but said there is currently no evidence that national security or company secrets were compromised, and Huang will continue to serve as CEO. \u2014 link",
 "title": "Nvidia CEO Affair Fallout: Binance NVDAUSDT Drops 4.2% vs Last US Close, Volume and Open Interest Rank No. 1 Among Top 8 Platforms",
@@ -861,7 +862,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794206706.0,
 "tgtext": "Wallet (0xC356) withdrew 34,601 $ETH ($73.75M) from #Binance over the past 3 hours after more than 2 years of inactivity. \n\nIs someone buying a huge amount of $ETH during the market crash?\n\nhttps://arkm.com/explorer/address/0xC35626b6e2a71D28ffbD49de8E43b4246319d330",
 "title": "Wallet (0xC356) withdrew 34,601 ETH ($73.75M) from Binance over the past 3 hours after more than 2 years of inactivity.",
@@ -1357,7 +1358,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794216581.0,
 "tgtext": "Binance Says Alleged 335M-User Data Leak Likely a Scam\n\n@BinanceHelpDesk said it is investigating claims that ShinyHunters stole data on 335 million users and demanded $900,000, but has found no evidence that its systems, KYC data, account credentials or wallet private keys were compromised. The exchange said parts of the listing are inconsistent with how Binance stores user data and that the dataset may instead involve infostealer data taken from users\u2019 own devices. \u2014 link",
 "title": "Binance Says Alleged 335M-User Data Leak Likely a Scam",
@@ -1479,7 +1480,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794201432.0,
 "tgtext": "A whale unstaked 512,010 $HYPE ($39.3M) and deposited it into #FalconX, possibly to sell.\n\nhttps://arkm.com/explorer/address/0x30AA81d0ed08a377B7055967a2F2DCeD1B69266A",
 "title": "A whale unstaked 512,010 HYPE ($39.3M) and deposited it into FalconX, possibly to sell.",
@@ -1740,7 +1741,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794212487.0,
 "tgtext": "Trader 0x2016 opened a 20x short on 1,734.23 $NVDAUSD1 ($315K) on @Aster_DEX and is now sitting on an unrealized profit of nearly $52.4K, with a 332.79% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0x201606eaB4602c9D8a74154c6fb3303003C18769",
 "title": "Trader 0x2016 opened a 20x short on 1,734.23 NVDAUSD1 ($315K) on @Aster_DEX and is now sitting on an unrealized profit of nearly $52.4K, with a 332.79% ROI.",
@@ -1890,11 +1891,25 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794215652.0,
 "tgtext": "\u26a1\ufe0f Key Economic Events This Week:\n\nTuesday - October CPI inflation data\nWednesday - OPEC Monthly Report\nThursday - Initial Jobless Claims and October Existing Home Sales data\nFriday - October PPI inflation data\nPlus a total of 17 Fed speaker events this week.\n\nWhich will hit crypto harder this week: CPI or the Fed speakers?\n\nNews | Markets | YouTube",
 "title": "Key Economic Events This Week:",
 "url": "https://t.me/cointelegraph/73130",
+"urls": []
+},
+"8789ecfe23c0": {
+"coin": "",
+"src": "Seoul Economic Daily",
+"srcs": [
+"Security Boulevard",
+"Seoul Economic Daily"
+],
+"t": 1794218289.5225196,
+"t0": 1794202447.0,
+"tgtext": "",
+"title": "Binance Expands Korea Marketing as Gopax Halts Trading Over Hacking Threat",
+"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOUJBNmk4QWdfaU1HVVVITHJNQjA5VEdqeElqVWE3a1k3aUk1UWxfQ3FtNnR0azdNdU5ZUXFnaUdacUxENnI2NUlNZ0ItUGdLeDM4aURrSEZuZERSLUxCS3JBeHcxRTRVUFBoMnU5TFk5cm5YSjdiM1NjaXdSWS12cDBPempNcnVSV1FDeklfQU5xdHJFM3I0cmZuaVFzQ0xYeWFj?oc=5",
 "urls": []
 },
 "8a404942fc2b": {
@@ -2741,7 +2756,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1794217981.9858928,
+"t": 1794218593.9014325,
 "t0": 1794204300.0,
 "tgtext": "",
 "title": "BTC, ETH, XRP Crash Again as Liquidation Wave Hits $1B",
@@ -2871,6 +2886,19 @@
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Near $76K After $430M ETF Exit as Remittix Earn Goes Live With Up to 21.4% APY",
 "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeFNJZlVTZHA1VFFTTXNYMTZGb1pBdGdMMVAySE85eVFyQXR0UTJoTFd3MjJiQ0tKWkJpT3lkY2pmTWdKVHdwWjFERTBNUnJzeTRhUjJ1bkJOWS1sTEl0ZEtHTy1xY0dnYkJzUm1nU1NaUHVrcTdudU9XNC11eTladVJBbXkwTHRVWC1TSkdPbEdJNFRYZF8tU3U0aklQYmFiWGNBRWRkZlJ2ek1BR05wMU1la3F3aTRma3h0SThpM2Q5X3pnWWItRjZlczlxUU5aNGQyem9leWlVWVk5NWtIMXYxTkUycHNCU25nS2pkOHQwTnZGSXBHWFpBYzRta0thN0F4N0VXVQ?oc=5",
+"urls": []
+},
+"d07a41880216": {
+"coin": "",
+"src": "Bitcoin Sistemi",
+"srcs": [
+"Bitcoin Sistemi"
+],
+"t": 1794218593.9014325,
+"t0": 1794209224.0,
+"tgtext": "",
+"title": "Binance is Closing Accounts in Four European Countries: Deadline and Monthly Fee Announced!",
+"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQUFzY1BLZlF5MjA0Q3ViQTAyUmxXOUNaRHZadkozZTRmaDZyaGxqbjBIc083WmVaNTVQVnhFR1pXejUxUEdEYnVQVEJJRVl2UTNic0hUZlN2UHZFaTZNVkVZczlwLUdrSWh3RXRyQktKZHhfU2otTjlDZE1vc19Eb0loaW9VSGQtTWRTZlREVUwyellyYklZZXlvcnhXOHVLV1B0eWxxd1JoMmVobEFVOUJxcjRJUkFjM0RIYw?oc=5",
 "urls": []
 },
 "d1b44f89ca96": {
@@ -3474,26 +3502,27 @@
 "3a23f474dd02": 0.389,
 "3abbcbfd6638": 0.177,
 "3cb53abee57e": 0.081,
-"402d2c036c7e": 0.096,
+"429af2f9ce04": 0.06,
 "46cb293ca5a4": 0.893,
 "484678df449e": 0.117,
 "515b637a14d5": 0.143,
 "5e4633b710ac": 0.238,
+"64810acbd59b": 0.038,
 "6b9cbf1717f2": 0.239,
 "7016e5472a44": 0.402,
 "78d1173c86c6": 0.486,
 "7c5d48de2f05": 0.027,
-"8789ecfe23c0": 0.131,
+"8789ecfe23c0": 0.187,
 "8f7fa558867b": 0.106,
 "9949a46c00b3": 0.082,
 "a07cc64f02cc": 0.152,
 "a24385c204d1": 0.21,
-"a87c44b0c163": 0.177,
 "b063191d741a": 0.014,
+"b38fa16a25bd": 0.045,
 "bb8498b4b961": 0.049,
-"c6b092d86115": 0.031,
 "c887f4eeda5e": 0.05,
 "ca891161f502": 0.376,
+"d07a41880216": 0.244,
 "d2ee0aa56164": 0.164,
 "d9bbf735113b": 0.03,
 "dadad8ea515d": 0.016,
@@ -3501,7 +3530,6 @@
 "e873e52c04cd": 0.094,
 "f3ae1b6e98a0": 0.243,
 "f6422c5b7fb1": 0.111,
-"f8bfe274ecc9": 0.029,
 "faa0728015e5": 0.081
 },
 "sent": [
@@ -4454,6 +4482,39 @@
 "scam",
 "user"
 ]
+},
+{
+"e": [
+"binance",
+"expands",
+"gopax",
+"hacking",
+"halts",
+"korea",
+"marketing",
+"threat",
+"trading"
+],
+"k": [
+"hack",
+"outage"
+],
+"t": 1794218289.5225196,
+"u": [
+"https://news.google.com/rss/articles/CBMimwFBVV95cUxQTExnaUw2dGlNMjRLYjlVQU1NNUxyeDdjX0lFQVEtOGczdVlYM2NKY250REdHaXY5OEJzVXlpdnlWU0MxM0g1cFUyQVhFU1Vkak8zMXE5V3pxRmE2ZmQyc2ZsYjRKWEFsZzY3dzlmUXNiS0RDdGEwTUlENUlWNTlwN3V0RGY2QUhwZGRYaEdNbDR4RzZBdW9kaF85MA?oc=5",
+"https://news.google.com/rss/articles/CBMiowFBVV95cUxNOUJBNmk4QWdfaU1HVVVITHJNQjA5VEdqeElqVWE3a1k3aUk1UWxfQ3FtNnR0azdNdU5ZUXFnaUdacUxENnI2NUlNZ0ItUGdLeDM4aURrSEZuZERSLUxCS3JBeHcxRTRVUFBoMnU5TFk5cm5YSjdiM1NjaXdSWS12cDBPempNcnVSV1FDeklfQU5xdHJFM3I0cmZuaVFzQ0xYeWFj?oc=5"
+],
+"w": [
+"binance",
+"expands",
+"gopax",
+"hacking",
+"halts",
+"korea",
+"marketing",
+"threat",
+"trading"
+]
 }
 ],
 "stories": {},
@@ -4461,64 +4522,64 @@
 "top": [
 [
 "46cb293ca5a4",
-23,
-188,
+22,
+198,
 1
 ],
 [
 "1555c8e2d151",
-78,
-277,
+76,
+287,
 7
 ],
 [
 "0d0d654bc1bb",
-29,
-241,
+28,
+252,
 1
 ],
 [
 "8042d3287a3e",
 10,
-92,
+102,
 1
 ],
 [
 "78d1173c86c6",
-12,
-276,
+10,
+286,
 1
 ],
 [
 "7016e5472a44",
 36,
-23,
+34,
 1
 ],
 [
 "3a23f474dd02",
 18,
-173,
+184,
 1
 ],
 [
 "ca891161f502",
-54,
-228,
+53,
+238,
 2
 ],
 [
 "875f6075e0e2",
 10,
-39,
+49,
 1
 ],
 [
-"f3ae1b6e98a0",
-21,
-334,
-2
+"d07a41880216",
+26,
+156,
+1
 ]
 ],
-"top_at": 1794217981.9858928
+"top_at": 1794218593.9014325
 }
