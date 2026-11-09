@@ -1343,7 +1343,7 @@
 "sh_analyze": "2026-10-28",
 "sh_collect": "2026-10-28",
 "sh_weekly": "2026-10-25",
-"short_edit": "b2077f37",
+"short_edit": "cece0d80",
 "short_ep": 27,
 "shorts": {
 "9f3c5489": {
@@ -2187,6 +2187,370 @@
 },
 "t": 1793376986.169997,
 "topic": "binance gets hacked by 6 billion"
+},
+"cece0d80": {
+"facts": "THE STORY TO TELL: Crypto sell-off sparks $1B liquidation wave on Nvidia scandal and Iran tensions\n\nWikipedia (Cryptocurrency):\nCryptocurrency is a type of digital asset that uses distributed ledger, or blockchain, technology to enable a secure transaction.\nIndividual coin ownership records are stored in a digital ledger or blockchain, which is a computerized database that uses a consensus mechanism to secure transaction records, control the creation of additional coins, and verify the transfer of coin ownership. The two most common consensus mechanisms are proof of work and proof of stake. Despite the name, which has come to describe many of the fungible blockchain tokens that have been created, cryptocurrencies are not considered to be currencies in the traditional sense, and varying legal treatments have been applied to them in various jurisdictions, including classification as commodities, securities, and currencies. Cryptocurrencies are generally viewed as a distinct asset class in practice.\n\nReal headlines about this story (oldest first):\n- Nov 08, 2026: Bitcoin (BTC) Price: $1 Billion in Crypto Liquidations Hit as Nvidia CEO Scandal Rocks Markets (coincentral.com)\n- Nov 09, 2026: Bitcoin, Ethereum, XRP whipsaw on Nvidia scandal, Iran tensions: Crypto sell-off sparks $1B liquidation wave (msn.com)\n- Nov 09, 2026: Bitcoin, Ethereum, XRP Whipsaw On Nvidia Scandal, Iran Tensions: Crypto Sell-Off Sparks $1B Liquidation Wave (Stocktwits)\n\nNews snippets:\n- msn.com: Bitcoin\u2019s decline came amid broader uncertainty following reports involving Nvidia CEO Jensen Huang and stalled U.S.-Iran negotiations. \u30fbEthereum, Solana, and Ripple\u2019s XRP underperformed Bitcoin in ...\n- coincentral.com: BTC fell to $73,761, then rebounded above $75,000 after $1B in liquidations. Key levels: $73,150 support, $77,430 resistance.\n\nArticle text (real reporting):\nBitcoin dropped to about $73,761 late Sunday, its lowest point since August. The price then recovered to trade above $75,000, according to CoinDesk data. Ether also fell below $2,100 before bouncing to $2,144. The sharp swings came over a weekend when crypto was the only open major market. Traders reacted to two headlines that pushed investors toward safer assets. One involved Nvidia\u2019s CEO, and the other involved stalled talks with Iran. The volatility set off forced selling in futures markets. CoinGlass data shows more than $1 billion in positions were liquidated in 24 hours. Most of that happened in the last six hours or so. BREAKING: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.$BTC falls under $74,000$ETH falls under $2,125$XRP falls under $1.10 $SOL falls under $90 pic.twitter.com/hIZhzQFJJe Long traders, who bet on rising prices, made up $913 million of the total. Ether saw $448 million in liquidations, nearly double Bitcoin\u2019s $272 million. The largest single liquidation was an ETH order worth $48 million. Nvidia\u2019s board opened an independent investigation after reports that CEO Jensen Huang had a relationship with Alice Huang. U.S. intelligence agencies believe she was passing information to Beijing. Huang admitted the affair in a message to employees and apologized. Nvidia said it has no reason to believe national security or company secrets were compromised. Outside independent counsel is helping the board review all available information. Crypto traders priced in the news quickly. NVDAX, the tokenized Nvidia stock on xStock, fell 3.55% to $180.42 in 24 hours. The real stock closed at $186.64 on Friday, so the discount suggests traders expect a lower open on Monday. The Nasdaq fell nearly 5% last week, extending a four-week losing streak. Separately, Secretary of State Marco Rubio called Iran\u2019s demands \u201coutrageous\u201d and said talks made no progress. Since the Iran war began in March, Bitcoin has more often than not declined when oil prices rallied. Other data shows how the broader market looked before the drop. Bitcoin traded near $75,982 on Sunday and was down about 8% over the past month. The Crypto Fear and Greed Index read 28 out of 100, which signals fear. ETF flows also leaned negative. According to SoSoValue, U.S. spot Bitcoin ETFs recorded $412 million in net outflows on November 6. Total net withdrawals reached about $1.28 billion from November 2 to 6. Ethereum spot ETFs lost $93.19 million on November 6. BlackRoc",
+"note": "",
+"qc": "warn",
+"sb": {
+"alt_hooks": [
+"$1 billion wiped out in hours. What just triggered the crypto crash?",
+"How did an Nvidia CEO scandal and Iran tensions trigger a $1B liquidation wave?",
+"Bitcoin just crashed as $1 billion vanished from the market."
+],
+"chart": {
+"end": "2026-11-10",
+"start": "2026-11-05",
+"symbol": "BTC"
+},
+"description": "A massive crypto sell-off wiped out over $1 billion in liquidations as news broke regarding an Nvidia CEO scandal and stalled U.S.-Iran negotiations. Bitcoin dropped to $73,761 while Ethereum lost $448 million in forced liquidations.",
+"est_secs": 61,
+"hashtags": "#Bitcoin #CryptoCrash #Ethereum #Nvidia #Iran #CryptoNews #Trading #MarketCrash",
+"length": 60,
+"length_ok": true,
+"lesson": "High leverage during weekend market gaps destroys portfolios instantly.",
+"pinned": "Did you trade this weekend crash? Let us know below!",
+"respell": {
+"Jensen Huang": "JEN-sen HWAHNG"
+},
+"review": {},
+"scenes": [
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "WEEKEND CRASH",
+"word": "24 hours"
+}
+],
+"emotion": "shock",
+"footage": "trading screens red",
+"hit": "$1",
+"line": "$1 billion wiped out in 24 hours as crypto markets face sudden panic.",
+"photo": "",
+"receipt": {
+"headline": "Bitcoin (BTC) Price: $1 Billion in Crypto Liquidations Hit as Nvidia CEO Scandal Rocks Markets",
+"kind": "headline",
+"src": "coincentral.com"
+},
+"role": "hook",
+"shots": [
+{
+"q": "money falling burning",
+"words": "$1 billion wiped out"
+},
+{
+"q": "clock ticking fast",
+"words": "in 24 hours"
+},
+{
+"q": "bitcoin chart red",
+"words": "as crypto markets"
+},
+{
+"q": "panic trading floor",
+"words": "face sudden panic"
+}
+],
+"visual": {
+"icon": "skull",
+"label": "Total Liquidated",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 1000000000
+}
+},
+{
+"beats": [
+{
+"icon": "bank",
+"text": "",
+"word": "Sunday"
+}
+],
+"emotion": "tense",
+"footage": "bitcoin ticker dropping",
+"hit": "$73761",
+"line": "Bitcoin dropped to $73,761 late Sunday as the only major market open, falling to its lowest point since August.",
+"photo": "",
+"role": "setup",
+"shots": [
+{
+"q": "bitcoin falling graph",
+"words": "Bitcoin dropped to"
+},
+{
+"q": "night city skyline",
+"words": "$73,761 late Sunday"
+},
+{
+"q": "digital stock exchange",
+"words": "as the only"
+},
+{
+"q": "trading charts monitor",
+"words": "major market open"
+}
+],
+"visual": {
+"date": "2026-11-08",
+"label": "NOV 8 \u00b7 $73,761 \u00b7 BTC LOW",
+"type": "chart"
+}
+},
+{
+"beats": [
+{
+"icon": "calendar",
+"text": "WEEKEND SHOCK",
+"word": "weekend"
+}
+],
+"emotion": "curious",
+"footage": "smartphone news alerts",
+"hit": "two",
+"line": "Traders reacted instantly to two major headlines hitting over the weekend, pushing investors toward safer assets.",
+"photo": "",
+"receipt": {
+"headline": "Bitcoin, Ethereum, XRP whipsaw on Nvidia scandal, Iran tensions: Crypto sell-off sparks $1B liquidation wave",
+"kind": "headline",
+"src": "msn.com"
+},
+"role": "turn",
+"shots": [
+{
+"q": "trader looking phone",
+"words": "Traders reacted instantly"
+},
+{
+"q": "news breaking headline",
+"words": "to two major headlines"
+},
+{
+"q": "computer screen glowing",
+"words": "hitting over"
+},
+{
+"q": "empty office night",
+"words": "the weekend"
+}
+],
+"visual": {
+"icon": "question",
+"sub": "Market Shock",
+"text": "TWO HEADLINES",
+"type": "title"
+}
+},
+{
+"beats": [
+{
+"icon": "person",
+"text": "CEO SCANDAL",
+"word": "Jensen Huang"
+}
+],
+"emotion": "dark",
+"footage": "corporate building exterior",
+"hit": "investigation",
+"line": "Nvidia's board launched an investigation into CEO Jensen Huang over security concerns after intelligence reports.",
+"photo": "Jensen Huang",
+"role": "twist",
+"shots": [
+{
+"q": "corporate boardroom meeting",
+"words": "Nvidia's board launched"
+},
+{
+"q": "detective magnifying glass",
+"words": "an investigation into"
+},
+{
+"q": "business man portrait",
+"words": "CEO Jensen Huang"
+},
+{
+"q": "cyber security lock",
+"words": "over security concerns"
+}
+],
+"visual": {
+"name": "JENSEN HUANG",
+"prop": "none",
+"role": "Nvidia CEO",
+"type": "person"
+}
+},
+{
+"beats": [
+{
+"q": "question mark graphic",
+"word": "strangest part"
+}
+],
+"emotion": "curious",
+"footage": "world map news",
+"hit": "iran",
+"line": "But that is not the strangest part. What about Iran and stalled negotiations?",
+"photo": "",
+"role": "setup",
+"shots": [
+{
+"q": "suspicious face close",
+"words": "But that is"
+},
+{
+"q": "mystery puzzle pieces",
+"words": "not the strangest part"
+},
+{
+"q": "globe spinning fast",
+"words": "What about"
+},
+{
+"q": "middle east map",
+"words": "Iran"
+}
+],
+"visual": {
+"mood": "shock",
+"sub": "And worse...",
+"text": "IRAN?!",
+"type": "face"
+}
+},
+{
+"beats": [
+{
+"icon": "gavel",
+"text": "US DIPLOMACY",
+"word": "Marco Rubio"
+}
+],
+"emotion": "tense",
+"footage": "government press conference",
+"hit": "outrageous",
+"line": "Secretary Marco Rubio called stalled Iran talks outrageous and said negotiations made no progress as oil fears spiked.",
+"photo": "Marco Rubio",
+"role": "twist",
+"shots": [
+{
+"q": "politician speaking podium",
+"words": "Secretary Marco Rubio"
+},
+{
+"q": "political meeting table",
+"words": "called stalled Iran talks"
+},
+{
+"q": "warning red signal",
+"words": "outrageous as"
+},
+{
+"q": "oil refinery fire",
+"words": "oil fears spiked"
+}
+],
+"visual": {
+"name": "MARCO RUBIO",
+"prop": "none",
+"role": "US Secretary of State",
+"type": "person"
+}
+},
+{
+"beats": [
+{
+"q": "bull market statue red",
+"word": "long trader"
+}
+],
+"emotion": "shock",
+"footage": "liquidation charts data",
+"hit": "$913",
+"line": "Over $913 million in long trader bets were wiped out in hours during the forced selling.",
+"photo": "",
+"role": "payoff",
+"shots": [
+{
+"q": "cash money stack",
+"words": "Over $913 million"
+},
+{
+"q": "trader holding head",
+"words": "in long trader bets"
+},
+{
+"q": "digital data erase",
+"words": "were wiped out"
+},
+{
+"q": "hourglass running out",
+"words": "in hours"
+}
+],
+"visual": {
+"icon": "skull",
+"label": "Long Liquidations",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 913000000
+}
+},
+{
+"beats": [
+{
+"icon": "ethereum",
+"text": "$448M LOST",
+"word": "Ethereum"
+}
+],
+"emotion": "sad",
+"footage": "ethereum logo crashing",
+"hit": "$448",
+"line": "Ethereum lost $448 million, nearly double Bitcoin, proving leverage destroys portfolios fast.",
+"photo": "",
+"role": "end",
+"shots": [
+{
+"q": "ethereum coin drop",
+"words": "Ethereum lost"
+},
+{
+"q": "chart arrow down",
+"words": "$448 million"
+},
+{
+"q": "house of cards falling",
+"words": "proving leverage destroys"
+},
+{
+"q": "empty wallet cash",
+"words": "portfolios fast"
+}
+],
+"visual": {
+"icon": "ethereum",
+"label": "ETH Liquidations",
+"prefix": "$",
+"suffix": "",
+"type": "counter",
+"value": 448000000
+}
+}
+],
+"settings": {
+"length": 60
+},
+"target_words": 133,
+"title": "$1B Liquidated In Crypto Crash As Nvidia Scandal Hits \ud83d\udea8",
+"tone": "serious",
+"words": 136
+},
+"t": 1794237700.13951,
+"topic": "Crypto sell-off sparks $1B liquidation wave on Nvidia scandal and Iran tensions"
 },
 "ee007782": {
 "facts": "",
