@@ -46,11 +46,11 @@ def test_too_long_is_flagged_and_absurd_is_rejected():
     out, _ = story.check(spoken_target(storyboard('a55db3fd'), 330), strict=False)     # 20% over a 2:00 pick: flagged, repairable
     assert out['length_ok'] is False and 'about 2:' in out['length_msg']
     try:
-        story.check(spoken_target(storyboard('a55db3fd'), 420), strict=False)           # 3:00 for a 2:00 pick: not repairable, rewrite
+        story.check(spoken_target(storyboard('a55db3fd'), 440), strict=False)           # 3:00+ for a 2:00 pick: not repairable, rewrite
     except ValueError as e:
         assert str(e).startswith('script is')
     else:
-        raise AssertionError('420 words must be rejected')
+        raise AssertionError('440 words must be rejected')
 
 
 def test_outline_is_never_stored():

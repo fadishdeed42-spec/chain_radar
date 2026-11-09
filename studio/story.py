@@ -204,8 +204,8 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
 EMOTIONS = ('tense', 'shock', 'curious', 'dark', 'funny', 'calm', 'triumph', 'sad')
 EMO_EX = {'tense': .62, 'shock': .76, 'curious': .64, 'dark': .58, 'funny': .74, 'calm': .56, 'triumph': .74, 'sad': .56}   # one narrator: feelings stay in a narrow band so lines don't sound like different readings
 EMO_GAP = {'shock': .36, 'dark': .34, 'sad': .36, 'tense': .3}                                                           # a beat of silence after heavy lines
-CTA = 'Follow Chain Secrets. Every chart hides a story.'
-CTA_NOCHART = 'Follow Chain Secrets.'                                           # stories without a chart don't claim one
+CTA = 'Subscribe for more stories.'                                     # owner (Nov 9): the ending is a subscribe line, the same with or without a chart
+CTA_NOCHART = CTA
 # ---------------------------------------------------------------- length: ONE calibrated model for the writer, the editor and the checks
 # total video seconds = (story words + call-to-action words) / RATE + END_PAD.  RATE = spoken words per second of the real voice, pauses
 # included (measured from the voice files of finished jobs: state/studio.json "rate"); END_PAD = lead-in + end card.
@@ -262,7 +262,7 @@ try:
     DEFAULTS = {f['key']: f['default'] for g in json.load(open(_SCHEMA))['groups'] for f in g['fields']}
 except Exception:
     DEFAULTS = {'length': 60, 'tone': 'auto', 'chart': 'auto', 'scenes': 'auto', 'energy': 'normal', 'pauses': 'normal', 'autorender': False,
-                'style': 'graphics', 'look': 'none', 'pace': 'normal', 'captions': 'on', 'motion': 'auto', 'music': 'normal', 'sfx': 'normal', 'endcard': True, 'cta': ''}
+                'style': 'graphics', 'look': 'none', 'pace': 'normal', 'captions': 'key', 'motion': 'auto', 'music': 'off', 'sfx': 'normal', 'endcard': True, 'cta': ''}
 
 
 def settings(sb):
@@ -280,7 +280,7 @@ def cta(sb):
     if c:
         return c if re.search(r'[.!?]$', c) else c + '.'
     les = str(sb.get('lesson') or '').strip()
-    if les:                                                               # owner: say only the lesson, then "Follow Chain Secrets."
+    if les:                                                               # owner: say only the lesson, then the subscribe line
         return f'{les} {CTA_NOCHART}'
     return CTA if sb.get('chart') else CTA_NOCHART
 
@@ -487,11 +487,11 @@ def build_timing(words_srt, sb, plan, out, maxg=.6, lead=.25):
     if has_cta:
         beats['z_follow'] = starts[-1]
         toks = [tok.lower() for tok, _ in plan[-1]]
-        if str(sb.get('lesson') or '').strip() and 'follow' in toks and toks.index('follow') > 2:   # "<lesson> Follow Chain Secrets."
+        if str(sb.get('lesson') or '').strip() and 'subscribe' in toks and toks.index('subscribe') > 2:   # "<lesson> Subscribe for more stories."
             lesson_t = starts[-1]
-            fi = toks.index('follow')
+            fi = toks.index('subscribe')
             beats['z_follow'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:fi])][0])
-        every = [i for i, (tok, _) in enumerate(plan[-1]) if tok.lower().startswith('every')]
+        every = [i for i, (tok, _) in enumerate(plan[-1]) if tok.lower().startswith('more')]
         beats['z_every'] = M(words[sum(len(sp) for pl in plan[:-1] for _, sp in pl) + sum(len(sp) for _, sp in plan[-1][:every[0]])][0]) if every else starts[-1] + 1.2
     else:                                                                 # no last line: end card after the story
         beats['z_follow'] = round(end + .1, 3); beats['z_every'] = round(end + .9, 3); dur = round(end + 2.4, 2)

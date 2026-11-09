@@ -103,7 +103,7 @@ def voice(d):
         for x in q:
             heard = x.get('heard', '').lower()
             for w in re.findall(r"\b[A-Z][a-zA-Z']{3,}\b", x.get('said', '')):
-                if w.lower() not in heard and w.lower() not in ('follow', 'every', 'chain', 'secrets', 'then', 'they', 'this', 'that', 'when', 'what', 'here'):
+                if w.lower() not in heard and w.lower() not in ('follow', 'every', 'chain', 'secrets', 'subscribe', 'more', 'stories', 'then', 'they', 'this', 'that', 'when', 'what', 'here'):
                     names.append((x['scene'], w))
         r.append(it(WARN, 'names', 'listen to: ' + ', '.join(f'line {a} "{b}"' for a, b in names[:5])) if names else it(OK, 'names', 'every name was heard'))
     try: fl = json.load(open(f'{d}/voice_flow.json'))

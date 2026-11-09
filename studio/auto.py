@@ -39,12 +39,15 @@ if THEME:
     _eng.BG, _eng.BG2 = THEME['bg'], THEME['bg2']                      # background() reads these on its first frame
     cs.BG = BG = THEME['bg']                                            # fades, lesson card and end card match the theme
 cs.SHAKE, cs.WHIP = PACK['shake'], PACK['whip']
-cs.TAGLINE = 'every chart hides a story' if SB.get('chart') else ''
+cs.TAGLINE = 'for more true stories'
 cs.LESSON = str(SB.get('lesson') or '') if cs.LESSON_T is not None else ''
 # ---------------------------------------------------------------- Studio settings
 import story as _story
 ST = _story.settings(SB)
 if ST['captions'] == 'off': cs.CAPS = []
+elif ST['captions'] == 'key':                                          # owner (Nov 9): only the numbers and names, big, above the Shorts buttons
+    import re as _re
+    cs.CAPS = [c for c in cs.CAPS if _re.search(r'[0-9$%]', c[1])]; cs.CAP_SIZE = 84; cs.CAP_Y = 1380
 elif ST['captions'] == 'large': cs.CAP_SIZE = 72
 if ST['motion'] == 'calm': cs.SHAKE, cs.WHIP = .3, .4
 elif ST['motion'] == 'strong': cs.SHAKE, cs.WHIP = 1.45, 1.15
@@ -370,8 +373,31 @@ DUST = [(_r.uniform(0, W), _r.uniform(0, H), _r.uniform(2, 6), _r.uniform(8, 30)
 BGSTYLE = str(SB.get('bgstyle') or '').lower()
 
 
+def chart_bg(cv, t):
+    """owner (Nov 9): the real chart is always alive behind the story - a slow camera glides along the candles and pushes in."""
+    n = len(D['c']); w = max(20, min(n, 70))
+    p = clamp(t / max(1.0, DUR - 1.5)); s = (n - w) * (p * p * (3 - 2 * p))       # ease along the real price history
+    i0, i1 = int(s), min(n, int(s) + w + 2)
+    lo, hi = min(D['l'][i0:i1]), max(D['h'][i0:i1])
+    if not hasattr(chart_bg, 'r'): chart_bg.r = [lo, hi]
+    r = chart_bg.r; r[0] += (lo - r[0]) * .08; r[1] += (hi - r[1]) * .08                # smooth the vertical range: no jumps
+    zoom = 1.06 + .05 * math.sin(t * .23)
+    span = (r[1] - r[0]) or 1; top, bot = H * .2, H * .78
+    cw = W * zoom / w
+    for i in range(i0, i1):
+        x = (i - s) * cw - (zoom - 1) * W / 2
+        if x < -cw or x > W + cw: continue
+        Y = lambda v: bot - (bot - top) * (v - r[0]) / span
+        col = UP if D['c'][i] >= D['o'][i] else DN
+        cv.line([(x + cw * .5, Y(D['h'][i])), (x + cw * .5, Y(D['l'][i]))], col, 2, .10)
+        y0, y1 = sorted((Y(D['o'][i]), Y(D['c'][i])))
+        cv.rect(x + cw * .18, y0, x + cw * .82, max(y1, y0 + 3), col, .13)
+
+
 def backdrop(cv, t):
     """a per-video background pattern, so back-to-back Shorts don't look alike"""
+    if D is not None:
+        chart_bg(cv, t)
     if BGSTYLE == 'grid':
         off = (t * 12) % 90
         for k in range(-1, 14): cv.line([(k * 90 + off, 0), (k * 90 + off, H)], ACC, 1, .05)

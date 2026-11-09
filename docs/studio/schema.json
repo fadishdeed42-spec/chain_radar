@@ -277,15 +277,19 @@
      "key": "captions",
      "label": "Captions",
      "type": "choice",
-     "default": "on",
+     "default": "key",
      "options": [
       [
+       "key",
+       "Key words only"
+      ],
+      [
        "on",
-       "Normal"
+       "Every phrase"
       ],
       [
        "large",
-       "Large"
+       "Every phrase, large"
       ],
       [
        "off",
@@ -318,7 +322,7 @@
      "key": "music",
      "label": "Music",
      "type": "choice",
-     "default": "normal",
+     "default": "off",
      "options": [
       [
        "off",
@@ -371,7 +375,7 @@
    "fields": [
     {
      "key": "endcard",
-     "label": "End card (logo + follow)",
+     "label": "End card (logo + subscribe)",
      "type": "toggle",
      "default": true
     },
@@ -380,7 +384,7 @@
      "label": "Last spoken line",
      "type": "text",
      "default": "",
-     "placeholder": "Follow Chain Secrets.",
+     "placeholder": "Subscribe for more stories.",
      "help": "Empty = the default line. Type - for no last line."
     }
    ]

@@ -42,7 +42,7 @@ for i, s in enumerate(NS):
     else:
         target = len(s) / (LAST if last else BODY); gap = .4; src = 'rate'
     if txt.endswith('...'): gap = .45
-    if i == len(NS) - 3: gap = .6                # breath after the story's last line, before "Follow Chain Secrets"
+    if i == len(NS) - 3: gap = .6                # breath after the story's last line, before the subscribe line
     cur = s[-1][1] - s[0][0]; cta = i >= len(NS) - 2
     f = 1.0 if cta else target / cur if last else 1 + .5 * (target / cur - 1); f = 1.0 if cta else min(1.3 if last else 1.15, max(1.0 if last else .95, f))
     if NOSTRETCH: f = 1.0

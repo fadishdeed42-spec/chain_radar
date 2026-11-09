@@ -214,7 +214,7 @@ def render(jid):
     sh([sys.executable, f'{HERE}/tighten.py', f'{d}/voicep.wav', f'{d}/timing.json', f'{d}/voice_tight.wav'])
     sh(['ffmpeg', '-y', '-v', 'error', '-i', f'{HERE}/music.wav', '-i', f'{HERE}/music.wav', '-i', f'{HERE}/music.wav', '-filter_complex',
         '[0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2', f'{d}/music_long.wav'])
-    mv = {'serious': .08, 'mystery': .1, 'funny': .11, 'hype': .13}[sb['tone']] * {'off': 0, 'low': .55, 'normal': 1.0, 'high': 1.4}.get(story.settings(sb)['music'], 1.0)
+    mv = 0 if story.settings(sb)['music'] == 'off' else {'serious': .08, 'mystery': .1, 'funny': .11, 'hype': .13}[sb['tone']] * {'off': 0, 'low': .55, 'normal': 1.0, 'high': 1.4}.get(story.settings(sb)['music'], 1.0)
     out = f'{d}/short.mp4'
     sh([sys.executable, f'{HERE}/mix2.py', f'{d}/silent.mp4', f'{d}/voice_tight.wav', f'{d}/sfx.wav', f'{d}/music_long.wav', str(T['dur']), out, str(mv)])
     # always one clean final encode (fixes timestamps where the render parts were joined; keeps it under Telegram's 50 MB)

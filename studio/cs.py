@@ -14,6 +14,7 @@ Canvas.glow = _qglow
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CH = DUR = B = PARA = CAPS = CTA = CTA2 = None
+CAP_Y = None                                                            # key-word captions sit above the Shorts buttons/title
 WORDS = []
 def load(path):
     global CH, DUR, B, PARA, CAPS, CTA, CTA2, WORDS
@@ -81,7 +82,7 @@ def caption_layer(cv, t):
             act = None
             if KARAOKE and ws and len(ws) == n:
                 act = max([j for j, w in enumerate(ws) if w[2] <= t + .02] or [None]) if any(w[2] <= t + .02 for w in ws) else None
-            pop_words(cv, t, a0 - .05, text, 1690 - (CAP_SIZE - 58) * .6, CAP_SIZE, kind='black', hl={k: tuple(v) for k, v in hl.items()},
+            pop_words(cv, t, a0 - .05, text, CAP_Y if CAP_Y else 1690 - (CAP_SIZE - 58) * .6, CAP_SIZE, kind='black', hl={k: tuple(v) for k, v in hl.items()},
                       per=max(.035, (a1 - a0) * .8 / max(1, n)), alpha=al, max_w=1000, active=act)
 
 def badge(cv, t, t0, text, y=290, col=GOLD, alpha=1.0, fg=BG):
@@ -179,7 +180,7 @@ def cta_layer(cv, t):
     pf = back(seg(t, CTA + .45, CTA + .85))
     if pf > 0:
         cv.rect(W / 2 - 350 * pf, 1140 - 56 * pf, W / 2 + 350 * pf, 1140 + 56 * pf, DN, 1, r=56 * pf)
-        cv.text(W / 2, 1140, 'FOLLOW  ·  CHAIN SECRETS', 'black', 40, WHITE, 1, anchor='cm', scale=max(pf, .01))
+        cv.text(W / 2, 1140, 'SUBSCRIBE  ·  CHAIN SECRETS', 'black', 40, WHITE, 1, anchor='cm', scale=max(pf, .01))
     if TAGLINE: cv.text(W / 2, 1290, TAGLINE, 'semi', 44, MUTED, seg(t, (CTA2 or CTA + .85) - .05, (CTA2 or CTA + .85) + .35), anchor='cm')
     lp = seg(t, DUR - .6, DUR)
     if lp > 0: cv.fill(BG, clamp(lp * 2.2))
