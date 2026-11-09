@@ -403,7 +403,7 @@ def chart_bg(cv, t):
         cv.rect(x + cw * .18, y0, x + cw * .82, max(y1, y0 + 3), col, .13)
 
 
-def backdrop(cv, t):
+def pattern_bg(cv, t):
     """a per-video background pattern, so back-to-back Shorts don't look alike"""
     if D is not None:
         chart_bg(cv, t)
@@ -428,7 +428,7 @@ def backdrop(cv, t):
 
 def ambient(cv, t):
     """slow drifting particles in the tone colour: the frame is never static"""
-    backdrop(cv, t)
+    pattern_bg(cv, t)
     for x, y, r, sp, ph in DUST:
         yy = (y - t * sp) % H; xx = x + 18 * math.sin(t * .4 + ph)
         cv.circle(xx, yy, r, ACC, .10 + .06 * math.sin(t * 1.3 + ph))
