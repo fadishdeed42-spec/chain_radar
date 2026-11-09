@@ -55,7 +55,7 @@ JOBS['t3700041'] = dict(JOBS['t3700040'], scenes=[
         {'type': 'title', 'text': 'MEME COINS', 'sub': 'made by North Korea', 'icon': 'token'},
         sh(('hacker typing code dark room', 'North Korea is making'), ('cryptocurrency coins gold', 'meme coins'))),
     scf('hook', 'tense', 'To hide stolen Binance money.', 'stolen',
-        {'type': 'stamp', 'icon': 'money', 'label': 'BINANCE MONEY', 'word': 'STOLEN', 'bad': True},
+        {'type': 'stamp', 'icon': 'cash', 'label': 'BINANCE MONEY', 'word': 'STOLEN', 'bad': True},
         sh(('money cash counting hands', 'To hide stolen Binance money'))),
     sc('setup', 'tense', 'October 29. Hackers took $6.4 billion from Binance in under four hours.', 'billion',
        {'type': 'chart', 'date': '2026-10-29', 'label': 'OCT 29 · $6.4B TAKEN'}),
