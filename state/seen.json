@@ -6,7 +6,8 @@
 1794132361.9607666,
 1794142122.8885212,
 1794148181.694124,
-1794175612.3821495
+1794175612.3821495,
+1794185716.7206104
 ],
 "menu": {
 "0223ba01d0a4": {
@@ -57,7 +58,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794181122.0,
 "tgtext": "",
 "title": "Bitcoin Trades Below Strategy\u2019s $75,451 Average Purchase Price",
@@ -126,7 +127,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794175482.0,
 "tgtext": "BREAKING: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.\n\n$BTC falls under $74,000\n$ETH falls under $2,125\n$XRP falls under $1.10\n$SOL falls under $90\n\n@WatcherGuru",
 "title": "$1,000,000,000 liquidated from the crypto market in the past 10 minutes.",
@@ -590,6 +591,19 @@
 "url": "https://t.me/WatcherGuru/15871",
 "urls": []
 },
+"3d3d9f7e5a9f": {
+"coin": "tether",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794185716.7206104,
+"t0": 1794185570.0,
+"tgtext": "U.S. Senator Blumenthal Sends Letters to Binance, Tether, and Trump Family Crypto Firms: Comply with Probe by Deadline or Subcommittee Will Seek Other Means\n\nAccording to a statement on U.S. Senator Richard Blumenthal\u2019s official website, as Ranking Member of the Senate Permanent Subcommittee on Investigations (PSI), Blumenthal has sent letters to Binance, Tether, World Liberty Financial, Fight Fight Fight LLC, and other targets, demanding they submit the requested records and information by January 4, 2027, or the subcommittee will seek other means to ensure their cooperation.\n\nThe investigation into Binance and Tether covers the illicit use of cryptocurrencies and interactions between the Trump administration and crypto companies; the probe into World Liberty Financial and Fight Fight Fight LLC concerns potential conflicts of interest in the Trump family\u2019s crypto businesses. No final conclusions have been reached in the investigations. \u2014 link",
+"title": "U.S. Senator Blumenthal Sends Letters to Binance, Tether, and Trump Family Crypto Firms: Comply with Probe by Deadline or Subcommittee Will Seek Other Means",
+"url": "https://t.me/wublockchainenglish/26739",
+"urls": []
+},
 "3e63fe275367": {
 "coin": "ethereum",
 "src": "Cointelegraph",
@@ -638,10 +652,11 @@
 "coin": "bitcoin",
 "src": "Pluang",
 "srcs": [
+"KuCoin",
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1794185105.2270334,
+"t": 1794185412.5280735,
 "t0": 1794176159.0,
 "tgtext": "",
 "title": "Ether price drops 5% amid $343M in liquidations, surpassing Bitcoin's $229M in past 24 hours",
@@ -702,6 +717,19 @@
 "tgtext": "",
 "title": "Ethereum Price Prediction: Amundi Tokenizes Equity Fund on Ethereum as Remittix Earn Welcomes ETH, USDT and USDC",
 "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNb3p5aXVCdjNDYm5EdEEzLWpMVHZNUUJtYTAxbWw3YWJFTU1Nc1V6R1NQUC1xekl0NW9neXNwOU5DS0gyZHpJc2s4UkRvR1A1UERBa0RuNGtkRUd4M2lodHFfOXMxeVRrVXQxMTFqNjNydWtwSjFNU3RvdTJlS1psaTBwMGp4WXhKVXVkWkVMM0VaTGNLNHNkWGdLQVBScjJ0TmdXZ0VhSFBjRGgtazF3OHQyTkxWZTA4QWpkT0d4S0tKRFFpa3FobS00VWxoWHJUYUdHbzhoZk9oMF9mcjVuUnNmRm1ycU9hVkhfOHptekl5V0l4U0xPNDN4T3U5NHh4bjhxSDVvdw?oc=5",
+"urls": []
+},
+"478c5f5f9e8f": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794185716.7206104,
+"t0": 1794185324.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 TODAY: President Trump says, \u201cTask Force Iron Gate is in full force\u201d in Iran, and with a historic naval blockade, \u201cvery little gets into, or out of\u201d the country.\n\nNews | Markets | YouTube",
+"title": "TODAY: President Trump says, \u201cTask Force Iron Gate is in full force\u201d in Iran, and with a historic naval blockade, \u201cvery little gets into, or out of\u201d the country.",
+"url": "https://t.me/cointelegraph/73122",
 "urls": []
 },
 "49e1d373d958": {
@@ -1056,9 +1084,10 @@
 "srcs": [
 "Crypto Economy",
 "Nikkei Asia",
-"The Business Times"
+"The Business Times",
+"WSJ"
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794168360.0,
 "tgtext": "",
 "title": "Can CEXs Ever Be Trusted After Binance\u2019s Massive Hack?",
@@ -1071,7 +1100,7 @@
 "srcs": [
 "24/7 Wall St."
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794177540.0,
 "tgtext": "",
 "title": "70% of Altcoins Now Trade Below Their 200-Day Average After a $200 Billion Loss. Is Altcoin Season Off for 2026?",
@@ -1154,7 +1183,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794168478.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru\n\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -1516,7 +1545,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1794185105.2270334,
+"t": 1794185412.5280735,
 "t0": 1794171373.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists",
@@ -1588,7 +1617,7 @@
 "srcs": [
 "Seoul Economic Daily"
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794171605.0,
 "tgtext": "",
 "title": "Gopax Halts Trading After Hacking Threats, Raising Doubts",
@@ -2104,6 +2133,20 @@
 "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
 ]
 },
+"bc1848127a87": {
+"coin": "stellar",
+"src": "TOKENPOST",
+"srcs": [
+"KuCoin",
+"TOKENPOST"
+],
+"t": 1794185716.7206104,
+"t0": 1794176076.0,
+"tgtext": "",
+"title": "Stellar Lumens Fall 3.40% in One Hour to $0.1449, With $780,000 in Long Liquidations",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRFR2RDFHRjlCQUtwZnh4STlJY2x0X3JQY1J5ZnRkTlZZM2JxaUhiNGdjQlBUdGEwUEJCSWtvTjR1ZHJYWndtSWtEcjhxNlVTeHFVbENZWkRhdw?oc=5",
+"urls": []
+},
 "bcd821fbfbb5": {
 "coin": "",
 "src": "CryptoTicker.io",
@@ -2228,7 +2271,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1794185105.2270334,
+"t": 1794185716.7206104,
 "t0": 1794179235.0,
 "tgtext": "",
 "title": "Ether price drops 3.4% in one hour, liquidations hit $217.7M across major exchanges",
@@ -2806,28 +2849,28 @@
 },
 "probs": {
 "07498bf96797": 0.034,
+"0882234f3b08": 0.059,
 "0b16445b2a3d": 0.258,
 "0b9044e186eb": 0.015,
 "0bbd751171a7": 0.037,
 "107a210b3c50": 0.759,
-"15075184001f": 0.092,
 "19479676f9da": 0.007,
 "35cddcb72de2": 0.055,
-"365df173cc5c": 0.08,
 "3694f874ff41": 0.035,
+"3d3d9f7e5a9f": 0.959,
 "40c76b885e62": 0.055,
 "435aada611d0": 0.205,
+"478c5f5f9e8f": 0.927,
 "47b0a25b1de7": 0.023,
 "4ff7577edcf9": 0.022,
 "62b600882fdd": 0.013,
 "6b144c3bca64": 0.016,
-"6d1812e5ceda": 0.603,
+"6d1812e5ceda": 0.539,
 "6dab0f51c59c": 0.298,
 "7085682ebf92": 0.136,
 "76dcfb9bef4d": 0.794,
 "7a1a56ca7fcd": 0.144,
 "839fd7dd7ab0": 0.034,
-"8a404942fc2b": 0.173,
 "8ad4c8b2b87d": 0.042,
 "935d32699a54": 0.341,
 "9372bf0b8fcc": 0.099,
@@ -2837,7 +2880,7 @@
 "a293db974ad6": 0.04,
 "b38ab6b8a844": 0.033,
 "b79515a48b3d": 0.128,
-"ba3fa8094131": 0.045,
+"bc1848127a87": 0.245,
 "c589639e0b08": 0.027,
 "cc74a00627d6": 0.077,
 "ccaca24b7ea2": 0.036,
@@ -3449,71 +3492,114 @@
 "was",
 "while"
 ]
+},
+{
+"e": [
+"binance",
+"blumenthal",
+"comply",
+"deadline",
+"family",
+"firms",
+"letters",
+"means",
+"other",
+"probe",
+"seek",
+"senator",
+"sends",
+"subcommittee",
+"tether",
+"trump"
+],
+"k": [],
+"t": 1794185716.7206104,
+"u": [
+"https://t.me/wublockchainenglish/26739"
+],
+"w": [
+"binance",
+"blumenthal",
+"comply",
+"deadline",
+"family",
+"firms",
+"letters",
+"means",
+"other",
+"probe",
+"seek",
+"senator",
+"sends",
+"subcommittee",
+"tether",
+"trump"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"3d3d9f7e5a9f",
+26,
+2,
+1
+],
+[
+"478c5f5f9e8f",
+18,
+7,
+1
+],
+[
 "76dcfb9bef4d",
-8,
-277,
+6,
+287,
 2
 ],
 [
 "107a210b3c50",
 25,
-160,
+171,
 1
 ],
 [
 "6d1812e5ceda",
-50,
-279,
-3
+59,
+289,
+4
 ],
 [
 "935d32699a54",
-26,
-225,
+25,
+235,
 1
 ],
 [
 "cd0bb51b0d1f",
 41,
-98,
+108,
 2
 ],
 [
 "6dab0f51c59c",
 25,
-126,
+136,
 1
 ],
 [
 "0b16445b2a3d",
 10,
-66,
+77,
 1
 ],
 [
-"435aada611d0",
+"bc1848127a87",
 56,
-149,
+161,
 2
-],
-[
-"8a404942fc2b",
-4,
-229,
-1
-],
-[
-"7a1a56ca7fcd",
-34,
-238,
-3
 ]
 ],
-"top_at": 1794185105.2270334
+"top_at": 1794185716.7206104
 }
