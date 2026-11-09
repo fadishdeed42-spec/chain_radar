@@ -784,7 +784,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794236145.0,
 "tgtext": "JUST IN: $1,000,000,000,000 added to the US stock market at open.\n\n@WatcherGuru",
 "title": "$1,000,000,000,000 added to the US stock market at open.",
@@ -798,10 +798,10 @@
 "CoinCodex",
 "CoinDesk",
 "Cointelegraph",
-"ComplyAdvantage",
-"StoneX"
+"Storyboard18",
+"Techiexpert.com"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794218461.0,
 "tgtext": "Elliptic: North Korean Hackers Create Meme Tokens on NEAR to Launder Binance Hack Funds\n\nBlockchain analytics firm Elliptic reported that North Korean hackers are creating meme tokens and using DEX liquidity pools to launder funds stolen in the $6.4 billion Binance hack. Between November 5 and 7, the attackers created at least six meme tokens on NEAR, each costing around $90 to launch, and routed approximately 117,000 NEAR ($430,000) through the pools to complicate fund tracing. Elliptic previously identified a similar technique in the laundering of funds stolen in the 2025 Bybit hack. \u2014 link",
 "title": "North Korean Hackers Used Self-Issued Meme Coins to Launder Binance Hack Funds, Moving $430,000",
@@ -844,15 +844,18 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
+"Decrypt",
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794229876.0,
 "tgtext": "Avalanche to Serve as Core Ledger for NYSE-Affiliated Tokenized Securities Platform\n\nAva Labs said Avalanche will provide the core blockchain ledger technology for clearing and settlement on an upcoming tokenized securities platform affiliated with the New York Stock Exchange. The platform is designed to support 24/7 trading, clearing and settlement of tokenized equities issued across multiple blockchains, subject to regulatory approval. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 NYSE-affiliated tokenized securities platform to use Avalanche $AVAX for clearing and settlement.\n\n@WatcherGuru\n\ud83d\udd25 BREAKING: NYSE will use Avalanche to settle tokenized stock trades exclusively on its planned 24/7 trading platform, per WSJ.\n\nNews | Markets | YouTube",
 "title": "NYSE will use Avalanche to settle tokenized stock trades exclusively on its planned 24/7 trading platform, per WSJ.",
 "url": "https://t.me/cointelegraph/73135",
-"urls": []
+"urls": [
+"https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform"
+]
 },
 "3cb53abee57e": {
 "coin": "",
@@ -953,7 +956,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794218400.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Coinbase officially receives full US federal approval to operate as a national trust bank.\n\n@WatcherGuru\nCoinbase wins final OCC approval for national trust bank charter\n\nCoinbase has received final approval from the U.S. Office of the Comptroller of the Currency for its national trust bank charter, following conditional approval in April. The charter will support the company\u2019s crypto custody, payments and potential stablecoin issuance or administration activities, but does not allow it to take ordinary deposits or make loans like a traditional commercial bank. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Coinbase has secured a full national trust bank charter from the U.S. Office of the Comptroller of the Currency.\n\nNews | Markets | YouTube",
 "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
@@ -1989,7 +1992,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794220435.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea President Trump says he \"knows nothing\" of UAE-linked investment in his family crypto firm.\n\n@WatcherGuru",
 "title": "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings",
@@ -2478,7 +2481,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794231332.0,
 "tgtext": "BitMine Nears 5% of ETH Supply After Adding 9,587 ETH\n\nBitMine said it acquired 9,587 ETH over the past week, bringing total holdings to 6,070,092 ETH, or about 4.97% of Ethereum\u2019s supply. The company has 5,227,037 ETH staked and said fully staking its ETH holdings could generate about $359 million in annualized rewards at its trailing seven-day staking yield of 2.65%. Total crypto, cash, marketable securities and other investments stand at about $14.3 billion. \u2014 link",
 "title": "Tom Lee's Bitmine nears 5% Ethereum supply target with $20 million ETH buy as he predicts tokenization and AI 'supercycle'",
@@ -2643,6 +2646,19 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
 ]
+},
+"ab27fdf7f7a4": {
+"coin": "ethereum",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794239639.7369967,
+"t0": 1794238822.0,
+"tgtext": "Former Ethereum Foundation Official Sues EF and Vitalik Buterin, Alleging Retaliatory Firing Over Mandate Dispute\n\nAccording to a complaint filed in the U.S. District Court for Colorado on November 4, former Ethereum Foundation Protocol Support lead Kayleen Fulton (Nixo) sued six defendants, including Ethereum Foundation entities and co-founder Vitalik Buterin, alleging retaliatory termination and disability discrimination. Fulton claims she was fired on April 6 after disclosing an ovarian cancer diagnosis and helping organize a letter signed by 53 employees opposing mandatory endorsement of the Ethereum Foundation Mandate. The complaint also cites a recorded conversation in which Buterin allegedly expressed concern that employees could influence organizational decisions by creating controversy. The allegations have not been established in court. \u2014 link",
+"title": "Former Ethereum Foundation Official Sues EF and Vitalik Buterin, Alleging Retaliatory Firing Over Mandate Dispute",
+"url": "https://t.me/wublockchainenglish/26752",
+"urls": []
 },
 "acb2b787a644": {
 "coin": "",
@@ -2842,7 +2858,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794229044.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' buys 1,037 Bitcoin worth $77 million.\n\n@WatcherGuru",
 "title": "\u2018Connecting the dots\u2019: Michael Saylor\u2019s Strategy buys another 1,036 bitcoin for $82 million as holdings top 850,000 BTC",
@@ -3205,9 +3221,9 @@
 "Bitbo",
 "Bitcoin Magazine",
 "Bitcoin News",
-"Stocktwits"
+"CryptoRank"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794219300.0,
 "tgtext": "",
 "title": "Bitcoin, Ethereum, XRP Whipsaw On Nvidia Scandal, Iran Tensions: Crypto Sell-Off Sparks $1B Liquidation Wave",
@@ -3312,7 +3328,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794239027.4473476,
+"t": 1794239639.7369967,
 "t0": 1794227923.0,
 "tgtext": "Two wallets, possibly belonging to the same whale, spent $9.08M to buy 4,312 $ETH at an average price of $2,106.\n\nhttps://arkm.com/explorer/address/0x69c59DBc3bdc6a2934282b8C4348dd9944A829b5\nhttps://arkm.com/explorer/address/0xcfD57F8a9D3ABf61bD59D553a46fDb74A87BF899",
 "title": "Two wallets, possibly belonging to the same whale, spent $9.08M to buy 4,312 ETH at an average price of $2,106.",
@@ -3800,13 +3816,11 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
-"1505e2a87f33": 0.731,
-"19370c8c3d61": 0.101,
 "278d60e527ca": 0.534,
 "2c8b3b648732": 0.048,
 "36a958da6624": 0.054,
-"3af3c13bb5e5": 0.924,
-"3c8b40fe126b": 0.978,
+"3af3c13bb5e5": 0.932,
+"3c8b40fe126b": 0.954,
 "3cb53abee57e": 0.608,
 "3d6e4cdde610": 0.05,
 "429af2f9ce04": 0.735,
@@ -3815,31 +3829,33 @@
 "5f98b40b3271": 0.042,
 "61e0f1f92fcb": 0.036,
 "666bfebc25b7": 0.08,
-"6813f73bea1d": 0.028,
+"6813f73bea1d": 0.07,
 "7b6aa550410a": 0.041,
-"7f3f0ec617bb": 0.6,
+"7c23dc796c8b": 0.444,
+"7f3f0ec617bb": 0.696,
 "84759de3ad65": 0.064,
 "864b3a71d06c": 0.059,
 "86989120b052": 0.844,
 "911fa30fc6db": 0.203,
 "9598d64a0594": 0.668,
-"9863c5c818a3": 0.113,
+"9863c5c818a3": 0.063,
+"99dc2bc3c1d4": 0.111,
 "9b998722c7db": 0.146,
 "9d90cf7a026a": 0.048,
-"9ee9e3f7bce7": 0.352,
+"9ee9e3f7bce7": 0.282,
 "a4578a6b599a": 0.816,
 "a774bbc45830": 0.284,
 "a9f07966351f": 0.027,
-"ab27fdf7f7a4": 0.622,
+"ab27fdf7f7a4": 0.759,
 "ae220b200cdc": 0.117,
 "b6f411df497e": 0.161,
 "b9315c308bcd": 0.982,
 "cc1dfb0d52eb": 0.229,
-"d162e31f1d6d": 0.889,
-"d2cefcacba95": 0.065,
+"d162e31f1d6d": 0.877,
 "da0aaad8af14": 0.967,
 "e96192799d7d": 0.15,
-"f16d741659e7": 0.1
+"f16d741659e7": 0.1,
+"fdfdccb0771e": 0.122
 },
 "sent": [
 {
@@ -5019,63 +5035,63 @@
 [
 "b9315c308bcd",
 44,
-166,
-3
-],
-[
-"3c8b40fe126b",
-45,
-153,
+177,
 3
 ],
 [
 "da0aaad8af14",
-24,
-185,
+22,
+195,
 1
 ],
 [
+"3c8b40fe126b",
+55,
+163,
+4
+],
+[
 "3af3c13bb5e5",
-69,
-343,
-11
+67,
+353,
+9
 ],
 [
 "d162e31f1d6d",
-66,
-329,
-8
+64,
+339,
+9
 ],
 [
 "86989120b052",
-31,
-310,
+30,
+320,
 4
 ],
 [
 "a4578a6b599a",
 26,
-128,
+138,
 2
 ],
 [
 "3a70332e7b14",
 10,
-48,
+58,
+1
+],
+[
+"ab27fdf7f7a4",
+36,
+14,
 1
 ],
 [
 "429af2f9ce04",
-27,
-344,
+25,
+354,
 6
-],
-[
-"1505e2a87f33",
-21,
-353,
-2
 ]
 ],
-"top_at": 1794239027.4473476
+"top_at": 1794239639.7369967
 }
