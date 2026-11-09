@@ -2054,7 +2054,7 @@ def script_review(sb, facts):
                     'Flag a line if it (a) states a number, date, name, place, cause or event the FACTS do not support, (b) gets a fact wrong '
                     '(e.g. calls a company exchange "decentralized", calls a crypto theft a "bank heist", wrong date or amount; a headline publication date is NOT the event date; '
                     'a planned event told as already done, like "resumed" when the FACTS say "set to resume"; invented feelings or actions like "terrified executives"), or (c) is filler with no concrete fact '
-                    '(ONLY adjectives or mood, no fact at all). Vivid storytelling, tension, jokes and the detective voice are GOOD: never flag a line for its wording when it also carries a true fact.\n\n'
+                    '(ONLY adjectives or mood, no fact at all), or (d) drifts away from the story of line 1 (a side event the FACTS do not connect to it). Vivid storytelling, tension, jokes and the detective voice are GOOD: never flag a line for its wording when it also carries a true fact.\n\n'
                     f'FACTS:\n{facts[:12000]}\n\nLINES:\n{lst}\n\n'
                     'Return JSON only: {"lines": [{"n": 1, "problems": ["short reason quoting the bad words"]}]} (empty list when a line is fine).')
     out = {}
@@ -2127,7 +2127,7 @@ def story_pass(sb, facts):
     sc = sb['scenes']
     cur = '\n'.join(f'{i + 1}. ({x.get("emotion", x["role"])}, keep the word "{x["hit"]}") {x["line"]}' for i, x in enumerate(sc))
     raw = gemini_json(strong=True, prompt='You are the narrator of a viral true-crime crypto YouTube Short. Rewrite each line so it sounds like a gripping story told out loud, not a news report: '
-                      'put the viewer inside the moment, build tension toward the twist, short spoken sentences (6 to 14 words), contractions, at most one question to the viewer. '
+                      'put the viewer inside the moment, build tension toward the twist, short spoken sentences (max 14 words each, short fragments are good), contractions, no questions to the viewer, no filler and no opinions. '
                       'Each line keeps its feeling (in brackets), its kept word, about the same number of words, and EXACTLY the same facts, names and dates; numbers stay written in digits exactly as they are ($6.3B, 90%, 2026). Do not repeat the same number in several lines. '
                       'Add nothing that is not in the line or the FACTS: no invented feelings or reactions, and planned events stay planned ("set to resume", never "resumed"). Never write role tags. The last line must close the story and echo the first line.\n\n'
                       f'LINES:\n{cur}\n\nFACTS:\n{facts[:6000]}\n\nReturn JSON only: {{"lines": [{{"n": 1, "line": "..."}}, ...]}} with all {len(sc)} lines.')
@@ -2148,13 +2148,15 @@ def story_pass(sb, facts):
     return cand
 
 
-def polish_script(sb, facts, rounds=2):
+def polish_script(sb, facts, rounds=3):
     """filler + fact-check -> rewrite only the flagged lines -> check again. Returns (script, problems still left)."""
     left = {}
     for _ in range(rounds):
         issues = {}
         for n, w in filler_hits(sb):
             issues.setdefault(n, []).append(f'filler words "{w}": replace with a concrete fact from the FACTS')
+        for n, pr in sqc_standard(sb).items():                         # the owner's script standard (short sentences, no filler/questions/opinions)
+            issues.setdefault(n, []).extend(pr)
         for n, pr in script_review(sb, facts).items():
             if 1 <= n <= len(sb['scenes']): issues.setdefault(n, []).extend(pr)
         left = issues
@@ -2183,12 +2185,38 @@ def polish_script(sb, facts, rounds=2):
 
 LEN_NAME = {30: '30s', 45: '45s', 60: '1 min', 90: '1.5 min', 120: '2 min'}
 LEN_SHAPE = {
-    30: 'hook -> setup -> twist -> payoff -> end. One clear story beat per line.',
-    45: 'hook -> setup -> turn -> twist -> payoff -> end. Add one vivid detail (a place, an amount, a quote) in the middle.',
-    60: 'hook -> setup (who, where) -> turn -> first twist -> a re-hook line around the middle ("But that is not the strangest part.") -> second twist -> payoff -> end.',
-    90: 'hook -> setup (who, where, when) -> turn -> first twist -> re-hook around 40% ("But that is not the strangest part.") -> escalation with real numbers -> second twist -> payoff -> end.',
+    30: 'hook -> what happened -> the most surprising fact -> where it stands now. One clear story beat per line.',
+    45: 'hook -> what happened (in time order) -> why (only causes the FACTS state) -> the most surprising fact -> where it stands now.',
+    60: 'hook -> what happened (2-3 lines, in time order) -> why (only causes the FACTS state) -> the most surprising fact -> where it stands now -> end.',
+    90: 'hook -> setup (who, where, when) -> turn -> first twist -> escalation with real numbers -> second twist -> payoff -> end.',
     120: 'cold open hook -> background (who, when, how it started) -> rising stakes with 2-3 concrete events -> re-hook around 40% -> first twist -> '
          'consequences with real numbers -> second twist or reveal -> where it stands today -> end that loops to the hook. Every 10-15 seconds something new must happen.'}
+
+
+def sqc_standard(sb):
+    try:
+        import qc as _qc
+        return _qc.standard(sb)
+    except Exception as e:
+        print('standard check', repr(e)[:80]); return {}
+
+
+def gold_scripts():
+    try:
+        g = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'studio', 'gold_scripts.json')))
+        return '\n\n'.join(f'GOLD EXAMPLE "{x["title"]}":\n' + '\n'.join(f'{i + 1}. {l}' for i, l in enumerate(x['lines'])) for x in g)
+    except Exception:
+        return ''
+
+
+STANDARD_RULES = """- THE STANDARD (a script that breaks it is rewritten before the owner sees it):
+  * every sentence max 14 words; short fragments are great ("61,000 bitcoin. Found in Britain."); a line max 26 words.
+  * the hook's first sentence is the shock in max 10 words: the number or the name first. Never a setup.
+  * one story: every line connects to the hook. Side news only if the FACTS link it to this story.
+  * time order after the hook; plain words a 12-year-old understands.
+  * no questions to the viewer (a 2-word "Those coins?" is fine), no filler, no opinions ("proving", "shocking", "insane", "brutal"),
+    no news-speak ("amid", "sparked", "faced", "struck", "panic", "safer assets"), no fake re-hooks ("not the strangest part").
+  * copy the rhythm and plainness of the GOLD EXAMPLES below: that is exactly how the channel sounds."""
 
 
 def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='auto', sett=None):
@@ -2218,12 +2246,13 @@ def make_storyboard(topic, facts, tone=None, fix=None, length=45, chart_pref='au
 with a real price chart when the story has one. Write the storyboard for this story as JSON.
 
 HOUSE RULES
-- LENGTH: {len_rule} Each line 1-2 short spoken sentences, max 24 words.
+- LENGTH: {len_rule} The story decides the length: if the FACTS run out, the Short is shorter. Never stretch it.
+{STANDARD_RULES}
 - OUTLINE FIRST: fill "outline" before "scenes" (one entry per scene, with its word budget); the scene lines must follow the outline.
 - STRUCTURE: {LEN_SHAPE[length]}
 - WRITE LIKE A STORYTELLER, NOT A NEWS READER: put the viewer INSIDE the moment ("Thursday night. A Binance engineer opens his laptop."), then build tension
   line by line toward the twist. Use concrete names, places, dates and amounts; every line is a punch. Short spoken sentences (6-14 words), contractions,
-  an occasional question to the viewer ("So where did the other three billion go?"). Never write vague filler like "faced a crisis",
+  no questions to the viewer. Never write vague filler like "faced a crisis",
   "massive", "significant", "shocking", "in the world of crypto". Show, don't summarize.
   NEWS READER (bad): "Blockchain firms linked the attack to North Korea on Thursday."
   STORYTELLER (good): "By morning, two blockchain firms had a name. North Korea."
@@ -2231,7 +2260,7 @@ HOUSE RULES
   the payoff lands (triumph, dark or sad), funny only when the story is absurd. The voice performs the emotion you choose.
 - Scene 1 (hook): the most shocking fact or the twist FIRST, max 14 words, opens a loop the viewer needs closed. Never start with "Today" or "In this video".
   The FIRST one or two spoken words must already be the shock (a big number or a punchy word: "$6.3 billion. Gone in twenty minutes."). Within the first 3 seconds tease the twist ("But that's not even the crazy part.").
-- RE-HOOK: every 10-15 seconds one short line that pulls the viewer forward ("And then it got worse." / "Here's the strange part."). The very next line MUST deliver the surprising fact it promises; better still, make the re-hook a question that the next fact answers ("But how did they get in? One engineer's laptop.").
+- NO FAKE RE-HOOKS: never write lines like "But that's not the strangest part", "Here's the strange part" or "And then it got worse". The next surprising FACT is the re-hook.
 - TOPIC: tell exactly the STORY asked for. Other events in the FACTS are context only; never switch to a different (newer) story.
 - RECEIPTS: on 2-4 scenes add a "receipt": one of the lines under "Real headlines" copied word for word (without the date and outlet), with its outlet. Only real headlines, never article sentences.
 - HACKS AND THEFTS: use the "flow" visual (follow the money) on at least one scene.
@@ -2265,6 +2294,8 @@ HOUSE RULES
 {SB_VISUALS}
 
 {hook_ex}
+
+{gold_scripts()}
 
 FORMAT (JSON only):
 {SB_SCHEMA}
@@ -2330,7 +2361,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
     if not old and jid and os.path.exists(f'jobs/{jid}/storyboard.json'):
         old = {'sb': json.load(open(f'jobs/{jid}/storyboard.json'))}
     facts = old.get('facts')
-    length = max(60, length or (old.get('sb') or {}).get('length') or 60)            # owner: Shorts are 1 minute or longer
+    length = max(30, length or (old.get('sb') or {}).get('length') or 45)            # owner (Nov 9): 30-60 s, the story decides
     sett = dict(sett or (old.get('sb') or {}).get('settings') or {})
     if facts is None:
         facts = short_facts(topic)
@@ -2349,6 +2380,7 @@ def short_draft(topic, tgs, tone=None, jid=None, length=None, sett=None):
         cand = story_pass(cand, facts)
         cand, left = polish_script(cand, facts)
         verify_quotes(cand, facts); verify_receipts(cand, facts); label_check(cand, facts)
+        left = {**left, **{n: v for n, v in sqc_standard(cand).items() if n not in left}}   # the final gate: anything still breaking the standard is shown as ❌
         cand['review'] = {str(k): v[:2] for k, v in left.items()}
         print('draft', attempt, 'words', cand['words'], 'est', cand['est_secs'], 'ok', cand.get('length_ok'))
         if best is None or abs(cand['words'] - cand['target_words']) < abs(best['words'] - best['target_words']):

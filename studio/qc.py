@@ -35,6 +35,36 @@ def _ok_number(n, facts_nums, facts_text):
     return False
 START_WEAK = re.compile(r"^(this is|today|in (19|20)\d\d|meet|let me|have you|did you know|imagine|once upon|so,|here's the story|the story of)", re.I)
 
+# ---------------------------------------------------------------- the script standard (owner, Nov 9): a script is only sent when it passes ALL of this
+MAX_SENT_WORDS, MAX_LINE_WORDS = 14, 26           # short fragments are good ("61,000 bitcoin. Found in Britain."); long sentences are not
+BANNED = [  # filler, fake re-hooks, opinions and news-speak: they make a script sound cheap or invented
+    r"not (?:even )?the (?:strangest|craziest|wildest|weirdest|best|worst) part", r"here'?s the (?:strange|crazy|wild|weird|twist|kicker)", r"and then it got worse",
+    r"what about\b", r"you won'?t believe", r"believe it or not", r"\bproving\b", r"\bproves\b", r"\bshocking\b", r"\binsane\b", r"\bcrazy\b", r"\bbrutal\b", r"\bstaggering\b",
+    r"\bmassive\b", r"\bunprecedented\b", r"\bamid\b", r"\bsparked?\b", r"\bfaced?\b", r"\bpanic\b", r"\bin the world of\b", r"\bthe crypto (?:world|space|community)\b",
+    r"\bsent shockwaves\b", r"\bdestroys?\b", r"\bclearly\b", r"\bobviously\b", r"\bstruck\b", r"\bhit (?:hard|the market)\b", r"\bsafer assets\b", r"\bthe lesson\b",
+    r"\bin this video\b", r"\btoday we\b", r"\blet'?s\b"]
+_BAN = re.compile('|'.join(BANNED), re.I)
+def sentences(line): return [x for x in re.split(r'(?<=[.!?])\s+', str(line).strip()) if x.strip()]
+def standard(sb):
+    """{line_no: [problems]} for every rule a line breaks (the bot rewrites exactly these lines, then checks again)."""
+    out = {}
+    sc = [s for s in (sb.get('scenes') or []) if s.get('role') != 'cta']
+    add = lambda n, msg: out.setdefault(n, []).append(msg)
+    for i, s in enumerate(sc, 1):
+        line = str(s.get('line', '')); ss = sentences(line)
+        if len(line.split()) > MAX_LINE_WORDS: add(i, f'line is {len(line.split())} words: max {MAX_LINE_WORDS}')
+        for x in ss:
+            n = len(x.split())
+            if n > MAX_SENT_WORDS: add(i, f'sentence of {n} words ("{x[:40]}…"): max {MAX_SENT_WORDS} words, split or cut it')
+        for x in ss:
+            if x.endswith('?') and len(x.split()) > 4: add(i, f'question "{x[:40]}": no questions to the viewer, state the fact (a 2-3 word "Those coins?" is fine)')
+        for m in _BAN.finditer(line): add(i, f'banned words "{m.group(0)}": remove them, say the concrete fact')
+    if sc:
+        h = str(sc[0].get('line', '')); h1 = (sentences(h) or [''])[0]
+        if len(h1.split()) > 10: add(1, f'hook opens with {len(h1.split())} words: the first sentence must be the shock in max 10 words')
+        if len(h.split()) > 20: add(1, f'hook is {len(h.split())} words: max 20')
+    return out
+
 # ---------------------------------------------------------------- 1. script (runs in the bot before any voice is made)
 def script(sb, facts=''):
     r = []
@@ -48,6 +78,8 @@ def script(sb, facts=''):
         r.append(it(WARN, 'hook', 'line 1 has no number or name — is it a shock in the first second?'))
     else: r.append(it(OK, 'hook', 'line 1 is a hook'))
     if len(first.split()) > 14: r.append(it(WARN, 'hook', f'line 1 is {len(first.split())} words — the hook should land within ~2 s (≤ 12 words)'))
+    std = standard(sb)
+    r.append(it(FAIL, 'standard', '; '.join(f'line {n}: {v[0]}' for n, v in sorted(std.items())[:4])) if std else it(OK, 'standard', 'short sentences, no filler, no questions, no opinions'))
     # sentence length
     long_ = [(i + 1, len(x.split())) for i, l in enumerate(lines) for x in re.split(r'(?<=[.!?])\s+', l) if len(x.split()) > 22]
     r.append(it(WARN, 'pacing', 'long sentences: ' + ', '.join(f'line {a} ({b} words)' for a, b in long_)) if long_ else it(OK, 'pacing', 'no sentence over 22 words'))
