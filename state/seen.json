@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794132361.9607666,
 1794142122.8885212,
 1794148181.694124,
 1794175612.3821495,
@@ -14,7 +13,8 @@
 1794207054.173305,
 1794207666.4968543,
 1794217369.4538724,
-1794218289.5225196
+1794218289.5225196,
+1794219206.0085132
 ],
 "menu": {
 "00f555793394": {
@@ -150,7 +150,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794203499.0,
 "tgtext": "\ud83d\udd25 BIG: US M2 money supply rose $113 billion in August to a record $23.41 trillion.\n\nNews | Markets | YouTube",
 "title": "BIG: US M2 money supply rose $113 billion in August to a record $23.41 trillion.",
@@ -257,7 +257,7 @@
 "Tech Times",
 "The Crypto Times"
 ],
-"t": 1794218593.9014325,
+"t": 1794218901.5403006,
 "t0": 1794201389.0,
 "tgtext": "",
 "title": "Bitcoin Liquidations Erase $715M in Long Bets in One Hour; Price Falls Under Strategy's $75,451 Cost",
@@ -692,7 +692,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794207573.0,
 "tgtext": "Nvidia CEO Affair Fallout: Binance NVDAUSDT Drops 4.2% vs Last US Close, Volume and Open Interest Rank No. 1 Among Top 8 Platforms\n\nBinance Research said management-related uncertainty at Nvidia emerged over the weekend. With US stocks closed, Binance\u2019s NVDAUSDT perpetual contract briefly traded 4.2% below Nvidia\u2019s previous US close. Over the past 24 hours, Binance\u2019s Nvidia perpetual recorded $360.35 million in volume and $90.57 million in open interest, ranking first in both among the top eight platforms it tracks, accounting for 44% and 30.1% respectively.\n\nEarlier, Jensen Huang admitted being unfaithful to his wife and apologized. The person involved is reportedly Alice Huang, an executive at Megaspeed. Nvidia\u2019s board launched an independent investigation the same day but said there is currently no evidence that national security or company secrets were compromised, and Huang will continue to serve as CEO. \u2014 link",
 "title": "Nvidia CEO Affair Fallout: Binance NVDAUSDT Drops 4.2% vs Last US Close, Volume and Open Interest Rank No. 1 Among Top 8 Platforms",
@@ -799,6 +799,23 @@
 "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LMFFac3U4U1hJaWhsaVRhenl1NFFXbGo1RjFjcExjYUlwLW4zY2JZbkZ2eFFqUjdkeVpfTGhGRWxMdE9MZlBBR1psSlNvLUdzYXJMUnRiU0NtWXlzTHl4dG1lUWx3ekJUUUE2dDRjOWNOTDhGYnEwUHlqVjVmdw?oc=5",
 "urls": []
 },
+"429af2f9ce04": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"CoinDesk",
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1794219206.0085132,
+"t0": 1794218400.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Coinbase officially receives full US federal approval to operate as a national trust bank.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Coinbase has secured a full national trust bank charter from the U.S. Office of the Comptroller of the Currency.\n\nNews | Markets | YouTube",
+"title": "\ud83c\uddfa\ud83c\uddf8 Coinbase officially receives full US federal approval to operate as a national trust bank.",
+"url": "https://t.me/WatcherGuru/15888",
+"urls": [
+"https://www.coindesk.com/policy/2026/11/09/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator"
+]
+},
 "435aada611d0": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -862,7 +879,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794206706.0,
 "tgtext": "Wallet (0xC356) withdrew 34,601 $ETH ($73.75M) from #Binance over the past 3 hours after more than 2 years of inactivity. \n\nIs someone buying a huge amount of $ETH during the market crash?\n\nhttps://arkm.com/explorer/address/0xC35626b6e2a71D28ffbD49de8E43b4246319d330",
 "title": "Wallet (0xC356) withdrew 34,601 ETH ($73.75M) from Binance over the past 3 hours after more than 2 years of inactivity.",
@@ -1358,7 +1375,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794216581.0,
 "tgtext": "Binance Says Alleged 335M-User Data Leak Likely a Scam\n\n@BinanceHelpDesk said it is investigating claims that ShinyHunters stole data on 335 million users and demanded $900,000, but has found no evidence that its systems, KYC data, account credentials or wallet private keys were compromised. The exchange said parts of the listing are inconsistent with how Binance stores user data and that the dataset may instead involve infostealer data taken from users\u2019 own devices. \u2014 link",
 "title": "Binance Says Alleged 335M-User Data Leak Likely a Scam",
@@ -1480,7 +1497,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794201432.0,
 "tgtext": "A whale unstaked 512,010 $HYPE ($39.3M) and deposited it into #FalconX, possibly to sell.\n\nhttps://arkm.com/explorer/address/0x30AA81d0ed08a377B7055967a2F2DCeD1B69266A",
 "title": "A whale unstaked 512,010 HYPE ($39.3M) and deposited it into FalconX, possibly to sell.",
@@ -1548,6 +1565,20 @@
 "tgtext": "",
 "title": "Binance will close some EU accounts on Dec. 31 and start charging fees on idle balances from Nov. 29",
 "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSzB4UU1TQ3dsYW5La2NndkNmdkNIdjRhXzh0ZHQ3M3RyNDExeWhCU0hfY0tLaXg2MlIydV9veGRJY2Z2OXh3TXJGbmF2eG1ETHJXYXAxYmktaUFmN0xWcndvRmFTd245dUFBZjFRYVoxS3RlQzg0Njl4N0FwZnFRM1FQOTlCX0NFVUl4QTh1a0tSY1JWMlJaaTFaN19tSmFFZl9pY2dkc0FWQlQ5RThMbkVuSGY2dHJzWFI4?oc=5",
+"urls": []
+},
+"7ab9b99121ba": {
+"coin": "bitcoin",
+"src": "Benzinga",
+"srcs": [
+"BeInCrypto",
+"Benzinga"
+],
+"t": 1794219206.0085132,
+"t0": 1794211779.0,
+"tgtext": "",
+"title": "Move Over Bitcoin, Vitalik Buterin Is Making the Case for Ethereum as a Store of Value: 'Stability Will Be Highly Valued'",
+"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdHV1MlVuY2FaYXBGQ3NnSUdGdFIxMVVfNFcwLTl1eW1kTjl3dGxpM0NqdjE3ODltaExtbnlmLXdIQmJNZURlWENOOVItdDIzN2Q3NzBQdVBwS21DNy1KQUs0ancwT1ZCRnFVZEFRWjk0RkE1ZVY4X2tQOWxFa0U5bkF6bHVmLTZJRXl1OHZmNnljaHdtN3FpQ1BR?oc=5",
 "urls": []
 },
 "7b25bc8bf3bb": {
@@ -1741,7 +1772,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794212487.0,
 "tgtext": "Trader 0x2016 opened a 20x short on 1,734.23 $NVDAUSD1 ($315K) on @Aster_DEX and is now sitting on an unrealized profit of nearly $52.4K, with a 332.79% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0x201606eaB4602c9D8a74154c6fb3303003C18769",
 "title": "Trader 0x2016 opened a 20x short on 1,734.23 NVDAUSD1 ($315K) on @Aster_DEX and is now sitting on an unrealized profit of nearly $52.4K, with a 332.79% ROI.",
@@ -1891,7 +1922,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794218593.9014325,
+"t": 1794218901.5403006,
 "t0": 1794215652.0,
 "tgtext": "\u26a1\ufe0f Key Economic Events This Week:\n\nTuesday - October CPI inflation data\nWednesday - OPEC Monthly Report\nThursday - Initial Jobless Claims and October Existing Home Sales data\nFriday - October PPI inflation data\nPlus a total of 17 Fed speaker events this week.\n\nWhich will hit crypto harder this week: CPI or the Fed speakers?\n\nNews | Markets | YouTube",
 "title": "Key Economic Events This Week:",
@@ -2426,19 +2457,19 @@
 },
 "b23dd1fc4a3e": {
 "coin": "bitcoin",
-"src": "Cryptonews.net",
+"src": "Tech Times",
 "srcs": [
 "BeInCrypto",
-"Cryptonews.net",
 "FinanceFeeds",
 "Mitrade",
+"Tech Times",
 "The Crypto Times"
 ],
-"t": 1794213485.9322755,
-"t0": 1794199913.0,
+"t": 1794219206.0085132,
+"t0": 1794201011.0,
 "tgtext": "",
-"title": "Bitcoin Reaches $74,000, $1 Billion in Liquidations Occur: Why Did the Market Suddenly Reverse? Here Are the Details",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWk1iMWowblNISU9wVUtJWVJQMVY3ZjdfVGJWMUxweEZIeEpvTjlHMlNVdm9OLVcxd1lfUEtjRTVJODZhUzUtWTRNRkgwT1BESkxRWkRnLTc?oc=5",
+"title": "Bitcoin Liquidations Erase $715M in Long Bets in One Hour; Price Falls Under Strategy's $75,451 Cost",
+"url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMUdRTy02VTFmMkcwNUQyZnhjZ1RQTDJLVUFkYndIYXlBZnVjNXFIZ3RSdmtFaFJveUtlZVU0VlJiRWw4NGhOc1JrbUs4VlotLXRfbF9ETFZRekZQZUU4UXd6aW00MVRqY2tvanFzNEpuams1RzFxYUJ4VVVPa1N3VTNhem12LVdkUlU2M3c0RGU3cUxpbjdsbVkzLVJQNU5iTGU2RjZEZGQ2QU1pV0ZkQk01cjFCN2pDdjdrdm5oamo5eHptWFpoWUdSUU5NVk9NUkZKZVJnUjY0YTUw?oc=5",
 "urls": []
 },
 "b289312b0e55": {
@@ -2756,7 +2787,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1794218593.9014325,
+"t": 1794219206.0085132,
 "t0": 1794204300.0,
 "tgtext": "",
 "title": "BTC, ETH, XRP Crash Again as Liquidation Wave Hits $1B",
@@ -3491,44 +3522,44 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
-"0121344d2402": 0.211,
 "0d0d654bc1bb": 0.614,
 "1330aa026bb8": 0.163,
-"1555c8e2d151": 0.847,
 "2330ffe8293f": 0.197,
 "292325fd15b4": 0.016,
-"2a0b4ef3fd76": 0.143,
-"37e7103271ef": 0.061,
 "3a23f474dd02": 0.389,
 "3abbcbfd6638": 0.177,
-"3cb53abee57e": 0.081,
-"429af2f9ce04": 0.06,
+"3cb53abee57e": 0.118,
+"429af2f9ce04": 0.996,
 "46cb293ca5a4": 0.893,
 "484678df449e": 0.117,
 "515b637a14d5": 0.143,
 "5e4633b710ac": 0.238,
 "64810acbd59b": 0.038,
 "6b9cbf1717f2": 0.239,
-"7016e5472a44": 0.402,
-"78d1173c86c6": 0.486,
+"7016e5472a44": 0.337,
+"7ab9b99121ba": 0.333,
 "7c5d48de2f05": 0.027,
 "8789ecfe23c0": 0.187,
 "8f7fa558867b": 0.106,
 "9949a46c00b3": 0.082,
 "a07cc64f02cc": 0.152,
 "a24385c204d1": 0.21,
+"a5e256783ed3": 0.027,
 "b063191d741a": 0.014,
+"b23dd1fc4a3e": 0.847,
 "b38fa16a25bd": 0.045,
 "bb8498b4b961": 0.049,
-"c887f4eeda5e": 0.05,
+"c887f4eeda5e": 0.074,
 "ca891161f502": 0.376,
 "d07a41880216": 0.244,
+"d2b566c776d6": 0.034,
 "d2ee0aa56164": 0.164,
 "d9bbf735113b": 0.03,
 "dadad8ea515d": 0.016,
 "e0ddc5f4a9a1": 0.023,
+"e7a5245a8cc2": 0.052,
 "e873e52c04cd": 0.094,
-"f3ae1b6e98a0": 0.243,
+"f3ae1b6e98a0": 0.146,
 "f6422c5b7fb1": 0.111,
 "faa0728015e5": 0.081
 },
@@ -4515,71 +4546,97 @@
 "threat",
 "trading"
 ]
+},
+{
+"e": [
+"coinbase"
+],
+"k": [
+"ban"
+],
+"t": 1794219206.0085132,
+"u": [
+"https://www.coindesk.com/policy/2026/11/09/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator",
+"https://t.me/WatcherGuru/15888",
+"https://t.me/cointelegraph/73131"
+],
+"w": [
+"approval",
+"bank",
+"coinbase",
+"federal",
+"full",
+"national",
+"officially",
+"operate",
+"receives",
+"trust"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"429af2f9ce04",
+46,
+13,
+3
+],
+[
 "46cb293ca5a4",
-22,
-198,
+21,
+208,
 1
 ],
 [
-"1555c8e2d151",
-76,
-287,
+"b23dd1fc4a3e",
+74,
+303,
 7
 ],
 [
 "0d0d654bc1bb",
-28,
-252,
+27,
+262,
+1
+],
+[
+"78d1173c86c6",
+9,
+296,
 1
 ],
 [
 "8042d3287a3e",
 10,
-102,
-1
-],
-[
-"78d1173c86c6",
-10,
-286,
-1
-],
-[
-"7016e5472a44",
-36,
-34,
+112,
 1
 ],
 [
 "3a23f474dd02",
-18,
-184,
+17,
+194,
 1
 ],
 [
 "ca891161f502",
-53,
-238,
+51,
+248,
 2
 ],
 [
-"875f6075e0e2",
-10,
-49,
+"7016e5472a44",
+36,
+44,
 1
 ],
 [
-"d07a41880216",
-26,
-156,
-1
+"7ab9b99121ba",
+28,
+124,
+2
 ]
 ],
-"top_at": 1794218593.9014325
+"top_at": 1794219206.0085132
 }
