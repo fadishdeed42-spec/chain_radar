@@ -220,7 +220,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794241271.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigation into Megaspeed over suspected AI chip smuggling to China halted after Nvidia $NVDA intervened.\n\nCEO Jensen Huang had an affair with former Megaspeed executive Alice Huang, who has been accused of being a Chinese spy.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigation into Megaspeed over suspected AI chip smuggling to China halted after Nvidia NVDA intervened.",
@@ -604,7 +604,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794243050.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.7 trillion Goldman Sachs CEO David Solomon expects massive investment in US data centers and AI computing capacity to continue.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $3.7 trillion Goldman Sachs CEO David Solomon expects massive investment in US data centers and AI computing capacity to continue.",
@@ -638,7 +638,7 @@
 "The Block",
 "bloomingbit"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794229440.0,
 "tgtext": "",
 "title": "Bitcoin and Ethereum Just Hit Their Lowest Prices Since August After $1 Billion in Liquidations. Where Do Analysts Say They Bottom?",
@@ -910,7 +910,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794229876.0,
 "tgtext": "Avalanche to Serve as Core Ledger for NYSE-Affiliated Tokenized Securities Platform\n\nAva Labs said Avalanche will provide the core blockchain ledger technology for clearing and settlement on an upcoming tokenized securities platform affiliated with the New York Stock Exchange. The platform is designed to support 24/7 trading, clearing and settlement of tokenized equities issued across multiple blockchains, subject to regulatory approval. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 NYSE-affiliated tokenized securities platform to use Avalanche $AVAX for clearing and settlement.\n\n@WatcherGuru\n\ud83d\udd25 BREAKING: NYSE will use Avalanche to settle tokenized stock trades exclusively on its planned 24/7 trading platform, per WSJ.\n\nNews | Markets | YouTube",
 "title": "NYSE will use Avalanche to settle tokenized stock trades exclusively on its planned 24/7 trading platform, per WSJ.",
@@ -1194,7 +1194,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794224332.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $410 billion PNC Bank partners with Coinbase to offer crypto stablecoin payments.\n\n@WatcherGuru\nEighth-Largest U.S. Bank PNC Partners With Coinbase to Pilot USDC Payments for Corporate Clients\n\nPNC Bank and Coinbase announced an expanded partnership on November 9 to pilot USDC payment acceptance for corporate and institutional banking clients. Eligible participants can receive USDC payments, which are automatically converted 1:1 into U.S. dollars and deposited into designated PNC bank accounts. The service is powered by Coinbase Payment APIs and aims to improve payment efficiency, including for cross-border transactions. The pilot is initially limited to select clients. The two firms previously partnered to offer digital asset trading to eligible PNC Private Bank clients. \u2014 link",
 "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
@@ -2229,11 +2229,13 @@
 "coin": "bitcoin",
 "src": "www.tmgm.com",
 "srcs": [
-"IG",
+"Coinpedia",
+"CryptoRank",
+"StoneX",
 "The Block",
-"www.tmgm.com"
+"Yahoo Finance"
 ],
-"t": 1794237168.4456725,
+"t": 1794245218.823269,
 "t0": 1794228018.0,
 "tgtext": "",
 "title": "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple \u2013 Next support lies at BTC $70,000, ETH around $2,000 and XRP near $1 as bears retain control",
@@ -2300,6 +2302,26 @@
 "url": "https://t.me/cointelegraph/73113",
 "urls": []
 },
+"911fa30fc6db": {
+"coin": "",
+"src": "bloomingbit",
+"srcs": [
+"CoinDesk",
+"Coinfomania",
+"Cointelegraph",
+"Watcher.Guru",
+"Wu Blockchain"
+],
+"t": 1794245218.823269,
+"t0": 1794231000.0,
+"tgtext": "Elliptic: North Korean Hackers Create Meme Tokens on NEAR to Launder Binance Hack Funds\n\nBlockchain analytics firm Elliptic reported that North Korean hackers are creating meme tokens and using DEX liquidity pools to launder funds stolen in the $6.4 billion Binance hack. Between November 5 and 7, the attackers created at least six meme tokens on NEAR, each costing around $90 to launch, and routed approximately 117,000 NEAR ($430,000) through the pools to complicate fund tracing. Elliptic previously identified a similar technique in the laundering of funds stolen in the 2025 Bybit hack. \u2014 link\nJUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers are using memecoins to launder funds stolen from the $6 billion Binance crypto hack.\n\n@WatcherGuru",
+"title": "North Korean Hackers Used Self-Issued Meme Coins to Launder Binance Hack Funds, Moving $430,000",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5paWJRZWxqdG9mT2N6T19NdDdjQUNEWVMyVTNDMlZQNTNOd0RMNktGTjJXckwtR21MQUcya2R5Q182S3p3WFUwSTdJU1pEQnpEaWI1cA?oc=5",
+"urls": [
+"https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack"
+]
+},
 "935d32699a54": {
 "coin": "",
 "src": "Seoul Economic Daily",
@@ -2356,7 +2378,7 @@
 "Wu Blockchain",
 "https://genfinity.io/"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794233817.0,
 "tgtext": "JUST IN: $13 trillion Charles Schwab adds Solana, Avalanche, and Chainlink trading to its crypto accounts.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: $13T Charles Schwab adds trading for Solana $SOL, Avalanche $AVAX and Chainlink $LINK.\n\nNews | Markets | YouTube\nLargest U.S. Retail Brokerage Charles Schwab Adds Spot Trading for SOL, AVAX and LINK\n\nCharles Schwab, the largest U.S. retail brokerage, announced on November 9 that its Schwab Crypto platform has added spot trading for Solana (SOL), Avalanche (AVAX), and Chainlink (LINK), bringing its supported assets to five alongside BTC and ETH. The platform launched early access in May and opened to all eligible retail clients in October, charging a 0.75% trading fee. The service is currently available only to eligible customers in select U.S. states, excluding New York and Louisiana, and is not available outside the United States. \u2014 link",
 "title": "$13T Charles Schwab adds trading for Solana SOL, Avalanche AVAX and Chainlink LINK.",
@@ -2582,7 +2604,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794231332.0,
 "tgtext": "BitMine Nears 5% of ETH Supply After Adding 9,587 ETH\n\nBitMine said it acquired 9,587 ETH over the past week, bringing total holdings to 6,070,092 ETH, or about 4.97% of Ethereum\u2019s supply. The company has 5,227,037 ETH staked and said fully staking its ETH holdings could generate about $359 million in annualized rewards at its trailing seven-day staking yield of 2.65%. Total crypto, cash, marketable securities and other investments stand at about $14.3 billion. \u2014 link",
 "title": "Tom Lee's Bitmine nears 5% Ethereum supply target with $20 million ETH buy as he predicts tokenization and AI 'supercycle'",
@@ -3413,7 +3435,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794244605.9360292,
+"t": 1794245218.823269,
 "t0": 1794227923.0,
 "tgtext": "Two wallets, possibly belonging to the same whale, spent $9.08M to buy 4,312 $ETH at an average price of $2,106.\n\nhttps://arkm.com/explorer/address/0x69c59DBc3bdc6a2934282b8C4348dd9944A829b5\nhttps://arkm.com/explorer/address/0xcfD57F8a9D3ABf61bD59D553a46fDb74A87BF899",
 "title": "Two wallets, possibly belonging to the same whale, spent $9.08M to buy 4,312 ETH at an average price of $2,106.",
@@ -3924,6 +3946,7 @@
 },
 "probs": {
 "0011c8a7970b": 0.029,
+"0620c118c9b5": 0.349,
 "13701d6da088": 0.726,
 "29b90bdb0a3f": 0.22,
 "2c8b3b648732": 0.048,
@@ -3932,35 +3955,34 @@
 "36a958da6624": 0.132,
 "37625b4ca79c": 0.053,
 "3c8b40fe126b": 0.89,
+"3cfa3d843017": 0.026,
 "3d6e4cdde610": 0.124,
-"43fc343cde9b": 0.959,
 "4993674ddd1d": 0.949,
 "55d31b265b36": 0.074,
 "5fac16e4aa6f": 0.094,
 "6002943305de": 0.288,
-"629102dc31c6": 0.079,
 "666bfebc25b7": 0.08,
-"7c23dc796c8b": 0.68,
+"7c23dc796c8b": 0.532,
 "7dc5bb26fe41": 0.063,
 "7f3f0ec617bb": 0.334,
 "80e1f89fc0fd": 0.065,
 "83d8e15e5c57": 0.298,
 "84759de3ad65": 0.064,
 "864b3a71d06c": 0.059,
+"8aeaa5cf12db": 0.771,
 "90b25d5ffbd6": 0.063,
-"911fa30fc6db": 0.28,
-"933dd49a0ff5": 0.119,
+"911fa30fc6db": 0.988,
+"933dd49a0ff5": 0.266,
 "9598d64a0594": 0.959,
 "99dc2bc3c1d4": 0.111,
 "9d90cf7a026a": 0.048,
-"9f873c565877": 0.408,
+"9f873c565877": 0.272,
 "a4578a6b599a": 0.816,
 "ab27fdf7f7a4": 0.262,
-"b914e606f523": 0.114,
-"b9315c308bcd": 0.922,
-"cc1dfb0d52eb": 0.309,
+"ac4ad637e9f7": 0.036,
+"ad3025c5d5cb": 0.06,
 "e3ce41440a11": 0.023,
-"e96192799d7d": 0.32,
+"e96192799d7d": 0.201,
 "eddc341be201": 0.076,
 "fdfdccb0771e": 0.122
 },
@@ -5140,65 +5162,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"911fa30fc6db",
+83,
+237,
+6
+],
+[
 "9598d64a0594",
-46,
-180,
+45,
+190,
 4
 ],
 [
-"43fc343cde9b",
-67,
-356,
-16
-],
-[
 "4993674ddd1d",
-42,
-338,
+41,
+348,
 6
 ],
 [
 "da0aaad8af14",
-11,
-278,
+10,
+288,
 1
 ],
 [
-"b9315c308bcd",
-34,
-259,
-3
-],
-[
 "3c8b40fe126b",
-32,
-245,
+30,
+256,
 4
 ],
 [
 "2e4cf9734089",
-66,
-253,
-5
+64,
+263,
+6
 ],
 [
 "a4578a6b599a",
-21,
-221,
+20,
+231,
 2
+],
+[
+"8aeaa5cf12db",
+50,
+287,
+6
 ],
 [
 "2c588e21b23f",
 10,
-26,
+36,
 1
 ],
 [
 "13701d6da088",
 32,
-56,
+66,
 1
 ]
 ],
-"top_at": 1794244605.9360292
+"top_at": 1794245218.823269
 }
