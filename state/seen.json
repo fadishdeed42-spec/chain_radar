@@ -7,7 +7,8 @@
 1794142122.8885212,
 1794148181.694124,
 1794175612.3821495,
-1794185716.7206104
+1794185716.7206104,
+1794187862.2376945
 ],
 "menu": {
 "0223ba01d0a4": {
@@ -127,7 +128,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794175482.0,
 "tgtext": "BREAKING: $1,000,000,000 liquidated from the crypto market in the past 10 minutes.\n\n$BTC falls under $74,000\n$ETH falls under $2,125\n$XRP falls under $1.10\n$SOL falls under $90\n\n@WatcherGuru",
 "title": "$1,000,000,000 liquidated from the crypto market in the past 10 minutes.",
@@ -366,6 +367,19 @@
 "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVUhKNVYwclZ5NzBYMnJhbnRRaFZuNE5LWXJfMXNtM2RUUktzbDYzc2tRd1BHbktxVVBYX0psRVk5ZS04ekFiNlRfdlp6Q3YzYktxUlpLYUJXbHdWZUNDeUtJVGY0M1VrMm8tTEtBSklBM3RGMU5lMkdicjRyUEtWUEx5bkUxVzYxWmdVMUpoMW5qSmcyaVFsc0Z0T3lpbjhnNDVNMHZDOXVVZXROUldiSFZOQ0I5RXEtZnBZ?oc=5",
 "urls": []
 },
+"2509365d4dcb": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794188166.7333965,
+"t0": 1794187679.0,
+"tgtext": "Machi(@machibigbrother) got fully liquidated again during the market crash!\n\nHe withdrew his remaining $16.61K from Hyperliquid to papertrade to keep trading.\n\nUnfortunately, he's also lost $1.62M trading on papertrade. \n\nEven after earning $485K in rewards, he's still down $1.14M.\n\nhttps://hypurrscan.io/address/0x020cA66C30beC2c4Fe3861a94E4DB4A498A35872#txs\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41",
+"title": "Machi(@machibigbrother) got fully liquidated again during the market crash!",
+"url": "https://t.me/lookonchainchannel/10954",
+"urls": []
+},
 "271a071d15a2": {
 "coin": "",
 "src": "Hokanews",
@@ -598,7 +612,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794185570.0,
 "tgtext": "U.S. Senator Blumenthal Sends Letters to Binance, Tether, and Trump Family Crypto Firms: Comply with Probe by Deadline or Subcommittee Will Seek Other Means\n\nAccording to a statement on U.S. Senator Richard Blumenthal\u2019s official website, as Ranking Member of the Senate Permanent Subcommittee on Investigations (PSI), Blumenthal has sent letters to Binance, Tether, World Liberty Financial, Fight Fight Fight LLC, and other targets, demanding they submit the requested records and information by January 4, 2027, or the subcommittee will seek other means to ensure their cooperation.\n\nThe investigation into Binance and Tether covers the illicit use of cryptocurrencies and interactions between the Trump administration and crypto companies; the probe into World Liberty Financial and Fight Fight Fight LLC concerns potential conflicts of interest in the Trump family\u2019s crypto businesses. No final conclusions have been reached in the investigations. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Blumenthal gives Binance, Tether and Trump family crypto firms until January 4th to hand over records for investigations.\n\n@WatcherGuru",
 "title": "U.S. Senator Blumenthal Sends Letters to Binance, Tether, and Trump Family Crypto Firms: Comply with Probe by Deadline or Subcommittee Will Seek Other Means",
@@ -657,7 +671,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794176159.0,
 "tgtext": "",
 "title": "Ether price drops 5% amid $343M in liquidations, surpassing Bitcoin's $229M in past 24 hours",
@@ -726,7 +740,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794185324.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 TODAY: President Trump says, \u201cTask Force Iron Gate is in full force\u201d in Iran, and with a historic naval blockade, \u201cvery little gets into, or out of\u201d the country.\n\nNews | Markets | YouTube",
 "title": "TODAY: President Trump says, \u201cTask Force Iron Gate is in full force\u201d in Iran, and with a historic naval blockade, \u201cvery little gets into, or out of\u201d the country.",
@@ -1080,19 +1094,20 @@
 "urls": []
 },
 "6d1812e5ceda": {
-"coin": "",
-"src": "Crypto Economy",
+"coin": "bitcoin",
+"src": "Wu Blockchain",
 "srcs": [
 "Crypto Economy",
 "Nikkei Asia",
 "The Business Times",
-"WSJ"
+"WSJ",
+"Wu Blockchain"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794168360.0,
-"tgtext": "",
-"title": "Can CEXs Ever Be Trusted After Binance\u2019s Massive Hack?",
-"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYnNKemhlQ2JSZzlOMDRfa3Vzc0RuWEY2MUlzcUxfRGlGLTFtX2RBMDNXY0dGelVCNS00TDBJV2ZqeUlVVEJJRjQ1V1dMU3VFb0NoSnVIVGRuN29yV3lJRGpRVXJRZno4ckcyMW5wVFpNOXRTVUFXR1JjME5rVF9BaA?oc=5",
+"tgtext": "Binance Resumes HYPE and APT Withdrawals Ahead of Schedule; BTC, ETH, and Stablecoin Reserves See Noticeable Decline After Hack\n\nBinance announced on November 8 that it has resumed HYPE and APT withdrawals, earlier than previously promised. According to CryptoQuant data as of November 8, since before the October 29 hack incident, Binance\u2019s BTC reserves have fallen from approximately 730k to 673.7k coins, a decrease of about 56k coins (7.7%); ETH reserves have dropped from roughly 3.48M to 3.08M, a decline of about 400k coins (11.5%); and Ethereum-chain stablecoin reserves have decreased from about $41B to $32B, a reduction of roughly $9B (22%). \u2014 link",
+"title": "Binance Resumes HYPE and APT Withdrawals Ahead of Schedule; BTC, ETH, and Stablecoin Reserves See Noticeable Decline After Hack",
+"url": "https://t.me/wublockchainenglish/26741",
 "urls": []
 },
 "6dab0f51c59c": {
@@ -1184,7 +1199,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794168478.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA board launches investigation into CEO Jensen Huang's relationship with Chinese spy after he admits having an affair.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Nvidia $NVDA CEO Jensen Huang sends letter to employees after being targeted by female Chinese spy:\n\n\"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\"\n\n\"I am fully committed to NVIDIA and will work to earn back your confidence.\"\n\n@WatcherGuru\n\ud83d\udea8 LATEST: NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets were compromised.\n\nNews | Markets | YouTube",
 "title": "NVIDIA\u2019s board has launched an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation, while stating it has no reason to believe national security or company secrets",
@@ -1618,7 +1633,7 @@
 "srcs": [
 "Seoul Economic Daily"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794171605.0,
 "tgtext": "",
 "title": "Gopax Halts Trading After Hacking Threats, Raising Doubts",
@@ -1695,7 +1710,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794186419.0,
 "tgtext": "Highlight Clip: Tether CEO: 300 Lines of USDT Code, Used by 700 Million People\n\nTether CEO: 300 Lines of USDT Code, Used by 700 Million People\n\nPaolo Ardoino, CEO of Tether, said at Plan \u20bf Forum 2026 in Lugano that USDT is essentially a smart contract that changed people's lives. Tether now has more than 730 million users and adds 30 million wallets per quarter, faster than any other fintech company, he said. This lets ordinary people in countries with annual inflation as high as 100% use US dollars. \u2014 link",
 "title": "Highlight Clip: Tether CEO: 300 Lines of USDT Code, Used by 700 Million People",
@@ -2300,7 +2315,7 @@
 "Pluang",
 "www.tokenpost.com"
 ],
-"t": 1794187554.8563886,
+"t": 1794188166.7333965,
 "t0": 1794179235.0,
 "tgtext": "",
 "title": "Ether price drops 3.4% in one hour, liquidations hit $217.7M across major exchanges",
@@ -2878,10 +2893,10 @@
 },
 "probs": {
 "07498bf96797": 0.034,
-"0882234f3b08": 0.059,
 "0bbd751171a7": 0.037,
 "107a210b3c50": 0.759,
 "19479676f9da": 0.007,
+"2509365d4dcb": 0.903,
 "35cddcb72de2": 0.055,
 "3694f874ff41": 0.044,
 "3d3d9f7e5a9f": 0.983,
@@ -2891,28 +2906,28 @@
 "478c5f5f9e8f": 0.874,
 "47b0a25b1de7": 0.023,
 "4ff7577edcf9": 0.022,
-"62b600882fdd": 0.013,
-"6b144c3bca64": 0.016,
-"6d1812e5ceda": 0.539,
+"6d1812e5ceda": 0.984,
 "6dab0f51c59c": 0.298,
 "7085682ebf92": 0.136,
+"78b7c0bd6caa": 0.119,
 "7a1a56ca7fcd": 0.31,
-"839fd7dd7ab0": 0.034,
+"839fd7dd7ab0": 0.043,
+"8a404942fc2b": 0.066,
 "8ad4c8b2b87d": 0.042,
 "935d32699a54": 0.341,
 "9372bf0b8fcc": 0.024,
 "9a10defb120b": 0.607,
 "9b0d763fff85": 0.095,
 "9b6992dc473a": 0.073,
+"9bbeec172b9f": 0.102,
 "a04ecfc0605b": 0.051,
-"b79515a48b3d": 0.128,
 "c589639e0b08": 0.027,
-"cc74a00627d6": 0.077,
-"ccaca24b7ea2": 0.036,
+"cc74a00627d6": 0.096,
 "ccee589b2735": 0.118,
 "cd0bb51b0d1f": 0.403,
 "cedee283edb4": 0.021,
-"d4f51b919522": 0.033,
+"d4f51b919522": 0.041,
+"dc275fd0de54": 0.023,
 "dfe557361043": 0.021,
 "e3207d8b7dc5": 0.04,
 "f2b27be91d06": 0.109,
@@ -3592,71 +3607,94 @@
 "price",
 "surpassing"
 ]
+},
+{
+"e": [
+"machi"
+],
+"k": [
+"crash"
+],
+"t": 1794187862.2376945,
+"u": [
+"https://t.me/lookonchainchannel/10954"
+],
+"w": [
+"again",
+"crash",
+"during",
+"fully",
+"got",
+"liquidated",
+"machi",
+"machibigbrother",
+"market"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"6d1812e5ceda",
+53,
+330,
+5
+],
+[
 "3d3d9f7e5a9f",
 44,
-33,
+43,
 2
+],
+[
+"2509365d4dcb",
+35,
+8,
+1
 ],
 [
 "478c5f5f9e8f",
 18,
-37,
+47,
 1
 ],
 [
 "76dcfb9bef4d",
-2,
-318,
+1,
+328,
 2
 ],
 [
 "107a210b3c50",
-23,
-201,
+21,
+211,
 1
 ],
 [
 "9a10defb120b",
 24,
-19,
+29,
 1
 ],
 [
 "435aada611d0",
-74,
-190,
+73,
+200,
 3
-],
-[
-"6d1812e5ceda",
-55,
-320,
-4
 ],
 [
 "cd0bb51b0d1f",
 51,
-139,
+149,
 3
 ],
 [
 "935d32699a54",
-21,
-266,
+20,
+276,
 1
-],
-[
-"7a1a56ca7fcd",
-28,
-279,
-3
 ]
 ],
-"top_at": 1794187554.8563886
+"top_at": 1794188166.7333965
 }
