@@ -279,20 +279,20 @@
 },
 "1555c8e2d151": {
 "coin": "bitcoin",
-"src": "TradingView",
+"src": "bloomingbit",
 "srcs": [
 "BeInCrypto",
-"Bitbo",
-"FinanceFeeds",
-"TradingView",
+"The Block",
 "bloomingbit"
 ],
-"t": 1794222879.5232816,
-"t0": 1794201389.0,
+"t": 1794240911.1643295,
+"t0": 1794222790.0,
 "tgtext": "",
-"title": "BTCUSD: Bitcoin Slips Below $74,000 as Sentiment Sours, Liquidations Add Pressure",
-"url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcGt6WFQ2WFo4clpHWVA5TzAxbTlhb1RfZkp5eXBXM0g0b0dkWFFBYXhxSk9UUi1FMlpPbHUtV3NhdnJSLWVDbVcyYjZzS1c3YUtMOFkxQnhuM3g5aFp0NnJXQXRhZVJjR0ZKN05SOGFobTJrZlJXT2tPTjFkTm1jMjVRV0hxd29YWXFSQk52N1dhX2YzbUlzLXEwdzB3aVhhMThHWHVwRkNEcmUtMzRwVXBQT1hOQ2szY09OM3NsSnBjSlhWSW5KNHlVMWhzeTBIMEQ2YUZ1dw?oc=5",
-"urls": []
+"title": "Bitcoin Closes Below 50-Week Moving Average for First Time in 8 Weeks; 24-Hour Long Liquidations Top $1 Billion",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fRTRaazhSZDRLYy1SZk9DY3FKVlRDU0RHZ3poWThrb1drMHRtcjRYa2NwVGRFSHhHT1hieHQxckw0dXhyVE9OeXl1Rko3Snpyd1BDOQ?oc=5",
+"urls": [
+"https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102"
+]
 },
 "1623aa9ae310": {
 "coin": "",
@@ -806,7 +806,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794236145.0,
 "tgtext": "JUST IN: $1,000,000,000,000 added to the US stock market at open.\n\n@WatcherGuru",
 "title": "$1,000,000,000,000 added to the US stock market at open.",
@@ -871,7 +871,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794229876.0,
 "tgtext": "Avalanche to Serve as Core Ledger for NYSE-Affiliated Tokenized Securities Platform\n\nAva Labs said Avalanche will provide the core blockchain ledger technology for clearing and settlement on an upcoming tokenized securities platform affiliated with the New York Stock Exchange. The platform is designed to support 24/7 trading, clearing and settlement of tokenized equities issued across multiple blockchains, subject to regulatory approval. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 NYSE-affiliated tokenized securities platform to use Avalanche $AVAX for clearing and settlement.\n\n@WatcherGuru\n\ud83d\udd25 BREAKING: NYSE will use Avalanche to settle tokenized stock trades exclusively on its planned 24/7 trading platform, per WSJ.\n\nNews | Markets | YouTube",
 "title": "NYSE will use Avalanche to settle tokenized stock trades exclusively on its planned 24/7 trading platform, per WSJ.",
@@ -1027,11 +1027,11 @@
 "srcs": [
 "CoinCodex",
 "CoinDesk",
+"Coinfomania",
 "Cointelegraph",
-"ComplyAdvantage",
-"StoneX"
+"ComplyAdvantage"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794223260.0,
 "tgtext": "Elliptic: North Korean Hackers Create Meme Tokens on NEAR to Launder Binance Hack Funds\n\nBlockchain analytics firm Elliptic reported that North Korean hackers are creating meme tokens and using DEX liquidity pools to launder funds stolen in the $6.4 billion Binance hack. Between November 5 and 7, the attackers created at least six meme tokens on NEAR, each costing around $90 to launch, and routed approximately 117,000 NEAR ($430,000) through the pools to complicate fund tracing. Elliptic previously identified a similar technique in the laundering of funds stolen in the 2025 Bybit hack. \u2014 link",
 "title": "North Korean Hackers Used Self-Issued Meme Coins to Launder Binance Hack Funds, Moving $430,000",
@@ -1174,6 +1174,28 @@
 "title": "XRP longs face a 3,090% liquidation imbalance amid market stagnation",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdF9XUlNZSlJNQ1h3Sm9jZFkxbjhJOWZiNHM1ajdVZWxaY3puMFNUOU1LeDhILUlUTFNTUURNcWp0ZE9IZF9IN3NoeFVxbmNTVURzZHZhRTMzbGZ2Q2R6UDR3b0t6Qi1vVlJiT3FiS1FaRk5IQWdrQkpvWHFKWWdCUGE2SFlUYmw1WTdOdUx3T0NFVWRnVzRtelVIaWx5RFk?oc=5",
 "urls": []
+},
+"4ae40f3c1ee2": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Bitcoin Magazine",
+"Cointelegraph",
+"Decrypt",
+"The Block",
+"Watcher.Guru"
+],
+"t": 1794240911.1643295,
+"t0": 1794219707.0,
+"tgtext": "Coinbase wins final OCC approval for national trust bank charter\n\nCoinbase has received final approval from the U.S. Office of the Comptroller of the Currency for its national trust bank charter, following conditional approval in April. The charter will support the company\u2019s crypto custody, payments and potential stablecoin issuance or administration activities, but does not allow it to take ordinary deposits or make loans like a traditional commercial bank. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $410 billion PNC Bank partners with Coinbase to offer crypto stablecoin payments.\n\n@WatcherGuru",
+"title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
+"url": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
+"urls": [
+"https://cointelegraph.com/news/coinbase-occ-approval-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
+"https://bitcoinmagazine.com/news/coinbase-full-occ-national-trust-charter",
+"https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466"
+]
 },
 "4c1be5f0837a": {
 "coin": "",
@@ -1876,6 +1898,21 @@
 "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYUF0MDBGTXNnQkVDVU9QZzJxMDgzcEhqMFpIb2g4LWZNd3dubDNlLXpFdThQMEZlSW9VZUJ3UkVyenJDaUdiSkN4MVkzYXRzTEE0VU1KVFA2Wlg4RmF2eC00VVRldVVJZmhFd1J5anRJbFpBeC1qUVBtLW9TMDBPWmZ5QnAyQQ?oc=5",
 "urls": []
 },
+"7f3f0ec617bb": {
+"coin": "",
+"src": "The Record from Recorded Future News",
+"srcs": [
+"2-Spyware",
+"BleepingComputer",
+"The Record from Recorded Future News"
+],
+"t": 1794240592.3245203,
+"t0": 1794226573.0,
+"tgtext": "",
+"title": "Ukraine arrests four in $5 million crypto scam targeting Germans",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ySUpJVUR1VlV1YndmUU4tZklYRmh2ZF9OeDZyVGJpOFQxbDhLTjJ5TnpTVm93TVBlaVJPUW9kTnFkck5mQld6UTNoMUltQ2hRbVBVaVBOeEZvNUVUQVVCaWVzM1NETHJkTElybkQzM2hka0E?oc=5",
+"urls": []
+},
 "7f5bb1ce98f8": {
 "coin": "bitcoin",
 "src": "The Crypto Times",
@@ -2022,7 +2059,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794220435.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea President Trump says he \"knows nothing\" of UAE-linked investment in his family crypto firm.\n\n@WatcherGuru",
 "title": "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings",
@@ -2255,11 +2292,12 @@
 "srcs": [
 "Cointelegraph",
 "Watcher.Guru",
+"Wu Blockchain",
 "https://genfinity.io/"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794233817.0,
-"tgtext": "JUST IN: $13 trillion Charles Schwab adds Solana, Avalanche, and Chainlink trading to its crypto accounts.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: $13T Charles Schwab adds trading for Solana $SOL, Avalanche $AVAX and Chainlink $LINK.\n\nNews | Markets | YouTube",
+"tgtext": "JUST IN: $13 trillion Charles Schwab adds Solana, Avalanche, and Chainlink trading to its crypto accounts.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: $13T Charles Schwab adds trading for Solana $SOL, Avalanche $AVAX and Chainlink $LINK.\n\nNews | Markets | YouTube\nLargest U.S. Retail Brokerage Charles Schwab Adds Spot Trading for SOL, AVAX and LINK\n\nCharles Schwab, the largest U.S. retail brokerage, announced on November 9 that its Schwab Crypto platform has added spot trading for Solana (SOL), Avalanche (AVAX), and Chainlink (LINK), bringing its supported assets to five alongside BTC and ETH. The platform launched early access in May and opened to all eligible retail clients in October, charging a 0.75% trading fee. The service is currently available only to eligible customers in select U.S. states, excluding New York and Louisiana, and is not available outside the United States. \u2014 link",
 "title": "$13T Charles Schwab adds trading for Solana SOL, Avalanche AVAX and Chainlink LINK.",
 "url": "https://t.me/cointelegraph/73137",
 "urls": []
@@ -2511,7 +2549,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794231332.0,
 "tgtext": "BitMine Nears 5% of ETH Supply After Adding 9,587 ETH\n\nBitMine said it acquired 9,587 ETH over the past week, bringing total holdings to 6,070,092 ETH, or about 4.97% of Ethereum\u2019s supply. The company has 5,227,037 ETH staked and said fully staking its ETH holdings could generate about $359 million in annualized rewards at its trailing seven-day staking yield of 2.65%. Total crypto, cash, marketable securities and other investments stand at about $14.3 billion. \u2014 link",
 "title": "Tom Lee's Bitmine nears 5% Ethereum supply target with $20 million ETH buy as he predicts tokenization and AI 'supercycle'",
@@ -2888,7 +2926,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794229044.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' buys 1,037 Bitcoin worth $77 million.\n\n@WatcherGuru",
 "title": "\u2018Connecting the dots\u2019: Michael Saylor\u2019s Strategy buys another 1,036 bitcoin for $82 million as holdings top 850,000 BTC",
@@ -3358,7 +3396,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794240253.5550091,
+"t": 1794240911.1643295,
 "t0": 1794227923.0,
 "tgtext": "Two wallets, possibly belonging to the same whale, spent $9.08M to buy 4,312 $ETH at an average price of $2,106.\n\nhttps://arkm.com/explorer/address/0x69c59DBc3bdc6a2934282b8C4348dd9944A829b5\nhttps://arkm.com/explorer/address/0xcfD57F8a9D3ABf61bD59D553a46fDb74A87BF899",
 "title": "Two wallets, possibly belonging to the same whale, spent $9.08M to buy 4,312 ETH at an average price of $2,106.",
@@ -3377,6 +3415,28 @@
 "title": "Pump.fun Token Price Slides 10.2% as Long Liquidations Outpace Shorts",
 "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlZ1UHNDQmhONUFZZnAycU1pMFhOT0ZMUE90WGRzelZub0RNRGp6TGZpODN2VlJRV25lSXR1dEJtTVV0eEh0ZHhLazJlX3NzVjJnWEFvUGliQWZ5SGxoNE5qS09SSEhXX0E5cHJIMTg3R1ZCSmtXZllYSERiSDMyaG1CUXQtWVJKa2VDS0thcWlRTzZ2NVZ0UV9adHBtc0JHZTN6QXRkbmQtUU0?oc=5",
 "urls": []
+},
+"dadf50d21a78": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Bitcoin Magazine",
+"Cointelegraph",
+"Decrypt",
+"The Block",
+"Watcher.Guru"
+],
+"t": 1794240592.3245203,
+"t0": 1794219041.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Coinbase has secured a full national trust bank charter from the U.S. Office of the Comptroller of the Currency.\n\nNews | Markets | YouTube\nCoinbase wins final OCC approval for national trust bank charter\n\nCoinbase has received final approval from the U.S. Office of the Comptroller of the Currency for its national trust bank charter, following conditional approval in April. The charter will support the company\u2019s crypto custody, payments and potential stablecoin issuance or administration activities, but does not allow it to take ordinary deposits or make loans like a traditional commercial bank. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $410 billion PNC Bank partners with Coinbase to offer crypto stablecoin payments.\n\n@WatcherGuru",
+"title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
+"url": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
+"urls": [
+"https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
+"https://bitcoinmagazine.com/news/coinbase-full-occ-national-trust-charter",
+"https://cointelegraph.com/news/coinbase-occ-approval-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466"
+]
 },
 "db6abd960e71": {
 "coin": "bitcoin",
@@ -3846,45 +3906,45 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
+"0121344d2402": 0.118,
 "0f4567ea6e12": 0.284,
+"1555c8e2d151": 0.896,
 "278d60e527ca": 0.534,
+"29b90bdb0a3f": 0.22,
 "2c8b3b648732": 0.048,
-"329dd6e778d6": 0.947,
 "36a958da6624": 0.054,
 "3c8b40fe126b": 0.954,
 "3d6e4cdde610": 0.05,
 "42f9b1262ac4": 0.247,
-"43fc343cde9b": 0.871,
+"43fc343cde9b": 0.857,
+"4ae40f3c1ee2": 0.941,
 "55d31b265b36": 0.268,
 "5a658fcbdb1c": 0.088,
 "5e9a4b592e01": 0.451,
 "5f98b40b3271": 0.042,
 "61e0f1f92fcb": 0.036,
 "666bfebc25b7": 0.08,
-"7c23dc796c8b": 0.444,
+"7c23dc796c8b": 0.68,
 "7f3f0ec617bb": 0.696,
 "84759de3ad65": 0.064,
 "864b3a71d06c": 0.059,
 "86989120b052": 0.935,
 "87e184d0a583": 0.038,
 "911fa30fc6db": 0.203,
-"9598d64a0594": 0.736,
-"9863c5c818a3": 0.063,
-"9b998722c7db": 0.146,
+"9598d64a0594": 0.995,
+"99dc2bc3c1d4": 0.111,
 "9d90cf7a026a": 0.048,
 "9e27dc682fd5": 0.095,
 "a4578a6b599a": 0.816,
 "a774bbc45830": 0.284,
-"a9f07966351f": 0.027,
+"a9f07966351f": 0.015,
 "ab27fdf7f7a4": 0.394,
-"ae220b200cdc": 0.117,
 "b6f411df497e": 0.161,
 "b9315c308bcd": 0.982,
-"bfa6930f10af": 0.06,
-"cc1dfb0d52eb": 0.229,
-"d162e31f1d6d": 0.877,
 "da0aaad8af14": 0.967,
-"e96192799d7d": 0.15,
+"e1e91906597f": 0.341,
+"e3ce41440a11": 0.023,
+"e96192799d7d": 0.32,
 "fdfdccb0771e": 0.122
 },
 "sent": [
@@ -5063,65 +5123,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"9598d64a0594",
+46,
+118,
+4
+],
+[
 "b9315c308bcd",
-44,
-187,
+42,
+198,
 3
 ],
 [
 "da0aaad8af14",
-21,
-206,
+20,
+216,
 1
 ],
 [
 "3c8b40fe126b",
 55,
-173,
+184,
 4
 ],
 [
-"329dd6e778d6",
+"4ae40f3c1ee2",
 40,
-360,
+353,
 6
 ],
 [
 "86989120b052",
-28,
-330,
+27,
+341,
 4
 ],
 [
-"d162e31f1d6d",
-63,
-349,
-9
+"1555c8e2d151",
+59,
+302,
+3
 ],
 [
 "43fc343cde9b",
-77,
-283,
-11
+75,
+294,
+13
 ],
 [
 "a4578a6b599a",
 26,
-149,
+160,
 2
 ],
 [
 "3a70332e7b14",
 10,
-68,
+79,
 1
-],
-[
-"9598d64a0594",
-36,
-107,
-3
 ]
 ],
-"top_at": 1794240253.5550091
+"top_at": 1794240911.1643295
 }
