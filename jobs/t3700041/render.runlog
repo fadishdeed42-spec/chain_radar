@@ -1,97 +1,109 @@
-  vision OK  hacker typing code dark room | Matches hacker code concept.
-shot 0 0 video hacker typing code dark room
-  vision NO  bank vault door | Image shows sea water, not a bank vault.
+  vision NO  bank vault door | Shows water and rocks, not a bank vault.
   vision NO  bank vault door | Shows gold bars instead of a vault door.
-  vision NO  bank vault door | It shows a regular door with green screen.
-  vision NO  bank vault door | Shows a generic door, not a bank vault.
-  vision NO  About $2.85 billion was frozen | Shows literal winter scene, not frozen money.
-  vision NO  About $2.85 billion was frozen | Uses literal ice instead of financial asset freeze.
-  clip rejected: 6.0s, motion 0.9 4_s0.mp4
-  vision NO  north korea flag | Shows night city traffic, not North Korea flag.
-  vision NO  About $2.85 billion was frozen | Shows literal frozen landscape instead of financial assets.
-shot: no match for 4 0 bank vault door
+  vision NO  bank vault door | It shows a standard door, not a bank vault.
+  vision NO  bank vault door | Shows generic bright doorway, not a bank vault.
   vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-  vision NO  north korea flag | Shows water lilies, not North Korea.
-  vision OK  money cash counting hands | Hands counting cash matches the voiceover.
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision OK  money cash counting hands | Hands counting cash matches the narration.
 shot 1 0 video money cash counting hands
-  vision OK  digital network data flow | Abstract digital data flow matches the context.
-shot 5 0 video digital network data flow
-  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  north korea flag | Image shows a city at night, not North Korea.
+  vision NO  hacker typing code dark room | Shows code, but not North Korea making anything.
+  vision NO  north korea flag | Shows water lilies, not North Korea.
+  vision NO  hacker typing code dark room | Abstract digital lights, not a hacker typing code.
+  vision NO  digital network data flow | Shows abstract digital data flow, not money.
   vision NO  north korea flag | Shows India flag, not North Korea.
-  clip rejected: 6.0s, motion 1.2 5_s1.mp4
-  vision NO  blockchain network | Shows mining, not crypto wallets
-  vision NO  cryptocurrency coins gold | Shows bitcoin instead of meme coins.
-  clip rejected: 6.0s, motion 1.2 5_s1.mp4
+  vision NO  hacker typing code dark room | Abstract digital graphic, not a hacker typing code.
   vision NO  north korea flag | This is the Mexican flag, not North Korea.
-  vision NO  blockchain network | Shows phone usage, not 20000 wallets.
-  vision: no answer -> clip not used
-shot 0 1 video cryptocurrency coins gold
-  vision NO  blockchain network | Shows bitcoin coins, not crypto wallets.
+  vision NO  hacker typing code dark room | No North Korea context shown, only code.
+  vision NO  digital network data flow | shows computer hardware, not monetary amount
   vision NO  Investigators blame North Korea | Shows Seoul, South Korea, not North Korea.
   vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-  vision NO  server room lights | Unrelated image, does not show server room
+  vision NO  North Korea is making | Shows someone playing a guitar.
+  vision NO  digital network data flow | Shows circuits, not financial data or money.
+  vision NO  digital network data flow | Shows circuit board, not money amount.
+  vision NO  North Korea is making | Unrelated cooking scene, not about North Korea.
+  vision NO  North Korea is making | Incomplete sentence; unclear what North Korea is making.
+shot: no match for 0 0 hacker typing code dark room
+  vision gemini-flash-latest 503
+  vision NO  About $3 billion | Earth image does not show three billion dollars.
+  vision NO  About $3 billion | Shows abstract space, not three billion dollars.
+  vision NO  About $2.85 billion was frozen | Shows winter forest instead of frozen money.
+  vision NO  About $2.85 billion was frozen | Uses literal ice for financial asset freezing.
+  vision OK  cryptocurrency coins gold | Shows gold cryptocurrency coins fitting meme coins
+shot 0 1 video cryptocurrency coins gold
+  clip rejected: 6.0s, motion 0.9 4_s0.mp4
+  vision NO  About $3 billion | The image is completely black.
+  vision NO  blockchain network | Shows mining, not crypto wallets
+  vision gemini-flash-latest 503
+  vision NO  blockchain network | Shows phone usage, not 20000 wallets.
+  vision NO  About $3 billion | Abstract graphic does not show money.
+shot: no match for 5 0 digital network data flow
+  clip rejected: 6.0s, motion 1.2 5_s1.mp4
+  vision NO  blockchain network | Shows bitcoin coins, not crypto wallets.
+  clip rejected: 6.0s, motion 1.2 5_s1.mp4
+  vision err ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+  vision NO  server room lights | Does not show server room lights.
+  vision NO  blockchain network | Shows abstract blockchain network, not crypto wallets
   clip rejected: 6.0s, motion 0.5 5_s1.mp4
-  vision NO  blockchain network | Shows a blockchain network, not crypto wallets.
-  vision NO  Investigators blame North Korea | Shows a city sunset, not investigators or blame.
-  vision NO  Now they are moving it | Only shows clouds, not moving anything.
-  vision NO  Now they are moving it | Vague abstract interior shot, lacks context.
+  vision NO  Investigators blame North Korea | Shows a city sunset, not investigators.
   vision NO  Over 20,000 wallets | Shows a clock instead of wallets.
-  vision NO  Now they are moving it | Vague pronoun reference, shows only a snail.
-  vision NO  Investigators blame North Korea | Only shows a generic city night aerial view.
   vision NO  Over 20,000 wallets | Shows cash, not wallets.
-  vision NO  Over 20,000 wallets | Shows cash stacks, not wallets
-  vision NO  Now they are moving it | Space image lacks context for moving object.
-shot: no match for 5 1 server room lights
-  vision NO  Investigators blame North Korea | Shows flowers, unrelated to North Korea investigators.
-shot: no match for 3 0 north korea flag
-  clip rejected: 6.0s, motion 0.0 8_s0.mp4
-  vision NO  bitcoin coins | Shows futuristic interface, not bitcoin coins.
-  vision NO  bitcoin coins | Shows a clock and generic coins, not bitcoin.
-  clip rejected: 6.0s, motion 0.2 7_s0.mp4
+  vision NO  Now they are moving it | Only shows clouds, irrelevant to the statement.
+  vision NO  Over 20,000 wallets | Shows cash instead of wallets.
+  vision NO  About $2.85 billion was frozen | Shows frozen landscape instead of financial assets.
+shot: no match for 4 0 bank vault door
+  vision NO  Now they are moving it | Vague corridor does not show moving it
+  vision NO  Now they are moving it | Too vague, just shows a snail.
   vision: no answer -> clip not used
-shot 9 0 video crypto trading chart
+shot 3 0 video north korea flag
+  clip rejected: 6.0s, motion 0.0 8_s0.mp4
+  vision NO  stock trading screen | Shows a smartphone, not a trading screen.
   vision: no answer -> clip not used
 shot 6 0 video blockchain network
-  clip rejected: 6.0s, motion 1.2 9_s1.mp4
-  vision NO  stock trading screen | Shows a smartphone, not a stock trading screen.
   vision: no answer -> clip not used
 shot 7 0 video bitcoin coins
-  vision NO  hacker hoodie computer night | Shows code, not hackers in hoodie.
-  vision NO  computer code screen | Shows a programmer, not creating themselves literally.
-  vision NO  hacker hoodie computer night | Abstract digital pattern missing hacker and computer elements.
-  vision NO  computer code screen | Shows code, not creating themselves literally.
-  vision NO  hacker hoodie computer night | abstract digital pattern, lacks hacker or computer
+  vision NO  Now they are moving it | Space image does not show moving it.
+shot: no match for 5 1 server room lights
+  vision NO  hacker hoodie computer night | Shows code, not hackers or computers.
+  vision OK  crypto trading chart | Shows financial charts matching crypto trading context.
+shot 9 0 video crypto trading chart
   clip rejected: 6.0s, motion 1.1 10_s0.mp4
-  vision NO  computer code screen | Abstract statement does not show code screen literally.
-  vision NO  They have done this before | Vague phrase does not match castle landscape.
+  clip rejected: 6.0s, motion 1.2 9_s1.mp4
+  vision NO  money transfer digital | Shows a clock and coins, not digital transfer.
   vision NO  money transfer digital | Shows fire, not money or digital transfer.
-  vision NO  computer code screen | Abstract code does not literally match 'they create themselves'
-  vision NO  stock trading screen | Shows YouTube buttons and ninja animation, unrelated.
-  vision NO  stock trading screen | Shows a dislike icon, not stock trading.
-  vision OK  money transfer digital | Shows US currency detail for money amount.
+  vision NO  hacker hoodie computer night | Lacks hacker hoodie and night setting.
+  vision NO  stock trading screen | Shows cartoon elements, not stock trading screens.
+  vision NO  hacker hoodie computer night | Man in office, not hacker hoodie at night
+  vision NO  stock trading screen | Shows a thumbs down icon on green screen
+  vision OK  money transfer digital | Shows US currency for monetary amount
 shot 9 1 video money transfer digital
-  vision NO  They have done this before | Generic nature scene does not fit abstract statement.
-  vision NO  they create themselves | Shows a sleeping cat, not self-creation.
   vision NO  They trade them through pools | Shows wheat field, not trading pools.
+  vision NO  ethereum coin | Shows futuristic interface, not ethereum coin.
+  vision NO  They have done this before | Vague phrase does not match castle landscape.
   vision NO  ethereum coin | Shows piggy bank, not ethereum coin.
-  vision NO  They have done this before | Abstract statement cannot be literally depicted.
+  vision NO  They trade them through pools | Shows literal swimming pool, not trading pools.
+  vision NO  They have done this before | Abstract statement does not match grass.
+  vision NO  ethereum coin | Generic coin, not clearly an ethereum coin.
+  vision gemini-flash-lite-latest 503
+  vision: no answer -> clip not used
+shot 7 1 video computer code screen
+  vision NO  They have done this before | Abstract text cannot be shown literally.
   clip rejected: 6.0s, motion 0.6 10_s0.mp4
 shot: no match for 10 0 hacker hoodie computer night
-  vision NO  person looking at phone at night | Shows night landscape, not someone looking at phone.
-  vision gemini-flash-lite-latest 503
+  vision NO  ethereum coin | Cartoon style is not suitable for real events
+  vision NO  After the Bybit hack | Abstract digital globe doesn't show Bybit hack.
   vision: no answer -> clip not used
 shot 8 0 video stock trading screen
   vision: no answer -> clip not used
-shot 11 0 video ethereum coin
-  vision: no answer -> clip not used
-shot 7 1 video computer code screen
-  vision: no answer -> clip not used
 shot 12 0 video person looking at phone at night
-  vision NO  phone crypto app | Shows an email app instead of crypto.
-  vision NO  phone crypto app | Shows social media app, not crypto.
-  vision OK  phone crypto app | Phone app interaction matches crypto context.
+  vision NO  After the Bybit hack | Abstract background, not showing the Bybit hack.
+  vision OK  phone crypto app | Phone app shown fits money context.
 shot 8 1 video phone crypto app
-media files: 9
+  vision NO  After the Bybit hack | Shows a heart, unrelated to Bybit hack.
+  vision NO  After the Bybit hack | Shows a lighthouse, not related to Bybit hack.
+shot: no match for 11 0 ethereum coin
+media files: 8
 $ /opt/hostedtoolcache/Python/3.11.18/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/t3700041 sfx
 Traceback (most recent call last):
   File "/home/runner/work/chain_radar/chain_radar/studio/auto.py", line 1052, in <module>
