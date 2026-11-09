@@ -1,0 +1,106 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  0%|          | 4.00M/1.18G [00:00<00:30, 41.5MB/s]  1%|▏         | 17.2M/1.18G [00:00<00:12, 98.4MB/s]  2%|▏         | 26.8M/1.18G [00:00<00:23, 52.8MB/s]  3%|▎         | 33.4M/1.18G [00:00<00:22, 54.3MB/s]  4%|▎         | 43.9M/1.18G [00:00<00:17, 68.5MB/s]  4%|▍         | 51.6M/1.18G [00:00<00:22, 54.2MB/s]  6%|▌         | 66.8M/1.18G [00:01<00:15, 77.7MB/s]  7%|▋         | 89.1M/1.18G [00:01<00:10, 116MB/s]   9%|▉         | 113M/1.18G [00:01<00:07, 151MB/s]  11%|█         | 132M/1.18G [00:01<00:06, 163MB/s] 13%|█▎        | 151M/1.18G [00:01<00:06, 172MB/s] 14%|█▍        | 169M/1.18G [00:01<00:06, 170MB/s] 16%|█▌        | 196M/1.18G [00:01<00:05, 200MB/s] 18%|█▊        | 216M/1.18G [00:01<00:07, 130MB/s] 19%|█▉        | 232M/1.18G [00:02<00:09, 111MB/s] 20%|██        | 245M/1.18G [00:02<00:09, 109MB/s] 22%|██▏       | 267M/1.18G [00:02<00:07, 133MB/s] 24%|██▎       | 286M/1.18G [00:02<00:06, 148MB/s] 25%|██▌       | 302M/1.18G [00:02<00:06, 146MB/s] 26%|██▋       | 317M/1.18G [00:02<00:06, 140MB/s] 29%|██▊       | 343M/1.18G [00:02<00:05, 174MB/s] 31%|███       | 370M/1.18G [00:02<00:04, 203MB/s] 33%|███▎      | 395M/1.18G [00:03<00:03, 218MB/s] 35%|███▍      | 417M/1.18G [00:03<00:04, 197MB/s] 36%|███▋      | 437M/1.18G [00:03<00:04, 186MB/s] 38%|███▊      | 456M/1.18G [00:03<00:04, 191MB/s] 39%|███▉      | 475M/1.18G [00:03<00:04, 184MB/s] 41%|████      | 496M/1.18G [00:03<00:03, 191MB/s] 43%|████▎     | 514M/1.18G [00:03<00:05, 141MB/s] 45%|████▍     | 536M/1.18G [00:03<00:04, 160MB/s] 47%|████▋     | 561M/1.18G [00:04<00:03, 185MB/s] 49%|████▉     | 587M/1.18G [00:04<00:03, 206MB/s] 51%|█████     | 612M/1.18G [00:04<00:02, 220MB/s] 53%|█████▎    | 638M/1.18G [00:04<00:02, 235MB/s] 55%|█████▍    | 661M/1.18G [00:04<00:02, 238MB/s] 57%|█████▋    | 685M/1.18G [00:04<00:02, 185MB/s] 59%|█████▊    | 705M/1.18G [00:04<00:03, 168MB/s] 60%|██████    | 723M/1.18G [00:04<00:03, 154MB/s] 61%|██████▏   | 739M/1.18G [00:05<00:03, 152MB/s] 63%|██████▎   | 754M/1.18G [00:05<00:03, 138MB/s] 64%|██████▍   | 774M/1.18G [00:05<00:02, 154MB/s] 66%|██████▋   | 799M/1.18G [00:05<00:02, 181MB/s] 68%|██████▊   | 823M/1.18G [00:05<00:02, 199MB/s] 70%|███████   | 845M/1.18G [00:05<00:01, 208MB/s] 72%|███████▏  | 866M/1.18G [00:05<00:01, 210MB/s] 74%|███████▎  | 886M/1.18G [00:05<00:01, 180MB/s] 75%|███████▌  | 905M/1.18G [00:06<00:02, 135MB/s] 76%|███████▋  | 920M/1.18G [00:06<00:02, 130MB/s] 78%|███████▊  | 939M/1.18G [00:06<00:01, 145MB/s] 79%|███████▉  | 954M/1.18G [00:06<00:01, 137MB/s] 81%|████████  | 971M/1.18G [00:06<00:01, 146MB/s] 83%|████████▎ | 0.98G/1.18G [00:06<00:01, 186MB/s] 85%|████████▍ | 1.00G/1.18G [00:06<00:01, 190MB/s] 86%|████████▋ | 1.01G/1.18G [00:06<00:00, 191MB/s] 88%|████████▊ | 1.04G/1.18G [00:07<00:00, 207MB/s] 90%|████████▉ | 1.06G/1.18G [00:07<00:00, 199MB/s] 92%|█████████▏| 1.08G/1.18G [00:07<00:00, 221MB/s] 94%|█████████▍| 1.11G/1.18G [00:07<00:00, 237MB/s] 96%|█████████▋| 1.13G/1.18G [00:07<00:00, 243MB/s] 98%|█████████▊| 1.16G/1.18G [00:07<00:00, 183MB/s]100%|██████████| 1.18G/1.18G [00:08<00:00, 157MB/s]
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+phonetic gemini-flash-latest 503
+phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+json 8225e7363c1a
+   take 1: score -1.27  wer 0.00  end +0.0st  3.0w/s  rushed ['making']  heard: North Korea is making its own meme coins.
+   take 2: score -1.23  wer 0.00  end +0.0st  3.0w/s  rushed ['making']  heard: North Korea is making its own meme coins.
+   take 3: score -1.71  wer 0.12  end +0.0st  2.9w/s  rushed ['making']  heard: North Korea is making its own mean coins.
+   take 4: score -1.45  wer 0.00  end +0.0st  3.1w/s  rushed ['making']  heard: North Korea is making its own meme coins.
+scene 1: 2.65s ex 0.62  chosen wer 0.00
+   take 1: score -1.21  wer 0.20  end +0.0st  2.6w/s  heard: to hide stolen finance money.
+   take 2: score -2.16  wer 0.33  end +0.0st  2.3w/s  heard: to hide stolen by man's money.
+   take 3: score -1.23  wer 0.20  end +0.0st  2.5w/s  heard: to hide stolen finance money.
+   take 4: score -1.24  wer 0.20  end +0.0st  2.5w/s  heard: to hide stolen finance money.
+   phonetic variant: To hide stolen by-nanse money.
+   take P1: score -2.45  wer 0.33  1.9w/s  heard: to hide stolen by Nancy A. Money.
+   take P2: score -1.74  wer 0.27  2.8w/s  heard: to hide stolen by Nance money.
+   take P3: score -2.04  wer 0.33  2.7w/s  heard: to hide stolen by non-say money.
+   take R1: wer 0.27  heard: to hide stolen by Nance money.
+   take R2: wer 0.00  heard: to hide stolen binance money.
+scene 2: 2.00s ex 0.62  chosen wer 0.00
+   take 1: score -0.94  wer 0.00  end +0.0st  2.4w/s  rushed ['hackers']  heard: October 29th, hackers took $6.4 billion from Binance in under four hou
+   take 2: score -0.84  wer 0.00  end +0.0st  2.5w/s  rushed ['hackers']  heard: October 29th, hackers took $6.4 billion from Binance in under four hou
+   take 3: score -1.21  wer 0.06  end +0.0st  2.7w/s  rushed ['hackers']  heard: October 29th, hackers took $6.4 billion from finance in under four hou
+   take 4: score -0.64  wer 0.06  end +0.0st  2.2w/s  heard: October 29th, hackers took $6.4 billion from finance in under four hou
+   phonetic variant: October twenty-ninth. Hackers took six point four billion dollars from bih-nance in under 
+   take P1: score -0.64  wer 0.09  2.4w/s  heard: October 29th, hackers took $6.4 billion from Bish Nuns in under four h
+   take P2: score -0.66  wer 0.06  2.1w/s  heard: October 29th, hackers took $6.4 billion from Bihanans in under four ho
+   take P3: score -0.93  wer 0.12  2.3w/s  heard: October 29th, hackers took $6.4 billion from Beknan-Sinn under four ho
+scene 3: 6.94s ex 0.62  chosen wer 0.06
+   take 1: score -0.17  wer 0.00  end +0.0st  2.3w/s  heard: Investigators blame North Korea.
+   take 2: score +1.66  wer 0.00  end -5.3st  2.0w/s  heard: Investigators blame North Korea.
+scene 4: 1.96s ex 0.62  chosen wer 0.00
+   take 1: score -0.39  wer 0.00  end +2.1st  2.9w/s  heard: About $2.85 billion was frozen in time.
+   take 2: score -0.44  wer 0.00  end +0.0st  3.0w/s  heard: About $2.85 billion was frozen in time.
+   take 3: score -0.13  wer 0.00  end +0.2st  2.4w/s  heard: About $2.85 billion was frozen in time.
+scene 5: 4.56s ex 0.62  chosen wer 0.00
+   take 1: score -2.50  wer 0.00  end +0.0st  3.2w/s  rushed ['billion', 'moving']  heard: About $3 billion is still out there. Now they are moving it.
+   take 2: score -0.15  wer 0.00  end +0.0st  2.9w/s  heard: About $3 billion is still out there. Now they are moving it.
+   take 3: score -1.52  wer 0.00  end +0.0st  3.2w/s  rushed ['billion']  heard: About $3 billion is still out there. Now they are moving it.
+   take 4: score -0.12  wer 0.00  end +0.0st  2.4w/s  heard: About $3 billion is still out there. Now they are moving it.
+scene 6: 5.42s ex 0.62  chosen wer 0.00
+   take 1: score -1.16  wer 0.00  end +5.2st  1.4w/s  heard: Over 20,000 wallets, 16 blockchains.
+   take 2: score +1.41  wer 0.00  end -2.4st  1.6w/s  heard: over 20,000 wallets, 16 blockchains,
+scene 7: 3.71s ex 0.62  chosen wer 0.00
+   take 1: score -2.41  wer 0.00  end -0.8st  2.6w/s  rushed ['newest', 'worthless', 'create']  heard: The newest trick, worthless meme coins they create themselves.
+   take 2: score -0.30  wer 0.11  end -3.4st  2.5w/s  rushed ['create', 'themselves.']  heard: The newest trick, worthless mean coins they create themselves.
+   take 3: score -3.22  wer 0.00  end -1.0st  2.6w/s  rushed ['newest', 'worthless', 'create', 'themselves.']  heard: The newest trick, worthless meme coins they create themselves.
+   take 4: score -3.62  wer 0.11  end +5.3st  2.4w/s  rushed ['newest', 'create', 'themselves.']  heard: The newest trick, worthless mean coins they create themselves.
+   take R1: wer 0.11  heard: The newest trick, worthless mean coins they create themselves.
+   take R2: wer 0.11  heard: The newest trick, worthless mean coins they create themselves.
+   take R3: wer 0.00  heard: The newest trick, worthless meme coins, they create themselves.
+scene 8: 3.81s ex 0.62  chosen wer 0.00
+   take 1: score -2.81  wer 0.00  end -0.3st  3.0w/s  rushed ['through', 'wallet', 'wallet.']  heard: They trade them through pools.  The money never goes wallet to wallet.
+   take 2: score +0.01  wer 0.00  end -1.5st  3.0w/s  rushed ['through', 'wallet.']  heard: They trade them through pools.  The money never goes wallet to wallet.
+   take 3: score -1.45  wer 0.00  end +0.0st  3.1w/s  rushed ['through']  heard: They trade them through pools, the money never goes wallet to wallet.
+   take 4: score -1.84  wer 0.00  end +0.0st  2.9w/s  rushed ['through', 'wallet.']  heard: They trade them through pools. The money never goes wallet to wallet.
+scene 9: 4.00s ex 0.62  chosen wer 0.00
+   take 1: score +1.48  wer 0.09  end -1.6st  2.6w/s  heard: On NEAR alone, six homemade tokens, about $430,000 pushed through.
+   take 2: score -0.77  wer 0.09  end +0.0st  2.9w/s  heard: On NEAR alone, six homemade tokens, about $430,000 pushed through.
+   take 3: score -0.78  wer 0.12  end +0.0st  2.7w/s  heard: On NER alone, six homemade tokens.  About $430,000 pushed through.
+   take 4: score -0.58  wer 0.09  end +0.0st  2.5w/s  heard: On NEAR alone, six homemade tokens.  About $430,000 pushed through.
+   take R1: wer 0.09  heard: On NEAR alone, six homemade tokens.  About $430,000 pushed through.
+   take R2: wer 0.18  heard: On any AR alone, six homemade tokens, about $430,000 pushed through.
+   take R3: wer 0.09  heard: On NEAR alone, six homemade tokens.  About $430,000 pushed through.
+   take R4: wer 0.18  heard: on any AR alone, six homemade tokens.  About $430,000 pushed through..
+scene 10: 6.52s ex 0.62  chosen wer 0.09
+   take 1: score -0.42  wer 0.00  end +0.0st  3.0w/s  heard: They have done this before.
+   take 2: score -1.04  wer 0.00  end +0.0st  3.3w/s  heard: They have done this before.
+   take 3: score +1.51  wer 0.00  end -3.8st  3.0w/s  heard: They have done this before.
+scene 11: 1.64s ex 0.62  chosen wer 0.00
+   take 1: score -0.71  wer 0.10  end +0.0st  2.8w/s  heard: After the Bibid hack, 499,000 Ether vanished in 10 days.
+   take 2: score -2.05  wer 0.13  end -0.1st  3.0w/s  rushed ['either']  heard: After the buy bit hack, 499,000 either vanished in 10 days.
+   take 3: score -0.51  wer 0.07  end +0.0st  2.4w/s  heard: After the buy bit hack, 499,000 ether vanished in 10 days.  //
+   take 4: score -0.05  wer 0.00  end +0.0st  2.5w/s  heard: After the Bybit hack, 499,000 ether vanished in 10 days.
+   phonetic variant: After the buy-bit hack, four hundred ninety-nine thousand ether vanished in ten days.
+   take P1: score -0.83  wer 0.10  2.9w/s  heard: After the bibit hack, 499,000 ether vanished in 10 days.
+   take P2: score -0.21  wer 0.00  2.3w/s  heard: After the Bybit hack, 499,000 ether vanished in 10 days.
+scene 12: 5.16s ex 0.62  chosen wer 0.00
+   take 1: score -2.68  wer 0.00  end +0.0st  3.6w/s  rushed ['strange']  heard: So when a strange new coin appears overnight, ask who made it.
+   take 2: score -1.49  wer 0.00  end +0.0st  3.5w/s  heard: So when a strange new coin appears overnight, ask who made it.
+   take 3: score -2.33  wer 0.00  end +0.0st  3.5w/s  rushed ['overnight,']  heard: So when a strange new coin appears overnight, ask who made it.
+   take 4: score -2.67  wer 0.00  end +0.0st  3.6w/s  rushed ['overnight,']  heard: So when a strange new coin appears overnight, ask who made it?
+   take 5: score -3.48  wer 0.00  end +0.0st  3.6w/s  rushed ['strange', 'appears']  heard: So when a strange new coin appears overnight, ask who made it.
+   take 6: score -2.82  wer 0.00  end +0.0st  3.3w/s  rushed ['strange', 'appears']  heard: So when a strange new coin appears overnight, ask who made it.
+scene 13: 3.48s ex 0.62 END  chosen wer 0.00
+   take 1: score -0.36  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 2: score -0.33  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 3: score -1.00  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 4: score -0.23  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+scene 14: 1.81s ex 0.62  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+58.44s, force-aligned 134 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700041/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.8, 0.7, 0.78, 0.8, 0.73, 0.86, 0.64, 0.85, 0.62, 0.56, 0.84, 0.72, 0.93]
