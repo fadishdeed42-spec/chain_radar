@@ -11,7 +11,7 @@ mixed -> jobs/t3700040/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700040/short.mp4 -c:v libx264 -crf 19 -maxrate 6312k -bufsize 12624k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700040/short_s.mp4
 video check: []
 ❌ <b>Video check: problems found</b>
-❌ hook frame: first frame is not a hook: Simple title card, no hook.
+❌ hook frame: first frame is not a hook: Simple title slide, not a strong hook.
 ✅ 6 checks passed (format, loudness, motion, picture, sync, visual)
 $ ffmpeg -y -v error -ss 2.28 -i jobs/t3700040/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700040/sh_00.png
 $ ffmpeg -y -v error -ss 6.85 -i jobs/t3700040/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700040/sh_01.png
