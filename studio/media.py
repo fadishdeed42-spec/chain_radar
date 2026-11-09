@@ -199,9 +199,9 @@ def fetch_shots(job, sb, got, used):
                         try: get(m['url'], os.path.join(job, f))
                         except Exception: continue
                         if not _clip_ok(os.path.join(job, f)): continue
-                        if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq) is True: done = (m, f); break
+                        if _vision_ok(os.path.join(job, f), 'video', sh.get('words', ''), qq) is not False: done = (m, f); break   # can't judge (quota) = keep; the frames are checked before sending
                     if done: break
-                if not done:                                                   # no video matched: a real photo instead
+                if not done and story.settings(sb).get('style') != 'documentary':   # no video matched: a real photo instead (documentary = moving footage only, owner Nov 9)
                     m = pixabay_photo(q, used)
                     if m and take(m):
                         f = f'media/{i}_s{k}.jpg'; get(m['url'], os.path.join(job, f))

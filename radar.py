@@ -2213,6 +2213,7 @@ STANDARD_RULES = """- THE STANDARD (a script that breaks it is rewritten before 
   * every sentence max 14 words; short fragments are great ("61,000 bitcoin. Found in Britain."); a line max 26 words.
   * the hook's first sentence is the shock in max 10 words: the number or the name first. Never a setup.
   * one story: every line connects to the hook. Side news only if the FACTS link it to this story.
+  * one fact per scene: the scene's visual must show what THAT line says. If a line says two different things, split it into two scenes, each with its own visual.
   * time order after the hook; plain words a 12-year-old understands.
   * no questions to the viewer (a 2-word "Those coins?" is fine), no filler, no opinions ("proving", "shocking", "insane", "brutal"),
     no news-speak ("amid", "sparked", "faced", "struck", "panic", "safer assets"), no fake re-hooks ("not the strangest part").

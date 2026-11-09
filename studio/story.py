@@ -203,6 +203,7 @@ EXAG = {  # voice emotion per role (Chatterbox exaggeration): punchier for hooks
     'hype':    {'hook': .95, 'setup': .8, 'turn': .85, 'twist': .95, 'payoff': .95, 'end': .65}}
 EMOTIONS = ('tense', 'shock', 'curious', 'dark', 'funny', 'calm', 'triumph', 'sad')
 EMO_EX = {'tense': .62, 'shock': .76, 'curious': .64, 'dark': .58, 'funny': .74, 'calm': .56, 'triumph': .74, 'sad': .56}   # one narrator: feelings stay in a narrow band so lines don't sound like different readings
+ONE_EX = {'serious': .6, 'mystery': .62, 'funny': .68, 'hype': .7}     # one steady narrator per video
 EMO_GAP = {'shock': .36, 'dark': .34, 'sad': .36, 'tense': .3}                                                           # a beat of silence after heavy lines
 CTA = 'Subscribe for more stories.'                                     # owner (Nov 9): the ending is a subscribe line, the same with or without a chart
 CTA_NOCHART = CTA
@@ -402,12 +403,12 @@ def voice_job(sb):
         checks.append(plain)
         end = i == len(sb['scenes']) - 1
         emo = s.get('emotion') if s.get('emotion') in EMOTIONS else None
-        e = (EMO_EX[emo] if emo and not end else ex['end'] if end else ex[s['role']]) + de     # the line's feeling decides how the voice says it
+        e = ONE_EX.get(sb['tone'], .62) + de                                # owner (Nov 9): ONE energy for the whole video - per-line energy made the tone jump
         g = .5 if end else EMO_GAP.get(emo, .28 if s['role'] in ('twist', 'payoff') else .22)
         scenes.append([text, round(min(.72, max(.56, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .56-.72: one steady narrator, no line over- or under-acted
         plan.append(pl)
     if cta(sb):
-        scenes.append([cta(sb), .7, .3])
+        scenes.append([cta(sb), round(min(.72, max(.56, ONE_EX.get(sb['tone'], .62) + de)), 2), .3])
         plan.append(plan_line(cta(sb))); alts.append(None); checks.append(cta(sb))
     return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .2, 'seed': 7, 'scenes': scenes, 'alt': alts, 'check': checks}, plan
 

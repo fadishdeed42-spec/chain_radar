@@ -54,6 +54,10 @@ for i, s in enumerate(NS):
             tl, _ = sf.read(b_, dtype='float32'); fx = int(.015 * nsr)
             tl[:fx] *= np.linspace(0, 1, fx); hd = seg[:k].copy(); hd[-fx:] *= np.linspace(1, 0, fx)
             seg = np.concatenate([hd, tl])
+    act = np.abs(seg)[np.abs(seg) > .02]                                 # owner (Nov 9): every line at the same loudness (speech parts only)
+    if len(act) > nsr // 10:
+        g_ = min(1.8, max(.55, .14 / float(np.sqrt(np.mean(act ** 2)))))
+        seg = seg * g_; log.append(f'level x{g_:.2f}')
     y = stretch(seg, nsr, f)
     for w in s: words.append([t + (w[0] - a0) * f, t + (w[1] - a0) * f, w[2]])
     pieces += [y, np.zeros(int(gap * nsr), np.float32)]; t += len(y) / nsr + gap
