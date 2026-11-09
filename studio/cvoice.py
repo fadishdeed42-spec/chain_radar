@@ -158,8 +158,8 @@ def run(path):
             ok_end = (sl > 0) if want_up else (sl < -1.0)
             score = 2.0 * ok_end - 6.0 * wer - .6 * abs(wps - target) - 1.5 * max(0, wps - 2.9) - .8 * len(rushed) - (.08 * max(0, sl) if not want_up else 0)
             log.append(f'   take {k+1}{" (plain)" if tt is alt else ""}: score {score:+.2f}  wer {wer:.2f}  end {sl:+.1f}st  {wps:.1f}w/s' + (f'  rushed {rushed}' if rushed else '') + f'  heard: {heard.strip()[:70]}')
-            if best is None or score > best[0]: best = (score, w, wer, heard, tt)
-            good_words = wer <= .06 and not rushed
+            if best is None or (round(wer, 3), -score) < (round(best[2], 3), -best[0]): best = (score, w, wer, heard, tt)   # a wrong word ('finance' for 'Binance') loses to any take that says every word right
+            good_words = wer <= .02 and not rushed
             if good_words and (ok_end or k >= 2) and k >= (1 if end else 0):   # every word right (and a finished ending when possible): stop early
                 break
         def name_missed(said, heard):                               # a NAME the listener didn't hear right counts even when the rest is perfect
