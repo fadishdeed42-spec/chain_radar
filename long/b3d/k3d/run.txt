@@ -1,0 +1,68 @@
+$ nvidia-smi --query-gpu=name,memory.total --format=csv
+name, memory.total [MiB]
+Tesla T4, 15360 MiB
+Tesla T4, 15360 MiB
+
+[rc 0]
+$ apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 fonts-dejavu-core ffmpeg >/dev/null 2>&1
+
+[rc 0]
+$ cd /kaggle/tmp 2>/dev/null || mkdir -p /kaggle/tmp; cd /kaggle/tmp && git clone -q --depth 1 https://github.com/fadishdeed42-spec/chain_radar.git repo
+
+[rc 0]
+$ cd /kaggle/tmp && curl -sL https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz | tar -xJ && mv blender-4.2.3-linux-x64 blender
+
+[rc 0]
+$ python3 /kaggle/tmp/repo/long/b3d/ui.py /kaggle/tmp/repo/long/b3d/beats.json 53 /kaggle/tmp/ui /kaggle/tmp/repo/studio/fonts
+ui frames 1590
+
+[rc 0]
+$ /kaggle/tmp/blender/blender -b -P /kaggle/tmp/repo/long/b3d/scene3.py -- 53 1 1590 /kaggle/tmp/fr /kaggle/tmp/ui  2>&1 | grep -v "Fra:\|Sample\|Rendering\|Updating" | tail -40
+Time: 00:20.16 (Saving: 00:00.48)
+
+Saved: '/kaggle/tmp/fr/f_1580.jpg'
+Time: 00:20.26 (Saving: 00:00.47)
+
+Saved: '/kaggle/tmp/fr/f_1581.jpg'
+Time: 00:20.48 (Saving: 00:00.49)
+
+Saved: '/kaggle/tmp/fr/f_1582.jpg'
+Time: 00:20.39 (Saving: 00:00.51)
+
+Saved: '/kaggle/tmp/fr/f_1583.jpg'
+Time: 00:20.36 (Saving: 00:00.50)
+
+Saved: '/kaggle/tmp/fr/f_1584.jpg'
+Time: 00:20.23 (Saving: 00:00.46)
+
+Saved: '/kaggle/tmp/fr/f_1585.jpg'
+Time: 00:19.91 (Saving: 00:00.50)
+
+Saved: '/kaggle/tmp/fr/f_1586.jpg'
+Time: 00:20.17 (Saving: 00:00.46)
+
+Saved: '/kaggle/tmp/fr/f_1587.jpg'
+Time: 00:20.13 (Saving: 00:00.50)
+
+Saved: '/kaggle/tmp/fr/f_1588.jpg'
+Time: 00:19.98 (Saving: 00:00.49)
+
+Saved: '/kaggle/tmp/fr/f_1589.jpg'
+Time: 00:20.28 (Saving: 00:00.49)
+
+Saved: '/kaggle/tmp/fr/f_1590.jpg'
+Time: 00:20.16 (Saving: 00:00.49)
+
+GPU OPTIX ['Tesla T4', 'Tesla T4']
+SAFE_FRAME {}
+rendered 1 1590 of 1590
+
+Blender quit
+
+[rc 0]
+$ ffmpeg -v error -y -framerate 30 -i /kaggle/tmp/fr/f_%04d.jpg -c:v libx264 -crf 17 -preset slow -pix_fmt yuv420p /kaggle/working/silent.mp4
+
+[rc 0]
+$ cp /kaggle/tmp/fr/safe.json /kaggle/working/ 2>/dev/null; for t in 2 9 17 24 34 42; do ffmpeg -v error -y -ss $t -i /kaggle/working/silent.mp4 -frames:v 1 -vf scale=360:-1 /kaggle/working/still_$t.jpg; done
+
+[rc 0]
