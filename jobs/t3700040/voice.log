@@ -1,0 +1,61 @@
+json 3eb7349acedc
+   take 1: score -0.53  wer 0.00  end +5.6st  2.5w/s  heard: North Korea is making its own meme coins. To hide stolen binance money
+   take 2: score -0.41  wer 0.00  end +0.0st  3.0w/s  heard: North Korea is making its own meme coins to hide stolen binance money.
+   take 3: score -1.13  wer 0.00  end +2.3st  2.8w/s  rushed ['making']  heard: North Korea is making its own meme coins. To hide stolen binance money
+   take 4: score -1.57  wer 0.08  end +0.0st  3.0w/s  rushed ['making']  heard: North Korea is making its own meme coins to hide stolen finance money.
+scene 1: 4.32s ex 0.72  chosen wer 0.00
+   take 1: score -0.18  wer 0.00  end +0.0st  2.3w/s  heard: October 29th, hackers took $6.4 billion from Binance in under four hou
+   take 2: score +1.09  wer 0.00  end -4.7st  2.4w/s  rushed ['hackers']  heard: October 29th, hackers took $6.4 billion from Binance in under four hou
+   take 3: score -0.94  wer 0.00  end +0.0st  2.4w/s  rushed ['hackers']  heard: October 29th, hackers took $6.4 billion from Binance in under four hou
+   take 4: score -0.54  wer 0.06  end +0.0st  2.3w/s  heard: October 29th, hackers took $6.4 billion from finance in under four hou
+scene 2: 6.21s ex 0.62  chosen wer 0.00
+   take 1: score -0.14  wer 0.00  end +0.0st  2.8w/s  heard: Investigators blame North Korea. About $2.85 billion was frozen in tim
+   take 2: score -0.49  wer 0.03  end +0.0st  2.1w/s  heard: Investigators blame North Korea. About $2.85 billion was frozen in tim
+   take 3: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: Investigators blame North Korea. About $2.85 billion was frozen in tim
+scene 3: 5.88s ex 0.62  chosen wer 0.00
+   take 1: score -0.70  wer 0.00  end +0.0st  3.1w/s  heard: About $3 billion is still out there. Now they are moving it.
+   take 2: score -2.38  wer 0.00  end +0.0st  3.6w/s  rushed ['billion']  heard: About $3 billion is still out there. Now they are moving it.
+   take 3: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['billion']  heard: About $3 billion is still out there. Now they are moving it.
+   take 4: score -1.33  wer 0.00  end +0.0st  3.1w/s  rushed ['billion']  heard: About $3 billion is still out there.  Now they are moving it.
+scene 4: 4.13s ex 0.58  chosen wer 0.00
+   take 1: score -4.47  wer 0.25  end +0.0st  1.6w/s  rushed ['wallets,', 'blockchains,', 'blockchains,']  heard: Over 20,000 wallets, 16 blockchains,  18 blockchains, 18 blockchains,
+   take 2: score +1.44  wer 0.00  end -1.9st  1.7w/s  heard: Over 20,000 wallets, 16 blockchains.
+scene 5: 3.60s ex 0.62  chosen wer 0.00
+   take 1: score +0.43  wer 0.11  end -3.8st  2.4w/s  rushed ['create']  heard: The newest trick, worthless mean coins they create themselves.
+   take 2: score -2.44  wer 0.00  end +0.0st  2.7w/s  rushed ['worthless', 'create', 'themselves.']  heard: The newest trick, worthless meme coins they create themselves.
+   take 3: score +0.34  wer 0.00  end -5.6st  2.5w/s  rushed ['newest', 'themselves.']  heard: The newest trick, worthless meme coins they create themselves.
+   take 4: score -1.25  wer 0.00  end -2.1st  2.5w/s  rushed ['newest', 'Worthless', 'create', 'themselves.']  heard: The newest trick? Worthless meme coins they create themselves.
+   take R1: wer 0.00  heard: The newest trick, worthless meme coins they create themselves.
+scene 6: 3.95s ex 0.72  chosen wer 0.00
+   take 1: score -3.07  wer 0.00  end +0.0st  3.1w/s  rushed ['through', 'wallet', 'wallet.']  heard: They trade them through pools. The money never goes wallet to wallet. 
+   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['through']  heard: They trade them through pools. The money never goes wallet to wallet. 
+   take 3: score -1.15  wer 0.00  end +0.0st  3.0w/s  rushed ['through']  heard: They trade them through pools. The money never goes wallet to wallet.
+   take 4: score -1.65  wer 0.00  end +1.2st  3.2w/s  rushed ['through']  heard: They trade them through pools. The money never goes wallet to wallet.
+scene 7: 4.27s ex 0.64  chosen wer 0.00
+   take 1: score -0.58  wer 0.09  end +0.0st  2.7w/s  heard: On NEAR alone, six homemade tokens, about $430,000 pushed through.
+   take 2: score -1.49  wer 0.09  end +0.0st  2.9w/s  rushed ['pushed']  heard: On NEAR alone, six homemade tokens.  About $430,000 pushed through.
+   take 3: score -0.81  wer 0.09  end +3.6st  2.6w/s  heard: On NEAR alone, six homemade tokens.  About $430,000 pushed through.
+   take 4: score -1.67  wer 0.09  end +0.0st  3.0w/s  rushed ['through.']  heard: On NEAR alone, six homemade tokens, about $430,000 pushed through.
+   take R1: wer 0.09  heard: On NEAR alone, six homemade tokens, about $430,000 pushed through.
+   take R2: wer 0.18  heard: On NER alone, six homemade tokens, about $430,000 push through.
+   take R3: wer 0.12  heard: On EAR alone, six homemade tokens, about $430,000 pushed through.
+   take R4: wer 0.12  heard: On NER alone, six homemade tokens, about $430,000 pushed through.
+scene 8: 6.28s ex 0.62  chosen wer 0.09
+   take 1: score -0.78  wer 0.08  end +0.0st  3.0w/s  heard: They have done this before. After the Bivit hack, 499,000 ether vanish
+   take 2: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: They have done this before, after the Bybit hack, 499,000 ether vanish
+   take 3: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: They have done this before. After the Bybit hack, 499,000 ether vanish
+   phonetic variant: They have done this before. After the by-bit hack, four hundred ninety-nine thousand ether
+   take P1: score -0.01  wer 0.00  2.6w/s  heard: They have done this before. After the Bybit hack, 499,000 ether vanish
+scene 9: 6.47s ex 0.58  chosen wer 0.00
+   take 1: score -1.01  wer 0.00  end +0.0st  3.2w/s  heard: So when a strange new coin appears overnight, ask who made it.
+   take 2: score -3.87  wer 0.00  end +0.0st  3.8w/s  rushed ['strange', 'appears']  heard: So when a strange new coin appears overnight, ask who made it.
+   take 3: score -1.19  wer 0.00  end +0.0st  3.3w/s  heard: So when a strange new coin appears overnight, ask who made it.
+scene 10: 3.72s ex 0.56 END  chosen wer 0.00
+   take 1: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -0.98  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 3: score -0.24  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+scene 11: 1.82s ex 0.7  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+54.45s, force-aligned 134 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700040/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.68, 0.78, 0.66, 0.68, 0.76, 0.78, 0.7, 0.61, 0.74, 0.93]
