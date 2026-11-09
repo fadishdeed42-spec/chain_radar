@@ -1,0 +1,357 @@
+{
+ "title": "$1B Liquidated In Crypto Crash As Nvidia Scandal Hits \ud83d\udea8",
+ "alt_hooks": [
+  "$1 billion wiped out in hours. What just triggered the crypto crash?",
+  "How did an Nvidia CEO scandal and Iran tensions trigger a $1B liquidation wave?",
+  "Bitcoin just crashed as $1 billion vanished from the market."
+ ],
+ "tone": "serious",
+ "respell": {
+  "Jensen Huang": "JEN-sen HWAHNG"
+ },
+ "chart": {
+  "symbol": "BTC",
+  "start": "2026-11-05",
+  "end": "2026-11-10"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "$1 billion wiped out in 24 hours as crypto markets face sudden panic.",
+   "hit": "$1",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "24 hours",
+     "text": "WEEKEND CRASH",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "trading screens red",
+   "shots": [
+    {
+     "words": "$1 billion wiped out",
+     "q": "money falling burning"
+    },
+    {
+     "words": "in 24 hours",
+     "q": "clock ticking fast"
+    },
+    {
+     "words": "as crypto markets",
+     "q": "bitcoin chart red"
+    },
+    {
+     "words": "face sudden panic",
+     "q": "panic trading floor"
+    }
+   ],
+   "receipt": {
+    "src": "coincentral.com",
+    "headline": "Bitcoin (BTC) Price: $1 Billion in Crypto Liquidations Hit as Nvidia CEO Scandal Rocks Markets",
+    "kind": "headline"
+   },
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 1000000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Total Liquidated",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "Bitcoin dropped to $73,761 late Sunday as the only major market open, falling to its lowest point since August.",
+   "hit": "$73761",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "Sunday",
+     "text": "",
+     "icon": "bank"
+    }
+   ],
+   "footage": "bitcoin ticker dropping",
+   "shots": [
+    {
+     "words": "Bitcoin dropped to",
+     "q": "bitcoin falling graph"
+    },
+    {
+     "words": "$73,761 late Sunday",
+     "q": "night city skyline"
+    },
+    {
+     "words": "as the only",
+     "q": "digital stock exchange"
+    },
+    {
+     "words": "major market open",
+     "q": "trading charts monitor"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "chart",
+    "date": "2026-11-08",
+    "label": "NOV 8 \u00b7 $73,761 \u00b7 BTC LOW"
+   }
+  },
+  {
+   "role": "turn",
+   "line": "Traders reacted instantly to two major headlines hitting over the weekend, pushing investors toward safer assets.",
+   "hit": "two",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "weekend",
+     "text": "WEEKEND SHOCK",
+     "icon": "calendar"
+    }
+   ],
+   "footage": "smartphone news alerts",
+   "shots": [
+    {
+     "words": "Traders reacted instantly",
+     "q": "trader looking phone"
+    },
+    {
+     "words": "to two major headlines",
+     "q": "news breaking headline"
+    },
+    {
+     "words": "hitting over",
+     "q": "computer screen glowing"
+    },
+    {
+     "words": "the weekend",
+     "q": "empty office night"
+    }
+   ],
+   "receipt": {
+    "src": "msn.com",
+    "headline": "Bitcoin, Ethereum, XRP whipsaw on Nvidia scandal, Iran tensions: Crypto sell-off sparks $1B liquidation wave",
+    "kind": "headline"
+   },
+   "photo": "",
+   "visual": {
+    "type": "title",
+    "text": "TWO HEADLINES",
+    "sub": "Market Shock",
+    "icon": "question"
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Nvidia's board launched an investigation into CEO Jensen Huang over security concerns after intelligence reports.",
+   "hit": "investigation",
+   "emotion": "dark",
+   "beats": [
+    {
+     "word": "Jensen Huang",
+     "text": "CEO SCANDAL",
+     "icon": "person"
+    }
+   ],
+   "footage": "corporate building exterior",
+   "shots": [
+    {
+     "words": "Nvidia's board launched",
+     "q": "corporate boardroom meeting"
+    },
+    {
+     "words": "an investigation into",
+     "q": "detective magnifying glass"
+    },
+    {
+     "words": "CEO Jensen Huang",
+     "q": "business man portrait"
+    },
+    {
+     "words": "over security concerns",
+     "q": "cyber security lock"
+    }
+   ],
+   "photo": "Jensen Huang",
+   "visual": {
+    "type": "person",
+    "name": "JENSEN HUANG",
+    "role": "Nvidia CEO",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "setup",
+   "line": "But that is not the strangest part. What about Iran and stalled negotiations?",
+   "hit": "iran",
+   "emotion": "curious",
+   "beats": [
+    {
+     "word": "strangest part",
+     "q": "question mark graphic"
+    }
+   ],
+   "footage": "world map news",
+   "shots": [
+    {
+     "words": "But that is",
+     "q": "suspicious face close"
+    },
+    {
+     "words": "not the strangest part",
+     "q": "mystery puzzle pieces"
+    },
+    {
+     "words": "What about",
+     "q": "globe spinning fast"
+    },
+    {
+     "words": "Iran",
+     "q": "middle east map"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "face",
+    "mood": "shock",
+    "text": "IRAN?!",
+    "sub": "And worse..."
+   }
+  },
+  {
+   "role": "twist",
+   "line": "Secretary Marco Rubio called stalled Iran talks outrageous and said negotiations made no progress as oil fears spiked.",
+   "hit": "outrageous",
+   "emotion": "tense",
+   "beats": [
+    {
+     "word": "Marco Rubio",
+     "text": "US DIPLOMACY",
+     "icon": "gavel"
+    }
+   ],
+   "footage": "government press conference",
+   "shots": [
+    {
+     "words": "Secretary Marco Rubio",
+     "q": "politician speaking podium"
+    },
+    {
+     "words": "called stalled Iran talks",
+     "q": "political meeting table"
+    },
+    {
+     "words": "outrageous as",
+     "q": "warning red signal"
+    },
+    {
+     "words": "oil fears spiked",
+     "q": "oil refinery fire"
+    }
+   ],
+   "photo": "Marco Rubio",
+   "visual": {
+    "type": "person",
+    "name": "MARCO RUBIO",
+    "role": "US Secretary of State",
+    "prop": "none"
+   }
+  },
+  {
+   "role": "payoff",
+   "line": "Over $913 million in long trader bets were wiped out in hours during the forced selling.",
+   "hit": "$913",
+   "emotion": "shock",
+   "beats": [
+    {
+     "word": "long trader",
+     "q": "bull market statue red"
+    }
+   ],
+   "footage": "liquidation charts data",
+   "shots": [
+    {
+     "words": "Over $913 million",
+     "q": "cash money stack"
+    },
+    {
+     "words": "in long trader bets",
+     "q": "trader holding head"
+    },
+    {
+     "words": "were wiped out",
+     "q": "digital data erase"
+    },
+    {
+     "words": "in hours",
+     "q": "hourglass running out"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 913000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "Long Liquidations",
+    "icon": "skull"
+   }
+  },
+  {
+   "role": "end",
+   "line": "Ethereum lost $448 million, nearly double Bitcoin, proving leverage destroys portfolios fast.",
+   "hit": "$448",
+   "emotion": "sad",
+   "beats": [
+    {
+     "word": "Ethereum",
+     "text": "$448M LOST",
+     "icon": "ethereum"
+    }
+   ],
+   "footage": "ethereum logo crashing",
+   "shots": [
+    {
+     "words": "Ethereum lost",
+     "q": "ethereum coin drop"
+    },
+    {
+     "words": "$448 million",
+     "q": "chart arrow down"
+    },
+    {
+     "words": "proving leverage destroys",
+     "q": "house of cards falling"
+    },
+    {
+     "words": "portfolios fast",
+     "q": "empty wallet cash"
+    }
+   ],
+   "photo": "",
+   "visual": {
+    "type": "counter",
+    "value": 448000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "ETH Liquidations",
+    "icon": "ethereum"
+   }
+  }
+ ],
+ "lesson": "High leverage during weekend market gaps destroys portfolios instantly.",
+ "description": "A massive crypto sell-off wiped out over $1 billion in liquidations as news broke regarding an Nvidia CEO scandal and stalled U.S.-Iran negotiations. Bitcoin dropped to $73,761 while Ethereum lost $448 million in forced liquidations.",
+ "hashtags": "#Bitcoin #CryptoCrash #Ethereum #Nvidia #Iran #CryptoNews #Trading #MarketCrash",
+ "pinned": "Did you trade this weekend crash? Let us know below!",
+ "length": 60,
+ "settings": {
+  "length": 60
+ },
+ "est_secs": 61,
+ "words": 136,
+ "target_words": 133,
+ "length_ok": true,
+ "review": {}
+}
