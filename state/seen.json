@@ -14,7 +14,8 @@
 1794305229.2434216,
 1794310490.0945446,
 1794310794.8488102,
-1794313245.16398
+1794313245.16398,
+1794314496.4483953
 ],
 "menu": {
 "00f555793394": {
@@ -51,7 +52,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794310516.0,
 "tgtext": "ZachXBT Questions FinCEN\u2019s $16B MEXC Allegation, Raises Concerns Over Regulatory Overreach\n\nOnchain investigator ZachXBT argued that hundreds of millions or even billions of dollars in illicit activity could also be identified at other major exchanges, raising concerns about potential U.S. regulatory overreach against platforms like MEXC and HTX. He questioned why offshore exchanges with little U.S. presence rushed to restrict MEXC-related transfers. While acknowledging MEXC\u2019s historically lax AML/KYC practices, he said FinCEN\u2019s $16 billion illicit transaction estimate appeared overstated and called for supporting data and comparisons with other exchanges. \u2014 link",
 "title": "ZachXBT Questions FinCEN\u2019s $16B MEXC Allegation, Raises Concerns Over Regulatory Overreach",
@@ -145,7 +146,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794302070.0,
 "tgtext": "",
 "title": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
@@ -489,7 +490,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794310297.0,
 "tgtext": "",
 "title": "Initia halts blockchain after $615K exploit as INIT price surges over 60%",
@@ -696,7 +697,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794294136.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) transferred out another 500 $BTC ($37.38M) today.\n\nSince Oct 1, #MARA has sold a total of 13,597 $BTC ($1.1B) at an average price of $81,039.\n\nhttps://arkm.com/explorer/entity/mara-pool\nhttps://www.sec.gov/Archives/edgar/data/1507605/000150760526000028/mara-20260930.htm?utm_source=chatgpt.com",
 "title": "Bitcoin miner MARA Holdings (@MARA) transferred out another 500 BTC ($37.38M) today.",
@@ -1900,7 +1901,7 @@
 "Pluang",
 "Wu Blockchain"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794295490.0,
 "tgtext": "BlackRock Sees Record Demand From Bitcoin Whales Converting BTC Into IBIT Over Security Concerns\n\nAccording to Barron's, BlackRock's Head of Digital Assets, Robbie Mitchnick, said demand from large Bitcoin holders seeking to convert self-custodied BTC into shares of BlackRock's spot Bitcoin ETF (IBIT) has reached record levels, primarily driven by security concerns. The report cited approximately $3.6 billion in such conversions, with the actual total potentially higher. Through in-kind transactions, investors can exchange existing BTC holdings for ETF shares without first selling their Bitcoin on the market. These conversions represent a shift in custody arrangements rather than necessarily new capital inflows into Bitcoin. \u2014 link",
 "title": "BlackRock Sees Record Demand From Bitcoin Whales Converting BTC Into IBIT Over Security Concerns",
@@ -2506,6 +2507,19 @@
 "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466",
 "https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"9301f02abe6e": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794314801.218639,
+"t0": 1794314137.0,
+"tgtext": "BlackRock deposited another 72,212 $ETH ($151.4M) into #CoinbasePrime just 1 hour ago.\n\nSince Oct 1, #BlackRock has seen net outflows of 791,758 $ETH ($1.74B)!\n\nhttps://arkm.com/explorer/entity/blackrock",
+"title": "BlackRock deposited another 72,212 ETH ($151.4M) into CoinbasePrime just 1 hour ago.",
+"url": "https://t.me/lookonchainchannel/10993",
+"urls": []
 },
 "935d32699a54": {
 "coin": "",
@@ -3269,9 +3283,9 @@
 "CryptoPotato",
 "Cyber Press",
 "Lokmat Times",
-"Watcher.Guru"
+"WSJ"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794294641.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea is launching 'Elon Musk' crypto memecoins to launder $6.3 billion stolen from Binance.\n\n@WatcherGuru",
 "title": "North Korea Creates Disposable Crypto Tokens to Make Binance Hack Funds Look Like Trading Profits",
@@ -3393,7 +3407,7 @@
 "Wu Blockchain",
 "bloomingbit"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794300090.0,
 "tgtext": "Binance Halts Transactions Involving MEXC and Its Affiliates Following FinCEN Designation\n\nBinance announced on November 10 that it will no longer process transactions involving MEXC and its affiliated entities following FinCEN's recent designation of MEXC as a primary money laundering concern. Users are prohibited from sending or receiving funds directly or indirectly through Binance involving these entities. Outgoing transfers will be rejected, while incoming deposits will be temporarily withheld pending compliance review. Affected accounts may face additional restrictions or termination of services. The listed entities include MEXC Global Limited, MEXC Estonia O\u00dc, MEXC Singapore Pte Ltd, and other MEXC affiliates. \u2014 link\n\ud83d\udea8 JUST IN: Binance will block transfers to MEXC following a designation by US FinCEN.\n\nNews | Markets | YouTube",
 "title": "Binance Halts Transfers Tied to MEXC After US FinCEN Flags Exchange as Primary Money-Laundering Concern",
@@ -3783,18 +3797,18 @@
 },
 "dfa85693da3f": {
 "coin": "bitcoin",
-"src": "Cointelegraph",
+"src": "CoinDesk",
 "srcs": [
 "CoinDesk",
 "Cointelegraph",
 "Moomoo",
 "TradingView"
 ],
-"t": 1794310016.8515973,
+"t": 1794314801.218639,
 "t0": 1794305302.0,
 "tgtext": "",
-"title": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
-"url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"title": "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike",
+"url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
@@ -4040,7 +4054,7 @@
 "Coin Gabbar",
 "TechBullion"
 ],
-"t": 1794314025.8124666,
+"t": 1794314801.218639,
 "t0": 1794301502.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can BTC Retake $75K After Last Week's $1.28B ETF Outflow as Remittix Earn Goes Public?",
@@ -4164,46 +4178,46 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
-"013c78dfd737": 0.932,
+"013c78dfd737": 0.909,
 "0200fb47d17d": 0.038,
+"03fdfb75d2b9": 0.053,
 "065521a7587c": 0.785,
 "168d897da9ba": 0.09,
 "17a12e5947d7": 0.881,
+"1fb38e5f6a51": 0.284,
 "2e4807960c99": 0.145,
 "39f52e6ab7f1": 0.168,
 "3ace99776595": 0.347,
 "3c898c0cb304": 0.058,
 "484fe0d8d1b4": 0.129,
 "59a39e4fca8b": 0.084,
-"5bdce0f20dcc": 0.187,
 "6399c345b8d7": 0.201,
 "64adf9537213": 0.074,
 "68485ae4c35f": 0.292,
-"6d6f4636a0b0": 0.261,
+"6d6f4636a0b0": 0.428,
 "73c89cad1aca": 0.076,
 "740af2a1fca4": 0.234,
 "74b72cf0aa73": 0.987,
 "79d6b9b0dbea": 0.165,
-"8064a7c9c584": 0.332,
+"8064a7c9c584": 0.209,
 "81c716491301": 0.446,
+"9301f02abe6e": 0.942,
 "97947e36ec60": 0.198,
 "984ab91690fb": 0.525,
-"9e881f9ac55b": 0.134,
-"a4559e1b0aba": 0.181,
 "a6a5c267c579": 0.206,
 "ae220b200cdc": 0.275,
-"ae3abc1a483d": 0.347,
 "b4247907e22d": 0.122,
-"bc1957c82cd4": 0.928,
+"b8b8cc22e0ab": 0.126,
+"bc1957c82cd4": 0.849,
 "be6c50250022": 0.106,
 "c2ac8336c672": 0.966,
-"d01f789716f0": 0.137,
-"dfa85693da3f": 0.571,
+"dfa85693da3f": 0.796,
 "e4e91e03d10a": 0.602,
-"f705ee6fa749": 0.84,
+"eab7be6f8312": 0.061,
+"ece13eaa5917": 0.579,
+"f705ee6fa749": 0.889,
 "fc08214746c1": 0.081,
-"fd361a4eac88": 0.201,
-"fe46c83c9f4f": 0.051
+"fd361a4eac88": 0.201
 },
 "sent": [
 {
@@ -5603,6 +5617,62 @@
 "perpetual",
 "stock"
 ]
+},
+{
+"e": [
+"blackrock",
+"coinbaseprime"
+],
+"k": [],
+"t": 1794314496.4483953,
+"u": [
+"https://t.me/lookonchainchannel/10993"
+],
+"w": [
+"$151",
+"212",
+"ago",
+"another",
+"blackrock",
+"coinbaseprime",
+"deposited",
+"eth",
+"hour",
+"just"
+]
+},
+{
+"e": [
+"cpi",
+"fed",
+"live"
+],
+"k": [],
+"t": 1794314496.4483953,
+"u": [
+"https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXVkOWQtaDVKZGFMRFlaREI4OE5zU3F0dnpDUTdTcUFuLUo4WjVWbzdqRlJqWFZLU1JpZ2dGTUFEQjBzaVc5OUJaNnFXdm9hcDFUTFR0M2FUb0dBYkt3QndPVHBxUzhEMUNhdFY1SzNNWjFwa2JKUWNTSlFpMDZHNGlLSDB2dHJMSmJ3dDlCbnBCWm1rTVhnYUdIaGg3bG9GZW9NTzd2UkljZmtNWmNlT2k5MXJnbVVQSHpMWEFfd0tJMVdsRXZkRmNZOGx0RURF?oc=5",
+"https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+"https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+"https://news.google.com/rss/articles/CBMipwFBVV95cUxPRVRrcjlUWG1DZ2w4TjRGcG54dGVvS3NBWkRzZTVhMVdtWGh4X1dxWWpCamFFV0FhZE9vWkNpVmgxRjBJdlljWEVQdGtEaEp3cl9YTnZDbzM3YnZZajBweE40WUFSTWpHSUszdUpCSDRlSGJsTjUySF8zSThJRExrZVhINXZoNnZRR25PT1hmMEJsRjVpZy1EN3J5ZGcyWFpWVnJSbVl5TQ?oc=5"
+],
+"w": [
+"$74",
+"000",
+"ahead",
+"back",
+"bitcoin",
+"cpi",
+"falls",
+"fed",
+"fully",
+"hike",
+"live",
+"news",
+"price",
+"rate",
+"traders"
+]
 }
 ],
 "stories": {},
@@ -5610,64 +5680,64 @@
 "top": [
 [
 "74b72cf0aa73",
-58,
-309,
+57,
+322,
 3
 ],
 [
 "c2ac8336c672",
-64,
-232,
+62,
+245,
 4
 ],
 [
-"013c78dfd737",
-25,
-58,
+"9301f02abe6e",
+24,
+11,
 1
-],
-[
-"bc1957c82cd4",
-71,
-323,
-5
 ],
 [
 "2811dca67c53",
 0,
-331,
+344,
 1
 ],
 [
-"17a12e5947d7",
-55,
-62,
+"013c78dfd737",
+25,
+71,
 1
 ],
 [
 "f705ee6fa749",
-51,
-209,
+49,
+222,
 2
+],
+[
+"17a12e5947d7",
+55,
+75,
+1
+],
+[
+"bc1957c82cd4",
+70,
+336,
+6
+],
+[
+"dfa85693da3f",
+54,
+158,
+4
 ],
 [
 "065521a7587c",
-44,
-199,
+42,
+212,
 2
-],
-[
-"b6f06c412af2",
-10,
-30,
-1
-],
-[
-"fbde7fb479f2",
-3,
-278,
-1
 ]
 ],
-"top_at": 1794314025.8124666
+"top_at": 1794314801.218639
 }
