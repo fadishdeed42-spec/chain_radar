@@ -1,0 +1,51 @@
+name: kgen
+# AI video clips on a free Kaggle GPU (test): saves clips + timings to files:long/aivid/
+on:
+  workflow_dispatch:
+    inputs:
+      fetch_only: {description: '1 = only wait for / fetch the running kernel', required: false, default: ''}
+permissions: {contents: write}
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q kaggle
+      - name: login
+        env: {KAGGLE_USERNAME: '${{ secrets.KAGGLE_USERNAME }}', KAGGLE_KEY: '${{ secrets.KAGGLE_KEY }}'}
+        run: |
+          U=$(printf '%s' "$KAGGLE_USERNAME" | tr -d '[:space:]'); K=$(printf '%s' "$KAGGLE_KEY" | tr -d '[:space:]')
+          echo "KAGGLE_USERNAME=$U" >> $GITHUB_ENV
+          case "$K" in KGAT_*) echo "KAGGLE_API_TOKEN=$K" >> $GITHUB_ENV;; *) echo "KAGGLE_KEY=$K" >> $GITHUB_ENV;; esac
+      - name: push kernel
+        if: inputs.fetch_only != '1'
+        run: |
+          cd lab/kgen
+          printf '{"id": "%s/chain-ai-video", "title": "chain ai video", "code_file": "gen.py", "language": "python", "kernel_type": "script", "is_private": "true", "enable_gpu": "true", "enable_internet": "true"}' "$KAGGLE_USERNAME" > kernel-metadata.json
+          kaggle kernels push -p . 2>&1 | tee push.log
+          grep -qi "error\|unauthor" push.log && exit 1 || true
+      - name: wait
+        run: |
+          sleep 20
+          for i in $(seq 1 120); do
+            s=$(kaggle kernels status "$KAGGLE_USERNAME/chain-ai-video" 2>&1 | tr '\n' ' ')
+            case "$s" in *COMPLETE*|*ERROR*|*CANCEL*) break;; esac
+            sleep 60
+          done
+          echo "::notice title=status::${s:0:200}"
+      - name: fetch + save
+        if: always()
+        run: |
+          mkdir -p out && kaggle kernels output "$KAGGLE_USERNAME/chain-ai-video" -p out 2>&1 | tail -2; ls -la out
+          [ -f out/timing.json ] && echo "::notice title=timing::$(cat out/timing.json)"
+          [ -f out/safe.json ] && echo "::notice title=safe::$(cat out/safe.json)"
+          grep -v '^Fra:' out/run.txt 2>/dev/null | tail -60 || true
+          ls out/*.mp4 out/*.jpg out/run.txt >/dev/null 2>&1 || exit 0
+          git config --global user.name chain-radar; git config --global user.email noreply@github.com
+          for i in 1 2 3 4 5; do
+            rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
+            mkdir -p /tmp/w/long/aivid && cp out/*.mp4 out/*.jpg out/*.json out/run.txt /tmp/w/long/aivid/ 2>/dev/null
+            cd /tmp/w && git add -A && git commit -qm "kgen clips [skip ci]" && git push -q && break
+            cd -; sleep $((i*3))
+          done
