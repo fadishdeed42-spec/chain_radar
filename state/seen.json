@@ -2,8 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794217369.4538724,
-1794218289.5225196,
 1794219206.0085132,
 1794220737.2324138,
 1794229323.02734,
@@ -14,7 +12,8 @@
 1794294358.0204089,
 1794294833.7150016,
 1794295600.510999,
-1794297922.8204513
+1794297922.8204513,
+1794305229.2434216
 ],
 "menu": {
 "00f555793394": {
@@ -515,7 +514,7 @@
 "FXStreet",
 "TechBullion"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794290911.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can BTC Retake $75K After Last Week's $1.28B ETF Outflow as Remittix Earn Goes Public?",
@@ -613,7 +612,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794287911.0,
 "tgtext": "FUN FACT: 5 years ago today, Bitcoin reached a new all-time high of $69,000 during the 2021 crypto bull run.\n\n@WatcherGuru",
 "title": "FUN FACT: 5 years ago today, Bitcoin reached a new all-time high of $69,000 during the 2021 crypto bull run.",
@@ -1554,11 +1553,11 @@
 "coin": "bitcoin",
 "src": "bloomingbit",
 "srcs": [
-"ANI News",
+"The Tribune",
 "WSJ",
 "bloomingbit"
 ],
-"t": 1794304456.5230618,
+"t": 1794304924.861091,
 "t0": 1794286873.0,
 "tgtext": "",
 "title": "[Analysis] Bitcoin Falls Just 6% Despite $6.3 Billion Binance Hack as Market Resilience Strengthens",
@@ -1888,7 +1887,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794295490.0,
 "tgtext": "BlackRock Sees Record Demand From Bitcoin Whales Converting BTC Into IBIT Over Security Concerns\n\nAccording to Barron's, BlackRock's Head of Digital Assets, Robbie Mitchnick, said demand from large Bitcoin holders seeking to convert self-custodied BTC into shares of BlackRock's spot Bitcoin ETF (IBIT) has reached record levels, primarily driven by security concerns. The report cited approximately $3.6 billion in such conversions, with the actual total potentially higher. Through in-kind transactions, investors can exchange existing BTC holdings for ETF shares without first selling their Bitcoin on the market. These conversions represent a shift in custody arrangements rather than necessarily new capital inflows into Bitcoin. \u2014 link",
 "title": "BlackRock Sees Record Demand From Bitcoin Whales Converting BTC Into IBIT Over Security Concerns",
@@ -2864,7 +2863,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794301568.0,
 "tgtext": "",
 "title": "Biconomy Alpha Radar $1B+ LIQUIDATED. BUT THE RISK ISN\u2019T",
@@ -3301,7 +3300,7 @@
 "CoinDesk",
 "Lookonchain"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794287911.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) transferred out another 500 $BTC ($37.38M) today.\n\nSince Oct 1, #MARA has sold a total of 13,597 $BTC ($1.1B) at an average price of $81,039.\n\nhttps://arkm.com/explorer/entity/mara-pool\nhttps://www.sec.gov/Archives/edgar/data/1507605/000150760526000028/mara-20260930.htm?utm_source=chatgpt.com",
 "title": "Bitcoin miner MARA Holdings (@MARA) transferred out another 500 BTC ($37.38M) today.",
@@ -3362,7 +3361,7 @@
 "Wu Blockchain",
 "bloomingbit"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794300090.0,
 "tgtext": "Binance Halts Transactions Involving MEXC and Its Affiliates Following FinCEN Designation\n\nBinance announced on November 10 that it will no longer process transactions involving MEXC and its affiliated entities following FinCEN's recent designation of MEXC as a primary money laundering concern. Users are prohibited from sending or receiving funds directly or indirectly through Binance involving these entities. Outgoing transfers will be rejected, while incoming deposits will be temporarily withheld pending compliance review. Affected accounts may face additional restrictions or termination of services. The listed entities include MEXC Global Limited, MEXC Estonia O\u00dc, MEXC Singapore Pte Ltd, and other MEXC affiliates. \u2014 link\n\ud83d\udea8 JUST IN: Binance will block transfers to MEXC following a designation by US FinCEN.\n\nNews | Markets | YouTube",
 "title": "Binance Halts Transfers Tied to MEXC After US FinCEN Flags Exchange as Primary Money-Laundering Concern",
@@ -3642,7 +3641,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794291021.0,
 "tgtext": "Whales are accumulating $BTC!\n\nA newly created wallet, \"bc1qga,\" withdrew 1,489 $BTC ($111.34M) from #BitGo just 40 minutes ago.\n\n3 newly created wallets withdrew 1,002.86 $BTC ($75M) from #Binance over the past 24 hours.\n\nhttps://arkm.com/explorer/address/bc1qgah8uw89ut4xl8tsu670kmcp9w3zavg2esvdx6u206l2yehyhjystysrjy\nhttps://arkm.com/explorer/address/bc1q4nrjtlm98aujzvtxd8pps00ekqhm2gtz5907nd\nhttps://arkm.com/explorer/address/bc1qw4us7rcrjqkqjhc6qt73hhvegp6glvdttl7lcz\nhttps://arkm.com/explorer/address/bc1q08kkm45rk5c40ch8re4tzmdgu7hnuqgc99ly8l",
 "title": "Whales are accumulating BTC!",
@@ -3656,7 +3655,7 @@
 "CoinDesk",
 "The Block"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794291550.0,
 "tgtext": "",
 "title": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
@@ -3765,23 +3764,6 @@
 "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRnJXYjVROWZCX2hwTHM3LWR6dWZCLTVVSjluQlNMaERjZUpoT0w3UjViQ3ZXWVVqT01DUm8wSnNwSG9OeElXOF9zRDVoUktOTGJ4bE1ZVVpuSV9IYXBrZG96cnZmOHRydGE2WTFVeUtzLVI2Z1dpbFFFaTFnMFhoMXdtQ3BVQVlZUDlPbUtQOVhrekg4OFppRmpHYzBoaWN0YlNCRQ?oc=5",
 "urls": []
 },
-"deb73281ad3c": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"Crypto News",
-"IDNFinancials",
-"Nairametrics",
-"NewsBytes",
-"Pluang"
-],
-"t": 1794131752.4361725,
-"t0": 1794110400.0,
-"tgtext": "",
-"title": "$124M in Bitcoin from Binance hack stolen assets converted, mostly from XRP via THORChain.",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQkF2elJuTFNyRU0wZTAtY3l3TjFyN2VPcGlhMlZ4bzlCb0Fmcy14OWpBSENVZG93aXRfSVd5eFFZcTgyVU9acnBTdUV5b1JQRGhUakdZaTJaV1IxNWtmeHN4ZXg4MmY2ellmdUZjOXB1WS1tcUhYNjdra3NfaGIwb0REVE14UQ?oc=5",
-"urls": []
-},
 "deed2af918d2": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3841,6 +3823,19 @@
 "tgtext": "",
 "title": "Bitcoin's Slide Below $74,000 Triggers $700 Million Liquidation Wave",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hT2VWdFZUNkhVYkJFdUdWWUlTM1Z1bUxURElCbXdqRWhzZVNvVk9LeWpFbnhZY3Q4UGs2VENEMWdtdEx3eHpmVG5McWY4d0hvWUdpR3ZGa0VUUQ?oc=5",
+"urls": []
+},
+"e4e91e03d10a": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794305229.2434216,
+"t0": 1794304616.0,
+"tgtext": "14 public companies have sold 108,247 $BTC ($8.08B) in 2026!\n\nMARA sold 40,581 $BTC ($3.03B) at an average price of $74,446, while Riot Platforms sold 20,264 $BTC ($1.51B) at an average price of $73,231.",
+"title": "14 public companies have sold 108,247 BTC ($8.08B) in 2026!",
+"url": "https://t.me/lookonchainchannel/10992",
 "urls": []
 },
 "e52dd18ffb53": {
@@ -4081,7 +4076,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794304456.5230618,
+"t": 1794305229.2434216,
 "t0": 1794297358.0,
 "tgtext": "Veteran Web3 Airdrop Platform Galxe to Shut Down After Serving 36 Million Users and 7,700 Projects\n\nGalxe, a major Web3 quest and rewards platform, announced it will wind down its core services, including Galxe Quest, Galxe ID and Galxe Passport, as it shifts its team and brand to its Layer 1 blockchain, Gravity. Over more than five years, Galxe has served 36 million users and over 7,700 partner projects. New campaigns have been suspended, with participation ending December 5 and reward claims closing December 15, after which the website will become read-only. Gravity will continue operating, and the G token will remain unaffected. \u2014 link",
 "title": "Veteran Web3 Airdrop Platform Galxe to Shut Down After Serving 36 Million Users and 7,700 Projects",
@@ -4166,15 +4161,15 @@
 "probs": {
 "0200fb47d17d": 0.096,
 "1e6db723fe0b": 0.466,
-"25452e7baa57": 0.571,
 "273568bdcad7": 0.036,
 "28e43cb91afd": 0.056,
 "30917749bb73": 0.058,
 "30c1df8216cd": 0.062,
 "39f52e6ab7f1": 0.107,
-"3c898c0cb304": 0.035,
+"3c898c0cb304": 0.019,
+"553368627ad0": 0.339,
 "557be5f340c7": 0.026,
-"55bac549d837": 0.627,
+"55bac549d837": 0.298,
 "5bdce0f20dcc": 0.385,
 "669e6a9ea362": 0.165,
 "73c89cad1aca": 0.084,
@@ -4183,19 +4178,19 @@
 "79209c36de65": 0.239,
 "79d6b9b0dbea": 0.349,
 "7d4c880f62f2": 0.162,
-"8064a7c9c584": 0.098,
 "9e881f9ac55b": 0.068,
 "a6a5c267c579": 0.414,
 "a866bd2cfc3b": 0.056,
 "ad3f1fee809c": 0.038,
 "ae6ba554a1e5": 0.05,
 "afddab67e886": 0.099,
+"be6c50250022": 0.066,
 "c0f86d595b24": 0.947,
 "c2ac8336c672": 0.971,
 "c44812d23c52": 0.187,
 "d3f4eca69a38": 0.583,
 "d44707f1c7a7": 0.585,
-"ddc131e3b713": 0.208,
+"e4e91e03d10a": 0.807,
 "e7078a7fc2f1": 0.065,
 "f2f11e3363fe": 0.032,
 "f823449df37f": 0.037,
@@ -4206,66 +4201,6 @@
 "ff1856bfd578": 0.043
 },
 "sent": [
-{
-"e": [
-"about",
-"before",
-"billion",
-"binance",
-"compromise",
-"device",
-"eight",
-"exploit",
-"puts",
-"seal",
-"weeks"
-],
-"k": [
-"hack"
-],
-"t": 1794128665.686269,
-"u": [
-"https://news.google.com/rss/articles/CBMioAFBVV95cUxOa2lTVnk4S1JLUGdLNXRTTndCZEFpZFE3eUItZk5lWnVEX0VxaElHbW01QzVLYVUxV1NoUi1YR2VaZnhBQlRVVHlrdk5KeGZhMUFxMWEwRU50dW83OTFTSDdyLVA1NThyVE9kWWswTzZDYXc2X3ZIWUpvZW0zQUEwRmdKNVRKRGRxa3FXWnRLczlzRUFPU2FpYWpnZHhpODJN?oc=5",
-"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNUtvUkkybS00OGt3ZVVRb202aEhLSWJrYzVyZXIyM1NvSjlQMjlQQlBPOTNSd3pfdmI0RkM5WFNvWDVrY0l2ZHhvVy1IUElmM01hMFhQWXFDVjNrc2tBekxyeWRnTXpVRzZyTnFLVzRpY0FoVGpkWXZ6MXBQS29PSHRPMzAtR0U0YWx2UkE3OVpQRFNwZE96bzVlTzJjTGs0QkRnaV8tM2JHZ2ZxaGZFcU4tRTJKT0lDNUxJ?oc=5",
-"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNTXdIWVBiMnJmcFlZeFdGQXYzNTM2TXBKYW4zSXI3N0o4RzVrV3UzR1c3bmZKajluVTFQUTE0SzRMWjZKR2JZV2gzMU5GNUlxZkdyb28yNXhLLUU?oc=5",
-"https://news.google.com/rss/articles/CBMihgFBVV95cUxNQkF2elJuTFNyRU0wZTAtY3l3TjFyN2VPcGlhMlZ4bzlCb0Fmcy14OWpBSENVZG93aXRfSVd5eFFZcTgyVU9acnBTdUV5b1JQRGhUakdZaTJaV1IxNWtmeHN4ZXg4MmY2ellmdUZjOXB1WS1tcUhYNjdra3NfaGIwb0REVE14UQ?oc=5",
-"https://news.google.com/rss/articles/CBMiowFBVV95cUxNOERTOWJIQWNEd0QyVFJiQ29jLUtlc0NzdGFuVTZUR3g2bEJocnJJSkV2ZGtlOXdwaDdZaU1halYtUHA1QlRpNWdRX09EWE1lV1l6X2Fxd0Z0QXFqZEs1cmQ4M0x0TEdoS0V1UGZEWjUwMDZsZExZVklaOHRLQ1pFWHIzUXZCMDlDRm9XaFpQV3VZbjcxckYtMktzUTJPX2VNQ1V3?oc=5",
-"https://news.google.com/rss/articles/CBMinwFBVV95cUxQcWo2Y3hfLUl4bi1ja3Y1ZVo5bHltLU9RVzB6UGZfRjA4eFpYQU1vSDVuUEdJM1BuUGdHTXluamxxX0lMekRjM0J0cVNoUUZVSkNVWENBNW1Jc3hWSFdkRGV1NHU4WWZsVS1xZlVRNEJ4aTg1aEJEQlhJaU4wVGZucXRLNXdpLVI1MVZnQUZoREkxZ01LYmV3U2tSUlpwN2s?oc=5"
-],
-"w": [
-"about",
-"before",
-"billion",
-"binance",
-"compromise",
-"device",
-"eight",
-"exploit",
-"puts",
-"seal",
-"weeks"
-]
-},
-{
-"e": [
-"zec"
-],
-"k": [
-"hack"
-],
-"t": 1794132361.9607666,
-"u": [
-"https://t.me/lookonchainchannel/10951"
-],
-"w": [
-"appears",
-"buy",
-"eth",
-"hacker",
-"selling",
-"zec"
-]
-},
 {
 "e": [
 "burning",
@@ -5565,6 +5500,24 @@
 "veteran",
 "web3"
 ]
+},
+{
+"e": [],
+"k": [],
+"t": 1794305229.2434216,
+"u": [
+"https://t.me/lookonchainchannel/10992"
+],
+"w": [
+"08b",
+"108",
+"2026",
+"247",
+"btc",
+"companies",
+"public",
+"sold"
+]
 }
 ],
 "stories": {},
@@ -5573,63 +5526,63 @@
 [
 "c2ac8336c672",
 60,
-73,
+86,
 3
 ],
 [
 "c0f86d595b24",
-29,
-276,
+27,
+289,
 2
 ],
 [
 "74b72cf0aa73",
 38,
-149,
+162,
 1
 ],
 [
-"55bac549d837",
-65,
-293,
-3
-],
-[
-"d44707f1c7a7",
-42,
-215,
-2
-],
-[
-"d3f4eca69a38",
-13,
-224,
+"e4e91e03d10a",
+25,
+10,
 1
 ],
 [
 "25452e7baa57",
-10,
-276,
+8,
+289,
+1
+],
+[
+"d44707f1c7a7",
+40,
+228,
+2
+],
+[
+"d3f4eca69a38",
+11,
+237,
 1
 ],
 [
 "1e6db723fe0b",
-48,
-226,
+47,
+239,
 2
 ],
 [
 "fbde7fb479f2",
 16,
-118,
+131,
 1
 ],
 [
 "a6a5c267c579",
 40,
-48,
+61,
 1
 ]
 ],
-"top_at": 1794304456.5230618
+"top_at": 1794305229.2434216
 }
