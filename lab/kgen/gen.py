@@ -21,20 +21,30 @@ which, out = sys.argv[1], sys.argv[2]; P = json.loads(sys.argv[3]); W, H = int(s
 t0 = time.time(); res = {'model': which, 'clips': []}
 try:
     if which.startswith('wan'):
+        import os, gc
         from diffusers import AutoencoderKLWan, WanPipeline
         mid = 'Wan-AI/Wan2.1-T2V-1.3B-Diffusers'
+        if which == 'wan1':                                   # wait until GPU 0's process has freed its big text encoder (CPU RAM)
+            while not os.path.exists('/tmp/t5_free_wan0'): time.sleep(5)
         vae = AutoencoderKLWan.from_pretrained(mid, subfolder='vae', torch_dtype=torch.float32)
         pipe = WanPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16)
-        kw = dict(num_frames=49, num_inference_steps=25, guidance_scale=5.0, negative_prompt='blurry, low quality, distorted, text, watermark, cartoon'); fps = 16
+        neg = 'blurry, low quality, distorted, static, frozen, text, watermark, cartoon'
+        pipe.text_encoder.to('cuda'); EMB = {}
+        for k, p in P.items():
+            EMB[k] = pipe.encode_prompt(prompt=p + ', dynamic motion, highly detailed', negative_prompt=neg, do_classifier_free_guidance=True, max_sequence_length=226, device='cuda')
+        pipe.text_encoder = None; gc.collect(); torch.cuda.empty_cache(); open(f'/tmp/t5_free_{which}', 'w').write('1')
+        pipe.to('cuda')
+        kw = dict(num_frames=49, num_inference_steps=25, guidance_scale=5.0); fps = 16
     else:
         from diffusers import LTXPipeline
         pipe = LTXPipeline.from_pretrained('Lightricks/LTX-Video', torch_dtype=torch.float16)
         kw = dict(num_frames=65, num_inference_steps=30, negative_prompt='worst quality, blurry, jittery, distorted, text, watermark'); fps = 24
-    pipe.enable_model_cpu_offload()
+    if not which.startswith('wan'): pipe.enable_model_cpu_offload()
     res['load_s'] = round(time.time() - t0)
     for k, p in P.items():
         t1 = time.time()
-        fr = pipe(prompt=p + ', dynamic motion, highly detailed, 4k film still quality', width=W, height=H, **kw).frames[0]
+        pe, ne = EMB[k]
+        fr = pipe(prompt_embeds=pe, negative_prompt_embeds=ne, width=W, height=H, **kw).frames[0]
         f = f'{out}/clip_{int(k) + 1:02d}.mp4'; export_to_video(fr, f, fps=fps)
         res['clips'].append({'file': f, 'secs': round(time.time() - t1), 'frames': len(fr), 'fps': fps})
         print(which, k + 1, round(time.time() - t1), 's', flush=True)
