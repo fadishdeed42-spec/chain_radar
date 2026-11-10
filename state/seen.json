@@ -2,9 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794202458.3123853,
-1794207054.173305,
-1794207666.4968543,
 1794217369.4538724,
 1794218289.5225196,
 1794219206.0085132,
@@ -13,7 +10,8 @@
 1794234842.6920893,
 1794278566.9247322,
 1794282408.0539687,
-1794288228.3469071
+1794288228.3469071,
+1794294358.0204089
 ],
 "menu": {
 "00f555793394": {
@@ -148,16 +146,17 @@
 },
 "087c90e2475b": {
 "coin": "bitcoin",
-"src": "CoinDesk",
+"src": "Lookonchain",
 "srcs": [
 "CoinDesk",
+"Lookonchain",
 "Wu Blockchain"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794282282.0,
-"tgtext": "MARA, a Leading Listed Bitcoin Miner, Sells $1.1 Billion in BTC as Revenue Falls 35%\n\nMARA, one of the world's largest publicly traded Bitcoin mining companies, disclosed in its Q3 2026 earnings that it sold 13,597 BTC after quarter-end at an average price of $81,039, raising approximately $1.1 billion. The proceeds were used to fully repay $750 million in Bitcoin-backed loans, releasing 17,477 BTC previously pledged as collateral. Q3 revenue fell 35% year-over-year to $164.2 million, while net income reached $632 million, largely driven by $885 million in digital asset fair-value gains. As of September 30, MARA held 34,012 BTC, down 36% year-over-year, and mined 2,247 BTC during the quarter, up 5%. \u2014 link",
-"title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-"url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more",
+"tgtext": "MARA, a Leading Listed Bitcoin Miner, Sells $1.1 Billion in BTC as Revenue Falls 35%\n\nMARA, one of the world's largest publicly traded Bitcoin mining companies, disclosed in its Q3 2026 earnings that it sold 13,597 BTC after quarter-end at an average price of $81,039, raising approximately $1.1 billion. The proceeds were used to fully repay $750 million in Bitcoin-backed loans, releasing 17,477 BTC previously pledged as collateral. Q3 revenue fell 35% year-over-year to $164.2 million, while net income reached $632 million, largely driven by $885 million in digital asset fair-value gains. As of September 30, MARA held 34,012 BTC, down 36% year-over-year, and mined 2,247 BTC during the quarter, up 5%. \u2014 link\nBitcoin miner MARA Holdings (@MARA) transferred out another 500 $BTC ($37.38M) today.\n\nSince Oct 1, #MARA has sold a total of 13,597 $BTC ($1.1B) at an average price of $81,039.\n\nhttps://arkm.com/explorer/entity/mara-pool\nhttps://www.sec.gov/Archives/edgar/data/1507605/000150760526000028/mara-20260930.htm?utm_source=chatgpt.com",
+"title": "Bitcoin miner MARA Holdings (@MARA) transferred out another 500 BTC ($37.38M) today.",
+"url": "https://t.me/lookonchainchannel/10990",
 "urls": [
 "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more"
 ]
@@ -638,7 +637,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794287911.0,
 "tgtext": "FUN FACT: 5 years ago today, Bitcoin reached a new all-time high of $69,000 during the 2021 crypto bull run.\n\n@WatcherGuru",
 "title": "FUN FACT: 5 years ago today, Bitcoin reached a new all-time high of $69,000 during the 2021 crypto bull run.",
@@ -966,7 +965,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794277720.0,
 "tgtext": "\ud83d\udd25 LATEST: Securitize acquires River One, its first buy as a public company, to expand into the $6 trillion asset-backed finance market.\n\nNews | Markets | YouTube",
 "title": "Securitize acquires River One, its first buy as a public company, to expand into the $6 trillion asset-backed finance market.",
@@ -1530,7 +1529,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794293282.0667987,
+"t": 1794294358.0204089,
 "t0": 1794282425.0,
 "tgtext": "Token creators who made huge profits appear to be selling $SOL!\n\nWallet 2MdNva collected large amounts of $SOL from multiple token creator wallets and sent it to exchanges.\n\nOver the past 16 hours, it deposited a total of 299,838 $SOL ($26M) into #Binance and #OKX.\n\nhttps://solscan.io/account/2MdNva4K56QPFgHa6fFNztYyj6MUeEGKtfpobwQPyDNE?exclude_amount_zero=true&remove_spam=false&value=10&value=&page_size=100#transfers",
 "title": "Token creators who made huge profits appear to be selling SOL!",
@@ -1611,7 +1610,7 @@
 "bloomingbit",
 "grafa.com"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794272803.0,
 "tgtext": "Highlight Clip: Behind the $6.3 Billion Binance Heist: How Does North Korea Train World-Class Hackers?\n\nBehind the $6.3 Billion Binance Heist: How Does North Korea Train World-Class Hackers?\n\nIn a video published on November 6, 2026, Reuters reported that North Korea established its cyber warfare unit in the late 1990s and expanded it after Kim Jong Un took power. According to defectors, North Korea selects up to 200 middle school students each year to study computer science. The top performers go on to elite universities, where they study subjects including advanced mathematics and cryptocurrency systems. The program trains cyber operatives and IT workers posted overseas. Top hackers can receive housing in Pyongyang, and their units can keep up to 30% of the proceeds from their thefts. \u2014 link",
 "title": "Highlight Clip: Behind the $6.3 Billion Binance Heist: How Does North Korea Train World-Class Hackers?",
@@ -1669,7 +1668,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794280296.0,
 "tgtext": "\ud83d\udd25 BIG: Anthropic aims to raise up to $69.3 billion in its IPO, which could rank among the largest stock market debuts on record, per Reuters.\n\nNews | Markets | YouTube",
 "title": "BIG: Anthropic aims to raise up to $69.3 billion in its IPO, which could rank among the largest stock market debuts on record, per Reuters.",
@@ -1745,23 +1744,6 @@
 "tgtext": "\ud83d\udd25 NEW: Anthropic plans to begin marketing its Nasdaq IPO on Tuesday.",
 "title": "Anthropic plans to begin marketing its Nasdaq IPO on Tuesday.",
 "url": "https://t.me/cointelegraph/73145",
-"urls": []
-},
-"699649779e1d": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Crypto Briefing",
-"Koin B\u00fclteni",
-"KuCoin",
-"Pluang",
-"Wu Blockchain"
-],
-"t": 1794121394.6969745,
-"t0": 1794100050.0,
-"tgtext": "Former Holograph Foundation Employee Sentenced to Five Years for Illegally Minting $14M in HLG Tokens\n\nA Paris criminal court sentenced a former Holograph Foundation employee to five years in prison, with two years to be served and three years suspended, for illegally minting 1 billion HLG tokens worth approximately $14 million in 2024. The defendant manipulated token minting conditions and transferred the tokens to personal wallets, working with two accomplices to move the proceeds through crypto exchanges.\n\nThe accomplices received suspended or partially suspended sentences and fines of \u20ac80,000 and \u20ac40,000. The court rejected Holograph Foundation's compensation claim over the token's price decline, citing insufficient evidence of a direct causal link. \u2014 link",
-"title": "Former Holograph Foundation Employee Sentenced to Five Years for Illegally Minting $14M in HLG Tokens",
-"url": "https://t.me/wublockchainenglish/26732",
 "urls": []
 },
 "6cf530f7d80d": {
@@ -2571,7 +2553,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794278431.0,
 "tgtext": "Hut 8 (@Hut8Corp) transferred another 1,617 $BTC ($121.43M) 2 hours ago, possibly to sell.\n\nIn October, Hut 8 sold 2,148 $BTC ($175.4M) at an average price of ~$81,657 to fund share buybacks.\n\nhttps://arkm.com/explorer/entity/hut-8",
 "title": "Hut 8 (@Hut8Corp) transferred another 1,617 BTC ($121.43M) 2 hours ago, possibly to sell.",
@@ -3442,7 +3424,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794274124.0,
 "tgtext": "An Ethereum OG wallet woke up after over 10 years of inactivity and moved all 2,155 $ETH ($4.59M) 2 hours ago!\n\nThe OG bought 1,400 $ETH during the ICO at just $0.31 each ($434 total) and later withdrew another 755 $ETH from #Bitfinex when $ETH was trading at $11.74.\n\nhttps://etherscan.io/address/0x7dDd57165c87A2707f025DCFC2508c09834759Bc",
 "title": "An Ethereum OG wallet woke up after over 10 years of inactivity and moved all 2,155 ETH ($4.59M) 2 hours ago!",
@@ -3750,7 +3732,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794291021.0,
 "tgtext": "Whales are accumulating $BTC!\n\nA newly created wallet, \"bc1qga,\" withdrew 1,489 $BTC ($111.34M) from #BitGo just 40 minutes ago.\n\n3 newly created wallets withdrew 1,002.86 $BTC ($75M) from #Binance over the past 24 hours.\n\nhttps://arkm.com/explorer/address/bc1qgah8uw89ut4xl8tsu670kmcp9w3zavg2esvdx6u206l2yehyhjystysrjy\nhttps://arkm.com/explorer/address/bc1q4nrjtlm98aujzvtxd8pps00ekqhm2gtz5907nd\nhttps://arkm.com/explorer/address/bc1qw4us7rcrjqkqjhc6qt73hhvegp6glvdttl7lcz\nhttps://arkm.com/explorer/address/bc1q08kkm45rk5c40ch8re4tzmdgu7hnuqgc99ly8l",
 "title": "Whales are accumulating BTC!",
@@ -4056,23 +4038,6 @@
 "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sTll6UHl4UTBPUlZNZVJMZnQ2cUt3QzhQM0lOZXdyb0o4bXRQUEdjczlqUVhSVm4yR1EtWUJrelotNElVbWxNOVFFQTNUZXpDUDdnMS1YWUoxOHJWaXNEOVRrRmFLY01SYkdJN0w1RVRpWmNO?oc=5",
 "urls": []
 },
-"f0b2e48d34bf": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"Benzinga",
-"CoinMarketCap",
-"Moneyweb",
-"Nairametrics",
-"NewsBytes"
-],
-"t": 1794121394.6969745,
-"t0": 1794099840.0,
-"tgtext": "",
-"title": "$124M in Bitcoin from Binance hack stolen assets converted, mostly from XRP via THORChain.",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQkF2elJuTFNyRU0wZTAtY3l3TjFyN2VPcGlhMlZ4bzlCb0Fmcy14OWpBSENVZG93aXRfSVd5eFFZcTgyVU9acnBTdUV5b1JQRGhUakdZaTJaV1IxNWtmeHN4ZXg4MmY2ellmdUZjOXB1WS1tcUhYNjdra3NfaGIwb0REVE14UQ?oc=5",
-"urls": []
-},
 "f104c0b266a3": {
 "coin": "",
 "src": "Hokanews",
@@ -4264,7 +4229,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794293586.2759101,
+"t": 1794294358.0204089,
 "t0": 1794276210.0,
 "tgtext": "Is the #EthereumFoundation dumping $ETH again?  A wallet linked to the #EthereumFoundation sold 2,785 $ETH ($6.42M) at $2,304 over the past hour.  The last suspected #EthereumFoundation $ETH sale was 2 weeks ago, and $ETH has dropped 9% since then. https:\u2026",
 "title": "Is the EthereumFoundation dumping ETH again? A wallet linked to the EthereumFoundation sold 2,785 ETH ($6.42M) at $2,304 over the past hour. The last suspected EthereumFoundation ETH sale was 2 weeks ago, and ETH has dro",
@@ -4290,44 +4255,44 @@
 },
 "probs": {
 "07c058e06960": 0.224,
-"087c90e2475b": 0.55,
+"087c90e2475b": 0.997,
 "0dd6e441e11f": 0.179,
 "1104e745b929": 0.063,
 "16a0253e9c26": 0.035,
+"1e6db723fe0b": 0.075,
 "21a44e0417c0": 0.093,
 "229ea67ffb1a": 0.263,
 "25452e7baa57": 0.664,
 "25f57828f2e9": 0.024,
 "28e43cb91afd": 0.045,
-"30c1df8216cd": 0.134,
+"30c1df8216cd": 0.035,
 "3768c18a80d1": 0.029,
 "39f52e6ab7f1": 0.087,
 "3c898c0cb304": 0.028,
-"50a504bfd8a3": 0.364,
+"50a504bfd8a3": 0.419,
 "553368627ad0": 0.039,
 "5866504a5db3": 0.865,
 "58c197f2f86b": 0.069,
 "5c90e1379a15": 0.582,
-"61b1b452a3c3": 0.09,
 "6e7ddd64e2b8": 0.14,
 "716c75b14e05": 0.105,
 "75040f07341d": 0.013,
 "78f7a83e386d": 0.063,
 "7c4b56503334": 0.072,
+"7d4c880f62f2": 0.37,
 "7e43aea55749": 0.136,
-"8dd28f9ea727": 0.535,
 "928dcbc2eca0": 0.055,
 "92cde37cdbac": 0.015,
 "96a4282405e8": 0.142,
-"a029c65b231e": 0.016,
-"bb11d1372264": 0.15,
+"a3d749ed08ea": 0.12,
 "c44812d23c52": 0.064,
 "cd0edb5faf46": 0.266,
 "d3f4eca69a38": 0.605,
 "d44707f1c7a7": 0.149,
 "e7078a7fc2f1": 0.052,
-"e83d9fdbb0a4": 0.028,
+"e83d9fdbb0a4": 0.025,
 "f823449df37f": 0.055,
+"fe46c83c9f4f": 0.075,
 "fe7889e43c62": 0.97
 },
 "sent": [
@@ -5562,71 +5527,99 @@
 "btc",
 "whales"
 ]
+},
+{
+"e": [
+"holdings",
+"mara"
+],
+"k": [],
+"t": 1794294358.0204089,
+"u": [
+"https://t.me/wublockchainenglish/26758",
+"https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more",
+"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTW9Kai1jSnhka3dBUWxaUG1seURfbzFKeHVmUzFRRjlZc0U1UVlYNnlHbmRZdXBYOFpxTFltTDdaMDladzVDMkR2ZGVWejRDRGY3elBpUTZTaW5RN18wa3RGM3J0eV9GUkJVOUlrWS03a05YU0JOaDNPYXZza2M2SDI1YUNwUlJHNFdfdTl4RFpacEpXWGpVOG1NSVJkTW1PU2MtZG9XZWhQbTExOHZ1SzNjMDFZVHl6OG9UTHBHR0x6TE5hSlQ1WA?oc=5",
+"https://t.me/lookonchainchannel/10990"
+],
+"w": [
+"$37",
+"38m",
+"500",
+"another",
+"bitcoin",
+"btc",
+"holdings",
+"mara",
+"miner",
+"out",
+"today",
+"transferred"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"087c90e2475b",
+49,
+201,
+3
+],
+[
 "fe7889e43c62",
-12,
-290,
+10,
+302,
 1
 ],
 [
 "5866504a5db3",
-68,
-346,
+67,
+359,
 4
 ],
 [
 "25452e7baa57",
 22,
-95,
-1
-],
-[
-"d3f4eca69a38",
-18,
-43,
-1
-],
-[
-"5c90e1379a15",
-32,
-222,
+107,
 1
 ],
 [
 "c0bea15fa69e",
 0,
-324,
+337,
 1
 ],
 [
-"087c90e2475b",
-34,
-188,
-2
+"d3f4eca69a38",
+18,
+56,
+1
+],
+[
+"5c90e1379a15",
+30,
+234,
+1
 ],
 [
 "8dd28f9ea727",
-7,
-253,
+5,
+265,
 1
 ],
 [
 "3a5547f26f34",
 0,
-264,
+277,
 1
 ],
 [
-"0efb05b5eaa8",
-1,
-253,
+"50a504bfd8a3",
+8,
+199,
 1
 ]
 ],
-"top_at": 1794293586.2759101
+"top_at": 1794294358.0204089
 }
