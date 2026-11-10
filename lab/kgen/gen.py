@@ -1,10 +1,17 @@
 # Runs INSIDE a free Kaggle GPU notebook (2x T4): makes short AI video clips with two open models in parallel and times them.
 import os, sys, subprocess, json, time
 OUT = '/kaggle/working'
-PROMPTS = [
- 'Cinematic realistic shot, a hooded hacker typing fast on a keyboard in a dark room lit by green code on several monitors, slow push-in, moody, shallow depth of field',
- 'Cinematic realistic shot, a glass skyscraper at night, red alarm lights flashing, golden coins pouring out of a broken window into the dark sky, slow camera tilt up',
- 'Cinematic realistic close-up, a hand holding a smartphone in a dark room, the screen shows a red falling chart, the hand trembles, shallow depth of field',
+PROMPTS = [  # Pizza Day Short: one 3-second scene per line, strong motion
+ 'Cinematic realistic close-up, two hot pizzas on a wooden table, steam rising, shiny gold coins pouring down and piling up next to them, dramatic warm light, slow push-in',
+ 'Cinematic realistic shot, a man at night in a small room typing on an old laptop, the screen glow lights his face, he leans in, slow push-in, 2010',
+ 'Cinematic realistic close-up, fingers typing fast on an old laptop keyboard at night, glowing screen, camera slowly moving sideways',
+ 'Cinematic realistic shot, a young college student in a dorm room at night reads his laptop screen and starts smiling, nods, slow push-in',
+ 'Cinematic realistic shot, a pizza delivery man walks up to a house front door at night carrying two pizza boxes, warm porch light, the door opens',
+ 'Cinematic realistic close-up, a man opens a pizza box on a kitchen table and lifts a cheesy slice, cheese stretching, warm light',
+ 'Cinematic realistic shot, a huge pile of gold coins grows taller and taller, coins falling and bouncing, glittering, dark background, camera tilts up',
+ 'Cinematic realistic close-up, a young man in a dark room looks up from his phone, surprised, thoughtful, slow push-in',
+ 'Cinematic realistic shot, a young backpacker walks fast through a bright airport terminal, planes outside the windows, tracking shot',
+ 'Cinematic realistic shot, a young traveler stands on a cliff at sunset looking at the ocean, wind in his hair, he smiles, slow orbit',
 ]
 W, H = 480, 832
 RUN = r'''
@@ -13,7 +20,7 @@ from diffusers.utils import export_to_video
 which, out = sys.argv[1], sys.argv[2]; P = json.loads(sys.argv[3]); W, H = int(sys.argv[4]), int(sys.argv[5])
 t0 = time.time(); res = {'model': which, 'clips': []}
 try:
-    if which == 'wan':
+    if which.startswith('wan'):
         from diffusers import AutoencoderKLWan, WanPipeline
         mid = 'Wan-AI/Wan2.1-T2V-1.3B-Diffusers'
         vae = AutoencoderKLWan.from_pretrained(mid, subfolder='vae', torch_dtype=torch.float32)
@@ -25,10 +32,10 @@ try:
         kw = dict(num_frames=65, num_inference_steps=30, negative_prompt='worst quality, blurry, jittery, distorted, text, watermark'); fps = 24
     pipe.enable_model_cpu_offload()
     res['load_s'] = round(time.time() - t0)
-    for k, p in enumerate(P):
+    for k, p in P.items():
         t1 = time.time()
-        fr = pipe(prompt=p, width=W, height=H, **kw).frames[0]
-        f = f'{out}/{which}_{k + 1}.mp4'; export_to_video(fr, f, fps=fps)
+        fr = pipe(prompt=p + ', dynamic motion, highly detailed, 4k film still quality', width=W, height=H, **kw).frames[0]
+        f = f'{out}/clip_{int(k) + 1:02d}.mp4'; export_to_video(fr, f, fps=fps)
         res['clips'].append({'file': f, 'secs': round(time.time() - t1), 'frames': len(fr), 'fps': fps})
         print(which, k + 1, round(time.time() - t1), 's', flush=True)
 except Exception as e:
@@ -43,12 +50,13 @@ def sh(c):
 sh('nvidia-smi --query-gpu=name,memory.total --format=csv')
 sh('pip install -q -U diffusers transformers accelerate sentencepiece imageio imageio-ffmpeg ftfy 2>&1 | tail -3')
 procs = []
-for gpu, which in ((0, 'ltx'), (1, 'wan')):
+for gpu in (0, 1):
     env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(gpu))
-    procs.append(subprocess.Popen([sys.executable, '/tmp/run_one.py', which, OUT, json.dumps(PROMPTS), str(W), str(H)], env=env,
-                                  stdout=open(f'{OUT}/{which}.log', 'w'), stderr=subprocess.STDOUT))
+    part = {i: p for i, p in enumerate(PROMPTS) if i % 2 == gpu}
+    procs.append(subprocess.Popen([sys.executable, '/tmp/run_one.py', f'wan{gpu}', OUT, json.dumps(part), str(W), str(H)], env=env,
+                                  stdout=open(f'{OUT}/wan{gpu}.log', 'w'), stderr=subprocess.STDOUT))
 for p in procs: p.wait()
-for which in ('ltx', 'wan'):
+for which in ('wan0', 'wan1'):
     try: LOG.write(open(f'{OUT}/{which}.json').read() + '\n')
     except Exception as e: LOG.write(f'{which}: no result {e}\n')
     try: LOG.write(open(f'{OUT}/{which}.log').read()[-2500:] + '\n')
