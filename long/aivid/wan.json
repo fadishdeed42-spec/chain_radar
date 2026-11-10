@@ -1,0 +1,25 @@
+{
+ "model": "wan",
+ "clips": [
+  {
+   "file": "/kaggle/working/wan_1.mp4",
+   "secs": 707,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/wan_2.mp4",
+   "secs": 674,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/wan_3.mp4",
+   "secs": 671,
+   "frames": 49,
+   "fps": 16
+  }
+ ],
+ "load_s": 453,
+ "total_s": 2505
+}

@@ -1,0 +1,58 @@
+/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 18 files:  11%|█         | 2/18 [00:00<00:00, 17.24it/s]Fetching 18 files:  33%|███▎      | 6/18 [00:00<00:00, 28.16it/s]Fetching 18 files:  50%|█████     | 9/18 [00:00<00:00, 20.63it/s]Fetching 18 files:  56%|█████▌    | 10/18 [00:19<00:00, 20.63it/s]Fetching 18 files:  61%|██████    | 11/18 [01:49<01:53, 16.14s/it]Fetching 18 files:  67%|██████▋   | 12/18 [02:37<02:10, 21.80s/it]Fetching 18 files:  72%|███████▏  | 13/18 [03:40<02:30, 30.01s/it]Fetching 18 files:  78%|███████▊  | 14/18 [04:07<01:57, 29.45s/it]Fetching 18 files: 100%|██████████| 18/18 [04:08<00:00, 13.78s/it]
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:15<01:02, 15.66s/it]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   0%|          | 1/219 [00:01<05:23,  1.49s/it][A
+Loading weights:   3%|▎         | 7/219 [00:04<02:11,  1.62it/s][A
+Loading weights:   4%|▎         | 8/219 [00:04<01:53,  1.86it/s][A
+Loading weights:   7%|▋         | 16/219 [00:07<01:23,  2.42it/s][A
+Loading weights:   8%|▊         | 17/219 [00:07<01:16,  2.62it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:10<01:14,  2.59it/s][A
+Loading weights:  12%|█▏        | 26/219 [00:10<01:10,  2.75it/s][A
+Loading weights:  16%|█▌        | 34/219 [00:13<01:04,  2.85it/s][A
+Loading weights:  16%|█▌        | 35/219 [00:13<01:00,  3.02it/s][A
+Loading weights:  20%|█▉        | 43/219 [00:16<01:01,  2.86it/s][A
+Loading weights:  20%|██        | 44/219 [00:16<00:58,  2.99it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:19<00:55,  3.02it/s][A
+Loading weights:  24%|██▍       | 53/219 [00:19<00:52,  3.14it/s][A
+Loading weights:  27%|██▋       | 59/219 [00:19<00:32,  4.99it/s][A
+Loading weights:  28%|██▊       | 61/219 [00:22<01:04,  2.45it/s][A
+Loading weights:  29%|██▉       | 63/219 [00:22<00:54,  2.87it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:25<00:55,  2.69it/s][A
+Loading weights:  32%|███▏      | 71/219 [00:25<00:52,  2.81it/s][A
+Loading weights:  36%|███▌      | 79/219 [00:28<00:48,  2.90it/s][A
+Loading weights:  37%|███▋      | 80/219 [00:29<00:48,  2.84it/s][A
+Loading weights:  40%|████      | 88/219 [00:31<00:45,  2.88it/s][A
+Loading weights:  41%|████      | 89/219 [00:31<00:43,  3.00it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:34<00:40,  3.00it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:34<00:40,  3.00it/s][A
+Loading weights:  48%|████▊     | 106/219 [00:37<00:38,  2.90it/s][A
+Loading weights:  49%|████▉     | 107/219 [00:37<00:36,  3.04it/s][A
+Loading weights:  53%|█████▎    | 115/219 [00:40<00:36,  2.85it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:44<00:32,  2.89it/s][A
+Loading weights:  61%|██████    | 133/219 [00:46<00:28,  2.97it/s][A
+Loading weights:  65%|██████▍   | 142/219 [00:50<00:26,  2.91it/s][A
+Loading weights:  65%|██████▌   | 143/219 [00:50<00:25,  3.02it/s][A
+Loading weights:  69%|██████▉   | 151/219 [00:53<00:23,  2.94it/s][A
+Loading weights:  73%|███████▎  | 160/219 [00:56<00:20,  2.91it/s][A
+Loading weights:  74%|███████▎  | 161/219 [00:56<00:19,  2.97it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:58<00:15,  3.16it/s][A
+Loading weights:  78%|███████▊  | 170/219 [00:59<00:15,  3.09it/s][A
+Loading weights:  80%|████████  | 176/219 [00:59<00:09,  4.67it/s][A
+Loading weights:  81%|████████▏ | 178/219 [01:02<00:16,  2.53it/s][A
+Loading weights:  82%|████████▏ | 180/219 [01:02<00:13,  2.81it/s][A
+Loading weights:  85%|████████▌ | 187/219 [01:05<00:11,  2.71it/s][A
+Loading weights:  89%|████████▉ | 196/219 [01:08<00:08,  2.80it/s][A
+Loading weights:  90%|████████▉ | 197/219 [01:08<00:07,  2.86it/s][A
+Loading weights:  94%|█████████▎| 205/219 [01:11<00:04,  2.87it/s][A
+Loading weights:  98%|█████████▊| 214/219 [01:13<00:01,  3.11it/s][A
+Loading weights:  98%|█████████▊| 215/219 [01:14<00:01,  3.19it/s][A
+Loading weights: 100%|██████████| 219/219 [01:17<00:00,  2.15it/s][ALoading weights: 100%|██████████| 219/219 [01:17<00:00,  2.82it/s]
+Loading pipeline components...:  60%|██████    | 3/5 [01:33<01:06, 33.03s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
+Loading checkpoint shards:  50%|█████     | 1/2 [01:21<01:21, 81.39s/it][A
+Loading checkpoint shards: 100%|██████████| 2/2 [01:43<00:00, 46.67s/it][ALoading checkpoint shards: 100%|██████████| 2/2 [01:43<00:00, 51.88s/it]
+Loading pipeline components...:  80%|████████  | 4/5 [03:17<00:57, 57.55s/it]Loading pipeline components...: 100%|██████████| 5/5 [03:18<00:00, 38.64s/it]Loading pipeline components...: 100%|██████████| 5/5 [03:18<00:00, 39.63s/it]
+  0%|          | 0/30 [00:00<?, ?it/s]
