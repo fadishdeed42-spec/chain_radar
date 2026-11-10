@@ -258,7 +258,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794317705.0,
 "tgtext": "JUST IN: $200,000,000 worth of crypto longs liquidated in the past 5 minutes.\n\n@WatcherGuru",
 "title": "$200,000,000 worth of crypto longs liquidated in the past 5 minutes.",
@@ -436,25 +436,6 @@
 "https://decrypt.co/382793/nvidia-board-investigates-jensen-huang-after-report-he-was-target-of-chinese-spy-effort"
 ]
 },
-"1547dda954f2": {
-"coin": "ethereum",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Crypto News",
-"Cryptonews.net",
-"The Block",
-"Wu Blockchain"
-],
-"t": 1794163470.6556954,
-"t0": 1794141976.0,
-"tgtext": "Vitalik: ETH Should Focus on Store of Value, Not Fee Burning\n\nVitalik Buterin said Ethereum should focus more on ETH as a store of value rather than as a \u201cfee-burning token,\u201d arguing that fee burn was never as strong a valuation floor as it appeared and that maximizing fees could conflict with decentralization and capture resistance.\n\nHe said Ethereum\u2019s strongest attributes are decentralization and \u201cCROPS\u201d \u2014 censorship and capture resistance, open source, privacy and security \u2014 and that these qualities are better aligned with ETH\u2019s role as a store of value. Buterin added that Ethereum should not be concerned even if fee burn remains below 10% of breakeven over the long term, saying ETH\u2019s value can come from elsewhere. \u2014 link\n\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
-"title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
-"url": "https://t.me/cointelegraph/73120",
-"urls": [
-"https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022"
-]
-},
 "1555c8e2d151": {
 "coin": "bitcoin",
 "src": "bloomingbit",
@@ -620,6 +601,22 @@
 "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mN2dPTlMxbTRXQzc3QXRraXJtMkpZTkpwM29LOXg0aUdMYWJ5djBzRDlmNllQcG5DWUdhcmwtVnRtYWtpTjAxZjJCVFNWUGhqRHZqT2xB?oc=5",
 "urls": []
 },
+"20956c30a5d6": {
+"coin": "bitcoin",
+"src": "Pluang",
+"srcs": [
+"Bitcoin News",
+"Cryptonews.net",
+"Pluang",
+"www.tokenpost.com"
+],
+"t": 1794336671.9269269,
+"t0": 1794328835.0,
+"tgtext": "",
+"title": "Bitcoin dips to $72,787 as US inflation rises, triggering $632M crypto liquidations and higher Fed rate hike odds.",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkRGcFdCaElRQm9OYlp0czBCLVVfWVE5OTRtb3VKbUJhRnVzYzdibTd6U3lQazNGak5FQk9aY3VoeU1ybm1BUEhCZnVqa2hlWnBxNXpUTjdIRGpJVWh1czN4YU0tWUpUdkJFMDBrNi1iT2RqaGVpeVV5Vk5pUGNSdy1zanJ3UHVFMW5veDlndThtcmdNY1E?oc=5",
+"urls": []
+},
 "2167c8170626": {
 "coin": "bitcoin",
 "src": "Yahoo Finance",
@@ -669,22 +666,6 @@
 "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYdmJTOHhnMkRUOWx3S0ctY3FMVnVYak5yU2F0YUZkVW9vMGhIVkVFWjNNNFVvU2RyX3VhOHdMRXN5VFI4MTRucUxDQmtpTGExR3NXYS1SVjBHM0pRVWdQbzJJMHVFenU1LU5oZ0t0eDhQMzlzdTd5eGwzbllDN28?oc=5",
 "urls": []
 },
-"23a795a0a939": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"TradingView"
-],
-"t": 1794164083.1256838,
-"t0": 1794142671.0,
-"tgtext": "",
-"title": "Binance France emails announce closure of its users\u2019 accounts on Dec. 31",
-"url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "247297945ddc": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -731,7 +712,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794334159.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal Reserve projected to raise interest rates by 25 basis points at the next FOMC meeting.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Federal Reserve projected to raise interest rates by 25 basis points at the next FOMC meeting.",
@@ -1375,7 +1356,7 @@
 "CryptoPotato",
 "Cryptonews.net"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794321300.0,
 "tgtext": "",
 "title": "Bitcoin Price Analysis: Will BTC Crash Below $70K Next as Selling Pressure Intensifies?",
@@ -1495,7 +1476,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794317527.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US CPI rises 0.4% month over month in October, above the 0.3% estimate. \n\nCore CPI rises 0.3%, above the 0.2% estimate and matching September\u2019s pace.\n\nNews | Markets | YouTube\nUS October CPI Rises 0.4% MoM, Core CPI Up 0.3%, Both Above Expectations\n\nU.S. CPI rose 0.4% month-over-month in October, above the 0.3% forecast but below September's 0.6% increase, according to the Bureau of Labor Statistics. Core CPI increased 0.3%, exceeding expectations of 0.2% and matching the previous reading. Year-over-year figures for headline and core CPI were unavailable due to missing October 2025 data caused by the U.S. government shutdown. \u2014 link",
 "title": "US October CPI Rises 0.4% MoM, Core CPI Up 0.3%, Both Above Expectations",
@@ -1579,7 +1560,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794318186.0,
 "tgtext": "\ud83d\udea8 NOW: $178M in crypto longs were liquidated in one hour as October US CPI came in hotter than expected.\n\nNews | Markets | YouTube",
 "title": "NOW: $178M in crypto longs were liquidated in one hour as October US CPI came in hotter than expected.",
@@ -1813,7 +1794,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794325916.0,
 "tgtext": "Plume Affiliate Kimber Digital Securities Secures FINRA Membership and SEC Broker-Dealer Registration\n\nPlume announced that its affiliated broker-dealer, Kimber Digital Securities, has received FINRA membership approval and is now registered with the U.S. Securities and Exchange Commission (SEC). The firm plans to use infrastructure provided by the Depository Trust Company (DTC) to enable investors to hold eligible tokenized stocks, ETFs, and bonds in self-custodial wallets while retaining their corresponding book-entry entitlements recorded at DTC and associated shareholder rights. Plume said the model aims to integrate tokenized securities with the existing U.S. securities custody and settlement system while complying with regulatory requirements, including best execution, independent oversight of operational and cybersecurity risks, and ongoing disclosures. \u2014 link",
 "title": "Plume Affiliate Kimber Digital Securities Secures FINRA Membership and SEC Broker-Dealer Registration",
@@ -1912,7 +1893,7 @@
 "Cryptonews",
 "Wu Blockchain"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794316697.0,
 "tgtext": "Onchain Lens: $891M Potentially Moved or Laundered Following $6.34B Binance Hack\n\nAccording to Onchain Lens, approximately $891 million in assets from the previous $6.34 billion Binance hack may have been transferred or used for money laundering. Onchain Lens estimates that around $2.85 billion in assets remain under the attackers' control, while another $2.6 billion has been frozen. Over the past two to three days, the attackers have continued moving funds through THORChain and Chainflip. \u2014 link",
 "title": "Onchain Lens: $891M Potentially Moved or Laundered Following $6.34B Binance Hack",
@@ -2239,7 +2220,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794331611.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US credit card debt reaches new all-time high of $1.29 trillion.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US credit card debt reaches new all-time high of $1.29 trillion.",
@@ -2666,7 +2647,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794316293.0,
 "tgtext": "After 9 months of inactivity, whale 0x5479 withdrew 10,000 $ETH ($20.89M) from #Binance just 1 hour ago.\n\nhttps://arkm.com/explorer/address/0x5479be5145a8f0851425186e1aEbF24180850D0c",
 "title": "After 9 months of inactivity, whale 0x5479 withdrew 10,000 ETH ($20.89M) from Binance just 1 hour ago.",
@@ -2830,6 +2811,19 @@
 "tgtext": "\u26a1\ufe0f CZ: \u201cTokenized stocks trade 24/7, giving you an edge on news over the weekend.\u201d\n\nNews | Markets | YouTube",
 "title": "CZ: \u201cTokenized stocks trade 24/7, giving you an edge on news over the weekend.\u201d",
 "url": "https://t.me/cointelegraph/73129",
+"urls": []
+},
+"a1dc25be4cfd": {
+"coin": "bitcoin",
+"src": "CryptoPotato",
+"srcs": [
+"CryptoPotato"
+],
+"t": 1794336671.9269269,
+"t0": 1794329280.0,
+"tgtext": "",
+"title": "$570M in Longs Liquidated as BTC, ETH, XRP Crash Again",
+"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGs4aXlnT0wyZk5PaUJJY0tSNXpzX3JUWEk4NW9VZzdEc1ZzRUVrWGF1QTF6RDdKWUwzaXVXSUN3Z0hKRXNrWXhlcGdCSWJSYjMtUDA1TGFqNmo0cWpfdEhveEFFcXdRR0UxVWtTckVVeGMzR3d0OHIzT0tKbTJ2T0pYSQ?oc=5",
 "urls": []
 },
 "a274ec70c7b0": {
@@ -3234,7 +3228,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794336184.9817164,
+"t": 1794336978.0370872,
 "t0": 1794329125.0,
 "tgtext": "JUST IN: Goldman Sachs, Citigroup, Santander and Deutsche Bank commit $270 million to launch joint crypto stablecoin.\n\n@WatcherGuru\n\ud83d\udd25 BIG: Goldman Sachs, Citi, Santander and Deutsche Bank are among financial firms reportedly committing around $270 million to fund a joint US-based dollar stablecoin venture over five years, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "BIG: Goldman Sachs, Citi, Santander and Deutsche Bank are among financial firms reportedly committing around $270 million to fund a joint US-based dollar stablecoin venture over five years, per Bloomberg.",
@@ -3623,24 +3617,6 @@
 "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd0ZsNHpodlBpbU80cTZXNkRQVWd2RmNaUWFZVGF3T3hDVlQ5clVLZnhKdUVKc3ZzRXJoVDVFRjF5OGI3RFgzT2hUVnVqa0R1WTBaUDJBTjZhalV5OWNGeTJUaGxRb2ZqT0J6RFZSSFNCVHA1emdUU1pKWXUwNGJTUFlET2FvUDNGN2pjYnc1RXRYdm1NX2c5UUJia2YwU0R0alE?oc=5",
 "urls": []
 },
-"cc9d6bff8aa1": {
-"coin": "ethereum",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Crypto News",
-"Cryptonews.net",
-"The Block"
-],
-"t": 1794163778.479979,
-"t0": 1794142471.0,
-"tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
-"title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
-"url": "https://t.me/cointelegraph/73120",
-"urls": [
-"https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022"
-]
-},
 "ccee589b2735": {
 "coin": "stellar",
 "src": "TOKENPOST",
@@ -3997,21 +3973,6 @@
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tVUJJR01XNXhGZ1JEeXdqbkpDT0IwQndtRkRzUkp4UkR5ZHRGaEdkSWdJdEVTTjZqV2xpa3hpUTBtWFlqOGo5S0JLdFJYd1FIcmN4ZUF5SGx3dw?oc=5",
 "urls": []
 },
-"e7f24389f5ab": {
-"coin": "bitcoin",
-"src": "CoinDesk",
-"srcs": [
-"CoinDesk"
-],
-"t": 1794164083.1256838,
-"t0": 1794142559.0,
-"tgtext": "",
-"title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-"url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
-"urls": [
-"https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
-]
-},
 "e96192799d7d": {
 "coin": "solana",
 "src": "CoinDesk",
@@ -4061,19 +4022,6 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats to block President Donald Trump's $1.5 trillion military budget.",
 "url": "https://t.me/WatcherGuru/15876",
-"urls": []
-},
-"f104c0b266a3": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Hokanews"
-],
-"t": 1794163778.479979,
-"t0": 1794146280.0,
-"tgtext": "",
-"title": "Former Holograph Foundation Employee Sentenced to Five Years Over $14M HLG Token Minting",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NUWJCMmMzQjVFZmF4cVk4dENwZkxjT0JHREstNWktRExzTTVBekg0TVNQREZwMkt1VkE5U2U1T0pRaVJyQnVWNFg4YXp0RmVHX2hWQ1FSejJKYzM5WWozR3kzMGxNYnZJcElKdnFoZXJIY2YzV1o1TEhpWjdyYlk?oc=5",
 "urls": []
 },
 "f2b27be91d06": {
@@ -4260,14 +4208,13 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
-"014c0946476a": 0.092,
+"014c0946476a": 0.066,
 "014dda75a9b4": 0.018,
-"0bf8727c7aed": 0.022,
-"1ae3c0643973": 0.052,
 "1b6fa801abb4": 0.064,
 "202a80c869b0": 0.325,
 "20956c30a5d6": 0.147,
 "24b234a8d17b": 0.085,
+"257f80e030ae": 0.021,
 "266e70602dcf": 0.526,
 "35255c77d9c8": 0.015,
 "3dfa8efdc6ee": 0.014,
@@ -4276,17 +4223,17 @@
 "52170592fd9e": 0.352,
 "564d1fdf199e": 0.009,
 "64a6b10e6af9": 0.016,
-"6a9228cd1909": 0.062,
+"6a9228cd1909": 0.034,
 "6c854bd2e287": 0.275,
 "6d10af6d96cc": 0.339,
-"6fc4a6f3dc33": 0.731,
+"6fc4a6f3dc33": 0.657,
 "77c46dca9f80": 0.282,
 "7f6a7be01e16": 0.121,
-"827cfbd9080f": 0.67,
+"827cfbd9080f": 0.595,
 "848910ceeaa4": 0.029,
-"960309c454c2": 0.769,
-"a08c4c0fc533": 0.018,
-"a62b9195ddc0": 0.104,
+"9b6d7025179b": 0.086,
+"a08c4c0fc533": 0.01,
+"a62b9195ddc0": 0.082,
 "b7af3327dc8a": 0.477,
 "c5db62e8fe79": 0.037,
 "d1047002c57d": 0.004,
@@ -4297,8 +4244,9 @@
 "e5ee464884ca": 0.146,
 "e69621653919": 0.019,
 "ebd45cc3d291": 0.01,
-"f40e45d76912": 0.049,
+"f40e45d76912": 0.035,
 "f8ba96e044dd": 0.094,
+"fa22c1bd27f0": 0.051,
 "fe13f0c45533": 0.137
 },
 "sent": [
@@ -5993,64 +5941,64 @@
 "top": [
 [
 "960309c454c2",
-12,
-332,
+11,
+345,
 1
 ],
 [
 "6fc4a6f3dc33",
-61,
-325,
+59,
+338,
 3
+],
+[
+"0c456aed8ac1",
+7,
+321,
+1
 ],
 [
 "827cfbd9080f",
 22,
-76,
-1
-],
-[
-"0c456aed8ac1",
-8,
-308,
+89,
 1
 ],
 [
 "4dfc6d73c2a1",
-3,
-311,
+1,
+324,
 2
 ],
 [
 "266e70602dcf",
 24,
-34,
+47,
 1
 ],
 [
 "49d70264f931",
-42,
-248,
+41,
+261,
 2
 ],
 [
 "b7af3327dc8a",
 46,
-118,
+131,
 4
 ],
 [
 "52170592fd9e",
-26,
-300,
+24,
+313,
 2
 ],
 [
 "6d10af6d96cc",
 34,
-171,
+184,
 2
 ]
 ],
-"top_at": 1794336184.9817164
+"top_at": 1794336978.0370872
 }
