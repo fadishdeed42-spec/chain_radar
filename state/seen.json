@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794234842.6920893,
 1794278566.9247322,
 1794282408.0539687,
 1794288228.3469071,
@@ -15,7 +14,8 @@
 1794310794.8488102,
 1794313245.16398,
 1794314496.4483953,
-1794317906.559131
+1794317906.559131,
+1794322328.0243244
 ],
 "menu": {
 "00f555793394": {
@@ -52,7 +52,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794310516.0,
 "tgtext": "ZachXBT Questions FinCEN\u2019s $16B MEXC Allegation, Raises Concerns Over Regulatory Overreach\n\nOnchain investigator ZachXBT argued that hundreds of millions or even billions of dollars in illicit activity could also be identified at other major exchanges, raising concerns about potential U.S. regulatory overreach against platforms like MEXC and HTX. He questioned why offshore exchanges with little U.S. presence rushed to restrict MEXC-related transfers. While acknowledging MEXC\u2019s historically lax AML/KYC practices, he said FinCEN\u2019s $16 billion illicit transaction estimate appeared overstated and called for supporting data and comparisons with other exchanges. \u2014 link",
 "title": "ZachXBT Questions FinCEN\u2019s $16B MEXC Allegation, Raises Concerns Over Regulatory Overreach",
@@ -258,7 +258,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794317705.0,
 "tgtext": "JUST IN: $200,000,000 worth of crypto longs liquidated in the past 5 minutes.\n\n@WatcherGuru",
 "title": "$200,000,000 worth of crypto longs liquidated in the past 5 minutes.",
@@ -534,7 +534,7 @@
 "Crypto News",
 "Pluang"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794310297.0,
 "tgtext": "",
 "title": "Initia halts blockchain after $615K hack; INIT token jumps 61% amid ongoing investigation",
@@ -1505,7 +1505,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794317527.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US CPI rises 0.4% month over month in October, above the 0.3% estimate. \n\nCore CPI rises 0.3%, above the 0.2% estimate and matching September\u2019s pace.\n\nNews | Markets | YouTube\nUS October CPI Rises 0.4% MoM, Core CPI Up 0.3%, Both Above Expectations\n\nU.S. CPI rose 0.4% month-over-month in October, above the 0.3% forecast but below September's 0.6% increase, according to the Bureau of Labor Statistics. Core CPI increased 0.3%, exceeding expectations of 0.2% and matching the previous reading. Year-over-year figures for headline and core CPI were unavailable due to missing October 2025 data caused by the U.S. government shutdown. \u2014 link",
 "title": "US October CPI Rises 0.4% MoM, Core CPI Up 0.3%, Both Above Expectations",
@@ -1589,7 +1589,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794318186.0,
 "tgtext": "\ud83d\udea8 NOW: $178M in crypto longs were liquidated in one hour as October US CPI came in hotter than expected.\n\nNews | Markets | YouTube",
 "title": "NOW: $178M in crypto longs were liquidated in one hour as October US CPI came in hotter than expected.",
@@ -2214,6 +2214,20 @@
 "url": "https://t.me/WatcherGuru/15919",
 "urls": []
 },
+"81c716491301": {
+"coin": "bitcoin",
+"src": "CryptoPotato",
+"srcs": [
+"CryptoPotato",
+"Gadgets 360"
+],
+"t": 1794322328.0243244,
+"t0": 1794304232.0,
+"tgtext": "",
+"title": "Bitcoin Price Analysis: Will BTC Crash Below $70K Next as Selling Pressure Intensifies?",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzlOeXZDeExVandWQmthSm5PRVF5ZUlYdXlfRDluTXZZaW5iZUctT0JoSGRkWU16M0FUV3BZV3ZTSW01MWlmVWhTZjdGZEgwaTJkaUM3SExzb25XWTE0b0thWi1DcEJsOUxpbG91U2g2QTlJRHlpUkF0aFR6Y2dJNXd6cnNrRTFrYlBHdVh0aTdkaTctcFJrVF9fd3R0eVZndG52TEJyb3FHTWVWblZ3?oc=5",
+"urls": []
+},
 "83d057f6ebfc": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2573,7 +2587,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794314137.0,
 "tgtext": "BlackRock deposited another 72,212 $ETH ($151.4M) into #CoinbasePrime just 1 hour ago.\n\nSince Oct 1, #BlackRock has seen net outflows of 791,758 $ETH ($1.74B)!\n\nhttps://arkm.com/explorer/entity/blackrock\nAfter 9 months of inactivity, whale 0x5479 withdrew 10,000 $ETH ($20.89M) from #Binance just 1 hour ago.\n\nhttps://arkm.com/explorer/address/0x5479be5145a8f0851425186e1aEbF24180850D0c",
 "title": "After 9 months of inactivity, whale 0x5479 withdrew 10,000 ETH ($20.89M) from Binance just 1 hour ago.",
@@ -2730,23 +2744,6 @@
 "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto"
 ]
 },
-"9d57785e0d24": {
-"coin": "",
-"src": "NewsCord",
-"srcs": [
-"Crypto News",
-"Fox Business",
-"IDNFinancials",
-"NewsCord",
-"StoneX"
-],
-"t": 1794149709.6109138,
-"t0": 1794128400.0,
-"tgtext": "",
-"title": "Binance CFO Kaiser Ng Resigns After $6.3 Billion Hack, Justin Yek Named Finance Chief: 18 outlets compared",
-"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeG9NSmFBZW1IWEFyM3AzYlZXXzlTUHNoX0dUemxCckhjVG5Sb0ppa0lLczhFTUhMT0VRdXlwODRIVWMyMUZ6elFrLXNROEtjZTBtSmZyZkhFSkxhUEE5STJBWUcyV3VPLUJfSkdvYnJ3T2FvV2hYR0lmR0NNNUZCNVZsQlhmOVJzMGFxRGtYMWFmNHllQ3h5MnZDNllBN0MtRFpLTXl0Q1I2VlFqVGNkajdqaDZxU3lmTVViLWVTR0xzamN4b0NzZDJ0c3l5MkluRmJ0OWRMWWhJZ0xWYlhTbzlMWTJWREpPWEE?oc=5",
-"urls": []
-},
 "9dc6d33e0678": {
 "coin": "bitcoin",
 "src": "The Block",
@@ -2838,16 +2835,17 @@
 },
 "a4559e1b0aba": {
 "coin": "bitcoin",
-"src": "Pluang",
+"src": "Yahoo Finance",
 "srcs": [
 "Pluang",
-"Watcher.Guru"
+"Watcher.Guru",
+"Yahoo Finance"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794305903.0,
 "tgtext": "JUST IN: Bitcoin falls under $74,000\n\n@WatcherGuru",
-"title": "Bitcoin dips below $74,000 amid $1B crypto liqu...",
-"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0EyNEFYTVNCbDRjNGRSOWhJTzc2RWtaNWgza3pNTDctNlhxQ1lOZFF3SVpKd0VoWEhRSERCcHVEdzN3UnJ6a3JGOGZCaFhOWE5ZaFhmYW90RE8zbnVnNS1vUVkzOXd3Qm02VGM3UDdteWxscXJZYkJ6bWtLWlFIeXJtS3BWbWgzVllPckY5ejZZM0RXUlE?oc=5",
+"title": "Bitcoin Drops Below $74,000 as Core Inflation Runs Above Forecasts",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM0ZLYkhsNktzOHJqSUUzZ3hnZEJrVkh0VGEzSnplOVNSUFA5R1F3NWF1SlVfNkhtMTZqQjZlMlVHTzJvMmZtV0JGLUpqdE5IS2ZmOFZkQ29oR2ZaVnFsZmFFQlpqQlQ1TXZiX250WHhiVmdJSnJCdjZUenNkLTR1dUNnb0Rqdll0WnFEMkVDbG9KY3BwTVE?oc=5",
 "urls": []
 },
 "a4578a6b599a": {
@@ -3270,6 +3268,20 @@
 "url": "https://t.me/wublockchainenglish/26753",
 "urls": []
 },
+"b83070e4a313": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Cryptonews",
+"Watcher.Guru"
+],
+"t": 1794322632.7102883,
+"t0": 1794310692.0,
+"tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea is launching 'Elon Musk' crypto memecoins to launder $6.3 billion stolen from Binance.\n\n@WatcherGuru",
+"title": "\ud83c\uddf0\ud83c\uddf5 North Korea is launching 'Elon Musk' crypto memecoins to launder $6.3 billion stolen from Binance.",
+"url": "https://t.me/WatcherGuru/15924",
+"urls": []
+},
 "b9315c308bcd": {
 "coin": "bitcoin",
 "src": "The Block",
@@ -3337,6 +3349,23 @@
 "title": "North Korea Creates Disposable Crypto Tokens to Make Binance Hack Funds Look Like Trading Profits",
 "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WYWt0ZkUtZTJTY2pxUk94ZFdkWEdrYzRIRFd3YnZzbU5tekp2ZVVmWEV3UVRyalVGZk5Dd0F2VnFHcEtXNEtwcHFPaXczMU9CekwzOTlYNm1BSWtEcXM2UUtSNEZFcTZr0gFoQVVfeXFMT1Zha3RmRS1lMlNjanFST3hkV2RYR2tjNEhEV3didnNtTm16SnZlVWZYRXdRVHJqVUZmTkN3QXZWcUdwS1c0S3BwcU9pdzMxT0J6TDM5OVg2bUFJa0RxczZRS1I0RkVxNms?oc=5",
 "urls": []
+},
+"bc5941aca7f7": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"BitPinas",
+"Cointelegraph",
+"Decrypt"
+],
+"t": 1794322632.7102883,
+"t0": 1794301403.0,
+"tgtext": "\ud83d\udea8 JUST IN: Binance will block transfers to MEXC following a designation by US FinCEN.\n\nNews | Markets | YouTube",
+"title": "Binance Halts MEXC Transfers as FinCEN Cuts Exchange Off From US Financial System",
+"url": "https://decrypt.co/382926/binance-halts-mexc-transfers-as-fincen-cuts-exchange-off-from-us-financial-system",
+"urls": [
+"https://decrypt.co/382926/binance-halts-mexc-transfers-as-fincen-cuts-exchange-off-from-us-financial-system"
+]
 },
 "bcb3521368f5": {
 "coin": "bitcoin",
@@ -3844,7 +3873,7 @@
 },
 "dfa85693da3f": {
 "coin": "bitcoin",
-"src": "Crypto News",
+"src": "Yahoo Finance",
 "srcs": [
 "Bitcoin Magazine",
 "CoinDesk",
@@ -3852,11 +3881,11 @@
 "Crypto News",
 "Moomoo"
 ],
-"t": 1794321849.8680212,
+"t": 1794322632.7102883,
 "t0": 1794305302.0,
 "tgtext": "",
-"title": "Bitcoin price falls below $74,000 as hot US CPI fuels Fed rate hike fears",
-"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRG9URW9SZFc5UzNZdlhTOGpCRjEyYjlhWjZ4OW5kaDFHdkRSOGhPWm1NaGdVUGRkSUFKVmppeTV6NXV3c2J0OHJyMjhxQ0djaTA4bUZrSXBYMEltUHYtcnpmalI3OU1tc29ZSklna2U0aGQ2NUJEWjJfbW85d0J4R2ZqdFFVeUlva1VBaGVBUXpOUGtYNHdZ?oc=5",
+"title": "Bitcoin Falls Below $74K After Hot US Inflation Fuels Fed Rate Hike Bets \u2013 Solana, Ethereum, XRP Hit Harder",
+"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdDhpTnBQNXBzblRwbWJubnhvWWkxM3NnVG9iLVRUMG94NEw1NXJ2by1CeUV6LVczY2tFU3QyaG1mWlY2a2tSM2xOcUF4TXlmd3I1Vm14ZGl0NUlKcDNXTW1FMVNHZnhaQzMxTE0tSDBMdHIwTTE1T19VelFkS2FidWQ0U0JkWDNiMU13ZjJENTUyRE5zd0xR?oc=5",
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
@@ -3900,7 +3929,7 @@
 "Lookonchain",
 "Wu Blockchain"
 ],
-"t": 1794321849.8680212,
+"t": 1794322328.0243244,
 "t0": 1794304616.0,
 "tgtext": "14 public companies have sold 108,247 $BTC ($8.08B) in 2026!\n\nMARA sold 40,581 $BTC ($3.03B) at an average price of $74,446, while Riot Platforms sold 20,264 $BTC ($1.51B) at an average price of $73,231.\n14 Public Companies Sold an Estimated $8.08 Billion in Bitcoin in 2026, Led by MARA and Riot\n\nAccording to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 40,581 BTC sold, followed by Riot Platforms with 20,264 BTC. Together, the two accounted for about 56.2% of the total. Bitdeer, Cango, and CleanSpark recorded 10,553 BTC, 7,001 BTC, and 5,715 BTC, respectively. The figures include some estimated onchain outflows and options-related deliveries, rather than exclusively confirmed spot sales. \u2014 link",
 "title": "14 Public Companies Sold an Estimated $8.08 Billion in Bitcoin in 2026, Led by MARA and Riot",
@@ -4214,23 +4243,22 @@
 "probs": {
 "013c78dfd737": 0.909,
 "065521a7587c": 0.681,
-"0c456aed8ac1": 0.938,
+"0c456aed8ac1": 0.92,
 "168d897da9ba": 0.183,
-"17725d1293ce": 0.283,
 "17a12e5947d7": 0.962,
 "1b6fa801abb4": 0.18,
 "2680be9bf9fe": 0.312,
-"26fe2fa79c21": 0.096,
-"27d1cbe22319": 0.933,
 "3716123ed103": 0.278,
 "394ebf0b3a8a": 0.28,
 "39f52e6ab7f1": 0.168,
-"3ace99776595": 0.347,
+"3ace99776595": 0.447,
 "3c898c0cb304": 0.058,
 "484fe0d8d1b4": 0.129,
-"4dfc6d73c2a1": 0.933,
-"52170592fd9e": 0.886,
+"4dfc6d73c2a1": 0.914,
+"52170592fd9e": 0.855,
 "59a39e4fca8b": 0.196,
+"5bdce0f20dcc": 0.425,
+"64a6b10e6af9": 0.051,
 "6d6f4636a0b0": 0.53,
 "77c46dca9f80": 0.636,
 "7bd8253753af": 0.417,
@@ -4238,56 +4266,23 @@
 "9301f02abe6e": 0.93,
 "97947e36ec60": 0.198,
 "984ab91690fb": 0.681,
-"a4559e1b0aba": 0.891,
-"a6a5c267c579": 0.27,
-"b83070e4a313": 0.679,
+"a1f646a9e312": 0.162,
+"a4559e1b0aba": 0.825,
+"b369847ad86b": 0.215,
+"b83070e4a313": 0.723,
 "b8b8cc22e0ab": 0.126,
-"d30986dd6f5c": 0.148,
-"dc6da3856529": 0.199,
+"bc5941aca7f7": 0.779,
+"d01f789716f0": 0.156,
+"d5f139912a80": 0.295,
 "dfa85693da3f": 0.77,
-"e4e91e03d10a": 0.801,
+"e5ee464884ca": 0.355,
 "eab7be6f8312": 0.061,
 "ebd45cc3d291": 0.033,
-"ece13eaa5917": 0.445,
-"fc08214746c1": 0.081,
+"fc08214746c1": 0.191,
 "fd361a4eac88": 0.402,
 "fe5cd9a718d6": 0.14
 },
 "sent": [
-{
-"e": [
-"donald",
-"president",
-"trump"
-],
-"k": [],
-"t": 1794148181.694124,
-"u": [
-"https://t.me/WatcherGuru/15874",
-"https://t.me/cointelegraph/73119"
-],
-"w": [
-"back",
-"before",
-"bigger",
-"blamed",
-"come",
-"day",
-"donald",
-"election",
-"ever",
-"loss",
-"market",
-"one",
-"president",
-"results",
-"stock",
-"stronger",
-"trillion",
-"trump",
-"vowing"
-]
-},
 {
 "e": [],
 "k": [
@@ -5800,6 +5795,38 @@
 "one",
 "were"
 ]
+},
+{
+"e": [
+"analysis",
+"below",
+"crash",
+"intensifies",
+"next",
+"pressure",
+"selling"
+],
+"k": [
+"crash"
+],
+"t": 1794322328.0243244,
+"u": [
+"https://news.google.com/rss/articles/CBMilgJBVV95cUxORENoWGJLRXR1bnlKUmV6Zzc3ckt0ekJyZERZazVKQm5WUmEyTzhOSTFyNU9nZmJMOFFPbGVSUlBmb2dGRV85cjRRNnl0cmtlNlFQdThHeWFRMXI3TVB3QWhuSzQ5eUJUOWo4TU5PanpkVkw2eENqbFZ0U2Y5NlhmbW01YV9GYlJrcWpOd2hyZ1NYaVRQZjh1OVNhMU8ySkJhNE43UkVUajVtUzJoeUlXRDR3TEh2dTFBMWFXX09OQTZPWUdPZFVHZFZzdU5jYUlMNURGMHhVZVN1MmlfSFhrUVVoNG9tVXF1VDN5Tk5qWWY2X1hORTRUUUlyWDNlWTk1emxqQjBnNk1JS1Q0QlpiYTVDOXczd9IBmwJBVV95cUxQRDh0ejZ5LXVZT01zVzRabG1hWnRFcWJLRjNMSXlfWkY1eEdQeWxLZm9HbnVIdWdwSXFNNUVQMkJ5V0tpaEJKcFZYZThHRllLcUxJRC1yU3I0NHpYQVhlV2ptalN6ajRoY2s1a2kwc1JFRnNhWF9tU3dVbTkxYThVaVhhd0pEX3RUMi1zV3dRZUNSYTEwZEF4MzFlekhhTzJ1RWw3YkxndXFJQjFaSERlY0c0aDYwSFJQM1EtOFVETHlrSHhYRUpmMGRiMTFseGVuUEdTRzF1T1BETmg3dDByeENqRkdhRDhBZWxFemo0VldYM0NzYkU2bUI2NVQ4N05LSkZjeHdSOHkwYXdCek1XRVJ0RzdwMlBSaW9J?oc=5",
+"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzlOeXZDeExVandWQmthSm5PRVF5ZUlYdXlfRDluTXZZaW5iZUctT0JoSGRkWU16M0FUV3BZV3ZTSW01MWlmVWhTZjdGZEgwaTJkaUM3SExzb25XWTE0b0thWi1DcEJsOUxpbG91U2g2QTlJRHlpUkF0aFR6Y2dJNXd6cnNrRTFrYlBHdVh0aTdkaTctcFJrVF9fd3R0eVZndG52TEJyb3FHTWVWblZ3?oc=5"
+],
+"w": [
+"$70k",
+"analysis",
+"below",
+"bitcoin",
+"btc",
+"crash",
+"intensifies",
+"next",
+"pressure",
+"price",
+"selling"
+]
 }
 ],
 "stories": {},
@@ -5807,64 +5834,64 @@
 "top": [
 [
 "17a12e5947d7",
-64,
-193,
+62,
+206,
 2
+],
+[
+"9301f02abe6e",
+32,
+142,
+1
 ],
 [
 "0c456aed8ac1",
 25,
-69,
+82,
 1
 ],
 [
 "4dfc6d73c2a1",
 20,
-72,
+85,
 2
-],
-[
-"27d1cbe22319",
-47,
-358,
-4
-],
-[
-"9301f02abe6e",
-32,
-129,
-1
 ],
 [
 "013c78dfd737",
-24,
-189,
+23,
+202,
 1
-],
-[
-"a4559e1b0aba",
-24,
-266,
-2
 ],
 [
 "52170592fd9e",
 41,
-61,
+74,
 2
 ],
 [
-"e4e91e03d10a",
-21,
-287,
-2
+"a4559e1b0aba",
+32,
+279,
+3
+],
+[
+"bc5941aca7f7",
+37,
+354,
+3
 ],
 [
 "dfa85693da3f",
-42,
-276,
-6
+40,
+289,
+7
+],
+[
+"b83070e4a313",
+68,
+199,
+2
 ]
 ],
-"top_at": 1794321849.8680212
+"top_at": 1794322632.7102883
 }
