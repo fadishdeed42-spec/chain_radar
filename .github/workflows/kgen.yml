@@ -45,7 +45,7 @@ jobs:
           git config --global user.name chain-radar; git config --global user.email noreply@github.com
           for i in 1 2 3 4 5; do
             rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
-            mkdir -p /tmp/w/long/aivid && cp out/*.mp4 out/*.jpg out/*.json out/run.txt /tmp/w/long/aivid/ 2>/dev/null
+            mkdir -p /tmp/w/long/aivid && { cp out/*.mp4 out/*.json out/*.txt out/*.log /tmp/w/long/aivid/ 2>/dev/null; true; }
             cd /tmp/w && git add -A && git commit -qm "kgen clips [skip ci]" && git push -q && break
             cd -; sleep $((i*3))
           done
