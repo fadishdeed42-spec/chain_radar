@@ -438,22 +438,6 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kWGRsMU15VEFCb1hnR3lfck02NnJOM3NQTVcwZG1JYkUxa09UdVRjZUFGRUNKcG1JQ3NBdTFMZ1dnTUtWM243ZU5VTUF1UTVMb202LXdYWjk?oc=5",
 "urls": []
 },
-"16754fd1d8a4": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Hokanews",
-"The Block"
-],
-"t": 1794174513.0531373,
-"t0": 1794152940.0,
-"tgtext": "",
-"title": "Web3Auth Exploit Drains $6 Million From 44,000 Wallets, Trust Wallet and MetaMask Respond",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN0pwd1ZFRWhFYlY4YWJPSWhvb05GaDJma1hPekQySmtaS2dJNkctNTVDTjU1UXMtVGE5OThwZEl3VHV4ekpZZWxNS0h2MWNJMDVqZjE3RTIxd284WGczd1NnQ24wOGNGWFFnc2dtUGxyUllBbFhLeHFJV21oZHVsNmxR?oc=5",
-"urls": [
-"https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029"
-]
-},
 "16d08b83388e": {
 "coin": "",
 "src": "CoinDesk",
@@ -572,18 +556,18 @@
 },
 "20956c30a5d6": {
 "coin": "bitcoin",
-"src": "Pluang",
+"src": "Cryptonews.net",
 "srcs": [
-"Bitcoin News",
+"BeInCrypto",
+"CryptoRank",
 "Cryptonews.net",
-"Pluang",
-"www.tokenpost.com"
+"TOKENPOST"
 ],
-"t": 1794336671.9269269,
+"t": 1794347317.3954334,
 "t0": 1794328835.0,
 "tgtext": "",
-"title": "Bitcoin dips to $72,787 as US inflation rises, triggering $632M crypto liquidations and higher Fed rate hike odds.",
-"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkRGcFdCaElRQm9OYlp0czBCLVVfWVE5OTRtb3VKbUJhRnVzYzdibTd6U3lQazNGak5FQk9aY3VoeU1ybm1BUEhCZnVqa2hlWnBxNXpUTjdIRGpJVWh1czN4YU0tWUpUdkJFMDBrNi1iT2RqaGVpeVV5Vk5pUGNSdy1zanJ3UHVFMW5veDlndThtcmdNY1E?oc=5",
+"title": "Bitcoin Price Slips Below $74K as Options Traders Eye $72K and Liquidations Mount",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kWGRsMU15VEFCb1hnR3lfck02NnJOM3NQTVcwZG1JYkUxa09UdVRjZUFGRUNKcG1JQ3NBdTFMZ1dnTUtWM243ZU5VTUF1UTVMb202LXdYWjk?oc=5",
 "urls": []
 },
 "2167c8170626": {
@@ -665,7 +649,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794334159.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal Reserve projected to raise interest rates by 25 basis points at the next FOMC meeting.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Federal Reserve projected to raise interest rates by 25 basis points at the next FOMC meeting.",
@@ -735,7 +719,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1794346514.539396,
+"t": 1794347013.4857726,
 "t0": 1794337200.0,
 "tgtext": "",
 "title": "New iOS exploit could let apps steal crypto keys",
@@ -828,7 +812,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794339962.0,
 "tgtext": "\ud83e\udd16 INTERESTING: Elon Musk calls Anthropic\u2019s Claude Opus 5.5 a \u201cmasterpiece,\u201d admitting Grok 4.8 won\u2019t match it but predicting Grok 5 could surpass it within 2\u20133 months.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: Elon Musk calls Anthropic\u2019s Claude Opus 5.5 a \u201cmasterpiece,\u201d admitting Grok 4.8 won\u2019t match it but predicting Grok 5 could surpass it within 2\u20133 months.",
@@ -875,24 +859,6 @@
 "urls": [
 "https://decrypt.co/382813/trump-says-he-knows-nothing-about-world-liberty-financial-as-he-defends-uae-ties",
 "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings"
-]
-},
-"34e3970ab108": {
-"coin": "ethereum",
-"src": "Cointelegraph",
-"srcs": [
-"24/7 Wall St.",
-"Cointelegraph",
-"Cryptonews.net",
-"The Block"
-],
-"t": 1794174513.0531373,
-"t0": 1794153120.0,
-"tgtext": "\u26a1\ufe0f INSIGHT: Vitalik Buterin says $ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.\n\nNews | Markets | YouTube",
-"title": "INSIGHT: Vitalik Buterin says ETH should focus on being a store of value rather than a fee-burning token, arguing that its value comes from decentralization and stability.",
-"url": "https://t.me/cointelegraph/73120",
-"urls": [
-"https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022"
 ]
 },
 "3610852865da": {
@@ -1626,10 +1592,11 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"CryptoPotato",
 "Mashable",
 "Wu Blockchain"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794331339.0,
 "tgtext": "Onchain Lens: $891M Potentially Moved or Laundered Following $6.34B Binance Hack\n\nAccording to Onchain Lens, approximately $891 million in assets from the previous $6.34 billion Binance hack may have been transferred or used for money laundering. Onchain Lens estimates that around $2.85 billion in assets remain under the attackers' control, while another $2.6 billion has been frozen. Over the past two to three days, the attackers have continued moving funds through THORChain and Chainflip. \u2014 link",
 "title": "Onchain Lens: $891M Potentially Moved or Laundered Following $6.34B Binance Hack",
@@ -1649,6 +1616,19 @@
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Failed Iran Talks Shake BTC Below $75K as AlphaPepe Passes $3.34M Despite the Selloff",
 "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQYkNFeU8xb2wxUk9xQ0VGbGxPR1JiNHVRRnQ3QU8zZ3ZlbVAzR0RleldvRWF6c2x5ZjAtSWt1RTJ2bTdxYzJpeVVlYk5xaDhWQUlsbE5nM2pmQ08xalNzNGk0WTdoMWFQenE2QjZraDBocjZEaWkwLTNpZWxXdllrR0xHUkJweDRwRl9hSFp0M181ZGxSaExVMXJLcTJsVlY1ejFqTkNiTEI0UlhYdklZSDE2eU1YVE9tb203RlgzakFuclhrd2hBWER2X2JyLTZwOUZJTmZaMzhiOEJYTktwVXp2VXVKMUVxWUdYZXBVYU1fX0QwV3JCX3ZkME0zRHhJZVdjMXRuMVM?oc=5",
+"urls": []
+},
+"620d51baae05": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794347317.3954334,
+"t0": 1794347161.0,
+"tgtext": "\ud83d\udea8 NEW: The CFTC is reportedly preparing charges against prediction market platform Kalshi over alleged failures to notify regulators about new contracts, according to POLITICO. \n\nKalshi says the issue was a procedural error that it is already addressing.\n\nNews | Markets | YouTube",
+"title": "The CFTC is reportedly preparing charges against prediction market platform Kalshi over alleged failures to notify regulators about new contracts, according to POLITICO.",
+"url": "https://t.me/cointelegraph/73178",
 "urls": []
 },
 "625308e81ebf": {
@@ -1720,23 +1700,6 @@
 "tgtext": "",
 "title": "Bitcoin dips below $75K amid US election fears, Binance hack fallout, and ETF outflows.",
 "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRnJXYjVROWZCX2hwTHM3LWR6dWZCLTVVSjluQlNMaERjZUpoT0w3UjViQ3ZXWVVqT01DUm8wSnNwSG9OeElXOF9zRDVoUktOTGJ4bE1ZVVpuSV9IYXBrZG96cnZmOHRydGE2WTFVeUtzLVI2Z1dpbFFFaTFnMFhoMXdtQ3BVQVlZUDlPbUtQOVhrekg4OFppRmpHYzBoaWN0YlNCRQ?oc=5",
-"urls": []
-},
-"6d05f339b5dd": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Crypto Economy",
-"Hokanews",
-"Nikkei Asia",
-"Traders Union",
-"WSJ"
-],
-"t": 1794173904.9796052,
-"t0": 1794152340.0,
-"tgtext": "",
-"title": "CZ Urges Crypto Industry to Unite as Binance Hack Highlights Risks of Exchange Security Breaches",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYdmJTOHhnMkRUOWx3S0ctY3FMVnVYak5yU2F0YUZkVW9vMGhIVkVFWjNNNFVvU2RyX3VhOHdMRXN5VFI4MTRucUxDQmtpTGExR3NXYS1SVjBHM0pRVWdQbzJJMHVFenU1LU5oZ0t0eDhQMzlzdTd5eGwzbllDN28?oc=5",
 "urls": []
 },
 "6d10af6d96cc": {
@@ -2172,7 +2135,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794331611.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US credit card debt reaches new all-time high of $1.29 trillion.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US credit card debt reaches new all-time high of $1.29 trillion.",
@@ -2772,7 +2735,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794329280.0,
 "tgtext": "",
 "title": "$570M in Longs Liquidated as BTC, ETH, XRP Crash Again",
@@ -2824,19 +2787,6 @@
 "urls": [
 "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219"
 ]
-},
-"a5501fb630b9": {
-"coin": "",
-"src": "https://globalpost.com/",
-"srcs": [
-"https://globalpost.com/"
-],
-"t": 1794174513.0531373,
-"t0": 1794162631.0,
-"tgtext": "",
-"title": "North Korea Rejects Accusations of Role in Record-Breaking Cryptocurrency Theft",
-"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbnZIWjVEZWIxcGsxLWlFb2U3M0kzVlcyY280eW9fS21RQk9OOXBBRHF1M2xVcHpsMnd4MDhPRkdCeFE1cnBLZmNPUGUwd0tjUDlnUDloQUNHMWpscXZqYVpOeXhDbmpsbTZFdUpvcXVOZVU0Zjg3cGlVU1hERGNVRTRNR0dSYUhlZF95MnpSUGJLTnNFcWU0V3pvVzVoZ0lOTnJLYll6SkQ1NGhyMm5udg?oc=5",
-"urls": []
 },
 "a6101a9b34a8": {
 "coin": "",
@@ -3184,7 +3134,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794329125.0,
 "tgtext": "JUST IN: Goldman Sachs, Citigroup, Santander and Deutsche Bank commit $270 million to launch joint crypto stablecoin.\n\n@WatcherGuru\nGoldman Sachs, Citi and Other Banks Commit $270M to Joint Stablecoin Venture\n\nAccording to Bloomberg, a group of financial institutions, including Goldman Sachs, Citigroup, Santander and Deutsche Bank, have committed approximately $270 million to Project Faro, a joint stablecoin venture. The funding is intended to cover five years of operations. The project, involving 21 financial institutions, plans to establish a US-based company to issue a dollar-denominated stablecoin in the first half of 2027, with a euro-denominated stablecoin expected to follow. Other participants include Wells Fargo, Fidelity, UBS and Lloyds Banking Group. The initiative aims to compete with established issuers Tether and Circle, whose stablecoins account for roughly 85% of the global market. \u2014 link\n\ud83d\udd25 BIG: Goldman Sachs, Citi, Santander and Deutsche Bank are among financial firms reportedly committing around $270 million to fund a joint US-based dollar stablecoin venture over five years, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "BIG: Goldman Sachs, Citi, Santander and Deutsche Bank are among financial firms reportedly committing around $270 million to fund a joint US-based dollar stablecoin venture over five years, per Bloomberg.",
@@ -3704,7 +3654,7 @@
 "TOKENPOST",
 "Watcher.Guru"
 ],
-"t": 1794346514.539396,
+"t": 1794347013.4857726,
 "t0": 1794325445.0,
 "tgtext": "JUST IN: Bitcoin falls under $73,000\n\n$200,000,000 worth of crypto longs liquidated in the past 15 minutes.\n\n@WatcherGuru",
 "title": "Bitcoin Price Slips Below $74K as Options Traders Eye $72K and Liquidations Mount",
@@ -3732,7 +3682,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794337681.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: House Democratic leader Hakeem Jeffries called for a full congressional briefing on Nvidia CEO Jensen Huang\u2019s reported ties to a Chinese businesswoman allegedly linked to Beijing and urged tighter restrictions on US chip sales to China.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 House Republicans consider subpoenaing Nvidia $NVDA CEO Jensen Huang.\n\n@WatcherGuru",
 "title": "House Democratic leader Hakeem Jeffries called for a full congressional briefing on Nvidia CEO Jensen Huang\u2019s reported ties to a Chinese businesswoman allegedly linked to Beijing and urged tighter restrictions on US chip",
@@ -3745,7 +3695,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1794346514.539396,
+"t": 1794347317.3954334,
 "t0": 1794326162.0,
 "tgtext": "",
 "title": "MEGA commits $30 million to new products, starting with AI inference",
@@ -4193,40 +4143,40 @@
 "11d33bd8786b": 0.016,
 "206f947927d7": 0.056,
 "207ddc7c8e46": 0.026,
-"266e70602dcf": 0.488,
+"20956c30a5d6": 0.445,
+"266e70602dcf": 0.337,
 "2b14da90b0eb": 0.257,
 "2fa25ee46daf": 0.118,
 "2ff1572440c1": 0.42,
 "31089fd1ef57": 0.026,
 "36d97cdd3399": 0.062,
-"39776a360ac2": 0.007,
-"3dfa8efdc6ee": 0.017,
+"3dfa8efdc6ee": 0.009,
 "4c83443cac44": 0.049,
-"559ca3c7af77": 0.027,
-"564d1fdf199e": 0.027,
-"5fc5d7977ff9": 0.434,
+"559ca3c7af77": 0.043,
+"564d1fdf199e": 0.015,
+"5fc5d7977ff9": 0.824,
+"6600381058c9": 0.006,
 "6a6074cf8b34": 0.021,
 "6d10af6d96cc": 0.185,
 "6d6a19c07d4b": 0.152,
 "827cfbd9080f": 0.482,
 "857a2f1ba6d6": 0.089,
-"874cccce022a": 0.006,
 "8a0bcba4f578": 0.037,
-"8f7359267a9c": 0.076,
+"8f7359267a9c": 0.18,
 "9b6d7025179b": 0.057,
 "a1dc25be4cfd": 0.284,
 "b7af3327dc8a": 0.595,
-"bc223a512c96": 0.219,
+"bc223a512c96": 0.168,
 "bffba68c4b60": 0.06,
 "cb5e3252dd03": 0.104,
 "d1047002c57d": 0.005,
 "d1740e7b1ddd": 0.027,
-"d4dd2974baf3": 0.964,
 "d7088635ede5": 0.464,
 "dbdf8c868551": 0.183,
 "e40166d76c5e": 0.008,
 "e69621653919": 0.032,
 "ef689afa6abd": 0.013,
+"f4c94ef902f2": 0.22,
 "f547521bf791": 0.112
 },
 "sent": [
@@ -6002,65 +5952,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"d4dd2974baf3",
-54,
-351,
-6
+"5fc5d7977ff9",
+69,
+266,
+3
 ],
 [
-"b7af3327dc8a",
-32,
-290,
-5
-],
-[
-"266e70602dcf",
-21,
-206,
+"620d51baae05",
+10,
+3,
 1
 ],
 [
+"b7af3327dc8a",
+30,
+303,
+5
+],
+[
 "827cfbd9080f",
-13,
-248,
+12,
+262,
 1
 ],
 [
 "d7088635ede5",
 20,
-147,
+161,
 2
 ],
 [
-"5fc5d7977ff9",
-61,
-253,
-2
+"20956c30a5d6",
+59,
+308,
+4
 ],
 [
 "2ff1572440c1",
 28,
-109,
+123,
 2
+],
+[
+"266e70602dcf",
+19,
+219,
+1
 ],
 [
 "d8d4ea292e03",
 0,
-339,
+353,
 1
 ],
 [
 "a1dc25be4cfd",
-27,
-287,
-1
-],
-[
-"2b14da90b0eb",
-40,
-155,
+25,
+301,
 1
 ]
 ],
-"top_at": 1794346514.539396
+"top_at": 1794347317.3954334
 }
