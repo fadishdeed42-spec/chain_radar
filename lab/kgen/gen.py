@@ -1,18 +1,19 @@
 # Runs INSIDE a free Kaggle GPU notebook (2x T4): makes short AI video clips with two open models in parallel and times them.
 import os, sys, subprocess, json, time
 OUT = '/kaggle/working'
-PROMPTS = [  # IronKey Short: one ~3-second scene per line, strong motion
- 'Cinematic realistic close-up, a tense man in his thirties stares at a laptop screen in a dark room, red warning light flashing on his sweating face, slow push-in',
- 'Cinematic realistic shot, a young programmer in a bright sunny apartment works on an animation on his laptop, sticky notes on the wall, camera glides sideways',
- 'Cinematic realistic shot, shiny gold coins raining down onto a wooden desk and piling up higher and higher, glittering, warm light, slow push-in',
- 'Cinematic realistic macro shot, a hand plugs a small black metal USB flash drive into a laptop, a tiny green light turns on, shallow focus',
- 'Cinematic realistic shot, a man frantically searches through papers and drawers in a messy room at night, papers flying, handheld camera',
- 'Cinematic realistic macro shot, a small black USB flash drive on a dark table, its red light blinking, sparks and smoke rising, dramatic',
- 'Cinematic realistic shot, a frustrated man slams his hands on a desk in front of a laptop at night and grabs his head, camera shake',
- 'Cinematic realistic shot, camera flies low over a gigantic mountain of gold coins in a dark vault, glittering, epic scale',
- 'Cinematic realistic shot, hackers in a dark server room with rows of blinking servers and green code on screens, camera tracking forward',
- 'Cinematic realistic shot, a man in a dark suit shakes his head, closes his laptop and walks away from the desk, city lights through the window at night',
- 'Cinematic realistic extreme close-up, a finger slowly hovers above the Enter key of a laptop keyboard, glowing screen light, intense, slow push-in',
+PROMPTS = [  # Bitcoin Faucet Short: one ~3-second scene per line
+ 'Cinematic realistic shot, a glowing old 2010 computer monitor in a dark bedroom shows a simple web page, golden coins burst out of the screen and fly toward the camera, magical',
+ 'Cinematic realistic shot, a young man in a dark room at night types on an old computer keyboard, the monitor glow on his face, slow push-in',
+ 'Cinematic realistic shot, five shiny gold coins drop one by one into an open hand, slow motion, sparkles, warm light, macro shot',
+ 'Cinematic realistic shot, a golden water faucet on a dark wall pours a stream of shiny gold coins instead of water into a sink, coins overflowing, slow motion',
+ 'Cinematic realistic shot, a programmer in a small 2010 home office pours a big bag of gold coins into a glass jar on his desk, coins spilling, warm lamp light',
+ 'Cinematic realistic shot, a mysterious hooded figure seen from behind types on a keyboard in a dark room lit by a single computer screen, green glow, slow push-in',
+ 'Cinematic realistic shot, a few gold coins next to a crumpled one-dollar bill on a wooden table, camera slowly orbits, soft light',
+ 'Cinematic realistic shot, a huge river of gold coins flows through a dark canyon, glittering, epic aerial camera move',
+ 'Cinematic realistic shot, a gigantic mountain of gold coins towering in a dark hall, light beams from above, camera tilts up, epic scale',
+ 'Cinematic realistic shot, a young man opens an old wallet app on his phone and his jaw drops in shock, face lit by the screen, slow push-in',
+ 'Cinematic realistic shot, a smiling programmer hands small bags of gold coins to a line of excited people in a busy street, warm daylight, handheld camera',
+ 'Cinematic realistic shot, extreme close-up of a computer mouse cursor hovering over a glowing button on an old screen, a finger about to click the mouse, intense, slow push-in',
 ]
 W, H = 480, 832
 RUN = r'''
