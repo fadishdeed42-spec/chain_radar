@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794314496.4483953,
 1794317906.559131,
 1794322328.0243244,
 1794375609.3942149,
@@ -14,7 +13,8 @@
 1794397224.604886,
 1794398141.7138736,
 1794398449.3516173,
-1794399980.1217294
+1794399980.1217294,
+1794401210.7682185
 ],
 "menu": {
 "013c78dfd737": {
@@ -230,7 +230,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794384588.0,
 "tgtext": "\ud83c\udfe6 \u041a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0438\u0439 \u0431\u0430\u043d\u043a \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438 Deutsche Bank \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u043b \u0443\u0441\u043b\u0443\u0433\u0438 \u043f\u043e \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044e \u043a\u0440\u0438\u043f\u0442\u043e\u0432\u0430\u043b\u044e\u0442\u044b.\n\n\u041e\u043d\u0438 \u0443\u0436\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u043c \u0438 \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u0430\u043c \u0432 \u0415\u0432\u0440\u043e\u043f\u0435.\n\n\u0412 \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u043c \u0431\u0430\u043d\u043a \u043f\u043b\u0430\u043d\u0438\u0440\u0443\u0435\u0442 \u0440\u0430\u0441\u0448\u0438\u0440\u0438\u0442\u044c \u0441\u0435\u0440\u0432\u0438\u0441 \u043d\u0430 \u0410\u0437\u0438\u044e, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c \u0442\u043e\u043a\u0435\u043d\u0438\u0437\u0430\u0446\u0438\u044e \u0438 \u0440\u0430\u0441\u0447\u0435\u0442\u044b \u0441 \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u043c\u0438 \u0430\u043a\u0442\u0438\u0432\u0430\u043c\u0438.\n\n\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a: Reuters\n\nCrypto Headlines\nJUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank officially rolls out crypto custody services.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: $1.7T Deutsche Bank launches digital asset custody for clients.\n\nNews | Markets | YouTube",
 "title": "Deutsche Bank goes live with digital asset custody service, signs asset management deal",
@@ -286,7 +286,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794386564.0,
 "tgtext": "$ZEC has dropped below $1,000!\n\nTrader 0x8742 opened a 10x long on 18,000 $ZEC ($17.63M) and is now down over $2.8M.\n\nLiquidation price: $895.46.\n\nhttps://hypurrscan.io/address/0x874226b22939904f436ff0434e1fd0ab257c8427#perps",
 "title": "ZEC has dropped below $1,000!",
@@ -304,19 +304,6 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigation into Megaspeed over suspected AI chip smuggling to China halted after Nvidia $NVDA intervened.\n\nCEO Jensen Huang had an affair with former Megaspeed executive Alice Huang, who has been accused of being a Chinese spy.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigation into Megaspeed over suspected AI chip smuggling to China halted after Nvidia NVDA intervened.",
 "url": "https://t.me/WatcherGuru/15903",
-"urls": []
-},
-"1488c566c4a7": {
-"coin": "polkadot",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1794228087.8357396,
-"t0": 1794227389.0,
-"tgtext": "Polkadot DeFi Networks Acala and Karura Plan Permanent Shutdown on February 10, 2027\n\nAcala announced plans to permanently shut down both its Polkadot-based network and sister network Karura on Kusama on February 10, 2027, pending approval of Acala Referendum #195 and Karura Referendum #137. Users are urged to withdraw external assets, including DOT, KSM, USDT and USDC, before the shutdown. Native ACA and KAR tokens cannot be withdrawn. The team cited insufficient and fragmented DeFi liquidity across the Polkadot and Kusama ecosystems as the main reason for winding down. Acala and Karura were the first parachain auction winners on Polkadot and Kusama, respectively. \u2014 link",
-"title": "Polkadot DeFi Networks Acala and Karura Plan Permanent Shutdown on February 10, 2027",
-"url": "https://t.me/wublockchainenglish/26747",
 "urls": []
 },
 "1505e2a87f33": {
@@ -408,7 +395,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794380271.0,
 "tgtext": "Highlight Clip: Qiao Wang: My Only Crypto Holdings Are BTC and ZEC, at a Roughly 2:1 Ratio\n\nQiao Wang: My Only Crypto Holdings Are BTC and ZEC, at a Roughly 2:1 Ratio\n\nAlliance co-founder Qiao Wang told threadguy on October 26 that his only crypto holdings are BTC and ZEC, at roughly 2:1 versus 5:1 previously, mainly because ZEC surged. He prefers holding to selling and paying taxes. Wang remains bullish on Bitcoin over three to five years: governments keep printing money, while Bitcoin's supply stays fixed. He sees Bitcoin's main quantum challenge as governance, including what to do with Satoshi's coins. Wang considers ZEC a potential hedge against Bitcoin's privacy and quantum risks because its developers can keep upgrading the protocol to address new threats. \u2014 link",
 "title": "Highlight Clip: Qiao Wang: My Only Crypto Holdings Are BTC and ZEC, at a Roughly 2:1 Ratio",
@@ -950,7 +937,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794394294.0,
 "tgtext": "",
 "title": "Kraken parent Payward adds 200 tokenized UK and European equities to xStocks offering",
@@ -1120,19 +1107,6 @@
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea is launching 'Elon Musk' crypto memecoins to launder $6.3 billion stolen from Binance.\n\n@WatcherGuru",
 "title": "Fitch says limited impact of USD 6.3 billion Binance hack highlights Bitcoin market resilience",
 "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdVViMnF1TmRZdEttX3llNFFpUko3ellJUHFnOU9KXzNuU3FISDdpVThYbk4yZGlXNWJsSDNkS09jVE40RnYyWkMyLUU5Ni1sclhwN05LazJXTEp0c1pEOGw1a3lxdWRWenNUcnYtMVJDdTdtdG5aS052ckRITk9CWnRpaW53OHZJTHU3cE9xazBuTzNhT3VyYl9sZVdxN2Npd1BfZlBaSkhmdk5kMFZQQmZ3TU9TYVZfZEtQMW5ZaWI0NldYOFdNZHp3MHkwaGVxY2NKbFpmUTlJalF2?oc=5",
-"urls": []
-},
-"46cb293ca5a4": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794228087.8357396,
-"t0": 1794206706.0,
-"tgtext": "Wallet (0xC356) withdrew 34,601 $ETH ($73.75M) from #Binance over the past 3 hours after more than 2 years of inactivity. \n\nIs someone buying a huge amount of $ETH during the market crash?\n\nhttps://arkm.com/explorer/address/0xC35626b6e2a71D28ffbD49de8E43b4246319d330",
-"title": "Wallet (0xC356) withdrew 34,601 ETH ($73.75M) from Binance over the past 3 hours after more than 2 years of inactivity.",
-"url": "https://t.me/lookonchainchannel/10968",
 "urls": []
 },
 "472927b9f3f6": {
@@ -1517,6 +1491,24 @@
 "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"6241155522a6": {
+"coin": "",
+"src": "Crypto Briefing",
+"srcs": [
+"Crypto Briefing",
+"Decrypt",
+"The Block"
+],
+"t": 1794401210.7682185,
+"t0": 1794392453.0,
+"tgtext": "",
+"title": "Robert Barr jailed for 8 years over \u00a32 million crypto theft plot run from prison",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0Qm5oWVI3YzV2V1AyMHNsc1FHVEpqa2phWmw5R3lRbGd2NFR1dTNRZEZ4V0hFbGo4RTV4cVVsOEtOSk5fRlFReFI2VTNMcEVNUkQ2Um9iLUg0SURRU1pKeGRXdUFhX0dJNXQwSTRkX2d2cXJl?oc=5",
+"urls": [
+"https://decrypt.co/382984/prisoner-jailed-for-8-years-over-2-7m-crypto-theft-plot-run-from-his-cell",
+"https://www.theblock.co/news/regulation/2026-11-11-crypto-fraudster-jailed-for-eight-years-over-2-7-million-theft-plot-directed-from-prison-437858"
+]
+},
 "625308e81ebf": {
 "coin": "",
 "src": "TOKENPOST",
@@ -1592,7 +1584,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794400438.0,
 "tgtext": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks\n\nKraken parent company Payward announced that it has added more than 200 tokenized stocks of UK- and EU-listed companies through xStocks, bringing the total number of products above 1,500. Each token is backed 1:1 by the underlying shares held at a regulated custodian and can be traded on Kraken and supporting xStocks Alliance platforms. Payward expects to launch hundreds of tokenized Hong Kong stocks in the coming weeks. Existing eligibility restrictions remain unchanged, and the service remains unavailable to UK investors, users located in the United States, and U.S. persons. \u2014 link",
 "title": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks",
@@ -1848,7 +1840,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794384807.0,
 "tgtext": "Anthropic Stake Divested Early by FTX Now Worth Over $30 Billion\n\nAccording to Anthropic's latest prospectus, the firm plans to offer 825M Class A shares priced at $70\u2013$78 each, implying a ~$1.2T\u2013$1.4T valuation. FTX and affiliates invested ~$500M in 2021\u20132022 for an initial ~8% stake, now worth ~$31.2B\u2013$34.7B at the IPO range. However, during its 2024 bankruptcy restructuring, FTX trustees fully liquidated the stake in batches at ~$30/share to secure liquidity for cash payouts, recouping only ~$1.34B. With FTX owing creditors ~$11.2B at collapse, retaining the shares would have repaid the entire debt nearly 3x over. \u2014 link",
 "title": "Anthropic Stake Divested Early by FTX Now Worth Over $30 Billion",
@@ -2332,7 +2324,7 @@
 "Cointelegraph",
 "FXStreet"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794384003.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot BTC, ETH, and XRP ETFs saw net outflows on Nov. 10.\n\nBTC: -$95.00M\nETH: -$1.32M\nXRP: -$7.62M\n\nNews | Markets | YouTube",
 "title": "ETF FLOWS: Spot BTC, ETH, and XRP ETFs saw net outflows on Nov. 10.",
@@ -2406,7 +2398,7 @@
 "NewsCord",
 "grafa.com"
 ],
-"t": 1794400593.7792716,
+"t": 1794400906.4271488,
 "t0": 1794379437.0,
 "tgtext": "",
 "title": "Initia Confirms Second Security Exploit, $3.27 Million Stolen After Cloud Key Compromise: 6 outlets compared",
@@ -2873,7 +2865,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794398914.0,
 "tgtext": "In this episode of the Wu Blockchain podcast, Plume co-founder and CEO Chris Yin discusses RWA distribution, sources of yield, liquidity, and compliance. Chris argues that stablecoins have validated the RWA model, while the greater challenge now is distributing assets to users and building sustainable liquidity. \n\nHe stresses that high-yield products also involve underlying credit and custody risks, asset maturities, and redemption restrictions, and that tokenization does not automatically improve liquidity. Over the next two to three years, he expects more traditional institutions to enter the RWA market, advancing native onchain issuance, derivatives, yield splitting, and new types of investment portfolios. \u2014 link",
 "title": "In this episode of the Wu Blockchain podcast, Plume co-founder and CEO Chris Yin discusses RWA distribution, sources of yield, liquidity, and compliance. Chris argues that stablecoins have validated the RWA model, while ",
@@ -2971,7 +2963,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794400593.7792716,
+"t": 1794401210.7682185,
 "t0": 1794400422.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.",
@@ -3991,74 +3983,48 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
-"056a931f5ce9": 0.082,
 "0581c0bb8b3b": 0.05,
-"0b8cd2aebfb3": 0.04,
 "0bd8f3831110": 0.038,
 "0c976649273e": 0.953,
 "100cb83dab07": 0.767,
 "12e8c5d80973": 0.219,
 "1389c7298a39": 0.087,
-"2471eb0206a7": 0.085,
+"163fe8b3ee16": 0.05,
 "28a6e3d1a2f7": 0.637,
 "2ad8ffbcb01f": 0.068,
+"2faf4828b8d3": 0.54,
 "2fe8d4c40950": 0.168,
-"31b595a2999f": 0.055,
 "3aa04d962aba": 0.933,
 "3afe7a29f3a1": 0.064,
 "4390b332993d": 0.117,
-"4f08e60d05e5": 0.039,
+"4f08e60d05e5": 0.099,
 "535f435a8fa6": 0.335,
-"6241155522a6": 0.51,
+"56fe4e2b74e5": 0.041,
+"6241155522a6": 0.821,
 "6a33ccb05aab": 0.419,
 "6beaba6910d6": 0.147,
 "6d6aabea587f": 0.031,
-"700c5a32d16c": 0.446,
+"700c5a32d16c": 0.363,
 "70f605c61039": 0.287,
+"719eefd4b763": 0.636,
 "7267e3b05092": 0.261,
 "763bb4c89978": 0.825,
 "781a9bf99052": 0.168,
-"8ed58a212ae2": 0.128,
+"8ed58a212ae2": 0.031,
 "967a11e7a386": 0.829,
-"99c0b0b9def5": 0.73,
 "9be506d2a6af": 0.047,
-"a483be30169a": 0.723,
-"b5e2647abb73": 0.919,
+"a483be30169a": 0.664,
+"ae1aa43b0135": 0.084,
+"aff5a294e194": 0.047,
+"b5e2647abb73": 0.825,
 "c57946445414": 0.153,
 "c7e8807830f7": 0.107,
 "d253fba987de": 0.131,
-"d68c6a41cf83": 0.035,
 "e752d8504f9c": 0.181,
 "eef7dc66f817": 0.088,
 "fc2bb9d1f1d9": 0.062
 },
 "sent": [
-{
-"e": [
-"two"
-],
-"k": [],
-"t": 1794228087.8357396,
-"u": [
-"https://t.me/lookonchainchannel/10970"
-],
-"w": [
-"08m",
-"106",
-"312",
-"average",
-"belonging",
-"buy",
-"eth",
-"possibly",
-"price",
-"same",
-"spent",
-"two",
-"wallets",
-"whale"
-]
-},
 {
 "e": [
 "michael",
@@ -5623,71 +5589,96 @@
 "spot",
 "xrp"
 ]
+},
+{
+"e": [
+"barr",
+"robert"
+],
+"k": [],
+"t": 1794401210.7682185,
+"u": [
+"https://decrypt.co/382984/prisoner-jailed-for-8-years-over-2-7m-crypto-theft-plot-run-from-his-cell",
+"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2tHMXM3dmpnZW91TVdOVU4xUFRiTGI4cWNCWjJLTEw5QUNDb2pzd1g2S3VlRU9zSlZXbFk4SGNtckN2cWk2ODhiV0pmQUdqbjNTV1M3OTBYbWhWNzctNlZld3NwTEpza0hxSTBRUW11VzE2LTh6bmVFSm9kN1VubERjMkF1Y0UyN1R0c1pfalhFVEtObXBfdFBJLUFzVmRTMjBkUk50cW8?oc=5",
+"https://news.google.com/rss/articles/CBMidEFVX3lxTFA0Qm5oWVI3YzV2V1AyMHNsc1FHVEpqa2phWmw5R3lRbGd2NFR1dTNRZEZ4V0hFbGo4RTV4cVVsOEtOSk5fRlFReFI2VTNMcEVNUkQ2Um9iLUg0SURRU1pKeGRXdUFhX0dJNXQwSTRkX2d2cXJl?oc=5",
+"https://www.theblock.co/news/regulation/2026-11-11-crypto-fraudster-jailed-for-eight-years-over-2-7-million-theft-plot-directed-from-prison-437858"
+],
+"w": [
+"barr",
+"jailed",
+"million",
+"plot",
+"prison",
+"robert",
+"run",
+"theft",
+"years"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"0c976649273e",
-29,
-267,
-4
-],
-[
 "6c60c4d01ea5",
 10,
-3,
+13,
 1
+],
+[
+"0c976649273e",
+28,
+277,
+4
 ],
 [
 "3aa04d962aba",
 45,
-105,
+115,
 3
-],
-[
-"b5e2647abb73",
-24,
-3,
-1
 ],
 [
 "abbd57293158",
 10,
-28,
+38,
 1
 ],
 [
 "179f23eb3f81",
 0,
-339,
+349,
 1
 ],
 [
 "967a11e7a386",
-63,
-277,
+61,
+287,
 3
 ],
 [
-"763bb4c89978",
-14,
-263,
+"b5e2647abb73",
+24,
+13,
 1
+],
+[
+"763bb4c89978",
+13,
+273,
+1
+],
+[
+"6241155522a6",
+54,
+146,
+3
 ],
 [
 "100cb83dab07",
-18,
-234,
+17,
+244,
 1
-],
-[
-"99c0b0b9def5",
-62,
-353,
-4
 ]
 ],
-"top_at": 1794400593.7792716
+"top_at": 1794401210.7682185
 }
