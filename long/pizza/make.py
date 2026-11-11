@@ -83,7 +83,7 @@ open(f'{TMP}/caps.ass', 'w').write('\n'.join(ass))
 # ---- sound: a soft whoosh on every cut, a hit on the hook and the twist
 tr = np.zeros((int((END + 1) * sfx.SR), 2))
 sfx.place(tr, sfx.boom(amp=.45), 0.02)
-for i in range(1, len(lines)): sfx.place(tr, sfx.whoosh(.5, amp=.16), max(0, bounds[i] - .25))
+# no whoosh on cuts: owner found the transition sounds cheap; clean hard cuts on the voice
 for li, w, txt, red in CAP:
     if red: sfx.place(tr, sfx.thud(amp=.35), word_t(li, w))
 sfx.write(f'{TMP}/sfx.wav', tr * .8)
