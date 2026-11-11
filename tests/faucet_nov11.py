@@ -39,7 +39,7 @@ SB = dict(
         sc('twist', 'shock', 'Even Satoshi Nakamoto replied, with tips to stop cheaters.', 'satoshi',
            {'type': 'title', 'text': 'SATOSHI REPLIED', 'sub': 'tips to stop cheaters', 'icon': 'question'}),
         sc('turn', 'curious', 'Back then, five bitcoin were worth less than a dollar.', 'less',
-           {'type': 'versus', 'left': ['5 BTC', '2010'], 'right': ['UNDER $1', 'VALUE'], 'note': 'FIRST MT. GOX TRADE: $0.05'}),
+           {'type': 'versus', 'left': ['2010', '5 BTC'], 'right': ['WORTH', 'UNDER $1'], 'note': 'FIRST MT. GOX TRADE: $0.05'}),
         sc('payoff', 'excited', 'In total, it gave away about 19,700 bitcoin.', 'total',
            {'type': 'counter', 'value': 19700, 'prefix': '', 'suffix': ' BTC', 'label': 'GIVEN AWAY FOR FREE', 'icon': 'bitcoin'}),
         sc('payoff', 'shock', 'Today, that is over $1.4 billion.', 'billion',
