@@ -15,7 +15,9 @@
 1794401210.7682185,
 1794403638.4887915,
 1794406601.483455,
-1794406677.56485
+1794406677.56485,
+1794418483.099572,
+1794418483.099572
 ],
 "menu": {
 "013c78dfd737": {
@@ -658,19 +660,6 @@
 "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5XTTdyWUdJQ2Y3TGN1Q3ZueDFnV3hWNzdpMjNRXzI3VEdmN3ZreENXM0NGVWJEZGZOZzQ0c3FFdjRoUHFha2tGTmtkWlA0SUoxSDF6NjlwNEVVQlVjeDFlRGRjTlFaa19zV25iaURhbmcwUUlISlE3ODBXbWRydw?oc=5",
 "urls": []
 },
-"2c588e21b23f": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794245218.823269,
-"t0": 1794243050.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.7 trillion Goldman Sachs CEO David Solomon expects massive investment in US data centers and AI computing capacity to continue.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 $3.7 trillion Goldman Sachs CEO David Solomon expects massive investment in US data centers and AI computing capacity to continue.",
-"url": "https://t.me/WatcherGuru/15905",
-"urls": []
-},
 "2dc1040334f8": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -762,7 +751,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794402387.0,
 "tgtext": "\ud83d\udd25 JUST IN: OKX and NYSE parent ICE plan to launch their tokenized stock platform on Nov. 23, with 70+ stock- and ETF-linked tokens planned, per Bloomberg.\n\nNews | Markets | YouTube\n\ud83d\udd25 NEW: Pyth Network has added real-time NYSE stock and ETF data to its marketplace, giving applications access to live market data from both NYSE and Nasdaq.\n\nNews | Markets | YouTube",
 "title": "OKX and NYSE parent ICE plan to launch their tokenized stock platform on Nov. 23, with 70+ stock- and ETF-linked tokens planned, per Bloomberg.",
@@ -911,7 +900,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794414230.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $845,000,000,000 added to the US stock market in the first two hours of trading today.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $845,000,000,000 added to the US stock market in the first two hours of trading today.",
@@ -1185,7 +1174,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794417591.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddfb\ud83c\uddea President Donald Trump says US is taking billions of dollars worth of oil from Venezuela, expects hundreds of billions soon.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddfb\ud83c\uddea President Donald Trump says US is taking billions of dollars worth of oil from Venezuela, expects hundreds of billions soon.",
@@ -1402,7 +1391,7 @@
 "Decrypt",
 "Wu Blockchain"
 ],
-"t": 1794417668.9473608,
+"t": 1794418177.0453215,
 "t0": 1794396636.0,
 "tgtext": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks\n\nKraken parent company Payward announced that it has added more than 200 tokenized stocks of UK- and EU-listed companies through xStocks, bringing the total number of products above 1,500. Each token is backed 1:1 by the underlying shares held at a regulated custodian and can be traded on Kraken and supporting xStocks Alliance platforms. Payward expects to launch hundreds of tokenized Hong Kong stocks in the coming weeks. Existing eligibility restrictions remain unchanged, and the service remains unavailable to UK investors, users located in the United States, and U.S. persons. \u2014 link",
 "title": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks",
@@ -1474,14 +1463,17 @@
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
+"Decrypt",
 "Wu Blockchain"
 ],
-"t": 1794415825.6870317,
+"t": 1794418483.099572,
 "t0": 1794400438.0,
 "tgtext": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks\n\nKraken parent company Payward announced that it has added more than 200 tokenized stocks of UK- and EU-listed companies through xStocks, bringing the total number of products above 1,500. Each token is backed 1:1 by the underlying shares held at a regulated custodian and can be traded on Kraken and supporting xStocks Alliance platforms. Payward expects to launch hundreds of tokenized Hong Kong stocks in the coming weeks. Existing eligibility restrictions remain unchanged, and the service remains unavailable to UK investors, users located in the United States, and U.S. persons. \u2014 link",
 "title": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks",
 "url": "https://t.me/wublockchainenglish/26781",
-"urls": []
+"urls": [
+"https://decrypt.co/383000/kraken-parent-payward-brings-200-uk-and-eu-stocks-onchain-as-xstocks"
+]
 },
 "6c854bd2e287": {
 "coin": "tether",
@@ -2110,7 +2102,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794402060.0,
 "tgtext": "OKXICE Plans to Launch Tokenized Securities Trading Venue on November 23 Under SEC Innovation Exemption\n\nOKXICE, the joint venture between OKX and Intercontinental Exchange (ICE), parent company of the New York Stock Exchange, has announced plans to launch a tokenized securities trading venue on November 23 under the U.S. Securities and Exchange Commission\u2019s (SEC) five-year Innovation Exemption. The venue has currently confirmed 70 assets, involving issuers including Coinbase, Circle and Robinhood, as well as 59 exchange-traded funds (ETFs). The service is available to U.S. customers who hold a CeDeFi Wallet and have completed the account-opening process. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 OKX and NYSE's parent company to launch 24/7 tokenized securities exchange on November 23rd.\n\n@WatcherGuru",
 "title": "OKXICE Plans to Launch Tokenized Securities Trading Venue on November 23 Under SEC Innovation Exemption",
@@ -2185,6 +2177,22 @@
 "title": "Bitcoin Safe-Haven Narrative Is Falling Apart? Liquidations and ETF Outflows Wipe Out Bulls",
 "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUEE4ODVWTUkwT1NINGVNV21FcHhxTk5lYjlidFdyNWxxeVFiVnJ3LU9jOHZBbGtrTWNBU3FBX0FtWnZIVU9jc2V1bmlRSUJDU2k1N2dDUU9JMWlrM2dMMVdXSEw0bWZOWWpZNm5VV3FUVkxzMlMxR1hiTEZZLVEyRlFjLUpEYmxuQWl5a1E2aTZ1RWExU2RHVmstWXF6MVNsZlYw?oc=5",
 "urls": []
+},
+"97948bae7401": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block",
+"Watcher.Guru"
+],
+"t": 1794418483.099572,
+"t0": 1794417790.0,
+"tgtext": "JUST IN: Crypto stablecoin supply drops by $14.2 billion, largest decline since the 2022 bear market.\n\n@WatcherGuru",
+"title": "Stablecoin supply drops $14.2 billion in largest contraction since 2022 bear market",
+"url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
+"urls": [
+"https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907"
+]
 },
 "97bb8d89f7db": {
 "coin": "",
@@ -2475,7 +2483,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794417668.9473608,
+"t": 1794418177.0453215,
 "t0": 1794398247.0,
 "tgtext": "A whale is going heavily long on $NVDA and $SNDK!\n\nWallet 0xc8b5 opened:\n\n5x long on 136,982 $NVDA ($24.2M)\n2x long on 13,655 $SNDK ($12.7M)\n\nhttps://hypurrscan.io/address/0xc8b527864ef2ad6dc49de7e99943a3a76ad48891#perps",
 "title": "A whale is going heavily long on NVDA and SNDK!",
@@ -2669,7 +2677,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794398914.0,
 "tgtext": "In this episode of the Wu Blockchain podcast, Plume co-founder and CEO Chris Yin discusses RWA distribution, sources of yield, liquidity, and compliance. Chris argues that stablecoins have validated the RWA model, while the greater challenge now is distributing assets to users and building sustainable liquidity. \n\nHe stresses that high-yield products also involve underlying credit and custody risks, asset maturities, and redemption restrictions, and that tokenization does not automatically improve liquidity. Over the next two to three years, he expects more traditional institutions to enter the RWA market, advancing native onchain issuance, derivatives, yield splitting, and new types of investment portfolios. \u2014 link",
 "title": "In this episode of the Wu Blockchain podcast, Plume co-founder and CEO Chris Yin discusses RWA distribution, sources of yield, liquidity, and compliance. Chris argues that stablecoins have validated the RWA model, while ",
@@ -2768,7 +2776,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794400422.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.\n\n@WatcherGuru\n\ud83c\uddf7\ud83c\uddfa JUST IN: Russian exchanges could launch crypto trading as early as Nov. 22 if they first agree on trading rules with the Bank of Russia, per TASS.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.",
@@ -3212,6 +3220,19 @@
 "url": "https://t.me/cointelegraph/73148",
 "urls": []
 },
+"cb339b3b05d1": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794418483.099572,
+"t0": 1794417901.0,
+"tgtext": "\u26a1\ufe0f UPDATE: Elon Musk says Tesla will extend Cybertruck production through the end of summer 2027 to work through its order backlog.\n\nNews | Markets | YouTube",
+"title": "Elon Musk says Tesla will extend Cybertruck production through the end of summer 2027 to work through its order backlog.",
+"url": "https://t.me/cointelegraph/73199",
+"urls": []
+},
 "cb50ad442327": {
 "coin": "",
 "src": "Binance",
@@ -3259,7 +3280,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794417668.9473608,
+"t": 1794418483.099572,
 "t0": 1794406080.0,
 "tgtext": "Russian Central Bank: Exchanges May Conduct Crypto Trading from November 22, Subject to Prior Approval of Trading Rules\n\nAccording to TASS, the Bank of Russia said Russian exchanges may begin offering cryptocurrency trading from November 22, 2026, provided they first agree on trading rules with the regulator. The relevant directive has been registered by the Russian Ministry of Justice. Exchanges must register brokers, trustees, and central counterparties as trading participants, maintain order and transaction records, monitor trading activity, and calculate spot prices, weighted average prices, market prices, and closing prices. They are also required to submit trading data and results to the central bank in accordance with existing reporting procedures for other assets. \u2014 link\nJUST IN: \ud83c\uddf7\ud83c\uddfa Russia's Central Bank says exchanges can begin cryptocurrency trading from November 17th.\n\n@WatcherGuru",
 "title": "Russian Central Bank: Exchanges May Conduct Crypto Trading from November 22, Subject to Prior Approval of Trading Rules",
@@ -3790,108 +3811,48 @@
 "rain": 1794413019.0371053
 },
 "probs": {
-"01521cf6d04d": 0.076,
 "0581c0bb8b3b": 0.063,
-"08d357718786": 0.051,
-"1fbc48dfac41": 0.231,
 "20f1aae223e8": 0.356,
 "28a6e3d1a2f7": 0.541,
 "2faf4828b8d3": 0.496,
 "359b194ef46a": 0.829,
 "3d4fb6f2e99f": 0.047,
 "41bf96ead6ce": 0.049,
+"462e74fa9799": 0.279,
+"4dfe61a48273": 0.084,
 "4f08e60d05e5": 0.026,
-"54101d29cf40": 0.78,
+"54101d29cf40": 0.973,
 "57a53b6be8b4": 0.218,
 "5df5ef17ed72": 0.031,
 "63976fc64b25": 0.051,
+"64d5f83afb36": 0.025,
 "65ee67340780": 0.11,
 "67479590167c": 0.028,
 "702561e539c5": 0.073,
-"7271f6a75bcb": 0.396,
+"7271f6a75bcb": 0.259,
 "79d6b9b0dbea": 0.114,
 "8395ec44079b": 0.055,
+"857fda366acf": 0.28,
 "9304331a324e": 0.969,
+"97948bae7401": 0.965,
 "9be506d2a6af": 0.044,
-"a436344a3e5a": 0.154,
 "a88cfb3c27c9": 0.035,
 "ae1aa43b0135": 0.031,
-"b5bbe2a27182": 0.465,
-"b5e2647abb73": 0.875,
+"b5e2647abb73": 0.789,
 "bca63e93d2f3": 0.444,
-"bcc4a3cc4f2a": 0.362,
-"c5eaa582a87b": 0.036,
-"c7e8807830f7": 0.1,
 "c92d2da97b6a": 0.109,
+"cb339b3b05d1": 0.912,
 "d229e333294c": 0.728,
 "d287dc425722": 0.038,
-"d9fd4f9df1a0": 0.494,
+"d9fd4f9df1a0": 0.343,
 "dc2080482d89": 0.07,
-"e6f55e233419": 0.116,
-"eff4e9fbba8e": 0.057,
-"faca0aa31e51": 0.098
+"dd923f460179": 0.024,
+"e2b1587b673c": 0.227,
+"eff4e9fbba8e": 0.032,
+"faca0aa31e51": 0.098,
+"fada714be13d": 0.237
 },
 "sent": [
-{
-"e": [
-"avalanche",
-"avax",
-"chainlink",
-"charles",
-"link",
-"schwab",
-"sol",
-"solana"
-],
-"k": [],
-"t": 1794234230.543555,
-"u": [
-"https://t.me/WatcherGuru/15896",
-"https://t.me/cointelegraph/73137"
-],
-"w": [
-"$13t",
-"adds",
-"avalanche",
-"avax",
-"chainlink",
-"charles",
-"link",
-"schwab",
-"sol",
-"solana",
-"trading"
-]
-},
-{
-"e": [
-"bitmine",
-"lee",
-"tom"
-],
-"k": [],
-"t": 1794234842.6920893,
-"u": [
-"https://t.me/wublockchainenglish/26750",
-"https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219"
-],
-"w": [
-"$20",
-"bitmine",
-"buy",
-"eth",
-"ethereum",
-"lee",
-"million",
-"nears",
-"predicts",
-"supercycle",
-"supply",
-"target",
-"tokenization",
-"tom"
-]
-},
 {
 "e": [
 "accounts",
@@ -5395,71 +5356,123 @@
 "subject",
 "trading"
 ]
+},
+{
+"e": [
+"stablecoin"
+],
+"k": [],
+"t": 1794418483.099572,
+"u": [
+"https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
+"https://t.me/WatcherGuru/15956"
+],
+"w": [
+"$14",
+"2022",
+"bear",
+"billion",
+"contraction",
+"drops",
+"largest",
+"market",
+"since",
+"stablecoin",
+"supply"
+]
+},
+{
+"e": [
+"cybertruck",
+"elon",
+"musk",
+"tesla"
+],
+"k": [],
+"t": 1794418483.099572,
+"u": [
+"https://t.me/cointelegraph/73199"
+],
+"w": [
+"2027",
+"backlog",
+"cybertruck",
+"elon",
+"end",
+"extend",
+"musk",
+"order",
+"production",
+"summer",
+"tesla",
+"through",
+"work"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"54101d29cf40",
+18,
+15,
+1
+],
+[
 "9304331a324e",
-44,
-260,
+42,
+274,
 4
 ],
 [
-"63ab4ae52eed",
-8,
-351,
-3
-],
-[
-"b5e2647abb73",
-20,
-287,
+"97948bae7401",
+43,
+12,
 2
 ],
 [
+"cb339b3b05d1",
+18,
+10,
+1
+],
+[
 "359b194ef46a",
-45,
-255,
+43,
+268,
 4
 ],
 [
 "420d8257cf3d",
 10,
-57,
+71,
 1
 ],
 [
-"54101d29cf40",
+"b5e2647abb73",
 18,
-1,
-1
+301,
+2
 ],
 [
 "abbd57293158",
 0,
-313,
+326,
 1
+],
+[
+"6c60c4d01ea5",
+4,
+301,
+2
 ],
 [
 "d229e333294c",
-29,
-193,
+27,
+207,
 3
-],
-[
-"a483be30169a",
-0,
-324,
-1
-],
-[
-"28a6e3d1a2f7",
-13,
-330,
-1
 ]
 ],
-"top_at": 1794417668.9473608
+"top_at": 1794418483.099572
 }
