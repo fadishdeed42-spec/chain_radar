@@ -1,0 +1,57 @@
+json 0b01e1e42009
+   take 1: score -0.27  wer 0.00  end +0.0st  2.2w/s  heard: Two pizzas, worth over $700 million today.
+   take 2: score -0.10  wer 0.00  end +0.0st  2.4w/s  heard: Two pizzas, worth over $700 million today.
+   take 3: score -0.17  wer 0.00  end +0.0st  2.3w/s  heard: 2 pizzas worth over $700 million today.
+scene 1: 3.69s ex 0.62  chosen wer 0.00
+   take 1: score +1.66  wer 0.00  end -4.0st  3.0w/s  heard: May 18, 2010, a man in Florida posts online.
+scene 2: 3.36s ex 0.62  chosen wer 0.00
+   take 1: score -0.95  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin for two pizzas.
+   take 2: score -1.02  wer 0.00  end +0.0st  2.2w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin for two pizzas.
+   take 3: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin for two pizzas.
+   take 4: score +1.09  wer 0.00  end -5.7st  2.4w/s  rushed ['Bitcoin']  heard: 10,000 Bitcoin for two pizzas.
+scene 3: 2.49s ex 0.62  chosen wer 0.00
+   take 1: score -3.59  wer 0.46  end +0.0st  2.6w/s  rushed ['student']  heard: Four days later, a 19-year-old student says yes.
+   take 2: score -3.59  wer 0.46  end +0.0st  2.6w/s  rushed ['student']  heard: Four days later, a 19-year-old student says yes.
+   take 3: score -3.67  wer 0.46  end +0.0st  2.4w/s  rushed ['student']  heard: Four days later, a 19-year-old student says yes.
+   take 4: score -3.84  wer 0.46  end +0.0st  2.9w/s  rushed ['student']  heard: Four days later, a 19-year-old student says yes.
+   take R1: wer 0.46  heard: Four days later, a 19-year-old student says yes.
+   take R2: wer 0.46  heard: Four days later, a 19-year-old student says yes.
+   take R3: wer 0.46  heard: Four days later, a 19-year-old student says yes.
+   take R4: wer 0.46  heard: Four days later, a 19-year-old student says, yes.
+scene 4: 3.04s ex 0.62  chosen wer 0.46
+   take 1: score -1.89  wer 0.00  end +0.0st  3.3w/s  rushed ['orders']  heard: He orders two Papa John's pizzas to the man's door.
+   take 2: score -0.27  wer 0.00  end +0.0st  2.9w/s  heard: He orders two Papa John's pizzas to the man's door.
+   take 3: score -3.23  wer 0.00  end +0.0st  4.0w/s  rushed ['orders']  heard: He orders two Papa John's pizzas to the man's door.
+   take 4: score -0.39  wer 0.00  end +0.0st  3.0w/s  heard: He orders two Papa John's pizzas to the man's door.
+scene 5: 3.40s ex 0.62  chosen wer 0.00
+   take 1: score +0.89  wer 0.00  end -4.4st  2.1w/s  rushed ['Bitcoin']  heard: Those 10,000 Bitcoin were worth about $41.
+   take 2: score -0.97  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin']  heard: Those 10,000 Bitcoin were worth about $41.
+   take 3: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['Bitcoin']  heard: Those 10,000 Bitcoin were worth about $41.
+   take 4: score -0.80  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin']  heard: Those 10,000 Bitcoin were worth about $41.
+scene 6: 4.32s ex 0.62  chosen wer 0.00
+   take 1: score +1.57  wer 0.00  end -3.9st  1.9w/s  heard: Today, they're worth over 700 million.
+scene 7: 3.73s ex 0.62  chosen wer 0.00
+   take 1: score -2.76  wer 0.00  end +0.0st  3.7w/s  rushed ['student']  heard: and the student who got them.
+   take 2: score -1.64  wer 0.00  end +1.2st  4.2w/s  rushed ['student']  heard: and the student who got them.
+   take 3: score +0.03  wer 0.00  end +1.8st  3.8w/s  heard: and the student who got them.
+scene 8: 1.60s ex 0.62  chosen wer 0.00
+   take 1: score -0.65  wer 0.00  end +0.0st  3.1w/s  heard: He spent them all on travel.
+   take 2: score -3.16  wer 0.40  end +0.0st  1.3w/s  heard: He spent them all on travel in 70W in the money ass.  //
+   take 3: score -0.40  wer 0.00  end +0.0st  3.0w/s  heard: He spent them all on travel.
+scene 9: 2.00s ex 0.62  chosen wer 0.00
+   take 1: score -2.53  wer 0.00  end +0.0st  3.6w/s  rushed ['played']  heard: He says he's proud he played a part.
+   take 2: score -3.42  wer 0.00  end +0.0st  4.0w/s  rushed ['played']  heard: He says he's proud he played a part.
+   take 3: score -2.07  wer 0.00  end +0.0st  3.3w/s  rushed ['played']  heard: He says he's proud he played a part.
+   take 4: score -2.28  wer 0.00  end +0.0st  3.4w/s  rushed ['played']  heard: He says he's proud he played a part.
+   take 5: score -2.32  wer 0.00  end +0.0st  3.5w/s  rushed ['played']  heard: He says he's proud he played a part.
+   take 6: score -2.04  wer 0.00  end +0.0st  3.3w/s  rushed ['played']  heard: He says he's proud he played a part.
+scene 10: 2.40s ex 0.6 END  chosen wer 0.00
+   take 1: score -0.84  wer 0.00  end +0.0st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -1.11  wer 0.00  end +0.0st  2.1w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 3: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 4: score -0.51  wer 0.00  end -0.1st  1.8w/s  heard: Subscribe for more stories.
+scene 11: 2.28s ex 0.62  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+35.98s, force-aligned 83 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/pizza/vo/pz0p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.66, 0.52, 0.76, 0.68, 0.74, 0.68, 0.82, 0.7, 0.56, 1.01]
