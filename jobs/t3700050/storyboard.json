@@ -1,0 +1,271 @@
+{
+ "title": "In 2010, This Website Gave Away FREE Bitcoin 😳 (Now $1.4 Billion)",
+ "tone": "hype",
+ "theme": "gold",
+ "chart": {
+  "symbol": "BTC",
+  "start": "2011-09-01",
+  "end": "2026-11-11"
+ },
+ "lesson": "",
+ "description": "June 2010: programmer Gavin Andresen launched the \"Bitcoin Faucet\" - a website that gave 5 free bitcoin to anyone who solved a captcha.\nHe filled it with 1,100 of his own coins, and even Satoshi Nakamoto replied with tips to stop people claiming twice.\nBack then, 5 bitcoin were worth less than a dollar. In total, the faucet gave away about 19,700 BTC.\nToday that's over $1.4 billion - and one visitor's 5 free coins are worth over $360,000.\n\nWould you have clicked? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#bitcoin #btc #crypto #cryptohistory #satoshi #shorts",
+ "pinned": "Be honest: if you got 5 free bitcoin in 2010… would you still have them today? 👇",
+ "respell": {
+  "captcha": "cap-cha",
+  "Andresen": "Andreesen",
+  "1,100": "eleven hundred"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "In 2010, a website gave away free bitcoin.",
+   "hit": "free",
+   "visual": {
+    "type": "slam",
+    "text": "FREE BITCOIN",
+    "sub": "2010"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "Today, those coins are worth over a billion dollars.",
+   "hit": "billion",
+   "visual": {
+    "type": "counter",
+    "value": 1400000000,
+    "prefix": "$",
+    "suffix": "+",
+    "label": "WORTH TODAY",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "All you had to do was solve a captcha.",
+   "hit": "captcha",
+   "visual": {
+    "type": "app",
+    "app": "BITCOIN FAUCET",
+    "title": "Prove you are human",
+    "field": "captcha",
+    "button": "GET FREE BITCOIN"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "excited",
+   "line": "Five bitcoin. Free. Every visitor.",
+   "hit": "free",
+   "visual": {
+    "type": "counter",
+    "value": 5,
+    "prefix": "",
+    "suffix": " BTC",
+    "label": "FREE · EVERY VISITOR",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "It was called the Bitcoin Faucet.",
+   "hit": "faucet",
+   "visual": {
+    "type": "title",
+    "text": "THE BITCOIN FAUCET",
+    "sub": "June 2010",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "A programmer named Gavin Andresen built it.",
+   "hit": "built",
+   "visual": {
+    "type": "person",
+    "name": "GAVIN ANDRESEN",
+    "role": "PROGRAMMER",
+    "prop": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "excited",
+   "line": "He filled it with 1,100 of his own coins.",
+   "hit": "own",
+   "visual": {
+    "type": "counter",
+    "value": 1100,
+    "prefix": "",
+    "suffix": " BTC",
+    "label": "HIS OWN COINS",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "Even Satoshi Nakamoto replied, with tips to stop cheaters.",
+   "hit": "satoshi",
+   "visual": {
+    "type": "title",
+    "text": "SATOSHI REPLIED",
+    "sub": "tips to stop cheaters",
+    "icon": "question"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "curious",
+   "line": "Back then, five bitcoin were worth less than a dollar.",
+   "hit": "dollar",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "5 BTC",
+     "2010"
+    ],
+    "right": [
+     "UNDER $1",
+     "VALUE"
+    ],
+    "note": "FIRST MT. GOX TRADE: $0.05"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "excited",
+   "line": "In total, it gave away about 19,700 bitcoin.",
+   "hit": "total",
+   "visual": {
+    "type": "counter",
+    "value": 19700,
+    "prefix": "",
+    "suffix": " BTC",
+    "label": "GIVEN AWAY FOR FREE",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "Today, that is over $1.4 billion.",
+   "hit": "billion",
+   "visual": {
+    "type": "chart",
+    "date": "2026-11-11",
+    "label": "TODAY · $1.4B+"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "Those five free coins? Over $360,000.",
+   "hit": "free",
+   "visual": {
+    "type": "counter",
+    "value": 360000,
+    "prefix": "$",
+    "suffix": "+",
+    "label": "5 FREE COINS TODAY",
+    "icon": "cash"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "calm",
+   "line": "Why give it away? He wanted people to try it.",
+   "hit": "try",
+   "visual": {
+    "type": "title",
+    "text": "SO PEOPLE COULD TRY IT",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "curious",
+   "line": "Would you have clicked?",
+   "hit": "clicked",
+   "visual": {
+    "type": "title",
+    "text": "WOULD YOU HAVE CLICKED?",
+    "icon": "question"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "length": 50,
+ "settings": {
+  "length": 50,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "on",
+  "energy": "high",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "key",
+  "music": "off",
+  "whoosh": "off"
+ }
+}

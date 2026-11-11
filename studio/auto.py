@@ -982,6 +982,7 @@ cs.OVERLAY = overlay
 # ---------------------------------------------------------------- sound design (procedural, keyed to the same hits)
 def make_sfx(out):
     from sfx import SR, boom, thud, whoosh, riser, ding, tick, pop, glitch, sweep, place, write
+    if ST.get('whoosh') == 'off': whoosh = lambda *a, **k: np.zeros(1)          # owner (Nov 11): whoosh transitions sound cheap -> clean cuts
     import numpy as np
     k = {'funny': 1.0, 'serious': .7, 'mystery': .8, 'hype': 1.1}[TONE]
     tr = np.zeros((int(DUR * SR), 2))

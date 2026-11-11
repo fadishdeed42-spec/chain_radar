@@ -192,7 +192,7 @@ def plan_line(line, respell=None, after_month=False):
 # ---------------------------------------------------------------- storyboard
 TONES = ('funny', 'serious', 'mystery', 'hype')
 ROLES = ('hook', 'setup', 'turn', 'twist', 'payoff', 'end')
-VISUALS = ('title', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow', 'face', 'timer',
+VISUALS = ('title', 'slam', 'counter', 'stamp', 'person', 'date', 'chart', 'versus', 'quote', 'list', 'flow', 'face', 'timer',
            'app', 'doc', 'route', 'crowd', 'facility', 'servers', 'vote', 'news')
 ICONS = ('bitcoin', 'ethereum', 'dogecoin', 'token', 'lock', 'plane', 'laptop', 'house', 'safe', 'car', 'crown', 'robot',
          'gavel', 'officer', 'person', 'calendar', 'phone', 'bank', 'fire', 'skull', 'question', 'cash')
@@ -393,6 +393,7 @@ def voice_job(sb):
     ex = EXAG[sb['tone']]
     st = settings(sb)
     de = {'calm': -.1, 'normal': 0, 'punchy': .07}.get(st['energy'], 0)
+    HI = st['energy'] == 'high'                                            # owner (Nov 11): 'more energetic' -> the fc1 test voice: .88 base, .95 on hook/twist/payoff
     gk = {'short': .7, 'normal': 1.0, 'dramatic': 1.45}.get(st['pauses'], 1.0)
     scenes, plan, alts, checks = [], [], [], []
     for i, s in enumerate(sb['scenes']):
@@ -405,12 +406,13 @@ def voice_job(sb):
         emo = s.get('emotion') if s.get('emotion') in EMOTIONS else None
         e = ONE_EX.get(sb['tone'], .62) + de                                # owner (Nov 9): ONE energy for the whole video - per-line energy made the tone jump
         g = .5 if end else EMO_GAP.get(emo, .28 if s['role'] in ('twist', 'payoff') else .22)
-        scenes.append([text, round(min(.72, max(.56, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .56-.72: one steady narrator, no line over- or under-acted
+        if HI: e = .83 if end else (.95 if s['role'] in ('hook', 'twist', 'payoff') else .88)
+        scenes.append([text, round(e if HI else min(.72, max(.56, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .56-.72: one steady narrator, no line over- or under-acted
         plan.append(pl)
     if cta(sb):
-        scenes.append([cta(sb), round(min(.72, max(.56, ONE_EX.get(sb['tone'], .62) + de)), 2), .3])
+        scenes.append([cta(sb), .88 if HI else round(min(.72, max(.56, ONE_EX.get(sb['tone'], .62) + de)), 2), .3])
         plan.append(plan_line(cta(sb))); alts.append(None); checks.append(cta(sb))
-    return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .2, 'seed': 7, 'scenes': scenes, 'alt': alts, 'check': checks}, plan
+    return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .25 if HI else .2, 'seed': 7, 'scenes': scenes, 'alt': alts, 'check': checks}, plan
 
 
 # ---------------------------------------------------------------- timing (same output format as the hand-made bt*.py files)
