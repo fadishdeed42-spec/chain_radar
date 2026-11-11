@@ -4,10 +4,6 @@
 },
 "init": true,
 "log": [
-1794294358.0204089,
-1794294833.7150016,
-1794295600.510999,
-1794297922.8204513,
 1794305229.2434216,
 1794310490.0945446,
 1794310794.8488102,
@@ -16,7 +12,8 @@
 1794317906.559131,
 1794322328.0243244,
 1794375609.3942149,
-1794376221.5514605
+1794376221.5514605,
+1794385099.8187041
 ],
 "menu": {
 "0121344d2402": {
@@ -420,7 +417,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794380271.0,
 "tgtext": "Highlight Clip: Qiao Wang: My Only Crypto Holdings Are BTC and ZEC, at a Roughly 2:1 Ratio\n\nQiao Wang: My Only Crypto Holdings Are BTC and ZEC, at a Roughly 2:1 Ratio\n\nAlliance co-founder Qiao Wang told threadguy on October 26 that his only crypto holdings are BTC and ZEC, at roughly 2:1 versus 5:1 previously, mainly because ZEC surged. He prefers holding to selling and paying taxes. Wang remains bullish on Bitcoin over three to five years: governments keep printing money, while Bitcoin's supply stays fixed. He sees Bitcoin's main quantum challenge as governance, including what to do with Satoshi's coins. Wang considers ZEC a potential hedge against Bitcoin's privacy and quantum risks because its developers can keep upgrading the protocol to address new threats. \u2014 link",
 "title": "Highlight Clip: Qiao Wang: My Only Crypto Holdings Are BTC and ZEC, at a Roughly 2:1 Ratio",
@@ -446,7 +443,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794375889.0,
 "tgtext": "Machi(@machibigbrother) is dumping his Bored Apes to fund leveraged long positions!\n\nIn the past week alone, he sold 31 Bored Apes at a loss for 231 $ETH ($506K), but lost it all trading.\n\nHe now has just 75 Bored Apes left.\n\nhttps://opensea.io/MachiBigBrother/holdings/items?collectionSlugs=boredapeyachtclub",
 "title": "Machi(@machibigbrother) is dumping his Bored Apes to fund leveraged long positions!",
@@ -550,7 +547,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794376975.0,
 "tgtext": "AguilaTrades(@AguilaTrades) is a total gambler!\n\nOver the past week, he made 18 $BTC trades with just a 33% win rate, losing a total of $547K.\n\nNow he's opened another 40x long on 340.45 $BTC ($25.16M), with a liquidation price of $73,009.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) is a total gambler!",
@@ -594,7 +591,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794366171.0,
 "tgtext": "Binance Will Support Sandisk Corporation (SNDK) 8-for-1 Forward Stock Split via bStocks\n\nBinance will support the Sandisk Corporation (SNDK) 8-for-1 forward stock split via bStocks for SNDKB holders. Each eligible SNDKB holder will receive 7 additional SNDKB for every 1 SNDKB held, for a total of 8 SNDKB per pre-split token. On-chain holders of SNDKB will receive the additional bStocks through a multiplier adjustment. When trading resumes, the SNDKB price will reflect the split-adjusted price of approximately 1/8 of the pre-split price.\n\n\ud83d\udc49\ud83c\udffbLearn more here",
 "title": "Binance Will Support Sandisk Corporation (SNDK) 8-for-1 Forward Stock Split via bStocks",
@@ -1000,7 +997,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794375325.0,
 "tgtext": "\u26a1\ufe0f NOW: Ripple CTO Emeritus David Schwartz says he has sold nearly all his crypto due to his low risk tolerance.\n\nHis holdings are down from about 26M XRP, 1,500 BTC and 40,000 ETH to roughly 3M XRP, 1 BTC and 6 ETH.\n\nNews | Markets | YouTube\nFormer Ripple CTO Discloses Selling Most Crypto Holdings Due to Extreme Risk Aversion\n\nFormer Ripple Chief Technology Officer David Schwartz revealed that he has sold off the vast majority of his crypto portfolio due to an extreme aversion to risk, trimming his peak holdings from roughly 26 million XRP down to 3 million XRP, from around 1,500 BTC to just 1 BTC, and from 40,000 ETH down to 6 ETH. Schwartz adding that he \"really, really hates risk\" and simply does not have the personal disposition to tolerate heavy market volatility. \u2014 link",
 "title": "NOW: Ripple CTO Emeritus David Schwartz says he has sold nearly all his crypto due to his low risk tolerance.",
@@ -1472,7 +1469,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794373709.0,
 "tgtext": "Binance to Launch HYPEUSDC and TRXUSDC Perpetual Contracts\n\nBinance Futures will launch USD\u24c8-margined HYPEUSDC and TRXUSDC perpetual contracts on November 11, 2026, offering leverage of up to 75x. Both contracts are settled in USDC, support Multi-Assets Mode across diversified collateral, and will become eligible for Futures Copy Trading within 24 hours of launch. \u2014 link",
 "title": "Binance to Launch HYPEUSDC and TRXUSDC Perpetual Contracts",
@@ -1850,6 +1847,19 @@
 "tgtext": "Forbes: Former Binance Investigator Says Management Ignored Probe Into 2,000 Suspected Iran-Linked Accounts Involving $1.2B; Binance Denies Firing Staff Over Sanctions Investigations\n\nA former senior financial crime investigator at Binance told IRS investigators in May that Binance management had ignored internal requests to investigate approximately 2,000 suspected Iran-linked accounts involving $1.2 billion in transactions, Forbes reported. Citing a search warrant for the investigator\u2019s MacBook, the report said the DOJ and IRS had issued multiple subpoenas and search warrants involving Binance and former employees, with one former investigator also ordered to testify before a federal grand jury. Binance denied firing employees for investigating potential sanctions violations, saying they left over breaches of customer data privacy policies. The exchange said it is cooperating with law enforcement. No criminal charges have been filed. \u2014 link",
 "title": "Forbes: Former Binance Investigator Says Management Ignored Probe Into 2,000 Suspected Iran-Linked Accounts Involving $1.2B; Binance Denies Firing Staff Over Sanctions Investigations",
 "url": "https://t.me/wublockchainenglish/26755",
+"urls": []
+},
+"763bb4c89978": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794385099.8187041,
+"t0": 1794384807.0,
+"tgtext": "Anthropic Stake Divested Early by FTX Now Worth Over $30 Billion\n\nAccording to Anthropic's latest prospectus, the firm plans to offer 825M Class A shares priced at $70\u2013$78 each, implying a ~$1.2T\u2013$1.4T valuation. FTX and affiliates invested ~$500M in 2021\u20132022 for an initial ~8% stake, now worth ~$31.2B\u2013$34.7B at the IPO range. However, during its 2024 bankruptcy restructuring, FTX trustees fully liquidated the stake in batches at ~$30/share to secure liquidity for cash payouts, recouping only ~$1.34B. With FTX owing creditors ~$11.2B at collapse, retaining the shares would have repaid the entire debt nearly 3x over. \u2014 link",
+"title": "Anthropic Stake Divested Early by FTX Now Worth Over $30 Billion",
+"url": "https://t.me/wublockchainenglish/26779",
 "urls": []
 },
 "77162a0dd2ee": {
@@ -3254,7 +3264,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794367087.0,
 "tgtext": "\ud83d\udea8 JUST IN: Anthropic\u2019s bankers may raise the IPO price above the $70\u2013$78 range after heavy investor demand, which could lift its valuation to $1.5T or more, FT reports.\n\nNews | Markets | YouTube",
 "title": "Anthropic\u2019s bankers may raise the IPO price above the $70\u2013$78 range after heavy investor demand, which could lift its valuation to $1.5T or more, FT reports.",
@@ -3534,7 +3544,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1794370295.7652643,
+"t": 1794384795.4121566,
 "t0": 1794369763.0,
 "tgtext": "Binance Earn Yield Arena: Earn Up to 20% APR With This Week\u2019s New Limited-Time Offers! (2026-11-11)\n\nBinance Earn presents to you new offers that are newly added to Yield Arena this week. Stay tuned for more campaigns in Yield Arena to earn rewards from Simple Earn, ETH Staking, SOL Staking, Dual Investment, and more.\n\n\ud83d\udc49\ud83c\udffbLearn more here\n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Binance Earn Yield Arena: Earn Up to 20% APR With This Week\u2019s New Limited-Time Offers! (2026-11-11)",
@@ -4071,7 +4081,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794378185.0,
 "tgtext": "Bitcoin Spot ETFs Record $95.00M in Net Outflows, Extending Outflow Streak to 4 Days\n\nAccording to SoSoValue, on November 10 Eastern Time, U.S. Bitcoin spot ETFs posted total net outflows of $95.0012 million, marking the fourth consecutive day of net outflows; Ethereum spot ETFs saw net outflows of $1.3168 million yesterday, also extending their net outflow streak to 4 straight days. \u2014 link\n\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot BTC, ETH, and XRP ETFs saw net outflows on Nov. 10.\n\nBTC: -$95.00M\nETH: -$1.32M\nXRP: -$7.62M\n\nNews | Markets | YouTube",
 "title": "Bitcoin Spot ETFs Record $95.00M in Net Outflows, Extending Outflow Streak to 4 Days",
@@ -4114,7 +4124,7 @@
 "TradingView",
 "grafa.com"
 ],
-"t": 1794384487.651295,
+"t": 1794385099.8187041,
 "t0": 1794376320.0,
 "tgtext": "",
 "title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
@@ -4141,150 +4151,48 @@
 "ethereum": 1794175278.9348242
 },
 "probs": {
+"024fd819d5f4": 0.012,
 "0b8cd2aebfb3": 0.019,
 "0bd8f3831110": 0.018,
+"0c976649273e": 0.032,
 "179f23eb3f81": 0.667,
-"1894e84d52f1": 0.056,
+"1894e84d52f1": 0.069,
 "18dc8e2cf8bd": 0.902,
 "1a0134ee8ab7": 0.016,
 "21b7196a361e": 0.36,
-"23c789a783a9": 0.251,
 "25b1f0987c18": 0.035,
 "3a73052cb197": 0.029,
 "3bcace090ab0": 0.035,
 "3cdb068a8066": 0.035,
-"3f0c75a97ce5": 0.884,
+"3f0c75a97ce5": 0.847,
+"3f7f5bf50302": 0.03,
 "474b77f1766a": 0.098,
-"4850e35e194f": 0.123,
 "5ab5daf46137": 0.021,
 "5b39624f3f3c": 0.331,
+"612f0ea5f3c3": 0.07,
 "676a1145f7b8": 0.082,
 "68762ca406f6": 0.206,
-"6cc6f57c6436": 0.076,
-"6d6a19c07d4b": 0.148,
+"6a33ccb05aab": 0.168,
 "6d6aabea587f": 0.043,
 "7591de6baee2": 0.025,
+"763bb4c89978": 0.974,
 "78f7a83e386d": 0.063,
 "7da3e71bf268": 0.023,
 "8fe943f46840": 0.013,
 "9157aa4b84ff": 0.062,
 "a005f2ebeb23": 0.193,
-"a09ce0e5b69f": 0.066,
 "a26601d4bf00": 0.113,
-"c4225b4773ef": 0.072,
-"cb50ad442327": 0.175,
+"c4225b4773ef": 0.089,
+"cb50ad442327": 0.212,
 "da95e40195fb": 0.029,
 "dc8986a56b9d": 0.089,
-"e13867fd928e": 0.03,
 "e2a9079f9f7e": 0.019,
 "e6f97cdebd33": 0.09,
 "eda51bd909bc": 0.168,
-"f9c50b64c8b8": 0.945,
+"f9c50b64c8b8": 0.626,
 "fef9e15d71c6": 0.594
 },
 "sent": [
-{
-"e": [
-"bleed",
-"falls",
-"hit",
-"liquidations",
-"longs",
-"today"
-],
-"k": [
-"etf",
-"crash"
-],
-"t": 1794206746.4467955,
-"u": [
-"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelFaYzhDcldoNEFwV2Fuc05aMjNKek44dWQxN3ZDS09ja1F1OWFjdDhvcm5DYVI0ZjZaREZEd1lGYTJKLVc0cHlVZklPOUxTWElFUXJDeE1LclI3TlpaMEZSV0NRRkVrSnRvb1NhZ2pjUFNYWlgyOFN6c2ZqdlR1U3Q4Ym9oNFM1?oc=5",
-"https://news.google.com/rss/articles/CBMiggFBVV95cUxQMDFJOFJrRzRvVk5HT0MzbEJmYjVlQ0wzMEZ1cTFDcTVZUjFWVmtMM2FxbnhsaGFjX1d3MTFiamRjNXc4N08tWlROeWhscmFjbzBncTZBWnBnSS1HMmRNNGRjdUUyN2RZVkh6QzBrcmNmUzlOcU94T1BweTFNWnJ1SFZR?oc=5",
-"https://news.google.com/rss/articles/CBMiywFBVV95cUxORnB5eWdNSmVwVkswb29nLWRkX0xhY09VczdBLV9JMVJTQkpSRmlaVjVxellydWpmUGFqS2Z3d2JuZTE1VHE0aXI0akNaQUFMMEE1R2E5VlVhekpOanp1NmFrcm1XaXFoTEo5b2daaUpjaEI2RU82NzY4VUZnTmxFLURXcENWVDYtQTI1eXI0MkZBX3RaNzVpNkZkQ3BZVW1kYW8yVkJCZl9OR1lsc1dtc0pMeHVlODhUdUpWZ3FKdkUwbUI4Umc5NE50WQ?oc=5"
-],
-"w": [
-"$74k",
-"04b",
-"28b",
-"bitcoin",
-"bleed",
-"btc",
-"etfs",
-"falls",
-"hit",
-"liquidations",
-"longs",
-"price",
-"today"
-]
-},
-{
-"e": [
-"binance",
-"wallet"
-],
-"k": [],
-"t": 1794207054.173305,
-"u": [
-"https://t.me/lookonchainchannel/10968"
-],
-"w": [
-"$73",
-"0xc356",
-"601",
-"75m",
-"binance",
-"eth",
-"hours",
-"inactivity",
-"past",
-"wallet",
-"withdrew",
-"years"
-]
-},
-{
-"e": [
-"affair",
-"among",
-"binance",
-"close",
-"drops",
-"fallout",
-"interest",
-"last",
-"nvdausdt",
-"nvidia",
-"open",
-"platforms",
-"rank",
-"top",
-"volume"
-],
-"k": [],
-"t": 1794207666.4968543,
-"u": [
-"https://t.me/wublockchainenglish/26744"
-],
-"w": [
-"affair",
-"among",
-"binance",
-"ceo",
-"close",
-"drops",
-"fallout",
-"interest",
-"last",
-"nvdausdt",
-"nvidia",
-"open",
-"platforms",
-"rank",
-"top",
-"volume"
-]
-},
 {
 "e": [
 "alleged",
@@ -5914,71 +5822,99 @@
 "gambler",
 "total"
 ]
+},
+{
+"e": [
+"anthropic",
+"billion",
+"divested",
+"early",
+"ftx",
+"now",
+"stake",
+"worth"
+],
+"k": [],
+"t": 1794385099.8187041,
+"u": [
+"https://t.me/wublockchainenglish/26779"
+],
+"w": [
+"$30",
+"anthropic",
+"billion",
+"divested",
+"early",
+"ftx",
+"now",
+"stake",
+"worth"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"f9c50b64c8b8",
-52,
-105,
-2
+"763bb4c89978",
+25,
+5,
+1
 ],
 [
 "18dc8e2cf8bd",
 20,
-143,
+154,
 1
 ],
 [
 "3f0c75a97ce5",
 20,
-153,
+163,
 2
 ],
 [
 "179f23eb3f81",
 10,
-70,
+80,
 1
+],
+[
+"f9c50b64c8b8",
+52,
+115,
+2
 ],
 [
 "fef9e15d71c6",
 85,
-136,
+146,
 5
 ],
 [
 "c0aa5de49e5e",
 0,
-290,
+300,
 1
 ],
 [
 "21b7196a361e",
 10,
-125,
+135,
 1
 ],
 [
 "5b39624f3f3c",
-18,
-180,
+17,
+190,
 1
 ],
 [
 "23c789a783a9",
-2,
-305,
+0,
+315,
 1
-],
-[
-"68762ca406f6",
-19,
-268,
-3
 ]
 ],
-"top_at": 1794384487.651295
+"top_at": 1794385099.8187041
 }
