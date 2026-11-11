@@ -1,0 +1,60 @@
+s00_0 94182 1920 1080 bitcoin coins falling | bitcoin, cryptocurrency, blockchain, money, currency, digital, web 3, crypto, finance, coin, gold, internet, technology, wealth, investment, decentralized, economy, banking, electronic, virtual, falling, falling coins
+s00_1 280602 2160 3840 bitcoin coins falling | bitcoin, cryptocurrency, falling coins, bitcoin animation, gold coins, black background, cinematic crypto, photorealistic, vertical video, digital currency, crypto finance, luxury animation, golden bitcoin, elegant motion, crypto visual, financial concept, coin spin, dramatic lighting, realistic textures, digital money, high-end animation, blockchain, cinematic scene, crypto design
+s00_2 85156 1920 1080 bitcoin coins falling | coin, bitcoin, cryptocoins, litecoin, ethereum, cryptocurrency, digital, 3d, blender
+s00_3 5132 1920 1080 gold coins falling | coins, money, euros, business, beautiful wallpaper, gold, falling, background
+s00_4 325616 1920 1080 gold coins falling | money, currency, finance, rupees, donation, india, falling, business, shiva, stock, trade, coin, gold, investment
+s01_0 3174 1920 1080 typing keyboard night | computer keyboard, typing, hands, female, keyboard, computer, technology, business, office, internet, type, key, communication, pc, information, white, working, letter, fingers
+s01_1 3188 1920 1080 typing keyboard night | computer keyboard, typing, white, keyboard, computer, technology, business, office, internet, communication, fingers, hands, fast, text, messaging
+s01_2 1046 1920 1080 typing keyboard night | keyboard, hands, writing, computer, mouse, typing, project, design, coffee mug, working, study, technology, business, office
+s01_3 337175 1080 1920 computer typing dark | hacker, computer, computer programming, pixel art, posting, internet, cyber, technology, matrix, typing, animation, online, retro, screen, dark, social media, programmer, digital, glitch, pc, green, social, tweeting, ai generated
+s01_4 10822 1920 1080 computer typing dark | keyboard, typing, writing, notebook, computer, technology, laptop, business, internet, work, office, person, hand, communication, working, using, connection, pc, information, desktop, web, workplace
+s02_0 13679 1920 1080 coins hand | time, money, coins, currency, finance, cash, bank, coin, bitcoin, cryptocurrency, electronic money, the internet currency, gold, digital money, dollars, clock, trade, forex, economy, income, business, the crisis, financial, banknote, the sale, profit, corruption, wealth, success, handful, wallet, market, scattering, symbol, element, wallets, trifle
+s02_1 13678 1920 1080 coins hand | time, money, coins, currency, finance, cash, bank, coin, bitcoin, cryptocurrency, electronic money, the internet currency, gold, digital money, dollars, clock, trade, forex, economy, income, business, the crisis, financial, banknote, the sale, profit, corruption, wealth, success, handful, wallet, market
+s02_2 13714 1920 1080 coins hand | time, money, coins, currency, finance, cash, bank, coin, bitcoin, cryptocurrency, electronic money, the internet currency, gold, digital money, dollars, clock, trade, forex, economy, income, business, the crisis, financial, banknote, the sale, profit, corruption, wealth, success, handful, wallet, market, scattering, symbol, element, wallets, trifle
+s02_3 34616 1920 1080 gold coin hand | bitcoin, coin, money, currency, crypto, cash, digital, virtual, gold, electronic, payment, exchange, financial, mining, cryptography, cryptocurrency, trade
+s02_4 111280 3840 2160 gold coin hand | antique book, book opening, book scrolling, books, candlelight, compass, gold ring in hand
+s03_0 27539 3840 2160 faucet water running | running, bridge, mountains, men running, running in morning, running in winters, running on old bridge, drone view running, running aerial view, men running in morning, monsoon running, men running in hills
+s03_1 34091 3840 2160 faucet water running | washing hands, coronavirus, stop the spread, covid 19, water, hands, female, hygiene, cleanliness, technique, running water, handwashing, hand washing
+s03_2 206294 1080 1920 faucet water running | horses, animals, wildlife, running, ice, nature
+s03_3 147075 3840 2160 tap water | water tap, waterdrop, fountain, water, drought, waste, quiet, drops
+s03_4 180728 1920 1080 tap water | drip, water, waste, tap, drop, liquid, old, faucet
+s04_0 13100 1920 1080 pouring coins | universe, jar, colourful, experiment, close-up, particles, oil, ink, water, abstract, galaxy, pouring
+s04_1 4315 1920 1080 pouring coins | milk, bottle, pouring, organic milk, almond milk, drink, white, glass, dairy, calcium, product, fresh, liquid, natural, indoors, ingredient, breakfast
+s04_2 257265 1920 1080 pouring coins | pouring vine, vine, pouring, drink, glass, pour, liquid, beverage, alcohol, bottle, red, closeup, event, festival, celebration, banquet, lifestyle, bokeh
+s04_3 98141 3840 2160 coins jar | coins, jar, saving, investing, investment, money, glass, cash, finance, economy, currency, profit, stop motion
+s04_4 267605 3840 2160 coins jar | ai generated, boy, happy, anime, cheerful, smiling, coins, money, savings, jar, glass jar, gold coins, financial, security, childhood, dreams, goals, ambition, success, wealth, prosperity, future
+s05_0 289001 3840 2160 hacker hoodie computer | hacker, criminal, hoodie, balaclava, cybercrime, program, computer, malware, phishing, crisps, junk food, man, meal, tap, cybersecurity, chips
+s05_1 289008 3840 2160 hacker hoodie computer | man, hacker, criminal, hoodie, balaclava, cybercrime, program, computer, cybersecurity, malware, phishing, stereotypical, crisps, chips
+s05_2 289011 3840 2160 hacker hoodie computer | hacker, criminal, hoodie, balaclava, cybercrime, program, computer, cybersecurity, malware, phishing, fun, memes, stereotypical, crisps, junk food, man, meal, tap, police, arrest, surrender
+s05_3 215751 2560 1440 hooded man computer | man, office work, business, payroll, payroll management, working late night, computer, digital, tired
+s05_4 5074 1920 1080 hooded man computer | computer, technology, electronics, motherboard, blue, backgrounds
+s06_0 64212 1920 1080 dollar bill | money, euro, currency, inflation, wealth, cash, dollar bill, seem, success, business
+fail 6 1 Command '['ffmpeg', '-v', 'error', '-y', '-i', '/tmp/raw_6_1.mp4', '-t', '7', '-an', '-vf', 'scale=1920:1920:force_original_aspect_ratio=decrease', '-c:v', 'libx264', '-crf', '18', '-preset', 'fast', '/tmp/out/s06_1.mp4']' returned non-zero exit status 187.
+s06_2 46922 3840 2160 dollar bill | currency, united states, money, bank, bill, dollar, cash, paper, american, green, financial, detail, business, american dollar
+s06_3 31577 3840 2160 one dollar | dollar, bill, money, cash, currency, finance, 1, one, 5, euro, number, internet, binary, digital, security, network, computer, pay, data, math, digitization, symbol, pattern, mathematics, online
+s06_4 9908 3840 2160 one dollar | count, money, taxes, to save, currency, savings, polish zlotys, pay, business, sum, polish banknotes, means of payment, dollars, usa, dime, payment, banknotes, golden, shopping, bills, finances, wallet, polish, one hundred zlotys, coins, cash register, gold, finance, fifty zlotys, earnings, pln, one, antique, two, english pounds, bake
+s07_0 191729 3840 2160 gold coins pile | coins, currency, gold, economy, finance, financial, investment, money, stack, wealth, pile, banking, exchange, crypto, fall, token, trade, payment, value, market, bank
+s07_1 105043 1920 1080 gold coins pile | coins, money, nft, dollar, bitcoin, euro, juan, yen, pound, pile, business, businessman, businesswoman, economy, ethereum, cryptocurrency, crypto, currency, background, alpha channel, rotating, rotation, gold
+s07_2 4569 1920 1080 gold coins pile | flower, fruit, vegetables, close ups, picture show, picture presentation, pile pictures, pass, presentation, pictures, photos, slide show, aftereffects, 3d effects, conception, color
+s07_3 3122 1920 640 money rain | diamonds, jewels, rain, falling, wealth, value, money, crystal, jewelry, bright, clear, carat, glamour, magnificent, luxury, transparent, 163384079
+s07_4 3125 1920 640 money rain | diamonds, jewels, rain, falling, wealth, value, money, crystal, jewelry, bright, clear, carat, glamour, magnificent, luxury, transparent, golden, shiny, light, romantic, stylish, elegance, 163415228
+s08_0 165407 1920 1080 gold bars | gold, jewelry, fine gold, wealth, currency, invest, investment, finance, economy, success, bank, profit, gold bars
+s08_1 69279 3840 2160 gold bars | gold, bars, ingots, finance, money, wealth, luxury, investment, market, success, financial, rich, treasure, saving, precious, exchange, commercial, profit, trade, economy, vault, deposit, economic, fortune, fund
+s08_2 116009 3840 2160 gold bars | sunset, waves, sea, water, wind, sun, relaxing, relax, outlook, lake, gold, web, jetty, wood, boards, bar, investors, reflection
+s08_3 187588 1920 1080 money cash stack | money, money stack, stack, currency, finance, wealth, bank, cash, savings, economy, income, investment
+s08_4 187587 1920 1080 money cash stack | money, money stack, currency, finance, wealth, bank, cash, savings, economy, income, stack
+s09_0 142641 3840 2160 shocked man phone | man, phone, smartphone, mobile
+s09_1 100130 1920 1080 shocked man phone | old man, man, masculine, statue, hands, emotions, shocked, human, body
+s09_2 100129 1920 1080 shocked man phone | shocked, mouth, man, masculine, head, human, emotion
+s09_3 202987 3840 2160 surprised man smartphone | phone, smartphone, mobile, portable, screen, digital, communication, texting, business, work
+s09_4 38084 1920 1080 surprised man smartphone | woman, phone, smartphone, technology, mobile, telephone, cellphone, person, female, wireless, device, media, communication, people, holding, business
+s10_0 23258 3840 2160 crowd street people | seoul, people, night, city, illuminated, urban, market, tourism, crowd, street, evening, live wallpaper
+s10_1 1643 1920 1080 crowd street people | india, people, shiva, asia, street, asian, person, culture, city, town, road, busy, crowd, alley, urban, men, women, market
+s10_2 41315 1920 1080 crowd street people | singapore, people, street, crowd, city, night
+s10_3 3627 1920 1080 people walking city | shoes, walking, feet, legs, many, crowd, people, city, town
+s10_4 23796 1920 1080 people walking city | legs, walking, city, street, movement, people
+s11_0 2967 1920 1080 computer mouse click | iphone, computer, mouse click, computing, online, communication, hand, device, mouse, click, internet, computer mouse, technology, business, office, work, job, finger, net, connection, information, tech, pushing, button, pointer, scroll, input, pc, web, white, electronic, keyboard, equipment, data, working
+s11_1 4941 1920 1080 computer mouse click | search, web, website, address, arrow, background, bar, box, browser, browsing, business, click, beautiful wallpaper, closeup, commerce, computer, concept, cursor, data, domain, find, graphic, http, hyperlink, information, internet, link, mouse, name, net, network, online, page, pointer, pointing, screen, shopping, site, surfing, url, webpage, white, wide, window, world, www
+s11_2 154373 1080 1920 computer mouse click | mouse, computer, office, technology, network, digital, click, hand, pc, study
+fail 11 3 Command '['ffmpeg', '-v', 'error', '-y', '-i', '/tmp/raw_11_3.mp4', '-t', '7', '-an', '-vf', 'scale=1920:1920:force_original_aspect_ratio=decrease', '-c:v', 'libx264', '-crf', '18', '-preset', 'fast', '/tmp/out/s11_3.mp4']' returned non-zero exit status 187.
+s11_4 1599 1920 1080 mouse click hand | click, play, button, green, video, pointer, on, push, online, internet, technology, digital, cursor, mouse, mouse cursor, start
