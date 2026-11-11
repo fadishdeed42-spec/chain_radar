@@ -15,6 +15,7 @@ PROMPTS = [  # Pizza Day Short: one 3-second scene per line, strong motion
 ]
 W, H = 480, 832
 RUN = r'''
+import os; os.environ.setdefault('PYTORCH_CUDA_ALLOC_CONF', 'expandable_segments:True')
 import sys, time, json, torch
 from diffusers.utils import export_to_video
 which, out = sys.argv[1], sys.argv[2]; P = json.loads(sys.argv[3]); W, H = int(sys.argv[4]), int(sys.argv[5])
@@ -28,7 +29,8 @@ try:
         pipe = WanPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16)
         pipe.enable_model_cpu_offload()                         # the setup that worked in the test (T5 is too big to keep on the GPU)
         neg = 'blurry, low quality, distorted, static, frozen, text, watermark, cartoon'
-        EMB = {k: pipe.encode_prompt(prompt=p + ', dynamic motion, highly detailed', negative_prompt=neg, do_classifier_free_guidance=True, max_sequence_length=226) for k, p in P.items()}
+        with torch.inference_mode():                            # no_grad: outside pipe() the encoder kept its whole graph -> OOM
+            EMB = {k: pipe.encode_prompt(prompt=p + ', dynamic motion, highly detailed', negative_prompt=neg, do_classifier_free_guidance=True, max_sequence_length=226) for k, p in P.items()}
         kw = dict(num_frames=49, num_inference_steps=20, guidance_scale=5.0); fps = 16
     else:
         from diffusers import LTXPipeline
@@ -39,6 +41,7 @@ try:
     for k, p in P.items():
         t1 = time.time()
         pe, ne = EMB[k]
+        torch.cuda.empty_cache()
         fr = pipe(prompt_embeds=pe, negative_prompt_embeds=ne, width=W, height=H, **kw).frames[0]
         f = f'{out}/clip_{int(k) + 1:02d}.mp4'; export_to_video(fr, f, fps=fps)
         res['clips'].append({'file': f, 'secs': round(time.time() - t1), 'frames': len(fr), 'fps': fps})
