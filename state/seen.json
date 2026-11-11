@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794317906.559131,
 1794322328.0243244,
 1794375609.3942149,
 1794376221.5514605,
@@ -15,7 +14,9 @@
 1794398449.3516173,
 1794399980.1217294,
 1794401210.7682185,
-1794403638.4887915
+1794403638.4887915,
+1794406601.483455,
+1794406677.56485
 ],
 "menu": {
 "013c78dfd737": {
@@ -275,7 +276,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794406115.850756,
+"t": 1794406728.2881067,
 "t0": 1794386564.0,
 "tgtext": "$ZEC has dropped below $1,000!\n\nTrader 0x8742 opened a 10x long on 18,000 $ZEC ($17.63M) and is now down over $2.8M.\n\nLiquidation price: $895.46.\n\nhttps://hypurrscan.io/address/0x874226b22939904f436ff0434e1fd0ab257c8427#perps",
 "title": "ZEC has dropped below $1,000!",
@@ -750,6 +751,22 @@
 "url": "https://t.me/WatcherGuru/15945",
 "urls": []
 },
+"2faf4828b8d3": {
+"coin": "zcash",
+"src": "The Crypto Times",
+"srcs": [
+"Cointelegraph",
+"The Crypto Times"
+],
+"t": 1794406728.2881067,
+"t0": 1794400304.0,
+"tgtext": "",
+"title": "Zcash Price Crashes Below $1,000 for First Time Since September as $35.7M Longs Liquidated",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU5pa1lDYzJkVGp1Q3Y4WWwtVGlmU20zdTZ3cExla3pKbm1mMXJsZjlVWjVzclFzVE0xcDd0VXZRTlZPMFgydGVPZW1WVWloWl9vY19pOVhfUkVPLVJaWFdRNWtEb3lzaVVPaTJHY2djWkNEdHUyQlhOdzBaRzcyU0pIaEZKXzZCNkxTTTVfcjhmMVJhWmEyQW1FVEhHZGU5XzMzLWtfX3gzUEtwdkZ3cWhZN1hJS29HLUkxQU1GbXg4S2xG?oc=5",
+"urls": [
+"https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "2ff1572440c1": {
 "coin": "",
 "src": "Cointelegraph",
@@ -906,7 +923,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1794406115.850756,
+"t": 1794406728.2881067,
 "t0": 1794394294.0,
 "tgtext": "",
 "title": "Kraken parent Payward adds 200 tokenized UK and European equities to xStocks offering",
@@ -1096,7 +1113,7 @@
 "StreetInsider",
 "TechBullion"
 ],
-"t": 1794406115.850756,
+"t": 1794406728.2881067,
 "t0": 1794399003.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Whale Withdraws 1,286 BTC From Binance as Remittix Earn Hits $1.7M TVL in Five Days of Testing",
@@ -1462,7 +1479,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1794406115.850756,
+"t": 1794406728.2881067,
 "t0": 1794392453.0,
 "tgtext": "",
 "title": "Robert Barr jailed for 8 years over \u00a32 million crypto theft plot run from prison",
@@ -1564,7 +1581,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794406115.850756,
+"t": 1794406728.2881067,
 "t0": 1794400438.0,
 "tgtext": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks\n\nKraken parent company Payward announced that it has added more than 200 tokenized stocks of UK- and EU-listed companies through xStocks, bringing the total number of products above 1,500. Each token is backed 1:1 by the underlying shares held at a regulated custodian and can be traded on Kraken and supporting xStocks Alliance platforms. Payward expects to launch hundreds of tokenized Hong Kong stocks in the coming weeks. Existing eligibility restrictions remain unchanged, and the service remains unavailable to UK investors, users located in the United States, and U.S. persons. \u2014 link",
 "title": "Kraken Parent Payward Launches Over 200 Tokenized UK and EU Stocks, Pushing xStocks Past 1,500, with Hundreds of Hong Kong Stocks to Follow in Coming Weeks",
@@ -2230,7 +2247,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794406115.850756,
+"t": 1794406728.2881067,
 "t0": 1794402060.0,
 "tgtext": "OKXICE Plans to Launch Tokenized Securities Trading Venue on November 23 Under SEC Innovation Exemption\n\nOKXICE, the joint venture between OKX and Intercontinental Exchange (ICE), parent company of the New York Stock Exchange, has announced plans to launch a tokenized securities trading venue on November 23 under the U.S. Securities and Exchange Commission\u2019s (SEC) five-year Innovation Exemption. The venue has currently confirmed 70 assets, involving issuers including Coinbase, Circle and Robinhood, as well as 59 exchange-traded funds (ETFs). The service is available to U.S. customers who hold a CeDeFi Wallet and have completed the account-opening process. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 OKX and NYSE's parent company to launch 24/7 tokenized securities exchange on November 23rd.\n\n@WatcherGuru",
 "title": "OKXICE Plans to Launch Tokenized Securities Trading Venue on November 23 Under SEC Innovation Exemption",
@@ -2885,11 +2902,12 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794405199.2246854,
+"t": 1794406728.2881067,
 "t0": 1794400422.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.\n\n@WatcherGuru",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.\n\n@WatcherGuru\n\ud83c\uddf7\ud83c\uddfa JUST IN: Russian exchanges could launch crypto trading as early as Nov. 22 if they first agree on trading rules with the Bank of Russia, per TASS.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 Bank of America warns Federal Reserve could raise interest rates by 50 basis points in December after CPI came in higher than expected.",
 "url": "https://t.me/WatcherGuru/15949",
 "urls": []
@@ -3376,6 +3394,20 @@
 "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMzYyMTJXZWZqZ2t3OExsV1ZqMV9QeF80bDlaR2V1Mmx2T2ZKNU1UZkctRGlOQ05ncEQ2RlFwbmNuUE9BanFjSGluQ1hYU3Y1NVloSUdHTTZ6aFl3ekxYOEVuVzBDZzZ0QmFfZVBJNkxGT2p5SU1ELXNRUlg3V3RSVHVIa2t4dENERHpuVXJjUVUwMjFNWUhBTWthZ0ZsN2Q5NlpCZWtHSWxmZnk1NDR4eUYtR3R5MTJkSFlzYTln?oc=5",
 "urls": []
 },
+"d229e333294c": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Watcher.Guru",
+"Wu Blockchain"
+],
+"t": 1794406728.2881067,
+"t0": 1794406080.0,
+"tgtext": "Russian Central Bank: Exchanges May Conduct Crypto Trading from November 22, Subject to Prior Approval of Trading Rules\n\nAccording to TASS, the Bank of Russia said Russian exchanges may begin offering cryptocurrency trading from November 22, 2026, provided they first agree on trading rules with the regulator. The relevant directive has been registered by the Russian Ministry of Justice. Exchanges must register brokers, trustees, and central counterparties as trading participants, maintain order and transaction records, monitor trading activity, and calculate spot prices, weighted average prices, market prices, and closing prices. They are also required to submit trading data and results to the central bank in accordance with existing reporting procedures for other assets. \u2014 link\nJUST IN: \ud83c\uddf7\ud83c\uddfa Russia's Central Bank says exchanges can begin cryptocurrency trading from November 17th.\n\n@WatcherGuru",
+"title": "Russian Central Bank: Exchanges May Conduct Crypto Trading from November 22, Subject to Prior Approval of Trading Rules",
+"url": "https://t.me/wublockchainenglish/26783",
+"urls": []
+},
 "d2624bc6557e": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3742,6 +3774,24 @@
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93NHlDdEJFR0lMZnpWQ21YQ2Q3S013UENJRjFXblJ5cU0xRlBJdFBYMDIweVVEZG9ZeTRSWXVlaC1SWmlpSFV2LWZwTE05ZWZzYkVRYmk1TXZGU2xLdUJTNjJFTFYtTzZ1ZUtnYmZCNDRGOGg1dWxJ?oc=5",
 "urls": []
 },
+"eeb663767ea4": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"Cointelegraph",
+"The Block",
+"Watcher.Guru"
+],
+"t": 1794406728.2881067,
+"t0": 1794385182.0,
+"tgtext": "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank officially rolls out crypto custody services.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: $1.7T Deutsche Bank launches digital asset custody for clients.\n\nNews | Markets | YouTube",
+"title": "Deutsche Bank goes live with digital asset custody service, signs asset management deal",
+"url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
+"https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "f357b48249df": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3905,14 +3955,12 @@
 "probs": {
 "01521cf6d04d": 0.112,
 "0581c0bb8b3b": 0.319,
-"0c976649273e": 0.915,
 "12e8c5d80973": 0.219,
-"1389c7298a39": 0.048,
 "1fb38e5f6a51": 0.284,
 "2471eb0206a7": 0.085,
 "28a6e3d1a2f7": 0.559,
 "2f4feb422b56": 0.641,
-"2faf4828b8d3": 0.54,
+"2faf4828b8d3": 0.846,
 "359b194ef46a": 0.727,
 "39a3a0440941": 0.037,
 "3aa04d962aba": 0.865,
@@ -3921,18 +3969,20 @@
 "4853f165fd6e": 0.908,
 "5df5ef17ed72": 0.077,
 "6241155522a6": 0.875,
-"6beaba6910d6": 0.124,
+"6beaba6910d6": 0.314,
 "7267e3b05092": 0.485,
 "8d1edd3aecb6": 0.177,
 "8db682a58e2b": 0.747,
-"8ed58a212ae2": 0.188,
+"8ed58a212ae2": 0.088,
 "9304331a324e": 0.988,
 "9be506d2a6af": 0.047,
 "a483be30169a": 0.588,
 "ae1aa43b0135": 0.084,
-"b5e2647abb73": 0.721,
+"b5e2647abb73": 0.973,
 "c7e8807830f7": 0.107,
+"d229e333294c": 0.968,
 "d253fba987de": 0.074,
+"d287dc425722": 0.057,
 "d391e6b0bce0": 0.186,
 "d9fd4f9df1a0": 0.437,
 "e6f55e233419": 0.047,
@@ -3945,64 +3995,6 @@
 "faca0aa31e51": 0.142
 },
 "sent": [
-{
-"e": [
-"biggest",
-"binance",
-"ever",
-"hack",
-"morning",
-"resumes",
-"risk",
-"suffering",
-"withdrawals"
-],
-"k": [
-"hack"
-],
-"t": 1794230861.032629,
-"u": [
-"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTUZSQ3Q2WkVhVEhYMmxhaEE5ckZ1cWdqWmljcU9EZFVSSE9mT240N2cwTEgzWjg2b213XzFTU0JZenRzOUZjUnlhYTJibE1nYVhRV2RycmpnY1Jka3NoUEpHdy1jZm1lODNvYWl6TGtoTTFZSTdESzBIczJ2WTFTeVZSR1M2T3hRdzdObkswaEpROHd6VGNoN1pIZlAyV0U2bFRJNW1scldrTHdiNnJ3ZHNPVWtuUTFPWlZLV2hrOHFBTml5Y01oUHJKUGVPUnZ3TThJMjlMbkNTbjVvcFE?oc=5",
-"https://news.google.com/rss/articles/CBMimAFBVV95cUxQM09aRnZGTlJUY1pEVUFiZ0ZqYnJ6UHVwQ2tQNTNRNmdTYkMxc2tCRHBSTUw2bmNRQnN6MWF2eWtIa05kSWVHaVVfSi15dlBZc1M2TW4tZDZhNkhPaE9IdU9LaDJIVmdFY3VVRFhNRWhZVllURld4aWFTYzhka25zUmQ5N3BVcGRCT3FOdm81QzJFVlFjT0JaTg?oc=5",
-"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPb3EwNDBrLVNaanJaY3B4NExhc0NoRjV5YUoyV3JORGtlZllPRTdLWHZWT2dkMjZaeE14blhnMFR6cXNKNEpBTHVGaU5OZjhFX1RnVlAtcFMtMDhoQXNhNHkzNnFLVW9rWThSc1FQYW1sUXBiOGFOVlNyZzJvT1lwVzkta2ltaFM1NENuQjZZcDZ4YmNJZVRCdDBfb2l2N1oxSXRRSUdVT3NLM2lEbE5HNGgzTW15ZVVmdlJqdG42cDJCSmc1RkNWRnNNNjFNT19OeVpWNWVkQ1JkTzFWVHc?oc=5"
-],
-"w": [
-"biggest",
-"binance",
-"ever",
-"hack",
-"morning",
-"report",
-"resumes",
-"risk",
-"suffering",
-"withdrawals"
-]
-},
-{
-"e": [
-"blackrock"
-],
-"k": [
-"etf"
-],
-"t": 1794233006.1776667,
-"u": [
-"https://t.me/WatcherGuru/15895"
-],
-"w": [
-"$15",
-"billions",
-"blackrock",
-"concerns",
-"dollars",
-"etfs",
-"expects",
-"move",
-"security",
-"trillion"
-]
-},
 {
 "e": [
 "avalanche",
@@ -5492,6 +5484,80 @@
 "under",
 "venue"
 ]
+},
+{
+"e": [
+"america",
+"bank",
+"cpi",
+"december",
+"federal",
+"reserve"
+],
+"k": [
+"ban"
+],
+"t": 1794406423.9376721,
+"u": [
+"https://t.me/WatcherGuru/15949",
+"https://t.me/cointelegraph/73195"
+],
+"w": [
+"america",
+"bank",
+"basis",
+"came",
+"could",
+"cpi",
+"december",
+"expected",
+"federal",
+"higher",
+"interest",
+"points",
+"raise",
+"rates",
+"reserve",
+"warns"
+]
+},
+{
+"e": [
+"approval",
+"bank",
+"central",
+"conduct",
+"exchanges",
+"may",
+"november",
+"prior",
+"rules",
+"russian",
+"subject",
+"trading"
+],
+"k": [
+"ban"
+],
+"t": 1794406601.483455,
+"u": [
+"https://t.me/wublockchainenglish/26783",
+"https://t.me/WatcherGuru/15951"
+],
+"w": [
+"approval",
+"bank",
+"central",
+"conduct",
+"exchanges",
+"may",
+"november",
+"prior",
+"rules",
+"russian",
+"subject",
+"trading"
+]
 }
 ],
 "stories": {},
@@ -5500,63 +5566,63 @@
 [
 "9304331a324e",
 44,
-68,
+78,
 3
 ],
 [
-"0c976649273e",
-17,
+"b5e2647abb73",
+34,
+105,
+2
+],
+[
+"d229e333294c",
+28,
+11,
+2
+],
+[
+"eeb663767ea4",
+7,
 359,
-4
+3
 ],
 [
 "4853f165fd6e",
 42,
-119,
+129,
 2
 ],
 [
 "6241155522a6",
-48,
-228,
+47,
+238,
 3
 ],
 [
 "3aa04d962aba",
-53,
-197,
+52,
+207,
 4
 ],
 [
-"763bb4c89978",
-2,
-355,
-1
+"2faf4828b8d3",
+66,
+107,
+2
 ],
 [
 "6c60c4d01ea5",
 10,
-95,
+105,
 1
 ],
 [
 "100cb83dab07",
-6,
-326,
+5,
+336,
 1
-],
-[
-"abbd57293158",
-10,
-120,
-1
-],
-[
-"8db682a58e2b",
-71,
-169,
-5
 ]
 ],
-"top_at": 1794406115.850756
+"top_at": 1794406728.2881067
 }
