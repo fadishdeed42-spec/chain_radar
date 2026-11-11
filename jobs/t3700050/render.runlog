@@ -5,15 +5,15 @@ $ /opt/hostedtoolcache/Python/3.11.18/x64/bin/python /home/runner/work/chain_rad
 ok jobs/t3700050/voice_tight.wav
 $ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/t3700050/music_long.wav
 $ /opt/hostedtoolcache/Python/3.11.18/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/t3700050/silent.mp4 jobs/t3700050/voice_tight.wav jobs/t3700050/sfx.wav jobs/t3700050/music_long.wav 50.15 jobs/t3700050/short.mp4 0
-voice-over-bed dB while speaking: median 64.1, 5th pct 17.2, worst 4.7
+voice-over-bed dB while speaking: median 62.4, 5th pct 17.2, worst 4.7
 worst windows: [(0.2, np.float32(4.7)), (9.8, np.float32(7.4)), (15.0, np.float32(12.5)), (12.6, np.float32(13.6)), (43.0, np.float32(14.4))]
 mixed -> jobs/t3700050/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700050/short.mp4 -c:v libx264 -crf 19 -maxrate 6922k -bufsize 13844k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700050/short_s.mp4
 video check: []
 qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 ⚠️ <b>Video check: please look at</b>
-⚠️ text: text cut off at 38s (Top bar cut off slightly.)
-⚠️ text: hard to read at 8s (Too dark and unreadable text.)
+⚠️ text: hard to read at 8s (Too dark, nothing visible)
+⚠️ match: picture may not match the words at 8s (Too dark, nothing visible)
 ✅ 6 checks passed (format, hook frame, loudness, motion, picture, sync)
 $ ffmpeg -y -v error -ss 2.09 -i jobs/t3700050/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700050/sh_00.png
 $ ffmpeg -y -v error -ss 6.27 -i jobs/t3700050/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700050/sh_01.png
