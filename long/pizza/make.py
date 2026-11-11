@@ -39,10 +39,12 @@ bounds = [0.0] + [max(0, starts[i] - .08) for i in range(1, len(lines))] + [END]
 for i in range(n_story):
     d = bounds[i + 1] - bounds[i]; src = os.path.join(CLIPS, f'clip_{i + 1:02d}.mp4')
     cd = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src]))
+    lum = float(subprocess.run(['ffmpeg', '-i', src, '-vf', 'signalstats,metadata=print:key=lavfi.signalstats.YAVG', '-f', 'null', '-'], capture_output=True, text=True).stderr.split('YAVG=')[-1].split()[0])
+    lift = ',eq=gamma=1.45:brightness=0.03' if lum < 45 else ''                # very dark AI scenes: lift the shadows so faces read on a phone
     slow = max(1.0, d / cd)                                         # a longer line: play the clip a little slower (never freeze)
     o = f'{TMP}/s{i:02d}.mp4'
-    vf = (f'setpts={slow:.4f}*PTS,fps={FPS},scale={W}:-2:flags=lanczos,crop={W}:{H},'
-          f'eq=contrast=1.06:saturation=1.08,unsharp=5:5:0.6,trim=duration={d:.3f},setpts=PTS-STARTPTS')
+    vf = (f'setpts={slow:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:vsbmc=1,scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},'
+          f'eq=contrast=1.06:saturation=1.08,unsharp=5:5:0.6{lift},trim=duration={d:.3f},setpts=PTS-STARTPTS')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', vf, '-an', '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', '-pix_fmt', 'yuv420p', o], check=True)
     segs.append(o)
 # end card
