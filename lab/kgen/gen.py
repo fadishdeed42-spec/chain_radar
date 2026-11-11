@@ -1,17 +1,18 @@
 # Runs INSIDE a free Kaggle GPU notebook (2x T4): makes short AI video clips with two open models in parallel and times them.
 import os, sys, subprocess, json, time
 OUT = '/kaggle/working'
-PROMPTS = [  # Pizza Day Short: one 3-second scene per line, strong motion
- 'Cinematic realistic close-up, two hot pizzas on a wooden table, steam rising, shiny gold coins pouring down and piling up next to them, dramatic warm light, slow push-in',
- 'Cinematic realistic shot, a man at night in a small room typing on an old laptop, the screen glow lights his face, he leans in, slow push-in, 2010',
- 'Cinematic realistic close-up, fingers typing fast on an old laptop keyboard at night, glowing screen, camera slowly moving sideways',
- 'Cinematic realistic shot, a young college student in a dorm room at night reads his laptop screen and starts smiling, nods, slow push-in',
- 'Cinematic realistic shot, a pizza delivery man walks up to a house front door at night carrying two pizza boxes, warm porch light, the door opens',
- 'Cinematic realistic close-up, a man opens a pizza box on a kitchen table and lifts a cheesy slice, cheese stretching, warm light',
- 'Cinematic realistic shot, a huge pile of gold coins grows taller and taller, coins falling and bouncing, glittering, dark background, camera tilts up',
- 'Cinematic realistic close-up, a young man in a dark room looks up from his phone, surprised, thoughtful, slow push-in',
- 'Cinematic realistic shot, a young backpacker walks fast through a bright airport terminal, planes outside the windows, tracking shot',
- 'Cinematic realistic shot, a young traveler stands on a cliff at sunset looking at the ocean, wind in his hair, he smiles, slow orbit',
+PROMPTS = [  # IronKey Short: one ~3-second scene per line, strong motion
+ 'Cinematic realistic close-up, a tense man in his thirties stares at a laptop screen in a dark room, red warning light flashing on his sweating face, slow push-in',
+ 'Cinematic realistic shot, a young programmer in a bright sunny apartment works on an animation on his laptop, sticky notes on the wall, camera glides sideways',
+ 'Cinematic realistic shot, shiny gold coins raining down onto a wooden desk and piling up higher and higher, glittering, warm light, slow push-in',
+ 'Cinematic realistic macro shot, a hand plugs a small black metal USB flash drive into a laptop, a tiny green light turns on, shallow focus',
+ 'Cinematic realistic shot, a man frantically searches through papers and drawers in a messy room at night, papers flying, handheld camera',
+ 'Cinematic realistic macro shot, a small black USB flash drive on a dark table, its red light blinking, sparks and smoke rising, dramatic',
+ 'Cinematic realistic shot, a frustrated man slams his hands on a desk in front of a laptop at night and grabs his head, camera shake',
+ 'Cinematic realistic shot, camera flies low over a gigantic mountain of gold coins in a dark vault, glittering, epic scale',
+ 'Cinematic realistic shot, hackers in a dark server room with rows of blinking servers and green code on screens, camera tracking forward',
+ 'Cinematic realistic shot, a man in a dark suit shakes his head, closes his laptop and walks away from the desk, city lights through the window at night',
+ 'Cinematic realistic extreme close-up, a finger slowly hovers above the Enter key of a laptop keyboard, glowing screen light, intense, slow push-in',
 ]
 W, H = 480, 832
 RUN = r'''
