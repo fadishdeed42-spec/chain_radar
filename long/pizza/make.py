@@ -43,7 +43,7 @@ for i in range(n_story):
     lift = ',eq=gamma=1.45:brightness=0.03' if lum < 45 else ''                # very dark AI scenes: lift the shadows so faces read on a phone
     slow = max(1.0, d / cd)                                         # a longer line: play the clip a little slower (never freeze)
     o = f'{TMP}/s{i:02d}.mp4'
-    vf = (f'setpts={slow:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:vsbmc=1,scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},'
+    vf = (f'setpts={slow:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=blend,scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},'
           f'eq=contrast=1.06:saturation=1.08,unsharp=5:5:0.6{lift},trim=duration={d:.3f},setpts=PTS-STARTPTS')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', vf, '-an', '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', '-pix_fmt', 'yuv420p', o], check=True)
     segs.append(o)
@@ -95,6 +95,6 @@ m = subprocess.run(['ffmpeg', '-i', OUT, '-af', 'ebur128', '-f', 'null', '-'], c
 I = float(re.findall(r'I:\s+(-?[\d.]+) LUFS', m)[-1])
 if abs(I + 14) > .5:
     os.rename(OUT, OUT + '.tmp.mp4')
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', OUT + '.tmp.mp4', '-af', f'volume={-14 - I:.2f}dB,alimiter=limit=0.84', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', OUT], check=True)
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', OUT + '.tmp.mp4', '-af', f'volume={-14 - I:.2f}dB,alimiter=limit=0.78:level=false', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', OUT], check=True)
     os.remove(OUT + '.tmp.mp4')
 print(OUT, 'dur', round(END, 2), 'LUFS was', I)
