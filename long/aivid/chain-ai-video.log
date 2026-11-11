@@ -1,92 +1,143 @@
-[{"stream_name":"stdout","time":860.14746606,"data":"$ nvidia-smi --query-gpu=name,memory.total --format=csv\n"}
-,{"stream_name":"stdout","time":860.147530044,"data":"name, memory.total [MiB]\n"}
-,{"stream_name":"stdout","time":860.147536289,"data":"Tesla T4, 15360 MiB\n"}
-,{"stream_name":"stdout","time":860.14753989,"data":"Tesla T4, 15360 MiB\n"}
-,{"stream_name":"stdout","time":860.147543294,"data":"\n"}
-,{"stream_name":"stdout","time":860.14754676,"data":"$ pip install -q -U diffusers transformers accelerate sentencepiece imageio imageio-ffmpeg ftfy 2\u003e\u00261 | tail -3\n"}
-,{"stream_name":"stdout","time":860.147551064,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stdout","time":860.147555052,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
-,{"stream_name":"stdout","time":860.147565257,"data":"\n"}
-,{"stream_name":"stdout","time":860.147567857,"data":"{\n"}
-,{"stream_name":"stdout","time":860.147570158,"data":" \"model\": \"wan0\",\n"}
-,{"stream_name":"stdout","time":860.147572792,"data":" \"clips\": [\n"}
-,{"stream_name":"stdout","time":860.14757516,"data":"  {\n"}
-,{"stream_name":"stdout","time":860.147577454,"data":"   \"file\": \"/kaggle/working/clip_01.mp4\",\n"}
-,{"stream_name":"stdout","time":860.147579954,"data":"   \"secs\": 546,\n"}
-,{"stream_name":"stdout","time":860.147582436,"data":"   \"frames\": 49,\n"}
-,{"stream_name":"stdout","time":860.147584812,"data":"   \"fps\": 16\n"}
-,{"stream_name":"stdout","time":860.147587179,"data":"  }\n"}
-,{"stream_name":"stdout","time":860.147589582,"data":" ],\n"}
-,{"stream_name":"stdout","time":860.147591827,"data":" \"load_s\": 252,\n"}
-,{"stream_name":"stdout","time":860.147594604,"data":" \"error\": \"Traceback (most recent call last):\\n  File \\\"/tmp/run_one.py\\\", line 33, in \u003cmodule\u003e\\n    print(which, k + 1, round(time.time() - t1), 's', flush=True)\\n                 ~~^~~\\nTypeError: can only concatenate str (not \\\"int\\\") to str\\n\",\n"}
-,{"stream_name":"stdout","time":860.147613914,"data":" \"total_s\": 799\n"}
-,{"stream_name":"stdout","time":860.147618062,"data":"}\n"}
-,{"stream_name":"stdout","time":860.147621968,"data":"ding weights:  74%|███████▎  | 178/242 [00:33\u003c00:14,  4.43it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.14762817,"data":"\n"}
-,{"stream_name":"stdout","time":860.147631677,"data":"Loading weights:  77%|███████▋  | 187/242 [00:35\u003c00:12,  4.30it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147635599,"data":"\n"}
-,{"stream_name":"stdout","time":860.147638836,"data":"Loading weights:  81%|████████▏ | 197/242 [00:38\u003c00:10,  4.28it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147642702,"data":"\n"}
-,{"stream_name":"stdout","time":860.147646009,"data":"Loading weights:  84%|████████▍ | 203/242 [00:38\u003c00:06,  5.58it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147649744,"data":"\n"}
-,{"stream_name":"stdout","time":860.147652972,"data":"Loading weights:  86%|████████▌ | 207/242 [00:40\u003c00:09,  3.84it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.14765667,"data":"\n"}
-,{"stream_name":"stdout","time":860.147659967,"data":"Loading weights:  90%|████████▉ | 217/242 [00:42\u003c00:06,  4.00it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147663638,"data":"\n"}
-,{"stream_name":"stdout","time":860.147666955,"data":"Loading weights:  94%|█████████▍| 227/242 [00:45\u003c00:03,  3.98it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147682763,"data":"\n"}
-,{"stream_name":"stdout","time":860.147685664,"data":"Loading weights:  98%|█████████▊| 237/242 [00:47\u003c00:01,  4.47it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.14768819,"data":"\n"}
-,{"stream_name":"stdout","time":860.147690437,"data":"Loading weights: 100%|██████████| 242/242 [01:03\u003c00:00,  1.22it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147693067,"data":"Loading weights: 100%|██████████| 242/242 [01:03\u003c00:00,  3.82it/s]\n"}
-,{"stream_name":"stdout","time":860.147709332,"data":"\n"}
-,{"stream_name":"stdout","time":860.147713328,"data":"Loading pipeline components...:  80%|████████  | 4/5 [01:07\u003c00:20, 20.64s/it]\n"}
-,{"stream_name":"stdout","time":860.147717983,"data":"\n"}
-,{"stream_name":"stdout","time":860.14772153,"data":"Loading checkpoint shards:   0%|          | 0/2 [00:00\u003c?, ?it/s]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147726212,"data":"\n"}
-,{"stream_name":"stdout","time":860.147730948,"data":"Loading checkpoint shards:  50%|█████     | 1/2 [00:19\u003c00:19, 19.91s/it]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147734861,"data":"\n"}
-,{"stream_name":"stdout","time":860.147738226,"data":"Loading checkpoint shards: 100%|██████████| 2/2 [00:22\u003c00:00,  9.80s/it]\u001b[A\n"}
-,{"stream_name":"stdout","time":860.147742269,"data":"Loading checkpoint shards: 100%|██████████| 2/2 [00:22\u003c00:00, 11.31s/it]\n"}
-,{"stream_name":"stdout","time":860.147746073,"data":"\n"}
-,{"stream_name":"stdout","time":860.147749263,"data":"Loading pipeline components...: 100%|██████████| 5/5 [01:30\u003c00:00, 21.30s/it]\n"}
-,{"stream_name":"stdout","time":860.147752899,"data":"Loading pipeline components...: 100%|██████████| 5/5 [01:30\u003c00:00, 18.03s/it]\n"}
-,{"stream_name":"stdout","time":860.147756557,"data":"\n"}
-,{"stream_name":"stdout","time":860.147759642,"data":"  0%|          | 0/20 [00:00\u003c?, ?it/s]\n"}
-,{"stream_name":"stdout","time":860.147763219,"data":"  5%|▌         | 1/20 [00:34\u003c10:59, 34.69s/it]\n"}
-,{"stream_name":"stdout","time":860.147766763,"data":" 10%|█         | 2/20 [00:54\u003c07:43, 25.77s/it]\n"}
-,{"stream_name":"stdout","time":860.147770261,"data":" 15%|█▌        | 3/20 [01:14\u003c06:34, 23.20s/it]\n"}
-,{"stream_name":"stdout","time":860.14777588,"data":" 20%|██        | 4/20 [01:34\u003c05:54, 22.15s/it]\n"}
-,{"stream_name":"stdout","time":860.147779332,"data":" 25%|██▌       | 5/20 [01:55\u003c05:26, 21.77s/it]\n"}
-,{"stream_name":"stdout","time":860.147784829,"data":" 30%|███       | 6/20 [02:17\u003c05:04, 21.75s/it]\n"}
-,{"stream_name":"stdout","time":860.147792099,"data":" 35%|███▌      | 7/20 [02:40\u003c04:46, 22.02s/it]\n"}
-,{"stream_name":"stdout","time":860.147807183,"data":" 40%|████      | 8/20 [03:03\u003c04:27, 22.28s/it]\n"}
-,{"stream_name":"stdout","time":860.147811709,"data":" 45%|████▌     | 9/20 [03:25\u003c04:04, 22.20s/it]\n"}
-,{"stream_name":"stdout","time":860.147816163,"data":" 50%|█████     | 10/20 [03:47\u003c03:41, 22.14s/it]\n"}
-,{"stream_name":"stdout","time":860.147820371,"data":" 55%|█████▌    | 11/20 [04:09\u003c03:20, 22.23s/it]\n"}
-,{"stream_name":"stdout","time":860.147824638,"data":" 60%|██████    | 12/20 [04:31\u003c02:57, 22.22s/it]\n"}
-,{"stream_name":"stdout","time":860.147828313,"data":" 65%|██████▌   | 13/20 [04:53\u003c02:35, 22.15s/it]\n"}
-,{"stream_name":"stdout","time":860.147836401,"data":" 70%|███████   | 14/20 [05:15\u003c02:12, 22.13s/it]\n"}
-,{"stream_name":"stdout","time":860.147840156,"data":" 75%|███████▌  | 15/20 [05:38\u003c01:50, 22.16s/it]\n"}
-,{"stream_name":"stdout","time":860.147843726,"data":" 80%|████████  | 16/20 [06:00\u003c01:28, 22.15s/it]\n"}
-,{"stream_name":"stdout","time":860.147847353,"data":" 85%|████████▌ | 17/20 [06:22\u003c01:06, 22.20s/it]\n"}
-,{"stream_name":"stdout","time":860.147851074,"data":" 90%|█████████ | 18/20 [06:44\u003c00:44, 22.18s/it]\n"}
-,{"stream_name":"stdout","time":860.147854659,"data":" 95%|█████████▌| 19/20 [07:06\u003c00:22, 22.21s/it]\n"}
-,{"stream_name":"stdout","time":860.147858313,"data":"100%|██████████| 20/20 [07:29\u003c00:00, 22.22s/it]\n"}
-,{"stream_name":"stdout","time":860.147861971,"data":"100%|██████████| 20/20 [07:29\u003c00:00, 22.46s/it]\n"}
-,{"stream_name":"stdout","time":860.147865628,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stdout","time":860.147869079,"data":"  File \"/tmp/run_one.py\", line 33, in \u003cmodule\u003e\n"}
-,{"stream_name":"stdout","time":860.147872826,"data":"    print(which, k + 1, round(time.time() - t1), 's', flush=True)\n"}
-,{"stream_name":"stdout","time":860.147876472,"data":"                 ~~^~~\n"}
-,{"stream_name":"stdout","time":860.147881767,"data":"TypeError: can only concatenate str (not \"int\") to str\n"}
-,{"stream_name":"stdout","time":860.147889737,"data":"\n"}
-,{"stream_name":"stdout","time":860.147903778,"data":"\n"}
-,{"stream_name":"stdout","time":860.147907848,"data":"wan1: no result [Errno 2] No such file or directory: '/kaggle/working/wan1.json'\n"}
-,{"stream_name":"stdout","time":860.147912189,"data":"\n"}
-,{"stream_name":"stderr","time":862.493464576,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":862.493509436,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":862.814409078,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":862.814436732,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":863.664143096,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":864.679054725,"data":"[NbConvertApp] Writing 287613 bytes to __results__.html\n"}
+[{"stream_name":"stdout","time":5624.567796225,"data":"$ nvidia-smi --query-gpu=name,memory.total --format=csv\n"}
+,{"stream_name":"stdout","time":5624.567850838,"data":"name, memory.total [MiB]\n"}
+,{"stream_name":"stdout","time":5624.567855539,"data":"Tesla T4, 15360 MiB\n"}
+,{"stream_name":"stdout","time":5624.567858349,"data":"Tesla T4, 15360 MiB\n"}
+,{"stream_name":"stdout","time":5624.5678611,"data":"\n"}
+,{"stream_name":"stdout","time":5624.56786375,"data":"$ pip install -q -U diffusers transformers accelerate sentencepiece imageio imageio-ffmpeg ftfy 2\u003e\u00261 | tail -3\n"}
+,{"stream_name":"stdout","time":5624.567867033,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stdout","time":5624.567870116,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":5624.567873136,"data":"\n"}
+,{"stream_name":"stdout","time":5624.567875672,"data":"{\n"}
+,{"stream_name":"stdout","time":5624.567878265,"data":" \"model\": \"wan0\",\n"}
+,{"stream_name":"stdout","time":5624.567881214,"data":" \"clips\": [\n"}
+,{"stream_name":"stdout","time":5624.567883853,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567886526,"data":"   \"file\": \"/kaggle/working/clip_01.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.567889366,"data":"   \"secs\": 543,\n"}
+,{"stream_name":"stdout","time":5624.567892131,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567894781,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567897435,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567899994,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567902656,"data":"   \"file\": \"/kaggle/working/clip_02.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.567905402,"data":"   \"secs\": 532,\n"}
+,{"stream_name":"stdout","time":5624.567908045,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567910706,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567913329,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567915874,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567918466,"data":"   \"file\": \"/kaggle/working/clip_03.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.567921185,"data":"   \"secs\": 530,\n"}
+,{"stream_name":"stdout","time":5624.567923802,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567926419,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567929037,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567931652,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567934279,"data":"   \"file\": \"/kaggle/working/clip_04.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.567936996,"data":"   \"secs\": 532,\n"}
+,{"stream_name":"stdout","time":5624.567939591,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567942194,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567944791,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567947321,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567949885,"data":"   \"file\": \"/kaggle/working/clip_05.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.567952578,"data":"   \"secs\": 532,\n"}
+,{"stream_name":"stdout","time":5624.567955196,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567957807,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567960415,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567962954,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567969917,"data":"   \"file\": \"/kaggle/working/clip_06.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.567972839,"data":"   \"secs\": 531,\n"}
+,{"stream_name":"stdout","time":5624.567975462,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567978076,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567980965,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567983542,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.567986091,"data":"   \"file\": \"/kaggle/working/clip_07.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.56798881,"data":"   \"secs\": 530,\n"}
+,{"stream_name":"stdout","time":5624.567991425,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.567994036,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.567996639,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.567999164,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.568001707,"data":"   \"file\": \"/kaggle/working/clip_08.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.568004421,"data":"   \"secs\": 532,\n"}
+,{"stream_name":"stdout","time":5624.568007029,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.568009636,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.568012248,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.568014791,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.568017337,"data":"   \"file\": \"/kaggle/working/clip_09.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.568020073,"data":"   \"secs\": 531,\n"}
+,{"stream_name":"stdout","time":5624.568022699,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.568025311,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.568027921,"data":"  },\n"}
+,{"stream_name":"stdout","time":5624.568030465,"data":"  {\n"}
+,{"stream_name":"stdout","time":5624.568033191,"data":"   \"file\": \"/kaggle/working/clip_10.mp4\",\n"}
+,{"stream_name":"stdout","time":5624.568035949,"data":"   \"secs\": 531,\n"}
+,{"stream_name":"stdout","time":5624.568038557,"data":"   \"frames\": 49,\n"}
+,{"stream_name":"stdout","time":5624.568041171,"data":"   \"fps\": 16\n"}
+,{"stream_name":"stdout","time":5624.568043776,"data":"  }\n"}
+,{"stream_name":"stdout","time":5624.568046299,"data":" ],\n"}
+,{"stream_name":"stdout","time":5624.568048823,"data":" \"load_s\": 252,\n"}
+,{"stream_name":"stdout","time":5624.568051467,"data":" \"total_s\": 5575\n"}
+,{"stream_name":"stdout","time":5624.568054073,"data":"}\n"}
+,{"stream_name":"stdout","time":5624.568056609,"data":"0%|███████   | 14/20 [05:07\u003c02:11, 21.97s/it]\n"}
+,{"stream_name":"stdout","time":5624.56806028,"data":" 75%|███████▌  | 15/20 [05:29\u003c01:49, 21.92s/it]\n"}
+,{"stream_name":"stdout","time":5624.568063171,"data":" 80%|████████  | 16/20 [05:51\u003c01:27, 21.92s/it]\n"}
+,{"stream_name":"stdout","time":5624.568065993,"data":" 85%|████████▌ | 17/20 [06:13\u003c01:05, 21.94s/it]\n"}
+,{"stream_name":"stdout","time":5624.568068794,"data":" 90%|█████████ | 18/20 [06:35\u003c00:43, 21.97s/it]\n"}
+,{"stream_name":"stdout","time":5624.568071611,"data":" 95%|█████████▌| 19/20 [06:57\u003c00:21, 21.93s/it]\n"}
+,{"stream_name":"stdout","time":5624.568074399,"data":"100%|██████████| 20/20 [07:19\u003c00:00, 21.90s/it]\n"}
+,{"stream_name":"stdout","time":5624.568078374,"data":"100%|██████████| 20/20 [07:19\u003c00:00, 21.96s/it]\n"}
+,{"stream_name":"stdout","time":5624.568081185,"data":"wan0 8 532 s\n"}
+,{"stream_name":"stdout","time":5624.568090422,"data":"\n"}
+,{"stream_name":"stdout","time":5624.568093169,"data":"  0%|          | 0/20 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":5624.568095907,"data":"  5%|▌         | 1/20 [00:22\u003c07:06, 22.43s/it]\n"}
+,{"stream_name":"stdout","time":5624.568098648,"data":" 10%|█         | 2/20 [00:44\u003c06:39, 22.20s/it]\n"}
+,{"stream_name":"stdout","time":5624.568101324,"data":" 15%|█▌        | 3/20 [01:06\u003c06:15, 22.07s/it]\n"}
+,{"stream_name":"stdout","time":5624.568104037,"data":" 20%|██        | 4/20 [01:28\u003c05:52, 22.00s/it]\n"}
+,{"stream_name":"stdout","time":5624.568107339,"data":" 25%|██▌       | 5/20 [01:50\u003c05:29, 21.94s/it]\n"}
+,{"stream_name":"stdout","time":5624.568111431,"data":" 30%|███       | 6/20 [02:11\u003c05:06, 21.87s/it]\n"}
+,{"stream_name":"stdout","time":5624.568115332,"data":" 35%|███▌      | 7/20 [02:33\u003c04:44, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568118411,"data":" 40%|████      | 8/20 [02:55\u003c04:22, 21.86s/it]\n"}
+,{"stream_name":"stdout","time":5624.568121159,"data":" 45%|████▌     | 9/20 [03:17\u003c04:00, 21.89s/it]\n"}
+,{"stream_name":"stdout","time":5624.568124066,"data":" 50%|█████     | 10/20 [03:39\u003c03:38, 21.89s/it]\n"}
+,{"stream_name":"stdout","time":5624.568126835,"data":" 55%|█████▌    | 11/20 [04:01\u003c03:16, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568129634,"data":" 60%|██████    | 12/20 [04:23\u003c02:54, 21.86s/it]\n"}
+,{"stream_name":"stdout","time":5624.568132396,"data":" 65%|██████▌   | 13/20 [04:44\u003c02:33, 21.86s/it]\n"}
+,{"stream_name":"stdout","time":5624.568135246,"data":" 70%|███████   | 14/20 [05:06\u003c02:11, 21.87s/it]\n"}
+,{"stream_name":"stdout","time":5624.568138002,"data":" 75%|███████▌  | 15/20 [05:28\u003c01:49, 21.85s/it]\n"}
+,{"stream_name":"stdout","time":5624.56814086,"data":" 80%|████████  | 16/20 [05:50\u003c01:27, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568143614,"data":" 85%|████████▌ | 17/20 [06:12\u003c01:05, 21.87s/it]\n"}
+,{"stream_name":"stdout","time":5624.568146374,"data":" 90%|█████████ | 18/20 [06:34\u003c00:43, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568149133,"data":" 95%|█████████▌| 19/20 [06:56\u003c00:21, 21.83s/it]\n"}
+,{"stream_name":"stdout","time":5624.568151977,"data":"100%|██████████| 20/20 [07:17\u003c00:00, 21.85s/it]\n"}
+,{"stream_name":"stdout","time":5624.56815474,"data":"100%|██████████| 20/20 [07:17\u003c00:00, 21.90s/it]\n"}
+,{"stream_name":"stdout","time":5624.568157499,"data":"wan0 9 531 s\n"}
+,{"stream_name":"stdout","time":5624.568160133,"data":"\n"}
+,{"stream_name":"stdout","time":5624.568162693,"data":"  0%|          | 0/20 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":5624.568165391,"data":"  5%|▌         | 1/20 [00:22\u003c07:06, 22.46s/it]\n"}
+,{"stream_name":"stdout","time":5624.568168064,"data":" 10%|█         | 2/20 [00:44\u003c06:40, 22.24s/it]\n"}
+,{"stream_name":"stdout","time":5624.568170728,"data":" 15%|█▌        | 3/20 [01:06\u003c06:15, 22.11s/it]\n"}
+,{"stream_name":"stdout","time":5624.568173434,"data":" 20%|██        | 4/20 [01:28\u003c05:51, 21.97s/it]\n"}
+,{"stream_name":"stdout","time":5624.568176151,"data":" 25%|██▌       | 5/20 [01:50\u003c05:28, 21.92s/it]\n"}
+,{"stream_name":"stdout","time":5624.568178874,"data":" 30%|███       | 6/20 [02:11\u003c05:06, 21.87s/it]\n"}
+,{"stream_name":"stdout","time":5624.568181565,"data":" 35%|███▌      | 7/20 [02:33\u003c04:44, 21.85s/it]\n"}
+,{"stream_name":"stdout","time":5624.568186688,"data":" 40%|████      | 8/20 [02:55\u003c04:22, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568189507,"data":" 45%|████▌     | 9/20 [03:17\u003c04:00, 21.90s/it]\n"}
+,{"stream_name":"stdout","time":5624.56819221,"data":" 50%|█████     | 10/20 [03:39\u003c03:38, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568194929,"data":" 55%|█████▌    | 11/20 [04:01\u003c03:16, 21.89s/it]\n"}
+,{"stream_name":"stdout","time":5624.56819766,"data":" 60%|██████    | 12/20 [04:23\u003c02:55, 21.88s/it]\n"}
+,{"stream_name":"stdout","time":5624.568200818,"data":" 65%|██████▌   | 13/20 [04:44\u003c02:33, 21.86s/it]\n"}
+,{"stream_name":"stdout","time":5624.568203596,"data":" 70%|███████   | 14/20 [05:06\u003c02:11, 21.85s/it]\n"}
+,{"stream_name":"stdout","time":5624.568206331,"data":" 75%|███████▌  | 15/20 [05:28\u003c01:49, 21.86s/it]\n"}
+,{"stream_name":"stdout","time":5624.568209082,"data":" 80%|████████  | 16/20 [05:50\u003c01:27, 21.85s/it]\n"}
+,{"stream_name":"stdout","time":5624.568211846,"data":" 85%|████████▌ | 17/20 [06:12\u003c01:05, 21.84s/it]\n"}
+,{"stream_name":"stdout","time":5624.568214594,"data":" 90%|█████████ | 18/20 [06:34\u003c00:43, 21.85s/it]\n"}
+,{"stream_name":"stdout","time":5624.568217365,"data":" 95%|█████████▌| 19/20 [06:56\u003c00:21, 21.84s/it]\n"}
+,{"stream_name":"stdout","time":5624.568220105,"data":"100%|██████████| 20/20 [07:17\u003c00:00, 21.81s/it]\n"}
+,{"stream_name":"stdout","time":5624.568222826,"data":"100%|██████████| 20/20 [07:17\u003c00:00, 21.89s/it]\n"}
+,{"stream_name":"stdout","time":5624.568225582,"data":"wan0 10 531 s\n"}
+,{"stream_name":"stdout","time":5624.568228228,"data":"\n"}
+,{"stream_name":"stdout","time":5624.568230771,"data":"wan1: no result [Errno 2] No such file or directory: '/kaggle/working/wan1.json'\n"}
+,{"stream_name":"stdout","time":5624.568233781,"data":"\n"}
+,{"stream_name":"stderr","time":5626.6343995,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5626.634426749,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5626.8711576,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5626.871178745,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5627.632428623,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5628.542072712,"data":"[NbConvertApp] Writing 287618 bytes to __results__.html\n"}
 ]

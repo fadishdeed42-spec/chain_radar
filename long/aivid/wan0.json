@@ -3,12 +3,65 @@
  "clips": [
   {
    "file": "/kaggle/working/clip_01.mp4",
-   "secs": 546,
+   "secs": 543,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_02.mp4",
+   "secs": 532,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_03.mp4",
+   "secs": 530,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_04.mp4",
+   "secs": 532,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_05.mp4",
+   "secs": 532,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_06.mp4",
+   "secs": 531,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_07.mp4",
+   "secs": 530,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_08.mp4",
+   "secs": 532,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_09.mp4",
+   "secs": 531,
+   "frames": 49,
+   "fps": 16
+  },
+  {
+   "file": "/kaggle/working/clip_10.mp4",
+   "secs": 531,
    "frames": 49,
    "fps": 16
   }
  ],
  "load_s": 252,
- "error": "Traceback (most recent call last):\n  File \"/tmp/run_one.py\", line 33, in <module>\n    print(which, k + 1, round(time.time() - t1), 's', flush=True)\n                 ~~^~~\nTypeError: can only concatenate str (not \"int\") to str\n",
- "total_s": 799
+ "total_s": 5575
 }
