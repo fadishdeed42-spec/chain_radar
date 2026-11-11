@@ -12,8 +12,8 @@ $ ffmpeg -y -v error -i jobs/t3700050/short.mp4 -c:v libx264 -crf 19 -maxrate 69
 video check: []
 qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 ⚠️ <b>Video check: please look at</b>
-⚠️ text: hard to read at 8s (Too dark, nothing visible)
-⚠️ match: picture may not match the words at 8s (Too dark, nothing visible)
+⚠️ text: hard to read at 8s (Too dark and unreadable)
+⚠️ match: picture may not match the words at 8s (Too dark and unreadable)
 ✅ 6 checks passed (format, hook frame, loudness, motion, picture, sync)
 $ ffmpeg -y -v error -ss 2.09 -i jobs/t3700050/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700050/sh_00.png
 $ ffmpeg -y -v error -ss 6.27 -i jobs/t3700050/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700050/sh_01.png
