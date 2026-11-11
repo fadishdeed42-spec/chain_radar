@@ -1,0 +1,49 @@
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Fetching 17 files:  41%|████      | 7/17 [00:00<00:00, 55.61it/s]Fetching 17 files:  59%|█████▉    | 10/17 [00:16<00:00, 55.61it/s]Fetching 17 files:  65%|██████▍   | 11/17 [01:27<00:58,  9.78s/it]Fetching 17 files:  76%|███████▋  | 13/17 [02:06<00:48, 12.16s/it]Fetching 17 files: 100%|██████████| 17/17 [02:06<00:00,  7.42s/it]
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:02<00:08,  2.03s/it]Loading pipeline components...:  40%|████      | 2/5 [00:03<00:05,  1.86s/it]
+Loading weights:   0%|          | 0/242 [00:00<?, ?it/s][A
+Loading weights:   0%|          | 1/242 [00:01<04:53,  1.22s/it][A
+Loading weights:   3%|▎         | 7/242 [00:03<01:58,  1.98it/s][A
+Loading weights:   7%|▋         | 17/242 [00:06<01:11,  3.16it/s][A
+Loading weights:  11%|█         | 27/242 [00:08<01:00,  3.54it/s][A
+Loading weights:  15%|█▌        | 37/242 [00:10<00:52,  3.89it/s][A
+Loading weights:  16%|█▌        | 38/242 [00:10<00:50,  4.01it/s][A
+Loading weights:  19%|█▉        | 47/242 [00:11<00:38,  5.09it/s][A
+Loading weights:  28%|██▊       | 67/242 [00:12<00:15, 11.26it/s][A
+Loading weights:  32%|███▏      | 77/242 [00:14<00:20,  8.05it/s][A
+Loading weights:  43%|████▎     | 103/242 [00:14<00:09, 14.98it/s][A
+Loading weights:  45%|████▍     | 108/242 [00:16<00:15,  8.49it/s][A
+Loading weights:  48%|████▊     | 117/242 [00:19<00:19,  6.47it/s][A
+Loading weights:  52%|█████▏    | 127/242 [00:21<00:20,  5.73it/s][A
+Loading weights:  57%|█████▋    | 137/242 [00:24<00:20,  5.00it/s][A
+Loading weights:  61%|██████    | 147/242 [00:26<00:18,  5.05it/s][A
+Loading weights:  62%|██████▏   | 149/242 [00:26<00:17,  5.29it/s][A
+Loading weights:  65%|██████▍   | 157/242 [00:28<00:19,  4.45it/s][A
+Loading weights:  65%|██████▌   | 158/242 [00:29<00:18,  4.43it/s][A
+Loading weights:  69%|██████▉   | 167/242 [00:31<00:17,  4.34it/s][A
+Loading weights:  73%|███████▎  | 177/242 [00:33<00:14,  4.44it/s][A
+Loading weights:  74%|███████▎  | 178/242 [00:33<00:14,  4.43it/s][A
+Loading weights:  77%|███████▋  | 187/242 [00:35<00:12,  4.30it/s][A
+Loading weights:  81%|████████▏ | 197/242 [00:38<00:10,  4.28it/s][A
+Loading weights:  84%|████████▍ | 203/242 [00:38<00:06,  5.58it/s][A
+Loading weights:  86%|████████▌ | 207/242 [00:40<00:09,  3.84it/s][A
+Loading weights:  90%|████████▉ | 217/242 [00:42<00:06,  4.00it/s][A
+Loading weights:  94%|█████████▍| 227/242 [00:45<00:03,  3.98it/s][A
+Loading weights:  98%|█████████▊| 237/242 [00:47<00:01,  4.47it/s][A
+Loading weights: 100%|██████████| 242/242 [01:03<00:00,  1.22it/s][ALoading weights: 100%|██████████| 242/242 [01:03<00:00,  3.82it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [01:07<00:20, 20.64s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
+Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.91s/it][A
+Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00,  9.80s/it][ALoading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 11.31s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [01:30<00:00, 21.30s/it]Loading pipeline components...: 100%|██████████| 5/5 [01:30<00:00, 18.03s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:34<10:59, 34.69s/it] 10%|█         | 2/20 [00:54<07:43, 25.77s/it] 15%|█▌        | 3/20 [01:14<06:34, 23.20s/it] 20%|██        | 4/20 [01:34<05:54, 22.15s/it] 25%|██▌       | 5/20 [01:55<05:26, 21.77s/it] 30%|███       | 6/20 [02:17<05:04, 21.75s/it] 35%|███▌      | 7/20 [02:40<04:46, 22.02s/it] 40%|████      | 8/20 [03:03<04:27, 22.28s/it] 45%|████▌     | 9/20 [03:25<04:04, 22.20s/it] 50%|█████     | 10/20 [03:47<03:41, 22.14s/it] 55%|█████▌    | 11/20 [04:09<03:20, 22.23s/it] 60%|██████    | 12/20 [04:31<02:57, 22.22s/it] 65%|██████▌   | 13/20 [04:53<02:35, 22.15s/it] 70%|███████   | 14/20 [05:15<02:12, 22.13s/it] 75%|███████▌  | 15/20 [05:38<01:50, 22.16s/it] 80%|████████  | 16/20 [06:00<01:28, 22.15s/it] 85%|████████▌ | 17/20 [06:22<01:06, 22.20s/it] 90%|█████████ | 18/20 [06:44<00:44, 22.18s/it] 95%|█████████▌| 19/20 [07:06<00:22, 22.21s/it]100%|██████████| 20/20 [07:29<00:00, 22.22s/it]100%|██████████| 20/20 [07:29<00:00, 22.46s/it]
+Traceback (most recent call last):
+  File "/tmp/run_one.py", line 33, in <module>
+    print(which, k + 1, round(time.time() - t1), 's', flush=True)
+                 ~~^~~
+TypeError: can only concatenate str (not "int") to str
+

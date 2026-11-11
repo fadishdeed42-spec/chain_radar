@@ -1,0 +1,14 @@
+{
+ "model": "wan0",
+ "clips": [
+  {
+   "file": "/kaggle/working/clip_01.mp4",
+   "secs": 546,
+   "frames": 49,
+   "fps": 16
+  }
+ ],
+ "load_s": 252,
+ "error": "Traceback (most recent call last):\n  File \"/tmp/run_one.py\", line 33, in <module>\n    print(which, k + 1, round(time.time() - t1), 's', flush=True)\n                 ~~^~~\nTypeError: can only concatenate str (not \"int\") to str\n",
+ "total_s": 799
+}
