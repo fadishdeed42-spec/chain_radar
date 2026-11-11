@@ -25,7 +25,8 @@ try:
         from diffusers import AutoencoderKLWan, WanPipeline
         mid = 'Wan-AI/Wan2.1-T2V-1.3B-Diffusers'
         if which == 'wan1':                                   # wait until GPU 0's process has freed its big text encoder (CPU RAM)
-            while not os.path.exists('/tmp/t5_free_wan0'): time.sleep(5)
+            w0 = time.time()
+            while not os.path.exists('/tmp/t5_free_wan0') and time.time() - w0 < 900: time.sleep(5)   # never wait forever (if GPU 0 died)
         vae = AutoencoderKLWan.from_pretrained(mid, subfolder='vae', torch_dtype=torch.float32)
         pipe = WanPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16)
         neg = 'blurry, low quality, distorted, static, frozen, text, watermark, cartoon'
@@ -34,7 +35,7 @@ try:
             EMB[k] = pipe.encode_prompt(prompt=p + ', dynamic motion, highly detailed', negative_prompt=neg, do_classifier_free_guidance=True, max_sequence_length=226, device='cuda')
         pipe.text_encoder = None; gc.collect(); torch.cuda.empty_cache(); open(f'/tmp/t5_free_{which}', 'w').write('1')
         pipe.to('cuda')
-        kw = dict(num_frames=49, num_inference_steps=25, guidance_scale=5.0); fps = 16
+        kw = dict(num_frames=49, num_inference_steps=20, guidance_scale=5.0); fps = 16
     else:
         from diffusers import LTXPipeline
         pipe = LTXPipeline.from_pretrained('Lightricks/LTX-Video', torch_dtype=torch.float16)
@@ -47,6 +48,7 @@ try:
         fr = pipe(prompt_embeds=pe, negative_prompt_embeds=ne, width=W, height=H, **kw).frames[0]
         f = f'{out}/clip_{int(k) + 1:02d}.mp4'; export_to_video(fr, f, fps=fps)
         res['clips'].append({'file': f, 'secs': round(time.time() - t1), 'frames': len(fr), 'fps': fps})
+        json.dump(res, open(f'{out}/{which}.json', 'w'), indent=1)
         print(which, k + 1, round(time.time() - t1), 's', flush=True)
 except Exception as e:
     import traceback; res['error'] = traceback.format_exc()[-1500:]; print(res['error'], flush=True)
