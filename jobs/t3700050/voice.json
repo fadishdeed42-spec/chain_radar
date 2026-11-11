@@ -1,0 +1,118 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.25,
+ "seed": 7,
+ "scenes": [
+  [
+   "In twenty ten, a website gave away free bitcoin.",
+   0.95,
+   0.36
+  ],
+  [
+   "Today, those coins are worth over a billion dollars.",
+   0.95,
+   0.36
+  ],
+  [
+   "All you had to do was solve a cap-cha.",
+   0.88,
+   0.22
+  ],
+  [
+   "Five bitcoin. Free. Every visitor.",
+   0.88,
+   0.22
+  ],
+  [
+   "It was called the Bitcoin Faucet.",
+   0.88,
+   0.22
+  ],
+  [
+   "A programmer named Gavin Andreesen built it.",
+   0.88,
+   0.22
+  ],
+  [
+   "He filled it with eleven hundred of his own coins.",
+   0.88,
+   0.22
+  ],
+  [
+   "Even Satoshi Nakamoto replied, with tips to stop cheaters.",
+   0.95,
+   0.36
+  ],
+  [
+   "Back then, five bitcoin were worth less than a dollar.",
+   0.88,
+   0.22
+  ],
+  [
+   "In total, it gave away about nineteen thousand seven hundred bitcoin.",
+   0.95,
+   0.28
+  ],
+  [
+   "Today, that is over one point four billion dollars.",
+   0.95,
+   0.36
+  ],
+  [
+   "Those five free coins? Over three hundred sixty thousand dollars.",
+   0.95,
+   0.36
+  ],
+  [
+   "Why give it away? He wanted people to try it.",
+   0.88,
+   0.22
+  ],
+  [
+   "Would you have clicked?",
+   0.83,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.88,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  "All you had to do was solve a captcha.",
+  null,
+  null,
+  "A programmer named Gavin Andresen built it.",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "In twenty ten, a website gave away free bitcoin.",
+  "Today, those coins are worth over a billion dollars.",
+  "All you had to do was solve a captcha.",
+  "Five bitcoin. Free. Every visitor.",
+  "It was called the Bitcoin Faucet.",
+  "A programmer named Gavin Andresen built it.",
+  "He filled it with one thousand one hundred of his own coins.",
+  "Even Satoshi Nakamoto replied, with tips to stop cheaters.",
+  "Back then, five bitcoin were worth less than a dollar.",
+  "In total, it gave away about nineteen thousand seven hundred bitcoin.",
+  "Today, that is over one point four billion dollars.",
+  "Those five free coins? Over three hundred sixty thousand dollars.",
+  "Why give it away? He wanted people to try it.",
+  "Would you have clicked?",
+  "Subscribe for more stories."
+ ]
+}

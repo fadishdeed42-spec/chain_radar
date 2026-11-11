@@ -1,0 +1,80 @@
+json 8fe8df32dd91
+   take 1: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: In 2010, a website gave away free bitcoin.
+   take 2: score -0.16  wer 0.00  end +1.9st  2.6w/s  heard: In 2010, a website gave away free bitcoin.
+   take 3: score -0.25  wer 0.00  end +0.5st  2.3w/s  heard: In 2010, a website gave away free bitcoin.
+scene 1: 3.14s ex 0.95  chosen wer 0.00
+   take 1: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: Today, those coins are worth over a billion dollars.
+   take 2: score -0.12  wer 0.00  end +0.0st  2.4w/s  heard: Today, those coins are worth over a billion dollars.
+   take 3: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: Today, those coins are worth over a billion dollars.
+scene 2: 3.52s ex 0.95  chosen wer 0.00
+   take 1: score -2.00  wer 0.30  end +0.0st  2.9w/s  heard: All you had to do was solve a CAP CHA.
+   take 2 (plain): score -1.99  wer 0.11  end +0.0st  3.4w/s  heard: All you had to do was solve a capture.
+   take 3: score -3.61  wer 0.10  end +0.0st  4.2w/s  heard: All you had to do was solve a cap chaw.
+   take 4 (plain): score -5.20  wer 0.11  end +0.0st  4.6w/s  rushed ['capture.']  heard: All you had to do was solve a capture.
+   take R1: wer 0.00  heard: All you had to do was solve a CAPTCHA.
+scene 3: 2.55s ex 0.88  chosen wer 0.00
+   take 1: score -1.02  wer 0.23  end -9.9st  1.2w/s  rushed ['Bitcoin,']  heard: 5 Bitcoin, free every visitor, reaping and rubraders.
+   take 2: score +1.63  wer 0.00  end -9.2st  2.0w/s  heard: 5 Bitcoin, free every visitor.
+scene 4: 2.52s ex 0.88  chosen wer 0.00
+   take 1: score -0.02  wer 0.00  end +0.0st  2.6w/s  heard: It was called the Bitcoin faucet.
+   take 2: score -1.15  wer 0.17  end +0.0st  2.3w/s  heard: It was called the Bitcoin flosset.
+   take 3: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: It was called the Bitcoin Faucet.
+scene 5: 2.28s ex 0.88  chosen wer 0.00
+   take 1: score -1.72  wer 0.14  end +0.0st  2.7w/s  rushed ['programmer']  heard: A programmer named Gavin Andreessen built it.
+   take 2 (plain): score -2.68  wer 0.23  end +0.0st  3.4w/s  heard: Programmer named Gavin Anderson built it.
+   take 3: score -2.08  wer 0.14  end +0.0st  3.0w/s  rushed ['programmer']  heard: a programmer named Gavin Andreessen built it.
+   take 4 (plain): score -4.73  wer 0.43  end +0.0st  3.1w/s  rushed ['program', 'renamed']  heard: A program renamed Gavin Onderson built it.
+   phonetic variant: A programmer named Gavin An-druh-sen built it.
+   take P1: score -1.39  wer 0.20  2.3w/s  heard: A programmer named Gavin Andra Sen built it.
+   take P2: score -1.34  wer 0.20  2.4w/s  heard: a programmer named Gavin Andra Sen. built it.
+   take P3: score -0.87  wer 0.14  2.6w/s  heard: A programmer named Gavin Anderson built it.
+   take R1: wer 0.14  heard: A programmer named Gavin Andreessen built it.
+   take R2: wer 0.14  heard: A programmer named Gavin Andreessen built it.
+   take R3: wer 0.14  heard: A programmer named Gavin Andreessen built it.
+   take R4: wer 0.14  heard: A programmer named Gavin Andreessen built it.
+scene 6: 2.59s ex 0.88  chosen wer 0.14
+   take 1: score -1.74  wer 0.00  end +0.0st  3.3w/s  rushed ['filled']  heard: He filled it with 1100 of his own coins.
+   take 2: score +0.20  wer 0.00  end -9.8st  3.3w/s  rushed ['filled']  heard: he filled it with 1100 of his own coins.
+   take 3: score -1.20  wer 0.04  end +0.0st  2.3w/s  rushed ['filled']  heard: He filled it with 1100 of his own coins.  Go!
+   take 4: score -1.38  wer 0.00  end +0.0st  3.5w/s  heard: He filled it with 1100 of his own coins
+scene 7: 3.04s ex 0.88  chosen wer 0.00
+   take 1: score -1.03  wer 0.00  end +0.0st  2.2w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied, with tips to stop cheaters.
+   take 2: score -1.12  wer 0.00  end +0.0st  2.1w/s  rushed ['Satoshi']  heard: even Satoshi Nakamoto replied with tips to stop cheaters.
+   take 3: score +1.01  wer 0.00  end -8.7st  2.3w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied, with tips to stop cheaters.
+   take 4: score +1.04  wer 0.00  end -8.6st  2.3w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied, with tips to stop cheaters.
+scene 8: 3.86s ex 0.95  chosen wer 0.00
+   take 1: score -0.31  wer 0.10  end -6.9st  3.2w/s  rushed ['Bitcoin']  heard: Back then, Fide Bitcoin were worth less than a dollar.
+   take 2: score -0.63  wer 0.00  end +0.0st  3.1w/s  heard: Back then, five Bitcoin were worth less than a dollar.
+   take 3: score -1.28  wer 0.00  end +0.0st  3.4w/s  heard: Back then, five Bitcoin were worth less than a dollar.
+scene 9: 3.21s ex 0.88  chosen wer 0.00
+   take 1: score -0.98  wer 0.00  end +0.0st  2.9w/s  rushed ['bitcoin.']  heard: In total, it gave away about 19,700 bitcoin.
+   take 2: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: In total, it gave away about 19,700 Bitcoin.
+   take 3: score +1.94  wer 0.00  end -9.6st  2.7w/s  heard: In total, it gave away about 19,700 bitcoin.
+scene 10: 4.08s ex 0.95  chosen wer 0.00
+   take 1: score -0.31  wer 0.00  end +0.0st  2.1w/s  heard: Today, that is over $1.4 billion.
+   take 2: score +1.83  wer 0.00  end -4.5st  2.3w/s  heard: Today, that is over $1.4 billion.
+scene 11: 3.88s ex 0.95  chosen wer 0.00
+   take 1: score -0.10  wer 0.00  end +0.0st  2.4w/s  heard: Those five free coins, over $360,000.
+   take 2: score -0.47  wer 0.00  end +0.6st  1.9w/s  heard: Those five free coins? Over $360,000.
+   take 3: score +1.68  wer 0.00  end -5.5st  2.1w/s  heard: Those five free coins? Over $360,000.
+scene 12: 4.82s ex 0.95  chosen wer 0.00
+   take 1: score -2.98  wer 0.00  end +0.0st  3.9w/s  rushed ['wanted']  heard: Why give it away, he wanted people to try it.
+   take 2: score -2.50  wer 0.00  end +0.0st  3.6w/s  rushed ['wanted']  heard: Why give it away? He wanted people to try it.
+   take 3: score -3.53  wer 0.00  end +0.0st  3.7w/s  rushed ['wanted', 'people']  heard: Why give it away, he wanted people to try it.
+   take 4: score -3.68  wer 0.00  end +0.0st  4.2w/s  rushed ['wanted']  heard: Why give it away? He wanted people to try it.
+scene 13: 2.76s ex 0.88  chosen wer 0.00
+   take 1: score -3.35  wer 0.00  end +0.0st  4.0w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 2: score -1.50  wer 0.00  end +0.2st  4.0w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 3: score -2.04  wer 0.00  end +0.0st  3.3w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 4: score -3.12  wer 0.00  end +0.0st  3.8w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 5: score -3.79  wer 0.00  end +0.0st  4.2w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 6: score +0.60  wer 0.00  end +4.0st  3.0w/s  rushed ['clicked?']  heard: Would you have clicked?
+scene 14: 1.32s ex 0.83 END  chosen wer 0.00
+   take 1: score -0.31  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+   take 2: score -0.90  wer 0.00  end +0.0st  2.4w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 3: score -0.27  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 15: 1.87s ex 0.88  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+49.97s, force-aligned 122 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700050/voicep.wav
+flow: 0 hangs >0.7s inside lines, 1 possible sharp line ends, line gaps [0.71, 0.72, 0.84, 0.58, 0.63, 0.55, 0.5, 0.81, 0.55, 0.63, 0.76, 0.77, 0.53, 1.06]
