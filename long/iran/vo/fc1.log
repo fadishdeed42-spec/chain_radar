@@ -1,0 +1,71 @@
+json db6529115813
+   take 1: score +1.01  wer 0.00  end -9.0st  2.3w/s  rushed ['website']  heard: In 2010, a website gave away free bitcoin to anyone.
+   take 2: score +1.94  wer 0.00  end -12.1st  2.7w/s  heard: In 2010, a website gave away free bitcoin to anyone.
+scene 1: 4.08s ex 0.95  chosen wer 0.00
+   take 1: score -2.53  wer 0.11  end +0.0st  3.7w/s  heard: All you had to do was solve a capture.
+   take 2: score -1.74  wer 0.11  end +0.0st  3.3w/s  heard: All you had to do was solve a capture.
+   take 3: score -3.51  wer 0.11  end +0.0st  4.2w/s  heard: all you had to do was solve a copcha.
+   take 4: score -3.59  wer 0.11  end +0.0st  4.2w/s  heard: All you had to do was solve a copchure.
+   take R1: wer 0.11  heard: All you had to do was solve a copcha.
+   take R2: wer 0.11  heard: All you had to do was solve a capture.
+   take R3: wer 0.11  heard: All you had to do was solve a capture.
+   take R4: wer 0.22  heard: All you had to do was solve the capture.
+scene 2: 2.71s ex 0.88  chosen wer 0.11
+   take 1: score +1.60  wer 0.00  end -7.5st  1.9w/s  heard: 5 Bitcoin Free Every Visitor
+scene 3: 2.58s ex 0.95  chosen wer 0.00
+   take 1: score -0.90  wer 0.00  end +0.0st  2.8w/s  rushed ['programmer']  heard: It was called the Bitcoin Faucet, a programmer named Gavin Andresen bu
+   take 2: score -2.65  wer 0.08  end +0.0st  3.1w/s  rushed ['Bitcoin', 'programmer']  heard: It was called the Bitcoin Faucet, a programmer named Gavin Anderson bu
+   take 3: score -2.49  wer 0.08  end +0.0st  3.0w/s  rushed ['Bitcoin', 'programmer']  heard: It was called the Bitcoin Faucet, a programmer named Gavin Ondreson bu
+   take 4: score -3.00  wer 0.08  end +0.0st  2.8w/s  rushed ['called', 'Bitcoin', 'programmer']  heard: It was called the Bitcoin Faucet, a programmer named Gavin Ondreson bu
+scene 4: 4.71s ex 0.88  chosen wer 0.00
+   take 1: score -2.52  wer 0.22  end +0.0st  3.0w/s  rushed ['filled']  heard: Yes, he filled it with 1100 of his own coins.
+   take 2: score +0.07  wer 0.18  end -14.9st  2.7w/s  rushed ['filled']  heard: He filled it with 1100 of his own coins.
+   take 3: score -0.71  wer 0.18  end -1.7st  3.2w/s  rushed ['filled']  heard: He filled it with 1100 of his own coins.
+   take 4: score -3.51  wer 0.18  end +0.0st  4.0w/s  heard: He filled it with 1100 of his own coins.
+   take R1: wer 0.18  heard: He filled it with 1100 of his own coins.
+   take R2: wer 0.18  heard: he filled it with 1100 of his own coins.
+   take R3: wer 0.18  heard: He filled it with 1100 of his own coins.
+   take R4: wer 0.18  heard: He filled it with 1100 of his own coins.  //
+scene 5: 3.76s ex 0.88  chosen wer 0.18
+   take 1: score -1.00  wer 0.00  end +0.0st  2.3w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied with tips to stop cheaters.
+   take 2: score +0.93  wer 0.00  end -9.7st  2.2w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied with tips to stop cheaters.
+   take 3: score -1.00  wer 0.00  end +0.0st  2.3w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied, with tips to stop cheaters.
+   take 4: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['Satoshi']  heard: Even Satoshi Nakamoto replied, with tips to stop cheaters.
+scene 6: 4.18s ex 0.88  chosen wer 0.00
+   take 1: score +1.02  wer 0.00  end -4.7st  2.9w/s  rushed ['Bitcoin']  heard: Back then, five Bitcoin were worth less than a dollar.
+   take 2: score -0.34  wer 0.00  end +0.0st  3.0w/s  heard: Back then, five Bitcoin were worth less than a dollar.
+   take 3: score -1.21  wer 0.00  end +0.0st  3.0w/s  rushed ['Bitcoin']  heard: Back then, five Bitcoin were worth less than a dollar.
+   take 4: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: Back then, 5 Bitcoin were worth less than a dollar.
+scene 7: 3.45s ex 0.88  chosen wer 0.00
+   take 1: score -0.07  wer 0.00  end +0.0st  2.5w/s  heard: In total, it gave away about 19,700 Bitcoin.
+   take 2: score -0.21  wer 0.00  end +0.0st  2.9w/s  heard: In total, it gave away about 19,700 Bitcoin.
+   take 3: score -0.45  wer 0.00  end +0.0st  3.0w/s  heard: In total, it gave away about 19,700 Bitcoin.
+scene 8: 4.42s ex 0.88  chosen wer 0.00
+   take 1: score -0.31  wer 0.00  end +0.0st  2.1w/s  heard: Today, that's over $1.4 billion.
+   take 2: score +1.64  wer 0.00  end -6.0st  2.0w/s  heard: Today, that's over $1.4 billion.
+scene 9: 4.00s ex 0.95  chosen wer 0.00
+   take 1: score -0.66  wer 0.05  end +0.0st  2.0w/s  heard: Those five free coins over $360,000.
+   take 2: score -0.63  wer 0.05  end +1.4st  2.2w/s  heard: those five free coins, over $360,000.
+   take 3: score +0.35  wer 0.24  end -8.9st  2.2w/s  heard: dose by free coins over $360,000.
+   take 4: score -0.45  wer 0.05  end +0.0st  2.9w/s  heard: Those five free coins over $360,000.
+scene 10: 3.83s ex 0.95  chosen wer 0.05
+   take 1: score -4.56  wer 0.00  end +0.0st  4.6w/s  rushed ['wanted']  heard: Why give it away? He wanted people to try it out.
+   take 2: score -2.47  wer 0.00  end +0.0st  3.6w/s  rushed ['wanted']  heard: Why give it away? He wanted people to try it out.
+   take 3: score -1.40  wer 0.00  end +0.0st  3.5w/s  heard: Why give it away? He wanted people to try it out.
+scene 11: 3.16s ex 0.88  chosen wer 0.00
+   take 1: score -2.04  wer 0.00  end +0.0st  3.3w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 2: score -0.91  wer 0.00  end +1.6st  3.7w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 3: score -2.54  wer 0.00  end +0.0st  3.6w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 4: score -1.88  wer 0.11  end +0.0st  1.7w/s  rushed ['clicked?']  heard: Would you have clicked?  Yeah!
+   take 5: score -0.04  wer 0.00  end +0.5st  3.3w/s  rushed ['clicked?']  heard: Would you have clicked?
+   take 6: score -0.75  wer 0.00  end +2.5st  3.7w/s  rushed ['clicked?']  heard: Would you have clicked?
+scene 12: 1.20s ex 0.83 END  chosen wer 0.00
+   take 1: score -0.95  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -1.94  wer 0.20  end +0.0st  1.4w/s  heard: Subscribe for more stories.  Cheap is!
+   take 3: score -1.47  wer 0.11  end +0.0st  1.3w/s  heard: Subscribe for more stories.  Yeees!
+   take 4: score -1.12  wer 0.00  end +2.4st  2.4w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+scene 13: 1.70s ex 0.88  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+47.04s, force-aligned 116 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> long/faucet/vo/fc1p.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.62, 0.74, 0.6, 0.76, 0.65, 0.63, 0.62, 0.57, 0.68, 0.65, 0.69, 0.87]
