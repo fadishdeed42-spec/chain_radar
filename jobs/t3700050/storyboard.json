@@ -1,5 +1,5 @@
 {
- "title": "In 2010, This Website Gave Away FREE Bitcoin \ud83d\ude33 (Now $1.4 Billion)",
+ "title": "In 2010, This Website Gave Away FREE Bitcoin 😳 (Now $1.4 Billion)",
  "tone": "hype",
  "theme": "gold",
  "chart": {
@@ -9,9 +9,9 @@
   "src": "Bitstamp monthly"
  },
  "lesson": "",
- "description": "June 2010: programmer Gavin Andresen launched the \"Bitcoin Faucet\" - a website that gave 5 free bitcoin to anyone who solved a captcha.\nHe filled it with 1,100 of his own coins, and even Satoshi Nakamoto replied with tips to stop people claiming twice.\nBack then, 5 bitcoin were worth less than a dollar. In total, the faucet gave away about 19,700 BTC.\nToday that's over $1.4 billion - and one visitor's 5 free coins are worth over $360,000.\n\nWould you have clicked? \ud83d\udc47\n\nNot financial advice. Entertainment and education only.",
+ "description": "June 2010: programmer Gavin Andresen launched the \"Bitcoin Faucet\" - a website that gave 5 free bitcoin to anyone who solved a captcha.\nHe filled it with 1,100 of his own coins, and even Satoshi Nakamoto replied with tips to stop people claiming twice.\nBack then, 5 bitcoin were worth less than a dollar. In total, the faucet gave away about 19,700 BTC.\nToday that's over $1.4 billion - and one visitor's 5 free coins are worth over $360,000.\n\nWould you have clicked? 👇\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#bitcoin #btc #crypto #cryptohistory #satoshi #shorts",
- "pinned": "Be honest: if you got 5 free bitcoin in 2010\u2026 would you still have them today? \ud83d\udc47",
+ "pinned": "Be honest: if you got 5 free bitcoin in 2010… would you still have them today? 👇",
  "respell": {
   "captcha": "cap-cha",
   "Andresen": "Andreesen",
@@ -55,13 +55,15 @@
    "role": "setup",
    "emotion": "curious",
    "line": "All you had to do was solve a captcha.",
-   "hit": "captcha",
+   "hit": "solve",
    "visual": {
     "type": "app",
     "app": "BITCOIN FAUCET",
     "title": "Prove you are human",
     "field": "captcha",
-    "button": "GET FREE BITCOIN"
+    "button": "GET FREE BITCOIN",
+    "value": "✓ HUMAN",
+    "alert": "+5 BTC SENT"
    },
    "beats": [],
    "shots": [],
@@ -77,7 +79,7 @@
     "value": 5,
     "prefix": "",
     "suffix": " BTC",
-    "label": "FREE \u00b7 EVERY VISITOR",
+    "label": "FREE · EVERY VISITOR",
     "icon": "bitcoin"
    },
    "beats": [],
@@ -154,7 +156,7 @@
    "role": "turn",
    "emotion": "curious",
    "line": "Back then, five bitcoin were worth less than a dollar.",
-   "hit": "dollar",
+   "hit": "less",
    "visual": {
     "type": "versus",
     "left": [
@@ -197,7 +199,7 @@
    "visual": {
     "type": "chart",
     "date": "2026-11-11",
-    "label": "TODAY \u00b7 $1.4B+"
+    "label": "TODAY · $1.4B+"
    },
    "beats": [],
    "shots": [],
