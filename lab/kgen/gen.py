@@ -46,7 +46,7 @@ try:
         f = f'{out}/clip_{int(k) + 1:02d}.mp4'; export_to_video(fr, f, fps=fps)
         res['clips'].append({'file': f, 'secs': round(time.time() - t1), 'frames': len(fr), 'fps': fps})
         json.dump(res, open(f'{out}/{which}.json', 'w'), indent=1)
-        print(which, k + 1, round(time.time() - t1), 's', flush=True)
+        print(which, int(k) + 1, round(time.time() - t1), 's', flush=True)
 except Exception as e:
     import traceback; res['error'] = traceback.format_exc()[-1500:]; print(res['error'], flush=True)
 res['total_s'] = round(time.time() - t0)
