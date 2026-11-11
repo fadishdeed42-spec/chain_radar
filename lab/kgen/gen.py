@@ -24,17 +24,11 @@ try:
         import os, gc
         from diffusers import AutoencoderKLWan, WanPipeline
         mid = 'Wan-AI/Wan2.1-T2V-1.3B-Diffusers'
-        if which == 'wan1':                                   # wait until GPU 0's process has freed its big text encoder (CPU RAM)
-            w0 = time.time()
-            while not os.path.exists('/tmp/t5_free_wan0') and time.time() - w0 < 900: time.sleep(5)   # never wait forever (if GPU 0 died)
         vae = AutoencoderKLWan.from_pretrained(mid, subfolder='vae', torch_dtype=torch.float32)
         pipe = WanPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16)
+        pipe.enable_model_cpu_offload()                         # the setup that worked in the test (T5 is too big to keep on the GPU)
         neg = 'blurry, low quality, distorted, static, frozen, text, watermark, cartoon'
-        pipe.text_encoder.to('cuda'); EMB = {}
-        for k, p in P.items():
-            EMB[k] = pipe.encode_prompt(prompt=p + ', dynamic motion, highly detailed', negative_prompt=neg, do_classifier_free_guidance=True, max_sequence_length=226, device='cuda')
-        pipe.text_encoder = None; gc.collect(); torch.cuda.empty_cache(); open(f'/tmp/t5_free_{which}', 'w').write('1')
-        pipe.to('cuda')
+        EMB = {k: pipe.encode_prompt(prompt=p + ', dynamic motion, highly detailed', negative_prompt=neg, do_classifier_free_guidance=True, max_sequence_length=226) for k, p in P.items()}
         kw = dict(num_frames=49, num_inference_steps=20, guidance_scale=5.0); fps = 16
     else:
         from diffusers import LTXPipeline
@@ -62,9 +56,9 @@ def sh(c):
 sh('nvidia-smi --query-gpu=name,memory.total --format=csv')
 sh('pip install -q -U diffusers transformers accelerate sentencepiece imageio imageio-ffmpeg ftfy 2>&1 | tail -3')
 procs = []
-for gpu in (0, 1):
+for gpu in (0,):
     env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(gpu))
-    part = {i: p for i, p in enumerate(PROMPTS) if i % 2 == gpu}
+    part = {i: p for i, p in enumerate(PROMPTS)}
     procs.append(subprocess.Popen([sys.executable, '/tmp/run_one.py', f'wan{gpu}', OUT, json.dumps(part), str(W), str(H)], env=env,
                                   stdout=open(f'{OUT}/wan{gpu}.log', 'w'), stderr=subprocess.STDOUT))
 for p in procs: p.wait()
