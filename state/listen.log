@@ -13,3 +13,26 @@ fetch fail https://data-api.binance.vision/api/v3/klines 400 Client Error: Bad R
 fetch fail https://api.exchange.coinbase.com/products/RAIN-USD/candles 404 Client Error: Not Found for url: https://api.exchange.coinbase.com/products/RAIN-USD/candles?granularity=300
 mover skipped, candles disagree RAIN -11.8026 -4.33
 alerts sent 0
+Traceback (most recent call last):
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 3339, in <module>
+    listen()
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 3327, in listen
+    save_tg(tgs); git_sync(force=True)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 632, in git_sync
+    r = sh('git pull --rebase -q -X theirs && git push -q')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/chain_radar/chain_radar/radar.py", line 627, in <lambda>
+    sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command 'git pull --rebase -q -X theirs && git push -q' timed out after 60 seconds
