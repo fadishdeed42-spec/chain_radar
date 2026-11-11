@@ -1,0 +1,26 @@
+name: stock
+# Pull candidate stock clips for a Short onto the files branch.
+on:
+  workflow_dispatch:
+    inputs:
+      queries: {description: 'queries json path', required: true}
+      dest: {description: 'folder on the files branch', required: true}
+permissions:
+  contents: write
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null && pip -q install requests
+      - name: fetch
+        env: {PIXABAY_API_KEY: '${{ secrets.PIXABAY_API_KEY }}'}
+        run: python lab/stock/get.py ${{ github.event.inputs.queries }} /tmp/out | tee /tmp/out.txt; cp /tmp/out.txt /tmp/out/list.txt
+      - name: save to files branch
+        run: |
+          git config --global user.name chain-radar; git config --global user.email noreply@github.com
+          for i in 1 2 3 4 5; do
+            rm -rf /tmp/w && git clone -q --depth 1 --branch files https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/w || break
+            mkdir -p /tmp/w/${{ github.event.inputs.dest }} && cp /tmp/out/* /tmp/w/${{ github.event.inputs.dest }}/ && cd /tmp/w && git add -A && git commit -qm "stock ${{ github.event.inputs.dest }} [skip ci]" && git push -q && break
+            cd /; sleep $((i*4))
+          done
