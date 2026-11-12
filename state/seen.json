@@ -46,6 +46,19 @@
 "https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"038f2befeb04": {
+"coin": "bitcoin",
+"src": "TradingView",
+"srcs": [
+"TradingView"
+],
+"t": 1794490025.0853424,
+"t0": 1794488618.0,
+"tgtext": "",
+"title": "Bitcoin Falls Below $73K For First Time Since August: Michael Van De Poppe Wants One More Flush Before Buying The Dip",
+"url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPd2hrNmpUUkhZZWE2aVBTVklpTHk2S1pFX3B2aHZXSUNmS3V0SEFHb1p5RFVtUWEtR29SOFlBc1E3X24xb1FBeG15NTVZVEIzLThHOGtuT1c2SDg1T2tlcEtjRHpwajdtZ2dnczZ0eUNDcmJSNjgxNXhUU3FCT0ViZUhUcXJTcEI3ekRtb0d6LXV5c3ZDUC1lbjgweUFjbnZqZmFabFZYY1dUQkM2NDNWV1hXa0ZidG03aGFXZVpEZ3ZZVlB1WmVDaXkxSHpUakdSWGpldHVBTkpmUnNpNUF2akRkb0RnR00yLUJrbUF4TFpPTEI4TFhXSHEweDZ4WHQyUDNNYlpFWQ?oc=5",
+"urls": []
+},
 "03951bcb0c8f": {
 "coin": "",
 "src": "Cointelegraph",
@@ -319,7 +332,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794483427.0,
 "tgtext": "Whale 0xc8b5 has finally given up, closing his long on 190,952 $NVDA ($30.67M) at a $2.45M loss.\nhttps://x.com/lookonchain/status/2120691030047826079",
 "title": "Whale 0xc8b5 has finally given up, closing his long on 190,952 NVDA ($30.67M) at a $2.45M loss.",
@@ -523,7 +536,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794474053.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: The market sees a 100% chance of a Fed rate hike in December.\n\nCME FedWatch puts the odds at 90.8% for a 25 bps hike and 9.2% for a 50 bps hike.\n\nNews | Markets | YouTube",
 "title": "NOW: The market sees a 100% chance of a Fed rate hike in December.",
@@ -830,7 +843,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794480126.0,
 "tgtext": "",
 "title": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
@@ -1133,7 +1146,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794477667.0,
 "tgtext": "TSMC Confirms Hacker Obtained Employee Data and Demanded 3 BTC, Says Internal Systems Uncompromised\n\nAccording to Jiemian News, Taiwan Semiconductor Manufacturing Company (TSMC) responded on November 12 to reports of a hacker attempting to sell an alleged 6.9GB database containing 46,000 TSMC employee records on an underground forum for 3 BTC; TSMC confirmed that personal data belonging to certain current and former employees was exposed without authorization, noting that preliminary investigations link the leaked records to a third-party cloud service provider's system rather than an intrusion into TSMC's own internal IT infrastructure. The chipmaker emphasized that production operations and customer data remain completely unaffected, adding that it is notifying impacted staff and working closely with the cloud vendor, law enforcement, and external cybersecurity firms to investigate the breach. \u2014 link\n\ud83c\uddf9\ud83c\uddfc LATEST: Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.\n\nTSMC found no evidence of an internal breach.\n\nNews | Markets | YouTube",
 "title": "Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.",
@@ -1267,7 +1280,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794476906.0,
 "tgtext": "A week ago, Chun (@satofishi) sold 6,200 $wstETH ($18.5M) when $ETH was trading at $2,400.\n\nOver the past 2 days, he has bought back 5,246 $ETH ($10.78M) at an average price of $2,054.\nhttps://x.com/lookonchain/status/2118173313466003905",
 "title": "A week ago, Chun (@satofishi) sold 6,200 wstETH ($18.5M) when ETH was trading at $2,400.",
@@ -1410,26 +1423,6 @@
 "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain"
 ]
 },
-"6d6f4636a0b0": {
-"coin": "",
-"src": "The Hacker News",
-"srcs": [
-"Cointelegraph",
-"Decrypt",
-"Firstpost",
-"Homeland411",
-"The Hacker News"
-],
-"t": 1794317135.0051322,
-"t0": 1794307123.0,
-"tgtext": "",
-"title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1M1Zlc1pqR1MzZThOaV9pSmZtLTZ5SWJfNjRFaFRxZmUyR3VxdGxScEhJLVZRQlpyc0ktTVBqOXRBS0MycU04U2sxbWswMUhOM19BX3Mxck9CVkd0N0hCaGxEQnFmSkhlMnp6SVdPZDREWTdjTmtDVE1fMUxyQXM?oc=5",
-"urls": [
-"https://cointelegraph.com/news/binance-warns-ios-flaw-could-expose-crypto-wallet-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys"
-]
-},
 "6fc4a6f3dc33": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -1549,21 +1542,6 @@
 "urls": [
 "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
 ]
-},
-"74b72cf0aa73": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Crypto News",
-"Pluang",
-"Wu Blockchain"
-],
-"t": 1794316829.7320907,
-"t0": 1794295490.0,
-"tgtext": "BlackRock Sees Record Demand From Bitcoin Whales Converting BTC Into IBIT Over Security Concerns\n\nAccording to Barron's, BlackRock's Head of Digital Assets, Robbie Mitchnick, said demand from large Bitcoin holders seeking to convert self-custodied BTC into shares of BlackRock's spot Bitcoin ETF (IBIT) has reached record levels, primarily driven by security concerns. The report cited approximately $3.6 billion in such conversions, with the actual total potentially higher. Through in-kind transactions, investors can exchange existing BTC holdings for ETF shares without first selling their Bitcoin on the market. These conversions represent a shift in custody arrangements rather than necessarily new capital inflows into Bitcoin. \u2014 link",
-"title": "BlackRock Sees Record Demand From Bitcoin Whales Converting BTC Into IBIT Over Security Concerns",
-"url": "https://t.me/wublockchainenglish/26761",
-"urls": []
 },
 "763bb4c89978": {
 "coin": "",
@@ -2458,7 +2436,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1794489260.123074,
+"t": 1794489721.6314456,
 "t0": 1794476488.0,
 "tgtext": "",
 "title": "Crypto Liquidations Reach $31.58 Million in One Hour, With 95% From Longs",
@@ -2648,10 +2626,9 @@
 "src": "Pluang",
 "srcs": [
 "Coinpaper",
-"CryptoPotato",
 "Pluang"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794483701.0,
 "tgtext": "",
 "title": "Bitcoin futures open interest stays above $50B, risking more liquidations if price drops below $72K",
@@ -2743,7 +2720,7 @@
 "Traders Union",
 "ad-hoc-news.de"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794470157.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: ETH Faces $2K Test as ETF Outflows Jump From $1M to $145M",
@@ -2826,7 +2803,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794486342.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf2\ud83c\uddfd President Trump threatens to immediately double tariffs on Mexico if it does not stop migrant \"caravans.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf2\ud83c\uddfd President Trump threatens to immediately double tariffs on Mexico if it does not stop migrant \"caravans.\"",
@@ -2931,7 +2908,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794489260.123074,
+"t": 1794490025.0853424,
 "t0": 1794487548.0,
 "tgtext": "\ud83d\udea8 TODAY: Strategy $MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.\n\nNews | Markets | YouTube",
 "title": "TODAY: Strategy MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.",
@@ -3403,39 +3380,39 @@
 "178b650b0d72": 0.882,
 "1a2a0a07c770": 0.157,
 "1a7dc31397fa": 0.248,
-"2f15c262d790": 0.12,
+"2f15c262d790": 0.068,
 "3564c7704c2c": 0.444,
 "3bbaae2788a7": 0.188,
 "3fa83fd0fb7b": 0.467,
-"42e1bcde09fa": 0.377,
+"42e1bcde09fa": 0.134,
 "4817968977ac": 0.135,
 "49890edb2725": 0.136,
 "5250e837096d": 0.093,
-"5589bff00047": 0.971,
+"5589bff00047": 0.96,
 "5621912db99a": 0.178,
-"675ef8220a30": 0.44,
 "6884d1097ea4": 0.17,
+"6ac728e020fa": 0.099,
 "6ed4234e7194": 0.106,
 "6f84bb7051a8": 0.176,
 "83332b6bbca2": 0.256,
+"8472c71de852": 0.112,
 "91c70b26a545": 0.26,
 "9c5c416e1f50": 0.061,
 "9c5ea4dd4fb5": 0.07,
-"a06c82235e18": 0.238,
 "a521bde8992b": 0.264,
-"aad5b868acc6": 0.042,
+"aad5b868acc6": 0.104,
 "b6d03a3351dc": 0.049,
 "ba3211660818": 0.067,
 "bb7f951dbdf7": 0.454,
-"be769b3b5c89": 0.081,
+"be769b3b5c89": 0.191,
 "bee5175010f3": 0.365,
-"c118c529b799": 0.846,
+"c118c529b799": 0.537,
+"c52e79fe6fde": 0.063,
 "c8600ef09648": 0.494,
 "cdb6c0d313bc": 0.109,
-"d148f47d3e09": 0.715,
+"d148f47d3e09": 0.645,
 "d3b62b8d08ea": 0.317,
-"d638d5e71650": 0.207,
-"eeaa9f984f6a": 0.084
+"d638d5e71650": 0.207
 },
 "sent": [
 {
@@ -4882,64 +4859,64 @@
 "top": [
 [
 "5589bff00047",
-60,
-193,
+58,
+206,
 3
 ],
 [
 "178b650b0d72",
 24,
-97,
+110,
 1
-],
-[
-"c118c529b799",
-70,
-93,
-3
 ],
 [
 "d7c9067d8315",
 10,
-29,
+41,
+1
+],
+[
+"639fda803072",
+11,
+219,
 1
 ],
 [
 "d148f47d3e09",
 18,
-49,
-1
-],
-[
-"639fda803072",
-13,
-206,
+61,
 1
 ],
 [
 "27d0f319b06f",
-15,
-253,
+13,
+266,
 1
 ],
 [
+"c118c529b799",
+50,
+105,
+2
+],
+[
 "c8600ef09648",
-42,
-318,
+40,
+331,
 3
+],
+[
+"038f2befeb04",
+10,
+23,
+1
 ],
 [
 "3fa83fd0fb7b",
 20,
-152,
-1
-],
-[
-"bb7f951dbdf7",
-27,
-213,
+165,
 1
 ]
 ],
-"top_at": 1794489260.123074
+"top_at": 1794490025.0853424
 }
