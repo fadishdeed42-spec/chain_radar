@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1794406601.483455,
-1794406677.56485,
 1794418483.099572,
 1794418483.099572,
 1794470121.509859,
@@ -14,7 +12,8 @@
 1794481106.790575,
 1794489260.123074,
 1794491281.4701464,
-1794492912.8793943
+1794492912.8793943,
+1794493983.4536407
 ],
 "menu": {
 "013c78dfd737": {
@@ -126,19 +125,6 @@
 "https://www.theblock.co/news/business/2026-11-11-nvidia-perps-board-weighs-ousting-jensen-huang-438447",
 "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
 ]
-},
-"0873f0ff8955": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794320731.2681572,
-"t0": 1794319526.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Goldman Sachs warns high inflation could lead to more interest rate hikes next year.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 Goldman Sachs warns high inflation could lead to more interest rate hikes next year.",
-"url": "https://t.me/WatcherGuru/15930",
-"urls": []
 },
 "0c3e21700400": {
 "coin": "",
@@ -285,7 +271,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794491043.0,
 "tgtext": "JUST IN: $222,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$222,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -329,7 +315,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794483427.0,
 "tgtext": "Whale 0xc8b5 has finally given up, closing his long on 190,952 $NVDA ($30.67M) at a $2.45M loss.\nhttps://x.com/lookonchain/status/2120691030047826079",
 "title": "Whale 0xc8b5 has finally given up, closing his long on 190,952 NVDA ($30.67M) at a $2.45M loss.",
@@ -655,7 +641,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794481208.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 China says US should not use Nvidia CEO Jensen Huang's Chinese spy relationship allegations to justify imposing tech restrictions.\n\n@WatcherGuru\n\ud83d\udea8 BREAKING: Jensen Huang resigns as NVIDIA CEO and board member, effective immediately. \n\nCFO Colette Kress takes over as interim CEO.\n\nRead more: https://ct.com/news/jensen-huang-resigns-nvidia-ceo-board-member\n\nNews | Markets | YouTube\nBREAKING: Nvidia $NVDA CEO Jensen Huang resigns.\n\n@WatcherGuru\nBreaking: NVIDIA Announces Jensen Huang Resigns as CEO and Board Member, CFO Colette Kress Named Interim CEO\n\nNVIDIA (NASDAQ: NVDA) announced that its Board of Directors has accepted the resignation of Jensen Huang as President, Chief Executive Officer (CEO), and a member of the Board, effective immediately. Current Executive Vice President and Chief Financial Officer (CFO) Colette Kress has agreed to serve as Interim CEO while continuing in her role as EVP and CFO until a permanent successor is named, as the Board initiates a formal CEO search considering both internal and external candidates; meanwhile, the Board has appointed former Synopsys CEO and Executive Chairman Harvey C. Jones as its first-ever Chair of the Board. \u2014 link\nJUST IN: Colette Kress to replace Jensen Huang as Nvidia's $NVDA interim CEO.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA crashes 10% to $156 pre-market following CEO Jensen Huang resignation.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 China says US should not use Nvidia CEO Jensen Huang's Chinese spy relationship allegations to justify imposing tech restrictions.",
@@ -1160,7 +1146,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794477667.0,
 "tgtext": "TSMC Confirms Hacker Obtained Employee Data and Demanded 3 BTC, Says Internal Systems Uncompromised\n\nAccording to Jiemian News, Taiwan Semiconductor Manufacturing Company (TSMC) responded on November 12 to reports of a hacker attempting to sell an alleged 6.9GB database containing 46,000 TSMC employee records on an underground forum for 3 BTC; TSMC confirmed that personal data belonging to certain current and former employees was exposed without authorization, noting that preliminary investigations link the leaked records to a third-party cloud service provider's system rather than an intrusion into TSMC's own internal IT infrastructure. The chipmaker emphasized that production operations and customer data remain completely unaffected, adding that it is notifying impacted staff and working closely with the cloud vendor, law enforcement, and external cybersecurity firms to investigate the breach. \u2014 link\n\ud83c\uddf9\ud83c\uddfc LATEST: Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.\n\nTSMC found no evidence of an internal breach.\n\nNews | Markets | YouTube",
 "title": "Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.",
@@ -1294,7 +1280,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794476906.0,
 "tgtext": "A week ago, Chun (@satofishi) sold 6,200 $wstETH ($18.5M) when $ETH was trading at $2,400.\n\nOver the past 2 days, he has bought back 5,246 $ETH ($10.78M) at an average price of $2,054.\nhttps://x.com/lookonchain/status/2118173313466003905",
 "title": "A week ago, Chun (@satofishi) sold 6,200 wstETH ($18.5M) when ETH was trading at $2,400.",
@@ -1512,19 +1498,6 @@
 "urls": [
 "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"73d2c006f24a": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794321036.8053257,
-"t0": 1794320432.0,
-"tgtext": "JUST IN: Visa expands crypto stablecoin settlements network, allowing transactions on weekends and holidays.\n\n@WatcherGuru",
-"title": "Visa expands crypto stablecoin settlements network, allowing transactions on weekends and holidays.",
-"url": "https://t.me/WatcherGuru/15931",
-"urls": []
 },
 "741c4cb297eb": {
 "coin": "",
@@ -1824,6 +1797,19 @@
 "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"8cafdf07632c": {
+"coin": "tether",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794493983.4536407,
+"t0": 1794493615.0,
+"tgtext": "Tether Gold (XAU\u20ae) Completes Big Four Audit With Unqualified Opinion From KPMG\n\nTether announced that KPMG U.S. has completed an independent audit of the 2025 financial statements of TG Commodities, S.A. de C.V., the issuer of Tether Gold (XAU\u20ae), issuing an unqualified audit opinion. During the audit, KPMG physically counted and inspected every individual gold bar held in Swiss vaults rather than relying solely on custodian confirmations, verifying 520,089.350 fine troy ounces of allocated physical gold valued at $2.246 billion against 520,089.300 XAU\u20ae in circulation as of December 31, 2025. XAU\u20ae becomes Tether\u2019s second stablecoin to receive an unqualified Big Four audit opinion, following KPMG\u2019s audit of USD\u20ae issuer Tether International announced in August 2026. \u2014 link",
+"title": "Tether Gold (XAU\u20ae) Completes Big Four Audit With Unqualified Opinion From KPMG",
+"url": "https://t.me/wublockchainenglish/26800",
+"urls": []
+},
 "8db682a58e2b": {
 "coin": "",
 "src": "NewsCord",
@@ -1858,7 +1844,7 @@
 "Decrypt",
 "Lookonchain"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794476838.0,
 "tgtext": "After reports that Jensen Huang stepped down as Nvidia CEO, a whale is adding to his $NVDA long!\n\nHe currently holds a long on 60,000 $NVDA ($9.35M) and has placed limit orders to buy another 20,000 $NVDA ($3.04M) between $150.24 and $154.20.\n\nThis whale also holds the largest $MU long position. \n\nHe has completed 28 trades with a 75% win rate, making over $6M in realized profit.\n\nhttps://hypurrscan.io/address/0xab961d7c42bbcd454a54b342bd191a8f090219e6#perps\nFollowing reports that Jensen Huang stepped down as Nvidia CEO, trader 0x7368 got fully liquidated on his $NVDA long, with 9,959 $NVDA ($1.54M) liquidated.\n\nhttps://hypurrscan.io/address/0x736850ee773ac6170fcaeda596514269b863ee56#txs",
 "title": "Following reports that Jensen Huang stepped down as Nvidia CEO, trader 0x7368 got fully liquidated on his NVDA long, with 9,959 NVDA ($1.54M) liquidated.",
@@ -2053,7 +2039,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794490458.0,
 "tgtext": "U.S. Initial Jobless Claims Rise to 200K for Week Ending Nov. 7, Above Expectations\n\nU.S. initial jobless claims for the week ending November 7 were 200,000, versus expectations of 195,000. The prior week\u2019s figure was revised from 189,000 to 191,000. \u2014 link",
 "title": "U.S. Initial Jobless Claims Rise to 200K for Week Ending Nov. 7, Above Expectations",
@@ -2493,7 +2479,7 @@
 "CryptoPotato",
 "TOKENPOST"
 ],
-"t": 1794493216.179999,
+"t": 1794493983.4536407,
 "t0": 1794476488.0,
 "tgtext": "",
 "title": "$220M in Longs Liquidated in 1 Hour as ETH Dips Below $2K and BTC Slides to $72K",
@@ -2696,17 +2682,33 @@
 "urls": []
 },
 "c118c529b799": {
-"coin": "",
+"coin": "bitcoin",
 "src": "Pluang",
 "srcs": [
 "Coinpaper",
+"FXEmpire",
 "Pluang"
 ],
-"t": 1794490791.5157154,
+"t": 1794493677.9600918,
 "t0": 1794483701.0,
 "tgtext": "",
 "title": "Bitcoin futures open interest stays above $50B, risking more liquidations if price drops below $72K",
 "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa1VROUVCb3JvQy0tVzVMdFpTYXIwLU1zV1hmR2JXNjF4bVZiVUlwYlI3MW5LZjUtZlRaMFVRV0Z4YmgtbEtUSHhYRTBLdjdhVXY2SVRMXzN1TzNzMTNkakluQzVlaUdjelBJaURXSkxFUERkX2VsZnVXWVMwNHdlcXBaOVhUdUFReTlNWURfbllTcFFMYVM4RVYwSS04RVlUZGlSak92d0d6c1RnbFZF?oc=5",
+"urls": []
+},
+"c211b945075e": {
+"coin": "",
+"src": "CNBC",
+"srcs": [
+"CNBC",
+"ITWeb Africa",
+"https://newsalert.com.pk/"
+],
+"t": 1794493983.4536407,
+"t0": 1794478905.0,
+"tgtext": "",
+"title": "Coinbase CEO Brian Armstrong talks Binance hack, Democrats' sweep",
+"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRl8yZHZ5Z0ctVmYzcXZKc3VOcGVTUWtlcmt0TTNNdXJIeHBLMlNQdTRyZ0dpVHRFMlhWWngycG5rVjFMZDZuV1JIbHlfaTNYcDlQRVh0eGNad1A3eTJkUFRFd3VLaW1HVGs5LTd0ODJLbGhJenMxVXVTWWtUUFhMTGlRY3VBMjJsMUJRTlcwREhwSnJJWjJMNjdZV2hmdXcyX0E?oc=5",
 "urls": []
 },
 "c2ac8336c672": {
@@ -3268,6 +3270,24 @@
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93NHlDdEJFR0lMZnpWQ21YQ2Q3S013UENJRjFXblJ5cU0xRlBJdFBYMDIweVVEZG9ZeTRSWXVlaC1SWmlpSFV2LWZwTE05ZWZzYkVRYmk1TXZGU2xLdUJTNjJFTFYtTzZ1ZUtnYmZCNDRGOGg1dWxJ?oc=5",
 "urls": []
 },
+"ed08317da1b0": {
+"coin": "solana",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Decrypt",
+"The Block"
+],
+"t": 1794493983.4536407,
+"t0": 1794489947.0,
+"tgtext": "\ud83d\udd25 JUST IN: $114T+ custodian DTCC to bring its tokenization service to Solana in the second half of 2027.\n\nNews | Markets | YouTube",
+"title": "$114T+ custodian DTCC to bring its tokenization service to Solana in the second half of 2027.",
+"url": "https://t.me/cointelegraph/73230",
+"urls": [
+"https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027",
+"https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559"
+]
+},
 "eeb663767ea4": {
 "coin": "",
 "src": "The Block",
@@ -3435,45 +3455,45 @@
 },
 "probs": {
 "0158fa1735c0": 0.142,
-"0eaa1b13987b": 0.168,
 "1299778bb6d5": 0.115,
-"14c497ab606e": 0.992,
+"14c497ab606e": 0.924,
 "15727d8fa0f2": 0.165,
 "178b650b0d72": 0.882,
 "1a2a0a07c770": 0.553,
 "2063b39d0825": 0.128,
 "2380cbf51255": 0.038,
-"275bbc331912": 0.123,
-"2f36064c584f": 0.965,
-"3564c7704c2c": 0.444,
-"42e1bcde09fa": 0.134,
+"275bbc331912": 0.057,
+"2f36064c584f": 0.981,
+"42e1bcde09fa": 0.377,
 "4817968977ac": 0.135,
 "5250e837096d": 0.093,
-"5589bff00047": 0.96,
-"5621912db99a": 0.053,
-"6884d1097ea4": 0.17,
+"5589bff00047": 0.973,
+"675ef8220a30": 0.457,
+"6884d1097ea4": 0.099,
 "6f84bb7051a8": 0.378,
-"83332b6bbca2": 0.082,
-"8d5aeedc5efd": 0.057,
-"918660a92688": 0.95,
+"76ec0ce60f1a": 0.038,
+"89289aae6789": 0.074,
+"918660a92688": 0.988,
 "91c70b26a545": 0.26,
 "9e7504c94618": 0.084,
 "9fa5a011d9c3": 0.045,
+"a007d65b5af0": 0.05,
 "a8ed98279609": 0.331,
 "b6d03a3351dc": 0.049,
-"ba3211660818": 0.067,
+"ba3211660818": 0.037,
+"ba6aaf36609b": 0.03,
 "bb7f951dbdf7": 0.843,
 "be769b3b5c89": 0.191,
-"bee5175010f3": 0.365,
 "c118c529b799": 0.537,
-"c211b945075e": 0.242,
+"c211b945075e": 0.362,
 "c52e79fe6fde": 0.306,
 "cd676720a858": 0.246,
 "cdb6c0d313bc": 0.109,
-"d148f47d3e09": 0.645,
 "d3b62b8d08ea": 0.317,
-"d638d5e71650": 0.207,
-"ed08317da1b0": 0.515
+"d638d5e71650": 0.122,
+"ebeb6a1f484f": 0.14,
+"ed08317da1b0": 0.698,
+"ed53bd768c0b": 0.06
 },
 "sent": [
 {
@@ -4842,71 +4862,100 @@
 "longs",
 "slides"
 ]
+},
+{
+"e": [
+"armstrong",
+"binance",
+"brian",
+"coinbase",
+"democrats"
+],
+"k": [
+"hack"
+],
+"t": 1794493983.4536407,
+"u": [
+"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ1k5TUR4VFBwcENRSk9YUVhxQkZ4d1BJSzhoWG1Ib3ZvNU9yTmxMTER4blF1YlBkd1BnVVlZMTFoN2diaURjXzdBUmI5U3liTEpWNmRyT3ZGM3J3WUxnSWlqNjRuSGdad0RWb3hSaEt1VE9tbzhVUE9PUTFESXZqNHdEX0t4OVFpUmkyZW43RmRodTVwbXo0VEU3cDdmSk1mRHdPZnltZ3Y0dw?oc=5",
+"https://news.google.com/rss/articles/CBMioAFBVV95cUxQdUhoX0VlUUY0bGxLLUN1Y3RJbUF6bFptTURrME1FRnQ3RDJjU0lad0lJd09LemtUb3JVV2tORmhOWTFBYnVzTm1NMlZTOEJRYk90WGpkeWtWMnNsRE8tZFdMYlF5aW1xYUY5S2gxeDFIbDlFZ1FFdUtfSmFtUEJtdW5ZNVRZZ2ZpMzQtaXVGQWMxSTZJQ1AySExVYUpPYUl5?oc=5",
+"https://news.google.com/rss/articles/CBMiogFBVV95cUxQRl8yZHZ5Z0ctVmYzcXZKc3VOcGVTUWtlcmt0TTNNdXJIeHBLMlNQdTRyZ0dpVHRFMlhWWngycG5rVjFMZDZuV1JIbHlfaTNYcDlQRVh0eGNad1A3eTJkUFRFd3VLaW1HVGs5LTd0ODJLbGhJenMxVXVTWWtUUFhMTGlRY3VBMjJsMUJRTlcwREhwSnJJWjJMNjdZV2hmdXcyX0E?oc=5"
+],
+"w": [
+"armstrong",
+"binance",
+"brian",
+"ceo",
+"coinbase",
+"democrats",
+"hack",
+"sweep",
+"talks"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"14c497ab606e",
-25,
-36,
-1
+"918660a92688",
+35,
+286,
+2
 ],
 [
 "2f36064c584f",
-38,
-200,
+36,
+213,
 3
 ],
 [
 "5589bff00047",
-51,
-259,
+49,
+272,
 3
 ],
 [
-"918660a92688",
-37,
-273,
-2
+"14c497ab606e",
+25,
+49,
+1
 ],
 [
 "178b650b0d72",
 24,
-163,
+176,
+1
+],
+[
+"8cafdf07632c",
+18,
+6,
 1
 ],
 [
 "bb7f951dbdf7",
-28,
-279,
+27,
+292,
 2
 ],
 [
 "9b8c9bb30ab8",
 10,
-46,
+59,
 1
 ],
 [
 "639fda803072",
-4,
-272,
+3,
+285,
 1
 ],
 [
-"d7c9067d8315",
-10,
-94,
-1
-],
-[
-"27d0f319b06f",
-6,
-319,
-1
+"ed08317da1b0",
+30,
+67,
+3
 ]
 ],
-"top_at": 1794493216.179999
+"top_at": 1794493983.4536407
 }
