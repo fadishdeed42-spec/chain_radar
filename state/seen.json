@@ -125,7 +125,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794499200.0,
 "tgtext": "JUST IN: Visa expands crypto stablecoin settlement network through partnership with Western Union and Anchorage.\n\n@WatcherGuru\n\u26a1\ufe0f NEW: Visa has partnered with Anchorage Digital to add Western Union\u2019s USDPT stablecoin to its settlement network, allowing eligible partners to settle VisaNet obligations using the token.\n\nNews | Markets | YouTube",
 "title": "Visa has partnered with Anchorage Digital to add Western Union\u2019s USDPT stablecoin to its settlement network, allowing eligible partners to settle VisaNet obligations using the token.",
@@ -944,13 +944,13 @@
 "coin": "",
 "src": "Yahoo Finance",
 "srcs": [
-"AOL.co.uk",
 "Cointelegraph",
 "Quartz",
 "The Tech Buzz",
-"Yahoo Finance"
+"Yahoo Finance",
+"Yahoo Finance Singapore"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794505053.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f UPDATE: Binance says it has finished covering all user assets hit by the $6.3B hack.\n\nA new Proof of Reserves snapshot, and a ZK proof will let users check 1:1 backing.\n\nNews | Markets | YouTube",
 "title": "Binance founder CZ says crypto exchange didn't sell any SpaceX stock amid hack",
@@ -1136,6 +1136,23 @@
 "url": "https://t.me/cointelegraph/73225",
 "urls": []
 },
+"56ca33d9f1d2": {
+"coin": "bitcoin",
+"src": "CryptoRank",
+"srcs": [
+"Bitcoin News",
+"Coinpaper",
+"Coinpedia",
+"CryptoRank",
+"TradingView"
+],
+"t": 1794512677.7302632,
+"t0": 1794495385.0,
+"tgtext": "",
+"title": "$220M in Longs Liquidated in 1 Hour as ETH Dips Below $2K and BTC Slides to $72K",
+"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYzlNcmw3RHJrMzZpa1BpZUVONEFoZy0yQ1hKZ0NYZG01ODZXZUhUaS1HNG5GUUFOZ0VfQ0lhcThfQ0dGM2xJdVozUXNzTHo4WVJWYS1xN2R0a2g1a1RhRUgwQVljbTYtb0loX0FvRGF6ZlFiaTlHRFNhR25QcTVKZ1dUT2FSSTNNUGJfOVNPZXZ0bWQxUGd3elQ5TEtmczltLVUxZll6eGlKaWtTWHBWQWlfekdpdw?oc=5",
+"urls": []
+},
 "58fac662ff01": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1276,10 +1293,11 @@
 "srcs": [
 "Altcoin Buzz",
 "Crypto Briefing",
+"Cryptonews.net",
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794494420.0,
 "tgtext": "JUST IN: Bitcoin falls under $72,000\n\n$125,000,000 worth of crypto longs liquidated in the past 20 minutes.\n\n@WatcherGuru",
 "title": "Bitcoin key support levels to watch after break below $72,000",
@@ -1316,19 +1334,6 @@
 "https://cointelegraph.com/news/kraken-xstocks-200-tokenized-uk-eu-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/383000/kraken-parent-payward-brings-200-uk-and-eu-stocks-onchain-as-xstocks"
 ]
-},
-"640fdbaed1dd": {
-"coin": "bitcoin",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794339335.7018015,
-"t0": 1794318012.0,
-"tgtext": "JUST IN: Bitcoin falls under $74,000\n\n@WatcherGuru\nJUST IN: Bitcoin falls under $73,000\n\n$200,000,000 worth of crypto longs liquidated in the past 15 minutes.\n\n@WatcherGuru",
-"title": "Bitcoin falls under $74,000",
-"url": "https://t.me/WatcherGuru/15928",
-"urls": []
 },
 "686b55e482db": {
 "coin": "",
@@ -1572,19 +1577,6 @@
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRGJudlg1TURjT0c2eXFCcFlnNG83bFdDQS1URVRPQ2hsaDlHeF9hdWl4T2s5endWNFlocUVwUDRRZ1laYkd5MzdfSUlZUGgwQXFHc3RjNWtmbm9hUGVUcTNUZlR0YmZtbExRX0lvQ3FSMDJrbkdSVGxGbTN2bzRZMHBFU0N5V0RzWklhNkVHdHk2cGlPY1pWTnFVenZKcFRackMxQVhWWTRLSzhhQVN5T0x0OWE1U05kSmszSnpmWm05Q0ZJSGZqZ01B?oc=5",
 "urls": []
 },
-"77c46dca9f80": {
-"coin": "solana",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794339335.7018015,
-"t0": 1794317928.0,
-"tgtext": "Trader 0xb644 just got fully liquidated on his 41,658 $SOL ($3.42M) long position.\n\nhttps://hypurrscan.io/address/0xb64460b8f4a2f521b815a209f053d35fb1977d51#txs",
-"title": "Trader 0xb644 just got fully liquidated on his 41,658 SOL ($3.42M) long position.",
-"url": "https://t.me/lookonchainchannel/10995",
-"urls": []
-},
 "79859959f98d": {
 "coin": "solana",
 "src": "Wu Blockchain",
@@ -1594,7 +1586,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794512061.433335,
+"t": 1794512368.862749,
 "t0": 1794490772.0,
 "tgtext": "Core Global Financial Infrastructure DTCC to Connect Tokenization Service With Solana, Expected to Launch in H2 2027\n\nThe Depository Trust & Clearing Corporation (DTCC) has announced plans to integrate its DTCC Tokenization Service (DTS) with Solana, enabling eligible traditional securities custodied at The Depository Trust Company (DTC) to be rapidly converted into onchain tokenized assets with full lifecycle management; the integration is expected to launch in the second half of 2027. DTS officially went live on October 28, 2026, initially covering 34 underlying securities\u2014including Russell 1000 constituents, ETFs, and U.S. Treasuries\u2014with initial support for the Canton Network and the private Besu blockchain. \u2014 link\n\ud83d\udd25 JUST IN: $114T+ custodian DTCC to bring its tokenization service to Solana in the second half of 2027.\n\nNews | Markets | YouTube",
 "title": "Core Global Financial Infrastructure DTCC to Connect Tokenization Service With Solana, Expected to Launch in H2 2027",
@@ -1639,7 +1631,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794510865.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Experts warn US artificial intelligence is \"fully compromised\" by China following Jensen Huang's affair with a Chinese Spy.\n\n\"Our data centers, compromised. All of our models, stolen.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Experts warn US artificial intelligence is \"fully compromised\" by China following Jensen Huang's affair with a Chinese Spy.",
@@ -1734,7 +1726,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794511757.0006864,
+"t": 1794512677.7302632,
 "t0": 1794508130.0,
 "tgtext": "Kalshi Ends Donald Trump Jr.\u2019s Advisory Contract Over Polymarket Investment\n\nAccording to Reuters, prediction market platform Kalshi has ended its advisory contract with Donald Trump Jr. after his venture capital firm, 1789 Capital, increased its stake in rival Polymarket. A Kalshi spokesperson said the decision was mutual and that discussions to end the contract began in August, after 1789 Capital led Polymarket\u2019s latest funding round. \u2014 link",
 "title": "Kalshi Ends Donald Trump Jr.\u2019s Advisory Contract Over Polymarket Investment",
@@ -1862,7 +1854,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794493615.0,
 "tgtext": "Tether Gold (XAU\u20ae) Completes Big Four Audit With Unqualified Opinion From KPMG\n\nTether announced that KPMG U.S. has completed an independent audit of the 2025 financial statements of TG Commodities, S.A. de C.V., the issuer of Tether Gold (XAU\u20ae), issuing an unqualified audit opinion. During the audit, KPMG physically counted and inspected every individual gold bar held in Swiss vaults rather than relying solely on custodian confirmations, verifying 520,089.350 fine troy ounces of allocated physical gold valued at $2.246 billion against 520,089.300 XAU\u20ae in circulation as of December 31, 2025. XAU\u20ae becomes Tether\u2019s second stablecoin to receive an unqualified Big Four audit opinion, following KPMG\u2019s audit of USD\u20ae issuer Tether International announced in August 2026. \u2014 link",
 "title": "Tether Gold (XAU\u20ae) Completes Big Four Audit With Unqualified Opinion From KPMG",
@@ -2384,7 +2376,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794494097.0,
 "tgtext": "JUST IN: Nvidia's market cap crashes under $4 trillion for the first time since July 2025.\n\n$NVDA falls to $153, down 13% today following CEO Jensen Huang resignation.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: $NVDA\u2019s market cap crashes below $4 trillion.\n\nNews | Markets | YouTube",
 "title": "Nvidia's market cap crashes under $4 trillion for the first time since July 2025.",
@@ -2528,7 +2520,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794511812.0,
 "tgtext": "JUST IN: Former Nvidia $NVDA CEO Jensen Huang had an intimate relationship with a second employee, bringing his total number of affairs to 3, Reuters reports.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f HUGE: Jensen Huang reportedly had an intimate relationship with a second employee, bringing the alleged total number of women involved in extramarital affairs to three.\n\nNews | Markets | YouTube",
 "title": "Former Nvidia NVDA CEO Jensen Huang had an intimate relationship with a second employee, bringing his total number of affairs to 3, Reuters reports.",
@@ -2970,7 +2962,7 @@
 "Cryptonews.net",
 "Yahoo Finance Australia"
 ],
-"t": 1794512061.433335,
+"t": 1794512677.7302632,
 "t0": 1794492987.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Could Soon Revisit $60,000 as Whales Start Dumping",
@@ -3510,44 +3502,44 @@
 "probs": {
 "077ba0b29f1e": 0.675,
 "0da2cfe52696": 0.034,
-"1e37974bb5a4": 0.397,
+"1e37974bb5a4": 0.465,
 "1e9bdfde6529": 0.103,
 "23955713cb4e": 0.091,
-"28ec2b0e5645": 0.15,
+"28ec2b0e5645": 0.07,
 "30169fb6889c": 0.054,
-"311f61e820c4": 0.686,
 "35f56932c755": 0.002,
-"3ca844568e32": 0.053,
+"3ca844568e32": 0.029,
 "431d6243ae1b": 0.072,
-"4563968524c9": 0.812,
+"4563968524c9": 0.825,
 "4e696bcd0a8b": 0.027,
-"5c0c7f58d987": 0.035,
+"56ca33d9f1d2": 0.84,
 "62a3b5ca4523": 0.01,
-"62abab90ca63": 0.877,
+"62abab90ca63": 0.887,
 "644e4b5f8e27": 0.021,
 "6899da9dbd51": 0.081,
 "68b6d175f60f": 0.226,
 "6e6675c20444": 0.018,
 "7155b2001864": 0.006,
-"759b0b577740": 0.045,
-"79859959f98d": 0.752,
+"759b0b577740": 0.082,
 "7a3df7544b52": 0.015,
 "7a51329e069e": 0.043,
+"80ab02c4d1f4": 0.011,
 "83126dc2c77a": 0.469,
-"83740f6e41ab": 0.023,
 "8cafdf07632c": 0.545,
 "91c70b26a545": 0.071,
 "967eeaf6267e": 0.125,
 "9849b0379b99": 0.005,
 "9fa5a011d9c3": 0.014,
 "a007d65b5af0": 0.016,
+"a21dff1b9d7c": 0.014,
 "a9c4bdb57a70": 0.172,
 "b2c5ef44fdb1": 0.794,
-"baa4dd315b22": 0.772,
+"baa4dd315b22": 0.829,
 "c05c640dccd0": 0.021,
 "d398737f0c78": 0.641,
 "d65495091502": 0.075,
-"df73462f6820": 0.083
+"df73462f6820": 0.083,
+"fecaf61fc66b": 0.02
 },
 "sent": [
 {
@@ -4982,64 +4974,64 @@
 "top": [
 [
 "62abab90ca63",
-46,
-294,
-4
+45,
+304,
+5
+],
+[
+"56ca33d9f1d2",
+71,
+288,
+5
+],
+[
+"baa4dd315b22",
+28,
+14,
+2
 ],
 [
 "4563968524c9",
 90,
-117,
+127,
 5
 ],
 [
 "7b392e9e87b8",
 10,
-20,
+30,
 1
 ],
 [
 "b2c5ef44fdb1",
-15,
-299,
+13,
+310,
 2
-],
-[
-"baa4dd315b22",
-28,
-4,
-2
-],
-[
-"79859959f98d",
-17,
-355,
-4
-],
-[
-"311f61e820c4",
-68,
-237,
-3
 ],
 [
 "077ba0b29f1e",
-26,
-214,
+25,
+225,
 3
 ],
 [
 "d398737f0c78",
-67,
-318,
+66,
+328,
 4
 ],
 [
 "8cafdf07632c",
-37,
-307,
+35,
+318,
 3
+],
+[
+"83126dc2c77a",
+18,
+76,
+1
 ]
 ],
-"top_at": 1794512061.433335
+"top_at": 1794512677.7302632
 }
