@@ -125,7 +125,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794515740.566201,
+"t": 1794516353.9063258,
 "t0": 1794499200.0,
 "tgtext": "JUST IN: Visa expands crypto stablecoin settlement network through partnership with Western Union and Anchorage.\n\n@WatcherGuru\n\u26a1\ufe0f NEW: Visa has partnered with Anchorage Digital to add Western Union\u2019s USDPT stablecoin to its settlement network, allowing eligible partners to settle VisaNet obligations using the token.\n\nNews | Markets | YouTube",
 "title": "Visa has partnered with Anchorage Digital to add Western Union\u2019s USDPT stablecoin to its settlement network, allowing eligible partners to settle VisaNet obligations using the token.",
@@ -578,7 +578,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794499903.933762,
+"t": 1794516353.9063258,
 "t0": 1794496952.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US House Speaker Mike Johnson says he supports restricting chip exports to China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US House Speaker Mike Johnson says he supports restricting chip exports to China.",
@@ -686,7 +686,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794515740.566201,
+"t": 1794516353.9063258,
 "t0": 1794514201.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The Justice Department investigates whether companies tied to Alice Huang helped smuggle Super Micro products into China, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "The Justice Department investigates whether companies tied to Alice Huang helped smuggle Super Micro products into China, per Bloomberg.",
@@ -972,7 +972,7 @@
 "Yahoo Finance",
 "Yahoo Finance Singapore"
 ],
-"t": 1794515740.566201,
+"t": 1794516353.9063258,
 "t0": 1794505053.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f UPDATE: Binance says it has finished covering all user assets hit by the $6.3B hack.\n\nA new Proof of Reserves snapshot, and a ZK proof will let users check 1:1 backing.\n\nNews | Markets | YouTube",
 "title": "Binance founder CZ says crypto exchange didn't sell any SpaceX stock amid hack",
@@ -1152,7 +1152,7 @@
 "CryptoRank",
 "TradingView"
 ],
-"t": 1794515434.8679764,
+"t": 1794516353.9063258,
 "t0": 1794495385.0,
 "tgtext": "",
 "title": "$220M in Longs Liquidated in 1 Hour as ETH Dips Below $2K and BTC Slides to $72K",
@@ -1220,7 +1220,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794501339.2398672,
+"t": 1794516049.3403203,
 "t0": 1794500313.0,
 "tgtext": "Trezor Investigation Update: Malicious Circuit Boards Found in Three Safe 5 Wallets\n\nHardware wallet manufacturer Trezor provided an update on its investigation into hardware tampering involving devices sold by reseller CryptoBilis. After inspecting devices from 48 users who contacted the company, Trezor confirmed that three Trezor Safe 5 wallets sold between August 20 and September 23, 2026, through CryptoBilis and its Tokopedia and Shopee stores contained malicious circuit boards. The implants, concealed between the motherboard and display, could capture recovery seeds and passphrases shown on the screen and transmit them to attackers\u2019 servers via cellular networks. No user funds have been reported stolen to date. Trezor has reduced its reseller network by approximately 80%, tightened procurement and warehousing controls, and released firmware version 2.13.1 on November 11 to block data capture by the identified implants. Customers who purchased devices from CryptoBilis since March 2026 are eligible for a free replacement or refund. \u2014 link",
 "title": "Trezor Investigation Update: Malicious Circuit Boards Found in Three Safe 5 Wallets",
@@ -1439,22 +1439,6 @@
 "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFAtLXNyQmRaZVlkRkZ6dXFIMlFZbTJxczRGSHg2Rl9UWDRvdW1naEwxN2NQTTFRUGZhSm56RVljSy1CWklHM0dNWGNqajl6dkk3VWF6alhVX3FmMW15ZFpFeWNyODl4SXFWUnBLRkQ1SXJqWC1KUlRPMlVQcjFzcjg4RXpock1mSG8xVkw2QW9jZzVEY0I3WTRvUnpCS2dnTDlRR1VoQXR0SUMyMndodEJsYnlWS2plSjNZckZzaEdTdnpvVHY2V1hCVkxhQQ?oc=5",
 "urls": []
 },
-"6d10af6d96cc": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"CoinDesk",
-"Wu Blockchain"
-],
-"t": 1794343238.8768537,
-"t0": 1794325916.0,
-"tgtext": "Plume Affiliate Kimber Digital Securities Secures FINRA Membership and SEC Broker-Dealer Registration\n\nPlume announced that its affiliated broker-dealer, Kimber Digital Securities, has received FINRA membership approval and is now registered with the U.S. Securities and Exchange Commission (SEC). The firm plans to use infrastructure provided by the Depository Trust Company (DTC) to enable investors to hold eligible tokenized stocks, ETFs, and bonds in self-custodial wallets while retaining their corresponding book-entry entitlements recorded at DTC and associated shareholder rights. Plume said the model aims to integrate tokenized securities with the existing U.S. securities custody and settlement system while complying with regulatory requirements, including best execution, independent oversight of operational and cybersecurity risks, and ongoing disclosures. \u2014 link",
-"title": "Plume Affiliate Kimber Digital Securities Secures FINRA Membership and SEC Broker-Dealer Registration",
-"url": "https://t.me/wublockchainenglish/26770",
-"urls": [
-"https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain"
-]
-},
 "6e5062b7f6a1": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -1633,7 +1617,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794505631.944331,
+"t": 1794516353.9063258,
 "t0": 1794503422.0,
 "tgtext": "\ud83d\udd25\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f BIG: US stocks staged a sharp reversal, adding over $1 trillion in market capitalization in just two hours.\n\nNews | Markets | YouTube",
 "title": "BIG: US stocks staged a sharp reversal, adding over $1 trillion in market capitalization in just two hours.",
@@ -1787,7 +1771,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794515740.566201,
+"t": 1794516049.3403203,
 "t0": 1794499953.0,
 "tgtext": "JUST IN: Jensen Huang will no longer have any role within Nvidia $NVDA going forward.\n\n@WatcherGuru",
 "title": "Jensen Huang will no longer have any role within Nvidia NVDA going forward.",
@@ -2160,6 +2144,26 @@
 "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGs4aXlnT0wyZk5PaUJJY0tSNXpzX3JUWEk4NW9VZzdEc1ZzRUVrWGF1QTF6RDdKWUwzaXVXSUN3Z0hKRXNrWXhlcGdCSWJSYjMtUDA1TGFqNmo0cWpfdEhveEFFcXdRR0UxVWtTckVVeGMzR3d0OHIzT0tKbTJ2T0pYSQ?oc=5",
 "urls": []
 },
+"a2ef0a77dedf": {
+"coin": "bitcoin",
+"src": "TradingView",
+"srcs": [
+"Cointelegraph",
+"CryptoSlate",
+"The Block",
+"TradingView"
+],
+"t": 1794516353.9063258,
+"t0": 1794495898.0,
+"tgtext": "",
+"title": "Bitcoin Price Slides Below $72K As Jensen Huang Exits Nvidia: Is $68,000 Next?",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWkpWcjJZZFd6WGRTNk9XemJLZ05yS0VLTkFTTVdYZnM4TEZmTVpmeVNtZkVDZFp2UjVXNEFOajA3VGJXNTlsSWc2Zjl0a01KZGhlS1RwR1I3MmpGLXAzOXhaLVIzVzF3Z3pCNHVhcmJEb2IzS3VnSW9QNy1GVDVhcFhlSm5IU0VJckp2WHFqcmotNWRWaEhGZHVsN0JXNVNmYTNVSDJRMndnb0lKdEJZdHB6alU2NC1TV0pxVzRhRDVlTVpCMGd3MEpWbjhWRG8?oc=5",
+"urls": [
+"https://cryptoslate.com/bitcoin-plunges-to-71k-as-jensen-huang-abruptly-resigns-sending-nvidia-into-2-trillion-wipeout/",
+"https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992"
+]
+},
 "a4126a97940a": {
 "coin": "zcash",
 "src": "TradingView",
@@ -2299,7 +2303,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794503484.7653315,
+"t": 1794516353.9063258,
 "t0": 1794502728.0,
 "tgtext": "SafePal Users Targeted by Physical Mail Phishing Following Data Breach\n\nAccording to Italian crypto media outlet Criptovaluta it, hardware wallet maker SafePal\u2019s data breach has led to physical mail phishing attacks targeting Italian users. Fraudulent letters impersonating SafePal claim that recipients\u2019 hardware wallets have a firmware security vulnerability and contain QR codes that direct users via Arweave to a fake SafePal website. Both the letters and the phishing website contain accurate customer names, addresses and order details. Between March 2025 and April 2026, an issue with an order-tracking plugin exposed the personal data of nearly 40,000 SafePal customers, including names, email addresses and mailing addresses. SafePal previously confirmed that attackers had been using the leaked data for phishing attempts. \u2014 link",
 "title": "SafePal Users Targeted by Physical Mail Phishing Following Data Breach",
@@ -2531,7 +2535,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794515740.566201,
+"t": 1794516353.9063258,
 "t0": 1794511812.0,
 "tgtext": "JUST IN: Former Nvidia $NVDA CEO Jensen Huang had an intimate relationship with a second employee, bringing his total number of affairs to 3, Reuters reports.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f HUGE: Jensen Huang reportedly had an intimate relationship with a second employee, bringing the alleged total number of women involved in extramarital affairs to three.\n\nNews | Markets | YouTube",
 "title": "Former Nvidia NVDA CEO Jensen Huang had an intimate relationship with a second employee, bringing his total number of affairs to 3, Reuters reports.",
@@ -3110,6 +3114,24 @@
 "url": "https://t.me/lookonchainchannel/11008",
 "urls": []
 },
+"da31a5be80f0": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"24/7 Wall St.",
+"Cointelegraph",
+"Decrypt",
+"Watcher.Guru"
+],
+"t": 1794516353.9063258,
+"t0": 1794495750.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Warren says Nvidia $NVDA still owes Congress an explanation despite CEO Jensen Huang's resignation.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f TODAY: Binance founder CZ says NVIDIA made a mistake by allowing Jensen Huang to resign as CEO.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Apple's Tim Cook should replace Jensen Huang as Nvidia $NVDA CEO.\n\n@WatcherGuru\n\ud83d\udea8 NOW: President Donald Trump said Apple CEO Tim Cook should replace Jensen Huang as Nvidia CEO following Huang\u2019s reported resignation.\nJUST IN: Jensen Huang will no longer have any role within Nvidia $NVDA going forward.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Justice Department launches investigation into Nvidia $NVDA following CEO Jensen Huang's resignation.\n\n@WatcherGuru\nJUST IN: 88% of Nvidia $NVDA employees surveyed wanted Jensen Huang to remain CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Former Nvidia $NVDA CEO Jensen Huang agrees to testify before Congress over his affair with Chinese spy.\n\n@WatcherGuru",
+"title": "NOW: President Donald Trump said Apple CEO Tim Cook should replace Jensen Huang as Nvidia CEO following Huang\u2019s reported resignation.",
+"url": "https://t.me/cointelegraph/73237",
+"urls": [
+"https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo"
+]
+},
 "db01ba485e74": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3250,7 +3272,7 @@
 "Coinpedia",
 "TradingView"
 ],
-"t": 1794515740.566201,
+"t": 1794516049.3403203,
 "t0": 1794495453.0,
 "tgtext": "",
 "title": "BTC and ETH Whale\u2019s $493 Million Long Positions Fully Liquidated, With $68.59 Million Loss",
@@ -3362,7 +3384,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794515740.566201,
+"t": 1794516049.3403203,
 "t0": 1794494679.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Warren says Nvidia $NVDA still owes Congress an explanation despite CEO Jensen Huang's resignation.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f TODAY: Binance founder CZ says NVIDIA made a mistake by allowing Jensen Huang to resign as CEO.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Apple's Tim Cook should replace Jensen Huang as Nvidia $NVDA CEO.\n\n@WatcherGuru\n\ud83d\udea8 NOW: President Donald Trump said Apple CEO Tim Cook should replace Jensen Huang as Nvidia CEO following Huang\u2019s reported resignation.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 US Justice Department launches investigation into Nvidia $NVDA following CEO Jensen Huang's resignation.\n\n@WatcherGuru\nJUST IN: 88% of Nvidia $NVDA employees surveyed wanted Jensen Huang to remain CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Former Nvidia $NVDA CEO Jensen Huang agrees to testify before Congress over his affair with Chinese spy.\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: NVIDIA executive Ian Buck leads Polymarket odds to become the company\u2019s next CEO at 34%, followed by CFO Colette Kress at 21.6%.\n\nNews | Markets | YouTube",
 "title": "NOW: President Donald Trump said Apple CEO Tim Cook should replace Jensen Huang as Nvidia CEO following Huang\u2019s reported resignation.",
@@ -3538,9 +3560,8 @@
 },
 "probs": {
 "077ba0b29f1e": 0.526,
-"0bd975701dac": 0.017,
-"0da2cfe52696": 0.034,
-"1648f15c4183": 0.006,
+"0bd975701dac": 0.009,
+"0da2cfe52696": 0.019,
 "1e9bdfde6529": 0.063,
 "28ec2b0e5645": 0.07,
 "2af96e28027b": 0.013,
@@ -3548,35 +3569,36 @@
 "2d0f07378f12": 0.226,
 "30169fb6889c": 0.054,
 "35f56932c755": 0.001,
-"431d6243ae1b": 0.04,
-"4563968524c9": 0.825,
-"48c6b54cf8ad": 0.094,
+"3673c877e522": 0.007,
+"431d6243ae1b": 0.139,
+"4563968524c9": 0.767,
 "4e696bcd0a8b": 0.027,
-"5c0c7f58d987": 0.059,
+"56ca33d9f1d2": 0.832,
 "62a3b5ca4523": 0.01,
-"62abab90ca63": 0.723,
 "644e4b5f8e27": 0.021,
 "6899da9dbd51": 0.019,
 "68b6d175f60f": 0.226,
-"6e6675c20444": 0.018,
 "759b0b577740": 0.045,
 "7a3df7544b52": 0.015,
 "7a51329e069e": 0.043,
 "80ab02c4d1f4": 0.011,
-"83126dc2c77a": 0.469,
+"83126dc2c77a": 0.187,
 "91c70b26a545": 0.071,
-"967eeaf6267e": 0.071,
 "9849b0379b99": 0.005,
 "a21dff1b9d7c": 0.014,
-"a9c4bdb57a70": 0.172,
+"a2ef0a77dedf": 0.523,
+"a9c4bdb57a70": 0.357,
+"b6c15c3ffda7": 0.026,
 "baa4dd315b22": 0.657,
-"c05c640dccd0": 0.011,
-"c2795f04d544": 0.767,
+"c2795f04d544": 0.242,
+"ce7e904392ee": 0.039,
+"d414259dae13": 0.009,
 "d65495091502": 0.075,
+"da31a5be80f0": 0.8,
+"def7babbe6f9": 0.061,
 "df2fabc93915": 0.012,
 "df73462f6820": 0.217,
-"e45165a30e8a": 0.86,
-"ee5e10569dbc": 0.373
+"ef23c597efc8": 0.039
 },
 "sent": [
 {
@@ -5010,65 +5032,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"e45165a30e8a",
-54,
-338,
-3
-],
-[
-"4563968524c9",
-90,
-178,
+"56ca33d9f1d2",
+63,
+349,
 5
 ],
 [
-"c2795f04d544",
-18,
-21,
-1
+"da31a5be80f0",
+27,
+343,
+4
 ],
 [
-"62abab90ca63",
-38,
-355,
-6
+"4563968524c9",
+89,
+188,
+5
 ],
 [
 "baa4dd315b22",
 20,
-65,
+76,
 2
 ],
 [
 "077ba0b29f1e",
-18,
-276,
+16,
+286,
 3
 ],
 [
-"83126dc2c77a",
-18,
-127,
-1
-],
-[
-"866db77736be",
-0,
-263,
-1
-],
-[
-"ee5e10569dbc",
-36,
-351,
-5
+"a2ef0a77dedf",
+29,
+341,
+4
 ],
 [
 "337f44661002",
 10,
-26,
+36,
+1
+],
+[
+"a9c4bdb57a70",
+29,
+227,
+1
+],
+[
+"2e51fa1c10b3",
+0,
+323,
+1
+],
+[
+"79bed4fe04ac",
+6,
+216,
 1
 ]
 ],
-"top_at": 1794515740.566201
+"top_at": 1794516353.9063258
 }
