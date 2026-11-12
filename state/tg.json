@@ -845,7 +845,6 @@
 },
 "kit": "2026-11-06",
 "kit_q": "US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019",
-"lc_edit": "c89749c5",
 "lcards": {
 "4af89ba6": {
 "facts": "THE STORY TO TELL: btc near a parabolic move up as past cycles\n\nWikipedia (List of near-parabolic comets):\nThe following is a list of comets with a very high eccentricity (generally 0.99 or higher) and a period of over 1,000 years that do not quite have a high enough velocity to escape the Solar System. Often, these comets, due to their extreme semi-major axes and eccentricity, will have small orbital interactions with planets and minor planets, most often ending up with the comets fluctuating significantly in their orbital path. Some of these comets with orbital periods of millions of years come from the Oort cloud, a cloud of comets orbiting the Sun from ~10,000 to roughly 50,000 AU. The actual orbit of these comets significantly differs from the provided coordinates. A Solar System barycentric orbit computed at an epoch when the object is located beyond all the planets is a more accurate measurement of its long-term orbit.\n\nReal headlines about this story (oldest first):\n- Jul 25, 2025: Does Bitcoin Have Less Than 100 Days Left In This Cycle? (Bitcoin Magazine)\n- Sep 17, 2025: The Bitcoin Halving Cycle Predicts A 2026 Crash: Why Lower Rates Won't Help (BTC-USD) (Seeking Alpha)\n- Dec 11, 2025: Bitcoin\u2019s Four Year Cycles: Why They Happen And Are They Dead? (Arkham | Research)\n- Feb 13, 2026: How Long Until Bitcoin Recovers from Its 50% Crash? The Last 3 Major Drops Offer Clues (24/7 Wall St.)\n- Mar 04, 2026: Bitcoin vs Gold: Positioning for the Next Relative Cycle (Delphi Digital)\n- Apr 01, 2026: Bitcoin\u2019s (BTC) parabolic era may be over as old peaks are tested (CoinDesk)\n- Apr 17, 2026: The Most Famous Silver Bug Alive Just Sold His Silver. You Should Know Why. (24/7 Wall St.)\n- May 17, 2026: Long-Term Trend Analysis of Bitcoin (CYCLE BASE) for CRYPTO:BTCUSD by Cryptollica (TradingView)\n- Jun 10, 2026: Bitcoin Price Will Fall to $44,488: Here\u2019s Why Experts Are Convinced (CCN.com)\n- Jun 15, 2026: Why Bitcoin\u2019s Price Moves in Cycles (ForkLog)\n- Jul 04, 2026: Bitcoin\u2019s next parabolic run is coming. But there's a $1 trillion catch (CoinDesk)\n- Sep 23, 2026: Bitcoin Bull Cycle Could Deliver 3\u20135x as CryptoQuant CEO Sees Market Maturing (Bitcoin Foundation)",
@@ -941,53 +940,55 @@
 "item": null,
 "spec": {
 "chart": {
-"from": "Jun 15",
-"label": "Jul 04: parabolic run catch",
+"from": "Sep 04",
+"label": "Sep 23: bull cycle data",
 "mark": 19,
 "title": "BTC price (Binance, daily) \u00b7 real chart",
-"to": "Jul 24"
+"to": "Oct 13"
 },
-"chart_label": "Jul 04: parabolic run catch",
+"chart_label": "Sep 23: bull cycle data",
 "coin": "BTC",
-"event_date": "2026-07-04",
-"lesson": "Bitcoin continues to follow long term cycles despite changing market conditions and expert warnings.",
-"post_text": "Bitcoin faces a 1 trillion dollar catch as the next parabolic run approaches. Can past cycles predict the future?",
-"question": "Will the next Bitcoin parabolic run happen?",
+"event_date": "2026-09-23",
+"lesson": "Bitcoin maintains its long-term cycle structure despite temporary price drops and shifting expert sentiment.",
+"post_text": "Bitcoin bull cycle could deliver 3\u20135x gains as the market matures. Despite expert warnings of a crash to $44,488, the four-year cycle remains the dominant force. Is the next parabolic move finally starting?",
+"question": "Do you believe the 3-5x bull cycle is coming?",
 "stats": [
 {
-"color": "red",
-"label": "market catch",
-"value": "$1 Trillion"
-},
-{
 "color": "green",
-"label": "bull cycle",
+"label": "potential bull cycle",
 "value": "3 to 5x"
 },
 {
+"color": "red",
+"label": "expert price target",
+"value": "$44,488"
+},
+{
 "color": "gold",
-"label": "halving cycles",
+"label": "halving cycle length",
 "value": "4 Years"
 }
 ],
 "story": [
-"Bitcoin price moves in clear four year cycles based on the halving event.",
-"Experts have debated if these famous cycles and parabolic eras are finally dead.",
-"!Some analysts warned that Bitcoin might crash after previous peaks were tested.",
-"Others pointed out that lower interest rates might not stop a market drop.",
-"!The CryptoQuant CEO stated the market is maturing and still sees a major bull run."
+"Bitcoin continues to move in predictable four-year cycles tied to the halving event.",
+"Experts have long debated if these famous parabolic eras are finally dead.",
+"!Some analysts warned earlier this year that Bitcoin might crash after testing old price peaks.",
+"Others argued that lower interest rates would not stop a market drop to $44,488.",
+"!The CryptoQuant CEO now states the market is maturing and still sees a major bull run.",
+"This new phase could deliver 3 to 5x gains for long-term holders.",
+"The cycle remains the primary focus for institutional and retail investors alike."
 ],
-"tag": "July 2026 \u00b7 CoinDesk \u00b7 Market Analysis",
-"title": "Bitcoin Next Parabolic Run Has 1 Trillion Catch"
+"tag": "September 2026 \u00b7 Bitcoin Foundation \u00b7 Market Analysis",
+"title": "Bitcoin 3 to 5x Bull Cycle Seen Maturing"
 },
-"t": 1794174003.2189221,
+"t": 1794503249.8120465,
 "topic": "btc near a parabolic move up as past cycles"
 }
 },
 "menu": {},
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489420,
+"offset": 138489422,
 "otd": {
 "date": "Oct 21",
 "now": 83421,
@@ -1380,6 +1381,20 @@
 ],
 "t": 1793203390.2159445,
 "text": "Bitcoin never failed to CRASH after the US midterm elections.\n\nWill this time be different?"
+},
+"2120921979226329504": {
+"author": "binance",
+"post": {
+"likes": 193,
+"ts": 1794502179
+},
+"t": 1794503292.9057662,
+"text": "Binance has completed coverage of assets impacted in the security incident and we have published a new Proof of Reserves snapshot. Once the zero-knowledge proof is generated, users can independently verify that their assets are backed at a minimum of 1:1 - https://www.binance.com/en/proof-of-reserves.\n\nTo our users and community: thank you for your patience and understanding.",
+"used": [
+"light_humor",
+"observation",
+"question"
+]
 }
 },
 "sh_analyze": "2026-10-28",
