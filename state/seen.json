@@ -4,11 +4,6 @@
 },
 "init": true,
 "log": [
-1794397224.604886,
-1794398141.7138736,
-1794398449.3516173,
-1794399980.1217294,
-1794401210.7682185,
 1794403638.4887915,
 1794406601.483455,
 1794406677.56485,
@@ -17,7 +12,8 @@
 1794470121.509859,
 1794470424.8932626,
 1794474390.6717484,
-1794481106.790575
+1794481106.790575,
+1794489260.123074
 ],
 "menu": {
 "013c78dfd737": {
@@ -323,7 +319,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794483427.0,
 "tgtext": "Whale 0xc8b5 has finally given up, closing his long on 190,952 $NVDA ($30.67M) at a $2.45M loss.\nhttps://x.com/lookonchain/status/2120691030047826079",
 "title": "Whale 0xc8b5 has finally given up, closing his long on 190,952 NVDA ($30.67M) at a $2.45M loss.",
@@ -527,7 +523,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794474053.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: The market sees a 100% chance of a Fed rate hike in December.\n\nCME FedWatch puts the odds at 90.8% for a 25 bps hike and 9.2% for a 50 bps hike.\n\nNews | Markets | YouTube",
 "title": "NOW: The market sees a 100% chance of a Fed rate hike in December.",
@@ -834,7 +830,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794480126.0,
 "tgtext": "",
 "title": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
@@ -1137,7 +1133,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794477667.0,
 "tgtext": "TSMC Confirms Hacker Obtained Employee Data and Demanded 3 BTC, Says Internal Systems Uncompromised\n\nAccording to Jiemian News, Taiwan Semiconductor Manufacturing Company (TSMC) responded on November 12 to reports of a hacker attempting to sell an alleged 6.9GB database containing 46,000 TSMC employee records on an underground forum for 3 BTC; TSMC confirmed that personal data belonging to certain current and former employees was exposed without authorization, noting that preliminary investigations link the leaked records to a third-party cloud service provider's system rather than an intrusion into TSMC's own internal IT infrastructure. The chipmaker emphasized that production operations and customer data remain completely unaffected, adding that it is notifying impacted staff and working closely with the cloud vendor, law enforcement, and external cybersecurity firms to investigate the breach. \u2014 link\n\ud83c\uddf9\ud83c\uddfc LATEST: Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.\n\nTSMC found no evidence of an internal breach.\n\nNews | Markets | YouTube",
 "title": "Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.",
@@ -1271,7 +1267,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794476906.0,
 "tgtext": "A week ago, Chun (@satofishi) sold 6,200 $wstETH ($18.5M) when $ETH was trading at $2,400.\n\nOver the past 2 days, he has bought back 5,246 $ETH ($10.78M) at an average price of $2,054.\nhttps://x.com/lookonchain/status/2118173313466003905",
 "title": "A week ago, Chun (@satofishi) sold 6,200 wstETH ($18.5M) when ETH was trading at $2,400.",
@@ -2456,21 +2452,17 @@
 "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMU81YzAyT0wxSHpUUFQzbXpzRmhqZE5lM0RWUUFRbHV4dHBvbTFjNmRfM1lxUTl6dEFYZ2llM1Njc2k0enRUWEE0amE3cXBTaUg0Z1p4VjNaaU54ZFVrR2JsejNjeTk3aW5zZzJ5dDV2MjVHSUpFVWZvZWVENl9ENHpSLXRwWU9CZkRsUUVsdThIMG1XeUdmVlJlMXNadzhJeWkyanV4ZDhYb2RsTXBwRW0zaUNZX3VDU1F6S01HaEExZw?oc=5",
 "urls": []
 },
-"bc1957c82cd4": {
+"bb7f951dbdf7": {
 "coin": "",
-"src": "Cyber Press",
+"src": "TOKENPOST",
 "srcs": [
-"ANI News",
-"CryptoPotato",
-"Cyber Press",
-"Lokmat Times",
-"Watcher.Guru"
+"TOKENPOST"
 ],
-"t": 1794316046.6708245,
-"t0": 1794294641.0,
-"tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korea is launching 'Elon Musk' crypto memecoins to launder $6.3 billion stolen from Binance.\n\n@WatcherGuru",
-"title": "North Korea Creates Disposable Crypto Tokens to Make Binance Hack Funds Look Like Trading Profits",
-"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WYWt0ZkUtZTJTY2pxUk94ZFdkWEdrYzRIRFd3YnZzbU5tekp2ZVVmWEV3UVRyalVGZk5Dd0F2VnFHcEtXNEtwcHFPaXczMU9CekwzOTlYNm1BSWtEcXM2UUtSNEZFcTZr0gFoQVVfeXFMT1Zha3RmRS1lMlNjanFST3hkV2RYR2tjNEhEV3didnNtTm16SnZlVWZYRXdRVHJqVUZmTkN3QXZWcUdwS1c0S3BwcU9pdzMxT0J6TDM5OVg2bUFJa0RxczZRS1I0RkVxNms?oc=5",
+"t": 1794489260.123074,
+"t0": 1794476488.0,
+"tgtext": "",
+"title": "Crypto Liquidations Reach $31.58 Million in One Hour, With 95% From Longs",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aLXljdGFyNW5UOHYwTVZBVnhsM0FhbmNlWnpBTFRNaWFybS1hWnlpeld5dW1jQjJBN1BVcEVNeUpIWWhsdjluRkpVT25rZmZXbXdKZW5oNHFzdw?oc=5",
 "urls": []
 },
 "bc223a512c96": {
@@ -2656,9 +2648,10 @@
 "src": "Pluang",
 "srcs": [
 "Coinpaper",
+"CryptoPotato",
 "Pluang"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794483701.0,
 "tgtext": "",
 "title": "Bitcoin futures open interest stays above $50B, risking more liquidations if price drops below $72K",
@@ -2750,7 +2743,7 @@
 "Traders Union",
 "ad-hoc-news.de"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794470157.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: ETH Faces $2K Test as ETF Outflows Jump From $1M to $145M",
@@ -2833,7 +2826,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794486342.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf2\ud83c\uddfd President Trump threatens to immediately double tariffs on Mexico if it does not stop migrant \"caravans.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf2\ud83c\uddfd President Trump threatens to immediately double tariffs on Mexico if it does not stop migrant \"caravans.\"",
@@ -2938,7 +2931,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794488478.1950736,
+"t": 1794489260.123074,
 "t0": 1794487548.0,
 "tgtext": "\ud83d\udea8 TODAY: Strategy $MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.\n\nNews | Markets | YouTube",
 "title": "TODAY: Strategy MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.",
@@ -3406,22 +3399,23 @@
 "0158fa1735c0": 0.058,
 "0eaa1b13987b": 0.168,
 "1299778bb6d5": 0.047,
+"15727d8fa0f2": 0.165,
 "178b650b0d72": 0.882,
+"1a2a0a07c770": 0.157,
 "1a7dc31397fa": 0.248,
-"27d0f319b06f": 0.595,
 "2f15c262d790": 0.12,
 "3564c7704c2c": 0.444,
 "3bbaae2788a7": 0.188,
 "3fa83fd0fb7b": 0.467,
 "42e1bcde09fa": 0.377,
-"48cfbf2db621": 0.383,
+"4817968977ac": 0.135,
 "49890edb2725": 0.136,
 "5250e837096d": 0.093,
 "5589bff00047": 0.971,
 "5621912db99a": 0.178,
 "675ef8220a30": 0.44,
 "6884d1097ea4": 0.17,
-"6ed4234e7194": 0.181,
+"6ed4234e7194": 0.106,
 "6f84bb7051a8": 0.176,
 "83332b6bbca2": 0.256,
 "91c70b26a545": 0.26,
@@ -3430,13 +3424,12 @@
 "a06c82235e18": 0.238,
 "a521bde8992b": 0.264,
 "aad5b868acc6": 0.042,
-"b4dd09b349a5": 0.182,
 "b6d03a3351dc": 0.049,
-"ba3211660818": 0.026,
+"ba3211660818": 0.067,
+"bb7f951dbdf7": 0.454,
 "be769b3b5c89": 0.081,
 "bee5175010f3": 0.365,
-"c118c529b799": 0.537,
-"c74ee17a6c1c": 0.051,
+"c118c529b799": 0.846,
 "c8600ef09648": 0.494,
 "cdb6c0d313bc": 0.109,
 "d148f47d3e09": 0.715,
@@ -3445,88 +3438,6 @@
 "eeaa9f984f6a": 0.084
 },
 "sent": [
-{
-"e": [
-"coinbase",
-"kalshi",
-"kraken"
-],
-"k": [],
-"t": 1794313245.16398,
-"u": [
-"https://www.coindesk.com/policy/2026/11/10/coinbase-kalshi-kraken-parent-back-cftc-in-legal-fight-over-stock-perpetual-futures",
-"https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-],
-"w": [
-"back",
-"cftc",
-"coinbase",
-"fight",
-"futures",
-"kalshi",
-"kraken",
-"legal",
-"parent",
-"perpetual",
-"stock"
-]
-},
-{
-"e": [
-"blackrock",
-"coinbaseprime"
-],
-"k": [],
-"t": 1794314496.4483953,
-"u": [
-"https://t.me/lookonchainchannel/10993"
-],
-"w": [
-"$151",
-"212",
-"ago",
-"another",
-"blackrock",
-"coinbaseprime",
-"deposited",
-"eth",
-"hour",
-"just"
-]
-},
-{
-"e": [
-"cpi",
-"fed",
-"live"
-],
-"k": [],
-"t": 1794314496.4483953,
-"u": [
-"https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXVkOWQtaDVKZGFMRFlaREI4OE5zU3F0dnpDUTdTcUFuLUo4WjVWbzdqRlJqWFZLU1JpZ2dGTUFEQjBzaVc5OUJaNnFXdm9hcDFUTFR0M2FUb0dBYkt3QndPVHBxUzhEMUNhdFY1SzNNWjFwa2JKUWNTSlFpMDZHNGlLSDB2dHJMSmJ3dDlCbnBCWm1rTVhnYUdIaGg3bG9GZW9NTzd2UkljZmtNWmNlT2k5MXJnbVVQSHpMWEFfd0tJMVdsRXZkRmNZOGx0RURF?oc=5",
-"https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
-"https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
-"https://news.google.com/rss/articles/CBMipwFBVV95cUxPRVRrcjlUWG1DZ2w4TjRGcG54dGVvS3NBWkRzZTVhMVdtWGh4X1dxWWpCamFFV0FhZE9vWkNpVmgxRjBJdlljWEVQdGtEaEp3cl9YTnZDbzM3YnZZajBweE40WUFSTWpHSUszdUpCSDRlSGJsTjUySF8zSThJRExrZVhINXZoNnZRR25PT1hmMEJsRjVpZy1EN3J5ZGcyWFpWVnJSbVl5TQ?oc=5"
-],
-"w": [
-"$74",
-"000",
-"ahead",
-"back",
-"bitcoin",
-"cpi",
-"falls",
-"fed",
-"fully",
-"hike",
-"live",
-"news",
-"price",
-"rate",
-"traders"
-]
-},
 {
 "e": [],
 "k": [
@@ -4937,6 +4848,33 @@
 "nvda",
 "whale"
 ]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1794489260.123074,
+"u": [
+"https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGRJeXRLMTlNWWZPOXNHX3BIV25jS3VPQjNMcVVUS0JoWEkxbzMtRGlpdjN3N3ZTTlNhZHBtYVBSdWhOeTJfSjFqdDlqcTRTMnQ3Z0NmRkg1WEZFdGRlc0J4STlpTHBuNFh6MDdMbjJ2Tk02VHc1akpGdU96TzQxYVZwUmoxS0M2aXo3TThTd25lOFdZU3laREM0OWZPNDlmUnJVelNTMEpiaUVVUnc?oc=5",
+"https://news.google.com/rss/articles/CBMirwFBVV95cUxNa1VROUVCb3JvQy0tVzVMdFpTYXIwLU1zV1hmR2JXNjF4bVZiVUlwYlI3MW5LZjUtZlRaMFVRV0Z4YmgtbEtUSHhYRTBLdjdhVXY2SVRMXzN1TzNzMTNkakluQzVlaUdjelBJaURXSkxFUERkX2VsZnVXWVMwNHdlcXBaOVhUdUFReTlNWURfbllTcFFMYVM4RVYwSS04RVlUZGlSak92d0d6c1RnbFZF?oc=5",
+"https://news.google.com/rss/articles/CBMiigFBVV95cUxQUnNaS1EzOGZ3Q0VjMUNzemxUUnlTekVlRFByNW5TMUprMzZWeHFFQ0szS1lNWlFEb0xMMU5RUm9CWDJPRzI1T041T0plZk56NVdfdG1EaGZLcVlUVVNHb1NTc0dxeGRLa3duLW9hWDhZUXpDdnhHcWN1WElzc2VXOU9GUUp6WGo0dXc?oc=5"
+],
+"w": [
+"$50b",
+"$72k",
+"above",
+"below",
+"bitcoin",
+"drops",
+"futures",
+"interest",
+"liquidations",
+"open",
+"price",
+"risking",
+"stays"
+]
 }
 ],
 "stories": {},
@@ -4944,64 +4882,64 @@
 "top": [
 [
 "5589bff00047",
-61,
-180,
+60,
+193,
 3
 ],
 [
 "178b650b0d72",
 24,
-84,
+97,
 1
+],
+[
+"c118c529b799",
+70,
+93,
+3
 ],
 [
 "d7c9067d8315",
 10,
-16,
+29,
 1
 ],
 [
 "d148f47d3e09",
 18,
-36,
+49,
 1
 ],
 [
 "639fda803072",
-15,
-193,
+13,
+206,
 1
 ],
 [
 "27d0f319b06f",
-16,
-240,
+15,
+253,
 1
 ],
 [
-"87777911d090",
-0,
-352,
-2
-],
-[
-"c118c529b799",
-50,
-80,
-2
-],
-[
 "c8600ef09648",
-44,
-305,
+42,
+318,
 3
 ],
 [
 "3fa83fd0fb7b",
 20,
-139,
+152,
+1
+],
+[
+"bb7f951dbdf7",
+27,
+213,
 1
 ]
 ],
-"top_at": 1794488478.1950736
+"top_at": 1794489260.123074
 }
