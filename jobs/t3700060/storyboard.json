@@ -1,14 +1,13 @@
 {
- "title": "Nvidia CEO Jensen Huang Just Resigned. Here’s What Happened 🚨",
+ "title": "Nvidia CEO Jensen Huang Just Resigned. Here\u2019s What Happened \ud83d\udea8",
  "tone": "serious",
  "theme": "crimson",
  "chart": {},
  "lesson": "",
  "description": "Nov 12, 2026: Jensen Huang resigned as Nvidia's CEO and left the board, effective immediately, after 33 years. Nvidia's filing gave no reason.\nThis week, reports said he had an affair with a woman now accused of spying for China, and The New York Times reported a second affair with an Nvidia executive.\nIn a memo to staff, Huang wrote: \"I was unfaithful to my wife... There is no excuse for what I did. I am deeply sorry.\"\nNvidia stock fell as much as 13%. CFO Colette Kress is interim CEO.\n\nAllegations are as reported by the outlets named; nothing here is a finding of wrongdoing.\n\nNot financial advice.",
  "hashtags": "#nvidia #jensenhuang #stocks #ai #breakingnews #shorts",
- "pinned": "Can Nvidia stay on top without its founder? 👇",
+ "pinned": "Can Nvidia stay on top without its founder? \ud83d\udc47",
  "respell": {
-  "Kress": "Kress",
   "CFO": "C F O",
   "CEO": "C E O"
  },
@@ -21,7 +20,7 @@
    "visual": {
     "type": "slam",
     "text": "HUANG QUITS",
-    "sub": "NVIDIA · NOV 12, 2026"
+    "sub": "NVIDIA \u00b7 NOV 12, 2026"
    },
    "beats": [],
    "shots": [],
@@ -30,12 +29,11 @@
   },
   {
    "role": "hook",
-   "emotion": "serious",
    "line": "Jensen Huang resigned as CEO and left the board. No reason given.",
    "hit": "reason",
    "visual": {
     "type": "doc",
-    "head": "FORM 8-K · NVIDIA CORP",
+    "head": "FORM 8-K \u00b7 NVIDIA CORP",
     "title": "CEO TRANSITION",
     "lines": [
      "Jensen Huang resigned as President,",
@@ -53,7 +51,7 @@
    "role": "setup",
    "emotion": "calm",
    "line": "He co-founded Nvidia in 1993, at a Denny's.",
-   "hit": "denny",
+   "hit": "1993",
    "visual": {
     "type": "title",
     "text": "1993",
@@ -66,7 +64,6 @@
   },
   {
    "role": "setup",
-   "emotion": "excited",
    "line": "Last year, it became the first company worth five trillion dollars.",
    "hit": "trillion",
    "visual": {
@@ -74,7 +71,7 @@
     "value": 5,
     "prefix": "$",
     "suffix": "T",
-    "label": "FIRST EVER · OCT 2025"
+    "label": "FIRST EVER \u00b7 OCT 2025"
    },
    "beats": [],
    "shots": [],
@@ -83,7 +80,6 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
    "line": "Reports said he had an affair. The woman is now accused of spying for China.",
    "hit": "spying",
    "visual": {
@@ -115,7 +111,6 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
    "line": "Then The New York Times reported a second affair, with an Nvidia executive.",
    "hit": "second",
    "visual": {
@@ -130,7 +125,6 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
    "line": "Nvidia's board met into the evening to decide his fate.",
    "hit": "fate",
    "visual": {
@@ -171,13 +165,11 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
    "line": "In a memo, he wrote: I was unfaithful to my wife. I am deeply sorry.",
    "hit": "sorry",
    "visual": {
     "type": "quote",
     "name": "Jensen Huang",
-    "handle": "memo to Nvidia staff",
     "text": "I was unfaithful to my wife. There is no excuse for what I did. I am deeply sorry."
    },
    "beats": [],
@@ -193,9 +185,9 @@
    "visual": {
     "type": "counter",
     "value": 13,
-    "prefix": "−",
+    "prefix": "\u2212",
     "suffix": "%",
-    "label": "NVDA · NOV 12 · INTRADAY LOW"
+    "label": "NVDA \u00b7 NOV 12 \u00b7 INTRADAY LOW"
    },
    "beats": [],
    "shots": [],
@@ -212,7 +204,7 @@
     "value": 440,
     "prefix": "$",
     "suffix": "B",
-    "label": "VALUE WIPED OUT · ESTIMATE"
+    "label": "VALUE WIPED OUT \u00b7 ESTIMATE"
    },
    "beats": [],
    "shots": [],
@@ -264,5 +256,9 @@
   "captions": "key",
   "music": "off",
   "whoosh": "off"
- }
+ },
+ "est_secs": 64,
+ "words": 150,
+ "target_words": 140,
+ "length_ok": true
 }

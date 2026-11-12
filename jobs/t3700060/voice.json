@@ -1,0 +1,118 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.3,
+ "seed": 7,
+ "scenes": [
+  [
+   "The man who built Nvidia just quit. Effective immediately.",
+   0.9,
+   0.36
+  ],
+  [
+   "Jensen Huang resigned as C E O and left the board. No reason given.",
+   0.9,
+   0.22
+  ],
+  [
+   "He co-founded Nvidia in nineteen ninety-three, at a Denny's.",
+   0.64,
+   0.22
+  ],
+  [
+   "Last year, it became the first company worth five trillion dollars.",
+   0.64,
+   0.22
+  ],
+  [
+   "Reports said he had an affair. The woman is now accused of spying for China.",
+   0.72,
+   0.22
+  ],
+  [
+   "The Information linked her to firms that helped ship chips to China.",
+   0.84,
+   0.36
+  ],
+  [
+   "Then The New York Times reported a second affair, with an Nvidia executive.",
+   0.72,
+   0.22
+  ],
+  [
+   "Nvidia's board met into the evening to decide his fate.",
+   0.72,
+   0.22
+  ],
+  [
+   "This morning, he was out.",
+   0.84,
+   0.36
+  ],
+  [
+   "In a memo, he wrote: I was unfaithful to my wife. I am deeply sorry.",
+   0.72,
+   0.22
+  ],
+  [
+   "Nvidia stock fell as much as thirteen percent.",
+   0.86,
+   0.36
+  ],
+  [
+   "Yahoo Finance estimated about four hundred forty billion dollars wiped out.",
+   0.86,
+   0.36
+  ],
+  [
+   "C F O Colette Kress is now interim C E O.",
+   0.72,
+   0.22
+  ],
+  [
+   "Nvidia without its founder. Still on top?",
+   0.6,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.6,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "The man who built Nvidia just quit. Effective immediately.",
+  "Jensen Huang resigned as C E O and left the board. No reason given.",
+  "He co-founded Nvidia in nineteen ninety-three, at a Denny's.",
+  "Last year, it became the first company worth five trillion dollars.",
+  "Reports said he had an affair. The woman is now accused of spying for China.",
+  "The Information linked her to firms that helped ship chips to China.",
+  "Then The New York Times reported a second affair, with an Nvidia executive.",
+  "Nvidia's board met into the evening to decide his fate.",
+  "This morning, he was out.",
+  "In a memo, he wrote: I was unfaithful to my wife. I am deeply sorry.",
+  "Nvidia stock fell as much as thirteen percent.",
+  "Yahoo Finance estimated about four hundred forty billion dollars wiped out.",
+  "C F O Colette Kress is now interim C E O.",
+  "Nvidia without its founder. Still on top?",
+  "Subscribe for more stories."
+ ]
+}

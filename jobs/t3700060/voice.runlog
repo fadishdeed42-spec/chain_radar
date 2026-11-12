@@ -1,0 +1,122 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 31.8M/1.18G [00:00<00:03, 330MB/s]  6%|▌         | 72.1M/1.18G [00:00<00:03, 384MB/s] 10%|▉         | 117M/1.18G [00:00<00:02, 424MB/s]  13%|█▎        | 161M/1.18G [00:00<00:02, 438MB/s] 17%|█▋        | 204M/1.18G [00:00<00:02, 441MB/s] 20%|██        | 247M/1.18G [00:00<00:03, 313MB/s] 25%|██▌       | 301M/1.18G [00:00<00:02, 379MB/s] 29%|██▉       | 355M/1.18G [00:00<00:02, 428MB/s] 34%|███▎      | 405M/1.18G [00:01<00:01, 455MB/s] 38%|███▊      | 458M/1.18G [00:01<00:01, 484MB/s] 42%|████▏     | 507M/1.18G [00:01<00:01, 456MB/s] 46%|████▋     | 559M/1.18G [00:01<00:01, 482MB/s] 50%|█████     | 607M/1.18G [00:01<00:01, 463MB/s] 55%|█████▍    | 657M/1.18G [00:01<00:01, 480MB/s] 58%|█████▊    | 704M/1.18G [00:01<00:01, 476MB/s] 63%|██████▎   | 756M/1.18G [00:01<00:00, 494MB/s] 67%|██████▋   | 803M/1.18G [00:01<00:00, 493MB/s] 71%|███████   | 851M/1.18G [00:01<00:00, 495MB/s] 75%|███████▍  | 898M/1.18G [00:02<00:00, 491MB/s] 79%|███████▊  | 947M/1.18G [00:02<00:00, 497MB/s] 83%|████████▎ | 995M/1.18G [00:02<00:00, 495MB/s] 87%|████████▋ | 1.02G/1.18G [00:02<00:00, 500MB/s] 91%|█████████ | 1.07G/1.18G [00:02<00:00, 492MB/s] 95%|█████████▍| 1.11G/1.18G [00:02<00:00, 482MB/s] 99%|█████████▉| 1.17G/1.18G [00:02<00:00, 514MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 465MB/s]
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+json 54661ff07d09
+   take 1: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['effective']  heard: The man who built Nvidia just quit, effective immediately.
+   take 2: score -1.13  wer 0.00  end +0.0st  2.1w/s  rushed ['Effective']  heard: The man who built Nvidia just quit.  Effective immediately.
+   take 3: score -1.60  wer 0.06  end +0.0st  1.9w/s  rushed ['Effective']  heard: Man who built Nvidia just quit.  Effective immediately.
+   take 4: score -1.78  wer 0.00  end +0.0st  2.9w/s  rushed ['Nvidia', 'effective']  heard: The man who built Nvidia just quit, effective immediately.
+scene 1: 4.15s ex 0.9  chosen wer 0.00
+   take 1: score -2.34  wer 0.00  end +0.0st  3.5w/s  rushed ['reason']  heard: Jensen Huang resigned as CEO and left the board. No reason given.  //
+   take 2: score -2.40  wer 0.14  end +0.0st  3.2w/s  rushed ['resigned']  heard: Jensen Hwang resigned to CEO and left the board. No reason given.
+   take 3: score -1.46  wer 0.00  end +0.0st  3.1w/s  rushed ['reason']  heard: Jensen Huang resigned as CEO and left the board. No reason given.
+   take 4: score -1.82  wer 0.07  end +0.0st  3.1w/s  rushed ['Jensen']  heard: Jensen Huang resigned as CEO and let the board no reason given.
+scene 2: 4.47s ex 0.9  chosen wer 0.00
+   take 1: score -1.23  wer 0.18  end +0.0st  2.4w/s  heard: He co-founded NVIDIA in 1993 at Adeniz.
+   take 2: score -1.11  wer 0.18  end +0.0st  2.6w/s  heard: He co-founded Nvidia in 1993 at Adenys.
+   take 3: score -1.90  wer 0.18  end +0.0st  2.6w/s  rushed ['-founded']  heard: He co-founded Nvidia in 1993 at Adenys.
+   take 4: score -1.96  wer 0.18  end +0.0st  2.7w/s  rushed ['-founded']  heard: He co-founded Nvidia in 1993 at Adenys.
+   phonetic variant: He co-founded Nvidia in nineteen ninety-three, at a Den-eez.
+   take P1: score -1.00  wer 0.17  2.6w/s  heard: He co-founded Nvidia in 1993 at a Den Ease.
+   take P2: score -0.03  wer 0.00  2.5w/s  heard: He co-founded Nvidia in 1993 at a Denny's.
+scene 3: 3.54s ex 0.64  chosen wer 0.00
+   take 1: score -1.11  wer 0.00  end +0.0st  3.0w/s  rushed ['became']  heard: Last year, it became the first company worth $5 trillion.
+   take 2: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['became']  heard: Last year, it became the first company worth $5 trillion.
+   take 3: score -1.25  wer 0.00  end +0.0st  3.0w/s  rushed ['became']  heard: Last year, it became the first company worth $5 trillion.
+   take 4: score -0.83  wer 0.00  end +0.0st  2.7w/s  rushed ['became']  heard: Last year, it became the first company worth $5 trillion.
+scene 4: 4.26s ex 0.64  chosen wer 0.00
+   take 1: score -1.11  wer 0.00  end +0.0st  3.3w/s  heard: Reports said he had an affair. The woman is now accused of spying for 
+   take 2: score -0.30  wer 0.00  end +0.0st  3.0w/s  heard: Reports said he had an affair. The woman is now accused of spying for 
+   take 3: score -1.02  wer 0.00  end +0.0st  3.3w/s  heard: Reports said he had an affair. The woman is now accused of spying for 
+scene 5: 5.07s ex 0.72  chosen wer 0.00
+   take 1: score -4.02  wer 0.22  end +0.0st  3.3w/s  rushed ['information', 'helped']  heard: The information linked to the firms that helped shipchips to China.
+   take 2: score -3.49  wer 0.00  end +0.0st  3.7w/s  rushed ['information', 'helped']  heard: The information linked her to firms that helped ship chips to China.
+   take 3: score -2.73  wer 0.00  end +0.0st  3.4w/s  rushed ['information', 'helped']  heard: The information linked her to firms that helped ship chips to China.
+   take 4: score -3.59  wer 0.08  end +0.0st  3.5w/s  rushed ['information', 'helped']  heard: The information linked to the firms that helped ship chips to China.
+scene 6: 3.58s ex 0.84  chosen wer 0.00
+   take 1: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['reported']  heard: Then, The New York Times reported a second affair with an NVIDIA execu
+   take 2: score -0.59  wer 0.00  end +0.0st  3.1w/s  heard: Then, The New York Times reported a second affair with an NVIDIA execu
+   take 3: score -0.65  wer 0.00  end +6.4st  2.8w/s  heard: Then, The New York Times reported a second affair with an NVIDIA execu
+scene 7: 4.20s ex 0.72  chosen wer 0.00
+   take 1: score -0.98  wer 0.00  end +0.0st  2.9w/s  rushed ['evening']  heard: NVIDIA's board met into the evening to decide his fate.
+   take 2: score -2.26  wer 0.13  end +0.0st  3.1w/s  rushed ['evening']  heard: NVIDIA's board met into the evening to the side his fate.
+   take 3: score -0.89  wer 0.13  end +0.0st  2.4w/s  heard: NVIDIA's board met into the evening to the side his fate.
+   take 4: score -0.25  wer 0.00  end +0.0st  2.9w/s  heard: NVIDIA's board met into the evening to decide his fate.
+scene 8: 3.41s ex 0.72  chosen wer 0.00
+   take 1: score -1.17  wer 0.00  end +0.0st  3.0w/s  rushed ['morning,']  heard: This morning, he was out.
+   take 2: score -0.58  wer 0.00  end +0.0st  3.1w/s  heard: This morning, he was out.
+   take 3: score -0.18  wer 0.00  end +0.0st  2.9w/s  heard: This morning he was out.
+scene 9: 1.72s ex 0.84  chosen wer 0.00
+   take 1: score -1.11  wer 0.00  end +0.0st  3.3w/s  heard: In a memo he wrote, I was unfaithful to my wife. I am deeply sorry.  /
+   take 2: score -0.87  wer 0.00  end +0.0st  3.2w/s  heard: In a memo, he wrote, I was unfaithful to my wife. I am deeply sorry.
+   take 3: score -0.60  wer 0.00  end +0.0st  3.1w/s  heard: In a memo, he wrote, I was unfaithful to my wife. I am deeply sorry.
+scene 10: 4.84s ex 0.72  chosen wer 0.00
+   take 1: score -0.00  wer 0.00  end +0.0st  2.6w/s  heard: Nvidia stock fell as much as 13%.
+   take 2: score -0.11  wer 0.00  end +0.0st  2.4w/s  heard: Nvidia stock fell as much as 13%.
+   take 3: score -0.02  wer 0.00  end +0.0st  2.6w/s  heard: Nvidia stock fell as much as 13%.
+scene 11: 3.07s ex 0.86  chosen wer 0.00
+   take 1: score -0.23  wer 0.00  end +0.0st  2.2w/s  heard: Yahoo Finance estimated about $440 billion wiped out.
+   take 2: score -0.25  wer 0.00  end +0.0st  2.2w/s  heard: Yahoo Finance estimated about $440 billion wiped out.
+   take 3: score -0.05  wer 0.00  end +0.0st  2.5w/s  heard: Yahoo Finance estimated about $440 billion wiped out.
+scene 12: 4.37s ex 0.86  chosen wer 0.00
+   take 1: score -2.07  wer 0.18  end +0.0st  3.3w/s  heard: CFO Collette Cress is now interim, CEO.
+   take 2: score -2.29  wer 0.14  end +0.0st  3.5w/s  heard: CFO Kalekras is now interim, CEO.
+   take 3: score -1.98  wer 0.18  end +0.0st  3.2w/s  heard: CFO Collette Cress is now interim. CEO.
+   take 4: score -2.17  wer 0.14  end +0.0st  3.4w/s  heard: CFO Calacres is now interim CEO.
+   phonetic variant: C F O ko-LET KRES is now interim C E O.
+   take P1: score -1.86  wer 0.31  2.6w/s  heard: CFO Co. Let KRES is now interim, CEO.
+   take P2: score -1.91  wer 0.31  2.5w/s  heard: CFO Co. Let KRES is now interim CEO.
+   take P3: score -1.97  wer 0.31  2.4w/s  heard: CFO Co. Let KRES is now interim, CEO.
+   take R1: wer 0.18  heard: CFO Collette Cress is now interim, CEO.
+   take R2: wer 0.18  heard: CFO Collette Cress is now interim, CEO.
+   take R3: wer 0.14  heard: CFO Kalekras is now interim CEO.
+   take R4: wer 0.18  heard: CFO Collette Cress is now interim CEO.
+scene 13: 3.20s ex 0.72  chosen wer 0.14
+   take 1: score -0.91  wer 0.00  end +0.0st  2.5w/s  rushed ['founder.']  heard: Nvidia without its founder. Still on top?
+   take 2: score -1.04  wer 0.00  end +0.0st  2.8w/s  rushed ['founder.']  heard: Nvidia without its founder. Still on top?
+   take 3: score +1.98  wer 0.00  end +4.6st  2.4w/s  heard: Nvidia without its founder. Still on top?
+scene 14: 2.94s ex 0.6 END  chosen wer 0.00
+   take 1: score -0.33  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 2: score -0.36  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 3: score -0.31  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 15: 1.92s ex 0.6  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+59.22s, force-aligned 154 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700060/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.8, 0.52, 0.86, 0.65, 0.6, 0.86, 0.7, 0.56, 0.74, 0.63, 0.81, 0.74, 0.8, 0.99]
