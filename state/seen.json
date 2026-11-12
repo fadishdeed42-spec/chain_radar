@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1794418483.099572,
-1794418483.099572,
 1794470121.509859,
 1794470424.8932626,
 1794474390.6717484,
@@ -17,7 +15,8 @@
 1794494454.3087173,
 1794496716.6511464,
 1794497520.027893,
-1794499456.216105
+1794499456.216105,
+1794508385.878297
 ],
 "menu": {
 "038f2befeb04": {
@@ -125,7 +124,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794499200.0,
 "tgtext": "JUST IN: Visa expands crypto stablecoin settlement network through partnership with Western Union and Anchorage.\n\n@WatcherGuru\n\u26a1\ufe0f NEW: Visa has partnered with Anchorage Digital to add Western Union\u2019s USDPT stablecoin to its settlement network, allowing eligible partners to settle VisaNet obligations using the token.\n\nNews | Markets | YouTube",
 "title": "Visa has partnered with Anchorage Digital to add Western Union\u2019s USDPT stablecoin to its settlement network, allowing eligible partners to settle VisaNet obligations using the token.",
@@ -279,7 +278,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794491043.0,
 "tgtext": "JUST IN: $222,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$222,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -944,10 +943,11 @@
 "srcs": [
 "AOL.co.uk",
 "Cointelegraph",
+"Quartz",
 "The Tech Buzz",
 "Yahoo Finance"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794505053.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f UPDATE: Binance says it has finished covering all user assets hit by the $6.3B hack.\n\nA new Proof of Reserves snapshot, and a ZK proof will let users check 1:1 backing.\n\nNews | Markets | YouTube",
 "title": "Binance founder CZ says crypto exchange didn't sell any SpaceX stock amid hack",
@@ -1299,13 +1299,13 @@
 "coin": "bitcoin",
 "src": "Yahoo Finance",
 "srcs": [
+"Altcoin Buzz",
 "Crypto Briefing",
 "CryptoTicker.io",
 "Cryptonews.net",
-"Watcher.Guru",
-"Yahoo Finance"
+"Watcher.Guru"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794494420.0,
 "tgtext": "JUST IN: Bitcoin falls under $72,000\n\n$125,000,000 worth of crypto longs liquidated in the past 20 minutes.\n\n@WatcherGuru",
 "title": "Bitcoin key support levels to watch after break below $72,000",
@@ -1750,6 +1750,19 @@
 "url": "https://t.me/WatcherGuru/15940",
 "urls": []
 },
+"83126dc2c77a": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794508385.878297,
+"t0": 1794508130.0,
+"tgtext": "Kalshi Ends Donald Trump Jr.\u2019s Advisory Contract Over Polymarket Investment\n\nAccording to Reuters, prediction market platform Kalshi has ended its advisory contract with Donald Trump Jr. after his venture capital firm, 1789 Capital, increased its stake in rival Polymarket. A Kalshi spokesperson said the decision was mutual and that discussions to end the contract began in August, after 1789 Capital led Polymarket\u2019s latest funding round. \u2014 link",
+"title": "Kalshi Ends Donald Trump Jr.\u2019s Advisory Contract Over Polymarket Investment",
+"url": "https://t.me/wublockchainenglish/26803",
+"urls": []
+},
 "84cccf170664": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -1871,7 +1884,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794493615.0,
 "tgtext": "Tether Gold (XAU\u20ae) Completes Big Four Audit With Unqualified Opinion From KPMG\n\nTether announced that KPMG U.S. has completed an independent audit of the 2025 financial statements of TG Commodities, S.A. de C.V., the issuer of Tether Gold (XAU\u20ae), issuing an unqualified audit opinion. During the audit, KPMG physically counted and inspected every individual gold bar held in Swiss vaults rather than relying solely on custodian confirmations, verifying 520,089.350 fine troy ounces of allocated physical gold valued at $2.246 billion against 520,089.300 XAU\u20ae in circulation as of December 31, 2025. XAU\u20ae becomes Tether\u2019s second stablecoin to receive an unqualified Big Four audit opinion, following KPMG\u2019s audit of USD\u20ae issuer Tether International announced in August 2026. \u2014 link",
 "title": "Tether Gold (XAU\u20ae) Completes Big Four Audit With Unqualified Opinion From KPMG",
@@ -1923,19 +1936,6 @@
 "urls": [
 "https://decrypt.co/383114/pressure-mounts-on-nvidias-jensen-huang-amid-reports-of-second-affair"
 ]
-},
-"9301f02abe6e": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794335413.7853575,
-"t0": 1794314137.0,
-"tgtext": "BlackRock deposited another 72,212 $ETH ($151.4M) into #CoinbasePrime just 1 hour ago.\n\nSince Oct 1, #BlackRock has seen net outflows of 791,758 $ETH ($1.74B)!\n\nhttps://arkm.com/explorer/entity/blackrock\nAfter 9 months of inactivity, whale 0x5479 withdrew 10,000 $ETH ($20.89M) from #Binance just 1 hour ago.\n\nhttps://arkm.com/explorer/address/0x5479be5145a8f0851425186e1aEbF24180850D0c",
-"title": "After 9 months of inactivity, whale 0x5479 withdrew 10,000 ETH ($20.89M) from Binance just 1 hour ago.",
-"url": "https://t.me/lookonchainchannel/10994",
-"urls": []
 },
 "9304331a324e": {
 "coin": "",
@@ -2097,7 +2097,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794507773.8087814,
+"t": 1794508081.5297863,
 "t0": 1794490458.0,
 "tgtext": "U.S. Initial Jobless Claims Rise to 200K for Week Ending Nov. 7, Above Expectations\n\nU.S. initial jobless claims for the week ending November 7 were 200,000, versus expectations of 195,000. The prior week\u2019s figure was revised from 189,000 to 191,000. \u2014 link",
 "title": "U.S. Initial Jobless Claims Rise to 200K for Week Ending Nov. 7, Above Expectations",
@@ -2363,7 +2363,7 @@
 "TradingView",
 "openPR.com"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794489267.0,
 "tgtext": "",
 "title": "Ethereum News: $716M in Liquidations Drags ETH Lower While AlphaPepe Grows Past 13,200 Presale Holders",
@@ -2419,7 +2419,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794494097.0,
 "tgtext": "JUST IN: Nvidia's market cap crashes under $4 trillion for the first time since July 2025.\n\n$NVDA falls to $153, down 13% today following CEO Jensen Huang resignation.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: $NVDA\u2019s market cap crashes below $4 trillion.\n\nNews | Markets | YouTube",
 "title": "Nvidia's market cap crashes under $4 trillion for the first time since July 2025.",
@@ -3033,7 +3033,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794487548.0,
 "tgtext": "\ud83d\udea8 TODAY: Strategy $MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.\n\nNews | Markets | YouTube",
 "title": "TODAY: Strategy MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.",
@@ -3232,7 +3232,7 @@
 "Coinpedia",
 "TradingView"
 ],
-"t": 1794507773.8087814,
+"t": 1794508385.878297,
 "t0": 1794495453.0,
 "tgtext": "",
 "title": "BTC and ETH Whale\u2019s $493 Million Long Positions Fully Liquidated, With $68.59 Million Loss",
@@ -3503,76 +3503,41 @@
 "2380cbf51255": 0.023,
 "23955713cb4e": 0.061,
 "28ec2b0e5645": 0.123,
-"30a1919b4279": 0.116,
+"30a1919b4279": 0.028,
 "35f56932c755": 0.002,
-"3ca844568e32": 0.021,
-"4563968524c9": 0.891,
-"48c6b54cf8ad": 0.127,
+"3ca844568e32": 0.053,
+"4563968524c9": 0.941,
+"48c6b54cf8ad": 0.094,
 "4be0b95d1e29": 0.051,
 "5c0c7f58d987": 0.064,
 "62a3b5ca4523": 0.01,
-"62abab90ca63": 0.745,
+"62abab90ca63": 0.887,
 "6899da9dbd51": 0.081,
 "68b6d175f60f": 0.226,
 "6e6675c20444": 0.018,
-"78b62fa15d44": 0.008,
 "7a3df7544b52": 0.015,
+"83126dc2c77a": 0.795,
 "83740f6e41ab": 0.041,
 "8ab5edf76705": 0.025,
 "8cafdf07632c": 0.846,
 "8d5aeedc5efd": 0.034,
 "91c70b26a545": 0.071,
-"930c21c1215d": 0.011,
 "967eeaf6267e": 0.125,
 "9849b0379b99": 0.005,
 "9fa5a011d9c3": 0.027,
 "a007d65b5af0": 0.03,
 "a9c4bdb57a70": 0.172,
-"ab568f924ffb": 0.027,
+"ab568f924ffb": 0.015,
 "ac2bf3cc8d3b": 0.632,
 "b2c5ef44fdb1": 0.839,
 "ba6aaf36609b": 0.018,
-"c05c640dccd0": 0.008,
-"d65495091502": 0.237,
+"c05c640dccd0": 0.021,
+"d0e70de750a3": 0.017,
+"d65495091502": 0.075,
 "df73462f6820": 0.134,
 "e45165a30e8a": 0.876
 },
 "sent": [
-{
-"e": [
-"affiliate",
-"broker",
-"dealer",
-"digital",
-"finra",
-"kimber",
-"membership",
-"plume",
-"registration",
-"secures",
-"securities"
-],
-"k": [],
-"t": 1794331846.383213,
-"u": [
-"https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain",
-"https://t.me/wublockchainenglish/26770"
-],
-"w": [
-"affiliate",
-"broker",
-"dealer",
-"digital",
-"finra",
-"kimber",
-"membership",
-"plume",
-"registration",
-"sec",
-"secures",
-"securities"
-]
-},
 {
 "e": [
 "beijing",
@@ -4934,6 +4899,33 @@
 "targeted",
 "users"
 ]
+},
+{
+"e": [
+"advisory",
+"contract",
+"donald",
+"ends",
+"investment",
+"kalshi",
+"polymarket",
+"trump"
+],
+"k": [],
+"t": 1794508385.878297,
+"u": [
+"https://t.me/wublockchainenglish/26803"
+],
+"w": [
+"advisory",
+"contract",
+"donald",
+"ends",
+"investment",
+"kalshi",
+"polymarket",
+"trump"
+]
 }
 ],
 "stories": {},
@@ -4941,64 +4933,64 @@
 "top": [
 [
 "4563968524c9",
-93,
-45,
-4
+98,
+56,
+6
+],
+[
+"62abab90ca63",
+54,
+233,
+6
 ],
 [
 "e45165a30e8a",
-72,
-205,
+71,
+216,
 3
 ],
 [
 "8cafdf07632c",
-46,
-236,
+45,
+246,
 3
 ],
 [
 "b2c5ef44fdb1",
-24,
-228,
+23,
+238,
 2
 ],
 [
-"62abab90ca63",
-56,
-223,
-5
+"83126dc2c77a",
+18,
+4,
+1
 ],
 [
 "ac2bf3cc8d3b",
-44,
-308,
+43,
+319,
 4
 ],
 [
 "14c497ab606e",
-12,
-279,
+11,
+289,
 1
 ],
 [
 "077ba0b29f1e",
 30,
-143,
+153,
 3
 ],
 [
 "d7c9067d8315",
 0,
-337,
-1
-],
-[
-"9b8c9bb30ab8",
-0,
-289,
+347,
 1
 ]
 ],
-"top_at": 1794507773.8087814
+"top_at": 1794508385.878297
 }
