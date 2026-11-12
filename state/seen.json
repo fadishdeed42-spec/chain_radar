@@ -29,23 +29,6 @@
 "url": "https://t.me/wublockchainenglish/26766",
 "urls": []
 },
-"0200fb47d17d": {
-"coin": "bitcoin",
-"src": "Crypto News",
-"srcs": [
-"Cointelegraph",
-"Crypto News",
-"Pluang"
-],
-"t": 1794317906.559131,
-"t0": 1794297725.0,
-"tgtext": "",
-"title": "BlackRock sees record Bitcoin whale demand for IBIT conversions despite ETF outflows",
-"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zc3AzRnRnUmZ4M3lfT2t3c25MS2hqZmwyQmNUQ25qaUZ0emctTG1JcGZnNDJZUGdoQ3hrSnJrZkh3eVZSUnlyWXRJVENqS29tT1VkTDN5V05NbjcyUU5RbVduTGtrWUNVeHlTblpDMmlfTmVYeWRKRWVsaw?oc=5",
-"urls": [
-"https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "038f2befeb04": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -332,7 +315,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794483427.0,
 "tgtext": "Whale 0xc8b5 has finally given up, closing his long on 190,952 $NVDA ($30.67M) at a $2.45M loss.\nhttps://x.com/lookonchain/status/2120691030047826079",
 "title": "Whale 0xc8b5 has finally given up, closing his long on 190,952 NVDA ($30.67M) at a $2.45M loss.",
@@ -377,6 +360,23 @@
 "title": "Machi(@machibigbrother) is dumping his Bored Apes to fund leveraged long positions!",
 "url": "https://t.me/lookonchainchannel/11002",
 "urls": []
+},
+"1a2a0a07c770": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Cointelegraph"
+],
+"t": 1794490791.5157154,
+"t0": 1794485082.0,
+"tgtext": "",
+"title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+"url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
+"urls": [
+"https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
+"https://cointelegraph.com/news/digital-bank-griffin-100m-valuation-card-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "1ed4a0b13212": {
 "coin": "bitcoin",
@@ -536,7 +536,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794474053.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: The market sees a 100% chance of a Fed rate hike in December.\n\nCME FedWatch puts the odds at 90.8% for a 25 bps hike and 9.2% for a 50 bps hike.\n\nNews | Markets | YouTube",
 "title": "NOW: The market sees a 100% chance of a Fed rate hike in December.",
@@ -843,7 +843,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1794490025.0853424,
+"t": 1794490480.2400055,
 "t0": 1794480126.0,
 "tgtext": "",
 "title": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
@@ -1139,14 +1139,14 @@
 ]
 },
 "5589bff00047": {
-"coin": "bitcoin",
+"coin": "",
 "src": "Cointelegraph",
 "srcs": [
 "Coin Gabbar",
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794477667.0,
 "tgtext": "TSMC Confirms Hacker Obtained Employee Data and Demanded 3 BTC, Says Internal Systems Uncompromised\n\nAccording to Jiemian News, Taiwan Semiconductor Manufacturing Company (TSMC) responded on November 12 to reports of a hacker attempting to sell an alleged 6.9GB database containing 46,000 TSMC employee records on an underground forum for 3 BTC; TSMC confirmed that personal data belonging to certain current and former employees was exposed without authorization, noting that preliminary investigations link the leaked records to a third-party cloud service provider's system rather than an intrusion into TSMC's own internal IT infrastructure. The chipmaker emphasized that production operations and customer data remain completely unaffected, adding that it is notifying impacted staff and working closely with the cloud vendor, law enforcement, and external cybersecurity firms to investigate the breach. \u2014 link\n\ud83c\uddf9\ud83c\uddfc LATEST: Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.\n\nTSMC found no evidence of an internal breach.\n\nNews | Markets | YouTube",
 "title": "Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.",
@@ -1275,12 +1275,12 @@
 ]
 },
 "639fda803072": {
-"coin": "ethereum",
+"coin": "",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794476906.0,
 "tgtext": "A week ago, Chun (@satofishi) sold 6,200 $wstETH ($18.5M) when $ETH was trading at $2,400.\n\nOver the past 2 days, he has bought back 5,246 $ETH ($10.78M) at an average price of $2,054.\nhttps://x.com/lookonchain/status/2118173313466003905",
 "title": "A week ago, Chun (@satofishi) sold 6,200 wstETH ($18.5M) when ETH was trading at $2,400.",
@@ -2004,6 +2004,19 @@
 "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNDFpT1JhamNfNXNMT3Z3RjVSTGNDZkdxYXEzeU91Vk1sUkZmc3NkR3dJemlCRnBaZkVJMGt2b0dGVFdQRDZrOHp6eWVTNlRSLVlJcnBCYUxiQlBjQkNIbmRBYzlaa0trbERGdXF4OGR2VDE4QkEzaFRIQWlaNWRxN2N6NGtKU2VLMTdFZlRVNEJuNVQ3eUx5a3hFZ0dORHZsSTVPa1I1Yy0xQQ?oc=5",
 "urls": []
 },
+"9b8c9bb30ab8": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794490791.5157154,
+"t0": 1794490458.0,
+"tgtext": "U.S. Initial Jobless Claims Rise to 200K for Week Ending Nov. 7, Above Expectations\n\nU.S. initial jobless claims for the week ending November 7 were 200,000, versus expectations of 195,000. The prior week\u2019s figure was revised from 189,000 to 191,000. \u2014 link",
+"title": "U.S. Initial Jobless Claims Rise to 200K for Week Ending Nov. 7, Above Expectations",
+"url": "https://t.me/wublockchainenglish/26797",
+"urls": []
+},
 "9f4b17d6473a": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2436,7 +2449,7 @@
 "srcs": [
 "TOKENPOST"
 ],
-"t": 1794489721.6314456,
+"t": 1794490480.2400055,
 "t0": 1794476488.0,
 "tgtext": "",
 "title": "Crypto Liquidations Reach $31.58 Million in One Hour, With 95% From Longs",
@@ -2564,12 +2577,12 @@
 ]
 },
 "bee5175010f3": {
-"coin": "hyperliquid",
+"coin": "",
 "src": "Wu Blockchain",
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794483623.2554317,
+"t": 1794490791.5157154,
 "t0": 1794482738.0,
 "tgtext": "Crypto Market Maker Wintermute Nets $227 Million on Hyperliquid, Holds $72 Million in Shorts\n\nAccording to Onchain Lens, crypto market maker Wintermute has recorded approximately $227 million in cumulative PnL on Hyperliquid, including $18.9 million in profits over the past 30 days. Its current positions total $92.45 million, including $72.45 million in shorts, with $3.13 million in unrealized gains. Major short positions include ETH ($13.84 million), SOL ($11.24 million) and HYPE ($6.51 million). \u2014 link",
 "title": "Crypto Market Maker Wintermute Nets $227 Million on Hyperliquid, Holds $72 Million in Shorts",
@@ -2622,13 +2635,13 @@
 "urls": []
 },
 "c118c529b799": {
-"coin": "bitcoin",
+"coin": "",
 "src": "Pluang",
 "srcs": [
 "Coinpaper",
 "Pluang"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794483701.0,
 "tgtext": "",
 "title": "Bitcoin futures open interest stays above $50B, risking more liquidations if price drops below $72K",
@@ -2803,7 +2816,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794486342.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf2\ud83c\uddfd President Trump threatens to immediately double tariffs on Mexico if it does not stop migrant \"caravans.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf2\ud83c\uddfd President Trump threatens to immediately double tariffs on Mexico if it does not stop migrant \"caravans.\"",
@@ -2908,7 +2921,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794490025.0853424,
+"t": 1794490791.5157154,
 "t0": 1794487548.0,
 "tgtext": "\ud83d\udea8 TODAY: Strategy $MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.\n\nNews | Markets | YouTube",
 "title": "TODAY: Strategy MSTR fell nearly 6% premarket after MSCI confirmed its removal from global indexes.",
@@ -3323,19 +3336,6 @@
 "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVVZSTXQtaEVlMC1MaVFLNTRtSTJGSTRTYXJrLTZMbXJfdEZmNlhYSWpwYjVOek0zSng5MDgtZ1U2VDdlS1ZHQll6NXV3T3MycTZBaUpXRzJIbmc0dTdDWWs4QTdzMXB6bVdTckpkMFJCUTRZZlZNYUR4MjZzUWxWUWc0blV1NVlSV1ZpVFFrb3oxTFNSa2pudFpKbUdETkd4R3J4LQ?oc=5",
 "urls": []
 },
-"fbde7fb479f2": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1794317906.559131,
-"t0": 1794297358.0,
-"tgtext": "Veteran Web3 Airdrop Platform Galxe to Shut Down After Serving 36 Million Users and 7,700 Projects\n\nGalxe, a major Web3 quest and rewards platform, announced it will wind down its core services, including Galxe Quest, Galxe ID and Galxe Passport, as it shifts its team and brand to its Layer 1 blockchain, Gravity. Over more than five years, Galxe has served 36 million users and over 7,700 partner projects. New campaigns have been suspended, with participation ending December 5 and reward claims closing December 15, after which the website will become read-only. Gravity will continue operating, and the G token will remain unaffected. \u2014 link",
-"title": "Veteran Web3 Airdrop Platform Galxe to Shut Down After Serving 36 Million Users and 7,700 Projects",
-"url": "https://t.me/wublockchainenglish/26762",
-"urls": []
-},
 "fc7f89d8df38": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3375,44 +3375,44 @@
 "probs": {
 "0158fa1735c0": 0.058,
 "0eaa1b13987b": 0.168,
-"1299778bb6d5": 0.047,
-"15727d8fa0f2": 0.165,
+"1299778bb6d5": 0.115,
+"15727d8fa0f2": 0.206,
 "178b650b0d72": 0.882,
-"1a2a0a07c770": 0.157,
+"1a2a0a07c770": 0.553,
 "1a7dc31397fa": 0.248,
+"2063b39d0825": 0.162,
 "2f15c262d790": 0.068,
 "3564c7704c2c": 0.444,
-"3bbaae2788a7": 0.188,
 "3fa83fd0fb7b": 0.467,
-"42e1bcde09fa": 0.134,
-"4817968977ac": 0.135,
-"49890edb2725": 0.136,
-"5250e837096d": 0.093,
-"5589bff00047": 0.96,
+"42e1bcde09fa": 0.21,
+"4817968977ac": 0.17,
+"5250e837096d": 0.119,
+"5589bff00047": 0.969,
 "5621912db99a": 0.178,
-"6884d1097ea4": 0.17,
-"6ac728e020fa": 0.099,
+"6884d1097ea4": 0.212,
+"6ac728e020fa": 0.126,
 "6ed4234e7194": 0.106,
-"6f84bb7051a8": 0.176,
-"83332b6bbca2": 0.256,
+"6f84bb7051a8": 0.353,
+"83332b6bbca2": 0.082,
 "8472c71de852": 0.112,
+"8d5aeedc5efd": 0.057,
 "91c70b26a545": 0.26,
-"9c5c416e1f50": 0.061,
+"9c5c416e1f50": 0.041,
 "9c5ea4dd4fb5": 0.07,
-"a521bde8992b": 0.264,
-"aad5b868acc6": 0.104,
-"b6d03a3351dc": 0.049,
+"a521bde8992b": 0.32,
+"aad5b868acc6": 0.132,
+"b6d03a3351dc": 0.063,
 "ba3211660818": 0.067,
 "bb7f951dbdf7": 0.454,
-"be769b3b5c89": 0.191,
-"bee5175010f3": 0.365,
-"c118c529b799": 0.537,
-"c52e79fe6fde": 0.063,
-"c8600ef09648": 0.494,
-"cdb6c0d313bc": 0.109,
+"be769b3b5c89": 0.236,
+"bee5175010f3": 0.497,
+"c118c529b799": 0.603,
+"c52e79fe6fde": 0.189,
+"c8600ef09648": 0.219,
+"cdb6c0d313bc": 0.139,
 "d148f47d3e09": 0.645,
 "d3b62b8d08ea": 0.317,
-"d638d5e71650": 0.207
+"d638d5e71650": 0.255
 },
 "sent": [
 {
@@ -4859,64 +4859,64 @@
 "top": [
 [
 "5589bff00047",
-58,
-206,
+56,
+219,
 3
+],
+[
+"9b8c9bb30ab8",
+10,
+6,
+1
 ],
 [
 "178b650b0d72",
 24,
-110,
+123,
+1
+],
+[
+"639fda803072",
+10,
+231,
 1
 ],
 [
 "d7c9067d8315",
 10,
-41,
-1
-],
-[
-"639fda803072",
-11,
-219,
+54,
 1
 ],
 [
 "d148f47d3e09",
 18,
-61,
-1
-],
-[
-"27d0f319b06f",
-13,
-266,
+74,
 1
 ],
 [
 "c118c529b799",
 50,
-105,
+118,
 2
 ],
 [
-"c8600ef09648",
-40,
-331,
-3
-],
-[
-"038f2befeb04",
-10,
-23,
+"27d0f319b06f",
+11,
+279,
 1
 ],
 [
-"3fa83fd0fb7b",
-20,
-165,
+"1a2a0a07c770",
+26,
+95,
+2
+],
+[
+"bee5175010f3",
+16,
+134,
 1
 ]
 ],
-"top_at": 1794490025.0853424
+"top_at": 1794490791.5157154
 }
