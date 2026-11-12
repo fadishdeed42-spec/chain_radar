@@ -393,7 +393,8 @@ def voice_job(sb):
     ex = EXAG[sb['tone']]
     st = settings(sb)
     de = {'calm': -.1, 'normal': 0, 'punchy': .07}.get(st['energy'], 0)
-    HI = st['energy'] == 'high'                                            # owner (Nov 11): 'more energetic' -> the fc1 test voice: .88 base, .95 on hook/twist/payoff
+    HI = st['energy'] == 'high'
+    DYN = st['energy'] == 'dynamic'                                        # owner (Nov 12): not hyped all the time -> rises and falls with the story                                            # owner (Nov 11): 'more energetic' -> the fc1 test voice: .88 base, .95 on hook/twist/payoff
     gk = {'short': .7, 'normal': 1.0, 'dramatic': 1.45}.get(st['pauses'], 1.0)
     scenes, plan, alts, checks = [], [], [], []
     for i, s in enumerate(sb['scenes']):
@@ -407,12 +408,13 @@ def voice_job(sb):
         e = ONE_EX.get(sb['tone'], .62) + de                                # owner (Nov 9): ONE energy for the whole video - per-line energy made the tone jump
         g = .5 if end else EMO_GAP.get(emo, .28 if s['role'] in ('twist', 'payoff') else .22)
         if HI: e = .83 if end else (.95 if s['role'] in ('hook', 'twist', 'payoff') else .88)
-        scenes.append([text, round(e if HI else min(.72, max(.56, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .56-.72: one steady narrator, no line over- or under-acted
+        if DYN: e = .6 if end else {'hook': .9, 'setup': .64, 'turn': .72, 'twist': .84, 'payoff': .86, 'end': .7}.get(s['role'], .7)
+        scenes.append([text, round(e if (HI or DYN) else min(.72, max(.56, e)), 2), round(g * gk, 2)] + (['end'] if end else []))     # .56-.72: one steady narrator, no line over- or under-acted
         plan.append(pl)
     if cta(sb):
         scenes.append([cta(sb), .88 if HI else round(min(.72, max(.56, ONE_EX.get(sb['tone'], .62) + de)), 2), .3])
         plan.append(plan_line(cta(sb))); alts.append(None); checks.append(cta(sb))
-    return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .25 if HI else .2, 'seed': 7, 'scenes': scenes, 'alt': alts, 'check': checks}, plan
+    return {'engine': 'chatterbox', 'ref': 'am_liam', 'cfg': .25 if HI else (.3 if DYN else .2), 'seed': 7, 'scenes': scenes, 'alt': alts, 'check': checks}, plan
 
 
 # ---------------------------------------------------------------- timing (same output format as the hand-made bt*.py files)

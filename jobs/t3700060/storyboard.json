@@ -1,0 +1,268 @@
+{
+ "title": "Nvidia CEO Jensen Huang Just Resigned. Here’s What Happened 🚨",
+ "tone": "serious",
+ "theme": "crimson",
+ "chart": {},
+ "lesson": "",
+ "description": "Nov 12, 2026: Jensen Huang resigned as Nvidia's CEO and left the board, effective immediately, after 33 years. Nvidia's filing gave no reason.\nThis week, reports said he had an affair with a woman now accused of spying for China, and The New York Times reported a second affair with an Nvidia executive.\nIn a memo to staff, Huang wrote: \"I was unfaithful to my wife... There is no excuse for what I did. I am deeply sorry.\"\nNvidia stock fell as much as 13%. CFO Colette Kress is interim CEO.\n\nAllegations are as reported by the outlets named; nothing here is a finding of wrongdoing.\n\nNot financial advice.",
+ "hashtags": "#nvidia #jensenhuang #stocks #ai #breakingnews #shorts",
+ "pinned": "Can Nvidia stay on top without its founder? 👇",
+ "respell": {
+  "Kress": "Kress",
+  "CFO": "C F O",
+  "CEO": "C E O"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "The man who built Nvidia just quit. Effective immediately.",
+   "hit": "quit",
+   "visual": {
+    "type": "slam",
+    "text": "HUANG QUITS",
+    "sub": "NVIDIA · NOV 12, 2026"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "hook",
+   "emotion": "serious",
+   "line": "Jensen Huang resigned as CEO and left the board. No reason given.",
+   "hit": "reason",
+   "visual": {
+    "type": "doc",
+    "head": "FORM 8-K · NVIDIA CORP",
+    "title": "CEO TRANSITION",
+    "lines": [
+     "Jensen Huang resigned as President,",
+     "Chief Executive Officer, and a member",
+     "of the Board, effective immediately."
+    ],
+    "stamp": "NO REASON GIVEN"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "calm",
+   "line": "He co-founded Nvidia in 1993, at a Denny's.",
+   "hit": "denny",
+   "visual": {
+    "type": "title",
+    "text": "1993",
+    "sub": "FOUNDED AT A DENNY'S"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "excited",
+   "line": "Last year, it became the first company worth five trillion dollars.",
+   "hit": "trillion",
+   "visual": {
+    "type": "counter",
+    "value": 5,
+    "prefix": "$",
+    "suffix": "T",
+    "label": "FIRST EVER · OCT 2025"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Reports said he had an affair. The woman is now accused of spying for China.",
+   "hit": "spying",
+   "visual": {
+    "type": "stamp",
+    "word": "ALLEGED",
+    "label": "accused of spying for China",
+    "icon": "question",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "The Information linked her to firms that helped ship chips to China.",
+   "hit": "chips",
+   "visual": {
+    "type": "title",
+    "text": "CHIPS TO CHINA",
+    "sub": "REPORTED BY THE INFORMATION"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Then The New York Times reported a second affair, with an Nvidia executive.",
+   "hit": "second",
+   "visual": {
+    "type": "title",
+    "text": "A SECOND AFFAIR",
+    "sub": "REPORTED BY THE NEW YORK TIMES"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Nvidia's board met into the evening to decide his fate.",
+   "hit": "fate",
+   "visual": {
+    "type": "news",
+    "kicker": "THE HEADLINES",
+    "items": [
+     {
+      "src": "CNBC",
+      "headline": "Nvidia board meeting to decide CEO Jensen Huang's fate stretches into evening",
+      "word": "board"
+     },
+     {
+      "src": "Yahoo Finance",
+      "headline": "Nvidia reportedly preparing to oust CEO Huang",
+      "word": "fate"
+     }
+    ]
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "This morning, he was out.",
+   "hit": "out",
+   "visual": {
+    "type": "slam",
+    "text": "OUT",
+    "sub": "AFTER 33 YEARS"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "In a memo, he wrote: I was unfaithful to my wife. I am deeply sorry.",
+   "hit": "sorry",
+   "visual": {
+    "type": "quote",
+    "name": "Jensen Huang",
+    "handle": "memo to Nvidia staff",
+    "text": "I was unfaithful to my wife. There is no excuse for what I did. I am deeply sorry."
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "Nvidia stock fell as much as thirteen percent.",
+   "hit": "thirteen",
+   "visual": {
+    "type": "counter",
+    "value": 13,
+    "prefix": "−",
+    "suffix": "%",
+    "label": "NVDA · NOV 12 · INTRADAY LOW"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "Yahoo Finance estimated about 440 billion dollars wiped out.",
+   "hit": "wiped",
+   "visual": {
+    "type": "counter",
+    "value": 440,
+    "prefix": "$",
+    "suffix": "B",
+    "label": "VALUE WIPED OUT · ESTIMATE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "calm",
+   "line": "CFO Colette Kress is now interim CEO.",
+   "hit": "interim",
+   "visual": {
+    "type": "person",
+    "name": "COLETTE KRESS",
+    "role": "INTERIM CEO",
+    "prop": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "curious",
+   "line": "Nvidia without its founder. Still on top?",
+   "hit": "top",
+   "visual": {
+    "type": "title",
+    "text": "STILL ON TOP?",
+    "sub": "NVIDIA WITHOUT ITS FOUNDER",
+    "icon": "question"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "length": 60,
+ "settings": {
+  "length": 60,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off",
+  "energy": "dynamic",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "key",
+  "music": "off",
+  "whoosh": "off"
+ }
+}
