@@ -1,0 +1,67 @@
+media files: 0
+$ /opt/hostedtoolcache/Python/3.11.18/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/auto.py jobs/t3700060 sfx
+$ ffmpeg -y -v error -f concat -safe 0 -i jobs/t3700060/parts.txt -c copy jobs/t3700060/silent.mp4
+$ /opt/hostedtoolcache/Python/3.11.18/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/tighten.py jobs/t3700060/voicep.wav jobs/t3700060/timing.json jobs/t3700060/voice_tight.wav
+ok jobs/t3700060/voice_tight.wav
+$ ffmpeg -y -v error -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -i /home/runner/work/chain_radar/chain_radar/studio/music.wav -filter_complex [0][1]acrossfade=d=2[a];[a][2]acrossfade=d=2 jobs/t3700060/music_long.wav
+$ /opt/hostedtoolcache/Python/3.11.18/x64/bin/python /home/runner/work/chain_radar/chain_radar/studio/mix2.py jobs/t3700060/silent.mp4 jobs/t3700060/voice_tight.wav jobs/t3700060/sfx.wav jobs/t3700060/music_long.wav 58.93 jobs/t3700060/short.mp4 0
+voice-over-bed dB while speaking: median 155.7, 5th pct 22.3, worst 6.1
+worst windows: [(0.2, np.float32(6.1)), (52.0, np.float32(10.2)), (48.8, np.float32(10.4)), (9.2, np.float32(13.4)), (9.0, np.float32(14.0))]
+mixed -> jobs/t3700060/short.mp4
+$ ffmpeg -y -v error -i jobs/t3700060/short.mp4 -c:v libx264 -crf 19 -maxrate 5852k -bufsize 11704k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700060/short_s.mp4
+video check: []
+✅ <b>Video check: passed</b>
+✅ 7 checks passed (format, hook frame, loudness, motion, picture, sync, visual)
+$ ffmpeg -y -v error -ss 2.46 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_00.png
+$ ffmpeg -y -v error -ss 7.37 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_01.png
+$ ffmpeg -y -v error -ss 12.28 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_02.png
+$ ffmpeg -y -v error -ss 17.19 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_03.png
+$ ffmpeg -y -v error -ss 22.10 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_04.png
+$ ffmpeg -y -v error -ss 27.01 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_05.png
+$ ffmpeg -y -v error -ss 31.92 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_06.png
+$ ffmpeg -y -v error -ss 36.83 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_07.png
+$ ffmpeg -y -v error -ss 41.74 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_08.png
+$ ffmpeg -y -v error -ss 46.65 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_09.png
+$ ffmpeg -y -v error -ss 51.56 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_10.png
+$ ffmpeg -y -v error -ss 56.47 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/sh_11.png
+$ ffmpeg -y -v error -i jobs/t3700060/sh_%02d.png -vf tile=6x2 -q:v 4 jobs/t3700060/sheet.jpg
+$ ffmpeg -y -v error -ss 0.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_000.png
+$ ffmpeg -y -v error -ss 2.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_001.png
+$ ffmpeg -y -v error -ss 3.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_002.png
+$ ffmpeg -y -v error -ss 5.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_003.png
+$ ffmpeg -y -v error -ss 6.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_004.png
+$ ffmpeg -y -v error -ss 8.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_005.png
+$ ffmpeg -y -v error -ss 9.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_006.png
+$ ffmpeg -y -v error -ss 11.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_007.png
+$ ffmpeg -y -v error -ss 12.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_008.png
+$ ffmpeg -y -v error -ss 14.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_009.png
+$ ffmpeg -y -v error -ss 15.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_010.png
+$ ffmpeg -y -v error -ss 17.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_011.png
+$ ffmpeg -y -v error -ss 18.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_012.png
+$ ffmpeg -y -v error -ss 20.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_013.png
+$ ffmpeg -y -v error -ss 21.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_014.png
+$ ffmpeg -y -v error -ss 23.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_015.png
+$ ffmpeg -y -v error -ss 24.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_016.png
+$ ffmpeg -y -v error -ss 26.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_017.png
+$ ffmpeg -y -v error -ss 27.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_018.png
+$ ffmpeg -y -v error -ss 29.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_019.png
+$ ffmpeg -y -v error -ss 30.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_020.png
+$ ffmpeg -y -v error -ss 32.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_021.png
+$ ffmpeg -y -v error -ss 33.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_022.png
+$ ffmpeg -y -v error -ss 35.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_023.png
+$ ffmpeg -y -v error -ss 36.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_024.png
+$ ffmpeg -y -v error -ss 38.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_025.png
+$ ffmpeg -y -v error -ss 39.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_026.png
+$ ffmpeg -y -v error -ss 41.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_027.png
+$ ffmpeg -y -v error -ss 42.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_028.png
+$ ffmpeg -y -v error -ss 44.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_029.png
+$ ffmpeg -y -v error -ss 45.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_030.png
+$ ffmpeg -y -v error -ss 47.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_031.png
+$ ffmpeg -y -v error -ss 48.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_032.png
+$ ffmpeg -y -v error -ss 50.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_033.png
+$ ffmpeg -y -v error -ss 51.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_034.png
+$ ffmpeg -y -v error -ss 53.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_035.png
+$ ffmpeg -y -v error -ss 54.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_036.png
+$ ffmpeg -y -v error -ss 56.00 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_037.png
+$ ffmpeg -y -v error -ss 57.50 -i jobs/t3700060/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700060/q_038.png
+held for review
