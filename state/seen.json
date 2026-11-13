@@ -764,7 +764,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794566187.0,
 "tgtext": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock\n\nJPMorgan\u2019s latest 13F shows 848,932 Strategy shares worth about $131.3 million as of September 30, up roughly 36% quarter over quarter, alongside put options covering 1.15 million MSTR shares with an underlying value of about $177.6 million. The bank also held 11.41 million BlackRock IBIT shares worth about $540 million, up 9.6%, and roughly 1.58 million Coinbase shares.\n\nThe holdings include assets managed across JPMorgan-affiliated investment entities and do not solely represent proprietary positions. \u2014 link",
 "title": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock",
@@ -1171,7 +1171,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794572341.0,
 "tgtext": "",
 "title": "Israeli Police Arrest Five Over $5 Million Cryptocurrency Money-Laundering Scheme on WhatsApp",
@@ -1370,7 +1370,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794567409.0,
 "tgtext": "Chun (@satofishi) bought another 5,746 $ETH ($11.09M) an hour ago.\nhttps://x.com/lookonchain/status/2120815943161127313",
 "title": "Chun (@satofishi) bought another 5,746 ETH ($11.09M) an hour ago.",
@@ -1491,7 +1491,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794572861.0,
 "tgtext": "JUST IN: \ud83c\uddf9\ud83c\udded\ud83c\uddec\ud83c\udde7 Thailand, UK and Singapore central banks successfully test system connecting traditional and tokenized foreign currency trading.\n\n@WatcherGuru\n\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded LATEST: The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.",
@@ -1816,7 +1816,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -1929,7 +1929,7 @@
 "CoinDesk",
 "CryptoSlate"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794570745.0,
 "tgtext": "",
 "title": "Bitcoin falls below $70,000 as $870 million in bullish bets are liquidated",
@@ -2019,7 +2019,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794567270.0,
 "tgtext": "AguilaTrades(@AguilaTrades) has been doing well lately!\n\nHe closed his $BTC short 4 hours ago, making $1.3M in profit.\n\nRight after that, he opened another 40x short on 500 $BTC ($34.65M), with a liquidation price of $72,273.30.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) has been doing well lately!",
@@ -2592,6 +2592,20 @@
 "https://cryptoslate.com/bitcoin-plunges-to-71k-as-jensen-huang-abruptly-resigns-sending-nvidia-into-2-trillion-wipeout/"
 ]
 },
+"9d235855a60b": {
+"coin": "bitcoin",
+"src": "Crypto News",
+"srcs": [
+"Coinpaper",
+"Crypto News"
+],
+"t": 1794579922.082956,
+"t0": 1794563865.0,
+"tgtext": "",
+"title": "Bitcoin price falls 4%, can BTC recover above $70,000?",
+"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9seDVJSFJXd0V3VVdEc2dlR0JYNmdsWUxfZFBmVHN4ZXp1dXEtUmJCMnVkVTZWV2dxZnNKcHN5WDk4WDhRUkdjMzZnMXJHNWgyTllVU1NCd1VobXVvMTdyRWMyNTlmVXpsVHNkeFh4ZzFEcEFIY1RENE9n?oc=5",
+"urls": []
+},
 "9dcba1a27d60": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -2747,7 +2761,7 @@
 "Cryptonews.net",
 "The Crypto Times"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794570000.0,
 "tgtext": "\ud83d\udea8 ALERT: MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.\n\nMANTRA announces emergency seven-day unbonding pause.\n\nNews | Markets | YouTube",
 "title": "MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.",
@@ -3899,24 +3913,6 @@
 "url": "https://t.me/cointelegraph/73249",
 "urls": []
 },
-"eeb663767ea4": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"Cointelegraph",
-"The Block",
-"Watcher.Guru"
-],
-"t": 1794406728.2881067,
-"t0": 1794385182.0,
-"tgtext": "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank officially rolls out crypto custody services.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: $1.7T Deutsche Bank launches digital asset custody for clients.\n\nNews | Markets | YouTube",
-"title": "Deutsche Bank goes live with digital asset custody service, signs asset management deal",
-"url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
-"https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "ef885aa3a9c5": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -4086,7 +4082,7 @@
 "FinanceFeeds",
 "Gadgets 360"
 ],
-"t": 1794579303.2133622,
+"t": 1794579613.2589078,
 "t0": 1794563008.0,
 "tgtext": "",
 "title": "Upbit Halts OSMO Deposits and Withdrawals After Osmosis Blockchain Stops Producing Blocks",
@@ -4153,12 +4149,12 @@
 "src": "Digital Watch Observatory",
 "srcs": [
 "Beinsure",
+"Bitcoin Foundation",
 "Cointelegraph",
-"CryptoNinjas",
 "Digital Watch Observatory",
 "The Cryptonomist"
 ],
-"t": 1794579303.2133622,
+"t": 1794579922.082956,
 "t0": 1794562034.0,
 "tgtext": "",
 "title": "US targets North Korean crypto schemes and seizes $1.2 billion linked to Binance hack",
@@ -4190,16 +4186,18 @@
 "rain": 1794413019.0371053
 },
 "probs": {
-"0d07a1987593": 0.179,
+"0407e0d099a2": 0.164,
+"0d07a1987593": 0.104,
 "0e7d9a49f2bd": 0.561,
 "0faee3b0f935": 0.234,
 "14b2439ccc24": 0.11,
 "240e4a62560c": 0.113,
-"297f8318bffe": 0.221,
+"297f8318bffe": 0.132,
 "392111f5a008": 0.113,
-"3ba788b5aca9": 0.584,
+"3ba788b5aca9": 0.434,
 "3e8d46f83ef4": 0.569,
 "4174ede92851": 0.074,
+"4467183cb1bb": 0.104,
 "464d229614f6": 0.617,
 "46a3592c41e6": 0.062,
 "4a7df3e480bd": 0.053,
@@ -4209,12 +4207,11 @@
 "580b0957c59b": 0.944,
 "6ac51156d1a8": 0.272,
 "778f3c5f8284": 0.614,
-"80c07c637987": 0.107,
-"8471127cce0f": 0.495,
-"848036c318f7": 0.082,
+"8471127cce0f": 0.266,
+"848036c318f7": 0.142,
 "8ca776d38e78": 0.446,
 "a7764e3cdd33": 0.791,
-"b69d43d99a6a": 0.3,
+"b593450dfff0": 0.408,
 "b83aa3c08a88": 0.416,
 "bad1ee360aed": 0.175,
 "bbd38ab79ae9": 0.018,
@@ -4225,11 +4222,10 @@
 "e6e93330cb12": 0.031,
 "ea881a652104": 0.364,
 "eb4874ccf75e": 0.087,
-"ee0699427885": 0.111,
 "f2ae513ebe11": 0.076,
 "f409c1cbb3e1": 0.091,
-"f7dc1450eaf5": 0.645,
-"fd6f5a144a96": 0.887
+"f7dc1450eaf5": 0.285,
+"fd6f5a144a96": 0.634
 },
 "sent": [
 {
@@ -5810,63 +5806,63 @@
 [
 "580b0957c59b",
 30,
-107,
+118,
 3
 ],
 [
 "6d04d8755984",
-4,
-342,
+3,
+352,
 1
 ],
 [
-"fd6f5a144a96",
-76,
-288,
-5
-],
-[
 "33ac31d7ef5f",
-5,
-219,
+4,
+229,
 1
 ],
 [
 "a7764e3cdd33",
 85,
-155,
+165,
 4
 ],
 [
 "7bf3569cf0aa",
-8,
-201,
+6,
+211,
 1
 ],
 [
 "52a19019cfd0",
-14,
-198,
+13,
+209,
 1
 ],
 [
-"f7dc1450eaf5",
-40,
-272,
-3
+"fd6f5a144a96",
+75,
+298,
+5
+],
+[
+"9d235855a60b",
+9,
+268,
+2
 ],
 [
 "464d229614f6",
 54,
-116,
+126,
 3
 ],
 [
 "778f3c5f8284",
 65,
-143,
+153,
 2
 ]
 ],
-"top_at": 1794579303.2133622
+"top_at": 1794579922.082956
 }
