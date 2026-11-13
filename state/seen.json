@@ -24,7 +24,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794582371.0,
 "tgtext": "JUST IN: OpenAI launches ChatGPT Wallet, allowing its AI agents to buy things for users.\n\n@WatcherGuru\n\ud83d\udd25 NEW: OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
 "title": "OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
@@ -200,6 +200,20 @@
 "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
 ]
 },
+"0abf86d40cd1": {
+"coin": "solana",
+"src": "Cryptonews.net",
+"srcs": [
+"Altcoin Buzz",
+"Cryptonews.net"
+],
+"t": 1794602843.4394841,
+"t0": 1794584204.0,
+"tgtext": "",
+"title": "Solana price faces a brutal death cross: could SOL crash below $70?",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rQ1NGelhVWThvSVJUXzl3S09rek8zc3k1cl9sS1VnZ1hSelhULVdEMU1lXzNRRHNtX0lHMVNUbE1oTGtIcmFUSUtxU0NYZ1RWOGpxMGhiRVdtRUE?oc=5",
+"urls": []
+},
 "0e7d9a49f2bd": {
 "coin": "usd-coin",
 "src": "Wu Blockchain",
@@ -249,7 +263,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794597601.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: White House economic adviser Kevin Hassett is expected to leave his role, with Treasury Secretary Scott Bessent being considered as his replacement, according to Semafor.\n\nNews | Markets | YouTube",
 "title": "White House economic adviser Kevin Hassett is expected to leave his role, with Treasury Secretary Scott Bessent being considered as his replacement, according to Semafor.",
@@ -315,7 +329,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794597347.0,
 "tgtext": "JUST IN: Nvidia $NVDA unveils 'GR00T 2' AI model that allows robots to learn from humans and share skills with other robot bodies.\n\n@WatcherGuru",
 "title": "Nvidia NVDA unveils 'GR00T 2' AI model that allows robots to learn from humans and share skills with other robot bodies.",
@@ -1173,7 +1187,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1794601615.6703925,
+"t": 1794602843.4394841,
 "t0": 1794592884.0,
 "tgtext": "",
 "title": "Bitcoin Crash: Falling Knife or Buy the Dip?",
@@ -2145,7 +2159,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794589220.0,
 "tgtext": "",
 "title": "Bitcoin dips below $70K \u2013 Will $455M in liquidations derail BTC\u2019s price recovery?",
@@ -2285,7 +2299,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794587638.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.\n\n@WatcherGuru",
 "title": "House Oversight Chair calls for possible ban on government officials\u2019 prediction market bets over insider trading concerns",
@@ -2429,7 +2443,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794587273.0,
 "tgtext": "JUST IN: Ian Buck is favored to replace Jensen Huang as Nvidia's next CEO.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA approaches $ARM CEO Rene Haas to potentially replace Jensen Huang as CEO.\n\n@WatcherGuru",
 "title": "Nvidia NVDA approaches ARM CEO Rene Haas to potentially replace Jensen Huang as CEO.",
@@ -3067,7 +3081,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794582957.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 US Treasury Secretary Bessent responds to Iranian death threats:\n\n\"F the Iranian leadership. I'm not going to be cowered.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 US Treasury Secretary Bessent responds to Iranian death threats:",
@@ -3659,7 +3673,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794602231.5172873,
+"t": 1794602843.4394841,
 "t0": 1794591601.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: Bessent blames Lutnick\u2019s Commerce Department for delaying Nvidia export controls.\n\nNews | Markets | YouTube",
 "title": "BIG: Bessent blames Lutnick\u2019s Commerce Department for delaying Nvidia export controls.",
@@ -4307,15 +4321,16 @@
 },
 "probs": {
 "00659bb53eac": 0.024,
+"09db32451549": 0.03,
+"0abf86d40cd1": 0.531,
 "153ebb49f7df": 0.014,
 "172149ecee79": 0.012,
-"1f18fa9f79cc": 0.307,
-"2fd40f780772": 0.017,
-"3877222cae09": 0.225,
-"3f6fd4e97d64": 0.026,
+"1f18fa9f79cc": 0.088,
+"26380b3339bb": 0.019,
+"4016eb481f30": 0.174,
 "406e1094abde": 0.04,
 "41c8343776b5": 0.11,
-"41e64471d0cd": 0.016,
+"41e64471d0cd": 0.042,
 "422214c6c2da": 0.032,
 "47b1bc22c867": 0.063,
 "4c1f889d9c68": 0.011,
@@ -4326,26 +4341,25 @@
 "7aa7ef329558": 0.187,
 "7c8489881ec4": 0.082,
 "7d9185594a46": 0.024,
+"7dd6755c47a2": 0.103,
 "7fc2000da822": 0.023,
 "820a299d512d": 0.869,
+"854a125a25af": 0.048,
 "8bc92a0fe972": 0.102,
 "96da4b58a9b1": 0.026,
 "9a84e32457a7": 0.015,
 "9f1c377d9871": 0.007,
 "ad663ccea347": 0.067,
-"b577fc07cd96": 0.042,
 "bbf6a88a05b7": 0.058,
 "c88494e56372": 0.024,
-"cb78149df36a": 0.025,
 "d6aa20386073": 0.114,
 "dc9c5e9003f9": 0.094,
-"dd0aa66af1e9": 0.021,
 "dd7978a0ed93": 0.014,
 "e492447372d7": 0.093,
 "eafa1a857692": 0.006,
 "eb16d3865745": 0.009,
 "f532ea376de4": 0.043,
-"fe360f290624": 0.042
+"fe360f290624": 0.023
 },
 "sent": [
 {
@@ -5959,64 +5973,64 @@
 "top": [
 [
 "820a299d512d",
-26,
-243,
+25,
+253,
+2
+],
+[
+"0abf86d40cd1",
+43,
+311,
 2
 ],
 [
 "001b550e4687",
 0,
-331,
-2
-],
-[
-"1f18fa9f79cc",
-40,
-342,
+341,
 2
 ],
 [
 "110f46dcd646",
 10,
-77,
+87,
 1
-],
-[
-"3877222cae09",
-60,
-332,
-3
 ],
 [
 "12fe1c876c2a",
 10,
-81,
+92,
 1
 ],
 [
 "7aa7ef329558",
-27,
-217,
+25,
+227,
+1
+],
+[
+"4016eb481f30",
+20,
+166,
 1
 ],
 [
 "aeecce029ec4",
 0,
-321,
+331,
 1
 ],
 [
 "8565decd6807",
-1,
-249,
+0,
+260,
 1
 ],
 [
 "d6aa20386073",
 10,
-177,
+187,
 1
 ]
 ],
-"top_at": 1794602231.5172873
+"top_at": 1794602843.4394841
 }
