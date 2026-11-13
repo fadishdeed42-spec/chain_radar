@@ -66,6 +66,20 @@
 "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
 ]
 },
+"058d5e7a821a": {
+"coin": "ethereum",
+"src": "Pluang",
+"srcs": [
+"Pluang",
+"www.tokenpost.com"
+],
+"t": 1794544631.0373263,
+"t0": 1794530940.0,
+"tgtext": "",
+"title": "Ether long liquidations hit $10.3M as ETH price drops 0.86% in one hour",
+"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUmNPSldLUXZpTi1xd3ZQT2tJUzRrcll2SmZKaTFDdUhVLTVCOXBhNENlajRtMklvdFFzMVB1bV9iam5VNWZOOGowbXdCcnBCSk1ROEdQcHV0ZVZOOHBHaUhEUWJIYU9ldnFwSFRFV1lEazNoODNUVWRfVGR6MU1LdWtNQmp3VmE0dEE4Zw?oc=5",
+"urls": []
+},
 "05f20b98d959": {
 "coin": "",
 "src": "TechBullion",
@@ -742,7 +756,7 @@
 "Lookonchain",
 "Pluang"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794536472.0,
 "tgtext": "Trader 0x5f91 just got fully liquidated on his 357.09 $BTC ($25.15M) position!\n\nhttps://hypurrscan.io/address/0x5f912dbde4530bc43f8322196db54592e3dd65aa#txs",
 "title": "Trader 0x5f91 just got fully liquidated on his 357.09 BTC ($25.15M) position!",
@@ -756,10 +770,10 @@
 "BBC",
 "BigGo Finance",
 "Bitcoin Magazine",
-"CoinDesk",
-"Crypto Economy"
+"Blockonomi",
+"CoinDesk"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794523200.0,
 "tgtext": "Binance Fully Replenishes Assets Following $6.3B Hack, Publishes New PoR Snapshot\n\nBinance announced that it has fully covered the assets affected by the security incident and published a new Proof of Reserves (PoR) snapshot. Once the zero-knowledge proof is generated, users will be able to independently verify that their assets are backed at a minimum ratio of 1:1. \u2014 link",
 "title": "DOJ Wins Court Authority to Seize $1.2 Billion of North Korea\u2019s Stolen Binance Crypto as Freezes Top $2.7 Billion",
@@ -878,7 +892,7 @@
 "Pluang",
 "Wu Blockchain"
 ],
-"t": 1794543961.9434817,
+"t": 1794544326.8905437,
 "t0": 1794534862.0,
 "tgtext": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage\n\nUpbit, South Korea's largest cryptocurrency exchange by trading volume, announced it has temporarily suspended deposits and withdrawals of Osmosis (OSMO) on Osmosis Chain after the Cosmos-based Layer 1 blockchain stopped producing blocks. Spot trading of OSMO remains unaffected. \u2014 link",
 "title": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage",
@@ -935,6 +949,19 @@
 "urls": [
 "https://bitcoinmagazine.com/news/binance-covers-6-34-billion-hack"
 ]
+},
+"462561413a34": {
+"coin": "bitcoin",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk"
+],
+"t": 1794544631.0373263,
+"t0": 1794541260.0,
+"tgtext": "",
+"title": "BTC news: Prices slip below $70K, triggering $1.2 billion in liquidations",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUFvUmV4NkRTR3k0bnVVUjBYQTh5Z1BNX3NsTE1YWE9YUEpRMTJ4TEF5NFJfVmxPaUZQWl9CZEJpNGQtOTRMNmtYRHV0N3NUM2FtOUp1dWNaSV9OSlVYMFRwNld4ZWI4bUV4a251VjdzeUVnTW1EbFBuUndERzNjTWg1cDZ4Y1d1aXFPbzZYUXFoT2NJcnVBcXFXdFo?oc=5",
+"urls": []
 },
 "462e74fa9799": {
 "coin": "",
@@ -1060,7 +1087,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794528600.0,
 "tgtext": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours\n\nBitcoin fell below $70,000 to a low of $68,943 before trading at $69,297, down 6.11% over 24 hours, according to Binance. The cryptocurrency had reached a 24-hour high of $73,866. CoinGlass data showed $622 million in crypto liquidations across exchanges over the past four hours, including $549 million in long positions and $72.46 million in shorts. \u2014 link",
 "title": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours",
@@ -1394,7 +1421,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794530410.0,
 "tgtext": "JUST IN: Bitcoin falls under $71,000\n\n@WatcherGuru\n\ud83d\udea8 NOW: $BTC falls below $71,000.\n\nNews | Markets | YouTube\nBREAKING: Bitcoin falls under $70,000\n\n@WatcherGuru",
 "title": "NOW: BTC falls below $71,000.",
@@ -1548,6 +1575,21 @@
 "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"72f1f5db4583": {
+"coin": "bitcoin",
+"src": "TradingKey",
+"srcs": [
+"Crypto Briefing",
+"TradingKey",
+"Wu Blockchain"
+],
+"t": 1794544326.8905437,
+"t0": 1794528977.0,
+"tgtext": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours\n\nBitcoin fell below $70,000 to a low of $68,943 before trading at $69,297, down 6.11% over 24 hours, according to Binance. The cryptocurrency had reached a 24-hour high of $73,866. CoinGlass data showed $622 million in crypto liquidations across exchanges over the past four hours, including $549 million in long positions and $72.46 million in shorts. \u2014 link",
+"title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
+"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLTlMOFdMQ3U3TVBxVzZkWElVWEpNUHRWaXdYcXloUlEwSF9fVElUbmhGSXRFeWFRTXBMNGxlOXJqSjdBMmRWb1JuTnlsT0h5a1R4bFdHdDgxMDdVUWloM3pnWDRRcmlXdU92eDFlUnltTHpEVllZODVUVlhpQlc4TGJCbGR5OUd0bnJmUHhqTF9VVVpVRGZieGpMUEF4Und4bHI5WnpGNERIU2ZWVElzU3hvcWlmMHBOdHRYcFB3b0RxdU1NSHhMVFFmZlNqeXhIYXNKbnkyMU0?oc=5",
+"urls": []
+},
 "741c4cb297eb": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1611,15 +1653,16 @@
 },
 "78532e69f6a2": {
 "coin": "",
-"src": "Watcher.Guru",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794539055.0,
-"tgtext": "JUST IN: $105,000,000 longs liquidated from the crypto market in the past 30 minutes.\n\n@WatcherGuru\nJUST IN: $500,000,000 liquidated from the crypto market in the past hour.\n\n$BTC falls under $69,000\n$ETH falls under $1,950\n$XRP falls under $1.01\n$SOL falls under $80\n\n@WatcherGuru",
-"title": "$105,000,000 longs liquidated from the crypto market in the past 30 minutes.",
-"url": "https://t.me/WatcherGuru/15995",
+"tgtext": "JUST IN: $105,000,000 longs liquidated from the crypto market in the past 30 minutes.\n\n@WatcherGuru\nJUST IN: $500,000,000 liquidated from the crypto market in the past hour.\n\n$BTC falls under $69,000\n$ETH falls under $1,950\n$XRP falls under $1.01\n$SOL falls under $80\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.\n\n$BTC fell below $69K.\n$ETH dropped under $1,950.\n$SOL slid to $78.\n\nNews | Markets | YouTube",
+"title": "Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.",
+"url": "https://t.me/cointelegraph/73254",
 "urls": []
 },
 "79859959f98d": {
@@ -2214,19 +2257,6 @@
 "urls": [
 "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"a7b222c332e3": {
-"coin": "",
-"src": "TOKENPOST",
-"srcs": [
-"TOKENPOST"
-],
-"t": 1794371418.13951,
-"t0": 1794355560.0,
-"tgtext": "",
-"title": "Crypto Liquidations Reach $359 Million, With Longs at 84%",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCSmNsY2tsUENoYzRPWEdIY0YtenUxV3B2TFRzR3lvczF1cGkxc3hDbm5NVlh4SHN4X2E1aWtNNmtkc3BpMndwWWljSk5LM1dlWXpqYVF3aE8wZw?oc=5",
-"urls": []
 },
 "a7d097ad1414": {
 "coin": "",
@@ -2915,19 +2945,6 @@
 "url": "https://t.me/WatcherGuru/15968",
 "urls": []
 },
-"d17198067567": {
-"coin": "bitcoin",
-"src": "Moomoo",
-"srcs": [
-"Moomoo"
-],
-"t": 1794371418.13951,
-"t0": 1794356656.0,
-"tgtext": "",
-"title": "CPI data exceeding expectations triggered $650 million in liquidations, putting Bitcoin's $73,000 support level at risk.",
-"url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMzYyMTJXZWZqZ2t3OExsV1ZqMV9QeF80bDlaR2V1Mmx2T2ZKNU1UZkctRGlOQ05ncEQ2RlFwbmNuUE9BanFjSGluQ1hYU3Y1NVloSUdHTTZ6aFl3ekxYOEVuVzBDZzZ0QmFfZVBJNkxGT2p5SU1ELXNRUlg3V3RSVHVIa2t4dENERHpuVXJjUVUwMjFNWUhBTWthZ0ZsN2Q5NlpCZWtHSWxmZnk1NDR4eUYtR3R5MTJkSFlzYTln?oc=5",
-"urls": []
-},
 "d229e333294c": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2969,7 +2986,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794539151.0,
 "tgtext": "Highlight Clip: Patrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable\n\nPatrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable\n\nOn November 10, 2026, Patrick Witt, former executive director of the White House Crypto Council, said in an interview with What Bitcoin Did that some U.S. government agencies had previously kept cold wallets in drawers. He said the U.S. Treasury was working to establish a custody framework, a prerequisite for considering whether to buy more bitcoin or convert other assets into bitcoin. The U.S. government is conducting a second inventory to verify its holdings and track them over time. It has yet to decide whether to disclose how much bitcoin it holds. \u2014 link",
 "title": "Highlight Clip: Patrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable",
@@ -3322,7 +3339,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794543961.9434817,
+"t": 1794544326.8905437,
 "t0": 1794522757.0,
 "tgtext": "Today, Jensen Huang announced he is stepping down as CEO of Nvidia.\n\nHe founded $NVDA when he was 30 years old to transform gaming by making powerful 3D graphics accessible to everyone.\n\n33 years later, it is now the backbone of the AI revolution, worth over $4,000,000,000,000\n\ud83c\uddfa\ud83c\uddf8 JUST IN: US Senate Banking Committee Chairman Tim Scott calls on former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify over national security concerns tied to sensitive US tech.\n\nNews | Markets | YouTube",
 "title": "US Senate Banking Committee Chairman Tim Scott calls on former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify over national security concerns tied to sensitive US tech.",
@@ -3407,7 +3424,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794534193.0,
 "tgtext": "Gambler 0x01e2 got liquidated 6 times in the past 12 hours, with a total of 404.86 $BTC ($28.9M) liquidated!\n\nHe still holds a long on 143.84 $BTC ($10.2M), with a new liquidation price of $70,712.57.\n\nhttps://hypurrscan.io/address/0x01e273fc08012db1b75e8ca93f8139bfac2ee977#perps\nThe whale who held over $140M in $BTC and $ETH longs got fully liquidated over the past 2 days, losing a total of $17.69M.\nhttps://x.com/lookonchain/status/2112168700409425990",
 "title": "The whale who held over $140M in BTC and ETH longs got fully liquidated over the past 2 days, losing a total of $17.69M.",
@@ -3479,7 +3496,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794543961.9434817,
+"t": 1794544631.0373263,
 "t0": 1794535593.0,
 "tgtext": "Highlight Clip: Michael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features\n\nMichael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 remotely. The event was held in S\u00e3o Paulo, Brazil. Saylor said frontier AI models make hackers more capable and that complex software used to move funds, including exchange and wallet software, is especially vulnerable. He argued that Bitcoin's design makes it resilient to AI threats and that Satoshi Nakamoto was right to limit its base-layer features because complex software expands the attack surface. He added that Bitcoin's computing power and security helped it win the race to become the global standard for digital capital. \u2014 link",
 "title": "Highlight Clip: Michael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features",
@@ -3539,44 +3556,43 @@
 "rain": 1794413019.0371053
 },
 "probs": {
+"00b9b08f18c7": 0.363,
 "0326c0401f89": 0.045,
-"058d5e7a821a": 0.26,
+"058d5e7a821a": 0.453,
 "1b1331ffe4a3": 0.1,
 "2096ba6a55a5": 0.026,
 "216717d6ec04": 0.026,
-"382d0f545222": 0.07,
 "385ee722b5f7": 0.043,
 "395622b3c5c9": 0.036,
 "39c0dc0403bc": 0.049,
 "3acb04ac20e6": 0.868,
-"3b3a992a8d55": 0.79,
+"3b3a992a8d55": 0.735,
 "3d88f6d2763f": 0.157,
-"43004c43e26f": 0.784,
+"43004c43e26f": 0.041,
 "462561413a34": 0.484,
 "4896fa1da51f": 0.176,
 "4b2ee0e5e5f2": 0.914,
 "621d0a992d9a": 0.051,
 "62307ceabbb3": 0.09,
 "655345254eb5": 0.918,
-"78532e69f6a2": 0.818,
+"78532e69f6a2": 0.978,
 "794990ad9473": 0.076,
 "7b25bc8bf3bb": 0.1,
 "7e7ba25a0108": 0.028,
-"86ad7811a856": 0.03,
 "89d03bde6e8c": 0.047,
 "90c0f3a22b47": 0.055,
 "9b21bc116b21": 0.037,
 "9cde1ece9517": 0.375,
-"a83ab7db6ed4": 0.121,
 "aaf335153549": 0.054,
 "b3bb58a8153b": 0.091,
+"b4be89a5c381": 0.046,
+"ba833340e045": 0.059,
 "c1b5dbf40d9c": 0.194,
 "c4465273b041": 0.032,
 "d1d92479e2d0": 0.107,
-"d4bb7d465ce0": 0.06,
+"d5cb1b1ec1ea": 0.07,
 "d7ba5056c536": 0.674,
-"ee61fd44c150": 0.577,
-"f1a84bfa9c52": 0.073,
+"e9f03e414bd9": 0.352,
 "f4ce0df972df": 0.93,
 "faa8e1321360": 0.55
 },
@@ -4929,71 +4945,94 @@
 "million",
 "plunges"
 ]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1794544326.8905437,
+"u": [
+"https://t.me/WatcherGuru/15995",
+"https://t.me/WatcherGuru/15996",
+"https://t.me/cointelegraph/73254"
+],
+"w": [
+"$417m",
+"$440m",
+"hour",
+"liquidated",
+"longs",
+"market",
+"off",
+"past",
+"sells"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"78532e69f6a2",
+41,
+93,
+2
+],
+[
 "f4ce0df972df",
 39,
-163,
+174,
 1
 ],
 [
 "655345254eb5",
-14,
-226,
+13,
+237,
 2
 ],
 [
 "4b2ee0e5e5f2",
-61,
-256,
+60,
+267,
 5
 ],
 [
 "3acb04ac20e6",
 41,
-125,
+136,
 2
-],
-[
-"78532e69f6a2",
-25,
-82,
-1
 ],
 [
 "3b3a992a8d55",
-68,
-346,
-13
-],
-[
-"43004c43e26f",
-42,
-152,
-2
+67,
+357,
+14
 ],
 [
 "d7ba5056c536",
 10,
-80,
+91,
 1
-],
-[
-"ee61fd44c150",
-0,
-353,
-2
 ],
 [
 "faa8e1321360",
 18,
-139,
+151,
 1
+],
+[
+"462561413a34",
+40,
+56,
+1
+],
+[
+"058d5e7a821a",
+45,
+228,
+2
 ]
 ],
-"top_at": 1794543961.9434817
+"top_at": 1794544631.0373263
 }
