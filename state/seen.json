@@ -25,7 +25,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794594811.3508875,
+"t": 1794595481.904216,
 "t0": 1794582371.0,
 "tgtext": "JUST IN: OpenAI launches ChatGPT Wallet, allowing its AI agents to buy things for users.\n\n@WatcherGuru\n\ud83d\udd25 NEW: OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
 "title": "OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
@@ -220,7 +220,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794594811.3508875,
+"t": 1794595481.904216,
 "t0": 1794576444.0,
 "tgtext": "Hyperliquid Q3 Protocol Revenue Hits $190.9M, With USDC Reserve Yield Accounting for Nearly Half of Revenue Growth\n\nAccording to Hyperliquid Research Collective (HRC), Hyperliquid\u2019s Q3 protocol revenue reached $190.9 million, up 21.7% QoQ but down 36.5% YoY, marking its highest quarterly revenue of 2026. USDC reserve yield accrued since August 27 contributed $17.3 million, accounting for nearly half of the quarterly revenue increase.\n\nPriority fees reached $9.6 million, approximately 3.3 times the previous quarter\u2019s level. Hyperliquid also recorded a quarterly high of 65,161 daily active traders, while its Assistance Fund spent approximately $149 million on HYPE buybacks during the quarter. \u2014 link",
 "title": "Hyperliquid Q3 Protocol Revenue Hits $190.9M, With USDC Reserve Yield Accounting for Nearly Half of Revenue Growth",
@@ -345,7 +345,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794594811.3508875,
+"t": 1794595481.904216,
 "t0": 1794577666.0,
 "tgtext": "JUST IN: \ud83c\uddf9\ud83c\udded\ud83c\uddec\ud83c\udde7 Thailand, UK and Singapore central banks successfully test system connecting traditional and tokenized foreign currency trading.\n\n@WatcherGuru\n\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded LATEST: The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.",
@@ -488,7 +488,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1794594811.3508875,
+"t": 1794595481.904216,
 "t0": 1794581700.0,
 "tgtext": "Bitcoin and Ethereum Spot ETFs Record Sixth Consecutive Day of Net Outflows\n\nAccording to SoSoValue, on November 12 (ET), U.S. spot Bitcoin ETFs recorded net outflows of $284 million, while spot Ethereum ETFs saw net outflows of $70.57 million, marking the sixth consecutive trading day of net outflows for both. \u2014 link",
 "title": "Bitcoin and Ethereum Spot ETFs Record Sixth Consecutive Day of Net Outflows",
@@ -1168,7 +1168,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1794594041.7256339,
+"t": 1794595481.904216,
 "t0": 1794592884.0,
 "tgtext": "",
 "title": "Bitcoin Crash: Falling Knife or Buy the Dip?",
@@ -2150,6 +2150,20 @@
 "url": "https://t.me/cointelegraph/73241",
 "urls": []
 },
+"7aa7ef329558": {
+"coin": "bitcoin",
+"src": "AMBCrypto",
+"srcs": [
+"AMBCrypto",
+"Cryptonews.net"
+],
+"t": 1794595481.904216,
+"t0": 1794589220.0,
+"tgtext": "",
+"title": "Bitcoin dips below $70K \u2013 Will $455M in liquidations derail BTC\u2019s price recovery?",
+"url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmx1LVdSZV9FajdwSEp0X015ZW8wV24yZEpPcHBSWl9hU3QzZWY2UHo1X0Y5R1gzSklsR2o5OFkyUlJvNDRFT3gzRTNkdURIbW9OLWQwbFB0RGhrMzN3Sjl6cHVaRy1LOVRoQzdLOWU5RjRWaVJ5SVd5ODRxOHk5c0dzSzNmZ1R5anZlbElWeUphaXJnNFcySXpBWDVObFk?oc=5",
+"urls": []
+},
 "7b392e9e87b8": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2282,7 +2296,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794594811.3508875,
+"t": 1794595481.904216,
 "t0": 1794587638.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.",
@@ -2535,11 +2549,25 @@
 "Crypto Headlines",
 "Wu Blockchain"
 ],
-"t": 1794594811.3508875,
+"t": 1794595481.904216,
 "t0": 1794587174.0,
 "tgtext": "Bybit Warns of Telegram Android Vulnerability, Urges Users to Update Immediately\n\nBybit issued a security advisory on November 13 following reports of a vulnerability in Telegram for Android, warning that a compromised device could also put other applications at risk. Bybit urged users to update Telegram to the latest version immediately, avoid unfamiliar chats and unknown bots, refrain from opening suspicious links, and trust only verified official channels.\n\nEarlier this week, security research firm V12 disclosed a remote code execution vulnerability in Telegram\u2019s Widgets feature, demonstrating how a bot message could launch the Calculator app on an Android device. Telegram subsequently confirmed that the vulnerability had been fixed and the update rolled out to users. Separately, on November 10, Binance warned of an iOS vulnerability known as worse_query that could allow malicious apps to read files belonging to other applications, potentially exposing crypto wallet seed phrases, private keys and login credentials. \u2014 link\n\u26a0\ufe0f \u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u0438 Bybit \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u044e\u0442 \u0441\u0440\u043e\u0447\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c Telegram \u0438\u0437-\u0437\u0430 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u0434\u043b\u044f Android.\n\n\u0412\u0437\u043b\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0447\u0435\u0440\u0435\u0437 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Telegram \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043f\u043e\u0434 \u0443\u0433\u0440\u043e\u0437\u0443 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f.\n\n\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438:\n\n\u27a4 \u041d\u0435\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c Telegram \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438.\n\u27a4 \u041d\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0442\u044c \u043d\u0435\u0437\u043d\u0430\u043a\u043e\u043c\u044b\u0435 \u0447\u0430\u0442\u044b \u0438 \u043d\u0435 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0441 \u043f\u043e\u0434\u043e\u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438 \u0431\u043e\u0442\u0430\u043c\u0438.\n\u27a4 \u041d\u0435 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u0438\u0442\u044c \u043f\u043e \u043f\u043e\u0434\u043e\u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u0441\u0441\u044b\u043b\u043a\u0430\u043c, \u0434\u0430\u0436\u0435 \u0435\u0441\u043b\u0438 \u043e\u043d\u0438 \u0432\u044b\u0433\u043b\u044f\u0434\u044f\u0442 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c\u0438.\n\u27a4 \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0435 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u0430\u043d\u0430\u043b\u044b Bybit.\n\n\u0420\u0430\u043d\u0435\u0435: \n- \u043e\u0442\u0432\u0435\u0442 \u041f\u0430\u0432\u043b\u0430 \u0414\u0443\u0440\u043e\u0432\u0430 \n- \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Telegram \u043d\u0430 Android\n\nCrypto Headlines",
 "title": "Bybit Warns of Telegram Android Vulnerability, Urges Users to Update Immediately",
 "url": "https://t.me/wublockchainenglish/26818",
+"urls": []
+},
+"8c28f3e9ccf1": {
+"coin": "bitcoin",
+"src": "Altcoin Buzz",
+"srcs": [
+"Altcoin Buzz",
+"MarketForces Africa"
+],
+"t": 1794595481.904216,
+"t0": 1794580160.0,
+"tgtext": "",
+"title": "Crypto Market Today: Bitcoin Falls Below $69K, Liquidations Top $1.3B, DTCC Picks Solana",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMndaX0ZRb2QzTmItMmh6LXZDcXNGWDh4dXp1ajRxWXEzcnNTaDdWYlpmNV83WGw0VFBZNWk1aXpGaElwRHZXRUt1WTFLTE5GaUd2b3F1ekVvTXl2OXVSWHlNRDNEX05FSHRPOHRfWk1heWR0QTZEa2ZkdlNiN0NnUk4wblVXZk4taFdZT2FSaUZ4ZWgzWDVvWVJfNGZXNXQ2SEZHeGgwclp3VjJoZWR3?oc=5",
 "urls": []
 },
 "8ca776d38e78": {
@@ -3802,7 +3830,7 @@
 "Cryptonews.net",
 "Gadgets 360"
 ],
-"t": 1794594811.3508875,
+"t": 1794595177.3952348,
 "t0": 1794573838.0,
 "tgtext": "",
 "title": "Unocoin Halts Deposits and Withdrawals While Probing Suspicious BitGo-Linked Transfers",
@@ -3862,6 +3890,20 @@
 "https://cointelegraph.com/news/nvidia-preparing-to-oust-ceo-jensen-huang-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.theblock.co/news/business/2026-11-11-nvidia-perps-board-weighs-ousting-jensen-huang-438447"
 ]
+},
+"dba8ae56630a": {
+"coin": "",
+"src": "The Crypto Times",
+"srcs": [
+"Cryptonews.net",
+"The Crypto Times"
+],
+"t": 1794595481.904216,
+"t0": 1794575170.0,
+"tgtext": "",
+"title": "MANTRA Halts Unbonding for 7 Days Amid Keplr Key Breach; Token Falls 7.3%",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmlmU2xxRllmdzk4YTh3TEtVUWVaTlZCYUZFZDNHbnptRm5DYnN5eUtJZUp3dWxjT1Ficl9zc18zbXRrMl9FdEQzeDZUUElDRDVlX2EwSE1IaC1mVmxfVG1vWlhxZEJyVlJBQ0tBVHE4bzRyUllCcGo4aXRwNjV6VVBWT3AyS2dXc2VIUDMxS1kyMTlJR2FSemo4Sm5VQ2IyTHo2RlFxT1p4OVBxekRN?oc=5",
+"urls": []
 },
 "dfcbb54f6305": {
 "coin": "",
@@ -4440,44 +4482,44 @@
 },
 "probs": {
 "001b550e4687": 0.449,
+"00659bb53eac": 0.027,
 "00bb55f525f3": 0.102,
+"048f9e9edf68": 0.056,
 "09901aac6146": 0.03,
-"0abf86d40cd1": 0.123,
+"0abf86d40cd1": 0.069,
 "0cc941eb064b": 0.023,
 "1f18fa9f79cc": 0.225,
-"24a744384ac6": 0.589,
-"2f3075aa5988": 0.19,
-"333249f4a797": 0.19,
 "3b0349e836e8": 0.093,
 "4016eb481f30": 0.174,
-"406e1094abde": 0.003,
-"4174ede92851": 0.079,
+"406e1094abde": 0.026,
 "41c8343776b5": 0.11,
 "41e64471d0cd": 0.021,
 "422214c6c2da": 0.008,
-"4fdbe4d97331": 0.011,
-"52c5c4b0ff97": 0.023,
+"4fdbe4d97331": 0.008,
 "6116401c2e9c": 0.036,
 "6685da2e2bb9": 0.04,
 "715f948974b1": 0.012,
 "77e76f42220b": 0.006,
-"7aa7ef329558": 0.079,
+"7aa7ef329558": 0.28,
 "7c8489881ec4": 0.082,
-"7d9185594a46": 0.017,
+"7d9185594a46": 0.045,
 "848036c318f7": 0.034,
 "8bc92a0fe972": 0.176,
-"92cef1a9e686": 0.007,
+"8c28f3e9ccf1": 0.259,
 "96da4b58a9b1": 0.026,
 "9a84e32457a7": 0.007,
 "9f1c377d9871": 0.007,
 "a686833359ac": 0.016,
 "ad663ccea347": 0.045,
+"bad1ee360aed": 0.143,
+"bed40724b56d": 0.043,
 "c1d14c4229e2": 0.024,
 "c88494e56372": 0.103,
 "cb78149df36a": 0.043,
-"da1d0b6966a6": 0.217,
+"dba8ae56630a": 0.454,
 "dd0aa66af1e9": 0.016,
 "eb16d3865745": 0.009,
+"f532ea376de4": 0.043,
 "fe360f290624": 0.042
 },
 "sent": [
@@ -6112,65 +6154,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"24a744384ac6",
-52,
-357,
-3
+"14fc5dc42640",
+5,
+297,
+2
 ],
 [
-"14fc5dc42640",
-6,
-286,
+"dba8ae56630a",
+44,
+339,
 2
 ],
 [
 "001b550e4687",
-17,
-207,
+15,
+219,
 2
 ],
 [
 "820a299d512d",
 10,
-120,
+131,
 1
 ],
 [
-"1f18fa9f79cc",
-56,
-219,
+"7aa7ef329558",
+41,
+104,
 2
 ],
 [
-"da1d0b6966a6",
-30,
-350,
-3
+"8c28f3e9ccf1",
+50,
+255,
+2
+],
+[
+"1f18fa9f79cc",
+55,
+230,
+2
 ],
 [
 "0e7d9a49f2bd",
 0,
-306,
+317,
 1
-],
-[
-"2f3075aa5988",
-42,
-357,
-2
-],
-[
-"333249f4a797",
-62,
-354,
-6
 ],
 [
 "8bc92a0fe972",
 20,
-127,
+138,
 2
+],
+[
+"4016eb481f30",
+20,
+43,
+1
 ]
 ],
-"top_at": 1794594811.3508875
+"top_at": 1794595481.904216
 }
