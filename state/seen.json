@@ -24,7 +24,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794582371.0,
 "tgtext": "JUST IN: OpenAI launches ChatGPT Wallet, allowing its AI agents to buy things for users.\n\n@WatcherGuru\n\ud83d\udd25 NEW: OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
 "title": "OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
@@ -249,7 +249,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794597601.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: White House economic adviser Kevin Hassett is expected to leave his role, with Treasury Secretary Scott Bessent being considered as his replacement, according to Semafor.\n\nNews | Markets | YouTube",
 "title": "White House economic adviser Kevin Hassett is expected to leave his role, with Treasury Secretary Scott Bessent being considered as his replacement, according to Semafor.",
@@ -315,7 +315,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794597347.0,
 "tgtext": "JUST IN: Nvidia $NVDA unveils 'GR00T 2' AI model that allows robots to learn from humans and share skills with other robot bodies.\n\n@WatcherGuru",
 "title": "Nvidia NVDA unveils 'GR00T 2' AI model that allows robots to learn from humans and share skills with other robot bodies.",
@@ -485,7 +485,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794581700.0,
 "tgtext": "Bitcoin and Ethereum Spot ETFs Record Sixth Consecutive Day of Net Outflows\n\nAccording to SoSoValue, on November 12 (ET), U.S. spot Bitcoin ETFs recorded net outflows of $284 million, while spot Ethereum ETFs saw net outflows of $70.57 million, marking the sixth consecutive trading day of net outflows for both. \u2014 link",
 "title": "Bitcoin and Ethereum Spot ETFs Record Sixth Consecutive Day of Net Outflows",
@@ -1158,7 +1158,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794592884.0,
 "tgtext": "",
 "title": "Bitcoin Crash: Falling Knife or Buy the Dip?",
@@ -2117,7 +2117,7 @@
 "srcs": [
 "AMBCrypto"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794589220.0,
 "tgtext": "",
 "title": "Bitcoin dips below $70K \u2013 Will $455M in liquidations derail BTC\u2019s price recovery?",
@@ -2257,7 +2257,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794587638.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.\n\n@WatcherGuru",
 "title": "House Oversight Chair calls for possible ban on government officials\u2019 prediction market bets over insider trading concerns",
@@ -2401,7 +2401,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794587273.0,
 "tgtext": "JUST IN: Ian Buck is favored to replace Jensen Huang as Nvidia's next CEO.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA approaches $ARM CEO Rene Haas to potentially replace Jensen Huang as CEO.\n\n@WatcherGuru",
 "title": "Nvidia NVDA approaches ARM CEO Rene Haas to potentially replace Jensen Huang as CEO.",
@@ -3039,7 +3039,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794582957.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 US Treasury Secretary Bessent responds to Iranian death threats:\n\n\"F the Iranian leadership. I'm not going to be cowered.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 US Treasury Secretary Bessent responds to Iranian death threats:",
@@ -3802,7 +3802,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794601003.5693119,
+"t": 1794601615.6703925,
 "t0": 1794580291.0,
 "tgtext": "Wintermute Wins 76% of Hyperliquid\u2019s Top-Priority Data Auctions, Raising Fairness Concerns\n\nAccording to Bloomberg, crypto market maker Wintermute has dominated Hyperliquid\u2019s priority data auctions, raising trading fairness concerns. Loris Tools data shows Wintermute-linked wallets won approximately 76% of the highest-priority auctions over the past month.\n\nThe mechanism lets traders pay to receive order data milliseconds before execution, enabling faster quote adjustments or hedging elsewhere. Wintermute founder Evgeny Gaevoy argued that the system is more transparent than traditional finance\u2019s low-latency infrastructure, while Hyperliquid Labs emphasized that anyone can participate and all priority fee payments are publicly recorded onchain. \u2014 link",
 "title": "Wintermute Wins 76% of Hyperliquid\u2019s Top-Priority Data Auctions, Raising Fairness Concerns",
@@ -4279,14 +4279,15 @@
 },
 "probs": {
 "00659bb53eac": 0.024,
-"00bb55f525f3": 0.078,
+"09db32451549": 0.03,
+"172149ecee79": 0.012,
 "1f18fa9f79cc": 0.307,
 "26380b3339bb": 0.019,
 "4016eb481f30": 0.174,
 "406e1094abde": 0.04,
 "41c8343776b5": 0.11,
 "41e64471d0cd": 0.016,
-"422214c6c2da": 0.012,
+"422214c6c2da": 0.032,
 "4c1f889d9c68": 0.011,
 "53e0d88d0dc5": 0.02,
 "7143caa0cc93": 0.113,
@@ -4295,22 +4296,21 @@
 "7aa7ef329558": 0.187,
 "7c8489881ec4": 0.082,
 "7d9185594a46": 0.024,
+"7dd6755c47a2": 0.103,
 "7fc2000da822": 0.023,
 "820a299d512d": 0.869,
-"83aadd659486": 0.012,
 "8bc92a0fe972": 0.102,
-"8c28f3e9ccf1": 0.105,
 "92cef1a9e686": 0.007,
 "96da4b58a9b1": 0.026,
 "9a84e32457a7": 0.015,
 "9f1c377d9871": 0.007,
 "ad663ccea347": 0.067,
 "b577fc07cd96": 0.042,
-"bed40724b56d": 0.124,
-"c1d14c4229e2": 0.013,
+"bbf6a88a05b7": 0.058,
 "c88494e56372": 0.103,
 "cb78149df36a": 0.025,
 "d6aa20386073": 0.114,
+"dc9c5e9003f9": 0.094,
 "dd0aa66af1e9": 0.021,
 "dd7978a0ed93": 0.014,
 "e492447372d7": 0.093,
@@ -5931,64 +5931,64 @@
 "top": [
 [
 "820a299d512d",
-29,
-223,
+27,
+233,
 2
 ],
 [
 "001b550e4687",
-3,
-311,
+2,
+321,
 2
 ],
 [
 "1f18fa9f79cc",
-43,
-322,
+41,
+332,
 2
 ],
 [
 "110f46dcd646",
 10,
-57,
+67,
 1
 ],
 [
 "12fe1c876c2a",
 10,
-61,
+71,
 1
 ],
 [
 "7aa7ef329558",
-29,
-196,
+28,
+207,
 1
 ],
 [
 "4016eb481f30",
 20,
-135,
+146,
 1
 ],
 [
 "aeecce029ec4",
 0,
-301,
+311,
 1
 ],
 [
 "8565decd6807",
-4,
-229,
+3,
+239,
 1
 ],
 [
 "e0486d198818",
 0,
-345,
+355,
 1
 ]
 ],
-"top_at": 1794601003.5693119
+"top_at": 1794601615.6703925
 }
