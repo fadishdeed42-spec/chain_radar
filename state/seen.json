@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794474390.6717484,
 1794481106.790575,
 1794489260.123074,
 1794491281.4701464,
@@ -17,7 +16,8 @@
 1794508385.878297,
 1794511757.0006864,
 1794559030.042534,
-1794560255.8448315
+1794560255.8448315,
+1794562706.7917051
 ],
 "menu": {
 "00b9b08f18c7": {
@@ -535,17 +535,19 @@
 "urls": []
 },
 "2980c732dfde": {
-"coin": "ethereum",
-"src": "The Crypto Times",
+"coin": "bitcoin",
+"src": "Howl.Link",
 "srcs": [
+"Crypto Briefing",
 "Crypto News",
+"Howl.Link",
 "The Crypto Times"
 ],
-"t": 1794562094.7120535,
+"t": 1794563011.2101753,
 "t0": 1794546000.0,
 "tgtext": "",
-"title": "Why Is Ethereum Price Down Today? ETH Crashes Below $2,000 as $259M Liquidated",
-"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSmZUR1oxekk3eTlHSFFOZjN4OURkRjlWd0dNZWtyRTRBMDlUWWtkRC1qaDI0NmNSTE1pV0FrZG1rNHNQM3ptd21TTEgwUFJiaTMtcFVOcXRqOVN5N2RqMkJhTEY3bS1uRHlId0l6SGxDX1NyVFNqZG1aUGU5R3RROUktM1JrQXRkckZHcDd1S3E3X1NLYl9ROTBua1A5YjlTTW8wa3JTZ1NFclpJelJjX1Zydw?oc=5",
+"title": "Bitcoin Price Breaks Below $70,000: Is A Crash To $62,000 Next? - TalkMarkets",
+"url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5vOTRwVFBiN1QzdXhveGNLOGdIVVJYNkoxWnB3NC0wNjFnT1M2SGtOanBaQTNHR1Bud0NJ?oc=5",
 "urls": []
 },
 "2b9645993867": {
@@ -663,7 +665,7 @@
 "Lowell Sun",
 "Wu Blockchain"
 ],
-"t": 1794562094.7120535,
+"t": 1794563011.2101753,
 "t0": 1794548758.0,
 "tgtext": "Binance Publishes New Reserve Snapshot After Replenishing $6.34 Billion in Stolen Assets\n\nBinance released a new proof-of-reserves snapshot dated November 12, showing user BTC holdings rose 0.35% from November 4 to approximately 687,900 BTC, up 2,388 BTC. ETH holdings increased 1.04% to 3.48 million ETH, while USDT holdings fell 3.68% to 24.3 billion tokens, down 928 million USDT. BNB holdings rose 1.03% to 42.95 million tokens.\n\nUnlike its usual monthly snapshots, Binance conducted this additional review following the October 29 hack involving approximately $6.34 billion in crypto assets. The exchange said it had fully replenished the affected assets. \u2014 link",
 "title": "Binance Publishes New Reserve Snapshot After Replenishing $6.34 Billion in Stolen Assets",
@@ -708,7 +710,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794555671.0,
 "tgtext": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 $ETH ($23.64M) 2 months ago, bought another 10,380 $ETH ($19.91M) just 1 hour ago.\n\nThe whale has now accumulated 25,498 $ETH ($49.44M) at an average price of $2,382 and is sitting on $11.3M in unrealized losses.\n\nhttps://arkm.com/explorer/address/0x4cee611502f378300981807d506629DA35cee4a7",
 "title": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 ETH ($23.64M) 2 months ago, bought another 10,380 ETH ($19.91M) just 1 hour ago.",
@@ -934,7 +936,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794550714.0,
 "tgtext": "\ud83d\udea8 NOW: The Crypto Fear & Greed Index falls to 20, deep in \u201cExtreme Fear\u201d and at its lowest level in four months, as $BTC dropped below $68K.\n\nNews | Markets | YouTube",
 "title": "NOW: The Crypto Fear & Greed Index falls to 20, deep in \u201cExtreme Fear\u201d and at its lowest level in four months, as BTC dropped below $68K.",
@@ -1667,7 +1669,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794546701.0,
 "tgtext": "Highlight Clip: Michael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nMichael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 in S\u00e3o Paulo, Brazil, remotely. He said political conditions can change and that assets held for the long term should be both durable and portable. He pointed to real estate, which cannot be moved, and physical gold, which is difficult to transport. Bitcoin holders, he said, can choose to take self-custody, switch custodians, or move their assets to another jurisdiction. In his view, the option to move assets is what gives Bitcoin value. \u2014 link",
 "title": "Highlight Clip: Michael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets",
@@ -1696,7 +1698,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -1983,7 +1985,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794543986.0,
 "tgtext": "\ud83d\udea8 JUST IN: Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.\n\n$BTC fell below $69K.\n$ETH dropped under $1,950.\n$SOL slid to $78.\n\nNews | Markets | YouTube",
 "title": "Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.",
@@ -2150,7 +2152,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794552844.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 $ETH($3.87M)!\n\nEvery time #EthereumFoundation-linked wallets dump $ETH, the price drops.\n\nOct 12: $ETH down 9%.\nOct 26: $ETH down 7.7%.\nNov 10: $ETH down 10.4%.\n\nToday marks the 4th sale. How much further will $ETH fall?\n\nhttps://arkm.com/explorer/address/0x5CBC6299faB3320E7758ac97fd4CA45E5B722059",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 ETH($3.87M)!",
@@ -2173,6 +2175,23 @@
 "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRnVQNEdMZU9OVGlRS3dTZFlGbEdpVG82ekk4bkx3dW9wUHdHYmNsMF93Qm9TVDVjUy1iSmV5U2pyOU1Vc2RxNk5rT2NEaHZZOW1nTHRINlBHV2Z2dktkSkk0OGxMeUVsa0ZPQmVFVnBLNVVMcUFyX1EwRWtDOVJqSXdybTlnbGRXaUQ3cXVFSkJ2MDhJanMxOElnSkd0OGk2WlBJcGFudHdVM1NKeTNzU25aSWZfSUkzcmhCVHFDOHBKZEJLOFhzcHlBaFg4NTlXMXMwVHAzUG9KeWx5WHc?oc=5",
 "urls": [
 "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
+"8ca776d38e78": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Traders Union",
+"TradingView"
+],
+"t": 1794562706.7917051,
+"t0": 1794560710.0,
+"tgtext": "",
+"title": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
+"url": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "8cafdf07632c": {
@@ -2511,6 +2530,23 @@
 "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992"
 ]
+},
+"a39160e0103a": {
+"coin": "bitcoin",
+"src": "CryptoPotato",
+"srcs": [
+"Altcoin Buzz",
+"BigGo Finance",
+"BitKE",
+"Blockonomi",
+"CoinMarketCap"
+],
+"t": 1794563011.2101753,
+"t0": 1794541591.0,
+"tgtext": "",
+"title": "Bitcoin Price Dumps Below $69K as Liquidations Top $1.4B: XRP and ETH Bleed Heavy",
+"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPenhXWUE4U095UURaRFhnT1pOd2h3bFZFMDByREVyQTlFSmktV3hfTTRqVk1NWmN3dURFT3J3eW1NZXpwNUVzcFJ6bk9vUW1idGk1V3piSW5qcHF4aW1rUkhxanpnZjNKWWdPcGhWN1hNeWpnVDFyUkxrY3pqbkQtM3NudU5McHVCZXJ6bTNkUUxwaExjRk5TUUs4MzA1UlFucHpweG5WSQ?oc=5",
+"urls": []
 },
 "a483be30169a": {
 "coin": "",
@@ -3501,7 +3537,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794560869.2864735,
+"t": 1794562706.7917051,
 "t0": 1794560045.0,
 "tgtext": "\ud83d\udea8 ALERT: Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.\n\nNews | Markets | YouTube",
 "title": "Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.",
@@ -3673,13 +3709,30 @@
 "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"ef885aa3a9c5": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Altcoin Buzz",
+"BeInCrypto",
+"BigGo Finance",
+"BitKE",
+"Blockonomi"
+],
+"t": 1794562706.7917051,
+"t0": 1794541213.0,
+"tgtext": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours\n\nBitcoin fell below $70,000 to a low of $68,943 before trading at $69,297, down 6.11% over 24 hours, according to Binance. The cryptocurrency had reached a 24-hour high of $73,866. CoinGlass data showed $622 million in crypto liquidations across exchanges over the past four hours, including $549 million in long positions and $72.46 million in shorts. \u2014 link",
+"title": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours",
+"url": "https://t.me/wublockchainenglish/26808",
+"urls": []
+},
 "f0b958ec08cc": {
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794562399.231833,
+"t": 1794563011.2101753,
 "t0": 1794553642.0,
 "tgtext": "A whale just dumped 16,700 $ETH ($31M) in a single trade at $1,852.45.\n\nA month ago, the whale FOMO-bought 8,631 $ETH ($23.7M) at $2,749.\n\nClassic buy high, sell low!\n\nhttps://arkm.com/explorer/address/0xBE4265E12Cde8b8e1fFd54A92401037AB06a0c5F",
 "title": "A whale just dumped 16,700 ETH ($31M) in a single trade at $1,852.45.",
@@ -3902,42 +3955,42 @@
 "08119db1f5f9": 0.068,
 "0d07a1987593": 0.031,
 "17cd6a989bd6": 0.076,
-"1cb91a2596fc": 0.342,
+"1b90dcb58b93": 0.29,
+"1cb91a2596fc": 0.047,
 "250f9166da2d": 0.285,
-"2980c732dfde": 0.41,
+"2980c732dfde": 0.719,
+"2f8bfdc47703": 0.942,
 "3316f1848ee0": 0.844,
-"3584589435d5": 0.889,
 "3794fc7fde10": 0.291,
 "3d4af709239d": 0.539,
-"462561413a34": 0.395,
-"4838abaa5052": 0.071,
-"59b2c49be111": 0.02,
+"462561413a34": 0.258,
+"4fdbe4d97331": 0.02,
+"59b2c49be111": 0.052,
 "6591e36ec3f0": 0.033,
 "6d04d8755984": 0.951,
-"6ddacb073604": 0.399,
 "76952444353c": 0.053,
-"771e0b162c5e": 0.362,
 "77925491477d": 0.199,
 "7f12b251ff00": 0.778,
 "80c07c637987": 0.048,
 "839a44e5c6a3": 0.322,
 "875a104e734e": 0.014,
 "8a24904c1846": 0.947,
-"8ca776d38e78": 0.159,
-"8ed9e4104ce8": 0.473,
+"8ca776d38e78": 0.222,
+"8ed9e4104ce8": 0.35,
 "8fbbaded1188": 0.127,
-"90c0f3a22b47": 0.791,
 "91f617a1ecfc": 0.058,
-"95a539d5a709": 0.087,
+"95a539d5a709": 0.483,
+"9ab49fc6e182": 0.037,
 "9f5a28491bad": 0.55,
+"a39160e0103a": 0.717,
+"a9f208c5f7e6": 0.048,
 "aa6d8ecc2e16": 0.201,
 "c17df487ca4f": 0.538,
 "c570da89c3e1": 0.156,
 "e3fbb5e43327": 0.654,
 "f0b958ec08cc": 0.752,
 "f310e3d8dbd0": 0.103,
-"f38650c55470": 0.054,
-"f5b2e71ecb0e": 0.75
+"f38650c55470": 0.054
 },
 "sent": [
 {
@@ -5463,6 +5516,35 @@
 "unocoin",
 "was"
 ]
+},
+{
+"e": [
+"fidelity",
+"ibit",
+"jane",
+"street"
+],
+"k": [
+"etf"
+],
+"t": 1794562706.7917051,
+"u": [
+"https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://news.google.com/rss/articles/CBMizgFBVV95cUxPMU9DZVFsWjA1Z2JoalJ0SEI3NGVfYmg1S0ZOQVgwZ3lOcDU3a3VIdjVfSk5CdERYT1MyVm5MWVNNNHN2VTNNTzQ2LS1oNE5IQXllQUZXTXZ4bUc0b05lSERvTVNjSHkxR09fLTA0YjNBZVRaUjJLcy1KWWVmaTB6UjlHU0FZUE40N3dRMU9JY05KeklIcUF3ekk3OEJrREdYdkIyeFEzNlNwSXlPUW1xSHdiUk9TZWdTSmxHcGpna0lBemo1NlktOVBLOXJIZw?oc=5",
+"https://news.google.com/rss/articles/CBMipgFBVV95cUxQbXZBRFVZaDFYbUZkeWhISmFJSTJjNTFwaVdLY1VQRVlvYU4wRzNadUpnTWstdU93dDZCYVR0WkU0ZnNMM09NMXZRZUJRYVpmcjNVWjFOVGZfYmlXZnpQbFAyRnc4TFI5VjhFeF9BZ3YzRlJNNjdxYjhnYTlVelh0VlVXUjctNTFVLWFOMEVydTdBckxQYXVxUGNnX1dycEp5UGdWYUlB?oc=5"
+],
+"w": [
+"bitcoin",
+"boosts",
+"etf",
+"fidelity",
+"holdings",
+"ibit",
+"jane",
+"nearly",
+"street",
+"trims"
+]
 }
 ],
 "stories": {},
@@ -5471,63 +5553,63 @@
 [
 "6d04d8755984",
 25,
-60,
+71,
 1
 ],
 [
 "8a24904c1846",
 26,
-159,
+169,
 1
+],
+[
+"2f8bfdc47703",
+58,
+238,
+2
 ],
 [
 "3b42269f4bc0",
-9,
-195,
-1
-],
-[
-"3584589435d5",
-55,
-145,
+7,
+205,
 1
 ],
 [
 "6a67cd7eacf4",
-8,
-262,
+6,
+272,
 1
 ],
 [
 "3316f1848ee0",
 24,
-112,
+122,
 1
 ],
 [
-"90c0f3a22b47",
-48,
-360,
-8
-],
-[
 "7f12b251ff00",
-15,
-307,
+13,
+317,
 1
 ],
 [
 "f0b958ec08cc",
 34,
-146,
+156,
 1
 ],
 [
-"f5b2e71ecb0e",
-61,
-327,
-8
+"2980c732dfde",
+58,
+284,
+4
+],
+[
+"a39160e0103a",
+67,
+357,
+15
 ]
 ],
-"top_at": 1794562399.231833
+"top_at": 1794563011.2101753
 }
