@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794491281.4701464,
 1794492912.8793943,
 1794493983.4536407,
 1794494454.3087173,
@@ -17,7 +16,8 @@
 1794560255.8448315,
 1794562706.7917051,
 1794570605.8043206,
-1794576820.24269
+1794576820.24269,
+1794578068.939965
 ],
 "menu": {
 "00b9b08f18c7": {
@@ -227,7 +227,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794577445.6647184,
+"t": 1794577763.7406607,
 "t0": 1794576444.0,
 "tgtext": "Hyperliquid Q3 Protocol Revenue Hits $190.9M, With USDC Reserve Yield Accounting for Nearly Half of Revenue Growth\n\nAccording to Hyperliquid Research Collective (HRC), Hyperliquid\u2019s Q3 protocol revenue reached $190.9 million, up 21.7% QoQ but down 36.5% YoY, marking its highest quarterly revenue of 2026. USDC reserve yield accrued since August 27 contributed $17.3 million, accounting for nearly half of the quarterly revenue increase.\n\nPriority fees reached $9.6 million, approximately 3.3 times the previous quarter\u2019s level. Hyperliquid also recorded a quarterly high of 65,161 daily active traders, while its Assistance Fund spent approximately $149 million on HYPE buybacks during the quarter. \u2014 link",
 "title": "Hyperliquid Q3 Protocol Revenue Hits $190.9M, With USDC Reserve Yield Accounting for Nearly Half of Revenue Growth",
@@ -466,7 +466,7 @@
 "CoinDesk",
 "CryptoSlate"
 ],
-"t": 1794577445.6647184,
+"t": 1794578068.939965,
 "t0": 1794567296.0,
 "tgtext": "",
 "title": "Bitcoin falls below $70,000 as $870 million in bullish bets are liquidated",
@@ -783,7 +783,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794577445.6647184,
+"t": 1794578068.939965,
 "t0": 1794566187.0,
 "tgtext": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock\n\nJPMorgan\u2019s latest 13F shows 848,932 Strategy shares worth about $131.3 million as of September 30, up roughly 36% quarter over quarter, alongside put options covering 1.15 million MSTR shares with an underlying value of about $177.6 million. The bank also held 11.41 million BlackRock IBIT shares worth about $540 million, up 9.6%, and roughly 1.58 million Coinbase shares.\n\nThe holdings include assets managed across JPMorgan-affiliated investment entities and do not solely represent proprietary positions. \u2014 link",
 "title": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock",
@@ -1006,7 +1006,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794577445.6647184,
+"t": 1794577763.7406607,
 "t0": 1794576626.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US PPI rises to 6.5%, lower than expectations.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US PPI rises to 6.5%, lower than expectations.",
@@ -1036,10 +1036,9 @@
 "Coinpaper",
 "Crypto News",
 "CryptoTicker.io",
-"Traders Union",
-"TradingKey"
+"Traders Union"
 ],
-"t": 1794576820.24269,
+"t": 1794578068.939965,
 "t0": 1794556651.0,
 "tgtext": "",
 "title": "Ethereum drops below $2,000: Can ETH recover amid $1.64 billion in crypto liquidations?",
@@ -1116,19 +1115,6 @@
 "tgtext": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage\n\nUpbit, South Korea's largest cryptocurrency exchange by trading volume, announced it has temporarily suspended deposits and withdrawals of Osmosis (OSMO) on Osmosis Chain after the Cosmos-based Layer 1 blockchain stopped producing blocks. Spot trading of OSMO remains unaffected. \u2014 link",
 "title": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage",
 "url": "https://t.me/wublockchainenglish/26805",
-"urls": []
-},
-"43a1b3e29aa5": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794405199.2246854,
-"t0": 1794384309.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot BTC, ETH, and XRP ETFs saw net outflows on Nov. 10.\n\nBTC: -$95.00M\nETH: -$1.32M\nXRP: -$7.62M\n\nNews | Markets | YouTube\n\ud83d\udd25 JUST IN: OKX and NYSE parent ICE plan to launch their tokenized stock platform on Nov. 23, with 70+ stock- and ETF-linked tokens planned, per Bloomberg.\n\nNews | Markets | YouTube",
-"title": "OKX and NYSE parent ICE plan to launch their tokenized stock platform on Nov. 23, with 70+ stock- and ETF-linked tokens planned, per Bloomberg.",
-"url": "https://t.me/cointelegraph/73193",
 "urls": []
 },
 "44fa44201ff2": {
@@ -1403,7 +1389,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794577445.6647184,
+"t": 1794578068.939965,
 "t0": 1794567409.0,
 "tgtext": "Chun (@satofishi) bought another 5,746 $ETH ($11.09M) an hour ago.\nhttps://x.com/lookonchain/status/2120815943161127313",
 "title": "Chun (@satofishi) bought another 5,746 ETH ($11.09M) an hour ago.",
@@ -1515,6 +1501,22 @@
 "title": "Amazon AMZN to collect data on nearly every product sold on earth to compete with Google GOOGL and AI shopping tools.",
 "url": "https://t.me/WatcherGuru/15999",
 "urls": []
+},
+"580b0957c59b": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block",
+"Watcher.Guru"
+],
+"t": 1794578068.939965,
+"t0": 1794572861.0,
+"tgtext": "JUST IN: \ud83c\uddf9\ud83c\udded\ud83c\uddec\ud83c\udde7 Thailand, UK and Singapore central banks successfully test system connecting traditional and tokenized foreign currency trading.\n\n@WatcherGuru",
+"title": "UK, Singapore, and Thailand central banks complete foreign exchange settlement trial linking traditional and tokenized systems",
+"url": "https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692"
+]
 },
 "58fac662ff01": {
 "coin": "",
@@ -1832,7 +1834,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794577445.6647184,
+"t": 1794578068.939965,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -2032,7 +2034,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794577128.1083295,
+"t": 1794578068.939965,
 "t0": 1794567270.0,
 "tgtext": "AguilaTrades(@AguilaTrades) has been doing well lately!\n\nHe closed his $BTC short 4 hours ago, making $1.3M in profit.\n\nRight after that, he opened another 40x short on 500 $BTC ($34.65M), with a liquidation price of $72,273.30.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) has been doing well lately!",
@@ -2777,7 +2779,7 @@
 "Cryptonews.net",
 "The Crypto Times"
 ],
-"t": 1794577445.6647184,
+"t": 1794578068.939965,
 "t0": 1794570000.0,
 "tgtext": "\ud83d\udea8 ALERT: MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.\n\nMANTRA announces emergency seven-day unbonding pause.\n\nNews | Markets | YouTube",
 "title": "MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.",
@@ -3504,7 +3506,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794577445.6647184,
+"t": 1794578068.939965,
 "t0": 1794577022.0,
 "tgtext": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years\n\nU.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations of 6.6% and up from 6.3% previously. PPI increased 0.3% MoM, below the expected 0.4%, while September\u2019s reading was revised up from 1.3% to 1.4%. \u2014 link",
 "title": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years",
@@ -4108,6 +4110,21 @@
 "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdHFZc1ZBT01fQjgtZUI3SEt6bFpCOHVmWEoyZUlCcllWTHEzc3lDeWxYd2xiUjh6eXU5SGZfR01BdFdNazZWWUJBME9ESWxzWHNrTllaamNLX3UyZzNFeUkwakdjejd0YVY5V3BUM1k1V2ZZdVViS3JoZXpoYlJuaU1iSWtKZTRncHlvTDBDRGoxUFJCcC1QejBJTThUaVM3dG1uWS1R0gGrAUFVX3lxTE1HRXl3WDZwcmRKWTJrRWMweFZmY3VwQjJZSldzNGtFR0lSR3VJcTVWQ0VsMGZIVEJUVVhwMnBJYjF0U3JKVHlwYVRZTDdGdC1VMEFXWHJTd3JESUVZUGRGN2pTUGNfdGszT1JhSFF2bWhvNFNEcXdyanVObDBWRE5lQllfSHdMVjl5S0luNmhIYXZPNXItYjByam1sdm5fMzBwT3BVZVYxN2dYUQ?oc=5",
 "urls": []
 },
+"f7dc1450eaf5": {
+"coin": "",
+"src": "FinanceFeeds",
+"srcs": [
+"Crypto Economy",
+"FinanceFeeds",
+"Gadgets 360"
+],
+"t": 1794578068.939965,
+"t0": 1794563008.0,
+"tgtext": "",
+"title": "Upbit Halts OSMO Deposits and Withdrawals After Osmosis Blockchain Stops Producing Blocks",
+"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVGVUdlcyTENEbU1kSnBDVEVJSWJWazN3dVVmUlp5c0YxWmVMMkNjQk5YdDhJUFc0ZHNNRWhkYW1hZ3RtcGJUYXpWOVcyOEV1OGcxSXgtbzd2ZWpISEwwZzFVYUJxQ05RU2NNSkQ4Y2Vremg3dFpmalRVcnBSVzJIZFR0amFUUU1NMmZjRlVDZTB3LWgxUUdpZUI0NVRNeGQ1MzBOQy1XejRucUVkTVJVeUIzY2xLZw?oc=5",
+"urls": []
+},
 "fa543ca82d59": {
 "coin": "",
 "src": "Cointelegraph",
@@ -4173,7 +4190,7 @@
 "Digital Watch Observatory",
 "The Cryptonomist"
 ],
-"t": 1794577445.6647184,
+"t": 1794577763.7406607,
 "t0": 1794562034.0,
 "tgtext": "",
 "title": "US targets North Korean crypto schemes and seizes $1.2 billion linked to Binance hack",
@@ -4205,46 +4222,46 @@
 "rain": 1794413019.0371053
 },
 "probs": {
-"0407e0d099a2": 0.164,
 "0d07a1987593": 0.179,
-"0e7d9a49f2bd": 0.946,
+"0e7d9a49f2bd": 0.629,
+"0faee3b0f935": 0.234,
 "14b2439ccc24": 0.11,
 "2331ce939b6d": 0.728,
 "240e4a62560c": 0.068,
 "297f8318bffe": 0.221,
-"3794fc7fde10": 0.348,
 "392111f5a008": 0.113,
 "3ba788b5aca9": 0.473,
 "3d4af709239d": 0.644,
 "4174ede92851": 0.074,
-"4467183cb1bb": 0.104,
 "464d229614f6": 0.617,
-"46a3592c41e6": 0.062,
 "4a7df3e480bd": 0.053,
 "4ca916c3e949": 0.048,
 "52a19019cfd0": 0.723,
+"580b0957c59b": 0.975,
 "6ac51156d1a8": 0.272,
 "7bf3569cf0aa": 0.708,
 "80c07c637987": 0.107,
+"8471127cce0f": 0.495,
 "848036c318f7": 0.082,
 "8ca776d38e78": 0.446,
 "9623469349ed": 0.164,
 "a7764e3cdd33": 0.791,
-"b593450dfff0": 0.408,
+"b69d43d99a6a": 0.341,
 "b83aa3c08a88": 0.416,
 "bad1ee360aed": 0.175,
 "bbd38ab79ae9": 0.018,
 "c517f6987729": 0.371,
 "ce6b3f10b13b": 0.225,
+"d6295def3064": 0.22,
 "d70689256257": 0.084,
-"e3fbb5e43327": 0.934,
+"e6e93330cb12": 0.142,
 "ea881a652104": 0.364,
 "eb4874ccf75e": 0.087,
 "f2ae513ebe11": 0.076,
 "f409c1cbb3e1": 0.091,
-"f7dc1450eaf5": 0.094,
+"f7dc1450eaf5": 0.645,
 "f94d06b9d13e": 0.103,
-"fd6f5a144a96": 0.837
+"fd6f5a144a96": 0.471
 },
 "sent": [
 {
@@ -5788,71 +5805,100 @@
 "usdc",
 "yield"
 ]
+},
+{
+"e": [
+"singapore",
+"thailand"
+],
+"k": [
+"ban"
+],
+"t": 1794578068.939965,
+"u": [
+"https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692",
+"https://t.me/WatcherGuru/16002"
+],
+"w": [
+"banks",
+"central",
+"complete",
+"exchange",
+"foreign",
+"linking",
+"settlement",
+"singapore",
+"systems",
+"thailand",
+"tokenized",
+"traditional",
+"trial"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"0e7d9a49f2bd",
-16,
-17,
-1
-],
-[
-"6d04d8755984",
-8,
-311,
-1
-],
-[
-"e3fbb5e43327",
-51,
-290,
+"580b0957c59b",
+20,
+87,
 2
 ],
 [
-"3c37e8df8505",
-10,
-14,
+"6d04d8755984",
+7,
+322,
 1
-],
-[
-"33ac31d7ef5f",
-9,
-188,
-1
-],
-[
-"fd6f5a144a96",
-80,
-257,
-5
 ],
 [
 "d17a7d6e0d52",
 10,
-7,
+17,
+1
+],
+[
+"33ac31d7ef5f",
+8,
+198,
 1
 ],
 [
 "a7764e3cdd33",
 85,
-124,
+134,
 4
 ],
 [
 "2331ce939b6d",
 75,
-169,
+180,
 3
 ],
 [
 "52a19019cfd0",
 16,
-167,
+178,
 1
+],
+[
+"7bf3569cf0aa",
+10,
+180,
+1
+],
+[
+"f7dc1450eaf5",
+43,
+251,
+3
+],
+[
+"3d4af709239d",
+62,
+357,
+4
 ]
 ],
-"top_at": 1794577445.6647184
+"top_at": 1794578068.939965
 }
