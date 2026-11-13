@@ -455,7 +455,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794549524.9379773,
+"t": 1794549832.3546538,
 "t0": 1794549122.0,
 "tgtext": "Whale 0xFDd4 opened a 1x short on 3.32M $BTW ($2.28M) on @Aster_DEX and is already up $989K in unrealized profit.\n\nhttps://www.asterdex.com/en/explorer/address/0xFDd4153Ab973183635C583a72d1B615fF91CDd88",
 "title": "Whale 0xFDd4 opened a 1x short on 3.32M BTW ($2.28M) on @Aster_DEX and is already up $989K in unrealized profit.",
@@ -813,7 +813,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794536472.0,
 "tgtext": "Trader 0x5f91 just got fully liquidated on his 357.09 $BTC ($25.15M) position!\n\nhttps://hypurrscan.io/address/0x5f912dbde4530bc43f8322196db54592e3dd65aa#txs",
 "title": "Trader 0x5f91 just got fully liquidated on his 357.09 BTC ($25.15M) position!",
@@ -1513,7 +1513,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794530410.0,
 "tgtext": "JUST IN: Bitcoin falls under $71,000\n\n@WatcherGuru\n\ud83d\udea8 NOW: $BTC falls below $71,000.\n\nNews | Markets | YouTube\nBREAKING: Bitcoin falls under $70,000\n\n@WatcherGuru",
 "title": "NOW: BTC falls below $71,000.",
@@ -1677,7 +1677,7 @@
 "CryptoTicker.io",
 "Howl.Link"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794528977.0,
 "tgtext": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours\n\nBitcoin fell below $70,000 to a low of $68,943 before trading at $69,297, down 6.11% over 24 hours, according to Binance. The cryptocurrency had reached a 24-hour high of $73,866. CoinGlass data showed $622 million in crypto liquidations across exchanges over the past four hours, including $549 million in long positions and $72.46 million in shorts. \u2014 link",
 "title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
@@ -1752,7 +1752,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794539055.0,
 "tgtext": "JUST IN: $105,000,000 longs liquidated from the crypto market in the past 30 minutes.\n\n@WatcherGuru\nJUST IN: $500,000,000 liquidated from the crypto market in the past hour.\n\n$BTC falls under $69,000\n$ETH falls under $1,950\n$XRP falls under $1.01\n$SOL falls under $80\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.\n\n$BTC fell below $69K.\n$ETH dropped under $1,950.\n$SOL slid to $78.\n\nNews | Markets | YouTube",
 "title": "Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.",
@@ -2283,10 +2283,9 @@
 "src": "Crypto Economy",
 "srcs": [
 "BigGo Finance",
-"Crypto Economy",
-"The Crypto Times"
+"Crypto Economy"
 ],
-"t": 1794548300.7656062,
+"t": 1794550136.5320373,
 "t0": 1794530599.0,
 "tgtext": "",
 "title": "Binance Says It Has Covered $6.3B in Hack Losses as New Proof of Reserves Awaits",
@@ -2351,21 +2350,6 @@
 "title": "A whale is going heavily long on NVDA and SNDK!",
 "url": "https://t.me/lookonchainchannel/11007",
 "urls": []
-},
-"a6dee2998b7d": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794376833.6469738,
-"t0": 1794376334.0,
-"tgtext": "",
-"title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
-"url": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "a7d097ad1414": {
 "coin": "",
@@ -2718,6 +2702,25 @@
 "url": "https://t.me/WatcherGuru/15952",
 "urls": []
 },
+"bcdecc47aa14": {
+"coin": "",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine",
+"Fox Business",
+"Mashable",
+"Sky News",
+"Tech in Asia"
+],
+"t": 1794550136.5320373,
+"t0": 1794528900.0,
+"tgtext": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage\n\nUpbit, South Korea's largest cryptocurrency exchange by trading volume, announced it has temporarily suspended deposits and withdrawals of Osmosis (OSMO) on Osmosis Chain after the Cosmos-based Layer 1 blockchain stopped producing blocks. Spot trading of OSMO remains unaffected. \u2014 link",
+"title": "DOJ Wins Court Authority to Seize $1.2 Billion of North Korea\u2019s Stolen Binance Crypto as Freezes Top $2.7 Billion",
+"url": "https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize",
+"urls": [
+"https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize"
+]
+},
 "bd29c6df7d38": {
 "coin": "",
 "src": "CoinMarketCap",
@@ -2880,7 +2883,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794548189.0,
 "tgtext": "Even hackers are panic-selling $ETH as the market crashes!\n\nA wallet received 1,500 $ETH from #TornadoCash, then sold 1,499.5 $ETH ($3M) at $1,998.\n\nhttps://arkm.com/explorer/address/0x90e5090BF6bEE049e8Ef0b971644e33FAf9C7298",
 "title": "Even hackers are panic-selling ETH as the market crashes!",
@@ -3122,7 +3125,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794539151.0,
 "tgtext": "Highlight Clip: Patrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable\n\nPatrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable\n\nOn November 10, 2026, Patrick Witt, former executive director of the White House Crypto Council, said in an interview with What Bitcoin Did that some U.S. government agencies had previously kept cold wallets in drawers. He said the U.S. Treasury was working to establish a custody framework, a prerequisite for considering whether to buy more bitcoin or convert other assets into bitcoin. The U.S. government is conducting a second inventory to verify its holdings and track them over time. It has yet to decide whether to disclose how much bitcoin it holds. \u2014 link",
 "title": "Highlight Clip: Patrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable",
@@ -3562,7 +3565,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794534193.0,
 "tgtext": "Gambler 0x01e2 got liquidated 6 times in the past 12 hours, with a total of 404.86 $BTC ($28.9M) liquidated!\n\nHe still holds a long on 143.84 $BTC ($10.2M), with a new liquidation price of $70,712.57.\n\nhttps://hypurrscan.io/address/0x01e273fc08012db1b75e8ca93f8139bfac2ee977#perps\nThe whale who held over $140M in $BTC and $ETH longs got fully liquidated over the past 2 days, losing a total of $17.69M.\nhttps://x.com/lookonchain/status/2112168700409425990",
 "title": "The whale who held over $140M in BTC and ETH longs got fully liquidated over the past 2 days, losing a total of $17.69M.",
@@ -3619,7 +3622,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794549524.9379773,
+"t": 1794550136.5320373,
 "t0": 1794535593.0,
 "tgtext": "Highlight Clip: Michael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features\n\nMichael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 remotely. The event was held in S\u00e3o Paulo, Brazil. Saylor said frontier AI models make hackers more capable and that complex software used to move funds, including exchange and wallet software, is especially vulnerable. He argued that Bitcoin's design makes it resilient to AI threats and that Satoshi Nakamoto was right to limit its base-layer features because complex software expands the attack surface. He added that Bitcoin's computing power and security helped it win the race to become the global standard for digital capital. \u2014 link\nHighlight Clip: Michael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nMichael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 in S\u00e3o Paulo, Brazil, remotely. He said political conditions can change and that assets held for the long term should be both durable and portable. He pointed to real estate, which cannot be moved, and physical gold, which is difficult to transport. Bitcoin holders, he said, can choose to take self-custody, switch custodians, or move their assets to another jurisdiction. In his view, the option to move assets is what gives Bitcoin value. \u2014 link",
 "title": "Highlight Clip: Michael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features",
@@ -3679,46 +3682,46 @@
 "rain": 1794413019.0371053
 },
 "probs": {
-"0326c0401f89": 0.045,
-"07708f03cfe3": 0.153,
-"195bd1733c15": 0.033,
-"1e2ceddea60b": 0.291,
-"2096ba6a55a5": 0.014,
-"216717d6ec04": 0.026,
-"250f9166da2d": 0.754,
-"2980c732dfde": 0.46,
-"33187b2ee51b": 0.604,
-"385ee722b5f7": 0.043,
-"3acb04ac20e6": 0.804,
-"43004c43e26f": 0.443,
-"462561413a34": 0.369,
-"4e36923021ba": 0.017,
-"4fdbe4d97331": 0.047,
-"62307ceabbb3": 0.09,
-"72f1f5db4583": 0.98,
-"771e0b162c5e": 0.022,
-"77925491477d": 0.072,
-"78532e69f6a2": 0.96,
-"794990ad9473": 0.18,
-"79b28631a6e1": 0.058,
-"7d2022b04c45": 0.05,
-"7e7ba25a0108": 0.039,
-"875a104e734e": 0.022,
-"8a4b33215b48": 0.162,
-"8ed9e4104ce8": 0.436,
-"8fbbaded1188": 0.186,
-"90c0f3a22b47": 0.055,
-"9cde1ece9517": 0.375,
-"9dcba1a27d60": 0.114,
-"aa6d8ecc2e16": 0.266,
-"c17df487ca4f": 0.972,
-"c1b5dbf40d9c": 0.194,
-"d7ba5056c536": 0.674,
-"e5e65686eda9": 0.067,
-"f4ce0df972df": 0.973,
-"f5b2e71ecb0e": 0.103,
-"faa8e1321360": 0.776,
-"fd9895d319bf": 0.207
+"0326c0401f89": 0.042,
+"07708f03cfe3": 0.146,
+"195bd1733c15": 0.032,
+"2096ba6a55a5": 0.013,
+"216717d6ec04": 0.025,
+"250f9166da2d": 0.418,
+"2980c732dfde": 0.446,
+"3acb04ac20e6": 0.795,
+"43004c43e26f": 0.098,
+"462561413a34": 0.356,
+"4e36923021ba": 0.016,
+"4fdbe4d97331": 0.045,
+"519a4709637c": 0.026,
+"62307ceabbb3": 0.086,
+"72f1f5db4583": 0.978,
+"76952444353c": 0.167,
+"771e0b162c5e": 0.021,
+"77925491477d": 0.069,
+"78532e69f6a2": 0.958,
+"794990ad9473": 0.172,
+"79b28631a6e1": 0.081,
+"7d2022b04c45": 0.07,
+"7e7ba25a0108": 0.037,
+"875a104e734e": 0.021,
+"8ed9e4104ce8": 0.422,
+"8fbbaded1188": 0.177,
+"90c0f3a22b47": 0.052,
+"95a539d5a709": 0.114,
+"9ab49fc6e182": 0.055,
+"9cde1ece9517": 0.362,
+"9dcba1a27d60": 0.108,
+"9f49fbfe0132": 0.512,
+"aa6d8ecc2e16": 0.255,
+"bcdecc47aa14": 0.8,
+"c17df487ca4f": 0.76,
+"c1b5dbf40d9c": 0.186,
+"d7ba5056c536": 0.662,
+"f4ce0df972df": 0.971,
+"faa8e1321360": 0.766,
+"fd9895d319bf": 0.198
 },
 "sent": [
 {
@@ -5113,64 +5116,64 @@
 "top": [
 [
 "72f1f5db4583",
-64,
-342,
-8
+62,
+353,
+9
 ],
 [
 "f4ce0df972df",
-29,
-256,
-1
-],
-[
-"c17df487ca4f",
-20,
-22,
+28,
+266,
 1
 ],
 [
 "78532e69f6a2",
 41,
-174,
+185,
 2
 ],
 [
 "655345254eb5",
-2,
-319,
+1,
+329,
 2
 ],
 [
+"bcdecc47aa14",
+62,
+354,
+8
+],
+[
 "3acb04ac20e6",
-26,
-218,
+25,
+228,
 1
 ],
 [
 "faa8e1321360",
-12,
-232,
+10,
+242,
 1
 ],
 [
-"250f9166da2d",
-39,
-7,
+"c17df487ca4f",
+20,
+32,
 1
 ],
 [
 "d7ba5056c536",
 10,
-173,
+183,
 1
 ],
 [
-"33187b2ee51b",
-62,
-358,
-8
+"9f49fbfe0132",
+46,
+326,
+2
 ]
 ],
-"top_at": 1794549524.9379773
+"top_at": 1794550136.5320373
 }
