@@ -710,7 +710,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794555671.0,
 "tgtext": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 $ETH ($23.64M) 2 months ago, bought another 10,380 $ETH ($19.91M) just 1 hour ago.\n\nThe whale has now accumulated 25,498 $ETH ($49.44M) at an average price of $2,382 and is sitting on $11.3M in unrealized losses.\n\nhttps://arkm.com/explorer/address/0x4cee611502f378300981807d506629DA35cee4a7\nChun (@satofishi) bought another 5,746 $ETH ($11.09M) an hour ago.\nhttps://x.com/lookonchain/status/2120815943161127313",
 "title": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 ETH ($23.64M) 2 months ago, bought another 10,380 ETH ($19.91M) just 1 hour ago.",
@@ -753,7 +753,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794566187.0,
 "tgtext": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock\n\nJPMorgan\u2019s latest 13F shows 848,932 Strategy shares worth about $131.3 million as of September 30, up roughly 36% quarter over quarter, alongside put options covering 1.15 million MSTR shares with an underlying value of about $177.6 million. The bank also held 11.41 million BlackRock IBIT shares worth about $540 million, up 9.6%, and roughly 1.58 million Coinbase shares.\n\nThe holdings include assets managed across JPMorgan-affiliated investment entities and do not solely represent proprietary positions. \u2014 link",
 "title": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock",
@@ -992,9 +992,10 @@
 "srcs": [
 "Coinpaper",
 "Crypto News",
-"Traders Union"
+"Traders Union",
+"TradingKey"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794556651.0,
 "tgtext": "",
 "title": "Ethereum drops below $2,000: Can ETH recover amid $1.64 billion in crypto liquidations?",
@@ -1159,7 +1160,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794572341.0,
 "tgtext": "",
 "title": "Israeli Police Arrest Five Over $5 Million Cryptocurrency Money-Laundering Scheme on WhatsApp",
@@ -1292,7 +1293,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794564420.0,
 "tgtext": "",
 "title": "Whale Alert: Four Traders Liquidated for More Than $10M Apiece",
@@ -1774,7 +1775,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -1974,7 +1975,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794567270.0,
 "tgtext": "AguilaTrades(@AguilaTrades) has been doing well lately!\n\nHe closed his $BTC short 4 hours ago, making $1.3M in profit.\n\nRight after that, he opened another 40x short on 500 $BTC ($34.65M), with a liquidation price of $72,273.30.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) has been doing well lately!",
@@ -2718,7 +2719,7 @@
 "Crypto Briefing",
 "Cryptonews.net"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794570000.0,
 "tgtext": "\ud83d\udea8 ALERT: MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.\n\nMANTRA announces emergency seven-day unbonding pause.\n\nNews | Markets | YouTube",
 "title": "MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.",
@@ -3701,7 +3702,7 @@
 "Cointelegraph",
 "Crypto Economy"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794560045.0,
 "tgtext": "\ud83d\udea8 ALERT: Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.\n\nNews | Markets | YouTube",
 "title": "Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.",
@@ -4100,7 +4101,7 @@
 "CryptoNinjas",
 "Digital Watch Observatory"
 ],
-"t": 1794575580.1429062,
+"t": 1794576207.2108285,
 "t0": 1794562034.0,
 "tgtext": "",
 "title": "US targets North Korean crypto schemes and seizes $1.2 billion linked to Binance hack",
@@ -4132,6 +4133,7 @@
 "rain": 1794413019.0371053
 },
 "probs": {
+"0407e0d099a2": 0.164,
 "0d07a1987593": 0.179,
 "1b90dcb58b93": 0.062,
 "240e4a62560c": 0.068,
@@ -4139,38 +4141,37 @@
 "33ac31d7ef5f": 0.856,
 "3794fc7fde10": 0.167,
 "392111f5a008": 0.113,
-"3d4af709239d": 0.696,
-"3fdedb01dbd1": 0.078,
-"464d229614f6": 0.695,
+"3ba788b5aca9": 0.069,
+"3d4af709239d": 0.84,
+"4174ede92851": 0.268,
+"4467183cb1bb": 0.104,
+"464d229614f6": 0.617,
+"46a3592c41e6": 0.062,
 "46c024edc2c7": 0.12,
 "4a7df3e480bd": 0.053,
 "4e9506cf0aa5": 0.811,
 "4f434dd871c3": 0.062,
-"4fdbe4d97331": 0.112,
+"4fdbe4d97331": 0.21,
 "6d04d8755984": 0.93,
-"75bdcb63a08f": 0.11,
 "778f3c5f8284": 0.614,
 "7bf3569cf0aa": 0.708,
 "80c07c637987": 0.107,
-"8ca776d38e78": 0.535,
+"8ca776d38e78": 0.446,
 "9623469349ed": 0.164,
-"a3a25fb46bb1": 0.484,
-"a7764e3cdd33": 0.901,
+"a7764e3cdd33": 0.869,
 "b69d43d99a6a": 0.049,
 "b70fd3c34ba7": 0.089,
 "b83aa3c08a88": 0.416,
-"b99606fde62e": 0.092,
 "bbd38ab79ae9": 0.018,
 "c517f6987729": 0.371,
 "ce6b3f10b13b": 0.225,
 "d70689256257": 0.084,
 "dc1ab0a2fc83": 0.046,
-"dd51b6f1103b": 0.076,
 "e3fbb5e43327": 0.934,
 "eb4874ccf75e": 0.087,
 "f2ae513ebe11": 0.076,
+"f409c1cbb3e1": 0.091,
 "f7dc1450eaf5": 0.2,
-"f94d06b9d13e": 0.103,
 "fd6f5a144a96": 0.723
 },
 "sent": [
@@ -5726,64 +5727,64 @@
 "top": [
 [
 "e3fbb5e43327",
-55,
-259,
+54,
+269,
 2
 ],
 [
 "6d04d8755984",
-12,
-280,
+11,
+291,
 1
 ],
 [
 "a7764e3cdd33",
 75,
-93,
+103,
 3
 ],
 [
 "33ac31d7ef5f",
 10,
-157,
+167,
 1
 ],
 [
+"3d4af709239d",
+66,
+326,
+4
+],
+[
 "3316f1848ee0",
-4,
-332,
+3,
+342,
 1
 ],
 [
 "4e9506cf0aa5",
-49,
-186,
+47,
+196,
 2
 ],
 [
 "fd6f5a144a96",
-84,
-226,
+83,
+236,
 4
 ],
 [
 "7bf3569cf0aa",
 10,
-139,
+149,
 1
 ],
 [
-"3d4af709239d",
-57,
-315,
-3
-],
-[
 "464d229614f6",
-62,
 54,
+64,
 3
 ]
 ],
-"top_at": 1794575580.1429062
+"top_at": 1794576207.2108285
 }
