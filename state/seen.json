@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794499456.216105,
 1794508385.878297,
 1794511757.0006864,
 1794559030.042534,
@@ -15,7 +14,8 @@
 1794578068.939965,
 1794581773.512688,
 1794582746.734282,
-1794584231.819643
+1794584231.819643,
+1794587576.9522533
 ],
 "menu": {
 "001b550e4687": {
@@ -25,7 +25,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794582371.0,
 "tgtext": "JUST IN: OpenAI launches ChatGPT Wallet, allowing its AI agents to buy things for users.\n\n@WatcherGuru\n\ud83d\udd25 NEW: OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
 "title": "OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
@@ -792,6 +792,23 @@
 "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOWpFMWxIUHVINU9DYmdkWjJ4ZWFPWF8wYW10ZlJHRWVlS3YyZER6VGJDVDRONFdWQ1hRenYxcEdCS1M2ZVdCOWNiWHM5MkE4a1VFMXhnOGlyMUtVM2NEM2lwRGIwcHprV1FHOGVtVUJ1YzdWcVpLanU1ZzdXTk0xekhUb1Jzck1HNGN5YUQ3bWFodWJ6WlJnSVB0NDhvTWZiM0lQSFR0Zy1CV1VKTUpMem0tLUpZQW1zdnhfWk13?oc=5",
 "urls": []
 },
+"333249f4a797": {
+"coin": "",
+"src": "CoinGape",
+"srcs": [
+"Beinsure",
+"Bitcoin Foundation",
+"CoinGape",
+"CryptoTicker.io",
+"Hackread"
+],
+"t": 1794587576.9522533,
+"t0": 1794573569.0,
+"tgtext": "",
+"title": "FBI Warns of North Korean Fake Video Call Tactics Following $400M Crypto Hack",
+"url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFRDRnVFNzJ1RkhkU0lkS1BFbVEyRTJDUmJYTThCbjQ0TmsyQktkOVlFV2hoQ2pvOWJPZndNTWJjWVNkLURIa3B3U29ySndPbmFZa2lWeVhxSE1XZVE0TWlwQlZBT3NXVHNvT3R0Q2hUa1lkcGhRd1N0ZDAzT1N4TXp4WWFQdE1kUk5iV25vMk94ZUFBd3ZDUVVFWHIwZ3c?oc=5",
+"urls": []
+},
 "337f44661002": {
 "coin": "",
 "src": "Cointelegraph",
@@ -811,7 +828,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794587320.7393517,
+"t": 1794587576.9522533,
 "t0": 1794566187.0,
 "tgtext": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock\n\nJPMorgan\u2019s latest 13F shows 848,932 Strategy shares worth about $131.3 million as of September 30, up roughly 36% quarter over quarter, alongside put options covering 1.15 million MSTR shares with an underlying value of about $177.6 million. The bank also held 11.41 million BlackRock IBIT shares worth about $540 million, up 9.6%, and roughly 1.58 million Coinbase shares.\n\nThe holdings include assets managed across JPMorgan-affiliated investment entities and do not solely represent proprietary positions. \u2014 link",
 "title": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock",
@@ -1454,7 +1471,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794567409.0,
 "tgtext": "Chun (@satofishi) bought another 5,746 $ETH ($11.09M) an hour ago.\nhttps://x.com/lookonchain/status/2120815943161127313",
 "title": "Chun (@satofishi) bought another 5,746 ETH ($11.09M) an hour ago.",
@@ -1575,7 +1592,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794572861.0,
 "tgtext": "JUST IN: \ud83c\uddf9\ud83c\udded\ud83c\uddec\ud83c\udde7 Thailand, UK and Singapore central banks successfully test system connecting traditional and tokenized foreign currency trading.\n\n@WatcherGuru\n\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded LATEST: The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.",
@@ -1829,19 +1846,19 @@
 },
 "66362dec051e": {
 "coin": "bitcoin",
-"src": "unchainedcrypto.com",
+"src": "The Cryptonomist",
 "srcs": [
+"Altcoin Buzz",
 "BeInCrypto",
 "CoinDesk",
 "CryptoSlate",
-"CryptoTicker.io",
-"Cryptonews.net"
+"CryptoTicker.io"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794569400.0,
 "tgtext": "",
-"title": "Bitcoin Breaks Below $70,000 as Liquidations Sweep Through Leveraged Longs",
-"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXQ1RFl5UEM3U0w3b1FNbTVHM0pSUUNIaGtUWmJjSlVyX2NhLVJBc19Lam5rWEloRFpYMWtmVkFCc1Mya2VXNGxySUlIdjBvUG5Gb2w3ZFFkbUZvbUtpbC1LY2lzWHZqdm1xa3loOHUwdXdfMzI4ZTlrYmZod0VIb0lzZUxrNFNaVkh4X1kwNWQwTExBdkdGYWZ3eThUYTlybXJR?oc=5",
+"title": "Bitcoin Price Decline Breaks $70,000 Amid Fed Rate Hike Expectations",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zNzQ4XzdjZDREN2dQbXBhWExlVld5aXpxalBrQTMxbG9Sc1RxTm1nNHk3U1BDTkFPXzFMU2NyS3dGSXRCS01SRjdQWUdCRDM5SFNQT1R0OWJRV2Q4MDRzdkNzcXBGc0NySWVHeA?oc=5",
 "urls": [
 "https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/"
 ]
@@ -2124,7 +2141,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794567270.0,
 "tgtext": "AguilaTrades(@AguilaTrades) has been doing well lately!\n\nHe closed his $BTC short 4 hours ago, making $1.3M in profit.\n\nRight after that, he opened another 40x short on 500 $BTC ($34.65M), with a liquidation price of $72,273.30.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) has been doing well lately!",
@@ -2229,6 +2246,19 @@
 "tgtext": "JUST IN: Billionaire Nvidia $NVDA shareholder Leo KoGuan says he will not invest any more money in the company without Jensen Huang.\n\n@WatcherGuru",
 "title": "Billionaire Nvidia NVDA shareholder Leo KoGuan says he will not invest any more money in the company without Jensen Huang.",
 "url": "https://t.me/WatcherGuru/15998",
+"urls": []
+},
+"820a299d512d": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794587886.0506332,
+"t0": 1794587638.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.",
+"url": "https://t.me/WatcherGuru/16008",
 "urls": []
 },
 "825e53dd99a5": {
@@ -2464,7 +2494,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794587174.0,
 "tgtext": "Bybit Warns of Telegram Android Vulnerability, Urges Users to Update Immediately\n\nBybit issued a security advisory on November 13 following reports of a vulnerability in Telegram for Android, warning that a compromised device could also put other applications at risk. Bybit urged users to update Telegram to the latest version immediately, avoid unfamiliar chats and unknown bots, refrain from opening suspicious links, and trust only verified official channels.\n\nEarlier this week, security research firm V12 disclosed a remote code execution vulnerability in Telegram\u2019s Widgets feature, demonstrating how a bot message could launch the Calculator app on an Android device. Telegram subsequently confirmed that the vulnerability had been fixed and the update rolled out to users. Separately, on November 10, Binance warned of an iOS vulnerability known as worse_query that could allow malicious apps to read files belonging to other applications, potentially exposing crypto wallet seed phrases, private keys and login credentials. \u2014 link",
 "title": "Bybit Warns of Telegram Android Vulnerability, Urges Users to Update Immediately",
@@ -2625,6 +2655,22 @@
 "title": "Zcash Price Crashes Below $1,000 for First Time Since September as $35.7M Longs Liquidated",
 "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU5pa1lDYzJkVGp1Q3Y4WWwtVGlmU20zdTZ3cExla3pKbm1mMXJsZjlVWjVzclFzVE0xcDd0VXZRTlZPMFgydGVPZW1WVWloWl9vY19pOVhfUkVPLVJaWFdRNWtEb3lzaVVPaTJHY2djWkNEdHUyQlhOdzBaRzcyU0pIaEZKXzZCNkxTTTVfcjhmMVJhWmEyQW1FVEhHZGU5XzMzLWtfX3gzUEtwdkZ3cWhZN1hJS29HLUkxQU1GbXg4S2xG?oc=5",
 "urls": []
+},
+"9623469349ed": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Decrypt",
+"Watcher.Guru"
+],
+"t": 1794587886.0506332,
+"t0": 1794567354.0,
+"tgtext": "JUST IN: Ian Buck is favored to replace Jensen Huang as Nvidia's next CEO.\n\n@WatcherGuru",
+"title": "Congress Summons Ex-Nvidia CEO Jensen Huang, Lutnick Over Chip Exports to China",
+"url": "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china",
+"urls": [
+"https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china"
+]
 },
 "97948bae7401": {
 "coin": "",
@@ -2897,7 +2943,7 @@
 "Cryptonews.net",
 "The Crypto Times"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794570000.0,
 "tgtext": "\ud83d\udea8 ALERT: MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.\n\nMANTRA announces emergency seven-day unbonding pause.\n\nNews | Markets | YouTube",
 "title": "MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.",
@@ -3756,7 +3802,7 @@
 "Cryptonews.net",
 "Gadgets 360"
 ],
-"t": 1794587320.7393517,
+"t": 1794587886.0506332,
 "t0": 1794573838.0,
 "tgtext": "",
 "title": "Unocoin Halts Deposits and Withdrawals While Probing Suspicious BitGo-Linked Transfers",
@@ -4381,35 +4427,36 @@
 },
 "probs": {
 "001b550e4687": 0.82,
-"015cd7f0f241": 0.024,
 "0abf86d40cd1": 0.295,
 "0cc941eb064b": 0.066,
 "0e7d9a49f2bd": 0.377,
 "0eeceb99d079": 0.068,
-"16265a2df9b7": 0.134,
 "1f18fa9f79cc": 0.63,
-"377b945188e9": 0.607,
-"3c37e8df8505": 0.247,
+"333249f4a797": 0.363,
+"392111f5a008": 0.106,
 "406e1094abde": 0.039,
 "4174ede92851": 0.541,
 "464d229614f6": 0.602,
 "580b0957c59b": 0.921,
-"66362dec051e": 0.799,
+"66362dec051e": 0.77,
 "6685da2e2bb9": 0.189,
 "6ac51156d1a8": 0.196,
 "767bd398a826": 0.057,
+"78f7a83e386d": 0.086,
 "848036c318f7": 0.023,
 "8914efcfaf3a": 0.179,
 "8c28f3e9ccf1": 0.203,
+"8d9dc883f091": 0.076,
 "980b9265a078": 0.025,
 "9a2a708f2fea": 0.276,
+"a253f2a2821b": 0.025,
 "a686833359ac": 0.083,
 "a7764e3cdd33": 0.791,
 "ac4a81e69aad": 0.214,
 "b83aa3c08a88": 0.213,
-"bad1ee360aed": 0.317,
 "bbd38ab79ae9": 0.017,
 "c1d14c4229e2": 0.068,
+"c517f6987729": 0.293,
 "cb78149df36a": 0.05,
 "ce6b3f10b13b": 0.092,
 "d17a7d6e0d52": 0.266,
@@ -4417,9 +4464,8 @@
 "d70689256257": 0.078,
 "da1d0b6966a6": 0.791,
 "ea881a652104": 0.5,
-"eb4874ccf75e": 0.032,
-"f19630ce30ca": 0.032,
-"f85dd2d74e1b": 0.048
+"f85dd2d74e1b": 0.048,
+"fc9e9085b411": 0.056
 },
 "sent": [
 {
@@ -6009,71 +6055,109 @@
 "sixth",
 "spot"
 ]
+},
+{
+"e": [
+"call",
+"fake",
+"following",
+"hack",
+"korean",
+"north",
+"tactics",
+"video",
+"warns"
+],
+"k": [
+"hack"
+],
+"t": 1794587576.9522533,
+"u": [
+"https://news.google.com/rss/articles/CBMilwFBVV95cUxNWmdyX3NxbTBPcGNxeUV5WmcwSHNkX01KWWo5Y1dXZEE1cmdWOWFjTlJONjRydklqODRqNzQ5ZGdQb3djdWZ4a2g2RFBrbGRkamItbDRyQkxoYk5ZMUVPOVo4dVpPcmRaRTNNdDRQVjE3T3VRSTg4TlRDSXp1aF9rMEx0UTJUYlhLalVUUlhOWllOcjU0S2Y4?oc=5",
+"https://news.google.com/rss/articles/CBMinwFBVV95cUxORFRDRnVFNzJ1RkhkU0lkS1BFbVEyRTJDUmJYTThCbjQ0TmsyQktkOVlFV2hoQ2pvOWJPZndNTWJjWVNkLURIa3B3U29ySndPbmFZa2lWeVhxSE1XZVE0TWlwQlZBT3NXVHNvT3R0Q2hUa1lkcGhRd1N0ZDAzT1N4TXp4WWFQdE1kUk5iV25vMk94ZUFBd3ZDUVVFWHIwZ3c?oc=5",
+"https://news.google.com/rss/articles/CBMifEFVX3lxTE15OW9femlPSXBvVUEzYjFiVFM3eEhISkNEMURoMEhVTmJqbjhFMFZPQ05RRVlTa3AxbUJsYlJqSG5qOEhsaWZnWEpnNVVSU0ttbXpkNnNldFdTRnJWMFRBYm9QSXAyamxRS3dvYjY5U2VWTlR2R2N1aDFHemI?oc=5",
+"https://news.google.com/rss/articles/CBMitgFBVV95cUxOY1pBSVZGbEhQQzJYQXpYUjJrU3F6SDZZckwwZGwtY0lrUzQzUmV5Tlg0OVk0VzZtSGI0aml5Sjh0NUxHWFg2UmUwamFONEpCU0ZIaDdLTHJTMnp5dzBIWmNmbDd4ZmlhYTBaLUJVV3RYUm96cU9VeWZhaktQZW9BTlVod0tPbS1KMW1NaGtIVmp6bmJpQ1o5LUMxdm5qb2hyTzA2ZlJuQjlvVFhLUFltd2pNak1aZw?oc=5",
+"https://news.google.com/rss/articles/CBMimwFBVV95cUxONnJob3NxRGFiQkVLUXR4QmlsWjlBNUZtY0JINHc0ejJpTm8yeExmR0JoZmZfNGFRaF9tdW9Jc2M4MDZXbUx5QXMtYXAxb2YyNTIteFFTcmdMREZtZGEteGc4Wkd5aUExaW5pOU81OTg0OFBCY2hBRE1NcTBjZ2VmWTB6cHppX2JJdHFiSzQ0MXppb053VklEbU9sdw?oc=5",
+"https://news.google.com/rss/articles/CBMicEFVX3lxTE9FZjBwUmFTYUM5S0J3c2hxMU1UVG13N1pXUVRzTmVoV3FONG1NUEdIZFZuVFQ2Z3RuODdKOGtKZEJRdjB1VGt3ZWxwNlNDay1DRTVQY0ZYZS1QOHU1VHJyeDlUWVI3cTB3b01pNlJGZUQ?oc=5"
+],
+"w": [
+"$400m",
+"call",
+"fake",
+"fbi",
+"following",
+"hack",
+"korean",
+"north",
+"tactics",
+"video",
+"warns"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"9623469349ed",
+0,
+342,
+2
+],
+[
 "580b0957c59b",
-22,
-241,
+21,
+250,
 3
 ],
 [
-"33ac31d7ef5f",
-0,
-352,
+"820a299d512d",
+10,
+4,
 1
 ],
 [
 "001b550e4687",
 20,
-82,
+92,
 2
 ],
 [
-"66362dec051e",
-75,
-299,
-7
-],
-[
 "da1d0b6966a6",
-47,
-225,
+45,
+234,
 3
 ],
 [
 "a7764e3cdd33",
-71,
-289,
+70,
+298,
 4
 ],
 [
 "8bc92a0fe972",
 10,
-2,
+12,
 1
+],
+[
+"66362dec051e",
+73,
+308,
+9
 ],
 [
 "52a19019cfd0",
 0,
-332,
+341,
 1
 ],
 [
 "7bf3569cf0aa",
 0,
-334,
+344,
 1
-],
-[
-"1f18fa9f79cc",
-61,
-94,
-2
 ]
 ],
-"top_at": 1794587320.7393517
+"top_at": 1794587886.0506332
 }
