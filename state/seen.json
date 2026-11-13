@@ -540,10 +540,11 @@
 "srcs": [
 "Crypto Briefing",
 "Crypto News",
+"CryptoTicker.io",
 "Howl.Link",
 "The Crypto Times"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794546000.0,
 "tgtext": "",
 "title": "Bitcoin Price Breaks Below $70,000: Is A Crash To $62,000 Next? - TalkMarkets",
@@ -665,7 +666,7 @@
 "Lowell Sun",
 "Wu Blockchain"
 ],
-"t": 1794563011.2101753,
+"t": 1794563318.7429197,
 "t0": 1794548758.0,
 "tgtext": "Binance Publishes New Reserve Snapshot After Replenishing $6.34 Billion in Stolen Assets\n\nBinance released a new proof-of-reserves snapshot dated November 12, showing user BTC holdings rose 0.35% from November 4 to approximately 687,900 BTC, up 2,388 BTC. ETH holdings increased 1.04% to 3.48 million ETH, while USDT holdings fell 3.68% to 24.3 billion tokens, down 928 million USDT. BNB holdings rose 1.03% to 42.95 million tokens.\n\nUnlike its usual monthly snapshots, Binance conducted this additional review following the October 29 hack involving approximately $6.34 billion in crypto assets. The exchange said it had fully replenished the affected assets. \u2014 link",
 "title": "Binance Publishes New Reserve Snapshot After Replenishing $6.34 Billion in Stolen Assets",
@@ -710,7 +711,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794555671.0,
 "tgtext": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 $ETH ($23.64M) 2 months ago, bought another 10,380 $ETH ($19.91M) just 1 hour ago.\n\nThe whale has now accumulated 25,498 $ETH ($49.44M) at an average price of $2,382 and is sitting on $11.3M in unrealized losses.\n\nhttps://arkm.com/explorer/address/0x4cee611502f378300981807d506629DA35cee4a7",
 "title": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 ETH ($23.64M) 2 months ago, bought another 10,380 ETH ($19.91M) just 1 hour ago.",
@@ -936,7 +937,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794550714.0,
 "tgtext": "\ud83d\udea8 NOW: The Crypto Fear & Greed Index falls to 20, deep in \u201cExtreme Fear\u201d and at its lowest level in four months, as $BTC dropped below $68K.\n\nNews | Markets | YouTube",
 "title": "NOW: The Crypto Fear & Greed Index falls to 20, deep in \u201cExtreme Fear\u201d and at its lowest level in four months, as BTC dropped below $68K.",
@@ -1273,25 +1274,20 @@
 },
 "52770b56eb05": {
 "coin": "",
-"src": "Cointelegraph",
+"src": "FinanceFeeds",
 "srcs": [
-"AOL.co.uk",
 "BeInCrypto",
-"BigGo Finance",
-"Bitcoin Magazine",
-"Bloomberg.com"
+"Digital Watch Observatory",
+"FinanceFeeds",
+"Lowell Sun",
+"Wu Blockchain"
 ],
-"t": 1794531548.3923624,
-"t0": 1794509993.0,
-"tgtext": "\ud83d\udea8 BIG: The US DOJ seized over $1.2 billion in crypto stolen from Binance and disrupted North Korea\u2019s $400 million FaceStealer scheme.\n\nNews | Markets | YouTube\nBinance Fully Replenishes Assets Following $6.3B Hack, Publishes New PoR Snapshot\n\nBinance announced that it has fully covered the assets affected by the security incident and published a new Proof of Reserves (PoR) snapshot. Once the zero-knowledge proof is generated, users will be able to independently verify that their assets are backed at a minimum ratio of 1:1. \u2014 link",
-"title": "BIG: The US DOJ seized over $1.2 billion in crypto stolen from Binance and disrupted North Korea\u2019s $400 million FaceStealer scheme.",
-"url": "https://t.me/cointelegraph/73248",
-"urls": [
-"https://bitcoinmagazine.com/news/binance-covers-6-34-billion-hack",
-"https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
-"https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
-"https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize"
-]
+"t": 1794563623.2426462,
+"t0": 1794547107.0,
+"tgtext": "Binance Publishes New Reserve Snapshot After Replenishing $6.34 Billion in Stolen Assets\n\nBinance released a new proof-of-reserves snapshot dated November 12, showing user BTC holdings rose 0.35% from November 4 to approximately 687,900 BTC, up 2,388 BTC. ETH holdings increased 1.04% to 3.48 million ETH, while USDT holdings fell 3.68% to 24.3 billion tokens, down 928 million USDT. BNB holdings rose 1.03% to 42.95 million tokens.\n\nUnlike its usual monthly snapshots, Binance conducted this additional review following the October 29 hack involving approximately $6.34 billion in crypto assets. The exchange said it had fully replenished the affected assets. \u2014 link",
+"title": "Binance Fully Replenishes $6.34 Billion in Customer Assets Following Record Crypto Hack",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVUVNUFdyX0c2R0NBM2NxdDFYandkVktnOUhRbG9HLTdiY2RWcGM0N04tZ3dGcHRHcEhPS0JKcmNST1Jkc1JjRmdXNlAtOXdmMmtnTFd1TTNiTDM1RlpBZ1NLX3VCYnY5eTRUU2FacklhWGJ5VzcteDc3dWJKdU81WW5VcDN4ZTB6US1hNEUyTmJOSlZ6T25Wa3M1OFpuYzZCODVpVmhJZmFiaDlBZjRjSUdR?oc=5",
+"urls": []
 },
 "5355aa0992ef": {
 "coin": "",
@@ -1669,7 +1665,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794546701.0,
 "tgtext": "Highlight Clip: Michael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nMichael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 in S\u00e3o Paulo, Brazil, remotely. He said political conditions can change and that assets held for the long term should be both durable and portable. He pointed to real estate, which cannot be moved, and physical gold, which is difficult to transport. Bitcoin holders, he said, can choose to take self-custody, switch custodians, or move their assets to another jurisdiction. In his view, the option to move assets is what gives Bitcoin value. \u2014 link",
 "title": "Highlight Clip: Michael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets",
@@ -1698,7 +1694,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -1985,7 +1981,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794543986.0,
 "tgtext": "\ud83d\udea8 JUST IN: Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.\n\n$BTC fell below $69K.\n$ETH dropped under $1,950.\n$SOL slid to $78.\n\nNews | Markets | YouTube",
 "title": "Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.",
@@ -2152,7 +2148,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794563011.2101753,
+"t": 1794563623.2426462,
 "t0": 1794552844.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 $ETH($3.87M)!\n\nEvery time #EthereumFoundation-linked wallets dump $ETH, the price drops.\n\nOct 12: $ETH down 9%.\nOct 26: $ETH down 7.7%.\nNov 10: $ETH down 10.4%.\n\nToday marks the 4th sale. How much further will $ETH fall?\n\nhttps://arkm.com/explorer/address/0x5CBC6299faB3320E7758ac97fd4CA45E5B722059",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 ETH($3.87M)!",
@@ -2234,7 +2230,7 @@
 "Proactive financial news",
 "www.trendingtopics.eu"
 ],
-"t": 1794561482.4544017,
+"t": 1794563623.2426462,
 "t0": 1794545820.0,
 "tgtext": "",
 "title": "On the Chain: Bitcoin crashes below US$70,000 as US$622 million liquidation wave hits crypto",
@@ -3732,7 +3728,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794563011.2101753,
+"t": 1794563318.7429197,
 "t0": 1794553642.0,
 "tgtext": "A whale just dumped 16,700 $ETH ($31M) in a single trade at $1,852.45.\n\nA month ago, the whale FOMO-bought 8,631 $ETH ($23.7M) at $2,749.\n\nClassic buy high, sell low!\n\nhttps://arkm.com/explorer/address/0xBE4265E12Cde8b8e1fFd54A92401037AB06a0c5F",
 "title": "A whale just dumped 16,700 ETH ($31M) in a single trade at $1,852.45.",
@@ -3822,19 +3818,19 @@
 },
 "f5b2e71ecb0e": {
 "coin": "bitcoin",
-"src": "BitKE",
+"src": "CryptoPotato",
 "srcs": [
-"Altcoin Buzz",
 "BigGo Finance",
 "BitKE",
 "CoinMarketCap",
-"Crypto News"
+"CryptoPotato",
+"KuCoin"
 ],
-"t": 1794562399.231833,
+"t": 1794563623.2426462,
 "t0": 1794542760.0,
 "tgtext": "",
-"title": "MARKET ANALYSIS | Bitcoin Falls Below $70,000 as Crypto Liquidations Surpass $1 Billion",
-"url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNFhMX3J2QkZBOV9VX180UTNhY1VYYktyWHZxNkNSc01XRHRzZkpZUjZoZHE2RkhQYm5yYmhCQVhVQVdTeXROU2thXzJlODhXYXBDWURzSkpZbjgxMC1TcTIzbw?oc=5",
+"title": "Bitcoin Price Dumps Below $69K as Liquidations Top $1.4B: XRP and ETH Bleed Heavy",
+"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPenhXWUE4U095UURaRFhnT1pOd2h3bFZFMDByREVyQTlFSmktV3hfTTRqVk1NWmN3dURFT3J3eW1NZXpwNUVzcFJ6bk9vUW1idGk1V3piSW5qcHF4aW1rUkhxanpnZjNKWWdPcGhWN1hNeWpnVDFyUkxrY3pqbkQtM3NudU5McHVCZXJ6bTNkUUxwaExjRk5TUUs4MzA1UlFucHpweG5WSQ?oc=5",
 "urls": []
 },
 "f9c50b64c8b8": {
@@ -3952,45 +3948,45 @@
 },
 "probs": {
 "0174d5895315": 0.083,
-"08119db1f5f9": 0.068,
+"08119db1f5f9": 0.334,
 "0d07a1987593": 0.031,
 "17cd6a989bd6": 0.076,
 "1b90dcb58b93": 0.29,
 "1cb91a2596fc": 0.047,
 "250f9166da2d": 0.285,
-"2980c732dfde": 0.719,
-"2f8bfdc47703": 0.942,
+"2980c732dfde": 0.827,
 "3316f1848ee0": 0.844,
 "3794fc7fde10": 0.291,
 "3d4af709239d": 0.539,
 "462561413a34": 0.258,
-"4fdbe4d97331": 0.02,
+"4838abaa5052": 0.071,
+"52770b56eb05": 0.924,
 "59b2c49be111": 0.052,
 "6591e36ec3f0": 0.033,
-"6d04d8755984": 0.951,
+"6d04d8755984": 0.936,
+"6ddacb073604": 0.091,
 "76952444353c": 0.053,
 "77925491477d": 0.199,
 "7f12b251ff00": 0.778,
 "80c07c637987": 0.048,
-"839a44e5c6a3": 0.322,
-"875a104e734e": 0.014,
 "8a24904c1846": 0.947,
 "8ca776d38e78": 0.222,
-"8ed9e4104ce8": 0.35,
+"8ed9e4104ce8": 0.752,
 "8fbbaded1188": 0.127,
 "91f617a1ecfc": 0.058,
-"95a539d5a709": 0.483,
-"9ab49fc6e182": 0.037,
+"95a539d5a709": 0.202,
 "9f5a28491bad": 0.55,
-"a39160e0103a": 0.717,
-"a9f208c5f7e6": 0.048,
 "aa6d8ecc2e16": 0.201,
+"c0d470715705": 0.071,
 "c17df487ca4f": 0.538,
 "c570da89c3e1": 0.156,
 "e3fbb5e43327": 0.654,
 "f0b958ec08cc": 0.752,
 "f310e3d8dbd0": 0.103,
-"f38650c55470": 0.054
+"f38650c55470": 0.054,
+"f5013d977706": 0.176,
+"f5b2e71ecb0e": 0.772,
+"fbd833e0aed6": 0.543
 },
 "sent": [
 {
@@ -5551,65 +5547,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"6d04d8755984",
-25,
-71,
-1
-],
-[
 "8a24904c1846",
 26,
-169,
+180,
 1
 ],
 [
-"2f8bfdc47703",
-58,
-238,
-2
+"6d04d8755984",
+25,
+81,
+1
+],
+[
+"52770b56eb05",
+78,
+275,
+5
 ],
 [
 "3b42269f4bc0",
-7,
-205,
+6,
+215,
 1
 ],
 [
 "6a67cd7eacf4",
-6,
-272,
+5,
+282,
 1
 ],
 [
 "3316f1848ee0",
 24,
-122,
-1
-],
-[
-"7f12b251ff00",
-13,
-317,
-1
-],
-[
-"f0b958ec08cc",
-34,
-156,
+133,
 1
 ],
 [
 "2980c732dfde",
-58,
-284,
-4
+56,
+294,
+5
 ],
 [
-"a39160e0103a",
-67,
-357,
-15
+"7f12b251ff00",
+12,
+327,
+1
+],
+[
+"f5b2e71ecb0e",
+63,
+348,
+7
+],
+[
+"8ed9e4104ce8",
+60,
+297,
+3
 ]
 ],
-"top_at": 1794563011.2101753
+"top_at": 1794563623.2426462
 }
