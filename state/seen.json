@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794489260.123074,
 1794491281.4701464,
 1794492912.8793943,
 1794493983.4536407,
@@ -17,7 +16,8 @@
 1794559030.042534,
 1794560255.8448315,
 1794562706.7917051,
-1794570605.8043206
+1794570605.8043206,
+1794576820.24269
 ],
 "menu": {
 "00b9b08f18c7": {
@@ -219,6 +219,19 @@
 "tgtext": "",
 "title": "ETH short positions saw $6.51M liquidated in an hour despite stable price near $2,061",
 "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWlYxQnBGdno3ZXNMd2tDcGNQRF9rU2VZUnVjZGFOc0M2ZjVEUDFTSWltZE1XcGd0ZDBzNGhobkF2QWZmaHdSRFhBUmZsZDhTa0JNaGliNThDVXdRSXVXcW5vTEtLaUxHU2NBczBqeF9iek45cXVYcVpJaEF1Y1N0MXN2RVRoZw?oc=5",
+"urls": []
+},
+"0e7d9a49f2bd": {
+"coin": "usd-coin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794576820.24269,
+"t0": 1794576444.0,
+"tgtext": "Hyperliquid Q3 Protocol Revenue Hits $190.9M, With USDC Reserve Yield Accounting for Nearly Half of Revenue Growth\n\nAccording to Hyperliquid Research Collective (HRC), Hyperliquid\u2019s Q3 protocol revenue reached $190.9 million, up 21.7% QoQ but down 36.5% YoY, marking its highest quarterly revenue of 2026. USDC reserve yield accrued since August 27 contributed $17.3 million, accounting for nearly half of the quarterly revenue increase.\n\nPriority fees reached $9.6 million, approximately 3.3 times the previous quarter\u2019s level. Hyperliquid also recorded a quarterly high of 65,161 daily active traders, while its Assistance Fund spent approximately $149 million on HYPE buybacks during the quarter. \u2014 link",
+"title": "Hyperliquid Q3 Protocol Revenue Hits $190.9M, With USDC Reserve Yield Accounting for Nearly Half of Revenue Growth",
+"url": "https://t.me/wublockchainenglish/26814",
 "urls": []
 },
 "0ec825c2ef4c": {
@@ -444,6 +457,23 @@
 "title": "A whale deposited 1,000 BTC ($73.78M) into Binance 8 hours ago after 4 years of inactivity.",
 "url": "https://t.me/lookonchainchannel/11011",
 "urls": []
+},
+"2331ce939b6d": {
+"coin": "bitcoin",
+"src": "CryptoSlate",
+"srcs": [
+"Bloomberg.com",
+"CoinDesk",
+"CryptoSlate"
+],
+"t": 1794576820.24269,
+"t0": 1794567296.0,
+"tgtext": "",
+"title": "Bitcoin falls below $70,000 as $870 million in bullish bets are liquidated",
+"url": "https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/",
+"urls": [
+"https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/"
+]
 },
 "250f9166da2d": {
 "coin": "bitway",
@@ -710,7 +740,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794555671.0,
 "tgtext": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 $ETH ($23.64M) 2 months ago, bought another 10,380 $ETH ($19.91M) just 1 hour ago.\n\nThe whale has now accumulated 25,498 $ETH ($49.44M) at an average price of $2,382 and is sitting on $11.3M in unrealized losses.\n\nhttps://arkm.com/explorer/address/0x4cee611502f378300981807d506629DA35cee4a7\nChun (@satofishi) bought another 5,746 $ETH ($11.09M) an hour ago.\nhttps://x.com/lookonchain/status/2120815943161127313",
 "title": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 ETH ($23.64M) 2 months ago, bought another 10,380 ETH ($19.91M) just 1 hour ago.",
@@ -753,7 +783,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794566187.0,
 "tgtext": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock\n\nJPMorgan\u2019s latest 13F shows 848,932 Strategy shares worth about $131.3 million as of September 30, up roughly 36% quarter over quarter, alongside put options covering 1.15 million MSTR shares with an underlying value of about $177.6 million. The bank also held 11.41 million BlackRock IBIT shares worth about $540 million, up 9.6%, and roughly 1.58 million Coinbase shares.\n\nThe holdings include assets managed across JPMorgan-affiliated investment entities and do not solely represent proprietary positions. \u2014 link",
 "title": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock",
@@ -992,10 +1022,11 @@
 "srcs": [
 "Coinpaper",
 "Crypto News",
+"CryptoTicker.io",
 "Traders Union",
 "TradingKey"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794556651.0,
 "tgtext": "",
 "title": "Ethereum drops below $2,000: Can ETH recover amid $1.64 billion in crypto liquidations?",
@@ -1160,7 +1191,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1794576207.2108285,
+"t": 1794576515.7910795,
 "t0": 1794572341.0,
 "tgtext": "",
 "title": "Israeli Police Arrest Five Over $5 Million Cryptocurrency Money-Laundering Scheme on WhatsApp",
@@ -1775,7 +1806,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -1975,7 +2006,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794567270.0,
 "tgtext": "AguilaTrades(@AguilaTrades) has been doing well lately!\n\nHe closed his $BTC short 4 hours ago, making $1.3M in profit.\n\nRight after that, he opened another 40x short on 500 $BTC ($34.65M), with a liquidation price of $72,273.30.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) has been doing well lately!",
@@ -2717,9 +2748,10 @@
 "srcs": [
 "Cointelegraph",
 "Crypto Briefing",
-"Cryptonews.net"
+"Cryptonews.net",
+"The Crypto Times"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794570000.0,
 "tgtext": "\ud83d\udea8 ALERT: MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.\n\nMANTRA announces emergency seven-day unbonding pause.\n\nNews | Markets | YouTube",
 "title": "MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.",
@@ -3702,7 +3734,7 @@
 "Cointelegraph",
 "Crypto Economy"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794560045.0,
 "tgtext": "\ud83d\udea8 ALERT: Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.\n\nNews | Markets | YouTube",
 "title": "Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.",
@@ -4099,9 +4131,10 @@
 "Beinsure",
 "Cointelegraph",
 "CryptoNinjas",
-"Digital Watch Observatory"
+"Digital Watch Observatory",
+"The Cryptonomist"
 ],
-"t": 1794576207.2108285,
+"t": 1794576820.24269,
 "t0": 1794562034.0,
 "tgtext": "",
 "title": "US targets North Korean crypto schemes and seizes $1.2 billion linked to Binance hack",
@@ -4135,83 +4168,46 @@
 "probs": {
 "0407e0d099a2": 0.164,
 "0d07a1987593": 0.179,
+"0e7d9a49f2bd": 0.892,
 "1b90dcb58b93": 0.062,
+"2331ce939b6d": 0.728,
 "240e4a62560c": 0.068,
 "297f8318bffe": 0.221,
 "33ac31d7ef5f": 0.856,
-"3794fc7fde10": 0.167,
+"3794fc7fde10": 0.348,
 "392111f5a008": 0.113,
 "3ba788b5aca9": 0.069,
-"3d4af709239d": 0.84,
+"3d4af709239d": 0.882,
 "4174ede92851": 0.268,
 "4467183cb1bb": 0.104,
 "464d229614f6": 0.617,
 "46a3592c41e6": 0.062,
-"46c024edc2c7": 0.12,
 "4a7df3e480bd": 0.053,
-"4e9506cf0aa5": 0.811,
 "4f434dd871c3": 0.062,
 "4fdbe4d97331": 0.21,
-"6d04d8755984": 0.93,
-"778f3c5f8284": 0.614,
 "7bf3569cf0aa": 0.708,
 "80c07c637987": 0.107,
 "8ca776d38e78": 0.446,
 "9623469349ed": 0.164,
-"a7764e3cdd33": 0.869,
-"b69d43d99a6a": 0.049,
+"a7764e3cdd33": 0.791,
+"b593450dfff0": 0.408,
 "b70fd3c34ba7": 0.089,
 "b83aa3c08a88": 0.416,
+"bad1ee360aed": 0.175,
 "bbd38ab79ae9": 0.018,
 "c517f6987729": 0.371,
 "ce6b3f10b13b": 0.225,
 "d70689256257": 0.084,
 "dc1ab0a2fc83": 0.046,
 "e3fbb5e43327": 0.934,
+"ea881a652104": 0.364,
 "eb4874ccf75e": 0.087,
 "f2ae513ebe11": 0.076,
 "f409c1cbb3e1": 0.091,
 "f7dc1450eaf5": 0.2,
-"fd6f5a144a96": 0.723
+"fd6f5a144a96": 0.837
 },
 "sent": [
-{
-"e": [
-"exemption",
-"innovation",
-"launch",
-"november",
-"okxice",
-"plans",
-"securities",
-"tokenized",
-"trading",
-"under",
-"venue"
-],
-"k": [],
-"t": 1794403358.944655,
-"u": [
-"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRldWZkpoUWJkVE9MQ3dMVFAwM19UVWE0M290RFpJOUVoM3IwY2lOaUFHbWtlelMyeTkwbm5LY2I5VzdhNXU2ZE1DMFd0b25mWlhnVUdOQTdQZDlMY1prYlFRTVRWT3VzTFRpN2Itb2FORVBmR1pfM3VjWGoyN0RtM2FRdUptT1hLRjVTekZHazZpWUU0QVBSTldjaTNXLUp5cHc3MFNrYVVOSEZuZU52cHlHUEFCTGRHdlhUdDFLYzFLcDgwQWY2TFZjR2NDYjF6cUpFcTJmcy1sb2JZR1E?oc=5",
-"https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342",
-"https://t.me/wublockchainenglish/26782",
-"https://t.me/WatcherGuru/15950"
-],
-"w": [
-"exemption",
-"innovation",
-"launch",
-"november",
-"okxice",
-"plans",
-"sec",
-"securities",
-"tokenized",
-"trading",
-"under",
-"venue"
-]
-},
 {
 "e": [
 "america",
@@ -5720,71 +5716,104 @@
 "stock",
 "while"
 ]
+},
+{
+"e": [
+"accounting",
+"growth",
+"half",
+"hits",
+"hyperliquid",
+"nearly",
+"protocol",
+"reserve",
+"revenue",
+"yield"
+],
+"k": [],
+"t": 1794576820.24269,
+"u": [
+"https://t.me/wublockchainenglish/26814"
+],
+"w": [
+"$190",
+"accounting",
+"growth",
+"half",
+"hits",
+"hyperliquid",
+"nearly",
+"protocol",
+"reserve",
+"revenue",
+"usdc",
+"yield"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"e3fbb5e43327",
-54,
-269,
-2
-],
-[
 "6d04d8755984",
-11,
-291,
+9,
+301,
 1
 ],
 [
-"a7764e3cdd33",
-75,
-103,
-3
+"e3fbb5e43327",
+52,
+280,
+2
 ],
 [
-"33ac31d7ef5f",
-10,
-167,
+"0e7d9a49f2bd",
+16,
+6,
 1
 ],
 [
 "3d4af709239d",
-66,
-326,
-4
+65,
+336,
+5
 ],
 [
-"3316f1848ee0",
-3,
-342,
+"33ac31d7ef5f",
+10,
+177,
 1
 ],
 [
-"4e9506cf0aa5",
-47,
-196,
-2
+"3316f1848ee0",
+2,
+352,
+1
 ],
 [
 "fd6f5a144a96",
-83,
-236,
+82,
+246,
+5
+],
+[
+"a7764e3cdd33",
+85,
+114,
 4
+],
+[
+"2331ce939b6d",
+75,
+159,
+3
 ],
 [
 "7bf3569cf0aa",
 10,
-149,
+159,
 1
-],
-[
-"464d229614f6",
-54,
-64,
-3
 ]
 ],
-"top_at": 1794576207.2108285
+"top_at": 1794576820.24269
 }
