@@ -407,21 +407,6 @@
 "url": "https://t.me/binance_announcements/9121",
 "urls": []
 },
-"267c9c177bcd": {
-"coin": "zcash",
-"src": "Cryptopolitan",
-"srcs": [
-"CoinDesk",
-"Cryptopolitan",
-"TradingView"
-],
-"t": 1794358173.855454,
-"t0": 1794336920.0,
-"tgtext": "",
-"title": "Grayscale takes Zcash ETF pitch to Wall Street Journal print",
-"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12TDYzXzN5UnRQZzl3dlZGclZUTXRwczZ3UFlCYW9KVnMyQWtJRW1PT1psbnk2UVVwUVh5LVBtVmlmZTQya0VOMkVvdkRZTkhUNnV6dFMzRjltVlhncmV6U0FKUHdNaGVhNmdxTTBjYlF0T2RFaUp2SGdR?oc=5",
-"urls": []
-},
 "26d54bf13e07": {
 "coin": "",
 "src": "Cointelegraph",
@@ -447,6 +432,20 @@
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: The market sees a 100% chance of a Fed rate hike in December.\n\nCME FedWatch puts the odds at 90.8% for a 25 bps hike and 9.2% for a 50 bps hike.\n\nNews | Markets | YouTube",
 "title": "NOW: The market sees a 100% chance of a Fed rate hike in December.",
 "url": "https://t.me/cointelegraph/73224",
+"urls": []
+},
+"283483ef1f30": {
+"coin": "bitcoin",
+"src": "Coinpedia",
+"srcs": [
+"Bitcoin News",
+"Coinpedia"
+],
+"t": 1794531548.3923624,
+"t0": 1794512185.0,
+"tgtext": "",
+"title": "Why Is Crypto Crashing? $560 Billion Wiped Out as Bitcoin Price Falls Below $72K",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckRxOHdNWDJGVWtRcU4tVV83RU5lN3ZzQm1CT3NmdXlOY0FpM3VOc3J2NVlOSlRkZ3c1cmZsX0ltVTVTNWE5ODlSaVF1TlpweGdWa2tTZTF1Q2I4SVdBbngxOEs3MHdWQnotdGtUNjFrWEREaGg2VWZwYUZDRkZjNkVvZ0w0eWZtUGJSajAxVmhPcjV4d3pjRUtkWVh4ZnhjVTJaREo0aHHSAa4BQVVfeXFMUC02M291NENVYmRKVGFaTjhqcEEyV1F4NTdiWGFQZm5tVDRvVGdaTUpPamh2eWtIOEhYMVN5dmJ2aTQxQ0pVTTJHdjM3bXdnVE1Hc0dFM1E1RGRQaEtabGRDdUJrNFZxX01GdG5TcGpSNEI4TWFMNllCRllHSkxyZUV2Qk82UlZIeGNJNlJmQXp4anBReE5YZHUxX1Z6WjdxcUZoNnBLSjM4alM0N2hn?oc=5",
 "urls": []
 },
 "28a6e3d1a2f7": {
@@ -609,7 +608,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794514201.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The Justice Department investigates whether companies tied to Alice Huang helped smuggle Super Micro products into China, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "The Justice Department investigates whether companies tied to Alice Huang helped smuggle Super Micro products into China, per Bloomberg.",
@@ -939,7 +938,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794530777.2277792,
+"t": 1794531242.7677238,
 "t0": 1794509703.0,
 "tgtext": "Today, Jensen Huang announced he is stepping down as CEO of Nvidia.\n\nHe founded $NVDA when he was 30 years old to transform gaming by making powerful 3D graphics accessible to everyone.\n\n33 years later, it is now the backbone of the AI revolution, worth over $4,000,000,000,000\n\ud83c\uddfa\ud83c\uddf8 JUST IN: US Senate Banking Committee Chairman Tim Scott calls on former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify over national security concerns tied to sensitive US tech.\n\nNews | Markets | YouTube",
 "title": "US Senate Banking Committee Chairman Tim Scott calls on former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify over national security concerns tied to sensitive US tech.",
@@ -1026,9 +1025,9 @@
 "BeInCrypto",
 "BigGo Finance",
 "Bitcoin Magazine",
-"Blockonomi"
+"Bloomberg.com"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794509993.0,
 "tgtext": "\ud83d\udea8 BIG: The US DOJ seized over $1.2 billion in crypto stolen from Binance and disrupted North Korea\u2019s $400 million FaceStealer scheme.\n\nNews | Markets | YouTube\nBinance Fully Replenishes Assets Following $6.3B Hack, Publishes New PoR Snapshot\n\nBinance announced that it has fully covered the assets affected by the security incident and published a new Proof of Reserves (PoR) snapshot. Once the zero-knowledge proof is generated, users will be able to independently verify that their assets are backed at a minimum ratio of 1:1. \u2014 link",
 "title": "BIG: The US DOJ seized over $1.2 billion in crypto stolen from Binance and disrupted North Korea\u2019s $400 million FaceStealer scheme.",
@@ -1329,7 +1328,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794517669.0,
 "tgtext": "",
 "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
@@ -1341,15 +1340,16 @@
 },
 "655345254eb5": {
 "coin": "bitcoin",
-"src": "Watcher.Guru",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794530410.0,
-"tgtext": "JUST IN: Bitcoin falls under $71,000\n\n@WatcherGuru",
-"title": "Bitcoin falls under $71,000",
-"url": "https://t.me/WatcherGuru/15993",
+"tgtext": "JUST IN: Bitcoin falls under $71,000\n\n@WatcherGuru\n\ud83d\udea8 NOW: $BTC falls below $71,000.\n\nNews | Markets | YouTube",
+"title": "NOW: BTC falls below $71,000.",
+"url": "https://t.me/cointelegraph/73251",
 "urls": []
 },
 "686b55e482db": {
@@ -1653,7 +1653,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794510865.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Experts warn US artificial intelligence is \"fully compromised\" by China following Jensen Huang's affair with a Chinese Spy.\n\n\"Our data centers, compromised. All of our models, stolen.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Experts warn US artificial intelligence is \"fully compromised\" by China following Jensen Huang's affair with a Chinese Spy.",
@@ -2189,22 +2189,6 @@
 "url": "https://t.me/lookonchainchannel/11007",
 "urls": []
 },
-"a5e3a4d713dd": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Cointelegraph",
-"Wu Blockchain"
-],
-"t": 1794358647.1355412,
-"t0": 1794337211.0,
-"tgtext": "Goldman Sachs, Citi and Other Banks Commit $270M to Joint Stablecoin Venture\n\nAccording to Bloomberg, a group of financial institutions, including Goldman Sachs, Citigroup, Santander and Deutsche Bank, have committed approximately $270 million to Project Faro, a joint stablecoin venture. The funding is intended to cover five years of operations. The project, involving 21 financial institutions, plans to establish a US-based company to issue a dollar-denominated stablecoin in the first half of 2027, with a euro-denominated stablecoin expected to follow. Other participants include Wells Fargo, Fidelity, UBS and Lloyds Banking Group. The initiative aims to compete with established issuers Tether and Circle, whose stablecoins account for roughly 85% of the global market. \u2014 link",
-"title": "Goldman Sachs, Citi and Other Banks Commit $270M to Joint Stablecoin Venture",
-"url": "https://t.me/wublockchainenglish/26771",
-"urls": [
-"https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "a6dee2998b7d": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2499,7 +2483,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794511812.0,
 "tgtext": "JUST IN: Former Nvidia $NVDA CEO Jensen Huang had an intimate relationship with a second employee, bringing his total number of affairs to 3, Reuters reports.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f HUGE: Jensen Huang reportedly had an intimate relationship with a second employee, bringing the alleged total number of women involved in extramarital affairs to three.\n\nNews | Markets | YouTube",
 "title": "Former Nvidia NVDA CEO Jensen Huang had an intimate relationship with a second employee, bringing his total number of affairs to 3, Reuters reports.",
@@ -2532,19 +2516,6 @@
 "tgtext": "",
 "title": "$220M in Longs Liquidated in 1 Hour as ETH Dips Below $2K and BTC Slides to $72K",
 "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORHlqS1hFNlpWc0RDbU43MjZEbjRiTHR1S19kYldURnFoTzh1cU90XzVyWms1bHFwU3o1bXNzeUE1S285ZDdHZDBIaE5TZTQxeHQwc3hPY2llekQwb2R6eHJtYjVtdmx6ZnRlMXVoT0l2X1VzblV4bW9pNnVmMDZtNjJnSUY3WGFGRUw4dlFsX3hoc2lLck9jTWxIOGtObnJiOWVrbnln?oc=5",
-"urls": []
-},
-"bc223a512c96": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794358173.855454,
-"t0": 1794345001.0,
-"tgtext": "\ud83d\udea8 BIG: SoftBank reported a $7.1 billion quarterly loss, including $3.7 billion in charges related to AI data-center power equipment. \n\nIts stock has fallen more than 50% from its June peak.\n\nNews | Markets | YouTube",
-"title": "BIG: SoftBank reported a $7.1 billion quarterly loss, including $3.7 billion in charges related to AI data-center power equipment.",
-"url": "https://t.me/cointelegraph/73177",
 "urls": []
 },
 "bc642ee20b6b": {
@@ -2674,7 +2645,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794517501.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: Louisiana Attorney General Liz Murrill sues Kalshi, Polymarket, Coinbase, Robinhood and other prediction market operators over alleged illegal gambling, seeking an immediate injunction.\n\nNews | Markets | YouTube",
 "title": "BIG: Louisiana Attorney General Liz Murrill sues Kalshi, Polymarket, Coinbase, Robinhood and other prediction market operators over alleged illegal gambling, seeking an immediate injunction.",
@@ -2780,7 +2751,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794530777.2277792,
+"t": 1794531548.3923624,
 "t0": 1794514477.0,
 "tgtext": "JUST IN: Elon Musk's SpaceX $SPCX and Tesla $TSLA could announce merger as early as December.\n\n@WatcherGuru",
 "title": "Elon Musk's SpaceX SPCX and Tesla TSLA could announce merger as early as December.",
@@ -3313,6 +3284,20 @@
 "https://cryptoslate.com/bitcoin-plunges-to-71k-as-jensen-huang-abruptly-resigns-sending-nvidia-into-2-trillion-wipeout/"
 ]
 },
+"ee61fd44c150": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1794531548.3923624,
+"t0": 1794522757.0,
+"tgtext": "Today, Jensen Huang announced he is stepping down as CEO of Nvidia.\n\nHe founded $NVDA when he was 30 years old to transform gaming by making powerful 3D graphics accessible to everyone.\n\n33 years later, it is now the backbone of the AI revolution, worth over $4,000,000,000,000\n\ud83c\uddfa\ud83c\uddf8 JUST IN: US Senate Banking Committee Chairman Tim Scott calls on former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify over national security concerns tied to sensitive US tech.\n\nNews | Markets | YouTube",
+"title": "US Senate Banking Committee Chairman Tim Scott calls on former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify over national security concerns tied to sensitive US tech.",
+"url": "https://t.me/cointelegraph/73249",
+"urls": []
+},
 "eeb663767ea4": {
 "coin": "",
 "src": "The Block",
@@ -3494,17 +3479,17 @@
 "0ec825c2ef4c": 0.145,
 "2096ba6a55a5": 0.01,
 "218c44832d7c": 0.135,
-"283483ef1f30": 0.077,
-"35c7640b042d": 0.031,
+"283483ef1f30": 0.427,
 "395622b3c5c9": 0.03,
-"3ba859323e97": 0.051,
+"3ba859323e97": 0.063,
 "3d88f6d2763f": 0.12,
 "4601af5e9591": 0.04,
-"47b99439ee67": 0.755,
 "4896fa1da51f": 0.15,
-"52770b56eb05": 0.825,
+"4b2ee0e5e5f2": 0.176,
+"52770b56eb05": 0.83,
+"621d0a992d9a": 0.043,
 "6509ef29cc64": 0.483,
-"655345254eb5": 0.595,
+"655345254eb5": 0.953,
 "6d9aabebe246": 0.075,
 "78f7a83e386d": 0.07,
 "7d2022b04c45": 0.029,
@@ -3512,15 +3497,13 @@
 "91c70b26a545": 0.089,
 "9b21bc116b21": 0.026,
 "a1c7bbbf4b99": 0.051,
-"a21dff1b9d7c": 0.058,
 "a47a6aa34b43": 0.013,
 "a83ab7db6ed4": 0.102,
 "b3bb58a8153b": 0.076,
 "b4be89a5c381": 0.038,
 "ba833340e045": 0.049,
 "bb871b3ee5cf": 0.028,
-"befdd2833449": 0.689,
-"bf98c71a8c9d": 0.593,
+"befdd2833449": 0.327,
 "c2795f04d544": 0.344,
 "cbc2b360fc46": 0.148,
 "cca660622d13": 0.112,
@@ -3528,61 +3511,13 @@
 "d4bb7d465ce0": 0.05,
 "d7ade7f6fa83": 0.043,
 "dab8e1949f2d": 0.06,
+"ddedf4216ac9": 0.039,
 "eade2d9d41c9": 0.026,
-"f433a053dfbc": 0.057,
+"ee61fd44c150": 0.678,
+"f433a053dfbc": 0.037,
 "f6b62b28b08c": 0.132
 },
 "sent": [
-{
-"e": [
-"kalshi",
-"politico"
-],
-"k": [
-"legal"
-],
-"t": 1794348098.686599,
-"u": [
-"https://t.me/cointelegraph/73178",
-"https://t.me/wublockchainenglish/26772"
-],
-"w": [
-"about",
-"according",
-"against",
-"alleged",
-"cftc",
-"charges",
-"contracts",
-"failures",
-"kalshi",
-"market",
-"notify",
-"platform",
-"politico",
-"prediction",
-"preparing",
-"regulators",
-"reportedly"
-]
-},
-{
-"e": [
-"arcus",
-"perps"
-],
-"k": [
-"hack"
-],
-"t": 1794358647.1355412,
-"u": [],
-"w": [
-"arcus",
-"hacked",
-"million",
-"perps"
-]
-},
 {
 "e": [
 "binance"
@@ -4908,71 +4843,90 @@
 "seized",
 "stolen"
 ]
+},
+{
+"e": [
+"now"
+],
+"k": [],
+"t": 1794531548.3923624,
+"u": [
+"https://t.me/WatcherGuru/15993",
+"https://t.me/cointelegraph/73251"
+],
+"w": [
+"$71",
+"000",
+"below",
+"btc",
+"falls",
+"now"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"655345254eb5",
+28,
+19,
+2
+],
+[
 "52770b56eb05",
-68,
-346,
+67,
+359,
 11
 ],
 [
-"47b99439ee67",
-8,
-351,
-3
-],
-[
 "baa4dd315b22",
-2,
-316,
+1,
+329,
 2
 ],
 [
-"befdd2833449",
-41,
-221,
-2
-],
-[
-"655345254eb5",
-10,
-6,
-1
-],
-[
-"bf98c71a8c9d",
-42,
-353,
+"ee61fd44c150",
+20,
+147,
 2
 ],
 [
 "337f44661002",
 0,
-276,
+289,
 1
 ],
 [
 "6509ef29cc64",
-23,
-218,
+22,
+231,
+2
+],
+[
+"283483ef1f30",
+46,
+323,
 2
 ],
 [
 "7b392e9e87b8",
 0,
-332,
+345,
 1
 ],
 [
 "c2795f04d544",
-6,
-272,
+5,
+285,
 1
+],
+[
+"befdd2833449",
+39,
+234,
+2
 ]
 ],
-"top_at": 1794530777.2277792
+"top_at": 1794531548.3923624
 }
