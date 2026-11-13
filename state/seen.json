@@ -25,7 +25,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794582371.0,
 "tgtext": "JUST IN: OpenAI launches ChatGPT Wallet, allowing its AI agents to buy things for users.\n\n@WatcherGuru\n\ud83d\udd25 NEW: OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
 "title": "OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
@@ -460,7 +460,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794581700.0,
 "tgtext": "Bitcoin and Ethereum Spot ETFs Record Sixth Consecutive Day of Net Outflows\n\nAccording to SoSoValue, on November 12 (ET), U.S. spot Bitcoin ETFs recorded net outflows of $284 million, while spot Ethereum ETFs saw net outflows of $70.57 million, marking the sixth consecutive trading day of net outflows for both. \u2014 link",
 "title": "Bitcoin and Ethereum Spot ETFs Record Sixth Consecutive Day of Net Outflows",
@@ -1133,6 +1133,23 @@
 "url": "https://t.me/binance_announcements/9128",
 "urls": []
 },
+"4174ede92851": {
+"coin": "bitcoin",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine",
+"TradingView",
+"Yahoo Finance"
+],
+"t": 1794589427.7444053,
+"t0": 1794573273.0,
+"tgtext": "",
+"title": "Bitcoin Price Briefly Crashes to $67,500, Lowest Since August, as Dollar Holds 19-Month High",
+"url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-69100-dollar",
+"urls": [
+"https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-69100-dollar"
+]
+},
 "41e23c3bdda2": {
 "coin": "bitcoin",
 "src": "StreetInsider",
@@ -1265,7 +1282,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1794586702.8160653,
+"t": 1794589427.7444053,
 "t0": 1794572341.0,
 "tgtext": "",
 "title": "Israeli Police Arrest Five Over $5 Million Cryptocurrency Money-Laundering Scheme on WhatsApp",
@@ -1571,7 +1588,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794572861.0,
 "tgtext": "JUST IN: \ud83c\uddf9\ud83c\udded\ud83c\uddec\ud83c\udde7 Thailand, UK and Singapore central banks successfully test system connecting traditional and tokenized foreign currency trading.\n\n@WatcherGuru\n\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded LATEST: The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand\u2019s central banks completed a trial showing that cross-border currency trades can settle simultaneously across traditional and distributed ledger systems.",
@@ -1830,10 +1847,10 @@
 "BeInCrypto",
 "CoinDesk",
 "CryptoSlate",
-"Cryptonews.net",
-"The Cryptonomist"
+"CryptoTicker.io",
+"Cryptonews.net"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794569400.0,
 "tgtext": "",
 "title": "Bitcoin Price Decline Breaks $70,000 Amid Fed Rate Hike Expectations",
@@ -2233,7 +2250,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794587638.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats say banning Congress from trading stocks is a top priority after winning the US House and Senate.",
@@ -2514,20 +2531,6 @@
 "https://www.theblock.co/news/business/2026-11-12-tether-gold-issuer-follows-usdt-to-complete-big-four-audit-438849",
 "https://decrypt.co/383137/tether-gold-gets-clean-kpmg-audit-confirming-2-2b-in-physical-gold-backing"
 ]
-},
-"8db682a58e2b": {
-"coin": "",
-"src": "NewsCord",
-"srcs": [
-"CryptoTicker.io",
-"NewsCord"
-],
-"t": 1794416596.1124747,
-"t0": 1794395997.0,
-"tgtext": "",
-"title": "Initia Confirms Second Security Exploit, $3.27 Million Stolen After Cloud Key Compromise: 6 outlets compared",
-"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNFlzWHJlajdMLVBKd2VJQWNLYi1rYU4ycU9KM0JHdDlrQWZTRWJqWmlaVTVYb3lVY0llV1Vza3c5OU9XV0RJT1l2clhHdUM2V2NDVWxWSEFlUXVrdHFyN2NnX1JTZW1GQ1MxT0s3eW9BemtlX2s4Tm1JX05LS1lpS1FiRFRIMXRzc2k2ajdTdGpWRU9HTEh5YlAyT0t2SU9ndi0yY2tJVkMzelAzWXFwZDBoRzVjWTFWSnJ1X19ndmZLUTJOdGRJdG90dU5WWFAyMXp6UWc5NzlldU9XX2RmYldTbGVEMjVIQXc?oc=5",
-"urls": []
 },
 "8ed9e4104ce8": {
 "coin": "bitcoin",
@@ -2922,7 +2925,7 @@
 "Cryptonews.net",
 "The Crypto Times"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794570000.0,
 "tgtext": "\ud83d\udea8 ALERT: MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.\n\nMANTRA announces emergency seven-day unbonding pause.\n\nNews | Markets | YouTube",
 "title": "MANTRA says hackers are unstaking users' tokens following a Web3Auth-Keplr wallet exploit.",
@@ -3781,7 +3784,7 @@
 "Cryptonews.net",
 "Gadgets 360"
 ],
-"t": 1794588654.7376335,
+"t": 1794589427.7444053,
 "t0": 1794573838.0,
 "tgtext": "",
 "title": "Unocoin Halts Deposits and Withdrawals While Probing Suspicious BitGo-Linked Transfers",
@@ -4044,6 +4047,19 @@
 "urls": [
 "https://cointelegraph.com/news/former-nvidia-ceo-huang-had-third-alleged-affair-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"ea881a652104": {
+"coin": "",
+"src": "CryptoRank",
+"srcs": [
+"CryptoRank"
+],
+"t": 1794589427.7444053,
+"t0": 1794569631.0,
+"tgtext": "",
+"title": "Whale Alert: Four Traders Liquidated for More Than $10M Apiece",
+"url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEwycWVFbWVvSXczSzJhYmZoMFNieXR1cnhCMHRraW5LQ3EtcEN0UGhCQTJ5aVlROFFLOUk0MmtOLXJPbXc3NUxrQllzRFVGY0pWZlNPdjlra09ZanVqVUNOdzIweFBXaENhd1hZNGtqaXJ4WVJPLXBxVHpqbEdkTDltdFBuRnBlTnZGNlBqbjE1OTA5d1YyMFU3RGF4ckk?oc=5",
+"urls": []
 },
 "eaf698352bf2": {
 "coin": "",
@@ -4406,44 +4422,44 @@
 },
 "probs": {
 "001b550e4687": 0.82,
+"092249ce5163": 0.041,
 "0abf86d40cd1": 0.295,
 "0cc941eb064b": 0.066,
 "0e7d9a49f2bd": 0.377,
 "1f18fa9f79cc": 0.63,
 "2eca9926753b": 0.07,
-"392111f5a008": 0.106,
+"2f3075aa5988": 0.178,
 "406e1094abde": 0.039,
 "4174ede92851": 0.541,
 "464d229614f6": 0.602,
-"4ca916c3e949": 0.127,
 "580b0957c59b": 0.861,
-"66362dec051e": 0.734,
+"66362dec051e": 0.724,
 "6685da2e2bb9": 0.189,
 "6ac51156d1a8": 0.196,
-"78f7a83e386d": 0.086,
+"713c9c03658e": 0.049,
+"73a6eda53c71": 0.074,
+"7aa7ef329558": 0.205,
 "848036c318f7": 0.023,
 "8914efcfaf3a": 0.179,
+"8bb2217f1307": 0.4,
 "8c28f3e9ccf1": 0.203,
-"8d9dc883f091": 0.076,
-"9a2a708f2fea": 0.276,
+"93d3b2ed0720": 0.209,
+"9a2a708f2fea": 0.169,
+"9e4caf9e9952": 0.138,
 "a253f2a2821b": 0.025,
 "a686833359ac": 0.083,
 "a7764e3cdd33": 0.823,
-"ac4a81e69aad": 0.214,
 "b83aa3c08a88": 0.213,
-"bad1ee360aed": 0.247,
 "bbd38ab79ae9": 0.017,
-"bed40724b56d": 0.161,
 "c1d14c4229e2": 0.068,
-"c517f6987729": 0.57,
 "cb78149df36a": 0.05,
 "ce6b3f10b13b": 0.092,
 "d6295def3064": 0.191,
-"d70689256257": 0.078,
 "da1d0b6966a6": 0.791,
+"dd0aa66af1e9": 0.057,
 "e0486d198818": 0.254,
+"e09f24d34e0a": 0.093,
 "ea881a652104": 0.5,
-"ee0699427885": 0.075,
 "fc9e9085b411": 0.056
 },
 "sent": [
@@ -6079,64 +6095,64 @@
 "top": [
 [
 "580b0957c59b",
-19,
-263,
+18,
+276,
 3
 ],
 [
 "a7764e3cdd33",
-68,
-311,
+66,
+324,
 4
 ],
 [
 "001b550e4687",
 20,
-105,
+118,
 2
 ],
 [
 "da1d0b6966a6",
-44,
-247,
+42,
+260,
 3
 ],
 [
 "820a299d512d",
 10,
-17,
+30,
 1
-],
-[
-"9623469349ed",
-0,
-355,
-2
 ],
 [
 "66362dec051e",
-72,
-321,
-7
-],
-[
-"52a19019cfd0",
-0,
-354,
-1
-],
-[
-"7bf3569cf0aa",
-0,
-356,
-1
+70,
+334,
+8
 ],
 [
 "1f18fa9f79cc",
 61,
-116,
+129,
 2
+],
+[
+"464d229614f6",
+51,
+285,
+5
+],
+[
+"4174ede92851",
+44,
+269,
+3
+],
+[
+"ea881a652104",
+20,
+330,
+1
 ]
 ],
-"top_at": 1794588654.7376335
+"top_at": 1794589427.7444053
 }
