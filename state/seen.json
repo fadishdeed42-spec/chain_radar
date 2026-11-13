@@ -683,6 +683,25 @@
 "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"3096e90b669b": {
+"coin": "bitcoin",
+"src": "BitKE",
+"srcs": [
+"BigGo Finance",
+"BitKE",
+"CoinDesk",
+"Crypto News Australia",
+"CryptoSlate"
+],
+"t": 1794573100.9153872,
+"t0": 1794551762.0,
+"tgtext": "",
+"title": "MARKET ANALYSIS | Bitcoin Falls Below $70,000 as Crypto Liquidations Surpass $1 Billion",
+"url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNFhMX3J2QkZBOV9VX180UTNhY1VYYktyWHZxNkNSc01XRHRzZkpZUjZoZHE2RkhQYm5yYmhCQVhVQVdTeXROU2thXzJlODhXYXBDWURzSkpZbjgxMC1TcTIzbw?oc=5",
+"urls": [
+"https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/"
+]
+},
 "311f61e820c4": {
 "coin": "bitcoin",
 "src": "Coinpedia",
@@ -704,7 +723,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794555671.0,
 "tgtext": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 $ETH ($23.64M) 2 months ago, bought another 10,380 $ETH ($19.91M) just 1 hour ago.\n\nThe whale has now accumulated 25,498 $ETH ($49.44M) at an average price of $2,382 and is sitting on $11.3M in unrealized losses.\n\nhttps://arkm.com/explorer/address/0x4cee611502f378300981807d506629DA35cee4a7\nChun (@satofishi) bought another 5,746 $ETH ($11.09M) an hour ago.\nhttps://x.com/lookonchain/status/2120815943161127313",
 "title": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 ETH ($23.64M) 2 months ago, bought another 10,380 ETH ($19.91M) just 1 hour ago.",
@@ -747,7 +766,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794566187.0,
 "tgtext": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock\n\nJPMorgan\u2019s latest 13F shows 848,932 Strategy shares worth about $131.3 million as of September 30, up roughly 36% quarter over quarter, alongside put options covering 1.15 million MSTR shares with an underlying value of about $177.6 million. The bank also held 11.41 million BlackRock IBIT shares worth about $540 million, up 9.6%, and roughly 1.58 million Coinbase shares.\n\nThe holdings include assets managed across JPMorgan-affiliated investment entities and do not solely represent proprietary positions. \u2014 link",
 "title": "JPMorgan Raises MSTR and IBIT Holdings While Holding More MSTR Put Exposure Than Stock",
@@ -782,17 +801,18 @@
 },
 "3584589435d5": {
 "coin": "",
-"src": "Digital Watch Observatory",
+"src": "Blockonomi",
 "srcs": [
+"Blockonomi",
 "Digital Watch Observatory",
 "ITWeb",
 "Wu Blockchain"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794553687.0,
 "tgtext": "Binance Publishes New Reserve Snapshot After Replenishing $6.34 Billion in Stolen Assets\n\nBinance released a new proof-of-reserves snapshot dated November 12, showing user BTC holdings rose 0.35% from November 4 to approximately 687,900 BTC, up 2,388 BTC. ETH holdings increased 1.04% to 3.48 million ETH, while USDT holdings fell 3.68% to 24.3 billion tokens, down 928 million USDT. BNB holdings rose 1.03% to 42.95 million tokens.\n\nUnlike its usual monthly snapshots, Binance conducted this additional review following the October 29 hack involving approximately $6.34 billion in crypto assets. The exchange said it had fully replenished the affected assets. \u2014 link",
-"title": "US targets North Korean crypto schemes and seizes $1.2 billion linked to Binance hack",
-"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zMmNyQVNKMk9vQnQtSFdabjdMUEVLTUhfalp2cVhpMzkxbkt6RGJZcnZrU3JsUWNLRmJBNmh2S0NpMmh5Nm00dmp1WHFGWjJDX05VZXJaanRUU1VJS0drbXhtOGZrT0ZfUHlzZnFzZU1TQUVFaG5DTw?oc=5",
+"title": "How Binance Paid Back $6.3 Billion Lost in North Korea-Linked Hack",
+"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX2xJaTk1ZFQwUzBRbWpyWWRUTnRYbHZXd1RjZGpCZFp0Wkx0UEdGVXpGNHM0dEpNNFBBaHkzU1JENnNJU184SXVSZzE5aV9sbFpJZzBrcTN0YXFlVkFFSko4cElZejc0YklINWd3WWxpVGZubDRYaWQwLTd2RmVhRVlFZ3NTMU1aaUNoTmNSc3RKQUE?oc=5",
 "urls": []
 },
 "359b194ef46a": {
@@ -963,6 +983,22 @@
 "urls": [
 "https://www.theblock.co/news/web3/2026-11-11-pyth-network-nyse-data-437928"
 ]
+},
+"3d4af709239d": {
+"coin": "ethereum",
+"src": "Traders Union",
+"srcs": [
+"Coinpaper",
+"Crypto News",
+"Traders Union",
+"TradingKey"
+],
+"t": 1794573100.9153872,
+"t0": 1794556651.0,
+"tgtext": "",
+"title": "Ethereum drops below $2,000: Can ETH recover amid $1.64 billion in crypto liquidations?",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWGQtdmlWNGhNRHVxa1c2SWpFRGFnd0ZhS1hIaVRZOWQzajdlbEtlU0RXODNNVGxhMm9xYzhVbVZJelRURjNoa05CR0h3RUhWTm1xZXlQeWpELWlxWkpISC1LLThwWHF3U0FjSlpoejkyTGtWM1I2d0FRbXVYZmh4dVU2UENTaVdMZ3pUQTBtdVZBRWJRRDl4Q0Izang?oc=5",
+"urls": []
 },
 "3fa83fd0fb7b": {
 "coin": "",
@@ -1238,7 +1274,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794564420.0,
 "tgtext": "",
 "title": "Whale Alert: Four Traders Liquidated for More Than $10M Apiece",
@@ -1720,7 +1756,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794558776.0,
 "tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
 "title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
@@ -2193,7 +2229,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794552844.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 $ETH($3.87M)!\n\nEvery time #EthereumFoundation-linked wallets dump $ETH, the price drops.\n\nOct 12: $ETH down 9%.\nOct 26: $ETH down 7.7%.\nNov 10: $ETH down 10.4%.\n\nToday marks the 4th sale. How much further will $ETH fall?\n\nhttps://arkm.com/explorer/address/0x5CBC6299faB3320E7758ac97fd4CA45E5B722059",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 ETH($3.87M)!",
@@ -2445,13 +2481,13 @@
 "coin": "bitcoin",
 "src": "Coinpedia",
 "srcs": [
-"Bloomberg.com",
 "CoinDesk",
 "Coinpaper",
 "Coinpedia",
-"CryptoSlate"
+"CryptoSlate",
+"unchainedcrypto.com"
 ],
-"t": 1794572479.2502265,
+"t": 1794572792.102047,
 "t0": 1794551379.0,
 "tgtext": "",
 "title": "Bitcoin Price Crash: BTC Falls Below $70,000 As $622 Million Liquidated",
@@ -3267,19 +3303,6 @@
 "url": "https://t.me/WatcherGuru/15990",
 "urls": []
 },
-"c7a94ceca629": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1794400289.4196446,
-"t0": 1794380983.0,
-"tgtext": "Former Ripple CTO Discloses Selling Most Crypto Holdings Due to Extreme Risk Aversion\n\nFormer Ripple Chief Technology Officer David Schwartz revealed that he has sold off the vast majority of his crypto portfolio due to an extreme aversion to risk, trimming his peak holdings from roughly 26 million XRP down to 3 million XRP, from around 1,500 BTC to just 1 BTC, and from 40,000 ETH down to 6 ETH. Schwartz adding that he \"really, really hates risk\" and simply does not have the personal disposition to tolerate heavy market volatility. \u2014 link",
-"title": "Former Ripple CTO Discloses Selling Most Crypto Holdings Due to Extreme Risk Aversion",
-"url": "https://t.me/wublockchainenglish/26778",
-"urls": []
-},
 "c8600ef09648": {
 "coin": "ethereum",
 "src": "Coinpaper",
@@ -3654,7 +3677,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794560045.0,
 "tgtext": "\ud83d\udea8 ALERT: Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.\n\nNews | Markets | YouTube",
 "title": "Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.",
@@ -3851,7 +3874,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794572479.2502265,
+"t": 1794573100.9153872,
 "t0": 1794553642.0,
 "tgtext": "A whale just dumped 16,700 $ETH ($31M) in a single trade at $1,852.45.\n\nA month ago, the whale FOMO-bought 8,631 $ETH ($23.7M) at $2,749.\n\nClassic buy high, sell low!\n\nhttps://arkm.com/explorer/address/0xBE4265E12Cde8b8e1fFd54A92401037AB06a0c5F",
 "title": "A whale just dumped 16,700 ETH ($31M) in a single trade at $1,852.45.",
@@ -3982,7 +4005,7 @@
 "Coinpedia",
 "bloomingbit"
 ],
-"t": 1794572479.2502265,
+"t": 1794572792.102047,
 "t0": 1794551259.0,
 "tgtext": "",
 "title": "Why is Bitcoin Falling? ETH And XRP Prices Crash As $60 Billion Leaves Crypto",
@@ -4068,44 +4091,44 @@
 },
 "probs": {
 "0d07a1987593": 0.051,
-"10d7afb53e28": 0.554,
-"1b90dcb58b93": 0.103,
 "240e4a62560c": 0.113,
+"297f8318bffe": 0.221,
+"3096e90b669b": 0.784,
 "3316f1848ee0": 0.805,
-"3584589435d5": 0.979,
-"3794fc7fde10": 0.095,
+"3584589435d5": 0.926,
+"3794fc7fde10": 0.167,
 "392111f5a008": 0.113,
-"3b43b4b8d66a": 0.061,
-"3d4af709239d": 0.764,
+"3d4af709239d": 0.811,
 "3fdedb01dbd1": 0.078,
 "464d229614f6": 0.053,
-"4a7df3e480bd": 0.176,
+"4a7df3e480bd": 0.053,
 "4e9506cf0aa5": 0.811,
-"4fb0f813cefe": 0.071,
 "4fdbe4d97331": 0.112,
-"6805a6e2a112": 0.13,
 "6d04d8755984": 0.905,
+"74f13fffc961": 0.121,
 "80c07c637987": 0.183,
+"80db9eb8bf84": 0.177,
 "8ca776d38e78": 0.619,
 "8ff89e9048a4": 0.061,
-"91f617a1ecfc": 0.098,
-"99f4fe426e62": 0.962,
-"a3a25fb46bb1": 0.101,
+"934afe54b490": 0.05,
+"9d235855a60b": 0.376,
+"a1b6f01507d2": 0.138,
 "a7764e3cdd33": 0.373,
-"b1400d82b551": 0.139,
 "b335f9c446bc": 0.059,
 "b394d6cc990b": 0.008,
 "b69d43d99a6a": 0.191,
 "b83aa3c08a88": 0.416,
-"bbd38ab79ae9": 0.07,
+"b99606fde62e": 0.092,
+"bbd38ab79ae9": 0.018,
+"ce6b3f10b13b": 0.071,
 "d70689256257": 0.084,
-"de4a74be12b7": 0.197,
+"dd51b6f1103b": 0.076,
 "e3fbb5e43327": 0.833,
+"eb4874ccf75e": 0.087,
 "f0b958ec08cc": 0.879,
 "f38650c55470": 0.12,
-"f671f39d5940": 0.818,
+"f7dc1450eaf5": 0.086,
 "f94d06b9d13e": 0.103,
-"fc7d60841b85": 0.114,
 "fd6f5a144a96": 0.459
 },
 "sent": [
@@ -5651,65 +5674,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"3584589435d5",
-63,
-313,
-3
-],
-[
-"99f4fe426e62",
-63,
-352,
-7
-],
-[
 "8a24904c1846",
-7,
-327,
+5,
+338,
 1
 ],
 [
+"3584589435d5",
+71,
+324,
+4
+],
+[
 "6d04d8755984",
-19,
-228,
+18,
+239,
 1
 ],
 [
 "f0b958ec08cc",
-17,
-314,
+15,
+324,
 1
 ],
 [
 "33ac31d7ef5f",
 10,
-105,
+115,
 1
 ],
 [
 "e3fbb5e43327",
-52,
-207,
+50,
+218,
 1
-],
-[
-"f671f39d5940",
-62,
-354,
-4
 ],
 [
 "4e9506cf0aa5",
 49,
-134,
+145,
 2
 ],
 [
+"3d4af709239d",
+73,
+274,
+4
+],
+[
 "3316f1848ee0",
-11,
-280,
+10,
+290,
 1
+],
+[
+"3096e90b669b",
+67,
+356,
+9
 ]
 ],
-"top_at": 1794572479.2502265
+"top_at": 1794573100.9153872
 }
