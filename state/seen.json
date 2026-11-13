@@ -175,19 +175,6 @@
 "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
 ]
 },
-"0c3e21700400": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794382957.3917155,
-"t0": 1794361412.0,
-"tgtext": "Insane!   More than $50M has been stolen from whale \"TLBL\".  Two years ago, whale \"TLBL\" lost $24M in a phishing attack.  Today, the whale appears to have had its private key compromised, and over $26M in assets across 3 wallets were completely drained.  \u2026",
-"title": "Insane! More than $50M has been stolen from whale \"TLBL\". Two years ago, whale \"TLBL\" lost $24M in a phishing attack. Today, the whale appears to have had its private key compromised, and over $26M in assets across 3 wal",
-"url": "https://t.me/lookonchainchannel/10997",
-"urls": []
-},
 "0c976649273e": {
 "coin": "",
 "src": "The Block",
@@ -684,6 +671,19 @@
 "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckRxOHdNWDJGVWtRcU4tVV83RU5lN3ZzQm1CT3NmdXlOY0FpM3VOc3J2NVlOSlRkZ3c1cmZsX0ltVTVTNWE5ODlSaVF1TlpweGdWa2tTZTF1Q2I4SVdBbngxOEs3MHdWQnotdGtUNjFrWEREaGg2VWZwYUZDRkZjNkVvZ0w0eWZtUGJSajAxVmhPcjV4d3pjRUtkWVh4ZnhjVTJaREo0aHHSAa4BQVVfeXFMUC02M291NENVYmRKVGFaTjhqcEEyV1F4NTdiWGFQZm5tVDRvVGdaTUpPamh2eWtIOEhYMVN5dmJ2aTQxQ0pVTTJHdjM3bXdnVE1Hc0dFM1E1RGRQaEtabGRDdUJrNFZxX01GdG5TcGpSNEI4TWFMNllCRllHSkxyZUV2Qk82UlZIeGNJNlJmQXp4anBReE5YZHUxX1Z6WjdxcUZoNnBLSjM4alM0N2hn?oc=5",
 "urls": []
 },
+"3316f1848ee0": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794556262.5570712,
+"t0": 1794555671.0,
+"tgtext": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 $ETH ($23.64M) 2 months ago, bought another 10,380 $ETH ($19.91M) just 1 hour ago.\n\nThe whale has now accumulated 25,498 $ETH ($49.44M) at an average price of $2,382 and is sitting on $11.3M in unrealized losses.\n\nhttps://arkm.com/explorer/address/0x4cee611502f378300981807d506629DA35cee4a7",
+"title": "Whale 0x4cee, who made $3.66M buying low and selling high on 10,500 ETH ($23.64M) 2 months ago, bought another 10,380 ETH ($19.91M) just 1 hour ago.",
+"url": "https://t.me/lookonchainchannel/11041",
+"urls": []
+},
 "33187b2ee51b": {
 "coin": "",
 "src": "The Business Times",
@@ -869,11 +869,11 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794536472.0,
-"tgtext": "Trader 0x5f91 just got fully liquidated on his 357.09 $BTC ($25.15M) position!\n\nhttps://hypurrscan.io/address/0x5f912dbde4530bc43f8322196db54592e3dd65aa#txs",
-"title": "Trader 0x5f91 just got fully liquidated on his 357.09 BTC ($25.15M) position!",
-"url": "https://t.me/lookonchainchannel/11027",
+"tgtext": "Trader 0x5f91 just got fully liquidated on his 357.09 $BTC ($25.15M) position!\n\nhttps://hypurrscan.io/address/0x5f912dbde4530bc43f8322196db54592e3dd65aa#txs\nThe whale who held over $140M in $BTC and $ETH longs got fully liquidated over the past 2 days, losing a total of $17.69M.\nhttps://x.com/lookonchain/status/2112168700409425990",
+"title": "The whale who held over $140M in BTC and ETH longs got fully liquidated over the past 2 days, losing a total of $17.69M.",
+"url": "https://t.me/lookonchainchannel/11028",
 "urls": []
 },
 "3b3a992a8d55": {
@@ -904,7 +904,7 @@
 "Cointelegraph",
 "CryptoTicker.io"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794550714.0,
 "tgtext": "\ud83d\udea8 NOW: The Crypto Fear & Greed Index falls to 20, deep in \u201cExtreme Fear\u201d and at its lowest level in four months, as $BTC dropped below $68K.\n\nNews | Markets | YouTube",
 "title": "NOW: The Crypto Fear & Greed Index falls to 20, deep in \u201cExtreme Fear\u201d and at its lowest level in four months, as BTC dropped below $68K.",
@@ -1020,7 +1020,7 @@
 "Pluang",
 "Wu Blockchain"
 ],
-"t": 1794551361.3440251,
+"t": 1794556262.5570712,
 "t0": 1794534862.0,
 "tgtext": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage\n\nUpbit, South Korea's largest cryptocurrency exchange by trading volume, announced it has temporarily suspended deposits and withdrawals of Osmosis (OSMO) on Osmosis Chain after the Cosmos-based Layer 1 blockchain stopped producing blocks. Spot trading of OSMO remains unaffected. \u2014 link",
 "title": "South Korea's Top Crypto Exchange Upbit Halts OSMO Transfers Amid Network Outage",
@@ -1811,7 +1811,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794539055.0,
 "tgtext": "JUST IN: $105,000,000 longs liquidated from the crypto market in the past 30 minutes.\n\n@WatcherGuru\nJUST IN: $500,000,000 liquidated from the crypto market in the past hour.\n\n$BTC falls under $69,000\n$ETH falls under $1,950\n$XRP falls under $1.01\n$SOL falls under $80\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.\n\n$BTC fell below $69K.\n$ETH dropped under $1,950.\n$SOL slid to $78.\n\nNews | Markets | YouTube",
 "title": "Over $440M liquidated in the past hour as the crypto market sells off, $417M of it from longs.",
@@ -2080,7 +2080,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794552844.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 $ETH($3.87M)!\n\nEvery time #EthereumFoundation-linked wallets dump $ETH, the price drops.\n\nOct 12: $ETH down 9%.\nOct 26: $ETH down 7.7%.\nNov 10: $ETH down 10.4%.\n\nToday marks the 4th sale. How much further will $ETH fall?\n\nhttps://arkm.com/explorer/address/0x5CBC6299faB3320E7758ac97fd4CA45E5B722059",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 ETH($3.87M)!",
@@ -2579,12 +2579,12 @@
 "src": "TradingKey",
 "srcs": [
 "Altcoin Buzz",
+"BigGo Finance",
 "BitKE",
 "Blockonomi",
-"CoinDesk",
-"CoinMarketCap"
+"Bloomberg.com"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794538573.0,
 "tgtext": "BREAKING: Bitcoin falls under $70,000\n\n@WatcherGuru\nBitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours\n\nBitcoin fell below $70,000 to a low of $68,943 before trading at $69,297, down 6.11% over 24 hours, according to Binance. The cryptocurrency had reached a 24-hour high of $73,866. CoinGlass data showed $622 million in crypto liquidations across exchanges over the past four hours, including $549 million in long positions and $72.46 million in shorts. \u2014 link",
 "title": "Bitcoin Drops Below $70,000, May Log Sixth Straight Weekly Loss, Risking Slide Toward $65,000",
@@ -3001,7 +3001,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794555650.8137653,
+"t": 1794555958.4359946,
 "t0": 1794548189.0,
 "tgtext": "Even hackers are panic-selling $ETH as the market crashes!\n\nA wallet received 1,500 $ETH from #TornadoCash, then sold 1,499.5 $ETH ($3M) at $1,998.\n\nhttps://arkm.com/explorer/address/0x90e5090BF6bEE049e8Ef0b971644e33FAf9C7298",
 "title": "Even hackers are panic-selling ETH as the market crashes!",
@@ -3048,19 +3048,6 @@
 "tgtext": "JUST IN: Elon Musk's SpaceX $SPCX and Tesla $TSLA could announce merger as early as December.\n\n@WatcherGuru",
 "title": "Elon Musk's SpaceX SPCX and Tesla TSLA could announce merger as early as December.",
 "url": "https://t.me/WatcherGuru/15990",
-"urls": []
-},
-"c394b6ffa3ba": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794382957.3917155,
-"t0": 1794361568.0,
-"tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) dumped another 1,000 $ETH($2.03M) 9 hours ago.\nhttps://x.com/lookonchain/status/2119974163263947154",
-"title": "The EthereumFoundation-linked wallet (0x5CBC) dumped another 1,000 ETH($2.03M) 9 hours ago.",
-"url": "https://t.me/lookonchainchannel/11000",
 "urls": []
 },
 "c7a94ceca629": {
@@ -3243,7 +3230,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794539151.0,
 "tgtext": "Highlight Clip: Patrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable\n\nPatrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable\n\nOn November 10, 2026, Patrick Witt, former executive director of the White House Crypto Council, said in an interview with What Bitcoin Did that some U.S. government agencies had previously kept cold wallets in drawers. He said the U.S. Treasury was working to establish a custody framework, a prerequisite for considering whether to buy more bitcoin or convert other assets into bitcoin. The U.S. government is conducting a second inventory to verify its holdings and track them over time. It has yet to decide whether to disclose how much bitcoin it holds. \u2014 link",
 "title": "Highlight Clip: Patrick Witt: The U.S. Government Once Kept Cold Wallets in Drawers, and Its Security Practices Were Unbelievable",
@@ -3629,7 +3616,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794553642.0,
 "tgtext": "A whale just dumped 16,700 $ETH ($31M) in a single trade at $1,852.45.\n\nA month ago, the whale FOMO-bought 8,631 $ETH ($23.7M) at $2,749.\n\nClassic buy high, sell low!\n\nhttps://arkm.com/explorer/address/0xBE4265E12Cde8b8e1fFd54A92401037AB06a0c5F",
 "title": "A whale just dumped 16,700 ETH ($31M) in a single trade at $1,852.45.",
@@ -3753,7 +3740,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794555650.8137653,
+"t": 1794556262.5570712,
 "t0": 1794535593.0,
 "tgtext": "Highlight Clip: Michael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features\n\nMichael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 remotely. The event was held in S\u00e3o Paulo, Brazil. Saylor said frontier AI models make hackers more capable and that complex software used to move funds, including exchange and wallet software, is especially vulnerable. He argued that Bitcoin's design makes it resilient to AI threats and that Satoshi Nakamoto was right to limit its base-layer features because complex software expands the attack surface. He added that Bitcoin's computing power and security helped it win the race to become the global standard for digital capital. \u2014 link\nHighlight Clip: Michael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nMichael Saylor: Risk Is Hard to Predict, Keep the Option to Move Your Assets\n\nOn November 5, 2026, Strategy founder Michael Saylor joined Oranje Summit 2026 in S\u00e3o Paulo, Brazil, remotely. He said political conditions can change and that assets held for the long term should be both durable and portable. He pointed to real estate, which cannot be moved, and physical gold, which is difficult to transport. Bitcoin holders, he said, can choose to take self-custody, switch custodians, or move their assets to another jurisdiction. In his view, the option to move assets is what gives Bitcoin value. \u2014 link",
 "title": "Highlight Clip: Michael Saylor: Bitcoin Can Resist AI Attacks, Satoshi Was Right to Limit Features",
@@ -3839,37 +3826,37 @@
 "1e2ceddea60b": 0.151,
 "250f9166da2d": 0.311,
 "2980c732dfde": 0.446,
-"3acb04ac20e6": 0.674,
+"3316f1848ee0": 0.931,
+"3794fc7fde10": 0.245,
+"3acb04ac20e6": 0.96,
 "3b42269f4bc0": 0.936,
 "3d88ee993b62": 0.03,
-"43004c43e26f": 0.621,
+"43004c43e26f": 0.814,
 "462561413a34": 0.163,
+"4838abaa5052": 0.082,
 "62307ceabbb3": 0.086,
 "69b7e17eaac8": 0.036,
-"6db32932525d": 0.032,
+"725b5f3a9fa1": 0.104,
 "76952444353c": 0.042,
-"771e0b162c5e": 0.015,
 "77925491477d": 0.069,
 "78532e69f6a2": 0.93,
 "794990ad9473": 0.166,
 "875a104e734e": 0.021,
-"8a24904c1846": 0.996,
+"8a24904c1846": 0.963,
 "8ed9e4104ce8": 0.422,
 "8fbbaded1188": 0.177,
 "95a539d5a709": 0.114,
 "9ab49fc6e182": 0.407,
 "9f5a28491bad": 0.573,
 "aa6d8ecc2e16": 0.255,
-"af11a9cacfa3": 0.814,
+"af11a9cacfa3": 0.829,
 "c17df487ca4f": 0.705,
 "c1b5dbf40d9c": 0.378,
 "c570da89c3e1": 0.128,
 "dcf18fb1a7a3": 0.156,
 "f0b958ec08cc": 0.97,
-"f4ce0df972df": 0.961,
 "f5013d977706": 0.06,
-"f7ef9accc529": 0.643,
-"fbd833e0aed6": 0.06
+"f7ef9accc529": 0.643
 },
 "sent": [
 {
@@ -5353,71 +5340,105 @@
 "trade",
 "whale"
 ]
+},
+{
+"e": [
+"whale"
+],
+"k": [],
+"t": 1794555958.4359946,
+"u": [
+"https://t.me/lookonchainchannel/11041"
+],
+"w": [
+"$19",
+"$23",
+"0x4cee",
+"380",
+"500",
+"64m",
+"66m",
+"91m",
+"ago",
+"another",
+"bought",
+"buying",
+"eth",
+"high",
+"hour",
+"just",
+"low",
+"made",
+"months",
+"selling",
+"whale",
+"who"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"8a24904c1846",
-26,
-47,
-1
-],
-[
 "f0b958ec08cc",
 34,
-33,
+44,
 1
 ],
 [
-"f4ce0df972df",
-16,
-358,
+"8a24904c1846",
+26,
+57,
+1
+],
+[
+"3acb04ac20e6",
+20,
+330,
 1
 ],
 [
 "3b42269f4bc0",
 20,
-82,
+92,
 2
 ],
 [
+"3316f1848ee0",
+24,
+10,
+1
+],
+[
 "78532e69f6a2",
-29,
-277,
+27,
+287,
 2
 ],
 [
 "af11a9cacfa3",
-72,
-285,
-19
+70,
+295,
+22
+],
+[
+"43004c43e26f",
+29,
+357,
+3
 ],
 [
 "faa8e1321360",
 0,
-334,
+344,
 1
 ],
 [
 "d7ba5056c536",
 0,
-275,
-1
-],
-[
-"c17df487ca4f",
-20,
-124,
-1
-],
-[
-"3acb04ac20e6",
-13,
-320,
+285,
 1
 ]
 ],
-"top_at": 1794555650.8137653
+"top_at": 1794556262.5570712
 }
