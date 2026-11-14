@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794570605.8043206,
 1794576820.24269,
 1794578068.939965,
 1794581773.512688,
@@ -12,7 +11,8 @@
 1794600750.0260146,
 1794603764.3015058,
 1794630442.6847486,
-1794631968.2284842
+1794631968.2284842,
+1794659493.7226882
 ],
 "menu": {
 "001b550e4687": {
@@ -103,7 +103,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794656314.0,
 "tgtext": "",
 "title": "Franklin Templeton Reveals 293 Million XRP Holdings Worth $440M in New SEC Filing",
@@ -174,7 +174,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794644919.0,
 "tgtext": "\ud83d\udea8 LATEST: The Bitcoin ETFs have seen outflows every day this week.\n\nA total of $1.07B has now flowed out of US spot ETFs this week.\n\nNews | Markets | YouTube",
 "title": "The Bitcoin ETFs have seen outflows every day this week.",
@@ -978,7 +978,7 @@
 "srcs": [
 "Coinpaper"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794657515.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Falls to $67K as 6.5% US Inflation Raises $65K Crash Fears",
@@ -1071,7 +1071,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794643950.0,
 "tgtext": "",
 "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
@@ -1335,19 +1335,6 @@
 "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRUVqLUtlLWRpcDIyTFpWdGVDZ0tUekhXRjhDRXNoellsd0VvM1FMQnJCNUgtNFN1WUdxQlJFVlVXS2tWOTFYRTZsQmJ1UmpITmhjV3A3RXhabHhxdzdYWnNETHVILTdlQ1pXZ3FQdjIyRmlkTkRxTjFWbVM3LTlSSkZJMzNUeWEwSC1ldmhWVnRSSndhb2Y4bHNuakFodGpUVHZsUV85V0F4TlkzSEYyNE92XzU3NG9EcU5B?oc=5",
 "urls": []
 },
-"48cfbf2db621": {
-"coin": "bitcoin",
-"src": "Moomoo",
-"srcs": [
-"Moomoo"
-],
-"t": 1794486595.3443305,
-"t0": 1794473251.0,
-"tgtext": "",
-"title": "$Bitcoin (BTC.CC)$ currently has 6.5x more liquidations above than below.",
-"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSW1GWVpJWWNWY0hNTkJnR3VQOVJYV1Q0UExJWUxiZ3NsWWsyLThieWg1ZkowMHZkRnlnZEtnS3hLZ0dCX3hXMThXRmotUWFuVzEzWlVIZmRST2tRdjBEWWNleFVRa0RZb0Q5VTVubzhPbVQzSEplaUFGaXl2UmdxZlR6OElRRTNtemZiRmdRU0dtYVBjRW5VYkFVWmpJREQzT0RyWHoxS0paMDVkc1RaaQ?oc=5",
-"urls": []
-},
 "4a05e90a08e5": {
 "coin": "ripple",
 "src": "Pluang",
@@ -1398,7 +1385,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794651844.0,
 "tgtext": "\ud83d\udd25 NEW: Adam Back says the fix for Bitcoin custody is \"just cold-store it,\" as Blockstream launches an offline custody system with Thales.\n\nBinance's $6.3B hack was his main example.\n\nNews | Markets | YouTube",
 "title": "Adam Back says the fix for Bitcoin custody is \"just cold-store it,\" as Blockstream launches an offline custody system with Thales.",
@@ -1414,7 +1401,7 @@
 "Cointribune",
 "TechJuice"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794643860.0,
 "tgtext": "",
 "title": "Binance to Fully Reopen Withdrawals Soon Following the $6.3 Billion Crypto Hack",
@@ -2149,7 +2136,7 @@
 "Business Today",
 "Coin Edition"
 ],
-"t": 1794659186.37265,
+"t": 1794659493.7226882,
 "t0": 1794643831.0,
 "tgtext": "",
 "title": "Coinbase halts INR withdrawals in India amid banking outage; Unocoin, ZebPay users also face disruptions",
@@ -3147,18 +3134,20 @@
 "url": "https://t.me/wublockchainenglish/26812",
 "urls": []
 },
-"b7202b649b8b": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
+"b72b1fda8dc4": {
+"coin": "",
+"src": "Cointelegraph",
 "srcs": [
-"Wu Blockchain"
+"Cointelegraph"
 ],
-"t": 1794486595.3443305,
-"t0": 1794469540.0,
-"tgtext": "Tether's $4.8 Billion Stock Portfolio Spans Bitcoin Mining, Gold and Media\n\nAccording to Protos' analysis of U.S. regulatory filings, Tether, issuer of the world's largest stablecoin USDT, holds approximately $4.8 billion in equity exposure across 13 U.S.-listed companies spanning media, gold mining, Bitcoin mining and crypto treasury businesses. Its three largest holdings are Twenty One Capital ($1.37 billion), Rumble ($1.33 billion) and Adecoagro ($966 million), accounting for roughly 76% of the total. Several investments have performed poorly, with Twenty One Capital down about 53% since listing, while Aurelion and Antalpha have fallen roughly 91% and 90%, respectively. \u2014 link",
-"title": "Tether's $4.8 Billion Stock Portfolio Spans Bitcoin Mining, Gold and Media",
-"url": "https://t.me/wublockchainenglish/26794",
-"urls": []
+"t": 1794659798.1929903,
+"t0": 1794652446.0,
+"tgtext": "",
+"title": "Microsoft confirms global outage resolved, rules out cyberattack",
+"url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "b83aa3c08a88": {
 "coin": "bitcoin",
@@ -3414,17 +3403,17 @@
 },
 "c96a14585ea4": {
 "coin": "bitcoin",
-"src": "Yahoo Finance",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "TradingView",
-"Yahoo Finance",
-"bloomingbit"
+"Yahoo Finance"
 ],
-"t": 1794653354.0669775,
+"t": 1794659798.1929903,
 "t0": 1794638400.0,
-"tgtext": "",
-"title": "Strive CEO Says Bitcoin Could \u2018Go To A Penny\u2019 And The Company Would Still Survive Because It Has No Debt",
-"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU2dSLVE1ZVRTOHRpVlh0c05HcGJmYXJaQUNXTHRsQTJaRmhkUThSaGY1MEVJdDZXTGxpZHBsT1YzOW5DSGpLYzcySVpfNzFYWXNQaDhaU0hzX283bkNhVUJNSFdMbklVVU9hWmc0OXVYeUNhWWc0RXJtczE2M3k3TDdrZUIzX3VkMGhZUzVsczJ5VlYxTXNYMW1R?oc=5",
+"tgtext": "\ud83d\udea8 JUST IN: Strive CEO Matt Cole says $BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.\n\nNews | Markets | YouTube",
+"title": "Strive CEO Matt Cole says BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.",
+"url": "https://t.me/cointelegraph/73277",
 "urls": []
 },
 "ca3b967b2ee7": {
@@ -3999,7 +3988,7 @@
 "CryptoRank",
 "citybuzz -"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794644969.0,
 "tgtext": "",
 "title": "Bitcoin Slips Below Key Technical Indicator as Crypto Liquidations Hit $1.15B",
@@ -4124,7 +4113,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1794659186.37265,
+"t": 1794659798.1929903,
 "t0": 1794656033.0,
 "tgtext": "",
 "title": "XRP Loans Trigger 883 Liquidations as 4.18M Tokens Are Seized and $53.5M Debt Remains",
@@ -4222,29 +4211,27 @@
 "41998c5f286b": 0.119,
 "4ae34e74a5b6": 0.062,
 "4c46e93063cd": 0.504,
-"4e0397f1277f": 0.462,
+"4e0397f1277f": 0.566,
 "4e9dc496f2a2": 0.037,
-"5707d120bad9": 0.136,
 "6eb60decf32e": 0.082,
 "72a881664622": 0.132,
 "75948c402d32": 0.11,
 "78f7a83e386d": 0.126,
 "797f5df50a34": 0.094,
-"7c2b06828c4c": 0.401,
+"7be83f8b6753": 0.12,
+"7c2b06828c4c": 0.128,
 "8144e68c42ec": 0.089,
 "8989b6cd0a4c": 0.057,
 "8dacbd537481": 0.142,
-"8ea8af6f8c99": 0.056,
 "991ef3da0782": 0.087,
 "a1056c1f7ceb": 0.052,
 "b72b1fda8dc4": 0.158,
 "b9026646adaa": 0.141,
 "c28f2e22555f": 0.066,
-"c96a14585ea4": 0.114,
+"c96a14585ea4": 0.937,
 "d29bdf26e63e": 0.064,
 "d360d6c5084a": 0.059,
 "d85c9dbf3cab": 0.114,
-"ef9057d47670": 0.179,
 "f0391d9dd7b7": 0.095,
 "f22e0f011e52": 0.104,
 "f295ca1cd0f1": 0.049,
@@ -4254,227 +4241,6 @@
 "fba2fd961290": 0.066
 },
 "sent": [
-{
-"e": [
-"ether",
-"funds",
-"lose",
-"million",
-"shed"
-],
-"k": [
-"etf"
-],
-"t": 1794466767.424643,
-"u": [
-"https://t.me/wublockchainenglish/26793"
-],
-"w": [
-"$145",
-"$300",
-"bitcoin",
-"etfs",
-"ether",
-"funds",
-"lose",
-"million",
-"shed"
-]
-},
-{
-"e": [
-"billion",
-"gold",
-"media",
-"mining",
-"portfolio",
-"spans",
-"stock",
-"tether"
-],
-"k": [],
-"t": 1794470121.509859,
-"u": [
-"https://t.me/wublockchainenglish/26794"
-],
-"w": [
-"billion",
-"bitcoin",
-"gold",
-"media",
-"mining",
-"portfolio",
-"spans",
-"stock",
-"tether"
-]
-},
-{
-"e": [
-"affair",
-"amid",
-"exit",
-"hit",
-"huang",
-"jensen",
-"nvidia",
-"odds",
-"polymarket",
-"reports",
-"second"
-],
-"k": [],
-"t": 1794470424.8932626,
-"u": [
-"https://t.me/cointelegraph/73218",
-"https://t.me/wublockchainenglish/26792",
-"https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xcURVeEtKMGx4Y1RKbzAwVG1pYzc0aGl5MmNmd0hJdjJ2UkY3NDNVYVdMY1lMOGRtTFBxbEczYUE2WXpsQ1R6YTN6WGN2Z2llS3plVmtn?oc=5"
-],
-"w": [
-"affair",
-"amid",
-"ceo",
-"exit",
-"hit",
-"huang",
-"jensen",
-"nvidia",
-"odds",
-"polymarket",
-"reports",
-"second"
-]
-},
-{
-"e": [
-"december",
-"fed",
-"now"
-],
-"k": [],
-"t": 1794474390.6717484,
-"u": [
-"https://t.me/cointelegraph/73224"
-],
-"w": [
-"100",
-"chance",
-"december",
-"fed",
-"hike",
-"market",
-"now",
-"rate",
-"sees"
-]
-},
-{
-"e": [
-"aave",
-"attack",
-"binance",
-"brings",
-"continues",
-"earn",
-"finance",
-"fluid",
-"investigation",
-"maple",
-"news",
-"pools",
-"public",
-"remittix"
-],
-"k": [
-"hack"
-],
-"t": 1794481106.790575,
-"u": [
-"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZC03ZnJCWl9yNG9Hb3B1Sk85LXBCdTNESTVrdF9UZWdiR3dBbXFsemhWYTgxSEo0LTUzZ0xwRUxycEtER3pQNUZseEdFT1RhOWRPMnR1Tm9QX2VhRGlBeHp2dkNmQVhhOTg5aHUtQ3FGakw1Q201SXNDbE5oQjFOd0RUMVFHazhfRWs0VTBmT3VxTVpvVzJCUS0zTzdGTks3MTZzZU5GNVpyQ2VRMkFuQ1RPaUUwUFQyd3JWWEdFVVVOUFVyWXlWU2VxeEpaUXBSaGQ1WA?oc=5",
-"https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQX2ZCYUJSNmYwTmNmN2lxdEp3TGFrbWd0LWxWVk5ENW1pOHphdWM3OHJxTGtaN3Fja3NFYVFPczVVVGRETHBwdDVSZU9odjFkY200S3pKVExSeUY1X05nejFOM1pUbUhtWXM1cDc5TnJPUENJbWNZQ1AxMUlZUlMwYTh5bVpXOHZzZ3RfLVN6aUlBZUlXdUtDRjk0U1l4M0Eya0RITHR5R0I3TllHMXlqeFZ5Uk5OeDZITDdUcUI5OGhwY1RzNjdCRDVkWmRtc3ppcmx2X1NVOGlnWGtqekM0?oc=5",
-"https://news.google.com/rss/articles/CBMiS0FVX3lxTE5OUjlkb2k2LWNzai1FaGZIdDVNRnZ5cUsxdG1KUkljUWNCNFRTSXJmOHRHazJwR3ZDcTFYOGE2elJPM3Q1Zjk0NkpkRQ?oc=5",
-"https://news.google.com/rss/articles/CBMiS0FVX3lxTE5OUjlkb2k2LWNzai1FaGZIdDVNRnZ5cUsxdG1KUkljUWNCNFRTSXJmOHRHazJwR3ZDcTFYOGE2elJPM3Q1Zjk0NkpkRQ?oc=5",
-"https://news.google.com/rss/articles/CBMinwJBVV95cUxPeG9kRU94cFlYYjhYTG40OXBVV00zbUd3T3JCam5MYW1VaWVHbDVaLS0xZXBJU1ZOY2FGRkZHbndwNDk2eVhlcEVOQnNMcUoxSnk4cmk0aUhrazB6NU9aM3VyWnBPRWdpQ1dSV3ZTaElHWDMtd3R0bVpEZzNkNVU4SXNETk9KWV9vdjVFVDBLNGhUT2VDUy02Zkd4Q200V2FuOGZvUWNzUEZBUXB1R2FybDdlZzI4NUh6aVdhVjNyVXdtVkpreENLcmotVk1taExPajNvNHU0QnBUSVRDckRYcHpXTHFJdDRSWmZTdlVkc2pqVnV4TXN5c0NlY2JCX251djJodDdERlltY05qd3VRd2ZkazJsdkJJdzl0QzZrOA?oc=5"
-],
-"w": [
-"aave",
-"attack",
-"binance",
-"brings",
-"continues",
-"earn",
-"finance",
-"fluid",
-"investigation",
-"maple",
-"news",
-"pools",
-"public",
-"remittix"
-]
-},
-{
-"e": [
-"chipmaker",
-"tsmc"
-],
-"k": [
-"record"
-],
-"t": 1794482556.8105357,
-"u": [
-"https://t.me/wublockchainenglish/26795",
-"https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHVlZWNqdXZRd2dRVWc5SmpiVnVyMlNHWE8tRnBoSUZsUFJGZnl4QkJBMjR5YVJlTlIzZGljdzFmMUM5cTh0Qy1qWi12T3VBSFFhLW4ycUloc2FZTThPZDZoRkV6YUFqY3UwaHFMcjZRV2hyaXJWc29FUzZxWHJqNHVDVzY?oc=5",
-"https://t.me/cointelegraph/73225"
-],
-"w": [
-"000",
-"alleged",
-"asked",
-"btc",
-"chipmaker",
-"cloud",
-"confirmed",
-"data",
-"employee",
-"giant",
-"leak",
-"linked",
-"provider",
-"records",
-"reportedly",
-"seller",
-"tsmc"
-]
-},
-{
-"e": [
-"nvda",
-"whale"
-],
-"k": [],
-"t": 1794483623.2554317,
-"u": [
-"https://t.me/lookonchainchannel/11018"
-],
-"w": [
-"$30",
-"0xc8b5",
-"190",
-"45m",
-"67m",
-"952",
-"closing",
-"finally",
-"given",
-"his",
-"long",
-"loss",
-"nvda",
-"whale"
-]
-},
 {
 "e": [],
 "k": [
@@ -5788,71 +5554,107 @@
 "pain",
 "weeks"
 ]
+},
+{
+"e": [
+"cole",
+"matt",
+"strive"
+],
+"k": [
+"crash"
+],
+"t": 1794659493.7226882,
+"u": [
+"https://news.google.com/rss/articles/CBMimgFBVV95cUxPU2dSLVE1ZVRTOHRpVlh0c05HcGJmYXJaQUNXTHRsQTJaRmhkUThSaGY1MEVJdDZXTGxpZHBsT1YzOW5DSGpLYzcySVpfNzFYWXNQaDhaU0hzX283bkNhVUJNSFdMbklVVU9hWmc0OXVYeUNhWWc0RXJtczE2M3k3TDdrZUIzX3VkMGhZUzVsczJ5VlYxTXNYMW1R?oc=5",
+"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOLTN6WVdTdkhvbUFGQ1JkLUMzVnUzOGhya1JVaV8wVU40dkxpdWk5MkFEdTdyMXhudm92TDBHUEdldW1DZG82ejZnY0taMENMdEE5UWd4RnI3YldPRVF3NGtDWE9GVEs4QldvTUQtRDVxZUg2c3FLTERrOUFfYm9ETjVxOEJEcHRqRVR4aVNEeV9kTEMyOEVHVU8yazZzNmhYQXZlY1hfZ25rRUZrbDZxcUJnY1M5OXZuSU8tXzZycWR0SkZ3a0lOajZiT0pKRGJLUGxuZFcwY0VrMk02bU1ZWVpyTWtZakMtSUNYUDlNbHozWVg0bUE?oc=5",
+"https://t.me/cointelegraph/73277"
+],
+"w": [
+"because",
+"btc",
+"carries",
+"ceo",
+"cole",
+"company",
+"could",
+"debt",
+"liquidation",
+"literally",
+"matt",
+"penny",
+"point",
+"still",
+"strive",
+"survive",
+"would",
+"zero"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"c96a14585ea4",
+22,
+357,
+3
+],
+[
 "3b19ff594f99",
 20,
-28,
-1
-],
-[
-"4c46e93063cd",
-10,
-122,
-1
-],
-[
-"0e58c7788b26",
-3,
-238,
+38,
 1
 ],
 [
 "4e0397f1277f",
-80,
-255,
+79,
+266,
 4
 ],
 [
-"7c2b06828c4c",
-40,
-256,
-2
+"4c46e93063cd",
+10,
+133,
+1
+],
+[
+"0e58c7788b26",
+1,
+248,
+1
 ],
 [
 "04bcb050b240",
 48,
-48,
+58,
 2
 ],
 [
 "f2f94f0e52e5",
-43,
-237,
+42,
+247,
 2
 ],
 [
 "f97c668c59ca",
-49,
-53,
+41,
+63,
 2
 ],
 [
 "3d44520ac59c",
-1,
-254,
+0,
+264,
 1
 ],
 [
-"ef9057d47670",
-0,
-353,
+"b72b1fda8dc4",
+32,
+123,
 1
 ]
 ],
-"top_at": 1794659186.37265
+"top_at": 1794659798.1929903
 }
