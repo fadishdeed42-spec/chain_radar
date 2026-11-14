@@ -2,17 +2,14 @@
 "hacks": {},
 "init": true,
 "log": [
-1794581773.512688,
-1794582746.734282,
-1794584231.819643,
-1794587576.9522533,
 1794600750.0260146,
 1794603764.3015058,
 1794630442.6847486,
 1794631968.2284842,
 1794659493.7226882,
 1794666553.167528,
-1794667780.7457988
+1794667780.7457988,
+1794674445.099652
 ],
 "menu": {
 "001b550e4687": {
@@ -244,7 +241,7 @@
 "Pluang",
 "www.tokenpost.com"
 ],
-"t": 1794673562.9804413,
+"t": 1794674138.8745005,
 "t0": 1794667110.0,
 "tgtext": "",
 "title": "Ether Falls 3.90% in Four Hours to $1,835 as Long Liquidations Reach $35.83M",
@@ -309,10 +306,11 @@
 "coin": "bitcoin",
 "src": "Cryptonews.net",
 "srcs": [
+"CoinDesk",
 "CryptoPotato",
 "Cryptonews.net"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794664981.0,
 "tgtext": "",
 "title": "Bitcoin Price Analysis: BTC Risks $64K as Binance Open Interest Hits 3-Month Low",
@@ -453,7 +451,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794668400.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded NEW: The UK, Singapore and Thailand central banks just synced FX settlement across RTGS and blockchain rails, and the BoE wants it live by 2028.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand central banks just synced FX settlement across RTGS and blockchain rails, and the BoE wants it live by 2028.",
@@ -1462,7 +1460,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794659206.0,
 "tgtext": "\ud83d\udea8 JUST IN: Strive CEO Matt Cole says $BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.\n\nNews | Markets | YouTube",
 "title": "Strive CEO Matt Cole says BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.",
@@ -1554,7 +1552,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794666444.0,
 "tgtext": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours\n\nLayer 1 blockchain Kava announced that its teams are tracking unexpected behavior originating from a decentralized application (dApp) within the Kava ecosystem, treating the investigation as a high priority with an official update to follow shortly. Amid the suspected security issue and a trading warning issued by South Korean exchange Upbit, the KAVA token plunged over 41% in the past 24 hours to around $0.04002. Kava is a cross-chain DeFi Layer 1 blockchain combining Cosmos performance with an Ethereum developer experience, backed by major investors including Binance Labs and Framework Ventures. \u2014 link",
 "title": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours",
@@ -1740,6 +1738,22 @@
 "https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize"
 ]
 },
+"60ff9ea2fe8a": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"CoinDesk",
+"Cointelegraph"
+],
+"t": 1794674445.099652,
+"t0": 1794670707.0,
+"tgtext": "\ud83c\uddf0\ud83c\uddff BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.\n\nNews | Markets | YouTube",
+"title": "BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.",
+"url": "https://t.me/cointelegraph/73281",
+"urls": [
+"https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale"
+]
+},
 "61645feca2c2": {
 "coin": "bitcoin",
 "src": "Bitcoin Magazine",
@@ -1764,10 +1778,11 @@
 "src": "Pluang",
 "srcs": [
 "Crypto Briefing",
+"Cryptonews.net",
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794666909.0,
 "tgtext": "",
 "title": "Kava investigates unusual token activity; Upbit and Coinone halt KAVA deposits and withdrawals",
@@ -2606,7 +2621,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794667427.0,
 "tgtext": "JUST IN: Bitcoin $BTC crashes under $66,000 as $205,000,000 is liquidated from the crypto market in the past 60 minutes.\n\n@WatcherGuru",
 "title": "Bitcoin BTC crashes under $66,000 as $205,000,000 is liquidated from the crypto market in the past 60 minutes.",
@@ -3114,7 +3129,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794672196.0,
 "tgtext": "The market is crashing, but the #EthereumFoundation is selling $ETH even faster!\n\nThe #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,500 $ETH($4.6M).\nhttps://x.com/lookonchain/status/2121464139726073912",
 "title": "The market is crashing, but the EthereumFoundation is selling ETH even faster!",
@@ -3153,7 +3168,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794660146.0,
 "tgtext": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the $ETH dip!\n\nWe spotted many wallets linked to Erik Voorhees that spent $97M to buy 48,647 $ETH at an average price of $1,994 over the past 4 days.\n\nThese wallets still hold $78.68M in stablecoins and may continue buying.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a",
 "title": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the ETH dip!",
@@ -3597,7 +3612,7 @@
 "FXEmpire",
 "Traders Union"
 ],
-"t": 1794673562.9804413,
+"t": 1794674445.099652,
 "t0": 1794662824.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Poised to Drop to $60K as ETFs Accumulate 7-Day Streak of Outflows",
@@ -4226,8 +4241,8 @@
 "04bcb050b240": 0.184,
 "13b15f764f72": 0.31,
 "14adcadfed2e": 0.049,
-"17fd4531f1a3": 0.34,
-"210952dbe85f": 0.683,
+"17fd4531f1a3": 0.413,
+"210952dbe85f": 0.609,
 "3e8ff7b037fa": 0.129,
 "40b1b1a3c45c": 0.019,
 "4114c4fbb7a0": 0.023,
@@ -4235,116 +4250,36 @@
 "5145d842aace": 0.753,
 "56a1c8d2bdf8": 0.643,
 "603d6507ddd7": 0.098,
-"60ff9ea2fe8a": 0.116,
-"610710ec12aa": 0.052,
-"6187f9324294": 0.593,
+"60ff9ea2fe8a": 0.98,
+"6187f9324294": 0.356,
 "657b205055f2": 0.045,
 "76eb853a7a2e": 0.3,
-"797f5df50a34": 0.1,
+"78526c92eb25": 0.11,
+"797f5df50a34": 0.144,
+"7e6653c36a11": 0.043,
 "82782f779009": 0.014,
 "8b862e4844d2": 0.068,
 "8dacbd537481": 0.097,
 "8f4f09db1e40": 0.747,
 "916b060fbb1b": 0.147,
-"991ef3da0782": 0.055,
-"9e8e97c7a167": 0.046,
 "a0fad2028605": 0.205,
-"ade2ef558657": 0.141,
-"b01ded7735db": 0.922,
+"ade2ef558657": 0.29,
+"b01ded7735db": 0.981,
 "b689fbfc67cb": 0.055,
-"b72b1fda8dc4": 0.149,
+"b872ea30ef82": 0.036,
 "ba81bd06dab0": 0.233,
 "c9e2516d5984": 0.274,
+"d26d2bad2099": 0.058,
 "d8b028c4c5c0": 0.461,
 "dd1c275bb600": 0.104,
 "dd4548e1acf3": 0.041,
+"e43b31d9dd37": 0.023,
 "e58d3065faf0": 0.069,
 "e8bd633eb6c0": 0.037,
 "f5ba11bc54d2": 0.07,
-"f97c668c59ca": 0.138,
-"fe2a17903160": 0.262
+"f97c668c59ca": 0.138
 },
 "sent": [
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1794496716.6511464,
-"u": [
-"https://t.me/WatcherGuru/15976",
-"https://news.google.com/rss/articles/CBMieEFVX3lxTE5WLW1YXzhTa2ZZVlJsV0N6aXlkdFRYVWlBOHNfcEN0dVpFSVItVEJkbTV4YkdDWUNzR1Jlc0VIajZ4aF9TWUpMbndlbThNV2IxRG5fZFdBTF9MNjdQc0xPNnl5dTAxd0JORVBvUkhXZ0FveHdMd0NVYw?oc=5"
-],
-"w": [
-"$125m",
-"$72",
-"000",
-"below",
-"bitcoin",
-"falls",
-"liquidated",
-"longs"
-]
-},
-{
-"e": [
-"audit",
-"big",
-"completes",
-"four",
-"gold",
-"kpmg",
-"opinion",
-"tether",
-"unqualified",
-"xau"
-],
-"k": [],
-"t": 1794497494.6853085,
-"u": [
-"https://t.me/wublockchainenglish/26800",
-"https://www.theblock.co/news/business/2026-11-12-tether-gold-issuer-follows-usdt-to-complete-big-four-audit-438849"
-],
-"w": [
-"audit",
-"big",
-"completes",
-"four",
-"gold",
-"kpmg",
-"opinion",
-"tether",
-"unqualified",
-"xau"
-]
-},
-{
-"e": [
-"anchorage",
-"union",
-"usdpt",
-"visa",
-"western"
-],
-"k": [],
-"t": 1794499430.9209754,
-"u": [
-"https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520",
-"https://t.me/WatcherGuru/15983"
-],
-"w": [
-"adds",
-"anchorage",
-"network",
-"settlement",
-"stablecoin",
-"tie",
-"union",
-"usdpt",
-"visa",
-"western"
-]
-},
 {
 "e": [
 "breach",
@@ -5531,6 +5466,36 @@
 "token",
 "withdrawals"
 ]
+},
+{
+"e": [
+"big",
+"kazakhstan"
+],
+"k": [
+"ban"
+],
+"t": 1794674445.099652,
+"u": [
+"https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
+"https://t.me/cointelegraph/73281"
+],
+"w": [
+"$22",
+"2027",
+"bank",
+"big",
+"bonds",
+"central",
+"government",
+"kazakhstan",
+"notes",
+"out",
+"right",
+"selling",
+"tokenized",
+"wants"
+]
 }
 ],
 "stories": {},
@@ -5539,63 +5504,63 @@
 [
 "b01ded7735db",
 20,
-23,
+37,
 1
 ],
 [
+"60ff9ea2fe8a",
+26,
+62,
+2
+],
+[
 "5145d842aace",
-18,
-239,
+16,
+254,
 1
 ],
 [
 "8f4f09db1e40",
 35,
-102,
+117,
+1
+],
+[
+"56a1c8d2bdf8",
+10,
+133,
 1
 ],
 [
 "210952dbe85f",
 20,
-86,
+101,
 2
 ],
 [
-"56a1c8d2bdf8",
-10,
-119,
-1
-],
-[
 "b25d8eb54170",
-5,
-224,
+3,
+238,
 1
-],
-[
-"6187f9324294",
-75,
-111,
-3
 ],
 [
 "d8b028c4c5c0",
-59,
-179,
+58,
+194,
 3
 ],
 [
 "17fd4531f1a3",
-28,
-143,
-2
+38,
+158,
+3
 ],
 [
-"13b15f764f72",
-41,
-108,
-2
+"6187f9324294",
+85,
+126,
+4
 ]
 ],
-"top_at": 1794673562.9804413
+"top_at": 1794674445.099652
 }
