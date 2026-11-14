@@ -363,7 +363,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794674066.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddff BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.\n\nNews | Markets | YouTube",
 "title": "BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.",
@@ -434,7 +434,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794678958.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Coinbase CEO Brian Armstrong says crypto stablecoins have massively strengthened the US dollar's status as the world's reserve currency.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Coinbase CEO Brian Armstrong says crypto stablecoins have massively strengthened the US dollar's status as the world's reserve currency.",
@@ -483,7 +483,7 @@
 "Hokanews",
 "Watcher.Guru"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794674989.0,
 "tgtext": "JUST IN: $XRP crashes under $0.95 for the first time since November 2024.\n\n@WatcherGuru",
 "title": "XRP Price Falls Below $1 for First Time Since 2024 as ETF Inflows Stall",
@@ -564,7 +564,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794691442.0,
 "tgtext": "JUST IN: $645,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$645,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -846,7 +846,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794691737.0,
 "tgtext": "JUST IN: Elon Musk's SpaceX $SPCX successfully catches Starship rocket at launch tower for the first time in history.\n\n@WatcherGuru",
 "title": "Elon Musk's SpaceX SPCX successfully catches Starship rocket at launch tower for the first time in history.",
@@ -875,7 +875,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794691509.9457684,
+"t": 1794693037.9506888,
 "t0": 1794688449.0,
 "tgtext": "\ud83d\udea8 INTERESTING: There are just 888,090 $BTC left to mine.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: There are just 888,090 BTC left to mine.",
@@ -1407,7 +1407,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794675528.0,
 "tgtext": "JUST IN: Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 100,000 signatures.\n\n@WatcherGuru\nJUST IN: Two Nvidia investors holding over $2 billion in $NVDA shares call for board to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
 "title": "Two Nvidia investors holding over $2 billion in NVDA shares call for board to reinstate Jensen Huang as CEO.",
@@ -1935,7 +1935,7 @@
 "Pluang",
 "www.tokenpost.com"
 ],
-"t": 1794692426.409099,
+"t": 1794692733.7379673,
 "t0": 1794675068.0,
 "tgtext": "",
 "title": "Solana sees $11.55M long liquidations as price drops nearly 2% to $70.74 in one hour",
@@ -2234,17 +2234,18 @@
 "urls": []
 },
 "8082ea5c7577": {
-"coin": "",
-"src": "Coinpaper",
+"coin": "cardano",
+"src": "ZyCrypto",
 "srcs": [
 "Coinpaper",
-"CryptoTicker.io"
+"CryptoTicker.io",
+"ZyCrypto"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794681522.0,
 "tgtext": "",
-"title": "Binance Reopens 87 Crypto Networks After $6.3B Hack, Targets Full Withdrawals Next Week",
-"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ1FNTXp3TzFMbzNnajRmdDY0TGRGbXVUOGJxeGszRWx3ZEZjZURRTnVvVUZPM0ptaGFVZ2k1R0Fqa0hmd0N2ZE5YTHNWUFNlY19PNjNkU2dMTF9JQW5zUVcwM0VWU1FwT2w5Tm5vMVVmbjZDSG00TVA2bnctR1RFeHBWdTRGVkxVNXdZWmNxVk9IODdVNDFxbV9VZVJ0cUJpRlh2UFhVVTNFdjR1ZXJHQTJmY0Q?oc=5",
+"title": "Hoskinson Credits Cardano\u2019s Staking Model After Binance Hack Leaves Network Unaffected",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONDh1anEzazFNbU1ZY2xUbzc0cmMyaUFMeVpBbzN5WEJHVTlvYTBiQmdBNlo0TWVaUXhkUHVPOWtCVjFDaEI3dVNFLTlpbXp5RHhlVFphb3JFS21wRjZ3V1AteUtianhMcTJ2ZnNHUVB5WFU2MGFtMUlSak9PTzlqQkJTYVFwbFpDVXo4RjBfOThiMVNVT0J4VEQ1UUZjODdzdTVuSHUtdWQ5X0RSTlh6QdIBsAFBVV95cUxONDh1anEzazFNbU1ZY2xUbzc0cmMyaUFMeVpBbzN5WEJHVTlvYTBiQmdBNlo0TWVaUXhkUHVPOWtCVjFDaEI3dVNFLTlpbXp5RHhlVFphb3JFS21wRjZ3V1AteUtianhMcTJ2ZnNHUVB5WFU2MGFtMUlSak9PTzlqQkJTYVFwbFpDVXo4RjBfOThiMVNVT0J4VEQ1UUZjODdzdTVuSHUtdWQ5X0RSTlh6QQ?oc=5",
 "urls": []
 },
 "81783cf0618b": {
@@ -3055,7 +3056,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794672196.0,
 "tgtext": "The market is crashing, but the #EthereumFoundation is selling $ETH even faster!\n\nThe #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,500 $ETH($4.6M).\nhttps://x.com/lookonchain/status/2121464139726073912",
 "title": "The market is crashing, but the EthereumFoundation is selling ETH even faster!",
@@ -3788,7 +3789,7 @@
 "Cryptonews.net",
 "Yahoo Finance"
 ],
-"t": 1794692426.409099,
+"t": 1794693037.9506888,
 "t0": 1794672647.0,
 "tgtext": "",
 "title": "Why Is Bitcoin Crashing? BTC Breaks Below $64K as Ethereum Falls Toward $1,800",
@@ -4034,28 +4035,27 @@
 "1b6a3e3b00c1": 0.009,
 "1cb1c7068885": 0.046,
 "1d1b8e45564e": 0.073,
-"1eaa424e2258": 0.092,
+"1eaa424e2258": 0.094,
 "23829e3eefd9": 0.693,
 "25d7fd524964": 0.133,
-"281bacbe9506": 0.914,
+"281bacbe9506": 0.687,
 "2e464a21b22c": 0.036,
 "3404eac05dff": 0.015,
-"34118563b666": 0.956,
+"34118563b666": 0.678,
 "378f2fc48d65": 0.027,
 "446b9574f910": 0.005,
 "45fd7397dcdf": 0.033,
 "4b0b9ed96830": 0.822,
 "4c13227ad7d7": 0.016,
+"5505ff91b9a6": 0.122,
 "5ff2eaf71681": 0.016,
-"6f320514d3d5": 0.226,
 "72f1f5db4583": 0.084,
 "76ceb7058fdc": 0.019,
-"76eb853a7a2e": 0.036,
+"76eb853a7a2e": 0.09,
 "7b3e79850c11": 0.032,
-"8082ea5c7577": 0.265,
+"8082ea5c7577": 0.38,
 "80cb5eb95de5": 0.048,
 "8b376e060e38": 0.08,
-"8d2555a60dcc": 0.02,
 "8df27a1e6d66": 0.006,
 "9ed546202c50": 0.026,
 "a53d8760ea2c": 0.019,
@@ -4064,6 +4064,7 @@
 "b7e2eb5c5b8d": 0.096,
 "b8cb14a476ed": 0.029,
 "c082f2eec42b": 0.038,
+"cd50a6e9ff80": 0.017,
 "ce7cfa6695e8": 0.049,
 "d3913183c68e": 0.037,
 "e72e0c1d7f77": 0.009,
@@ -5313,65 +5314,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"34118563b666",
-18,
-11,
-1
-],
-[
-"281bacbe9506",
-25,
-16,
-1
-],
-[
 "4b0b9ed96830",
-22,
-282,
+21,
+292,
 2
 ],
 [
 "23829e3eefd9",
-45,
-291,
+43,
+301,
 2
 ],
 [
+"281bacbe9506",
+25,
+27,
+1
+],
+[
+"34118563b666",
+18,
+22,
+1
+],
+[
 "f1c175beeefe",
-26,
-330,
+24,
+340,
 3
 ],
 [
 "b01ded7735db",
-10,
-337,
+8,
+347,
 1
 ],
 [
+"8082ea5c7577",
+89,
+192,
+3
+],
+[
 "20b395e5b510",
-13,
-224,
+11,
+235,
 1
 ],
 [
 "1c566be1fa1e",
 0,
-306,
+316,
 1
 ],
 [
-"8082ea5c7577",
-65,
-182,
-2
-],
-[
-"6f320514d3d5",
-42,
-289,
-2
+"35c307dd584b",
+10,
+76,
+1
 ]
 ],
-"top_at": 1794692426.409099
+"top_at": 1794693037.9506888
 }
