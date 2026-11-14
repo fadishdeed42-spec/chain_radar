@@ -2,8 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1794576820.24269,
-1794578068.939965,
 1794581773.512688,
 1794582746.734282,
 1794584231.819643,
@@ -12,7 +10,8 @@
 1794603764.3015058,
 1794630442.6847486,
 1794631968.2284842,
-1794659493.7226882
+1794659493.7226882,
+1794666553.167528
 ],
 "menu": {
 "001b550e4687": {
@@ -90,7 +89,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794656314.0,
 "tgtext": "",
 "title": "Franklin Templeton Reveals 293 Million XRP Holdings Worth $440M in New SEC Filing",
@@ -161,7 +160,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794665931.6373737,
+"t": 1794666248.743363,
 "t0": 1794644919.0,
 "tgtext": "\ud83d\udea8 LATEST: The Bitcoin ETFs have seen outflows every day this week.\n\nA total of $1.07B has now flowed out of US spot ETFs this week.\n\nNews | Markets | YouTube",
 "title": "The Bitcoin ETFs have seen outflows every day this week.",
@@ -461,19 +460,6 @@
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: Louisiana Attorney General Liz Murrill sues Kalshi, Polymarket, Coinbase, Robinhood and other prediction market operators over alleged illegal gambling, seeking an immediate injunction.\n\nNews | Markets | YouTube",
 "title": "BIG: Louisiana Attorney General Liz Murrill sues Kalshi, Polymarket, Coinbase, Robinhood and other prediction market operators over alleged illegal gambling, seeking an immediate injunction.",
 "url": "https://t.me/cointelegraph/73247",
-"urls": []
-},
-"27d0f319b06f": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794493216.179999,
-"t0": 1794474053.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: The market sees a 100% chance of a Fed rate hike in December.\n\nCME FedWatch puts the odds at 90.8% for a 25 bps hike and 9.2% for a 50 bps hike.\n\nNews | Markets | YouTube",
-"title": "NOW: The market sees a 100% chance of a Fed rate hike in December.",
-"url": "https://t.me/cointelegraph/73224",
 "urls": []
 },
 "283483ef1f30": {
@@ -1328,7 +1314,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794651844.0,
 "tgtext": "\ud83d\udd25 NEW: Adam Back says the fix for Bitcoin custody is \"just cold-store it,\" as Blockstream launches an offline custody system with Thales.\n\nBinance's $6.3B hack was his main example.\n\nNews | Markets | YouTube",
 "title": "Adam Back says the fix for Bitcoin custody is \"just cold-store it,\" as Blockstream launches an offline custody system with Thales.",
@@ -1388,7 +1374,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794659206.0,
 "tgtext": "\ud83d\udea8 JUST IN: Strive CEO Matt Cole says $BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.\n\nNews | Markets | YouTube",
 "title": "Strive CEO Matt Cole says BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.",
@@ -1487,6 +1473,19 @@
 "tgtext": "TSMC Confirms Hacker Obtained Employee Data and Demanded 3 BTC, Says Internal Systems Uncompromised\n\nAccording to Jiemian News, Taiwan Semiconductor Manufacturing Company (TSMC) responded on November 12 to reports of a hacker attempting to sell an alleged 6.9GB database containing 46,000 TSMC employee records on an underground forum for 3 BTC; TSMC confirmed that personal data belonging to certain current and former employees was exposed without authorization, noting that preliminary investigations link the leaked records to a third-party cloud service provider's system rather than an intrusion into TSMC's own internal IT infrastructure. The chipmaker emphasized that production operations and customer data remain completely unaffected, adding that it is notifying impacted staff and working closely with the cloud vendor, law enforcement, and external cybersecurity firms to investigate the breach. \u2014 link\n\ud83c\uddf9\ud83c\uddfc LATEST: Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.\n\nTSMC found no evidence of an internal breach.\n\nNews | Markets | YouTube",
 "title": "Chipmaker giant TSMC confirmed an employee data leak linked to a cloud provider. A seller reportedly asked 3 BTC for 46,000 alleged employee records.",
 "url": "https://t.me/cointelegraph/73225",
+"urls": []
+},
+"56a1c8d2bdf8": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794666553.167528,
+"t0": 1794666444.0,
+"tgtext": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours\n\nLayer 1 blockchain Kava announced that its teams are tracking unexpected behavior originating from a decentralized application (dApp) within the Kava ecosystem, treating the investigation as a high priority with an official update to follow shortly. Amid the suspected security issue and a trading warning issued by South Korean exchange Upbit, the KAVA token plunged over 41% in the past 24 hours to around $0.04002. Kava is a cross-chain DeFi Layer 1 blockchain combining Cosmos performance with an Ethereum developer experience, backed by major investors including Binance Labs and Framework Ventures. \u2014 link",
+"title": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours",
+"url": "https://t.me/wublockchainenglish/26827",
 "urls": []
 },
 "56ca33d9f1d2": {
@@ -2937,7 +2936,7 @@
 "Cointribune",
 "TechJuice"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794645504.0,
 "tgtext": "",
 "title": "Binance to Fully Reopen Withdrawals Soon Following the $6.3 Billion Crypto Hack",
@@ -3095,7 +3094,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794660146.0,
 "tgtext": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the $ETH dip!\n\nWe spotted many wallets linked to Erik Voorhees that spent $97M to buy 48,647 $ETH at an average price of $1,994 over the past 4 days.\n\nThese wallets still hold $78.68M in stablecoins and may continue buying.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a",
 "title": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the ETH dip!",
@@ -3138,7 +3137,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794652446.0,
 "tgtext": "",
 "title": "Microsoft confirms global outage resolved, rules out cyberattack",
@@ -3169,7 +3168,7 @@
 "srcs": [
 "Traders Union"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794646342.0,
 "tgtext": "",
 "title": "Bitcoin plunges below $67,000 as crypto liquidations reach $656 million",
@@ -4066,7 +4065,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794656033.0,
 "tgtext": "",
 "title": "XRP Loans Trigger 883 Liquidations as 4.18M Tokens Are Seized and $53.5M Debt Remains",
@@ -4154,7 +4153,7 @@
 "srcs": [
 "Forbes"
 ],
-"t": 1794665931.6373737,
+"t": 1794666553.167528,
 "t0": 1794658505.0,
 "tgtext": "",
 "title": "\u2018Don't Wait\u2019\u2014Bitcoin Suddenly In Free Fall As Price \u2018Collapse\u2019 Fears Trigger Surprise $2 Trillion Crypto Crash",
@@ -4167,7 +4166,6 @@
 "rain": 1794413019.0371053
 },
 "probs": {
-"023ada743b73": 0.273,
 "04bcb050b240": 0.371,
 "06314dff5785": 0.037,
 "14adcadfed2e": 0.074,
@@ -4176,16 +4174,16 @@
 "3c4fad8d40d9": 0.046,
 "40b1b1a3c45c": 0.028,
 "4114c4fbb7a0": 0.035,
-"41998c5f286b": 0.119,
+"41998c5f286b": 0.146,
 "4d442b94987c": 0.084,
 "5145d842aace": 0.897,
+"56a1c8d2bdf8": 0.981,
 "657b205055f2": 0.067,
 "75948c402d32": 0.187,
 "78f7a83e386d": 0.126,
 "797f5df50a34": 0.193,
-"82782f779009": 0.053,
+"82782f779009": 0.021,
 "8699d868c05c": 0.088,
-"87e5ea78ea3d": 0.251,
 "8989b6cd0a4c": 0.039,
 "8dacbd537481": 0.142,
 "991ef3da0782": 0.087,
@@ -4193,15 +4191,16 @@
 "a0fad2028605": 0.283,
 "a763a5ba6390": 0.62,
 "b25d8eb54170": 0.651,
+"b3efdb41b372": 0.132,
 "b689fbfc67cb": 0.081,
 "b72b1fda8dc4": 0.334,
 "b9026646adaa": 0.305,
+"ba81bd06dab0": 0.233,
 "c28f2e22555f": 0.152,
 "d85c9dbf3cab": 0.114,
 "d8b028c4c5c0": 0.088,
 "db4c1bac0ad1": 0.112,
 "e8bd633eb6c0": 0.056,
-"ef9057d47670": 0.179,
 "f22e0f011e52": 0.104,
 "f2f94f0e52e5": 0.205,
 "f5ba11bc54d2": 0.104,
@@ -4209,83 +4208,6 @@
 "fe2a17903160": 0.505
 },
 "sent": [
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1794489260.123074,
-"u": [
-"https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGRJeXRLMTlNWWZPOXNHX3BIV25jS3VPQjNMcVVUS0JoWEkxbzMtRGlpdjN3N3ZTTlNhZHBtYVBSdWhOeTJfSjFqdDlqcTRTMnQ3Z0NmRkg1WEZFdGRlc0J4STlpTHBuNFh6MDdMbjJ2Tk02VHc1akpGdU96TzQxYVZwUmoxS0M2aXo3TThTd25lOFdZU3laREM0OWZPNDlmUnJVelNTMEpiaUVVUnc?oc=5",
-"https://news.google.com/rss/articles/CBMirwFBVV95cUxNa1VROUVCb3JvQy0tVzVMdFpTYXIwLU1zV1hmR2JXNjF4bVZiVUlwYlI3MW5LZjUtZlRaMFVRV0Z4YmgtbEtUSHhYRTBLdjdhVXY2SVRMXzN1TzNzMTNkakluQzVlaUdjelBJaURXSkxFUERkX2VsZnVXWVMwNHdlcXBaOVhUdUFReTlNWURfbllTcFFMYVM4RVYwSS04RVlUZGlSak92d0d6c1RnbFZF?oc=5",
-"https://news.google.com/rss/articles/CBMiigFBVV95cUxQUnNaS1EzOGZ3Q0VjMUNzemxUUnlTekVlRFByNW5TMUprMzZWeHFFQ0szS1lNWlFEb0xMMU5RUm9CWDJPRzI1T041T0plZk56NVdfdG1EaGZLcVlUVVNHb1NTc0dxeGRLa3duLW9hWDhZUXpDdnhHcWN1WElzc2VXOU9GUUp6WGo0dXc?oc=5"
-],
-"w": [
-"$50b",
-"$72k",
-"above",
-"below",
-"bitcoin",
-"drops",
-"futures",
-"interest",
-"liquidations",
-"open",
-"price",
-"risking",
-"stays"
-]
-},
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1794491281.4701464,
-"u": [
-"https://t.me/WatcherGuru/15969"
-],
-"w": [
-"$222",
-"000",
-"liquidated",
-"longs",
-"minutes",
-"past",
-"worth"
-]
-},
-{
-"e": [
-"below",
-"dips",
-"hour",
-"liquidated",
-"longs",
-"slides"
-],
-"k": [
-"crash"
-],
-"t": 1794492912.8793943,
-"u": [
-"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aLXljdGFyNW5UOHYwTVZBVnhsM0FhbmNlWnpBTFRNaWFybS1hWnlpeld5dW1jQjJBN1BVcEVNeUpIWWhsdjluRkpVT25rZmZXbXdKZW5oNHFzdw?oc=5",
-"https://news.google.com/rss/articles/CBMipgFBVV95cUxORHlqS1hFNlpWc0RDbU43MjZEbjRiTHR1S19kYldURnFoTzh1cU90XzVyWms1bHFwU3o1bXNzeUE1S285ZDdHZDBIaE5TZTQxeHQwc3hPY2llekQwb2R6eHJtYjVtdmx6ZnRlMXVoT0l2X1VzblV4bW9pNnVmMDZtNjJnSUY3WGFGRUw4dlFsX3hoc2lLck9jTWxIOGtObnJiOWVrbnln?oc=5"
-],
-"w": [
-"$220m",
-"$2k",
-"$72k",
-"below",
-"btc",
-"dips",
-"eth",
-"hour",
-"liquidated",
-"longs",
-"slides"
-]
-},
 {
 "e": [
 "armstrong",
@@ -5558,71 +5480,95 @@
 "would",
 "zero"
 ]
+},
+{
+"e": [
+"behavior",
+"drops",
+"hours",
+"investigating",
+"kava",
+"unexpected"
+],
+"k": [],
+"t": 1794666553.167528,
+"u": [
+"https://t.me/wublockchainenglish/26827"
+],
+"w": [
+"behavior",
+"dapp",
+"drops",
+"hours",
+"investigating",
+"kava",
+"unexpected"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"56a1c8d2bdf8",
+10,
+2,
+1
+],
+[
 "5145d842aace",
 25,
-112,
+122,
 1
 ],
 [
 "b25d8eb54170",
 10,
-96,
+107,
 1
 ],
 [
 "a763a5ba6390",
-59,
-340,
+58,
+351,
 3
 ],
 [
 "4c46e93063cd",
-3,
-235,
+2,
+245,
 1
 ],
 [
 "fe2a17903160",
 20,
-124,
-1
-],
-[
-"0e58c7788b26",
-0,
-350,
+134,
 1
 ],
 [
 "04bcb050b240",
 40,
-160,
+171,
 2
 ],
 [
 "b72b1fda8dc4",
-27,
-225,
+25,
+235,
 1
 ],
 [
 "b9026646adaa",
-22,
-326,
+21,
+337,
 1
 ],
 [
 "f97c668c59ca",
 41,
-165,
+175,
 2
 ]
 ],
-"top_at": 1794665931.6373737
+"top_at": 1794666553.167528
 }
