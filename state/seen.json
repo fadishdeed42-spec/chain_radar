@@ -1,5 +1,7 @@
 {
-"hacks": {},
+"hacks": {
+"Kava Lend1794614400": 1794689668.2077956
+},
 "init": true,
 "log": [
 1794600750.0260146,
@@ -135,7 +137,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794681248.0,
 "tgtext": "\u26a1\ufe0f LATEST: Microsoft 365 is finally back after a global outage of more than 24 hours that hit government email in the US, Japan and Singapore.\n\nNews | Markets | YouTube",
 "title": "Microsoft 365 is finally back after a global outage of more than 24 hours that hit government email in the US, Japan and Singapore.",
@@ -419,7 +421,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794678958.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Coinbase CEO Brian Armstrong says crypto stablecoins have massively strengthened the US dollar's status as the world's reserve currency.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Coinbase CEO Brian Armstrong says crypto stablecoins have massively strengthened the US dollar's status as the world's reserve currency.",
@@ -433,7 +435,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794668400.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded NEW: The UK, Singapore and Thailand central banks just synced FX settlement across RTGS and blockchain rails, and the BoE wants it live by 2028.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand central banks just synced FX settlement across RTGS and blockchain rails, and the BoE wants it live by 2028.",
@@ -468,7 +470,7 @@
 "Hokanews",
 "Watcher.Guru"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794674989.0,
 "tgtext": "JUST IN: $XRP crashes under $0.95 for the first time since November 2024.\n\n@WatcherGuru",
 "title": "XRP Price Falls Below $1 for First Time Since 2024 as ETF Inflows Stall",
@@ -497,7 +499,7 @@
 "CoinDesk",
 "CryptoPotato"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794669960.0,
 "tgtext": "",
 "title": "Bitcoin price analysis: BTC continues to decline Saturday, entering 'deep value zone'",
@@ -523,7 +525,7 @@
 "srcs": [
 "StreetInsider"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794673984.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: Can ETH Win Back $2K as Remittix Earn Opens Aave, Morpho and Fluid Pools to the Public?",
@@ -847,7 +849,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794688449.0,
 "tgtext": "\ud83d\udea8 INTERESTING: There are just 888,090 $BTC left to mine.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: There are just 888,090 BTC left to mine.",
@@ -1723,7 +1725,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794670707.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddff BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.\n\nNews | Markets | YouTube",
 "title": "BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.",
@@ -2017,7 +2019,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794669308.0,
 "tgtext": "JUST IN: Watcher Guru Inc. signs petition to reinstate Jensen Huang as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 100,000 signatures.\n\n@WatcherGuru\nJUST IN: Two Nvidia investors holding over $2 billion in $NVDA shares call for board to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
 "title": "Two Nvidia investors holding over $2 billion in NVDA shares call for board to reinstate Jensen Huang as CEO.",
@@ -2994,7 +2996,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794689358.7069569,
+"t": 1794689972.4710023,
 "t0": 1794672196.0,
 "tgtext": "The market is crashing, but the #EthereumFoundation is selling $ETH even faster!\n\nThe #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,500 $ETH($4.6M).\nhttps://x.com/lookonchain/status/2121464139726073912",
 "title": "The market is crashing, but the EthereumFoundation is selling ETH even faster!",
@@ -3583,21 +3585,6 @@
 "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"e45165a30e8a": {
-"coin": "bitcoin",
-"src": "TradingView",
-"srcs": [
-"Coinpaper",
-"Coinpedia",
-"TradingView"
-],
-"t": 1794516966.779456,
-"t0": 1794495453.0,
-"tgtext": "",
-"title": "BTC and ETH Whale\u2019s $493 Million Long Positions Fully Liquidated, With $68.59 Million Loss",
-"url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMUZ3c3IwUmFjX25leUQ3Z1Vjc2xnbU0xNk1yckpTUUEyX2lLbUo5Y3pRN3lqbU9lQzRFbWJwWF9FVzlvMVNIQlJkOGxqXzRQMlgtM1NHRm9Ua1doWFhMblVwRFRaUkZDcWt4clBuc0NtZDR1OGxUME53S0JUZ29YREJpUmVpUURkWDQwd2MtQ2xjSkVPRDQ4WUxsQ3BwZnUyNTBUWFM4Q3R1QmhqTjBoN3JOU2wyVTNlbGdZN3cyRmdFX3BqZXpvckVtbERGNFZ0MVpJS21TTzhhanplaFlFc0NWdE8?oc=5",
-"urls": []
-},
 "e492447372d7": {
 "coin": "",
 "src": "Yahoo Finance",
@@ -3988,23 +3975,23 @@
 "09bdc960c323": 0.127,
 "0e28825d954e": 0.006,
 "1b6a3e3b00c1": 0.007,
+"1cb1c7068885": 0.034,
 "1d1b8e45564e": 0.062,
 "20b395e5b510": 0.253,
-"20f17da51545": 0.008,
 "232148046b93": 0.054,
 "23829e3eefd9": 0.518,
-"2df2a5426216": 0.09,
+"25d7fd524964": 0.164,
+"297e3132f883": 0.021,
 "3404eac05dff": 0.013,
-"420ade78c7ad": 0.03,
+"420ade78c7ad": 0.055,
 "446b9574f910": 0.005,
 "45fd7397dcdf": 0.027,
-"470a877d1af2": 0.028,
 "52aa4e90e30f": 0.053,
 "5d9d85fe51dc": 0.015,
-"603d6507ddd7": 0.069,
 "76eb853a7a2e": 0.03,
 "78377065eb1c": 0.393,
-"7a86d3bfd837": 0.102,
+"7a86d3bfd837": 0.041,
+"7b3e79850c11": 0.027,
 "80cb5eb95de5": 0.04,
 "85a66da6097f": 0.019,
 "8d2555a60dcc": 0.032,
@@ -4012,85 +3999,21 @@
 "8df27a1e6d66": 0.023,
 "9ed546202c50": 0.022,
 "a53d8760ea2c": 0.014,
-"a58027000657": 0.033,
 "ac97b3fe4258": 0.018,
 "ade2ef558657": 0.091,
+"b01ded7735db": 0.473,
 "b7e2eb5c5b8d": 0.082,
-"c082f2eec42b": 0.006,
-"c53580fd725f": 0.014,
-"cf3dbb8372f6": 0.027,
-"d26d2bad2099": 0.02,
+"c082f2eec42b": 0.028,
+"ce7cfa6695e8": 0.042,
 "d3913183c68e": 0.032,
+"e43b31d9dd37": 0.008,
+"e72e0c1d7f77": 0.006,
 "f1c175beeefe": 0.053,
 "f579f6c51eaa": 0.076,
-"f776a1cfaadb": 0.07,
+"f776a1cfaadb": 0.038,
 "f7ad5e5e55a7": 0.121
 },
 "sent": [
-{
-"e": [
-"advisory",
-"contract",
-"donald",
-"ends",
-"investment",
-"kalshi",
-"polymarket",
-"trump"
-],
-"k": [],
-"t": 1794508385.878297,
-"u": [
-"https://t.me/wublockchainenglish/26803"
-],
-"w": [
-"advisory",
-"contract",
-"donald",
-"ends",
-"investment",
-"kalshi",
-"polymarket",
-"trump"
-]
-},
-{
-"e": [
-"connect",
-"core",
-"dtcc",
-"expected",
-"financial",
-"global",
-"infrastructure",
-"launch",
-"service",
-"solana",
-"tokenization"
-],
-"k": [],
-"t": 1794511757.0006864,
-"u": [
-"https://t.me/wublockchainenglish/26798",
-"https://t.me/cointelegraph/73230",
-"https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
-"https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
-],
-"w": [
-"2027",
-"connect",
-"core",
-"dtcc",
-"expected",
-"financial",
-"global",
-"infrastructure",
-"launch",
-"service",
-"solana",
-"tokenization"
-]
-},
 {
 "e": [
 "big",
@@ -5261,6 +5184,23 @@
 "strengthened",
 "world"
 ]
+},
+{
+"e": [
+"kava",
+"lend"
+],
+"k": [
+"hack"
+],
+"t": 1794689668.2077956,
+"u": [],
+"w": [
+"hacked",
+"kava",
+"lend",
+"million"
+]
 }
 ],
 "stories": {},
@@ -5268,64 +5208,64 @@
 "top": [
 [
 "23829e3eefd9",
-52,
-239,
-2
-],
-[
-"78377065eb1c",
-15,
-334,
+50,
+250,
 2
 ],
 [
 "b01ded7735db",
-6,
-286,
+20,
+296,
 1
 ],
 [
-"60ff9ea2fe8a",
-9,
-311,
+"78377065eb1c",
+14,
+344,
 2
 ],
 [
-"35c307dd584b",
-10,
-15,
-1
+"60ff9ea2fe8a",
+8,
+321,
+2
 ],
 [
 "210952dbe85f",
 0,
-349,
+360,
 2
 ],
 [
 "20b395e5b510",
 18,
-173,
+184,
+1
+],
+[
+"35c307dd584b",
+10,
+25,
 1
 ],
 [
 "25d7fd524964",
-0,
-256,
+14,
+266,
 1
 ],
 [
 "09bdc960c323",
 32,
-135,
+145,
 1
 ],
 [
 "24ebafef3230",
-1,
-323,
+0,
+334,
 2
 ]
 ],
-"top_at": 1794689358.7069569
+"top_at": 1794689972.4710023
 }
