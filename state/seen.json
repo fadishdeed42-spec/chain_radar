@@ -1189,7 +1189,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794631450.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 $ETH($3.87M)!  Every time #EthereumFoundation-linked wallets dump $ETH, the price drops.  Oct 12: $ETH down 9%. Oct 26: $ETH down 7.7%. Nov 10: $ETH down 10.4%.  Today marks the 4th sale.\u2026",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,000 ETH($3.87M)! Every time EthereumFoundation-linked wallets dump ETH, the price drops. Oct 12: ETH down 9%. Oct 26: ETH down 7.7%. Nov 10: ETH down 10",
@@ -1615,7 +1615,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651517.4520512,
 "t0": 1794630166.0,
 "tgtext": "Pump fun(@Pumpfun) is dumping $SOL again!\n\nThey deposited 64,666 $SOL($5.19M) into #Kraken 7 hours ago.\n\nIn total, pump.fun has sold 5,618,499 $SOL($887.6M) at an average price of $158.\n\nhttps://arkm.com/explorer/entity/pump-fun",
 "title": "Pump fun(@Pumpfun) is dumping SOL again!",
@@ -1908,7 +1908,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794632357.0,
 "tgtext": "Cardano Founder Hoskinson Says He Never Promised ADA Would Rise\n\nCardano founder Charles Hoskinson said in a recent YouTube AMA that he never promised Cardano would overtake Bitcoin or that ADA\u2019s price would rise, Decrypt reported. Responding to criticism from investors, Hoskinson said some were effectively asking him to push the token\u2019s price higher.\n\nHoskinson also said Cardano had completed its original roadmap, that everything he had committed to building was in place, and that the network now governs itself without relying on him. At the time of the report, ADA was trading at about $0.17, down more than 94% from its 2021 all-time high and about 86% from its 2024 peak. \u2014 link",
 "title": "Cardano Founder Hoskinson Says He Never Promised ADA Would Rise",
@@ -2314,7 +2314,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794637490.0,
 "tgtext": "\ud83d\udd25 PAIN: The crypto market has lost $330B in just 2 weeks.\n\nNews | Markets | YouTube",
 "title": "PAIN: The crypto market has lost $330B in just 2 weeks.",
@@ -2447,9 +2447,12 @@
 "src": "Business Today",
 "srcs": [
 "Business Today",
-"The Crypto Times"
+"Coin Edition",
+"NDTV Profit",
+"The Crypto Times",
+"TradingView"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794635940.0,
 "tgtext": "",
 "title": "Coinbase halts INR withdrawals in India amid banking outage; Unocoin, ZebPay users also face disruptions",
@@ -2920,7 +2923,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794631354.0,
 "tgtext": "Highlight Clip: Patrick Witt: The U.S. Government Needs Explicit Congressional Authorization to Legally Buy Bitcoin\n\nPatrick Witt: The U.S. Government Needs Explicit Congressional Authorization to Legally Buy Bitcoin\n\nOn November 10, 2026, Patrick Witt, former executive director of the White House Crypto Council, said in an interview with What Bitcoin Did that President Donald Trump is interested in adding to the government's Bitcoin holdings. The administration has discussed several ways to do so, but legal questions remain over whether the government can buy Bitcoin directly on the open market and how it could do so without triggering a negative market reaction.\n\nWitt said the administration wants to codify the Strategic Bitcoin Reserve and secure explicit authorization from Congress. Because Congress controls appropriations, the administration would have to show that buying Bitcoin falls within the original purpose of any existing funds it plans to use. He added that moving prematurely could prompt Congress to insert a provision into the National Defense Authorization Act banning such purchases, undermining efforts to secure authorization. \u2014 link",
 "title": "Highlight Clip: Patrick Witt: The U.S. Government Needs Explicit Congressional Authorization to Legally Buy Bitcoin",
@@ -3065,7 +3068,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794636095.0,
 "tgtext": "Smart trader 58bro.eth (@0x58bro) sold 8,000 $ETH ($19.18M) at $2,397 a week ago, then bought 10,501 $ETH ($20.77M) back at an average price of $1,978 over the past 2 days.\n\n58bro.eth has made a total profit of $39.66M on Hyperliquid, with an impressive 87.5% win rate!\n\nhttps://arkm.com/explorer/entity/0x58bro\nhttps://hypurrscan.io/address/0x418AA6Bf98a2b2BC93779f810330d88cDe488888#more",
 "title": "Smart trader 58bro.eth (@0x58bro) sold 8,000 ETH ($19.18M) at $2,397 a week ago, then bought 10,501 ETH ($20.77M) back at an average price of $1,978 over the past 2 days.",
@@ -3431,13 +3434,28 @@
 "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWtfcWdiaGdtc1BUUGZFSXZvbDVhQ3FrSmxhaDZJcEJVWFNfYTRzNWtxdGVFcFpWVzk5bDB4cTFOdlhOX1ZndUxjT0JWNDR3MnRpVVhNNmNpbDc0TmFYQkNxdFQtNVVJS3JsdVF5U0w5YVQ2cW0xOG1xQzZtQnJ5aWU1dFgzbzNrV3p0a3VLcWl0czhYX25xWUdBUnZOSGNhbU5tbTRNeGVqUmlXdmlBcg?oc=5",
 "urls": []
 },
+"c96a14585ea4": {
+"coin": "bitcoin",
+"src": "Yahoo Finance",
+"srcs": [
+"TradingView",
+"Yahoo Finance",
+"bloomingbit"
+],
+"t": 1794651822.0527825,
+"t0": 1794638400.0,
+"tgtext": "",
+"title": "Strive CEO Says Bitcoin Could \u2018Go To A Penny\u2019 And The Company Would Still Survive Because It Has No Debt",
+"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU2dSLVE1ZVRTOHRpVlh0c05HcGJmYXJaQUNXTHRsQTJaRmhkUThSaGY1MEVJdDZXTGxpZHBsT1YzOW5DSGpLYzcySVpfNzFYWXNQaDhaU0hzX283bkNhVUJNSFdMbklVVU9hWmc0OXVYeUNhWWc0RXJtczE2M3k3TDdrZUIzX3VkMGhZUzVsczJ5VlYxTXNYMW1R?oc=5",
+"urls": []
+},
 "ca3b967b2ee7": {
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794632721.0,
 "tgtext": "7 Siblings bought the $ETH dip again, buying another 9,766 $ETH ($18.88M) at $1,933 9 hours ago.\n\nhttps://arkm.com/explorer/address/0x9d6C8A347CAC83811A107f0dC749f31d21F76f75\nhttps://x.com/lookonchain/status/2120333904259559659",
 "title": "7 Siblings bought the ETH dip again, buying another 9,766 ETH ($18.88M) at $1,933 9 hours ago.",
@@ -3617,7 +3635,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794631788.0,
 "tgtext": "Erik Voorhees(@ErikVoorhees), an early #Bitcoin supporter and founder of ShapeShift, spent 4.75M $USDT to buy 2,504 $ETH at $1,896 in the past hour.\n\nhttps://arkm.com/explorer/address/0x3358Fac53CD1e23AcA4025c644d3cE2A48E64a22",
 "title": "Erik Voorhees(@ErikVoorhees), an early Bitcoin supporter and founder of ShapeShift, spent 4.75M USDT to buy 2,504 ETH at $1,896 in the past hour.",
@@ -4114,7 +4132,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794651209.66543,
+"t": 1794651822.0527825,
 "t0": 1794636623.0,
 "tgtext": "Abraxas Capital's 2 hedging accounts on Hyperliquid have made over $331M in total profit!  They currently hold over $1.45B in short positions.  https://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13F298C060#perps https://hypurrscan.io/address/0x\u2026",
 "title": "Abraxas Capital's 2 hedging accounts on Hyperliquid have made over $331M in total profit! They currently hold over $1.45B in short positions. https://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13F298C060perps ",
@@ -4167,22 +4185,18 @@
 "0e58c7788b26": 0.298,
 "26aae6ee2bc8": 0.009,
 "37d07e2f1089": 0.162,
-"396e88ec4ab1": 0.007,
 "3d44520ac59c": 0.107,
 "45053165f2a4": 0.951,
 "4e9dc496f2a2": 0.041,
 "5707d120bad9": 0.085,
-"5d6c5f197672": 0.664,
 "6eb60decf32e": 0.04,
 "7392c1943785": 0.44,
-"78770d04ced1": 0.194,
 "8144e68c42ec": 0.055,
 "8712c69ad842": 0.38,
 "8989b6cd0a4c": 0.035,
-"8c61fa08088a": 0.355,
+"8c61fa08088a": 0.643,
 "8dacbd537481": 0.09,
 "8ea8af6f8c99": 0.062,
-"92cbb357655b": 0.094,
 "989556354f14": 0.027,
 "9efc305794ae": 0.206,
 "a0d334e8230a": 0.066,
@@ -4195,10 +4209,12 @@
 "ca3b967b2ee7": 0.845,
 "d360d6c5084a": 0.029,
 "d8c573098fbe": 0.792,
-"eba481dab93c": 0.057,
+"eba481dab93c": 0.031,
 "ec3d10fa0436": 0.182,
+"ef9057d47670": 0.105,
 "f0391d9dd7b7": 0.047,
 "f295ca1cd0f1": 0.054,
+"f2f94f0e52e5": 0.242,
 "f5c2d55ccfa9": 0.034,
 "fd1f2a16881f": 0.431
 },
@@ -5744,64 +5760,64 @@
 "top": [
 [
 "b1e1292d2d0a",
-7,
-252,
+6,
+262,
 1
 ],
 [
 "45053165f2a4",
-7,
-329,
+5,
+340,
 1
 ],
 [
 "ca3b967b2ee7",
 0,
-308,
+318,
 1
 ],
 [
 "a534852ab6e6",
 0,
-331,
+341,
 1
 ],
 [
 "d8c573098fbe",
 0,
-324,
-1
-],
-[
-"5d6c5f197672",
-0,
-351,
-1
-],
-[
-"7392c1943785",
-0,
-314,
-1
-],
-[
-"fd1f2a16881f",
-23,
-243,
-1
-],
-[
-"8712c69ad842",
-19,
-229,
+334,
 1
 ],
 [
 "8c61fa08088a",
-41,
-254,
-2
+59,
+265,
+5
+],
+[
+"7392c1943785",
+0,
+324,
+1
+],
+[
+"fd1f2a16881f",
+22,
+253,
+1
+],
+[
+"8712c69ad842",
+18,
+239,
+1
+],
+[
+"c96a14585ea4",
+25,
+224,
+3
 ]
 ],
-"top_at": 1794651209.66543
+"top_at": 1794651822.0527825
 }
