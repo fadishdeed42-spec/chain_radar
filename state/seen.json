@@ -312,7 +312,7 @@
 "CryptoPotato",
 "Cryptonews.net"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794664981.0,
 "tgtext": "",
 "title": "Bitcoin Price Analysis: BTC Risks $64K as Binance Open Interest Hits 3-Month Low",
@@ -453,7 +453,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794668400.0,
 "tgtext": "\ud83c\uddec\ud83c\udde7\ud83c\uddf8\ud83c\uddec\ud83c\uddf9\ud83c\udded NEW: The UK, Singapore and Thailand central banks just synced FX settlement across RTGS and blockchain rails, and the BoE wants it live by 2028.\n\nNews | Markets | YouTube",
 "title": "The UK, Singapore and Thailand central banks just synced FX settlement across RTGS and blockchain rails, and the BoE wants it live by 2028.",
@@ -1010,7 +1010,7 @@
 "Coin Edition",
 "TOKENPOST"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794651293.0,
 "tgtext": "",
 "title": "Coinbase India Halts INR Withdrawals After Banking Partner Outage",
@@ -1402,7 +1402,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794651844.0,
 "tgtext": "\ud83d\udd25 NEW: Adam Back says the fix for Bitcoin custody is \"just cold-store it,\" as Blockstream launches an offline custody system with Thales.\n\nBinance's $6.3B hack was his main example.\n\nNews | Markets | YouTube",
 "title": "Adam Back says the fix for Bitcoin custody is \"just cold-store it,\" as Blockstream launches an offline custody system with Thales.",
@@ -1462,7 +1462,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794659206.0,
 "tgtext": "\ud83d\udea8 JUST IN: Strive CEO Matt Cole says $BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.\n\nNews | Markets | YouTube",
 "title": "Strive CEO Matt Cole says BTC \"could literally go to a penny\" and the company would still survive because it carries zero debt and has no liquidation point.",
@@ -1554,7 +1554,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794666444.0,
 "tgtext": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours\n\nLayer 1 blockchain Kava announced that its teams are tracking unexpected behavior originating from a decentralized application (dApp) within the Kava ecosystem, treating the investigation as a high priority with an official update to follow shortly. Amid the suspected security issue and a trading warning issued by South Korean exchange Upbit, the KAVA token plunged over 41% in the past 24 hours to around $0.04002. Kava is a cross-chain DeFi Layer 1 blockchain combining Cosmos performance with an Ethereum developer experience, backed by major investors including Binance Labs and Framework Ventures. \u2014 link",
 "title": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours",
@@ -2605,7 +2605,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794667427.0,
 "tgtext": "JUST IN: Bitcoin $BTC crashes under $66,000 as $205,000,000 is liquidated from the crypto market in the past 60 minutes.\n\n@WatcherGuru",
 "title": "Bitcoin BTC crashes under $66,000 as $205,000,000 is liquidated from the crypto market in the past 60 minutes.",
@@ -3107,6 +3107,19 @@
 "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643"
 ]
 },
+"b01ded7735db": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794672786.1599548,
+"t0": 1794672196.0,
+"tgtext": "The market is crashing, but the #EthereumFoundation is selling $ETH even faster!\n\nThe #EthereumFoundation-linked wallet (0x5CBC) just dumped another 2,500 $ETH($4.6M).\nhttps://x.com/lookonchain/status/2121464139726073912",
+"title": "The market is crashing, but the EthereumFoundation is selling ETH even faster!",
+"url": "https://t.me/lookonchainchannel/11060",
+"urls": []
+},
 "b060554c27f9": {
 "coin": "bitcoin",
 "src": "Lookonchain",
@@ -3139,7 +3152,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794660146.0,
 "tgtext": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the $ETH dip!\n\nWe spotted many wallets linked to Erik Voorhees that spent $97M to buy 48,647 $ETH at an average price of $1,994 over the past 4 days.\n\nThese wallets still hold $78.68M in stablecoins and may continue buying.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a",
 "title": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the ETH dip!",
@@ -3583,7 +3596,7 @@
 "FXEmpire",
 "Traders Union"
 ],
-"t": 1794672081.2432604,
+"t": 1794672786.1599548,
 "t0": 1794662824.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Poised to Drop to $60K as ETFs Accumulate 7-Day Streak of Outflows",
@@ -4206,31 +4219,28 @@
 }
 },
 "movers": {
-"bitway": 1794650597.9670339,
-"rain": 1794413019.0371053
+"bitway": 1794650597.9670339
 },
 "probs": {
 "04bcb050b240": 0.184,
-"13b15f764f72": 0.255,
+"13b15f764f72": 0.31,
 "14adcadfed2e": 0.049,
 "17fd4531f1a3": 0.34,
 "210952dbe85f": 0.683,
 "3b25e7abc591": 0.355,
 "3e8ff7b037fa": 0.129,
-"3ef93b2a5e71": 0.056,
 "40b1b1a3c45c": 0.019,
 "4114c4fbb7a0": 0.023,
 "4d442b94987c": 0.057,
-"5145d842aace": 0.851,
+"5145d842aace": 0.753,
 "56a1c8d2bdf8": 0.643,
 "603d6507ddd7": 0.098,
 "60ff9ea2fe8a": 0.116,
-"610710ec12aa": 0.052,
 "6187f9324294": 0.325,
 "657b205055f2": 0.045,
-"797f5df50a34": 0.1,
+"797f5df50a34": 0.13,
+"7e6653c36a11": 0.043,
 "82782f779009": 0.035,
-"8699d868c05c": 0.06,
 "8b862e4844d2": 0.068,
 "8dacbd537481": 0.097,
 "8f4f09db1e40": 0.747,
@@ -4238,17 +4248,19 @@
 "9e8e97c7a167": 0.046,
 "a0fad2028605": 0.205,
 "ade2ef558657": 0.141,
+"b01ded7735db": 0.896,
 "b689fbfc67cb": 0.055,
 "b72b1fda8dc4": 0.149,
 "b872ea30ef82": 0.036,
 "ba81bd06dab0": 0.166,
 "c9e2516d5984": 0.274,
 "d8b028c4c5c0": 0.461,
+"dd1c275bb600": 0.321,
 "dd4548e1acf3": 0.041,
 "e58d3065faf0": 0.069,
 "e8bd633eb6c0": 0.037,
 "f5ba11bc54d2": 0.07,
-"f97c668c59ca": 0.057,
+"f97c668c59ca": 0.138,
 "fe2a17903160": 0.262
 },
 "sent": [
@@ -5524,65 +5536,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"b01ded7735db",
+20,
+10,
+1
+],
+[
 "5145d842aace",
-21,
-215,
+19,
+226,
 1
 ],
 [
 "8f4f09db1e40",
 35,
-78,
+89,
 1
 ],
 [
 "210952dbe85f",
 20,
-61,
+73,
 2
 ],
 [
 "56a1c8d2bdf8",
 10,
-94,
+106,
 1
 ],
 [
 "b25d8eb54170",
-8,
-199,
+6,
+211,
 1
 ],
 [
 "d8b028c4c5c0",
 59,
-154,
+166,
 3
 ],
 [
 "4c46e93063cd",
 0,
-337,
+349,
 1
 ],
 [
 "3b25e7abc591",
-28,
-346,
+27,
+358,
 2
 ],
 [
 "17fd4531f1a3",
 28,
-118,
-2
-],
-[
-"6187f9324294",
-65,
-86,
+130,
 2
 ]
 ],
-"top_at": 1794672081.2432604
+"top_at": 1794672786.1599548
 }
