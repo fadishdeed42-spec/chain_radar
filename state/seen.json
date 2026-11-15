@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1794630442.6847486,
-1794631968.2284842,
 1794659493.7226882,
 1794666553.167528,
 1794667780.7457988,
@@ -16,7 +14,9 @@
 1794691509.9457684,
 1794695644.2007895,
 1794705365.565912,
-1794706588.968395
+1794706588.968395,
+1794726584.9629216,
+1794726889.5495121
 ],
 "menu": {
 "001b550e4687": {
@@ -382,23 +382,6 @@
 "url": "https://t.me/WatcherGuru/16025",
 "urls": []
 },
-"1cfa15d1f971": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Altcoin Buzz",
-"Bitcoin News",
-"Blockonomi",
-"CoinMarketCap",
-"Crypto Briefing"
-],
-"t": 1794553812.794054,
-"t0": 1794539700.0,
-"tgtext": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours\n\nBitcoin fell below $70,000 to a low of $68,943 before trading at $69,297, down 6.11% over 24 hours, according to Binance. The cryptocurrency had reached a 24-hour high of $73,866. CoinGlass data showed $622 million in crypto liquidations across exchanges over the past four hours, including $549 million in long positions and $72.46 million in shorts. \u2014 link",
-"title": "Bitcoin Plunges Below $70,000 as Crypto Liquidations Hit $622 Million in Four Hours",
-"url": "https://t.me/wublockchainenglish/26808",
-"urls": []
-},
 "1f18fa9f79cc": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -549,7 +532,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794710036.0,
 "tgtext": "\ud83d\udd25 LATEST: Bloomberg's Mike McGlone says $BTC led risk assets on the way up and could now be signaling deflation.\n\nNews | Markets | YouTube",
 "title": "Bloomberg's Mike McGlone says BTC led risk assets on the way up and could now be signaling deflation.",
@@ -785,7 +768,7 @@
 "BigGo Finance",
 "The Defiant"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794705727.0,
 "tgtext": "",
 "title": "Bitcoin Falls Below $63,000 to Three-Month Low; 318,700 Traders Liquidated in 24 Hours, $1.9 Billion Wiped Out",
@@ -1645,7 +1628,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794706472.0,
 "tgtext": "It's liquidation day again!\n\nTrader 0xc05b got liquidated 7 times in the past 10 hours, with a total of 172 $BTC ($11.03M) and 2,984 $ETH ($5.44M) liquidated!\n\nhttps://hypurrscan.io/address/0xc05b532d9b4eff8c140ad5477dc87d5803b98951#txs\nhttps://x.com/lookonchain/status/2121081124336415037",
 "title": "It's liquidation day again!",
@@ -1803,7 +1786,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726584.9629216,
 "t0": 1794705129.0,
 "tgtext": "Many whales are still buying the $ETH dip despite the market crash!\n\nWallets linked to @ErikVoorhees spent $125.27M to buy 63,540 $ETH at an average price of $1,972.\n\n7 Siblings spent $60.88M to buy 31,484 $ETH at an average price of $1,933.\n\nChun (@satofishi) withdrew 10,997 $ETH ($21.88M) from #Binance at an average price of $1,990.\n\n58bro.eth (@0x58bro), who has made over $40M in profit on #Hyperliquid, withdrew 10,501 $ETH ($20.77M) from #OKX at an average price of $1,978.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a\nhttps://arkm.com/explorer/address/0x5fFcDB28B8cC958aFe052947D43CB6aF04833c37\nhttps://arkm.com/explorer/address/0xF42BcFD3dd5fcdd984d24FD2787383195C7f2b51\nhttps://arkm.com/explorer/entity/0x58bro",
 "title": "Many whales are still buying the ETH dip despite the market crash!",
@@ -2561,19 +2544,6 @@
 "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
 ]
 },
-"9f5a28491bad": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794553812.794054,
-"t0": 1794550494.0,
-"tgtext": "The smart trader with a 100% win rate is long $ETH again!  He opened a 25x long on 20,277 $ETH ($45.3M) after the market drop and is already up $252K.  He has won all 10 of his previous trades, making $6.32M in realized profit.  https://hyperbot.network/t\u2026",
-"title": "The smart trader with a 100% win rate is long ETH again! He opened a 25x long on 20,277 ETH ($45.3M) after the market drop and is already up $252K. He has won all 10 of his previous trades, making $6.32M in realized prof",
-"url": "https://t.me/lookonchainchannel/11036",
-"urls": []
-},
 "a08b738ea139": {
 "coin": "ethereum",
 "src": "The Crypto Times",
@@ -2763,7 +2733,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794713214.0,
 "tgtext": "",
 "title": "Aave Executive Reports $39 Million in Liquidations",
@@ -2887,7 +2857,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794724690.7325273,
+"t": 1794726889.5495121,
 "t0": 1794708273.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats consider raising taxes on Americans to fund multitrillion-dollar spending agenda in 2027.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Democrats consider raising taxes on Americans to fund multitrillion-dollar spending agenda in 2027.",
@@ -3269,7 +3239,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794725692.0,
 "tgtext": "The largest $HYPE bull didn't close his position even when he was up $68.26M!\n\nHis unrealized profit has now dropped to $27.59M, and he's getting close to liquidation.\n\nOver the past 2 days, he has deposited 8.3M $USDC into Hyperliquid to avoid liquidation.\n\nNew liq. price: $58.47\n\nhttps://hypurrscan.io/address/0x082e843a431aef031264dc232693dd710aedca88#perps",
 "title": "The largest HYPE bull didn't close his position even when he was up $68.26M!",
@@ -3310,7 +3280,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794708763.0,
 "tgtext": "Machi(@machibigbrother) bought Bored Ape #2894 for 125 $ETH 5 years ago, but just sold it for only 7.3 $ETH!\n\nHe took a loss of 117.7 $ETH ($204K) to raise funds for high-leverage trading!\n\nhttps://opensea.io/item/ethereum/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/2894",
 "title": "Machi(@machibigbrother) bought Bored Ape #2894 for 125 ETH 5 years ago, but just sold it for only 7.3 ETH!",
@@ -3406,7 +3376,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794705864.0,
 "tgtext": "loracle.hl(@loraclexyz) is taking a huge hit!\n\nHis $BTC, $XMR, $ETH, and $STRK longs are now down a combined $26.7M in unrealized losses!\n\nhttps://hypurrscan.io/address/0xefe4c06b6d310978bead596e1798a4fc1d9d194b#txs",
 "title": "loracle.hl(@loraclexyz) is taking a huge hit!",
@@ -3578,7 +3548,7 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794706140.0,
 "tgtext": "Tom Lee: AI Stock Selloff, Anthropic IPO, and Post-Hack Fund Returns May Fuel Crypto Selling Pressure\n\nBitMine Chairman Tom Lee said recent crypto selling pressure may stem from margin calls triggered by the AI and semiconductor stock selloff, investors selling equities and crypto to fund purchases in Anthropic\u2019s upcoming IPO, and account holders converting returned funds from the $6.3 billion hack into cash or stablecoins. He added that concerns over AI\u2019s impact on cybersecurity and U.S. scrutiny of chip sales to Asia have further weighed on market sentiment. \u2014 link",
 "title": "Tom Lee: Crypto Market Pressure May Be Linked to AI Stock Selloffs, Anthropic IPO Funding and Hack-Related Fund Releases",
@@ -3650,7 +3620,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794726274.507152,
+"t": 1794726889.5495121,
 "t0": 1794725070.0,
 "tgtext": "Another trading legend is about to fall!  Smart trader 0xe813 with a 100% win rate is currently down $7.3M on his $ETH long.  He won all 10 of his previous trades, making $6.32M in profit.  But this one trade has wiped out all his previous profits and put\u2026",
 "title": "Another trading legend is about to fall! Smart trader 0xe813 with a 100% win rate is currently down $7.3M on his ETH long. He won all 10 of his previous trades, making $6.32M in profit. But this one trade has wiped out a",
@@ -3773,118 +3743,42 @@
 "1d882ff84727": 0.085,
 "2cfdc8c1028c": 0.051,
 "347ec45f9b16": 0.473,
-"3b486baa0503": 0.031,
 "3fadbb0e5ae8": 0.131,
+"547d456cf740": 0.021,
 "570351240cde": 0.022,
-"64356914687a": 0.648,
 "6e2c00c1375b": 0.048,
 "6e39bdcfb7a4": 0.067,
 "728d278ac762": 0.122,
-"758d71120517": 0.837,
 "7a50dfb4f602": 0.031,
 "7e1c51378702": 0.116,
 "7f6391befa62": 0.048,
 "8153f6f83752": 0.04,
+"89ec0cae5dcb": 0.187,
 "8e33da6dd8d2": 0.068,
 "94609525df62": 0.148,
 "98b12c039823": 0.067,
+"9d01b59bbdb3": 0.027,
 "a7048df10f77": 0.128,
-"a8fbb310083d": 0.018,
+"a8fbb310083d": 0.022,
 "ac74f0e5ae76": 0.356,
 "b0320954130d": 0.125,
 "b4403674efbc": 0.242,
 "c0360ddd6b45": 0.013,
-"c738c567e74e": 0.05,
+"c738c567e74e": 0.062,
 "ca32f60d26e7": 0.147,
 "cb199f6b571e": 0.032,
 "d378b45b192c": 0.053,
-"daf79c0a1040": 0.024,
+"daf79c0a1040": 0.03,
 "db0ba8e729e9": 0.168,
-"dc5e75386d49": 0.739,
+"dc5e75386d49": 0.845,
 "e5140074f097": 0.052,
 "f1cc4341158e": 0.024,
 "f2f0879b5c86": 0.308,
-"f40cafb6f148": 0.617,
+"f40cafb6f148": 0.904,
 "f4abc498bef4": 0.114,
-"f7a67b44baf5": 0.892
+"f7a67b44baf5": 0.946
 },
 "sent": [
-{
-"e": [
-"ethereumfoundation"
-],
-"k": [
-"crash"
-],
-"t": 1794552894.6728928,
-"u": [
-"https://t.me/lookonchainchannel/11038"
-],
-"w": [
-"000",
-"0x5cbc",
-"87m",
-"another",
-"dumped",
-"eth",
-"ethereumfoundation",
-"just",
-"linked",
-"wallet"
-]
-},
-{
-"e": [
-"billion",
-"crash",
-"falling",
-"leaves",
-"prices",
-"xrp"
-],
-"k": [
-"crash"
-],
-"t": 1794553198.8382041,
-"u": [
-"https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUFvUmV4NkRTR3k0bnVVUjBYQTh5Z1BNX3NsTE1YWE9YUEpRMTJ4TEF5NFJfVmxPaUZQWl9CZEJpNGQtOTRMNmtYRHV0N3NUM2FtOUp1dWNaSV9OSlVYMFRwNld4ZWI4bUV4a251VjdzeUVnTW1EbFBuUndERzNjTWg1cDZ4Y1d1aXFPbzZYUXFoT2NJcnVBcXFXdFo?oc=5",
-"https://news.google.com/rss/articles/CBMipgFBVV95cUxOdHFZc1ZBT01fQjgtZUI3SEt6bFpCOHVmWEoyZUlCcllWTHEzc3lDeWxYd2xiUjh6eXU5SGZfR01BdFdNazZWWUJBME9ESWxzWHNrTllaamNLX3UyZzNFeUkwakdjejd0YVY5V3BUM1k1V2ZZdVViS3JoZXpoYlJuaU1iSWtKZTRncHlvTDBDRGoxUFJCcC1QejBJTThUaVM3dG1uWS1R0gGrAUFVX3lxTE1HRXl3WDZwcmRKWTJrRWMweFZmY3VwQjJZSldzNGtFR0lSR3VJcTVWQ0VsMGZIVEJUVVhwMnBJYjF0U3JKVHlwYVRZTDdGdC1VMEFXWHJTd3JESUVZUGRGN2pTUGNfdGszT1JhSFF2bWhvNFNEcXdyanVObDBWRE5lQllfSHdMVjl5S0luNmhIYXZPNXItYjByam1sdm5fMzBwT3BVZVYxN2dYUQ?oc=5",
-"https://news.google.com/rss/articles/CBMiVEFVX3lxTE55SllhQlBWMDJ3QzlKaXJncHZSUU16VnhkWmRCT2FpUmFwOHdkbnpZb3d0ejNkMTh5Qm9hb3ZsdUp0NXFFby1wVHZwVGd3d1ZVejhrcw?oc=5"
-],
-"w": [
-"$60",
-"billion",
-"bitcoin",
-"crash",
-"eth",
-"falling",
-"leaves",
-"prices",
-"why",
-"xrp"
-]
-},
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1794553812.794054,
-"u": [
-"https://t.me/lookonchainchannel/11040"
-],
-"w": [
-"$31m",
-"700",
-"852",
-"dumped",
-"eth",
-"just",
-"single",
-"trade",
-"whale"
-]
-},
 {
 "e": [
 "whale"
@@ -5001,71 +4895,139 @@
 "wiped",
 "won"
 ]
+},
+{
+"e": [
+"hype"
+],
+"k": [],
+"t": 1794726584.9629216,
+"u": [
+"https://t.me/lookonchainchannel/11078"
+],
+"w": [
+"$68",
+"26m",
+"bull",
+"close",
+"didn",
+"even",
+"his",
+"hype",
+"largest",
+"position",
+"was",
+"when"
+]
+},
+{
+"e": [
+"anthropic",
+"fund",
+"funding",
+"hack",
+"ipo",
+"lee",
+"linked",
+"may",
+"pressure",
+"related",
+"releases",
+"selloffs",
+"stock",
+"tom"
+],
+"k": [
+"hack"
+],
+"t": 1794726889.5495121,
+"u": [
+"https://news.google.com/rss/articles/CBMijgJBVV95cUxQZTJOLTFyVjdGX21MYW5aOS1SYndEMVllY0N2ZHJweDkzenoxeERqYU84UG1UanZOLW9faC1XRklBdU5vMnJlSUVzVWF0T3NSMFJTQXE0ZE5rd0Ryd3FNSVAtZWFfX04wYW1CR1UwYjdGZmp5ZGhFRW44V2hvMU9qaGtBeG5sQ1ppbEJyUGxoVFR3Rmh4VGR3cmVIcFJUNm45Q2dmbEkwY1NuNFV0RzE4SmptRXYzeXM4a0dHa2tWeGhhZ0l6bGJiQ3RFZ3VaQVBXazNQblVfSG1PdmRUYXhwbU5YekV2c3I0Tzg1RjFQOFdXbGh4T0F3a2FxbUVNenRMUEdZMnBmLUFMZWl6bkE?oc=5",
+"https://t.me/wublockchainenglish/26829",
+"https://news.google.com/rss/articles/CBMizAFBVV95cUxOWVJxRzBsdU1hdnlsRmR6VDA0ZlhkUWJOQmthdzlVVlo2djRVTzRLM3Ayb1htU01vUTBVNUZtRHNzRURLRDJBejh2aWJ0TldtX1lMLS1RQnB2V3h6ZWZWRWs4dU4yWlBibVFqbDd6a2pNLXJyMzFYLXVWeFl6WU1IY0xWQ1BzcVIta2dCVHl5OTYzWTRXYWdObEVPTTNYU2x1Mm1NNnM0UzBwSVljUTZJVUpYaXJwM0JwQ2JRanhkWFQyNHlaWkg3eEZCNDY?oc=5"
+],
+"w": [
+"anthropic",
+"fund",
+"funding",
+"hack",
+"ipo",
+"lee",
+"linked",
+"market",
+"may",
+"pressure",
+"related",
+"releases",
+"selloffs",
+"stock",
+"tom"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"e1b766b83e25",
-0,
-292,
-1
-],
-[
 "f7a67b44baf5",
 21,
-20,
+30,
 1
 ],
 [
-"758d71120517",
-6,
-352,
-1
+"f40cafb6f148",
+48,
+346,
+3
 ],
 [
-"28c12e677fc8",
+"e1b766b83e25",
 0,
-271,
+302,
 1
 ],
 [
 "dc5e75386d49",
 16,
-10,
+20,
+1
+],
+[
+"28c12e677fc8",
+0,
+281,
 1
 ],
 [
 "64356914687a",
-5,
-330,
+4,
+340,
 1
 ],
 [
-"f40cafb6f148",
-50,
-336,
-3
-],
-[
 "347ec45f9b16",
-29,
-342,
+27,
+353,
 2
 ],
 [
 "ea17cd73aabd",
 0,
-340,
+350,
 1
 ],
 [
 "ac74f0e5ae76",
-26,
-218,
+25,
+228,
+1
+],
+[
+"b635018d73c2",
+0,
+310,
 1
 ]
 ],
-"top_at": 1794726274.507152
+"top_at": 1794726889.5495121
 }
