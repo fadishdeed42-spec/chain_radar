@@ -394,7 +394,7 @@
 "srcs": [
 "WOWT"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794774060.0,
 "tgtext": "",
 "title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance",
@@ -1478,7 +1478,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
@@ -1583,7 +1583,7 @@
 "Coinpedia",
 "Cryptonews.net"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794770318.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite",
@@ -2002,7 +2002,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794771199.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.\n\nHe's giving the board 10 days to respond on export compliance.\n\nNews | Markets | YouTube",
 "title": "Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.",
@@ -2189,15 +2189,16 @@
 },
 "b27452a1f040": {
 "coin": "",
-"src": "Watcher.Guru",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794769629.0,
-"tgtext": "JUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru",
-"title": "Jensen Huang discusses returning as Nvidia NVDA CEO with allies.",
-"url": "https://t.me/WatcherGuru/16055",
+"tgtext": "JUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru\n\ud83d\udea8 BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.\n\nNews | Markets | YouTube",
+"title": "BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.",
+"url": "https://t.me/cointelegraph/73298",
 "urls": []
 },
 "b2ac3b73aee7": {
@@ -2206,7 +2207,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794765218.0,
 "tgtext": "\ud83d\udd25 NEW: Strive CEO Matt Cole says $BTC is cheap and the company wants to keep stacking, with 43,153 BTC worth about $2.84B already on the books.\n\nNews | Markets | YouTube",
 "title": "Strive CEO Matt Cole says BTC is cheap and the company wants to keep stacking, with 43,153 BTC worth about $2.84B already on the books.",
@@ -2369,7 +2370,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2667,7 +2668,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794783059.0,
 "tgtext": "",
 "title": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler\u2019s Digest",
@@ -3020,7 +3021,7 @@
 "Benzinga",
 "CEO Magazyn"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794770191.0,
 "tgtext": "",
 "title": "Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin",
@@ -3103,7 +3104,7 @@
 "srcs": [
 "RadarOnline"
 ],
-"t": 1794784877.3665292,
+"t": 1794785490.61223,
 "t0": 1794769367.0,
 "tgtext": "",
 "title": "Eric Trump Insists Donald Is 'Winning' the Crypto Race After CNN's Kaitlan Collins Questions Family Business",
@@ -3174,16 +3175,14 @@
 "probs": {
 "10dd0cac55e5": 0.006,
 "1176b1f50cc2": 0.046,
-"1335de607e51": 0.009,
 "1420b83c19e7": 0.008,
 "1dd2d736e057": 0.137,
 "1f7bbacb5fd2": 0.036,
 "236055428721": 0.006,
 "2b314648ad19": 0.052,
-"33baaf910bec": 0.007,
+"33baaf910bec": 0.006,
 "391582780d9a": 0.012,
-"3adc1cebff01": 0.055,
-"529061e24df4": 0.012,
+"529061e24df4": 0.018,
 "560911261b81": 0.009,
 "5782e86be479": 0.064,
 "5af6faaf1fd8": 0.017,
@@ -3194,22 +3193,22 @@
 "86cae10c3b89": 0.141,
 "909d9ebaa697": 0.012,
 "93ec1255cb7f": 0.003,
-"97a47fe25107": 0.075,
+"97a47fe25107": 0.054,
 "9a3bdde7b0c9": 0.058,
 "a3053cc01cce": 0.233,
 "a48d03d1a38f": 0.076,
-"b27452a1f040": 0.203,
+"b27452a1f040": 0.632,
 "b2ac3b73aee7": 0.313,
 "bc24eea93566": 0.008,
 "c0db79b7cd66": 0.022,
-"c107e7b11d7b": 0.398,
+"c107e7b11d7b": 0.717,
 "c49858ac7e6b": 0.069,
 "dd8f84fb9d74": 0.087,
 "f042c7a1c6c0": 0.057,
 "f1bd56e561a2": 0.029,
 "f59072e4d9f7": 0.102,
 "fc6cc189db5e": 0.097,
-"fed096c00312": 0.009
+"fed096c00312": 0.003
 },
 "sent": [
 {
@@ -4228,63 +4227,63 @@
 [
 "c107e7b11d7b",
 18,
-107,
-1
-],
-[
-"b2ac3b73aee7",
-6,
-328,
-1
-],
-[
-"a3053cc01cce",
-4,
-228,
+117,
 1
 ],
 [
 "b27452a1f040",
-1,
-254,
+9,
+264,
+2
+],
+[
+"b2ac3b73aee7",
+4,
+338,
+1
+],
+[
+"a3053cc01cce",
+3,
+238,
 1
 ],
 [
 "7de4df3021ac",
 28,
-84,
+95,
 2
 ],
 [
 "86cae10c3b89",
-22,
-243,
+21,
+253,
 2
 ],
 [
 "1dd2d736e057",
-55,
-180,
+54,
+191,
 1
 ],
 [
 "f59072e4d9f7",
-62,
-245,
+61,
+255,
 2
 ],
 [
 "fc6cc189db5e",
-8,
-259,
+7,
+269,
 1
 ],
 [
 "dd8f84fb9d74",
 20,
-30,
+41,
 1
 ]
 ],
-"top_at": 1794784877.3665292
+"top_at": 1794785490.61223
 }
