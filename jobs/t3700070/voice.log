@@ -1,0 +1,74 @@
+json f962a1bd63eb
+   take 1: score -0.58  wer 0.00  end +0.0st  3.1w/s  heard: A hacker stole $600 million, then he gave it back.
+   take 2: score -1.52  wer 0.00  end +0.0st  3.2w/s  rushed ['hacker']  heard: A hacker stole $600 million, then he gave it back.
+   take 3: score -0.79  wer 0.00  end +0.0st  3.2w/s  heard: A hacker stole $600 million, then he gave it back.
+scene 1: 3.88s ex 0.9  chosen wer 0.00
+   take 1: score -2.53  wer 0.00  end +0.0st  4.0w/s  heard: and the company offered him a job.
+   take 2: score -3.24  wer 0.00  end +0.0st  3.6w/s  rushed ['company', 'offered']  heard: and the company offered him a job.
+   take 3: score -0.91  wer 0.00  end +0.0st  3.2w/s  heard: and the company offered him a job.
+scene 2: 2.15s ex 0.9  chosen wer 0.00
+   take 1: score +0.45  wer 0.10  end -11.6st  2.4w/s  rushed ['Network']  heard: August 2021, Polling Network moved crypto between blockchains.
+   take 2: score +1.23  wer 0.10  end -2.5st  2.3w/s  heard: August 2021, Poly Network move crypto between blockchains.
+   take 3: score +1.79  wer 0.00  end -1.3st  2.3w/s  heard: August 2021, Poly Network moved crypto between blockchains.
+scene 3: 3.99s ex 0.64  chosen wer 0.00
+   take 1: score -3.12  wer 0.00  end +0.0st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.
+   take 2: score -1.00  wer 0.00  end -3.4st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.
+   take 3: score -1.01  wer 0.00  end -6.2st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.  
+   take 4: score -1.12  wer 0.00  end -6.0st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.
+scene 4: 3.89s ex 0.64  chosen wer 0.00
+   take 1: score -0.28  wer 0.00  end +0.0st  2.1w/s  heard: over 610 million dollars. The biggest DeFi hack at the time.
+   take 2: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: Over $610 million. The biggest DeFi hack at the time.
+   take 3: score +1.95  wer 0.00  end -8.8st  2.5w/s  heard: Over $610 million, the biggest DeFi hack at the time.
+   phonetic variant: Over six hundred ten million dollars. The biggest dee-fy hack at the time.
+   take P1: score -0.07  wer 0.00  2.5w/s  heard: Over $610 million, the biggest DeFi hack at the time.
+scene 5: 5.15s ex 0.72  chosen wer 0.00
+   take 1: score -1.58  wer 0.23  end +0.0st  2.3w/s  heard: Tetherfroze 33 million of it.
+   take 2: score -1.23  wer 0.07  end +0.0st  2.6w/s  rushed ['million']  heard: Tether froze $33 million of it.
+   take 3: score -2.22  wer 0.29  end +0.0st  1.8w/s  heard: Tetherfroze $33 million of it.
+   take 4: score -1.78  wer 0.29  end +0.0st  2.7w/s  heard: Tetherfros $33 million of it.
+scene 6: 2.35s ex 0.72  chosen wer 0.07
+   take 1: score -4.05  wer 0.00  end +0.1st  4.0w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
+   take 2: score -3.50  wer 0.00  end +0.0st  3.7w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
+   take 3: score -3.35  wer 0.00  end +0.0st  3.6w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
+   take 4: score -2.06  wer 0.00  end +1.7st  3.4w/s  rushed ['hacker']  heard: Then the hacker started sending it back.
+scene 7: 2.09s ex 0.84  chosen wer 0.00
+   take 1: score -2.13  wer 0.00  end +0.0st  3.1w/s  rushed ['called', 'security.']  heard: In a message inside a transaction, he called it his effort to help the
+   take 2: score -0.49  wer 0.00  end +0.0st  3.0w/s  heard: In a message inside a transaction, he called it his effort to help the
+   take 3: score -2.76  wer 0.00  end +0.0st  3.4w/s  rushed ['called', 'security.']  heard: In a message inside a transaction, he called it his effort to help the
+   take 4: score -0.40  wer 0.00  end +0.0st  3.0w/s  heard: In a message inside a transaction, he called it his effort to help the
+scene 8: 4.99s ex 0.72  chosen wer 0.00
+   take 1: score -1.05  wer 0.00  end +0.0st  2.9w/s  rushed ['Network']  heard: Poly Network nicknamed him Mr. White Hat.
+   take 2: score -1.11  wer 0.14  end +0.0st  2.2w/s  heard: Polly Network nicknamed him Mr. White Hat.
+   take 3: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Network']  heard: Poly Network nicknamed him Mr. White Hat.
+   take 4: score -0.88  wer 0.14  end +0.0st  2.6w/s  heard: Polly Network nicknamed him, Mr. White Hat.
+   phonetic variant: Poly Network nicknamed him miss-ter White Hat.
+   take P1: score -2.30  wer 0.33  2.1w/s  heard: Polling network nicknamed him, Miss Tur White Hat.
+   take P2: score -1.32  wer 0.20  2.4w/s  heard: Poly Network nicknamed him, Miss Tur White Hat.
+   take P3: score -1.63  wer 0.23  2.2w/s  heard: Poly Network nicknamed him Mr. Whitehat.
+scene 9: 2.83s ex 0.72  chosen wer 0.00
+   take 1: score +1.18  wer 0.00  end -4.3st  2.6w/s  rushed ['offered']  heard: They offered him a $500,000 bounty.
+   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['offered']  heard: They offered him a $500,000 bounty.
+   take 3: score +0.21  wer 0.00  end -4.3st  3.3w/s  rushed ['offered']  heard: They offered him a $500,000 bounty.
+   take 4: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: They offered him a $500,000 bounty.
+scene 10: 3.52s ex 0.86  chosen wer 0.00
+   take 1: score +1.97  wer 0.00  end -1.4st  2.5w/s  heard: and a job, Chief Security Advisor.
+scene 11: 2.36s ex 0.86  chosen wer 0.00
+   take 1: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
+   take 2: score -1.02  wer 0.00  end +0.0st  2.9w/s  rushed ['needed']  heard: Over 200 million stayed locked, it needed his key and theirs.
+   take 3: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
+   take 4: score -0.92  wer 0.00  end +0.0st  2.8w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
+scene 12: 4.88s ex 0.72  chosen wer 0.00
+   take 1: score +1.85  wer 0.00  end -10.8st  2.9w/s  heard: On August 23rd, he handed over the final key.
+scene 13: 3.15s ex 0.86  chosen wer 0.00
+   take 1: score -0.19  wer 0.00  end +0.0st  2.0w/s  heard: Hero or Thief?
+   take 2: score -0.33  wer 0.00  end +0.0st  1.8w/s  heard: Hero or Thief?
+   take 3: score -0.16  wer 0.00  end +0.0st  2.1w/s  heard: Hero or Thief.
+scene 14: 1.44s ex 0.6 END  chosen wer 0.00
+   take 1: score -0.43  wer 0.00  end +0.0st  1.9w/s  heard: Subscribe for more stories.
+   take 2: score -0.34  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 3: score -0.19  wer 0.00  end +0.0st  2.3w/s  heard: Subscribe for more stories.
+scene 15: 1.75s ex 0.62  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+53.02s, force-aligned 134 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700070/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.79, 0.72, 0.78, 0.69, 0.63, 0.65, 0.81, 0.56, 0.6, 0.7, 0.74, 0.61, 0.71, 0.97]

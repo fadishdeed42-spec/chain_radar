@@ -1,0 +1,118 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.3,
+ "seed": 7,
+ "scenes": [
+  [
+   "A hacker stole six hundred million dollars. Then he gave it back.",
+   0.9,
+   0.36
+  ],
+  [
+   "And the company offered him a job.",
+   0.9,
+   0.36
+  ],
+  [
+   "August twenty twenty-one. Poly Network moved crypto between blockchains.",
+   0.64,
+   0.22
+  ],
+  [
+   "One bug in its code let a hacker move the money to his own wallets.",
+   0.64,
+   0.22
+  ],
+  [
+   "Over six hundred ten million dollars. The biggest Dee-fye hack at the time.",
+   0.72,
+   0.36
+  ],
+  [
+   "Tether froze thirty-three million of it.",
+   0.72,
+   0.22
+  ],
+  [
+   "Then the hacker started sending it back.",
+   0.84,
+   0.36
+  ],
+  [
+   "In a message inside a transaction, he called it his effort to help their security.",
+   0.72,
+   0.22
+  ],
+  [
+   "Poly Network nicknamed him Mister White Hat.",
+   0.72,
+   0.22
+  ],
+  [
+   "They offered him a five hundred thousand dollar bounty.",
+   0.86,
+   0.28
+  ],
+  [
+   "And a job: Chief Security Advisor.",
+   0.86,
+   0.36
+  ],
+  [
+   "Over two hundred million stayed locked. It needed his key and theirs.",
+   0.72,
+   0.22
+  ],
+  [
+   "On August twenty-third, he handed over the final key.",
+   0.86,
+   0.28
+  ],
+  [
+   "Hero or thief?",
+   0.6,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.62,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "A hacker stole six hundred million dollars. Then he gave it back.",
+  "And the company offered him a job.",
+  "August twenty twenty-one. Poly Network moved crypto between blockchains.",
+  "One bug in its code let a hacker move the money to his own wallets.",
+  "Over six hundred ten million dollars. The biggest Dee-fye hack at the time.",
+  "Tether froze thirty-three million of it.",
+  "Then the hacker started sending it back.",
+  "In a message inside a transaction, he called it his effort to help their security.",
+  "Poly Network nicknamed him Mister White Hat.",
+  "They offered him a five hundred thousand dollar bounty.",
+  "And a job: Chief Security Advisor.",
+  "Over two hundred million stayed locked. It needed his key and theirs.",
+  "On August twenty-third, he handed over the final key.",
+  "Hero or thief?",
+  "Subscribe for more stories."
+ ]
+}
