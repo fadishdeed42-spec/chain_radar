@@ -167,16 +167,20 @@
 },
 "0b957a611912": {
 "coin": "bitcoin",
-"src": "CryptoPotato",
+"src": "Decrypt",
 "srcs": [
-"CryptoPotato"
+"BigGo Finance",
+"CryptoPotato",
+"Decrypt"
 ],
-"t": 1794752866.956609,
+"t": 1794765703.919932,
 "t0": 1794747120.0,
 "tgtext": "",
-"title": "Almost $1.5 Billion Withdrawn From Bitcoin and Ethereum ETFs in a Single Week",
-"url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYnpxd28tUFcwYVo2ZU5wUGwyVkc0R0Via3hzTmtlS1ZUaDA1V09haHhESFBkV0RPajZVbW5jSUU0Q1J1MjRqSU5LWTBKYnEyRm1FYkhGSW1uMXUxaXFKRVh3b2RMMENMVUJPYjdRMHkwRkhFYjYwTHJEeFBrSGhMeERsak9pU3NPVjhxM2JhZnFUN216Z1dvNHNDY3BOSXRlTHhOZg?oc=5",
-"urls": []
+"title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+"url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+"urls": [
+"https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+]
 },
 "0c6cefb4e893": {
 "coin": "bitcoin",
@@ -325,20 +329,6 @@
 "tgtext": "",
 "title": "What Is the Best Crypto to Buy With $1,000 During This Crash?",
 "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0tiRXV1bS1RRWxTYTFzREJDd2p1d1dJdjdNZ3VTa1I0dXg4RVBXeUljenlTc1VkVHJkVW5kZnA4Q1F1UTRRYjM2X1h0aTVvbDlfU3Q0S3liZm41QThJS2RFaFMxQVUwNW5UWjEzUGVfbXk1cThhcGJTVkt3N19NRWpGUU5hT084Um9HdldTdDU3X0thZTdRancwRnNrQ0FIMGhvMHU3VTNrdmdHelBoMU96MWtNT1JK?oc=5",
-"urls": []
-},
-"1624f638e577": {
-"coin": "bitcoin",
-"src": "CryptoTicker.io",
-"srcs": [
-"CoinMarketCap",
-"CryptoTicker.io"
-],
-"t": 1794592517.3820317,
-"t0": 1794585548.0,
-"tgtext": "",
-"title": "Bitcoin price slides to the 200-week moving average after US producer prices",
-"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVUzMGJLdVJIMl9scjF0Z1RQaGdzVDFhUWJXeGdheHdrV2hvZzdqbU1reUc1WHA3bGUzWGk0ZkowTEtUd1RzUnJWYWJ3U3htY1JnUjFkOTJGRDlFaEdtRngyQnFZcGNHWFV1b3ZOOE14SjU1SUpXMXdlWTJHRy1yUzJXVG1lM3lY?oc=5",
 "urls": []
 },
 "17fd4531f1a3": {
@@ -813,21 +803,6 @@
 "url": "https://t.me/wublockchainenglish/26833",
 "urls": []
 },
-"3b0349e836e8": {
-"coin": "bitcoin",
-"src": "Benzinga",
-"srcs": [
-"Benzinga",
-"CryptoTicker.io",
-"Cryptonews.net"
-],
-"t": 1794592517.3820317,
-"t0": 1794576434.0,
-"tgtext": "",
-"title": "Bitcoin Crashes to $68,000, but 'Real Test' Still Lies Ahead, Analyst Says",
-"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPX1Q1V0ttSzY5RkRrcHBDX005VzhxT0JOZDV4eDB1RlRQOVN4V1cxODk1RFR1aEZqRGxYVkluWHV3WVdLQXNhLTZUbzhHeG93TFp4MkZFSldhczV4R0FPX0RDak43QzFSN0NENWNqS3VUVjAwekRPTGZSTTZPTnh5SFNfOXJXWEM2aVdQMlJKbmY2UHBvRmE5a0E2WWdwTHlTUzRjRHlmdDBmaWhsNmpEUlMzd0ZHZ0c1Y3JnckhzTmFYSnBHODRTd0hB?oc=5",
-"urls": []
-},
 "3b19ff594f99": {
 "coin": "",
 "src": "Forbes",
@@ -949,7 +924,7 @@
 "srcs": [
 "Altcoin Buzz"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794762742.0,
 "tgtext": "",
 "title": "Binance Heist and DeFi Exploits Put Crypto Security Under Pressure",
@@ -1461,7 +1436,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794760988.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigating whether Nvidia $NVDA illegally sold restricted AI chips to China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigating whether Nvidia NVDA illegally sold restricted AI chips to China.",
@@ -1577,38 +1552,6 @@
 "tgtext": "Solana treasury company Forward Industries(@FWDind), which holds 8.73M $SOL ($600M), deposited 1.78M $SOL ($123M) into #CoinbasePrime just 1 hour ago.\n\nIs Forward Industries planning to dump $SOL?\n\nhttps://arkm.com/explorer/entity/forward-industries",
 "title": "Solana treasury company Forward Industries(@FWDind), which holds 8.73M SOL ($600M), deposited 1.78M SOL ($123M) into CoinbasePrime just 1 hour ago.",
 "url": "https://t.me/lookonchainchannel/11061",
-"urls": []
-},
-"778f3c5f8284": {
-"coin": "bitcoin",
-"src": "CryptoSlate",
-"srcs": [
-"CoinDesk",
-"CryptoSlate",
-"Cryptonews.net"
-],
-"t": 1794592214.1125896,
-"t0": 1794570745.0,
-"tgtext": "",
-"title": "Bitcoin falls below $70,000 as $870 million in bullish bets are liquidated",
-"url": "https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/",
-"urls": [
-"https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/"
-]
-},
-"77edc4f4158d": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"TradingView",
-"Yahoo Finance"
-],
-"t": 1794592517.3820317,
-"t0": 1794571200.0,
-"tgtext": "",
-"title": "Bitcoin Slides Under $70,000 as ETF Outflows and Binance Hack Shake Confidence",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vYXdoZTZkclZvZ2xRYUlnZ1VfOXFjRkgwcVlpRDhRUmFEY3EyTldiSTdhblB6MFhaYTVnMUtSZTJldVRNV2tGYjBmMVB2bG1aV0hPRFZ5TGtQZnV2Q1h6bmlnWHNOOEJ1ckNfQ2ZGOW5lQS1oSGc?oc=5",
 "urls": []
 },
 "78377065eb1c": {
@@ -2202,7 +2145,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794758542.0,
 "tgtext": "JUST IN: Elon Musk calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
 "title": "Elon Musk calls for Nvidia NVDA to reinstate Jensen Huang as CEO.",
@@ -2273,7 +2216,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794755674.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says Nvidia $NVDA needs to look outside the company for its next CEO following chip export-spying scandal.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says Nvidia NVDA needs to look outside the company for its next CEO following chip export-spying scandal.",
@@ -2371,6 +2314,19 @@
 "tgtext": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the $ETH dip!\n\nWe spotted many wallets linked to Erik Voorhees that spent $97M to buy 48,647 $ETH at an average price of $1,994 over the past 4 days.\n\nThese wallets still hold $78.68M in stablecoins and may continue buying.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a",
 "title": "Early Bitcoin supporter and ShapeShift founder Erik Voorhees(@ErikVoorhees) appears to be buying the ETH dip!",
 "url": "https://t.me/lookonchainchannel/11058",
+"urls": []
+},
+"b2ac3b73aee7": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794765703.919932,
+"t0": 1794765218.0,
+"tgtext": "\ud83d\udd25 NEW: Strive CEO Matt Cole says $BTC is cheap and the company wants to keep stacking, with 43,153 BTC worth about $2.84B already on the books.\n\nNews | Markets | YouTube",
+"title": "Strive CEO Matt Cole says BTC is cheap and the company wants to keep stacking, with 43,153 BTC worth about $2.84B already on the books.",
+"url": "https://t.me/cointelegraph/73294",
 "urls": []
 },
 "b4403674efbc": {
@@ -2646,7 +2602,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794760143.0,
 "tgtext": "JUST IN: Binance founder CZ says Binance has not sold any crypto and he recently bought more.\n\n\"Mid-long term, crypto will grow.\"\n\n@WatcherGuru\nCZ: Binance Did Not Sell Crypto, I Bought Crypto Recently and Expect Continued Growth Over the Medium to Long Term\n\nBinance founder CZ said the exact reasons for the recent crypto market decline remain unclear, citing several potential factors: capital shifting toward Anthropic\u2019s IPO; approximately $1.9 billion in net outflows from U.S. spot Bitcoin ETFs over seven trading sessions through November 13, alongside outflows from Ether ETFs; security concerns following the Binance hack, thefts from iPhone-linked crypto wallets, a Chrome exploit and a Microsoft outage; hotter-than-expected U.S. inflation fueling expectations of another Fed rate hike, with higher yields and a stronger dollar potentially weighing on risk assets; and concerns over potentially stricter U.S. crypto regulation following the midterm elections. CZ stressed that Binance had not sold crypto and said he had personally bought crypto in recent days after receiving some stablecoins. He added that he expects crypto to continue growing over the medium to long term. \u2014 link",
 "title": "CZ: Binance Did Not Sell Crypto, I Bought Crypto Recently and Expect Continued Growth Over the Medium to Long Term",
@@ -2976,7 +2932,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794753082.0,
 "tgtext": "\ud83d\udd25 INTERESTING: The number of wallets with over 100 $BTC increased by 890 just in 2026.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: The number of wallets with over 100 BTC increased by 890 just in 2026.",
@@ -3017,7 +2973,7 @@
 "Brave New Coin",
 "Crypto News"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794745798.0,
 "tgtext": "",
 "title": "Bitcoin (BTC) Price Today: $65K Support Under Pressure as Glassnode Maps $60K\u2013$62K Liquidation Cluster",
@@ -3218,7 +3174,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794764895.983458,
+"t": 1794765703.919932,
 "t0": 1794753126.0,
 "tgtext": "64,000 Bitcoin Mining Machines Hijacked, Redirecting 13 EH/s to OCEAN Pool\n\nBitcoin News reported that approximately 64,000 Bitcoin mining machines, representing about 13 EH/s of hashrate, were hijacked around 20:00 U.S. Central Time on November 14. The attackers redirected the hashrate to OCEAN and replaced the mining payout address with one they controlled, briefly pushing the pool's hashrate close to 50 EH/s.\n\nCoreX Hosting said the incident appeared to have ended on November 15, with the affected hashrate falling to around 100 PH/s. The attackers failed to mine any blocks and received no block rewards, although affected miners lost mining revenue during the incident. A potential compromise of Luxor Commander software has not been independently confirmed. \u2014 link",
 "title": "64,000 Bitcoin Mining Machines Hijacked, Redirecting 13 EH/s to OCEAN Pool",
@@ -3318,46 +3274,46 @@
 "ethereum": 1794711791.1498003
 },
 "probs": {
-"0b957a611912": 0.105,
-"1335de607e51": 0.019,
-"15fd558edd2f": 0.052,
-"16a609fc85b9": 0.033,
-"1f5fa4690ae1": 0.195,
-"27e2f1dfaef3": 0.023,
-"2b09ef4169b2": 0.045,
-"2b314648ad19": 0.098,
-"2c53fe468432": 0.042,
-"2ceb0f5e6644": 0.078,
-"33c35e617863": 0.009,
-"3adc1cebff01": 0.196,
-"427f49b2743e": 0.05,
-"428a7ff45464": 0.259,
-"51407c087822": 0.133,
-"5d3579ab37d1": 0.03,
-"63f4ddd25ca7": 0.047,
-"6f3b06cbbfd5": 0.04,
-"7038dcf07dd7": 0.402,
-"73c66d2cb9f5": 0.124,
-"7b7e50b60392": 0.062,
-"8b862e4844d2": 0.038,
-"8cc25046314c": 0.166,
-"8cfc682d9952": 0.065,
-"8e33da6dd8d2": 0.052,
-"8f5c2b9cfd55": 0.018,
-"985c408e41a3": 0.105,
-"a409bfe65946": 0.285,
-"a881503ef889": 0.014,
-"ab828351b8c3": 0.538,
-"ac74f0e5ae76": 0.146,
-"ae16357deea9": 0.044,
-"ae20da576dcf": 0.056,
-"b0052d9201cb": 0.137,
-"bed8499f1377": 0.047,
-"d14186786396": 0.038,
-"d1963e270777": 0.981,
-"ecb519e2aa79": 0.841,
-"f20f68b1b96f": 0.128,
-"ffdb6030e518": 0.12
+"0b957a611912": 0.095,
+"1335de607e51": 0.006,
+"15fd558edd2f": 0.018,
+"1f5fa4690ae1": 0.075,
+"27e2f1dfaef3": 0.008,
+"29fa63217cea": 0.004,
+"2b09ef4169b2": 0.015,
+"2b314648ad19": 0.035,
+"2c53fe468432": 0.014,
+"33c35e617863": 0.003,
+"3adc1cebff01": 0.075,
+"427f49b2743e": 0.017,
+"428a7ff45464": 0.105,
+"63f4ddd25ca7": 0.016,
+"6f3b06cbbfd5": 0.014,
+"7038dcf07dd7": 0.183,
+"73c66d2cb9f5": 0.045,
+"7b7e50b60392": 0.027,
+"87ea39fd2016": 0.057,
+"8b862e4844d2": 0.016,
+"8cc25046314c": 0.062,
+"8cfc682d9952": 0.023,
+"8e33da6dd8d2": 0.018,
+"8f5c2b9cfd55": 0.006,
+"985c408e41a3": 0.038,
+"a409bfe65946": 0.118,
+"a881503ef889": 0.005,
+"ab828351b8c3": 0.28,
+"ac74f0e5ae76": 0.054,
+"ae16357deea9": 0.015,
+"ae20da576dcf": 0.02,
+"b2ac3b73aee7": 0.509,
+"bed8499f1377": 0.016,
+"d14186786396": 0.013,
+"d1963e270777": 0.944,
+"ecb519e2aa79": 0.638,
+"ef461d5ee346": 0.034,
+"f1cc4341158e": 0.019,
+"f20f68b1b96f": 0.047,
+"ffdb6030e518": 0.044
 },
 "sent": [
 {
@@ -4455,63 +4411,63 @@
 [
 "d1963e270777",
 28,
-79,
+93,
 2
 ],
 [
 "ea8eab4497ca",
-8,
-197,
+6,
+210,
 1
 ],
 [
 "ecb519e2aa79",
-27,
-318,
+25,
+332,
 2
+],
+[
+"b2ac3b73aee7",
+25,
+8,
+1
 ],
 [
 "ab828351b8c3",
 10,
-154,
+167,
 1
 ],
 [
 "7038dcf07dd7",
 10,
-65,
-1
-],
-[
-"b74153b05048",
-0,
-356,
+79,
 1
 ],
 [
 "a409bfe65946",
 18,
-106,
+119,
 1
 ],
 [
 "f7d74517a408",
-8,
-196,
+7,
+210,
 1
 ],
 [
 "428a7ff45464",
 43,
-36,
+49,
 1
 ],
 [
-"e6c31a1d98a2",
-0,
-337,
-1
+"0b957a611912",
+28,
+310,
+3
 ]
 ],
-"top_at": 1794764895.983458
+"top_at": 1794765703.919932
 }
