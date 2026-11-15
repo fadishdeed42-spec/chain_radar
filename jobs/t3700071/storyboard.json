@@ -1,0 +1,268 @@
+{
+ "title": "A Joke Coin Hit $85 Billion 🐶 #Shorts",
+ "tone": "funny",
+ "theme": "gold",
+ "description": "Dogecoin started as a joke. In December 2013, Billy Markus and Jackson Palmer launched a coin with a Shiba Inu named Kabosu as its logo.\nFans raised $36,000 in two days to send Jamaica's bobsled team to the Winter Olympics, then sponsored a NASCAR car.\nPalmer left crypto in 2015. In May 2021 the joke coin passed $85 billion - and during Elon Musk's SNL appearance it fell almost 30%.\n\nJoke or genius? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Shorts #dogecoin #crypto #elonmusk #cryptohistory #doge",
+ "pinned": "Joke or genius? Did you ever own any Doge? 👇",
+ "respell": {
+  "SNL": "S N L",
+  "NASCAR": "Nascar"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "Two guys made a coin as a joke.",
+   "hit": "joke",
+   "visual": {
+    "type": "slam",
+    "text": "A JOKE COIN",
+    "sub": "MADE IN 2013"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "BILLY MARKUS + JACKSON PALMER"
+  },
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "It grew to over eighty-five billion dollars.",
+   "hit": "billion",
+   "visual": {
+    "type": "counter",
+    "value": 85000000000,
+    "prefix": "$",
+    "label": "MARKET CAP · MAY 2021",
+    "icon": "dogecoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "OVER $85 BILLION"
+  },
+  {
+   "role": "setup",
+   "emotion": "calm",
+   "line": "December 2013. Billy Markus and Jackson Palmer launched Dogecoin.",
+   "hit": "dogecoin",
+   "visual": {
+    "type": "date",
+    "month": "DEC",
+    "day": "6",
+    "event": "DOGECOIN LAUNCHES"
+   },
+   "beats": [
+    {
+     "word": "launched",
+     "text": "DOGECOIN"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "DEC 6, 2013 · BASED ON LUCKYCOIN"
+  },
+  {
+   "role": "setup",
+   "emotion": "excited",
+   "line": "The logo? A Shiba Inu dog named Kabosu.",
+   "hit": "kabosu",
+   "visual": {
+    "type": "title",
+    "text": "KABOSU",
+    "sub": "THE SHIBA INU ON THE COIN",
+    "icon": "dogecoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "THE \"DOGE\" MEME DOG"
+  },
+  {
+   "role": "turn",
+   "emotion": "excited",
+   "line": "Fans raised thirty-six thousand dollars in two days. For Jamaica's bobsled team.",
+   "hit": "bobsled",
+   "visual": {
+    "type": "counter",
+    "value": 36000,
+    "prefix": "$",
+    "label": "RAISED IN 2 DAYS",
+    "icon": "cash"
+   },
+   "beats": [
+    {
+     "word": "bobsled",
+     "text": "BOBSLED TEAM?!"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "JAMAICA'S BOBSLED TEAM · SOCHI 2014"
+  },
+  {
+   "role": "turn",
+   "emotion": "excited",
+   "line": "Then they sponsored a NASCAR car.",
+   "hit": "car",
+   "visual": {
+    "type": "title",
+    "text": "A DOGE CAR",
+    "sub": "NASCAR · 2014",
+    "icon": "car"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "ABOUT $55,000 IN DOGECOIN"
+  },
+  {
+   "role": "twist",
+   "emotion": "serious",
+   "line": "In 2015, Jackson Palmer quit crypto.",
+   "hit": "quit",
+   "visual": {
+    "type": "stamp",
+    "word": "QUIT",
+    "label": "CO-CREATOR LEAVES CRYPTO",
+    "icon": "person",
+    "bad": true
+   },
+   "beats": [
+    {
+     "word": "quit",
+     "text": "HE QUIT"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "JACKSON PALMER · 2015"
+  },
+  {
+   "role": "turn",
+   "emotion": "excited",
+   "line": "Then 2021. Elon Musk kept tweeting about it.",
+   "hit": "tweeting",
+   "visual": {
+    "type": "title",
+    "text": "ELON MUSK",
+    "sub": "TWEET AFTER TWEET",
+    "icon": "phone"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "2021 · DOGE GOES MAINSTREAM"
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "In May, the joke coin passed eighty-five billion dollars.",
+   "hit": "billion",
+   "visual": {
+    "type": "counter",
+    "value": 85000000000,
+    "prefix": "$",
+    "label": "A JOKE. WORTH THIS.",
+    "icon": "dogecoin"
+   },
+   "beats": [
+    {
+     "word": "passed",
+     "text": "TO THE MOON"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MAY 2021 · ALL-TIME HIGH"
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "Then Musk hosted Saturday Night Live.",
+   "hit": "live",
+   "visual": {
+    "type": "title",
+    "text": "SATURDAY NIGHT LIVE",
+    "sub": "MAY 8, 2021"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "THE \"DOGEFATHER\" ON TV"
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "During the show, it fell almost thirty percent.",
+   "hit": "percent",
+   "visual": {
+    "type": "counter",
+    "value": 29.5,
+    "prefix": "-",
+    "suffix": "%",
+    "label": "DURING THE SHOW",
+    "icon": "fire"
+   },
+   "beats": [
+    {
+     "word": "fell",
+     "text": "CRASH"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "DOWN TO ABOUT $0.49"
+  },
+  {
+   "role": "end",
+   "emotion": "curious",
+   "line": "Joke or genius?",
+   "hit": "genius",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "JOKE",
+     "?"
+    ],
+    "right": [
+     "GENIUS",
+     "?"
+    ],
+    "note": "YOU DECIDE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "chart": {},
+ "lesson": "",
+ "length": 55,
+ "settings": {
+  "length": 55,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off",
+  "energy": "high",
+  "cuts": "fast",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "key",
+  "music": "off",
+  "whoosh": "off"
+ }
+}

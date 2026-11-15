@@ -1,0 +1,252 @@
+{
+ "title": "Bitcoin’s Biggest Exchange Started as a Card Game Site 🃏 #Shorts",
+ "tone": "mystery",
+ "theme": "crimson",
+ "description": "Mt. Gox stood for \"Magic: The Gathering Online eXchange\" - Jed McCaleb built it for trading game cards.\nIn 2010 he turned it into a Bitcoin exchange, and in March 2011 he sold it to Mark Karpelès.\nBy 2013 it handled over 70% of all Bitcoin transactions. In February 2014 trading stopped - about 850,000 Bitcoin were missing, worth around $450 million at the time. Karpelès was arrested in 2015.\n\nWould you have trusted it? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Shorts #bitcoin #mtgox #crypto #cryptohistory",
+ "pinned": "Would you have kept your Bitcoin on Mt. Gox? 👇",
+ "respell": {
+  "Mt.": "Mount",
+  "Karpelès": "Kar-puh-less",
+  "eXchange": "exchange"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "Bitcoin's biggest exchange started as a card game website.",
+   "hit": "card",
+   "visual": {
+    "type": "slam",
+    "text": "A CARD GAME SITE",
+    "sub": "BECAME BITCOIN'S BIGGEST EXCHANGE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MT. GOX"
+  },
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "And it lost eight hundred fifty thousand Bitcoin.",
+   "hit": "lost",
+   "visual": {
+    "type": "counter",
+    "value": 850000,
+    "suffix": " BTC",
+    "label": "MISSING",
+    "icon": "bitcoin"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "ABOUT $450 MILLION AT THE TIME"
+  },
+  {
+   "role": "setup",
+   "emotion": "curious",
+   "line": "Mt. Gox meant Magic: The Gathering Online eXchange.",
+   "hit": "magic",
+   "visual": {
+    "type": "title",
+    "text": "M.T.G.O.X",
+    "sub": "MAGIC: THE GATHERING ONLINE EXCHANGE"
+   },
+   "beats": [
+    {
+     "word": "magic",
+     "text": "MAGIC CARDS"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "THE NAME WAS A CARD GAME"
+  },
+  {
+   "role": "setup",
+   "emotion": "calm",
+   "line": "Jed McCaleb made it to trade game cards.",
+   "hit": "cards",
+   "visual": {
+    "type": "person",
+    "name": "JED McCALEB",
+    "role": "FOUNDER",
+    "prop": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "A FANTASY CARD TRADING SITE"
+  },
+  {
+   "role": "turn",
+   "emotion": "excited",
+   "line": "In 2010, he turned it into a Bitcoin exchange.",
+   "hit": "exchange",
+   "visual": {
+    "type": "title",
+    "text": "BITCOIN EXCHANGE",
+    "sub": "2010",
+    "icon": "bitcoin"
+   },
+   "beats": [
+    {
+     "word": "bitcoin",
+     "text": "PIVOT"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "SAME NAME. NEW BUSINESS."
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "In March 2011, he sold it to Mark Karpelès.",
+   "hit": "sold",
+   "visual": {
+    "type": "person",
+    "name": "MARK KARPELÈS",
+    "role": "NEW OWNER · 2011",
+    "prop": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MARCH 2011 · NEW OWNER"
+  },
+  {
+   "role": "payoff",
+   "emotion": "excited",
+   "line": "By 2013, it handled over seventy percent of all Bitcoin transactions.",
+   "hit": "seventy",
+   "visual": {
+    "type": "counter",
+    "value": 70,
+    "prefix": ">",
+    "suffix": "%",
+    "label": "OF ALL BITCOIN TRANSACTIONS",
+    "icon": "bitcoin"
+   },
+   "beats": [
+    {
+     "word": "handled",
+     "text": "NUMBER ONE"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "THE BIGGEST IN THE WORLD"
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "In February 2014, trading stopped.",
+   "hit": "stopped",
+   "visual": {
+    "type": "stamp",
+    "word": "HALTED",
+    "label": "FEBRUARY 2014",
+    "icon": "lock",
+    "bad": true
+   },
+   "beats": [
+    {
+     "word": "trading",
+     "text": "FROZEN"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "CUSTOMERS COULD NOT GET THEIR COINS OUT"
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "Eight hundred fifty thousand Bitcoin were missing.",
+   "hit": "missing",
+   "visual": {
+    "type": "counter",
+    "value": 850000,
+    "suffix": " BTC",
+    "label": "GONE",
+    "icon": "skull"
+   },
+   "beats": [
+    {
+     "word": "missing",
+     "text": "MISSING"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "ABOUT $450 MILLION AT THE TIME"
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Karpelès was arrested in 2015.",
+   "hit": "arrested",
+   "visual": {
+    "type": "stamp",
+    "word": "ARRESTED",
+    "label": "AUGUST 2015 · JAPAN",
+    "icon": "officer",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MARK KARPELÈS"
+  },
+  {
+   "role": "end",
+   "emotion": "curious",
+   "line": "Trust or run?",
+   "hit": "run",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "TRUST",
+     "?"
+    ],
+    "right": [
+     "RUN",
+     "?"
+    ],
+    "note": "YOU DECIDE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "chart": {},
+ "lesson": "",
+ "length": 55,
+ "settings": {
+  "length": 55,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off",
+  "energy": "high",
+  "cuts": "fast",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "key",
+  "music": "off",
+  "whoosh": "off"
+ }
+}

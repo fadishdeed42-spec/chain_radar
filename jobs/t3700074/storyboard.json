@@ -1,0 +1,308 @@
+{
+ "title": "The Night Bitcoin Split in Two ⚡ #Shorts",
+ "tone": "mystery",
+ "theme": "crimson",
+ "description": "March 11, 2013: Bitcoin split into two chains.\nThe new version 0.8 accepted a huge block (block 225,430, over 5,000 transactions). Older versions couldn't read it - their database ran out of locks. Mt. Gox and BitPay paused deposits and the price dropped 24%.\nDevelopers chose the old chain, big mining pools downgraded, and about six hours later the chains joined again. 24 blocks were wiped out, and a $10,000 double spend hit OKPay.\n\nBug or warning? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Shorts #bitcoin #crypto #cryptohistory #blockchain",
+ "pinned": "Would you have picked the old chain or the new one? 👇",
+ "respell": {
+  "OKPay": "Oh-Kay Pay",
+  "0.8": "zero point eight",
+  "BitPay": "Bit Pay",
+  "Mt.": "Mount"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "In 2013, Bitcoin split into two chains.",
+   "hit": "split",
+   "visual": {
+    "type": "slam",
+    "text": "BITCOIN SPLIT",
+    "sub": "INTO TWO CHAINS"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MARCH 11, 2013"
+  },
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "And developers chose to kill the newer one.",
+   "hit": "kill",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "OLD CHAIN",
+     "0.7"
+    ],
+    "right": [
+     "NEW CHAIN",
+     "0.8"
+    ],
+    "note": "ONE HAD TO DIE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "THE NEWER CHAIN LOST"
+  },
+  {
+   "role": "setup",
+   "emotion": "calm",
+   "line": "March eleventh, 2013. Bitcoin version zero point eight was brand new.",
+   "hit": "new",
+   "visual": {
+    "type": "date",
+    "month": "MAR",
+    "day": "11",
+    "event": "BITCOIN 0.8 IS NEW"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "A NEW DATABASE: LEVELDB"
+  },
+  {
+   "role": "setup",
+   "emotion": "serious",
+   "line": "Then one huge block hit the network, with over five thousand transactions.",
+   "hit": "huge",
+   "visual": {
+    "type": "counter",
+    "value": 5000,
+    "prefix": ">",
+    "label": "TRANSACTIONS IN ONE BLOCK",
+    "icon": "bitcoin"
+   },
+   "beats": [
+    {
+     "word": "block",
+     "text": "ONE HUGE BLOCK"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "BLOCK 225,430"
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "New nodes accepted it. Old nodes couldn't read it.",
+   "hit": "read",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "NEW 0.8",
+     "ACCEPTED"
+    ],
+    "right": [
+     "OLD 0.7",
+     "REJECTED"
+    ],
+    "note": "SAME BLOCK"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "TWO VERSIONS, TWO ANSWERS"
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Their old database ran out of locks. Bitcoin split in two.",
+   "hit": "split",
+   "visual": {
+    "type": "stamp",
+    "word": "SPLIT",
+    "label": "BERKELEY DB · OUT OF LOCKS",
+    "icon": "lock",
+    "bad": true
+   },
+   "beats": [
+    {
+     "word": "split",
+     "text": "CHAIN SPLIT"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MORE THAN 10,000 LOCKS NEEDED"
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Mt. Gox and BitPay paused deposits.",
+   "hit": "paused",
+   "visual": {
+    "type": "stamp",
+    "word": "PAUSED",
+    "label": "MT. GOX · BITPAY",
+    "icon": "safe",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "FEAR OF DOUBLE SPENDS"
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "The price dropped twenty-four percent.",
+   "hit": "percent",
+   "visual": {
+    "type": "counter",
+    "value": 24,
+    "prefix": "-",
+    "suffix": "%",
+    "label": "BITCOIN PRICE",
+    "icon": "fire"
+   },
+   "beats": [
+    {
+     "word": "dropped",
+     "text": "PANIC"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "DURING THE SPLIT"
+  },
+  {
+   "role": "twist",
+   "emotion": "excited",
+   "line": "Developers picked the old chain. Big mining pools downgraded.",
+   "hit": "downgraded",
+   "visual": {
+    "type": "title",
+    "text": "GO BACK TO 0.7",
+    "sub": "BTC GUILD · SLUSH",
+    "icon": "robot"
+   },
+   "beats": [
+    {
+     "word": "old",
+     "text": "GO BACK"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "THE FIX: GO BACKWARDS"
+  },
+  {
+   "role": "turn",
+   "emotion": "calm",
+   "line": "About six hours later, the chains joined again.",
+   "hit": "joined",
+   "visual": {
+    "type": "counter",
+    "value": 6,
+    "prefix": "~",
+    "suffix": " HOURS",
+    "label": "UNTIL ONE CHAIN AGAIN",
+    "icon": "calendar"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "MARCH 12 · 06:19 GMT",
+   "receipt": {
+    "src": "Bitcoin Magazine",
+    "headline": "Bitcoin Network Shaken by Blockchain Fork",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "Twenty-four blocks were wiped out.",
+   "hit": "wiped",
+   "visual": {
+    "type": "counter",
+    "value": 24,
+    "suffix": " BLOCKS",
+    "label": "ERASED",
+    "icon": "skull"
+   },
+   "beats": [
+    {
+     "word": "wiped",
+     "text": "ERASED"
+    }
+   ],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "ABOUT $26,000 IN LOST REWARDS"
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "And someone double spent ten thousand dollars against OKPay.",
+   "hit": "double",
+   "visual": {
+    "type": "counter",
+    "value": 10000,
+    "prefix": "$",
+    "label": "DOUBLE SPENT",
+    "icon": "cash"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "fact": "PAID TWICE WITH THE SAME COINS"
+  },
+  {
+   "role": "end",
+   "emotion": "curious",
+   "line": "Bug or warning?",
+   "hit": "warning",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "BUG",
+     "?"
+    ],
+    "right": [
+     "WARNING",
+     "?"
+    ],
+    "note": "YOU DECIDE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "chart": {},
+ "lesson": "",
+ "length": 55,
+ "settings": {
+  "length": 55,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off",
+  "energy": "high",
+  "cuts": "fast",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "key",
+  "music": "off",
+  "whoosh": "off"
+ }
+}

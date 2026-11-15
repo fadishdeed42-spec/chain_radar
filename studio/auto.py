@@ -725,6 +725,7 @@ STICK_Y = 1530                                                         # sticker
 def overlay(cv, t, i):
     """beat stickers: short facts that pop in on their word, alternate sides, leave when the next one comes"""
     receipt_card(cv, t, i)
+    fact_line(cv, t, i)
     bs = BEATS[i] if SCN[i]['visual']['type'] != 'flow' else []; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
     shown = [b for b in bs if b['text']]
     if KIN:
@@ -914,6 +915,27 @@ def sc_flow(cv, t, i, v, a):
         cv.text(vx + 150, vy, amt, 'black', fit(amt, 'black', 84, 300), GOLD, a * g, anchor='lm', scale=max(.01, lerp(.6, 1, g)), shadow=8)
     if frozen and t >= h - .1:
         stamp(cv, t, h - .1, frozen.upper()[:18], W / 2, ys + 170, fit(frozen.upper()[:18], 'black', 70, 700), ALT, a)
+
+
+FACT_Y = 238                                                           # top band: empty in every template, under the Shorts top bar
+
+
+def fact_line(cv, t, i):
+    """owner (Nov 15): more to read -> one short fact (date, number, name) in a strip under the picture, typed in"""
+    fx = str(SCN[i].get('fact') or '').upper()
+    if not fx or i == len(SCN) - 1: return
+    t0, t1 = max(P(i) + .2, 2.7 if i == 0 else 0), scene_end(i) - .08   # scene 0: after the branded sting
+    if not (t0 <= t < t1): return
+    q = out3(seg(t, t0, t0 + .3)); o = seg(t, t1 - .15, t1); al = q * (1 - o)
+    if al <= 0: return
+    sz = fit(fx, 'black', 52, W - 230)
+    tw, _ = text_size(fx, 'black', sz, track=2)
+    y = FACT_Y - 30 * (1 - q)
+    cv.rect(W / 2 - tw / 2 - 48, y - 50, W / 2 + tw / 2 + 48, y + 50, (12, 14, 20), .82 * al, r=18)
+    cv.rect(W / 2 - tw / 2 - 48, y - 50, W / 2 - tw / 2 - 38, y + 50, GOLD, al, r=5)
+    n = int(len(fx) * clamp(seg(t, t0 + .05, t0 + .05 + .025 * len(fx))))   # typed in, letter by letter
+    shown = fx[:max(1, n)]
+    cv.text(W / 2 - tw / 2, y, shown, 'black', sz, WHITE, al, anchor='lm', track=2)
 
 
 def receipt_card(cv, t, i):

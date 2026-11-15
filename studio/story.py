@@ -347,6 +347,8 @@ def check(sb, strict=True):
                         'kind': str(rc.get('kind', 'headline'))[:12]} if rc and str(rc.get('headline', '')).strip() else None
         if not s['receipt']: s.pop('receipt')
         s['photo'] = str(s.get('photo') or '')[:60]
+        s['fact'] = re.sub(r'\s+', ' ', str(s.get('fact') or '')).strip()[:64]   # owner (Nov 15): more to read -> a fact line under the picture
+        if not s['fact']: s.pop('fact')
         toks = [re.sub(r'[^\w$%]', '', t).lower() for t in s['line'].split()]
         h = re.sub(r'[^\w$%]', '', str(s.get('hit', ''))).lower()
         if h not in toks:                                                   # the punch must land on a real word of the line
