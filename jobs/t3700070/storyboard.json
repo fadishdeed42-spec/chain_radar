@@ -1,0 +1,272 @@
+{
+ "title": "A Hacker Stole $610 Million… Then Gave It All Back 🤯 #Shorts",
+ "tone": "mystery",
+ "theme": "crimson",
+ "chart": {},
+ "lesson": "",
+ "description": "August 2021: a hacker exploited a bug in Poly Network's code and moved more than $610 million in crypto to his own wallets - the biggest DeFi hack at the time.\nTether froze $33 million. Then the hacker started sending the money back, saying it was his \"efforts to contribute to the security of the Poly project.\"\nPoly Network nicknamed him \"Mr. White Hat\", offered a $500,000 bounty - and a job as Chief Security Advisor.\nOn August 23, 2021, he handed over the last private key.\n\nHero or thief? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Shorts #crypto #hacker #defi #cryptohistory #bitcoin",
+ "pinned": "Hero or thief? What would YOU have done with $610 million? 👇",
+ "respell": {
+  "DeFi": "Dee-fye",
+  "Tether": "Tether"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "A hacker stole six hundred million dollars. Then he gave it back.",
+   "hit": "stole",
+   "visual": {
+    "type": "slam",
+    "text": "$610M STOLEN",
+    "sub": "THEN HE GAVE IT BACK"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "hook",
+   "emotion": "shock",
+   "line": "And the company offered him a job.",
+   "hit": "job",
+   "visual": {
+    "type": "title",
+    "text": "A JOB OFFER?!",
+    "icon": "question"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "calm",
+   "line": "August 2021. Poly Network moved crypto between blockchains.",
+   "hit": "blockchains",
+   "visual": {
+    "type": "title",
+    "text": "POLY NETWORK",
+    "sub": "CROSS-CHAIN BRIDGE · AUG 2021"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "emotion": "serious",
+   "line": "One bug in its code let a hacker move the money to his own wallets.",
+   "hit": "bug",
+   "visual": {
+    "type": "stamp",
+    "word": "EXPLOITED",
+    "label": "ONE BUG IN THE CODE",
+    "icon": "lock",
+    "bad": true
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "shock",
+   "line": "Over 610 million dollars. The biggest DeFi hack at the time.",
+   "hit": "biggest",
+   "visual": {
+    "type": "counter",
+    "value": 610000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "BIGGEST DEFI HACK AT THE TIME"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Tether froze 33 million of it.",
+   "hit": "froze",
+   "visual": {
+    "type": "counter",
+    "value": 33000000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "FROZEN BY TETHER",
+    "icon": "lock"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "emotion": "shock",
+   "line": "Then the hacker started sending it back.",
+   "hit": "back",
+   "visual": {
+    "type": "title",
+    "text": "HE SENT IT BACK",
+    "icon": "cash"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "Computing",
+    "headline": "Poly Network hacker returns all the stolen crypto cash",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "turn",
+   "emotion": "curious",
+   "line": "In a message inside a transaction, he called it his effort to help their security.",
+   "hit": "security",
+   "visual": {
+    "type": "quote",
+    "name": "The hacker",
+    "handle": "message inside a transaction",
+    "text": "…my efforts to contribute to the security of the Poly project."
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "emotion": "excited",
+   "line": "Poly Network nicknamed him Mr. White Hat.",
+   "hit": "white",
+   "visual": {
+    "type": "title",
+    "text": "\"MR. WHITE HAT\"",
+    "sub": "POLY NETWORK'S NAME FOR HIM"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "excited",
+   "line": "They offered him a 500,000 dollar bounty.",
+   "hit": "bounty",
+   "visual": {
+    "type": "counter",
+    "value": 500000,
+    "prefix": "$",
+    "suffix": "",
+    "label": "BUG BOUNTY OFFERED",
+    "icon": "cash"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "shock",
+   "line": "And a job: Chief Security Advisor.",
+   "hit": "advisor",
+   "visual": {
+    "type": "person",
+    "name": "MR. WHITE HAT",
+    "role": "CHIEF SECURITY ADVISOR?",
+    "prop": "laptop"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "receipt": {
+    "src": "TechSpot",
+    "headline": "Hacker returns $600M to Poly Network, is offered position as Chief Security Advisor",
+    "kind": "headline"
+   }
+  },
+  {
+   "role": "turn",
+   "emotion": "serious",
+   "line": "Over 200 million stayed locked. It needed his key and theirs.",
+   "hit": "locked",
+   "visual": {
+    "type": "stamp",
+    "word": "LOCKED",
+    "label": "$200M+ · TWO KEYS NEEDED",
+    "icon": "lock",
+    "bad": false
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "emotion": "excited",
+   "line": "On August 23rd, he handed over the final key.",
+   "hit": "final",
+   "visual": {
+    "type": "stamp",
+    "word": "KEY RETURNED",
+    "label": "AUGUST 23, 2021",
+    "icon": "safe",
+    "bad": false
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "emotion": "curious",
+   "line": "Hero or thief?",
+   "hit": "thief",
+   "visual": {
+    "type": "versus",
+    "left": [
+     "HERO",
+     "?"
+    ],
+    "right": [
+     "THIEF",
+     "?"
+    ],
+    "note": "YOU DECIDE"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "length": 50,
+ "settings": {
+  "length": 50,
+  "style": "graphics",
+  "autorender": true,
+  "chart": "off",
+  "energy": "dynamic",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "key",
+  "music": "off",
+  "whoosh": "off"
+ }
+}
