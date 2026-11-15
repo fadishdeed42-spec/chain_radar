@@ -15,7 +15,8 @@
 1794691202.5110612,
 1794691509.9457684,
 1794695644.2007895,
-1794705365.565912
+1794705365.565912,
+1794706588.968395
 ],
 "menu": {
 "001b550e4687": {
@@ -160,9 +161,11 @@
 "coin": "",
 "src": "The Block",
 "srcs": [
-"The Block"
+"Cryptonews.net",
+"The Block",
+"www.tokenpost.com"
 ],
-"t": 1794704141.36858,
+"t": 1794706893.932541,
 "t0": 1794697655.0,
 "tgtext": "",
 "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
@@ -197,21 +200,6 @@
 "url": "https://t.me/wublockchainenglish/26814",
 "urls": []
 },
-"0ec825c2ef4c": {
-"coin": "bitcoin",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794533883.0955024,
-"t0": 1794520324.0,
-"tgtext": "",
-"title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
-"url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "0faee3b0f935": {
 "coin": "bitcoin",
 "src": "Cryptonews.net",
@@ -233,7 +221,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794699299.0,
 "tgtext": "Ethereum Foundation Sold 7,500 ETH for 14.52M USDS Over Four Days\n\nAccording to Onchain Lens, the Ethereum Foundation sold another 2,500 ETH (worth approximately $4.71 million) for 4.597 million USDS via CoWSwap, bringing its total sales over the past four days to 7,500 ETH for approximately 14.52 million USDS. The latest proceeds were transferred to a Safe multisig wallet. ETH has fallen below $1,850. \u2014 link",
 "title": "Ethereum Foundation Sold 7,500 ETH for 14.52M USDS Over Four Days",
@@ -590,25 +578,11 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794691442.0,
 "tgtext": "JUST IN: $645,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$645,000,000 worth of crypto longs liquidated in the past 30 minutes.",
 "url": "https://t.me/WatcherGuru/16041",
-"urls": []
-},
-"283483ef1f30": {
-"coin": "bitcoin",
-"src": "Coinpedia",
-"srcs": [
-"Bitcoin News",
-"Coinpedia"
-],
-"t": 1794533578.1000772,
-"t0": 1794512185.0,
-"tgtext": "",
-"title": "Why Is Crypto Crashing? $560 Billion Wiped Out as Bitcoin Price Falls Below $72K",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckRxOHdNWDJGVWtRcU4tVV83RU5lN3ZzQm1CT3NmdXlOY0FpM3VOc3J2NVlOSlRkZ3c1cmZsX0ltVTVTNWE5ODlSaVF1TlpweGdWa2tTZTF1Q2I4SVdBbngxOEs3MHdWQnotdGtUNjFrWEREaGg2VWZwYUZDRkZjNkVvZ0w0eWZtUGJSajAxVmhPcjV4d3pjRUtkWVh4ZnhjVTJaREo0aHHSAa4BQVVfeXFMUC02M291NENVYmRKVGFaTjhqcEEyV1F4NTdiWGFQZm5tVDRvVGdaTUpPamh2eWtIOEhYMVN5dmJ2aTQxQ0pVTTJHdjM3bXdnVE1Hc0dFM1E1RGRQaEtabGRDdUJrNFZxX01GdG5TcGpSNEI4TWFMNllCRllHSkxyZUV2Qk82UlZIeGNJNlJmQXp4anBReE5YZHUxX1Z6WjdxcUZoNnBLSjM4alM0N2hn?oc=5",
 "urls": []
 },
 "2980c732dfde": {
@@ -869,7 +843,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794691737.0,
 "tgtext": "JUST IN: Elon Musk's SpaceX $SPCX successfully catches Starship rocket at launch tower for the first time in history.\n\n@WatcherGuru",
 "title": "Elon Musk's SpaceX SPCX successfully catches Starship rocket at launch tower for the first time in history.",
@@ -1738,7 +1712,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794694859.0,
 "tgtext": "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n$BTC crashed 6.74%\n$ETH crashed 9.36%\n$BNB crashed 9.34%\n$XRP crashed 10.92%\n$SOL crashed 11.79%\n\n@WatcherGuru",
 "title": "$230,000,000,000 wiped out from the crypto market cap in the past 24 hours.",
@@ -1794,6 +1768,19 @@
 "tgtext": "",
 "title": "Kava investigates unusual token activity; Upbit and Coinone halt KAVA deposits and withdrawals",
 "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGdxV3NhSVRZUlMyLVNvZHBLQTJIZVZteDJ5RzFVQVZvd3ctSHVOUlZZRkQ4Wmw0SFpBOFJpUlRQU2VCb2FiNWN1d090MFB3SjNwUEdDWGxKSm5uNTZaRENjWHg0SV9VNE1fOFhNUWdiRkEwUnNRcUZtSE9xZkE4WkI0TEtpRGVNZDdMOUdYYTM0cGk2YjJQNTlXZldvQQ?oc=5",
+"urls": []
+},
+"64356914687a": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794706893.932541,
+"t0": 1794706472.0,
+"tgtext": "It's liquidation day again!\n\nTrader 0xc05b got liquidated 7 times in the past 10 hours, with a total of 172 $BTC ($11.03M) and 2,984 $ETH ($5.44M) liquidated!\n\nhttps://hypurrscan.io/address/0xc05b532d9b4eff8c140ad5477dc87d5803b98951#txs\nhttps://x.com/lookonchain/status/2121081124336415037",
+"title": "It's liquidation day again!",
+"url": "https://t.me/lookonchainchannel/11069",
 "urls": []
 },
 "6509ef29cc64": {
@@ -2012,7 +1999,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794705129.0,
 "tgtext": "Many whales are still buying the $ETH dip despite the market crash!\n\nWallets linked to @ErikVoorhees spent $125.27M to buy 63,540 $ETH at an average price of $1,972.\n\n7 Siblings spent $60.88M to buy 31,484 $ETH at an average price of $1,933.\n\nChun (@satofishi) withdrew 10,997 $ETH ($21.88M) from #Binance at an average price of $1,990.\n\n58bro.eth (@0x58bro), who has made over $40M in profit on #Hyperliquid, withdrew 10,501 $ETH ($20.77M) from #OKX at an average price of $1,978.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a\nhttps://arkm.com/explorer/address/0x5fFcDB28B8cC958aFe052947D43CB6aF04833c37\nhttps://arkm.com/explorer/address/0xF42BcFD3dd5fcdd984d24FD2787383195C7f2b51\nhttps://arkm.com/explorer/entity/0x58bro",
 "title": "Many whales are still buying the ETH dip despite the market crash!",
@@ -2025,7 +2012,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794706281.6968257,
+"t": 1794706588.968395,
 "t0": 1794703784.0,
 "tgtext": "Solana treasury company Forward Industries(@FWDind), which holds 8.73M $SOL ($600M), deposited 1.78M $SOL ($123M) into #CoinbasePrime just 1 hour ago.\n\nIs Forward Industries planning to dump $SOL?\n\nhttps://arkm.com/explorer/entity/forward-industries",
 "title": "Solana treasury company Forward Industries(@FWDind), which holds 8.73M SOL ($600M), deposited 1.78M SOL ($123M) into CoinbasePrime just 1 hour ago.",
@@ -2982,7 +2969,7 @@
 "TOKENPOST",
 "Watcher.Guru"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794701846.0,
 "tgtext": "JUST IN: Bitcoin crashes under $63,000\n\n@WatcherGuru",
 "title": "Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000",
@@ -3187,7 +3174,7 @@
 "CryptoRank",
 "Pluang"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794685401.0,
 "tgtext": "",
 "title": "Bitcoin falls below $74K after Binance hack and AI crash, $73K level critical for recovery.",
@@ -3625,7 +3612,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794706281.6968257,
+"t": 1794706893.932541,
 "t0": 1794705864.0,
 "tgtext": "loracle.hl(@loraclexyz) is taking a huge hit!\n\nHis $BTC, $XMR, $ETH, and $STRK longs are now down a combined $26.7M in unrealized losses!\n\nhttps://hypurrscan.io/address/0xefe4c06b6d310978bead596e1798a4fc1d9d194b#txs",
 "title": "loracle.hl(@loraclexyz) is taking a huge hit!",
@@ -4009,32 +3996,32 @@
 },
 "probs": {
 "01845f7e005d": 0.019,
-"0e1948a7ce07": 0.183,
-"0e28825d954e": 0.022,
+"0e1948a7ce07": 0.615,
 "1009cad43fcd": 0.747,
 "16e907a73359": 0.158,
 "1b10a85b62a7": 0.139,
 "1cc677ee2dd3": 0.14,
-"281bacbe9506": 0.561,
 "2e1a0ee63bb6": 0.071,
 "347ec45f9b16": 0.079,
-"360faac07fb6": 0.303,
+"360faac07fb6": 0.087,
 "42a8095f4550": 0.013,
-"453871a94052": 0.24,
-"45fd7397dcdf": 0.217,
-"5505ff91b9a6": 0.088,
+"45fd7397dcdf": 0.23,
+"5505ff91b9a6": 0.126,
 "5517206461ad": 0.2,
 "5753df282309": 0.14,
 "579acc49e787": 0.011,
 "5abe868b9676": 0.085,
 "5eb8b45033e0": 0.221,
+"64356914687a": 0.959,
 "6825e444ef49": 0.129,
 "73a3f537a2b9": 0.034,
-"758d71120517": 0.995,
+"758d71120517": 0.95,
 "7759ce0c38d7": 0.372,
+"7f6391befa62": 0.076,
 "80befd1f4e91": 0.057,
 "8d6e9601e1ae": 0.034,
 "972f9ba249e4": 0.161,
+"a23affac3e5c": 0.033,
 "a3da4d9061b0": 0.009,
 "abdeb14d0b59": 0.853,
 "b8cb14a476ed": 0.056,
@@ -4043,11 +4030,11 @@
 "d58e6fbd62b7": 0.183,
 "e8d5d812cbe0": 0.108,
 "eb531a8dbc51": 0.34,
-"f3f597478acb": 0.195,
+"f3f597478acb": 0.13,
 "f54f30c71284": 0.166,
 "f55d2e307d90": 0.049,
-"f93ca180def9": 0.037,
-"faaf879f4ae9": 0.058
+"f85c1409d703": 0.157,
+"f93ca180def9": 0.037
 },
 "sent": [
 {
@@ -5366,71 +5353,86 @@
 "still",
 "whales"
 ]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1794706588.968395,
+"u": [
+"https://t.me/lookonchainchannel/11069"
+],
+"w": [
+"again",
+"day",
+"liquidation"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"64356914687a",
+25,
+7,
+1
+],
+[
 "758d71120517",
 43,
-19,
+29,
+1
+],
+[
+"ea17cd73aabd",
+10,
+17,
 1
 ],
 [
 "abdeb14d0b59",
 85,
-74,
+84,
 3
-],
-[
-"ea17cd73aabd",
-10,
-7,
-1
 ],
 [
 "1009cad43fcd",
 25,
-116,
+127,
+1
+],
+[
+"34118563b666",
+9,
+253,
 1
 ],
 [
 "ba48df548628",
-58,
-348,
+57,
+358,
 2
 ],
 [
-"34118563b666",
-10,
-242,
-1
+"0e1948a7ce07",
+61,
+154,
+3
 ],
 [
 "6072b96614a8",
-9,
-190,
+8,
+201,
 1
 ],
 [
 "281bacbe9506",
-17,
-247,
-1
-],
-[
-"7759ce0c38d7",
-31,
-42,
-1
-],
-[
-"eb531a8dbc51",
-20,
-174,
+15,
+258,
 1
 ]
 ],
-"top_at": 1794706281.6968257
+"top_at": 1794706893.932541
 }
