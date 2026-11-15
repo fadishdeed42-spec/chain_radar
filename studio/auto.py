@@ -66,6 +66,8 @@ LOOK = ST.get('look', 'none')
 import looklib
 PACE = {'calm': 2.6, 'normal': 1.8, 'fast': 1.25}.get(ST.get('pace', 'normal'), 1.8)   # max seconds without a new on-screen moment
 MOVE = {'calm': .6, 'auto': 1.0, 'strong': 1.35}.get(ST['motion'], 1.0)
+KIN = ST.get('cuts') == 'fast'                                         # owner (Nov 15): "more exciting" -> key words slam full screen, hits on every cut
+if KIN: PACE = min(PACE, .95)
 EP = ''                                                                # owner: no episode number on screen, videos can go out in any order
 SCN = SB['scenes']
 
@@ -725,6 +727,11 @@ def overlay(cv, t, i):
     receipt_card(cv, t, i)
     bs = BEATS[i] if SCN[i]['visual']['type'] != 'flow' else []; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
     shown = [b for b in bs if b['text']]
+    if KIN:
+        for n, b in enumerate(shown):
+            t0 = b['t']; t1 = min(t0 + .85, shown[n + 1]['t'] - .05 if n + 1 < len(shown) else scene_end(i) - .05)
+            if t0 - .02 <= t < t1: word_slam(cv, t, t0, t1, b['text'], n, a_sc)
+        shown = []
     for n, b in enumerate(shown):
         t0 = b['t']; t1 = shown[n + 1]['t'] if n + 1 < len(shown) else scene_end(i)
         if not (t0 - .05 <= t < t1): continue
@@ -757,6 +764,28 @@ def overlay(cv, t, i):
             cv.text(W / 2, 232, txt, 'black', 30, GOLD, g2 * clamp(q), anchor='cm', scale=max(.01, q), track=6)
             sx = lerp(W / 2 - tw / 2 - 60, W / 2 + tw / 2 + 60, seg(t, .5, 1.1))   # light sweep across the badge
             if .5 < t < 1.1: cv.glow(sx, 232, 50, WHITE, .35 * g2)
+
+
+def word_slam(cv, t, t0, t1, txt, n, a_sc):
+    """fast cuts: the key word takes over the screen on the exact spoken word (a hard cut, a flash, a punch), then the scene returns"""
+    g = seg(t, t0 - .02, t0 + .12); o = seg(t, t1 - .1, t1)
+    al = a_sc * (1 - o)
+    if al <= 0: return
+    cv.rect(-20, -20, W + 20, H + 20, BG, .9 * al)                       # the cut: the scene drops away behind the word
+    col = ACC
+    lines = wrap(txt, 11)[:2] if len(txt) > 11 else [txt]              # long phrases stack in two big lines
+    lw = max(lines, key=len)
+    sz = fit(lw, 'black', 200, W - 280)
+    sc_ = lerp(1.3, 1.0, out3(g)) + .05 * seg(t, t0 + .12, t1)          # slams in, then keeps creeping toward you
+    y = 860 + (n % 2) * 40 - (len(lines) - 1) * sz * .5
+    for k, ln in enumerate(lines):
+        cv.text(W / 2, y + k * sz * 1.0, ln, 'black', sz, col if k == len(lines) - 1 else WHITE, al * clamp(g * 3), anchor='cm', scale=sc_, shadow=14)
+    y += (len(lines) - 1) * sz
+    tw, _ = text_size(lw, 'black', sz)
+    bw = min(W - 140, tw * sc_) / 2 * out3(seg(t, t0 + .06, t0 + .3))
+    cv.rect(W / 2 - bw, y + sz * .62, W / 2 + bw, y + sz * .62 + 14, ACC if col != ACC else GOLD, al, r=7)
+    f = 1 - seg(t, t0 - .02, t0 + .1)                                    # white flash on the cut
+    if f > 0: cv.rect(-20, -20, W + 20, H + 20, WHITE, .55 * f * a_sc)
 
 
 def face(cv, x, y, r, mood, a, t=0.0, col=GOLD):
@@ -1012,7 +1041,7 @@ if SCN and SCN[0]['role'] == 'hook' and SCN[0]['visual']['type'] not in ('chart'
         _txt = ' '.join(SCN[0]['line'].split()[:3])
     SCN[0]['visual'] = {'type': 'slam', 'text': _txt, 'sub': str(_v.get('label') or _v.get('sub') or '')}
 cs.SCENES = [make_scene(i) for i in range(len(SCN))]
-cs.IMPACTS = sorted(([P(0) + .05] if SCN and SCN[0]['visual']['type'] == 'slam' else []) +
+cs.IMPACTS = (lambda L: sorted(L + ([b['t'] for bs in BEATS for b in bs if b['text']] if KIN else [])))(([P(0) + .05] if SCN and SCN[0]['visual']['type'] == 'slam' else []) +
                     [hit(i) for i, s in enumerate(SCN) if s['role'] in PACK['impacts'] and s['visual']['type'] in ('title', 'stamp', 'counter', 'chart', 'versus', 'quote', 'person', 'flow')])
 cs.NAME = 'auto'
 cs.SCENE_CAM = scene_cam
@@ -1073,6 +1102,19 @@ def make_sfx(out):
         for n, b in enumerate(BEATS[i]):
             if b['text']: place(tr, pop(.16 * k, 720 + 90 * (n % 3)), b['t'] - .02); place(tr, whoosh(.25, n % 2 == 0, .05 * k), b['t'] - .12)
             else: place(tr, whoosh(.3, n % 2 == 0, .045 * k), b['t'] - .12, pan=(.3 if n % 2 else -.3))
+    if KIN:                                                               # fast cuts: every cut hits, key words hit hard
+        for i in range(len(SCN)):
+            for n, b in enumerate(BEATS[i]):
+                if b['text']: place(tr, thud(.45, .6 * k), b['t'] - .01); place(tr, boom(.8, 95, 40, .32 * k), b['t'] - .01)
+                else: place(tr, thud(.3, .26 * k), b['t'] - .01, pan=(.25 if n % 2 else -.25))
+        end = (CTA if CTA is not None else DUR) - .3                       # a low tense pulse under the story (no melody), it stops dead before each twist
+        drops = [hit(i) for i, s in enumerate(SCN) if s['role'] in ('twist', 'payoff')]
+        bt, t_ = 60 / 96, P(1) if len(SCN) > 1 else 1.0
+        while t_ < end:
+            if not any(d - .7 < t_ < d for d in drops):
+                lift = min(1.0, .6 + .4 * t_ / max(1.0, end))
+                place(tr, thud(.32, .2 * k * lift), t_); place(tr, thud(.22, .09 * k * lift), t_ + bt * .42)
+            t_ += bt
     C = CTA
     if C is not None:
         place(tr, whoosh(.5, True, .14), C - .1); place(tr, thud(.4, .45), C + .2); place(tr, ding(1760, 1.0, .2), C + .5)
@@ -1096,3 +1138,8 @@ if __name__ == '__main__':
         make_sfx(os.path.join(JOB, 'sfx.wav'))
     elif cmd == 'info':
         print(json.dumps({'dur': DUR, 'frames': int(round(DUR * int(os.environ.get('FPS', 60))))}))
+    elif cmd == 'beats':
+        print('PACE', PACE, 'moments', sum(len(b) for b in BEATS))
+        for i in range(len(SCN)):
+            for b in BEATS[i]:
+                if b['text']: print(i, round(b['t'], 2), b['text'])

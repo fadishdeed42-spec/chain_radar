@@ -7,8 +7,15 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, os.path.join(ROOT, 'studio')); os.chdir(ROOT)
 import story, qc
 
+SLAM = {2: [('crypto', 'CRYPTO BRIDGE')], 9: [('offered', 'A REWARD?!')], 12: [('handed', 'GAME OVER')], 3: [('wallets', 'HIS WALLETS')], 4: [('time', 'A RECORD')], 6: [('started', 'PLOT TWIST')],
+        7: [('transaction', 'A HIDDEN MESSAGE')], 10: [('job', 'A JOB?!')], 11: [('key', 'TWO KEYS')]}   # v2 (Nov 15): word slams
+_n = [0]
+
 def sc(role, emo, line, hit, visual, receipt=None):
-    d = {'role': role, 'emotion': emo, 'line': line, 'hit': hit, 'visual': visual, 'beats': [], 'shots': [], 'footage': '', 'photo': ''}
+    k = _n[0]; _n[0] += 1
+    bt = [{'word': w, 'text': x} for w, x in SLAM.get(k, [])]
+    for w, _ in SLAM.get(k, []): assert w in re.sub(r'[^\w\s]', ' ', line.lower()).split(), (k, w)
+    d = {'role': role, 'emotion': emo, 'line': line, 'hit': hit, 'visual': visual, 'beats': bt, 'shots': [], 'footage': '', 'photo': ''}
     if receipt: d['receipt'] = receipt
     return d
 
@@ -59,7 +66,7 @@ SB = dict(
 
 if __name__ == '__main__':
     sb = dict(SB)
-    sb.update({'length': 55, 'settings': {'length': 55, 'style': 'graphics', 'autorender': True, 'chart': 'off', 'energy': 'dynamic',
+    sb.update({'length': 55, 'settings': {'length': 55, 'style': 'graphics', 'autorender': True, 'chart': 'off', 'energy': 'high', 'cuts': 'fast',
                                            'pace': 'fast', 'motion': 'strong', 'captions': 'key', 'music': 'off', 'whoosh': 'off'}})
     for k, s in enumerate(sb['scenes']):
         assert s['hit'].lower() in re.sub(r'[^\w\s]', ' ', s['line'].lower()).split(), (k, s['hit'])

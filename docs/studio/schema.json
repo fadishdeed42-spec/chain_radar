@@ -365,6 +365,38 @@
        "Punchy"
       ]
      ]
+    },
+    {
+     "key": "whoosh",
+     "label": "Whoosh between scenes",
+     "type": "choice",
+     "default": "on",
+     "options": [
+      [
+       "on",
+       "On"
+      ],
+      [
+       "off",
+       "Off"
+      ]
+     ]
+    },
+    {
+     "key": "cuts",
+     "label": "Word slams",
+     "type": "choice",
+     "default": "normal",
+     "options": [
+      [
+       "normal",
+       "Normal"
+      ],
+      [
+       "fast",
+       "Fast: big word slams + hits"
+      ]
+     ]
     }
    ]
   },
