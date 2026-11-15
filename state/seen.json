@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794666553.167528,
 1794667780.7457988,
 1794674445.099652,
 1794675217.9490125,
@@ -17,7 +16,8 @@
 1794726584.9629216,
 1794726889.5495121,
 1794727501.8972757,
-1794750811.2258296
+1794750811.2258296,
+1794753171.4754457
 ],
 "menu": {
 "000f6ad45d27": {
@@ -127,7 +127,7 @@
 "Crypto Briefing",
 "Wu Blockchain"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794736069.0,
 "tgtext": "Germany approves new customs powers to seize suspected illicit assets, including cryptoGermany Approves New Customs Powers to Seize Suspected Illicit Assets, Including Crypto\n\nGermany\u2019s Bundestag has approved legislation allowing customs authorities to temporarily secure significant assets, including crypto, when there are substantiated doubts about their lawful origin even before a criminal case is opened. The procedure generally targets assets worth more than \u20ac100,000, while permanent confiscation would still require a fiscal court ruling.\n\nThe law is scheduled to take effect on January 1, 2027, subject to Bundesrat approval and formal promulgation. \u2014 link",
 "title": "Germany approves new customs powers to seize suspected illicit assets, including cryptoGermany Approves New Customs Powers to Seize Suspected Illicit Assets, Including Crypto",
@@ -146,6 +146,19 @@
 "tgtext": "",
 "title": "Solana price faces a brutal death cross: could SOL crash below $70?",
 "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rQ1NGelhVWThvSVJUXzl3S09rek8zc3k1cl9sS1VnZ1hSelhULVdEMU1lXzNRRHNtX0lHMVNUbE1oTGtIcmFUSUtxU0NYZ1RWOGpxMGhiRVdtRUE?oc=5",
+"urls": []
+},
+"0b957a611912": {
+"coin": "bitcoin",
+"src": "CryptoPotato",
+"srcs": [
+"CryptoPotato"
+],
+"t": 1794752866.956609,
+"t0": 1794747120.0,
+"tgtext": "",
+"title": "Almost $1.5 Billion Withdrawn From Bitcoin and Ethereum ETFs in a Single Week",
+"url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYnpxd28tUFcwYVo2ZU5wUGwyVkc0R0Via3hzTmtlS1ZUaDA1V09haHhESFBkV0RPajZVbW5jSUU0Q1J1MjRqSU5LWTBKYnEyRm1FYkhGSW1uMXUxaXFKRVh3b2RMMENMVUJPYjdRMHkwRkhFYjYwTHJEeFBrSGhMeERsak9pU3NPVjhxM2JhZnFUN216Z1dvNHNDY3BOSXRlTHhOZg?oc=5",
 "urls": []
 },
 "0c6cefb4e893": {
@@ -378,7 +391,7 @@
 "StreetInsider",
 "Yahoo Finance"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794732414.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can BTC Reclaim $70K After a $1.4B Crypto ETF Exodus? Remittix RTX Is 10 Days From Launch",
@@ -858,7 +871,7 @@
 "Crypto News",
 "Wu Blockchain"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794736365.0,
 "tgtext": "Chinese Miner Jiang Zhuoer Exits DeFi Altcoins After Market Call Misses, Pauses Trading\n\nJiang Zhuoer, founder of BTC.TOP and a prominent Chinese miner, said he has sold all of his DeFi altcoin holdings and moved to a hedged neutral position after Bitcoin\u2019s latest decline invalidated parts of his earlier bullish thesis. He said BTC broke below support near $63,853 and $64,100 and approached his roughly $61,576 invalidation level, adding that a move below $57,800 in a late-bear-market scenario could bring sharper losses for smaller DeFi tokens. Jiang said he plans to step away from trading for a period before considering new positions. \u2014 link",
 "title": "Chinese Miner Jiang Zhuoer Exits DeFi Altcoins After Market Call Misses, Pauses Trading",
@@ -1250,7 +1263,7 @@
 "srcs": [
 "StreetInsider"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794734214.0,
 "tgtext": "",
 "title": "Ethereum Price Today: ETH Hovers Near $1,900 After a Brutal Week as Remittix Earn Clears $2M in TVL",
@@ -1547,24 +1560,11 @@
 "Cointelegraph",
 "CryptoTicker.io"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794735053.0,
 "tgtext": "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny.\n\nHis verdict is that this is a supercycle and the headwinds will pass.\n\nWhat do you say?\n\nNews | Markets | YouTube",
 "title": "Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny.",
 "url": "https://t.me/cointelegraph/73291",
-"urls": []
-},
-"6d04d8755984": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794580233.0747366,
-"t0": 1794558776.0,
-"tgtext": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!\n\nHe's now lost $2.22M trading on the platform.\n\nhttps://exchange.papertrade.xyz/portfolio?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&tab=paperEmissions&sort=outcome&desc=false",
-"title": "Machi(@machibigbrother) has been liquidated an unbelievable 2,100+ times on @papertrade_xyz!",
-"url": "https://t.me/lookonchainchannel/11042",
 "urls": []
 },
 "6f320514d3d5": {
@@ -2191,7 +2191,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794734775.0,
 "tgtext": "Bloomberg: Bitcoin Falls Toward $62K, Putting $58K Yearly Low Back in Focus\n\nAccording to Bloomberg, Bitcoin fell toward $62,000 over the weekend, its lowest level since July, as higher Treasury yields, a stronger dollar, post-midterm policy uncertainty and continued fallout from the Binance hack weighed on crypto markets.\n\nFalconX co-head of markets Joshua Lim said discussion around the selloff has focused on nearly $20 billion in stablecoin balance declines over the past month and the potential liquidity impact of Anthropic\u2019s upcoming IPO. Bloomberg noted Bitcoin is again approaching its 2026 low near $58,000. \u2014 link",
 "title": "Bloomberg: Bitcoin Falls Toward $62K, Putting $58K Yearly Low Back in Focus",
@@ -2790,6 +2790,20 @@
 "url": "https://t.me/lookonchainchannel/11053",
 "urls": []
 },
+"d173334960d0": {
+"coin": "bitcoin",
+"src": "Morocco News",
+"srcs": [
+"Morocco News",
+"Pluang"
+],
+"t": 1794753171.4754457,
+"t0": 1794738258.0,
+"tgtext": "",
+"title": "Bitcoin falls below $64,000 as ETF outflows and forced liquidations deepen sell-off - HESPRESS English",
+"url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQTJCWHVoZnpVNnkyVW55blh5eGI2ekQ0MFRaSTZIanJ5Z3hIN0c5MGpMT29sU1JmTEZYNHkwWUI5RUFQdzkyWDlHajdjejhkNGJKVWZVUllrTGdWMUFOVDJUQVBqcHhId1d4bkNmNXMxMTlDNGMyMy1MdEpQMzk4T3JDVC16UUFRNEd4MVdXUmktM1haTnRmdW9SQ2k1M1ZsNl9HajQ2NEpRaEdfVXhPVG5NcThCUnZx?oc=5",
+"urls": []
+},
 "d17a7d6e0d52": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2853,7 +2867,7 @@
 "Crypto Headlines",
 "Lookonchain"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794739657.0,
 "tgtext": "What perfect timing!  AguilaTrades(@AguilaTrades) opened a 40x long on 1,000 $BTC ($64.4M) just 30 minutes ago and is already up $1.8M+ in unrealized profit!  He has made $5.66M trading in the past week, mostly by shorting $BTC.  Now he timed his $BTC long\u2026\n\ud83d\ude33 \u0411\u0435\u0437\u0443\u043c\u043d\u044b\u0439 \u0442\u0440\u0435\u0439\u0434\u0435\u0440 AguilaTrades \u0432 LONG-\u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u043f\u043e BTC \u043d\u0430 $130,000,000 (40x \u043f\u043b\u0435\u0447\u043e)\n\n\u0422\u043e\u0447\u043a\u0430 \u0432\u0445\u043e\u0434\u0430: $63,629\n\u041b\u0438\u043a\u0432\u0438\u0434\u0430\u0446\u0438\u044f: $62,143\n\u041c\u0430\u0440\u0436\u0430: $3,2m\n\n\u041a\u043e\u0448\u0435\u043b\u0435\u043a: hb\n\nCrypto Headlines",
 "title": "What perfect timing! AguilaTrades(@AguilaTrades) opened a 40x long on 1,000 BTC ($64.4M) just 30 minutes ago and is already up $1.8M+ in unrealized profit! He has made $5.66M trading in the past week, mostly by shorting ",
@@ -3120,6 +3134,19 @@
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEwycWVFbWVvSXczSzJhYmZoMFNieXR1cnhCMHRraW5LQ3EtcEN0UGhCQTJ5aVlROFFLOUk0MmtOLXJPbXc3NUxrQllzRFVGY0pWZlNPdjlra09ZanVqVUNOdzIweFBXaENhd1hZNGtqaXJ4WVJPLXBxVHpqbEdkTDltdFBuRnBlTnZGNlBqbjE1OTA5d1YyMFU3RGF4ckk?oc=5",
 "urls": []
 },
+"ea8eab4497ca": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794753171.4754457,
+"t0": 1794753082.0,
+"tgtext": "\ud83d\udd25 INTERESTING: The number of wallets with over 100 $BTC increased by 890 just in 2026.\n\nNews | Markets | YouTube",
+"title": "INTERESTING: The number of wallets with over 100 BTC increased by 890 just in 2026.",
+"url": "https://t.me/cointelegraph/73293",
+"urls": []
+},
 "eb531a8dbc51": {
 "coin": "",
 "src": "24/7 Wall St.",
@@ -3154,7 +3181,7 @@
 "Brave New Coin",
 "Crypto News"
 ],
-"t": 1794752380.211383,
+"t": 1794753171.4754457,
 "t0": 1794745798.0,
 "tgtext": "",
 "title": "Bitcoin (BTC) Price Today: $65K Support Under Pressure as Glassnode Maps $60K\u2013$62K Liquidation Cluster",
@@ -3321,6 +3348,21 @@
 "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZTJOLTFyVjdGX21MYW5aOS1SYndEMVllY0N2ZHJweDkzenoxeERqYU84UG1UanZOLW9faC1XRklBdU5vMnJlSUVzVWF0T3NSMFJTQXE0ZE5rd0Ryd3FNSVAtZWFfX04wYW1CR1UwYjdGZmp5ZGhFRW44V2hvMU9qaGtBeG5sQ1ppbEJyUGxoVFR3Rmh4VGR3cmVIcFJUNm45Q2dmbEkwY1NuNFV0RzE4SmptRXYzeXM4a0dHa2tWeGhhZ0l6bGJiQ3RFZ3VaQVBXazNQblVfSG1PdmRUYXhwbU5YekV2c3I0Tzg1RjFQOFdXbGh4T0F3a2FxbUVNenRMUEdZMnBmLUFMZWl6bkE?oc=5",
 "urls": []
 },
+"f51e53a10772": {
+"coin": "bitcoin",
+"src": "KuCoin",
+"srcs": [
+"CryptoRank",
+"Kriptofoni",
+"KuCoin"
+],
+"t": 1794752866.956609,
+"t0": 1794735518.0,
+"tgtext": "",
+"title": "Bitcoin Drops to $62,000, a Three-Month Low, Amid ETF Outflows and Liquidations",
+"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbzJMTHFPN1dSc2RQWl9VWW5KeVFHMms4YzdFVFFQOF9MMEprUmRsRHlnMUxIOWxTUlFoVTB6WFZlVDI5S2Jhd0tWOVM3QlFpMkZwNm14b1NJLWtIcWplU2VkdnU3cTV6Mjk5bjVEcFhEckN5RTB4NWNmajNMQU1IMlU1UFVxUnhCbHQ5aTdyOEhNUDZrNVJzZlluN19qellVOW43QjFBbXAzZl9CUmpQZUM4dy14QQ?oc=5",
+"urls": []
+},
 "f6741dd15731": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3345,21 +3387,6 @@
 "tgtext": "Another trading legend is about to fall!  Smart trader 0xe813 with a 100% win rate is currently down $7.3M on his $ETH long.  He won all 10 of his previous trades, making $6.32M in profit.  But this one trade has wiped out all his previous profits and put\u2026",
 "title": "Another trading legend is about to fall! Smart trader 0xe813 with a 100% win rate is currently down $7.3M on his ETH long. He won all 10 of his previous trades, making $6.32M in profit. But this one trade has wiped out a",
 "url": "https://t.me/lookonchainchannel/11076",
-"urls": []
-},
-"f7dc1450eaf5": {
-"coin": "",
-"src": "FinanceFeeds",
-"srcs": [
-"Crypto Economy",
-"FinanceFeeds",
-"Gadgets 360"
-],
-"t": 1794579613.2589078,
-"t0": 1794563008.0,
-"tgtext": "",
-"title": "Upbit Halts OSMO Deposits and Withdrawals After Osmosis Blockchain Stops Producing Blocks",
-"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVGVUdlcyTENEbU1kSnBDVEVJSWJWazN3dVVmUlp5c0YxWmVMMkNjQk5YdDhJUFc0ZHNNRWhkYW1hZ3RtcGJUYXpWOVcyOEV1OGcxSXgtbzd2ZWpISEwwZzFVYUJxQ05RU2NNSkQ4Y2Vremg3dFpmalRVcnBSVzJIZFR0amFUUU1NMmZjRlVDZTB3LWgxUUdpZUI0NVRNeGQ1MzBOQy1XejRucUVkTVJVeUIzY2xLZw?oc=5",
 "urls": []
 },
 "f97c668c59ca": {
@@ -3461,45 +3488,45 @@
 "ethereum": 1794711791.1498003
 },
 "probs": {
-"0577da207bf1": 0.033,
-"0a448718cc98": 0.725,
-"0b957a611912": 0.299,
+"0577da207bf1": 0.041,
+"0b957a611912": 0.124,
 "19f0cd214532": 0.076,
-"1a22d28503e7": 0.026,
+"1a22d28503e7": 0.067,
 "1b483d2052b1": 0.352,
-"1beae3ce55d0": 0.159,
+"274bc248b3f1": 0.082,
 "2ceb0f5e6644": 0.161,
 "38cb942d5ab8": 0.128,
+"38d8343e14e6": 0.058,
 "39218d053367": 0.828,
 "45eff73c207e": 0.145,
 "51407c087822": 0.141,
 "5d54e68665bb": 0.111,
-"6038ca10026c": 0.103,
 "63f4ddd25ca7": 0.123,
-"6c52bd9d13e3": 0.853,
+"6c52bd9d13e3": 0.56,
 "704a5c2ef19a": 0.018,
-"78f7a83e386d": 0.126,
+"73c66d2cb9f5": 0.131,
+"78f7a83e386d": 0.154,
 "7b7e50b60392": 0.092,
-"80e4efacce33": 0.029,
 "8b862e4844d2": 0.101,
 "8e33da6dd8d2": 0.135,
 "9503d58faf20": 0.121,
-"97120ed2e8ab": 0.793,
+"97120ed2e8ab": 0.911,
 "9cd510a7f802": 0.058,
 "ad9d939be04b": 0.261,
 "b7291f549426": 0.151,
 "b74153b05048": 0.154,
-"baa9a2186350": 0.173,
+"ba0b85c05e9e": 0.096,
 "bcc5f1cb0735": 0.178,
 "bed8499f1377": 0.125,
+"ca3efa6adf43": 0.08,
 "ceb4d946541a": 0.102,
+"d173334960d0": 0.321,
 "d5f3c5214553": 0.868,
-"e477711b60c8": 0.035,
 "e6c31a1d98a2": 0.241,
-"e8cf551b1992": 0.062,
-"ec4114a3b54f": 0.363,
+"ea8eab4497ca": 0.927,
+"ec4114a3b54f": 0.233,
 "ecb519e2aa79": 0.933,
-"eea8fc50f686": 0.533,
+"f51e53a10772": 0.213,
 "ffdb6030e518": 0.153
 },
 "sent": [
@@ -4616,6 +4643,27 @@
 "toward",
 "yearly"
 ]
+},
+{
+"e": [
+"interesting"
+],
+"k": [],
+"t": 1794753171.4754457,
+"u": [
+"https://t.me/cointelegraph/73293"
+],
+"w": [
+"100",
+"2026",
+"890",
+"btc",
+"increased",
+"interesting",
+"just",
+"number",
+"wallets"
+]
 }
 ],
 "stories": {},
@@ -4624,63 +4672,63 @@
 [
 "ecb519e2aa79",
 45,
-110,
+123,
 2
+],
+[
+"ea8eab4497ca",
+10,
+1,
+1
+],
+[
+"97120ed2e8ab",
+29,
+307,
+3
 ],
 [
 "d5f3c5214553",
-22,
-212,
-2
-],
-[
-"6c52bd9d13e3",
-41,
-289,
+20,
+225,
 2
 ],
 [
 "39218d053367",
-9,
-267,
+7,
+280,
 2
-],
-[
-"97120ed2e8ab",
-30,
-293,
-3
 ],
 [
 "0a448718cc98",
-8,
-272,
+6,
+285,
 2
 ],
 [
-"eea8fc50f686",
-62,
-358,
-4
-],
-[
-"ec4114a3b54f",
-20,
-247,
+"6c52bd9d13e3",
+39,
+302,
 2
 ],
 [
 "518c749beacd",
 0,
-303,
+316,
 1
 ],
 [
 "1b483d2052b1",
-44,
-333,
+42,
+346,
 3
+],
+[
+"d173334960d0",
+55,
+249,
+2
 ]
 ],
-"top_at": 1794752380.211383
+"top_at": 1794753171.4754457
 }
