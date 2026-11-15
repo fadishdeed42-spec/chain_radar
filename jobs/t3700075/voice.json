@@ -1,0 +1,111 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.25,
+ "seed": 7,
+ "scenes": [
+  [
+   "Bitcoin's creator sent one last email. Then he went silent.",
+   0.95,
+   0.36
+  ],
+  [
+   "And days later, the C I A came into the story.",
+   0.95,
+   0.22
+  ],
+  [
+   "December twenty ten. Satoshi made his last public forum post.",
+   0.88,
+   0.22
+  ],
+  [
+   "April twenty-third, twenty eleven. He emailed developer Mike Hearn.",
+   0.88,
+   0.22
+  ],
+  [
+   "I've moved on to other things.",
+   0.95,
+   0.36
+  ],
+  [
+   "It's in good hands with Gavin and everyone.",
+   0.88,
+   0.22
+  ],
+  [
+   "Around the same days, he wrote to Gavin Andresen.",
+   0.88,
+   0.22
+  ],
+  [
+   "I wish you wouldn't keep talking about me as a mysterious shadowy figure.",
+   0.88,
+   0.22
+  ],
+  [
+   "The press just turns that into a pirate currency angle.",
+   0.88,
+   0.22
+  ],
+  [
+   "On April twenty-seventh, Gavin announced a talk at the C I A.",
+   0.95,
+   0.36
+  ],
+  [
+   "Gavin later said his last email told Satoshi about that talk.",
+   0.95,
+   0.36
+  ],
+  [
+   "Satoshi is believed to hold about a million Bitcoin. Untouched.",
+   0.95,
+   0.28
+  ],
+  [
+   "Coincidence?",
+   0.83,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.88,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Bitcoin's creator sent one last email. Then he went silent.",
+  "And days later, the C I A came into the story.",
+  "December twenty ten. Satoshi made his last public forum post.",
+  "April twenty-third, twenty eleven. He emailed developer Mike Hearn.",
+  "I've moved on to other things.",
+  "It's in good hands with Gavin and everyone.",
+  "Around the same days, he wrote to Gavin Andresen.",
+  "I wish you wouldn't keep talking about me as a mysterious shadowy figure.",
+  "The press just turns that into a pirate currency angle.",
+  "On April twenty-seventh, Gavin announced a talk at the C I A.",
+  "Gavin later said his last email told Satoshi about that talk.",
+  "Satoshi is believed to hold about a million Bitcoin. Untouched.",
+  "Coincidence?",
+  "Subscribe for more stories."
+ ]
+}
