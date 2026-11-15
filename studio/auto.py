@@ -278,6 +278,7 @@ def portrait(cv, i, cx, cy, r, alpha):
 
 def hit(i):
     h = B.get(f's{i}', P(i) + .4)
+    if i == 0 and SCN[0]['role'] == 'hook': return P(0) + .05             # owner (Nov 15): the hook is on screen from the very first frame
     if SCN[i]['role'] == 'end':                                          # the payoff must be on screen well before the end card
         h = min(h, P(i) + max(.5, .55 * (h - P(i))))
     return h
@@ -927,6 +928,33 @@ def _shrink(cv, base, s):
     cv.a = base * (1 - Mw) + Lw * Mw
 
 
+def _grow_scale(L, base, s):
+    """largest scale (<= s) that keeps everything the template drew inside a safe margin"""
+    M = np.abs(L - base).sum(2) > 6
+    ys, xs = np.nonzero(M)
+    if not len(xs): return 1.0
+    cx, cy = RW / 2, RH * .46; mx, my = RW * .11, RH * .08                # wide margin: the camera push-in zooms a few % more
+    x0, x1, y0, y1 = xs.min(), xs.max(), ys.min(), ys.max()
+    lim = [s]
+    if x0 < cx: lim.append((cx - mx) / max(1, cx - x0))
+    if x1 > cx: lim.append((RW - mx - cx) / max(1, x1 - cx))
+    if y0 < cy: lim.append((cy - my) / max(1, cy - y0))
+    if y1 > cy: lim.append((RH * .80 - cy) / max(1, y1 - cy))        # stay above the Shorts buttons
+    return max(1.0, min(lim))
+
+
+def _grow(cv, base, s):
+    """owner (Nov 15): make what the template drew bigger (one fixed scale per scene, so nothing jumps)"""
+    if s < 1.02: return
+    L = cv.a
+    M = np.clip(np.abs(L - base).sum(2) / 30, 0, 1).astype(np.float32)
+    cx, cy = RW / 2, RH * .46
+    Mx = np.float32([[s, 0, cx * (1 - s)], [0, s, cy * (1 - s)]])
+    Lw = cv2.warpAffine(L, Mx, (RW, RH), flags=cv2.INTER_LINEAR)
+    Mw = cv2.warpAffine(M, Mx, (RW, RH), flags=cv2.INTER_LINEAR)[..., None]
+    cv.a = base * (1 - Mw) + Lw * Mw
+
+
 def _lower(cv, base, s=.84, dy=.09):
     """a headline card sits at the top: scale what the template drew and move it down so nothing overlaps"""
     L = cv.a
@@ -937,6 +965,9 @@ def _lower(cv, base, s=.84, dy=.09):
     cv.a = base * (1 - Mw) + Lw * Mw
 
 
+_GS = {}
+GROW = {'title': 1.22, 'counter': 1.2, 'stamp': 1.22, 'date': 1.2, 'person': 1.18, 'quote': 1.14, 'doc': 1.16, 'versus': 1.1,
+        'app': 1.12, 'news': 1.06, 'list': 1.12, 'timer': 1.16, 'flow': 1.08}   # owner (Nov 15): visuals looked small on a phone -> grow toward the middle
 LOWER = ('title', 'versus', 'quote', 'stamp', 'face', 'timer', 'date', 'person', 'flow', 'app', 'doc', 'route', 'crowd', 'facility', 'servers', 'vote')   # counter and list already make room
 
 
@@ -954,8 +985,18 @@ def make_scene(i):
         base = cv.a.copy() if sh else None
         ambient(cv, t)
         lb = cv.a.copy() if low else None
+        gb = cv.a.copy() if (not low and not sh and GROW.get(v['type'])) else None
         fn(cv, t, i, v, a)
         if low: _lower(cv, lb, *((.78, .12) if v['type'] in ('app', 'doc', 'crowd', 'servers', 'facility', 'vote') else (.84, .09)))
+        elif not sh and GROW.get(v['type']) and not os.environ.get('GROW_OFF'):
+            if i not in _GS:                                               # measure the settled scene once, on a scratch copy
+                import copy as _cp
+                _GS[i] = GROW[v['type']]
+                for tm in (hit(i) + .6, hit(i) + 1.2, scene_end(i) - .25):
+                    c2 = _cp.copy(cv); c2.a = gb.copy(); fn(c2, max(P(i), min(scene_end(i) - .1, tm)), i, v, 1.0)
+                    _GS[i] = min(_GS[i], _grow_scale(c2.a, gb, GROW[v['type']]))
+                if os.environ.get('GROW_DEBUG'): print('grow', i, v['type'], round(_GS[i], 3))
+            _grow(cv, gb, _GS[i])   # graphics-only: fill the phone screen
         if sh: _shrink(cv, base, sh)
     return scene
 
