@@ -10,12 +10,10 @@ worst windows: [(0.4, np.float32(10.8)), (34.4, np.float32(15.6)), (19.8, np.flo
 mixed -> jobs/t3700072/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700072/short.mp4 -c:v libx264 -crf 19 -maxrate 8079k -bufsize 16158k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700072/short_s.mp4
 video check: []
+qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 ❌ <b>Video check: problems found</b>
-❌ hook frame: first frame is not a hook: Intro is title text without a number or shocking hook.
-⚠️ text: text cut off at 0s (Text runs off both side edges.), 13s (Text cut off at edges with ver)
-⚠️ text: hard to read at 13s (Text cut off at edges with ver)
-⚠️ match: picture may not match the words at 0s (Text runs off both side edges.), 32s (Display says 715,042 but narra)
-✅ 5 checks passed (format, loudness, motion, picture, sync)
+❌ hook frame: first frame is not a hook: Simple title card hook
+✅ 6 checks passed (format, loudness, motion, picture, sync, visual)
 $ ffmpeg -y -v error -ss 1.80 -i jobs/t3700072/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700072/sh_00.png
 $ ffmpeg -y -v error -ss 5.40 -i jobs/t3700072/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700072/sh_01.png
 $ ffmpeg -y -v error -ss 9.00 -i jobs/t3700072/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700072/sh_02.png
