@@ -286,8 +286,13 @@ def hit(i):
     return h
 
 
-def fit(text, kind, size, maxw):
-    while size > 30 and text_size(text, kind, size)[0] > maxw: size -= 4
+ZMAX = 1.0 + .035 * MOVE + .16                                           # the most the scene camera ever zooms in (scene_cam + zsteps cap)
+SAFE_W = int(W * .96 / ZMAX)                                             # Nov 15: hook titles spilled off the screen once the camera pushed in
+
+
+def fit(text, kind, size, maxw, track=0):
+    maxw = min(maxw, SAFE_W)                                             # wide text stays on screen even at the closest zoom
+    while size > 30 and text_size(text, kind, size, track=track)[0] > maxw: size -= 4   # letter spacing counts too
     return size
 
 
@@ -477,7 +482,7 @@ def sc_title(cv, t, i, v, a):
             size = fit(ln, 'black', 150, 980)
             slam(cv, t, h - .05 + k * .12, ln, y0 + k * size * 1.02, size, ACC if k == len(lines) - 1 else TXT, a)
         if v.get('sub') and not SCN[i].get('beats'):                    # stickers sit right there: the sub would collide with them
-            cv.text(W / 2, y0 + len(lines) * 150 + 10, str(v['sub']).upper(), 'xbold', fit(str(v['sub']).upper(), 'xbold', 46, 960), MUTED,
+            cv.text(W / 2, y0 + len(lines) * 150 + 10, str(v['sub']).upper(), 'xbold', fit(str(v['sub']).upper(), 'xbold', 46, 960, track=4), MUTED,
                     a * seg(t, h + .3, h + .6), anchor='cm', track=4)
 
 
@@ -549,7 +554,7 @@ def sc_stamp(cv, t, i, v, a):
     q = back(seg(t, P(i), P(i) + .45))
     icon(cv, v.get('icon') or 'question', W / 2, 760, q, a, t)
     if v.get('label'):
-        cv.text(W / 2, 1080, str(v['label']).upper(), 'black', fit(str(v['label']).upper(), 'black', 52, 960), TXT, a * clamp(q), anchor='cm', track=4)
+        cv.text(W / 2, 1080, str(v['label']).upper(), 'black', fit(str(v['label']).upper(), 'black', 52, 960, track=4), TXT, a * clamp(q), anchor='cm', track=4)
     if t >= h - .1:
         w = str(v.get('word', 'BUSTED')).upper()
         stamp(cv, t, h - .1, w, W / 2, 1300, fit(w, 'black', 92, 760), BAD if v.get('bad', True) else ALT, a)
@@ -563,7 +568,7 @@ def sc_person(cv, t, i, v, a):
     elif prop == 'officer': officer(cv, W / 2, 760, 1.4 * q, a)
     else: person(cv, W / 2, 760, 1.4 * q, PACK['person'], a)
     name = str(v.get('name', '')).upper()
-    cv.text(W / 2, 1110, name, 'black', fit(name, 'black', 60, 980), TXT, a * clamp(q), anchor='cm', track=4)
+    cv.text(W / 2, 1110, name, 'black', fit(name, 'black', 60, 980, track=4), TXT, a * clamp(q), anchor='cm', track=4)
     if t >= h - .2:
         qc = back(seg(t, h - .25, h + .1))
         if prop == 'crown':
@@ -616,7 +621,7 @@ def sc_versus(cv, t, i, v, a):
         x = W / 2 + side * 250
         cv.rect(x - 220 * q, 700 - 300 * q, x + 220 * q, 700 + 300 * q, PANEL, a, r=28)
         cv.rect(x - 220 * q, 700 - 300 * q, x + 220 * q, 700 - 300 * q + 10, col, a, r=4)
-        cv.text(x, 520, str(lab).upper(), 'black', fit(str(lab).upper(), 'black', 44, 400), MUTED, a * clamp(q), anchor='cm', track=6)
+        cv.text(x, 520, str(lab).upper(), 'black', fit(str(lab).upper(), 'black', 44, 400, track=6), MUTED, a * clamp(q), anchor='cm', track=6)
         cv.text(x, 720, str(val).upper(), 'black', fit(str(val).upper(), 'black', 92, 400), col if side > 0 else TXT, a * clamp(q), anchor='cm', scale=max(.01, q), tnum=True)
     if t >= h - .1:
         p = seg(t, h - .1, h + .3)
@@ -835,7 +840,7 @@ def sc_face(cv, t, i, v, a):
         size = fit(txt, 'black', 96, 960)
         cv.text(W / 2, 1150, txt, 'black', size, col, a * clamp(q), anchor='cm', scale=max(.01, q), shadow=8)
     if v.get('sub') and t >= h + .2:
-        cv.text(W / 2, 1260, str(v['sub']).upper(), 'black', fit(str(v['sub']).upper(), 'black', 44, 960), MUTED, a * seg(t, h + .2, h + .5), anchor='cm', track=6)
+        cv.text(W / 2, 1260, str(v['sub']).upper(), 'black', fit(str(v['sub']).upper(), 'black', 44, 960, track=6), MUTED, a * seg(t, h + .2, h + .5), anchor='cm', track=6)
 
 
 def sc_timer(cv, t, i, v, a):
@@ -874,7 +879,7 @@ def sc_slam(cv, t, i, v, a):
         cv.rect(W / 2 - 380 * bar, 1080, W / 2 + 380 * bar, 1094, BAD, a, r=7)
     if v.get('sub'):
         sb_ = str(v['sub']).upper()
-        cv.text(W / 2, 1160, sb_, 'black', fit(sb_, 'black', 52, 960), TXT, a * seg(t, t0 + .35, t0 + .7), anchor='cm', track=6)
+        cv.text(W / 2, 1160, sb_, 'black', fit(sb_, 'black', 52, 960, track=6), TXT, a * seg(t, t0 + .35, t0 + .7), anchor='cm', track=6)
     fl = 1 - seg(t, t0, t0 + .12)                                          # white flash on impact
     if 0 < fl < 1: cv.fill(WHITE, .55 * fl)
 
@@ -891,7 +896,7 @@ def sc_flow(cv, t, i, v, a):
     for k in range(6):                                                     # vault wheel
         ang = k * math.pi / 3 + t * .8
         cv.line([(vx, vy), (vx + 52 * q * math.cos(ang), vy + 52 * q * math.sin(ang))], GOLD, 5, a * clamp(q))
-    cv.text(vx - 150, vy, src, 'black', fit(src, 'black', 50, 280), WHITE, a * clamp(q), anchor='rm', track=3)
+    cv.text(vx - 150, vy, src, 'black', fit(src, 'black', 50, 280, track=3), WHITE, a * clamp(q), anchor='rm', track=3)
     n = len(tos); ys = 1320
     xs = [W / 2 + (k - (n - 1) / 2) * min(250, 900 / max(1, n - 1) if n > 1 else 0) for k in range(n)]
     frozen = str(v.get('frozen', '') or '').strip()
