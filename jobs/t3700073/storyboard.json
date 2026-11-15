@@ -1,10 +1,10 @@
 {
- "title": "Satoshi Hid a Newspaper Headline in Bitcoin’s First Block 📰 #Shorts",
+ "title": "Satoshi Hid a Newspaper Headline in Bitcoin\u2019s First Block \ud83d\udcf0 #Shorts",
  "tone": "mystery",
  "theme": "gold",
- "description": "January 3, 2009: Satoshi Nakamoto mined Bitcoin's first block - the genesis block.\nInside it he wrote a headline from The Times: \"Chancellor on brink of second bailout for banks.\" It proves the block wasn't made before that day, and many read it as a message about the banks.\nIts 50 Bitcoin reward can never be spent - a quirk in the code - and nobody knows if that was on purpose. The next block came about six days later.\n\nMessage or accident? 👇\n\nNot financial advice. Entertainment and education only.",
+ "description": "January 3, 2009: Satoshi Nakamoto mined Bitcoin's first block - the genesis block.\nInside it he wrote a headline from The Times: \"Chancellor on brink of second bailout for banks.\" It proves the block wasn't made before that day, and many read it as a message about the banks.\nIts 50 Bitcoin reward can never be spent - a quirk in the code - and nobody knows if that was on purpose. The next block came about six days later.\n\nMessage or accident? \ud83d\udc47\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Shorts #bitcoin #satoshi #crypto #cryptohistory",
- "pinned": "Message or accident? What do you think Satoshi meant? 👇",
+ "pinned": "Message or accident? What do you think Satoshi meant? \ud83d\udc47",
  "respell": {},
  "scenes": [
   {
@@ -21,7 +21,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "BLOCK 0 · THE GENESIS BLOCK"
+   "fact": "BLOCK 0 \u00b7 THE GENESIS BLOCK"
   },
   {
    "role": "hook",
@@ -71,7 +71,7 @@
    "visual": {
     "type": "title",
     "text": "THE TIMES",
-    "sub": "LONDON · 03/JAN/2009",
+    "sub": "LONDON \u00b7 03/JAN/2009",
     "icon": "question"
    },
    "beats": [],
@@ -87,7 +87,7 @@
    "hit": "bailout",
    "visual": {
     "type": "doc",
-    "head": "THE TIMES · 03/JAN/2009",
+    "head": "THE TIMES \u00b7 03/JAN/2009",
     "title": "CHANCELLOR ON BRINK OF SECOND BAILOUT FOR BANKS"
    },
    "beats": [
@@ -103,7 +103,6 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
    "line": "So the block was not made before that day.",
    "hit": "before",
    "visual": {
@@ -138,7 +137,6 @@
   },
   {
    "role": "turn",
-   "emotion": "excited",
    "line": "The reward was fifty Bitcoin.",
    "hit": "fifty",
    "visual": {
@@ -242,7 +240,7 @@
  ],
  "chart": {},
  "lesson": "",
- "length": 55,
+ "length": 60,
  "settings": {
   "length": 55,
   "style": "graphics",
@@ -255,5 +253,10 @@
   "captions": "key",
   "music": "off",
   "whoosh": "off"
- }
+ },
+ "est_secs": 41,
+ "words": 93,
+ "target_words": 140,
+ "length_ok": false,
+ "length_msg": "script is about 0:41, a 1:00 Short needs 0:56 to 1:05 (93 spoken words, need 131 to 152)"
 }

@@ -1,0 +1,60 @@
+json 98ccf307c015
+   take 1: score -1.01  wer 0.00  end +0.0st  2.2w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+   take 2: score +1.18  wer 0.00  end -2.5st  2.6w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+   take 3: score +1.14  wer 0.00  end -4.8st  2.7w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+   take 4: score +1.19  wer 0.00  end -4.9st  2.6w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+scene 1: 2.68s ex 0.95  chosen wer 0.00
+   take 1: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: and its 50 bitcoin can never be spent.
+   take 2: score -0.86  wer 0.00  end +0.0st  3.2w/s  heard: and its 50 bitcoin can never be spent.
+   take 3: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: and its 50 bitcoin can never be spent.
+scene 2: 2.88s ex 0.95  chosen wer 0.00
+   take 1: score -1.31  wer 0.00  end +2.4st  2.1w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.
+   take 2: score -1.04  wer 0.00  end +0.0st  2.2w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.
+   take 3: score +0.34  wer 0.10  end -3.9st  2.2w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto, mind block zero.
+   take 4: score +0.28  wer 0.10  end -6.8st  2.1w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto Mind Block Zero.
+scene 3: 4.56s ex 0.88  chosen wer 0.00
+   take 1: score -0.40  wer 0.06  end +0.0st  2.5w/s  heard: Inside, he wrote a line from the Times, say...
+   take 2: score -0.04  wer 0.00  end +0.0st  2.7w/s  heard: Inside, he wrote a line from The Times.
+   take 3: score -1.35  wer 0.12  end +0.0st  3.1w/s  heard: Inside, he wrote a line from Thut Times.
+   take 4: score -0.20  wer 0.00  end +1.3st  2.8w/s  heard: Inside, he wrote a line from The Times.
+scene 4: 3.00s ex 0.88  chosen wer 0.00
+   take 1: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: Chancellor on brink of second bailout for banks.
+   take 2: score -0.30  wer 0.00  end +0.0st  3.0w/s  heard: Chancellor on brink of second bailout for banks.
+   take 3: score -1.22  wer 0.06  end +0.0st  2.5w/s  rushed ['second']  heard: Chancellor, on brink of second bailout for banks.  A.
+   take 4: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: Chancellor on brink of second bailout for banks.
+scene 5: 2.93s ex 0.95  chosen wer 0.00
+   take 1: score -3.34  wer 0.00  end +0.0st  4.4w/s  heard: So the block was not made before that day.
+   take 2: score -3.25  wer 0.00  end +0.0st  4.4w/s  heard: So the block was not made before that day.
+   take 3: score -3.95  wer 0.00  end +0.0st  4.7w/s  heard: So the block was not made before that day.
+scene 6: 2.06s ex 0.88  chosen wer 0.00
+   take 1: score -3.04  wer 0.00  end +0.0st  3.9w/s  rushed ['message']  heard: Many see it as a message about the banks.
+   take 2: score -0.85  wer 0.00  end +0.0st  3.2w/s  heard: Many see it as a message about the banks.
+   take 3: score -1.73  wer 0.00  end +0.0st  3.6w/s  heard: Many see it as a message about the banks.
+scene 7: 2.79s ex 0.88  chosen wer 0.00
+   take 1: score -0.90  wer 0.00  end +0.0st  2.4w/s  rushed ['reward']  heard: The reward was 50 Bitcoin.
+   take 2: score -0.37  wer 0.00  end +0.0st  2.0w/s  heard: The reward was 50 Bitcoin.
+   take 3: score +1.80  wer 0.00  end -2.7st  2.3w/s  heard: The reward was 50 Bitcoin.
+scene 8: 2.20s ex 0.88  chosen wer 0.00
+   take 1: score +0.54  wer 0.10  end -11.4st  3.2w/s  heard: Plot twist. A cork in the code makes it unspendable.
+   take 2: score +1.89  wer 0.00  end -3.1st  2.8w/s  heard: Plot twist. A quirk in the code makes it unspendable.
+scene 9: 3.59s ex 0.95  chosen wer 0.00
+   take 1: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: Nobody knows if that was on purpose.
+   take 2: score -4.31  wer 0.00  end +0.0st  4.5w/s  rushed ['purpose.']  heard: Nobody knows if that was on purpose.
+   take 3: score -2.55  wer 0.00  end +0.0st  3.6w/s  rushed ['purpose.']  heard: Nobody knows if that was on purpose.
+   take 4: score -0.06  wer 0.00  end +0.0st  2.7w/s  heard: Nobody knows if that was on purpose.
+scene 10: 2.59s ex 0.88  chosen wer 0.00
+   take 1: score -1.59  wer 0.00  end +0.0st  3.6w/s  heard: and the next block came about six days later.
+   take 2: score -2.18  wer 0.00  end +0.0st  3.9w/s  heard: And the next block came about six days later.
+   take 3: score -2.68  wer 0.00  end +0.0st  4.1w/s  heard: and the next block came about six days later.
+scene 11: 2.52s ex 0.95  chosen wer 0.00
+   take 1: score -1.09  wer 0.00  end -1.5st  1.9w/s  rushed ['accident.']  heard: Message or accident.
+   take 2: score -0.38  wer 0.00  end -0.4st  1.7w/s  heard: Message or accident.
+   take 3: score -0.41  wer 0.00  end -2.1st  1.7w/s  heard: Message or accident.
+scene 12: 1.75s ex 0.83 END  chosen wer 0.00
+   take 1: score -0.43  wer 0.00  end +0.0st  1.9w/s  heard: Subscribe for more stories.
+   take 2: score +1.58  wer 0.00  end -8.1st  1.9w/s  heard: Subscribe for more stories.
+scene 13: 2.11s ex 0.88  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+39.70s, force-aligned 97 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700073/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.7, 0.82, 0.51, 0.51, 0.84, 0.58, 0.61, 0.52, 0.79, 0.51, 0.75, 0.95]

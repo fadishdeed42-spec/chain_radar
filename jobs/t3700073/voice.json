@@ -1,0 +1,104 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.25,
+ "seed": 7,
+ "scenes": [
+  [
+   "Bitcoin's first block hides a newspaper headline.",
+   0.95,
+   0.36
+  ],
+  [
+   "And its fifty Bitcoin can never be spent.",
+   0.95,
+   0.36
+  ],
+  [
+   "January third, two thousand nine. Satoshi Nakamoto mined block zero.",
+   0.88,
+   0.22
+  ],
+  [
+   "Inside, he wrote a line from The Times.",
+   0.88,
+   0.22
+  ],
+  [
+   "Chancellor on brink of second bailout for banks.",
+   0.95,
+   0.36
+  ],
+  [
+   "So the block was not made before that day.",
+   0.88,
+   0.22
+  ],
+  [
+   "Many see it as a message about the banks.",
+   0.88,
+   0.22
+  ],
+  [
+   "The reward was fifty Bitcoin.",
+   0.88,
+   0.22
+  ],
+  [
+   "Plot twist: a quirk in the code makes it unspendable.",
+   0.95,
+   0.36
+  ],
+  [
+   "Nobody knows if that was on purpose.",
+   0.88,
+   0.22
+  ],
+  [
+   "And the next block came about six days later.",
+   0.95,
+   0.36
+  ],
+  [
+   "Message or accident?",
+   0.83,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.88,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Bitcoin's first block hides a newspaper headline.",
+  "And its fifty Bitcoin can never be spent.",
+  "January third, two thousand nine. Satoshi Nakamoto mined block zero.",
+  "Inside, he wrote a line from The Times.",
+  "Chancellor on brink of second bailout for banks.",
+  "So the block was not made before that day.",
+  "Many see it as a message about the banks.",
+  "The reward was fifty Bitcoin.",
+  "Plot twist: a quirk in the code makes it unspendable.",
+  "Nobody knows if that was on purpose.",
+  "And the next block came about six days later.",
+  "Message or accident?",
+  "Subscribe for more stories."
+ ]
+}
