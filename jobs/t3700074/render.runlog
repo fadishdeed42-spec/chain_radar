@@ -12,7 +12,7 @@ $ ffmpeg -y -v error -i jobs/t3700074/short.mp4 -c:v libx264 -crf 19 -maxrate 70
 video check: []
 qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 ⚠️ <b>Video check: please look at</b>
-⚠️ text: hard to read at 7s (Text is quite dim and small.)
+⚠️ text: hard to read at 7s (Small unreadable text at top)
 ✅ 6 checks passed (format, hook frame, loudness, motion, picture, sync)
 $ ffmpeg -y -v error -ss 2.04 -i jobs/t3700074/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700074/sh_00.png
 $ ffmpeg -y -v error -ss 6.13 -i jobs/t3700074/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700074/sh_01.png
