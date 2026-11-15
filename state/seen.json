@@ -161,7 +161,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794697655.0,
 "tgtext": "",
 "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
@@ -232,7 +232,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794699299.0,
 "tgtext": "Ethereum Foundation Sold 7,500 ETH for 14.52M USDS Over Four Days\n\nAccording to Onchain Lens, the Ethereum Foundation sold another 2,500 ETH (worth approximately $4.71 million) for 4.597 million USDS via CoWSwap, bringing its total sales over the past four days to 7,500 ETH for approximately 14.52 million USDS. The latest proceeds were transferred to a Safe multisig wallet. ETH has fallen below $1,850. \u2014 link",
 "title": "Ethereum Foundation Sold 7,500 ETH for 14.52M USDS Over Four Days",
@@ -589,7 +589,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794691442.0,
 "tgtext": "JUST IN: $645,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$645,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -782,7 +782,7 @@
 "Pluang",
 "TOKENPOST"
 ],
-"t": 1794702610.3255033,
+"t": 1794702917.742395,
 "t0": 1794689711.0,
 "tgtext": "",
 "title": "Solana sees $11.55M long liquidations as price drops nearly 2% to $70.74 in one hour",
@@ -868,7 +868,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794691737.0,
 "tgtext": "JUST IN: Elon Musk's SpaceX $SPCX successfully catches Starship rocket at launch tower for the first time in history.\n\n@WatcherGuru",
 "title": "Elon Musk's SpaceX SPCX successfully catches Starship rocket at launch tower for the first time in history.",
@@ -897,7 +897,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794688449.0,
 "tgtext": "\ud83d\udea8 INTERESTING: There are just 888,090 $BTC left to mine.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: There are just 888,090 BTC left to mine.",
@@ -910,7 +910,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794695462.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Uncle Sam is sitting on 306,790 $BTC and 17,430 $ETH, about $20.28B in crypto.\n\nDown over $20B from their ATH.\n\nNews | Markets | YouTube",
 "title": "Uncle Sam is sitting on 306,790 BTC and 17,430 ETH, about $20.28B in crypto.",
@@ -1298,6 +1298,19 @@
 "url": "https://t.me/lookonchainchannel/11051",
 "urls": []
 },
+"453871a94052": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794703222.06025,
+"t0": 1794702754.0,
+"tgtext": "\u26a1\ufe0f MUSK: \"Jensen drove supply chain brilliantly at Nvidia, but many of those deals were a handshake with Jensen, not a written contract.\"\n\nNews | Markets | YouTube",
+"title": "MUSK: \"Jensen drove supply chain brilliantly at Nvidia, but many of those deals were a handshake with Jensen, not a written contract.\"",
+"url": "https://t.me/cointelegraph/73285",
+"urls": []
+},
 "462561413a34": {
 "coin": "bitcoin",
 "src": "CoinDesk",
@@ -1605,7 +1618,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1794702305.9314456,
+"t": 1794703222.06025,
 "t0": 1794690573.0,
 "tgtext": "",
 "title": "Solana sees $11.55M long liquidations as price drops nearly 2% to $70.74 in one hour",
@@ -1735,35 +1748,13 @@
 "https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize"
 ]
 },
-"5fadbfdf79ef": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"AOL.co.uk",
-"BeInCrypto",
-"BigGo Finance",
-"Bitcoin Magazine",
-"Blockonomi"
-],
-"t": 1794529999.3979094,
-"t0": 1794508465.0,
-"tgtext": "\ud83d\udea8 BIG: The US DOJ seized over $1.2 billion in crypto stolen from Binance and disrupted North Korea\u2019s $400 million FaceStealer scheme.\n\nNews | Markets | YouTube",
-"title": "BIG: The US DOJ seized over $1.2 billion in crypto stolen from Binance and disrupted North Korea\u2019s $400 million FaceStealer scheme.",
-"url": "https://t.me/cointelegraph/73248",
-"urls": [
-"https://bitcoinmagazine.com/news/binance-covers-6-34-billion-hack",
-"https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
-"https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
-"https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize"
-]
-},
 "6072b96614a8": {
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794694859.0,
 "tgtext": "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n$BTC crashed 6.74%\n$ETH crashed 9.36%\n$BNB crashed 9.34%\n$XRP crashed 10.92%\n$SOL crashed 11.79%\n\n@WatcherGuru",
 "title": "$230,000,000,000 wiped out from the crypto market cap in the past 24 hours.",
@@ -2942,7 +2933,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1794702610.3255033,
+"t": 1794703222.06025,
 "t0": 1794683488.0,
 "tgtext": "",
 "title": "Bitcoin falls below $74K after Binance hack and AI crash, $73K level critical for recovery.",
@@ -4040,15 +4031,18 @@
 "0e1948a7ce07": 0.253,
 "0e28825d954e": 0.04,
 "1009cad43fcd": 0.747,
+"16e907a73359": 0.158,
 "1cb1c7068885": 0.077,
 "281bacbe9506": 0.706,
 "2e1a0ee63bb6": 0.039,
-"31cc32658342": 0.203,
+"31cc32658342": 0.195,
 "34118563b666": 0.697,
 "360faac07fb6": 0.493,
 "42a8095f4550": 0.013,
 "446b9574f910": 0.015,
+"453871a94052": 0.304,
 "45fd7397dcdf": 0.035,
+"5505ff91b9a6": 0.306,
 "5abe868b9676": 0.085,
 "5eb8b45033e0": 0.096,
 "6072b96614a8": 0.541,
@@ -4056,7 +4050,6 @@
 "73a3f537a2b9": 0.034,
 "7b3e79850c11": 0.15,
 "80befd1f4e91": 0.057,
-"858f011324c2": 0.164,
 "8d6e9601e1ae": 0.019,
 "972f9ba249e4": 0.101,
 "9ed546202c50": 0.031,
@@ -4072,9 +4065,7 @@
 "d3913183c68e": 0.072,
 "e72e0c1d7f77": 0.008,
 "e8d5d812cbe0": 0.108,
-"f54f30c71284": 0.096,
 "f55d2e307d90": 0.022,
-"f93ca180def9": 0.02,
 "faaf879f4ae9": 0.032
 },
 "sent": [
@@ -5340,63 +5331,63 @@
 [
 "1009cad43fcd",
 25,
-55,
+65,
 1
 ],
 [
 "a41b53752941",
-57,
-319,
+56,
+329,
 3
 ],
 [
 "281bacbe9506",
-25,
-186,
+23,
+196,
 1
 ],
 [
 "34118563b666",
-18,
-181,
+17,
+191,
 1
 ],
 [
 "6072b96614a8",
 10,
-129,
+139,
 1
 ],
 [
 "360faac07fb6",
 25,
-119,
-1
-],
-[
-"09bdc960c323",
-9,
-356,
+129,
 1
 ],
 [
 "35c307dd584b",
-3,
-236,
+2,
+246,
+1
+],
+[
+"5505ff91b9a6",
+42,
+211,
+1
+],
+[
+"453871a94052",
+18,
+8,
 1
 ],
 [
 "0e1948a7ce07",
 41,
-83,
+93,
 1
-],
-[
-"31cc32658342",
-52,
-215,
-2
 ]
 ],
-"top_at": 1794702610.3255033
+"top_at": 1794703222.06025
 }
