@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794659493.7226882,
 1794666553.167528,
 1794667780.7457988,
 1794674445.099652,
@@ -17,7 +16,8 @@
 1794706588.968395,
 1794726584.9629216,
 1794726889.5495121,
-1794727501.8972757
+1794727501.8972757,
+1794750811.2258296
 ],
 "menu": {
 "000f6ad45d27": {
@@ -126,7 +126,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794736069.0,
 "tgtext": "Germany approves new customs powers to seize suspected illicit assets, including cryptoGermany Approves New Customs Powers to Seize Suspected Illicit Assets, Including Crypto\n\nGermany\u2019s Bundestag has approved legislation allowing customs authorities to temporarily secure significant assets, including crypto, when there are substantiated doubts about their lawful origin even before a criminal case is opened. The procedure generally targets assets worth more than \u20ac100,000, while permanent confiscation would still require a fiscal court ruling.\n\nThe law is scheduled to take effect on January 1, 2027, subject to Bundesrat approval and formal promulgation. \u2014 link",
 "title": "Germany approves new customs powers to seize suspected illicit assets, including cryptoGermany Approves New Customs Powers to Seize Suspected Illicit Assets, Including Crypto",
@@ -840,7 +840,7 @@
 "Crypto News",
 "Wu Blockchain"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794736365.0,
 "tgtext": "Chinese Miner Jiang Zhuoer Exits DeFi Altcoins After Market Call Misses, Pauses Trading\n\nJiang Zhuoer, founder of BTC.TOP and a prominent Chinese miner, said he has sold all of his DeFi altcoin holdings and moved to a hedged neutral position after Bitcoin\u2019s latest decline invalidated parts of his earlier bullish thesis. He said BTC broke below support near $63,853 and $64,100 and approached his roughly $61,576 invalidation level, adding that a move below $57,800 in a late-bear-market scenario could bring sharper losses for smaller DeFi tokens. Jiang said he plans to step away from trading for a period before considering new positions. \u2014 link",
 "title": "Chinese Miner Jiang Zhuoer Exits DeFi Altcoins After Market Call Misses, Pauses Trading",
@@ -908,19 +908,6 @@
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-69100-dollar"
 ]
-},
-"3c37e8df8505": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794577763.7406607,
-"t0": 1794576626.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US PPI rises to 6.5%, lower than expectations.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 US PPI rises to 6.5%, lower than expectations.",
-"url": "https://t.me/WatcherGuru/16001",
-"urls": []
 },
 "3c9ab112b2c8": {
 "coin": "bitcoin",
@@ -1104,7 +1091,7 @@
 "PhilNews",
 "astig.ph"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794734584.0,
 "tgtext": "",
 "title": "NBI arrests 31 in Bohol raids on a $10-million crypto and romance scam network",
@@ -1545,7 +1532,7 @@
 "Cointelegraph",
 "CryptoTicker.io"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794735053.0,
 "tgtext": "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny.\n\nHis verdict is that this is a supercycle and the headwinds will pass.\n\nWhat do you say?\n\nNews | Markets | YouTube",
 "title": "Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny.",
@@ -2188,7 +2175,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794734775.0,
 "tgtext": "Bloomberg: Bitcoin Falls Toward $62K, Putting $58K Yearly Low Back in Focus\n\nAccording to Bloomberg, Bitcoin fell toward $62,000 over the weekend, its lowest level since July, as higher Treasury yields, a stronger dollar, post-midterm policy uncertainty and continued fallout from the Binance hack weighed on crypto markets.\n\nFalconX co-head of markets Joshua Lim said discussion around the selloff has focused on nearly $20 billion in stablecoin balance declines over the past month and the potential liquidity impact of Anthropic\u2019s upcoming IPO. Bloomberg noted Bitcoin is again approaching its 2026 low near $58,000. \u2014 link",
 "title": "Bloomberg: Bitcoin Falls Toward $62K, Putting $58K Yearly Low Back in Focus",
@@ -2203,7 +2190,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1794750034.6462324,
+"t": 1794750503.8605173,
 "t0": 1794739398.0,
 "tgtext": "",
 "title": "Erik Voorhees-Linked Wallets Spend $97M on 48,647 ETH Amid Price Dip",
@@ -2468,6 +2455,19 @@
 "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONFVXT2VtUi1LVWhybGZNMlo4Z1Utb1pkV0dLOXJzWm5hR0dvbnJpUVdIVmlaakk4ZHlyeVhRbG5FUE9oSmM3NXRua0NESkN3YWpIZFlmRHRyeGRHMHV1REloLUZfaUEtX0dQMm9Nd3JHZzBJSkVubXRTc1ZibFJoTDBBUE50TS16?oc=5",
 "urls": []
 },
+"ad9d939be04b": {
+"coin": "litecoin",
+"src": "Traders Union",
+"srcs": [
+"Traders Union"
+],
+"t": 1794750811.2258296,
+"t0": 1794738202.0,
+"tgtext": "",
+"title": "LTC slides over 6% as it trades below key moving averages amid widespread liquidation",
+"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRmsxc0dtMnRxRl9ZR2RvXy1Ja2lrZHdyaG1kbkV0TFd3ajg2WVRoUFI1c3kwcVVIZkZZb2Ywb3F0ck1UQWFMRjJpYnMxRFN3U1BiZUduSU1YeEVzR2NBUTFpWXJNZkZBcmxUVmJ0Z3F6Y1pPemo4TW1oNFh0bHFtbFp3ZWZNX2Z1QlhUYzBRX0IzOXpnLXBEelBaNjlpNU4wNlE?oc=5",
+"urls": []
+},
 "aeecce029ec4": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2581,7 +2581,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794743510.0,
 "tgtext": "Asia's Weekly TOP10 Crypto News\n\nShanghai Encourages Blockchain Adoption, Kazakhstan Plans Tokenized Government Bonds, Thailand Launches WORPT Crypto Travel App, Nomura Weighs Sale of Laser Digital and Russia Prepares to Allow Crypto Trading.\n\nFor the complete article and weekly curated reports, subscribe to our Substack: \u2014 link",
 "title": "Asia's Weekly TOP10 Crypto News",
@@ -2836,7 +2836,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794739657.0,
 "tgtext": "What perfect timing!  AguilaTrades(@AguilaTrades) opened a 40x long on 1,000 $BTC ($64.4M) just 30 minutes ago and is already up $1.8M+ in unrealized profit!  He has made $5.66M trading in the past week, mostly by shorting $BTC.  Now he timed his $BTC long\u2026",
 "title": "What perfect timing! AguilaTrades(@AguilaTrades) opened a 40x long on 1,000 BTC ($64.4M) just 30 minutes ago and is already up $1.8M+ in unrealized profit! He has made $5.66M trading in the past week, mostly by shorting ",
@@ -3024,22 +3024,6 @@
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82TmU4WjZDaVo3SVR0MXhsYU0zTE9SOFdJZkd3Q1hzNTBvZU9qZ3cxMU1QU2N6Skk3NVI4OGhFbTFZUmNHOXJaUnoyUFZnNFh1WWt1WHE2eFBxdw?oc=5",
 "urls": []
 },
-"e3fbb5e43327": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Crypto Economy"
-],
-"t": 1794577445.6647184,
-"t0": 1794560045.0,
-"tgtext": "\ud83d\udea8 ALERT: Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.\n\nNews | Markets | YouTube",
-"title": "Unocoin suspects BitGo's multisig backup was exploited, allowing onchain transfers despite its account freeze.",
-"url": "https://t.me/cointelegraph/73256",
-"urls": [
-"https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "e492447372d7": {
 "coin": "",
 "src": "Yahoo Finance",
@@ -3134,15 +3118,16 @@
 },
 "ecb519e2aa79": {
 "coin": "bitcoin",
-"src": "Crypto News",
+"src": "Brave New Coin",
 "srcs": [
+"Brave New Coin",
 "Crypto News"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794745798.0,
 "tgtext": "",
-"title": "Bitcoin price crash explained: 8 reasons BTC plunged from $81K to $62K",
-"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoMVlEcHpRYl80a2c1MUY0OHJrd3NsWk1tbngyaTJvWVRLdkNKSjNVRnh5bFRWanItcHlUSVRQaEJ5bFBkbkV5ZG1iRUxQd0ZHMVVMRGhSUDJxbWZnU3c?oc=5",
+"title": "Bitcoin (BTC) Price Today: $65K Support Under Pressure as Glassnode Maps $60K\u2013$62K Liquidation Cluster",
+"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUdqY2pyMTFnOXp2MlFjMmRzMUVsOVBsQTNYX0VIMGZfSXhzTXdScXNFWWhzVkg3UjUtblNtVGUwZENFQW5CSkdDbE82MVF5eDJTckVwQVJnMGwyQ1FkRTVoZmZWTmNvS2l4V3V5TVhSQzY3UGZxeU0waTVhWUc5SVVlcDNrSkgxMGY2Vjdkc2FKdVd6b1pGZkVfRWJRMER6NllhdTFadHVYQl9NVkwyOXNVWFhuU29XSDRjRkp3ZUZibHdTSHdlQXVn?oc=5",
 "urls": []
 },
 "ed7bc012ad8d": {
@@ -3167,10 +3152,9 @@
 "Kriptofoni",
 "KuCoin",
 "Morocco News",
-"Pluang",
 "The Defiant"
 ],
-"t": 1794750034.6462324,
+"t": 1794750811.2258296,
 "t0": 1794730926.0,
 "tgtext": "",
 "title": "Bitcoin falls below $64,000 as ETF outflows and forced liquidations deepen sell-off - HESPRESS English",
@@ -3447,11 +3431,10 @@
 },
 "probs": {
 "0577da207bf1": 0.033,
-"0a448718cc98": 0.676,
 "0b957a611912": 0.299,
 "19f0cd214532": 0.061,
 "1a22d28503e7": 0.026,
-"1b483d2052b1": 0.305,
+"1b483d2052b1": 0.059,
 "1beae3ce55d0": 0.159,
 "2ceb0f5e6644": 0.161,
 "2de5b84235fa": 0.182,
@@ -3466,179 +3449,29 @@
 "6c52bd9d13e3": 0.853,
 "704a5c2ef19a": 0.018,
 "78f7a83e386d": 0.126,
+"7b7e50b60392": 0.092,
 "80e4efacce33": 0.023,
-"8b862e4844d2": 0.056,
+"8b862e4844d2": 0.101,
 "8e33da6dd8d2": 0.135,
 "9503d58faf20": 0.121,
-"97120ed2e8ab": 0.646,
-"9727563f5d58": 0.479,
-"9cd510a7f802": 0.133,
+"97120ed2e8ab": 0.698,
+"9cd510a7f802": 0.058,
 "ad9d939be04b": 0.398,
 "b74153b05048": 0.411,
 "baa9a2186350": 0.173,
 "bcc5f1cb0735": 0.178,
+"bed8499f1377": 0.125,
 "ceb4d946541a": 0.102,
 "d5f3c5214553": 0.817,
 "e6c31a1d98a2": 0.241,
 "e8cf551b1992": 0.062,
 "ec4114a3b54f": 0.363,
-"ecb519e2aa79": 0.56,
-"eea8fc50f686": 0.707,
+"ecb519e2aa79": 0.933,
+"eea8fc50f686": 0.533,
 "fbaa3b69d051": 0.118,
 "ffdb6030e518": 0.153
 },
 "sent": [
-{
-"e": [
-"keplr",
-"mantra",
-"web3auth"
-],
-"k": [
-"hack"
-],
-"t": 1794570605.8043206,
-"u": [
-"https://t.me/cointelegraph/73258"
-],
-"w": [
-"exploit",
-"following",
-"hackers",
-"keplr",
-"mantra",
-"tokens",
-"unstaking",
-"users",
-"wallet",
-"web3auth"
-]
-},
-{
-"e": [
-"can"
-],
-"k": [
-"crash"
-],
-"t": 1794571542.9248848,
-"u": [
-"https://news.google.com/rss/articles/CBMinAFBVV95cUxOWGQtdmlWNGhNRHVxa1c2SWpFRGFnd0ZhS1hIaVRZOWQzajdlbEtlU0RXODNNVGxhMm9xYzhVbVZJelRURjNoa05CR0h3RUhWTm1xZXlQeWpELWlxWkpISC1LLThwWHF3U0FjSlpoejkyTGtWM1I2d0FRbXVYZmh4dVU2UENTaVdMZ3pUQTBtdVZBRWJRRDl4Q0Izang?oc=5",
-"https://news.google.com/rss/articles/CBMid0FVX3lxTE9kWlNaNlRVNXpONVJidHc5TDE4YTVucnVoVktKTF9CcFdVeHBBU051TFBuc05oREtnRjVRd1g1M09ZdlkxbGhWQnVkT0k5S2U4RzhFbjlpX2lLVzZlcEVJYWphS0NJRElINUNSaTl1SXZHX2R0dWRN?oc=5",
-"https://news.google.com/rss/articles/CBMingFBVV95cUxQUGE0LWlRVlE1M1pUZEk3SkN2ejdtZHNhN0FvTjJQUFFOQjZQTlg5ZEJoZ3o5LWRaNmZoSDBEQnZYTWc4QkRqcFdsNWdKa3dWS0Q2UUxCY2x3ZVljVjJYMEszbEJFSnVwQW9aRDVpLXI3V01qeW1xREgxaXpBclN4Z2xZMk9fVmxGR2VkRVk4QWkteW5IX2J3aGo4cWxNQQ?oc=5",
-"https://news.google.com/rss/articles/CBMingFBVV95cUxQUGE0LWlRVlE1M1pUZEk3SkN2ejdtZHNhN0FvTjJQUFFOQjZQTlg5ZEJoZ3o5LWRaNmZoSDBEQnZYTWc4QkRqcFdsNWdKa3dWS0Q2UUxCY2x3ZVljVjJYMEszbEJFSnVwQW9aRDVpLXI3V01qeW1xREgxaXpBclN4Z2xZMk9fVmxGR2VkRVk4QWkteW5IX2J3aGo4cWxNQQ?oc=5"
-],
-"w": [
-"000",
-"amid",
-"below",
-"billion",
-"can",
-"drops",
-"eth",
-"ethereum",
-"liquidations",
-"recover"
-]
-},
-{
-"e": [
-"arrest",
-"five",
-"israeli",
-"laundering",
-"million",
-"money",
-"police",
-"scheme",
-"whatsapp"
-],
-"k": [
-"legal"
-],
-"t": 1794573730.4111514,
-"u": [
-"https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMixAFBVV95cUxQTU5pQUhwXzE2WjJZRFlzekVqUFZNb25ObDZDNmJzNlZwdjhwbjNpSFh4dVhRUU5NR3JreFRadW9iaEJGSU5saDBjNUN0WFdDMUJDNUhQWXVMYmZCeW12dGFXQWlkZE96Tlg1UkpzZ25WX3pnenQxZEdUTXRSWFB2X0toQ09QUG4tUFljTXU3dUMzbWxsSjB6ZFBFVVNXbFh6eUlwdS1OYjlRcGo4MlF2S29XYzZzN1l3ZXlPdW1OVE9sRDRT?oc=5",
-"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sN2QtYU56eGlEOFE0X0xXM2czSDRramlTR0tKeVJicXpmb0ZNWE1hWWVYTF9mVExsUjNoWk91aEhCZFJVNHlHZ0o0elE2WFZ0QWNDUw?oc=5"
-],
-"w": [
-"arrest",
-"cryptocurrency",
-"five",
-"israeli",
-"laundering",
-"million",
-"money",
-"police",
-"scheme",
-"whatsapp"
-]
-},
-{
-"e": [
-"exposure",
-"holding",
-"holdings",
-"ibit",
-"jpmorgan",
-"mstr",
-"put",
-"raises",
-"stock",
-"while"
-],
-"k": [],
-"t": 1794574038.5818598,
-"u": [
-"https://t.me/wublockchainenglish/26811"
-],
-"w": [
-"exposure",
-"holding",
-"holdings",
-"ibit",
-"jpmorgan",
-"mstr",
-"put",
-"raises",
-"stock",
-"while"
-]
-},
-{
-"e": [
-"accounting",
-"growth",
-"half",
-"hits",
-"hyperliquid",
-"nearly",
-"protocol",
-"reserve",
-"revenue",
-"yield"
-],
-"k": [],
-"t": 1794576820.24269,
-"u": [
-"https://t.me/wublockchainenglish/26814"
-],
-"w": [
-"$190",
-"accounting",
-"growth",
-"half",
-"hits",
-"hyperliquid",
-"nearly",
-"protocol",
-"reserve",
-"revenue",
-"usdc",
-"yield"
-]
-},
 {
 "e": [
 "singapore",
@@ -4711,71 +4544,109 @@
 "week",
 "what"
 ]
+},
+{
+"e": [
+"cluster",
+"glassnode",
+"liquidation",
+"maps",
+"pressure",
+"support",
+"today",
+"under"
+],
+"k": [
+"crash"
+],
+"t": 1794750811.2258296,
+"u": [
+"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoMVlEcHpRYl80a2c1MUY0OHJrd3NsWk1tbngyaTJvWVRLdkNKSjNVRnh5bFRWanItcHlUSVRQaEJ5bFBkbkV5ZG1iRUxQd0ZHMVVMRGhSUDJxbWZnU3c?oc=5",
+"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoMVlEcHpRYl80a2c1MUY0OHJrd3NsWk1tbngyaTJvWVRLdkNKSjNVRnh5bFRWanItcHlUSVRQaEJ5bFBkbkV5ZG1iRUxQd0ZHMVVMRGhSUDJxbWZnU3c?oc=5",
+"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUdqY2pyMTFnOXp2MlFjMmRzMUVsOVBsQTNYX0VIMGZfSXhzTXdScXNFWWhzVkg3UjUtblNtVGUwZENFQW5CSkdDbE82MVF5eDJTckVwQVJnMGwyQ1FkRTVoZmZWTmNvS2l4V3V5TVhSQzY3UGZxeU0waTVhWUc5SVVlcDNrSkgxMGY2Vjdkc2FKdVd6b1pGZkVfRWJRMER6NllhdTFadHVYQl9NVkwyOXNVWFhuU29XSDRjRkp3ZUZibHdTSHdlQXVn?oc=5",
+"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUdqY2pyMTFnOXp2MlFjMmRzMUVsOVBsQTNYX0VIMGZfSXhzTXdScXNFWWhzVkg3UjUtblNtVGUwZENFQW5CSkdDbE82MVF5eDJTckVwQVJnMGwyQ1FkRTVoZmZWTmNvS2l4V3V5TVhSQzY3UGZxeU0waTVhWUc5SVVlcDNrSkgxMGY2Vjdkc2FKdVd6b1pGZkVfRWJRMER6NllhdTFadHVYQl9NVkwyOXNVWFhuU29XSDRjRkp3ZUZibHdTSHdlQXVn?oc=5"
+],
+"w": [
+"$60k",
+"$62k",
+"$65k",
+"bitcoin",
+"btc",
+"cluster",
+"glassnode",
+"liquidation",
+"maps",
+"pressure",
+"price",
+"support",
+"today",
+"under"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"ecb519e2aa79",
+45,
+84,
+2
+],
+[
 "6c52bd9d13e3",
-46,
-250,
+44,
+263,
 2
 ],
 [
 "d5f3c5214553",
 16,
-173,
+186,
 1
 ],
 [
 "39218d053367",
-14,
-228,
+12,
+241,
 2
-],
-[
-"eea8fc50f686",
-67,
-318,
-5
-],
-[
-"0a448718cc98",
-3,
-233,
-1
 ],
 [
 "97120ed2e8ab",
-11,
-254,
+9,
+267,
 2
 ],
 [
-"ecb519e2aa79",
-20,
-71,
+"0a448718cc98",
+2,
+246,
 1
 ],
 [
-"9727563f5d58",
-16,
-177,
-1
+"eea8fc50f686",
+65,
+331,
+4
 ],
 [
 "45eff73c207e",
-44,
-258,
+42,
+270,
 3
 ],
 [
 "b74153b05048",
 10,
-109,
+122,
+1
+],
+[
+"ad9d939be04b",
+21,
+210,
 1
 ]
 ],
-"top_at": 1794750034.6462324
+"top_at": 1794750811.2258296
 }
