@@ -7,82 +7,80 @@ loaded PerthNet (Implicit) at step 250,000
 `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  0%|          | 5.75M/1.18G [00:00<00:20, 60.2MB/s]  1%|          | 12.0M/1.18G [00:00<00:19, 63.0MB/s]  3%|▎         | 36.2M/1.18G [00:00<00:08, 150MB/s]   6%|▌         | 67.5M/1.18G [00:00<00:05, 220MB/s]  9%|▊         | 103M/1.18G [00:00<00:04, 276MB/s]  11%|█         | 135M/1.18G [00:00<00:03, 295MB/s] 14%|█▍        | 166M/1.18G [00:00<00:03, 304MB/s] 16%|█▌        | 195M/1.18G [00:00<00:03, 285MB/s] 19%|█▉        | 228M/1.18G [00:00<00:03, 303MB/s] 22%|██▏       | 264M/1.18G [00:01<00:03, 324MB/s] 25%|██▍       | 300M/1.18G [00:01<00:02, 341MB/s] 28%|██▊       | 339M/1.18G [00:01<00:02, 360MB/s] 31%|███       | 374M/1.18G [00:01<00:02, 360MB/s] 34%|███▍      | 408M/1.18G [00:01<00:02, 357MB/s] 37%|███▋      | 444M/1.18G [00:01<00:02, 362MB/s] 40%|███▉      | 479M/1.18G [00:01<00:02, 356MB/s] 43%|████▎     | 513M/1.18G [00:01<00:02, 345MB/s] 45%|████▌     | 546M/1.18G [00:01<00:02, 339MB/s] 48%|████▊     | 581M/1.18G [00:01<00:01, 348MB/s] 51%|█████     | 615M/1.18G [00:02<00:01, 338MB/s] 54%|█████▍    | 648M/1.18G [00:02<00:01, 342MB/s] 57%|█████▋    | 682M/1.18G [00:02<00:01, 345MB/s] 59%|█████▉    | 715M/1.18G [00:02<00:01, 338MB/s] 62%|██████▏   | 748M/1.18G [00:02<00:01, 336MB/s] 65%|██████▍   | 780M/1.18G [00:02<00:01, 325MB/s] 67%|██████▋   | 811M/1.18G [00:02<00:01, 317MB/s] 70%|██████▉   | 841M/1.18G [00:02<00:01, 314MB/s] 73%|███████▎  | 875M/1.18G [00:02<00:01, 325MB/s] 75%|███████▌  | 906M/1.18G [00:03<00:00, 323MB/s] 78%|███████▊  | 937M/1.18G [00:03<00:01, 274MB/s] 80%|████████  | 964M/1.18G [00:03<00:00, 267MB/s] 82%|████████▏ | 991M/1.18G [00:03<00:00, 259MB/s] 84%|████████▍ | 0.99G/1.18G [00:03<00:00, 258MB/s] 87%|████████▋ | 1.02G/1.18G [00:03<00:00, 254MB/s] 89%|████████▊ | 1.04G/1.18G [00:03<00:00, 241MB/s] 91%|█████████ | 1.06G/1.18G [00:03<00:00, 243MB/s] 93%|█████████▎| 1.09G/1.18G [00:03<00:00, 252MB/s] 95%|█████████▌| 1.12G/1.18G [00:04<00:00, 268MB/s] 98%|█████████▊| 1.15G/1.18G [00:04<00:00, 276MB/s]100%|██████████| 1.18G/1.18G [00:04<00:00, 299MB/s]
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 41.1M/1.18G [00:00<00:02, 431MB/s]  8%|▊         | 100M/1.18G [00:00<00:02, 543MB/s]  13%|█▎        | 152M/1.18G [00:00<00:02, 542MB/s] 17%|█▋        | 204M/1.18G [00:00<00:02, 500MB/s] 21%|██        | 252M/1.18G [00:00<00:02, 477MB/s] 25%|██▍       | 298M/1.18G [00:00<00:02, 458MB/s] 29%|██▉       | 352M/1.18G [00:00<00:01, 491MB/s] 33%|███▎      | 399M/1.18G [00:00<00:01, 474MB/s] 37%|███▋      | 445M/1.18G [00:00<00:01, 469MB/s] 41%|████▏     | 497M/1.18G [00:01<00:01, 491MB/s] 46%|████▌     | 552M/1.18G [00:01<00:01, 517MB/s] 50%|█████     | 602M/1.18G [00:01<00:01, 514MB/s] 54%|█████▍    | 651M/1.18G [00:01<00:01, 512MB/s] 58%|█████▊    | 700M/1.18G [00:01<00:01, 510MB/s] 62%|██████▏   | 749M/1.18G [00:01<00:00, 501MB/s] 66%|██████▋   | 799M/1.18G [00:01<00:00, 507MB/s] 71%|███████   | 850M/1.18G [00:01<00:00, 517MB/s] 75%|███████▌  | 903M/1.18G [00:01<00:00, 527MB/s] 79%|███████▉  | 954M/1.18G [00:01<00:00, 530MB/s] 84%|████████▎ | 0.98G/1.18G [00:02<00:00, 532MB/s] 88%|████████▊ | 1.04G/1.18G [00:02<00:00, 554MB/s] 93%|█████████▎| 1.09G/1.18G [00:02<00:00, 553MB/s] 97%|█████████▋| 1.14G/1.18G [00:02<00:00, 548MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 515MB/s]
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
   self.gen = func(*args, **kwds)
 phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-json f962a1bd63eb
-   take 1: score -0.58  wer 0.00  end +0.0st  3.1w/s  heard: A hacker stole $600 million, then he gave it back.
-   take 2: score -1.52  wer 0.00  end +0.0st  3.2w/s  rushed ['hacker']  heard: A hacker stole $600 million, then he gave it back.
-   take 3: score -0.79  wer 0.00  end +0.0st  3.2w/s  heard: A hacker stole $600 million, then he gave it back.
-scene 1: 3.88s ex 0.9  chosen wer 0.00
-   take 1: score -2.53  wer 0.00  end +0.0st  4.0w/s  heard: and the company offered him a job.
-   take 2: score -3.24  wer 0.00  end +0.0st  3.6w/s  rushed ['company', 'offered']  heard: and the company offered him a job.
-   take 3: score -0.91  wer 0.00  end +0.0st  3.2w/s  heard: and the company offered him a job.
-scene 2: 2.15s ex 0.9  chosen wer 0.00
-   take 1: score +0.45  wer 0.10  end -11.6st  2.4w/s  rushed ['Network']  heard: August 2021, Polling Network moved crypto between blockchains.
-   take 2: score +1.23  wer 0.10  end -2.5st  2.3w/s  heard: August 2021, Poly Network move crypto between blockchains.
-   take 3: score +1.79  wer 0.00  end -1.3st  2.3w/s  heard: August 2021, Poly Network moved crypto between blockchains.
-scene 3: 3.99s ex 0.64  chosen wer 0.00
-   take 1: score -3.12  wer 0.00  end +0.0st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.
-   take 2: score -1.00  wer 0.00  end -3.4st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.
-   take 3: score -1.01  wer 0.00  end -6.2st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.  
-   take 4: score -1.12  wer 0.00  end -6.0st  3.9w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his own wallets.
-scene 4: 3.89s ex 0.64  chosen wer 0.00
-   take 1: score -0.28  wer 0.00  end +0.0st  2.1w/s  heard: over 610 million dollars. The biggest DeFi hack at the time.
-   take 2: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: Over $610 million. The biggest DeFi hack at the time.
-   take 3: score +1.95  wer 0.00  end -8.8st  2.5w/s  heard: Over $610 million, the biggest DeFi hack at the time.
-   phonetic variant: Over six hundred ten million dollars. The biggest dee-fy hack at the time.
-   take P1: score -0.07  wer 0.00  2.5w/s  heard: Over $610 million, the biggest DeFi hack at the time.
-scene 5: 5.15s ex 0.72  chosen wer 0.00
-   take 1: score -1.58  wer 0.23  end +0.0st  2.3w/s  heard: Tetherfroze 33 million of it.
-   take 2: score -1.23  wer 0.07  end +0.0st  2.6w/s  rushed ['million']  heard: Tether froze $33 million of it.
-   take 3: score -2.22  wer 0.29  end +0.0st  1.8w/s  heard: Tetherfroze $33 million of it.
-   take 4: score -1.78  wer 0.29  end +0.0st  2.7w/s  heard: Tetherfros $33 million of it.
-scene 6: 2.35s ex 0.72  chosen wer 0.07
-   take 1: score -4.05  wer 0.00  end +0.1st  4.0w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
-   take 2: score -3.50  wer 0.00  end +0.0st  3.7w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
-   take 3: score -3.35  wer 0.00  end +0.0st  3.6w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
-   take 4: score -2.06  wer 0.00  end +1.7st  3.4w/s  rushed ['hacker']  heard: Then the hacker started sending it back.
-scene 7: 2.09s ex 0.84  chosen wer 0.00
-   take 1: score -2.13  wer 0.00  end +0.0st  3.1w/s  rushed ['called', 'security.']  heard: In a message inside a transaction, he called it his effort to help the
-   take 2: score -0.49  wer 0.00  end +0.0st  3.0w/s  heard: In a message inside a transaction, he called it his effort to help the
-   take 3: score -2.76  wer 0.00  end +0.0st  3.4w/s  rushed ['called', 'security.']  heard: In a message inside a transaction, he called it his effort to help the
-   take 4: score -0.40  wer 0.00  end +0.0st  3.0w/s  heard: In a message inside a transaction, he called it his effort to help the
-scene 8: 4.99s ex 0.72  chosen wer 0.00
-   take 1: score -1.05  wer 0.00  end +0.0st  2.9w/s  rushed ['Network']  heard: Poly Network nicknamed him Mr. White Hat.
-   take 2: score -1.11  wer 0.14  end +0.0st  2.2w/s  heard: Polly Network nicknamed him Mr. White Hat.
-   take 3: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Network']  heard: Poly Network nicknamed him Mr. White Hat.
-   take 4: score -0.88  wer 0.14  end +0.0st  2.6w/s  heard: Polly Network nicknamed him, Mr. White Hat.
+json 21fb686b77bc
+   take 1: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: A hacker stole $600 million, then he gave it back.
+   take 2: score -1.66  wer 0.04  end +0.0st  3.1w/s  rushed ['hacker']  heard: A hacker stole $600 million dollars, then he gave it back.
+   take 3: score -0.58  wer 0.00  end +0.0st  3.1w/s  heard: a hacker stole $600 million. Then he gave it back.
+scene 1: 4.59s ex 0.95  chosen wer 0.00
+   take 1: score -4.21  wer 0.00  end +0.0st  4.1w/s  rushed ['company', 'offered']  heard: and the company offered him a job.
+   take 2: score -2.39  wer 0.00  end +0.0st  3.6w/s  rushed ['company']  heard: and the company offered him a job.
+   take 3: score -0.60  wer 0.07  end +0.0st  2.3w/s  heard: and the company offered him a job.  My!
+   take 4: score -2.08  wer 0.00  end +0.0st  3.8w/s  heard: and the company offered him a job.
+scene 2: 1.84s ex 0.95  chosen wer 0.00
+   take 1: score -2.38  wer 0.09  end +16.1st  1.7w/s  heard: August 2021, Poly Network moved crypto between blockchains. US
+   take 2: score -0.10  wer 0.20  end -9.6st  2.4w/s  rushed ['Network']  heard: August 2021, Polling Network move crypto between blockchains.
+   take 3: score -0.47  wer 0.00  end +0.0st  1.8w/s  heard: August 2021, Poly Network, moved crypto between blockchains.
+scene 3: 4.96s ex 0.88  chosen wer 0.00
+   take 1: score -4.14  wer 0.00  end +0.0st  4.0w/s  rushed ['hacker', 'wallets.']  heard: One bug in its code, let a hacker move the money to his wallets.
+   take 2: score -2.32  wer 0.00  end +0.3st  3.5w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his wallets.
+   take 3: score -0.65  wer 0.00  end -4.0st  3.7w/s  rushed ['hacker']  heard: One bug in its code, let a hacker move the money to his wallets.
+   take 4: score -1.41  wer 0.00  end -5.6st  3.7w/s  rushed ['hacker', 'wallets.']  heard: One bug in its code, let a hacker move the money to his wallets.
+scene 4: 3.79s ex 0.88  chosen wer 0.00
+   take 1: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: over $610 million, the biggest DeFi hack at the time.
+   take 2: score +1.96  wer 0.00  end -6.4st  2.5w/s  heard: Over $610 million, the biggest DeFi hack at the time.
+   phonetic variant: Over six hundred ten million dollars. The biggest dee-fie hack at the time.
+   take P1: score -0.04  wer 0.00  2.7w/s  heard: Over $610 million, the biggest DeFi hack at the time.  //
+scene 5: 5.14s ex 0.88  chosen wer 0.00
+   take 1: score -1.81  wer 0.23  end +0.0st  1.9w/s  heard: Tetherfros, 33 million of it.
+   take 2: score -0.92  wer 0.07  end +0.0st  1.7w/s  heard: Tether froze, 33 million of it. I
+   take 3: score -2.07  wer 0.29  end +0.0st  2.0w/s  heard: Tetherfros $33 million of it.
+   take 4: score -1.80  wer 0.29  end +0.0st  2.5w/s  heard: Tetherfro's 33 million of it.
+scene 6: 3.45s ex 0.88  chosen wer 0.07
+   take 1: score -3.04  wer 0.00  end +0.0st  3.5w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
+   take 2: score -1.59  wer 0.00  end +0.0st  3.2w/s  rushed ['hacker']  heard: Then the hacker started sending it back.
+   take 3: score -1.49  wer 0.00  end +0.0st  3.1w/s  rushed ['hacker']  heard: Then the hacker started sending it back.
+   take 4: score -3.06  wer 0.00  end +0.0st  3.5w/s  rushed ['hacker', 'sending']  heard: Then the hacker started sending it back.
+scene 7: 2.23s ex 0.95  chosen wer 0.00
+   take 1: score -1.98  wer 0.00  end +0.0st  3.0w/s  rushed ['transaction,', 'called']  heard: Inside a transaction, he called it his effort to help their security.
+   take 2: score -0.86  wer 0.00  end +0.0st  2.7w/s  rushed ['called']  heard: Inside a transaction, he called it his effort to help their security.
+   take 3: score -1.16  wer 0.00  end +0.0st  3.0w/s  rushed ['called']  heard: Inside a transaction, he called it his effort to help their security.
+   take 4: score -1.40  wer 0.00  end +5.5st  2.9w/s  rushed ['called']  heard: Inside a transaction, he called it his effort to help their security.
+scene 8: 4.43s ex 0.88  chosen wer 0.00
+   take 1: score -0.15  wer 0.00  end +0.0st  2.4w/s  heard: Poly Network nicknamed him Mr. White Hat.
+   take 2: score -0.90  wer 0.14  end +0.0st  2.5w/s  heard: Polly Network nicknamed him Mr. White Hat.
+   take 3: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: Poly Network nicknamed him Mr. White Hat.
    phonetic variant: Poly Network nicknamed him miss-ter White Hat.
-   take P1: score -2.30  wer 0.33  2.1w/s  heard: Polling network nicknamed him, Miss Tur White Hat.
-   take P2: score -1.32  wer 0.20  2.4w/s  heard: Poly Network nicknamed him, Miss Tur White Hat.
-   take P3: score -1.63  wer 0.23  2.2w/s  heard: Poly Network nicknamed him Mr. Whitehat.
-scene 9: 2.83s ex 0.72  chosen wer 0.00
-   take 1: score +1.18  wer 0.00  end -4.3st  2.6w/s  rushed ['offered']  heard: They offered him a $500,000 bounty.
-   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['offered']  heard: They offered him a $500,000 bounty.
-   take 3: score +0.21  wer 0.00  end -4.3st  3.3w/s  rushed ['offered']  heard: They offered him a $500,000 bounty.
-   take 4: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: They offered him a $500,000 bounty.
-scene 10: 3.52s ex 0.86  chosen wer 0.00
-   take 1: score +1.97  wer 0.00  end -1.4st  2.5w/s  heard: and a job, Chief Security Advisor.
-scene 11: 2.36s ex 0.86  chosen wer 0.00
-   take 1: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
-   take 2: score -1.02  wer 0.00  end +0.0st  2.9w/s  rushed ['needed']  heard: Over 200 million stayed locked, it needed his key and theirs.
-   take 3: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
-   take 4: score -0.92  wer 0.00  end +0.0st  2.8w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
-scene 12: 4.88s ex 0.72  chosen wer 0.00
-   take 1: score +1.85  wer 0.00  end -10.8st  2.9w/s  heard: On August 23rd, he handed over the final key.
-scene 13: 3.15s ex 0.86  chosen wer 0.00
-   take 1: score -0.19  wer 0.00  end +0.0st  2.0w/s  heard: Hero or Thief?
-   take 2: score -0.33  wer 0.00  end +0.0st  1.8w/s  heard: Hero or Thief?
-   take 3: score -0.16  wer 0.00  end +0.0st  2.1w/s  heard: Hero or Thief.
-scene 14: 1.44s ex 0.6 END  chosen wer 0.00
-   take 1: score -0.43  wer 0.00  end +0.0st  1.9w/s  heard: Subscribe for more stories.
-   take 2: score -0.34  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
-   take 3: score -0.19  wer 0.00  end +0.0st  2.3w/s  heard: Subscribe for more stories.
-scene 15: 1.75s ex 0.62  chosen wer 0.00
+   take P1: score -2.45  wer 0.38  2.3w/s  heard: D, Pally Network nicknamed him, Missed Her White Hat.
+   take P2: score -0.21  wer 0.00  2.2w/s  heard: Poly Network nicknamed him Mr. White Hat.
+scene 9: 2.97s ex 0.88  chosen wer 0.00
+   take 1: score +1.49  wer 0.05  end -2.1st  2.3w/s  heard: Jack. They offered him a $500,000 bounty.
+   take 2: score +0.68  wer 0.11  end -6.6st  3.1w/s  heard: They offer him a $500,000 bounty.
+   take 3: score -0.38  wer 0.00  end +1.8st  2.2w/s  heard: They offered him a $500,000 bounty.
+scene 10: 4.07s ex 0.95  chosen wer 0.00
+   take 1: score +1.96  wer 0.00  end -3.5st  2.5w/s  heard: and a job Chief Security Advisor.
+scene 11: 2.36s ex 0.95  chosen wer 0.00
+   take 1: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['needed']  heard: Over 200 million stayed locked. It needed his key and theirs.
+   take 2: score -0.21  wer 0.00  end +0.0st  2.3w/s  heard: Over 200 million stayed locked. It needed his key and theirs.
+   take 3: score +0.05  wer 0.17  end -5.0st  2.3w/s  rushed ['needed']  heard: Over 200 million stay blocked. It needed his key and theirs.
+   take 4: score -1.36  wer 0.08  end +0.0st  2.7w/s  rushed ['needed']  heard: Over 200 million state locked. It needed his key and theirs.
+scene 12: 5.31s ex 0.88  chosen wer 0.00
+   take 1: score -0.17  wer 0.00  end +0.0st  2.9w/s  heard: On August 23rd, he handed over the final key.
+   take 2: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['handed']  heard: On August 23rd, he handed over the final key.
+   take 3: score -0.22  wer 0.00  end +0.0st  2.9w/s  heard: On August 23rd, he handed over the final key.
+scene 13: 3.12s ex 0.95  chosen wer 0.00
+   take 1: score -0.36  wer 0.00  end +0.0st  1.8w/s  heard: Hero or Thief
+   take 2: score -0.19  wer 0.00  end +0.0st  2.0w/s  heard: hero or thief.
+   take 3: score -0.12  wer 0.00  end +0.0st  2.2w/s  heard: hero or thief
+scene 14: 1.39s ex 0.83 END  chosen wer 0.00
+   take 1: score -0.46  wer 0.00  end +0.0st  1.8w/s  heard: Subscribe for more stories.
+   take 2: score +1.15  wer 0.00  end -6.4st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 3: score -0.21  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+scene 15: 1.59s ex 0.88  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-53.02s, force-aligned 134 words (snapped to the voice)
+55.85s, force-aligned 130 words (snapped to the voice)
 takes kept whole (no sentence re-cut) -> jobs/t3700070/voicep.wav
-flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.79, 0.72, 0.78, 0.69, 0.63, 0.65, 0.81, 0.56, 0.6, 0.7, 0.74, 0.61, 0.71, 0.97]
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.8, 0.68, 0.72, 0.72, 0.75, 1.31, 0.88, 0.62, 0.68, 0.67, 0.79, 0.61, 0.67, 0.95]
