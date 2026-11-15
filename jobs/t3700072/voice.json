@@ -1,0 +1,97 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.25,
+ "seed": 7,
+ "scenes": [
+  [
+   "Bitcoin's biggest exchange started as a card game website.",
+   0.95,
+   0.36
+  ],
+  [
+   "And it lost eight hundred fifty thousand Bitcoin.",
+   0.95,
+   0.36
+  ],
+  [
+   "Mount Gox meant Magic: The Gathering Online eXchange.",
+   0.88,
+   0.22
+  ],
+  [
+   "Jed McCaleb made it to trade game cards.",
+   0.88,
+   0.22
+  ],
+  [
+   "In twenty ten, he turned it into a Bitcoin exchange.",
+   0.88,
+   0.22
+  ],
+  [
+   "In March twenty eleven, he sold it to Mark Kar-puh-less.",
+   0.88,
+   0.22
+  ],
+  [
+   "By twenty thirteen, it handled over seventy percent of all Bitcoin transactions.",
+   0.95,
+   0.28
+  ],
+  [
+   "In February twenty fourteen, trading stopped.",
+   0.95,
+   0.36
+  ],
+  [
+   "Eight hundred fifty thousand Bitcoin were missing.",
+   0.95,
+   0.36
+  ],
+  [
+   "Kar-puh-less was arrested in twenty fifteen.",
+   0.88,
+   0.22
+  ],
+  [
+   "Trust or run?",
+   0.83,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.88,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  "In March twenty eleven, he sold it to Mark Karpel\u00e8s.",
+  null,
+  null,
+  null,
+  "Karpel\u00e8s was arrested in twenty fifteen.",
+  null,
+  null
+ ],
+ "check": [
+  "Bitcoin's biggest exchange started as a card game website.",
+  "And it lost eight hundred fifty thousand Bitcoin.",
+  "Mount Gox meant Magic: The Gathering Online eXchange.",
+  "Jed McCaleb made it to trade game cards.",
+  "In twenty ten, he turned it into a Bitcoin exchange.",
+  "In March twenty eleven, he sold it to Mark Karpel\u00e8s.",
+  "By twenty thirteen, it handled over seventy percent of all Bitcoin transactions.",
+  "In February twenty fourteen, trading stopped.",
+  "Eight hundred fifty thousand Bitcoin were missing.",
+  "Karpel\u00e8s was arrested in twenty fifteen.",
+  "Trust or run?",
+  "Subscribe for more stories."
+ ]
+}

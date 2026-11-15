@@ -1,14 +1,13 @@
 {
- "title": "Bitcoin’s Biggest Exchange Started as a Card Game Site 🃏 #Shorts",
+ "title": "Bitcoin\u2019s Biggest Exchange Started as a Card Game Site \ud83c\udccf #Shorts",
  "tone": "mystery",
  "theme": "crimson",
- "description": "Mt. Gox stood for \"Magic: The Gathering Online eXchange\" - Jed McCaleb built it for trading game cards.\nIn 2010 he turned it into a Bitcoin exchange, and in March 2011 he sold it to Mark Karpelès.\nBy 2013 it handled over 70% of all Bitcoin transactions. In February 2014 trading stopped - about 850,000 Bitcoin were missing, worth around $450 million at the time. Karpelès was arrested in 2015.\n\nWould you have trusted it? 👇\n\nNot financial advice. Entertainment and education only.",
+ "description": "Mt. Gox stood for \"Magic: The Gathering Online eXchange\" - Jed McCaleb built it for trading game cards.\nIn 2010 he turned it into a Bitcoin exchange, and in March 2011 he sold it to Mark Karpel\u00e8s.\nBy 2013 it handled over 70% of all Bitcoin transactions. In February 2014 trading stopped - about 850,000 Bitcoin were missing, worth around $450 million at the time. Karpel\u00e8s was arrested in 2015.\n\nWould you have trusted it? \ud83d\udc47\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Shorts #bitcoin #mtgox #crypto #cryptohistory",
- "pinned": "Would you have kept your Bitcoin on Mt. Gox? 👇",
+ "pinned": "Would you have kept your Bitcoin on Mt. Gox? \ud83d\udc47",
  "respell": {
   "Mt.": "Mount",
-  "Karpelès": "Kar-puh-less",
-  "eXchange": "exchange"
+  "Karpel\u00e8s": "Kar-puh-less"
  },
  "scenes": [
   {
@@ -85,7 +84,6 @@
   },
   {
    "role": "turn",
-   "emotion": "excited",
    "line": "In 2010, he turned it into a Bitcoin exchange.",
    "hit": "exchange",
    "visual": {
@@ -107,24 +105,22 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
-   "line": "In March 2011, he sold it to Mark Karpelès.",
+   "line": "In March 2011, he sold it to Mark Karpel\u00e8s.",
    "hit": "sold",
    "visual": {
     "type": "person",
-    "name": "MARK KARPELÈS",
-    "role": "NEW OWNER · 2011",
+    "name": "MARK KARPEL\u00c8S",
+    "role": "NEW OWNER \u00b7 2011",
     "prop": "laptop"
    },
    "beats": [],
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "MARCH 2011 · NEW OWNER"
+   "fact": "MARCH 2011 \u00b7 NEW OWNER"
   },
   {
    "role": "payoff",
-   "emotion": "excited",
    "line": "By 2013, it handled over seventy percent of all Bitcoin transactions.",
    "hit": "seventy",
    "visual": {
@@ -194,13 +190,12 @@
   },
   {
    "role": "turn",
-   "emotion": "serious",
-   "line": "Karpelès was arrested in 2015.",
+   "line": "Karpel\u00e8s was arrested in 2015.",
    "hit": "arrested",
    "visual": {
     "type": "stamp",
     "word": "ARRESTED",
-    "label": "AUGUST 2015 · JAPAN",
+    "label": "AUGUST 2015 \u00b7 JAPAN",
     "icon": "officer",
     "bad": true
    },
@@ -208,7 +203,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "MARK KARPELÈS"
+   "fact": "MARK KARPEL\u00c8S"
   },
   {
    "role": "end",
@@ -235,7 +230,7 @@
  ],
  "chart": {},
  "lesson": "",
- "length": 55,
+ "length": 60,
  "settings": {
   "length": 55,
   "style": "graphics",
@@ -248,5 +243,10 @@
   "captions": "key",
   "music": "off",
   "whoosh": "off"
- }
+ },
+ "est_secs": 39,
+ "words": 87,
+ "target_words": 140,
+ "length_ok": false,
+ "length_msg": "script is about 0:39, a 1:00 Short needs 0:56 to 1:05 (87 spoken words, need 131 to 152)"
 }
