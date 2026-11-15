@@ -4,9 +4,6 @@
 },
 "init": true,
 "log": [
-1794674445.099652,
-1794675217.9490125,
-1794679255.9109344,
 1794691202.5110612,
 1794691509.9457684,
 1794695644.2007895,
@@ -33,20 +30,6 @@
 "tgtext": "",
 "title": "Kava Lend Exploit: Why KAVA Crashed 48% Despite Team\u2019s Safety Claim",
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdzZLYWtTUS1NZzlSSnBsMnRLallBQmF5ZkpOc2hxUG5nY0pZT0R1X1pKQU8tX0xGQUhob29VU3lxREpPanZfOTNFN3JpLTFIMHJONF9HVUVLNVNURjBrOVBXM0NvZkx5MW9XVm5WSTVmWnJraVVWU0lDdW9hd0FuemV3Qkx5OFVOZEhYdU9PLVV3S1Vy?oc=5",
-"urls": []
-},
-"001b550e4687": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Watcher.Guru"
-],
-"t": 1794603764.3015058,
-"t0": 1794582371.0,
-"tgtext": "JUST IN: OpenAI launches ChatGPT Wallet, allowing its AI agents to buy things for users.\n\n@WatcherGuru\n\ud83d\udd25 NEW: OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
-"title": "OpenAI launches ChatGPT Wallet, allowing its \u201cdots\u201d AI agents to make purchases for users.",
-"url": "https://t.me/cointelegraph/73262",
 "urls": []
 },
 "0160fce21d46": {
@@ -420,6 +403,19 @@
 "url": "https://t.me/WatcherGuru/16025",
 "urls": []
 },
+"1dd2d736e057": {
+"coin": "",
+"src": "WOWT",
+"srcs": [
+"WOWT"
+],
+"t": 1794776657.8896964,
+"t0": 1794774060.0,
+"tgtext": "",
+"title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance",
+"url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ0xYbGZyNmZ3TGh2azdrLUYxTkRQYjZrMXpZVmJSaHV2Q2tvWV8ycmRib2xYbWRQVTJ3eFpMNGZ4d3pIZzJWcDZtU3NORWl6UjU1Ml9pY3hieVZRdlFaYlg4bV9fZm1uVnNxSUhSbHRUWHVpYk1Hbk5ZdDQxY2pKXzAzOUcydEptUmw2QVJPMURWU0VXYXNzWjc5NUVZbGQ0RTV0bA?oc=5",
+"urls": []
+},
 "1f5fa4690ae1": {
 "coin": "",
 "src": "The Daily Hodl",
@@ -428,7 +424,7 @@
 "MLQ.ai",
 "The Daily Hodl"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794756600.0,
 "tgtext": "",
 "title": "US Moves To Seize Or Restrain Over $1,200,000,000 Stolen in Binance Hack, Shuts Down North Korea-Linked FaceStealer Scam That Took $400,000,000",
@@ -688,21 +684,6 @@
 "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304"
 ]
 },
-"3877222cae09": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"CryptoTicker.io",
-"FinanceFeeds"
-],
-"t": 1794603455.5219712,
-"t0": 1794582294.0,
-"tgtext": "",
-"title": "Bitcoin Slides to $69,263 as DOJ Seeks $1.2 Billion in Binance Hack Funds and Visa Adds Stablecoin Settlement",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yVHhadXpaUllUaFBKM0dodnVxX29yYTVJM1EzMEhycWtOMFgxNk1SZ1JPNEhKZnVqQ0gyOC1sdlYyOS1Ja0M4M2pEajlDRXRjZWFFb3QxaXc5cktoS1NvazhDWFd5dF9pRmpnc1dJZzlaVmlPRlE?oc=5",
-"urls": []
-},
 "39218d053367": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -720,10 +701,9 @@
 "coin": "bitcoin",
 "src": "24/7 Wall St.",
 "srcs": [
-"24/7 Wall St.",
-"Yahoo Finance"
+"24/7 Wall St."
 ],
-"t": 1794767258.3327823,
+"t": 1794776657.8896964,
 "t0": 1794763680.0,
 "tgtext": "",
 "title": "Michael Saylor's Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
@@ -961,7 +941,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794755274.0,
 "tgtext": "",
 "title": "$1.9 BILLION CRYPTO LIQUIDATION! WHY DID THE MARKET CRASH SO HARD? \ud83d\udea8",
@@ -1355,7 +1335,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794760988.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigating whether Nvidia $NVDA illegally sold restricted AI chips to China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US investigating whether Nvidia NVDA illegally sold restricted AI chips to China.",
@@ -2066,7 +2046,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794758542.0,
 "tgtext": "JUST IN: Elon Musk calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n@WatcherGuru\nJUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru",
 "title": "Elon Musk calls for Nvidia NVDA to reinstate Jensen Huang as CEO.",
@@ -2151,7 +2131,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794755674.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says Nvidia $NVDA needs to look outside the company for its next CEO following chip export-spying scandal.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.\n\nHe's giving the board 10 days to respond on export compliance.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 Treasury Secretary Bessent says Nvidia NVDA needs to look outside the company for its next CEO following chip export-spying scandal.",
@@ -2257,7 +2237,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794765218.0,
 "tgtext": "\ud83d\udd25 NEW: Strive CEO Matt Cole says $BTC is cheap and the company wants to keep stacking, with 43,153 BTC worth about $2.84B already on the books.\n\nNews | Markets | YouTube",
 "title": "Strive CEO Matt Cole says BTC is cheap and the company wants to keep stacking, with 43,153 BTC worth about $2.84B already on the books.",
@@ -2509,7 +2489,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794760143.0,
 "tgtext": "JUST IN: Binance founder CZ says Binance has not sold any crypto and he recently bought more.\n\n\"Mid-long term, crypto will grow.\"\n\n@WatcherGuru\nCZ: Binance Did Not Sell Crypto, I Bought Crypto Recently and Expect Continued Growth Over the Medium to Long Term\n\nBinance founder CZ said the exact reasons for the recent crypto market decline remain unclear, citing several potential factors: capital shifting toward Anthropic\u2019s IPO; approximately $1.9 billion in net outflows from U.S. spot Bitcoin ETFs over seven trading sessions through November 13, alongside outflows from Ether ETFs; security concerns following the Binance hack, thefts from iPhone-linked crypto wallets, a Chrome exploit and a Microsoft outage; hotter-than-expected U.S. inflation fueling expectations of another Fed rate hike, with higher yields and a stronger dollar potentially weighing on risk assets; and concerns over potentially stricter U.S. crypto regulation following the midterm elections. CZ stressed that Binance had not sold crypto and said he had personally bought crypto in recent days after receiving some stablecoins. He added that he expects crypto to continue growing over the medium to long term. \u2014 link",
 "title": "CZ: Binance Did Not Sell Crypto, I Bought Crypto Recently and Expect Continued Growth Over the Medium to Long Term",
@@ -3028,7 +3008,7 @@
 "srcs": [
 "CEO Magazyn"
 ],
-"t": 1794775878.7311196,
+"t": 1794776657.8896964,
 "t0": 1794770191.0,
 "tgtext": "",
 "title": "Bitcoin Falls to $62,112 as Liquidations Near $2 Billion",
@@ -3175,51 +3155,51 @@
 }
 },
 "movers": {
-"aster-2": 1794686607.1492105,
+"aster-2": 1794776657.8896964,
 "bitway": 1794650597.9670339,
 "ethereum": 1794711791.1498003
 },
 "probs": {
-"1176b1f50cc2": 0.015,
-"1335de607e51": 0.006,
-"1420b83c19e7": 0.006,
-"1f5fa4690ae1": 0.256,
-"236055428721": 0.004,
-"27e2f1dfaef3": 0.01,
-"2b09ef4169b2": 0.019,
-"2b314648ad19": 0.035,
-"33baaf910bec": 0.005,
-"3adc1cebff01": 0.017,
-"428a7ff45464": 0.025,
-"4988252e4e74": 0.115,
-"529061e24df4": 0.015,
-"560911261b81": 0.006,
-"5782e86be479": 0.043,
-"5b1878b63df6": 0.012,
-"5b21b7ab665f": 0.01,
-"5d3579ab37d1": 0.013,
-"7038dcf07dd7": 0.221,
-"86cae10c3b89": 0.029,
-"8cfc682d9952": 0.032,
-"8e96a475db2b": 0.022,
-"8f5c2b9cfd55": 0.016,
+"1176b1f50cc2": 0.018,
+"1335de607e51": 0.007,
+"1420b83c19e7": 0.007,
+"16a609fc85b9": 0.017,
+"1dd2d736e057": 0.137,
+"1f5fa4690ae1": 0.291,
+"236055428721": 0.005,
+"274bc248b3f1": 0.029,
+"27e2f1dfaef3": 0.011,
+"2b09ef4169b2": 0.023,
+"2b314648ad19": 0.041,
+"33baaf910bec": 0.006,
+"3adc1cebff01": 0.08,
+"428a7ff45464": 0.03,
+"4988252e4e74": 0.134,
+"529061e24df4": 0.018,
+"560911261b81": 0.007,
+"5782e86be479": 0.051,
+"5b1878b63df6": 0.014,
+"5b21b7ab665f": 0.011,
+"5d3579ab37d1": 0.015,
+"86cae10c3b89": 0.035,
+"8cfc682d9952": 0.038,
+"8e96a475db2b": 0.026,
+"8f5c2b9cfd55": 0.019,
 "909d9ebaa697": 0.004,
-"985c408e41a3": 0.021,
-"9a3bdde7b0c9": 0.04,
-"a409bfe65946": 0.212,
-"a48d03d1a38f": 0.052,
-"a881503ef889": 0.006,
-"ab828351b8c3": 0.477,
-"ae20da576dcf": 0.02,
-"b2ac3b73aee7": 0.129,
-"bc24eea93566": 0.005,
-"c49858ac7e6b": 0.047,
-"d14186786396": 0.016,
-"d1963e270777": 0.866,
-"e50f60e3a5a6": 0.02,
-"f042c7a1c6c0": 0.048,
-"f59072e4d9f7": 0.13,
-"fc6cc189db5e": 0.067
+"985c408e41a3": 0.024,
+"9a3bdde7b0c9": 0.047,
+"a409bfe65946": 0.242,
+"a48d03d1a38f": 0.061,
+"ab828351b8c3": 0.52,
+"ae16357deea9": 0.012,
+"b2ac3b73aee7": 0.15,
+"bc24eea93566": 0.006,
+"c49858ac7e6b": 0.056,
+"d1963e270777": 0.885,
+"e50f60e3a5a6": 0.024,
+"f042c7a1c6c0": 0.057,
+"f59072e4d9f7": 0.151,
+"fc6cc189db5e": 0.078
 },
 "sent": [
 {
@@ -4316,64 +4296,64 @@
 "top": [
 [
 "d1963e270777",
-18,
-262,
+16,
+275,
 2
 ],
 [
 "ab828351b8c3",
 0,
-337,
+350,
 2
 ],
 [
 "1f5fa4690ae1",
-62,
-321,
+60,
+334,
 3
 ],
 [
 "7038dcf07dd7",
-1,
-248,
+0,
+261,
 1
 ],
 [
 "a409bfe65946",
-4,
-289,
+2,
+302,
 1
 ],
 [
 "f59072e4d9f7",
 40,
-95,
+108,
 1
 ],
 [
 "b2ac3b73aee7",
-25,
-178,
+24,
+191,
+1
+],
+[
+"1dd2d736e057",
+55,
+43,
 1
 ],
 [
 "4988252e4e74",
-29,
-343,
+27,
+356,
 1
 ],
 [
-"fc6cc189db5e",
-18,
-109,
-1
-],
-[
-"a48d03d1a38f",
-10,
-68,
+"3adc1cebff01",
+24,
+216,
 1
 ]
 ],
-"top_at": 1794775878.7311196
+"top_at": 1794776657.8896964
 }
