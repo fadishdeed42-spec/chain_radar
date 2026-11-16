@@ -4,16 +4,14 @@
 },
 "init": true,
 "log": [
-1794695644.2007895,
-1794705365.565912,
-1794706588.968395,
 1794726584.9629216,
 1794726889.5495121,
 1794727501.8972757,
 1794750811.2258296,
 1794753171.4754457,
 1794760206.2574134,
-1794778818.039827
+1794778818.039827,
+1794795867.7951882
 ],
 "menu": {
 "000f6ad45d27": {
@@ -604,7 +602,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794792635.0,
 "tgtext": "Trader 0xb98E sold 1,858 $ETH for 5.41M $USDC at $2,911 over 2 years ago.\n\nAfter more than 2 years of inactivity, he spent 5.41M $USDC to buy back 2,968 $ETH at a much lower price of $1,822 just 4 hours ago!\n\nhttps://arkm.com/explorer/address/0xb98E9e7a0ff948A901F1F9bD40eE379f3A22Aa03",
 "title": "Trader 0xb98E sold 1,858 ETH for 5.41M USDC at $2,911 over 2 years ago.",
@@ -822,21 +820,6 @@
 "tgtext": "",
 "title": "Binance Heist and DeFi Exploits Put Crypto Security Under Pressure",
 "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLV9XUXYyVHQyeUhhbllpcDlDd3JBZER2aDI3YTQtaWNMOGJCXzU2MVhXTk82TTBDX0VyLVdlS2VLUGxlNmxyamg5OF8tU0MxeDhmdlR3c2pUTlZtNHdFU0JORkl0ZFFpdmVyS3ZwNzFsMDRhSWRtcG4ySC1HUEdMNHhOcDU0T1ZDQTE4U1daNlVNT21rMmJIYg?oc=5",
-"urls": []
-},
-"444661dc4270": {
-"coin": "ethereum",
-"src": "StreetInsider",
-"srcs": [
-"KuCoin",
-"StreetInsider",
-"Yahoo Finance"
-],
-"t": 1794622827.761182,
-"t0": 1794601260.0,
-"tgtext": "",
-"title": "Ethereum Price Prediction: ETH Risks $1,500 After Nearly $250M in Liquidations While AlphaPepe Passes $3.39M Raised",
-"url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZUxhNkpSVDZwN3V0blhiNWpVV0F5NzJLdEhKZGJrMEtKWFlQLW9FSV80Qld4UmZkMFFGYklfSG9jS1RFNlc2Um9kZ0NpSkVWaXNEeDhZRmlfbWFrT2NveFN1ZjNfTkI3VWd2dWVIQkI1cVhNbGVqWGVnQnhMSFlHSlR6ektGVm1TalZhSWJuWjZhSHRQU1dlYUlfZ3RZVUpJMmJpeDUxaWpwcTJidnYyMW5CSENtcVI4a0RjY3FKc3FfaDUwMHo3VHhjY2p1WjR0TllZLWtzYTEzaU55UXl2U2FUcEQwR1RzazlwRFpqS1JQbTVuWlJnRDdrUVVzeHotQklGUG1aeF90dmJhbzU4b2JGTQ?oc=5",
 "urls": []
 },
 "45053165f2a4": {
@@ -1108,7 +1091,7 @@
 "Kriptofoni",
 "TradingKey"
 ],
-"t": 1794795256.7754989,
+"t": 1794795563.193136,
 "t0": 1794774240.0,
 "tgtext": "",
 "title": "Bitcoin Hits Highest Level Since 2021: Critical Liquidation Indicator Reaches 23.6%",
@@ -1121,7 +1104,7 @@
 "srcs": [
 "grafa.com"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794791925.0,
 "tgtext": "",
 "title": "Kava Lend exploit drains $3.8 million in KAVA",
@@ -1227,6 +1210,19 @@
 "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjhqSTZOa1hpNE5HdFNqM3NuNlhPa3hnM1JwMGZmdUZ3SHJxa1F6SmFNYnRKZm1vTU9EdTNHR0M3WlhnMHMybFIybG9LVmdEeVkzakRFbXhwVW9TbVdhTmw3RDVCdFN5eGJJN3hUbmVkT1RyUnVqTDhPdFUtbzRGWnhXcmJPYXNiUE9CY0w0RlQ3dFZ2RXBxeVBIbzJOZkhIN1E?oc=5",
 "urls": []
 },
+"63fe37a7dbd6": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794795867.7951882,
+"t0": 1794795594.0,
+"tgtext": "Bitcoin short-term holder whales face nearly $8B in unrealized losses, a record high\n\nDarkfost data shows short-term holder whales that heavily accumulated BTC over the past 155 days are now sitting on almost $8 billion in unrealized losses. Despite BTC\u2019s ~30% drop since October, exchange inflows show no panic: Binance\u2019s monthly average rose from ~1,200 to 2,100 BTC, with over 9,000 BTC on Nov 3 alone\u2014still below June and February peaks. The figures may include Binance hack-related transfers or UTXO consolidations. \u2014 link",
+"title": "Bitcoin short-term holder whales face nearly $8B in unrealized losses, a record high",
+"url": "https://t.me/wublockchainenglish/26837",
+"urls": []
+},
 "64356914687a": {
 "coin": "",
 "src": "Lookonchain",
@@ -1244,9 +1240,10 @@
 "coin": "bitcoin",
 "src": "Cryptonews.net",
 "srcs": [
-"Cryptonews.net"
+"Cryptonews.net",
+"TradingKey"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794778856.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction This Week: Will BTC Crash to $60K or Rally to $70K?",
@@ -1489,7 +1486,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794791792.0,
 "tgtext": "",
 "title": "Aster CEO probes ASTER token swings linked to targeted liquidations",
@@ -1515,10 +1512,11 @@
 "src": "investingLive",
 "srcs": [
 "The Block",
+"The Edge Malaysia",
 "investingLive",
 "www.blockhead.co"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "Weekend - Bitcoin fell to four-month low near $62,000 as crypto liquidations top $2 billion",
@@ -2370,7 +2368,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2410,7 +2408,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794789753.0,
 "tgtext": "\ud83d\udea8 TODAY: Coinbase CEO Brian Armstrong says the biggest benefit of tokenized equities isn\u2019t 24/7 markets, but access for billions who can\u2019t buy stocks today and better yield onchain.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong says the biggest benefit of tokenized equities isn\u2019t 24/7 markets, but access for billions who can\u2019t buy stocks today and better yield onchain.",
@@ -2512,7 +2510,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794785493.0,
 "tgtext": "\ud83d\udea8 REKT: We just saw another $1.23B in long liquidations in just 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: We just saw another $1.23B in long liquidations in just 24 hours.",
@@ -2696,7 +2694,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794795256.7754989,
+"t": 1794795867.7951882,
 "t0": 1794793481.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 7,936 $ETH($14.47M) at $1,823!\n\nOver the past 5 days, these wallets have bought a total of 71,475 $ETH ($139.74M) at an average price of $1,955 and are now sitting on $10M+ in unrealized losses.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a",
 "title": "The Erik Voorhees-linked wallets bought another 7,936 ETH($14.47M) at $1,823!",
@@ -3209,24 +3207,25 @@
 "36b999fcc1e8": 0.051,
 "391582780d9a": 0.062,
 "4c123b24e99e": 0.025,
-"554c4556d608": 0.182,
 "5574706bded1": 0.247,
 "560911261b81": 0.014,
 "5b1878b63df6": 0.034,
-"65a0cf002ffb": 0.249,
+"63fe37a7dbd6": 0.954,
+"65a0cf002ffb": 0.163,
 "66ab2c100a80": 0.006,
 "7a21804fdca3": 0.072,
 "7be08416c990": 0.182,
-"7de4df3021ac": 0.763,
+"7de4df3021ac": 0.751,
 "93ec1255cb7f": 0.017,
+"a2c458ececcf": 0.044,
 "bf1facc3bbac": 0.099,
-"c107e7b11d7b": 0.626,
+"c107e7b11d7b": 0.865,
 "c82a621df257": 0.247,
 "d2033ba38fac": 0.342,
 "d7057f51401f": 0.075,
 "dce60ae1a616": 0.05,
 "dd8f84fb9d74": 0.089,
-"e06349f23dae": 0.914,
+"e06349f23dae": 0.885,
 "e446943bbda4": 0.052,
 "ee7386f81886": 0.098,
 "f042c7a1c6c0": 0.133,
@@ -4243,71 +4242,95 @@
 "past",
 "sell"
 ]
+},
+{
+"e": [],
+"k": [
+"record"
+],
+"t": 1794795867.7951882,
+"u": [
+"https://t.me/wublockchainenglish/26837"
+],
+"w": [
+"$8b",
+"bitcoin",
+"face",
+"high",
+"holder",
+"losses",
+"nearly",
+"record",
+"short",
+"term",
+"unrealized",
+"whales"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"e06349f23dae",
-16,
-30,
+"63fe37a7dbd6",
+45,
+5,
 1
 ],
 [
-"7de4df3021ac",
-58,
-257,
-3
-],
-[
-"32a836237ff4",
-10,
-44,
+"e06349f23dae",
+16,
+40,
 1
 ],
 [
 "c107e7b11d7b",
-5,
-280,
+4,
+290,
+1
+],
+[
+"7de4df3021ac",
+74,
+267,
+4
+],
+[
+"32a836237ff4",
+10,
+54,
 1
 ],
 [
 "d2033ba38fac",
 40,
-163,
-1
-],
-[
-"65a0cf002ffb",
-8,
-273,
+173,
 1
 ],
 [
 "5574706bded1",
 41,
-56,
+66,
 1
 ],
 [
 "c82a621df257",
 18,
-92,
+102,
 1
-],
-[
-"554c4556d608",
-23,
-350,
-2
 ],
 [
 "7be08416c990",
 25,
-58,
+68,
 1
+],
+[
+"65a0cf002ffb",
+17,
+284,
+2
 ]
 ],
-"top_at": 1794795256.7754989
+"top_at": 1794795867.7951882
 }
