@@ -7,66 +7,63 @@ loaded PerthNet (Implicit) at step 250,000
 `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  4%|▎         | 45.1M/1.18G [00:00<00:02, 472MB/s]  7%|▋         | 90.1M/1.18G [00:00<00:02, 411MB/s] 11%|█         | 134M/1.18G [00:00<00:02, 431MB/s]  15%|█▌        | 182M/1.18G [00:00<00:02, 459MB/s] 20%|██        | 241M/1.18G [00:00<00:01, 514MB/s] 25%|██▍       | 301M/1.18G [00:00<00:01, 551MB/s] 29%|██▉       | 354M/1.18G [00:00<00:01, 554MB/s] 34%|███▍      | 408M/1.18G [00:00<00:01, 552MB/s] 38%|███▊      | 460M/1.18G [00:00<00:01, 547MB/s] 43%|████▎     | 513M/1.18G [00:01<00:01, 519MB/s] 47%|████▋     | 571M/1.18G [00:01<00:01, 544MB/s] 52%|█████▏    | 626M/1.18G [00:01<00:01, 553MB/s] 56%|█████▋    | 679M/1.18G [00:01<00:01, 533MB/s] 61%|██████    | 732M/1.18G [00:01<00:00, 541MB/s] 65%|██████▌   | 784M/1.18G [00:01<00:00, 530MB/s] 70%|██████▉   | 839M/1.18G [00:01<00:00, 541MB/s] 74%|███████▍  | 891M/1.18G [00:01<00:00, 541MB/s] 78%|███████▊  | 942M/1.18G [00:01<00:00, 531MB/s] 83%|████████▎ | 993M/1.18G [00:01<00:00, 527MB/s] 87%|████████▋ | 1.02G/1.18G [00:02<00:00, 536MB/s] 91%|█████████ | 1.07G/1.18G [00:02<00:00, 531MB/s] 95%|█████████▌| 1.12G/1.18G [00:02<00:00, 481MB/s] 99%|█████████▉| 1.17G/1.18G [00:02<00:00, 461MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 513MB/s]
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  1%|          | 10.9M/1.18G [00:00<00:11, 114MB/s]  4%|▍         | 52.1M/1.18G [00:00<00:04, 301MB/s]  8%|▊         | 98.8M/1.18G [00:00<00:02, 386MB/s] 12%|█▏        | 149M/1.18G [00:00<00:02, 441MB/s]  16%|█▌        | 195M/1.18G [00:00<00:02, 456MB/s] 20%|██        | 244M/1.18G [00:00<00:02, 475MB/s] 24%|██▍       | 292M/1.18G [00:00<00:01, 485MB/s] 28%|██▊       | 341M/1.18G [00:00<00:01, 495MB/s] 32%|███▏      | 390M/1.18G [00:00<00:01, 500MB/s] 36%|███▋      | 438M/1.18G [00:01<00:01, 482MB/s] 40%|████      | 484M/1.18G [00:01<00:01, 448MB/s] 44%|████▍     | 533M/1.18G [00:01<00:01, 466MB/s] 48%|████▊     | 582M/1.18G [00:01<00:01, 478MB/s] 52%|█████▏    | 628M/1.18G [00:01<00:01, 462MB/s] 56%|█████▌    | 672M/1.18G [00:01<00:01, 429MB/s] 59%|█████▉    | 714M/1.18G [00:01<00:01, 416MB/s] 63%|██████▎   | 760M/1.18G [00:01<00:01, 436MB/s] 67%|██████▋   | 807M/1.18G [00:01<00:00, 450MB/s] 71%|███████   | 850M/1.18G [00:02<00:00, 442MB/s] 75%|███████▍  | 899M/1.18G [00:02<00:00, 462MB/s] 78%|███████▊  | 943M/1.18G [00:02<00:00, 455MB/s] 82%|████████▏ | 992M/1.18G [00:02<00:00, 472MB/s] 87%|████████▋ | 1.02G/1.18G [00:02<00:00, 490MB/s] 91%|█████████ | 1.06G/1.18G [00:02<00:00, 479MB/s] 95%|█████████▍| 1.11G/1.18G [00:02<00:00, 485MB/s] 98%|█████████▊| 1.16G/1.18G [00:02<00:00, 486MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 457MB/s]
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
   self.gen = func(*args, **kwds)
-json 98ccf307c015
-   take 1: score -1.01  wer 0.00  end +0.0st  2.2w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
-   take 2: score +1.18  wer 0.00  end -2.5st  2.6w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
-   take 3: score +1.14  wer 0.00  end -4.8st  2.7w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
-   take 4: score +1.19  wer 0.00  end -4.9st  2.6w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
-scene 1: 2.68s ex 0.95  chosen wer 0.00
-   take 1: score -0.16  wer 0.00  end +0.0st  2.9w/s  heard: and its 50 bitcoin can never be spent.
-   take 2: score -0.86  wer 0.00  end +0.0st  3.2w/s  heard: and its 50 bitcoin can never be spent.
-   take 3: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: and its 50 bitcoin can never be spent.
-scene 2: 2.88s ex 0.95  chosen wer 0.00
-   take 1: score -1.31  wer 0.00  end +2.4st  2.1w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.
-   take 2: score -1.04  wer 0.00  end +0.0st  2.2w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.
-   take 3: score +0.34  wer 0.10  end -3.9st  2.2w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto, mind block zero.
-   take 4: score +0.28  wer 0.10  end -6.8st  2.1w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto Mind Block Zero.
-scene 3: 4.56s ex 0.88  chosen wer 0.00
-   take 1: score -0.40  wer 0.06  end +0.0st  2.5w/s  heard: Inside, he wrote a line from the Times, say...
-   take 2: score -0.04  wer 0.00  end +0.0st  2.7w/s  heard: Inside, he wrote a line from The Times.
-   take 3: score -1.35  wer 0.12  end +0.0st  3.1w/s  heard: Inside, he wrote a line from Thut Times.
-   take 4: score -0.20  wer 0.00  end +1.3st  2.8w/s  heard: Inside, he wrote a line from The Times.
-scene 4: 3.00s ex 0.88  chosen wer 0.00
-   take 1: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: Chancellor on brink of second bailout for banks.
-   take 2: score -0.30  wer 0.00  end +0.0st  3.0w/s  heard: Chancellor on brink of second bailout for banks.
-   take 3: score -1.22  wer 0.06  end +0.0st  2.5w/s  rushed ['second']  heard: Chancellor, on brink of second bailout for banks.  A.
-   take 4: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: Chancellor on brink of second bailout for banks.
-scene 5: 2.93s ex 0.95  chosen wer 0.00
-   take 1: score -3.34  wer 0.00  end +0.0st  4.4w/s  heard: So the block was not made before that day.
-   take 2: score -3.25  wer 0.00  end +0.0st  4.4w/s  heard: So the block was not made before that day.
-   take 3: score -3.95  wer 0.00  end +0.0st  4.7w/s  heard: So the block was not made before that day.
-scene 6: 2.06s ex 0.88  chosen wer 0.00
-   take 1: score -3.04  wer 0.00  end +0.0st  3.9w/s  rushed ['message']  heard: Many see it as a message about the banks.
-   take 2: score -0.85  wer 0.00  end +0.0st  3.2w/s  heard: Many see it as a message about the banks.
-   take 3: score -1.73  wer 0.00  end +0.0st  3.6w/s  heard: Many see it as a message about the banks.
-scene 7: 2.79s ex 0.88  chosen wer 0.00
-   take 1: score -0.90  wer 0.00  end +0.0st  2.4w/s  rushed ['reward']  heard: The reward was 50 Bitcoin.
-   take 2: score -0.37  wer 0.00  end +0.0st  2.0w/s  heard: The reward was 50 Bitcoin.
-   take 3: score +1.80  wer 0.00  end -2.7st  2.3w/s  heard: The reward was 50 Bitcoin.
-scene 8: 2.20s ex 0.88  chosen wer 0.00
-   take 1: score +0.54  wer 0.10  end -11.4st  3.2w/s  heard: Plot twist. A cork in the code makes it unspendable.
-   take 2: score +1.89  wer 0.00  end -3.1st  2.8w/s  heard: Plot twist. A quirk in the code makes it unspendable.
-scene 9: 3.59s ex 0.95  chosen wer 0.00
-   take 1: score -0.13  wer 0.00  end +0.0st  2.8w/s  heard: Nobody knows if that was on purpose.
-   take 2: score -4.31  wer 0.00  end +0.0st  4.5w/s  rushed ['purpose.']  heard: Nobody knows if that was on purpose.
-   take 3: score -2.55  wer 0.00  end +0.0st  3.6w/s  rushed ['purpose.']  heard: Nobody knows if that was on purpose.
-   take 4: score -0.06  wer 0.00  end +0.0st  2.7w/s  heard: Nobody knows if that was on purpose.
-scene 10: 2.59s ex 0.88  chosen wer 0.00
-   take 1: score -1.59  wer 0.00  end +0.0st  3.6w/s  heard: and the next block came about six days later.
-   take 2: score -2.18  wer 0.00  end +0.0st  3.9w/s  heard: And the next block came about six days later.
-   take 3: score -2.68  wer 0.00  end +0.0st  4.1w/s  heard: and the next block came about six days later.
-scene 11: 2.52s ex 0.95  chosen wer 0.00
-   take 1: score -1.09  wer 0.00  end -1.5st  1.9w/s  rushed ['accident.']  heard: Message or accident.
-   take 2: score -0.38  wer 0.00  end -0.4st  1.7w/s  heard: Message or accident.
-   take 3: score -0.41  wer 0.00  end -2.1st  1.7w/s  heard: Message or accident.
-scene 12: 1.75s ex 0.83 END  chosen wer 0.00
-   take 1: score -0.43  wer 0.00  end +0.0st  1.9w/s  heard: Subscribe for more stories.
-   take 2: score +1.58  wer 0.00  end -8.1st  1.9w/s  heard: Subscribe for more stories.
-scene 13: 2.11s ex 0.88  chosen wer 0.00
+json b089dfb1b3a6
+   take 1: score -0.92  wer 0.00  end +0.5st  2.7w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+   take 2: score +0.98  wer 0.00  end -2.5st  2.2w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+   take 3: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+   take 4: score +1.14  wer 0.00  end -9.6st  2.5w/s  rushed ['newspaper']  heard: Bitcoin's first block hides a newspaper headline.
+scene 1: 2.80s ex 0.6  chosen wer 0.00
+   take 1: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: and its 50 Bitcoin can never be spent.
+   take 2: score -0.27  wer 0.00  end +0.0st  2.9w/s  heard: and its 50 Bitcoin can never be spent.
+   take 3: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: and its 50 Bitcoin can never be spent.
+scene 2: 2.92s ex 0.72  chosen wer 0.00
+   take 1: score -1.80  wer 0.10  end +0.0st  1.9w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto, mind block zero.
+   take 2: score -1.12  wer 0.00  end +0.0st  2.1w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.  //
+   take 3: score -1.13  wer 0.00  end +0.0st  2.0w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.
+   take 4: score -1.07  wer 0.00  end +0.0st  2.1w/s  rushed ['Satoshi']  heard: January 3, 2009. Satoshi Nakamoto mined Block Zero.
+scene 3: 4.66s ex 0.45  chosen wer 0.00
+   take 1: score -0.26  wer 0.00  end +0.0st  2.9w/s  heard: Inside, he wrote a line from the Times.
+   take 2: score +1.48  wer 0.00  end -12.6st  3.1w/s  heard: Inside, he wrote a line from The Times.
+scene 4: 2.61s ex 0.45  chosen wer 0.00
+   take 1: score -0.92  wer 0.00  end +0.0st  2.8w/s  rushed ['bailout']  heard: Chancellor on brink of second bailout for banks.
+   take 2: score -0.89  wer 0.00  end +0.0st  2.8w/s  rushed ['bailout']  heard: Chancellor on brink of second bailout for banks.
+   take 3: score -1.25  wer 0.00  end +0.0st  3.0w/s  rushed ['bailout']  heard: Chancellor on brink of second bailout for banks.
+   take 4: score -0.89  wer 0.00  end +0.0st  2.8w/s  rushed ['second']  heard: Chancellor on brink of second bailout for banks.
+scene 5: 2.91s ex 0.45  chosen wer 0.00
+   take 1: score -3.01  wer 0.00  end +0.0st  4.2w/s  heard: So the block was not made before that day.
+   take 2: score -2.19  wer 0.00  end +0.0st  3.9w/s  heard: So the block was not made before that day.
+   take 3: score -3.35  wer 0.00  end +0.0st  4.4w/s  heard: So the block was not made before that day.
+scene 6: 2.33s ex 0.45  chosen wer 0.00
+   take 1: score -1.25  wer 0.00  end +0.0st  3.4w/s  heard: Many see it as a message about the banks.
+   take 2: score -0.58  wer 0.00  end +0.0st  3.1w/s  heard: Many see it as a message about the banks.
+   take 3: score -2.51  wer 0.00  end +0.0st  3.6w/s  rushed ['message']  heard: Many see it as a message about the banks.
+   take 4: score -0.80  wer 0.00  end +0.0st  3.2w/s  heard: Many see it as a message about the banks.
+scene 7: 2.91s ex 0.45  chosen wer 0.00
+   take 1: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: The reward was 50 Bitcoin.
+   take 2: score -0.17  wer 0.00  end +0.0st  2.3w/s  heard: The reward was 50 Bitcoin.
+   take 3: score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: The reward was 50 Bitcoin.
+scene 8: 2.11s ex 0.45  chosen wer 0.00
+   take 1: score +1.44  wer 0.00  end -10.7st  3.1w/s  heard: Plot twist. A quirk in the code makes it unspendable.
+scene 9: 3.24s ex 0.72  chosen wer 0.00
+   take 1: score -0.12  wer 0.00  end +0.0st  2.8w/s  heard: Nobody knows if that was on purpose.
+   take 2: score -0.50  wer 0.00  end +0.0st  3.1w/s  heard: Nobody knows if that was on purpose.
+   take 3: score +1.37  wer 0.00  end -2.0st  3.1w/s  heard: Nobody knows if that was on purpose.
+scene 10: 2.25s ex 0.45  chosen wer 0.00
+   take 1: score -0.56  wer 0.00  end +0.0st  3.1w/s  heard: And the next block came about six days later.
+   take 2: score -1.14  wer 0.00  end +0.0st  3.4w/s  heard: and the next block came about six days later.
+   take 3: score -0.85  wer 0.00  end +0.0st  3.2w/s  heard: and the next block came about six days later.
+scene 11: 2.92s ex 0.45  chosen wer 0.00
+   take 1: score -0.43  wer 0.00  end -2.3st  1.6w/s  heard: Message or accident.
+   take 2: score +1.61  wer 0.00  end +0.1st  1.7w/s  heard: Message or accident.
+scene 12: 1.77s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.31  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+   take 2: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+   take 3: score -0.30  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 13: 1.85s ex 0.55  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-39.70s, force-aligned 97 words (snapped to the voice)
+38.40s, force-aligned 97 words (snapped to the voice)
 takes kept whole (no sentence re-cut) -> jobs/t3700073/voicep.wav
-flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.7, 0.82, 0.51, 0.51, 0.84, 0.58, 0.61, 0.52, 0.79, 0.51, 0.75, 0.95]
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.5, 0.6, 0.79, 0.61, 0.62, 0.64, 0.68, 0.54, 0.57, 0.65, 0.69, 0.94]

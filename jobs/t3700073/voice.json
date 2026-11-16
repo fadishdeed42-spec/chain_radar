@@ -1,73 +1,73 @@
 {
  "engine": "chatterbox",
  "ref": "am_liam",
- "cfg": 0.25,
+ "cfg": 0.4,
  "seed": 7,
  "scenes": [
   [
    "Bitcoin's first block hides a newspaper headline.",
-   0.95,
-   0.36
+   0.6,
+   0.2
   ],
   [
    "And its fifty Bitcoin can never be spent.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "January third, two thousand nine. Satoshi Nakamoto mined block zero.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Inside, he wrote a line from The Times.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Chancellor on brink of second bailout for banks.",
-   0.95,
-   0.36
+   0.45,
+   0.2
   ],
   [
    "So the block was not made before that day.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Many see it as a message about the banks.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "The reward was fifty Bitcoin.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Plot twist: a quirk in the code makes it unspendable.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "Nobody knows if that was on purpose.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "And the next block came about six days later.",
-   0.95,
-   0.36
+   0.45,
+   0.2
   ],
   [
    "Message or accident?",
-   0.83,
+   0.5,
    0.5,
    "end"
   ],
   [
    "Subscribe for more stories.",
-   0.88,
+   0.55,
    0.3
   ]
  ],
