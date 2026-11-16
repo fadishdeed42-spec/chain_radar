@@ -1,70 +1,75 @@
-json 8dced7596059
-   take 1: score -0.84  wer 0.00  end +0.0st  2.7w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email. Then he went silent.
-   take 2: score -0.23  wer 0.00  end +0.0st  2.2w/s  heard: Bitcoin's creator sent one last email. Then he went silent.
-   take 3: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email. Then he went silent.
-   take 4: score -0.94  wer 0.00  end +0.0st  2.4w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email. Then he went silent.
-scene 1: 4.52s ex 0.95  chosen wer 0.00
-   take 1: score -0.15  wer 0.00  end +0.0st  2.8w/s  heard: And days later, the CIA came into the story.
-   take 2: score -1.42  wer 0.00  end +1.4st  3.4w/s  heard: And days later, the CIA came into the story.
-   take 3: score -1.14  wer 0.00  end +0.0st  3.4w/s  heard: And days later, the CIA came into the story.
-scene 2: 3.86s ex 0.95  chosen wer 0.00
-   take 1: score -0.90  wer 0.00  end +0.0st  2.4w/s  rushed ['Satoshi']  heard: December 2010, Satoshi made his last public forum post.
+json cdc3697e8a0e
+   take 1: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email. Then he went silent.
+   take 2: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email, then he went silent.
+   take 3: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email, then he went silent.
+   take 4: score -0.89  wer 0.00  end +0.0st  2.4w/s  rushed ['creator']  heard: Bitcoin's creator sent one last email. Then he went silent.
+scene 1: 3.79s ex 0.72  chosen wer 0.00
+   take 1: score -1.89  wer 0.00  end +0.0st  3.7w/s  heard: And days later, the CIA came into the story.
+   take 2: score -1.83  wer 0.00  end +0.0st  3.7w/s  heard: And days later, the CIA came into the story.
+   take 3: score -1.40  wer 0.00  end +0.0st  3.5w/s  heard: And days later, the CIA came into the story.
+scene 2: 3.16s ex 0.45  chosen wer 0.00
+   take 1: score -0.93  wer 0.00  end +0.0st  2.4w/s  rushed ['Satoshi']  heard: December 2010. Satoshi made his last public forum post.
    take 2: score -0.04  wer 0.00  end +0.0st  2.5w/s  heard: December 2010, Satoshi made his last public forum post.
-   take 3: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['Satoshi']  heard: December 2010, Satoshi made his last public forum post.
-   take 4: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['Satoshi']  heard: December 2010, Satoshi made his last public forum post.
-scene 3: 3.95s ex 0.88  chosen wer 0.00
-   take 1: score +1.59  wer 0.05  end -11.8st  2.4w/s  heard: 23rd 2011. He emailed developer Mike Hearn
-   take 2: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['developer']  heard: April 23rd, 2011. He emailed developer Mike Hearn.
-   take 3: score -0.09  wer 0.00  end +0.0st  2.7w/s  heard: April 23rd, 2011.  He emailed developer Mike Hearn.
-scene 4: 3.28s ex 0.88  chosen wer 0.00
-   take 1: score -1.18  wer 0.14  end +0.0st  2.1w/s  heard: I moved on to other things.  I...
-   take 2: score -0.94  wer 0.00  end +0.0st  3.3w/s  heard: I've moved on to other things.
-   take 3: score -3.82  wer 0.43  end +0.0st  3.4w/s  heard: root on to other things.  Hey!  Hey!
-   take 4: score -0.97  wer 0.14  end +0.0st  2.8w/s  heard: I moved on to other things and
-scene 5: 1.84s ex 0.95  chosen wer 0.00
-   take 1: score +1.39  wer 0.00  end -8.7st  3.1w/s  heard: It's in good hands with Gavin and everyone.
-scene 6: 2.58s ex 0.88  chosen wer 0.00
-   take 1: score +0.40  wer 0.11  end -1.2st  3.3w/s  heard: Around the same days, he wrote to Gavin Andreessen.
-   take 2: score -0.12  wer 0.11  end -13.3st  3.5w/s  heard: Around the same days, he wrote to Gavin Anderson.
-   take 3: score +0.05  wer 0.11  end -8.8st  3.4w/s  heard: Around the same days, he wrote to Gavin Anderson.
-   take 4: score +1.27  wer 0.11  end -9.3st  2.5w/s  heard: Around the same days, he wrote to Gavin Anderson.
+   take 3: score -0.92  wer 0.00  end +0.0st  2.4w/s  rushed ['Satoshi']  heard: December 2010. Satoshi made his last public forum post.
+   take 4: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['Satoshi']  heard: December 2010. Satoshi made his last public forum post.
+scene 3: 3.94s ex 0.45  chosen wer 0.00
+   take 1: score -0.32  wer 0.00  end +0.0st  2.1w/s  heard: April 23, 2011. He emailed developer Mike Hearn.
+   take 2: score -0.29  wer 0.00  end +0.0st  2.1w/s  heard: April 23, 2011. He emailed developer Mike Hearn.  //
+   take 3: score -0.24  wer 0.00  end -0.7st  2.2w/s  heard: April 23, 2011. He emailed developer Mike Hearn.
+scene 4: 4.08s ex 0.45  chosen wer 0.00
+   take 1: score -0.60  wer 0.00  end +0.0st  3.1w/s  heard: I've moved on to other things.
+   take 2: score +0.32  wer 0.08  end -1.2st  3.4w/s  heard: I moved on to other things.
+   take 3: score -1.18  wer 0.00  end +0.0st  3.4w/s  heard: I've moved on to other things.
+scene 5: 1.94s ex 0.45  chosen wer 0.00
+   take 1: score -0.54  wer 0.00  end -5.5st  3.6w/s  rushed ['everyone.']  heard: It's in good hands with Gavin and everyone.
+   take 2: score -1.07  wer 0.00  end +1.2st  3.3w/s  heard: It's in good hands with Gavin and everyone.
+   take 3: score -2.30  wer 0.00  end +0.0st  3.5w/s  rushed ['everyone.']  heard: It's in good hands with Gavin and everyone.
+   take 4: score -1.44  wer 0.00  end +3.3st  3.0w/s  rushed ['everyone.']  heard: It's in good hands with Gavin and everyone.
+scene 6: 2.20s ex 0.45  chosen wer 0.00
+   take 1: score +1.33  wer 0.11  end -13.9st  2.6w/s  heard: Around the same days, he wrote to Gavin Anderson.
+   take 2: score +0.78  wer 0.11  end -8.7st  3.1w/s  heard: Around the same days, he wrote to Gavin Onderson.
+   take 3: score +1.11  wer 0.11  end -3.8st  2.9w/s  heard: Around the same days, he wrote to Gavin Andreessen.
+   take 4: score +0.70  wer 0.11  end -2.2st  3.1w/s  heard: Around the same days, he wrote to Gavin Anderson.
    phonetic variant: Around the same days, he wrote to Gavin an-druh-sen.
-   take P1: score -1.49  wer 0.20  2.1w/s  heard: Around the same days, he wrote to Gavin and Drew, send.
-   take P2: score -1.30  wer 0.20  2.4w/s  heard: Around the same days, he wrote to Gavin and Drah send.
-   take P3: score -0.96  wer 0.16  2.6w/s  heard: Around the same days, he wrote to Gavin and Drossen.
-   take R1: wer 0.00  heard: Around the same days, he wrote to Gavin Andresen.
-scene 7: 3.01s ex 0.88  chosen wer 0.00
-   take 1: score -0.20  wer 0.00  end -7.8st  3.1w/s  rushed ["wouldn't", 'talking']  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
-   take 2: score +0.74  wer 0.00  end -5.7st  3.0w/s  rushed ["wouldn't"]  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
-   take 3: score -0.09  wer 0.00  end -7.4st  3.0w/s  rushed ["wouldn't", 'talking']  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
-   take 4: score +1.08  wer 0.00  end -4.8st  2.8w/s  rushed ["wouldn't"]  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
-scene 8: 4.64s ex 0.88  chosen wer 0.00
-   take 1: score -0.66  wer 0.00  end -1.0st  3.1w/s  heard: The press just turns that into a pirate currency angle.
-   take 2: score +0.69  wer 0.00  end -3.8st  3.4w/s  heard: The press just turns that into a pirate currency angle.
-scene 9: 2.91s ex 0.88  chosen wer 0.00
-   take 1: score -0.57  wer 0.00  end +0.0st  3.1w/s  heard: On April 27th, Gavin announced a talk at the CIA.
-   take 2: score -1.27  wer 0.00  end +0.0st  3.0w/s  rushed ['announced']  heard: On April 27th, Gavin announced a talk at the CIA.
-   take 3: score -0.17  wer 0.00  end +0.0st  2.9w/s  heard: On April 27th, Gavin announced a talk at the CIA.
-scene 10: 4.15s ex 0.95  chosen wer 0.00
-   take 1: score -1.39  wer 0.09  end +0.0st  2.5w/s  rushed ['Satoshi']  heard: Gavin later set his last email told Satoshi about that talk.
-   take 2: score -1.55  wer 0.00  end +0.0st  3.2w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
-   take 3: score -0.87  wer 0.00  end +0.0st  2.7w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
-   take 4: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
-scene 11: 4.05s ex 0.95  chosen wer 0.00
-   take 1: score +0.51  wer 0.10  end -3.4st  2.5w/s  rushed ['believed']  heard: Satoshi's believed to hold about a million bitcoin untouched.
-   take 2: score -1.10  wer 0.00  end +1.4st  2.3w/s  rushed ['believed']  heard: Satoshi is believed to hold about a million bitcoin untouched.
-   take 3: score +0.59  wer 0.10  end -3.2st  2.6w/s  rushed ['believed']  heard: Satoshi's believed to hold about a million bitcoin untouched.
-   take 4: score -0.93  wer 0.00  end +0.3st  2.4w/s  rushed ['believed']  heard: Satoshi is believed to hold about a million bitcoin untouched.
-scene 12: 4.12s ex 0.95  chosen wer 0.00
-   take 1: score +1.25  wer 0.00  end +9.6st  1.1w/s  heard: Coincidence?
-   take 2: score +1.19  wer 0.00  end +9.6st  1.0w/s  heard: Coincidence?
-scene 13: 0.91s ex 0.83 END  chosen wer 0.00
-   take 1: score -1.37  wer 0.11  end +0.0st  1.4w/s  heard: Subscribe for more stories.  Way!
-   take 2: score -0.98  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
-   take 3: score -0.83  wer 0.00  end +0.0st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
-   take 4: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
-scene 14: 1.57s ex 0.88  chosen wer 0.00
+   take P1: score -1.19  wer 0.16  3.0w/s  heard: Around the same days, he wrote to Gavin Andra Sen.
+   take P2: score -0.97  wer 0.16  2.6w/s  heard: Around the same days, he wrote to Gavin and Drusson.
+   take P3: score -1.01  wer 0.16  2.7w/s  heard: Around the same days, he wrote to Gavin and Drasen.
+   take R1: wer 0.11  heard: Around the same days, he wrote to Gavin Andreessen.
+   take R2: wer 0.11  heard: Around the same days, he wrote to Gavin Andreessen.
+   take R3: wer 0.11  heard: Around the same days, he wrote to Gavin Andreessen.
+   take R4: wer 0.11  heard: Around the same days, he wrote to Gavin Enderson.  //
+scene 7: 3.46s ex 0.45  chosen wer 0.11
+   take 1: score -4.23  wer 0.00  end +0.0st  3.7w/s  rushed ["wouldn't", 'talking', 'mysterious']  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
+   take 2: score -0.64  wer 0.00  end -2.4st  3.3w/s  rushed ["wouldn't", 'mysterious']  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
+   take 3: score -4.14  wer 0.00  end +0.0st  3.6w/s  rushed ["wouldn't", 'talking', 'mysterious']  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
+   take 4: score -3.35  wer 0.00  end +0.0st  3.6w/s  rushed ["wouldn't", 'talking']  heard: I wish you wouldn't keep talking about me as a mysterious shadowy figu
+scene 8: 3.93s ex 0.45  chosen wer 0.00
+   take 1: score +1.70  wer 0.00  end -6.3st  3.0w/s  heard: The press just turns that into a pirate currency angle.
+scene 9: 3.38s ex 0.45  chosen wer 0.00
+   take 1: score -2.48  wer 0.00  end +0.0st  3.6w/s  rushed ['announced']  heard: On April 27th, Gavin announced a talk at the CIA.
+   take 2: score -0.45  wer 0.00  end +0.0st  3.0w/s  heard: On April 27th, Gavin announced a talk at the CIA.
+   take 3: score -2.90  wer 0.00  end +0.0st  3.8w/s  rushed ['announced']  heard: On April 27th, Gavin announced a talk at the CIA.
+   take 4: score -0.64  wer 0.00  end +0.0st  3.1w/s  heard: On April 27th, Gavin announced a talk at the CIA.
+scene 10: 3.96s ex 0.72  chosen wer 0.00
+   take 1: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
+   take 2: score -0.96  wer 0.00  end +0.0st  2.9w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
+   take 3: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
+   take 4: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['Satoshi']  heard: Gavin later said his last email told Satoshi about that talk.
+scene 11: 4.41s ex 0.45  chosen wer 0.00
+   take 1: score -0.16  wer 0.00  end -0.8st  2.3w/s  heard: Satoshi is believed to hold about a million bitcoin untouched.
+   take 2: score -1.81  wer 0.00  end +0.6st  2.3w/s  rushed ['believed', 'bitcoin']  heard: Satoshi is believed to hold about a million bitcoin untouched.
+   take 3: score -1.49  wer 0.10  end +0.2st  2.7w/s  rushed ['believed']  heard: Satoshi's believed to hold about a million bitcoin untouched.
+   take 4: score -0.14  wer 0.00  end -0.2st  2.4w/s  heard: Satoshi is believed to hold about a million Bitcoin untouched.
+scene 12: 4.24s ex 0.45  chosen wer 0.00
+   take 1: score +1.18  wer 0.00  end +13.4st  1.0w/s  heard: Coincidence?
+   take 2: score +0.33  wer 0.00  end +11.4st  0.9w/s  rushed ['coincidence']  heard: coincidence
+   take 3: score +1.18  wer 0.00  end +9.5st  1.0w/s  heard: Coincidence?
+scene 13: 1.02s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -0.36  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 3: score -0.19  wer 0.00  end +0.0st  2.3w/s  heard: Subscribe for more stories.
+scene 14: 1.75s ex 0.55  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-49.57s, force-aligned 124 words (snapped to the voice)
+48.57s, force-aligned 124 words (snapped to the voice)
 takes kept whole (no sentence re-cut) -> jobs/t3700075/voicep.wav
-flow: 0 hangs >0.7s inside lines, 1 possible sharp line ends, line gaps [0.76, 0.64, 0.54, 0.58, 0.84, 0.59, 0.7, 0.63, 0.46, 1.02, 0.84, 0.56, 0.84]
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.58, 0.67, 0.53, 0.68, 0.64, 0.58, 0.72, 0.65, 0.57, 0.87, 0.76, 0.67, 0.9]
