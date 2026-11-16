@@ -394,7 +394,7 @@
 "srcs": [
 "WOWT"
 ],
-"t": 1794787019.566036,
+"t": 1794787933.763831,
 "t0": 1794774060.0,
 "tgtext": "",
 "title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance",
@@ -1478,7 +1478,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
@@ -1583,7 +1583,7 @@
 "Coinpedia",
 "Cryptonews.net"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794770318.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite",
@@ -2002,7 +2002,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794771199.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.\n\nHe's giving the board 10 days to respond on export compliance.\n\nNews | Markets | YouTube",
 "title": "Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.",
@@ -2043,7 +2043,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794771801.0,
 "tgtext": "",
 "title": "Shiba Inu Death Cross Returns After 14 Months as SHIB Price Falls Below $0.000004",
@@ -2194,7 +2194,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794769629.0,
 "tgtext": "JUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru\n\ud83d\udea8 BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.\n\nNews | Markets | YouTube",
 "title": "BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.",
@@ -2370,7 +2370,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2499,7 +2499,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794785493.0,
 "tgtext": "\ud83d\udea8 REKT: We just saw another $1.23B in long liquidations in just 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: We just saw another $1.23B in long liquidations in just 24 hours.",
@@ -2668,7 +2668,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794783059.0,
 "tgtext": "",
 "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
@@ -3091,7 +3091,7 @@
 "srcs": [
 "RadarOnline"
 ],
-"t": 1794787323.179267,
+"t": 1794787933.763831,
 "t0": 1794769367.0,
 "tgtext": "",
 "title": "Eric Trump Insists Donald Is 'Winning' the Crypto Race After CNN's Kaitlan Collins Questions Family Business",
@@ -3161,18 +3161,18 @@
 },
 "probs": {
 "10dd0cac55e5": 0.012,
-"1176b1f50cc2": 0.089,
+"1176b1f50cc2": 0.049,
 "1420b83c19e7": 0.017,
-"1f7bbacb5fd2": 0.069,
+"1dd2d736e057": 0.327,
 "236055428721": 0.013,
 "2b314648ad19": 0.098,
 "33baaf910bec": 0.014,
 "391582780d9a": 0.024,
+"4a78b59d5643": 0.085,
 "4c123b24e99e": 0.025,
 "529061e24df4": 0.024,
 "560911261b81": 0.018,
 "5782e86be479": 0.12,
-"5af6faaf1fd8": 0.034,
 "5b1878b63df6": 0.034,
 "66ab2c100a80": 0.011,
 "7842edd92dc0": 0.063,
@@ -4211,64 +4211,64 @@
 "top": [
 [
 "b27452a1f040",
-5,
-295,
+4,
+305,
 2
 ],
 [
 "d2033ba38fac",
 40,
-31,
+41,
 1
 ],
 [
 "c107e7b11d7b",
 18,
-147,
+158,
 1
 ],
 [
 "a3053cc01cce",
 0,
-269,
+279,
+1
+],
+[
+"1dd2d736e057",
+49,
+231,
 1
 ],
 [
 "7de4df3021ac",
 28,
-125,
+135,
 2
 ],
 [
 "fc6cc189db5e",
-3,
-299,
+1,
+309,
 1
 ],
 [
 "dd8f84fb9d74",
 20,
-71,
+81,
 1
 ],
 [
 "86cae10c3b89",
-17,
-283,
+15,
+294,
 2
 ],
 [
 "a48d03d1a38f",
 0,
-259,
+269,
 1
-],
-[
-"f59072e4d9f7",
-56,
-286,
-2
 ]
 ],
-"top_at": 1794787323.179267
+"top_at": 1794787933.763831
 }
