@@ -1,68 +1,68 @@
 {
  "engine": "chatterbox",
  "ref": "am_liam",
- "cfg": 0.25,
+ "cfg": 0.4,
  "seed": 7,
  "scenes": [
   [
    "Bitcoin's biggest exchange started as a card game website.",
-   0.95,
-   0.36
+   0.6,
+   0.2
   ],
   [
    "And it lost eight hundred fifty thousand Bitcoin.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "Mount Gox meant Magic: The Gathering Online eXchange.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Jed McCaleb made it to trade game cards.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "In twenty ten, he turned it into a Bitcoin exchange.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "In March twenty eleven, he sold it to Mark Kar-puh-less.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "By twenty thirteen, it handled over seventy percent of all Bitcoin transactions.",
-   0.95,
-   0.28
+   0.45,
+   0.2
   ],
   [
    "In February twenty fourteen, trading stopped.",
-   0.95,
-   0.36
+   0.45,
+   0.2
   ],
   [
    "Eight hundred fifty thousand Bitcoin were missing.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "Kar-puh-less was arrested in twenty fifteen.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Trust or run?",
-   0.83,
+   0.5,
    0.5,
    "end"
   ],
   [
    "Subscribe for more stories.",
-   0.88,
+   0.55,
    0.3
   ]
  ],

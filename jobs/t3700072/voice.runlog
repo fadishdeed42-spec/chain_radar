@@ -7,80 +7,91 @@ loaded PerthNet (Implicit) at step 250,000
 `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  2%|▏         | 26.1M/1.18G [00:00<00:04, 274MB/s]  6%|▌         | 69.9M/1.18G [00:00<00:03, 382MB/s]  9%|▉         | 113M/1.18G [00:00<00:02, 413MB/s]  13%|█▎        | 160M/1.18G [00:00<00:02, 447MB/s] 17%|█▋        | 208M/1.18G [00:00<00:02, 467MB/s] 21%|██▏       | 256M/1.18G [00:00<00:02, 478MB/s] 25%|██▌       | 304M/1.18G [00:00<00:01, 486MB/s] 29%|██▉       | 352M/1.18G [00:00<00:01, 490MB/s] 33%|███▎      | 399M/1.18G [00:00<00:01, 491MB/s] 37%|███▋      | 446M/1.18G [00:01<00:01, 488MB/s] 41%|████      | 493M/1.18G [00:01<00:01, 490MB/s] 45%|████▍     | 540M/1.18G [00:01<00:01, 477MB/s] 49%|████▉     | 591M/1.18G [00:01<00:01, 496MB/s] 53%|█████▎    | 639M/1.18G [00:01<00:01, 488MB/s] 57%|█████▋    | 690M/1.18G [00:01<00:01, 502MB/s] 61%|██████▏   | 738M/1.18G [00:01<00:00, 502MB/s] 65%|██████▌   | 786M/1.18G [00:01<00:00, 500MB/s] 69%|██████▉   | 834M/1.18G [00:01<00:00, 495MB/s] 73%|███████▎  | 881M/1.18G [00:01<00:00, 487MB/s] 77%|███████▋  | 928M/1.18G [00:02<00:00, 488MB/s] 81%|████████  | 974M/1.18G [00:02<00:00, 487MB/s] 85%|████████▍ | 1.00G/1.18G [00:02<00:00, 487MB/s] 89%|████████▊ | 1.04G/1.18G [00:02<00:00, 487MB/s] 93%|█████████▎| 1.09G/1.18G [00:02<00:00, 487MB/s] 96%|█████████▋| 1.13G/1.18G [00:02<00:00, 487MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 481MB/s]
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 33.1M/1.18G [00:00<00:03, 347MB/s]  6%|▌         | 75.0M/1.18G [00:00<00:02, 401MB/s] 10%|▉         | 117M/1.18G [00:00<00:02, 419MB/s]  13%|█▎        | 157M/1.18G [00:00<00:02, 408MB/s] 16%|█▋        | 196M/1.18G [00:00<00:02, 386MB/s] 20%|██        | 242M/1.18G [00:00<00:02, 416MB/s] 24%|██▎       | 283M/1.18G [00:00<00:02, 421MB/s] 27%|██▋       | 326M/1.18G [00:00<00:02, 429MB/s] 31%|███       | 368M/1.18G [00:00<00:02, 433MB/s] 35%|███▌      | 422M/1.18G [00:01<00:01, 475MB/s] 39%|███▉      | 469M/1.18G [00:01<00:01, 478MB/s] 43%|████▎     | 519M/1.18G [00:01<00:01, 491MB/s] 47%|████▋     | 568M/1.18G [00:01<00:01, 499MB/s] 51%|█████     | 616M/1.18G [00:01<00:01, 495MB/s] 55%|█████▌    | 663M/1.18G [00:01<00:01, 480MB/s] 59%|█████▉    | 712M/1.18G [00:01<00:01, 489MB/s] 63%|██████▎   | 761M/1.18G [00:01<00:00, 479MB/s] 68%|██████▊   | 819M/1.18G [00:01<00:00, 517MB/s] 72%|███████▏  | 872M/1.18G [00:01<00:00, 527MB/s] 77%|███████▋  | 923M/1.18G [00:02<00:00, 519MB/s] 81%|████████  | 975M/1.18G [00:02<00:00, 527MB/s] 85%|████████▌ | 1.00G/1.18G [00:02<00:00, 528MB/s] 90%|████████▉ | 1.05G/1.18G [00:02<00:00, 533MB/s] 94%|█████████▍| 1.10G/1.18G [00:02<00:00, 537MB/s] 98%|█████████▊| 1.15G/1.18G [00:02<00:00, 539MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 484MB/s]
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
   self.gen = func(*args, **kwds)
 phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-json 571d31d010c7
-   take 1: score -0.89  wer 0.00  end +0.0st  2.5w/s  rushed ['biggest']  heard: Bitcoin's biggest exchange started as a card game website.
-   take 2: score +1.67  wer 0.00  end -1.4st  2.1w/s  heard: Bitcoin's biggest exchange started as a card game website.
-scene 1: 4.38s ex 0.95  chosen wer 0.00
-   take 1: score -0.97  wer 0.00  end +0.0st  2.9w/s  rushed ['Bitcoin.']  heard: and it lost 850,000 Bitcoin.  //
-   take 2: score -3.13  wer 0.00  end +0.0st  3.9w/s  rushed ['Bitcoin.']  heard: and it lost 850,000 Bitcoin.
-   take 3: score -0.91  wer 0.00  end +0.0st  2.4w/s  rushed ['bitcoin.']  heard: and it lost 850,000 bitcoin.
-   take 4: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['bitcoin.']  heard: and it lost 850,000 bitcoin.
-scene 2: 3.13s ex 0.95  chosen wer 0.00
-   take 1: score -0.47  wer 0.00  end +0.0st  1.8w/s  heard: Mt. Gox meant, magic, the gathering online eXchange.
-   take 2: score -2.43  wer 0.33  end +0.0st  1.9w/s  heard: Mt. Goxment, Magic, the Gathering Online eExchange.
-   take 3: score -1.11  wer 0.00  end -0.8st  2.1w/s  rushed ['gathering']  heard: Mt. Gox meant magic, the gathering online eXchange.
-   take 4: score -2.27  wer 0.33  end +0.0st  2.1w/s  heard: Mount Goxmet Magic, the Gathering Online eExchange.
-scene 3: 4.40s ex 0.88  chosen wer 0.00
-   take 1: score -0.88  wer 0.00  end +0.0st  3.2w/s  heard: Jed McCaleb made it to trade game cards.
-   take 2: score -0.02  wer 0.00  end +0.0st  2.6w/s  heard: Jed McCaleb made it to trade game cards.
-   take 3: score -0.57  wer 0.00  end +0.0st  3.1w/s  heard: Jed McCaleb made it to trade game cards.
-scene 4: 3.04s ex 0.88  chosen wer 0.00
-   take 1: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
-   take 2: score -3.60  wer 0.00  end +0.0st  3.8w/s  rushed ['turned', 'Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
-   take 3: score -2.00  wer 0.00  end +0.0st  3.4w/s  rushed ['bitcoin']  heard: In 2010, he turned it into a bitcoin exchange.
-   take 4: score -1.79  wer 0.00  end +0.0st  3.3w/s  rushed ['Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
-scene 5: 3.52s ex 0.88  chosen wer 0.00
-   take 1: score -1.67  wer 0.18  end +5.6st  2.8w/s  heard: In March 2011, he sold it to Mark Carr Pulis.
-   take 2 (plain): score +0.28  wer 0.14  end -11.7st  3.2w/s  heard: In March 2011, he sold it to Mark Carpelez.
-   take 3: score -1.39  wer 0.18  end +2.2st  2.8w/s  heard: In March 2011, he sold it to Mark Carr Bha.
-   take 4 (plain): score -1.47  wer 0.14  end +4.3st  2.9w/s  heard: In March 2011, he sold it to Mark Carpales.
-   phonetic variant: In March twenty eleven, he sold it to Mark kar-pel-es.
-   take P1: score -1.28  wer 0.18  2.9w/s  heard: In March 2011, he sold it to Mark Carr, Pelez.
-   take P2: score -0.95  wer 0.14  2.7w/s  heard: In March 2011, he sold it to Mark Carpelles.
-   take P3: score -1.25  wer 0.18  2.9w/s  heard: In March 2011, he sold it to Marc Carpele's.
-   take R1: wer 0.30  heard: In March 2011, he sold a to Mark Carr Putt Less.
-   take R2: wer 0.18  heard: In March 2011, he sold it to Mark Carpaul. Less.
-   take R3: wer 0.22  heard: In March 2011, he sold it to Mark Carr, Pa Less.
-   take R4: wer 0.22  heard: In March 2011, he sold it to Mark Carr. Pah! Less.
-scene 6: 3.10s ex 0.88  chosen wer 0.14
-   take 1: score +0.32  wer 0.00  end -2.7st  2.5w/s  rushed ['handled', 'Bitcoin']  heard: By 2013, it handled over 70% of all Bitcoin transactions.  //
-   take 2: score +1.09  wer 0.00  end -8.2st  2.4w/s  rushed ['handled']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
-   take 3: score +1.00  wer 0.00  end -2.6st  2.3w/s  rushed ['handled']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
-   take 4: score +1.12  wer 0.00  end -2.9st  2.7w/s  rushed ['handled']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
-scene 7: 4.40s ex 0.95  chosen wer 0.00
-   take 1: score -1.10  wer 0.00  end +0.0st  2.1w/s  rushed ['February']  heard: In February 2014, trading stopped.
-   take 2: score -1.13  wer 0.00  end +0.0st  2.1w/s  rushed ['February']  heard: In February 2014, trading stopped.
-   take 3: score -1.16  wer 0.00  end +0.0st  2.0w/s  rushed ['February']  heard: In February 2014, trading stopped.
-   take 4: score -1.04  wer 0.08  end +0.0st  1.6w/s  heard: in February 2014, trading stopped.  Dot.
-scene 8: 2.87s ex 0.95  chosen wer 0.00
-   take 1: score +1.01  wer 0.00  end -8.6st  2.3w/s  rushed ['bitcoin']  heard: 850,000 bitcoin were missing.
-   take 2: score +0.14  wer 0.00  end -1.4st  2.2w/s  rushed ['bitcoin', 'missing.']  heard: 850,000 bitcoin were missing.
-   take 3: score -1.80  wer 0.00  end +0.0st  2.3w/s  rushed ['bitcoin', 'missing.']  heard: 850,000 bitcoin were missing.
-   take 4: score +0.86  wer 0.00  end -15.4st  2.0w/s  rushed ['missing.']  heard: 850,000 bitcoin were missing.
-scene 9: 3.07s ex 0.95  chosen wer 0.00
-   take 1: score -0.55  wer 0.25  end -9.6st  2.2w/s  rushed ['arrested']  heard: Car Pup less was arrested in 2015.  //
-   take 2 (plain): score -0.28  wer 0.23  end -5.0st  2.4w/s  rushed ['arrested']  heard: Carpalese was arrested in 2015.
-   take 3: score -2.36  wer 0.20  end +0.0st  2.0w/s  rushed ['arrested']  heard: Carpot Less was arrested in 2015.
-   take 4 (plain): score +0.44  wer 0.23  end -7.6st  2.3w/s  heard: Carpolis was arrested in 2015.
-   take R1: wer 0.23  heard: Carpales was arrested in 2015.
-   take R2: wer 0.33  heard: Car Pa less was arrested in 2015.
-   take R3: wer 0.20  heard: Car Paul S was arrested in 2015.
-   take R4: wer 0.23  heard: Carpales was arrested in 2015.
-scene 10: 3.00s ex 0.88  chosen wer 0.20
-   take 1: score -0.19  wer 0.00  end -0.1st  2.0w/s  heard: Trust or run.
-   take 2: score -0.29  wer 0.00  end -9.8st  1.9w/s  heard: Trust or Run.
-   take 3: score +1.81  wer 0.00  end +3.7st  2.0w/s  heard: Trust or run.
-scene 11: 1.48s ex 0.83 END  chosen wer 0.00
-   take 1: score -3.96  wer 0.33  end +13.0st  1.1w/s  heard: Subscribe for more stories.  Bar for more stories.
-   take 2: score -2.19  wer 0.11  end +0.0st  1.4w/s  rushed ['Subscribe']  heard: Subscribe for more stories.  Aye!
-   take 3: score -2.82  wer 0.33  end +0.0st  1.2w/s  heard: Subscribe for more stories.  DOOO!
-   take 4: score -1.14  wer 0.00  end +0.0st  2.0w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
-scene 12: 1.96s ex 0.88  chosen wer 0.00
+phonetic gemini-flash-latest 503
+json 18c422d5de9b
+   take 1: score -0.86  wer 0.00  end -0.7st  2.7w/s  rushed ['biggest']  heard: Bitcoin's biggest exchange started as a card game website.
+   take 2: score -0.85  wer 0.00  end -0.6st  2.7w/s  rushed ['biggest']  heard: Bitcoin's biggest exchange started as a card game website.
+   take 3: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['biggest']  heard: Bitcoin's biggest exchange started as a card game website.
+   take 4: score +1.17  wer 0.00  end -1.7st  2.6w/s  rushed ['biggest']  heard: Bitcoin's biggest exchange started as a card game website.
+scene 1: 3.52s ex 0.6  chosen wer 0.00
+   take 1: score -1.35  wer 0.00  end +0.0st  3.1w/s  rushed ['bitcoin.']  heard: and it lost 850,000 bitcoin.
+   take 2: score -0.95  wer 0.00  end +0.0st  2.9w/s  rushed ['Bitcoin.']  heard: and it lost 850,000 Bitcoin.
+   take 3: score -1.94  wer 0.00  end +0.0st  3.4w/s  rushed ['bitcoin.']  heard: and it lost 850,000 bitcoin.
+   take 4: score -1.41  wer 0.00  end +0.0st  3.1w/s  rushed ['bitcoin.']  heard: and it lost 850,000 bitcoin.
+scene 2: 2.80s ex 0.72  chosen wer 0.00
+   take 1: score +0.52  wer 0.06  end -1.6st  2.1w/s  rushed ['gathering']  heard: Mount Gox meant magic, the gathering online e-exchange.  //
+   take 2: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['gathering']  heard: Mt. Gox meant magic, the gathering online eXchange.
+   take 3: score -3.04  wer 0.33  end +0.0st  2.2w/s  rushed ['gathering']  heard: Nogox meant magic, the gathering online eExchange.
+   take 4: score -1.86  wer 0.12  end +0.0st  2.1w/s  rushed ['gathering']  heard: Mount Gox meant, Magic, the gathering online eExchange.
+scene 3: 3.68s ex 0.45  chosen wer 0.00
+   take 1: score -1.84  wer 0.12  end +0.0st  3.3w/s  heard: Jed McAlib made it to trade game cards.
+   take 2: score -0.92  wer 0.12  end +0.0st  2.9w/s  heard: Jed McAlib made it to trade game cards.
+   take 3: score -1.96  wer 0.12  end +0.0st  3.4w/s  heard: Jed McAlab made it to trade game cards.
+   take 4: score -1.86  wer 0.12  end +0.0st  3.3w/s  heard: Jed McHailop made it to trade game cards.
+   phonetic variant: Jed Mc-Cay-leb made it to trade game cards.
+   take P1: score -1.18  wer 0.18  2.8w/s  heard: Jed McKay-Lev made it to trade game cards.
+   take P2: score -1.09  wer 0.18  2.7w/s  heard: Jed McKay-Lev made it to trade game cards.
+   take P3: score -1.16  wer 0.18  2.8w/s  heard: Jed McKay-Lev made it to trade game cards.
+   take R1: wer 0.12  heard: Jed McAlab made it to trade game cards.
+   take R2: wer 0.12  heard: Jed McAlab made it to trade game cards.
+   take R3: wer 0.12  heard: Jed McAlib made it to trade game cards.
+   take R4: wer 0.12  heard: Jed McAlib made it to trade game cards.
+scene 4: 2.77s ex 0.45  chosen wer 0.12
+   take 1: score -2.52  wer 0.00  end +0.0st  3.3w/s  rushed ['turned', 'Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
+   take 2: score -2.51  wer 0.00  end +0.0st  3.2w/s  rushed ['turned', 'Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
+   take 3: score -1.96  wer 0.00  end +0.0st  3.0w/s  rushed ['turned', 'Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
+   take 4: score -2.19  wer 0.00  end +0.0st  3.1w/s  rushed ['turned', 'Bitcoin']  heard: In 2010, he turned it into a Bitcoin exchange.
+scene 5: 3.35s ex 0.45  chosen wer 0.00
+   take 1: score +0.83  wer 0.14  end -3.5st  3.0w/s  heard: In March 2011, he sold it to Mark Carpales.
+   take 2 (plain): score -1.11  wer 0.14  end +0.0st  2.9w/s  heard: In March 2011, he sold it to Mark Carpales.  //
+   take 3: score +0.89  wer 0.18  end -1.7st  2.6w/s  heard: In March 2011, he sold it to Mark Carr-Pales.
+   take 4 (plain): score -1.59  wer 0.14  end +0.0st  3.2w/s  heard: In March 2011, he sold it to Mark Carpales.
+   phonetic variant: In March twenty eleven, he sold it to Mark kar-peh-lez.
+   take P1: score -0.87  wer 0.14  2.6w/s  heard: In March 2011, he sold it to Mark Carpehales.
+   take P2: score -1.49  wer 0.24  2.7w/s  heard: In March 2011, he sold it to Marc Carpelez.
+   take P3: score -1.44  wer 0.24  2.6w/s  heard: In March 2011, he sold it to Marc Carpelez.
+   take R1: wer 0.18  heard: In March 2011, he sold it to Mark Carr-Pullis.  //
+   take R2: wer 0.18  heard: In March 2011, he sold it to Mark Carpa less.
+   take R3: wer 0.18  heard: In March 2011, he sold it to Mark Carr Palace.
+   take R4: wer 0.18  heard: In March 2011, he sold it to Mark Carr Palace.
+scene 6: 3.37s ex 0.45  chosen wer 0.14
+   take 1: score +0.34  wer 0.00  end -2.9st  2.5w/s  rushed ['handled', 'Bitcoin']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
+   take 2: score +0.31  wer 0.00  end -1.9st  2.4w/s  rushed ['handled', 'Bitcoin']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
+   take 3: score +0.31  wer 0.00  end -4.3st  2.4w/s  rushed ['handled', 'Bitcoin']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
+   take 4: score -1.64  wer 0.00  end -0.6st  2.5w/s  rushed ['handled', 'Bitcoin']  heard: By 2013, it handled over 70% of all Bitcoin transactions.
+scene 7: 4.80s ex 0.45  chosen wer 0.00
+   take 1: score -0.43  wer 0.00  end +0.0st  1.9w/s  heard: In February 2014, trading stopped.
+   take 2: score -0.41  wer 0.00  end +0.0st  1.9w/s  heard: In February 2014, trading stopped.
+   take 3: score -1.93  wer 0.00  end +0.0st  2.1w/s  rushed ['February', 'trading']  heard: In February 2014, trading stopped.
+   take 4: score -1.07  wer 0.00  end +0.0st  2.1w/s  rushed ['February']  heard: In February 2014, trading stopped.
+scene 8: 3.14s ex 0.45  chosen wer 0.00
+   take 1: score -2.76  wer 0.00  end -0.5st  3.4w/s  rushed ['Bitcoin', 'missing.']  heard: 850,000 Bitcoin were missing.
+   take 2: score +0.24  wer 0.00  end -2.0st  2.9w/s  rushed ['Bitcoin', 'missing.']  heard: 850,000 Bitcoin were missing.
+   take 3: score -0.03  wer 0.00  end -3.4st  3.0w/s  rushed ['Bitcoin', 'missing.']  heard: 850,000 Bitcoin were missing.
+   take 4: score +0.34  wer 0.00  end -4.5st  2.5w/s  rushed ['Bitcoin', 'missing.']  heard: 850,000 Bitcoin were missing.
+scene 9: 2.79s ex 0.72  chosen wer 0.00
+   take 1: score -0.48  wer 0.23  end -5.9st  2.1w/s  rushed ['arrested']  heard: Carpalesce was arrested in 2015.
+   take 2 (plain): score -2.29  wer 0.23  end +0.0st  2.4w/s  rushed ['arrested']  heard: Carpalesce was arrested in 2015.
+   take 3: score -1.84  wer 0.23  end -0.4st  1.8w/s  heard: Carpales was arrested in 2015.
+   take 4 (plain): score -1.77  wer 0.23  end +2.3st  2.3w/s  heard: Carpalais was arrested in 2015.
+   take R1: wer 0.33  heard: Car Pa, less, was arrested in 2015.
+   take R2: wer 0.23  heard: Carpales was arrested in 2015.
+   take R3: wer 0.29  heard: Carp-Less was arrested in 2015.
+   take R4: wer 0.23  heard: Carpalese was arrested in 2015.
+scene 10: 2.84s ex 0.45  chosen wer 0.23
+   take 1: score -0.12  wer 0.00  end +0.0st  2.1w/s  heard: Trust or run.
+   take 2: score -0.34  wer 0.00  end -8.4st  1.8w/s  heard: Trust or run.
+   take 3: score -0.12  wer 0.00  end -0.7st  2.1w/s  heard: Trust or run.
+scene 11: 1.40s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.23  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+   take 2: score -0.90  wer 0.00  end +0.0st  2.4w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 3: score -0.09  wer 0.00  end +0.0st  2.4w/s  heard: Subscribe for more stories.
+scene 12: 1.63s ex 0.55  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-42.09s, force-aligned 91 words (snapped to the voice)
+39.02s, force-aligned 91 words (snapped to the voice)
 takes kept whole (no sentence re-cut) -> jobs/t3700072/voicep.wav
-flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.68, 0.72, 0.56, 0.58, 0.64, 0.63, 0.57, 0.64, 0.57, 0.57, 0.91]
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.52, 0.56, 0.59, 0.59, 0.67, 0.69, 0.66, 0.52, 0.56, 0.63, 0.93]
