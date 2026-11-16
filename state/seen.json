@@ -93,6 +93,19 @@
 "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjhqSTZOa1hpNE5HdFNqM3NuNlhPa3hnM1JwMGZmdUZ3SHJxa1F6SmFNYnRKZm1vTU9EdTNHR0M3WlhnMHMybFIybG9LVmdEeVkzakRFbXhwVW9TbVdhTmw3RDVCdFN5eGJJN3hUbmVkT1RyUnVqTDhPdFUtbzRGWnhXcmJPYXNiUE9CY0w0RlQ3dFZ2RXBxeVBIbzJOZkhIN1E?oc=5",
 "urls": []
 },
+"06f27a4c403a": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794834335.987782,
+"t0": 1794833881.0,
+"tgtext": "Strategy transferred 221.74 $BTC ($14.19M) to a new wallet ~30 minutes ago.\n\nhttps://arkm.com/explorer/entity/microstrategy",
+"title": "Strategy transferred 221.74 BTC ($14.19M) to a new wallet ~30 minutes ago.",
+"url": "https://t.me/lookonchainchannel/11091",
+"urls": []
+},
 "0874e7bb8a67": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -224,6 +237,21 @@
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pQUxDWElOWUhWdXJwRm01elc3RjJQcDJ2UHZrSHlwNVpvaS1MUUpTMUhKbDE4RVJnTEdubGFQV3RqRkhYNkJLekNZQU81VXBxQ0UtdUdCckpZdw?oc=5",
 "urls": []
 },
+"14768ca46265": {
+"coin": "aster-2",
+"src": "CoinCodex",
+"srcs": [
+"CoinCodex",
+"FinanceFeeds",
+"www.tokenpost.com"
+],
+"t": 1794834335.987782,
+"t0": 1794813194.0,
+"tgtext": "",
+"title": "Aster Price Dumps Over 20% in Sudden Crash, CEO Flags Malicious Liquidations",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNajFwTlp0elFuSndEeWVMR3c0dWl2aFI4c1VfaUQ1VEpxOXZWbldZMVhVOFoxWk9FN1RvcGlOdXFCZVpnam8xZTkyZHh3VVNYelRHb1FfeVNNVWEzQmVjR2dYRGRHLXZoNlo4SlQtbG9mdnBvRUlQSlBRaWQ0eXRsLXMyZEUzTVdwd19ocFdNU19sM185WDZtdjEya1NOQmUxOHdhT1pkZ21ZV19DRy15aQ?oc=5",
+"urls": []
+},
 "15786c9a5e10": {
 "coin": "",
 "src": "Hokanews",
@@ -344,7 +372,7 @@
 "bloomingbit",
 "www.tokenpost.com"
 ],
-"t": 1794833073.029123,
+"t": 1794834335.987782,
 "t0": 1794827446.0,
 "tgtext": "",
 "title": "LIT Tops Crypto Liquidations at $3.19 Million in an Hour After Lighter Hacking Allegation",
@@ -532,7 +560,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794833073.029123,
+"t": 1794834335.987782,
 "t0": 1794825545.0,
 "tgtext": "",
 "title": "Bitcoin (BTC) price slips after rising from July 14 low that triggered weekend liquidations: Crypto Market Today",
@@ -889,6 +917,22 @@
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR085c1FGRWZ6RUI5bHgwUU5GWG42QzdaeGFkNkRZWmpkbmJOMkg2aHMzUjFzQldWcVpybGN1VHVMdVhtLUhVRFpFVU5rVmliTnVvQjhDT1NYRHAxQ1Z1N0ZsdWEtMm9xUzN2aEpMUGNSMmUxNy15QjNxWHMwR2daZG5uYlZoOC1YLTFlT0phcnFIS0p1eUVfTUc2QW5RcDJfN0g4QWl4OA?oc=5",
 "urls": []
 },
+"4e1ef82399fa": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block",
+"Wu Blockchain"
+],
+"t": 1794834335.987782,
+"t0": 1794825999.0,
+"tgtext": "Upbit Operator Dunamu Swings to $13.8 Million Q3 Net Loss as Revenue Falls 60.7%\n\nDunamu, the operator of South Korea's largest crypto exchange Upbit, reported Q3 2026 revenue of KRW 151.7 billion ($112.4 million), down 60.7% year over year. Operating expenses rose 3.1% to KRW 155.2 billion ($115 million), resulting in an operating loss of KRW 3.5 billion ($2.6 million), compared with an operating profit of KRW 235.3 billion ($174.3 million) a year earlier. Net loss reached KRW 18.6 billion ($13.8 million), versus a net profit of KRW 239 billion ($177 million) in Q3 2025. \u2014 link",
+"title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
+"url": "https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876"
+]
+},
 "4fbf0edd468f": {
 "coin": "bitcoin",
 "src": "Crypto News",
@@ -1098,12 +1142,12 @@
 "CoinLaw",
 "Cointelegraph",
 "Crypto Briefing",
-"Cryptonews.net",
-"Wu Blockchain"
+"Crypto News",
+"Cryptonews.net"
 ],
-"t": 1794833073.029123,
+"t": 1794834335.987782,
 "t0": 1794827322.0,
-"tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%. \u2014 link\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
+"tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%.\n\nLighter said its investigation found that the security incident was caused by a trader's leaked API key, with no impact on the protocol or smart contracts. As a precaution, it has enabled Guardian mode and plans to have its Security Council execute a contract upgrade to recover funds involved in a second withdrawal attempt by the attacker. Withdrawals remain suspended, with the platform targeting a resumption later today. \u2014 link\n\ud83d\udea8 JUST IN: Lighter says its security incident stemmed from a trader's leaked API key, not a protocol breach. \n\nWithdrawals remain paused, with restoration targeted by end of today.\n\nNews | Markets | YouTube\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
 "title": "Lighter Halts Withdrawals, Says Security Incident Points to Breach of External Address, Not Protocol Hack",
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTdXdFR2dJNk9IREN6T2JDa3l0ejhmbk5mLU5tSlFqRkJVRnlmMlFpVVk1b0dTOFlKS1EzU0t0cFlYNlktSXNqTzZ2U2dhNVY0NVgxVw?oc=5",
 "urls": []
@@ -1496,7 +1540,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794833073.029123,
+"t": 1794834335.987782,
 "t0": 1794818620.0,
 "tgtext": "Highlight Clip: Murad Mahmudov: Only Two Types of Crypto Assets Have Value\n\nMurad Mahmudov: Only Two Types of Crypto Assets Have Value\n\nCrypto investor Murad Mahmudov said at TOKEN2049 Singapore 2026 on October 16 that the market took eight years to embrace stores of value and revenue-generating tokens as crypto's only valuable assets. He predicted three asset categories: lottery tickets, stores of value or mega-cults, and businesses. Murad cited figures suggesting 97% of Pump fun traders lose money or break even, while 97% of Polymarket traders fund the top 3%'s gains. He criticized platforms for showcasing the top 0.1%'s profits while ignoring hundreds of thousands of losers, advocating collective investment in communities instead. \u2014 link",
 "title": "Highlight Clip: Murad Mahmudov: Only Two Types of Crypto Assets Have Value",
@@ -1568,7 +1612,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794833073.029123,
+"t": 1794834027.9710007,
 "t0": 1794812674.0,
 "tgtext": "AguilaTrades(@AguilaTrades) turned $650K into $6.5M in just 5 days \u2014 a 10x return!\n\nHe just opened another 40x short on 252.64 $BTC ($16.34M).\n\nhttps://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) turned $650K into $6.5M in just 5 days \u2014 a 10x return!",
@@ -2553,17 +2597,19 @@
 "coin": "solana",
 "src": "Watcher.Guru",
 "srcs": [
+"CoinDesk",
 "Cointelegraph",
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794833073.029123,
+"t": 1794834335.987782,
 "t0": 1794824781.0,
 "tgtext": "JUST IN: Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Solana officially drops \u201cmainnet beta,\u201d introducing Solana 1.0 without changing the network.\n\nNews | Markets | YouTube",
 "title": "Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0",
 "url": "https://t.me/WatcherGuru/16059",
 "urls": [
-"https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885"
+"https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885",
+"https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
 ]
 },
 "d8b028c4c5c0": {
@@ -2925,20 +2971,6 @@
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdzZLYWtTUS1NZzlSSnBsMnRLallBQmF5ZkpOc2hxUG5nY0pZT0R1X1pKQU8tX0xGQUhob29VU3lxREpPanZfOTNFN3JpLTFIMHJONF9HVUVLNVNURjBrOVBXM0NvZkx5MW9XVm5WSTVmWnJraVVWU0lDdW9hd0FuemV3Qkx5OFVOZEhYdU9PLVV3S1Vy?oc=5",
 "urls": []
 },
-"f2f94f0e52e5": {
-"coin": "bitcoin",
-"src": "citybuzz -",
-"srcs": [
-"CryptoRank",
-"citybuzz -"
-],
-"t": 1794660718.4895377,
-"t0": 1794644969.0,
-"tgtext": "",
-"title": "Bitcoin Slips Below Key Technical Indicator as Crypto Liquidations Hit $1.15B",
-"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2NGRFRXY0R4RmFYQWRYeHh2VS1CNEFBMkFqRjJ3b2QtZGdHOTlKYWVRNGZJSnNRU3VjYkhwRkhxZXRSR2NrVU91QlhiV1dGNWVFS2Jld1VxYVhETXp5Z3dET2x1YW5wbFE3QUVILTkxTllsbFI4LXRBSjdQd0F5NzIteHRFV3lwR2lqbWVHZk16TWZab2h5aEtlSzFJZnpxeVppaG9mRmlRLVhCWE90Xw?oc=5",
-"urls": []
-},
 "f3f597478acb": {
 "coin": "bitcoin",
 "src": "Crypto News",
@@ -3025,7 +3057,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794833073.029123,
+"t": 1794834335.987782,
 "t0": 1794827133.0,
 "tgtext": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!\n\nThe attacker is now depositing the stolen funds into #Hyperliquid to buy $XMR.\n\nhttps://arkm.com/explorer/address/0xb3fffca23d4444eE73349825ACD84f7b5020e387",
 "title": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!",
@@ -3164,10 +3196,12 @@
 "src": "bloomingbit",
 "srcs": [
 "Crypto Briefing",
+"Cryptopolitan",
+"The Cryptonomist",
 "Traders Union",
 "bloomingbit"
 ],
-"t": 1794827628.1170902,
+"t": 1794834335.987782,
 "t0": 1794819026.0,
 "tgtext": "",
 "title": "Kava Chain Details Response to HARD Lend Exploit, Seeks to End Lending Function",
@@ -3195,10 +3229,12 @@
 "rain": 1794812525.8653169
 },
 "probs": {
+"0904088b6d03": 0.353,
 "0fbe054e8dbf": 0.256,
+"14768ca46265": 0.867,
 "15786c9a5e10": 0.463,
-"16330df3ec0e": 0.46,
-"19dadfd3f6fc": 0.798,
+"16330df3ec0e": 0.161,
+"19dadfd3f6fc": 0.792,
 "1ad6320157ea": 0.105,
 "1f2e75327b36": 0.059,
 "230d6a455119": 0.086,
@@ -3206,35 +3242,33 @@
 "27786e2f37ed": 0.761,
 "2a9553c66d3d": 0.074,
 "2c8441414039": 0.059,
-"2ccae3ee68ef": 0.094,
-"3915b5eecaea": 0.066,
-"4e1ef82399fa": 0.211,
+"2ccae3ee68ef": 0.053,
+"34345eefb48d": 0.231,
+"4e1ef82399fa": 0.901,
 "53e8e80ac7bc": 0.086,
 "5e82bc02b190": 0.026,
 "604b49bc786c": 0.062,
-"61200ffbb954": 0.975,
+"61200ffbb954": 0.995,
 "66738695ccb1": 0.296,
 "6db08208797d": 0.231,
 "737ba5e4ee76": 0.07,
-"8122e1e7bcbe": 0.164,
-"81d923617ea6": 0.078,
+"81d923617ea6": 0.043,
 "91bbabb6735f": 0.071,
 "95268552f507": 0.155,
-"97bc1af8a690": 0.793,
 "99b818dca458": 0.09,
 "a2ea1dc567b5": 0.127,
-"a41e944e9649": 0.483,
 "aac4546e9987": 0.119,
-"b83b073f81a8": 0.71,
+"b83b073f81a8": 0.179,
 "bcf0c18e3e01": 0.031,
+"d0ccabcc0bb6": 0.268,
 "d450949d1298": 0.102,
-"d66724921ba9": 0.701,
-"d86d49c06b0f": 0.066,
+"d66724921ba9": 0.902,
 "e79c2ed27e2b": 0.249,
 "ee922286e93b": 0.052,
 "f540150bd740": 0.075,
 "f5c2a3b62a11": 0.771,
-"ff38d41cf335": 0.597
+"f6c49d9b8e80": 0.064,
+"ff38d41cf335": 0.747
 },
 "sent": [
 {
@@ -4560,6 +4594,30 @@
 "sinks",
 "weekend"
 ]
+},
+{
+"e": [
+"dunamu",
+"upbit"
+],
+"k": [],
+"t": 1794834027.9710007,
+"u": [
+"https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876",
+"https://t.me/wublockchainenglish/26847"
+],
+"w": [
+"$14",
+"dunamu",
+"falls",
+"loss",
+"million",
+"net",
+"parent",
+"posts",
+"revenue",
+"upbit"
+]
 }
 ],
 "stories": {},
@@ -4568,63 +4626,63 @@
 [
 "61200ffbb954",
 100,
-96,
-6
+117,
+7
+],
+[
+"06f27a4c403a",
+16,
+8,
+1
+],
+[
+"d66724921ba9",
+40,
+159,
+4
+],
+[
+"4e1ef82399fa",
+26,
+139,
+2
+],
+[
+"14768ca46265",
+48,
+352,
+3
 ],
 [
 "7ee305cc50c0",
-2,
-241,
+0,
+262,
 1
 ],
 [
 "19dadfd3f6fc",
 66,
-94,
-3
-],
-[
-"97bc1af8a690",
-49,
-344,
+115,
 3
 ],
 [
 "f5c2a3b62a11",
 41,
-99,
+120,
 1
 ],
 [
 "27786e2f37ed",
 50,
-125,
+147,
 2
 ],
 [
-"62a7b2585ed2",
-10,
-54,
-1
-],
-[
-"8417b8558093",
-0,
-340,
-1
-],
-[
-"b83b073f81a8",
-45,
-88,
-2
-],
-[
-"d66724921ba9",
-30,
-138,
-3
+"ff38d41cf335",
+61,
+255,
+5
 ]
 ],
-"top_at": 1794833073.029123
+"top_at": 1794834335.987782
 }
