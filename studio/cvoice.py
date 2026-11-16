@@ -11,12 +11,12 @@ import numpy as np, soundfile as sf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from align import align_words, refine_words, ts, jhash
 
-def kok_ref(path):
+def kok_ref(path, voice='am_liam'):
     from kokoro import KPipeline
-    pipe = KPipeline(lang_code='a', repo_id='hexgrad/Kokoro-82M')
+    pipe = KPipeline(lang_code=voice[0], repo_id='hexgrad/Kokoro-82M')
     t = ("This CEO took the passwords to his grave. Allegedly. Gerald Cotton ran a Canadian crypto exchange. "
          "December twenty eighteen: he dies in India. Then: oops. Only Gerry had the keys.")
-    a = np.concatenate([np.asarray(x, np.float32) for _, _, x in pipe(t, voice='am_liam', speed=1.05)])
+    a = np.concatenate([np.asarray(x, np.float32) for _, _, x in pipe(t, voice=voice, speed=1.05)])
     sf.write(path, a, 24000)
 
 def trim(w, sr, tail):
@@ -130,7 +130,7 @@ def run(path):
     from chatterbox.tts import ChatterboxTTS
     cfg = json.load(open(path)); base = path[:-5]; log = ['json ' + jhash(path)]
     ref = os.path.join(os.path.dirname(os.path.abspath(__file__)), f"ref_{cfg.get('ref', 'am_liam')}.wav")   # made once, reused for every Short
-    if not os.path.exists(ref): kok_ref(ref)
+    if not os.path.exists(ref): kok_ref(ref, cfg.get('ref', 'am_liam'))
     torch.manual_seed(cfg.get('seed', 7))
     m = ChatterboxTTS.from_pretrained(device='cpu'); sr = m.sr
     parts, words, owner = [np.zeros(int(.12 * sr), np.float32)], [], []
