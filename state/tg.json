@@ -522,6 +522,38 @@
 },
 "t": 1794066974.992591
 },
+"8d37e092ec": {
+"coin": "",
+"facts": "Headline: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\nSources: Cointelegraph\n\nTelegram news posts about it:\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube\n",
+"item": {
+"chart": null,
+"focus": null,
+"hack": null,
+"span": null,
+"src": "Cointelegraph",
+"story": null,
+"t0": 1794849857.0,
+"tag": null,
+"title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
+"url": "https://t.me/cointelegraph/73322"
+},
+"p": {
+"keyfact": "Fed Chair Kevin Warsh warned AI could boost productivity or trigger widespread unemployment.",
+"post": "Fed Chair Kevin Warsh issued a stark warning regarding artificial intelligence and superintelligence. He noted the technology could massively boost economic productivity, or alternatively trigger widespread unemployment and severe economic disruption. The future hangs in the balance. #ArtificialIntelligence",
+"quote": "NONE",
+"reply": "A stark warning from the top about the economic road ahead.",
+"short": "",
+"stat": "AI = Disruptor | WARSH = Fed Chair",
+"symbol": "NONE",
+"tag": "REGULATION",
+"thread": "",
+"timeline": "NONE",
+"title": "Fed warns AI could reshape the economy",
+"versus": "Productivity = Boost || Unemployment = Risk",
+"visual": "STAT"
+},
+"t": 1794851149.834749
+},
 "9a0cc8bfd1": {
 "coin": "binancecoin",
 "facts": "Headline: US President Trump Says Binance Claims To Have Hack 'Pretty Much Under Control,' But Warns Digital Money Has Always Been \u2018A Little Bit Dangerous\u2019\nSources: Analytics Insight, BBC, Bloomberg.com, CNBC, CNN\n\nTelegram news posts about it:\nBinance: 90% of Stolen Assets Replenished; Withdrawals Set to Resume on Nov. 1\n\nBinance announced that it has now replenished 90% of the stolen asset shortfall. The top ten major tokens\u2014including BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD, and ZEC\u2014are now 100% fully backed by reserves. The funding sources for this replenishment include: a partial deployment of the SAFU, reallocated balances from the Futures Insurance Fund exceeding regulatory and risk-management requirements, and Binance\u2019s own corporate treasury. Binance committed to subsequently replenishing SAFU back to approximately US$1 billion. Additionally, the exchange stated that withdrawal services remain on track to resume on November 1 as previously scheduled.\n\nAccording to Arkham on-chain data, Binance's SAFU fund transferred 7,499 BTC, worth approximately $581 million, from wallet 1BAuq to address 165Eur...SMmee at 10:51:41 a.m. EDT on October 31. Binance subsequently confirmed the transfer was complete. \u2014 link\n\ud83d\udd25 HUGE: Binance has announced that 90% of the stolen assets have been replenished.\n\nNews | Markets | YouTube\nChainalysis: Ethereum Reorg Triggers THORChain Emergency Pause, Delaying Laundering of Binance Hack Funds\n\nBlockchain analytics firm Chainalysis said an Ethereum chain reorganization on the morning of October 31 (EDT) caused THORChain to mistakenly issue a double refund to a user who had deposited 10 ETH, triggering an emergency pause. The pause blocked cross-chain swaps through most of THORChain\u2019s bridges for all users, including North Korean money launderers, inadvertently delaying the laundering of a significant amount of funds stolen from Binance. \u2014 link\nArticle text:\n\u2212 1.03%TRX$0.3190+ 1.94%LINK$11.17\u2212 3.47%ZEC$1,240.83+ 0.34%ADA$0.1899\u2212 1.61%XRP$1.25\u2212 0.07%ETH$2,269.73\u2212 0.01%BTC$77,354.41\u2212 0.92%XMR$604.84+ 1.01%BNB$702.68\u2212 1.31%XLM$0.1673\u2212 0.43%SOL$93.37\u2212 1.52%HYPE$85.69\u2212 2.79%Written by Bryan O'Sheastaff editorEdited by Yohan Yunstaff editorWritten by Bryan O'Sheastaff editorEdited by Yohan Yunstaff editorBinance says 90% of stolen assets replenished, targets Sunday withdrawalsLatest NewsPublishedOct 31, 2026Less-liquid tokens make up the remaining shortfall as Binance continues buying replacement assets through market and over-the-counter trades. Binance said Saturday it had replenished 90% of the assets stolen in its $6.3 billion hack, up from 80% a day earlier, and remained on track to resume withdrawals Sunday. The exchange is using a combination of its corporate treasury, a partial deployment of its Secure Asset Fund for Users (SAFU) and a portion of its futures insurance fund, a spokesperson told Cointelegraph. \u201cBinance will absorb the financial impact of the stolen funds, not users,\u201d the spokesperson said, adding that the insurance fund would remain above required risk management levels. The update follows Thursday\u2019s theft, the largest cryptocurrency hack on record, which TRM Labs has since attributed to North Korea\u2019s TraderTraitor hacker group. Following the hack, Binance said Friday it had set aside $6.34 billion to cover losses, including $5 billion in the affected cryptocurrencies. Industry partners like Tether and Circle froze about $3 billion in affected assets after the hack, but those funds are separate from Binance\u2019s replacement of stolen tokens. Still, CertiK told Cointelegraph on Friday that it needed more information to verify Binance\u2019s claimed $5 billion in replacement cryptocurrencies. Binance has since published a new reserves snapshot, but says the full cryptographic proof is still being generated. \u201cThe full zero-knowledge proof takes approximately 40 to 50 hours to generate due to the computational workload,\u201d the exchange\u2019s update reads. Binance said in its update on X that",
@@ -617,38 +649,6 @@
 "visual": "STAT"
 },
 "t": 1794064866.8231814
-},
-"a5850ded60": {
-"coin": "",
-"facts": "Headline: Crypto News Today: Initia Halts L1 and Rollups After Suspected\nSources: KuCoin, openPR.com\n\n",
-"item": {
-"chart": null,
-"focus": null,
-"hack": null,
-"span": null,
-"src": "openPR.com",
-"story": null,
-"t0": 1792926654.0,
-"tag": null,
-"title": "Crypto News Today: Initia Halts L1 and Rollups After Suspected",
-"url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZlZzUWoyU09teHlTVUtBY04yZDBKQ3E5MUE2Y0lsdjBza21mNnV2aG50bFhra0U5bU8xZVhIak0zRllWU210eFZwYjYyVmJJSTRQanhWRFZ4VU5iaVRhbEtMRFVnS3BvLXV3bXE1b1dUT2VpSjFZcUg3MVU0NVJucUhZN3paSlppWWdKVFRSdm5CaktHd1pFX3h3VVctUQ?oc=5"
-},
-"p": {
-"keyfact": "Initia reportedly halted its Layer 1 network and rollups following a suspected security incident.",
-"post": "Crypto security alert today. Initia reportedly halted its Layer 1 network and rollups following a suspected security incident. The network pause highlights how quickly teams respond when vulnerabilities emerge. #Initia",
-"quote": "NONE",
-"reply": "Security teams moving fast today.",
-"short": "",
-"stat": "1 = Layer 1 halted | Initia network status",
-"symbol": "NONE",
-"tag": "BREAKING",
-"thread": "",
-"timeline": "Today = Initia halts L1 and rollups ; Today = Suspected security incident reported ; Today = Investigation ongoing by team",
-"title": "Initia halts L1 and rollups",
-"versus": "Network Status = Running || Current Status = Halted",
-"visual": "ALERT"
-},
-"t": 1792927564.1788967
 },
 "a8b10cdb78": {
 "coin": "",
@@ -988,7 +988,7 @@
 "menu": {},
 "menu_v": 7,
 "mute_until": 1792902190.2352862,
-"offset": 138489422,
+"offset": 138489425,
 "otd": {
 "date": "Oct 21",
 "now": 83421,

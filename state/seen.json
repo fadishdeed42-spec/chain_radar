@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794760206.2574134,
 1794778818.039827,
 1794795867.7951882,
 1794798615.0278168,
@@ -17,7 +16,8 @@
 1794827678.6466959,
 1794829561.8936625,
 1794840518.7001226,
-1794841433.9937317
+1794841433.9937317,
+1794850925.7054517
 ],
 "menu": {
 "000f6ad45d27": {
@@ -63,22 +63,6 @@
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdzZLYWtTUS1NZzlSSnBsMnRLallBQmF5ZkpOc2hxUG5nY0pZT0R1X1pKQU8tX0xGQUhob29VU3lxREpPanZfOTNFN3JpLTFIMHJONF9HVUVLNVNURjBrOVBXM0NvZkx5MW9XVm5WSTVmWnJraVVWU0lDdW9hd0FuemV3Qkx5OFVOZEhYdU9PLVV3S1Vy?oc=5",
 "urls": []
 },
-"04bcb050b240": {
-"coin": "ripple",
-"src": "Coinpaper",
-"srcs": [
-"Coinpaper",
-"Hokanews",
-"Pluang",
-"Watcher.Guru"
-],
-"t": 1794677723.5101297,
-"t0": 1794656314.0,
-"tgtext": "JUST IN: $XRP crashes under $0.95 for the first time since November 2024.\n\n@WatcherGuru",
-"title": "Franklin Templeton Reveals 293 Million XRP Holdings Worth $440M in New SEC Filing",
-"url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3U4WkpZRzdLYzZkaHBvSFhVeXVTdmpTMG9vZUdYZVBickpXRUdRZnZvS0JIYjd0VENQZ3YyRGVZTmFaN1NQVTVFeXp6VGxzdmZYcU9RZnN0TlhPUXV1TWstU0FjeHR0TnhGdVBwV1VWeV9vMTRaczBheG03U1NmX2pnd0k1Mk5kRmtnR0FaWTVBdE9GWmNHeUxKTW9VYmtkTVN1VEZMU2RVSG1zR0E?oc=5",
-"urls": []
-},
 "05a72bade8d8": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -99,7 +83,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794839227.6361878,
+"t": 1794851229.8018541,
 "t0": 1794833881.0,
 "tgtext": "Strategy transferred 221.74 $BTC ($14.19M) to a new wallet ~30 minutes ago.\n\nhttps://arkm.com/explorer/entity/microstrategy",
 "title": "Strategy transferred 221.74 BTC ($14.19M) to a new wallet ~30 minutes ago.",
@@ -227,20 +211,6 @@
 "tgtext": "Ethereum Foundation Sold 7,500 ETH for 14.52M USDS Over Four Days\n\nAccording to Onchain Lens, the Ethereum Foundation sold another 2,500 ETH (worth approximately $4.71 million) for 4.597 million USDS via CoWSwap, bringing its total sales over the past four days to 7,500 ETH for approximately 14.52 million USDS. The latest proceeds were transferred to a Safe multisig wallet. ETH has fallen below $1,850. \u2014 link",
 "title": "Ethereum Foundation Sold 7,500 ETH for 14.52M USDS Over Four Days",
 "url": "https://t.me/wublockchainenglish/26828",
-"urls": []
-},
-"13b15f764f72": {
-"coin": "",
-"src": "www.tokenpost.com",
-"srcs": [
-"Pluang",
-"www.tokenpost.com"
-],
-"t": 1794674138.8745005,
-"t0": 1794667110.0,
-"tgtext": "",
-"title": "Ether Falls 3.90% in Four Hours to $1,835 as Long Liquidations Reach $35.83M",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pQUxDWElOWUhWdXJwRm01elc3RjJQcDJ2UHZrSHlwNVpvaS1MUUpTMUhKbDE4RVJnTEdubGFQV3RqRkhYNkJLekNZQU81VXBxQ0UtdUdCckpZdw?oc=5",
 "urls": []
 },
 "14768ca46265": {
@@ -426,6 +396,19 @@
 "tgtext": "",
 "title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance",
 "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ0xYbGZyNmZ3TGh2azdrLUYxTkRQYjZrMXpZVmJSaHV2Q2tvWV8ycmRib2xYbWRQVTJ3eFpMNGZ4d3pIZzJWcDZtU3NORWl6UjU1Ml9pY3hieVZRdlFaYlg4bV9fZm1uVnNxSUhSbHRUWHVpYk1Hbk5ZdDQxY2pKXzAzOUcydEptUmw2QVJPMURWU0VXYXNzWjc5NUVZbGQ0RTV0bA?oc=5",
+"urls": []
+},
+"1e78fc3a9d6a": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794851229.8018541,
+"t0": 1794849857.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube",
+"title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
+"url": "https://t.me/cointelegraph/73322",
 "urls": []
 },
 "1f5fa4690ae1": {
@@ -1077,7 +1060,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794846517.874632,
+"t": 1794851229.8018541,
 "t0": 1794843899.0,
 "tgtext": "\ud83c\udde9\ud83c\uddea LATEST: German parliament proposes allowing crypto seizures without criminal charges for assets worth over \u20ac100,000.\n\nNews | Markets | YouTube",
 "title": "German parliament proposes allowing crypto seizures without criminal charges for assets worth over \u20ac100,000.",
@@ -1158,7 +1141,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794840518.7001226,
+"t": 1794851229.8018541,
 "t0": 1794829813.0,
 "tgtext": "\ud83c\udded\ud83c\uddf0 JUST IN: Hong Kong plans year-end bill expanding crypto licensing to dealers, advisers and custodians, per Financial Secretary Paul Chan.\n\nOnly 2 of 36 first-round stablecoin applicants licensed so far.\n\nNews | Markets | YouTube",
 "title": "Hong Kong plans year-end bill expanding crypto licensing to dealers, advisers and custodians, per Financial Secretary Paul Chan.",
@@ -1669,7 +1652,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794846517.874632,
+"t": 1794851229.8018541,
 "t0": 1794844860.0,
 "tgtext": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days\n\nBinance co-founder Yi He shared a screenshot of her account on Binance Square, writing, \u201cThe pullback is temporary; there's no need to worry about spot trading.\u201d The screenshot shows that from October 17 to November 16, her account assets declined by $101,315,012.75, with trading P&L of -$97,324,175.47 and transfers and other changes of -$3,990,837.29. BNB accounts for more than 50% of her portfolio, excluding stablecoins and fiat currencies. \u2014 link",
 "title": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days",
@@ -2277,7 +2260,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794846517.874632,
+"t": 1794851229.8018541,
 "t0": 1794834486.0,
 "tgtext": "\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 485 $BTC,  bringing its total holdings to 850,849 $BTC\n\nNews | Markets | YouTube\nJUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
 "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
@@ -2417,7 +2400,7 @@
 "Crypto Headlines",
 "Wu Blockchain"
 ],
-"t": 1794846517.874632,
+"t": 1794851229.8018541,
 "t0": 1794834072.0,
 "tgtext": "\ud83d\udd25 \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u0434\u043e\u043a\u0443\u043f\u0438\u043b 485 BTC ($33,4m)! \u2013 \u0440\u0435\u043b\u0438\u0437\n\n\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 \u043f\u043e\u043a\u0443\u043f\u043a\u0438: $68,887.\n\n\u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0430 \u0431\u0430\u043b\u0430\u043d\u0441\u0435 Strategy \u0445\u0440\u0430\u043d\u0438\u0442\u0441\u044f 850,849 BTC ($54,5b).\n\n\u0414\u043e\u043b\u043b\u0430\u0440\u043e\u0432\u044b\u0439 \u0440\u0435\u0437\u0435\u0440\u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 $4,9b.\n\n\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Strategy \u0442\u0430\u043a\u0436\u0435 \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 221 BTC ($14,1m) \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u0448\u0435\u043b\u0435\u043a \u2013 arkham\n\n\u0420\u0430\u043d\u0435\u0435 \u0438\u0437-\u0437\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0445 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432 \u0432 X (Twitter) \u043d\u0430\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0430\u043d\u0438\u043a\u0430, \u0447\u0442\u043e \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u043f\u0440\u043e\u0434\u0430\u0435\u0442 \u0411\u0438\u0442\u043a\u043e\u0438\u043d.\n\nCrypto Headlines\nStrategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link",
 "title": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC",
@@ -2598,21 +2581,6 @@
 "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
 ]
 },
-"d8b028c4c5c0": {
-"coin": "bitcoin",
-"src": "FXEmpire",
-"srcs": [
-"Coinpedia",
-"FXEmpire",
-"Traders Union"
-],
-"t": 1794678032.265215,
-"t0": 1794662824.0,
-"tgtext": "",
-"title": "Bitcoin Price Prediction: BTC Poised to Drop to $60K as ETFs Accumulate 7-Day Streak of Outflows",
-"url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV2NvNUx3T1IwSTNvd0RURVlFbno4ZFZIRm9EU1lQMEtTOXFvWWZvWnUtcFJYQV9DRDhmWnEzQk5YSTZ6dGcyQVotXzRWOXNNTVB6dzlzVXdYc0NId3Z6MnViaFBBb2ZGR0VDOG9YS210NUVZOVdOaDEwTXZvbmJrMHdDN3dRbGtIdEt3Mzg4WU5adXE2akF2WnBDVGswOXZuTmNYX29WSTN3cDZnU1BfZzQxYlZOUDZKLVlsWC1PODdITG1hd3BWODh0TWVYSXlfOXdCV1FIalY5Vm0tTmc?oc=5",
-"urls": []
-},
 "d9c86456b3ac": {
 "coin": "bitcoin",
 "src": "The Defiant",
@@ -2705,7 +2673,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794846517.874632,
+"t": 1794851229.8018541,
 "t0": 1794836992.0,
 "tgtext": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked\n\nBitmine (BMNR) acquired 7,653 ETH over the past week, bringing its total holdings to 6,077,745 ETH, representing 4.97% of total supply. The company has staked 5.23 million ETH, worth approximately $9.5 billion, generating estimated annualized staking revenue of $245 million at a 2.57% yield. Total crypto, cash and other investments reached $11.8 billion as of November 15. \u2014 link",
 "title": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked",
@@ -2978,9 +2946,9 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794846517.874632,
+"t": 1794851229.8018541,
 "t0": 1794839478.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube\nJUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia NVDA CEO Jensen Huang was a Chinese spy.",
 "url": "https://t.me/WatcherGuru/16065",
 "urls": []
@@ -3117,6 +3085,26 @@
 "url": "https://t.me/wublockchainenglish/26835",
 "urls": []
 },
+"f9661a6dd363": {
+"coin": "lighter",
+"src": "Cryptonews.net",
+"srcs": [
+"CoinDesk",
+"Cointelegraph",
+"Crypto News",
+"CryptoTicker.io",
+"Cryptonews"
+],
+"t": 1794851229.8018541,
+"t0": 1794833418.0,
+"tgtext": "",
+"title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! \u2013 Hacker Buys Two Altcoins!",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMDRmS0FuWlNMaW1NdUFrUENxaUJlYndzVFJMWllTYlpUQWJVa1BDd0VsOEYtbEdIRURMVEVJOEw5cW5SaWNDcUx1a05qZ1dkb0hqdjR0M2JQZw?oc=5",
+"urls": [
+"https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+"https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "f9b5192f26d3": {
 "coin": "hyperliquid",
 "src": "Wu Blockchain",
@@ -3243,100 +3231,47 @@
 },
 "probs": {
 "028b8aea2ae3": 0.137,
-"0fbe054e8dbf": 0.037,
-"18ae860e02bd": 0.104,
-"19dadfd3f6fc": 0.474,
 "1a310ddc49f7": 0.299,
-"1cfb576db36a": 0.013,
+"1e78fc3a9d6a": 0.835,
 "20b29e67b35e": 0.181,
 "259ba73c1b4a": 0.036,
-"26af0c550ad2": 0.23,
-"27786e2f37ed": 0.649,
+"26af0c550ad2": 0.137,
 "27872c73284c": 0.214,
-"34345eefb48d": 0.164,
+"2afff9d24b82": 0.185,
+"2e789d2db9e6": 0.403,
+"30341ab4153d": 0.156,
 "3499861bff3b": 0.023,
-"365d1fee696f": 0.041,
+"350d67937e51": 0.303,
+"365d1fee696f": 0.103,
+"3bd044f39ea6": 0.103,
 "586ab18f44a9": 0.395,
-"5aa0f120c5f9": 0.057,
-"5e7ae407a0fb": 0.886,
-"61200ffbb954": 0.945,
+"5aa0f120c5f9": 0.08,
+"5e7ae407a0fb": 0.854,
 "63b687e92737": 0.192,
-"6c4e0f91dc4b": 0.583,
-"6f9c596aa6b8": 0.439,
+"7aa347f54444": 0.109,
 "7d2f4498d182": 0.12,
-"8271be0f922a": 0.027,
-"82d4948cf06e": 0.077,
-"85d44535d4c3": 0.255,
-"885594f04f52": 0.031,
-"91a6de5a1387": 0.121,
-"999c13b3eea4": 0.147,
-"a41e944e9649": 0.148,
-"b42559fe64de": 0.272,
-"b5c7584a593e": 0.022,
-"ba7f58a6cfac": 0.976,
-"c24f7dd6320e": 0.313,
-"c83f3f357590": 0.839,
-"d708b196eef2": 0.269,
+"8271be0f922a": 0.069,
+"82d4948cf06e": 0.183,
+"85d44535d4c3": 0.205,
+"8b13222ad055": 0.792,
+"8ec43c99611d": 0.15,
+"91bbabb6735f": 0.047,
+"924bb1ba2601": 0.1,
+"9655871b60d9": 0.04,
+"9f9310091898": 0.124,
+"b5c7584a593e": 0.024,
+"ba7f58a6cfac": 0.988,
+"bb6eebf7819c": 0.081,
+"c3daff7a88dd": 0.123,
+"c51fb170d937": 0.081,
+"d21eabfc7585": 0.082,
+"d708b196eef2": 0.263,
 "d7bcb80c044e": 0.049,
-"de534142608e": 0.277,
-"f26e2d476893": 0.885,
+"f26e2d476893": 0.947,
 "f54120d2e91c": 0.041,
-"f5c2a3b62a11": 0.666
+"f9661a6dd363": 0.712
 },
 "sent": [
-{
-"e": [
-"big",
-"kazakhstan"
-],
-"k": [
-"ban"
-],
-"t": 1794674445.099652,
-"u": [
-"https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
-"https://t.me/cointelegraph/73281"
-],
-"w": [
-"$22",
-"2027",
-"bank",
-"big",
-"bonds",
-"central",
-"government",
-"kazakhstan",
-"notes",
-"out",
-"right",
-"selling",
-"tokenized",
-"wants"
-]
-},
-{
-"e": [
-"november",
-"xrp"
-],
-"k": [
-"crash"
-],
-"t": 1794675217.9490125,
-"u": [
-"https://t.me/WatcherGuru/16035"
-],
-"w": [
-"2024",
-"crashes",
-"first",
-"november",
-"since",
-"time",
-"under",
-"xrp"
-]
-},
 {
 "e": [
 "armstrong",
@@ -4775,71 +4710,131 @@
 "without",
 "worth"
 ]
+},
+{
+"e": [
+"chair",
+"fed",
+"kevin",
+"warsh"
+],
+"k": [],
+"t": 1794850925.7054517,
+"u": [
+"https://t.me/cointelegraph/73322"
+],
+"w": [
+"boosting",
+"chair",
+"could",
+"disruption",
+"economic",
+"economy",
+"fed",
+"kevin",
+"potentially",
+"productivity",
+"reshape",
+"superintelligence",
+"triggering",
+"unemployment",
+"warned",
+"warsh",
+"widespread"
+]
+},
+{
+"e": [
+"account",
+"assets",
+"binance",
+"days",
+"decline",
+"founder",
+"reports"
+],
+"k": [],
+"t": 1794850925.7054517,
+"u": [
+"https://t.me/wublockchainenglish/26851"
+],
+"w": [
+"$101",
+"012",
+"315",
+"account",
+"assets",
+"binance",
+"days",
+"decline",
+"founder",
+"reports"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"8b13222ad055",
-18,
-28,
-1
-],
-[
 "ba7f58a6cfac",
-52,
-201,
+41,
+279,
 3
 ],
 [
-"61200ffbb954",
-67,
-320,
-10
+"f26e2d476893",
+26,
+196,
+2
 ],
 [
 "5e7ae407a0fb",
-28,
-44,
+20,
+122,
 2
 ],
 [
-"f26e2d476893",
-28,
-117,
-2
-],
-[
-"c83f3f357590",
+"1e78fc3a9d6a",
+24,
 23,
-207,
-2
+1
+],
+[
+"8b13222ad055",
+18,
+106,
+1
 ],
 [
 "dd99170eccf9",
-16,
-159,
+9,
+237,
 1
 ],
 [
-"4e1ef82399fa",
-5,
-342,
+"c83f3f357590",
+12,
+286,
 2
 ],
 [
-"f5c2a3b62a11",
-22,
-323,
+"f9661a6dd363",
+70,
+297,
+10
+],
+[
+"06f27a4c403a",
+2,
+289,
 1
 ],
 [
-"27786e2f37ed",
-28,
-350,
+"62a7b2585ed2",
+0,
+357,
 2
 ]
 ],
-"top_at": 1794846517.874632
+"top_at": 1794851229.8018541
 }
