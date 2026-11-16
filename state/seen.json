@@ -214,6 +214,19 @@
 "url": "https://t.me/wublockchainenglish/26828",
 "urls": []
 },
+"1303344c9692": {
+"coin": "lighter",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794856477.382507,
+"t0": 1794835046.0,
+"tgtext": "It appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.\n\nAbraxas Capital is now closing short positions on Hyperliquid and withdrawing funds.\n\nOver the past 24 hours, its account value on Hyperliquid has dropped by $150M, while its short positions have shrunk to $70M.\n\nhttps://hypurrscan.io/address/0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36#more\nhttps://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13f298c060#more",
+"title": "It appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.",
+"url": "https://t.me/lookonchainchannel/11093",
+"urls": []
+},
 "14768ca46265": {
 "coin": "aster-2",
 "src": "CoinCodex",
@@ -405,7 +418,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794855642.2537322,
+"t": 1794856477.382507,
 "t0": 1794849857.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube",
 "title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
@@ -606,7 +619,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794835951.5204618,
+"t": 1794856477.382507,
 "t0": 1794835562.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US blocks China from remotely accessing advanced AI chips.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US blocks China from remotely accessing advanced AI chips.",
@@ -766,6 +779,25 @@
 "title": "XRP Price Falls Below $1 for First Time Since 2024 as ETF Inflows Stall",
 "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX1FrYUdha05vdGRNdkhHN2JxTTJabktTQXlsaGJDVEY3QkhDSHlIeHdTU1ZQSDlsUjJid2NNekt2ZGFoVFp4NjkwcFRiOVNlTmlHQ2x6ZVVKX19qdDJORlNxeXIxU01tZmYyVWI2eUpzeDU1UmRKcmdsaHItRE5oQld3?oc=5",
 "urls": []
+},
+"427d6a113526": {
+"coin": "bitcoin",
+"src": "The Block",
+"srcs": [
+"Bitcoin Magazine",
+"The Block",
+"Watcher.Guru",
+"Wu Blockchain"
+],
+"t": 1794856173.4885418,
+"t0": 1794834589.0,
+"tgtext": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link\nJUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
+"title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
+"url": "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
+"https://bitcoinmagazine.com/news/strategy-mstr-adds-485-bitcoin-holdings"
+]
 },
 "428a7ff45464": {
 "coin": "",
@@ -1050,7 +1082,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794855642.2537322,
+"t": 1794856477.382507,
 "t0": 1794843899.0,
 "tgtext": "\ud83c\udde9\ud83c\uddea LATEST: German parliament proposes allowing crypto seizures without criminal charges for assets worth over \u20ac100,000.\n\nNews | Markets | YouTube",
 "title": "German Bundestag Lets Customs Freeze Crypto Over \u20ac100,000 Without a Criminal Case as the Bill Goes to the Bundesrat",
@@ -1462,6 +1494,19 @@
 "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"7d3d0b0d9280": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794856477.382507,
+"t0": 1794836306.0,
+"tgtext": "Nov 9\u2013Nov 15, 2026 #LookonchainWeeklyReport\nhttps://x.com/lookonchain/status/2122323297475924025",
+"title": "Nov 9\u2013Nov 15, 2026 LookonchainWeeklyReport",
+"url": "https://t.me/lookonchainchannel/11098",
+"urls": []
+},
 "7de4df3021ac": {
 "coin": "bitcoin",
 "src": "investingLive",
@@ -1601,11 +1646,12 @@
 "srcs": [
 "Bitcoin Magazine",
 "Cointelegraph",
-"The Block"
+"The Block",
+"Watcher.Guru"
 ],
-"t": 1794855642.2537322,
+"t": 1794856477.382507,
 "t0": 1794842651.0,
-"tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
+"tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
 "url": "https://t.me/cointelegraph/73325",
 "urls": [
@@ -1661,7 +1707,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794855642.2537322,
+"t": 1794856477.382507,
 "t0": 1794844860.0,
 "tgtext": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days\n\nBinance co-founder Yi He shared a screenshot of her account on Binance Square, writing, \u201cThe pullback is temporary; there's no need to worry about spot trading.\u201d The screenshot shows that from October 17 to November 16, her account assets declined by $101,315,012.75, with trading P&L of -$97,324,175.47 and transfers and other changes of -$3,990,837.29. BNB accounts for more than 50% of her portfolio, excluding stablecoins and fiat currencies. \u2014 link",
 "title": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days",
@@ -2595,6 +2641,26 @@
 "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
 ]
 },
+"d82dda92ce75": {
+"coin": "lighter",
+"src": "Cryptonews.net",
+"srcs": [
+"CoinDesk",
+"Cointelegraph",
+"Crypto Briefing",
+"CryptoTicker.io",
+"Cryptonews"
+],
+"t": 1794856477.382507,
+"t0": 1794837028.0,
+"tgtext": "",
+"title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! \u2013 Hacker Buys Two Altcoins!",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMDRmS0FuWlNMaW1NdUFrUENxaUJlYndzVFJMWllTYlpUQWJVa1BDd0VsOEYtbEdIRURMVEVJOEw5cW5SaWNDcUx1a05qZ1dkb0hqdjR0M2JQZw?oc=5",
+"urls": [
+"https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
+]
+},
 "d9c86456b3ac": {
 "coin": "bitcoin",
 "src": "The Defiant",
@@ -2651,21 +2717,6 @@
 "url": "https://t.me/lookonchainchannel/11078",
 "urls": []
 },
-"dd1c275bb600": {
-"coin": "bitcoin",
-"src": "24/7 Wall St.",
-"srcs": [
-"24/7 Wall St.",
-"Coinpedia",
-"Yahoo Finance"
-],
-"t": 1794683546.1896384,
-"t0": 1794672600.0,
-"tgtext": "",
-"title": "Bitcoin Just Crashed Toward $66,000. History Says the Worst May Not Be Over",
-"url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa3NON2VYbkVFX0pfX2pzUU1WSzNCSDRRZFJIeWQ1bjdaTXFYY2tpV1JPY2N3VFVJNGM3dVNtZDd4Wlo2ZVVzTm1OeVBqTlliQjdGVlJteXBIWkZiN0pfWVFCQjlWUV93OUkxUXZaVFducmI2Qm5NcGxEX0U4MF9BVzRRRTRhd3M2NWRPQ1VlcG1lU0NZbjRkNjBfbDY0cXZqVk1VT1NoOWpBYm1rcGJoZ0kzRF9aSGllOFBEOGNLT1hBZDRQSEJNd2RkSQ?oc=5",
-"urls": []
-},
 "dd8f84fb9d74": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -2687,7 +2738,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794855642.2537322,
+"t": 1794856477.382507,
 "t0": 1794836992.0,
 "tgtext": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked\n\nBitmine (BMNR) acquired 7,653 ETH over the past week, bringing its total holdings to 6,077,745 ETH, representing 4.97% of total supply. The company has staked 5.23 million ETH, worth approximately $9.5 billion, generating estimated annualized staking revenue of $245 million at a 2.57% yield. Total crypto, cash and other investments reached $11.8 billion as of November 15. \u2014 link",
 "title": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked",
@@ -2958,14 +3009,17 @@
 "src": "Watcher.Guru",
 "srcs": [
 "Cointelegraph",
+"Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794855642.2537322,
+"t": 1794856477.382507,
 "t0": 1794839478.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube\nJUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia NVDA CEO Jensen Huang was a Chinese spy.",
 "url": "https://t.me/WatcherGuru/16065",
-"urls": []
+"urls": [
+"https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia"
+]
 },
 "f2f0879b5c86": {
 "coin": "",
@@ -3244,44 +3298,44 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"028b8aea2ae3": 0.027,
-"02eca43cdd26": 0.005,
+"0aeb74aaaaa2": 0.041,
+"0f5c8fdf7da8": 0.026,
 "1740c50ebc9d": 0.036,
-"1e78fc3a9d6a": 0.561,
+"1e78fc3a9d6a": 0.481,
 "20b29e67b35e": 0.131,
 "24e6def40602": 0.019,
 "259ba73c1b4a": 0.007,
 "27872c73284c": 0.121,
 "2afff9d24b82": 0.063,
-"2e789d2db9e6": 0.675,
 "30341ab4153d": 0.058,
 "30844df8bd11": 0.022,
-"3499861bff3b": 0.008,
+"3499861bff3b": 0.02,
 "365d1fee696f": 0.059,
 "3822c07f47e0": 0.033,
+"38dd0e70422f": 0.012,
 "3bd044f39ea6": 0.037,
 "457478e57475": 0.062,
+"4c9d9ee15436": 0.024,
 "4e600e4beb03": 0.016,
-"5e7ae407a0fb": 0.882,
+"5e7ae407a0fb": 0.919,
 "6a28a79e89d3": 0.029,
 "73e9b2aa1981": 0.033,
 "7aa347f54444": 0.039,
-"7d2f4498d182": 0.043,
+"7d2f4498d182": 0.108,
 "8271be0f922a": 0.053,
-"82d4948cf06e": 0.038,
-"85d44535d4c3": 0.986,
+"85d44535d4c3": 0.98,
 "8b13222ad055": 0.56,
+"8df491b637fa": 0.012,
 "9f9310091898": 0.045,
-"a4647ee6ffd9": 0.036,
-"ba7f58a6cfac": 0.862,
+"a4647ee6ffd9": 0.008,
 "c3daff7a88dd": 0.045,
 "c51fb170d937": 0.018,
-"c575b46eb78d": 0.01,
-"cf33c559e820": 0.384,
-"d21eabfc7585": 0.074,
+"d21eabfc7585": 0.068,
 "d7bcb80c044e": 0.048,
-"eb56a82429dd": 0.019,
-"f26e2d476893": 0.72,
+"d82dda92ce75": 0.649,
+"ded29f778211": 0.01,
+"f0fc5893226f": 0.029,
+"f26e2d476893": 0.645,
 "f54120d2e91c": 0.037,
 "fb8858134dcd": 0.013
 },
@@ -4822,64 +4876,64 @@
 "top": [
 [
 "85d44535d4c3",
-62,
-217,
-3
-],
-[
-"5e7ae407a0fb",
-50,
-196,
-3
-],
-[
-"ba7f58a6cfac",
-31,
-353,
-3
-],
-[
-"f26e2d476893",
-27,
-269,
-2
-],
-[
-"2e789d2db9e6",
-62,
-359,
+70,
+230,
 4
 ],
 [
-"1e78fc3a9d6a",
-24,
-96,
-1
+"5e7ae407a0fb",
+49,
+210,
+3
+],
+[
+"d82dda92ce75",
+66,
+324,
+10
+],
+[
+"f26e2d476893",
+35,
+283,
+3
 ],
 [
 "8b13222ad055",
-18,
-180,
+17,
+194,
 1
-],
-[
-"c83f3f357590",
-3,
-360,
-2
 ],
 [
 "dd99170eccf9",
 0,
-311,
+325,
 1
 ],
 [
-"cf33c559e820",
-70,
-297,
-7
+"1e78fc3a9d6a",
+24,
+110,
+1
+],
+[
+"30827e57f6a8",
+0,
+349,
+1
+],
+[
+"1303344c9692",
+0,
+357,
+1
+],
+[
+"7d3d0b0d9280",
+0,
+336,
+1
 ]
 ],
-"top_at": 1794855642.2537322
+"top_at": 1794856477.382507
 }
