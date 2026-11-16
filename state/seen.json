@@ -416,7 +416,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794849857.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube",
 "title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
@@ -601,7 +601,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794857217.0,
 "tgtext": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed\n\nLighter said in its November 16 security incident report that an attacker exploited nonce reuse in unofficial signing code used by certain trading accounts to derive API private keys from public signatures. The attacker then created a public pool through a compromised account, transferred funds into the pool, and extracted assets by redeeming pool shares through an attacker-controlled account. Lighter confirmed that its protocol, smart contracts, infrastructure, and official SDKs were unaffected.\n\nThe incident triggered its smart contract-based Guardian mechanism, temporarily pausing withdrawals and allowing the Security Council to return approximately 5 million USDC to the affected trader. Withdrawals have since resumed, with pending requests being processed. Lighter has implemented wallet signature requirements for public pool transfers and made API key signatures non-public. It also plans to introduce IP allowlists, per-key permissions and limits, and proactively monitor and revoke API keys at risk from nonce reuse. \u2014 link",
 "title": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed",
@@ -788,21 +788,6 @@
 "tgtext": "",
 "title": "Kava Chain Details Response to HARD Lend Exploit, Seeks to End Lending Function",
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05ZTdwNGx0UkFma29waldacDEwMkNUTGlZM2h5djFMSDlXTjBPWnl2TldlbUhNeEY0OGtJc19sNGtZQXAwWXJFZ2tleU5NOG9pRnF1dQ?oc=5",
-"urls": []
-},
-"40b1b1a3c45c": {
-"coin": "ripple",
-"src": "Hokanews",
-"srcs": [
-"Cryptonews.net",
-"Hokanews",
-"Watcher.Guru"
-],
-"t": 1794686299.606228,
-"t0": 1794664946.0,
-"tgtext": "JUST IN: $XRP crashes under $0.95 for the first time since November 2024.\n\n@WatcherGuru",
-"title": "XRP Price Falls Below $1 for First Time Since 2024 as ETF Inflows Stall",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX1FrYUdha05vdGRNdkhHN2JxTTJabktTQXlsaGJDVEY3QkhDSHlIeHdTU1ZQSDlsUjJid2NNekt2ZGFoVFp4NjkwcFRiOVNlTmlHQ2x6ZVVKX19qdDJORlNxeXIxU01tZmYyVWI2eUpzeDU1UmRKcmdsaHItRE5oQld3?oc=5",
 "urls": []
 },
 "427d6a113526": {
@@ -1077,7 +1062,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794840946.0,
 "tgtext": "JUST IN: Zelle selects Solana to expand international payments using crypto stablecoins.\n\n@WatcherGuru",
 "title": "Zelle selects Solana to expand international payments using crypto stablecoins.",
@@ -1107,7 +1092,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794843899.0,
 "tgtext": "\ud83c\udde9\ud83c\uddea LATEST: German parliament proposes allowing crypto seizures without criminal charges for assets worth over \u20ac100,000.\n\nNews | Markets | YouTube",
 "title": "German Bundestag Lets Customs Freeze Crypto Over \u20ac100,000 Without a Criminal Case as the Bill Goes to the Bundesrat",
@@ -1525,7 +1510,7 @@
 "srcs": [
 "www.tokenpost.com"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794840853.0,
 "tgtext": "",
 "title": "Binance Records a $2.04 Million Ether Short Liquidation at $1,839",
@@ -1687,7 +1672,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794842651.0,
 "tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
@@ -1745,7 +1730,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794844860.0,
 "tgtext": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days\n\nBinance co-founder Yi He shared a screenshot of her account on Binance Square, writing, \u201cThe pullback is temporary; there's no need to worry about spot trading.\u201d The screenshot shows that from October 17 to November 16, her account assets declined by $101,315,012.75, with trading P&L of -$97,324,175.47 and transfers and other changes of -$3,990,837.29. BNB accounts for more than 50% of her portfolio, excluding stablecoins and fiat currencies. \u2014 link",
 "title": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days",
@@ -1999,6 +1984,26 @@
 "title": "Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.",
 "url": "https://t.me/cointelegraph/73295",
 "urls": []
+},
+"a3591c5ea6a4": {
+"coin": "lighter",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Cointelegraph",
+"CryptoTicker.io",
+"Pluang",
+"Traders Union"
+],
+"t": 1794859792.3223274,
+"t0": 1794838790.0,
+"tgtext": "",
+"title": "Lighter pauses withdrawals after a leaked API key leads to $10.4 million theft",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWWFjY3h6R3FCR3hFcnhFYkJYSVJGS0RyRlRfX3VYQTdWYkp4cEhkRWcxQlVPbFI5b3dCWk83UXFrc3RUUkxLWXJUeDV3N2ZnX0ZONldqOVRTRWQyYkxtNmhIVVdCSEt4cXJ2N0JrTmkwM0pCeG9wa1lzSmxheGt4WlhIdUtGVldzVFhZZVlKellxZUdvaFVNejBqa09yQ29mX0RJdXJZN3pSVEJDODhj?oc=5",
+"urls": [
+"https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
+]
 },
 "a409bfe65946": {
 "coin": "",
@@ -2697,11 +2702,10 @@
 "src": "The Economic Times",
 "srcs": [
 "Coinpedia",
-"Quartz",
-"Rich Picks Daily",
+"Forbes",
 "The Economic Times"
 ],
-"t": 1794858158.0644503,
+"t": 1794859792.3223274,
 "t0": 1794840364.0,
 "tgtext": "",
 "title": "Bitcoin slips 2% to $64,000, ETH below $1,800 as ETF outflows and liquidations weigh on crypto markets",
@@ -3080,7 +3084,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794858975.3720047,
+"t": 1794859792.3223274,
 "t0": 1794839478.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube\nJUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru\nJUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia NVDA CEO Jensen Huang was a Chinese spy.",
@@ -3368,43 +3372,43 @@
 },
 "probs": {
 "028b8aea2ae3": 0.013,
-"02eca43cdd26": 0.005,
 "0aeb74aaaaa2": 0.041,
 "1740c50ebc9d": 0.036,
 "1e78fc3a9d6a": 0.481,
 "20b29e67b35e": 0.074,
-"24e6def40602": 0.019,
-"259ba73c1b4a": 0.007,
+"24e6def40602": 0.01,
 "27872c73284c": 0.029,
 "2afff9d24b82": 0.035,
+"2e2d8c657a3f": 0.006,
 "30341ab4153d": 0.058,
 "30844df8bd11": 0.022,
 "3499861bff3b": 0.02,
-"368edd795231": 0.012,
 "3822c07f47e0": 0.033,
+"39ed8a830d6d": 0.072,
 "3bd044f39ea6": 0.037,
 "457478e57475": 0.064,
 "4e600e4beb03": 0.041,
+"5b69891378df": 0.041,
 "5e7ae407a0fb": 0.919,
 "6a28a79e89d3": 0.029,
 "73e9b2aa1981": 0.033,
 "7aa347f54444": 0.039,
 "7d2f4498d182": 0.108,
 "85d44535d4c3": 0.961,
-"8b13222ad055": 0.56,
 "8fc4651723cd": 0.057,
 "9f9310091898": 0.045,
+"a3591c5ea6a4": 0.367,
 "a4647ee6ffd9": 0.008,
+"b1ce3461cf20": 0.04,
 "c3daff7a88dd": 0.045,
 "c575b46eb78d": 0.01,
-"cf33c559e820": 0.49,
 "d21eabfc7585": 0.041,
-"d7bcb80c044e": 0.072,
+"d7bcb80c044e": 0.305,
 "ded29f778211": 0.01,
-"e02f37e796e8": 0.011,
-"f0fc5893226f": 0.029,
-"f26e2d476893": 0.934,
-"f54120d2e91c": 0.037,
+"e02f37e796e8": 0.003,
+"eb56a82429dd": 0.019,
+"f26e2d476893": 0.578,
+"f54120d2e91c": 0.02,
 "fb8858134dcd": 0.013,
 "fcaa9bb5f3bf": 0.031
 },
@@ -4945,64 +4949,64 @@
 "top": [
 [
 "85d44535d4c3",
-64,
-272,
-4
-],
-[
-"f26e2d476893",
-39,
-325,
+62,
+286,
 4
 ],
 [
 "5e7ae407a0fb",
-43,
-251,
+41,
+265,
 3
 ],
 [
 "8b13222ad055",
-11,
-235,
+9,
+249,
 1
 ],
 [
-"cf33c559e820",
-63,
-352,
-9
+"f26e2d476893",
+37,
+339,
+4
 ],
 [
 "1e78fc3a9d6a",
 24,
-152,
+166,
 1
 ],
 [
+"a3591c5ea6a4",
+63,
+350,
+7
+],
+[
+"d7bcb80c044e",
+55,
+324,
+3
+],
+[
 "586ab18f44a9",
-4,
-300,
+3,
+314,
 2
 ],
 [
 "296379b55b89",
 10,
-29,
+43,
 1
 ],
 [
 "7d2f4498d182",
-23,
-302,
-1
-],
-[
-"1a310ddc49f7",
-9,
-302,
+21,
+316,
 1
 ]
 ],
-"top_at": 1794858975.3720047
+"top_at": 1794859792.3223274
 }
