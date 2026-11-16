@@ -234,7 +234,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794855024.0,
 "tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
@@ -430,7 +430,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794849857.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube",
 "title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
@@ -706,9 +706,10 @@
 "src": "Decrypt",
 "srcs": [
 "Decrypt",
+"FXStreet",
 "Investor's Business Daily"
 ],
-"t": 1794865440.8594494,
+"t": 1794867452.3200982,
 "t0": 1794847860.0,
 "tgtext": "",
 "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
@@ -1053,7 +1054,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794865133.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube",
 "title": "The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.",
@@ -1273,18 +1274,19 @@
 },
 "6e1ef5e7c7db": {
 "coin": "bitcoin",
-"src": "FXStreet",
+"src": "Decrypt",
 "srcs": [
-"BitKE",
 "Bloomberg.com",
-"FXStreet"
+"Decrypt"
 ],
-"t": 1794828703.5859587,
-"t0": 1794809640.0,
+"t": 1794867148.4023285,
+"t0": 1794858581.0,
 "tgtext": "",
-"title": "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000",
-"url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLVk4ZGpzMW5LUF82Z1NieUdGMUw1aW5JbUFZT1VLd19yYkw5d3FSMmRLM1ExYnY0UVNLblR0bVFxdEp5SVZ2bzRvb0YxNEZNbGR2aHphTnVjU3pXNnc0MFluc2t4QzlMUS1TaE1tX1FHVHEzY3FZcmsteExEWjlnZkxBM01MWElPOTVEa2xuTGI3VVdDZVY1MnVVNjZYc25fM2pFV3YxQmctckltYjQxSUJqNDg5VGhmUE40aE5mcUdMTFEzc2ZuaXFLWl85UQ?oc=5",
-"urls": []
+"title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
+"url": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000",
+"urls": [
+"https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
+]
 },
 "7038dcf07dd7": {
 "coin": "",
@@ -1498,7 +1500,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794849778.0,
 "tgtext": "JUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\nJUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru\nJUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.",
@@ -1680,7 +1682,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -1789,7 +1791,7 @@
 "Crypto Economy",
 "CryptoTicker.io"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794847302.0,
 "tgtext": "",
 "title": "Lighter pauses withdrawals after a leaked API key leads to $10.4 million theft",
@@ -2138,21 +2140,6 @@
 "tgtext": "",
 "title": "Shiba Inu Death Cross Returns After 14 Months as SHIB Price Falls Below $0.000004",
 "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeGhqbkFUcTd3Z0prZHVfenAxQ092NGNjeG1IZW1tbnowclJzaUxsZjNNQVJLNEpKRlBHb3lUb1VRLXJxX2ZqQTZwM3RTQW5TUWFpa1l2eVEwVVhyMS1MNU9DbG9LcWRLMW8tSVNzckFvblFQc3JvZkkxak15RmZEVHY3MmJ3MnJyanJvTU1ZUk5paTZESmVFN0NDYUxNUUhHMzZmWkJEWUtqRTlRMjJ6NjVBVHY?oc=5",
-"urls": []
-},
-"a65a8de28132": {
-"coin": "solana",
-"src": "Pluang",
-"srcs": [
-"Pluang",
-"finance.biggo.com",
-"www.tokenpost.com"
-],
-"t": 1794693958.1563547,
-"t0": 1794674249.0,
-"tgtext": "",
-"title": "Solana sees $11.55M long liquidations as price drops nearly 2% to $70.74 in one hour",
-"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1QzdUNiR3hzdDUzVURYU1ZnUkVnZ0M3MzBaaEJHOVVKcWdQNk5sa2ZnOWcyRE95cmdKOVpQOHBRMVVpV3kyOC1DX01OYVQ3Z0tBdW9qNDFfTVVKQWFfVlhJUGdoRlFYZ2ZUN0FQWDBSSTdOdkRpSVlqeko4RUc0d3BTdTdFc1F6M2c?oc=5",
 "urls": []
 },
 "a6b3d671b7fc": {
@@ -2659,6 +2646,19 @@
 "url": "https://t.me/lookonchainchannel/11086",
 "urls": []
 },
+"ca82d5910825": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794867452.3200982,
+"t0": 1794867093.0,
+"tgtext": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
+"title": "United Airlines UAL experiences widespread system outage.",
+"url": "https://t.me/WatcherGuru/16083",
+"urls": []
+},
 "cf33c559e820": {
 "coin": "lighter",
 "src": "Cryptonews.net",
@@ -2985,7 +2985,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794860949.0,
 "tgtext": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
 "title": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
@@ -3170,21 +3170,6 @@
 "https://www.theblock.co/news/defi/2026-11-15-traders-claim-6-million-profit-by-spotting-bitgos-public-pull-request-and-frontrunning-memecoin-listing-440363"
 ]
 },
-"f1c175beeefe": {
-"coin": "bitcoin",
-"src": "Coinpaper",
-"srcs": [
-"Coinpaper",
-"Cryptonews.net",
-"Yahoo Finance"
-],
-"t": 1794693958.1563547,
-"t0": 1794672647.0,
-"tgtext": "",
-"title": "Why Is Bitcoin Crashing? BTC Breaks Below $64K as Ethereum Falls Toward $1,800",
-"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1FSYWxTZjRMX0R2LW1HdXFoXzFSendaMlYtZ0JWRXhybWZ6dnp6bm1ZTWJMSjlGYTdkQ1AyRkxQOENPeTZvckI3ZElIY19uMzF6VUNlVzV1LS05NFlnR2MtRVdRNHoyMTNmRnkyRy1OeTZjTndTU0lMM25Pc3p0c01WX1I3TDFjR0ZNV2llOGJCeEQ4VFU1WmxTeVN1U0o0dlVxY1pMMA?oc=5",
-"urls": []
-},
 "f1cc4341158e": {
 "coin": "bitcoin",
 "src": "Morocco News",
@@ -3333,7 +3318,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794866623.5266225,
+"t": 1794867452.3200982,
 "t0": 1794866350.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.",
@@ -3531,45 +3516,45 @@
 },
 "probs": {
 "013f161b5708": 0.006,
-"0aeb74aaaaa2": 0.048,
-"13b151f123e0": 0.872,
-"1740c50ebc9d": 0.043,
-"1e78fc3a9d6a": 0.37,
+"0aeb74aaaaa2": 0.011,
+"13b151f123e0": 0.598,
+"1740c50ebc9d": 0.023,
 "23905dee1f15": 0.035,
 "290eee4f0aac": 0.046,
 "296379b55b89": 0.03,
 "2e2d8c657a3f": 0.007,
-"30341ab4153d": 0.038,
 "30844df8bd11": 0.027,
-"365d1fee696f": 0.11,
+"365d1fee696f": 0.454,
 "39ed8a830d6d": 0.084,
 "44c76a9d29d9": 0.021,
+"45a32709b9b6": 0.013,
+"555022f4a52a": 0.044,
 "557b45025328": 0.008,
+"61e73fccf1b8": 0.007,
 "67c7c9a06026": 0.105,
-"69ad95321608": 0.021,
 "6a28a79e89d3": 0.034,
+"6e1ef5e7c7db": 0.197,
+"7522e304fc69": 0.018,
 "75dc971b8bec": 0.018,
 "7de34e86ccad": 0.381,
-"854cb8eb4c66": 0.952,
-"8989b6cd0a4c": 0.008,
+"854cb8eb4c66": 0.938,
 "8b30cb94685d": 0.408,
-"95e89c71fb23": 0.076,
 "9f9310091898": 0.074,
 "a9f8f265789a": 0.011,
 "aba2bf3609df": 0.178,
 "ac4a63cf0acf": 0.038,
-"b1ce3461cf20": 0.047,
-"b482d4b0d33c": 0.199,
-"bbbb6b4221ab": 0.068,
-"c3daff7a88dd": 0.029,
-"c51fb170d937": 0.029,
-"c9029223859e": 0.029,
+"bc501bdbafec": 0.01,
+"c3c8befea4e3": 0.094,
+"ca82d5910825": 0.795,
 "cbe0c80db1b2": 0.02,
 "ded29f778211": 0.012,
-"e4b5b7084a95": 0.405,
-"f54120d2e91c": 0.043,
-"f997a74f3536": 0.065,
-"fcaa9bb5f3bf": 0.036
+"e3decf1ffe8c": 0.098,
+"e4b5b7084a95": 0.33,
+"ec3abb937af6": 0.033,
+"fa40df5a7659": 0.009,
+"fb8858134dcd": 0.015,
+"fcaa9bb5f3bf": 0.036,
+"fd606fee1a4a": 0.053
 },
 "sent": [
 {
@@ -5059,63 +5044,63 @@
 [
 "854cb8eb4c66",
 28,
-36,
+50,
 2
+],
+[
+"ca82d5910825",
+32,
+6,
+1
 ],
 [
 "13b151f123e0",
-41,
-193,
+39,
+207,
 2
 ],
 [
-"f66fd6aaf01d",
-10,
-5,
-1
-],
-[
-"8b30cb94685d",
-67,
-322,
-7
-],
-[
-"e4b5b7084a95",
-22,
-95,
-1
-],
-[
-"7de34e86ccad",
-35,
-281,
+"365d1fee696f",
+21,
+327,
 3
 ],
 [
 "1e78fc3a9d6a",
-11,
-279,
+9,
+293,
 1
+],
+[
+"8b30cb94685d",
+65,
+336,
+7
+],
+[
+"7de34e86ccad",
+33,
+295,
+3
 ],
 [
 "579afef88909",
 10,
-25,
+39,
 1
 ],
 [
-"b482d4b0d33c",
-48,
+"e4b5b7084a95",
+22,
+108,
+1
+],
+[
+"f66fd6aaf01d",
+10,
 18,
-1
-],
-[
-"aba2bf3609df",
-26,
-229,
 1
 ]
 ],
-"top_at": 1794866623.5266225
+"top_at": 1794867452.3200982
 }
