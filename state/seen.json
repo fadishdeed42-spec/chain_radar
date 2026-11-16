@@ -16,7 +16,8 @@
 1794827678.6466959,
 1794827678.6466959,
 1794829561.8936625,
-1794840518.7001226
+1794840518.7001226,
+1794841433.9937317
 ],
 "menu": {
 "000f6ad45d27": {
@@ -339,21 +340,6 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBneWE4alJhWTVPdmRaUzNwMWk3Tk5jNm9LcFVoN2IwMmd3ZHJWVF9wdzI1eGMtRWZBTFhObldfYS1HbzgxY0F3a0lLVXVtTFROSkZTTG9hOUw?oc=5",
 "urls": []
 },
-"1804adc7c308": {
-"coin": "bitcoin",
-"src": "Altcoin Buzz",
-"srcs": [
-"Altcoin Buzz",
-"citybuzz -",
-"www.tokenpost.com"
-],
-"t": 1794668392.4954364,
-"t0": 1794647453.0,
-"tgtext": "",
-"title": "Bitcoin Breaks Below 200-Week Average as ETF Outflows and Liquidations Grow",
-"url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaWg1ZDVja2V4LVpjMzFVOWM3MmJocW1oWjZOeWxlei1lREpKRDV2a3hMcVFMZUgySmpOaG5nU1hzZ2ZjTFJYLXhmcTl5MWZfTnpYX2VSRUhzalZSYXd1ZWQ0ak5iNVVjR3FJS3ZqTWt3RnJqb2FBX25yeU82YTFOSG1oSkVzdWJGXzRvWVcwZlNhYUR5eHZ2clV1aFczam54T2lfdQ?oc=5",
-"urls": []
-},
 "18e29730641c": {
 "coin": "bitcoin",
 "src": "Around Prague",
@@ -370,18 +356,18 @@
 "urls": []
 },
 "19dadfd3f6fc": {
-"coin": "lighter",
-"src": "bloomingbit",
+"coin": "",
+"src": "www.tokenpost.com",
 "srcs": [
 "Pluang",
 "bloomingbit",
 "www.tokenpost.com"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794827446.0,
 "tgtext": "",
-"title": "LIT Tops Crypto Liquidations at $3.19 Million in an Hour After Lighter Hacking Allegation",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1MHNwVnlZc0Npdm5KV21XQ0w5ZFQ1cnNueDB3Y1BkeFJoUW1SRnRtX3pPQ2ZHNWFRa3hSNjFwUU5HakQydnhCQjRyb0pxWVJBOTR4cQ?oc=5",
+"title": "Crypto Liquidations Reach $36.39 Million Across Three Exchanges in One Hour",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvMmNRMnMwd3lFdzJyMnhHNS1nWWhUOFJqTzJhbkx2TTl0bTB0QmtyQmxnakEyQTZQcjRwR3M3UUNuaThYWk9Ccm5wUnM1UUdBdS12bjQtVmZSdw?oc=5",
 "urls": []
 },
 "1b483d2052b1": {
@@ -412,20 +398,6 @@
 "tgtext": "\ud83c\uddf0\ud83c\uddff BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.\n\nNews | Markets | YouTube",
 "title": "BIG: Kazakhstan wants tokenized government bonds out by Q1 2027, right after selling $22.3M of tokenized central bank notes.",
 "url": "https://t.me/cointelegraph/73281",
-"urls": []
-},
-"1c7c58f6abc9": {
-"coin": "",
-"src": "TechJuice",
-"srcs": [
-"Cointribune",
-"TechJuice"
-],
-"t": 1794668392.4954364,
-"t0": 1794647100.0,
-"tgtext": "",
-"title": "Binance to Fully Reopen Withdrawals Soon Following the $6.3 Billion Crypto Hack",
-"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR085c1FGRWZ6RUI5bHgwUU5GWG42QzdaeGFkNkRZWmpkbmJOMkg2aHMzUjFzQldWcVpybGN1VHVMdVhtLUhVRFpFVU5rVmliTnVvQjhDT1NYRHAxQ1Z1N0ZsdWEtMm9xUzN2aEpMUGNSMmUxNy15QjNxWHMwR2daZG5uYlZoOC1YLTFlT0phcnFIS0p1eUVfTUc2QW5RcDJfN0g4QWl4OA?oc=5",
 "urls": []
 },
 "1db325059893": {
@@ -783,11 +755,11 @@
 "srcs": [
 "Crypto Briefing",
 "Cryptopolitan",
+"Hokanews",
 "The Cryptonomist",
-"bloomingbit",
-"www.tokenpost.com"
+"bloomingbit"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794823349.0,
 "tgtext": "",
 "title": "Kava Chain Details Response to HARD Lend Exploit, Seeks to End Lending Function",
@@ -928,7 +900,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794839715.731075,
+"t": 1794841357.5934613,
 "t0": 1794825999.0,
 "tgtext": "Upbit Operator Dunamu Swings to $13.8 Million Q3 Net Loss as Revenue Falls 60.7%\n\nDunamu, the operator of South Korea's largest crypto exchange Upbit, reported Q3 2026 revenue of KRW 151.7 billion ($112.4 million), down 60.7% year over year. Operating expenses rose 3.1% to KRW 155.2 billion ($115 million), resulting in an operating loss of KRW 3.5 billion ($2.6 million), compared with an operating profit of KRW 235.3 billion ($174.3 million) a year earlier. Net loss reached KRW 18.6 billion ($13.8 million), versus a net profit of KRW 239 billion ($177 million) in Q3 2025. \u2014 link",
 "title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
@@ -1096,6 +1068,22 @@
 "url": "https://t.me/wublockchainenglish/26827",
 "urls": []
 },
+"586ab18f44a9": {
+"coin": "solana",
+"src": "Watcher.Guru",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1794841662.8046465,
+"t0": 1794840946.0,
+"tgtext": "JUST IN: Zelle selects Solana to expand international payments using crypto stablecoins.\n\n@WatcherGuru",
+"title": "Zelle selects Solana to expand international payments using crypto stablecoins.",
+"url": "https://t.me/WatcherGuru/16067",
+"urls": [
+"https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "5bc8c4c7d8bf": {
 "coin": "",
 "src": "NewsBytes",
@@ -1149,7 +1137,7 @@
 "Crypto News",
 "Cryptonews"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794827322.0,
 "tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%.\n\nLighter said its investigation found that the security incident was caused by a trader's leaked API key, with no impact on the protocol or smart contracts. As a precaution, it has enabled Guardian mode and plans to have its Security Council execute a contract upgrade to recover funds involved in a second withdrawal attempt by the attacker. Withdrawals remain suspended, with the platform targeting a resumption later today. \u2014 link\n\ud83d\udea8 JUST IN: Lighter says its security incident stemmed from a trader's leaked API key, not a protocol breach. \n\nWithdrawals remain paused, with restoration targeted by end of today.\n\nNews | Markets | YouTube\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
 "title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! \u2013 Hacker Buys Two Altcoins!",
@@ -2203,19 +2191,6 @@
 "url": "https://t.me/WatcherGuru/16045",
 "urls": []
 },
-"b66382f11d5d": {
-"coin": "",
-"src": "KuCoin",
-"srcs": [
-"KuCoin"
-],
-"t": 1794668088.1067975,
-"t0": 1794665223.0,
-"tgtext": "",
-"title": "Machi Big Brother liquidated over 2,000 times! According to",
-"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OTWxuTExkV2ZpMmYya3FYMjgxNGc3SkZfcFNHaW0yZm9WeGllbDE5eVhTeGNQVWlUNVlCOFZLci1CSDlpM1ZfQlcxR0VmQ2ZhQTNSa0hoT08tMXFXdG1GUG40NUU0SzFvdnVKaE9yZnRCZw?oc=5",
-"urls": []
-},
 "b70ae5dbfac7": {
 "coin": "bitcoin",
 "src": "CoinDesk",
@@ -2324,7 +2299,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794834486.0,
 "tgtext": "\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 485 $BTC,  bringing its total holdings to 850,849 $BTC\n\nNews | Markets | YouTube\nJUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
 "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
@@ -2464,7 +2439,7 @@
 "Crypto Headlines",
 "Wu Blockchain"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794834072.0,
 "tgtext": "\ud83d\udd25 \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u0434\u043e\u043a\u0443\u043f\u0438\u043b 485 BTC ($33,4m)! \u2013 \u0440\u0435\u043b\u0438\u0437\n\n\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 \u043f\u043e\u043a\u0443\u043f\u043a\u0438: $68,887.\n\n\u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0430 \u0431\u0430\u043b\u0430\u043d\u0441\u0435 Strategy \u0445\u0440\u0430\u043d\u0438\u0442\u0441\u044f 850,849 BTC ($54,5b).\n\n\u0414\u043e\u043b\u043b\u0430\u0440\u043e\u0432\u044b\u0439 \u0440\u0435\u0437\u0435\u0440\u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 $4,9b.\n\n\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Strategy \u0442\u0430\u043a\u0436\u0435 \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 221 BTC ($14,1m) \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u0448\u0435\u043b\u0435\u043a \u2013 arkham\n\n\u0420\u0430\u043d\u0435\u0435 \u0438\u0437-\u0437\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0445 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432 \u0432 X (Twitter) \u043d\u0430\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0430\u043d\u0438\u043a\u0430, \u0447\u0442\u043e \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u043f\u0440\u043e\u0434\u0430\u0435\u0442 \u0411\u0438\u0442\u043a\u043e\u0438\u043d.\n\nCrypto Headlines\nStrategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link",
 "title": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC",
@@ -2633,7 +2608,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794824781.0,
 "tgtext": "JUST IN: Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Solana officially drops \u201cmainnet beta,\u201d introducing Solana 1.0 without changing the network.\n\nNews | Markets | YouTube",
 "title": "Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0",
@@ -2750,7 +2725,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794836992.0,
 "tgtext": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked\n\nBitmine (BMNR) acquired 7,653 ETH over the past week, bringing its total holdings to 6,077,745 ETH, representing 4.97% of total supply. The company has staked 5.23 million ETH, worth approximately $9.5 billion, generating estimated annualized staking revenue of $245 million at a 2.57% yield. Total crypto, cash and other investments reached $11.8 billion as of November 15. \u2014 link",
 "title": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked",
@@ -2804,7 +2779,7 @@
 "CoinCodex",
 "Forbes"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794830880.0,
 "tgtext": "",
 "title": "\u2018It Needs To Hold\u2019\u2014Bitcoin Is Suddenly Braced For A Massive $500 Billion Price Crash",
@@ -3020,11 +2995,12 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794840824.8404212,
+"t": 1794841662.8046465,
 "t0": 1794839478.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia NVDA CEO Jensen Huang was a Chinese spy.",
 "url": "https://t.me/WatcherGuru/16065",
 "urls": []
@@ -3295,78 +3271,52 @@
 "movers": {
 "aster-2": 1794776657.8896964,
 "bitway": 1794650597.9670339,
-"ethereum": 1794711791.1498003,
+"ethereum": 1794841357.5934613,
 "rain": 1794812525.8653169
 },
 "probs": {
-"028b8aea2ae3": 0.195,
-"074416aca44e": 0.395,
-"0f9f12d21fcd": 0.041,
-"0fbe054e8dbf": 0.211,
-"18ae860e02bd": 0.151,
-"19dadfd3f6fc": 0.798,
-"230d6a455119": 0.086,
-"250cd7e1056e": 0.13,
-"26af0c550ad2": 0.313,
-"27786e2f37ed": 0.829,
-"2c24015162ad": 0.609,
-"34345eefb48d": 0.231,
-"3bb3bdc6b48a": 0.31,
-"3ed951bdedc4": 0.815,
-"4515b8a36c00": 0.045,
-"5aa0f120c5f9": 0.108,
-"604b49bc786c": 0.062,
-"61200ffbb954": 0.952,
-"62a7b2585ed2": 0.793,
-"63b687e92737": 0.266,
-"82d4948cf06e": 0.114,
-"8383e3b86eea": 0.094,
-"885594f04f52": 0.084,
-"999c13b3eea4": 0.197,
-"99b818dca458": 0.05,
-"a41e944e9649": 0.17,
-"aac4546e9987": 0.143,
-"ba7f58a6cfac": 0.984,
-"c83f3f357590": 0.888,
-"d0ccabcc0bb6": 0.468,
-"d66724921ba9": 0.844,
-"d708b196eef2": 0.249,
-"de534142608e": 0.24,
-"e2b2eefc3a87": 0.88,
-"e79c2ed27e2b": 0.32,
-"ee922286e93b": 0.072,
-"f26e2d476893": 0.952,
-"f54120d2e91c": 0.061,
-"f5c2a3b62a11": 0.534,
-"f7126ccc5773": 0.058
+"028b8aea2ae3": 0.137,
+"06cfe7467601": 0.144,
+"06fbce5b009c": 0.107,
+"0fbe054e8dbf": 0.118,
+"18ae860e02bd": 0.104,
+"19dadfd3f6fc": 0.804,
+"20b29e67b35e": 0.285,
+"230d6a455119": 0.058,
+"26af0c550ad2": 0.23,
+"27786e2f37ed": 0.41,
+"2c24015162ad": 0.504,
+"34345eefb48d": 0.164,
+"3ed951bdedc4": 0.752,
+"4515b8a36c00": 0.035,
+"586ab18f44a9": 0.751,
+"5aa0f120c5f9": 0.073,
+"61200ffbb954": 0.938,
+"62a7b2585ed2": 0.572,
+"63b687e92737": 0.192,
+"7d2f4498d182": 0.12,
+"82d4948cf06e": 0.077,
+"8383e3b86eea": 0.064,
+"885594f04f52": 0.056,
+"999c13b3eea4": 0.138,
+"9f658a77286c": 0.033,
+"a41e944e9649": 0.118,
+"aac4546e9987": 0.098,
+"ba7f58a6cfac": 0.976,
+"c83f3f357590": 0.839,
+"d0ccabcc0bb6": 0.233,
+"d66724921ba9": 0.779,
+"d708b196eef2": 0.178,
+"d7bcb80c044e": 0.049,
+"dd99170eccf9": 0.833,
+"de534142608e": 0.171,
+"e2b2eefc3a87": 0.827,
+"f26e2d476893": 0.949,
+"f54120d2e91c": 0.041,
+"f5c2a3b62a11": 0.428,
+"f7126ccc5773": 0.226
 },
 "sent": [
-{
-"e": [
-"kava",
-"lend"
-],
-"k": [
-"hack",
-"outage"
-],
-"t": 1794667780.7457988,
-"u": [
-"https://news.google.com/rss/articles/CBMicEFVX3lxTE1QY2RXdGxZYTY1U2lqMXkyUHhGcU5jMXFpOUl1VmNoQWlzNXgyclVwbmdQNHl0VU54emlhbjNrM0lvd0tHQzJhNzVScFdUdW1KYWVZUUY4bWRMT082ejdNYWV0NXE3WE13T2VKZzExdHQ?oc=5",
-"https://news.google.com/rss/articles/CBMimwFBVV95cUxOSy1lNTZfcTFZNnNBVGNLbkpjSEtCZFVBN0ZVLVJROUhUeWUyYlRYU0MyQU9VMk1tZ0I5bUxxVkx0REJBVEp0VE16OVhIdXlJcGJOM0hZSExzUGM5RnpMQi1yNEx1VkhObjU5Q1R4ME1rcmJIbXVGTi1WWkpGcmp4Yl9uV0lNU2hZZ3p3YVMxLTVzVkZvZDZfYzhQMA?oc=5"
-],
-"w": [
-"exchanges",
-"exploit",
-"halt",
-"hits",
-"kava",
-"lend",
-"sinks",
-"token",
-"withdrawals"
-]
-},
 {
 "e": [
 "big",
@@ -4751,6 +4701,85 @@
 "secretary",
 "year"
 ]
+},
+{
+"e": [
+"chinese",
+"huang",
+"jensen",
+"nvda",
+"nvidia",
+"president",
+"trump"
+],
+"k": [],
+"t": 1794841357.5934613,
+"u": [
+"https://t.me/WatcherGuru/16063",
+"https://t.me/WatcherGuru/16065",
+"https://t.me/WatcherGuru/16066",
+"https://t.me/cointelegraph/73319"
+],
+"w": [
+"ceo",
+"chinese",
+"doesn",
+"huang",
+"involved",
+"jensen",
+"know",
+"nvda",
+"nvidia",
+"president",
+"spy",
+"trump",
+"was",
+"woman"
+]
+},
+{
+"e": [
+"bitmine",
+"holdings",
+"million",
+"reach",
+"staked"
+],
+"k": [],
+"t": 1794841433.9937317,
+"u": [
+"https://t.me/wublockchainenglish/26850"
+],
+"w": [
+"bitmine",
+"eth",
+"holdings",
+"million",
+"reach",
+"staked"
+]
+},
+{
+"e": [
+"solana",
+"zelle"
+],
+"k": [],
+"t": 1794841662.8046465,
+"u": [
+"https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/WatcherGuru/16067"
+],
+"w": [
+"expand",
+"international",
+"payments",
+"selects",
+"solana",
+"stablecoins",
+"using",
+"zelle"
+]
 }
 ],
 "stories": {},
@@ -4759,63 +4788,63 @@
 [
 "ba7f58a6cfac",
 54,
-106,
+120,
 3
 ],
 [
-"61200ffbb954",
-94,
-225,
-9
+"f26e2d476893",
+36,
+36,
+2
 ],
 [
-"f26e2d476893",
-26,
-22,
-1
+"61200ffbb954",
+93,
+239,
+9
 ],
 [
 "c83f3f357590",
 26,
-113,
+127,
 2
+],
+[
+"dd99170eccf9",
+26,
+78,
+1
 ],
 [
 "e2b2eefc3a87",
 60,
-166,
+180,
 2
-],
-[
-"d66724921ba9",
-29,
-267,
-4
-],
-[
-"dd99170eccf9",
-16,
-64,
-1
-],
-[
-"27786e2f37ed",
-41,
-255,
-2
-],
-[
-"3ed951bdedc4",
-57,
-291,
-5
 ],
 [
 "19dadfd3f6fc",
-61,
-223,
+44,
+237,
 3
+],
+[
+"d66724921ba9",
+27,
+281,
+4
+],
+[
+"3ed951bdedc4",
+55,
+305,
+6
+],
+[
+"586ab18f44a9",
+28,
+12,
+2
 ]
 ],
-"top_at": 1794840824.8404212
+"top_at": 1794841662.8046465
 }
