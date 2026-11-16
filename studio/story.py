@@ -303,6 +303,8 @@ def check(sb, strict=True):
     sb['tone'] = sb.get('tone') if sb.get('tone') in TONES else 'mystery'
     sb['lesson'] = re.sub(r'^\s*(chain secrets\s+)?lesson\s*[:\-—]\s*', '', re.sub(r'\s+', ' ', str(sb.get('lesson') or '')).strip(), flags=re.I)[:110]   # the prefix is added when spoken
     if sb['lesson'] and not re.search(r'[.!?]$', sb['lesson']): sb['lesson'] += '.'
+    sb['headline'] = re.sub(r'\s+', ' ', str(sb.get('headline') or '')).strip()[:70]   # owner (Nov 16): a headline that stays on top the whole video ('/' = 2 lines)
+    if not sb['headline']: sb.pop('headline')
     sb['respell'] = {k: v for k, v in (sb.get('respell') or {}).items() if isinstance(k, str) and isinstance(v, str)
                      and k.lower() not in KNOWN_OK and v.lower().replace('-', '') != k.lower()}      # the voice says well-known names right; respelling made them worse
     sc = [s for s in sb['scenes'] if isinstance(s, dict) and str(s.get('line', '')).strip()]

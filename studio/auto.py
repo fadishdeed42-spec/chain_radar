@@ -58,6 +58,7 @@ elif ST['captions'] == 'key':                                          # owner (
         return all(n.rstrip('.') in vis_n or any(v.startswith(n.rstrip('.')) for v in vis_n) for n in nums)
     cs.CAPS = [c for c in cs.CAPS if _re.search(r'[0-9$%]', c[1]) and not _shown(c)]; cs.CAP_SIZE = 84; cs.CAP_Y = 1380
 elif ST['captions'] == 'large': cs.CAP_SIZE = 72
+elif ST['captions'] == 'flow': cs.CAPS = []                            # owner (Nov 16): 2-3 words at a time, the spoken word lit up (drawn in overlay)
 if ST['motion'] == 'calm': cs.SHAKE, cs.WHIP = .3, .4
 elif ST['motion'] == 'strong': cs.SHAKE, cs.WHIP = 1.45, 1.15
 SFX_K = {'off': 0, 'soft': .55, 'normal': 1.0, 'punchy': 1.35}.get(ST['sfx'], 1.0)
@@ -724,6 +725,66 @@ def scene_cam(t, i):
     return M
 
 
+HEADLINE = [x.strip().upper() for x in str(SB.get('headline') or '').split('/') if x.strip()][:2]
+HEAD_Y = 262                                                           # under the Shorts top bar
+if HEADLINE: FACT_Y_OVERRIDE = 452                                     # the fact strip moves under the headline
+HL_COL = (255, 196, 46)                                                # the lit word: channel gold
+
+
+def headline(cv, t):
+    """owner (Nov 16): the story's headline stays on top the whole video, so a viewer who swipes in mid-way knows the story"""
+    if not HEADLINE: return
+    end = (cs.CTA - .1) if cs.CTA else 1e9
+    al = clamp(seg(t, 0, .25)) * (1 - seg(t, end - .2, end))
+    if al <= 0: return
+    sz = min(fit(ln, 'black', 66, 940, track=1) for ln in HEADLINE)
+    for k, ln in enumerate(HEADLINE):
+        cv.text(W / 2, HEAD_Y + k * sz * 1.12, ln, 'black', sz, WHITE if k == 0 else HL_COL, al, anchor='cm', shadow=12, track=1)
+
+
+def _flow_chunks():
+    """spoken words -> chunks of 2-3 words (break on punctuation, pauses and scene changes); the end card line is left out"""
+    out, cur = [], []
+    ws = [w for w in cs.WORDS if w[0] < len(SCN) and str(w[3]).strip()]
+    for k, w in enumerate(ws):
+        if cur and (w[0] != cur[-1][0] or w[2] - cur[-1][2] > .7 or len(cur) >= 3
+                    or (re.search(r'[.!?,;:]$', cur[-1][3]) and len(cur) >= 1)):
+            out.append(cur); cur = []
+        cur.append(w)
+    if cur: out.append(cur)
+    res = []
+    for n, c in enumerate(out):
+        t0 = c[0][2] - .06
+        nxt = out[n + 1][0][2] - .06 if n + 1 < len(out) else 1e9
+        res.append({'w': [(x[3].upper().strip(), x[2]) for x in c], 't0': t0, 't1': min(nxt, c[-1][2] + .7)})
+    return res
+
+
+FLOW = _flow_chunks() if ST['captions'] == 'flow' else []
+FLOW_Y = 1520
+SLAMS = []                                                             # full-screen word slams: the captions step aside
+
+
+def flow_caption(cv, t):
+    if not FLOW or any(a - .02 <= t < b for a, b in SLAMS): return
+    for c in FLOW:
+        if not (c['t0'] <= t < c['t1']): continue
+        al = clamp(seg(t, c['t0'], c['t0'] + .08)) * (1 - seg(t, c['t1'] - .06, c['t1']))
+        q = out3(seg(t, c['t0'], c['t0'] + .14))
+        words = [w for w, _ in c['w']]
+        act = max([j for j, (_, wt) in enumerate(c['w']) if wt <= t + .03] or [0])
+        sz = fit(' '.join(words), 'black', 78, 960)
+        sp = text_size(' ', 'black', sz)[0] + sz * .12
+        ws_ = [text_size(w, 'black', sz)[0] for w in words]
+        x = W / 2 - (sum(ws_) + sp * (len(words) - 1)) / 2
+        for j, (w, ww) in enumerate(zip(words, ws_)):
+            on = j == act
+            cv.text(x + ww / 2, FLOW_Y - 8 * (1 - q), w, 'black', sz, HL_COL if on else WHITE, al, anchor='cm',
+                    scale=(1.07 if on else 1.0) * lerp(.9, 1, q), shadow=14)
+            x += ww + sp
+        return
+
+
 STICK_Y = 1530                                                         # stickers sit below the stamps/labels, above the captions
 
 
@@ -736,6 +797,7 @@ def overlay(cv, t, i):
     if KIN:
         for n, b in enumerate(shown):
             t0 = b['t']; t1 = min(t0 + .85, shown[n + 1]['t'] - .05 if n + 1 < len(shown) else scene_end(i) - .05)
+            if (t0, t1) not in SLAMS: SLAMS.append((t0, t1))
             if t0 - .02 <= t < t1: word_slam(cv, t, t0, t1, b['text'], n, a_sc)
         shown = []
     for n, b in enumerate(shown):
@@ -760,7 +822,8 @@ def overlay(cv, t, i):
         if 0 < g < 1:
             r = lerp(120, 520, out3(g))
             cv.ring(W / 2, 760, r, ACC, 6 * (1 - g) + 1, .35 * (1 - g) * a_sc)
-    if i == 0:                                                            # branded sting over the hook (no delay before the hook)
+    headline(cv, t); flow_caption(cv, t)
+    if i == 0 and not HEADLINE:                                           # branded sting over the hook (no delay before the hook)
         g = seg(t, .05, .6); g2 = 1 - seg(t, 2.2, 2.6)
         if g2 > 0:
             q = back(g)
@@ -922,14 +985,14 @@ def sc_flow(cv, t, i, v, a):
         stamp(cv, t, h - .1, frozen.upper()[:18], W / 2, ys + 170, fit(frozen.upper()[:18], 'black', 70, 700), ALT, a)
 
 
-FACT_Y = 238                                                           # top band: empty in every template, under the Shorts top bar
+FACT_Y = globals().get('FACT_Y_OVERRIDE', 238)                         # top band: empty in every template, under the Shorts top bar (under the headline when there is one)
 
 
 def fact_line(cv, t, i):
     """owner (Nov 15): more to read -> one short fact (date, number, name) in a strip under the picture, typed in"""
     fx = str(SCN[i].get('fact') or '').upper()
     if not fx or i == len(SCN) - 1: return
-    t0, t1 = max(P(i) + .2, 2.7 if i == 0 else 0), scene_end(i) - .08   # scene 0: after the branded sting
+    t0, t1 = max(P(i) + .2, 2.7 if (i == 0 and not HEADLINE) else 0), scene_end(i) - .08   # scene 0: after the branded sting
     if not (t0 <= t < t1): return
     q = out3(seg(t, t0, t0 + .3)); o = seg(t, t1 - .15, t1); al = q * (1 - o)
     if al <= 0: return
@@ -951,7 +1014,7 @@ def receipt_card(cv, t, i):
     if not (t0 <= t < t1): return
     p = back(seg(t, t0, t0 + .35)); o = seg(t, t1 - .25, t1)
     al = clamp(p) * (1 - o)
-    x0 = lerp(-900, 60, out3(seg(t, t0, t0 + .35))) - 900 * o; x1 = x0 + W - 120; y0 = 300
+    x0 = lerp(-900, 60, out3(seg(t, t0, t0 + .35))) - 900 * o; x1 = x0 + W - 120; y0 = BOX_TOP if HEADLINE else 300
     lines = wrap(str(rc.get('headline', '')), 34)[:3]
     hgt = 96 + 58 * len(lines)
     cv.rect(x0, y0, x1, y0 + hgt, (246, 247, 250), .97 * al, r=22)
@@ -1022,6 +1085,27 @@ def _lower(cv, base, s=.84, dy=.09):
 
 
 _GS = {}
+_BX = {}
+BOX_TOP = 560                                                          # with a headline: graphics live between the fact strip and the captions
+
+
+def _box_of(L, base):
+    M = np.abs(L - base).sum(2) > 45                                     # faint rings/glows don't count, only what you read
+    ys, xs = np.nonzero(M)
+    if not len(xs): return None
+    return xs.min(), xs.max(), ys.min(), ys.max()
+
+
+def _box_fit(cv, base, f):
+    """owner (Nov 16): the headline owns the top -> scale + move what the template drew into the free box (one fixed fit per scene)"""
+    s, dx, dy = f
+    if abs(s - 1) < .01 and abs(dx) < 1 and abs(dy) < 1: return
+    L = cv.a
+    M = np.clip(np.abs(L - base).sum(2) / 30, 0, 1).astype(np.float32)
+    Mx = np.float32([[s, 0, dx], [0, s, dy]])
+    Lw = cv2.warpAffine(L, Mx, (RW, RH), flags=cv2.INTER_LINEAR)
+    Mw = cv2.warpAffine(M, Mx, (RW, RH), flags=cv2.INTER_LINEAR)[..., None]
+    cv.a = base * (1 - Mw) + Lw * Mw
 GROW = {'title': 1.22, 'counter': 1.2, 'stamp': 1.22, 'date': 1.2, 'person': 1.18, 'quote': 1.14, 'doc': 1.16, 'versus': 1.1,
         'app': 1.12, 'news': 1.06, 'list': 1.12, 'timer': 1.16, 'flow': 1.08}   # owner (Nov 15): visuals looked small on a phone -> grow toward the middle
 LOWER = ('title', 'versus', 'quote', 'stamp', 'face', 'timer', 'date', 'person', 'flow', 'app', 'doc', 'route', 'crowd', 'facility', 'servers', 'vote')   # counter and list already make room
@@ -1040,6 +1124,27 @@ def make_scene(i):
         sh = SHRINK.get(v['type']) if i in SHOTS else None
         base = cv.a.copy() if sh else None
         ambient(cv, t)
+        if HEADLINE and not sh and v['type'] != 'chart':
+            bb = cv.a.copy()
+            fn(cv, t, i, v, a)
+            if i not in _BX:                                               # measure the settled scene once, on a scratch copy
+                import copy as _cp
+                box = None
+                for tm in (hit(i) + .6, hit(i) + 1.2, scene_end(i) - .25):
+                    c2 = _cp.copy(cv); c2.a = bb.copy(); fn(c2, max(P(i), min(scene_end(i) - .1, tm)), i, v, 1.0)
+                    b = _box_of(c2.a, bb)
+                    if b: box = b if box is None else (min(box[0], b[0]), max(box[1], b[1]), min(box[2], b[2]), max(box[3], b[3]))
+                top = (BOX_TOP + (96 + 58 * len(wrap(str(SCN[i]['receipt'].get('headline', '')), 34)[:3]) + 40) if SCN[i].get('receipt') else BOX_TOP) * K
+                X0, X1, Y0, Y1 = (W - SAFE_W) / 2 * K, (W + SAFE_W) / 2 * K, top, (FLOW_Y - 220 if FLOW else 1450) * K   # room for the camera push-in
+                if box is None: _BX[i] = (1, 0, 0)
+                else:
+                    x0, x1, y0, y1 = box
+                    sc_ = min(GROW.get(v['type'], 1.0) * 1.05, (X1 - X0) / max(1, x1 - x0), (Y1 - Y0) / max(1, y1 - y0))
+                    cxb, cyb = (x0 + x1) / 2, (y0 + y1) / 2
+                    _BX[i] = (sc_, (X0 + X1) / 2 - sc_ * cxb, (Y0 + Y1) / 2 - sc_ * cyb)
+                if os.environ.get('GROW_DEBUG'): print('box', i, v['type'], [round(x, 2) for x in _BX[i]])
+            _box_fit(cv, bb, _BX[i])
+            return
         lb = cv.a.copy() if low else None
         gb = cv.a.copy() if (not low and not sh and GROW.get(v['type'])) else None
         fn(cv, t, i, v, a)
