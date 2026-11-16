@@ -1,0 +1,69 @@
+name: film3d
+# 3D film behind a Short (owner Nov 16): Blender (pip bpy, free) renders the job's 3D scene in parallel parts,
+# keyed to the voice's word times (jobs/<job>/timing.json), then the normal render stage puts the words on top.
+on:
+  workflow_dispatch:
+    inputs:
+      job: {description: 'job id (folder in jobs/)', required: true}
+      n: {description: 'parallel parts', required: true, default: '20'}
+      scale: {description: '1 = 540x960, 1.5 = 810x1440', required: true, default: '1.5'}
+      render: {description: 'start the Short render when done (yes/no)', required: true, default: 'yes'}
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: film3d-${{ github.event.inputs.job }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      parts: ${{ steps.p.outputs.parts }}
+    steps:
+      - id: p
+        run: echo "parts=$(python3 -c "import json;print(json.dumps(list(range(int('${{ inputs.n }}')))))")" >> $GITHUB_OUTPUT
+  frames:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy: {fail-fast: true, matrix: {part: '${{ fromJSON(needs.plan.outputs.parts) }}'}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 >/dev/null
+          pip install -q bpy==5.0.1
+      - name: render part
+        run: |
+          J=jobs/${{ inputs.job }}
+          SCRIPT=$(python3 -c "import json;print(json.load(open('$J/storyboard.json')).get('film3d','studio/b3d/split3d.py'))")
+          python -u $SCRIPT $J ${{ matrix.part }} ${{ inputs.n }} ${{ inputs.scale }} 2>&1 | grep -v "^Fra:\|Sample\|Rendering\|Updating\|Synchroniz\|Deprecation\|use_nodes" | tail -20
+          FIRST=$(ls $J/film | head -1 | sed 's/f_0*//; s/.png//')
+          ffmpeg -v error -y -framerate 30 -start_number $FIRST -i $J/film/f_%05d.png -c:v libx264 -crf 14 -pix_fmt yuv420p part_$(printf %02d ${{ matrix.part }}).mp4
+          ls -la part_*.mp4
+      - uses: actions/upload-artifact@v4
+        with: {name: 'film-part-${{ matrix.part }}', path: 'part_*.mp4'}
+  join:
+    needs: frames
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'film-part-*', merge-multiple: true, path: parts}
+      - name: join + save
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          J=jobs/${{ inputs.job }}
+          ls parts | sort | sed "s/^/file 'parts\//; s/$/'/" > list.txt; cat list.txt
+          ffmpeg -v error -y -f concat -safe 0 -i list.txt -c:v libx264 -crf 17 -preset slow -pix_fmt yuv420p -movflags +faststart $J/film.mp4
+          ffprobe -v error -show_entries format=duration:stream=width,height,nb_frames -of compact $J/film.mp4
+          git config user.name chain-radar; git config user.email noreply@github.com
+          git add -f $J/film.mp4 && git commit -qm "film3d ${{ inputs.job }} [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done
+      - name: start the Short render
+        if: inputs.render == 'yes'
+        run: |
+          curl -s -X POST -H "Authorization: Bearer ${{ github.token }}" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/short.yml/dispatches \
+            -d '{"ref":"main","inputs":{"job":"${{ inputs.job }}","stage":"render"}}'

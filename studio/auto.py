@@ -67,7 +67,8 @@ LOOK = ST.get('look', 'none')
 import looklib
 PACE = {'calm': 2.6, 'normal': 1.8, 'fast': 1.25}.get(ST.get('pace', 'normal'), 1.8)   # max seconds without a new on-screen moment
 MOVE = {'calm': .6, 'auto': 1.0, 'strong': 1.35}.get(ST['motion'], 1.0)
-KIN = ST.get('cuts') == 'fast'                                         # owner (Nov 15): "more exciting" -> key words slam full screen, hits on every cut
+FILM = os.path.join(JOB, 'film.mp4') if STYLE == 'film' and os.path.exists(os.path.join(JOB, 'film.mp4')) else None   # owner (Nov 16): a 3D film (Blender) plays behind the story
+KIN = ST.get('cuts') == 'fast' and not FILM                                         # owner (Nov 15): "more exciting" -> key words slam full screen, hits on every cut
 if KIN: PACE = min(PACE, .95)
 EP = ''                                                                # owner: no episode number on screen, videos can go out in any order
 SCN = SB['scenes']
@@ -88,7 +89,7 @@ if SB.get('chart') and os.path.exists(os.path.join(JOB, 'data.json')):
 
 # ---------------------------------------------------------------- real footage + photos (media.py fetched them)
 MEDIA = {}
-if STYLE not in ('graphics', '3d') and os.path.exists(os.path.join(JOB, 'media.json')):
+if STYLE not in ('graphics', '3d', 'film') and os.path.exists(os.path.join(JOB, 'media.json')):
     MEDIA = {int(k): v for k, v in json.load(open(os.path.join(JOB, 'media.json'))).items() if os.path.exists(os.path.join(JOB, v['file']))}
 SHOTS = {}                                                             # scene -> [{file, kind, t0}] : a new picture for every spoken phrase
 
@@ -252,6 +253,23 @@ def backdrop(cv, t, i):
     gr = GRADE_B if i in SHOTS else GRADE
     g = im * (gr * (.75 if real_person else 1)) + _BGF * (1 - gr) * .35
     cv.a += (g - cv.a) * a
+
+
+def film_backdrop(cv, t, i):
+    """the 3D film at the same moment (rendered to the voice's own word times), with a soft glow on the bright edges"""
+    if 'film' not in _cache: _cache['film'] = _open_video(FILM)
+    c = _cache['film']
+    idx = min(c['n'] - 1, max(0, int(t * c['fps'])))
+    if idx != c['pos']:
+        if idx != c['pos'] + 1: c['cap'].set(cv2.CAP_PROP_POS_FRAMES, idx)
+        ok, fr = c['cap'].read()
+        if ok:
+            im = cover(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB).astype(np.float32), RW, RH)
+            sm = cv2.resize(im, (RW // 4, RH // 4), interpolation=cv2.INTER_AREA)
+            gl = cv2.GaussianBlur(np.clip(sm - 140, 0, None), (0, 0), 7)
+            c['img'] = np.clip(im + cv2.resize(gl, (RW, RH)) * .9, 0, 255)
+        c['pos'] = idx
+    if c['img'] is not None: cv.a[...] = c['img']
 
 
 def portrait(cv, i, cx, cy, r, alpha):
@@ -817,7 +835,7 @@ def overlay(cv, t, i):
         if ic: icon(cv, ic, x - wbox / 2 * s_ + 70 * s_, y, .22 * s_, a_sc * (1 - out), t)
         cv.text(x + (45 if ic else 0) * s_, y, b['text'], 'black', sz, BG if col in (GOLD, UP) else WHITE, a_sc * clamp(q) * (1 - out),
                 anchor='cm', scale=s_, track=3)
-    for b in bs:                                                          # every moment also flashes a light burst
+    for b in (bs if not FILM else []):                                    # every moment also flashes a light burst
         g = seg(t, b['t'] - .02, b['t'] + .35)
         if 0 < g < 1:
             r = lerp(120, 520, out3(g))
@@ -1118,6 +1136,7 @@ def make_scene(i):
     low = bool(SCN[i].get('receipt')) and (v['type'] in LOWER or has_icon)   # a counter with an icon needs the room too
 
     def scene(cv, t):
+        if FILM and not last: return                                      # the 3D film is the picture; the words ride on top
         a = 1.0 if last else fade(t, i)
         if i == 0:
             a = 1 - seg(t, P(1) - .2, P(1)) if len(SCN) > 1 else 1.0
@@ -1177,7 +1196,7 @@ cs.IMPACTS = (lambda L: sorted(L + ([b['t'] for bs in BEATS for b in bs if b['te
                     [hit(i) for i, s in enumerate(SCN) if s['role'] in PACK['impacts'] and s['visual']['type'] in ('title', 'stamp', 'counter', 'chart', 'versus', 'quote', 'person', 'flow')])
 cs.NAME = 'auto'
 cs.SCENE_CAM = scene_cam
-cs.BACKDROP = backdrop if MEDIA else None
+cs.BACKDROP = film_backdrop if FILM else (backdrop if MEDIA else None)
 cs.OVERLAY = overlay
 
 

@@ -154,7 +154,7 @@ def wiki_photo(q):
 def wants(sb):
     """(scene, kind, query) the style asks for"""
     st = story.settings(sb).get('style', 'mixed')
-    if st in ('graphics', '3d'): return []
+    if st in ('graphics', '3d', 'film'): return []
     out = []
     for i, s in enumerate(sb['scenes']):
         ty = s['visual']['type']
@@ -173,7 +173,7 @@ MAX_SHOTS = 48
 
 def fetch_shots(job, sb, got, used):
     """one clip (or photo) per spoken phrase: scene i -> got[i]['shots'] = [{file, kind, words}]. Scenes are fetched 4 at a time."""
-    if story.settings(sb).get('style', 'mixed') in ('graphics', '3d'): return
+    if story.settings(sb).get('style', 'mixed') in ('graphics', '3d', 'film'): return
     import threading
     from concurrent.futures import ThreadPoolExecutor
     lock, n = threading.Lock(), [0]

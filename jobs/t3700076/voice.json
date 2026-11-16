@@ -1,0 +1,111 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.25,
+ "seed": 7,
+ "scenes": [
+  [
+   "In twenty thirteen, Bitcoin split into two chains.",
+   0.95,
+   0.36
+  ],
+  [
+   "And developers chose to kill the newer one.",
+   0.95,
+   0.36
+  ],
+  [
+   "March eleventh, twenty thirteen. Bitcoin version zero point eight was brand new.",
+   0.88,
+   0.22
+  ],
+  [
+   "Then one huge block hit the network, with over five thousand transactions.",
+   0.88,
+   0.22
+  ],
+  [
+   "New nodes accepted it. Old nodes couldn't read it.",
+   0.95,
+   0.36
+  ],
+  [
+   "Their old database ran out of locks. Bitcoin split in two.",
+   0.88,
+   0.22
+  ],
+  [
+   "Mount Gox and Bit Pay paused deposits.",
+   0.88,
+   0.22
+  ],
+  [
+   "The price dropped twenty-four percent.",
+   0.95,
+   0.36
+  ],
+  [
+   "Developers picked the old chain. Big mining pools downgraded.",
+   0.95,
+   0.28
+  ],
+  [
+   "About six hours later, the chains joined again.",
+   0.88,
+   0.22
+  ],
+  [
+   "Twenty-four blocks were wiped out.",
+   0.95,
+   0.36
+  ],
+  [
+   "And someone double spent ten thousand dollars against Oh-Kay Pay.",
+   0.95,
+   0.36
+  ],
+  [
+   "Bug or warning?",
+   0.83,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.88,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "In twenty thirteen, Bitcoin split into two chains.",
+  "And developers chose to kill the newer one.",
+  "March eleventh, twenty thirteen. Bitcoin version zero point eight was brand new.",
+  "Then one huge block hit the network, with over five thousand transactions.",
+  "New nodes accepted it. Old nodes couldn't read it.",
+  "Their old database ran out of locks. Bitcoin split in two.",
+  "Mount Gox and BitPay paused deposits.",
+  "The price dropped twenty-four percent.",
+  "Developers picked the old chain. Big mining pools downgraded.",
+  "About six hours later, the chains joined again.",
+  "Twenty-four blocks were wiped out.",
+  "And someone double spent ten thousand dollars against OKPay.",
+  "Bug or warning?",
+  "Subscribe for more stories."
+ ]
+}
