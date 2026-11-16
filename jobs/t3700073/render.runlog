@@ -11,10 +11,9 @@ mixed -> jobs/t3700073/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700073/short.mp4 -c:v libx264 -crf 19 -maxrate 8920k -bufsize 17840k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700073/short_s.mp4
 video check: []
 qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-✅ <b>Video check: passed</b> (some checks could not run, see ➖)
-➖ visual: Gemini did not answer — visuals not reviewed
-✅ 5 checks passed (format, loudness, motion, picture, sync)
+❌ <b>Video check: problems found</b>
+❌ hook frame: first frame is not a hook: Title only, no shocking statement.
+✅ 6 checks passed (format, loudness, motion, picture, sync, visual)
 $ ffmpeg -y -v error -ss 1.63 -i jobs/t3700073/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700073/sh_00.png
 $ ffmpeg -y -v error -ss 4.90 -i jobs/t3700073/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700073/sh_01.png
 $ ffmpeg -y -v error -ss 8.17 -i jobs/t3700073/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700073/sh_02.png
