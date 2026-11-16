@@ -590,7 +590,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794792635.0,
 "tgtext": "Trader 0xb98E sold 1,858 $ETH for 5.41M $USDC at $2,911 over 2 years ago.\n\nAfter more than 2 years of inactivity, he spent 5.41M $USDC to buy back 2,968 $ETH at a much lower price of $1,822 just 4 hours ago!\n\nhttps://arkm.com/explorer/address/0xb98E9e7a0ff948A901F1F9bD40eE379f3A22Aa03",
 "title": "Trader 0xb98E sold 1,858 ETH for 5.41M USDC at $2,911 over 2 years ago.",
@@ -1093,7 +1093,7 @@
 "srcs": [
 "grafa.com"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794791925.0,
 "tgtext": "",
 "title": "Kava Lend exploit drains $3.8 million in KAVA",
@@ -1218,7 +1218,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794778856.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction This Week: Will BTC Crash to $60K or Rally to $70K?",
@@ -1462,7 +1462,7 @@
 "Crypto Briefing",
 "The Defiant"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794791792.0,
 "tgtext": "",
 "title": "Aster CEO probes ASTER token swings linked to targeted liquidations",
@@ -1490,7 +1490,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
@@ -1829,7 +1829,7 @@
 "Gagadget.com",
 "MLQ.ai"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794771852.0,
 "tgtext": "",
 "title": "Why is crypto crashing? The Fed, ETF outflows, the Binance hack and index exits behind bitcoin's slide",
@@ -2372,7 +2372,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2412,7 +2412,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794789753.0,
 "tgtext": "\ud83d\udea8 TODAY: Coinbase CEO Brian Armstrong says the biggest benefit of tokenized equities isn\u2019t 24/7 markets, but access for billions who can\u2019t buy stocks today and better yield onchain.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong says the biggest benefit of tokenized equities isn\u2019t 24/7 markets, but access for billions who can\u2019t buy stocks today and better yield onchain.",
@@ -2514,7 +2514,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794785493.0,
 "tgtext": "\ud83d\udea8 REKT: We just saw another $1.23B in long liquidations in just 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: We just saw another $1.23B in long liquidations in just 24 hours.",
@@ -2683,7 +2683,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794792814.4519892,
+"t": 1794793424.7483833,
 "t0": 1794783059.0,
 "tgtext": "",
 "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
@@ -3194,10 +3194,9 @@
 "10dd0cac55e5": 0.015,
 "20828b105e1c": 0.023,
 "236055428721": 0.013,
-"32a836237ff4": 0.978,
-"33baaf910bec": 0.014,
+"32a836237ff4": 0.769,
 "36b999fcc1e8": 0.023,
-"391582780d9a": 0.024,
+"391582780d9a": 0.062,
 "46e7155e09e9": 0.044,
 "4c123b24e99e": 0.025,
 "5574706bded1": 0.247,
@@ -3211,10 +3210,9 @@
 "7de4df3021ac": 0.29,
 "93ec1255cb7f": 0.006,
 "97a47fe25107": 0.149,
-"a48d03d1a38f": 0.141,
 "bf1facc3bbac": 0.099,
-"c107e7b11d7b": 0.569,
-"c82a621df257": 0.557,
+"c107e7b11d7b": 0.626,
+"c82a621df257": 0.247,
 "d2033ba38fac": 0.342,
 "dd8f84fb9d74": 0.155,
 "e446943bbda4": 0.052,
@@ -4241,63 +4239,63 @@
 [
 "32a836237ff4",
 10,
-3,
+13,
 1
 ],
 [
 "c107e7b11d7b",
-11,
-239,
-1
-],
-[
-"c82a621df257",
-18,
-51,
+9,
+249,
 1
 ],
 [
 "7be08416c990",
 43,
-17,
+27,
 2
 ],
 [
 "d2033ba38fac",
 40,
-122,
+132,
 1
 ],
 [
 "7de4df3021ac",
-24,
-217,
+22,
+227,
 2
 ],
 [
 "5574706bded1",
 41,
-15,
+25,
+1
+],
+[
+"c82a621df257",
+18,
+61,
 1
 ],
 [
 "65a0cf002ffb",
-13,
-233,
+12,
+243,
 1
 ],
 [
 "dd8f84fb9d74",
 20,
-163,
+173,
 1
 ],
 [
 "97a47fe25107",
-43,
-349,
+42,
+360,
 2
 ]
 ],
-"top_at": 1794792814.4519892
+"top_at": 1794793424.7483833
 }
