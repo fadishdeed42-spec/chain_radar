@@ -1,66 +1,63 @@
-json 377229b440a2
-   take 1: score -2.66  wer 0.00  end +0.0st  4.1w/s  heard: Two guys made a coin as a joke.
-   take 2: score -2.01  wer 0.00  end +0.0st  3.8w/s  heard: Two guys made a coin as a joke.
-   take 3: score -0.62  wer 0.00  end +0.0st  3.1w/s  heard: Two guys made a coin as a joke.
-scene 1: 2.57s ex 0.95  chosen wer 0.00
-   take 1: score -0.32  wer 0.00  end +0.0st  2.1w/s  heard: It grew to over $85 billion.
-   take 2: score -0.51  wer 0.00  end +5.9st  2.5w/s  heard: It grew to over $85 billion.
-   take 3: score +1.77  wer 0.00  end -2.8st  2.2w/s  heard: It grew to over $85 billion.
-scene 2: 3.16s ex 0.95  chosen wer 0.00
-   take 1: score -3.14  wer 0.33  end -0.0st  2.0w/s  rushed ['Jackson']  heard: December 213. Billy Marcus and Jackson Palmer lodged Dogecoin.
-   take 2: score -0.96  wer 0.10  end -0.6st  2.0w/s  heard: December 2013. Billy Marcus and Jackson Palmer launched Dogecoin.
-   take 3: score -2.23  wer 0.10  end -0.5st  2.6w/s  rushed ['December', 'Jackson']  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
-   take 4: score +0.40  wer 0.10  end -2.0st  2.3w/s  rushed ['Jackson']  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.  //
-   phonetic variant: December twenty thirteen. Billy mar-kus and Jackson Palmer launched Dogecoin.
-   take P1: score -1.30  wer 0.14  1.9w/s  heard: December 2013, Billy Mark Kuse and Jackson Palmer launched Dogecoin.
-   take P2: score -0.98  wer 0.10  2.0w/s  heard: December 2013, Billy Markoos and Jackson Palmer launched Dogecoin.
-   take P3: score -1.27  wer 0.14  1.9w/s  heard: December 2013, Billy Mar-Coos and Jackson Palmer launched Dogecoin.
-   take R1: wer 0.10  heard: December 2013. Billy Marcus and Jackson Palmer launched Dogecoin.
-   take R2: wer 0.10  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
-   take R3: wer 0.10  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
-   take R4: wer 0.10  heard: December 2013. Billy Marcus and Jackson Palmer launched Dogecoin.
-scene 3: 4.41s ex 0.88  chosen wer 0.10
-   take 1: score +1.87  wer 0.00  end -5.1st  2.4w/s  heard: The logo? A Shiba Inu dog named Kabosu.
-scene 4: 3.36s ex 0.88  chosen wer 0.00
-   take 1: score -0.10  wer 0.00  end +0.0st  2.4w/s  heard: Fans raised $36,000 in two days for Jamaica's Bobsled team.
-   take 2: score +1.88  wer 0.00  end -3.7st  2.4w/s  heard: Fans raised $36,000 in two days for Jamaica's Bobsled team.
-scene 5: 4.99s ex 0.88  chosen wer 0.00
-   take 1: score -1.88  wer 0.00  end +0.0st  2.9w/s  rushed ['sponsored', 'NASCAR']  heard: Then they sponsored a NASCAR car.
-   take 2: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['sponsored']  heard: Then, they sponsored a NASCAR car.
-   take 3: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['sponsored']  heard: Then they sponsored a NASCAR car.
-   take 4: score -1.03  wer 0.00  end +0.0st  2.2w/s  rushed ['sponsored']  heard: Then, they sponsored a NASCAR car.
-scene 6: 2.28s ex 0.88  chosen wer 0.00
-   take 1: score -0.25  wer 0.00  end +0.0st  2.2w/s  heard: In 2015, Jackson Palmer quit crypto.
-   take 2: score -0.94  wer 0.00  end +0.0st  2.4w/s  rushed ['Jackson']  heard: In 2015, Jackson Palmer quit crypto.
-   take 3: score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: In 2015, Jackson Palmer quit crypto.
-scene 7: 2.96s ex 0.95  chosen wer 0.00
-   take 1: score -0.40  wer 0.00  end +0.0st  3.0w/s  heard: Then 2021 Elon Musk kept tweeting about it.
-   take 2: score -2.16  wer 0.00  end +0.0st  3.5w/s  rushed ['tweeting']  heard: Then 2021, Elon Musk kept tweeting about it.
-   take 3: score -1.92  wer 0.17  end +0.0st  2.4w/s  rushed ['tweeting']  heard: HAST, then 2021. Elon Musk kept tweeting about it.
-   take 4: score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['tweeting']  heard: Then, 2021. Elon Musk kept tweeting about it.
-scene 8: 3.00s ex 0.88  chosen wer 0.00
-   take 1: score -0.69  wer 0.10  end +0.0st  2.7w/s  heard: in May, the Joe coin passed $85 billion.
-   take 2: score -0.20  wer 0.00  end -0.0st  2.3w/s  heard: In May, the joke coin passed $85 billion.
-   take 3: score -0.27  wer 0.00  end +0.0st  2.2w/s  heard: In May, the joke coin passed $85 billion.
-scene 9: 3.98s ex 0.95  chosen wer 0.00
-   take 1: score -0.46  wer 0.00  end +1.8st  2.1w/s  heard: then Musk hosted Saturday Night Live.
-   take 2: score -0.25  wer 0.00  end -0.1st  2.2w/s  heard: Then, Musk hosted Saturday Night Live.
-   take 3: score -0.02  wer 0.00  end +0.0st  2.6w/s  heard: then Musk hosted Saturday Night Live.
-scene 10: 2.28s ex 0.95  chosen wer 0.00
-   take 1: score -0.09  wer 0.00  end +0.0st  2.7w/s  heard: During the show, it fell almost 30%.
-   take 2: score -0.05  wer 0.00  end +0.0st  2.7w/s  heard: During the show, it fell almost 30%.
-   take 3: score -0.84  wer 0.00  end +0.0st  2.7w/s  rushed ['During']  heard: During the show, it fell almost 30%.
-   take 4: score -1.44  wer 0.00  end +0.0st  3.1w/s  rushed ['During']  heard: During the show, it fell almost 30%.
-scene 11: 2.99s ex 0.95  chosen wer 0.00
-   take 1: score -0.40  wer 0.00  end -6.5st  1.7w/s  heard: Joke or Genius
-   take 2: score -0.44  wer 0.00  end -8.5st  1.6w/s  heard: joke or genius.
-   take 3: score -0.21  wer 0.00  end -2.2st  2.0w/s  heard: joke or genius.
-scene 12: 1.50s ex 0.83 END  chosen wer 0.00
-   take 1: score -0.41  wer 0.00  end +0.0st  1.9w/s  heard: Subscribe for more stories.
-   take 2: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: Subscribe for more stories.
-   take 3: score +1.64  wer 0.00  end -6.0st  2.0w/s  heard: Subscribe for more stories.
-scene 13: 2.00s ex 0.88  chosen wer 0.00
+json eccdf1fd7279
+   take 1: score -2.01  wer 0.00  end +0.0st  3.8w/s  heard: Two guys made a coin as a joke.
+   take 2: score -2.62  wer 0.00  end +0.0st  4.1w/s  heard: Two guys made a coin as a joke.
+   take 3: score -1.52  wer 0.00  end +0.0st  3.5w/s  heard: Two guys made a coin as a joke.
+scene 1: 2.26s ex 0.6  chosen wer 0.00
+   take 1: score -0.14  wer 0.00  end +0.0st  2.8w/s  heard: It grew to over $85 billion.
+   take 2: score -0.36  wer 0.00  end +0.0st  2.0w/s  heard: It grew to over $85 billion.
+   take 3: score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: It grew to over $85 billion.
+scene 2: 2.95s ex 0.72  chosen wer 0.00
+   take 1: score +0.24  wer 0.10  end -1.7st  2.0w/s  rushed ['Jackson']  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
+   take 2: score +0.34  wer 0.10  end -2.6st  2.2w/s  rushed ['Jackson']  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
+   take 3: score +0.20  wer 0.10  end -4.8st  1.9w/s  rushed ['Jackson']  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
+   take 4: score +0.25  wer 0.10  end -5.2st  2.0w/s  rushed ['Jackson']  heard: December 2013, Billy Marcus and Jackson Palmer launched Dogecoin.
+   phonetic variant: December twenty thirteen. Billy Mar-kus and Jackson Palmer launched Dogecoin.
+   take P1: score -1.01  wer 0.10  1.9w/s  heard: December 2013, Billy Marcuss and Jackson Palmer launched Dogecoin.
+   take P2: score -1.29  wer 0.14  1.9w/s  heard: December 2013, Billy Mark Hughes and Jackson Palmer launched Dogecoin.
+   take P3: score -0.37  wer 0.00  2.0w/s  heard: December 2013, Billy Markus and Jackson Palmer launched Dogecoin.
+scene 3: 5.03s ex 0.45  chosen wer 0.00
+   take 1: score +1.84  wer 0.00  end -8.0st  2.3w/s  heard: The logo? A Shiba Inu dog named Kabosu.
+scene 4: 3.42s ex 0.45  chosen wer 0.00
+   take 1: score -0.27  wer 0.00  end +0.0st  2.2w/s  heard: Fans raised $36,000 in two days for Jamaica's Bobsled team.
+   take 2: score +1.74  wer 0.00  end -1.1st  2.2w/s  heard: Fans raised $36,000 in two days for Jamaica's Bobsled team.
+scene 5: 5.54s ex 0.45  chosen wer 0.00
+   take 1: score -3.29  wer 0.38  end +0.0st  2.9w/s  rushed ['sponsored']  heard: Then they sponsored an ass car car.
+   take 2: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: Then, they sponsored a NASCAR car.  //
+   take 3: score -1.69  wer 0.00  end +0.0st  2.7w/s  rushed ['sponsored', 'NASCAR']  heard: Then, they sponsored a NASCAR car.
+   take 4: score -3.13  wer 0.38  end +0.0st  2.6w/s  rushed ['sponsored']  heard: Then, they sponsored an ass car car.
+scene 6: 2.77s ex 0.45  chosen wer 0.00
+   take 1: score -1.77  wer 0.14  end +0.0st  2.4w/s  rushed ['crypto.']  heard: In 2015, Jackson Palmer quick crypto.
+   take 2: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['crypto.']  heard: In 2015, Jackson Palmer quit crypto.
+   take 3: score -1.78  wer 0.00  end +0.0st  2.3w/s  rushed ['Jackson', 'crypto.']  heard: In 2015, Jackson Palmer quit crypto.
+   take 4: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['Jackson']  heard: In 2015, Jackson Palmer quit crypto.
+scene 7: 2.72s ex 0.45  chosen wer 0.00
+   take 1: score -0.93  wer 0.00  end +0.0st  2.8w/s  rushed ['tweeting']  heard: Then 2021, Elon Musk kept tweeting about it.
+   take 2: score -0.19  wer 0.00  end +0.0st  2.3w/s  heard: Then, 2021. Elon Musk kept tweeting about it.
+   take 3: score -0.18  wer 0.00  end +0.0st  2.3w/s  heard: Then 2021, Elon Musk kept tweeting about it.
+scene 8: 3.91s ex 0.45  chosen wer 0.00
+   take 1: score -0.32  wer 0.00  end +0.0st  2.1w/s  heard: In May, the joke coin passed $85 billion.
+   take 2: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: In May, the joke coin passed $85 billion.
+   take 3: score -1.21  wer 0.20  end +0.0st  2.6w/s  heard: In May, the joke coined past $85 billion.
+   take 4: score +0.71  wer 0.20  end -3.6st  2.5w/s  heard: In May, the joke coined past $85 billion.
+scene 9: 3.85s ex 0.45  chosen wer 0.00
+   take 1: score -0.20  wer 0.00  end +0.0st  2.3w/s  heard: Then, Musk hosted Saturday Night Live.
+   take 2: score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: Then Musk hosted Saturday Night Live.
+   take 3: score -0.19  wer 0.00  end +0.0st  2.3w/s  heard: Then Musk hosted Saturday Night Live.
+scene 10: 2.53s ex 0.45  chosen wer 0.00
+   take 1: score -0.14  wer 0.00  end +0.0st  2.8w/s  heard: During the show, it fell almost 30%.
+   take 2: score -0.69  wer 0.00  end +0.0st  3.1w/s  heard: During the show, it fell almost 30%.
+   take 3: score -2.00  wer 0.12  end +0.0st  3.4w/s  heard: During the show, it felt almost 30%.
+   take 4: score -0.65  wer 0.00  end +0.0st  3.1w/s  heard: During the show, it fell almost 30%.
+scene 11: 2.82s ex 0.72  chosen wer 0.00
+   take 1: score -0.34  wer 0.00  end -8.7st  1.8w/s  heard: joke or genius.
+   take 2: score -0.12  wer 0.00  end -4.9st  2.2w/s  heard: joke or genius.
+   take 3: score -0.40  wer 0.00  end -4.7st  1.7w/s  heard: Joke or Genius?
+scene 12: 1.39s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+   take 2: score -0.23  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+   take 3: score -0.29  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 13: 1.80s ex 0.55  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-43.57s, force-aligned 97 words (snapped to the voice)
+44.12s, force-aligned 97 words (snapped to the voice)
 takes kept whole (no sentence re-cut) -> jobs/t3700071/voicep.wav
-flow: 1 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.72, 0.8, 0.52, 0.64, 0.55, 0.53, 0.75, 0.51, 0.78, 0.71, 0.78, 0.94]
+flow: 1 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.62, 0.63, 0.62, 0.69, 0.73, 0.62, 0.64, 0.58, 0.68, 0.57, 0.57, 0.95]
