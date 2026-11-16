@@ -309,21 +309,6 @@
 "url": "https://t.me/wublockchainenglish/26838",
 "urls": []
 },
-"17fd4531f1a3": {
-"coin": "bitcoin",
-"src": "Cryptonews.net",
-"srcs": [
-"CoinDesk",
-"CryptoPotato",
-"Cryptonews.net"
-],
-"t": 1794684769.917674,
-"t0": 1794664981.0,
-"tgtext": "",
-"title": "Bitcoin Price Analysis: BTC Risks $64K as Binance Open Interest Hits 3-Month Low",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBneWE4alJhWTVPdmRaUzNwMWk3Tk5jNm9LcFVoN2IwMmd3ZHJWVF9wdzI1eGMtRWZBTFhObldfYS1HbzgxY0F3a0lLVXVtTFROSkZTTG9hOUw?oc=5",
-"urls": []
-},
 "18e29730641c": {
 "coin": "bitcoin",
 "src": "Around Prague",
@@ -418,7 +403,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794849857.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube",
 "title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
@@ -581,6 +566,19 @@
 "tgtext": "CZ: Binance Did Not Sell Crypto, I Bought Crypto Recently and Expect Continued Growth Over the Medium to Long Term\n\nBinance founder CZ said the exact reasons for the recent crypto market decline remain unclear, citing several potential factors: capital shifting toward Anthropic\u2019s IPO; approximately $1.9 billion in net outflows from U.S. spot Bitcoin ETFs over seven trading sessions through November 13, alongside outflows from Ether ETFs; security concerns following the Binance hack, thefts from iPhone-linked crypto wallets, a Chrome exploit and a Microsoft outage; hotter-than-expected U.S. inflation fueling expectations of another Fed rate hike, with higher yields and a stronger dollar potentially weighing on risk assets; and concerns over potentially stricter U.S. crypto regulation following the midterm elections. CZ stressed that Binance had not sold crypto and said he had personally bought crypto in recent days after receiving some stablecoins. He added that he expects crypto to continue growing over the medium to long term. \u2014 link",
 "title": "CZ: Binance Did Not Sell Crypto, I Bought Crypto Recently and Expect Continued Growth Over the Medium to Long Term",
 "url": "https://t.me/wublockchainenglish/26836",
+"urls": []
+},
+"296379b55b89": {
+"coin": "usd-coin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794858158.0644503,
+"t0": 1794857217.0,
+"tgtext": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed\n\nLighter said in its November 16 security incident report that an attacker exploited nonce reuse in unofficial signing code used by certain trading accounts to derive API private keys from public signatures. The attacker then created a public pool through a compromised account, transferred funds into the pool, and extracted assets by redeeming pool shares through an attacker-controlled account. Lighter confirmed that its protocol, smart contracts, infrastructure, and official SDKs were unaffected.\n\nThe incident triggered its smart contract-based Guardian mechanism, temporarily pausing withdrawals and allowing the Security Council to return approximately 5 million USDC to the affected trader. Withdrawals have since resumed, with pending requests being processed. Lighter has implemented wallet signature requirements for public pool transfers and made API key signatures non-public. It also plans to introduce IP allowlists, per-key permissions and limits, and proactively monitor and revoke API keys at risk from nonce reuse. \u2014 link",
+"title": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed",
+"url": "https://t.me/wublockchainenglish/26852",
 "urls": []
 },
 "2df2a5426216": {
@@ -1052,7 +1050,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794857317.931197,
+"t": 1794857852.9180453,
 "t0": 1794840946.0,
 "tgtext": "JUST IN: Zelle selects Solana to expand international payments using crypto stablecoins.\n\n@WatcherGuru",
 "title": "Zelle selects Solana to expand international payments using crypto stablecoins.",
@@ -1082,7 +1080,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794843899.0,
 "tgtext": "\ud83c\udde9\ud83c\uddea LATEST: German parliament proposes allowing crypto seizures without criminal charges for assets worth over \u20ac100,000.\n\nNews | Markets | YouTube",
 "title": "German Bundestag Lets Customs Freeze Crypto Over \u20ac100,000 Without a Criminal Case as the Bill Goes to the Bundesrat",
@@ -1500,7 +1498,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794857317.931197,
+"t": 1794857852.9180453,
 "t0": 1794836306.0,
 "tgtext": "Nov 9\u2013Nov 15, 2026 #LookonchainWeeklyReport\nhttps://x.com/lookonchain/status/2122323297475924025",
 "title": "Nov 9\u2013Nov 15, 2026 LookonchainWeeklyReport",
@@ -1649,7 +1647,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794842651.0,
 "tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
@@ -1707,7 +1705,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794844860.0,
 "tgtext": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days\n\nBinance co-founder Yi He shared a screenshot of her account on Binance Square, writing, \u201cThe pullback is temporary; there's no need to worry about spot trading.\u201d The screenshot shows that from October 17 to November 16, her account assets declined by $101,315,012.75, with trading P&L of -$97,324,175.47 and transfers and other changes of -$3,990,837.29. BNB accounts for more than 50% of her portfolio, excluding stablecoins and fiat currencies. \u2014 link",
 "title": "Binance Co-Founder Yi He Reports $101,315,012.75 Decline in Account Assets Over 30 Days",
@@ -2399,7 +2397,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794837058.0,
 "tgtext": "",
 "title": "BlackRock files for exchange-traded interval fund that can top the 15% private-asset cap",
@@ -2654,6 +2652,22 @@
 "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years"
 ]
 },
+"d7bcb80c044e": {
+"coin": "bitcoin",
+"src": "The Economic Times",
+"srcs": [
+"Coinpedia",
+"Quartz",
+"Rich Picks Daily",
+"The Economic Times"
+],
+"t": 1794858158.0644503,
+"t0": 1794840364.0,
+"tgtext": "",
+"title": "Bitcoin slips 2% to $64,000, ETH below $1,800 as ETF outflows and liquidations weigh on crypto markets",
+"url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMmltdm9fR3lkSDV0a2VYTVF4cmItYzFqZ1dIdEhXRU9mTl9vX1EtNnJMRUJENUk0LWpYX0NUVzY0S1NPUEduUG5fWEN2N183RWstWVZ1emd2X0dqMzFJOUVRSnhpaXZMREZEbmd0ZmQ0RjFhdEZNbFo0Q3Q5N0pJeGY1Y2t4Wm44WFd5VUQ2cEMwTjY3YUwyOVZRYkpJRTRBV050dWhTZmlFRFBLUkZxTjkzak02OWp4cEdKTHNBN0VXMTFvVDZPR3pvbXJ3VU8xc3RHcVVwMWMwR3lkbEFxa2ZtOEFaN0JkWllnUVVZZEtjUTZBdVEwTEZsanZxZDZGbmc00gGIAkFVX3lxTE85Z0VpNUU0MkpRbXFCdWtzRnR0eUhIaXExdmVPLWNNeTkybmVrYkQyR0luS20zei1Lc2RrT2tFUHI1NTlxTXNYUE5sVDJ3eGxoNXZNOUZMVjd2Q2VLNWRYVDBsek1fZXcwLUpTZ1lpYy1UTlZ6WlRWdWZCQ25oZjU3Nk4wRG9jbFJWMnZEbHVLS2ItT2lWS2U2OGFiMXhYN1BtbXFyYWxqWElKaG1LMDd1d2oxTjlObEIyMU1oYXdzakZpZU9OM1ZIb1Bpb1ZwX28zWGZUbDVhYVd1eEJyUFZUTEJzSWN0eFN0YjJFZlRTSTF6TXA3TE90MFlacXpWY1JmTUhjTTFzYQ?oc=5",
+"urls": []
+},
 "d82dda92ce75": {
 "coin": "lighter",
 "src": "Cryptonews.net",
@@ -2664,7 +2678,7 @@
 "CryptoTicker.io",
 "Cryptonews"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794837028.0,
 "tgtext": "",
 "title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! \u2013 Hacker Buys Two Altcoins!",
@@ -2751,7 +2765,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794836992.0,
 "tgtext": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked\n\nBitmine (BMNR) acquired 7,653 ETH over the past week, bringing its total holdings to 6,077,745 ETH, representing 4.97% of total supply. The company has staked 5.23 million ETH, worth approximately $9.5 billion, generating estimated annualized staking revenue of $245 million at a 2.57% yield. Total crypto, cash and other investments reached $11.8 billion as of November 15. \u2014 link",
 "title": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked",
@@ -3022,16 +3036,18 @@
 "src": "Watcher.Guru",
 "srcs": [
 "Cointelegraph",
+"CryptoSlate",
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794857317.931197,
+"t": 1794858158.0644503,
 "t0": 1794839478.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube\nJUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\n\ud83c\uddfa\ud83c\uddf8 BIG: President Trump on Nvidia reinstating Jensen Huang: \n\n\u201cI would certainly not mind seeing that.\u201d\n\nNews | Markets | YouTube\nJUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru\nJUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia NVDA CEO Jensen Huang was a Chinese spy.",
 "url": "https://t.me/WatcherGuru/16065",
 "urls": [
-"https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia"
+"https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia",
+"https://cryptoslate.com/jensen-huang-has-just-14-chance-of-nvidia-return-this-year-despite-trump-backing/"
 ]
 },
 "f2f0879b5c86": {
@@ -3311,46 +3327,46 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"028b8aea2ae3": 0.027,
+"01738ee68ca0": 0.008,
 "0aeb74aaaaa2": 0.041,
+"0bba441d9d07": 0.052,
 "1740c50ebc9d": 0.036,
 "1e78fc3a9d6a": 0.481,
-"20b29e67b35e": 0.074,
 "24e6def40602": 0.019,
 "259ba73c1b4a": 0.007,
 "27872c73284c": 0.121,
-"2afff9d24b82": 0.063,
+"29212c69319a": 0.009,
 "30341ab4153d": 0.058,
 "30844df8bd11": 0.022,
 "3499861bff3b": 0.02,
-"368edd795231": 0.012,
+"365d1fee696f": 0.059,
 "3822c07f47e0": 0.033,
 "3bd044f39ea6": 0.037,
-"457478e57475": 0.092,
+"457478e57475": 0.064,
 "4e600e4beb03": 0.016,
-"55a013bad0d2": 0.023,
 "5e7ae407a0fb": 0.919,
 "6a28a79e89d3": 0.029,
-"73e9b2aa1981": 0.033,
 "7aa347f54444": 0.039,
 "7d2f4498d182": 0.108,
-"8271be0f922a": 0.078,
-"85d44535d4c3": 0.996,
+"85d44535d4c3": 0.961,
+"872b2c0c74f0": 0.021,
 "8b13222ad055": 0.56,
+"8fc4651723cd": 0.057,
+"910204d68ad1": 0.05,
 "9f9310091898": 0.045,
-"a4647ee6ffd9": 0.068,
+"a4647ee6ffd9": 0.008,
+"a8fad30f58d6": 0.052,
 "c3daff7a88dd": 0.045,
-"c51fb170d937": 0.043,
-"c575b46eb78d": 0.01,
 "d21eabfc7585": 0.041,
-"d7bcb80c044e": 0.048,
+"d7bcb80c044e": 0.234,
 "d82dda92ce75": 0.649,
+"de829b726bd4": 0.049,
 "ded29f778211": 0.01,
-"eb56a82429dd": 0.019,
+"edd799ed8288": 0.007,
 "f0fc5893226f": 0.029,
-"f26e2d476893": 0.645,
+"f26e2d476893": 0.938,
 "f54120d2e91c": 0.037,
-"fb8858134dcd": 0.013
+"fcaa9bb5f3bf": 0.031
 },
 "sent": [
 {
@@ -4889,64 +4905,64 @@
 "top": [
 [
 "85d44535d4c3",
-68,
-244,
+66,
+258,
+4
+],
+[
+"f26e2d476893",
+41,
+311,
 4
 ],
 [
 "5e7ae407a0fb",
-47,
-224,
+45,
+238,
 3
 ],
 [
 "d82dda92ce75",
-64,
-338,
+63,
+352,
 10
 ],
 [
-"f26e2d476893",
-33,
-297,
-3
-],
-[
 "8b13222ad055",
-15,
-208,
+13,
+222,
 1
 ],
 [
 "dd99170eccf9",
 0,
-339,
+353,
 1
 ],
 [
 "1e78fc3a9d6a",
 24,
-124,
+138,
 1
 ],
 [
-"7d3d0b0d9280",
-0,
-350,
-1
+"d7bcb80c044e",
+69,
+297,
+4
 ],
 [
 "c24f7dd6320e",
 0,
-338,
+352,
 1
 ],
 [
-"586ab18f44a9",
-8,
-273,
-2
+"296379b55b89",
+10,
+16,
+1
 ]
 ],
-"top_at": 1794857317.931197
+"top_at": 1794858158.0644503
 }
