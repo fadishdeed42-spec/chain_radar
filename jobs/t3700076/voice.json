@@ -1,78 +1,78 @@
 {
  "engine": "chatterbox",
  "ref": "am_liam",
- "cfg": 0.25,
+ "cfg": 0.4,
  "seed": 7,
  "scenes": [
   [
    "In twenty thirteen, Bitcoin split into two chains.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "And developers chose to kill the newer one.",
-   0.95,
-   0.36
+   0.45,
+   0.2
   ],
   [
    "March eleventh, twenty thirteen. Bitcoin version zero point eight was brand new.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Then one huge block hit the network, with over five thousand transactions.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "New nodes accepted it. Old nodes couldn't read it.",
-   0.95,
-   0.36
+   0.45,
+   0.2
   ],
   [
    "Their old database ran out of locks. Bitcoin split in two.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Mount Gox and Bit Pay paused deposits.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "The price dropped twenty-four percent.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "Developers picked the old chain. Big mining pools downgraded.",
-   0.95,
-   0.28
+   0.45,
+   0.2
   ],
   [
    "About six hours later, the chains joined again.",
-   0.88,
-   0.22
+   0.45,
+   0.2
   ],
   [
    "Twenty-four blocks were wiped out.",
-   0.95,
-   0.36
+   0.45,
+   0.2
   ],
   [
    "And someone double spent ten thousand dollars against Oh-Kay Pay.",
-   0.95,
-   0.36
+   0.72,
+   0.2
   ],
   [
    "Bug or warning?",
-   0.83,
+   0.5,
    0.5,
    "end"
   ],
   [
    "Subscribe for more stories.",
-   0.88,
+   0.55,
    0.3
   ]
  ],

@@ -196,6 +196,10 @@ for j in range(1, 9):
         HOOK.append(o)
 es_key(M_RED, S(0), 3); es_key(M_RED, t_kill - .05, 3); es_key(M_RED, t_kill + .3, .25); es_key(M_RED, t_rw + .4, .25); es_key(M_RED, t_rw + .6, 3)
 
+one_c = text('BITCOIN', (-6, 0, 2.2), GOLD, 1.1); pop(one_c, .3, t_split - .05)
+two_c = text('TWO CHAINS', (5, 0, 3.6), WHITE, 1.2); pop(two_c, t_split, S(1) + .3)
+kil = text('KILLED', (8, 1.6, 2.2), RED, 2.2); pop(kil, t_kill, S(2) - .05)
+
 # --- S3: the huge block falls and hits at "hit"
 t_hit = Wd(3, 'hit')
 bpy.ops.mesh.primitive_cube_add(size=2.0, location=(HX, HY, 0)); huge = bpy.context.object
@@ -222,10 +226,11 @@ M_HUGE.node_tree.nodes['Principled BSDF'].inputs['Emission Color'].keyframe_inse
 lbl_blk = text('BLOCK 225,430', (HX, HY, 2.5), GOLD, .62); pop(lbl_blk, Wd(3, 'block') - .1, S(4) + .3)
 
 # --- versions (S2)
-v7 = text('v0.7  OLD', (1.6, -2.4, 2.0), CYAN, .95); pop(v7, Wd(2, 'version'), S(3) + .2)
-v8 = text('v0.8  NEW', (1.6, 2.4, 2.0), RED, .95); pop(v8, Wd(2, 'eight'), S(3) + .2)
-ok = text('ACCEPTED', (HX + .5, HY + 2.6, 1.6), RED, .5); pop(ok, t_acc, S(5) + .1)
-no = text("CAN'T READ IT", (1.8, -3.6, 1.2), CYAN, .5); pop(no, Wd(4, 'couldnt'), S(5) + .1)
+v7 = text('OLD: v0.7', (1.3, 0, 1.75), CYAN, .72); pop(v7, Wd(2, 'version'), S(3) + .2)
+v8 = text('NEW: v0.8', (1.3, 0, 2.85), RED, .72); pop(v8, Wd(2, 'eight'), S(3) + .2)
+ok = text('NEW: ACCEPTED', (HX + .3, HY + 1.2, 2.7), RED, .62); pop(ok, t_acc, S(5) + .1)
+no = text("OLD: CAN'T READ IT", (HX + .3, HY - 1.2, -1.7), CYAN, .62); pop(no, Wd(4, 'couldnt'), S(5) + .1)
+tx5k = text('5,000+ TRANSACTIONS', (HX, HY - .6, -1.75), GOLD, .5); pop(tx5k, Wd(3, 'five'), S(4) - .05)
 
 # --- the two real chains: red (0.8) 2..24, cyan (0.7) 1..26, growing on the story's words
 t_c1 = Wd(4, 'couldnt')
@@ -266,10 +271,11 @@ es_key(M_LOCK, Wd(5, 'locks') - .05, 0); es_key(M_LOCK, Wd(5, 'locks') + .15, 3)
 lt = text('OUT OF LOCKS', (1.4, -3.4, 3.1), RED, .55); pop(lt, Wd(5, 'locks'), t_sp - .1)
 
 # --- S6: exchanges pause
-gx = text('MT. GOX', (5.5, -.2, 3.2), WHITE, 1.1); pop(gx, Wd(6, 'gox') - .1, S(7) - .05)
-bp = text('BITPAY', (11.0, -.2, 3.2), WHITE, 1.1); pop(bp, Wd(6, 'bitpay') - .1, S(7) - .05)
-for x in (5.5, 11.0):
-    pz = bpy.data.objects.new('pz', None); sc.collection.objects.link(pz); pz.location = (x, -.2, 4.9)
+gx = text('MT. GOX', (8.2, -.2, 6.0), WHITE, 1.2); pop(gx, Wd(6, 'gox') - .1, S(7) - .05)
+bp = text('BITPAY', (8.2, -.2, 4.4), WHITE, 1.2); pop(bp, Wd(6, 'bitpay') - .1, S(7) - .05)
+dp = text('DEPOSITS PAUSED', (8.2, -.2, 2.6), RED, .8); pop(dp, Wd(6, 'paused'), S(7) - .05)
+for x in (8.2,):
+    pz = bpy.data.objects.new('pz', None); sc.collection.objects.link(pz); pz.location = (x, -.2, 7.7)
     for dx in (-.22, .22):
         bpy.ops.mesh.primitive_cube_add(size=1, location=(dx, 0, 0)); b_ = bpy.context.object; b_.scale = (.16, .16, .7); b_.parent = pz
         b_.data.materials.append(mat('pz', base=(0, 0, 0), emit=RED, es=3.2))
@@ -285,7 +291,11 @@ px.data.materials.append(mat('pxm', base=(0, 0, 0), emit=RED, es=3.5))
 cu.bevel_factor_end = 0; cu.keyframe_insert('bevel_factor_end', frame=F(Wd(7, 'price')))
 cu.bevel_factor_end = 1; cu.keyframe_insert('bevel_factor_end', frame=F(Wd(7, 'percent') + .2))
 pop(px, Wd(7, 'price') - .05, S(8) + .1, dur=.05)
-p24 = text('-24%', (16.8, 5, 3.0), RED, 1.3); pop(p24, Wd(7, 'twentyfour'), S(8) + .1)
+p24 = text('PRICE -24%', (12.5, 5, 1.0), RED, 1.2); pop(p24, Wd(7, 'twentyfour'), S(8) + .1)
+
+dev = text('DEVELOPERS PICK v0.7', (12, -1, 5.5), CYAN, .72); pop(dev, Wd(8, 'picked'), S(9) - .05)
+mnr = text('MINERS SWITCH BACK', (12, -1, 4.3), WHITE, .72); pop(mnr, Wd(8, 'downgraded') - .15, S(9) - .05)
+hrs = text('6 HOURS LATER', (28.3, -1, 3.6), WHITE, 1.5); pop(hrs, Wd(9, 'six'), Wd(9, 'joined') - .05)
 
 # --- S8/S9: the old chain wins
 win = text('v0.7 WINS', (24, -2.0, 4.0), CYAN, 2.4); pop(win, Wd(9, 'joined'), S(10) + .3)
@@ -324,6 +334,8 @@ for o in coin:
     o.rotation_euler = (math.pi / 2, 0, 0); o.keyframe_insert('rotation_euler', frame=F(Wd(11, 'someone')))
     o.rotation_euler = (math.pi / 2, 0, math.pi * 2); o.keyframe_insert('rotation_euler', frame=F(S(12)))
 usd = text('$10,000', (cend[0] + 2.2, -.9, 3.6), GOLD, .8); pop(usd, Wd(11, 'ten'), S(12) - .05)
+dsp = text('SPENT TWICE', (cend[0] + 2.2, -2.0, .55), RED, .55); pop(dsp, t_dbl + .1, S(12) - .05)
+bug = text('BUG OR\nWARNING?', (0, .9, -7), WHITE, .62); bug.constraints.clear(); bug.parent = CAM; bug.location = (0, .9, -7); pop(bug, Wd(12, 'bug'), DUR)
 
 # ---------------------------------------------------------------- camera path
 cam(0, (-24, -5.5, 1.8), (-14, 0, 0))
@@ -342,9 +354,11 @@ cam(Wd(5, 'database'), (.2, -10.5, 3.2), (1.3, -2.2, 1.7))
 cam(t_sp - .2, (.6, -10, 3.0), (1.4, -2.2, 1.6))
 cam(t_sp + .7, (4, -13, 7), (6, 0, 0))
 cam(S(6) + .3, (8.2, -16, 8), (8.2, 0, 2))
-cam(S(7) - .1, (10, -15, 7), (10, 0, 0))
-cam(S(8) - .1, (12, -14, 7), (12, 2, 2.5))
-cam(S(8) + 1.4, (11, -12, 5), (15, -1, 0))
+cam(S(7) - .45, (8.2, -16, 8), (8.2, 0, 3.5))
+cam(S(7) - .1, (11, -13, 6), (11, 3, 3))
+cam(S(8) - .1, (12, -13.5, 6.5), (12, 1, 3.5))
+cam(S(8) + 1.4, (11, -12.5, 5.5), (12, 0, 3.5))
+cam(S(9) - .45, (11.5, -12.5, 5.5), (12.2, 0, 3.5))
 cam(S(9) - .1, (26, -12, 5), (31, -1, 0))
 cam(Wd(9, 'joined'), (22, -27, 16), (21, 0, 1))
 cam(S(10) + .2, (22, -26, 15), (21, 0, 1))
@@ -352,6 +366,15 @@ cam(S(11) - .1, (20, -24, 9), (20, 0, -2))
 cam(S(11) + .6, (cend[0] + 2.4, -10, 3.8), (cend[0] + 2.2, -1.2, 2.0))
 cam(S(12) - .1, (cend[0] + 2.0, -9.5, 3.6), (cend[0] + 2.2, -1.2, 2.0))
 cam(DUR, (cend[0] - 26, -13, 5), (cend[0] - 12, -2, 0))
+
+rig = bpy.data.objects.new('rig', None); sc.collection.objects.link(rig); CAM.parent = rig
+SHAKE = [(t_kill, .5), (t_hit, .7), (Wd(5, 'split'), .45), (Wd(7, 'dropped'), .4), (t_wipe, .55), (t_dbl, .35)]
+tt = 0.0
+while tt <= DUR + .5:
+    amp = .32 + sum(a * max(0, 1 - abs(tt - h) / .35) for h, a in SHAKE if tt >= h - .05)
+    w = 1 if any(0 <= tt - h < .4 for h, _ in SHAKE) else 0
+    rig.location = (amp * math.sin(tt * 1.3 + w * tt * 40), amp * .6 * math.sin(tt * .9 + 1), amp * .8 * math.sin(tt * 1.1 + 2 + w * tt * 33))
+    rig.keyframe_insert('location', frame=F(tt)); tt += .1 if any(-.1 <= tt - h < .5 for h, _ in SHAKE) else .5
 
 # ---------------------------------------------------------------- render this part
 out = os.path.join(JOB, 'film'); os.makedirs(out, exist_ok=True)

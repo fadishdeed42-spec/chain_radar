@@ -26,7 +26,8 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "MARCH 11, 2013"
+   "fact": "MARCH 11, 2013",
+   "punch": true
   },
   {
    "role": "hook",
@@ -174,7 +175,8 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "DURING THE SPLIT"
+   "fact": "DURING THE SPLIT",
+   "punch": true
   },
   {
    "role": "twist",
@@ -260,7 +262,8 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "PAID TWICE WITH THE SAME COINS"
+   "fact": "PAID TWICE WITH THE SAME COINS",
+   "punch": true
   },
   {
    "role": "end",
@@ -307,5 +310,6 @@
  "length_ok": false,
  "length_msg": "script is about 0:47, a 1:00 Short needs 0:56 to 1:05 (107 spoken words, need 131 to 152)",
  "headline": "ONE BLOCK SPLIT / BITCOIN IN TWO",
- "film3d": "studio/b3d/split3d.py"
+ "film3d": "studio/b3d/split3d.py",
+ "voice_style": "A"
 }
