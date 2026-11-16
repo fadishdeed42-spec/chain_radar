@@ -394,7 +394,7 @@
 "srcs": [
 "WOWT"
 ],
-"t": 1794790373.9230735,
+"t": 1794790680.6911647,
 "t0": 1794774060.0,
 "tgtext": "",
 "title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance",
@@ -1478,7 +1478,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
@@ -1583,7 +1583,7 @@
 "Coinpedia",
 "Cryptonews.net"
 ],
-"t": 1794789763.5577242,
+"t": 1794790984.135154,
 "t0": 1794770318.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite",
@@ -1817,7 +1817,7 @@
 "Gagadget.com",
 "MLQ.ai"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794771852.0,
 "tgtext": "",
 "title": "Why is crypto crashing? The Fed, ETF outflows, the Binance hack and index exits behind bitcoin's slide",
@@ -1966,7 +1966,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794771199.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.\n\nHe's giving the board 10 days to respond on export compliance.\n\nNews | Markets | YouTube",
 "title": "Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.",
@@ -2158,7 +2158,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794769629.0,
 "tgtext": "JUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru\n\ud83d\udea8 BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.\n\nNews | Markets | YouTube",
 "title": "BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.",
@@ -2334,7 +2334,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2374,7 +2374,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794789753.0,
 "tgtext": "\ud83d\udea8 TODAY: Coinbase CEO Brian Armstrong says the biggest benefit of tokenized equities isn\u2019t 24/7 markets, but access for billions who can\u2019t buy stocks today and better yield onchain.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong says the biggest benefit of tokenized equities isn\u2019t 24/7 markets, but access for billions who can\u2019t buy stocks today and better yield onchain.",
@@ -2476,7 +2476,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794785493.0,
 "tgtext": "\ud83d\udea8 REKT: We just saw another $1.23B in long liquidations in just 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: We just saw another $1.23B in long liquidations in just 24 hours.",
@@ -2645,7 +2645,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794783059.0,
 "tgtext": "",
 "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
@@ -2986,7 +2986,7 @@
 "BigGo Finance",
 "CEO Magazyn"
 ],
-"t": 1794790373.9230735,
+"t": 1794790984.135154,
 "t0": 1794770191.0,
 "tgtext": "",
 "title": "Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin",
@@ -3069,7 +3069,7 @@
 "srcs": [
 "RadarOnline"
 ],
-"t": 1794790070.3742628,
+"t": 1794790680.6911647,
 "t0": 1794769367.0,
 "tgtext": "",
 "title": "Eric Trump Insists Donald Is 'Winning' the Crypto Race After CNN's Kaitlan Collins Questions Family Business",
@@ -3138,42 +3138,38 @@
 "ethereum": 1794711791.1498003
 },
 "probs": {
-"10dd0cac55e5": 0.012,
+"10dd0cac55e5": 0.015,
 "1176b1f50cc2": 0.049,
-"1dd2d736e057": 0.327,
 "20828b105e1c": 0.023,
 "236055428721": 0.013,
+"2511912f5a9e": 0.02,
 "33baaf910bec": 0.014,
 "36b999fcc1e8": 0.023,
 "391582780d9a": 0.024,
-"3a977307da3a": 0.075,
 "46e7155e09e9": 0.044,
 "4a78b59d5643": 0.085,
 "4c123b24e99e": 0.025,
 "5782e86be479": 0.12,
-"5a3dfe5fe1e0": 0.045,
 "5b1878b63df6": 0.034,
 "66ab2c100a80": 0.011,
-"7842edd92dc0": 0.063,
+"728d278ac762": 0.033,
 "7de4df3021ac": 0.29,
-"86cae10c3b89": 0.149,
-"909d9ebaa697": 0.016,
+"86cae10c3b89": 0.181,
 "93ec1255cb7f": 0.006,
 "97a47fe25107": 0.149,
 "9a3bdde7b0c9": 0.111,
 "a3053cc01cce": 0.378,
 "a48d03d1a38f": 0.141,
 "b27452a1f040": 0.713,
-"bc24eea93566": 0.015,
+"bf1facc3bbac": 0.099,
 "c107e7b11d7b": 0.569,
-"c82a621df257": 0.634,
-"d2033ba38fac": 0.666,
+"c82a621df257": 0.557,
+"d2033ba38fac": 0.342,
 "dd8f84fb9d74": 0.155,
 "e446943bbda4": 0.051,
 "f042c7a1c6c0": 0.133,
-"f59072e4d9f7": 0.267,
-"fed096c00312": 0.018,
-"ff4172ada305": 0.048
+"f59072e4d9f7": 0.205,
+"fed096c00312": 0.018
 },
 "sent": [
 {
@@ -4192,63 +4188,63 @@
 [
 "b27452a1f040",
 0,
-346,
+356,
 2
 ],
 [
-"d2033ba38fac",
-40,
-81,
+"c107e7b11d7b",
+15,
+208,
 1
 ],
 [
 "c82a621df257",
 18,
-10,
-1
-],
-[
-"c107e7b11d7b",
-16,
-198,
+21,
 1
 ],
 [
 "a3053cc01cce",
 0,
-320,
+330,
 1
 ],
 [
-"1dd2d736e057",
-43,
-272,
+"d2033ba38fac",
+40,
+92,
 1
 ],
 [
 "7de4df3021ac",
 28,
-176,
+186,
 2
 ],
 [
 "f59072e4d9f7",
-60,
-336,
+58,
+347,
 3
+],
+[
+"86cae10c3b89",
+9,
+344,
+2
 ],
 [
 "dd8f84fb9d74",
 20,
-122,
+132,
 1
 ],
 [
 "97a47fe25107",
-48,
-309,
+47,
+319,
 2
 ]
 ],
-"top_at": 1794790373.9230735
+"top_at": 1794790984.135154
 }
