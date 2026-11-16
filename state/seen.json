@@ -11,7 +11,8 @@
 1794753171.4754457,
 1794760206.2574134,
 1794778818.039827,
-1794795867.7951882
+1794795867.7951882,
+1794798615.0278168
 ],
 "menu": {
 "000f6ad45d27": {
@@ -278,7 +279,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794796958.0,
 "tgtext": "Highlight Clip: Nic Carter: Most Bitcoin Treasury Firms Bring Little New Beyond ETFs\n\nNic Carter: Most Bitcoin Treasury Firms Bring Little New Beyond ETFs\n\nOn October 27, 2026, Castle Island Ventures Partner Nic Carter said in an interview with Natalie Brunell that most digital asset treasury companies (DATs) have done little that is novel. Investors seeking Bitcoin exposure through securities can simply buy an ETF for pure, efficient exposure. He acknowledged that some treasury companies have done interesting things, but said most have not brought anything new. \u2014 link",
 "title": "Highlight Clip: Nic Carter: Most Bitcoin Treasury Firms Bring Little New Beyond ETFs",
@@ -615,7 +616,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794792635.0,
 "tgtext": "Trader 0xb98E sold 1,858 $ETH for 5.41M $USDC at $2,911 over 2 years ago.\n\nAfter more than 2 years of inactivity, he spent 5.41M $USDC to buy back 2,968 $ETH at a much lower price of $1,822 just 4 hours ago!\n\nhttps://arkm.com/explorer/address/0xb98E9e7a0ff948A901F1F9bD40eE379f3A22Aa03",
 "title": "Trader 0xb98E sold 1,858 ETH for 5.41M USDC at $2,911 over 2 years ago.",
@@ -790,21 +791,6 @@
 "tgtext": "JUST IN: $XRP crashes under $0.95 for the first time since November 2024.\n\n@WatcherGuru",
 "title": "Franklin Templeton's XRP ETF boosts holdings 30% to 293M tokens worth $440M by Q3 2026",
 "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYk9oXzl5ZkVhdXU0clo4b0g5UGViRm9tWHlDZEdhZzBXN0REek1BamM2bXNRVHNZYThSbUMzZjVndnVmN2k3NVRMYjJZcFVZMU1TUTZwZkNGNjJmUXZrV3gxNXJibmhVdTllRFJJSDdfRXIxWjc3QVhUUFF5NWhGUHY0bi16NlpYM01HbjZFcDNmMFlkYmxQVDAzeXBmREpEenhPTVBB?oc=5",
-"urls": []
-},
-"40b002b9b74b": {
-"coin": "ethereum",
-"src": "StreetInsider",
-"srcs": [
-"KuCoin",
-"NAI500",
-"StreetInsider"
-],
-"t": 1794625873.7365985,
-"t0": 1794604510.0,
-"tgtext": "",
-"title": "Ethereum Price Prediction: ETH Risks $1,500 After Nearly $250M in Liquidations While AlphaPepe Passes $3.39M Raised",
-"url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZUxhNkpSVDZwN3V0blhiNWpVV0F5NzJLdEhKZGJrMEtKWFlQLW9FSV80Qld4UmZkMFFGYklfSG9jS1RFNlc2Um9kZ0NpSkVWaXNEeDhZRmlfbWFrT2NveFN1ZjNfTkI3VWd2dWVIQkI1cVhNbGVqWGVnQnhMSFlHSlR6ektGVm1TalZhSWJuWjZhSHRQU1dlYUlfZ3RZVUpJMmJpeDUxaWpwcTJidnYyMW5CSENtcVI4a0RjY3FKc3FfaDUwMHo3VHhjY2p1WjR0TllZLWtzYTEzaU55UXl2U2FUcEQwR1RzazlwRFpqS1JQbTVuWlJnRDdrUVVzeHotQklGUG1aeF90dmJhbzU4b2JGTQ?oc=5",
 "urls": []
 },
 "40b1b1a3c45c": {
@@ -1117,11 +1103,24 @@
 "srcs": [
 "grafa.com"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794791925.0,
 "tgtext": "",
 "title": "Kava Lend exploit drains $3.8 million in KAVA",
 "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DOGJOaGEwYklTdzJneDk4TmRKUmxpUGpGeDd3cmVuS3JnN3d5M3lFVGltVVBnbWdRUkIwTXZjWmp1a3FueFNZVjJ5LTVRa0VsWURZRHJrMWR3TEF6d0xXbmFheFFpbDZqN3BvR1JLVVM5WXk4bWxUdTdzbDZYU2M?oc=5",
+"urls": []
+},
+"5671f243c8c3": {
+"coin": "pump-fun",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794798918.6913114,
+"t0": 1794798366.0,
+"tgtext": "A whale is rotating from $PUMP into $HYPE!\n\nOver the past 16 days, whale EnaatN deposited 1.4B $PUMP ($4.93M) into Hyperliquid, sold it, and bought $HYPE.\n\nhttps://arkm.com/explorer/address/EnaatNfHKJHifA6VsiZBm1dKKwY8z2aaqW8BhDYwvYJm\nhttps://hypurrscan.io/address/0xefba0f56eef05f6a7d614ce519d2e284b46d3583#orders",
+"title": "A whale is rotating from PUMP into HYPE!",
+"url": "https://t.me/lookonchainchannel/11084",
 "urls": []
 },
 "56a1c8d2bdf8": {
@@ -1229,7 +1228,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794795594.0,
 "tgtext": "Bitcoin short-term holder whales face nearly $8B in unrealized losses, a record high\n\nCryptoQuant analyst Darkfost data shows short-term holder whales that heavily accumulated BTC over the past 155 days are now sitting on almost $8 billion in unrealized losses. Despite BTC\u2019s ~30% drop since October, exchange inflows show no panic: Binance\u2019s monthly average rose from ~1,200 to 2,100 BTC, with over 9,000 BTC on Nov 3 alone\u2014still below June and February peaks. The figures may include Binance hack-related transfers or UTXO consolidations. \u2014 link",
 "title": "Bitcoin short-term holder whales face nearly $8B in unrealized losses, a record high",
@@ -1499,7 +1498,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794791792.0,
 "tgtext": "",
 "title": "Aster CEO probes ASTER token swings linked to targeted liquidations",
@@ -1529,7 +1528,7 @@
 "The Edge Malaysia",
 "investingLive"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "Weekend - Bitcoin fell to four-month low near $62,000 as crypto liquidations top $2 billion",
@@ -1812,7 +1811,7 @@
 "Bitcoin News",
 "Cointelegraph"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794793564.0,
 "tgtext": "\ud83d\udea8 UPDATE: Luxor says an AI-enabled attack on its Commander tool redirected bitcoin rigs from over a dozen client accounts to the OCEAN pool, and it will repay affected clients in full.\n\nNews | Markets | YouTube",
 "title": "Luxor says an AI-enabled attack on its Commander tool redirected bitcoin rigs from over a dozen client accounts to the OCEAN pool, and it will repay affected clients in full.",
@@ -2381,7 +2380,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2694,7 +2693,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794798308.7024136,
+"t": 1794798918.6913114,
 "t0": 1794793481.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 7,936 $ETH($14.47M) at $1,823!\n\nOver the past 5 days, these wallets have bought a total of 71,475 $ETH ($139.74M) at an average price of $1,955 and are now sitting on $10M+ in unrealized losses.\n\nhttps://arkm.com/explorer/entity/45a48cc7-3301-4842-b57f-b4d32fb6370a",
 "title": "The Erik Voorhees-linked wallets bought another 7,936 ETH($14.47M) at $1,823!",
@@ -3200,9 +3199,8 @@
 "ethereum": 1794711791.1498003
 },
 "probs": {
-"10dd0cac55e5": 0.015,
 "118f28c99de7": 0.05,
-"17863a24458f": 0.43,
+"17863a24458f": 0.353,
 "20828b105e1c": 0.022,
 "32a836237ff4": 0.697,
 "36b999fcc1e8": 0.022,
@@ -3211,6 +3209,7 @@
 "4c123b24e99e": 0.031,
 "5574706bded1": 0.24,
 "560911261b81": 0.017,
+"5671f243c8c3": 0.77,
 "63fe37a7dbd6": 0.511,
 "65a0cf002ffb": 0.157,
 "66ab2c100a80": 0.007,
@@ -3220,13 +3219,16 @@
 "7f12689193c6": 0.026,
 "8122e1e7bcbe": 0.155,
 "93ec1255cb7f": 0.681,
+"9a516ea4fff9": 0.135,
+"b4dfb5b8f4c4": 0.048,
 "bf1facc3bbac": 0.095,
 "c107e7b11d7b": 0.86,
 "c82a621df257": 0.239,
 "d2033ba38fac": 0.098,
 "d7057f51401f": 0.072,
+"d86c4fac9208": 0.032,
 "dce60ae1a616": 0.048,
-"dd8f84fb9d74": 0.086,
+"dd8f84fb9d74": 0.106,
 "e06349f23dae": 0.88,
 "e446943bbda4": 0.062,
 "ee7386f81886": 0.095,
@@ -4262,6 +4264,23 @@
 "rigs",
 "tool"
 ]
+},
+{
+"e": [
+"hype",
+"pump"
+],
+"k": [],
+"t": 1794798615.0278168,
+"u": [
+"https://t.me/lookonchainchannel/11084"
+],
+"w": [
+"hype",
+"pump",
+"rotating",
+"whale"
+]
 }
 ],
 "stories": {},
@@ -4270,63 +4289,63 @@
 [
 "e06349f23dae",
 16,
-80,
+91,
 1
 ],
 [
 "c107e7b11d7b",
 0,
-331,
+341,
 1
 ],
 [
 "7de4df3021ac",
-68,
-308,
+67,
+318,
 4
+],
+[
+"5671f243c8c3",
+18,
+9,
+1
 ],
 [
 "32a836237ff4",
 10,
-95,
+105,
 1
 ],
 [
 "93ec1255cb7f",
 45,
-79,
+89,
 2
 ],
 [
 "63fe37a7dbd6",
 45,
-45,
+55,
 1
 ],
 [
 "17863a24458f",
 10,
-23,
+33,
 1
 ],
 [
 "7be08416c990",
 40,
-109,
+119,
 1
 ],
 [
 "5574706bded1",
 41,
-106,
-1
-],
-[
-"c82a621df257",
-18,
-143,
+117,
 1
 ]
 ],
-"top_at": 1794798308.7024136
+"top_at": 1794798918.6913114
 }
