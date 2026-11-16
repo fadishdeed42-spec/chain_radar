@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1794750811.2258296,
-1794753171.4754457,
 1794760206.2574134,
 1794778818.039827,
 1794795867.7951882,
@@ -17,7 +15,8 @@
 1794825406.8659422,
 1794827678.6466959,
 1794827678.6466959,
-1794829561.8936625
+1794829561.8936625,
+1794840518.7001226
 ],
 "menu": {
 "000f6ad45d27": {
@@ -378,7 +377,7 @@
 "bloomingbit",
 "www.tokenpost.com"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794827446.0,
 "tgtext": "",
 "title": "LIT Tops Crypto Liquidations at $3.19 Million in an Hour After Lighter Hacking Allegation",
@@ -566,7 +565,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794825545.0,
 "tgtext": "",
 "title": "Bitcoin (BTC) price slips after rising from July 14 low that triggered weekend liquidations: Crypto Market Today",
@@ -776,6 +775,23 @@
 "tgtext": "",
 "title": "Coinbase India Halts INR Withdrawals After Banking Partner Outage",
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTGRKSnpONm93OHZnS3llU1V3NFQxQTQ5REFHSFQ0YVJfZ3cwS1lLT29zVWN1b0xyTUZsWWVzTEptQ0pFcS1HMXFteUEzbUlUVzVZWHpZUkczY0o4WDVvUGZ6c0oyb1BfZ3RhakttZlBEWGQ4M05WYnVsWm5aaE1TcmQzYVZ6elVkTHRXMm5MVF82TnlY?oc=5",
+"urls": []
+},
+"3ed951bdedc4": {
+"coin": "",
+"src": "bloomingbit",
+"srcs": [
+"Crypto Briefing",
+"Cryptopolitan",
+"The Cryptonomist",
+"bloomingbit",
+"www.tokenpost.com"
+],
+"t": 1794840824.8404212,
+"t0": 1794823349.0,
+"tgtext": "",
+"title": "Kava Chain Details Response to HARD Lend Exploit, Seeks to End Lending Function",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05ZTdwNGx0UkFma29waldacDEwMkNUTGlZM2h5djFMSDlXTjBPWnl2TldlbUhNeEY0OGtJc19sNGtZQXAwWXJFZ2tleU5NOG9pRnF1dQ?oc=5",
 "urls": []
 },
 "40933bf38dc8": {
@@ -1133,7 +1149,7 @@
 "Crypto News",
 "Cryptonews"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794827322.0,
 "tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%.\n\nLighter said its investigation found that the security incident was caused by a trader's leaked API key, with no impact on the protocol or smart contracts. As a precaution, it has enabled Guardian mode and plans to have its Security Council execute a contract upgrade to recover funds involved in a second withdrawal attempt by the attacker. Withdrawals remain suspended, with the platform targeting a resumption later today. \u2014 link\n\ud83d\udea8 JUST IN: Lighter says its security incident stemmed from a trader's leaked API key, not a protocol breach. \n\nWithdrawals remain paused, with restoration targeted by end of today.\n\nNews | Markets | YouTube\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
 "title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! \u2013 Hacker Buys Two Altcoins!",
@@ -1162,14 +1178,17 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
+"Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794833073.029123,
+"t": 1794840518.7001226,
 "t0": 1794829813.0,
 "tgtext": "\ud83c\udded\ud83c\uddf0 JUST IN: Hong Kong plans year-end bill expanding crypto licensing to dealers, advisers and custodians, per Financial Secretary Paul Chan.\n\nOnly 2 of 36 first-round stablecoin applicants licensed so far.\n\nNews | Markets | YouTube",
 "title": "Hong Kong plans year-end bill expanding crypto licensing to dealers, advisers and custodians, per Financial Secretary Paul Chan.",
 "url": "https://t.me/cointelegraph/73314",
-"urls": []
+"urls": [
+"https://bitcoinmagazine.com/news/hong-kong-license-crypto-dealers-custodian"
+]
 },
 "638a135ddb9d": {
 "coin": "bitcoin",
@@ -2305,7 +2324,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794834486.0,
 "tgtext": "\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 485 $BTC,  bringing its total holdings to 850,849 $BTC\n\nNews | Markets | YouTube\nJUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
 "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
@@ -2445,7 +2464,7 @@
 "Crypto Headlines",
 "Wu Blockchain"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794834072.0,
 "tgtext": "\ud83d\udd25 \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u0434\u043e\u043a\u0443\u043f\u0438\u043b 485 BTC ($33,4m)! \u2013 \u0440\u0435\u043b\u0438\u0437\n\n\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 \u043f\u043e\u043a\u0443\u043f\u043a\u0438: $68,887.\n\n\u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0430 \u0431\u0430\u043b\u0430\u043d\u0441\u0435 Strategy \u0445\u0440\u0430\u043d\u0438\u0442\u0441\u044f 850,849 BTC ($54,5b).\n\n\u0414\u043e\u043b\u043b\u0430\u0440\u043e\u0432\u044b\u0439 \u0440\u0435\u0437\u0435\u0440\u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 $4,9b.\n\n\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Strategy \u0442\u0430\u043a\u0436\u0435 \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 221 BTC ($14,1m) \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u0448\u0435\u043b\u0435\u043a \u2013 arkham\n\n\u0420\u0430\u043d\u0435\u0435 \u0438\u0437-\u0437\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0445 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432 \u0432 X (Twitter) \u043d\u0430\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0430\u043d\u0438\u043a\u0430, \u0447\u0442\u043e \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u043f\u0440\u043e\u0434\u0430\u0435\u0442 \u0411\u0438\u0442\u043a\u043e\u0438\u043d.\n\nCrypto Headlines\nStrategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link",
 "title": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC",
@@ -2614,7 +2633,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794835951.5204618,
+"t": 1794840824.8404212,
 "t0": 1794824781.0,
 "tgtext": "JUST IN: Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Solana officially drops \u201cmainnet beta,\u201d introducing Solana 1.0 without changing the network.\n\nNews | Markets | YouTube",
 "title": "Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0",
@@ -2731,7 +2750,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794836992.0,
 "tgtext": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked\n\nBitmine (BMNR) acquired 7,653 ETH over the past week, bringing its total holdings to 6,077,745 ETH, representing 4.97% of total supply. The company has staked 5.23 million ETH, worth approximately $9.5 billion, generating estimated annualized staking revenue of $245 million at a 2.57% yield. Total crypto, cash and other investments reached $11.8 billion as of November 15. \u2014 link",
 "title": "Bitmine's ETH Holdings Reach 6.08 Million, with 5.23 Million ETH Staked",
@@ -2776,6 +2795,20 @@
 "tgtext": "Machi(@machibigbrother) bought Bored Ape #2894 for 125 $ETH 5 years ago, but just sold it for only 7.3 $ETH!\n\nHe took a loss of 117.7 $ETH ($204K) to raise funds for high-leverage trading!\n\nhttps://opensea.io/item/ethereum/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/2894",
 "title": "Machi(@machibigbrother) bought Bored Ape #2894 for 125 ETH 5 years ago, but just sold it for only 7.3 ETH!",
 "url": "https://t.me/lookonchainchannel/11070",
+"urls": []
+},
+"e2b2eefc3a87": {
+"coin": "",
+"src": "Forbes",
+"srcs": [
+"CoinCodex",
+"Forbes"
+],
+"t": 1794840824.8404212,
+"t0": 1794830880.0,
+"tgtext": "",
+"title": "\u2018It Needs To Hold\u2019\u2014Bitcoin Is Suddenly Braced For A Massive $500 Billion Price Crash",
+"url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZ3FhbWw2cWVCR0JCM2hYcWlET2sxb1E4a2dZb21wZWxpYTRBTUREMnBONXlxcWpwQXpQMm9MNDBDR0pCYU91NnZfdDRRMlhqdWNtb2hReDZIUVlraFlKVG1iZUNRR3BfLWRwVTB3czR3Nk5jZ0FxLVJhODNESzhIMWtKZ1NtYl9iMnJTemFmcEZSY0xia3M1QnlDZmtpWmJTcDFVRUVoTFVCYkxpTDFjb1M5LTRHWmFUcHVia0UxZFNrMXFRekIzM1NrdW40c2hRaHlF?oc=5",
 "urls": []
 },
 "e2f7cb34bdc5": {
@@ -2989,11 +3022,11 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794840020.9490166,
+"t": 1794840824.8404212,
 "t0": 1794839478.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia NVDA CEO.",
-"url": "https://t.me/WatcherGuru/16063",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he would not mind Jensen Huang being reinstated as Nvidia $NVDA CEO.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia $NVDA CEO Jensen Huang was a Chinese spy.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA CEO Jensen Huang did not put US national security at risk.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he doesn't know if the woman involved with Nvidia NVDA CEO Jensen Huang was a Chinese spy.",
+"url": "https://t.me/WatcherGuru/16065",
 "urls": []
 },
 "f2f0879b5c86": {
@@ -3238,7 +3271,7 @@
 "Traders Union",
 "bloomingbit"
 ],
-"t": 1794840020.9490166,
+"t": 1794840518.7001226,
 "t0": 1794819026.0,
 "tgtext": "",
 "title": "Kava Chain Details Response to HARD Lend Exploit, Seeks to End Lending Function",
@@ -3266,13 +3299,12 @@
 "rain": 1794812525.8653169
 },
 "probs": {
+"028b8aea2ae3": 0.195,
 "074416aca44e": 0.395,
-"0e8cda4a4abb": 0.916,
 "0f9f12d21fcd": 0.041,
 "0fbe054e8dbf": 0.211,
 "18ae860e02bd": 0.151,
 "19dadfd3f6fc": 0.798,
-"1f5149c1efcb": 0.38,
 "230d6a455119": 0.086,
 "250cd7e1056e": 0.13,
 "26af0c550ad2": 0.313,
@@ -3280,58 +3312,35 @@
 "2c24015162ad": 0.609,
 "34345eefb48d": 0.231,
 "3bb3bdc6b48a": 0.31,
+"3ed951bdedc4": 0.815,
 "4515b8a36c00": 0.045,
-"4e1ef82399fa": 0.726,
+"5aa0f120c5f9": 0.108,
 "604b49bc786c": 0.062,
 "61200ffbb954": 0.952,
+"62a7b2585ed2": 0.793,
 "63b687e92737": 0.266,
-"6e1ef5e7c7db": 0.102,
-"8122e1e7bcbe": 0.164,
-"885594f04f52": 0.139,
-"95268552f507": 0.643,
-"999c13b3eea4": 0.1,
-"99b818dca458": 0.09,
-"a41e944e9649": 0.483,
-"aac4546e9987": 0.119,
+"82d4948cf06e": 0.114,
+"8383e3b86eea": 0.094,
+"885594f04f52": 0.084,
+"999c13b3eea4": 0.197,
+"99b818dca458": 0.05,
+"a41e944e9649": 0.17,
+"aac4546e9987": 0.143,
 "ba7f58a6cfac": 0.984,
-"c83f3f357590": 0.917,
-"d0ccabcc0bb6": 0.366,
-"d66724921ba9": 0.669,
+"c83f3f357590": 0.888,
+"d0ccabcc0bb6": 0.468,
+"d66724921ba9": 0.844,
 "d708b196eef2": 0.249,
-"de534142608e": 0.204,
-"e2b2eefc3a87": 0.285,
-"e79c2ed27e2b": 0.469,
-"ee922286e93b": 0.127,
+"de534142608e": 0.24,
+"e2b2eefc3a87": 0.88,
+"e79c2ed27e2b": 0.32,
+"ee922286e93b": 0.072,
+"f26e2d476893": 0.952,
 "f54120d2e91c": 0.061,
-"f5c2a3b62a11": 0.613,
-"f7126ccc5773": 0.058,
-"ff38d41cf335": 0.761
+"f5c2a3b62a11": 0.534,
+"f7126ccc5773": 0.058
 },
 "sent": [
-{
-"e": [
-"behavior",
-"drops",
-"hours",
-"investigating",
-"kava",
-"unexpected"
-],
-"k": [],
-"t": 1794666553.167528,
-"u": [
-"https://t.me/wublockchainenglish/26827"
-],
-"w": [
-"behavior",
-"dapp",
-"drops",
-"hours",
-"investigating",
-"kava",
-"unexpected"
-]
-},
 {
 "e": [
 "kava",
@@ -4708,6 +4717,40 @@
 "nov",
 "price"
 ]
+},
+{
+"e": [
+"chan",
+"financial",
+"hong",
+"kong",
+"paul",
+"secretary"
+],
+"k": [],
+"t": 1794840518.7001226,
+"u": [
+"https://t.me/cointelegraph/73314",
+"https://bitcoinmagazine.com/news/hong-kong-license-crypto-dealers-custodian"
+],
+"w": [
+"advisers",
+"bill",
+"chan",
+"custodians",
+"dealers",
+"end",
+"expanding",
+"financial",
+"hong",
+"kong",
+"licensing",
+"paul",
+"per",
+"plans",
+"secretary",
+"year"
+]
 }
 ],
 "stories": {},
@@ -4716,63 +4759,63 @@
 [
 "ba7f58a6cfac",
 54,
-92,
+106,
 3
 ],
 [
 "61200ffbb954",
-96,
-212,
+94,
+225,
 9
+],
+[
+"f26e2d476893",
+26,
+22,
+1
 ],
 [
 "c83f3f357590",
 26,
-99,
+113,
 2
 ],
 [
-"0e8cda4a4abb",
-59,
-267,
-5
+"e2b2eefc3a87",
+60,
+166,
+2
 ],
 [
-"f26e2d476893",
-18,
-9,
-1
+"d66724921ba9",
+29,
+267,
+4
 ],
 [
 "dd99170eccf9",
 16,
-50,
+64,
 1
 ],
 [
 "27786e2f37ed",
-42,
-241,
+41,
+255,
 2
 ],
 [
-"7ee305cc50c0",
-0,
-357,
-1
+"3ed951bdedc4",
+57,
+291,
+5
 ],
 [
 "19dadfd3f6fc",
-63,
-210,
+61,
+223,
 3
-],
-[
-"ff38d41cf335",
-49,
-350,
-5
 ]
 ],
-"top_at": 1794840020.9490166
+"top_at": 1794840824.8404212
 }
