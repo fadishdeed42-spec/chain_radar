@@ -94,14 +94,15 @@ def sc_doc(cv, t, i, v, a):
     cv.text(W / 2, y0 + 70, str(v.get('head', '')).upper()[:34], 'bold', 26, INK2, a, anchor='cm', track=6)
     cv.line([(x0 + 60, y0 + 110), (x1 - 60, y0 + 110)], INK2, 2, a)
     title = str(v.get('title', '')).upper()
-    for k, ln in enumerate(wrap(title, 18)[:2]):
+    tl = wrap(title, 18)[:4]                                              # the whole headline, never cut after 2 lines
+    for k, ln in enumerate(tl):
         cv.text(W / 2, y0 + 175 + k * 70, ln, 'black', fit(ln, 'black', 60, x1 - x0 - 100), INK, a, anchor='cm')
     lines = [str(x) for x in (v.get('lines') or [])][:6]
     st = _steps(i, {'steps': [{'word': w} for w in (v.get('at') or [])]}) if v.get('at') else []
     for k, ln in enumerate(lines):
         t0 = st[k][0] if k < len(st) else P(i) + .45 + k * min(.55, max(.25, (h - P(i) - .6) / max(1, len(lines))))
         p = seg(t, t0 - .1, t0 + .6)
-        yy = y0 + 360 + k * 92
+        yy = y0 + max(360, 175 + 70 * len(tl) + 60) + k * 92
         if p <= 0:
             cv.rect(x0 + 70, yy - 8, x0 + 70 + (x1 - x0 - 140) * (.55 + .3 * ((k * 37) % 10) / 10), yy + 8, (215, 210, 198), a, r=8)
             continue
