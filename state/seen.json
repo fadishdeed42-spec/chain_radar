@@ -99,7 +99,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794833881.0,
 "tgtext": "Strategy transferred 221.74 $BTC ($14.19M) to a new wallet ~30 minutes ago.\n\nhttps://arkm.com/explorer/entity/microstrategy",
 "title": "Strategy transferred 221.74 BTC ($14.19M) to a new wallet ~30 minutes ago.",
@@ -872,6 +872,20 @@
 "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo"
 ]
 },
+"4b1542eadee6": {
+"coin": "ethereum",
+"src": "Fortune",
+"srcs": [
+"Fortune",
+"Lookonchain"
+],
+"t": 1794836741.5376031,
+"t0": 1794833100.0,
+"tgtext": "Nov 9\u2013Nov 15, 2026 #LookonchainWeeklyReport\nhttps://x.com/lookonchain/status/2122323297475924025",
+"title": "Current price of Ethereum for Nov. 16, 2026",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13UmNHTmlPQlRCMnBtbFVBZUh0WExfYkhvNkR0SEN4Q3l5aEp6d3dzTTB2WnA5M25EeEJRZWxnVEpUa19QUl9lcUkxbzR4bnJtdlVVaW1FbDIyeDdrTno1d0tZRV9ZVE1w?oc=5",
+"urls": []
+},
 "4c46e93063cd": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -908,7 +922,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794825999.0,
 "tgtext": "Upbit Operator Dunamu Swings to $13.8 Million Q3 Net Loss as Revenue Falls 60.7%\n\nDunamu, the operator of South Korea's largest crypto exchange Upbit, reported Q3 2026 revenue of KRW 151.7 billion ($112.4 million), down 60.7% year over year. Operating expenses rose 3.1% to KRW 155.2 billion ($115 million), resulting in an operating loss of KRW 3.5 billion ($2.6 million), compared with an operating profit of KRW 235.3 billion ($174.3 million) a year earlier. Net loss reached KRW 18.6 billion ($13.8 million), versus a net profit of KRW 239 billion ($177 million) in Q3 2025. \u2014 link",
 "title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
@@ -1121,19 +1135,19 @@
 },
 "61200ffbb954": {
 "coin": "lighter",
-"src": "bloomingbit",
+"src": "Bitcoin Sistemi",
 "srcs": [
+"Bitcoin Sistemi",
 "CoinLaw",
 "Cointelegraph",
 "Crypto Briefing",
-"Crypto News",
-"Cryptonews.net"
+"Crypto News"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794827322.0,
 "tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%.\n\nLighter said its investigation found that the security incident was caused by a trader's leaked API key, with no impact on the protocol or smart contracts. As a precaution, it has enabled Guardian mode and plans to have its Security Council execute a contract upgrade to recover funds involved in a second withdrawal attempt by the attacker. Withdrawals remain suspended, with the platform targeting a resumption later today. \u2014 link\n\ud83d\udea8 JUST IN: Lighter says its security incident stemmed from a trader's leaked API key, not a protocol breach. \n\nWithdrawals remain paused, with restoration targeted by end of today.\n\nNews | Markets | YouTube\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
-"title": "Lighter Halts Withdrawals, Says Security Incident Points to Breach of External Address, Not Protocol Hack",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTdXdFR2dJNk9IREN6T2JDa3l0ejhmbk5mLU5tSlFqRkJVRnlmMlFpVVk1b0dTOFlKS1EzU0t0cFlYNlktSXNqTzZ2U2dhNVY0NVgxVw?oc=5",
+"title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! - Hacker Buys Two Altcoins!",
+"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcWRwOHlCTEpJU1JabnRxbHlQR3AzUlZsWDlyV3czY1FkRkxyeU5naGM3TkN3eVZSZi1MdXIxUk0xWTZJY1VpS1JDR25abS1mYkV2alg3UnZqUlFPNk0xNkZMTVN6OFZDSXU3eUtLX0xIRGs1Z2hzMkdPT2NqdDQ2TEprQWRpRDQydkdwOEkyTFFsQjdmU3d1N1Z5UEhQcWpwZ3RoVHZESnlfbGdwcjQ4VTA2d0RRZzg1cEo1dGVhOW5fQlY0bTZjMXFR?oc=5",
 "urls": []
 },
 "6187f9324294": {
@@ -1241,7 +1255,7 @@
 "TradingView",
 "Watcher.Guru"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794824126.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
 "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
@@ -1541,7 +1555,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794818620.0,
 "tgtext": "Highlight Clip: Murad Mahmudov: Only Two Types of Crypto Assets Have Value\n\nMurad Mahmudov: Only Two Types of Crypto Assets Have Value\n\nCrypto investor Murad Mahmudov said at TOKEN2049 Singapore 2026 on October 16 that the market took eight years to embrace stores of value and revenue-generating tokens as crypto's only valuable assets. He predicted three asset categories: lottery tickets, stores of value or mega-cults, and businesses. Murad cited figures suggesting 97% of Pump fun traders lose money or break even, while 97% of Polymarket traders fund the top 3%'s gains. He criticized platforms for showcasing the top 0.1%'s profits while ignoring hundreds of thousands of losers, advocating collective investment in communities instead. \u2014 link",
 "title": "Highlight Clip: Murad Mahmudov: Only Two Types of Crypto Assets Have Value",
@@ -2112,6 +2126,23 @@
 "url": "https://t.me/lookonchainchannel/11060",
 "urls": []
 },
+"b1771eb4b1f7": {
+"coin": "bitcoin",
+"src": "Coinpedia",
+"srcs": [
+"Coinpedia",
+"Decrypt",
+"Forbes"
+],
+"t": 1794836741.5376031,
+"t0": 1794819803.0,
+"tgtext": "",
+"title": "Bitcoin Price Plunges Below $65,000 \u2013 What's Triggering Massive Sell-off Across Crypto Market?",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYnRmMnRzbHNjX1JlX0dWVVQ3WXJCZWI5WGtCeFRIbFRFeFBONnR4X2hTZHdrajdlVFhURkVqX3RaampCRUpNUngxam04eUNmVlJOWE1WSGEwLXFLWUhLM09hWkFZeFFDTGJWZFlXdm1Bd21vQWpPZGtleHlOd3duWWFvOWNUWjV2M2ptamhmdlNvOENFaUlTS1ktOU9Ja3BMc3h6N0F2WDgzbmctZUdMZHc1SENGOGFJclFoZVltM0Zsd0IzV2dmelVUWlkyc0U?oc=5",
+"urls": [
+"https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges"
+]
+},
 "b25d8eb54170": {
 "coin": "bitcoin",
 "src": "Lookonchain",
@@ -2271,7 +2302,7 @@
 "Coinpaper",
 "Cryptonews"
 ],
-"t": 1794835157.236848,
+"t": 1794836741.5376031,
 "t0": 1794827784.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: BTC Rebounds From $62K Crash, but Could $60K Be Next?",
@@ -2449,7 +2480,7 @@
 "Crypto Headlines",
 "Wu Blockchain"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794834072.0,
 "tgtext": "\ud83d\udd25 \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u0434\u043e\u043a\u0443\u043f\u0438\u043b 485 BTC ($33,4m)! \u2013 \u0440\u0435\u043b\u0438\u0437\n\n\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 \u043f\u043e\u043a\u0443\u043f\u043a\u0438: $68,887.\n\n\u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0430 \u0431\u0430\u043b\u0430\u043d\u0441\u0435 Strategy \u0445\u0440\u0430\u043d\u0438\u0442\u0441\u044f 850,849 BTC ($54,5b).\n\n\u0414\u043e\u043b\u043b\u0430\u0440\u043e\u0432\u044b\u0439 \u0440\u0435\u0437\u0435\u0440\u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 $4,9b.\n\n\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Strategy \u0442\u0430\u043a\u0436\u0435 \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 221 BTC ($14,1m) \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u0448\u0435\u043b\u0435\u043a \u2013 arkham\n\n\u0420\u0430\u043d\u0435\u0435 \u0438\u0437-\u0437\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0445 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432 \u0432 X (Twitter) \u043d\u0430\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0430\u043d\u0438\u043a\u0430, \u0447\u0442\u043e \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u043f\u0440\u043e\u0434\u0430\u0435\u0442 \u0411\u0438\u0442\u043a\u043e\u0438\u043d.\n\nCrypto Headlines\nStrategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link",
 "title": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC",
@@ -3073,7 +3104,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794835951.5204618,
+"t": 1794836741.5376031,
 "t0": 1794827133.0,
 "tgtext": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!\n\nThe attacker is now depositing the stolen funds into #Hyperliquid to buy $XMR.\n\nhttps://arkm.com/explorer/address/0xb3fffca23d4444eE73349825ACD84f7b5020e387\nIt appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.\n\nAbraxas Capital is now closing short positions on Hyperliquid and withdrawing funds.\n\nOver the past 24 hours, its account value on Hyperliquid has dropped by $150M, while its short positions have shrunk to $70M.\n\nhttps://hypurrscan.io/address/0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36#more\nhttps://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13f298c060#more",
 "title": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!",
@@ -3258,44 +3289,44 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"06fbce5b009c": 0.064,
 "0904088b6d03": 0.283,
+"0f9f12d21fcd": 0.041,
 "0fbe054e8dbf": 0.256,
-"15786c9a5e10": 0.463,
-"16330df3ec0e": 0.119,
+"15786c9a5e10": 0.514,
+"16330df3ec0e": 0.157,
 "19dadfd3f6fc": 0.792,
 "1ad6320157ea": 0.059,
-"1f5149c1efcb": 0.226,
 "230d6a455119": 0.086,
-"259321dd624a": 0.422,
+"259321dd624a": 0.28,
 "27786e2f37ed": 0.761,
-"2a9553c66d3d": 0.254,
-"2ccae3ee68ef": 0.053,
 "34345eefb48d": 0.231,
-"4e1ef82399fa": 0.901,
-"53e8e80ac7bc": 0.086,
+"3b907c7fe273": 0.007,
+"4b1542eadee6": 0.949,
+"4e1ef82399fa": 0.873,
+"53e8e80ac7bc": 0.048,
 "604b49bc786c": 0.062,
-"61200ffbb954": 0.95,
-"66738695ccb1": 0.296,
+"61200ffbb954": 0.96,
+"66738695ccb1": 0.084,
 "6db08208797d": 0.988,
-"95268552f507": 0.155,
-"999c13b3eea4": 0.337,
+"6e1ef5e7c7db": 0.173,
+"938011bcc32f": 0.13,
+"95268552f507": 0.49,
 "99b818dca458": 0.09,
 "a2ea1dc567b5": 0.279,
 "a41e944e9649": 0.483,
 "aac4546e9987": 0.119,
-"b1771eb4b1f7": 0.135,
-"ba7f58a6cfac": 0.75,
+"b1771eb4b1f7": 0.852,
+"b83b073f81a8": 0.804,
+"ba7f58a6cfac": 0.694,
 "bcf0c18e3e01": 0.077,
-"c83f3f357590": 0.983,
-"d0ccabcc0bb6": 0.268,
+"c83f3f357590": 0.845,
+"d0ccabcc0bb6": 0.366,
 "d450949d1298": 0.102,
-"d66724921ba9": 0.902,
-"e2b2eefc3a87": 0.285,
+"d66724921ba9": 0.669,
 "e40129e994a4": 0.102,
 "e79c2ed27e2b": 0.469,
-"ee922286e93b": 0.052,
-"f5c2a3b62a11": 0.979,
+"ee922286e93b": 0.127,
+"f5c2a3b62a11": 0.99,
 "f6c49d9b8e80": 0.064,
 "ff38d41cf335": 0.676
 },
@@ -4681,71 +4712,90 @@
 "tumbles",
 "use"
 ]
+},
+{
+"e": [
+"current",
+"nov"
+],
+"k": [],
+"t": 1794836434.9982374,
+"u": [
+"https://news.google.com/rss/articles/CBMiaEFVX3lxTE13UmNHTmlPQlRCMnBtbFVBZUh0WExfYkhvNkR0SEN4Q3l5aEp6d3dzTTB2WnA5M25EeEJRZWxnVEpUa19QUl9lcUkxbzR4bnJtdlVVaW1FbDIyeDdrTno1d0tZRV9ZVE1w?oc=5",
+"https://t.me/lookonchainchannel/11098"
+],
+"w": [
+"2026",
+"current",
+"ethereum",
+"nov",
+"price"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"f5c2a3b62a11",
+41,
+160,
+1
+],
+[
 "6db08208797d",
-52,
-197,
+50,
+210,
+3
+],
+[
+"61200ffbb954",
+100,
+157,
+8
+],
+[
+"4b1542eadee6",
+20,
+61,
+2
+],
+[
+"4e1ef82399fa",
+26,
+179,
+2
+],
+[
+"b1771eb4b1f7",
+47,
+282,
 3
 ],
 [
 "c83f3f357590",
 34,
-31,
+44,
 2
 ],
 [
-"f5c2a3b62a11",
-41,
-147,
+"7ee305cc50c0",
+0,
+302,
 1
 ],
 [
 "06f27a4c403a",
 16,
-35,
+48,
 1
 ],
 [
-"61200ffbb954",
-100,
-144,
-7
-],
-[
-"30827e57f6a8",
-10,
-6,
-1
-],
-[
-"d66724921ba9",
-40,
-186,
-4
-],
-[
-"4e1ef82399fa",
-26,
-166,
-2
-],
-[
-"f9b5192f26d3",
-10,
-14,
-1
-],
-[
-"7ee305cc50c0",
-0,
-289,
-1
+"b83b073f81a8",
+55,
+149,
+3
 ]
 ],
-"top_at": 1794835951.5204618
+"top_at": 1794836741.5376031
 }
