@@ -1,10 +1,10 @@
 {
- "title": "Satoshi Hid a Newspaper Headline in Bitcoin\u2019s First Block \ud83d\udcf0 #Shorts",
+ "title": "Satoshi Hid a Newspaper Headline in Bitcoin’s First Block 📰 #Shorts",
  "tone": "mystery",
  "theme": "gold",
- "description": "January 3, 2009: Satoshi Nakamoto mined Bitcoin's first block - the genesis block.\nInside it he wrote a headline from The Times: \"Chancellor on brink of second bailout for banks.\" It proves the block wasn't made before that day, and many read it as a message about the banks.\nIts 50 Bitcoin reward can never be spent - a quirk in the code - and nobody knows if that was on purpose. The next block came about six days later.\n\nMessage or accident? \ud83d\udc47\n\nNot financial advice. Entertainment and education only.",
+ "description": "January 3, 2009: Satoshi Nakamoto mined Bitcoin's first block - the genesis block.\nInside it he wrote a headline from The Times: \"Chancellor on brink of second bailout for banks.\" It proves the block wasn't made before that day, and many read it as a message about the banks.\nIts 50 Bitcoin reward can never be spent - a quirk in the code - and nobody knows if that was on purpose. The next block came about six days later.\n\nMessage or accident? 👇\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Shorts #bitcoin #satoshi #crypto #cryptohistory",
- "pinned": "Message or accident? What do you think Satoshi meant? \ud83d\udc47",
+ "pinned": "Message or accident? What do you think Satoshi meant? 👇",
  "respell": {},
  "scenes": [
   {
@@ -21,7 +21,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "BLOCK 0 \u00b7 THE GENESIS BLOCK"
+   "fact": "BLOCK 0 · THE GENESIS BLOCK"
   },
   {
    "role": "hook",
@@ -39,7 +39,8 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "LOCKED FOREVER"
+   "fact": "LOCKED FOREVER",
+   "punch": true
   },
   {
    "role": "setup",
@@ -71,7 +72,7 @@
    "visual": {
     "type": "title",
     "text": "THE TIMES",
-    "sub": "LONDON \u00b7 03/JAN/2009",
+    "sub": "LONDON · 03/JAN/2009",
     "icon": "question"
    },
    "beats": [],
@@ -87,7 +88,7 @@
    "hit": "bailout",
    "visual": {
     "type": "doc",
-    "head": "THE TIMES \u00b7 03/JAN/2009",
+    "head": "THE TIMES · 03/JAN/2009",
     "title": "CHANCELLOR ON BRINK OF SECOND BAILOUT FOR BANKS"
    },
    "beats": [
@@ -173,7 +174,8 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "THOSE 50 BTC CAN NEVER MOVE"
+   "fact": "THOSE 50 BTC CAN NEVER MOVE",
+   "punch": true
   },
   {
    "role": "turn",

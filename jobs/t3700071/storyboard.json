@@ -1,10 +1,10 @@
 {
- "title": "A Joke Coin Hit $85 Billion \ud83d\udc36 #Shorts",
+ "title": "A Joke Coin Hit $85 Billion 🐶 #Shorts",
  "tone": "funny",
  "theme": "gold",
- "description": "Dogecoin started as a joke. In December 2013, Billy Markus and Jackson Palmer launched a coin with a Shiba Inu named Kabosu as its logo.\nFans raised $36,000 in two days to send Jamaica's bobsled team to the Winter Olympics, then sponsored a NASCAR car.\nPalmer left crypto in 2015. In May 2021 the joke coin passed $85 billion - and during Elon Musk's SNL appearance it fell almost 30%.\n\nJoke or genius? \ud83d\udc47\n\nNot financial advice. Entertainment and education only.",
+ "description": "Dogecoin started as a joke. In December 2013, Billy Markus and Jackson Palmer launched a coin with a Shiba Inu named Kabosu as its logo.\nFans raised $36,000 in two days to send Jamaica's bobsled team to the Winter Olympics, then sponsored a NASCAR car.\nPalmer left crypto in 2015. In May 2021 the joke coin passed $85 billion - and during Elon Musk's SNL appearance it fell almost 30%.\n\nJoke or genius? 👇\n\nNot financial advice. Entertainment and education only.",
  "hashtags": "#Shorts #dogecoin #crypto #elonmusk #cryptohistory #doge",
- "pinned": "Joke or genius? Did you ever own any Doge? \ud83d\udc47",
+ "pinned": "Joke or genius? Did you ever own any Doge? 👇",
  "respell": {
   "SNL": "S N L"
  },
@@ -34,14 +34,15 @@
     "type": "counter",
     "value": 85000000000,
     "prefix": "$",
-    "label": "MARKET CAP \u00b7 MAY 2021",
+    "label": "MARKET CAP · MAY 2021",
     "icon": "dogecoin"
    },
    "beats": [],
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "OVER $85 BILLION"
+   "fact": "OVER $85 BILLION",
+   "punch": true
   },
   {
    "role": "setup",
@@ -63,7 +64,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "DEC 6, 2013 \u00b7 BASED ON LUCKYCOIN"
+   "fact": "DEC 6, 2013 · BASED ON LUCKYCOIN"
   },
   {
    "role": "setup",
@@ -101,7 +102,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "JAMAICA'S BOBSLED TEAM \u00b7 SOCHI 2014"
+   "fact": "JAMAICA'S BOBSLED TEAM · SOCHI 2014"
   },
   {
    "role": "turn",
@@ -110,7 +111,7 @@
    "visual": {
     "type": "title",
     "text": "A DOGE CAR",
-    "sub": "NASCAR \u00b7 2014",
+    "sub": "NASCAR · 2014",
     "icon": "car"
    },
    "beats": [],
@@ -139,7 +140,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "JACKSON PALMER \u00b7 2015"
+   "fact": "JACKSON PALMER · 2015"
   },
   {
    "role": "turn",
@@ -155,7 +156,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "2021 \u00b7 DOGE GOES MAINSTREAM"
+   "fact": "2021 · DOGE GOES MAINSTREAM"
   },
   {
    "role": "payoff",
@@ -178,7 +179,7 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "MAY 2021 \u00b7 ALL-TIME HIGH"
+   "fact": "MAY 2021 · ALL-TIME HIGH"
   },
   {
    "role": "twist",
@@ -218,7 +219,8 @@
    "shots": [],
    "footage": "",
    "photo": "",
-   "fact": "DOWN TO ABOUT $0.49"
+   "fact": "DOWN TO ABOUT $0.49",
+   "punch": true
   },
   {
    "role": "end",

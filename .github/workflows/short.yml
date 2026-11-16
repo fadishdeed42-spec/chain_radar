@@ -27,7 +27,7 @@ jobs:
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng rubberband-cli
           pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
-          pip install -q chatterbox-tts soundfile requests librosa faster-whisper && pip cache purge
+          pip install -q chatterbox-tts kokoro soundfile requests librosa faster-whisper && pip cache purge
       - name: install (render)
         if: github.event.inputs.stage == 'render' || github.event.inputs.stage == 'send'
         run: |
@@ -63,7 +63,7 @@ jobs:
         run: |
           git config user.name chain-radar; git config user.email noreply@github.com
           J=jobs/${{ github.event.inputs.job }}
-          for f in $J/storyboard.json $J/status.json $J/voice.json $J/plan.json $J/voice.log $J/voice_quality.json $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/media.json $J/sheet.jpg $J/review_*.jpg $J/*.runlog studio/ref_am_liam.wav; do [ -f $f ] && git add -f $f; done
+          for f in $J/storyboard.json $J/status.json $J/voice.json $J/plan.json $J/voice.log $J/voice_quality.json $J/voicep.wav $J/voicep.mp3 $J/voicep_words.srt $J/timing.json $J/data.json $J/media.json $J/sheet.jpg $J/review_*.jpg $J/*.runlog studio/ref_*.wav; do [ -f $f ] && git add -f $f; done
           git commit -qm "short ${{ github.event.inputs.stage }} ${{ github.event.inputs.job }} [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done || true
       - name: auto-render (Studio setting)
         if: success() && github.event.inputs.stage == 'voice' && hashFiles(format('jobs/{0}/autorender.flag', github.event.inputs.job)) != ''
