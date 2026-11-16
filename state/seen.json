@@ -394,7 +394,7 @@
 "srcs": [
 "WOWT"
 ],
-"t": 1794786712.90251,
+"t": 1794787019.566036,
 "t0": 1794774060.0,
 "tgtext": "",
 "title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance",
@@ -1478,7 +1478,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794779820.0,
 "tgtext": "",
 "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
@@ -1583,7 +1583,7 @@
 "Coinpedia",
 "Cryptonews.net"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794770318.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite",
@@ -2002,7 +2002,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794771199.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.\n\nHe's giving the board 10 days to respond on export compliance.\n\nNews | Markets | YouTube",
 "title": "Treasury Secretary Bessent says Nvidia needs \"significant change\" at the top and should bring in an outsider as CEO.",
@@ -2043,7 +2043,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1794786102.2586038,
+"t": 1794787323.179267,
 "t0": 1794771801.0,
 "tgtext": "",
 "title": "Shiba Inu Death Cross Returns After 14 Months as SHIB Price Falls Below $0.000004",
@@ -2194,7 +2194,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794769629.0,
 "tgtext": "JUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru\n\ud83d\udea8 BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.\n\nNews | Markets | YouTube",
 "title": "BIG: Jensen Huang weighs a return as Nvidia CEO as Silicon Valley allies push the board to reinstate him just days after his resignation, per FT.",
@@ -2370,7 +2370,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794778478.0,
 "tgtext": "\ud83d\udd25 NEW: CZ says Binance didn't sell and that he bought crypto over the past few days.\n\nHe lists the Anthropic IPO, $1.9B in ETF outflows, hacks, hot inflation and the midterms as possible reasons for the dump.\n\nNews | Markets | YouTube",
 "title": "CZ says Binance didn't sell and that he bought crypto over the past few days.",
@@ -2499,7 +2499,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794785493.0,
 "tgtext": "\ud83d\udea8 REKT: We just saw another $1.23B in long liquidations in just 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: We just saw another $1.23B in long liquidations in just 24 hours.",
@@ -2668,7 +2668,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794783059.0,
 "tgtext": "",
 "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
@@ -3008,7 +3008,7 @@
 "Benzinga",
 "CEO Magazyn"
 ],
-"t": 1794785798.8501258,
+"t": 1794787323.179267,
 "t0": 1794770191.0,
 "tgtext": "",
 "title": "Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin",
@@ -3091,7 +3091,7 @@
 "srcs": [
 "RadarOnline"
 ],
-"t": 1794786712.90251,
+"t": 1794787323.179267,
 "t0": 1794769367.0,
 "tgtext": "",
 "title": "Eric Trump Insists Donald Is 'Winning' the Crypto Race After CNN's Kaitlan Collins Questions Family Business",
@@ -3160,43 +3160,40 @@
 "ethereum": 1794711791.1498003
 },
 "probs": {
-"10dd0cac55e5": 0.006,
-"1176b1f50cc2": 0.046,
-"1420b83c19e7": 0.008,
-"1dd2d736e057": 0.137,
-"1f7bbacb5fd2": 0.036,
-"236055428721": 0.006,
-"2b314648ad19": 0.052,
-"33baaf910bec": 0.007,
-"391582780d9a": 0.012,
-"4c123b24e99e": 0.013,
-"529061e24df4": 0.012,
-"560911261b81": 0.009,
-"5782e86be479": 0.064,
-"5af6faaf1fd8": 0.017,
-"5b1878b63df6": 0.017,
-"66ab2c100a80": 0.005,
-"7842edd92dc0": 0.032,
-"7de4df3021ac": 0.169,
-"86cae10c3b89": 0.08,
-"909d9ebaa697": 0.006,
-"93ec1255cb7f": 0.003,
-"97a47fe25107": 0.054,
-"9a3bdde7b0c9": 0.058,
-"a3053cc01cce": 0.233,
-"a48d03d1a38f": 0.076,
-"b27452a1f040": 0.554,
-"b2ac3b73aee7": 0.313,
-"bc24eea93566": 0.008,
-"c107e7b11d7b": 0.398,
-"c49858ac7e6b": 0.069,
-"d2033ba38fac": 0.499,
-"dd8f84fb9d74": 0.084,
-"f042c7a1c6c0": 0.057,
-"f1bd56e561a2": 0.029,
-"f59072e4d9f7": 0.074,
-"fc6cc189db5e": 0.097,
-"fed096c00312": 0.009
+"10dd0cac55e5": 0.012,
+"1176b1f50cc2": 0.089,
+"1420b83c19e7": 0.017,
+"1f7bbacb5fd2": 0.069,
+"236055428721": 0.013,
+"2b314648ad19": 0.098,
+"33baaf910bec": 0.014,
+"391582780d9a": 0.024,
+"4c123b24e99e": 0.025,
+"529061e24df4": 0.024,
+"560911261b81": 0.018,
+"5782e86be479": 0.12,
+"5af6faaf1fd8": 0.034,
+"5b1878b63df6": 0.034,
+"66ab2c100a80": 0.011,
+"7842edd92dc0": 0.063,
+"7de4df3021ac": 0.29,
+"86cae10c3b89": 0.149,
+"909d9ebaa697": 0.012,
+"93ec1255cb7f": 0.006,
+"97a47fe25107": 0.103,
+"9a3bdde7b0c9": 0.111,
+"a3053cc01cce": 0.378,
+"a48d03d1a38f": 0.141,
+"b27452a1f040": 0.713,
+"bc24eea93566": 0.015,
+"c107e7b11d7b": 0.569,
+"c49858ac7e6b": 0.13,
+"d2033ba38fac": 0.666,
+"dd8f84fb9d74": 0.155,
+"f042c7a1c6c0": 0.108,
+"f59072e4d9f7": 0.138,
+"fc6cc189db5e": 0.177,
+"fed096c00312": 0.018
 },
 "sent": [
 {
@@ -4214,64 +4211,64 @@
 "top": [
 [
 "b27452a1f040",
-7,
-285,
+5,
+295,
 2
 ],
 [
 "d2033ba38fac",
 40,
-20,
+31,
 1
 ],
 [
 "c107e7b11d7b",
 18,
-137,
-1
-],
-[
-"b2ac3b73aee7",
-2,
-358,
+147,
 1
 ],
 [
 "a3053cc01cce",
 0,
-259,
+269,
 1
 ],
 [
 "7de4df3021ac",
 28,
-115,
+125,
 2
 ],
 [
-"1dd2d736e057",
-51,
-211,
-1
-],
-[
 "fc6cc189db5e",
-4,
-289,
+3,
+299,
 1
 ],
 [
 "dd8f84fb9d74",
 20,
-61,
+71,
 1
 ],
 [
 "86cae10c3b89",
-18,
-273,
+17,
+283,
+2
+],
+[
+"a48d03d1a38f",
+0,
+259,
+1
+],
+[
+"f59072e4d9f7",
+56,
+286,
 2
 ]
 ],
-"top_at": 1794786712.90251
+"top_at": 1794787323.179267
 }
