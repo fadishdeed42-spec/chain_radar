@@ -99,7 +99,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794833881.0,
 "tgtext": "Strategy transferred 221.74 $BTC ($14.19M) to a new wallet ~30 minutes ago.\n\nhttps://arkm.com/explorer/entity/microstrategy",
 "title": "Strategy transferred 221.74 BTC ($14.19M) to a new wallet ~30 minutes ago.",
@@ -372,7 +372,7 @@
 "bloomingbit",
 "www.tokenpost.com"
 ],
-"t": 1794834852.7196147,
+"t": 1794835642.2952883,
 "t0": 1794827446.0,
 "tgtext": "",
 "title": "LIT Tops Crypto Liquidations at $3.19 Million in an Hour After Lighter Hacking Allegation",
@@ -623,6 +623,19 @@
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pQUxDWElOWUhWdXJwRm01elc3RjJQcDJ2UHZrSHlwNVpvaS1MUUpTMUhKbDE4RVJnTEdubGFQV3RqRkhYNkJLekNZQU81VXBxQ0UtdUdCckpZdw?oc=5",
 "urls": []
 },
+"30827e57f6a8": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794835951.5204618,
+"t0": 1794835562.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US blocks China from remotely accessing advanced AI chips.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US blocks China from remotely accessing advanced AI chips.",
+"url": "https://t.me/WatcherGuru/16061",
+"urls": []
+},
 "31cc32658342": {
 "coin": "solana",
 "src": "Pluang",
@@ -743,20 +756,6 @@
 "tgtext": "",
 "title": "Michael Saylor's Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
 "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeG5YODNPT0hRNW5INmM3MXVUc3B6SU5Uakg0V3RXVG9HTnUwZWFjaVY0MkpxWllhMFo1dVFiMWl6SVl2TURHcm9tX1l6SVNpYmJ4cENxcHpTLU5wRndwN21Ha3pZNXJfTWpBa2t5VUtLeTFZV0Vrc3NUTkJoYTVnMjRfMEdKOHM0ZXBINVRhWGVwaWNxQlBxSGlNd1dmaFV0S3VSc2R2SGhuZ1EycnRJVGVKTmFsRWJTRUlGWEt4T0ZfUnFjQ2tYa0dKTmxqbXZmSnJBeg?oc=5",
-"urls": []
-},
-"3b19ff594f99": {
-"coin": "",
-"src": "Forbes",
-"srcs": [
-"Coinpaper",
-"Forbes"
-],
-"t": 1794662865.1709151,
-"t0": 1794657515.0,
-"tgtext": "",
-"title": "\u2018Don't Wait\u2019\u2014Bitcoin Suddenly In Free Fall As \u2018Collapse\u2019 Fears Trigger Surprise $2 Trillion Crypto Crash",
-"url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY01Zd3JwVWFzTjBReVVyWEdXT2VDdWJ2cUFwb1ptTTduOXdRbmp2Mjd5eU9fU21kcThub2NDZ2pqNTBOM1VPTTVRY3lqc2NfTFBjS0llSjBrZEpuQVhBa1RiWkV5NnZyX0NuMTZqamhXMkVfVlZJOWttV0dlbVhLYnFtZnAtLTZUNzJnM2ZnRXZvdjI0ejg5cmZ6QUI5QTM4UERnODIzVkZtTTUtbjlJczE0TkRtSGUydUlZc0ZaV3c?oc=5",
 "urls": []
 },
 "3b25e7abc591": {
@@ -909,7 +908,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794825999.0,
 "tgtext": "Upbit Operator Dunamu Swings to $13.8 Million Q3 Net Loss as Revenue Falls 60.7%\n\nDunamu, the operator of South Korea's largest crypto exchange Upbit, reported Q3 2026 revenue of KRW 151.7 billion ($112.4 million), down 60.7% year over year. Operating expenses rose 3.1% to KRW 155.2 billion ($115 million), resulting in an operating loss of KRW 3.5 billion ($2.6 million), compared with an operating profit of KRW 235.3 billion ($174.3 million) a year earlier. Net loss reached KRW 18.6 billion ($13.8 million), versus a net profit of KRW 239 billion ($177 million) in Q3 2025. \u2014 link",
 "title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
@@ -1130,7 +1129,7 @@
 "Crypto News",
 "Cryptonews.net"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794827322.0,
 "tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%.\n\nLighter said its investigation found that the security incident was caused by a trader's leaked API key, with no impact on the protocol or smart contracts. As a precaution, it has enabled Guardian mode and plans to have its Security Council execute a contract upgrade to recover funds involved in a second withdrawal attempt by the attacker. Withdrawals remain suspended, with the platform targeting a resumption later today. \u2014 link\n\ud83d\udea8 JUST IN: Lighter says its security incident stemmed from a trader's leaked API key, not a protocol breach. \n\nWithdrawals remain paused, with restoration targeted by end of today.\n\nNews | Markets | YouTube\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
 "title": "Lighter Halts Withdrawals, Says Security Incident Points to Breach of External Address, Not Protocol Hack",
@@ -1242,7 +1241,7 @@
 "TradingView",
 "Watcher.Guru"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794824126.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
 "title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
@@ -1542,7 +1541,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794818620.0,
 "tgtext": "Highlight Clip: Murad Mahmudov: Only Two Types of Crypto Assets Have Value\n\nMurad Mahmudov: Only Two Types of Crypto Assets Have Value\n\nCrypto investor Murad Mahmudov said at TOKEN2049 Singapore 2026 on October 16 that the market took eight years to embrace stores of value and revenue-generating tokens as crypto's only valuable assets. He predicted three asset categories: lottery tickets, stores of value or mega-cults, and businesses. Murad cited figures suggesting 97% of Pump fun traders lose money or break even, while 97% of Polymarket traders fund the top 3%'s gains. He criticized platforms for showcasing the top 0.1%'s profits while ignoring hundreds of thousands of losers, advocating collective investment in communities instead. \u2014 link",
 "title": "Highlight Clip: Murad Mahmudov: Only Two Types of Crypto Assets Have Value",
@@ -2450,7 +2449,7 @@
 "Crypto Headlines",
 "Wu Blockchain"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794834072.0,
 "tgtext": "\ud83d\udd25 \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u0434\u043e\u043a\u0443\u043f\u0438\u043b 485 BTC ($33,4m)! \u2013 \u0440\u0435\u043b\u0438\u0437\n\n\u0421\u0440\u0435\u0434\u043d\u044f\u044f \u0446\u0435\u043d\u0430 \u043f\u043e\u043a\u0443\u043f\u043a\u0438: $68,887.\n\n\u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0430 \u0431\u0430\u043b\u0430\u043d\u0441\u0435 Strategy \u0445\u0440\u0430\u043d\u0438\u0442\u0441\u044f 850,849 BTC ($54,5b).\n\n\u0414\u043e\u043b\u043b\u0430\u0440\u043e\u0432\u044b\u0439 \u0440\u0435\u0437\u0435\u0440\u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 $4,9b.\n\n\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Strategy \u0442\u0430\u043a\u0436\u0435 \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 221 BTC ($14,1m) \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u0448\u0435\u043b\u0435\u043a \u2013 arkham\n\n\u0420\u0430\u043d\u0435\u0435 \u0438\u0437-\u0437\u0430 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0445 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432 \u0432 X (Twitter) \u043d\u0430\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0430\u043d\u0438\u043a\u0430, \u0447\u0442\u043e \u041c\u0430\u0439\u043a\u043b \u0421\u044d\u0439\u043b\u043e\u0440 \u043f\u0440\u043e\u0434\u0430\u0435\u0442 \u0411\u0438\u0442\u043a\u043e\u0438\u043d.\n\nCrypto Headlines\nStrategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link",
 "title": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC",
@@ -2619,7 +2618,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794824781.0,
 "tgtext": "JUST IN: Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Solana officially drops \u201cmainnet beta,\u201d introducing Solana 1.0 without changing the network.\n\nNews | Markets | YouTube",
 "title": "Solana officially drops its \"beta\" label after nearly 7 years of development, transitioning to mainnet 1.0",
@@ -3074,7 +3073,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794835157.236848,
+"t": 1794835951.5204618,
 "t0": 1794827133.0,
 "tgtext": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!\n\nThe attacker is now depositing the stolen funds into #Hyperliquid to buy $XMR.\n\nhttps://arkm.com/explorer/address/0xb3fffca23d4444eE73349825ACD84f7b5020e387\nIt appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.\n\nAbraxas Capital is now closing short positions on Hyperliquid and withdrawing funds.\n\nOver the past 24 hours, its account value on Hyperliquid has dropped by $150M, while its short positions have shrunk to $70M.\n\nhttps://hypurrscan.io/address/0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36#more\nhttps://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13f298c060#more",
 "title": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!",
@@ -3119,6 +3118,19 @@
 "tgtext": "",
 "title": "XRP Loans Trigger 883 Liquidations as 4.18M Tokens Are Seized and $53.5M Debt Remains",
 "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcmxQTldKN284RTRjU1ZUbWt2V0ZkeXlBY2pkWVlJdUhVUmVIWHBrNFBaelJtTXc2ZU44RlZqQzc0a1NJSFJMN0dld21Ic1VxcUVRWjc3djl4LWlqOWw4VDVhM0pFX2c2MUx0NTZudm1NZXRhd3QtOGJ5VDRnTTlMQlBfRGh0SnJlZGdZUVgzaHMtdkF1eTl0QTZTb3FRQWpoNWo0dzJsMWx6R1NVb1hQUm5xWUY?oc=5",
+"urls": []
+},
+"f9b5192f26d3": {
+"coin": "hyperliquid",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794835951.5204618,
+"t0": 1794835107.0,
+"tgtext": "Prediction Market Regulatory Dispute Deepens as Senators Challenge CFTC and Hyperliquid Policy Center Backs Federal Oversight\n\nNine Democratic senators, including Adam Schiff, Amy Klobuchar and Elissa Slotkin, urged CFTC Chairman Michael Selig to halt efforts to challenge state restrictions on prediction markets, arguing that the agency's actions conflict with existing court orders and undermine state and tribal laws. The request follows a November 5 CFTC directive requiring regulated platforms to remove certain geographic restrictions within 30 days.\n\nMeanwhile, the Hyperliquid Policy Center backed the CFTC's rulemaking, arguing that event contracts traded on registered exchanges should be regulated as federal derivatives rather than state-level gambling products. Multiple states are separately suing prediction market operators over alleged unlicensed gambling. \u2014 link",
+"title": "Prediction Market Regulatory Dispute Deepens as Senators Challenge CFTC and Hyperliquid Policy Center Backs Federal Oversight",
+"url": "https://t.me/wublockchainenglish/26849",
 "urls": []
 },
 "fa38f648a5f1": {
@@ -3246,46 +3258,46 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"0904088b6d03": 0.353,
+"06fbce5b009c": 0.064,
+"0904088b6d03": 0.283,
 "0fbe054e8dbf": 0.256,
 "15786c9a5e10": 0.463,
 "16330df3ec0e": 0.119,
 "19dadfd3f6fc": 0.792,
-"1ad6320157ea": 0.105,
+"1ad6320157ea": 0.059,
+"1f5149c1efcb": 0.226,
 "230d6a455119": 0.086,
 "259321dd624a": 0.422,
 "27786e2f37ed": 0.761,
-"2a9553c66d3d": 0.074,
+"2a9553c66d3d": 0.254,
 "2ccae3ee68ef": 0.053,
 "34345eefb48d": 0.231,
 "4e1ef82399fa": 0.901,
 "53e8e80ac7bc": 0.086,
-"5e82bc02b190": 0.026,
 "604b49bc786c": 0.062,
-"61200ffbb954": 0.995,
+"61200ffbb954": 0.95,
 "66738695ccb1": 0.296,
-"6db08208797d": 0.991,
-"737ba5e4ee76": 0.07,
-"91bbabb6735f": 0.071,
+"6db08208797d": 0.988,
 "95268552f507": 0.155,
+"999c13b3eea4": 0.337,
 "99b818dca458": 0.09,
-"9e48dbeaf20c": 0.163,
-"a2ea1dc567b5": 0.127,
+"a2ea1dc567b5": 0.279,
 "a41e944e9649": 0.483,
 "aac4546e9987": 0.119,
-"b83b073f81a8": 0.804,
-"ba7f58a6cfac": 0.969,
-"bcf0c18e3e01": 0.031,
-"c83f3f357590": 0.964,
+"b1771eb4b1f7": 0.135,
+"ba7f58a6cfac": 0.75,
+"bcf0c18e3e01": 0.077,
+"c83f3f357590": 0.983,
 "d0ccabcc0bb6": 0.268,
 "d450949d1298": 0.102,
 "d66724921ba9": 0.902,
-"e79c2ed27e2b": 0.249,
+"e2b2eefc3a87": 0.285,
+"e40129e994a4": 0.102,
+"e79c2ed27e2b": 0.469,
 "ee922286e93b": 0.052,
-"f540150bd740": 0.075,
-"f5c2a3b62a11": 0.96,
+"f5c2a3b62a11": 0.979,
 "f6c49d9b8e80": 0.064,
-"ff38d41cf335": 0.747
+"ff38d41cf335": 0.676
 },
 "sent": [
 {
@@ -4675,65 +4687,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"61200ffbb954",
-100,
-131,
-7
-],
-[
 "6db08208797d",
-54,
-184,
+52,
+197,
 3
-],
-[
-"ba7f58a6cfac",
-18,
-11,
-1
 ],
 [
 "c83f3f357590",
 34,
-18,
+31,
 2
 ],
 [
 "f5c2a3b62a11",
 41,
-134,
+147,
 1
 ],
 [
 "06f27a4c403a",
 16,
-21,
+35,
+1
+],
+[
+"61200ffbb954",
+100,
+144,
+7
+],
+[
+"30827e57f6a8",
+10,
+6,
 1
 ],
 [
 "d66724921ba9",
 40,
-173,
+186,
 4
 ],
 [
 "4e1ef82399fa",
 26,
-153,
+166,
 2
+],
+[
+"f9b5192f26d3",
+10,
+14,
+1
 ],
 [
 "7ee305cc50c0",
 0,
-276,
+289,
 1
-],
-[
-"b83b073f81a8",
-55,
-123,
-3
 ]
 ],
-"top_at": 1794835157.236848
+"top_at": 1794835951.5204618
 }
