@@ -197,7 +197,7 @@ for j in range(1, 9):
 es_key(M_RED, S(0), 3); es_key(M_RED, t_kill - .05, 3); es_key(M_RED, t_kill + .3, .25); es_key(M_RED, t_rw + .4, .25); es_key(M_RED, t_rw + .6, 3)
 
 one_c = text('BITCOIN', (-6, 0, 2.2), GOLD, 1.1); pop(one_c, .3, t_split - .05)
-two_c = text('TWO CHAINS', (5, 0, 3.6), WHITE, 1.2); pop(two_c, t_split, S(1) + .3)
+two_c = text('TWO CHAINS', (6, 0, 2.6), WHITE, .95); pop(two_c, t_split, S(1) + .3)
 kil = text('KILLED', (8, 1.6, 2.2), RED, 2.2); pop(kil, t_kill, S(2) - .05)
 
 # --- S3: the huge block falls and hits at "hit"
@@ -223,14 +223,14 @@ M_HUGE.node_tree.nodes['Principled BSDF'].inputs['Emission Color'].default_value
 M_HUGE.node_tree.nodes['Principled BSDF'].inputs['Emission Color'].keyframe_insert('default_value', frame=F(t_acc - .05))
 M_HUGE.node_tree.nodes['Principled BSDF'].inputs['Emission Color'].default_value = (*RED, 1)
 M_HUGE.node_tree.nodes['Principled BSDF'].inputs['Emission Color'].keyframe_insert('default_value', frame=F(t_acc + .2))
-lbl_blk = text('BLOCK 225,430', (HX, HY, 2.5), GOLD, .62); pop(lbl_blk, Wd(3, 'block') - .1, S(4) + .3)
+lbl_blk = text('BLOCK 225,430', (HX, HY, 2.75), GOLD, .62); pop(lbl_blk, Wd(3, 'block') - .1, S(4) + .3)
 
 # --- versions (S2)
 v7 = text('OLD: v0.7', (1.3, 0, 1.75), CYAN, .72); pop(v7, Wd(2, 'version'), S(3) + .2)
 v8 = text('NEW: v0.8', (1.3, 0, 2.85), RED, .72); pop(v8, Wd(2, 'eight'), S(3) + .2)
 ok = text('NEW: ACCEPTED', (HX + .3, HY + 1.2, 2.7), RED, .62); pop(ok, t_acc, S(5) + .1)
 no = text("OLD: CAN'T READ IT", (HX + .3, HY - 1.2, -1.7), CYAN, .62); pop(no, Wd(4, 'couldnt'), S(5) + .1)
-tx5k = text('5,000+ TRANSACTIONS', (HX, HY - .6, -1.75), GOLD, .5); pop(tx5k, Wd(3, 'five'), S(4) - .05)
+tx5k = text('5,000+ TRANSACTIONS', (HX, HY, 1.95), WHITE, .42); pop(tx5k, Wd(3, 'five'), S(4) - .05)
 
 # --- the two real chains: red (0.8) 2..24, cyan (0.7) 1..26, growing on the story's words
 t_c1 = Wd(4, 'couldnt')
@@ -295,7 +295,7 @@ p24 = text('PRICE -24%', (12.5, 5, 1.0), RED, 1.2); pop(p24, Wd(7, 'twentyfour')
 
 dev = text('DEVELOPERS PICK v0.7', (12, -1, 5.5), CYAN, .72); pop(dev, Wd(8, 'picked'), S(9) - .05)
 mnr = text('MINERS SWITCH BACK', (12, -1, 4.3), WHITE, .72); pop(mnr, Wd(8, 'downgraded') - .15, S(9) - .05)
-hrs = text('6 HOURS LATER', (28.3, -1, 3.6), WHITE, 1.5); pop(hrs, Wd(9, 'six'), Wd(9, 'joined') - .05)
+hrs = text('6 HOURS LATER', (29.5, -1, -2.2), WHITE, 1.6); pop(hrs, Wd(9, 'six'), Wd(9, 'joined') - .05)
 
 # --- S8/S9: the old chain wins
 win = text('v0.7 WINS', (24, -2.0, 4.0), CYAN, 2.4); pop(win, Wd(9, 'joined'), S(10) + .3)
@@ -335,7 +335,6 @@ for o in coin:
     o.rotation_euler = (math.pi / 2, 0, math.pi * 2); o.keyframe_insert('rotation_euler', frame=F(S(12)))
 usd = text('$10,000', (cend[0] + 2.2, -.9, 3.6), GOLD, .8); pop(usd, Wd(11, 'ten'), S(12) - .05)
 dsp = text('SPENT TWICE', (cend[0] + 2.2, -2.0, .55), RED, .55); pop(dsp, t_dbl + .1, S(12) - .05)
-bug = text('BUG OR\nWARNING?', (0, .9, -7), WHITE, .62); bug.constraints.clear(); bug.parent = CAM; bug.location = (0, .9, -7); pop(bug, Wd(12, 'bug'), DUR)
 
 # ---------------------------------------------------------------- camera path
 cam(0, (-24, -5.5, 1.8), (-14, 0, 0))
@@ -388,3 +387,4 @@ else:
     sc.render.filepath = os.path.join(out, 'f_#####')
     bpy.ops.render.render(animation=True)
 print('done part', PART, 'of', NP)
+
