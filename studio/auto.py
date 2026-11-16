@@ -811,7 +811,7 @@ def overlay(cv, t, i):
     receipt_card(cv, t, i)
     fact_line(cv, t, i)
     bs = BEATS[i] if SCN[i]['visual']['type'] != 'flow' else []; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
-    shown = [b for b in bs if b['text']]
+    shown = [b for b in bs if b['text']] if not FLOW else []             # flow captions already say every word
     if KIN:
         for n, b in enumerate(shown):
             t0 = b['t']; t1 = min(t0 + .85, shown[n + 1]['t'] - .05 if n + 1 < len(shown) else scene_end(i) - .05)

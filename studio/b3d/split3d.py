@@ -75,14 +75,14 @@ def es_key(m, t, v):
     b.default_value = v; b.keyframe_insert('default_value', frame=F(t))
 
 
-GOLD = (1.0, .62, .12); RED = (1.0, .16, .14); CYAN = (.15, .75, 1.0); WHITE = (1, 1, 1)
+GOLD = (1.0, .2, .01); RED = (1.0, .04, .03); CYAN = (.02, .38, 1.0); WHITE = (1, 1, 1)   # strengths ~3: colours stay colours (no clipping to white)
 M_BODY = mat('body')
-M_GOLD = mat('wgold', emit=GOLD, es=5)
-M_RED = mat('wred', emit=RED, es=5)
-M_CYAN = mat('wcyan', emit=CYAN, es=5)
+M_GOLD = mat('wgold', emit=GOLD, es=3)
+M_RED = mat('wred', emit=RED, es=3)
+M_CYAN = mat('wcyan', emit=CYAN, es=2.8)
 M_HUGE = mat('whuge', emit=WHITE, es=4)
 M_GLASS = mat('glass', base=(.1, .12, .2), metal=.2, rough=.15, alpha=.16)
-M_TX = mat('tx', base=(.2, .14, .03), emit=GOLD, es=2.2)
+M_TX = mat('tx', base=(.2, .14, .03), emit=(1, .45, .05), es=2.2)
 M_GRID = mat('grid', base=(0, 0, 0), emit=(.12, .2, .45), es=.45)
 M_DUST = mat('dust', base=(0, 0, 0), emit=(.5, .6, 1), es=2)
 M_COIN = mat('coin', base=(.9, .62, .15), metal=1, rough=.25, emit=GOLD, es=.6)
@@ -126,7 +126,8 @@ def link(a, b, wire):
 CAM = None
 
 
-def text(body, loc, col, size=.8, es=6):
+def text(body, loc, col, size=.8, es=None):
+    if es is None: es = 2.2 if col == WHITE else 3.2
     cu = bpy.data.curves.new('t', 'FONT'); cu.body = body
     try: cu.font = bpy.data.fonts.load(FONT, check_existing=True)
     except Exception: pass
@@ -193,7 +194,7 @@ for j in range(1, 9):
         t_out = t_rw + (8 - j) * .05 + .1
         pop(o, t_in, t_out, dur=.18)
         HOOK.append(o)
-es_key(M_RED, S(0), 5); es_key(M_RED, t_kill - .05, 5); es_key(M_RED, t_kill + .3, .35); es_key(M_RED, t_rw + .4, .35); es_key(M_RED, t_rw + .6, 5)
+es_key(M_RED, S(0), 3); es_key(M_RED, t_kill - .05, 3); es_key(M_RED, t_kill + .3, .25); es_key(M_RED, t_rw + .4, .25); es_key(M_RED, t_rw + .6, 3)
 
 # --- S3: the huge block falls and hits at "hit"
 t_hit = Wd(3, 'hit')
@@ -261,7 +262,7 @@ lb.data.materials.append(M_LOCK)
 bpy.ops.mesh.primitive_torus_add(major_radius=.32, minor_radius=.07, location=(0, 0, .45)); ls = bpy.context.object
 ls.rotation_euler = (math.pi / 2, 0, 0); ls.parent = lock; ls.data.materials.append(M_LOCK)
 pop(lock, Wd(5, 'database'), t_sp - .1)
-es_key(M_LOCK, Wd(5, 'locks') - .05, 0); es_key(M_LOCK, Wd(5, 'locks') + .15, 6)
+es_key(M_LOCK, Wd(5, 'locks') - .05, 0); es_key(M_LOCK, Wd(5, 'locks') + .15, 3)
 lt = text('OUT OF LOCKS', (1.4, -3.4, 3.1), RED, .55); pop(lt, Wd(5, 'locks'), t_sp - .1)
 
 # --- S6: exchanges pause
@@ -271,7 +272,7 @@ for x in (5.5, 11.0):
     pz = bpy.data.objects.new('pz', None); sc.collection.objects.link(pz); pz.location = (x, -.2, 4.9)
     for dx in (-.22, .22):
         bpy.ops.mesh.primitive_cube_add(size=1, location=(dx, 0, 0)); b_ = bpy.context.object; b_.scale = (.16, .16, .7); b_.parent = pz
-        b_.data.materials.append(mat('pz', base=(0, 0, 0), emit=RED, es=6))
+        b_.data.materials.append(mat('pz', base=(0, 0, 0), emit=RED, es=3.2))
     pop(pz, Wd(6, 'paused'), S(7) - .05)
 
 # --- S7: the price drops 24%
@@ -279,15 +280,15 @@ pts = [(0, 0), (1, .25), (2, -.1), (3, .2), (4, -.2), (5, -.9), (6, -1.6), (7, -
 cu = bpy.data.curves.new('px', 'CURVE'); cu.dimensions = '3D'; cu.bevel_depth = .09
 sp = cu.splines.new('POLY'); sp.points.add(len(pts) - 1)
 for k, (x, y) in enumerate(pts): sp.points[k].co = (x * 1.3, 0, y * 1.1, 1)
-px = bpy.data.objects.new('px', cu); sc.collection.objects.link(px); px.location = (6, 5, 6.2)
-px.data.materials.append(mat('pxm', base=(0, 0, 0), emit=RED, es=7))
+px = bpy.data.objects.new('px', cu); sc.collection.objects.link(px); px.location = (6, 5, 5.4)
+px.data.materials.append(mat('pxm', base=(0, 0, 0), emit=RED, es=3.5))
 cu.bevel_factor_end = 0; cu.keyframe_insert('bevel_factor_end', frame=F(Wd(7, 'price')))
 cu.bevel_factor_end = 1; cu.keyframe_insert('bevel_factor_end', frame=F(Wd(7, 'percent') + .2))
 pop(px, Wd(7, 'price') - .05, S(8) + .1, dur=.05)
-p24 = text('-24%', (16.8, 5, 3.0), RED, 1.3, es=8); pop(p24, Wd(7, 'twentyfour'), S(8) + .1)
+p24 = text('-24%', (16.8, 5, 3.0), RED, 1.3); pop(p24, Wd(7, 'twentyfour'), S(8) + .1)
 
 # --- S8/S9: the old chain wins
-win = text('v0.7 WINS', (24, -2.0, 4.0), CYAN, 2.4, es=8); pop(win, Wd(9, 'joined'), S(10) + .3)
+win = text('v0.7 WINS', (24, -2.0, 4.0), CYAN, 2.4); pop(win, Wd(9, 'joined'), S(10) + .3)
 
 # --- S10: the 24 blocks of the 0.8 chain fall into the dark
 for k, j in enumerate(range(24, 1, -1)):
@@ -303,7 +304,7 @@ for o in (huge, lk_h):                                                 # 225,430
     o.keyframe_insert('location', frame=F(t0)); x, y, z = o.location
     o.location = (x, y + 1.5, z - 14); o.keyframe_insert('location', frame=F(t0 + 1.4))
     scale_keys(o, [(t0 + .9, 1), (t0 + 1.5, 0)])
-gone = text('24 BLOCKS ERASED', (20, 3.0, 4.0), RED, 2.2, es=8); pop(gone, t_wipe, S(11) - .05)
+gone = text('24 BLOCKS ERASED', (20, 3.0, 4.0), RED, 2.2); pop(gone, t_wipe, S(11) - .05)
 
 # --- S11: the double spend (one coin, paid twice)
 cend = cyan_pos(26)
@@ -316,14 +317,13 @@ for k in range(2):
 t_dbl = Wd(11, 'double')
 pop(coin[0], Wd(11, 'someone'), S(12) - .05); pop(coin[1], t_dbl, S(12) - .05, dur=.05)
 coin[1].location = (cend[0] + 2.2, -2.0, 2.0); coin[1].keyframe_insert('location', frame=F(t_dbl))
-coin[1].location = (cend[0] + 2.2, 1.6, 2.0); coin[1].keyframe_insert('location', frame=F(t_dbl + .6))
+coin[1].location = (cend[0] + 3.7, -2.0, 2.0); coin[1].keyframe_insert('location', frame=F(t_dbl + .6))
 coin[0].location = (cend[0] + 2.2, -2.0, 2.0); coin[0].keyframe_insert('location', frame=F(t_dbl))
-coin[0].location = (cend[0] + 2.2, -3.4, 2.0); coin[0].keyframe_insert('location', frame=F(t_dbl + .6))
+coin[0].location = (cend[0] + .7, -2.0, 2.0); coin[0].keyframe_insert('location', frame=F(t_dbl + .6))
 for o in coin:
     o.rotation_euler = (math.pi / 2, 0, 0); o.keyframe_insert('rotation_euler', frame=F(Wd(11, 'someone')))
     o.rotation_euler = (math.pi / 2, 0, math.pi * 2); o.keyframe_insert('rotation_euler', frame=F(S(12)))
-usd = text('$10,000', (cend[0] + 2.2, -.9, 3.6), GOLD, .8, es=8); pop(usd, Wd(11, 'ten'), S(12) - .05)
-two = text('PAID TWICE', (cend[0] + 2.2, -.9, .3), WHITE, .5); pop(two, Wd(11, 'spent'), S(12) - .05)
+usd = text('$10,000', (cend[0] + 2.2, -.9, 3.6), GOLD, .8); pop(usd, Wd(11, 'ten'), S(12) - .05)
 
 # ---------------------------------------------------------------- camera path
 cam(0, (-24, -5.5, 1.8), (-14, 0, 0))
@@ -349,8 +349,8 @@ cam(S(9) - .1, (26, -12, 5), (31, -1, 0))
 cam(Wd(9, 'joined'), (22, -27, 16), (21, 0, 1))
 cam(S(10) + .2, (22, -26, 15), (21, 0, 1))
 cam(S(11) - .1, (20, -24, 9), (20, 0, -2))
-cam(S(11) + .6, (cend[0] - 1, -8.5, 3.4), (cend[0] + 2, -1.2, 1.8))
-cam(S(12) - .1, (cend[0] + 1, -8, 3.2), (cend[0] + 2.2, -1.2, 1.8))
+cam(S(11) + .6, (cend[0] + 2.4, -10, 3.8), (cend[0] + 2.2, -1.2, 2.0))
+cam(S(12) - .1, (cend[0] + 2.0, -9.5, 3.6), (cend[0] + 2.2, -1.2, 2.0))
 cam(DUR, (cend[0] - 26, -13, 5), (cend[0] - 12, -2, 0))
 
 # ---------------------------------------------------------------- render this part
