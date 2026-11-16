@@ -234,7 +234,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794855024.0,
 "tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
@@ -430,7 +430,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794849857.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.\n\nNews | Markets | YouTube",
 "title": "Fed Chair Kevin Warsh warned that AI and superintelligence could reshape the economy, potentially boosting productivity or triggering widespread unemployment and economic disruption.",
@@ -709,7 +709,7 @@
 "FXStreet",
 "Investor's Business Daily"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794847860.0,
 "tgtext": "",
 "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
@@ -1054,7 +1054,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794865133.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube",
 "title": "The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.",
@@ -1279,7 +1279,7 @@
 "Bloomberg.com",
 "Decrypt"
 ],
-"t": 1794867148.4023285,
+"t": 1794868263.8529077,
 "t0": 1794858581.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -1500,7 +1500,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794849778.0,
 "tgtext": "JUST IN: OpenAI CEO Sam Altman says the AI revolution is \"hard to imagine\" without Nvidia $NVDA founder Jensen Huang.\n\n@WatcherGuru\nBREAKING: Nvidia $NVDA is not considering bringing back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f LATEST: Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.\n\nNews | Markets | YouTube\nJUST IN: Nvidia $NVDA crashes another 4% following reports that Jensen Huang will not be reinstated as CEO.\n\n@WatcherGuru\nJUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "Nvidia\u2019s board is not considering bringing Jensen Huang back as CEO following his resignation, according to CNBC.",
@@ -1682,7 +1682,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -1789,9 +1789,9 @@
 "Coinfomania",
 "Crypto Briefing",
 "Crypto Economy",
-"CryptoTicker.io"
+"CryptoNinjas"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794847302.0,
 "tgtext": "",
 "title": "Lighter pauses withdrawals after a leaked API key leads to $10.4 million theft",
@@ -2652,7 +2652,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794867093.0,
 "tgtext": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
 "title": "United Airlines UAL experiences widespread system outage.",
@@ -2985,7 +2985,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794867452.3200982,
+"t": 1794868263.8529077,
 "t0": 1794860949.0,
 "tgtext": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
 "title": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
@@ -3517,14 +3517,15 @@
 "probs": {
 "013f161b5708": 0.006,
 "0aeb74aaaaa2": 0.011,
-"13b151f123e0": 0.598,
+"10558e158d75": 0.013,
+"13b151f123e0": 0.673,
 "1740c50ebc9d": 0.023,
 "23905dee1f15": 0.035,
 "290eee4f0aac": 0.046,
 "296379b55b89": 0.03,
 "2e2d8c657a3f": 0.007,
 "30844df8bd11": 0.027,
-"365d1fee696f": 0.454,
+"365d1fee696f": 0.307,
 "39ed8a830d6d": 0.084,
 "44c76a9d29d9": 0.021,
 "45a32709b9b6": 0.013,
@@ -3538,23 +3539,22 @@
 "75dc971b8bec": 0.018,
 "7de34e86ccad": 0.381,
 "854cb8eb4c66": 0.938,
-"8b30cb94685d": 0.408,
+"8b30cb94685d": 0.415,
+"99ac43d30096": 0.066,
 "9f9310091898": 0.074,
 "a9f8f265789a": 0.011,
 "aba2bf3609df": 0.178,
-"ac4a63cf0acf": 0.038,
+"ac4a63cf0acf": 0.03,
 "bc501bdbafec": 0.01,
 "c3c8befea4e3": 0.094,
-"ca82d5910825": 0.795,
-"cbe0c80db1b2": 0.02,
+"ca82d5910825": 0.221,
 "ded29f778211": 0.012,
-"e3decf1ffe8c": 0.098,
+"e0a943ce1d35": 0.116,
 "e4b5b7084a95": 0.33,
 "ec3abb937af6": 0.033,
-"fa40df5a7659": 0.009,
 "fb8858134dcd": 0.015,
 "fcaa9bb5f3bf": 0.036,
-"fd606fee1a4a": 0.053
+"fd606fee1a4a": 0.029
 },
 "sent": [
 {
@@ -5043,64 +5043,64 @@
 "top": [
 [
 "854cb8eb4c66",
-28,
-50,
+20,
+64,
 2
-],
-[
-"ca82d5910825",
-32,
-6,
-1
 ],
 [
 "13b151f123e0",
-39,
-207,
+37,
+221,
 2
 ],
 [
-"365d1fee696f",
-21,
-327,
-3
-],
-[
 "1e78fc3a9d6a",
-9,
-293,
+8,
+307,
 1
 ],
 [
 "8b30cb94685d",
-65,
-336,
-7
+63,
+349,
+8
 ],
 [
 "7de34e86ccad",
-33,
-295,
+31,
+308,
+3
+],
+[
+"e4b5b7084a95",
+22,
+122,
+1
+],
+[
+"365d1fee696f",
+19,
+340,
 3
 ],
 [
 "579afef88909",
 10,
-39,
+52,
 1
 ],
 [
-"e4b5b7084a95",
-22,
-108,
+"ca82d5910825",
+32,
+20,
 1
 ],
 [
-"f66fd6aaf01d",
-10,
-18,
-1
+"6e1ef5e7c7db",
+50,
+161,
+2
 ]
 ],
-"top_at": 1794867452.3200982
+"top_at": 1794868263.8529077
 }
