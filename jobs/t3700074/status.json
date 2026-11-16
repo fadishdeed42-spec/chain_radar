@@ -1,1 +1,1 @@
-{"state": "voice_ready", "t": 1794847963, "secs": 0, "quality": "\u26a0\ufe0f check lines 7", "real": 50, "rate": 2.362, "dur": 49, "video_check": [], "hook_t": 2.7}
+{"state": "failed", "t": 1794852184, "secs": 0, "quality": "\u26a0\ufe0f check lines 7", "real": 50, "rate": 2.362, "dur": 49, "video_check": [], "hook_t": 2.7, "stage": "render", "error": "ValueError('voice has 110 words, plan has 111')"}
