@@ -7,82 +7,75 @@ loaded PerthNet (Implicit) at step 250,000
 `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
 Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
-  0%|          | 0.00/1.18G [00:00<?, ?B/s]  1%|▏         | 15.9M/1.18G [00:00<00:07, 166MB/s]  4%|▍         | 51.9M/1.18G [00:00<00:04, 290MB/s]  8%|▊         | 91.6M/1.18G [00:00<00:03, 347MB/s] 11%|█         | 130M/1.18G [00:00<00:03, 370MB/s]  14%|█▎        | 165M/1.18G [00:00<00:03, 355MB/s] 17%|█▋        | 199M/1.18G [00:00<00:03, 279MB/s] 19%|█▉        | 228M/1.18G [00:00<00:03, 285MB/s] 21%|██▏       | 257M/1.18G [00:00<00:03, 275MB/s] 24%|██▍       | 286M/1.18G [00:01<00:03, 284MB/s] 26%|██▌       | 314M/1.18G [00:01<00:03, 253MB/s] 28%|██▊       | 340M/1.18G [00:01<00:03, 236MB/s] 32%|███▏      | 380M/1.18G [00:01<00:03, 285MB/s] 34%|███▍      | 413M/1.18G [00:01<00:02, 302MB/s] 37%|███▋      | 443M/1.18G [00:01<00:02, 299MB/s] 39%|███▉      | 475M/1.18G [00:01<00:02, 308MB/s] 42%|████▏     | 509M/1.18G [00:01<00:02, 322MB/s] 45%|████▍     | 540M/1.18G [00:01<00:02, 323MB/s] 47%|████▋     | 572M/1.18G [00:02<00:02, 316MB/s] 50%|█████     | 605M/1.18G [00:02<00:01, 326MB/s] 53%|█████▎    | 636M/1.18G [00:02<00:01, 327MB/s] 56%|█████▌    | 669M/1.18G [00:02<00:01, 330MB/s] 58%|█████▊    | 700M/1.18G [00:02<00:01, 319MB/s] 61%|██████    | 731M/1.18G [00:02<00:01, 307MB/s] 63%|██████▎   | 761M/1.18G [00:02<00:01, 281MB/s] 66%|██████▋   | 798M/1.18G [00:02<00:01, 312MB/s] 70%|██████▉   | 838M/1.18G [00:02<00:01, 340MB/s] 72%|███████▏  | 871M/1.18G [00:02<00:01, 338MB/s] 75%|███████▌  | 904M/1.18G [00:03<00:00, 319MB/s] 78%|███████▊  | 935M/1.18G [00:03<00:00, 316MB/s] 80%|████████  | 965M/1.18G [00:03<00:00, 314MB/s] 83%|████████▎ | 995M/1.18G [00:03<00:00, 301MB/s] 85%|████████▌ | 1.00G/1.18G [00:03<00:00, 291MB/s] 88%|████████▊ | 1.03G/1.18G [00:03<00:00, 312MB/s] 91%|█████████ | 1.07G/1.18G [00:03<00:00, 323MB/s] 93%|█████████▎| 1.10G/1.18G [00:03<00:00, 326MB/s] 96%|█████████▋| 1.13G/1.18G [00:03<00:00, 334MB/s] 99%|█████████▉| 1.16G/1.18G [00:04<00:00, 324MB/s]100%|██████████| 1.18G/1.18G [00:04<00:00, 307MB/s]
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  2%|▏         | 26.9M/1.18G [00:00<00:04, 281MB/s]  6%|▋         | 75.9M/1.18G [00:00<00:02, 396MB/s] 11%|█         | 134M/1.18G [00:00<00:02, 493MB/s]  15%|█▌        | 183M/1.18G [00:00<00:02, 498MB/s] 20%|█▉        | 237M/1.18G [00:00<00:01, 523MB/s] 24%|██▍       | 292M/1.18G [00:00<00:01, 540MB/s] 29%|██▉       | 346M/1.18G [00:00<00:01, 550MB/s] 33%|███▎      | 399M/1.18G [00:00<00:01, 544MB/s] 37%|███▋      | 451M/1.18G [00:00<00:01, 539MB/s] 42%|████▏     | 505M/1.18G [00:01<00:01, 548MB/s] 46%|████▋     | 558M/1.18G [00:01<00:01, 528MB/s] 51%|█████     | 608M/1.18G [00:01<00:01, 517MB/s] 55%|█████▍    | 658M/1.18G [00:01<00:01, 479MB/s] 59%|█████▊    | 705M/1.18G [00:01<00:01, 483MB/s] 63%|██████▎   | 753M/1.18G [00:01<00:00, 489MB/s] 67%|██████▋   | 801M/1.18G [00:01<00:00, 494MB/s] 70%|███████   | 848M/1.18G [00:01<00:00, 491MB/s] 75%|███████▍  | 897M/1.18G [00:01<00:00, 496MB/s] 79%|███████▊  | 947M/1.18G [00:01<00:00, 504MB/s] 83%|████████▎ | 0.98G/1.18G [00:02<00:00, 520MB/s] 87%|████████▋ | 1.03G/1.18G [00:02<00:00, 519MB/s] 92%|█████████▏| 1.08G/1.18G [00:02<00:00, 528MB/s] 96%|█████████▌| 1.13G/1.18G [00:02<00:00, 516MB/s]100%|█████████▉| 1.17G/1.18G [00:02<00:00, 417MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 492MB/s]
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
   self.gen = func(*args, **kwds)
-phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-json c0d970b68ee8
-   take 1: score +1.84  wer 0.00  end -9.6st  2.3w/s  heard: In 2013, Bitcoin split into two chains.
-scene 1: 3.42s ex 0.95  chosen wer 0.00
-   take 1: score -2.45  wer 0.00  end +0.8st  3.6w/s  rushed ['developers']  heard: and developers chose to kill the newer one.
-   take 2: score -0.02  wer 0.00  end +0.0st  2.6w/s  heard: and developers chose to kill the newer one.
-   take 3: score -2.39  wer 0.00  end +0.0st  3.6w/s  rushed ['developers']  heard: and developers chose to kill the newer one.
-   take 4: score -0.11  wer 0.00  end +0.0st  2.8w/s  heard: and developers chose to kill the newer one.
-scene 2: 3.12s ex 0.95  chosen wer 0.00
-   take 1: score +1.17  wer 0.00  end -3.6st  2.5w/s  rushed ['Bitcoin']  heard: March 11, 2013. Bitcoin version 0.8 was brand new.
-   take 2: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['Bitcoin']  heard: March 11, 2013. Bitcoin version 0.8 was brand new.
-   take 3: score +1.15  wer 0.00  end -14.0st  2.5w/s  rushed ['Bitcoin']  heard: March 11, 2013, Bitcoin version 0.8 was brand new.
-   take 4: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin']  heard: March 11, 2013. Bitcoin version 0.8 was brand new.
-scene 3: 4.71s ex 0.88  chosen wer 0.00
-   take 1: score +1.09  wer 0.00  end -6.4st  2.8w/s  rushed ['network']  heard: Then one huge block hit the network with over 5,000 transactions.
-   take 2: score -1.08  wer 0.00  end +1.8st  2.4w/s  rushed ['network']  heard: Then, one huge block hit the network with over 5,000 transactions.
-   take 3: score -0.44  wer 0.00  end +2.8st  2.2w/s  heard: Then, one huge block hit the network with over 5,000 transactions.
-scene 4: 4.32s ex 0.88  chosen wer 0.00
-   take 1: score -0.84  wer 0.00  end +0.0st  3.2w/s  heard: New nodes accepted it. Old nodes couldn't read it.
-   take 2: score -0.14  wer 0.00  end +0.0st  2.8w/s  heard: New nodes accepted it. Old nodes couldn't read it.
-   take 3: score -3.30  wer 0.20  end +0.0st  3.8w/s  heard: New notes accepted it. Old notes couldn't read it.
-   take 4: score -0.31  wer 0.00  end +0.0st  3.0w/s  heard: New Nodes accepted it.  Old Nodes couldn't read it.
-scene 5: 3.18s ex 0.95  chosen wer 0.00
-   take 1: score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks. Bitcoin split in two.
-   take 2: score -2.70  wer 0.14  end +0.0st  3.3w/s  rushed ['Bitcoin']  heard: Dural database ran out of locks.  Bitcoin split in two.
-   take 3: score -1.61  wer 0.00  end +0.0st  3.2w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks. Bitcoin split in two.
-   take 4: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks. Bitcoin split in two.
-scene 6: 3.96s ex 0.88  chosen wer 0.00
-   take 1: score -1.03  wer 0.17  end +0.0st  2.7w/s  heard: Mt. Gox and BitPay pause deposits.
-   take 2: score -1.17  wer 0.17  end +0.0st  2.3w/s  heard: Mt. Gox and BitPay pause deposits.
-   take 3: score -3.70  wer 0.45  end +0.0st  3.3w/s  heard: Mount Goxin Bitpay pause deposits.
-   take 4: score +0.77  wer 0.17  end -3.1st  2.2w/s  heard: Mt. Gox and BitPay pause deposits.
-   take R1: wer 0.17  heard: Mt. Gox and BitPay pause deposits.
-   take R2: wer 0.33  heard: Mt. Gucks and BitPay pause deposits.
-   take R3: wer 0.17  heard: Mt. Gox and BitPay pause deposits.
-   take R4: wer 0.45  heard: Noungox and BitPay pause deposits.
-scene 7: 3.16s ex 0.88  chosen wer 0.17
-   take 1: score -0.42  wer 0.00  end +0.0st  1.9w/s  heard: The price dropped 24%.
-   take 2: score -0.30  wer 0.00  end +0.0st  2.1w/s  heard: The price dropped 24%.
-   take 3: score -0.54  wer 0.00  end +0.5st  1.8w/s  heard: The price dropped 24%.
-scene 8: 2.38s ex 0.95  chosen wer 0.00
-   take 1: score +1.99  wer 0.00  end -5.2st  2.6w/s  heard: Developers picked the old chain. Big mining pools downgraded.  //
-scene 9: 3.48s ex 0.95  chosen wer 0.00
-   take 1: score +1.88  wer 0.00  end -8.3st  2.4w/s  heard: About six hours later, the chains joined again.
-scene 10: 3.33s ex 0.88  chosen wer 0.00
-   take 1: score -0.20  wer 0.00  end +0.0st  2.3w/s  heard: 24 blocks were wiped out.
-   take 2: score -0.20  wer 0.00  end +0.0st  2.3w/s  heard: 24 blocks were wiped out.
-   take 3: score -1.16  wer 0.14  end +0.0st  2.1w/s  heard: 24 blocks were wiped out. White out.
-   take 4: score -0.14  wer 0.00  end +0.0st  2.4w/s  heard: 24 blocks were wiped out.
-scene 11: 2.12s ex 0.95  chosen wer 0.00
-   take 1: score -0.14  wer 0.18  end -1.5st  2.2w/s  rushed ['someone']  heard: and someone double spent $10,000 against okay pay.  Bo!
-   take 2: score -0.86  wer 0.14  end +0.0st  2.6w/s  heard: and someone double spent $10,000 against OK Pay.
-   take 3: score -2.52  wer 0.14  end +0.7st  2.6w/s  rushed ['someone', 'double']  heard: and someone double spent $10,000 against OK Pay.
-   take 4: score +0.57  wer 0.18  end -8.2st  2.0w/s  heard: and someone double spent $10,000 against OK Pay.  Whoa!
-   phonetic variant: And someone double spent ten thousand dollars against O-kay-pay.
-   take P1: score -1.11  wer 0.16  2.3w/s  heard: and someone double spent $10,000 against OK Pay.
-   take P2: score -1.18  wer 0.16  2.2w/s  heard: and someone double spent $10,000 against OK Pay.
-   take P3: score -0.97  wer 0.16  2.6w/s  heard: and someone double spent $10,000 against OK Pay.
-   take R1: wer 0.16  heard: and someone double spent $10,000 against OK Pay.
-   take R2: wer 0.16  heard: and someone double spent $10,000 against OK Pay.
-   take R3: wer 0.16  heard: and someone double spent $10,000 against OK Pay.
-   take R4: wer 0.16  heard: and someone double spent $10,000 against OK Pay.
-scene 12: 3.84s ex 0.95  chosen wer 0.14
-   take 1: score -0.02  wer 0.00  end -7.9st  2.4w/s  heard: Bug or warning.
-   take 2: score -0.19  wer 0.00  end -8.6st  2.0w/s  heard: bug or warning.
-   take 3: score -0.26  wer 0.00  end -8.8st  1.9w/s  heard: bug or warning.
-scene 13: 1.26s ex 0.83 END  chosen wer 0.00
-   take 1: score -0.21  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
-   take 2: score -0.27  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
-   take 3: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
-   take 4: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
-scene 14: 1.78s ex 0.88  chosen wer 0.00
+phonetic gemini-flash-latest 503
+json acaba1f64bcc
+   take 1: score -0.90  wer 0.00  end -0.6st  2.8w/s  rushed ['Bitcoin']  heard: In 2013, Bitcoin split into two chains.
+   take 2: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: In 2013, Bitcoin split into two chains.
+   take 3: score -0.15  wer 0.00  end +0.0st  2.4w/s  heard: In 2013, Bitcoin split into two chains.
+scene 1: 3.40s ex 0.72  chosen wer 0.00
+   take 1: score -2.13  wer 0.00  end +0.0st  3.4w/s  rushed ['developers']  heard: and developers chose to kill the newer one.
+   take 2: score -1.16  wer 0.00  end +0.0st  3.0w/s  rushed ['developers']  heard: and developers chose to kill the newer one.
+   take 3: score -0.76  wer 0.00  end +0.0st  3.2w/s  heard: and developers chose to kill the newer one.
+scene 2: 2.52s ex 0.45  chosen wer 0.00
+   take 1: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: March 11, 2013, Bitcoin version 0.8 was brand new.
+   take 2: score -1.01  wer 0.00  end +0.0st  2.2w/s  rushed ['Bitcoin']  heard: March 11, 2013. Bitcoin version 0.8 was brand new.
+   take 3: score -1.00  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin']  heard: March 11, 2013. Bitcoin version 0.8 was brand new.
+   take 4: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin']  heard: March 11, 2013. Bitcoin version 0.8 was brand new.
+scene 3: 4.83s ex 0.45  chosen wer 0.00
+   take 1: score +1.14  wer 0.00  end -1.8st  2.5w/s  rushed ['network']  heard: Then one huge block hit the network with over 5,000 transactions.
+   take 2: score +1.96  wer 0.00  end -1.3st  2.5w/s  heard: Then one huge block hit the network with over 5,000 transactions.
+scene 4: 4.73s ex 0.45  chosen wer 0.00
+   take 1: score -0.12  wer 0.00  end +0.0st  2.8w/s  heard: New nodes accepted it.  Old nodes couldn't read it.
+   take 2: score -0.17  wer 0.00  end +0.0st  2.3w/s  heard: New nodes accepted it.  Old nodes couldn't read it.
+   take 3: score -0.03  wer 0.00  end +0.0st  2.7w/s  heard: New nodes accepted it.  Old nodes couldn't read it.
+scene 5: 3.40s ex 0.45  chosen wer 0.00
+   take 1: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks. Bitcoin split in two.
+   take 2: score -0.83  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks.  Bitcoin split in two.
+   take 3: score -1.76  wer 0.14  end +0.0st  2.8w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks. Bitcoin split into.
+   take 4: score -0.82  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin']  heard: Their old database ran out of locks. Bitcoin split in two.
+scene 6: 4.19s ex 0.45  chosen wer 0.00
+   take 1: score -1.15  wer 0.17  end +0.0st  2.4w/s  heard: Mt. Gox and BitPay pause deposits.
+   take 2: score -2.09  wer 0.33  end +0.0st  2.5w/s  heard: Now Gox and BitPay pause deposits.
+   take 3: score -1.07  wer 0.17  end +0.0st  2.7w/s  heard: Mt. Gox and BitPay pause deposits.
+   take 4: score -1.22  wer 0.17  end +0.0st  2.2w/s  heard: Mt. Gox and BitPay pause deposits.
+   take R1: wer 0.17  heard: Mount Gox and BitPay pause deposits.
+   take R2: wer 0.17  heard: Mt. Gox and BitPay pause deposits.
+   take R3: wer 0.33  heard: Now Gox and BitPay pause deposits.
+   take R4: wer 0.17  heard: Mt. Gox and BitPay pause deposits.
+scene 7: 2.58s ex 0.45  chosen wer 0.17
+   take 1: score -0.46  wer 0.00  end +1.1st  2.0w/s  heard: The price dropped 24%.
+   take 2: score -0.06  wer 0.00  end +0.0st  2.7w/s  heard: The price dropped 24%.
+   take 3: score -0.20  wer 0.00  end +0.0st  2.3w/s  heard: The price dropped 24%.
+scene 8: 1.85s ex 0.72  chosen wer 0.00
+   take 1: score +1.87  wer 0.00  end -3.0st  2.4w/s  heard: Developers picked the old chain. Big mining pools downgraded.
+scene 9: 3.79s ex 0.45  chosen wer 0.00
+   take 1: score +1.92  wer 0.00  end -1.8st  2.5w/s  heard: About six hours later, the chains joined again.
+scene 10: 3.24s ex 0.45  chosen wer 0.00
+   take 1: score -0.06  wer 0.00  end +0.0st  2.5w/s  heard: 24 blocks were wiped out.
+   take 2: score -0.04  wer 0.00  end +0.0st  2.5w/s  heard: 24 blocks were wiped out.
+   take 3: score -0.05  wer 0.00  end +0.0st  2.7w/s  heard: 24 blocks were wiped out.
+scene 11: 1.97s ex 0.45  chosen wer 0.00
+   take 1: score -1.69  wer 0.14  end +0.0st  2.7w/s  rushed ['someone']  heard: and someone double spent $10,000 against okay pay.
+   take 2: score -0.99  wer 0.14  end +0.0st  2.4w/s  heard: and someone double spent $10,000 against OK Pay.
+   take 3: score -1.67  wer 0.14  end +0.0st  2.6w/s  rushed ['someone']  heard: and someone double spent $10,000 against OK Pay.
+   take 4: score -0.90  wer 0.14  end +0.0st  2.5w/s  heard: and someone double spent $10,000 against OK Pay.
+   phonetic variant: And someone double spent ten thousand dollars against oh-kay-pay.
+   take P1: score -0.98  wer 0.16  2.5w/s  heard: and someone double spent $10,000 against okay pay.
+   take P2: score -0.37  wer 0.00  2.0w/s  heard: and someone double spent $10,000 against OKPay.
+scene 12: 4.52s ex 0.72  chosen wer 0.00
+   take 1: score -0.28  wer 0.00  end -5.0st  1.9w/s  heard: Bug or warning.
+   take 2: score -0.32  wer 0.00  end -5.8st  1.8w/s  heard: Bug or warning.
+   take 3: score +1.79  wer 0.00  end +7.9st  2.7w/s  heard: Bug or warning.
+scene 13: 1.11s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.34  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 2: score -0.88  wer 0.00  end +0.0st  2.5w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 3: score -0.99  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 4: score -0.28  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 14: 1.88s ex 0.55  chosen wer 0.00
 lines levelled + gentle compressor (no pumping)
-48.53s, force-aligned 111 words (snapped to the voice)
+47.33s, force-aligned 110 words (snapped to the voice)
 takes kept whole (no sentence re-cut) -> jobs/t3700074/voicep.wav
-flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.78, 0.65, 0.61, 0.62, 0.68, 0.66, 0.66, 0.77, 0.7, 0.64, 0.69, 0.74, 0.81]
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.52, 0.6, 0.72, 0.68, 0.6, 0.64, 0.61, 0.61, 0.56, 0.65, 0.61, 0.66, 0.81]
