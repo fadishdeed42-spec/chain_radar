@@ -10,8 +10,10 @@ worst windows: [(28.8, np.float32(6.5)), (0.2, np.float32(8.2)), (38.6, np.float
 mixed -> jobs/t3700076/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700076/short.mp4 -c:v libx264 -crf 19 -maxrate 7174k -bufsize 14348k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700076/short_s.mp4
 video check: []
-✅ <b>Video check: passed</b>
-✅ 7 checks passed (format, hook frame, loudness, motion, picture, sync, visual)
+qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+❌ <b>Video check: problems found</b>
+❌ hook frame: first frame is not a hook: Shows title card instead of shocking statement.
+✅ 6 checks passed (format, loudness, motion, picture, sync, visual)
 $ ffmpeg -y -v error -ss 2.02 -i jobs/t3700076/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700076/sh_00.png
 $ ffmpeg -y -v error -ss 6.06 -i jobs/t3700076/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700076/sh_01.png
 $ ffmpeg -y -v error -ss 10.09 -i jobs/t3700076/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700076/sh_02.png
