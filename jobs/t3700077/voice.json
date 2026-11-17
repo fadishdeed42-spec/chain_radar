@@ -1,0 +1,118 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.4,
+ "seed": 7,
+ "scenes": [
+  [
+   "March twenty thirteen. Bitcoin split into two chains.",
+   0.72,
+   0.2
+  ],
+  [
+   "And the developers chose to kill the newer one.",
+   0.45,
+   0.2
+  ],
+  [
+   "It started with an update. Version zero point eight was brand new, but many computers still ran zero point seven.",
+   0.45,
+   0.2
+  ],
+  [
+   "Then one huge block arrived. It touched over five thousand transactions.",
+   0.45,
+   0.2
+  ],
+  [
+   "The new computers accepted it. The old ones choked.",
+   0.72,
+   0.2
+  ],
+  [
+   "It needed over ten thousand database locks. The old version ran out.",
+   0.45,
+   0.2
+  ],
+  [
+   "Now there were two Bitcoins at the same time.",
+   0.45,
+   0.2
+  ],
+  [
+   "Mount Gox and Bit Pay shut down deposits.",
+   0.45,
+   0.2
+  ],
+  [
+   "And the price dropped twenty-four percent.",
+   0.72,
+   0.2
+  ],
+  [
+   "So developers asked the big miners to go back to the old version.",
+   0.45,
+   0.2
+  ],
+  [
+   "About six hours later, the old chain took the lead, and won.",
+   0.45,
+   0.2
+  ],
+  [
+   "Twenty-four blocks were wiped out.",
+   0.45,
+   0.2
+  ],
+  [
+   "And someone spent the same ten thousand dollars twice, against Oh Kay Pay.",
+   0.72,
+   0.2
+  ],
+  [
+   "One block. Two Bitcoins. Bug, or warning?",
+   0.5,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.55,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "March twenty thirteen. Bitcoin split into two chains.",
+  "And the developers chose to kill the newer one.",
+  "It started with an update. Version zero point eight was brand new, but many computers still ran zero point seven.",
+  "Then one huge block arrived. It touched over five thousand transactions.",
+  "The new computers accepted it. The old ones choked.",
+  "It needed over ten thousand database locks. The old version ran out.",
+  "Now there were two Bitcoins at the same time.",
+  "Mount Gox and BitPay shut down deposits.",
+  "And the price dropped twenty-four percent.",
+  "So developers asked the big miners to go back to the old version.",
+  "About six hours later, the old chain took the lead, and won.",
+  "Twenty-four blocks were wiped out.",
+  "And someone spent the same ten thousand dollars twice, against OKPay.",
+  "One block. Two Bitcoins. Bug, or warning?",
+  "Subscribe for more stories."
+ ]
+}

@@ -1,0 +1,90 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  3%|▎         | 31.1M/1.18G [00:00<00:03, 326MB/s]  6%|▌         | 74.4M/1.18G [00:00<00:02, 401MB/s] 10%|▉         | 117M/1.18G [00:00<00:02, 422MB/s]  13%|█▎        | 160M/1.18G [00:00<00:02, 432MB/s] 17%|█▋        | 205M/1.18G [00:00<00:02, 448MB/s] 21%|██        | 248M/1.18G [00:00<00:02, 444MB/s] 24%|██▍       | 293M/1.18G [00:00<00:02, 452MB/s] 28%|██▊       | 339M/1.18G [00:00<00:01, 462MB/s] 32%|███▏      | 383M/1.18G [00:00<00:01, 461MB/s] 36%|███▌      | 427M/1.18G [00:01<00:01, 459MB/s] 39%|███▉      | 472M/1.18G [00:01<00:01, 464MB/s] 43%|████▎     | 517M/1.18G [00:01<00:01, 461MB/s] 47%|████▋     | 561M/1.18G [00:01<00:01, 352MB/s] 50%|█████     | 606M/1.18G [00:01<00:01, 381MB/s] 54%|█████▍    | 652M/1.18G [00:01<00:01, 409MB/s] 58%|█████▊    | 695M/1.18G [00:01<00:01, 419MB/s] 61%|██████▏   | 740M/1.18G [00:01<00:01, 433MB/s] 65%|██████▌   | 783M/1.18G [00:01<00:01, 437MB/s] 69%|██████▊   | 826M/1.18G [00:02<00:00, 413MB/s] 72%|███████▏  | 870M/1.18G [00:02<00:00, 430MB/s] 76%|███████▌  | 914M/1.18G [00:02<00:00, 436MB/s] 80%|███████▉  | 958M/1.18G [00:02<00:00, 443MB/s] 83%|████████▎ | 0.98G/1.18G [00:02<00:00, 453MB/s] 87%|████████▋ | 1.02G/1.18G [00:02<00:00, 462MB/s] 91%|█████████ | 1.07G/1.18G [00:02<00:00, 468MB/s] 95%|█████████▍| 1.11G/1.18G [00:02<00:00, 471MB/s] 99%|█████████▊| 1.16G/1.18G [00:02<00:00, 473MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 439MB/s]
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+json feeb510a228c
+   take 1: score -0.27  wer 0.00  end +0.0st  2.2w/s  heard: March 2013, Bitcoin split into two chains.
+   take 2: score -0.10  wer 0.00  end +0.0st  2.4w/s  heard: March 2013, Bitcoin split into two chains.
+   take 3: score -0.29  wer 0.00  end +0.0st  2.1w/s  heard: March 2013, Bitcoin split into two chains.
+scene 1: 3.28s ex 0.72  chosen wer 0.00
+   take 1: score -1.88  wer 0.00  end +0.0st  3.3w/s  rushed ['developers']  heard: and the developers chose to kill the newer one.
+   take 2: score -2.73  wer 0.00  end +0.0st  3.7w/s  rushed ['developers']  heard: and the developers chose to kill the newer one.
+   take 3: score -3.04  wer 0.00  end +3.8st  3.7w/s  rushed ['developers']  heard: and the developers chose to kill the newer one.
+   take 4: score -2.49  wer 0.00  end +0.0st  3.6w/s  rushed ['developers']  heard: and the developers chose to kill the newer one.
+scene 2: 2.71s ex 0.45  chosen wer 0.00
+   take 1: score -1.98  wer 0.00  end +0.0st  3.0w/s  rushed ['started', 'Version']  heard: It started with an update. Version 0.8 was brand new, but many compute
+   take 2: score -2.55  wer 0.00  end +0.0st  2.8w/s  rushed ['started', 'update.', 'Version']  heard: It started with an update. Version 0.8 was brand new, but many compute
+   take 3: score -2.57  wer 0.00  end +0.0st  2.9w/s  rushed ['started', 'update.', 'Version']  heard: It started with an update. Version 0.8 was brand new, but many compute
+   take 4: score -2.45  wer 0.00  end +0.0st  2.7w/s  rushed ['started', 'update.', 'Version']  heard: It started with an update. Version 0.8 was brand new, but many compute
+scene 3: 6.67s ex 0.45  chosen wer 0.00
+   take 1: score -1.06  wer 0.00  end -0.2st  2.2w/s  rushed ['touched']  heard: Then, one huge block arrived.  It touched over 5,000 transactions.
+   take 2: score +1.01  wer 0.00  end -5.0st  2.3w/s  rushed ['touched']  heard: Then, one huge block arrived.  It touched over 5,000 transactions.
+   take 3: score -1.14  wer 0.00  end -0.7st  2.0w/s  rushed ['touched']  heard: Then, one huge block arrived.  It touched over 5,000 transactions.
+   take 4: score +0.83  wer 0.00  end -7.3st  2.0w/s  rushed ['touched']  heard: Then, one huge block arrived.  It touched over 5,000 transactions.
+scene 4: 4.83s ex 0.45  chosen wer 0.00
+   take 1: score -1.13  wer 0.00  end +0.0st  3.0w/s  rushed ['computers']  heard: The new computers accepted it. The old ones choked.
+   take 2: score -5.14  wer 0.30  end +0.0st  3.3w/s  rushed ['computer', 'accepted', 'choked.']  heard: The new computer has accepted it. The old one's choked.
+   take 3: score -1.90  wer 0.16  end +0.0st  2.8w/s  rushed ['choked.']  heard: The new computers accepted it. The old one's choked.
+   take 4: score -2.20  wer 0.00  end +0.0st  3.5w/s  rushed ['computers']  heard: The new computers accepted it. The old ones choked.
+scene 5: 3.03s ex 0.72  chosen wer 0.00
+   take 1: score -2.45  wer 0.00  end +0.0st  2.7w/s  rushed ['needed', 'database', 'version']  heard: It needed over 10,000 database locks. The old version ran out.
+   take 2: score -1.66  wer 0.00  end +0.0st  2.5w/s  rushed ['needed', 'database']  heard: It needed over 10,000 database locks. The old version ran out.
+   take 3: score -1.62  wer 0.00  end +0.0st  2.6w/s  rushed ['needed', 'database']  heard: It needed over 10,000 database locks. The old version ran out.
+   take 4: score -1.67  wer 0.00  end +0.0st  2.5w/s  rushed ['needed', 'database']  heard: It needed over 10,000 database locks. The old version ran out.
+scene 6: 4.55s ex 0.45  chosen wer 0.00
+   take 1: score -1.51  wer 0.00  end +0.0st  3.2w/s  rushed ['bitcoins']  heard: Now there were two bitcoins at the same time.
+   take 2: score -2.74  wer 0.00  end +0.0st  3.7w/s  rushed ['bitcoins']  heard: Now there were two bitcoins at the same time.
+   take 3: score -1.59  wer 0.00  end +0.0st  3.2w/s  rushed ['bitcoins']  heard: Now there were two bitcoins at the same time.
+   take 4: score -1.01  wer 0.00  end +0.0st  2.9w/s  rushed ['bitcoins']  heard: Now there were two bitcoins at the same time.
+scene 7: 3.09s ex 0.45  chosen wer 0.00
+   take 1: score -0.10  wer 0.00  end -1.0st  2.4w/s  heard: Mount Gox and BitPay shut down deposits.
+   take 2: score -0.01  wer 0.00  end +0.0st  2.6w/s  heard: Mount Gox and BitPay shut down deposits.
+   take 3: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['deposits.']  heard: Mount Gox and BitPay shut down deposits.
+   take 4: score -0.86  wer 0.14  end +0.0st  2.6w/s  heard: Mount Gox and Bidpay shut down deposits.
+scene 8: 3.05s ex 0.45  chosen wer 0.00
+   take 1: score -0.00  wer 0.00  end +0.0st  2.6w/s  heard: and the price dropped 24%.
+   take 2: score -0.05  wer 0.00  end +0.0st  2.7w/s  heard: and the price dropped 24%.
+   take 3: score -0.18  wer 0.00  end +0.0st  2.3w/s  heard: and the price dropped 24%.
+scene 9: 2.30s ex 0.72  chosen wer 0.00
+   take 1: score -1.89  wer 0.00  end +0.0st  3.3w/s  rushed ['developers']  heard: So developers asked the big miners to go back to the old version.
+   take 2: score -2.40  wer 0.00  end +0.0st  3.6w/s  rushed ['developers']  heard: So developers asked the big miners to go back to the old version.
+   take 3: score -0.11  wer 0.00  end -5.4st  3.4w/s  rushed ['developers']  heard: So developers asked the big miners to go back to the old version.
+   take 4: score +0.28  wer 0.00  end -2.1st  3.2w/s  rushed ['developers']  heard: So developers asked the big miners to go back to the old version.
+scene 10: 4.00s ex 0.45  chosen wer 0.00
+   take 1: score -0.72  wer 0.00  end +0.0st  3.2w/s  heard: About six hours later, the old chain took the lead and won.
+   take 2: score -0.38  wer 0.00  end +0.0st  3.0w/s  heard: About six hours later, the old chain took the lead and won.
+   take 3: score +1.25  wer 0.00  end -3.0st  3.2w/s  heard: About six hours later, the old chain took the lead and won.
+scene 11: 3.78s ex 0.45  chosen wer 0.00
+   take 1: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: 24 blocks were wiped out.
+   take 2: score -0.05  wer 0.00  end +0.0st  2.5w/s  heard: 24 blocks were wiped out.
+   take 3: score -0.08  wer 0.00  end +0.0st  2.7w/s  heard: 24 blocks were wiped out.
+scene 12: 1.99s ex 0.45  chosen wer 0.00
+   take 1: score -1.68  wer 0.00  end +0.0st  3.2w/s  rushed ['someone']  heard: and someone spent the same $10,000 twice against OKPay.
+   take 2: score -0.59  wer 0.00  end +0.0st  3.1w/s  heard: and someone spent the same $10,000 twice against OKPay.
+   take 3: score -2.30  wer 0.12  end +0.0st  3.2w/s  rushed ['someone']  heard: and someone spent the same $10,000 twice against OK Pay.
+   take 4: score -1.37  wer 0.00  end +0.0st  3.1w/s  rushed ['someone']  heard: and someone spent the same $10,000 twice against OKPay.
+scene 13: 4.20s ex 0.72  chosen wer 0.00
+   take 1: score -0.24  wer 0.00  end -12.7st  1.9w/s  heard: 1 block, 2 bitcoins, bug or warning.
+   take 2: score -1.04  wer 0.00  end -13.6st  1.9w/s  rushed ['bitcoins,']  heard: 1 block, 2 bitcoins, bug or warning.
+   take 3: score -1.21  wer 0.00  end -11.5st  1.7w/s  rushed ['bitcoins,']  heard: 1 block, 2 bitcoins, bug or warning.
+   take 4: score -0.40  wer 0.00  end -11.2st  1.7w/s  heard: 1 block, 2 bitcoins, bug or warning.
+   phonetic variant: One block. Too Bitcoins. Bug, or warning?
+   take P1: score -0.32  wer 0.00  1.8w/s  heard: 1 block, 2 bitcoins, bug or warning.
+scene 14: 3.60s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+   take 2: score -0.21  wer 0.00  end +0.0st  2.2w/s  heard: Subscribe for more stories.
+   take 3: score -0.31  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 15: 1.78s ex 0.55  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+56.38s, force-aligned 146 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700077/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.56, 0.58, 0.62, 0.57, 0.67, 0.69, 0.62, 0.7, 0.5, 0.62, 0.65, 0.57, 0.63, 0.91]
