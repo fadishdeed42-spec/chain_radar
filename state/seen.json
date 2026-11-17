@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1794840518.7001226,
 1794841433.9937317,
 1794850925.7054517,
 1794866320.099992,
@@ -18,7 +17,8 @@
 1794917668.0780222,
 1794919303.2265837,
 1794922601.2687402,
-1794923711.2966728
+1794923711.2966728,
+1794927713.3358862
 ],
 "menu": {
 "0234490c28f9": {
@@ -59,7 +59,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -163,7 +163,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -178,7 +178,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794920541.0,
 "tgtext": "JUST IN: \ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
 "title": "\ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
@@ -644,7 +644,7 @@
 "The Motley Fool",
 "Yahoo Finance"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794913500.0,
 "tgtext": "",
 "title": "Bitcoin Could Lose $500 Billion In Value If Price Falls Below $40,000. What's Really Driving The Crash?",
@@ -696,7 +696,7 @@
 "Decrypt",
 "KuCoin"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794907454.0,
 "tgtext": "",
 "title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
@@ -995,19 +995,6 @@
 "tgtext": "",
 "title": "Kava falls around 15.5% as protocol exploit enables massive token theft",
 "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUjgyQWR5ZzFTRjN6ZlBrVzY1U0Z0V3BfWHZzN2ZGWnNoVWNEMzRQM2x3bE1lUWZQUVRtZ1l2VEFBUWRMVmx2dWFoOFhBWHZvRWxURk0xMEN0TmhHQUI2YjBhc3REaGtuREVlOXI4TEg3X0psa0ttdHE3azF0b3NPSVl0dkNSOW1oV3lRZmY1akFkTUpZelUzV1FpYUdFWkdTb3c?oc=5",
-"urls": []
-},
-"518c749beacd": {
-"coin": "ethereum",
-"src": "StreetInsider",
-"srcs": [
-"StreetInsider"
-],
-"t": 1794754505.6698995,
-"t0": 1794734214.0,
-"tgtext": "",
-"title": "Ethereum Price Today: ETH Hovers Near $1,900 After a Brutal Week as Remittix Earn Clears $2M in TVL",
-"url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYTNMX3c4c0RPcXlTRTdGWVVlX3BTbEQzTUF0Z0hMdEJIdHFpX0ZJdjJUdHVPVE9KQXZIeU1iNnF0Zl9MNHJZT3M4TGp2VWVMN1FDZDdyY0p6UHVueHpDblhYSkRZYWdqQ1ZseHktZTdidnhKSlluaTBSMkhoVklKc1BEYWxiMWVybUZndUJ5T29wdzhxN2NSY0tpUE9mcU1QWnJ1a2FKWFBrYjRIeE80bnZIZmVET3h0UV9faXV5T2VzVjVHbXZvOEpwMXdlb2ptOWVFazBLblgzaWxUOU1qX2NKV0FZRE9GTm41d2hIOWVCY0paUmM2UlhUMA?oc=5",
 "urls": []
 },
 "52b1399dc8de": {
@@ -2168,7 +2155,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2259,7 +2246,7 @@
 "Lookonchain",
 "Pluang"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794907279.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "Ethereum Price and $1.16B Selling Threat: North Korea\u2019s Binance Hacker Moves $137M",
@@ -2647,6 +2634,19 @@
 "url": "https://t.me/binance_announcements/9136",
 "urls": []
 },
+"bf979451b188": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794928017.6584265,
+"t0": 1794927617.0,
+"tgtext": "JUST IN: Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.\n\n@WatcherGuru",
+"title": "Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.",
+"url": "https://t.me/WatcherGuru/16096",
+"urls": []
+},
 "c05db28003e7": {
 "coin": "hyperliquid",
 "src": "Cointelegraph",
@@ -2705,11 +2705,11 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
-"Coinspeaker",
 "CryptoSlate",
-"Wu Blockchain"
+"Wu Blockchain",
+"Yahoo Tech"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794907467.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3446,14 +3446,17 @@
 "coin": "bitcoin",
 "src": "Cointelegraph",
 "srcs": [
+"Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794927122.3171825,
+"t": 1794928017.6584265,
 "t0": 1794923276.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
 "title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
 "url": "https://t.me/cointelegraph/73338",
-"urls": []
+"urls": [
+"https://bitcoinmagazine.com/news/russia-retail-bitcoin-buying-starts"
+]
 },
 "f66fd6aaf01d": {
 "coin": "",
@@ -3656,126 +3659,48 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"03d4f3dc3cd7": 0.74,
-"06444e46e7ea": 0.487,
-"08440ab39ffb": 0.301,
-"0cbc410dcbb9": 0.938,
-"0d3165cabc6e": 0.579,
-"0f212f6dcdbd": 0.102,
-"12a160270acf": 0.188,
-"1542cce20df0": 0.244,
-"1674b68cf228": 0.012,
-"16c71e2a8608": 0.175,
-"33b813732f88": 0.367,
-"37c5f8a79115": 0.945,
-"38ecbc6d1df0": 0.644,
-"3a1ac5d1513a": 0.116,
-"47fbbb4030b2": 0.122,
-"520edb58be1e": 0.141,
-"63a55c37293f": 0.247,
-"6711f3cf5672": 0.153,
-"67535aec20b6": 0.072,
-"722570f0249e": 0.051,
-"7333b02d3cc4": 0.298,
-"773763f816e1": 0.381,
-"84a17746e7d0": 0.031,
-"876159a3109f": 0.141,
-"91a69ca88e0f": 0.344,
-"96c37959e1ef": 0.144,
-"9d26e6b114e2": 0.077,
-"9fef6772eec4": 0.268,
-"a052cb1b6926": 0.916,
-"a460393d9455": 0.966,
-"a9d8ad7faa75": 0.105,
-"c47fe653e6fb": 0.919,
-"c5ad01ec39bc": 0.049,
-"cc2123d1b838": 0.056,
-"d7b2d5abc226": 0.128,
-"e12ce0eab32b": 0.079,
-"e99bafe26586": 0.396,
-"f21c2a8aece6": 0.396,
-"f9cfba3797f3": 0.082,
-"fed6a5a99a34": 0.116
+"04b4de175498": 0.091,
+"06444e46e7ea": 0.383,
+"08440ab39ffb": 0.22,
+"0cbc410dcbb9": 0.908,
+"0d3165cabc6e": 0.473,
+"0f212f6dcdbd": 0.069,
+"12a160270acf": 0.131,
+"12bc8aefa9e8": 0.051,
+"1542cce20df0": 0.174,
+"1674b68cf228": 0.008,
+"33b813732f88": 0.275,
+"37c5f8a79115": 0.918,
+"38ecbc6d1df0": 0.592,
+"3a1ac5d1513a": 0.187,
+"48a9f27ee9be": 0.44,
+"4981bb8f3c07": 0.058,
+"520edb58be1e": 0.097,
+"527abd1409fc": 0.066,
+"63a55c37293f": 0.103,
+"6711f3cf5672": 0.105,
+"67535aec20b6": 0.048,
+"72dffbe504e7": 0.041,
+"7333b02d3cc4": 0.425,
+"773763f816e1": 0.226,
+"84a17746e7d0": 0.021,
+"876159a3109f": 0.097,
+"91a69ca88e0f": 0.255,
+"96c37959e1ef": 0.099,
+"9fef6772eec4": 0.193,
+"a052cb1b6926": 0.877,
+"a460393d9455": 0.949,
+"a9d8ad7faa75": 0.071,
+"b004f9244448": 0.037,
+"bf979451b188": 0.843,
+"c47fe653e6fb": 0.889,
+"c5ad01ec39bc": 0.032,
+"d7b2d5abc226": 0.087,
+"e12ce0eab32b": 0.053,
+"e99bafe26586": 0.186,
+"f62d634cc244": 0.679
 },
 "sent": [
-{
-"e": [
-"back",
-"bloomberg",
-"falls",
-"focus",
-"low",
-"putting",
-"toward",
-"yearly"
-],
-"k": [],
-"t": 1794751279.689766,
-"u": [
-"https://t.me/wublockchainenglish/26831",
-"https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMiakFVX3lxTE1RdDctWkJNUlFNZjJ5cUNtU2JOZXpYLVFJbG14ZWpMQnhsWVNlaFpiSEJ0bGctV3dIVnpQeWxfZ0h6ZlUwaWdYSUMyaTZ4WjFmM1ZFTmYzcmRKcU92YXpzaHkwR0JveGQ5TlE?oc=5"
-],
-"w": [
-"$58k",
-"$62k",
-"back",
-"bitcoin",
-"bloomberg",
-"falls",
-"focus",
-"low",
-"putting",
-"toward",
-"yearly"
-]
-},
-{
-"e": [
-"interesting"
-],
-"k": [],
-"t": 1794753171.4754457,
-"u": [
-"https://t.me/cointelegraph/73293"
-],
-"w": [
-"100",
-"2026",
-"890",
-"btc",
-"increased",
-"interesting",
-"just",
-"number",
-"wallets"
-]
-},
-{
-"e": [
-"hijacked",
-"machines",
-"mining",
-"ocean",
-"pool",
-"redirecting"
-],
-"k": [],
-"t": 1794753942.7092934,
-"u": [
-"https://t.me/wublockchainenglish/26835"
-],
-"w": [
-"000",
-"bitcoin",
-"hijacked",
-"machines",
-"mining",
-"ocean",
-"pool",
-"redirecting"
-]
-},
 {
 "e": [
 "binance"
@@ -5129,6 +5054,31 @@
 "saylor",
 "their"
 ]
+},
+{
+"e": [
+"chatgpt",
+"coinbase"
+],
+"k": [],
+"t": 1794927713.3358862,
+"u": [
+"https://t.me/WatcherGuru/16096"
+],
+"w": [
+"allowing",
+"chatgpt",
+"chats",
+"coinbase",
+"derivatives",
+"directly",
+"launches",
+"plugin",
+"stocks",
+"through",
+"trade",
+"users"
+]
 }
 ],
 "stories": {},
@@ -5136,64 +5086,64 @@
 "top": [
 [
 "a460393d9455",
-65,
-331,
+63,
+346,
 4
 ],
 [
 "37c5f8a79115",
-49,
-227,
+47,
+242,
 3
 ],
 [
 "0cbc410dcbb9",
 20,
-148,
+163,
 2
 ],
 [
 "c47fe653e6fb",
-55,
-328,
+53,
+343,
 3
 ],
 [
 "a052cb1b6926",
 24,
-130,
+145,
+1
+],
+[
+"bf979451b188",
+18,
+7,
 1
 ],
 [
 "f62d634cc244",
-10,
-64,
-1
+20,
+79,
+2
+],
+[
+"38ecbc6d1df0",
+69,
+343,
+5
 ],
 [
 "03d4f3dc3cd7",
 16,
-85,
-1
-],
-[
-"38ecbc6d1df0",
-71,
-328,
-5
-],
-[
-"52b1399dc8de",
-10,
-81,
+100,
 1
 ],
 [
 "0d3165cabc6e",
 18,
-110,
+125,
 1
 ]
 ],
-"top_at": 1794927122.3171825
+"top_at": 1794928017.6584265
 }
