@@ -59,7 +59,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -108,23 +108,6 @@
 "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"0874e7bb8a67": {
-"coin": "bitcoin",
-"src": "Cointelegraph",
-"srcs": [
-"Bitbo",
-"Cointelegraph",
-"The Defiant"
-],
-"t": 1794759435.252946,
-"t0": 1794738197.0,
-"tgtext": "",
-"title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-"url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "0b957a611912": {
 "coin": "bitcoin",
 "src": "Decrypt",
@@ -149,7 +132,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -643,7 +626,7 @@
 "The Motley Fool",
 "Yahoo Finance"
 ],
-"t": 1794931448.921031,
+"t": 1794931959.1485615,
 "t0": 1794913500.0,
 "tgtext": "",
 "title": "Bitcoin Could Lose $500 Billion In Value If Price Falls Below $40,000. What's Really Driving The Crash?",
@@ -888,16 +871,21 @@
 },
 "48a9f27ee9be": {
 "coin": "solana",
-"src": "Wu Blockchain",
+"src": "CoinDesk",
 "srcs": [
+"CoinDesk",
+"Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794912766.2828252,
+"t": 1794932264.3015769,
 "t0": 1794910965.0,
 "tgtext": "Solana Foundation Takes Majority Stake in CoinGecko\n\nSolana Foundation member Vibhu confirmed that the foundation now holds a majority interest in CoinGecko, the crypto data platform. CoinGecko plans to expand its data and API infrastructure, enhance coverage of on-chain assets, RWAs and derivatives, and explore trading and DeFi services powered by Solana. CoinGecko said it will maintain its cross-chain coverage and transparent methodology. The exact ownership percentage and transaction value were not disclosed. \u2014 link",
-"title": "Solana Foundation Takes Majority Stake in CoinGecko",
-"url": "https://t.me/wublockchainenglish/26859",
-"urls": []
+"title": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+"url": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+"urls": [
+"https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+"https://cointelegraph.com/news/coingecko-solana-foundation-majority-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "48acc0918966": {
 "coin": "hyperliquid",
@@ -1036,6 +1024,22 @@
 "title": "Kava Lend exploit drains $3.8 million in KAVA",
 "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DOGJOaGEwYklTdzJneDk4TmRKUmxpUGpGeDd3cmVuS3JnN3d5M3lFVGltVVBnbWdRUkIwTXZjWmp1a3FueFNZVjJ5LTVRa0VsWURZRHJrMWR3TEF6d0xXbmFheFFpbDZqN3BvR1JLVVM5WXk4bWxUdTdzbDZYU2M?oc=5",
 "urls": []
+},
+"5612a45d92d6": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"CoinDesk",
+"Cointelegraph"
+],
+"t": 1794932264.3015769,
+"t0": 1794911606.0,
+"tgtext": "\u26a1\ufe0f LATEST: Jensen Huang signals willingness to return as Nvidia CEO and says support has been overwhelming, per WSJ.",
+"title": "Jensen Huang signals willingness to return as Nvidia CEO and says support has been overwhelming, per WSJ.",
+"url": "https://t.me/cointelegraph/73344",
+"urls": [
+"https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings"
+]
 },
 "5671f243c8c3": {
 "coin": "pump-fun",
@@ -1465,7 +1469,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794928260.0,
 "tgtext": "JUST IN: \ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.\n\n@WatcherGuru\n\ud83c\udded\ud83c\uddf0 NEW: Hong Kong tests tokenized deposits with Swift as banks chase stablecoin-style speed.\n\nNews | Markets | YouTube",
 "title": "\ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.",
@@ -2127,7 +2131,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2271,6 +2275,19 @@
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-64000-tech"
 ]
+},
+"a78ee86876f5": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794932264.3015769,
+"t0": 1794931376.0,
+"tgtext": "October 2026 Exchange Spot Volume Report: total $623.6 billion, MoM decreased 9.3%\n\nAccording to WuBlockchain data, spot trading volume across 14 major crypto exchanges totaled $623.6 billion in October 2026, down 9.3% from $687.7 billion in September. Five exchanges recorded month-over-month increases, while nine saw declines. Binance ranked first with $279.2 billion (44.8% share), followed by OKX at $61.9 billion (9.9%) and Bybit at $50.9 billion (8.2%). The top three exchanges accounted for a combined 62.9% of total volume. The figures have been adjusted for outliers but may still include wash trading and bot activity. \u2014 link",
+"title": "October 2026 Exchange Spot Volume Report: total $623.6 billion, MoM decreased 9.3%",
+"url": "https://t.me/wublockchainenglish/26861",
+"urls": []
 },
 "a9d8ad7faa75": {
 "coin": "solana",
@@ -2738,9 +2755,9 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794928867.0,
-"tgtext": "\ud83d\udea8 JUST IN: Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.\n\n@WatcherGuru\n\u26a1\ufe0f LATEST: Jensen Huang signals willingness to return as Nvidia CEO and says support has been overwhelming, per WSJ.\nJUST IN: Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"\n\n@WatcherGuru",
+"tgtext": "\ud83d\udea8 JUST IN: Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"\n\n@WatcherGuru",
 "title": "Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.",
 "url": "https://t.me/cointelegraph/73340",
 "urls": []
@@ -3403,7 +3420,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794923276.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
 "title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
@@ -3599,7 +3616,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794931448.921031,
+"t": 1794932264.3015769,
 "t0": 1794929801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: A highly classified network used by the National Security Agency (NSA) for internal communications is down, according to CNN.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Highly classified US NSA national security communications network suffers outage.\n\n@WatcherGuru",
 "title": "A highly classified network used by the National Security Agency (NSA) for internal communications is down, according to CNN.",
@@ -3627,25 +3644,26 @@
 "rain": 1794899279.363075
 },
 "probs": {
+"03d4f3dc3cd7": 0.574,
 "04b4de175498": 0.042,
-"06444e46e7ea": 0.106,
+"06444e46e7ea": 0.313,
 "0d3165cabc6e": 0.473,
 "10200daeced7": 0.065,
 "12a160270acf": 0.131,
 "1542cce20df0": 0.174,
 "1674b68cf228": 0.008,
+"16c71e2a8608": 0.122,
 "17929023bc87": 0.068,
 "360f31e70b99": 0.07,
-"37c5f8a79115": 0.918,
 "47fbbb4030b2": 0.165,
-"497b2aa98fd2": 0.032,
 "4981bb8f3c07": 0.058,
-"4a14e5c19d0e": 0.058,
+"4a14e5c19d0e": 0.14,
 "527abd1409fc": 0.066,
 "67535aec20b6": 0.026,
 "72dffbe504e7": 0.041,
+"738dd7649c51": 0.322,
 "773763f816e1": 0.226,
-"78febdcbfb85": 0.758,
+"78febdcbfb85": 0.704,
 "84a17746e7d0": 0.125,
 "876159a3109f": 0.14,
 "91a69ca88e0f": 0.285,
@@ -3653,20 +3671,19 @@
 "9b68399d7691": 0.09,
 "9d26e6b114e2": 0.051,
 "a052cb1b6926": 0.892,
-"a78ee86876f5": 0.41,
-"a9d8ad7faa75": 0.191,
-"aa8800ca2bed": 0.169,
+"a78ee86876f5": 0.479,
+"a9d8ad7faa75": 0.15,
 "afe405b7ab34": 0.067,
-"b004f9244448": 0.037,
+"b004f9244448": 0.02,
 "bf979451b188": 0.455,
-"c90282e265b3": 0.942,
+"c90282e265b3": 0.992,
 "cc2123d1b838": 0.223,
+"cff1874b1969": 0.013,
 "d7b2d5abc226": 0.087,
 "e12ce0eab32b": 0.078,
-"eff77d78f3ba": 0.65,
-"f3b5ec236172": 0.392,
+"f44cdff3a8f4": 0.209,
 "f62d634cc244": 0.679,
-"ff53cc48e3ff": 0.988
+"ff53cc48e3ff": 0.891
 },
 "sent": [
 {
@@ -5111,65 +5128,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"ff53cc48e3ff",
-50,
-27,
-2
-],
-[
 "c90282e265b3",
 28,
-43,
+57,
 2
-],
-[
-"37c5f8a79115",
-40,
-299,
-3
 ],
 [
 "a052cb1b6926",
-21,
-203,
+20,
+216,
 1
 ],
 [
-"15b449439386",
-10,
-34,
-1
+"ff53cc48e3ff",
+50,
+41,
+2
 ],
 [
 "0cbc410dcbb9",
-15,
-220,
+13,
+233,
+2
+],
+[
+"5612a45d92d6",
+0,
+344,
 2
 ],
 [
 "78febdcbfb85",
-38,
-53,
+30,
+67,
 3
 ],
 [
 "f62d634cc244",
 20,
-136,
-2
-],
-[
-"eff77d78f3ba",
-37,
-352,
+150,
 2
 ],
 [
 "03d4f3dc3cd7",
 16,
-157,
+170,
+1
+],
+[
+"48a9f27ee9be",
+7,
+355,
+3
+],
+[
+"a78ee86876f5",
+25,
+15,
 1
 ]
 ],
-"top_at": 1794931448.921031
+"top_at": 1794932264.3015769
 }
