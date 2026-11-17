@@ -325,7 +325,7 @@
 "Crypto News",
 "The Block"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794901157.0,
 "tgtext": "",
 "title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
@@ -850,7 +850,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794910965.0,
 "tgtext": "Solana Foundation Takes Majority Stake in CoinGecko\n\nSolana Foundation member Vibhu confirmed that the foundation now holds a majority interest in CoinGecko, the crypto data platform. CoinGecko plans to expand its data and API infrastructure, enhance coverage of on-chain assets, RWAs and derivatives, and explore trading and DeFi services powered by Solana. CoinGecko said it will maintain its cross-chain coverage and transparent methodology. The exact ownership percentage and transaction value were not disclosed. \u2014 link",
 "title": "Solana Foundation Takes Majority Stake in CoinGecko",
@@ -1074,6 +1074,19 @@
 "urls": [
 "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"59464786a8ab": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794912766.2828252,
+"t0": 1794912033.0,
+"tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
+"title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
+"url": "https://t.me/cointelegraph/73336",
+"urls": []
 },
 "5b69891378df": {
 "coin": "lighter",
@@ -1328,7 +1341,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1736,7 +1749,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794893876.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
 "title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
@@ -2008,7 +2021,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2468,22 +2481,23 @@
 "urls": []
 },
 "ba056fdb0cfc": {
-"coin": "hyperliquid",
-"src": "BitKE",
+"coin": "",
+"src": "The Block",
 "srcs": [
-"BitKE",
 "Bitcoin Foundation",
 "Cointelegraph",
 "Crypto News",
-"FinanceFeeds"
+"The Block",
+"TradingView"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794895920.0,
 "tgtext": "",
-"title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
-"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZRUdrQUNzRmxIZVdmZjl3RkVtY011eEZ4T2NrLXNyMm02bHFuM0w5U1BTbHd5RnFEUmVpS0tqam9YeGxBWExKU2JUNnlHWXc1VHRsUnJ3aktOZ0ZFYkQzazV1NTFsdGtWTl9ZSzFkTW5uUnd2Z0JHaFgxUTU?oc=5",
+"title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
+"url": "https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106",
 "urls": [
-"https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106"
 ]
 },
 "ba74c34e6f1c": {
@@ -2550,19 +2564,6 @@
 "urls": [
 "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"bede7e52827d": {
-"coin": "bitcoin",
-"src": "TradingView",
-"srcs": [
-"TradingView"
-],
-"t": 1794739438.4539099,
-"t0": 1794726900.0,
-"tgtext": "",
-"title": "Bitcoin Ahr999 Indicator Falls to 0.3064, Marking Ninth Straight Day in Buy-the-Dip Zone",
-"url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVHVuUFowNG15TUJfT1Q4WGxxSWdlcEFaWTgxbG5YWUUzMWhXRmJZY3VOLUdNVnRFUGlWRUQ0Y3hkNXdFRlpjekFxU2tIazNhUkVuaGtUeTl6Rzg4RWt1Y2VDbWNkTnU4Z01OeVBlUTk2d2x6bkRXRmE3SHhfRFdjNGpPMHNpU1VUc0VRcmJLSDFCbnFCaVEyYlM3Nk1Cbkh1ZlJhZHE1a2lJREVidERlVDlJb0Y1dHN4OXJnR0V0am1vTXVSWUh0cGxHektwRXVnZDN3ZGtIWkZudXJLcTVscnR2STI?oc=5",
-"urls": []
 },
 "bf1facc3bbac": {
 "coin": "",
@@ -2785,7 +2786,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794904279.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3146,7 +3147,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794901701.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3212,7 +3213,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794911932.9665673,
+"t": 1794912766.2828252,
 "t0": 1794910332.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker has started laundering the 602,402 ETH ($1.09B) he holds!",
@@ -3573,25 +3574,24 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"02c4da7038c7": 0.117,
 "09bece7da30a": 0.076,
 "12bc8aefa9e8": 0.036,
-"180e66965ad9": 0.387,
+"180e66965ad9": 0.252,
 "196e0b8c2427": 0.115,
-"23ec72a462be": 0.087,
 "2f437b87882f": 0.058,
 "32cde3b262bf": 0.036,
-"37e67a81b030": 0.069,
-"3b43f850596f": 0.106,
+"3b43f850596f": 0.025,
 "3d03c71886e6": 0.049,
-"411f4625de95": 0.025,
+"3e6b270ef11b": 0.031,
+"411f4625de95": 0.064,
 "42ae29d3805b": 0.071,
-"4452a0feead3": 0.207,
+"4452a0feead3": 0.054,
+"4aa234f6b587": 0.012,
 "63a55c37293f": 0.068,
 "6711f3cf5672": 0.111,
 "69e94173a5d5": 0.205,
 "6c73d3da2d4b": 0.09,
-"721bbc845f89": 0.057,
+"721bbc845f89": 0.101,
 "76bf2dc72ce5": 0.15,
 "8164a4bda4f6": 0.022,
 "85284de8575d": 0.066,
@@ -3599,20 +3599,21 @@
 "8aad3c3e83fa": 0.048,
 "8c1fcbbdec1e": 0.02,
 "8f8eb408919b": 0.082,
-"99d5f054f92f": 0.19,
+"99d5f054f92f": 0.111,
 "9d26e6b114e2": 0.085,
 "9d799837f8b3": 0.222,
 "a0e4cd121fe0": 0.123,
 "a5e4b65ec885": 0.074,
-"ba056fdb0cfc": 0.23,
+"ba056fdb0cfc": 0.508,
 "c5ad01ec39bc": 0.018,
 "cf457de6ab2c": 0.089,
-"d313f36ab402": 0.975,
-"dbc820ec3dea": 0.08,
+"d11cb9a5ec02": 0.07,
+"d313f36ab402": 0.966,
 "e2b340698b3b": 0.137,
 "ed029cabc3ad": 0.223,
-"eff77d78f3ba": 0.971,
-"f21c2a8aece6": 0.012
+"eff77d78f3ba": 0.764,
+"f21c2a8aece6": 0.012,
+"f9cfba3797f3": 0.091
 },
 "sent": [
 {
@@ -5019,63 +5020,63 @@
 [
 "d313f36ab402",
 74,
-128,
+141,
 3
+],
+[
+"59464786a8ab",
+10,
+12,
+1
 ],
 [
 "eff77d78f3ba",
 33,
-27,
+41,
+1
+],
+[
+"ba056fdb0cfc",
+45,
+281,
+5
+],
+[
+"6e7cd3ea0246",
+4,
+275,
+1
+],
+[
+"98ae04cfbd1a",
+0,
+267,
+1
+],
+[
+"88053a11a2c0",
+0,
+315,
 1
 ],
 [
 "48a9f27ee9be",
 10,
-16,
-1
-],
-[
-"6e7cd3ea0246",
-6,
-261,
-1
-],
-[
-"98ae04cfbd1a",
-1,
-253,
+30,
 1
 ],
 [
 "180e66965ad9",
-20,
-180,
+19,
+193,
 2
-],
-[
-"88053a11a2c0",
-0,
-301,
-1
-],
-[
-"ba056fdb0cfc",
-47,
-267,
-6
 ],
 [
 "ed029cabc3ad",
 32,
-171,
+184,
 1
-],
-[
-"9d799837f8b3",
-73,
-274,
-5
 ]
 ],
-"top_at": 1794911932.9665673
+"top_at": 1794912766.2828252
 }
