@@ -322,9 +322,10 @@
 "coin": "",
 "src": "The Block",
 "srcs": [
+"Crypto News",
 "The Block"
 ],
-"t": 1794909058.571912,
+"t": 1794911932.9665673,
 "t0": 1794901157.0,
 "tgtext": "",
 "title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
@@ -849,7 +850,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794910965.0,
 "tgtext": "Solana Foundation Takes Majority Stake in CoinGecko\n\nSolana Foundation member Vibhu confirmed that the foundation now holds a majority interest in CoinGecko, the crypto data platform. CoinGecko plans to expand its data and API infrastructure, enhance coverage of on-chain assets, RWAs and derivatives, and explore trading and DeFi services powered by Solana. CoinGecko said it will maintain its cross-chain coverage and transparent methodology. The exact ownership percentage and transaction value were not disclosed. \u2014 link",
 "title": "Solana Foundation Takes Majority Stake in CoinGecko",
@@ -1327,7 +1328,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1735,7 +1736,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794893876.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
 "title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
@@ -2007,7 +2008,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2087,7 +2088,7 @@
 "KuCoin",
 "The Crypto Times"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794895489.0,
 "tgtext": "",
 "title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
@@ -2466,6 +2467,25 @@
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVU9RcjVDUGhfV2wtYVYzVm9ScV8zUTNIVmlmdmRNUHlFcHJxY191bFU1ekkyN0tWV3FQNlRRVUhobEJxTjM0V3hUR3N2NUZ5ODdkSTVRYlpQc3YwRkc0RG53YXBXSWVrajZ0WElFWHF1Y1FoNDRoRUFoQVhfTTFpbE1DYWhMN0RFZDU1S1JIMHhKR1ZWbTcwcGZ2TnFzYXRwU1ZxZ2tfOA?oc=5",
 "urls": []
 },
+"ba056fdb0cfc": {
+"coin": "hyperliquid",
+"src": "BitKE",
+"srcs": [
+"BitKE",
+"Bitcoin Foundation",
+"Cointelegraph",
+"Crypto News",
+"FinanceFeeds"
+],
+"t": 1794911932.9665673,
+"t0": 1794895920.0,
+"tgtext": "",
+"title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZRUdrQUNzRmxIZVdmZjl3RkVtY011eEZ4T2NrLXNyMm02bHFuM0w5U1BTbHd5RnFEUmVpS0tqam9YeGxBWExKU2JUNnlHWXc1VHRsUnJ3aktOZ0ZFYkQzazV1NTFsdGtWTl9ZSzFkTW5uUnd2Z0JHaFgxUTU?oc=5",
+"urls": [
+"https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "ba74c34e6f1c": {
 "coin": "",
 "src": "Bitcoin Magazine",
@@ -2765,7 +2785,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794904279.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3126,7 +3146,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794901701.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3192,7 +3212,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794911117.035059,
+"t": 1794911932.9665673,
 "t0": 1794910332.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker has started laundering the 602,402 ETH ($1.09B) he holds!",
@@ -3556,7 +3576,9 @@
 "02c4da7038c7": 0.117,
 "09bece7da30a": 0.076,
 "12bc8aefa9e8": 0.036,
-"180e66965ad9": 0.217,
+"180e66965ad9": 0.387,
+"196e0b8c2427": 0.115,
+"23ec72a462be": 0.087,
 "2f437b87882f": 0.058,
 "32cde3b262bf": 0.036,
 "37e67a81b030": 0.069,
@@ -3564,16 +3586,14 @@
 "3d03c71886e6": 0.049,
 "411f4625de95": 0.025,
 "42ae29d3805b": 0.071,
-"435be5c9f400": 0.139,
 "4452a0feead3": 0.207,
-"4aa234f6b587": 0.012,
-"56aabb0bdbb0": 0.448,
 "63a55c37293f": 0.068,
 "6711f3cf5672": 0.111,
 "69e94173a5d5": 0.205,
 "6c73d3da2d4b": 0.09,
 "721bbc845f89": 0.057,
 "76bf2dc72ce5": 0.15,
+"8164a4bda4f6": 0.022,
 "85284de8575d": 0.066,
 "8a3de7fa2b89": 0.111,
 "8aad3c3e83fa": 0.048,
@@ -3584,14 +3604,14 @@
 "9d799837f8b3": 0.222,
 "a0e4cd121fe0": 0.123,
 "a5e4b65ec885": 0.074,
-"a872d53d2a65": 0.014,
-"c3511036c882": 0.038,
+"ba056fdb0cfc": 0.23,
+"c5ad01ec39bc": 0.018,
 "cf457de6ab2c": 0.089,
 "d313f36ab402": 0.975,
 "dbc820ec3dea": 0.08,
 "e2b340698b3b": 0.137,
 "ed029cabc3ad": 0.223,
-"eff77d78f3ba": 0.886,
+"eff77d78f3ba": 0.971,
 "f21c2a8aece6": 0.012
 },
 "sent": [
@@ -4999,63 +5019,63 @@
 [
 "d313f36ab402",
 74,
-114,
+128,
 3
-],
-[
-"7da94308df5b",
-0,
-355,
-1
 ],
 [
 "eff77d78f3ba",
 33,
-13,
+27,
 1
 ],
 [
 "48a9f27ee9be",
 10,
-3,
+16,
 1
 ],
 [
 "6e7cd3ea0246",
-7,
-248,
+6,
+261,
 1
-],
-[
-"56aabb0bdbb0",
-36,
-352,
-7
 ],
 [
 "98ae04cfbd1a",
-3,
-240,
+1,
+253,
 1
+],
+[
+"180e66965ad9",
+20,
+180,
+2
 ],
 [
 "88053a11a2c0",
 0,
-287,
+301,
 1
+],
+[
+"ba056fdb0cfc",
+47,
+267,
+6
 ],
 [
 "ed029cabc3ad",
 32,
-157,
+171,
 1
 ],
 [
 "9d799837f8b3",
-75,
-260,
+73,
+274,
 5
 ]
 ],
-"top_at": 1794911117.035059
+"top_at": 1794911932.9665673
 }
