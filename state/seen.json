@@ -59,7 +59,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -132,7 +132,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -147,7 +147,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794931144.6129208,
+"t": 1794933083.2489681,
 "t0": 1794920541.0,
 "tgtext": "JUST IN: \ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
 "title": "\ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
@@ -958,19 +958,6 @@
 "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zaUdMSUIzM2F5ZlhoeTlHSGcyQ3QwcmR2bjlNQ1VtTnZqN3NzWFp5OVFCNC0yY3Z1S3RFUXZxcXR2aV9ZejRSMDYwb3RXTlY4X3U3M0xPNkZuT3ZQTXRMTmdLTnFIbXV2Y2lzTFpB?oc=5",
 "urls": []
 },
-"51407c087822": {
-"coin": "",
-"src": "Traders Union",
-"srcs": [
-"Traders Union"
-],
-"t": 1794759900.1217377,
-"t0": 1794743600.0,
-"tgtext": "",
-"title": "Kava falls around 15.5% as protocol exploit enables massive token theft",
-"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUjgyQWR5ZzFTRjN6ZlBrVzY1U0Z0V3BfWHZzN2ZGWnNoVWNEMzRQM2x3bE1lUWZQUVRtZ1l2VEFBUWRMVmx2dWFoOFhBWHZvRWxURk0xMEN0TmhHQUI2YjBhc3REaGtuREVlOXI4TEg3X0psa0ttdHE3azF0b3NPSVl0dkNSOW1oV3lRZmY1akFkTUpZelUzV1FpYUdFWkdTb3c?oc=5",
-"urls": []
-},
 "52b1399dc8de": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1026,17 +1013,17 @@
 "urls": []
 },
 "5612a45d92d6": {
-"coin": "",
-"src": "Cointelegraph",
+"coin": "bitcoin",
+"src": "CoinDesk",
 "srcs": [
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794911606.0,
 "tgtext": "\u26a1\ufe0f LATEST: Jensen Huang signals willingness to return as Nvidia CEO and says support has been overwhelming, per WSJ.",
-"title": "Jensen Huang signals willingness to return as Nvidia CEO and says support has been overwhelming, per WSJ.",
-"url": "https://t.me/cointelegraph/73344",
+"title": "Live updates: Bitcoin and stocks continue slump, but Nvidia boosted as Huang signals possible return",
+"url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
 "urls": [
 "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings"
 ]
@@ -1469,7 +1456,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794928260.0,
 "tgtext": "JUST IN: \ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.\n\n@WatcherGuru\n\ud83c\udded\ud83c\uddf0 NEW: Hong Kong tests tokenized deposits with Swift as banks chase stablecoin-style speed.\n\nNews | Markets | YouTube",
 "title": "\ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.",
@@ -1771,6 +1758,19 @@
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite",
 "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZUcydDROVF9Ua0plUVdKbXJMR19KYlNzMTJBNTYxcEl3UWI4VTc1emZwTXU0aHpCOU5GX1pWNnVLbVRLNFRHMlJTeXBERk9xSmdsanNKbEE5OGxvbmRZOVNfUElOZUQzRUtVU1FURDViUVRySVMzaWtYR200eVNoVDR4eEdTeWZ2MDB6WUoySm50b2E0WGg0TEpCTGZwTVFZa0FEbklnNVVmd9IBrwFBVV95cUxPaUZsNGJwMEs2dVJYTlFOYVJRTDFpRXcyUVJ5b3llNnhER3NRZHg0MVJtYldKSlRoU0NlbXJiVFR1cnZvUVpWZTBKR2xRQlhLcm1vZEJ2UzRJUGpienRYUmJzdHJGaHZHTkJRN3BmaDNyY2hQYnNfMTRFaWJPUklSNGZIbWJVOEZrVjlZdjY4N3dMV1RIRTJCRlQzb0gzVDVRaGxKRFdJb0M0OVk2ZGh3?oc=5",
+"urls": []
+},
+"8781b624d2e7": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794933083.2489681,
+"t0": 1794932429.0,
+"tgtext": "Watcher Guru News Terminal is Officially Live.\n\nMarket-moving headlines, the second it breaks, in one feed.\n\nSign up now: https://watcherguru.com",
+"title": "Watcher Guru News Terminal is Officially Live.",
+"url": "https://t.me/WatcherGuru/16104",
 "urls": []
 },
 "87ea39fd2016": {
@@ -2131,7 +2131,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2755,11 +2755,11 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794928867.0,
-"tgtext": "\ud83d\udea8 JUST IN: Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"\n\n@WatcherGuru",
-"title": "Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.",
-"url": "https://t.me/cointelegraph/73340",
+"tgtext": "\ud83d\udea8 JUST IN: Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.\n\n@WatcherGuru\nJUST IN: Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: Former NVIDIA CEO Jensen Huang says he is willing to return as CEO if the company's board asks him to. In his first public statement since resigning, Huang acknowledged calls from employees, investors, partners and customers for his return. \n\nHe said he would be honored to resume the role if the board determines it is in the company's best interests.\n\nNews | Markets | YouTube",
+"title": "Former NVIDIA CEO Jensen Huang says he is willing to return as CEO if the company's board asks him to. In his first public statement since resigning, Huang acknowledged calls from employees, investors, partners and custo",
+"url": "https://t.me/cointelegraph/73346",
 "urls": []
 },
 "ca5ea31d98a1": {
@@ -3420,7 +3420,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794923276.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
 "title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
@@ -3616,7 +3616,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794932264.3015769,
+"t": 1794933083.2489681,
 "t0": 1794929801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: A highly classified network used by the National Security Agency (NSA) for internal communications is down, according to CNN.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Highly classified US NSA national security communications network suffers outage.\n\n@WatcherGuru",
 "title": "A highly classified network used by the National Security Agency (NSA) for internal communications is down, according to CNN.",
@@ -3647,6 +3647,7 @@
 "03d4f3dc3cd7": 0.574,
 "04b4de175498": 0.042,
 "06444e46e7ea": 0.313,
+"0cbc410dcbb9": 0.84,
 "0d3165cabc6e": 0.473,
 "10200daeced7": 0.065,
 "12a160270acf": 0.131,
@@ -3654,33 +3655,32 @@
 "1674b68cf228": 0.008,
 "16c71e2a8608": 0.122,
 "17929023bc87": 0.068,
-"360f31e70b99": 0.07,
+"2b301fb27f67": 0.113,
+"33b813732f88": 0.169,
 "47fbbb4030b2": 0.165,
 "4981bb8f3c07": 0.058,
-"4a14e5c19d0e": 0.14,
 "527abd1409fc": 0.066,
+"52b1399dc8de": 0.415,
 "67535aec20b6": 0.026,
 "72dffbe504e7": 0.041,
 "738dd7649c51": 0.322,
 "773763f816e1": 0.226,
 "78febdcbfb85": 0.704,
 "84a17746e7d0": 0.125,
-"876159a3109f": 0.14,
+"876159a3109f": 0.034,
 "91a69ca88e0f": 0.285,
 "96c37959e1ef": 0.099,
 "9b68399d7691": 0.09,
-"9d26e6b114e2": 0.051,
-"a052cb1b6926": 0.892,
-"a78ee86876f5": 0.479,
+"a052cb1b6926": 0.815,
+"a78ee86876f5": 0.41,
 "a9d8ad7faa75": 0.15,
-"afe405b7ab34": 0.067,
+"ab2a0aaa4542": 0.307,
 "b004f9244448": 0.02,
+"bdcb088e1261": 0.164,
 "bf979451b188": 0.455,
 "c90282e265b3": 0.992,
-"cc2123d1b838": 0.223,
 "cff1874b1969": 0.013,
-"d7b2d5abc226": 0.087,
-"e12ce0eab32b": 0.078,
+"e12ce0eab32b": 0.083,
 "f44cdff3a8f4": 0.209,
 "f62d634cc244": 0.679,
 "ff53cc48e3ff": 0.891
@@ -5129,64 +5129,64 @@
 "top": [
 [
 "c90282e265b3",
-28,
-57,
+20,
+70,
 2
 ],
 [
-"a052cb1b6926",
-20,
-216,
+"8781b624d2e7",
+10,
+11,
 1
 ],
 [
 "ff53cc48e3ff",
 50,
-41,
+55,
 2
 ],
 [
 "0cbc410dcbb9",
-13,
-233,
+12,
+247,
 2
 ],
 [
-"5612a45d92d6",
-0,
-344,
-2
+"a052cb1b6926",
+18,
+230,
+1
 ],
 [
 "78febdcbfb85",
 30,
-67,
+80,
 3
 ],
 [
 "f62d634cc244",
 20,
-150,
+163,
 2
 ],
 [
 "03d4f3dc3cd7",
 16,
-170,
+184,
 1
 ],
 [
-"48a9f27ee9be",
-7,
-355,
-3
+"5612a45d92d6",
+0,
+358,
+2
 ],
 [
-"a78ee86876f5",
-25,
+"0d3165cabc6e",
 15,
+209,
 1
 ]
 ],
-"top_at": 1794932264.3015769
+"top_at": 1794933083.2489681
 }
