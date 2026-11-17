@@ -199,7 +199,7 @@ for _ in range(500):
 bpy.ops.object.light_add(type='SUN', location=(0, -10, 20)); L1 = bpy.context.object; L1.data.energy = 2.5; L1.rotation_euler = (.7, 0, .3)
 
 # ---------------------------------------------------------------- stations (x)
-X_Y, X_PC, X_BLK, X_ACC, X_LCK, X_SHOP, X_PX, X_MIN, X_CLK, X_COIN = 0, 40, 80, 120, 160, 200, 240, 280, 320, 360
+X_Y, X_PC, X_BLK, X_ACC, X_LCK, X_SHOP, X_PX, X_MIN, X_CLK, X_COIN = 0, 9, 18, 27, 36, 45, 54, 63, 72, 81   # close: the whip slides past the neighbours, never an empty screen
 GAP, BS = .9, .72                                                         # chain block spacing / size
 
 # ===== the Y: one gold trunk, a red (new v0.8) and a blue (old v0.7) branch that grow upward
@@ -259,7 +259,7 @@ for ang in (.75, -.75):
     bar.scale = (.22, .1, 3.0); bar.rotation_euler = (0, ang, 0); bar.parent = xx
     bar.data.materials.append(mat('xm', base=(0, 0, 0), emit=RED, es=4))
 pop(xx, t_kill, S(2) - .05, dur=.1)
-l_kill = text('KILLED', (X_Y, 0, 4.0), RED, 1.04); pop(l_kill, t_kill, S(2) - .05)
+l_kill = text('KILLED', (X_Y, 0, 4.0), RED, 1.04); pop(l_kill, t_kill, S(2) + .12)
 es_key(M_RED, t_kill - .02, 3); es_key(M_RED, t_kill + .25, .35); es_key(M_RED, S(6) - .1, .35); es_key(M_RED, S(6) + .1, 3)
 
 # ===== S2: the update - two computers, then a whole room of them
@@ -268,8 +268,8 @@ pc_old, ms_old = computer((X_PC + 1.6, 0, 1.4), BLUE, 'pcold')
 for root, body, colr in ((pc_new, 'v0.8\nNEW', WHITE), (pc_old, 'v0.7\nOLD', WHITE)):
     tx = text(body, (0, -.16, 0), colr, .46, check=False, parent=root)
 t_upd = Wd(2, 'update'); t_many = Wd(2, 'many')
-pop(pc_new, Wd(2, 'version') - .1, t_many - .05); pop(pc_old, Wd(2, 'version') + .15, t_many - .05)
-l_upd = text('THE UPDATE', (X_PC, 0, 4.0), WHITE, 0.81); pop(l_upd, S(2) + .05, t_many - .05)
+pop(pc_new, S(2) + .15, t_many - .05); pop(pc_old, S(2) + .35, t_many - .05)
+l_upd = text('THE UPDATE', (X_PC, 0, 4.0), WHITE, 0.81); pop(l_upd, S(2) - .3, t_many - .05)
 random.seed(11)
 room = []
 for r_ in range(3):
@@ -280,7 +280,7 @@ for r_ in range(3):
         o = bpy.context.object; o.scale = (1.35, .12, .9); o.data.materials.append(cm)
         o.modifiers.new('bv', 'BEVEL').width = .04
         pop(o, t_many + .05 * (r_ * 4 + k), S(3) - .05, dur=.15); room.append(o); PROPS.append(o)
-l_many = text('MOST STILL ON v0.7', (X_PC, 0, 4.0), BLUE, 0.65); pop(l_many, Wd(2, 'seven') - .3, S(3) - .05)
+l_many = text('MOST STILL ON v0.7', (X_PC, 0, 4.0), BLUE, 0.65); pop(l_many, Wd(2, 'seven') - .3, S(3) + .12)
 
 # ===== S3: one huge block falls in, full of transactions
 t_huge = Wd(3, 'huge'); t_arr = Wd(3, 'arrived')
@@ -296,9 +296,9 @@ random.seed(3)
 for _ in range(320):
     bpy.ops.mesh.primitive_cube_add(size=.12, location=(random.uniform(-1.1, 1.1), random.uniform(-1.1, 1.1), random.uniform(-1.1, 1.1)))
     q = bpy.context.object; q.parent = huge; q.data.materials.append(M_TX)
-huge.location = (X_BLK, 40, 1.2); huge.keyframe_insert('location', frame=F(t_huge - .5))   # flies in from the deep, stays in the safe middle
+huge.location = (X_BLK, 40, 1.2); huge.keyframe_insert('location', frame=F(S(3) - .3))   # flies in from the deep, stays in the safe middle
 huge.location = (X_BLK, 0, 1.2); huge.keyframe_insert('location', frame=F(t_arr + .05))
-pop(huge, t_huge - .5, S(4) - .05, dur=.05)
+pop(huge, S(3) - .3, S(4) - .05, dur=.05)
 es_key(M_HUGE, t_arr, 3.5); es_key(M_HUGE, t_arr + .08, 12); es_key(M_HUGE, t_arr + .5, 3.5)
 l_huge = text('ONE HUGE BLOCK', (X_BLK, 0, 4.0), WHITE, 0.78); pop(l_huge, t_arr + .05, Wd(3, 'touched') - .05)
 CNT = ['0', '1,000', '2,000', '3,000', '4,000', '5,000+']
@@ -306,12 +306,12 @@ t_c0, t_c1 = Wd(3, 'touched'), Wd(3, 'transactions') + .1
 for k, v in enumerate(CNT):
     a_ = t_c0 + (t_c1 - t_c0) * k / len(CNT); b_ = t_c0 + (t_c1 - t_c0) * (k + 1) / len(CNT) if k < len(CNT) - 1 else S(4) - .05
     o = text(v, (X_BLK, 0, 3.8), GOLD, .85); pop(o, a_, b_, dur=.06)
-l_txs = text('TRANSACTIONS', (X_BLK, 0, 3.05), WHITE, 0.49); pop(l_txs, t_c0, S(4) - .05)
+l_txs = text('TRANSACTIONS', (X_BLK, 0, 3.05), WHITE, 0.49); pop(l_txs, t_c0, S(4) + .12)
 
 # ===== S4: new computers accept it, old ones choke
 pc_a, ms_a = computer((X_ACC - 1.6, 0, .9), RED, 'pca')
 pc_b, ms_b = computer((X_ACC + 1.6, 0, .9), BLUE, 'pcb')
-for root in (pc_a, pc_b): pop(root, S(4) - .05, S(5) - .05)
+for root in (pc_a, pc_b): pop(root, S(4) - .3, S(5) + .12)
 text('v0.8', (0, -.16, 0), WHITE, .42, check=False, parent=pc_a)
 text('v0.7', (0, -.16, 0), WHITE, .42, check=False, parent=pc_b)
 t_acc, t_chk = Wd(4, 'accepted'), Wd(4, 'choked')
@@ -322,8 +322,8 @@ mini.keyframe_insert('location', frame=F(t_chk - .55)); mini.location = (X_ACC +
 scale_keys(mini, [(0, 0), (t_acc - .51, 0), (t_acc - .4, 1), (t_acc, .7), (t_acc + .15, 1), (t_chk - .05, 1), (t_chk + .1, 0)])
 col_key(ms_a, t_acc - .05, RED); col_key(ms_a, t_acc + .1, GREEN)
 col_key(ms_b, t_chk - .05, BLUE); col_key(ms_b, t_chk + .08, RED)
-l_ok = text('ACCEPTED', (X_ACC - 1.6, 0, -1.0), GREEN, 0.49); pop(l_ok, t_acc, S(5) - .05)
-l_err = text('ERROR', (X_ACC + 1.6, 0, -1.0), RED, 0.59); pop(l_err, t_chk, S(5) - .05)
+l_ok = text('ACCEPTED', (X_ACC - 1.6, 0, -1.0), GREEN, 0.49); pop(l_ok, t_acc, S(5) + .12)
+l_err = text('ERROR', (X_ACC + 1.6, 0, -1.0), RED, 0.59); pop(l_err, t_chk, S(5) + .12)
 for k in range(8):                                                          # the old computer shakes
     pc_b.location = (X_ACC + 1.6 + (.12 if k % 2 else -.12), 0, .9); pc_b.keyframe_insert('location', frame=F(t_chk + k * .05))
 pc_b.location = (X_ACC + 1.6, 0, .9); pc_b.keyframe_insert('location', frame=F(t_chk + .45))
@@ -335,17 +335,17 @@ for r_ in range(4):
     for k in range(5):
         m = mat('lk', base=(.2, .22, .26), metal=.8, rough=.3, emit=WHITE, es=.4)
         o = padlock((X_LCK - 2.6 + k * 1.3, 0, 2.6 - r_ * 1.15), m, 1.0)
-        pop(o, S(5) + .02 * (r_ * 5 + k), S(6) - .05, dur=.12)
+        pop(o, S(5) - .3 + .02 * (r_ * 5 + k), S(6) - .05, dur=.12)
         tt = Wd(5, 'needed') + (t_out - Wd(5, 'needed')) * (r_ * 5 + k) / 20
         col_key(m, tt - .05, WHITE); es_key(m, tt - .05, .4); col_key(m, tt + .05, RED); es_key(m, tt + .05, 3)
         wall.append(o)
         bpy.context.view_layer.update()
 l_10k = text('10,000+ LOCKS NEEDED', (X_LCK, 0, 4.0), WHITE, 0.59); pop(l_10k, Wd(5, 'needed') - .4, t_out - .05)
-l_out = text('OUT OF LOCKS', (X_LCK, 0, 4.0), RED, 0.81); pop(l_out, t_out, S(6) - .05)
+l_out = text('OUT OF LOCKS', (X_LCK, 0, 4.0), RED, 0.81); pop(l_out, t_out, S(6) + .12)
 
 # ===== S6 back on the Y: two Bitcoins at once
-l_new = text('NEW', (BX['r'], 0, 4.0), RED, 0.65); pop(l_new, S(6) + .1, S(7) - .05)
-l_old = text('OLD', (BX['b'], 0, 4.0), BLUE, 0.65); pop(l_old, S(6) + .1, S(7) - .05)
+l_new = text('NEW', (BX['r'], 0, 4.0), RED, 0.65); pop(l_new, S(6) + .1, S(7) + .12)
+l_old = text('OLD', (BX['b'], 0, 4.0), BLUE, 0.65); pop(l_old, S(6) + .1, S(7) + .12)
 
 # ===== S7: Mt. Gox and BitPay shut deposits
 t_shut = Wd(7, 'shut')
@@ -355,15 +355,16 @@ for k, (nm, xo) in enumerate((('MT. GOX', -1.65), ('BITPAY', 1.65))):
     b_.data.materials.append(M_CASE); PROPS.append(b_)
     bpy.ops.mesh.primitive_plane_add(size=1, location=(0, -.08, -.35)); door = bpy.context.object
     door.scale = (2.2, 1.9, 1); door.rotation_euler = (math.pi / 2, 0, 0); door.parent = root
-    door.data.materials.append(mat('door', base=(0, 0, 0), emit=(1, .85, .5), es=1.2))
+    door.data.materials.append(mat('door', base=(0, 0, 0), emit=(1, .75, .35), es=.45))
     text(nm, (0, -.12, 1.05), WHITE, .5, check=False, parent=root)
     sh = bpy.data.objects.new('shut', None); sc.collection.objects.link(sh); sh.parent = root; sh.location = (0, -.16, 2.5)
     bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 0, 0)); s_ = bpy.context.object; s_.scale = (2.3, .05, 2.0); s_.parent = sh
     s_.data.materials.append(mat('shm', base=(.25, .26, .3), metal=.9, rough=.4))
     text('PAUSED', (0, -.06, 0), RED, .52, check=False, parent=sh)
     sh.keyframe_insert('location', frame=F(t_shut + k * .15)); sh.location = (0, -.16, -.35); sh.keyframe_insert('location', frame=F(t_shut + .25 + k * .15))
-    pop(root, S(7) + .05 + k * .2, S(8) - .05)
-l_dep = text('DEPOSITS SHUT', (X_SHOP, 0, 4.0), RED, 0.72); pop(l_dep, Wd(7, 'deposits') - .1, S(8) - .05)
+    pop(sh, t_shut + k * .15 - .02, None, dur=.04)                         # the shutter only exists once it slams down
+    pop(root, S(7) - .3 + k * .1, S(8) + .12)
+l_dep = text('DEPOSITS SHUT', (X_SHOP, 0, 4.0), RED, 0.72); pop(l_dep, Wd(7, 'deposits') - .1, S(8) + .12)
 
 # ===== S8: the price falls off a cliff
 pts = [(-3, -.2), (-2.4, .3), (-1.8, .0), (-1.2, .5), (-.6, .2), (0, .6), (.5, -.8), (1.0, -1.6), (1.5, -2.0), (2.1, -2.1), (2.8, -2.25)]
@@ -372,11 +373,11 @@ sp = cu.splines.new('POLY'); sp.points.add(len(pts) - 1)
 for k, (x, z) in enumerate(pts): sp.points[k].co = (x * .66, 0, z, 1)
 px = bpy.data.objects.new('px', cu); sc.collection.objects.link(px); px.location = (X_PX, 0, 1.5)
 px.data.materials.append(mat('pxm', base=(0, 0, 0), emit=RED, es=3.5)); PROPS.append(px)
-cu.bevel_factor_end = 0; cu.keyframe_insert('bevel_factor_end', frame=F(S(8) + .05))
+cu.bevel_factor_end = .1; cu.keyframe_insert('bevel_factor_end', frame=F(S(8) - .3))
 cu.bevel_factor_end = .55; cu.keyframe_insert('bevel_factor_end', frame=F(Wd(8, 'price')))
 cu.bevel_factor_end = 1; cu.keyframe_insert('bevel_factor_end', frame=F(Wd(8, 'percent') + .1))
-pop(px, S(8), S(9) - .05, dur=.05)
-l_24 = text('-24%', (X_PX, 0, 3.8), RED, 1.1); pop(l_24, Wd(8, 'twentyfour'), S(9) - .05)
+pop(px, S(8) - .3, S(9) - .05, dur=.05)
+l_24 = text('-24%', (X_PX, 0, 3.8), RED, 1.1); pop(l_24, Wd(8, 'twentyfour'), S(9) + .12)
 
 # ===== S9: miners switch back to the old version
 t_ask = Wd(9, 'asked')
@@ -390,13 +391,13 @@ for k in range(5):
         fan.rotation_euler = (math.pi / 2, 0, 0); fan.parent = root; fan.data.materials.append(m)
     bpy.ops.mesh.primitive_cube_add(size=1, location=(0, -.46, -.95)); led = bpy.context.object; led.scale = (.8, .02, .1); led.parent = root
     led.data.materials.append(m)
-    pop(root, S(9) + .04 * k, S(10) - .05, dur=.15)
+    pop(root, S(9) - .3 + .04 * k, S(10) - .05, dur=.15)
     tt = Wd(9, 'back') - .2 + k * (E(9) - Wd(9, 'back')) / 5
     col_key(m, tt - .05, RED); col_key(m, tt + .1, BLUE)
     root.rotation_euler = (0, 0, 0); root.keyframe_insert('rotation_euler', frame=F(tt - .05))
     root.rotation_euler = (0, 0, math.pi * 2); root.keyframe_insert('rotation_euler', frame=F(tt + .35))
 l_ask = text('DEVELOPERS ASK MINERS', (X_MIN, 0, 4.0), WHITE, 0.55); pop(l_ask, t_ask - .1, Wd(9, 'back') - .25)
-l_sw = text('SWITCH BACK TO v0.7', (X_MIN, 0, 4.0), BLUE, 0.59); pop(l_sw, Wd(9, 'back') - .2, S(10) - .05)
+l_sw = text('SWITCH BACK TO v0.7', (X_MIN, 0, 4.0), BLUE, 0.59); pop(l_sw, Wd(9, 'back') - .2, S(10) + .12)
 
 # ===== S10: six hours on the clock, then the old chain wins
 t_six = Wd(10, 'six'); t_old = Wd(10, 'old')
@@ -413,9 +414,9 @@ bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 0, .65)); hd = bpy.context.
 hd.data.materials.append(mat('hd', base=(0, 0, 0), emit=GOLD, es=3.2))
 hand.rotation_euler = (0, 0, 0); hand.keyframe_insert('rotation_euler', frame=F(S(10)))
 hand.rotation_euler = (0, math.pi, 0); hand.keyframe_insert('rotation_euler', frame=F(t_old - .3))   # 6 hours on a 12-hour dial = half a turn
-pop(clk, S(10), t_old - .35, dur=.15)
+pop(clk, S(10) - .3, t_old - .35, dur=.15)
 l_6h = text('6 HOURS LATER', (X_CLK, 0, 4.0), WHITE, 0.75); pop(l_6h, t_six - .05, t_old - .35)
-l_win = text('OLD CHAIN WINS', (X_Y, 0, 4.0), BLUE, 0.75); pop(l_win, Wd(10, 'won') - .1, S(11) - .05)
+l_win = text('OLD CHAIN WINS', (X_Y, 0, 4.0), BLUE, 0.75); pop(l_win, Wd(10, 'won') - .1, S(11) + .12)
 
 # ===== S11: the 24 blocks of the new chain fall away
 t_wipe = Wd(11, 'wiped')
@@ -426,7 +427,7 @@ for k, o in enumerate(reversed(BR['r'])):
     o.location = (x - .3, y + 7, z - 1.2); o.keyframe_insert('location', frame=F(t0 + 1.0))   # tumbles away into the dark, not down over the captions
     o.rotation_euler = (random.uniform(-2, 2), random.uniform(-2, 2), 0); o.keyframe_insert('rotation_euler', frame=F(t0 + 1.0))
     scale_keys(o, [(t0 + .35, 1 if o.scale[0] > .5 else 1e-4), (t0 + .75, 0)])
-l_24b = text('24 BLOCKS ERASED', (X_Y, 0, 4.0), RED, 0.68); pop(l_24b, Wd(11, 'twentyfour'), S(12) - .05)
+l_24b = text('24 BLOCKS ERASED', (X_Y, 0, 4.0), RED, 0.68); pop(l_24b, Wd(11, 'twentyfour'), S(12) + .12)
 
 # ===== S12: the same $10,000 spent twice
 t_same, t_twice = Wd(12, 'same'), Wd(12, 'twice')
@@ -436,18 +437,20 @@ for k in range(2):
     o = bpy.context.object; o.rotation_euler = (math.pi / 2, 0, 0); o.data.materials.append(M_COIN); o.modifiers.new('bv', 'BEVEL').width = .04
     coins.append(o); PROPS.append(o)
     text('$', (0, 0, -.1), (1, .85, .3), .7, check=False, parent=o).rotation_euler = (0, 0, 0)
-pop(coins[0], S(12) + .05, S(13) - .05); pop(coins[1], t_twice - .05, S(13) - .05, dur=.05)
+pop(coins[0], S(12) - .3, S(13) + .12); pop(coins[1], t_twice - .05, S(13) - .05, dur=.05)
 for o, xo in ((coins[0], -1.6), (coins[1], 1.6)):
     o.location = (X_COIN, 0, 1.9); o.keyframe_insert('location', frame=F(t_twice))
     o.location = (X_COIN + xo, 0, .3); o.keyframe_insert('location', frame=F(t_twice + .5))
     o.rotation_euler = (math.pi / 2, 0, 0); o.keyframe_insert('rotation_euler', frame=F(S(12)))
     o.rotation_euler = (math.pi / 2, 0, math.pi * 2); o.keyframe_insert('rotation_euler', frame=F(t_twice + .5))
 for nm, xo in (('OKPAY', -1.6), ('WALLET 2', 1.6)):
-    o = text(nm, (X_COIN + xo, 0, -1.1), WHITE, .45); pop(o, t_twice + .3, S(13) - .05)
+    o = text(nm, (X_COIN + xo, 0, -1.1), WHITE, .45); pop(o, t_twice + .3, S(13) + .12)
 l_10k = text('$10,000', (X_COIN, 0, 3.85), GOLD, 0.8); pop(l_10k, Wd(12, 'ten') - .05, t_twice - .05)
-l_x2 = text('$10,000 x2', (X_COIN, 0, 3.85), GOLD, 0.8); pop(l_x2, t_twice, S(13) - .05)
+l_x2 = text('$10,000 x2', (X_COIN, 0, 3.85), GOLD, 0.8); pop(l_x2, t_twice, S(13) + .12)
 
 # ===== S13: back to one chain - loops to the start
+l_one2 = text('ONE BLOCK', (X_Y, 0, 4.0), GOLD, .78); pop(l_one2, Wd(13, 'one') - .05, Wd(13, 'two') - .05)
+l_twob = text('TWO BITCOINS', (X_Y, 0, 4.0), WHITE, .72); pop(l_twob, Wd(13, 'two') - .02, Wd(13, 'bug') - .08)
 l_bug = text('BUG?', (X_Y - 1.5, 0, 4.0), WHITE, 0.78); pop(l_bug, Wd(13, 'bug') - .05, DUR)
 l_warn = text('WARNING?', (X_Y + 1.5, 0, 4.0), RED, 0.68); pop(l_warn, Wd(13, 'warning') - .05, DUR)
 for o in BR['b']: pass                                                     # the old chain stays: it is today's Bitcoin
