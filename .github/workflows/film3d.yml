@@ -59,8 +59,12 @@ jobs:
           ls parts | sort | sed "s/^/file 'parts\//; s/$/'/" > list.txt; cat list.txt
           ffmpeg -v error -y -f concat -safe 0 -i list.txt -c:v libx264 -crf 17 -preset slow -pix_fmt yuv420p -movflags +faststart $J/film.mp4
           ffprobe -v error -show_entries format=duration:stream=width,height,nb_frames -of compact $J/film.mp4
+          # Nov 17: the 30 MB film goes to its own 'films' branch, never main (big files on main slowed every bot sync until it crashed)
           git config user.name chain-radar; git config user.email noreply@github.com
-          git add -f $J/film.mp4 && git commit -qm "film3d ${{ inputs.job }} [skip ci]" && for i in 1 2 3 4 5; do git pull --rebase -q -X theirs && git push -q && break; sleep 4; done
+          mkdir -p /tmp/fb && cd /tmp/fb && git init -q && git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+          (git fetch -q --depth 1 origin films && git checkout -q -b films FETCH_HEAD) || git checkout -q --orphan films
+          cp $GITHUB_WORKSPACE/$J/film.mp4 ${{ inputs.job }}.mp4 && git add ${{ inputs.job }}.mp4
+          git -c user.name=chain-radar -c user.email=noreply@github.com commit -qm "film ${{ inputs.job }}" && git push -q origin films
       - name: start the Short render
         if: inputs.render == 'yes'
         run: |

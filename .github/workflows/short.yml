@@ -33,6 +33,11 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libraqm0 fonts-dejavu-core
           pip install -q numpy opencv-python-headless pillow requests soundfile
+      - name: get the 3D film (render stage, film style)
+        if: github.event.inputs.stage == 'render'
+        run: |
+          J=jobs/${{ github.event.inputs.job }}
+          if grep -q '"film"' $J/storyboard.json && [ ! -f $J/film.mp4 ]; then git fetch -q --depth 1 origin films && git show FETCH_HEAD:${{ github.event.inputs.job }}.mp4 > $J/film.mp4 && ls -la $J/film.mp4 || rm -f $J/film.mp4; fi
       - name: get the held video (send stage)
         if: github.event.inputs.stage == 'send'
         run: |

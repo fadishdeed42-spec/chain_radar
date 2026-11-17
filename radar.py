@@ -624,7 +624,13 @@ def git_sync(force=False):
     if not force and time.time() - _last_sync[0] < 60:
         return
     _last_sync[0] = time.time()
-    sh = lambda c: subprocess.run(c, shell=True, capture_output=True, text=True, timeout=60)
+    def sh(c):                                                        # Nov 17: a slow pull must never kill the bot (it crashed every ~11 min)
+        try:
+            return subprocess.run(c, shell=True, capture_output=True, text=True, timeout=150)
+        except Exception as e:
+            print('git_sync slow/failed:', repr(e)[:120])
+            subprocess.run('git rebase --abort', shell=True, capture_output=True)
+            return subprocess.CompletedProcess(c, 1)
     sh('git config user.name chain-radar; git config user.email noreply@github.com')
     sh('for f in state/tg.json state/seen.json state/listen.log state/brain.json state/model.json state/shorts.json state/studio.json; do [ -f $f ] && git add $f; done; '
        '[ -d jobs ] && git add jobs; git commit -qm "listen state [skip ci]"')
