@@ -457,10 +457,10 @@
 "srcs": [
 "Coinpedia",
 "Cointelegraph",
-"Dealroom",
-"The Crypto Times"
+"Cryptopolitan",
+"Dealroom"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794886209.0,
 "tgtext": "\ud83d\udea8 ALERT: Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.\n\nNews | Markets | YouTube",
 "title": "Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.",
@@ -697,7 +697,7 @@
 "Coinfomania",
 "www.tokenpost.com"
 ],
-"t": 1794906913.963854,
+"t": 1794907421.3920538,
 "t0": 1794901626.0,
 "tgtext": "",
 "title": "Analyst Tracks 74,881 Ether Moved From Address Tied to Binance Hack",
@@ -786,7 +786,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794894645.0,
 "tgtext": "",
 "title": "Cathie Wood's ARK Sells Solana And Ethereum Staking Funds, Buys Three Crypto Stocks Amid Bitcoin Slide",
@@ -803,7 +803,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794893843.0,
 "tgtext": "",
 "title": "Wells Fargo's bitcoin ETF holdings now rival Tesla and SpaceX's combined $2 billion",
@@ -985,7 +985,7 @@
 "FinanceFeeds",
 "Wu Blockchain"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794889997.0,
 "tgtext": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings\n\nThe U.S. Attorney's Office for the Southern District of New York announced that former Robinhood software engineer Huaisong Xiang pleaded guilty to wire fraud for using confidential crypto listing information to trade perpetual futures on Hyperliquid. Between 2025 and 2026, Xiang repeatedly traded tokens ahead of their listing announcements on Robinhood Crypto, the digital asset trading arm of the U.S. brokerage, earning $125,523 in illicit profits. He agreed to forfeit the proceeds and faces up to 20 years in prison, with sentencing scheduled for February 25, 2027. \u2014 link",
 "title": "Former Robinhood Engineer Faces Up to 20 Years in Prison After Admitting Crypto Insider Trading",
@@ -1098,7 +1098,7 @@
 "BeInCrypto",
 "Yahoo Finance"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794899088.0,
 "tgtext": "",
 "title": "Tether\u2019s Bitcoin Firm Bought the Dip While Its Own Stock Sank",
@@ -1264,7 +1264,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1442,7 +1442,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794889795.0,
 "tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
 "title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
@@ -1681,6 +1681,19 @@
 "https://cryptoslate.com/robot-code-runs-without-ai-calling-the-shots/"
 ]
 },
+"88053a11a2c0": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794907725.2390676,
+"t0": 1794893876.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
+"title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
+"url": "https://t.me/cointelegraph/73334",
+"urls": []
+},
 "89ec0cae5dcb": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -1879,19 +1892,6 @@
 "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810"
 ]
 },
-"94609525df62": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Hokanews"
-],
-"t": 1794734543.4833508,
-"t0": 1794720660.0,
-"tgtext": "",
-"title": "Fake Microsoft 365 Outage Emails Exploit Real Service Disruption to Steal User Credentials",
-"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1OOEFnaTNLdUN1NTBPbldVeGozbnlGSTUtMExsSWtyX2l5dWtBUmFMMGQwdF91Q09RV2pDYW00ejBLSkRiU05uX1pUN3FBYTNMSVRRc3ZCdHdjVzN2THRfUEx2WFJ0eS1hOTRmMHJzclNEY3VVWmptUk9n?oc=5",
-"urls": []
-},
 "97120ed2e8ab": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -1959,7 +1959,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794906913.963854,
+"t": 1794907725.2390676,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2597,22 +2597,6 @@
 "url": "https://t.me/wublockchainenglish/26848",
 "urls": []
 },
-"ca11e2add864": {
-"coin": "",
-"src": "\ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
-"srcs": [
-"Cointelegraph",
-"\ud30c\uc774\ub0b8\uc15c\ub274\uc2a4"
-],
-"t": 1794734847.8997302,
-"t0": 1794723128.0,
-"tgtext": "",
-"title": "Coinone Customer Data Leaked in Hack of Customer-Service Contractor [Crypto Briefing]",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80SldhWFg5STZGYmRSaGdkQklMZzdLdzRIYThrWlFPRXRhTEo5S3o3Q2hhWjktVHRSYWhNLXR1MGgxSzY2cE5EU2k4YkpwMXhhWEVoc0hRb2g?oc=5",
-"urls": [
-"https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "ca5ea31d98a1": {
 "coin": "solana",
 "src": "Lookonchain",
@@ -2717,6 +2701,23 @@
 "title": "REKT: We just saw another $1.23B in long liquidations in just 24 hours.",
 "url": "https://t.me/cointelegraph/73300",
 "urls": []
+},
+"d313f36ab402": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"CoinDesk",
+"Wu Blockchain",
+"www.tokenpost.com"
+],
+"t": 1794907725.2390676,
+"t0": 1794904279.0,
+"tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
+"title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
+"url": "https://t.me/wublockchainenglish/26858",
+"urls": [
+"https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
+]
 },
 "d5a7b8951ddf": {
 "coin": "aster-2",
@@ -3499,44 +3500,44 @@
 "probs": {
 "02b242a04870": 0.039,
 "02c4da7038c7": 0.103,
+"09bece7da30a": 0.076,
 "0a7236320ff9": 0.093,
 "0cb77facdc0d": 0.031,
 "1c09f68801ce": 0.144,
-"20b067b83d0a": 0.086,
-"22c09adf26e8": 0.624,
-"25108b171716": 0.025,
+"20b067b83d0a": 0.048,
+"22c09adf26e8": 0.61,
 "2f437b87882f": 0.156,
 "360634da4996": 0.086,
 "37e67a81b030": 0.069,
-"3b43f850596f": 0.072,
-"3be611f4986e": 0.429,
+"3b43f850596f": 0.106,
 "3d03c71886e6": 0.049,
 "3e69c3e23a2d": 0.017,
-"42ae29d3805b": 0.065,
+"411f4625de95": 0.034,
+"42ae29d3805b": 0.125,
 "435be5c9f400": 0.233,
 "4452a0feead3": 0.338,
 "49e8d9ebda30": 0.026,
 "5fd9a01f0fef": 0.239,
+"6711f3cf5672": 0.23,
 "6c73d3da2d4b": 0.036,
 "6e7cd3ea0246": 0.418,
 "711805296e42": 0.045,
 "76bf2dc72ce5": 0.062,
-"819efbe0da13": 0.23,
 "8aad3c3e83fa": 0.048,
 "8b4942660fb8": 0.08,
 "91bbabb6735f": 0.043,
 "98ae04cfbd1a": 0.384,
 "99d5f054f92f": 0.081,
-"9d26e6b114e2": 0.047,
-"9d799837f8b3": 0.094,
+"9d799837f8b3": 0.063,
 "b12944aab86d": 0.07,
 "ba056fdb0cfc": 0.181,
 "cf457de6ab2c": 0.089,
-"d06a7ba7bdef": 0.043,
+"d313f36ab402": 0.988,
 "d421f3dccef8": 0.048,
 "dbc820ec3dea": 0.08,
 "ed029cabc3ad": 0.223,
-"fad8b6587e68": 0.051
+"fad8b6587e68": 0.051,
+"fc0d3b9733e9": 0.044
 },
 "sent": [
 {
@@ -5011,65 +5012,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"d313f36ab402",
+82,
+57,
+3
+],
+[
 "7da94308df5b",
 0,
-285,
+299,
 1
 ],
 [
 "56aabb0bdbb0",
-7,
-282,
+5,
+295,
 2
 ],
 [
 "22c09adf26e8",
-48,
-345,
+47,
+359,
 4
 ],
 [
-"3be611f4986e",
-61,
-88,
-2
-],
-[
 "6e7cd3ea0246",
-16,
-178,
+15,
+191,
 1
 ],
 [
 "98ae04cfbd1a",
 10,
-170,
+183,
 1
 ],
 [
 "4452a0feead3",
-62,
-218,
+61,
+231,
 3
+],
+[
+"88053a11a2c0",
+4,
+231,
+1
 ],
 [
 "5fd9a01f0fef",
 28,
-130,
+144,
 2
 ],
 [
 "435be5c9f400",
-23,
-204,
+21,
+218,
 2
-],
-[
-"819efbe0da13",
-25,
-7,
-1
 ]
 ],
-"top_at": 1794906913.963854
+"top_at": 1794907725.2390676
 }
