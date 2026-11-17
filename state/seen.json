@@ -310,7 +310,7 @@
 "Crypto News",
 "The Block"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794901157.0,
 "tgtext": "",
 "title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
@@ -604,7 +604,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794914758.0,
 "tgtext": "",
 "title": "New DeFi-yield generation targets \u2018scam-like\u2019 bank accounts that keep all the interest",
@@ -637,7 +637,7 @@
 "The Motley Fool",
 "Yahoo Finance"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794913500.0,
 "tgtext": "",
 "title": "Crypto Sell-Off: Is Bitcoin a Buy After Plunging Below $70,000 Last Friday?",
@@ -804,7 +804,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1794916185.9651594,
+"t": 1794916752.5195413,
 "t0": 1794915608.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -1143,7 +1143,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794912033.0,
 "tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
 "title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
@@ -1403,7 +1403,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -2039,7 +2039,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2208,9 +2208,10 @@
 "srcs": [
 "CoinDesk",
 "Cryptonews",
-"Lookonchain"
+"Lookonchain",
+"Pluang"
 ],
-"t": 1794915360.765088,
+"t": 1794917060.7353086,
 "t0": 1794907279.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
@@ -2263,6 +2264,20 @@
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-64000-tech"
 ]
+},
+"a9d8ad7faa75": {
+"coin": "solana",
+"src": "www.tokenpost.com",
+"srcs": [
+"Cryptonews.net",
+"www.tokenpost.com"
+],
+"t": 1794917060.7353086,
+"t0": 1794914808.0,
+"tgtext": "",
+"title": "Solana Hit 60,000 TPS During Selloff as Liquidations Reached About $20 Billion",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0S3p4dEdjNjJEX3BETVAwWWxPWjdLbUFhX1hTbFlDZWhuNEhGQmNLODlSR1NHVm5iUjBJY1NiZ1R3VlkyQ0dWeFdkNEVzMzJvUW81OVBYMzZqN2c?oc=5",
+"urls": []
 },
 "ab828351b8c3": {
 "coin": "",
@@ -2671,17 +2686,14 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
-"CryptoSlate",
 "Wu Blockchain"
 ],
-"t": 1794915360.765088,
+"t": 1794917060.7353086,
 "t0": 1794907467.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
 "url": "https://t.me/wublockchainenglish/26858",
-"urls": [
-"https://cryptoslate.com/hackers-found-a-way-to-steal-crypto-without-hacking-wallets-and-ledger-was-caught-in-the-attack/"
-]
+"urls": []
 },
 "c49858ac7e6b": {
 "coin": "",
@@ -2838,7 +2850,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794916185.9651594,
+"t": 1794916752.5195413,
 "t0": 1794904279.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -2957,7 +2969,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794916185.9651594,
+"t": 1794917060.7353086,
 "t0": 1794898560.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3283,7 +3295,7 @@
 "Cryptonews",
 "Lookonchain"
 ],
-"t": 1794916185.9651594,
+"t": 1794916752.5195413,
 "t0": 1794910332.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker has started laundering the 602,402 ETH ($1.09B) he holds!",
@@ -3627,46 +3639,46 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"09bece7da30a": 0.076,
-"12bc8aefa9e8": 0.06,
-"180e66965ad9": 0.252,
-"196e0b8c2427": 0.115,
-"2f437b87882f": 0.09,
-"33b813732f88": 0.257,
-"37c5f8a79115": 0.372,
-"3d03c71886e6": 0.049,
-"3e6b270ef11b": 0.031,
-"40c8a85aebfb": 0.123,
-"40fee8b2bfca": 0.382,
-"411f4625de95": 0.064,
-"5612a45d92d6": 0.045,
-"63a55c37293f": 0.068,
-"6711f3cf5672": 0.111,
-"69e94173a5d5": 0.063,
-"6c73d3da2d4b": 0.05,
-"721bbc845f89": 0.101,
-"7333b02d3cc4": 0.121,
-"76bf2dc72ce5": 0.086,
-"85284de8575d": 0.066,
-"8a3de7fa2b89": 0.111,
-"8aad3c3e83fa": 0.048,
-"8c1fcbbdec1e": 0.02,
-"8f8eb408919b": 0.184,
-"9d26e6b114e2": 0.085,
-"9d799837f8b3": 0.19,
-"9fef6772eec4": 0.179,
-"a5e4b65ec885": 0.074,
-"ba056fdb0cfc": 0.185,
-"c04a9e64091a": 0.013,
-"c5ad01ec39bc": 0.018,
-"cf457de6ab2c": 0.089,
-"d11cb9a5ec02": 0.07,
-"d313f36ab402": 0.941,
-"dbe933b31ccc": 0.825,
-"e2b340698b3b": 0.137,
-"eff77d78f3ba": 0.935,
-"f21c2a8aece6": 0.156,
-"f9cfba3797f3": 0.091
+"08440ab39ffb": 0.301,
+"0f212f6dcdbd": 0.102,
+"196e0b8c2427": 0.179,
+"33b813732f88": 0.367,
+"37c5f8a79115": 0.499,
+"3d03c71886e6": 0.079,
+"3e6b270ef11b": 0.051,
+"40c8a85aebfb": 0.19,
+"411f4625de95": 0.102,
+"520edb58be1e": 0.141,
+"5612a45d92d6": 0.074,
+"63a55c37293f": 0.11,
+"6711f3cf5672": 0.173,
+"69e94173a5d5": 0.102,
+"721bbc845f89": 0.159,
+"7333b02d3cc4": 0.187,
+"76bf2dc72ce5": 0.136,
+"85284de8575d": 0.106,
+"876159a3109f": 0.141,
+"8a3de7fa2b89": 0.173,
+"8c1fcbbdec1e": 0.034,
+"8f8eb408919b": 0.168,
+"9d26e6b114e2": 0.135,
+"9d799837f8b3": 0.282,
+"9fef6772eec4": 0.268,
+"a460393d9455": 0.971,
+"a5e4b65ec885": 0.118,
+"a9d8ad7faa75": 0.415,
+"aa8800ca2bed": 0.125,
+"ba056fdb0cfc": 0.275,
+"bdcb088e1261": 0.14,
+"c04a9e64091a": 0.054,
+"c47fe653e6fb": 0.913,
+"c5ad01ec39bc": 0.031,
+"cf457de6ab2c": 0.305,
+"d11cb9a5ec02": 0.112,
+"dbe933b31ccc": 0.888,
+"e2b340698b3b": 0.21,
+"f21c2a8aece6": 0.237,
+"f9cfba3797f3": 0.144
 },
 "sent": [
 {
@@ -5071,65 +5083,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"d313f36ab402",
-82,
-198,
+"a460393d9455",
+85,
+163,
 4
 ],
 [
-"eff77d78f3ba",
-43,
-98,
-2
+"c47fe653e6fb",
+54,
+160,
+1
 ],
 [
 "dbe933b31ccc",
-52,
-294,
+50,
+308,
 3
 ],
 [
 "6e7cd3ea0246",
 0,
-332,
+347,
 1
 ],
 [
 "98ae04cfbd1a",
 0,
-324,
+339,
 1
 ],
 [
 "59464786a8ab",
 10,
-69,
-1
-],
-[
-"40fee8b2bfca",
-40,
-10,
+84,
 1
 ],
 [
 "37c5f8a79115",
 28,
-45,
+59,
+2
+],
+[
+"180e66965ad9",
+9,
+265,
+2
+],
+[
+"a9d8ad7faa75",
+58,
+38,
 2
 ],
 [
 "33b813732f88",
 28,
-24,
+38,
 1
-],
-[
-"180e66965ad9",
-11,
-250,
-2
 ]
 ],
-"top_at": 1794916185.9651594
+"top_at": 1794917060.7353086
 }
