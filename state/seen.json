@@ -251,9 +251,10 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
+"Crypto Economy",
 "Watcher.Guru"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794855024.0,
 "tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
@@ -551,7 +552,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794857217.0,
 "tgtext": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed\n\nLighter said in its November 16 security incident report that an attacker exploited nonce reuse in unofficial signing code used by certain trading accounts to derive API private keys from public signatures. The attacker then created a public pool through a compromised account, transferred funds into the pool, and extracted assets by redeeming pool shares through an attacker-controlled account. Lighter confirmed that its protocol, smart contracts, infrastructure, and official SDKs were unaffected.\n\nThe incident triggered its smart contract-based Guardian mechanism, temporarily pausing withdrawals and allowing the Security Council to return approximately 5 million USDC to the affected trader. Withdrawals have since resumed, with pending requests being processed. Lighter has implemented wallet signature requirements for public pool transfers and made API key signatures non-public. It also plans to introduce IP allowlists, per-key permissions and limits, and proactively monitor and revoke API keys at risk from nonce reuse. \u2014 link",
 "title": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed",
@@ -1024,7 +1025,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794865133.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube\nBackpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link",
 "title": "The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.",
@@ -1250,7 +1251,7 @@
 "Decrypt",
 "Yahoo Finance"
 ],
-"t": 1794873667.4705958,
+"t": 1794874490.184344,
 "t0": 1794858581.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -1610,7 +1611,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -1810,7 +1811,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1794872325.2327468,
+"t": 1794874796.1609843,
 "t0": 1794861363.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: Why does BitMine see a SpaceX IPO-like trend in ETH ahead of Anthropic IPO?",
@@ -2111,7 +2112,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794873973.6660135,
+"t": 1794874490.184344,
 "t0": 1794852900.0,
 "tgtext": "",
 "title": "German Bundestag Lets Customs Freeze Crypto Over \u20ac100,000 Without a Criminal Case as the Bill Goes to the Bundesrat",
@@ -2597,7 +2598,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794867093.0,
 "tgtext": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
 "title": "United Airlines UAL experiences widespread system outage.",
@@ -2877,7 +2878,7 @@
 "Traders Union",
 "TradingView"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794867581.0,
 "tgtext": "",
 "title": "Binance hack may push institutions to outside custody, FalconX exec says",
@@ -2947,7 +2948,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794860949.0,
 "tgtext": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
 "title": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
@@ -3217,7 +3218,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794857712.0,
 "tgtext": "JUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "Nvidia founder Jensen Huang transferred billions in NVDA shares to his heirs months before he resigned as CEO.",
@@ -3293,7 +3294,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794873973.6660135,
+"t": 1794874796.1609843,
 "t0": 1794866350.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.",
@@ -3474,44 +3475,44 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"0aeb74aaaaa2": 0.056,
-"13b151f123e0": 0.917,
+"13b151f123e0": 0.952,
 "1a95ddf68b0e": 0.068,
-"1e076208eaae": 0.024,
+"1c331738b6bc": 0.033,
 "1f04dd287534": 0.125,
 "23905dee1f15": 0.068,
+"27a0f2f68bf8": 0.183,
 "2e2d8c657a3f": 0.036,
 "2f3f4c0ff27a": 0.023,
-"36b7871eb905": 0.011,
 "381a8153b3dd": 0.02,
-"39ed8a830d6d": 0.189,
-"3b0510f78e9d": 0.062,
 "44c76a9d29d9": 0.041,
 "4df022741de3": 0.015,
-"557b45025328": 0.008,
+"555022f4a52a": 0.084,
 "579afef88909": 0.784,
+"594a670aac76": 0.098,
 "5b69891378df": 0.216,
+"5c5ffc1383fe": 0.091,
 "67c7c9a06026": 0.19,
-"6c990f886746": 0.096,
+"6e1ef5e7c7db": 0.141,
 "78f7a83e386d": 0.07,
 "81de774abde0": 0.022,
 "854cb8eb4c66": 0.956,
 "8b3d3fe34e65": 0.125,
 "8bc1eedcea2c": 0.033,
-"9042dadb9508": 0.132,
-"99ac43d30096": 0.151,
+"9042dadb9508": 0.228,
+"a8925954a406": 0.019,
 "a8e3e661cfe7": 0.083,
-"aba2bf3609df": 0.466,
+"a916d35dff0d": 0.107,
+"a9f8f265789a": 0.184,
 "afa3663d51b6": 0.025,
-"b482d4b0d33c": 0.176,
-"b6bee07fa251": 0.024,
-"c3c8befea4e3": 0.173,
+"b1ce3461cf20": 0.051,
+"b6bee07fa251": 0.041,
+"c9029223859e": 0.057,
 "ca82d5910825": 0.291,
-"d4f7035631a2": 0.084,
-"ded29f778211": 0.013,
 "e0a943ce1d35": 0.308,
 "e4b5b7084a95": 0.345,
+"e66b4c7e9668": 0.028,
 "f66fd6aaf01d": 0.238,
+"f997a74f3536": 0.069,
 "fa40df5a7659": 0.018,
 "fd96eb69089f": 0.071
 },
@@ -5028,63 +5029,63 @@
 [
 "854cb8eb4c66",
 20,
-159,
+173,
 2
 ],
 [
 "13b151f123e0",
-24,
-316,
-2
+47,
+330,
+3
 ],
 [
 "579afef88909",
 20,
-147,
-2
-],
-[
-"aba2bf3609df",
-20,
-351,
+161,
 2
 ],
 [
 "e4b5b7084a95",
-18,
-217,
+16,
+231,
 1
 ],
 [
 "f48041ccfb4c",
 0,
-271,
+285,
 1
 ],
 [
 "e0a943ce1d35",
 63,
-107,
+120,
 3
 ],
 [
 "ca82d5910825",
 32,
-115,
+128,
 1
 ],
 [
 "f66fd6aaf01d",
 10,
-127,
+141,
 1
 ],
 [
 "296379b55b89",
 0,
-279,
+293,
 1
+],
+[
+"9042dadb9508",
+35,
+224,
+3
 ]
 ],
-"top_at": 1794873973.6660135
+"top_at": 1794874796.1609843
 }
