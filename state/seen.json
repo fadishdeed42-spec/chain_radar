@@ -59,7 +59,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -163,7 +163,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -178,7 +178,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794920541.0,
 "tgtext": "JUST IN: \ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
 "title": "\ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
@@ -401,23 +401,6 @@
 "title": "Bitcoin falls as low as $62,000 as forced liquidations mount",
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93WnlXQXRldU1KQ3FvYm9tcllYMmhTc2J4eFFTTm1yc2g4NWY2SmlYdDAwUERjTm9zQU1oallob2lOdTVlQzJpc1BCenQwLTNJM19WSUxUSjliQXN4ZmhiYnZKdktWOHp2d0RUa3B4RnA5YkgtYVVvUVhmWQ?oc=5",
 "urls": []
-},
-"1b483d2052b1": {
-"coin": "bitcoin",
-"src": "StreetInsider",
-"srcs": [
-"Decrypt",
-"StreetInsider",
-"Yahoo Finance"
-],
-"t": 1794753171.4754457,
-"t0": 1794732414.0,
-"tgtext": "",
-"title": "Bitcoin Price Prediction: Can BTC Reclaim $70K After a $1.4B Crypto ETF Exodus? Remittix RTX Is 10 Days From Launch",
-"url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNMEx4djcxOHZXeHFYa2M5enZqWkhfRWJWN0pKcTRvb0F5SGh4bXBpTmF5X3NLVExxQWd4NHNWNmZSSzhvVzB4dmVUWktYRG9oQk9rVGlMeVdzX0gtMXZtLVdoSWxBNHhKanotQ2VOc1FhNFZ3cGdtc0tWb2FVMFhqSGcyUVJDV1hobHV3dWJoTWh1NHg1ZTZiZUlXZHJERjhhYUNBWFhqMDlRWF9EbGJobTB5MkFtbDVrbVg2eVRTeVRSZ0FTOEdJM1AzUDBtcjV6VHRJY0xZaUtnMEJhUUVKajU1eFNmM2VWVFIwTkZoWkhKMkVtanRzSG5LeUdHNmNOSlpNclFNakVUNHQx?oc=5",
-"urls": [
-"https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
-]
 },
 "1db325059893": {
 "coin": "bitcoin",
@@ -706,12 +689,13 @@
 "coin": "ethereum",
 "src": "KuCoin",
 "srcs": [
+"Bitcoin News",
 "BleepingComputer",
 "Cointelegraph",
 "Decrypt",
 "KuCoin"
 ],
-"t": 1794919303.2265837,
+"t": 1794926262.327951,
 "t0": 1794907454.0,
 "tgtext": "",
 "title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
@@ -1031,7 +1015,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794922238.0,
 "tgtext": "JUST IN: Google and Amazon to own a combined 28% of Anthropic after its IPO.\n\n@WatcherGuru",
 "title": "Google and Amazon to own a combined 28% of Anthropic after its IPO.",
@@ -1165,7 +1149,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794925451.9275858,
+"t": 1794925958.798433,
 "t0": 1794912033.0,
 "tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
 "title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
@@ -1968,7 +1952,7 @@
 "Cryptonews.net",
 "TradingView"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794905141.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction as Tom Lee Sees SpaceX-Like Selloff Repeating Ahead of Anthropic IPO",
@@ -2183,7 +2167,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2274,7 +2258,7 @@
 "Lookonchain",
 "Pluang"
 ],
-"t": 1794925147.9100666,
+"t": 1794926262.327951,
 "t0": 1794907279.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "Ethereum Price and $1.16B Selling Threat: North Korea\u2019s Binance Hacker Moves $137M",
@@ -2724,7 +2708,7 @@
 "CryptoSlate",
 "Wu Blockchain"
 ],
-"t": 1794925147.9100666,
+"t": 1794926262.327951,
 "t0": 1794907467.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3463,7 +3447,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794925451.9275858,
+"t": 1794926262.327951,
 "t0": 1794923276.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
 "title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
@@ -3675,42 +3659,42 @@
 "06444e46e7ea": 0.487,
 "08440ab39ffb": 0.301,
 "0cbc410dcbb9": 0.938,
-"0d3165cabc6e": 0.655,
+"0d3165cabc6e": 0.579,
 "0f212f6dcdbd": 0.102,
 "12a160270acf": 0.188,
-"12bc8aefa9e8": 0.212,
+"12bc8aefa9e8": 0.274,
 "1542cce20df0": 0.244,
 "1674b68cf228": 0.012,
 "16c71e2a8608": 0.175,
 "196e0b8c2427": 0.104,
 "33b813732f88": 0.367,
 "37c5f8a79115": 0.347,
-"38ecbc6d1df0": 0.492,
+"38ecbc6d1df0": 0.644,
 "520edb58be1e": 0.141,
 "63a55c37293f": 0.247,
-"6711f3cf5672": 0.23,
+"6711f3cf5672": 0.451,
 "67535aec20b6": 0.072,
 "722570f0249e": 0.051,
-"7333b02d3cc4": 0.16,
 "744b57521a41": 0.09,
 "773763f816e1": 0.381,
 "84a17746e7d0": 0.031,
-"85284de8575d": 0.059,
 "876159a3109f": 0.141,
 "8f8eb408919b": 0.616,
+"91a69ca88e0f": 0.344,
 "96c37959e1ef": 0.144,
 "9d26e6b114e2": 0.077,
 "9fef6772eec4": 0.268,
 "a052cb1b6926": 0.916,
+"a460393d9455": 0.966,
 "a5e4b65ec885": 0.043,
-"a9d8ad7faa75": 0.349,
-"c5ad01ec39bc": 0.078,
-"cde6dc7bf786": 0.082,
-"d313f36ab402": 0.981,
+"a9d8ad7faa75": 0.105,
+"c47fe653e6fb": 0.919,
+"c5ad01ec39bc": 0.087,
+"d7b2d5abc226": 0.128,
 "e12ce0eab32b": 0.079,
 "e99bafe26586": 0.396,
-"eff77d78f3ba": 0.918,
-"f9cfba3797f3": 0.144
+"f9cfba3797f3": 0.082,
+"fed6a5a99a34": 0.116
 },
 "sent": [
 {
@@ -5150,65 +5134,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"d313f36ab402",
-61,
-353,
+"a460393d9455",
+67,
+316,
 4
 ],
 [
 "0cbc410dcbb9",
 20,
-120,
+133,
 2
 ],
 [
-"eff77d78f3ba",
-40,
-252,
-2
+"c47fe653e6fb",
+57,
+313,
+3
 ],
 [
 "a052cb1b6926",
 24,
-103,
+116,
 1
 ],
 [
 "f62d634cc244",
 10,
-36,
+50,
 1
 ],
 [
 "03d4f3dc3cd7",
 16,
-57,
+70,
 1
 ],
 [
-"0d3165cabc6e",
-18,
-82,
-1
+"38ecbc6d1df0",
+73,
+313,
+5
 ],
 [
 "8f8eb408919b",
-44,
-339,
+43,
+352,
 4
 ],
 [
 "52b1399dc8de",
 10,
-54,
+67,
 1
 ],
 [
-"59464786a8ab",
-5,
-224,
+"0d3165cabc6e",
+18,
+95,
 1
 ]
 ],
-"top_at": 1794925451.9275858
+"top_at": 1794926262.327951
 }
