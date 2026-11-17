@@ -102,7 +102,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794884976.0,
 "tgtext": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders\n\nTrezor, a leading cryptocurrency hardware wallet manufacturer, disclosed that a breach at shipping partner Skladon exposed personal information linked to approximately 27,000 orders placed between August 9 and November 7. Skladon notified Trezor on November 15 that attackers had accessed its systems and were believed to have exported customer names, phone numbers, addresses, emails and order details. The breach affected multiple countries but not U.S. customers. Trezor said its own systems and hardware wallets remained secure, warning users of phishing scams and potential physical security risks.https://x.com/Trezor/status/2122363569891135655?a=VEd-7HQE5FC-nrMNBqk&s=20 \u2014 link",
 "title": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders",
@@ -213,7 +213,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794882735.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 13,134 $ETH ($23.67M)!\n\nOver the past 6 days, these wallets have bought a total of 84,837 $ETH ($154M) at an average price of $1,931.\n\nThey still have $12.96M in stablecoins left to buy more.\nhttps://x.com/lookonchain/status/2122143774906438101",
 "title": "The Erik Voorhees-linked wallets bought another 13,134 ETH ($23.67M)!",
@@ -734,7 +734,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794885203.0,
 "tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
 "title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
@@ -796,7 +796,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794880971.0,
 "tgtext": "Whale 0x4b10 withdrew 5,500 $ETH ($9.95M) and 5M $WLD ($1.32M) from #Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x4b104057eaf94d8EC7C6b521E19724fe5064dD05",
 "title": "Whale 0x4b10 withdrew 5,500 ETH ($9.95M) and 5M WLD ($1.32M) from Binance over the past 2 days.",
@@ -824,12 +824,14 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794894001.7170367,
+"t": 1794900612.4059641,
 "t0": 1794880081.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.\n\nNews | Markets | YouTube",
 "title": "A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.",
 "url": "https://t.me/cointelegraph/73330",
-"urls": []
+"urls": [
+"https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "4988252e4e74": {
 "coin": "",
@@ -973,7 +975,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794889997.0,
 "tgtext": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings\n\nThe U.S. Attorney's Office for the Southern District of New York announced that former Robinhood software engineer Huaisong Xiang pleaded guilty to wire fraud for using confidential crypto listing information to trade perpetual futures on Hyperliquid. Between 2025 and 2026, Xiang repeatedly traded tokens ahead of their listing announcements on Robinhood Crypto, the digital asset trading arm of the U.S. brokerage, earning $125,523 in illicit profits. He agreed to forfeit the proceeds and faces up to 20 years in prison, with sentencing scheduled for February 25, 2027. \u2014 link",
 "title": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings",
@@ -1153,19 +1155,6 @@
 "url": "https://t.me/wublockchainenglish/26837",
 "urls": []
 },
-"64356914687a": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794727810.9871566,
-"t0": 1794706472.0,
-"tgtext": "It's liquidation day again!\n\nTrader 0xc05b got liquidated 7 times in the past 10 hours, with a total of 172 $BTC ($11.03M) and 2,984 $ETH ($5.44M) liquidated!\n\nhttps://hypurrscan.io/address/0xc05b532d9b4eff8c140ad5477dc87d5803b98951#txs\nhttps://x.com/lookonchain/status/2121081124336415037",
-"title": "It's liquidation day again!",
-"url": "https://t.me/lookonchainchannel/11069",
-"urls": []
-},
 "65a0cf002ffb": {
 "coin": "bitcoin",
 "src": "Cryptonews.net",
@@ -1264,7 +1253,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794899791.5992503,
+"t": 1794900917.061856,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1442,7 +1431,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794889795.0,
 "tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
 "title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
@@ -1566,7 +1555,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794880199.0,
 "tgtext": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
@@ -1958,7 +1947,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794898975.4032488,
+"t": 1794900917.061856,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2837,7 +2826,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794900095.903067,
+"t": 1794900917.061856,
 "t0": 1794881907.0,
 "tgtext": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom\n\nCrypto market maker Wintermute warned in its November 16 market report that the bear market is far from over, with Bitcoin falling 12.7% last week to around $65,400, below its 200-week moving average near $68,000. U.S. spot Bitcoin ETFs have recorded $1.9 billion in net outflows so far in 2026, compared with $21 billion in inflows in 2025, while stablecoin supply has shrunk by $14 billion to $16 billion over the past 30 days. Wintermute said recent liquidations do not signal a market bottom, as rebounds appear driven by short covering rather than fresh capital. The firm warned Bitcoin could fall into the $50,000s and would reconsider its defensive stance only if BTC reclaimed $68,000 alongside renewed ETF inflows. \u2014 link",
 "title": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom",
@@ -3231,19 +3220,6 @@
 "https://cryptoslate.com/jensen-huang-has-just-14-chance-of-nvidia-return-this-year-despite-trump-backing/"
 ]
 },
-"f2f0879b5c86": {
-"coin": "",
-"src": "Coin Gabbar",
-"srcs": [
-"Coin Gabbar"
-],
-"t": 1794728115.2301319,
-"t0": 1794724200.0,
-"tgtext": "",
-"title": "Kava Lend Exploit: Why KAVA Crashed 48% Despite Team\u2019s Safety Claim",
-"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdzZLYWtTUS1NZzlSSnBsMnRLallBQmF5ZkpOc2hxUG5nY0pZT0R1X1pKQU8tX0xGQUhob29VU3lxREpPanZfOTNFN3JpLTFIMHJONF9HVUVLNVNURjBrOVBXM0NvZkx5MW9XVm5WSTVmWnJraVVWU0lDdW9hd0FuemV3Qkx5OFVOZEhYdU9PLVV3S1Vy?oc=5",
-"urls": []
-},
 "f3f597478acb": {
 "coin": "bitcoin",
 "src": "Crypto News",
@@ -3257,21 +3233,6 @@
 "tgtext": "",
 "title": "Bitcoin price falls to three-month low: Is $60K the next stop?",
 "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aZ0F6UThiTEp2cVhxeGZoSm13MlRlZnRVRDV4Y29TSlh6T1pnZGRXSEJBVllPZUFmenM1Uy1MbnZiZ2xqTnhQR0lfUUZEcU1RNlNxbHJVeUJFRVJ5djJxOEF5d0hJMmtqVTRmZjQxcWRPVVBuaWNCUzlhUWw?oc=5",
-"urls": []
-},
-"f40cafb6f148": {
-"coin": "",
-"src": "TradingView",
-"srcs": [
-"OneBullEx",
-"TradingView",
-"Wu Blockchain"
-],
-"t": 1794727501.8972757,
-"t0": 1794706140.0,
-"tgtext": "Tom Lee: AI Stock Selloff, Anthropic IPO, and Post-Hack Fund Returns May Fuel Crypto Selling Pressure\n\nBitMine Chairman Tom Lee said recent crypto selling pressure may stem from margin calls triggered by the AI and semiconductor stock selloff, investors selling equities and crypto to fund purchases in Anthropic\u2019s upcoming IPO, and account holders converting returned funds from the $6.3 billion hack into cash or stablecoins. He added that concerns over AI\u2019s impact on cybersecurity and U.S. scrutiny of chip sales to Asia have further weighed on market sentiment. \u2014 link",
-"title": "Tom Lee: Crypto Market Pressure May Be Linked to AI Stock Selloffs, Anthropic IPO Funding and Hack-Related Fund Releases",
-"url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZTJOLTFyVjdGX21MYW5aOS1SYndEMVllY0N2ZHJweDkzenoxeERqYU84UG1UanZOLW9faC1XRklBdU5vMnJlSUVzVWF0T3NSMFJTQXE0ZE5rd0Ryd3FNSVAtZWFfX04wYW1CR1UwYjdGZmp5ZGhFRW44V2hvMU9qaGtBeG5sQ1ppbEJyUGxoVFR3Rmh4VGR3cmVIcFJUNm45Q2dmbEkwY1NuNFV0RzE4SmptRXYzeXM4a0dHa2tWeGhhZ0l6bGJiQ3RFZ3VaQVBXazNQblVfSG1PdmRUYXhwbU5YekV2c3I0Tzg1RjFQOFdXbGh4T0F3a2FxbUVNenRMUEdZMnBmLUFMZWl6bkE?oc=5",
 "urls": []
 },
 "f48041ccfb4c": {
@@ -3594,43 +3555,43 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"022f75a87241": 0.049,
 "05fbbad6b658": 0.041,
+"07126509e6f7": 0.087,
 "077644104739": 0.559,
-"12496734b2d9": 0.109,
 "1c09f68801ce": 0.118,
 "20b067b83d0a": 0.027,
-"22c09adf26e8": 0.532,
-"23ec72a462be": 0.124,
-"25108b171716": 0.02,
+"22c09adf26e8": 0.269,
+"274ddead93e7": 0.026,
 "360634da4996": 0.113,
 "3ccc337b53e8": 0.721,
-"3e69c3e23a2d": 0.01,
-"42ae29d3805b": 0.041,
+"3e69c3e23a2d": 0.025,
+"42ae29d3805b": 0.201,
 "42b00d9c9daf": 0.856,
-"4452a0feead3": 0.119,
+"4452a0feead3": 0.114,
 "4760fc7766bf": 0.03,
 "49e8d9ebda30": 0.021,
 "56aabb0bdbb0": 0.442,
 "6c73d3da2d4b": 0.029,
 "6e7cd3ea0246": 0.441,
-"760e1064e004": 0.01,
-"76bf2dc72ce5": 0.05,
 "78f7a83e386d": 0.063,
+"7afbc281cbe3": 0.029,
 "7da94308df5b": 0.586,
 "88053a11a2c0": 0.238,
 "8b4942660fb8": 0.023,
 "91bbabb6735f": 0.035,
+"921b30c8cd3b": 0.265,
 "98ae04cfbd1a": 0.405,
 "99d5f054f92f": 0.242,
+"9d26e6b114e2": 0.068,
 "9d799837f8b3": 0.076,
-"ac8e8c595f95": 0.024,
 "aca0334f4082": 0.041,
 "b001aff6bbbd": 0.019,
 "b12944aab86d": 0.056,
 "c02900775e7f": 0.029,
+"c05db28003e7": 0.123,
+"c16d74bc1b64": 0.13,
+"c9029223859e": 0.036,
 "d06a7ba7bdef": 0.063,
-"d421f3dccef8": 0.038,
 "d6a438a1e688": 0.027,
 "dbc820ec3dea": 0.065,
 "fad8b6587e68": 0.041
@@ -5210,64 +5171,64 @@
 "top": [
 [
 "42b00d9c9daf",
-14,
-319,
-1
-],
-[
-"119860455eaa",
-2,
-289,
-1
-],
-[
-"e3d60bbf6d1b",
-2,
-352,
-1
-],
-[
-"3ccc337b53e8",
-23,
-248,
-1
-],
-[
-"7da94308df5b",
-10,
-172,
-1
-],
-[
-"077644104739",
-36,
-252,
-2
-],
-[
-"22c09adf26e8",
-24,
-231,
-3
-],
-[
-"80dff9c62521",
-0,
+12,
 332,
 1
 ],
 [
-"d99f642d492c",
+"119860455eaa",
 0,
 303,
 1
 ],
 [
+"3ccc337b53e8",
+22,
+262,
+1
+],
+[
+"7da94308df5b",
+10,
+185,
+1
+],
+[
+"077644104739",
+34,
+266,
+2
+],
+[
+"80dff9c62521",
+0,
+345,
+1
+],
+[
+"d99f642d492c",
+0,
+317,
+1
+],
+[
 "56aabb0bdbb0",
 10,
-168,
+182,
+1
+],
+[
+"6e7cd3ea0246",
+16,
+78,
+1
+],
+[
+"98ae04cfbd1a",
+10,
+70,
 1
 ]
 ],
-"top_at": 1794900095.903067
+"top_at": 1794900917.061856
 }
