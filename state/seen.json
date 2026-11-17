@@ -59,7 +59,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -163,7 +163,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -178,7 +178,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794928017.6584265,
+"t": 1794928526.8054988,
 "t0": 1794920541.0,
 "tgtext": "JUST IN: \ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
 "title": "\ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
@@ -644,7 +644,7 @@
 "The Motley Fool",
 "Yahoo Finance"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794913500.0,
 "tgtext": "",
 "title": "Bitcoin Could Lose $500 Billion In Value If Price Falls Below $40,000. What's Really Driving The Crash?",
@@ -696,7 +696,7 @@
 "Decrypt",
 "KuCoin"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794907454.0,
 "tgtext": "",
 "title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
@@ -1485,6 +1485,22 @@
 "url": "https://t.me/cointelegraph/73337",
 "urls": []
 },
+"78febdcbfb85": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"CoinDesk",
+"Watcher.Guru"
+],
+"t": 1794928833.0869615,
+"t0": 1794928260.0,
+"tgtext": "JUST IN: \ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.\n\n@WatcherGuru",
+"title": "\ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.",
+"url": "https://t.me/WatcherGuru/16098",
+"urls": [
+"https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed"
+]
+},
 "796ab11c086d": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2155,7 +2171,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2246,7 +2262,7 @@
 "Lookonchain",
 "Pluang"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794907279.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "Ethereum Price and $1.16B Selling Threat: North Korea\u2019s Binance Hacker Moves $137M",
@@ -2640,7 +2656,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794927617.0,
 "tgtext": "JUST IN: Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.\n\n@WatcherGuru",
 "title": "Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.",
@@ -2709,7 +2725,7 @@
 "Wu Blockchain",
 "Yahoo Tech"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794907467.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3449,7 +3465,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794928017.6584265,
+"t": 1794928833.0869615,
 "t0": 1794923276.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
 "title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
@@ -3660,11 +3676,10 @@
 },
 "probs": {
 "04b4de175498": 0.091,
-"06444e46e7ea": 0.383,
-"08440ab39ffb": 0.22,
+"06444e46e7ea": 0.313,
+"08440ab39ffb": 0.131,
 "0cbc410dcbb9": 0.908,
 "0d3165cabc6e": 0.473,
-"0f212f6dcdbd": 0.069,
 "12a160270acf": 0.131,
 "12bc8aefa9e8": 0.051,
 "1542cce20df0": 0.174,
@@ -3673,30 +3688,31 @@
 "37c5f8a79115": 0.918,
 "38ecbc6d1df0": 0.592,
 "3a1ac5d1513a": 0.187,
-"48a9f27ee9be": 0.44,
+"497b2aa98fd2": 0.117,
 "4981bb8f3c07": 0.058,
-"520edb58be1e": 0.097,
+"520edb58be1e": 0.14,
 "527abd1409fc": 0.066,
 "63a55c37293f": 0.103,
-"6711f3cf5672": 0.105,
 "67535aec20b6": 0.048,
 "72dffbe504e7": 0.041,
 "7333b02d3cc4": 0.425,
 "773763f816e1": 0.226,
-"84a17746e7d0": 0.021,
-"876159a3109f": 0.097,
+"78febdcbfb85": 0.631,
+"84a17746e7d0": 0.104,
+"85284de8575d": 0.045,
+"876159a3109f": 0.14,
 "91a69ca88e0f": 0.255,
 "96c37959e1ef": 0.099,
-"9fef6772eec4": 0.193,
+"9b68399d7691": 0.09,
+"9fef6772eec4": 0.113,
 "a052cb1b6926": 0.877,
 "a460393d9455": 0.949,
 "a9d8ad7faa75": 0.071,
 "b004f9244448": 0.037,
-"bf979451b188": 0.843,
+"bf979451b188": 0.525,
 "c47fe653e6fb": 0.889,
-"c5ad01ec39bc": 0.032,
 "d7b2d5abc226": 0.087,
-"e12ce0eab32b": 0.053,
+"e12ce0eab32b": 0.078,
 "e99bafe26586": 0.186,
 "f62d634cc244": 0.679
 },
@@ -5086,64 +5102,64 @@
 "top": [
 [
 "a460393d9455",
-63,
-346,
+62,
+359,
 4
 ],
 [
 "37c5f8a79115",
-47,
-242,
+45,
+256,
 3
 ],
 [
 "0cbc410dcbb9",
 20,
-163,
+176,
 2
 ],
 [
 "c47fe653e6fb",
-53,
-343,
+51,
+356,
 3
 ],
 [
 "a052cb1b6926",
 24,
-145,
-1
-],
-[
-"bf979451b188",
-18,
-7,
+159,
 1
 ],
 [
 "f62d634cc244",
 20,
-79,
+93,
+2
+],
+[
+"78febdcbfb85",
+28,
+10,
 2
 ],
 [
 "38ecbc6d1df0",
-69,
-343,
+67,
+356,
 5
 ],
 [
 "03d4f3dc3cd7",
 16,
-100,
+113,
 1
 ],
 [
-"0d3165cabc6e",
+"bf979451b188",
 18,
-125,
+20,
 1
 ]
 ],
-"top_at": 1794928017.6584265
+"top_at": 1794928833.0869615
 }
