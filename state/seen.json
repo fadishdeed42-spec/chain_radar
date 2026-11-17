@@ -127,19 +127,6 @@
 "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"09bdc960c323": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794702610.3255033,
-"t0": 1794681248.0,
-"tgtext": "\u26a1\ufe0f LATEST: Microsoft 365 is finally back after a global outage of more than 24 hours that hit government email in the US, Japan and Singapore.\n\nNews | Markets | YouTube",
-"title": "Microsoft 365 is finally back after a global outage of more than 24 hours that hit government email in the US, Japan and Singapore.",
-"url": "https://t.me/cointelegraph/73282",
-"urls": []
-},
 "0a448718cc98": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -251,10 +238,9 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
-"Crypto Economy",
 "Watcher.Guru"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794855024.0,
 "tgtext": "\ud83d\udea8 ALERT: Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
 "title": "Major US banks, including Bank of America, Wells Fargo, JPMorgan Chase, and U.S. Bancorp, are reportedly experiencing widespread service outages.",
@@ -287,19 +273,6 @@
 "tgtext": "",
 "title": "Binance Targets Full Withdrawal Restoration by Week\u2019s End After $6.3 Billion Hack",
 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYVhwU2V4OWw5aWJYdnJrVlJrRGF2ZV9qZC1SY3EtSHdHUmYyejV3eVlFSzNUM2tpZ2NqM3BuV1lPdzZiTTRkamNhdDdzckhucDJYSVBFYk9CakRCaTc0UTBOYmxfdG12YWNiVnAtMm9tTkpMZXQtdi1takZyTTR6eG1hbHFxTUk?oc=5",
-"urls": []
-},
-"158634a1882a": {
-"coin": "",
-"src": "24/7 Wall St.",
-"srcs": [
-"24/7 Wall St."
-],
-"t": 1794702305.9314456,
-"t0": 1794695820.0,
-"tgtext": "",
-"title": "What Is the Best Crypto to Buy With $1,000 During This Crash?",
-"url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0tiRXV1bS1RRWxTYTFzREJDd2p1d1dJdjdNZ3VTa1I0dXg4RVBXeUljenlTc1VkVHJkVW5kZnA4Q1F1UTRRYjM2X1h0aTVvbDlfU3Q0S3liZm41QThJS2RFaFMxQVUwNW5UWjEzUGVfbXk1cThhcGJTVkt3N19NRWpGUU5hT084Um9HdldTdDU3X0thZTdRancwRnNrQ0FIMGhvMHU3VTNrdmdHelBoMU96MWtNT1JK?oc=5",
 "urls": []
 },
 "16df0d5b03ba": {
@@ -552,7 +525,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794857217.0,
 "tgtext": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed\n\nLighter said in its November 16 security incident report that an attacker exploited nonce reuse in unofficial signing code used by certain trading accounts to derive API private keys from public signatures. The attacker then created a public pool through a compromised account, transferred funds into the pool, and extracted assets by redeeming pool shares through an attacker-controlled account. Lighter confirmed that its protocol, smart contracts, infrastructure, and official SDKs were unaffected.\n\nThe incident triggered its smart contract-based Guardian mechanism, temporarily pausing withdrawals and allowing the Security Council to return approximately 5 million USDC to the affected trader. Withdrawals have since resumed, with pending requests being processed. Lighter has implemented wallet signature requirements for public pool transfers and made API key signatures non-public. It also plans to introduce IP allowlists, per-key permissions and limits, and proactively monitor and revoke API keys at risk from nonce reuse. \u2014 link",
 "title": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed",
@@ -1025,7 +998,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794865133.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube\nBackpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link",
 "title": "The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.",
@@ -1251,7 +1224,7 @@
 "Decrypt",
 "Yahoo Finance"
 ],
-"t": 1794874490.184344,
+"t": 1794875650.907668,
 "t0": 1794858581.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -1611,7 +1584,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -2598,7 +2571,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794867093.0,
 "tgtext": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
 "title": "United Airlines UAL experiences widespread system outage.",
@@ -2878,7 +2851,7 @@
 "Traders Union",
 "TradingView"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794867581.0,
 "tgtext": "",
 "title": "Binance hack may push institutions to outside custody, FalconX exec says",
@@ -2948,7 +2921,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794860949.0,
 "tgtext": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
 "title": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
@@ -3218,7 +3191,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794857712.0,
 "tgtext": "JUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "Nvidia founder Jensen Huang transferred billions in NVDA shares to his heirs months before he resigned as CEO.",
@@ -3294,7 +3267,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794874796.1609843,
+"t": 1794875650.907668,
 "t0": 1794866350.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.",
@@ -3475,45 +3448,45 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"13b151f123e0": 0.952,
+"0aeb74aaaaa2": 0.056,
+"13b151f123e0": 0.917,
 "1a95ddf68b0e": 0.068,
 "1c331738b6bc": 0.033,
 "1f04dd287534": 0.125,
 "23905dee1f15": 0.068,
-"27a0f2f68bf8": 0.183,
 "2e2d8c657a3f": 0.036,
 "2f3f4c0ff27a": 0.023,
+"36b7871eb905": 0.011,
 "381a8153b3dd": 0.02,
+"3b0510f78e9d": 0.077,
 "44c76a9d29d9": 0.041,
-"4df022741de3": 0.015,
-"555022f4a52a": 0.084,
+"4df022741de3": 0.019,
+"555022f4a52a": 0.104,
+"557b45025328": 0.011,
 "579afef88909": 0.784,
 "594a670aac76": 0.098,
 "5b69891378df": 0.216,
 "5c5ffc1383fe": 0.091,
-"67c7c9a06026": 0.19,
-"6e1ef5e7c7db": 0.141,
+"67c7c9a06026": 0.111,
+"6e1ef5e7c7db": 0.504,
 "78f7a83e386d": 0.07,
 "81de774abde0": 0.022,
 "854cb8eb4c66": 0.956,
 "8b3d3fe34e65": 0.125,
 "8bc1eedcea2c": 0.033,
 "9042dadb9508": 0.228,
-"a8925954a406": 0.019,
-"a8e3e661cfe7": 0.083,
-"a916d35dff0d": 0.107,
+"a8e3e661cfe7": 0.103,
 "a9f8f265789a": 0.184,
 "afa3663d51b6": 0.025,
-"b1ce3461cf20": 0.051,
 "b6bee07fa251": 0.041,
+"c3c8befea4e3": 0.173,
 "c9029223859e": 0.057,
 "ca82d5910825": 0.291,
+"d4f7035631a2": 0.084,
 "e0a943ce1d35": 0.308,
 "e4b5b7084a95": 0.345,
-"e66b4c7e9668": 0.028,
 "f66fd6aaf01d": 0.238,
-"f997a74f3536": 0.069,
-"fa40df5a7659": 0.018,
+"fa40df5a7659": 0.022,
 "fd96eb69089f": 0.071
 },
 "sent": [
@@ -5029,63 +5002,63 @@
 [
 "854cb8eb4c66",
 20,
-173,
+187,
 2
 ],
 [
 "13b151f123e0",
-47,
-330,
-3
+21,
+344,
+2
 ],
 [
 "579afef88909",
 20,
-161,
+175,
 2
 ],
 [
+"6e1ef5e7c7db",
+47,
+284,
+3
+],
+[
 "e4b5b7084a95",
-16,
-231,
+14,
+245,
 1
 ],
 [
 "f48041ccfb4c",
 0,
-285,
+299,
 1
 ],
 [
 "e0a943ce1d35",
 63,
-120,
+134,
 3
 ],
 [
 "ca82d5910825",
 32,
-128,
+143,
 1
 ],
 [
 "f66fd6aaf01d",
 10,
-141,
+155,
 1
 ],
 [
 "296379b55b89",
 0,
-293,
+307,
 1
-],
-[
-"9042dadb9508",
-35,
-224,
-3
 ]
 ],
-"top_at": 1794874796.1609843
+"top_at": 1794875650.907668
 }
