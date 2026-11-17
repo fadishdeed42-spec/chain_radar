@@ -10,12 +10,8 @@ worst windows: [(39.4, np.float32(34.1)), (38.2, np.float32(38.4)), (21.0, np.fl
 mixed -> jobs/t3700077/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700077/short.mp4 -c:v libx264 -crf 19 -maxrate 6019k -bufsize 12038k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700077/short_s.mp4
 video check: []
-qc vision gemini-flash-lite-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-✅ <b>Video check: passed</b> (some checks could not run, see ➖)
-➖ visual: Gemini did not answer — visuals not reviewed
-✅ 5 checks passed (format, loudness, motion, picture, sync)
+✅ <b>Video check: passed</b>
+✅ 7 checks passed (format, hook frame, loudness, motion, picture, sync, visual)
 $ ffmpeg -y -v error -ss 2.39 -i jobs/t3700077/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700077/sh_00.png
 $ ffmpeg -y -v error -ss 7.17 -i jobs/t3700077/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700077/sh_01.png
 $ ffmpeg -y -v error -ss 11.95 -i jobs/t3700077/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700077/sh_02.png
