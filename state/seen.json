@@ -117,7 +117,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794884976.0,
 "tgtext": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders\n\nTrezor, a leading cryptocurrency hardware wallet manufacturer, disclosed that a breach at shipping partner Skladon exposed personal information linked to approximately 27,000 orders placed between August 9 and November 7. Skladon notified Trezor on November 15 that attackers had accessed its systems and were believed to have exported customer names, phone numbers, addresses, emails and order details. The breach affected multiple countries but not U.S. customers. Trezor said its own systems and hardware wallets remained secure, warning users of phishing scams and potential physical security risks.https://x.com/Trezor/status/2122363569891135655?a=VEd-7HQE5FC-nrMNBqk&s=20 \u2014 link",
 "title": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders",
@@ -228,7 +228,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794882735.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 13,134 $ETH ($23.67M)!\n\nOver the past 6 days, these wallets have bought a total of 84,837 $ETH ($154M) at an average price of $1,931.\n\nThey still have $12.96M in stablecoins left to buy more.\nhttps://x.com/lookonchain/status/2122143774906438101",
 "title": "The Erik Voorhees-linked wallets bought another 13,134 ETH ($23.67M)!",
@@ -734,7 +734,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794885203.0,
 "tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
 "title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
@@ -796,24 +796,11 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794880971.0,
 "tgtext": "Whale 0x4b10 withdrew 5,500 $ETH ($9.95M) and 5M $WLD ($1.32M) from #Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x4b104057eaf94d8EC7C6b521E19724fe5064dD05",
 "title": "Whale 0x4b10 withdrew 5,500 ETH ($9.95M) and 5M WLD ($1.32M) from Binance over the past 2 days.",
 "url": "https://t.me/lookonchainchannel/11104",
-"urls": []
-},
-"453871a94052": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794723236.7708693,
-"t0": 1794702754.0,
-"tgtext": "\u26a1\ufe0f MUSK: \"Jensen drove supply chain brilliantly at Nvidia, but many of those deals were a handshake with Jensen, not a written contract.\"\n\nNews | Markets | YouTube",
-"title": "MUSK: \"Jensen drove supply chain brilliantly at Nvidia, but many of those deals were a handshake with Jensen, not a written contract.\"",
-"url": "https://t.me/cointelegraph/73285",
 "urls": []
 },
 "45eff73c207e": {
@@ -1271,6 +1258,19 @@
 "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
 ]
 },
+"6e7cd3ea0246": {
+"coin": "hyperliquid",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794896725.010844,
+"t0": 1794896261.0,
+"tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
+"title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
+"url": "https://t.me/lookonchainchannel/11109",
+"urls": []
+},
 "7038dcf07dd7": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1468,7 +1468,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794889795.0,
 "tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
 "title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
@@ -1592,7 +1592,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794880199.0,
 "tgtext": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
@@ -2189,21 +2189,6 @@
 "https://bitcoinmagazine.com/news/german-bundestag-crypto-over-100000",
 "https://cointelegraph.com/news/german-lawmakers-back-crypto-freezes-outside-criminal-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"abdeb14d0b59": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"Crypto Briefing",
-"Watcher.Guru"
-],
-"t": 1794723236.7708693,
-"t0": 1794701846.0,
-"tgtext": "JUST IN: Bitcoin crashes under $63,000\n\n@WatcherGuru",
-"title": "Bitcoin Falls Below $63,000 to Three-Month Low; 318,700 Traders Liquidated in 24 Hours, $1.9 Billion Wiped Out",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5TDR4ZEFLYmxtN0JLcHZrRVhUam1LN3o0bk5GLVQxdzlScW5ndm9kaWxsY0hMOERTcHk1a2tGTmdsRE5ONmhKSlcxNGtSUlFWUU54eHotemVXdmFFY2tZRkVYemhhWFNyWVdhZTI0Qm9Mdlk2TlE?oc=5",
-"urls": []
 },
 "ac74f0e5ae76": {
 "coin": "bitcoin",
@@ -2865,7 +2850,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794881907.0,
 "tgtext": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom\n\nCrypto market maker Wintermute warned in its November 16 market report that the bear market is far from over, with Bitcoin falling 12.7% last week to around $65,400, below its 200-week moving average near $68,000. U.S. spot Bitcoin ETFs have recorded $1.9 billion in net outflows so far in 2026, compared with $21 billion in inflows in 2025, while stablecoin supply has shrunk by $14 billion to $16 billion over the past 30 days. Wintermute said recent liquidations do not signal a market bottom, as rebounds appear driven by short covering rather than fresh capital. The firm warned Bitcoin could fall into the $50,000s and would reconsider its defensive stance only if BTC reclaimed $68,000 alongside renewed ETF inflows. \u2014 link",
 "title": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom",
@@ -3050,7 +3035,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794878968.0,
 "tgtext": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 $ETH ($2.73M) into #Coinbase 4 hours ago.\n\nhttps://arkm.com/explorer/address/0xFF341626fEb4bBFd84115F32F966903fa5537458",
 "title": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 ETH ($2.73M) into Coinbase 4 hours ago.",
@@ -3562,7 +3547,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794895923.7540646,
+"t": 1794896725.010844,
 "t0": 1794876570.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru\n\ud83d\udd25 NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.\n\nNews | Markets | YouTube",
 "title": "NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.",
@@ -3651,42 +3636,42 @@
 "probs": {
 "01ccc1a7c317": 0.071,
 "022f75a87241": 0.019,
-"07126509e6f7": 0.07,
+"05fbbad6b658": 0.074,
 "077644104739": 0.853,
-"10ba68ce0b24": 0.219,
-"119860455eaa": 0.802,
+"10ba68ce0b24": 0.201,
+"119860455eaa": 0.837,
 "12496734b2d9": 0.109,
-"20b067b83d0a": 0.027,
+"23ec72a462be": 0.031,
+"25108b171716": 0.02,
+"3b43f850596f": 0.115,
 "3ccc337b53e8": 0.492,
-"42ae29d3805b": 0.041,
+"3e69c3e23a2d": 0.01,
 "42b00d9c9daf": 0.918,
-"435be5c9f400": 0.051,
 "4452a0feead3": 0.154,
 "4760fc7766bf": 0.03,
-"4dfa6abbd6f3": 0.101,
+"48acc0918966": 0.307,
 "56aabb0bdbb0": 0.442,
-"71e2cc23f8fc": 0.06,
+"6e7cd3ea0246": 0.648,
 "760e1064e004": 0.019,
+"7743dbb49537": 0.028,
 "78f7a83e386d": 0.063,
 "7da94308df5b": 0.845,
+"80dff9c62521": 0.507,
 "88053a11a2c0": 0.238,
 "8b4942660fb8": 0.023,
+"91bbabb6735f": 0.035,
 "921b30c8cd3b": 0.222,
-"99d5f054f92f": 0.242,
-"9d26e6b114e2": 0.068,
 "9e9ad775bd91": 0.023,
-"a4ecfc788037": 0.057,
-"ac8e8c595f95": 0.116,
+"ac8e8c595f95": 0.028,
 "b001aff6bbbd": 0.019,
 "b12944aab86d": 0.056,
-"b3dd5e564523": 0.145,
 "c02900775e7f": 0.029,
-"c05db28003e7": 0.504,
-"c9029223859e": 0.028,
 "d06a7ba7bdef": 0.025,
-"d6a438a1e688": 0.027,
 "d99f642d492c": 0.488,
-"e3d60bbf6d1b": 0.604,
+"d9a7d18124fb": 0.026,
+"e1f4024dea9f": 0.025,
+"e3d60bbf6d1b": 0.727,
+"eb84ccdb378a": 0.101,
 "f4dfdd953912": 0.077,
 "fad4e6fbf662": 0.807
 },
@@ -5204,64 +5189,64 @@
 "top": [
 [
 "42b00d9c9daf",
-23,
-249,
+21,
+263,
 1
 ],
 [
 "077644104739",
-45,
-182,
+43,
+196,
 2
 ],
 [
 "7da94308df5b",
 10,
-102,
+116,
+1
+],
+[
+"119860455eaa",
+9,
+233,
 1
 ],
 [
 "fad4e6fbf662",
-1,
-323,
+0,
+336,
 2
 ],
 [
-"119860455eaa",
-11,
-220,
+"e3d60bbf6d1b",
+9,
+296,
 1
 ],
 [
-"e3d60bbf6d1b",
-11,
-283,
+"6e7cd3ea0246",
+16,
+8,
 1
 ],
 [
 "80dff9c62521",
 0,
-262,
+275,
 1
 ],
 [
-"c05db28003e7",
-26,
-273,
-2
-],
-[
 "3ccc337b53e8",
-32,
-179,
+31,
+192,
 1
 ],
 [
 "d99f642d492c",
-3,
-234,
+2,
+247,
 1
 ]
 ],
-"top_at": 1794895923.7540646
+"top_at": 1794896725.010844
 }
