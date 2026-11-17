@@ -53,13 +53,27 @@
 "https://cryptoslate.com/lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak/"
 ]
 },
+"03677aa14f0c": {
+"coin": "bitcoin",
+"src": "NDTV",
+"srcs": [
+"CoinGape",
+"NDTV"
+],
+"t": 1794936697.1374722,
+"t0": 1794915540.0,
+"tgtext": "",
+"title": "Bitcoin Could Lose $500 Billion In Value If Price Falls Below $40,000. What's Really Driving The Crash?",
+"url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeWxqMnNka3JsOXNxVHc3WVpPR1llYW5adWMwYXI0Ulh1Rmc4VS12d0MwM3ltQmlHdFg1SmJSM3RLYXN3eGM5Q2NvTnpjWDVFR2REME5WNGpiWnZfU3czbFlpbGdscHNxTjlycnU5VGFCZ1FtQlludm9UX1psaVJ5bkptRmQ5aGNFNnV4WUo0QTAzM1JkUHUyWW9VMkFIMHd1c1BZZ3BQdWdmZk1Xd0pKU01FSURhVkNWZjFhS3UtNWJMeG1mNmI2Z3laczBsdWcyNXfSAdoBQVVfeXFMTnhVTzI3cHptcC1jaTBjZUVzaDZUS2tnWjJJWWdURW5aQjdqclFQSVBNTTFKaTYxZ2VaWEpOY1dwRlEtc25nZkVzWEViWW1JVEdSc2NnZGNVZk45ZEsyeXhpY21ucVVXV2g4MWRoalUxbTR4Qnk5WnByQzQxOGRwWkhfV296YWpBUkQtVkQxamV0M1FHRnJqUHdmSVM3dFZVVlJYb1V6UXNqM05VSlRLNHUySC1lNEQ4U2d0MVlFeXc0X1BiQjc0eEFBSkZYZzB1UE5jTThBTUNpaFE?oc=5",
+"urls": []
+},
 "03d4f3dc3cd7": {
 "coin": "",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -70,9 +84,10 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"FXEmpire",
 "Wu Blockchain"
 ],
-"t": 1794922906.2955623,
+"t": 1794936697.1374722,
 "t0": 1794920903.0,
 "tgtext": "Bitcoin Spot ETFs See $7.99M in Net Inflows, Ethereum ETFs Record $8.31M in Outflows\n\nAccording to SoSoValue, on November 16 (ET), U.S. spot Bitcoin ETFs recorded net inflows of $7.99 million, led by BlackRock's IBIT with $76.5 million in inflows. Spot Ethereum ETFs saw net outflows of $8.31 million, with Fidelity's FETH recording the largest outflow at $4.99 million. \u2014 link",
 "title": "Bitcoin Spot ETFs See $7.99M in Net Inflows, Ethereum ETFs Record $8.31M in Outflows",
@@ -132,7 +147,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -147,7 +162,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794920541.0,
 "tgtext": "JUST IN: \ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
 "title": "\ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
@@ -935,7 +950,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936393.2495923,
 "t0": 1794934274.0,
 "tgtext": "JUST IN: Grand Theft Auto VI (GTA 6) surpasses an estimated $1,500,000,000 in revenue two days before its official release.\n\n@WatcherGuru",
 "title": "Grand Theft Auto VI (GTA 6) surpasses an estimated $1,500,000,000 in revenue two days before its official release.",
@@ -1469,7 +1484,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794928260.0,
 "tgtext": "JUST IN: \ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.\n\n@WatcherGuru\n\ud83c\udded\ud83c\uddf0 NEW: Hong Kong tests tokenized deposits with Swift as banks chase stablecoin-style speed.\n\nNews | Markets | YouTube",
 "title": "\ud83c\udded\ud83c\uddf0 Hong Kong and SWIFT test tokenized bank deposits to enable 24/7 international payments and compete with crypto stablecoins.",
@@ -2126,7 +2141,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2291,7 +2306,7 @@
 "NDTV",
 "www.tokenpost.com"
 ],
-"t": 1794936086.0163257,
+"t": 1794936393.2495923,
 "t0": 1794914808.0,
 "tgtext": "",
 "title": "Bitcoin Could Lose $500 Billion In Value If Price Falls Below $40,000. What's Really Driving The Crash?",
@@ -2640,7 +2655,7 @@
 "Bitcoin Magazine",
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936393.2495923,
 "t0": 1794927617.0,
 "tgtext": "JUST IN: Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.\n\n@WatcherGuru",
 "title": "Coinbase launches ChatGPT plugin allowing users to trade stocks, crypto, and derivatives directly through AI chats.",
@@ -2768,7 +2783,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794928867.0,
 "tgtext": "\ud83d\udea8 JUST IN: Former NVIDIA CEO Jensen Huang has agreed to testify before U.S. House committees, with December 1 requested for his appearance.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nvidia $NVDA founder Jensen Huang to testify before Congress on December 1st.\n\n@WatcherGuru\n\u26a1\ufe0f LATEST: Jensen Huang signals willingness to return as Nvidia CEO and says support has been overwhelming, per WSJ.\nJUST IN: Nvidia $NVDA founder Jensen Huang says he is willing to return as CEO if the company's board asks him to.\n\n\"I would be honored to answer these calls and return as CEO.\"\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: Former NVIDIA CEO Jensen Huang says he is willing to return as CEO if the company's board asks him to. In his first public statement since resigning, Huang acknowledged calls from employees, investors, partners and customers for his return. \n\nHe said he would be honored to resume the role if the board determines it is in the company's best interests.\n\nNews | Markets | YouTube",
 "title": "Former NVIDIA CEO Jensen Huang says he is willing to return as CEO if the company's board asks him to. In his first public statement since resigning, Huang acknowledged calls from employees, investors, partners and custo",
@@ -3419,7 +3434,7 @@
 "Bitcoin Magazine",
 "Cointelegraph"
 ],
-"t": 1794934418.6719391,
+"t": 1794936697.1374722,
 "t0": 1794923276.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
 "title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
@@ -3615,7 +3630,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794936086.0163257,
+"t": 1794936697.1374722,
 "t0": 1794929801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 ALERT: A highly classified network used by the National Security Agency (NSA) for internal communications is down, according to CNN.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Highly classified US NSA national security communications network suffers outage.\n\n@WatcherGuru",
 "title": "A highly classified network used by the National Security Agency (NSA) for internal communications is down, according to CNN.",
@@ -3643,16 +3658,15 @@
 "rain": 1794899279.363075
 },
 "probs": {
+"03677aa14f0c": 0.656,
 "04b4de175498": 0.051,
 "06444e46e7ea": 0.548,
-"0b97cc9ac22d": 0.081,
 "12a160270acf": 0.131,
 "1674b68cf228": 0.008,
-"16c71e2a8608": 0.122,
+"1ca00a71580e": 0.102,
 "2b301fb27f67": 0.113,
-"360f31e70b99": 0.036,
+"3d5314d20b0c": 0.086,
 "4270863522c6": 0.094,
-"497b2aa98fd2": 0.032,
 "4981bb8f3c07": 0.058,
 "4a14e5c19d0e": 0.14,
 "527abd1409fc": 0.066,
@@ -3662,6 +3676,7 @@
 "773763f816e1": 0.226,
 "78f7a83e386d": 0.086,
 "78febdcbfb85": 0.704,
+"7b52248ccf09": 0.094,
 "852c44fd086f": 0.052,
 "876159a3109f": 0.034,
 "91a69ca88e0f": 0.255,
@@ -3671,14 +3686,14 @@
 "a1ac08fc1992": 0.023,
 "a66f6ba4ac06": 0.044,
 "a78ee86876f5": 0.335,
-"a9d8ad7faa75": 0.783,
-"ab2a0aaa4542": 0.307,
-"af8715f018d4": 0.134,
-"bf979451b188": 0.576,
-"c90282e265b3": 0.902,
+"ab2a0aaa4542": 0.425,
+"af8715f018d4": 0.129,
+"bf979451b188": 0.496,
+"c90282e265b3": 0.874,
 "cff1874b1969": 0.013,
 "d42b12a384b7": 0.209,
 "d7b2d5abc226": 0.049,
+"daccfff458dc": 0.033,
 "e57edb918bc8": 0.012,
 "f62d634cc244": 0.53,
 "f888c7ce5603": 0.178,
@@ -5129,63 +5144,63 @@
 [
 "ff53cc48e3ff",
 42,
-105,
+115,
 2
 ],
 [
 "0cbc410dcbb9",
-5,
-297,
+4,
+307,
 2
 ],
 [
 "c90282e265b3",
 20,
-120,
+131,
 2
-],
-[
-"4c39818a7e9d",
-10,
-30,
-1
 ],
 [
 "a052cb1b6926",
-11,
-280,
+10,
+290,
 1
-],
-[
-"a9d8ad7faa75",
-47,
-355,
-2
 ],
 [
 "78febdcbfb85",
 30,
-130,
+141,
 3
 ],
 [
+"03677aa14f0c",
+22,
+353,
+2
+],
+[
 "03d4f3dc3cd7",
-9,
-234,
+8,
+244,
 1
 ],
 [
 "0d3165cabc6e",
-8,
-259,
+7,
+269,
 1
 ],
 [
-"bf979451b188",
-28,
-141,
+"06444e46e7ea",
+27,
+263,
+2
+],
+[
+"f62d634cc244",
+15,
+224,
 2
 ]
 ],
-"top_at": 1794936086.0163257
+"top_at": 1794936697.1374722
 }
