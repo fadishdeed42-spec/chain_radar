@@ -227,7 +227,7 @@
 "Cointelegraph",
 "Dealroom"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794877325.0,
 "tgtext": "\ud83d\udea8 ALERT: Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.\n\nNews | Markets | YouTube",
 "title": "Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.",
@@ -242,7 +242,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794882735.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 13,134 $ETH ($23.67M)!\n\nOver the past 6 days, these wallets have bought a total of 84,837 $ETH ($154M) at an average price of $1,931.\n\nThey still have $12.96M in stablecoins left to buy more.\nhttps://x.com/lookonchain/status/2122143774906438101",
 "title": "The Erik Voorhees-linked wallets bought another 13,134 ETH ($23.67M)!",
@@ -577,6 +577,22 @@
 "url": "https://t.me/cointelegraph/73315",
 "urls": []
 },
+"2f3f4c0ff27a": {
+"coin": "bitcoin",
+"src": "Decrypt",
+"srcs": [
+"Decrypt",
+"Wu Blockchain"
+],
+"t": 1794887448.3872936,
+"t0": 1794867483.0,
+"tgtext": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders\n\nTrezor, a leading cryptocurrency hardware wallet manufacturer, disclosed that a breach at shipping partner Skladon exposed personal information linked to approximately 27,000 orders placed between August 9 and November 7. Skladon notified Trezor on November 15 that attackers had accessed its systems and were believed to have exported customer names, phone numbers, addresses, emails and order details. The breach affected multiple countries but not U.S. customers. Trezor said its own systems and hardware wallets remained secure, warning users of phishing scams and potential physical security risks.https://x.com/Trezor/status/2122363569891135655?a=VEd-7HQE5FC-nrMNBqk&s=20 \u2014 link",
+"title": "Bitcoin Wallet Maker Trezor Says Customer Data Was Exposed Again",
+"url": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data",
+"urls": [
+"https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data"
+]
+},
 "30827e57f6a8": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -729,7 +745,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794885203.0,
 "tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
 "title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
@@ -791,7 +807,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794880971.0,
 "tgtext": "Whale 0x4b10 withdrew 5,500 $ETH ($9.95M) and 5M $WLD ($1.32M) from #Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x4b104057eaf94d8EC7C6b521E19724fe5064dD05",
 "title": "Whale 0x4b10 withdrew 5,500 ETH ($9.95M) and 5M WLD ($1.32M) from Binance over the past 2 days.",
@@ -1113,7 +1129,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794866041.0,
 "tgtext": "\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "US stock market sheds $1.5 trillion in value today.",
@@ -1561,7 +1577,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794880199.0,
 "tgtext": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
@@ -2819,7 +2835,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794881907.0,
 "tgtext": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom\n\nCrypto market maker Wintermute warned in its November 16 market report that the bear market is far from over, with Bitcoin falling 12.7% last week to around $65,400, below its 200-week moving average near $68,000. U.S. spot Bitcoin ETFs have recorded $1.9 billion in net outflows so far in 2026, compared with $21 billion in inflows in 2025, while stablecoin supply has shrunk by $14 billion to $16 billion over the past 30 days. Wintermute said recent liquidations do not signal a market bottom, as rebounds appear driven by short covering rather than fresh capital. The firm warned Bitcoin could fall into the $50,000s and would reconsider its defensive stance only if BTC reclaimed $68,000 alongside renewed ETF inflows. \u2014 link",
 "title": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom",
@@ -3004,11 +3020,26 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794886630.083044,
+"t": 1794887448.3872936,
 "t0": 1794878968.0,
 "tgtext": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 $ETH ($2.73M) into #Coinbase 4 hours ago.\n\nhttps://arkm.com/explorer/address/0xFF341626fEb4bBFd84115F32F966903fa5537458",
 "title": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 ETH ($2.73M) into Coinbase 4 hours ago.",
 "url": "https://t.me/lookonchainchannel/11102",
+"urls": []
+},
+"e462d7829ef3": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru",
+"Wu Blockchain"
+],
+"t": 1794887448.3872936,
+"t0": 1794870502.0,
+"tgtext": "Backpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru\n\ud83d\udd25 NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.\n\nNews | Markets | YouTube",
+"title": "NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.",
+"url": "https://t.me/cointelegraph/73328",
 "urls": []
 },
 "e4b5b7084a95": {
@@ -3574,46 +3605,46 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"10ba68ce0b24": 0.446,
+"022f75a87241": 0.02,
+"05fbbad6b658": 0.078,
+"10ba68ce0b24": 0.379,
 "119860455eaa": 0.811,
 "129b04582d1b": 0.287,
 "1a95ddf68b0e": 0.082,
-"1f04dd287534": 0.068,
+"1c331738b6bc": 0.032,
+"1f04dd287534": 0.085,
 "27a0f2f68bf8": 0.067,
+"2f3f4c0ff27a": 0.49,
 "36b7871eb905": 0.028,
-"3a1128d3dfb6": 0.02,
+"3a1128d3dfb6": 0.025,
 "3ccc337b53e8": 0.586,
 "42b00d9c9daf": 0.815,
-"44c76a9d29d9": 0.027,
 "4dfa6abbd6f3": 0.106,
-"579afef88909": 0.921,
-"5b9d7327ee55": 0.022,
 "5c5ffc1383fe": 0.12,
 "71e2cc23f8fc": 0.051,
+"760e1064e004": 0.02,
 "7743dbb49537": 0.024,
-"78770d04ced1": 0.168,
 "80dff9c62521": 0.462,
 "91bbabb6735f": 0.046,
 "921b30c8cd3b": 0.232,
 "9e9ad775bd91": 0.019,
-"afa3663d51b6": 0.032,
-"b482d4b0d33c": 0.12,
-"b6bee07fa251": 0.162,
+"aca0334f4082": 0.026,
+"b6bee07fa251": 0.045,
 "c21961de6754": 0.015,
-"c3c8befea4e3": 0.119,
+"c3c8befea4e3": 0.097,
+"c9029223859e": 0.055,
 "ca82d5910825": 0.359,
 "d06a7ba7bdef": 0.026,
-"d4f7035631a2": 0.1,
 "d99f642d492c": 0.444,
 "d9a7d18124fb": 0.022,
+"df6da2610bb8": 0.038,
 "e0a943ce1d35": 0.315,
 "e1f4024dea9f": 0.021,
 "e3a4721e21ac": 0.008,
 "e3d60bbf6d1b": 0.752,
-"e66b4c7e9668": 0.018,
+"e462d7829ef3": 0.969,
 "eb84ccdb378a": 0.086,
-"f4dfdd953912": 0.212,
-"fd96eb69089f": 0.83
+"f4dfdd953912": 0.212
 },
 "sent": [
 {
@@ -5035,65 +5066,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"579afef88909",
-7,
-358,
+"e462d7829ef3",
+17,
+282,
 3
-],
-[
-"fd96eb69089f",
-22,
-353,
-2
 ],
 [
 "42b00d9c9daf",
 32,
-94,
+108,
 1
 ],
 [
 "119860455eaa",
 16,
-65,
+79,
 1
 ],
 [
 "e3d60bbf6d1b",
 24,
-128,
+141,
 1
 ],
 [
 "61a67a9f1643",
 0,
-343,
+357,
 1
 ],
 [
 "3ccc337b53e8",
 32,
-24,
+37,
 1
+],
+[
+"2f3f4c0ff27a",
+25,
+333,
+2
 ],
 [
 "80dff9c62521",
 10,
-107,
+121,
+1
+],
+[
+"d99f642d492c",
+10,
+92,
 1
 ],
 [
 "10ba68ce0b24",
 20,
-155,
+169,
 2
-],
-[
-"d99f642d492c",
-10,
-79,
-1
 ]
 ],
-"top_at": 1794886630.083044
+"top_at": 1794887448.3872936
 }
