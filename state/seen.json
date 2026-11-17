@@ -525,7 +525,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794857217.0,
 "tgtext": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed\n\nLighter said in its November 16 security incident report that an attacker exploited nonce reuse in unofficial signing code used by certain trading accounts to derive API private keys from public signatures. The attacker then created a public pool through a compromised account, transferred funds into the pool, and extracted assets by redeeming pool shares through an attacker-controlled account. Lighter confirmed that its protocol, smart contracts, infrastructure, and official SDKs were unaffected.\n\nThe incident triggered its smart contract-based Guardian mechanism, temporarily pausing withdrawals and allowing the Security Council to return approximately 5 million USDC to the affected trader. Withdrawals have since resumed, with pending requests being processed. Lighter has implemented wallet signature requirements for public pool transfers and made API key signatures non-public. It also plans to introduce IP allowlists, per-key permissions and limits, and proactively monitor and revoke API keys at risk from nonce reuse. \u2014 link",
 "title": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed",
@@ -972,7 +972,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794865133.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube\nBackpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru\n\ud83d\udd25 NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.\n\nNews | Markets | YouTube",
 "title": "NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.",
@@ -1201,7 +1201,7 @@
 "Decrypt",
 "Yahoo Finance"
 ],
-"t": 1794877029.5987122,
+"t": 1794878152.1339486,
 "t0": 1794858581.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -1561,7 +1561,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -1895,6 +1895,23 @@
 "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"98c774c52787": {
+"coin": "lighter",
+"src": "CryptoSlate",
+"srcs": [
+"Coinfomania",
+"Crypto Economy",
+"CryptoSlate"
+],
+"t": 1794878152.1339486,
+"t0": 1794858340.0,
+"tgtext": "",
+"title": "Lighter loses $15.5M in sudden drain and blames a single API leak",
+"url": "https://cryptoslate.com/lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak/",
+"urls": [
+"https://cryptoslate.com/lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak/"
+]
+},
 "991386f02b67": {
 "coin": "",
 "src": "The Daily Hodl",
@@ -1993,21 +2010,6 @@
 "tgtext": "JUST IN: Elon Musk calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n@WatcherGuru\nJUST IN: Jensen Huang discusses returning as Nvidia $NVDA CEO with allies.\n\n@WatcherGuru",
 "title": "Elon Musk calls for Nvidia NVDA to reinstate Jensen Huang as CEO.",
 "url": "https://t.me/WatcherGuru/16049",
-"urls": []
-},
-"a41b53752941": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"CryptoRank",
-"CryptoTicker.io",
-"Pluang"
-],
-"t": 1794705058.032508,
-"t0": 1794683488.0,
-"tgtext": "",
-"title": "Bitcoin falls below $74K after Binance hack and AI crash, $73K level critical for recovery.",
-"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjhqSTZOa1hpNE5HdFNqM3NuNlhPa3hnM1JwMGZmdUZ3SHJxa1F6SmFNYnRKZm1vTU9EdTNHR0M3WlhnMHMybFIybG9LVmdEeVkzakRFbXhwVW9TbVdhTmw3RDVCdFN5eGJJN3hUbmVkT1RyUnVqTDhPdFUtbzRGWnhXcmJPYXNiUE9CY0w0RlQ3dFZ2RXBxeVBIbzJOZkhIN1E?oc=5",
 "urls": []
 },
 "a48d03d1a38f": {
@@ -2550,7 +2552,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794867093.0,
 "tgtext": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
 "title": "United Airlines UAL experiences widespread system outage.",
@@ -2830,7 +2832,7 @@
 "Traders Union",
 "TradingView"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794867581.0,
 "tgtext": "",
 "title": "Binance hack may push institutions to outside custody, FalconX exec says",
@@ -2900,7 +2902,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794860949.0,
 "tgtext": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
 "title": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
@@ -3170,7 +3172,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794857712.0,
 "tgtext": "JUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "Nvidia founder Jensen Huang transferred billions in NVDA shares to his heirs months before he resigned as CEO.",
@@ -3246,7 +3248,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794877333.8535297,
+"t": 1794878152.1339486,
 "t0": 1794866350.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.",
@@ -3441,7 +3443,7 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"0aeb74aaaaa2": 0.031,
+"10ba68ce0b24": 0.067,
 "1a95ddf68b0e": 0.068,
 "1c331738b6bc": 0.033,
 "1f04dd287534": 0.125,
@@ -3452,34 +3454,34 @@
 "36b7871eb905": 0.011,
 "381a8153b3dd": 0.02,
 "44c76a9d29d9": 0.041,
-"579afef88909": 0.97,
-"5b69891378df": 0.295,
+"53d5054497b6": 0.106,
+"579afef88909": 0.961,
+"594a670aac76": 0.121,
 "5c5ffc1383fe": 0.091,
 "67c7c9a06026": 0.111,
+"6e1ef5e7c7db": 0.504,
+"72f1f5db4583": 0.144,
 "7743dbb49537": 0.025,
-"78f7a83e386d": 0.07,
+"78f7a83e386d": 0.086,
 "81de774abde0": 0.022,
 "854cb8eb4c66": 0.921,
 "8b3d3fe34e65": 0.125,
-"8bc1eedcea2c": 0.033,
-"9042dadb9508": 0.161,
-"a8e3e661cfe7": 0.103,
-"a916d35dff0d": 0.058,
+"8bc1eedcea2c": 0.042,
+"9042dadb9508": 0.072,
+"98c774c52787": 0.201,
+"a8925954a406": 0.049,
 "a9f8f265789a": 0.184,
 "afa3663d51b6": 0.031,
-"b1ce3461cf20": 0.063,
-"b482d4b0d33c": 0.245,
 "b6bee07fa251": 0.022,
 "c3c8befea4e3": 0.173,
 "c9029223859e": 0.057,
 "ca82d5910825": 0.291,
 "d4f7035631a2": 0.084,
 "e0a943ce1d35": 0.308,
-"e4b5b7084a95": 0.345,
-"e66b4c7e9668": 0.027,
-"f66fd6aaf01d": 0.238,
+"e4b5b7084a95": 0.4,
+"e66b4c7e9668": 0.028,
+"f66fd6aaf01d": 0.284,
 "f997a74f3536": 0.069,
-"fa40df5a7659": 0.022,
 "fd96eb69089f": 0.088
 },
 "sent": [
@@ -4994,64 +4996,64 @@
 "top": [
 [
 "579afef88909",
-27,
-203,
+26,
+217,
 3
 ],
 [
 "854cb8eb4c66",
-16,
-215,
+14,
+228,
 2
 ],
 [
+"6e1ef5e7c7db",
+41,
+326,
+3
+],
+[
 "e4b5b7084a95",
-10,
-273,
+8,
+287,
 1
 ],
 [
 "f48041ccfb4c",
 0,
-327,
+341,
 1
 ],
 [
 "e0a943ce1d35",
 63,
-163,
+176,
 3
-],
-[
-"5b69891378df",
-48,
-353,
-4
 ],
 [
 "ca82d5910825",
 32,
-171,
+184,
 1
 ],
 [
-"b482d4b0d33c",
-48,
-196,
-2
-],
-[
 "f66fd6aaf01d",
-10,
-183,
+8,
+197,
 1
 ],
 [
 "296379b55b89",
 0,
-335,
+349,
 1
+],
+[
+"98c774c52787",
+41,
+330,
+3
 ]
 ],
-"top_at": 1794877333.8535297
+"top_at": 1794878152.1339486
 }
