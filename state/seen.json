@@ -598,6 +598,21 @@
 "url": "https://t.me/lookonchainchannel/11082",
 "urls": []
 },
+"33b813732f88": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk"
+],
+"t": 1794915360.765088,
+"t0": 1794914758.0,
+"tgtext": "",
+"title": "New DeFi-yield generation targets \u2018scam-like\u2019 bank accounts that keep all the interest",
+"url": "https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
+"urls": [
+"https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest"
+]
+},
 "365d1fee696f": {
 "coin": "ethereum",
 "src": "Decrypt",
@@ -619,9 +634,10 @@
 "coin": "bitcoin",
 "src": "The Motley Fool",
 "srcs": [
-"The Motley Fool"
+"The Motley Fool",
+"Yahoo Finance"
 ],
-"t": 1794914528.0125175,
+"t": 1794915360.765088,
 "t0": 1794913500.0,
 "tgtext": "",
 "title": "Crypto Sell-Off: Is Bitcoin a Buy After Plunging Below $70,000 Last Friday?",
@@ -661,6 +677,24 @@
 "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd2VjQ25YVU4zV3NiZG5NYVdXOGgxZlNaZGV3LVBXRGEwMVJmcUZNWGN3Z1pHRHZLZVNGYmEwdkVmelVXNUVDcm4tcXlrSlVRMHdLcFVqdFNJekdwRkxpVWx0WU5pdUluQW8teUs2TzVscUNNT1E1SG91cnduOHQ1RHU4ajFPSXpB?oc=5",
 "urls": [
 "https://cryptoslate.com/lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak/"
+]
+},
+"38ecbc6d1df0": {
+"coin": "ethereum",
+"src": "KuCoin",
+"srcs": [
+"Cointelegraph",
+"Decrypt",
+"KuCoin"
+],
+"t": 1794915360.765088,
+"t0": 1794907454.0,
+"tgtext": "",
+"title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
+"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnhzOENLM3NWSmlKVVA1LU1acjJ6T2JFcDB4SmZZaVBQeWlIR2s0MXpRNk90ZEhpdkpYVU9hYnJKUVJYeHBGNDZFby03bllSRkc5WkltdWZSYjZ6Xy0yRnd4RDRoNnpvZkZ2WG1iU3JFVUhhaWp5d0tPakpkb1B3LWhwamVRRFl1LUY5bzBteVRNT3g2YkJyQmVPYU5IU3pZOHREU3lMNWRmYmp6Vm9JT1laQQ?oc=5",
+"urls": [
+"https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution",
+"https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "39218d053367": {
@@ -831,15 +865,17 @@
 "srcs": [
 "BigGo Finance",
 "CoinDesk",
+"Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794914528.0125175,
+"t": 1794915360.765088,
 "t0": 1794893843.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
 "url": "https://t.me/wublockchainenglish/26857",
 "urls": [
-"https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion"
+"https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
+"https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "45eff73c207e": {
@@ -1094,7 +1130,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794914528.0125175,
+"t": 1794915360.765088,
 "t0": 1794912033.0,
 "tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
 "title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
@@ -1354,7 +1390,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794914528.0125175,
+"t": 1794915360.765088,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1718,7 +1754,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794914528.0125175,
+"t": 1794915360.765088,
 "t0": 1794893876.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
 "title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
@@ -1990,7 +2026,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794914528.0125175,
+"t": 1794915360.765088,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2152,6 +2188,23 @@
 "title": "Elon Musk calls for Nvidia NVDA to reinstate Jensen Huang as CEO.",
 "url": "https://t.me/WatcherGuru/16049",
 "urls": []
+},
+"a460393d9455": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Cryptonews",
+"Lookonchain"
+],
+"t": 1794915360.765088,
+"t0": 1794907279.0,
+"tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
+"title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+"url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
+"urls": [
+"https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
+]
 },
 "a48d03d1a38f": {
 "coin": "shiba-inu",
@@ -2450,20 +2503,20 @@
 "urls": []
 },
 "ba056fdb0cfc": {
-"coin": "",
-"src": "The Block",
+"coin": "hyperliquid",
+"src": "BitKE",
 "srcs": [
+"BitKE",
 "Bitcoin Foundation",
 "Cointelegraph",
 "Crypto News",
-"The Block",
-"TradingView"
+"The Block"
 ],
-"t": 1794914528.0125175,
+"t": 1794915055.8150253,
 "t0": 1794895920.0,
 "tgtext": "",
-"title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
-"url": "https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106",
+"title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZRUdrQUNzRmxIZVdmZjl3RkVtY011eEZ4T2NrLXNyMm02bHFuM0w5U1BTbHd5RnFEUmVpS0tqam9YeGxBWExKU2JUNnlHWXc1VHRsUnJ3aktOZ0ZFYkQzazV1NTFsdGtWTl9ZSzFkTW5uUnd2Z0JHaFgxUTU?oc=5",
 "urls": [
 "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106"
@@ -2600,6 +2653,22 @@
 "title": "BlackRock files for exchange-traded interval fund that can top the 15% private-asset cap",
 "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KU3pHUXBES1U0NzJ5RUdUUUtHaTBXVXZ5ODZ6SVoxbnFFb2o3U29JdVAtV3BsUzZtSXJmSnVYb0laM0RkQjlvOWhWcERZNy1tYkpMYmhmY003YnRSYWVrRzV1TjBEM3EtUk8yUnoxNGtsRVJOeURpNWJJUGpFQQ?oc=5",
 "urls": []
+},
+"c47fe653e6fb": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"CryptoSlate",
+"Wu Blockchain"
+],
+"t": 1794915360.765088,
+"t0": 1794907467.0,
+"tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
+"title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
+"url": "https://t.me/wublockchainenglish/26858",
+"urls": [
+"https://cryptoslate.com/hackers-found-a-way-to-steal-crypto-without-hacking-wallets-and-ledger-was-caught-in-the-attack/"
+]
 },
 "c49858ac7e6b": {
 "coin": "",
@@ -2756,7 +2825,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794914528.0125175,
+"t": 1794915055.8150253,
 "t0": 1794904279.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3184,7 +3253,7 @@
 "Cryptonews",
 "Lookonchain"
 ],
-"t": 1794914528.0125175,
+"t": 1794915055.8150253,
 "t0": 1794910332.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker has started laundering the 602,402 ETH ($1.09B) he holds!",
@@ -3545,23 +3614,26 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"09bece7da30a": 0.076,
+"02c4da7038c7": 0.058,
 "180e66965ad9": 0.252,
 "196e0b8c2427": 0.115,
-"259459606240": 0.059,
-"2f437b87882f": 0.14,
+"2f437b87882f": 0.09,
+"33b813732f88": 0.257,
+"37c5f8a79115": 0.372,
+"38ecbc6d1df0": 0.389,
+"3910e11083c9": 0.069,
+"3a8fdc8c29d3": 0.115,
 "3b43f850596f": 0.242,
 "3d03c71886e6": 0.049,
 "3e6b270ef11b": 0.031,
 "411f4625de95": 0.064,
-"4452a0feead3": 0.768,
+"4452a0feead3": 0.763,
 "48509db9f873": 0.034,
 "4aa234f6b587": 0.012,
 "60f6be92f0ed": 0.034,
 "63a55c37293f": 0.068,
 "6711f3cf5672": 0.111,
 "69e94173a5d5": 0.063,
-"6c73d3da2d4b": 0.05,
 "721bbc845f89": 0.101,
 "7333b02d3cc4": 0.075,
 "76bf2dc72ce5": 0.086,
@@ -3572,18 +3644,15 @@
 "8c1fcbbdec1e": 0.02,
 "8f8eb408919b": 0.184,
 "9d26e6b114e2": 0.085,
-"9d799837f8b3": 0.222,
-"a0e4cd121fe0": 0.158,
 "a2cbc928116d": 0.023,
+"a460393d9455": 0.972,
 "a5e4b65ec885": 0.074,
-"ba056fdb0cfc": 0.508,
+"ba056fdb0cfc": 0.114,
+"bdcb088e1261": 0.088,
+"c47fe653e6fb": 0.885,
 "c5ad01ec39bc": 0.018,
-"cf457de6ab2c": 0.089,
-"d11cb9a5ec02": 0.07,
-"d313f36ab402": 0.941,
 "e2b340698b3b": 0.137,
-"eff77d78f3ba": 0.95,
-"f21c2a8aece6": 0.012,
+"f21c2a8aece6": 0.156,
 "f9cfba3797f3": 0.091
 },
 "sent": [
@@ -4989,65 +5058,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"eff77d78f3ba",
-43,
-70,
-2
-],
-[
-"d313f36ab402",
-84,
-171,
-4
-],
-[
-"4452a0feead3",
-46,
-345,
+"a460393d9455",
+75,
+135,
 3
 ],
 [
-"ba056fdb0cfc",
-41,
-310,
-5
+"c47fe653e6fb",
+64,
+132,
+2
+],
+[
+"4452a0feead3",
+54,
+359,
+4
 ],
 [
 "6e7cd3ea0246",
 0,
-304,
+318,
 1
 ],
 [
 "59464786a8ab",
 10,
-42,
+55,
 1
 ],
 [
 "98ae04cfbd1a",
 0,
-296,
+310,
 1
+],
+[
+"38ecbc6d1df0",
+59,
+132,
+3
+],
+[
+"37c5f8a79115",
+28,
+31,
+2
 ],
 [
 "88053a11a2c0",
 0,
-344,
+358,
 1
 ],
 [
-"37c5f8a79115",
+"33b813732f88",
+28,
 10,
-17,
 1
-],
-[
-"180e66965ad9",
-15,
-223,
-2
 ]
 ],
-"top_at": 1794914528.0125175
+"top_at": 1794915360.765088
 }
