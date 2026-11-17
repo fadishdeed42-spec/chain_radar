@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1794821165.3260663,
 1794825406.8659422,
 1794827678.6466959,
 1794827678.6466959,
@@ -18,7 +17,8 @@
 1794885485.7344348,
 1794889948.404524,
 1794890450.4159775,
-1794902352.734504
+1794902352.734504,
+1794910812.4862669
 ],
 "menu": {
 "000f6ad45d27": {
@@ -819,7 +819,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1794910200.3152142,
+"t": 1794910812.4862669,
 "t0": 1794893843.0,
 "tgtext": "",
 "title": "Wells Fargo's bitcoin ETF holdings now rival Tesla and SpaceX's combined $2 billion",
@@ -841,6 +841,19 @@
 "tgtext": "",
 "title": "NBI arrests 31 in Bohol raids on a $10-million crypto and romance scam network",
 "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZZXdDZDRCdDF2ZEYyS3Vjc2Z1NFc5OFRKRTByYkpEVkktOHFxNGlBZ21XRTNhS0JnVGxwQkhXM2pXb3d1SE95NUF2YnBuM3dsMTRLa0d4a0lselRTckY4UXZMWk5tdDJOelhNdlA4RXA2QQ?oc=5",
+"urls": []
+},
+"48a9f27ee9be": {
+"coin": "solana",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794911117.035059,
+"t0": 1794910965.0,
+"tgtext": "Solana Foundation Takes Majority Stake in CoinGecko\n\nSolana Foundation member Vibhu confirmed that the foundation now holds a majority interest in CoinGecko, the crypto data platform. CoinGecko plans to expand its data and API infrastructure, enhance coverage of on-chain assets, RWAs and derivatives, and explore trading and DeFi services powered by Solana. CoinGecko said it will maintain its cross-chain coverage and transparent methodology. The exact ownership percentage and transaction value were not disclosed. \u2014 link",
+"title": "Solana Foundation Takes Majority Stake in CoinGecko",
+"url": "https://t.me/wublockchainenglish/26859",
 "urls": []
 },
 "48acc0918966": {
@@ -1004,7 +1017,7 @@
 "Crypto News",
 "FinanceFeeds"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794889997.0,
 "tgtext": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings\n\nThe U.S. Attorney's Office for the Southern District of New York announced that former Robinhood software engineer Huaisong Xiang pleaded guilty to wire fraud for using confidential crypto listing information to trade perpetual futures on Hyperliquid. Between 2025 and 2026, Xiang repeatedly traded tokens ahead of their listing announcements on Robinhood Crypto, the digital asset trading arm of the U.S. brokerage, earning $125,523 in illicit profits. He agreed to forfeit the proceeds and faces up to 20 years in prison, with sentencing scheduled for February 25, 2027. \u2014 link",
 "title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
@@ -1314,7 +1327,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1492,7 +1505,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794889795.0,
 "tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
 "title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
@@ -1552,21 +1565,6 @@
 "urls": [
 "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
 ]
-},
-"7e1c51378702": {
-"coin": "",
-"src": "bloomingbit",
-"srcs": [
-"Crypto Briefing",
-"Crypto News",
-"bloomingbit"
-],
-"t": 1794737602.9642754,
-"t0": 1794720238.0,
-"tgtext": "",
-"title": "Thailand Arrests Two Chinese Nationals Over $92 Million Crypto Multilevel Fraud",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpMzRkZWhkajBpRUtsM2NTTGY0TzQzQUhnZjdDeFZZOG1GaEd3eXRIWWtMQVhOV2Q5MnhkX01oZU92ejFud0lIeklobEZ3YTk4TXV5aw?oc=5",
-"urls": []
 },
 "7ee305cc50c0": {
 "coin": "",
@@ -1737,7 +1735,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794893876.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
 "title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
@@ -2009,7 +2007,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2089,7 +2087,7 @@
 "KuCoin",
 "The Crypto Times"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794895489.0,
 "tgtext": "",
 "title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
@@ -2767,7 +2765,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794904279.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -2876,19 +2874,6 @@
 "tgtext": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom\n\nCrypto market maker Wintermute warned in its November 16 market report that the bear market is far from over, with Bitcoin falling 12.7% last week to around $65,400, below its 200-week moving average near $68,000. U.S. spot Bitcoin ETFs have recorded $1.9 billion in net outflows so far in 2026, compared with $21 billion in inflows in 2025, while stablecoin supply has shrunk by $14 billion to $16 billion over the past 30 days. Wintermute said recent liquidations do not signal a market bottom, as rebounds appear driven by short covering rather than fresh capital. The firm warned Bitcoin could fall into the $50,000s and would reconsider its defensive stance only if BTC reclaimed $68,000 alongside renewed ETF inflows. \u2014 link",
 "title": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom",
 "url": "https://t.me/wublockchainenglish/26854",
-"urls": []
-},
-"db0ba8e729e9": {
-"coin": "bitcoin",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794737602.9642754,
-"t0": 1794716268.0,
-"tgtext": "\ud83d\udea8 PAIN: Bitcoin has lost over $10,000 in a week.\n\n$BTC just hit a four-month low, sliding as far as $62,112 as leveraged longs got wiped out over the weekend.\n\nWe've already bounced back above $65K.\n\nNews | Markets | YouTube",
-"title": "PAIN: Bitcoin has lost over $10,000 in a week.",
-"url": "https://t.me/cointelegraph/73288",
 "urls": []
 },
 "dc5e75386d49": {
@@ -3141,7 +3126,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794910200.3152142,
+"t": 1794911117.035059,
 "t0": 1794901701.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3199,6 +3184,19 @@
 "tgtext": "",
 "title": "Bitcoin falls below $64,000 as ETF outflows and forced liquidations deepen sell-off - HESPRESS English",
 "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQTJCWHVoZnpVNnkyVW55blh5eGI2ekQ0MFRaSTZIanJ5Z3hIN0c5MGpMT29sU1JmTEZYNHkwWUI5RUFQdzkyWDlHajdjejhkNGJKVWZVUllrTGdWMUFOVDJUQVBqcHhId1d4bkNmNXMxMTlDNGMyMy1MdEpQMzk4T3JDVC16UUFRNEd4MVdXUmktM1haTnRmdW9SQ2k1M1ZsNl9HajQ2NEpRaEdfVXhPVG5NcThCUnZx?oc=5",
+"urls": []
+},
+"eff77d78f3ba": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794911117.035059,
+"t0": 1794910332.0,
+"tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
+"title": "The Binance hacker has started laundering the 602,402 ETH ($1.09B) he holds!",
+"url": "https://t.me/lookonchainchannel/11114",
 "urls": []
 },
 "f042c7a1c6c0": {
@@ -3555,141 +3553,48 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"02b242a04870": 0.039,
 "02c4da7038c7": 0.117,
 "09bece7da30a": 0.076,
 "12bc8aefa9e8": 0.036,
 "180e66965ad9": 0.217,
-"20b067b83d0a": 0.048,
-"259459606240": 0.105,
-"2f437b87882f": 0.156,
+"2f437b87882f": 0.058,
 "32cde3b262bf": 0.036,
-"360634da4996": 0.086,
 "37e67a81b030": 0.069,
 "3b43f850596f": 0.106,
 "3d03c71886e6": 0.049,
 "411f4625de95": 0.025,
 "42ae29d3805b": 0.071,
 "435be5c9f400": 0.139,
-"4452a0feead3": 0.265,
+"4452a0feead3": 0.207,
+"4aa234f6b587": 0.012,
 "56aabb0bdbb0": 0.448,
+"63a55c37293f": 0.068,
 "6711f3cf5672": 0.111,
-"69e94173a5d5": 0.263,
+"69e94173a5d5": 0.205,
 "6c73d3da2d4b": 0.09,
-"6e7cd3ea0246": 0.418,
 "721bbc845f89": 0.057,
 "76bf2dc72ce5": 0.15,
-"7afbc281cbe3": 0.037,
+"85284de8575d": 0.066,
+"8a3de7fa2b89": 0.111,
 "8aad3c3e83fa": 0.048,
 "8c1fcbbdec1e": 0.02,
 "8f8eb408919b": 0.082,
 "99d5f054f92f": 0.19,
 "9d26e6b114e2": 0.085,
 "9d799837f8b3": 0.222,
-"a0e4cd121fe0": 0.021,
+"a0e4cd121fe0": 0.123,
+"a5e4b65ec885": 0.074,
 "a872d53d2a65": 0.014,
+"c3511036c882": 0.038,
 "cf457de6ab2c": 0.089,
 "d313f36ab402": 0.975,
-"d421f3dccef8": 0.048,
 "dbc820ec3dea": 0.08,
 "e2b340698b3b": 0.137,
 "ed029cabc3ad": 0.223,
+"eff77d78f3ba": 0.886,
 "f21c2a8aece6": 0.012
 },
 "sent": [
-{
-"e": [
-"approves",
-"assets",
-"customs",
-"germany",
-"illicit",
-"including",
-"powers",
-"seize",
-"suspected"
-],
-"k": [
-"ban"
-],
-"t": 1794736378.1347458,
-"u": [
-"https://t.me/wublockchainenglish/26832"
-],
-"w": [
-"approves",
-"assets",
-"cryptogermany",
-"customs",
-"germany",
-"illicit",
-"including",
-"powers",
-"seize",
-"suspected"
-]
-},
-{
-"e": [
-"bohol",
-"nbi"
-],
-"k": [
-"legal"
-],
-"t": 1794736378.1347458,
-"u": [
-"https://news.google.com/rss/articles/CBMisAFBVV95cUxQU0kzYUVSOG1tSzhMYkVQY2QtZ29XOERpRm83WlpOTmNpc2VTb2dDbHNxUUVVSWdDbzdCZUJlSlQtZnhULU8yU3lzYkJ2QWJDdDNBckVHM3JFOHB6OUUyUENWWmk4LU9oLTN0NldMLWpHT3AwLUNKYXRuU0t0ZjFVazBHSEpKdU1zTnFwT0VkU3J6ekFQNENKcExvSlpWRUtxcU5Bd3pRalV0Q1A4dFJSb9IBtgFBVV95cUxPdkVEaW9yYV9sZDZ6cE4wWTJDWkkxLWE0TktxdTFWSThvbjdJR0p0NjBWYmk4Vy1XRHhfY05HWGdxU3VDbnQyanl4RFdLUVZUYkJtaWVjalA1LXVjYVNTdlVVWm1jUGp4R2wzb0pCcUs2bG1WbV9Kci1qbGt2VTVldHZlYU5nZ1ByNjRPVWlfRGlEeFM1U01KQ01YbUUzQjVjekhqYm5fN2xmTlBTZlJpVjQxVEZsUQ?oc=5",
-"https://news.google.com/rss/articles/CBMickFVX3lxTE1ZZXdDZDRCdDF2ZEYyS3Vjc2Z1NFc5OFRKRTByYkpEVkktOHFxNGlBZ21XRTNhS0JnVGxwQkhXM2pXb3d1SE95NUF2YnBuM3dsMTRLa0d4a0lselRTckY4UXZMWk5tdDJOelhNdlA4RXA2QQ?oc=5",
-"https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1YzNjcxbHFlS1lkYk5wdzdGeVczMkl6YXdqSUFLNlpZUUstdWxJenBqUTV0anJMZGQzUmd1c3R4cEY4M29UUUI3UDBvOWR3bUpiNWhlMjgzeXp5VjF3MWlmUmFYcnJ2TzFtSzZCemZLblpielgzR1FMRy1KWGZ0Zkx4ZEg2X1hwUUstS3dZdGMxXzFjcmc?oc=5"
-],
-"w": [
-"$10",
-"arrests",
-"bohol",
-"million",
-"nbi",
-"network",
-"raids",
-"romance",
-"scam"
-]
-},
-{
-"e": [
-"altcoins",
-"call",
-"chinese",
-"exits",
-"jiang",
-"miner",
-"misses",
-"pauses",
-"trading",
-"zhuoer"
-],
-"k": [
-"outage"
-],
-"t": 1794736682.5087514,
-"u": [
-"https://t.me/wublockchainenglish/26833"
-],
-"w": [
-"altcoins",
-"call",
-"chinese",
-"defi",
-"exits",
-"jiang",
-"market",
-"miner",
-"misses",
-"pauses",
-"trading",
-"zhuoer"
-]
-},
 {
 "e": [
 "aguilatrades"
@@ -5063,6 +4968,29 @@
 "stake",
 "staking"
 ]
+},
+{
+"e": [
+"binance"
+],
+"k": [
+"hack"
+],
+"t": 1794910812.4862669,
+"u": [
+"https://t.me/lookonchainchannel/11114"
+],
+"w": [
+"09b",
+"402",
+"602",
+"binance",
+"eth",
+"hacker",
+"holds",
+"laundering",
+"started"
+]
 }
 ],
 "stories": {},
@@ -5071,63 +4999,63 @@
 [
 "d313f36ab402",
 74,
-99,
+114,
 3
 ],
 [
 "7da94308df5b",
 0,
-340,
+355,
 1
 ],
 [
-"56aabb0bdbb0",
-38,
-337,
-7
+"eff77d78f3ba",
+33,
+13,
+1
 ],
 [
-"98ae04cfbd1a",
-5,
-224,
+"48a9f27ee9be",
+10,
+3,
 1
 ],
 [
 "6e7cd3ea0246",
-10,
-232,
+7,
+248,
+1
+],
+[
+"56aabb0bdbb0",
+36,
+352,
+7
+],
+[
+"98ae04cfbd1a",
+3,
+240,
 1
 ],
 [
 "88053a11a2c0",
 0,
-272,
-1
-],
-[
-"4452a0feead3",
-55,
-273,
-3
-],
-[
-"69e94173a5d5",
-18,
-8,
+287,
 1
 ],
 [
 "ed029cabc3ad",
 32,
-142,
+157,
 1
 ],
 [
 "9d799837f8b3",
-77,
-245,
+75,
+260,
 5
 ]
 ],
-"top_at": 1794910200.3152142
+"top_at": 1794911117.035059
 }
