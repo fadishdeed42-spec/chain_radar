@@ -1,0 +1,207 @@
+{
+ "title": "The Night Bitcoin Split in Two ⚡ #Shorts",
+ "tone": "mystery",
+ "theme": "crimson",
+ "description": "March 11, 2013: Bitcoin split into two chains.\nThe new version 0.8 accepted a huge block (block 225,430, over 5,000 transactions). Older versions couldn't read it - their database ran out of locks. Mt. Gox and BitPay paused deposits and the price dropped 24%.\nDevelopers chose the old chain, big mining pools downgraded, and about six hours later the chains joined again. 24 blocks were wiped out, and a $10,000 double spend hit OKPay.\n\nBug or warning? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Shorts #bitcoin #crypto #cryptohistory #blockchain",
+ "pinned": "Would you have picked the old chain or the new one? 👇",
+ "respell": {
+  "OKPay": "Oh Kay Pay",
+  "BitPay": "Bit Pay",
+  "Mt.": "Mount"
+ },
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "March 2013. Bitcoin split into two chains.",
+   "hit": "split",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "punch": true
+  },
+  {
+   "role": "hook",
+   "line": "And the developers chose to kill the newer one.",
+   "hit": "kill",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "It started with an update. Version zero point eight was brand new, but many computers still ran zero point seven.",
+   "hit": "seven",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "Then one huge block arrived. It touched over five thousand transactions.",
+   "hit": "transactions",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "line": "The new computers accepted it. The old ones choked.",
+   "hit": "choked",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "punch": true
+  },
+  {
+   "role": "turn",
+   "line": "It needed over ten thousand database locks. The old version ran out.",
+   "hit": "out",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "line": "Now there were two Bitcoins at the same time.",
+   "hit": "two",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "line": "Mt. Gox and BitPay shut down deposits.",
+   "hit": "deposits",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "line": "And the price dropped twenty-four percent.",
+   "hit": "percent",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "punch": true
+  },
+  {
+   "role": "twist",
+   "line": "So developers asked the big miners to go back to the old version.",
+   "hit": "old",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "turn",
+   "line": "About six hours later, the old chain took the lead, and won.",
+   "hit": "won",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "line": "Twenty-four blocks were wiped out.",
+   "hit": "wiped",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "line": "And someone spent the same ten thousand dollars twice, against OKPay.",
+   "hit": "twice",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "punch": true
+  },
+  {
+   "role": "end",
+   "line": "One block. Two Bitcoins. Bug, or warning?",
+   "hit": "warning",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "chart": {},
+ "lesson": "",
+ "length": 60,
+ "settings": {
+  "length": 55,
+  "style": "film",
+  "autorender": false,
+  "chart": "off",
+  "energy": "high",
+  "cuts": "fast",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "flow",
+  "music": "off",
+  "whoosh": "off"
+ },
+ "target_words": 140,
+ "headline": "ONE BLOCK SPLIT / BITCOIN IN TWO",
+ "film3d": "studio/b3d/split3d_v2.py",
+ "voice_style": "A"
+}

@@ -808,6 +808,8 @@ STICK_Y = 1530                                                         # sticker
 
 def overlay(cv, t, i):
     """beat stickers: short facts that pop in on their word, alternate sides, leave when the next one comes"""
+    if FILM:                                                              # owner (Nov 17): in 3D, nothing else is drawn over the film
+        headline(cv, t); flow_caption(cv, t); return
     receipt_card(cv, t, i)
     fact_line(cv, t, i)
     bs = BEATS[i] if SCN[i]['visual']['type'] != 'flow' else []; a_sc = 1.0 if i == len(SCN) - 1 else fade(t, i)
@@ -1136,7 +1138,7 @@ def make_scene(i):
     low = bool(SCN[i].get('receipt')) and (v['type'] in LOWER or has_icon)   # a counter with an icon needs the room too
 
     def scene(cv, t):
-        if FILM and not last: return                                      # the 3D film is the picture; the words ride on top
+        if FILM: return                                                   # the 3D film is the whole picture (end question included)
         a = 1.0 if last else fade(t, i)
         if i == 0:
             a = 1 - seg(t, P(1) - .2, P(1)) if len(SCN) > 1 else 1.0
