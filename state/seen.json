@@ -17,7 +17,8 @@
 1794910812.4862669,
 1794917668.0780222,
 1794919303.2265837,
-1794922601.2687402
+1794922601.2687402,
+1794923711.2966728
 ],
 "menu": {
 "0234490c28f9": {
@@ -58,7 +59,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794922035.0,
 "tgtext": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) lost all 6 trades in the past 24 hours, for a total loss of $2.68M!",
@@ -162,7 +163,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794918260.0,
 "tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
 "title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
@@ -177,7 +178,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794920541.0,
 "tgtext": "JUST IN: \ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.\n\n@WatcherGuru",
 "title": "\ud83c\uddff\ud83c\udde6 Elon Musk confirms South Africa demanded he give up 30% of his company to invest in the country.",
@@ -1045,7 +1046,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794922238.0,
 "tgtext": "JUST IN: Google and Amazon to own a combined 28% of Anthropic after its IPO.\n\n@WatcherGuru",
 "title": "Google and Amazon to own a combined 28% of Anthropic after its IPO.",
@@ -1179,7 +1180,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794922906.2955623,
+"t": 1794923406.8083396,
 "t0": 1794912033.0,
 "tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
 "title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
@@ -1499,6 +1500,19 @@
 "tgtext": "",
 "title": "Bitcoin Price Forecast: Wintermute Warns of $50K Crash as BTC Open Interest Hits Two-Year Low",
 "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbTRsUG5aM1JtUWJVUVlIdXBONnVfWDZZYThsenR6aEFFLUNZZlNCVTJTX0ExWnk4ZU96RDFtc1RrYmJOaFp4X0ZIa0FSOFUycG8wR0FJY1RTV3ZMdUZOVHpadjhFNERfcF9MRV9XYmE3Ui0ydXRRdk0xY0pjQzY1ZEFORHdIS2hNRS1aRGlEVmdMWGZCcTN4NFcyRUxFQWtQQ19MMXpSaWptSGgyZFFNcGdxcENhNGU1OXVLNy1B?oc=5",
+"urls": []
+},
+"773763f816e1": {
+"coin": "bitcoin",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1794923711.2966728,
+"t0": 1794923162.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Michael Saylor says banks are bringing Bitcoin to their clients.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Michael Saylor says banks are bringing Bitcoin to their clients.",
+"url": "https://t.me/WatcherGuru/16094",
 "urls": []
 },
 "77751a05098f": {
@@ -1960,6 +1974,22 @@
 "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys"
 ]
 },
+"8f8eb408919b": {
+"coin": "ethereum",
+"src": "CoinGape",
+"srcs": [
+"CoinGape",
+"Coinpedia",
+"Cryptonews.net",
+"TradingView"
+],
+"t": 1794923711.2966728,
+"t0": 1794905141.0,
+"tgtext": "",
+"title": "Ethereum Price Prediction as Tom Lee Sees SpaceX-Like Selloff Repeating Ahead of Anthropic IPO",
+"url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUWdKY2lIZVlva3lOQ1Nibm95Y2M2X2tFQm1xUjFIazBEaS1mVDVabGk0enBfTUcyWU9wUFpNTWh1ZEVZQ0JadjlseVhraWQ5VTZpeU9va0NVM3p5UVFaTDZuMWI5SDYzbkl6ZmJjQlhuZXI5Qm1haHoxaTZvWTQ2em1XaUo3c0R1eHRyc3ZlbG1mdlhnT0hPTWJSelZQMnFMX3VfcHZ4VXhpbEdwRlpqUWJWN3NBQ1Y0b1FCTlg1bHdkQQ?oc=5",
+"urls": []
+},
 "9042dadb9508": {
 "coin": "ethereum",
 "src": "www.tmgm.com",
@@ -2038,19 +2068,6 @@
 "urls": [
 "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"9727563f5d58": {
-"coin": "ethereum",
-"src": "KuCoin",
-"srcs": [
-"KuCoin"
-],
-"t": 1794750503.8605173,
-"t0": 1794739398.0,
-"tgtext": "",
-"title": "Erik Voorhees-Linked Wallets Spend $97M on 48,647 ETH Amid Price Dip",
-"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZmVCUV9wSTZRbENpUWtnWWJEdXF5SGtKZzlWU0xNQmhUQzVvcUVSVlBNbkFPZDlXblh3cGg2Nzc4eXJPYTRtNGp1aEpXRUtUelo3aTZzQ1ZnLWN3TDZHOEtaSnlZNGVXU2k4Ujlzd0I5cXhIWDZ2cFZDOUI0cHpFNDFzNmlrR2N4OTNBbGc4OWdhUDMxNXVjZFlGZE9VOUw1bUJB?oc=5",
-"urls": []
 },
 "97a47fe25107": {
 "coin": "",
@@ -2181,7 +2198,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794919298.0,
 "tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
 "title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
@@ -2272,7 +2289,7 @@
 "Lookonchain",
 "Pluang"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794907279.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "Ethereum Price and $1.16B Selling Threat: North Korea\u2019s Binance Hacker Moves $137M",
@@ -2731,14 +2748,18 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
-"Wu Blockchain"
+"CryptoSlate",
+"Wu Blockchain",
+"Yahoo Tech"
 ],
-"t": 1794922906.2955623,
+"t": 1794923711.2966728,
 "t0": 1794907467.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
 "url": "https://t.me/wublockchainenglish/26858",
-"urls": []
+"urls": [
+"https://cryptoslate.com/hackers-found-a-way-to-steal-crypto-without-hacking-wallets-and-ledger-was-caught-in-the-attack/"
+]
 },
 "c49858ac7e6b": {
 "coin": "",
@@ -3494,6 +3515,19 @@
 "url": "https://t.me/lookonchainchannel/11088",
 "urls": []
 },
+"f62d634cc244": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794923711.2966728,
+"t0": 1794923276.0,
+"tgtext": "\ud83c\uddf7\ud83c\uddfa HUGE: Starting today, Russia approves $BTC, $ETH and $USDT for retail investors, capped at \u20bd300K/year per intermediary.\n\nNews | Markets | YouTube",
+"title": "HUGE: Starting today, Russia approves BTC, ETH and USDT for retail investors, capped at \u20bd300K/year per intermediary.",
+"url": "https://t.me/cointelegraph/73338",
+"urls": []
+},
 "f66fd6aaf01d": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3695,29 +3729,31 @@
 "rain": 1794899279.363075
 },
 "probs": {
-"06444e46e7ea": 0.567,
+"03d4f3dc3cd7": 0.975,
+"06444e46e7ea": 0.487,
 "08440ab39ffb": 0.301,
 "0cbc410dcbb9": 0.954,
 "0d3165cabc6e": 0.655,
 "0f212f6dcdbd": 0.102,
+"1542cce20df0": 0.244,
 "1674b68cf228": 0.012,
+"16c71e2a8608": 0.175,
 "196e0b8c2427": 0.179,
 "33b813732f88": 0.367,
 "37c5f8a79115": 0.499,
-"38ecbc6d1df0": 0.389,
-"40c8a85aebfb": 0.202,
+"38ecbc6d1df0": 0.492,
 "47fbbb4030b2": 0.206,
 "520edb58be1e": 0.141,
-"63a55c37293f": 0.11,
-"6711f3cf5672": 0.358,
+"63a55c37293f": 0.247,
+"6711f3cf5672": 0.332,
 "67535aec20b6": 0.072,
-"721bbc845f89": 0.092,
 "722570f0249e": 0.092,
-"7333b02d3cc4": 0.381,
+"7333b02d3cc4": 0.16,
 "744b57521a41": 0.09,
+"773763f816e1": 0.798,
 "85284de8575d": 0.106,
 "876159a3109f": 0.141,
-"8a3de7fa2b89": 0.1,
+"8f8eb408919b": 0.616,
 "96c37959e1ef": 0.144,
 "9d26e6b114e2": 0.135,
 "9fef6772eec4": 0.268,
@@ -3725,56 +3761,16 @@
 "a460393d9455": 0.959,
 "a5e4b65ec885": 0.043,
 "a9d8ad7faa75": 0.349,
-"aa8800ca2bed": 0.125,
 "bdcb088e1261": 0.14,
-"c47fe653e6fb": 0.941,
+"c04a9e64091a": 0.077,
+"c47fe653e6fb": 0.945,
 "c5ad01ec39bc": 0.078,
-"cde6dc7bf786": 0.132,
+"cde6dc7bf786": 0.039,
 "e12ce0eab32b": 0.079,
 "e99bafe26586": 0.396,
-"ed029cabc3ad": 0.394,
-"f21c2a8aece6": 0.307,
 "f9cfba3797f3": 0.144
 },
 "sent": [
-{
-"e": [
-"cluster",
-"glassnode",
-"liquidation",
-"maps",
-"pressure",
-"support",
-"today",
-"under"
-],
-"k": [
-"crash"
-],
-"t": 1794750811.2258296,
-"u": [
-"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoMVlEcHpRYl80a2c1MUY0OHJrd3NsWk1tbngyaTJvWVRLdkNKSjNVRnh5bFRWanItcHlUSVRQaEJ5bFBkbkV5ZG1iRUxQd0ZHMVVMRGhSUDJxbWZnU3c?oc=5",
-"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoMVlEcHpRYl80a2c1MUY0OHJrd3NsWk1tbngyaTJvWVRLdkNKSjNVRnh5bFRWanItcHlUSVRQaEJ5bFBkbkV5ZG1iRUxQd0ZHMVVMRGhSUDJxbWZnU3c?oc=5",
-"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUdqY2pyMTFnOXp2MlFjMmRzMUVsOVBsQTNYX0VIMGZfSXhzTXdScXNFWWhzVkg3UjUtblNtVGUwZENFQW5CSkdDbE82MVF5eDJTckVwQVJnMGwyQ1FkRTVoZmZWTmNvS2l4V3V5TVhSQzY3UGZxeU0waTVhWUc5SVVlcDNrSkgxMGY2Vjdkc2FKdVd6b1pGZkVfRWJRMER6NllhdTFadHVYQl9NVkwyOXNVWFhuU29XSDRjRkp3ZUZibHdTSHdlQXVn?oc=5",
-"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUdqY2pyMTFnOXp2MlFjMmRzMUVsOVBsQTNYX0VIMGZfSXhzTXdScXNFWWhzVkg3UjUtblNtVGUwZENFQW5CSkdDbE82MVF5eDJTckVwQVJnMGwyQ1FkRTVoZmZWTmNvS2l4V3V5TVhSQzY3UGZxeU0waTVhWUc5SVVlcDNrSkgxMGY2Vjdkc2FKdVd6b1pGZkVfRWJRMER6NllhdTFadHVYQl9NVkwyOXNVWFhuU29XSDRjRkp3ZUZibHdTSHdlQXVn?oc=5"
-],
-"w": [
-"$60k",
-"$62k",
-"$65k",
-"bitcoin",
-"btc",
-"cluster",
-"glassnode",
-"liquidation",
-"maps",
-"pressure",
-"price",
-"support",
-"today",
-"under"
-]
-},
 {
 "e": [
 "back",
@@ -5184,71 +5180,93 @@
 "total",
 "trades"
 ]
+},
+{
+"e": [
+"michael",
+"saylor"
+],
+"k": [
+"ban"
+],
+"t": 1794923711.2966728,
+"u": [
+"https://t.me/WatcherGuru/16094"
+],
+"w": [
+"banks",
+"bitcoin",
+"bringing",
+"clients",
+"michael",
+"saylor",
+"their"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"03d4f3dc3cd7",
+16,
+28,
+1
+],
+[
+"f62d634cc244",
+10,
+7,
+1
+],
+[
 "a460393d9455",
-75,
-260,
+73,
+274,
 4
 ],
 [
 "0cbc410dcbb9",
 20,
-77,
+91,
 2
 ],
 [
 "c47fe653e6fb",
-44,
-257,
-1
+62,
+271,
+3
 ],
 [
 "a052cb1b6926",
 24,
-60,
+74,
+1
+],
+[
+"773763f816e1",
+18,
+9,
 1
 ],
 [
 "52b1399dc8de",
 10,
-11,
-1
-],
-[
-"03d4f3dc3cd7",
-16,
-15,
+25,
 1
 ],
 [
 "0d3165cabc6e",
 18,
-39,
+53,
 1
 ],
 [
-"06444e46e7ea",
-28,
-33,
-1
-],
-[
-"59464786a8ab",
-10,
-181,
-1
-],
-[
-"37c5f8a79115",
-20,
-157,
-2
+"8f8eb408919b",
+48,
+310,
+4
 ]
 ],
-"top_at": 1794922906.2955623
+"top_at": 1794923711.2966728
 }
