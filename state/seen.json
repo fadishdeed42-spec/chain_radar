@@ -21,21 +21,6 @@
 1794910812.4862669
 ],
 "menu": {
-"000f6ad45d27": {
-"coin": "",
-"src": "Coin Gabbar",
-"srcs": [
-"Coin Gabbar",
-"Crypto Adventure",
-"Cryptonews.net"
-],
-"t": 1794740665.983497,
-"t0": 1794719280.0,
-"tgtext": "",
-"title": "Kava Lend Exploit: Why KAVA Crashed 48% Despite Team\u2019s Safety Claim",
-"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdzZLYWtTUS1NZzlSSnBsMnRLallBQmF5ZkpOc2hxUG5nY0pZT0R1X1pKQU8tX0xGQUhob29VU3lxREpPanZfOTNFN3JpLTFIMHJONF9HVUVLNVNURjBrOVBXM0NvZkx5MW9XVm5WSTVmWnJraVVWU0lDdW9hd0FuemV3Qkx5OFVOZEhYdU9PLVV3S1Vy?oc=5",
-"urls": []
-},
 "0234490c28f9": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -325,7 +310,7 @@
 "Crypto News",
 "The Block"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794901157.0,
 "tgtext": "",
 "title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
@@ -706,6 +691,21 @@
 "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeG5YODNPT0hRNW5INmM3MXVUc3B6SU5Uakg0V3RXVG9HTnUwZWFjaVY0MkpxWllhMFo1dVFiMWl6SVl2TURHcm9tX1l6SVNpYmJ4cENxcHpTLU5wRndwN21Ha3pZNXJfTWpBa2t5VUtLeTFZV0Vrc3NUTkJoYTVnMjRfMEdKOHM0ZXBINVRhWGVwaWNxQlBxSGlNd1dmaFV0S3VSc2R2SGhuZ1EycnRJVGVKTmFsRWJTRUlGWEt4T0ZfUnFjQ2tYa0dKTmxqbXZmSnJBeg?oc=5",
 "urls": []
 },
+"3b43f850596f": {
+"coin": "ripple",
+"src": "Pluang",
+"srcs": [
+"Crypto News",
+"FXDailyReport.Com",
+"Pluang"
+],
+"t": 1794913681.0698402,
+"t0": 1794894073.0,
+"tgtext": "",
+"title": "XRP falls below $1 amid $44M long liquidations and ETF outflows, signaling bearish sentiment.",
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ19FUjdaWWEzbzVQLU5RdFAzU2FkcVZRYWstWFBaellNUU11NW1nMkNQU0tnYTJ1S3dURHpNLWthMG1vTW9vY0RaWllmbE5uZF9HVjRhc3lCWDdDMEJBOXY3VERSaHUxYzUyVjBaM3RLb1U2WnUyc0dnZFNQcHl3b3IwQXdWOFNvVDNwSnk3eWxzQllp?oc=5",
+"urls": []
+},
 "3be611f4986e": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -1081,7 +1081,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794912033.0,
 "tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
 "title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
@@ -1341,7 +1341,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1388,35 +1388,6 @@
 "urls": [
 "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807"
 ]
-},
-"76e217bf0431": {
-"coin": "bitcoin",
-"src": "KuCoin",
-"srcs": [
-"BusinessLine",
-"KuCoin",
-"The Defiant",
-"TradingView"
-],
-"t": 1794740665.983497,
-"t0": 1794719340.0,
-"tgtext": "",
-"title": "Bitcoin Drops to $62,000, a Three-Month Low, Amid ETF Outflows and Liquidations",
-"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbzJMTHFPN1dSc2RQWl9VWW5KeVFHMms4YzdFVFFQOF9MMEprUmRsRHlnMUxIOWxTUlFoVTB6WFZlVDI5S2Jhd0tWOVM3QlFpMkZwNm14b1NJLWtIcWplU2VkdnU3cTV6Mjk5bjVEcFhEckN5RTB4NWNmajNMQU1IMlU1UFVxUnhCbHQ5aTdyOEhNUDZrNVJzZlluN19qellVOW43QjFBbXAzZl9CUmpQZUM4dy14QQ?oc=5",
-"urls": []
-},
-"76ed6a71fabf": {
-"coin": "pepe",
-"src": "Traders Union",
-"srcs": [
-"Traders Union"
-],
-"t": 1794740050.305254,
-"t0": 1794725542.0,
-"tgtext": "",
-"title": "Pepe sees $640,000 in liquidations: Will PEPE avoid deeper losses?",
-"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUUhLSU84aTJtbnNBNEd2LXZSNldtU0M2UkNMX0NUTmRkSXBCOE9WY0Q5UF9sNi1BRUgxRkZmRlBHaEZfLTNHdk5tblludFdjVV9wZFFjMmhMaS1wbWxmX04xYTVaRmx4SHVMSzdmUU02OWdTVURUc1ZtS19wV2N4cmZ3X0dEVEljeUZEd0F6eU55M2pQa2N0TzVVRzc?oc=5",
-"urls": []
 },
 "796ab11c086d": {
 "coin": "",
@@ -1749,7 +1720,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794893876.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
 "title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
@@ -2021,7 +1992,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -2490,7 +2461,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794895920.0,
 "tgtext": "",
 "title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
@@ -2783,10 +2754,11 @@
 "src": "Wu Blockchain",
 "srcs": [
 "CoinDesk",
+"Pluang",
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794904279.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -3147,7 +3119,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794901701.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3211,9 +3183,10 @@
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
+"Cryptonews",
 "Lookonchain"
 ],
-"t": 1794912766.2828252,
+"t": 1794913681.0698402,
 "t0": 1794910332.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker has started laundering the 602,402 ETH ($1.09B) he holds!",
@@ -3575,43 +3548,43 @@
 },
 "probs": {
 "09bece7da30a": 0.076,
-"12bc8aefa9e8": 0.036,
 "180e66965ad9": 0.252,
 "196e0b8c2427": 0.115,
-"2f437b87882f": 0.058,
+"259459606240": 0.059,
+"2f437b87882f": 0.156,
 "32cde3b262bf": 0.036,
-"3b43f850596f": 0.025,
+"3b43f850596f": 0.242,
 "3d03c71886e6": 0.049,
 "3e6b270ef11b": 0.031,
 "411f4625de95": 0.064,
-"42ae29d3805b": 0.071,
 "4452a0feead3": 0.054,
+"48509db9f873": 0.034,
 "4aa234f6b587": 0.012,
 "63a55c37293f": 0.068,
 "6711f3cf5672": 0.111,
-"69e94173a5d5": 0.205,
+"69e94173a5d5": 0.063,
 "6c73d3da2d4b": 0.09,
 "721bbc845f89": 0.101,
+"7333b02d3cc4": 0.075,
 "76bf2dc72ce5": 0.15,
 "8164a4bda4f6": 0.022,
 "85284de8575d": 0.066,
 "8a3de7fa2b89": 0.111,
 "8aad3c3e83fa": 0.048,
 "8c1fcbbdec1e": 0.02,
-"8f8eb408919b": 0.082,
-"99d5f054f92f": 0.111,
+"8f8eb408919b": 0.184,
 "9d26e6b114e2": 0.085,
 "9d799837f8b3": 0.222,
-"a0e4cd121fe0": 0.123,
+"a0e4cd121fe0": 0.158,
+"a2cbc928116d": 0.023,
 "a5e4b65ec885": 0.074,
 "ba056fdb0cfc": 0.508,
 "c5ad01ec39bc": 0.018,
 "cf457de6ab2c": 0.089,
-"d11cb9a5ec02": 0.07,
-"d313f36ab402": 0.966,
+"d313f36ab402": 0.941,
 "e2b340698b3b": 0.137,
 "ed029cabc3ad": 0.223,
-"eff77d78f3ba": 0.764,
+"eff77d78f3ba": 0.926,
 "f21c2a8aece6": 0.012,
 "f9cfba3797f3": 0.091
 },
@@ -5019,64 +4992,64 @@
 "top": [
 [
 "d313f36ab402",
-74,
-141,
-3
+84,
+157,
+4
+],
+[
+"eff77d78f3ba",
+51,
+56,
+2
 ],
 [
 "59464786a8ab",
 10,
-12,
-1
-],
-[
-"eff77d78f3ba",
-33,
-41,
+27,
 1
 ],
 [
 "ba056fdb0cfc",
-45,
-281,
+43,
+296,
 5
 ],
 [
 "6e7cd3ea0246",
-4,
-275,
+2,
+290,
 1
 ],
 [
 "98ae04cfbd1a",
 0,
-267,
+282,
 1
 ],
 [
 "88053a11a2c0",
 0,
-315,
-1
-],
-[
-"48a9f27ee9be",
-10,
-30,
+330,
 1
 ],
 [
 "180e66965ad9",
-19,
-193,
+17,
+209,
 2
 ],
 [
+"3b43f850596f",
+46,
+327,
+3
+],
+[
 "ed029cabc3ad",
-32,
-184,
+30,
+200,
 1
 ]
 ],
-"top_at": 1794912766.2828252
+"top_at": 1794913681.0698402
 }
