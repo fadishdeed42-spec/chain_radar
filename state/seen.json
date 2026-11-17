@@ -15,7 +15,8 @@
 1794890450.4159775,
 1794902352.734504,
 1794910812.4862669,
-1794917668.0780222
+1794917668.0780222,
+1794919303.2265837
 ],
 "menu": {
 "0234490c28f9": {
@@ -129,15 +130,16 @@
 },
 "0cbc410dcbb9": {
 "coin": "",
-"src": "Cointelegraph",
+"src": "Watcher.Guru",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Watcher.Guru"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794918260.0,
-"tgtext": "",
-"title": "Revolut plans four blockchain-based funds for private markets, chair says",
-"url": "https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
+"title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
+"url": "https://t.me/WatcherGuru/16088",
 "urls": [
 "https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -307,7 +309,7 @@
 "Crypto News",
 "The Block"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794901157.0,
 "tgtext": "",
 "title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
@@ -634,7 +636,7 @@
 "The Motley Fool",
 "Yahoo Finance"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794913500.0,
 "tgtext": "",
 "title": "Crypto Sell-Off: Is Bitcoin a Buy After Plunging Below $70,000 Last Friday?",
@@ -685,7 +687,7 @@
 "Decrypt",
 "KuCoin"
 ],
-"t": 1794918790.6763175,
+"t": 1794919303.2265837,
 "t0": 1794907454.0,
 "tgtext": "",
 "title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
@@ -1141,7 +1143,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794912033.0,
 "tgtext": "\ud83d\udd25 JUST IN: NVIDIA establishes new board oversight for national security and AI chip export controls.\n\nNews | Markets | YouTube",
 "title": "NVIDIA establishes new board oversight for national security and AI chip export controls.",
@@ -2156,6 +2158,19 @@
 "https://cryptoslate.com/coinone-support-breach-puts-passwords-and-identity-details-at-risk/"
 ]
 },
+"a052cb1b6926": {
+"coin": "uniswap",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794919611.7266455,
+"t0": 1794919298.0,
+"tgtext": "Two newly created wallets withdrew 299,045 $UNI ($1.58M) and 355B $PEPE ($1.38M) from #OKX and #Binance 5 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0xA522A9a707C2E6170Fd1EAbE1e3D9FfEc3aE9d45",
+"title": "Two newly created wallets withdrew 299,045 UNI ($1.58M) and 355B PEPE ($1.38M) from OKX and Binance 5 hours ago.",
+"url": "https://t.me/lookonchainchannel/11117",
+"urls": []
+},
 "a233d8275373": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2215,19 +2230,19 @@
 "urls": []
 },
 "a460393d9455": {
-"coin": "",
-"src": "CoinDesk",
+"coin": "ethereum",
+"src": "Cryptonews",
 "srcs": [
 "CoinDesk",
 "Cryptonews",
 "Lookonchain",
 "Pluang"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794907279.0,
 "tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
-"title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
-"url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
+"title": "Ethereum Price and $1.16B Selling Threat: North Korea\u2019s Binance Hacker Moves $137M",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUkyVlVYc0drTXVXb25OeTUtVlpjelhyTFhuRXRQY0N0b3hTREplc2lJUDR5UWJaa1RZbWRiN2o2b1VUSkdLNWotUVF0R2VXQUFSQVAyVjE1b1hKZ0MwVW5EUThrbDNxWC1EUHdGUDcwdzliZC1hWjdKM21PVF85dA?oc=5",
 "urls": [
 "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
 ]
@@ -2699,7 +2714,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794907467.0,
 "tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
 "title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
@@ -2980,7 +2995,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794918486.2728944,
+"t": 1794919611.7266455,
 "t0": 1794898560.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3175,6 +3190,21 @@
 "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ3Q0LWdId1NDVDZSS1FFTURaMUt0aEQ5TXlnc2tqcUYyVjd5VERuZEZybDNqaTAyRldnZnoyaVRzdU5IMjNrdWZDQms5UW9ManVDNXdRU21WTFpQTGFmdDg0cGNzQ2FoUVhsV2dpVUdKS3NpdWhKZGZrbUdtQXd5M0hFM1o2bGFrQ1B3eTdLall2dw?oc=5",
 "urls": []
 },
+"e99bafe26586": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block"
+],
+"t": 1794919611.7266455,
+"t0": 1794912580.0,
+"tgtext": "",
+"title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
+"url": "https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106"
+]
+},
 "ea25e4504feb": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3243,7 +3273,7 @@
 "FXDailyReport.Com",
 "Wu Blockchain"
 ],
-"t": 1794918790.6763175,
+"t": 1794919303.2265837,
 "t0": 1794901701.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Crypto ETF Portfolio Cuts Bitcoin and Ether, Adds Solana, XRP and HYPE",
@@ -3340,7 +3370,7 @@
 "Decrypt",
 "Wu Blockchain"
 ],
-"t": 1794918790.6763175,
+"t": 1794919611.7266455,
 "t0": 1794906063.0,
 "tgtext": "Solana Foundation Takes Majority Stake in CoinGecko\n\nSolana Foundation member Vibhu confirmed that the foundation now holds a majority interest in CoinGecko, the crypto data platform. CoinGecko plans to expand its data and API infrastructure, enhance coverage of on-chain assets, RWAs and derivatives, and explore trading and DeFi services powered by Solana. CoinGecko said it will maintain its cross-chain coverage and transparent methodology. The exact ownership percentage and transaction value were not disclosed. \u2014 link",
 "title": "Solana Foundation Backs CoinGecko as Crypto Data Giant Eyes Trading",
@@ -3489,19 +3519,6 @@
 "urls": [
 "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
 ]
-},
-"f7a67b44baf5": {
-"coin": "ethereum",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794746643.6926825,
-"t0": 1794725070.0,
-"tgtext": "Another trading legend is about to fall!  Smart trader 0xe813 with a 100% win rate is currently down $7.3M on his $ETH long.  He won all 10 of his previous trades, making $6.32M in profit.  But this one trade has wiped out all his previous profits and put\u2026",
-"title": "Another trading legend is about to fall! Smart trader 0xe813 with a 100% win rate is currently down $7.3M on his ETH long. He won all 10 of his previous trades, making $6.32M in profit. But this one trade has wiped out a",
-"url": "https://t.me/lookonchainchannel/11076",
-"urls": []
 },
 "f7d74517a408": {
 "coin": "bitcoin",
@@ -3673,6 +3690,7 @@
 },
 "probs": {
 "08440ab39ffb": 0.301,
+"0cbc410dcbb9": 0.997,
 "0f212f6dcdbd": 0.102,
 "196e0b8c2427": 0.179,
 "33b813732f88": 0.367,
@@ -3683,33 +3701,32 @@
 "40c8a85aebfb": 0.143,
 "411f4625de95": 0.057,
 "520edb58be1e": 0.141,
-"5612a45d92d6": 0.074,
-"589cbb4d979e": 0.203,
+"5612a45d92d6": 0.076,
 "63a55c37293f": 0.11,
 "6711f3cf5672": 0.173,
 "67535aec20b6": 0.072,
 "69e94173a5d5": 0.102,
 "721bbc845f89": 0.159,
+"722570f0249e": 0.092,
 "7333b02d3cc4": 0.381,
-"76bf2dc72ce5": 0.136,
 "85284de8575d": 0.106,
 "876159a3109f": 0.141,
 "8a3de7fa2b89": 0.173,
 "8c1fcbbdec1e": 0.034,
-"8f8eb408919b": 0.168,
 "9d26e6b114e2": 0.135,
 "9fef6772eec4": 0.268,
-"a460393d9455": 0.971,
+"a052cb1b6926": 0.976,
+"a460393d9455": 0.938,
 "a5e4b65ec885": 0.169,
 "a9d8ad7faa75": 0.349,
 "aa8800ca2bed": 0.125,
 "bdcb088e1261": 0.14,
+"c04a9e64091a": 0.054,
 "c47fe653e6fb": 0.913,
 "c5ad01ec39bc": 0.031,
 "cf457de6ab2c": 0.305,
-"dbe933b31ccc": 0.068,
-"e2b340698b3b": 0.21,
-"ed029cabc3ad": 0.748,
+"dbe933b31ccc": 0.924,
+"e99bafe26586": 0.396,
 "f21c2a8aece6": 0.454,
 "f9cfba3797f3": 0.144
 },
@@ -5113,71 +5130,98 @@
 "million",
 "perreira"
 ]
+},
+{
+"e": [
+"revolut"
+],
+"k": [],
+"t": 1794919303.2265837,
+"u": [
+"https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/WatcherGuru/16088"
+],
+"w": [
+"allowing",
+"amounts",
+"based",
+"blockchain",
+"four",
+"fractional",
+"funds",
+"invest",
+"launch",
+"markets",
+"plans",
+"private",
+"revolut",
+"users"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"a460393d9455",
-84,
-192,
-4
+"0cbc410dcbb9",
+28,
+23,
+2
 ],
 [
-"c47fe653e6fb",
-53,
-189,
+"a052cb1b6926",
+24,
+5,
 1
 ],
 [
-"ed029cabc3ad",
-49,
-285,
-5
+"a460393d9455",
+82,
+206,
+4
+],
+[
+"dbe933b31ccc",
+45,
+351,
+3
+],
+[
+"c47fe653e6fb",
+52,
+202,
+1
 ],
 [
 "59464786a8ab",
 10,
-113,
+126,
 1
 ],
 [
 "37c5f8a79115",
 20,
-88,
+102,
 2
 ],
 [
 "f21c2a8aece6",
-26,
-212,
+24,
+226,
 3
 ],
 [
-"0cbc410dcbb9",
-10,
-9,
-1
-],
-[
 "180e66965ad9",
-5,
-294,
+3,
+308,
 2
 ],
 [
-"38ecbc6d1df0",
-89,
-189,
-4
-],
-[
-"7333b02d3cc4",
-29,
-191,
-2
+"e99bafe26586",
+28,
+117,
+1
 ]
 ],
-"top_at": 1794918790.6763175
+"top_at": 1794919611.7266455
 }
