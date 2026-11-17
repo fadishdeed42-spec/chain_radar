@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1794798615.0278168,
 1794799224.886548,
 1794800825.029386,
 1794812835.55115,
@@ -18,7 +17,8 @@
 1794841433.9937317,
 1794850925.7054517,
 1794866320.099992,
-1794882930.0579991
+1794882930.0579991,
+1794885485.7344348
 ],
 "menu": {
 "000f6ad45d27": {
@@ -226,7 +226,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794882735.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 13,134 $ETH ($23.67M)!\n\nOver the past 6 days, these wallets have bought a total of 84,837 $ETH ($154M) at an average price of $1,931.\n\nThey still have $12.96M in stablecoins left to buy more.\nhttps://x.com/lookonchain/status/2122143774906438101",
 "title": "The Erik Voorhees-linked wallets bought another 13,134 ETH ($23.67M)!",
@@ -733,6 +733,19 @@
 "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeG5YODNPT0hRNW5INmM3MXVUc3B6SU5Uakg0V3RXVG9HTnUwZWFjaVY0MkpxWllhMFo1dVFiMWl6SVl2TURHcm9tX1l6SVNpYmJ4cENxcHpTLU5wRndwN21Ha3pZNXJfTWpBa2t5VUtLeTFZV0Vrc3NUTkJoYTVnMjRfMEdKOHM0ZXBINVRhWGVwaWNxQlBxSGlNd1dmaFV0S3VSc2R2SGhuZ1EycnRJVGVKTmFsRWJTRUlGWEt4T0ZfUnFjQ2tYa0dKTmxqbXZmSnJBeg?oc=5",
 "urls": []
 },
+"3ccc337b53e8": {
+"coin": "ethena",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794885790.1229777,
+"t0": 1794885203.0,
+"tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
+"title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
+"url": "https://t.me/lookonchainchannel/11107",
+"urls": []
+},
 "3ed951bdedc4": {
 "coin": "",
 "src": "bloomingbit",
@@ -788,7 +801,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794880971.0,
 "tgtext": "Whale 0x4b10 withdrew 5,500 $ETH ($9.95M) and 5M $WLD ($1.32M) from #Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x4b104057eaf94d8EC7C6b521E19724fe5064dD05",
 "title": "Whale 0x4b10 withdrew 5,500 ETH ($9.95M) and 5M WLD ($1.32M) from Binance over the past 2 days.",
@@ -998,7 +1011,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794865133.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube\nBackpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru\n\ud83d\udd25 NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.\n\nNews | Markets | YouTube",
 "title": "NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.",
@@ -1559,7 +1572,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794880199.0,
 "tgtext": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
@@ -1600,7 +1613,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -1830,7 +1843,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1794884886.1709445,
+"t": 1794885485.7344348,
 "t0": 1794884561.0,
 "tgtext": "Binance Earn Launches BTC Yield APR Boost Promotion with Up to an Additional 2% APR for VIP Users\n\n\nBinance Earn is running a limited-time BTC Yield (BTCY) promotion, offering additional rewards for both new net subscriptions and existing holdings.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Binance Earn Launches BTC Yield APR Boost Promotion with Up to an Additional 2% APR for VIP Users",
@@ -2275,9 +2288,10 @@
 "src": "Decrypt",
 "srcs": [
 "Decrypt",
-"Yahoo Finance"
+"Yahoo Finance",
+"www.tokenpost.com"
 ],
-"t": 1794881276.752533,
+"t": 1794885790.1229777,
 "t0": 1794865563.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -2816,7 +2830,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794881907.0,
 "tgtext": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom\n\nCrypto market maker Wintermute warned in its November 16 market report that the bear market is far from over, with Bitcoin falling 12.7% last week to around $65,400, below its 200-week moving average near $68,000. U.S. spot Bitcoin ETFs have recorded $1.9 billion in net outflows so far in 2026, compared with $21 billion in inflows in 2025, while stablecoin supply has shrunk by $14 billion to $16 billion over the past 30 days. Wintermute said recent liquidations do not signal a market bottom, as rebounds appear driven by short covering rather than fresh capital. The firm warned Bitcoin could fall into the $50,000s and would reconsider its defensive stance only if BTC reclaimed $68,000 alongside renewed ETF inflows. \u2014 link",
 "title": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom",
@@ -3001,7 +3015,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794884886.1709445,
+"t": 1794885790.1229777,
 "t0": 1794878968.0,
 "tgtext": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 $ETH ($2.73M) into #Coinbase 4 hours ago.\n\nhttps://arkm.com/explorer/address/0xFF341626fEb4bBFd84115F32F966903fa5537458",
 "title": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 ETH ($2.73M) into Coinbase 4 hours ago.",
@@ -3517,6 +3531,22 @@
 "url": "https://t.me/wublockchainenglish/26845",
 "urls": []
 },
+"fd96eb69089f": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"The Block",
+"Wu Blockchain"
+],
+"t": 1794885790.1229777,
+"t0": 1794865465.0,
+"tgtext": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders\n\nTrezor, a leading cryptocurrency hardware wallet manufacturer, disclosed that a breach at shipping partner Skladon exposed personal information linked to approximately 27,000 orders placed between August 9 and November 7. Skladon notified Trezor on November 15 that attackers had accessed its systems and were believed to have exported customer names, phone numbers, addresses, emails and order details. The breach affected multiple countries but not U.S. customers. Trezor said its own systems and hardware wallets remained secure, warning users of phishing scams and potential physical security risks.https://x.com/Trezor/status/2122363569891135655?a=VEd-7HQE5FC-nrMNBqk&s=20 \u2014 link",
+"title": "Trezor hit by another shipping partner data leak, affecting 27,000 Skladon orders",
+"url": "https://www.theblock.co/news/business/2026-11-16-trezor-hit-another-shipping-partner-data-leak-affecting-27000-skladon-orders-441524",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-16-trezor-hit-another-shipping-partner-data-leak-affecting-27000-skladon-orders-441524"
+]
+},
 "ff38d41cf335": {
 "coin": "",
 "src": "bloomingbit",
@@ -3557,88 +3587,46 @@
 "probs": {
 "10ba68ce0b24": 0.065,
 "119860455eaa": 0.855,
-"129b04582d1b": 0.222,
+"129b04582d1b": 0.303,
 "1a95ddf68b0e": 0.066,
 "1c331738b6bc": 0.032,
 "1f04dd287534": 0.068,
 "27a0f2f68bf8": 0.247,
+"365d1fee696f": 0.089,
+"36b7871eb905": 0.028,
 "3a1128d3dfb6": 0.02,
+"3ccc337b53e8": 0.951,
 "42b00d9c9daf": 0.815,
 "44c76a9d29d9": 0.027,
 "4dfa6abbd6f3": 0.086,
-"579afef88909": 0.902,
-"5b9d7327ee55": 0.022,
+"579afef88909": 0.921,
 "5c5ffc1383fe": 0.203,
-"71e2cc23f8fc": 0.051,
 "7743dbb49537": 0.024,
+"78770d04ced1": 0.168,
+"78f7a83e386d": 0.083,
 "80dff9c62521": 0.462,
+"854cb8eb4c66": 0.934,
 "8b3d3fe34e65": 0.148,
-"91bbabb6735f": 0.046,
-"921b30c8cd3b": 0.537,
+"8bc1eedcea2c": 0.04,
+"921b30c8cd3b": 0.232,
 "9e9ad775bd91": 0.019,
-"ac8e8c595f95": 0.041,
-"afa3663d51b6": 0.032,
-"b482d4b0d33c": 0.218,
-"c21961de6754": 0.015,
-"c9029223859e": 0.038,
+"afa3663d51b6": 0.03,
+"b482d4b0d33c": 0.384,
+"c3c8befea4e3": 0.119,
+"c9029223859e": 0.055,
 "ca82d5910825": 0.359,
 "d4f7035631a2": 0.1,
 "d99f642d492c": 0.524,
-"d9a7d18124fb": 0.022,
 "deac26798fbd": 0.098,
 "df6da2610bb8": 0.038,
 "e0a943ce1d35": 0.315,
-"e1f4024dea9f": 0.021,
-"e3a4721e21ac": 0.008,
 "e3d60bbf6d1b": 0.752,
-"e66b4c7e9668": 0.018,
 "eb84ccdb378a": 0.086,
-"f4dfdd953912": 0.271,
-"f6b091c42d87": 0.08
+"f4dfdd953912": 0.212,
+"f66fd6aaf01d": 0.275,
+"fd96eb69089f": 0.83
 },
 "sent": [
-{
-"e": [
-"bloomberg",
-"mcglone",
-"mike"
-],
-"k": [],
-"t": 1794710263.3834105,
-"u": [
-"https://t.me/cointelegraph/73287"
-],
-"w": [
-"assets",
-"bloomberg",
-"btc",
-"could",
-"deflation",
-"led",
-"mcglone",
-"mike",
-"now",
-"risk",
-"signaling",
-"way"
-]
-},
-{
-"e": [],
-"k": [],
-"t": 1794712403.453425,
-"u": [
-"https://t.me/WatcherGuru/16047"
-],
-"w": [
-"$65",
-"000",
-"bitcoin",
-"green",
-"reclaims",
-"turns"
-]
-},
 {
 "e": [
 "another",
@@ -5003,71 +4991,120 @@
 "voorhees",
 "wallets"
 ]
+},
+{
+"e": [
+"binance",
+"ena",
+"whale"
+],
+"k": [],
+"t": 1794885485.7344348,
+"u": [
+"https://t.me/lookonchainchannel/11107"
+],
+"w": [
+"0x9a80",
+"20m",
+"33m",
+"ago",
+"binance",
+"capitulated",
+"depositing",
+"ena",
+"hours",
+"whale"
+]
+},
+{
+"e": [
+"skladon",
+"trezor"
+],
+"k": [],
+"t": 1794885485.7344348,
+"u": [
+"https://www.theblock.co/news/business/2026-11-16-trezor-hit-another-shipping-partner-data-leak-affecting-27000-skladon-orders-441524",
+"https://t.me/wublockchainenglish/26855"
+],
+"w": [
+"000",
+"affecting",
+"another",
+"data",
+"hit",
+"leak",
+"orders",
+"partner",
+"shipping",
+"skladon",
+"trezor"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"3ccc337b53e8",
+32,
+10,
+1
+],
+[
 "854cb8eb4c66",
 0,
-341,
+356,
 2
 ],
 [
 "579afef88909",
-11,
-329,
+9,
+344,
 3
 ],
 [
 "119860455eaa",
 16,
-36,
+51,
 1
+],
+[
+"fd96eb69089f",
+24,
+339,
+2
 ],
 [
 "42b00d9c9daf",
 32,
-65,
+80,
 1
 ],
 [
 "e3d60bbf6d1b",
 24,
-99,
-1
-],
-[
-"921b30c8cd3b",
-18,
-5,
+114,
 1
 ],
 [
 "d99f642d492c",
 10,
-50,
+65,
 1
 ],
 [
 "80dff9c62521",
 10,
-78,
+93,
 1
 ],
 [
-"ca82d5910825",
-17,
-297,
-1
-],
-[
-"e0a943ce1d35",
-49,
-288,
+"b482d4b0d33c",
+40,
+337,
 3
 ]
 ],
-"top_at": 1794884886.1709445
+"top_at": 1794885790.1229777
 }
