@@ -5,8 +5,6 @@
 },
 "init": true,
 "log": [
-1794799224.886548,
-1794800825.029386,
 1794812835.55115,
 1794821165.3260663,
 1794825406.8659422,
@@ -18,7 +16,8 @@
 1794850925.7054517,
 1794866320.099992,
 1794882930.0579991,
-1794885485.7344348
+1794885485.7344348,
+1794889948.404524
 ],
 "menu": {
 "000f6ad45d27": {
@@ -109,6 +108,22 @@
 "title": "Strategy transferred 221.74 BTC ($14.19M) to a new wallet ~30 minutes ago.",
 "url": "https://t.me/lookonchainchannel/11091",
 "urls": []
+},
+"077644104739": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Cointelegraph",
+"Wu Blockchain"
+],
+"t": 1794889948.404524,
+"t0": 1794884976.0,
+"tgtext": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders\n\nTrezor, a leading cryptocurrency hardware wallet manufacturer, disclosed that a breach at shipping partner Skladon exposed personal information linked to approximately 27,000 orders placed between August 9 and November 7. Skladon notified Trezor on November 15 that attackers had accessed its systems and were believed to have exported customer names, phone numbers, addresses, emails and order details. The breach affected multiple countries but not U.S. customers. Trezor said its own systems and hardware wallets remained secure, warning users of phishing scams and potential physical security risks.https://x.com/Trezor/status/2122363569891135655?a=VEd-7HQE5FC-nrMNBqk&s=20 \u2014 link",
+"title": "Trezor Says Shipping Partner Data Breach Exposed 27,000 Customer Orders",
+"url": "https://t.me/wublockchainenglish/26855",
+"urls": [
+"https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "0874e7bb8a67": {
 "coin": "bitcoin",
@@ -242,11 +257,25 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794882735.0,
 "tgtext": "The Erik Voorhees-linked wallets bought another 13,134 $ETH ($23.67M)!\n\nOver the past 6 days, these wallets have bought a total of 84,837 $ETH ($154M) at an average price of $1,931.\n\nThey still have $12.96M in stablecoins left to buy more.\nhttps://x.com/lookonchain/status/2122143774906438101",
 "title": "The Erik Voorhees-linked wallets bought another 13,134 ETH ($23.67M)!",
 "url": "https://t.me/lookonchainchannel/11105",
+"urls": []
+},
+"129b04582d1b": {
+"coin": "lighter",
+"src": "Crypto Briefing",
+"srcs": [
+"Crypto Briefing",
+"Crypto Economy"
+],
+"t": 1794889644.8940177,
+"t0": 1794873652.0,
+"tgtext": "",
+"title": "Lighter investigates $15.5M exploit tied to compromised API keys",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVS14SFQ0c1FjQ1RmSEF2YnhhT25KaVlqalNEanJEN29qUDFXVGRXWkFqTnU2OVF2bFFCQWp2eGlraTFrd24xLTR2bXZIQUV1Um9MRURXVFBfVUp3eDJWc1FFejJ1andoSzFISWRyb0llMTFDNFlkbFdvVGI2bjlxSUxoTmxCX2ZuN1FIaXNoeHBvWDJkeXc?oc=5",
 "urls": []
 },
 "1303344c9692": {
@@ -734,7 +763,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794885203.0,
 "tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
 "title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
@@ -796,7 +825,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794880971.0,
 "tgtext": "Whale 0x4b10 withdrew 5,500 $ETH ($9.95M) and 5M $WLD ($1.32M) from #Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x4b104057eaf94d8EC7C6b521E19724fe5064dD05",
 "title": "Whale 0x4b10 withdrew 5,500 ETH ($9.95M) and 5M WLD ($1.32M) from Binance over the past 2 days.",
@@ -1079,20 +1108,6 @@
 "https://bitcoinmagazine.com/news/german-bundestag-crypto-over-100000"
 ]
 },
-"6072b96614a8": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"Watcher.Guru"
-],
-"t": 1794716381.5134718,
-"t0": 1794694859.0,
-"tgtext": "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n$BTC crashed 6.74%\n$ETH crashed 9.36%\n$BNB crashed 9.34%\n$XRP crashed 10.92%\n$SOL crashed 11.79%\n\n@WatcherGuru",
-"title": "Bitcoin Falls Below $63,000 to Three-Month Low; 318,700 Traders Liquidated in 24 Hours, $1.9 Billion Wiped Out",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5TDR4ZEFLYmxtN0JLcHZrRVhUam1LN3o0bk5GLVQxdzlScW5ndm9kaWxsY0hMOERTcHk1a2tGTmdsRE5ONmhKSlcxNGtSUlFWUU54eHotemVXdmFFY2tZRkVYemhhWFNyWVdhZTI0Qm9Mdlk2TlE?oc=5",
-"urls": []
-},
 "61200ffbb954": {
 "coin": "lighter",
 "src": "Cryptonews.net",
@@ -1140,20 +1155,6 @@
 "urls": [
 "https://bitcoinmagazine.com/news/hong-kong-license-crypto-dealers-custodian"
 ]
-},
-"638a135ddb9d": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"Pluang",
-"scanx.trade"
-],
-"t": 1794716547.936074,
-"t0": 1794696414.0,
-"tgtext": "",
-"title": "Bitcoin falls below $74K after Binance hack and AI crash, $73K level critical for recovery.",
-"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbjhqSTZOa1hpNE5HdFNqM3NuNlhPa3hnM1JwMGZmdUZ3SHJxa1F6SmFNYnRKZm1vTU9EdTNHR0M3WlhnMHMybFIybG9LVmdEeVkzakRFbXhwVW9TbVdhTmw3RDVCdFN5eGJJN3hUbmVkT1RyUnVqTDhPdFUtbzRGWnhXcmJPYXNiUE9CY0w0RlQ3dFZ2RXBxeVBIbzJOZkhIN1E?oc=5",
-"urls": []
 },
 "63fe37a7dbd6": {
 "coin": "bitcoin",
@@ -1218,7 +1219,7 @@
 "Cointelegraph",
 "Cryptopolitan"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794869613.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.\n\nNews | Markets | YouTube",
 "title": "A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.",
@@ -1464,6 +1465,19 @@
 "url": "https://t.me/lookonchainchannel/11098",
 "urls": []
 },
+"7da94308df5b": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794889948.404524,
+"t0": 1794889795.0,
+"tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
+"title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
+"url": "https://t.me/cointelegraph/73333",
+"urls": []
+},
 "7de34e86ccad": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1581,7 +1595,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794889072.4467323,
+"t": 1794889644.8940177,
 "t0": 1794880199.0,
 "tgtext": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
@@ -1852,7 +1866,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1794888766.7368622,
+"t": 1794889948.404524,
 "t0": 1794884561.0,
 "tgtext": "Binance Earn Launches BTC Yield APR Boost Promotion with Up to an Additional 2% APR for VIP Users\n\n\nBinance Earn is running a limited-time BTC Yield (BTCY) promotion, offering additional rewards for both new net subscriptions and existing holdings.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Binance Earn Launches BTC Yield APR Boost Promotion with Up to an Additional 2% APR for VIP Users",
@@ -2839,7 +2853,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794881907.0,
 "tgtext": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom\n\nCrypto market maker Wintermute warned in its November 16 market report that the bear market is far from over, with Bitcoin falling 12.7% last week to around $65,400, below its 200-week moving average near $68,000. U.S. spot Bitcoin ETFs have recorded $1.9 billion in net outflows so far in 2026, compared with $21 billion in inflows in 2025, while stablecoin supply has shrunk by $14 billion to $16 billion over the past 30 days. Wintermute said recent liquidations do not signal a market bottom, as rebounds appear driven by short covering rather than fresh capital. The firm warned Bitcoin could fall into the $50,000s and would reconsider its defensive stance only if BTC reclaimed $68,000 alongside renewed ETF inflows. \u2014 link",
 "title": "Wintermute Warns Crypto Bear Market Isn't Over, Recent Selloff No Sign of a Bottom",
@@ -3024,7 +3038,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794878968.0,
 "tgtext": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 $ETH ($2.73M) into #Coinbase 4 hours ago.\n\nhttps://arkm.com/explorer/address/0xFF341626fEb4bBFd84115F32F966903fa5537458",
 "title": "A wallet possibly linked to Arthur Hayes(@CryptoHayes) deposited 1,500 ETH ($2.73M) into Coinbase 4 hours ago.",
@@ -3039,7 +3053,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794889072.4467323,
+"t": 1794889948.404524,
 "t0": 1794870502.0,
 "tgtext": "Backpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru\n\ud83d\udd25 NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.\n\nNews | Markets | YouTube",
 "title": "NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.",
@@ -3609,45 +3623,38 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"022f75a87241": 0.02,
-"05fbbad6b658": 0.078,
+"077644104739": 0.86,
 "10ba68ce0b24": 0.19,
 "119860455eaa": 0.811,
-"129b04582d1b": 0.222,
+"129b04582d1b": 0.127,
 "1a95ddf68b0e": 0.082,
 "1c331738b6bc": 0.04,
 "1f04dd287534": 0.085,
+"20b067b83d0a": 0.029,
 "27a0f2f68bf8": 0.067,
-"2f3f4c0ff27a": 0.55,
-"36b7871eb905": 0.028,
+"381a8153b3dd": 0.024,
 "3a1128d3dfb6": 0.025,
 "3ccc337b53e8": 0.543,
 "42b00d9c9daf": 0.815,
 "4dfa6abbd6f3": 0.106,
 "5c5ffc1383fe": 0.12,
 "68c4ee516d47": 0.38,
-"71e2cc23f8fc": 0.051,
-"760e1064e004": 0.02,
 "7743dbb49537": 0.024,
-"80dff9c62521": 0.462,
+"7da94308df5b": 0.913,
+"80dff9c62521": 0.183,
+"8b3d3fe34e65": 0.148,
 "921b30c8cd3b": 0.232,
 "9d26e6b114e2": 0.072,
 "9e9ad775bd91": 0.019,
-"aca0334f4082": 0.014,
-"c21961de6754": 0.015,
-"c3c8befea4e3": 0.097,
+"a4ecfc788037": 0.023,
 "c9029223859e": 0.055,
 "d06a7ba7bdef": 0.026,
+"d4f7035631a2": 0.1,
 "d99f642d492c": 0.444,
-"d9a7d18124fb": 0.022,
 "df6da2610bb8": 0.038,
-"e0a943ce1d35": 0.315,
-"e1f4024dea9f": 0.021,
-"e3a4721e21ac": 0.008,
 "e3d60bbf6d1b": 0.752,
 "e462d7829ef3": 0.969,
-"e59a00b19580": 0.048,
-"eb84ccdb378a": 0.086,
+"eb84ccdb378a": 0.106,
 "f4dfdd953912": 0.212
 },
 "sent": [
@@ -5064,6 +5071,40 @@
 "skladon",
 "trezor"
 ]
+},
+{
+"e": [
+"big",
+"kalshi",
+"securities",
+"wsj",
+"york"
+],
+"k": [
+"etf"
+],
+"t": 1794889948.404524,
+"u": [
+"https://t.me/cointelegraph/73333"
+],
+"w": [
+"big",
+"broker",
+"buys",
+"etfs",
+"kalshi",
+"months",
+"next",
+"offer",
+"plans",
+"reports",
+"securities",
+"stocks",
+"two",
+"within",
+"wsj",
+"york"
+]
 }
 ],
 "stories": {},
@@ -5071,64 +5112,64 @@
 "top": [
 [
 "e462d7829ef3",
-13,
-310,
+11,
+324,
 3
+],
+[
+"7da94308df5b",
+10,
+3,
+1
+],
+[
+"077644104739",
+45,
+83,
+2
 ],
 [
 "42b00d9c9daf",
 32,
-135,
+150,
 1
 ],
 [
 "119860455eaa",
 16,
-106,
+120,
 1
 ],
 [
 "e3d60bbf6d1b",
 24,
-168,
+183,
 1
-],
-[
-"2f3f4c0ff27a",
-32,
-360,
-3
 ],
 [
 "3ccc337b53e8",
 32,
-64,
-1
-],
-[
-"80dff9c62521",
-10,
-148,
+79,
 1
 ],
 [
 "d99f642d492c",
 10,
-119,
+134,
 1
 ],
 [
 "68c4ee516d47",
-29,
-324,
+27,
+339,
 3
 ],
 [
-"e0a943ce1d35",
-40,
-358,
-3
+"921b30c8cd3b",
+18,
+90,
+1
 ]
 ],
-"top_at": 1794889072.4467323
+"top_at": 1794889948.404524
 }
