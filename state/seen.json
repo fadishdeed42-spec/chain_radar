@@ -525,7 +525,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794857217.0,
 "tgtext": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed\n\nLighter said in its November 16 security incident report that an attacker exploited nonce reuse in unofficial signing code used by certain trading accounts to derive API private keys from public signatures. The attacker then created a public pool through a compromised account, transferred funds into the pool, and extracted assets by redeeming pool shares through an attacker-controlled account. Lighter confirmed that its protocol, smart contracts, infrastructure, and official SDKs were unaffected.\n\nThe incident triggered its smart contract-based Guardian mechanism, temporarily pausing withdrawals and allowing the Security Council to return approximately 5 million USDC to the affected trader. Withdrawals have since resumed, with pending requests being processed. Lighter has implemented wallet signature requirements for public pool transfers and made API key signatures non-public. It also plans to introduce IP allowlists, per-key permissions and limits, and proactively monitor and revoke API keys at risk from nonce reuse. \u2014 link",
 "title": "Lighter Security Incident Update: Approximately 5M USDC Returned to Affected Trader, Withdrawals Resumed",
@@ -893,19 +893,6 @@
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUdqY2pyMTFnOXp2MlFjMmRzMUVsOVBsQTNYX0VIMGZfSXhzTXdScXNFWWhzVkg3UjUtblNtVGUwZENFQW5CSkdDbE82MVF5eDJTckVwQVJnMGwyQ1FkRTVoZmZWTmNvS2l4V3V5TVhSQzY3UGZxeU0waTVhWUc5SVVlcDNrSkgxMGY2Vjdkc2FKdVd6b1pGZkVfRWJRMER6NllhdTFadHVYQl9NVkwyOXNVWFhuU29XSDRjRkp3ZUZibHdTSHdlQXVn?oc=5",
 "urls": []
 },
-"5505ff91b9a6": {
-"coin": "solana",
-"src": "Pluang",
-"srcs": [
-"Pluang"
-],
-"t": 1794704445.8308053,
-"t0": 1794690573.0,
-"tgtext": "",
-"title": "Solana sees $11.55M long liquidations as price drops nearly 2% to $70.74 in one hour",
-"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1QzdUNiR3hzdDUzVURYU1ZnUkVnZ0M3MzBaaEJHOVVKcWdQNk5sa2ZnOWcyRE95cmdKOVpQOHBRMVVpV3kyOC1DX01OYVQ3Z0tBdW9qNDFfTVVKQWFfVlhJUGdoRlFYZ2ZUN0FQWDBSSTdOdkRpSVlqeko4RUc0d3BTdTdFc1F6M2c?oc=5",
-"urls": []
-},
 "5517206461ad": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -982,13 +969,14 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
+"Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794865133.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube\nBackpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link",
-"title": "The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.",
-"url": "https://t.me/cointelegraph/73326",
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: The CFTC approves the first exchange and clearinghouse applications using blockchain technology for derivatives trading and settlement.\n\nNews | Markets | YouTube\nBackpack Secures CFTC Approval for U.S. Derivatives Exchange and Clearing, Plans Perpetual Futures Trading for U.S. Users\n\nBackpack announced that it has received approval from the U.S. Commodity Futures Trading Commission (CFTC) for its U.S. derivatives exchange and clearing operations, including a Designated Contract Market (DCM) designation and a Derivatives Clearing Organization (DCO) registration. The company plans to offer U.S. users 24/7 leveraged trading in crypto perpetual futures, with support for fiat and crypto collateral, cross-margining across positions, and access to Backpack's global liquidity through a unified order book. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC approves crypto exchange Backpack to launch the first blockchain-based derivatives exchange in the US, with perps on a unified global order book.\n\n@WatcherGuru\n\ud83d\udd25 NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.\n\nNews | Markets | YouTube",
+"title": "NOW: Backpack secures CFTC approval to launch a US derivatives exchange with leveraged perpetuals, crypto collateral and one global order book.",
+"url": "https://t.me/cointelegraph/73328",
 "urls": []
 },
 "586ab18f44a9": {
@@ -1016,7 +1004,7 @@
 "Crypto Economy",
 "CryptoSlate"
 ],
-"t": 1794876175.9392226,
+"t": 1794877333.8535297,
 "t0": 1794856165.0,
 "tgtext": "",
 "title": "Lighter resumes withdrawals after recovering $5 million following API key exploit",
@@ -1213,7 +1201,7 @@
 "Decrypt",
 "Yahoo Finance"
 ],
-"t": 1794875650.907668,
+"t": 1794877029.5987122,
 "t0": 1794858581.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -1573,7 +1561,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794864444.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
@@ -1774,7 +1762,7 @@
 "Yahoo Finance",
 "www.tmgm.com"
 ],
-"t": 1794876481.8069434,
+"t": 1794877029.5987122,
 "t0": 1794861363.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: Why does BitMine see a SpaceX IPO-like trend in ETH ahead of Anthropic IPO?",
@@ -2219,9 +2207,10 @@
 "coin": "bitcoin",
 "src": "Decrypt",
 "srcs": [
-"Decrypt"
+"Decrypt",
+"Yahoo Finance"
 ],
-"t": 1794866623.5266225,
+"t": 1794877333.8535297,
 "t0": 1794865563.0,
 "tgtext": "",
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
@@ -2561,7 +2550,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794867093.0,
 "tgtext": "JUST IN: United Airlines $UAL experiences widespread system outage.\n\n@WatcherGuru",
 "title": "United Airlines UAL experiences widespread system outage.",
@@ -2837,9 +2826,11 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Traders Union",
+"TradingView"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794867581.0,
 "tgtext": "",
 "title": "Binance hack may push institutions to outside custody, FalconX exec says",
@@ -2909,7 +2900,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794860949.0,
 "tgtext": "JUST IN: Goldman Sachs predicts gold will reach a new all-time high by 2028.\n\n@WatcherGuru",
 "title": "Goldman Sachs predicts gold will reach a new all-time high by 2028.",
@@ -3179,7 +3170,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794857712.0,
 "tgtext": "JUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
 "title": "Nvidia founder Jensen Huang transferred billions in NVDA shares to his heirs months before he resigned as CEO.",
@@ -3255,7 +3246,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794876481.8069434,
+"t": 1794877333.8535297,
 "t0": 1794866350.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea to allow tech companies to launch won-backed crypto stablecoins, with banks holding majority ownership.",
@@ -3305,6 +3296,20 @@
 "tgtext": "64,000 Bitcoin Mining Machines Hijacked, Redirecting 13 EH/s to OCEAN Pool\n\nBitcoin News reported that approximately 64,000 Bitcoin mining machines, representing about 13 EH/s of hashrate, were hijacked around 20:00 U.S. Central Time on November 14. The attackers redirected the hashrate to OCEAN and replaced the mining payout address with one they controlled, briefly pushing the pool's hashrate close to 50 EH/s.\n\nCoreX Hosting said the incident appeared to have ended on November 15, with the affected hashrate falling to around 100 PH/s. The attackers failed to mine any blocks and received no block rewards, although affected miners lost mining revenue during the incident. A potential compromise of Luxor Commander software has not been independently confirmed. \u2014 link",
 "title": "64,000 Bitcoin Mining Machines Hijacked, Redirecting 13 EH/s to OCEAN Pool",
 "url": "https://t.me/wublockchainenglish/26835",
+"urls": []
+},
+"f948f9f46ba1": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Bitcoin News",
+"Watcher.Guru"
+],
+"t": 1794877029.5987122,
+"t0": 1794855645.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Major US banks, including Bank of America, Wells Fargo, and Chase, confirmed to be experiencing widespread online outages for over an hour.",
+"url": "https://t.me/WatcherGuru/16075",
 "urls": []
 },
 "f9661a6dd363": {
@@ -3436,46 +3441,46 @@
 "rain": 1794812525.8653169
 },
 "probs": {
-"0df42fb11b7f": 0.058,
-"13b151f123e0": 0.854,
+"0aeb74aaaaa2": 0.031,
 "1a95ddf68b0e": 0.068,
 "1c331738b6bc": 0.033,
-"1e076208eaae": 0.03,
 "1f04dd287534": 0.125,
-"23905dee1f15": 0.068,
+"23905dee1f15": 0.085,
+"27a0f2f68bf8": 0.183,
+"2e2d8c657a3f": 0.02,
 "2f3f4c0ff27a": 0.023,
+"36b7871eb905": 0.011,
 "381a8153b3dd": 0.02,
-"3b0510f78e9d": 0.077,
 "44c76a9d29d9": 0.041,
-"48aa3ed6ec66": 0.075,
-"4df022741de3": 0.019,
-"555022f4a52a": 0.104,
-"557b45025328": 0.011,
-"579afef88909": 0.659,
-"5b69891378df": 0.018,
+"579afef88909": 0.97,
+"5b69891378df": 0.295,
 "5c5ffc1383fe": 0.091,
 "67c7c9a06026": 0.111,
-"6c8187573955": 0.048,
-"6e1ef5e7c7db": 0.141,
+"7743dbb49537": 0.025,
 "78f7a83e386d": 0.07,
 "81de774abde0": 0.022,
 "854cb8eb4c66": 0.921,
 "8b3d3fe34e65": 0.125,
 "8bc1eedcea2c": 0.033,
-"9042dadb9508": 0.449,
+"9042dadb9508": 0.161,
 "a8e3e661cfe7": 0.103,
+"a916d35dff0d": 0.058,
 "a9f8f265789a": 0.184,
-"afa3663d51b6": 0.025,
-"b6bee07fa251": 0.041,
+"afa3663d51b6": 0.031,
+"b1ce3461cf20": 0.063,
+"b482d4b0d33c": 0.245,
+"b6bee07fa251": 0.022,
+"c3c8befea4e3": 0.173,
 "c9029223859e": 0.057,
 "ca82d5910825": 0.291,
 "d4f7035631a2": 0.084,
-"d5aed5414a51": 0.023,
-"e0a943ce1d35": 0.207,
+"e0a943ce1d35": 0.308,
 "e4b5b7084a95": 0.345,
+"e66b4c7e9668": 0.027,
 "f66fd6aaf01d": 0.238,
+"f997a74f3536": 0.069,
 "fa40df5a7659": 0.022,
-"fd96eb69089f": 0.071
+"fd96eb69089f": 0.088
 },
 "sent": [
 {
@@ -4988,65 +4993,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"854cb8eb4c66",
-18,
-201,
-2
-],
-[
-"13b151f123e0",
-19,
-358,
-2
-],
-[
 "579afef88909",
-19,
-189,
-2
+27,
+203,
+3
 ],
 [
-"9042dadb9508",
-41,
-252,
-4
+"854cb8eb4c66",
+16,
+215,
+2
 ],
 [
 "e4b5b7084a95",
-12,
-259,
+10,
+273,
 1
 ],
 [
 "f48041ccfb4c",
 0,
-313,
+327,
 1
+],
+[
+"e0a943ce1d35",
+63,
+163,
+3
+],
+[
+"5b69891378df",
+48,
+353,
+4
 ],
 [
 "ca82d5910825",
 32,
-156,
+171,
 1
+],
+[
+"b482d4b0d33c",
+48,
+196,
+2
 ],
 [
 "f66fd6aaf01d",
 10,
-169,
+183,
 1
 ],
 [
 "296379b55b89",
 0,
-321,
-1
-],
-[
-"e0a943ce1d35",
-43,
-148,
+335,
 1
 ]
 ],
-"top_at": 1794876481.8069434
+"top_at": 1794877333.8535297
 }
