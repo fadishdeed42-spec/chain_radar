@@ -691,17 +691,18 @@
 "urls": []
 },
 "3be611f4986e": {
-"coin": "",
-"src": "www.tokenpost.com",
+"coin": "bitcoin",
+"src": "Wu Blockchain",
 "srcs": [
 "Coinfomania",
+"Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1794907421.3920538,
+"t": 1794908545.63431,
 "t0": 1794901626.0,
-"tgtext": "",
-"title": "Analyst Tracks 74,881 Ether Moved From Address Tied to Binance Hack",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzdkhwVEdWS1NINmktbEM2WlVHOC02aklKWUZkcnJ6ZWhzaXJMM2xmX0pNZEV1UG1UekVFZjNrNjF6eUlSbHV1cjVWZHA4VmhxT25JNWlDUDJKZw?oc=5",
+"tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
+"title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
+"url": "https://t.me/wublockchainenglish/26858",
 "urls": []
 },
 "3ccc337b53e8": {
@@ -786,7 +787,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794894645.0,
 "tgtext": "",
 "title": "Cathie Wood's ARK Sells Solana And Ethereum Staking Funds, Buys Three Crypto Stocks Amid Bitcoin Slide",
@@ -803,7 +804,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794893843.0,
 "tgtext": "",
 "title": "Wells Fargo's bitcoin ETF holdings now rival Tesla and SpaceX's combined $2 billion",
@@ -979,18 +980,23 @@
 "urls": []
 },
 "56aabb0bdbb0": {
-"coin": "",
-"src": "FinanceFeeds",
+"coin": "hyperliquid",
+"src": "BitKE",
 "srcs": [
+"BitKE",
+"Cointelegraph",
+"Crypto News",
 "FinanceFeeds",
-"Wu Blockchain"
+"TradingView"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794889997.0,
 "tgtext": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings\n\nThe U.S. Attorney's Office for the Southern District of New York announced that former Robinhood software engineer Huaisong Xiang pleaded guilty to wire fraud for using confidential crypto listing information to trade perpetual futures on Hyperliquid. Between 2025 and 2026, Xiang repeatedly traded tokens ahead of their listing announcements on Robinhood Crypto, the digital asset trading arm of the U.S. brokerage, earning $125,523 in illicit profits. He agreed to forfeit the proceeds and faces up to 20 years in prison, with sentencing scheduled for February 25, 2027. \u2014 link",
-"title": "Former Robinhood Engineer Faces Up to 20 Years in Prison After Admitting Crypto Insider Trading",
-"url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVkZSemFhYnR1TFlaejZZbnh0RThMSWZtVHhQVE15ZG1QZXBFQmx3WVRKR1oyOWlnTWllNGc4V3VwM0xTaThUNmRoZW9HRnRtNm1QWmIwT2o1bjlDVGdWZUdISG1uUEpOV2FPMzhnZ2M5ejBDaXcwdWlVRHFHcHpTa2pJRkh3Zm9rYXlHbWZ3RzFSOFZoSWQ3RGdfT21XMEhabHZJTUYyQTh2Yk5SUlk1cHhMcTVaNmlBb1pubTVR?oc=5",
-"urls": []
+"title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZRUdrQUNzRmxIZVdmZjl3RkVtY011eEZ4T2NrLXNyMm02bHFuM0w5U1BTbHd5RnFEUmVpS0tqam9YeGxBWExKU2JUNnlHWXc1VHRsUnJ3aktOZ0ZFYkQzazV1NTFsdGtWTl9ZSzFkTW5uUnd2Z0JHaFgxUTU?oc=5",
+"urls": [
+"https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "577dfa470750": {
 "coin": "ethereum",
@@ -1180,6 +1186,21 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDaHFfQUloaHFaYm5hRHBSYlhWNWZMOEpwT3RTNDJMYmxHOGh6eERkZ2I5c2dhY3EwN1pOVXlKQzREZEdZX0VjS2lPQzB5dTN2OVktdHlieGE?oc=5",
 "urls": []
 },
+"6711f3cf5672": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794908545.63431,
+"t0": 1794906512.0,
+"tgtext": "",
+"title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+"url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "67c7c9a06026": {
 "coin": "",
 "src": "The Block",
@@ -1264,7 +1285,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1442,7 +1463,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794889795.0,
 "tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
 "title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
@@ -1687,7 +1708,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794893876.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024. \n\nNvidia put the company on its \u201cno sell\u201d list in June 2025.\n\nNews | Markets | YouTube",
 "title": "US Commerce and Justice departments say they have probed Singapore firm Megaspeed over possible chip export violations since 2024.",
@@ -1959,7 +1980,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794907725.2390676,
+"t": 1794908545.63431,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -3084,7 +3105,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794902352.734504,
+"t": 1794908545.63431,
 "t0": 1794901701.0,
 "tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
 "title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
@@ -3503,41 +3524,41 @@
 "09bece7da30a": 0.076,
 "0a7236320ff9": 0.093,
 "0cb77facdc0d": 0.031,
-"1c09f68801ce": 0.144,
+"0cb9486ddfcf": 0.022,
+"12bc8aefa9e8": 0.036,
 "20b067b83d0a": 0.048,
-"22c09adf26e8": 0.61,
 "2f437b87882f": 0.156,
 "360634da4996": 0.086,
-"37e67a81b030": 0.069,
 "3b43f850596f": 0.106,
+"3be611f4986e": 0.997,
 "3d03c71886e6": 0.049,
 "3e69c3e23a2d": 0.017,
-"411f4625de95": 0.034,
+"411f4625de95": 0.025,
 "42ae29d3805b": 0.125,
 "435be5c9f400": 0.233,
-"4452a0feead3": 0.338,
+"4452a0feead3": 0.265,
 "49e8d9ebda30": 0.026,
-"5fd9a01f0fef": 0.239,
+"56aabb0bdbb0": 0.8,
 "6711f3cf5672": 0.23,
 "6c73d3da2d4b": 0.036,
 "6e7cd3ea0246": 0.418,
 "711805296e42": 0.045,
 "76bf2dc72ce5": 0.062,
+"7afbc281cbe3": 0.037,
 "8aad3c3e83fa": 0.048,
 "8b4942660fb8": 0.08,
-"91bbabb6735f": 0.043,
-"98ae04cfbd1a": 0.384,
-"99d5f054f92f": 0.081,
-"9d799837f8b3": 0.063,
+"8c1fcbbdec1e": 0.02,
+"99d5f054f92f": 0.19,
+"9d799837f8b3": 0.192,
+"a460393d9455": 0.215,
+"a5e4b65ec885": 0.074,
 "b12944aab86d": 0.07,
-"ba056fdb0cfc": 0.181,
 "cf457de6ab2c": 0.089,
-"d313f36ab402": 0.988,
 "d421f3dccef8": 0.048,
 "dbc820ec3dea": 0.08,
+"e2b340698b3b": 0.137,
 "ed029cabc3ad": 0.223,
-"fad8b6587e68": 0.051,
-"fc0d3b9733e9": 0.044
+"fad8b6587e68": 0.051
 },
 "sent": [
 {
@@ -5012,65 +5033,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"d313f36ab402",
-82,
-57,
+"3be611f4986e",
+80,
+115,
 3
 ],
 [
 "7da94308df5b",
 0,
-299,
+313,
 1
 ],
 [
 "56aabb0bdbb0",
-5,
-295,
-2
-],
-[
-"22c09adf26e8",
-47,
-359,
-4
-],
-[
-"6e7cd3ea0246",
-15,
-191,
-1
+41,
+309,
+6
 ],
 [
 "98ae04cfbd1a",
-10,
-183,
+8,
+197,
+1
+],
+[
+"6e7cd3ea0246",
+13,
+205,
+1
+],
+[
+"88053a11a2c0",
+2,
+244,
 1
 ],
 [
 "4452a0feead3",
-61,
-231,
+59,
+245,
 3
 ],
 [
-"88053a11a2c0",
-4,
-231,
+"435be5c9f400",
+20,
+232,
+2
+],
+[
+"6711f3cf5672",
+25,
+34,
 1
 ],
 [
-"5fd9a01f0fef",
-28,
-144,
-2
-],
-[
-"435be5c9f400",
-21,
-218,
-2
+"ed029cabc3ad",
+32,
+114,
+1
 ]
 ],
-"top_at": 1794907725.2390676
+"top_at": 1794908545.63431
 }
