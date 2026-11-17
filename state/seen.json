@@ -160,19 +160,6 @@
 "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
 ]
 },
-"0c6cefb4e893": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"Pluang"
-],
-"t": 1794733624.144637,
-"t0": 1794712137.0,
-"tgtext": "",
-"title": "Bitcoin shorts worth $22.31M liquidated as BTC price jumps nearly 4% to $64,834",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYl9rU2tERnRXaFY4UmREbU9Gd3l1ZzVBSllpQktuV3dVWkc1TG9uWFFKR09KNHI2Zk5fUWo5WjZHZldqaUFwbjYwdm9qamdkLXE0aEJ5MmxwU1M4V1NtcUY2Qm9VcnlMSWRfM05nY01QTDM3QWNTNzNIV3FuZ3NiRXJoMHA5Zw?oc=5",
-"urls": []
-},
 "0e8cda4a4abb": {
 "coin": "bitcoin",
 "src": "Cryptonews.net",
@@ -470,9 +457,10 @@
 "srcs": [
 "Coinpedia",
 "Cointelegraph",
-"Dealroom"
+"Dealroom",
+"The Crypto Times"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794886209.0,
 "tgtext": "\ud83d\udea8 ALERT: Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.\n\nNews | Markets | YouTube",
 "title": "Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.",
@@ -709,7 +697,7 @@
 "Coinfomania",
 "www.tokenpost.com"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794901626.0,
 "tgtext": "",
 "title": "Analyst Tracks 74,881 Ether Moved From Address Tied to Binance Hack",
@@ -722,7 +710,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794906021.7614095,
+"t": 1794906608.28967,
 "t0": 1794885203.0,
 "tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
 "title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
@@ -791,6 +779,22 @@
 "url": "https://t.me/lookonchainchannel/11104",
 "urls": []
 },
+"435be5c9f400": {
+"coin": "bitcoin",
+"src": "TradingView",
+"srcs": [
+"The Block",
+"TradingView"
+],
+"t": 1794906913.963854,
+"t0": 1794894645.0,
+"tgtext": "",
+"title": "Cathie Wood's ARK Sells Solana And Ethereum Staking Funds, Buys Three Crypto Stocks Amid Bitcoin Slide",
+"url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNdXF2emx4VWlTV1lYU1hYU1ZvMWc4RVN4eEM2MlEtd1hRdDlPcEVyeXcxNFZhUXNLTEdTRklnMnNJREJXb21jQTJ4VTJ4R0pmRThGb3M0RkpYanFERWxheWVXTVF4LU5pTGpLTkFEdW9qT1dyX21NRlNKSkw2dXFmc0tMSDN2TXhMdzBPNjJrNzB3U2FPRWswSUNSazZLTHI0Zm11OWY1UEdNeEp5ZWFxYS1PNmVaRWotZS1hV19jbERKTmFjRTVSSnZkY09QNmxWX1phdWFUajdjZU1tNHpIVFRJRHBoU1lCcDRCTHgxN2huUlVq?oc=5",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080"
+]
+},
 "4452a0feead3": {
 "coin": "",
 "src": "CoinDesk",
@@ -799,7 +803,7 @@
 "CoinDesk",
 "Crypto News"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794893843.0,
 "tgtext": "",
 "title": "Wells Fargo's bitcoin ETF holdings now rival Tesla and SpaceX's combined $2 billion",
@@ -981,7 +985,7 @@
 "FinanceFeeds",
 "Wu Blockchain"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794889997.0,
 "tgtext": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings\n\nThe U.S. Attorney's Office for the Southern District of New York announced that former Robinhood software engineer Huaisong Xiang pleaded guilty to wire fraud for using confidential crypto listing information to trade perpetual futures on Hyperliquid. Between 2025 and 2026, Xiang repeatedly traded tokens ahead of their listing announcements on Robinhood Crypto, the digital asset trading arm of the U.S. brokerage, earning $125,523 in illicit profits. He agreed to forfeit the proceeds and faces up to 20 years in prison, with sentencing scheduled for February 25, 2027. \u2014 link",
 "title": "Former Robinhood Engineer Faces Up to 20 Years in Prison After Admitting Crypto Insider Trading",
@@ -1054,19 +1058,6 @@
 "https://cryptoslate.com/lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak/"
 ]
 },
-"5bc8c4c7d8bf": {
-"coin": "",
-"src": "NewsBytes",
-"srcs": [
-"NewsBytes"
-],
-"t": 1794733319.8850749,
-"t0": 1794727251.0,
-"tgtext": "",
-"title": "Coinbase halts INR withdrawals amid banking partner outage",
-"url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0I1X0tGZzRXN19GdUg5MXZmX09XMDFKNmVISjFYQURPTzZlQldyS3VkWTM0U19NdWdwSjE1SURZdkhNNmVGU1JFQTJ6LUZDQkFsUTE5XzZ1Zy1NZEhycjhaY19PektCLTFPUThjQkMwYlBzMGlyR0NEX19GY09YeGZQZFJEeDVGVEtOQ2lLZUFVeWU5S3pYMjNValJSSFlzSl9tZA?oc=5",
-"urls": []
-},
 "5c5ffc1383fe": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1099,6 +1090,20 @@
 "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
 "https://bitcoinmagazine.com/news/german-bundestag-crypto-over-100000"
 ]
+},
+"5fd9a01f0fef": {
+"coin": "bitcoin",
+"src": "BeInCrypto",
+"srcs": [
+"BeInCrypto",
+"Yahoo Finance"
+],
+"t": 1794906913.963854,
+"t0": 1794899088.0,
+"tgtext": "",
+"title": "Tether\u2019s Bitcoin Firm Bought the Dip While Its Own Stock Sank",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWx0dzlKWFhUYTFiWUh2d1dOQjhoQW1UZjI0OHY0V2lqS1ZURWp3RE0xRnowb1h3Zjk0RC1GZ1JheUJaRmFQb1lMVXgxdDUwcHhqQXJEemMxa3RVb2RVVkRyREYwS3BjSWpDWGFrUzFhcWdEYjJ3?oc=5",
+"urls": []
 },
 "61200ffbb954": {
 "coin": "lighter",
@@ -1259,7 +1264,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794896261.0,
 "tgtext": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on #Hyperliquid, leaving only $11.6M in open positions.\n\nOver the past 24 hours, its account value has dropped by $161M to just $22.4M.\nhttps://x.com/lookonchain/status/2122318038301397353",
 "title": "Abraxas Capital, whose API keys may have been leaked, has closed almost all of its short positions on Hyperliquid, leaving only $11.6M in open positions.",
@@ -1437,7 +1442,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794889795.0,
 "tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
 "title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
@@ -1567,6 +1572,21 @@
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
 "url": "https://t.me/WatcherGuru/16086",
 "urls": []
+},
+"819efbe0da13": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794906913.963854,
+"t0": 1794906512.0,
+"tgtext": "",
+"title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+"url": "https://cointelegraph.com/markets/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/markets/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "8417b8558093": {
 "coin": "",
@@ -1939,7 +1959,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794906021.7614095,
+"t": 1794906913.963854,
 "t0": 1794896740.0,
 "tgtext": "Trader 0xC289 opened a 4x long on 4.1M $ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.\n\nhttps://www.asterdex.com/en/explorer/address/0xC289E6030447cF2636F130021696039E703e93B2",
 "title": "Trader 0xC289 opened a 4x long on 4.1M ARIA ($925K) on @Aster_DEX and is now up $247K in unrealized profit, with a 106.72% ROI.",
@@ -3174,21 +3194,6 @@
 "https://cryptoslate.com/jensen-huang-has-just-14-chance-of-nvidia-return-this-year-despite-trump-backing/"
 ]
 },
-"f3f597478acb": {
-"coin": "bitcoin",
-"src": "Crypto News",
-"srcs": [
-"Bloomberg.com",
-"BusinessLine",
-"Crypto News"
-],
-"t": 1794733931.4242759,
-"t0": 1794715260.0,
-"tgtext": "",
-"title": "Bitcoin price falls to three-month low: Is $60K the next stop?",
-"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aZ0F6UThiTEp2cVhxeGZoSm13MlRlZnRVRDV4Y29TSlh6T1pnZGRXSEJBVllPZUFmenM1Uy1MbnZiZ2xqTnhQR0lfUUZEcU1RNlNxbHJVeUJFRVJ5djJxOEF5d0hJMmtqVTRmZjQxcWRPVVBuaWNCUzlhUWw?oc=5",
-"urls": []
-},
 "f48041ccfb4c": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3492,32 +3497,31 @@
 "rain": 1794899279.363075
 },
 "probs": {
+"02b242a04870": 0.039,
 "02c4da7038c7": 0.103,
-"077644104739": 0.81,
-"12496734b2d9": 0.133,
+"0a7236320ff9": 0.093,
+"0cb77facdc0d": 0.031,
 "1c09f68801ce": 0.144,
 "20b067b83d0a": 0.086,
-"22c09adf26e8": 0.656,
+"22c09adf26e8": 0.624,
 "25108b171716": 0.025,
 "2f437b87882f": 0.156,
-"360634da4996": 0.034,
+"360634da4996": 0.086,
 "37e67a81b030": 0.069,
 "3b43f850596f": 0.072,
 "3be611f4986e": 0.429,
-"3ccc337b53e8": 0.635,
 "3d03c71886e6": 0.049,
 "3e69c3e23a2d": 0.017,
-"42ae29d3805b": 0.125,
+"42ae29d3805b": 0.065,
 "435be5c9f400": 0.233,
 "4452a0feead3": 0.338,
-"4760fc7766bf": 0.038,
 "49e8d9ebda30": 0.026,
 "5fd9a01f0fef": 0.239,
 "6c73d3da2d4b": 0.036,
 "6e7cd3ea0246": 0.418,
 "711805296e42": 0.045,
 "76bf2dc72ce5": 0.062,
-"78f7a83e386d": 0.079,
+"819efbe0da13": 0.23,
 "8aad3c3e83fa": 0.048,
 "8b4942660fb8": 0.08,
 "91bbabb6735f": 0.043,
@@ -3529,6 +3533,7 @@
 "ba056fdb0cfc": 0.181,
 "cf457de6ab2c": 0.089,
 "d06a7ba7bdef": 0.043,
+"d421f3dccef8": 0.048,
 "dbc820ec3dea": 0.08,
 "ed029cabc3ad": 0.223,
 "fad8b6587e68": 0.051
@@ -5008,63 +5013,63 @@
 [
 "7da94308df5b",
 0,
-270,
+285,
 1
 ],
 [
-"077644104739",
-23,
-351,
-2
-],
-[
 "56aabb0bdbb0",
-9,
-267,
+7,
+282,
 2
 ],
 [
 "22c09adf26e8",
-40,
-330,
-3
-],
-[
-"3ccc337b53e8",
-10,
-347,
-1
+48,
+345,
+4
 ],
 [
 "3be611f4986e",
 61,
-73,
+88,
 2
 ],
 [
 "6e7cd3ea0246",
 16,
-163,
+178,
 1
 ],
 [
 "98ae04cfbd1a",
 10,
-155,
+170,
 1
 ],
 [
 "4452a0feead3",
-64,
-203,
+62,
+218,
 3
 ],
 [
-"921b30c8cd3b",
-0,
-358,
+"5fd9a01f0fef",
+28,
+130,
+2
+],
+[
+"435be5c9f400",
+23,
+204,
+2
+],
+[
+"819efbe0da13",
+25,
+7,
 1
 ]
 ],
-"top_at": 1794906021.7614095
+"top_at": 1794906913.963854
 }
