@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794923711.2966728,
 1794927713.3358862,
 1794929624.218306,
 1794947431.339464,
@@ -17,7 +16,8 @@
 1794997370.2038012,
 1795008131.2690582,
 1795009331.713109,
-1795009636.4691558
+1795009636.4691558,
+1795010872.4337025
 ],
 "menu": {
 "029dddbb38b5": {
@@ -73,7 +73,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1795007021.0,
 "tgtext": "JUST IN: $2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.\n\n@WatcherGuru",
 "title": "$2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.",
@@ -122,6 +122,20 @@
 "urls": [
 "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"079512ed0188": {
+"coin": "bitcoin",
+"src": "Hindustan Times",
+"srcs": [
+"CNA",
+"Hindustan Times"
+],
+"t": 1795010560.867927,
+"t0": 1795006879.0,
+"tgtext": "",
+"title": "Bitcoin falls 49% from record high as Binance hack, ETF outflows and weak demand deepen crypto selloff | Hindustan Times",
+"url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaklBZW4zSEhjT1FJbW45d05KWm5xQ21BNzE3SUJDZ2RMS3NOcWRSOG00YnZRQlRrYjlsNjVqYjc4dTF3blFCWWxlLUhweHRwOTVwaGpKbHhtQTlYMHRrVTRXTVZvamZRbUktZEFSdjN2MEloR0xLLS1wVkMzNUFOdkVZOFUzZjNXNUZtTG5YVmxEYmhLamNNWWpUYTFWOGxLdzF1dlBINE1BRlpVNTJfS085bWxBd1JYSk42SVg4TjdSeWVyN0tkVzhWQm1OUl9PWURXaExGSGNpS2hPaURyeFVhOFEwYzNBNkpZUVBJTVktOEY0RTJuYUNvLUc2ZFRh0gGGAkFVX3lxTE9FNUlkNkxvN1IxckUxVlk4bmYwMzBhVkRlUGc2aV9wN2o4NDZERC1PTGpOVl8tVFJZdEFvMnRNd0s3VkNYWXNTemdMMTAzS0NmeXFNNlA4LUNqX1h1M1l1LVJsakcydElqV0JRV1QyX1BSQ2VLQmFwblB4Q2lpTVpiOUhrLUtJNjcwa0ZSdWJFdktvcWRoQk96R2FlbWNETVpGTHpFby1ZS19IYmxfN1UtUUt2R05oQVI1cEpxTndsN0ptM1pLVUs1c05OcTcwN2FMODBCU0VJVElFS2NIVUdkaERNajFSM3hFZU1xeVVKdGxiSkRMR1pRUTduZEZkM1JrM1N2YVE?oc=5",
+"urls": []
 },
 "0cbc410dcbb9": {
 "coin": "",
@@ -183,12 +197,12 @@
 "src": "MLQ.ai",
 "srcs": [
 "BleepingComputer",
+"CoinGape",
 "Crypto Briefing",
 "Decrypt",
-"Incrypted",
-"MLQ.ai"
+"Incrypted"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1794990258.0,
 "tgtext": "",
 "title": "Dundee hacker Tyler Buchanan gets six years in US prison over SIM-swap crypto thefts tied to Scattered Spider",
@@ -434,7 +448,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1795009055.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!\n\nThe position has already reached $93.87M, with over $4M in unrealized profit.\n\nhttps://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\nhttps://hypurrscan.io/address/0x0b426cb9d1d25f011042856faf5bbbfd4da9b412#perps",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid!",
@@ -975,7 +989,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1794993729.0,
 "tgtext": "Polygon Plans to Acquire Payment and Correspondent Banking Licences Across Multiple Markets, Budgeting $50M\u2013$100M per Acquisition, and Is Considering a US Banking Licence\n\nAccording to Moneycontrol, Polygon co-founder Sandeep Nailwal said the company plans to acquire payment and correspondent banking licences over the next two years in North America, the EU, Latin America (Brazil and Mexico), Southeast Asia and other regions, budgeting around $50 million to $100 million per acquisition. It is also considering applying for a US banking licence. Polygon Labs is shifting from a blockchain infrastructure provider to an end-to-end business solutions and banking services company. Earlier this year, it acquired US digital currency payments firm Coinme and wallet infrastructure provider Sequence for around $250 million. \u2014 link",
 "title": "Polygon Plans to Acquire Payment and Correspondent Banking Licences Across Multiple Markets, Budgeting $50M\u2013$100M per Acquisition, and Is Considering a US Banking Licence",
@@ -1027,20 +1041,6 @@
 "urls": [
 "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"4b1542eadee6": {
-"coin": "ethereum",
-"src": "Fortune",
-"srcs": [
-"Fortune",
-"Lookonchain"
-],
-"t": 1794837658.2107472,
-"t0": 1794833100.0,
-"tgtext": "Nov 9\u2013Nov 15, 2026 #LookonchainWeeklyReport\nhttps://x.com/lookonchain/status/2122323297475924025",
-"title": "Current price of Ethereum for Nov. 16, 2026",
-"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13UmNHTmlPQlRCMnBtbFVBZUh0WExfYkhvNkR0SEN4Q3l5aEp6d3dzTTB2WnA5M25EeEJRZWxnVEpUa19QUl9lcUkxbzR4bnJtdlVVaW1FbDIyeDdrTno1d0tZRV9ZVE1w?oc=5",
-"urls": []
 },
 "4c39818a7e9d": {
 "coin": "",
@@ -1619,7 +1619,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1795002367.0,
 "tgtext": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million\n\nIn its third-quarter 2026 earnings report released on November 18, CoinShares disclosed that it sold all of its treasury ETH, worth $16.6 million, and 50% of its SOL, worth $2.7 million. The sales freed up $19.3 million to support a share buyback plan of up to $40 million. Third-quarter net profit was $39.58 million, reversing the previous quarter\u2019s loss and rising 27% year over year. Revenue fell 44.9% year over year to $27.69 million. Assets under management recovered to $7.4 billion at the end of September, with quarterly net inflows of $125 million. \u2014 link",
 "title": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million",
@@ -1805,9 +1805,10 @@
 "coin": "bitcoin",
 "src": "Lookonchain",
 "srcs": [
+"Bitcoin Foundation",
 "Lookonchain"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1794997039.0,
 "tgtext": "The Binance hacker has moved another 78,415 $ETH ($142M) for laundering, continuing to swap the $ETH for $BTC via #THORChain.\nhttps://x.com/lookonchain/status/2122633788127940768",
 "title": "The Binance hacker has moved another 78,415 ETH ($142M) for laundering, continuing to swap the ETH for BTC via THORChain.",
@@ -2469,6 +2470,19 @@
 "url": "https://t.me/wublockchainenglish/26866",
 "urls": []
 },
+"a5ecf86a7b16": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795010872.4337025,
+"t0": 1795010722.0,
+"tgtext": "Whale bc1q7s deposited 1,040 $BTC($67.17M) to #Binance in the past 24 hours.\n\nhttps://arkm.com/explorer/address/bc1q7sj5l0phh9upugueda6v8wyjrma3yws2ycxyyx",
+"title": "Whale bc1q7s deposited 1,040 BTC($67.17M) to Binance in the past 24 hours.",
+"url": "https://t.me/lookonchainchannel/11137",
+"urls": []
+},
 "a6b3d671b7fc": {
 "coin": "",
 "src": "Forbes",
@@ -2680,7 +2694,7 @@
 "Crypto Briefing",
 "The Cryptonomist"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1794997987.0,
 "tgtext": "",
 "title": "Bitwise Picks Texas Stock Exchange for Spot Zcash ETF in Latest Privacy-Coin Push",
@@ -2710,7 +2724,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1795010010.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia to allow foreigners to open digital ruble accounts starting in 2027.\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa Russia to allow foreigners to open digital ruble accounts starting in 2027.",
@@ -3194,7 +3208,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795010250.6619313,
+"t": 1795010872.4337025,
 "t0": 1794996025.0,
 "tgtext": "Following a US Restriction Order, MEXC Global Card Announces Its Service Will End Today at 15:30 UTC; Existing Cards Will No Longer Be Usable for Transactions, and New Card Applications Will Be Suspended\n\nMEXC announced that, due to service changes by its third-party card issuer, MEXC Global Card service will end on November 18, 2026, at 15:30 UTC. Existing cards will no longer be usable for transactions, and new card applications will be suspended. Users are advised to withdraw any remaining balance and cancel or change recurring subscription payments linked to the card before then. If a balance remains after the service ends, MEXC will take a balance snapshot on November 21 at 15:30 UTC, after pending transactions have settled, and automatically transfer the remaining funds to users\u2019 spot accounts within three business days of the snapshot. \u2014 link",
 "title": "Following a US Restriction Order, MEXC Global Card Announces Its Service Will End Today at 15:30 UTC; Existing Cards Will No Longer Be Usable for Transactions, and New Card Applications Will Be Suspended",
@@ -3693,45 +3707,45 @@
 },
 "probs": {
 "05a5d707639b": 0.641,
-"073a5b9a2dd0": 0.2,
+"079512ed0188": 0.487,
 "0bbddb15682d": 0.173,
-"0e61505b30b3": 0.598,
+"0e61505b30b3": 0.564,
 "15f01d75b219": 0.078,
 "20c37ddc69d3": 0.093,
-"2292380ae588": 0.938,
+"2292380ae588": 0.97,
 "22ad92a4dc09": 0.083,
 "32f1afae2779": 0.066,
 "364292d4c40a": 0.043,
-"3a917235e495": 0.488,
 "44154621347f": 0.146,
-"51a57dc16bbf": 0.048,
+"4d5a975ef056": 0.057,
 "54301b36f47c": 0.177,
 "55980d226d54": 0.394,
 "563a17cc3d4c": 0.055,
 "584302645d9f": 0.07,
 "591eb5ea3a16": 0.096,
 "6eb689608170": 0.198,
+"6f05dba1da63": 0.282,
 "728d278ac762": 0.062,
 "75621fff8c98": 0.948,
-"792edcb2a0bd": 0.152,
 "7e2fb7825a70": 0.092,
-"80acf2e1d432": 0.924,
+"80acf2e1d432": 0.976,
+"849c143e4354": 0.395,
 "875ddc1c87fd": 0.177,
 "9d6ac5015c84": 0.062,
 "9e3caf37be1d": 0.053,
 "a257a0985b65": 0.27,
+"a5ecf86a7b16": 0.969,
 "a98d14a05485": 0.132,
-"ab12bb064718": 0.039,
 "af68f16f8c67": 0.13,
 "b734e5e857fb": 0.085,
 "b8146b8bb099": 0.49,
 "bb6c5cdab9b9": 0.119,
 "bbba172b563f": 0.015,
+"c5e175a29953": 0.3,
 "c6815845c700": 0.311,
 "df6c413b3721": 0.92,
 "ea0cd64cc746": 0.321,
-"ef1159ecb95b": 0.208,
-"fed8a341d807": 0.363
+"ef1159ecb95b": 0.208
 },
 "sent": [
 {
@@ -5168,71 +5182,94 @@
 "times",
 "weak"
 ]
+},
+{
+"e": [
+"binance",
+"whale"
+],
+"k": [],
+"t": 1795010872.4337025,
+"u": [
+"https://t.me/lookonchainchannel/11137"
+],
+"w": [
+"$67",
+"040",
+"17m",
+"bc1q7s",
+"binance",
+"btc",
+"deposited",
+"hours",
+"past",
+"whale"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"75621fff8c98",
-26,
-131,
+"80acf2e1d432",
+53,
+231,
 2
 ],
 [
 "2292380ae588",
 18,
-20,
+30,
 1
 ],
 [
-"80acf2e1d432",
-19,
-220,
+"a5ecf86a7b16",
+32,
+3,
 1
+],
+[
+"75621fff8c98",
+26,
+142,
+2
 ],
 [
 "df6c413b3721",
-25,
-237,
+24,
+247,
+1
+],
+[
+"47b8417cb07f",
+2,
+286,
 1
 ],
 [
 "b9babe84f6de",
 10,
-4,
-1
-],
-[
-"47b8417cb07f",
-4,
-275,
+14,
 1
 ],
 [
 "05a5d707639b",
-28,
-54,
+20,
+64,
 2
 ],
 [
 "0e61505b30b3",
-65,
-333,
-6
+64,
+344,
+7
 ],
 [
 "b8146b8bb099",
-51,
-204,
+50,
+215,
 5
-],
-[
-"3a917235e495",
-75,
-141,
-3
 ]
 ],
-"top_at": 1795010250.6619313
+"top_at": 1795010872.4337025
 }
