@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794929624.218306,
 1794947431.339464,
 1794973155.1727364,
 1794982656.2403831,
@@ -17,7 +16,8 @@
 1795009331.713109,
 1795009636.4691558,
 1795010872.4337025,
-1795015189.3757608
+1795015189.3757608,
+1795018108.998216
 ],
 "menu": {
 "029dddbb38b5": {
@@ -74,7 +74,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795017184.182131,
+"t": 1795018413.9944763,
 "t0": 1795007021.0,
 "tgtext": "JUST IN: $2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.\n\n@WatcherGuru",
 "title": "$2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.",
@@ -319,7 +319,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795017661.0,
 "tgtext": "October 2026 Exchange Derivatives Volume Report: total $3.75 trillion, MoM increased 3.7%, futures/spot ratio 6.01x; Deribit rose 5x after consolidating with Coinbase\n\nWuBlockchain data show that derivatives trading volume across 11 major exchanges reached $3.75 trillion in October 2026, up 3.7% month over month. Binance led with $1.79 trillion (47.8% market share), followed by OKX at $652.3 billion (17.4%) and Bybit at $381.6 billion (10.2%). Deribit recorded the largest increase, surging 507% to $192.1 billion, mainly driven by its integration with Coinbase International Exchange and a sharp rise in USDC-settled perpetuals and futures trading. The futures-to-spot trading volume ratio climbed 14.4% to 6.01x, compared with 5.26x in September. \u2014 link",
 "title": "October 2026 Exchange Derivatives Volume Report: total $3.75 trillion, MoM increased 3.7%, futures/spot ratio 6.01x; Deribit rose 5x after consolidating with Coinbase",
@@ -441,7 +441,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795009055.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!\n\nThe position has already reached $93.87M, with over $4M in unrealized profit.\n\nhttps://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\nhttps://hypurrscan.io/address/0x0b426cb9d1d25f011042856faf5bbbfd4da9b412#perps",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid!",
@@ -624,7 +624,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795014901.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Costco is seeing a surge in emergency supply purchases amid recent tech outages, with U.S. comparable sales estimated to have jumped 11%\u201312% in the final week of October.\n\nNews | Markets | YouTube",
 "title": "Costco is seeing a surge in emergency supply purchases amid recent tech outages, with U.S. comparable sales estimated to have jumped 11%\u201312% in the final week of October.",
@@ -1640,7 +1640,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795002367.0,
 "tgtext": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million\n\nIn its third-quarter 2026 earnings report released on November 18, CoinShares disclosed that it sold all of its treasury ETH, worth $16.6 million, and 50% of its SOL, worth $2.7 million. The sales freed up $19.3 million to support a share buyback plan of up to $40 million. Third-quarter net profit was $39.58 million, reversing the previous quarter\u2019s loss and rising 27% year over year. Revenue fell 44.9% year over year to $27.69 million. Assets under management recovered to $7.4 billion at the end of September, with quarterly net inflows of $125 million. \u2014 link",
 "title": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million",
@@ -1816,7 +1816,7 @@
 "Bitcoin Foundation",
 "Lookonchain"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1794997039.0,
 "tgtext": "The Binance hacker has moved another 78,415 $ETH ($142M) for laundering, continuing to swap the $ETH for $BTC via #THORChain.\nhttps://x.com/lookonchain/status/2122633788127940768",
 "title": "The Binance hacker has moved another 78,415 ETH ($142M) for laundering, continuing to swap the ETH for BTC via THORChain.",
@@ -2227,7 +2227,7 @@
 "CoinDesk",
 "TradingView"
 ],
-"t": 1795017800.1568727,
+"t": 1795018108.998216,
 "t0": 1795006966.0,
 "tgtext": "",
 "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
@@ -2502,7 +2502,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795010722.0,
 "tgtext": "Whale bc1q7s deposited 1,040 $BTC($67.17M) to #Binance in the past 24 hours.\n\nhttps://arkm.com/explorer/address/bc1q7sj5l0phh9upugueda6v8wyjrma3yws2ycxyyx",
 "title": "Whale bc1q7s deposited 1,040 BTC($67.17M) to Binance in the past 24 hours.",
@@ -2817,7 +2817,7 @@
 "CNA",
 "Traders Union"
 ],
-"t": 1795016879.1548722,
+"t": 1795018413.9944763,
 "t0": 1794999544.0,
 "tgtext": "",
 "title": "Bitcoin erases summer rally as Binance hack deepens market selloff",
@@ -2887,7 +2887,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795017141.0,
 "tgtext": "JUST IN: Bitcoin falls under $63,000.\n\n@WatcherGuru",
 "title": "Bitcoin falls under $63,000.",
@@ -3379,7 +3379,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1795017800.1568727,
+"t": 1795018413.9944763,
 "t0": 1795012404.0,
 "tgtext": "Onchain Derivatives Protocol Variational Raises $110 Million at a $1.5 Billion Valuation\n\nAccording to Bloomberg, Cayman Islands-based onchain derivatives protocol Variational raised $110 million at a $1.5 billion valuation in a round led by Bain Capital Crypto, with participation from Dragonfly Capital, HSG and Peak XV. Variational offers perpetual futures and swaps tied to cryptocurrencies, stocks, commodities and pre-IPO shares of companies such as OpenAI. Operating as a broker, it routes orders to crypto protocols and centralized trading firms. Variational had previously raised approximately $61.8 million, including a $50 million Series A round led by Dragonfly in May 2026. \u2014 link",
 "title": "Variational raises $110 million at $1.5 billion valuation to expand onchain derivatives trading",
@@ -3747,16 +3747,15 @@
 },
 "probs": {
 "01f93ab5083e": 0.059,
-"05a5d707639b": 0.332,
+"05a5d707639b": 0.57,
 "0a8d40e26c3e": 0.323,
-"0bbddb15682d": 0.12,
+"0bbddb15682d": 0.267,
 "0ed13b7694ac": 0.053,
-"150b5f7b6e3a": 0.685,
+"150b5f7b6e3a": 0.899,
 "2292380ae588": 0.528,
 "22ad92a4dc09": 0.078,
 "231a89fe5db5": 0.449,
 "291b869e296a": 0.03,
-"2b352c13e99a": 0.139,
 "325f2e18dd70": 0.963,
 "32f1afae2779": 0.044,
 "36885c58cdb9": 0.066,
@@ -3766,12 +3765,12 @@
 "563a17cc3d4c": 0.036,
 "5aea4a13ca79": 0.242,
 "628b4c910c73": 0.261,
-"728d278ac762": 0.104,
+"728d278ac762": 0.058,
 "75621fff8c98": 0.865,
 "807b5970bf3e": 0.029,
 "80acf2e1d432": 0.925,
 "840feab04525": 0.054,
-"849c143e4354": 0.299,
+"849c143e4354": 0.186,
 "967b26031e5b": 0.503,
 "9e3caf37be1d": 0.035,
 "a257a0985b65": 0.114,
@@ -3779,43 +3778,16 @@
 "af68f16f8c67": 0.037,
 "b67886daa377": 0.05,
 "b8146b8bb099": 0.183,
-"bf08580d01a5": 0.311,
+"bf08580d01a5": 0.588,
 "c6815845c700": 0.31,
 "ce9465f68257": 0.057,
+"d0206bd6002e": 0.11,
 "d4a41b9b0543": 0.043,
-"ddd471a201e4": 0.088,
 "ea0cd64cc746": 0.236,
-"eb40c1b63ddf": 0.878
+"eb40c1b63ddf": 0.878,
+"f216d8ebb19c": 0.052
 },
 "sent": [
-{
-"e": [
-"german"
-],
-"k": [
-"legal",
-"ban"
-],
-"t": 1794844871.451401,
-"u": [
-"https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
-"https://t.me/cointelegraph/73320"
-],
-"w": [
-"000",
-"100",
-"allowing",
-"assets",
-"charges",
-"criminal",
-"german",
-"parliament",
-"proposes",
-"seizures",
-"without",
-"worth"
-]
-},
 {
 "e": [
 "chair",
@@ -5192,6 +5164,42 @@
 "tech",
 "week"
 ]
+},
+{
+"e": [
+"coinbase",
+"deribit",
+"derivatives",
+"exchange",
+"mom",
+"october",
+"volume"
+],
+"k": [],
+"t": 1795018108.998216,
+"u": [
+"https://t.me/wublockchainenglish/26876"
+],
+"w": [
+"01x",
+"2026",
+"coinbase",
+"consolidating",
+"deribit",
+"derivatives",
+"exchange",
+"futures",
+"increased",
+"mom",
+"october",
+"ratio",
+"report",
+"rose",
+"spot",
+"total",
+"trillion",
+"volume"
+]
 }
 ],
 "stories": {},
@@ -5200,63 +5208,63 @@
 [
 "325f2e18dd70",
 42,
-48,
-1
-],
-[
-"80acf2e1d432",
-37,
-346,
-2
-],
-[
-"eb40c1b63ddf",
-41,
-90,
-2
-],
-[
-"75621fff8c98",
-16,
-257,
-2
-],
-[
-"a5ecf86a7b16",
-32,
-118,
+59,
 1
 ],
 [
 "c2cdb91701e8",
 10,
-11,
+21,
 1
+],
+[
+"80acf2e1d432",
+36,
+356,
+2
 ],
 [
 "150b5f7b6e3a",
 18,
-2,
+13,
 1
+],
+[
+"eb40c1b63ddf",
+41,
+100,
+2
+],
+[
+"75621fff8c98",
+15,
+267,
+2
+],
+[
+"a5ecf86a7b16",
+32,
+128,
+1
+],
+[
+"bf08580d01a5",
+46,
+314,
+3
+],
+[
+"05a5d707639b",
+29,
+190,
+3
 ],
 [
 "2292380ae588",
 18,
-146,
+156,
 1
-],
-[
-"967b26031e5b",
-45,
-181,
-3
-],
-[
-"231a89fe5db5",
-63,
-346,
-8
 ]
 ],
-"top_at": 1795017800.1568727
+"top_at": 1795018413.9944763
 }
