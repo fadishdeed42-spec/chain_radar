@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1794889948.404524,
-1794890450.4159775,
 1794902352.734504,
 1794910812.4862669,
 1794917668.0780222,
@@ -15,7 +13,8 @@
 1794927713.3358862,
 1794929624.218306,
 1794947431.339464,
-1794973155.1727364
+1794973155.1727364,
+1794982656.2403831
 ],
 "menu": {
 "0234490c28f9": {
@@ -168,7 +167,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794980645.0,
 "tgtext": "\u26a1\ufe0f TODAY: Jim Cramer says he thinks Anthropic\u2019s IPO will be \u201cvery successful.\u201d \n\nBearish or bullish signal? \ud83d\udc40\n\nNews | Markets | YouTube",
 "title": "TODAY: Jim Cramer says he thinks Anthropic\u2019s IPO will be \u201cvery successful.\u201d",
@@ -413,7 +412,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794967533.0,
 "tgtext": "Trader 0x9b7B sold 280 $ETH for 1.086M $USDC at $3,881 over a year ago.\n\nHe just spent the same 1.086M $USDC to buy back 598 $ETH at $1,816.\n\nNicely done \u2014 sell high, buy low!\n\nhttps://arkm.com/explorer/address/0x9b7Ba799B94f95Df74FAC55811328ac9144EbB54",
 "title": "Trader 0x9b7B sold 280 ETH for 1.086M USDC at $3,881 over a year ago.",
@@ -696,7 +695,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794975662.0,
 "tgtext": "Singapore\u2019s Largest Bank DBS Partners With Circle to Enable Direct USDC Minting and Redemption for Institutional Clients\n\nSingapore\u2019s DBS Bank and stablecoin issuer Circle have announced a partnership enabling eligible institutional clients to mint and redeem USDC directly through DBS, with 24/7, near-instant settlement between USD and USDC\u2014eliminating complete reliance on secondary market liquidity. The service is designed to support institutional treasury operations, payment settlements, and liquidity management. Building on their prior participation in the Monetary Authority of Singapore\u2019s (MAS) Project BLOOM, the two firms will also collaborate to advance interoperability across different forms of tokenized money and financial networks. \u2014 link",
 "title": "Singapore\u2019s Largest Bank DBS Partners With Circle to Enable Direct USDC Minting and Redemption for Institutional Clients",
@@ -758,6 +757,19 @@
 "urls": [
 "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"3b294d985fc6": {
+"coin": "tether",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794982656.2403831,
+"t0": 1794982299.0,
+"tgtext": "The total supply of $USDT on #TRON has grown year after year, reaching $94.21B and accounting for 54% of the total $USDT supply.",
+"title": "The total supply of USDT on TRON has grown year after year, reaching $94.21B and accounting for 54% of the total USDT supply.",
+"url": "https://t.me/lookonchainchannel/11129",
+"urls": []
 },
 "3b43f850596f": {
 "coin": "ripple",
@@ -1443,7 +1455,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794974602.0,
 "tgtext": "Whale 0xd0A4 dumped another 500,000 $UNI ($2.63M) 6 hours ago.\n\nOver the past month, the whale has sold a total of 3.11M $UNI ($21.48M) and still holds 1.89M $UNI ($9.85M).\n\nhttps://arkm.com/explorer/address/0xd0A4f3F50eBE99fb7C76e6bf416Ca56f8811229f",
 "title": "Whale 0xd0A4 dumped another 500,000 UNI ($2.63M) 6 hours ago.",
@@ -2218,7 +2230,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794970071.0,
 "tgtext": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds\n\nAccording to Coinbase blog, scammers spun up a fake YouTube livestream during Tesla\u2019s \"flying car\" demo featuring an AI deepfake of Elon Musk promoting a fraudulent crypto-doubling giveaway that drew over 500,000 viewers and prompted hundreds of Coinbase customers to attempt sending millions of dollars within roughly two hours. Coinbase reported that its autonomous AI Scam Prevention Agent\u2014operating with no humans in the loop\u2014detected the high-risk sends in real time and intervened with targeted, context-aware conversations that exposed giveaway mechanics, ultimately stopping ~91% of the funds, or $4.7 million, from leaving customers' accounts. \u2014 link",
 "title": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds",
@@ -2280,7 +2292,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794967771.0,
 "tgtext": "JUST IN: Gold crashes under $3,800 for the first time since September 2025.\n\n@WatcherGuru",
 "title": "Gold crashes under $3,800 for the first time since September 2025.",
@@ -2417,7 +2429,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794972837.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) continues to dump $BTC, transferring out another 366 $BTC ($23.33M) 8 hours ago.\n\nAccording to official disclosures, #MARA sold 40,581 $BTC ($3.03B) in 2026 at an average price of $74,446.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "Bitcoin miner MARA Holdings (@MARA) continues to dump BTC, transferring out another 366 BTC ($23.33M) 8 hours ago.",
@@ -2541,7 +2553,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794982041.448367,
+"t": 1794982350.266355,
 "t0": 1794971915.0,
 "tgtext": "JUST IN: Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares.\n\n@WatcherGuru",
 "title": "Nvidia NVDA to buy $10,000,000,000 in Anthropic shares.",
@@ -2977,7 +2989,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794967560.0,
 "tgtext": "\ud83d\udea8 TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.\n\nNews | Markets | YouTube",
 "title": "TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.",
@@ -3016,7 +3028,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794982041.448367,
+"t": 1794982656.2403831,
 "t0": 1794968763.0,
 "tgtext": "The Erik Voorhees-linked wallets have bought a total of 92,052 $ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.\nhttps://x.com/lookonchain/status/2122518108850225555",
 "title": "The Erik Voorhees-linked wallets have bought a total of 92,052 ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.",
@@ -3832,11 +3844,13 @@
 "probs": {
 "03208309f795": 0.245,
 "03d0252114b0": 0.015,
+"0d91c8eb89f5": 0.422,
 "2451c2084655": 0.038,
 "2f071cc85090": 0.114,
 "364292d4c40a": 0.039,
 "3727ed4cfec5": 0.344,
 "387a685c7ac7": 0.838,
+"3b294d985fc6": 0.975,
 "3b789cd37fcb": 0.036,
 "4eea346426cd": 0.335,
 "50904cabca7c": 0.227,
@@ -3846,21 +3860,20 @@
 "541383925a96": 0.02,
 "56e7e5d7c0b1": 0.066,
 "5ea2920be8ad": 0.031,
-"659a70e6a1bc": 0.103,
 "697438211130": 0.468,
-"6a56aba8ed3e": 0.081,
 "81415bfceea6": 0.041,
+"87bf171a330f": 0.029,
 "895e20f30945": 0.287,
 "94b2b98bc991": 0.208,
-"976360588292": 0.622,
+"976360588292": 0.715,
 "9a60fdaffc97": 0.78,
 "a31b2a1c17c6": 0.871,
 "aac652e3d726": 0.414,
 "b397e160ef1a": 0.015,
 "b3ad917afa00": 0.139,
 "b5c0789ffd78": 0.038,
-"c7100edb58d3": 0.062,
-"c81dac0592e5": 0.208,
+"ba7f4530fcfe": 0.03,
+"c81dac0592e5": 0.16,
 "ccdfd5415ce3": 0.972,
 "d34fd970d1ad": 0.05,
 "d73da1dc365e": 0.131,
@@ -3868,80 +3881,9 @@
 "e8e556ecf401": 0.175,
 "ea867d843d22": 0.011,
 "f1b3a0d0734a": 0.073,
-"f2f7c7ec8d1e": 0.014,
 "f78f3887eed4": 0.033
 },
 "sent": [
-{
-"e": [
-"aster",
-"investigates",
-"leveraged",
-"liquidations",
-"making",
-"swings",
-"unrelated",
-"volatility"
-],
-"k": [
-"crash"
-],
-"t": 1794800825.029386,
-"u": [
-"https://news.google.com/rss/articles/CBMigAFBVV95cUxNcW52UWtXR0pwYmE3WEF6dm5mclhJQlRWdEFvdWxQVXNDVjRtbHdOcUVXYlZtWGhVVG1LTE1fODhrNnFHRGlwd0lHVUNUZkxOYmYwQ3NtTXlOS3NWVU40Zmd5TE5HNWE4SDFjcGQ1LUtweXNzdjdSdUVqazI2OFB6dA?oc=5",
-"https://t.me/wublockchainenglish/26840"
-],
-"w": [
-"aster",
-"ceo",
-"investigates",
-"leveraged",
-"liquidations",
-"making",
-"market",
-"swings",
-"unrelated",
-"volatility"
-]
-},
-{
-"e": [
-"amazon",
-"anthropic",
-"microsoft",
-"nvidia",
-"openai",
-"trump",
-"wsj"
-],
-"k": [],
-"t": 1794805738.0751903,
-"u": [
-"https://t.me/WatcherGuru/16058",
-"https://t.me/cointelegraph/73305"
-],
-"w": [
-"administration",
-"amazon",
-"among",
-"anthropic",
-"business",
-"champions",
-"firms",
-"help",
-"microsoft",
-"name",
-"national",
-"nvidia",
-"openai",
-"overseas",
-"per",
-"set",
-"trump",
-"win",
-"wsj"
-]
-},
 {
 "e": [
 "changes",
@@ -5351,71 +5293,93 @@
 "out",
 "transferring"
 ]
+},
+{
+"e": [
+"tron"
+],
+"k": [],
+"t": 1794982656.2403831,
+"u": [
+"https://t.me/lookonchainchannel/11129"
+],
+"w": [
+"$94",
+"21b",
+"accounting",
+"grown",
+"reaching",
+"supply",
+"total",
+"tron",
+"usdt",
+"year"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"3b294d985fc6",
+25,
+6,
+1
+],
+[
 "ccdfd5415ce3",
-11,
-221,
+10,
+232,
 1
 ],
 [
 "a31b2a1c17c6",
 26,
-153,
+164,
 1
 ],
 [
 "387a685c7ac7",
 20,
-106,
+117,
 2
 ],
 [
 "9a60fdaffc97",
-13,
-238,
+11,
+248,
 1
 ],
 [
 "1e34a18bf14c",
-2,
-242,
-1
-],
-[
-"c91e37d5df7e",
-2,
-241,
+1,
+252,
 1
 ],
 [
 "976360588292",
-50,
-200,
+49,
+210,
 2
+],
+[
+"c91e37d5df7e",
+1,
+252,
+1
 ],
 [
 "697438211130",
 34,
-124,
+134,
 1
 ],
 [
 "0d91c8eb89f5",
 10,
-23,
-1
-],
-[
-"aac652e3d726",
-10,
-169,
+34,
 1
 ]
 ],
-"top_at": 1794982041.448367
+"top_at": 1794982656.2403831
 }
