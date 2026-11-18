@@ -14,7 +14,9 @@
 1794929624.218306,
 1794947431.339464,
 1794973155.1727364,
-1794982656.2403831
+1794982656.2403831,
+1794984809.9233978,
+1794985115.828342
 ],
 "menu": {
 "0234490c28f9": {
@@ -412,7 +414,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794984500.8149962,
+"t": 1794985115.828342,
 "t0": 1794967533.0,
 "tgtext": "Trader 0x9b7B sold 280 $ETH for 1.086M $USDC at $3,881 over a year ago.\n\nHe just spent the same 1.086M $USDC to buy back 598 $ETH at $1,816.\n\nNicely done \u2014 sell high, buy low!\n\nhttps://arkm.com/explorer/address/0x9b7Ba799B94f95Df74FAC55811328ac9144EbB54",
 "title": "Trader 0x9b7B sold 280 ETH for 1.086M USDC at $3,881 over a year ago.",
@@ -764,7 +766,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794984500.8149962,
+"t": 1794985115.828342,
 "t0": 1794982299.0,
 "tgtext": "The total supply of $USDT on #TRON has grown year after year, reaching $94.21B and accounting for 54% of the total $USDT supply.",
 "title": "The total supply of USDT on TRON has grown year after year, reaching $94.21B and accounting for 54% of the total USDT supply.",
@@ -1112,6 +1114,22 @@
 "title": "Google and Amazon to own a combined 28% of Anthropic after its IPO.",
 "url": "https://t.me/WatcherGuru/16091",
 "urls": []
+},
+"54e8e842d829": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Cointelegraph",
+"Wu Blockchain"
+],
+"t": 1794985115.828342,
+"t0": 1794969592.0,
+"tgtext": "Ledger Users Report Losses From Dubai-Bought Wallets After Teardown Reveals Suspected Hardware Implant\n\nAccording to The Defiant, two users reported crypto thefts from Ledger hardware wallets allegedly bought at official reseller Virgin Megastore in Dubai: account Rewinsky reported losing ~1,300 SOL on Nov. 15, and internal photos of their Ledger Flex were confirmed by Mark Karpel\u00e8s\u2019 public OSINT registry to contain an added circuit board and antenna matching implants previously found in Southeast Asia.\n\nThe second account, New Babylon Order, claimed 507,000 USDT was stolen on Nov. 14 from a Ledger Stax bought in October, though it remains unconfirmed without internal photos. Such physical implants capture recovery phrases displayed during setup over cellular networks without altering the secure element\u2014allowing tampered units to pass Ledger\u2019s Genuine Check\u2014while the reported purchase channels remain unverified and Ledger has not confirmed related drains outside Southeast Asia. \u2014 link",
+"title": "Ledger Users Report Losses From Dubai-Bought Wallets After Teardown Reveals Suspected Hardware Implant",
+"url": "https://t.me/wublockchainenglish/26868",
+"urls": [
+"https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "5612a45d92d6": {
 "coin": "bitcoin",
@@ -1519,6 +1537,19 @@
 "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886"
 ]
 },
+"6dc9acc269fe": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794985115.828342,
+"t0": 1794984970.0,
+"tgtext": "After some \"hard work,\" Machi (@machibigbrother) has finally topped the loss leaderboard on @papertrade_xyz with $2.61M in realized losses.\n\nhttps://exchange.papertrade.xyz/leaderboard?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&mode=accounts&sortKey=realizedPnl&sortDir=asc",
+"title": "After some \"hard work,\" Machi (@machibigbrother) has finally topped the loss leaderboard on @papertrade_xyz with $2.61M in realized losses.",
+"url": "https://t.me/lookonchainchannel/11131",
+"urls": []
+},
 "6e1ef5e7c7db": {
 "coin": "bitcoin",
 "src": "Decrypt",
@@ -1573,6 +1604,20 @@
 "tgtext": "\ud83c\udde8\ud83c\uddf3 JUST IN: China confirms Xi Jinping will host the first-ever trilateral summit with Trump and Putin in Shenzhen on Thursday.\n\nNews | Markets | YouTube",
 "title": "China confirms Xi Jinping will host the first-ever trilateral summit with Trump and Putin in Shenzhen on Thursday.",
 "url": "https://t.me/cointelegraph/73307",
+"urls": []
+},
+"72f1f5db4583": {
+"coin": "bitcoin",
+"src": "TradingKey",
+"srcs": [
+"KuCoin",
+"TradingKey"
+],
+"t": 1794984809.9233978,
+"t0": 1794972878.0,
+"tgtext": "",
+"title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
+"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLTlMOFdMQ3U3TVBxVzZkWElVWEpNUHRWaXdYcXloUlEwSF9fVElUbmhGSXRFeWFRTXBMNGxlOXJqSjdBMmRWb1JuTnlsT0h5a1R4bFdHdDgxMDdVUWloM3pnWDRRcmlXdU92eDFlUnltTHpEVllZODVUVlhpQlc4TGJCbGR5OUd0bnJmUHhqTF9VVVpVRGZieGpMUEF4Und4bHI5WnpGNERIU2ZWVElzU3hvcWlmMHBOdHRYcFB3b0RxdU1NSHhMVFFmZlNqeXhIYXNKbnkyMU0?oc=5",
 "urls": []
 },
 "7333b02d3cc4": {
@@ -2237,6 +2282,19 @@
 "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd3JIWi1pc1VXZXE4M0h1OUFTaVhhN1J4TElONUUtaHBBRzBoQnhFcGJDZUNQSmFzMEhmd0JTZ01CQ3gzSzByMXVEOUM4WVd2U2phMWpSRUE0NXBWNUY2SGdZWmFmUFU5bzZBTWo0S0JlZ09sLURzU29YdzFLczVBOUZVZnp3SkpNWWdoRU9XZ01zQXY3YnVNTERycDBucHh1MXRoLTNLWkdxUE5GRl9idG1Od1ZJZ0ZiemVOTW80RlBEdEk5bVdnNmxtZw?oc=5",
 "urls": []
 },
+"9707e5b77df2": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794985115.828342,
+"t0": 1794984917.0,
+"tgtext": "Highlight Clip: CZ: Entrepreneurs Still Building in Crypto Are More Worth Investing in Amid the AI Boom\n\nCZ: Entrepreneurs Still Building in Crypto Are More Worth Investing in Amid the AI Boom\n\nBinance founder Changpeng Zhao (CZ) said during the closing fireside chat at Cantor Convergence on November 12 that AI companies are creating tremendous value and deserve high valuations, but the industry also has a bubble. He believes 99% of today's AI startups will eventually fail, similar to the ICO and IEO boom in crypto. As attention shifts toward AI, entrepreneurs still building in crypto are more solid, making it easier to identify investment opportunities. CZ added that AI will not replace money or the internet but will use both and require more capital. He is now more bullish on crypto than ever. \u2014 link",
+"title": "Highlight Clip: CZ: Entrepreneurs Still Building in Crypto Are More Worth Investing in Amid the AI Boom",
+"url": "https://t.me/wublockchainenglish/26869",
+"urls": []
+},
 "976360588292": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2244,7 +2302,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794984500.8149962,
+"t": 1794985115.828342,
 "t0": 1794970071.0,
 "tgtext": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds\n\nAccording to Coinbase blog, scammers spun up a fake YouTube livestream during Tesla\u2019s \"flying car\" demo featuring an AI deepfake of Elon Musk promoting a fraudulent crypto-doubling giveaway that drew over 500,000 viewers and prompted hundreds of Coinbase customers to attempt sending millions of dollars within roughly two hours. Coinbase reported that its autonomous AI Scam Prevention Agent\u2014operating with no humans in the loop\u2014detected the high-risk sends in real time and intervened with targeted, context-aware conversations that exposed giveaway mechanics, ultimately stopping ~91% of the funds, or $4.7 million, from leaving customers' accounts. \u2014 link",
 "title": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds",
@@ -2306,7 +2364,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794984500.8149962,
+"t": 1794985115.828342,
 "t0": 1794967771.0,
 "tgtext": "JUST IN: Gold crashes under $3,800 for the first time since September 2025.\n\n@WatcherGuru",
 "title": "Gold crashes under $3,800 for the first time since September 2025.",
@@ -2443,7 +2501,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794984500.8149962,
+"t": 1794985115.828342,
 "t0": 1794972837.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) continues to dump $BTC, transferring out another 366 $BTC ($23.33M) 8 hours ago.\n\nAccording to official disclosures, #MARA sold 40,581 $BTC ($3.03B) in 2026 at an average price of $74,446.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "Bitcoin miner MARA Holdings (@MARA) continues to dump BTC, transferring out another 366 BTC ($23.33M) 8 hours ago.",
@@ -2706,6 +2764,19 @@
 "urls": [
 "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
 ]
+},
+"b5fdfe592ebe": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794985115.828342,
+"t0": 1794984519.0,
+"tgtext": "This guy turned $3.19M into just $258K in 1.5 years.\n\nHe bought 267,272 $TRUMP 1.5 years ago, worth $3.19M at the time but only $258K today \u2014 a loss of $2.93M (-92%).\n\nhttps://solscan.io/account/BjMq5Bw2SyFbGDYgCMSsMGQqGbJ3Yt5NrBphgknubz3q#transfers",
+"title": "This guy turned $3.19M into just $258K in 1.5 years.",
+"url": "https://t.me/lookonchainchannel/11130",
+"urls": []
 },
 "b6bee07fa251": {
 "coin": "hyperliquid",
@@ -2990,7 +3061,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794984500.8149962,
+"t": 1794984809.9233978,
 "t0": 1794967560.0,
 "tgtext": "\ud83d\udea8 TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.\n\nNews | Markets | YouTube",
 "title": "TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.",
@@ -3029,7 +3100,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794984500.8149962,
+"t": 1794985115.828342,
 "t0": 1794968763.0,
 "tgtext": "The Erik Voorhees-linked wallets have bought a total of 92,052 $ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.\nhttps://x.com/lookonchain/status/2122518108850225555",
 "title": "The Erik Voorhees-linked wallets have bought a total of 92,052 ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.",
@@ -3843,9 +3914,8 @@
 "rain": 1794942528.222368
 },
 "probs": {
-"03d0252114b0": 0.015,
+"03d0252114b0": 0.04,
 "0d91c8eb89f5": 0.346,
-"1e018188f50b": 0.02,
 "2451c2084655": 0.038,
 "2f071cc85090": 0.027,
 "364292d4c40a": 0.039,
@@ -3853,31 +3923,32 @@
 "387a685c7ac7": 0.575,
 "3b294d985fc6": 0.74,
 "3b789cd37fcb": 0.036,
-"3d0490dd4cfa": 0.36,
 "46ce560099d0": 0.085,
 "4eea346426cd": 0.335,
 "50904cabca7c": 0.227,
 "5100d2ea5298": 0.243,
 "516602800f9f": 0.035,
 "541383925a96": 0.02,
+"54e8e842d829": 0.928,
 "56e7e5d7c0b1": 0.066,
 "5ea2920be8ad": 0.031,
 "693f2ee6cb52": 0.028,
 "697438211130": 0.468,
-"78f7a83e386d": 0.063,
+"6dc9acc269fe": 0.977,
+"72f1f5db4583": 0.628,
 "81415bfceea6": 0.041,
-"81ce2dc4a24a": 0.029,
 "87bf171a330f": 0.029,
 "895e20f30945": 0.518,
 "94b2b98bc991": 0.208,
+"9707e5b77df2": 0.707,
 "976360588292": 0.715,
 "a31b2a1c17c6": 0.871,
-"b397e160ef1a": 0.015,
+"a6062eaa4fc4": 0.018,
 "b3ad917afa00": 0.139,
+"b5fdfe592ebe": 0.747,
 "ba7f4530fcfe": 0.03,
 "c7100edb58d3": 0.062,
 "c81dac0592e5": 0.16,
-"cf737e752085": 0.225,
 "d34fd970d1ad": 0.027,
 "e7a2c5241953": 0.075,
 "e8e556ecf401": 0.175,
@@ -3885,66 +3956,6 @@
 "f78f3887eed4": 0.033
 },
 "sent": [
-{
-"e": [
-"changes",
-"clarifying",
-"curb",
-"eip",
-"future",
-"growth",
-"protocol",
-"recommends",
-"scale",
-"state",
-"vitalik"
-],
-"k": [],
-"t": 1794810076.4282575,
-"u": [
-"https://t.me/wublockchainenglish/26842"
-],
-"w": [
-"8037",
-"changes",
-"clarifying",
-"curb",
-"eip",
-"ethereum",
-"future",
-"growth",
-"protocol",
-"recommends",
-"scale",
-"state",
-"vitalik"
-]
-},
-{
-"e": [
-"sol",
-"trader"
-],
-"k": [
-"crash"
-],
-"t": 1794812221.2466953,
-"u": [
-"https://t.me/lookonchainchannel/11086"
-],
-"w": [
-"287",
-"44m",
-"4tad6c",
-"86m",
-"dumped",
-"loss",
-"sol",
-"taking",
-"trader",
-"unstaked"
-]
-},
 {
 "e": [
 "aguilatrades"
@@ -5316,6 +5327,67 @@
 "usdt",
 "year"
 ]
+},
+{
+"e": [
+"bought",
+"dubai",
+"hardware",
+"implant",
+"ledger",
+"losses",
+"reveals",
+"suspected",
+"teardown",
+"users",
+"wallets"
+],
+"k": [],
+"t": 1794984809.9233978,
+"u": [
+"https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/wublockchainenglish/26868"
+],
+"w": [
+"bought",
+"dubai",
+"hardware",
+"implant",
+"ledger",
+"losses",
+"report",
+"reveals",
+"suspected",
+"teardown",
+"users",
+"wallets"
+]
+},
+{
+"e": [
+"machi"
+],
+"k": [],
+"t": 1794985115.828342,
+"u": [
+"https://t.me/lookonchainchannel/11131"
+],
+"w": [
+"61m",
+"finally",
+"hard",
+"leaderboard",
+"loss",
+"losses",
+"machi",
+"machibigbrother",
+"papertrade",
+"realized",
+"some",
+"topped",
+"work",
+"xyz"
+]
 }
 ],
 "stories": {},
@@ -5323,64 +5395,64 @@
 "top": [
 [
 "ccdfd5415ce3",
-6,
-262,
+4,
+273,
 1
 ],
 [
+"6dc9acc269fe",
+16,
+2,
+1
+],
+[
+"54e8e842d829",
+10,
+259,
+2
+],
+[
 "a31b2a1c17c6",
-25,
-194,
+23,
+205,
 1
 ],
 [
 "9a60fdaffc97",
-7,
-279,
+6,
+289,
+1
+],
+[
+"b5fdfe592ebe",
+16,
+10,
 1
 ],
 [
 "3b294d985fc6",
 25,
-37,
+47,
 1
 ],
 [
 "1e34a18bf14c",
 0,
-283,
+293,
 1
 ],
 [
 "976360588292",
-44,
-240,
+43,
+251,
 2
 ],
 [
-"c91e37d5df7e",
-0,
-282,
-1
-],
-[
-"387a685c7ac7",
-20,
-147,
-2
-],
-[
-"895e20f30945",
-29,
-209,
-1
-],
-[
-"aac652e3d726",
-7,
-210,
+"9707e5b77df2",
+18,
+3,
 1
 ]
 ],
-"top_at": 1794984500.8149962
+"top_at": 1794985115.828342
 }
