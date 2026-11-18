@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1794902352.734504,
 1794910812.4862669,
 1794917668.0780222,
 1794919303.2265837,
@@ -17,7 +16,8 @@
 1794982656.2403831,
 1794984809.9233978,
 1794985115.828342,
-1794985424.8439445
+1794985424.8439445,
+1794990347.6562796
 ],
 "menu": {
 "0234490c28f9": {
@@ -672,7 +672,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794984500.8149962,
+"t": 1794990653.5938923,
 "t0": 1794975662.0,
 "tgtext": "Singapore\u2019s Largest Bank DBS Partners With Circle to Enable Direct USDC Minting and Redemption for Institutional Clients\n\nSingapore\u2019s DBS Bank and stablecoin issuer Circle have announced a partnership enabling eligible institutional clients to mint and redeem USDC directly through DBS, with 24/7, near-instant settlement between USD and USDC\u2014eliminating complete reliance on secondary market liquidity. The service is designed to support institutional treasury operations, payment settlements, and liquidity management. Building on their prior participation in the Monetary Authority of Singapore\u2019s (MAS) Project BLOOM, the two firms will also collaborate to advance interoperability across different forms of tokenized money and financial networks. \u2014 link",
 "title": "Singapore\u2019s Largest Bank DBS Partners With Circle to Enable Direct USDC Minting and Redemption for Institutional Clients",
@@ -741,7 +741,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794982299.0,
 "tgtext": "The total supply of $USDT on #TRON has grown year after year, reaching $94.21B and accounting for 54% of the total $USDT supply.",
 "title": "The total supply of USDT on TRON has grown year after year, reaching $94.21B and accounting for 54% of the total USDT supply.",
@@ -1097,7 +1097,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794969592.0,
 "tgtext": "Ledger Users Report Losses From Dubai-Bought Wallets After Teardown Reveals Suspected Hardware Implant\n\nAccording to The Defiant, two users reported crypto thefts from Ledger hardware wallets allegedly bought at official reseller Virgin Megastore in Dubai: account Rewinsky reported losing ~1,300 SOL on Nov. 15, and internal photos of their Ledger Flex were confirmed by Mark Karpel\u00e8s\u2019 public OSINT registry to contain an added circuit board and antenna matching implants previously found in Southeast Asia.\n\nThe second account, New Babylon Order, claimed 507,000 USDT was stolen on Nov. 14 from a Ledger Stax bought in October, though it remains unconfirmed without internal photos. Such physical implants capture recovery phrases displayed during setup over cellular networks without altering the secure element\u2014allowing tampered units to pass Ledger\u2019s Genuine Check\u2014while the reported purchase channels remain unverified and Ledger has not confirmed related drains outside Southeast Asia. \u2014 link",
 "title": "Ledger Users Report Losses From Dubai-Bought Wallets After Teardown Reveals Suspected Hardware Implant",
@@ -1462,7 +1462,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794974602.0,
 "tgtext": "Whale 0xd0A4 dumped another 500,000 $UNI ($2.63M) 6 hours ago.\n\nOver the past month, the whale has sold a total of 3.11M $UNI ($21.48M) and still holds 1.89M $UNI ($9.85M).\n\nhttps://arkm.com/explorer/address/0xd0A4f3F50eBE99fb7C76e6bf416Ca56f8811229f",
 "title": "Whale 0xd0A4 dumped another 500,000 UNI ($2.63M) 6 hours ago.",
@@ -1518,7 +1518,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794984970.0,
 "tgtext": "After some \"hard work,\" Machi (@machibigbrother) has finally topped the loss leaderboard on @papertrade_xyz with $2.61M in realized losses.\n\nhttps://exchange.papertrade.xyz/leaderboard?view=0xad1215e79ed05c3e196a4e85066de41ec9004b41&mode=accounts&sortKey=realizedPnl&sortDir=asc",
 "title": "After some \"hard work,\" Machi (@machibigbrother) has finally topped the loss leaderboard on @papertrade_xyz with $2.61M in realized losses.",
@@ -2228,7 +2228,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794984917.0,
 "tgtext": "Highlight Clip: CZ: Entrepreneurs Still Building in Crypto Are More Worth Investing in Amid the AI Boom\n\nCZ: Entrepreneurs Still Building in Crypto Are More Worth Investing in Amid the AI Boom\n\nBinance founder Changpeng Zhao (CZ) said during the closing fireside chat at Cantor Convergence on November 12 that AI companies are creating tremendous value and deserve high valuations, but the industry also has a bubble. He believes 99% of today's AI startups will eventually fail, similar to the ICO and IEO boom in crypto. As attention shifts toward AI, entrepreneurs still building in crypto are more solid, making it easier to identify investment opportunities. CZ added that AI will not replace money or the internet but will use both and require more capital. He is now more bullish on crypto than ever. \u2014 link",
 "title": "Highlight Clip: CZ: Entrepreneurs Still Building in Crypto Are More Worth Investing in Amid the AI Boom",
@@ -2242,7 +2242,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794970071.0,
 "tgtext": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds\n\nAccording to Coinbase blog, scammers spun up a fake YouTube livestream during Tesla\u2019s \"flying car\" demo featuring an AI deepfake of Elon Musk promoting a fraudulent crypto-doubling giveaway that drew over 500,000 viewers and prompted hundreds of Coinbase customers to attempt sending millions of dollars within roughly two hours. Coinbase reported that its autonomous AI Scam Prevention Agent\u2014operating with no humans in the loop\u2014detected the high-risk sends in real time and intervened with targeted, context-aware conversations that exposed giveaway mechanics, ultimately stopping ~91% of the funds, or $4.7 million, from leaving customers' accounts. \u2014 link",
 "title": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds",
@@ -2441,7 +2441,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794972837.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) continues to dump $BTC, transferring out another 366 $BTC ($23.33M) 8 hours ago.\n\nAccording to official disclosures, #MARA sold 40,581 $BTC ($3.03B) in 2026 at an average price of $74,446.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "Bitcoin miner MARA Holdings (@MARA) continues to dump BTC, transferring out another 366 BTC ($23.33M) 8 hours ago.",
@@ -2565,7 +2565,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794990038.6865013,
+"t": 1794990653.5938923,
 "t0": 1794971915.0,
 "tgtext": "JUST IN: Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares.\n\n@WatcherGuru",
 "title": "Nvidia NVDA to buy $10,000,000,000 in Anthropic shares.",
@@ -2711,7 +2711,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794989423.392833,
+"t": 1794990653.5938923,
 "t0": 1794984519.0,
 "tgtext": "This guy turned $3.19M into just $258K in 1.5 years.\n\nHe bought 267,272 $TRUMP 1.5 years ago, worth $3.19M at the time but only $258K today \u2014 a loss of $2.93M (-92%).\n\nhttps://solscan.io/account/BjMq5Bw2SyFbGDYgCMSsMGQqGbJ3Yt5NrBphgknubz3q#transfers",
 "title": "This guy turned $3.19M into just $258K in 1.5 years.",
@@ -3041,7 +3041,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990347.6562796,
 "t0": 1794968763.0,
 "tgtext": "The Erik Voorhees-linked wallets have bought a total of 92,052 $ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.\nhttps://x.com/lookonchain/status/2122518108850225555",
 "title": "The Erik Voorhees-linked wallets have bought a total of 92,052 ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.",
@@ -3391,7 +3391,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794990038.6865013,
+"t": 1794990347.6562796,
 "t0": 1794989855.0,
 "tgtext": "Binance Plans to Enter Five Asian Markets Next Year, Focusing on South and Southeast Asia\n\nAccording to Reuters, Binance\u2019s Asia-Pacific head SB Seker said the company plans to enter five Asian markets next year, focusing on South and Southeast Asia. It is in talks with five or six markets, with three at an advanced stage. The markets were not named; details are expected in the first quarter of next year. Following a $6.3 billion crypto theft last month, Binance contacted regulators in Japan, South Korea, Australia, Thailand and New Zealand within 36 to 48 hours. Seker said discussions with regulators on industry-wide security threats are ongoing. \u2014 link",
 "title": "Binance Plans to Enter Five Asian Markets Next Year, Focusing on South and Southeast Asia",
@@ -3837,30 +3837,30 @@
 },
 "probs": {
 "0d91c8eb89f5": 0.346,
+"0e61505b30b3": 0.046,
 "15898f97e898": 0.043,
 "1e018188f50b": 0.02,
 "28f78baacb49": 0.043,
 "2f071cc85090": 0.027,
 "31bdcc7a789a": 0.009,
-"364292d4c40a": 0.021,
 "3727ed4cfec5": 0.344,
 "37fb6324c3f4": 0.045,
-"387a685c7ac7": 0.419,
+"387a685c7ac7": 0.734,
 "3b294d985fc6": 0.673,
 "3b789cd37fcb": 0.036,
 "44154621347f": 0.075,
 "46ce560099d0": 0.085,
 "516602800f9f": 0.04,
-"56e7e5d7c0b1": 0.16,
+"56e7e5d7c0b1": 0.092,
 "693f2ee6cb52": 0.028,
 "697438211130": 0.701,
-"69e1c559b7f8": 0.01,
 "6dc9acc269fe": 0.828,
 "72f1f5db4583": 0.27,
 "746ad3d08971": 0.041,
 "78f7a83e386d": 0.063,
 "81ce2dc4a24a": 0.029,
 "895e20f30945": 0.364,
+"8b66159fc87b": 0.023,
 "92af388aeb67": 0.041,
 "9707e5b77df2": 0.636,
 "976360588292": 0.678,
@@ -3872,10 +3872,10 @@
 "c7100edb58d3": 0.062,
 "c81dac0592e5": 0.047,
 "d332dc27cedc": 0.019,
-"e5d944a875bb": 0.657,
+"d34fd970d1ad": 0.05,
+"e5d944a875bb": 0.283,
 "e7a2c5241953": 0.075,
-"eacc86a611c4": 0.044,
-"f20329f01a1a": 0.028
+"eacc86a611c4": 0.044
 },
 "sent": [
 {
@@ -5332,71 +5332,106 @@
 "uni",
 "whale"
 ]
+},
+{
+"e": [
+"asia",
+"asian",
+"binance",
+"enter",
+"five",
+"focusing",
+"markets",
+"next",
+"plans",
+"south",
+"southeast",
+"year"
+],
+"k": [],
+"t": 1794990347.6562796,
+"u": [
+"https://t.me/wublockchainenglish/26871"
+],
+"w": [
+"asia",
+"asian",
+"binance",
+"enter",
+"five",
+"focusing",
+"markets",
+"next",
+"plans",
+"south",
+"southeast",
+"year"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"ccdfd5415ce3",
-0,
-355,
-1
-],
-[
 "54e8e842d829",
 0,
-341,
+351,
 2
 ],
 [
 "6dc9acc269fe",
 16,
-84,
+95,
 1
 ],
 [
 "a31b2a1c17c6",
-12,
-287,
+11,
+297,
 1
 ],
 [
+"387a685c7ac7",
+11,
+250,
+2
+],
+[
 "697438211130",
-24,
-257,
+23,
+268,
 1
 ],
 [
 "976360588292",
-32,
-333,
+31,
+343,
 2
 ],
 [
 "3b294d985fc6",
 25,
-129,
-1
-],
-[
-"e5d944a875bb",
-18,
-3,
+139,
 1
 ],
 [
 "9707e5b77df2",
 18,
-85,
+96,
 1
 ],
 [
 "aac652e3d726",
 0,
-302,
+312,
+1
+],
+[
+"b5fdfe592ebe",
+16,
+102,
 1
 ]
 ],
-"top_at": 1794990038.6865013
+"top_at": 1794990653.5938923
 }
