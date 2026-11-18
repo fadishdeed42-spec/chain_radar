@@ -402,7 +402,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794967533.0,
 "tgtext": "Trader 0x9b7B sold 280 $ETH for 1.086M $USDC at $3,881 over a year ago.\n\nHe just spent the same 1.086M $USDC to buy back 598 $ETH at $1,816.\n\nNicely done \u2014 sell high, buy low!\n\nhttps://arkm.com/explorer/address/0x9b7Ba799B94f95Df74FAC55811328ac9144EbB54",
 "title": "Trader 0x9b7B sold 280 ETH for 1.086M USDC at $3,881 over a year ago.",
@@ -1554,21 +1554,6 @@
 "https://www.coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk"
 ]
 },
-"7a21804fdca3": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Benzinga",
-"BigGo Finance",
-"Wu Blockchain"
-],
-"t": 1794800368.7652812,
-"t0": 1794779106.0,
-"tgtext": "Spot Bitcoin ETFs Record $1.065 Billion in Weekly Net Outflows, Extending Streak to Three Weeks\n\nDuring Nov. 9\u201313 (ET), spot Bitcoin ETFs recorded net outflows of $1.065 billion, marking their third consecutive week of net outflows. Spot Ethereum ETFs saw $399 million in net outflows, extending their streak to seven weeks. Spot SOL ETFs recorded $32.0538 million in net outflows, the second-largest weekly total on record. Spot XRP ETFs posted net outflows of $19.1274 million, while spot HYPE ETFs saw $4.3257 million in net outflows, marking their sixth consecutive week. \u2014 link",
-"title": "Spot Bitcoin ETFs Record $1.065 Billion in Weekly Net Outflows, Extending Streak to Three Weeks",
-"url": "https://t.me/wublockchainenglish/26839",
-"urls": []
-},
 "7be08416c990": {
 "coin": "aster-2",
 "src": "Wu Blockchain",
@@ -1727,7 +1712,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794954004.0,
 "tgtext": "",
 "title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
@@ -1747,6 +1732,19 @@
 "tgtext": "JUST IN: Google $GOOGL says \"the era of autonomous attacks has arrived.\"\n\n@WatcherGuru",
 "title": "Google GOOGL says \"the era of autonomous attacks has arrived.\"",
 "url": "https://t.me/WatcherGuru/16086",
+"urls": []
+},
+"81565a0971e4": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1794973464.0490766,
+"t0": 1794951990.0,
+"tgtext": "NVIDIA Q3 FY27 Revenue Surges 103% to $115.8B, Q4 Outlook Beats Estimates\n\nNVIDIA reported Q3 FY27 revenue of $115.8 billion, up 103% year over year and above estimates of $109.3 billion. Non-GAAP diluted EPS rose 111% to $2.68, beating estimates of $2.47, while adjusted gross margin reached 74.9%, versus 74.0% expected. Data center revenue totaled $107.6 billion, including $60.1 billion from hyperscalers and $47.5 billion from AI cloud, industrial, and enterprise customers. Vera Rubin revenue increased by nearly $20 billion quarter over quarter. NVIDIA guided Q4 FY27 revenue to $130 billion, plus or minus 3%, above estimates of $124.4 billion, with a non-GAAP gross margin of 71%\u201372%, broadly in line with expectations. \u2014 link",
+"title": "NVIDIA Q3 FY27 Revenue Surges 103% to $115.8B, Q4 Outlook Beats Estimates",
+"url": "https://t.me/wublockchainenglish/26862",
 "urls": []
 },
 "819efbe0da13": {
@@ -2139,7 +2137,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794970071.0,
 "tgtext": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds\n\nAccording to Coinbase blog, scammers spun up a fake YouTube livestream during Tesla\u2019s \"flying car\" demo featuring an AI deepfake of Elon Musk promoting a fraudulent crypto-doubling giveaway that drew over 500,000 viewers and prompted hundreds of Coinbase customers to attempt sending millions of dollars within roughly two hours. Coinbase reported that its autonomous AI Scam Prevention Agent\u2014operating with no humans in the loop\u2014detected the high-risk sends in real time and intervened with targeted, context-aware conversations that exposed giveaway mechanics, ultimately stopping ~91% of the funds, or $4.7 million, from leaving customers' accounts. \u2014 link",
 "title": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds",
@@ -2201,7 +2199,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794967771.0,
 "tgtext": "JUST IN: Gold crashes under $3,800 for the first time since September 2025.\n\n@WatcherGuru",
 "title": "Gold crashes under $3,800 for the first time since September 2025.",
@@ -2338,7 +2336,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794972837.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) continues to dump $BTC, transferring out another 366 $BTC ($23.33M) 8 hours ago.\n\nAccording to official disclosures, #MARA sold 40,581 $BTC ($3.03B) in 2026 at an average price of $74,446.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "Bitcoin miner MARA Holdings (@MARA) continues to dump BTC, transferring out another 366 BTC ($23.33M) 8 hours ago.",
@@ -2462,7 +2460,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794971915.0,
 "tgtext": "JUST IN: Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares.\n\n@WatcherGuru",
 "title": "Nvidia NVDA to buy $10,000,000,000 in Anthropic shares.",
@@ -2910,7 +2908,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794968763.0,
 "tgtext": "The Erik Voorhees-linked wallets have bought a total of 92,052 $ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.\nhttps://x.com/lookonchain/status/2122518108850225555",
 "title": "The Erik Voorhees-linked wallets have bought a total of 92,052 ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.",
@@ -2979,7 +2977,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794953290.0,
 "tgtext": "JUST IN: Nvidia $NVDA board says it has no plans to reinstate Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: Nvidia\u2019s board will not reinstate Jensen Huang as CEO, according to the company\u2019s chairman.\n\nNews | Markets | YouTube\n\ud83d\udea8 TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.\n\nNews | Markets | YouTube",
 "title": "TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.",
@@ -3065,7 +3063,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1794971925.2679517,
+"t": 1794973769.9352553,
 "t0": 1794968980.0,
 "tgtext": "Highlight Clip: Dragonfly Partner Reflects on Missing Out on Solana\u2019s 4-Cent Seed Round\n\nDragonfly Partner Reflects on Missing Out on Solana\u2019s 4-Cent Seed Round\n\nIn the November 12, 2026 When Shift Happens episode, Dragonfly managing partner Haseeb said he passed on Solana's seed round at four cents as a VC in 2017 and 2018. He wrote a memo for every deal he passed on; his unusually detailed Solana memo worked through it like homework, yet the result was no investment. He calls this the most common junior-investor mistake: too focused on process, when the answer is wrong. \u2014 link",
 "title": "Highlight Clip: Dragonfly Partner Reflects on Missing Out on Solana\u2019s 4-Cent Seed Round",
@@ -3351,7 +3349,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794973155.1727364,
+"t": 1794973769.9352553,
 "t0": 1794958455.0,
 "tgtext": "JUST IN: JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: JPMorgan tests AI agent payments without human involvement, with more complex trials set for 2027.\n\nNews | Markets | YouTube",
 "title": "JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.",
@@ -3739,46 +3737,46 @@
 "rain": 1794942528.222368
 },
 "probs": {
-"056a931f5ce9": 0.043,
-"063529ee8e1a": 0.126,
 "070db314be1c": 0.024,
 "16982cc774a9": 0.03,
 "19488714db12": 0.035,
 "1e34a18bf14c": 0.695,
 "1f18b1b29722": 0.09,
 "2238aaa5588e": 0.084,
+"2451c2084655": 0.015,
 "33355b207828": 0.062,
 "3d19b53b0422": 0.054,
 "452de3c4a472": 0.056,
 "4a14e5c19d0e": 0.034,
 "4d15de4c6a3a": 0.031,
 "50ffbbfa625c": 0.06,
+"54e8e842d829": 0.128,
 "5ea2920be8ad": 0.12,
 "659a70e6a1bc": 0.079,
 "67aedb3ec440": 0.116,
 "6a56aba8ed3e": 0.263,
 "77df6f852dc0": 0.048,
+"805175802420": 0.05,
 "809790295a6e": 0.561,
-"81565a0971e4": 0.395,
-"874cc11131ee": 0.037,
+"81415bfceea6": 0.148,
 "88b4e8583877": 0.009,
-"895e20f30945": 0.371,
-"976360588292": 0.904,
+"895e20f30945": 0.299,
+"976360588292": 0.87,
 "9a60fdaffc97": 0.876,
-"a31b2a1c17c6": 0.993,
+"a31b2a1c17c6": 0.908,
 "ab3766666f1b": 0.122,
 "b397e160ef1a": 0.015,
-"c2e028c4d939": 0.581,
+"c2e028c4d939": 0.266,
 "ccdfd5415ce3": 0.973,
-"d0d5a863a649": 0.859,
 "d34fd970d1ad": 0.052,
 "d73da1dc365e": 0.381,
-"ebf7dea51362": 0.018,
+"ea867d843d22": 0.012,
 "ec244116bcd3": 0.565,
 "eee9ef1e40dc": 0.073,
+"f2f7c7ec8d1e": 0.015,
 "f7804098ea52": 0.059,
 "f78f3887eed4": 0.035,
-"fad8e482ec59": 0.095
+"fad8e482ec59": 0.053
 },
 "sent": [
 {
@@ -5266,65 +5264,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"a31b2a1c17c6",
-26,
-5,
-1
-],
-[
 "ccdfd5415ce3",
 16,
-73,
+83,
 1
 ],
 [
-"976360588292",
-60,
-51,
-2
-],
-[
-"9a60fdaffc97",
-20,
-90,
+"a31b2a1c17c6",
+26,
+16,
 1
 ],
 [
 "d0d5a863a649",
-10,
-331,
+9,
+341,
 3
+],
+[
+"9a60fdaffc97",
+20,
+100,
+1
+],
+[
+"976360588292",
+52,
+62,
+2
 ],
 [
 "1e34a18bf14c",
 10,
-94,
-1
-],
-[
-"c2e028c4d939",
-18,
-111,
+104,
 1
 ],
 [
 "ec244116bcd3",
-12,
-245,
+10,
+255,
 2
 ],
 [
 "809790295a6e",
-22,
-319,
+21,
+329,
 1
 ],
 [
 "aac652e3d726",
 10,
-21,
+31,
+1
+],
+[
+"d73da1dc365e",
+18,
+80,
 1
 ]
 ],
-"top_at": 1794973155.1727364
+"top_at": 1794973769.9352553
 }
