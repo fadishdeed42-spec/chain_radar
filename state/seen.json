@@ -381,28 +381,13 @@
 "url": "https://t.me/cointelegraph/73348",
 "urls": []
 },
-"1db325059893": {
-"coin": "bitcoin",
-"src": "investingLive",
-"srcs": [
-"BigGo Finance",
-"Wu Blockchain",
-"investingLive"
-],
-"t": 1794801884.7185087,
-"t0": 1794780300.0,
-"tgtext": "ASTER Swings Over 30%; Aster CEO Says Volatility Is Unrelated to Market Making, Investigates Leveraged Liquidations\n\nASTER briefly surged above $0.71 to a high of $0.7124 earlier today before plunging to around $0.4812, a roughly 32% decline from peak to trough. ASTER is now trading at $0.5464, up 3.80% over the past 24 hours.\n\nAster CEO Leonard said the team is investigating abnormal ASTER price movements caused by liquidations of highly leveraged positions, potentially involving malicious activity. Full details will follow in subsequent reports. He added that Aster is operating normally, the incident is unrelated to ASTER market making, and the platform has no such arrangements with any market makers. \u2014 link",
-"title": "Weekend - Bitcoin fell to four-month low near $62,000 as crypto liquidations top $2 billion",
-"url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYjBMWFBzOVR3VGNhQzRjMHhNNnQxUC15WmFGMXNIMXBZamt0a3dGbzBVOGJjd1NXaE9EWnk2V25OcEhhNUxjMUtKZHhFeG4yZ0JZY3hQb3o4UTVzeDZmbUJDU25qZ2lrVllrM2FUYkN1d0VnNloyQWhuczJja1VQYzhIaV90LTRIV1hkV01DQnBURXo3cVpxdEVrS29sdVZzeHJQQ2hoXzZhM1ZONEhKc3cwX25nbjlvR01PQVN3Q0NJOGNhZFFwMQ?oc=5",
-"urls": []
-},
 "1e34a18bf14c": {
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794967533.0,
 "tgtext": "Trader 0x9b7B sold 280 $ETH for 1.086M $USDC at $3,881 over a year ago.\n\nHe just spent the same 1.086M $USDC to buy back 598 $ETH at $1,816.\n\nNicely done \u2014 sell high, buy low!\n\nhttps://arkm.com/explorer/address/0x9b7Ba799B94f95Df74FAC55811328ac9144EbB54",
 "title": "Trader 0x9b7B sold 280 ETH for 1.086M USDC at $3,881 over a year ago.",
@@ -854,6 +839,22 @@
 "title": "Whale 0x4b10 withdrew 5,500 ETH ($9.95M) and 5M WLD ($1.32M) from Binance over the past 2 days.",
 "url": "https://t.me/lookonchainchannel/11104",
 "urls": []
+},
+"430f912aa7f0": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Decrypt"
+],
+"t": 1794975003.2403886,
+"t0": 1794953701.0,
+"tgtext": "\ud83d\udea8 UPDATE: Nvidia\u2019s board will not reinstate Jensen Huang as CEO, according to the company\u2019s chairman.\n\nNews | Markets | YouTube\n\ud83d\udea8 TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.\n\nNews | Markets | YouTube",
+"title": "TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.",
+"url": "https://t.me/cointelegraph/73356",
+"urls": [
+"https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback"
+]
 },
 "435be5c9f400": {
 "coin": "bitcoin",
@@ -1379,6 +1380,19 @@
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.\n\nNews | Markets | YouTube",
 "title": "A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.",
 "url": "https://t.me/cointelegraph/73330",
+"urls": []
+},
+"697438211130": {
+"coin": "uniswap",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1794975003.2403886,
+"t0": 1794974602.0,
+"tgtext": "Whale 0xd0A4 dumped another 500,000 $UNI ($2.63M) 6 hours ago.\n\nOver the past month, the whale has sold a total of 3.11M $UNI ($21.48M) and still holds 1.89M $UNI ($9.85M).\n\nhttps://arkm.com/explorer/address/0xd0A4f3F50eBE99fb7C76e6bf416Ca56f8811229f",
+"title": "Whale 0xd0A4 dumped another 500,000 UNI ($2.63M) 6 hours ago.",
+"url": "https://t.me/lookonchainchannel/11127",
 "urls": []
 },
 "69e94173a5d5": {
@@ -2119,7 +2133,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794970071.0,
 "tgtext": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds\n\nAccording to Coinbase blog, scammers spun up a fake YouTube livestream during Tesla\u2019s \"flying car\" demo featuring an AI deepfake of Elon Musk promoting a fraudulent crypto-doubling giveaway that drew over 500,000 viewers and prompted hundreds of Coinbase customers to attempt sending millions of dollars within roughly two hours. Coinbase reported that its autonomous AI Scam Prevention Agent\u2014operating with no humans in the loop\u2014detected the high-risk sends in real time and intervened with targeted, context-aware conversations that exposed giveaway mechanics, ultimately stopping ~91% of the funds, or $4.7 million, from leaving customers' accounts. \u2014 link",
 "title": "Coinbase: AI Scam Prevention Agent Blocks Deepfake Elon Musk Tesla Giveaway Scam, Protecting ~$4.7M in Customer Funds",
@@ -2181,7 +2195,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794967771.0,
 "tgtext": "JUST IN: Gold crashes under $3,800 for the first time since September 2025.\n\n@WatcherGuru",
 "title": "Gold crashes under $3,800 for the first time since September 2025.",
@@ -2318,7 +2332,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794972837.0,
 "tgtext": "Bitcoin miner MARA Holdings (@MARA) continues to dump $BTC, transferring out another 366 $BTC ($23.33M) 8 hours ago.\n\nAccording to official disclosures, #MARA sold 40,581 $BTC ($3.03B) in 2026 at an average price of $74,446.\n\nhttps://arkm.com/explorer/entity/mara-pool",
 "title": "Bitcoin miner MARA Holdings (@MARA) continues to dump BTC, transferring out another 366 BTC ($23.33M) 8 hours ago.",
@@ -2442,7 +2456,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794971915.0,
 "tgtext": "JUST IN: Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares.\n\n@WatcherGuru",
 "title": "Nvidia NVDA to buy $10,000,000,000 in Anthropic shares.",
@@ -2890,7 +2904,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794968763.0,
 "tgtext": "The Erik Voorhees-linked wallets have bought a total of 92,052 $ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.\nhttps://x.com/lookonchain/status/2122518108850225555",
 "title": "The Erik Voorhees-linked wallets have bought a total of 92,052 ETH ($165.55M) at an average price of $1,921 over the past week and is now sitting on $11M in unrealized losses.",
@@ -2959,7 +2973,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794974388.4554877,
+"t": 1794974697.4097245,
 "t0": 1794953290.0,
 "tgtext": "JUST IN: Nvidia $NVDA board says it has no plans to reinstate Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: Nvidia\u2019s board will not reinstate Jensen Huang as CEO, according to the company\u2019s chairman.\n\nNews | Markets | YouTube\n\ud83d\udea8 TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.\n\nNews | Markets | YouTube",
 "title": "TODAY: Jeff Bezos told Semafor that Nvidia should never hire an outsider to replace Jensen Huang, since the company is too complex for an outside CEO to succeed.",
@@ -3279,6 +3293,19 @@
 "url": "https://t.me/WatcherGuru/16079",
 "urls": []
 },
+"e8e556ecf401": {
+"coin": "",
+"src": "Binance",
+"srcs": [
+"Binance"
+],
+"t": 1794975003.2403886,
+"t0": 1794974558.0,
+"tgtext": "Binance Earn Yield Arena: Earn Up to 27% APR With This Week's New Limited-Time Offers! (2026-11-18)\n\nBinance Earn presents to you new offers that are newly added to Yield Arena this week. Stay tuned for more campaigns in Yield Arena to earn rewards from Simple Earn, ETH Staking, SOL Staking, Dual Investment, and more.\n\n\ud83d\udc49\ud83c\udffbLearn more here\n\nDisclaimer: This is not available for users in the EEA.",
+"title": "Binance Earn Yield Arena: Earn Up to 27% APR With This Week's New Limited-Time Offers! (2026-11-18)",
+"url": "https://t.me/binance_announcements/9143",
+"urls": []
+},
 "e99bafe26586": {
 "coin": "",
 "src": "The Block",
@@ -3331,7 +3358,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794974388.4554877,
+"t": 1794975003.2403886,
 "t0": 1794958455.0,
 "tgtext": "JUST IN: JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: JPMorgan tests AI agent payments without human involvement, with more complex trials set for 2027.\n\nNews | Markets | YouTube",
 "title": "JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.",
@@ -3728,16 +3755,16 @@
 "2238aaa5588e": 0.084,
 "23c62315855b": 0.032,
 "2451c2084655": 0.015,
-"33355b207828": 0.077,
-"364292d4c40a": 0.041,
-"3d19b53b0422": 0.054,
+"38f782566b7c": 0.044,
 "452de3c4a472": 0.056,
+"4a14e5c19d0e": 0.034,
 "4d15de4c6a3a": 0.031,
 "50ffbbfa625c": 0.06,
 "54e8e842d829": 0.128,
 "5ea2920be8ad": 0.12,
 "659a70e6a1bc": 0.079,
 "67aedb3ec440": 0.116,
+"697438211130": 0.63,
 "6a56aba8ed3e": 0.085,
 "805175802420": 0.05,
 "809790295a6e": 0.405,
@@ -3746,16 +3773,16 @@
 "895e20f30945": 0.299,
 "976360588292": 0.87,
 "9a60fdaffc97": 0.876,
-"a31b2a1c17c6": 0.908,
-"aac652e3d726": 0.508,
+"a31b2a1c17c6": 0.877,
+"aac652e3d726": 0.428,
 "ab3766666f1b": 0.122,
 "b397e160ef1a": 0.015,
 "c2e028c4d939": 0.266,
 "ccdfd5415ce3": 0.973,
 "d34fd970d1ad": 0.052,
 "d73da1dc365e": 0.381,
+"e8e556ecf401": 0.463,
 "ea867d843d22": 0.012,
-"ec244116bcd3": 0.621,
 "eee9ef1e40dc": 0.073,
 "f78f3887eed4": 0.035,
 "fad8e482ec59": 0.053
@@ -5248,63 +5275,63 @@
 [
 "ccdfd5415ce3",
 16,
-94,
+104,
 1
 ],
 [
 "a31b2a1c17c6",
 26,
-26,
+36,
 1
-],
-[
-"d0d5a863a649",
-8,
-352,
-3
 ],
 [
 "9a60fdaffc97",
 20,
-110,
+121,
 1
 ],
 [
 "976360588292",
 52,
-72,
+82,
+2
+],
+[
+"430f912aa7f0",
+0,
+355,
 2
 ],
 [
 "1e34a18bf14c",
 10,
-114,
+125,
+1
+],
+[
+"697438211130",
+34,
+7,
 1
 ],
 [
 "ec244116bcd3",
-9,
-266,
+8,
+276,
 2
+],
+[
+"e8e556ecf401",
+18,
+7,
+1
 ],
 [
 "aac652e3d726",
 10,
-41,
-1
-],
-[
-"809790295a6e",
-19,
-340,
-1
-],
-[
-"d73da1dc365e",
-18,
-90,
+51,
 1
 ]
 ],
-"top_at": 1794974388.4554877
+"top_at": 1794975003.2403886
 }
