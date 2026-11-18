@@ -66,6 +66,19 @@
 "url": "https://t.me/lookonchainchannel/11119",
 "urls": []
 },
+"046857f27e74": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795029517.581583,
+"t0": 1795028768.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The Fed flags risks that the AI investment surge could prove excessive.\n\nNews | Markets | YouTube",
+"title": "The Fed flags risks that the AI investment surge could prove excessive.",
+"url": "https://t.me/cointelegraph/73372",
+"urls": []
+},
 "05a5d707639b": {
 "coin": "bitcoin",
 "src": "Watcher.Guru",
@@ -275,19 +288,6 @@
 "tgtext": "",
 "title": "Lighter investigates $15.5M exploit tied to compromised API keys",
 "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVS14SFQ0c1FjQ1RmSEF2YnhhT25KaVlqalNEanJEN29qUDFXVGRXWkFqTnU2OVF2bFFCQWp2eGlraTFrd24xLTR2bXZIQUV1Um9MRURXVFBfVUp3eDJWc1FFejJ1andoSzFISWRyb0llMTFDNFlkbFdvVGI2bjlxSUxoTmxCX2ZuN1FIaXNoeHBvWDJkeXc?oc=5",
-"urls": []
-},
-"1303344c9692": {
-"coin": "lighter",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794856477.382507,
-"t0": 1794835046.0,
-"tgtext": "It appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.\n\nAbraxas Capital is now closing short positions on Hyperliquid and withdrawing funds.\n\nOver the past 24 hours, its account value on Hyperliquid has dropped by $150M, while its short positions have shrunk to $70M.\n\nhttps://hypurrscan.io/address/0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36#more\nhttps://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13f298c060#more",
-"title": "It appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.",
-"url": "https://t.me/lookonchainchannel/11093",
 "urls": []
 },
 "13b151f123e0": {
@@ -618,7 +618,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795014901.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Costco is seeing a surge in emergency supply purchases amid recent tech outages, with U.S. comparable sales estimated to have jumped 11%\u201312% in the final week of October.\n\nNews | Markets | YouTube",
 "title": "Costco is seeing a surge in emergency supply purchases amid recent tech outages, with U.S. comparable sales estimated to have jumped 11%\u201312% in the final week of October.",
@@ -888,25 +888,6 @@
 "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsSjBFR1lkeXpqVnJ6OTN6VlRpRHNnLWt0SUt4SXN0LVpwZzh2WHlqZFFrMnVidlV4eC1vZGlrWjZXalczSVo5ci00VHBsUS1BR0FxVjIyRUs?oc=5",
 "urls": []
-},
-"427d6a113526": {
-"coin": "bitcoin",
-"src": "The Block",
-"srcs": [
-"Bitcoin Magazine",
-"The Block",
-"Watcher.Guru",
-"Wu Blockchain"
-],
-"t": 1794856173.4885418,
-"t0": 1794834589.0,
-"tgtext": "Strategy Buys 485 BTC for $33.4 Million, Repurchases $228.1 Million in STRC\n\nStrategy purchased 485 BTC for $33.4 million at an average price of $68,887 between November 9 and 15, bringing its total holdings to 850,849 BTC, acquired for approximately $64.2 billion at an average cost of $75,452 per BTC. During the same period, it raised $244.7 million through MSTR share sales, using $33.4 million to buy BTC and $206.3 million to fund STRC repurchases. It separately repurchased 2.28 million STRC shares for $228.1 million. \u2014 link\nJUST IN: Michael Saylor's 'Strategy' buys 485 Bitcoin worth $31 million.\n\n@WatcherGuru",
-"title": "\u2018This dip could use a little orange\u2019: Michael Saylor\u2019s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
-"url": "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
-"https://bitcoinmagazine.com/news/strategy-mstr-adds-485-bitcoin-holdings"
-]
 },
 "42b00d9c9daf": {
 "coin": "ethereum",
@@ -1242,7 +1223,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795028701.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.",
@@ -1344,9 +1325,9 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795015319.0,
-"tgtext": "JUST IN: Some Nvidia $NVDA board members are pushing to bring back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Telegram founder Pavel Durov says NVIDIA\u2019s board should bring Jensen Huang back as CEO.\n\nNews | Markets | YouTube\nJUST IN: Telegram founder Pavel Durov calls for Nvidia $NVDA board to bring back Jensen Huang as CEO.\n\n@WatcherGuru\nJUST IN: Billionaire Bill Ackman says Nvidia $NVDA board is acting against shareholders' best interests by refusing to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
+"tgtext": "JUST IN: Some Nvidia $NVDA board members are pushing to bring back Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Telegram founder Pavel Durov says NVIDIA\u2019s board should bring Jensen Huang back as CEO.\n\nNews | Markets | YouTube\nJUST IN: Telegram founder Pavel Durov calls for Nvidia $NVDA board to bring back Jensen Huang as CEO.\n\n@WatcherGuru\nJUST IN: Billionaire Bill Ackman says Nvidia $NVDA board is acting against shareholders' best interests by refusing to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 200,000 signatures.\n\n@WatcherGuru",
 "title": "Billionaire Bill Ackman says Nvidia NVDA board is acting against shareholders' best interests by refusing to reinstate Jensen Huang as CEO.",
 "url": "https://t.me/WatcherGuru/16138",
 "urls": []
@@ -2010,7 +1991,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795022816.0,
 "tgtext": "\ud83d\udea8 JUST IN: $237.84 million in crypto positions liquidated over the past 4 hours.\n\nNews | Markets | YouTube",
 "title": "$237.84 million in crypto positions liquidated over the past 4 hours.",
@@ -2522,7 +2503,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795010722.0,
 "tgtext": "Whale bc1q7s deposited 1,040 $BTC($67.17M) to #Binance in the past 24 hours.\n\nhttps://arkm.com/explorer/address/bc1q7sj5l0phh9upugueda6v8wyjrma3yws2ycxyyx",
 "title": "Whale bc1q7s deposited 1,040 BTC($67.17M) to Binance in the past 24 hours.",
@@ -2897,17 +2878,18 @@
 "urls": []
 },
 "c2cdb91701e8": {
-"coin": "bitcoin",
-"src": "Benzinga",
+"coin": "",
+"src": "CryptoTicker.io",
 "srcs": [
 "Benzinga",
+"CryptoTicker.io",
 "Watcher.Guru"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795017141.0,
 "tgtext": "JUST IN: Bitcoin falls under $63,000.\n\n@WatcherGuru",
-"title": "Strategy Stock Drops as Bitcoin Falls Below $63,000",
-"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEVoVzF5MVBCUDdvVlNkLUtHSGFlWWlYdWt2eV96Q2VhbERFMl9NSnZxd0Vua1VHd3o2RW9xU3VZTG92cF84U0dKbGNZMzRtV3pWZWVfbmxpVjRHMjBBbW81OWYzZjZfU3dkQUVZTjBaWk5kMkxHcFcxeEdjWFdpSDBYd2pwLVJuS05JbjZZaVplSmJoNzVoWXIyRU5aeVloX1ZRSkZ1OFo1MXJzM0Nn?oc=5",
+"title": "Crypto news: Gold price drops 3% to its lowest since September 2025 as bitcoin slips below $63,000",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BOXVoV1pRVjBlUTV1M29mUFNfUU5pb1phUDVUQ2NTa3RWR3EzQUw4aUhua0djaG5tVVZ0MURpaG1mQmtqQ3drTHhlZ29tTVJPY0JwMEZHVGRjRUZ2T2dJNDFYTjVzRWFNZ21hbmprOGwwN0hFc2dvZG9pRzNIWVE?oc=5",
 "urls": []
 },
 "c2e028c4d939": {
@@ -3181,7 +3163,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795027911.0,
 "tgtext": "JUST IN: PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.\n\n@WatcherGuru",
 "title": "PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.",
@@ -3373,7 +3355,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795012404.0,
 "tgtext": "Onchain Derivatives Protocol Variational Raises $110 Million at a $1.5 Billion Valuation\n\nAccording to Bloomberg, Cayman Islands-based onchain derivatives protocol Variational raised $110 million at a $1.5 billion valuation in a round led by Bain Capital Crypto, with participation from Dragonfly Capital, HSG and Peak XV. Variational offers perpetual futures and swaps tied to cryptocurrencies, stocks, commodities and pre-IPO shares of companies such as OpenAI. Operating as a broker, it routes orders to crypto protocols and centralized trading firms. Variational had previously raised approximately $61.8 million, including a $50 million Series A round led by Dragonfly in May 2026. \u2014 link",
 "title": "Variational raises $110 million at $1.5 billion valuation to expand onchain derivatives trading",
@@ -3471,7 +3453,7 @@
 "CNA",
 "Cointelegraph"
 ],
-"t": 1795028903.829407,
+"t": 1795029517.581583,
 "t0": 1795008060.0,
 "tgtext": "\ud83d\udea8 NEW: Binance has secured a court order in Abu Dhabi to recover crypto frozen following last month\u2019s $6.3 billion hack, per Reuters.\n\nNews | Markets | YouTube",
 "title": "Binance has secured a court order in Abu Dhabi to recover crypto frozen following last month\u2019s $6.3 billion hack, per Reuters.",
@@ -3713,27 +3695,24 @@
 },
 "probs": {
 "01f93ab5083e": 0.019,
-"046857f27e74": 0.315,
+"046857f27e74": 0.378,
 "069d6f8ab7c7": 0.021,
-"073a5b9a2dd0": 0.02,
 "150b5f7b6e3a": 0.039,
-"1605b634b950": 0.048,
-"1eab79c32097": 0.077,
+"1eab79c32097": 0.043,
 "325f2e18dd70": 0.578,
 "32896f7319f9": 0.022,
-"346368813a47": 0.025,
 "36885c58cdb9": 0.005,
+"3d612c18f2b0": 0.231,
 "4175d9ca3f0a": 0.01,
 "419dc8a95059": 0.012,
 "44154621347f": 0.036,
-"502009c43dd8": 0.113,
 "51196841ee9f": 0.023,
 "55980d226d54": 0.042,
-"580d2fb3916c": 0.585,
-"5d93b41e6384": 0.385,
-"5fca252c509d": 0.155,
+"580d2fb3916c": 0.795,
+"5d93b41e6384": 0.753,
 "628b4c910c73": 0.025,
-"6eb689608170": 0.037,
+"6eb689608170": 0.02,
+"75cb74d71af0": 0.015,
 "807b5970bf3e": 0.005,
 "840feab04525": 0.049,
 "895fc736821a": 0.023,
@@ -3741,16 +3720,19 @@
 "a32949d93f7d": 0.012,
 "a5ecf86a7b16": 0.677,
 "abb254ba27ec": 0.194,
-"b67886daa377": 0.009,
 "b67b078f6e2c": 0.042,
+"be6106923684": 0.047,
 "c249901c8e79": 0.334,
-"c2cdb91701e8": 0.436,
+"c2cdb91701e8": 0.862,
+"c8ea34bab044": 0.004,
 "d0206bd6002e": 0.068,
+"d061382843f8": 0.003,
 "d13220db636a": 0.014,
-"e1fa2548c895": 0.032,
+"d44793a8d280": 0.012,
+"d4a41b9b0543": 0.039,
+"e1fa2548c895": 0.059,
 "eb40c1b63ddf": 0.585,
 "eea2d9ac4d89": 0.9,
-"ef9057d47670": 0.033,
 "fd5db709d6bb": 0.026
 },
 "sent": [
@@ -5171,64 +5153,64 @@
 "top": [
 [
 "eea2d9ac4d89",
-63,
-347,
+62,
+358,
 7
 ],
 [
-"a5ecf86a7b16",
-16,
-303,
-1
+"c2cdb91701e8",
+27,
+206,
+3
 ],
 [
 "580d2fb3916c",
 24,
-3,
+14,
+1
+],
+[
+"5d93b41e6384",
+13,
+237,
+2
+],
+[
+"a5ecf86a7b16",
+15,
+313,
+1
+],
+[
+"db4d75dd56e3",
+10,
+27,
 1
 ],
 [
 "eb40c1b63ddf",
-29,
-275,
+27,
+285,
 2
 ],
 [
 "325f2e18dd70",
-35,
-233,
+34,
+244,
 1
 ],
 [
 "89cdec72a154",
 31,
-101,
+112,
 1
 ],
 [
-"c2cdb91701e8",
-18,
-196,
-2
-],
-[
-"db4d75dd56e3",
-10,
-17,
-1
-],
-[
-"5d93b41e6384",
-14,
-226,
-2
-],
-[
-"c249901c8e79",
-20,
-152,
+"046857f27e74",
+34,
+12,
 1
 ]
 ],
-"top_at": 1795028903.829407
+"top_at": 1795029517.581583
 }
