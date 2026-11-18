@@ -15,7 +15,8 @@
 1794985115.828342,
 1794985424.8439445,
 1794990347.6562796,
-1794997370.2038012
+1794997370.2038012,
+1795008131.2690582
 ],
 "menu": {
 "029dddbb38b5": {
@@ -68,9 +69,10 @@
 "coin": "bitcoin",
 "src": "Watcher.Guru",
 "srcs": [
+"Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1795007021.0,
 "tgtext": "JUST IN: $2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.\n\n@WatcherGuru",
 "title": "$2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.",
@@ -185,7 +187,7 @@
 "Incrypted",
 "MLQ.ai"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794990258.0,
 "tgtext": "",
 "title": "Dundee hacker Tyler Buchanan gets six years in US prison over SIM-swap crypto thefts tied to Scattered Spider",
@@ -778,7 +780,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794995332.0,
 "tgtext": "\ud83d\udea8 ALERT: Etherscan reports attempted unauthorized access to its Freshworks support system.\n\n Urges users to beware of impersonators.\n\nNews | Markets | YouTube",
 "title": "Etherscan reports attempted unauthorized access to its Freshworks support system.",
@@ -944,7 +946,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794993729.0,
 "tgtext": "Polygon Plans to Acquire Payment and Correspondent Banking Licences Across Multiple Markets, Budgeting $50M\u2013$100M per Acquisition, and Is Considering a US Banking Licence\n\nAccording to Moneycontrol, Polygon co-founder Sandeep Nailwal said the company plans to acquire payment and correspondent banking licences over the next two years in North America, the EU, Latin America (Brazil and Mexico), Southeast Asia and other regions, budgeting around $50 million to $100 million per acquisition. It is also considering applying for a US banking licence. Polygon Labs is shifting from a blockchain infrastructure provider to an end-to-end business solutions and banking services company. Earlier this year, it acquired US digital currency payments firm Coinme and wallet infrastructure provider Sequence for around $250 million. \u2014 link",
 "title": "Polygon Plans to Acquire Payment and Correspondent Banking Licences Across Multiple Markets, Budgeting $50M\u2013$100M per Acquisition, and Is Considering a US Banking Licence",
@@ -1059,7 +1061,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1795007797.9719222,
+"t": 1795008105.8673291,
 "t0": 1794988328.0,
 "tgtext": "",
 "title": "Bitcoin's (BTC) 12% slide through the 200-week average has a bullish past",
@@ -1107,6 +1109,19 @@
 "urls": [
 "https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"55980d226d54": {
+"coin": "",
+"src": "Crypto Briefing",
+"srcs": [
+"Crypto Briefing"
+],
+"t": 1795008411.497606,
+"t0": 1795007962.0,
+"tgtext": "",
+"title": "Blockaid flags ongoing $3.43 million exploit on K3 Capital\u2019s sBOLD vault",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iQl9oT2pWd2o5dGlHYk1ocUJFcVZnSmVEbFVkUWpEMklLWG03RHBKWV9IQUxqQ1ZIZ1cwdzBXZ1plY0tfT1pLdmVMOVdyOHdtdmNYbHNSaGdiaU9WNzBKVjlUQWR6TlI5UmN1YUhR?oc=5",
+"urls": []
 },
 "5612a45d92d6": {
 "coin": "bitcoin",
@@ -1591,7 +1606,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1795002367.0,
 "tgtext": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million\n\nIn its third-quarter 2026 earnings report released on November 18, CoinShares disclosed that it sold all of its treasury ETH, worth $16.6 million, and 50% of its SOL, worth $2.7 million. The sales freed up $19.3 million to support a share buyback plan of up to $40 million. Third-quarter net profit was $39.58 million, reversing the previous quarter\u2019s loss and rising 27% year over year. Revenue fell 44.9% year over year to $27.69 million. Assets under management recovered to $7.4 billion at the end of September, with quarterly net inflows of $125 million. \u2014 link",
 "title": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million",
@@ -1777,7 +1792,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794997039.0,
 "tgtext": "The Binance hacker has moved another 78,415 $ETH ($142M) for laundering, continuing to swap the $ETH for $BTC via #THORChain.\nhttps://x.com/lookonchain/status/2122633788127940768",
 "title": "The Binance hacker has moved another 78,415 ETH ($142M) for laundering, continuing to swap the ETH for BTC via THORChain.",
@@ -2680,7 +2695,7 @@
 "Crypto Briefing",
 "The Cryptonomist"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794997987.0,
 "tgtext": "",
 "title": "Bitwise Picks Texas Stock Exchange for Spot Zcash ETF in Latest Privacy-Coin Push",
@@ -2863,7 +2878,7 @@
 "The Defiant",
 "Wu Blockchain"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794988383.0,
 "tgtext": "Spot Bitcoin ETFs Record $240 Million in Single-Day Net Outflows, Led by BlackRock\u2019s IBIT at $210 Million\n\nAccording to SoSoValue data, on November 17 (ET), spot Bitcoin ETFs saw a total net outflow of $240 million, with BlackRock\u2019s IBIT leading the outflows at $210 million. Meanwhile, spot Ethereum ETFs recorded a total net outflow of $29.09 million yesterday, marking their third consecutive day of net outflows. \u2014 link",
 "title": "Spot Bitcoin ETFs Record $240 Million in Single-Day Net Outflows, Led by BlackRock\u2019s IBIT at $210 Million",
@@ -3166,7 +3181,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795007797.9719222,
+"t": 1795008411.497606,
 "t0": 1794996025.0,
 "tgtext": "Following a US Restriction Order, MEXC Global Card Announces Its Service Will End Today at 15:30 UTC; Existing Cards Will No Longer Be Usable for Transactions, and New Card Applications Will Be Suspended\n\nMEXC announced that, due to service changes by its third-party card issuer, MEXC Global Card service will end on November 18, 2026, at 15:30 UTC. Existing cards will no longer be usable for transactions, and new card applications will be suspended. Users are advised to withdraw any remaining balance and cancel or change recurring subscription payments linked to the card before then. If a balance remains after the service ends, MEXC will take a balance snapshot on November 21 at 15:30 UTC, after pending transactions have settled, and automatically transfer the remaining funds to users\u2019 spot accounts within three business days of the snapshot. \u2014 link",
 "title": "Following a US Restriction Order, MEXC Global Card Announces Its Service Will End Today at 15:30 UTC; Existing Cards Will No Longer Be Usable for Transactions, and New Card Applications Will Be Suspended",
@@ -3677,179 +3692,48 @@
 "rain": 1795006877.5790248
 },
 "probs": {
+"05a5d707639b": 0.703,
 "0bbddb15682d": 0.173,
-"0e61505b30b3": 0.547,
+"0e61505b30b3": 0.598,
 "15f01d75b219": 0.137,
+"2113b77e2a5e": 0.143,
 "22ad92a4dc09": 0.083,
-"2d4d23a7a442": 0.064,
 "32f1afae2779": 0.066,
 "364292d4c40a": 0.043,
 "44154621347f": 0.146,
 "54301b36f47c": 0.286,
+"55980d226d54": 0.394,
+"563a17cc3d4c": 0.055,
 "584302645d9f": 0.07,
 "591eb5ea3a16": 0.065,
 "5aea4a13ca79": 0.243,
 "6eb689608170": 0.258,
+"6f05dba1da63": 0.282,
 "6ffe714f1db9": 0.231,
 "728d278ac762": 0.062,
-"74bc6e753460": 0.084,
 "75621fff8c98": 0.701,
 "792edcb2a0bd": 0.152,
 "7e2fb7825a70": 0.092,
 "80acf2e1d432": 0.958,
 "875ddc1c87fd": 0.287,
-"9d6ac5015c84": 0.062,
 "a257a0985b65": 0.27,
 "af68f16f8c67": 0.13,
 "b734e5e857fb": 0.149,
 "b8146b8bb099": 0.49,
 "bb6c5cdab9b9": 0.203,
 "bbba172b563f": 0.015,
-"bf08580d01a5": 0.194,
+"bf08580d01a5": 0.251,
 "c3795de2fcf4": 0.124,
 "c4551fbae059": 0.784,
 "c6815845c700": 0.311,
-"c8ea225ae860": 0.116,
 "d34fd970d1ad": 0.056,
-"df6c413b3721": 0.812,
-"e8295b991897": 0.222,
+"df6c413b3721": 0.92,
 "ea0cd64cc746": 0.321,
 "ef1159ecb95b": 0.208,
 "fd112436cb41": 0.21,
 "fed8a341d807": 0.363
 },
 "sent": [
-{
-"e": [
-"chain",
-"details",
-"end",
-"exploit",
-"function",
-"hard",
-"kava",
-"lend",
-"lending",
-"response",
-"seeks"
-],
-"k": [
-"hack"
-],
-"t": 1794829867.6611621,
-"u": [
-"https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0xCcFhlREpNaHp1VXh4N0Vzb2Z6Y2JJMlRCM0VVZTFENXNZNXliTFVnLVY0enpRd1ZoUTBBY2xtTEJqYVdsZlNiZFdEZ0dUTzNvOVREd3BkVWxvNHpjTGF1MDZ5ZE5wNTI1NmVfdjQwYjMySXA2MXBQQW1IbFBpX21CMkdxY01NM2ZWWVdnbXI4bDE5Q3lRNF9nMnRjaGM3Z3c?oc=5",
-"https://news.google.com/rss/articles/CBMiVEFVX3lxTE05ZTdwNGx0UkFma29waldacDEwMkNUTGlZM2h5djFMSDlXTjBPWnl2TldlbUhNeEY0OGtJc19sNGtZQXAwWXJFZ2tleU5NOG9pRnF1dQ?oc=5",
-"https://news.google.com/rss/articles/CBMibEFVX3lxTE85bGZHLXV3Qy1NejVvR250WUlpd0dxa0w4V2h1TU5Cc3UycC1iR3BvMEFhMm0wLW9OS2s2VHNPWXRPMEwyY3o4VkcweFdJdTZUaWplMG1KMjNPY0lTZDljR2duLXBXTGpEcjVHbw?oc=5",
-"https://news.google.com/rss/articles/CBMia0FVX3lxTE1lY2c3eGdLMXNsSnpFb014NkJnS3ZHdlVleEVQR0hLUjl6aFNjRXZXYW9Vei1sTk5NOGNaUWsyNU1QUWRhZ0JTZ0pWbGdTU2pxUDdqdEJpM3NELU91YWFyTU41TDlpV09RM3A4?oc=5"
-],
-"w": [
-"chain",
-"details",
-"end",
-"exploit",
-"function",
-"hard",
-"kava",
-"lend",
-"lending",
-"response",
-"seeks"
-]
-},
-{
-"e": [
-"btcusd",
-"bulls",
-"buy",
-"dip",
-"dump",
-"rush",
-"sinks",
-"weekend"
-],
-"k": [
-"crash"
-],
-"t": 1794832767.0460842,
-"u": [
-"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1daOVE0WU5STXB3WjIxWjN4Tk5fRm1DUThReEFFMjRCcFVycDg2Nm1weDdzS3hxSzQ0NUZ5eXhZSjg2UHVxelNXZzBaYnhsallWZGNrSm9lSUlZMWl6MkxWTzQ5UGlNcG54blhtbXkzMTJGVnZUaW5QallrbHRuQzF5aTRPSmxkSEhYTzAyeVc3aDRTS2thTzBuSENfTDdkQ0ZFU3puNU9nTXc4MkNKd1hEQmE0OHFLX1pzTUJCNWFxUzZtemI0N2MyV1diTnNOWGFF?oc=5",
-"https://cryptoslate.com/bitcoin-crashes-near-62000-over-weekend-as-crypto-liquidations-topped-1-8-billion/",
-"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMVpuSmRrSmItRW1XQmNKM0drdmljbnc1c2JjYVFzOEFhbEtGeFp4dVdpUXg4OWxMRUREZlU4eE9NMGg3dnVXQVZzbHM0aERrb0JZX3JkZUNRUENSZFF1Nkw5VWVEMnRnSEd4bnMwV090N05iS2RBX1ZjU1BDSVVnZEp3WXpHR3pnWFZaUHA1bzBrSDJyQTJJdHZNMTdtVkEtbTlBTVBodlpCZw?oc=5",
-"https://news.google.com/rss/articles/CBMiWkFVX3lxTE00bzY1ZzNKLURNcVVxSUEtZW9jYklsRmFNbUlHMmszQ0dIQ2ljb3lnMUNPMElUYUdGblItYWNmbk5rdFlJQmI3aF9xM1l6bl80SVIxZkRicE9uZw?oc=5"
-],
-"w": [
-"$62",
-"000",
-"bitcoin",
-"btcusd",
-"bulls",
-"buy",
-"dip",
-"dump",
-"rush",
-"sinks",
-"weekend"
-]
-},
-{
-"e": [
-"dunamu",
-"upbit"
-],
-"k": [],
-"t": 1794834027.9710007,
-"u": [
-"https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876",
-"https://t.me/wublockchainenglish/26847"
-],
-"w": [
-"$14",
-"dunamu",
-"falls",
-"loss",
-"million",
-"net",
-"parent",
-"posts",
-"revenue",
-"upbit"
-]
-},
-{
-"e": [
-"michael",
-"saylor",
-"strategy"
-],
-"k": [
-"crash"
-],
-"t": 1794834852.7196147,
-"u": [
-"https://news.google.com/rss/articles/CBMiggJBVV95cUxQdk5EOW9pOWE3aHl4czc5U2FzRThlVm1ubEFna1dWZkk0T3BGb0pkYUxNTEJXTmRBcVd6cWU0N3Uwd1FHX3g1ZjZqT2lna1J5bkpEU2ZJaGdSVzlDcHZSNllKaVBsdml4a3l2YTZYNzhmWXdiUGxRMzFwdWFtaGRzVVNNU1BUdk9oRGdZcTlZM3NCcmxIekVneV9iLVd0TVh6OW1iRGt0VWJVcFVwWG01ZV9Zb3lhdDR5YlM1UUpZbko1d0laNXFVUW94OWVna3JMTU92dXZpcTJsbE50TEdkaHpwUlViZXNySFNTaTB2Tjk3bWkxVnNpV0J6QXhYb0Z6VEE?oc=5",
-"https://t.me/WatcherGuru/16060",
-"https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886"
-],
-"w": [
-"$33",
-"485",
-"another",
-"bitcoin",
-"btc",
-"buys",
-"could",
-"dip",
-"little",
-"michael",
-"million",
-"orange",
-"saylor",
-"strategy",
-"tumbles",
-"use"
-]
-},
 {
 "e": [
 "current",
@@ -5222,6 +5106,29 @@
 "support",
 "treasury"
 ]
+},
+{
+"e": [
+"citi"
+],
+"k": [],
+"t": 1795008105.8673291,
+"u": [
+"https://t.me/WatcherGuru/16127",
+"https://news.google.com/rss/articles/CBMid0FVX3lxTFA5dl9KNnJ3VXg0N3hFNkdNN0xFMkZXRVYzSmFyNU1oOVFMNXFWYVA5M0RhNzhnZTVrdzFaMHZ5b09zMzYyQWotNWpFaGxUVXBWLVNMcmVnNXlWeEVYaGtaTGZGcnJyakR3d3dCSDRFTFkzZmNUSnAw?oc=5"
+],
+"w": [
+"$99",
+"532",
+"838",
+"bitcoin",
+"citi",
+"cuts",
+"ethereum",
+"price",
+"target",
+"trillion"
+]
 }
 ],
 "stories": {},
@@ -5229,64 +5136,64 @@
 "top": [
 [
 "80acf2e1d432",
-24,
-179,
-1
-],
-[
-"05a5d707639b",
-10,
-13,
+23,
+190,
 1
 ],
 [
 "df6c413b3721",
-30,
-196,
+29,
+206,
 1
 ],
 [
 "c4551fbae059",
-41,
-324,
+40,
+334,
 2
 ],
 [
 "47b8417cb07f",
-9,
-234,
+8,
+245,
 1
+],
+[
+"05a5d707639b",
+28,
+23,
+2
 ],
 [
 "75621fff8c98",
 16,
-91,
+101,
 1
 ],
 [
 "0e61505b30b3",
-71,
-292,
-5
+69,
+303,
+6
 ],
 [
 "b8146b8bb099",
 54,
-164,
+174,
 5
 ],
 [
 "3cbad8ccf657",
-7,
-208,
+5,
+218,
 1
 ],
 [
-"50904cabca7c",
-0,
-324,
+"55980d226d54",
+41,
+7,
 1
 ]
 ],
-"top_at": 1795007797.9719222
+"top_at": 1795008411.497606
 }
