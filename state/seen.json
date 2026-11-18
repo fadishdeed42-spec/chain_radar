@@ -332,7 +332,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794951344.0,
 "tgtext": "JUST IN: Nvidia $NVDA projects $130,000,000,000 in revenue for Q4.\n\n@WatcherGuru",
 "title": "Nvidia NVDA projects $130,000,000,000 in revenue for Q4.",
@@ -641,7 +641,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794944757.0,
 "tgtext": "",
 "title": "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
@@ -1360,7 +1360,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794949420.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC launches investigation into Nvidia $NVDA following resignation of Jensen Huang.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 SEC launches investigation into Nvidia NVDA following resignation of Jensen Huang.",
@@ -1711,6 +1711,21 @@
 "url": "https://t.me/cointelegraph/73323",
 "urls": []
 },
+"809790295a6e": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1794965154.502487,
+"t0": 1794954004.0,
+"tgtext": "",
+"title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
+"url": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "80dff9c62521": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1815,20 +1830,6 @@
 "https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia",
 "https://cryptoslate.com/jensen-huang-has-just-14-chance-of-nvidia-return-this-year-despite-trump-backing/"
 ]
-},
-"86cae10c3b89": {
-"coin": "bitcoin",
-"src": "Coinpedia",
-"srcs": [
-"Coinpedia",
-"Cryptonews.net"
-],
-"t": 1794791901.0697656,
-"t0": 1794770318.0,
-"tgtext": "",
-"title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite",
-"url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZUcydDROVF9Ua0plUVdKbXJMR19KYlNzMTJBNTYxcEl3UWI4VTc1emZwTXU0aHpCOU5GX1pWNnVLbVRLNFRHMlJTeXBERk9xSmdsanNKbEE5OGxvbmRZOVNfUElOZUQzRUtVU1FURDViUVRySVMzaWtYR200eVNoVDR4eEdTeWZ2MDB6WUoySm50b2E0WGg0TEpCTGZwTVFZa0FEbklnNVVmd9IBrwFBVV95cUxPaUZsNGJwMEs2dVJYTlFOYVJRTDFpRXcyUVJ5b3llNnhER3NRZHg0MVJtYldKSlRoU0NlbXJiVFR1cnZvUVpWZTBKR2xRQlhLcm1vZEJ2UzRJUGpienRYUmJzdHJGaHZHTkJRN3BmaDNyY2hQYnNfMTRFaWJPUklSNGZIbWJVOEZrVjlZdjY4N3dMV1RIRTJCRlQzb0gzVDVRaGxKRFdJb0M0OVk2ZGh3?oc=5",
-"urls": []
 },
 "8781b624d2e7": {
 "coin": "",
@@ -2114,7 +2115,7 @@
 "Cryptonews.net",
 "FXStreet"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794944296.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: ETH falls below $1,800 ahead of Nvidia's earnings",
@@ -2222,7 +2223,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794944763.0,
 "tgtext": "\ud83d\udea8 NEW: Cathie Wood\u2019s ARK Invest sold approximately $85 million in $NVDA shares while buying nearly $40 million in $COIN, $CRCL and $XYZ shares during Monday\u2019s market selloff.\n\nNews | Markets | YouTube",
 "title": "Cathie Wood\u2019s ARK Invest sold approximately $85 million in NVDA shares while buying nearly $40 million in COIN, CRCL and XYZ shares during Monday\u2019s market selloff.",
@@ -2356,19 +2357,6 @@
 "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
 ]
 },
-"a48d03d1a38f": {
-"coin": "shiba-inu",
-"src": "KuCoin",
-"srcs": [
-"KuCoin"
-],
-"t": 1794791901.0697656,
-"t0": 1794771801.0,
-"tgtext": "",
-"title": "Shiba Inu Death Cross Returns After 14 Months as SHIB Price Falls Below $0.000004",
-"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeGhqbkFUcTd3Z0prZHVfenAxQ092NGNjeG1IZW1tbnowclJzaUxsZjNNQVJLNEpKRlBHb3lUb1VRLXJxX2ZqQTZwM3RTQW5TUWFpa1l2eVEwVVhyMS1MNU9DbG9LcWRLMW8tSVNzckFvblFQc3JvZkkxak15RmZEVHY3MmJ3MnJyanJvTU1ZUk5paTZESmVFN0NDYUxNUUhHMzZmWkJEWUtqRTlRMjJ6NjVBVHY?oc=5",
-"urls": []
-},
 "a4ba45b0f76e": {
 "coin": "bitcoin",
 "src": "Yahoo Finance",
@@ -2436,7 +2424,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794950945.0,
 "tgtext": "JUST IN: Nvidia $NVDA surges over 5% after reporting $115.84 billion in revenue for Q3, beating expectations.\n\n@WatcherGuru\n\ud83d\udea8 BIG: NVIDIA $NVDA reported record Q3 revenue of $115.8 billion, up 103% year-over-year, driven by $107.6 billion in data center revenue. \n\nThe company also announced a $150 billion increase to its share buyback authorization. \n\nNVIDIA had approximately $227.3 billion remaining under the authorization at the end of Q3.\n\nNews | Markets | YouTube\nNVIDIA Q3 FY27 Revenue Surges 103% to $115.8B, Q4 Outlook Beats Estimates\n\nNVIDIA reported Q3 FY27 revenue of $115.8 billion, up 103% year over year and above estimates of $109.3 billion. Non-GAAP diluted EPS rose 111% to $2.68, beating estimates of $2.47, while adjusted gross margin reached 74.9%, versus 74.0% expected. Data center revenue totaled $107.6 billion, including $60.1 billion from hyperscalers and $47.5 billion from AI cloud, industrial, and enterprise customers. Vera Rubin revenue increased by nearly $20 billion quarter over quarter. NVIDIA guided Q4 FY27 revenue to $130 billion, plus or minus 3%, above estimates of $124.4 billion, with a non-GAAP gross margin of 71%\u201372%, broadly in line with expectations. \u2014 link",
 "title": "BIG: NVIDIA NVDA reported record Q3 revenue of $115.8 billion, up 103% year-over-year, driven by $107.6 billion in data center revenue.",
@@ -2604,19 +2592,6 @@
 "tgtext": "Highlight Clip: Pump fun's Three Co-Founders Are Only 22, 23, and 24 (ARCHIVE FOOTAGE)\n\nPump fun's Three Co-Founders Are Only 22, 23, and 24 (ARCHIVE FOOTAGE)\n\nIn an interview with Crypto Insider on August 8, 2026, Pump fun co-founder Noah Tweedale said he was 19 when he founded Baton, the development company behind Pump fun. At the time of the interview, Noah was 22, Alon was 23, and Dylan was 24. Tweedale said the team had grown rapidly to nearly 80 people, including developers, moderators, and staff in other non-technical roles. He estimated the team's average age at around 25 or 26. \u2014 link",
 "title": "Highlight Clip: Pump fun's Three Co-Founders Are Only 22, 23, and 24 (ARCHIVE FOOTAGE)",
 "url": "https://t.me/wublockchainenglish/26843",
-"urls": []
-},
-"b7b6026ffd4b": {
-"coin": "",
-"src": "grafa.com",
-"srcs": [
-"grafa.com"
-],
-"t": 1794792204.53871,
-"t0": 1794791876.0,
-"tgtext": "",
-"title": "Kava Lend exploit drains $3.8 million in KAVA",
-"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZDVIMENMU2o2YWxlT0lIWVo0Vm5uUHNOTVRQVzVNVWhHUHFpUWk5RDJFTjNzb3BWNnE1S0h5bUVCcG9ETVFyTV83aW5oZW03czM5MWlOb28zZ0RPUWdkWDBIX0R6eEtpTnJpTjFMRTF3YWN0bmtQOXkzRVNkQVFqX2ZqU2NHaGdXZmREVjVidVBTR1k3eGNSNDFzNFg3MVNPRklwSE5JS18yZXdFaXFaREM4Ri1jQTlnZDZXUVN5dnBoTUFZYmdJ?oc=5",
 "urls": []
 },
 "b83b073f81a8": {
@@ -2883,7 +2858,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794946579.0,
 "tgtext": "JUST IN: Circle partners with Citi Bank and World Bank Group to use $USDC to send money worldwide.\n\n@WatcherGuru\n\ud83d\udea8 NEW: Circle and Citi are supporting a World Bank initiative to explore regulated stablecoins for faster, more efficient payments.\n\nNews | Markets | YouTube",
 "title": "Circle and Citi are supporting a World Bank initiative to explore regulated stablecoins for faster, more efficient payments.",
@@ -2936,7 +2911,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794953290.0,
 "tgtext": "JUST IN: Nvidia $NVDA board says it has no plans to reinstate Jensen Huang as CEO.\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: Nvidia\u2019s board will not reinstate Jensen Huang as CEO, according to the company\u2019s chairman.\n\nNews | Markets | YouTube",
 "title": "Nvidia\u2019s board will not reinstate Jensen Huang as CEO, according to the company\u2019s chairman.",
@@ -3308,7 +3283,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1794964539.033607,
+"t": 1794965154.502487,
 "t0": 1794958455.0,
 "tgtext": "JUST IN: JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: JPMorgan tests AI agent payments without human involvement, with more complex trials set for 2027.\n\nNews | Markets | YouTube",
 "title": "JPMorgan develops AI agents capable of carrying out financial transactions without human involvement.",
@@ -3685,44 +3660,44 @@
 "probs": {
 "063529ee8e1a": 0.131,
 "070db314be1c": 0.045,
-"0b2473c024d8": 0.053,
 "15e1e7acac69": 0.03,
 "1f18b1b29722": 0.094,
 "33355b207828": 0.064,
 "3f26072c19f1": 0.057,
 "452de3c4a472": 0.058,
-"50cee6a3b7ec": 0.04,
 "50ffbbfa625c": 0.025,
+"512a6184b129": 0.019,
 "55bb52533010": 0.029,
-"5767d847dd8e": 0.075,
 "659a70e6a1bc": 0.082,
 "67aedb3ec440": 0.049,
 "688e441a59f3": 0.538,
 "6ba16e83598a": 0.045,
 "6f79b1d04d62": 0.063,
-"7464fd0aa467": 0.019,
+"77df6f852dc0": 0.05,
 "78f7a83e386d": 0.07,
-"7bdf9dfdd306": 0.03,
+"809790295a6e": 0.695,
 "83dc1cb43a1f": 0.224,
 "874cc11131ee": 0.038,
 "88b4e8583877": 0.009,
 "92c42b20c824": 0.288,
 "9e2c9e8978ff": 0.017,
+"a497f9501aad": 0.036,
 "aa406aa465d1": 0.98,
 "ab3766666f1b": 0.118,
 "aecb52964266": 0.013,
-"afe405b7ab34": 0.028,
 "b9015c6765a2": 0.212,
+"b9c999d450e5": 0.018,
+"c4f5ecc6ba4b": 0.033,
 "cd95efffb2e7": 0.612,
-"d0d5a863a649": 0.771,
+"d0d5a863a649": 0.642,
 "e0e0d0240afa": 0.043,
-"e1b03afd0c8b": 0.622,
 "e5eba05e66e4": 0.02,
-"ebf7dea51362": 0.013,
+"ebf7dea51362": 0.018,
 "ec244116bcd3": 0.717,
 "ef6c2eaa6e3c": 0.091,
 "f562fdc0a36f": 0.159,
-"f5ccaae70e2b": 0.026
+"f5ccaae70e2b": 0.066,
+"fad8e482ec59": 0.098
 },
 "sent": [
 {
@@ -5232,64 +5207,64 @@
 "top": [
 [
 "aa406aa465d1",
-61,
-227,
+60,
+237,
 3
-],
-[
-"d0d5a863a649",
-20,
-187,
-2
 ],
 [
 "ec244116bcd3",
 20,
-101,
+112,
 2
 ],
 [
-"e1b03afd0c8b",
-27,
-360,
+"809790295a6e",
+40,
+186,
+1
+],
+[
+"d0d5a863a649",
+18,
+198,
 2
 ],
 [
 "cd95efffb2e7",
-15,
-299,
+13,
+310,
 3
 ],
 [
 "95803e9543fa",
 0,
-337,
+348,
 2
 ],
 [
 "688e441a59f3",
-25,
-252,
+24,
+262,
 2
 ],
 [
 "37db82d1c70c",
 0,
-330,
+340,
 1
 ],
 [
 "17ace863a58e",
-5,
-220,
+4,
+230,
 1
 ],
 [
 "9e4c9af9597d",
-7,
-330,
+5,
+340,
 2
 ]
 ],
-"top_at": 1794964539.033607
+"top_at": 1794965154.502487
 }
