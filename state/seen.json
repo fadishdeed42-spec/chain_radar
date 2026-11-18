@@ -74,7 +74,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795007021.0,
 "tgtext": "JUST IN: $2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.\n\n@WatcherGuru",
 "title": "$2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.",
@@ -458,12 +458,28 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795009055.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!\n\nThe position has already reached $93.87M, with over $4M in unrealized profit.\n\nhttps://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\nhttps://hypurrscan.io/address/0x0b426cb9d1d25f011042856faf5bbbfd4da9b412#perps",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid!",
 "url": "https://t.me/lookonchainchannel/11134",
 "urls": []
+},
+"22ad92a4dc09": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"CoinDesk"
+],
+"t": 1795019647.8026836,
+"t0": 1794999516.0,
+"tgtext": "",
+"title": "Bitcoin Slips Below $64,000 as Fed Rate Talk and $2 Billion Liquidation Wave Hit Crypto Markets",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DaFdMQkIzR0JVRVY2WG9TM3RnR1lKb2dISWU3VUU1MzZwTGM3WWFMOUxhZ1dROFVjZ3dvdDFTcWRKNGRJTjRvdHNkQnBwdlpxN0RFQnNrTmNyYm40Z2tITGQ4aHUtNVhGOW05MEdrUjh5Q3JEcnc?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
+]
 },
 "22c09adf26e8": {
 "coin": "",
@@ -516,23 +532,6 @@
 "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WcjYweTBjSHJVMnNXUEFWSmZRYmZwLXlBczZHQVlTR3F6bzEzejBlY1czbVQwakpHQWpyT2xsQzRPQmtZY2Nia0k2aE5zTkV6T0w4Z296ZUJqTFpsYkRUeVlvTS1LcFVBOHJXd0tNUTgwNHZsZjR6dw?oc=5",
 "urls": [
 "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
-"27786e2f37ed": {
-"coin": "bitcoin",
-"src": "CoinDesk",
-"srcs": [
-"CoinDesk",
-"Cointelegraph"
-],
-"t": 1794846517.874632,
-"t0": 1794825545.0,
-"tgtext": "",
-"title": "Bitcoin (BTC) price slips after rising from July 14 low that triggered weekend liquidations: Crypto Market Today",
-"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcEk3TzNwaGRjVDg4V0lZbjBxcjRDVGdUWHM3eVpmMzY0UVNBSmg0NzViMVJVd1JELWZqTS1ycDRfLUFaMzN4eHlJSENNWmNubEFxQmUxZG1VTXFORlVtZHpPeWhrcUNtZ0Nhb2FqQVk0U3Vqdzc4ZmpZN2FEeEFBVXRkR3V4MEY1T3RVNjk1NFFzWVZzU0EwNWFwX2FLVXRnNk0yNVdB?oc=5",
-"urls": [
-"https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush"
 ]
 },
 "27872c73284c": {
@@ -641,7 +640,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795014901.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Costco is seeing a surge in emergency supply purchases amid recent tech outages, with U.S. comparable sales estimated to have jumped 11%\u201312% in the final week of October.\n\nNews | Markets | YouTube",
 "title": "Costco is seeing a surge in emergency supply purchases amid recent tech outages, with U.S. comparable sales estimated to have jumped 11%\u201312% in the final week of October.",
@@ -1080,22 +1079,6 @@
 "url": "https://t.me/WatcherGuru/16105",
 "urls": []
 },
-"4e1ef82399fa": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"The Block",
-"Wu Blockchain"
-],
-"t": 1794846517.874632,
-"t0": 1794825999.0,
-"tgtext": "Upbit Operator Dunamu Swings to $13.8 Million Q3 Net Loss as Revenue Falls 60.7%\n\nDunamu, the operator of South Korea's largest crypto exchange Upbit, reported Q3 2026 revenue of KRW 151.7 billion ($112.4 million), down 60.7% year over year. Operating expenses rose 3.1% to KRW 155.2 billion ($115 million), resulting in an operating loss of KRW 3.5 billion ($2.6 million), compared with an operating profit of KRW 235.3 billion ($174.3 million) a year earlier. Net loss reached KRW 18.6 billion ($13.8 million), versus a net profit of KRW 239 billion ($177 million) in Q3 2025. \u2014 link",
-"title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
-"url": "https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876"
-]
-},
 "4eea346426cd": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1417,25 +1400,6 @@
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWx0dzlKWFhUYTFiWUh2d1dOQjhoQW1UZjI0OHY0V2lqS1ZURWp3RE0xRnowb1h3Zjk0RC1GZ1JheUJaRmFQb1lMVXgxdDUwcHhqQXJEemMxa3RVb2RVVkRyREYwS3BjSWpDWGFrUzFhcWdEYjJ3?oc=5",
 "urls": []
 },
-"61200ffbb954": {
-"coin": "lighter",
-"src": "Cryptonews.net",
-"srcs": [
-"CoinLaw",
-"Cointelegraph",
-"Crypto Briefing",
-"Crypto News",
-"Cryptonews"
-],
-"t": 1794846517.874632,
-"t0": 1794827322.0,
-"tgtext": "Lighter Suspected of User Account Drains; Temporarily Suspends Withdrawals and Liquidity Pool Creation\n\nLighter said it is investigating a suspected security incident involving the compromise of a single external party and has temporarily suspended all withdrawals and liquidity pool creation. Blockchain analyst MLM reported that an address withdrew $10.39 million in USDC from Lighter and swapped it for approximately 5,750 ETH through CoW Protocol. Analyst 0xTria cited Korean community analysis suggesting leaked API keys belonging to two market makers may have enabled the transfers, rather than a protocol vulnerability. The two accounts reportedly involved approximately $15.48 million in total, while LIT briefly fell more than 17%.\n\nLighter said its investigation found that the security incident was caused by a trader's leaked API key, with no impact on the protocol or smart contracts. As a precaution, it has enabled Guardian mode and plans to have its Security Council execute a contract upgrade to recover funds involved in a second withdrawal attempt by the attacker. Withdrawals remain suspended, with the platform targeting a resumption later today. \u2014 link\n\ud83d\udea8 JUST IN: Lighter says its security incident stemmed from a trader's leaked API key, not a protocol breach. \n\nWithdrawals remain paused, with restoration targeted by end of today.\n\nNews | Markets | YouTube\n\ud83d\udea8  JUST IN: Lighter suspends withdrawals and pool creation after detecting a potential third-party security incident.\n\nNews | Markets | YouTube",
-"title": "Hack Alert on Cryptocurrency Platform Lighter: Withdrawals Halted, Official Statement Released! \u2013 Hacker Buys Two Altcoins!",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMDRmS0FuWlNMaW1NdUFrUENxaUJlYndzVFJMWllTYlpUQWJVa1BDd0VsOEYtbEdIRURMVEVJOEw5cW5SaWNDcUx1a05qZ1dkb0hqdjR0M2JQZw?oc=5",
-"urls": [
-"https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "61a67a9f1643": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1658,7 +1622,7 @@
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795002367.0,
 "tgtext": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million\n\nIn its third-quarter 2026 earnings report released on November 18, CoinShares disclosed that it sold all of its treasury ETH, worth $16.6 million, and 50% of its SOL, worth $2.7 million. The sales freed up $19.3 million to support a share buyback plan of up to $40 million. Third-quarter net profit was $39.58 million, reversing the previous quarter\u2019s loss and rising 27% year over year. Revenue fell 44.9% year over year to $27.69 million. Assets under management recovered to $7.4 billion at the end of September, with quarterly net inflows of $125 million. \u2014 link",
 "title": "CoinShares, Europe\u2019s Largest Digital Asset Manager, Sells All Treasury ETH and Half Its SOL to Support Share Buyback Plan of Up to $40 Million",
@@ -2245,7 +2209,7 @@
 "CoinDesk",
 "TradingView"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795006966.0,
 "tgtext": "",
 "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
@@ -2520,7 +2484,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795010722.0,
 "tgtext": "Whale bc1q7s deposited 1,040 $BTC($67.17M) to #Binance in the past 24 hours.\n\nhttps://arkm.com/explorer/address/bc1q7sj5l0phh9upugueda6v8wyjrma3yws2ycxyyx",
 "title": "Whale bc1q7s deposited 1,040 BTC($67.17M) to Binance in the past 24 hours.",
@@ -2545,19 +2509,17 @@
 "src": "MLQ.ai",
 "srcs": [
 "CoinGape",
-"Crypto Briefing",
-"Decrypt",
 "Incrypted",
-"MLQ.ai"
+"MLQ.ai",
+"The Crypto Times",
+"The Cryptonomist"
 ],
-"t": 1795016444.9918787,
-"t0": 1794995251.0,
+"t": 1795019647.8026836,
+"t0": 1794999745.0,
 "tgtext": "",
 "title": "Dundee hacker Tyler Buchanan gets six years in US prison over SIM-swap crypto thefts tied to Scattered Spider",
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkx1MlNCYXN0czBvUFphREJfWWxkcEJWTEFMRWxXNHljUTBkVS1LeFlOMkFLeS01TDdpSUo4Z0xScXl5LWtrLV9WOTJ4NEh3WW4tOENzcnRyWXhhMWVyVk45OEVKRmlrR3laai1uQ3pLdjBUQWtxRlVRQ0NxRHFaMGEzMmZ1Y2lRWTl0cl9pdzVqQ2htaHhNRGRYREEtUDFaaElXNnlJcXNmemRIX3FwNjNCUUs5TVE3LUJzNHFKMTRkUThORElnYWNB?oc=5",
-"urls": [
-"https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
-]
+"urls": []
 },
 "a9d8ad7faa75": {
 "coin": "bitcoin",
@@ -2828,18 +2790,19 @@
 "urls": []
 },
 "bf08580d01a5": {
-"coin": "bitcoin",
-"src": "Traders Union",
+"coin": "ethereum",
+"src": "Bitcoin Foundation",
 "srcs": [
 "ATM Marketplace",
+"Bitcoin Foundation",
 "CNA",
 "Traders Union"
 ],
-"t": 1795018413.9944763,
+"t": 1795019341.3118865,
 "t0": 1794999544.0,
 "tgtext": "",
-"title": "Bitcoin erases summer rally as Binance hack deepens market selloff",
-"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeVVjSDRtNHRaRnlBbTR0OGpkQ1BOUmw4NXZuNUpoVUR3cTA5b0dySUZZT0xfVnFiN0htZk9CeDhiV0RVLWliYVljdVpmX3A1N3BKcks4VlFnWXVmUVZjRE9ZMEs2N0pZY0R5MlFKQlRvUG41LXRIWDJrZzBmal9yaDJFdl8ybzVKVFg2SjBvcVFFV3Zzemc?oc=5",
+"title": "Binance Hack-Linked Wallet Shifts $142M in ETH Across Seven Transfers",
+"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeDhXbjhfbFZtYjRlVFJ4SGdZMFFUZDd6dUhLZHhrTGRzSGt0OXAzejZpdExBQ0ozMzlDb3RtUGVwN1ZZMUVoZ3dIX1dMcEI0X2ppMnFMZElVZ3pVUXg3UllGX21VcVRxN3ViNXV5Y1hDVGdhSVVkQjZJN0JWSF9sb0JocEpiemJLTTRmSUNtSmFxNi1IY0NaNzhwNWhJbXpNemVSVjFnN0FDc3ZrT0VZemZsMA?oc=5",
 "urls": []
 },
 "bf979451b188": {
@@ -2905,7 +2868,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795017141.0,
 "tgtext": "JUST IN: Bitcoin falls under $63,000.\n\n@WatcherGuru",
 "title": "Bitcoin falls under $63,000.",
@@ -3376,7 +3339,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1795019029.824457,
+"t": 1795019647.8026836,
 "t0": 1795012404.0,
 "tgtext": "Onchain Derivatives Protocol Variational Raises $110 Million at a $1.5 Billion Valuation\n\nAccording to Bloomberg, Cayman Islands-based onchain derivatives protocol Variational raised $110 million at a $1.5 billion valuation in a round led by Bain Capital Crypto, with participation from Dragonfly Capital, HSG and Peak XV. Variational offers perpetual futures and swaps tied to cryptocurrencies, stocks, commodities and pre-IPO shares of companies such as OpenAI. Operating as a broker, it routes orders to crypto protocols and centralized trading firms. Variational had previously raised approximately $61.8 million, including a $50 million Series A round led by Dragonfly in May 2026. \u2014 link",
 "title": "Variational raises $110 million at $1.5 billion valuation to expand onchain derivatives trading",
@@ -3568,19 +3531,6 @@
 "url": "https://t.me/WatcherGuru/16087",
 "urls": []
 },
-"f5c2a3b62a11": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794846517.874632,
-"t0": 1794827133.0,
-"tgtext": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!\n\nThe attacker is now depositing the stolen funds into #Hyperliquid to buy $XMR.\n\nhttps://arkm.com/explorer/address/0xb3fffca23d4444eE73349825ACD84f7b5020e387\nIt appears that Abraxas Capital is the market maker whose API keys on Lighter were leaked.\n\nAbraxas Capital is now closing short positions on Hyperliquid and withdrawing funds.\n\nOver the past 24 hours, its account value on Hyperliquid has dropped by $150M, while its short positions have shrunk to $70M.\n\nhttps://hypurrscan.io/address/0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36#more\nhttps://hypurrscan.io/address/0x5b5d51203a0f9079f8aeb098a6523a13f298c060#more",
-"title": "According to @0xTria, API keys belonging to two market makers on @Lighter_xyz were leaked, resulting in ~$15.5M being stolen!",
-"url": "https://t.me/lookonchainchannel/11088",
-"urls": []
-},
 "f62d634cc244": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -3745,39 +3695,39 @@
 "probs": {
 "01f93ab5083e": 0.059,
 "05a5d707639b": 0.57,
-"097d058f90ed": 0.805,
 "0a8d40e26c3e": 0.257,
 "0bbddb15682d": 0.267,
 "0ed13b7694ac": 0.053,
-"150b5f7b6e3a": 0.462,
+"150b5f7b6e3a": 0.394,
 "2292380ae588": 0.528,
-"22ad92a4dc09": 0.078,
+"22ad92a4dc09": 0.409,
 "325f2e18dd70": 0.963,
 "32f1afae2779": 0.024,
 "36885c58cdb9": 0.066,
 "44154621347f": 0.23,
 "5147b25afcc7": 0.15,
 "55980d226d54": 0.298,
-"563a17cc3d4c": 0.036,
+"563a17cc3d4c": 0.091,
 "5aea4a13ca79": 0.242,
 "628b4c910c73": 0.261,
 "6eb689608170": 0.042,
 "728d278ac762": 0.058,
 "75621fff8c98": 0.916,
-"807b5970bf3e": 0.029,
 "840feab04525": 0.054,
 "849c143e4354": 0.186,
+"872e4d3d3123": 0.012,
 "967b26031e5b": 0.503,
 "9e3caf37be1d": 0.035,
 "a257a0985b65": 0.114,
 "a5ecf86a7b16": 0.815,
+"a9624afce4f4": 0.649,
+"b08b26028ec8": 0.099,
 "b67886daa377": 0.05,
-"b8146b8bb099": 0.21,
-"bf08580d01a5": 0.362,
+"bf08580d01a5": 0.364,
 "c6815845c700": 0.31,
 "ce9465f68257": 0.057,
+"d0206bd6002e": 0.11,
 "d4a41b9b0543": 0.043,
-"ddd471a201e4": 0.088,
 "e1fa2548c895": 0.046,
 "ea0cd64cc746": 0.236,
 "eb40c1b63ddf": 0.878,
@@ -5205,63 +5155,63 @@
 [
 "325f2e18dd70",
 42,
-69,
+79,
 1
 ],
 [
 "75621fff8c98",
-23,
-278,
+22,
+288,
 3
 ],
 [
 "eb40c1b63ddf",
 41,
-110,
+121,
 2
 ],
 [
 "a5ecf86a7b16",
 32,
-138,
+149,
 1
 ],
 [
-"097d058f90ed",
-41,
-358,
+"a9624afce4f4",
+44,
+332,
 7
 ],
 [
 "c2cdb91701e8",
 10,
-31,
+42,
 1
 ],
 [
 "05a5d707639b",
-28,
-200,
+26,
+210,
 3
 ],
 [
 "2292380ae588",
 18,
-166,
+177,
 1
 ],
 [
 "967b26031e5b",
-43,
-201,
+41,
+211,
 3
 ],
 [
-"150b5f7b6e3a",
-18,
-23,
-1
+"22ad92a4dc09",
+45,
+336,
+2
 ]
 ],
-"top_at": 1795019029.824457
+"top_at": 1795019647.8026836
 }
