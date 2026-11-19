@@ -266,7 +266,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795087800.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -519,7 +519,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795079817.0,
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
@@ -568,7 +568,7 @@
 "Coinpaper",
 "Yahoo Finance"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795080605.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Crash Below $62K",
@@ -798,7 +798,7 @@
 "srcs": [
 "Haberler.com"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795088795.0,
 "tgtext": "",
 "title": "Massive scam under the promise of crypto investment! 3.2 billion lira in movement across accounts",
@@ -1713,7 +1713,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2117,23 +2117,6 @@
 "url": "https://t.me/cointelegraph/73381",
 "urls": []
 },
-"a2cb3fab0a19": {
-"coin": "hyperliquid",
-"src": "BitKE",
-"srcs": [
-"BitKE",
-"Bitcoin Foundation",
-"The Block"
-],
-"t": 1794922601.2687402,
-"t0": 1794903029.0,
-"tgtext": "",
-"title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
-"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZRUdrQUNzRmxIZVdmZjl3RkVtY011eEZ4T2NrLXNyMm02bHFuM0w5U1BTbHd5RnFEUmVpS0tqam9YeGxBWExKU2JUNnlHWXc1VHRsUnJ3aktOZ0ZFYkQzazV1NTFsdGtWTl9ZSzFkTW5uUnd2Z0JHaFgxUTU?oc=5",
-"urls": [
-"https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106"
-]
-},
 "a31b2a1c17c6": {
 "coin": "bitcoin",
 "src": "Lookonchain",
@@ -2164,6 +2147,19 @@
 "urls": [
 "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
 ]
+},
+"a4a438d9c541": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795095865.0658734,
+"t0": 1795095524.0,
+"tgtext": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000\n\nU.S. initial jobless claims for the week ended November 14 came in at 203,000, compared with expectations of 197,000, while the prior week's figure was revised from 200,000 to 202,000. \u2014 link",
+"title": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000",
+"url": "https://t.me/wublockchainenglish/26886",
+"urls": []
 },
 "a5e6b7101708": {
 "coin": "",
@@ -2410,13 +2406,32 @@
 "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"b1857c14b8ae": {
+"coin": "",
+"src": "Yahoo Finance",
+"srcs": [
+"BusinessLine",
+"CNA",
+"Decrypt",
+"ITWeb",
+"Technology Org"
+],
+"t": 1795095865.0658734,
+"t0": 1795075007.0,
+"tgtext": "",
+"title": "Abu Dhabi Ruling Gives Binance a Legal Path to Reclaim Billions Frozen in Its Hack",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRS1FQzk1aUtXUkRFUHFiTENQYTZ1RDdWYjBxNkdHMUZYXzdhTVNLVDZab0Rzb1U5ZWFHRzZPZGlQQzJWNnV5a1VrYnVBMkR4cEVtOVRHOEZOazREVGV0eUJPcmdsU01tV0VxZVhvLUExbVNQVXU4YVlndE9JNjdIUmNsYWRKdzJUWUk1MGNmSEVBR3RWZ2t0OWw2WQ?oc=5",
+"urls": [
+"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
+]
+},
 "b1d9fc46c583": {
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795083014.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.\n\nIs he planning to buy the dip on these tokens?\n\nhttps://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC.",
@@ -2727,7 +2742,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795094943.9569564,
+"t": 1795095559.1250145,
 "t0": 1795093897.0,
 "tgtext": "JUST IN: IMF chief warns rising AI demand will push global interest rates higher.\n\n@WatcherGuru",
 "title": "IMF chief warns rising AI demand will push global interest rates higher.",
@@ -2787,7 +2802,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795082596.0,
 "tgtext": "Two whales unstaked a total of 2.31M $SOL ($169.4M) and deposited it into #CoinbasePrime today.\n\nhttps://arkm.com/explorer/address/8o7NN85Z34GMMBWU9L2dx42o6nKG8CPBfWcytBHqTxDf\nhttps://arkm.com/explorer/address/4EAjRbkPcBdb5VKYGwjbiAu3KEmv6QgoBkPgMiyE8Qgm",
 "title": "Two whales unstaked a total of 2.31M SOL ($169.4M) and deposited it into CoinbasePrime today.",
@@ -3145,23 +3160,6 @@
 "url": "https://t.me/WatcherGuru/16120",
 "urls": []
 },
-"ed029cabc3ad": {
-"coin": "bitcoin",
-"src": "Blockonomi",
-"srcs": [
-"Blockonomi",
-"Cointribune",
-"Crypto News",
-"FXDailyReport.Com",
-"Wu Blockchain"
-],
-"t": 1794922601.2687402,
-"t0": 1794901701.0,
-"tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
-"title": "Italy's Largest Bank Crypto ETF Portfolio Cuts Bitcoin and Ether, Adds Solana, XRP and HYPE",
-"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZXhSb2JpZGpraUhKaDV0YzZIOXhhZjM1ZWZ6aDlGR2ZhaUo4Rjd4d1gydV9pcDJ0MGpnRXNYbHlaVkpOdVlGU3F0RXBVVDFvWjV4ZEEyTmp5ckRuOXRtVzcxVDdEVnBYblhzaS14aGtBVnRKMEUxNTcwTnhQc3IzbHNPX203UWVYUFg0RmxHUXNYYVlxVXdKblBHODhodFdfVHQwMHpSeHdxWGNxcXRfb25n?oc=5",
-"urls": []
-},
 "eea2d9ac4d89": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3326,7 +3324,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795095250.2643433,
+"t": 1795095865.0658734,
 "t0": 1795078947.0,
 "tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
@@ -3411,7 +3409,7 @@
 "027caacb4fae": 0.063,
 "03341b635235": 0.242,
 "0783cb382ab3": 0.075,
-"090e056b3d16": 0.152,
+"090e056b3d16": 0.111,
 "0bdd6579777f": 0.029,
 "0becf1b6feb8": 0.156,
 "0ee472a85f7b": 0.885,
@@ -3421,33 +3419,33 @@
 "16819ff6353a": 0.299,
 "17ac78650387": 0.128,
 "25cd150dcc20": 0.95,
-"2697cf8ed829": 0.018,
+"2697cf8ed829": 0.037,
 "286747abe283": 0.512,
 "2ac361507fce": 0.088,
 "3acac26bf6de": 0.611,
-"3b7f41b6e518": 0.379,
 "3d77a55ecdde": 0.069,
 "40da4e435320": 0.071,
-"5f0aaa922c0b": 0.632,
 "6bbbe7587efd": 0.054,
-"725a42e6f822": 0.554,
+"725a42e6f822": 0.399,
 "767c5c03b0ff": 0.11,
+"7c5990d4ed6d": 0.053,
 "7d7fdaf17d0f": 0.069,
 "8455158d54a9": 0.208,
-"8523697f833d": 0.988,
+"8523697f833d": 0.991,
 "8ec81c1919de": 0.159,
 "968094adb42d": 0.197,
-"9d42f7499329": 0.175,
+"9d42f7499329": 0.362,
 "a32e78011cf3": 0.382,
+"b1857c14b8ae": 0.808,
 "bbc47a01f439": 0.062,
-"c9315c73e5ab": 0.803,
+"c9315c73e5ab": 0.686,
 "e01e1dd051b4": 0.04,
+"e525b4b4c275": 0.068,
 "e6b7e7f2b9bf": 0.026,
 "e8fa42055ad7": 0.355,
 "ec1d82f9802c": 0.424,
 "f39bf031e9c5": 0.168,
-"f416d8f38575": 0.446,
-"f881547df10c": 0.09
+"f416d8f38575": 0.446
 },
 "sent": [
 {
@@ -4860,63 +4858,63 @@
 [
 "8523697f833d",
 24,
-6,
+16,
 1
 ],
 [
 "25cd150dcc20",
-22,
-257,
+21,
+267,
+1
+],
+[
+"a4a438d9c541",
+10,
+6,
 1
 ],
 [
 "0ee472a85f7b",
 48,
-124,
+134,
 2
 ],
 [
 "b1d9fc46c583",
-7,
-204,
+6,
+214,
 1
 ],
 [
+"b1857c14b8ae",
+63,
+348,
+7
+],
+[
 "c9315c73e5ab",
-20,
-211,
+19,
+221,
 1
 ],
 [
 "f862a2af8b64",
 0,
-272,
+282,
 1
-],
-[
-"5f0aaa922c0b",
-62,
-356,
-7
 ],
 [
 "3acac26bf6de",
 43,
-108,
+118,
 1
 ],
 [
-"725a42e6f822",
-20,
-185,
-2
-],
-[
 "286747abe283",
-22,
-244,
+21,
+254,
 2
 ]
 ],
-"top_at": 1795095250.2643433
+"top_at": 1795095865.0658734
 }
