@@ -1,0 +1,59 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  1%|          | 10.8M/1.18G [00:00<00:11, 113MB/s]  5%|▌         | 62.8M/1.18G [00:00<00:03, 366MB/s] 10%|▉         | 120M/1.18G [00:00<00:02, 473MB/s]  15%|█▍        | 180M/1.18G [00:00<00:02, 535MB/s] 20%|█▉        | 236M/1.18G [00:00<00:01, 552MB/s] 25%|██▍       | 296M/1.18G [00:00<00:01, 577MB/s] 29%|██▉       | 354M/1.18G [00:00<00:01, 590MB/s] 35%|███▍      | 415M/1.18G [00:00<00:01, 605MB/s] 39%|███▉      | 473M/1.18G [00:00<00:01, 601MB/s] 44%|████▍     | 530M/1.18G [00:01<00:01, 590MB/s] 49%|████▉     | 587M/1.18G [00:01<00:01, 583MB/s] 53%|█████▎    | 642M/1.18G [00:01<00:01, 582MB/s] 58%|█████▊    | 699M/1.18G [00:01<00:00, 585MB/s] 63%|██████▎   | 757M/1.18G [00:01<00:00, 592MB/s] 68%|██████▊   | 822M/1.18G [00:01<00:00, 618MB/s] 73%|███████▎  | 884M/1.18G [00:01<00:00, 628MB/s] 79%|███████▊  | 947M/1.18G [00:01<00:00, 637MB/s] 84%|████████▎ | 0.98G/1.18G [00:01<00:00, 623MB/s] 89%|████████▉ | 1.04G/1.18G [00:01<00:00, 627MB/s] 94%|█████████▍| 1.10G/1.18G [00:02<00:00, 615MB/s] 99%|█████████▊| 1.16G/1.18G [00:02<00:00, 617MB/s]100%|██████████| 1.18G/1.18G [00:02<00:00, 582MB/s]
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+phonetic fail ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
+json c69d7a29b586
+   take 1: score -0.83  wer 0.00  end +0.0st  2.7w/s  rushed ['Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+   take 2: score -2.22  wer 0.00  end +0.0st  3.1w/s  rushed ['before', 'Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+   take 3: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+   take 4: score -1.23  wer 0.00  end +0.0st  3.0w/s  rushed ['Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+scene 1: 4.70s ex 0.72  chosen wer 0.00
+   take 1: score -0.50  wer 0.42  end -3.9st  2.6w/s  heard: Two days later, it hit $73.14.5 billion in total.
+   take 2: score -1.20  wer 0.17  end +0.0st  2.9w/s  heard: Two days later, it hits $73, 14.5 billion in total.
+   take 3: score -1.12  wer 0.17  end +0.0st  2.7w/s  heard: Two days later, it hits $73, 14.5 billion in total.
+   take 4: score -1.04  wer 0.17  end +0.0st  2.6w/s  heard: Two days later, it hits $73, 14.5 billion in total.
+   phonetic variant: Two days later, it hits seventy-three dollars. For-teen and a half billion in total.
+   take P1: score -1.82  wer 0.27  3.0w/s  heard: Two days later, it hit $73, $14.5 billion in total.
+   take P2: score -1.76  wer 0.29  2.6w/s  heard: Two days later, it hit $73 for $14.5 billion in total.
+   take P3: score -1.49  wer 0.24  2.5w/s  heard: Two days later, it hit $73. 14.5 billion in total.
+   take R1: wer 0.24  heard: Two days later, it hit $73. 14.5 billion in total.
+   take R2: wer 0.24  heard: Two days later, it hit $73, 14.5 billion in total.
+   take R3: wer 0.17  heard: Two days later, it hits $73, 14.5 billion in total.
+   take R4: wer 0.24  heard: Two days later, it hit $73. 14.5 billion in total.
+scene 2: 5.40s ex 0.45  chosen wer 0.17
+   take 1: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: But 80 percent of the coins belong to Trump-linked companies.
+   take 2: score +1.97  wer 0.00  end -10.7st  2.5w/s  heard: But 80% of the coins belong to Trump-linked companies.
+scene 3: 3.93s ex 0.45  chosen wer 0.00
+   take 1: score -2.09  wer 0.00  end +0.0st  3.8w/s  heard: By March, the price is down more than 80%.
+   take 2: score -0.97  wer 0.00  end +0.0st  3.3w/s  heard: By March, the price is down more than 80%.
+   take 3: score -1.18  wer 0.00  end +0.0st  3.4w/s  heard: By March, the price is down more than 80%.
+scene 4: 3.05s ex 0.72  chosen wer 0.00
+   take 1: score -2.50  wer 0.00  end +0.0st  3.2w/s  rushed ['dinner', 'president.']  heard: Then an offer, the top 220 holders, get dinner with the president.
+   take 2: score -1.15  wer 0.00  end +0.0st  3.0w/s  rushed ['president.']  heard: Then an offer. The top 220 holders get dinner with the president.
+   take 3: score -0.88  wer 0.00  end +0.0st  2.7w/s  rushed ['president.']  heard: Then an offer, the top 220 holders get dinner with the president.
+   take 4: score -2.18  wer 0.00  end +0.0st  3.1w/s  rushed ['dinner', 'president.']  heard: Then an offer. The top 220 holders get dinner with the president.
+scene 5: 5.13s ex 0.45  chosen wer 0.00
+   take 1: score +1.94  wer 0.00  end -7.1st  2.7w/s  heard: The price jumps again.
+scene 6: 1.48s ex 0.45  chosen wer 0.00
+   take 1: score +1.29  wer 0.00  end +8.7st  3.1w/s  heard: meme coin, or the most expensive dinner ticket ever?
+   take 2: score +0.94  wer 0.00  end +6.7st  2.8w/s  rushed ['dinner']  heard: meme coin, or the most expensive dinner ticket ever?
+   take 3: score +1.43  wer 0.00  end +7.9st  3.0w/s  heard: Meme Coin, or the most expensive dinner ticket ever?
+scene 7: 2.99s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -0.36  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 3: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 4: score +1.80  wer 0.00  end -3.6st  2.3w/s  heard: Subscribe for more stories.
+scene 8: 1.76s ex 0.55  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+30.56s, force-aligned 77 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700081/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.6, 0.51, 0.61, 0.66, 0.6, 0.65, 1.04]

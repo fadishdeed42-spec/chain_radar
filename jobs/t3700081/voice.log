@@ -1,0 +1,46 @@
+json c69d7a29b586
+   take 1: score -0.83  wer 0.00  end +0.0st  2.7w/s  rushed ['Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+   take 2: score -2.22  wer 0.00  end +0.0st  3.1w/s  rushed ['before', 'Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+   take 3: score -0.83  wer 0.00  end +0.0st  2.6w/s  rushed ['Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+   take 4: score -1.23  wer 0.00  end +0.0st  3.0w/s  rushed ['Donald']  heard: Three days before taking office, Donald Trump launched his own crypto 
+scene 1: 4.70s ex 0.72  chosen wer 0.00
+   take 1: score -0.50  wer 0.42  end -3.9st  2.6w/s  heard: Two days later, it hit $73.14.5 billion in total.
+   take 2: score -1.20  wer 0.17  end +0.0st  2.9w/s  heard: Two days later, it hits $73, 14.5 billion in total.
+   take 3: score -1.12  wer 0.17  end +0.0st  2.7w/s  heard: Two days later, it hits $73, 14.5 billion in total.
+   take 4: score -1.04  wer 0.17  end +0.0st  2.6w/s  heard: Two days later, it hits $73, 14.5 billion in total.
+   phonetic variant: Two days later, it hits seventy-three dollars. For-teen and a half billion in total.
+   take P1: score -1.82  wer 0.27  3.0w/s  heard: Two days later, it hit $73, $14.5 billion in total.
+   take P2: score -1.76  wer 0.29  2.6w/s  heard: Two days later, it hit $73 for $14.5 billion in total.
+   take P3: score -1.49  wer 0.24  2.5w/s  heard: Two days later, it hit $73. 14.5 billion in total.
+   take R1: wer 0.24  heard: Two days later, it hit $73. 14.5 billion in total.
+   take R2: wer 0.24  heard: Two days later, it hit $73, 14.5 billion in total.
+   take R3: wer 0.17  heard: Two days later, it hits $73, 14.5 billion in total.
+   take R4: wer 0.24  heard: Two days later, it hit $73. 14.5 billion in total.
+scene 2: 5.40s ex 0.45  chosen wer 0.17
+   take 1: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: But 80 percent of the coins belong to Trump-linked companies.
+   take 2: score +1.97  wer 0.00  end -10.7st  2.5w/s  heard: But 80% of the coins belong to Trump-linked companies.
+scene 3: 3.93s ex 0.45  chosen wer 0.00
+   take 1: score -2.09  wer 0.00  end +0.0st  3.8w/s  heard: By March, the price is down more than 80%.
+   take 2: score -0.97  wer 0.00  end +0.0st  3.3w/s  heard: By March, the price is down more than 80%.
+   take 3: score -1.18  wer 0.00  end +0.0st  3.4w/s  heard: By March, the price is down more than 80%.
+scene 4: 3.05s ex 0.72  chosen wer 0.00
+   take 1: score -2.50  wer 0.00  end +0.0st  3.2w/s  rushed ['dinner', 'president.']  heard: Then an offer, the top 220 holders, get dinner with the president.
+   take 2: score -1.15  wer 0.00  end +0.0st  3.0w/s  rushed ['president.']  heard: Then an offer. The top 220 holders get dinner with the president.
+   take 3: score -0.88  wer 0.00  end +0.0st  2.7w/s  rushed ['president.']  heard: Then an offer, the top 220 holders get dinner with the president.
+   take 4: score -2.18  wer 0.00  end +0.0st  3.1w/s  rushed ['dinner', 'president.']  heard: Then an offer. The top 220 holders get dinner with the president.
+scene 5: 5.13s ex 0.45  chosen wer 0.00
+   take 1: score +1.94  wer 0.00  end -7.1st  2.7w/s  heard: The price jumps again.
+scene 6: 1.48s ex 0.45  chosen wer 0.00
+   take 1: score +1.29  wer 0.00  end +8.7st  3.1w/s  heard: meme coin, or the most expensive dinner ticket ever?
+   take 2: score +0.94  wer 0.00  end +6.7st  2.8w/s  rushed ['dinner']  heard: meme coin, or the most expensive dinner ticket ever?
+   take 3: score +1.43  wer 0.00  end +7.9st  3.0w/s  heard: Meme Coin, or the most expensive dinner ticket ever?
+scene 7: 2.99s ex 0.5 END  chosen wer 0.00
+   take 1: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -0.36  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+   take 3: score -1.06  wer 0.00  end +0.0st  2.2w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 4: score +1.80  wer 0.00  end -3.6st  2.3w/s  heard: Subscribe for more stories.
+scene 8: 1.76s ex 0.55  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+30.56s, force-aligned 77 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700081/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.6, 0.51, 0.61, 0.66, 0.6, 0.65, 1.04]

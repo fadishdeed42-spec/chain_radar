@@ -1,0 +1,69 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.4,
+ "seed": 7,
+ "scenes": [
+  [
+   "Three days before taking office, Donald Trump launched his own crypto coin.",
+   0.72,
+   0.2
+  ],
+  [
+   "Two days later, it hits seventy-three dollars. Fourteen and a half billion in total.",
+   0.45,
+   0.2
+  ],
+  [
+   "But eighty percent of the coins belong to Trump-linked companies.",
+   0.45,
+   0.2
+  ],
+  [
+   "By March, the price is down more than eighty percent.",
+   0.72,
+   0.2
+  ],
+  [
+   "Then an offer: the top two hundred twenty holders get dinner with the President.",
+   0.45,
+   0.2
+  ],
+  [
+   "The price jumps again.",
+   0.45,
+   0.2
+  ],
+  [
+   "Meme coin, or the most expensive dinner ticket ever?",
+   0.5,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.55,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Three days before taking office, Donald Trump launched his own crypto coin.",
+  "Two days later, it hits seventy-three dollars. Fourteen and a half billion in total.",
+  "But eighty percent of the coins belong to Trump-linked companies.",
+  "By March, the price is down more than eighty percent.",
+  "Then an offer: the top two hundred twenty holders get dinner with the President.",
+  "The price jumps again.",
+  "Meme coin, or the most expensive dinner ticket ever?",
+  "Subscribe for more stories."
+ ]
+}
