@@ -10,10 +10,8 @@ worst windows: [(28.8, np.float32(39.4)), (25.2, np.float32(39.8)), (28.6, np.fl
 mixed -> jobs/t3700079/short.mp4
 $ ffmpeg -y -v error -i jobs/t3700079/short.mp4 -c:v libx264 -crf 19 -maxrate 9000k -bufsize 18000k -g 60 -preset medium -pix_fmt yuv420p -c:a copy -movflags +faststart jobs/t3700079/short_s.mp4
 video check: []
-qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
-⚠️ <b>Video check: please look at</b>
-⚠️ text: text cut off at 0s (Top text slightly cut off at e)
-✅ 6 checks passed (format, hook frame, loudness, motion, picture, sync)
+✅ <b>Video check: passed</b>
+✅ 7 checks passed (format, hook frame, loudness, motion, picture, sync, visual)
 $ ffmpeg -y -v error -ss 1.33 -i jobs/t3700079/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700079/sh_00.png
 $ ffmpeg -y -v error -ss 3.99 -i jobs/t3700079/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700079/sh_01.png
 $ ffmpeg -y -v error -ss 6.65 -i jobs/t3700079/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700079/sh_02.png
