@@ -1,0 +1,45 @@
+json 0b42d8d30ed0
+   take 1: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: One tweet from Elon Musk sent Bitcoin crashing within hours.
+   take 2: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: One tweet from Elon Musk sent Bitcoin crashing within hours.
+   take 3: score -1.53  wer 0.10  end +0.0st  2.8w/s  rushed ['Bitcoin']  heard: One tweet from Elon Musk said Bitcoin crashing within hours.
+   take 4: score +1.99  wer 0.00  end -6.3st  2.6w/s  heard: One tweet from Elon Musk sent bitcoin crashing within hours.
+scene 1: 3.88s ex 0.72  chosen wer 0.00
+   take 1: score -0.97  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin.']  heard: February 2021, Tesla buys $1.5 billion of Bitcoin.
+   take 2: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['Bitcoin.']  heard: February 2021, Tesla buys $1.5 billion of Bitcoin.
+   take 3: score -0.97  wer 0.00  end +0.0st  2.3w/s  rushed ['Bitcoin.']  heard: February 2021, Tesla buys $1.5 billion of Bitcoin.
+   take 4: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin.']  heard: February 2021, Tesla buys $1.5 billion of Bitcoin.
+scene 2: 4.79s ex 0.45  chosen wer 0.00
+   take 1: score -0.87  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin.']  heard: March, Musk tweets, you can now buy a Tesla with Bitcoin.
+   take 2: score -1.70  wer 0.14  end +0.0st  2.5w/s  rushed ['Bitcoin.']  heard: March, Musketweets.  You can now buy a Tesla with Bitcoin.
+   take 3: score +0.16  wer 0.14  end -2.4st  2.9w/s  rushed ['Bitcoin.']  heard: March, Musketweets, you can now buy a Tesla with Bitcoin.
+   take 4: score -1.42  wer 0.09  end +0.0st  2.7w/s  rushed ['Bitcoin.']  heard: March, Musc tweets, you can now buy a Tesla with Bitcoin.
+scene 3: 4.05s ex 0.45  chosen wer 0.00
+   take 1: score +0.27  wer 0.00  end -5.6st  2.4w/s  rushed ['another', 'Bitcoin']  heard: Seven weeks later, another tweet. Tesla stops taking Bitcoin because m
+   take 2: score -0.28  wer 0.07  end -4.6st  2.1w/s  rushed ['another', 'Bitcoin']  heard: 7 weeks later, another tweet. Tesla stopped taking Bitcoin because min
+   take 3: score +0.12  wer 0.00  end -4.0st  2.1w/s  rushed ['another', 'Bitcoin']  heard: 7 weeks later, another tweet. Tesla stops taking Bitcoin because minin
+   take 4: score -0.94  wer 0.00  end -0.4st  2.4w/s  rushed ['another']  heard: 7 weeks later, another tweet. Tesla stops taking Bitcoin because minin
+scene 4: 6.28s ex 0.45  chosen wer 0.00
+   take 1: score -0.94  wer 0.00  end +0.0st  2.8w/s  rushed ['Bitcoin']  heard: Bitcoin drops more than 10%.
+   take 2: score -0.03  wer 0.00  end +0.0st  2.6w/s  heard: Bitcoin drops more than 10%.
+   take 3: score -0.81  wer 0.00  end +0.0st  2.6w/s  rushed ['Bitcoin']  heard: Bitcoin drops more than 10%.
+   take 4: score -0.07  wer 0.00  end +0.0st  2.7w/s  heard: Bitcoin drops more than 10%.
+scene 5: 2.35s ex 0.72  chosen wer 0.00
+   take 1: score -1.02  wer 0.00  end +0.0st  2.2w/s  rushed ['bitcoin.']  heard: In 2022, Tesla sells about 75% of its bitcoin.
+   take 2: score -1.04  wer 0.00  end +0.0st  2.2w/s  rushed ['bitcoin.']  heard: In 2022, Tesla sells about 75% of its bitcoin.
+   take 3: score -0.96  wer 0.00  end +0.0st  2.3w/s  rushed ['bitcoin.']  heard: In 2022, Tesla sells about 75% of its bitcoin.
+   take 4: score -0.84  wer 0.00  end +0.0st  2.5w/s  rushed ['Bitcoin.']  heard: In 2022, Tesla sells about 75% of its Bitcoin.
+scene 6: 4.35s ex 0.45  chosen wer 0.00
+   take 1: score -1.88  wer 0.00  end -2.0st  2.8w/s  rushed ['really', 'market?']  heard: One man, one tweet, who really moves the market?
+   take 2: score -0.21  wer 0.00  end -1.7st  2.7w/s  heard: 1 man, 1 tweet, who really moves the market?
+   take 3: score -0.20  wer 0.00  end -0.4st  2.7w/s  heard: 1 man, 1 tweet, who really moves the market?
+   phonetic variant: Wuhn man. Wuhn tweet. Who really moves the market?
+   take P1: score -0.42  wer 0.00  3.1w/s  heard: One man, one tweet, who really moves the market?
+scene 7: 3.36s ex 0.5 END  chosen wer 0.00
+   take 1: score -1.08  wer 0.00  end +0.0st  2.1w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -0.16  wer 0.00  end +0.0st  2.3w/s  heard: Subscribe for more stories.
+   take 3: score -0.28  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+scene 8: 1.71s ex 0.55  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+32.89s, force-aligned 78 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700078/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.68, 0.72, 0.66, 0.74, 0.61, 0.63, 0.9]

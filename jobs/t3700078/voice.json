@@ -1,0 +1,69 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.4,
+ "seed": 7,
+ "scenes": [
+  [
+   "One tweet from Elon Musk sent Bitcoin crashing within hours.",
+   0.72,
+   0.2
+  ],
+  [
+   "February twenty twenty-one: Tesla buys one point five billion dollars of Bitcoin.",
+   0.45,
+   0.2
+  ],
+  [
+   "March: Musk tweets, you can now buy a Tesla with Bitcoin.",
+   0.45,
+   0.2
+  ],
+  [
+   "Seven weeks later, another tweet. Tesla stops taking Bitcoin, because mining uses too much energy.",
+   0.45,
+   0.2
+  ],
+  [
+   "Bitcoin drops more than ten percent.",
+   0.72,
+   0.2
+  ],
+  [
+   "In twenty twenty-two, Tesla sells about seventy-five percent of its Bitcoin.",
+   0.45,
+   0.2
+  ],
+  [
+   "One man. One tweet. Who really moves the market?",
+   0.5,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.55,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "One tweet from Elon Musk sent Bitcoin crashing within hours.",
+  "February twenty twenty-one: Tesla buys one point five billion dollars of Bitcoin.",
+  "March: Musk tweets, you can now buy a Tesla with Bitcoin.",
+  "Seven weeks later, another tweet. Tesla stops taking Bitcoin, because mining uses too much energy.",
+  "Bitcoin drops more than ten percent.",
+  "In twenty twenty-two, Tesla sells about seventy-five percent of its Bitcoin.",
+  "One man. One tweet. Who really moves the market?",
+  "Subscribe for more stories."
+ ]
+}
