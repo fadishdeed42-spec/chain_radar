@@ -71,7 +71,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795098932.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 JPMorgan excepts the Fed to raise interest rates at its next three meetings.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 JPMorgan excepts the Fed to raise interest rates at its next three meetings.",
@@ -276,7 +276,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795087800.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -604,7 +604,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795097323.0,
 "tgtext": "A hacker is looking to long $21.51M worth of $ETH at $1,551\u2013$1,568. Will he get his wish?\n\nSomeone (likely a hacker) received 5,270 $ETH from #TornadoCash and sold it for 9.51M $USDC at $1,805.\n\nHe then deposited the 9.51M $USDC into Hyperliquid and placed limit orders to long 13,800 $ETH ($21.51M) at prices between $1,551 and $1,568.\n\nhttps://arkm.com/explorer/address/0xc7e82313239a33c37373E870347f7088ef852aAA\nhttps://hypurrscan.io/address/0xc7d0b62b029D099A1982fbaC6e8Eb31AaDc3E161#orders",
 "title": "A hacker is looking to long $21.51M worth of ETH at $1,551\u2013$1,568. Will he get his wish?",
@@ -767,26 +767,6 @@
 "https://cointelegraph.com/news/world-bank-circle-citi-explore-stablecoins-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"38ecbc6d1df0": {
-"coin": "ethereum",
-"src": "KuCoin",
-"srcs": [
-"Bitcoin News",
-"BleepingComputer",
-"Cointelegraph",
-"Decrypt",
-"KuCoin"
-],
-"t": 1794928833.0869615,
-"t0": 1794907454.0,
-"tgtext": "",
-"title": "U.S. Court Dismisses $25 Million Ethereum MEV Fraud Case Against the Perreira-Bueno Brothers",
-"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnhzOENLM3NWSmlKVVA1LU1acjJ6T2JFcDB4SmZZaVBQeWlIR2s0MXpRNk90ZEhpdkpYVU9hYnJKUVJYeHBGNDZFby03bllSRkc5WkltdWZSYjZ6Xy0yRnd4RDRoNnpvZkZ2WG1iU3JFVUhhaWp5d0tPakpkb1B3LWhwamVRRFl1LUY5bzBteVRNT3g2YkJyQmVPYU5IU3pZOHREU3lMNWRmYmp6Vm9JT1laQQ?oc=5",
-"urls": [
-"https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution",
-"https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "3a917235e495": {
 "coin": "bitcoin",
 "src": "Hindustan Times",
@@ -845,19 +825,20 @@
 "coin": "",
 "src": "Yahoo Finance",
 "srcs": [
+"Coin Edition",
+"CoinDesk",
 "Decrypt",
 "ITWeb",
-"Law360",
-"Technology Org",
-"The 420.in"
+"Law360"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795082700.0,
 "tgtext": "",
 "title": "Abu Dhabi Ruling Gives Binance a Legal Path to Reclaim Billions Frozen in Its Hack",
 "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRS1FQzk1aUtXUkRFUHFiTENQYTZ1RDdWYjBxNkdHMUZYXzdhTVNLVDZab0Rzb1U5ZWFHRzZPZGlQQzJWNnV5a1VrYnVBMkR4cEVtOVRHOEZOazREVGV0eUJPcmdsU01tV0VxZVhvLUExbVNQVXU4YVlndE9JNjdIUmNsYWRKdzJUWUk1MGNmSEVBR3RWZ2t0OWw2WQ?oc=5",
 "urls": [
-"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
+"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
+"https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
 ]
 },
 "3c20f0564cc6": {
@@ -952,6 +933,19 @@
 "urls": [
 "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback"
 ]
+},
+"437a23df8451": {
+"coin": "",
+"src": "TechBullion",
+"srcs": [
+"TechBullion"
+],
+"t": 1795101911.5623426,
+"t0": 1795098560.0,
+"tgtext": "",
+"title": "October\u2019s $12.5 Billion Liquidation Bill, Recalculated for an Exchange That Pays Losers",
+"url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMENhekNvYXJDaHprLTRqdFB2YWtTOUoweDJzZDVScWxZcW1VcXJmSnMwUWFtT2VJbWNqVVczdTNBb1ItTk4tZUVPbnpONUc3STF1YUNXLVFURVByLVk5TDk4REd6ZnpGb1BkZUpTUWFhLW00cGJPc0p5dHlOYTJXYVE3b0JZOGlPZTdYdnEzdG9LWV9iSkNpcFlHUC03X2M2T2QwYmpHek9QSVBSWVE?oc=5",
+"urls": []
 },
 "44c9bb3fc70c": {
 "coin": "",
@@ -1755,7 +1749,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2156,31 +2150,13 @@
 "url": "https://t.me/lookonchainchannel/11125",
 "urls": []
 },
-"a460393d9455": {
-"coin": "ethereum",
-"src": "Cryptonews",
-"srcs": [
-"CoinDesk",
-"Cryptonews",
-"Lookonchain",
-"Pluang"
-],
-"t": 1794928833.0869615,
-"t0": 1794907279.0,
-"tgtext": "The Binance hacker has started laundering the 602,402 $ETH ($1.09B) he holds!\n\nOver the past 3 hours, he has transferred out 74,880 $ETH ($136.8M) and is now swapping it for $BTC via #THORChain.\n\nhttps://arkm.com/explorer/entity/binance-hacker-2",
-"title": "Ethereum Price and $1.16B Selling Threat: North Korea\u2019s Binance Hacker Moves $137M",
-"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUkyVlVYc0drTXVXb25OeTUtVlpjelhyTFhuRXRQY0N0b3hTREplc2lJUDR5UWJaa1RZbWRiN2o2b1VUSkdLNWotUVF0R2VXQUFSQVAyVjE1b1hKZ0MwVW5EUThrbDNxWC1EUHdGUDcwdzliZC1hWjdKM21PVF85dA?oc=5",
-"urls": [
-"https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
-]
-},
 "a4a438d9c541": {
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795097095.5393543,
+"t": 1795101911.5623426,
 "t0": 1795095524.0,
 "tgtext": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000\n\nU.S. initial jobless claims for the week ended November 14 came in at 203,000, compared with expectations of 197,000, while the prior week's figure was revised from 200,000 to 202,000. \u2014 link",
 "title": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000",
@@ -2457,7 +2433,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795083014.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.\n\nIs he planning to buy the dip on these tokens?\n\nhttps://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC.",
@@ -2543,6 +2519,19 @@
 "urls": [
 "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"b85dba2affca": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795101911.5623426,
+"t0": 1795101361.0,
+"tgtext": "\ud83d\udea8 JUST IN: Broadcom passes Saudi Aramco to become the world\u2019s 8th most valuable company, at about $1.75 trillion.\n\nThe chipmaker behind Google\u2019s TPUs is now worth more than the world\u2019s biggest oil producer.\n\nNews | Markets | YouTube",
+"title": "Broadcom passes Saudi Aramco to become the world\u2019s 8th most valuable company, at about $1.75 trillion.",
+"url": "https://t.me/cointelegraph/73386",
+"urls": []
 },
 "b9babe84f6de": {
 "coin": "",
@@ -2731,23 +2720,6 @@
 "url": "https://t.me/wublockchainenglish/26870",
 "urls": []
 },
-"c47fe653e6fb": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"CryptoSlate",
-"Wu Blockchain",
-"Yahoo Tech"
-],
-"t": 1794928833.0869615,
-"t0": 1794907467.0,
-"tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
-"title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
-"url": "https://t.me/wublockchainenglish/26858",
-"urls": [
-"https://cryptoslate.com/hackers-found-a-way-to-steal-crypto-without-hacking-wallets-and-ledger-was-caught-in-the-attack/"
-]
-},
 "c7fbadc1d634": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2828,7 +2800,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795101301.174929,
+"t": 1795101911.5623426,
 "t0": 1795082596.0,
 "tgtext": "Two whales unstaked a total of 2.31M $SOL ($169.4M) and deposited it into #CoinbasePrime today.\n\nhttps://arkm.com/explorer/address/8o7NN85Z34GMMBWU9L2dx42o6nKG8CPBfWcytBHqTxDf\nhttps://arkm.com/explorer/address/4EAjRbkPcBdb5VKYGwjbiAu3KEmv6QgoBkPgMiyE8Qgm",
 "title": "Two whales unstaked a total of 2.31M SOL ($169.4M) and deposited it into CoinbasePrime today.",
@@ -3166,7 +3138,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795101301.174929,
+"t": 1795101607.9493113,
 "t0": 1795085043.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Samsung and TSMC suspend some chip shipments to China following new US restrictions.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Samsung and TSMC suspend some chip shipments to China following new US restrictions.",
@@ -3433,25 +3405,25 @@
 },
 "probs": {
 "0451235c9781": 0.699,
-"0783cb382ab3": 0.036,
+"0783cb382ab3": 0.138,
 "090e056b3d16": 0.059,
 "0ee472a85f7b": 0.784,
 "1230e7f1af48": 0.077,
+"16525242a3d5": 0.186,
 "16819ff6353a": 0.218,
 "17ac78650387": 0.087,
 "2ac361507fce": 0.033,
 "2b7361eedf02": 0.755,
-"3acac26bf6de": 0.507,
-"3b7f41b6e518": 0.735,
+"3acac26bf6de": 0.184,
+"3b7f41b6e518": 0.78,
 "3dcaf5c2c814": 0.073,
 "43493023e661": 0.012,
 "437a23df8451": 0.495,
 "5e0896a86bc0": 0.114,
 "5e5ba9821ea1": 0.231,
-"668afe084c4c": 0.373,
+"668afe084c4c": 0.31,
 "699be517d100": 0.045,
 "6bbbe7587efd": 0.036,
-"6c5afdf02255": 0.05,
 "7007e6f92159": 0.033,
 "71e5bf3ce94e": 0.051,
 "7571d0046a01": 0.022,
@@ -3459,17 +3431,17 @@
 "8455158d54a9": 0.084,
 "84c7ac37bdd1": 0.11,
 "8523697f833d": 0.958,
+"8b5e37b8dea4": 0.106,
 "983fa77be5f0": 0.011,
 "9b1299151b1e": 0.142,
 "9d42f7499329": 0.27,
 "a32e78011cf3": 0.288,
-"b5e46430da9d": 0.131,
 "c8b510bf5c06": 0.317,
 "c9057e265a47": 0.114,
 "d634a35c09df": 0.083,
 "d8948b9b8ddd": 0.021,
 "e3fd7d294a9b": 0.031,
-"ec1d82f9802c": 0.562,
+"ec1d82f9802c": 0.406,
 "f39bf031e9c5": 0.053,
 "f47f28e0efe5": 0.071
 },
@@ -4865,63 +4837,63 @@
 [
 "8523697f833d",
 24,
-106,
+117,
 1
 ],
 [
-"25cd150dcc20",
+"b85dba2affca",
+10,
 9,
-358,
 1
 ],
 [
 "b1d9fc46c583",
 0,
-305,
+315,
 1
 ],
 [
 "0ee472a85f7b",
-42,
-225,
+41,
+235,
 2
+],
+[
+"3b7f41b6e518",
+67,
+320,
+8
 ],
 [
 "2b7361eedf02",
 16,
-66,
+76,
 1
-],
-[
-"3b7f41b6e518",
-68,
-310,
-6
 ],
 [
 "0451235c9781",
 24,
-39,
+50,
 1
 ],
 [
 "c9315c73e5ab",
-7,
-312,
+6,
+322,
 1
 ],
 [
-"ec1d82f9802c",
-20,
-271,
-1
-],
-[
-"3acac26bf6de",
+"437a23df8451",
 40,
-208,
+56,
+1
+],
+[
+"a4a438d9c541",
+10,
+106,
 1
 ]
 ],
-"top_at": 1795101301.174929
+"top_at": 1795101911.5623426
 }
