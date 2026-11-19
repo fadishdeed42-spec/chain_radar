@@ -18,7 +18,8 @@
 1795080486.672379,
 1795082947.5629435,
 1795083256.9125867,
-1795083872.6209118
+1795083872.6209118,
+1795093430.491051
 ],
 "menu": {
 "01087b69fa27": {
@@ -258,6 +259,22 @@
 "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
 ]
 },
+"0ee472a85f7b": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"CoinDesk",
+"Wu Blockchain"
+],
+"t": 1795093404.9670234,
+"t0": 1795087800.0,
+"tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
+"title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
+"url": "https://t.me/wublockchainenglish/26885",
+"urls": [
+"https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk"
+]
+},
 "124b5a9e35aa": {
 "coin": "",
 "src": "Bitcoin Magazine",
@@ -347,38 +364,24 @@
 "url": "https://t.me/WatcherGuru/16122",
 "urls": []
 },
-"180e66965ad9": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"Crypto News",
-"The Block"
-],
-"t": 1794920438.2269197,
-"t0": 1794901157.0,
-"tgtext": "",
-"title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
-"url": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
-"urls": [
-"https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083"
-]
-},
 "1be1d921f1ca": {
 "coin": "",
 "src": "Yahoo Finance",
 "srcs": [
 "BusinessLine",
 "CNA",
+"Decrypt",
 "ITP.net",
-"ITWeb",
-"The 420.in"
+"ITWeb"
 ],
-"t": 1795092484.9557977,
+"t": 1795093404.9670234,
 "t0": 1795073415.0,
 "tgtext": "",
 "title": "Abu Dhabi Ruling Gives Binance a Legal Path to Reclaim Billions Frozen in Its Hack",
 "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRS1FQzk1aUtXUkRFUHFiTENQYTZ1RDdWYjBxNkdHMUZYXzdhTVNLVDZab0Rzb1U5ZWFHRzZPZGlQQzJWNnV5a1VrYnVBMkR4cEVtOVRHOEZOazREVGV0eUJPcmdsU01tV0VxZVhvLUExbVNQVXU4YVlndE9JNjdIUmNsYWRKdzJUWUk1MGNmSEVBR3RWZ2t0OWw2WQ?oc=5",
-"urls": []
+"urls": [
+"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
+]
 },
 "1c2da33bc2ff": {
 "coin": "bitcoin",
@@ -516,7 +519,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795079817.0,
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
@@ -565,7 +568,7 @@
 "Coinpaper",
 "Yahoo Finance"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795080605.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Why BTC Could Crash Below $62K",
@@ -589,9 +592,10 @@
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
+"Bitcoin Foundation",
 "Lookonchain"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795072976.0,
 "tgtext": "The Binance hacker just moved another 137,602 $ETH ($248.23M) for laundering.\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker just moved another 137,602 ETH ($248.23M) for laundering.",
@@ -794,7 +798,7 @@
 "srcs": [
 "Haberler.com"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795088795.0,
 "tgtext": "",
 "title": "Massive scam under the promise of crypto investment! 3.2 billion lira in movement across accounts",
@@ -1406,7 +1410,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795084159.0,
 "tgtext": "Just In: Hong Kong SFC Adds Hyperliquid to Suspicious Virtual Asset Trading Platforms Alert List\n\nAccording to the official website of Hong Kong\u2019s Securities and Futures Commission (SFC), the regulator added decentralized trading platform Hyperliquid and Hyperliquid Hong Kong to its \"Suspicious Virtual Asset Trading Platforms\" alert list on November 18, 2026. The SFC stated that the entity is not licensed by the commission and is suspected of operating or claiming to operate a virtual asset trading platform in Hong Kong, or actively marketing its digital asset trading services to the Hong Kong public without a license. \u2014 link",
 "title": "Hong Kong SFC Adds Hyperliquid to Suspicious Virtual Asset Trading Platforms Alert List",
@@ -2393,7 +2397,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795083014.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.\n\nIs he planning to buy the dip on these tokens?\n\nhttps://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC.",
@@ -2751,7 +2755,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795082596.0,
 "tgtext": "Two whales unstaked a total of 2.31M $SOL ($169.4M) and deposited it into #CoinbasePrime today.\n\nhttps://arkm.com/explorer/address/8o7NN85Z34GMMBWU9L2dx42o6nKG8CPBfWcytBHqTxDf\nhttps://arkm.com/explorer/address/4EAjRbkPcBdb5VKYGwjbiAu3KEmv6QgoBkPgMiyE8Qgm",
 "title": "Two whales unstaked a total of 2.31M SOL ($169.4M) and deposited it into CoinbasePrime today.",
@@ -2927,23 +2931,6 @@
 "url": "https://t.me/WatcherGuru/16142",
 "urls": []
 },
-"dbe933b31ccc": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"BigGo Finance",
-"Cointelegraph",
-"Wu Blockchain"
-],
-"t": 1794920133.07936,
-"t0": 1794898560.0,
-"tgtext": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%\n\nIntesa Sanpaolo, Italy's largest banking group, significantly reshuffled its crypto ETF holdings in Q3 2026, according to Criptovaluta's analysis of U.S. regulatory filings. The bank cut its ARK 21Shares Bitcoin ETF stake by 42.9% to 1.98 million shares and reduced its BlackRock Ethereum staking ETF holdings by 56.6%. Meanwhile, its Bitwise Solana Staking ETF position grew to 875,407 shares worth $14.14 million, while it added $6.7 million in Bitwise XRP ETF shares and $599,000 in Bitwise Hyperliquid ETF holdings. \u2014 link",
-"title": "Italy's Largest Bank Cuts ARK Bitcoin ETF Stake 43%, BlackRock Ether Staking ETF 57%",
-"url": "https://t.me/wublockchainenglish/26857",
-"urls": [
-"https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "df6c413b3721": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -3043,7 +3030,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1795092790.6084912,
+"t": 1795093099.36368,
 "t0": 1795076735.0,
 "tgtext": "",
 "title": "Singapore\u2019s MAS issues $77 million in tokenized bills settled via CBDC",
@@ -3052,21 +3039,6 @@
 "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
 "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc"
-]
-},
-"e99bafe26586": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"The Block"
-],
-"t": 1794920438.2269197,
-"t0": 1794912580.0,
-"tgtext": "",
-"title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
-"url": "https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106",
-"urls": [
-"https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106"
 ]
 },
 "eb40c1b63ddf": {
@@ -3340,7 +3312,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795092790.6084912,
+"t": 1795093404.9670234,
 "t0": 1795078947.0,
 "tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
@@ -3422,30 +3394,31 @@
 "rain": 1795006877.5790248
 },
 "probs": {
+"027caacb4fae": 0.236,
 "02a13dea8a8f": 0.122,
 "03341b635235": 0.094,
 "0783cb382ab3": 0.27,
-"090e056b3d16": 0.152,
+"090e056b3d16": 0.112,
 "0bdd6579777f": 0.054,
-"0ee472a85f7b": 0.06,
+"0becf1b6feb8": 0.156,
+"0ee472a85f7b": 0.885,
 "11cd675dba1a": 0.147,
 "1230e7f1af48": 0.114,
-"12be69f343f3": 0.064,
 "16819ff6353a": 0.299,
 "19597ffd1712": 0.098,
+"1be1d921f1ca": 0.788,
 "25cd150dcc20": 0.95,
 "2697cf8ed829": 0.018,
 "286747abe283": 0.512,
 "2ac361507fce": 0.088,
+"2c8cb47a67f2": 0.747,
+"364a667b74d4": 0.065,
 "3aaba495193b": 0.41,
 "3acac26bf6de": 0.611,
 "3d77a55ecdde": 0.069,
 "40da4e435320": 0.071,
-"4a4bd943f008": 0.026,
 "5e5ba9821ea1": 0.209,
 "725a42e6f822": 0.554,
-"7571d0046a01": 0.013,
-"767c5c03b0ff": 0.11,
 "7d7fdaf17d0f": 0.254,
 "8455158d54a9": 0.208,
 "8ec81c1919de": 0.159,
@@ -3460,75 +3433,9 @@
 "ec1d82f9802c": 0.424,
 "f39bf031e9c5": 0.168,
 "f416d8f38575": 0.446,
-"f881547df10c": 0.09,
-"fafa0cd2264f": 0.096
+"f881547df10c": 0.09
 },
 "sent": [
-{
-"e": [
-"against",
-"brothers",
-"bueno",
-"case",
-"court",
-"dismisses",
-"fraud",
-"mev",
-"million",
-"perreira"
-],
-"k": [
-"legal"
-],
-"t": 1794917668.0780222,
-"u": [
-"https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnhzOENLM3NWSmlKVVA1LU1acjJ6T2JFcDB4SmZZaVBQeWlIR2s0MXpRNk90ZEhpdkpYVU9hYnJKUVJYeHBGNDZFby03bllSRkc5WkltdWZSYjZ6Xy0yRnd4RDRoNnpvZkZ2WG1iU3JFVUhhaWp5d0tPakpkb1B3LWhwamVRRFl1LUY5bzBteVRNT3g2YkJyQmVPYU5IU3pZOHREU3lMNWRmYmp6Vm9JT1laQQ?oc=5",
-"https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution",
-"https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFBpU3dUNmNjamZRbnBWcXFWcGk4VVVwOTdIeEVxN2lEcUxrNldJVkhXejBNMDBndG9pbGJfOXZ3R2lZMFpJSTR1S1hlckxwczNPem9ZQ09INHBmVWx6eHNkYWFwYzB1ajlLTC1yUVFfS0V2SmlYZ2FjeFp2R0VFNGUzVDBsLUp4TXFpWmVJVFRFVWJuV3JEc3JyQ2NZTVVlSmZZU3o4eGZUd3JURDhKelpkMEhFM0Vj0gG4AUFVX3lxTE40UGlTd1Q2Y2NqZlFucFZxcVZwaThVVXA5N0h4RXE3aURxTGs2V0lWSFd6ME0wMGd0b2lsYl85dndHaVkwWklJNHVLWGVyTHBzM096b1lDT0g0cGZVbHp4c2RhYXBjMHVqOUtMLXJRUV9LRXZKaVhnYWN4WnZHRUU0ZTNUMGwtSnhNcWlaZUlUVEVVYm5XckRzcnJDY1lNVWVKZllTejh4ZlR3clREOEp6WmQwSEUzRWM?oc=5"
-],
-"w": [
-"$25",
-"against",
-"brothers",
-"bueno",
-"case",
-"court",
-"dismisses",
-"ethereum",
-"fraud",
-"mev",
-"million",
-"perreira"
-]
-},
-{
-"e": [
-"revolut"
-],
-"k": [],
-"t": 1794919303.2265837,
-"u": [
-"https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://t.me/WatcherGuru/16088"
-],
-"w": [
-"allowing",
-"amounts",
-"based",
-"blockchain",
-"four",
-"fractional",
-"funds",
-"invest",
-"launch",
-"markets",
-"plans",
-"private",
-"revolut",
-"users"
-]
-},
 {
 "e": [
 "aguilatrades"
@@ -4878,6 +4785,59 @@
 "politico",
 "potentially"
 ]
+},
+{
+"e": [
+"directly",
+"formerly",
+"hackers",
+"illicit",
+"including",
+"investigation",
+"korean",
+"linked",
+"makerdao",
+"module",
+"north",
+"peg",
+"processed",
+"sky",
+"stability",
+"tied",
+"transactions",
+"wallets"
+],
+"k": [
+"hack"
+],
+"t": 1795093404.9670234,
+"u": [
+"https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+"https://news.google.com/rss/articles/CBMixAFBVV95cUxQMERzczhFZ1V2ZXgwRWptQWVNV0xPWjdydl9EWGxJbUV2bTJGWXV6M24tcjdETnRSRk91ajBXRDZtSXhmX3hBbi1wSmRwV3Bhc21FZGctVkgwaWZRUE1Pa0pBNjkzMXNKMVQ3LXExVG5icTZlZ3pDcGtjZHFvMUZyVlRueUdLQlcyYTlucElwanF0RXd1bnYtZExaVU1LRE1GNk9BTk45c2J0OXNsUzhQaW1Qbi1JX0FYYnM5ZWQ3NmMxNVoy?oc=5",
+"https://t.me/wublockchainenglish/26885"
+],
+"w": [
+"$101",
+"$518m",
+"directly",
+"formerly",
+"hackers",
+"illicit",
+"including",
+"investigation",
+"korean",
+"linked",
+"makerdao",
+"module",
+"north",
+"peg",
+"processed",
+"sky",
+"stability",
+"tied",
+"transactions",
+"wallets"
+]
 }
 ],
 "stories": {},
@@ -4885,64 +4845,64 @@
 "top": [
 [
 "25cd150dcc20",
-28,
-216,
+26,
+226,
 1
 ],
 [
-"2c8cb47a67f2",
-4,
-330,
-1
+"0ee472a85f7b",
+48,
+93,
+2
 ],
 [
 "b1d9fc46c583",
 10,
-163,
+173,
 1
 ],
 [
 "c9315c73e5ab",
 24,
-170,
+180,
 1
 ],
 [
+"1be1d921f1ca",
+65,
+333,
+8
+],
+[
+"2c8cb47a67f2",
+38,
+340,
+2
+],
+[
 "f862a2af8b64",
-4,
-231,
+2,
+241,
 1
 ],
 [
 "3acac26bf6de",
 43,
-67,
+77,
 1
 ],
 [
 "725a42e6f822",
 20,
-144,
+154,
 2
 ],
 [
 "286747abe283",
-27,
-203,
+26,
+213,
 2
-],
-[
-"e8fa42055ad7",
-25,
-268,
-3
-],
-[
-"f416d8f38575",
-25,
-158,
-1
 ]
 ],
-"top_at": 1795092790.6084912
+"top_at": 1795093404.9670234
 }
