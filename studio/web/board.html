@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#2a1b0e}
+#stage{position:absolute;left:0;top:0;width:0;height:0;transform-origin:0 0}
+.cork{position:absolute;left:-3400px;top:-3300px;width:8000px;height:8400px;background:radial-gradient(ellipse at 50% 45%,#8a6640 0%,#5e4126 55%,#2e1d0e 100%);}
+.cork:after{content:'';position:absolute;inset:0;background-image:radial-gradient(#0003 2px,transparent 2.5px),radial-gradient(#fff1 1.5px,transparent 2px);background-size:15px 15px,21px 21px}
+.card{position:absolute;background:#f3eddf;color:#1b1b1b;box-shadow:0 18px 36px #000a;padding:28px 32px;font-family:Inter;visibility:hidden;transform-origin:50% 0}
+.pin{position:absolute;left:50%;top:-16px;margin-left:-19px;width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8a8a,#b00000 70%);box-shadow:0 5px 8px #0009}
+.date{font:700 36px 'Courier 10 Pitch',Courier;letter-spacing:2px;color:#4a4a4a}
+.h{font:800 46px Inter;line-height:1.15;margin-top:10px}
+.mega{font:900 150px 'Inter Display';line-height:1;color:#c8141a;letter-spacing:-3px}
+.photo{background:#1f232b;color:#fff;width:340px;height:420px;padding:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;overflow:hidden}
+.sil{width:200px;height:200px;border-radius:50%;background:#5a616f;margin-bottom:-26px}.body{width:300px;height:150px;border-radius:150px 150px 0 0;background:#5a616f}
+.lab{position:absolute;bottom:0;left:0;right:0;background:#f3eddf;color:#111;text-align:center;font:900 34px 'Inter Display';padding:12px 0}
+svg.str{position:absolute;left:-1400px;top:-1300px;overflow:visible}
+</style></head><body><div id=stage><div class=cork></div>
+<svg class=str width=4000 height=4400><g id=strings stroke="#c1121f" stroke-width=7 fill=none stroke-linecap=round transform="translate(1400,1300)"></g></svg>
+<div class="card photo chk" id=c0 data-n=photo style="left:-430px;top:-370px;rotate:-4deg"><div class=pin></div><div class=sil></div><div class=body></div><div class=lab>MICHAEL SAYLOR</div></div>
+<div class="card chk" id=c0b data-n=sixb style="left:20px;top:-330px;width:400px;rotate:3deg"><div class=pin></div><div class=date>IN ONE DAY</div><div style="font:900 96px 'Inter Display';line-height:1;margin-top:8px">$6</div><div style="font:900 80px 'Inter Display';line-height:1">BILLION</div><div class=date style="margin-top:8px">LOST</div></div>
+<div class="card chk" id=c1 data-n=march style="left:-290px;top:500px;width:580px;rotate:-2deg"><div class=pin></div><div class=date>MARCH 20, 2000</div><div class=h>MicroStrategy admits its 1999 earnings were wrong</div><div class=date style="margin-top:14px;font-size:28px">1999 PROFIT → ACTUALLY A LOSS</div></div>
+<div class="card chk" id=c2 data-n=crash style="left:-280px;top:1210px;width:560px;rotate:2deg;text-align:center"><div class=pin></div><div class=mega id=pc>-62%</div><div class=date>STOCK · ONE DAY</div>
+ <svg viewBox="0 0 480 150" style="width:480px;height:150px;margin-top:10px"><polyline id=dropl points="0,20 140,26 200,22 230,30 260,120 300,132 480,128" fill=none stroke="#c8141a" stroke-width=9 stroke-linejoin=round /></svg></div>
+<div class="card chk" id=c3 data-n=twenty style="left:960px;top:1280px;width:480px;rotate:-3deg;text-align:center"><div class=pin></div><div style="font:900 130px 'Inter Display';line-height:1">20</div><div style="font:900 56px 'Inter Display'">YEARS LATER</div></div>
+<div class="card chk" id=c4 data-n=aug style="left:900px;top:440px;width:600px;rotate:2deg"><div class=pin></div><div class=date>AUGUST 2020</div><div style="font:900 84px 'Inter Display';line-height:1.05;margin-top:6px">$250M</div><div class=h style="margin-top:2px">→ INTO BITCOIN</div>
+ <svg viewBox="0 0 520 200" style="width:530px;height:200px;margin-top:16px;background:#10141e;border-radius:8px"><polyline id=btcl fill=none stroke="#f7931a" stroke-width=6 stroke-linejoin=round /></svg><div class=date style="font-size:24px;margin-top:6px">BITCOIN · AUG 2020 → DEC 2025</div></div>
+<div class="card chk" id=c5 data-n=still style="left:950px;top:-330px;width:500px;rotate:-2deg;text-align:center"><div class=pin></div><div class=date>AND STILL BUYING</div><div style="font:900 120px 'Inter Display';line-height:1;margin-top:8px;color:#d9730d">#1</div><div class=h>public company<br>Bitcoin holder</div></div>
+<div class="card chk" id=c6 data-n=question style="left:330px;top:520px;width:560px;rotate:-1deg;text-align:center;background:#fff6c9"><div class=pin></div><div style="font:900 92px 'Inter Display';line-height:1.05">GENIUS?</div><div style="font:900 50px 'Inter Display';margin-top:14px;color:#c8141a;line-height:1.1">OR THE SAME<br>MISTAKE TWICE?</div></div>
+</div>
+<script src=lib.js></script><script>
+const G=id=>document.getElementById(id), stage=G('stage');
+fetch; const BTC=[11650,10777,13791,19696,28924,33093,45136,58741,57694,37254,35045,41462,47101,43824,61300,56951,46217,38467,43160,45510,37631,31801,19942,23293,20050,19423,20491,17164,16542,23125,23142,28465,29233,27210,30472,29232,25941,26963,34640,37724,42284,42580,61131,71280,60672,67540,62772,64628,58974,63328,70292,96408,93576,102430,84350,82550,94172,104592,107147,115764,108246,114049,109608,90360,87648];
+const bl=G('btcl'); bl.setAttribute('points',BTC.map((v,i)=>[i*520/(BTC.length-1),190-v/120000*180].join(',')).join(' '));
+let bL=0; {const p=BTC.map((v,i)=>[i*520/(BTC.length-1),190-v/120000*180]); for(let i=1;i<p.length;i++)bL+=Math.hypot(p[i][0]-p[i-1][0],p[i][1]-p[i-1][1]);} bl.style.strokeDasharray=bL;
+const dl=G('dropl'); dl.style.strokeDasharray=600;
+// strings: [from card centre, to card centre, start time key]
+const C={c0:[-260,-160],c0b:[220,-150],c1:[0,640],c2:[0,1420],c3:[1200,1440],c4:[1200,700],c5:[1200,-120]};
+const SG=G('strings'), STR=[];
+function str(a,b){const [x1,y1]=C[a],[x2,y2]=C[b];const p=document.createElementNS('http://www.w3.org/2000/svg','path');const mx=(x1+x2)/2+(y2-y1)*.08,my=(y1+y2)/2+Math.abs(x2-x1)*.06+40;
+ p.setAttribute('d',`M${x1} ${y1} Q${mx} ${my} ${x2} ${y2}`);SG.appendChild(p);const L=p.getTotalLength();p.style.strokeDasharray=L;p.style.strokeDashoffset=L;STR.push([p,L]);return STR.length-1;}
+const s01=str('c0','c0b'),s1=str('c0','c1'),s2=str('c1','c2'),s3=str('c2','c3'),s4=str('c3','c4'),s5=str('c4','c5'),s6=str('c0b','c5');
+function draw(i,t,a){const [p,L]=STR[i];p.style.strokeDashoffset=L*(1-eOut(prog(t,a,a+.6)));}
+let FIN=1e9, QQ=1e9;
+function card(id,t,tin,tout){const e=G(id);let v=pop(e,t,tin,tout,.3,'');
+ if(t>=FIN){e.style.visibility='visible';e.style.opacity=clamp(prog(t,FIN,FIN+.3));v=1;}   // the whole board comes back for the final zoom-out
+ if(id!=='c6'&&t>=QQ) e.style.opacity=lerp(1,.3,prog(t,QQ,QQ+.18));
+ e.style.transform=`scale(${lerp(.5,1,clamp(v,0,1.1))*(id==='c6'?lerp(1,1.9,eOut(prog(t,QQ+.2,QQ+.6))):1)})`;}
+function render(t){
+ const T0=W(0,'six')-.2, T1=S(1), T2=S(2), T3=S(3), T4=S(4), T5=S(5), T6=S(6);
+ camera(stage,t,[[0,-120,-160,1.25],[T0-.3,-120,-160,1.25],[T0+.2,0,-160,1.12],[T1-.4,0,-160,1.12],[T1,0,640,1.35],[T2-.4,0,640,1.35],[T2,0,1420,1.4],[T3-.4,0,1420,1.4],[T3,1200,1440,1.45],[T4-.4,1200,1440,1.45],[T4,1200,700,1.3],[T5-.4,1200,700,1.3],[T5,1200,-120,1.4],[T6-.45,1200,-120,1.4],[T6,600,640,.4],[DUR,600,640,.38]],5);
+ stage.style.transform+=' '+shake(t,[W(2,'crashes')],12);
+ FIN=T6-.2; QQ=W(6,'genius')-.1; SG.style.opacity=t<FIN?(t<T1-.1?1:0):(t<QQ?1:0)+lerp(1,.3,prog(t,QQ,QQ+.3)); window.SKIP=[[T1-.45,T1+.05],[T2-.45,T2+.05],[T3-.45,T3+.05],[T4-.45,T4+.05],[T5-.45,T5+.05],[T6-.5,T6+.05]];
+ card('c0',t,.05,T1-.05); card('c0b',t,T0,T1-.05); draw(s01,t,T0-.1);
+ card('c1',t,T1-.15,T2-.05); draw(s1,t,FIN);
+ card('c2',t,T2-.15,T3-.05); draw(s2,t,FIN+.1); dl.style.strokeDashoffset=600*(1-eOut(prog(t,W(2,'crashes')-.2,W(2,'crashes')+.4)));
+ G('pc').textContent=count(t,W(2,'crashes')-.1,W(2,'percent')+.2,0,-62,v=>Math.round(v)+'%');
+ card('c3',t,T3-.15,T4-.05); draw(s3,t,FIN+.2);
+ card('c4',t,T4-.15,T5-.05); draw(s4,t,FIN+.3); bl.style.strokeDashoffset=bL*(1-prog(t,W(4,'bitcoin')-.3,E(4)+.4));
+ card('c5',t,T5-.15,T6-.1); draw(s5,t,FIN+.4); draw(s6,t,FIN+.5);
+ card('c6',t,W(6,'genius')-.1,1e9);
+}
+</script></body></html>

@@ -1,0 +1,95 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:radial-gradient(ellipse at 50% 46%,#1c2546 0%,#090c18 55%,#03040a 100%);font-family:Inter}
+#stage{position:absolute;left:0;top:0;width:0;height:0;transform-origin:0 0}
+.phone{position:absolute;left:-410px;top:-490px;width:820px;height:980px;border-radius:72px;background:#000;border:14px solid #2b303b;box-shadow:0 40px 90px #000d,0 0 0 2px #555 inset,0 0 120px #3a5bff22}
+.notch{position:absolute;top:16px;left:50%;margin-left:-80px;width:160px;height:36px;border-radius:20px;background:#000;z-index:9}
+.scr{position:absolute;inset:0;border-radius:58px;overflow:hidden;background:#0a0c11}
+.sb{position:absolute;top:24px;left:56px;right:56px;display:flex;justify-content:space-between;font:700 26px Inter;color:#fff;z-index:8}
+.card{position:absolute;left:30px;right:30px;border-radius:32px;background:#15181f;border:1px solid #2a2f39;color:#e8eaed;padding:32px;visibility:hidden}
+.av{width:84px;height:84px;border-radius:50%;background:linear-gradient(#6b7383,#4a505c);float:left;margin-right:16px;position:relative;overflow:hidden}
+.av:after{content:'';position:absolute;left:19px;top:13px;width:46px;height:46px;border-radius:50%;background:#2b2f37}
+.nm{font:800 38px Inter}.hd{font:500 30px Inter;color:#7b8189}
+.tx{clear:both;font:600 54px Inter;line-height:1.2;padding-top:22px}
+.tx.sm{font-size:40px}
+.meta{font:500 30px Inter;color:#7b8189;margin-top:14px;display:flex;gap:26px;align-items:center}
+.heart{color:#f91880;font-size:44px;display:inline-block}
+.note{position:absolute;left:24px;right:24px;top:80px;border-radius:30px;background:#2c303bee;padding:24px 26px;display:flex;gap:16px;align-items:center;color:#fff;visibility:hidden;z-index:7}
+.ico{width:76px;height:76px;border-radius:18px;flex:none;display:flex;align-items:center;justify-content:center;font:900 40px Inter;color:#fff}
+.app{position:absolute;left:30px;right:30px;border-radius:32px;background:#0f1218;border:1px solid #232833;padding:30px 32px;color:#fff;visibility:hidden}
+.px{font:900 96px 'Inter Display';letter-spacing:-1px}
+.chg{font:800 52px Inter}
+.pill{font:700 28px Inter;color:#9aa3ad}
+.big{position:absolute;left:0;right:0;text-align:center;font:900 92px 'Inter Display';visibility:hidden}
+.donut{position:absolute;left:50%;margin-left:-210px;width:420px;height:420px;visibility:hidden}
+</style></head><body><div id=stage>
+<div class="phone chk" data-n=phone><div class=notch></div><div class=scr>
+ <div class=sb><span>9:41</span><span>●●● ▮</span></div>
+ <!-- S0/S4: the Bitcoin app -->
+ <div class=app id=app style="top:250px"><div class=pill>BTC / USD · May 12, 2021</div>
+  <div style="display:flex;align-items:baseline;gap:18px;margin-top:6px"><div class=px id=px>$54,700</div><div class=chg id=chg style="color:#ff4d4f"></div></div>
+  <svg id=ch viewBox="0 0 520 260" style="width:100%;height:330px;margin-top:14px"><polyline id=line fill=none stroke-width=7 stroke-linejoin=round stroke-linecap=round /></svg>
+  <div class=pill style="display:flex;justify-content:space-between"><span>8 PM</span><span>11 PM</span><span>2 AM</span><span>5 AM UTC</span></div></div>
+ <div class=note id=n0><div class=ico style="background:#111;border:2px solid #444">𝕏</div><div><div style="font:800 28px Inter;color:#cfd3d8">ELON MUSK · MAY 12, 2021</div><div style="font:600 36px Inter;margin-top:6px">New post: Tesla &amp; Bitcoin</div></div></div>
+ <!-- S1: Tesla buys -->
+ <div class=note id=n1><div class=ico style="background:#cc0000">T</div><div><div style="font:800 28px Inter;color:#cfd3d8">TESLA FILING · FEB 8, 2021</div><div style="font:600 36px Inter;margin-top:6px">Tesla bought $1.5 billion in Bitcoin</div></div></div>
+ <div class=big id=b15 style="top:430px;color:#3fdc7c;font-size:130px">$1.5B</div>
+ <div class=big id=b15s style="top:600px;font-size:56px;color:#cfd3d8">INTO BITCOIN</div>
+ <!-- S2: tweet 1 -->
+ <div class=card id=t1 style="top:280px"><div class=av></div><div class=nm>Elon Musk</div><div class=hd>@elonmusk</div>
+  <div class=tx>You can now buy a Tesla with Bitcoin</div><div class=meta><span>Mar 24, 2021</span><span class=heart id=h1>♥</span></div></div>
+ <!-- S3: tweet 2 -->
+ <div class=card id=t2 style="top:200px"><div class=av></div><div class=nm>Elon Musk</div><div class=hd>@elonmusk</div>
+  <div class="tx sm">Tesla has suspended vehicle purchases using Bitcoin. We are concerned about rapidly increasing use of fossil fuels for Bitcoin mining and transactions…</div><div class=meta><span>May 12, 2021</span></div></div>
+ <div class=big id=w7 style="top:400px;font-size:84px;color:#ffc42e">7 WEEKS<br>LATER</div>
+ <!-- S5: Tesla sells -->
+ <div class=note id=n2><div class=ico style="background:#cc0000">T</div><div><div style="font:800 28px Inter;color:#cfd3d8">TESLA REPORT · JULY 2022</div><div style="font:600 36px Inter;margin-top:6px">Tesla sold about 75% of its Bitcoin</div></div></div>
+ <svg class=donut id=dn viewBox="0 0 320 320" style="top:290px"><circle cx=160 cy=160 r=120 fill=none stroke="#2a2f39" stroke-width=46 /><circle id=arc cx=160 cy=160 r=120 fill=none stroke="#ff4d4f" stroke-width=46 stroke-dasharray="754" stroke-dashoffset="754" transform="rotate(-90 160 160)"/><text x=160 y=180 text-anchor=middle fill="#fff" font-family="Inter Display" font-weight=900 font-size=64 id=pct>0%</text></svg>
+ <div class=big id=sold style="top:740px;font-size:64px;color:#ff4d4f">SOLD</div>
+ <!-- S6 -->
+ <div class=card id=e1 style="top:110px;padding:26px"><div class=av style="width:64px;height:64px"></div><div class=nm style="font-size:32px">Elon Musk</div><div class=hd style="font-size:26px">Mar 24, 2021</div><div class="tx sm" style="font-size:36px">You can now buy a Tesla with Bitcoin</div><div style="position:absolute;right:20px;top:18px;font:900 54px Inter;color:#3fdc7c">▲</div></div>
+ <div class=card id=e2 style="top:400px;padding:26px"><div class=av style="width:64px;height:64px"></div><div class=nm style="font-size:32px">Elon Musk</div><div class=hd style="font-size:26px">May 12, 2021</div><div class="tx sm" style="font-size:36px">Tesla has suspended vehicle purchases using Bitcoin</div><div style="position:absolute;right:20px;top:18px;font:900 54px Inter;color:#ff4d4f">▼</div></div>
+ <div class=big id=q style="top:720px;font-size:66px;color:#fff;line-height:1.1">WHO MOVES<br><span style="color:#ffc42e">THE MARKET?</span></div>
+</div></div>
+</div>
+<script src=lib.js></script><script>
+// real BTCUSDT 1h closes, Binance, 2021-05-12 20:00 -> 05-13 06:00 UTC (lows used for the dip)
+const PX=[54420,54533,52943,48600,49667,50523,50256,50462,50446,50884,51333];
+const H=PX.map((p,i)=>[i*52, 245-(p-48000)/(55000-48000)*225]);
+const line=document.getElementById('line'), Ls=[];let len=0;
+line.setAttribute('points',H.map(p=>p.join(',')).join(' '));
+for(let i=1;i<H.length;i++)len+=Math.hypot(H[i][0]-H[i-1][0],H[i][1]-H[i-1][1]);
+line.style.strokeDasharray=len;
+const G=id=>document.getElementById(id), stage=G('stage');
+function render(t){
+ const tw=W(0,'tweet'), cr=W(0,'crashing');
+ camera(stage,t,[[0,0,0,.97],[S(1),0,0,1.0],[S(2),0,0,.97],[S(3),0,0,1.0],[S(4),0,0,.97],[S(5),0,0,1.0],[S(6),0,0,.97],[DUR,0,0,.93]]);
+ G('stage').style.transform+=' '+shake(t,[cr,W(4,'drops')]);
+ // S0 + S4: the app
+ const appOn=(t<S(1)-.05)||(t>=S(4)-.1&&t<S(5)-.05);
+ G('app').style.visibility=appOn?'visible':'hidden';
+ if(appOn){
+  const a= t<S(1) ? cr-.25 : W(4,'drops')-.2, b=a+(t<S(1)?.9:1.3);
+  const k=prog(t,a,b); line.style.strokeDashoffset=len*(1-k);
+  const idx=Math.min(3,Math.floor(k*3.999)), p=lerp(54700,48600,eOut(prog(t,a+.15,b)));
+  G('px').textContent=usd(p); line.setAttribute('stroke',k>.25?'#ff4d4f':'#3fdc7c');
+  G('chg').textContent=k>.3?'▼ '+Math.round((54700-p)/54700*100)+'%':'';
+  G('app').style.opacity=1; G('app').style.transform='';
+ }
+ pop(G('n0'),t,W(0,'tweet')-.1,S(1)-.1);
+ // S1
+ pop(G('n1'),t,S(1)-.05,S(2)-.1);
+ pop(G('b15'),t,W(1,'billion')-.1,S(2)-.1); pop(G('b15s'),t,W(1,'bitcoin')-.15,S(2)-.1);
+ G('b15').textContent=count(t,W(1,'one')-.1,W(1,'billion')+.3,0,1.5,v=>'$'+v.toFixed(1)+'B');
+ // S2
+ pop(G('t1'),t,S(2)-.05,S(3)-.1); G('h1').style.transform=`scale(${1+.5*Math.max(0,Math.sin(Math.min(1,prog(t,W(2,'bitcoin'),W(2,'bitcoin')+.5))*Math.PI))})`;
+ // S3
+ pop(G('w7'),t,S(3)-.05,W(3,'another')+.1); pop(G('t2'),t,W(3,'another')-.1,S(4)-.1);
+ // S5
+ pop(G('n2'),t,S(5)-.05,S(6)-.1); pop(G('dn'),t,S(5)+.2,S(6)-.1);
+ const pk=eOut(prog(t,W(5,'seventyfive')-.2,W(5,'percent')+.3)); G('arc').style.strokeDashoffset=754*(1-.75*pk); G('pct').textContent=Math.round(75*pk)+'%';
+ pop(G('sold'),t,W(5,'sells'),S(6)-.1);
+ // S6
+ pop(G('e1'),t,S(6)-.05,DUR); pop(G('e2'),t,W(6,'tweet')-.1,DUR); pop(G('q'),t,W(6,'who')-.1,DUR);
+}
+</script></body></html>
