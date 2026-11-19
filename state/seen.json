@@ -415,7 +415,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795060019.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C\n\nNews | Markets | YouTube",
 "title": "BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C",
@@ -488,6 +488,19 @@
 "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
 ]
 },
+"25cd150dcc20": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795079871.350567,
+"t0": 1795079817.0,
+"tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
+"title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
+"url": "https://t.me/lookonchainchannel/11154",
+"urls": []
+},
 "25e442e06531": {
 "coin": "",
 "src": "Crypto Briefing",
@@ -526,7 +539,7 @@
 "Bitcoin Foundation",
 "Lookonchain"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795072976.0,
 "tgtext": "The Binance hacker just moved another 137,602 $ETH ($248.23M) for laundering.\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker just moved another 137,602 ETH ($248.23M) for laundering.",
@@ -799,19 +812,6 @@
 "url": "https://t.me/cointelegraph/73363",
 "urls": []
 },
-"3ccc337b53e8": {
-"coin": "ethena",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794906608.28967,
-"t0": 1794885203.0,
-"tgtext": "Whale 0x9a80 has capitulated on $ENA, depositing 20M $ENA ($2.33M) into #Binance 10 hours ago.\n\nThe whale bought 37.96M $ENA ($10.29M) at a high price of $0.27 a month ago and still holds 17.96M $ENA ($2.05M), with a total loss of $5.91M (-57.44%).\n\nhttps://arkm.com/explorer/address/0x9a806cAE576C689AD32f1B2e920e62Efb78ae750",
-"title": "Whale 0x9a80 has capitulated on ENA, depositing 20M ENA ($2.33M) into Binance 10 hours ago.",
-"url": "https://t.me/lookonchainchannel/11107",
-"urls": []
-},
 "3d0490dd4cfa": {
 "coin": "bitcoin",
 "src": "Moomoo",
@@ -928,7 +928,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795058934.0,
 "tgtext": "It's liquidation day again!\n\nSix whales on Hyperliquid got liquidated a total of 30 times, with 618.24 $BTC ($38.73M) liquidated at prices ranging from $63,364 to $62,055.\n\nWallets:\n0x6c2c8c6e60dfaf81145ffad13736a4847ad4a201\n0x448a4f64f5dc17817f23f5d1bf488db19359e050\n0xff042b176367926e1ce92071957f6a0a4cdce2f9\n0x4b62652d2f176bf5422c8157c5b37984837d57ca\n0xc4942b0bc5ecb9c74b22ec80c6a0b411bf1a0bab\n0x4cca6c017aaa120914bc8f9678c288c95bdd3f1c",
 "title": "It's liquidation day again!",
@@ -1225,7 +1225,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795079256.4844973,
+"t": 1795079565.6019347,
 "t0": 1795057969.0,
 "tgtext": "Whales are accumulating $ETH!\n\nFour wallets withdrew a total of 13,408 $ETH ($23.73M) from FalconX, Galaxy Digital, and OKX.\n\nhttps://arkm.com/explorer/address/0xBB09dF7B7464d69A9Da14EA1BfF2FE01cC64939e\nhttps://arkm.com/explorer/address/0xEaBcf5ef6FC3A8Bd19feE50EFB28efB9c6b1e004\nhttps://arkm.com/explorer/address/0xfbe1b73257A02882698a36aade6652B210D98B60\nhttps://arkm.com/explorer/address/0xB93c76f50BAd2810fF821af81Be93c95D1aCe29D",
 "title": "Whales are accumulating ETH!",
@@ -1610,7 +1610,7 @@
 "Kriptofoni",
 "Wu Blockchain"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795059138.0,
 "tgtext": "Citi Cuts Bitcoin Price Target Nearly 12% to $99,532, Ether Target to $2,838\n\nCiti, one of the largest U.S. banking groups, cut its base-case price targets for Bitcoin and Ether from $113,000 and $3,028 to $99,532 and $2,838, respectively, representing declines of 11.9% and 6.3%, according to The Block. Citi strategist Alex Saunders cited weakening ETF demand, deleveraging in futures markets, a stronger U.S. dollar, rising real yields and increased equity market volatility as key reasons for the revisions. \u2014 link",
 "title": "Citi Cuts Bitcoin Price Target Nearly 12% to $99,532, Ether Target to $2,838",
@@ -1753,21 +1753,6 @@
 "url": "https://t.me/wublockchainenglish/26862",
 "urls": []
 },
-"819efbe0da13": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794906913.963854,
-"t0": 1794906512.0,
-"tgtext": "",
-"title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
-"url": "https://cointelegraph.com/markets/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/markets/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "83dc1cb43a1f": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1809,7 +1794,7 @@
 "ITP.net",
 "Tech Times"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795064985.0,
 "tgtext": "",
 "title": "Binance Says Court Granted Worldwide Freezing Order After Hack; Bitcoin and Ether Cannot Be Frozen",
@@ -2236,7 +2221,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795063519.0,
 "tgtext": "\u26a1\ufe0f NEW: Nvidia\u2019s interim CEO Colette Kress promises staff pay raises and extra equity awards in December to lift morale after Jensen Huang\u2019s exit, FT reports.\n\nNews | Markets | YouTube",
 "title": "Nvidia\u2019s interim CEO Colette Kress promises staff pay raises and extra equity awards in December to lift morale after Jensen Huang\u2019s exit, FT reports.",
@@ -2508,7 +2493,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795070232.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.\n\n\ud83c\uddfa\ud83c\uddf8 US\n\ud83c\udde8\ud83c\uddf3 China\n\ud83c\udde9\ud83c\uddea Germany\n\ud83c\uddf0\ud83c\uddf7 South Korea\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.",
@@ -2907,7 +2892,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795068148.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d",
@@ -3417,7 +3402,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795079256.4844973,
+"t": 1795079871.350567,
 "t0": 1795078947.0,
 "tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
@@ -3499,13 +3484,13 @@
 "rain": 1795006877.5790248
 },
 "probs": {
-"02a13dea8a8f": 0.367,
+"02a13dea8a8f": 0.305,
 "03341b635235": 0.153,
 "037cbe30d57b": 0.071,
-"05aa0a2c4a50": 0.036,
 "0d022d5e578b": 0.129,
 "1390488dc399": 0.121,
 "2107a89d7373": 0.594,
+"25cd150dcc20": 0.527,
 "2697cf8ed829": 0.04,
 "2c8cb47a67f2": 0.885,
 "3030052c828e": 0.081,
@@ -3513,7 +3498,7 @@
 "3cceb6021577": 0.136,
 "407b496051c4": 0.158,
 "43191e3a17e0": 0.154,
-"474ebb4729e3": 0.219,
+"474ebb4729e3": 0.13,
 "5a6e43849382": 0.039,
 "5fad51aa6694": 0.038,
 "84b296678b1b": 0.146,
@@ -3522,9 +3507,8 @@
 "879c82c0fb30": 0.038,
 "8e26df7effb6": 0.132,
 "96855fbb48a9": 0.022,
-"96e40be22b88": 0.046,
 "9978c014c2ad": 0.046,
-"9f68278ff952": 0.014,
+"9f68278ff952": 0.108,
 "b038d80a18be": 0.112,
 "b08354072e01": 0.768,
 "ba89f62250eb": 0.07,
@@ -3537,6 +3521,7 @@
 "e8fa42055ad7": 0.092,
 "efef76ec144c": 0.061,
 "f42e0273a10c": 0.115,
+"f862a2af8b64": 0.607,
 "fafa0cd2264f": 0.023,
 "fd0bc072fa27": 0.037
 },
@@ -4901,63 +4886,63 @@
 [
 "2c8cb47a67f2",
 59,
-105,
+115,
 2
 ],
 [
-"f862a2af8b64",
-10,
-5,
-1
-],
-[
 "c9b752c6bad9",
-24,
-185,
+22,
+195,
 1
 ],
 [
 "b08354072e01",
 10,
-150,
+161,
 1
 ],
 [
 "44c9bb3fc70c",
-4,
-339,
+3,
+349,
 1
 ],
 [
-"59ab32dde73b",
-0,
-355,
+"f862a2af8b64",
+10,
+15,
 1
 ],
 [
 "2107a89d7373",
-18,
-321,
+16,
+331,
 1
 ],
 [
 "a05caa74ccb5",
 0,
-262,
+273,
+1
+],
+[
+"25cd150dcc20",
+32,
+1,
 1
 ],
 [
 "78c5f6ee2801",
 0,
-335,
+346,
 2
 ],
 [
 "858eadd76965",
-78,
-238,
+76,
+248,
 4
 ]
 ],
-"top_at": 1795079256.4844973
+"top_at": 1795079871.350567
 }
