@@ -55,7 +55,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795028768.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: The Fed flags risks that the AI investment surge could prove excessive.\n\nNews | Markets | YouTube",
 "title": "The Fed flags risks that the AI investment surge could prove excessive.",
@@ -606,7 +606,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795036643.0,
 "tgtext": "JUST IN: Anthropic to IPO tomorrow at $83 per share, valuing the company at $1.5 trillion, Bloomberg reports.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Anthropic $ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "Anthropic ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.",
@@ -867,7 +867,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795047995.0,
 "tgtext": "JUST IN: Elon Musk says Tesla $TSLA will launch a fully self-driving Model Y with no steering wheel or pedals.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "Elon Musk says Tesla TSLA will launch a fully self-driving Model Y with no steering wheel or pedals.",
@@ -1111,7 +1111,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795046677.0,
 "tgtext": "\u26a1\ufe0f TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.",
@@ -1230,7 +1230,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795028701.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.",
@@ -1640,7 +1640,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795028965.0,
 "tgtext": "JUST IN: Petition to reinstate Jensen Huang as CEO of Nvidia $NVDA reaches 200,000 signatures.\n\n@WatcherGuru\nJUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "Petition to reinstate Jensen Huang as CEO of Nvidia NVDA reaches 200,000 signatures.",
@@ -2351,6 +2351,27 @@
 "url": "https://t.me/lookonchainchannel/11137",
 "urls": []
 },
+"a63fc09cc3f4": {
+"coin": "",
+"src": "Seeking Alpha",
+"srcs": [
+"Bitcoin Foundation",
+"Bitcoin Magazine",
+"Bloomberg.com",
+"Cointelegraph",
+"Seeking Alpha"
+],
+"t": 1795048928.240564,
+"t0": 1795027617.0,
+"tgtext": "",
+"title": "Binance gets court order in effort to recover frozen assets after $6.3B hack (BNB-USD:Cryptocurrency)",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVlZTVHZiRXE5dHJEUDlEOXYzUzlLcjl2TUhhS0RBTHFMUUpaQ3RkdEJwT0RuV2dvTEZfeVdVc2pVYnAwNDdRT3VFcEJWTGRBTDMxSzV3M0xaeXpvRVJfZGhpLXZoaElEZm1zMVdLT2dfd0V6eW8xM0taazB6MXg0cXgyTXFmMWl0NmEtTVUwUUFuVHptS3NxWXA2LXVMczFib2gyOUpWY2VlRTFBLXRQaDZn?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/news/binance-abu-dhabi-order-recover-frozen",
+"https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+"https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "a78ee86876f5": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2507,6 +2528,27 @@
 "title": "XRP falls below $1 amid $44M long liquidations and ETF outflows, signaling bearish sentiment.",
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ19FUjdaWWEzbzVQLU5RdFAzU2FkcVZRYWstWFBaellNUU11NW1nMkNQU0tnYTJ1S3dURHpNLWthMG1vTW9vY0RaWllmbE5uZF9HVjRhc3lCWDdDMEJBOXY3VERSaHUxYzUyVjBaM3RLb1U2WnUyc0dnZFNQcHl3b3IwQXdWOFNvVDNwSnk3eWxzQllp?oc=5",
 "urls": []
+},
+"adde76037f0b": {
+"coin": "",
+"src": "Seeking Alpha",
+"srcs": [
+"Bitcoin Foundation",
+"Bitcoin Magazine",
+"Bloomberg.com",
+"Cointelegraph",
+"Seeking Alpha"
+],
+"t": 1795049232.4592395,
+"t0": 1795027650.0,
+"tgtext": "",
+"title": "Binance gets court order in effort to recover frozen assets after $6.3B hack (BNB-USD:Cryptocurrency)",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVlZTVHZiRXE5dHJEUDlEOXYzUzlLcjl2TUhhS0RBTHFMUUpaQ3RkdEJwT0RuV2dvTEZfeVdVc2pVYnAwNDdRT3VFcEJWTGRBTDMxSzV3M0xaeXpvRVJfZGhpLXZoaElEZm1zMVdLT2dfd0V6eW8xM0taazB6MXg0cXgyTXFmMWl0NmEtTVUwUUFuVHptS3NxWXA2LXVMczFib2gyOUpWY2VlRTFBLXRQaDZn?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/news/binance-abu-dhabi-order-recover-frozen",
+"https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+"https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "b171303eb316": {
 "coin": "",
@@ -3058,7 +3100,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795031256.0,
 "tgtext": "Ledger Hardware Wallet Tampering Investigation Update: Affected Devices Found Beyond Southeast Asia in Germany and UAE\n\nLedger has released an update on its investigation into physically tampered hardware wallets, confirming that affected devices have been found beyond Southeast Asia, including in Germany and the UAE. The incident involved a criminal group physically modifying genuine Ledger devices before they reached users to capture recovery phrases during wallet setup. Ledger identified one affected Nano Gen 5 device in Southeast Asia and localized tampered devices in Germany to Berlin, while investigating reports of two suspected cases in Dubai. The company said the number of confirmed affected devices remains small, with no confirmed cases involving devices purchased directly from its official website and no vulnerabilities found in its secure chip or operating system. \u2014 link",
 "title": "Ledger Hardware Wallet Tampering Investigation Update: Affected Devices Found Beyond Southeast Asia in Germany and UAE",
@@ -3086,7 +3128,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795027911.0,
 "tgtext": "JUST IN: PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.\n\n@WatcherGuru",
 "title": "PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.",
@@ -3445,7 +3487,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1795048620.8480532,
+"t": 1795049232.4592395,
 "t0": 1795043488.0,
 "tgtext": "",
 "title": "$2 Billion Crypto Liquidation Storm! Is Apeing's $0.00095 Stage 13 the Best Crypto Presale to Buy Now?",
@@ -3600,13 +3642,10 @@
 "rain": 1795006877.5790248
 },
 "probs": {
-"009bbc917d32": 0.012,
 "046857f27e74": 0.53,
 "0c0174db9c8a": 0.033,
-"105fd39f10f5": 0.02,
-"10b869a4d9f0": 0.052,
-"15ab81158056": 0.036,
-"1c2da33bc2ff": 0.182,
+"0d440e570201": 0.021,
+"10b869a4d9f0": 0.065,
 "2043f3b295ac": 0.027,
 "26a820c8372b": 0.032,
 "3028c7ef59a1": 0.044,
@@ -3614,32 +3653,35 @@
 "3415e2b5a0ee": 0.646,
 "347948819b84": 0.096,
 "34f7607b312e": 0.093,
-"3d6f94b4e508": 0.458,
-"3eca7f1195fd": 0.025,
+"3d6f94b4e508": 0.39,
+"3e47e1835add": 0.012,
 "42b90493f302": 0.094,
 "53d634033416": 0.148,
 "541a579cd04c": 0.677,
-"5517bab70e30": 0.227,
+"580d2fb3916c": 0.412,
 "67afe4062977": 0.097,
-"71eb190c6c14": 0.054,
+"75f11aaf1471": 0.034,
+"76e3448c7563": 0.095,
 "82917c2c9774": 0.066,
 "8888583d4fc1": 0.159,
-"909e17270e74": 0.253,
 "95cda2370aa4": 0.016,
-"a9466ecb2924": 0.027,
+"9c82254cb766": 0.135,
+"a87972ae99e4": 0.042,
+"aae97662904f": 0.133,
 "ad5277bb9e5f": 0.108,
-"b171303eb316": 0.914,
+"adde76037f0b": 0.448,
 "b32845aee4ed": 0.039,
 "b5597ce4624f": 0.04,
-"b8c38ed28b43": 0.025,
+"ba72118e0ab2": 0.074,
 "c066e01bcc6f": 0.188,
 "c453a41c3190": 0.128,
-"c53f865f572b": 0.028,
+"c5a9e5f60b08": 0.027,
 "ce9465f68257": 0.025,
+"d95460bb2a43": 0.328,
+"e0b3fb36b5d1": 0.127,
 "e6f64aebc6ad": 0.052,
-"ed805caf0323": 0.029,
-"f345595b27ba": 0.527,
-"fad8e482ec59": 0.055
+"e877eb97776a": 0.13,
+"f345595b27ba": 0.527
 },
 "sent": [
 {
@@ -5066,65 +5108,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b171303eb316",
-62,
-357,
-9
-],
-[
 "541a579cd04c",
 18,
-32,
+43,
 1
 ],
 [
 "3415e2b5a0ee",
-33,
-200,
+32,
+210,
 2
 ],
 [
 "78b7a026dd97",
 0,
-328,
+338,
 1
 ],
 [
 "046857f27e74",
-14,
-331,
+13,
+341,
 1
 ],
 [
 "f345595b27ba",
 40,
-86,
+96,
 1
 ],
 [
-"3d6f94b4e508",
-18,
-10,
-1
+"adde76037f0b",
+62,
+360,
+8
 ],
 [
 "580d2fb3916c",
-4,
-332,
+3,
+342,
 1
 ],
 [
 "db4d75dd56e3",
 0,
-345,
+355,
+1
+],
+[
+"3d6f94b4e508",
+18,
+21,
 1
 ],
 [
 "d95460bb2a43",
-6,
-289,
+5,
+300,
 2
 ]
 ],
-"top_at": 1795048620.8480532
+"top_at": 1795049232.4592395
 }
