@@ -529,19 +529,6 @@
 "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"27a0f2f68bf8": {
-"coin": "",
-"src": "CryptoRank",
-"srcs": [
-"CryptoRank"
-],
-"t": 1794879566.5910466,
-"t0": 1794870021.0,
-"tgtext": "",
-"title": "Kava Lend Exploit Drains $3.8M in KAVA, Token Plunges Nearly 40%",
-"url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaWg0MlJEZDYwcmtJMG8tSmRyYWN2VEpzV2p1MmszcmRYLUlJTHBrVUh3eVVrNUF4WHFsN1B4cjJqUC01aHFPdmpQUnZKdEJPalZ4M2xVdUZubS1WQXpQNzNNRlo0MFNaUGlaNV9LRmQyMVZEUW5tbXJSa3hxcURNdzlRUXF5UUNGRC16QklIWQ?oc=5",
-"urls": []
-},
 "2933020d1c2a": {
 "coin": "",
 "src": "24/7 Wall St.",
@@ -608,7 +595,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795036643.0,
 "tgtext": "JUST IN: Anthropic to IPO tomorrow at $83 per share, valuing the company at $1.5 trillion, Bloomberg reports.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Anthropic $ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "Anthropic ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.",
@@ -617,15 +604,16 @@
 },
 "347948819b84": {
 "coin": "bitcoin",
-"src": "Altcoin Buzz",
+"src": "Moomoo",
 "srcs": [
-"Altcoin Buzz"
+"Altcoin Buzz",
+"Moomoo"
 ],
-"t": 1795046478.3989182,
+"t": 1795052605.821654,
 "t0": 1795034672.0,
 "tgtext": "",
-"title": "Fed Signals More Rate Hikes as Bitcoin Falls Below $63,000",
-"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5McGpXbi1OOVVsQnVNOHRGSjBBTHRWVHpXLTdQbVV2NnBSZTNUVVJOWTNWNjA2YXhPVmJKQnhKT2JlOWtNdS0wdUNBVjBqMWdSVVA1T2FnRHZKUmpVTGV4bzdCSFVROXcxaDBLeUYzdDZyX3h0SmpwcQ?oc=5",
+"title": "Hawkish pressure from the Federal Reserve pushes Bitcoin below the $63,000 threshold",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTEp4Q3hUMlQwSEU5dy1mNW5NWXRSV3ltNGFCNnhEanNPZ1V4OUtaWG1nTkJlTGZhcC1YV3cwWkhPZEtUOXkzWlhRamhTbHU0T0dZM0dEMGg0SklEQlBOdW1CelNYOHBheEx3b1c3a3JHUkxSZFg2cE5lUUtiVzM2NjZ4UGJ2OUxXMnNZU1pSRUVveHpUUXhVaTVPRHdSYk01Q2pmMDFVTmcycC1uaUZF?oc=5",
 "urls": []
 },
 "3667f9ba74f4": {
@@ -634,7 +622,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795051112.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 $ETH($2.14M).\nhttps://x.com/lookonchain/status/2121635046503419925",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 ETH($2.14M).",
@@ -1130,7 +1118,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795046677.0,
 "tgtext": "\u26a1\ufe0f TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.",
@@ -1478,6 +1466,19 @@
 "url": "https://t.me/wublockchainenglish/26864",
 "urls": []
 },
+"6d235c99331a": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795052910.1815548,
+"t0": 1795052346.0,
+"tgtext": "A mysterious whale is accumulating $PEPE!\n\nNewly created wallet \"0x5011\" withdrew 1.9T $PEPE ($7.15M) from Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
+"title": "A mysterious whale is accumulating PEPE!",
+"url": "https://t.me/lookonchainchannel/11141",
+"urls": []
+},
 "6dc9acc269fe": {
 "coin": "",
 "src": "Lookonchain",
@@ -1490,23 +1491,6 @@
 "title": "After some \"hard work,\" Machi (@machibigbrother) has finally topped the loss leaderboard on @papertrade_xyz with $2.61M in realized losses.",
 "url": "https://t.me/lookonchainchannel/11131",
 "urls": []
-},
-"6e1ef5e7c7db": {
-"coin": "bitcoin",
-"src": "Decrypt",
-"srcs": [
-"Bloomberg.com",
-"Decrypt",
-"Yahoo Finance"
-],
-"t": 1794879871.5822496,
-"t0": 1794858581.0,
-"tgtext": "",
-"title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
-"url": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000",
-"urls": [
-"https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
-]
 },
 "6e7cd3ea0246": {
 "coin": "hyperliquid",
@@ -1873,7 +1857,7 @@
 "Crypto Economy",
 "TronWeekly"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795032000.0,
 "tgtext": "",
 "title": "Bitwise Files For Spot Zcash ETF As ZEC Price Eyes Potential Breakout",
@@ -2176,6 +2160,24 @@
 "https://www.theblock.co/news/defi/2026-11-17-coinbase-ai-defense-deepfake-elon-musk-442918"
 ]
 },
+"97dadf3d0829": {
+"coin": "",
+"src": "Seeking Alpha",
+"srcs": [
+"Cointelegraph",
+"CryptoRank",
+"Seeking Alpha",
+"The National Law Review"
+],
+"t": 1795052910.1815548,
+"t0": 1795031375.0,
+"tgtext": "",
+"title": "Binance gets court order in effort to recover frozen assets after $6.3B hack (BNB-USD:Cryptocurrency)",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVlZTVHZiRXE5dHJEUDlEOXYzUzlLcjl2TUhhS0RBTHFMUUpaQ3RkdEJwT0RuV2dvTEZfeVdVc2pVYnAwNDdRT3VFcEJWTGRBTDMxSzV3M0xaeXpvRVJfZGhpLXZoaElEZm1zMVdLT2dfd0V6eW8xM0taazB6MXg0cXgyTXFmMWl0NmEtTVUwUUFuVHptS3NxWXA2LXVMczFib2gyOUpWY2VlRTFBLXRQaDZn?oc=5",
+"urls": [
+"https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "98ae04cfbd1a": {
 "coin": "",
 "src": "Lookonchain",
@@ -2208,7 +2210,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795051651.0,
 "tgtext": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%\n\nS&P Global Ratings maintained its stablecoin stability assessment of Tether's USDT, the world's largest stablecoin, at 5 (weak), the lowest on its five-point scale. The agency said higher-risk assets, including gold, Bitcoin, equities and loans, were equivalent to 28% of USDT in circulation as of September 30, up from 24% a year earlier, raising concerns about potential undercollateralization. S&P also cited limited disclosure of audited financial statements, reserve segregation and custodians. Tether rejected the assessment, saying the problem lies with S&P's framework, not its reserves. \u2014 link",
 "title": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%",
@@ -2328,19 +2330,6 @@
 "urls": [
 "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
 ]
-},
-"a4ba45b0f76e": {
-"coin": "bitcoin",
-"src": "Yahoo Finance",
-"srcs": [
-"Yahoo Finance"
-],
-"t": 1794879871.5822496,
-"t0": 1794863193.0,
-"tgtext": "",
-"title": "Should You Buy the Bitcoin Dip Now or Dollar-Cost Average Into 2027?",
-"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd08yMVFmaGV5aXdCWlZSdmM4TE54QnZRZ0phb1hHTEVZOXhRbUV3V3Bna0k0UGRIVEc5NnJjb29zWVBjallGQ3lPbVdvREpoMEx6aVRXRnhBVkNLM25SNmMzOEl5MWZfNC15UmllQWFmVEFFQ1licVN5dXZDMElqZzNYVFlrSF9NTmw4eWhtQ2l6d2hoNUE?oc=5",
-"urls": []
 },
 "a5e6b7101708": {
 "coin": "",
@@ -2800,7 +2789,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795044288.0,
 "tgtext": "JUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"",
@@ -3518,7 +3507,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795043488.0,
 "tgtext": "",
 "title": "$2 Billion Crypto Liquidation Storm! Is Apeing's $0.00095 Stage 13 the Best Crypto Presale to Buy Now?",
@@ -3601,7 +3590,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795052296.5728905,
+"t": 1795052910.1815548,
 "t0": 1795052075.0,
 "tgtext": "Pump fun(@Pumpfun) dumped 33,390 $SOL($2.44M) again 2 hours ago!\n\nIn total, pump.fun has sold 5,651,889 $SOL($890M) at an average price of $157.47.\n\nhttps://arkm.com/explorer/entity/pump-fun",
 "title": "Pump fun(@Pumpfun) dumped 33,390 SOL($2.44M) again 2 hours ago!",
@@ -3665,40 +3654,40 @@
 "347948819b84": 0.118,
 "34f7607b312e": 0.093,
 "3667f9ba74f4": 0.871,
-"378cd0c449f2": 0.78,
 "3d6f94b4e508": 0.316,
 "3e47e1835add": 0.012,
 "42b90493f302": 0.053,
+"4c8a4e118891": 0.049,
 "50ac4995e0dc": 0.047,
 "541a579cd04c": 0.353,
 "5517bab70e30": 0.135,
 "67afe4062977": 0.023,
 "6a3f4221dd58": 0.025,
+"6d235c99331a": 0.87,
 "71eb190c6c14": 0.054,
-"72e36b65778b": 0.231,
 "76e3448c7563": 0.095,
 "82917c2c9774": 0.066,
 "8888583d4fc1": 0.335,
 "95cda2370aa4": 0.016,
-"9d2af078145b": 0.386,
+"97dadf3d0829": 0.502,
+"9960cc13f3af": 0.04,
+"9d2af078145b": 0.322,
+"9ee2b49de1e4": 0.169,
 "a9466ecb2924": 0.027,
-"ad5277bb9e5f": 0.061,
 "b32845aee4ed": 0.039,
 "b5597ce4624f": 0.05,
 "b8c38ed28b43": 0.031,
 "bf5a202881dc": 0.171,
-"bf63e506de93": 0.528,
+"bf63e506de93": 0.448,
 "c066e01bcc6f": 0.11,
 "c453a41c3190": 0.128,
-"c53f865f572b": 0.035,
 "d44793a8d280": 0.028,
 "dfa4c57a86b1": 0.095,
-"e0b3fb36b5d1": 0.1,
 "e6f64aebc6ad": 0.028,
 "e877eb97776a": 0.13,
 "f345595b27ba": 0.527,
 "fa08f1f5edeb": 0.034,
-"fba73003d24b": 0.954
+"fba73003d24b": 0.809
 },
 "sent": [
 {
@@ -5135,71 +5124,87 @@
 "pumpfun",
 "sol"
 ]
+},
+{
+"e": [
+"pepe"
+],
+"k": [],
+"t": 1795052605.821654,
+"u": [
+"https://t.me/lookonchainchannel/11141"
+],
+"w": [
+"accumulating",
+"mysterious",
+"pepe",
+"whale"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"fba73003d24b",
+"3667f9ba74f4",
 26,
-4,
+30,
 1
 ],
 [
-"3667f9ba74f4",
-26,
-20,
+"6d235c99331a",
+18,
+9,
 1
 ],
 [
 "3415e2b5a0ee",
-25,
-261,
+23,
+271,
 2
 ],
 [
-"378cd0c449f2",
-62,
-358,
-6
-],
-[
-"bf63e506de93",
-18,
-133,
+"fba73003d24b",
+26,
+14,
 1
 ],
 [
 "f345595b27ba",
 40,
-147,
+157,
 1
 ],
 [
-"9d2af078145b",
-10,
-11,
+"97dadf3d0829",
+62,
+359,
+4
+],
+[
+"bf63e506de93",
+18,
+144,
 1
 ],
 [
 "541a579cd04c",
 18,
-94,
+104,
 1
 ],
 [
 "8888583d4fc1",
-23,
-338,
+22,
+349,
 3
 ],
 [
-"d95460bb2a43",
-0,
-351,
-2
+"9d2af078145b",
+10,
+21,
+1
 ]
 ],
-"top_at": 1795052296.5728905
+"top_at": 1795052910.1815548
 }
