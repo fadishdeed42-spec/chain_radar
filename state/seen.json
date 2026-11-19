@@ -47,7 +47,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795107085.0,
 "tgtext": "BREAKING: Claude AI developer Anthropic $ANT officially begins trading at $1.5 trillion market cap following IPO.\n\n@WatcherGuru\nJUST IN: Over 400 Anthropic employees are now worth more than $100,000,000 each following the $ANT IPO.\n\nAnthropic's seven co-founders are now worth over $20 billion each.\n\nThe average Anthropic employee is worth over $40 million.\n\n@WatcherGuru",
 "title": "Claude AI developer Anthropic ANT officially begins trading at $1.5 trillion market cap following IPO.",
@@ -127,7 +127,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795102086.0,
 "tgtext": "JUST IN: GTA 6 sets new record as the highest-rated video game of all time.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "GTA 6 sets new record as the highest-rated video game of all time.",
@@ -182,22 +182,6 @@
 "title": "Jeff Bezos warns Nvidia NVDA that hiring an outside CEO would have a \"vanishingly small chance of success.\"",
 "url": "https://t.me/WatcherGuru/16131",
 "urls": []
-},
-"0cbc410dcbb9": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Cointelegraph",
-"Watcher.Guru"
-],
-"t": 1794939757.1240149,
-"t0": 1794918260.0,
-"tgtext": "JUST IN: Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.\n\n@WatcherGuru",
-"title": "Revolut plans to launch four blockchain-based funds allowing users to invest in private markets with fractional amounts.",
-"url": "https://t.me/WatcherGuru/16088",
-"urls": [
-"https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "0ce42adce040": {
 "coin": "",
@@ -381,7 +365,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795108429.0,
 "tgtext": "\ud83d\udd25 INTERESTING: Sam Bankman-Fried misses out on a $37 billion windfall in Anthropic\u2019s IPO.\n\n2021: Sam Bankman-Fried puts $500M into Anthropic.\n\n2022: FTX collapses, and customer lose $8B. SBF gets 25 years.\n\n2024: The FTX estate sells the stake for about $1.34B.\n\n2025: US government sells the Anthropic shares it seized from SBF's co-conspirators, Caroline Ellison and Nishad Singh, for $627M.\n\nToday: At Anthropic's $83 IPO price, SBF's old stake alone would have been worth more than 4x ($37b) what FTX customers lost.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: Sam Bankman-Fried misses out on a $37 billion windfall in Anthropic\u2019s IPO.",
@@ -618,7 +602,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795097323.0,
 "tgtext": "A hacker is looking to long $21.51M worth of $ETH at $1,551\u2013$1,568. Will he get his wish?\n\nSomeone (likely a hacker) received 5,270 $ETH from #TornadoCash and sold it for 9.51M $USDC at $1,805.\n\nHe then deposited the 9.51M $USDC into Hyperliquid and placed limit orders to long 13,800 $ETH ($21.51M) at prices between $1,551 and $1,568.\n\nhttps://arkm.com/explorer/address/0xc7e82313239a33c37373E870347f7088ef852aAA\nhttps://hypurrscan.io/address/0xc7d0b62b029D099A1982fbaC6e8Eb31AaDc3E161#orders",
 "title": "A hacker is looking to long $21.51M worth of ETH at $1,551\u2013$1,568. Will he get his wish?",
@@ -638,6 +622,22 @@
 "title": "The Binance hacker just moved another 137,602 ETH ($248.23M) for laundering.",
 "url": "https://t.me/lookonchainchannel/11153",
 "urls": []
+},
+"2e7730379f91": {
+"coin": "usd-coin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Decrypt"
+],
+"t": 1795112916.9460027,
+"t0": 1795110938.0,
+"tgtext": "\ud83d\udea8 UPDATE: Binance Wallet says it will refund all USDC to participants in its Anthropic IPO campaign and airdrop tokenized shares and $1 million in ANTR tokens following allocation issues.\n\nNews | Markets | YouTube",
+"title": "Binance Wallet says it will refund all USDC to participants in its Anthropic IPO campaign and airdrop tokenized shares and $1 million in ANTR tokens following allocation issues.",
+"url": "https://t.me/cointelegraph/73395",
+"urls": [
+"https://decrypt.co/383642/protesters-arrested-nasdaq-anthropic-ipo-ai-bubble-risks"
+]
 },
 "313edfb1daf8": {
 "coin": "",
@@ -1079,7 +1079,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795093325.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -1357,7 +1357,7 @@
 "CryptoSlate",
 "Decrypt"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795099519.0,
 "tgtext": "\ud83d\udea8 JUST IN: Anthropic $ANT shares open at $111.50, above their IPO price of $83.\n\nNews | Markets | YouTube",
 "title": "Anthropic Tops SpaceX's Initial IPO With $81 Billion Deal: Where the Money Went",
@@ -1726,7 +1726,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2167,7 +2167,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795112306.0426714,
+"t": 1795112916.9460027,
 "t0": 1795103401.0,
 "tgtext": "\ud83d\udea8 ALERT: JPMorgan says third-party vendors were targeted in a cyberattack that may have exposed customer names and email addresses, with no disruption to its services.\n\nNews | Markets | YouTube",
 "title": "JPMorgan says third-party vendors were targeted in a cyberattack that may have exposed customer names and email addresses, with no disruption to its services.",
@@ -3417,6 +3417,26 @@
 "url": "https://t.me/lookonchainchannel/11140",
 "urls": []
 },
+"fe3cb89bb212": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"Coin Edition",
+"CoinDesk",
+"Decrypt",
+"Law360",
+"Yahoo Finance"
+],
+"t": 1795112916.9460027,
+"t0": 1795091760.0,
+"tgtext": "",
+"title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+"url": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft",
+"urls": [
+"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
+"https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
+]
+},
 "fed8a341d807": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3457,40 +3477,40 @@
 "0617b2ebc813": 0.52,
 "0fd7c2f5a0c4": 0.071,
 "1222f4e37d32": 0.03,
-"16525242a3d5": 0.071,
+"16525242a3d5": 0.016,
 "18184f8d240f": 0.155,
 "1b7b1bb4d318": 0.425,
 "2508638a8e81": 0.007,
 "26eabbc44024": 0.009,
-"2c11102c8f09": 0.024,
 "2dd67e4dc268": 0.015,
-"2e7730379f91": 0.027,
-"36572205cf2b": 0.186,
+"2e7730379f91": 0.335,
+"36572205cf2b": 0.056,
 "3de03de7f3f8": 0.056,
 "437a23df8451": 0.067,
 "668afe084c4c": 0.087,
+"6848e8bc2971": 0.036,
 "699be517d100": 0.347,
 "6bbbe7587efd": 0.017,
-"7007e6f92159": 0.011,
-"710daf795c43": 0.019,
+"710daf795c43": 0.08,
 "71e5bf3ce94e": 0.018,
 "75d59ad03f21": 0.008,
 "817ef4cb417f": 0.015,
 "84c7ac37bdd1": 0.04,
-"8523697f833d": 0.748,
+"8b145259ffd4": 0.005,
 "8b5e37b8dea4": 0.038,
 "9278ada99c5b": 0.182,
 "96600c0faca4": 0.013,
-"9b1299151b1e": 0.053,
+"9b1299151b1e": 0.129,
 "a32e78011cf3": 0.11,
 "a3adb051bf87": 0.076,
-"b5717dc1b2c0": 0.976,
-"b85dba2affca": 0.164,
+"a56b49fbd9c2": 0.295,
 "ccf3af921b4a": 0.018,
 "d9f12857e375": 0.014,
 "e4ac929de83b": 0.045,
 "e56e9701f1d4": 0.006,
-"e71ee57af204": 0.055
+"e71ee57af204": 0.055,
+"fe3cb89bb212": 0.416,
+"ff2e905641a4": 0.007
 },
 "sent": [
 {
@@ -4968,65 +4988,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b5717dc1b2c0",
-62,
-359,
-7
-],
-[
 "8523697f833d",
-10,
-290,
+8,
+300,
 1
 ],
 [
 "0617b2ebc813",
 22,
-170,
+181,
 1
 ],
 [
 "2b7361eedf02",
-7,
-250,
+6,
+260,
 1
 ],
 [
 "1b7b1bb4d318",
 25,
-65,
+75,
 1
 ],
 [
+"fe3cb89bb212",
+62,
+353,
+5
+],
+[
 "699be517d100",
-51,
-213,
+50,
+223,
 4
 ],
 [
 "50a01deef238",
 0,
-316,
+327,
 1
+],
+[
+"2e7730379f91",
+60,
+33,
+2
 ],
 [
 "02b18f4c0e9a",
 10,
-87,
+97,
 1
 ],
 [
 "a56b49fbd9c2",
 10,
-148,
-1
-],
-[
-"0451235c9781",
-19,
-223,
+159,
 1
 ]
 ],
-"top_at": 1795112306.0426714
+"top_at": 1795112916.9460027
 }
