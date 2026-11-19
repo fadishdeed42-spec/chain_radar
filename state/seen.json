@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1794973155.1727364,
 1794982656.2403831,
 1794984809.9233978,
 1794985115.828342,
@@ -19,7 +18,8 @@
 1795010872.4337025,
 1795015189.3757608,
 1795018108.998216,
-1795035385.7901597
+1795035385.7901597,
+1795060190.5430658
 ],
 "menu": {
 "03677aa14f0c": {
@@ -68,7 +68,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795053304.0,
 "tgtext": "AguilaTrades(@AguilaTrades) closed his $BTC short 1 hour ago, making $1.37M in profit.\n\nHe then flipped long, opening a 40x long on 1,000 $BTC ($60.66M), and is now sitting on $500K in unrealized losses.\n\nLiquidation price: $59,324.4\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) closed his BTC short 1 hour ago, making $1.37M in profit.",
@@ -241,22 +241,6 @@
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkx1MlNCYXN0czBvUFphREJfWWxkcEJWTEFMRWxXNHljUTBkVS1LeFlOMkFLeS01TDdpSUo4Z0xScXl5LWtrLV9WOTJ4NEh3WW4tOENzcnRyWXhhMWVyVk45OEVKRmlrR3laai1uQ3pLdjBUQWtxRlVRQ0NxRHFaMGEzMmZ1Y2lRWTl0cl9pdzVqQ2htaHhNRGRYREEtUDFaaElXNnlJcXNmemRIX3FwNjNCUUs5TVE3LUJzNHFKMTRkUThORElnYWNB?oc=5",
 "urls": [
 "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
-]
-},
-"10ba68ce0b24": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Dealroom"
-],
-"t": 1794887448.3872936,
-"t0": 1794877325.0,
-"tgtext": "\ud83d\udea8 ALERT: Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.\n\nNews | Markets | YouTube",
-"title": "Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.",
-"url": "https://t.me/cointelegraph/73332",
-"urls": [
-"https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "119860455eaa": {
@@ -458,6 +442,19 @@
 "url": "https://t.me/WatcherGuru/16115",
 "urls": []
 },
+"2107a89d7373": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795060493.9419672,
+"t0": 1795060019.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C\n\nNews | Markets | YouTube",
+"title": "BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C",
+"url": "https://t.me/cointelegraph/73379",
+"urls": []
+},
 "2292380ae588": {
 "coin": "",
 "src": "Lookonchain",
@@ -654,7 +651,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795051112.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 $ETH($2.14M).\nhttps://x.com/lookonchain/status/2121635046503419925",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 ETH($2.14M).",
@@ -981,7 +978,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795058934.0,
 "tgtext": "It's liquidation day again!\n\nSix whales on Hyperliquid got liquidated a total of 30 times, with 618.24 $BTC ($38.73M) liquidated at prices ranging from $63,364 to $62,055.\n\nWallets:\n0x6c2c8c6e60dfaf81145ffad13736a4847ad4a201\n0x448a4f64f5dc17817f23f5d1bf488db19359e050\n0xff042b176367926e1ce92071957f6a0a4cdce2f9\n0x4b62652d2f176bf5422c8157c5b37984837d57ca\n0xc4942b0bc5ecb9c74b22ec80c6a0b411bf1a0bab\n0x4cca6c017aaa120914bc8f9678c288c95bdd3f1c",
 "title": "It's liquidation day again!",
@@ -1163,7 +1160,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795058970.4676788,
+"t": 1795060493.9419672,
 "t0": 1795046677.0,
 "tgtext": "\u26a1\ufe0f TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.",
@@ -1293,7 +1290,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795057969.0,
 "tgtext": "Whales are accumulating $ETH!\n\nFour wallets withdrew a total of 13,408 $ETH ($23.73M) from FalconX, Galaxy Digital, and OKX.\n\nhttps://arkm.com/explorer/address/0xBB09dF7B7464d69A9Da14EA1BfF2FE01cC64939e\nhttps://arkm.com/explorer/address/0xEaBcf5ef6FC3A8Bd19feE50EFB28efB9c6b1e004\nhttps://arkm.com/explorer/address/0xfbe1b73257A02882698a36aade6652B210D98B60\nhttps://arkm.com/explorer/address/0xB93c76f50BAd2810fF821af81Be93c95D1aCe29D",
 "title": "Whales are accumulating ETH!",
@@ -1378,19 +1375,6 @@
 "tgtext": "",
 "title": "Tether\u2019s Bitcoin Firm Bought the Dip While Its Own Stock Sank",
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWx0dzlKWFhUYTFiWUh2d1dOQjhoQW1UZjI0OHY0V2lqS1ZURWp3RE0xRnowb1h3Zjk0RC1GZ1JheUJaRmFQb1lMVXgxdDUwcHhqQXJEemMxa3RVb2RVVkRyREYwS3BjSWpDWGFrUzFhcWdEYjJ3?oc=5",
-"urls": []
-},
-"61a67a9f1643": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794887448.3872936,
-"t0": 1794866041.0,
-"tgtext": "\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
-"title": "US stock market sheds $1.5 trillion in value today.",
-"url": "https://t.me/cointelegraph/73327",
 "urls": []
 },
 "6264642e6974": {
@@ -1513,7 +1497,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795052346.0,
 "tgtext": "A mysterious whale is accumulating $PEPE!\n\nNewly created wallet \"0x5011\" withdrew 1.9T $PEPE ($7.15M) from Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
 "title": "A mysterious whale is accumulating PEPE!",
@@ -2779,7 +2763,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795044288.0,
 "tgtext": "JUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"\n\n@WatcherGuru\n\ud83d\udea8 NOW: Elon Musk says, \u201cThere\u2019s no one that can really replace Jensen Huang.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"",
@@ -3478,7 +3462,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795043488.0,
 "tgtext": "",
 "title": "$2 Billion Crypto Liquidation Storm! Is Apeing's $0.00095 Stage 13 the Best Crypto Presale to Buy Now?",
@@ -3566,7 +3550,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795059883.7753794,
+"t": 1795060493.9419672,
 "t0": 1795052075.0,
 "tgtext": "Pump fun(@Pumpfun) dumped 33,390 $SOL($2.44M) again 2 hours ago!\n\nIn total, pump.fun has sold 5,651,889 $SOL($890M) at an average price of $157.47.\n\nhttps://arkm.com/explorer/entity/pump-fun",
 "title": "Pump fun(@Pumpfun) dumped 33,390 SOL($2.44M) again 2 hours ago!",
@@ -3611,34 +3595,34 @@
 "04c94dee003f": 0.566,
 "2043f3b295ac": 0.036,
 "20d219c45de2": 0.079,
+"2107a89d7373": 0.612,
 "27ed734ce8cc": 0.022,
-"2a1898f59223": 0.06,
+"2a1898f59223": 0.075,
 "34f7607b312e": 0.111,
-"3667f9ba74f4": 0.923,
+"3667f9ba74f4": 0.55,
 "395e85382288": 0.081,
 "3d6f94b4e508": 0.307,
-"44c9bb3fc70c": 0.841,
+"3dac7fbe97bf": 0.025,
+"44c9bb3fc70c": 0.8,
 "46ee4fccebd7": 0.029,
 "50ac4995e0dc": 0.045,
-"541a579cd04c": 0.344,
-"59ab32dde73b": 0.578,
-"6264642e6974": 0.573,
-"67afe4062977": 0.057,
+"541a579cd04c": 0.668,
+"59ab32dde73b": 0.498,
+"67afe4062977": 0.031,
 "6d235c99331a": 0.778,
 "743e110f63f0": 0.068,
 "76e3448c7563": 0.113,
-"78c5f6ee2801": 0.445,
+"78c5f6ee2801": 0.377,
 "7d0a69ddd36d": 0.057,
 "82917c2c9774": 0.153,
 "8725a6609761": 0.028,
 "93d05828f18d": 0.079,
 "95cda2370aa4": 0.022,
-"9960cc13f3af": 0.053,
-"9d2af078145b": 0.248,
+"9960cc13f3af": 0.131,
+"9d2af078145b": 0.079,
 "b5597ce4624f": 0.093,
 "bf5a202881dc": 0.165,
 "bf63e506de93": 0.734,
-"c066e01bcc6f": 0.13,
 "c45630dc8cb3": 0.014,
 "ce9465f68257": 0.024,
 "d44793a8d280": 0.027,
@@ -5067,71 +5051,101 @@
 "day",
 "liquidation"
 ]
+},
+{
+"e": [
+"americans",
+"big",
+"center",
+"disruption",
+"threat",
+"trump"
+],
+"k": [],
+"t": 1795060190.5430658,
+"u": [
+"https://t.me/cointelegraph/73379"
+],
+"w": [
+"administration",
+"americans",
+"big",
+"center",
+"cybercrimes",
+"disruption",
+"fight",
+"fraud",
+"launches",
+"other",
+"target",
+"threat",
+"trump"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"3667f9ba74f4",
-26,
-146,
-1
-],
-[
 "44c9bb3fc70c",
 25,
-16,
+26,
 1
 ],
 [
 "6d235c99331a",
 18,
-126,
+136,
 1
 ],
 [
 "bf63e506de93",
-18,
-260,
+16,
+270,
 2
 ],
 [
 "fba73003d24b",
 26,
-130,
+140,
 1
 ],
 [
-"59ab32dde73b",
-18,
-32,
+"541a579cd04c",
+12,
+230,
 1
 ],
 [
-"6264642e6974",
-2,
-360,
+"2107a89d7373",
+36,
+8,
 1
 ],
 [
 "04c94dee003f",
 16,
-110,
+120,
 1
 ],
 [
-"78c5f6ee2801",
-10,
-12,
+"3667f9ba74f4",
+26,
+156,
+1
+],
+[
+"59ab32dde73b",
+18,
+42,
 1
 ],
 [
 "f345595b27ba",
-28,
-273,
+27,
+283,
 1
 ]
 ],
-"top_at": 1795059883.7753794
+"top_at": 1795060493.9419672
 }
