@@ -17,7 +17,8 @@
 1795097405.5239472,
 1795104964.681204,
 1795108259.920354,
-1795108643.1302652
+1795108643.1302652,
+1795108949.97664
 ],
 "menu": {
 "01087b69fa27": {
@@ -85,7 +86,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795108030.9372478,
+"t": 1795109253.5843813,
 "t0": 1795098932.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 JPMorgan excepts the Fed to raise interest rates at its next three meetings.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 JPMorgan excepts the Fed to raise interest rates at its next three meetings.",
@@ -139,7 +140,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795102086.0,
 "tgtext": "JUST IN: GTA 6 sets new record as the highest-rated video game of all time.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "GTA 6 sets new record as the highest-rated video game of all time.",
@@ -303,7 +304,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795087800.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -407,7 +408,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795108429.0,
 "tgtext": "\ud83d\udd25 INTERESTING: Sam Bankman-Fried misses out on a $37 billion windfall in Anthropic\u2019s IPO.\n\n2021: Sam Bankman-Fried puts $500M into Anthropic.\n\n2022: FTX collapses, and customer lose $8B. SBF gets 25 years.\n\n2024: The FTX estate sells the stake for about $1.34B.\n\n2025: US government sells the Anthropic shares it seized from SBF's co-conspirators, Caroline Ellison and Nishad Singh, for $627M.\n\nToday: At Anthropic's $83 IPO price, SBF's old stake alone would have been worth more than 4x ($37b) what FTX customers lost.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: Sam Bankman-Fried misses out on a $37 billion windfall in Anthropic\u2019s IPO.",
@@ -644,7 +645,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795097323.0,
 "tgtext": "A hacker is looking to long $21.51M worth of $ETH at $1,551\u2013$1,568. Will he get his wish?\n\nSomeone (likely a hacker) received 5,270 $ETH from #TornadoCash and sold it for 9.51M $USDC at $1,805.\n\nHe then deposited the 9.51M $USDC into Hyperliquid and placed limit orders to long 13,800 $ETH ($21.51M) at prices between $1,551 and $1,568.\n\nhttps://arkm.com/explorer/address/0xc7e82313239a33c37373E870347f7088ef852aAA\nhttps://hypurrscan.io/address/0xc7d0b62b029D099A1982fbaC6e8Eb31AaDc3E161#orders",
 "title": "A hacker is looking to long $21.51M worth of ETH at $1,551\u2013$1,568. Will he get his wish?",
@@ -1054,19 +1055,6 @@
 "url": "https://t.me/WatcherGuru/16112",
 "urls": []
 },
-"4c39818a7e9d": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794936393.2495923,
-"t0": 1794934274.0,
-"tgtext": "JUST IN: Grand Theft Auto VI (GTA 6) surpasses an estimated $1,500,000,000 in revenue two days before its official release.\n\n@WatcherGuru",
-"title": "Grand Theft Auto VI (GTA 6) surpasses an estimated $1,500,000,000 in revenue two days before its official release.",
-"url": "https://t.me/WatcherGuru/16105",
-"urls": []
-},
 "4eea346426cd": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1410,7 +1398,7 @@
 "CryptoSlate",
 "Decrypt"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795099519.0,
 "tgtext": "\ud83d\udea8 JUST IN: Anthropic $ANT shares open at $111.50, above their IPO price of $83.\n\nNews | Markets | YouTube",
 "title": "Anthropic Tops SpaceX's Initial IPO With $81 Billion Deal: Where the Money Went",
@@ -1779,7 +1767,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2177,7 +2165,7 @@
 "Crypto News",
 "Decrypt"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795094295.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds toward $64K ahead of Anthropic\u2019s $107B stock offering as AI altcoins rally",
@@ -2307,20 +2295,6 @@
 "tgtext": "",
 "title": "Dundee hacker Tyler Buchanan gets six years in US prison over SIM-swap crypto thefts tied to Scattered Spider",
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkx1MlNCYXN0czBvUFphREJfWWxkcEJWTEFMRWxXNHljUTBkVS1LeFlOMkFLeS01TDdpSUo4Z0xScXl5LWtrLV9WOTJ4NEh3WW4tOENzcnRyWXhhMWVyVk45OEVKRmlrR3laai1uQ3pLdjBUQWtxRlVRQ0NxRHFaMGEzMmZ1Y2lRWTl0cl9pdzVqQ2htaHhNRGRYREEtUDFaaElXNnlJcXNmemRIX3FwNjNCUUs5TVE3LUJzNHFKMTRkUThORElnYWNB?oc=5",
-"urls": []
-},
-"a9d8ad7faa75": {
-"coin": "bitcoin",
-"src": "NDTV",
-"srcs": [
-"NDTV",
-"www.tokenpost.com"
-],
-"t": 1794936393.2495923,
-"t0": 1794914808.0,
-"tgtext": "",
-"title": "Bitcoin Could Lose $500 Billion In Value If Price Falls Below $40,000. What's Really Driving The Crash?",
-"url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeWxqMnNka3JsOXNxVHc3WVpPR1llYW5adWMwYXI0Ulh1Rmc4VS12d0MwM3ltQmlHdFg1SmJSM3RLYXN3eGM5Q2NvTnpjWDVFR2REME5WNGpiWnZfU3czbFlpbGdscHNxTjlycnU5VGFCZ1FtQlludm9UX1psaVJ5bkptRmQ5aGNFNnV4WUo0QTAzM1JkUHUyWW9VMkFIMHd1c1BZZ3BQdWdmZk1Xd0pKU01FSURhVkNWZjFhS3UtNWJMeG1mNmI2Z3laczBsdWcyNXfSAdoBQVVfeXFMTnhVTzI3cHptcC1jaTBjZUVzaDZUS2tnWjJJWWdURW5aQjdqclFQSVBNTTFKaTYxZ2VaWEpOY1dwRlEtc25nZkVzWEViWW1JVEdSc2NnZGNVZk45ZEsyeXhpY21ucVVXV2g4MWRoalUxbTR4Qnk5WnByQzQxOGRwWkhfV296YWpBUkQtVkQxamV0M1FHRnJqUHdmSVM3dFZVVlJYb1V6UXNqM05VSlRLNHUySC1lNEQ4U2d0MVlFeXc0X1BiQjc0eEFBSkZYZzB1UE5jTThBTUNpaFE?oc=5",
 "urls": []
 },
 "aa406aa465d1": {
@@ -2549,7 +2523,7 @@
 "Technology Org",
 "The 420.in"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795090151.0,
 "tgtext": "",
 "title": "\u200bAbu Dhabi Court Orders Freeze on Rs. 60,775 Crore Crypto Assets Linked to Binance Hack",
@@ -2636,7 +2610,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795108643.1302652,
+"t": 1795109253.5843813,
 "t0": 1795107867.0,
 "tgtext": "\ud83d\udea8 BREAKING: Anthropic $ANT is now the most valuable IPO launch in history.\n\nThe biggest valuations at IPO:\n\n1. Anthropic (2026): ~$2T\n2. SpaceX (2026): $1.77T\n3. Saudi Aramco (2019): ~$1.7T\n4. SK hynix (2026): $1.1T\n5. Alibaba (2014): $168B\n6. Facebook (2012): $104B\n\nAnthropic also raised $81.3B, beating SpaceX's $75B record.\n\nTwo of the three most valuable IPOs in history came in the same year.\n\nNews | Markets | YouTube",
 "title": "Anthropic ANT is now the most valuable IPO launch in history.",
@@ -3096,7 +3070,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795108643.1302652,
+"t": 1795108949.97664,
 "t0": 1795107333.0,
 "tgtext": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-11-19\n\nTo expand the list of trading choices offered on Binance Spot and enhance users\u2019 trading experience, Binance Exchange will open trading and Rebalancing Bots services for the bStocks Anthropic (ANTB) trading pair according to the following schedule:\n\n- Trading pair: ANTB/USDT at 2026-11-19 18:00 (UTC)\n- Rebalancing Bots: Will be enabled within 24 hours of it being listed on Spot\n\n\ud83d\udc49\ud83c\udffbLearn more here\nBinance Will Add Anthropic (ANTB) bStocks Tokenized Securities as Collateral Asset - 2026-11-19\n\nBinance Cross Margin, Portfolio Margin, and Portfolio Margin Pro will add Anthropic (ANTB) bStocks token as eligible collateral assets at 2026-11-19 18:00 (UTC). The corresponding bStocks trading pair(s) will also be available for margin trading. Eligible users will be able to use these bStocks tokens as collateral in Margin, expanding their collateral options for margin trading.\n\n\ud83d\udc49\ud83c\udffbLearn more here",
 "title": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-11-19",
@@ -3486,19 +3460,18 @@
 },
 "probs": {
 "0451235c9781": 0.626,
+"04639834f24e": 0.098,
 "0617b2ebc813": 0.765,
 "08095fb543bb": 0.036,
 "0ee472a85f7b": 0.68,
 "0fd7c2f5a0c4": 0.013,
-"1230e7f1af48": 0.043,
 "16525242a3d5": 0.186,
-"16819ff6353a": 0.129,
-"1b7b1bb4d318": 0.934,
-"2508638a8e81": 0.025,
+"1b7b1bb4d318": 0.745,
 "2b7361eedf02": 0.69,
 "2dd67e4dc268": 0.078,
 "36572205cf2b": 0.406,
 "3acac26bf6de": 0.375,
+"3d8f19eaf30f": 0.031,
 "437a23df8451": 0.495,
 "668afe084c4c": 0.284,
 "699be517d100": 0.744,
@@ -3507,23 +3480,24 @@
 "7007e6f92159": 0.065,
 "708126e8827b": 0.036,
 "71e5bf3ce94e": 0.051,
+"7267aaf276de": 0.03,
 "817ef4cb417f": 0.042,
 "8523697f833d": 0.899,
 "8b5e37b8dea4": 0.106,
 "8e9af5e98c1d": 0.095,
-"9278ada99c5b": 0.32,
+"9278ada99c5b": 0.399,
 "96600c0faca4": 0.037,
 "9b1299151b1e": 0.142,
 "9d42f7499329": 0.128,
 "a0e0667ffc3e": 0.077,
 "a32e78011cf3": 0.627,
 "a3adb051bf87": 0.197,
-"a42add1c955d": 0.04,
 "a473646a0839": 0.044,
 "b5a0a77e620f": 0.885,
 "ccf3af921b4a": 0.093,
 "d2dbc08906e0": 0.154,
-"e4ac929de83b": 0.7,
+"da75fa2b528b": 0.024,
+"e4ac929de83b": 0.324,
 "e56e9701f1d4": 0.032
 },
 "sent": [
@@ -4923,71 +4897,103 @@
 "sam",
 "windfall"
 ]
+},
+{
+"e": [
+"adds",
+"antb",
+"anthropic",
+"binance",
+"convert",
+"exchange",
+"pairs",
+"spot",
+"trading"
+],
+"k": [],
+"t": 1795108949.97664,
+"u": [
+"https://t.me/binance_announcements/9150",
+"https://t.me/binance_announcements/9151"
+],
+"w": [
+"2026",
+"adds",
+"antb",
+"anthropic",
+"binance",
+"bstocks",
+"convert",
+"exchange",
+"pairs",
+"spot",
+"trading"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"bc3671fa5257",
-10,
-13,
-1
-],
-[
-"1b7b1bb4d318",
-25,
-4,
-1
-],
-[
 "8523697f833d",
-18,
-229,
+17,
+239,
 1
 ],
 [
 "b5a0a77e620f",
-68,
-308,
+67,
+318,
 6
 ],
 [
 "0617b2ebc813",
 22,
-109,
+119,
+1
+],
+[
+"1b7b1bb4d318",
+25,
+14,
 1
 ],
 [
 "699be517d100",
 55,
-152,
+162,
 4
 ],
 [
-"e4ac929de83b",
-26,
-22,
-1
-],
-[
 "2b7361eedf02",
-15,
-189,
+14,
+199,
 1
 ],
 [
 "0ee472a85f7b",
-26,
-347,
+25,
+358,
 2
 ],
 [
 "a32e78011cf3",
-48,
-239,
+46,
+249,
 5
+],
+[
+"0451235c9781",
+24,
+172,
+1
+],
+[
+"bc3671fa5257",
+10,
+23,
+1
 ]
 ],
-"top_at": 1795108643.1302652
+"top_at": 1795109253.5843813
 }
