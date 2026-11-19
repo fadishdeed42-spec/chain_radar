@@ -1,0 +1,69 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.4,
+ "seed": 7,
+ "scenes": [
+  [
+   "Sam Bankman-Fried lost sixteen billion dollars in days.",
+   0.72,
+   0.2
+  ],
+  [
+   "He ran F T X, one of the biggest crypto exchanges on Earth.",
+   0.45,
+   0.2
+  ],
+  [
+   "November sixth, twenty twenty-two. Binance's boss tweets he will sell all his F T X tokens.",
+   0.45,
+   0.2
+  ],
+  [
+   "Customers rush to pull their money out. F T X can't pay.",
+   0.45,
+   0.2
+  ],
+  [
+   "Binance offers to buy F T X, then walks away.",
+   0.45,
+   0.2
+  ],
+  [
+   "November eleventh: F T X goes bankrupt. About eight billion dollars of customer money is missing.",
+   0.72,
+   0.2
+  ],
+  [
+   "He was sentenced to twenty-five years in prison.",
+   0.5,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.55,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Sam Bankman-Fried lost sixteen billion dollars in days.",
+  "He ran F T X, one of the biggest crypto exchanges on Earth.",
+  "November sixth, twenty twenty-two. Binance's boss tweets he will sell all his F T X tokens.",
+  "Customers rush to pull their money out. F T X can't pay.",
+  "Binance offers to buy F T X, then walks away.",
+  "November eleventh: F T X goes bankrupt. About eight billion dollars of customer money is missing.",
+  "He was sentenced to twenty-five years in prison.",
+  "Subscribe for more stories."
+ ]
+}
