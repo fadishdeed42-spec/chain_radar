@@ -725,6 +725,7 @@ def zsteps(t, i):
 
 
 def scene_cam(t, i):
+    if FILM: return np.eye(3)                                             # Nov 20: the film has its own camera; zooming it pushed labels into the captions and off the edges
     s0, e = P(i), max(P(i) + .5, PARA[i][1])
     p = smooth(seg(t, s0, e))
     d = 1 if i % 2 == 0 else -1
