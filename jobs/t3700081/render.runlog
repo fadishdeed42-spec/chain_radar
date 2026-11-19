@@ -12,7 +12,8 @@ $ ffmpeg -y -v error -i jobs/t3700081/short.mp4 -c:v libx264 -crf 19 -maxrate 90
 video check: []
 qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 ⚠️ <b>Video check: please look at</b>
-⚠️ text: text cut off at 0s (Text at top is glitching off-s)
+⚠️ text: text cut off at 0s (Glitch text at top is cut off.), 14s (Pie chart with 80 percent, tex)
+⚠️ match: picture may not match the words at 0s (Glitch text at top is cut off.)
 ✅ 6 checks passed (format, hook frame, loudness, motion, picture, sync)
 $ ffmpeg -y -v error -ss 1.32 -i jobs/t3700081/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700081/sh_00.png
 $ ffmpeg -y -v error -ss 3.96 -i jobs/t3700081/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700081/sh_01.png
