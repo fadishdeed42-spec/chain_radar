@@ -263,7 +263,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795087800.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -516,7 +516,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795079817.0,
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
@@ -591,7 +591,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795097323.0,
 "tgtext": "A hacker is looking to long $21.51M worth of $ETH at $1,551\u2013$1,568. Will he get his wish?\n\nSomeone (likely a hacker) received 5,270 $ETH from #TornadoCash and sold it for 9.51M $USDC at $1,805.\n\nHe then deposited the 9.51M $USDC into Hyperliquid and placed limit orders to long 13,800 $ETH ($21.51M) at prices between $1,551 and $1,568.\n\nhttps://arkm.com/explorer/address/0xc7e82313239a33c37373E870347f7088ef852aAA\nhttps://hypurrscan.io/address/0xc7d0b62b029D099A1982fbaC6e8Eb31AaDc3E161#orders",
 "title": "A hacker is looking to long $21.51M worth of ETH at $1,551\u2013$1,568. Will he get his wish?",
@@ -808,7 +808,7 @@
 "srcs": [
 "Haberler.com"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795088795.0,
 "tgtext": "",
 "title": "Massive scam under the promise of crypto investment! 3.2 billion lira in movement across accounts",
@@ -1723,7 +1723,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2441,7 +2441,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795083014.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.\n\nIs he planning to buy the dip on these tokens?\n\nhttps://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC.",
@@ -2812,7 +2812,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795082596.0,
 "tgtext": "Two whales unstaked a total of 2.31M $SOL ($169.4M) and deposited it into #CoinbasePrime today.\n\nhttps://arkm.com/explorer/address/8o7NN85Z34GMMBWU9L2dx42o6nKG8CPBfWcytBHqTxDf\nhttps://arkm.com/explorer/address/4EAjRbkPcBdb5VKYGwjbiAu3KEmv6QgoBkPgMiyE8Qgm",
 "title": "Two whales unstaked a total of 2.31M SOL ($169.4M) and deposited it into CoinbasePrime today.",
@@ -2913,24 +2913,6 @@
 "url": "https://t.me/cointelegraph/73356",
 "urls": [
 "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback"
-]
-},
-"d313f36ab402": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"CoinDesk",
-"Pluang",
-"Wu Blockchain",
-"www.tokenpost.com"
-],
-"t": 1794925451.9275858,
-"t0": 1794904279.0,
-"tgtext": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC\n\nAddresses linked to the Binance hack transferred 74,881 ETH worth approximately $137 million within one hour on November 17, according to on-chain analyst Ember. Separately, Arkham reported that wallets linked to the September 24 Bitget hack moved 2,266.68 BTC worth around $161 million over the past 11 days, with most funds sent to mixing services and CoinJoin addresses. Some assets were transferred to newly untagged addresses, leaving their ultimate destination unclear. \u2014 link",
-"title": "Binance Hack-Linked Wallets Move $137M in ETH, Bitget Hackers Transfer $161M in BTC",
-"url": "https://t.me/wublockchainenglish/26858",
-"urls": [
-"https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
 ]
 },
 "d73da1dc365e": {
@@ -3048,7 +3030,7 @@
 "Law360",
 "Technology Org"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795077839.0,
 "tgtext": "",
 "title": "Abu Dhabi Ruling Gives Binance a Legal Path to Reclaim Billions Frozen in Its Hack",
@@ -3168,7 +3150,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795085043.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Samsung and TSMC suspend some chip shipments to China following new US restrictions.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Samsung and TSMC suspend some chip shipments to China following new US restrictions.",
@@ -3353,7 +3335,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795098138.2263396,
+"t": 1795098859.2298057,
 "t0": 1795078947.0,
 "tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
@@ -3437,44 +3419,44 @@
 "probs": {
 "01ba790c435d": 0.048,
 "0783cb382ab3": 0.071,
-"090e056b3d16": 0.152,
+"090e056b3d16": 0.087,
 "0bdd6579777f": 0.029,
 "0ee472a85f7b": 0.848,
 "1230e7f1af48": 0.114,
 "16819ff6353a": 0.299,
 "17ac78650387": 0.128,
 "25cd150dcc20": 0.911,
-"280ebe6a47b6": 0.011,
 "286747abe283": 0.359,
 "2ac361507fce": 0.049,
-"2b7361eedf02": 0.877,
+"2b7361eedf02": 0.967,
 "3aa54263908c": 0.048,
 "3acac26bf6de": 0.611,
 "40da4e435320": 0.071,
+"43493023e661": 0.018,
+"437a23df8451": 0.6,
+"5e0896a86bc0": 0.164,
 "5e5ba9821ea1": 0.147,
 "6bbbe7587efd": 0.054,
 "725a42e6f822": 0.399,
 "7571d0046a01": 0.013,
-"7c5990d4ed6d": 0.053,
+"7d7fdaf17d0f": 0.136,
 "7fcdc2502438": 0.172,
 "8455158d54a9": 0.208,
 "8523697f833d": 0.979,
-"9744279116a7": 0.062,
 "9b1299151b1e": 0.203,
 "9d42f7499329": 0.362,
 "a32e78011cf3": 0.382,
 "ad9e4c36c536": 0.034,
 "c9057e265a47": 0.164,
 "c9315c73e5ab": 0.686,
-"d32b1f96acf1": 0.084,
-"e01e1dd051b4": 0.022,
+"d634a35c09df": 0.122,
+"e3fd7d294a9b": 0.046,
+"e56e9701f1d4": 0.048,
 "e584a0612b85": 0.918,
-"e8fa42055ad7": 0.355,
 "ec1d82f9802c": 0.662,
-"f39bf031e9c5": 0.195,
+"f39bf031e9c5": 0.079,
 "f416d8f38575": 0.3,
-"f881547df10c": 0.11,
-"fafa0cd2264f": 0.054
+"f881547df10c": 0.11
 },
 "sent": [
 {
@@ -4868,63 +4850,63 @@
 [
 "8523697f833d",
 24,
-54,
-1
-],
-[
-"e584a0612b85",
-64,
-338,
-7
-],
-[
-"25cd150dcc20",
-16,
-305,
+66,
 1
 ],
 [
 "2b7361eedf02",
 16,
+26,
+1
+],
+[
+"e584a0612b85",
+63,
+350,
+7
+],
+[
+"25cd150dcc20",
 14,
+317,
 1
 ],
 [
 "b1d9fc46c583",
-1,
-252,
+0,
+264,
 1
 ],
 [
 "0ee472a85f7b",
 48,
-172,
+184,
 2
 ],
 [
 "c9315c73e5ab",
-14,
-259,
+12,
+271,
 1
 ],
 [
 "ec1d82f9802c",
-27,
-218,
+26,
+230,
 1
 ],
 [
 "f862a2af8b64",
 0,
-320,
+332,
 1
 ],
 [
 "3acac26bf6de",
 43,
-156,
+168,
 1
 ]
 ],
-"top_at": 1795098138.2263396
+"top_at": 1795098859.2298057
 }
