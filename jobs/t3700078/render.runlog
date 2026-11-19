@@ -12,8 +12,8 @@ $ ffmpeg -y -v error -i jobs/t3700078/short.mp4 -c:v libx264 -crf 19 -maxrate 90
 video check: []
 qc vision gemini-flash-latest ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='generativelanguage.googl
 ⚠️ <b>Video check: please look at</b>
-⚠️ text: text cut off at 25s (Bottom text cut off), 30s (Bottom text overlaps)
-⚠️ text: text overlapping at 30s (Bottom text overlaps)
+⚠️ text: text cut off at 30s (Bottom text overlaps frame edg)
+⚠️ text: text overlapping at 30s (Bottom text overlaps frame edg)
 ✅ 6 checks passed (format, hook frame, loudness, motion, picture, sync)
 $ ffmpeg -y -v error -ss 1.41 -i jobs/t3700078/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700078/sh_00.png
 $ ffmpeg -y -v error -ss 4.24 -i jobs/t3700078/short_s.mp4 -frames:v 1 -vf scale=270:480 jobs/t3700078/sh_01.png
