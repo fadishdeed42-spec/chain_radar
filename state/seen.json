@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1794997370.2038012,
 1795008131.2690582,
 1795009331.713109,
 1795009636.4691558,
@@ -18,7 +17,8 @@
 1795073306.0566416,
 1795080486.672379,
 1795082947.5629435,
-1795083256.9125867
+1795083256.9125867,
+1795083872.6209118
 ],
 "menu": {
 "01087b69fa27": {
@@ -31,7 +31,7 @@
 "ITP.net",
 "ITWeb"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795065771.0,
 "tgtext": "",
 "title": "Binance Secures $6.5 Billion Abu Dhabi Freezing Order To Recover Oct. 29 Hack Assets: 8 outlets compared",
@@ -499,7 +499,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795079817.0,
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
@@ -543,7 +543,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795072976.0,
 "tgtext": "The Binance hacker just moved another 137,602 $ETH ($248.23M) for laundering.\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker just moved another 137,602 ETH ($248.23M) for laundering.",
@@ -740,6 +740,19 @@
 "tgtext": "",
 "title": "Bitcoin falls 49% from record high as Binance hack, ETF outflows and weak demand deepen crypto selloff | Hindustan Times",
 "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaklBZW4zSEhjT1FJbW45d05KWm5xQ21BNzE3SUJDZ2RMS3NOcWRSOG00YnZRQlRrYjlsNjVqYjc4dTF3blFCWWxlLUhweHRwOTVwaGpKbHhtQTlYMHRrVTRXTVZvamZRbUktZEFSdjN2MEloR0xLLS1wVkMzNUFOdkVZOFUzZjNXNUZtTG5YVmxEYmhLamNNWWpUYTFWOGxLdzF1dlBINE1BRlpVNTJfS085bWxBd1JYSk42SVg4TjdSeWVyN0tkVzhWQm1OUl9PWURXaExGSGNpS2hPaURyeFVhOFEwYzNBNkpZUVBJTVktOEY0RTJuYUNvLUc2ZFRh0gGGAkFVX3lxTE9FNUlkNkxvN1IxckUxVlk4bmYwMzBhVkRlUGc2aV9wN2o4NDZERC1PTGpOVl8tVFJZdEFvMnRNd0s3VkNYWXNTemdMMTAzS0NmeXFNNlA4LUNqX1h1M1l1LVJsakcydElqV0JRV1QyX1BSQ2VLQmFwblB4Q2lpTVpiOUhrLUtJNjcwa0ZSdWJFdktvcWRoQk96R2FlbWNETVpGTHpFby1ZS19IYmxfN1UtUUt2R05oQVI1cEpxTndsN0ptM1pLVUs1c05OcTcwN2FMODBCU0VJVElFS2NIVUdkaERNajFSM3hFZU1xeVVKdGxiSkRMR1pRUTduZEZkM1JrM1N2YVE?oc=5",
+"urls": []
+},
+"3aaba495193b": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795084178.3879318,
+"t0": 1795083539.0,
+"tgtext": "\ud83c\uddea\ud83c\uddfa ALERT: European Commission hit by major AI-assisted cyberattack, potentially exposing personal data, per Politico.\n\nNews | Markets | YouTube",
+"title": "European Commission hit by major AI-assisted cyberattack, potentially exposing personal data, per Politico.",
+"url": "https://t.me/cointelegraph/73385",
 "urls": []
 },
 "3b294d985fc6": {
@@ -1133,25 +1146,6 @@
 "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings"
 ]
 },
-"56aabb0bdbb0": {
-"coin": "hyperliquid",
-"src": "BitKE",
-"srcs": [
-"BitKE",
-"Bitcoin Foundation",
-"Cointelegraph",
-"Crypto News",
-"FinanceFeeds"
-],
-"t": 1794911117.035059,
-"t0": 1794889997.0,
-"tgtext": "Ex-Robinhood Engineer Faces Up to 20 Years in Prison for Trading Ahead of Crypto Listings\n\nThe U.S. Attorney's Office for the Southern District of New York announced that former Robinhood software engineer Huaisong Xiang pleaded guilty to wire fraud for using confidential crypto listing information to trade perpetual futures on Hyperliquid. Between 2025 and 2026, Xiang repeatedly traded tokens ahead of their listing announcements on Robinhood Crypto, the digital asset trading arm of the U.S. brokerage, earning $125,523 in illicit profits. He agreed to forfeit the proceeds and faces up to 20 years in prison, with sentencing scheduled for February 25, 2027. \u2014 link",
-"title": "CRYPTO CRIME | Former Robinhood Engineer Pleads Guilty to Over $100K Insider Crypto Trading Scheme on Hyperliquid",
-"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZRUdrQUNzRmxIZVdmZjl3RkVtY011eEZ4T2NrLXNyMm02bHFuM0w5U1BTbHd5RnFEUmVpS0tqam9YeGxBWExKU2JUNnlHWXc1VHRsUnJ3aktOZ0ZFYkQzazV1NTFsdGtWTl9ZSzFkTW5uUnd2Z0JHaFgxUTU?oc=5",
-"urls": [
-"https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "56f199e03d23": {
 "coin": "bitcoin",
 "src": "NDTV",
@@ -1291,7 +1285,7 @@
 "Coinpedia",
 "Wu Blockchain"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795066377.0,
 "tgtext": "Highlight Clip: CleanSpark CBO: Bitcoin Mining Will Become Less Profitable Over the Next Decade\n\nCleanSpark CBO: Bitcoin Mining Will Become Less Profitable Over the Next Decade\n\nCleanSpark Chief Business Officer Harry Sudock said in an interview published by What Bitcoin Did on November 5 that Bitcoin mining will increasingly resemble other commodity industries, with shrinking margins favoring the lowest-cost operators. He expects global hashrate to keep growing over the next decade, but more slowly than in the past ten years. As publicly traded miners shift large facilities toward other uses, mining may no longer depend on listed companies raising billions to build massive sites. Smaller and privately held miners could find more opportunities. Sudock believes the spread of hashrate to regions with cheaper electricity could strengthen Bitcoin's decentralization rather than weaken its security. \u2014 link",
 "title": "Bitcoin Mining Could Become Less Profitable as Miners Sell BTC To Chase AI Data Center Profits",
@@ -1615,19 +1609,6 @@
 "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
 "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"7da94308df5b": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1794911117.035059,
-"t0": 1794889795.0,
-"tgtext": "\ud83d\udea8 BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.\n\nNews | Markets | YouTube",
-"title": "BIG: Kalshi buys New York broker FB Securities and plans to offer stocks and ETFs within the next two months, WSJ reports.",
-"url": "https://t.me/cointelegraph/73333",
-"urls": []
 },
 "7e1b59184db8": {
 "coin": "",
@@ -2152,7 +2133,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795063519.0,
 "tgtext": "\u26a1\ufe0f NEW: Nvidia\u2019s interim CEO Colette Kress promises staff pay raises and extra equity awards in December to lift morale after Jensen Huang\u2019s exit, FT reports.\n\nNews | Markets | YouTube",
 "title": "Nvidia\u2019s interim CEO Colette Kress promises staff pay raises and extra equity awards in December to lift morale after Jensen Huang\u2019s exit, FT reports.",
@@ -2424,7 +2405,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795070232.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.\n\n\ud83c\uddfa\ud83c\uddf8 US\n\ud83c\udde8\ud83c\uddf3 China\n\ud83c\udde9\ud83c\uddea Germany\n\ud83c\uddf0\ud83c\uddf7 South Korea\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.",
@@ -2458,7 +2439,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795083014.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.\n\nIs he planning to buy the dip on these tokens?\n\nhttps://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC.",
@@ -2836,7 +2817,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795082596.0,
 "tgtext": "Two whales unstaked a total of 2.31M $SOL ($169.4M) and deposited it into #CoinbasePrime today.\n\nhttps://arkm.com/explorer/address/8o7NN85Z34GMMBWU9L2dx42o6nKG8CPBfWcytBHqTxDf\nhttps://arkm.com/explorer/address/4EAjRbkPcBdb5VKYGwjbiAu3KEmv6QgoBkPgMiyE8Qgm",
 "title": "Two whales unstaked a total of 2.31M SOL ($169.4M) and deposited it into CoinbasePrime today.",
@@ -2849,7 +2830,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795083563.1144261,
+"t": 1795084178.3879318,
 "t0": 1795068148.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d",
@@ -3441,7 +3422,7 @@
 "rain": 1795006877.5790248
 },
 "probs": {
-"01087b69fa27": 0.76,
+"01087b69fa27": 0.795,
 "01ba790c435d": 0.028,
 "02a13dea8a8f": 0.241,
 "03341b635235": 0.153,
@@ -3452,6 +3433,7 @@
 "25cd150dcc20": 0.887,
 "2697cf8ed829": 0.008,
 "286747abe283": 0.163,
+"2ac361507fce": 0.029,
 "2c8cb47a67f2": 0.904,
 "3030052c828e": 0.081,
 "364a667b74d4": 0.072,
@@ -3461,17 +3443,16 @@
 "4a4bd943f008": 0.016,
 "5a6e43849382": 0.039,
 "6ccf456db568": 0.087,
-"84b296678b1b": 0.146,
+"84b296678b1b": 0.312,
 "858eadd76965": 0.261,
-"87371c6ca772": 0.047,
 "8e26df7effb6": 0.132,
 "96855fbb48a9": 0.022,
 "9978c014c2ad": 0.025,
-"9f68278ff952": 0.01,
+"9f68278ff952": 0.053,
 "a64ef8c335f1": 0.088,
-"b1d9fc46c583": 0.912,
+"b1d9fc46c583": 0.933,
 "ba89f62250eb": 0.07,
-"c9315c73e5ab": 0.918,
+"c9315c73e5ab": 0.956,
 "c9b752c6bad9": 0.653,
 "dbb077c45f30": 0.055,
 "e56e9701f1d4": 0.029,
@@ -3483,29 +3464,6 @@
 "fd0bc072fa27": 0.037
 },
 "sent": [
-{
-"e": [
-"binance"
-],
-"k": [
-"hack"
-],
-"t": 1794910812.4862669,
-"u": [
-"https://t.me/lookonchainchannel/11114"
-],
-"w": [
-"09b",
-"402",
-"602",
-"binance",
-"eth",
-"hacker",
-"holds",
-"laundering",
-"started"
-]
-},
 {
 "e": [
 "against",
@@ -4892,6 +4850,34 @@
 "would",
 "zec"
 ]
+},
+{
+"e": [
+"commission",
+"european",
+"politico"
+],
+"k": [
+"hack"
+],
+"t": 1795083872.6209118,
+"u": [
+"https://t.me/cointelegraph/73385"
+],
+"w": [
+"assisted",
+"commission",
+"cyberattack",
+"data",
+"european",
+"exposing",
+"hit",
+"major",
+"per",
+"personal",
+"politico",
+"potentially"
+]
 }
 ],
 "stories": {},
@@ -4900,63 +4886,63 @@
 [
 "c9315c73e5ab",
 24,
-16,
+26,
 1
 ],
 [
 "b1d9fc46c583",
 10,
-9,
+19,
 1
 ],
 [
 "2c8cb47a67f2",
 24,
-176,
+187,
 1
 ],
 [
 "25cd150dcc20",
 32,
-62,
+73,
+1
+],
+[
+"3aaba495193b",
+10,
+11,
 1
 ],
 [
 "627698d5e085",
-6,
-286,
+5,
+297,
 2
 ],
 [
 "b08354072e01",
-5,
-222,
+4,
+232,
 1
 ],
 [
 "01087b69fa27",
-70,
-297,
+69,
+307,
 7
 ],
 [
 "c9b752c6bad9",
-14,
-257,
+13,
+267,
 1
 ],
 [
 "a05caa74ccb5",
 0,
-334,
-1
-],
-[
-"f862a2af8b64",
-10,
-77,
+344,
 1
 ]
 ],
-"top_at": 1795083563.1144261
+"top_at": 1795084178.3879318
 }
