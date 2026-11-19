@@ -259,6 +259,22 @@
 "url": "https://t.me/lookonchainchannel/11105",
 "urls": []
 },
+"124b5a9e35aa": {
+"coin": "",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine",
+"CoinMarketCap",
+"Cryptonews.net",
+"SuaraGarut.ID"
+],
+"t": 1795051992.2115812,
+"t0": 1795030525.0,
+"tgtext": "",
+"title": "Scattered Spider Hacker Gets Six Years for $11.6 Million Crypto Theft",
+"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmlybjZSVnRYVngwUGsyeFJZZERGc1NoaHQyV2VjRExRdGNNelVnRUlJSkdlVlNXdnRvZU1xZzBmeW1DbjJ5d2ZfRkdDcDJlT0w0Z0FsaHFjNWQtTmVFQ2JvNm9BY3N1aFpJVnJuMDJ0VjNrVGRoRkNsYkV1aTFhTllsaUhMUQ?oc=5",
+"urls": []
+},
 "129b04582d1b": {
 "coin": "lighter",
 "src": "Crypto Briefing",
@@ -592,7 +608,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795036643.0,
 "tgtext": "JUST IN: Anthropic to IPO tomorrow at $83 per share, valuing the company at $1.5 trillion, Bloomberg reports.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Anthropic $ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "Anthropic ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.",
@@ -618,7 +634,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795051112.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 $ETH($2.14M).\nhttps://x.com/lookonchain/status/2121635046503419925",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 ETH($2.14M).",
@@ -627,18 +643,22 @@
 },
 "378cd0c449f2": {
 "coin": "",
-"src": "The Block",
+"src": "Seeking Alpha",
 "srcs": [
+"Bitcoin Foundation",
 "Bloomberg.com",
+"Cointelegraph",
+"Seeking Alpha",
 "The Block"
 ],
-"t": 1795042497.9166012,
+"t": 1795052296.5728905,
 "t0": 1795030800.0,
 "tgtext": "",
-"title": "Binance obtains $6.5 billion freezing order from Abu Dhabi court in bid to recover stolen crypto",
-"url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRzBmQVdRaU45bFROUVFMa296Qkx1MWFQbm5CVFQyNmhmQ1d3T2pjdDExdFY4V3FvV2xiaUtneXJNUHJNaTRxLVF4VXJ6cF8wVEI0MmwxSy11X1ppeWVEUExWNjhLM0p1R1J2Tkhna25nSkdCaEc5UDQ3al96blJzME9Md3pOSTRWcUVTUldvakpLcUJpNi02OFdHNEZTc0xRbWVVZGJkYnFSaFJ2UkE?oc=5",
+"title": "Binance gets court order in effort to recover frozen assets after $6.3B hack (BNB-USD:Cryptocurrency)",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVlZTVHZiRXE5dHJEUDlEOXYzUzlLcjl2TUhhS0RBTHFMUUpaQ3RkdEJwT0RuV2dvTEZfeVdVc2pVYnAwNDdRT3VFcEJWTGRBTDMxSzV3M0xaeXpvRVJfZGhpLXZoaElEZm1zMVdLT2dfd0V6eW8xM0taazB6MXg0cXgyTXFmMWl0NmEtTVUwUUFuVHptS3NxWXA2LXVMczFib2gyOUpWY2VlRTFBLXRQaDZn?oc=5",
 "urls": [
-"https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491"
+"https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+"https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "37c5f8a79115": {
@@ -1110,7 +1130,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795046677.0,
 "tgtext": "\u26a1\ufe0f TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.",
@@ -1686,7 +1706,7 @@
 "Seeking Alpha",
 "The Block"
 ],
-"t": 1795051683.605451,
+"t": 1795051992.2115812,
 "t0": 1795030624.0,
 "tgtext": "",
 "title": "Binance gets court order in effort to recover frozen assets after $6.3B hack (BNB-USD:Cryptocurrency)",
@@ -1853,7 +1873,7 @@
 "Crypto Economy",
 "TronWeekly"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795032000.0,
 "tgtext": "",
 "title": "Bitwise Files For Spot Zcash ETF As ZEC Price Eyes Potential Breakout",
@@ -2180,6 +2200,19 @@
 "tgtext": "JUST IN: Gold crashes under $3,800 for the first time since September 2025.\n\n@WatcherGuru",
 "title": "Gold crashes under $3,800 for the first time since September 2025.",
 "url": "https://t.me/WatcherGuru/16121",
+"urls": []
+},
+"9d2af078145b": {
+"coin": "tether",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795052296.5728905,
+"t0": 1795051651.0,
+"tgtext": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%\n\nS&P Global Ratings maintained its stablecoin stability assessment of Tether's USDT, the world's largest stablecoin, at 5 (weak), the lowest on its five-point scale. The agency said higher-risk assets, including gold, Bitcoin, equities and loans, were equivalent to 28% of USDT in circulation as of September 30, up from 24% a year earlier, raising concerns about potential undercollateralization. S&P also cited limited disclosure of audited financial statements, reserve segregation and custodians. Tether rejected the assessment, saying the problem lies with S&P's framework, not its reserves. \u2014 link",
+"title": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%",
+"url": "https://t.me/wublockchainenglish/26878",
 "urls": []
 },
 "9d799837f8b3": {
@@ -2767,7 +2800,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795044288.0,
 "tgtext": "JUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"",
@@ -3098,7 +3131,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795031256.0,
 "tgtext": "Ledger Hardware Wallet Tampering Investigation Update: Affected Devices Found Beyond Southeast Asia in Germany and UAE\n\nLedger has released an update on its investigation into physically tampered hardware wallets, confirming that affected devices have been found beyond Southeast Asia, including in Germany and the UAE. The incident involved a criminal group physically modifying genuine Ledger devices before they reached users to capture recovery phrases during wallet setup. Ledger identified one affected Nano Gen 5 device in Southeast Asia and localized tampered devices in Germany to Berlin, while investigating reports of two suspected cases in Dubai. The company said the number of confirmed affected devices remains small, with no confirmed cases involving devices purchased directly from its official website and no vulnerabilities found in its secure chip or operating system. \u2014 link",
 "title": "Ledger Hardware Wallet Tampering Investigation Update: Affected Devices Found Beyond Southeast Asia in Germany and UAE",
@@ -3485,24 +3518,11 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1795051683.605451,
+"t": 1795052296.5728905,
 "t0": 1795043488.0,
 "tgtext": "",
 "title": "$2 Billion Crypto Liquidation Storm! Is Apeing's $0.00095 Stage 13 the Best Crypto Presale to Buy Now?",
 "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNUItYlU4NmFDUnBvZWFNY0NlcGFKSlNaUlI1VFJaV2FaQzRUaC1NNDV3d3l4SGJtNDFxYktTWDNGbFgxcEYxT0JVeVVqcUNnTERCTk1ENGRnYnJNbmtSYjFJLXFWME9rdkRhYlF4RDl0QXBBbjhIa0ZFQnFJWmdZa3puNEFGVFc4SUhfMTBfSUZuWXpBd3prNjF1U1E?oc=5",
-"urls": []
-},
-"f48041ccfb4c": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794879014.59283,
-"t0": 1794857712.0,
-"tgtext": "JUST IN: Nvidia founder Jensen Huang transferred billions in $NVDA shares to his heirs months before he resigned as CEO.\n\n@WatcherGuru",
-"title": "Nvidia founder Jensen Huang transferred billions in NVDA shares to his heirs months before he resigned as CEO.",
-"url": "https://t.me/WatcherGuru/16078",
 "urls": []
 },
 "f4dfdd953912": {
@@ -3575,6 +3595,19 @@
 "url": "https://t.me/cointelegraph/73328",
 "urls": []
 },
+"fba73003d24b": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795052296.5728905,
+"t0": 1795052075.0,
+"tgtext": "Pump fun(@Pumpfun) dumped 33,390 $SOL($2.44M) again 2 hours ago!\n\nIn total, pump.fun has sold 5,651,889 $SOL($890M) at an average price of $157.47.\n\nhttps://arkm.com/explorer/entity/pump-fun",
+"title": "Pump fun(@Pumpfun) dumped 33,390 SOL($2.44M) again 2 hours ago!",
+"url": "https://t.me/lookonchainchannel/11140",
+"urls": []
+},
 "fd96eb69089f": {
 "coin": "",
 "src": "The Block",
@@ -3626,46 +3659,46 @@
 "rain": 1795006877.5790248
 },
 "probs": {
-"07fac9303a2c": 0.051,
 "1264b93d5fd2": 0.04,
 "2043f3b295ac": 0.027,
 "3415e2b5a0ee": 0.829,
-"347948819b84": 0.096,
-"3667f9ba74f4": 0.899,
+"347948819b84": 0.118,
+"34f7607b312e": 0.093,
+"3667f9ba74f4": 0.871,
+"378cd0c449f2": 0.78,
 "3d6f94b4e508": 0.316,
 "3e47e1835add": 0.012,
 "42b90493f302": 0.053,
-"4c8a4e118891": 0.079,
 "50ac4995e0dc": 0.047,
 "541a579cd04c": 0.353,
 "5517bab70e30": 0.135,
 "67afe4062977": 0.023,
 "6a3f4221dd58": 0.025,
 "71eb190c6c14": 0.054,
-"7c02bae6b3fe": 0.759,
+"72e36b65778b": 0.231,
+"76e3448c7563": 0.095,
 "82917c2c9774": 0.066,
-"87f81cb2d58a": 0.088,
 "8888583d4fc1": 0.335,
 "95cda2370aa4": 0.016,
-"9960cc13f3af": 0.04,
+"9d2af078145b": 0.386,
 "a9466ecb2924": 0.027,
-"aae97662904f": 0.454,
 "ad5277bb9e5f": 0.061,
 "b32845aee4ed": 0.039,
-"b5597ce4624f": 0.04,
-"b8c38ed28b43": 0.025,
+"b5597ce4624f": 0.05,
+"b8c38ed28b43": 0.031,
 "bf5a202881dc": 0.171,
 "bf63e506de93": 0.528,
-"c066e01bcc6f": 0.188,
+"c066e01bcc6f": 0.11,
 "c453a41c3190": 0.128,
-"c53f865f572b": 0.028,
-"ce9465f68257": 0.025,
+"c53f865f572b": 0.035,
 "d44793a8d280": 0.028,
 "dfa4c57a86b1": 0.095,
+"e0b3fb36b5d1": 0.1,
 "e6f64aebc6ad": 0.028,
 "e877eb97776a": 0.13,
 "f345595b27ba": 0.527,
-"fa08f1f5edeb": 0.034
+"fa08f1f5edeb": 0.034,
+"fba73003d24b": 0.954
 },
 "sent": [
 {
@@ -5044,71 +5077,129 @@
 "linked",
 "wallet"
 ]
+},
+{
+"e": [
+"assessment",
+"asset",
+"exposure",
+"higher",
+"level",
+"lowest",
+"maintains",
+"rises",
+"risk",
+"stability"
+],
+"k": [],
+"t": 1795051992.2115812,
+"u": [
+"https://t.me/wublockchainenglish/26878"
+],
+"w": [
+"assessment",
+"asset",
+"exposure",
+"higher",
+"level",
+"lowest",
+"maintains",
+"rises",
+"risk",
+"stability",
+"usdt"
+]
+},
+{
+"e": [
+"pump",
+"pumpfun",
+"sol"
+],
+"k": [
+"crash"
+],
+"t": 1795052296.5728905,
+"u": [
+"https://t.me/lookonchainchannel/11140"
+],
+"w": [
+"390",
+"44m",
+"again",
+"ago",
+"dumped",
+"fun",
+"hours",
+"pump",
+"pumpfun",
+"sol"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"fba73003d24b",
+26,
+4,
+1
+],
+[
 "3667f9ba74f4",
 26,
-10,
+20,
 1
 ],
 [
 "3415e2b5a0ee",
-26,
-251,
+25,
+261,
 2
 ],
 [
-"7c02bae6b3fe",
-63,
-351,
-7
+"378cd0c449f2",
+62,
+358,
+6
 ],
 [
 "bf63e506de93",
 18,
-123,
+133,
 1
 ],
 [
 "f345595b27ba",
 40,
-137,
+147,
 1
 ],
 [
-"aae97662904f",
-48,
-358,
-4
+"9d2af078145b",
+10,
+11,
+1
 ],
 [
 "541a579cd04c",
 18,
-83,
+94,
 1
 ],
 [
 "8888583d4fc1",
-25,
-328,
+23,
+338,
 3
 ],
 [
 "d95460bb2a43",
 0,
-340,
+351,
 2
-],
-[
-"3d6f94b4e508",
-18,
-61,
-1
 ]
 ],
-"top_at": 1795051683.605451
+"top_at": 1795052296.5728905
 }
