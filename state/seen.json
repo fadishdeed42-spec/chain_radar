@@ -37,6 +37,19 @@
 "https://www.theblock.co/newsletters/the-daily/2026-11-19-binance-gets-6-5-billion-freezing-order-cryptoquant-says-bitcoin-is-in-a-value-zone-and-more-443511"
 ]
 },
+"02b18f4c0e9a": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795107410.27055,
+"t0": 1795107085.0,
+"tgtext": "BREAKING: Claude AI developer Anthropic $ANT officially begins trading at $1.5 trillion market cap following IPO.\n\n@WatcherGuru",
+"title": "Claude AI developer Anthropic ANT officially begins trading at $1.5 trillion market cap following IPO.",
+"url": "https://t.me/WatcherGuru/16165",
+"urls": []
+},
 "03677aa14f0c": {
 "coin": "bitcoin",
 "src": "NDTV",
@@ -70,7 +83,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795098932.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 JPMorgan excepts the Fed to raise interest rates at its next three meetings.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 JPMorgan excepts the Fed to raise interest rates at its next three meetings.",
@@ -124,7 +137,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795102086.0,
 "tgtext": "JUST IN: GTA 6 sets new record as the highest-rated video game of all time.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "GTA 6 sets new record as the highest-rated video game of all time.",
@@ -288,7 +301,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795106496.1316445,
+"t": 1795107410.27055,
 "t0": 1795087800.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -616,7 +629,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795097323.0,
 "tgtext": "A hacker is looking to long $21.51M worth of $ETH at $1,551\u2013$1,568. Will he get his wish?\n\nSomeone (likely a hacker) received 5,270 $ETH from #TornadoCash and sold it for 9.51M $USDC at $1,805.\n\nHe then deposited the 9.51M $USDC into Hyperliquid and placed limit orders to long 13,800 $ETH ($21.51M) at prices between $1,551 and $1,568.\n\nhttps://arkm.com/explorer/address/0xc7e82313239a33c37373E870347f7088ef852aAA\nhttps://hypurrscan.io/address/0xc7d0b62b029D099A1982fbaC6e8Eb31AaDc3E161#orders",
 "title": "A hacker is looking to long $21.51M worth of ETH at $1,551\u2013$1,568. Will he get his wish?",
@@ -965,7 +978,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1795106799.6322596,
+"t": 1795107106.7455766,
 "t0": 1795098560.0,
 "tgtext": "",
 "title": "October\u2019s $12.5 Billion Liquidation Bill, Recalculated for an Exchange That Pays Losers",
@@ -1746,7 +1759,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2147,6 +2160,24 @@
 "url": "https://t.me/lookonchainchannel/11125",
 "urls": []
 },
+"a32e78011cf3": {
+"coin": "bitcoin",
+"src": "Crypto News",
+"srcs": [
+"Bitcoin Magazine",
+"Crypto News",
+"Decrypt"
+],
+"t": 1795107410.27055,
+"t0": 1795094295.0,
+"tgtext": "",
+"title": "Bitcoin price rebounds toward $64K ahead of Anthropic\u2019s $107B stock offering as AI altcoins rally",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kYngtb1Ewbzh1WThveWRmRDZMNmVJU21FYnhRaENJcDR3T09wZ3pDX2ZtNl95OF9ENkRUXzluTi1YcHo3UGtqSjRnVUVsNEZ0Zlk2MUx6aHZORTV3dV9oT2JLeDBvVmN3aVVsVXdPU1Y3bDhp?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/markets/bitcoin-price-rebounds-64000-anthropic",
+"https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price"
+]
+},
 "a3adb051bf87": {
 "coin": "ethereum",
 "src": "CryptoPotato",
@@ -2166,7 +2197,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795106799.6322596,
+"t": 1795107106.7455766,
 "t0": 1795095524.0,
 "tgtext": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000\n\nU.S. initial jobless claims for the week ended November 14 came in at 203,000, compared with expectations of 197,000, while the prior week's figure was revised from 200,000 to 202,000. \u2014 link",
 "title": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000",
@@ -2179,7 +2210,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795103401.0,
 "tgtext": "\ud83d\udea8 ALERT: JPMorgan says third-party vendors were targeted in a cyberattack that may have exposed customer names and email addresses, with no disruption to its services.\n\nNews | Markets | YouTube",
 "title": "JPMorgan says third-party vendors were targeted in a cyberattack that may have exposed customer names and email addresses, with no disruption to its services.",
@@ -2508,7 +2539,7 @@
 "Technology Org",
 "The 420.in"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795090151.0,
 "tgtext": "",
 "title": "\u200bAbu Dhabi Court Orders Freeze on Rs. 60,775 Crore Crypto Assets Linked to Binance Hack",
@@ -2938,7 +2969,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795106799.6322596,
+"t": 1795107410.27055,
 "t0": 1795106401.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: Crypto payments firm MoonPay applies for bank charter.\n\nNews | Markets | YouTube",
 "title": "Crypto payments firm MoonPay applies for bank charter.",
@@ -3433,45 +3464,45 @@
 },
 "probs": {
 "0451235c9781": 0.626,
-"04639834f24e": 0.258,
 "0617b2ebc813": 0.818,
 "090e056b3d16": 0.069,
-"0ee472a85f7b": 0.443,
+"0ee472a85f7b": 0.68,
 "0fd7c2f5a0c4": 0.013,
 "1230e7f1af48": 0.043,
 "16525242a3d5": 0.186,
 "16819ff6353a": 0.129,
 "17ac78650387": 0.087,
+"2508638a8e81": 0.025,
+"2596549b85ab": 0.05,
 "2b7361eedf02": 0.69,
 "2dd67e4dc268": 0.078,
-"36572205cf2b": 0.486,
+"36572205cf2b": 0.406,
 "3acac26bf6de": 0.375,
 "437a23df8451": 0.495,
 "668afe084c4c": 0.284,
-"699be517d100": 0.037,
+"699be517d100": 0.351,
 "6bbbe7587efd": 0.09,
 "7007e6f92159": 0.065,
 "71e5bf3ce94e": 0.051,
-"7204baef4c00": 0.065,
-"78f7a83e386d": 0.086,
 "817ef4cb417f": 0.042,
-"833bf7739a95": 0.036,
 "8455158d54a9": 0.123,
-"84c7ac37bdd1": 0.11,
 "8523697f833d": 0.943,
 "8b5e37b8dea4": 0.106,
-"9278ada99c5b": 0.399,
+"9278ada99c5b": 0.332,
 "96600c0faca4": 0.037,
 "983fa77be5f0": 0.023,
 "9b1299151b1e": 0.142,
 "9d42f7499329": 0.128,
 "a0e0667ffc3e": 0.077,
-"a32e78011cf3": 0.121,
+"a32e78011cf3": 0.544,
 "a3adb051bf87": 0.428,
+"a42add1c955d": 0.04,
+"a473646a0839": 0.044,
 "b5a0a77e620f": 0.862,
-"ccf3af921b4a": 0.093,
-"e525b4b4c275": 0.033,
-"e56e9701f1d4": 0.032
+"d2dbc08906e0": 0.393,
+"e4ac929de83b": 0.153,
+"e56e9701f1d4": 0.032,
+"f9d8ec250c7e": 0.081
 },
 "sent": [
 {
@@ -4812,64 +4843,64 @@
 "top": [
 [
 "8523697f833d",
-22,
-198,
-1
-],
-[
-"d4c984c91cdb",
-10,
-7,
+21,
+208,
 1
 ],
 [
 "b5a0a77e620f",
-73,
-277,
+71,
+288,
 6
 ],
 [
 "0617b2ebc813",
 22,
-79,
+89,
 1
 ],
 [
 "2b7361eedf02",
 16,
-158,
+168,
 1
+],
+[
+"0ee472a85f7b",
+29,
+327,
+2
 ],
 [
 "a56b49fbd9c2",
 10,
-57,
+67,
 1
 ],
 [
 "0451235c9781",
 24,
-131,
+141,
 1
 ],
 [
-"437a23df8451",
+"02b18f4c0e9a",
+10,
+5,
+1
+],
+[
+"a32e78011cf3",
 40,
-137,
-1
+219,
+3
 ],
 [
-"36572205cf2b",
-18,
-46,
-1
-],
-[
-"a4a438d9c541",
-9,
-188,
+"d4c984c91cdb",
+10,
+17,
 1
 ]
 ],
-"top_at": 1795106799.6322596
+"top_at": 1795107410.27055
 }
