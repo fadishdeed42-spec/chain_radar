@@ -19,6 +19,25 @@
 1795080486.672379
 ],
 "menu": {
+"01087b69fa27": {
+"coin": "",
+"src": "NewsCord",
+"srcs": [
+"Bitcoin Foundation",
+"BusinessLine",
+"ITP.net",
+"NewsCord",
+"The Block"
+],
+"t": 1795081101.2047882,
+"t0": 1795065771.0,
+"tgtext": "",
+"title": "Binance Secures $6.5 Billion Abu Dhabi Freezing Order To Recover Oct. 29 Hack Assets: 8 outlets compared",
+"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX05XcE5KNDJiM1VSSllGNFVwMHdIZDc0UkxEQ0FnRENkdFpSWW0zeEJBcHhObUp6MWs1UVpGN2wtUWUzVmdpTzV4eTZfS2ZocHN0Z3VKZ25BNHdkNTd3VFFWaV9NSjY1alFEZ2pnYmU2aVl5eGZwcjljV1VsTjYyTlI4dmZYdWFDYTViZGwxeG9DOXVyWFJxckFLcjc2TGVlemtfOVhhbGNSTFc0NWFmS3p5dUpfTm9ubTQ1amZKNzA1NDFZb2s5U1VDQW9VYTlQV3dKdHlqZUNJbWRQbDNvLXljYXZpX1lJNEE?oc=5",
+"urls": [
+"https://www.theblock.co/newsletters/the-daily/2026-11-19-binance-gets-6-5-billion-freezing-order-cryptoquant-says-bitcoin-is-in-a-value-zone-and-more-443511"
+]
+},
 "03677aa14f0c": {
 "coin": "bitcoin",
 "src": "NDTV",
@@ -185,7 +204,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795066898.8451948,
+"t": 1795081101.2047882,
 "t0": 1795066411.0,
 "tgtext": "Bitcoin ETFs Shed $306 Million, Ether Funds Lose $39.8 Million\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $306 million in net outflows on November 18, led by BlackRock's IBIT with $149 million. Spot Ethereum ETFs saw $39.83 million in net outflows, with BlackRock's ETHA posting the largest outflow at $17.42 million. \u2014 link",
 "title": "Bitcoin ETFs Shed $306 Million, Ether Funds Lose $39.8 Million",
@@ -415,7 +434,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795060019.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C\n\nNews | Markets | YouTube",
 "title": "BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C",
@@ -453,22 +472,6 @@
 "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"22c09adf26e8": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Coinpedia",
-"Cointelegraph",
-"Cryptopolitan",
-"Dealroom"
-],
-"t": 1794907725.2390676,
-"t0": 1794886209.0,
-"tgtext": "\ud83d\udea8 ALERT: Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.\n\nNews | Markets | YouTube",
-"title": "Hackers slip malware that swaps crypto wallet addresses and steals card details into 178 major websites, among them Ledger, BBC and Salesforce, via compromised Optimizely scripts.",
-"url": "https://t.me/cointelegraph/73332",
-"urls": []
-},
 "231a89fe5db5": {
 "coin": "",
 "src": "MLQ.ai",
@@ -494,7 +497,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795079817.0,
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
@@ -536,10 +539,9 @@
 "coin": "ethereum",
 "src": "Lookonchain",
 "srcs": [
-"Bitcoin Foundation",
 "Lookonchain"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795072976.0,
 "tgtext": "The Binance hacker just moved another 137,602 $ETH ($248.23M) for laundering.\nhttps://arkm.com/explorer/entity/binance-hacker-2",
 "title": "The Binance hacker just moved another 137,602 ETH ($248.23M) for laundering.",
@@ -1298,20 +1300,6 @@
 "url": "https://t.me/WatcherGuru/16108",
 "urls": []
 },
-"5fd9a01f0fef": {
-"coin": "bitcoin",
-"src": "BeInCrypto",
-"srcs": [
-"BeInCrypto",
-"Yahoo Finance"
-],
-"t": 1794907725.2390676,
-"t0": 1794899088.0,
-"tgtext": "",
-"title": "Tether\u2019s Bitcoin Firm Bought the Dip While Its Own Stock Sank",
-"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlbWx0dzlKWFhUYTFiWUh2d1dOQjhoQW1UZjI0OHY0V2lqS1ZURWp3RE0xRnowb1h3Zjk0RC1GZ1JheUJaRmFQb1lMVXgxdDUwcHhqQXJEemMxa3RVb2RVVkRyREYwS3BjSWpDWGFrUzFhcWdEYjJ3?oc=5",
-"urls": []
-},
 "6264642e6974": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1332,7 +1320,7 @@
 "Coinpedia",
 "Wu Blockchain"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795066377.0,
 "tgtext": "Highlight Clip: CleanSpark CBO: Bitcoin Mining Will Become Less Profitable Over the Next Decade\n\nCleanSpark CBO: Bitcoin Mining Will Become Less Profitable Over the Next Decade\n\nCleanSpark Chief Business Officer Harry Sudock said in an interview published by What Bitcoin Did on November 5 that Bitcoin mining will increasingly resemble other commodity industries, with shrinking margins favoring the lowest-cost operators. He expects global hashrate to keep growing over the next decade, but more slowly than in the past ten years. As publicly traded miners shift large facilities toward other uses, mining may no longer depend on listed companies raising billions to build massive sites. Smaller and privately held miners could find more opportunities. Sudock believes the spread of hashrate to regions with cheaper electricity could strengthen Bitcoin's decentralization rather than weaken its security. \u2014 link",
 "title": "Bitcoin Mining Could Become Less Profitable as Miners Sell BTC To Chase AI Data Center Profits",
@@ -1795,7 +1783,7 @@
 "ITP.net",
 "Tech Times"
 ],
-"t": 1795079871.350567,
+"t": 1795080795.4643123,
 "t0": 1795064985.0,
 "tgtext": "",
 "title": "Binance Says Court Granted Worldwide Freezing Order After Hack; Bitcoin and Ether Cannot Be Frozen",
@@ -2222,7 +2210,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795063519.0,
 "tgtext": "\u26a1\ufe0f NEW: Nvidia\u2019s interim CEO Colette Kress promises staff pay raises and extra equity awards in December to lift morale after Jensen Huang\u2019s exit, FT reports.\n\nNews | Markets | YouTube",
 "title": "Nvidia\u2019s interim CEO Colette Kress promises staff pay raises and extra equity awards in December to lift morale after Jensen Huang\u2019s exit, FT reports.",
@@ -2494,7 +2482,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795070232.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.\n\n\ud83c\uddfa\ud83c\uddf8 US\n\ud83c\udde8\ud83c\uddf3 China\n\ud83c\udde9\ud83c\uddea Germany\n\ud83c\uddf0\ud83c\uddf7 South Korea\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.",
@@ -2893,7 +2881,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795068148.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d\n\nNews | Markets | YouTube",
 "title": "TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d",
@@ -3403,7 +3391,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795080486.672379,
+"t": 1795081101.2047882,
 "t0": 1795078947.0,
 "tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
@@ -3485,44 +3473,44 @@
 "rain": 1795006877.5790248
 },
 "probs": {
-"02a13dea8a8f": 0.305,
+"01087b69fa27": 0.82,
+"02a13dea8a8f": 0.241,
 "03341b635235": 0.153,
 "037cbe30d57b": 0.071,
 "1390488dc399": 0.121,
 "2107a89d7373": 0.594,
-"25cd150dcc20": 0.949,
+"25cd150dcc20": 0.988,
 "2697cf8ed829": 0.008,
-"2c8cb47a67f2": 0.885,
+"2c8cb47a67f2": 0.928,
 "3030052c828e": 0.081,
 "364a667b74d4": 0.072,
 "3cceb6021577": 0.136,
-"407b496051c4": 0.158,
 "43191e3a17e0": 0.154,
 "474ebb4729e3": 0.13,
 "488b72469ba3": 0.036,
+"52fa26e1bb34": 0.076,
 "5a6e43849382": 0.039,
 "5fad51aa6694": 0.038,
 "627698d5e085": 0.785,
+"6ccf456db568": 0.087,
 "84b296678b1b": 0.146,
-"858eadd76965": 0.461,
+"858eadd76965": 0.188,
 "87371c6ca772": 0.038,
-"879c82c0fb30": 0.038,
 "8e26df7effb6": 0.132,
 "96855fbb48a9": 0.022,
 "9978c014c2ad": 0.046,
 "9f68278ff952": 0.093,
 "b038d80a18be": 0.112,
-"b08354072e01": 0.768,
-"ba89f62250eb": 0.07,
+"b08354072e01": 0.463,
 "bb6f1f0e269c": 0.038,
 "c5fb03a8676a": 0.067,
 "c9b752c6bad9": 0.779,
 "cb0b80e4a1e7": 0.092,
+"dbb077c45f30": 0.055,
 "e56e9701f1d4": 0.029,
 "e6b7e7f2b9bf": 0.011,
 "e8fa42055ad7": 0.214,
 "efef76ec144c": 0.034,
-"f42e0273a10c": 0.115,
 "fafa0cd2264f": 0.023,
 "fd0bc072fa27": 0.037
 },
@@ -4889,63 +4877,63 @@
 [
 "25cd150dcc20",
 32,
-11,
+21,
 1
 ],
 [
 "2c8cb47a67f2",
-59,
-125,
-2
+24,
+135,
+1
+],
+[
+"01087b69fa27",
+75,
+256,
+5
 ],
 [
 "627698d5e085",
-13,
-235,
+12,
+245,
 2
 ],
 [
 "c9b752c6bad9",
-21,
-206,
-1
-],
-[
-"b08354072e01",
-10,
-171,
-1
-],
-[
-"44c9bb3fc70c",
-2,
-359,
+20,
+216,
 1
 ],
 [
 "2107a89d7373",
-15,
-341,
+14,
+351,
 1
 ],
 [
 "a05caa74ccb5",
 0,
-283,
+293,
 1
 ],
 [
 "f862a2af8b64",
 10,
-26,
+36,
 1
 ],
 [
-"78c5f6ee2801",
-0,
-356,
-2
+"b08354072e01",
+10,
+181,
+1
+],
+[
+"0d022d5e578b",
+8,
+245,
+1
 ]
 ],
-"top_at": 1795080486.672379
+"top_at": 1795081101.2047882
 }
