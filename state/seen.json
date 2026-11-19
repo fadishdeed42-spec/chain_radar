@@ -68,7 +68,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795053304.0,
 "tgtext": "AguilaTrades(@AguilaTrades) closed his $BTC short 1 hour ago, making $1.37M in profit.\n\nHe then flipped long, opening a 40x long on 1,000 $BTC ($60.66M), and is now sitting on $500K in unrealized losses.\n\nLiquidation price: $59,324.4\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) closed his BTC short 1 hour ago, making $1.37M in profit.",
@@ -448,7 +448,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795060019.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C\n\nNews | Markets | YouTube",
 "title": "BIG: The Trump administration launches a new Threat Disruption Center to fight crypto fraud and other cybercrimes that target Americans.C",
@@ -633,7 +633,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795051112.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 $ETH($2.14M).\nhttps://x.com/lookonchain/status/2121635046503419925",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 ETH($2.14M).",
@@ -960,7 +960,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795058934.0,
 "tgtext": "It's liquidation day again!\n\nSix whales on Hyperliquid got liquidated a total of 30 times, with 618.24 $BTC ($38.73M) liquidated at prices ranging from $63,364 to $62,055.\n\nWallets:\n0x6c2c8c6e60dfaf81145ffad13736a4847ad4a201\n0x448a4f64f5dc17817f23f5d1bf488db19359e050\n0xff042b176367926e1ce92071957f6a0a4cdce2f9\n0x4b62652d2f176bf5422c8157c5b37984837d57ca\n0xc4942b0bc5ecb9c74b22ec80c6a0b411bf1a0bab\n0x4cca6c017aaa120914bc8f9678c288c95bdd3f1c",
 "title": "It's liquidation day again!",
@@ -1142,7 +1142,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795046677.0,
 "tgtext": "\u26a1\ufe0f TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.",
@@ -1272,7 +1272,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795057969.0,
 "tgtext": "Whales are accumulating $ETH!\n\nFour wallets withdrew a total of 13,408 $ETH ($23.73M) from FalconX, Galaxy Digital, and OKX.\n\nhttps://arkm.com/explorer/address/0xBB09dF7B7464d69A9Da14EA1BfF2FE01cC64939e\nhttps://arkm.com/explorer/address/0xEaBcf5ef6FC3A8Bd19feE50EFB28efB9c6b1e004\nhttps://arkm.com/explorer/address/0xfbe1b73257A02882698a36aade6652B210D98B60\nhttps://arkm.com/explorer/address/0xB93c76f50BAd2810fF821af81Be93c95D1aCe29D",
 "title": "Whales are accumulating ETH!",
@@ -1404,21 +1404,6 @@
 "https://decrypt.co/383513/nvidia-board-shuts-down-jensen-huang-comeback"
 ]
 },
-"68c4ee516d47": {
-"coin": "hyperliquid",
-"src": "Cointelegraph",
-"srcs": [
-"Bloomberg.com",
-"Cointelegraph",
-"Cryptopolitan"
-],
-"t": 1794890450.4159775,
-"t0": 1794869613.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.\n\nNews | Markets | YouTube",
-"title": "A former Robinhood engineer pleads guilty to wire fraud after he used confidential info on future token additions to trade Hyperliquid perps for a $125,523 profit, per the DOJ.",
-"url": "https://t.me/cointelegraph/73330",
-"urls": []
-},
 "697438211130": {
 "coin": "uniswap",
 "src": "Lookonchain",
@@ -1479,7 +1464,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795052346.0,
 "tgtext": "A mysterious whale is accumulating $PEPE!\n\nNewly created wallet \"0x5011\" withdrew 1.9T $PEPE ($7.15M) from Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
 "title": "A mysterious whale is accumulating PEPE!",
@@ -2745,7 +2730,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795044288.0,
 "tgtext": "JUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"\n\n@WatcherGuru\n\ud83d\udea8 NOW: Elon Musk says, \u201cThere\u2019s no one that can really replace Jensen Huang.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"",
@@ -3414,7 +3399,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795043488.0,
 "tgtext": "",
 "title": "$2 Billion Crypto Liquidation Storm! Is Apeing's $0.00095 Stage 13 the Best Crypto Presale to Buy Now?",
@@ -3502,7 +3487,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795062932.8875048,
+"t": 1795063543.3385313,
 "t0": 1795052075.0,
 "tgtext": "Pump fun(@Pumpfun) dumped 33,390 $SOL($2.44M) again 2 hours ago!\n\nIn total, pump.fun has sold 5,651,889 $SOL($890M) at an average price of $157.47.\n\nhttps://arkm.com/explorer/entity/pump-fun",
 "title": "Pump fun(@Pumpfun) dumped 33,390 SOL($2.44M) again 2 hours ago!",
@@ -3552,38 +3537,38 @@
 "20d219c45de2": 0.079,
 "2107a89d7373": 0.463,
 "27ed734ce8cc": 0.022,
-"3667f9ba74f4": 0.55,
+"305e98999219": 0.1,
+"3667f9ba74f4": 0.923,
 "395e85382288": 0.081,
-"3d6f94b4e508": 0.36,
 "3dac7fbe97bf": 0.025,
 "407b496051c4": 0.1,
 "44c9bb3fc70c": 0.743,
 "46ee4fccebd7": 0.029,
 "474ebb4729e3": 0.081,
+"4fc3d6f5d71b": 0.032,
 "50ac4995e0dc": 0.025,
 "51ed8a2cd8a5": 0.028,
-"541a579cd04c": 0.718,
 "59ab32dde73b": 0.498,
-"6d235c99331a": 0.778,
+"6d235c99331a": 0.477,
 "743e110f63f0": 0.068,
 "78c5f6ee2801": 0.305,
-"82917c2c9774": 0.127,
+"82917c2c9774": 0.072,
 "8725a6609761": 0.028,
 "93d05828f18d": 0.079,
-"9d2af078145b": 0.098,
 "bcb89e15e08c": 0.076,
 "bf5a202881dc": 0.095,
 "bf63e506de93": 0.734,
 "c45630dc8cb3": 0.014,
-"cb0b80e4a1e7": 0.056,
 "d44793a8d280": 0.027,
 "d9f51623c0a6": 0.047,
+"e75db90efc0a": 0.177,
 "e877eb97776a": 0.071,
 "e949d006ba65": 0.006,
 "f345595b27ba": 0.384,
 "f9edffc63495": 0.007,
+"fa50e0bbe64a": 0.033,
 "fadb2d69cffb": 0.077,
-"fba73003d24b": 0.401
+"fba73003d24b": 0.72
 },
 "sent": [
 {
@@ -5039,65 +5024,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"6d235c99331a",
-18,
-176,
+"3667f9ba74f4",
+23,
+207,
 1
 ],
 [
 "44c9bb3fc70c",
 25,
-67,
+77,
 1
 ],
 [
 "bf63e506de93",
-11,
-311,
+10,
+321,
 2
 ],
 [
+"fba73003d24b",
+25,
+191,
+1
+],
+[
 "541a579cd04c",
-6,
-271,
+5,
+281,
 1
 ],
 [
 "04c94dee003f",
 16,
-160,
-1
-],
-[
-"3667f9ba74f4",
-24,
-197,
+171,
 1
 ],
 [
 "59ab32dde73b",
 18,
-83,
+93,
+1
+],
+[
+"6d235c99331a",
+18,
+187,
 1
 ],
 [
 "2107a89d7373",
 36,
-49,
-1
-],
-[
-"fba73003d24b",
-26,
-181,
+59,
 1
 ],
 [
 "f345595b27ba",
-21,
-324,
+20,
+334,
 1
 ]
 ],
-"top_at": 1795062932.8875048
+"top_at": 1795063543.3385313
 }
