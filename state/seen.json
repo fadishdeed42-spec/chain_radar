@@ -68,7 +68,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795053304.0,
 "tgtext": "AguilaTrades(@AguilaTrades) closed his $BTC short 1 hour ago, making $1.37M in profit.\n\nHe then flipped long, opening a 40x long on 1,000 $BTC ($60.66M), and is now sitting on $500K in unrealized losses.\n\nLiquidation price: $59,324.4\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "AguilaTrades(@AguilaTrades) closed his BTC short 1 hour ago, making $1.37M in profit.",
@@ -654,7 +654,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795051112.0,
 "tgtext": "The #EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 $ETH($2.14M).\nhttps://x.com/lookonchain/status/2121635046503419925",
 "title": "The EthereumFoundation-linked wallet (0x5CBC) just dumped another 1,200 ETH($2.14M).",
@@ -891,7 +891,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795058054.463195,
+"t": 1795058360.8720224,
 "t0": 1795047995.0,
 "tgtext": "JUST IN: Elon Musk says Tesla $TSLA will launch a fully self-driving Model Y with no steering wheel or pedals.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "Elon Musk says Tesla TSLA will launch a fully self-driving Model Y with no steering wheel or pedals.",
@@ -1150,7 +1150,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795046677.0,
 "tgtext": "\u26a1\ufe0f TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.\n\nNews | Markets | YouTube",
 "title": "TODAY: Coinbase CEO Brian Armstrong predicts that within 10 years, AI agents will handle 99.999% of financial transactions, leaving just 0.001% to humans.",
@@ -1295,7 +1295,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795057969.0,
 "tgtext": "Whales are accumulating $ETH!\n\nFour wallets withdrew a total of 13,408 $ETH ($23.73M) from FalconX, Galaxy Digital, and OKX.\n\nhttps://arkm.com/explorer/address/0xBB09dF7B7464d69A9Da14EA1BfF2FE01cC64939e\nhttps://arkm.com/explorer/address/0xEaBcf5ef6FC3A8Bd19feE50EFB28efB9c6b1e004\nhttps://arkm.com/explorer/address/0xfbe1b73257A02882698a36aade6652B210D98B60\nhttps://arkm.com/explorer/address/0xB93c76f50BAd2810fF821af81Be93c95D1aCe29D",
 "title": "Whales are accumulating ETH!",
@@ -1393,6 +1393,19 @@
 "tgtext": "\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
 "title": "US stock market sheds $1.5 trillion in value today.",
 "url": "https://t.me/cointelegraph/73327",
+"urls": []
+},
+"6264642e6974": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795058664.256505,
+"t0": 1795038301.0,
+"tgtext": "\ud83d\udea8 JUST IN: Anthropic $ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.\n\nNews | Markets | YouTube",
+"title": "Anthropic ANT has priced its IPO at $83 per share, with its total offering expected to exceed $94 billion, making it the largest IPO in stock market history, per Bloomberg.",
+"url": "https://t.me/cointelegraph/73373",
 "urls": []
 },
 "6711f3cf5672": {
@@ -1502,7 +1515,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795052346.0,
 "tgtext": "A mysterious whale is accumulating $PEPE!\n\nNewly created wallet \"0x5011\" withdrew 1.9T $PEPE ($7.15M) from Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
 "title": "A mysterious whale is accumulating PEPE!",
@@ -1837,20 +1850,6 @@
 "tgtext": "\ud83d\udea8 BIG: SEC is investigating Nvidia.\n\nNews | Markets | YouTube",
 "title": "BIG: SEC is investigating Nvidia.",
 "url": "https://t.me/cointelegraph/73352",
-"urls": []
-},
-"854cb8eb4c66": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Cointelegraph",
-"Watcher.Guru"
-],
-"t": 1794885790.1229777,
-"t0": 1794864444.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: US stock market sheds $1.5 trillion in value today.\n\nNews | Markets | YouTube",
-"title": "\ud83c\uddfa\ud83c\uddf8 $1.4 trillion wiped out from the US stock market today.",
-"url": "https://t.me/WatcherGuru/16081",
 "urls": []
 },
 "8781b624d2e7": {
@@ -2222,7 +2221,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795058054.463195,
+"t": 1795058360.8720224,
 "t0": 1795051651.0,
 "tgtext": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%\n\nS&P Global Ratings maintained its stablecoin stability assessment of Tether's USDT, the world's largest stablecoin, at 5 (weak), the lowest on its five-point scale. The agency said higher-risk assets, including gold, Bitcoin, equities and loans, were equivalent to 28% of USDT in circulation as of September 30, up from 24% a year earlier, raising concerns about potential undercollateralization. S&P also cited limited disclosure of audited financial statements, reserve segregation and custodians. Tether rejected the assessment, saying the problem lies with S&P's framework, not its reserves. \u2014 link",
 "title": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%",
@@ -2619,23 +2618,6 @@
 "url": "https://t.me/wublockchainenglish/26868",
 "urls": []
 },
-"b482d4b0d33c": {
-"coin": "bitcoin",
-"src": "Decrypt",
-"srcs": [
-"Decrypt",
-"Yahoo Finance",
-"www.tokenpost.com"
-],
-"t": 1794885790.1229777,
-"t0": 1794865563.0,
-"tgtext": "",
-"title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
-"url": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000",
-"urls": [
-"https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
-]
-},
 "b4952329e621": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2786,7 +2768,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795044288.0,
 "tgtext": "JUST IN: Elon Musk says no one can replace Nvidia $NVDA founder Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"\n\n@WatcherGuru\n\ud83d\udea8 NOW: Elon Musk says, \u201cThere\u2019s no one that can really replace Jensen Huang.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced.\"",
@@ -3139,6 +3121,19 @@
 "url": "https://t.me/wublockchainenglish/26854",
 "urls": []
 },
+"d9f51623c0a6": {
+"coin": "",
+"src": "CryptoRank",
+"srcs": [
+"CryptoRank"
+],
+"t": 1795058664.256505,
+"t0": 1795044835.0,
+"tgtext": "",
+"title": "Binance Plans 2027 Expansion Into Five Asian Markets After $6.3B Hack",
+"url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYWJyYzI0RlhyMFBzNEpLbjZ4VWVrRGhDQzg5RWNabWlNVkhjZDRLa2NDczk5WlgyZ1BpNnlXM0RkMF9HUWdnLTNqNVNEek5WSmt5MHZxanVIRk0wMlBLOXhtWXc0ZC1MYzlZRGdDbHVpNl95SkoyTGgzeUYxSTF6VzBTay1Oa0ZlWW52aTVhUUpkTG12ZUd3S0dOZmVyYVFleFU3RUdIMW1WQQ?oc=5",
+"urls": []
+},
 "db4d75dd56e3": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3472,7 +3467,7 @@
 "srcs": [
 "openPR.com"
 ],
-"t": 1795057751.0931773,
+"t": 1795058664.256505,
 "t0": 1795043488.0,
 "tgtext": "",
 "title": "$2 Billion Crypto Liquidation Storm! Is Apeing's $0.00095 Stage 13 the Best Crypto Presale to Buy Now?",
@@ -3560,7 +3555,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795058054.463195,
+"t": 1795058664.256505,
 "t0": 1795052075.0,
 "tgtext": "Pump fun(@Pumpfun) dumped 33,390 $SOL($2.44M) again 2 hours ago!\n\nIn total, pump.fun has sold 5,651,889 $SOL($890M) at an average price of $157.47.\n\nhttps://arkm.com/explorer/entity/pump-fun",
 "title": "Pump fun(@Pumpfun) dumped 33,390 SOL($2.44M) again 2 hours ago!",
@@ -3622,35 +3617,35 @@
 "1264b93d5fd2": 0.048,
 "20d219c45de2": 0.079,
 "2a1898f59223": 0.06,
-"3415e2b5a0ee": 0.713,
-"34f7607b312e": 0.09,
-"3667f9ba74f4": 0.923,
+"34f7607b312e": 0.111,
+"3667f9ba74f4": 0.55,
 "395e85382288": 0.081,
-"3d6f94b4e508": 0.307,
+"3d6f94b4e508": 0.104,
 "3e47e1835add": 0.015,
 "46ee4fccebd7": 0.029,
-"4c8a4e118891": 0.116,
 "50ac4995e0dc": 0.045,
 "541a579cd04c": 0.344,
 "59ab32dde73b": 0.645,
+"6264642e6974": 0.573,
 "67afe4062977": 0.057,
 "6d235c99331a": 0.778,
 "71eb190c6c14": 0.064,
 "743e110f63f0": 0.068,
 "76e3448c7563": 0.091,
 "7d0a69ddd36d": 0.057,
-"82917c2c9774": 0.063,
+"82917c2c9774": 0.153,
 "8725a6609761": 0.028,
 "95cda2370aa4": 0.04,
-"9d2af078145b": 0.248,
-"a9466ecb2924": 0.037,
+"9960cc13f3af": 0.053,
+"9d2af078145b": 0.079,
 "b32845aee4ed": 0.047,
-"ba72118e0ab2": 0.071,
+"b5597ce4624f": 0.093,
 "bf5a202881dc": 0.165,
 "bf63e506de93": 0.838,
 "c066e01bcc6f": 0.13,
+"c45630dc8cb3": 0.014,
 "d44793a8d280": 0.027,
-"d9f51623c0a6": 0.129,
+"d9f51623c0a6": 0.184,
 "dfa4c57a86b1": 0.113,
 "e877eb97776a": 0.125,
 "ef9057d47670": 0.09,
@@ -5168,65 +5163,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"3667f9ba74f4",
-26,
-116,
-1
-],
-[
 "bf63e506de93",
-22,
-229,
+21,
+240,
 2
 ],
 [
 "6d235c99331a",
 18,
-95,
+105,
 1
 ],
 [
 "fba73003d24b",
 26,
-100,
+110,
 1
-],
-[
-"3415e2b5a0ee",
-12,
-357,
-2
 ],
 [
 "59ab32dde73b",
 18,
-1,
+12,
+1
+],
+[
+"6264642e6974",
+4,
+339,
 1
 ],
 [
 "04c94dee003f",
 16,
-79,
+89,
+1
+],
+[
+"3667f9ba74f4",
+26,
+126,
 1
 ],
 [
 "541a579cd04c",
-17,
-190,
+16,
+200,
 1
 ],
 [
-"3d6f94b4e508",
-18,
-168,
+"f345595b27ba",
+31,
+253,
 1
 ],
 [
-"9d2af078145b",
-10,
-107,
+"d9f51623c0a6",
+49,
+230,
 1
 ]
 ],
-"top_at": 1795058054.463195
+"top_at": 1795058664.256505
 }
