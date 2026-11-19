@@ -1,0 +1,52 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+WARNING:transformers.integrations.sdpa_attention:`sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/runner/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  4%|▍         | 53.4M/1.18G [00:00<00:02, 560MB/s] 10%|▉         | 118M/1.18G [00:00<00:01, 629MB/s]  15%|█▌        | 182M/1.18G [00:00<00:01, 647MB/s] 20%|██        | 246M/1.18G [00:00<00:01, 657MB/s] 26%|██▌       | 310M/1.18G [00:00<00:01, 663MB/s] 31%|███       | 375M/1.18G [00:00<00:01, 666MB/s] 37%|███▋      | 439M/1.18G [00:00<00:01, 671MB/s] 42%|████▏     | 504M/1.18G [00:00<00:01, 674MB/s] 47%|████▋     | 569M/1.18G [00:00<00:00, 674MB/s] 53%|█████▎    | 633M/1.18G [00:01<00:00, 666MB/s] 58%|█████▊    | 697M/1.18G [00:01<00:00, 666MB/s] 63%|██████▎   | 761M/1.18G [00:01<00:00, 667MB/s] 68%|██████▊   | 824M/1.18G [00:01<00:00, 666MB/s] 74%|███████▍  | 888M/1.18G [00:01<00:00, 667MB/s] 79%|███████▉  | 952M/1.18G [00:01<00:00, 667MB/s] 84%|████████▍ | 0.99G/1.18G [00:01<00:00, 668MB/s] 90%|████████▉ | 1.05G/1.18G [00:01<00:00, 666MB/s] 95%|█████████▍| 1.12G/1.18G [00:01<00:00, 666MB/s]100%|██████████| 1.18G/1.18G [00:01<00:00, 664MB/s]
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+json 2dc16c21033c
+   take 1: score -0.19  wer 0.00  end +0.0st  2.9w/s  heard: Michael Saylor once lost $6 billion in a single day.
+   take 2: score -0.87  wer 0.00  end +0.0st  2.5w/s  rushed ['single']  heard: Michael Saylor once lost $6 billion in a single day.
+   take 3: score -1.08  wer 0.00  end +0.3st  2.9w/s  rushed ['single']  heard: Michael Saylor once lost $6 billion in a single day.
+   take 4: score -0.95  wer 0.00  end +0.0st  2.8w/s  rushed ['single']  heard: Michael Saylor once lost $6 billion in a single day.
+scene 1: 3.79s ex 0.72  chosen wer 0.00
+   take 1: score -1.87  wer 0.00  end +0.0st  2.2w/s  rushed ['admits', 'earnings']  heard: March 20, 2000. His company, MicroStrategy, admits its earnings were w
+   take 2: score -1.22  wer 0.00  end +0.0st  1.9w/s  rushed ['earnings']  heard: March 20, 2000. His company, MicroStrategy, admits its earnings were w
+   take 3: score +0.09  wer 0.00  end -5.1st  2.1w/s  rushed ['company,', 'earnings']  heard: March 20, 2000. His company, MicroStrategy, admits its earnings were w
+   take 4: score -1.83  wer 0.00  end +0.0st  2.2w/s  rushed ['admits', 'earnings']  heard: March 20, 2000. His company, MicroStrategy, admits its earnings were w
+scene 2: 5.77s ex 0.45  chosen wer 0.00
+   take 1: score -0.12  wer 0.00  end +0.0st  2.4w/s  heard: The stock crashes 62%.
+   take 2: score -0.42  wer 0.00  end +0.0st  1.9w/s  heard: The stock crashes 62%.
+   take 3: score -0.30  wer 0.00  end +0.0st  2.1w/s  heard: The stock crashes 62%.
+scene 3: 2.08s ex 0.72  chosen wer 0.00
+   take 1: score +1.09  wer 0.00  end -4.4st  2.8w/s  rushed ['something']  heard: 20 years later, he does something even wilder.
+   take 2: score -0.91  wer 0.00  end +0.0st  2.8w/s  rushed ['something']  heard: 20 years later, he does something even wilder.
+   take 3: score -0.02  wer 0.00  end +0.0st  2.6w/s  heard: Twenty years later, he does something even wilder.
+scene 4: 2.88s ex 0.45  chosen wer 0.00
+   take 1: score -1.29  wer 0.00  end +2.8st  2.2w/s  rushed ['Bitcoin.']  heard: August 2020. MicroStrategy puts $250 million into Bitcoin.
+   take 2: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: August 2020, MicroStrategy puts $250 million into Bitcoin.
+   take 3: score -0.26  wer 0.00  end +0.0st  2.2w/s  heard: August 2020. MicroStrategy puts $250 million into Bitcoin.
+scene 5: 5.54s ex 0.45  chosen wer 0.00
+   take 1: score -0.86  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin.']  heard: and it never stops buying. No public company holds more Bitcoin.
+   take 2: score -0.86  wer 0.00  end +0.0st  2.5w/s  rushed ['bitcoin.']  heard: and it never stops buying. No public company holds more bitcoin.
+   take 3: score -0.85  wer 0.00  end +0.0st  2.7w/s  rushed ['Bitcoin.']  heard: and it never stops buying. No public company holds more Bitcoin.
+   take 4: score -0.84  wer 0.00  end +0.0st  2.7w/s  rushed ['bitcoin.']  heard: and it never stops buying. No public company holds more bitcoin.
+scene 6: 4.12s ex 0.45  chosen wer 0.00
+   take 1: score -0.13  wer 0.00  end +0.0st  2.6w/s  heard: Genius, or the same mistake twice.
+   take 2: score -0.05  wer 0.00  end +0.0st  2.4w/s  heard: Genius, or the same mistake twice.
+   take 3: score +1.91  wer 0.00  end +2.4st  2.5w/s  heard: Genius or the same mistake twice?
+scene 7: 2.40s ex 0.5 END  chosen wer 0.00
+   take 1: score -1.03  wer 0.00  end +0.0st  2.2w/s  rushed ['Subscribe']  heard: Subscribe for more stories.
+   take 2: score -0.32  wer 0.00  end +0.0st  2.1w/s  heard: Subscribe for more stories.
+   take 3: score -0.38  wer 0.00  end +0.0st  2.0w/s  heard: Subscribe for more stories.
+scene 8: 1.94s ex 0.55  chosen wer 0.00
+lines levelled + gentle compressor (no pumping)
+30.63s, force-aligned 69 words (snapped to the voice)
+takes kept whole (no sentence re-cut) -> jobs/t3700079/voicep.wav
+flow: 0 hangs >0.7s inside lines, 0 possible sharp line ends, line gaps [0.52, 0.64, 0.6, 0.61, 0.55, 0.65, 0.85]

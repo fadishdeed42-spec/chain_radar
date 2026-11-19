@@ -1,0 +1,69 @@
+{
+ "engine": "chatterbox",
+ "ref": "am_liam",
+ "cfg": 0.4,
+ "seed": 7,
+ "scenes": [
+  [
+   "Michael Saylor once lost six billion dollars in a single day.",
+   0.72,
+   0.2
+  ],
+  [
+   "March twentieth, two thousand. His company, MicroStrategy, admits its earnings were wrong.",
+   0.45,
+   0.2
+  ],
+  [
+   "The stock crashes sixty-two percent.",
+   0.72,
+   0.2
+  ],
+  [
+   "Twenty years later, he does something even wilder.",
+   0.45,
+   0.2
+  ],
+  [
+   "August twenty twenty. MicroStrategy puts two hundred fifty million dollars into Bitcoin.",
+   0.45,
+   0.2
+  ],
+  [
+   "And it never stops buying. No public company holds more Bitcoin.",
+   0.45,
+   0.2
+  ],
+  [
+   "Genius, or the same mistake twice?",
+   0.5,
+   0.5,
+   "end"
+  ],
+  [
+   "Subscribe for more stories.",
+   0.55,
+   0.3
+  ]
+ ],
+ "alt": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "check": [
+  "Michael Saylor once lost six billion dollars in a single day.",
+  "March twentieth, two thousand. His company, MicroStrategy, admits its earnings were wrong.",
+  "The stock crashes sixty-two percent.",
+  "Twenty years later, he does something even wilder.",
+  "August twenty twenty. MicroStrategy puts two hundred fifty million dollars into Bitcoin.",
+  "And it never stops buying. No public company holds more Bitcoin.",
+  "Genius, or the same mistake twice?",
+  "Subscribe for more stories."
+ ]
+}
