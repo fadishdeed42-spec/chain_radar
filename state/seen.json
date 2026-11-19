@@ -266,7 +266,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795087800.0,
 "tgtext": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers\n\nAccording to CoinDesk, an investigation by crypto risk analytics firm Inca Digital found that the Peg Stability Module (PSM) of Sky (formerly MakerDAO) has processed $518 million in transactions involving 422 wallets linked to illicit activities\u2014including hacks, phishing attacks, and sanctioned entities\u2014with $101.9 million directly tied to North Korean hackers. Within 10 days following the 2025 Bybit hack, associated wallets converted $91.5 million in assets through the PSM.\n\nCurrently, Sky's PSM holds approximately $2.7 billion in USDC within a single Ethereum address; if Circle were to blacklist that address at the request of law enforcement, the entire reserve could be frozen, potentially impairing redemptions and the peg stability of DAI and USDS. In response, the Sky Frontier Foundation stated that the flagged transactions do not mean all funds were stolen assets, noting that the volume accounts for less than 0.06% of PSM's over $930 billion in cumulative volume and occurred almost entirely via third-party DEX aggregators rather than Sky's official website, which implements wallet screening. \u2014 link",
 "title": "Investigation: Sky (Formerly MakerDAO) Peg Stability Module Processed $518M in Transactions Linked to Illicit Wallets, Including $101.9M Tied Directly to North Korean Hackers",
@@ -519,7 +519,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795079817.0,
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
@@ -798,7 +798,7 @@
 "srcs": [
 "Haberler.com"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795088795.0,
 "tgtext": "",
 "title": "Massive scam under the promise of crypto investment! 3.2 billion lira in movement across accounts",
@@ -816,6 +816,19 @@
 "tgtext": "The total supply of $USDT on #TRON has grown year after year, reaching $94.21B and accounting for 54% of the total $USDT supply.",
 "title": "The total supply of USDT on TRON has grown year after year, reaching $94.21B and accounting for 54% of the total USDT supply.",
 "url": "https://t.me/lookonchainchannel/11129",
+"urls": []
+},
+"3b7f41b6e518": {
+"coin": "",
+"src": "ITWeb",
+"srcs": [
+"ITWeb"
+],
+"t": 1795097095.5393543,
+"t0": 1795082700.0,
+"tgtext": "",
+"title": "Binance secures order to freeze stolen $6.5bn crypto",
+"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRmg3OWpvLXplLTMtT1l3b2F1aHRYSWc4cnV5b1RQcDRvTFFFNTdaZi1reTBnZ0dRU3lVa0p5T3l5S3dLdlFOMk4wSnExeDJISUtiV1R1c3BqVV9WWm4tRlM4YllzMzA1NWxkaS1saUQtalpCQUJOdDNZaDRJQ1RRRmdpemg3VS1IMUdtZFRLWlZGY2NPWXBoUF9ZU2ROY1la?oc=5",
 "urls": []
 },
 "3c20f0564cc6": {
@@ -1482,19 +1495,6 @@
 "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"773763f816e1": {
-"coin": "bitcoin",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1794923711.2966728,
-"t0": 1794923162.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Michael Saylor says banks are bringing Bitcoin to their clients.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 Michael Saylor says banks are bringing Bitcoin to their clients.",
-"url": "https://t.me/WatcherGuru/16094",
-"urls": []
-},
 "77dc43735f70": {
 "coin": "bitcoin",
 "src": "Crowdfund Insider",
@@ -1713,7 +1713,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795094914.0,
 "tgtext": "Ahead of #Anthropic's market debut, a whale is building a massive short position on #Anthropic on #Hyperliquid!  The position has already reached $93.87M, with over $4M in unrealized profit.  https://hypurrscan.io/address/0xecc846a664e910103c179827dd23fea82cfcd8ce#perps\u2026",
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid! The position has already reached $93.87M, with over $4M in unrealized profit. https://hypurrscan.io/address/0xe",
@@ -2154,7 +2154,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795095524.0,
 "tgtext": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000\n\nU.S. initial jobless claims for the week ended November 14 came in at 203,000, compared with expectations of 197,000, while the prior week's figure was revised from 200,000 to 202,000. \u2014 link",
 "title": "U.S. Weekly Initial Jobless Claims Come In at 203,000, Above Expectations of 197,000",
@@ -2431,7 +2431,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795083014.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.\n\nIs he planning to buy the dip on these tokens?\n\nhttps://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC.",
@@ -2742,7 +2742,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795096480.1807106,
+"t": 1795096789.438407,
 "t0": 1795093897.0,
 "tgtext": "JUST IN: IMF chief warns rising AI demand will push global interest rates higher.\n\n@WatcherGuru",
 "title": "IMF chief warns rising AI demand will push global interest rates higher.",
@@ -2802,7 +2802,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795082596.0,
 "tgtext": "Two whales unstaked a total of 2.31M $SOL ($169.4M) and deposited it into #CoinbasePrime today.\n\nhttps://arkm.com/explorer/address/8o7NN85Z34GMMBWU9L2dx42o6nKG8CPBfWcytBHqTxDf\nhttps://arkm.com/explorer/address/4EAjRbkPcBdb5VKYGwjbiAu3KEmv6QgoBkPgMiyE8Qgm",
 "title": "Two whales unstaked a total of 2.31M SOL ($169.4M) and deposited it into CoinbasePrime today.",
@@ -3026,6 +3026,25 @@
 "urls": [
 "https://www.coindesk.com/policy/2026/11/17/predictions-platform-kalshi-complies-with-order-to-halt-trump-mention-contracts",
 "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
+"e584a0612b85": {
+"coin": "",
+"src": "Yahoo Finance",
+"srcs": [
+"CNA",
+"Decrypt",
+"Technology Org",
+"The 420.in",
+"Yahoo Finance"
+],
+"t": 1795097095.5393543,
+"t0": 1795077839.0,
+"tgtext": "",
+"title": "Abu Dhabi Ruling Gives Binance a Legal Path to Reclaim Billions Frozen in Its Hack",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRS1FQzk1aUtXUkRFUHFiTENQYTZ1RDdWYjBxNkdHMUZYXzdhTVNLVDZab0Rzb1U5ZWFHRzZPZGlQQzJWNnV5a1VrYnVBMkR4cEVtOVRHOEZOazREVGV0eUJPcmdsU01tV0VxZVhvLUExbVNQVXU4YVlndE9JNjdIUmNsYWRKdzJUWUk1MGNmSEVBR3RWZ2t0OWw2WQ?oc=5",
+"urls": [
+"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
 ]
 },
 "e5d944a875bb": {
@@ -3324,7 +3343,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795096480.1807106,
+"t": 1795097095.5393543,
 "t0": 1795078947.0,
 "tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
@@ -3406,46 +3425,46 @@
 "rain": 1795006877.5790248
 },
 "probs": {
-"027caacb4fae": 0.063,
-"03341b635235": 0.242,
-"0783cb382ab3": 0.075,
+"01ba790c435d": 0.048,
+"0783cb382ab3": 0.126,
 "090e056b3d16": 0.152,
 "0bdd6579777f": 0.029,
 "0becf1b6feb8": 0.156,
 "0ee472a85f7b": 0.885,
-"11cd675dba1a": 0.084,
 "1230e7f1af48": 0.114,
 "12be69f343f3": 0.064,
 "16819ff6353a": 0.299,
 "17ac78650387": 0.128,
 "25cd150dcc20": 0.911,
+"280ebe6a47b6": 0.011,
 "286747abe283": 0.359,
 "2ac361507fce": 0.088,
 "3acac26bf6de": 0.611,
-"3d77a55ecdde": 0.069,
+"3b7f41b6e518": 0.481,
 "40da4e435320": 0.071,
+"5d33271320b1": 0.186,
 "6bbbe7587efd": 0.054,
 "725a42e6f822": 0.399,
+"7571d0046a01": 0.013,
 "767c5c03b0ff": 0.11,
 "7c5990d4ed6d": 0.053,
-"7d7fdaf17d0f": 0.069,
+"7fcdc2502438": 0.172,
 "8455158d54a9": 0.208,
-"8523697f833d": 0.996,
+"8523697f833d": 0.998,
 "8ec81c1919de": 0.159,
 "9744279116a7": 0.062,
 "9d42f7499329": 0.362,
 "a32e78011cf3": 0.382,
-"b1857c14b8ae": 0.808,
-"bbc47a01f439": 0.062,
 "c9315c73e5ab": 0.686,
+"d32b1f96acf1": 0.084,
 "e01e1dd051b4": 0.04,
-"e525b4b4c275": 0.068,
-"e6b7e7f2b9bf": 0.026,
+"e584a0612b85": 0.806,
 "e8fa42055ad7": 0.355,
 "ec1d82f9802c": 0.424,
-"f39bf031e9c5": 0.168,
-"f416d8f38575": 0.446,
-"f881547df10c": 0.11
+"f39bf031e9c5": 0.231,
+"f416d8f38575": 0.3,
+"f881547df10c": 0.11,
+"fafa0cd2264f": 0.054
 },
 "sent": [
 {
@@ -4858,63 +4877,63 @@
 [
 "8523697f833d",
 24,
-26,
+36,
 1
 ],
 [
 "25cd150dcc20",
-19,
-278,
+18,
+288,
 1
 ],
 [
 "0ee472a85f7b",
 48,
-145,
+155,
 2
 ],
 [
 "b1d9fc46c583",
-5,
-224,
+3,
+235,
 1
 ],
 [
-"b1857c14b8ae",
-62,
-358,
-7
+"e584a0612b85",
+67,
+321,
+5
 ],
 [
 "c9315c73e5ab",
-18,
-231,
-1
-],
-[
-"a4a438d9c541",
-10,
 16,
+242,
 1
 ],
 [
 "f862a2af8b64",
 0,
-292,
+302,
 1
 ],
 [
 "3acac26bf6de",
 43,
-128,
+138,
 1
 ],
 [
-"c8b510bf5c06",
+"a4a438d9c541",
 10,
-43,
+26,
+1
+],
+[
+"3b7f41b6e518",
+48,
+240,
 1
 ]
 ],
-"top_at": 1795096480.1807106
+"top_at": 1795097095.5393543
 }
