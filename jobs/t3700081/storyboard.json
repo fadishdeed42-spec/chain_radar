@@ -1,0 +1,120 @@
+{
+ "title": "The Night Bitcoin Split in Two ⚡ #Shorts",
+ "tone": "mystery",
+ "theme": "crimson",
+ "description": "March 11, 2013: Bitcoin split into two chains.\nThe new version 0.8 accepted a huge block (block 225,430, over 5,000 transactions). Older versions couldn't read it - their database ran out of locks. Mt. Gox and BitPay paused deposits and the price dropped 24%.\nDevelopers chose the old chain, big mining pools downgraded, and about six hours later the chains joined again. 24 blocks were wiped out, and a $10,000 double spend hit OKPay.\n\nBug or warning? 👇\n\nNot financial advice. Entertainment and education only.",
+ "hashtags": "#Shorts #bitcoin #crypto #cryptohistory #blockchain",
+ "pinned": "Would you have picked the old chain or the new one? 👇",
+ "respell": {},
+ "scenes": [
+  {
+   "role": "hook",
+   "line": "Three days before taking office, Donald Trump launched his own crypto coin.",
+   "hit": "coin",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "punch": true
+  },
+  {
+   "role": "setup",
+   "line": "Two days later, it hits seventy-three dollars. Fourteen and a half billion in total.",
+   "hit": "total",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "setup",
+   "line": "But eighty percent of the coins belong to Trump-linked companies.",
+   "hit": "companies",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "twist",
+   "line": "By March, the price is down more than eighty percent.",
+   "hit": "percent",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": "",
+   "punch": true
+  },
+  {
+   "role": "payoff",
+   "line": "Then an offer: the top two hundred twenty holders get dinner with the President.",
+   "hit": "president",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "payoff",
+   "line": "The price jumps again.",
+   "hit": "again",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  },
+  {
+   "role": "end",
+   "line": "Meme coin, or the most expensive dinner ticket ever?",
+   "hit": "ever",
+   "visual": {
+    "type": "flow"
+   },
+   "beats": [],
+   "shots": [],
+   "footage": "",
+   "photo": ""
+  }
+ ],
+ "chart": {},
+ "lesson": "",
+ "length": 60,
+ "settings": {
+  "length": 55,
+  "style": "film",
+  "autorender": false,
+  "chart": "off",
+  "energy": "high",
+  "cuts": "fast",
+  "pace": "fast",
+  "motion": "strong",
+  "captions": "flow",
+  "music": "off",
+  "whoosh": "off"
+ },
+ "target_words": 138,
+ "headline": "TRUMP'S COIN HIT $14.5 BILLION / THEN LOST 80%",
+ "voice_style": "A",
+ "est_secs": 62,
+ "words": 142,
+ "length_ok": true,
+ "film3d": "studio/b3d/trump3d.py"
+}
