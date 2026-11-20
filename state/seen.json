@@ -110,11 +110,12 @@
 "coin": "bitcoin",
 "src": "Yahoo Finance",
 "srcs": [
+"BigGo Finance",
 "Cointelegraph",
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795120310.0,
 "tgtext": "JUST IN: Bitcoin falls under $62,000\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Bitcoin falls below $62,000 as Anthropic makes its Nasdaq debut. \n\nIs liquidity shifting from Bitcoin into Anthropic shares?\n\nNews | Markets | YouTube",
 "title": "Bitcoin Falls Below $62,000 As Senate Rejects Iran War Powers Resolution",
@@ -191,7 +192,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795124801.0,
 "tgtext": "JUST IN: Apple $AAPL is developing AI agent to rival OpenAI and Anthropic that can control devices, browse the web, and write code.\n\n@WatcherGuru",
 "title": "Apple AAPL is developing AI agent to rival OpenAI and Anthropic that can control devices, browse the web, and write code.",
@@ -917,7 +918,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795138543.8726747,
+"t": 1795139700.7364836,
 "t0": 1795128001.0,
 "tgtext": "\ud83d\udea8 JUST IN: California\u2019s Department of Justice has questioned NVIDIA over whether it misled investors and the public, according to the state\u2019s attorney general.\n\nNews | Markets | YouTube",
 "title": "California\u2019s Department of Justice has questioned NVIDIA over whether it misled investors and the public, according to the state\u2019s attorney general.",
@@ -1155,7 +1156,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795138751.0,
 "tgtext": "Binance US Moves Closer to U.S. Perpetual Futures as CFTC Clears DCM and DCO Applications for Substantive Review\n\nBinance US said the U.S. Commodity Futures Trading Commission (CFTC) has deemed its applications to register as a designated contract market (DCM) and derivatives clearing organization (DCO) substantially complete, moving them into substantive review. Neither application has been approved. DCM registration would allow Binance US to offer derivatives trading, including futures and options, while DCO registration would allow it to clear those trades. Binance US plans to use both registrations to offer U.S. users regulated derivatives, including perpetual futures. It has not launched any derivatives products and must await formal CFTC approval before doing so.\n\nAccording to the U.S. Commodity Futures Trading Commission (CFTC) website, BAM Derivatives LLC submitted Binance US\u2019s application to register as a designated contract market (DCM). The filing appeared in the public record on November 19 and is currently listed as \u201cpending.\u201d BAM Derivatives plans to list Bitcoin and Ether perpetual contracts, with BAM Clearing LLC providing clearing services. \u2014 link",
 "title": "Binance US Moves Closer to U.S. Perpetual Futures as CFTC Clears DCM and DCO Applications for Substantive Review",
@@ -1773,7 +1774,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795118192.0,
 "tgtext": "\u26a1\ufe0f\ufe0f\ufe0f\ufe0f INTERESTING: When GTA V launched in 2013, the game cost $59.99 and Bitcoin was trading at just $135. \n\nFast forward to 2026, GTA VI is priced at $79.99, while Bitcoin has surged to $63,800.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: When GTA V launched in 2013, the game cost $59.99 and Bitcoin was trading at just $135.",
@@ -2436,6 +2437,19 @@
 "url": "https://t.me/lookonchainchannel/11130",
 "urls": []
 },
+"b6acc532e443": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795139700.7364836,
+"t0": 1795139196.0,
+"tgtext": "James Wynn(@JamesWynnReal) got liquidated 5 times during the market drop!\n\nHe still holds ~$3.14M in $BTC and $SP500 longs.\n\nLiquidation prices:\n$BTC: $60,177.61\n$SP500: $7,047.46\n\nhttps://hypurrscan.io/address/0x5078C2fBeA2b2aD61bc840Bc023E35Fce56BeDb6#perps",
+"title": "James Wynn(@JamesWynnReal) got liquidated 5 times during the market drop!",
+"url": "https://t.me/lookonchainchannel/11166",
+"urls": []
+},
 "b8146b8bb099": {
 "coin": "zcash",
 "src": "BigGo Finance",
@@ -2475,7 +2489,7 @@
 "CryptoPotato",
 "Cryptonews.net"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795122250.0,
 "tgtext": "",
 "title": "Bitcoin Price Tests $64K Amid Anthropic IPO\u2014Then Falls Back Near $62K",
@@ -2826,7 +2840,7 @@
 "Traders Union",
 "Yahoo Finance Singapore"
 ],
-"t": 1795138980.463056,
+"t": 1795139396.2348077,
 "t0": 1795125300.0,
 "tgtext": "",
 "title": "SEC's fund chief says 3x and 5x single-stock ETFs won't get approval: 'The law says 2x'",
@@ -2989,7 +3003,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795127811.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 California launches investigation into Nvidia $NVDA for potentially misleading investors.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 California launches investigation into Nvidia NVDA for potentially misleading investors.",
@@ -3196,19 +3210,6 @@
 "https://bitcoinmagazine.com/news/binance-abu-dhabi-order-recover-frozen"
 ]
 },
-"eee9ef1e40dc": {
-"coin": "ethereum",
-"src": "Cryptonews.net",
-"srcs": [
-"Cryptonews.net"
-],
-"t": 1794966386.3890116,
-"t0": 1794960903.0,
-"tgtext": "",
-"title": "Ethereum Price Today: ETH Holds $1,800 as the ETH/BTC Ratio Defends 0.028",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vNkNqU0syZnUtX05QdlNpU3JwVm1mR1U0bUJqcFdNVjdqcGhQTEVFd1VwVURlTEtTM3FxNWx3Wmk2OFBIeUprU1lCQUx3SzAzNkF0Rk12YVd4UQ?oc=5",
-"urls": []
-},
 "f003d1a8ccdd": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3262,7 +3263,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795131344.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Department of Agriculture suffers cyberattack, forcing multiple government systems offline.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US Department of Agriculture suffers cyberattack, forcing multiple government systems offline.",
@@ -3276,7 +3277,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795138980.463056,
+"t": 1795139700.7364836,
 "t0": 1795130279.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump discloses 751 stock trades in September totaling up to $148,000,000\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: President Trump\u2019s investment accounts made 751 trades worth up to $148M in September, per CNBC. \n\nThey bought Nvidia, Palantir and SpaceX around the time those companies landed major federal contracts.\n\nNews | Markets | YouTube",
 "title": "President Trump\u2019s investment accounts made 751 trades worth up to $148M in September, per CNBC.",
@@ -3428,26 +3429,28 @@
 "002cc97d1384": 0.037,
 "027671282df7": 0.049,
 "02ea8d35c656": 0.1,
-"04eb8a2a2086": 0.759,
+"04eb8a2a2086": 0.821,
+"07c32cb5fb9e": 0.086,
 "0e69bd2eb7e6": 0.018,
 "105f5d52a74c": 0.072,
 "2818b75364ee": 0.031,
 "2e33e97b04d5": 0.039,
 "4199c61cba75": 0.075,
+"429cdd238465": 0.137,
 "42e2e65e51d6": 0.062,
-"457760c416c6": 0.213,
+"457760c416c6": 0.568,
 "4cbcaf900585": 0.045,
-"540a25c3ea9b": 0.036,
-"58988e1ff3a8": 0.042,
 "589a104c578a": 0.036,
-"598aacddffc9": 0.963,
-"5dcf713b1ca5": 0.07,
+"598aacddffc9": 0.653,
+"5dcf713b1ca5": 0.167,
 "661f344af6e8": 0.062,
 "6e080ff64966": 0.042,
 "7b264bf691a7": 0.024,
 "804b2c2fc03e": 0.121,
+"848a09dd7dfe": 0.035,
 "8d75d9385581": 0.06,
 "a65554b6a7ba": 0.031,
+"b6acc532e443": 0.994,
 "b9b6c40e68ec": 0.261,
 "bd3b2d360714": 0.008,
 "bda5b7ef0a1c": 0.246,
@@ -3456,15 +3459,13 @@
 "c74490bb395d": 0.021,
 "c7d5596eb15c": 0.041,
 "c9fb0ea0d617": 0.056,
-"cd2f64168e29": 0.395,
-"e0b0e1906dcd": 0.504,
+"e0b0e1906dcd": 0.563,
 "e3218415154a": 0.225,
 "eaaba28aad94": 0.054,
-"f1817eb2f8f4": 0.188,
+"f1817eb2f8f4": 0.202,
 "f402325811e1": 0.269,
-"f40280bf978b": 0.849,
-"fd88bd062399": 0.063,
-"fe1340e4e6cb": 0.037
+"f40280bf978b": 0.803,
+"fd88bd062399": 0.063
 },
 "sent": [
 {
@@ -4992,71 +4993,96 @@
 "review",
 "substantive"
 ]
+},
+{
+"e": [
+"james",
+"jameswynnreal",
+"wynn"
+],
+"k": [
+"crash"
+],
+"t": 1795139396.2348077,
+"u": [
+"https://t.me/lookonchainchannel/11166"
+],
+"w": [
+"drop",
+"during",
+"got",
+"james",
+"jameswynnreal",
+"liquidated",
+"market",
+"times",
+"wynn"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"598aacddffc9",
-18,
-4,
+"b6acc532e443",
+25,
+8,
 1
+],
+[
+"04eb8a2a2086",
+27,
+323,
+4
 ],
 [
 "f40280bf978b",
 34,
-145,
+157,
 2
 ],
 [
-"04eb8a2a2086",
-13,
-311,
-3
-],
-[
-"e0b0e1906dcd",
-10,
-186,
+"598aacddffc9",
+18,
+16,
 1
 ],
 [
-"cd2f64168e29",
-48,
-228,
-4
+"457760c416c6",
+9,
+195,
+1
+],
+[
+"e0b0e1906dcd",
+8,
+198,
+1
 ],
 [
 "09de8df254d7",
-3,
-236,
+1,
+248,
 1
 ],
 [
 "8935395d5406",
 0,
-346,
+358,
 1
 ],
 [
 "f402325811e1",
 10,
-127,
+139,
 1
 ],
 [
 "b9b6c40e68ec",
-28,
-279,
+27,
+291,
 2
-],
-[
-"bda5b7ef0a1c",
-12,
-336,
-1
 ]
 ],
-"top_at": 1795138980.463056
+"top_at": 1795139700.7364836
 }
