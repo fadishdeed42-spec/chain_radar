@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795093430.491051,
 1795097405.5239472,
 1795104964.681204,
 1795108259.920354,
@@ -18,7 +17,8 @@
 1795167423.4331722,
 1795170193.179803,
 1795170502.451694,
-1795172652.821847
+1795172652.821847,
+1795179839.6170082
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -312,6 +312,23 @@
 "url": "https://t.me/wublockchainenglish/26885",
 "urls": [
 "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk"
+]
+},
+"113f332ee510": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"TradingView",
+"bloomingbit"
+],
+"t": 1795179839.6170082,
+"t0": 1795172078.0,
+"tgtext": "",
+"title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
+"url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "124b5a9e35aa": {
@@ -954,6 +971,19 @@
 "url": "https://t.me/cointelegraph/73399",
 "urls": []
 },
+"45b9e50d6888": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795179839.6170082,
+"t0": 1795179460.0,
+"tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.  Is he planning to buy the dip on these tokens?  https://arkm.com/explorer/entity/arthur-hayes",
+"title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC. Is he planning to buy the dip on these tokens? https://arkm.com/explorer/entity/arthur-hayes",
+"url": "https://t.me/lookonchainchannel/11181",
+"urls": []
+},
 "46085acfeaff": {
 "coin": "",
 "src": "Incrypted",
@@ -1127,7 +1157,7 @@
 "Fox News",
 "Mezha.net"
 ],
-"t": 1795179443.5930383,
+"t": 1795179533.7690446,
 "t0": 1795160440.0,
 "tgtext": "",
 "title": "Georgia man charged with money laundering and evidence destruction after alleged crypto transfers to ISIS-linked groups",
@@ -1408,9 +1438,10 @@
 "srcs": [
 "Cointelegraph",
 "Lookonchain",
+"TradingView",
 "Wu Blockchain"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795166681.0,
 "tgtext": "Binance Hacker Moves $594M in ETH Over Two Days, Launders Funds via Chainflip and THORChain\n\nAccording to Onchain Lens, the Binance hacker transferred approximately $594 million worth of ETH over the past two days, including $248 million on November 19 and another 197,460 ETH (approximately $346 million) on November 20. The funds were redistributed to new wallets, with some moved and swapped through cross-chain protocols including Chainflip and THORChain. Tracked hacker-linked wallets still hold approximately 226,665 ETH, worth around $395.6 million. \u2014 link\nThe Binance hacker just moved another 197,460 $ETH ($346.2M) for laundering.\nhttps://arkm.com/explorer/entity/binance-hacker-2\nhttps://x.com/lookonchain/status/2123315988565471543",
 "title": "Binance Hacker Moves $594M in ETH Over Two Days, Launders Funds via Chainflip and THORChain",
@@ -1475,6 +1506,19 @@
 "tgtext": "",
 "title": "Strategy stock falls as analyst warns MSTR could crash to $23",
 "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT3ptYmdvenBBREUzUC1BZlppWlhsNWl3dE84VTZMUFBIb1hRSGJJWnN3QXdYb3cxclZuZmhVbTBvdGlqTEQ2eGt0NG5kREhVeUFPV2hvN3dzYUpBdWFkMUdpYjFyWUlNaHhBQVdGUGlEWVNWOUlUWHF2T2l1c2FmcnAxOERtdVhqeW9LQUFwNXQzd1pvOE9nUXkwOF9ucXhwTThWcjdzS25WbGFIUlg4SnNmcGZ2MTY1?oc=5",
+"urls": []
+},
+"741dab77f932": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795179839.6170082,
+"t0": 1795179674.0,
+"tgtext": "JUST IN: Anthropic $ANT crashes 10% to $87 pre-market following yesterday's IPO.\n\n@WatcherGuru",
+"title": "Anthropic ANT crashes 10% to $87 pre-market following yesterday's IPO.",
+"url": "https://t.me/WatcherGuru/16182",
 "urls": []
 },
 "75621fff8c98": {
@@ -1611,7 +1655,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795170337.0,
 "tgtext": "Ledger Confirms Physically Tampered Hardware Wallets Found in Berlin, Germany\n\nHardware wallet maker Ledger has updated its investigation into a supply chain tampering incident, confirming physically modified devices in Berlin, Germany. Two suspected devices in Dubai remain under investigation, while one affected Ledger Nano Gen 5 was identified in Southeast Asia.\n\nLedger said the modifications were designed to capture users' recovery phrases during setup. The company emphasized that its secure chips and operating systems were not compromised, and no confirmed cases involve devices purchased directly from its official website. Users concerned about third-party purchases in affected regions are advised to contact official Ledger Support. \u2014 link",
 "title": "Ledger Confirms Physically Tampered Hardware Wallets Found in Berlin, Germany",
@@ -1957,7 +2001,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795174102.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3 Chinese AI hacking tool reportedly allows anyone with an iPhone to launch cyberattacks.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3 Chinese AI hacking tool reportedly allows anyone with an iPhone to launch cyberattacks.",
@@ -1985,7 +2029,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795179443.5930383,
+"t": 1795179533.7690446,
 "t0": 1795158524.0,
 "tgtext": "Meet smart trader 0x7F49, who knows how to buy low and sell high!\n\nMar 16: Sold 3,676 $ETH ($8.44M) at $2,296.3.\n\nJun 5: Bought 4,851 $ETH ($8.1M) at $1,670.\n\nAug 20 & Oct 26: Sold 7,693 $ETH ($17.81M) at $2,315.6.\n\nToday: Bought 2,879 $ETH ($5M) at $1,736.5.\n\nhttps://arkm.com/explorer/address/0x7F4936Ed3Ee92Da54c972976b7a7d92Ad20b4728",
 "title": "Meet smart trader 0x7F49, who knows how to buy low and sell high!",
@@ -2167,7 +2211,7 @@
 "Crypto Headlines",
 "Lookonchain"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795178350.0,
 "tgtext": "BlackRock just deposit 5,400 $BTC($331M) and 71,597 $ETH($125M) to #CoinbasePrime.\n\nhttps://arkm.com/explorer/entity/blackrock\n\ud83d\udc47 \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f BlackRock \u0441\u0435\u0433\u043e\u0434\u043d\u044f \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 5400 BTC ($331m) \u0438 71,597 ETH ($125m) \u043d\u0430 \u0431\u0438\u0440\u0436\u0443 Coinbase Prime \u2013 \u043a\u043e\u0448\u0435\u043b\u0435\u043a\n\n\u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u0430\u043b\u044b (\u0438 \u0442\u043e\u043b\u043f\u0430) \u043f\u0440\u043e\u0434\u0430\u044e\u0442 Bitcoin \u0438 Ethereum ETF.\n\nCrypto Headlines",
 "title": "BlackRock just deposit 5,400 BTC($331M) and 71,597 ETH($125M) to CoinbasePrime.",
@@ -2585,7 +2629,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795172380.0,
 "tgtext": "Trader 0x70a0 is already up over $1.15M on @Aster_DEX in just 2 days!\n\nHe opened a 2x long on 5.03M $BTW ($3.26M) 2 days ago and is now sitting on over $1.15M in unrealized profit.\n\nhttps://www.asterdex.com/en/explorer/address/0x70a0b4bB84fd0A4281b27Fb0a33b7D1400703EdC",
 "title": "Trader 0x70a0 is already up over $1.15M on @Aster_DEX in just 2 days!",
@@ -2801,7 +2845,7 @@
 "Coin Gabbar",
 "The Crypto Times"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795160897.0,
 "tgtext": "",
 "title": "$XMR1 Price Crashes 99.8% After Suspicious Token Transfer: Hack or Exit Scam?",
@@ -2950,7 +2994,7 @@
 "Cointelegraph",
 "CryptoSlate"
 ],
-"t": 1795179443.5930383,
+"t": 1795179839.6170082,
 "t0": 1795161000.0,
 "tgtext": "\ud83d\udea8 UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.\n\nhttps://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip\n\nNews | Markets | YouTube",
 "title": "UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.",
@@ -3036,19 +3080,6 @@
 "urls": [
 "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
 ]
-},
-"e5d944a875bb": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1795006877.5790248,
-"t0": 1794989855.0,
-"tgtext": "Binance Plans to Enter Five Asian Markets Next Year, Focusing on South and Southeast Asia\n\nAccording to Reuters, Binance\u2019s Asia-Pacific head SB Seker said the company plans to enter five Asian markets next year, focusing on South and Southeast Asia. It is in talks with five or six markets, with three at an advanced stage. The markets were not named; details are expected in the first quarter of next year. Following a $6.3 billion crypto theft last month, Binance contacted regulators in Japan, South Korea, Australia, Thailand and New Zealand within 36 to 48 hours. Seker said discussions with regulators on industry-wide security threats are ongoing. \u2014 link",
-"title": "Binance Plans to Enter Five Asian Markets Next Year, Focusing on South and Southeast Asia",
-"url": "https://t.me/wublockchainenglish/26871",
-"urls": []
 },
 "e71ee57af204": {
 "coin": "bitcoin",
@@ -3436,52 +3467,38 @@
 "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
 "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
 ]
-},
-"fed8a341d807": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795006877.5790248,
-"t0": 1794999422.0,
-"tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Chinese military is actively seeking Nvidia's $NVDA most advanced AI chips to strengthen its military capabilities.\n\n@WatcherGuru",
-"title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Chinese military is actively seeking Nvidia's NVDA most advanced AI chips to strengthen its military capabilities.",
-"url": "https://t.me/WatcherGuru/16126",
-"urls": []
 }
 },
 "movers": {
 "bitway": 1795075444.9495647,
+"pearl-2": 1795179839.6170082,
 "pieverse": 1795006877.5790248,
 "rain": 1795169575.8202703,
 "sky": 1795122033.1506746
 },
 "probs": {
-"0642ca9b4371": 0.17,
 "108ddc5be001": 0.177,
-"113f332ee510": 0.509,
+"113f332ee510": 0.787,
 "13654f752083": 0.064,
 "17871df0c5b4": 0.074,
-"1b30e310c521": 0.07,
 "1bcac911bbe2": 0.121,
 "1e2de383a6c4": 0.289,
+"27bb26ba8f82": 0.146,
 "3730c566f84e": 0.129,
 "37d1e34c59d5": 0.055,
-"38b2cff0d0e3": 0.067,
 "39f2edb36db8": 0.037,
-"4398fa21f8d1": 0.746,
-"46d3d8d84bfa": 0.05,
 "4982bf40d4ee": 0.216,
-"54b2872f4b8d": 0.541,
-"5bd1f8e36dd7": 0.043,
-"62e7d93cce5d": 0.131,
-"6d69b277e9fc": 0.997,
+"4bb195673c9a": 0.117,
+"54b2872f4b8d": 0.205,
+"68636c3974f2": 0.09,
+"6d69b277e9fc": 0.989,
 "6f223bb4469d": 0.166,
+"741dab77f932": 0.877,
+"766e8205d669": 0.11,
 "7d9e49666202": 0.171,
 "840097d362d0": 0.118,
 "8bb7a41b502d": 0.065,
-"8e12e1112cea": 0.116,
+"94422291a827": 0.155,
 "97595ca7e127": 0.075,
 "a005ec02337c": 0.175,
 "a5ff31203656": 0.169,
@@ -3490,13 +3507,15 @@
 "ade0bb50dfc5": 0.966,
 "c494eb677fa8": 0.726,
 "c5f51d518677": 0.304,
-"ca1c16cfc7f6": 0.077,
+"ca1c16cfc7f6": 0.026,
 "cc8944178983": 0.209,
 "d47c1cc3d921": 0.643,
-"d822a1b6dd4a": 0.401,
+"d822a1b6dd4a": 0.494,
+"ddf48772b7a2": 0.298,
 "e069526bb6de": 0.863,
-"e280267536f6": 0.068,
 "eefe8ee5c67b": 0.095,
+"f0e5cf512f2b": 0.089,
+"f1cc9329c45e": 0.155,
 "f2b1cd37b01a": 0.421
 },
 "sent": [
@@ -5082,71 +5101,97 @@
 "eth",
 "just"
 ]
+},
+{
+"e": [
+"coinbase",
+"gemini",
+"vaneck"
+],
+"k": [
+"etf"
+],
+"t": 1795179839.6170082,
+"u": [
+"https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTZMcTZndkZ5ck9rWlNUVjJHOXo0UEh2b3llZEF6WmRpNFFoQUNJNDVUd0U2clU0Y3ZBRFlRZzRhR0psY2xacU1oNkljVGl2dGo2b05JNWNmWVV0cUdxaG56bUg3c2VoTXNiRXl5RUpOdjh2QU5EQUFNQVFuRDRLYTRpMXV1T0RzcHNVQlJ5UmgwejlRZlZ5eVYxLVJfeE1BNVVNNjYzaHUzV181V05FaXYyLXdhajNv?oc=5",
+"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qTU41NmN4RTBLLVI2MUlDaU5Nd1VHaWlYWWd6U01rNGx6eDk1TkdZUV9xZFRWeGZGd0hETmc4Q2FGS2pabHNtbmNsNUVtSmRPRlZLUw?oc=5"
+],
+"w": [
+"coinbase",
+"custody",
+"deals",
+"end",
+"etf",
+"gemini",
+"keeps",
+"vaneck"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"45b9e50d6888",
+10,
+6,
+1
+],
+[
 "6d69b277e9fc",
-40,
-213,
-3
+49,
+219,
+4
 ],
 [
 "ade0bb50dfc5",
 42,
-18,
+25,
 2
+],
+[
+"741dab77f932",
+20,
+3,
+1
 ],
 [
 "e069526bb6de",
-69,
-307,
+68,
+314,
 4
 ],
 [
-"4398fa21f8d1",
-43,
-273,
-2
+"113f332ee510",
+52,
+129,
+3
 ],
 [
 "c494eb677fa8",
 16,
-118,
+124,
 1
 ],
 [
 "d47c1cc3d921",
-48,
-309,
+47,
+316,
 2
 ],
 [
 "a3966a9e5565",
 10,
-89,
+96,
 1
 ],
 [
 "7d6195058945",
 10,
-152,
-1
-],
-[
-"54b2872f4b8d",
-40,
-317,
-4
-],
-[
-"a4823cea2d5b",
-0,
-349,
+158,
 1
 ]
 ],
-"top_at": 1795179443.5930383
+"top_at": 1795179839.6170082
 }
