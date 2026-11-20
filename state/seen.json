@@ -347,7 +347,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795209301.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BREAKING: The U.S. stock market has reportedly wiped out $7 trillion in market capitalization this week.",
 "title": "The U.S. stock market has reportedly wiped out $7 trillion in market capitalization this week.",
@@ -636,7 +636,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795196591.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump announces agreement with China to establish joint rules for artificial intelligence.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump says the US and China will establish joint guardrails for \u201cSuper Intelligence,\u201d adding that President Xi also likes the name.\n\nNews | Markets | YouTube",
 "title": "Trump says the US and China will establish joint guardrails for \u201cSuper Intelligence,\u201d adding that President Xi also likes the name.",
@@ -690,7 +690,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795196060.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: Trump says he met with 20 world leaders in four days, secured two new trade deals, and expects 10 more to be announced soon.\n\nNews | Markets | YouTube",
 "title": "BIG: Trump says he met with 20 world leaders in four days, secured two new trade deals, and expects 10 more to be announced soon.",
@@ -939,15 +939,19 @@
 "src": "TheRadar",
 "srcs": [
 "CoinLaw",
+"Decrypt",
 "FinanceFeeds",
-"TheRadar"
+"TheRadar",
+"Yahoo Finance"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795193794.0,
 "tgtext": "",
 "title": "Binance wins a $6.5bn freezing order over its hack. What it does not change for Nigerian users",
 "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSDNPN1p2X0plLVJyYV9sSHhGd0QxcnVCSkJDcFlOQTR6VUhtNXZsbUhMWThzSTRfX3MzaFVuS3JjdS1QM2Z2SjAwWmYtdFdYYWdmUVdZNFRfV3JBMG50MmlrQnBILWJQUkxhTTJRdHp0V1pNOEpNNUF3WlBCWjBqd1BmY01uSTJMdTcxM1p0dUNwcy1jX25ua3FlTno4YkZyWG91Z2ZReEVuR0JqdkxhRGlvOXVrUWJHeFJOUE1uRQ?oc=5",
-"urls": []
+"urls": [
+"https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host"
+]
 },
 "437a23df8451": {
 "coin": "",
@@ -1325,7 +1329,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795209327.511306,
+"t": 1795213011.3602936,
 "t0": 1795197294.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Trump says the US should have the lowest interest rate in the world because it is \u201cthe country that makes other countries successful.\u201d\n\nHe said oil prices have fallen 20% since early November and that US manufacturing has expanded for 10 consecutive months. \n\nTrump also criticized the Federal Reserve for keeping interest rates too high and said Iran's proposed deal terms remain unacceptable to him.\n\nNews | Markets | YouTube",
 "title": "Trump says the US should have the lowest interest rate in the world because it is \u201cthe country that makes other countries successful.\u201d",
@@ -1929,13 +1933,13 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"Bitcoin News",
 "Coinpaper",
 "Cointribune",
 "CryptoTicker.io",
-"KuCoin",
-"Wu Blockchain"
+"KuCoin"
 ],
-"t": 1795207794.991233,
+"t": 1795213011.3602936,
 "t0": 1795191857.0,
 "tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
 "title": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B",
@@ -2628,20 +2632,6 @@
 "url": "https://t.me/WatcherGuru/16217",
 "urls": []
 },
-"bb310a57d339": {
-"coin": "bitcoin",
-"src": "Altcoin Buzz",
-"srcs": [
-"Altcoin Buzz",
-"Benzinga"
-],
-"t": 1795039743.400471,
-"t0": 1795026308.0,
-"tgtext": "",
-"title": "Fed Signals More Rate Hikes as Bitcoin Falls Below $63,000",
-"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5McGpXbi1OOVVsQnVNOHRGSjBBTHRWVHpXLTdQbVV2NnBSZTNUVVJOWTNWNjA2YXhPVmJKQnhKT2JlOWtNdS0wdUNBVjBqMWdSVVA1T2FnRHZKUmpVTGV4bzdCSFVROXcxaDBLeUYzdDZyX3h0SmpwcQ?oc=5",
-"urls": []
-},
 "bc3671fa5257": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2754,7 +2744,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795196074.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the US economy is growing faster than any other major developed country.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the US economy is growing faster than any other major developed country.",
@@ -3100,9 +3090,9 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795209803.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Tech stocks suffer worst week since the 2020 COVID pandemic.\n\n@WatcherGuru",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Tech stocks suffer worst week since the 2020 COVID pandemic.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US Tech stocks suffer worst week since the 2020 COVID pandemic.",
 "url": "https://t.me/WatcherGuru/16223",
 "urls": []
@@ -3143,7 +3133,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795193760.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf5 JUST IN: North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.\n\nNews | Markets | YouTube",
 "title": "North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.",
@@ -3361,9 +3351,9 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795211169.1236634,
+"t": 1795212706.3052227,
 "t0": 1795208723.0,
-"tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.\n\n$2.5 trillion wiped out of the US stock market today.\n\n@WatcherGuru",
+"tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.\n\n$2.5 trillion wiped out of the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.",
 "url": "https://t.me/WatcherGuru/16220",
 "urls": []
@@ -3406,27 +3396,6 @@
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump calls for Nvidia NVDA to reinstate Jensen Huang as CEO.",
 "url": "https://t.me/WatcherGuru/16211",
 "urls": []
-},
-"f003d1a8ccdd": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Bitcoin Foundation",
-"Bitcoin Magazine",
-"Bloomberg.com",
-"Business Day",
-"Cointelegraph"
-],
-"t": 1795039743.400471,
-"t0": 1795018258.0,
-"tgtext": "\ud83d\udea8 NEW: Binance has secured a court order in Abu Dhabi to recover crypto frozen following last month\u2019s $6.3 billion hack, per Reuters.\n\nNews | Markets | YouTube",
-"title": "Binance has secured a court order in Abu Dhabi to recover crypto frozen following last month\u2019s $6.3 billion hack, per Reuters.",
-"url": "https://t.me/cointelegraph/73371",
-"urls": [
-"https://bitcoinmagazine.com/news/binance-abu-dhabi-order-recover-frozen",
-"https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
-"https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "f0c3b7be9c24": {
 "coin": "",
@@ -3662,7 +3631,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795212397.4922118,
+"t": 1795213011.3602936,
 "t0": 1795195209.0,
 "tgtext": "Whale 0xaBbd panic-sold all 15,349 $ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!\n\nJust a few days ago, the whale also sold 32,541 $ETH ($63M) at $1,938 during the market crash to repay loans on #Aave.\n\nhttps://debank.com/profile/0xabbd5b2b0b034781e58434736728b9d0673de7f1/history",
 "title": "Whale 0xaBbd panic-sold all 15,349 ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!",
@@ -3727,45 +3696,45 @@
 },
 "probs": {
 "115f300e0488": 0.032,
+"1cb6a60a5be3": 0.206,
 "1e327b340be9": 0.025,
 "22889809249a": 0.09,
-"294306af6cda": 0.351,
 "296a1830a441": 0.015,
 "29f828ca720e": 0.035,
 "31e88ae9c76e": 0.794,
 "3e92ef5dc3fd": 0.015,
-"41784966cb49": 0.68,
+"41784966cb49": 0.709,
+"48bfd3f1ecb2": 0.039,
 "4b813860244c": 0.027,
 "56b7b16dadc9": 0.018,
 "5b281f4addfb": 0.029,
-"600895faaa3a": 0.051,
+"600895faaa3a": 0.02,
 "6ae4b9784831": 0.582,
-"6af7f94b626d": 0.107,
 "6dd2aadf4e18": 0.087,
 "7738bc8b39ed": 0.022,
 "78043fdb92dc": 0.512,
 "84910e6505e9": 0.133,
 "85e5f4f86a95": 0.055,
+"888b78258148": 0.022,
+"8c9d313d63e7": 0.924,
 "8e43484884b5": 0.068,
 "9104c7f53722": 0.1,
 "943fbad42270": 0.091,
 "96f795c25be2": 0.047,
-"9940c90beb4e": 0.036,
 "a037f0309a84": 0.442,
 "ab9b9ffee484": 0.46,
 "b3c18f868737": 0.137,
-"c00dfcb0e60b": 0.108,
+"b97578971ca8": 0.032,
+"c00dfcb0e60b": 0.083,
 "c8298b8b8bd4": 0.104,
 "d130eca96b3a": 0.067,
 "d2d4e8e428fa": 0.076,
-"de4d77ed137e": 0.774,
 "df0e35c05fcd": 0.707,
 "df4abc0a9a19": 0.018,
-"ecd8ff24c0c8": 0.342,
+"ecd8ff24c0c8": 0.102,
 "ee3aace71b7c": 0.063,
 "ee7985eb3559": 0.32,
-"f2b15b074389": 0.78,
-"f8cc0c11ad77": 0.802
+"f8cc0c11ad77": 0.683
 },
 "sent": [
 {
@@ -5695,65 +5664,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"f8cc0c11ad77",
-20,
-286,
-1
+"8c9d313d63e7",
+62,
+353,
+8
 ],
 [
 "31e88ae9c76e",
-17,
-263,
+16,
+274,
 2
-],
-[
-"f2b15b074389",
-62,
-359,
-7
-],
-[
-"de4d77ed137e",
-17,
-356,
-1
 ],
 [
 "14e25a3516c4",
 10,
-52,
+62,
 1
 ],
 [
+"41784966cb49",
+67,
+320,
+5
+],
+[
 "df0e35c05fcd",
-62,
-311,
+61,
+321,
 6
 ],
 [
-"41784966cb49",
-52,
-310,
-3
+"f8cc0c11ad77",
+19,
+297,
+1
 ],
 [
 "3602850acdfd",
-6,
-272,
+5,
+283,
 1
 ],
 [
 "c32c14c7051b",
-6,
-272,
+5,
+282,
 1
 ],
 [
 "ddea8b47a5f5",
 10,
-43,
+53,
+1
+],
+[
+"62aeeb86e532",
+8,
+262,
 1
 ]
 ],
-"top_at": 1795212397.4922118
+"top_at": 1795213011.3602936
 }
