@@ -136,21 +136,6 @@
 "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNVUtMjlIYVp3bjc4REZObW1BcHNMb3g3S1dOV2R3cGVXTVdWT3hGY29oYXlEdXFPUm4wQVJDNDV1THZVRzJUNHZ2bVEtVjdOY0tTRVo3WlhBRDYwT2VfU25vMDVxaVV0QXpfbXRYcVlvM19RaHlIZmFocVZ4MmRjS2NHQzRweHdNald4RDFUUmx0eVV3cFE?oc=5",
 "urls": []
 },
-"05a5d707639b": {
-"coin": "bitcoin",
-"src": "Watcher.Guru",
-"srcs": [
-"BigGo Finance",
-"Crypto Briefing",
-"Watcher.Guru"
-],
-"t": 1795022738.314841,
-"t0": 1795007021.0,
-"tgtext": "JUST IN: $2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.\n\n@WatcherGuru",
-"title": "$2.8 trillion Citi cuts Bitcoin price target to $99,532 and Ethereum to $2,838.",
-"url": "https://t.me/WatcherGuru/16127",
-"urls": []
-},
 "0617b2ebc813": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -529,7 +514,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795193204.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Dow Jones officially enters correction territory, falling 10% from its all-time high.\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 S&P 500 officially enters correction territory, falling 10% from its all-time high.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Dow Jones officially enters correction territory, falling 10% from its all-time high.",
@@ -872,7 +857,7 @@
 "Traders Union",
 "TradingView"
 ],
-"t": 1795195532.0655758,
+"t": 1795195841.0705135,
 "t0": 1795174301.0,
 "tgtext": "\ud83d\udea8 UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.\n\nhttps://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip\n\nNews | Markets | YouTube",
 "title": "UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.",
@@ -922,7 +907,7 @@
 "Pluang",
 "Yahoo Finance"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795180326.0,
 "tgtext": "",
 "title": "Bitcoin plunges below $62,000 amid tech selloff, inflation fears, and largest crypto hack ever.",
@@ -1021,7 +1006,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795179460.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.  Is he planning to buy the dip on these tokens?  https://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC. Is he planning to buy the dip on these tokens? https://arkm.com/explorer/entity/arthur-hayes",
@@ -1409,6 +1394,19 @@
 "https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price"
 ]
 },
+"6bfc2979f9e2": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795196147.2445202,
+"t0": 1795194327.0,
+"tgtext": "JUST IN: \"Big Short\" investor Michael Burry says he sold half of his Nvidia $NVDA short position.\n\n@WatcherGuru",
+"title": "\"Big Short\" investor Michael Burry says he sold half of his Nvidia NVDA short position.",
+"url": "https://t.me/WatcherGuru/16207",
+"urls": []
+},
 "6d235c99331a": {
 "coin": "",
 "src": "Lookonchain",
@@ -1448,7 +1446,7 @@
 "Cointelegraph",
 "Lookonchain"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795182518.0,
 "tgtext": "Tether has burned 8B $USDT over the past 20 days!\n\nhttps://etherscan.io/address/0xC6CDE7C39eB2f0F0095F41570af89eFC2C1Ea828#tokentxns\n\ud83d\udea8 LATEST: Tether has burned 8,000,000,000 $USDT in 20 days.\n\nNews | Markets | YouTube",
 "title": "Tether has burned 8B USDT over the past 20 days!",
@@ -1628,23 +1626,6 @@
 "tgtext": "",
 "title": "SEC\u2019s Daly sees no chance of launching 3x, 5x single-stock leveraged ETFs By Reuters",
 "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ1VQeV91RDJhRTltSEdzRVlYb3dWOE1qVk96UTAwVDN0UHJyN1o3TWlIVzg2TURtZmxjRVdGaUxsLWlFOG4tNlRHYVQzOFFDR2tNR1lFbXh3LXhXbnFQa0pQaURXYUhOTkpoTFlFSjluMVNEYnE5MHJzOVlzUF9YbzktWUFfRHZ5S0tDT2pKcmN3bTJpdGFFTDJZcTVmSF9zWFN5VzNMRXFnLW50UVpJZmY2dlNQU1NXVWhtWGYxVzVKUVJISEE?oc=5",
-"urls": []
-},
-"7ba77a8c6bff": {
-"coin": "",
-"src": "Incrypted",
-"srcs": [
-"CoinGape",
-"Incrypted",
-"The Crypto Times",
-"The Cryptonomist",
-"The Defiant"
-],
-"t": 1795023053.1592271,
-"t0": 1795001522.0,
-"tgtext": "",
-"title": "In the US, a Hacker Was Sentenced to Six Years in Prison for Stealing $11.6 Million in Cryptocurrency",
-"url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSElPb2Fsa2g0TmdETW0tMTlwbDd2c3pkT2Fydi1qNlVhLXBZN1piOVMyaFFTbUE2SjItTTlBaVliblRnOXNZXzFrbVJxcldaMUJpWWJycnc4SzVEaU5Cd3YtM0lXdzd4ekZidjZHNW0wemtVUjhLYzhUR2R4bVNOZEx6QnVSTXhFcFZaRTBMZC00ZWxfZW96RG4tNVgwZVlPZjdFdTl4WXpGalh0TWFNZ0s0aTF5QTUxTE15alNPVEQwbXM?oc=5",
 "urls": []
 },
 "7c02bae6b3fe": {
@@ -2142,7 +2123,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795192548.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' currently has a $14,100,000,000 unrealized loss on its Bitcoin investment.\n\nTom Lee's 'Bitmine' currently has a $10,100,000,000 unrealized loss on its $ETH investment.\n\n@WatcherGuru",
 "title": "Michael Saylor's 'Strategy' currently has a $14,100,000,000 unrealized loss on its Bitcoin investment.",
@@ -2200,6 +2181,23 @@
 "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
 ]
+},
+"aaa3364bd3d0": {
+"coin": "ethereum",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Crypto Economy",
+"NewsCord",
+"Traders Union",
+"Yahoo Finance"
+],
+"t": 1795196147.2445202,
+"t0": 1795174711.0,
+"tgtext": "\ud83d\udea8 UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.\n\nhttps://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip\n\nNews | Markets | YouTube",
+"title": "UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.",
+"url": "https://t.me/cointelegraph/73409",
+"urls": []
 },
 "aae97662904f": {
 "coin": "",
@@ -2401,7 +2399,7 @@
 "Cryptonews.net",
 "www.tokenpost.com"
 ],
-"t": 1795194917.0007577,
+"t": 1795195841.0705135,
 "t0": 1795192135.0,
 "tgtext": "",
 "title": "Crypto liquidations top $2 billion in 24 hours as Bitcoin slides toward $62,000",
@@ -2725,7 +2723,7 @@
 "Lookonchain",
 "Watcher.Guru"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795188424.0,
 "tgtext": "\ud83d\udea8 ALERT: Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.\n\nNews | Markets | YouTube\nJUST IN: $1,330,000,000 liquidated from the cryptocurrency market in the past 24 hours.\n\nLongs: $1.2 billion\nShorts: $131 million\n\n@WatcherGuru\nOver the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
 "title": "Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.",
@@ -3109,7 +3107,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795191554.0,
 "tgtext": "JUST IN: Financial markets are crashing\n\nGold falls under $3,550\nS&P 500 falls under 7,100\nNasdaq falls under 25,800\nBitcoin falls under $59,000\n\nTrillions of dollars in combined market value have been wiped out today.\n\n@WatcherGuru",
 "title": "Financial markets are crashing",
@@ -3509,7 +3507,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795195532.0655758,
+"t": 1795196147.2445202,
 "t0": 1795195209.0,
 "tgtext": "Whale 0xaBbd panic-sold all 15,349 $ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!\n\nJust a few days ago, the whale also sold 32,541 $ETH ($63M) at $1,938 during the market crash to repay loans on #Aave.\n\nhttps://debank.com/profile/0xabbd5b2b0b034781e58434736728b9d0673de7f1/history",
 "title": "Whale 0xaBbd panic-sold all 15,349 ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!",
@@ -3574,45 +3572,45 @@
 },
 "probs": {
 "06c40dabb904": 0.159,
-"17871df0c5b4": 0.088,
-"1ff7c378ceef": 0.865,
+"17871df0c5b4": 0.049,
+"1ff7c378ceef": 0.931,
 "2f32520890d8": 0.154,
-"2f902e7d3c32": 0.01,
+"2f902e7d3c32": 0.043,
 "2feb978749d9": 0.064,
 "35cffd15c83f": 0.05,
-"37d1e34c59d5": 0.098,
+"37d1e34c59d5": 0.037,
 "3a3b0c92f78a": 0.462,
-"3ba6a02dc0d9": 0.825,
 "3fffbbe08697": 0.889,
-"40fb1d16df67": 0.913,
+"40fb1d16df67": 0.255,
 "442246b3b855": 0.046,
 "4660961a9835": 0.215,
 "6dd2aadf4e18": 0.29,
 "6f0ba11969a7": 0.916,
 "706f12bb0446": 0.735,
+"71a3992e36d1": 0.141,
+"7434edfc3e43": 0.038,
 "8e43484884b5": 0.064,
 "9352f5563a74": 0.788,
 "93f92c17ab1e": 0.4,
-"9654b88b4035": 0.419,
 "9bdce722e059": 0.151,
-"a5e17e47d357": 0.918,
 "a6b50d4f0711": 0.251,
-"ade0bb50dfc5": 0.773,
-"ae8fcc9bb5d5": 0.35,
-"b2fe811f2dd8": 0.783,
-"b3c18f868737": 0.762,
-"c0f73cd69ddb": 0.108,
+"aaa3364bd3d0": 0.981,
+"ade0bb50dfc5": 0.644,
+"ae8fcc9bb5d5": 0.77,
+"b3c18f868737": 0.797,
+"c0f73cd69ddb": 0.245,
+"c2467aac5967": 0.055,
 "c57132c73fe6": 0.034,
-"c5f51d518677": 0.441,
+"c5f51d518677": 0.386,
 "c64ed6edb501": 1.0,
 "d57a3a12beb3": 0.119,
-"d7d4f8b1dd9c": 0.01,
+"d7d4f8b1dd9c": 0.045,
 "e28a8044c238": 0.345,
 "e314e69f3e7a": 0.947,
-"e94ea8b6a8ca": 0.08,
-"ee18509a7a37": 0.045,
+"e5b81b61da11": 0.215,
 "f087638239b3": 0.194,
-"f8cc0c11ad77": 0.925
+"f28d5bee13d9": 0.516,
+"f8cc0c11ad77": 0.997
 },
 "sent": [
 {
@@ -5507,63 +5505,63 @@
 [
 "c64ed6edb501",
 70,
-118,
+129,
 4
 ],
 [
+"f8cc0c11ad77",
+49,
+16,
+1
+],
+[
+"aaa3364bd3d0",
+71,
+357,
+5
+],
+[
 "45b9e50d6888",
-0,
-268,
+12,
+278,
 1
 ],
 [
 "e314e69f3e7a",
 20,
-66,
+77,
 1
 ],
 [
-"f8cc0c11ad77",
-34,
-5,
+"1ff7c378ceef",
+30,
+49,
 1
 ],
 [
 "a5e17e47d357",
 18,
-50,
+60,
 1
 ],
 [
 "6f0ba11969a7",
-24,
-217,
+22,
+227,
 2
 ],
 [
-"40fb1d16df67",
-76,
-218,
-3
-],
-[
 "3fffbbe08697",
-72,
-253,
+70,
+264,
 4
 ],
 [
-"1ff7c378ceef",
+"6bfc2979f9e2",
+10,
 30,
-39,
 1
-],
-[
-"3ba6a02dc0d9",
-56,
-354,
-6
 ]
 ],
-"top_at": 1795195532.0655758
+"top_at": 1795196147.2445202
 }
