@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795083256.9125867,
 1795083872.6209118,
 1795093430.491051,
 1795097405.5239472,
@@ -17,7 +16,8 @@
 1795128446.5924501,
 1795155309.7038865,
 1795160334.5667403,
-1795167423.4331722
+1795167423.4331722,
+1795170193.179803
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -271,7 +271,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795156066.0,
 "tgtext": "Highlight Clip: Former SEC Chair: AI Bubble Could Burst Before the 2028 Election\n\nFormer SEC Chair: AI Bubble Could Burst Before the 2028 Election\n\nOn November 16, former SEC Chair Gary Gensler said in an interview with CNN that the AI bubble could burst before the 2028 U.S. presidential election, with a correction potentially comparable to the 2001 dot-com bust, though unlikely to be as severe as the 2008 financial crisis. The U.S. currently spends approximately 2.5% of its GDP annually on AI infrastructure. He noted that the railroad, electricity, and internet industries all experienced similar cycles of investment booms and contractions, while the rapid pace of lending today could further amplify the risks. (During his tenure as SEC Chair from 2021 to 2025, Gensler took a tough regulatory stance toward the cryptocurrency industry and pushed the SEC to take enforcement actions against major crypto firms such as Coinbase and Binance.) \u2014 link",
 "title": "Highlight Clip: Former SEC Chair: AI Bubble Could Burst Before the 2028 Election",
@@ -466,7 +466,7 @@
 "Cryptonews",
 "Wu Blockchain"
 ],
-"t": 1795169269.5294898,
+"t": 1795170193.179803,
 "t0": 1795153615.0,
 "tgtext": "Spot Bitcoin ETFs See $582 Million in Net Outflows on November 19, Marking Third Consecutive Day\n\nOn November 19 (ET), spot Bitcoin ETFs recorded total net outflows of $582 million, their third consecutive day of net outflows. Spot Ethereum ETFs recorded total net outflows of $131 million, marking their fifth consecutive day of net outflows. \u2014 link",
 "title": "Spot Bitcoin ETFs See $582 Million in Net Outflows on November 19, Marking Third Consecutive Day",
@@ -757,25 +757,6 @@
 "url": "https://t.me/lookonchainchannel/11176",
 "urls": []
 },
-"387a685c7ac7": {
-"coin": "usd-coin",
-"src": "Wu Blockchain",
-"srcs": [
-"Cointelegraph",
-"The Block",
-"Wu Blockchain",
-"Yahoo Finance"
-],
-"t": 1794997065.1556525,
-"t0": 1794975662.0,
-"tgtext": "Singapore\u2019s Largest Bank DBS Partners With Circle to Enable Direct USDC Minting and Redemption for Institutional Clients\n\nSingapore\u2019s DBS Bank and stablecoin issuer Circle have announced a partnership enabling eligible institutional clients to mint and redeem USDC directly through DBS, with 24/7, near-instant settlement between USD and USDC\u2014eliminating complete reliance on secondary market liquidity. The service is designed to support institutional treasury operations, payment settlements, and liquidity management. Building on their prior participation in the Monetary Authority of Singapore\u2019s (MAS) Project BLOOM, the two firms will also collaborate to advance interoperability across different forms of tokenized money and financial networks. \u2014 link",
-"title": "Singapore\u2019s Largest Bank DBS Partners With Circle to Enable Direct USDC Minting and Redemption for Institutional Clients",
-"url": "https://t.me/wublockchainenglish/26867",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
-"https://cointelegraph.com/news/world-bank-circle-citi-explore-stablecoins-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "3a917235e495": {
 "coin": "bitcoin",
 "src": "Hindustan Times",
@@ -917,7 +898,7 @@
 "Cryptonews.net",
 "www.tokenpost.com"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795148613.0,
 "tgtext": "",
 "title": "Bitcoin Slips to Four-Month Low Under $61,300 as ETF Outflows and Liquidations Snowball",
@@ -1122,7 +1103,7 @@
 "Fox News",
 "Mezha.net"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795160440.0,
 "tgtext": "",
 "title": "Georgia man charged with money laundering and evidence destruction after alleged crypto transfers to ISIS-linked groups",
@@ -1386,7 +1367,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795166681.0,
 "tgtext": "Binance Hacker Moves $594M in ETH Over Two Days, Launders Funds via Chainflip and THORChain\n\nAccording to Onchain Lens, the Binance hacker transferred approximately $594 million worth of ETH over the past two days, including $248 million on November 19 and another 197,460 ETH (approximately $346 million) on November 20. The funds were redistributed to new wallets, with some moved and swapped through cross-chain protocols including Chainflip and THORChain. Tracked hacker-linked wallets still hold approximately 226,665 ETH, worth around $395.6 million. \u2014 link",
 "title": "Binance Hacker Moves $594M in ETH Over Two Days, Launders Funds via Chainflip and THORChain",
@@ -1942,7 +1923,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795158524.0,
 "tgtext": "Meet smart trader 0x7F49, who knows how to buy low and sell high!\n\nMar 16: Sold 3,676 $ETH ($8.44M) at $2,296.3.\n\nJun 5: Bought 4,851 $ETH ($8.1M) at $1,670.\n\nAug 20 & Oct 26: Sold 7,693 $ETH ($17.81M) at $2,315.6.\n\nToday: Bought 2,879 $ETH ($5M) at $1,736.5.\n\nhttps://arkm.com/explorer/address/0x7F4936Ed3Ee92Da54c972976b7a7d92Ad20b4728",
 "title": "Meet smart trader 0x7F49, who knows how to buy low and sell high!",
@@ -2562,6 +2543,24 @@
 "url": "https://t.me/WatcherGuru/16140",
 "urls": []
 },
+"c8382ce391c1": {
+"coin": "",
+"src": "Tech Times",
+"srcs": [
+"Cointelegraph",
+"Crypto News",
+"Tech Times",
+"TradingView"
+],
+"t": 1795170193.179803,
+"t0": 1795161306.0,
+"tgtext": "",
+"title": "SEC Charges Eight Entities Over Fake Crypto Platforms Using Forged Certificates, Real SEC Filings",
+"url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVC1nYUU3QXliN2tBeWgyWF83LXpnT0Jhc2ZqOWpqV0lMWDVtMnBkN3VKaUY1RWdGZGFVblVxTm91RzVUaWFJbkhhS3VnZVFOVjRHRW5jaUN1d0VwZElkNWQybGhPMG1IMWJiMzdiTDBic1BPV2piSU9nY0pNV01udTVSR1pZall4NThLUEV0Q1VvWlp4Nk9adnlLLUhGTFdRQUFrekhXdnBZaDQzbktWYlQ3LUZrMDFleWVKdUUwd3RuSnBZX0VpbmUxR3I1MmJEQTZmRnVzUHVhVkJiM18yZHVEWW9XQQ?oc=5",
+"urls": [
+"https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "c8b510bf5c06": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2678,7 +2677,7 @@
 "Outlook Money",
 "openPR.com"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795153469.0,
 "tgtext": "",
 "title": "Fed's Binance Hack Warning Shakes Crypto Debate! Apeing Eyes Best Crypto to Buy Now Spotlight",
@@ -2693,7 +2692,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795157505.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his $TRUMP crypto memecoin on Sunday.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his TRUMP crypto memecoin on Sunday.",
@@ -2765,7 +2764,7 @@
 "Crypto News",
 "TradingView"
 ],
-"t": 1795169575.8202703,
+"t": 1795169885.953041,
 "t0": 1795161814.0,
 "tgtext": "",
 "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
@@ -3102,7 +3101,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795163123.0,
 "tgtext": "\ud83d\udd25 BIG: At Anthropic\u2019s $83 IPO price, its seven co-founders\u2019 stakes were worth nearly $139B combined.\n\nSacra estimates about 2,800 current and former employees could hold at least $1M each in vested equity before taxes, based on a $1.35T valuation.\n\nNews | Markets | YouTube",
 "title": "BIG: At Anthropic\u2019s $83 IPO price, its seven co-founders\u2019 stakes were worth nearly $139B combined.",
@@ -3231,7 +3230,7 @@
 "Binance",
 "Wu Blockchain"
 ],
-"t": 1795169575.8202703,
+"t": 1795170193.179803,
 "t0": 1795154663.0,
 "tgtext": "Binance Will Extend the Monitoring Tag to Include BANK, INIT, MITO, ONE, THE & ZIL, Remove the Seed Tag for MORPHO & HYPE on 2026-11-20\n\nBased on recent reviews, Binance will extend the Monitoring Tag to include more tokens on 2026-11-20.\n\n\ud83d\udc49\ud83c\udffbLearn more here\nBinance Adds Monitoring Tags to Six Tokens, Removes Seed Tags from MORPHO and HYPE\n\nAccording to an official announcement, Binance will add Monitoring Tags to Lorenzo Protocol (BANK), Initia (INIT), Mitosis (MITO), Harmony (ONE), THENA (THE) and Zilliqa (ZIL), and remove the Seed Tags from Morpho Token (MORPHO) and Hyperliquid (HYPE). \u2014 link",
 "title": "Binance Will Extend the Monitoring Tag to Include BANK, INIT, MITO, ONE, THE & ZIL, Remove the Seed Tag for MORPHO & HYPE on 2026-11-20",
@@ -3334,130 +3333,45 @@
 "06db2bd08570": 0.07,
 "0d375a143dde": 0.617,
 "13654f752083": 0.044,
+"1b30e310c521": 0.043,
 "1bcac911bbe2": 0.076,
 "1dfcad01761a": 0.335,
-"219fed2f5ef2": 0.133,
+"219fed2f5ef2": 0.072,
 "26e9d45ebc8b": 0.021,
+"279e7d7d07ab": 0.063,
 "3730c566f84e": 0.081,
 "3801680d07ad": 0.315,
 "437ec24a5a58": 0.505,
 "4a396f97cbc8": 0.02,
 "54b2872f4b8d": 0.382,
+"5bd1f8e36dd7": 0.026,
 "65d7d5463c43": 0.203,
-"67d55495552c": 0.061,
-"6d69b277e9fc": 0.741,
+"68636c3974f2": 0.055,
+"6d69b277e9fc": 0.675,
 "6f6477b44acb": 0.118,
 "728c61677767": 0.058,
+"766e8205d669": 0.069,
 "7d9e49666202": 0.187,
 "840097d362d0": 0.088,
 "9f304eb941a2": 0.014,
-"a4823cea2d5b": 0.355,
-"aa4e50fa47af": 0.12,
 "acf5ea90cdca": 0.283,
-"c3cd79704d0e": 0.112,
+"c8382ce391c1": 0.3,
 "c86958f8623a": 0.071,
 "cd3228e2e82b": 0.503,
 "cd6aa3d1c6d6": 0.69,
 "d025d22f2c41": 0.078,
-"d3680f4d1ba6": 0.038,
 "d47c1cc3d921": 0.321,
-"d822a1b6dd4a": 0.36,
 "db657fa7fc26": 0.043,
-"dfaf0dce4640": 0.171,
-"e141a065368c": 0.082,
+"e141a065368c": 0.045,
 "e280267536f6": 0.042,
 "e7d86b3d50a0": 0.012,
+"f1cc9329c45e": 0.099,
 "f2b1cd37b01a": 0.448,
 "f83139796cbc": 0.718,
 "fc8fa07113ac": 0.014,
 "fea39f6fe1bb": 0.067
 },
 "sent": [
-{
-"e": [
-"announces",
-"applications",
-"card",
-"cards",
-"end",
-"existing",
-"following",
-"global",
-"longer",
-"mexc",
-"order",
-"restriction",
-"service",
-"suspended",
-"today",
-"transactions",
-"usable",
-"utc"
-],
-"k": [
-"outage"
-],
-"t": 1794996441.603516,
-"u": [
-"https://t.me/wublockchainenglish/26873"
-],
-"w": [
-"announces",
-"applications",
-"card",
-"cards",
-"end",
-"existing",
-"following",
-"global",
-"longer",
-"mexc",
-"order",
-"restriction",
-"service",
-"suspended",
-"today",
-"transactions",
-"usable",
-"utc"
-]
-},
-{
-"e": [
-"buchanan",
-"dundee",
-"scattered",
-"sim",
-"spider",
-"tyler"
-],
-"k": [
-"hack"
-],
-"t": 1794997370.2038012,
-"u": [
-"https://news.google.com/rss/articles/CBMirwFBVV95cUxQbjVYZWFUYmlEekdTOVktYm1nRHhGaHZKX3d2YVdUUVFxbXRjeFpyakJFY1B4cW9IRDU2Y1l5MnlXTHhZMkE1M0w3cG5OcGZFM3VKX3NFR3FtOFExN0dlei1aalUyRjZBQWRPVWNobTRtTldzUlhtaHpkY2FMZWF3X29wUGV6ZE16Y3NhMTQ5WVFyU3FJX0x2UmQ3ZEhmRnJsRzNIaXpYX3NRLVg1MzBB?oc=5",
-"https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto",
-"https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1RxMFB4N2NNTjBzM3ctczVPZmwzNDRxZ3lQZWVLLVpWQnZBRnFpSXlfT0hSVkMtU0oxeUVXclRoY19tYnB0b2h5Vi1FMEdOSW9vLXpMUkJ2YnYyT3NuMWtGOGhKMEdpRC11bVdlMG9feERJbFA3ek8zcGRHRnVpbDBuN3JJNHVZbnNQNWtXSVpIT09ERk1aSHhrTkhqb0U?oc=5",
-"https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkx1MlNCYXN0czBvUFphREJfWWxkcEJWTEFMRWxXNHljUTBkVS1LeFlOMkFLeS01TDdpSUo4Z0xScXl5LWtrLV9WOTJ4NEh3WW4tOENzcnRyWXhhMWVyVk45OEVKRmlrR3laai1uQ3pLdjBUQWtxRlVRQ0NxRHFaMGEzMmZ1Y2lRWTl0cl9pdzVqQ2htaHhNRGRYREEtUDFaaElXNnlJcXNmemRIX3FwNjNCUUs5TVE3LUJzNHFKMTRkUThORElnYWNB?oc=5"
-],
-"w": [
-"buchanan",
-"dundee",
-"gets",
-"hacker",
-"prison",
-"scattered",
-"sim",
-"six",
-"spider",
-"swap",
-"thefts",
-"tied",
-"tyler",
-"years"
-]
-},
 {
 "e": [
 "all",
@@ -4976,71 +4890,108 @@
 "spot",
 "third"
 ]
+},
+{
+"e": [
+"certificates",
+"charges",
+"eight",
+"entities",
+"fake",
+"filings",
+"forged",
+"platforms",
+"real",
+"using"
+],
+"k": [
+"legal"
+],
+"t": 1795170193.179803,
+"u": [
+"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVC1nYUU3QXliN2tBeWgyWF83LXpnT0Jhc2ZqOWpqV0lMWDVtMnBkN3VKaUY1RWdGZGFVblVxTm91RzVUaWFJbkhhS3VnZVFOVjRHRW5jaUN1d0VwZElkNWQybGhPMG1IMWJiMzdiTDBic1BPV2piSU9nY0pNV01udTVSR1pZall4NThLUEV0Q1VvWlp4Nk9adnlLLUhGTFdRQUFrekhXdnBZaDQzbktWYlQ3LUZrMDFleWVKdUUwd3RuSnBZX0VpbmUxR3I1MmJEQTZmRnVzUHVhVkJiM18yZHVEWW9XQQ?oc=5",
+"https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://news.google.com/rss/articles/CBMizAFBVV95cUxQUjh6c2lxbk0tRklpaVkyUnRTdnVnNnhOdk5Nc20xZllUeDlSTDdQanBBVzJxVGhEdUplZHBHZkFzY21vMVBheW5MbDhHMDU2Q0UwMWFRQnU0UENSWFVJMktYU1FtQjVucDJDbmxNMlJiU1ZPaktqd2NKdjVzT296MEJNS3lGelNpQkZPMHJaVHp3WUVMdUgtZEFYRC1KU2pFWk0wUEp3STJQUTBuRVZyMkk1enhESHVRZnUwb0hBd2k1anJERXhvc3ZSNXI?oc=5",
+"https://news.google.com/rss/articles/CBMie0FVX3lxTFBrNVV6dDNCUXkzVWlFZkhQLXF2VFhwb3c0dDhwek0tQmUxcXRRRFFQcmtIMzdWbzNFZzBRRVRtdzFqY05CNDVYTmJkeHVRY19HeEh5LUpKZUtkWGJJWUluRXhHMUdCRHVybEZwaHQ0UGFUc0ZzbHN0ZTFYTQ?oc=5"
+],
+"w": [
+"certificates",
+"charges",
+"eight",
+"entities",
+"fake",
+"filings",
+"forged",
+"platforms",
+"real",
+"sec",
+"using"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"6d69b277e9fc",
-24,
-48,
-1
-],
-[
 "f83139796cbc",
-19,
-249,
+18,
+259,
 2
 ],
 [
 "cd6aa3d1c6d6",
-16,
-201,
+14,
+211,
+1
+],
+[
+"6d69b277e9fc",
+24,
+59,
 1
 ],
 [
 "0d375a143dde",
-18,
-225,
+17,
+235,
 1
 ],
 [
 "437ec24a5a58",
-63,
-349,
+62,
+360,
 4
 ],
 [
 "cd3228e2e82b",
-64,
-268,
+62,
+279,
 3
 ],
 [
 "f2b1cd37b01a",
 25,
-108,
+118,
+1
+],
+[
+"a4823cea2d5b",
+9,
+194,
 1
 ],
 [
 "54b2872f4b8d",
 48,
-152,
+163,
 3
 ],
 [
-"d822a1b6dd4a",
-68,
-129,
-3
-],
-[
-"a4823cea2d5b",
-10,
-184,
-1
+"1dfcad01761a",
+38,
+276,
+2
 ]
 ],
-"top_at": 1795169575.8202703
+"top_at": 1795170193.179803
 }
