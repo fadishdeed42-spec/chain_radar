@@ -114,7 +114,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795120310.0,
 "tgtext": "JUST IN: Bitcoin falls under $62,000\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Bitcoin falls below $62,000 as Anthropic makes its Nasdaq debut. \n\nIs liquidity shifting from Bitcoin into Anthropic shares?\n\nNews | Markets | YouTube",
 "title": "Bitcoin Falls Below $62,000 As Senate Rejects Iran War Powers Resolution",
@@ -191,7 +191,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795124801.0,
 "tgtext": "JUST IN: Apple $AAPL is developing AI agent to rival OpenAI and Anthropic that can control devices, browse the web, and write code.\n\n@WatcherGuru",
 "title": "Apple AAPL is developing AI agent to rival OpenAI and Anthropic that can control devices, browse the web, and write code.",
@@ -717,21 +717,6 @@
 "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"37db82d1c70c": {
-"coin": "",
-"src": "CoinDesk",
-"srcs": [
-"CoinDesk"
-],
-"t": 1794966079.4472644,
-"t0": 1794944757.0,
-"tgtext": "",
-"title": "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
-"url": "https://www.coindesk.com/markets/2026/11/17/coinbase-ceo-says-ai-agents-will-account-for-99-9-of-transactions-within-a-decade",
-"urls": [
-"https://www.coindesk.com/markets/2026/11/17/coinbase-ceo-says-ai-agents-will-account-for-99-9-of-transactions-within-a-decade"
-]
-},
 "387a685c7ac7": {
 "coin": "usd-coin",
 "src": "Wu Blockchain",
@@ -1162,6 +1147,19 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Federal Reserve officials expect more interest rate hikes and warn AI could drive inflation higher.",
 "url": "https://t.me/WatcherGuru/16144",
+"urls": []
+},
+"598aacddffc9": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795138980.463056,
+"t0": 1795138751.0,
+"tgtext": "Binance US Moves Closer to U.S. Perpetual Futures as CFTC Clears DCM and DCO Applications for Substantive Review\n\nBinance US said the U.S. Commodity Futures Trading Commission (CFTC) has deemed its applications to register as a designated contract market (DCM) and derivatives clearing organization (DCO) substantially complete, moving them into substantive review. Neither application has been approved. DCM registration would allow Binance US to offer derivatives trading, including futures and options, while DCO registration would allow it to clear those trades. Binance US plans to use both registrations to offer U.S. users regulated derivatives, including perpetual futures. It has not launched any derivatives products and must await formal CFTC approval before doing so.\n\nAccording to the U.S. Commodity Futures Trading Commission (CFTC) website, BAM Derivatives LLC submitted Binance US\u2019s application to register as a designated contract market (DCM). The filing appeared in the public record on November 19 and is currently listed as \u201cpending.\u201d BAM Derivatives plans to list Bitcoin and Ether perpetual contracts, with BAM Clearing LLC providing clearing services. \u2014 link",
+"title": "Binance US Moves Closer to U.S. Perpetual Futures as CFTC Clears DCM and DCO Applications for Substantive Review",
+"url": "https://t.me/wublockchainenglish/26889",
 "urls": []
 },
 "59ab32dde73b": {
@@ -1775,7 +1773,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795118192.0,
 "tgtext": "\u26a1\ufe0f\ufe0f\ufe0f\ufe0f INTERESTING: When GTA V launched in 2013, the game cost $59.99 and Bitcoin was trading at just $135. \n\nFast forward to 2026, GTA VI is priced at $79.99, while Bitcoin has surged to $63,800.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: When GTA V launched in 2013, the game cost $59.99 and Bitcoin was trading at just $135.",
@@ -1876,20 +1874,6 @@
 "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
 "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
 ]
-},
-"95803e9543fa": {
-"coin": "ethereum",
-"src": "FXStreet",
-"srcs": [
-"Cryptonews.net",
-"FXStreet"
-],
-"t": 1794965769.623815,
-"t0": 1794944296.0,
-"tgtext": "",
-"title": "Ethereum Price Forecast: ETH falls below $1,800 ahead of Nvidia's earnings",
-"url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd3JIWi1pc1VXZXE4M0h1OUFTaVhhN1J4TElONUUtaHBBRzBoQnhFcGJDZUNQSmFzMEhmd0JTZ01CQ3gzSzByMXVEOUM4WVd2U2phMWpSRUE0NXBWNUY2SGdZWmFmUFU5bzZBTWo0S0JlZ09sLURzU29YdzFLczVBOUZVZnp3SkpNWWdoRU9XZ01zQXY3YnVNTERycDBucHh1MXRoLTNLWkdxUE5GRl9idG1Od1ZJZ0ZiemVOTW80RlBEdEk5bVdnNmxtZw?oc=5",
-"urls": []
 },
 "967b26031e5b": {
 "coin": "",
@@ -1996,22 +1980,6 @@
 "title": "S&P Maintains USDT Stability Assessment at Lowest Level as Higher-Risk Asset Exposure Rises to 28%",
 "url": "https://t.me/wublockchainenglish/26878",
 "urls": []
-},
-"9e4c9af9597d": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Decrypt"
-],
-"t": 1794966079.4472644,
-"t0": 1794944763.0,
-"tgtext": "\ud83d\udea8 NEW: Cathie Wood\u2019s ARK Invest sold approximately $85 million in $NVDA shares while buying nearly $40 million in $COIN, $CRCL and $XYZ shares during Monday\u2019s market selloff.\n\nNews | Markets | YouTube",
-"title": "Cathie Wood\u2019s ARK Invest sold approximately $85 million in NVDA shares while buying nearly $40 million in COIN, CRCL and XYZ shares during Monday\u2019s market selloff.",
-"url": "https://t.me/cointelegraph/73349",
-"urls": [
-"https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks"
-]
 },
 "a05caa74ccb5": {
 "coin": "",
@@ -2507,7 +2475,7 @@
 "CryptoPotato",
 "Cryptonews.net"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795122250.0,
 "tgtext": "",
 "title": "Bitcoin Price Tests $64K Amid Anthropic IPO\u2014Then Falls Back Near $62K",
@@ -2561,7 +2529,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795118794.0,
 "tgtext": "",
 "title": "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
@@ -2858,7 +2826,7 @@
 "Traders Union",
 "Yahoo Finance Singapore"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795125300.0,
 "tgtext": "",
 "title": "SEC's fund chief says 3x and 5x single-stock ETFs won't get approval: 'The law says 2x'",
@@ -3021,7 +2989,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795137933.6018116,
+"t": 1795138980.463056,
 "t0": 1795127811.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 California launches investigation into Nvidia $NVDA for potentially misleading investors.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 California launches investigation into Nvidia NVDA for potentially misleading investors.",
@@ -3034,7 +3002,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795138543.8726747,
+"t": 1795138676.193248,
 "t0": 1795135792.0,
 "tgtext": "CFTC Chair: Onchain Platforms Like Hyperliquid Must Register or Partner With Licensed Exchanges to Enter US Market, Citing Backpack Model\n\nCFTC Chair Michael Selig said onchain platforms such as Hyperliquid must register as exchanges or partner with registered exchanges to offer derivatives to U.S. retail users. They must follow the same rules as traditional exchanges but may still use onchain technology. He cited Backpack, which recently secured futures commission merchant (FCM), designated contract market (DCM) and derivatives clearing organization (DCO) approvals as a compliance basis for entering the U.S. market.\n\nOn prediction markets, Selig said the CFTC would work with the Justice Department to defend its federal authority over lawful derivatives contracts against state lawsuits. He also said a single-stock perpetual contract is not necessarily a security-based swap simply because it has no expiry date: its classification depends on its structure, and perpetual funding rates resemble the variation margin settlement used in traditional futures. \u2014 link",
 "title": "CFTC Chair: Onchain Platforms Like Hyperliquid Must Register or Partner With Licensed Exchanges to Enter US Market, Citing Backpack Model",
@@ -3294,7 +3262,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795131344.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Department of Agriculture suffers cyberattack, forcing multiple government systems offline.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US Department of Agriculture suffers cyberattack, forcing multiple government systems offline.",
@@ -3308,7 +3276,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795138543.8726747,
+"t": 1795138980.463056,
 "t0": 1795130279.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump discloses 751 stock trades in September totaling up to $148,000,000\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: President Trump\u2019s investment accounts made 751 trades worth up to $148M in September, per CNBC. \n\nThey bought Nvidia, Palantir and SpaceX around the time those companies landed major federal contracts.\n\nNews | Markets | YouTube",
 "title": "President Trump\u2019s investment accounts made 751 trades worth up to $148M in September, per CNBC.",
@@ -3458,24 +3426,22 @@
 },
 "probs": {
 "002cc97d1384": 0.037,
-"027671282df7": 0.05,
+"027671282df7": 0.049,
 "02ea8d35c656": 0.1,
 "04eb8a2a2086": 0.759,
 "0e69bd2eb7e6": 0.018,
 "105f5d52a74c": 0.072,
 "2818b75364ee": 0.031,
 "2e33e97b04d5": 0.039,
-"2f38b82a7575": 0.06,
 "4199c61cba75": 0.075,
 "42e2e65e51d6": 0.062,
 "457760c416c6": 0.213,
-"497e6ee65fd7": 0.06,
 "4cbcaf900585": 0.045,
 "540a25c3ea9b": 0.036,
 "58988e1ff3a8": 0.042,
 "589a104c578a": 0.036,
+"598aacddffc9": 0.963,
 "5dcf713b1ca5": 0.07,
-"602ad137ed57": 0.044,
 "661f344af6e8": 0.062,
 "6e080ff64966": 0.042,
 "7b264bf691a7": 0.024,
@@ -3489,9 +3455,11 @@
 "c5cb8a4986fc": 0.152,
 "c74490bb395d": 0.021,
 "c7d5596eb15c": 0.041,
+"c9fb0ea0d617": 0.056,
 "cd2f64168e29": 0.395,
-"e0b0e1906dcd": 0.21,
+"e0b0e1906dcd": 0.504,
 "e3218415154a": 0.225,
+"eaaba28aad94": 0.054,
 "f1817eb2f8f4": 0.188,
 "f402325811e1": 0.269,
 "f40280bf978b": 0.849,
@@ -4990,71 +4958,105 @@
 "trump",
 "worth"
 ]
+},
+{
+"e": [
+"applications",
+"binance",
+"clears",
+"closer",
+"dcm",
+"dco",
+"futures",
+"moves",
+"perpetual",
+"review",
+"substantive"
+],
+"k": [],
+"t": 1795138980.463056,
+"u": [
+"https://t.me/wublockchainenglish/26889"
+],
+"w": [
+"applications",
+"binance",
+"cftc",
+"clears",
+"closer",
+"dcm",
+"dco",
+"futures",
+"moves",
+"perpetual",
+"review",
+"substantive"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"598aacddffc9",
+18,
+4,
+1
+],
+[
 "f40280bf978b",
 34,
-138,
+145,
 2
 ],
 [
 "04eb8a2a2086",
-14,
-304,
+13,
+311,
 3
 ],
 [
+"e0b0e1906dcd",
+10,
+186,
+1
+],
+[
 "cd2f64168e29",
-49,
-221,
+48,
+228,
 4
 ],
 [
 "09de8df254d7",
-4,
-229,
+3,
+236,
 1
 ],
 [
 "8935395d5406",
 0,
-339,
+346,
 1
 ],
 [
 "f402325811e1",
 10,
-120,
+127,
 1
 ],
 [
 "b9b6c40e68ec",
-29,
-272,
+28,
+279,
 2
 ],
 [
 "bda5b7ef0a1c",
-13,
-329,
-1
-],
-[
-"e3218415154a",
-10,
-46,
-1
-],
-[
-"457760c416c6",
-10,
-176,
+12,
+336,
 1
 ]
 ],
-"top_at": 1795138543.8726747
+"top_at": 1795138980.463056
 }
