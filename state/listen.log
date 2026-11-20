@@ -14,3 +14,4 @@ market 100 news 105 reddit 0 hacks 0
 fetch fail https://data-api.binance.vision/api/v3/klines 400 Client Error: Bad Request for url: https://data-api.binance.vision/api/v3/klines?symbol=PEARLUSDT&interval=5m&limit=96
 mover skipped, candles disagree PEARL -10.5347 -10.1
 alerts sent 1
+git_sync slow/failed: TimeoutExpired('git pull --rebase -q -X theirs && git push -q', 150)
