@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795080486.672379,
 1795082947.5629435,
 1795083256.9125867,
 1795083872.6209118,
@@ -18,7 +17,8 @@
 1795112052.9920695,
 1795128446.5924501,
 1795155309.7038865,
-1795160334.5667403
+1795160334.5667403,
+1795167423.4331722
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -220,7 +220,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795148577.9421701,
+"t": 1795167729.3278575,
 "t0": 1795147615.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf7 NOW: South Korea\u2019s KOSPI plunges 4.5% to 4,904, which triggers a sell-side sidecar, as Anthropic\u2019s strong debut fails to calm fears over AI spend.\n\nNews | Markets | YouTube",
 "title": "NOW: South Korea\u2019s KOSPI plunges 4.5% to 4,904, which triggers a sell-side sidecar, as Anthropic\u2019s strong debut fails to calm fears over AI spend.",
@@ -272,7 +272,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795156066.0,
 "tgtext": "Highlight Clip: Former SEC Chair: AI Bubble Could Burst Before the 2028 Election\n\nFormer SEC Chair: AI Bubble Could Burst Before the 2028 Election\n\nOn November 16, former SEC Chair Gary Gensler said in an interview with CNN that the AI bubble could burst before the 2028 U.S. presidential election, with a correction potentially comparable to the 2001 dot-com bust, though unlikely to be as severe as the 2008 financial crisis. The U.S. currently spends approximately 2.5% of its GDP annually on AI infrastructure. He noted that the railroad, electricity, and internet industries all experienced similar cycles of investment booms and contractions, while the rapid pace of lending today could further amplify the risks. (During his tenure as SEC Chair from 2021 to 2025, Gensler took a tough regulatory stance toward the cryptocurrency industry and pushed the SEC to take enforcement actions against major crypto firms such as Coinbase and Binance.) \u2014 link",
 "title": "Highlight Clip: Former SEC Chair: AI Bubble Could Burst Before the 2028 Election",
@@ -464,10 +464,11 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"BigGo Finance",
 "Cryptonews",
 "Wu Blockchain"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795153615.0,
 "tgtext": "Spot Bitcoin ETFs See $582 Million in Net Outflows on November 19, Marking Third Consecutive Day\n\nOn November 19 (ET), spot Bitcoin ETFs recorded total net outflows of $582 million, their third consecutive day of net outflows. Spot Ethereum ETFs recorded total net outflows of $131 million, marking their fifth consecutive day of net outflows. \u2014 link",
 "title": "Spot Bitcoin ETFs See $582 Million in Net Outflows on November 19, Marking Third Consecutive Day",
@@ -1107,7 +1108,7 @@
 "Fox News",
 "Mezha.net"
 ],
-"t": 1795166192.500781,
+"t": 1795167729.3278575,
 "t0": 1795160440.0,
 "tgtext": "",
 "title": "Georgia man charged with money laundering and evidence destruction after alleged crypto transfers to ISIS-linked groups",
@@ -1384,7 +1385,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795166681.0,
 "tgtext": "Binance Hacker Moves $594M in ETH Over Two Days, Launders Funds via Chainflip and THORChain\n\nAccording to Onchain Lens, the Binance hacker transferred approximately $594 million worth of ETH over the past two days, including $248 million on November 19 and another 197,460 ETH (approximately $346 million) on November 20. The funds were redistributed to new wallets, with some moved and swapped through cross-chain protocols including Chainflip and THORChain. Tracked hacker-linked wallets still hold approximately 226,665 ETH, worth around $395.6 million. \u2014 link",
 "title": "Binance Hacker Moves $594M in ETH Over Two Days, Launders Funds via Chainflip and THORChain",
@@ -1448,20 +1449,6 @@
 "urls": [
 "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"72f1f5db4583": {
-"coin": "bitcoin",
-"src": "TradingKey",
-"srcs": [
-"KuCoin",
-"TradingKey"
-],
-"t": 1794994350.2269926,
-"t0": 1794972878.0,
-"tgtext": "",
-"title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
-"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLTlMOFdMQ3U3TVBxVzZkWElVWEpNUHRWaXdYcXloUlEwSF9fVElUbmhGSXRFeWFRTXBMNGxlOXJqSjdBMmRWb1JuTnlsT0h5a1R4bFdHdDgxMDdVUWloM3pnWDRRcmlXdU92eDFlUnltTHpEVllZODVUVlhpQlc4TGJCbGR5OUd0bnJmUHhqTF9VVVpVRGZieGpMUEF4Und4bHI5WnpGNERIU2ZWVElzU3hvcWlmMHBOdHRYcFB3b0RxdU1NSHhMVFFmZlNqeXhIYXNKbnkyMU0?oc=5",
-"urls": []
 },
 "733f8f051370": {
 "coin": "",
@@ -1912,19 +1899,6 @@
 "url": "https://t.me/cointelegraph/73381",
 "urls": []
 },
-"a31b2a1c17c6": {
-"coin": "bitcoin",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1794994350.2269926,
-"t0": 1794972837.0,
-"tgtext": "Bitcoin miner MARA Holdings (@MARA) continues to dump $BTC, transferring out another 366 $BTC ($23.33M) 8 hours ago.\n\nAccording to official disclosures, #MARA sold 40,581 $BTC ($3.03B) in 2026 at an average price of $74,446.\n\nhttps://arkm.com/explorer/entity/mara-pool",
-"title": "Bitcoin miner MARA Holdings (@MARA) continues to dump BTC, transferring out another 366 BTC ($23.33M) 8 hours ago.",
-"url": "https://t.me/lookonchainchannel/11125",
-"urls": []
-},
 "a32e78011cf3": {
 "coin": "bitcoin",
 "src": "Crypto News",
@@ -1967,7 +1941,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795158524.0,
 "tgtext": "Meet smart trader 0x7F49, who knows how to buy low and sell high!\n\nMar 16: Sold 3,676 $ETH ($8.44M) at $2,296.3.\n\nJun 5: Bought 4,851 $ETH ($8.1M) at $1,670.\n\nAug 20 & Oct 26: Sold 7,693 $ETH ($17.81M) at $2,315.6.\n\nToday: Bought 2,879 $ETH ($5M) at $1,736.5.\n\nhttps://arkm.com/explorer/address/0x7F4936Ed3Ee92Da54c972976b7a7d92Ad20b4728",
 "title": "Meet smart trader 0x7F49, who knows how to buy low and sell high!",
@@ -2703,7 +2677,7 @@
 "Outlook Money",
 "openPR.com"
 ],
-"t": 1795167113.761894,
+"t": 1795167423.4331722,
 "t0": 1795153469.0,
 "tgtext": "",
 "title": "Fed's Binance Hack Warning Shakes Crypto Debate! Apeing Eyes Best Crypto to Buy Now Spotlight",
@@ -2718,7 +2692,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795157505.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his $TRUMP crypto memecoin on Sunday.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his TRUMP crypto memecoin on Sunday.",
@@ -2790,7 +2764,7 @@
 "Crypto News",
 "TradingView"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795161814.0,
 "tgtext": "",
 "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
@@ -3127,7 +3101,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795163123.0,
 "tgtext": "\ud83d\udd25 BIG: At Anthropic\u2019s $83 IPO price, its seven co-founders\u2019 stakes were worth nearly $139B combined.\n\nSacra estimates about 2,800 current and former employees could hold at least $1M each in vested equity before taxes, based on a $1.35T valuation.\n\nNews | Markets | YouTube",
 "title": "BIG: At Anthropic\u2019s $83 IPO price, its seven co-founders\u2019 stakes were worth nearly $139B combined.",
@@ -3256,7 +3230,7 @@
 "Binance",
 "Wu Blockchain"
 ],
-"t": 1795167113.761894,
+"t": 1795167729.3278575,
 "t0": 1795154663.0,
 "tgtext": "Binance Will Extend the Monitoring Tag to Include BANK, INIT, MITO, ONE, THE & ZIL, Remove the Seed Tag for MORPHO & HYPE on 2026-11-20\n\nBased on recent reviews, Binance will extend the Monitoring Tag to include more tokens on 2026-11-20.\n\n\ud83d\udc49\ud83c\udffbLearn more here\nBinance Adds Monitoring Tags to Six Tokens, Removes Seed Tags from MORPHO and HYPE\n\nAccording to an official announcement, Binance will add Monitoring Tags to Lorenzo Protocol (BANK), Initia (INIT), Mitosis (MITO), Harmony (ONE), THENA (THE) and Zilliqa (ZIL), and remove the Seed Tags from Morpho Token (MORPHO) and Hyperliquid (HYPE). \u2014 link",
 "title": "Binance Will Extend the Monitoring Tag to Include BANK, INIT, MITO, ONE, THE & ZIL, Remove the Seed Tag for MORPHO & HYPE on 2026-11-20",
@@ -3356,26 +3330,27 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"06db2bd08570": 0.028,
+"06db2bd08570": 0.07,
 "0d375a143dde": 0.751,
 "13654f752083": 0.044,
-"1a0fefafaae3": 0.029,
+"16a0b27e8dcd": 0.103,
+"1b30e310c521": 0.043,
 "1bcac911bbe2": 0.076,
-"1dfcad01761a": 0.697,
+"1dfcad01761a": 0.911,
 "1f8d377ea19a": 0.036,
-"20a3f27ded35": 0.061,
 "219fed2f5ef2": 0.03,
 "26e9d45ebc8b": 0.021,
 "2a6cfcfe83a6": 0.051,
 "3801680d07ad": 0.315,
-"51b7a39906fa": 0.339,
-"557e6d0c9b22": 0.145,
-"5b517feb674c": 0.042,
+"54b2872f4b8d": 0.382,
+"557e6d0c9b22": 0.245,
+"624c814caca7": 0.034,
 "67d55495552c": 0.061,
-"6d69b277e9fc": 0.948,
+"6d69b277e9fc": 0.791,
 "6f6477b44acb": 0.201,
-"704ee89a2d82": 0.907,
 "709cab337963": 0.108,
+"719acb6394f7": 0.012,
+"728c61677767": 0.058,
 "7d9e49666202": 0.187,
 "840097d362d0": 0.088,
 "9f304eb941a2": 0.014,
@@ -3383,7 +3358,6 @@
 "a5ff31203656": 0.215,
 "acf5ea90cdca": 0.283,
 "c86958f8623a": 0.226,
-"cd3228e2e82b": 0.503,
 "cd6aa3d1c6d6": 0.69,
 "d025d22f2c41": 0.078,
 "d3680f4d1ba6": 0.038,
@@ -3398,50 +3372,6 @@
 "fea39f6fe1bb": 0.026
 },
 "sent": [
-{
-"e": [
-"acquire",
-"acquisition",
-"across",
-"banking",
-"budgeting",
-"considering",
-"correspondent",
-"licence",
-"licences",
-"markets",
-"multiple",
-"payment",
-"plans",
-"polygon"
-],
-"k": [
-"ban"
-],
-"t": 1794994043.3383355,
-"u": [
-"https://t.me/wublockchainenglish/26872"
-],
-"w": [
-"$100m",
-"$50m",
-"acquire",
-"acquisition",
-"across",
-"banking",
-"budgeting",
-"considering",
-"correspondent",
-"licence",
-"licences",
-"markets",
-"multiple",
-"payment",
-"per",
-"plans",
-"polygon"
-]
-},
 {
 "e": [
 "announces",
@@ -5007,71 +4937,109 @@
 "money",
 "transfers"
 ]
+},
+{
+"e": [
+"consecutive",
+"day",
+"marking",
+"million",
+"net",
+"november",
+"outflows",
+"see",
+"spot",
+"third"
+],
+"k": [
+"etf"
+],
+"t": 1795167423.4331722,
+"u": [
+"https://t.me/wublockchainenglish/26892",
+"https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHJhdHNwZURVYllkd2VFM2dKMHBPeVRJd3Q5ZjduRFB5djd4SkM3NlMxRkpWNGZ1SFlpdFM1LTBQcWhRXzR4ZTlybF9KOVFhVGNxdFZNSVptZzMzUDRiQVJWaTlRMWlzczZncVlfTGRiU1RqdVE2VDZINWo5UEJQRVlKdXg?oc=5",
+"https://news.google.com/rss/articles/CBMidkFVX3lxTE4yamlnZ0Q0Y3RmZjhZNklVU3Q2cktkanZRS2hzZnhhRXN2alFMNjdhdGNaUmV6eXV2djRYeXl1S1lJUTdnZTNZU2tkUS1zNG5JT3I3MlN3amZvMFViaDhOM2VyQ3pyRi1hd0ZYUmkwZ3VGUmNsdXc?oc=5"
+],
+"w": [
+"$582",
+"bitcoin",
+"consecutive",
+"day",
+"etfs",
+"marking",
+"million",
+"net",
+"november",
+"outflows",
+"see",
+"spot",
+"third"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"6d69b277e9fc",
-24,
-7,
-1
-],
-[
-"704ee89a2d82",
-48,
-360,
-4
+"1dfcad01761a",
+68,
+235,
+3
 ],
 [
 "f83139796cbc",
-25,
-208,
+23,
+218,
 2
 ],
 [
-"0d375a143dde",
+"6d69b277e9fc",
 24,
-184,
+17,
 1
 ],
 [
-"1dfcad01761a",
-45,
-225,
-2
+"0d375a143dde",
+23,
+194,
+1
+],
+[
+"0a2e7a5b95c0",
+0,
+335,
+1
 ],
 [
 "cd6aa3d1c6d6",
 18,
-160,
+170,
 1
-],
-[
-"cd3228e2e82b",
-69,
-227,
-3
 ],
 [
 "f2b1cd37b01a",
 25,
-67,
+77,
 1
+],
+[
+"54b2872f4b8d",
+48,
+121,
+3
 ],
 [
 "d822a1b6dd4a",
 68,
-88,
+99,
 3
 ],
 [
 "a4823cea2d5b",
 10,
-143,
+153,
 1
 ]
 ],
-"top_at": 1795167113.761894
+"top_at": 1795167729.3278575
 }
