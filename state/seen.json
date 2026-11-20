@@ -175,7 +175,7 @@
 "Lookonchain",
 "MarketForces Africa"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795171574.0,
 "tgtext": "The Binance hacker just moved another 197,460 $ETH ($346.2M) for laundering.\nhttps://arkm.com/explorer/entity/binance-hacker-2\nhttps://x.com/lookonchain/status/2123315988565471543\n\ud83d\udea8 UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.\n\nhttps://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip\n\nNews | Markets | YouTube",
 "title": "UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.",
@@ -209,7 +209,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795190828.0,
 "tgtext": "James Wynn(@JamesWy\u200b\u200bnnReal) is getting wrecked!\n\nAs $BTC dropped below $59,000, he got liquidated 15 times in just the past hour!\n\nhttps://hypurrscan.io/address/0x5078C2fBeA2b2aD61bc840Bc023E35Fce56BeDb6#txs",
 "title": "James Wynn(@JamesWy\u200b\u200bnnReal) is getting wrecked!",
@@ -361,16 +361,20 @@
 "coin": "bitcoin",
 "src": "Pluang",
 "srcs": [
+"CoinDesk",
 "CryptoPotato",
-"Pluang",
-"TradingView"
+"Cryptonews",
+"FXStreet",
+"Pluang"
 ],
-"t": 1795190302.9431913,
+"t": 1795192764.8032358,
 "t0": 1795178689.0,
-"tgtext": "",
+"tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
 "title": "Bitcoin plunges below $62,000 amid tech selloff, inflation fears, and largest crypto hack ever.",
 "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYW9CNUhjOEN3UFh4Wk9iUE84YnQ2X1NSQUdPU01pbUdpXzBVX1pTVklCRDBqSGtkV0w4SlZzREQtX3Y4Nkl1Vm5ybGlBalFNX0FKTDRPNUlZQTNrUmhjSFBBd3E2bkUxdmJhWkFUcVpkb1IzUHlranBqb0ZPbHM4cHFzbEk4VjFtOXh6N21VUUtOTlIzXy1MRlVaeFI2Nk8tYUg4Sk5mMmI1U044dzVV?oc=5",
-"urls": []
+"urls": [
+"https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
+]
 },
 "150b5f7b6e3a": {
 "coin": "",
@@ -422,7 +426,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795180309.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa ECB President Christine Lagarde says tokenization could create a unified European market for digital assets.\n\n@WatcherGuru\n\ud83c\uddea\ud83c\uddfa INSIGHT: ECB\u2019s Lagarde warns Europe needs common rules to keep tokenized securities markets from fragmenting.\n\nhttps://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules\n\nNews | Markets | YouTube",
 "title": "INSIGHT: ECB\u2019s Lagarde warns Europe needs common rules to keep tokenized securities markets from fragmenting.",
@@ -547,24 +551,6 @@
 "title": "Ahead of Anthropic's market debut, a whale is building a massive short position on Anthropic on Hyperliquid!",
 "url": "https://t.me/lookonchainchannel/11134",
 "urls": []
-},
-"22ad92a4dc09": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"CoinDesk",
-"Cointelegraph"
-],
-"t": 1795020263.1248612,
-"t0": 1794999516.0,
-"tgtext": "",
-"title": "Bitcoin Slips Below $64,000 as Fed Rate Talk and $2 Billion Liquidation Wave Hit Crypto Markets",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DaFdMQkIzR0JVRVY2WG9TM3RnR1lKb2dISWU3VUU1MzZwTGM3WWFMOUxhZ1dROFVjZ3dvdDFTcWRKNGRJTjRvdHNkQnBwdlpxN0RFQnNrTmNyYm40Z2tITGQ4aHUtNVhGOW05MEdrUjh5Q3JEcnc?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
-"https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "24a150fd50e6": {
 "coin": "ethereum",
@@ -905,7 +891,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795182444.0,
 "tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
 "title": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B",
@@ -987,7 +973,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795179460.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.  Is he planning to buy the dip on these tokens?  https://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC. Is he planning to buy the dip on these tokens? https://arkm.com/explorer/entity/arthur-hayes",
@@ -1429,7 +1415,7 @@
 "Cointelegraph",
 "Lookonchain"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795182518.0,
 "tgtext": "Tether has burned 8B $USDT over the past 20 days!\n\nhttps://etherscan.io/address/0xC6CDE7C39eB2f0F0095F41570af89eFC2C1Ea828#tokentxns\n\ud83d\udea8 LATEST: Tether has burned 8,000,000,000 $USDT in 20 days.\n\nNews | Markets | YouTube",
 "title": "Tether has burned 8B USDT over the past 20 days!",
@@ -1458,7 +1444,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795191533.8061237,
+"t": 1795193070.8219516,
 "t0": 1795189574.0,
 "tgtext": "BREAKING: Bitcoin crashes under $60,000 and ETH crashes under $1,660\n\n$425,000,000 liquidated from the crypto market in the past 60 minutes.\n\n@WatcherGuru\nJUST IN: Bitcoin crashes under $59,000\n\n@WatcherGuru",
 "title": "Bitcoin crashes under $60,000 and ETH crashes under $1,660",
@@ -1654,7 +1640,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795185204.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $500,000,000,000 erased from the US stock market at open.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $500,000,000,000 erased from the US stock market at open.",
@@ -1914,7 +1900,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795188055.0,
 "tgtext": "JUST IN: Crypto continues to crash\n\n$BTC falls under $61,000\n$ETH falls under $1,700\n$XRP falls under $0.95\n$SOL falls under $70\n\nOver $90,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n@WatcherGuru",
 "title": "Crypto continues to crash",
@@ -1957,6 +1943,19 @@
 "urls": [
 "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"9979a63f33a7": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795192764.8032358,
+"t0": 1795192064.0,
+"tgtext": "AguilaTrades(@AguilaTrades) wins again!\n\nHis short on 2,000 $BTC ($118.6M) is now up $5M+ in unrealized profit!\n\nhttps://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
+"title": "AguilaTrades(@AguilaTrades) wins again!",
+"url": "https://t.me/lookonchainchannel/11188",
+"urls": []
 },
 "9c3e2bb25926": {
 "coin": "bitcoin",
@@ -2681,7 +2680,7 @@
 "Lookonchain",
 "Watcher.Guru"
 ],
-"t": 1795192455.3676329,
+"t": 1795193070.8219516,
 "t0": 1795188424.0,
 "tgtext": "\ud83d\udea8 ALERT: Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.\n\nNews | Markets | YouTube\nJUST IN: $1,330,000,000 liquidated from the cryptocurrency market in the past 24 hours.\n\nLongs: $1.2 billion\nShorts: $131 million\n\n@WatcherGuru\nOver the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
 "title": "Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.",
@@ -3516,45 +3515,45 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"0552c230ec19": 0.597,
 "06213ccea1ea": 0.974,
 "06c40dabb904": 0.159,
 "113f332ee510": 0.244,
 "1508e81d1b3e": 0.121,
-"1b2211016776": 0.911,
+"1b2211016776": 0.934,
 "2ca4cc9b644d": 0.114,
 "2f32520890d8": 0.154,
-"2f902e7d3c32": 0.039,
+"2f902e7d3c32": 0.037,
 "2feb978749d9": 0.025,
 "37d1e34c59d5": 0.098,
-"3a3b0c92f78a": 0.258,
+"3a3b0c92f78a": 0.462,
 "3fffbbe08697": 0.393,
-"40fb1d16df67": 0.991,
+"40fb1d16df67": 0.998,
 "442246b3b855": 0.046,
-"445fc43af72a": 0.142,
-"45b9e50d6888": 0.928,
-"4660961a9835": 0.663,
-"46d3d8d84bfa": 0.039,
-"5e1d7fcb55cd": 0.165,
+"45b9e50d6888": 0.972,
+"4660961a9835": 0.241,
+"46d3d8d84bfa": 0.079,
+"6dd2aadf4e18": 0.29,
 "6f0ba11969a7": 0.916,
-"706f12bb0446": 0.743,
+"706f12bb0446": 0.854,
+"82f08c8a1adf": 0.074,
 "8bb7a41b502d": 0.124,
 "93f92c17ab1e": 0.4,
 "9654b88b4035": 0.152,
-"9bdce722e059": 0.151,
-"a6b50d4f0711": 0.309,
+"9940c90beb4e": 0.07,
+"9cbc6a5a7da1": 0.203,
+"a5e17e47d357": 0.807,
+"a6b50d4f0711": 0.355,
 "ade0bb50dfc5": 0.711,
+"ae8fcc9bb5d5": 0.236,
 "c0f73cd69ddb": 0.392,
+"c2467aac5967": 0.037,
 "c5f51d518677": 0.813,
 "c64ed6edb501": 1.0,
-"d430a30b88d5": 0.075,
 "d57a3a12beb3": 0.055,
 "d7d4f8b1dd9c": 0.028,
 "dcbfb402fd1a": 0.101,
+"ddf48772b7a2": 0.187,
 "e5b81b61da11": 0.304,
-"e8fc24a077ef": 0.707,
-"ee18509a7a37": 0.093,
-"f087638239b3": 0.136,
 "f6c8a99383e8": 0.037
 },
 "sent": [
@@ -5363,6 +5362,31 @@
 "sinks",
 "stocks"
 ]
+},
+{
+"e": [
+"michael",
+"saylor",
+"strategy"
+],
+"k": [],
+"t": 1795192764.8032358,
+"u": [
+"https://t.me/WatcherGuru/16203"
+],
+"w": [
+"$14",
+"000",
+"100",
+"bitcoin",
+"currently",
+"investment",
+"loss",
+"michael",
+"saylor",
+"strategy",
+"unrealized"
+]
 }
 ],
 "stories": {},
@@ -5371,63 +5395,63 @@
 [
 "c64ed6edb501",
 70,
-67,
+77,
 4
 ],
 [
 "40fb1d16df67",
 66,
-167,
+177,
 2
 ],
 [
 "06213ccea1ea",
-82,
-348,
+81,
+358,
 6
 ],
 [
 "45b9e50d6888",
-31,
-217,
+29,
+227,
+1
+],
+[
+"1b2211016776",
+26,
+213,
+3
+],
+[
+"08ba6cce4c8e",
+10,
+37,
 1
 ],
 [
 "6f0ba11969a7",
 28,
-166,
+176,
 2
-],
-[
-"1b2211016776",
-28,
-202,
-3
 ],
 [
 "7cbde790e916",
 10,
-121,
+131,
 1
 ],
 [
-"08ba6cce4c8e",
-10,
-27,
+"706f12bb0446",
+38,
+58,
 1
 ],
 [
 "9352f5563a74",
 20,
-73,
-1
-],
-[
-"e314e69f3e7a",
-20,
-15,
+84,
 1
 ]
 ],
-"top_at": 1795192455.3676329
+"top_at": 1795193070.8219516
 }
