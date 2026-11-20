@@ -464,20 +464,6 @@
 "url": "https://t.me/wublockchainenglish/26892",
 "urls": []
 },
-"1fbe6b709235": {
-"facts": "Hack date: Nov 18. Chain: ['Ethereum']. Method: Bridge Logic Flaw. Amount: $1,050,000. (DefiLlama hacks database.)",
-"hack": {
-"amount": "$1.05M",
-"chain": "['Ethereum']",
-"date": "Nov 18",
-"method": "Bridge Logic Flaw"
-},
-"src": "DefiLlama",
-"t": 1795035385.7901597,
-"tag": "HACK",
-"title": "Gonka AI hacked for $1.1 million",
-"url": ""
-},
 "1ff7c378ceef": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -637,7 +623,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795196591.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump announces agreement with China to establish joint rules for artificial intelligence.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump says the US and China will establish joint guardrails for \u201cSuper Intelligence,\u201d adding that President Xi also likes the name.\n\nNews | Markets | YouTube",
 "title": "Trump says the US and China will establish joint guardrails for \u201cSuper Intelligence,\u201d adding that President Xi also likes the name.",
@@ -704,7 +690,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795196060.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: Trump says he met with 20 world leaders in four days, secured two new trade deals, and expects 10 more to be announced soon.\n\nNews | Markets | YouTube",
 "title": "BIG: Trump says he met with 20 world leaders in four days, secured two new trade deals, and expects 10 more to be announced soon.",
@@ -816,6 +802,23 @@
 "url": "https://t.me/wublockchainenglish/26900",
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-below-60000"
+]
+},
+"3a3b0c92f78a": {
+"coin": "monero",
+"src": "The Block",
+"srcs": [
+"CoinGape",
+"CoinLaw",
+"The Block"
+],
+"t": 1795208713.7417407,
+"t0": 1795188324.0,
+"tgtext": "",
+"title": "Wagyu\u2019s XMR1 wrapped Monero plunges 99% after $13 million hack as founder promises refunds",
+"url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+"urls": [
+"https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
 ]
 },
 "3aaba495193b": {
@@ -1321,7 +1324,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795197294.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Trump says the US should have the lowest interest rate in the world because it is \u201cthe country that makes other countries successful.\u201d\n\nHe said oil prices have fallen 20% since early November and that US manufacturing has expanded for 10 consecutive months. \n\nTrump also criticized the Federal Reserve for keeping interest rates too high and said Iran's proposed deal terms remain unacceptable to him.\n\nNews | Markets | YouTube",
 "title": "Trump says the US should have the lowest interest rate in the world because it is \u201cthe country that makes other countries successful.\u201d",
@@ -1450,7 +1453,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795202732.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 S&P 500 crashes under 7,000\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 S&P 500 crashes under 7,000",
@@ -1610,7 +1613,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795206172.0,
 "tgtext": "JUST IN: Odds of Bitcoin crashing under $55,000 by the end of this month surge to 47%.\n\n@WatcherGuru",
 "title": "Odds of Bitcoin crashing under $55,000 by the end of this month surge to 47%.",
@@ -2111,7 +2114,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795200298.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 S&P 500 tech sector officially enters bear market territory after crashing 23% from recent highs.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 S&P 500 tech sector officially enters bear market territory after crashing 23% from recent highs.",
@@ -2317,7 +2320,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795208099.9904337,
+"t": 1795208408.7829173,
 "t0": 1795202115.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC investigation into Nvidia $NVDA is examining potential accounting issues.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f JUST IN: The US SEC is investigating Nvidia $NVDA over potential accounting issues.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 SEC investigation into Nvidia NVDA is examining potential accounting issues.",
@@ -2827,7 +2830,7 @@
 "Crypto Briefing",
 "Lookonchain"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795188424.0,
 "tgtext": "\ud83d\udea8 ALERT: Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.\n\nNews | Markets | YouTube\nOver the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
 "title": "Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.",
@@ -3129,7 +3132,7 @@
 "The Block",
 "TradingView"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795193760.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf5 JUST IN: North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.\n\nNews | Markets | YouTube",
 "title": "North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.",
@@ -3618,7 +3621,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795208099.9904337,
+"t": 1795208713.7417407,
 "t0": 1795195209.0,
 "tgtext": "Whale 0xaBbd panic-sold all 15,349 $ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!\n\nJust a few days ago, the whale also sold 32,541 $ETH ($63M) at $1,938 during the market crash to repay loans on #Aave.\n\nhttps://debank.com/profile/0xabbd5b2b0b034781e58434736728b9d0673de7f1/history",
 "title": "Whale 0xaBbd panic-sold all 15,349 ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!",
@@ -3682,46 +3685,46 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"115f300e0488": 0.027,
-"22889809249a": 0.076,
-"299f77396ddd": 0.101,
-"29f828ca720e": 0.029,
-"31e88ae9c76e": 0.858,
-"36cde5e13860": 0.381,
-"3a3b0c92f78a": 0.476,
-"3e92ef5dc3fd": 0.013,
-"4b6121587bd8": 0.048,
-"5b281f4addfb": 0.045,
-"6ae4b9784831": 0.607,
-"6dd2aadf4e18": 0.029,
-"71b31e00a894": 0.019,
-"7738bc8b39ed": 0.034,
-"78043fdb92dc": 0.923,
-"7ccaa06b5f5f": 0.258,
-"84910e6505e9": 0.154,
-"85e5f4f86a95": 0.047,
-"888b78258148": 0.035,
-"8e43484884b5": 0.023,
-"9104c7f53722": 0.149,
-"943fbad42270": 0.077,
-"a037f0309a84": 0.633,
-"a23390a4d7a7": 0.017,
-"a6b50d4f0711": 0.056,
-"ab9b9ffee484": 0.498,
-"b3c18f868737": 0.481,
-"c57132c73fe6": 0.06,
-"c64ed6edb501": 0.997,
-"c7e3d2359ca3": 0.011,
-"d130eca96b3a": 0.057,
-"d2d4e8e428fa": 0.065,
-"df0e35c05fcd": 0.623,
-"e7cfbd7bed9b": 0.283,
-"ea46a03604e3": 0.131,
-"ecd8ff24c0c8": 0.171,
-"ee3aace71b7c": 0.205,
-"f28d5bee13d9": 0.223,
-"f417b6ba6d17": 0.013,
-"f8cc0c11ad77": 0.853
+"115f300e0488": 0.032,
+"22889809249a": 0.09,
+"299f77396ddd": 0.118,
+"29f828ca720e": 0.035,
+"31e88ae9c76e": 0.878,
+"36cde5e13860": 0.423,
+"3a3b0c92f78a": 0.571,
+"3e92ef5dc3fd": 0.015,
+"4b6121587bd8": 0.057,
+"5b281f4addfb": 0.053,
+"6ae4b9784831": 0.648,
+"6dd2aadf4e18": 0.034,
+"71b31e00a894": 0.023,
+"7738bc8b39ed": 0.041,
+"78043fdb92dc": 0.581,
+"7ccaa06b5f5f": 0.267,
+"84910e6505e9": 0.178,
+"85e5f4f86a95": 0.055,
+"888b78258148": 0.041,
+"8e43484884b5": 0.068,
+"9104c7f53722": 0.172,
+"943fbad42270": 0.091,
+"a037f0309a84": 0.672,
+"a6b50d4f0711": 0.066,
+"ab9b9ffee484": 0.541,
+"b3c18f868737": 0.525,
+"c57132c73fe6": 0.07,
+"c64ed6edb501": 0.99,
+"d130eca96b3a": 0.067,
+"d2d4e8e428fa": 0.076,
+"d87c59989b0c": 0.029,
+"df0e35c05fcd": 0.663,
+"e7cfbd7bed9b": 0.32,
+"ea46a03604e3": 0.152,
+"ecd8ff24c0c8": 0.197,
+"ee3aace71b7c": 0.235,
+"ee7985eb3559": 0.32,
+"f28d5bee13d9": 0.254,
+"f417b6ba6d17": 0.016,
+"f8cc0c11ad77": 0.874
 },
 "sent": [
 {
@@ -5651,64 +5654,64 @@
 "top": [
 [
 "c64ed6edb501",
-41,
-328,
+39,
+338,
 3
 ],
 [
-"78043fdb92dc",
-20,
-32,
-1
-],
-[
 "31e88ae9c76e",
-27,
-192,
+26,
+202,
 2
 ],
 [
 "f8cc0c11ad77",
-45,
-215,
+43,
+225,
 1
 ],
 [
 "a037f0309a84",
 20,
-130,
+140,
 1
 ],
 [
 "df0e35c05fcd",
-72,
-239,
+70,
+249,
 6
 ],
 [
 "6ae4b9784831",
 20,
-89,
+100,
 1
 ],
 [
 "3602850acdfd",
-16,
-201,
+14,
+211,
 1
+],
+[
+"78043fdb92dc",
+20,
+42,
+1
+],
+[
+"3a3b0c92f78a",
+69,
+340,
+3
 ],
 [
 "62aeeb86e532",
-18,
-180,
+17,
+190,
 1
-],
-[
-"ab9b9ffee484",
-34,
-100,
-2
 ]
 ],
-"top_at": 1795208099.9904337
+"top_at": 1795208713.7417407
 }
