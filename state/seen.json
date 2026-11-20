@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795112052.9920695,
 1795128446.5924501,
 1795155309.7038865,
 1795160334.5667403,
@@ -17,7 +16,8 @@
 1795184764.7366664,
 1795192149.2010665,
 1795194942.4996731,
-1795195532.0655758
+1795195532.0655758,
+1795199953.3821084
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -675,15 +675,16 @@
 },
 "31e88ae9c76e": {
 "coin": "",
-"src": "Watcher.Guru",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795198919.6360085,
+"t": 1795200258.3738852,
 "t0": 1795196591.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump announces agreement with China to establish joint rules for artificial intelligence.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump announces agreement with China to establish joint rules for artificial intelligence.",
-"url": "https://t.me/WatcherGuru/16210",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump announces agreement with China to establish joint rules for artificial intelligence.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump says the US and China will establish joint guardrails for \u201cSuper Intelligence,\u201d adding that President Xi also likes the name.\n\nNews | Markets | YouTube",
+"title": "Trump says the US and China will establish joint guardrails for \u201cSuper Intelligence,\u201d adding that President Xi also likes the name.",
+"url": "https://t.me/cointelegraph/73417",
 "urls": []
 },
 "32511d487801": {
@@ -746,7 +747,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795196060.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BIG: Trump says he met with 20 world leaders in four days, secured two new trade deals, and expects 10 more to be announced soon.\n\nNews | Markets | YouTube",
 "title": "BIG: Trump says he met with 20 world leaders in four days, secured two new trade deals, and expects 10 more to be announced soon.",
@@ -837,7 +838,7 @@
 "U.Today",
 "Wu Blockchain"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795181881.0,
 "tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
 "title": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B",
@@ -953,7 +954,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795180326.0,
 "tgtext": "",
 "title": "Bitcoin plunges below $62,000 amid tech selloff, inflation fears, and largest crypto hack ever.",
@@ -1053,7 +1054,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795179460.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.  Is he planning to buy the dip on these tokens?  https://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC. Is he planning to buy the dip on these tokens? https://arkm.com/explorer/entity/arthur-hayes",
@@ -1506,7 +1507,7 @@
 "Cointelegraph",
 "Lookonchain"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795182518.0,
 "tgtext": "Tether has burned 8B $USDT over the past 20 days!\n\nhttps://etherscan.io/address/0xC6CDE7C39eB2f0F0095F41570af89eFC2C1Ea828#tokentxns\n\ud83d\udea8 LATEST: Tether has burned 8,000,000,000 $USDT in 20 days.\n\nNews | Markets | YouTube",
 "title": "Tether has burned 8B USDT over the past 20 days!",
@@ -2448,7 +2449,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795199841.337698,
+"t": 1795199953.3821084,
 "t0": 1795184619.0,
 "tgtext": "Coinbase: Only the US Dollar Gained Over the Past Month, While Crypto Performed Worst\n\nAccording to Coinbase Institutional's November 20 weekly report, the US dollar was the only gainer among 14 tracked assets and market benchmarks over the 30 days through November 18, rising 2.5%. Bitcoin and Ethereum recorded the largest losses, falling 24.0% and 26.5%, respectively. Gold declined 10.2%, the Nasdaq 100 fell 6.4%, and the S&P 500 dropped 4.3%. Coinbase attributed Bitcoin's weakness primarily to rising real yields and expectations of further Fed rate hikes. \u2014 link",
 "title": "Coinbase: Only the US Dollar Gained Over the Past Month, While Crypto Performed Worst",
@@ -2725,7 +2726,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795196074.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says the US economy is growing faster than any other major developed country.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says the US economy is growing faster than any other major developed country.",
@@ -2787,7 +2788,7 @@
 "Lookonchain",
 "Watcher.Guru"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795188424.0,
 "tgtext": "\ud83d\udea8 ALERT: Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.\n\nNews | Markets | YouTube\nJUST IN: $1,330,000,000 liquidated from the cryptocurrency market in the past 24 hours.\n\nLongs: $1.2 billion\nShorts: $131 million\n\n@WatcherGuru\nOver the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
 "title": "Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.",
@@ -3336,7 +3337,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795199009.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump calls for Nvidia $NVDA to reinstate Jensen Huang as CEO.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump calls for Nvidia NVDA to reinstate Jensen Huang as CEO.",
@@ -3584,7 +3585,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795199841.337698,
+"t": 1795200258.3738852,
 "t0": 1795195209.0,
 "tgtext": "Whale 0xaBbd panic-sold all 15,349 $ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!\n\nJust a few days ago, the whale also sold 32,541 $ETH ($63M) at $1,938 during the market crash to repay loans on #Aave.\n\nhttps://debank.com/profile/0xabbd5b2b0b034781e58434736728b9d0673de7f1/history",
 "title": "Whale 0xaBbd panic-sold all 15,349 ETH ($26.1M) at $1,701 during the market crash to fully repay his loans!",
@@ -3649,23 +3650,22 @@
 },
 "probs": {
 "06c40dabb904": 0.06,
-"18515c823fe0": 0.052,
+"18515c823fe0": 0.374,
 "1f37ee94f564": 0.149,
 "1ff7c378ceef": 0.469,
-"299f77396ddd": 0.018,
+"299f77396ddd": 0.028,
+"29f828ca720e": 0.029,
 "2f32520890d8": 0.057,
 "2feb978749d9": 0.022,
-"387f3e2a791d": 0.749,
+"31e88ae9c76e": 0.982,
+"387f3e2a791d": 0.786,
 "3a3b0c92f78a": 0.223,
 "3fffbbe08697": 0.913,
 "40fb1d16df67": 0.141,
 "442246b3b855": 0.041,
 "4660961a9835": 0.196,
-"5164c5bc141d": 0.018,
-"58a5742fe38c": 0.201,
-"60bbe931f60d": 0.06,
+"58a5742fe38c": 0.271,
 "65e4cc9cd48d": 0.012,
-"6927d7eb52e4": 0.014,
 "6dd2aadf4e18": 0.12,
 "706f12bb0446": 0.412,
 "7738bc8b39ed": 0.013,
@@ -3680,74 +3680,17 @@
 "b3c18f868737": 0.568,
 "b97578971ca8": 0.058,
 "bb600704b7ad": 0.045,
-"c0f73cd69ddb": 0.098,
 "c57132c73fe6": 0.011,
-"c64ed6edb501": 0.998,
-"e314e69f3e7a": 0.305,
+"c64ed6edb501": 0.999,
+"c99472f7b897": 0.022,
+"d2d4e8e428fa": 0.065,
+"e314e69f3e7a": 0.367,
 "ee3aace71b7c": 0.205,
-"f087638239b3": 0.215,
+"f087638239b3": 0.133,
 "f417b6ba6d17": 0.005,
 "f8cc0c11ad77": 0.853
 },
 "sent": [
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1795023053.1592271,
-"u": [
-"https://t.me/cointelegraph/73368"
-],
-"w": [
-"$237",
-"hours",
-"liquidated",
-"million",
-"past",
-"positions"
-]
-},
-{
-"e": [
-"below",
-"billion",
-"fed",
-"hit",
-"liquidation",
-"markets",
-"rate",
-"slips",
-"talk",
-"wave"
-],
-"k": [
-"crash"
-],
-"t": 1795024290.788245,
-"u": [
-"https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-64000-waller",
-"https://news.google.com/rss/articles/CBMif0FVX3lxTFBzTlAtMUZLTG1WWE82STNVQVliVGhjRmZVMi1XTTNWRm1TQWR2bk5lb1hWSDNSVDY4bDU0X3JxVTVWNmdKR2lKOFBGU3BKZXNBX0RTS3BSajdySmhvZG5PQXFJeTNibDVLdGdoU25iVVF2UTk1WGU4LWNRekd0V3M?oc=5",
-"https://news.google.com/rss/articles/CBMidkFVX3lxTE9DaFdMQkIzR0JVRVY2WG9TM3RnR1lKb2dISWU3VUU1MzZwTGM3WWFMOUxhZ1dROFVjZ3dvdDFTcWRKNGRJTjRvdHNkQnBwdlpxN0RFQnNrTmNyYm40Z2tITGQ4aHUtNVhGOW05MEdrUjh5Q3JEcnc?oc=5",
-"https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUnhNN25WSW5XS3piX2hVa25rbUFvRWdsRUdrS0FIWEdVaHdUV2x5ajNVUS1iTHFfRV9KWFFMMEhOU09IOUluUWJKRzAtM0RVbW1GR1dRRVR3akdpMGtwUTFTTWg1d3EzNVlpNDItUmdoT2tldzJ0YlpSVUgzTnlYRzNwRFJuYmx6cm1Dem5wSVQ2RmVoRFFaeXNzZzZSVHltMjc3NDF5MW1OSXl4TGtmTnAyNkt3MWxRajZaMVRKbW11U3NPckExNTI3akRXazFW?oc=5"
-],
-"w": [
-"$64",
-"000",
-"below",
-"billion",
-"bitcoin",
-"fed",
-"hit",
-"liquidation",
-"markets",
-"rate",
-"slips",
-"talk",
-"wave"
-]
-},
 {
 "e": [
 "gonka"
@@ -5574,6 +5517,35 @@
 "sold",
 "whale"
 ]
+},
+{
+"e": [
+"china",
+"intelligence",
+"president",
+"super",
+"trump"
+],
+"k": [],
+"t": 1795199953.3821084,
+"u": [
+"https://t.me/WatcherGuru/16210",
+"https://t.me/cointelegraph/73417"
+],
+"w": [
+"adding",
+"also",
+"china",
+"establish",
+"guardrails",
+"intelligence",
+"joint",
+"likes",
+"name",
+"president",
+"super",
+"trump"
+]
 }
 ],
 "stories": {},
@@ -5581,64 +5553,64 @@
 "top": [
 [
 "c64ed6edb501",
-69,
-190,
+68,
+197,
 4
 ],
 [
+"31e88ae9c76e",
+28,
+61,
+2
+],
+[
 "3fffbbe08697",
-66,
-325,
+65,
+332,
 6
 ],
 [
 "45b9e50d6888",
-4,
-340,
+3,
+347,
 1
 ],
 [
 "f8cc0c11ad77",
 49,
-77,
-1
-],
-[
-"ee7985eb3559",
-18,
-14,
+84,
 1
 ],
 [
 "387f3e2a791d",
-70,
-299,
+69,
+306,
 6
 ],
 [
+"ee7985eb3559",
+18,
+21,
+1
+],
+[
 "6f0ba11969a7",
-14,
-289,
+13,
+296,
 2
 ],
 [
 "3602850acdfd",
 18,
-63,
+70,
 1
 ],
 [
 "c32c14c7051b",
 18,
-63,
-1
-],
-[
-"b2fe811f2dd8",
-9,
-254,
+70,
 1
 ]
 ],
-"top_at": 1795199841.337698
+"top_at": 1795200258.3738852
 }
