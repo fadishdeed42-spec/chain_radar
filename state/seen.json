@@ -361,20 +361,18 @@
 "coin": "bitcoin",
 "src": "Pluang",
 "srcs": [
-"CoinDesk",
 "CryptoPotato",
 "Cryptonews",
-"FXStreet",
-"Pluang"
+"Pluang",
+"TradingView",
+"Wu Blockchain"
 ],
-"t": 1795192764.8032358,
+"t": 1795194301.679157,
 "t0": 1795178689.0,
 "tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
 "title": "Bitcoin plunges below $62,000 amid tech selloff, inflation fears, and largest crypto hack ever.",
 "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYW9CNUhjOEN3UFh4Wk9iUE84YnQ2X1NSQUdPU01pbUdpXzBVX1pTVklCRDBqSGtkV0w4SlZzREQtX3Y4Nkl1Vm5ybGlBalFNX0FKTDRPNUlZQTNrUmhjSFBBd3E2bkUxdmJhWkFUcVpkb1IzUHlranBqb0ZPbHM4cHFzbEk4VjFtOXh6N21VUUtOTlIzXy1MRlVaeFI2Nk8tYUg4Sk5mMmI1U044dzVV?oc=5",
-"urls": [
-"https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
-]
+"urls": []
 },
 "150b5f7b6e3a": {
 "coin": "",
@@ -865,6 +863,25 @@
 "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
 ]
 },
+"3ba6a02dc0d9": {
+"coin": "ethereum",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Crypto Economy",
+"MarketForces Africa",
+"Traders Union",
+"TradingView"
+],
+"t": 1795194301.679157,
+"t0": 1795174301.0,
+"tgtext": "\ud83d\udea8 UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.\n\nhttps://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip\n\nNews | Markets | YouTube",
+"title": "UDDATE: Wallets linked to the Binance hack moved $594M in ETH over two days, including 197,460 ETH $346M on Friday, per Onchain Lens.",
+"url": "https://t.me/cointelegraph/73409",
+"urls": [
+"https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "3d612c18f2b0": {
 "coin": "",
 "src": "Bitcoin Magazine",
@@ -897,6 +914,24 @@
 "url": "https://t.me/WatcherGuru/16150",
 "urls": []
 },
+"3fffbbe08697": {
+"coin": "bitcoin",
+"src": "Pluang",
+"srcs": [
+"Cointelegraph",
+"CryptoTicker.io",
+"Pluang",
+"Yahoo Finance"
+],
+"t": 1795193995.7286894,
+"t0": 1795180326.0,
+"tgtext": "",
+"title": "Bitcoin plunges below $62,000 amid tech selloff, inflation fears, and largest crypto hack ever.",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYW9CNUhjOEN3UFh4Wk9iUE84YnQ2X1NSQUdPU01pbUdpXzBVX1pTVklCRDBqSGtkV0w4SlZzREQtX3Y4Nkl1Vm5ybGlBalFNX0FKTDRPNUlZQTNrUmhjSFBBd3E2bkUxdmJhWkFUcVpkb1IzUHlranBqb0ZPbHM4cHFzbEk4VjFtOXh6N21VUUtOTlIzXy1MRlVaeFI2Nk8tYUg4Sk5mMmI1U044dzVV?oc=5",
+"urls": [
+"https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "40fb1d16df67": {
 "coin": "zcash",
 "src": "Pluang",
@@ -905,7 +940,7 @@
 "Wu Blockchain",
 "www.tokenpost.com"
 ],
-"t": 1795193686.4499512,
+"t": 1795193995.7286894,
 "t0": 1795182444.0,
 "tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
 "title": "Zcash (ZEC) drops 14.53%, triggering $13.16M in long liquidations amid broader crypto market sell-off.",
@@ -987,7 +1022,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795193686.4499512,
+"t": 1795194301.679157,
 "t0": 1795179460.0,
 "tgtext": "After predicting that $ETH, $ZEC, $NEAR, and $VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M $USDC.  Is he planning to buy the dip on these tokens?  https://arkm.com/explorer/entity/arthur-hayes",
 "title": "After predicting that ETH, ZEC, NEAR, and VVV would pump, Arthur Hayes(@CryptoHayes) transferred out 5.04M USDC. Is he planning to buy the dip on these tokens? https://arkm.com/explorer/entity/arthur-hayes",
@@ -1375,21 +1410,6 @@
 "https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price"
 ]
 },
-"6a184f407c45": {
-"coin": "ethereum",
-"src": "Bitcoin Foundation",
-"srcs": [
-"ATM Marketplace",
-"Bitcoin Foundation",
-"CNA"
-],
-"t": 1795021187.2478235,
-"t0": 1794999600.0,
-"tgtext": "",
-"title": "Binance Hack-Linked Wallet Shifts $142M in ETH Across Seven Transfers",
-"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeDhXbjhfbFZtYjRlVFJ4SGdZMFFUZDd6dUhLZHhrTGRzSGt0OXAzejZpdExBQ0ozMzlDb3RtUGVwN1ZZMUVoZ3dIX1dMcEI0X2ppMnFMZElVZ3pVUXg3UllGX21VcVRxN3ViNXV5Y1hDVGdhSVVkQjZJN0JWSF9sb0JocEpiemJLTTRmSUNtSmFxNi1IY0NaNzhwNWhJbXpNemVSVjFnN0FDc3ZrT0VZemZsMA?oc=5",
-"urls": []
-},
 "6d235c99331a": {
 "coin": "",
 "src": "Lookonchain",
@@ -1429,7 +1449,7 @@
 "Cointelegraph",
 "Lookonchain"
 ],
-"t": 1795193686.4499512,
+"t": 1795194301.679157,
 "t0": 1795182518.0,
 "tgtext": "Tether has burned 8B $USDT over the past 20 days!\n\nhttps://etherscan.io/address/0xC6CDE7C39eB2f0F0095F41570af89eFC2C1Ea828#tokentxns\n\ud83d\udea8 LATEST: Tether has burned 8,000,000,000 $USDT in 20 days.\n\nNews | Markets | YouTube",
 "title": "Tether has burned 8B USDT over the past 20 days!",
@@ -1458,7 +1478,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795193686.4499512,
+"t": 1795194301.679157,
 "t0": 1795189574.0,
 "tgtext": "BREAKING: Bitcoin crashes under $60,000 and ETH crashes under $1,660\n\n$425,000,000 liquidated from the crypto market in the past 60 minutes.\n\n@WatcherGuru\nJUST IN: Bitcoin crashes under $59,000\n\n@WatcherGuru",
 "title": "Bitcoin crashes under $60,000 and ETH crashes under $1,660",
@@ -1914,7 +1934,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795193686.4499512,
+"t": 1795194301.679157,
 "t0": 1795188055.0,
 "tgtext": "JUST IN: Crypto continues to crash\n\n$BTC falls under $61,000\n$ETH falls under $1,700\n$XRP falls under $0.95\n$SOL falls under $70\n\nOver $90,000,000,000 wiped out from the crypto market cap in the past 24 hours.\n\n@WatcherGuru",
 "title": "Crypto continues to crash",
@@ -1964,7 +1984,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795193686.4499512,
+"t": 1795193995.7286894,
 "t0": 1795192064.0,
 "tgtext": "AguilaTrades(@AguilaTrades) wins again!\n\nHis short on 2,000 $BTC ($118.6M) is now up $5M+ in unrealized profit!\n\nhttps://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) wins again!",
@@ -2123,7 +2143,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795193686.4499512,
+"t": 1795193995.7286894,
 "t0": 1795192548.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' currently has a $14,100,000,000 unrealized loss on its Bitcoin investment.\n\nTom Lee's 'Bitmine' currently has a $10,100,000,000 unrealized loss on its $ETH investment.\n\n@WatcherGuru",
 "title": "Michael Saylor's 'Strategy' currently has a $14,100,000,000 unrealized loss on its Bitcoin investment.",
@@ -2181,23 +2201,6 @@
 "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
 ]
-},
-"a9624afce4f4": {
-"coin": "",
-"src": "MLQ.ai",
-"srcs": [
-"CoinGape",
-"Incrypted",
-"MLQ.ai",
-"The Crypto Times",
-"The Cryptonomist"
-],
-"t": 1795021187.2478235,
-"t0": 1794999745.0,
-"tgtext": "",
-"title": "Dundee hacker Tyler Buchanan gets six years in US prison over SIM-swap crypto thefts tied to Scattered Spider",
-"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkx1MlNCYXN0czBvUFphREJfWWxkcEJWTEFMRWxXNHljUTBkVS1LeFlOMkFLeS01TDdpSUo4Z0xScXl5LWtrLV9WOTJ4NEh3WW4tOENzcnRyWXhhMWVyVk45OEVKRmlrR3laai1uQ3pLdjBUQWtxRlVRQ0NxRHFaMGEzMmZ1Y2lRWTl0cl9pdzVqQ2htaHhNRGRYREEtUDFaaElXNnlJcXNmemRIX3FwNjNCUUs5TVE3LUJzNHFKMTRkUThORElnYWNB?oc=5",
-"urls": []
 },
 "aae97662904f": {
 "coin": "",
@@ -2275,7 +2278,7 @@
 "Crypto Headlines",
 "Lookonchain"
 ],
-"t": 1795186916.9236367,
+"t": 1795194301.679157,
 "t0": 1795178350.0,
 "tgtext": "BlackRock just deposit 5,400 $BTC($331M) and 71,597 $ETH($125M) to #CoinbasePrime.\n\nhttps://arkm.com/explorer/entity/blackrock\n\ud83d\udc47 \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f BlackRock \u0441\u0435\u0433\u043e\u0434\u043d\u044f \u043f\u0435\u0440\u0435\u0432\u0435\u043b\u0430 5400 BTC ($331m) \u0438 71,597 ETH ($125m) \u043d\u0430 \u0431\u0438\u0440\u0436\u0443 Coinbase Prime \u2013 \u043a\u043e\u0448\u0435\u043b\u0435\u043a\n\n\u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u0430\u043b\u044b (\u0438 \u0442\u043e\u043b\u043f\u0430) \u043f\u0440\u043e\u0434\u0430\u044e\u0442 Bitcoin \u0438 Ethereum ETF.\n\nCrypto Headlines",
 "title": "BlackRock just deposit 5,400 BTC($331M) and 71,597 ETH($125M) to CoinbasePrime.",
@@ -2384,7 +2387,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795192149.2010665,
+"t": 1795194301.679157,
 "t0": 1795184619.0,
 "tgtext": "Coinbase: Only the US Dollar Gained Over the Past Month, While Crypto Performed Worst\n\nAccording to Coinbase Institutional's November 20 weekly report, the US dollar was the only gainer among 14 tracked assets and market benchmarks over the 30 days through November 18, rising 2.5%. Bitcoin and Ethereum recorded the largest losses, falling 24.0% and 26.5%, respectively. Gold declined 10.2%, the Nasdaq 100 fell 6.4%, and the S&P 500 dropped 4.3%. Coinbase attributed Bitcoin's weakness primarily to rising real yields and expectations of further Fed rate hikes. \u2014 link",
 "title": "Coinbase: Only the US Dollar Gained Over the Past Month, While Crypto Performed Worst",
@@ -2692,7 +2695,7 @@
 "Forbes",
 "Yahoo Finance"
 ],
-"t": 1795193686.4499512,
+"t": 1795193995.7286894,
 "t0": 1795176414.0,
 "tgtext": "",
 "title": "Bitcoin Price Sinks to $61,300, Its Lowest Level since July as Asian Stocks Crash",
@@ -2708,7 +2711,7 @@
 "Lookonchain",
 "Watcher.Guru"
 ],
-"t": 1795193686.4499512,
+"t": 1795194301.679157,
 "t0": 1795188424.0,
 "tgtext": "\ud83d\udea8 ALERT: Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.\n\nNews | Markets | YouTube\nJUST IN: $1,330,000,000 liquidated from the cryptocurrency market in the past 24 hours.\n\nLongs: $1.2 billion\nShorts: $131 million\n\n@WatcherGuru\nOver the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
 "title": "Over $1.09 billion liquidated from the crypto market in the past 24 hours, with 219,096 traders wiped out, according to CoinGlass.",
@@ -3092,7 +3095,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795192455.3676329,
+"t": 1795194301.679157,
 "t0": 1795191554.0,
 "tgtext": "JUST IN: Financial markets are crashing\n\nGold falls under $3,550\nS&P 500 falls under 7,100\nNasdaq falls under 25,800\nBitcoin falls under $59,000\n\nTrillions of dollars in combined market value have been wiped out today.\n\n@WatcherGuru",
 "title": "Financial markets are crashing",
@@ -3544,45 +3547,45 @@
 },
 "probs": {
 "06c40dabb904": 0.159,
-"1ff7c378ceef": 0.699,
-"2d0f3f1d9662": 0.345,
+"11faa1dfa05b": 0.662,
+"14b375b34a1b": 0.991,
+"1ff7c378ceef": 0.759,
+"2d0f3f1d9662": 0.334,
 "2f32520890d8": 0.154,
-"2f902e7d3c32": 0.037,
 "2feb978749d9": 0.025,
+"32511d487801": 0.596,
 "35cffd15c83f": 0.05,
 "37d1e34c59d5": 0.098,
-"3fffbbe08697": 0.393,
-"40fb1d16df67": 0.898,
+"3a3b0c92f78a": 0.462,
+"3ba6a02dc0d9": 0.825,
+"40fb1d16df67": 0.201,
 "442246b3b855": 0.046,
-"45b9e50d6888": 0.972,
-"4660961a9835": 0.241,
+"4660961a9835": 0.215,
+"4b6121587bd8": 0.123,
+"6ba768d9b902": 0.034,
 "6dd2aadf4e18": 0.29,
 "6f0ba11969a7": 0.916,
-"706f12bb0446": 0.854,
-"71a3992e36d1": 0.63,
-"7434edfc3e43": 0.145,
-"82f08c8a1adf": 0.074,
-"83ac7ef74e2e": 0.288,
-"8bb7a41b502d": 0.124,
+"706f12bb0446": 0.966,
+"9352f5563a74": 0.831,
 "93f92c17ab1e": 0.4,
-"9654b88b4035": 0.152,
-"9940c90beb4e": 0.07,
+"9654b88b4035": 0.291,
+"9940c90beb4e": 0.168,
 "9bdce722e059": 0.151,
-"9cbc6a5a7da1": 0.297,
-"a5e17e47d357": 0.857,
-"a6b50d4f0711": 0.355,
+"a5e17e47d357": 0.724,
+"a6b50d4f0711": 0.233,
 "ade0bb50dfc5": 0.773,
-"ae8fcc9bb5d5": 0.21,
-"b6ec7093bac3": 0.643,
-"c0f73cd69ddb": 0.392,
-"c2467aac5967": 0.037,
-"c5f51d518677": 0.813,
+"b2fe811f2dd8": 0.783,
+"b3c18f868737": 0.657,
+"c0f73cd69ddb": 0.108,
+"c57132c73fe6": 0.034,
+"c5f51d518677": 0.441,
 "c64ed6edb501": 1.0,
-"d57a3a12beb3": 0.055,
-"d7d4f8b1dd9c": 0.028,
-"dcbfb402fd1a": 0.101,
+"d57a3a12beb3": 0.119,
 "ddf48772b7a2": 0.064,
-"f6c8a99383e8": 0.037
+"e314e69f3e7a": 0.807,
+"e94ea8b6a8ca": 0.08,
+"ee18509a7a37": 0.081,
+"f6c8a99383e8": 0.081
 },
 "sent": [
 {
@@ -5423,63 +5426,63 @@
 [
 "c64ed6edb501",
 70,
-88,
+98,
 4
 ],
 [
+"14b375b34a1b",
+75,
+260,
+6
+],
+[
+"706f12bb0446",
+20,
+79,
+1
+],
+[
 "45b9e50d6888",
-28,
-237,
-1
-],
-[
-"9979a63f33a7",
-10,
-27,
-1
-],
-[
-"08ba6cce4c8e",
-10,
-48,
+2,
+247,
 1
 ],
 [
 "6f0ba11969a7",
-28,
-186,
+26,
+196,
 2
-],
-[
-"40fb1d16df67",
-81,
-187,
-3
-],
-[
-"a5e17e47d357",
-28,
-19,
-1
-],
-[
-"706f12bb0446",
-30,
-69,
-1
 ],
 [
 "9352f5563a74",
 20,
-94,
+104,
 1
 ],
 [
-"c5f51d518677",
+"3ba6a02dc0d9",
+59,
+333,
+5
+],
+[
+"e314e69f3e7a",
+20,
 46,
-288,
-4
+1
+],
+[
+"b2fe811f2dd8",
+18,
+161,
+1
+],
+[
+"ade0bb50dfc5",
+23,
+266,
+2
 ]
 ],
-"top_at": 1795193686.4499512
+"top_at": 1795194301.679157
 }
