@@ -228,12 +228,12 @@
 "src": "The Block",
 "srcs": [
 "CoinDesk",
-"Coinpedia",
 "Cryptonews.net",
 "Lookonchain",
-"Pluang"
+"Pluang",
+"The Block"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795264421.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip\u2019s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
@@ -293,7 +293,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795272612.0,
 "tgtext": "Abraxas Capital appears to have bought the $BTC dip today, buying 10,356 $BTC ($607M) at an average price of $58,651.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital appears to have bought the BTC dip today, buying 10,356 BTC ($607M) at an average price of $58,651.",
@@ -388,6 +388,21 @@
 "tgtext": "",
 "title": "Binance $6.4 Billion Hack Recovery Reaches Just $32 Million After Three Weeks",
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5OVhIM0RQQjJXSEdBVnExYzlIUjNhR0xqb2ozaGgwM0FBaEwtNnRxblAtT05reTNwNC1lbEowUkpIOHBSWS1vcmpHbThrMGcwMlBteg?oc=5",
+"urls": []
+},
+"17bab511775d": {
+"coin": "bitcoin",
+"src": "Eurasia Business News",
+"srcs": [
+"Crypto News",
+"Eurasia Business News",
+"Traders Union"
+],
+"t": 1795285103.003804,
+"t0": 1795271952.0,
+"tgtext": "",
+"title": "Bitcoin Price Today, November 21, 2026: BTC Rebounds Above $60,000 as Solana Leads Crypto Gains",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX1piSlJxUXozY05JbW5HTklaY1gtN1lYcm16UjZPX2xKTVNiVlg4Yl93Q2tyNXcwMjQ4UVAzVjh5UjdHR2hpSDR4SUc1RG04SzI1WVVSNFRlcTN6cVYwSy1ka1FfYnN2ZXFqWlIxdXdGaTRpV0VOWWdqdkNyTlQ3elJ3azcxRHpDYWlpcGxQVE9wTjVPM183X250dnN4OHRKbUJVT0pmQkozYWZCSExmNzRmcDEtSjBBR0dhaWZucFFSYjhpTm9ERy03bWFITDQ?oc=5",
 "urls": []
 },
 "18184f8d240f": {
@@ -499,7 +514,7 @@
 "BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795284492.8819685,
+"t": 1795284799.5595832,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -823,7 +838,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795272266.0,
 "tgtext": "A whale deposited $270M in stablecoins into #Binance over the past 3 hours.\n\nIs Garrett Bullish (@GarrettBullish) buying the dip?\n\nhttps://arkm.com/explorer/address/0x2DFee705a290d49d5259B9E72d5b665D37960CFf",
 "title": "A whale deposited $270M in stablecoins into Binance over the past 3 hours.",
@@ -1206,7 +1221,7 @@
 "Crypto Briefing",
 "Traders Union"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -2150,27 +2165,6 @@
 "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOczVxcGlSc2M0NGpJVmJaMHMtSE9qTk01Y2hBcXhjZEJIazh4N052dTV6Snp3bVp0UlhNSEx4UGhSZ3loZXFESW80cnJoYnZVeUw4MHdoUnR2V2IxLU9FMnhrWDFjOHZ1TnR3ZGZGbHNLdnNNOUF4SWdiUGlmd2xFck95OVByTXZwMV9HNndXNktRcHJRNG1NNGV3QzZjcm1fMWFjdDJVM1gta3RRTHJXUkY0RHJKaFlEam9EWkxCYw?oc=5",
 "urls": []
 },
-"a32e78011cf3": {
-"coin": "bitcoin",
-"src": "Crypto News",
-"srcs": [
-"Bitcoin Magazine",
-"CoinDesk",
-"Coinpedia",
-"Crypto News",
-"Decrypt"
-],
-"t": 1795112002.4125338,
-"t0": 1795094295.0,
-"tgtext": "",
-"title": "Bitcoin price rebounds toward $64K ahead of Anthropic\u2019s $107B stock offering as AI altcoins rally",
-"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kYngtb1Ewbzh1WThveWRmRDZMNmVJU21FYnhRaENJcDR3T09wZ3pDX2ZtNl95OF9ENkRUXzluTi1YcHo3UGtqSjRnVUVsNEZ0Zlk2MUx6aHZORTV3dV9oT2JLeDBvVmN3aVVsVXdPU1Y3bDhp?oc=5",
-"urls": [
-"https://bitcoinmagazine.com/markets/bitcoin-price-rebounds-64000-anthropic",
-"https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price",
-"https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price"
-]
-},
 "a3966a9e5565": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2380,7 +2374,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795274168.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.\n\nNews | Markets | YouTube",
 "title": "Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.",
@@ -2578,25 +2572,6 @@
 "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
 ]
 },
-"b5a0a77e620f": {
-"coin": "",
-"src": "The 420.in",
-"srcs": [
-"Coin Edition",
-"Decrypt",
-"Law360",
-"Technology Org",
-"The 420.in"
-],
-"t": 1795111695.6613374,
-"t0": 1795090151.0,
-"tgtext": "",
-"title": "\u200bAbu Dhabi Court Orders Freeze on Rs. 60,775 Crore Crypto Assets Linked to Binance Hack",
-"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZGhIX1ppTUNGdEpIZ21JdUhHMm9PM3FYM2trYzNaMWRWZ2JRdWJMZ0lXMDZBTmd2LU9OUmF1V0pRWDFacFhrVFVHdUxBUWIycnBtaUdWdjRJcnFGZkxVc2xZSkl0ZnlmUU9iQVE3LW5VOVltbUx1dURNRThFODBBT0RzRVM4TV9nS2hJQ0w1SWtlNWQzcDdZRVk2ZVcxNU5ONXU3d2hB?oc=5",
-"urls": [
-"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
-]
-},
 "b6acc532e443": {
 "coin": "",
 "src": "Lookonchain",
@@ -2656,7 +2631,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\nLive liquidation tracker: https://watcherguru.com/liquidations\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2895,7 +2870,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -2951,6 +2926,20 @@
 "url": "https://t.me/wublockchainenglish/26904",
 "urls": []
 },
+"c9fbeef88b5e": {
+"coin": "bitcoin",
+"src": "Benzinga",
+"srcs": [
+"Benzinga",
+"Cryptonews.net"
+],
+"t": 1795285103.003804,
+"t0": 1795271893.0,
+"tgtext": "",
+"title": "Bitcoin Eyes $38,770 as ETF Outflows and Liquidations Surge and the Fear and Greed Index Falls",
+"url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcFBIR2h0enZtWXM3TTg3aWsxXzlOcTJLMVhBc2JLX3FXaUdIUnNRc3FwVlhXN1pTb0c3ckZyTzI0TThxaEZPRUNwMWc4OVRPbXZuVjhpa0ZGUUN4eEN2aGVTNktQREFmMC1oUGZ1d1BfZFF3TFFvUW90TlhNZFJoY3ZLU1FjZ3BPMDVMZTJkNVNVeTl4ZjJ5aTlhOUVwUmxZN3A1Wlg0UnNVbnB4RU5uVXRfR1BlazI5LTMzSExmTDhkVDR3SHkybHNTTkZBOGRySk1sekRn?oc=5",
+"urls": []
+},
 "ca74dc6a703f": {
 "coin": "bitcoin",
 "src": "Crypto News",
@@ -2979,6 +2968,23 @@
 "tgtext": "JUST IN: Over 400 Anthropic employees are now worth more than $100,000,000 each following the $ANT IPO.\n\nAnthropic's seven co-founders are now worth over $20 billion each.\n\nThe average Anthropic employee is worth over $40 million.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: Sam Bankman-Fried's former $500 million FTX investment in Anthropic $ANT would now be worth over $40 billion following its IPO.\n\nFTX sold it for only $1.34 billion following bankruptcy proceedings.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Sam Bankman-Fried's former $500 million FTX investment in Anthropic ANT would now be worth over $40 billion following its IPO.",
 "url": "https://t.me/WatcherGuru/16171",
+"urls": []
+},
+"cc2548a58744": {
+"coin": "ethereum",
+"src": "CoinGape",
+"srcs": [
+"CoinGape",
+"Coinpaper",
+"CryptoRank",
+"Cryptonews.net",
+"FXEmpire"
+],
+"t": 1795284799.5595832,
+"t0": 1795263429.0,
+"tgtext": "",
+"title": "How Low Could Ethereum Price Go as Exchange Reserves Jump by 210K ETH in Four Days?",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdzJVd3laMnBfdGk0dGo3YnRaUkhxNDRyYnVJTm1zMjJtWVpyWHlwUGdackhlbnB1OWozRWNxVlhUSmNqZk5BYktvcTFBQW5fcXZud1lFUUdkSGhHYm90eml4Nm85RmtQeEtLdEY2Rm5ZZjlNajdBMlFBWnZNempPMkxfT1p2NXhDbXVqQkhGU2RLRUJJUVZHdVNmNUxoR0xJQllMTEFXai1mTFgzR3doVi1B?oc=5",
 "urls": []
 },
 "cd2f64168e29": {
@@ -3182,7 +3188,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795284492.8819685,
+"t": 1795285103.003804,
 "t0": 1795284316.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.",
@@ -3758,28 +3764,28 @@
 "probs": {
 "042a2f23b222": 0.201,
 "0492547620cc": 0.022,
-"0ae8a0bfa260": 0.785,
+"0ae8a0bfa260": 0.888,
 "0ece4fa11d15": 0.044,
 "12ce5b5f86ed": 0.782,
-"17bab511775d": 0.146,
+"17bab511775d": 0.36,
 "17bad9a3f07b": 0.029,
 "1b73fbd31a82": 0.045,
-"202110c94618": 0.258,
-"2668ea73876f": 0.022,
 "267dc866d860": 0.012,
 "2a9e252076c6": 0.023,
 "3008566b6e6a": 0.052,
-"3519b9328143": 0.009,
 "39bf34bf09a4": 0.847,
+"4008050b066c": 0.017,
 "489b82843f11": 0.053,
-"51fda18ace60": 0.028,
-"589132e3ed8e": 0.047,
+"5473ccb8dae5": 0.056,
+"589132e3ed8e": 0.025,
 "589660e4913c": 0.306,
+"5b15cb588cd7": 0.015,
+"6b8ec1fa7984": 0.03,
 "763cf975c4e7": 0.006,
 "7b000dedfeb3": 0.078,
 "80805dc74573": 0.014,
+"818bb86f2824": 0.081,
 "88edf1d74b12": 0.227,
-"8a153f708db7": 0.409,
 "90c3140a626b": 0.128,
 "978028af339d": 0.007,
 "9e110ec9525e": 0.026,
@@ -3794,7 +3800,7 @@
 "c9fbeef88b5e": 0.233,
 "cc8ca5fca799": 0.019,
 "d0db8afa751c": 0.025,
-"e1e0e550c492": 0.103,
+"e1e0e550c492": 0.149,
 "e4cc8328cffc": 0.062
 },
 "sent": [
@@ -5796,63 +5802,63 @@
 [
 "ad5e17508d43",
 28,
-172,
+182,
 2
 ],
 [
-"39bf34bf09a4",
-29,
-204,
-1
-],
-[
 "0ae8a0bfa260",
-51,
-335,
+50,
+345,
 7
 ],
 [
+"39bf34bf09a4",
+28,
+214,
+1
+],
+[
 "12ce5b5f86ed",
-14,
-198,
+13,
+208,
 1
 ],
 [
 "c7deeb949a5e",
-17,
-236,
+16,
+246,
 1
 ],
 [
 "bbe091f83d7c",
-16,
-248,
+15,
+258,
 1
+],
+[
+"17bab511775d",
+50,
+219,
+3
 ],
 [
 "d917adf05164",
 10,
-3,
+13,
 1
 ],
 [
-"8a153f708db7",
-17,
-358,
-3
-],
-[
 "589660e4913c",
-54,
-338,
+53,
+348,
 3
 ],
 [
-"202110c94618",
-33,
-351,
+"c9fbeef88b5e",
+60,
+220,
 2
 ]
 ],
-"top_at": 1795284492.8819685
+"top_at": 1795285103.003804
 }
