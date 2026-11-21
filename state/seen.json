@@ -230,12 +230,12 @@
 "src": "The Block",
 "srcs": [
 "CoinDesk",
+"Cryptonews.net",
 "Lookonchain",
 "Pluang",
-"The Block",
-"TradingView"
+"The Block"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795264421.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip\u2019s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
@@ -311,7 +311,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795272612.0,
 "tgtext": "Abraxas Capital appears to have bought the $BTC dip today, buying 10,356 $BTC ($607M) at an average price of $58,651.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital appears to have bought the BTC dip today, buying 10,356 BTC ($607M) at an average price of $58,651.",
@@ -517,7 +517,7 @@
 "BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -821,7 +821,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795272266.0,
 "tgtext": "A whale deposited $270M in stablecoins into #Binance over the past 3 hours.\n\nIs Garrett Bullish (@GarrettBullish) buying the dip?\n\nhttps://arkm.com/explorer/address/0x2DFee705a290d49d5259B9E72d5b665D37960CFf",
 "title": "A whale deposited $270M in stablecoins into Binance over the past 3 hours.",
@@ -1204,7 +1204,7 @@
 "Crypto Briefing",
 "Traders Union"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1799,6 +1799,20 @@
 "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"84fc31bbf0a3": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"Coinpaper"
+],
+"t": 1795280656.3925858,
+"t0": 1795261628.0,
+"tgtext": "",
+"title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
+"url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeEtfcFVLa1VXbTlfXzhxYjRDSlJNeVVteDlBTWxvdDNKMEdtS0VRVFYwMjBmYU5tUHEwbDByMDBUTEdabEgybGJLd081UFdJLTQ2bGJMU21Fckp0Q3FFY3czbFFjN3ltb1ptVDlrOThPMUozblhSdUNxVGtLd3MwcjJiQWJGYkRQX2lHaHJOTTdURm9FN2RwcEpaM2ZXcDVJVmd3NVY5WkVvYjNLODVBV0RUS2FLZE1ITUlUTnV4MFE?oc=5",
+"urls": []
+},
 "8523697f833d": {
 "coin": "",
 "src": "Lookonchain",
@@ -1939,6 +1953,21 @@
 "tgtext": "",
 "title": "Bitcoin Trading Below $62,000: Can Bulls Prevent BTC Price From Plunging Below $60,000?",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxV25Vb1hvaGZqRXZISkJCMzc1bnVFbFdEc0V4bnNSVkVWVmJQenZKUTFIQTI2Tl9vNThJSmw0UXRkbUdQZDRZd05IYmdxTkRZT1ZOVzNqNHU?oc=5",
+"urls": []
+},
+"90b3289def34": {
+"coin": "",
+"src": "KuCoin",
+"srcs": [
+"CoinMarketCap",
+"CryptoRank",
+"KuCoin"
+],
+"t": 1795280656.3925858,
+"t0": 1795262640.0,
+"tgtext": "",
+"title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUF3emZfQV9PRkxjTDVoNE9kOHdfY2ltaHE3UldCS1l0NlRQazZHMHg5OWdDOXB1dVVxcUVuZ1BXbVRvWmtPS0tSWGpReURzaGt0Sk9VdXhYUlFWdGRlMTRpWUlCR0pETXVOaUJQWjNEbFZYTE8yZFVGc0ppVnU2TnpsWk5ETzJ5eWw4ckljX2RCcjNwUzdHQ1NfcEo?oc=5",
 "urls": []
 },
 "9280a2d18ecf": {
@@ -2347,7 +2376,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795274168.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.\n\nNews | Markets | YouTube",
 "title": "Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.",
@@ -2623,7 +2652,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\nLive liquidation tracker: https://watcherguru.com/liquidations\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2862,7 +2891,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795280043.8695188,
+"t": 1795280656.3925858,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -3519,7 +3548,7 @@
 "Crypto News",
 "Eurasia Business News"
 ],
-"t": 1795280043.8695188,
+"t": 1795280351.5110602,
 "t0": 1795260900.0,
 "tgtext": "",
 "title": "Bitcoin Slips Under $60,000 as Analyst Warns Bottom May Not Be In, Eyes $54,000 Realized Price",
@@ -3737,38 +3766,38 @@
 },
 "probs": {
 "03df2fc9d1bf": 0.367,
+"042a2f23b222": 0.367,
 "0492547620cc": 0.112,
 "05710dbcb584": 0.042,
-"0ae8a0bfa260": 0.965,
+"0ae8a0bfa260": 0.945,
 "10297c7cf162": 0.081,
 "12ce5b5f86ed": 0.915,
 "1b73fbd31a82": 0.124,
 "202110c94618": 0.767,
 "267dc866d860": 0.034,
-"291f1deb7b8f": 0.097,
 "2a9e252076c6": 0.065,
 "2e81106c10d6": 0.096,
+"3008566b6e6a": 0.142,
 "35ba509331d0": 0.053,
 "39bf34bf09a4": 0.862,
 "42930153aafb": 0.082,
-"4c1f3bc23aaf": 0.176,
+"489b82843f11": 0.144,
+"4c1f3bc23aaf": 0.138,
 "51fda18ace60": 0.14,
 "5473ccb8dae5": 0.214,
 "589132e3ed8e": 0.128,
 "589660e4913c": 0.651,
-"61179e8a3031": 0.406,
 "6d77381d9fec": 0.382,
 "763cf975c4e7": 0.019,
 "7b000dedfeb3": 0.086,
-"84fc31bbf0a3": 0.15,
+"84fc31bbf0a3": 0.564,
 "88edf1d74b12": 0.548,
 "8a153f708db7": 0.394,
+"90b3289def34": 0.614,
 "978028af339d": 0.021,
 "ad5e17508d43": 0.966,
-"b311dcbeb210": 0.027,
 "b365aa842496": 0.09,
 "bbe091f83d7c": 0.813,
-"c0f3bbb183ac": 0.046,
 "c7deeb949a5e": 0.814,
 "d0db8afa751c": 0.018,
 "e1e0e550c492": 0.256,
@@ -5842,63 +5871,63 @@
 [
 "ad5e17508d43",
 28,
-98,
+108,
 2
 ],
 [
 "0ae8a0bfa260",
-61,
-260,
-5
+59,
+271,
+6
 ],
 [
 "12ce5b5f86ed",
 16,
-124,
+134,
 1
 ],
 [
 "39bf34bf09a4",
 32,
-130,
+140,
 1
 ],
 [
 "c7deeb949a5e",
 24,
-162,
+172,
 1
 ],
 [
 "bbe091f83d7c",
 25,
-173,
+184,
 1
 ],
 [
 "202110c94618",
-43,
-277,
+41,
+287,
 2
 ],
 [
 "589660e4913c",
-64,
-264,
+63,
+274,
 3
 ],
 [
-"f3fc5c4fc005",
-22,
-319,
+"90b3289def34",
+54,
+300,
 3
 ],
 [
-"88edf1d74b12",
-18,
-25,
-1
+"84fc31bbf0a3",
+42,
+317,
+2
 ]
 ],
-"top_at": 1795280043.8695188
+"top_at": 1795280656.3925858
 }
