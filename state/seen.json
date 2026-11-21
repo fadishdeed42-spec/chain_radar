@@ -481,7 +481,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795278927.0,
 "tgtext": "",
 "title": "A Bitcoin drop toward $53,000 could put $240 million in collateral at risk",
@@ -758,6 +758,23 @@
 "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
 ]
 },
+"3008566b6e6a": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Decrypt",
+"SSBCrack",
+"Yahoo Finance"
+],
+"t": 1795300354.1113615,
+"t0": 1795280462.0,
+"tgtext": "",
+"title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+"url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+"urls": [
+"https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec"
+]
+},
 "3197ae7b3d9a": {
 "coin": "",
 "src": "CryptoRank",
@@ -958,7 +975,7 @@
 "BigGo Finance",
 "Cryptonews.net"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795289139.0,
 "tgtext": "",
 "title": "Ethereum Whale's $214 Million Aave Debt Nears Liquidation at $1,401",
@@ -993,7 +1010,7 @@
 "CoinDesk",
 "Coinpaper"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795283466.0,
 "tgtext": "",
 "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday\u2019s stock open",
@@ -1430,19 +1447,18 @@
 ]
 },
 "677a3da37b8c": {
-"coin": "bitcoin",
-"src": "Pluang",
+"coin": "",
+"src": "CoinDesk",
 "srcs": [
 "CoinDesk",
 "Cryptonews.net",
-"Pluang",
 "The Crypto Times"
 ],
-"t": 1795297610.8973837,
+"t": 1795300354.1113615,
 "t0": 1795279260.0,
 "tgtext": "",
-"title": "Over $2B USDS swapped for USDC via Sky Protocol; Chainflip lost $4.86M in hack; Bitcoin holds $60K amid selloff",
-"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmtBMGQxd1VQRkw3VkxKaXhvWXlnWEUwaFZpOUdFbEZDeWV0T2JYMllvRTdlSXVRXzF4VVRGeHFPVkN0MHFGdUFUZFozSVhrZXN5OXJYYUVubFlSdm5RaVVQNkFpdFFuZ3hzaFNTQUc3UFp3Q01Jai0zVWNxVHBUWl9kMVU2ZFItWDhKOHI0MUVyN0pKU0JvMldvOC1yX0tZbGZ6WDJVbnNJNDdhaGMxWi13?oc=5",
+"title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+"url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
 "urls": [
 "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
 ]
@@ -1853,19 +1869,20 @@
 "urls": []
 },
 "83d32d7c0976": {
-"coin": "",
-"src": "CoinDesk",
+"coin": "bitcoin",
+"src": "Pluang",
 "srcs": [
 "Coin Gabbar",
 "CoinDesk",
 "Cryptonews.net",
+"Pluang",
 "The Crypto Times"
 ],
-"t": 1795299744.1567416,
+"t": 1795300050.828524,
 "t0": 1795278600.0,
 "tgtext": "",
-"title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-"url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+"title": "Over $2B USDS swapped for USDC via Sky Protocol; Chainflip lost $4.86M in hack; Bitcoin holds $60K amid selloff",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmtBMGQxd1VQRkw3VkxKaXhvWXlnWEUwaFZpOUdFbEZDeWV0T2JYMllvRTdlSXVRXzF4VVRGeHFPVkN0MHFGdUFUZFozSVhrZXN5OXJYYUVubFlSdm5RaVVQNkFpdFFuZ3hzaFNTQUc3UFp3Q01Jai0zVWNxVHBUWl9kMVU2ZFItWDhKOHI0MUVyN0pKU0JvMldvOC1yX0tZbGZ6WDJVbnNJNDdhaGMxWi13?oc=5",
 "urls": [
 "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
 ]
@@ -1939,7 +1956,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795299744.1567416,
+"t": 1795300050.828524,
 "t0": 1795278532.0,
 "tgtext": "Vitalik Criticizes Racial Stereotypes in Netflix's Portrayal of CZ, Questions Whether It Is Racist\n\nEthereum co-founder Vitalik Buterin criticized Netflix's portrayal of Binance founder Changpeng Zhao (CZ) in a production involving FTX founder Sam Bankman-Fried (SBF) and Caroline Ellison. Buterin said CZ's accent had been made to sound roughly three times more foreign than he remembered. He also criticized the production for reinforcing the stereotype that people travel to foreign countries only to engage in suspicious activities. Buterin questioned whether such a portrayal should be called \"racist,\" suggesting that society may have moved far enough beyond \"woke\" culture for the term to be used again. \u2014 link",
 "title": "Vitalik Criticizes Racial Stereotypes in Netflix's Portrayal of CZ, Questions Whether It Is Racist",
@@ -2203,7 +2220,7 @@
 "Crypto Briefing",
 "The Block"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795285377.0,
 "tgtext": "",
 "title": "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers",
@@ -2631,7 +2648,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795290003.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.\n\n@WatcherGuru",
 "title": "Russia allows Bitcoin trading as sanctioned Moscow Exchange prepares December launch",
@@ -2648,7 +2665,7 @@
 "SSBCrack",
 "Wealth Management"
 ],
-"t": 1795298524.0672116,
+"t": 1795300050.828524,
 "t0": 1795278480.0,
 "tgtext": "",
 "title": "SEC Charges Eight Fake Crypto Platforms in $37M Fraud Targeting U.S. Investors",
@@ -2923,7 +2940,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795286820.0,
 "tgtext": "",
 "title": "Cyber Warns Against Bridge Use After Unexpected Minting",
@@ -3170,6 +3187,20 @@
 "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
 ]
 },
+"d2cb63d88aa8": {
+"coin": "bitcoin",
+"src": "CryptoRank",
+"srcs": [
+"CryptoRank",
+"Cryptonews.net"
+],
+"t": 1795300354.1113615,
+"t0": 1795281731.0,
+"tgtext": "",
+"title": "Bitcoin Crash Below $58K Sparks $50K Fears: What Investors Need to Know Now",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR2tmZW10Nm5CQ2pIdkExOEd0ckdHY3JzamdBMWRERkFEVWEyZ194TU1jOUp4MnNXdTltV3RCUUg3ZzNIc0J3ZHQyam1LS09PVVNGOGNYeDFYZXZ3QjZPNjVlVDBmUWpsTHJfOWVkOVBaSlNzM2N6S0lQQnl6My16cWR2VzFldWFxOHgtZUZqOWpRTUgxUVZwRS0xdENYVnpnR1BHVVBKUF9Ed0lTeTRZ?oc=5",
+"urls": []
+},
 "d40678e0a25f": {
 "coin": "",
 "src": "Coin Gabbar",
@@ -3306,7 +3337,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795299744.1567416,
+"t": 1795300354.1113615,
 "t0": 1795284316.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.",
@@ -3914,26 +3945,23 @@
 },
 "probs": {
 "023c3bf689da": 0.05,
+"0666f7e78545": 0.044,
 "08be9b0acbeb": 0.022,
 "130123431ea6": 0.023,
 "17bad9a3f07b": 0.043,
 "1abe55ea3f66": 0.033,
 "1b73fbd31a82": 0.066,
 "1ed016adda8c": 0.022,
-"267dc866d860": 0.025,
 "2fd06b4d90cb": 0.013,
-"3008566b6e6a": 0.041,
-"3197ae7b3d9a": 0.054,
+"3008566b6e6a": 0.085,
 "3fd167bcbbc5": 0.289,
 "4008050b066c": 0.014,
 "40c6ddba5ca7": 0.507,
-"489b82843f11": 0.043,
+"42930153aafb": 0.034,
 "5c35c2732322": 0.038,
-"645c34cf82b0": 0.097,
+"677a3da37b8c": 0.118,
 "6b8ec1fa7984": 0.044,
 "77df64072e5b": 0.061,
-"83d32d7c0976": 0.272,
-"88edf1d74b12": 0.306,
 "8b0f3a536a88": 0.04,
 "8b9de3e468f0": 0.016,
 "90c3140a626b": 0.035,
@@ -3941,13 +3969,12 @@
 "b1aaa9ebdd93": 0.064,
 "b30d4594bda9": 0.009,
 "b57793fe6170": 0.232,
-"b5e4609e99ae": 0.013,
 "c3c493ede89d": 0.024,
 "c6cf90e6507a": 0.007,
 "c711b060f50f": 0.075,
 "c7721e96e36f": 0.013,
 "d2193f1e8019": 0.006,
-"d2cb63d88aa8": 0.046,
+"d2cb63d88aa8": 0.105,
 "d61828992bf5": 0.04,
 "d795198d1e48": 0.058,
 "d917adf05164": 0.365,
@@ -5930,64 +5957,64 @@
 "top": [
 [
 "40c6ddba5ca7",
-28,
-271,
+27,
+281,
 3
 ],
 [
 "d917adf05164",
 0,
-257,
-1
-],
-[
-"88edf1d74b12",
-0,
-354,
+267,
 1
 ],
 [
 "9c6b45d7487c",
-68,
-239,
+66,
+250,
 3
 ],
 [
 "3fd167bcbbc5",
 49,
-177,
+187,
 2
-],
-[
-"83d32d7c0976",
-49,
-352,
-4
 ],
 [
 "b57793fe6170",
 20,
-162,
+173,
 2
 ],
 [
-"645c34cf82b0",
-9,
-357,
-1
+"677a3da37b8c",
+39,
+352,
+3
+],
+[
+"d2cb63d88aa8",
+28,
+310,
+2
+],
+[
+"3008566b6e6a",
+48,
+332,
+3
 ],
 [
 "c711b060f50f",
-6,
-215,
+4,
+226,
 1
 ],
 [
 "1b73fbd31a82",
 0,
-347,
+357,
 1
 ]
 ],
-"top_at": 1795299744.1567416
+"top_at": 1795300354.1113615
 }
