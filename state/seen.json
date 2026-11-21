@@ -484,7 +484,7 @@
 "BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -1234,7 +1234,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795265999.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip (@Chainflip) was hacked for $4.86M!",
@@ -1250,7 +1250,7 @@
 "Cryptonews.net",
 "Traders Union"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1508,7 +1508,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795269591.0,
 "tgtext": "This hacker knows how to trade!\n\n2 days ago, he sold 5,270 $ETH($9.51M) at $1,805, then placed limit orders to long $ETH at $1,551\u2013$1,568.\n\nHis orders got filled today!\n\nHe now holds a 14,000 $ETH ($23.8M) long, up $2.13M in unrealized profit!\nhttps://x.com/lookonchain/status/2123418176046379203",
 "title": "This hacker knows how to trade!",
@@ -1592,7 +1592,7 @@
 "BigGo Finance",
 "TradingKey"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795254556.0,
 "tgtext": "",
 "title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
@@ -2611,7 +2611,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2789,7 +2789,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2842,6 +2842,19 @@
 "tgtext": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen\n\nAccording to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has been recovered. The attackers still hold 18,270 BTC stolen directly from Binance, which remains untouched. Over 5,100 BTC has been transferred through THORChain, while 1,482 BTC has entered CoinJoin mixing, primarily via the kruw coordinator. The FBI previously attributed the attack to North Korea-linked TraderTraitor. \u2014 link",
 "title": "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GcGtoY1FLUHIzZEJiNTVrbGV6R3ZtRTE5RzNqMzMxaWliUTM0VGlMRGVRVG9fcFBSZEVGNXFKc1gtQk5lN09TYnN0Tkw1NnJ0OU93dkU0MkdDQQ?oc=5",
+"urls": []
+},
+"c7deeb949a5e": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795270842.4295487,
+"t0": 1795270339.0,
+"tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
+"title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
+"url": "https://t.me/lookonchainchannel/11211",
 "urls": []
 },
 "c8382ce391c1": {
@@ -3019,10 +3032,11 @@
 "src": "Coin Gabbar",
 "srcs": [
 "Coin Gabbar",
+"Coinpedia",
 "Pluang",
 "The Defiant"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795254870.0,
 "tgtext": "",
 "title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
@@ -3421,7 +3435,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795270224.7121944,
+"t": 1795270842.4295487,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3717,11 +3731,13 @@
 },
 "probs": {
 "03df2fc9d1bf": 0.42,
+"05710dbcb584": 0.062,
 "10297c7cf162": 0.38,
+"188de02259d0": 0.105,
+"1e0f44e611d5": 0.027,
 "202110c94618": 0.887,
 "2347eb6f87ab": 0.207,
 "235f0f3d0962": 0.432,
-"32083bf0dd60": 0.141,
 "350e0254bb60": 0.111,
 "4055acd139b0": 0.079,
 "4c1f3bc23aaf": 0.17,
@@ -3734,54 +3750,28 @@
 "662853968140": 0.078,
 "662d85387bbf": 0.182,
 "67f93b6f14f9": 0.172,
+"6c1fed4cf686": 0.177,
 "72f1f5db4583": 0.771,
-"767662179c6c": 0.078,
-"815ae20b3f0d": 0.238,
+"78f7a83e386d": 0.126,
 "84fc31bbf0a3": 0.502,
 "8a153f708db7": 0.489,
 "9135cc527046": 0.146,
 "9280a2d18ecf": 0.627,
-"a9217b3fe3aa": 0.326,
 "aacf3aaee6d2": 0.121,
-"bbe091f83d7c": 0.983,
+"bbe091f83d7c": 0.992,
 "c0bfa252509a": 0.066,
 "c385ebe5cf82": 0.063,
+"c7deeb949a5e": 0.904,
 "c995e076091f": 0.146,
+"ca287d92c71e": 0.015,
 "cc2548a58744": 0.181,
-"cdf9b4bf1405": 0.027,
 "d0d0e4a0822d": 0.265,
-"d0db8afa751c": 0.022,
-"d40678e0a25f": 0.753,
+"d40678e0a25f": 0.627,
 "dad1203807cb": 0.111,
 "e4cc8328cffc": 0.319,
-"efc61563fcea": 0.801,
 "fe77f0cef05b": 0.202
 },
 "sent": [
-{
-"e": [],
-"k": [
-"hack"
-],
-"t": 1795097405.5239472,
-"u": [
-"https://t.me/lookonchainchannel/11163"
-],
-"w": [
-"$21",
-"51m",
-"551",
-"568",
-"eth",
-"get",
-"hacker",
-"his",
-"long",
-"looking",
-"wish",
-"worth"
-]
-},
 {
 "e": [
 "chase",
@@ -5718,6 +5708,36 @@
 "shorts",
 "worth"
 ]
+},
+{
+"e": [
+"three"
+],
+"k": [],
+"t": 1795270537.8738875,
+"u": [
+"https://t.me/lookonchainchannel/11211"
+],
+"w": [
+"$11",
+"$19",
+"20x",
+"323",
+"54m",
+"725",
+"belonging",
+"btc",
+"created",
+"eth",
+"longs",
+"newly",
+"opened",
+"possibly",
+"same",
+"three",
+"wallets",
+"whale"
+]
 }
 ],
 "stories": {},
@@ -5726,63 +5746,63 @@
 [
 "bbe091f83d7c",
 25,
-10,
+20,
 1
 ],
 [
 "5849a65ec338",
 41,
-70,
+81,
+1
+],
+[
+"c7deeb949a5e",
+34,
+8,
+1
+],
+[
+"6d77381d9fec",
+10,
+21,
 1
 ],
 [
 "202110c94618",
 65,
-113,
+123,
 2
 ],
 [
-"6d77381d9fec",
-10,
-11,
-1
-],
-[
 "efc61563fcea",
-10,
-261,
+8,
+272,
 2
 ],
 [
 "72f1f5db4583",
-75,
-261,
-3
-],
-[
-"d40678e0a25f",
-65,
-256,
+73,
+271,
 3
 ],
 [
 "c5f1d1d1a353",
 0,
-273,
+283,
 1
 ],
 [
 "589660e4913c",
 75,
-100,
+111,
 4
 ],
 [
-"9280a2d18ecf",
-63,
-305,
-3
+"d40678e0a25f",
+74,
+266,
+4
 ]
 ],
-"top_at": 1795270224.7121944
+"top_at": 1795270842.4295487
 }
