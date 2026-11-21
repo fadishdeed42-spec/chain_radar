@@ -437,7 +437,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795235844.0,
 "tgtext": "",
 "title": "Liquidity Crunch Spreads From Stocks, Gold to Crypto, Triggering $2.3 Billion in Liquidations",
@@ -546,7 +546,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795236101.0,
 "tgtext": "\ud83d\udd25 NEW: Two people close to Tether are raising a fund to squeeze yield out of $XAUt.\n\nThey're targeting 4% on top of gold and $100M AUM in year one.\n\nNews | Markets | YouTube",
 "title": "Two people close to Tether are raising a fund to squeeze yield out of XAUt.",
@@ -1023,7 +1023,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795242180.0,
 "tgtext": "",
 "title": "Strategy Breaks Silence After BTC Crash as Bitcoin Position Dumps to $17B in Paper Losses",
@@ -1480,7 +1480,7 @@
 "srcs": [
 "\u6df1\u6f6eTechFlow"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795251292.0,
 "tgtext": "",
 "title": "James Wynn suffered 15 liquidations in the past hour.",
@@ -1699,7 +1699,7 @@
 "Free Press Journal",
 "The Hawk"
 ],
-"t": 1795253008.849862,
+"t": 1795257294.3049471,
 "t0": 1795249082.0,
 "tgtext": "",
 "title": "WazirX-Binance Crypto Fraud Row Deepens, Thousands Of Investors Seek ED And CBI Probe Over Alleged Financial",
@@ -1879,7 +1879,7 @@
 "Pragativadi",
 "The Crypto Times"
 ],
-"t": 1795256069.4053273,
+"t": 1795257294.3049471,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2172,7 +2172,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2729,7 +2729,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2883,7 +2883,7 @@
 "Cryptonews.net",
 "The Block"
 ],
-"t": 1795256682.0862706,
+"t": 1795256989.7688277,
 "t0": 1795235400.0,
 "tgtext": "",
 "title": "Bitcoin slides below $56K, Senate passes DEATH BETS Act, SEC alleges $560M fraud | Weekly recap",
@@ -3055,7 +3055,7 @@
 "CryptoRank",
 "Pluang"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795237600.0,
 "tgtext": "",
 "title": "$1.76B crypto liquidations hit Nvidia, SanDisk, and Bitcoin amid tech sell-off",
@@ -3378,7 +3378,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795256682.0862706,
+"t": 1795257294.3049471,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3705,9 +3705,10 @@
 "sky": 1795122033.1506746
 },
 "probs": {
+"153fd3a06069": 0.092,
 "173df33cde1e": 0.011,
+"19299b1f0754": 0.054,
 "1bf46deae103": 0.336,
-"1dc74215b227": 0.146,
 "1ed6d39bc882": 0.046,
 "235f0f3d0962": 0.128,
 "25ff762a0e71": 0.299,
@@ -3723,24 +3724,22 @@
 "6ccf0eb9051a": 0.095,
 "6df0254256ec": 0.468,
 "75d17d840b43": 0.1,
+"7c22c4d885f3": 0.138,
+"815ae20b3f0d": 0.242,
 "8d1907fd5471": 0.082,
+"9280a2d18ecf": 0.463,
 "a577db08e5eb": 0.408,
 "abee2200bec5": 0.112,
 "b85948d718ee": 0.082,
 "c5f1d1d1a353": 0.558,
-"ca74dc6a703f": 0.477,
 "cdf9b4bf1405": 0.03,
 "ce7af00053a8": 0.076,
 "d0d0e4a0822d": 0.092,
 "ddad4014f2b9": 0.426,
-"ddb55919e01b": 0.332,
 "df5b6c078491": 0.083,
-"e21590ae3f60": 0.052,
 "e286ca637d87": 0.088,
-"e3e659e4fb54": 0.074,
 "ebd4f4415d45": 0.037,
-"eccc8cce7999": 0.044,
-"efc61563fcea": 0.861,
+"efc61563fcea": 0.818,
 "f294818f9a2c": 0.118
 },
 "sent": [
@@ -5706,63 +5705,63 @@
 [
 "efc61563fcea",
 28,
-36,
+46,
 2
 ],
 [
 "c5f1d1d1a353",
 10,
-47,
+57,
 1
-],
-[
-"ca74dc6a703f",
-45,
-355,
-3
 ],
 [
 "6df0254256ec",
 25,
-90,
+100,
 1
 ],
 [
+"9280a2d18ecf",
+69,
+90,
+3
+],
+[
 "ddad4014f2b9",
-42,
-318,
+41,
+328,
 3
 ],
 [
 "a577db08e5eb",
-31,
-213,
+30,
+223,
 1
 ],
 [
 "1bf46deae103",
-18,
-347,
+17,
+358,
 1
-],
-[
-"ddb55919e01b",
-69,
-260,
-5
 ],
 [
 "25ff762a0e71",
 0,
-343,
+353,
 1
 ],
 [
 "456be5690816",
-27,
-242,
+26,
+252,
 1
+],
+[
+"815ae20b3f0d",
+46,
+137,
+2
 ]
 ],
-"top_at": 1795256682.0862706
+"top_at": 1795257294.3049471
 }
