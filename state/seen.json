@@ -291,7 +291,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795272612.0,
 "tgtext": "Abraxas Capital appears to have bought the $BTC dip today, buying 10,356 $BTC ($607M) at an average price of $58,651.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital appears to have bought the BTC dip today, buying 10,356 BTC ($607M) at an average price of $58,651.",
@@ -494,9 +494,10 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -813,7 +814,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795272266.0,
 "tgtext": "A whale deposited $270M in stablecoins into #Binance over the past 3 hours.\n\nIs Garrett Bullish (@GarrettBullish) buying the dip?\n\nhttps://arkm.com/explorer/address/0x2DFee705a290d49d5259B9E72d5b665D37960CFf",
 "title": "A whale deposited $270M in stablecoins into Binance over the past 3 hours.",
@@ -1100,25 +1101,6 @@
 "url": "https://t.me/cointelegraph/73429",
 "urls": []
 },
-"4faf421a305a": {
-"coin": "",
-"src": "Yahoo Finance",
-"srcs": [
-"Coin Edition",
-"Decrypt",
-"Law360",
-"Technology Org",
-"The 420.in"
-],
-"t": 1795106496.1316445,
-"t0": 1795085130.0,
-"tgtext": "",
-"title": "Abu Dhabi Ruling Gives Binance a Legal Path to Reclaim Billions Frozen in Its Hack",
-"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRS1FQzk1aUtXUkRFUHFiTENQYTZ1RDdWYjBxNkdHMUZYXzdhTVNLVDZab0Rzb1U5ZWFHRzZPZGlQQzJWNnV5a1VrYnVBMkR4cEVtOVRHOEZOazREVGV0eUJPcmdsU01tV0VxZVhvLUExbVNQVXU4YVlndE9JNjdIUmNsYWRKdzJUWUk1MGNmSEVBR3RWZ2t0OWw2WQ?oc=5",
-"urls": [
-"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
-]
-},
 "50a01deef238": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -1228,7 +1210,7 @@
 "Crypto Briefing",
 "Traders Union"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1291,6 +1273,23 @@
 "tgtext": "JUST IN: $150,000,000,000 wiped out from the crypto market cap today.\n\n@WatcherGuru",
 "title": "$150,000,000,000 wiped out from the crypto market cap today.",
 "url": "https://t.me/WatcherGuru/16227",
+"urls": []
+},
+"61179e8a3031": {
+"coin": "bitcoin",
+"src": "24/7 Wall St.",
+"srcs": [
+"24/7 Wall St.",
+"BeInCrypto",
+"Coinpedia",
+"Cryptonews.net",
+"TradingView"
+],
+"t": 1795279126.6340432,
+"t0": 1795258518.0,
+"tgtext": "",
+"title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
+"url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeEtfcFVLa1VXbTlfXzhxYjRDSlJNeVVteDlBTWxvdDNKMEdtS0VRVFYwMjBmYU5tUHEwbDByMDBUTEdabEgybGJLd081UFdJLTQ2bGJMU21Fckp0Q3FFY3czbFFjN3ltb1ptVDlrOThPMUozblhSdUNxVGtLd3MwcjJiQWJGYkRQX2lHaHJOTTdURm9FN2RwcEpaM2ZXcDVJVmd3NVY5WkVvYjNLODVBV0RUS2FLZE1ITUlUTnV4MFE?oc=5",
 "urls": []
 },
 "62aeeb86e532": {
@@ -1857,7 +1856,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795278532.0,
 "tgtext": "Vitalik Criticizes Racial Stereotypes in Netflix's Portrayal of CZ, Questions Whether It Is Racist\n\nEthereum co-founder Vitalik Buterin criticized Netflix's portrayal of Binance founder Changpeng Zhao (CZ) in a production involving FTX founder Sam Bankman-Fried (SBF) and Caroline Ellison. Buterin said CZ's accent had been made to sound roughly three times more foreign than he remembered. He also criticized the production for reinforcing the stereotype that people travel to foreign countries only to engage in suspicious activities. Buterin questioned whether such a portrayal should be called \"racist,\" suggesting that society may have moved far enough beyond \"woke\" culture for the term to be used again. \u2014 link",
 "title": "Vitalik Criticizes Racial Stereotypes in Netflix's Portrayal of CZ, Questions Whether It Is Racist",
@@ -2354,7 +2353,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795274168.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.\n\nNews | Markets | YouTube",
 "title": "Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.",
@@ -2630,7 +2629,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\nLive liquidation tracker: https://watcherguru.com/liquidations\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2869,7 +2868,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -3118,18 +3117,19 @@
 "src": "Coin Gabbar",
 "srcs": [
 "Coin Gabbar",
+"CoinDesk",
+"Coinpedia",
 "Lookonchain",
-"Pluang",
-"The Block",
-"TradingView"
+"Pluang"
 ],
-"t": 1795278818.8535278,
+"t": 1795279431.519611,
 "t0": 1795258380.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
 "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV0VYY29FYVU1b2lrYTZCSlhtaC1rRVc3VVhuTTF6cndZeGhOcjhKR25QZW9wRE1IS0wxVXk4NHNtWUZMZVFoeUtvSGhuc3pxUE5RS2FNRHlVQUxtS2k1dFJXdWxlMDlnaE9vSHNQU0JFZXpFZEFKMlMxQk9TYWpLRjRjUUdiN1RyQ3dVRkpZNDNWTmFJbWZN?oc=5",
 "urls": [
-"https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
+"https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+"https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
 ]
 },
 "d822a1b6dd4a": {
@@ -3398,19 +3398,6 @@
 "url": "https://t.me/WatcherGuru/16220",
 "urls": []
 },
-"ec1d82f9802c": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795106496.1316445,
-"t0": 1795085043.0,
-"tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Samsung and TSMC suspend some chip shipments to China following new US restrictions.\n\n@WatcherGuru",
-"title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 Samsung and TSMC suspend some chip shipments to China following new US restrictions.",
-"url": "https://t.me/WatcherGuru/16159",
-"urls": []
-},
 "edc122ab0c4c": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3538,7 +3525,7 @@
 "Crypto News",
 "Eurasia Business News"
 ],
-"t": 1795278514.2653685,
+"t": 1795279431.519611,
 "t0": 1795260900.0,
 "tgtext": "",
 "title": "Bitcoin Slips Under $60,000 as Analyst Warns Bottom May Not Be In, Eyes $54,000 Realized Price",
@@ -3755,45 +3742,45 @@
 "sky": 1795122033.1506746
 },
 "probs": {
+"03df2fc9d1bf": 0.367,
 "0492547620cc": 0.112,
 "05710dbcb584": 0.042,
-"07d46d13567b": 0.027,
 "10297c7cf162": 0.081,
 "12ce5b5f86ed": 0.937,
-"17bab511775d": 0.161,
-"202110c94618": 0.737,
+"1b73fbd31a82": 0.124,
+"202110c94618": 0.767,
 "267dc866d860": 0.034,
 "291f1deb7b8f": 0.097,
 "2a9e252076c6": 0.065,
 "2e81106c10d6": 0.096,
-"350e0254bb60": 0.036,
-"3519b9328143": 0.026,
 "35ba509331d0": 0.053,
-"39bf34bf09a4": 0.896,
+"39bf34bf09a4": 0.862,
 "42930153aafb": 0.082,
-"4c1f3bc23aaf": 0.342,
-"51fda18ace60": 0.14,
+"489b82843f11": 0.144,
+"4c1f3bc23aaf": 0.198,
 "5473ccb8dae5": 0.214,
 "589132e3ed8e": 0.128,
 "589660e4913c": 0.651,
+"61179e8a3031": 0.406,
 "6d77381d9fec": 0.382,
+"763cf975c4e7": 0.019,
 "7b000dedfeb3": 0.086,
-"88edf1d74b12": 0.886,
-"9e110ec9525e": 0.074,
-"aacf3aaee6d2": 0.1,
-"ad5e17508d43": 0.975,
-"b05fb9e1e244": 0.038,
-"b311dcbeb210": 0.027,
+"818bb86f2824": 0.442,
+"84fc31bbf0a3": 0.249,
+"88edf1d74b12": 0.616,
+"8a153f708db7": 0.394,
+"978028af339d": 0.021,
+"ad5e17508d43": 0.966,
 "b365aa842496": 0.09,
-"b3f2a6f0fe0f": 0.777,
 "bbe091f83d7c": 0.813,
-"bd8fa89a3461": 0.11,
-"c0f3bbb183ac": 0.046,
 "c7deeb949a5e": 0.814,
+"ca287d92c71e": 0.012,
 "d0db8afa751c": 0.018,
-"d71c4a773f44": 0.981,
+"d71c4a773f44": 0.959,
 "e1e0e550c492": 0.256,
 "e4cc8328cffc": 0.122,
+"e8935c7b5843": 0.187,
+"f3fc5c4fc005": 0.563,
 "fd4611e2a72c": 0.107
 },
 "sent": [
@@ -5859,65 +5846,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"d71c4a773f44",
-64,
-341,
-5
-],
-[
 "ad5e17508d43",
 28,
-78,
+88,
 2
+],
+[
+"d71c4a773f44",
+63,
+351,
+6
 ],
 [
 "12ce5b5f86ed",
 16,
-103,
+114,
 1
 ],
 [
 "39bf34bf09a4",
 32,
-109,
-1
-],
-[
-"88edf1d74b12",
-18,
-5,
+119,
 1
 ],
 [
 "c7deeb949a5e",
 24,
-141,
+152,
 1
 ],
 [
 "bbe091f83d7c",
 25,
-153,
+163,
 1
-],
-[
-"b3f2a6f0fe0f",
-62,
-359,
-7
 ],
 [
 "202110c94618",
-25,
-256,
-1
+44,
+267,
+2
 ],
 [
 "589660e4913c",
-67,
-244,
+66,
+254,
+3
+],
+[
+"88edf1d74b12",
+18,
+15,
+1
+],
+[
+"f3fc5c4fc005",
+23,
+309,
 3
 ]
 ],
-"top_at": 1795278818.8535278
+"top_at": 1795279431.519611
 }
