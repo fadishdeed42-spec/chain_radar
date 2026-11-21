@@ -133,7 +133,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795230600.0,
 "tgtext": "JUST IN: Bitcoin falls under $57,000 for the first time in over 2 years.\n\n$385 million liquidated from the crypto market in the past 5 minutes.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss",
@@ -437,7 +437,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1795246882.6118464,
+"t": 1795251783.6373403,
 "t0": 1795235844.0,
 "tgtext": "",
 "title": "Liquidity Crunch Spreads From Stocks, Gold to Crypto, Triggering $2.3 Billion in Liquidations",
@@ -533,7 +533,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795251171.424329,
+"t": 1795251479.2193336,
 "t0": 1795229995.0,
 "tgtext": "Strategy: Net Reserve Stands at $35 Billion, All Bitcoin Holdings Unencumbered\n\nStrategy said its Net Reserve now stands at $35 billion, with all of its bitcoin holdings unencumbered. During the 2022 bear market, its Net Reserve was negative and one-third of its BTC was pledged as collateral. The company said it survived that downturn and emerged stronger, adding that its \"conviction and optionality have never been stronger.\" \u2014 link",
 "title": "Strategy: Net Reserve Stands at $35 Billion, All Bitcoin Holdings Unencumbered",
@@ -713,7 +713,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795234440.0,
 "tgtext": "JUST IN: Crypto continues to crash\n\n$BTC falls under $56,000\n$ETH falls under $1,550\n$XRP falls under $0.88\n$SOL falls under $66\n\n$650,000,000 in leveraged cryptocurrency positions liquidated in the past 60 minutes.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Crypto continues to crash",
@@ -1487,6 +1487,19 @@
 "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"6df0254256ec": {
+"coin": "",
+"src": "\u6df1\u6f6eTechFlow",
+"srcs": [
+"\u6df1\u6f6eTechFlow"
+],
+"t": 1795251783.6373403,
+"t0": 1795251292.0,
+"tgtext": "",
+"title": "James Wynn suffered 15 liquidations in the past hour.",
+"url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CYzBzc1k4c0dUa0J3YU9OQmpva29DYVVHWjBtelNKU2FzbnBYUEpsaW1DQXZIaUxWTmpHMzIzWFh5SUNCckhjTk9nX1NQR1JQZG05bjJjS21MQmNNY3Q5cWxB?oc=5",
+"urls": []
+},
 "6f0ba11969a7": {
 "coin": "tether",
 "src": "Lookonchain",
@@ -1536,7 +1549,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795230820.0,
 "tgtext": "The biggest $HYPE long is on the verge of liquidation!\n\nThis whale was once up over $68M, but now his 1.38M $HYPE ($81.23M) long is at risk of liquidation.\n\nHe just deposited another 5M $USDC into Hyperliquid to avoid liquidation.\n\nNew liquidation price: $54.55\n\nhttps://hypurrscan.io/address/0x082e843a431aef031264dc232693dd710aedca88#perps",
 "title": "The biggest HYPE long is on the verge of liquidation!",
@@ -1768,25 +1781,6 @@
 "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"84b296678b1b": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"BigGo Finance",
-"Cointelegraph",
-"The Block",
-"TradingView"
-],
-"t": 1795078950.5007243,
-"t0": 1795068000.0,
-"tgtext": "",
-"title": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
-"url": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
-"urls": [
-"https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547"
-]
-},
 "8523697f833d": {
 "coin": "",
 "src": "Lookonchain",
@@ -1989,7 +1983,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795233692.0,
 "tgtext": "It's liquidation day again!\n\nTrader 0x6646 got liquidated on 158.6 $BTC ($9.23M) and 9,000 $ETH ($14.53M), with a total of $23.76M liquidated!\n\nTrader 0xfe40 got liquidated on 212.22 $BTC ($12.33M).\n\nhttps://hyperbot.network/trader/0x66466428990e0f42a4c54f64bee0db6bf2336de5\nhttps://hyperbot.network/trader/0xfe40345fdd90c7c629403a81eda76670fd63668b",
 "title": "It's liquidation day again!",
@@ -2194,7 +2188,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2634,7 +2628,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795233709.0,
 "tgtext": "Highlight Clip: Arthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?\n\nArthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Bitcoin and crypto remain risk assets. Because crypto markets operate around the clock, investors facing losses elsewhere often sell their readily accessible crypto holdings first to meet margin calls or repay bank loans. This leaves Bitcoin exposed to selling during global risk-off events, particularly when stress is concentrated in technology stocks. Even if investors expect eventual bailouts to drive prices higher, they may still need cash now to avoid liquidation in less liquid positions.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?",
@@ -3033,7 +3027,7 @@
 "CryptoRank",
 "Pluang"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795237600.0,
 "tgtext": "",
 "title": "$1.76B crypto liquidations hit Nvidia, SanDisk, and Bitcoin amid tech sell-off",
@@ -3105,7 +3099,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795251171.424329,
+"t": 1795251783.6373403,
 "t0": 1795234706.0,
 "tgtext": "Bit Digital appears to be dumping $ETH, depositing 16,639 $ETH ($26.3M) into #GalaxyDigital.\n\nAs of October 31, Bit Digital held 163,241.7 $ETH at an average cost of $3,007.63 and is now sitting on $237M in unrealized losses.\n\nhttps://bit-digital.com/press-releases/ethereum-treasury-and-staking-metrics-for-october-2026\nhttps://arkm.com/explorer/entity/bit-digital",
 "title": "Bit Digital appears to be dumping ETH, depositing 16,639 ETH ($26.3M) into GalaxyDigital.",
@@ -3548,7 +3542,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795251171.424329,
+"t": 1795251479.2193336,
 "t0": 1795229895.0,
 "tgtext": "Two wallets deposited 4,069 $BTC ($239M) into #Binance over the past 9 hours.\n\nhttps://arkm.com/explorer/address/bc1qnxyj29m2nsvsxyx5emk9tfcnz0qu7frum9xq7y\nhttps://arkm.com/explorer/address/bc1qrpee2p9e8wc5vauh0s06wrccax7y22g873juwm",
 "title": "Two wallets deposited 4,069 BTC ($239M) into Binance over the past 9 hours.",
@@ -3618,45 +3612,43 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"006d4ea8db05": 0.043,
-"056ec8898d25": 0.974,
-"153fd3a06069": 0.074,
-"19299b1f0754": 0.078,
-"1bf46deae103": 0.22,
-"25df5c0105c9": 0.415,
-"25ff762a0e71": 0.252,
-"2b062ee5daf3": 0.023,
-"3582dab059e6": 0.567,
-"3a9731a38e66": 0.089,
-"43bcada8a09a": 0.058,
-"456be5690816": 0.107,
-"498ba9509fee": 0.08,
-"4d547867ff4f": 0.084,
-"5f750c8c1cb0": 0.047,
-"6fd085f86017": 0.109,
-"70735a138d6a": 0.61,
-"75d17d840b43": 0.081,
-"815ae20b3f0d": 0.053,
-"86513fb1adf7": 0.12,
-"8ad44ddb6fe1": 0.066,
-"8bb60e67f62e": 0.038,
-"8d1907fd5471": 0.117,
-"9a68dad96c27": 0.593,
-"a577db08e5eb": 0.353,
-"abee2200bec5": 0.091,
-"af8d5dd7ad22": 0.036,
-"b00adbc4e544": 0.041,
-"b85948d718ee": 0.053,
-"c0dd31f754c5": 0.381,
-"ca74dc6a703f": 0.184,
-"ddad4014f2b9": 0.279,
-"ddb55919e01b": 0.074,
-"df1c311b1c47": 0.861,
-"e286ca637d87": 0.101,
-"ebd4f4415d45": 0.023,
-"f294818f9a2c": 0.131,
-"fa7d77028753": 0.921,
-"fe0053001a1f": 0.117
+"006d4ea8db05": 0.053,
+"056ec8898d25": 0.979,
+"153fd3a06069": 0.092,
+"19299b1f0754": 0.096,
+"1bf46deae103": 0.486,
+"25ff762a0e71": 0.299,
+"2921fecc352b": 0.029,
+"2b062ee5daf3": 0.028,
+"3582dab059e6": 0.623,
+"3a9731a38e66": 0.11,
+"43bcada8a09a": 0.072,
+"456be5690816": 0.131,
+"498ba9509fee": 0.1,
+"4d547867ff4f": 0.104,
+"5f750c8c1cb0": 0.059,
+"6df0254256ec": 0.468,
+"70735a138d6a": 0.664,
+"75d17d840b43": 0.1,
+"815ae20b3f0d": 0.173,
+"86513fb1adf7": 0.147,
+"8ad44ddb6fe1": 0.081,
+"8bb60e67f62e": 0.048,
+"8d1907fd5471": 0.143,
+"9a68dad96c27": 0.699,
+"a577db08e5eb": 0.408,
+"abee2200bec5": 0.112,
+"af8d5dd7ad22": 0.045,
+"b00adbc4e544": 0.076,
+"b85948d718ee": 0.066,
+"c0dd31f754c5": 0.437,
+"ca74dc6a703f": 0.222,
+"ddad4014f2b9": 0.328,
+"df1c311b1c47": 0.886,
+"e286ca637d87": 0.071,
+"ebd4f4415d45": 0.029,
+"f294818f9a2c": 0.16,
+"fe0053001a1f": 0.143
 },
 "sent": [
 {
@@ -5630,64 +5622,64 @@
 "top": [
 [
 "056ec8898d25",
-56,
-343,
+54,
+353,
 4
 ],
 [
-"fa7d77028753",
-1,
-355,
-1
-],
-[
 "df1c311b1c47",
-14,
-274,
-1
-],
-[
-"70735a138d6a",
-19,
-339,
+13,
+285,
 1
 ],
 [
 "9a68dad96c27",
-11,
-291,
+9,
+302,
+1
+],
+[
+"70735a138d6a",
+18,
+349,
 1
 ],
 [
 "3582dab059e6",
-7,
-279,
+6,
+289,
 1
 ],
 [
-"25df5c0105c9",
-2,
-353,
+"1bf46deae103",
+29,
+266,
+1
+],
+[
+"6df0254256ec",
+25,
+8,
 1
 ],
 [
 "c0dd31f754c5",
 0,
-291,
+301,
 1
 ],
 [
 "a577db08e5eb",
 35,
-121,
+131,
 1
 ],
 [
 "ddad4014f2b9",
-54,
-226,
+53,
+236,
 3
 ]
 ],
-"top_at": 1795251171.424329
+"top_at": 1795251783.6373403
 }
