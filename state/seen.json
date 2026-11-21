@@ -6,8 +6,6 @@
 },
 "init": true,
 "log": [
-1795170193.179803,
-1795170502.451694,
 1795172652.821847,
 1795179839.6170082,
 1795184764.7366664,
@@ -18,7 +16,8 @@
 1795201002.6356826,
 1795219458.5798867,
 1795244125.9099755,
-1795255178.1154678
+1795255178.1154678,
+1795258827.7169042
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -1036,7 +1035,7 @@
 "srcs": [
 "CryptoPotato"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795242180.0,
 "tgtext": "",
 "title": "Strategy Breaks Silence After BTC Crash as Bitcoin Position Dumps to $17B in Paper Losses",
@@ -1137,7 +1136,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795258416.0,
 "tgtext": "\ud83d\udea8 REKT: The total crypto market lost $200B in less than 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: The total crypto market lost $200B in less than 24 hours.",
@@ -1506,7 +1505,7 @@
 "srcs": [
 "\u6df1\u6f6eTechFlow"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795251292.0,
 "tgtext": "",
 "title": "James Wynn suffered 15 liquidations in the past hour.",
@@ -1725,7 +1724,7 @@
 "Free Press Journal",
 "The Hawk"
 ],
-"t": 1795258215.4642155,
+"t": 1795259135.8420317,
 "t0": 1795249082.0,
 "tgtext": "",
 "title": "WazirX-Binance Crypto Fraud Row Deepens, Thousands Of Investors Seek ED And CBI Probe Over Alleged Financial",
@@ -1902,10 +1901,11 @@
 "src": "Pragativadi",
 "srcs": [
 "Cointribune",
+"Pluang",
 "Pragativadi",
 "The Crypto Times"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2185,7 +2185,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2742,7 +2742,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2996,6 +2996,20 @@
 "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152"
 ]
 },
+"d40678e0a25f": {
+"coin": "",
+"src": "Coin Gabbar",
+"srcs": [
+"Coin Gabbar",
+"The Defiant"
+],
+"t": 1795259135.8420317,
+"t0": 1795254870.0,
+"tgtext": "",
+"title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
+"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV0VYY29FYVU1b2lrYTZCSlhtaC1rRVc3VVhuTTF6cndZeGhOcjhKR25QZW9wRE1IS0wxVXk4NHNtWUZMZVFoeUtvSGhuc3pxUE5RS2FNRHlVQUxtS2k1dFJXdWxlMDlnaE9vSHNQU0JFZXpFZEFKMlMxQk9TYWpLRjRjUUdiN1RyQ3dVRkpZNDNWTmFJbWZN?oc=5",
+"urls": []
+},
 "d47c1cc3d921": {
 "coin": "",
 "src": "The Crypto Times",
@@ -3079,11 +3093,12 @@
 "src": "Pluang",
 "srcs": [
 "BeInCrypto",
+"Coinpedia",
 "CryptoRank",
 "Pluang",
 "finance.biggo.com"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795237600.0,
 "tgtext": "",
 "title": "$1.76B crypto liquidations hit Nvidia, SanDisk, and Bitcoin amid tech sell-off",
@@ -3406,7 +3421,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795258519.9547563,
+"t": 1795259135.8420317,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3446,14 +3461,13 @@
 "urls": []
 },
 "f294818f9a2c": {
-"coin": "ripple",
+"coin": "",
 "src": "CoinDesk",
 "srcs": [
 "Bitcoin Foundation",
-"CoinDesk",
-"Times Tabloid"
+"CoinDesk"
 ],
-"t": 1795258519.9547563,
+"t": 1795258827.7169042,
 "t0": 1795240759.0,
 "tgtext": "",
 "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
@@ -3735,6 +3749,8 @@
 "probs": {
 "153fd3a06069": 0.092,
 "173df33cde1e": 0.011,
+"1ed6d39bc882": 0.046,
+"2347eb6f87ab": 0.226,
 "235f0f3d0962": 0.128,
 "26f793b38b39": 0.133,
 "2921fecc352b": 0.029,
@@ -3745,113 +3761,32 @@
 "4055acd139b0": 0.042,
 "456be5690816": 0.287,
 "498ba9509fee": 0.1,
-"4ee533bdd212": 0.392,
+"4ee533bdd212": 0.461,
 "6ccf0eb9051a": 0.095,
 "6df0254256ec": 0.468,
 "75d17d840b43": 0.1,
 "7c22c4d885f3": 0.034,
 "815ae20b3f0d": 0.242,
 "8d1907fd5471": 0.082,
-"9280a2d18ecf": 0.463,
+"9280a2d18ecf": 0.391,
 "a577db08e5eb": 0.647,
-"abee2200bec5": 0.112,
+"abee2200bec5": 0.138,
 "b85948d718ee": 0.082,
 "c5f1d1d1a353": 0.558,
 "cdf9b4bf1405": 0.03,
-"ce7af00053a8": 0.384,
+"ce7af00053a8": 0.12,
 "d0d0e4a0822d": 0.092,
-"ddad4014f2b9": 0.368,
+"d40678e0a25f": 0.656,
+"dad1203807cb": 0.06,
+"ddad4014f2b9": 0.488,
 "df5b6c078491": 0.083,
 "e286ca637d87": 0.088,
-"e3e659e4fb54": 0.074,
+"e3e659e4fb54": 0.041,
 "ebd4f4415d45": 0.037,
 "efc61563fcea": 0.818,
-"f294818f9a2c": 0.258
+"f294818f9a2c": 0.17
 },
 "sent": [
-{
-"e": [
-"coinbaseprime",
-"sol",
-"two"
-],
-"k": [],
-"t": 1795082947.5629435,
-"u": [
-"https://t.me/lookonchainchannel/11155"
-],
-"w": [
-"$169",
-"31m",
-"coinbaseprime",
-"deposited",
-"sol",
-"today",
-"total",
-"two",
-"unstaked",
-"whales"
-]
-},
-{
-"e": [
-"arthur",
-"cryptohayes",
-"hayes",
-"near",
-"vvv",
-"zec"
-],
-"k": [],
-"t": 1795083256.9125867,
-"u": [
-"https://t.me/lookonchainchannel/11157"
-],
-"w": [
-"04m",
-"arthur",
-"cryptohayes",
-"eth",
-"hayes",
-"near",
-"out",
-"predicting",
-"pump",
-"transferred",
-"usdc",
-"vvv",
-"would",
-"zec"
-]
-},
-{
-"e": [
-"commission",
-"european",
-"politico"
-],
-"k": [
-"hack"
-],
-"t": 1795083872.6209118,
-"u": [
-"https://t.me/cointelegraph/73385"
-],
-"w": [
-"assisted",
-"commission",
-"cyberattack",
-"data",
-"european",
-"exposing",
-"hit",
-"major",
-"per",
-"personal",
-"politico",
-"potentially"
-]
-},
 {
 "e": [
 "directly",
@@ -5723,6 +5658,25 @@
 "test",
 "tokenized"
 ]
+},
+{
+"e": [
+"rekt"
+],
+"k": [],
+"t": 1795258827.7169042,
+"u": [
+"https://t.me/cointelegraph/73429"
+],
+"w": [
+"$200b",
+"hours",
+"less",
+"lost",
+"market",
+"rekt",
+"total"
+]
 }
 ],
 "stories": {},
@@ -5731,63 +5685,63 @@
 [
 "efc61563fcea",
 20,
-66,
+77,
+2
+],
+[
+"d40678e0a25f",
+65,
+71,
 2
 ],
 [
 "a577db08e5eb",
-27,
-243,
+26,
+253,
 1
 ],
 [
 "c5f1d1d1a353",
 10,
-78,
+88,
 1
+],
+[
+"ddad4014f2b9",
+47,
+359,
+5
 ],
 [
 "6df0254256ec",
 25,
-120,
+131,
 1
-],
-[
-"9280a2d18ecf",
-69,
-110,
-3
 ],
 [
 "4ee533bdd212",
 25,
-2,
+12,
 1
 ],
 [
-"ce7af00053a8",
-40,
-259,
-2
-],
-[
-"ddad4014f2b9",
-48,
-349,
+"9280a2d18ecf",
+79,
+121,
 4
 ],
 [
 "456be5690816",
-23,
-272,
+22,
+283,
 1
 ],
 [
-"f294818f9a2c",
-60,
-296,
-3
+"815ae20b3f0d",
+46,
+168,
+2
 ]
 ],
-"top_at": 1795258519.9547563
+"top_at": 1795259135.8420317
 }
