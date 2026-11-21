@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795184764.7366664,
 1795192149.2010665,
 1795194942.4996731,
 1795195532.0655758,
@@ -19,7 +18,8 @@
 1795262563.22401,
 1795263789.0025032,
 1795265522.9477825,
-1795269920.1749113
+1795269920.1749113,
+1795271454.5066626
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -484,7 +484,7 @@
 "BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -1234,7 +1234,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795265999.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip (@Chainflip) was hacked for $4.86M!",
@@ -1250,7 +1250,7 @@
 "Cryptonews.net",
 "Traders Union"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1508,7 +1508,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795269591.0,
 "tgtext": "This hacker knows how to trade!\n\n2 days ago, he sold 5,270 $ETH($9.51M) at $1,805, then placed limit orders to long $ETH at $1,551\u2013$1,568.\n\nHis orders got filled today!\n\nHe now holds a 14,000 $ETH ($23.8M) long, up $2.13M in unrealized profit!\nhttps://x.com/lookonchain/status/2123418176046379203",
 "title": "This hacker knows how to trade!",
@@ -1592,7 +1592,7 @@
 "BigGo Finance",
 "TradingKey"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795254556.0,
 "tgtext": "",
 "title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
@@ -2611,7 +2611,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2789,7 +2789,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2850,7 +2850,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -3435,7 +3435,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795270842.4295487,
+"t": 1795271454.5066626,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3719,6 +3719,20 @@
 "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
 "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
 ]
+},
+"fe77f0cef05b": {
+"coin": "dogecoin",
+"src": "TradingView",
+"srcs": [
+"KuCoin",
+"TradingView"
+],
+"t": 1795271454.5066626,
+"t0": 1795255200.0,
+"tgtext": "",
+"title": "'Pretty Low Demand': Dogecoin Co-Founder Explains $2.55 Billion Crypto Market Crash",
+"url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMUVVM0xFSW9NWEZyQzhlTGZkenozWlRnMGNTbW9WOFpDemdwMmFKTFQ0c3NWQnB2T21ubzNjTWJKX3g0M21KZ1JIelpyLThoUHpvckVhbkgzY1Axd2lzNVRwN0VSZGJlSDUwYjhYS1p2Y25ld0NyOWhXdW9oSlpkaTl3d2Z3aGg0N082OEJsWk1vRFVKd3hnckgwSEFtLUVTT0lpdk5EWlNBUXU5ajVhb3JsZ1NWam5JN1ZUX2ZsUkI1TFRjQkNBZHdMaVpwdUx3b0ZV?oc=5",
+"urls": []
 }
 },
 "movers": {
@@ -3732,17 +3746,16 @@
 "probs": {
 "03df2fc9d1bf": 0.42,
 "05710dbcb584": 0.062,
+"0aac19a8790c": 0.265,
 "10297c7cf162": 0.38,
-"188de02259d0": 0.105,
 "1e0f44e611d5": 0.027,
 "202110c94618": 0.887,
 "2347eb6f87ab": 0.207,
 "235f0f3d0962": 0.432,
 "350e0254bb60": 0.111,
 "4055acd139b0": 0.079,
-"4c1f3bc23aaf": 0.17,
+"4c1f3bc23aaf": 0.233,
 "4ee533bdd212": 0.44,
-"51fda18ace60": 0.199,
 "5473ccb8dae5": 0.438,
 "5849a65ec338": 0.923,
 "589660e4913c": 0.64,
@@ -3751,25 +3764,26 @@
 "662d85387bbf": 0.182,
 "67f93b6f14f9": 0.172,
 "6c1fed4cf686": 0.177,
+"6d77381d9fec": 0.947,
 "72f1f5db4583": 0.771,
-"78f7a83e386d": 0.126,
 "84fc31bbf0a3": 0.502,
 "8a153f708db7": 0.489,
+"8c54690f124f": 0.548,
 "9135cc527046": 0.146,
-"9280a2d18ecf": 0.627,
+"9280a2d18ecf": 0.536,
 "aacf3aaee6d2": 0.121,
-"bbe091f83d7c": 0.992,
+"bbe091f83d7c": 0.924,
 "c0bfa252509a": 0.066,
 "c385ebe5cf82": 0.063,
-"c7deeb949a5e": 0.904,
-"c995e076091f": 0.146,
+"c7deeb949a5e": 0.963,
 "ca287d92c71e": 0.015,
 "cc2548a58744": 0.181,
-"d0d0e4a0822d": 0.265,
+"d0d0e4a0822d": 0.203,
 "d40678e0a25f": 0.627,
 "dad1203807cb": 0.111,
 "e4cc8328cffc": 0.319,
-"fe77f0cef05b": 0.202
+"f07e7bea4da0": 0.109,
+"fe77f0cef05b": 0.639
 },
 "sent": [
 {
@@ -5738,71 +5752,87 @@
 "wallets",
 "whale"
 ]
+},
+{
+"e": [],
+"k": [
+"hack"
+],
+"t": 1795271454.5066626,
+"u": [
+"https://t.me/lookonchainchannel/11210"
+],
+"w": [
+"hacker",
+"how",
+"knows",
+"trade"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"bbe091f83d7c",
-25,
-20,
-1
-],
-[
-"5849a65ec338",
-41,
-81,
-1
-],
-[
 "c7deeb949a5e",
 34,
-8,
+19,
 1
 ],
 [
 "6d77381d9fec",
 10,
-21,
+31,
+1
+],
+[
+"bbe091f83d7c",
+25,
+30,
+1
+],
+[
+"5849a65ec338",
+41,
+91,
 1
 ],
 [
 "202110c94618",
 65,
-123,
+134,
 2
 ],
 [
 "efc61563fcea",
-8,
-272,
+7,
+282,
 2
 ],
 [
 "72f1f5db4583",
-73,
-271,
+72,
+282,
 3
 ],
 [
 "c5f1d1d1a353",
 0,
-283,
+293,
 1
 ],
 [
 "589660e4913c",
 75,
-111,
+121,
 4
 ],
 [
-"d40678e0a25f",
-74,
-266,
-4
+"fe77f0cef05b",
+48,
+271,
+2
 ]
 ],
-"top_at": 1795270842.4295487
+"top_at": 1795271454.5066626
 }
