@@ -766,7 +766,7 @@
 "SSBCrack",
 "Yahoo Finance"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795280462.0,
 "tgtext": "",
 "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
@@ -975,7 +975,7 @@
 "BigGo Finance",
 "Cryptonews.net"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795289139.0,
 "tgtext": "",
 "title": "Ethereum Whale's $214 Million Aave Debt Nears Liquidation at $1,401",
@@ -1010,7 +1010,7 @@
 "CoinDesk",
 "Coinpaper"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795283466.0,
 "tgtext": "",
 "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday\u2019s stock open",
@@ -1454,7 +1454,7 @@
 "Cryptonews.net",
 "The Crypto Times"
 ],
-"t": 1795300354.1113615,
+"t": 1795300660.7846603,
 "t0": 1795279260.0,
 "tgtext": "",
 "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
@@ -2066,16 +2066,17 @@
 },
 "90c3140a626b": {
 "coin": "bitcoin",
-"src": "Traders Union",
+"src": "BigGo Finance",
 "srcs": [
+"BigGo Finance",
 "CoinDesk",
 "Traders Union"
 ],
-"t": 1795299133.7201982,
+"t": 1795300964.173218,
 "t0": 1795283400.0,
 "tgtext": "",
-"title": "Bitcoin rebounds above $60,000 as crypto markets recover from liquidation-driven sell-off",
-"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUV6aFpLbE96aTBlQUNrWXVsSzdiUGdBMjJ6NnZLLUJZel85aFdCZnpnVXR0eVBuQVI1U1RoWEYtTjFUX1djVWt4anJvMlBNRnpPN18yMGZnMnEtcnpybGZ4RDhtNkx4WGZhcUgwSFV2aVNOd1d3OGgzblJwQ3VZeGJJSEVOMkFBbTdBZTducnpFNldOY3ZXVEVWOXM?oc=5",
+"title": "Bitcoin Rebounds Above $60,000 After $2.4 Billion Liquidation Wave Wipes Out Leveraged Bets",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lTktBYWZxbXJtWElUWTdsUnFhZGlQRzFQbjRiUGRLcHcxdk1CRnpXSTRDOEM2bWROd2Y2MGRlb3VKR1J3VU1Hb3dObXBpblAtbjlWNDF6VmVZZF9hNHJKMjJpT2JhMnhjVlU2WUxSbmpadVhHQXc?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
 ]
@@ -2220,7 +2221,7 @@
 "Crypto Briefing",
 "The Block"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795285377.0,
 "tgtext": "",
 "title": "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers",
@@ -2550,6 +2551,19 @@
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GME9Wd3JMRmxKZzIzT1ZsRi13QXhiN3ZoTXc3ZzBlTjJzcEsxcTV1RXRUUkUwUFRwM1kyOWJjNDA4VWwxeTVXYVN4cDFVTEc3NjBzMWwtU19ybTZ4MzNZWkp1WjNmc0JyallRQlp6ZlYxTFlhQ09FU3dpNA?oc=5",
 "urls": []
 },
+"b1aaa9ebdd93": {
+"coin": "",
+"src": "The Crypto Times",
+"srcs": [
+"The Crypto Times"
+],
+"t": 1795300964.173218,
+"t0": 1795288410.0,
+"tgtext": "",
+"title": "Vitalik Buterin Raises Racism Concerns Over Netflix\u2019s CZ Portrayal",
+"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV1FrTXhzalh6dDdkWkl5NERjYVRXTTdGa3pJMHpnelBkYmFJMGhHcFJQaXZsUVoxVGJoaDVzeVBFYmR1LUNmMUdGMXNIZU9zTHEyNFRqbDU3TVBSc3ZXcFRNVjB4a0dHOW5ZOG1oRC1zY1AzeTJRTGo5eHBpZXlhQjhVMkdUTll0WWc2TnF2RmdWclRxZG9BZW1xVmQ5bzBIdnF6cFBrbw?oc=5",
+"urls": []
+},
 "b2117776af47": {
 "coin": "bitcoin",
 "src": "Cryptonews.net",
@@ -2648,7 +2662,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795290003.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.\n\n@WatcherGuru",
 "title": "Russia allows Bitcoin trading as sanctioned Moscow Exchange prepares December launch",
@@ -2940,7 +2954,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795286820.0,
 "tgtext": "",
 "title": "Cyber Warns Against Bridge Use After Unexpected Minting",
@@ -3194,7 +3208,7 @@
 "CryptoRank",
 "Cryptonews.net"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795281731.0,
 "tgtext": "",
 "title": "Bitcoin Crash Below $58K Sparks $50K Fears: What Investors Need to Know Now",
@@ -3234,21 +3248,6 @@
 "title": "$XMR1 Price Crashes 99.8% After Suspicious Token Transfer: Hack or Exit Scam?",
 "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGo2WUx1ZE9vQ2hPTmlwYnpzR2JxWGt3Z0xRb0dVX0RKQ0J5SDlqajZNT1RkZjU2S0VYaGctTXV2X3VOanlSekZBQXFfajNGbUl6TnFfN241WmVSbDNxU0pFUmhoN3lOY2tVS2t2dUxoN0ZDQk1hQWdja25DZTcwaU1xSTJwdXI1cmtCTGxmVXI4NUhWM0IyQjFfUnBLZ3A2cC1OTy1JT3o1ejhROGdqS1Bn?oc=5",
 "urls": []
-},
-"d4c984c91cdb": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795127834.8913152,
-"t0": 1795106401.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: Crypto payments firm MoonPay applies for bank charter.\n\nNews | Markets | YouTube",
-"title": "MoonPay seeks US bank charter for stablecoin, custody services",
-"url": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "d4cfd6453fee": {
 "coin": "ethereum",
@@ -3307,7 +3306,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795296085.151495,
+"t": 1795300660.7846603,
 "t0": 1795284900.0,
 "tgtext": "",
 "title": "Strategy's Bitcoin Holdings Entirely Unpledged; $35.9 Billion Net Reserve Eliminates Liquidation Risk",
@@ -3337,7 +3336,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795300354.1113615,
+"t": 1795300964.173218,
 "t0": 1795284316.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.",
@@ -3950,7 +3949,6 @@
 "130123431ea6": 0.023,
 "17bad9a3f07b": 0.043,
 "1abe55ea3f66": 0.033,
-"1b73fbd31a82": 0.066,
 "1ed016adda8c": 0.022,
 "2fd06b4d90cb": 0.013,
 "3008566b6e6a": 0.085,
@@ -3959,16 +3957,17 @@
 "40c6ddba5ca7": 0.507,
 "42930153aafb": 0.034,
 "5c35c2732322": 0.038,
-"677a3da37b8c": 0.118,
 "6b8ec1fa7984": 0.044,
 "77df64072e5b": 0.061,
 "8b0f3a536a88": 0.04,
 "8b9de3e468f0": 0.016,
-"90c3140a626b": 0.035,
+"8e11bcced91d": 0.028,
+"90c3140a626b": 0.336,
 "9c6b45d7487c": 0.299,
 "b1aaa9ebdd93": 0.064,
 "b30d4594bda9": 0.009,
 "b57793fe6170": 0.232,
+"b67bf96be11c": 0.055,
 "c3c493ede89d": 0.024,
 "c6cf90e6507a": 0.007,
 "c711b060f50f": 0.075,
@@ -3976,10 +3975,10 @@
 "d2193f1e8019": 0.006,
 "d2cb63d88aa8": 0.105,
 "d61828992bf5": 0.04,
-"d795198d1e48": 0.058,
 "d917adf05164": 0.365,
 "e34c3cd86730": 0.019,
-"e9dd9497e74d": 0.026
+"e9dd9497e74d": 0.026,
+"fa7f42d7ea28": 0.028
 },
 "sent": [
 {
@@ -5957,64 +5956,64 @@
 "top": [
 [
 "40c6ddba5ca7",
-27,
-281,
+26,
+292,
 3
 ],
 [
 "d917adf05164",
 0,
-267,
+277,
 1
 ],
 [
+"90c3140a626b",
+45,
+293,
+3
+],
+[
 "9c6b45d7487c",
-66,
-250,
+65,
+260,
 3
 ],
 [
 "3fd167bcbbc5",
-49,
-187,
+47,
+197,
 2
 ],
 [
 "b57793fe6170",
 20,
-173,
+183,
 2
 ],
 [
-"677a3da37b8c",
-39,
-352,
-3
-],
-[
 "d2cb63d88aa8",
-28,
-310,
+27,
+321,
 2
 ],
 [
 "3008566b6e6a",
-48,
-332,
+47,
+342,
 3
 ],
 [
 "c711b060f50f",
-4,
-226,
+3,
+236,
 1
 ],
 [
-"1b73fbd31a82",
-0,
-357,
+"b1aaa9ebdd93",
+15,
+209,
 1
 ]
 ],
-"top_at": 1795300354.1113615
+"top_at": 1795300964.173218
 }
