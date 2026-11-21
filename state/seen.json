@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795167423.4331722,
 1795170193.179803,
 1795170502.451694,
 1795172652.821847,
@@ -18,7 +17,8 @@
 1795199953.3821084,
 1795201002.6356826,
 1795219458.5798867,
-1795244125.9099755
+1795244125.9099755,
+1795255178.1154678
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -437,7 +437,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795235844.0,
 "tgtext": "",
 "title": "Liquidity Crunch Spreads From Stocks, Gold to Crypto, Triggering $2.3 Billion in Liquidations",
@@ -713,7 +713,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795234440.0,
 "tgtext": "JUST IN: Crypto continues to crash\n\n$BTC falls under $56,000\n$ETH falls under $1,550\n$XRP falls under $0.88\n$SOL falls under $66\n\n$650,000,000 in leveraged cryptocurrency positions liquidated in the past 60 minutes.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Crypto continues to crash",
@@ -1467,7 +1467,7 @@
 "srcs": [
 "\u6df1\u6f6eTechFlow"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795251292.0,
 "tgtext": "",
 "title": "James Wynn suffered 15 liquidations in the past hour.",
@@ -1858,6 +1858,21 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxV25Vb1hvaGZqRXZISkJCMzc1bnVFbFdEc0V4bnNSVkVWVmJQenZKUTFIQTI2Tl9vNThJSmw0UXRkbUdQZDRZd05IYmdxTkRZT1ZOVzNqNHU?oc=5",
 "urls": []
 },
+"9280a2d18ecf": {
+"coin": "bitcoin",
+"src": "Pragativadi",
+"srcs": [
+"Cointribune",
+"Pragativadi",
+"The Crypto Times"
+],
+"t": 1795255457.1581814,
+"t0": 1795251900.0,
+"tgtext": "",
+"title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GME9Wd3JMRmxKZzIzT1ZsRi13QXhiN3ZoTXc3ZzBlTjJzcEsxcTV1RXRUUkUwUFRwM1kyOWJjNDA4VWwxeTVXYVN4cDFVTEc3NjBzMWwtU19ybTZ4MzNZWkp1WjNmc0JyallRQlp6ZlYxTFlhQ09FU3dpNA?oc=5",
+"urls": []
+},
 "9352f5563a74": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1939,7 +1954,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795254845.1942122,
+"t": 1795255152.6959152,
 "t0": 1795233692.0,
 "tgtext": "It's liquidation day again!\n\nTrader 0x6646 got liquidated on 158.6 $BTC ($9.23M) and 9,000 $ETH ($14.53M), with a total of $23.76M liquidated!\n\nTrader 0xfe40 got liquidated on 212.22 $BTC ($12.33M).\n\nhttps://hyperbot.network/trader/0x66466428990e0f42a4c54f64bee0db6bf2336de5\nhttps://hyperbot.network/trader/0xfe40345fdd90c7c629403a81eda76670fd63668b",
 "title": "It's liquidation day again!",
@@ -2144,7 +2159,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795252396.2791834,
+"t": 1795255457.1581814,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2316,6 +2331,20 @@
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.\n\n\ud83c\uddfa\ud83c\uddf8 US\n\ud83c\udde8\ud83c\uddf3 China\n\ud83c\udde9\ud83c\uddea Germany\n\ud83c\uddf0\ud83c\uddf7 South Korea\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddf0\ud83c\uddf7 South Korea officially reaches $1 trillion in annual exports for the first time, becoming the fourth country in history to reach the milestone.",
 "url": "https://t.me/WatcherGuru/16156",
+"urls": []
+},
+"b176407e654c": {
+"coin": "bitcoin",
+"src": "Pragativadi",
+"srcs": [
+"Pragativadi",
+"The Crypto Times"
+],
+"t": 1795255152.6959152,
+"t0": 1795253611.0,
+"tgtext": "",
+"title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GME9Wd3JMRmxKZzIzT1ZsRi13QXhiN3ZoTXc3ZzBlTjJzcEsxcTV1RXRUUkUwUFRwM1kyOWJjNDA4VWwxeTVXYVN4cDFVTEc3NjBzMWwtU19ybTZ4MzNZWkp1WjNmc0JyallRQlp6ZlYxTFlhQ09FU3dpNA?oc=5",
 "urls": []
 },
 "b1857c14b8ae": {
@@ -2584,7 +2613,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795254845.1942122,
+"t": 1795255152.6959152,
 "t0": 1795233709.0,
 "tgtext": "Highlight Clip: Arthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?\n\nArthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Bitcoin and crypto remain risk assets. Because crypto markets operate around the clock, investors facing losses elsewhere often sell their readily accessible crypto holdings first to meet margin calls or repay bank loans. This leaves Bitcoin exposed to selling during global risk-off events, particularly when stress is concentrated in technology stocks. Even if investors expect eventual bailouts to drive prices higher, they may still need cash now to avoid liquidation in less liquid positions.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?",
@@ -2687,7 +2716,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2841,7 +2870,7 @@
 "Cryptonews.net",
 "The Block"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795235400.0,
 "tgtext": "",
 "title": "Bitcoin slides below $56K, Senate passes DEATH BETS Act, SEC alleges $560M fraud | Weekly recap",
@@ -3013,7 +3042,7 @@
 "CryptoRank",
 "Pluang"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795237600.0,
 "tgtext": "",
 "title": "$1.76B crypto liquidations hit Nvidia, SanDisk, and Bitcoin amid tech sell-off",
@@ -3085,7 +3114,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795254845.1942122,
+"t": 1795255457.1581814,
 "t0": 1795234706.0,
 "tgtext": "Bit Digital appears to be dumping $ETH, depositing 16,639 $ETH ($26.3M) into #GalaxyDigital.\n\nAs of October 31, Bit Digital held 163,241.7 $ETH at an average cost of $3,007.63 and is now sitting on $237M in unrealized losses.\n\nhttps://bit-digital.com/press-releases/ethereum-treasury-and-staking-metrics-for-october-2026\nhttps://arkm.com/explorer/entity/bit-digital",
 "title": "Bit Digital appears to be dumping ETH, depositing 16,639 ETH ($26.3M) into GalaxyDigital.",
@@ -3312,6 +3341,22 @@
 "url": "https://t.me/WatcherGuru/16211",
 "urls": []
 },
+"efc61563fcea": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1795255457.1581814,
+"t0": 1795254536.0,
+"tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
+"title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
+"url": "https://t.me/WatcherGuru/16235",
+"urls": [
+"https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "f1817eb2f8f4": {
 "coin": "",
 "src": "TOKENPOST",
@@ -3511,19 +3556,6 @@
 "url": "https://t.me/wublockchainenglish/26882",
 "urls": []
 },
-"f8b5650b1f17": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795082641.4532027,
-"t0": 1795064408.0,
-"tgtext": "JUST IN: Grand Theft Auto VI (GTA 6) officially releases worldwide.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
-"title": "Grand Theft Auto VI (GTA 6) officially releases worldwide.",
-"url": "https://t.me/WatcherGuru/16155",
-"urls": []
-},
 "f8cc0c11ad77": {
 "coin": "ethereum",
 "src": "Lookonchain",
@@ -3616,16 +3648,13 @@
 "153fd3a06069": 0.092,
 "19299b1f0754": 0.096,
 "1bf46deae103": 0.486,
-"1ed6d39bc882": 0.046,
-"235f0f3d0962": 0.128,
 "25ff762a0e71": 0.299,
 "26f793b38b39": 0.133,
 "2921fecc352b": 0.029,
 "2b062ee5daf3": 0.028,
 "32083bf0dd60": 0.078,
+"3582dab059e6": 0.695,
 "3a9731a38e66": 0.11,
-"3e74183c6ac2": 0.092,
-"43bcada8a09a": 0.072,
 "456be5690816": 0.131,
 "498ba9509fee": 0.1,
 "4d547867ff4f": 0.128,
@@ -3635,62 +3664,27 @@
 "815ae20b3f0d": 0.242,
 "86513fb1adf7": 0.147,
 "8ad44ddb6fe1": 0.045,
+"8bb60e67f62e": 0.048,
 "8d1907fd5471": 0.143,
-"9a68dad96c27": 0.699,
-"a577db08e5eb": 0.152,
+"91c55bdbba9b": 0.12,
+"9280a2d18ecf": 0.412,
+"a577db08e5eb": 0.408,
 "abee2200bec5": 0.112,
+"af8d5dd7ad22": 0.045,
 "b00adbc4e544": 0.076,
-"b176407e654c": 0.372,
 "b85948d718ee": 0.082,
-"c5f1d1d1a353": 0.636,
+"c5f1d1d1a353": 0.558,
 "ca74dc6a703f": 0.477,
 "cdf9b4bf1405": 0.03,
 "ddad4014f2b9": 0.426,
 "df1c311b1c47": 0.908,
-"df5b6c078491": 0.083,
-"e286ca637d87": 0.071,
+"e286ca637d87": 0.111,
 "ebd4f4415d45": 0.037,
-"efc61563fcea": 0.173,
+"efc61563fcea": 0.891,
 "f294818f9a2c": 0.118,
 "f515aca3aab1": 0.381
 },
 "sent": [
-{
-"e": [
-"become",
-"center",
-"chase",
-"could",
-"data",
-"less",
-"miners",
-"mining",
-"profitable",
-"profits",
-"sell"
-],
-"k": [],
-"t": 1795080486.672379,
-"u": [
-"https://t.me/wublockchainenglish/26880",
-"https://news.google.com/rss/articles/CBMivwFBVV95cUxObmVLWUxUT2lLd3BXaU5YSXI0X2RIR18yRFNnOTFYT0NhekFHc3lwdjNiUlAyMWVfdEVtbXJEeXVtWm01N2h4Y1BfYTgwN0Y3S2dsazZWakpsOHpnTVpaa3ZIVy1qVTdzZlU5Y0d5MUNRcnRocWxtUnNyN1R6dTlzb0t6aURGQTkwdXZuMV9yVGVOWFhPSmVxUlNicE5hdDAxUDVhWTN5QXBoQkpyWnZNNi01VTVfRS1fSXpIM2VOd9IBxAFBVV95cUxNV2JkRUpoSDNjczFWUXRlWW5RNjV4SUhnVjR4VUtxUlN1RGJJSERiVlI4V2NERF9zcm9JT2JuMUhwTHlvUTI3b3JQU3FMWW1CTjdLcm11eGxjbjhoN19FeFdRNDVQV1dQdXV2MWlYSGl0dnMtdFdfY0ZTcmVvY1pZdUlTSW9tRkktZ3RrczZWcFI1SDhia3g1Z2taTUlobTE4Y0NHX0NZY192d1E0N1YyLVh6MlFoSG1oVHdocW4zYndDOTE1?oc=5"
-],
-"w": [
-"become",
-"bitcoin",
-"btc",
-"center",
-"chase",
-"could",
-"data",
-"less",
-"miners",
-"mining",
-"profitable",
-"profits",
-"sell"
-]
-},
 {
 "e": [
 "coinbaseprime",
@@ -5619,6 +5613,32 @@
 "sell",
 "tech"
 ]
+},
+{
+"e": [
+"bank",
+"central",
+"european"
+],
+"k": [
+"ban"
+],
+"t": 1795255152.6959152,
+"u": [
+"https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/WatcherGuru/16235"
+],
+"w": [
+"bank",
+"central",
+"deposits",
+"european",
+"partners",
+"securities",
+"seeks",
+"test",
+"tokenized"
+]
 }
 ],
 "stories": {},
@@ -5626,64 +5646,64 @@
 "top": [
 [
 "df1c311b1c47",
-6,
-336,
+4,
+346,
 1
 ],
 [
-"9a68dad96c27",
-2,
-353,
+"efc61563fcea",
+28,
+15,
+2
+],
+[
+"3582dab059e6",
+0,
+350,
 1
 ],
 [
 "c5f1d1d1a353",
 10,
-16,
-1
-],
-[
-"3582dab059e6",
-0,
-340,
+27,
 1
 ],
 [
 "1bf46deae103",
-22,
-317,
+21,
+327,
 1
 ],
 [
 "ca74dc6a703f",
-49,
-324,
+48,
+334,
 3
 ],
 [
 "6df0254256ec",
 25,
-59,
-1
-],
-[
-"c0dd31f754c5",
-0,
-352,
+69,
 1
 ],
 [
 "ddad4014f2b9",
-46,
-287,
+45,
+298,
 3
 ],
 [
-"f515aca3aab1",
-4,
-344,
+"9280a2d18ecf",
+77,
+59,
+3
+],
+[
+"a577db08e5eb",
+34,
+192,
 1
 ]
 ],
-"top_at": 1795254845.1942122
+"top_at": 1795255457.1581814
 }
