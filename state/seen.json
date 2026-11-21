@@ -43,7 +43,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795210714.0,
 "tgtext": "JUST IN: Goldman Sachs warns stock market selloff is not over.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Goldman Sachs warns stock market selloff is not over.",
@@ -366,7 +366,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795209301.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BREAKING: The U.S. stock market has reportedly wiped out $7 trillion in market capitalization this week.",
 "title": "The U.S. stock market has reportedly wiped out $7 trillion in market capitalization this week.",
@@ -585,18 +585,19 @@
 },
 "28a98dd68c44": {
 "coin": "bitcoin",
-"src": "Forbes",
+"src": "The Globe and Mail",
 "srcs": [
 "Coinpaper",
 "Cryptonews.net",
 "Forbes",
-"Pluang"
+"Pluang",
+"The Globe and Mail"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795203688.0,
 "tgtext": "",
-"title": "Bitcoin Plunges Below $60,000 As Risk-Off Trading Fuels Widespread Losses",
-"url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQzc4STZ2WjgtRmIyRkwtVk9DUjJKc1E3d3pHZTZEcXAxU2NpelFGZkliTi02Zm42a0RqWmlKNHJKanItUEhZeUFid2JFY2V6WGh3M1RVdER1bTEzWTBMWGpBS01HUUprTWdfX3RCWUF3T0tTcFlUWkpSV3RmQ19jX0JxemNvX2FQRmhRMml3TEZVU0g3OXJxdFdBU3RrOEdVM3Yyb1lVS0NDblRlNHdzX0NTc3FsOGJZaEJIMzZzX0NHVXhrLUE?oc=5",
+"title": "Crypto Market Today, Nov. 20: Bitcoin Plunges Below $60,000 as Wall Street's Sell-Off Spreads to Crypto",
+"url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNdUpKeEpJUjB3UWdGbVl6MDA3QXhiLVZkeTRJTEVvT2tHTTlRRFVtRm9sZ21sY0hGS3hwT1c3aG4yYnA4U050amkyeGZEVFhmLU8wVXloODFfY0RnQUhuUThLbks1dC1oejIwcU5GUUJfd2pEeHlTNy1sUFduZ250bFlpaEt5VGNWR1pKblRnY0hQa2tyQnltbUZqd2Q5RTFrcFBnTkNkaGZrUk9Ka3BFWjNiY0FjakIxcWFNcmtOaEk5aGQwWXp6M3NkWWRCNEtUWDI2eWQ3MEZQM29xd191MVY1ZXZBbC14bjBpR2FhLThZU2Fxc0I4STV4bjNjWkdVeEUzU2RxUVBNbGhiZU1jUm1USQ?oc=5",
 "urls": []
 },
 "2b7361eedf02": {
@@ -1337,7 +1338,7 @@
 "CryptoRank",
 "FinanceFeeds"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795203481.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf5 JUST IN: North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.\n\nNews | Markets | YouTube",
 "title": "North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.",
@@ -1350,7 +1351,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795214154.0,
 "tgtext": "JUST IN: $150,000,000,000 wiped out from the crypto market cap today.\n\n@WatcherGuru",
 "title": "$150,000,000,000 wiped out from the crypto market cap today.",
@@ -1537,7 +1538,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795202732.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 S&P 500 crashes under 7,000\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 S&P 500 crashes under 7,000",
@@ -2369,7 +2370,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795202115.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC investigation into Nvidia $NVDA is examining potential accounting issues.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f JUST IN: The US SEC is investigating Nvidia $NVDA over potential accounting issues.\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 SEC investigation into Nvidia NVDA is examining potential accounting issues.",
@@ -2389,27 +2390,6 @@
 "url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
 "urls": [
 "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190"
-]
-},
-"adde76037f0b": {
-"coin": "",
-"src": "Seeking Alpha",
-"srcs": [
-"Bitcoin Foundation",
-"Bitcoin Magazine",
-"Bloomberg.com",
-"Cointelegraph",
-"Seeking Alpha"
-],
-"t": 1795049232.4592395,
-"t0": 1795027650.0,
-"tgtext": "",
-"title": "Binance gets court order in effort to recover frozen assets after $6.3B hack (BNB-USD:Cryptocurrency)",
-"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVlZTVHZiRXE5dHJEUDlEOXYzUzlLcjl2TUhhS0RBTHFMUUpaQ3RkdEJwT0RuV2dvTEZfeVdVc2pVYnAwNDdRT3VFcEJWTGRBTDMxSzV3M0xaeXpvRVJfZGhpLXZoaElEZm1zMVdLT2dfd0V6eW8xM0taazB6MXg0cXgyTXFmMWl0NmEtTVUwUUFuVHptS3NxWXA2LXVMczFib2gyOUpWY2VlRTFBLXRQaDZn?oc=5",
-"urls": [
-"https://bitcoinmagazine.com/news/binance-abu-dhabi-order-recover-frozen",
-"https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
-"https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "ade0bb50dfc5": {
@@ -2668,7 +2648,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795204724.0,
 "tgtext": "JUST IN: GTA 6 becomes the biggest entertainment launch in history with $3,790,000,000 in day-one sales.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "GTA 6 becomes the biggest entertainment launch in history with $3,790,000,000 in day-one sales.",
@@ -3076,19 +3056,6 @@
 "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYWJyYzI0RlhyMFBzNEpLbjZ4VWVrRGhDQzg5RWNabWlNVkhjZDRLa2NDczk5WlgyZ1BpNnlXM0RkMF9HUWdnLTNqNVNEek5WSmt5MHZxanVIRk0wMlBLOXhtWXc0ZC1MYzlZRGdDbHVpNl95SkoyTGgzeUYxSTF6VzBTay1Oa0ZlWW52aTVhUUpkTG12ZUd3S0dOZmVyYVFleFU3RUdIMW1WQQ?oc=5",
 "urls": []
 },
-"db4d75dd56e3": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795049232.4592395,
-"t0": 1795027911.0,
-"tgtext": "JUST IN: PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.\n\n@WatcherGuru",
-"title": "PlayStation network down for many users as GTA 6 set to release worldwide in 10 hours.",
-"url": "https://t.me/WatcherGuru/16142",
-"urls": []
-},
 "ddea8b47a5f5": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -3096,7 +3063,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795209803.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Tech stocks suffer worst week since the 2020 COVID pandemic.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nAI Investment Concerns Trigger Market Selloff as Nasdaq 100 Posts Worst Week Since 2020\n\nAccording to Bloomberg, U.S. stocks tumbled on November 20 as concerns over the sustainability of AI investment, slowing data center expansion and tech earnings prospects intensified. The S&P 500 fell 3.7%, marking its seventh consecutive daily decline and entering correction territory. The Nasdaq 100 dropped 5.6%, posting its worst weekly performance since March 2020. Nvidia plunged 14%, while a semiconductor stock index fell 11%.\n\nThe selloff spread to cryptocurrencies, precious metals and emerging markets. Bitcoin declined 5.1% to approximately $58,333, Ether fell 8% to $1,601, and spot gold dropped 2.8%. The U.S. 10-year Treasury yield declined 11 basis points to 4.93%. Analysts said the market downturn reflected investors reassessing the pace of AI infrastructure development, financing prospects for related projects and expectations for tech earnings growth. \u2014 link",
 "title": "AI Investment Concerns Trigger Market Selloff as Nasdaq 100 Posts Worst Week Since 2020",
@@ -3337,7 +3304,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795222029.678795,
+"t": 1795222643.2634382,
 "t0": 1795208723.0,
 "tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.\n\n$2.5 trillion wiped out of the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.",
@@ -3701,14 +3668,12 @@
 },
 "probs": {
 "006d4ea8db05": 0.037,
-"00f11667de9c": 0.534,
-"115f300e0488": 0.043,
-"14e25a3516c4": 0.82,
-"1baf52c98443": 0.02,
+"0ef2dae1c151": 0.076,
+"18e6070e2e70": 0.127,
 "1cb6a60a5be3": 0.269,
 "22889809249a": 0.095,
 "280304eba287": 0.093,
-"28a98dd68c44": 0.81,
+"28a98dd68c44": 0.891,
 "296a1830a441": 0.042,
 "419c425e8ad0": 0.044,
 "45f038f36086": 0.011,
@@ -3717,29 +3682,31 @@
 "5d7294690703": 0.829,
 "5e55815ea40d": 0.64,
 "5efb0d5bf50c": 0.033,
+"5fa85ef8f548": 0.069,
 "600895faaa3a": 0.097,
-"683214e276de": 0.016,
+"63025ef50071": 0.061,
+"7476f3f01b0f": 0.042,
 "78043fdb92dc": 0.506,
 "80a3408d81d6": 0.075,
 "83832594e04b": 0.014,
-"85e5f4f86a95": 0.074,
-"88c4a251f3f2": 0.042,
-"8a93e430e145": 0.01,
 "943fbad42270": 0.221,
+"96e40be22b88": 0.073,
 "96f795c25be2": 0.089,
 "a13fc308e0c5": 0.046,
 "a150bfabbe15": 0.117,
 "a868811144c4": 0.025,
 "aa3aae23bc00": 0.273,
 "ab9b9ffee484": 0.77,
+"b7f0f37469d8": 0.102,
 "c00dfcb0e60b": 0.066,
-"d130eca96b3a": 0.046,
+"d3f34255b966": 0.245,
 "db4b40979fad": 0.049,
 "ddea8b47a5f5": 0.786,
 "e01357cb7eb7": 0.047,
+"e25985771ae8": 0.016,
 "e32fe5fe5b72": 0.096,
 "f08eea807285": 0.047,
-"f2663bce4c4e": 0.054
+"f5a371bf4ba9": 0.054
 },
 "sent": [
 {
@@ -5685,65 +5652,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"28a98dd68c44",
+62,
+316,
+5
+],
+[
 "5d7294690703",
-52,
-309,
+51,
+319,
 3
 ],
 [
 "14e25a3516c4",
-6,
-212,
-1
-],
-[
-"28a98dd68c44",
-64,
-306,
-4
-],
-[
-"ddea8b47a5f5",
-17,
-204,
-2
-],
-[
-"ab9b9ffee484",
-14,
-332,
-2
-],
-[
-"6ae4b9784831",
-2,
-322,
-1
-],
-[
-"ea291829db89",
 5,
 222,
 1
 ],
 [
+"ddea8b47a5f5",
+16,
+214,
+2
+],
+[
+"ab9b9ffee484",
+13,
+342,
+2
+],
+[
+"6ae4b9784831",
+0,
+332,
+1
+],
+[
+"ea291829db89",
+4,
+232,
+1
+],
+[
 "5e55815ea40d",
 10,
-131,
+141,
 1
 ],
 [
 "bacfc5cc768f",
 0,
-288,
+299,
 1
 ],
 [
 "00f11667de9c",
-9,
-189,
+8,
+199,
 1
 ]
 ],
-"top_at": 1795222029.678795
+"top_at": 1795222643.2634382
 }
