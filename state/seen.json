@@ -43,7 +43,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795210714.0,
 "tgtext": "JUST IN: Goldman Sachs warns stock market selloff is not over.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Goldman Sachs warns stock market selloff is not over.",
@@ -337,7 +337,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795209301.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 BREAKING: The U.S. stock market has reportedly wiped out $7 trillion in market capitalization this week.",
 "title": "The U.S. stock market has reportedly wiped out $7 trillion in market capitalization this week.",
@@ -469,13 +469,13 @@
 "coin": "",
 "src": "WSJ",
 "srcs": [
+"Crypto Briefing",
 "Crypto Economy",
 "CryptoRank",
-"TradingView",
 "WSJ",
 "Wu Blockchain"
 ],
-"t": 1795229703.0088985,
+"t": 1795230317.1474085,
 "t0": 1795214481.0,
 "tgtext": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen\n\nAccording to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has been recovered. The attackers still hold 18,270 BTC stolen directly from Binance, which remains untouched. Over 5,100 BTC has been transferred through THORChain, while 1,482 BTC has entered CoinJoin mixing, primarily via the kruw coordinator. The FBI previously attributed the attack to North Korea-linked TraderTraitor. \u2014 link",
 "title": "DOJ Says It Helped Freeze Nearly Half of More Than $6 Billion Stolen in North Korea\u2019s Binance Hack",
@@ -493,6 +493,19 @@
 "tgtext": "Whale DNLo13 sold all 1.69M $TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.\n\nhttps://arkm.com/explorer/address/DNLo13JDqjjW474tKkx5gBVWqMq8eWz3zkGHFzCoEoY6",
 "title": "Whale DNLo13 sold all 1.69M TRUMP ($1.96M) that he bought at $1.9 a month ago, taking a ~$1.25M loss.",
 "url": "https://t.me/lookonchainchannel/11154",
+"urls": []
+},
+"25df5c0105c9": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795230623.18327,
+"t0": 1795229995.0,
+"tgtext": "Strategy: Net Reserve Stands at $35 Billion, All Bitcoin Holdings Unencumbered\n\nStrategy said its Net Reserve now stands at $35 billion, with all of its bitcoin holdings unencumbered. During the 2022 bear market, its Net Reserve was negative and one-third of its BTC was pledged as collateral. The company said it survived that downturn and emerged stronger, adding that its \"conviction and optionality have never been stronger.\" \u2014 link",
+"title": "Strategy: Net Reserve Stands at $35 Billion, All Bitcoin Holdings Unencumbered",
+"url": "https://t.me/wublockchainenglish/26905",
 "urls": []
 },
 "25ed8730bd04": {
@@ -1079,7 +1092,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795226142.0,
 "tgtext": "7 Siblings, known for buying the dip during market crashes, are back again!\n\nJust 8 hours ago, they spent 20M $USDC to buy 12,085 $ETH at $1,655.\n\nA few days ago, they also bought 34,459 $ETH ($66M) at $1,915!\n\nhttps://arkm.com/explorer/address/0x5fFcDB28B8cC958aFe052947D43CB6aF04833c37",
 "title": "7 Siblings, known for buying the dip during market crashes, are back again!",
@@ -1164,21 +1177,6 @@
 "title": "Where is Sam Trabucco now? The former CEO and friend of Sam Bankman-Fried was forced to give up millions to debtors",
 "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb0hIei1QeVl2MjBxME1NNWtiOGdrOEw3WmNHM0RLWHhhemZQYlpZZ1hCVEhIVzFRQXlSaVIxczlTSXM3VzZITXRFVlZGRGpiRlVnTTFpYjg5cU9odmgzbzFubDRKclJvSEs4djFlRmNGcUhOYVdIck5wazg5UlpXREI4d18tQnZmWjZGOU1rcHBvUENvdmVyUTJ6Q1NGOVozdDBuNzlUUnh2ck9tRjFDVi0zUEJZemV4TzhuMTFVeDdrT0R6R1ZuS3Vad0drYWJBeFVBbk40OA?oc=5",
 "urls": []
-},
-"53d634033416": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"The Block"
-],
-"t": 1795057288.921031,
-"t0": 1795039757.0,
-"tgtext": "",
-"title": "Senators: Treasury must ensure \u2018equal footing\u2019 for stablecoin issuers in GENIUS Act implementation",
-"url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
-"urls": [
-"https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501"
-]
 },
 "541a579cd04c": {
 "coin": "",
@@ -1271,7 +1269,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795214154.0,
 "tgtext": "JUST IN: $150,000,000,000 wiped out from the crypto market cap today.\n\n@WatcherGuru",
 "title": "$150,000,000,000 wiped out from the crypto market cap today.",
@@ -1754,7 +1752,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795227238.0,
 "tgtext": "AguilaTrades(@AguilaTrades) wins again!  His short on 2,000 $BTC ($118.6M) is now up $5M+ in unrealized profit!  https://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) wins again! His short on 2,000 BTC ($118.6M) is now up $5M+ in unrealized profit! https://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925perps",
@@ -2565,7 +2563,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795226927.0,
 "tgtext": "Chun (@satofishi) bought the $ETH dip again, buying another 7,186 $ETH ($11.74M) just 7 hours ago!\n\nhttps://arkm.com/explorer/address/0xF42BcFD3dd5fcdd984d24FD2787383195C7f2b51",
 "title": "Chun (@satofishi) bought the ETH dip again, buying another 7,186 ETH ($11.74M) just 7 hours ago!",
@@ -2732,13 +2730,13 @@
 "coin": "bitcoin",
 "src": "Cryptonews.net",
 "srcs": [
+"Crypto Briefing",
 "Crypto Economy",
 "CryptoRank",
 "Cryptonews.net",
-"TradingView",
 "Wu Blockchain"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795210564.0,
 "tgtext": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen\n\nAccording to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has been recovered. The attackers still hold 18,270 BTC stolen directly from Binance, which remains untouched. Over 5,100 BTC has been transferred through THORChain, while 1,482 BTC has entered CoinJoin mixing, primarily via the kruw coordinator. The FBI previously attributed the attack to North Korea-linked TraderTraitor. \u2014 link",
 "title": "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
@@ -2770,7 +2768,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795228157.0,
 "tgtext": "Abraxas Capital withdrew 5,856 $BTC($343M) from #Binance and #Kraken in the past 8 hours.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds\nTwo wallets deposited 4,069 $BTC ($239M) into #Binance over the past 9 hours.\n\nhttps://arkm.com/explorer/address/bc1qnxyj29m2nsvsxyx5emk9tfcnz0qu7frum9xq7y\nhttps://arkm.com/explorer/address/bc1qrpee2p9e8wc5vauh0s06wrccax7y22g873juwm",
 "title": "Abraxas Capital withdrew 5,856 BTC($343M) from Binance and Kraken in the past 8 hours.",
@@ -3010,7 +3008,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1795230008.687191,
+"t": 1795230623.18327,
 "t0": 1795209803.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Tech stocks suffer worst week since the 2020 COVID pandemic.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nAI Investment Concerns Trigger Market Selloff as Nasdaq 100 Posts Worst Week Since 2020\n\nAccording to Bloomberg, U.S. stocks tumbled on November 20 as concerns over the sustainability of AI investment, slowing data center expansion and tech earnings prospects intensified. The S&P 500 fell 3.7%, marking its seventh consecutive daily decline and entering correction territory. The Nasdaq 100 dropped 5.6%, posting its worst weekly performance since March 2020. Nvidia plunged 14%, while a semiconductor stock index fell 11%.\n\nThe selloff spread to cryptocurrencies, precious metals and emerging markets. Bitcoin declined 5.1% to approximately $58,333, Ether fell 8% to $1,601, and spot gold dropped 2.8%. The U.S. 10-year Treasury yield declined 11 basis points to 4.93%. Analysts said the market downturn reflected investors reassessing the pace of AI infrastructure development, financing prospects for related projects and expectations for tech earnings growth. \u2014 link",
 "title": "AI Investment Concerns Trigger Market Selloff as Nasdaq 100 Posts Worst Week Since 2020",
@@ -3251,7 +3249,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795230008.687191,
+"t": 1795230317.1474085,
 "t0": 1795208723.0,
 "tgtext": "BREAKING: \ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.\n\n$2.5 trillion wiped out of the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $8.9 trillion erased from the US stock market in the past 45 days.",
@@ -3614,39 +3612,39 @@
 "14e25a3516c4": 0.814,
 "1baf52c98443": 0.019,
 "1f9de1db28ef": 0.049,
-"25df5c0105c9": 0.225,
+"25df5c0105c9": 0.606,
 "419c425e8ad0": 0.053,
 "45f038f36086": 0.011,
-"4b5626679e37": 0.136,
 "4d7e2dd718fa": 0.787,
-"557d07aa8b98": 0.095,
+"557d07aa8b98": 0.118,
 "600895faaa3a": 0.065,
 "6695e09f8573": 0.034,
-"6f8c3c105aa8": 0.216,
+"683214e276de": 0.015,
+"6fd085f86017": 0.093,
 "80a3408d81d6": 0.162,
 "8246103c5d01": 0.679,
 "83bd90d25422": 0.379,
+"88c4a251f3f2": 0.04,
 "96e40be22b88": 0.07,
-"96f795c25be2": 0.118,
-"a150bfabbe15": 0.139,
+"96f795c25be2": 0.111,
 "a4f16c8724e5": 0.069,
+"a7ba29ab51a4": 0.225,
 "a868811144c4": 0.031,
 "aa3aae23bc00": 0.313,
 "afdce752847a": 0.128,
 "b2117776af47": 0.341,
+"b75adbf0f3ac": 0.026,
 "b7cbf9d1ae09": 0.085,
 "bc9f4c502027": 0.744,
 "c00dfcb0e60b": 0.079,
-"c759d4ae8585": 0.787,
-"c86e027207c5": 0.992,
-"d5dd33a7f209": 0.295,
+"c759d4ae8585": 0.808,
+"c86e027207c5": 0.924,
+"d5dd33a7f209": 0.233,
 "db4b40979fad": 0.047,
 "ddea8b47a5f5": 0.817,
-"e01357cb7eb7": 0.025,
-"ea291829db89": 0.66,
+"e01357cb7eb7": 0.031,
 "f087638239b3": 0.163,
-"f08eea807285": 0.056,
-"f2663bce4c4e": 0.052,
+"f2663bce4c4e": 0.028,
 "f4eb0cf13f4f": 0.212,
 "f5a371bf4ba9": 0.052
 },
@@ -5603,63 +5601,63 @@
 [
 "c86e027207c5",
 32,
-31,
+41,
 1
 ],
 [
 "ddea8b47a5f5",
 0,
-337,
+347,
 2
 ],
 [
 "14e25a3516c4",
 0,
-345,
+355,
 1
 ],
 [
 "c759d4ae8585",
-66,
-324,
+65,
+334,
 5
 ],
 [
 "4d7e2dd718fa",
 20,
-64,
+75,
 1
 ],
 [
 "bc9f4c502027",
 16,
-51,
+62,
 1
 ],
 [
 "5e55815ea40d",
 0,
-264,
+274,
 1
 ],
 [
 "8246103c5d01",
 16,
-46,
+56,
 1
 ],
 [
-"ea291829db89",
-0,
-355,
+"25df5c0105c9",
+25,
+10,
 1
 ],
 [
 "00f11667de9c",
 0,
-322,
+332,
 1
 ]
 ],
-"top_at": 1795230008.687191
+"top_at": 1795230623.18327
 }
