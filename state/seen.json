@@ -6,8 +6,6 @@
 },
 "init": true,
 "log": [
-1795194942.4996731,
-1795195532.0655758,
 1795199953.3821084,
 1795201002.6356826,
 1795219458.5798867,
@@ -19,7 +17,8 @@
 1795265522.9477825,
 1795269920.1749113,
 1795271454.5066626,
-1795278818.8535278
+1795278818.8535278,
+1795282968.7913425
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -93,18 +92,17 @@
 },
 "042a2f23b222": {
 "coin": "bitcoin",
-"src": "BeInCrypto",
+"src": "24/7 Wall St.",
 "srcs": [
+"24/7 Wall St.",
 "BeInCrypto",
-"BigGo Finance",
-"Coinpedia",
-"TradingView"
+"Cryptonews.net"
 ],
-"t": 1795265934.0905738,
-"t0": 1795244412.0,
+"t": 1795283272.3412614,
+"t0": 1795268278.0,
 "tgtext": "",
-"title": "Nvidia and SanDisk Bets Joined Bitcoin in a $1.76 Billion Liquidation Wave",
-"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3Y3hVaUJUeV9YZUYyU3A3bnVKNlNVSi1wZ0NZZTctMG96WkptWW9CQ0ltNl9FbV94Q3k4X0xkMjF5RDlnZGp1ZFhfbDI3dTVpeTFSZjFTTGZVY0dOOGUzc191U09EelhwbVJFcWtSTG9WN0ZXcmRiSA?oc=5",
+"title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
+"url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeEtfcFVLa1VXbTlfXzhxYjRDSlJNeVVteDlBTWxvdDNKMEdtS0VRVFYwMjBmYU5tUHEwbDByMDBUTEdabEgybGJLd081UFdJLTQ2bGJMU21Fckp0Q3FFY3czbFFjN3ltb1ptVDlrOThPMUozblhSdUNxVGtLd3MwcjJiQWJGYkRQX2lHaHJOTTdURm9FN2RwcEpaM2ZXcDVJVmd3NVY5WkVvYjNLODVBV0RUS2FLZE1ITUlUTnV4MFE?oc=5",
 "urls": []
 },
 "0451235c9781": {
@@ -230,12 +228,12 @@
 "src": "The Block",
 "srcs": [
 "CoinDesk",
-"Coinpedia",
 "Cryptonews.net",
 "Lookonchain",
-"Pluang"
+"Pluang",
+"The Block"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795264421.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip\u2019s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
@@ -295,7 +293,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795272612.0,
 "tgtext": "Abraxas Capital appears to have bought the $BTC dip today, buying 10,356 $BTC ($607M) at an average price of $58,651.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital appears to have bought the BTC dip today, buying 10,356 BTC ($607M) at an average price of $58,651.",
@@ -603,6 +601,26 @@
 "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BRTFBdG1lVnA3VnViS193U3pDaDRNTGhGYWliUmREMHp5ZlN3MEFSWFVWUE5ZaHZMQU5PSmVnVS03d3BkVFVpVGRJd09mSHY3YTNnOXJjUjk0Vzhma0pTcmNESzVPdw?oc=5",
 "urls": []
 },
+"26f85059768e": {
+"coin": "ethereum",
+"src": "Crypto Briefing",
+"srcs": [
+"CoinDesk",
+"Crypto Briefing",
+"Cryptonews.net",
+"The Block",
+"Traders Union"
+],
+"t": 1795282968.7913425,
+"t0": 1795263389.0,
+"tgtext": "",
+"title": "Chainflip exploited for roughly $4.86 million as attacker funnels 2,909 ETH into Tornado Cash",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9JNzUwSHk0N202elRsamNTd3B5SUxoVVZOdGlKNHVRU0wxU09uRzgwRTFydmFxTDBlaTZzNFl3OTlyX1ZBY2VIVFNKeDAySFpORUVuenJHNks5ejRrXzhrWDNjcFNyUm8ySnRfbXhITjNHMG9CY3M1dFR3RQ?oc=5",
+"urls": [
+"https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+"https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+]
+},
 "28a98dd68c44": {
 "coin": "bitcoin",
 "src": "Forbes",
@@ -805,7 +823,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795272266.0,
 "tgtext": "A whale deposited $270M in stablecoins into #Binance over the past 3 hours.\n\nIs Garrett Bullish (@GarrettBullish) buying the dip?\n\nhttps://arkm.com/explorer/address/0x2DFee705a290d49d5259B9E72d5b665D37960CFf",
 "title": "A whale deposited $270M in stablecoins into Binance over the past 3 hours.",
@@ -1188,7 +1206,7 @@
 "Crypto Briefing",
 "Traders Union"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1848,7 +1866,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795278532.0,
 "tgtext": "Vitalik Criticizes Racial Stereotypes in Netflix's Portrayal of CZ, Questions Whether It Is Racist\n\nEthereum co-founder Vitalik Buterin criticized Netflix's portrayal of Binance founder Changpeng Zhao (CZ) in a production involving FTX founder Sam Bankman-Fried (SBF) and Caroline Ellison. Buterin said CZ's accent had been made to sound roughly three times more foreign than he remembered. He also criticized the production for reinforcing the stereotype that people travel to foreign countries only to engage in suspicious activities. Buterin questioned whether such a portrayal should be called \"racist,\" suggesting that society may have moved far enough beyond \"woke\" culture for the term to be used again. \u2014 link",
 "title": "Vitalik Criticizes Racial Stereotypes in Netflix's Portrayal of CZ, Questions Whether It Is Racist",
@@ -1947,7 +1965,7 @@
 "CryptoRank",
 "KuCoin"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795262640.0,
 "tgtext": "",
 "title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
@@ -2360,7 +2378,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795274168.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.\n\nNews | Markets | YouTube",
 "title": "Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.",
@@ -2636,7 +2654,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\nLive liquidation tracker: https://watcherguru.com/liquidations\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2875,7 +2893,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795282662.2550757,
+"t": 1795283272.3412614,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -3581,19 +3599,6 @@
 "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
 ]
 },
-"f550086fbfcd": {
-"coin": "",
-"src": "Binance",
-"srcs": [
-"Binance"
-],
-"t": 1795109864.1974552,
-"t0": 1795109626.0,
-"tgtext": "Deposit Fiat or Buy Crypto/bStocks to Share $45,000 in Anthropic bStocks (ANTB) Token Vouchers!\n\n\nBinance is launching a limited-time promotion alongside the availability of Anthropic tokenized stocks on the Binance platform. During the Promotion Period, eligible users* who complete their first eligible deposit, crypto purchase, or bStocks purchase with fiat can unlock exclusive rewards in ANTB token vouchers.\n\n\ud83d\udc49\ud83c\udffb Learn more here \n\nDisclaimer: This is not available for users in the EEA.",
-"title": "Deposit Fiat or Buy Crypto/bStocks to Share $45,000 in Anthropic bStocks (ANTB) Token Vouchers!",
-"url": "https://t.me/binance_announcements/9152",
-"urls": []
-},
 "f663e054e3d5": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3736,14 +3741,14 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"03df2fc9d1bf": 0.367,
-"042a2f23b222": 0.367,
-"0492547620cc": 0.112,
-"0ae8a0bfa260": 0.888,
+"042a2f23b222": 0.516,
+"0492547620cc": 0.063,
+"0ae8a0bfa260": 0.96,
 "0ece4fa11d15": 0.12,
 "10297c7cf162": 0.189,
 "12ce5b5f86ed": 0.915,
-"17bab511775d": 0.161,
+"17bab511775d": 0.338,
+"1abe55ea3f66": 0.064,
 "1b73fbd31a82": 0.124,
 "202110c94618": 0.418,
 "24b69c6f5dd5": 0.036,
@@ -3751,130 +3756,33 @@
 "2a9e252076c6": 0.065,
 "3008566b6e6a": 0.098,
 "3519b9328143": 0.026,
-"35ba509331d0": 0.053,
 "39bf34bf09a4": 0.862,
 "42930153aafb": 0.082,
+"489b82843f11": 0.144,
 "4c1f3bc23aaf": 0.217,
 "51fda18ace60": 0.08,
 "589132e3ed8e": 0.128,
 "589660e4913c": 0.569,
+"6b8ec1fa7984": 0.084,
 "763cf975c4e7": 0.019,
 "7ae3d566f064": 0.07,
 "7b000dedfeb3": 0.086,
-"84fc31bbf0a3": 0.221,
 "88edf1d74b12": 0.467,
-"8a153f708db7": 0.394,
-"90b3289def34": 0.614,
+"90b3289def34": 0.708,
 "978028af339d": 0.021,
 "9e110ec9525e": 0.074,
 "ad5e17508d43": 0.966,
 "b05fb9e1e244": 0.038,
-"bbe091f83d7c": 0.813,
+"b5e4609e99ae": 0.079,
+"bbe091f83d7c": 0.699,
+"bd8fa89a3461": 0.11,
 "c0f3bbb183ac": 0.046,
 "c7deeb949a5e": 0.814,
 "e1e0e550c492": 0.256,
-"e4cc8328cffc": 0.122,
-"e8935c7b5843": 0.109,
-"fd4611e2a72c": 0.107
+"e34c3cd86730": 0.037,
+"e8935c7b5843": 0.109
 },
 "sent": [
-{
-"e": [
-"anthropic",
-"billion",
-"deal",
-"initial",
-"ipo",
-"money",
-"spacex",
-"tops",
-"went",
-"where"
-],
-"k": [],
-"t": 1795108030.9372478,
-"u": [
-"https://cryptoslate.com/bitcoins-22-slump-fails-to-dampen-crypto-traders-bullish-bets-on-anthropics-81-billion-ipo/",
-"https://decrypt.co/383623/anthropic-tops-spacex-initial-ipo-81-billion-deal-where-the-money-went",
-"https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://t.me/cointelegraph/73391"
-],
-"w": [
-"$81",
-"anthropic",
-"billion",
-"deal",
-"initial",
-"ipo",
-"money",
-"spacex",
-"tops",
-"went",
-"where"
-]
-},
-{
-"e": [
-"anthropic",
-"bankman",
-"fried",
-"interesting",
-"ipo",
-"sam"
-],
-"k": [
-"ban"
-],
-"t": 1795108643.1302652,
-"u": [
-"https://t.me/cointelegraph/73394"
-],
-"w": [
-"$37",
-"anthropic",
-"bankman",
-"billion",
-"fried",
-"interesting",
-"ipo",
-"misses",
-"out",
-"sam",
-"windfall"
-]
-},
-{
-"e": [
-"adds",
-"antb",
-"anthropic",
-"binance",
-"convert",
-"exchange",
-"pairs",
-"spot",
-"trading"
-],
-"k": [],
-"t": 1795108949.97664,
-"u": [
-"https://t.me/binance_announcements/9150",
-"https://t.me/binance_announcements/9151"
-],
-"w": [
-"2026",
-"adds",
-"antb",
-"anthropic",
-"binance",
-"bstocks",
-"convert",
-"exchange",
-"pairs",
-"spot",
-"trading"
-]
-},
 {
 "e": [
 "anthropic",
@@ -5834,6 +5742,37 @@
 "vitalik",
 "whether"
 ]
+},
+{
+"e": [
+"cash",
+"chainflip",
+"tornado"
+],
+"k": [
+"hack"
+],
+"t": 1795282968.7913425,
+"u": [
+"https://news.google.com/rss/articles/CBMie0FVX3lxTE9JNzUwSHk0N202elRsamNTd3B5SUxoVVZOdGlKNHVRU0wxU09uRzgwRTFydmFxTDBlaTZzNFl3OTlyX1ZBY2VIVFNKeDAySFpORUVuenJHNks5ejRrXzhrWDNjcFNyUm8ySnRfbXhITjNHMG9CY3M1dFR3RQ?oc=5",
+"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mNzgwVDFkMFRxVHVHM29ZeXNPOFM0UmM2S2ZBNVlFRmpVWG91RjkyQVJpVnZMYU45ODFtMzhOTjlKTTd2ZEdFSkU4ZGVweHA4eDNUSw?oc=5",
+"https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+"https://news.google.com/rss/articles/CBMikwFBVV95cUxNTEJUNDZnWThtR0dHemlrYmtWSVhSaXhwWF8yWkdkSExfYVJkckNiaE9KZVJQdlhVQmFMbjJMZ2ZheXBvckdCU3hvcHdtak1rcks5NXJ2Q3lINEpYenh1NU5YMXEwSGdza21ya29kOGhnSzVVdnZUVjlISWhFY3hwOEc5MlBhdVNGQ1JWMEU2YkUxTkE?oc=5",
+"https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FYnQ4VlhQQzk4aXhyWG5ld3NBUE5sQzh2QjZqSWVIZUYya0xYbkw0eUZoV0RlTDlzd0hST29TVDAyZEdwZzFBQU80QkhiblI5VkJNVQ?oc=5"
+],
+"w": [
+"909",
+"attacker",
+"cash",
+"chainflip",
+"eth",
+"exploited",
+"funnels",
+"million",
+"roughly",
+"tornado"
+]
 }
 ],
 "stories": {},
@@ -5842,63 +5781,63 @@
 [
 "ad5e17508d43",
 28,
-142,
+152,
 2
+],
+[
+"0ae8a0bfa260",
+54,
+314,
+7
 ],
 [
 "12ce5b5f86ed",
 16,
-168,
+178,
 1
-],
-[
-"0ae8a0bfa260",
-55,
-304,
-6
 ],
 [
 "39bf34bf09a4",
 32,
-173,
+183,
 1
 ],
 [
 "c7deeb949a5e",
-21,
-205,
-1
-],
-[
-"bbe091f83d7c",
-21,
-217,
+20,
+216,
 1
 ],
 [
 "90b3289def34",
-50,
-334,
+49,
+344,
 3
 ],
 [
+"bbe091f83d7c",
+19,
+227,
+1
+],
+[
 "589660e4913c",
-58,
-308,
+57,
+318,
+3
+],
+[
+"042a2f23b222",
+61,
+250,
 3
 ],
 [
 "88edf1d74b12",
 18,
-69,
-1
-],
-[
-"6d77381d9fec",
-5,
-218,
+79,
 1
 ]
 ],
-"top_at": 1795282662.2550757
+"top_at": 1795283272.3412614
 }
