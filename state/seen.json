@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795179839.6170082,
 1795184764.7366664,
 1795192149.2010665,
 1795194942.4996731,
@@ -19,7 +18,8 @@
 1795258827.7169042,
 1795262563.22401,
 1795263789.0025032,
-1795265522.9477825
+1795265522.9477825,
+1795269920.1749113
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -481,9 +481,10 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -1233,7 +1234,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795265999.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip (@Chainflip) was hacked for $4.86M!",
@@ -1246,9 +1247,10 @@
 "srcs": [
 "CoinDesk",
 "Crypto Briefing",
+"Cryptonews.net",
 "Traders Union"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1500,6 +1502,19 @@
 "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"6d77381d9fec": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795270224.7121944,
+"t0": 1795269591.0,
+"tgtext": "This hacker knows how to trade!\n\n2 days ago, he sold 5,270 $ETH($9.51M) at $1,805, then placed limit orders to long $ETH at $1,551\u2013$1,568.\n\nHis orders got filled today!\n\nHe now holds a 14,000 $ETH ($23.8M) long, up $2.13M in unrealized profit!\nhttps://x.com/lookonchain/status/2123418176046379203",
+"title": "This hacker knows how to trade!",
+"url": "https://t.me/lookonchainchannel/11210",
+"urls": []
+},
 "6df0254256ec": {
 "coin": "",
 "src": "\u6df1\u6f6eTechFlow",
@@ -1571,18 +1586,17 @@
 },
 "72f1f5db4583": {
 "coin": "bitcoin",
-"src": "TradingView",
+"src": "TradingKey",
 "srcs": [
 "24/7 Wall St.",
 "BigGo Finance",
-"TradingKey",
-"TradingView"
+"TradingKey"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795254556.0,
 "tgtext": "",
-"title": "Bitcoin Crash Below $58K Sparks $50K Fears: What Investors Need to Know Now",
-"url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSjdndlBLQXFNT20wRjd1QlA0bDRQTzVEX1EtUTlyd3QyVHZhaFA4VmVZa01XOXFUbE15VmlNemFWYjJobzFVTW9KNmY1TURRcE1RcUk3WmFzT3M4RWpQR1dyVVEzNm5YNlBYRXRqVnNBY0pjQWt3TGhCNF96QXBKdVVUVmNldTJJd2p4VmFIQXV6bGtURVQ5RDVia3BaY2YybjR6WWpPUDRMWnBfRzZMX2VWYW82V0xMMGItZ0FjYlFFWW5FXzk3d2RJdGU?oc=5",
+"title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
+"url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLTlMOFdMQ3U3TVBxVzZkWElVWEpNUHRWaXdYcXloUlEwSF9fVElUbmhGSXRFeWFRTXBMNGxlOXJqSjdBMmRWb1JuTnlsT0h5a1R4bFdHdDgxMDdVUWloM3pnWDRRcmlXdU92eDFlUnltTHpEVllZODVUVlhpQlc4TGJCbGR5OUd0bnJmUHhqTF9VVVpVRGZieGpMUEF4Und4bHI5WnpGNERIU2ZWVElzU3hvcWlmMHBOdHRYcFB3b0RxdU1NSHhMVFFmZlNqeXhIYXNKbnkyMU0?oc=5",
 "urls": []
 },
 "741dab77f932": {
@@ -1928,12 +1942,10 @@
 "src": "Pragativadi",
 "srcs": [
 "Cointribune",
-"Pluang",
 "Pragativadi",
-"The Crypto Times",
-"TradingView"
+"The Crypto Times"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2593,6 +2605,19 @@
 "url": "https://t.me/WatcherGuru/16217",
 "urls": []
 },
+"bbe091f83d7c": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795270224.7121944,
+"t0": 1795269641.0,
+"tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\n@WatcherGuru",
+"title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
+"url": "https://t.me/WatcherGuru/16237",
+"urls": []
+},
 "bc3671fa5257": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2764,7 +2789,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2997,7 +3022,7 @@
 "Pluang",
 "The Defiant"
 ],
-"t": 1795269308.0348446,
+"t": 1795270224.7121944,
 "t0": 1795254870.0,
 "tgtext": "",
 "title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
@@ -3396,7 +3421,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795269612.3751073,
+"t": 1795270224.7121944,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3683,7 +3708,7 @@
 }
 },
 "movers": {
-"bitcoin": 1795246882.6118464,
+"bitcoin": 1795269920.1749113,
 "bitway": 1795075444.9495647,
 "ethereum": 1795246882.6118464,
 "pearl-2": 1795246882.6118464,
@@ -3691,101 +3716,48 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"03df2fc9d1bf": 0.33,
-"05710dbcb584": 0.062,
-"05c230f4d72b": 0.329,
+"03df2fc9d1bf": 0.42,
 "10297c7cf162": 0.38,
-"1e0f44e611d5": 0.027,
-"202110c94618": 0.699,
-"2347eb6f87ab": 0.329,
-"2b062ee5daf3": 0.047,
-"32083bf0dd60": 0.152,
-"350e0254bb60": 0.054,
+"202110c94618": 0.887,
+"2347eb6f87ab": 0.207,
+"235f0f3d0962": 0.432,
+"32083bf0dd60": 0.141,
+"350e0254bb60": 0.111,
+"4055acd139b0": 0.079,
+"4c1f3bc23aaf": 0.17,
 "4ee533bdd212": 0.44,
+"51fda18ace60": 0.199,
 "5473ccb8dae5": 0.438,
 "5849a65ec338": 0.923,
-"589660e4913c": 0.74,
-"61179e8a3031": 0.321,
-"662853968140": 0.037,
-"662d85387bbf": 0.093,
-"67f93b6f14f9": 0.087,
-"6c1fed4cf686": 0.177,
-"72f1f5db4583": 0.715,
-"75d17d840b43": 0.191,
-"78f7a83e386d": 0.126,
-"815ae20b3f0d": 0.146,
-"84fc31bbf0a3": 0.16,
-"8a153f708db7": 0.688,
-"9280a2d18ecf": 0.735,
-"a3acf4146714": 0.187,
-"aacf3aaee6d2": 0.241,
-"c0bfa252509a": 0.032,
-"c385ebe5cf82": 0.03,
-"cc2548a58744": 0.092,
-"d0d0e4a0822d": 0.18,
-"d0db8afa751c": 0.049,
-"d40678e0a25f": 0.312,
-"dad1203807cb": 0.12,
-"e4cc8328cffc": 0.178,
+"589660e4913c": 0.64,
+"61179e8a3031": 0.354,
+"662853968140": 0.078,
+"662d85387bbf": 0.182,
+"67f93b6f14f9": 0.172,
+"72f1f5db4583": 0.771,
+"767662179c6c": 0.078,
+"815ae20b3f0d": 0.238,
+"84fc31bbf0a3": 0.502,
+"8a153f708db7": 0.489,
+"9135cc527046": 0.146,
+"9280a2d18ecf": 0.627,
+"a9217b3fe3aa": 0.326,
+"aacf3aaee6d2": 0.121,
+"bbe091f83d7c": 0.983,
+"c0bfa252509a": 0.066,
+"c385ebe5cf82": 0.063,
+"c995e076091f": 0.146,
+"cc2548a58744": 0.181,
+"cdf9b4bf1405": 0.027,
+"d0d0e4a0822d": 0.265,
+"d0db8afa751c": 0.022,
+"d40678e0a25f": 0.753,
+"dad1203807cb": 0.111,
+"e4cc8328cffc": 0.319,
 "efc61563fcea": 0.801,
-"f0e509a1f245": 0.298,
-"f3fc5c4fc005": 0.095,
-"fe77f0cef05b": 0.18
+"fe77f0cef05b": 0.202
 },
 "sent": [
-{
-"e": [
-"directly",
-"formerly",
-"hackers",
-"illicit",
-"including",
-"investigation",
-"korean",
-"linked",
-"makerdao",
-"module",
-"north",
-"peg",
-"processed",
-"sky",
-"stability",
-"tied",
-"transactions",
-"wallets"
-],
-"k": [
-"hack"
-],
-"t": 1795093404.9670234,
-"u": [
-"https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
-"https://news.google.com/rss/articles/CBMixAFBVV95cUxQMERzczhFZ1V2ZXgwRWptQWVNV0xPWjdydl9EWGxJbUV2bTJGWXV6M24tcjdETnRSRk91ajBXRDZtSXhmX3hBbi1wSmRwV3Bhc21FZGctVkgwaWZRUE1Pa0pBNjkzMXNKMVQ3LXExVG5icTZlZ3pDcGtjZHFvMUZyVlRueUdLQlcyYTlucElwanF0RXd1bnYtZExaVU1LRE1GNk9BTk45c2J0OXNsUzhQaW1Qbi1JX0FYYnM5ZWQ3NmMxNVoy?oc=5",
-"https://t.me/wublockchainenglish/26885"
-],
-"w": [
-"$101",
-"$518m",
-"directly",
-"formerly",
-"hackers",
-"illicit",
-"including",
-"investigation",
-"korean",
-"linked",
-"makerdao",
-"module",
-"north",
-"peg",
-"processed",
-"sky",
-"stability",
-"tied",
-"transactions",
-"wallets"
-]
-},
 {
 "e": [],
 "k": [
@@ -5726,71 +5698,91 @@
 "treasury",
 "warns"
 ]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1795269920.1749113,
+"u": [
+"https://t.me/WatcherGuru/16237"
+],
+"w": [
+"$136",
+"000",
+"hour",
+"liquidated",
+"market",
+"past",
+"shorts",
+"worth"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"bbe091f83d7c",
+25,
+10,
+1
+],
+[
 "5849a65ec338",
 41,
-60,
+70,
+1
+],
+[
+"202110c94618",
+65,
+113,
+2
+],
+[
+"6d77381d9fec",
+10,
+11,
 1
 ],
 [
 "efc61563fcea",
-11,
-251,
+10,
+261,
 2
 ],
 [
-"589660e4913c",
-65,
-90,
+"72f1f5db4583",
+75,
+261,
 3
 ],
 [
-"9280a2d18ecf",
-64,
-295,
-5
+"d40678e0a25f",
+65,
+256,
+3
 ],
 [
 "c5f1d1d1a353",
 0,
-263,
+273,
 1
 ],
 [
-"72f1f5db4583",
-76,
-251,
+"589660e4913c",
+75,
+100,
 4
 ],
 [
-"202110c94618",
-35,
-103,
-1
-],
-[
-"8a153f708db7",
-20,
-110,
-1
-],
-[
-"4ee533bdd212",
-25,
-187,
-1
-],
-[
-"5473ccb8dae5",
-20,
-67,
-1
+"9280a2d18ecf",
+63,
+305,
+3
 ]
 ],
-"top_at": 1795269612.3751073
+"top_at": 1795270224.7121944
 }
