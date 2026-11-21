@@ -17,7 +17,8 @@
 1795244125.9099755,
 1795255178.1154678,
 1795258827.7169042,
-1795262563.22401
+1795262563.22401,
+1795263789.0025032
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -80,9 +81,10 @@
 "src": "BeInCrypto",
 "srcs": [
 "BeInCrypto",
+"BigGo Finance",
 "Coinpedia"
 ],
-"t": 1795260056.5052454,
+"t": 1795264093.3014717,
 "t0": 1795244412.0,
 "tgtext": "",
 "title": "Nvidia and SanDisk Bets Joined Bitcoin in a $1.76 Billion Liquidation Wave",
@@ -484,7 +486,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -510,7 +512,7 @@
 "srcs": [
 "Seeking Alpha"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795252200.0,
 "tgtext": "",
 "title": "Whale's Insight: Can Bitcoin Find Support After Anthropic\u2019s Record IPO?",
@@ -1142,7 +1144,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795258416.0,
 "tgtext": "\ud83d\udea8 REKT: The total crypto market lost $200B in less than 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: The total crypto market lost $200B in less than 24 hours.",
@@ -1844,6 +1846,19 @@
 "url": "https://t.me/cointelegraph/73396",
 "urls": []
 },
+"8a153f708db7": {
+"coin": "bitcoin",
+"src": "Forbes",
+"srcs": [
+"Forbes"
+],
+"t": 1795264093.3014717,
+"t0": 1795263025.0,
+"tgtext": "",
+"title": "\u2018Dump It Now\u2019\u2014Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
+"url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdlBmNjFNYjY0WjVVQXFWb2p3OU1TRHZMSkhaU1gxdVc4eDVJcUpqc293UWU1YnZfRlNtYWwzOTZTa2tiQTg3Y3p1b3RnRzBmZ3ZpYlNBZG1vMzhqOC13UzVhZXROTUhlSnVmQnFPNUVCazAzSUI1TGhCWlhTZ245cnV3MFJ0Y3hNSEo3blVrdTVCRDQyeEtSbzRZd0k1SWNvaUpOS3Mxc1ZmM3ZoWFpMdG4yeXNpa1lnMGU3bzI5YzJZOE4zUGhMMXlZOTlBY3plcXh6Ni16dUZrb3B2RGc?oc=5",
+"urls": []
+},
 "8c81891c4074": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1898,7 +1913,7 @@
 "Pragativadi",
 "The Crypto Times"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2178,7 +2193,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2748,7 +2763,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2993,7 +3008,7 @@
 "Coin Gabbar",
 "The Defiant"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795254870.0,
 "tgtext": "",
 "title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
@@ -3411,7 +3426,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795263481.2811477,
+"t": 1795264093.3014717,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3720,30 +3735,31 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"042a2f23b222": 0.146,
+"042a2f23b222": 0.735,
 "0c1a20118f39": 0.097,
 "153fd3a06069": 0.313,
-"173df33cde1e": 0.018,
 "1e0f44e611d5": 0.049,
-"202110c94618": 0.699,
+"202110c94618": 0.978,
 "2347eb6f87ab": 0.329,
 "235f0f3d0962": 0.396,
 "26f793b38b39": 0.121,
 "2921fecc352b": 0.059,
 "2b062ee5daf3": 0.047,
-"2bb2e9f272e9": 0.057,
+"2bb2e9f272e9": 0.139,
 "32083bf0dd60": 0.124,
 "3a9731a38e66": 0.172,
 "4055acd139b0": 0.069,
-"456be5690816": 0.926,
 "4ee533bdd212": 0.44,
-"5c6493088e7f": 0.036,
+"5c6493088e7f": 0.09,
+"634f26c05d11": 0.06,
 "662d85387bbf": 0.093,
+"67f93b6f14f9": 0.087,
 "6ccf0eb9051a": 0.319,
 "7119f6743ab6": 0.196,
 "78f7a83e386d": 0.126,
 "815ae20b3f0d": 0.105,
 "84fc31bbf0a3": 0.16,
+"8a153f708db7": 0.688,
 "8d1907fd5471": 0.16,
 "9280a2d18ecf": 0.519,
 "a577db08e5eb": 0.622,
@@ -3755,10 +3771,9 @@
 "ce7af00053a8": 0.379,
 "d0d0e4a0822d": 0.146,
 "d40678e0a25f": 0.762,
-"dad1203807cb": 0.097,
 "e3e659e4fb54": 0.084,
 "ece782da4292": 0.211,
-"efc61563fcea": 0.883,
+"efc61563fcea": 0.663,
 "f07e7bea4da0": 0.219
 },
 "sent": [
@@ -5685,71 +5700,111 @@
 "price",
 "swaps"
 ]
+},
+{
+"e": [
+"anomaly",
+"breach",
+"briefly",
+"confirms",
+"exchange",
+"executed",
+"kraken",
+"pricing",
+"quote",
+"sends",
+"stand",
+"trades"
+],
+"k": [
+"hack"
+],
+"t": 1795263789.0025032,
+"u": [
+"https://t.me/wublockchainenglish/26907"
+],
+"w": [
+"$27",
+"000",
+"anomaly",
+"breach",
+"briefly",
+"btc",
+"confirms",
+"exchange",
+"executed",
+"kraken",
+"pricing",
+"quote",
+"sends",
+"stand",
+"trades"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"456be5690816",
-47,
-355,
-3
-],
-[
-"efc61563fcea",
-20,
-149,
-2
+"202110c94618",
+35,
+11,
+1
 ],
 [
 "d40678e0a25f",
 65,
-144,
+154,
 2
 ],
 [
-"202110c94618",
-35,
-1,
+"042a2f23b222",
+41,
+328,
+3
+],
+[
+"8a153f708db7",
+20,
+18,
 1
 ],
 [
 "c5f1d1d1a353",
 10,
-160,
+171,
 1
 ],
 [
+"efc61563fcea",
+20,
+159,
+2
+],
+[
 "a577db08e5eb",
-16,
-326,
+15,
+336,
 1
 ],
 [
 "9280a2d18ecf",
-78,
-193,
+76,
+203,
 4
 ],
 [
 "4ee533bdd212",
 25,
-84,
+95,
 1
 ],
 [
 "235f0f3d0962",
-29,
-188,
+28,
+198,
 1
-],
-[
-"ce7af00053a8",
-29,
-342,
-2
 ]
 ],
-"top_at": 1795263481.2811477
+"top_at": 1795264093.3014717
 }
