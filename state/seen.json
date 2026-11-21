@@ -285,6 +285,19 @@
 "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"12ce5b5f86ed": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795272679.214403,
+"t0": 1795272612.0,
+"tgtext": "Abraxas Capital appears to have bought the $BTC dip today, buying 10,356 $BTC ($607M) at an average price of $58,651.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
+"title": "Abraxas Capital appears to have bought the BTC dip today, buying 10,356 BTC ($607M) at an average price of $58,651.",
+"url": "https://t.me/lookonchainchannel/11217",
+"urls": []
+},
 "13e2ec7de6fa": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -484,7 +497,7 @@
 "BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -807,6 +820,19 @@
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-below-60000"
 ]
+},
+"39bf34bf09a4": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795272679.214403,
+"t0": 1795272266.0,
+"tgtext": "A whale deposited $270M in stablecoins into #Binance over the past 3 hours.\n\nIs Garrett Bullish (@GarrettBullish) buying the dip?\n\nhttps://arkm.com/explorer/address/0x2DFee705a290d49d5259B9E72d5b665D37960CFf",
+"title": "A whale deposited $270M in stablecoins into Binance over the past 3 hours.",
+"url": "https://t.me/lookonchainchannel/11214",
+"urls": []
 },
 "3a3b0c92f78a": {
 "coin": "monero",
@@ -1234,7 +1260,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795265999.0,
 "tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
 "title": "Chainflip (@Chainflip) was hacked for $4.86M!",
@@ -1250,7 +1276,7 @@
 "Cryptonews.net",
 "Traders Union"
 ],
-"t": 1795272066.5900962,
+"t": 1795272374.398115,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1592,7 +1618,7 @@
 "BigGo Finance",
 "TradingKey"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795254556.0,
 "tgtext": "",
 "title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails",
@@ -1942,10 +1968,12 @@
 "src": "Pragativadi",
 "srcs": [
 "Cointribune",
+"Pluang",
 "Pragativadi",
-"The Crypto Times"
+"The Crypto Times",
+"TradingView"
 ],
-"t": 1795270224.7121944,
+"t": 1795272679.214403,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2611,7 +2639,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2789,7 +2817,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2850,7 +2878,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -3416,7 +3444,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795272066.5900962,
+"t": 1795272679.214403,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3597,19 +3625,6 @@
 "url": "https://t.me/binance_announcements/9153",
 "urls": []
 },
-"f862a2af8b64": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1795099775.9714315,
-"t0": 1795078947.0,
-"tgtext": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nArthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Anthropic\u2019s IPO would be a key bellwether for the AI investment boom. A strong debut could lift risk assets, including Bitcoin, while a weak performance could put pressure on the broader market and push Bitcoin lower. Hayes expects governments to intervene eventually, but the timing remains uncertain. For crypto investors, he stressed managing position sizes and leverage to withstand sharp volatility before any bailout arrives.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
-"title": "Highlight Clip: Arthur Hayes: A Weak Anthropic IPO Could Drag Crypto Down Too",
-"url": "https://t.me/wublockchainenglish/26882",
-"urls": []
-},
 "f8cc0c11ad77": {
 "coin": "ethereum",
 "src": "Lookonchain",
@@ -3708,7 +3723,7 @@
 "KuCoin",
 "TradingView"
 ],
-"t": 1795272066.5900962,
+"t": 1795272374.398115,
 "t0": 1795255200.0,
 "tgtext": "",
 "title": "'Pretty Low Demand': Dogecoin Co-Founder Explains $2.55 Billion Crypto Market Crash",
@@ -3726,44 +3741,44 @@
 },
 "probs": {
 "03df2fc9d1bf": 0.42,
-"05710dbcb584": 0.062,
+"05c230f4d72b": 0.329,
+"0aac19a8790c": 0.265,
 "10297c7cf162": 0.38,
-"17bab511775d": 0.254,
-"1e0f44e611d5": 0.027,
+"12ce5b5f86ed": 0.903,
 "202110c94618": 0.887,
-"2347eb6f87ab": 0.207,
-"235f0f3d0962": 0.432,
+"235f0f3d0962": 0.289,
 "350e0254bb60": 0.111,
-"4055acd139b0": 0.079,
+"39bf34bf09a4": 0.969,
 "4c1f3bc23aaf": 0.233,
 "4ee533bdd212": 0.295,
 "51fda18ace60": 0.199,
 "5473ccb8dae5": 0.438,
 "5849a65ec338": 0.901,
 "589132e3ed8e": 0.183,
-"589660e4913c": 0.64,
+"589660e4913c": 0.509,
 "61179e8a3031": 0.354,
 "662853968140": 0.078,
 "662d85387bbf": 0.182,
 "67f93b6f14f9": 0.172,
-"6c1fed4cf686": 0.177,
-"72f1f5db4583": 0.771,
+"72f1f5db4583": 0.805,
+"78770d04ced1": 0.41,
+"7b000dedfeb3": 0.126,
 "84fc31bbf0a3": 0.502,
 "8a153f708db7": 0.489,
 "9135cc527046": 0.146,
-"9280a2d18ecf": 0.536,
+"9280a2d18ecf": 0.763,
 "aacf3aaee6d2": 0.121,
-"bbe091f83d7c": 0.924,
+"bbe091f83d7c": 0.902,
 "c0bfa252509a": 0.066,
 "c385ebe5cf82": 0.063,
-"c7deeb949a5e": 0.982,
+"c7deeb949a5e": 0.842,
 "cc2548a58744": 0.181,
 "d0d0e4a0822d": 0.203,
 "d0db8afa751c": 0.022,
-"d40678e0a25f": 0.627,
-"dad1203807cb": 0.111,
-"e4cc8328cffc": 0.319,
+"d40678e0a25f": 0.592,
+"e4cc8328cffc": 0.148,
 "f07e7bea4da0": 0.246,
+"f3fc5c4fc005": 0.198,
 "fe77f0cef05b": 0.639
 },
 "sent": [
@@ -5749,71 +5764,117 @@
 "knows",
 "trade"
 ]
+},
+{
+"e": [
+"binance"
+],
+"k": [],
+"t": 1795272374.398115,
+"u": [
+"https://t.me/lookonchainchannel/11214"
+],
+"w": [
+"$270m",
+"binance",
+"deposited",
+"hours",
+"past",
+"stablecoins",
+"whale"
+]
+},
+{
+"e": [
+"abraxas",
+"capital"
+],
+"k": [],
+"t": 1795272679.214403,
+"u": [
+"https://t.me/lookonchainchannel/11217"
+],
+"w": [
+"$58",
+"$607m",
+"356",
+"651",
+"abraxas",
+"appears",
+"average",
+"bought",
+"btc",
+"buying",
+"capital",
+"dip",
+"price",
+"today"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"c7deeb949a5e",
-34,
-29,
+"39bf34bf09a4",
+32,
+7,
+1
+],
+[
+"12ce5b5f86ed",
+26,
+1,
 1
 ],
 [
 "bbe091f83d7c",
 25,
-40,
+51,
 1
 ],
 [
 "5849a65ec338",
 41,
-101,
+111,
 1
 ],
 [
 "202110c94618",
 65,
-144,
+154,
 2
 ],
 [
+"c7deeb949a5e",
+34,
+39,
+1
+],
+[
 "efc61563fcea",
-6,
-292,
+4,
+302,
 2
 ],
 [
 "72f1f5db4583",
-71,
-292,
+69,
+302,
 3
+],
+[
+"9280a2d18ecf",
+67,
+346,
+5
 ],
 [
 "c5f1d1d1a353",
 0,
-303,
-1
-],
-[
-"589660e4913c",
-75,
-131,
-4
-],
-[
-"fe77f0cef05b",
-47,
-281,
-2
-],
-[
-"6d77381d9fec",
-10,
-41,
+314,
 1
 ]
 ],
-"top_at": 1795272066.5900962
+"top_at": 1795272679.214403
 }
