@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795160334.5667403,
 1795167423.4331722,
 1795170193.179803,
 1795170502.451694,
@@ -147,7 +146,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795230600.0,
 "tgtext": "JUST IN: Bitcoin falls under $57,000 for the first time in over 2 years.\n\n$385 million liquidated from the crypto market in the past 5 minutes.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss",
@@ -436,7 +435,7 @@
 "srcs": [
 "bloomingbit"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795235844.0,
 "tgtext": "",
 "title": "Liquidity Crunch Spreads From Stocks, Gold to Crypto, Triggering $2.3 Billion in Liquidations",
@@ -1096,7 +1095,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795226142.0,
 "tgtext": "7 Siblings, known for buying the dip during market crashes, are back again!\n\nJust 8 hours ago, they spent 20M $USDC to buy 12,085 $ETH at $1,655.\n\nA few days ago, they also bought 34,459 $ETH ($66M) at $1,915!\n\nhttps://arkm.com/explorer/address/0x5fFcDB28B8cC958aFe052947D43CB6aF04833c37",
 "title": "7 Siblings, known for buying the dip during market crashes, are back again!",
@@ -1176,7 +1175,7 @@
 "Wu Blockchain",
 "bloomingbit"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795226551.0,
 "tgtext": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen\n\nAccording to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has been recovered. The attackers still hold 18,270 BTC stolen directly from Binance, which remains untouched. Over 5,100 BTC has been transferred through THORChain, while 1,482 BTC has entered CoinJoin mixing, primarily via the kruw coordinator. The FBI previously attributed the attack to North Korea-linked TraderTraitor. \u2014 link",
 "title": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen",
@@ -1469,19 +1468,6 @@
 "url": "https://t.me/WatcherGuru/16207",
 "urls": []
 },
-"6d235c99331a": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1795073916.145421,
-"t0": 1795052346.0,
-"tgtext": "A mysterious whale is accumulating $PEPE!\n\nNewly created wallet \"0x5011\" withdrew 1.9T $PEPE ($7.15M) from Binance over the past 2 days.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
-"title": "A mysterious whale is accumulating PEPE!",
-"url": "https://t.me/lookonchainchannel/11141",
-"urls": []
-},
 "6d69b277e9fc": {
 "coin": "ethereum",
 "src": "Cointelegraph",
@@ -1550,7 +1536,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795230820.0,
 "tgtext": "The biggest $HYPE long is on the verge of liquidation!\n\nThis whale was once up over $68M, but now his 1.38M $HYPE ($81.23M) long is at risk of liquidation.\n\nHe just deposited another 5M $USDC into Hyperliquid to avoid liquidation.\n\nNew liquidation price: $54.55\n\nhttps://hypurrscan.io/address/0x082e843a431aef031264dc232693dd710aedca88#perps",
 "title": "The biggest HYPE long is on the verge of liquidation!",
@@ -1758,7 +1744,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795227238.0,
 "tgtext": "AguilaTrades(@AguilaTrades) wins again!  His short on 2,000 $BTC ($118.6M) is now up $5M+ in unrealized profit!  https://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) wins again! His short on 2,000 BTC ($118.6M) is now up $5M+ in unrealized profit! https://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925perps",
@@ -2016,7 +2002,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795233692.0,
 "tgtext": "It's liquidation day again!\n\nTrader 0x6646 got liquidated on 158.6 $BTC ($9.23M) and 9,000 $ETH ($14.53M), with a total of $23.76M liquidated!\n\nTrader 0xfe40 got liquidated on 212.22 $BTC ($12.33M).\n\nhttps://hyperbot.network/trader/0x66466428990e0f42a4c54f64bee0db6bf2336de5\nhttps://hyperbot.network/trader/0xfe40345fdd90c7c629403a81eda76670fd63668b",
 "title": "It's liquidation day again!",
@@ -2613,7 +2599,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795226927.0,
 "tgtext": "Chun (@satofishi) bought the $ETH dip again, buying another 7,186 $ETH ($11.74M) just 7 hours ago!\n\nhttps://arkm.com/explorer/address/0xF42BcFD3dd5fcdd984d24FD2787383195C7f2b51",
 "title": "Chun (@satofishi) bought the ETH dip again, buying another 7,186 ETH ($11.74M) just 7 hours ago!",
@@ -2831,7 +2817,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795228157.0,
 "tgtext": "Abraxas Capital withdrew 5,856 $BTC($343M) from #Binance and #Kraken in the past 8 hours.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds\nTwo wallets deposited 4,069 $BTC ($239M) into #Binance over the past 9 hours.\n\nhttps://arkm.com/explorer/address/bc1qnxyj29m2nsvsxyx5emk9tfcnz0qu7frum9xq7y\nhttps://arkm.com/explorer/address/bc1qrpee2p9e8wc5vauh0s06wrccax7y22g873juwm",
 "title": "Abraxas Capital withdrew 5,856 BTC($343M) from Binance and Kraken in the past 8 hours.",
@@ -3117,7 +3103,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795246270.1477153,
+"t": 1795246882.6118464,
 "t0": 1795234706.0,
 "tgtext": "Bit Digital appears to be dumping $ETH, depositing 16,639 $ETH ($26.3M) into #GalaxyDigital.\n\nAs of October 31, Bit Digital held 163,241.7 $ETH at an average cost of $3,007.63 and is now sitting on $237M in unrealized losses.\n\nhttps://bit-digital.com/press-releases/ethereum-treasury-and-staking-metrics-for-october-2026\nhttps://arkm.com/explorer/entity/bit-digital",
 "title": "Bit Digital appears to be dumping ETH, depositing 16,639 ETH ($26.3M) into GalaxyDigital.",
@@ -3567,19 +3553,6 @@
 "url": "https://t.me/lookonchainchannel/11170",
 "urls": []
 },
-"fba73003d24b": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1795073612.590738,
-"t0": 1795052075.0,
-"tgtext": "Pump fun(@Pumpfun) dumped 33,390 $SOL($2.44M) again 2 hours ago!\n\nIn total, pump.fun has sold 5,651,889 $SOL($890M) at an average price of $157.47.\n\nhttps://arkm.com/explorer/entity/pump-fun",
-"title": "Pump fun(@Pumpfun) dumped 33,390 SOL($2.44M) again 2 hours ago!",
-"url": "https://t.me/lookonchainchannel/11140",
-"urls": []
-},
 "fcc6afafd622": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -3621,10 +3594,10 @@
 }
 },
 "movers": {
-"bitcoin": 1795191533.8061237,
+"bitcoin": 1795246882.6118464,
 "bitway": 1795075444.9495647,
-"ethereum": 1795191533.8061237,
-"pearl-2": 1795179839.6170082,
+"ethereum": 1795246882.6118464,
+"pearl-2": 1795246882.6118464,
 "pieverse": 1795006877.5790248,
 "rain": 1795169575.8202703,
 "sky": 1795122033.1506746
@@ -3640,21 +3613,21 @@
 "3582dab059e6": 0.508,
 "43bcada8a09a": 0.053,
 "456be5690816": 0.387,
-"49765c992ed1": 0.096,
+"49765c992ed1": 0.053,
 "498ba9509fee": 0.065,
 "4d547867ff4f": 0.166,
 "535c3f49e936": 0.968,
 "58a5742fe38c": 0.058,
-"5f750c8c1cb0": 0.078,
+"5f750c8c1cb0": 0.043,
 "6fd085f86017": 0.124,
-"70735a138d6a": 0.56,
+"70735a138d6a": 0.773,
 "8246103c5d01": 0.746,
 "8ad44ddb6fe1": 0.075,
 "8bb60e67f62e": 0.038,
 "8d1907fd5471": 0.117,
 "9a68dad96c27": 0.732,
 "a577db08e5eb": 0.353,
-"ad394fa34e54": 0.216,
+"ad394fa34e54": 0.139,
 "af8d5dd7ad22": 0.066,
 "b00adbc4e544": 0.045,
 "b229f129678b": 0.039,
@@ -3665,7 +3638,7 @@
 "ca74dc6a703f": 0.231,
 "d5dd33a7f209": 0.29,
 "ddad4014f2b9": 0.34,
-"df1c311b1c47": 0.924,
+"df1c311b1c47": 0.949,
 "e286ca637d87": 0.047,
 "ebd4f4415d45": 0.049,
 "f294818f9a2c": 0.148,
@@ -5643,64 +5616,64 @@
 "top": [
 [
 "056ec8898d25",
-77,
-261,
+75,
+271,
 4
 ],
 [
 "535c3f49e936",
-56,
-329,
+54,
+339,
 3
 ],
 [
 "df1c311b1c47",
-50,
-193,
+48,
+203,
 1
 ],
 [
 "c86e027207c5",
-8,
-302,
+7,
+312,
 1
 ],
 [
 "bc9f4c502027",
-23,
-322,
+21,
+333,
+1
+],
+[
+"70735a138d6a",
+29,
+268,
 1
 ],
 [
 "4d7e2dd718fa",
 0,
-335,
+346,
 1
 ],
 [
 "8246103c5d01",
-8,
-317,
+7,
+327,
 1
 ],
 [
 "9a68dad96c27",
-22,
-210,
+20,
+220,
 1
 ],
 [
 "1bf46deae103",
 40,
-174,
-1
-],
-[
-"70735a138d6a",
-30,
-258,
+184,
 1
 ]
 ],
-"top_at": 1795246270.1477153
+"top_at": 1795246882.6118464
 }
