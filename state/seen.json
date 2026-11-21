@@ -6,8 +6,6 @@
 },
 "init": true,
 "log": [
-1795199953.3821084,
-1795201002.6356826,
 1795219458.5798867,
 1795244125.9099755,
 1795255178.1154678,
@@ -18,7 +16,8 @@
 1795269920.1749113,
 1795271454.5066626,
 1795278818.8535278,
-1795282968.7913425
+1795282968.7913425,
+1795288563.4333878
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -99,7 +98,7 @@
 "BigGo Finance",
 "Cryptonews.net"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795268278.0,
 "tgtext": "",
 "title": "Strategy's Bitcoin Holdings Entirely Unpledged; $35.9 Billion Net Reserve Eliminates Liquidation Risk",
@@ -151,6 +150,26 @@
 "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeUJVejY4MUFjdWN0dVNqV0Q0TWU0QlFKR2RKelhnSFdyVUZVMllXNnBnT2NGOUNRZ0QwOGRLRWlEMG5hVnk5LWM3Qm9XZzl0Y3JLT2Q5Q0pRLUZKQVc4OWstZUpvUkNJNnJaVnZaWDFfeVY4V0c2SjB2OFMxUVIxaGtsdjh2Y0ptbVN4d2tDU3k1MEJ2eWVMZUp3?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
+]
+},
+"05c230f4d72b": {
+"coin": "",
+"src": "The Block",
+"srcs": [
+"CoinDesk",
+"Cryptonews.net",
+"The Block",
+"Traders Union",
+"bloomingbit"
+],
+"t": 1795288461.1894946,
+"t0": 1795267243.0,
+"tgtext": "",
+"title": "Chainflip\u2019s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+"url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+"urls": [
+"https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+"https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
 ]
 },
 "0617b2ebc813": {
@@ -294,7 +313,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795272612.0,
 "tgtext": "Abraxas Capital appears to have bought the $BTC dip today, buying 10,356 $BTC ($607M) at an average price of $58,651.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital appears to have bought the BTC dip today, buying 10,356 BTC ($607M) at an average price of $58,651.",
@@ -399,7 +418,7 @@
 "Eurasia Business News",
 "Traders Union"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795271952.0,
 "tgtext": "",
 "title": "Bitcoin Price Today, November 21, 2026: BTC Rebounds Above $60,000 as Solana Leads Crypto Gains",
@@ -854,7 +873,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795272266.0,
 "tgtext": "A whale deposited $270M in stablecoins into #Binance over the past 3 hours.\n\nIs Garrett Bullish (@GarrettBullish) buying the dip?\n\nhttps://arkm.com/explorer/address/0x2DFee705a290d49d5259B9E72d5b665D37960CFf",
 "title": "A whale deposited $270M in stablecoins into Binance over the past 3 hours.",
@@ -2109,6 +2128,23 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lSWtlVlZJc2NMTzFocE1VbG1zZjJtZF9mLUxmMGFtSW1LTndOZXNJbVNDS0NPU1pwZzZYeE5xM1ZmMDRnYUI2VjlJVTNiUHBkUmxZVk9GVUs?oc=5",
 "urls": []
 },
+"9c6b45d7487c": {
+"coin": "",
+"src": "Crypto Briefing",
+"srcs": [
+"Crypto Briefing",
+"The Block",
+"Traders Union"
+],
+"t": 1795288461.1894946,
+"t0": 1795285377.0,
+"tgtext": "",
+"title": "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LSlBKRVhpZHVweHV2MzFTLXNSSGF1b1ZFUHo1ZXhjWXkyY1Z3N0pHVlNVWmxVRUNfbGl4TzBIR2dXazVXZnVndXZMUldnUjZmSHNiTVZEV3hTREVjcl9WZkRxQ0RrUFloem5LWXVMT2lPa2JSQ25ZUQ?oc=5",
+"urls": [
+"https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
+]
+},
 "9edba25a30d4": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -2270,7 +2306,7 @@
 "CryptoRank",
 "KuCoin"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795270461.0,
 "tgtext": "",
 "title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
@@ -2373,7 +2409,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795274168.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says he will work with Democrats to cap credit card interest rates at 10%.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.\n\nNews | Markets | YouTube",
 "title": "Ten months after first calling for it, Trump says he's now ready to work with Democrats to cap credit card interest rates at 10% for a year.",
@@ -2610,7 +2646,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795269641.0,
 "tgtext": "JUST IN: $136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.\n\nLive liquidation tracker: https://watcherguru.com/liquidations\n\n@WatcherGuru",
 "title": "$136,000,000 worth of shorts liquidated from the crypto market in the past 1 hour.",
@@ -2849,7 +2885,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795270339.0,
 "tgtext": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 $BTC ($19.54M) and 6,725 $ETH ($11.4M).\n\nThey're already up $1.14M in unrealized profit!\n\nhttps://hypurrscan.io/address/0x8d8cc90fd2b2527a9b2b9bf73638ac3547532ba3#perps\nhttps://hypurrscan.io/address/0xe3d4c0224954961eef6a7c93419f595a55990f0d#perps\nhttps://hypurrscan.io/address/0xe08772fa4c83fae9b8130884d43d0b98f3ca3794#perps",
 "title": "Three newly created wallets (possibly belonging to the same whale) opened 20x longs on 323.05 BTC ($19.54M) and 6,725 ETH ($11.4M).",
@@ -3054,7 +3090,7 @@
 "The Block",
 "The Crypto Times"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795268169.0,
 "tgtext": "",
 "title": "Chainflip\u2019s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
@@ -3187,7 +3223,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795288153.7928152,
+"t": 1795288765.914868,
 "t0": 1795284316.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.",
@@ -3760,32 +3796,32 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"042a2f23b222": 0.305,
-"0492547620cc": 0.028,
-"0ece4fa11d15": 0.044,
+"042a2f23b222": 0.237,
+"0ece4fa11d15": 0.108,
 "17bab511775d": 0.462,
 "17bad9a3f07b": 0.029,
 "1abe55ea3f66": 0.022,
 "1b73fbd31a82": 0.045,
-"24b69c6f5dd5": 0.012,
 "267dc866d860": 0.012,
-"2a9e252076c6": 0.023,
+"2a9e252076c6": 0.028,
 "2fd06b4d90cb": 0.008,
 "3008566b6e6a": 0.052,
 "39bf34bf09a4": 0.847,
 "489b82843f11": 0.053,
 "589132e3ed8e": 0.025,
 "6b8ec1fa7984": 0.03,
-"7b000dedfeb3": 0.078,
+"6f565ccddba3": 0.109,
+"7b000dedfeb3": 0.043,
 "80805dc74573": 0.018,
 "88edf1d74b12": 0.071,
 "90c3140a626b": 0.128,
 "978028af339d": 0.004,
 "9c6b45d7487c": 0.12,
-"9e110ec9525e": 0.026,
+"9e110ec9525e": 0.033,
 "a6ca35918f37": 0.291,
 "ad5e17508d43": 0.906,
 "b05fb9e1e244": 0.017,
+"b1aaa9ebdd93": 0.054,
 "b30d4594bda9": 0.006,
 "b5e4609e99ae": 0.028,
 "bd8fa89a3461": 0.04,
@@ -3799,50 +3835,9 @@
 "d917adf05164": 0.277,
 "e1e0e550c492": 0.149,
 "e34c3cd86730": 0.013,
-"e4cc8328cffc": 0.077
+"e9dd9497e74d": 0.017
 },
 "sent": [
-{
-"e": [
-"anthropic",
-"antr",
-"binance",
-"ipo",
-"wallet"
-],
-"k": [
-"legal"
-],
-"t": 1795112002.4125338,
-"u": [
-"https://news.google.com/rss/articles/CBMipAFBVV95cUxNbTlSUHlFWU9UN1lYT0xPV2dUSndjYWl5X2RBLXRmdmJ1NUNrNE5Ccjg3aE5DVHFRRXdlcVczdG5hTk05d0c5c1pqM05YZDVQUl9GRVotcFVPYmtUVUhyMGJKX0dwbUMxbkNzUzU0aHdZMXk0Vm4wRFdpUlAySHluNXVMNFBrd0I1VEMtSnFZSUVTRWh0TURrT08xaFBpTzdRRksxTw?oc=5",
-"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DWmZNZlVtNWJIeFFPdDh0WWZGNUFhVTlMMTQwcWEtWmJOZ1U3YXIzaEJ1UkVoSlJWN1o2WjhORy1KamtvR24tX3Vwc1pGSkt1eFRwNFdn0gFWQVVfeXFMTUNaZk1mVW01Ykh4UU90OHRZZkY1QWFVOUwxNDBxYS1aYk5nVTdhcjNoQnVSRWhKUlY3WjZaOE5HLUpqa29Hbi1fdXBzWkZKS3V4VHA0V2c?oc=5",
-"https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
-"https://news.google.com/rss/articles/CBMilgFBVV95cUxNYVFBQXQ2cVNkWGJFMzVDNi1BR0U3aGtIODRkbFVPQ1MxZXVET2N1c3g2V2NkVmJXSmpKbllwV3NPaVlITHBqb3hPYVZSOG1KRzZhc0ctd1F6T1VnMWpyZ2E0SHhnZ0lTc3RnNWZGQTJlemdSU1dGY0xPZlV2UG5EWEdVaDRnVlJUTG5ERzd5elBZUm5nSWc?oc=5",
-"https://news.google.com/rss/articles/CBMiggFBVV95cUxOM0hSeFVvMjZacUhNdmxFMUdRWUM5YXlmOUZCaXhSVjFXS3IyaldubWNNX2U3c200MUdpS2NxMlltVW9WT2luUFEycUZqXzcwXzBnMjVPd0hUVDViSVN1WmVPRGZ6bTBoTHNTd3o0bWFCdlVVQTBiQWxPdUsxbnU2dVl3?oc=5",
-"https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
-],
-"w": [
-"airdrop",
-"all",
-"allocation",
-"anthropic",
-"antr",
-"binance",
-"campaign",
-"following",
-"ipo",
-"issues",
-"million",
-"participants",
-"refund",
-"shares",
-"tokenized",
-"tokens",
-"usdc",
-"wallet"
-]
-},
 {
 "e": [
 "demand",
@@ -5792,6 +5787,36 @@
 "roughly",
 "tornado"
 ]
+},
+{
+"e": [
+"bithumb",
+"cyber",
+"upbit"
+],
+"k": [
+"hack",
+"outage"
+],
+"t": 1795288461.1894946,
+"u": [
+"https://news.google.com/rss/articles/CBMieEFVX3lxTE5LSlBKRVhpZHVweHV2MzFTLXNSSGF1b1ZFUHo1ZXhjWXkyY1Z3N0pHVlNVWmxVRUNfbGl4TzBIR2dXazVXZnVndXZMUldnUjZmSHNiTVZEV3hTREVjcl9WZkRxQ0RrUFloem5LWXVMT2lPa2JSQ25ZUQ?oc=5",
+"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTzVOYnV2eHV1Q3lzNVp3Mmh1aFlpOTBlQ2xFTUgzUDBrZUJCXzhEdGQzaU9ueDdUaWJXNnEwbWxfVjZ6NmpyTmRCZzNpS0JfSWlKREdBaGNxZkZOVzNRdEJ2T185MzB2YVNNX1R1Z2xkUjJtalFSVXFUZ0ZrM2RCR0RzTDRLSGpUc2ZhM0M1emdDM0VRb2pBenJWXzhvOEl0OUtEN2tXSktJVjI0a3RjZU9xUF9Uby1RNmdPTENid2FkcUdxcjFqZWZDZHdLU0pkRmEzUGFsMA?oc=5",
+"https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+"https://news.google.com/rss/articles/CBMipwFBVV95cUxObzhSRkhsWGtxdXpGdVczQ3dfcm5VdW9qY2hXc0hjaWExb2phSHpiOWgwTE9MZHhXWG9wWkh1OTk2Tmw1NjJnRkpnR0U1UFdzdE94dUt1cGNoM0JrREwzYS11aktiNkN5N0k2VldZbDZLN3doTTd6MS04NVUwa016U2k3Z2ZEY1piMEh6N3RkdU02dllaa2h0UmE1aHRGNE1HTDgwYmRyNA?oc=5"
+],
+"w": [
+"bithumb",
+"bridge",
+"cyber",
+"exploit",
+"freeze",
+"million",
+"mints",
+"tokens",
+"transfers",
+"upbit"
+]
 }
 ],
 "stories": {},
@@ -5799,64 +5824,64 @@
 "top": [
 [
 "ad5e17508d43",
-21,
-233,
+20,
+243,
 2
 ],
 [
 "39bf34bf09a4",
-21,
-265,
+20,
+275,
 1
 ],
 [
 "12ce5b5f86ed",
-6,
-259,
+5,
+269,
 1
 ],
 [
 "c7deeb949a5e",
-9,
-297,
+8,
+307,
 1
 ],
 [
 "bbe091f83d7c",
-8,
-309,
+7,
+319,
 1
 ],
 [
 "17bab511775d",
-43,
-270,
+42,
+280,
 3
 ],
 [
 "d09d366d2d41",
-51,
-333,
+50,
+343,
 5
 ],
 [
-"042a2f23b222",
-60,
-331,
-4
-],
-[
 "a6ca35918f37",
-45,
-295,
+44,
+305,
 2
 ],
 [
 "d917adf05164",
 10,
-64,
+74,
 1
+],
+[
+"042a2f23b222",
+59,
+341,
+4
 ]
 ],
-"top_at": 1795288153.7928152
+"top_at": 1795288765.914868
 }
