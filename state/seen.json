@@ -428,20 +428,6 @@
 "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
 ]
 },
-"18184f8d240f": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"Cryptonews.net",
-"Pluang"
-],
-"t": 1795129062.0494401,
-"t0": 1795111039.0,
-"tgtext": "",
-"title": "Bitcoin briefly hits $64K after Anthropic's $81B IPO, then falls back near $62K amid $350M crypto liquidations.",
-"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLXZ3VWJvZ0RuaXkwblQ0ZW9ONUFLZTFWTzY0bVFNQ041dlZyWDlIN3pWbko4YnEydG1ZdnVOVnAzYWJsWXc5OUZsRTNpRktrQW5FR3VfZlJ6VjJCeXo0NTFfalpFRVJNZ2dfSzZ0eGZEZEhSbDVYdTN3VnJaRllZdmRWNk1DdEx4R0hFWldwWGRNRVVZMjNRcTJQQloyLWoyeVpqanhLMnRnZW1sUkM5UA?oc=5",
-"urls": []
-},
 "19c573624e2f": {
 "coin": "bitcoin",
 "src": "Benzinga",
@@ -766,7 +752,7 @@
 "SSBCrack",
 "Yahoo Finance"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795280462.0,
 "tgtext": "",
 "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
@@ -975,7 +961,7 @@
 "BigGo Finance",
 "Cryptonews.net"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795289139.0,
 "tgtext": "",
 "title": "Ethereum Whale's $214 Million Aave Debt Nears Liquidation at $1,401",
@@ -1010,7 +996,7 @@
 "CoinDesk",
 "Coinpaper"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795283466.0,
 "tgtext": "",
 "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday\u2019s stock open",
@@ -2072,7 +2058,7 @@
 "CoinDesk",
 "Traders Union"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795283400.0,
 "tgtext": "",
 "title": "Bitcoin Rebounds Above $60,000 After $2.4 Billion Liquidation Wave Wipes Out Leveraged Bets",
@@ -2219,9 +2205,10 @@
 "srcs": [
 "Coin Edition",
 "Crypto Briefing",
-"The Block"
+"The Block",
+"Traders Union"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795285377.0,
 "tgtext": "",
 "title": "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers",
@@ -2557,7 +2544,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795288410.0,
 "tgtext": "",
 "title": "Vitalik Buterin Raises Racism Concerns Over Netflix\u2019s CZ Portrayal",
@@ -2667,6 +2654,21 @@
 "tgtext": "",
 "title": "SEC Charges Eight Fake Crypto Platforms in $37M Fraud Targeting U.S. Investors",
 "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdl9XNjhjSkQ3U0FvbXZTdnlMVk9TYXl5c09qZHlESVQ1Y21xSDZFNngyTmh3U2tyUElwSGZYTnRRRHVZRU5iVzZ1SjRSMzQ3a21PQ0c1ZGhtakk1cnkwRlJaemJhbG9zVVpKM3VyWFJUbXdQOVpKV3ExUHRIMjRrejRHT3RTUDNRbDVRaU92YmdlLWRfQmdUYklLckpSYU5keWxsNi1RSGNiNWxvcExCZmhZanU4UQ?oc=5",
+"urls": []
+},
+"b67bf96be11c": {
+"coin": "bitcoin",
+"src": "Pluang",
+"srcs": [
+"Cryptonews.net",
+"Pluang",
+"The Crypto Times"
+],
+"t": 1795301880.2148578,
+"t0": 1795281062.0,
+"tgtext": "",
+"title": "Over $2B USDS swapped for USDC via Sky Protocol; Chainflip lost $4.86M in hack; Bitcoin holds $60K amid selloff",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmtBMGQxd1VQRkw3VkxKaXhvWXlnWEUwaFZpOUdFbEZDeWV0T2JYMllvRTdlSXVRXzF4VVRGeHFPVkN0MHFGdUFUZFozSVhrZXN5OXJYYUVubFlSdm5RaVVQNkFpdFFuZ3hzaFNTQUc3UFp3Q01Jai0zVWNxVHBUWl9kMVU2ZFItWDhKOHI0MUVyN0pKU0JvMldvOC1yX0tZbGZ6WDJVbnNJNDdhaGMxWi13?oc=5",
 "urls": []
 },
 "b6acc532e443": {
@@ -2937,7 +2939,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795286820.0,
 "tgtext": "",
 "title": "Cyber Warns Against Bridge Use After Unexpected Minting",
@@ -3191,7 +3193,7 @@
 "CryptoRank",
 "Cryptonews.net"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795281731.0,
 "tgtext": "",
 "title": "Bitcoin Crash Below $58K Sparks $50K Fears: What Investors Need to Know Now",
@@ -3319,7 +3321,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795301574.010452,
+"t": 1795301880.2148578,
 "t0": 1795284316.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.",
@@ -3944,11 +3946,11 @@
 "8b9de3e468f0": 0.016,
 "8e11bcced91d": 0.028,
 "90c3140a626b": 0.336,
-"9c6b45d7487c": 0.299,
+"9c6b45d7487c": 0.245,
 "b1aaa9ebdd93": 0.064,
 "b30d4594bda9": 0.009,
-"b57793fe6170": 0.139,
-"b67bf96be11c": 0.055,
+"b57793fe6170": 0.04,
+"b67bf96be11c": 0.388,
 "c3c493ede89d": 0.024,
 "c6cf90e6507a": 0.007,
 "c711b060f50f": 0.075,
@@ -5938,63 +5940,63 @@
 [
 "40c6ddba5ca7",
 24,
-302,
+307,
+3
+],
+[
+"b67bf96be11c",
+53,
+347,
 3
 ],
 [
 "d917adf05164",
 0,
-288,
+293,
 1
 ],
 [
 "90c3140a626b",
-44,
-303,
-3
-],
-[
-"9c6b45d7487c",
-64,
-270,
+43,
+308,
 3
 ],
 [
 "3fd167bcbbc5",
-46,
-207,
+45,
+212,
 2
 ],
 [
-"b57793fe6170",
-19,
-193,
-2
+"9c6b45d7487c",
+73,
+275,
+4
 ],
 [
 "d2cb63d88aa8",
 25,
-331,
+336,
 2
 ],
 [
 "3008566b6e6a",
-46,
-352,
+45,
+357,
 3
 ],
 [
 "c711b060f50f",
-2,
-246,
+1,
+251,
 1
 ],
 [
 "b1aaa9ebdd93",
 13,
-219,
+225,
 1
 ]
 ],
-"top_at": 1795301574.010452
+"top_at": 1795301880.2148578
 }
