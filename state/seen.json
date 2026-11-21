@@ -18,7 +18,8 @@
 1795255178.1154678,
 1795258827.7169042,
 1795262563.22401,
-1795263789.0025032
+1795263789.0025032,
+1795265522.9477825
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -486,7 +487,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795263440.0,
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
@@ -512,7 +513,7 @@
 "srcs": [
 "Seeking Alpha"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795252200.0,
 "tgtext": "",
 "title": "Whale's Insight: Can Bitcoin Find Support After Anthropic\u2019s Record IPO?",
@@ -1144,7 +1145,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795258416.0,
 "tgtext": "\ud83d\udea8 REKT: The total crypto market lost $200B in less than 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: The total crypto market lost $200B in less than 24 hours.",
@@ -1250,9 +1251,10 @@
 "src": "CoinDesk",
 "srcs": [
 "CoinDesk",
-"Crypto Briefing"
+"Crypto Briefing",
+"Traders Union"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795264200.0,
 "tgtext": "",
 "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -1868,7 +1870,7 @@
 "srcs": [
 "Forbes"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795263025.0,
 "tgtext": "",
 "title": "\u2018Dump It Now\u2019\u2014Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
@@ -1929,7 +1931,7 @@
 "Pragativadi",
 "The Crypto Times"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2209,7 +2211,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2766,7 +2768,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -3012,7 +3014,7 @@
 "Pluang",
 "The Defiant"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795254870.0,
 "tgtext": "",
 "title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
@@ -3430,7 +3432,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795264705.3231037,
+"t": 1795265319.8569686,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3741,27 +3743,25 @@
 "probs": {
 "042a2f23b222": 0.378,
 "0c1a20118f39": 0.097,
-"153fd3a06069": 0.313,
+"10297c7cf162": 0.38,
+"153fd3a06069": 0.195,
 "1e0f44e611d5": 0.049,
-"202110c94618": 0.809,
+"202110c94618": 0.762,
 "2347eb6f87ab": 0.329,
 "235f0f3d0962": 0.396,
-"26f793b38b39": 0.149,
-"2921fecc352b": 0.059,
 "2b062ee5daf3": 0.047,
 "2bb2e9f272e9": 0.139,
 "32083bf0dd60": 0.124,
 "3a9731a38e66": 0.208,
 "4055acd139b0": 0.069,
 "4ee533bdd212": 0.44,
-"589660e4913c": 0.594,
+"52a9d4e4dbf5": 0.093,
+"589660e4913c": 0.699,
 "5c6493088e7f": 0.09,
-"634f26c05d11": 0.06,
-"662d85387bbf": 0.093,
+"662853968140": 0.037,
 "67f93b6f14f9": 0.087,
 "6c1fed4cf686": 0.177,
 "6ccf0eb9051a": 0.2,
-"75d17d840b43": 0.191,
 "78f7a83e386d": 0.126,
 "815ae20b3f0d": 0.105,
 "84fc31bbf0a3": 0.16,
@@ -3770,15 +3770,17 @@
 "9280a2d18ecf": 0.519,
 "a577db08e5eb": 0.622,
 "aacf3aaee6d2": 0.241,
-"abee2200bec5": 0.212,
+"c0bfa252509a": 0.032,
 "c385ebe5cf82": 0.03,
-"c5f1d1d1a353": 0.68,
+"c5f1d1d1a353": 0.728,
 "cc2548a58744": 0.092,
 "d0d0e4a0822d": 0.237,
+"d0db8afa751c": 0.049,
 "d40678e0a25f": 0.713,
-"e3e659e4fb54": 0.084,
+"dad1203807cb": 0.097,
 "efc61563fcea": 0.663,
-"f07e7bea4da0": 0.219
+"f07e7bea4da0": 0.219,
+"f0e509a1f245": 0.252
 },
 "sent": [
 {
@@ -5744,6 +5746,36 @@
 "stand",
 "trades"
 ]
+},
+{
+"e": [
+"aave",
+"btcs",
+"ether"
+],
+"k": [
+"crash"
+],
+"t": 1795265319.8569686,
+"u": [
+"https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+"https://news.google.com/rss/articles/CBMickFVX3lxTE4tUkw5S01LekVJWHM2bjQ3UlFRZjlnOWMybUxOZFVFR1dad0tJd1lvVy1zY0pXcXlSQl9GVk5tc1lHOER0WlZNdDNBZDRrWlBDWFFSYlBnc2stV2NxSGU2WlJlS19QaTJ6eFVpdkVJR1hKdw?oc=5",
+"https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3puNHVSMkJzMmV3WFF5dGJWc0pyY2c0bWhxU2RETHdlbXMza1FkUzVqbXZFblNtYjMzSGNYZVZQWERjcjVfSldNek9PenQwZUV3bTQzbHhzcnNFS1NIdGRzZkRkemxoUmkwZmNFSnBkaHdFNzViT0R3SVY4dGtBYW1MU0MyaklzOUJSWGR1RG5XYTdSWTJjUVg5ZUU?oc=5"
+],
+"w": [
+"$54",
+"aave",
+"btcs",
+"could",
+"ether",
+"firm",
+"liquidated",
+"loan",
+"million",
+"sec",
+"treasury",
+"warns"
+]
 }
 ],
 "stories": {},
@@ -5752,63 +5784,63 @@
 [
 "202110c94618",
 35,
-21,
+31,
+1
+],
+[
+"c5f1d1d1a353",
+9,
+191,
 1
 ],
 [
 "d40678e0a25f",
 75,
-164,
+174,
+3
+],
+[
+"589660e4913c",
+73,
+19,
 3
 ],
 [
 "8a153f708db7",
 20,
-28,
-1
-],
-[
-"c5f1d1d1a353",
-10,
-181,
+38,
 1
 ],
 [
 "efc61563fcea",
 20,
-169,
+180,
 2
 ],
 [
 "a577db08e5eb",
-13,
-346,
+12,
+356,
 1
 ],
 [
-"589660e4913c",
-63,
-8,
-2
-],
-[
 "9280a2d18ecf",
-75,
-213,
+74,
+224,
 4
 ],
 [
 "4ee533bdd212",
 25,
-105,
+115,
 1
 ],
 [
 "235f0f3d0962",
-27,
-208,
+25,
+219,
 1
 ]
 ],
-"top_at": 1795264705.3231037
+"top_at": 1795265319.8569686
 }
