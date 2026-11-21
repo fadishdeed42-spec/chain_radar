@@ -138,6 +138,23 @@
 "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNVUtMjlIYVp3bjc4REZObW1BcHNMb3g3S1dOV2R3cGVXTVdWT3hGY29oYXlEdXFPUm4wQVJDNDV1THZVRzJUNHZ2bVEtVjdOY0tTRVo3WlhBRDYwT2VfU25vMDVxaVV0QXpfbXRYcVlvM19RaHlIZmFocVZ4MmRjS2NHQzRweHdNald4RDFUUmx0eVV3cFE?oc=5",
 "urls": []
 },
+"056ec8898d25": {
+"coin": "bitcoin",
+"src": "Yahoo Finance",
+"srcs": [
+"CoinDesk",
+"Watcher.Guru",
+"Yahoo Finance"
+],
+"t": 1795237986.9176633,
+"t0": 1795230600.0,
+"tgtext": "JUST IN: Bitcoin falls under $57,000 for the first time in over 2 years.\n\n$385 million liquidated from the crypto market in the past 5 minutes.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
+"title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss",
+"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeUJVejY4MUFjdWN0dVNqV0Q0TWU0QlFKR2RKelhnSFdyVUZVMllXNnBnT2NGOUNRZ0QwOGRLRWlEMG5hVnk5LWM3Qm9XZzl0Y3JLT2Q5Q0pRLUZKQVc4OWstZUpvUkNJNnJaVnZaWDFfeVY4V0c2SjB2OFMxUVIxaGtsdjh2Y0ptbVN4d2tDU3k1MEJ2eWVMZUp3?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
+]
+},
 "0617b2ebc813": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -412,6 +429,19 @@
 "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
 ]
 },
+"1bf46deae103": {
+"coin": "",
+"src": "bloomingbit",
+"srcs": [
+"bloomingbit"
+],
+"t": 1795237986.9176633,
+"t0": 1795235844.0,
+"tgtext": "",
+"title": "Liquidity Crunch Spreads From Stocks, Gold to Crypto, Triggering $2.3 Billion in Liquidations",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FOW54V1Y1TXlYZGkwSFhJdnpYck5HYnZ4eEJIck5mQjVDaWVCTUUzd1JIcVVuVENsOFFlOFRtT2M5eDhuLWFCX01maXZrYkFyT2lYYw?oc=5",
+"urls": []
+},
 "1d6c9d2b9cd0": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -501,7 +531,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795229995.0,
 "tgtext": "Strategy: Net Reserve Stands at $35 Billion, All Bitcoin Holdings Unencumbered\n\nStrategy said its Net Reserve now stands at $35 billion, with all of its bitcoin holdings unencumbered. During the 2022 bear market, its Net Reserve was negative and one-third of its BTC was pledged as collateral. The company said it survived that downturn and emerged stronger, adding that its \"conviction and optionality have never been stronger.\" \u2014 link",
 "title": "Strategy: Net Reserve Stands at $35 Billion, All Bitcoin Holdings Unencumbered",
@@ -681,7 +711,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795234440.0,
 "tgtext": "JUST IN: Crypto continues to crash\n\n$BTC falls under $56,000\n$ETH falls under $1,550\n$XRP falls under $0.88\n$SOL falls under $66\n\n$650,000,000 in leveraged cryptocurrency positions liquidated in the past 60 minutes.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Crypto continues to crash",
@@ -1530,7 +1560,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795230820.0,
 "tgtext": "The biggest $HYPE long is on the verge of liquidation!\n\nThis whale was once up over $68M, but now his 1.38M $HYPE ($81.23M) long is at risk of liquidation.\n\nHe just deposited another 5M $USDC into Hyperliquid to avoid liquidation.\n\nNew liquidation price: $54.55\n\nhttps://hypurrscan.io/address/0x082e843a431aef031264dc232693dd710aedca88#perps",
 "title": "The biggest HYPE long is on the verge of liquidation!",
@@ -1751,7 +1781,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795231850.3248737,
+"t": 1795237681.9667091,
 "t0": 1795222820.0,
 "tgtext": "Sonic Audit Reveals S Token Supply Is 48% Higher Than Initially Announced\n\nSonic disclosed that its total S token supply stands at 4.70 billion, approximately 48% above the initially announced 3.175 billion. An independent audit found that when 2.12 billion native FTM tokens were minted on Fantom Opera in 2019, approximately 1.47 billion corresponding ERC-20 FTM tokens remained unlocked instead of being locked or burned, becoming a major source of the increased S supply. Sonic said the historical discrepancy remains under investigation. It plans to remove manual minting functionality and burn 91.7 million unallocated S tokens on December 15. \u2014 link",
 "title": "Sonic Audit Reveals S Token Supply Is 48% Higher Than Initially Announced",
@@ -1996,7 +2026,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795233692.0,
 "tgtext": "It's liquidation day again!\n\nTrader 0x6646 got liquidated on 158.6 $BTC ($9.23M) and 9,000 $ETH ($14.53M), with a total of $23.76M liquidated!\n\nTrader 0xfe40 got liquidated on 212.22 $BTC ($12.33M).\n\nhttps://hyperbot.network/trader/0x66466428990e0f42a4c54f64bee0db6bf2336de5\nhttps://hyperbot.network/trader/0xfe40345fdd90c7c629403a81eda76670fd63668b",
 "title": "It's liquidation day again!",
@@ -2642,7 +2672,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795233709.0,
 "tgtext": "Highlight Clip: Arthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?\n\nArthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that Bitcoin and crypto remain risk assets. Because crypto markets operate around the clock, investors facing losses elsewhere often sell their readily accessible crypto holdings first to meet margin calls or repay bank loans. This leaves Bitcoin exposed to selling during global risk-off events, particularly when stress is concentrated in technology stocks. Even if investors expect eventual bailouts to drive prices higher, they may still need cash now to avoid liquidation in less liquid positions.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Why Is Bitcoin Sold First When Markets Turn Risk-Off?",
@@ -2659,7 +2689,7 @@
 "bloomingbit",
 "shattered.io"
 ],
-"t": 1795237068.4677992,
+"t": 1795237681.9667091,
 "t0": 1795217313.0,
 "tgtext": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen\n\nAccording to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has been recovered. The attackers still hold 18,270 BTC stolen directly from Binance, which remains untouched. Over 5,100 BTC has been transferred through THORChain, while 1,482 BTC has entered CoinJoin mixing, primarily via the kruw coordinator. The FBI previously attributed the attack to North Korea-linked TraderTraitor. \u2014 link",
 "title": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen",
@@ -2812,7 +2842,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795228157.0,
 "tgtext": "Abraxas Capital withdrew 5,856 $BTC($343M) from #Binance and #Kraken in the past 8 hours.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds\nTwo wallets deposited 4,069 $BTC ($239M) into #Binance over the past 9 hours.\n\nhttps://arkm.com/explorer/address/bc1qnxyj29m2nsvsxyx5emk9tfcnz0qu7frum9xq7y\nhttps://arkm.com/explorer/address/bc1qrpee2p9e8wc5vauh0s06wrccax7y22g873juwm",
 "title": "Abraxas Capital withdrew 5,856 BTC($343M) from Binance and Kraken in the past 8 hours.",
@@ -2855,7 +2885,7 @@
 "Cryptonews.net",
 "Wu Blockchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795217148.0,
 "tgtext": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen\n\nAccording to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has been recovered. The attackers still hold 18,270 BTC stolen directly from Binance, which remains untouched. Over 5,100 BTC has been transferred through THORChain, while 1,482 BTC has entered CoinJoin mixing, primarily via the kruw coordinator. The FBI previously attributed the attack to North Korea-linked TraderTraitor. \u2014 link",
 "title": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen",
@@ -3098,7 +3128,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795237373.4013941,
+"t": 1795237986.9176633,
 "t0": 1795234706.0,
 "tgtext": "Bit Digital appears to be dumping $ETH, depositing 16,639 $ETH ($26.3M) into #GalaxyDigital.\n\nAs of October 31, Bit Digital held 163,241.7 $ETH at an average cost of $3,007.63 and is now sitting on $237M in unrealized losses.\n\nhttps://bit-digital.com/press-releases/ethereum-treasury-and-staking-metrics-for-october-2026\nhttps://arkm.com/explorer/entity/bit-digital",
 "title": "Bit Digital appears to be dumping ETH, depositing 16,639 ETH ($26.3M) into GalaxyDigital.",
@@ -3640,33 +3670,32 @@
 },
 "probs": {
 "006d4ea8db05": 0.065,
-"042a2f23b222": 0.118,
+"042a2f23b222": 0.242,
+"056ec8898d25": 0.984,
 "0b0776e9e9b5": 0.183,
 "19299b1f0754": 0.084,
+"1bf46deae103": 0.576,
 "1f9de1db28ef": 0.087,
 "25df5c0105c9": 0.656,
-"25ff762a0e71": 0.281,
+"25ff762a0e71": 0.22,
 "2b062ee5daf3": 0.044,
 "3582dab059e6": 0.739,
-"419c425e8ad0": 0.053,
 "43bcada8a09a": 0.088,
-"45f038f36086": 0.011,
-"4d7e2dd718fa": 0.491,
+"45f038f36086": 0.013,
+"49765c992ed1": 0.035,
+"4d7e2dd718fa": 0.34,
 "5f750c8c1cb0": 0.028,
-"6695e09f8573": 0.062,
 "6f8c3c105aa8": 0.216,
 "6fd085f86017": 0.161,
 "70735a138d6a": 0.794,
 "80a3408d81d6": 0.116,
 "8246103c5d01": 0.279,
-"83bd90d25422": 0.435,
 "8bb60e67f62e": 0.032,
 "96e40be22b88": 0.049,
-"9a68dad96c27": 0.8,
-"a42eb1012c85": 0.986,
+"9a68dad96c27": 0.743,
 "a868811144c4": 0.031,
 "af8d5dd7ad22": 0.1,
-"afdce752847a": 0.163,
+"afdce752847a": 0.153,
 "b75adbf0f3ac": 0.026,
 "bc9f4c502027": 0.347,
 "c0dd31f754c5": 0.491,
@@ -3678,7 +3707,8 @@
 "df1c311b1c47": 0.955,
 "f087638239b3": 0.041,
 "f24375584caf": 0.106,
-"f4eb0cf13f4f": 0.253
+"f4eb0cf13f4f": 0.253,
+"fe0053001a1f": 0.31
 },
 "sent": [
 {
@@ -5663,65 +5693,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"a42eb1012c85",
-50,
-87,
-2
+"056ec8898d25",
+68,
+123,
+3
 ],
 [
 "df1c311b1c47",
 41,
-44,
+55,
 1
 ],
 [
 "c86e027207c5",
 24,
-154,
-1
-],
-[
-"9a68dad96c27",
-25,
-61,
+164,
 1
 ],
 [
 "70735a138d6a",
 40,
-109,
+119,
+1
+],
+[
+"9a68dad96c27",
+25,
+72,
 1
 ],
 [
 "3582dab059e6",
 20,
-49,
+59,
 1
 ],
 [
 "25df5c0105c9",
 40,
-123,
+133,
 1
 ],
 [
 "c99151b9f7ce",
-65,
-337,
+63,
+347,
 6
+],
+[
+"1bf46deae103",
+40,
+36,
+1
 ],
 [
 "c0dd31f754c5",
 25,
-61,
-1
-],
-[
-"4d7e2dd718fa",
-20,
-187,
+71,
 1
 ]
 ],
-"top_at": 1795237373.4013941
+"top_at": 1795237986.9176633
 }
