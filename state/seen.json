@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795172652.821847,
 1795179839.6170082,
 1795184764.7366664,
 1795192149.2010665,
@@ -17,7 +16,8 @@
 1795219458.5798867,
 1795244125.9099755,
 1795255178.1154678,
-1795258827.7169042
+1795258827.7169042,
+1795262563.22401
 ],
 "menu": {
 "00ee6976fcc0": {
@@ -484,7 +484,7 @@
 "srcs": [
 "CryptoTicker.io"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795258568.0,
 "tgtext": "",
 "title": "Why is crypto crashing? 7 reasons behind the bitcoin crash",
@@ -827,19 +827,6 @@
 "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
 ]
 },
-"3aaba495193b": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795090023.966786,
-"t0": 1795083539.0,
-"tgtext": "\ud83c\uddea\ud83c\uddfa ALERT: European Commission hit by major AI-assisted cyberattack, potentially exposing personal data, per Politico.\n\nNews | Markets | YouTube",
-"title": "European Commission hit by major AI-assisted cyberattack, potentially exposing personal data, per Politico.",
-"url": "https://t.me/cointelegraph/73385",
-"urls": []
-},
 "3acac26bf6de": {
 "coin": "",
 "src": "Haberler.com",
@@ -1025,9 +1012,10 @@
 "src": "CryptoPotato",
 "srcs": [
 "BigGo Finance",
+"Coinpaper",
 "CryptoPotato"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795242180.0,
 "tgtext": "",
 "title": "Strategy Breaks Silence After BTC Crash as Bitcoin Position Dumps to $17B in Paper Losses",
@@ -1128,7 +1116,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795258416.0,
 "tgtext": "\ud83d\udea8 REKT: The total crypto market lost $200B in less than 24 hours.\n\nNews | Markets | YouTube",
 "title": "REKT: The total crypto market lost $200B in less than 24 hours.",
@@ -1465,7 +1453,7 @@
 "srcs": [
 "Pluang"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795244672.0,
 "tgtext": "",
 "title": "Bitcoin falls below $56K amid $1.12B ETF withdr...",
@@ -1703,7 +1691,7 @@
 "Free Press Journal",
 "The Hawk"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795249082.0,
 "tgtext": "",
 "title": "WazirX-Binance Crypto Fraud Row Deepens, Thousands Of Investors Seek ED And CBI Probe Over Alleged Financial",
@@ -1884,7 +1872,7 @@
 "Pragativadi",
 "The Crypto Times"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795251900.0,
 "tgtext": "",
 "title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
@@ -2164,7 +2152,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795243931.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The FBI is investigating a possible breach of its own national crime database.\n\nThat's two federal hacks in one week, after the USDA's farmer payment system got hit.\n\nNews | Markets | YouTube",
 "title": "The FBI is investigating a possible breach of its own national crime database.",
@@ -2734,7 +2722,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795253862.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.\n\nOnly cases with over $1M in sanctions count.\n\nNews | Markets | YouTube",
 "title": "REGULATION: Rep. Sean Casten wants the DOJ to pay whistleblowers 10% to 30% of the penalties for snitching on prediction market insider traders.",
@@ -2864,22 +2852,6 @@
 "url": "https://t.me/wublockchainenglish/26904",
 "urls": []
 },
-"c9b752c6bad9": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"CryptoSlate"
-],
-"t": 1795089714.7172165,
-"t0": 1795068148.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d\n\nNews | Markets | YouTube",
-"title": "TODAY: FOMC minutes show almost all Fed officials expect more rate hikes, with a few calling October\u2019s pause a \u201cclose call.\u201d",
-"url": "https://t.me/cointelegraph/73383",
-"urls": [
-"https://cryptoslate.com/bitcoin-faces-fresh-60000-threat-as-fed-minutes-reveal-overwhelming-support-for-more-rate-hikes/"
-]
-},
 "ca74dc6a703f": {
 "coin": "bitcoin",
 "src": "Crypto News",
@@ -2995,7 +2967,7 @@
 "Coin Gabbar",
 "The Defiant"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795254870.0,
 "tgtext": "",
 "title": "Chainflip Hack: $4.86M Drained, FLIP Coin Price Fell 39% as Swaps Halt",
@@ -3413,7 +3385,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795262254.5651135,
+"t": 1795262867.8967767,
 "t0": 1795254536.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa European Central Bank seeks partners to test tokenized bank deposits and securities.",
@@ -3722,43 +3694,46 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"042a2f23b222": 0.092,
-"0c1a20118f39": 0.06,
-"153fd3a06069": 0.213,
-"1e0f44e611d5": 0.03,
-"2347eb6f87ab": 0.226,
-"26f793b38b39": 0.076,
-"2921fecc352b": 0.036,
-"2b062ee5daf3": 0.028,
-"32083bf0dd60": 0.078,
-"3a9731a38e66": 0.11,
-"456be5690816": 0.77,
-"4ee533bdd212": 0.319,
-"52a9d4e4dbf5": 0.058,
-"5c6493088e7f": 0.022,
-"634f26c05d11": 0.036,
-"6ccf0eb9051a": 0.218,
-"7119f6743ab6": 0.127,
-"75d17d840b43": 0.123,
-"78f7a83e386d": 0.079,
-"815ae20b3f0d": 0.242,
-"84fc31bbf0a3": 0.102,
-"8cdbd6acbbad": 0.063,
-"8d1907fd5471": 0.102,
-"91c55bdbba9b": 0.147,
-"9280a2d18ecf": 0.391,
-"a577db08e5eb": 0.495,
-"aacf3aaee6d2": 0.159,
-"abee2200bec5": 0.138,
-"b85948d718ee": 0.082,
-"c5f1d1d1a353": 0.558,
-"ce7af00053a8": 0.12,
-"d0d0e4a0822d": 0.092,
-"d40678e0a25f": 0.656,
-"e3e659e4fb54": 0.041,
-"ebd4f4415d45": 0.037,
-"efc61563fcea": 0.818,
-"f294818f9a2c": 0.197
+"042a2f23b222": 0.193,
+"0c1a20118f39": 0.097,
+"153fd3a06069": 0.313,
+"1e0f44e611d5": 0.049,
+"2347eb6f87ab": 0.329,
+"235f0f3d0962": 0.197,
+"26f793b38b39": 0.121,
+"2921fecc352b": 0.059,
+"2b062ee5daf3": 0.047,
+"2bb2e9f272e9": 0.057,
+"32083bf0dd60": 0.124,
+"3a9731a38e66": 0.172,
+"3e74183c6ac2": 0.176,
+"4055acd139b0": 0.069,
+"456be5690816": 0.927,
+"4ee533bdd212": 0.44,
+"5c6493088e7f": 0.036,
+"662d85387bbf": 0.093,
+"6ccf0eb9051a": 0.319,
+"7119f6743ab6": 0.196,
+"75d17d840b43": 0.191,
+"78f7a83e386d": 0.126,
+"815ae20b3f0d": 0.349,
+"84fc31bbf0a3": 0.16,
+"8cdbd6acbbad": 0.101,
+"8d1907fd5471": 0.16,
+"9280a2d18ecf": 0.519,
+"a577db08e5eb": 0.622,
+"aacf3aaee6d2": 0.241,
+"c385ebe5cf82": 0.03,
+"c5f1d1d1a353": 0.68,
+"cc2548a58744": 0.092,
+"ce7af00053a8": 0.187,
+"d0d0e4a0822d": 0.146,
+"d40678e0a25f": 0.762,
+"dad1203807cb": 0.097,
+"e3e659e4fb54": 0.067,
+"ece782da4292": 0.211,
+"efc61563fcea": 0.883,
+"f07e7bea4da0": 0.219
 },
 "sent": [
 {
@@ -5651,71 +5626,104 @@
 "rekt",
 "total"
 ]
+},
+{
+"e": [
+"chainflip",
+"coin",
+"drained",
+"fell",
+"flip",
+"hack",
+"halt",
+"swaps"
+],
+"k": [
+"hack",
+"outage"
+],
+"t": 1795262563.22401,
+"u": [
+"https://news.google.com/rss/articles/CBMijwFBVV95cUxNOVhZdG1MVlI2NDZxNDRBalg2YzZwNTdPN2JQdGpGRERGV3Z0dHpCaWxabUMzVXA5bHQ0QW9xRVNnd29pUHZEWXQxaXNPLTlfMU5Wc3g2N2tZeTJEQjhQZ2hIMkRZY2pIRWhtNllpRzZVLThOUVZTRF9DRWR1VTJVVnNfdVlucUQ3aFd4Qi1KTQ?oc=5",
+"https://news.google.com/rss/articles/CBMilwFBVV95cUxPV0VYY29FYVU1b2lrYTZCSlhtaC1rRVc3VVhuTTF6cndZeGhOcjhKR25QZW9wRE1IS0wxVXk4NHNtWUZMZVFoeUtvSGhuc3pxUE5RS2FNRHlVQUxtS2k1dFJXdWxlMDlnaE9vSHNQU0JFZXpFZEFKMlMxQk9TYWpLRjRjUUdiN1RyQ3dVRkpZNDNWTmFJbWZN?oc=5"
+],
+"w": [
+"86m",
+"chainflip",
+"coin",
+"drained",
+"fell",
+"flip",
+"hack",
+"halt",
+"price",
+"swaps"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"efc61563fcea",
-20,
-129,
-2
+"456be5690816",
+49,
+345,
+3
 ],
 [
-"456be5690816",
-40,
-335,
+"efc61563fcea",
+20,
+139,
 2
 ],
 [
 "d40678e0a25f",
 65,
-123,
+133,
 2
 ],
 [
 "c5f1d1d1a353",
 10,
-140,
+150,
 1
 ],
 [
 "a577db08e5eb",
-19,
-305,
+17,
+316,
 1
 ],
 [
 "9280a2d18ecf",
 79,
-173,
+183,
 4
 ],
 [
 "4ee533bdd212",
 25,
-64,
+74,
 1
 ],
 [
 "815ae20b3f0d",
-41,
-220,
+40,
+230,
 2
 ],
 [
 "2347eb6f87ab",
 20,
-61,
+72,
 1
 ],
 [
 "6ccf0eb9051a",
-24,
-293,
+23,
+303,
 1
 ]
 ],
-"top_at": 1795262254.5651135
+"top_at": 1795262867.8967767
 }
