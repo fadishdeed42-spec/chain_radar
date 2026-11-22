@@ -417,7 +417,7 @@
 "SSBCrack",
 "Wealth Management"
 ],
-"t": 1795304609.010264,
+"t": 1795305522.0204651,
 "t0": 1795295234.0,
 "tgtext": "",
 "title": "SEC Charges Eight Entities in $37 Million Fake Crypto Investment Scheme",
@@ -970,7 +970,7 @@
 "BigGo Finance",
 "Cryptonews.net"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795289139.0,
 "tgtext": "",
 "title": "Ethereum Whale's $214 Million Aave Debt Nears Liquidation at $1,401",
@@ -1004,7 +1004,7 @@
 "CoinDesk",
 "Coinpaper"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795291504.0,
 "tgtext": "",
 "title": "Bitcoin rises 9% from two-year low, reclaiming $60,000 as forced selling eases",
@@ -1324,6 +1324,21 @@
 "url": "https://t.me/cointelegraph/73420",
 "urls": []
 },
+"59711ba7499c": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"Cryptonews.net",
+"Traders Union"
+],
+"t": 1795305522.0204651,
+"t0": 1795284563.0,
+"tgtext": "",
+"title": "Bitcoin Rebounds Above $60,000 After $2.4 Billion Liquidation Wave Wipes Out Leveraged Bets",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lTktBYWZxbXJtWElUWTdsUnFhZGlQRzFQbjRiUGRLcHcxdk1CRnpXSTRDOEM2bWROd2Y2MGRlb3VKR1J3VU1Hb3dObXBpblAtbjlWNDF6VmVZZF9hNHJKMjJpT2JhMnhjVlU2WUxSbmpadVhHQXc?oc=5",
+"urls": []
+},
 "598aacddffc9": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -1478,7 +1493,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795302257.0,
 "tgtext": "\ud83d\udd25 BIG: Tether-backed Twenty One Capital bought another 172.25 $BTC for $10M at about $58,054 each, its second dip buy this week.\n\nTotal stack is now 43,841 BTC.\n\nNews | Markets | YouTube",
 "title": "BIG: Tether-backed Twenty One Capital bought another 172.25 BTC for $10M at about $58,054 each, its second dip buy this week.",
@@ -1693,7 +1708,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795291325.0,
 "tgtext": "\ud83d\udea8 WILD: Nvidia went from the top company ranked by Market Cap to number 4 in less than a month.\n\nNews | Markets | YouTube",
 "title": "WILD: Nvidia went from the top company ranked by Market Cap to number 4 in less than a month.",
@@ -2215,7 +2230,7 @@
 "Crypto Briefing",
 "The Block"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795285377.0,
 "tgtext": "",
 "title": "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers",
@@ -2551,7 +2566,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795288410.0,
 "tgtext": "",
 "title": "Vitalik Buterin Raises Racism Concerns Over Netflix\u2019s CZ Portrayal",
@@ -2927,7 +2942,7 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795286820.0,
 "tgtext": "",
 "title": "Cyber Warns Against Bridge Use After Unexpected Minting",
@@ -3296,7 +3311,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795304912.5533974,
+"t": 1795305522.0204651,
 "t0": 1795284316.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.\n\nNews | Markets | YouTube",
 "title": "REGULATION: The ECB is recruiting groups of banks and financial firms to test tokenized deposits and securities under its Appia project, with applications due Dec 11.",
@@ -3904,13 +3919,14 @@
 },
 "probs": {
 "023c3bf689da": 0.062,
-"0666f7e78545": 0.028,
 "08be9b0acbeb": 0.022,
+"17b39805b44b": 0.117,
 "17bad9a3f07b": 0.043,
 "2a7453cbb938": 0.025,
 "3fd167bcbbc5": 0.082,
 "40c6ddba5ca7": 0.088,
 "57731881061f": 0.057,
+"59711ba7499c": 0.431,
 "5a2d4e49c76e": 0.012,
 "5c35c2732322": 0.031,
 "6a1646ab96ee": 0.708,
@@ -3920,7 +3936,6 @@
 "8b0f3a536a88": 0.04,
 "8b9de3e468f0": 0.016,
 "8e11bcced91d": 0.028,
-"90c3140a626b": 0.203,
 "9c6b45d7487c": 0.232,
 "b1aaa9ebdd93": 0.079,
 "b30d4594bda9": 0.009,
@@ -3928,10 +3943,10 @@
 "c3c493ede89d": 0.024,
 "c6cf90e6507a": 0.007,
 "c711b060f50f": 0.075,
+"c7721e96e36f": 0.013,
 "d2193f1e8019": 0.006,
 "d61828992bf5": 0.022,
 "d917adf05164": 0.365,
-"dab18a78f1dc": 0.017,
 "e9dd9497e74d": 0.026,
 "f037c0583b8c": 0.013,
 "fa7f42d7ea28": 0.028
@@ -5913,63 +5928,63 @@
 [
 "6a1646ab96ee",
 24,
-44,
+54,
 1
+],
+[
+"59711ba7499c",
+48,
+349,
+3
 ],
 [
 "d917adf05164",
 0,
-343,
+353,
 1
 ],
 [
 "9c6b45d7487c",
-56,
-326,
+55,
+336,
 3
 ],
 [
-"90c3140a626b",
-57,
-359,
-4
+"17b39805b44b",
+40,
+171,
+2
 ],
 [
 "40c6ddba5ca7",
-25,
-223,
+23,
+234,
 2
 ],
 [
 "3fd167bcbbc5",
-38,
-263,
+37,
+273,
 2
 ],
 [
 "b1aaa9ebdd93",
-6,
-275,
+4,
+285,
 1
 ],
 [
 "77df64072e5b",
-4,
-226,
+3,
+237,
 1
 ],
 [
 "c711b060f50f",
 0,
-302,
-1
-],
-[
-"023c3bf689da",
-8,
-256,
+312,
 1
 ]
 ],
-"top_at": 1795304912.5533974
+"top_at": 1795305522.0204651
 }
