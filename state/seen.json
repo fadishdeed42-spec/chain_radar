@@ -5,8 +5,6 @@
 },
 "init": true,
 "log": [
-1795282968.7913425,
-1795288563.4333878,
 1795343917.7992148,
 1795344223.7448082,
 1795344833.0991857,
@@ -14,7 +12,8 @@
 1795357641.873624,
 1795363316.377428,
 1795364049.5569804,
-1795365276.5683033
+1795365276.5683033,
+1795385412.3219602
 ],
 "menu": {
 "00f11667de9c": {
@@ -49,7 +48,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795364909.0,
 "tgtext": "JUST IN: Bitcoin reclaims $61,000 and ETH reclaims $1,715\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Bitcoin reclaims $61,000 and ETH reclaims $1,715",
@@ -279,7 +278,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795364191.0,
 "tgtext": "JUST IN: Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.",
@@ -745,7 +744,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795372352.0,
 "tgtext": "\u26a1 UPDATE: The S&P 500 has almost wiped out its entire 2026 gain.\n\nNews | Markets | YouTube",
 "title": "The S&P 500 has almost wiped out its entire 2026 gain.",
@@ -758,7 +757,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795384798.5568094,
+"t": 1795385106.4690058,
 "t0": 1795363581.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: One trader got into Trump's memecoin gala for the third time by buying $TRUMP and shorting it at the same time, and this round he walked away $6 richer.\n\nNews | Markets | YouTube",
 "title": "One trader got into Trump's memecoin gala for the third time by buying TRUMP and shorting it at the same time, and this round he walked away $6 richer.",
@@ -1210,7 +1209,7 @@
 "srcs": [
 "Hokanews"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795370400.0,
 "tgtext": "",
 "title": "Bitcoin Short Liquidations Top $400 Million as Price Rebounds Above $85,000",
@@ -1756,7 +1755,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795379461.0,
 "tgtext": "\ud83d\udea8 PAIN: The crypto fear and greed index has not been this low since February 2026.\n\nNews | Markets | YouTube",
 "title": "PAIN: The crypto fear and greed index has not been this low since February 2026.",
@@ -1839,7 +1838,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795368378.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"",
@@ -1920,15 +1919,16 @@
 },
 "82e0459171b6": {
 "coin": "",
-"src": "The Block",
+"src": "Watcher.Guru",
 "srcs": [
-"The Block"
+"The Block",
+"Watcher.Guru"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795381113.0,
-"tgtext": "",
-"title": "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
-"url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to gift 18-karat gold watches to top 4 holders of his $TRUMP crypto memecoin during dinner event tonight.\n\nCelebrities including Floyd Mayweather and Kevin O'Leary will be in attendance.\n\nThe coin is down 98% from its peak.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 President Trump to gift 18-karat gold watches to top 4 holders of his TRUMP crypto memecoin during dinner event tonight.",
+"url": "https://t.me/WatcherGuru/16254",
 "urls": [
 "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828"
 ]
@@ -2254,9 +2254,9 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795382465.0737092,
+"t": 1795385412.3219602,
 "t0": 1795376887.0,
-"tgtext": "JUST IN: OpenAI Chief Scientist calls to limit AI development.\n\n@WatcherGuru",
+"tgtext": "JUST IN: OpenAI Chief Scientist calls to limit AI development.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "OpenAI Chief Scientist calls to limit AI development.",
 "url": "https://t.me/WatcherGuru/16253",
 "urls": []
@@ -2503,23 +2503,6 @@
 "tgtext": "",
 "title": "Bitcoin Price Rebounds to $60K After Crash Near $55K, Leaving Billions in Liquidations",
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNazlzQjFNcmlTbV85WEN2NmVNWGtjT2FaR3dEZnJCMWxYQm9NQ05zb1hYTHVmTnpKZ1g5dWdhU29pNjdvcElqTVJvaHVwa0V1anpCYWxrYUY4T28wTXBJc3BsNEVjR0lCeEtuV3F3R3FfWmFYXzBkak1TamM2aVJUUFZ3UDhlaHhuRFBsbjZkeXFtbVljcDhpZG9HZ3c5TEg2al9wcVk5RQ?oc=5",
-"urls": []
-},
-"a72120299047": {
-"coin": "bitcoin",
-"src": "CoinDesk",
-"srcs": [
-"24/7 Wall St.",
-"CoinDesk",
-"Coinpaper",
-"Kriptofoni",
-"KuCoin"
-],
-"t": 1795212092.5493345,
-"t0": 1795190884.0,
-"tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
-"title": "Why Crypto Is Crashing: Bitcoin (BTC) nears new 2026 low as strategists say cash Is king amid Fed fears",
-"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPejRKV3BfU3ZHQ2s5SUFweDJXRXdvdHdiaHA5R2ZjQXZzS3JpTG1ieXYwbXR1NGl0bWw0cTY5c1RMUmpseFZaTHlfVnFyWEYxd2RBY3NwNldRdDg5RU5mZWUxWl9xellrX1NUamN3MzF4dkwzYkNXcFdDdkhob3BoaFZITjM2eThQSzVvNlBXWndWREVpT0NWb2FJLU9WZzFJTnNPSUhUWGVuTW1nVmd2Z2tiWmZYVEhnX3VnYzY5ZXh2UWRoYXAweWR3?oc=5",
 "urls": []
 },
 "a741d6f7e9e7": {
@@ -3320,7 +3303,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795369659.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 US intelligence confirms China gained access to advanced American AI chips.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 US intelligence confirms China gained access to advanced American AI chips.",
@@ -3501,19 +3484,6 @@
 "url": "https://t.me/wublockchainenglish/26902",
 "urls": []
 },
-"de4d77ed137e": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1795212397.4922118,
-"t0": 1795191008.0,
-"tgtext": "Over the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
-"title": "Over the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!",
-"url": "https://t.me/lookonchainchannel/11187",
-"urls": []
-},
 "df0e35c05fcd": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -3552,7 +3522,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795384798.5568094,
+"t": 1795385412.3219602,
 "t0": 1795367008.0,
 "tgtext": "JUST IN: Elon Musk says Tesla's $TSLA humanoid robot Optimus will be the \"best product of all time.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Elon Musk says Tesla's TSLA humanoid robot Optimus will be the \"best product of all time.\"",
@@ -3740,23 +3710,6 @@
 "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
 ]
 },
-"f2b15b074389": {
-"coin": "bitcoin",
-"src": "CoinDesk",
-"srcs": [
-"24/7 Wall St.",
-"CoinDesk",
-"Coinpaper",
-"Coinpedia",
-"Kriptofoni"
-],
-"t": 1795212397.4922118,
-"t0": 1795190840.0,
-"tgtext": "BTC Falls Below $60,000, ETH Drops Below $1,700 as 24H Liquidations Reach $1.57B\n\nAccording to Binance market data, BTC fell below $60,000 and is trading at $59,378.87, with a 24-hour low of $58,768.73. ETH dropped below $1,700 and is trading at $1,644.13, with a 24-hour low of $1,624.37. According to CoinGlass, total liquidations over the past 24 hours reached $1.57 billion, including $1.42 billion in long positions and $143.23 million in short positions, affecting 264,734 traders. The largest single liquidation occurred on Binance's ETHUSDT pair, valued at $11.98 million. \u2014 link",
-"title": "Why Crypto Is Crashing: Bitcoin (BTC) nears new 2026 low as strategists say cash Is king amid Fed fears",
-"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPejRKV3BfU3ZHQ2s5SUFweDJXRXdvdHdiaHA5R2ZjQXZzS3JpTG1ieXYwbXR1NGl0bWw0cTY5c1RMUmpseFZaTHlfVnFyWEYxd2RBY3NwNldRdDg5RU5mZWUxWl9xellrX1NUamN3MzF4dkwzYkNXcFdDdkhob3BoaFZITjM2eThQSzVvNlBXWndWREVpT0NWb2FJLU9WZzFJTnNPSUhUWGVuTW1nVmd2Z2tiWmZYVEhnX3VnYzY5ZXh2UWRoYXAweWR3?oc=5",
-"urls": []
-},
 "f3fc5c4fc005": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -3923,251 +3876,47 @@
 },
 "probs": {
 "01d1eecca90b": 0.036,
-"12d8f8d2c7d3": 0.353,
+"12d8f8d2c7d3": 0.43,
 "155d7b73dcfc": 0.017,
 "15d1af42bba3": 0.009,
-"1734fcbbcc70": 0.034,
 "1a36033fc140": 0.029,
 "1baf738c3861": 0.019,
 "261c58e25af8": 0.576,
-"26c1314dc572": 0.595,
 "29214a812404": 0.007,
 "29e991f63190": 0.013,
 "2b23e9d30387": 0.118,
 "333ce9aecfeb": 0.011,
-"38a5ee01cf99": 0.016,
+"38a5ee01cf99": 0.02,
+"3de712373946": 0.021,
 "4054cc5f2a72": 0.007,
 "47800aca3135": 0.011,
 "4ac706c83327": 0.007,
 "4dd10cd3f7c6": 0.129,
 "4fbbb2728f2b": 0.038,
 "5018c767fc54": 0.011,
+"532b1ec4be0b": 0.004,
 "5ae7ef469f2b": 0.03,
-"690757ebe3b4": 0.052,
+"690757ebe3b4": 0.059,
 "71bc7a35501b": 0.03,
 "738a9286a2df": 0.291,
 "75ca59dd3546": 0.034,
 "7ae6286ace76": 0.774,
-"82e0459171b6": 0.171,
-"92ad7c9a3d18": 0.044,
-"9334a66d5502": 0.04,
+"82e0459171b6": 0.801,
+"92ad7c9a3d18": 0.151,
 "96740c291478": 0.013,
 "b19f2cbdfbc2": 0.004,
-"d1d4689a7c4b": 0.137,
 "d41436be7602": 0.012,
 "d438e13c2068": 0.026,
+"dce656308b57": 0.033,
 "e7910fa5509d": 0.309,
 "eba9d3a1e404": 0.078,
 "ef32ac6cba8c": 0.013,
 "f28707e12b44": 0.013,
 "f632bfd58a02": 0.04,
-"f6fce6f9516f": 0.016
+"f6fce6f9516f": 0.016,
+"ff2fbb75c460": 0.064
 },
 "sent": [
-{
-"e": [
-"michael",
-"saylor",
-"strategy"
-],
-"k": [],
-"t": 1795192764.8032358,
-"u": [
-"https://t.me/WatcherGuru/16203"
-],
-"w": [
-"$14",
-"000",
-"100",
-"bitcoin",
-"currently",
-"investment",
-"loss",
-"michael",
-"saylor",
-"strategy",
-"unrealized"
-]
-},
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1795194917.0007577,
-"u": [
-"https://news.google.com/rss/articles/CBMicEFVX3lxTE5sS2J0dUFjVHFaT0V0cmZCV2VlQ1I2dTFZS2RwN3lwLXNXMUYzY1J6c0FPV09CY293ekdhRl9jR0RESV9xaXBZOFc0cDhhNkR0UzdIWC0tMDZKTUhwSzVKU0ZoQUZ0Ri1hTXFwUnlEaEk?oc=5",
-"https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZeWxqNmZFdEZOWUo1b1J2ZUhGaE5CZTJJT2V4WFlWQXBpTHJrLXQ5T3BVdzM2Y3FqR24yYnVVdzZBNTdTMnBBSHdGZkZod3RKaXZCeE1ib1k0TE1fSWdtZlFGSW1JdUFONEhzS0k0dG9NZ1MtMkoyc2lB?oc=5",
-"https://news.google.com/rss/articles/CBMiWkFVX3lxTE12X3pHeGhqN0s3MDZ5UzlhN0x2UWpXRXlTdWUzSks0NGdfNGx2bWxmRXY4ZTlZOExKUGNOcmZKc1lQOHpxWmF1SE9YYURQZWRUaWVhVDBoeEhpQQ?oc=5",
-"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LTWYtcnF0RXhMa1hRZzhLeVl5OEt3N0VXbDh5bjZtcjYydzBDcm9hTHJYaGhaWHpaUWx5WFlxOHFLSVlNMFE0aTFURTYtajRsVHRTWTdzZ2c?oc=5"
-],
-"w": [
-"$62",
-"000",
-"billion",
-"bitcoin",
-"hours",
-"liquidations",
-"slides",
-"top",
-"toward"
-]
-},
-{
-"e": [
-"whale"
-],
-"k": [
-"crash"
-],
-"t": 1795195532.0655758,
-"u": [
-"https://t.me/lookonchainchannel/11189"
-],
-"w": [
-"$26",
-"0xabbd",
-"349",
-"701",
-"all",
-"crash",
-"during",
-"eth",
-"fully",
-"his",
-"loans",
-"market",
-"panic",
-"repay",
-"sold",
-"whale"
-]
-},
-{
-"e": [
-"china",
-"intelligence",
-"president",
-"super",
-"trump"
-],
-"k": [],
-"t": 1795199953.3821084,
-"u": [
-"https://t.me/WatcherGuru/16210",
-"https://t.me/cointelegraph/73417"
-],
-"w": [
-"adding",
-"also",
-"china",
-"establish",
-"guardrails",
-"intelligence",
-"joint",
-"likes",
-"name",
-"president",
-"super",
-"trump"
-]
-},
-{
-"e": [
-"wagyu",
-"xmr1"
-],
-"k": [
-"hack"
-],
-"t": 1795201002.6356826,
-"u": [],
-"w": [
-"$13",
-"hacked",
-"million",
-"wagyu",
-"xmr1"
-]
-},
-{
-"e": [
-"nvda",
-"nvidia"
-],
-"k": [
-"legal"
-],
-"t": 1795202539.609226,
-"u": [
-"https://t.me/WatcherGuru/16214",
-"https://t.me/cointelegraph/73418"
-],
-"w": [
-"accounting",
-"examining",
-"investigation",
-"issues",
-"nvda",
-"nvidia",
-"potential",
-"sec"
-]
-},
-{
-"e": [
-"odds"
-],
-"k": [
-"crash"
-],
-"t": 1795207486.3688376,
-"u": [
-"https://t.me/WatcherGuru/16218"
-],
-"w": [
-"$55",
-"000",
-"bitcoin",
-"crashing",
-"end",
-"month",
-"odds",
-"surge",
-"under"
-]
-},
-{
-"e": [
-"backward",
-"capital",
-"hat",
-"ponzi"
-],
-"k": [
-"legal"
-],
-"t": 1795209022.5083482,
-"u": [
-"https://news.google.com/rss/articles/CBMidEFVX3lxTE96cU5Yd0VYd19hc2NHcmNXQ0ZOOTRCeDhTNmU0QVZQQ3lNeFZQbmtZZnhrOUkzY09FOWpxSXBMNkQxSjBVejNBZWtaODRxdlB5VmdZRmxDTlBJX3R1cEE1QkRCRTR0VS1JYkxwTmtmeWxFWl9r?oc=5",
-"https://bitcoinmagazine.com/news/sec-freezes-crypto-560-million-ponzi",
-"https://news.google.com/rss/articles/CBMieEFVX3lxTE5hTUdKNHdyN21uMWZFdHc3T0dKUHBEX01RQkRuMjBkdW1LZWlaQzJNQ2daMzRvbV9CY2s4N1BYOTVqdkFTNmFpclQ1dFQ3am02WGlzd0FzTmxfeGxralQtaW1GNnNmSkNTTHFIY2FmMUJpSGJZS1MtMw?oc=5",
-"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4Z2ZfbU5vSkJrYXF6NmkxdTJJMVJEM05FU1ZSU0hSaUZEWGY2enpOeXpOTTE3SWFLWTBfejZPOFV2aXoyODVMMnVvVTBYWGlMUkVHck90N3QxR2JWRlRDUC10ejJJWlk?oc=5"
-],
-"w": [
-"$560",
-"alleged",
-"backward",
-"capital",
-"charges",
-"hat",
-"like",
-"million",
-"ponzi",
-"scheme",
-"sec"
-]
-},
 {
 "e": [
 "concerns",
@@ -5143,71 +4892,99 @@
 "third",
 "weekend"
 ]
+},
+{
+"e": [
+"president",
+"trump"
+],
+"k": [],
+"t": 1795385412.3219602,
+"u": [
+"https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
+"https://t.me/WatcherGuru/16254"
+],
+"w": [
+"dinner",
+"during",
+"event",
+"gift",
+"gold",
+"his",
+"holders",
+"karat",
+"memecoin",
+"president",
+"tonight",
+"top",
+"trump",
+"watches"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"7ae6286ace76",
-16,
-274,
-1
+"82e0459171b6",
+28,
+72,
+2
 ],
 [
-"26c1314dc572",
-0,
-354,
+"7ae6286ace76",
+15,
+284,
 1
 ],
 [
 "261c58e25af8",
-7,
-207,
+5,
+218,
 1
 ],
 [
 "12d8f8d2c7d3",
 0,
-343,
+354,
 1
 ],
 [
 "e7910fa5509d",
-3,
-297,
+2,
+307,
 1
 ],
 [
 "738a9286a2df",
 10,
-89,
-1
-],
-[
-"82e0459171b6",
-18,
-61,
+99,
 1
 ],
 [
 "029284ec4eec",
 0,
-331,
+342,
+1
+],
+[
+"92ad7c9a3d18",
+10,
+142,
 1
 ],
 [
 "d1d4689a7c4b",
-1,
-252,
+0,
+263,
 1
 ],
 [
 "4dd10cd3f7c6",
-24,
-240,
+22,
+250,
 1
 ]
 ],
-"top_at": 1795384798.5568094
+"top_at": 1795385412.3219602
 }
