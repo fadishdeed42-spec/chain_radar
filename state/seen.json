@@ -5,8 +5,6 @@
 },
 "init": true,
 "log": [
-1795265522.9477825,
-1795269920.1749113,
 1795271454.5066626,
 1795278818.8535278,
 1795282968.7913425,
@@ -14,7 +12,8 @@
 1795343917.7992148,
 1795344223.7448082,
 1795344833.0991857,
-1795351541.707013
+1795351541.707013,
+1795357641.873624
 ],
 "menu": {
 "00f11667de9c": {
@@ -242,10 +241,9 @@
 "src": "Forbes",
 "srcs": [
 "Coinpaper",
-"CryptoRank",
 "Forbes"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795349283.0,
 "tgtext": "",
 "title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
@@ -640,7 +638,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -1129,7 +1127,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795346322.0,
 "tgtext": "",
 "title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
@@ -1376,16 +1374,17 @@
 },
 "51e4c0c3d283": {
 "coin": "",
-"src": "Crypto News",
+"src": "MLQ.ai",
 "srcs": [
 "Crypto News",
-"NewsCord"
+"Hokanews",
+"MLQ.ai"
 ],
-"t": 1795357032.7668881,
+"t": 1795357945.0033581,
 "t0": 1795344556.0,
 "tgtext": "",
-"title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vVTk5aHpCYlVnVXRqQXVlcFctT3FNYXFRYnE4c2R4ZjJlN3JFNngtak9IT0dmelB2RWJZeTFwbnZfSk45Vjh4ZzBfbkhEeTZDWjBoU2JYVG1BVmNpRDV1c2FyVVdSUGg2R21OQzR4Yw?oc=5",
+"title": "Upbit and Bithumb halt CYBER token transfers after a suspected bridge exploit mints 5 million tokens",
+"url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWXhIZk1tUXBFTWNzSTRKbFMtOXZDRVZqZEptOXNVQm1NSUJ0YzBtWWRvaFZSNnkwSGx2RDM3QnN6ZnduNE9laFNXVld5ZHdTa3R5TnFqWXZIc2s0LUFLYUR1emdzeXp6Q18ySy1iZ3U1emY1N1c1R05scHdtczVpY1VSbmlYNDdhUExOQ0VpcXN0aVhoMEp5MUluRWE3TWY0STBkbnVRVlFaZ0h1TkZFSEJSX3VlNm50dWZjWnRB?oc=5",
 "urls": []
 },
 "535c3f49e936": {
@@ -1611,7 +1610,7 @@
 "CoinGape",
 "CryptoPotato"
 ],
-"t": 1795357335.98041,
+"t": 1795357641.873624,
 "t0": 1795348787.0,
 "tgtext": "",
 "title": "Bitcoin (BTC) Price Prediction: $59.9K Weekly Demand Zone Could Decide Between a $55K Drop and $86K Recovery",
@@ -1883,19 +1882,6 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wOWtTQjVhOHpfRUR3dDlCeGxYcFRMTzNYQmFheTlyakJneTNHNFJJQjhTZ21iSWY4ZEJxVjNSWWpXNnFBSlZ3akR3LWpTQ0k4SUJKakpDcEw?oc=5",
 "urls": []
 },
-"741dab77f932": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795185070.6341562,
-"t0": 1795179674.0,
-"tgtext": "JUST IN: Anthropic $ANT crashes 10% to $87 pre-market following yesterday's IPO.\n\n@WatcherGuru",
-"title": "Anthropic ANT crashes 10% to $87 pre-market following yesterday's IPO.",
-"url": "https://t.me/WatcherGuru/16182",
-"urls": []
-},
 "76920b88039e": {
 "coin": "",
 "src": "Startup Fortune",
@@ -1997,19 +1983,6 @@
 "urls": [
 "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
 ]
-},
-"7d6195058945": {
-"coin": "",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1795185070.6341562,
-"t0": 1795170337.0,
-"tgtext": "Ledger Confirms Physically Tampered Hardware Wallets Found in Berlin, Germany\n\nHardware wallet maker Ledger has updated its investigation into a supply chain tampering incident, confirming physically modified devices in Berlin, Germany. Two suspected devices in Dubai remain under investigation, while one affected Ledger Nano Gen 5 was identified in Southeast Asia.\n\nLedger said the modifications were designed to capture users' recovery phrases during setup. The company emphasized that its secure chips and operating systems were not compromised, and no confirmed cases involve devices purchased directly from its official website. Users concerned about third-party purchases in affected regions are advised to contact official Ledger Support. \u2014 link",
-"title": "Ledger Confirms Physically Tampered Hardware Wallets Found in Berlin, Germany",
-"url": "https://t.me/wublockchainenglish/26896",
-"urls": []
 },
 "7ec92bc4f431": {
 "coin": "",
@@ -2176,7 +2149,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2262,7 +2235,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -2322,7 +2295,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795356299.0,
 "tgtext": "",
 "title": "Michael Saylor hints at another Strategy Bitcoin buy after BTC crash",
@@ -2445,7 +2418,7 @@
 "Crypto News",
 "KuCoin"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795339184.0,
 "tgtext": "",
 "title": "Coins.ph Halts Direct Transfers to Self-Custody Wallets, Implements Travel Rule Compliance",
@@ -3993,6 +3966,19 @@
 "url": "https://t.me/WatcherGuru/16211",
 "urls": []
 },
+"ef42994ba8ea": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795357945.0033581,
+"t0": 1795357362.0,
+"tgtext": "Bloomberg: Trump Memecoin Dinner Returns as Demand Falls and Political Scrutiny Rises\n\nDonald Trump is set to attend another dinner for top TRUMP memecoin holders as participation declines sharply and the token trades about 99% below its 2025 peak. Crypto trader Morten Christensen told Bloomberg that hedging his TRUMP holdings reduced his net cost of qualifying from about $1,200 for the first dinner and $500 for the second to a roughly $6 profit this time.\n\nDemocratic lawmakers have renewed conflict-of-interest concerns over token holders receiving private access to the president, while the White House said the privately organized event is not a government function. \u2014 link",
+"title": "Bloomberg: Trump Memecoin Dinner Returns as Demand Falls and Political Scrutiny Rises",
+"url": "https://t.me/wublockchainenglish/26914",
+"urls": []
+},
 "efc61563fcea": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -4175,7 +4161,7 @@
 "BigGo Finance",
 "TradingView"
 ],
-"t": 1795357335.98041,
+"t": 1795357945.0033581,
 "t0": 1795354500.0,
 "tgtext": "",
 "title": "Bitcoin's $2.5 Billion Liquidation Wave: How Forced Selling Turned a Slide Into a Stampede",
@@ -4238,9 +4224,7 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"0c104d34f563": 0.223,
-"0d7a94845411": 0.228,
-"111e7a6d045d": 0.896,
+"111e7a6d045d": 0.675,
 "11e32c14d161": 0.132,
 "179addbdaf22": 0.164,
 "1b941225a591": 0.131,
@@ -4249,21 +4233,24 @@
 "233705ec6b5d": 0.145,
 "25280f8e1563": 0.267,
 "2a2c6b54d29e": 0.187,
-"34c1fd9879f4": 0.112,
+"34c1fd9879f4": 0.072,
 "37f1a4e759bb": 0.213,
+"3c03e6d5d918": 0.039,
 "3f7ebc24cefe": 0.552,
 "4ac0435a78a3": 0.095,
 "4cf0a3c9e294": 0.129,
-"51e4c0c3d283": 0.238,
+"51e4c0c3d283": 0.509,
 "5eea572ebaaf": 0.087,
 "65787c0d5a78": 0.095,
 "67fdd2816a5d": 0.038,
 "68e8c01259b0": 0.339,
 "6a6b46b37ab0": 0.077,
 "6de5e2997814": 0.136,
+"755485049cd4": 0.093,
 "78f7a83e386d": 0.126,
 "7eec51c23039": 0.161,
 "7f17786ce297": 0.044,
+"812f233f9f11": 0.087,
 "83af08371a26": 0.063,
 "8619a1f78f33": 0.17,
 "88eda230bdb1": 0.765,
@@ -4271,201 +4258,14 @@
 "8d64e48fa6f6": 0.642,
 "8f09f182c1d3": 0.58,
 "9744ce6e821a": 0.353,
-"9fe3b4d7e284": 0.1,
-"b89f28f9e136": 0.05,
+"be46d6f61545": 0.076,
 "c8d8272e32cf": 0.187,
 "c9bf0ba40884": 0.094,
-"cbe1a2983cfc": 0.113,
-"ce118b4751be": 0.095,
+"dd346fd12de7": 0.091,
+"ef42994ba8ea": 0.988,
 "fad28d563ce4": 0.687
 },
 "sent": [
-{
-"e": [
-"coinbase",
-"gemini",
-"vaneck"
-],
-"k": [
-"etf"
-],
-"t": 1795179839.6170082,
-"u": [
-"https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTZMcTZndkZ5ck9rWlNUVjJHOXo0UEh2b3llZEF6WmRpNFFoQUNJNDVUd0U2clU0Y3ZBRFlRZzRhR0psY2xacU1oNkljVGl2dGo2b05JNWNmWVV0cUdxaG56bUg3c2VoTXNiRXl5RUpOdjh2QU5EQUFNQVFuRDRLYTRpMXV1T0RzcHNVQlJ5UmgwejlRZlZ5eVYxLVJfeE1BNVVNNjYzaHUzV181V05FaXYyLXdhajNv?oc=5",
-"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qTU41NmN4RTBLLVI2MUlDaU5Nd1VHaWlYWWd6U01rNGx6eDk1TkdZUV9xZFRWeGZGd0hETmc4Q2FGS2pabHNtbmNsNUVtSmRPRlZLUw?oc=5"
-],
-"w": [
-"coinbase",
-"custody",
-"deals",
-"end",
-"etf",
-"gemini",
-"keeps",
-"vaneck"
-]
-},
-{
-"e": [
-"inflows",
-"institutional",
-"lower",
-"may",
-"qcp",
-"rate",
-"recovery",
-"renewed",
-"require",
-"stabilize",
-"stocks",
-"sustained",
-"tech",
-"volatility"
-],
-"k": [],
-"t": 1795180458.0125222,
-"u": [
-"https://t.me/wublockchainenglish/26897",
-"https://news.google.com/rss/articles/CBMidEFVX3lxTE9WZ2RKMjJ4cGU5N3R5UnFScUhMcVlBSy0xVDRmUTBVcDY3VU1sNWszLXktdkNWVDl0eGszQTBWajVjd0tTSVkycmtjWWJLZW5VcWJ6ZTlMSFVDN0sxSXZlSi1QNHZoRkQ3RWNCc3d5V2dwaU4t?oc=5"
-],
-"w": [
-"btc",
-"inflows",
-"institutional",
-"lower",
-"may",
-"qcp",
-"rate",
-"recovery",
-"renewed",
-"require",
-"stabilize",
-"stocks",
-"sustained",
-"tech",
-"volatility"
-]
-},
-{
-"e": [
-"anthropic",
-"coingecko",
-"control",
-"flags",
-"foundation",
-"hong",
-"hyperliquid",
-"ipo",
-"kong",
-"record",
-"solana",
-"takes",
-"weekly",
-"wublockchain"
-],
-"k": [
-"record"
-],
-"t": 1795181378.6545856,
-"u": [
-"https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMidkFVX3lxTE1CWlc4NTloTlpPdWVZN0FJR1dOM0FKajk2S1hZRUgtN2hCSGkwa0MwNENGQWw1NHVuSWlLVE1RSVZ6S2NzSGZYckxnQy02a1pHVk1ZQjhFVXhSaGVzeG1PT2t2WG5MOUktZlpFd3UxdGQ2OXBidFE?oc=5",
-"https://t.me/wublockchainenglish/26898"
-],
-"w": [
-"anthropic",
-"coingecko",
-"control",
-"flags",
-"foundation",
-"hong",
-"hyperliquid",
-"ipo",
-"kong",
-"record",
-"solana",
-"takes",
-"weekly",
-"wublockchain"
-]
-},
-{
-"e": [
-"ecb",
-"europe",
-"insight",
-"lagarde"
-],
-"k": [],
-"t": 1795182609.5630922,
-"u": [
-"https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
-"https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://t.me/cointelegraph/73410"
-],
-"w": [
-"common",
-"ecb",
-"europe",
-"fragmenting",
-"insight",
-"keep",
-"lagarde",
-"markets",
-"needs",
-"rules",
-"securities",
-"tokenized",
-"warns"
-]
-},
-{
-"e": [
-"tether"
-],
-"k": [],
-"t": 1795182609.5630922,
-"u": [
-"https://t.me/lookonchainchannel/11184"
-],
-"w": [
-"burned",
-"days",
-"past",
-"tether",
-"usdt"
-]
-},
-{
-"e": [
-"coinbase",
-"dollar",
-"gained",
-"month",
-"only",
-"past",
-"performed",
-"while",
-"worst"
-],
-"k": [],
-"t": 1795184764.7366664,
-"u": [
-"https://t.me/wublockchainenglish/26899"
-],
-"w": [
-"coinbase",
-"dollar",
-"gained",
-"month",
-"only",
-"past",
-"performed",
-"while",
-"worst"
-]
-},
 {
 "e": [],
 "k": [
@@ -5773,71 +5573,102 @@
 "trump",
 "worst"
 ]
+},
+{
+"e": [
+"bloomberg",
+"demand",
+"dinner",
+"falls",
+"memecoin",
+"political",
+"returns",
+"rises",
+"scrutiny",
+"trump"
+],
+"k": [],
+"t": 1795357641.873624,
+"u": [
+"https://t.me/wublockchainenglish/26914"
+],
+"w": [
+"bloomberg",
+"demand",
+"dinner",
+"falls",
+"memecoin",
+"political",
+"returns",
+"rises",
+"scrutiny",
+"trump"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"218f702293e9",
-26,
-227,
+"ef42994ba8ea",
+18,
+10,
 1
 ],
 [
-"111e7a6d045d",
-48,
-134,
-3
+"218f702293e9",
+25,
+237,
+1
 ],
 [
 "88eda230bdb1",
-13,
-225,
+11,
+235,
 1
 ],
 [
 "fad28d563ce4",
 66,
-47,
+57,
+2
+],
+[
+"111e7a6d045d",
+38,
+144,
 2
 ],
 [
 "8d64e48fa6f6",
-12,
-212,
+11,
+223,
 1
 ],
 [
 "8f09f182c1d3",
 28,
-17,
+27,
 1
 ],
 [
 "3f7ebc24cefe",
-75,
-184,
+74,
+194,
+3
+],
+[
+"51e4c0c3d283",
+70,
+223,
 3
 ],
 [
 "9744ce6e821a",
-26,
-303,
+25,
+313,
 2
-],
-[
-"68e8c01259b0",
-30,
-142,
-3
-],
-[
-"25280f8e1563",
-20,
-58,
-1
 ]
 ],
-"top_at": 1795357335.98041
+"top_at": 1795357945.0033581
 }
