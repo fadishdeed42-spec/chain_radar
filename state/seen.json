@@ -5,9 +5,6 @@
 },
 "init": true,
 "log": [
-1795258827.7169042,
-1795262563.22401,
-1795263789.0025032,
 1795265522.9477825,
 1795269920.1749113,
 1795271454.5066626,
@@ -16,7 +13,8 @@
 1795288563.4333878,
 1795343917.7992148,
 1795344223.7448082,
-1795344833.0991857
+1795344833.0991857,
+1795351541.707013
 ],
 "menu": {
 "00f11667de9c": {
@@ -121,7 +119,7 @@
 "Crypto News",
 "Startup Fortune"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
@@ -238,6 +236,21 @@
 "urls": [
 "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"111e7a6d045d": {
+"coin": "bitcoin",
+"src": "Forbes",
+"srcs": [
+"Coinpaper",
+"CryptoRank",
+"Forbes"
+],
+"t": 1795351541.707013,
+"t0": 1795349283.0,
+"tgtext": "",
+"title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEdfUVMtY2hLZmlsX19wcTh2Yzdyczh3RDQySGt0T2VwSEZnSlFVZ0Q1U1N3NW5KSkdXenRWVTNYTldabUtmSWJRa2FzME5EZEwwb2NRNlFjTmJOUUlKSTF0S3o1TklCU2xxLWZPU2NXR2Rxbkp3MUctMTNDSG93RUFkNHYyU1R6eTdVWGx6QVJpWVcxU3U5SkZySEZ4Z2E0N3dTZmpB?oc=5",
+"urls": []
 },
 "113f332ee510": {
 "coin": "bitcoin",
@@ -366,7 +379,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795343805.0,
 "tgtext": "",
 "title": "$400M in crypto shorts liquidated as market recovers from crash",
@@ -612,7 +625,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -1279,15 +1292,16 @@
 },
 "4e51468eed69": {
 "coin": "bitcoin",
-"src": "CryptoRank",
+"src": "Forbes",
 "srcs": [
-"CryptoRank"
+"CryptoRank",
+"Forbes"
 ],
-"t": 1795350625.9085152,
+"t": 1795351844.7852683,
 "t0": 1795349370.0,
 "tgtext": "",
-"title": "Peter Schiff Warns of Bitcoin Crash Below $56K",
-"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1JRSWxZSDFvRlAtbTNjQTVHOTVEbXdvZ3ZBZnNOT3NxZHFZa3g2X1daTklrVkk4U1pIUzRMOWJSbmJlMzB2LWxHNGxyYzk1M0lvV2lKUDVOYVM1Ri1MZGRRRlpXUkNVdUxJVTNtS09GcWczVjE0N2JXRUJFQjI4MURIU2xwWEg1dEh3?oc=5",
+"title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEdfUVMtY2hLZmlsX19wcTh2Yzdyczh3RDQySGt0T2VwSEZnSlFVZ0Q1U1N3NW5KSkdXenRWVTNYTldabUtmSWJRa2FzME5EZEwwb2NRNlFjTmJOUUlKSTF0S3o1TklCU2xxLWZPU2NXR2Rxbkp3MUctMTNDSG93RUFkNHYyU1R6eTdVWGx6QVJpWVcxU3U5SkZySEZ4Z2E0N3dTZmpB?oc=5",
 "urls": []
 },
 "4ee533bdd212": {
@@ -1780,7 +1794,7 @@
 "Coinpaper",
 "StreetInsider"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795335416.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can BTC Take Back $60K After BlackRock\u2019s ETF Outflow? AlphaPepe Clears $3,45M Raised",
@@ -2141,7 +2155,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2240,7 +2254,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -2802,32 +2816,16 @@
 "coin": "",
 "src": "CryptoTicker.io",
 "srcs": [
-"Crypto News",
 "CryptoTicker.io",
 "KuCoin",
 "Pluang"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795330349.0,
 "tgtext": "",
 "title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQakk3MEl2Wl9lZlZ2Uno5dkpsYVNjZjczZWV6d3dLMllGd3gxUmt3bnJILTJPUnVpa3VvRkNHUVM2dXF5cGx0RDJqVjdsSXRxR3RTZmxoWm10SEc4WGlJc1V4MGdVazRrLTl1eXppMTJWV2t0OUZVeERUVi0yTVNBUlNPXzM0N0E?oc=5",
 "urls": []
-},
-"acf5ea90cdca": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"The Block"
-],
-"t": 1795178828.3715842,
-"t0": 1795161756.0,
-"tgtext": "",
-"title": "Michael Saylor sees up to $7.5 billion in \u2018natural demand\u2019 for Strategy\u2019s STRC preferred stock",
-"url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190"
-]
 },
 "ad5e17508d43": {
 "coin": "",
@@ -3526,19 +3524,6 @@
 "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaXN2MTgyVnk2dzY4Z1lTdlppNjlWYjdJZ3hEWGo2ektmeVd4a3p4VklUQ1h3a0xHYk1HMFFIVE9iOHB5RWt6b2hrWGpmQ0E3a194NUlGSjg0MV9zYTRaSTlWd0FEc3MyOXBHemNSTVJxZmVEc29kZWg4TjlfbmVRSDFla1dwc3R2QWtwZUd6OEwwRkJ3dURsdHhkQ2NocUw5b1M4ZUVsa1g3LW5LNzlRb0tBcVpHdWtiM2o5M2RMRElGdnMyTXMwNFJDMEdxLWxNSmpTZElId19Dd09fdmtOeUhEMDUzV0VacGlPWUVDdU1TTkJIWTh1bDFFWmVORk95aXln?oc=5",
 "urls": []
 },
-"cd6aa3d1c6d6": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795178828.3715842,
-"t0": 1795157505.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his $TRUMP crypto memecoin on Sunday.\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his TRUMP crypto memecoin on Sunday.",
-"url": "https://t.me/WatcherGuru/16180",
-"urls": []
-},
 "ce6eee56019f": {
 "coin": "ethereum",
 "src": "Coin Gabbar",
@@ -3548,7 +3533,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -4107,7 +4092,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795351235.2310092,
+"t": 1795351844.7852683,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4242,14 +4227,16 @@
 "060a14877279": 0.531,
 "11e32c14d161": 0.132,
 "179addbdaf22": 0.473,
-"1b941225a591": 0.095,
+"1b941225a591": 0.22,
 "21049905a966": 0.208,
 "218f702293e9": 0.811,
 "2a27a9bbbbcf": 0.26,
 "2e6bc052fdfc": 0.225,
 "37f1a4e759bb": 0.092,
-"4e51468eed69": 0.318,
+"4ac0435a78a3": 0.095,
+"4e51468eed69": 0.846,
 "5f0f631b6d24": 0.064,
+"67fdd2816a5d": 0.038,
 "687a6d66ed49": 0.062,
 "6896f77fd588": 0.128,
 "68e8c01259b0": 0.091,
@@ -4263,9 +4250,9 @@
 "88eda230bdb1": 0.765,
 "8d64e48fa6f6": 0.642,
 "946bad1cd5d6": 0.074,
-"9744ce6e821a": 0.483,
+"9744ce6e821a": 0.17,
 "9fe3b4d7e284": 0.187,
-"acb6a9b27936": 0.609,
+"acb6a9b27936": 0.568,
 "b56e1d051632": 0.171,
 "b89f28f9e136": 0.09,
 "bdc90489487b": 0.071,
@@ -4277,49 +4264,6 @@
 "f990565980ce": 0.112
 },
 "sent": [
-{
-"e": [
-"trader"
-],
-"k": [],
-"t": 1795172652.821847,
-"u": [
-"https://t.me/lookonchainchannel/11179"
-],
-"w": [
-"0x70a0",
-"15m",
-"already",
-"aster",
-"days",
-"dex",
-"just",
-"trader"
-]
-},
-{
-"e": [
-"blackrock",
-"coinbaseprime"
-],
-"k": [],
-"t": 1795178522.6572304,
-"u": [
-"https://t.me/lookonchainchannel/11180"
-],
-"w": [
-"$125m",
-"$331m",
-"400",
-"597",
-"blackrock",
-"btc",
-"coinbaseprime",
-"deposit",
-"eth",
-"just"
-]
-},
 {
 "e": [
 "coinbase",
@@ -5774,71 +5718,110 @@
 "just",
 "weeks"
 ]
+},
+{
+"e": [
+"coming",
+"crash",
+"his",
+"low",
+"memecoin",
+"nightmare",
+"shockingly",
+"suddenly",
+"true",
+"trump",
+"worst"
+],
+"k": [
+"crash"
+],
+"t": 1795351541.707013,
+"u": [
+"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkpjMGEyVFZzYUxJd1lnRVpjNFNtLWM4Z2Rnc3VzdVNQZS0xV2FmRFJ3OGt2NGd0V1FBcldlYjlHVHBVS1B3cDRweTgzdEJrWVR3MWlPeF9lUnctWmlacC1iMS14TE9ZQ3NfRlZYb1Z2Qy1zVEM1cFpBeHNIZk9LcDNWekJORUNzVG9hWl9IRl9uNS1OZ1M3V3NB?oc=5",
+"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1JRSWxZSDFvRlAtbTNjQTVHOTVEbXdvZ3ZBZnNOT3NxZHFZa3g2X1daTklrVkk4U1pIUzRMOWJSbmJlMzB2LWxHNGxyYzk1M0lvV2lKUDVOYVM1Ri1MZGRRRlpXUkNVdUxJVTNtS09GcWczVjE0N2JXRUJFQjI4MURIU2xwWEg1dEh3?oc=5",
+"https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEdfUVMtY2hLZmlsX19wcTh2Yzdyczh3RDQySGt0T2VwSEZnSlFVZ0Q1U1N3NW5KSkdXenRWVTNYTldabUtmSWJRa2FzME5EZEwwb2NRNlFjTmJOUUlKSTF0S3o1TklCU2xxLWZPU2NXR2Rxbkp3MUctMTNDSG93RUFkNHYyU1R6eTdVWGx6QVJpWVcxU3U5SkZySEZ4Z2E0N3dTZmpB?oc=5"
+],
+"w": [
+"bitcoin",
+"coming",
+"crash",
+"his",
+"low",
+"memecoin",
+"nightmare",
+"price",
+"shockingly",
+"suddenly",
+"true",
+"trump",
+"worst"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"4e51468eed69",
+46,
+41,
+2
+],
+[
 "218f702293e9",
 32,
-125,
+136,
 1
 ],
 [
 "88eda230bdb1",
 18,
-123,
+133,
 1
 ],
 [
 "8d64e48fa6f6",
 16,
-111,
+121,
 1
 ],
 [
 "acb6a9b27936",
-63,
-348,
-4
-],
-[
-"060a14877279",
-57,
-317,
+52,
+358,
 3
 ],
 [
-"9744ce6e821a",
-40,
-201,
-2
+"060a14877279",
+56,
+327,
+3
 ],
 [
 "179addbdaf22",
 41,
-124,
+134,
 1
 ],
 [
 "ce6eee56019f",
-68,
-311,
+67,
+321,
 4
 ],
 [
 "f416d8f38575",
-8,
-308,
+7,
+318,
 1
 ],
 [
 "72486101459b",
-41,
-264,
+40,
+274,
 2
 ]
 ],
-"top_at": 1795351235.2310092
+"top_at": 1795351844.7852683
 }
