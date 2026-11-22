@@ -49,7 +49,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795364909.0,
 "tgtext": "JUST IN: Bitcoin reclaims $61,000 and ETH reclaims $1,715\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Bitcoin reclaims $61,000 and ETH reclaims $1,715",
@@ -84,6 +84,19 @@
 "tgtext": "",
 "title": "Strategy's Bitcoin Holdings Entirely Unpledged; $35.9 Billion Net Reserve Eliminates Liquidation Risk",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CR25wc2RPcDhTeGlCazYxTW5NR0VSY214MWVSbU9ZT3RoM05uZ0tDWlZDVW1LTUJrcmFMWncyZTFhMmJlUGNteWFvakxrWldaeUQ2cU4yWXZkbmVQUkYxSlFnVDdWQnByd204QjhaYVhCVGFmTnc?oc=5",
+"urls": []
+},
+"04c8af23166d": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795380315.1253273,
+"t0": 1795363062.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats plan to reverse President Donald Trump's tax cuts after taking control of Congress next year.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Democrats plan to reverse President Donald Trump's tax cuts after taking control of Congress next year.",
+"url": "https://t.me/WatcherGuru/16244",
 "urls": []
 },
 "056ec8898d25": {
@@ -266,7 +279,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795364191.0,
 "tgtext": "JUST IN: Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.",
@@ -719,7 +732,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795372352.0,
 "tgtext": "\u26a1 UPDATE: The S&P 500 has almost wiped out its entire 2026 gain.\n\nNews | Markets | YouTube",
 "title": "The S&P 500 has almost wiped out its entire 2026 gain.",
@@ -732,7 +745,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795363581.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: One trader got into Trump's memecoin gala for the third time by buying $TRUMP and shorting it at the same time, and this round he walked away $6 richer.\n\nNews | Markets | YouTube",
 "title": "One trader got into Trump's memecoin gala for the third time by buying TRUMP and shorting it at the same time, and this round he walked away $6 richer.",
@@ -807,7 +820,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795374303.0,
 "tgtext": "",
 "title": "Wagyu\u2019s $13.5 million token crash exposes another coin with 99.9% held by one wallet",
@@ -1748,7 +1761,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795379461.0,
 "tgtext": "\ud83d\udea8 PAIN: The crypto fear and greed index has not been this low since February 2026.\n\nNews | Markets | YouTube",
 "title": "PAIN: The crypto fear and greed index has not been this low since February 2026.",
@@ -1831,7 +1844,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795368378.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"",
@@ -2231,7 +2244,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795376887.0,
 "tgtext": "JUST IN: OpenAI Chief Scientist calls to limit AI development.\n\n@WatcherGuru",
 "title": "OpenAI Chief Scientist calls to limit AI development.",
@@ -3544,7 +3557,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795379701.2878256,
+"t": 1795380315.1253273,
 "t0": 1795367008.0,
 "tgtext": "JUST IN: Elon Musk says Tesla's $TSLA humanoid robot Optimus will be the \"best product of all time.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Elon Musk says Tesla's TSLA humanoid robot Optimus will be the \"best product of all time.\"",
@@ -3932,6 +3945,8 @@
 },
 "probs": {
 "01d1eecca90b": 0.012,
+"04c8af23166d": 0.287,
+"0585c51d7cd9": 0.021,
 "155d7b73dcfc": 0.014,
 "15d1af42bba3": 0.014,
 "1734fcbbcc70": 0.023,
@@ -3947,16 +3962,14 @@
 "4dd10cd3f7c6": 0.045,
 "5ae7ef469f2b": 0.02,
 "690757ebe3b4": 0.035,
-"738a9286a2df": 0.387,
+"738a9286a2df": 0.323,
 "75ca59dd3546": 0.029,
 "7ae6286ace76": 0.844,
-"82ba8f4bf1b4": 0.017,
 "884a50e338f5": 0.059,
 "8ace129d4051": 0.017,
 "8d25b7e33364": 0.015,
 "92ad7c9a3d18": 0.13,
 "9334a66d5502": 0.013,
-"a160c1de8db4": 0.008,
 "a83fadb396e2": 0.02,
 "bd10aca1bbf5": 0.017,
 "cd3442edda4d": 0.011,
@@ -5159,64 +5172,64 @@
 "top": [
 [
 "7ae6286ace76",
-27,
-189,
+26,
+199,
 1
 ],
 [
 "26c1314dc572",
-7,
-269,
+5,
+279,
 1
 ],
 [
 "261c58e25af8",
 10,
-122,
+133,
 1
 ],
 [
 "738a9286a2df",
 10,
-4,
+14,
 1
 ],
 [
 "12d8f8d2c7d3",
 0,
-259,
+269,
 1
 ],
 [
-"992d2cc73b29",
-5,
-359,
-2
+"04c8af23166d",
+4,
+288,
+1
 ],
 [
 "e7910fa5509d",
-14,
-212,
+13,
+222,
 1
 ],
 [
 "029284ec4eec",
-2,
-247,
+0,
+257,
 1
 ],
 [
 "92ad7c9a3d18",
 10,
-47,
+57,
 1
 ],
 [
 "2b23e9d30387",
 26,
-90,
+100,
 1
 ]
 ],
-"top_at": 1795379701.2878256
+"top_at": 1795380315.1253273
 }
