@@ -53,7 +53,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795289570.0,
 "tgtext": "JUST IN: Elon Musk's Tesla $TSLA officially begins rolling out FSD v15.\n\n@WatcherGuru",
 "title": "Elon Musk's Tesla TSLA officially begins rolling out FSD v15.",
@@ -662,7 +662,7 @@
 "Coin Edition",
 "The Block"
 ],
-"t": 1795307657.227461,
+"t": 1795308575.7086682,
 "t0": 1795287074.0,
 "tgtext": "",
 "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
@@ -832,7 +832,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795300500.0,
 "tgtext": "",
 "title": "Bitcoin Rebounds Above $60,000 After $2.4 Billion Liquidation Wave Wipes Out Leveraged Bets",
@@ -999,7 +999,7 @@
 "BigGo Finance",
 "Cryptonews.net"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795289139.0,
 "tgtext": "",
 "title": "Ethereum Whale's $214 Million Aave Debt Nears Liquidation at $1,401",
@@ -1028,16 +1028,17 @@
 },
 "40c6ddba5ca7": {
 "coin": "bitcoin",
-"src": "CoinDesk",
+"src": "StreetInsider",
 "srcs": [
 "CoinDesk",
-"Coinpaper"
+"Coinpaper",
+"StreetInsider"
 ],
-"t": 1795307047.4833488,
+"t": 1795308272.366949,
 "t0": 1795291504.0,
 "tgtext": "",
-"title": "Bitcoin rises 9% from two-year low, reclaiming $60,000 as forced selling eases",
-"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPazQwdWlpUGFEeW94QjNwc09ZYzFHblczcTFvUEI3SzdwMTE4cWw4T0RlcFhJcE50cWhhcWVaWnVxekgzVWJDWjNpWTJoZnEwcDBmVHA4NUZyVi1rNUU0dkRFZkpOMkZrYlBseEN4WWFFenlSbFJZVXp3REFlaUZ1UjNGTjdELVhDalhvd1lFNGJMUHktUlpDOWtCajF3TmZKYy1XOURObVAySU9yRS1Oclc2QTZaR2J5WGhpcXpoRWowaFJEUnpwUEFXYXNtYWs?oc=5",
+"title": "Bitcoin News: BTC Hits a Two-Year Low at $55,830 as AlphaPepe Stage 21 Nears Sellout",
+"url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSWZqRmNPbWFENEpQMXB1VXBVaDk5QlR4MC12N0E0WlF6cGV6Y19oUDBiWEFGTWh1dTJjU29WeUFCVGN4VHBJbjZGMGU0TEJrcVJndUdrYzdWdXVacnA0TUxMQ3EzaXRPbGJtbGE3X0l4UjR4S01qVGp1SWVRZW8tc0FxQkRnWm1UZnhBRkNUckR4ekZDVmhDc3NuS3pXT1ltbU9IS3NWNEUzQnJKMjlFT2RlZmxoYVRzRTlmYjBVZkhQbkpNelhtcmU3alB3eWJ6emVEYnRlNkloQUdTYWRGYXd6Wlg?oc=5",
 "urls": []
 },
 "40fb1d16df67": {
@@ -1506,7 +1507,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795302257.0,
 "tgtext": "\ud83d\udd25 BIG: Tether-backed Twenty One Capital bought another 172.25 $BTC for $10M at about $58,054 each, its second dip buy this week.\n\nTotal stack is now 43,841 BTC.\n\nNews | Markets | YouTube",
 "title": "BIG: Tether-backed Twenty One Capital bought another 172.25 BTC for $10M at about $58,054 each, its second dip buy this week.",
@@ -1721,7 +1722,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795291325.0,
 "tgtext": "\ud83d\udea8 WILD: Nvidia went from the top company ranked by Market Cap to number 4 in less than a month.\n\nNews | Markets | YouTube",
 "title": "WILD: Nvidia went from the top company ranked by Market Cap to number 4 in less than a month.",
@@ -2450,6 +2451,21 @@
 "url": "https://t.me/cointelegraph/73409",
 "urls": []
 },
+"ab083c7b99cf": {
+"coin": "ethereum",
+"src": "FXEmpire",
+"srcs": [
+"CryptoRank",
+"Cryptonews.net",
+"FXEmpire"
+],
+"t": 1795308575.7086682,
+"t0": 1795287272.0,
+"tgtext": "",
+"title": "Ethereum Price Prediction: ETH Could Experience a Relief Rally to $1.9K as Daily RSI Flashes Oversold",
+"url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcEl2N0xPQW5Hd1Bfa25yYWdTb0plYmY5X3ViaHU5SkY3dDg0Rzlpck9RNVFnRF8yOXZKNHpmNlZKU05QU1pnSFFtTVdmSFhOUmtwODhvLUlvUUF0TlNRRHhmVWFMbGhQUEszRW54ZEpFZ1I5ZF9ZSktrVW9DdERFcW11MG0ya1VkOWlSM0N5MXdVWVlJY2U0cGwtU1AtcGxrNHlvSS1MTTVzWXdsNWhkd3pKcUdsU21iTW9ubjV3dFhRYnlNWEJzT3pKWDJ4RktKdzlRd1MzOUdqSmF2YWZLZy1YTVA?oc=5",
+"urls": []
+},
 "ab9b9ffee484": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2579,7 +2595,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795288410.0,
 "tgtext": "",
 "title": "Vitalik Buterin Raises Racism Concerns Over Netflix\u2019s CZ Portrayal",
@@ -2667,7 +2683,7 @@
 "CryptoSlate",
 "Watcher.Guru"
 ],
-"t": 1795307959.844832,
+"t": 1795308575.7086682,
 "t0": 1795290003.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.\n\n@WatcherGuru",
 "title": "Russia allows Bitcoin trading as sanctioned Moscow Exchange prepares December launch",
@@ -2955,8 +2971,8 @@
 "srcs": [
 "The Defiant"
 ],
-"t": 1795307959.844832,
-"t0": 1795286820.0,
+"t": 1795308575.7086682,
+"t0": 1795290012.0,
 "tgtext": "",
 "title": "Cyber Warns Against Bridge Use After Unexpected Minting",
 "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaWQ4VHNTakluSjRrckduS1U1VWRNMlZfNkZsaDZqUGVaX2J0YmtFS3dJejY5SGhzTUdvWUdzN2s2eGRwUl9ZYXFULVJxamEwdFlxNlAxVEhHN1dTdjdFazlQSEFqeTVqVlpTQlV4dlBJcTAyTFhsOTRNMkdJTG1Lb3RlZi05ak8zNmd5d0c0SU5nQQ?oc=5",
@@ -3934,35 +3950,36 @@
 "023c3bf689da": 0.337,
 "08be9b0acbeb": 0.044,
 "17b39805b44b": 0.055,
+"25fb6dbfef89": 0.326,
 "2a7453cbb938": 0.049,
-"2fa213268021": 0.055,
+"2b062ee5daf3": 0.031,
 "33e216bb781e": 0.296,
+"3b7f90e451a7": 0.032,
 "3fd167bcbbc5": 0.151,
 "40c6ddba5ca7": 0.093,
 "45269573a6bb": 0.049,
-"5a2d4e49c76e": 0.024,
-"5c35c2732322": 0.06,
+"57731881061f": 0.044,
 "634b90177a66": 0.072,
 "6a1646ab96ee": 0.559,
-"748075095b33": 0.071,
+"748075095b33": 0.089,
 "77df64072e5b": 0.386,
-"7ec3e27aec86": 0.035,
+"7ec3e27aec86": 0.02,
 "8b0f3a536a88": 0.095,
 "8b9de3e468f0": 0.04,
 "8e11bcced91d": 0.055,
 "97aba31accf8": 0.051,
+"ab083c7b99cf": 0.127,
 "b1aaa9ebdd93": 0.147,
 "b57793fe6170": 0.096,
-"b85d7957d205": 0.051,
-"c3c493ede89d": 0.046,
 "c6cf90e6507a": 0.017,
 "c711b060f50f": 0.139,
-"cc4009c3d660": 0.474,
 "d2193f1e8019": 0.012,
-"d61828992bf5": 0.053,
+"dab18a78f1dc": 0.042,
+"e0529112cc9b": 0.039,
+"e7d45780f1cb": 0.013,
 "e9dd9497e74d": 0.051,
 "f037c0583b8c": 0.025,
-"fa7f42d7ea28": 0.055
+"fc9acb3fcaba": 0.024
 },
 "sent": [
 {
@@ -5941,63 +5958,63 @@
 [
 "6a1646ab96ee",
 24,
-95,
+105,
 1
-],
-[
-"cc4009c3d660",
-53,
-348,
-3
 ],
 [
 "77df64072e5b",
 0,
-277,
+288,
 1
 ],
 [
 "023c3bf689da",
-2,
-306,
+0,
+317,
 1
+],
+[
+"25fb6dbfef89",
+42,
+358,
+2
 ],
 [
 "33e216bb781e",
 40,
-124,
+135,
 1
 ],
 [
 "3fd167bcbbc5",
-32,
-314,
+30,
+324,
 2
 ],
 [
 "b1aaa9ebdd93",
 0,
-326,
+336,
 1
 ],
 [
 "c711b060f50f",
 0,
-352,
+309,
 1
+],
+[
+"ab083c7b99cf",
+32,
+355,
+3
 ],
 [
 "b57793fe6170",
-5,
-299,
+3,
+310,
 2
-],
-[
-"8b0f3a536a88",
-8,
-202,
-1
 ]
 ],
-"top_at": 1795307959.844832
+"top_at": 1795308575.7086682
 }
