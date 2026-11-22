@@ -119,7 +119,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795333241.918417,
+"t": 1795333547.9696343,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
@@ -509,7 +509,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795333241.918417,
+"t": 1795333851.0495749,
 "t0": 1795312529.0,
 "tgtext": "Abraxas Capital bought over $1B worth of $BTC as the price dropped below $60,000!\n\nThey withdrew a total of 17,597 $BTC ($1.04B) from #Binance and #Kraken at an average price of $59,206.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital bought over $1B worth of BTC as the price dropped below $60,000!",
@@ -523,7 +523,7 @@
 "Koin B\u00fclteni",
 "Wu Blockchain"
 ],
-"t": 1795333241.918417,
+"t": 1795333851.0495749,
 "t0": 1795314305.0,
 "tgtext": "Philippines' Largest Crypto Exchange Coins ph Halts Transfers to and from Self-Custody Wallets\n\nCoins ph, the Philippines\u2019 largest cryptocurrency exchange, announced that effective November 19, it no longer supports direct crypto deposits or withdrawals involving self-custody wallets. Users may only transfer assets to or from accounts at other regulated exchanges. Under the Bangko Sentral ng Pilipinas (BSP) Travel Rule requirements, all external transfers, regardless of amount, require counterparty details, wallet type, exchange platform, and transaction purpose. Incoming deposits will be credited only after the required information is verified. \u2014 link",
 "title": "Philippines' Largest Crypto Exchange Coins ph Halts Transfers to and from Self-Custody Wallets",
@@ -565,7 +565,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795333241.918417,
+"t": 1795333851.0495749,
 "t0": 1795313123.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Top Democrat threatens to cut government funding for Elon Musk's SpaceX $SPCX.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Top Democrat threatens to cut government funding for Elon Musk's SpaceX SPCX.",
@@ -1468,6 +1468,19 @@
 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeEtfcFVLa1VXbTlfXzhxYjRDSlJNeVVteDlBTWxvdDNKMEdtS0VRVFYwMjBmYU5tUHEwbDByMDBUTEdabEgybGJLd081UFdJLTQ2bGJMU21Fckp0Q3FFY3czbFFjN3ltb1ptVDlrOThPMUozblhSdUNxVGtLd3MwcjJiQWJGYkRQX2lHaHJOTTdURm9FN2RwcEpaM2ZXcDVJVmd3NVY5WkVvYjNLODVBV0RUS2FLZE1ITUlUTnV4MFE?oc=5",
 "urls": []
 },
+"6132a2dd0313": {
+"coin": "bitcoin",
+"src": "CryptoRank",
+"srcs": [
+"CryptoRank"
+],
+"t": 1795333851.0495749,
+"t0": 1795324961.0,
+"tgtext": "",
+"title": "Bitcoin Hits $55,000 as $1.89B Longs Liquidate; $60,000 Now Resistance",
+"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYVNpSTZ4MXVrRzBPTXRQbVpUaVBEaTZ0VnotVHAzcWRGd0laeUdabUFkbUlLRjY3ei1IMXV1SG85aTVUNmk3NTVzWWRFNVFhWjMtdDNTcTliYTh2Yy1YTk5WUlBBNEdvOE1nS2lDSnRWekZuYTloT19IcHhlb0ZDSzcwZzFnYkE?oc=5",
+"urls": []
+},
 "62aeeb86e532": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1791,7 +1804,7 @@
 "KuCoin",
 "TradingView"
 ],
-"t": 1795332938.832711,
+"t": 1795333851.0495749,
 "t0": 1795325280.0,
 "tgtext": "",
 "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
@@ -2181,6 +2194,23 @@
 "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnTnJiRnRxWHNfMzI4YTZ2WkRFaW5yUk5Rc3lheldTNjVNZHlzYWE1dTVvLXJNSDkwTGczMWtiTk1LQS1TQk5yWTNEMXdDZE5TV0tGdjQzX0dnSGM?oc=5",
 "urls": []
 },
+"8efaa65807be": {
+"coin": "",
+"src": "TradingView",
+"srcs": [
+"Cointelegraph",
+"Startup Fortune",
+"TradingView"
+],
+"t": 1795333851.0495749,
+"t0": 1795332240.0,
+"tgtext": "",
+"title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
+"url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN1VuZ1lZYjNrYnlhWE13T2NoM19yS1FEY3hzNUlobjNEY05na0szS055anZDQzZSVlc2dXN5bURnYV84RGN6d0QyWnFveDBCeWxlTWtuOVAzVzU0ZkdNeXdPYklwcWQtVkpzM0hlOWw4WVAxbzlTalFKR0RUVU1jSGNvX1FjS09jTUpXbUZZcGJBZ3RraDc2ZXVXMzA0djNTVi1YQ056cXJKZlBUai1uSTVsMElIMHhlazdfN0xYZmhCS1V0U05vRU40djA3QVBUVUxj?oc=5",
+"urls": [
+"https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "90b3289def34": {
 "coin": "",
 "src": "KuCoin",
@@ -2297,7 +2327,7 @@
 "Pluang",
 "TradingView"
 ],
-"t": 1795332938.832711,
+"t": 1795333851.0495749,
 "t0": 1795319280.0,
 "tgtext": "",
 "title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
@@ -2522,7 +2552,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1795333241.918417,
+"t": 1795333547.9696343,
 "t0": 1795320809.0,
 "tgtext": "",
 "title": "Robert Kiyosaki Urges Buyers to Wait Out the Crash as Bitcoin Plummets",
@@ -2815,7 +2845,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795333241.918417,
+"t": 1795333851.0495749,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -2865,19 +2895,6 @@
 "tgtext": "",
 "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FYnQ4VlhQQzk4aXhyWG5ld3NBUE5sQzh2QjZqSWVIZUYya0xYbkw0eUZoV0RlTDlzd0hST29TVDAyZEdwZzFBQU80QkhiblI5VkJNVQ?oc=5",
-"urls": []
-},
-"b6acc532e443": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1795160643.7966745,
-"t0": 1795139196.0,
-"tgtext": "James Wynn(@JamesWynnReal) got liquidated 5 times during the market drop!\n\nHe still holds ~$3.14M in $BTC and $SP500 longs.\n\nLiquidation prices:\n$BTC: $60,177.61\n$SP500: $7,047.46\n\nhttps://hypurrscan.io/address/0x5078C2fBeA2b2aD61bc840Bc023E35Fce56BeDb6#perps",
-"title": "James Wynn(@JamesWynnReal) got liquidated 5 times during the market drop!",
-"url": "https://t.me/lookonchainchannel/11166",
 "urls": []
 },
 "b85d7957d205": {
@@ -3013,7 +3030,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795333241.918417,
+"t": 1795333851.0495749,
 "t0": 1795313094.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa JUST IN: Russia's Communist Party lawmakers want crypto seized in criminal cases added to the national gold and FX reserves, while insisting \"the state treasury is not a platform for gambling.\"\n\nNews | Markets | YouTube",
 "title": "Russia's Communist Party lawmakers want crypto seized in criminal cases added to the national gold and FX reserves, while insisting \"the state treasury is not a platform for gambling.\"",
@@ -3083,7 +3100,7 @@
 "srcs": [
 "CEO Economy"
 ],
-"t": 1795333241.918417,
+"t": 1795333547.9696343,
 "t0": 1795312800.0,
 "tgtext": "",
 "title": "Crypto week in review: bitcoin's 12% drop, a record IBIT outflow and a 30% slide in Strategy shares",
@@ -3362,6 +3379,19 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his $TRUMP crypto memecoin on Sunday.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump to host exclusive dinner for top holders of his TRUMP crypto memecoin on Sunday.",
 "url": "https://t.me/WatcherGuru/16180",
+"urls": []
+},
+"ce6eee56019f": {
+"coin": "ethereum",
+"src": "Coin Gabbar",
+"srcs": [
+"Coin Gabbar"
+],
+"t": 1795333851.0495749,
+"t0": 1795332600.0,
+"tgtext": "",
+"title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
+"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbWlXSEk4TGtQLXdPQm9zRTBxVEFlMXRLVFhVZ3dtdmk2RG9BS1oxRFY1dG1lenhKMDlXQ240QnlJUHpycU4xdXczYjV1MEtRU0pUOXB2TnpONVhMLXlzdnMyOS1lRVJQRmxjczc0dXB3eGZYSkd4Q1dXWldRdVdLeGtkd3RGUm9vNVFwSExuSFRMaVU?oc=5",
 "urls": []
 },
 "ce7af00053a8": {
@@ -3716,7 +3746,7 @@
 "KuCoin",
 "Pluang"
 ],
-"t": 1795333241.918417,
+"t": 1795333547.9696343,
 "t0": 1795320504.0,
 "tgtext": "",
 "title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
@@ -4103,34 +4133,38 @@
 },
 "probs": {
 "02a4baf39975": 0.025,
-"060a14877279": 0.249,
 "0666f7e78545": 0.076,
 "0c7392c21230": 0.072,
 "1cd7ef526572": 0.953,
-"1d984a98e410": 0.398,
+"1d984a98e410": 0.718,
 "1eda18d538e4": 0.24,
 "2756a4547b6e": 0.02,
 "2e6bc052fdfc": 0.038,
 "316c80d81280": 0.02,
 "33057e26f9c3": 0.031,
-"3a8011828165": 0.031,
+"3a8011828165": 0.039,
 "4a1dab444c76": 0.064,
 "4d3184a31361": 0.039,
+"5f0f631b6d24": 0.025,
+"6132a2dd0313": 0.157,
 "6e3c3887b056": 0.077,
 "72486101459b": 0.024,
+"76920b88039e": 0.403,
 "8465c54a22a7": 0.022,
-"98d8731281f5": 0.141,
+"8efaa65807be": 0.321,
+"978595d0b279": 0.29,
+"9942c779b124": 0.104,
 "a2d052cd400a": 0.035,
 "a741d6f7e9e7": 0.142,
-"a94482dc444f": 0.078,
 "af63b37bc9a6": 0.069,
 "b41028a1f6a9": 0.379,
-"b5dbeebe8abc": 0.028,
+"b56e1d051632": 0.043,
 "c0b2648ebcbc": 0.037,
 "c31fc8ccfb9f": 0.243,
+"c4d6608e9a51": 0.106,
 "c5b1e933acbe": 0.15,
 "c796a89dc8d2": 0.131,
-"e7c77a118304": 0.544,
+"ce6eee56019f": 0.165,
 "faaead5f18ed": 0.057
 },
 "sent": [
@@ -5947,64 +5981,64 @@
 "top": [
 [
 "1cd7ef526572",
-3,
-345,
+2,
+355,
 1
 ],
 [
-"e7c77a118304",
-57,
-212,
-3
+"1d984a98e410",
+23,
+326,
+2
 ],
 [
-"1d984a98e410",
-24,
-316,
-2
+"76920b88039e",
+61,
+143,
+3
 ],
 [
 "b41028a1f6a9",
 18,
-71,
+81,
 1
 ],
 [
-"060a14877279",
-55,
-17,
-1
+"8efaa65807be",
+83,
+27,
+3
+],
+[
+"978595d0b279",
+43,
+243,
+2
 ],
 [
 "c31fc8ccfb9f",
 0,
-336,
+346,
 1
 ],
 [
 "1eda18d538e4",
 0,
-335,
+345,
 1
 ],
 [
-"c5b1e933acbe",
-1,
-341,
+"ce6eee56019f",
+43,
+21,
 1
 ],
 [
-"a741d6f7e9e7",
-17,
-207,
-1
-],
-[
-"98d8731281f5",
-5,
-354,
+"6132a2dd0313",
+40,
+148,
 1
 ]
 ],
-"top_at": 1795333241.918417
+"top_at": 1795333851.0495749
 }
