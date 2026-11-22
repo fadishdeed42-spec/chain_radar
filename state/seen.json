@@ -118,7 +118,7 @@
 "Cointelegraph",
 "Startup Fortune"
 ],
-"t": 1795340551.3151865,
+"t": 1795341161.3654282,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
@@ -252,7 +252,7 @@
 "Cointelegraph",
 "KuCoin"
 ],
-"t": 1795340551.3151865,
+"t": 1795340857.2860541,
 "t0": 1795325323.0,
 "tgtext": "",
 "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
@@ -947,7 +947,7 @@
 "srcs": [
 "CryptoRank"
 ],
-"t": 1795337203.0180595,
+"t": 1795341161.3654282,
 "t0": 1795320952.0,
 "tgtext": "",
 "title": "Bitcoin tops $60,000 after crash: What could sustain the recovery",
@@ -1580,8 +1580,8 @@
 "srcs": [
 "CoinMarketCap"
 ],
-"t": 1795340248.1592958,
-"t0": 1795324028.0,
+"t": 1795341161.3654282,
+"t0": 1795334532.0,
 "tgtext": "",
 "title": "Bitcoin Price Falls Below 200-Day Average to Lowest Since August",
 "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObjd4UzlNXzBWZTd5SmpIbjlZOXdvNTE5ZGNtOHFWTVFnemV3VWo5UlRtQUhKQUs2NWx3RHZVN3VZLTNMSkNlc3J6amV5OW1iQlNsZEF5emNNanpTMGU0M3ZLcjhsZEF0UTFwZ21kTC16aHMzOUtmTHpqaE5OSm5WUzFfSjVuVnJMSjJR?oc=5",
@@ -2304,7 +2304,7 @@
 "Pluang",
 "TradingView"
 ],
-"t": 1795340551.3151865,
+"t": 1795340857.2860541,
 "t0": 1795319280.0,
 "tgtext": "",
 "title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
@@ -2389,7 +2389,7 @@
 "Crypto News",
 "CryptoRank"
 ],
-"t": 1795340551.3151865,
+"t": 1795341161.3654282,
 "t0": 1795336791.0,
 "tgtext": "",
 "title": "Bitcoin price stalls near $60K as Pi Network rebounds, VVV jumps 20%: Market watch",
@@ -2597,7 +2597,7 @@
 "srcs": [
 "LCX Exchange"
 ],
-"t": 1795340551.3151865,
+"t": 1795341161.3654282,
 "t0": 1795321008.0,
 "tgtext": "",
 "title": "Fluidkey Says Unpatched Tool Enabled $1.6 Million Hack",
@@ -2849,7 +2849,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795340551.3151865,
+"t": 1795341161.3654282,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -3260,9 +3260,10 @@
 "coin": "bitcoin",
 "src": "TradingView",
 "srcs": [
+"CoinGape",
 "TradingView"
 ],
-"t": 1795340248.1592958,
+"t": 1795341161.3654282,
 "t0": 1795319580.0,
 "tgtext": "",
 "title": "Arthur Hayes Says Bitcoin's Break Below Local Low Puts $50,000 In Play If Nasdaq Keeps Falling",
@@ -3419,7 +3420,7 @@
 "Arise News",
 "Coin Gabbar"
 ],
-"t": 1795340551.3151865,
+"t": 1795341161.3654282,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -3762,7 +3763,7 @@
 "KuCoin",
 "Pluang"
 ],
-"t": 1795340248.1592958,
+"t": 1795341161.3654282,
 "t0": 1795320504.0,
 "tgtext": "",
 "title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
@@ -4004,7 +4005,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795340551.3151865,
+"t": 1795341161.3654282,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4148,39 +4149,42 @@
 "sky": 1795122033.1506746
 },
 "probs": {
+"016579a9c613": 0.103,
 "02a4baf39975": 0.017,
 "03b5cd2b559b": 0.036,
 "060a14877279": 0.326,
-"0f4b00dfc569": 0.285,
-"1b941225a591": 0.035,
+"0666f7e78545": 0.066,
+"15c766552b13": 0.084,
+"1b587c175072": 0.039,
+"1b941225a591": 0.072,
+"1f5531644712": 0.079,
 "2756a4547b6e": 0.031,
-"2e6bc052fdfc": 0.012,
+"2e6bc052fdfc": 0.047,
 "316c80d81280": 0.032,
-"33057e26f9c3": 0.039,
-"4a1dab444c76": 0.079,
+"37f1a4e759bb": 0.057,
+"39ae8dfb755f": 0.132,
+"4a1dab444c76": 0.044,
 "4b44c8d35485": 0.066,
 "4d3184a31361": 0.061,
-"4f581e500416": 0.051,
-"687a6d66ed49": 0.031,
-"6e3c3887b056": 0.096,
+"6132a2dd0313": 0.121,
+"687a6d66ed49": 0.03,
+"6d587f5e3891": 0.15,
 "72486101459b": 0.041,
 "7781eafc3292": 0.061,
 "7f17786ce297": 0.039,
 "8465c54a22a7": 0.035,
-"85a87bb2d296": 0.043,
 "9744ce6e821a": 0.075,
-"978595d0b279": 0.232,
 "9fe3b4d7e284": 0.205,
+"a2d052cd400a": 0.055,
 "a94482dc444f": 0.221,
+"ae91e371b99b": 0.067,
 "b41028a1f6a9": 0.167,
-"b56e1d051632": 0.045,
 "b5dbeebe8abc": 0.035,
-"ba71f2f076b9": 0.144,
 "c0b2648ebcbc": 0.047,
+"c989344d35dd": 0.186,
 "ce6eee56019f": 0.374,
-"da19b08779c8": 0.033,
-"f416d8f38575": 0.324,
-"faaead5f18ed": 0.088
+"e7c77a118304": 0.696,
+"f416d8f38575": 0.324
 },
 "sent": [
 {
@@ -5995,65 +5999,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"e7c77a118304",
+40,
+344,
+3
+],
+[
 "ce6eee56019f",
 65,
-133,
+143,
 2
 ],
 [
 "060a14877279",
 65,
-138,
+149,
 2
 ],
 [
 "f416d8f38575",
 25,
-130,
+140,
 1
 ],
 [
-"0f4b00dfc569",
-42,
-254,
-2
-],
-[
-"978595d0b279",
-28,
-355,
-2
-],
-[
 "a94482dc444f",
-22,
-326,
+21,
+336,
 1
 ],
 [
 "9fe3b4d7e284",
 20,
-63,
+73,
+2
+],
+[
+"c989344d35dd",
+0,
+360,
 2
 ],
 [
 "b41028a1f6a9",
-17,
-193,
+15,
+203,
 1
 ],
 [
-"ba71f2f076b9",
-22,
-8,
+"6d587f5e3891",
+10,
+110,
 1
 ],
 [
-"6e3c3887b056",
+"39ae8dfb755f",
 0,
-350,
+337,
 1
 ]
 ],
-"top_at": 1795340551.3151865
+"top_at": 1795341161.3654282
 }
