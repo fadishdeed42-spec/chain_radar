@@ -118,7 +118,7 @@
 "Cointelegraph",
 "Startup Fortune"
 ],
-"t": 1795342379.6989024,
+"t": 1795343200.0777507,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
@@ -471,7 +471,7 @@
 "Crypto Briefing",
 "TradingView"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795339986.0,
 "tgtext": "",
 "title": "Kraken upholds trades after Bitcoin briefly drops to $17K on its CAD markets",
@@ -518,20 +518,6 @@
 "tgtext": "Philippines' Largest Crypto Exchange Coins ph Halts Transfers to and from Self-Custody Wallets\n\nCoins ph, the Philippines\u2019 largest cryptocurrency exchange, announced that effective November 19, it no longer supports direct crypto deposits or withdrawals involving self-custody wallets. Users may only transfer assets to or from accounts at other regulated exchanges. Under the Bangko Sentral ng Pilipinas (BSP) Travel Rule requirements, all external transfers, regardless of amount, require counterparty details, wallet type, exchange platform, and transaction purpose. Incoming deposits will be credited only after the required information is verified. \u2014 link",
 "title": "Philippines' Largest Crypto Exchange Coins ph Halts Transfers to and from Self-Custody Wallets",
 "url": "https://t.me/wublockchainenglish/26910",
-"urls": []
-},
-"1dfcad01761a": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"Cryptonews",
-"Wu Blockchain"
-],
-"t": 1795170193.179803,
-"t0": 1795153615.0,
-"tgtext": "Spot Bitcoin ETFs See $582 Million in Net Outflows on November 19, Marking Third Consecutive Day\n\nOn November 19 (ET), spot Bitcoin ETFs recorded total net outflows of $582 million, their third consecutive day of net outflows. Spot Ethereum ETFs recorded total net outflows of $131 million, marking their fifth consecutive day of net outflows. \u2014 link",
-"title": "Spot Bitcoin ETFs See $582 Million in Net Outflows on November 19, Marking Third Consecutive Day",
-"url": "https://t.me/wublockchainenglish/26892",
 "urls": []
 },
 "1ed016adda8c": {
@@ -600,6 +586,19 @@
 "tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
 "title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
 "url": "https://t.me/wublockchainenglish/26907",
+"urls": []
+},
+"20eedea04d26": {
+"coin": "bitcoin",
+"src": "CoinGape",
+"srcs": [
+"CoinGape"
+],
+"t": 1795342896.990954,
+"t0": 1795340272.0,
+"tgtext": "",
+"title": "Bitcoin Price Prediction: Arthur Hayes Warns of a $50,000 Test",
+"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHhkbXN4bTMwdGV0OTlZWHQzcFVzTjhobnRRcm51Z25iczZMcXNDWjJDSGVDbkdsbkF4a0ViSTVuNUg0djRnNnBsbXRnWXpMU3lvZWhVMUZVTGFqaWx3cTlSZ09hYkQ1NlZad2E1azdVeDBnNkRaUVAzTUhUTTlNQVVqRnBoZGNCQ0ZMSUstMEZkbEE?oc=5",
 "urls": []
 },
 "21e13f3ab7e9": {
@@ -768,7 +767,7 @@
 "srcs": [
 "Cointribune"
 ],
-"t": 1795342076.5458834,
+"t": 1795343200.0777507,
 "t0": 1795341059.0,
 "tgtext": "",
 "title": "Crypto and gold: A hacker network dismantled in France, ten suspects caught by justice",
@@ -1145,22 +1144,6 @@
 "urls": [
 "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host"
 ]
-},
-"437ec24a5a58": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"CryptoTicker.io",
-"Cryptonews.net",
-"www.tokenpost.com"
-],
-"t": 1795170193.179803,
-"t0": 1795148613.0,
-"tgtext": "",
-"title": "Bitcoin Slips to Four-Month Low Under $61,300 as ETF Outflows and Liquidations Snowball",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yamlnZ0Q0Y3RmZjhZNklVU3Q2cktkanZRS2hzZnhhRXN2alFMNjdhdGNaUmV6eXV2djRYeXl1S1lJUTdnZTNZU2tkUS1zNG5JT3I3MlN3amZvMFViaDhOM2VyQ3pyRi1hd0ZYUmkwZ3VGUmNsdXc?oc=5",
-"urls": []
 },
 "4398fa21f8d1": {
 "coin": "bitcoin",
@@ -1839,7 +1822,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795340992.0,
 "tgtext": "",
 "title": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
@@ -1852,7 +1835,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1795342076.5458834,
+"t": 1795343200.0777507,
 "t0": 1795336703.0,
 "tgtext": "",
 "title": "Peter Schiff says Solana can replace Bitcoin exposure. Can it?",
@@ -2945,7 +2928,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -3516,7 +3499,7 @@
 "Arise News",
 "Coin Gabbar"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -3668,23 +3651,6 @@
 "title": "Strategy's Bitcoin Holdings Entirely Unpledged; $35.9 Billion Net Reserve Eliminates Liquidation Risk",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CR25wc2RPcDhTeGlCazYxTW5NR0VSY214MWVSbU9ZT3RoM05uZ0tDWlZDVW1LTUJrcmFMWncyZTFhMmJlUGNteWFvakxrWldaeUQ2cU4yWXZkbmVQUkYxSlFnVDdWQnByd204QjhaYVhCVGFmTnc?oc=5",
 "urls": []
-},
-"d822a1b6dd4a": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Crypto News",
-"TradingView"
-],
-"t": 1795169885.953041,
-"t0": 1795161814.0,
-"tgtext": "",
-"title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
-"url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "d917adf05164": {
 "coin": "",
@@ -3984,7 +3950,7 @@
 "srcs": [
 "ad-hoc-news.de"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795327332.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds above USD 60,000 after leveraged liquidations",
@@ -4132,7 +4098,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4214,7 +4180,7 @@
 "BigGo Finance",
 "bloomingbit"
 ],
-"t": 1795342685.7039056,
+"t": 1795343200.0777507,
 "t0": 1795325093.0,
 "tgtext": "",
 "title": "Record $950 Billion of Bitcoin Capital Sits Below Cost Basis as Price Slumps Near $58,000",
@@ -4277,42 +4243,35 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"02a4baf39975": 0.037,
+"02a4baf39975": 0.02,
 "03b5cd2b559b": 0.075,
+"060a14877279": 0.326,
+"0666f7e78545": 0.079,
+"0f4b00dfc569": 0.08,
 "1b941225a591": 0.29,
-"1f5531644712": 0.079,
 "20eedea04d26": 0.108,
 "2756a4547b6e": 0.031,
 "2a27a9bbbbcf": 0.142,
 "2e6bc052fdfc": 0.021,
-"316c80d81280": 0.032,
 "35da5b44da99": 0.072,
-"3a8e55b1d656": 0.044,
 "4a1dab444c76": 0.044,
 "4b44c8d35485": 0.066,
-"4f581e500416": 0.051,
+"64707d88babf": 0.064,
 "687a6d66ed49": 0.064,
 "6b0b1792c434": 0.09,
-"72486101459b": 0.041,
-"76920b88039e": 0.479,
+"72486101459b": 0.104,
 "776046340b52": 0.16,
 "7781eafc3292": 0.123,
 "7f17786ce297": 0.017,
-"8465c54a22a7": 0.041,
-"85a87bb2d296": 0.043,
-"8619a1f78f33": 0.036,
-"8efaa65807be": 0.397,
+"946bad1cd5d6": 0.093,
 "9744ce6e821a": 0.075,
-"9942c779b124": 0.208,
+"9d8b43eb59fe": 0.028,
 "9fe3b4d7e284": 0.101,
-"ae91e371b99b": 0.077,
 "b41028a1f6a9": 0.167,
 "b56e1d051632": 0.045,
 "b5dbeebe8abc": 0.074,
-"ba71f2f076b9": 0.068,
 "c0b2648ebcbc": 0.047,
 "ce6eee56019f": 0.374,
-"d55e71924132": 0.037,
 "da19b08779c8": 0.038,
 "ebcfa7d646fe": 0.239,
 "f416d8f38575": 0.172,
@@ -6131,65 +6090,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"76920b88039e",
-47,
-290,
-3
-],
-[
-"8efaa65807be",
+"ce6eee56019f",
 65,
-174,
+177,
 2
 ],
 [
-"ce6eee56019f",
+"060a14877279",
 65,
-168,
+183,
 2
 ],
 [
 "1b941225a591",
 48,
-45,
+54,
 3
 ],
 [
 "faaead5f18ed",
-42,
-293,
+41,
+302,
 2
 ],
 [
 "ebcfa7d646fe",
-25,
-256,
+24,
+264,
 1
-],
-[
-"9942c779b124",
-59,
-304,
-3
 ],
 [
 "f416d8f38575",
 35,
-165,
+174,
 1
 ],
 [
 "b41028a1f6a9",
-12,
-229,
+11,
+237,
 1
 ],
 [
 "776046340b52",
 30,
-28,
+37,
+1
+],
+[
+"2a27a9bbbbcf",
+10,
+36,
+1
+],
+[
+"7781eafc3292",
+20,
+108,
 1
 ]
 ],
-"top_at": 1795342685.7039056
+"top_at": 1795343200.0777507
 }
