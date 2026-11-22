@@ -119,7 +119,7 @@
 "Crypto News",
 "Startup Fortune"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
@@ -379,7 +379,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795343805.0,
 "tgtext": "",
 "title": "$400M in crypto shorts liquidated as market recovers from crash",
@@ -625,7 +625,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -830,7 +830,7 @@
 "Coinpaper",
 "Coinpedia"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795340992.0,
 "tgtext": "",
 "title": "Bitcoin Rebounds From Two-Year Low as Shorts Lose $68.8M in an Hour; ETFs Bleed $3.47B in November",
@@ -1101,7 +1101,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795346322.0,
 "tgtext": "",
 "title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
@@ -1313,7 +1313,7 @@
 "CryptoRank",
 "Forbes"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795349370.0,
 "tgtext": "",
 "title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
@@ -2140,7 +2140,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2239,7 +2239,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -3520,7 +3520,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -4079,7 +4079,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795352453.932275,
+"t": 1795353067.3570766,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4210,29 +4210,30 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"03b5cd2b559b": 0.074,
 "060a14877279": 0.531,
 "11e32c14d161": 0.132,
 "179addbdaf22": 0.473,
 "1b941225a591": 0.094,
 "21049905a966": 0.208,
 "218f702293e9": 0.811,
+"233705ec6b5d": 0.145,
 "2a27a9bbbbcf": 0.26,
 "2e6bc052fdfc": 0.348,
 "37f1a4e759bb": 0.092,
 "3f7ebc24cefe": 0.552,
 "4ac0435a78a3": 0.095,
-"4e51468eed69": 0.846,
+"4e51468eed69": 0.545,
 "5f0f631b6d24": 0.064,
+"65787c0d5a78": 0.095,
 "67fdd2816a5d": 0.038,
 "687a6d66ed49": 0.062,
 "6896f77fd588": 0.128,
 "68e8c01259b0": 0.091,
-"6b0b1792c434": 0.071,
-"6de5e2997814": 0.136,
+"6a6b46b37ab0": 0.077,
+"6b0b1792c434": 0.088,
 "709053ee4237": 0.302,
 "72486101459b": 0.093,
-"755485049cd4": 0.037,
+"755485049cd4": 0.093,
 "78f7a83e386d": 0.126,
 "7f17786ce297": 0.035,
 "83af08371a26": 0.063,
@@ -4241,8 +4242,8 @@
 "8d64e48fa6f6": 0.642,
 "946bad1cd5d6": 0.074,
 "9744ce6e821a": 0.17,
-"9fe3b4d7e284": 0.187,
-"bdc90489487b": 0.071,
+"9fe3b4d7e284": 0.226,
+"b89f28f9e136": 0.09,
 "c8d8272e32cf": 0.154,
 "cd09e604679e": 0.043,
 "ce118b4751be": 0.095,
@@ -5750,65 +5751,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"4e51468eed69",
-46,
-51,
-2
-],
-[
 "218f702293e9",
 32,
-146,
+156,
 1
 ],
 [
 "8d64e48fa6f6",
 16,
-131,
+141,
 1
 ],
 [
 "3f7ebc24cefe",
 75,
-102,
+112,
 3
 ],
 [
+"4e51468eed69",
+38,
+62,
+2
+],
+[
 "060a14877279",
-55,
-337,
+53,
+347,
 3
 ],
 [
 "179addbdaf22",
 41,
-144,
+154,
 1
 ],
 [
 "88eda230bdb1",
 18,
-143,
+154,
 1
 ],
 [
 "ce6eee56019f",
-65,
-331,
+64,
+341,
 4
 ],
 [
 "f416d8f38575",
-6,
-328,
+4,
+338,
 1
 ],
 [
 "2e6bc052fdfc",
-74,
-191,
+73,
+201,
 3
 ]
 ],
-"top_at": 1795352453.932275
+"top_at": 1795353067.3570766
 }
