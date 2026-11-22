@@ -205,19 +205,6 @@
 "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
 ]
 },
-"0c376c65c677": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795159407.9497874,
-"t0": 1795137898.0,
-"tgtext": "\ud83d\udd25 JUST IN: President Trump\u2019s investment accounts made 751 trades worth up to $148M in September, per CNBC. \n\nThey bought Nvidia, Palantir and SpaceX around the time those companies landed major federal contracts.\n\nNews | Markets | YouTube",
-"title": "President Trump\u2019s investment accounts made 751 trades worth up to $148M in September, per CNBC.",
-"url": "https://t.me/cointelegraph/73401",
-"urls": []
-},
 "0d375a143dde": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -505,10 +492,9 @@
 "coin": "bitcoin",
 "src": "Lookonchain",
 "srcs": [
-"CryptoRank",
 "Lookonchain"
 ],
-"t": 1795332023.7683213,
+"t": 1795332632.8946598,
 "t0": 1795312529.0,
 "tgtext": "Abraxas Capital bought over $1B worth of $BTC as the price dropped below $60,000!\n\nThey withdrew a total of 17,597 $BTC ($1.04B) from #Binance and #Kraken at an average price of $59,206.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital bought over $1B worth of BTC as the price dropped below $60,000!",
@@ -522,7 +508,7 @@
 "Koin B\u00fclteni",
 "Wu Blockchain"
 ],
-"t": 1795332023.7683213,
+"t": 1795332632.8946598,
 "t0": 1795314305.0,
 "tgtext": "Philippines' Largest Crypto Exchange Coins ph Halts Transfers to and from Self-Custody Wallets\n\nCoins ph, the Philippines\u2019 largest cryptocurrency exchange, announced that effective November 19, it no longer supports direct crypto deposits or withdrawals involving self-custody wallets. Users may only transfer assets to or from accounts at other regulated exchanges. Under the Bangko Sentral ng Pilipinas (BSP) Travel Rule requirements, all external transfers, regardless of amount, require counterparty details, wallet type, exchange platform, and transaction purpose. Incoming deposits will be credited only after the required information is verified. \u2014 link",
 "title": "Philippines' Largest Crypto Exchange Coins ph Halts Transfers to and from Self-Custody Wallets",
@@ -564,7 +550,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795332023.7683213,
+"t": 1795332632.8946598,
 "t0": 1795313123.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Top Democrat threatens to cut government funding for Elon Musk's SpaceX $SPCX.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Top Democrat threatens to cut government funding for Elon Musk's SpaceX SPCX.",
@@ -1795,6 +1781,23 @@
 "url": "https://t.me/WatcherGuru/16182",
 "urls": []
 },
+"76920b88039e": {
+"coin": "",
+"src": "TradingView",
+"srcs": [
+"Cointelegraph",
+"KuCoin",
+"TradingView"
+],
+"t": 1795332632.8946598,
+"t0": 1795325280.0,
+"tgtext": "",
+"title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+"url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1NvNnJNb1VrUTk1WVlxX1NWaUNJUTJwNS1Hc1VwLVFTX2JndDBIeGtvbWF1cGhaR1VCNlJ2T09zMGFyMXJMMVVaSUNfMWtOUVFHNFlxaGp5cmxiUnpOSjdVYUI5OVVfRk1TSXFSOWpDZWFRd2FsTXd0dTQ0ZzZaVkZ5azE5T0xubDJtUjFuLTk5cmVRTjlhdWliczlPN3ZwME1uaTlIWktYMkhZYWMyeTdlYmdUZ3Ns?oc=5",
+"urls": [
+"https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "77df64072e5b": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2285,13 +2288,27 @@
 "url": "https://t.me/wublockchainenglish/26900",
 "urls": []
 },
+"978595d0b279": {
+"coin": "",
+"src": "Pluang",
+"srcs": [
+"Pluang",
+"TradingView"
+],
+"t": 1795332632.8946598,
+"t0": 1795319280.0,
+"tgtext": "",
+"title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
+"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeDV6STNzRk52cjV0Q3hPRzItV2duXzJpTVdRUmxXQWpTTW1BMmhRSU1oMkJ1X3hNTE5ZVmpoMDN6NERaTVptd3ROamZVUTFYVGg1X2RHazdkS2tFeVdXLTdNOTY2TFBpUkdBWXBIVmFBLS1GN3Q0MHp4QlNjQjgzcUpfOHpvZms?oc=5",
+"urls": []
+},
 "98d8731281f5": {
 "coin": "",
 "src": "The Jerusalem Post",
 "srcs": [
 "The Jerusalem Post"
 ],
-"t": 1795331720.5269136,
+"t": 1795332632.8946598,
 "t0": 1795311974.0,
 "tgtext": "",
 "title": "Georgia resident arrested, charged with sending over $26,000 to ISIS, destroying evidence",
@@ -2503,7 +2520,7 @@
 "srcs": [
 "Cryptonews.net"
 ],
-"t": 1795332023.7683213,
+"t": 1795332632.8946598,
 "t0": 1795320809.0,
 "tgtext": "",
 "title": "Robert Kiyosaki Urges Buyers to Wait Out the Crash as Bitcoin Plummets",
@@ -2557,7 +2574,7 @@
 "srcs": [
 "LCX Exchange"
 ],
-"t": 1795332023.7683213,
+"t": 1795332329.7749927,
 "t0": 1795321008.0,
 "tgtext": "",
 "title": "Fluidkey Says Unpatched Tool Enabled $1.6 Million Hack",
@@ -2796,7 +2813,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795332023.7683213,
+"t": 1795332632.8946598,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -2994,7 +3011,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795332023.7683213,
+"t": 1795332632.8946598,
 "t0": 1795313094.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa JUST IN: Russia's Communist Party lawmakers want crypto seized in criminal cases added to the national gold and FX reserves, while insisting \"the state treasury is not a platform for gambling.\"\n\nNews | Markets | YouTube",
 "title": "Russia's Communist Party lawmakers want crypto seized in criminal cases added to the national gold and FX reserves, while insisting \"the state treasury is not a platform for gambling.\"",
@@ -3064,7 +3081,7 @@
 "srcs": [
 "CEO Economy"
 ],
-"t": 1795331720.5269136,
+"t": 1795332632.8946598,
 "t0": 1795312800.0,
 "tgtext": "",
 "title": "Crypto week in review: bitcoin's 12% drop, a record IBIT outflow and a 30% slide in Strategy shares",
@@ -3697,7 +3714,7 @@
 "KuCoin",
 "Pluang"
 ],
-"t": 1795332023.7683213,
+"t": 1795332329.7749927,
 "t0": 1795320504.0,
 "tgtext": "",
 "title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
@@ -4084,39 +4101,35 @@
 },
 "probs": {
 "02a4baf39975": 0.025,
+"0666f7e78545": 0.076,
 "0c7392c21230": 0.072,
-"10a5d64cbd89": 0.03,
-"1cd7ef526572": 0.976,
+"1cd7ef526572": 0.953,
 "1d984a98e410": 0.398,
 "1eda18d538e4": 0.24,
 "2756a4547b6e": 0.02,
 "2e6bc052fdfc": 0.038,
 "316c80d81280": 0.02,
-"39ae8dfb755f": 0.151,
+"33057e26f9c3": 0.031,
 "3a8011828165": 0.031,
 "4a1dab444c76": 0.064,
 "4d3184a31361": 0.039,
-"58d3dbcbd033": 0.027,
-"6132a2dd0313": 0.157,
-"6d587f5e3891": 0.15,
 "72486101459b": 0.024,
-"727dcbe97415": 0.104,
-"8267b344e6a6": 0.355,
+"76920b88039e": 0.403,
 "8465c54a22a7": 0.022,
+"978595d0b279": 0.29,
 "98d8731281f5": 0.141,
-"a13ff418385a": 0.078,
+"9942c779b124": 0.104,
 "a2d052cd400a": 0.035,
-"a741d6f7e9e7": 0.237,
-"a81e61b86733": 0.216,
-"a94482dc444f": 0.278,
+"a741d6f7e9e7": 0.142,
+"a81e61b86733": 0.108,
 "af63b37bc9a6": 0.069,
 "b41028a1f6a9": 0.379,
 "c0b2648ebcbc": 0.03,
 "c31fc8ccfb9f": 0.243,
+"c4d6608e9a51": 0.106,
 "c5b1e933acbe": 0.15,
 "c796a89dc8d2": 0.131,
 "c989344d35dd": 0.125,
-"e7c77a118304": 0.627,
 "faaead5f18ed": 0.057
 },
 "sent": [
@@ -5933,64 +5946,64 @@
 "top": [
 [
 "1cd7ef526572",
-22,
-325,
-2
+5,
+335,
+1
 ],
 [
-"e7c77a118304",
-60,
-192,
+"76920b88039e",
+61,
+123,
 3
 ],
 [
 "1d984a98e410",
-27,
-295,
+26,
+305,
 2
 ],
 [
 "b41028a1f6a9",
 18,
-51,
+61,
 1
 ],
 [
-"8267b344e6a6",
-0,
-356,
-1
-],
-[
-"a94482dc444f",
-41,
-184,
-1
+"978595d0b279",
+46,
+223,
+2
 ],
 [
 "c31fc8ccfb9f",
 0,
-315,
+326,
 1
 ],
 [
 "1eda18d538e4",
 0,
-315,
+325,
+1
+],
+[
+"c5b1e933acbe",
+2,
+331,
 1
 ],
 [
 "a741d6f7e9e7",
-20,
-187,
+18,
+197,
 1
 ],
 [
-"a81e61b86733",
-8,
-345,
-2
+"98d8731281f5",
+7,
+344,
+1
 ]
 ],
-"top_at": 1795332023.7683213
+"top_at": 1795332632.8946598
 }
