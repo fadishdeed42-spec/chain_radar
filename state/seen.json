@@ -379,7 +379,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795343805.0,
 "tgtext": "",
 "title": "$400M in crypto shorts liquidated as market recovers from crash",
@@ -640,7 +640,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -845,7 +845,7 @@
 "Coinpaper",
 "Coinpedia"
 ],
-"t": 1795353983.1672215,
+"t": 1795354896.298628,
 "t0": 1795340992.0,
 "tgtext": "",
 "title": "Bitcoin Rebounds From Two-Year Low as Shorts Lose $68.8M in an Hour; ETFs Bleed $3.47B in November",
@@ -1116,7 +1116,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795346322.0,
 "tgtext": "",
 "title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
@@ -1328,7 +1328,7 @@
 "CryptoRank",
 "Forbes"
 ],
-"t": 1795353983.1672215,
+"t": 1795354896.298628,
 "t0": 1795349370.0,
 "tgtext": "",
 "title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
@@ -1770,6 +1770,19 @@
 "url": "https://t.me/lookonchainchannel/11199",
 "urls": []
 },
+"709053ee4237": {
+"coin": "bitcoin",
+"src": "Foreign Policy Journal",
+"srcs": [
+"Foreign Policy Journal"
+],
+"t": 1795354896.298628,
+"t0": 1795352160.0,
+"tgtext": "",
+"title": "Trump Media (NYSE: DJT) Stock Trades Below Book Value As Bitcoin Holdings And Note Repurchase Reshape Its Balance Sheet",
+"url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVUQ0bE1sb0pHUDZ6U1pQemotODFMdmtqbG9DWTNYdDR0VndZXzhzbmdGaVEtM2dfaGFDOTMxOS1ydzN6TEg4SkFxVHczeUx1WjBOM0VVaUlKTDRIZHdJYmtaYl9vNG1ENV9VbVFWV2ZsSnVOcGF1bjhZSFFxMmtaNE93aVNJNERNc3JYUzZqbnhZcnhWWHR2UE4xYTFiN0k5dU0yd1REUFdrOU9weTMtOEhuVkVObFBzQWRTWktHdzFBWlJodGM2VUpHbG80d0VxcjQ5ZzN2QWY1TDU2TlBubjJ1X0tuOUpGRkhuZERLa09ZMV9wZHdPQw?oc=5",
+"urls": []
+},
 "7119f6743ab6": {
 "coin": "",
 "src": "Coin Gabbar",
@@ -2155,7 +2168,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2254,7 +2267,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -2747,7 +2760,7 @@
 "Crypto News",
 "Startup Fortune"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795333383.0,
 "tgtext": "",
 "title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
@@ -3072,7 +3085,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1795354287.2230484,
+"t": 1795354896.298628,
 "t0": 1795334878.0,
 "tgtext": "",
 "title": "Stolen XRP Reappears in Bitcoin Laundering Trail as Binance Hack Investigation Expands",
@@ -4240,16 +4253,27 @@
 },
 "probs": {
 "03b5cd2b559b": 0.074,
+"11e32c14d161": 0.132,
+"1338804bd3dc": 0.043,
 "179addbdaf22": 0.473,
-"1b941225a591": 0.071,
+"1b941225a591": 0.22,
 "21049905a966": 0.208,
 "218f702293e9": 0.811,
 "233705ec6b5d": 0.145,
-"2a27a9bbbbcf": 0.26,
+"25280f8e1563": 0.267,
+"2e6bc052fdfc": 0.396,
+"37f1a4e759bb": 0.213,
 "3f7ebc24cefe": 0.552,
-"4ac0435a78a3": 0.095,
+"4e51468eed69": 0.545,
+"61eb8c4edbb2": 0.054,
 "65787c0d5a78": 0.095,
+"67fdd2816a5d": 0.038,
+"68e8c01259b0": 0.091,
+"6a6b46b37ab0": 0.077,
+"6b0b1792c434": 0.088,
 "6de5e2997814": 0.136,
+"709053ee4237": 0.302,
+"72486101459b": 0.093,
 "755485049cd4": 0.093,
 "78f7a83e386d": 0.126,
 "7eec51c23039": 0.161,
@@ -4258,13 +4282,16 @@
 "8619a1f78f33": 0.071,
 "88eda230bdb1": 0.458,
 "8d64e48fa6f6": 0.642,
+"946bad1cd5d6": 0.091,
 "9744ce6e821a": 0.17,
 "a99bf84e0761": 0.354,
 "ba02d435ef4e": 0.358,
 "c8d8272e32cf": 0.154,
 "cd09e604679e": 0.043,
-"f416d8f38575": 0.352,
-"f990565980ce": 0.112
+"ce118b4751be": 0.095,
+"d8374b3bea87": 0.139,
+"f14c9d7bd101": 0.119,
+"f990565980ce": 0.048
 },
 "sent": [
 {
@@ -5768,63 +5795,63 @@
 [
 "218f702293e9",
 32,
-176,
+186,
 1
 ],
 [
 "8d64e48fa6f6",
 16,
-162,
+172,
 1
 ],
 [
 "3f7ebc24cefe",
 75,
-133,
+143,
 3
+],
+[
+"4e51468eed69",
+38,
+92,
+2
 ],
 [
 "179addbdaf22",
 41,
-175,
+185,
 1
 ],
 [
 "88eda230bdb1",
 18,
-174,
+184,
 1
 ],
 [
+"2e6bc052fdfc",
+69,
+232,
+3
+],
+[
 "ba02d435ef4e",
-56,
-323,
+55,
+334,
 3
 ],
 [
 "a99bf84e0761",
-43,
-348,
+42,
+359,
 2
 ],
 [
-"f416d8f38575",
-2,
-358,
-1
-],
-[
-"2a27a9bbbbcf",
-0,
-356,
-1
-],
-[
-"21049905a966",
-24,
-91,
+"709053ee4237",
+18,
+46,
 1
 ]
 ],
-"top_at": 1795354287.2230484
+"top_at": 1795354896.298628
 }
