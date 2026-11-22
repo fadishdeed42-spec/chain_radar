@@ -121,7 +121,7 @@
 "Crypto News",
 "Startup Fortune"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
@@ -379,7 +379,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795343805.0,
 "tgtext": "",
 "title": "$400M in crypto shorts liquidated as market recovers from crash",
@@ -625,7 +625,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -2127,7 +2127,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2226,7 +2226,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -2267,10 +2267,11 @@
 "srcs": [
 "Cointelegraph",
 "Crypto News",
+"NewsCord",
 "Startup Fortune",
 "TradingView"
 ],
-"t": 1795346966.9388819,
+"t": 1795349100.9245045,
 "t0": 1795332240.0,
 "tgtext": "",
 "title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
@@ -2788,9 +2789,10 @@
 "srcs": [
 "Crypto News",
 "CryptoTicker.io",
-"KuCoin"
+"KuCoin",
+"Pluang"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795330349.0,
 "tgtext": "",
 "title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
@@ -2983,7 +2985,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -3396,7 +3398,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795345667.0,
 "tgtext": "Asia's weekly TOP10 crypto news\n\nRussia to Let Funds Hold Crypto, South Korea Digital Asset Bill Due This Month, Tampered Ledger Wallets Reported in Dubai, HKMA and Swift Test Tokenized Deposit Settlement, Binance Plans Entry Into Five Asian Markets\n\nFor the complete article and weekly curated reports, subscribe to our Substack: \u2014 link",
 "title": "Asia's weekly TOP10 crypto news",
@@ -3550,7 +3552,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -3794,19 +3796,6 @@
 "tgtext": "Over the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!\n\nhttps://www.coinglass.com/liquidations",
 "title": "Over the past 24 hours, 262,976 traders were liquidated for a total of $1.54B!",
 "url": "https://t.me/lookonchainchannel/11187",
-"urls": []
-},
-"de6c7a81053b": {
-"coin": "hyperliquid",
-"src": "Wu Blockchain",
-"srcs": [
-"Wu Blockchain"
-],
-"t": 1795176357.485281,
-"t0": 1795154814.0,
-"tgtext": "Binance Adds Monitoring Tags to Six Tokens, Removes Seed Tags from MORPHO and HYPE\n\nAccording to an official announcement, Binance will add Monitoring Tags to Lorenzo Protocol (BANK), Initia (INIT), Mitosis (MITO), Harmony (ONE), THENA (THE) and Zilliqa (ZIL), and remove the Seed Tags from Morpho Token (MORPHO) and Hyperliquid (HYPE). \u2014 link",
-"title": "Binance Adds Monitoring Tags to Six Tokens, Removes Seed Tags from MORPHO and HYPE",
-"url": "https://t.me/wublockchainenglish/26893",
 "urls": []
 },
 "df0e35c05fcd": {
@@ -4101,19 +4090,6 @@
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPejRKV3BfU3ZHQ2s5SUFweDJXRXdvdHdiaHA5R2ZjQXZzS3JpTG1ieXYwbXR1NGl0bWw0cTY5c1RMUmpseFZaTHlfVnFyWEYxd2RBY3NwNldRdDg5RU5mZWUxWl9xellrX1NUamN3MzF4dkwzYkNXcFdDdkhob3BoaFZITjM2eThQSzVvNlBXWndWREVpT0NWb2FJLU9WZzFJTnNPSUhUWGVuTW1nVmd2Z2tiWmZYVEhnX3VnYzY5ZXh2UWRoYXAweWR3?oc=5",
 "urls": []
 },
-"f2b1cd37b01a": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795176357.485281,
-"t0": 1795163123.0,
-"tgtext": "\ud83d\udd25 BIG: At Anthropic\u2019s $83 IPO price, its seven co-founders\u2019 stakes were worth nearly $139B combined.\n\nSacra estimates about 2,800 current and former employees could hold at least $1M each in vested equity before taxes, based on a $1.35T valuation.\n\nNews | Markets | YouTube",
-"title": "BIG: At Anthropic\u2019s $83 IPO price, its seven co-founders\u2019 stakes were worth nearly $139B combined.",
-"url": "https://t.me/cointelegraph/73408",
-"urls": []
-},
 "f3fc5c4fc005": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -4135,7 +4111,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795348795.1734788,
+"t": 1795349404.0320442,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4169,20 +4145,6 @@
 "urls": [
 "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
 ]
-},
-"f83139796cbc": {
-"coin": "hyperliquid",
-"src": "Binance",
-"srcs": [
-"Binance",
-"Wu Blockchain"
-],
-"t": 1795176051.125961,
-"t0": 1795154663.0,
-"tgtext": "Binance Will Extend the Monitoring Tag to Include BANK, INIT, MITO, ONE, THE & ZIL, Remove the Seed Tag for MORPHO & HYPE on 2026-11-20\n\nBased on recent reviews, Binance will extend the Monitoring Tag to include more tokens on 2026-11-20.\n\n\ud83d\udc49\ud83c\udffbLearn more here\nBinance Adds Monitoring Tags to Six Tokens, Removes Seed Tags from MORPHO and HYPE\n\nAccording to an official announcement, Binance will add Monitoring Tags to Lorenzo Protocol (BANK), Initia (INIT), Mitosis (MITO), Harmony (ONE), THENA (THE) and Zilliqa (ZIL), and remove the Seed Tags from Morpho Token (MORPHO) and Hyperliquid (HYPE). \u2014 link",
-"title": "Binance Will Extend the Monitoring Tag to Include BANK, INIT, MITO, ONE, THE & ZIL, Remove the Seed Tag for MORPHO & HYPE on 2026-11-20",
-"url": "https://t.me/binance_announcements/9153",
-"urls": []
 },
 "f8cc0c11ad77": {
 "coin": "ethereum",
@@ -4280,41 +4242,40 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"03b5cd2b559b": 0.045,
-"060a14877279": 0.488,
-"179addbdaf22": 0.349,
-"1b941225a591": 0.059,
-"218f702293e9": 0.719,
-"2756a4547b6e": 0.031,
-"2a27a9bbbbcf": 0.173,
-"2e6bc052fdfc": 0.047,
-"35da5b44da99": 0.072,
-"37f1a4e759bb": 0.057,
-"4a1dab444c76": 0.164,
-"4d3184a31361": 0.061,
-"5f0f631b6d24": 0.039,
-"64707d88babf": 0.136,
-"687a6d66ed49": 0.03,
-"6b0b1792c434": 0.043,
-"72486101459b": 0.055,
-"78f7a83e386d": 0.079,
-"7f17786ce297": 0.039,
-"8619a1f78f33": 0.173,
-"88eda230bdb1": 0.659,
-"8d64e48fa6f6": 0.517,
-"946bad1cd5d6": 0.045,
-"9744ce6e821a": 0.075,
-"9fe3b4d7e284": 0.121,
-"acb6a9b27936": 0.429,
-"b41028a1f6a9": 0.493,
-"b56e1d051632": 0.109,
-"b89f28f9e136": 0.056,
-"c8d8272e32cf": 0.293,
-"ce118b4751be": 0.059,
-"ce6eee56019f": 0.28,
-"d8374b3bea87": 0.088,
-"ebcfa7d646fe": 0.155,
-"f416d8f38575": 0.203
+"03b5cd2b559b": 0.074,
+"060a14877279": 0.616,
+"179addbdaf22": 0.473,
+"1b941225a591": 0.095,
+"21049905a966": 0.208,
+"218f702293e9": 0.811,
+"2756a4547b6e": 0.051,
+"2e6bc052fdfc": 0.225,
+"35da5b44da99": 0.115,
+"37f1a4e759bb": 0.092,
+"4a1dab444c76": 0.247,
+"5f0f631b6d24": 0.064,
+"64707d88babf": 0.209,
+"687a6d66ed49": 0.05,
+"68e8c01259b0": 0.091,
+"6b0b1792c434": 0.071,
+"72486101459b": 0.09,
+"78f7a83e386d": 0.126,
+"7f17786ce297": 0.064,
+"812f233f9f11": 0.087,
+"88eda230bdb1": 0.765,
+"8d64e48fa6f6": 0.642,
+"946bad1cd5d6": 0.074,
+"9744ce6e821a": 0.12,
+"9fe3b4d7e284": 0.187,
+"acb6a9b27936": 0.609,
+"b41028a1f6a9": 0.621,
+"b56e1d051632": 0.171,
+"b89f28f9e136": 0.09,
+"c8d8272e32cf": 0.411,
+"ce118b4751be": 0.095,
+"ce6eee56019f": 0.395,
+"d8374b3bea87": 0.139,
+"f416d8f38575": 0.3
 },
 "sent": [
 {
@@ -5822,63 +5783,63 @@
 [
 "218f702293e9",
 32,
-85,
+95,
 1
 ],
 [
 "88eda230bdb1",
 18,
-82,
+93,
 1
 ],
 [
 "8d64e48fa6f6",
 16,
-70,
+80,
 1
 ],
 [
 "b41028a1f6a9",
 0,
-331,
+341,
 1
 ],
 [
 "060a14877279",
-63,
-276,
+61,
+286,
 3
 ],
 [
 "acb6a9b27936",
-59,
-307,
-3
+67,
+318,
+4
 ],
 [
 "179addbdaf22",
 41,
-83,
+93,
 1
 ],
 [
 "c8d8272e32cf",
 10,
-52,
+62,
 1
 ],
 [
 "ce6eee56019f",
-74,
-270,
+72,
+280,
 4
 ],
 [
 "f416d8f38575",
-14,
-267,
+13,
+277,
 1
 ]
 ],
-"top_at": 1795348795.1734788
+"top_at": 1795349404.0320442
 }
