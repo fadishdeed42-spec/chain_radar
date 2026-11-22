@@ -119,7 +119,7 @@
 "Crypto News",
 "Startup Fortune"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korea\u2019s Upbit, Bithumb suspend CYBER transfers amid suspected bridge exploit",
@@ -245,7 +245,7 @@
 "CryptoRank",
 "Forbes"
 ],
-"t": 1795351541.707013,
+"t": 1795352150.8898163,
 "t0": 1795349283.0,
 "tgtext": "",
 "title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
@@ -379,7 +379,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795343805.0,
 "tgtext": "",
 "title": "$400M in crypto shorts liquidated as market recovers from crash",
@@ -625,7 +625,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -798,7 +798,7 @@
 "srcs": [
 "Cointribune"
 ],
-"t": 1795344526.8311627,
+"t": 1795352150.8898163,
 "t0": 1795332900.0,
 "tgtext": "",
 "title": "Crypto and gold: A hacker network dismantled in France, ten suspects caught by justice",
@@ -820,6 +820,21 @@
 "tgtext": "\ud83c\uddf0\ud83c\uddf5 JUST IN: North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.\n\nNews | Markets | YouTube",
 "title": "North Korea-linked hackers have laundered at least $149 million in Bitcoin stolen from Binance through coinjoin transactions, with 90% of the activity occurring since Tuesday, according to Elliptic.",
 "url": "https://t.me/cointelegraph/73420",
+"urls": []
+},
+"2e6bc052fdfc": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"Coinpaper",
+"Coinpedia"
+],
+"t": 1795352453.932275,
+"t0": 1795340992.0,
+"tgtext": "",
+"title": "Bitcoin Rebounds From Two-Year Low as Shorts Lose $68.8M in an Hour; ETFs Bleed $3.47B in November",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ydFFabkgxUFJkd3dCMk9EWDZ0OXBjNWNiTzN1X200bXVFSm1HQXRRaWhIejBOX3R0bnhVekJraDZYeGZCTlFYM0JxN2p0QXJsNEN2QWkyOHVMNnJ6ZUdfZHlHY2pnMkdnN2paSk1WLURxd0NPSnc?oc=5",
 "urls": []
 },
 "2fa213268021": {
@@ -1078,6 +1093,21 @@
 "url": "https://t.me/wublockchainenglish/26904",
 "urls": []
 },
+"3f7ebc24cefe": {
+"coin": "",
+"src": "CryptoTicker.io",
+"srcs": [
+"Crypto News",
+"CryptoTicker.io",
+"Pluang"
+],
+"t": 1795352453.932275,
+"t0": 1795346322.0,
+"tgtext": "",
+"title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
+"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQakk3MEl2Wl9lZlZ2Uno5dkpsYVNjZjczZWV6d3dLMllGd3gxUmt3bnJILTJPUnVpa3VvRkNHUVM2dXF5cGx0RDJqVjdsSXRxR3RTZmxoWm10SEc4WGlJc1V4MGdVazRrLTl1eXppMTJWV2t0OUZVeERUVi0yTVNBUlNPXzM0N0E?oc=5",
+"urls": []
+},
 "3fd167bcbbc5": {
 "coin": "ethereum",
 "src": "BigGo Finance",
@@ -1160,20 +1190,6 @@
 "urls": [
 "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host"
 ]
-},
-"4398fa21f8d1": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"Cryptonews.net"
-],
-"t": 1795179443.5930383,
-"t0": 1795163041.0,
-"tgtext": "",
-"title": "Bitcoin Slips to Four-Month Low Under $61,300 as ETF Outflows and Liquidations Snowball",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yamlnZ0Q0Y3RmZjhZNklVU3Q2cktkanZRS2hzZnhhRXN2alFMNjdhdGNaUmV6eXV2djRYeXl1S1lJUTdnZTNZU2tkUS1zNG5JT3I3MlN3amZvMFViaDhOM2VyQ3pyRi1hd0ZYUmkwZ3VGUmNsdXc?oc=5",
-"urls": []
 },
 "44a7ef6394ce": {
 "facts": "Hack date: Nov 20. Chain: ['Hyperliquid L1']. Method: Key Leaked via Infrastructure. Amount: $13,510,000. (DefiLlama hacks database.)",
@@ -1297,7 +1313,7 @@
 "CryptoRank",
 "Forbes"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795349370.0,
 "tgtext": "",
 "title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
@@ -1354,22 +1370,6 @@
 "tgtext": "",
 "title": "What Is the Best Crypto to Buy With $500 During This Crash?",
 "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUJ4cG5zSGR2MlZvM1U0d2hacExORGdwMnBGdkozbTRoemxhdl9ac1dZckM2ejYyeHdYTWhrUkNrSXRIWVdka0xaUDNhWF9SbXhBS3VmTXpRb3oxM2ZMWDZVRE1iZnpRZXlRa1Byb2tDTlJSSnY5b1pfc3FUa2VRNllHdThQVDJBYlRXTFNMcVJwcDBjdDV3M2o3eVJoempBUEQwVXFHUW15ZjhSamprR0N1Y1pFRzg?oc=5",
-"urls": []
-},
-"54b2872f4b8d": {
-"coin": "",
-"src": "Mezha.net",
-"srcs": [
-"Crypto Briefing",
-"FDD's Long War Journal",
-"Fox News",
-"Mezha.net"
-],
-"t": 1795179533.7690446,
-"t0": 1795160440.0,
-"tgtext": "",
-"title": "Georgia man charged with money laundering and evidence destruction after alleged crypto transfers to ISIS-linked groups",
-"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1daWWFLaHMwbHA0SnNYMkpScG1MZW5zMEdiVW9tSVVrTHdLaEhYVHZkYnJncl9UcHpjZFBQSElETElVY1QyNER6OGptWG9Rc0ltMXhST2xjRTBFSlZSZHdwRXJDX1ViUzJ3TkZkN2wwLUNsRU9lcE5rUmxCeTFwazhkUmM?oc=5",
 "urls": []
 },
 "57731881061f": {
@@ -2103,21 +2103,6 @@
 "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUEt5bElVenRxRXBoWHZUVVY5Mm5CdnlnaDFEdDhfaWxKbzhLT2JpS2NIZlNsdzhmb29SRk56all1WGtJOVI1ZHBVakNhOEVJejJ1azU1Um40Q05vTkxhLU1OUEQxZ2t2R0xVejlOWERXZ1ZzazVjYnNoSmIwN3pteVBQaUN0N1hxdG1tRFpwbndzT2xPSW52NWxsM0NNQlpJczNSNA?oc=5",
 "urls": []
 },
-"8778475ad978": {
-"coin": "bitcoin",
-"src": "Coinpaper",
-"srcs": [
-"Coinpaper",
-"KuCoin",
-"Yahoo Finance"
-],
-"t": 1795179137.7098532,
-"t0": 1795167528.0,
-"tgtext": "",
-"title": "Bitcoin Price Prediction: Could a $62K Breakdown Trigger a Crash Toward $53,700?",
-"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlJRQ01TaGZkbFhyM0w1VDRUMWxCcC02RjdLaWpBdjNiRDliMDgxVDhYOEhSTVQ3UER3UlhZYkRKTGxKN09DX0xab2RCeDk3eXlHaVhaUFVlamZYa2kyRncybHZQTTBqSy1PM2tNYjVUb1hTZXZzRnRodG5hQkU4b2V2bXZmLUpLaEZKTkxvZlZySWdWZUZDMTAxN1NHbzlfVVR3REJLa1k?oc=5",
-"urls": []
-},
 "887eb9a53239": {
 "coin": "bitcoin",
 "src": "Pluang",
@@ -2155,7 +2140,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2254,7 +2239,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -2614,19 +2599,6 @@
 "urls": [
 "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
 ]
-},
-"a4823cea2d5b": {
-"coin": "",
-"src": "Lookonchain",
-"srcs": [
-"Lookonchain"
-],
-"t": 1795179533.7690446,
-"t0": 1795158524.0,
-"tgtext": "Meet smart trader 0x7F49, who knows how to buy low and sell high!\n\nMar 16: Sold 3,676 $ETH ($8.44M) at $2,296.3.\n\nJun 5: Bought 4,851 $ETH ($8.1M) at $1,670.\n\nAug 20 & Oct 26: Sold 7,693 $ETH ($17.81M) at $2,315.6.\n\nToday: Bought 2,879 $ETH ($5M) at $1,736.5.\n\nhttps://arkm.com/explorer/address/0x7F4936Ed3Ee92Da54c972976b7a7d92Ad20b4728",
-"title": "Meet smart trader 0x7F49, who knows how to buy low and sell high!",
-"url": "https://t.me/lookonchainchannel/11175",
-"urls": []
 },
 "a577db08e5eb": {
 "coin": "",
@@ -3061,6 +3033,21 @@
 "tgtext": "",
 "title": "Over $2B USDS swapped for USDC via Sky Protocol; Chainflip lost $4.86M in hack; Bitcoin holds $60K amid selloff",
 "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmtBMGQxd1VQRkw3VkxKaXhvWXlnWEUwaFZpOUdFbEZDeWV0T2JYMllvRTdlSXVRXzF4VVRGeHFPVkN0MHFGdUFUZFozSVhrZXN5OXJYYUVubFlSdm5RaVVQNkFpdFFuZ3hzaFNTQUc3UFp3Q01Jai0zVWNxVHBUWl9kMVU2ZFItWDhKOHI0MUVyN0pKU0JvMldvOC1yX0tZbGZ6WDJVbnNJNDdhaGMxWi13?oc=5",
+"urls": []
+},
+"ba02d435ef4e": {
+"coin": "bitcoin",
+"src": "Coinpaper",
+"srcs": [
+"Arise News",
+"Coinpaper",
+"Pluang"
+],
+"t": 1795352150.8898163,
+"t0": 1795334878.0,
+"tgtext": "",
+"title": "Stolen XRP Reappears in Bitcoin Laundering Trail as Binance Hack Investigation Expands",
+"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMzMwSF9wUy1KOG9GWU1JTVFWTXBGYm4zRWFXUXlyb1k2RF95UUFNY19ncGNNWUlwdmQydGJGS21lbTlUYjZQTUVPSjQ1cEJVYUpsSzM4dTc2VWM5R21WNVlvdHBTRU9BdUh1VnBpeUdsMzBsVXYwc2UySmlDcE5RUHBpbjRBMlVwZ29XOFc4ZUZxQ2xWX2ljNzhTQ1lReG9uR242VTlraDFvYkdwTjRjSkZBa1A?oc=5",
 "urls": []
 },
 "ba71f2f076b9": {
@@ -3533,7 +3520,7 @@
 "Coinpaper",
 "Pluang"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -4092,7 +4079,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795351844.7852683,
+"t": 1795352453.932275,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4227,12 +4214,13 @@
 "060a14877279": 0.531,
 "11e32c14d161": 0.132,
 "179addbdaf22": 0.473,
-"1b941225a591": 0.22,
+"1b941225a591": 0.094,
 "21049905a966": 0.208,
 "218f702293e9": 0.811,
 "2a27a9bbbbcf": 0.26,
-"2e6bc052fdfc": 0.225,
+"2e6bc052fdfc": 0.348,
 "37f1a4e759bb": 0.092,
+"3f7ebc24cefe": 0.552,
 "4ac0435a78a3": 0.095,
 "4e51468eed69": 0.846,
 "5f0f631b6d24": 0.064,
@@ -4242,19 +4230,18 @@
 "68e8c01259b0": 0.091,
 "6b0b1792c434": 0.071,
 "6de5e2997814": 0.136,
-"72486101459b": 0.32,
+"709053ee4237": 0.302,
+"72486101459b": 0.093,
 "755485049cd4": 0.037,
 "78f7a83e386d": 0.126,
 "7f17786ce297": 0.035,
-"8619a1f78f33": 0.26,
-"88eda230bdb1": 0.765,
+"83af08371a26": 0.063,
+"8619a1f78f33": 0.071,
+"88eda230bdb1": 0.458,
 "8d64e48fa6f6": 0.642,
 "946bad1cd5d6": 0.074,
 "9744ce6e821a": 0.17,
 "9fe3b4d7e284": 0.187,
-"acb6a9b27936": 0.568,
-"b56e1d051632": 0.171,
-"b89f28f9e136": 0.09,
 "bdc90489487b": 0.071,
 "c8d8272e32cf": 0.154,
 "cd09e604679e": 0.043,
@@ -5765,63 +5752,63 @@
 [
 "4e51468eed69",
 46,
-41,
+51,
 2
 ],
 [
 "218f702293e9",
 32,
-136,
-1
-],
-[
-"88eda230bdb1",
-18,
-133,
+146,
 1
 ],
 [
 "8d64e48fa6f6",
 16,
-121,
+131,
 1
 ],
 [
-"acb6a9b27936",
-52,
-358,
+"3f7ebc24cefe",
+75,
+102,
 3
 ],
 [
 "060a14877279",
-56,
-327,
+55,
+337,
 3
 ],
 [
 "179addbdaf22",
 41,
-134,
+144,
+1
+],
+[
+"88eda230bdb1",
+18,
+143,
 1
 ],
 [
 "ce6eee56019f",
-67,
-321,
+65,
+331,
 4
 ],
 [
 "f416d8f38575",
-7,
-318,
+6,
+328,
 1
 ],
 [
-"72486101459b",
-40,
-274,
-2
+"2e6bc052fdfc",
+74,
+191,
+3
 ]
 ],
-"top_at": 1795351844.7852683
+"top_at": 1795352453.932275
 }
