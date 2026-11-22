@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795255178.1154678,
 1795258827.7169042,
 1795262563.22401,
 1795263789.0025032,
@@ -14,7 +13,8 @@
 1795271454.5066626,
 1795278818.8535278,
 1795282968.7913425,
-1795288563.4333878
+1795288563.4333878,
+1795343917.7992148
 ],
 "menu": {
 "00f11667de9c": {
@@ -118,7 +118,7 @@
 "Cointelegraph",
 "Startup Fortune"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795332245.0,
 "tgtext": "",
 "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
@@ -369,6 +369,19 @@
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5OVhIM0RQQjJXSEdBVnExYzlIUjNhR0xqb2ozaGgwM0FBaEwtNnRxblAtT05reTNwNC1lbEowUkpIOHBSWS1vcmpHbThrMGcwMlBteg?oc=5",
 "urls": []
 },
+"179addbdaf22": {
+"coin": "",
+"src": "Crypto Briefing",
+"srcs": [
+"Crypto Briefing"
+],
+"t": 1795343917.7992148,
+"t0": 1795343805.0,
+"tgtext": "",
+"title": "$400M in crypto shorts liquidated as market recovers from crash",
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUS1vam80cGplUFZwU1RCYzQ4MENSaFdETV9UMVlYcHdQVnllZmVUUzlMNktPWkxSMy16RmZSTWtmam5OdnU3dm9RWWxqemRXV0RyemFqdVRjcVpBWENKaGZmbVctdkdFVVZRSktBQzRKZldfQkF6RnM4S3BESl9hWW84cVpZc0NrLU8wNUJ3UDFqUUhq?oc=5",
+"urls": []
+},
 "17b39805b44b": {
 "coin": "",
 "src": "SSBCrack",
@@ -467,11 +480,12 @@
 "coin": "bitcoin",
 "src": "Crypto Briefing",
 "srcs": [
+"Bitcoin Foundation",
 "Cointelegraph",
 "Crypto Briefing",
 "TradingView"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795339986.0,
 "tgtext": "",
 "title": "Kraken upholds trades after Bitcoin briefly drops to $17K on its CAD markets",
@@ -599,6 +613,19 @@
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Arthur Hayes Warns of a $50,000 Test",
 "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHhkbXN4bTMwdGV0OTlZWHQzcFVzTjhobnRRcm51Z25iczZMcXNDWjJDSGVDbkdsbkF4a0ViSTVuNUg0djRnNnBsbXRnWXpMU3lvZWhVMUZVTGFqaWx3cTlSZ09hYkQ1NlZad2E1azdVeDBnNkRaUVAzTUhUTTlNQVVqRnBoZGNCQ0ZMSUstMEZkbEE?oc=5",
+"urls": []
+},
+"218f702293e9": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795343917.7992148,
+"t0": 1795343710.0,
+"tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
+"title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
+"url": "https://t.me/lookonchainchannel/11221",
 "urls": []
 },
 "21e13f3ab7e9": {
@@ -767,8 +794,8 @@
 "srcs": [
 "Cointribune"
 ],
-"t": 1795343200.0777507,
-"t0": 1795341059.0,
+"t": 1795343614.7290614,
+"t0": 1795332900.0,
 "tgtext": "",
 "title": "Crypto and gold: A hacker network dismantled in France, ten suspects caught by justice",
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWGZnVGtNWk5Xei1oU1E4M2k2WXhRbDNpMXl3OTlKdHk4aUsweUZGSnNKaUZ6dXdaeXBEd0JvdlYxM01kNGg3TmtnTThwQXVSNkFFT1NRVTdPa1ZySHlTdjRsTE1SaW40TnB0TEk5UEFtU3BtYVNvNi0yaGZranNJejZ4RFVXalNLS2gyQkQtTzZfT0t0?oc=5",
@@ -1822,7 +1849,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1795343200.0777507,
+"t": 1795343614.7290614,
 "t0": 1795340992.0,
 "tgtext": "",
 "title": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
@@ -1835,7 +1862,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1795343200.0777507,
+"t": 1795343614.7290614,
 "t0": 1795336703.0,
 "tgtext": "",
 "title": "Peter Schiff says Solana can replace Bitcoin exposure. Can it?",
@@ -2107,6 +2134,19 @@
 "tgtext": "",
 "title": "Bitcoin Rebounds Above $60,000 After $2.4 Billion Liquidation Wave Wipes Out Leveraged Bets",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lTktBYWZxbXJtWElUWTdsUnFhZGlQRzFQbjRiUGRLcHcxdk1CRnpXSTRDOEM2bWROd2Y2MGRlb3VKR1J3VU1Hb3dObXBpblAtbjlWNDF6VmVZZF9hNHJKMjJpT2JhMnhjVlU2WUxSbmpadVhHQXc?oc=5",
+"urls": []
+},
+"88eda230bdb1": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795343917.7992148,
+"t0": 1795343850.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
+"title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
+"url": "https://t.me/cointelegraph/73437",
 "urls": []
 },
 "88edf1d74b12": {
@@ -2928,7 +2968,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -3499,7 +3539,7 @@
 "Arise News",
 "Coin Gabbar"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -3950,7 +3990,7 @@
 "srcs": [
 "ad-hoc-news.de"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795327332.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds above USD 60,000 after leveraged liquidations",
@@ -4098,7 +4138,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4180,7 +4220,7 @@
 "BigGo Finance",
 "bloomingbit"
 ],
-"t": 1795343200.0777507,
+"t": 1795343917.7992148,
 "t0": 1795325093.0,
 "tgtext": "",
 "title": "Record $950 Billion of Bitcoin Capital Sits Below Cost Basis as Price Slumps Near $58,000",
@@ -4246,16 +4286,16 @@
 "02a4baf39975": 0.02,
 "03b5cd2b559b": 0.075,
 "060a14877279": 0.326,
-"0666f7e78545": 0.079,
 "0f4b00dfc569": 0.08,
-"1b941225a591": 0.29,
+"179addbdaf22": 0.349,
+"1b941225a591": 0.177,
 "20eedea04d26": 0.108,
+"218f702293e9": 0.958,
 "2756a4547b6e": 0.031,
 "2a27a9bbbbcf": 0.142,
 "2e6bc052fdfc": 0.021,
 "35da5b44da99": 0.072,
 "4a1dab444c76": 0.044,
-"4b44c8d35485": 0.066,
 "64707d88babf": 0.064,
 "687a6d66ed49": 0.064,
 "6b0b1792c434": 0.09,
@@ -4263,14 +4303,15 @@
 "776046340b52": 0.16,
 "7781eafc3292": 0.123,
 "7f17786ce297": 0.017,
+"8619a1f78f33": 0.036,
+"88eda230bdb1": 0.523,
 "946bad1cd5d6": 0.093,
 "9744ce6e821a": 0.075,
 "9d8b43eb59fe": 0.028,
 "9fe3b4d7e284": 0.101,
-"b41028a1f6a9": 0.167,
+"b41028a1f6a9": 0.203,
 "b56e1d051632": 0.045,
 "b5dbeebe8abc": 0.074,
-"c0b2648ebcbc": 0.047,
 "ce6eee56019f": 0.374,
 "da19b08779c8": 0.038,
 "ebcfa7d646fe": 0.239,
@@ -4278,382 +4319,6 @@
 "faaead5f18ed": 0.256
 },
 "sent": [
-{
-"e": [
-"anthropic",
-"korea",
-"kospi",
-"now",
-"south"
-],
-"k": [
-"crash"
-],
-"t": 1795147965.7767146,
-"u": [
-"https://t.me/cointelegraph/73406"
-],
-"w": [
-"904",
-"anthropic",
-"calm",
-"debut",
-"fails",
-"fears",
-"korea",
-"kospi",
-"now",
-"plunges",
-"sell",
-"side",
-"sidecar",
-"south",
-"spend",
-"strong",
-"triggers",
-"which"
-]
-},
-{
-"e": [
-"bloomberg",
-"coinbase",
-"contracts",
-"first",
-"half",
-"launch",
-"own",
-"plans",
-"prediction"
-],
-"k": [],
-"t": 1795148882.1199408,
-"u": [
-"https://t.me/wublockchainenglish/26890",
-"https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152"
-],
-"w": [
-"2027",
-"bloomberg",
-"coinbase",
-"contracts",
-"first",
-"half",
-"launch",
-"market",
-"own",
-"plans",
-"prediction"
-]
-},
-{
-"e": [
-"bank",
-"binance",
-"extend",
-"hype",
-"include",
-"init",
-"mito",
-"monitoring",
-"morpho",
-"one",
-"remove",
-"seed",
-"tag",
-"zil"
-],
-"k": [
-"ban"
-],
-"t": 1795155309.7038865,
-"u": [
-"https://t.me/binance_announcements/9153",
-"https://t.me/wublockchainenglish/26893"
-],
-"w": [
-"2026",
-"bank",
-"binance",
-"extend",
-"hype",
-"include",
-"init",
-"mito",
-"monitoring",
-"morpho",
-"one",
-"remove",
-"seed",
-"tag",
-"zil"
-]
-},
-{
-"e": [
-"president",
-"sunday",
-"trump"
-],
-"k": [],
-"t": 1795157757.4587655,
-"u": [
-"https://t.me/WatcherGuru/16180"
-],
-"w": [
-"dinner",
-"exclusive",
-"his",
-"holders",
-"host",
-"memecoin",
-"president",
-"sunday",
-"top",
-"trump"
-]
-},
-{
-"e": [
-"meet"
-],
-"k": [],
-"t": 1795158674.0203414,
-"u": [
-"https://t.me/lookonchainchannel/11175"
-],
-"w": [
-"0x7f49",
-"buy",
-"high",
-"how",
-"knows",
-"low",
-"meet",
-"sell",
-"smart",
-"trader",
-"who"
-]
-},
-{
-"e": [
-"not"
-],
-"k": [],
-"t": 1795160334.5667403,
-"u": [
-"https://t.me/lookonchainchannel/11176"
-],
-"w": [
-"losses",
-"not",
-"single",
-"tokens",
-"trade",
-"traded",
-"winning"
-]
-},
-{
-"e": [
-"apeing",
-"best",
-"binance",
-"buy",
-"debate",
-"eyes",
-"fed",
-"hack",
-"now",
-"shakes",
-"spotlight",
-"warning"
-],
-"k": [
-"hack"
-],
-"t": 1795161882.8035245,
-"u": [
-"https://news.google.com/rss/articles/CBMimwFBVV95cUxOdUxLa0kxMWo0NzRjUXMzdjdGWlpYbW0zQ05KS1RTUHg2RXhiUHkzUUZERmhoeWk4Vy14bDUxenh6ZHV6S1pzNllZNk80R2ZMTnBKS09xTjJieldhR1Njcl9oTHZuaUNtX0JQd1FZZ1FLZEItLXpULUQ1bkNSaHBFNEczcXE2cWZjcU9uNVQ0OGJ6ZjJiSWhLV2FSWQ?oc=5",
-"https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWhuM1FWNTMzZTBqbml3aFRaOHdzNWVndC1aZGRSY0g2MENEVXlldWFkc1pRVDRCSWpITTVCZHVjNVNCRVlwanRfV0JSLTVhM1JEaFRxSVJOanp1dEF0SXBDbmFtQmxtdGV6eEp5ZDNrWHVyNzRGa0xJMWV2dkdiSkNmdFZZdDhqRXBuY1RIb2V4Qk55WVdlZ0xLUk5iQlBxbW1ST1d2NjMtR1cxeFozOUJOQXNHVVZhdmtZRWpjSmxsRER5QVHSAcYBQVVfeXFMT3lobjNRVjUzM2Uwam5pd2hUWjh3czVlZ3QtWmRkUmNINjBDRFV5ZXVhZHNaUVQ0QklqSE01QmR1YzVTQkVZcGp0X1dCUi01YTNSRGhUcUlSTmp6dXRBdElwQ25hbUJsbXRlenhKeWQza1h1cjc0RmtMSTFldnZHYkpDZnRWWXQ4akVwbmNUSG9leEJOeVlXZWdMS1JOYkJQcW1tUk9XdjYzLUdXMXhaMzlCTkFzR1VWYXZrWUVqY0psbEREeUFR?oc=5",
-"https://cryptoslate.com/circle-and-trump-linked-crypto-firm-hit-with-court-freeze-order-after-binances-6-3-billion-hack/"
-],
-"w": [
-"apeing",
-"best",
-"binance",
-"buy",
-"debate",
-"eyes",
-"fed",
-"hack",
-"now",
-"shakes",
-"spotlight",
-"warning"
-]
-},
-{
-"e": [
-"anthropic",
-"big",
-"ipo"
-],
-"k": [],
-"t": 1795163420.2812147,
-"u": [
-"https://t.me/cointelegraph/73408"
-],
-"w": [
-"$139b",
-"$83",
-"anthropic",
-"big",
-"combined",
-"founders",
-"ipo",
-"nearly",
-"price",
-"seven",
-"stakes",
-"were",
-"worth"
-]
-},
-{
-"e": [
-"georgia",
-"isis"
-],
-"k": [
-"legal"
-],
-"t": 1795164036.2548685,
-"u": [
-"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVkRJLVdIOERQUEtuYUdfUUlsY05XSTRMcnJrRy1BN2dSejVVemQtMEFZVTI0MTVlSkxGaVNuUGlMejViRk0xM0RXc1BLZXQxc29iZ3JFd0RLWkNueENOVWd5OUlSVElVd2dadDNNbWRwNTZTZng0MXZGX1dHTm9ZSEtIdjZNTWwyXzhuOEZxNXNEVEoyZFJDZHdUX2hoNDJaLUluQmYyXzQ0bm5paUczdEpXbU1lVV9CTjFkTTY2T0t4eUY2WE1ZOTIybTlVYmpV?oc=5",
-"https://news.google.com/rss/articles/CBMisgFBVV95cUxPbnJOZGJ2NFZ3cTJ4elJNUm1fTVl1b0MzYnlIYXZTek00Z0xyMkY2N1FoTTV1UXlUWVBsZlZKdlZVT3N6Z0ZEMi1ZaFoxdGVDdkJMMDNCZzctZGQxdHFXRzBTbTZLaEZ5cnpDTnI5LWFid3FxLUc1UUo0eUdOZGNrdmhRNEVDRXp6RktfQW1PaTdPTkk2UU1TZGl4UUkxWEptUFhVTFZ4ckNqMHpBN2w5dWJn0gG3AUFVX3lxTFBFWXlETktmTExZS2xBRFJBQ3oxMTZxckpoMWM1cWI4ZDhnUWRQV1YwMHl3QU5KYTQ2bHh0b3doX2ttVV9Gby0wM2VyVUtEdl83SHFDUWt6RzZqZFJNSzM1QVl0UDF0NTlKVmNxVFJkRWJpei1jdmd6ZmM1MTVXbkRMVXY4d2tabUhOVEM4eEtJT0pyUkliQW9yaUhYQnZSUlZoTVJocDRITEF1cVFKcGlGMDRWeHI4QQ?oc=5",
-"https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1daWWFLaHMwbHA0SnNYMkpScG1MZW5zMEdiVW9tSVVrTHdLaEhYVHZkYnJncl9UcHpjZFBQSElETElVY1QyNER6OGptWG9Rc0ltMXhST2xjRTBFSlZSZHdwRXJDX1ViUzJ3TkZkN2wwLUNsRU9lcE5rUmxCeTFwazhkUmM?oc=5"
-],
-"w": [
-"alleged",
-"charged",
-"destruction",
-"evidence",
-"georgia",
-"groups",
-"isis",
-"laundering",
-"linked",
-"man",
-"money",
-"transfers"
-]
-},
-{
-"e": [
-"consecutive",
-"day",
-"marking",
-"million",
-"net",
-"november",
-"outflows",
-"see",
-"spot",
-"third"
-],
-"k": [
-"etf"
-],
-"t": 1795167423.4331722,
-"u": [
-"https://t.me/wublockchainenglish/26892",
-"https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHJhdHNwZURVYllkd2VFM2dKMHBPeVRJd3Q5ZjduRFB5djd4SkM3NlMxRkpWNGZ1SFlpdFM1LTBQcWhRXzR4ZTlybF9KOVFhVGNxdFZNSVptZzMzUDRiQVJWaTlRMWlzczZncVlfTGRiU1RqdVE2VDZINWo5UEJQRVlKdXg?oc=5",
-"https://news.google.com/rss/articles/CBMidkFVX3lxTE4yamlnZ0Q0Y3RmZjhZNklVU3Q2cktkanZRS2hzZnhhRXN2alFMNjdhdGNaUmV6eXV2djRYeXl1S1lJUTdnZTNZU2tkUS1zNG5JT3I3MlN3amZvMFViaDhOM2VyQ3pyRi1hd0ZYUmkwZ3VGUmNsdXc?oc=5"
-],
-"w": [
-"$582",
-"bitcoin",
-"consecutive",
-"day",
-"etfs",
-"marking",
-"million",
-"net",
-"november",
-"outflows",
-"see",
-"spot",
-"third"
-]
-},
-{
-"e": [
-"certificates",
-"charges",
-"eight",
-"entities",
-"fake",
-"filings",
-"forged",
-"platforms",
-"real",
-"using"
-],
-"k": [
-"legal"
-],
-"t": 1795170193.179803,
-"u": [
-"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVC1nYUU3QXliN2tBeWgyWF83LXpnT0Jhc2ZqOWpqV0lMWDVtMnBkN3VKaUY1RWdGZGFVblVxTm91RzVUaWFJbkhhS3VnZVFOVjRHRW5jaUN1d0VwZElkNWQybGhPMG1IMWJiMzdiTDBic1BPV2piSU9nY0pNV01udTVSR1pZall4NThLUEV0Q1VvWlp4Nk9adnlLLUhGTFdRQUFrekhXdnBZaDQzbktWYlQ3LUZrMDFleWVKdUUwd3RuSnBZX0VpbmUxR3I1MmJEQTZmRnVzUHVhVkJiM18yZHVEWW9XQQ?oc=5",
-"https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMizAFBVV95cUxQUjh6c2lxbk0tRklpaVkyUnRTdnVnNnhOdk5Nc20xZllUeDlSTDdQanBBVzJxVGhEdUplZHBHZkFzY21vMVBheW5MbDhHMDU2Q0UwMWFRQnU0UENSWFVJMktYU1FtQjVucDJDbmxNMlJiU1ZPaktqd2NKdjVzT296MEJNS3lGelNpQkZPMHJaVHp3WUVMdUgtZEFYRC1KU2pFWk0wUEp3STJQUTBuRVZyMkk1enhESHVRZnUwb0hBd2k1anJERXhvc3ZSNXI?oc=5",
-"https://news.google.com/rss/articles/CBMie0FVX3lxTFBrNVV6dDNCUXkzVWlFZkhQLXF2VFhwb3c0dDhwek0tQmUxcXRRRFFQcmtIMzdWbzNFZzBRRVRtdzFqY05CNDVYTmJkeHVRY19HeEh5LUpKZUtkWGJJWUluRXhHMUdCRHVybEZwaHQ0UGFUc0ZzbHN0ZTFYTQ?oc=5"
-],
-"w": [
-"certificates",
-"charges",
-"eight",
-"entities",
-"fake",
-"filings",
-"forged",
-"platforms",
-"real",
-"sec",
-"using"
-]
-},
-{
-"e": [
-"berlin",
-"confirms",
-"found",
-"germany",
-"hardware",
-"ledger",
-"physically",
-"tampered",
-"wallets"
-],
-"k": [],
-"t": 1795170502.451694,
-"u": [
-"https://t.me/wublockchainenglish/26896"
-],
-"w": [
-"berlin",
-"confirms",
-"found",
-"germany",
-"hardware",
-"ledger",
-"physically",
-"tampered",
-"wallets"
-]
-},
 {
 "e": [
 "trader"
@@ -6084,71 +5749,96 @@
 "transfers",
 "wallets"
 ]
+},
+{
+"e": [
+"cad",
+"kraken"
+],
+"k": [],
+"t": 1795343917.7992148,
+"u": [
+"https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://news.google.com/rss/articles/CBMixAFBVV95cUxNbUM2UVJiS3lfTWlleFBFTUZBeUY4aGhpWVQweE42TC1md2Jzcm1ZdlM5MFlTRHpFU3VMdzZVdk9Cd1VQeE9BMXl2elU5X05OVXRuWlVKcmxsNDJ1NXV3UUxIQVNlRGkzaFJEZmk1WU1nTnZfcTFjQnQ3NndrNzRXN2d2dndIeV9aYWlxNmtIZ3BpZjFFVnNNT1dBclFHOVlReXdyR1VHd3BsOGZIVHdrZGplRVc1WXdBak1UbUFQZXVWX1Zz?oc=5",
+"https://news.google.com/rss/articles/CBMic0FVX3lxTE56RkgteEV4MVhSTm1nWkpxZy10aHFyTFJUMHd4U2UxVUVzdWpQYlhqdzdGZjJRZ0JKWFN2QlZPREE5dkZOR1RYVlk0UDBPMlZmM0NBUWJ0c1o3UEFoZUg2eGlEV0FSbFhtVlBKWXRpSnk5emM?oc=5",
+"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTTZXRjMwMlpzalZ2amtobUE1YjRMSS10UmxuN1ExX3EtNDNSeklyWG5mcEpqaUdub2xyUkRWYXVpYlpqYWktWm8tRjZKZVFJMGtkdG5xblJDUzJjdHM0UUZLN3RlSnJJaUZTTEJWeUpINW1tZXpyYlAwUm45Rlhzc0NfbXlfb3FVcW9fQ1MwRmdYTjlMc0xtclBpRy1VbzJtVUE?oc=5"
+],
+"w": [
+"$17k",
+"bitcoin",
+"briefly",
+"cad",
+"drops",
+"kraken",
+"markets",
+"trades",
+"upholds"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"218f702293e9",
+32,
+3,
+1
+],
+[
+"88eda230bdb1",
+28,
+1,
+1
+],
+[
 "ce6eee56019f",
-65,
-177,
+64,
+189,
 2
+],
+[
+"179addbdaf22",
+41,
+2,
+1
 ],
 [
 "060a14877279",
-65,
-183,
+64,
+195,
 2
 ],
 [
-"1b941225a591",
-48,
-54,
-3
-],
-[
 "faaead5f18ed",
-41,
-302,
+40,
+314,
 2
 ],
 [
 "ebcfa7d646fe",
-24,
-264,
-1
-],
-[
-"f416d8f38575",
-35,
-174,
+23,
+276,
 1
 ],
 [
 "b41028a1f6a9",
-11,
-237,
+9,
+249,
 1
 ],
 [
-"776046340b52",
-30,
-37,
-1
+"1b941225a591",
+50,
+66,
+4
 ],
 [
-"2a27a9bbbbcf",
-10,
-36,
-1
-],
-[
-"7781eafc3292",
-20,
-108,
+"f416d8f38575",
+35,
+186,
 1
 ]
 ],
-"top_at": 1795343200.0777507
+"top_at": 1795343917.7992148
 }
