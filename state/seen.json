@@ -471,7 +471,7 @@
 "Crypto Briefing",
 "TradingView"
 ],
-"t": 1795342076.5458834,
+"t": 1795342685.7039056,
 "t0": 1795339986.0,
 "tgtext": "",
 "title": "Kraken upholds trades after Bitcoin briefly drops to $17K on its CAD markets",
@@ -1824,7 +1824,7 @@
 "KuCoin",
 "TradingView"
 ],
-"t": 1795338421.039516,
+"t": 1795342685.7039056,
 "t0": 1795325280.0,
 "tgtext": "",
 "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
@@ -1839,7 +1839,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1795342379.6989024,
+"t": 1795342685.7039056,
 "t0": 1795340992.0,
 "tgtext": "",
 "title": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
@@ -2245,10 +2245,9 @@
 "src": "TradingView",
 "srcs": [
 "Cointelegraph",
-"Startup Fortune",
 "TradingView"
 ],
-"t": 1795338421.039516,
+"t": 1795342685.7039056,
 "t0": 1795332240.0,
 "tgtext": "",
 "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
@@ -2404,6 +2403,21 @@
 "tgtext": "",
 "title": "Georgia resident arrested, charged with sending over $26,000 to ISIS, destroying evidence",
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jOS00Z3Q0c1FoQ1ZidzhxcTk3T01KYWNBUkZ6TnY1QUlYVlJGRWpfYlNHS0gtaHExMHVYV0FtMUtoT1JTV1lUZXJBM2d2U0U4eGVOVU93ZFN3bzg5a2ZHY2VoeGpqeVZvQURzOWxUdUlhSnI2NnZV?oc=5",
+"urls": []
+},
+"9942c779b124": {
+"coin": "",
+"src": "Hokanews",
+"srcs": [
+"Cryptonews.net",
+"Hokanews",
+"Startup Fortune"
+],
+"t": 1795342685.7039056,
+"t0": 1795324442.0,
+"tgtext": "",
+"title": "Cyber Bridge Exploit Mints 5.21 Million CYBER Tokens as Upbit and Bithumb Halt Transfers",
+"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMU0tUVZ2Z0VQRTQzQmprOFFCS0VpaHJWZW1TcGRUNHA2WnlpUlUzQi0wRTBmTTlKbG9Zdi1UTHp0QXVtS2xrTF9xY3VmMW5PaWpVYkRmZTdiZFZ6bVZ3MUxUTkhkNzJaUDBfQ3BsTkJUV2RhNWxkMG9VXzBHNWhZTkNn?oc=5",
 "urls": []
 },
 "9979a63f33a7": {
@@ -2931,7 +2945,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795342379.6989024,
+"t": 1795342685.7039056,
 "t0": 1795328962.0,
 "tgtext": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nCoinbase CEO: AI Gives You an Infinite Team of L5-Level Employees\n\nOn November 18, 2026, Coinbase CEO Brian Armstrong said in an interview with David Senra that Coinbase's use of AI has shifted from entering prompts to assigning goals to agents, which lead teams of humans or other agents and seek input on important decisions. He believes agents can now perform at the level of L5 or L6 employees, effectively giving people access to an unlimited team of L5-level employees. He currently uses seven or eight lead agents, each responsible for a different area, coordinated by a chief-of-staff agent. Each lead agent may also deploy three to five subagents while working. \u2014 link",
 "title": "Highlight Clip: Coinbase CEO: AI Gives You an Infinite Team of L5-Level Employees",
@@ -3502,7 +3516,7 @@
 "Arise News",
 "Coin Gabbar"
 ],
-"t": 1795342379.6989024,
+"t": 1795342685.7039056,
 "t0": 1795332600.0,
 "tgtext": "",
 "title": "Binance Hack Stolen Funds: Hacker Wallet Nearly Empty, ETH Price Next?",
@@ -3970,7 +3984,7 @@
 "srcs": [
 "ad-hoc-news.de"
 ],
-"t": 1795342379.6989024,
+"t": 1795342685.7039056,
 "t0": 1795327332.0,
 "tgtext": "",
 "title": "Bitcoin price rebounds above USD 60,000 after leveraged liquidations",
@@ -4118,7 +4132,7 @@
 "srcs": [
 "CoinGecko"
 ],
-"t": 1795342379.6989024,
+"t": 1795342685.7039056,
 "t0": 1795332780.0,
 "tgtext": "",
 "title": "Crypto Liquidation Heatmap: BTC, ETH, SOL Liquidation Levels",
@@ -4200,7 +4214,7 @@
 "BigGo Finance",
 "bloomingbit"
 ],
-"t": 1795342076.5458834,
+"t": 1795342685.7039056,
 "t0": 1795325093.0,
 "tgtext": "",
 "title": "Record $950 Billion of Bitcoin Capital Sits Below Cost Basis as Price Slumps Near $58,000",
@@ -4263,14 +4277,9 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"016579a9c613": 0.118,
 "02a4baf39975": 0.037,
 "03b5cd2b559b": 0.075,
-"060a14877279": 0.326,
-"0666f7e78545": 0.066,
-"0f4b00dfc569": 0.08,
-"15c766552b13": 0.084,
-"1b587c175072": 0.082,
+"1b941225a591": 0.29,
 "1f5531644712": 0.079,
 "20eedea04d26": 0.108,
 "2756a4547b6e": 0.031,
@@ -4278,31 +4287,36 @@
 "2e6bc052fdfc": 0.021,
 "316c80d81280": 0.032,
 "35da5b44da99": 0.072,
-"37f1a4e759bb": 0.242,
-"39ae8dfb755f": 0.15,
+"3a8e55b1d656": 0.044,
 "4a1dab444c76": 0.044,
 "4b44c8d35485": 0.066,
-"4d3184a31361": 0.061,
+"4f581e500416": 0.051,
 "687a6d66ed49": 0.064,
 "6b0b1792c434": 0.09,
-"6d587f5e3891": 0.206,
 "72486101459b": 0.041,
+"76920b88039e": 0.479,
 "776046340b52": 0.16,
 "7781eafc3292": 0.123,
 "7f17786ce297": 0.017,
 "8465c54a22a7": 0.041,
+"85a87bb2d296": 0.043,
+"8619a1f78f33": 0.036,
+"8efaa65807be": 0.397,
 "9744ce6e821a": 0.075,
+"9942c779b124": 0.208,
 "9fe3b4d7e284": 0.101,
-"a94482dc444f": 0.132,
 "ae91e371b99b": 0.077,
 "b41028a1f6a9": 0.167,
+"b56e1d051632": 0.045,
 "b5dbeebe8abc": 0.074,
+"ba71f2f076b9": 0.068,
 "c0b2648ebcbc": 0.047,
 "ce6eee56019f": 0.374,
+"d55e71924132": 0.037,
 "da19b08779c8": 0.038,
-"dd5c91a217d8": 0.532,
 "ebcfa7d646fe": 0.239,
-"f416d8f38575": 0.172
+"f416d8f38575": 0.172,
+"faaead5f18ed": 0.256
 },
 "sent": [
 {
@@ -6117,65 +6131,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"dd5c91a217d8",
-60,
-169,
-4
+"76920b88039e",
+47,
+290,
+3
+],
+[
+"8efaa65807be",
+65,
+174,
+2
 ],
 [
 "ce6eee56019f",
 65,
-163,
+168,
 2
 ],
 [
-"060a14877279",
-65,
-169,
-2
+"1b941225a591",
+48,
+45,
+3
 ],
 [
-"37f1a4e759bb",
-47,
-38,
-1
+"faaead5f18ed",
+42,
+293,
+2
 ],
 [
 "ebcfa7d646fe",
-26,
-251,
+25,
+256,
 1
 ],
 [
-"6d587f5e3891",
-4,
-306,
-1
+"9942c779b124",
+59,
+304,
+3
 ],
 [
 "f416d8f38575",
 35,
-160,
+165,
 1
 ],
 [
 "b41028a1f6a9",
-13,
-224,
+12,
+229,
 1
 ],
 [
 "776046340b52",
 30,
-23,
-1
-],
-[
-"39ae8dfb755f",
-7,
-357,
+28,
 1
 ]
 ],
-"top_at": 1795342379.6989024
+"top_at": 1795342685.7039056
 }
