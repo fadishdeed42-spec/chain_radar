@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795278818.8535278,
 1795282968.7913425,
 1795288563.4333878,
 1795343917.7992148,
@@ -14,7 +13,8 @@
 1795351541.707013,
 1795357641.873624,
 1795363316.377428,
-1795364049.5569804
+1795364049.5569804,
+1795365276.5683033
 ],
 "menu": {
 "00f11667de9c": {
@@ -270,7 +270,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795364191.0,
 "tgtext": "JUST IN: Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.",
@@ -634,7 +634,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795364968.0557225,
+"t": 1795365276.5683033,
 "t0": 1795343710.0,
 "tgtext": "A whale deposited 2,279 $BTC($134.7M) into #Binance 2 hours ago.\n\nhttps://arkm.com/explorer/address/bc1qa2cv0p92t727kd9q6f87vqra72zf3cytdgeqyh",
 "title": "A whale deposited 2,279 BTC($134.7M) into Binance 2 hours ago.",
@@ -771,7 +771,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795363581.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: One trader got into Trump's memecoin gala for the third time by buying $TRUMP and shorting it at the same time, and this round he walked away $6 richer.\n\nNews | Markets | YouTube",
 "title": "One trader got into Trump's memecoin gala for the third time by buying TRUMP and shorting it at the same time, and this round he walked away $6 richer.",
@@ -1123,7 +1123,7 @@
 "CryptoTicker.io",
 "Pluang"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795346322.0,
 "tgtext": "",
 "title": "Chainflip hack: $12m drained, swaps halted in Safe Mode",
@@ -1376,7 +1376,7 @@
 "Hokanews",
 "MLQ.ai"
 ],
-"t": 1795363316.377428,
+"t": 1795365581.5053706,
 "t0": 1795344556.0,
 "tgtext": "",
 "title": "Upbit and Bithumb halt CYBER token transfers after a suspected bridge exploit mints 5 million tokens",
@@ -2111,7 +2111,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795364968.0557225,
+"t": 1795365276.5683033,
 "t0": 1795343850.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 MARKET: The Coinbase $BTC premium has been negative for 60 straight days.\n\nWhere to next?\n\nNews | Markets | YouTube",
 "title": "MARKET: The Coinbase BTC premium has been negative for 60 straight days.",
@@ -2197,7 +2197,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795344591.0,
 "tgtext": "This guy bought 9,677 $ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!\n\nHe sold 3,700 $ETH ($6.11M) 5 hours ago to cut his losses.\n\nhttps://arkm.com/explorer/address/0x9a28110E519262Bf3469dF69BbED831cb23F4c4b",
 "title": "This guy bought 9,677 ETH ($21.66M) at $2,239 just 2 weeks ago and is already down $5.36M!",
@@ -2257,7 +2257,7 @@
 "srcs": [
 "Crypto News"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795356299.0,
 "tgtext": "",
 "title": "Michael Saylor hints at another Strategy Bitcoin buy after BTC crash",
@@ -2421,7 +2421,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795358186.0,
 "tgtext": "\ud83d\udea8\ud83c\uddfa\ud83c\uddf8 JUST IN: Democrats plan hearings to unwind Trump's tariffs and tax cuts once they take Congress in January.\n\nTrump's response: \"I'm going to veto them.\"\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Democrats plan to reverse President Donald Trump's tax cuts after taking control of Congress next year.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Democrats plan hearings to unwind Trump's tariffs and tax cuts once they take Congress in January.",
@@ -3100,6 +3100,22 @@
 "title": "Chun (@satofishi) bought the ETH dip again, buying another 7,186 ETH ($11.74M) just 7 hours ago!",
 "url": "https://t.me/lookonchainchannel/11192",
 "urls": []
+},
+"be46d6f61545": {
+"coin": "bitcoin",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate",
+"Watcher.Guru"
+],
+"t": 1795365581.5053706,
+"t0": 1795357834.0,
+"tgtext": "JUST IN: Bitcoin reclaims $61,000 and ETH reclaims $1,715\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
+"title": "Bitcoin reclaims $61,000 before giving back a third of the weekend rally",
+"url": "https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/",
+"urls": [
+"https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/"
+]
 },
 "c0dd31f754c5": {
 "coin": "bitcoin",
@@ -3889,7 +3905,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795357362.0,
 "tgtext": "Bloomberg: Trump Memecoin Dinner Returns as Demand Falls and Political Scrutiny Rises\n\nDonald Trump is set to attend another dinner for top TRUMP memecoin holders as participation declines sharply and the token trades about 99% below its 2025 peak. Crypto trader Morten Christensen told Bloomberg that hedging his TRUMP holdings reduced his net cost of qualifying from about $1,200 for the first dinner and $500 for the second to a roughly $6 profit this time.\n\nDemocratic lawmakers have renewed conflict-of-interest concerns over token holders receiving private access to the president, while the White House said the privately organized event is not a government function. \u2014 link",
 "title": "Bloomberg: Trump Memecoin Dinner Returns as Demand Falls and Political Scrutiny Rises",
@@ -4078,7 +4094,7 @@
 "BigGo Finance",
 "TradingView"
 ],
-"t": 1795364968.0557225,
+"t": 1795365581.5053706,
 "t0": 1795354500.0,
 "tgtext": "",
 "title": "Bitcoin's $2.5 Billion Liquidation Wave: How Forced Selling Turned a Slide Into a Stampede",
@@ -4141,28 +4157,27 @@
 "sky": 1795122033.1506746
 },
 "probs": {
-"111e7a6d045d": 0.291,
+"111e7a6d045d": 0.342,
 "12d8f8d2c7d3": 0.665,
 "13de57cecc94": 0.067,
-"179addbdaf22": 0.155,
 "21049905a966": 0.084,
-"218f702293e9": 0.835,
-"233705ec6b5d": 0.1,
-"25280f8e1563": 0.193,
-"26c1314dc572": 0.801,
+"233705ec6b5d": 0.145,
+"25280f8e1563": 0.113,
+"26c1314dc572": 0.745,
 "2a2c6b54d29e": 0.074,
-"34c1fd9879f4": 0.074,
+"34c1fd9879f4": 0.155,
 "3f7ebc24cefe": 0.412,
-"433008fdd25e": 0.06,
-"4ac0435a78a3": 0.154,
+"433008fdd25e": 0.074,
 "4cf0a3c9e294": 0.089,
 "51e4c0c3d283": 0.371,
 "5eea572ebaaf": 0.059,
+"65787c0d5a78": 0.08,
 "68e8c01259b0": 0.323,
 "6de5e2997814": 0.128,
+"6eaf5817ef4b": 0.076,
 "755485049cd4": 0.035,
-"7b100040b9d2": 0.039,
-"7eec51c23039": 0.112,
+"7b100040b9d2": 0.049,
+"7eec51c23039": 0.161,
 "83af08371a26": 0.023,
 "8442f7c36073": 0.244,
 "875e549830f4": 0.086,
@@ -4172,8 +4187,9 @@
 "992d2cc73b29": 0.731,
 "9d9d1ec0ef3a": 0.228,
 "bd10aca1bbf5": 0.034,
-"be46d6f61545": 0.216,
+"be46d6f61545": 0.952,
 "c9bf0ba40884": 0.17,
+"cbe1a2983cfc": 0.095,
 "ebac32e9a303": 0.065,
 "ed52ce4a7dbc": 0.139,
 "ef42994ba8ea": 0.745,
@@ -4183,101 +4199,6 @@
 "fea9ff62c5c7": 0.09
 },
 "sent": [
-{
-"e": [
-"below",
-"drops",
-"falls",
-"liquidations",
-"reach"
-],
-"k": [
-"crash"
-],
-"t": 1795192149.2010665,
-"u": [
-"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xcWRPQnZIUHZ3Szd3U0FMYndpdEdLaHNqLW5HU0RSOXREaEpIVGpHWjZ2dGlYdVktZHJzMkVpZ294cHFncGF2cWhUd2pQdEZhOXlSNTVqb1AwZw?oc=5",
-"https://news.google.com/rss/articles/CBMiWkFVX3lxTE05ZXk0cWZDcHJpaXNhb1p6OHhPX2gwMlU5T0trb2ZCYm1sUFJ4dGJ6amQzY2NqX3hIUUlSb25FQTBJSGdnS09zeFp1TTZXT0w4MVhldFBBSnJhdw?oc=5",
-"https://t.me/wublockchainenglish/26900"
-],
-"w": [
-"$60",
-"000",
-"24h",
-"57b",
-"700",
-"below",
-"btc",
-"drops",
-"eth",
-"falls",
-"liquidations",
-"reach"
-]
-},
-{
-"e": [],
-"k": [
-"crash"
-],
-"t": 1795192149.2010665,
-"u": [
-"https://cryptoslate.com/bitcoin-hits-four-month-low-as-820-million-liquidated-and-12-7-billion-short-squeeze-risk-builds/",
-"https://news.google.com/rss/articles/CBMivgFBVV95cUxNS05zaUlELVNJRXlIaVlXM2xOSDV3WUthMTJaS21MOU1zNUt0MmtQSTNVUXpGdDc5VFk2NVduM3NFZUVydTJRWkItX3FUT0Y0TzIzZVNSMWJkZ1FnaE9pOGQwX0FaS01GTERSNXJIa0YtMTJKNkhqUEFycEhyTjJ0SFZmU0laVGY4cjJ2S0FQXzZoOFZFZU5pMGk3WlhmWWtfeVNta2dPWnltSlV4Z05uMDhVcmhPT0dJN2RDX2hn?oc=5",
-"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wSkdDZ2M0MW93US1PbDVlMlFlWnZzc3NvR3YxY01XT3RIZWoySEMyLUpjaFkyTjE3a0Z3UFJTRjVZZnFlTkdlRFhZeFY4UG96VzhkYnpPTU4?oc=5"
-],
-"w": [
-"$12",
-"$820",
-"billion",
-"bitcoin",
-"builds",
-"four",
-"hits",
-"liquidated",
-"low",
-"million",
-"month",
-"risk",
-"short",
-"squeeze"
-]
-},
-{
-"e": [
-"asian",
-"crash",
-"july",
-"level",
-"lowest",
-"sinks",
-"stocks"
-],
-"k": [
-"crash"
-],
-"t": 1795192455.3676329,
-"u": [
-"https://news.google.com/rss/articles/CBMimwFBVV95cUxPRlpzU011a3EwUjFSVTA1YkVITU1tbzQ2SWpaVFRBY2c4WDJUUEh1VlBYUnZMaG85dzV4UF8zX3VZLXFxR1hhaXAxUXRZOXNyUmU4TGNBLWU4RV9JVkNFSElNaVNhMDBMNUhwYlVBd2o2VXpvVVFJRHJUQmw5NWRtZDI4ZDdydnRNMlBOTVpGWDFicl9WaXczVWdxQQ?oc=5",
-"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlJRQ01TaGZkbFhyM0w1VDRUMWxCcC02RjdLaWpBdjNiRDliMDgxVDhYOEhSTVQ3UER3UlhZYkRKTGxKN09DX0xab2RCeDk3eXlHaVhaUFVlamZYa2kyRncybHZQTTBqSy1PM2tNYjVUb1hTZXZzRnRodG5hQkU4b2V2bXZmLUpLaEZKTkxvZlZySWdWZUZDMTAxN1NHbzlfVVR3REJLa1k?oc=5",
-"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNFgtOGEzdkVzNnJCVzFTSndpekhMMnQzeC1EeDVCUlJqWFZMVFFvbDV0OXZLSnNMS0tsaFlqZkN4bHNjSVF3LV9CWmhjWXJpOGs5ZUJjWVZ1akZvVFVjcWdBeDBqeVBCMS00MlVad09QRmd6UG9ramhsZWxPQ1BhVkU1UlpZVDRmNGxJak1vdVczVEV2YlhnaE1neEEzeHp5djVmNmdpazhZTWM3dTRNWG1WWUpMSHFoRW1ONFlnNU14WU9kNGZycWM2UVBqVjAwaUQ2em1FLU9SYzZRUGc?oc=5",
-"https://news.google.com/rss/articles/CBMiWEFVX3lxTE83QWJiTjZhWkFqaDRfa1lkTXVscXF6SEd0X0dKbFhJSWI2UmhyaDVURkl0cEdxZ2hWNHBxdGxnOS1hVXpnVmtBR1ZWcXdOQmN0emVuY1FDQW8?oc=5"
-],
-"w": [
-"$61",
-"300",
-"asian",
-"bitcoin",
-"crash",
-"july",
-"level",
-"lowest",
-"price",
-"since",
-"sinks",
-"stocks"
-]
-},
 {
 "e": [
 "michael",
@@ -5436,71 +5357,92 @@
 "trump",
 "walked"
 ]
+},
+{
+"e": [],
+"k": [],
+"t": 1795365276.5683033,
+"u": [
+"https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/",
+"https://t.me/WatcherGuru/16246"
+],
+"w": [
+"$61",
+"000",
+"back",
+"before",
+"bitcoin",
+"giving",
+"rally",
+"reclaims",
+"third",
+"weekend"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"218f702293e9",
-9,
-354,
-1
+"be46d6f61545",
+20,
+129,
+2
 ],
 [
 "26c1314dc572",
 18,
-23,
+33,
 1
 ],
 [
 "ef42994ba8ea",
 18,
-127,
+137,
 1
 ],
 [
 "992d2cc73b29",
 28,
-113,
+123,
 2
-],
-[
-"88eda230bdb1",
-0,
-352,
-1
 ],
 [
 "12d8f8d2c7d3",
 10,
-13,
+23,
 1
 ],
 [
 "8d64e48fa6f6",
 0,
-340,
+350,
 1
 ],
 [
 "fad28d563ce4",
 58,
-174,
+185,
 2
 ],
 [
 "8f09f182c1d3",
 28,
-144,
+155,
 1
 ],
 [
 "3f7ebc24cefe",
-58,
-311,
+57,
+321,
+3
+],
+[
+"51e4c0c3d283",
+53,
+350,
 3
 ]
 ],
-"top_at": 1795364968.0557225
+"top_at": 1795365581.5053706
 }
