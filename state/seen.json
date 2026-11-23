@@ -6,9 +6,6 @@
 },
 "init": true,
 "log": [
-1795343917.7992148,
-1795344223.7448082,
-1795344833.0991857,
 1795351541.707013,
 1795357641.873624,
 1795363316.377428,
@@ -19,7 +16,8 @@
 1795406112.7877598,
 1795419711.7326458,
 1795420144.722272,
-1795427459.523247
+1795427459.523247,
+1795432968.7721071
 ],
 "menu": {
 "023c3bf689da": {
@@ -203,17 +201,20 @@
 "coin": "bitcoin",
 "src": "Gadgets 360",
 "srcs": [
+"Decrypt",
 "Gadgets 360",
 "Investing.com",
 "NewsBytes",
 "Serrari Group"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795411760.0,
 "tgtext": "",
 "title": "Bitcoin Recovers Above Rs. 56.9 Lakh After Weekend Sell-Off as Liquidations Ease Selling Pressure",
 "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPVVlwTXlXRTFpYWR5d1YzZ3BzRkZZWWpLalFzdFpGOHBPVUI0QVBjV1RNdGlBTG5LREg3Qi1YeFV5aGhpckFQc3kta1cyY05lWUhLb0wzT3JSend5THhXVTBSX0JzOExKbnFkdzVXLU5aU1NESXktMzhmeU1UZ3VZMVBIWWUzdGRNMjg2dFpCekpXU3g1cGM4WUFvbWpBZFlYdE5VMEhBalFLeWd1YWdNOUs0Z2FQR0o5Zm9YdzB4eXBGYjc3OUpwNjF3RktDSXFyeHVocEZRWml2WWlEWUpEaU4xZk04bWE5U3ZzbFd2V01xWUNQWlpCcUtLVDctUmVQV0NFbmNUQ2M2SDZwYlRudUh1ZTllTXg5ZkFCZThfQ3FmUk3SAagCQVVfeXFMUGhESFVmNkdQR0lfaWtYSDQ5aEVJdXN0YWJia1duU0hTaElOMlpYTy1NYkpRZVBQTjJ4NEhwMUJSeXV0cjF5UEZlQlRpTWxYMktvMVBjY0xoVDFkZllfaVlHeHhrUm83RW1iT1JwTTZjN1dxVlN1ak9iWEdNQjYzWUpvMTE4cFYyQW1lR1VqcXNNNlRaUVV4TE41LUV1U3RCamdBLUR4UVIyazhTTWk3dC1oZ0xTZ3hINnVfOU5aUHE1eE44SXNQaFAySGJvLVV4Z1B4R3lhN2xsT1ZrWEJqcDN0QnZYN3hOTURJWnFONkVlNkxuMlQyT3B5R0Z1RjRFc0lwQm9NQ2Rwc3FzajBXRFdULV9jU0tfMExYXzR6T3l4azg5c25iTnM?oc=5",
-"urls": []
+"urls": [
+"https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low"
+]
 },
 "0d7a94845411": {
 "coin": "",
@@ -618,7 +619,7 @@
 "Cointelegraph",
 "GBHackers News"
 ],
-"t": 1795432356.8861985,
+"t": 1795432664.4375508,
 "t0": 1795421374.0,
 "tgtext": "\ud83d\udea8 ALERT: \"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.\n\nNews | Markets | YouTube",
 "title": "\"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.",
@@ -843,6 +844,23 @@
 "title": "Crypto Market Crash Triggers $2.3B Liquidations Amid Stock Rout",
 "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNEtoYzFoVDVPTWJsNm0wNVhpYk4xaTBzZi1pTGs0bFJEbmh6dnNhdXppYkpqQ3NEYVNQMXE5Qm0zQ01oQ0tsY2NDVzctSmZEalJSMnpYUlFHU2k1R0MzV0pxTkpmUEZVX2N5NVpDanV2WTlfampMS1NObENXVDgtMU1mdjE4WlNXc3Jpd3U1VTg4Qy1JR19URG93WmlCQkRPY3Nka3RsSE5JekE?oc=5",
 "urls": []
+},
+"32d7a460e995": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"CyberSecurityNews",
+"GBHackers News"
+],
+"t": 1795432968.7721071,
+"t0": 1795419213.0,
+"tgtext": "\ud83d\udea8 ALERT: \"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.\n\nNews | Markets | YouTube",
+"title": "\"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.",
+"url": "https://t.me/cointelegraph/73452",
+"urls": [
+"https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "33e216bb781e": {
 "coin": "bitcoin",
@@ -1398,7 +1416,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795428718.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to release draft of comprehensive crypto laws this week.\n\n@WatcherGuru",
 "title": "South Korea to publish draft of comprehensive crypto legal framework this week",
@@ -2336,7 +2354,7 @@
 "srcs": [
 "The Cryptonomist"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795425450.0,
 "tgtext": "",
 "title": "BTCS Aave Loan Risk: Liquidation Threat as Ether Falls",
@@ -2803,7 +2821,7 @@
 "ForkLog",
 "Wu Blockchain"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795419177.0,
 "tgtext": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History\n\nCryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4.5 billion over the past year and remains down nearly 40%. In July, the decline exceeded 45%, equivalent to $6.25 billion, marking the largest deleveraging event in Bitcoin's history in dollar terms. Binance accounts for over 34% of total Bitcoin open interest. Darkfost attributed the contraction to macroeconomic uncertainty, geopolitical tensions, tighter monetary policy, voluntary position closures, forced liquidations, and declining Bitcoin prices. In 2026 alone, the broader crypto market has recorded at least eight days with liquidations exceeding $1.5 billion. \u2014 link",
 "title": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History",
@@ -3021,6 +3039,19 @@
 "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaXN2MTgyVnk2dzY4Z1lTdlppNjlWYjdJZ3hEWGo2ektmeVd4a3p4VklUQ1h3a0xHYk1HMFFIVE9iOHB5RWt6b2hrWGpmQ0E3a194NUlGSjg0MV9zYTRaSTlWd0FEc3MyOXBHemNSTVJxZmVEc29kZWg4TjlfbmVRSDFla1dwc3R2QWtwZUd6OEwwRkJ3dURsdHhkQ2NocUw5b1M4ZUVsa1g3LW5LNzlRb0tBcVpHdWtiM2o5M2RMRElGdnMyTXMwNFJDMEdxLWxNSmpTZElId19Dd09fdmtOeUhEMDUzV0VacGlPWUVDdU1TTkJIWTh1bDFFWmVORk95aXln?oc=5",
 "urls": []
 },
+"cd7554cd82fc": {
+"coin": "usds",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795432968.7721071,
+"t0": 1795432446.0,
+"tgtext": "Upbit, Bithumb flag Sky Protocol's SKY and USDS as caution assets\n\nSouth Korea\u2019s largest cryptocurrency exchange, Upbit, and second-largest exchange, Bithumb, have separately designated Sky Protocol (SKY) and its stablecoin USDS as trading caution assets. Upbit stated that its assessment of the projects\u2019 issuance, operations, development teams, credibility, track records, and disclosure of material information identified potential risks of harm to users. \u2014 link",
+"title": "Upbit, Bithumb flag Sky Protocol's SKY and USDS as caution assets",
+"url": "https://t.me/wublockchainenglish/26922",
+"urls": []
+},
 "ce6eee56019f": {
 "coin": "ethereum",
 "src": "Coin Gabbar",
@@ -3220,7 +3251,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795427084.0,
 "tgtext": "Another $TRUMP dinner is coming!\n\nBut this whale, who spent $29.18M buying 3.58M $TRUMP (now worth $3.22M) about a year ago, is currently down $25.96M (-89%)!\n\nhttps://arkm.com/explorer/entity/399c07d4-0df4-46ac-a4c0-fe1c622613a0",
 "title": "Another TRUMP dinner is coming!",
@@ -3277,10 +3308,12 @@
 "src": "CryptoNinjas",
 "srcs": [
 "CryptoNinjas",
+"Holder.io",
 "Tech Times",
+"finway.com.ua",
 "grafa.com"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795412648.0,
 "tgtext": "",
 "title": "Fusionist ACE Exploit Drains Over $2M, Attacker Sends 1,150 ETH Into Tornado Cash",
@@ -3471,23 +3504,6 @@
 "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdGdrekJaS1lKZTBzalU1bXJ3WEtDVWRaOVNHRkx2aXVXQUlEdEJYZEREZlhna1JvaWJoNVZ3dGhlLTVSZ2U1Z2d3QmJodExyc3VhMEQwY1lvcmhTcDdwRzYxclhySUpxZ09aSnhiMXF1ZVY4WldZZjJtMmFOUXZXVk9TTTZ4RHhSeEJtUkZsOW1wMzRpcDQ1ekROLTdlZlVGU1F0cFJ5SDBGR3pzaFE?oc=5",
 "urls": []
 },
-"f294818f9a2c": {
-"coin": "ripple",
-"src": "CoinDesk",
-"srcs": [
-"Bitcoin Foundation",
-"CoinDesk",
-"Times Tabloid"
-],
-"t": 1795259748.8124757,
-"t0": 1795240759.0,
-"tgtext": "",
-"title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-"url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
-"urls": [
-"https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
-]
-},
 "f3fc5c4fc005": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -3510,7 +3526,7 @@
 "CoinGecko",
 "MEXC"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795412400.0,
 "tgtext": "",
 "title": "Aave Health Factor Calculator: Find Your ETH Liquidation Price",
@@ -3551,7 +3567,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795432356.8861985,
+"t": 1795432968.7721071,
 "t0": 1795423229.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his $TRUMP memecoin to ensure United States stays ahead of China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his TRUMP memecoin to ensure United States stays ahead of China.",
@@ -3581,18 +3597,15 @@
 "rain": 1795284188.7650707
 },
 "probs": {
-"0385aa78bf32": 0.056,
 "075d6331898a": 0.021,
-"0d401e599169": 0.488,
+"0d401e599169": 0.517,
 "1050a543641d": 0.079,
-"17360c6e1dd1": 0.039,
 "1c94139a3c2b": 0.045,
 "1e3f5dccee08": 0.038,
-"22a84bcba85f": 0.726,
-"278401285766": 0.127,
+"278401285766": 0.19,
 "2b91dcb3cae4": 0.027,
 "2c85b697be84": 0.01,
-"35b4fa13e20e": 0.15,
+"32d7a460e995": 0.777,
 "384aa8345385": 0.188,
 "4601af5e9591": 0.057,
 "579081f35e69": 0.166,
@@ -3603,45 +3616,29 @@
 "7bf3451299ef": 0.096,
 "831f053a6c4f": 0.063,
 "84df5cf72708": 0.119,
+"8be6e23f1d93": 0.038,
+"91ad1ce29c0d": 0.043,
+"91e4a9c2e7bc": 0.076,
 "9933e1b13d00": 0.33,
 "9edc9acc70ae": 0.457,
 "a45a4df3178e": 0.099,
 "b0a8e61739f7": 0.226,
-"bc45c2db8f25": 0.038,
+"b2b0ba382ef0": 0.037,
 "be707c0137b3": 0.553,
 "cd67e51395a0": 0.094,
 "cf7b895e0904": 0.06,
-"db22fe57b23c": 0.104,
 "dd7368e12be1": 0.612,
 "e1da6db90413": 0.019,
 "e1e4b2414230": 0.229,
 "e50d8631ad79": 0.071,
-"e6dc51904e40": 0.856,
+"e6dc51904e40": 0.811,
 "e712c8ae1f9b": 0.039,
+"eebca9d27f83": 0.231,
 "f416d8f38575": 0.43,
 "fccad109c615": 0.883,
 "ff37e2ef572f": 0.059
 },
 "sent": [
-{
-"e": [
-"rekt"
-],
-"k": [],
-"t": 1795258827.7169042,
-"u": [
-"https://t.me/cointelegraph/73429"
-],
-"w": [
-"$200b",
-"hours",
-"less",
-"lost",
-"market",
-"rekt",
-"total"
-]
-},
 {
 "e": [
 "chainflip",
@@ -4666,6 +4663,42 @@
 "south",
 "week"
 ]
+},
+{
+"e": [
+"confiant",
+"moldyroost"
+],
+"k": [
+"hack"
+],
+"t": 1795432968.7721071,
+"u": [
+"https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMHpmTF9QQUtycEVrcXVvc2JIdS16ZVo4QnRIWE1VVzhtM2llVGZSU1dIaE0zcVN0bWwzYThnc1ViZ3ZjWnR2eHROQklYbzdTZ28zby1pejFhVWRiZ1VvM3VyWmtTV0dzVkpyZVNUWXJkRVdJ0gF6QVVfeXFMTUNmdWZaSzJXN3JZMmc0c2FuMERsdDZTb01CYWVfaXF6VTVYelVRZWtPSXNNUUFpZnQyRmNjTGF5YUdhRTk0alRJR3NnRjZwMEllTEdVaU5TaU5qcl9QY05ERmtmY3VzOTBYMVc0c1JCcTAwUU1nd25BclE?oc=5",
+"https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/cointelegraph/73452",
+"https://news.google.com/rss/articles/CBMikAFBVV95cUxPblJyalVWb3R4LTJlczZDbDNOblB0ODdyOVVHOE1QQ1JPYk1tR2dYa0VGdG9DZmxmcjRVd2lCNVlHNXFQZHFrc1lSYmxRM2xiWHp0dHZheDdMOEM1bTdhWGRYOUVNTzJsV2Nfc3Q4NWVxRFJLQWxRY2lRTExfbFd6R1FPX2FoaFp2dzV4MHVjZXjSAZYBQVVfeXFMTmthQ1FRcXlhT0c1c0dfQnZENGNQazNFWkVIUl8xX0xpOGJCZ0VJaW5kTXlWNUN1WTlHZElyRTZ1Q2FrTERGdDdLM2lLYzN1eEpDLU9QTHg2aHFuMkpLa0pvYXlZMzRsRmkzZlpkTUp2OEx1YnlGRGNQUGJsTEhOamlLRE9WUG94TlF6QzR6am1FelRZanFn?oc=5"
+],
+"w": [
+"480",
+"according",
+"across",
+"confiant",
+"countries",
+"domains",
+"iphones",
+"malicious",
+"malware",
+"messages",
+"moldyroost",
+"passwords",
+"phrases",
+"seed",
+"steal",
+"targets",
+"using",
+"wallet"
+]
 }
 ],
 "stories": {},
@@ -4674,63 +4707,63 @@
 [
 "fccad109c615",
 18,
-152,
+162,
 1
 ],
 [
 "e6dc51904e40",
-42,
-328,
-3
+64,
+339,
+5
 ],
 [
-"22a84bcba85f",
-45,
-183,
-2
+"cd7554cd82fc",
+10,
+9,
+1
+],
+[
+"32d7a460e995",
+49,
+229,
+3
 ],
 [
 "618df4b21457",
 20,
-61,
+71,
 2
 ],
 [
 "dd7368e12be1",
 18,
-88,
+98,
 1
 ],
 [
 "be707c0137b3",
-33,
-220,
+32,
+230,
 3
 ],
 [
 "0d401e599169",
-49,
-343,
-4
+57,
+353,
+5
 ],
 [
 "9edc9acc70ae",
 25,
-115,
+125,
 1
 ],
 [
 "f416d8f38575",
-15,
-333,
+14,
+343,
 2
-],
-[
-"7f6f978e441e",
-0,
-345,
-1
 ]
 ],
-"top_at": 1795432356.8861985
+"top_at": 1795432968.7721071
 }
