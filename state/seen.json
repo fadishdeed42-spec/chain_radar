@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795363316.377428,
 1795364049.5569804,
 1795365276.5683033,
 1795385412.3219602,
@@ -19,7 +18,8 @@
 1795437564.6824737,
 1795439093.5318549,
 1795439093.5318549,
-1795445735.8716676
+1795445735.8716676,
+1795450035.4702044
 ],
 "menu": {
 "023c3bf689da": {
@@ -408,7 +408,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795443454.0,
 "tgtext": "\ud83d\udd25 TRUMP: \"The US has no evidence that Jensen Huang acted unlawfully, and the country needs his leadership at Nvidia.\"\n\nTrump also says Nvidia's board of directors made the \"correct and proper decision.\"\n\nNews | Markets | YouTube",
 "title": "TRUMP: \"The US has no evidence that Jensen Huang acted unlawfully, and the country needs his leadership at Nvidia.\"",
@@ -1021,7 +1021,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795446170.0,
 "tgtext": "AguilaTrades(@AguilaTrades) placed limit orders 6 hours ago to short 1,000 $BTC ($62.25M) at $62,000\u2013$62,500.\n\nAs $BTC pumped following Jensen Huang's return to #Nvidia, his orders got filled, and he's now down $760K!\n\nhttps://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) placed limit orders 6 hours ago to short 1,000 BTC ($62.25M) at $62,000\u2013$62,500.",
@@ -1201,7 +1201,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795449719.004627,
+"t": 1795450035.4702044,
 "t0": 1795439158.0,
 "tgtext": "Strategy Expands Preferred Stock Buyback Program to $4B, Spends $212M on STRC vs. $30M on Bitcoin\n\nStrategy sold 1.93 million MSTR shares for $176.7 million between November 16 and 22, using $29.6 million to buy 457 BTC at an average price of $64,898 and $147 million to fund STRC repurchases. The company repurchased 2.18 million STRC shares for $211.8 million in total and increased its digital credit securities repurchase authorization from $3 billion to $4 billion.\n\nAs of November 22, Strategy held 851,305 BTC acquired for about $64.23 billion at an average price of $75,446. Its USD Reserve stood at $3.73 billion and USD Cash at $1.09 billion after reallocating up to $1 billion between the two. \u2014 link",
 "title": "Strategy Expands Preferred Stock Buyback Program to $4B, Spends $212M on STRC vs. $30M on Bitcoin",
@@ -1209,6 +1209,19 @@
 "urls": [
 "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"4d6bbeb56199": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795450343.1217055,
+"t0": 1795449890.0,
+"tgtext": "LONGITUDE by Cointelegraph is coming to Abu Dhabi. \ud83c\udde6\ud83c\uddea\n\nOn Dec. 10, during Abu Dhabi Finance Week, our 11th edition will bring banks, asset managers, regulators and Web3 leaders to Rosewood Abu Dhabi for an invitation-only gathering.\n\nRequest an invitation: https://luma.com/0199ner6\n\nNews | Markets | YouTube",
+"title": "LONGITUDE by Cointelegraph is coming to Abu Dhabi. \ud83c\udde6\ud83c\uddea",
+"url": "https://t.me/cointelegraph/73469",
+"urls": []
 },
 "4dd10cd3f7c6": {
 "coin": "bitcoin",
@@ -1749,7 +1762,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795442691.0,
 "tgtext": "JUST IN: Bitcoin surges to $63,000 as $250,000,000 in shorts are liquidated from the crypto market in 10 minutes.\n\nTrack liquidations in real-time: https://watcherguru.com/liquidations\n\n@WatcherGuru",
 "title": "Bitcoin climbs to $63,000 as $250 million in shorts get liquidated in 10 minutes",
@@ -1808,6 +1821,28 @@
 "title": "Kraken Bitcoin Price Crashes to $16,900 Amid CAD Pair Selloff",
 "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdlB2V05HLU9WaF9wd1ZjYTJMUlkyUlJfb0NEZ056b3EtZ25mSEh1REt2SEZ2a29oWnJyc2VpSWR4NDNFaW5kZEVabHV6b3FOTXFiUzEzcXpTVG5EdldEMVUwcXBDSlZIOUhPSW9pQ0VrSk00TGxMZTlHbV90ZXBNWmRiSWVTeHIyYVA3Ti14WDFNd3piTmlVaTVjU1ZIUQ?oc=5",
 "urls": []
+},
+"72a03a164f61": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Bitcoin Magazine",
+"CoinDesk",
+"Cointelegraph",
+"Crypto News",
+"CryptoPotato"
+],
+"t": 1795450343.1217055,
+"t0": 1795442479.0,
+"tgtext": "\ud83d\udd25 JUST IN: Nvidia reinstates Jensen Huang as CEO and board director, effective immediately.\n\nBoard vote was unanimous.\n\nNews | Markets | YouTube\nNvidia Reinstates Jensen Huang as President, CEO and Board Director\n\nNvidia said Jensen Huang has been reinstated as president, CEO and a board director effective immediately after a unanimous board vote. The board said input from senior U.S. government officials gave it confidence that his return poses no national security risk, while an independent investigation into recent foreign-intelligence-related reports will continue.\n\nNvidia shares surged as much as 25% in premarket trading Monday after plunging 14% on Friday to $125.53, near an 18-month low. \u2014 link\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA made the \"correct and proper decision\" to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump personally intervened to help Jensen Huang return as Nvidia's $NVDA CEO by joining board meeting by phone.\n\nhttps://watcherguru.com\n\n@WatcherGuru\nJUST IN: Jensen Huang says \"I can't wait to get back to work\" after being reinstated as Nvidia's $NVDA CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: Jensen Huang releases statement after being reinstated as Nvidia $NVDA CEO. \n\n\"I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.\n\nI take this responsibility with the greatest humility and renewed commitment.\n\nI want to thank the Nvidia board for its confidence and deliberation through this process. I am especially grateful to Harvey Jones for his leadership as chair, and to Colette Kress and our executive staff for leading Nvidia during this period.\n\nI am also deeply thankful to our employees, shareholders, leaders across the industry and partners around the world for their extraordinary support. Above all, I am grateful for the love and support of my family. I can't wait to get back to work.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nasdaq hits circuit breaker as stocks surge following Nvidia's $NVDA announcement to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 BREAKING: Nasdaq circuit breaker reportedly triggered as markets surge following news of Jensen Huang's reinstatement as Nvidia president and CEO.\n\nNews | Markets | YouTube\nJUST IN: Nvidia $NVDA surges over 34% to $168 at open following Jensen Huang's reinstatement as CEO, Pr",
+"title": "Nvidia officially surpasses Microsoft & Google to become the world's second most valuable company by market cap after Jensen Huang's reinstatement as CEO:",
+"url": "https://t.me/WatcherGuru/16282",
+"urls": [
+"https://decrypt.co/383797/nvidia-reinstates-jensen-huang-as-ceo-days-after-board-ruled-out-his-return",
+"https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27",
+"https://bitcoinmagazine.com/markets/bitcoin-price-surges-64000-nvidia",
+"https://cryptoslate.com/bitcoin-rockets-above-64000-as-nvidia-reinstates-jensen-huang-wiping-out-372-million-in-shorts/"
+]
 },
 "738a9286a2df": {
 "coin": "",
@@ -1907,6 +1942,23 @@
 "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNGhfWmNEb3VjWmRLa1FEdFRLdVJ4a0stX2wyT1VqSVZfdVo0dHI5TWxubFF5NjZwZTdWdURIejRIUHFvcHVJQjVqeEdnc3BMWk9VOWVYbXl3bkNZdldtZnpJRkhBMTVuNnFickZ3c21uNGJwU2RHcE4yaTFBODV4TjdVQVg2OTR3QXN2dTVzeDNTWElpaVVKWWVMYk5QRFFTSFdXcmtOTi1Za2F4SEctbGxwcWx6UGVXT2YtbG4yZ3YwS3ljV3hCQXZlNEpsMjZYcDFJRmJ0UGJDc2tsWEhYMFoyTzNCbmN6UU9SQlBBc1VEX0VYQnc?oc=5",
 "urls": []
 },
+"79b1d879b260": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Cryptonews.net",
+"Decrypt",
+"Wu Blockchain"
+],
+"t": 1795450343.1217055,
+"t0": 1795439303.0,
+"tgtext": "Czech Authorities Charge 15 in BETFIN Crypto Gambling Case Involving CZK 267 Million in Alleged Illicit Gains\n\nCzech customs and police announced that 15 people have been charged with alleged involvement in an organized criminal group and illegal gambling operations linked to BETFIN, a crypto casino using Polygon-based smart contracts. Authorities estimate the group's alleged unlawful gains at approximately CZK 267 million ($12 million) from operating gambling services without a license in the Czech Republic. An October crackdown resulted in 20 detentions and the seizure of approximately CZK 100 million ($4.5 million) in assets, including cryptocurrencies. Investigators analyzed over 2.3 million bets placed by approximately 28,500 players. Three alleged principal organizers remain in custody and face up to 13.5 years in prison if convicted. \u2014 link",
+"title": "Czech Authorities Charge 15 in BETFIN Crypto Gambling Case Involving CZK 267 Million in Alleged Illicit Gains",
+"url": "https://t.me/wublockchainenglish/26927",
+"urls": [
+"https://decrypt.co/383775/czech-authorities-charge-15-over-12m-unlicensed-crypto-casino"
+]
+},
 "7ae6286ace76": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1929,7 +1981,7 @@
 "Crypto Economy",
 "The Block"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795441784.0,
 "tgtext": "\ud83d\udd25 JUST IN: OKX and NYSE parent ICE launch a 24/7 tokenized securities trading venue with 113 confirmed assets, including stocks, ETFs and ETPs.\n\nTrading begins today for eligible US investors, with assets rolling out in phases.\n\nNews | Markets | YouTube",
 "title": "OKX and NYSE parent ICE launch a 24/7 tokenized securities trading venue with 113 confirmed assets, including stocks, ETFs and ETPs.",
@@ -2094,7 +2146,7 @@
 "Decrypt",
 "Pluang"
 ],
-"t": 1795449719.004627,
+"t": 1795450035.4702044,
 "t0": 1795442262.0,
 "tgtext": "BREAKING: Nvidia $NVDA reinstates Jensen Huang as CEO and President.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Nvidia reinstates Jensen Huang as CEO and board director, effective immediately.\n\nBoard vote was unanimous.\n\nNews | Markets | YouTube\nNvidia Reinstates Jensen Huang as President, CEO and Board Director\n\nNvidia said Jensen Huang has been reinstated as president, CEO and a board director effective immediately after a unanimous board vote. The board said input from senior U.S. government officials gave it confidence that his return poses no national security risk, while an independent investigation into recent foreign-intelligence-related reports will continue.\n\nNvidia shares surged as much as 25% in premarket trading Monday after plunging 14% on Friday to $125.53, near an 18-month low. \u2014 link\nJUST IN: Nvidia $NVDA surges over 34% to $168 at open following Jensen Huang's reinstatement as CEO, President, and Board Director.\n\nOver $1,000,000,000,000 in market cap has been added since the announcement.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says Nvidia $NVDA made the \"correct and proper decision\" to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump personally intervened to help Jensen Huang return as Nvidia's $NVDA CEO by joining board meeting by phone.\n\nhttps://watcherguru.com\n\n@WatcherGuru\nJUST IN: Jensen Huang says \"I can't wait to get back to work\" after being reinstated as Nvidia's $NVDA CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: Jensen Huang releases statement after being reinstated as Nvidia $NVDA CEO. \n\n\"I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.\n\nI take this responsibility with the greatest humility and renewed commitment.\n\nI want to thank the Nvidia board for its confidence and deliberation through this process. I am especially grateful to Harvey Jones for his leadership as chair, and to Colette Kress and our executive staff for leading Nvidia during this period.\n\nI am also deeply thankful to our employees, shareholders, leaders across the industry and partners around the world for their extraordinary support. Above all, I am grateful for the love and support of my family. I can't wait to get back to work.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Nasdaq hits circuit breaker as stocks surge following Nvidia's $NVDA annou",
 "title": "Nvidia officially surpasses Microsoft & Google to become the world's second most valuable company by market cap after Jensen Huang's reinstatement as CEO:",
@@ -2153,7 +2205,7 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795440600.0,
 "tgtext": "BitMine acquires 7,819 ETH, holdings reach 4.98% of supply\n\nBitMine said it acquired 7,819 ETH over the past week, bringing total holdings to 6,085,564 ETH, or about 4.98% of Ethereum\u2019s supply. The company has 5,227,037 ETH staked, generating projected annualized staking revenue of about $245 million; fully staking its ETH holdings could raise that to roughly $286 million at its current 2.74% seven-day yield. Total crypto, cash, marketable securities and other investments stand at about $11.1 billion. \u2014 link",
 "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 6.09 Million Tokens, and Total Crypto and Total Cash & Marketable Securities Holdings of $11.1 Billion",
@@ -3005,7 +3057,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795444935.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $3,000,000,000,000 added to the US stock market in the first 10 minutes of trading today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $3,000,000,000,000 added to the US stock market in the first 10 minutes of trading today.",
@@ -3610,7 +3662,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1795449719.004627,
+"t": 1795450343.1217055,
 "t0": 1795438995.0,
 "tgtext": "\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 457 $BTC for $29.6 million, bringing its total holdings to 851,305 BTC.\n\nThe company also repurchased $211.8M worth of STRC preferred stock over the past week.\n\nNews | Markets | YouTube",
 "title": "Michael Saylor's Strategy buys another 457 BTC for $29.6 million, bringing its total holdings to 851,305 BTC.",
@@ -3816,78 +3868,48 @@
 "rain": 1795284188.7650707
 },
 "probs": {
-"05f46fa8137c": 0.504,
+"070244f3f15e": 0.18,
 "1054aac47a54": 0.136,
 "1150f0683e26": 0.019,
 "152dc8fb2326": 0.203,
 "17bf1105edfc": 0.749,
 "21d43ab57230": 0.026,
 "2fe7ad67a2ff": 0.066,
-"4b47a9e6fd41": 0.158,
+"3dfdbafa4e90": 0.308,
+"4c0275bb7ea2": 0.068,
 "4d5c93526faa": 0.749,
+"4df65dfd9e00": 0.041,
 "51df33f7dd30": 0.695,
-"597b7cde3b4d": 0.172,
-"5d0bbde0fbad": 0.059,
+"597b7cde3b4d": 0.254,
 "5d42679dc1ad": 0.526,
 "6c28ebb7e66f": 0.038,
 "714556e7f41e": 0.768,
-"764e9f894509": 0.173,
-"79b1d879b260": 0.152,
+"72a03a164f61": 0.957,
+"764e9f894509": 0.101,
+"79b1d879b260": 0.94,
 "7aee97ab275b": 0.981,
-"7daaaec8d57c": 0.28,
-"877745b99d3a": 0.926,
+"81d446d247e4": 0.212,
 "89fae249b7df": 0.846,
-"8e39b397c4d1": 0.118,
 "9264ef73097c": 0.379,
 "93766f343a72": 0.081,
 "a084be239039": 0.135,
+"b17190305660": 0.065,
+"b17ded3f03b0": 0.35,
 "b648e6c6ee4a": 0.119,
-"b6e6fa4a9e1a": 0.162,
+"b9cd528f02c5": 0.095,
 "bc45c2db8f25": 0.026,
 "bcf368e5e7e1": 0.121,
 "c374e8036f9f": 0.236,
 "cb41604b11e5": 0.135,
 "d32e9de5429c": 0.088,
-"d94736570529": 0.037,
 "df9f1a385d68": 0.095,
 "e0df9a887617": 0.145,
 "eba103800292": 0.98,
-"eebca9d27f83": 0.099,
 "f2f236e3be7c": 0.071,
 "f308bd2eac64": 0.683,
 "fdfdbc4d720a": 0.344
 },
 "sent": [
-{
-"e": [
-"democrats",
-"ten",
-"trump"
-],
-"k": [],
-"t": 1795276671.6367276,
-"u": [
-"https://t.me/WatcherGuru/16238",
-"https://t.me/cointelegraph/73430"
-],
-"w": [
-"calling",
-"cap",
-"card",
-"credit",
-"democrats",
-"first",
-"interest",
-"months",
-"now",
-"rates",
-"ready",
-"ten",
-"trump",
-"work",
-"year"
-]
-},
 {
 "e": [
 "criticizes",
@@ -5138,6 +5160,47 @@
 "placed",
 "short"
 ]
+},
+{
+"e": [
+"alleged",
+"authorities",
+"betfin",
+"case",
+"charge",
+"czech",
+"czk",
+"gains",
+"gambling",
+"illicit",
+"involving",
+"million"
+],
+"k": [
+"legal"
+],
+"t": 1795450035.4702044,
+"u": [
+"https://decrypt.co/383775/czech-authorities-charge-15-over-12m-unlicensed-crypto-casino",
+"https://news.google.com/rss/articles/CBMikAFBVV95cUxQN24wV3E2M2hzOHlZT09LMkZKRzRDSm9QcU1peXZvNXFwYjE0Y3k2aU84VU1NX09sOEZuMktpZG00NVl1T3BaSW9VekFBamVqQ2N4TVNnUjAzSU8zWUpQUVBFeVozSkk0aGRjVS00OFBYT1hpSFBVUm9vNHBLODhvUW9vSEZxeFRBVDVXLVdrcVU?oc=5",
+"https://news.google.com/rss/articles/CBMiVkFVX3lxTE45eGlZVnRId0phczZ6OEt3QWJERDBEX0RlYXc4c0MtXzZsUEh3YUNFS3lpZmRzUTBXcEVHWVlMd1V3UW8ydFl1ajNQRjhxa2dJbGw3NmRR?oc=5",
+"https://t.me/wublockchainenglish/26927"
+],
+"w": [
+"267",
+"alleged",
+"authorities",
+"betfin",
+"case",
+"charge",
+"czech",
+"czk",
+"gains",
+"gambling",
+"illicit",
+"involving",
+"million"
+]
 }
 ],
 "stories": {},
@@ -5146,63 +5209,63 @@
 [
 "7aee97ab275b",
 40,
-132,
+143,
 4
 ],
 [
 "eba103800292",
-44,
-179,
+43,
+189,
 3
 ],
 [
-"877745b99d3a",
-58,
-124,
-8
+"72a03a164f61",
+64,
+131,
+11
+],
+[
+"79b1d879b260",
+36,
+184,
+3
 ],
 [
 "bffac6f89475",
 10,
-80,
+90,
+1
+],
+[
+"4d6bbeb56199",
+10,
+8,
 1
 ],
 [
 "89fae249b7df",
 41,
-152,
+162,
 2
 ],
 [
 "714556e7f41e",
 51,
-117,
+128,
 2
 ],
 [
 "3e369713ec09",
 16,
-59,
+70,
 1
 ],
 [
 "17bf1105edfc",
 18,
-104,
-1
-],
-[
-"4d5c93526faa",
-41,
-176,
-2
-],
-[
-"51df33f7dd30",
-16,
-71,
+115,
 1
 ]
 ],
-"top_at": 1795449719.004627
+"top_at": 1795450343.1217055
 }
