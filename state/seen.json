@@ -1,8 +1,7 @@
 {
 "hacks": {
 "Chainflip AMM1795219200": 1795294560.611049,
-"Endurance Bridge1795305600": 1795391846.557197,
-"Wagyu (XMR1)1795132800": 1795201002.6356826
+"Endurance Bridge1795305600": 1795391846.557197
 },
 "init": true,
 "log": [
@@ -390,26 +389,11 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795443454.0,
 "tgtext": "\ud83d\udd25 TRUMP: \"The US has no evidence that Jensen Huang acted unlawfully, and the country needs his leadership at Nvidia.\"\n\nTrump also says Nvidia's board of directors made the \"correct and proper decision.\"\n\nNews | Markets | YouTube",
 "title": "TRUMP: \"The US has no evidence that Jensen Huang acted unlawfully, and the country needs his leadership at Nvidia.\"",
 "url": "https://t.me/cointelegraph/73460",
-"urls": []
-},
-"19c573624e2f": {
-"coin": "bitcoin",
-"src": "Benzinga",
-"srcs": [
-"Benzinga",
-"CoinMarketCap",
-"Cryptonews.net"
-],
-"t": 1795287544.033963,
-"t0": 1795266300.0,
-"tgtext": "",
-"title": "Bitcoin Eyes $38,770 as ETF Outflows and Liquidations Surge and the Fear and Greed Index Falls",
-"url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcFBIR2h0enZtWXM3TTg3aWsxXzlOcTJLMVhBc2JLX3FXaUdIUnNRc3FwVlhXN1pTb0c3ckZyTzI0TThxaEZPRUNwMWc4OVRPbXZuVjhpa0ZGUUN4eEN2aGVTNktQREFmMC1oUGZ1d1BfZFF3TFFvUW90TlhNZFJoY3ZLU1FjZ3BPMDVMZTJkNVNVeTl4ZjJ5aTlhOUVwUmxZN3A1Wlg0UnNVbnB4RU5uVXRfR1BlazI5LTMzSExmTDhkVDR3SHkybHNTTkZBOGRySk1sekRn?oc=5",
 "urls": []
 },
 "1abe55ea3f66": {
@@ -986,7 +970,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795446170.0,
 "tgtext": "AguilaTrades(@AguilaTrades) placed limit orders 6 hours ago to short 1,000 $BTC ($62.25M) at $62,000\u2013$62,500.\n\nAs $BTC pumped following Jensen Huang's return to #Nvidia, his orders got filled, and he's now down $760K!\n\nhttps://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) placed limit orders 6 hours ago to short 1,000 BTC ($62.25M) at $62,000\u2013$62,500.",
@@ -1167,7 +1151,7 @@
 "Wu Blockchain",
 "citybiz"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795439158.0,
 "tgtext": "Strategy Expands Preferred Stock Buyback Program to $4B, Spends $212M on STRC vs. $30M on Bitcoin\n\nStrategy sold 1.93 million MSTR shares for $176.7 million between November 16 and 22, using $29.6 million to buy 457 BTC at an average price of $64,898 and $147 million to fund STRC repurchases. The company repurchased 2.18 million STRC shares for $211.8 million in total and increased its digital credit securities repurchase authorization from $3 billion to $4 billion.\n\nAs of November 22, Strategy held 851,305 BTC acquired for about $64.23 billion at an average price of $75,446. Its USD Reserve stood at $3.73 billion and USD Cash at $1.09 billion after reallocating up to $1 billion between the two. \u2014 link",
 "title": "Strategy Expands Preferred Stock Buyback Program to $4B, Spends $212M on STRC vs. $30M on Bitcoin",
@@ -1262,7 +1246,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795459842.4080584,
+"t": 1795460452.7103229,
 "t0": 1795445442.0,
 "tgtext": "After Jensen Huang returned to #Nvidia, Abraxas Capital bought another 2,223 $BTC ($140.74M).\nhttps://x.com/lookonchain/status/2124320776564469894",
 "title": "After Jensen Huang returned to Nvidia, Abraxas Capital bought another 2,223 BTC ($140.74M).",
@@ -1342,20 +1326,6 @@
 "tgtext": "",
 "title": "ARK withdraws two proposed CoinDesk 20 crypto ETFs from SEC consideration",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNVFh2UkdUSWZEX3Z6dXdlS2ZybGV3NlRGZGMzSnpjbktVWUp6a3RGeUJ4eC1iYmt0NjZ4UGJIZERrRzRoVEotamdjNllNbFhvUXNlcVlpalc?oc=5",
-"urls": []
-},
-"5849a65ec338": {
-"coin": "ethereum",
-"src": "Coinpedia",
-"srcs": [
-"Coinpedia",
-"Lookonchain"
-],
-"t": 1795287544.033963,
-"t0": 1795265999.0,
-"tgtext": "Chainflip (@Chainflip) was hacked for $4.86M!\n\nThe stolen funds include 3.25M $USDC, 520.22 $ETH ($851K), and 758K $USDT.\n\nThe hacker has already swapped all the stolen funds for 2,910 $ETH ($4.76M) and deposited the $ETH into #TornadoCash.\n\nhttps://arkm.com/explorer/address/0x7d14a719072DA80076b4edcec3e3401209d21Eaf\nhttps://arkm.com/explorer/address/0xfd24197eF8503dd5dd18F30C7B86A77910D3B080",
-"title": "Chainflip Hit by $4.86M Exploit as Ethereum Vault Drained",
-"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ3g4dEJZZ25xQ0M4RFJFZVJqSXBGRjM5bmswZG1ybW1sVkJUZUZRZ01mRktUSzZzLUhteVI2dUJCSlN4Wk1ub0R1dTRybC1tWWJySWtYU0poMDlSN1dVbkxWUVF5MFpreHBOMHVlX2FOSy1yVzFmc0Fra0dBNnBBUElaUVVnbmFUd0dRTdIBkgFBVV95cUxOck43TjM3a2ZmbzFXRnMzcGNGNUw5OTFpR3loRkhobDdKczhpTWxqQnNEUWxfMk1oWUV6MGdvcjlyazh1a3IwRmFqM0p6elRlbUh3bnpvdmlublNwWWd6N3JCMVkzc21GMTdHQkVwWG9fd0tyOTV0V3dVekk1dTkxaEc3TW1vRGEtWFlDUDY3Ynl1QQ?oc=5",
 "urls": []
 },
 "5908b8399d8c": {
@@ -1582,7 +1552,7 @@
 "SRN News",
 "Wu Blockchain"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795454811.0,
 "tgtext": "EU Proposes 22nd Russia Sanctions Package Targeting Crypto Platforms and 60 Banks\n\nEuropean Commission President Ursula von der Leyen announced on November 23 a proposed 22nd sanctions package against Russia, seeking to extend transaction bans to approximately 60 Russian banks and remove them from the SWIFT system. The proposal also targets cryptocurrency platforms and payment networks in Russia and third countries facilitating sanctions evasion. Von der Leyen said the EU has launched a Crypto Sanctions Task Force to strengthen enforcement. Additional measures include expanded energy restrictions, sanctions targeting Russia's shadow fleet, and a ban on EU citizens holding management positions in Russian companies. The package remains subject to approval. \u2014 link\n\ud83d\udea8 NEW: The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.\n\n\u201cWe are striking harder at Russia\u2019s ways to finance its war,\u201d said Ursula von der Leyen.\n\nAll 27 member states still need to sign off.\n\nNews | Markets | YouTube",
 "title": "The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.",
@@ -1775,10 +1745,10 @@
 "Bitcoin Magazine",
 "CoinDesk",
 "Cointelegraph",
-"CryptoPotato",
-"CryptoSlate"
+"CryptoSlate",
+"Decrypt"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795442479.0,
 "tgtext": "\ud83d\udd25 JUST IN: Nvidia reinstates Jensen Huang as CEO and board director, effective immediately.\n\nBoard vote was unanimous.\n\nNews | Markets | YouTube\nNvidia Reinstates Jensen Huang as President, CEO and Board Director\n\nNvidia said Jensen Huang has been reinstated as president, CEO and a board director effective immediately after a unanimous board vote. The board said input from senior U.S. government officials gave it confidence that his return poses no national security risk, while an independent investigation into recent foreign-intelligence-related reports will continue.\n\nNvidia shares surged as much as 25% in premarket trading Monday after plunging 14% on Friday to $125.53, near an 18-month low. \u2014 link\n\ud83d\udea8 BREAKING: Nasdaq circuit breaker reportedly triggered as markets surge following news of Jensen Huang's reinstatement as Nvidia president and CEO.\n\nNews | Markets | YouTube\nJUST IN: Elon Musk praises Nvidia $NVDA for reinstating Jensen Huang as CEO.\n\n\"The mistake has been corrected.\"\n\n@WatcherGuru\nJUST IN: Jensen Huang releases statement after being reinstated as Nvidia $NVDA CEO. \n\n\"I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.\n\nI take this responsibility with the greatest humility and renewed commitment.\n\nI want to thank the Nvidia board for its confidence and deliberation through this process. I am especially grateful to Harvey Jones for his leadership as chair, and to Colette Kress and our executive staff for leading Nvidia during this period.\n\nI am also deeply thankful to our employees, shareholders, leaders across the industry and partners around the world for their extraordinary support. Above all, I am grateful for the love and support of my family. I can't wait to get back to work.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: Jensen Huang officially returns to Nvidia's $NVDA headquarters after being reinstated as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump personally intervened to help Jensen Huang return as Nvidia's $NVDA CEO by joining board meeting by phone.\n\nhttps://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he convinced Nvidia $NVDA board to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says Nvidia $NVDA CEO Jensen Huang \"does not pose any risk to national security.\"\n\n\"The US Government does not possess evidence that he ",
 "title": "TODAY: US Senator Elizabeth Warren slammed Nvidia\u2019s decision to reinstate Jensen Huang as CEO, demanding answers from the Trump administration and calling for stronger export controls.",
@@ -1910,7 +1880,7 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795439303.0,
 "tgtext": "Czech Authorities Charge 15 in BETFIN Crypto Gambling Case Involving CZK 267 Million in Alleged Illicit Gains\n\nCzech customs and police announced that 15 people have been charged with alleged involvement in an organized criminal group and illegal gambling operations linked to BETFIN, a crypto casino using Polygon-based smart contracts. Authorities estimate the group's alleged unlawful gains at approximately CZK 267 million ($12 million) from operating gambling services without a license in the Czech Republic. An October crackdown resulted in 20 detentions and the seizure of approximately CZK 100 million ($4.5 million) in assets, including cryptocurrencies. Investigators analyzed over 2.3 million bets placed by approximately 28,500 players. Three alleged principal organizers remain in custody and face up to 13.5 years in prison if convicted. \u2014 link",
 "title": "Czech Authorities Charge 15 in BETFIN Crypto Gambling Case Involving CZK 267 Million in Alleged Illicit Gains",
@@ -1941,7 +1911,7 @@
 "Crypto Economy",
 "The Block"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795441784.0,
 "tgtext": "\ud83d\udd25 JUST IN: OKX and NYSE parent ICE launch a 24/7 tokenized securities trading venue with 113 confirmed assets, including stocks, ETFs and ETPs.\n\nTrading begins today for eligible US investors, with assets rolling out in phases.\n\nNews | Markets | YouTube",
 "title": "OKX and NYSE parent ICE launch a 24/7 tokenized securities trading venue with 113 confirmed assets, including stocks, ETFs and ETPs.",
@@ -2151,7 +2121,7 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795440600.0,
 "tgtext": "BitMine acquires 7,819 ETH, holdings reach 4.98% of supply\n\nBitMine said it acquired 7,819 ETH over the past week, bringing total holdings to 6,085,564 ETH, or about 4.98% of Ethereum\u2019s supply. The company has 5,227,037 ETH staked, generating projected annualized staking revenue of about $245 million; fully staking its ETH holdings could raise that to roughly $286 million at its current 2.74% seven-day yield. Total crypto, cash, marketable securities and other investments stand at about $11.1 billion. \u2014 link",
 "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 6.09 Million Tokens, and Total Crypto and Total Cash & Marketable Securities Holdings of $11.1 Billion",
@@ -2271,7 +2241,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795455661.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: A final CFTC rule on which prediction-market contracts can trade is now under White House review, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "A final CFTC rule on which prediction-market contracts can trade is now under White House review, per Bloomberg.",
@@ -3678,7 +3648,7 @@
 "CryptoQuant",
 "Cryptopolitan"
 ],
-"t": 1795460146.0755713,
+"t": 1795460756.2558978,
 "t0": 1795440102.0,
 "tgtext": "Binance Hires Mandiant, SlowMist and Verichains for Independent Security Review Following $6.3B Hack\n\nFollowing the October 29 security breach that resulted in approximately $6.3 billion in stolen crypto assets, Binance announced that it has engaged three cybersecurity firms, Mandiant, SlowMist and Verichains, to conduct independent reviews of its security procedures. The reviews will evaluate Binance's existing security infrastructure, assess its security posture going forward and identify areas for improvement. Binance said protecting user assets remains its top priority and pledged to act on the findings to strengthen its security measures. \u2014 link\n\ud83d\udea8 JUST IN: US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.\n\nNews | Markets | YouTube",
 "title": "US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.",
@@ -3778,45 +3748,45 @@
 "rain": 1795284188.7650707
 },
 "probs": {
-"00578c1845a5": 0.033,
+"00578c1845a5": 0.028,
 "03aa412dfc7a": 0.252,
-"080aae519ebd": 0.049,
 "121fc1328386": 0.03,
 "152dc8fb2326": 0.078,
 "17c20be47ba5": 0.041,
 "1b5eb35866e6": 0.047,
 "1cb39d98a9e3": 0.022,
 "21d43ab57230": 0.005,
-"2d4f8c722ddb": 0.046,
+"2d4f8c722ddb": 0.025,
 "2fe7ad67a2ff": 0.014,
 "3f294a0edad3": 0.024,
 "4d5c93526faa": 0.467,
+"55bf3b27092c": 0.264,
 "597b7cde3b4d": 0.109,
+"5d0bbde0fbad": 0.011,
 "5d42679dc1ad": 0.178,
 "6a61c6b83eca": 0.594,
 "6aff4fdd07e1": 0.062,
-"6c28ebb7e66f": 0.007,
-"72a03a164f61": 0.907,
+"72a03a164f61": 0.959,
 "79b1d879b260": 0.648,
 "7aee97ab275b": 0.912,
 "7af9039d773f": 0.01,
 "89fae249b7df": 0.518,
-"8b8ae1135af6": 0.017,
-"922f25a2e137": 0.721,
+"8b8ae1135af6": 0.019,
+"922f25a2e137": 0.651,
 "9264ef73097c": 0.169,
 "93766f343a72": 0.015,
 "9482223cdc88": 0.06,
 "991d0de3cd05": 0.028,
-"a5b5be72cd8c": 0.315,
 "a8fb135c2498": 0.058,
 "b506c2c636c8": 0.015,
+"be7735831cfb": 0.05,
 "c44315c1b223": 0.032,
 "cfd312d407bb": 0.014,
 "d55a8f17fb1b": 0.143,
 "db0a8c59099c": 0.033,
 "f04f9c2d1de8": 0.058,
 "f0935fdfe769": 0.033,
-"f29f05ec28b1": 0.858,
+"f29f05ec28b1": 0.821,
 "fdf99f691ec4": 0.098
 },
 "sent": [
@@ -5084,65 +5054,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"72a03a164f61",
+63,
+305,
+11
+],
+[
 "7aee97ab275b",
-24,
-306,
+22,
+316,
 4
 ],
 [
-"72a03a164f61",
-64,
-294,
-12
-],
-[
 "f29f05ec28b1",
-65,
-334,
-8
+64,
+344,
+10
 ],
 [
 "922f25a2e137",
 20,
-75,
+85,
 2
 ],
 [
 "79b1d879b260",
-24,
-347,
+23,
+358,
 4
 ],
 [
 "6a61c6b83eca",
 54,
-89,
+99,
 4
 ],
 [
 "17bf1105edfc",
-5,
-278,
+4,
+288,
 1
 ],
 [
 "89fae249b7df",
-22,
-326,
+21,
+336,
 2
 ],
 [
 "3e369713ec09",
-9,
-233,
+8,
+243,
 1
 ],
 [
 "4d5c93526faa",
-37,
-350,
+36,
+360,
 3
 ]
 ],
-"top_at": 1795460146.0755713
+"top_at": 1795460756.2558978
 }
