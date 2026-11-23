@@ -6,7 +6,6 @@
 },
 "init": true,
 "log": [
-1795351541.707013,
 1795357641.873624,
 1795363316.377428,
 1795364049.5569804,
@@ -18,7 +17,9 @@
 1795420144.722272,
 1795427459.523247,
 1795432968.7721071,
-1795437564.6824737
+1795437564.6824737,
+1795439093.5318549,
+1795439093.5318549
 ],
 "menu": {
 "023c3bf689da": {
@@ -533,6 +534,20 @@
 "url": "https://t.me/wublockchainenglish/26907",
 "urls": []
 },
+"20240f765ccc": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1795439093.5318549,
+"t0": 1795438899.0,
+"tgtext": "JUST IN: Michael Saylor's 'Strategy' buys 457 Bitcoin worth $28 million.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 457 $BTC for $29.6 million, bringing its total holdings to 851,305 BTC.\n\nThe company also repurchased $211.8M worth of STRC preferred stock over the past week.\n\nNews | Markets | YouTube",
+"title": "Michael Saylor's Strategy buys another 457 BTC for $29.6 million, bringing its total holdings to 851,305 BTC.",
+"url": "https://t.me/cointelegraph/73456",
+"urls": []
+},
 "20eedea04d26": {
 "coin": "bitcoin",
 "src": "CoinGape",
@@ -622,7 +637,7 @@
 "Cointelegraph",
 "GBHackers News"
 ],
-"t": 1795438481.14255,
+"t": 1795438788.9909182,
 "t0": 1795421374.0,
 "tgtext": "\ud83d\udea8 ALERT: \"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.\n\nNews | Markets | YouTube",
 "title": "\"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.",
@@ -630,19 +645,6 @@
 "urls": [
 "https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"235f0f3d0962": {
-"coin": "bitcoin",
-"src": "Seeking Alpha",
-"srcs": [
-"Seeking Alpha"
-],
-"t": 1795265934.0905738,
-"t0": 1795252200.0,
-"tgtext": "",
-"title": "Whale's Insight: Can Bitcoin Find Support After Anthropic\u2019s Record IPO?",
-"url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWF9iUmIzZmhjM2g4NWozaHlDWDV5SUdKcUVVRjZxcXNTTGstank5T2pKbEFRcHNJVm8taTlpOHl1RmZjMHROMTF0cWhKNnVPM29yV054WGlTRmdnWUhTaUhieXdlaEU4RUpranNqRkFQWlE5TUxZS2NOOTJRZkp3QVF4RGQ1WVVZZ0o1NDhZYXRvWkJvYTRWalZIOWVMVzZPUUFpV0dnWVN1LW11?oc=5",
-"urls": []
 },
 "25280f8e1563": {
 "coin": "bitcoin",
@@ -1391,7 +1393,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795428718.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to release draft of comprehensive crypto laws this week.\n\n@WatcherGuru",
 "title": "South Korea to publish draft of comprehensive crypto legal framework this week",
@@ -1478,7 +1480,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795436203.0,
 "tgtext": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join\n\nOKXICE, the tokenized securities platform jointly operated by ICE and OKX, is set to launch despite 56 of the 62 companies on its initial roster objecting to having their shares tokenized. CNBC reported that the 30-day objection window under the SEC\u2019s Innovation Exemption left many issuers with limited time to assess the model, with some concerns focused on 24/7 trading and investor-relations implications rather than tokenization itself.\n\nAt launch, tokenized shares of Coinbase, Robinhood, Strategy, Circle, Securitize and BitGo will be available, while OKXICE said it has confirmed 113 assets and added participants including Fidelity, Direxion, eToro and Strive. \u2014 link",
 "title": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join",
@@ -1521,7 +1523,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795437332.0,
 "tgtext": "JUST IN: \ud83c\uddec\ud83c\udde7 UK to ban crypto exchanges from trading on their own platforms starting October 2027.\n\n@WatcherGuru\n\ud83c\uddec\ud83c\udde7 JUST IN: The UK will ban crypto exchanges from acting as market makers on their own platforms starting October 25, 2027, under new FCA rules.\n\nNews | Markets | YouTube",
 "title": "The UK will ban crypto exchanges from acting as market makers on their own platforms starting October 25, 2027, under new FCA rules.",
@@ -2378,7 +2380,7 @@
 "MEXC",
 "The Cryptonomist"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795425450.0,
 "tgtext": "",
 "title": "Aave Health Factor Calculator: Find Your ETH Liquidation Price",
@@ -2522,7 +2524,7 @@
 "Investing.com",
 "Serrari Group"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795417689.0,
 "tgtext": "",
 "title": "Bitcoin Recovers Above Rs. 56.9 Lakh After Weekend Sell-Off as Liquidations Ease Selling Pressure",
@@ -2850,7 +2852,7 @@
 "BigGo Finance",
 "Wu Blockchain"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795419177.0,
 "tgtext": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History\n\nCryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4.5 billion over the past year and remains down nearly 40%. In July, the decline exceeded 45%, equivalent to $6.25 billion, marking the largest deleveraging event in Bitcoin's history in dollar terms. Binance accounts for over 34% of total Bitcoin open interest. Darkfost attributed the contraction to macroeconomic uncertainty, geopolitical tensions, tighter monetary policy, voluntary position closures, forced liquidations, and declining Bitcoin prices. In 2026 alone, the broader crypto market has recorded at least eight days with liquidations exceeding $1.5 billion. \u2014 link",
 "title": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History",
@@ -2894,7 +2896,7 @@
 "Forbes",
 "markets.businessinsider.com"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795419472.0,
 "tgtext": "",
 "title": "Crypto News: Pepeto Clears $11.311M While Whales Buy the Bitcoin Price Crash and a $250,000 Bitcoin Price Prediction Holds",
@@ -3297,7 +3299,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795427084.0,
 "tgtext": "Another $TRUMP dinner is coming!\n\nBut this whale, who spent $29.18M buying 3.58M $TRUMP (now worth $3.22M) about a year ago, is currently down $25.96M (-89%)!\n\nhttps://arkm.com/explorer/entity/399c07d4-0df4-46ac-a4c0-fe1c622613a0",
 "title": "Another TRUMP dinner is coming!",
@@ -3612,7 +3614,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795438481.14255,
+"t": 1795439093.5318549,
 "t0": 1795423229.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his $TRUMP memecoin to ensure United States stays ahead of China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his TRUMP memecoin to ensure United States stays ahead of China.",
@@ -3644,76 +3646,46 @@
 "probs": {
 "1150f0683e26": 0.053,
 "1cfb56b8ef96": 0.105,
-"1edf7afa1528": 0.109,
+"1edf7afa1528": 0.244,
+"20240f765ccc": 0.997,
 "22a84bcba85f": 0.494,
 "278401285766": 0.174,
 "3d304a221f39": 0.342,
 "3dfdbafa4e90": 0.181,
-"4601af5e9591": 0.088,
+"490c4d486020": 0.107,
 "4c0275bb7ea2": 0.04,
 "526537e59a85": 0.034,
 "58b34811606a": 0.039,
 "618df4b21457": 0.769,
-"6b79cffe6d0f": 0.938,
+"6b79cffe6d0f": 0.919,
 "6bb1318f0f71": 0.264,
 "764e9f894509": 0.243,
 "76b811c5cf6b": 0.172,
-"791db67db7fb": 0.245,
 "7a0d8697ab50": 0.136,
 "7bf3451299ef": 0.087,
 "84df5cf72708": 0.185,
 "8e39b397c4d1": 0.17,
-"9edc9acc70ae": 0.581,
-"a45a4df3178e": 0.09,
+"9edc9acc70ae": 0.787,
 "a8c2e786b7eb": 0.508,
-"ad378ea45851": 0.09,
 "b17ded3f03b0": 0.264,
 "b2b0ba382ef0": 0.061,
 "bc45c2db8f25": 0.158,
 "c2b764a75725": 0.039,
+"c2ff07fae81b": 0.018,
 "c3c20b8d609b": 0.969,
 "cb41604b11e5": 0.144,
 "cd67e51395a0": 0.037,
-"cf7b895e0904": 0.096,
+"cf7b895e0904": 0.222,
 "d29345d54a31": 0.34,
 "d32e9de5429c": 0.052,
-"d94736570529": 0.098,
+"d37b121965c3": 0.125,
 "dd7368e12be1": 0.726,
 "e0df9a887617": 0.297,
 "e50d8631ad79": 0.113,
-"eebca9d27f83": 0.335
+"eebca9d27f83": 0.35,
+"f56f285d78bf": 0.192
 },
 "sent": [
-{
-"e": [
-"aave",
-"btcs",
-"ether"
-],
-"k": [
-"crash"
-],
-"t": 1795265319.8569686,
-"u": [
-"https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-"https://news.google.com/rss/articles/CBMickFVX3lxTE4tUkw5S01LekVJWHM2bjQ3UlFRZjlnOWMybUxOZFVFR1dad0tJd1lvVy1zY0pXcXlSQl9GVk5tc1lHOER0WlZNdDNBZDRrWlBDWFFSYlBnc2stV2NxSGU2WlJlS19QaTJ6eFVpdkVJR1hKdw?oc=5",
-"https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3puNHVSMkJzMmV3WFF5dGJWc0pyY2c0bWhxU2RETHdlbXMza1FkUzVqbXZFblNtYjMzSGNYZVZQWERjcjVfSldNek9PenQwZUV3bTQzbHhzcnNFS1NIdGRzZkRkemxoUmkwZmNFSnBkaHdFNzViT0R3SVY4dGtBYW1MU0MyaklzOUJSWGR1RG5XYTdSWTJjUVg5ZUU?oc=5"
-],
-"w": [
-"$54",
-"aave",
-"btcs",
-"could",
-"ether",
-"firm",
-"liquidated",
-"loan",
-"million",
-"sec",
-"treasury",
-"warns"
-]
-},
 {
 "e": [],
 "k": [
@@ -4694,71 +4666,130 @@
 "their",
 "trading"
 ]
+},
+{
+"e": [
+"michael",
+"saylor",
+"strategy"
+],
+"k": [],
+"t": 1795439093.5318549,
+"u": [
+"https://t.me/WatcherGuru/16264",
+"https://t.me/cointelegraph/73456"
+],
+"w": [
+"$29",
+"305",
+"457",
+"851",
+"another",
+"bringing",
+"btc",
+"buys",
+"holdings",
+"michael",
+"million",
+"saylor",
+"strategy",
+"total"
+]
+},
+{
+"e": [
+"aave",
+"calculator",
+"factor",
+"find",
+"health",
+"liquidation",
+"your"
+],
+"k": [
+"crash"
+],
+"t": 1795439093.5318549,
+"u": [
+"https://news.google.com/rss/articles/CBMiakFVX3lxTE1wc2tPdGpQRUY0emRhRVltRGVHaEk2Q015ZnkxMjVmQlJNWS0tS3FnOGJrNFpEUmkteWZKS185MXBGejRuVllqQThRVHlrTmV5a2RUbG56TWhyYnk4WW9aT0NvY1JuOEt1ZHc?oc=5",
+"https://news.google.com/rss/articles/CBMihAFBVV95cUxOV1RWbXBjWDhPOW0xdXBXeVJKLXFzRUtzQmFiRmR4QUJZY1YwRFMtN3hydzBPSDdMc3VudWwzc0tYU3I2RHdid1Jla2FCVFlDMF9NdmxzNzByMnRncmEzV2ZvQjJGZjd4aXVZT0xXVjExdXJZSjVJa2E5eVljM2RYNE1lNmI?oc=5"
+],
+"w": [
+"aave",
+"calculator",
+"eth",
+"factor",
+"find",
+"health",
+"liquidation",
+"price",
+"your"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"20240f765ccc",
+42,
+3,
+2
+],
+[
 "c3c20b8d609b",
-44,
-317,
+43,
+327,
 3
 ],
 [
 "fccad109c615",
-9,
-254,
+7,
+264,
 1
 ],
 [
 "6b79cffe6d0f",
 42,
-19,
+29,
+2
+],
+[
+"9edc9acc70ae",
+29,
+227,
 2
 ],
 [
 "68b003da7471",
 10,
-38,
+48,
 1
 ],
 [
 "618df4b21457",
 20,
-163,
+173,
 2
 ],
 [
 "dd7368e12be1",
-17,
-190,
+16,
+200,
 1
 ],
 [
 "be707c0137b3",
-10,
-322,
-2
-],
-[
-"9edc9acc70ae",
-31,
-217,
+8,
+332,
 2
 ],
 [
 "a8c2e786b7eb",
-58,
-347,
+57,
+357,
 4
-],
-[
-"22a84bcba85f",
-31,
-285,
-2
 ]
 ],
-"top_at": 1795438481.14255
+"top_at": 1795439093.5318549
 }
