@@ -542,7 +542,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795438899.0,
 "tgtext": "JUST IN: Michael Saylor's 'Strategy' buys 457 Bitcoin worth $28 million.\n\n@WatcherGuru\n\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 457 $BTC for $29.6 million, bringing its total holdings to 851,305 BTC.\n\nThe company also repurchased $211.8M worth of STRC preferred stock over the past week.\n\nNews | Markets | YouTube",
 "title": "Michael Saylor's Strategy buys another 457 BTC for $29.6 million, bringing its total holdings to 851,305 BTC.",
@@ -638,15 +638,16 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
-"GBHackers News",
-"NewsCord"
+"GBHackers News"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795421374.0,
 "tgtext": "\ud83d\udea8 ALERT: \"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.\n\nNews | Markets | YouTube",
 "title": "\"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.",
 "url": "https://t.me/cointelegraph/73452",
-"urls": []
+"urls": [
+"https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "25280f8e1563": {
 "coin": "bitcoin",
@@ -1108,14 +1109,17 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795439706.3392165,
+"t": 1795440931.4489024,
 "t0": 1795439158.0,
 "tgtext": "Strategy Expands Preferred Stock Buyback Program to $4B, Spends $212M on STRC vs. $30M on Bitcoin\n\nStrategy sold 1.93 million MSTR shares for $176.7 million between November 16 and 22, using $29.6 million to buy 457 BTC at an average price of $64,898 and $147 million to fund STRC repurchases. The company repurchased 2.18 million STRC shares for $211.8 million in total and increased its digital credit securities repurchase authorization from $3 billion to $4 billion.\n\nAs of November 22, Strategy held 851,305 BTC acquired for about $64.23 billion at an average price of $75,446. Its USD Reserve stood at $3.73 billion and USD Cash at $1.09 billion after reallocating up to $1 billion between the two. \u2014 link",
 "title": "Strategy Expands Preferred Stock Buyback Program to $4B, Spends $212M on STRC vs. $30M on Bitcoin",
 "url": "https://t.me/wublockchainenglish/26924",
-"urls": []
+"urls": [
+"https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "4dd10cd3f7c6": {
 "coin": "bitcoin",
@@ -1408,7 +1412,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795428718.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to release draft of comprehensive crypto laws this week.\n\n@WatcherGuru",
 "title": "South Korea to publish draft of comprehensive crypto legal framework this week",
@@ -1495,7 +1499,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795436203.0,
 "tgtext": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join\n\nOKXICE, the tokenized securities platform jointly operated by ICE and OKX, is set to launch despite 56 of the 62 companies on its initial roster objecting to having their shares tokenized. CNBC reported that the 30-day objection window under the SEC\u2019s Innovation Exemption left many issuers with limited time to assess the model, with some concerns focused on 24/7 trading and investor-relations implications rather than tokenization itself.\n\nAt launch, tokenized shares of Coinbase, Robinhood, Strategy, Circle, Securitize and BitGo will be available, while OKXICE said it has confirmed 113 assets and added participants including Fidelity, Direxion, eToro and Strive. \u2014 link",
 "title": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join",
@@ -1538,7 +1542,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795437332.0,
 "tgtext": "JUST IN: \ud83c\uddec\ud83c\udde7 UK to ban crypto exchanges from trading on their own platforms starting October 2027.\n\n@WatcherGuru\n\ud83c\uddec\ud83c\udde7 JUST IN: The UK will ban crypto exchanges from acting as market makers on their own platforms starting October 25, 2027, under new FCA rules.\n\nNews | Markets | YouTube",
 "title": "The UK will ban crypto exchanges from acting as market makers on their own platforms starting October 25, 2027, under new FCA rules.",
@@ -2369,7 +2373,7 @@
 "MEXC",
 "The Cryptonomist"
 ],
-"t": 1795440014.7280564,
+"t": 1795440931.4489024,
 "t0": 1795425450.0,
 "tgtext": "",
 "title": "Aave Health Factor Calculator: Find Your ETH Liquidation Price",
@@ -2857,12 +2861,9 @@
 "src": "Wu Blockchain",
 "srcs": [
 "BigGo Finance",
-"ForkLog",
-"Traders Union",
-"TradingView",
 "Wu Blockchain"
 ],
-"t": 1795440319.1891546,
+"t": 1795440626.9710596,
 "t0": 1795419177.0,
 "tgtext": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History\n\nCryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4.5 billion over the past year and remains down nearly 40%. In July, the decline exceeded 45%, equivalent to $6.25 billion, marking the largest deleveraging event in Bitcoin's history in dollar terms. Binance accounts for over 34% of total Bitcoin open interest. Darkfost attributed the contraction to macroeconomic uncertainty, geopolitical tensions, tighter monetary policy, voluntary position closures, forced liquidations, and declining Bitcoin prices. In 2026 alone, the broader crypto market has recorded at least eight days with liquidations exceeding $1.5 billion. \u2014 link",
 "title": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History",
@@ -2902,11 +2903,12 @@
 "coin": "bitcoin",
 "src": "markets.businessinsider.com",
 "srcs": [
+"CoinCodex",
 "Coinpaper",
 "Forbes",
 "markets.businessinsider.com"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795419472.0,
 "tgtext": "",
 "title": "Crypto News: Pepeto Clears $11.311M While Whales Buy the Bitcoin Price Crash and a $250,000 Bitcoin Price Prediction Holds",
@@ -3309,7 +3311,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795427084.0,
 "tgtext": "Another $TRUMP dinner is coming!\n\nBut this whale, who spent $29.18M buying 3.58M $TRUMP (now worth $3.22M) about a year ago, is currently down $25.96M (-89%)!\n\nhttps://arkm.com/explorer/entity/399c07d4-0df4-46ac-a4c0-fe1c622613a0",
 "title": "Another TRUMP dinner is coming!",
@@ -3624,7 +3626,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795440319.1891546,
+"t": 1795440931.4489024,
 "t0": 1795423229.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his $TRUMP memecoin to ensure United States stays ahead of China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his TRUMP memecoin to ensure United States stays ahead of China.",
@@ -3656,41 +3658,41 @@
 "probs": {
 "1150f0683e26": 0.053,
 "1cfb56b8ef96": 0.105,
-"1edf7afa1528": 0.269,
-"20240f765ccc": 0.997,
-"22a84bcba85f": 0.671,
+"1edf7afa1528": 0.244,
+"20240f765ccc": 0.996,
+"22a84bcba85f": 0.722,
+"2fe7ad67a2ff": 0.035,
 "3dfdbafa4e90": 0.181,
 "490c4d486020": 0.107,
 "4c0275bb7ea2": 0.04,
-"4d5c93526faa": 0.523,
+"4d5c93526faa": 0.863,
 "58b34811606a": 0.039,
 "618df4b21457": 0.64,
 "6b79cffe6d0f": 0.919,
-"6bb1318f0f71": 0.462,
 "764e9f894509": 0.243,
-"76b811c5cf6b": 0.172,
-"79b1d879b260": 0.098,
+"79b1d879b260": 0.219,
 "7a0d8697ab50": 0.136,
 "7bf3451299ef": 0.087,
 "84df5cf72708": 0.185,
 "8e39b397c4d1": 0.17,
-"9edc9acc70ae": 0.43,
+"9edc9acc70ae": 0.787,
 "a45a4df3178e": 0.544,
-"ad50362b5c0e": 0.163,
-"b17ded3f03b0": 0.611,
-"b1e571b75726": 0.139,
+"b17ded3f03b0": 0.264,
 "b2b0ba382ef0": 0.061,
-"be707c0137b3": 0.936,
-"c2b764a75725": 0.039,
+"bbdd51f2e191": 0.102,
+"bc45c2db8f25": 0.158,
 "c2ff07fae81b": 0.047,
-"c3c20b8d609b": 0.969,
+"c374e8036f9f": 0.094,
+"c3c20b8d609b": 0.962,
 "cb41604b11e5": 0.081,
 "cd67e51395a0": 0.037,
 "cf7b895e0904": 0.222,
 "d29345d54a31": 0.34,
 "d32e9de5429c": 0.052,
 "d37b121965c3": 0.125,
+"d8e9d42aeafc": 0.147,
 "d94736570529": 0.098,
+"e0df9a887617": 0.297,
 "e50d8631ad79": 0.113,
 "eebca9d27f83": 0.35,
 "f56f285d78bf": 0.192
@@ -4774,63 +4776,63 @@
 [
 "20240f765ccc",
 52,
-24,
+34,
 3
 ],
 [
 "c3c20b8d609b",
-40,
-347,
-3
+49,
+358,
+4
 ],
 [
 "fccad109c615",
-5,
-285,
+3,
+295,
 1
-],
-[
-"be707c0137b3",
-63,
-352,
-5
 ],
 [
 "6b79cffe6d0f",
 42,
-50,
+60,
+2
+],
+[
+"4d5c93526faa",
+49,
+30,
+2
+],
+[
+"9edc9acc70ae",
+25,
+258,
 2
 ],
 [
 "dd7368e12be1",
-13,
-221,
-1
-],
-[
-"68b003da7471",
-10,
-69,
+12,
+231,
 1
 ],
 [
 "22a84bcba85f",
-37,
-316,
-3
-],
-[
-"618df4b21457",
-19,
-193,
+26,
+326,
 2
 ],
 [
-"b17ded3f03b0",
-55,
-165,
-4
+"68b003da7471",
+10,
+79,
+1
+],
+[
+"618df4b21457",
+17,
+204,
+2
 ]
 ],
-"top_at": 1795440319.1891546
+"top_at": 1795440931.4489024
 }
