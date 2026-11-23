@@ -410,7 +410,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795443454.0,
 "tgtext": "\ud83d\udd25 TRUMP: \"The US has no evidence that Jensen Huang acted unlawfully, and the country needs his leadership at Nvidia.\"\n\nTrump also says Nvidia's board of directors made the \"correct and proper decision.\"\n\nNews | Markets | YouTube",
 "title": "TRUMP: \"The US has no evidence that Jensen Huang acted unlawfully, and the country needs his leadership at Nvidia.\"",
@@ -581,20 +581,6 @@
 "tgtext": "",
 "title": "Crypto Market Daily Report - Market Analysis & Insights | Phemex News",
 "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZmFqSFUxZ2x2T0VSekFyalExa3ZtY0VRbVozNjFfQkM5QWJwdkVTcm5Ldi13cmo1NWN2MFhteXBSVGQ1Z0FZTDZ4N3BEWndOSkc5UWpUODRzYnZMeG52M1VfTXhYU3NnV29BbmIyazJuamtVdHhLLWozQmkxLW1ZMWx1WG1FeF9ia1E4VGJqMFBuUXBYMHNEaXBxblliSGRXNzVieFZXbDZTNDlCQU9VWXNmdW9sbzdLN0dYcHFfWEN1QQ?oc=5",
-"urls": []
-},
-"202110c94618": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"BigGo Finance",
-"Wu Blockchain"
-],
-"t": 1795284799.5595832,
-"t0": 1795263440.0,
-"tgtext": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand\n\nKraken stated in a post that starting around 20:00 UTC on November 20, Canadian dollar (CAD) trading pairs on the platform experienced heavy selling pressure, pushing prices well below other external markets. Kraken stated that its platform processed every order correctly and that its security teams found no evidence of a security breach or compromised accounts, confirming that all executed trades will stand.\n\nEarlier, following the anomaly in which Kraken's BTC/CAD pair briefly dropped to roughly 40,000 CAD (around $27,000), Blockstream co-founder Adam Back attributed the dislocation to a likely market maker glitch and a sharp deviation in Kraken's local spot USDC/CAD rate from the actual FX rate of approximately 1.434. \u2014 link",
-"title": "Kraken BTC Pricing Anomaly Briefly Sends Quote to $27,000; Exchange Confirms No Breach and Executed Trades Stand",
-"url": "https://t.me/wublockchainenglish/26907",
 "urls": []
 },
 "20240f765ccc": {
@@ -1020,7 +1006,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795446170.0,
 "tgtext": "AguilaTrades(@AguilaTrades) placed limit orders 6 hours ago to short 1,000 $BTC ($62.25M) at $62,000\u2013$62,500.\n\nAs $BTC pumped following Jensen Huang's return to #Nvidia, his orders got filled, and he's now down $760K!\n\nhttps://hypurrscan.io/address/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925#perps",
 "title": "AguilaTrades(@AguilaTrades) placed limit orders 6 hours ago to short 1,000 BTC ($62.25M) at $62,000\u2013$62,500.",
@@ -1498,11 +1484,11 @@
 "srcs": [
 "Blockonomi",
 "Crypto Briefing",
+"CryptoQuant",
 "Cryptopolitan",
-"U.Today",
-"Wu Blockchain"
+"U.Today"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795436139.0,
 "tgtext": "Binance Hires Mandiant, SlowMist and Verichains for Independent Security Review Following $6.3B Hack\n\nFollowing the October 29 security breach that resulted in approximately $6.3 billion in stolen crypto assets, Binance announced that it has engaged three cybersecurity firms, Mandiant, SlowMist and Verichains, to conduct independent reviews of its security procedures. The reviews will evaluate Binance's existing security infrastructure, assess its security posture going forward and identify areas for improvement. Binance said protecting user assets remains its top priority and pledged to act on the findings to strengthen its security measures. \u2014 link",
 "title": "Strong Security Isn\u2019t Enough to Keep Your Crypto Safe: CoinRabbit Report on the Binance Hack",
@@ -1587,7 +1573,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795436203.0,
 "tgtext": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join\n\nOKXICE, the tokenized securities platform jointly operated by ICE and OKX, is set to launch despite 56 of the 62 companies on its initial roster objecting to having their shares tokenized. CNBC reported that the 30-day objection window under the SEC\u2019s Innovation Exemption left many issuers with limited time to assess the model, with some concerns focused on 24/7 trading and investor-relations implications rather than tokenization itself.\n\nAt launch, tokenized shares of Coinbase, Robinhood, Strategy, Circle, Securitize and BitGo will be available, while OKXICE said it has confirmed 113 assets and added participants including Fidelity, Direxion, eToro and Strive. \u2014 link",
 "title": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join",
@@ -1631,7 +1617,7 @@
 "SRN News",
 "Wu Blockchain"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795454811.0,
 "tgtext": "EU Proposes 22nd Russia Sanctions Package Targeting Crypto Platforms and 60 Banks\n\nEuropean Commission President Ursula von der Leyen announced on November 23 a proposed 22nd sanctions package against Russia, seeking to extend transaction bans to approximately 60 Russian banks and remove them from the SWIFT system. The proposal also targets cryptocurrency platforms and payment networks in Russia and third countries facilitating sanctions evasion. Von der Leyen said the EU has launched a Crypto Sanctions Task Force to strengthen enforcement. Additional measures include expanded energy restrictions, sanctions targeting Russia's shadow fleet, and a ban on EU citizens holding management positions in Russian companies. The package remains subject to approval. \u2014 link",
 "title": "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package",
@@ -1822,12 +1808,12 @@
 "src": "Cointelegraph",
 "srcs": [
 "Bitcoin Magazine",
+"CoinDesk",
 "Cointelegraph",
-"Crypto News",
 "CryptoPotato",
 "CryptoSlate"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795442479.0,
 "tgtext": "\ud83d\udd25 JUST IN: Nvidia reinstates Jensen Huang as CEO and board director, effective immediately.\n\nBoard vote was unanimous.\n\nNews | Markets | YouTube\nNvidia Reinstates Jensen Huang as President, CEO and Board Director\n\nNvidia said Jensen Huang has been reinstated as president, CEO and a board director effective immediately after a unanimous board vote. The board said input from senior U.S. government officials gave it confidence that his return poses no national security risk, while an independent investigation into recent foreign-intelligence-related reports will continue.\n\nNvidia shares surged as much as 25% in premarket trading Monday after plunging 14% on Friday to $125.53, near an 18-month low. \u2014 link\n\ud83d\udea8 BREAKING: Nasdaq circuit breaker reportedly triggered as markets surge following news of Jensen Huang's reinstatement as Nvidia president and CEO.\n\nNews | Markets | YouTube\nJUST IN: Elon Musk praises Nvidia $NVDA for reinstating Jensen Huang as CEO.\n\n\"The mistake has been corrected.\"\n\n@WatcherGuru\nJUST IN: Jensen Huang releases statement after being reinstated as Nvidia $NVDA CEO. \n\n\"I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.\n\nI take this responsibility with the greatest humility and renewed commitment.\n\nI want to thank the Nvidia board for its confidence and deliberation through this process. I am especially grateful to Harvey Jones for his leadership as chair, and to Colette Kress and our executive staff for leading Nvidia during this period.\n\nI am also deeply thankful to our employees, shareholders, leaders across the industry and partners around the world for their extraordinary support. Above all, I am grateful for the love and support of my family. I can't wait to get back to work.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump personally intervened to help Jensen Huang return as Nvidia's $NVDA CEO by joining board meeting by phone.\n\nhttps://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he convinced Nvidia $NVDA board to reinstate Jensen Huang as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says Nvidia $NVDA CEO Jensen Huang \"does not pose any risk to national security.\"\n\n\"The US Government does not possess evidence that he has engaged in any unlawful conduct.\"\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nJUST IN: \ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren says Nvidia's $NVDA decision",
 "title": "TODAY: US Senator Elizabeth Warren slammed Nvidia\u2019s decision to reinstate Jensen Huang as CEO, demanding answers from the Trump administration and calling for stronger export controls.",
@@ -1990,7 +1976,7 @@
 "Crypto Economy",
 "The Block"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795441784.0,
 "tgtext": "\ud83d\udd25 JUST IN: OKX and NYSE parent ICE launch a 24/7 tokenized securities trading venue with 113 confirmed assets, including stocks, ETFs and ETPs.\n\nTrading begins today for eligible US investors, with assets rolling out in phases.\n\nNews | Markets | YouTube",
 "title": "OKX and NYSE parent ICE launch a 24/7 tokenized securities trading venue with 113 confirmed assets, including stocks, ETFs and ETPs.",
@@ -2200,26 +2186,11 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795440600.0,
 "tgtext": "BitMine acquires 7,819 ETH, holdings reach 4.98% of supply\n\nBitMine said it acquired 7,819 ETH over the past week, bringing total holdings to 6,085,564 ETH, or about 4.98% of Ethereum\u2019s supply. The company has 5,227,037 ETH staked, generating projected annualized staking revenue of about $245 million; fully staking its ETH holdings could raise that to roughly $286 million at its current 2.74% seven-day yield. Total crypto, cash, marketable securities and other investments stand at about $11.1 billion. \u2014 link",
 "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 6.09 Million Tokens, and Total Crypto and Total Cash & Marketable Securities Holdings of $11.1 Billion",
 "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNZDVqSVpHQXRIQ2VyUmRoc2dSUTJRVXk4N01PcXRjamN0RXBMbG5yWWYtbG1Rb09kdWY4enZUWGxVX0FlMUVoc0dXMm5OYkRkM1BoZlBKOXhtcERqb29TOHFfSmpPQ25VSEVzSkVMYUJTaE14NUN6eEtjODB1UzBUZGdGYlRFMlAwdG05S191Z2VVWFhSdTB4VlEzVk1mZGtqSmlPSGphYVlleUZ1RlpQZ1llMkFfX2hhNE90MllzcDg2M19lU3NHT0J2SkdLN0sxNFBsZ0llVnJDWFU4WHp2bWlUVkxtX2IwX0tmRWhfaF9DVHQ2d1QtZUlkZG5Jdl9IYkw3djE5OTVHd3RpMV9nYUtSaE1nTjVLTzJqWGxyZm1PZ1FZOFpaWlo3QmdlWGtmZ3I4S29TM05NWEh5ZVVqOGx5SEpzWXM?oc=5",
-"urls": []
-},
-"8a153f708db7": {
-"coin": "bitcoin",
-"src": "Forbes",
-"srcs": [
-"Coinpaper",
-"Cryptonews.net",
-"Forbes"
-],
-"t": 1795284492.8819685,
-"t0": 1795263000.0,
-"tgtext": "",
-"title": "\u2018Dump It Now\u2019\u2014Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
-"url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdlBmNjFNYjY0WjVVQXFWb2p3OU1TRHZMSkhaU1gxdVc4eDVJcUpqc293UWU1YnZfRlNtYWwzOTZTa2tiQTg3Y3p1b3RnRzBmZ3ZpYlNBZG1vMzhqOC13UzVhZXROTUhlSnVmQnFPNUVCazAzSUI1TGhCWlhTZ245cnV3MFJ0Y3hNSEo3blVrdTVCRDQyeEtSbzRZd0k1SWNvaUpOS3Mxc1ZmM3ZoWFpMdG4yeXNpa1lnMGU3bzI5YzJZOE4zUGhMMXlZOTlBY3plcXh6Ni16dUZrb3B2RGc?oc=5",
 "urls": []
 },
 "8b0f3a536a88": {
@@ -2334,7 +2305,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795455661.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: A final CFTC rule on which prediction-market contracts can trade is now under White House review, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "A final CFTC rule on which prediction-market contracts can trade is now under White House review, per Bloomberg.",
@@ -3224,23 +3195,6 @@
 "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcFBIR2h0enZtWXM3TTg3aWsxXzlOcTJLMVhBc2JLX3FXaUdIUnNRc3FwVlhXN1pTb0c3ckZyTzI0TThxaEZPRUNwMWc4OVRPbXZuVjhpa0ZGUUN4eEN2aGVTNktQREFmMC1oUGZ1d1BfZFF3TFFvUW90TlhNZFJoY3ZLU1FjZ3BPMDVMZTJkNVNVeTl4ZjJ5aTlhOUVwUmxZN3A1Wlg0UnNVbnB4RU5uVXRfR1BlazI5LTMzSExmTDhkVDR3SHkybHNTTkZBOGRySk1sekRn?oc=5",
 "urls": []
 },
-"cc2548a58744": {
-"coin": "ethereum",
-"src": "CoinGape",
-"srcs": [
-"CoinGape",
-"Coinpaper",
-"CryptoRank",
-"Cryptonews.net",
-"FXEmpire"
-],
-"t": 1795284799.5595832,
-"t0": 1795263429.0,
-"tgtext": "",
-"title": "How Low Could Ethereum Price Go as Exchange Reserves Jump by 210K ETH in Four Days?",
-"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdzJVd3laMnBfdGk0dGo3YnRaUkhxNDRyYnVJTm1zMjJtWVpyWHlwUGdackhlbnB1OWozRWNxVlhUSmNqZk5BYktvcTFBQW5fcXZud1lFUUdkSGhHYm90eml4Nm85RmtQeEtLdEY2Rm5ZZjlNajdBMlFBWnZNempPMkxfT1p2NXhDbXVqQkhGU2RLRUJJUVZHdVNmNUxoR0xJQllMTEFXai1mTFgzR3doVi1B?oc=5",
-"urls": []
-},
 "cc3119ca8a15": {
 "coin": "",
 "src": "Coin Edition",
@@ -3632,7 +3586,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1795457078.4953277,
+"t": 1795457691.224657,
 "t0": 1795438995.0,
 "tgtext": "\ud83d\udd25 JUST IN: Michael Saylor's Strategy buys another 457 $BTC for $29.6 million, bringing its total holdings to 851,305 BTC.\n\nThe company also repurchased $211.8M worth of STRC preferred stock over the past week.\n\nNews | Markets | YouTube",
 "title": "Michael Saylor's Strategy buys another 457 BTC for $29.6 million, bringing its total holdings to 851,305 BTC.",
@@ -3858,44 +3812,44 @@
 "probs": {
 "03aa412dfc7a": 0.387,
 "152dc8fb2326": 0.078,
+"17c20be47ba5": 0.291,
 "1b5eb35866e6": 0.047,
-"1cb39d98a9e3": 0.04,
+"1cb39d98a9e3": 0.029,
 "21d43ab57230": 0.023,
+"27ef1d492165": 0.02,
 "2d4f8c722ddb": 0.052,
 "2fe7ad67a2ff": 0.014,
-"3e369713ec09": 0.429,
+"301b710c7b95": 0.015,
 "3f294a0edad3": 0.024,
 "4d5c93526faa": 0.367,
-"597b7cde3b4d": 0.074,
+"597b7cde3b4d": 0.109,
 "5d0bbde0fbad": 0.02,
 "5d42679dc1ad": 0.075,
-"621223762438": 0.944,
-"6a61c6b83eca": 0.949,
+"621223762438": 0.839,
+"6a61c6b83eca": 0.641,
 "6c28ebb7e66f": 0.013,
-"72a03a164f61": 0.969,
+"72a03a164f61": 0.768,
 "79b1d879b260": 0.409,
-"7aee97ab275b": 0.795,
+"7aee97ab275b": 0.912,
 "89fae249b7df": 0.518,
 "9264ef73097c": 0.169,
 "93766f343a72": 0.029,
 "9482223cdc88": 0.06,
 "991d0de3cd05": 0.028,
 "a8fb135c2498": 0.058,
-"b17190305660": 0.032,
 "bcf368e5e7e1": 0.044,
+"bcf3d0e54c62": 0.026,
 "be7735831cfb": 0.05,
 "c44315c1b223": 0.058,
-"cca34048533d": 0.123,
+"cca34048533d": 0.07,
 "cfd312d407bb": 0.014,
-"d29345d54a31": 0.218,
 "d55a8f17fb1b": 0.143,
 "db0a8c59099c": 0.033,
 "eba103800292": 0.928,
 "f04f9c2d1de8": 0.104,
 "f0935fdfe769": 0.033,
 "f8256bf559d6": 0.019,
-"fdf99f691ec4": 0.098,
-"ffc632b5f9ac": 0.013
+"fdf99f691ec4": 0.098
 },
 "sent": [
 {
@@ -5162,65 +5116,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"eba103800292",
+27,
+312,
+3
+],
+[
+"7aee97ab275b",
+29,
+265,
+4
+],
+[
+"621223762438",
+62,
+359,
+6
+],
+[
 "72a03a164f61",
-71,
-243,
+70,
+254,
 12
 ],
 [
 "6a61c6b83eca",
 52,
-38,
+48,
 3
-],
-[
-"621223762438",
-63,
-349,
-5
-],
-[
-"eba103800292",
-28,
-301,
-3
-],
-[
-"7aee97ab275b",
-31,
-255,
-4
 ],
 [
 "922f25a2e137",
 10,
-24,
+34,
 1
 ],
 [
 "89fae249b7df",
-29,
-275,
+28,
+285,
 2
 ],
 [
 "17bf1105edfc",
-12,
-227,
+11,
+237,
 1
 ],
 [
 "3e369713ec09",
-16,
-182,
+15,
+192,
 1
 ],
 [
 "68b003da7471",
 0,
-348,
+358,
 1
 ]
 ],
-"top_at": 1795457078.4953277
+"top_at": 1795457691.224657
 }
