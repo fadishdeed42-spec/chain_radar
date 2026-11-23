@@ -573,6 +573,21 @@
 "https://cryptoslate.com/bitcoin-below-60000-fed-half-point-cpi/"
 ]
 },
+"213308e49576": {
+"coin": "open-usd",
+"src": "The Block",
+"srcs": [
+"The Block"
+],
+"t": 1795434193.3414738,
+"t0": 1795432971.0,
+"tgtext": "",
+"title": "Visa launches experimental AI agent wallet for eligible US users to earn OUSD from paid tasks",
+"url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903"
+]
+},
 "218f702293e9": {
 "coin": "",
 "src": "Lookonchain",
@@ -619,7 +634,7 @@
 "Cointelegraph",
 "GBHackers News"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795421374.0,
 "tgtext": "\ud83d\udea8 ALERT: \"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.\n\nNews | Markets | YouTube",
 "title": "\"MoldyRoost\" malware targets iPhones across 47+ countries using 480+ malicious ad domains to steal crypto wallet seed phrases, passwords and messages, according to Confiant.",
@@ -1416,7 +1431,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795428718.0,
 "tgtext": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea to release draft of comprehensive crypto laws this week.\n\n@WatcherGuru",
 "title": "South Korea to publish draft of comprehensive crypto legal framework this week",
@@ -1892,7 +1907,7 @@
 "Investing.com",
 "Serrari Group"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795413600.0,
 "tgtext": "",
 "title": "XRP Slips as Short Traders Take the Hit in a $250M Crypto Liquidation Wave",
@@ -2366,16 +2381,17 @@
 ]
 },
 "9edc9acc70ae": {
-"coin": "",
-"src": "The Cryptonomist",
+"coin": "ethereum",
+"src": "MEXC",
 "srcs": [
+"MEXC",
 "The Cryptonomist"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795425450.0,
 "tgtext": "",
-"title": "BTCS Aave Loan Risk: Liquidation Threat as Ether Falls",
-"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wc2tPdGpQRUY0emRhRVltRGVHaEk2Q015ZnkxMjVmQlJNWS0tS3FnOGJrNFpEUmkteWZKS185MXBGejRuVllqQThRVHlrTmV5a2RUbG56TWhyYnk4WW9aT0NvY1JuOEt1ZHc?oc=5",
+"title": "Aave Health Factor Calculator: Find Your ETH Liquidation Price",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV1RWbXBjWDhPOW0xdXBXeVJKLXFzRUtzQmFiRmR4QUJZY1YwRFMtN3hydzBPSDdMc3VudWwzc0tYU3I2RHdid1Jla2FCVFlDMF9NdmxzNzByMnRncmEzV2ZvQjJGZjd4aXVZT0xXVjExdXJZSjVJa2E5eVljM2RYNE1lNmI?oc=5",
 "urls": []
 },
 "9f3ebfbc548d": {
@@ -2607,10 +2623,9 @@
 "coin": "bitcoin",
 "src": "lincolnjournal.com",
 "srcs": [
-"lincolnjournal.com",
-"markets.businessinsider.com"
+"lincolnjournal.com"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795415984.0,
 "tgtext": "",
 "title": "Crypto News: Pepeto Clears $11.311M While Whales Buy the Bitcoin Price Crash and a $250,000 Bitcoin Price Prediction Holds",
@@ -2838,7 +2853,7 @@
 "ForkLog",
 "Wu Blockchain"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795419177.0,
 "tgtext": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History\n\nCryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4.5 billion over the past year and remains down nearly 40%. In July, the decline exceeded 45%, equivalent to $6.25 billion, marking the largest deleveraging event in Bitcoin's history in dollar terms. Binance accounts for over 34% of total Bitcoin open interest. Darkfost attributed the contraction to macroeconomic uncertainty, geopolitical tensions, tighter monetary policy, voluntary position closures, forced liquidations, and declining Bitcoin prices. In 2026 alone, the broader crypto market has recorded at least eight days with liquidations exceeding $1.5 billion. \u2014 link",
 "title": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History",
@@ -3268,7 +3283,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795427084.0,
 "tgtext": "Another $TRUMP dinner is coming!\n\nBut this whale, who spent $29.18M buying 3.58M $TRUMP (now worth $3.22M) about a year ago, is currently down $25.96M (-89%)!\n\nhttps://arkm.com/explorer/entity/399c07d4-0df4-46ac-a4c0-fe1c622613a0",
 "title": "Another TRUMP dinner is coming!",
@@ -3329,7 +3344,7 @@
 "Tech Times",
 "grafa.com"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795412648.0,
 "tgtext": "",
 "title": "Fusionist ACE Exploit Drains Over $2M, Attacker Sends 1,150 ETH Into Tornado Cash",
@@ -3542,7 +3557,7 @@
 "CoinGecko",
 "MEXC"
 ],
-"t": 1795433581.049678,
+"t": 1795433888.8637867,
 "t0": 1795412400.0,
 "tgtext": "",
 "title": "Aave Health Factor Calculator: Find Your ETH Liquidation Price",
@@ -3583,7 +3598,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795433581.049678,
+"t": 1795434193.3414738,
 "t0": 1795423229.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his $TRUMP memecoin to ensure United States stays ahead of China.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 President Trump says he supports crypto with his TRUMP memecoin to ensure United States stays ahead of China.",
@@ -3614,15 +3629,16 @@
 },
 "probs": {
 "075d6331898a": 0.021,
-"1050a543641d": 0.079,
-"1e3f5dccee08": 0.038,
+"1050a543641d": 0.044,
+"1cfb56b8ef96": 0.065,
+"1edf7afa1528": 0.068,
+"1fe3e65c8abf": 0.044,
 "22a84bcba85f": 0.726,
-"278401285766": 0.127,
+"278401285766": 0.19,
 "2b91dcb3cae4": 0.027,
 "2c85b697be84": 0.01,
-"384aa8345385": 0.188,
-"4601af5e9591": 0.057,
-"579081f35e69": 0.166,
+"3dfdbafa4e90": 0.045,
+"579081f35e69": 0.096,
 "58b34811606a": 0.023,
 "618df4b21457": 0.665,
 "76b811c5cf6b": 0.188,
@@ -3631,28 +3647,27 @@
 "7bf3451299ef": 0.096,
 "831f053a6c4f": 0.419,
 "84df5cf72708": 0.119,
-"91ad1ce29c0d": 0.043,
-"9933e1b13d00": 0.33,
-"9edc9acc70ae": 0.457,
+"9933e1b13d00": 0.208,
+"9edc9acc70ae": 0.452,
 "a45a4df3178e": 0.099,
 "a8c2e786b7eb": 0.067,
-"b0a8e61739f7": 0.438,
+"ad378ea45851": 0.056,
+"b0a8e61739f7": 0.281,
 "b17ded3f03b0": 0.198,
 "b2b0ba382ef0": 0.037,
+"b9e113c22005": 0.031,
 "bc45c2db8f25": 0.1,
-"be707c0137b3": 0.553,
+"be707c0137b3": 0.767,
 "cd67e51395a0": 0.022,
 "cf7b895e0904": 0.06,
 "d32e9de5429c": 0.13,
 "dd7368e12be1": 0.612,
-"e1da6db90413": 0.019,
 "e1e4b2414230": 0.229,
 "e50d8631ad79": 0.071,
-"e6a4850934ac": 0.035,
 "e6dc51904e40": 0.655,
 "e712c8ae1f9b": 0.039,
-"f416d8f38575": 0.43,
-"fccad109c615": 0.883
+"fccad109c615": 0.883,
+"ff37e2ef572f": 0.059
 },
 "sent": [
 {
@@ -4723,63 +4738,63 @@
 [
 "fccad109c615",
 18,
-173,
+183,
 1
 ],
 [
+"be707c0137b3",
+29,
+250,
+3
+],
+[
 "22a84bcba85f",
-42,
-203,
+41,
+214,
 2
 ],
 [
 "618df4b21457",
 20,
-81,
+91,
 2
 ],
 [
 "e6dc51904e40",
-63,
-349,
+62,
+359,
 4
 ],
 [
 "dd7368e12be1",
 18,
-108,
+118,
 1
-],
-[
-"be707c0137b3",
-30,
-240,
-3
 ],
 [
 "9edc9acc70ae",
-25,
-136,
-1
-],
-[
-"b0a8e61739f7",
-29,
-293,
-2
-],
-[
-"f416d8f38575",
-12,
-353,
+35,
+146,
 2
 ],
 [
 "831f053a6c4f",
-46,
-333,
+45,
+343,
 3
+],
+[
+"b0a8e61739f7",
+18,
+303,
+1
+],
+[
+"213308e49576",
+10,
+20,
+1
 ]
 ],
-"top_at": 1795433581.049678
+"top_at": 1795434193.3414738
 }
