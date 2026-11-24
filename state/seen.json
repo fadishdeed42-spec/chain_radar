@@ -27,7 +27,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795546253.0,
 "tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
 "title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
@@ -1316,7 +1316,7 @@
 "CoinDesk",
 "Cointelegraph"
 ],
-"t": 1795562191.228328,
+"t": 1795563412.5036232,
 "t0": 1795542608.0,
 "tgtext": "",
 "title": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
@@ -1885,7 +1885,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795549851.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.\n\nNews | Markets | YouTube",
 "title": "The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.",
@@ -3382,6 +3382,24 @@
 "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"b3091bc1b5b5": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate",
+"Decrypt",
+"The Crypto Times"
+],
+"t": 1795563412.5036232,
+"t0": 1795542183.0,
+"tgtext": "",
+"title": "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions",
+"url": "https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/",
+"urls": [
+"https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach",
+"https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/"
+]
+},
 "b3d69b0bbd4f": {
 "coin": "usd-coin",
 "src": "The Block",
@@ -3673,7 +3691,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795542630.0,
 "tgtext": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says it's \"time\" to buy.",
@@ -3719,7 +3737,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795543503.0,
 "tgtext": "",
 "title": "Rep. Raskin probes Trump Jr.\u2019s firm\u2019s investments into Polymarket and Juul over \u2018suspiciously well-timed government favors\u2019",
@@ -3891,7 +3909,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795545943.0,
 "tgtext": "",
 "title": "21Shares Says Bitcoin Plunge Was Driven More by Weakening Demand, Leverage Liquidations Than Binance Hack",
@@ -3939,7 +3957,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795541962.0,
 "tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
 "title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
@@ -4225,7 +4243,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795545111.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf5 NEW: Coinbase says it is sponsoring sessions with cybersecurity experts to combat North Korean crypto crime and prevent cyberattacks.\n\nNews | Markets | YouTube",
 "title": "Coinbase says it is sponsoring sessions with cybersecurity experts to combat North Korean crypto crime and prevent cyberattacks.",
@@ -4428,7 +4446,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795562801.98095,
+"t": 1795563412.5036232,
 "t0": 1795561096.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is willing to pardon Nvidia $NVDA CEO Jensen Huang if necessary.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says he is willing to pardon Nvidia NVDA CEO Jensen Huang if necessary.",
@@ -4700,44 +4718,44 @@
 },
 "probs": {
 "030a538017e6": 0.019,
-"043e35694561": 0.011,
+"0dc410833168": 0.016,
 "1000b858ee50": 0.05,
-"13ef600feaa4": 0.025,
 "159005dcecfe": 0.053,
+"160d560c09a5": 0.017,
+"1c09d1c3c478": 0.014,
 "1f8b4e9ab4ea": 0.024,
-"268d11c80021": 0.022,
+"26fe5f415ee9": 0.013,
 "2e6acc7a368c": 0.007,
-"384c19fed112": 0.012,
-"3ada6a3bf7cc": 0.011,
+"392efd6ac25d": 0.072,
 "3c61b6f93b36": 0.177,
-"42a760faf226": 0.098,
 "45b77d3dd0d6": 0.004,
-"47f01fa5103c": 0.065,
+"47f01fa5103c": 0.244,
+"485ce25e1f22": 0.011,
 "4b8f72dd83f1": 0.039,
 "4bc450bcc4e5": 0.138,
+"4cc37d957f93": 0.017,
 "552fb5364eb3": 0.025,
-"5cd02740b598": 0.016,
 "6154715dab3d": 0.021,
-"6430be7d501a": 0.042,
-"64f0bf396498": 0.805,
+"64f0bf396498": 0.475,
 "6610cf7a94db": 0.103,
 "6b6c77965aed": 0.023,
-"7b55ace10045": 0.033,
+"6ebb856add31": 0.033,
+"6f56bea2f305": 0.033,
+"6f875c5b230d": 0.014,
+"78f7a83e386d": 0.036,
+"7c771dc725d2": 0.009,
+"7f793bd8cc4c": 0.02,
 "8eb90809c5f9": 0.029,
-"914f26309a04": 0.025,
 "a4cee22dedd6": 0.018,
 "b29819b863ee": 0.036,
-"b3091bc1b5b5": 0.15,
-"bed6c69f002d": 0.122,
-"c35b7ff778f8": 0.131,
-"cbe50bd7326a": 0.061,
+"b3091bc1b5b5": 0.213,
+"b3762f17ade9": 0.009,
 "cdf9fb646502": 0.58,
-"d7f1f6e1419d": 0.172,
+"d7f1f6e1419d": 0.014,
 "dfb9fc8de21e": 0.01,
 "ebd127ca03a8": 0.097,
-"ed26ebe9edd3": 0.358,
-"f35147a18424": 0.004,
-"f7974abe2c55": 0.01,
+"ed26ebe9edd3": 0.288,
+"f8dce938fef3": 0.023,
 "fe7bf1cb8f6f": 0.148
 },
 "sent": [
@@ -6447,65 +6465,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"64f0bf396498",
-41,
-216,
-2
-],
-[
 "cdf9fb646502",
-72,
-281,
+71,
+291,
 5
 ],
 [
 "0052e4b58051",
-6,
-276,
+4,
+286,
 1
+],
+[
+"64f0bf396498",
+39,
+226,
+2
 ],
 [
 "d34e9c9768fc",
 0,
-347,
+358,
 1
 ],
 [
 "c07fb3bff7db",
 0,
-336,
+346,
 1
 ],
 [
 "ed26ebe9edd3",
 18,
-28,
+39,
 1
 ],
 [
 "e2a37edc8a0c",
-3,
-295,
+2,
+305,
 1
+],
+[
+"47f01fa5103c",
+20,
+347,
+2
+],
+[
+"b3091bc1b5b5",
+48,
+354,
+3
 ],
 [
 "c351ba45fe0f",
 0,
-322,
+332,
 1
-],
-[
-"3c61b6f93b36",
-25,
-326,
-2
-],
-[
-"d7f1f6e1419d",
-57,
-197,
-3
 ]
 ],
-"top_at": 1795562801.98095
+"top_at": 1795563412.5036232
 }
