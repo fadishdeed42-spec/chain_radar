@@ -266,7 +266,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795531402.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.",
@@ -663,20 +663,20 @@
 "src": "BeInCrypto",
 "srcs": [
 "BeInCrypto",
-"Coin Edition",
 "CoinDesk",
 "Decrypt",
-"Lookonchain"
+"Lookonchain",
+"Protos | Informed crypto news"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795524469.0,
 "tgtext": "The \"hacker\" has stolen $2.57M from Ansem(@blknoiz06)'s wallet so far.\n\nInterestingly, the 2.57M $USDC hasn't been swapped for $ETH and laundered yet \u2014 it's still sitting in wallet 0xAC33.\nhttps://x.com/lookonchain/status/2125166373362102312",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mU1JJYUhfZEZLV3B1bmw0MkUydjRlNkhZQzFRNHpub2owelNJYjFoeGJXdkQyaVh5cjloX3NJMEM2YjFvMG9ta1p0cFZiV2RpNk85VVlBSVhBbVNjY3JtOHNRcUZkWUJWTTBR?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
-"https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705",
-"https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach"
+"https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach",
+"https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705"
 ]
 },
 "25efe7b740db": {
@@ -910,7 +910,7 @@
 "The Block",
 "The Crypto Times"
 ],
-"t": 1795543702.0456228,
+"t": 1795544009.6261494,
 "t0": 1795523170.0,
 "tgtext": "",
 "title": "Ethereum treasury firm BTCS sells $43.8 million in ETH to cut Aave debt, CEO says 'we do not take this lightly'",
@@ -938,7 +938,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795542479.3455803,
+"t": 1795544313.6764963,
 "t0": 1795526548.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.\n\nThe EU, Japan and South Korea likely face rates of 15% or less.\n\nNews | Markets | YouTube",
 "title": "The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.",
@@ -1490,7 +1490,7 @@
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795532705.0,
 "tgtext": "JUST IN: Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nAnthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion\n\nOn November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dropping below its IPO price of $83 and down 30.59% from its debut opening price of $111.50. According to CoinGecko, 24-hour trading volumes for Anthropic stock perpetual futures on Binance and Hyperliquid stood at approximately $922 million and $457 million, respectively, totaling approximately $1.38 billion. \u2014 link",
 "title": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion",
@@ -1616,6 +1616,26 @@
 "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades"
 ]
 },
+"5fc298fedad0": {
+"coin": "bitcoin",
+"src": "The Economic Times",
+"srcs": [
+"Analytics Insight",
+"Bitcoin Sistemi",
+"CoinDesk",
+"CryptoSlate",
+"NewsBytes"
+],
+"t": 1795544313.6764963,
+"t0": 1795524456.0,
+"tgtext": "",
+"title": "Why is Bitcoin price down today? BTC USD falls to $60,000 as Nvidia (NVDA) rally fades, $827 million liqui",
+"url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNXzhEMTlzaTNVTllmN0JxdUJWR2RSSmdPU3RYeVFQRE9oRUs2bks5ZTdnUjVMQTBVOHdCVy03bDBuaXBpbUFLdzRWWFBqYkJFbzhBeFRsZHVqYjlwcWlyb2tLX2lrWU9haTRNdDA5enlJVldQWm52bU1rdlQwbUFZLTJwdGFnWUNuYTdubWh6c1g2M3pJYkx3U1pWcjdCLXdQQUktLVdVVFZmNlVUWDJDSXAtQXdieUlKa2daaU5mYVNfUk1HTjg5a25CUzNvM0c5bm04R0YxWTdCTWxPWXUyRzlyYjVLZGd4Z2lWY0dOVWtoUXJ1R0U1NEFvMU9KX3Q0VDY3UUlQcERTdmFBOU1GNUJmYV8xd3VxSlkxTDBxdDd2YWlQWW82SXk1WW9IajV1UVpsMWY4UkVpTlJidzUtLUkzZm1JNGlDMkI3S0lSbUPSAcoCQVVfeXFMUHFOZ0o5OVFzakZ0VTZwVjJHcjlESUgzRnVzY1VrVXhpMUFEd3RESGNIQ3V3U1dvZ3hMV1Uwa1dmVjRqZTkxdjZuWU5weTBpbWktTS1PN1lIMXVCOF94R1RGYUxfUVBJOW5WdzM4MWZYUkEtN0pwOFZmRHU2NmRubDdVX0ctSFdSRUJ6WmZVdzhuMUk5aTJQTjhaTjB2eTV5YW16WWJBUHNjNjJRUloxS2hvelVUeFQzb2V0dXJEc3ctbUQwVTliYUxsUlhKMHJDNUtvT0o0d3J4ek5Bb1NCQkhKcTVpVVk0ZXIxMFZMQVBEcGxwZWhUcl9mOE1PYWxUNGpCdkJfM2Y4eDlqRzdaSW1UcVRlSGYzUUdacGdqaHptcjgyUUk4S2c1OGNGOEhLbm5YYW1XUEoyckNtaS0xdXNVZnBhN0dMcTJn?oc=5",
+"urls": [
+"https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+"https://cryptoslate.com/bitcoins-5000-price-swing-and-anthropics-ipo-decline-expose-cracks-in-ai-driven-market-rally/"
+]
+},
 "614b43cad418": {
 "coin": "",
 "src": "bloomingbit",
@@ -1626,7 +1646,7 @@
 "Decrypt",
 "Pluang"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795523292.0,
 "tgtext": "",
 "title": "Binance Says It Is Working With DOJ to Freeze, Recover Assets Stolen in October Hack",
@@ -2633,7 +2653,7 @@
 "Bitcoin Magazine",
 "Wu Blockchain"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795537200.0,
 "tgtext": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses\n\nBitcoin hardware wallet maker Coinkite has released its postmortem on Coldcard\u2019s seed-generation flaw, confirming that attackers reconstructed private keys offline rather than compromising the devices. A firmware configuration error disabled the hardware random number generator, causing devices to rely on an insecure pseudorandom number generator. At least 15 independent review and security research efforts between 2021 and 2026 failed to identify the flaw, including a review using OpenAI\u2019s Cybersecurity Harness.\n\nCoinkite received 300 loss-related support tickets involving 236 customer accounts, approximately 0.2% of its estimated user base. According to Galaxy Research, 1,778.84 BTC were stolen from over 8,600 addresses, worth approximately $107 million at current prices. Coinkite released patched firmware on July 31 but warned that firmware updates cannot secure previously affected seeds. The attackers remain unidentified, and Coinkite has yet to decide whether to compensate affected customers. \u2014 link",
 "title": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses",
@@ -3467,7 +3487,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795542630.0,
 "tgtext": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says it's \"time\" to buy.",
@@ -3653,6 +3673,21 @@
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 US intelligence confirms China gained access to advanced American AI chips.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3\ud83c\uddfa\ud83c\uddf8 US intelligence confirms China gained access to advanced American AI chips.",
 "url": "https://t.me/WatcherGuru/16251",
+"urls": []
+},
+"d34e9c9768fc": {
+"coin": "bitcoin",
+"src": "Watcher.Guru",
+"srcs": [
+"24/7 Wall St.",
+"Watcher.Guru",
+"Yahoo Finance"
+],
+"t": 1795544313.6764963,
+"t0": 1795541962.0,
+"tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
+"title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
+"url": "https://t.me/WatcherGuru/16315",
 "urls": []
 },
 "d3c41af88313": {
@@ -4232,7 +4267,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795543702.0456228,
+"t": 1795544313.6764963,
 "t0": 1795537203.0,
 "tgtext": "JUST IN: Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 ALERT: Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
 "title": "Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
@@ -4379,46 +4414,46 @@
 "pieverse": 1795338115.00558
 },
 "probs": {
-"092e206c59f4": 0.006,
-"126cee35773e": 0.045,
+"126cee35773e": 0.025,
+"202489efb873": 0.005,
 "20e529f8e125": 0.334,
-"25aa3a7f9cee": 0.953,
-"25efe7b740db": 0.113,
+"25aa3a7f9cee": 0.934,
+"268d11c80021": 0.018,
 "27822fcc1b35": 0.052,
-"2b29e0840cc3": 0.125,
-"2b2b4185336a": 0.112,
-"38b518523af6": 0.475,
-"39dc1f521d8a": 0.154,
-"438485f5250a": 0.01,
+"2b2b4185336a": 0.118,
+"3713dbfcb6da": 0.034,
+"3a4e66a73a4d": 0.012,
+"3c61b6f93b36": 0.051,
 "47f01fa5103c": 0.039,
 "552a8a00f208": 0.944,
-"561011863e44": 0.028,
-"5a43307e966e": 0.006,
-"5fc298fedad0": 0.055,
+"5fc298fedad0": 0.714,
 "612db5179ddb": 0.138,
 "614b43cad418": 0.673,
+"68e34a655303": 0.109,
 "6a7196ad05a8": 0.039,
-"6cbf82bb6afa": 0.004,
-"74a5acd77628": 0.036,
-"80e5b5c52042": 0.114,
+"80e5b5c52042": 0.057,
 "89076b094c6e": 0.024,
-"90e68ff780ec": 0.087,
+"90e68ff780ec": 0.176,
 "95fa5c06d8d9": 0.629,
+"972eaee6846e": 0.117,
 "990f393bd3fe": 0.016,
 "a763105360a3": 0.243,
 "addcb6dfb274": 0.019,
-"af380e169c46": 0.055,
+"c335d266d2c9": 0.039,
 "c351ba45fe0f": 0.127,
 "c35b7ff778f8": 0.021,
 "c9ee6359ec09": 0.209,
 "ca0dc049e0d9": 0.065,
-"ccc563164e6f": 0.409,
+"ccc563164e6f": 0.378,
+"d34e9c9768fc": 0.408,
 "d67f0ff9e217": 0.037,
 "de1f98394fdf": 0.078,
 "e12a4d3862c2": 0.078,
 "eb94facffc4f": 0.1,
 "eead2f25aac1": 0.017,
-"f2a56e5eef8e": 0.959
+"f16d950f554f": 0.017,
+"f2a56e5eef8e": 0.944,
+"fe7bf1cb8f6f": 0.057
 },
 "sent": [
 {
@@ -6042,65 +6077,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"552a8a00f208",
+72,
+193,
+4
+],
+[
 "f2a56e5eef8e",
 42,
-108,
+119,
 2
 ],
 [
 "25aa3a7f9cee",
-63,
-321,
-8
-],
-[
-"552a8a00f208",
-73,
-183,
-4
-],
-[
-"57a37062a585",
-2,
-318,
-2
-],
-[
-"c07fb3bff7db",
-10,
-18,
-1
+61,
+331,
+7
 ],
 [
 "0885202c0fa3",
-7,
-205,
+6,
+215,
 1
 ],
 [
+"5fc298fedad0",
+55,
+331,
+8
+],
+[
 "614b43cad418",
-64,
-340,
+63,
+350,
 7
 ],
 [
 "95fa5c06d8d9",
 45,
-108,
+119,
 2
 ],
 [
-"38b518523af6",
-15,
-342,
+"c07fb3bff7db",
+10,
+28,
+1
+],
+[
+"d34e9c9768fc",
+38,
+39,
 3
 ],
 [
-"ccc563164e6f",
-20,
-125,
-2
+"3ac4f4cd2c93",
+0,
+296,
+1
 ]
 ],
-"top_at": 1795543702.0456228
+"top_at": 1795544313.6764963
 }
