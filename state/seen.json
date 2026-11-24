@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795445735.8716676,
 1795450035.4702044,
 1795456800.1133256,
 1795470349.8308902,
@@ -17,7 +16,8 @@
 1795514024.0284457,
 1795519918.7887828,
 1795529586.833144,
-1795531112.3313305
+1795531112.3313305,
+1795536028.5079677
 ],
 "menu": {
 "02523ac593dc": {
@@ -160,7 +160,7 @@
 "CryptoRank",
 "Yahoo Finance"
 ],
-"t": 1795534494.3377438,
+"t": 1795536028.5079677,
 "t0": 1795526833.0,
 "tgtext": "",
 "title": "Saylor Says Strategy Aims to Buy Every Remaining Bitcoin and Push Price to $10 Million",
@@ -246,7 +246,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795535719.5814667,
+"t": 1795536332.3968928,
 "t0": 1795531402.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.",
@@ -444,7 +444,7 @@
 "Forbes",
 "NewsBytes"
 ],
-"t": 1795535414.4150302,
+"t": 1795536332.3968928,
 "t0": 1795514918.0,
 "tgtext": "",
 "title": "Why is Bitcoin price down today? BTC USD falls to $60,000 as Nvidia (NVDA) rally fades, $827 million liqui",
@@ -555,6 +555,19 @@
 "https://bitcoinmagazine.com/news/strategy-mstr-adds-457-bitcoin"
 ]
 },
+"20e529f8e125": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795536332.3968928,
+"t0": 1795535738.0,
+"tgtext": "Glassnode: Bitcoin Hashrate Falls 8% YoY, First Annual Decline Since China's 2021 Mining Ban\n\nGlassnode said Bitcoin\u2019s hashrate has declined approximately 8% year-over-year, marking its first annual contraction since China\u2019s 2021 Bitcoin mining ban. Unlike the policy-driven decline in 2021, the current contraction is driven by falling BTC prices and deteriorating mining profitability, prompting some miners to shut down their machines. Bitcoin\u2019s hashprice has reached an all-time low, further increasing financial pressure on miners. \u2014 link",
+"title": "Glassnode: Bitcoin Hashrate Falls 8% YoY, First Annual Decline Since China's 2021 Mining Ban",
+"url": "https://t.me/wublockchainenglish/26937",
+"urls": []
+},
 "213308e49576": {
 "coin": "open-usd",
 "src": "The Block",
@@ -620,7 +633,7 @@
 "Lookonchain",
 "bloomingbit"
 ],
-"t": 1795534494.3377438,
+"t": 1795536332.3968928,
 "t0": 1795524469.0,
 "tgtext": "The \"hacker\" has stolen $2.57M from Ansem(@blknoiz06)'s wallet so far.\n\nInterestingly, the 2.57M $USDC hasn't been swapped for $ETH and laundered yet \u2014 it's still sitting in wallet 0xAC33.\nhttps://x.com/lookonchain/status/2125166373362102312",
 "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
@@ -863,7 +876,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795535719.5814667,
+"t": 1795536028.5079677,
 "t0": 1795526548.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.\n\nThe EU, Japan and South Korea likely face rates of 15% or less.\n\nNews | Markets | YouTube",
 "title": "The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.",
@@ -894,12 +907,12 @@
 "src": "The Block",
 "srcs": [
 "CoinDesk",
-"Coinpedia",
 "Crypto News",
 "The Block",
+"The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1795535719.5814667,
+"t": 1795536332.3968928,
 "t0": 1795517730.0,
 "tgtext": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt\n\nEthereum treasury firm BTCS sold approximately 27,300 ETH, representing more than half of its holdings, for $43.8 million on November 20 at an average price of $1,604, according to an SEC filing. The proceeds were used to repay Aave loans, reducing its outstanding debt by 81% to $10.5 million and lowering its loan-to-value ratio to 32%.\n\nAs of November 22, BTCS still held approximately 24,245 ETH, with combined cash and digital assets valued at $61 million. Amid market volatility, its DeFi unit Imperium temporarily withdrew from liquidity pools and plans to redeploy capital when conditions improve. \u2014 link",
 "title": "Ethereum treasury firm BTCS sells $43.8 million in ETH to cut Aave debt, CEO says 'we do not take this lightly'",
@@ -1442,7 +1455,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795535719.5814667,
+"t": 1795536332.3968928,
 "t0": 1795532705.0,
 "tgtext": "JUST IN: Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Anthropic ANT officially crashes below its IPO price of $83 per share.",
@@ -2335,9 +2348,10 @@
 "src": "PanAsiaBiz",
 "srcs": [
 "CoinMarketCap",
+"Crypto Economy",
 "PanAsiaBiz"
 ],
-"t": 1795532644.930411,
+"t": 1795536332.3968928,
 "t0": 1795516832.0,
 "tgtext": "",
 "title": "Bitcoin Drops Below $60K Amid $850M Liquidations: Flush or Deeper Crash?",
@@ -2854,7 +2868,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795535719.5814667,
+"t": 1795536332.3968928,
 "t0": 1795534811.0,
 "tgtext": "JUST IN: Jim Cramer says Anthropic is the \"silent killer\" of the stock market.\n\n@WatcherGuru",
 "title": "Jim Cramer says Anthropic is the \"silent killer\" of the stock market.",
@@ -3489,6 +3503,19 @@
 "url": "https://t.me/WatcherGuru/16309",
 "urls": []
 },
+"ccc563164e6f": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795536332.3968928,
+"t0": 1795536202.0,
+"tgtext": "October 2026 TradFi Perpetual Futures Volume Report: MoM up 21.9%, leveraged ETFs nearly doubled, with SOXL up 127%, Bitget volume up 68.5%\n\nWuBlockchain data show that TradFi perpetual futures trading volume across crypto exchanges reached $758.1 billion in October 2026, up 21.9% MoM. Stock perpetuals rose 33.2% to $541.8 billion, commodities fell 1.4% to $202.5 billion, and indices rose 41.8% to $13.9 billion. Binance led with a 58.9% market share, followed by OKX (11.0%) and Hyperliquid (9.3%). Bitget recorded the largest MoM volume increase (+68.5%), while MEXC saw the largest decline (\u221223.2%). ETF and leveraged fund perpetuals rose 81.9% to $179.8 billion, with SOXL up 127% to $84.9 billion. Pre-IPO perpetuals rose 23.9% to $48.6 billion, led by SpaceX at $42.3 billion. \u2014 link",
+"title": "October 2026 TradFi Perpetual Futures Volume Report: MoM up 21.9%, leveraged ETFs nearly doubled, with SOXL up 127%, Bitget volume up 68.5%",
+"url": "https://t.me/wublockchainenglish/26938",
+"urls": []
+},
 "cd7554cd82fc": {
 "coin": "usds",
 "src": "Wu Blockchain",
@@ -3709,18 +3736,19 @@
 ]
 },
 "dea6c33fadc3": {
-"coin": "usd-coin",
-"src": "Cointelegraph",
+"coin": "",
+"src": "Yahoo Finance",
 "srcs": [
 "Cointelegraph",
 "Crypto Briefing",
-"Protos | Informed crypto news"
+"Protos | Informed crypto news",
+"Yahoo Finance"
 ],
-"t": 1795534494.3377438,
+"t": 1795536332.3968928,
 "t0": 1795514883.0,
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
-"title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
-"url": "https://t.me/cointelegraph/73492",
+"title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
+"url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZEJEbVE2bDdBd1NSSmhvYkRHVkVscjNUNGRYbnFfSkdOSkhRaXNQUm1NSHNXOGJBZ1RrRVJ5U21LeTZIaG5oVEhreno4ZmEwbzE2dV9SNFl5clN6VEsyRld3NHVJd1RXRVhCcTZRd1dyRWVFcDYwR3lpb3ZyT29zOGlGeGhET3RKbVBjekdlYWZJaUQtLWQ4?oc=5",
 "urls": []
 },
 "df9b4601f94e": {
@@ -4201,45 +4229,45 @@
 },
 "probs": {
 "07875a6ebfc8": 0.154,
-"09128012c189": 0.021,
 "0a3638c548a5": 0.131,
-"1531e2d6934e": 0.332,
+"13e172b0e10a": 0.09,
+"1531e2d6934e": 0.748,
+"20e529f8e125": 0.93,
+"25aa3a7f9cee": 0.981,
 "28830979c0ee": 0.126,
-"295601ed4263": 0.028,
-"2b29e0840cc3": 0.245,
 "2b2b4185336a": 0.113,
+"37040de5a250": 0.033,
+"3a4e66a73a4d": 0.035,
 "3ac4f4cd2c93": 0.595,
-"3bd5729cb6c4": 0.989,
+"3bd5729cb6c4": 0.986,
+"4ebd610e24ff": 0.034,
 "51727a7b2810": 0.102,
-"552a8a00f208": 0.876,
+"552a8a00f208": 0.842,
 "55679a450992": 0.154,
-"57a37062a585": 0.062,
 "612db5179ddb": 0.153,
 "6a7196ad05a8": 0.108,
 "6ac69ec1848f": 0.095,
-"6e18fb515cd7": 0.222,
-"74827f48bbc9": 0.139,
-"77dc38a0afe9": 0.038,
-"7983b0a45401": 0.072,
 "82b1440625af": 0.08,
-"878f214fb3a5": 0.071,
-"87abed4c05cb": 0.134,
+"87abed4c05cb": 0.647,
 "89076b094c6e": 0.069,
-"890ad41fb8d2": 0.089,
+"8fd385a77304": 0.051,
 "90e68ff780ec": 0.35,
-"9f2b8628bd93": 0.292,
+"9518f7fa670a": 0.03,
+"990f393bd3fe": 0.047,
+"a073e7afdbf5": 0.048,
 "a2581b0f6b6d": 0.055,
 "ae80a241d95a": 0.042,
 "b27433b9ae86": 0.092,
+"b6482d8dfe77": 0.115,
 "ba3829356fad": 0.342,
 "cf076d725b27": 0.036,
-"d9628eaa41aa": 0.997,
+"d10677a9ae17": 0.115,
+"d67f0ff9e217": 0.043,
 "d9daf5de105b": 0.085,
-"e0d2e4aed8bf": 0.262,
-"eca191338947": 0.039,
-"edb0841f6dfb": 0.063,
-"f47e1b2a1217": 0.025,
-"fda8e8335d22": 0.035
+"dea6c33fadc3": 0.82,
+"e0d2e4aed8bf": 0.304,
+"eca191338947": 0.098,
+"f47e1b2a1217": 0.025
 },
 "sent": [
 {
@@ -5778,71 +5806,108 @@
 "tariffs",
 "updates"
 ]
+},
+{
+"e": [
+"annual",
+"ban",
+"china",
+"decline",
+"falls",
+"first",
+"glassnode",
+"hashrate",
+"mining",
+"since",
+"yoy"
+],
+"k": [
+"ban"
+],
+"t": 1795536028.5079677,
+"u": [
+"https://t.me/wublockchainenglish/26937"
+],
+"w": [
+"2021",
+"annual",
+"ban",
+"bitcoin",
+"china",
+"decline",
+"falls",
+"first",
+"glassnode",
+"hashrate",
+"mining",
+"since",
+"yoy"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"d9628eaa41aa",
-58,
-359,
-7
-],
-[
 "3bd5729cb6c4",
-41,
-300,
+29,
+310,
 5
 ],
 [
-"a763105360a3",
+"25aa3a7f9cee",
+59,
+198,
+3
+],
+[
+"20e529f8e125",
+24,
 10,
-15,
 1
 ],
 [
 "0885202c0fa3",
 10,
-72,
+82,
+1
+],
+[
+"ccc563164e6f",
+10,
+2,
 1
 ],
 [
 "552a8a00f208",
 20,
-50,
+60,
 1
 ],
 [
-"3ac4f4cd2c93",
+"dea6c33fadc3",
+58,
+357,
+4
+],
+[
+"1531e2d6934e",
+62,
+357,
+8
+],
+[
+"87abed4c05cb",
+56,
+325,
+3
+],
+[
+"a763105360a3",
 10,
-153,
-1
-],
-[
-"c9ee6359ec09",
-10,
-34,
-1
-],
-[
-"f574e5dbf250",
-10,
-81,
-1
-],
-[
-"39dc1f521d8a",
-10,
-44,
-1
-],
-[
-"8019606a1924",
-0,
-268,
+25,
 1
 ]
 ],
-"top_at": 1795535719.5814667
+"top_at": 1795536332.3968928
 }
