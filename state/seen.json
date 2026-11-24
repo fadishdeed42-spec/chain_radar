@@ -183,7 +183,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795504487.0,
 "tgtext": "Classic sell low, buy high!\n\nThis guy panic-sold 1,277 $ETH ($2.08M) at $1,627 during the market crash 3 days ago.\n\nThen, after Jensen Huang returned to #Nvidia, he FOMO-bought 1,155 $ETH ($2.08M) at $1,798.\n\nHe lost 122 $ETH ($207K) in the process.\n\nhttps://arkm.com/explorer/address/0x975eb01D643D3d52541111FdDeE6521B9bB85508",
 "title": "Classic sell low, buy high!",
@@ -312,7 +312,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795501754.0,
 "tgtext": "Upbit Flags 0G Over Token Supply and Disclosure Concerns, Suspends Deposits; Announces Listings for RPL, ACU, DBR and ON\n\nUpbit, South Korea's largest cryptocurrency exchange, announced it has designated Zero Gravity (0G) as an investment-caution asset and suspended deposits from November 24, citing concerns over token supply, circulation plans and disclosure transparency. The exchange will review the designation between December 21 and 24, with possible outcomes including delisting.\n\nSeparately, Upbit announced listings for Rocket Pool (RPL), Acurast (ACU) and deBridge (DBR) in BTC and USDT markets, and Orochi Network (ON) in KRW, BTC and USDT markets. Bithumb, South Korea's second-largest crypto exchange, also announced KRW listings for ON, Sanctum (SANC) and Subsquid (SQD) on November 24. \u2014 link",
 "title": "Upbit Flags 0G Over Token Supply and Disclosure Concerns, Suspends Deposits; Announces Listings for RPL, ACU, DBR and ON",
@@ -848,32 +848,6 @@
 "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOc1BjS3AxczFtYW5WbkFCY0VPdlY3eTBueWxVWVV3S2l5UnNFUnJEYjlUMnZjMFhMaG9xcXZEcWNUTE9tUjF1RndQX0tjWFJZbUxJaE92dUFhSUFVeTh6V1dub3phbmR3TDZWQmFGV3UzdXRIS1FpRUMwVUYyWWQzMkcxd05lMzB3MlA0cmlzbHpRS0Y4YzlIaC04T1BiTjFGenR0SWFGR0FIRWxabHA5Q3ZWWlA5dzkxTGZtczhfbHFJdExIY0NaSHk0My03VnNDZGViOTZ5V05uWGJ3YXI2bnVhZ3lGZlE?oc=5",
 "urls": []
 },
-"37f1a4e759bb": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance"
-],
-"t": 1795342379.6989024,
-"t0": 1795340100.0,
-"tgtext": "",
-"title": "Record $950 Billion of Bitcoin Capital Sits Below Cost Basis as Price Slumps Near $58,000",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BMTZOY0pNSHZwaUFaLVJVOGRZWi1rWEtia0hCcHg3QWZOWmFqT2k5eWlBcTRySDBoLXJjTkVjQzJxbmFKZlEtUUhiZmFuWFpjeHFvYXlOS19XX1c4QWQ1NzA3V3BYMEhIMURZUGVKaHVaZ2FKZHc?oc=5",
-"urls": []
-},
-"39ae8dfb755f": {
-"coin": "bitcoin",
-"src": "CryptoRank",
-"srcs": [
-"CryptoRank"
-],
-"t": 1795342379.6989024,
-"t0": 1795320952.0,
-"tgtext": "",
-"title": "Bitcoin tops $60,000 after crash: What could sustain the recovery",
-"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ05LZjhQNHJTQXV3TDVKTWNaQS1PQXhRYmpRd1VhUHE0UHFJZEFEY1Z5MnlnUXMxTnBVelpUR29yQ0o2WVR1Z29uOVdOQWdOMXJENHI2TW9QZHN5SkMtM0pVM3hRSk9OZjY4SG53Q2FhOUthOWZjUEJfWVExU0o2dg?oc=5",
-"urls": []
-},
 "3b63381c3f9e": {
 "coin": "bitcoin",
 "src": "The Block",
@@ -884,7 +858,7 @@
 "Pluang",
 "The Block"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795494424.0,
 "tgtext": "",
 "title": "DOJ moves to recover $1.17 billion from Binance hack, Strategy buys another 457 BTC, and more",
@@ -1432,6 +1406,25 @@
 "url": "https://t.me/wublockchainenglish/26916",
 "urls": []
 },
+"5a2cdf36b769": {
+"coin": "bitcoin",
+"src": "The Block",
+"srcs": [
+"CoinDesk",
+"CryptoSlate",
+"The Block"
+],
+"t": 1795514944.645611,
+"t0": 1795501294.0,
+"tgtext": "",
+"title": "Bitcoin slips back toward $60,000 as Jensen Huang\u2019s Nvidia return rally fizzles",
+"url": "https://www.theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+"urls": [
+"https://www.theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+"https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+"https://cryptoslate.com/16-polymarket-wallets-turn-20000-into-350000-before-jensen-huangs-shock-nvidia-return/"
+]
+},
 "5a2f4100f1bf": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1691,19 +1684,6 @@
 "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPem85NE4yT0RIVlFnUnlfZUJmeGRoMjlTLXRBM3RCdnAtN2xkNkI5WXJXbFdDNURtRHV0UTItWmkwbmdlUHZtLUF1c1F3V3NTYmhUb2tFa1JoZHhBcUtwWnI0elBxMXBFcHQzUzZqTGNPQjd6QVg3Qmc2blVlY2t0OGpuTDRmRlFIaXhvNWx1akxHZXdFRFZ1NC1CV200ZnpFUDFEdUc0dFhFNVhPUkpZWTdHc2kzc2h6TTNvVEVaaFhsbHRWMmduWE0zS19TR3VmOHJR?oc=5",
 "urls": []
 },
-"6d587f5e3891": {
-"coin": "bitcoin",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap"
-],
-"t": 1795342379.6989024,
-"t0": 1795324028.0,
-"tgtext": "",
-"title": "Bitcoin Price Falls Below 200-Day Average to Lowest Since August",
-"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObjd4UzlNXzBWZTd5SmpIbjlZOXdvNTE5ZGNtOHFWTVFnemV3VWo5UlRtQUhKQUs2NWx3RHZVN3VZLTNMSkNlc3J6amV5OW1iQlNsZEF5emNNanpTMGU0M3ZLcjhsZEF0UTFwZ21kTC16aHMzOUtmTHpqaE5OSm5WUzFfSjVuVnJMSjJR?oc=5",
-"urls": []
-},
 "6e01f6cf12cb": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -1740,7 +1720,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795496205.0,
 "tgtext": "Highlight Clip: SBF on FTX: Things Could've Been Different If I Hadn't Screwed Up\n\nSBF on FTX: Things Could've Been Different If I Hadn't Screwed Up\n\nIn a November 20, 2026 interview with realTomBayes, SBF was asked whether the good done by the FTX Future Fund made FTX's rise and fall worthwhile. \"No. I'd like to think that it was, but I don't think I can honestly say that,\" he replied. He said it would have been worth it had he not \"screwed up at the end,\" and suggested it might still be if people learned the right lessons, though he did not believe they were doing so. He added that crises make it easy to receive bad advice and lose sight of what matters, while events can quickly become distorted through the lens of whichever side prevails. \u2014 link",
 "title": "Highlight Clip: SBF on FTX: Things Could've Been Different If I Hadn't Screwed Up",
@@ -2102,7 +2082,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795499094.0,
 "tgtext": "\ud83d\udea8 NOW: Michael Saylor's Strategy is once again worth less than the Bitcoin it holds after last week's BTC plunge pushed its mNAV back below 1.\n\nNews | Markets | YouTube",
 "title": "NOW: Michael Saylor's Strategy is once again worth less than the Bitcoin it holds after last week's BTC plunge pushed its mNAV back below 1.",
@@ -2768,7 +2748,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795513179.0,
 "tgtext": "Ansem(@blknoiz06) appears to be dumping his holdings!\n\nHe keeps dumping $ANSEM, sending the price down 60% in just 1 hour.\n\nWas his wallet hacked?\n\nhttps://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities\nAnsem(@blknoiz06) appears to be dumping his holdings!  He keeps dumping $ANSEM, sending the price down 60% in just 1 hour.  Was his wallet hacked?  https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities",
 "title": "Ansem(@blknoiz06) appears to be dumping his holdings! He keeps dumping ANSEM, sending the price down 60% in just 1 hour. Was his wallet hacked? https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52activ",
@@ -2813,19 +2793,6 @@
 "urls": [
 "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low"
 ]
-},
-"a94482dc444f": {
-"coin": "",
-"src": "LCX Exchange",
-"srcs": [
-"LCX Exchange"
-],
-"t": 1795342076.5458834,
-"t0": 1795321008.0,
-"tgtext": "",
-"title": "Fluidkey Says Unpatched Tool Enabled $1.6 Million Hack",
-"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeG1NSGVxQ3ZjQk8xNDZwQ19MdUM4dloydUpiOXFLQW1lcFZhd2xPdGJwb3hZcWN2eHpSRHAzbE9jOHFjcmxISVdLdTR6WjhiYWlaVE9JaVlCUFFSTl9YS3pDQ2V6N2stdEROdklrX3MxMlVXYlotNmlIU21GaW1QMldwQ1ZWME51Ymc?oc=5",
-"urls": []
 },
 "a99bf84e0761": {
 "coin": "",
@@ -3220,7 +3187,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795505703.0,
 "tgtext": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks\n\nGrayscale said Bitcoin and other major cryptocurrencies appear oversold, but near-term prices will depend more on AI-related risks than blockchain fundamentals. In a November 23 report, research head Zach Pandl noted that Bitcoin fell to $55,000 on November 21, while global crypto ETPs saw over $2 billion in outflows last week.\n\nSignificant stablecoin redemptions, declining BTC and ETH futures open interest, and rising demand for put options further reflected market stress. Despite these pressures, Grayscale said blockchain fundamentals remain solid and current valuations offer attractive entry points for medium- to long-term investors. \u2014 link",
 "title": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks",
@@ -3617,6 +3584,19 @@
 "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"dea6c33fadc3": {
+"coin": "usd-coin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795515248.8856928,
+"t0": 1795514883.0,
+"tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
+"title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
+"url": "https://t.me/cointelegraph/73492",
+"urls": []
+},
 "df9b4601f94e": {
 "coin": "bitcoin",
 "src": "Wu Blockchain",
@@ -3719,23 +3699,6 @@
 "title": "Elon Musk says Tesla's TSLA humanoid robot Optimus will be the \"best product of all time.\"",
 "url": "https://t.me/WatcherGuru/16248",
 "urls": []
-},
-"e7c77a118304": {
-"coin": "",
-"src": "Pluang",
-"srcs": [
-"Cointelegraph",
-"KuCoin",
-"Pluang"
-],
-"t": 1795342076.5458834,
-"t0": 1795320504.0,
-"tgtext": "",
-"title": "Chainflip suffers second major hack in 10 weeks, FLIP token price halves after $4.86M loss.",
-"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeDV6STNzRk52cjV0Q3hPRzItV2duXzJpTVdRUmxXQWpTTW1BMmhRSU1oMkJ1X3hNTE5ZVmpoMDN6NERaTVptd3ROamZVUTFYVGg1X2RHazdkS2tFeVdXLTdNOTY2TFBpUkdBWXBIVmFBLS1GN3Q0MHp4QlNjQjgzcUpfOHpvZms?oc=5",
-"urls": [
-"https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "e8106f1449ae": {
 "coin": "",
@@ -3927,7 +3890,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795498942.0,
 "tgtext": "Smart trader 0x15a4, who has made $37.84M in profit, created a new wallet and opened a 10x short on 200,000 $NVDA ($32.8M).\n\nHe's already up $584K in unrealized profit.\n\nLiquidation price: $187.58\n\nhttps://hypurrscan.io/address/0xf1B1A8c5f8eF0023875891C2F931ACc8dF28196E#perps\nhttps://hypurrscan.io/address/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb#txs",
 "title": "Smart trader 0x15a4, who has made $37.84M in profit, created a new wallet and opened a 10x short on 200,000 NVDA ($32.8M).",
@@ -3957,7 +3920,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1795514636.459413,
+"t": 1795515248.8856928,
 "t0": 1795494482.0,
 "tgtext": "",
 "title": "Kalshi halts operations in Utah while dodging immediate ban in New York",
@@ -4125,15 +4088,17 @@
 "rain": 1795284188.7650707
 },
 "probs": {
+"0452b741d9b5": 0.086,
 "066933461e73": 0.504,
-"0a6099b52454": 0.24,
+"0a6099b52454": 0.447,
 "0ad60315dd07": 0.063,
 "108088b966de": 0.819,
 "11a3ff33464a": 0.017,
-"217ca478b2e5": 0.203,
+"2d79836bd2df": 0.009,
 "3b63381c3f9e": 0.965,
 "3d1c8ba7c6d7": 0.033,
-"5da75eb24890": 0.05,
+"3f3adcafb4ac": 0.018,
+"5da75eb24890": 0.016,
 "64f7ee98057c": 0.215,
 "67976dc6a457": 0.05,
 "7d93dd8f2d30": 0.863,
@@ -4142,13 +4107,10 @@
 "8955a4eb697c": 0.073,
 "8f4e11ed7aa8": 0.044,
 "94f5a04ed605": 0.059,
-"a5db0d4b696b": 0.996,
+"a5db0d4b696b": 0.998,
 "a6aded19dba7": 0.065,
-"a985d725e021": 0.271,
-"aa64503255ea": 0.578,
-"aa9e86430d7a": 0.031,
+"aa64503255ea": 0.284,
 "af0c587c2181": 0.243,
-"af11abbe7337": 0.053,
 "b19ed33a2b7a": 0.038,
 "b572c4339614": 0.027,
 "bfc8fb178301": 0.6,
@@ -4157,7 +4119,8 @@
 "ce4fcaf7af66": 0.285,
 "d203a8cdd47b": 0.035,
 "d43b0bb50dad": 0.176,
-"d8362f3301e3": 0.033,
+"d846ed553939": 0.053,
+"dea6c33fadc3": 0.773,
 "e6d14279154a": 0.027,
 "eb6eca5d255a": 0.072,
 "ecdc77f5b55b": 0.05,
@@ -5700,6 +5663,31 @@
 "token",
 "upbit"
 ]
+},
+{
+"e": [
+"ansem"
+],
+"k": [
+"hack",
+"crash"
+],
+"t": 1795515248.8856928,
+"u": [
+"https://t.me/cointelegraph/73492"
+],
+"w": [
+"15m",
+"ansem",
+"community",
+"crashes",
+"flags",
+"hack",
+"hour",
+"involving",
+"suspected",
+"usdc"
+]
 }
 ],
 "stories": {},
@@ -5708,63 +5696,63 @@
 [
 "a5db0d4b696b",
 53,
-24,
+34,
 1
 ],
 [
 "3b63381c3f9e",
-65,
-337,
+63,
+347,
 5
 ],
 [
 "7d93dd8f2d30",
-18,
-259,
+17,
+269,
 1
 ],
 [
 "108088b966de",
-28,
-215,
+27,
+225,
+1
+],
+[
+"dea6c33fadc3",
+51,
+6,
 1
 ],
 [
 "6fd65a81a242",
 0,
-307,
+317,
 1
 ],
 [
 "bfc8fb178301",
 10,
-149,
+159,
 1
-],
-[
-"aa64503255ea",
-22,
-285,
-3
 ],
 [
 "066933461e73",
 10,
-169,
+179,
 1
 ],
 [
 "f0af040f7881",
-6,
-262,
+4,
+272,
 1
 ],
 [
 "f28fea2da1b1",
-26,
-336,
+24,
+346,
 1
 ]
 ],
-"top_at": 1795514636.459413
+"top_at": 1795515248.8856928
 }
