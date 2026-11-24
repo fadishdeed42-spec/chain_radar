@@ -28,7 +28,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795546253.0,
 "tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
 "title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
@@ -279,7 +279,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795531402.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.",
@@ -951,7 +951,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795526548.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.\n\nThe EU, Japan and South Korea likely face rates of 15% or less.\n\nNews | Markets | YouTube",
 "title": "The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.",
@@ -1215,7 +1215,7 @@
 "Protos | Informed crypto news",
 "The Block"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795528026.0,
 "tgtext": "The \"hacker\" has stolen $2.57M from Ansem(@blknoiz06)'s wallet so far.\n\nInterestingly, the 2.57M $USDC hasn't been swapped for $ETH and laundered yet \u2014 it's still sitting in wallet 0xAC33.\nhttps://x.com/lookonchain/status/2125166373362102312",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
@@ -1518,18 +1518,15 @@
 "coin": "hyperliquid",
 "src": "Wu Blockchain",
 "srcs": [
-"Cointelegraph",
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795532705.0,
 "tgtext": "JUST IN: Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nAnthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion\n\nOn November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dropping below its IPO price of $83 and down 30.59% from its debut opening price of $111.50. According to CoinGecko, 24-hour trading volumes for Anthropic stock perpetual futures on Binance and Hyperliquid stood at approximately $922 million and $457 million, respectively, totaling approximately $1.38 billion. \u2014 link",
 "title": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion",
 "url": "https://t.me/wublockchainenglish/26940",
-"urls": [
-"https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
+"urls": []
 },
 "573b498564d7": {
 "coin": "bitcoin",
@@ -2706,7 +2703,7 @@
 "Bitcoin Magazine",
 "Wu Blockchain"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795537200.0,
 "tgtext": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses\n\nBitcoin hardware wallet maker Coinkite has released its postmortem on Coldcard\u2019s seed-generation flaw, confirming that attackers reconstructed private keys offline rather than compromising the devices. A firmware configuration error disabled the hardware random number generator, causing devices to rely on an insecure pseudorandom number generator. At least 15 independent review and security research efforts between 2021 and 2026 failed to identify the flaw, including a review using OpenAI\u2019s Cybersecurity Harness.\n\nCoinkite received 300 loss-related support tickets involving 236 customer accounts, approximately 0.2% of its estimated user base. According to Galaxy Research, 1,778.84 BTC were stolen from over 8,600 addresses, worth approximately $107 million at current prices. Coinkite released patched firmware on July 31 but warned that firmware updates cannot secure previously affected seeds. The attackers remain unidentified, and Coinkite has yet to decide whether to compensate affected customers. \u2014 link",
 "title": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses",
@@ -3526,7 +3523,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795542630.0,
 "tgtext": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says it's \"time\" to buy.",
@@ -3701,6 +3698,26 @@
 "url": "https://t.me/wublockchainenglish/26922",
 "urls": []
 },
+"d0d281d02542": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"Altcoin Buzz",
+"BigGo Finance",
+"Bitcoin Magazine",
+"Bitcoin Sistemi",
+"Cointelegraph"
+],
+"t": 1795548144.402459,
+"t0": 1795527234.0,
+"tgtext": "",
+"title": "Bitcoin Slips Below $60,000 as Tariff Fears Weigh on Stocks and Anthropic Breaks IPO Price",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQVlBXSmhhQmROeFFEVDI2NFpreTNPUWpaeHg0dG80U0YxYUQ2N1VGUVJwR2VKUlhxMW10dVFMM0dfTHBFek1NY25jaHFjSktOWkJZNU96MWNyeUg0ZFNSZERoOEdvaTFMVElaUU1xcUJ0YUMxREE?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
+"https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "d1d4689a7c4b": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3718,10 +3735,9 @@
 "coin": "bitcoin",
 "src": "Watcher.Guru",
 "srcs": [
-"24/7 Wall St.",
 "Watcher.Guru"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795541962.0,
 "tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
 "title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
@@ -4318,7 +4334,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795547396.716941,
+"t": 1795548144.402459,
 "t0": 1795537203.0,
 "tgtext": "JUST IN: Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 ALERT: Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
 "title": "Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
@@ -4451,45 +4467,45 @@
 "pieverse": 1795338115.00558
 },
 "probs": {
-"0052e4b58051": 0.535,
+"0052e4b58051": 0.465,
 "0c7e458d600b": 0.004,
 "126cee35773e": 0.04,
 "20e529f8e125": 0.334,
-"268d11c80021": 0.018,
 "3713dbfcb6da": 0.201,
 "3c61b6f93b36": 0.051,
 "46a29c450bd3": 0.984,
 "47f01fa5103c": 0.039,
-"552a8a00f208": 0.945,
-"5f9637f0558f": 0.048,
+"4b8f72dd83f1": 0.06,
+"552a8a00f208": 0.841,
+"5cd02740b598": 0.025,
+"5f9637f0558f": 0.059,
 "612db5179ddb": 0.079,
-"68e34a655303": 0.081,
 "69380fa13a1c": 0.011,
-"6a7196ad05a8": 0.039,
-"6ff9c68b0c8b": 0.007,
+"6a06aefdc13f": 0.043,
+"6a7196ad05a8": 0.009,
+"74a5acd77628": 0.02,
+"75d0cda4f0da": 0.025,
+"7a4665f88905": 0.019,
+"7b55ace10045": 0.051,
 "80e5b5c52042": 0.114,
 "89076b094c6e": 0.062,
-"90e68ff780ec": 0.176,
+"8fd385a77304": 0.017,
+"9518f7fa670a": 0.027,
 "95fa5c06d8d9": 0.629,
-"972eaee6846e": 0.117,
-"a5bca0058354": 0.014,
 "addcb6dfb274": 0.019,
 "af380e169c46": 0.03,
-"c11c5502944d": 0.063,
-"c335d266d2c9": 0.039,
 "c351ba45fe0f": 0.127,
 "c35b7ff778f8": 0.021,
-"ccc563164e6f": 0.409,
-"cec738aa746a": 0.028,
-"d0d281d02542": 0.371,
-"d34e9c9768fc": 0.505,
+"ccc563164e6f": 0.27,
+"d0d281d02542": 0.481,
 "d67f0ff9e217": 0.037,
 "d9daf5de105b": 0.01,
 "de1f98394fdf": 0.078,
 "e12a4d3862c2": 0.078,
 "e2a37edc8a0c": 0.257,
 "eead2f25aac1": 0.017,
-"f16d950f554f": 0.017,
+"f09fbe0204db": 0.04,
+"f236cbb3461c": 0.022,
 "f2a56e5eef8e": 0.944
 },
 "sent": [
@@ -6165,64 +6181,64 @@
 "top": [
 [
 "46a29c450bd3",
-62,
-323,
+61,
+335,
 6
-],
-[
-"552a8a00f208",
-55,
-245,
-3
 ],
 [
 "f2a56e5eef8e",
 42,
-170,
+182,
+2
+],
+[
+"552a8a00f208",
+43,
+257,
 2
 ],
 [
 "0885202c0fa3",
 0,
-267,
+279,
 1
 ],
 [
 "95fa5c06d8d9",
 45,
-170,
+182,
 2
+],
+[
+"d0d281d02542",
+63,
+349,
+11
 ],
 [
 "0052e4b58051",
 18,
-19,
+32,
 1
 ],
 [
 "d34e9c9768fc",
-20,
-91,
-2
-],
-[
-"ccc563164e6f",
-20,
-187,
-2
+10,
+103,
+1
 ],
 [
 "3ac4f4cd2c93",
 0,
-347,
+360,
 1
 ],
 [
 "c07fb3bff7db",
 10,
-79,
+92,
 1
 ]
 ],
-"top_at": 1795547396.716941
+"top_at": 1795548144.402459
 }
