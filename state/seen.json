@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795385412.3219602,
 1795399821.839101,
 1795406112.7877598,
 1795419711.7326458,
@@ -18,7 +17,8 @@
 1795445735.8716676,
 1795450035.4702044,
 1795456800.1133256,
-1795470349.8308902
+1795470349.8308902,
+1795486146.5561724
 ],
 "menu": {
 "02523ac593dc": {
@@ -210,7 +210,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795483814.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: President Trump's Nvidia stake may have gained up to $15 million after Jensen Huang's return as CEO sent the stock up 30%, per FT.\n\nNews | Markets | YouTube",
 "title": "NOW: President Trump's Nvidia stake may have gained up to $15 million after Jensen Huang's return as CEO sent the stock up 30%, per FT.",
@@ -407,20 +407,6 @@
 "tgtext": "",
 "title": "$400M in crypto shorts liquidated as market recovers from crash",
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUS1vam80cGplUFZwU1RCYzQ4MENSaFdETV9UMVlYcHdQVnllZmVUUzlMNktPWkxSMy16RmZSTWtmam5OdnU3dm9RWWxqemRXV0RyemFqdVRjcVpBWENKaGZmbVctdkdFVVZRSktBQzRKZldfQkF6RnM4S3BESl9hWW84cVpZc0NrLU8wNUJ3UDFqUUhq?oc=5",
-"urls": []
-},
-"17b39805b44b": {
-"coin": "",
-"src": "SSBCrack",
-"srcs": [
-"SSBCrack",
-"Wealth Management"
-],
-"t": 1795313150.9114633,
-"t0": 1795295234.0,
-"tgtext": "",
-"title": "SEC Charges Eight Entities in $37 Million Fake Crypto Investment Scheme",
-"url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX2xsaVRVcTdDNGE4WDF6OTZncEtURFZxbk1FX1Y0ZnpxUkdzLUlvdlJ3a1dVdEtzNktiM3FrUXJURmNucFhrcXQ3OXlMdUZnR0I1X2ZqM3ZDRGZpUGpuWWI2TGp2VDVjcVJCZURTR0FwVkdaVjBBeUh3TGZ4eU42cmVuVU9TcmdyMGx4S1VzWXR1U0lSQU94OTBQYWJ5UQ?oc=5",
 "urls": []
 },
 "17bf1105edfc": {
@@ -711,7 +697,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795485391.0,
 "tgtext": "Mysterious whale 0x5011 bought another 466.53B $PEPE ($1.72M), bringing his total purchases to 3.345T $PEPE ($12.21M)!\nhttps://x.com/lookonchain/status/2124794639010164809",
 "title": "Mysterious whale 0x5011 bought another 466.53B PEPE ($1.72M), bringing his total purchases to 3.345T PEPE ($12.21M)!",
@@ -867,6 +853,19 @@
 "tgtext": "",
 "title": "Bitcoin Rebounds Above $60,000 After $2.4 Billion Liquidation Wave Wipes Out Leveraged Bets",
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lTktBYWZxbXJtWElUWTdsUnFhZGlQRzFQbjRiUGRLcHcxdk1CRnpXSTRDOEM2bWROd2Y2MGRlb3VKR1J3VU1Hb3dObXBpblAtbjlWNDF6VmVZZF9hNHJKMjJpT2JhMnhjVlU2WUxSbmpadVhHQXc?oc=5",
+"urls": []
+},
+"348e72257911": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795486146.5561724,
+"t0": 1795485934.0,
+"tgtext": "A whale just opened over $147M in #oil long positions!  868,840 $BRENTOIL ($91M)  580,960 $CL ($56.1M)  https://hypurrscan.io/address/0x0cc159b29f45c9cc0da41326d7e18e04245bc7cb#perps",
+"title": "A whale just opened over $147M in oil long positions! 868,840 BRENTOIL ($91M) 580,960 CL ($56.1M) https://hypurrscan.io/address/0x0cc159b29f45c9cc0da41326d7e18e04245bc7cbperps",
+"url": "https://t.me/lookonchainchannel/11247",
 "urls": []
 },
 "34c24d99d715": {
@@ -1124,7 +1123,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795480586.0,
 "tgtext": "Ethereum Foundation Doubles Protocol Security Team, Warns AI Threats Are More Urgent Than Quantum Computing\n\nThe Ethereum Foundation, said AI-driven security threats have become more urgent than quantum computing risks, with AI models discovering software vulnerabilities faster than humans can review them. The foundation has doubled its protocol security team and made defenses against AI and quantum threats its top priority. Its plans include replacing elliptic-curve cryptography with hash-based signatures for validators and wallets, alongside new blob commitments. The foundation warned that the overhaul would be harder than Ethereum's 2022 Merge and could delay other long-planned upgrades. \u2014 link",
 "title": "Ethereum Foundation Doubles Protocol Security Team, Warns AI Threats Are More Urgent Than Quantum Computing",
@@ -1351,7 +1350,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795467905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.",
@@ -2825,7 +2824,7 @@
 "Cryptonews.net",
 "Decrypt"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795464619.0,
 "tgtext": "",
 "title": "DOJ files action to recover over $1B of crypto assets stolen in Binance hack (BNB-USD:Cryptocurrency)",
@@ -3017,7 +3016,7 @@
 "Bloomberg.com",
 "Cryptonews.net"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795470622.0,
 "tgtext": "",
 "title": "Bitcoin Price Plunges Back Below $61K Hours After Nvidia CEO Return Rally",
@@ -3168,7 +3167,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795469089.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia NVDA AI chips to China.",
@@ -3252,7 +3251,7 @@
 "Coin Edition",
 "Cryptonews.net"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795473519.0,
 "tgtext": "",
 "title": "Bitcoin Price on Black Friday 2026: Will BTC Rally or Crash Again?",
@@ -3613,7 +3612,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795485726.5801773,
+"t": 1795486146.5561724,
 "t0": 1795471226.0,
 "tgtext": "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Nvidia NVDA short sellers lose $11,300,000,000 today.",
@@ -3796,7 +3795,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795485726.5801773,
+"t": 1795485843.0657535,
 "t0": 1795476492.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The CFTC says regulated exchanges and clearinghouses can now count \n$BTC, $ETH and payment stablecoins toward their financial resources requirements.\n\nNews | Markets | YouTube",
 "title": "The CFTC says regulated exchanges and clearinghouses can now count",
@@ -4118,40 +4117,40 @@
 "0796134123bb": 0.052,
 "08334a3d07ea": 0.872,
 "0f16acb496ff": 0.038,
-"19fddbec85fc": 0.101,
+"19fddbec85fc": 0.115,
 "1d5223f73925": 0.027,
 "1dd8aac41405": 0.019,
 "1f4556a8113d": 0.079,
-"26fe2fa79c21": 0.094,
-"272e361ba6ff": 0.989,
+"272e361ba6ff": 0.896,
+"30b8bd5bbe54": 0.05,
+"348e72257911": 0.964,
 "364002a067c2": 0.066,
 "402792399b84": 0.015,
-"41c80216bbe0": 0.051,
-"477e73dc2e44": 0.571,
+"477e73dc2e44": 0.49,
 "4c4b03904379": 0.184,
-"5c647c28ea7c": 0.106,
 "61ddc45d28e0": 0.034,
 "64cf273d4294": 0.08,
-"68b5d35e5538": 0.06,
-"6f2261686e80": 0.072,
+"6f2261686e80": 0.207,
 "70b3fb7d8a52": 0.061,
+"82956fc0ba8f": 0.103,
 "85511f0a93de": 0.088,
-"87a21a45e4c4": 0.088,
 "8856021975cb": 0.011,
-"9a3407cf5769": 0.105,
+"8a4877f80608": 0.192,
 "9bb3609f79e8": 0.047,
-"9f47c0b8ee02": 0.044,
+"9f47c0b8ee02": 0.043,
 "a577fa793457": 0.833,
+"a672cb54261e": 0.016,
+"a8fb90ef3b5f": 0.097,
 "ab41b8fd7ca0": 0.036,
 "b0805d1a5f72": 0.422,
 "bbfad7c2811a": 0.442,
 "be168f36cdfe": 0.011,
-"c37620c13da0": 0.037,
+"cee41f8f08e2": 0.042,
 "dd238fed4c50": 0.335,
-"dd476af1beab": 0.188,
+"dd476af1beab": 0.061,
+"e13854c71316": 0.031,
 "e7c5cd7ef9b1": 0.042,
 "e8106f1449ae": 0.248,
-"eef3d664350f": 0.111,
 "f51803dc307a": 0.06,
 "f61602ad153f": 0.042
 },
@@ -5402,71 +5401,101 @@
 "times",
 "today"
 ]
+},
+{
+"e": [
+"brentoil"
+],
+"k": [],
+"t": 1795486146.5561724,
+"u": [
+"https://t.me/lookonchainchannel/11247"
+],
+"w": [
+"$147m",
+"$56",
+"$91m",
+"0x0cc159b29f45c9cc0da41326d7e18e04245bc7cbperps",
+"580",
+"840",
+"868",
+"960",
+"address",
+"brentoil",
+"https",
+"hypurrscan",
+"just",
+"long",
+"oil",
+"opened",
+"positions",
+"whale"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"348e72257911",
+24,
+4,
+1
+],
+[
 "272e361ba6ff",
 24,
-6,
+13,
 1
 ],
 [
 "08334a3d07ea",
 24,
-32,
+39,
 1
 ],
 [
 "a577fa793457",
-63,
-352,
+62,
+359,
 12
 ],
 [
 "4f82d5c08807",
 0,
-297,
+304,
 1
 ],
 [
 "477e73dc2e44",
 20,
-86,
+93,
 2
 ],
 [
 "b595b2330089",
 0,
-277,
+284,
 1
 ],
 [
 "bbfad7c2811a",
-42,
-203,
+41,
+210,
 2
 ],
 [
 "b0805d1a5f72",
-21,
-252,
+20,
+259,
 2
 ],
 [
 "dd238fed4c50",
-2,
-242,
-1
-],
-[
-"e8106f1449ae",
-10,
-154,
+1,
+249,
 1
 ]
 ],
-"top_at": 1795485726.5801773
+"top_at": 1795486146.5561724
 }
