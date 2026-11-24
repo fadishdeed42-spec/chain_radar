@@ -360,12 +360,12 @@
 "src": "The Block",
 "srcs": [
 "CoinMarketCap",
+"Coinpedia",
 "Cointelegraph",
 "Crypto Briefing",
-"Crypto News",
-"Decrypt"
+"Crypto News"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795462200.0,
 "tgtext": "",
 "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
@@ -875,7 +875,7 @@
 "srcs": [
 "Benzinga"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795462208.0,
 "tgtext": "",
 "title": "Eric Trump-Backed American Bitcoin Stock Surges 18% After Securing $150M Bitcoin-Backed Loan",
@@ -1196,6 +1196,19 @@
 "url": "https://t.me/WatcherGuru/16241",
 "urls": []
 },
+"4c4b03904379": {
+"coin": "",
+"src": "Cryptopolitan",
+"srcs": [
+"Cryptopolitan"
+],
+"t": 1795482657.2663877,
+"t0": 1795481538.0,
+"tgtext": "",
+"title": "Chainflip\u2019s $12.6M hack leaves a safe restart in question",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TdXJEVV9ya19TVGk3cDJXZk1La0JLV3hUM3NBZ09MaHp0dHVia3A2SGE1UXQyX3ZFTnR6Q0hkaGxCUXVZQThDZTdnd1RyZWt4dWZ1MV9FNXBsYkxWMTZKcmdzQXUxaUJaamREZDQ0emxFeHhuMzZuWlZzaW00RFE?oc=5",
+"urls": []
+},
 "4c6869ae2b90": {
 "coin": "",
 "src": "Cointelegraph",
@@ -1338,7 +1351,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795467905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.",
@@ -1794,7 +1807,7 @@
 "Crypto Economy",
 "The Block"
 ],
-"t": 1795482041.9709826,
+"t": 1795482351.6441689,
 "t0": 1795467840.0,
 "tgtext": "",
 "title": "Zcash Surges 3.80% on ETF News, Relief Rally, Short Squeeze",
@@ -2357,7 +2370,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795466323.0,
 "tgtext": "",
 "title": "Kalshi secures temporary win in New York gambling law dispute",
@@ -2954,7 +2967,7 @@
 "Bloomberg.com",
 "Cryptonews.net"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795470622.0,
 "tgtext": "",
 "title": "Bitcoin Price Plunges Back Below $61K Hours After Nvidia CEO Return Rally",
@@ -3007,19 +3020,6 @@
 "urls": [
 "https://cointelegraph.com/markets/btc-price-stock-futures-rebound-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"b1aaa9ebdd93": {
-"coin": "",
-"src": "The Crypto Times",
-"srcs": [
-"The Crypto Times"
-],
-"t": 1795309795.577332,
-"t0": 1795288410.0,
-"tgtext": "",
-"title": "Vitalik Buterin Raises Racism Concerns Over Netflix\u2019s CZ Portrayal",
-"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV1FrTXhzalh6dDdkWkl5NERjYVRXTTdGa3pJMHpnelBkYmFJMGhHcFJQaXZsUVoxVGJoaDVzeVBFYmR1LUNmMUdGMXNIZU9zTHEyNFRqbDU3TVBSc3ZXcFRNVjB4a0dHOW5ZOG1oRC1zY1AzeTJRTGo5eHBpZXlhQjhVMkdUTll0WWc2TnF2RmdWclRxZG9BZW1xVmQ5bzBIdnF6cFBrbw?oc=5",
-"urls": []
 },
 "b1c32bb67dea": {
 "coin": "bitcoin",
@@ -3134,7 +3134,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795469089.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia NVDA AI chips to China.",
@@ -3203,7 +3203,7 @@
 "Coin Edition",
 "Cryptonews.net"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795473519.0,
 "tgtext": "",
 "title": "Bitcoin Price on Black Friday 2026: Will BTC Rally or Crash Again?",
@@ -3603,7 +3603,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795471226.0,
 "tgtext": "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Nvidia NVDA short sellers lose $11,300,000,000 today.",
@@ -3617,7 +3617,7 @@
 "Bitcoin Magazine",
 "Cryptonews.net"
 ],
-"t": 1795481736.4330657,
+"t": 1795482351.6441689,
 "t0": 1795467501.0,
 "tgtext": "",
 "title": "Bitcoin Price Fades Near $61,000 as Stocks Soar on Huang\u2019s Return",
@@ -3786,7 +3786,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795482041.9709826,
+"t": 1795482657.2663877,
 "t0": 1795476492.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The CFTC says regulated exchanges and clearinghouses can now count \n$BTC, $ETH and payment stablecoins toward their financial resources requirements.\n\nNews | Markets | YouTube",
 "title": "The CFTC says regulated exchanges and clearinghouses can now count",
@@ -4117,46 +4117,46 @@
 "rain": 1795284188.7650707
 },
 "probs": {
-"06fcfb769a57": 0.031,
-"0796134123bb": 0.052,
-"0f16acb496ff": 0.03,
-"12fdf2e0e4ae": 0.362,
+"06fcfb769a57": 0.079,
+"12fdf2e0e4ae": 0.352,
 "19fddbec85fc": 0.115,
 "1d5223f73925": 0.027,
 "1f4556a8113d": 0.079,
-"2f77c2d118fa": 0.016,
+"2dc2bed3538f": 0.032,
 "3748bd2608ca": 0.302,
 "402792399b84": 0.023,
 "477e73dc2e44": 0.072,
 "4c4b03904379": 0.184,
+"4f82d5c08807": 0.706,
 "5c647c28ea7c": 0.106,
-"5d7dddabdb88": 0.003,
 "61ddc45d28e0": 0.034,
 "64cf273d4294": 0.08,
 "6899919982a4": 0.025,
-"6f2261686e80": 0.261,
 "70b3fb7d8a52": 0.061,
 "78f7a83e386d": 0.086,
 "82956fc0ba8f": 0.103,
 "85511f0a93de": 0.088,
 "8856021975cb": 0.011,
 "9f47c0b8ee02": 0.035,
+"a8d816d1dce0": 0.038,
+"ab41b8fd7ca0": 0.041,
+"ad278c65ede0": 0.115,
 "b0805d1a5f72": 0.422,
+"b257540f6141": 0.018,
 "b438f4fb797a": 0.062,
+"b595b2330089": 0.456,
 "bbfad7c2811a": 0.442,
-"bc7e7cff3650": 0.047,
 "d0cc71fdeb4b": 0.058,
-"d1334f566ac1": 0.147,
 "d4a17baa3787": 0.04,
 "d94736570529": 0.039,
-"dd238fed4c50": 0.284,
+"dd238fed4c50": 0.335,
 "dd476af1beab": 0.049,
 "e046ef25ad42": 0.053,
 "e7c5cd7ef9b1": 0.033,
 "e8106f1449ae": 0.248,
 "f51803dc307a": 0.048,
 "f54df8d72d1e": 0.017,
-"f61602ad153f": 0.033
+"f61602ad153f": 0.042
 },
 "sent": [
 {
@@ -5412,64 +5412,64 @@
 "top": [
 [
 "4f82d5c08807",
-3,
-236,
+2,
+246,
 1
 ],
 [
 "b595b2330089",
-6,
-216,
+4,
+226,
 1
 ],
 [
 "bbfad7c2811a",
 45,
-142,
+152,
 2
 ],
 [
 "b0805d1a5f72",
-29,
-190,
+28,
+201,
 2
 ],
 [
 "12fdf2e0e4ae",
-65,
-331,
-14
-],
-[
-"3748bd2608ca",
-14,
-331,
-1
+64,
+341,
+15
 ],
 [
 "dd238fed4c50",
-10,
-180,
+9,
+191,
 1
 ],
 [
-"6f2261686e80",
-47,
-237,
-3
+"3748bd2608ca",
+13,
+341,
+1
 ],
 [
 "e8106f1449ae",
 10,
-92,
+103,
 1
 ],
 [
 "8a4877f80608",
 0,
-262,
+272,
+1
+],
+[
+"4c4b03904379",
+41,
+19,
 1
 ]
 ],
-"top_at": 1795482041.9709826
+"top_at": 1795482657.2663877
 }
