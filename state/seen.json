@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795432968.7721071,
 1795437564.6824737,
 1795439093.5318549,
 1795439093.5318549,
@@ -18,7 +17,8 @@
 1795504584.1802838,
 1795511882.8644881,
 1795513411.6701093,
-1795514024.0284457
+1795514024.0284457,
+1795519918.7887828
 ],
 "menu": {
 "02523ac593dc": {
@@ -183,7 +183,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795504487.0,
 "tgtext": "Classic sell low, buy high!\n\nThis guy panic-sold 1,277 $ETH ($2.08M) at $1,627 during the market crash 3 days ago.\n\nThen, after Jensen Huang returned to #Nvidia, he FOMO-bought 1,155 $ETH ($2.08M) at $1,798.\n\nHe lost 122 $ETH ($207K) in the process.\n\nhttps://arkm.com/explorer/address/0x975eb01D643D3d52541111FdDeE6521B9bB85508",
 "title": "Classic sell low, buy high!",
@@ -314,7 +314,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795501754.0,
 "tgtext": "Upbit Flags 0G Over Token Supply and Disclosure Concerns, Suspends Deposits; Announces Listings for RPL, ACU, DBR and ON\n\nUpbit, South Korea's largest cryptocurrency exchange, announced it has designated Zero Gravity (0G) as an investment-caution asset and suspended deposits from November 24, citing concerns over token supply, circulation plans and disclosure transparency. The exchange will review the designation between December 21 and 24, with possible outcomes including delisting.\n\nSeparately, Upbit announced listings for Rocket Pool (RPL), Acurast (ACU) and deBridge (DBR) in BTC and USDT markets, and Orochi Network (ON) in KRW, BTC and USDT markets. Bithumb, South Korea's second-largest crypto exchange, also announced KRW listings for ON, Sanctum (SANC) and Subsquid (SQD) on November 24. \u2014 link",
 "title": "Upbit Flags 0G Over Token Supply and Disclosure Concerns, Suspends Deposits; Announces Listings for RPL, ACU, DBR and ON",
@@ -461,24 +461,6 @@
 "title": "Over $70M liquidated in the past hour, with longs taking $67M of the hit, as BTC drops below $60,000.",
 "url": "https://t.me/cointelegraph/73485",
 "urls": []
-},
-"1b941225a591": {
-"coin": "bitcoin",
-"src": "Crypto Briefing",
-"srcs": [
-"Bitcoin Foundation",
-"Cointelegraph",
-"Crypto Briefing",
-"TradingView"
-],
-"t": 1795347272.836015,
-"t0": 1795339986.0,
-"tgtext": "",
-"title": "Kraken upholds trades after Bitcoin briefly drops to $17K on its CAD markets",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56RkgteEV4MVhSTm1nWkpxZy10aHFyTFJUMHd4U2UxVUVzdWpQYlhqdzdGZjJRZ0JKWFN2QlZPREE5dkZOR1RYVlk0UDBPMlZmM0NBUWJ0c1o3UEFoZUg2eGlEV0FSbFhtVlBKWXRpSnk5emM?oc=5",
-"urls": [
-"https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
 },
 "1baf738c3861": {
 "coin": "bitcoin",
@@ -869,6 +851,22 @@
 "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430"
 ]
 },
+"3bd5729cb6c4": {
+"coin": "ethereum",
+"src": "Wu Blockchain",
+"srcs": [
+"CoinDesk",
+"Wu Blockchain"
+],
+"t": 1795520147.078357,
+"t0": 1795517730.0,
+"tgtext": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt\n\nEthereum treasury firm BTCS sold approximately 27,300 ETH, representing more than half of its holdings, for $43.8 million on November 20 at an average price of $1,604, according to an SEC filing. The proceeds were used to repay Aave loans, reducing its outstanding debt by 81% to $10.5 million and lowering its loan-to-value ratio to 32%.\n\nAs of November 22, BTCS still held approximately 24,245 ETH, with combined cash and digital assets valued at $61 million. Amid market volatility, its DeFi unit Imperium temporarily withdrew from liquidity pools and plans to redeploy capital when conditions improve. \u2014 link",
+"title": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt",
+"url": "https://t.me/wublockchainenglish/26936",
+"urls": [
+"https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt"
+]
+},
 "3c058717fa1e": {
 "coin": "usd-coin",
 "src": "Cointelegraph",
@@ -1029,15 +1027,16 @@
 },
 "42357787e6d3": {
 "coin": "bitcoin",
-"src": "Coinpaper",
+"src": "PanAsiaBiz",
 "srcs": [
-"Coinpaper"
+"Coinpaper",
+"PanAsiaBiz"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795515847.0,
 "tgtext": "",
-"title": "Bitcoin Price Prediction: Could BTC Crash Toward $50K?",
-"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWU4bWttd1BIb1ozd3dMb29vYWZ5MWxTOW5YV201akJacGxYcFd1Sm1iS3hGQmhhbUNNQWpjRXBWb2xzUVliU3d6X3F3VmpaSnd0ZzNGSTBTeTlPRFplUHZVRkF2YmFmR3YtbFlGbmRMdWV0dldKQmNYSVFIS3hnLUVPeGRIN092cXNmdGRRNUVQUVB3QVFZM3pzcTZpRVBLcU1TQ2gwU3FINnYwWDVxdHlB?oc=5",
+"title": "Bitcoin Drops Below $60K Amid $850M Liquidations: Flush or Deeper Crash?",
+"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl80bXZWdmI4WkFXZERIVFlxZHlHMEp1Q0tFMEJUMXRhYUFqdW1LYWJ1Sk9IVHNSWlBzeEV3eGdkT2ZSX0ZQRkkxWDA2M3JXQXBZb0hxcW5XX0sxU2NOSDY3YWFFNWNhTEhWcTRpS0hMNUVZZGI5NEpXVm9yWi1FQ2dqVkVpVjVib0s4?oc=5",
 "urls": []
 },
 "439c6baddf3c": {
@@ -1075,11 +1074,13 @@
 "coin": "bitcoin",
 "src": "The Block",
 "srcs": [
+"21Shares",
+"Altcoin Buzz",
+"Blockonomi",
 "CoinDesk",
-"FinanceFeeds",
-"The Block"
+"FinanceFeeds"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795498800.0,
 "tgtext": "",
 "title": "DOJ moves to recover $1.17 billion from Binance hack, Strategy buys another 457 BTC, and more",
@@ -1447,7 +1448,7 @@
 "CryptoSlate",
 "The Block"
 ],
-"t": 1795519535.073346,
+"t": 1795519842.7082129,
 "t0": 1795501294.0,
 "tgtext": "",
 "title": "Bitcoin slips back toward $60,000 as Jensen Huang\u2019s Nvidia return rally fizzles",
@@ -2071,7 +2072,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795499094.0,
 "tgtext": "\ud83d\udea8 NOW: Michael Saylor's Strategy is once again worth less than the Bitcoin it holds after last week's BTC plunge pushed its mNAV back below 1.\n\nNews | Markets | YouTube",
 "title": "NOW: Michael Saylor's Strategy is once again worth less than the Bitcoin it holds after last week's BTC plunge pushed its mNAV back below 1.",
@@ -2719,9 +2720,10 @@
 "coin": "",
 "src": "Lookonchain",
 "srcs": [
+"BeInCrypto",
 "Lookonchain"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795513179.0,
 "tgtext": "Ansem(@blknoiz06) appears to be dumping his holdings!\n\nHe keeps dumping $ANSEM, sending the price down 60% in just 1 hour.\n\nWas his wallet hacked?\n\nhttps://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities\nAnsem(@blknoiz06) appears to be dumping his holdings!  He keeps dumping $ANSEM, sending the price down 60% in just 1 hour.  Was his wallet hacked?  https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities",
 "title": "Ansem(@blknoiz06) appears to be dumping his holdings! He keeps dumping ANSEM, sending the price down 60% in just 1 hour. Was his wallet hacked? https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52activ",
@@ -3188,7 +3190,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795505703.0,
 "tgtext": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks\n\nGrayscale said Bitcoin and other major cryptocurrencies appear oversold, but near-term prices will depend more on AI-related risks than blockchain fundamentals. In a November 23 report, research head Zach Pandl noted that Bitcoin fell to $55,000 on November 21, while global crypto ETPs saw over $2 billion in outflows last week.\n\nSignificant stablecoin redemptions, declining BTC and ETH futures open interest, and rising demand for put options further reflected market stress. Despite these pressures, Grayscale said blockchain fundamentals remain solid and current valuations offer attractive entry points for medium- to long-term investors. \u2014 link",
 "title": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks",
@@ -3612,7 +3614,7 @@
 "Crypto Briefing",
 "The Crypto Times"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795514883.0,
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
 "title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
@@ -3899,7 +3901,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795519535.073346,
+"t": 1795520147.078357,
 "t0": 1795498942.0,
 "tgtext": "Smart trader 0x15a4, who has made $37.84M in profit, created a new wallet and opened a 10x short on 200,000 $NVDA ($32.8M).\n\nHe's already up $584K in unrealized profit.\n\nLiquidation price: $187.58\n\nhttps://hypurrscan.io/address/0xf1B1A8c5f8eF0023875891C2F931ACc8dF28196E#perps\nhttps://hypurrscan.io/address/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb#txs",
 "title": "Smart trader 0x15a4, who has made $37.84M in profit, created a new wallet and opened a 10x short on 200,000 NVDA ($32.8M).",
@@ -4089,15 +4091,15 @@
 "108088b966de": 0.706,
 "11a3ff33464a": 0.017,
 "1d6463090bd3": 0.066,
-"28830979c0ee": 0.085,
-"2d79836bd2df": 0.009,
-"3bd5729cb6c4": 0.091,
-"3d1c8ba7c6d7": 0.043,
-"42357787e6d3": 0.379,
-"449924dcd3cc": 0.718,
+"247c28476c30": 0.132,
+"3bd5729cb6c4": 0.97,
+"3d1c8ba7c6d7": 0.033,
+"42357787e6d3": 0.607,
+"449924dcd3cc": 0.607,
 "525496eea061": 0.044,
 "5872bc3f8e90": 0.049,
-"5a2cdf36b769": 0.353,
+"5a2cdf36b769": 0.464,
+"5da75eb24890": 0.027,
 "64f7ee98057c": 0.215,
 "67976dc6a457": 0.05,
 "74827f48bbc9": 0.216,
@@ -4106,13 +4108,13 @@
 "8955a4eb697c": 0.073,
 "904916f3a638": 0.099,
 "94f5a04ed605": 0.054,
+"99254bf1ca72": 0.076,
 "9f2b8628bd93": 0.212,
-"a5db0d4b696b": 0.99,
+"a5db0d4b696b": 0.991,
 "a6aded19dba7": 0.036,
 "a985d725e021": 0.05,
 "af0c587c2181": 0.243,
 "b426359978fd": 0.004,
-"b9d874bd78e4": 0.051,
 "c9d660ac64ba": 0.099,
 "cb274dfa2e91": 0.027,
 "d203a8cdd47b": 0.035,
@@ -4120,78 +4122,11 @@
 "d50fc7f70dc0": 0.039,
 "dea6c33fadc3": 0.871,
 "edaa1065abd4": 0.059,
-"f5f26f760add": 0.064,
+"ee1042368c36": 0.22,
 "fa1c1bab690f": 0.101,
 "fee3bdfea9c6": 0.042
 },
 "sent": [
-{
-"e": [
-"cad",
-"kraken"
-],
-"k": [],
-"t": 1795343917.7992148,
-"u": [
-"https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://news.google.com/rss/articles/CBMixAFBVV95cUxNbUM2UVJiS3lfTWlleFBFTUZBeUY4aGhpWVQweE42TC1md2Jzcm1ZdlM5MFlTRHpFU3VMdzZVdk9Cd1VQeE9BMXl2elU5X05OVXRuWlVKcmxsNDJ1NXV3UUxIQVNlRGkzaFJEZmk1WU1nTnZfcTFjQnQ3NndrNzRXN2d2dndIeV9aYWlxNmtIZ3BpZjFFVnNNT1dBclFHOVlReXdyR1VHd3BsOGZIVHdrZGplRVc1WXdBak1UbUFQZXVWX1Zz?oc=5",
-"https://news.google.com/rss/articles/CBMic0FVX3lxTE56RkgteEV4MVhSTm1nWkpxZy10aHFyTFJUMHd4U2UxVUVzdWpQYlhqdzdGZjJRZ0JKWFN2QlZPREE5dkZOR1RYVlk0UDBPMlZmM0NBUWJ0c1o3UEFoZUg2eGlEV0FSbFhtVlBKWXRpSnk5emM?oc=5",
-"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTTZXRjMwMlpzalZ2amtobUE1YjRMSS10UmxuN1ExX3EtNDNSeklyWG5mcEpqaUdub2xyUkRWYXVpYlpqYWktWm8tRjZKZVFJMGtkdG5xblJDUzJjdHM0UUZLN3RlSnJJaUZTTEJWeUpINW1tZXpyYlAwUm45Rlhzc0NfbXlfb3FVcW9fQ1MwRmdYTjlMc0xtclBpRy1VbzJtVUE?oc=5"
-],
-"w": [
-"$17k",
-"bitcoin",
-"briefly",
-"cad",
-"drops",
-"kraken",
-"markets",
-"trades",
-"upholds"
-]
-},
-{
-"e": [
-"coinbase"
-],
-"k": [],
-"t": 1795344223.7448082,
-"u": [
-"https://t.me/cointelegraph/73437"
-],
-"w": [
-"been",
-"btc",
-"coinbase",
-"days",
-"market",
-"negative",
-"premium",
-"straight"
-]
-},
-{
-"e": [],
-"k": [],
-"t": 1795344833.0991857,
-"u": [
-"https://t.me/lookonchainchannel/11222"
-],
-"w": [
-"$21",
-"239",
-"36m",
-"66m",
-"677",
-"ago",
-"already",
-"bought",
-"eth",
-"guy",
-"just",
-"weeks"
-]
-},
 {
 "e": [
 "coming",
@@ -5683,6 +5618,65 @@
 "suspected",
 "usdc"
 ]
+},
+{
+"e": [
+"aave",
+"btcs",
+"debt",
+"firm",
+"half",
+"holdings",
+"repay",
+"sells",
+"treasury"
+],
+"k": [],
+"t": 1795519842.7082129,
+"u": [
+"https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt",
+"https://t.me/wublockchainenglish/26936"
+],
+"w": [
+"$43",
+"aave",
+"btcs",
+"debt",
+"eth",
+"ethereum",
+"firm",
+"half",
+"holdings",
+"repay",
+"sells",
+"treasury"
+]
+},
+{
+"e": [
+"monday",
+"nvidia"
+],
+"k": [
+"crash"
+],
+"t": 1795520147.078357,
+"u": [
+"https://news.google.com/rss/articles/CBMicEFVX3lxTE5vYnNJSFQwTUd1dTQyMDlZX0xnUlVna0EzQlI2ODBZQ3hVakVGV1V4cldza2FqZUdBdUlRSTAwc0wzTVJqbndCelRFejdKb2xnMk0zNjVxaHlvSE9GYndlY0Z2THhHd1drMldLdmt2ZFE?oc=5",
+"https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
+"https://news.google.com/rss/articles/CBMisAFBVV95cUxNc3JrZDhzanBEQ29hcmxKNEJIN3pYWURSbW4zTk55ZmNkSVhIclNLbjVIQmdxTmFMa3hQZXVBQUdMTS04Wk5wZ2pIOVhUT1lGQU01cWFrUkg0WmVSNk5CbVEwU0U4M1RVekZ1TE1BYlU5UkdvWW5LX1RLYmEwMTdzWmdhQ01oS0xBZlFaMXVTR0ZPLWpuTHpMZWFfZUpwaE9JWnhsNHZtc0pNV0x4N1ZDNQ?oc=5"
+],
+"w": [
+"back",
+"bitcoin",
+"driven",
+"gains",
+"hands",
+"liquidations",
+"monday",
+"nvidia",
+"triple"
+]
 }
 ],
 "stories": {},
@@ -5690,64 +5684,64 @@
 "top": [
 [
 "a5db0d4b696b",
-45,
-106,
-1
+61,
+116,
+2
+],
+[
+"3bd5729cb6c4",
+34,
+40,
+2
 ],
 [
 "7d93dd8f2d30",
-7,
-341,
+6,
+351,
 1
 ],
 [
 "dea6c33fadc3",
 71,
-78,
-3
-],
-[
-"449924dcd3cc",
-53,
-346,
+88,
 3
 ],
 [
 "108088b966de",
-17,
-296,
+16,
+307,
 1
 ],
 [
 "bfc8fb178301",
-4,
-231,
+2,
+241,
 1
 ],
 [
+"42357787e6d3",
+51,
+72,
+2
+],
+[
+"449924dcd3cc",
+62,
+356,
+6
+],
+[
 "066933461e73",
-1,
-251,
+0,
+261,
 1
 ],
 [
 "f0af040f7881",
 0,
-343,
+353,
 1
-],
-[
-"42357787e6d3",
-20,
-61,
-1
-],
-[
-"5a2cdf36b769",
-14,
-304,
-3
 ]
 ],
-"top_at": 1795519535.073346
+"top_at": 1795520147.078357
 }
