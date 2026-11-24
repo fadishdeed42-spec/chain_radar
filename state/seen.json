@@ -152,6 +152,21 @@
 "url": "https://t.me/WatcherGuru/16244",
 "urls": []
 },
+"0593c66fed14": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"CryptoRank",
+"Yahoo Finance"
+],
+"t": 1795533881.1549983,
+"t0": 1795526833.0,
+"tgtext": "",
+"title": "Saylor Says Strategy Aims to Buy Every Remaining Bitcoin and Push Price to $10 Million",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56MTY1dldZeWZZVmpqc3dsWjBKaHZGcjRVdXo4WnJobF9pZkdnYVAtRXJSbUdfS0tUVFNkSkZ0S1ZsZWhFN25DXzE5c3hERHpwRnFhSEt5ZElvTWh5Q3FUc2dkUnB3cjhSUVBfc1RhcjJpVGtjYXc?oc=5",
+"urls": []
+},
 "05f46fa8137c": {
 "coin": "ethereum",
 "src": "Fortune",
@@ -231,7 +246,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795531402.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.",
@@ -423,21 +438,20 @@
 "coin": "bitcoin",
 "src": "The Economic Times",
 "srcs": [
-"Bitcoin Magazine",
 "CoinDesk",
-"Crypto Briefing",
+"Crypto News",
 "Cryptonews.net",
-"Forbes"
+"Forbes",
+"NewsBytes"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795514918.0,
 "tgtext": "",
 "title": "Why is Bitcoin price down today? BTC USD falls to $60,000 as Nvidia (NVDA) rally fades, $827 million liqui",
 "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNXzhEMTlzaTNVTllmN0JxdUJWR2RSSmdPU3RYeVFQRE9oRUs2bks5ZTdnUjVMQTBVOHdCVy03bDBuaXBpbUFLdzRWWFBqYkJFbzhBeFRsZHVqYjlwcWlyb2tLX2lrWU9haTRNdDA5enlJVldQWm52bU1rdlQwbUFZLTJwdGFnWUNuYTdubWh6c1g2M3pJYkx3U1pWcjdCLXdQQUktLVdVVFZmNlVUWDJDSXAtQXdieUlKa2daaU5mYVNfUk1HTjg5a25CUzNvM0c5bm04R0YxWTdCTWxPWXUyRzlyYjVLZGd4Z2lWY0dOVWtoUXJ1R0U1NEFvMU9KX3Q0VDY3UUlQcERTdmFBOU1GNUJmYV8xd3VxSlkxTDBxdDd2YWlQWW82SXk1WW9IajV1UVpsMWY4UkVpTlJidzUtLUkzZm1JNGlDMkI3S0lSbUPSAcoCQVVfeXFMUHFOZ0o5OVFzakZ0VTZwVjJHcjlESUgzRnVzY1VrVXhpMUFEd3RESGNIQ3V3U1dvZ3hMV1Uwa1dmVjRqZTkxdjZuWU5weTBpbWktTS1PN1lIMXVCOF94R1RGYUxfUVBJOW5WdzM4MWZYUkEtN0pwOFZmRHU2NmRubDdVX0ctSFdSRUJ6WmZVdzhuMUk5aTJQTjhaTjB2eTV5YW16WWJBUHNjNjJRUloxS2hvelVUeFQzb2V0dXJEc3ctbUQwVTliYUxsUlhKMHJDNUtvT0o0d3J4ek5Bb1NCQkhKcTVpVVk0ZXIxMFZMQVBEcGxwZWhUcl9mOE1PYWxUNGpCdkJfM2Y4eDlqRzdaSW1UcVRlSGYzUUdacGdqaHptcjgyUUk4S2c1OGNGOEhLbm5YYW1XUEoyckNtaS0xdXNVZnBhN0dMcTJn?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
-"https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
-"https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
+"https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
 "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto"
 ]
 },
@@ -606,7 +620,7 @@
 "Lookonchain",
 "bloomingbit"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795524469.0,
 "tgtext": "The \"hacker\" has stolen $2.57M from Ansem(@blknoiz06)'s wallet so far.\n\nInterestingly, the 2.57M $USDC hasn't been swapped for $ETH and laundered yet \u2014 it's still sitting in wallet 0xAC33.\nhttps://x.com/lookonchain/status/2125166373362102312",
 "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
@@ -836,7 +850,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795533054.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f TODAY: Nvidia $NVDA shares extend losses, falling 6%.\n\nNews | Markets | YouTube",
 "title": "TODAY: Nvidia NVDA shares extend losses, falling 6%.",
@@ -849,7 +863,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795533260.629145,
+"t": 1795533576.8645165,
 "t0": 1795526548.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.\n\nThe EU, Japan and South Korea likely face rates of 15% or less.\n\nNews | Markets | YouTube",
 "title": "The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.",
@@ -880,11 +894,11 @@
 "src": "Wu Blockchain",
 "srcs": [
 "CoinDesk",
-"Coinpedia",
 "Crypto News",
+"The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795517730.0,
 "tgtext": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt\n\nEthereum treasury firm BTCS sold approximately 27,300 ETH, representing more than half of its holdings, for $43.8 million on November 20 at an average price of $1,604, according to an SEC filing. The proceeds were used to repay Aave loans, reducing its outstanding debt by 81% to $10.5 million and lowering its loan-to-value ratio to 32%.\n\nAs of November 22, BTCS still held approximately 24,245 ETH, with combined cash and digital assets valued at $61 million. Amid market volatility, its DeFi unit Imperium temporarily withdrew from liquidity pools and plans to redeploy capital when conditions improve. \u2014 link",
 "title": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt",
@@ -1426,7 +1440,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795532705.0,
 "tgtext": "JUST IN: Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n@WatcherGuru",
 "title": "Anthropic ANT officially crashes below its IPO price of $83 per share.",
@@ -2596,7 +2610,7 @@
 "CoinDesk",
 "Crypto Briefing"
 ],
-"t": 1795533260.629145,
+"t": 1795533576.8645165,
 "t0": 1795512424.0,
 "tgtext": "",
 "title": "DOJ moves to forfeit $1.1 billion in frozen USDC from Binance hack as billions remain unrecovered",
@@ -2821,10 +2835,11 @@
 "coin": "",
 "src": "Lookonchain",
 "srcs": [
+"Coin Edition",
 "Lookonchain",
 "Yahoo Finance"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795513179.0,
 "tgtext": "Ansem(@blknoiz06) appears to be dumping his holdings!\n\nHe keeps dumping $ANSEM, sending the price down 60% in just 1 hour.\n\nWas his wallet hacked?\n\nhttps://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities\nAnsem(@blknoiz06) appears to be dumping his holdings!  He keeps dumping $ANSEM, sending the price down 60% in just 1 hour.  Was his wallet hacked?  https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities",
 "title": "Ansem(@blknoiz06) appears to be dumping his holdings! He keeps dumping ANSEM, sending the price down 60% in just 1 hour. Was his wallet hacked? https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52activ",
@@ -3446,6 +3461,19 @@
 "url": "https://t.me/lookonchainchannel/11237",
 "urls": []
 },
+"c9ee6359ec09": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795533881.1549983,
+"t0": 1795533668.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Billionaire Bill Ackman warns the US economy could enter another recession.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Billionaire Bill Ackman warns the US economy could enter another recession.",
+"url": "https://t.me/WatcherGuru/16309",
+"urls": []
+},
 "cd7554cd82fc": {
 "coin": "usds",
 "src": "Wu Blockchain",
@@ -3654,7 +3682,7 @@
 "Crypto Briefing",
 "Protos | Informed crypto news"
 ],
-"t": 1795533260.629145,
+"t": 1795533881.1549983,
 "t0": 1795514883.0,
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
 "title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
@@ -4138,46 +4166,46 @@
 "rain": 1795284188.7650707
 },
 "probs": {
+"0593c66fed14": 0.688,
 "07875a6ebfc8": 0.064,
-"09128012c189": 0.021,
 "0a3638c548a5": 0.131,
 "13e172b0e10a": 0.09,
-"1531e2d6934e": 0.606,
-"25aa3a7f9cee": 0.999,
-"28830979c0ee": 0.213,
+"1531e2d6934e": 0.748,
+"25aa3a7f9cee": 0.99,
+"25efe7b740db": 0.395,
+"28830979c0ee": 0.126,
 "289c41e836aa": 0.199,
 "2b29e0840cc3": 0.245,
+"2b2b4185336a": 0.113,
 "37040de5a250": 0.033,
-"388d09960ba3": 0.136,
-"3bd5729cb6c4": 0.963,
-"468ea4b839ba": 0.005,
+"3a4e66a73a4d": 0.035,
+"3bd5729cb6c4": 0.88,
 "4ebd610e24ff": 0.034,
 "51727a7b2810": 0.102,
-"552a8a00f208": 0.972,
-"55679a450992": 0.255,
-"612db5179ddb": 0.239,
-"6304789b38d0": 0.056,
+"552a8a00f208": 0.986,
+"55679a450992": 0.154,
 "6ac69ec1848f": 0.069,
-"6e18fb515cd7": 0.222,
-"74827f48bbc9": 0.232,
+"8298d1d6e61e": 0.039,
 "82b1440625af": 0.08,
-"878f214fb3a5": 0.071,
 "87abed4c05cb": 0.134,
-"890ad41fb8d2": 0.089,
+"89076b094c6e": 0.069,
+"904916f3a638": 0.06,
 "90e68ff780ec": 0.35,
 "9518f7fa670a": 0.095,
-"9ca4e81fe66a": 0.664,
+"9b6de6ff73b5": 0.04,
+"9ca4e81fe66a": 0.592,
 "9f2b8628bd93": 0.292,
-"a2581b0f6b6d": 0.098,
-"a5db0d4b696b": 0.983,
-"af380e169c46": 0.061,
-"b6482d8dfe77": 0.195,
+"a2581b0f6b6d": 0.055,
+"a5db0d4b696b": 0.994,
+"ae80a241d95a": 0.042,
+"b27433b9ae86": 0.092,
+"b6482d8dfe77": 0.115,
 "d9daf5de105b": 0.085,
 "dea6c33fadc3": 0.799,
 "e70fcecd44f3": 0.088,
-"eca191338947": 0.078,
 "efc623739638": 0.014,
-"fda8e8335d22": 0.05
+"f47e1b2a1217": 0.025,
+"fda8e8335d22": 0.035
 },
 "sent": [
 {
@@ -5722,65 +5750,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"25aa3a7f9cee",
-61,
-147,
+"a5db0d4b696b",
+49,
+345,
 3
 ],
 [
-"0885202c0fa3",
-10,
-31,
-1
-],
-[
-"a5db0d4b696b",
-41,
-335,
-2
+"25aa3a7f9cee",
+61,
+157,
+3
 ],
 [
 "552a8a00f208",
 20,
-9,
+20,
+1
+],
+[
+"0885202c0fa3",
+10,
+41,
 1
 ],
 [
 "3bd5729cb6c4",
-46,
-259,
+35,
+269,
 4
-],
-[
-"dea6c33fadc3",
-55,
-306,
-3
 ],
 [
 "39dc1f521d8a",
 10,
-3,
+14,
 1
 ],
 [
-"9ca4e81fe66a",
-63,
-347,
-8
+"dea6c33fadc3",
+53,
+317,
+3
 ],
 [
 "1531e2d6934e",
-69,
-306,
-9
+67,
+316,
+8
 ],
 [
-"3ac4f4cd2c93",
+"c9ee6359ec09",
 10,
-112,
+4,
 1
+],
+[
+"0593c66fed14",
+44,
+117,
+3
 ]
 ],
-"top_at": 1795533260.629145
+"top_at": 1795533881.1549983
 }
