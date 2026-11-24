@@ -27,7 +27,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795546253.0,
 "tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
 "title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
@@ -609,7 +609,7 @@
 "Pluang",
 "Qazinform"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795535994.0,
 "tgtext": "",
 "title": "21Shares says weak demand, liquidations deepen Bitcoin sell-off after Binance hack",
@@ -1863,7 +1863,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795549851.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.\n\nNews | Markets | YouTube",
 "title": "The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.",
@@ -2779,15 +2779,19 @@
 "src": "Wu Blockchain",
 "srcs": [
 "Bitcoin Magazine",
+"Cointelegraph",
+"Decrypt",
 "Wu Blockchain"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795537200.0,
 "tgtext": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses\n\nBitcoin hardware wallet maker Coinkite has released its postmortem on Coldcard\u2019s seed-generation flaw, confirming that attackers reconstructed private keys offline rather than compromising the devices. A firmware configuration error disabled the hardware random number generator, causing devices to rely on an insecure pseudorandom number generator. At least 15 independent review and security research efforts between 2021 and 2026 failed to identify the flaw, including a review using OpenAI\u2019s Cybersecurity Harness.\n\nCoinkite received 300 loss-related support tickets involving 236 customer accounts, approximately 0.2% of its estimated user base. According to Galaxy Research, 1,778.84 BTC were stolen from over 8,600 addresses, worth approximately $107 million at current prices. Coinkite released patched firmware on July 31 but warned that firmware updates cannot secure previously affected seeds. The attackers remain unidentified, and Coinkite has yet to decide whether to compensate affected customers. \u2014 link",
 "title": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses",
 "url": "https://t.me/wublockchainenglish/26939",
 "urls": [
-"https://bitcoinmagazine.com/news/coldcard-postmortem-seed-flaw"
+"https://bitcoinmagazine.com/news/coldcard-postmortem-seed-flaw",
+"https://cointelegraph.com/news/coldcard-how-security-reviews-missed-bitcoin-wallet-flaw-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits"
 ]
 },
 "9605ca6a08fb": {
@@ -3071,7 +3075,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795534811.0,
 "tgtext": "JUST IN: Jim Cramer says Anthropic is the \"silent killer\" of the stock market.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says Anthropic is the \"silent killer\" of the stock market.",
@@ -3427,7 +3431,7 @@
 "The Block",
 "The Crypto Times"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795536006.0,
 "tgtext": "",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
@@ -3607,7 +3611,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795542630.0,
 "tgtext": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says it's \"time\" to buy.",
@@ -3762,7 +3766,7 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795536202.0,
 "tgtext": "October 2026 TradFi Perpetual Futures Volume Report: MoM up 21.9%, leveraged ETFs nearly doubled, with SOXL up 127%, Bitget volume up 68.5%\n\nWuBlockchain data show that TradFi perpetual futures trading volume across crypto exchanges reached $758.1 billion in October 2026, up 21.9% MoM. Stock perpetuals rose 33.2% to $541.8 billion, commodities fell 1.4% to $202.5 billion, and indices rose 41.8% to $13.9 billion. Binance led with a 58.9% market share, followed by OKX (11.0%) and Hyperliquid (9.3%). Bitget recorded the largest MoM volume increase (+68.5%), while MEXC saw the largest decline (\u221223.2%). ETF and leveraged fund perpetuals rose 81.9% to $179.8 billion, with SOXL up 127% to $84.9 billion. Pre-IPO perpetuals rose 23.9% to $48.6 billion, led by SpaceX at $42.3 billion. \u2014 link",
 "title": "October 2026 TradFi Perpetual Futures Volume Report: MoM up 21.9%, leveraged ETFs nearly doubled, with SOXL up 127%, Bitget volume up 68.5%",
@@ -3819,9 +3823,10 @@
 "coin": "bitcoin",
 "src": "Watcher.Guru",
 "srcs": [
+"24/7 Wall St.",
 "Watcher.Guru"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795541962.0,
 "tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
 "title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
@@ -4405,7 +4410,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795554864.6960857,
+"t": 1795555474.972991,
 "t0": 1795537203.0,
 "tgtext": "JUST IN: Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 ALERT: Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
 "title": "Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
@@ -4545,28 +4550,28 @@
 "159005dcecfe": 0.053,
 "1faa0f54e248": 0.55,
 "236687bb55a2": 0.061,
-"27822fcc1b35": 0.014,
+"27822fcc1b35": 0.02,
 "3c61b6f93b36": 0.06,
 "3f8d72249093": 0.229,
 "47f01fa5103c": 0.108,
-"4b8f72dd83f1": 0.07,
 "4bc450bcc4e5": 0.138,
 "4cc37d957f93": 0.017,
 "552fb5364eb3": 0.047,
-"5d2ac4e3d045": 0.004,
+"599e8bb242b4": 0.028,
 "64f0bf396498": 0.805,
 "6610cf7a94db": 0.103,
-"69380fa13a1c": 0.029,
 "6a7196ad05a8": 0.027,
 "747ec6f475c9": 0.019,
 "75d0cda4f0da": 0.03,
 "7b55ace10045": 0.06,
-"86cc5bbc9a97": 0.009,
-"95fa5c06d8d9": 0.306,
+"7d723954016e": 0.184,
+"8eb90809c5f9": 0.029,
+"95fa5c06d8d9": 0.789,
+"aaab25efd106": 0.008,
 "b982ddd8512b": 0.478,
 "c351ba45fe0f": 0.148,
 "c35b7ff778f8": 0.024,
-"ca2407a1d65c": 0.212,
+"d34e9c9768fc": 0.32,
 "d67f0ff9e217": 0.061,
 "de1f98394fdf": 0.092,
 "dfb9fc8de21e": 0.01,
@@ -4576,8 +4581,8 @@
 "eead2f25aac1": 0.028,
 "f236cbb3461c": 0.036,
 "f2a56e5eef8e": 0.921,
-"f2f1610157ae": 0.184,
-"fe7bf1cb8f6f": 0.173
+"f94623ca53e9": 0.019,
+"fe7bf1cb8f6f": 0.101
 },
 "sent": [
 {
@@ -6287,64 +6292,64 @@
 "top": [
 [
 "f2a56e5eef8e",
-27,
-294,
+26,
+305,
 2
 ],
 [
 "64f0bf396498",
 45,
-84,
+94,
 2
 ],
 [
+"95fa5c06d8d9",
+49,
+305,
+4
+],
+[
 "1faa0f54e248",
-68,
-315,
+66,
+325,
 8
 ],
 [
 "b982ddd8512b",
-64,
-314,
+62,
+324,
 4
-],
-[
-"d34e9c9768fc",
-6,
-215,
-1
 ],
 [
 "0052e4b58051",
 18,
-144,
+154,
 1
 ],
 [
 "c07fb3bff7db",
-7,
-204,
+6,
+214,
 1
 ],
 [
 "ccc563164e6f",
-3,
-311,
+2,
+321,
 2
 ],
 [
 "a763105360a3",
 0,
-334,
+344,
 1
 ],
 [
-"95fa5c06d8d9",
-30,
-294,
+"d34e9c9768fc",
+14,
+225,
 2
 ]
 ],
-"top_at": 1795554864.6960857
+"top_at": 1795555474.972991
 }
