@@ -28,7 +28,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795546253.0,
 "tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
 "title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
@@ -279,7 +279,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795531402.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Over $1,000,000,000,000 wiped out from the US stock market at open.",
@@ -548,7 +548,7 @@
 "Lookonchain",
 "The Block"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795529293.0,
 "tgtext": "The \"hacker\" has stolen $2.57M from Ansem(@blknoiz06)'s wallet so far.\n\nInterestingly, the 2.57M $USDC hasn't been swapped for $ETH and laundered yet \u2014 it's still sitting in wallet 0xAC33.\nhttps://x.com/lookonchain/status/2125166373362102312",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
@@ -1523,15 +1523,20 @@
 "coin": "hyperliquid",
 "src": "Wu Blockchain",
 "srcs": [
+"BigGo Finance",
+"Cointelegraph",
+"TradingView",
 "Watcher.Guru",
 "Wu Blockchain"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795532705.0,
 "tgtext": "JUST IN: Anthropic $ANT officially crashes below its IPO price of $83 per share.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\nAnthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion\n\nOn November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dropping below its IPO price of $83 and down 30.59% from its debut opening price of $111.50. According to CoinGecko, 24-hour trading volumes for Anthropic stock perpetual futures on Binance and Hyperliquid stood at approximately $922 million and $457 million, respectively, totaling approximately $1.38 billion. \u2014 link",
 "title": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion",
 "url": "https://t.me/wublockchainenglish/26940",
-"urls": []
+"urls": [
+"https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "573b498564d7": {
 "coin": "bitcoin",
@@ -1797,15 +1802,16 @@
 },
 "64f0bf396498": {
 "coin": "",
-"src": "Watcher.Guru",
+"src": "Cointelegraph",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795549851.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.",
-"url": "https://t.me/WatcherGuru/16319",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.\n\nNews | Markets | YouTube",
+"title": "The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.",
+"url": "https://t.me/cointelegraph/73502",
 "urls": []
 },
 "680e839faa91": {
@@ -2714,7 +2720,7 @@
 "Bitcoin Magazine",
 "Wu Blockchain"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795537200.0,
 "tgtext": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses\n\nBitcoin hardware wallet maker Coinkite has released its postmortem on Coldcard\u2019s seed-generation flaw, confirming that attackers reconstructed private keys offline rather than compromising the devices. A firmware configuration error disabled the hardware random number generator, causing devices to rely on an insecure pseudorandom number generator. At least 15 independent review and security research efforts between 2021 and 2026 failed to identify the flaw, including a review using OpenAI\u2019s Cybersecurity Harness.\n\nCoinkite received 300 loss-related support tickets involving 236 customer accounts, approximately 0.2% of its estimated user base. According to Galaxy Research, 1,778.84 BTC were stolen from over 8,600 addresses, worth approximately $107 million at current prices. Coinkite released patched firmware on July 31 but warned that firmware updates cannot secure previously affected seeds. The attackers remain unidentified, and Coinkite has yet to decide whether to compensate affected customers. \u2014 link",
 "title": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses",
@@ -3018,7 +3024,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795549372.556944,
+"t": 1795550592.9016657,
 "t0": 1795534811.0,
 "tgtext": "JUST IN: Jim Cramer says Anthropic is the \"silent killer\" of the stock market.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says Anthropic is the \"silent killer\" of the stock market.",
@@ -3551,7 +3557,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795542630.0,
 "tgtext": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says it's \"time\" to buy.",
@@ -3763,10 +3769,9 @@
 "coin": "bitcoin",
 "src": "Watcher.Guru",
 "srcs": [
-"24/7 Wall St.",
 "Watcher.Guru"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795541962.0,
 "tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
 "title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
@@ -4363,7 +4368,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795549982.8695467,
+"t": 1795550592.9016657,
 "t0": 1795537203.0,
 "tgtext": "JUST IN: Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 ALERT: Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
 "title": "Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
@@ -4499,42 +4504,42 @@
 "0052e4b58051": 0.386,
 "030a538017e6": 0.009,
 "126cee35773e": 0.022,
-"1c1234e67122": 0.972,
+"1c1234e67122": 0.961,
 "20e529f8e125": 0.211,
-"27822fcc1b35": 0.052,
+"268d11c80021": 0.018,
 "3713dbfcb6da": 0.118,
+"384c19fed112": 0.019,
 "3c61b6f93b36": 0.051,
 "45b8d57e19c1": 0.039,
 "47f01fa5103c": 0.039,
-"552a8a00f208": 0.536,
-"5f9637f0558f": 0.069,
-"628e89bd63cb": 0.759,
-"64f0bf396498": 0.291,
-"68e34a655303": 0.081,
+"4b8f72dd83f1": 0.06,
+"4bc450bcc4e5": 0.119,
+"4cc37d957f93": 0.004,
+"552a8a00f208": 0.965,
+"5895af65ea74": 0.036,
+"5cd02740b598": 0.025,
+"5f9637f0558f": 0.087,
+"64f0bf396498": 0.977,
+"69380fa13a1c": 0.011,
+"6a06aefdc13f": 0.043,
 "6a7196ad05a8": 0.009,
-"6ff9c68b0c8b": 0.007,
 "75d0cda4f0da": 0.025,
 "7b55ace10045": 0.051,
-"80e5b5c52042": 0.057,
+"80e5b5c52042": 0.114,
 "89076b094c6e": 0.062,
+"8fd385a77304": 0.017,
+"93f396278a21": 0.049,
 "95fa5c06d8d9": 0.307,
-"a5bca0058354": 0.014,
-"addcb6dfb274": 0.01,
-"af380e169c46": 0.044,
-"bbc27eada5e6": 0.074,
+"af380e169c46": 0.109,
 "c351ba45fe0f": 0.127,
 "c35b7ff778f8": 0.021,
 "c73c77a3b06b": 0.129,
-"ccc563164e6f": 0.245,
-"d34e9c9768fc": 0.425,
 "d67f0ff9e217": 0.093,
 "de1f98394fdf": 0.078,
 "e12a4d3862c2": 0.078,
 "e2a37edc8a0c": 0.2,
-"ebd127ca03a8": 0.145,
 "eead2f25aac1": 0.044,
-"f09fbe0204db": 0.04,
-"f236cbb3461c": 0.022,
+"f236cbb3461c": 0.055,
 "f2a56e5eef8e": 0.786
 },
 "sent": [
@@ -6203,71 +6208,106 @@
 "tokenized",
 "under"
 ]
+},
+{
+"e": [
+"cia",
+"director",
+"intelligence",
+"national",
+"office",
+"times",
+"york"
+],
+"k": [
+"hack"
+],
+"t": 1795550592.9016657,
+"u": [
+"https://t.me/WatcherGuru/16319",
+"https://t.me/cointelegraph/73502"
+],
+"w": [
+"breach",
+"cia",
+"cybersecurity",
+"director",
+"exposing",
+"information",
+"intelligence",
+"national",
+"office",
+"per",
+"suffered",
+"times",
+"unclassified",
+"york"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"64f0bf396498",
+53,
+12,
+2
+],
+[
+"552a8a00f208",
+58,
+298,
+5
+],
+[
 "1c1234e67122",
-60,
-345,
+58,
+355,
 4
 ],
 [
 "0885202c0fa3",
 0,
-310,
+320,
 1
 ],
 [
 "f2a56e5eef8e",
-38,
-213,
-2
-],
-[
-"628e89bd63cb",
-46,
-299,
-5
-],
-[
-"552a8a00f208",
-39,
-288,
-2
-],
-[
-"d34e9c9768fc",
-20,
-134,
+37,
+223,
 2
 ],
 [
 "0052e4b58051",
 18,
-62,
+72,
+1
+],
+[
+"d34e9c9768fc",
+10,
+144,
 1
 ],
 [
 "95fa5c06d8d9",
-41,
-213,
+40,
+223,
 2
 ],
 [
 "c07fb3bff7db",
 10,
-123,
+133,
 1
 ],
 [
-"64f0bf396498",
-35,
-2,
+"a763105360a3",
+0,
+263,
 1
 ]
 ],
-"top_at": 1795549982.8695467
+"top_at": 1795550592.9016657
 }
