@@ -183,7 +183,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795504487.0,
 "tgtext": "Classic sell low, buy high!\n\nThis guy panic-sold 1,277 $ETH ($2.08M) at $1,627 during the market crash 3 days ago.\n\nThen, after Jensen Huang returned to #Nvidia, he FOMO-bought 1,155 $ETH ($2.08M) at $1,798.\n\nHe lost 122 $ETH ($207K) in the process.\n\nhttps://arkm.com/explorer/address/0x975eb01D643D3d52541111FdDeE6521B9bB85508",
 "title": "Classic sell low, buy high!",
@@ -856,10 +856,11 @@
 "src": "Wu Blockchain",
 "srcs": [
 "CoinDesk",
+"Coinpedia",
 "Crypto News",
 "Wu Blockchain"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795517730.0,
 "tgtext": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt\n\nEthereum treasury firm BTCS sold approximately 27,300 ETH, representing more than half of its holdings, for $43.8 million on November 20 at an average price of $1,604, according to an SEC filing. The proceeds were used to repay Aave loans, reducing its outstanding debt by 81% to $10.5 million and lowering its loan-to-value ratio to 32%.\n\nAs of November 22, BTCS still held approximately 24,245 ETH, with combined cash and digital assets valued at $61 million. Amid market volatility, its DeFi unit Imperium temporarily withdrew from liquidity pools and plans to redeploy capital when conditions improve. \u2014 link",
 "title": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt",
@@ -2126,7 +2127,7 @@
 "srcs": [
 "Coinpedia"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795519646.0,
 "tgtext": "",
 "title": "MSTR Stock Premarket Today: Strategy Falls 5% As Shares Trade Below Bitcoin Value",
@@ -2286,7 +2287,7 @@
 "CoinMarketCap",
 "PanAsiaBiz"
 ],
-"t": 1795523822.0848327,
+"t": 1795524129.7423406,
 "t0": 1795516832.0,
 "tgtext": "",
 "title": "Bitcoin Drops Below $60K Amid $850M Liquidations: Flush or Deeper Crash?",
@@ -2555,11 +2556,12 @@
 "src": "CoinDesk",
 "srcs": [
 "21Shares",
+"CoinCodex",
 "CoinDesk",
 "FinanceFeeds",
 "bloomingbit"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795512424.0,
 "tgtext": "",
 "title": "DOJ moves to forfeit $1.1 billion in frozen USDC from Binance hack as billions remain unrecovered",
@@ -2605,7 +2607,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795515613.0,
 "tgtext": "\ud83d\udea8 UPDATE: Ethereum Foundation prioritizes building a post-AI, post-quantum Ethereum, warning AI poses a more urgent security risk.\n\nNews | Markets | YouTube",
 "title": "Ethereum Foundation prioritizes building a post-AI, post-quantum Ethereum, warning AI poses a more urgent security risk.",
@@ -2744,7 +2746,7 @@
 "Lookonchain",
 "Yahoo Finance"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795513179.0,
 "tgtext": "Ansem(@blknoiz06) appears to be dumping his holdings!\n\nHe keeps dumping $ANSEM, sending the price down 60% in just 1 hour.\n\nWas his wallet hacked?\n\nhttps://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities\nAnsem(@blknoiz06) appears to be dumping his holdings!  He keeps dumping $ANSEM, sending the price down 60% in just 1 hour.  Was his wallet hacked?  https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities",
 "title": "Ansem(@blknoiz06) appears to be dumping his holdings! He keeps dumping ANSEM, sending the price down 60% in just 1 hour. Was his wallet hacked? https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52activ",
@@ -2870,7 +2872,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795507394.0,
 "tgtext": "Hold U in Any Binance Accounts to Earn Up to 1.8x the Base APR\n\nBinance is launching an airdrop campaign for U (United Stables). Eligible users who hold U on Binance automatically qualify for weekly U rewards from a 1,500,000 U prize pool. Grow your U holdings or trade U pairs to earn up to 1.8x the base APR.\n\n\ud83d\udc49\ud83c\udffbLearn more here\n\nDisclaimer: This is not available for users in the EEA.",
 "title": "Hold U in Any Binance Accounts to Earn Up to 1.8x the Base APR",
@@ -3095,9 +3097,10 @@
 "21Shares",
 "Altcoin Buzz",
 "CoinDesk",
-"FinanceFeeds"
+"FinanceFeeds",
+"bloomingbit"
 ],
-"t": 1795523209.8433943,
+"t": 1795524129.7423406,
 "t0": 1795505519.0,
 "tgtext": "",
 "title": "DOJ moves to forfeit $1.1 billion in frozen USDC from Binance hack as billions remain unrecovered",
@@ -3107,17 +3110,18 @@
 ]
 },
 "b9a04713ef3d": {
-"coin": "bitcoin",
-"src": "PanAsiaBiz",
+"coin": "ethereum",
+"src": "Cryptonews.net",
 "srcs": [
 "Coinpaper",
+"Cryptonews.net",
 "PanAsiaBiz"
 ],
-"t": 1795523517.74441,
+"t": 1795524434.4210176,
 "t0": 1795516778.0,
 "tgtext": "",
-"title": "Bitcoin Drops Below $60K Amid $850M Liquidations: Flush or Deeper Crash?",
-"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYl80bXZWdmI4WkFXZERIVFlxZHlHMEp1Q0tFMEJUMXRhYUFqdW1LYWJ1Sk9IVHNSWlBzeEV3eGdkT2ZSX0ZQRkkxWDA2M3JXQXBZb0hxcW5XX0sxU2NOSDY3YWFFNWNhTEhWcTRpS0hMNUVZZGI5NEpXVm9yWi1FQ2dqVkVpVjVib0s4?oc=5",
+"title": "Ethereum Price Prediction: Can ETH/BTC Strength Lift ETH Back Above $1,800?",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sbm9nck9GMnU1MTVuSHJsbWFxMnQ5c0RCUFlVdkVXOVByMnhCczdFazEtam53MjRhSWZqdVlTMGUzUnJjNEh5ZG1xUEdHRWszcDkyLTRydjQyUQ?oc=5",
 "urls": []
 },
 "b9e5d19b5a26": {
@@ -3216,7 +3220,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795505703.0,
 "tgtext": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks\n\nGrayscale said Bitcoin and other major cryptocurrencies appear oversold, but near-term prices will depend more on AI-related risks than blockchain fundamentals. In a November 23 report, research head Zach Pandl noted that Bitcoin fell to $55,000 on November 21, while global crypto ETPs saw over $2 billion in outflows last week.\n\nSignificant stablecoin redemptions, declining BTC and ETH futures open interest, and rising demand for put options further reflected market stress. Despite these pressures, Grayscale said blockchain fundamentals remain solid and current valuations offer attractive entry points for medium- to long-term investors. \u2014 link",
 "title": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks",
@@ -3618,9 +3622,10 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
-"Crypto Briefing"
+"Crypto Briefing",
+"The Crypto Times"
 ],
-"t": 1795523822.0848327,
+"t": 1795524434.4210176,
 "t0": 1795514883.0,
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
 "title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
@@ -4094,43 +4099,43 @@
 "0452b741d9b5": 0.136,
 "06665e4f1a2b": 0.049,
 "07875a6ebfc8": 0.094,
+"0a3638c548a5": 0.08,
 "0ad60315dd07": 0.101,
 "1d6463090bd3": 0.106,
 "217ca478b2e5": 0.186,
 "247c28476c30": 0.204,
 "28830979c0ee": 0.25,
 "289c41e836aa": 0.276,
-"3bd5729cb6c4": 0.947,
-"3d1c8ba7c6d7": 0.039,
-"436411f4a9f9": 0.032,
-"49c32a6f14ad": 0.066,
+"2b2b4185336a": 0.07,
+"388d09960ba3": 0.31,
+"3bd5729cb6c4": 0.963,
 "4e0eb9b56d8d": 0.063,
 "4ebd610e24ff": 0.051,
 "525496eea061": 0.04,
 "55679a450992": 0.343,
+"5872bc3f8e90": 0.08,
+"5be2cc2278da": 0.107,
 "5da75eb24890": 0.181,
 "64f7ee98057c": 0.198,
 "74827f48bbc9": 0.316,
-"87abed4c05cb": 0.415,
 "8955a4eb697c": 0.066,
-"904916f3a638": 0.155,
 "99254bf1ca72": 0.068,
-"9ca4e81fe66a": 0.527,
+"9ca4e81fe66a": 0.604,
 "9f2b8628bd93": 0.508,
-"a2581b0f6b6d": 0.143,
 "a5db0d4b696b": 0.988,
 "a985d725e021": 0.082,
 "b6482d8dfe77": 0.271,
-"c0dd441ea421": 0.102,
+"b9a04713ef3d": 0.731,
 "c9d660ac64ba": 0.219,
 "cb274dfa2e91": 0.045,
+"d43b0bb50dad": 0.073,
 "d50fc7f70dc0": 0.064,
-"dea6c33fadc3": 0.812,
+"dea6c33fadc3": 0.891,
 "eb6eca5d255a": 0.333,
 "edaa1065abd4": 0.095,
-"f82da634eaee": 0.159,
-"fa1c1bab690f": 0.091,
-"fee3bdfea9c6": 0.167
+"ee1042368c36": 0.051,
+"efc623739638": 0.055,
+"fa1c1bab690f": 0.091
 },
 "sent": [
 {
@@ -5690,64 +5695,64 @@
 "top": [
 [
 "a5db0d4b696b",
-61,
-177,
+60,
+188,
 2
 ],
 [
 "3bd5729cb6c4",
-36,
-102,
-3
+56,
+112,
+4
 ],
 [
 "dea6c33fadc3",
-61,
-149,
-2
+71,
+159,
+3
 ],
 [
 "bfc8fb178301",
 0,
-302,
+312,
 1
+],
+[
+"b9a04713ef3d",
+61,
+128,
+3
 ],
 [
 "066933461e73",
 0,
-322,
+332,
 1
 ],
 [
 "9ca4e81fe66a",
-84,
-190,
-4
+83,
+200,
+5
 ],
 [
 "9f2b8628bd93",
 20,
-137,
-2
-],
-[
-"87abed4c05cb",
-51,
-117,
+147,
 2
 ],
 [
 "af0c587c2181",
-6,
-274,
+5,
+284,
 1
 ],
 [
 "8019606a1924",
 10,
-70,
+80,
 1
 ]
 ],
-"top_at": 1795523822.0848327
+"top_at": 1795524434.4210176
 }
