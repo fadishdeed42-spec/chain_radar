@@ -122,15 +122,15 @@
 "Crypto Briefing",
 "Crypto News"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795458116.0,
 "tgtext": "\ud83d\udea8 JUST IN: US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.\n\nNews | Markets | YouTube",
 "title": "US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.",
 "url": "https://t.me/cointelegraph/73478",
 "urls": [
-"https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-"https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers"
+"https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+"https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "04c8af23166d": {
@@ -870,7 +870,7 @@
 "srcs": [
 "Benzinga"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795462208.0,
 "tgtext": "",
 "title": "Eric Trump-Backed American Bitcoin Stock Surges 18% After Securing $150M Bitcoin-Backed Loan",
@@ -1079,7 +1079,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795457525.0,
 "tgtext": "JUST IN: Jensen Huang officially returns to Nvidia's $NVDA headquarters after being reinstated as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
@@ -1121,7 +1121,7 @@
 "srcs": [
 "CoinDesk"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795458123.0,
 "tgtext": "",
 "title": "New York judge declines to block Kalshi from operating in the state for now",
@@ -1320,7 +1320,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795467905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.",
@@ -2774,7 +2774,7 @@
 "Bitcoin Magazine",
 "Hindustan Times"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795459660.0,
 "tgtext": "",
 "title": "Bitcoin price today: BTC rebounds above $61,000 after $1.8 billion crypto liquidations, Fed rate fears persist | Hindustan Times",
@@ -3084,7 +3084,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795469089.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia NVDA AI chips to China.",
@@ -3153,7 +3153,7 @@
 "Coin Edition",
 "Cryptonews.net"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795473519.0,
 "tgtext": "",
 "title": "Bitcoin Price on Black Friday 2026: Will BTC Rally or Crash Again?",
@@ -3737,17 +3737,19 @@
 ]
 },
 "e8106f1449ae": {
-"coin": "",
+"coin": "bitcoin",
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795477735.6130023,
+"t": 1795478350.932966,
 "t0": 1795476492.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The CFTC says regulated exchanges and clearinghouses can now count \n$BTC, $ETH and payment stablecoins toward their financial resources requirements.\n\nNews | Markets | YouTube",
-"title": "The CFTC says regulated exchanges and clearinghouses can now count",
-"url": "https://t.me/cointelegraph/73479",
-"urls": []
+"title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
+"url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "e8ba6032d4db": {
 "coin": "ethereum",
@@ -3826,6 +3828,19 @@
 "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVWQ2ZDRLUDQzTngzNWRhQWhzcDRISW1CMU1hOVNqZ3NRMEMzRFpianEtazVNT0xWQ25za2xUeXF2Um1NUEY3NjRFOUhlNVhUWnhRWEFCcV9tWXZLWVcxNkl3MkZ2djJNaDRZcWdWZGZXYVJZWF9ZYjFSVjk3UkZpX0lyaGJHNHV3LUVPUEN4d1JJb1NXeGQtQlFRdUttaFJ6bmhwdVdheVAzTlV4Q2hOU0xaTmZWOG9QWG44WGFLbXpMc2RrNHVnOE5B?oc=5",
 "urls": []
 },
+"ec1e1ee03843": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795478350.932966,
+"t0": 1795457701.0,
+"tgtext": "\ud83d\udea8 NEW: The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.\n\n\u201cWe are striking harder at Russia\u2019s ways to finance its war,\u201d said Ursula von der Leyen.\n\nAll 27 member states still need to sign off.\n\nNews | Markets | YouTube",
+"title": "The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.",
+"url": "https://t.me/cointelegraph/73476",
+"urls": []
+},
 "eccc7115fbeb": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -3854,7 +3869,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795477735.6130023,
+"t": 1795478045.1215563,
 "t0": 1795456690.0,
 "tgtext": "EU Proposes 22nd Russia Sanctions Package Targeting Crypto Platforms and 60 Banks\n\nEuropean Commission President Ursula von der Leyen announced on November 23 a proposed 22nd sanctions package against Russia, seeking to extend transaction bans to approximately 60 Russian banks and remove them from the SWIFT system. The proposal also targets cryptocurrency platforms and payment networks in Russia and third countries facilitating sanctions evasion. Von der Leyen said the EU has launched a Crypto Sanctions Task Force to strengthen enforcement. Additional measures include expanded energy restrictions, sanctions targeting Russia's shadow fleet, and a ban on EU citizens holding management positions in Russian companies. The package remains subject to approval. \u2014 link\n\ud83d\udea8 NEW: The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.\n\n\u201cWe are striking harder at Russia\u2019s ways to finance its war,\u201d said Ursula von der Leyen.\n\nAll 27 member states still need to sign off.\n\nNews | Markets | YouTube",
 "title": "The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.",
@@ -4065,39 +4080,39 @@
 "06fcfb769a57": 0.016,
 "0f16acb496ff": 0.015,
 "1d5223f73925": 0.034,
-"1f4556a8113d": 0.041,
+"1dd8aac41405": 0.014,
+"22182c023d45": 0.088,
 "2f77c2d118fa": 0.006,
 "3748bd2608ca": 0.288,
-"3d5896919994": 0.037,
 "440bdbbd16f6": 0.287,
 "4f82d5c08807": 0.487,
 "5d7dddabdb88": 0.006,
 "6899919982a4": 0.01,
+"6ba03e7f4c67": 0.017,
 "78f7a83e386d": 0.036,
 "7af9039d773f": 0.017,
 "82956fc0ba8f": 0.043,
-"85511f0a93de": 0.046,
-"9482223cdc88": 0.076,
 "9f47c0b8ee02": 0.033,
 "a5b5be72cd8c": 0.37,
 "a8d816d1dce0": 0.016,
+"ac1ac93c77cd": 0.077,
 "ad278c65ede0": 0.049,
-"b0805d1a5f72": 0.144,
+"b0805d1a5f72": 0.121,
 "b257540f6141": 0.007,
 "b438f4fb797a": 0.025,
 "b595b2330089": 0.249,
 "b9e5d19b5a26": 0.077,
 "bbfad7c2811a": 0.313,
 "bc7e7cff3650": 0.024,
-"c6ec2842b52d": 0.063,
-"cee41f8f08e2": 0.017,
 "d0cc71fdeb4b": 0.024,
+"d1334f566ac1": 0.079,
 "d94736570529": 0.016,
 "db0a8c59099c": 0.021,
 "dd238fed4c50": 0.166,
 "e046ef25ad42": 0.022,
 "e50be2b0968e": 0.029,
 "e7c5cd7ef9b1": 0.017,
+"e8106f1449ae": 0.271,
 "f51803dc307a": 0.025,
 "f61602ad153f": 0.017
 },
@@ -5355,64 +5370,64 @@
 "top": [
 [
 "04baae9fa8c5",
-66,
-327,
+65,
+337,
 18
 ],
 [
 "4f82d5c08807",
 10,
-164,
-1
-],
-[
-"ef2de23c331a",
-0,
-351,
-2
-],
-[
-"e8106f1449ae",
-10,
-21,
+174,
 1
 ],
 [
 "a5b5be72cd8c",
-49,
-301,
+48,
+312,
 2
 ],
 [
 "bbfad7c2811a",
 45,
-70,
+81,
 2
 ],
 [
 "3748bd2608ca",
-24,
-259,
+23,
+269,
 1
 ],
 [
 "440bdbbd16f6",
-18,
-337,
+16,
+347,
 3
+],
+[
+"e8106f1449ae",
+18,
+31,
+1
 ],
 [
 "b595b2330089",
 10,
-144,
+154,
+1
+],
+[
+"ec1e1ee03843",
+0,
+344,
 1
 ],
 [
 "4921259ea910",
 0,
-327,
+337,
 1
 ]
 ],
-"top_at": 1795477735.6130023
+"top_at": 1795478350.932966
 }
