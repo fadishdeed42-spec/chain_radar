@@ -27,7 +27,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795557305.4692883,
+"t": 1795557915.6429725,
 "t0": 1795546253.0,
 "tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
 "title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
@@ -465,6 +465,25 @@
 "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto"
 ]
 },
+"16d13126730c": {
+"coin": "",
+"src": "CryptoSlate",
+"srcs": [
+"CryptoSlate",
+"Decrypt",
+"The Block"
+],
+"t": 1795557915.6429725,
+"t0": 1795539081.0,
+"tgtext": "",
+"title": "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions",
+"url": "https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/",
+"urls": [
+"https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705",
+"https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach",
+"https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/"
+]
+},
 "17bf1105edfc": {
 "coin": "",
 "src": "Cointelegraph",
@@ -563,6 +582,25 @@
 "urls": [
 "https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach",
 "https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705"
+]
+},
+"1edcebbc6c89": {
+"coin": "bitcoin",
+"src": "Traders Union",
+"srcs": [
+"Cointelegraph",
+"CryptoRank",
+"Pluang",
+"Qazinform",
+"Traders Union"
+],
+"t": 1795557915.6429725,
+"t0": 1795537519.0,
+"tgtext": "",
+"title": "21Shares says weak demand, liquidations deepen Bitcoin sell-off after Binance hack",
+"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjAtamlvYXN1b2NUdTV3YkNtMzZGd1k2Xy1oV3dyZ1RvYWlMSnowYnlhRGlGeS1PQTd0RURlbTFxNHVheVNDRUVPTWxZT1o2bEFNRzdEX1ByRWdPSmh3QUZJUlppdzZvQWxJX3pMME9GNW5BTURTN2IxaXkta0dDcXJRR3lFUDZleFdtWElXelI0dG56YW4xYUNsT3ZvVmNq?oc=5",
+"urls": [
+"https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "1edf7afa1528": {
@@ -734,19 +772,6 @@
 "tgtext": "\u26a1 UPDATE: The S&P 500 has almost wiped out its entire 2026 gain.\n\nNews | Markets | YouTube",
 "title": "The S&P 500 has almost wiped out its entire 2026 gain.",
 "url": "https://t.me/cointelegraph/73440",
-"urls": []
-},
-"26c1314dc572": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795385106.4690058,
-"t0": 1795363581.0,
-"tgtext": "\ud83c\uddfa\ud83c\uddf8 NEW: One trader got into Trump's memecoin gala for the third time by buying $TRUMP and shorting it at the same time, and this round he walked away $6 richer.\n\nNews | Markets | YouTube",
-"title": "One trader got into Trump's memecoin gala for the third time by buying TRUMP and shorting it at the same time, and this round he walked away $6 richer.",
-"url": "https://t.me/cointelegraph/73439",
 "urls": []
 },
 "272e361ba6ff": {
@@ -1823,7 +1848,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795557305.4692883,
+"t": 1795557915.6429725,
 "t0": 1795549851.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.\n\nNews | Markets | YouTube",
 "title": "The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.",
@@ -2743,7 +2768,7 @@
 "Decrypt",
 "Wu Blockchain"
 ],
-"t": 1795557305.4692883,
+"t": 1795557915.6429725,
 "t0": 1795537200.0,
 "tgtext": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses\n\nBitcoin hardware wallet maker Coinkite has released its postmortem on Coldcard\u2019s seed-generation flaw, confirming that attackers reconstructed private keys offline rather than compromising the devices. A firmware configuration error disabled the hardware random number generator, causing devices to rely on an insecure pseudorandom number generator. At least 15 independent review and security research efforts between 2021 and 2026 failed to identify the flaw, including a review using OpenAI\u2019s Cybersecurity Harness.\n\nCoinkite received 300 loss-related support tickets involving 236 customer accounts, approximately 0.2% of its estimated user base. According to Galaxy Research, 1,778.84 BTC were stolen from over 8,600 addresses, worth approximately $107 million at current prices. Coinkite released patched firmware on July 31 but warned that firmware updates cannot secure previously affected seeds. The attackers remain unidentified, and Coinkite has yet to decide whether to compensate affected customers. \u2014 link",
 "title": "Coinkite Releases Coldcard Security Incident Postmortem as 1,778.84 BTC Stolen From Over 8,600 Addresses",
@@ -3573,7 +3598,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795557305.4692883,
+"t": 1795557915.6429725,
 "t0": 1795542630.0,
 "tgtext": "JUST IN: Jim Cramer says it's \"time\" to buy.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jim Cramer says it's \"time\" to buy.",
@@ -3721,14 +3746,32 @@
 "url": "https://t.me/WatcherGuru/16309",
 "urls": []
 },
+"ca2407a1d65c": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"Cointelegraph",
+"CryptoSlate"
+],
+"t": 1795557915.6429725,
+"t0": 1795536602.0,
+"tgtext": "",
+"title": "Bitcoin Slips Below $60,000 as Tariff Fears Weigh on Stocks and Anthropic Breaks IPO Price",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQVlBXSmhhQmROeFFEVDI2NFpreTNPUWpaeHg0dG80U0YxYUQ2N1VGUVJwR2VKUlhxMW10dVFMM0dfTHBFek1NY25jaHFjSktOWkJZNU96MWNyeUg0ZFNSZERoOEdvaTFMVElaUU1xcUJ0YUMxREE?oc=5",
+"urls": [
+"https://cryptoslate.com/bitcoins-5000-price-swing-and-anthropics-ipo-decline-expose-cracks-in-ai-driven-market-rally/",
+"https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "ccc563164e6f": {
 "coin": "",
 "src": "Wu Blockchain",
 "srcs": [
-"Cryptopolitan",
+"TradingView",
 "Wu Blockchain"
 ],
-"t": 1795557305.4692883,
+"t": 1795557612.2156284,
 "t0": 1795536202.0,
 "tgtext": "October 2026 TradFi Perpetual Futures Volume Report: MoM up 21.9%, leveraged ETFs nearly doubled, with SOXL up 127%, Bitget volume up 68.5%\n\nWuBlockchain data show that TradFi perpetual futures trading volume across crypto exchanges reached $758.1 billion in October 2026, up 21.9% MoM. Stock perpetuals rose 33.2% to $541.8 billion, commodities fell 1.4% to $202.5 billion, and indices rose 41.8% to $13.9 billion. Binance led with a 58.9% market share, followed by OKX (11.0%) and Hyperliquid (9.3%). Bitget recorded the largest MoM volume increase (+68.5%), while MEXC saw the largest decline (\u221223.2%). ETF and leveraged fund perpetuals rose 81.9% to $179.8 billion, with SOXL up 127% to $84.9 billion. Pre-IPO perpetuals rose 23.9% to $48.6 billion, led by SpaceX at $42.3 billion. \u2014 link",
 "title": "October 2026 TradFi Perpetual Futures Volume Report: MoM up 21.9%, leveraged ETFs nearly doubled, with SOXL up 127%, Bitget volume up 68.5%",
@@ -3785,10 +3828,9 @@
 "coin": "bitcoin",
 "src": "Watcher.Guru",
 "srcs": [
-"24/7 Wall St.",
 "Watcher.Guru"
 ],
-"t": 1795557305.4692883,
+"t": 1795557915.6429725,
 "t0": 1795541962.0,
 "tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
 "title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
@@ -4372,7 +4414,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795557305.4692883,
+"t": 1795557915.6429725,
 "t0": 1795537203.0,
 "tgtext": "JUST IN: Microsoft $MSFT declares \"Code Red\" after a 24-hour outage exposed major flaws in its systems.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 ALERT: Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
 "title": "Microsoft has reportedly declared a \u201cCode Red\u201d for its Microsoft 365 services following the November 12 outage, targeting worldwide mitigation of future incidents in under an hour.",
@@ -4497,6 +4539,21 @@
 "urls": [
 "https://bitcoinmagazine.com/news/uk-bars-crypto-exchanges-market-making"
 ]
+},
+"fe7bf1cb8f6f": {
+"coin": "ethereum",
+"src": "FXStreet",
+"srcs": [
+"Crypto News",
+"FXStreet",
+"www.tmgm.com"
+],
+"t": 1795557915.6429725,
+"t0": 1795543742.0,
+"tgtext": "",
+"title": "Ethereum Price Forecast: ETH falls below $1,700 as tariff fears weigh on crypto",
+"url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeFJGREZSSnhZU3R2M1hxX1RqZlAwYkhQTkVrWnZPR0pUZ3VFeXhNd19PTTVsYU1hSEdKSDYybGJZaEg2aTI1eTZwTFpFU2VRaHo5TlRla0xoMEJ2UHAxa3FmTk1MTEtiSFU5dW1MMGluUkx5RGxlRzZkNm83VEFkdC1Ub2J5R0d5ZG1WQnBsWURlVFJZejR5RDZ0Rmo2OUZ6eE5VSDh2Rk9BcUxFZzE3VGt5LW5reHpVZ3FpSnlRcUFLcldfTVh2RnR6X3d5bzNjZU9z?oc=5",
+"urls": []
 }
 },
 "movers": {
@@ -4507,42 +4564,42 @@
 "probs": {
 "0052e4b58051": 0.428,
 "030a538017e6": 0.028,
-"1000b858ee50": 0.05,
 "13ef600feaa4": 0.045,
 "159005dcecfe": 0.053,
-"1faa0f54e248": 0.55,
+"16d13126730c": 0.256,
+"1edcebbc6c89": 0.431,
 "236687bb55a2": 0.034,
-"27822fcc1b35": 0.02,
+"268d11c80021": 0.022,
+"384c19fed112": 0.022,
 "3c61b6f93b36": 0.146,
 "3f8d72249093": 0.137,
-"47f01fa5103c": 0.108,
+"42a760faf226": 0.098,
+"47f01fa5103c": 0.115,
+"4b8f72dd83f1": 0.07,
 "4bc450bcc4e5": 0.138,
 "4cc37d957f93": 0.017,
 "552fb5364eb3": 0.047,
-"6304789b38d0": 0.044,
+"5895af65ea74": 0.095,
+"5cd02740b598": 0.03,
+"6430be7d501a": 0.042,
 "64f0bf396498": 0.805,
 "6610cf7a94db": 0.103,
+"69380fa13a1c": 0.029,
+"6a06aefdc13f": 0.071,
 "6ebb856add31": 0.033,
 "7221ed0cde94": 0.204,
 "75d0cda4f0da": 0.03,
 "7b55ace10045": 0.06,
-"80e5b5c52042": 0.076,
 "8eb90809c5f9": 0.029,
-"93f396278a21": 0.032,
 "95fa5c06d8d9": 0.789,
 "b29819b863ee": 0.036,
-"b982ddd8512b": 0.471,
-"c351ba45fe0f": 0.148,
-"c35b7ff778f8": 0.013,
-"d34e9c9768fc": 0.32,
-"d67f0ff9e217": 0.061,
+"bed6c69f002d": 0.049,
+"c35b7ff778f8": 0.054,
+"d7f1f6e1419d": 0.027,
 "de1f98394fdf": 0.051,
 "dfb9fc8de21e": 0.01,
-"e12a4d3862c2": 0.051,
 "e2a37edc8a0c": 0.229,
-"ebd127ca03a8": 0.168,
-"f236cbb3461c": 0.036,
-"f2a56e5eef8e": 0.921,
+"f2a56e5eef8e": 0.942,
 "f7974abe2c55": 0.018,
 "fe7bf1cb8f6f": 0.246
 },
@@ -6254,64 +6311,64 @@
 "top": [
 [
 "f2a56e5eef8e",
-22,
-335,
+20,
+345,
 2
 ],
 [
 "64f0bf396498",
 45,
-124,
+134,
 2
 ],
 [
 "95fa5c06d8d9",
-45,
-335,
+43,
+345,
 4
 ],
 [
-"1faa0f54e248",
-62,
-355,
-8
+"1edcebbc6c89",
+64,
+340,
+7
 ],
 [
-"b982ddd8512b",
-58,
-355,
-5
+"d34e9c9768fc",
+0,
+266,
+1
 ],
 [
 "0052e4b58051",
-18,
-184,
+17,
+194,
 1
 ],
 [
 "c07fb3bff7db",
-2,
-245,
-1
-],
-[
-"d34e9c9768fc",
-10,
-256,
-2
-],
-[
-"ccc563164e6f",
-0,
-352,
-2
-],
-[
-"20e529f8e125",
 1,
-359,
+255,
 1
+],
+[
+"16d13126730c",
+54,
+314,
+3
+],
+[
+"fe7bf1cb8f6f",
+23,
+236,
+3
+],
+[
+"ca2407a1d65c",
+7,
+355,
+3
 ]
 ],
-"top_at": 1795557305.4692883
+"top_at": 1795557915.6429725
 }
