@@ -5,9 +5,6 @@
 },
 "init": true,
 "log": [
-1795437564.6824737,
-1795439093.5318549,
-1795439093.5318549,
 1795445735.8716676,
 1795450035.4702044,
 1795456800.1133256,
@@ -18,7 +15,8 @@
 1795511882.8644881,
 1795513411.6701093,
 1795514024.0284457,
-1795519918.7887828
+1795519918.7887828,
+1795529586.833144
 ],
 "menu": {
 "02523ac593dc": {
@@ -67,6 +65,24 @@
 "title": "Bitcoin reclaims $61,000 and ETH reclaims $1,715",
 "url": "https://t.me/WatcherGuru/16246",
 "urls": []
+},
+"02c5a1342322": {
+"coin": "bitcoin",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Forbes",
+"NewsBytes"
+],
+"t": 1795529257.559001,
+"t0": 1795514918.0,
+"tgtext": "",
+"title": "Bitcoin (BTC) price drops below $60,000 as Nvidia (NVDA)-led rally loses steam",
+"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObGQ2cVJSaWR2bG9CS2lhQjNwSDZPU3lrVjFneVFLMDBadVFjT1llYlVQc053ODVNOGJkeFFhclplZGZodVBnSEo5MzJ1WUhGWl9JbWJVOTNhXzlnTWlnd3BENk5hSl95bjUtNWltbGJhUXJ3Y25JaDU3cWp5VEhOdE1lUk5RclRtQkxWZ2lRTWZua3VFT0VTOU1DVXFwM3lGVVFqN0hWMTQweXc2bWFYdm84WVBJQmRoWXFRaQ?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
+"https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto"
+]
 },
 "03aa412dfc7a": {
 "coin": "",
@@ -391,17 +407,17 @@
 "coin": "bitcoin",
 "src": "The Economic Times",
 "srcs": [
+"Around Prague",
 "CoinDesk",
-"Crypto News",
 "Cryptonews.net",
 "Forbes",
 "NewsBytes"
 ],
-"t": 1795528949.4250727,
+"t": 1795529561.5233567,
 "t0": 1795514918.0,
 "tgtext": "",
 "title": "Why is Bitcoin price down today? BTC USD falls to $60,000 as Nvidia (NVDA) rally fades, $827 million liqui",
-"url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPSlUzM09rdl8yY1d6WDlaampkSlFPWW9MTkxHMzFFWUcwbVdVTjl2ZFpsMTNFWWsyeUJMb3dtS1hjVGcyNUlrRFJYU0VhY29ac3lxYy1feWdKTjBEVDlfWXNuLUx6ZklSUE82V0VuMzlISUdCTFJNMlp5WWNva3djdjNtcERONmZzM19vQ0JqNnVzMHZncEF1WElmQTF5aXcwQUszNjFvYUJ3akphUU9WX2MtWEw3cHd3REc2MjhXRjhWZmRiQVJmeldtdEVQTE1YWC1aeXNaT0Vnc05FaWw1NEhGY01Rd0liSGlCT3NwS1ZzbTlJTnVEVDNpcFotanQxdlVpaTlBSkY2QnJDRVpDRFFhYzhHbVBCcG9WRWllZ2htZGhsaFF4Xy1WdFRnNmlVOWhza1lrT1JXQ1RjbmNwa0hkcGrSAcoCQVVfeXFMUHFOZ0o5OVFzakZ0VTZwVjJHcjlESUgzRnVzY1VrVXhpMUFEd3RESGNIQ3V3U1dvZ3hMV1Uwa1dmVjRqZTkxdjZuWU5weTBpbWktTS1PN1lIMXVCOF94R1RGYUxfUVBJOW5WdzM4MWZYUkEtN0pwOFZmRHU2NmRubDdVX0ctSFdSRUJ6WmZVdzhuMUk5aTJQTjhaTjB2eTV5YW16WWJBUHNjNjJRUloxS2hvelVUeFQzb2V0dXJEc3ctbUQwVTliYUxsUlhKMHJDNUtvT0o0d3J4ek5Bb1NCQkhKcTVpVVk0ZXIxMFZMQVBEcGxwZWhUcl9mOE1PYWxUNGpCdkJfM2Y4eDlqRzdaSW1UcVRlSGYzUUdacGdqaHptcjgyUUk4S2c1OGNGOEhLbm5YYW1XUEoyckNtaS0xdXNVZnBhN0dMcTJn?oc=5",
+"url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQcU5nSjk5UXNqRnRVNnBWMkdyOURJSDNGdXNjVWtVeGkxQUR3dERIY0hDdXdTV29neExXVTBrV2ZWNGplOTF2Nm5ZTnB5MGltaS1NLU83WUgxdUI4X3hHVEZhTF9RUEk5blZ3MzgxZlhSQS03SnA4VmZEdTY2ZG5sN1VfRy1IV1JFQnpaZlV3OG4xSTlpMlBOOFpOMHZ5NXlhbXpZYkFQc2M2MlFSWjFLaG96VVR4VDNvZXR1ckRzdy1tRDBVOWJhTGxSWEowckM1S29PSjR3cnh6TkFvU0JCSEpxNWlVWTRlcjEwVkxBUERwbHBlaFRyX2Y4TU9hbFQ0akJ2Ql8zZjh4OWpHN1pJbVRxVGVIZjNRR1pwZ2poem1yODJRSThLZzU4Y0Y4SEtublhhbVdQSjJyQ21pLTF1c1VmcGE3R0xxMmfSAcoCQVVfeXFMUHFOZ0o5OVFzakZ0VTZwVjJHcjlESUgzRnVzY1VrVXhpMUFEd3RESGNIQ3V3U1dvZ3hMV1Uwa1dmVjRqZTkxdjZuWU5weTBpbWktTS1PN1lIMXVCOF94R1RGYUxfUVBJOW5WdzM4MWZYUkEtN0pwOFZmRHU2NmRubDdVX0ctSFdSRUJ6WmZVdzhuMUk5aTJQTjhaTjB2eTV5YW16WWJBUHNjNjJRUloxS2hvelVUeFQzb2V0dXJEc3ctbUQwVTliYUxsUlhKMHJDNUtvT0o0d3J4ek5Bb1NCQkhKcTVpVVk0ZXIxMFZMQVBEcGxwZWhUcl9mOE1PYWxUNGpCdkJfM2Y4eDlqRzdaSW1UcVRlSGYzUUdacGdqaHptcjgyUUk4S2c1OGNGOEhLbm5YYW1XUEoyckNtaS0xdXNVZnBhN0dMcTJn?oc=5",
 "urls": [
 "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
 "https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
@@ -578,13 +594,30 @@
 "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NU0dheG5IMldNY0M0RUxjOWtVbm9HVEozd2dLVk1QUDBUdTdISE83bnpUcjd6Q1cteUVUWkM2TU9GR242OWR3ZnJMNUV5dm1fTjBZdWVXSDQ3NkRxMnNpVndLNjN5OHJzM0l4QUhKdzk1MlNvdTdhSTZPLV8?oc=5",
 "urls": []
 },
+"25aa3a7f9cee": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Lookonchain",
+"bloomingbit"
+],
+"t": 1795529561.5233567,
+"t0": 1795524469.0,
+"tgtext": "The \"hacker\" has stolen $2.57M from Ansem(@blknoiz06)'s wallet so far.\n\nInterestingly, the 2.57M $USDC hasn't been swapped for $ETH and laundered yet \u2014 it's still sitting in wallet 0xAC33.\nhttps://x.com/lookonchain/status/2125166373362102312",
+"title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
+"url": "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered"
+]
+},
 "25efe7b740db": {
 "coin": "",
 "src": "The Crypto Times",
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795527414.8666153,
+"t": 1795529561.5233567,
 "t0": 1795526741.0,
 "tgtext": "",
 "title": "Cyber Burns 5.2M CYBER From Treasury After $1.1M Bridge Exploit",
@@ -737,21 +770,6 @@
 "url": "https://t.me/lookonchainchannel/11232",
 "urls": []
 },
-"2e6bc052fdfc": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"Coinpaper",
-"Coinpedia"
-],
-"t": 1795356726.6321337,
-"t0": 1795340992.0,
-"tgtext": "",
-"title": "Bitcoin Rebounds From Two-Year Low as Shorts Lose $68.8M in an Hour; ETFs Bleed $3.47B in November",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ydFFabkgxUFJkd3dCMk9EWDZ0OXBjNWNiTzN1X200bXVFSm1HQXRRaWhIejBOX3R0bnhVekJraDZYeGZCTlFYM0JxN2p0QXJsNEN2QWkyOHVMNnJ6ZUdfZHlHY2pnMkdnN2paSk1WLURxd0NPSnc?oc=5",
-"urls": []
-},
 "32d7a460e995": {
 "coin": "",
 "src": "Cointelegraph",
@@ -814,7 +832,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795528949.4250727,
+"t": 1795529561.5233567,
 "t0": 1795526548.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.\n\nThe EU, Japan and South Korea likely face rates of 15% or less.\n\nNews | Markets | YouTube",
 "title": "The US is expected to announce higher tariffs on China and dozens of countries this week, per WSJ.",
@@ -849,7 +867,7 @@
 "Crypto News",
 "Wu Blockchain"
 ],
-"t": 1795528949.4250727,
+"t": 1795529561.5233567,
 "t0": 1795517730.0,
 "tgtext": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt\n\nEthereum treasury firm BTCS sold approximately 27,300 ETH, representing more than half of its holdings, for $43.8 million on November 20 at an average price of $1,604, according to an SEC filing. The proceeds were used to repay Aave loans, reducing its outstanding debt by 81% to $10.5 million and lowering its loan-to-value ratio to 32%.\n\nAs of November 22, BTCS still held approximately 24,245 ETH, with combined cash and digital assets valued at $61 million. Amid market volatility, its DeFi unit Imperium temporarily withdrew from liquidity pools and plans to redeploy capital when conditions improve. \u2014 link",
 "title": "Ethereum Treasury Firm BTCS Sells Over Half of Its ETH Holdings for $43.8M to Repay Aave Debt",
@@ -1280,20 +1298,6 @@
 "tgtext": "Fusionist (@fusionistio) was hacked for over $2M!\n\nThe attacker minted and dumped a large amount of $ACE, sending some to Gate, MEXC, and Baltex to sell.\n\nThe attacker then swapped the funds for $ETH and has already deposited 1,150 $ETH ($1.97M) into #TornadoCash.\n\nhttps://arkm.com/explorer/entity/c24e9f03-cbe4-4a3e-ab4f-f39baf660197",
 "title": "Fusionist (@fusionistio) was hacked for over $2M!",
 "url": "https://t.me/lookonchainchannel/11224",
-"urls": []
-},
-"4e51468eed69": {
-"coin": "bitcoin",
-"src": "Forbes",
-"srcs": [
-"CryptoRank",
-"Forbes"
-],
-"t": 1795356726.6321337,
-"t0": 1795349370.0,
-"tgtext": "",
-"title": "'Shockingly Low'\u2014Trump\u2019s Worst Nightmare Is Suddenly Coming True As The Bitcoin Price And His Crypto Memecoin Crash",
-"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEdfUVMtY2hLZmlsX19wcTh2Yzdyczh3RDQySGt0T2VwSEZnSlFVZ0Q1U1N3NW5KSkdXenRWVTNYTldabUtmSWJRa2FzME5EZEwwb2NRNlFjTmJOUUlKSTF0S3o1TklCU2xxLWZPU2NXR2Rxbkp3MUctMTNDSG93RUFkNHYyU1R6eTdVWGx6QVJpWVcxU3U5SkZySEZ4Z2E0N3dTZmpB?oc=5",
 "urls": []
 },
 "4f82d5c08807": {
@@ -1918,6 +1922,25 @@
 "url": "https://t.me/cointelegraph/73470",
 "urls": []
 },
+"768f63165246": {
+"coin": "bitcoin",
+"src": "The Economic Times",
+"srcs": [
+"CoinDesk",
+"CoinGape",
+"Crypto News",
+"Cryptonews.net",
+"The Economic Times"
+],
+"t": 1795529257.559001,
+"t0": 1795511457.0,
+"tgtext": "",
+"title": "Why is Bitcoin price down today? BTC USD falls to $60,000 as Nvidia (NVDA) rally fades, $827 million liqui",
+"url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNXzhEMTlzaTNVTllmN0JxdUJWR2RSSmdPU3RYeVFQRE9oRUs2bks5ZTdnUjVMQTBVOHdCVy03bDBuaXBpbUFLdzRWWFBqYkJFbzhBeFRsZHVqYjlwcWlyb2tLX2lrWU9haTRNdDA5enlJVldQWm52bU1rdlQwbUFZLTJwdGFnWUNuYTdubWh6c1g2M3pJYkx3U1pWcjdCLXdQQUktLVdVVFZmNlVUWDJDSXAtQXdieUlKa2daaU5mYVNfUk1HTjg5a25CUzNvM0c5bm04R0YxWTdCTWxPWXUyRzlyYjVLZGd4Z2lWY0dOVWtoUXJ1R0U1NEFvMU9KX3Q0VDY3UUlQcERTdmFBOU1GNUJmYV8xd3VxSlkxTDBxdDd2YWlQWW82SXk1WW9IajV1UVpsMWY4UkVpTlJidzUtLUkzZm1JNGlDMkI3S0lSbUPSAcoCQVVfeXFMUHFOZ0o5OVFzakZ0VTZwVjJHcjlESUgzRnVzY1VrVXhpMUFEd3RESGNIQ3V3U1dvZ3hMV1Uwa1dmVjRqZTkxdjZuWU5weTBpbWktTS1PN1lIMXVCOF94R1RGYUxfUVBJOW5WdzM4MWZYUkEtN0pwOFZmRHU2NmRubDdVX0ctSFdSRUJ6WmZVdzhuMUk5aTJQTjhaTjB2eTV5YW16WWJBUHNjNjJRUloxS2hvelVUeFQzb2V0dXJEc3ctbUQwVTliYUxsUlhKMHJDNUtvT0o0d3J4ek5Bb1NCQkhKcTVpVVk0ZXIxMFZMQVBEcGxwZWhUcl9mOE1PYWxUNGpCdkJfM2Y4eDlqRzdaSW1UcVRlSGYzUUdacGdqaHptcjgyUUk4S2c1OGNGOEhLbm5YYW1XUEoyckNtaS0xdXNVZnBhN0dMcTJn?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades"
+]
+},
 "77a8aea021bd": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2121,7 +2144,7 @@
 "srcs": [
 "Coinpedia"
 ],
-"t": 1795528949.4250727,
+"t": 1795529257.559001,
 "t0": 1795519646.0,
 "tgtext": "",
 "title": "MSTR Stock Premarket Today: Strategy Falls 5% As Shares Trade Below Bitcoin Value",
@@ -2281,7 +2304,7 @@
 "CoinMarketCap",
 "PanAsiaBiz"
 ],
-"t": 1795528949.4250727,
+"t": 1795529257.559001,
 "t0": 1795516832.0,
 "tgtext": "",
 "title": "Bitcoin Drops Below $60K Amid $850M Liquidations: Flush or Deeper Crash?",
@@ -2397,7 +2420,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1795528949.4250727,
+"t": 1795529257.559001,
 "t0": 1795526255.0,
 "tgtext": "",
 "title": "BlackRock opens tokenized money market fund with $100 million in assets to Hong Kong investors",
@@ -2561,20 +2584,20 @@
 "urls": []
 },
 "9ca4e81fe66a": {
-"coin": "usd-coin",
+"coin": "",
 "src": "CoinDesk",
 "srcs": [
 "21Shares",
 "Bloomberg.com",
+"CoinCodex",
 "CoinDesk",
-"FinanceFeeds",
-"bloomingbit"
+"Crypto Briefing"
 ],
-"t": 1795528338.0641966,
+"t": 1795529561.5233567,
 "t0": 1795512424.0,
 "tgtext": "",
-"title": "DOJ moves to forfeit $1.1 billion in frozen USDC from Binance hack as billions remain unrecovered",
-"url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYjI5MnZGSDN3TWFNUndOdWNXZXNDTVNBT2tuemZseGhXQXZmaWQ3OXR3dEZPM1E1QUt1ZE1EbUxqSkM0ZzkxX2xINmpDZzRxQlhjMTByRy1qSVhvS3N1MjZCQTgyR2JjRWtPOXdzUnZYMFY3LThsbjZnbFJhWnI4bzlta1N2MFp2dFpDM08tMEowVUN2amZ2Zmw2WFhPOW15cVNqN0U2SmJMcnV6MElPTjAweWlsenh4c0RJODdVb01SZw?oc=5",
+"title": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
+"url": "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving",
 "urls": [
 "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
 ]
@@ -2755,7 +2778,7 @@
 "Lookonchain",
 "Yahoo Finance"
 ],
-"t": 1795528949.4250727,
+"t": 1795529561.5233567,
 "t0": 1795513179.0,
 "tgtext": "Ansem(@blknoiz06) appears to be dumping his holdings!\n\nHe keeps dumping $ANSEM, sending the price down 60% in just 1 hour.\n\nWas his wallet hacked?\n\nhttps://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities\nAnsem(@blknoiz06) appears to be dumping his holdings!  He keeps dumping $ANSEM, sending the price down 60% in just 1 hour.  Was his wallet hacked?  https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities",
 "title": "Ansem(@blknoiz06) appears to be dumping his holdings! He keeps dumping ANSEM, sending the price down 60% in just 1 hour. Was his wallet hacked? https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52activ",
@@ -3104,18 +3127,17 @@
 },
 "b9a04713ef3d": {
 "coin": "ethereum",
-"src": "The Crypto Times",
+"src": "Cryptonews.net",
 "srcs": [
 "Coinpaper",
 "Cryptonews.net",
-"PanAsiaBiz",
-"The Crypto Times"
+"PanAsiaBiz"
 ],
-"t": 1795528033.8041523,
+"t": 1795529561.5233567,
 "t0": 1795516778.0,
 "tgtext": "",
-"title": "Ethereum Price Today: ETH Below $1,690 as BTCS Sells 27,300 ETH to Cut Debt",
-"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVlpGSTlhTlR0U1JfT2VKaVktb0JKU3lHRWFUcUNVNUZ0YS16S0luVEZUTDlsWnNFTnQ0aUZabHRNSmhUaHlnRHdqX2h0RDJ1aWRPNkMwRE9TNkxJUkVjSzFBaWM0RzE0YlZ2bnJfZ3YwbnVJQXIwZDNfUGRaUXBGMDMydVlLdEpYUWJaNEFyeFV3R1Z6aTNMQXZRR2pJYmFRZmJoN1EtWHJqckVaay1zNHhWWDlTM0x2U3c?oc=5",
+"title": "Ethereum Price Prediction: Can ETH/BTC Strength Lift ETH Back Above $1,800?",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sbm9nck9GMnU1MTVuSHJsbWFxMnQ5c0RCUFlVdkVXOVByMnhCczdFazEtam53MjRhSWZqdVlTMGUzUnJjNEh5ZG1xUEdHRWszcDkyLTRydjQyUQ?oc=5",
 "urls": []
 },
 "b9e5d19b5a26": {
@@ -3133,28 +3155,13 @@
 "https://bitcoinmagazine.com/news/strive-asst-no-bitcoin-purchases-holdings"
 ]
 },
-"ba02d435ef4e": {
-"coin": "bitcoin",
-"src": "Coinpaper",
-"srcs": [
-"Arise News",
-"Coinpaper",
-"Pluang"
-],
-"t": 1795356420.0608976,
-"t0": 1795334878.0,
-"tgtext": "",
-"title": "Stolen XRP Reappears in Bitcoin Laundering Trail as Binance Hack Investigation Expands",
-"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMzMwSF9wUy1KOG9GWU1JTVFWTXBGYm4zRWFXUXlyb1k2RF95UUFNY19ncGNNWUlwdmQydGJGS21lbTlUYjZQTUVPSjQ1cEJVYUpsSzM4dTc2VWM5R21WNVlvdHBTRU9BdUh1VnBpeUdsMzBsVXYwc2UySmlDcE5RUHBpbjRBMlVwZ29XOFc4ZUZxQ2xWX2ljNzhTQ1lReG9uR242VTlraDFvYkdwTjRjSkZBa1A?oc=5",
-"urls": []
-},
 "ba3829356fad": {
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795528949.4250727,
+"t": 1795529561.5233567,
 "t0": 1795526086.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US prepares to raise tariffs on China, European Union and 14 other countries.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US prepares to raise tariffs on China, European Union and 14 other countries.",
@@ -3601,7 +3608,7 @@
 "Crypto Briefing",
 "Protos | Informed crypto news"
 ],
-"t": 1795528949.4250727,
+"t": 1795529561.5233567,
 "t0": 1795514883.0,
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
 "title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
@@ -4075,84 +4082,45 @@
 "0452b741d9b5": 0.078,
 "07875a6ebfc8": 0.094,
 "0a3638c548a5": 0.188,
-"1531e2d6934e": 0.787,
+"13e172b0e10a": 0.131,
+"1531e2d6934e": 0.851,
 "23be7ce8a1bd": 0.035,
-"25aa3a7f9cee": 0.381,
-"284689eb259e": 0.338,
+"25aa3a7f9cee": 0.996,
+"25efe7b740db": 0.5,
 "28830979c0ee": 0.151,
 "289c41e836aa": 0.276,
 "2b2b4185336a": 0.117,
+"37040de5a250": 0.05,
+"388d09960ba3": 0.193,
 "3bd5729cb6c4": 0.963,
-"4e0eb9b56d8d": 0.063,
+"468ea4b839ba": 0.008,
+"4ebd610e24ff": 0.051,
 "51727a7b2810": 0.148,
 "525496eea061": 0.04,
-"57a37062a585": 0.092,
+"55679a450992": 0.343,
+"612db5179ddb": 0.325,
 "6ac69ec1848f": 0.139,
 "71bd4cbbe266": 0.118,
-"79d3b30df750": 0.099,
 "8019606a1924": 0.401,
 "82b1440625af": 0.117,
-"87abed4c05cb": 0.519,
-"8f4e11ed7aa8": 0.072,
-"904916f3a638": 0.155,
+"878f214fb3a5": 0.104,
 "90e68ff780ec": 0.451,
-"981f6b0de23e": 0.03,
-"9b6de6ff73b5": 0.06,
+"9ca4e81fe66a": 0.747,
 "9f2b8628bd93": 0.355,
 "a073e7afdbf5": 0.072,
-"a2581b0f6b6d": 0.143,
-"a5db0d4b696b": 0.983,
+"a5db0d4b696b": 0.989,
 "a9c098eb7373": 0.384,
-"ae80a241d95a": 0.062,
-"c9d660ac64ba": 0.058,
-"d159b5a5e051": 0.026,
-"d33bbe46bea5": 0.106,
-"d819cf5fd2df": 0.14,
-"d9daf5de105b": 0.124,
+"b6482d8dfe77": 0.271,
+"b9a04713ef3d": 0.658,
+"bd69b5bd3d7e": 0.048,
+"c9d660ac64ba": 0.141,
+"d9daf5de105b": 0.166,
 "dea6c33fadc3": 0.896,
-"e0d2e4aed8bf": 0.323,
-"e70fcecd44f3": 0.173
+"e70fcecd44f3": 0.173,
+"ee1042368c36": 0.051,
+"efc623739638": 0.03
 },
 "sent": [
-{
-"e": [
-"coming",
-"crash",
-"his",
-"low",
-"memecoin",
-"nightmare",
-"shockingly",
-"suddenly",
-"true",
-"trump",
-"worst"
-],
-"k": [
-"crash"
-],
-"t": 1795351541.707013,
-"u": [
-"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkpjMGEyVFZzYUxJd1lnRVpjNFNtLWM4Z2Rnc3VzdVNQZS0xV2FmRFJ3OGt2NGd0V1FBcldlYjlHVHBVS1B3cDRweTgzdEJrWVR3MWlPeF9lUnctWmlacC1iMS14TE9ZQ3NfRlZYb1Z2Qy1zVEM1cFpBeHNIZk9LcDNWekJORUNzVG9hWl9IRl9uNS1OZ1M3V3NB?oc=5",
-"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1JRSWxZSDFvRlAtbTNjQTVHOTVEbXdvZ3ZBZnNOT3NxZHFZa3g2X1daTklrVkk4U1pIUzRMOWJSbmJlMzB2LWxHNGxyYzk1M0lvV2lKUDVOYVM1Ri1MZGRRRlpXUkNVdUxJVTNtS09GcWczVjE0N2JXRUJFQjI4MURIU2xwWEg1dEh3?oc=5",
-"https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEdfUVMtY2hLZmlsX19wcTh2Yzdyczh3RDQySGt0T2VwSEZnSlFVZ0Q1U1N3NW5KSkdXenRWVTNYTldabUtmSWJRa2FzME5EZEwwb2NRNlFjTmJOUUlKSTF0S3o1TklCU2xxLWZPU2NXR2Rxbkp3MUctMTNDSG93RUFkNHYyU1R6eTdVWGx6QVJpWVcxU3U5SkZySEZ4Z2E0N3dTZmpB?oc=5"
-],
-"w": [
-"bitcoin",
-"coming",
-"crash",
-"his",
-"low",
-"memecoin",
-"nightmare",
-"price",
-"shockingly",
-"suddenly",
-"true",
-"trump",
-"worst"
-]
-},
 {
 "e": [
 "bloomberg",
@@ -5664,71 +5632,97 @@
 "nvidia",
 "triple"
 ]
+},
+{
+"e": [
+"ansem"
+],
+"k": [
+"hack"
+],
+"t": 1795529561.5233567,
+"u": [
+"https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
+"https://news.google.com/rss/articles/CBMiVEFVX3lxTE02Q3M1dm9tMG5Ccm9BRk9ZYlZLSVNQcFU1TjdieWpRelItVXhzRnR2d09YR1N1N0RQaGE0dkFlMU5hTnBRbk12TFV1aWNOcVZxVjJlRw?oc=5",
+"https://t.me/lookonchainchannel/11262"
+],
+"w": [
+"ansem",
+"hacked",
+"his",
+"memecoins",
+"million",
+"sold",
+"trader",
+"wallet",
+"was",
+"were"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"25aa3a7f9cee",
+61,
+85,
+3
+],
+[
 "a5db0d4b696b",
-50,
-263,
+49,
+273,
 2
 ],
 [
 "3bd5729cb6c4",
-56,
-187,
+54,
+197,
 4
 ],
 [
 "dea6c33fadc3",
-64,
-234,
+63,
+245,
 3
+],
+[
+"1531e2d6934e",
+65,
+244,
+7
 ],
 [
 "3ac4f4cd2c93",
 10,
-40,
+50,
 1
 ],
 [
-"1531e2d6934e",
-78,
-234,
+"9ca4e81fe66a",
+71,
+286,
 7
+],
+[
+"b9a04713ef3d",
+57,
+213,
+3
 ],
 [
 "ba3829356fad",
 10,
-48,
+58,
 1
 ],
 [
-"87abed4c05cb",
-49,
-202,
-2
-],
-[
-"90e68ff780ec",
-24,
-45,
-1
-],
-[
-"af0c587c2181",
-0,
-359,
-1
-],
-[
-"8019606a1924",
-10,
-155,
+"25efe7b740db",
+41,
+47,
 1
 ]
 ],
-"top_at": 1795528949.4250727
+"top_at": 1795529561.5233567
 }
