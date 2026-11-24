@@ -183,7 +183,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795504487.0,
 "tgtext": "Classic sell low, buy high!\n\nThis guy panic-sold 1,277 $ETH ($2.08M) at $1,627 during the market crash 3 days ago.\n\nThen, after Jensen Huang returned to #Nvidia, he FOMO-bought 1,155 $ETH ($2.08M) at $1,798.\n\nHe lost 122 $ETH ($207K) in the process.\n\nhttps://arkm.com/explorer/address/0x975eb01D643D3d52541111FdDeE6521B9bB85508",
 "title": "Classic sell low, buy high!",
@@ -231,7 +231,7 @@
 "CoinDesk",
 "The Block"
 ],
-"t": 1795517393.9369853,
+"t": 1795518006.3215785,
 "t0": 1795497900.0,
 "tgtext": "",
 "title": "Jensen Huang's Return Can't Rescue Bitcoin: Price Whipsaws at $60,600 as $762 Million in Positions Liquidated",
@@ -330,7 +330,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795501754.0,
 "tgtext": "Upbit Flags 0G Over Token Supply and Disclosure Concerns, Suspends Deposits; Announces Listings for RPL, ACU, DBR and ON\n\nUpbit, South Korea's largest cryptocurrency exchange, announced it has designated Zero Gravity (0G) as an investment-caution asset and suspended deposits from November 24, citing concerns over token supply, circulation plans and disclosure transparency. The exchange will review the designation between December 21 and 24, with possible outcomes including delisting.\n\nSeparately, Upbit announced listings for Rocket Pool (RPL), Acurast (ACU) and deBridge (DBR) in BTC and USDT markets, and Orochi Network (ON) in KRW, BTC and USDT markets. Bithumb, South Korea's second-largest crypto exchange, also announced KRW listings for ON, Sanctum (SANC) and Subsquid (SQD) on November 24. \u2014 link",
 "title": "Upbit Flags 0G Over Token Supply and Disclosure Concerns, Suspends Deposits; Announces Listings for RPL, ACU, DBR and ON",
@@ -1030,6 +1030,19 @@
 "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
 ]
 },
+"42357787e6d3": {
+"coin": "bitcoin",
+"src": "Coinpaper",
+"srcs": [
+"Coinpaper"
+],
+"t": 1795518006.3215785,
+"t0": 1795515847.0,
+"tgtext": "",
+"title": "Bitcoin Price Prediction: Could BTC Crash Toward $50K?",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWU4bWttd1BIb1ozd3dMb29vYWZ5MWxTOW5YV201akJacGxYcFd1Sm1iS3hGQmhhbUNNQWpjRXBWb2xzUVliU3d6X3F3VmpaSnd0ZzNGSTBTeTlPRFplUHZVRkF2YmFmR3YtbFlGbmRMdWV0dldKQmNYSVFIS3hnLUVPeGRIN092cXNmdGRRNUVQUVB3QVFZM3pzcTZpRVBLcU1TQ2gwU3FINnYwWDVxdHlB?oc=5",
+"urls": []
+},
 "439c6baddf3c": {
 "coin": "ethereum",
 "src": "Benzinga",
@@ -1059,6 +1072,24 @@
 "urls": [
 "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
 "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes"
+]
+},
+"449924dcd3cc": {
+"coin": "bitcoin",
+"src": "The Block",
+"srcs": [
+"CoinDesk",
+"FinanceFeeds",
+"The Block"
+],
+"t": 1795518310.816651,
+"t0": 1795498800.0,
+"tgtext": "",
+"title": "DOJ moves to recover $1.17 billion from Binance hack, Strategy buys another 457 BTC, and more",
+"url": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
+"urls": [
+"https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
+"https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
 ]
 },
 "471c7203663f": {
@@ -2061,7 +2092,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795499094.0,
 "tgtext": "\ud83d\udea8 NOW: Michael Saylor's Strategy is once again worth less than the Bitcoin it holds after last week's BTC plunge pushed its mNAV back below 1.\n\nNews | Markets | YouTube",
 "title": "NOW: Michael Saylor's Strategy is once again worth less than the Bitcoin it holds after last week's BTC plunge pushed its mNAV back below 1.",
@@ -2510,21 +2541,6 @@
 "https://www.theblock.co/news/business/2026-11-23-ark-buys-146-million-worth-anthropic-since-debut-444866"
 ]
 },
-"9942c779b124": {
-"coin": "",
-"src": "Hokanews",
-"srcs": [
-"Cryptonews.net",
-"Hokanews",
-"Startup Fortune"
-],
-"t": 1795345136.1676567,
-"t0": 1795324442.0,
-"tgtext": "",
-"title": "Cyber Bridge Exploit Mints 5.21 Million CYBER Tokens as Upbit and Bithumb Halt Transfers",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMU0tUVZ2Z0VQRTQzQmprOFFCS0VpaHJWZW1TcGRUNHA2WnlpUlUzQi0wRTBmTTlKbG9Zdi1UTHp0QXVtS2xrTF9xY3VmMW5PaWpVYkRmZTdiZFZ6bVZ3MUxUTkhkNzJaUDBfQ3BsTkJUV2RhNWxkMG9VXzBHNWhZTkNn?oc=5",
-"urls": []
-},
 "9a90986671ad": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2726,7 +2742,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795513179.0,
 "tgtext": "Ansem(@blknoiz06) appears to be dumping his holdings!\n\nHe keeps dumping $ANSEM, sending the price down 60% in just 1 hour.\n\nWas his wallet hacked?\n\nhttps://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities\nAnsem(@blknoiz06) appears to be dumping his holdings!  He keeps dumping $ANSEM, sending the price down 60% in just 1 hour.  Was his wallet hacked?  https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52#activities",
 "title": "Ansem(@blknoiz06) appears to be dumping his holdings! He keeps dumping ANSEM, sending the price down 60% in just 1 hour. Was his wallet hacked? https://solscan.io/account/GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52activ",
@@ -2804,10 +2820,11 @@
 "src": "CoinGape",
 "srcs": [
 "CoinGape",
+"Crypto News",
 "CryptoTicker.io",
 "Wu Blockchain"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795497510.0,
 "tgtext": "U.S. Bitcoin ETFs Shed $570 Million, Extending Outflow Streak to Five Straight Days\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $570 million in net outflows on November 23, while Fidelity's FBTC led individual fund inflows with $13.29 million. Spot Ethereum ETFs saw $84.96 million in net outflows, with Fidelity's FETH posting the largest inflow at $5.58 million. \u2014 link",
 "title": "Bitcoin Price Drops to $60k as Nvidia Rally Fades and ETFs Shed $570M: What\u2019s Next?",
@@ -2885,6 +2902,19 @@
 "tgtext": "",
 "title": "Crypto News: Pepeto Clears $11.311M While Whales Buy the Bitcoin Price Crash and a $250,000 Bitcoin Price Prediction Holds",
 "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOYm1RRG9LOUdkc3BBWWxYR2VYSVNfQTBRbV9kTkVtdkdPY0xYMk1GNmw5MTdfa3BEQTk5bms2M1YwRlBkbHkxRVcwUDBLZDc4U2dYVDVsZmFhOW9XRkVGbG40ejNjd0pFc1V6dG04Wm1SdEROS25ucldqRXVJaHVpaGNJTFdqSEFETHR5ZloyVjdEbFVkeU1mclYyNEtEUVBoOE9MOUlfN0J2ZWVBaW9tX0VOaHZGTTdsckpBNkRqNkt2Y3NEMzRhNl94U2gzMVM5T3drdHZvUUZhWjF6aUlqcGI1aHVfUmRCUF8zUjlwR3Z5U1ZDaDJyTVYwMVMtRVpvMm41QWQwX01XR1ZwS05vNHcxTVVsYzZkeGVPSw?oc=5",
+"urls": []
+},
+"b0b942b530e4": {
+"coin": "bitcoin",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795518310.816651,
+"t0": 1795518259.0,
+"tgtext": "\ud83d\udea8 INSIGHT: Bitcoin's bear market is now its longest on record at 411+ days, but also its shallowest, per Grayscale.\n\nNews | Markets | YouTube",
+"title": "INSIGHT: Bitcoin's bear market is now its longest on record at 411+ days, but also its shallowest, per Grayscale.",
+"url": "https://t.me/cointelegraph/73494",
 "urls": []
 },
 "b0c9c465d45c": {
@@ -3179,7 +3209,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795515556.7159626,
+"t": 1795518310.816651,
 "t0": 1795505703.0,
 "tgtext": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks\n\nGrayscale said Bitcoin and other major cryptocurrencies appear oversold, but near-term prices will depend more on AI-related risks than blockchain fundamentals. In a November 23 report, research head Zach Pandl noted that Bitcoin fell to $55,000 on November 21, while global crypto ETPs saw over $2 billion in outflows last week.\n\nSignificant stablecoin redemptions, declining BTC and ETH futures open interest, and rising demand for put options further reflected market stress. Despite these pressures, Grayscale said blockchain fundamentals remain solid and current valuations offer attractive entry points for medium- to long-term investors. \u2014 link",
 "title": "Grayscale Says Crypto Is Oversold, Valuations Attractive for Long-Term Investors Despite AI Risks",
@@ -3458,19 +3488,19 @@
 "coin": "bitcoin",
 "src": "The Block",
 "srcs": [
-"Altcoin Buzz",
 "BitKE",
-"Blockonomi",
+"CoinDesk",
 "FinanceFeeds",
 "The Block"
 ],
-"t": 1795517698.3210034,
+"t": 1795518006.3215785,
 "t0": 1795496411.0,
 "tgtext": "",
 "title": "DOJ moves to recover $1.17 billion from Binance hack, Strategy buys another 457 BTC, and more",
 "url": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
 "urls": [
-"https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430"
+"https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
+"https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
 ]
 },
 "dbfcf00084a6": {
@@ -3600,9 +3630,10 @@
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph",
-"Crypto Briefing"
+"Crypto Briefing",
+"The Crypto Times"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795514883.0,
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
 "title": "ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.",
@@ -3809,19 +3840,6 @@
 "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829"
 ]
 },
-"ebcfa7d646fe": {
-"coin": "bitcoin",
-"src": "ad-hoc-news.de",
-"srcs": [
-"ad-hoc-news.de"
-],
-"t": 1795345136.1676567,
-"t0": 1795327332.0,
-"tgtext": "",
-"title": "Bitcoin price rebounds above USD 60,000 after leveraged liquidations",
-"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVWQ2ZDRLUDQzTngzNWRhQWhzcDRISW1CMU1hOVNqZ3NRMEMzRFpianEtazVNT0xWQ25za2xUeXF2Um1NUEY3NjRFOUhlNVhUWnhRWEFCcV9tWXZLWVcxNkl3MkZ2djJNaDRZcWdWZGZXYVJZWF9ZYjFSVjk3UkZpX0lyaGJHNHV3LUVPUEN4d1JJb1NXeGQtQlFRdUttaFJ6bmhwdVdheVAzTlV4Q2hOU0xaTmZWOG9QWG44WGFLbXpMc2RrNHVnOE5B?oc=5",
-"urls": []
-},
 "ec1e1ee03843": {
 "coin": "",
 "src": "Cointelegraph",
@@ -3902,7 +3920,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795517698.3210034,
+"t": 1795518310.816651,
 "t0": 1795498942.0,
 "tgtext": "Smart trader 0x15a4, who has made $37.84M in profit, created a new wallet and opened a 10x short on 200,000 $NVDA ($32.8M).\n\nHe's already up $584K in unrealized profit.\n\nLiquidation price: $187.58\n\nhttps://hypurrscan.io/address/0xf1B1A8c5f8eF0023875891C2F931ACc8dF28196E#perps\nhttps://hypurrscan.io/address/0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb#txs",
 "title": "Smart trader 0x15a4, who has made $37.84M in profit, created a new wallet and opened a 10x short on 200,000 NVDA ($32.8M).",
@@ -4093,39 +4111,39 @@
 "11a3ff33464a": 0.017,
 "217ca478b2e5": 0.203,
 "247c28476c30": 0.132,
+"25da4a0abdca": 0.101,
 "388d09960ba3": 0.211,
+"3bd5729cb6c4": 0.091,
 "3d1c8ba7c6d7": 0.033,
+"449924dcd3cc": 0.718,
+"525496eea061": 0.044,
+"5d74c8647d0e": 0.008,
 "5da75eb24890": 0.016,
 "64f7ee98057c": 0.215,
 "67976dc6a457": 0.05,
-"764db05018e5": 0.003,
 "7d93dd8f2d30": 0.863,
 "8319eb3a7fe7": 0.32,
 "85d09ac33d3c": 0.028,
 "8955a4eb697c": 0.073,
-"94f5a04ed605": 0.032,
+"94f5a04ed605": 0.086,
 "a5db0d4b696b": 0.99,
 "a6aded19dba7": 0.036,
-"aa64503255ea": 0.473,
+"aa64503255ea": 0.514,
 "aa9e86430d7a": 0.031,
 "af0c587c2181": 0.243,
+"b0b942b530e4": 0.64,
 "b19ed33a2b7a": 0.038,
-"b572c4339614": 0.027,
+"b426359978fd": 0.004,
 "b9a04713ef3d": 0.475,
-"c0dd441ea421": 0.063,
 "c9d660ac64ba": 0.099,
 "cc51f2023b28": 0.021,
-"ce4fcaf7af66": 0.285,
 "d203a8cdd47b": 0.035,
 "d43b0bb50dad": 0.176,
 "d8362f3301e3": 0.033,
-"db3c6d3dde60": 0.937,
-"dea6c33fadc3": 0.781,
+"dea6c33fadc3": 0.871,
 "ecdc77f5b55b": 0.05,
 "edaa1065abd4": 0.059,
-"fa0f69ab90cf": 0.049,
-"fa1c1bab690f": 0.101,
-"fd3f07d7fb29": 0.145
+"fa1c1bab690f": 0.101
 },
 "sent": [
 {
@@ -5694,63 +5712,63 @@
 [
 "a5db0d4b696b",
 45,
-75,
-1
-],
-[
-"db3c6d3dde60",
-62,
-355,
-5
-],
-[
-"7d93dd8f2d30",
-11,
-310,
-1
-],
-[
-"108088b966de",
-21,
-266,
+86,
 1
 ],
 [
 "dea6c33fadc3",
-69,
-47,
-2
+79,
+57,
+3
 ],
 [
-"6fd65a81a242",
-0,
-358,
+"7d93dd8f2d30",
+10,
+320,
+1
+],
+[
+"108088b966de",
+20,
+276,
+1
+],
+[
+"449924dcd3cc",
+56,
+325,
+3
+],
+[
+"bfc8fb178301",
+6,
+210,
+1
+],
+[
+"b0b942b530e4",
+22,
+1,
 1
 ],
 [
 "066933461e73",
-5,
-220,
+4,
+230,
 1
+],
+[
+"aa64503255ea",
+24,
+347,
+4
 ],
 [
 "f0af040f7881",
 0,
-313,
+323,
 1
-],
-[
-"b9a04713ef3d",
-59,
-15,
-2
-],
-[
-"aa64503255ea",
-16,
-336,
-3
 ]
 ],
-"top_at": 1795517698.3210034
+"top_at": 1795518310.816651
 }
