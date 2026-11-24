@@ -870,7 +870,7 @@
 "srcs": [
 "Benzinga"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795462208.0,
 "tgtext": "",
 "title": "Eric Trump-Backed American Bitcoin Stock Surges 18% After Securing $150M Bitcoin-Backed Loan",
@@ -989,7 +989,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795459544.0,
 "tgtext": "JUST IN: Jensen Huang officially returns to Nvidia's $NVDA headquarters after being reinstated as CEO.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Jensen Huang officially returns to Nvidia's NVDA headquarters after being reinstated as CEO.",
@@ -1333,7 +1333,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795467905.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.",
@@ -1716,6 +1716,27 @@
 "url": "https://t.me/cointelegraph/73454",
 "urls": [
 "https://bitcoinmagazine.com/news/uk-bars-crypto-exchanges-market-making"
+]
+},
+"6b816bf2bff6": {
+"coin": "usd-coin",
+"src": "bloomingbit",
+"srcs": [
+"Breakingthenews.net",
+"CoinMarketCap",
+"Cointelegraph",
+"Crypto Briefing",
+"Crypto News"
+],
+"t": 1795480197.0375044,
+"t0": 1795459560.0,
+"tgtext": "",
+"title": "US Justice Department Seeks to Recover More Than $1.1 Billion in USDC Stolen by North Korean Hackers in Binance Hack",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44bTJBMm1zQnJLVDluWWl1Smg3OV9GZVdHWHdIeXN3T0RZNXR5RXFRODNGcG1EdG5ZVWhtQ3ZPcEFQZW5ReldBMEZCcFZmZ2lwa21JYQ?oc=5",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+"https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+"https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "6bb1318f0f71": {
@@ -2756,7 +2777,7 @@
 "Cryptonews.net",
 "Hindustan Times"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795459660.0,
 "tgtext": "",
 "title": "Bitcoin price today: BTC rebounds above $61,000 after $1.8 billion crypto liquidations, Fed rate fears persist | Hindustan Times",
@@ -2990,6 +3011,43 @@
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV1FrTXhzalh6dDdkWkl5NERjYVRXTTdGa3pJMHpnelBkYmFJMGhHcFJQaXZsUVoxVGJoaDVzeVBFYmR1LUNmMUdGMXNIZU9zTHEyNFRqbDU3TVBSc3ZXcFRNVjB4a0dHOW5ZOG1oRC1zY1AzeTJRTGo5eHBpZXlhQjhVMkdUTll0WWc2TnF2RmdWclRxZG9BZW1xVmQ5bzBIdnF6cFBrbw?oc=5",
 "urls": []
 },
+"b1c32bb67dea": {
+"coin": "bitcoin",
+"src": "Bitcoin Magazine",
+"srcs": [
+"Bitcoin Magazine",
+"TradingView"
+],
+"t": 1795480197.0375044,
+"t0": 1795460988.0,
+"tgtext": "",
+"title": "Strive (ASST) Buys No Bitcoin Last Week, Holdings Stay at 43,404 BTC",
+"url": "https://bitcoinmagazine.com/news/strive-asst-no-bitcoin-purchases-holdings",
+"urls": [
+"https://bitcoinmagazine.com/news/strive-asst-no-bitcoin-purchases-holdings"
+]
+},
+"b2775c72cbf6": {
+"coin": "usd-coin",
+"src": "Cointelegraph",
+"srcs": [
+"Breakingthenews.net",
+"CoinMarketCap",
+"Cointelegraph",
+"Crypto Briefing",
+"Crypto News"
+],
+"t": 1795479891.4643624,
+"t0": 1795458361.0,
+"tgtext": "\ud83d\udea8 JUST IN: US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.\n\nNews | Markets | YouTube",
+"title": "US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.",
+"url": "https://t.me/cointelegraph/73478",
+"urls": [
+"https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+"https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+"https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "b3d69b0bbd4f": {
 "coin": "usd-coin",
 "src": "The Block",
@@ -3066,7 +3124,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795469089.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia NVDA AI chips to China.",
@@ -3135,7 +3193,7 @@
 "Coin Edition",
 "Cryptonews.net"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795473519.0,
 "tgtext": "",
 "title": "Bitcoin Price on Black Friday 2026: Will BTC Rally or Crash Again?",
@@ -3531,7 +3589,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795471226.0,
 "tgtext": "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Nvidia NVDA short sellers lose $11,300,000,000 today.",
@@ -3699,7 +3757,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1795479581.669496,
+"t": 1795480197.0375044,
 "t0": 1795476492.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The CFTC says regulated exchanges and clearinghouses can now count \n$BTC, $ETH and payment stablecoins toward their financial resources requirements.\n\nNews | Markets | YouTube",
 "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
@@ -4033,26 +4091,26 @@
 },
 "probs": {
 "00578c1845a5": 0.043,
-"04baae9fa8c5": 0.948,
 "06fcfb769a57": 0.031,
 "0f16acb496ff": 0.03,
 "1d5223f73925": 0.065,
 "1f4556a8113d": 0.079,
 "2f77c2d118fa": 0.013,
-"3748bd2608ca": 0.447,
+"3080f5da5d9d": 0.046,
+"3748bd2608ca": 0.302,
 "3d5896919994": 0.039,
-"4f82d5c08807": 0.706,
 "5d7dddabdb88": 0.003,
+"61ddc45d28e0": 0.034,
 "64cf273d4294": 0.08,
 "6899919982a4": 0.02,
 "68b5d35e5538": 0.048,
+"6b816bf2bff6": 0.633,
 "78f7a83e386d": 0.07,
-"7af9039d773f": 0.034,
+"7af9039d773f": 0.042,
 "82956fc0ba8f": 0.083,
 "85511f0a93de": 0.088,
-"9f47c0b8ee02": 0.063,
+"9f47c0b8ee02": 0.035,
 "a5b5be72cd8c": 0.613,
-"a8d816d1dce0": 0.031,
 "ad278c65ede0": 0.093,
 "b0805d1a5f72": 0.215,
 "b257540f6141": 0.014,
@@ -4060,10 +4118,10 @@
 "b595b2330089": 0.399,
 "bbfad7c2811a": 0.442,
 "bc7e7cff3650": 0.047,
+"c6ec2842b52d": 0.067,
 "d1334f566ac1": 0.147,
-"d4a17baa3787": 0.04,
 "d94736570529": 0.031,
-"db0a8c59099c": 0.041,
+"db0a8c59099c": 0.051,
 "dd238fed4c50": 0.284,
 "e046ef25ad42": 0.043,
 "e50be2b0968e": 0.056,
@@ -5326,65 +5384,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"04baae9fa8c5",
-62,
-358,
-17
-],
-[
 "4f82d5c08807",
-9,
-195,
+7,
+205,
 1
 ],
 [
+"6b816bf2bff6",
+64,
+344,
+16
+],
+[
 "a5b5be72cd8c",
-55,
-332,
+54,
+342,
 3
 ],
 [
 "e8106f1449ae",
-28,
-51,
-2
-],
-[
-"3748bd2608ca",
 20,
-290,
-1
+62,
+2
 ],
 [
 "bbfad7c2811a",
 45,
-101,
+111,
 2
 ],
 [
 "b595b2330089",
 10,
-175,
+185,
 1
 ],
 [
 "3e7c616a6eaf",
 0,
-334,
+344,
 1
 ],
 [
-"4921259ea910",
-0,
-358,
+"3748bd2608ca",
+19,
+300,
 1
 ],
 [
 "dd238fed4c50",
 10,
-139,
+150,
 1
+],
+[
+"b1c32bb67dea",
+2,
+320,
+2
 ]
 ],
-"top_at": 1795479581.669496
+"top_at": 1795480197.0375044
 }
