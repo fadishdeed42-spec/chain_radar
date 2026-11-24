@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795399821.839101,
 1795406112.7877598,
 1795419711.7326458,
 1795420144.722272,
@@ -18,7 +17,8 @@
 1795450035.4702044,
 1795456800.1133256,
 1795470349.8308902,
-1795486146.5561724
+1795486146.5561724,
+1795489934.6297452
 ],
 "menu": {
 "02523ac593dc": {
@@ -210,7 +210,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795489321.8927212,
+"t": 1795489934.6297452,
 "t0": 1795483814.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: President Trump's Nvidia stake may have gained up to $15 million after Jensen Huang's return as CEO sent the stock up 30%, per FT.\n\nNews | Markets | YouTube",
 "title": "NOW: President Trump's Nvidia stake may have gained up to $15 million after Jensen Huang's return as CEO sent the stock up 30%, per FT.",
@@ -684,7 +684,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795489321.8927212,
+"t": 1795489934.6297452,
 "t0": 1795485391.0,
 "tgtext": "Mysterious whale 0x5011 bought another 466.53B $PEPE ($1.72M), bringing his total purchases to 3.345T $PEPE ($12.21M)!\nhttps://x.com/lookonchain/status/2124794639010164809",
 "title": "Mysterious whale 0x5011 bought another 466.53B PEPE ($1.72M), bringing his total purchases to 3.345T PEPE ($12.21M)!",
@@ -768,6 +768,23 @@
 "https://cryptoslate.com/wagyus-13-5-million-token-crash-exposes-another-coin-with-99-9-held-by-one-wallet/"
 ]
 },
+"2dc2bed3538f": {
+"coin": "zcash",
+"src": "The Block",
+"srcs": [
+"CoinMarketCap",
+"Crypto Economy",
+"The Block"
+],
+"t": 1795489631.2172015,
+"t0": 1795472112.0,
+"tgtext": "",
+"title": "Grayscale\u2019s new 2x leveraged Zcash ETF takes 13% opening day tumble",
+"url": "https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407",
+"urls": [
+"https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407"
+]
+},
 "2e65b75b6f56": {
 "coin": "bitcoin",
 "src": "Lookonchain",
@@ -848,7 +865,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795489321.8927212,
+"t": 1795489934.6297452,
 "t0": 1795485934.0,
 "tgtext": "A whale just opened over $147M in #oil long positions!  868,840 $BRENTOIL ($91M)  580,960 $CL ($56.1M)  https://hypurrscan.io/address/0x0cc159b29f45c9cc0da41326d7e18e04245bc7cb#perps",
 "title": "A whale just opened over $147M in oil long positions! 868,840 BRENTOIL ($91M) 580,960 CL ($56.1M) https://hypurrscan.io/address/0x0cc159b29f45c9cc0da41326d7e18e04245bc7cbperps",
@@ -1129,7 +1146,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795489321.8927212,
+"t": 1795489934.6297452,
 "t0": 1795480586.0,
 "tgtext": "Ethereum Foundation Doubles Protocol Security Team, Warns AI Threats Are More Urgent Than Quantum Computing\n\nThe Ethereum Foundation, said AI-driven security threats have become more urgent than quantum computing risks, with AI models discovering software vulnerabilities faster than humans can review them. The foundation has doubled its protocol security team and made defenses against AI and quantum threats its top priority. Its plans include replacing elliptic-curve cryptography with hash-based signatures for validators and wallets, alongside new blob commitments. The foundation warned that the overhaul would be harder than Ethereum's 2022 Merge and could delay other long-planned upgrades. \u2014 link",
 "title": "Ethereum Foundation Doubles Protocol Security Team, Warns AI Threats Are More Urgent Than Quantum Computing",
@@ -1187,19 +1204,6 @@
 "https://cryptoslate.com/bitcoin-rockets-above-64000-as-nvidia-reinstates-jensen-huang-wiping-out-372-million-in-shorts/",
 "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952"
 ]
-},
-"4bfec7101b9f": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795316773.6241171,
-"t0": 1795295311.0,
-"tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.\n\n@WatcherGuru",
-"title": "\ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
-"url": "https://t.me/WatcherGuru/16241",
-"urls": []
 },
 "4c4b03904379": {
 "coin": "",
@@ -2117,6 +2121,23 @@
 "https://decrypt.co/383775/czech-authorities-charge-15-over-12m-unlicensed-crypto-casino"
 ]
 },
+"7a161c3c0adf": {
+"coin": "",
+"src": "The Korea Daily",
+"srcs": [
+"Coinpedia",
+"Cryptonews.net",
+"Pluang",
+"The Korea Daily",
+"grafa.com"
+],
+"t": 1795489934.6297452,
+"t0": 1795471590.0,
+"tgtext": "",
+"title": "Binance Hack \u2014 US Seeks to Forfeit $1.15B in North Korean Crypto Theft",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1reTk0cy1tQTBxVTU3aGRTSW1sNjVNanN4ZUFQTGhSdDRmUHR0ZUg1MG91Ui1EU1RNbWZUaDFQelhjX2dvOGdNcFhVOUEzTWdZZ1NMNnF3Sm8waGtKUUJkd2tuM0VTM2RHdnVNeDQ2Z05NZ1dpR2VROQ?oc=5",
+"urls": []
+},
 "7ae6286ace76": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -2978,6 +2999,19 @@
 "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vVTk5aHpCYlVnVXRqQXVlcFctT3FNYXFRYnE4c2R4ZjJlN3JFNngtak9IT0dmelB2RWJZeTFwbnZfSk45Vjh4ZzBfbkhEeTZDWjBoU2JYVG1BVmNpRDV1c2FyVVdSUGg2R21OQzR4Yw?oc=5",
 "urls": []
 },
+"aa3f9b6c02fe": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795489934.6297452,
+"t0": 1795489885.0,
+"tgtext": "Trader 1K1MiJ sold 1,250 $BTC ($114.96M) at $91,967 a year ago and is now buying the dip after a year of inactivity.\n\nOver the past 9 days, he has bought 726 $BTC ($45.83M) at an average price of $63,116.\n\nhttps://arkm.com/explorer/address/1K1MiJoK9iz3WKZwXFshmXrwSYSDNRAAy7",
+"title": "Trader 1K1MiJ sold 1,250 BTC ($114.96M) at $91,967 a year ago and is now buying the dip after a year of inactivity.",
+"url": "https://t.me/lookonchainchannel/11248",
+"urls": []
+},
 "ac1ac93c77cd": {
 "coin": "ethereum",
 "src": "KuCoin",
@@ -3199,7 +3233,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795489321.8927212,
+"t": 1795489934.6297452,
 "t0": 1795469089.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia $NVDA AI chips to China.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States blacklists Megaspeed over suspected diversion of Nvidia NVDA AI chips to China.",
@@ -3612,7 +3646,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795489321.8927212,
+"t": 1795489934.6297452,
 "t0": 1795489250.0,
 "tgtext": "\ud83d\udea8 NOW: Arthur Hayes says, \"The $NVDA  pump is the worst thing that could happen for our crypto bags.\"\n\nHe adds that US stocks need to crash so the Fed will print money.\n\nNews | Markets | YouTube",
 "title": "NOW: Arthur Hayes says, \"The NVDA pump is the worst thing that could happen for our crypto bags.\"",
@@ -3746,7 +3780,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795489321.8927212,
+"t": 1795489631.2172015,
 "t0": 1795486257.0,
 "tgtext": "Highlight Clip: Early Emails Revealed: Satoshi Nakamoto Was Also Trying to Attract New Bitcoin Users\n\nEarly Emails Revealed: Satoshi Nakamoto Was Also Trying to Attract New Bitcoin Users\n\nOn November 19, Blockstream CEO and Hashcash inventor Adam Back said that early emails revealed during the COPA trial showed that Satoshi Nakamoto had actively explored ways to attract users to try and adopt Bitcoin, using strategies such as raising awareness, creating FAQs, and developing use cases. In its early days, Bitcoin underwent growth experimentation much like a startup, and no one knew whether the system would actually take off. \u2014 link",
 "title": "Highlight Clip: Early Emails Revealed: Satoshi Nakamoto Was Also Trying to Attract New Bitcoin Users",
@@ -3853,7 +3887,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795489018.3369927,
+"t": 1795489934.6297452,
 "t0": 1795476492.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The CFTC says regulated exchanges and clearinghouses can now count \n$BTC, $ETH and payment stablecoins toward their financial resources requirements.\n\nNews | Markets | YouTube",
 "title": "The CFTC says regulated exchanges and clearinghouses can now count",
@@ -3896,6 +3930,19 @@
 "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
 "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"eaf0c310eed7": {
+"coin": "bitcoin",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795489934.6297452,
+"t0": 1795489702.0,
+"tgtext": "JUST IN: Bitcoin crashes under $60,000 again as ETH falls below $1,700\n\n@WatcherGuru",
+"title": "Bitcoin crashes under $60,000 again as ETH falls below $1,700",
+"url": "https://t.me/WatcherGuru/16299",
+"urls": []
 },
 "eba103800292": {
 "coin": "bitcoin",
@@ -4194,42 +4241,42 @@
 "06fcfb769a57": 0.042,
 "0796134123bb": 0.05,
 "08334a3d07ea": 0.867,
+"0e230f69465d": 0.043,
 "19fddbec85fc": 0.062,
 "1d5223f73925": 0.065,
 "1f4556a8113d": 0.095,
 "272e361ba6ff": 0.819,
+"2dc2bed3538f": 0.2,
 "348e72257911": 0.742,
 "364002a067c2": 0.063,
+"370c14b29eac": 0.055,
 "402792399b84": 0.014,
-"4216d8574b72": 0.062,
 "477e73dc2e44": 0.48,
-"4c4b03904379": 0.11,
-"4f82d5c08807": 0.697,
+"4c4b03904379": 0.178,
+"5c647c28ea7c": 0.102,
 "61ddc45d28e0": 0.032,
 "64cf273d4294": 0.077,
-"6f2261686e80": 0.151,
 "70b3fb7d8a52": 0.059,
-"78770d04ced1": 0.168,
+"7a161c3c0adf": 0.588,
+"7ce811d7b27a": 0.169,
 "7e9bd750d695": 0.008,
 "8298d1d6e61e": 0.03,
 "85511f0a93de": 0.105,
 "8856021975cb": 0.011,
 "8f4e11ed7aa8": 0.037,
 "9bb3609f79e8": 0.046,
-"9f47c0b8ee02": 0.042,
-"a8d816d1dce0": 0.037,
-"ad278c65ede0": 0.11,
+"aa3f9b6c02fe": 0.36,
+"ab41b8fd7ca0": 0.043,
 "b0805d1a5f72": 0.272,
-"b1fd119930de": 0.641,
-"b1fd6d4a845e": 0.108,
-"b257540f6141": 0.017,
-"b595b2330089": 0.446,
-"b9e5d19b5a26": 0.169,
+"b0eafe96ccb4": 0.011,
+"bbe1691a1ef2": 0.045,
+"bbfad7c2811a": 0.161,
 "be168f36cdfe": 0.002,
-"d5d9139b10fe": 0.474,
+"d5d9139b10fe": 0.827,
 "df9b4601f94e": 0.347,
-"e8106f1449ae": 0.286,
-"f54df8d72d1e": 0.021,
+"e8106f1449ae": 0.606,
+"eaf0c310eed7": 0.958,
+"f38de7aba4ad": 0.193,
 "f87af5217200": 0.023
 },
 "sent": [
@@ -5509,71 +5556,119 @@
 "positions",
 "whale"
 ]
+},
+{
+"e": [
+"arthur",
+"hayes",
+"now",
+"nvda"
+],
+"k": [],
+"t": 1795489631.2172015,
+"u": [
+"https://t.me/cointelegraph/73483"
+],
+"w": [
+"arthur",
+"bags",
+"could",
+"happen",
+"hayes",
+"now",
+"nvda",
+"our",
+"pump",
+"thing",
+"worst"
+]
+},
+{
+"e": [],
+"k": [
+"crash"
+],
+"t": 1795489934.6297452,
+"u": [
+"https://t.me/WatcherGuru/16299"
+],
+"w": [
+"$60",
+"000",
+"700",
+"again",
+"below",
+"bitcoin",
+"crashes",
+"eth",
+"falls",
+"under"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"eaf0c310eed7",
+20,
+4,
+1
+],
+[
 "08334a3d07ea",
 24,
-92,
+102,
+1
+],
+[
+"d5d9139b10fe",
+10,
+11,
 1
 ],
 [
 "272e361ba6ff",
 24,
-66,
+76,
 1
 ],
 [
 "348e72257911",
 24,
-56,
+67,
 1
 ],
 [
-"4f82d5c08807",
-0,
-357,
+"e8106f1449ae",
+5,
+224,
 1
 ],
 [
-"b1fd119930de",
-62,
-358,
-8
+"7a161c3c0adf",
+69,
+306,
+5
 ],
 [
 "477e73dc2e44",
 20,
-146,
+156,
 2
-],
-[
-"d5d9139b10fe",
-10,
-1,
-1
 ],
 [
 "b595b2330089",
 0,
-337,
+347,
 1
 ],
 [
-"df9b4601f94e",
-10,
-51,
-1
-],
-[
-"dd238fed4c50",
-0,
-302,
+"aa3f9b6c02fe",
+16,
+1,
 1
 ]
 ],
-"top_at": 1795489321.8927212
+"top_at": 1795489934.6297452
 }
