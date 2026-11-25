@@ -27,7 +27,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795546253.0,
 "tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
 "title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
@@ -1857,7 +1857,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795549851.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.\n\nNews | Markets | YouTube",
 "title": "The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.",
@@ -1872,7 +1872,7 @@
 "srcs": [
 "The Block"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795553594.0,
 "tgtext": "",
 "title": "SEC staff gives Molecule no-action relief for scientific research tokens",
@@ -2781,6 +2781,21 @@
 "title": "This is now Bitcoin's second worst November and its second worst Q4.",
 "url": "https://t.me/cointelegraph/73443",
 "urls": []
+},
+"92ac0f71bafd": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795565854.131758,
+"t0": 1795553307.0,
+"tgtext": "",
+"title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+"url": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
 },
 "92ad7c9a3d18": {
 "coin": "",
@@ -3880,7 +3895,7 @@
 "srcs": [
 "The Motley Fool"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795560062.0,
 "tgtext": "",
 "title": "In Response to the Turmoil at Nvidia, Bitcoin Drops Below $70,000. Is This a Buy-the-Dip Opportunity?",
@@ -3924,7 +3939,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795545943.0,
 "tgtext": "",
 "title": "21Shares Says Bitcoin Plunge Was Driven More by Weakening Demand, Leverage Liquidations Than Binance Hack",
@@ -4245,7 +4260,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795545111.0,
 "tgtext": "\ud83c\uddf0\ud83c\uddf5 NEW: Coinbase says it is sponsoring sessions with cybersecurity experts to combat North Korean crypto crime and prevent cyberattacks.\n\nNews | Markets | YouTube",
 "title": "Coinbase says it is sponsoring sessions with cybersecurity experts to combat North Korean crypto crime and prevent cyberattacks.",
@@ -4276,7 +4291,7 @@
 "CryptoSlate",
 "The Crypto Times"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795549310.0,
 "tgtext": "",
 "title": "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions",
@@ -4430,10 +4445,9 @@
 "coin": "",
 "src": "SSBCrack",
 "srcs": [
-"Dexerto",
 "SSBCrack"
 ],
-"t": 1795564940.8205569,
+"t": 1795565854.131758,
 "t0": 1795547232.0,
 "tgtext": "",
 "title": "Florida Man Sentenced to 47 Months for AI-Assisted Impersonation Scheme That Netted $260,000 in Crypto",
@@ -4481,7 +4495,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795565244.3321404,
+"t": 1795565854.131758,
 "t0": 1795561096.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is willing to pardon Nvidia $NVDA CEO Jensen Huang if necessary.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says he's open to a pardon for Nvidia CEO Jensen Huang if needed, but believes he won't need one, per New York Post.\n\nNews | Markets | YouTube",
 "title": "President Trump says he's open to a pardon for Nvidia CEO Jensen Huang if needed, but believes he won't need one, per New York Post.",
@@ -4752,12 +4766,12 @@
 "pieverse": 1795338115.00558
 },
 "probs": {
-"030a538017e6": 0.029,
-"09a48e1d9737": 0.095,
 "0dc410833168": 0.031,
+"1000b858ee50": 0.095,
 "12b960d0d91c": 0.012,
-"159005dcecfe": 0.1,
+"159005dcecfe": 0.056,
 "160d560c09a5": 0.033,
+"182dd57309eb": 0.152,
 "1c09d1c3c478": 0.028,
 "1f698be88c24": 0.067,
 "1f8b4e9ab4ea": 0.117,
@@ -4765,6 +4779,7 @@
 "45b77d3dd0d6": 0.007,
 "4a986385f439": 0.071,
 "4bc450bcc4e5": 0.146,
+"4cc37d957f93": 0.008,
 "552fb5364eb3": 0.05,
 "6154715dab3d": 0.042,
 "64f0bf396498": 0.663,
@@ -4773,24 +4788,23 @@
 "6ebb856add31": 0.064,
 "6f875c5b230d": 0.028,
 "78f7a83e386d": 0.07,
+"7c771dc725d2": 0.018,
+"7d723954016e": 0.166,
 "7f793bd8cc4c": 0.04,
 "8eb90809c5f9": 0.031,
 "8f4e11ed7aa8": 0.039,
-"92ac0f71bafd": 0.087,
+"92ac0f71bafd": 0.202,
 "97c364f826e8": 0.039,
-"9d6f12eab49b": 0.029,
 "a4cee22dedd6": 0.036,
+"af2f9cc8eccd": 0.162,
 "b29819b863ee": 0.07,
 "b3762f17ade9": 0.018,
-"b37664220d94": 0.05,
-"bc04e7796f58": 0.021,
 "caf63d166456": 0.227,
 "cdf9fb646502": 0.773,
 "dfb9fc8de21e": 0.053,
-"e4760d7c6a51": 0.202,
+"e4760d7c6a51": 0.279,
 "ebd127ca03a8": 0.178,
 "ed26ebe9edd3": 0.858,
-"f35147a18424": 0.009,
 "f8dce938fef3": 0.044
 },
 "sent": [
@@ -6502,63 +6516,63 @@
 [
 "ed26ebe9edd3",
 28,
-69,
+79,
 2
 ],
 [
 "cdf9fb646502",
-67,
-322,
+65,
+332,
 5
 ],
 [
 "64f0bf396498",
-35,
-257,
+34,
+267,
 2
 ],
 [
 "0052e4b58051",
 0,
-317,
+327,
 1
 ],
 [
 "e2a37edc8a0c",
 0,
-336,
-1
-],
-[
-"fe7bf1cb8f6f",
-7,
-358,
-3
-],
-[
-"7d723954016e",
-2,
-321,
-1
-],
-[
-"caf63d166456",
-10,
-86,
+346,
 1
 ],
 [
 "e4760d7c6a51",
-50,
-266,
+49,
+276,
 2
 ],
 [
+"caf63d166456",
+10,
+97,
+1
+],
+[
+"92ac0f71bafd",
+29,
+209,
+1
+],
+[
 "6610cf7a94db",
-23,
-194,
+21,
+204,
+1
+],
+[
+"ebd127ca03a8",
+11,
+310,
 1
 ]
 ],
-"top_at": 1795565244.3321404
+"top_at": 1795565854.131758
 }
