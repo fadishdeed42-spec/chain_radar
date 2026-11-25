@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795519918.7887828,
 1795529586.833144,
 1795531112.3313305,
 1795536028.5079677,
@@ -18,7 +17,8 @@
 1795591646.22162,
 1795598384.8937256,
 1795601453.0620627,
-1795602066.1571677
+1795602066.1571677,
+1795609625.3425126
 ],
 "menu": {
 "0052e4b58051": {
@@ -291,7 +291,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795598208.0,
 "tgtext": "\ud83c\uddef\ud83c\uddf5 JUST IN: SBI Holdings, SMFG and the Solana Foundation launch SBI Solana Global to expand Japan\u2019s onchain financial market.\n\nNews | Markets | YouTube\nJapan's SBI, SMBC Group, and Solana Foundation Partner as SBI Solana Global Launches On-Chain Finance Operations\n\nSBI Holdings, a major Japanese internet-based financial group, Sumitomo Mitsui Financial Group (SMBC Group), Japan's second-largest banking group, and the Solana Foundation announced the completion of agreements for a new joint venture structure. SBI R3 Japan has been renamed SBI Solana Global and commenced full-scale operations. The company will focus on four areas: stablecoin payments and cross-border remittances, financial asset tokenization, real-world asset tokenization, and on-chain asset management using stablecoins and tokenized assets. It plans to establish operations in Japan before expanding across Asia and globally. \u2014 link",
 "title": "SBI Holdings, SMFG and the Solana Foundation launch SBI Solana Global to expand Japan\u2019s onchain financial market.",
@@ -821,7 +821,7 @@
 "The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795591421.0,
 "tgtext": "Bloomberg: Tether Has Sought 20% Reissuance Fees From Some Crypto Hack Victims\n\nAccording to a Bloomberg investigation, Tether has sought 20% reissuance fees from some victims seeking the return of frozen USDT. Singapore-based crypto exchange Bittok, which lost $50 million in a 2020 hack, has yet to recover its frozen USDT more than five years later. Tether CEO Paolo Ardoino said the company reissues funds in stages in civil cases to manage legal risks amid a lack of clear legal guidance. A Tether spokesperson said the company has reissued $1.2 billion in USDT to date, with fees helping cover the reissuance process and legal costs. Tether is also establishing direct emergency communication channels with major crypto exchanges. \u2014 link",
 "title": "Tether reportedly sought 20% fees from crypto hack victims to return frozen USDT",
@@ -1118,7 +1118,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795602957.0,
 "tgtext": "JUST IN: \ud83c\uddeb\ud83c\uddf7 French Senate rejects proposal requiring citizens to declare crypto holdings of \u20ac100,000 or more held in self-custody wallets.\n\n@WatcherGuru",
 "title": "\ud83c\uddeb\ud83c\uddf7 French Senate rejects proposal requiring citizens to declare crypto holdings of \u20ac100,000 or more held in self-custody wallets.",
@@ -1531,7 +1531,7 @@
 "Cointelegraph",
 "The Block"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795601140.0,
 "tgtext": "",
 "title": "Hong Kong Monetary Authority launches digital asset platform for tokenized debt securities",
@@ -1637,7 +1637,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795604587.0,
 "tgtext": "\ud83c\uddfa\ud83c\udde6 JUST IN: Ukraine's parliament passes a bill establishing a regulatory and tax framework for crypto. \n\nNews | Markets | YouTube",
 "title": "Ukraine's parliament passes a bill establishing a regulatory and tax framework for crypto.",
@@ -2342,21 +2342,6 @@
 "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes"
 ]
 },
-"791db67db7fb": {
-"coin": "bitcoin",
-"src": "FXStreet",
-"srcs": [
-"Crypto News",
-"FXStreet",
-"The Cryptonomist"
-],
-"t": 1795436952.1562865,
-"t0": 1795419220.0,
-"tgtext": "",
-"title": "Bitcoin Price Forecast: BTC recovery remains fragile as $1.78 billion ETF outflows offset easing Fed fears",
-"url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNGhfWmNEb3VjWmRLa1FEdFRLdVJ4a0stX2wyT1VqSVZfdVo0dHI5TWxubFF5NjZwZTdWdURIejRIUHFvcHVJQjVqeEdnc3BMWk9VOWVYbXl3bkNZdldtZnpJRkhBMTVuNnFickZ3c21uNGJwU2RHcE4yaTFBODV4TjdVQVg2OTR3QXN2dTVzeDNTWElpaVVKWWVMYk5QRFFTSFdXcmtOTi1Za2F4SEctbGxwcWx6UGVXT2YtbG4yZ3YwS3ljV3hCQXZlNEpsMjZYcDFJRmJ0UGJDc2tsWEhYMFoyTzNCbmN6UU9SQlBBc1VEX0VYQnc?oc=5",
-"urls": []
-},
 "79b1d879b260": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2734,7 +2719,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795604906.0,
 "tgtext": "Does this whale know something we don't?\n\nHe bought another 815.58B $PEPE ($2.81M) ~30 mins ago, bringing his total purchases to 4.16T $PEPE ($15M)!\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
 "title": "Does this whale know something we don't?",
@@ -3522,7 +3507,7 @@
 "BeInCrypto",
 "The Cryptonomist"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795598856.0,
 "tgtext": "",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
@@ -3917,7 +3902,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795589013.0,
 "tgtext": "\ud83d\udd25 INTERESTING: A trader turned $19,000 in Nvidia call options into a $376,900 profit, a 1,984% gain, after Jensen Huang's return as CEO, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: A trader turned $19,000 in Nvidia call options into a $376,900 profit, a 1,984% gain, after Jensen Huang's return as CEO, per Bloomberg.",
@@ -4017,9 +4002,10 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"CoinGape",
 "Wu Blockchain"
 ],
-"t": 1795608198.6795397,
+"t": 1795609929.0526521,
 "t0": 1795593453.0,
 "tgtext": "Spot Bitcoin ETFs Record $232M Total Net Outflow, Extending Streak to Six Consecutive Days\n\nAccording to SoSoValue data, spot Bitcoin ETFs saw a total net outflow of $232 million on November 24 (ET), marking six consecutive days of net outflows. Meanwhile, spot Ethereum ETFs recorded a total net outflow of $64.02 million yesterday, extending their net outflow streak to eight consecutive days. \u2014 link",
 "title": "Spot Bitcoin ETFs Record $232M Total Net Outflow, Extending Streak to Six Consecutive Days",
@@ -4315,6 +4301,22 @@
 "https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/"
 ]
 },
+"e4e5eb54914f": {
+"coin": "",
+"src": "Hokanews",
+"srcs": [
+"Coinfomania",
+"Hokanews",
+"Kriptofoni",
+"The Crypto Times"
+],
+"t": 1795609625.3425126,
+"t0": 1795591380.0,
+"tgtext": "",
+"title": "US DOJ Seeks Forfeiture of $1.1 Billion in Crypto Linked to North Korea\u2019s Binance Hack",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPblRhS1ZPSnVDaE40Y2ZyRUoyN2RmeEw1ZDNST1ZGTDBMOXg5QVJHUmdPekx0RUtHeV9wZEZPNlA5d05VZXpEOGItZ0FKeVItSFQ3Z3RBalV6Y2tpS3BfdllOb0ZFQ2dVU1lqN2NLQnd0eURwMzRYd2pyNHNqdG1SSw?oc=5",
+"urls": []
+},
 "e6385893a6c2": {
 "coin": "bitcoin",
 "src": "Lookonchain",
@@ -4349,7 +4351,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795609318.6981025,
+"t": 1795609929.0526521,
 "t0": 1795608116.0,
 "tgtext": "\ud83d\udd25 LATEST: Bitcoin has fallen below the lowest band of the Bitcoin Rainbow Chart, labeled \"Basically a Fire Sale.\"\n\nAre you buying the dip? \n\nNews | Markets | YouTube",
 "title": "Bitcoin has fallen below the lowest band of the Bitcoin Rainbow Chart, labeled \"Basically a Fire Sale.\"",
@@ -4778,84 +4780,48 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
-"0bb9e4d02bda": 0.032,
-"0f2807054960": 0.913,
+"0c537fd4424e": 0.243,
+"0f2807054960": 0.965,
+"19e8e6793c3f": 0.18,
 "1b9406747964": 0.127,
+"25cf80f5a604": 0.409,
 "2edcbd6b8137": 0.189,
+"3140192b2d63": 0.407,
 "323d52dee9e9": 0.057,
-"33a380da0344": 0.934,
-"38a011ab8261": 0.342,
-"40131e8bd5fe": 0.732,
-"472aa411def5": 0.075,
+"33a380da0344": 0.946,
+"38a011ab8261": 0.217,
+"3bb5602f817d": 0.054,
 "48ef458a9c31": 0.19,
-"4dc0061b343f": 0.091,
-"4ec4df10e07f": 0.049,
 "54a7a22ab0f0": 0.657,
-"54aefa3724fc": 0.022,
-"5a16c57ae1b6": 0.616,
-"5acaa6d95a6e": 0.053,
+"577dadb975cd": 0.137,
 "69a96a8d5fc2": 0.062,
 "735035179efb": 0.462,
 "773c3399fe40": 0.274,
 "7dfc5387b950": 0.102,
-"80053aa32c36": 0.48,
+"80053aa32c36": 0.216,
+"8298d1d6e61e": 0.059,
 "8f528cfd259d": 0.672,
 "970d8c41cc49": 0.037,
 "97d86f9250f7": 0.148,
-"9a30b2a8aa49": 0.189,
+"9c5f66725481": 0.091,
+"a0ff1764ffb7": 0.041,
 "a569b4801d3b": 0.212,
-"a68c58404f64": 0.241,
-"a8de3dcec6f3": 0.176,
+"a68c58404f64": 0.151,
+"abe82fc6bee4": 0.086,
 "ac86cd44c4ab": 0.207,
 "b47cfef443f5": 0.211,
 "b982ddd8512b": 0.623,
-"c642d60e5d6a": 0.092,
+"cac561b68aa5": 0.164,
 "cc8a83eecbcf": 0.181,
+"d0c115224353": 0.095,
 "d165014e169f": 0.033,
-"d44815f0c5b0": 0.363,
+"d44815f0c5b0": 0.481,
 "d6f8a201d020": 0.191,
 "f1fae55ad06f": 0.433,
-"f547d180e35e": 0.065,
-"f97a3f64479e": 0.07,
-"ff64e6b52000": 0.213
+"f3cd01b200da": 0.273,
+"f88b8063db19": 0.048
 },
 "sent": [
-{
-"e": [
-"confiant",
-"moldyroost"
-],
-"k": [
-"hack"
-],
-"t": 1795432968.7721071,
-"u": [
-"https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMHpmTF9QQUtycEVrcXVvc2JIdS16ZVo4QnRIWE1VVzhtM2llVGZSU1dIaE0zcVN0bWwzYThnc1ViZ3ZjWnR2eHROQklYbzdTZ28zby1pejFhVWRiZ1VvM3VyWmtTV0dzVkpyZVNUWXJkRVdJ0gF6QVVfeXFMTUNmdWZaSzJXN3JZMmc0c2FuMERsdDZTb01CYWVfaXF6VTVYelVRZWtPSXNNUUFpZnQyRmNjTGF5YUdhRTk0alRJR3NnRjZwMEllTEdVaU5TaU5qcl9QY05ERmtmY3VzOTBYMVc0c1JCcTAwUU1nd25BclE?oc=5",
-"https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://t.me/cointelegraph/73452",
-"https://news.google.com/rss/articles/CBMikAFBVV95cUxPblJyalVWb3R4LTJlczZDbDNOblB0ODdyOVVHOE1QQ1JPYk1tR2dYa0VGdG9DZmxmcjRVd2lCNVlHNXFQZHFrc1lSYmxRM2xiWHp0dHZheDdMOEM1bTdhWGRYOUVNTzJsV2Nfc3Q4NWVxRFJLQWxRY2lRTExfbFd6R1FPX2FoaFp2dzV4MHVjZXjSAZYBQVVfeXFMTmthQ1FRcXlhT0c1c0dfQnZENGNQazNFWkVIUl8xX0xpOGJCZ0VJaW5kTXlWNUN1WTlHZElyRTZ1Q2FrTERGdDdLM2lLYzN1eEpDLU9QTHg2aHFuMkpLa0pvYXlZMzRsRmkzZlpkTUp2OEx1YnlGRGNQUGJsTEhOamlLRE9WUG94TlF6QzR6am1FelRZanFn?oc=5"
-],
-"w": [
-"480",
-"according",
-"across",
-"confiant",
-"countries",
-"domains",
-"iphones",
-"malicious",
-"malware",
-"messages",
-"moldyroost",
-"passwords",
-"phrases",
-"seed",
-"steal",
-"targets",
-"using",
-"wallet"
-]
-},
 {
 "e": [
 "october"
@@ -6532,71 +6498,101 @@
 "something",
 "whale"
 ]
+},
+{
+"e": [
+"basically",
+"chart",
+"fire",
+"rainbow",
+"sale"
+],
+"k": [
+"ban"
+],
+"t": 1795609625.3425126,
+"u": [
+"https://t.me/cointelegraph/73518",
+"https://news.google.com/rss/articles/CBMic0FVX3lxTE5uVkdWV0Z6YmExWFZqQmhGU3MzN2JrYlRnam9nLVpXWlRtVXROaVhHdEx0UlhyNldyZzhfVVVoN2haUVY3ZDVERm1oWjJvd0hCeGRxSEpVZ3VwQnhoSlktbjM3bVB0MGxHM0w2cG5nXzNNMGs?oc=5"
+],
+"w": [
+"band",
+"basically",
+"below",
+"bitcoin",
+"chart",
+"fallen",
+"fire",
+"labeled",
+"lowest",
+"rainbow",
+"sale"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"33a380da0344",
-70,
-298,
-4
+"0f2807054960",
+28,
+195,
+3
 ],
 [
-"0f2807054960",
-30,
-185,
-3
+"33a380da0344",
+68,
+308,
+4
 ],
 [
 "40131e8bd5fe",
 10,
-106,
+116,
 1
 ],
 [
 "cd737ad39bc1",
 0,
-338,
+349,
 1
 ],
 [
 "8f528cfd259d",
 18,
-74,
+84,
 1
 ],
 [
 "54a7a22ab0f0",
 20,
-136,
+146,
 2
 ],
 [
 "e784f21f68b2",
 10,
-20,
+30,
 1
 ],
 [
 "b982ddd8512b",
 61,
-174,
+185,
 2
 ],
 [
 "5a16c57ae1b6",
 10,
-79,
+89,
 1
 ],
 [
-"80053aa32c36",
-25,
-295,
+"d44815f0c5b0",
+36,
+275,
 2
 ]
 ],
-"top_at": 1795609318.6981025
+"top_at": 1795609929.0526521
 }
