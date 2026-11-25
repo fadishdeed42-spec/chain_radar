@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795538498.0320816,
 1795545536.3327165,
 1795570584.5070019,
 1795581972.2113385,
@@ -17,7 +16,9 @@
 1795609625.3425126,
 1795620008.5190043,
 1795622144.2538316,
-1795623672.6664793
+1795623672.6664793,
+1795625505.0288599,
+1795625808.421675
 ],
 "menu": {
 "005064432d65": {
@@ -27,7 +28,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795613160.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The Trump administration proposes new tariffs targeting dozens of countries, including China, Japan and EU members, citing unfair trade practices.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\uddfa\ud83c\uddf8 $2 trillion erased from the US stock market at open after the Trump administration proposes new tariffs on 14 major trading partners.\n\nUp to 40%:\n\n\u2022 China\n\nUp to 35%:\n\n\u2022 Vietnam\n\nUp to 25%:\n\n\u2022 India\n\u2022 Taiwan\n\u2022 Thailand\n\u2022 Malaysia\n\u2022 Indonesia\n\u2022 Cambodia\n\u2022 South Korea\n\nUp to 20%:\n\n\u2022 Japan\n\u2022 Singapore\n\u2022 Bangladesh\n\u2022 Switzerland\n\u2022 European Union\n\nUp to 10%:\n\n\u2022 Brazil\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "The Trump administration proposes new tariffs targeting dozens of countries, including China, Japan and EU members, citing unfair trade practices.",
@@ -796,7 +797,7 @@
 "Cryptonews.net",
 "Forbes"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795606675.0,
 "tgtext": "",
 "title": "Ethereum Price Prediction: Peter Brandt Warns of $500 Crash Amid Persistent ETF Outflows",
@@ -1718,7 +1719,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795624252.0,
 "tgtext": "JUST IN: Michael Burry says he is now almost entirely long and plans to invest the rest of his cash.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Michael Burry says he is now almost entirely long and plans to invest the rest of his cash.",
@@ -2704,15 +2705,18 @@
 "srcs": [
 "CoinGape",
 "Crypto News",
+"The Block",
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795613368.0,
 "tgtext": "Franklin Crypto Index ETF to Add HYPE Holdings on December 1\n\nAccording to an SEC filing, the Franklin Crypto Index ETF will add Hyperliquid (HYPE) to its holdings on or around December 1. Its underlying index, the CF Institutional Digital Asset Index, will add HYPE on December 1, bringing its constituents to BTC, ETH, XRP, SOL, DOGE, ADA, XLM, and HYPE. The ETF will allocate assets according to their index weights, with the index continuing to rebalance quarterly. \u2014 link",
 "title": "Franklin Templeton Expands Crypto Index ETF to Include Hyperliquid\u2019s HYPE Token",
 "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVEFmQXctSlFDRjF0ZGJxTDJobmJ1MzJWUS1rLXlEZDI5STlQM2VjQzZud3QtYXpDTHlmZXdoTmpGTWxIZExwR3NpRThUVzU2M0k4VlRJUzdGRmFrQWhqZE5GSmg0X19nOEcyNHJTWXVMcFdvTmVaM1dpblp3ZFllSVZ2dUdsYXVIeEd3aEpKNW5MS2lqUHhHMGU2SkJfUXB2bFE?oc=5",
-"urls": []
+"urls": [
+"https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
+]
 },
 "8dcedd512fd8": {
 "coin": "",
@@ -3335,6 +3339,20 @@
 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tYk1rbWdRbkVGUGRWT1o5WkZlbUs1SzZEbXd0dnBSLVdUbWljd1JVZDN2bHhFRlJKQXhqSFRtVXFMWXhmZWVNOGNjclVwWkNIU211ZG9VN3doTUMyek12eHhxUzJ5eDN6SzZ0Q0tRbERzOW1ieXc?oc=5",
 "urls": []
 },
+"b389db722fd1": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1795625808.421675,
+"t0": 1795625628.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 FCC authorizes SpaceX $SPCX to deploy 1,000,000 data centers in space.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The FCC has authorized Elon Musk\u2019s SpaceX to deploy up to 1 million satellites for AI data centers in space, a first in U.S. history.\n\nNews | Markets | YouTube",
+"title": "The FCC has authorized Elon Musk\u2019s SpaceX to deploy up to 1 million satellites for AI data centers in space, a first in U.S. history.",
+"url": "https://t.me/cointelegraph/73528",
+"urls": []
+},
 "b3d69b0bbd4f": {
 "coin": "usd-coin",
 "src": "The Block",
@@ -3535,7 +3553,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795620628.0,
 "tgtext": "JUST IN: Gold and Silver are dumping\n\nGold falls under $3,440\nSilver falls under $40\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "Gold and Silver are dumping",
@@ -3619,7 +3637,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795622072.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US intelligence finds no evidence China directed Alice Huang to spy on Nvidia $NVDA CEO Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: U.S. officials told Congress there is no evidence that Chinese intelligence orchestrated Nvidia CEO Jensen Huang\u2019s reported affair, per WSJ.\n\nNews | Markets | YouTube",
 "title": "U.S. officials told Congress there is no evidence that Chinese intelligence orchestrated Nvidia CEO Jensen Huang\u2019s reported affair, per WSJ.",
@@ -3645,7 +3663,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795624785.0,
 "tgtext": "Nvidia Agrees to $290M Settlement Over Crypto Mining Revenue Disclosures\n\nAccording to Reuters, Nvidia has agreed to pay $290 million to settle an investor class action lawsuit filed in 2018. The plaintiffs alleged that Nvidia misled investors by attributing rapid growth in gaming-related revenue to gaming demand rather than cryptocurrency mining, understating the contribution of crypto miners to its GPU sales. Nvidia denied any wrongdoing, and the proposed settlement remains subject to court approval. Plaintiffs\u2019 lawyers plan to seek up to $62 million in legal fees, representing 21.4% of the settlement fund. \u2014 link",
 "title": "Nvidia Agrees to $290M Settlement Over Crypto Mining Revenue Disclosures",
@@ -4458,19 +4476,18 @@
 },
 "ec601be596f5": {
 "coin": "bitcoin",
-"src": "The Economic Times",
+"src": "Coinpedia",
 "srcs": [
 "Coinpedia",
 "Cryptonews.net",
-"The Economic Times",
 "TradingView",
 "Yahoo Finance"
 ],
-"t": 1795624588.2247546,
+"t": 1795625808.421675,
 "t0": 1795607478.0,
 "tgtext": "",
-"title": "Bitcoin falls below $59,000, Ethereum under $1,700 as ETF outflows, macro worries weigh on crypto market",
-"url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPeVpNR2E2elFSVlNwWk40T0tzQy1TRldTSDdYTVdYZDVYNG1UZGlHenRrOU5KbzlCcUZtM2l4V3U5RS1jMFRfRUZ5VXctMHl2VDBlUi1KYjRNODNRd3QwNk0xbzdoMUlNX1R1NWliT3lKNnZNWWxmdk9DaVo3WnFQVjhsbU8wTzNiWGdkSnh5MDRJbXpnU3Q4X29DRkJVT3RXQmxzdFVjenlPd0Q5SWNrOFNiWVpfTk1zVGZiQUp3S29sX20yM3FQaURGOWJ2OGVZMWkxNFBQZEl6M2NkdEJNVi1BRERIY3Z6ZUQ0b3lhNGZTd2xySGtEcm9SeHlCbWY2bURNYmZlY0NUMTJqSDZfSjFwekwtNE3SAZwCQVVfeXFMTzhMVGlwQVlaRDRJNTJKTzdOVXVMYUYzVFRoWGM3aE1FMG84cTZkUkkyUnItVThYYVU3S0RVM2UtUzFndHhKeUJ2aUVZaVNTbHdCMy1BZ0NjUnhCY0FDRjlwUUZwZWlRWGpOYkhFU3hZallUbHNPNjYtOC0xR05veUwtVWNja251R3NaQW1iTjBZMnlYVFNQMDFLdU91RnlMZGdMMEZQT1BKSUs1S01jckZMeEFDWklfOEpEOTlwa3Q4OWxUa3dDaDFZb08zSGJtMDJKQUdidTRtandCSUgzRnlSd1c3clNuMUZ3a25iZXRMazRwSTlfU01XcGg2N3BubHRQX3ZwNXUzUWtYOFFsczhxR3JMQ3ZUVGdCdGc?oc=5",
+"title": "Bitcoin Price Falls Below $60,000 Again \u2013 Will US Inflation Data Trigger Another Sell-off?",
+"url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN2F0QXZlRGFmQnF1R3RITWVQOHgxVy1sZ2hTZXpSVHRPZUNZaU1WRi12YlE5S2tDeDc2VGNEVmhyaUpReDNkSXhqc01VbTVYVDQyWUJLaTlWbmZ2MEZZMmRESTJpQ1BkeTBYbU8xSVVxa1pOZDAxNTBKTzVEMDZsdWU5ZV9rQkZPRHBYb0RNRl9IMXB6eGNoUHMwenI4dUsxYWpZMm51U1BCMmQxQy1PRjBIZlpseXlab2dMOHptZ1HSAcYBQVVfeXFMTThZaXphZDFmMzdHOENLT2FBQW5NczgxME5NY2F5dURtbGpTUVVVYkNlTlF0Q0dqUHkxbHhuYVVkbVRzZFltN3lBVkh2SGF4OWstZk5UbWlhS1hFOUZ1T3pxTE9fdXZJNmhBNmdpb2Zqci1lRTBwYkc1Ymw1ZWVEaFFfaDhyTHNQVkM2RkZmTFlJWHNidWlmWC15al83TFdkM1Y1cGpoRU8weTlFTVFQV3cwZkV6eTgxSGYxbXJ3MGVEM2lsak9R?oc=5",
 "urls": []
 },
 "ed26ebe9edd3": {
@@ -4635,7 +4652,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795624588.2247546,
+"t": 1795625505.0288599,
 "t0": 1795612062.0,
 "tgtext": "Binance Wallet Launches Real Graded Card Gacha Packs with Physical Card NFT Certificates\n\nBinance Wallet has integrated Renaiss Protocol to launch Gacha, allowing users to purchase packs with USDT and reveal real, professionally authenticated and graded trading cards. The physical cards are held in custody, while ownership is represented by NFTs on BNB Smart Chain. Card pools, rarity odds, and rules are disclosed, with results generated using a verifiable random function (VRF). Users can sell cards back at quoted prices within 72 hours, after which unsold cards are transferred to their Binance Wallets as NFTs. Physical redemption is not yet available but is planned for a future release. \u2014 link",
 "title": "Binance Wallet Launches Real Graded Card Gacha Packs with Physical Card NFT Certificates",
@@ -4704,7 +4721,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795625197.9680705,
+"t": 1795625808.421675,
 "t0": 1795620015.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Nasdaq 100 set to enter bear market as over $8.5 trillion in market value has been wiped out since its October highs.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Nasdaq 100 set to enter bear market as over $8.5 trillion in market value has been wiped out since its October highs.",
@@ -4797,45 +4814,45 @@
 },
 "probs": {
 "005064432d65": 0.963,
-"037701756156": 0.078,
 "04cd07e79187": 0.602,
+"09a48e1d9737": 0.117,
 "0bae82f4052c": 0.183,
 "15b7435616cb": 0.086,
+"1992792e3fed": 0.025,
 "19db028bc3bb": 0.203,
+"1a69a6556f22": 0.013,
 "1b9406747964": 0.164,
 "286ab6fd8e7f": 0.067,
 "2ea18da2a283": 0.68,
+"2f55fdcd9759": 0.137,
 "304f887064f2": 0.062,
-"32b348d9ec05": 0.052,
-"452ce4de3a07": 0.114,
-"463174e979e5": 0.038,
-"5181117e6d58": 0.042,
+"32b348d9ec05": 0.14,
+"39229ef4ea1b": 0.078,
+"3e9631731593": 0.089,
+"463174e979e5": 0.074,
 "653578e829a0": 0.254,
-"6dad0280c435": 0.158,
 "7ef6e7120b7c": 0.282,
-"80f76640d6f2": 0.677,
-"8c55ff7702f5": 0.803,
+"80f76640d6f2": 0.603,
+"8c55ff7702f5": 0.936,
 "968c82ea3cd1": 0.062,
-"970d8c41cc49": 0.097,
+"970d8c41cc49": 0.044,
 "9b0de6263145": 0.112,
-"a25ed9e21106": 0.018,
-"afe8e9c93020": 0.048,
+"b389db722fd1": 0.991,
 "ba07646a0bc7": 0.738,
 "befa347d032a": 0.846,
+"bfe3e0149fe1": 0.932,
 "c1093167bf4a": 0.048,
+"c47c0e233750": 0.01,
 "cf6e7c19689b": 0.06,
 "d3c64cdd1eb0": 0.064,
-"d7920a182cb6": 0.037,
 "d95bb81d25ac": 0.584,
 "db39a2e1195f": 0.152,
 "e946a80c75a7": 0.194,
-"e9dd783882b0": 0.039,
 "ebb31f5bf874": 0.028,
-"ef13af99cb82": 0.745,
-"f63165bbaef5": 0.046,
-"f6523a05c678": 0.212,
-"fa31915c87cf": 0.242,
-"fb8e352a9acf": 0.041
+"ec601be596f5": 0.664,
+"f64a0fe5090e": 0.044,
+"f6523a05c678": 0.506,
+"fa31915c87cf": 0.242
 },
 "sent": [
 {
@@ -6275,71 +6292,124 @@
 "settle",
 "shareholders"
 ]
+},
+{
+"e": [
+"agrees",
+"disclosures",
+"mining",
+"nvidia",
+"revenue",
+"settlement"
+],
+"k": [],
+"t": 1795625505.0288599,
+"u": [
+"https://t.me/wublockchainenglish/26950"
+],
+"w": [
+"$290m",
+"agrees",
+"disclosures",
+"mining",
+"nvidia",
+"revenue",
+"settlement"
+]
+},
+{
+"e": [
+"elon",
+"fcc",
+"musk",
+"spacex"
+],
+"k": [],
+"t": 1795625808.421675,
+"u": [
+"https://t.me/WatcherGuru/16339",
+"https://t.me/cointelegraph/73528"
+],
+"w": [
+"authorized",
+"centers",
+"data",
+"deploy",
+"elon",
+"fcc",
+"first",
+"history",
+"million",
+"musk",
+"satellites",
+"space",
+"spacex"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"b389db722fd1",
+42,
+3,
+2
+],
+[
 "5d3b23d8a9b6",
 10,
-16,
+26,
 1
 ],
 [
 "005064432d65",
-26,
-201,
-2
-],
-[
-"befa347d032a",
-28,
-52,
+24,
+211,
 2
 ],
 [
 "8c55ff7702f5",
-52,
-197,
-4
+51,
+207,
+5
 ],
 [
 "bfe3e0149fe1",
 16,
-7,
+17,
 1
 ],
 [
-"ef13af99cb82",
-46,
-168,
-3
+"befa347d032a",
+20,
+62,
+2
 ],
 [
 "ba07646a0bc7",
 20,
-76,
+86,
 1
 ],
 [
 "f67d0c64c728",
 10,
-86,
+97,
 1
 ],
 [
 "2ea18da2a283",
-47,
-309,
+46,
+319,
 4
 ],
 [
-"80f76640d6f2",
-34,
-89,
-2
+"ec601be596f5",
+40,
+306,
+4
 ]
 ],
-"top_at": 1795625197.9680705
+"top_at": 1795625808.421675
 }
