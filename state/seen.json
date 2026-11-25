@@ -65,27 +65,6 @@
 "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTFhza3Fia2EtdjhKZVFCeVMwVG91MldsX3pXSlJjUFVia0RlMFJMbjJwbjZxclA0ZTNDbDhvODZuV0dFYWlkV19wcDREVFhVbUpSVmxwamJEcExQdGl5Z3pqSVhhYXB4TTlKa3NjaUxIWVVDemJIeWJBUm9Xa1B5N1lNNWtDXzZYczhIekh6ejFhUFNxRnZ2eHI5TmtDdkZNb0FJSkotZlM4R2dVMmpzOHJDUm1vTFNONVJoaW50NkI0STl3Q2lSb3M5aGtZb2diYkR5cXJ3a3UzdHJuc1c2WnMyakFFZk1xLVVkcTZuYWlrdmcxM3hPMVJtNzfSAYICQVVfeXFMTVBXeFNNNV9BUEswTDhiTWFYa0lJRnlhc3pQVzJxMVc3aG9qT3paUjBPUnNYRmM5Qy1fc2J5NkRyX0VINDl6UkY4N09kSGJZS3NyeVFFODVpM3pia09uSGZnWnFUdmJ0YXZvVVZQc0h3dmVpVXJhUHk2NDZXTmgzQUlCcXgwNHBESFI2V01uakNwWmdqSzVvaGo4NjliMWdRZGR1SXc1dHVzaWtReGpVZVJxREt0Wl8tLXhuVFRrUGFsRmFQTjRONTJwaTlzOHhiY2lnbjZfRzFqUE5TbGFyaVFjVmhZaWo3NmJmUk85by1KbzlUQU5nTF9FZ20tX1MwUkt3?oc=5",
 "urls": []
 },
-"02724dd2c45a": {
-"coin": "usd-coin",
-"src": "Cointelegraph",
-"srcs": [
-"Breakingthenews.net",
-"CoinMarketCap",
-"Cointelegraph",
-"Crypto Briefing",
-"Crypto News"
-],
-"t": 1795474352.020176,
-"t0": 1795452753.0,
-"tgtext": "Binance Hires Mandiant, SlowMist and Verichains for Independent Security Review Following $6.3B Hack\n\nFollowing the October 29 security breach that resulted in approximately $6.3 billion in stolen crypto assets, Binance announced that it has engaged three cybersecurity firms, Mandiant, SlowMist and Verichains, to conduct independent reviews of its security procedures. The reviews will evaluate Binance's existing security infrastructure, assess its security posture going forward and identify areas for improvement. Binance said protecting user assets remains its top priority and pledged to act on the findings to strengthen its security measures. \u2014 link\n\ud83d\udea8 JUST IN: US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.\n\nNews | Markets | YouTube",
-"title": "US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.",
-"url": "https://t.me/cointelegraph/73478",
-"urls": [
-"https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-"https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers"
-]
-},
 "02c5a1342322": {
 "coin": "bitcoin",
 "src": "CoinDesk",
@@ -512,7 +491,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795630554.0,
 "tgtext": "\ud83d\udea8 ALERT: 1Password confirms a breach through an employee\u2019s GitHub account exposed customer names and emails, but says password vaults were not accessed.\n\nNews | Markets | YouTube",
 "title": "1Password confirms a breach through an employee\u2019s GitHub account exposed customer names and emails, but says password vaults were not accessed.",
@@ -559,7 +538,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795630463.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 93% chance the Fed hikes interest rates by 25 basis points at the next FOMC meeting.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 93% chance the Fed hikes interest rates by 25 basis points at the next FOMC meeting.",
@@ -888,6 +867,19 @@
 "urls": [
 "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430"
 ]
+},
+"3bbc1f971ca1": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795647442.0330935,
+"t0": 1795646957.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia NVDA CEO after he stepped down, WaPo reports.",
+"url": "https://t.me/WatcherGuru/16348",
+"urls": []
 },
 "3bd5729cb6c4": {
 "coin": "ethereum",
@@ -1280,7 +1272,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795627582.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections.\n\n\"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been much different, and the Stock Market, and your 401-k's, would be BOOMING.\"\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections.",
@@ -1639,6 +1631,25 @@
 "url": "https://t.me/cointelegraph/73476",
 "urls": []
 },
+"6b0f786ee8f6": {
+"coin": "",
+"src": "Cryptonews.net",
+"srcs": [
+"BigGo Finance",
+"Bitcoin Magazine",
+"CoinMarketCap",
+"Cryptonews.net",
+"bloomingbit"
+],
+"t": 1795647442.0330935,
+"t0": 1795629000.0,
+"tgtext": "",
+"title": "DOJ\u2019s Largest-Ever Scam Crackdown Reports $1 Billion in Crypto Frozen Across 800 Defendants",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4taEoxZThIODk0VGhiMnZPRG5uSm1ORlNOdjBDMGpnenFmTVNlLVBvR2htVk5hdGQxaDA1Q1FSRjFWVjVURHJwazRKTzAyZy1FSmJWUEFUVGRpQQ?oc=5",
+"urls": [
+"https://bitcoinmagazine.com/news/doj-largest-ever-scam-crackdown-crypto"
+]
+},
 "6b816bf2bff6": {
 "coin": "usd-coin",
 "src": "bloomingbit",
@@ -1768,7 +1779,7 @@
 "TradingView",
 "Yahoo Finance"
 ],
-"t": 1795646528.811597,
+"t": 1795647442.0330935,
 "t0": 1795628002.0,
 "tgtext": "",
 "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
@@ -1906,7 +1917,7 @@
 "Cryptonews.net",
 "MLQ.ai"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795635120.0,
 "tgtext": "",
 "title": "Fidelity files to launch Chainlink ETF, adding a new option for LINK investors in the U.S.",
@@ -2066,7 +2077,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795632208.0,
 "tgtext": "JUST IN: S&P considers lowering Nvidia's $NVDA credit rating.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 BIG: S&P Global places Nvidia\u2019s $NVDA \u2018AA\u2019 credit rating on negative watch, warning of a potential downgrade within 90 days amid rising management and corporate governance concerns.\n\nNews | Markets | YouTube",
 "title": "BIG: S&P Global places Nvidia\u2019s NVDA \u2018AA\u2019 credit rating on negative watch, warning of a potential downgrade within 90 days amid rising management and corporate governance concerns.",
@@ -2142,7 +2153,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795628101.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US Senator Bernie Sanders calls on Congress to immediately pause advanced AI development amid reports that researchers fear their models are becoming too dangerous to release.\n\nNews | Markets | YouTube",
 "title": "US Senator Bernie Sanders calls on Congress to immediately pause advanced AI development amid reports that researchers fear their models are becoming too dangerous to release.",
@@ -2882,7 +2893,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1795646832.3965676,
+"t": 1795647138.8039832,
 "t0": 1795625628.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 FCC authorizes SpaceX $SPCX to deploy 1,000,000 data centers in space.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The FCC has authorized Elon Musk\u2019s SpaceX to deploy up to 1 million satellites for AI data centers in space, a first in U.S. history.\n\nNews | Markets | YouTube",
 "title": "The FCC has authorized Elon Musk\u2019s SpaceX to deploy up to 1 million satellites for AI data centers in space, a first in U.S. history.",
@@ -2913,7 +2924,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795646832.3965676,
+"t": 1795647442.0330935,
 "t0": 1795632931.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.",
@@ -4216,42 +4227,42 @@
 "probs": {
 "02d2c61229ba": 0.024,
 "04273ea8f6c0": 0.022,
+"1825d4421f64": 0.016,
 "1d223e2a31f1": 0.018,
 "1fb6f0cbeee0": 0.361,
 "217bf7a48a8c": 0.367,
-"27ef2da9b036": 0.028,
+"290e0826d299": 0.021,
 "33adc516ebe8": 0.022,
+"3bbc1f971ca1": 0.888,
 "3e20b170fe9e": 0.023,
 "3fd4dcd1949f": 0.011,
 "4872ea4ea516": 0.029,
-"4c953be6afd4": 0.509,
+"494de646592f": 0.026,
 "604c079d8514": 0.044,
 "6257587ea5c6": 0.016,
-"6ae0f24ce26c": 0.024,
-"6b0f786ee8f6": 0.097,
-"6be8d6daadca": 0.019,
+"65a791a388cb": 0.053,
+"6b0f786ee8f6": 0.259,
 "6c790660d0e7": 0.056,
-"7106351a639a": 0.111,
+"6d46bfd40280": 0.019,
+"7106351a639a": 0.216,
+"738635ad1148": 0.021,
 "742dcad6e780": 0.068,
-"74e04eed7e88": 0.007,
 "753906088eb6": 0.149,
-"7b1f23c735de": 0.029,
 "7e36a8523669": 0.439,
+"8031c0a0b0d9": 0.053,
 "860712892d7a": 0.14,
-"8e95569e8f84": 0.04,
+"8c5a74bcc3fb": 0.008,
 "9308e03f4dc2": 0.009,
 "a09c3762e4d9": 0.027,
-"b389db722fd1": 0.935,
 "b500ebd8e4ae": 0.388,
-"c7b2ca6f9747": 0.02,
-"cb62306108c4": 0.043,
 "cec738aa746a": 0.033,
 "d15a191c0162": 0.137,
 "d491bcec9774": 0.019,
 "e1077575da0e": 0.006,
+"e3444be548f9": 0.012,
 "e6691fca9931": 0.035,
 "ea1ad3f74f28": 0.063,
-"ece2caeabaec": 0.078,
+"f131015cb516": 0.067,
 "f40cfccd3faa": 0.025,
 "fde786543e31": 0.016
 },
@@ -5849,65 +5860,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"b389db722fd1",
-21,
-353,
-3
+"3bbc1f971ca1",
+18,
+8,
+1
 ],
 [
 "4c953be6afd4",
-10,
-321,
+8,
+331,
 1
 ],
 [
 "7e36a8523669",
-12,
-244,
+11,
+254,
 2
 ],
 [
 "b500ebd8e4ae",
-22,
-232,
+20,
+242,
 1
 ],
 [
 "217bf7a48a8c",
-12,
-273,
+11,
+283,
 1
 ],
 [
 "1fb6f0cbeee0",
-23,
-271,
+22,
+281,
 1
+],
+[
+"6b0f786ee8f6",
+69,
+307,
+5
 ],
 [
 "8241efefbd22",
 0,
-312,
+322,
 1
+],
+[
+"7106351a639a",
+21,
+324,
+5
 ],
 [
 "753906088eb6",
-52,
-195,
+51,
+205,
 8
-],
-[
-"e3905a888e6e",
-0,
-321,
-1
-],
-[
-"860712892d7a",
-35,
-328,
-3
 ]
 ],
-"top_at": 1795646832.3965676
+"top_at": 1795647442.0330935
 }
