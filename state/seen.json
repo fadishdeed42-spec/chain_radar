@@ -5,8 +5,6 @@
 },
 "init": true,
 "log": [
-1795486146.5561724,
-1795489934.6297452,
 1795504584.1802838,
 1795511882.8644881,
 1795513411.6701093,
@@ -18,7 +16,8 @@
 1795537267.6506667,
 1795538498.0320816,
 1795545536.3327165,
-1795570584.5070019
+1795570584.5070019,
+1795581972.2113385
 ],
 "menu": {
 "0052e4b58051": {
@@ -269,7 +268,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795570995.0,
 "tgtext": "\u26a1\ufe0f BRIAN ARMSTRONG: \u201cIn the same way that crypto decentralized the financial system to preserve freedom, we need to decentralize AI to preserve freedom.\u201d\n\nNews | Markets | YouTube",
 "title": "BRIAN ARMSTRONG: \u201cIn the same way that crypto decentralized the financial system to preserve freedom, we need to decentralize AI to preserve freedom.\u201d",
@@ -1168,23 +1167,6 @@
 "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"408d0d7bc3ac": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"Crypto Briefing",
-"The Block",
-"investingLive"
-],
-"t": 1795409465.81979,
-"t0": 1795389420.0,
-"tgtext": "",
-"title": "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist's ACE bridge",
-"url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPY3d0ZUFxUmRobnpZbDl5dngxRWRqdjIyY1c2ckphWVhoT0RtbDl2Tmx1aXJHVlZNSW5KQ0hyM183eS1xQnd1bkQ3XzRGNE9LVDRnY2RlaWZ0U3FNQ09SMU43ZWtreVlSVjNJU3phdHFVZ2lkV1lhT2JNR1JrY2RjN3ZUcGxlMGEtV1hoQlJsVE1SdWFPcUkxWXVTeTNXQ1JkTHRxbFhDM3VFZGN2Snl4alphbkpDTVg4OXRYT3dGMVk1NFBYeWlEdTJncnBtd3hYTmUxcXhaSWR2WEQ1dHh3?oc=5",
-"urls": [
-"https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
-]
-},
 "42357787e6d3": {
 "coin": "bitcoin",
 "src": "PanAsiaBiz",
@@ -1271,7 +1253,7 @@
 "srcs": [
 "Moomoo"
 ],
-"t": 1795581354.157597,
+"t": 1795582277.9417748,
 "t0": 1795567893.0,
 "tgtext": "",
 "title": "Bitcoin Shows Signs of Capitulation: U.S. Equities Under Pressure, Potential Break Below $60,000 to Test $53,000",
@@ -1770,7 +1752,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795569814.0,
 "tgtext": "X Wins Lawsuit Against Fake Bitcoin News Bot Farm Operators Over Alleged $277,000 Creator Fund Fraud\n\nAccording to UK High Court filings, the court has entered a judgment in default in favor of X against defendants Vivek Kumar Sen and Zamyang Sherpa over their operation of a fake bitcoin news bot farm, after both failed to file an acknowledgment of service or a defense within the prescribed deadlines, with the specific amount of damages and interest to be determined at a subsequent Disposal Hearing. Previously, X filed suit in London in September alleging that the pair operated a nine-account network\u2014including Vivek4real_ and Bitcoin_Teddy\u2014that circulated fabricated breaking news and generated fake engagement to fraudulently collect at least \u00a3207,000 ($277,000) from the platform's creator fund. \u2014 link",
 "title": "X Wins Lawsuit Against Fake Bitcoin News Bot Farm Operators Over Alleged $277,000 Creator Fund Fraud",
@@ -1899,7 +1881,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795570363.0,
 "tgtext": "Whale 0x2aB3 dumped 17,183 $ETH for 28.68M $DAI at $1,669 just 8 hours ago.\n\nhttps://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
 "title": "Whale 0x2aB3 dumped 17,183 ETH for 28.68M DAI at $1,669 just 8 hours ago.",
@@ -3471,7 +3453,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795577628.0,
 "tgtext": "Trader 0xab96, who has won 10 straight trades, just opened another long on 80,000 $NVDA ($12.17M)!\n\nHe has completed 30 trades with a 77% win rate, making $7.4M in realized profit.\n\nhttps://hyperbot.network/trader/0xab961d7c42bbcd454a54b342bd191a8f090219e6",
 "title": "Trader 0xab96, who has won 10 straight trades, just opened another long on 80,000 NVDA ($12.17M)!",
@@ -3505,7 +3487,7 @@
 "srcs": [
 "CryptoRank"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795580852.0,
 "tgtext": "",
 "title": "Ansem says multimillion-dollar token dump was caused by hack",
@@ -3994,7 +3976,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795577884.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury suffers cyberattack.\n\nThe US Treasury's financial crimes agency, FinCEN, is investigating a cybersecurity breach and has taken some systems offline as a precaution.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US Treasury suffers cyberattack.",
@@ -4454,6 +4436,19 @@
 "url": "https://t.me/cointelegraph/73500",
 "urls": []
 },
+"e3033216d888": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795582277.9417748,
+"t0": 1795581710.0,
+"tgtext": "Russia\u2019s Largest Stock Exchange, Moscow Exchange (MOEX), to Launch Crypto Trading on December 1\n\nAccording to Bits media, Moscow Exchange (MOEX) is set to launch crypto trading on December 1 (offering BTC, ETH, and USDT with an annual limit of 300,000 rubles per intermediary), but briefly announced on November 24 that December USDT trades would incur an extra 22% value-added tax (VAT) before deleting the notice hours later. Russia\u2019s National Clearing Center explained that while issuerless BTC and ETH qualify as VAT-exempt \"digital currencies,\" Tether-issued USDT is classified as a \"foreign digital instrument\" lacking VAT exemption\u2014exposing corporate entities to an additional 25% profit tax on gains\u2014as Tax Code amendments to waive the VAT have so far passed only their first reading. \u2014 link",
+"title": "Russia\u2019s Largest Stock Exchange, Moscow Exchange (MOEX), to Launch Crypto Trading on December 1",
+"url": "https://t.me/wublockchainenglish/26943",
+"urls": []
+},
 "e35afed482e7": {
 "coin": "",
 "src": "Cointelegraph",
@@ -4477,7 +4472,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795571575.0,
 "tgtext": "Abraxas Capital sold 219,081 $HYPE ($13.25M) and then bought 4,230 $ETH ($7.09M).\n\nAbraxas Capital has now withdrawn all its funds from Hyperliquid, after generating $12.49B in perp trading volume and making $552.49M in profit.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital sold 219,081 HYPE ($13.25M) and then bought 4,230 ETH ($7.09M).",
@@ -4695,7 +4690,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795581659.6480446,
+"t": 1795582277.9417748,
 "t0": 1795561096.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is willing to pardon Nvidia $NVDA CEO Jensen Huang if necessary.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says he's open to a pardon for Nvidia CEO Jensen Huang if needed, but believes he won't need one, per New York Post.\n\nNews | Markets | YouTube",
 "title": "President Trump says he's open to a pardon for Nvidia CEO Jensen Huang if needed, but believes he won't need one, per New York Post.",
@@ -4983,99 +4978,46 @@
 "pieverse": 1795338115.00558
 },
 "probs": {
+"07d53e6b4cfc": 0.011,
 "0a19343bc4b5": 0.043,
 "0c592f628dc2": 0.121,
-"0ccf75826339": 0.205,
+"0ccf75826339": 0.246,
+"0d3f21e83d9f": 0.032,
 "182dd57309eb": 0.104,
 "1a568a7b1b84": 0.088,
 "1e5236996388": 0.049,
 "2350ed2e8675": 0.017,
 "3c27de2e4eba": 0.167,
+"40083df8817b": 0.049,
+"427a0aadf6bf": 0.087,
 "431253948963": 0.183,
+"466425a9bea0": 0.214,
 "4df031d3a867": 0.044,
-"554a36e36fad": 0.078,
 "58d3b964fed7": 0.032,
 "5cd4257a29d9": 0.309,
+"6154715dab3d": 0.05,
 "62284273bbac": 0.656,
+"66f62f75d06e": 0.041,
 "6bd21603cac2": 0.13,
+"89af522db372": 0.02,
+"93f525e097fe": 0.043,
 "9d6f12eab49b": 0.035,
 "a6dc87bcea54": 0.067,
+"a815bb9c29e8": 0.035,
 "b24c3f07e00f": 0.396,
 "b289d11221ff": 0.223,
-"b29c2396d3de": 0.037,
-"b72c727b65fa": 0.162,
+"b72c727b65fa": 0.093,
+"c0730953d7b5": 0.033,
 "c623e31fba89": 0.333,
 "d0be50c5d2bb": 0.087,
 "d8df0744bbf5": 0.078,
+"e3033216d888": 0.552,
 "e3d193eedec5": 0.308,
 "e4253fb16122": 0.161,
 "e79bbff22c84": 0.071,
 "ed26ebe9edd3": 0.877
 },
 "sent": [
-{
-"e": [
-"gambler"
-],
-"k": [
-"crash"
-],
-"t": 1795406112.7877598,
-"u": [
-"https://t.me/lookonchainchannel/11232"
-],
-"w": [
-"$12",
-"$265k",
-"0x9def",
-"200",
-"btc",
-"fully",
-"gambler",
-"got",
-"his",
-"just",
-"liquidated",
-"losing",
-"market",
-"rebounded",
-"short"
-]
-},
-{
-"e": [
-"alice",
-"china",
-"huang",
-"jensen",
-"nvda",
-"nvidia"
-],
-"k": [],
-"t": 1795406112.7877598,
-"u": [
-"https://t.me/WatcherGuru/16257",
-"https://t.me/WatcherGuru/16258",
-"https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-],
-"w": [
-"affair",
-"agency",
-"alice",
-"ceo",
-"china",
-"contact",
-"during",
-"former",
-"had",
-"huang",
-"jensen",
-"nvda",
-"nvidia",
-"spy",
-"top"
-]
-},
 {
 "e": [
 "binance",
@@ -6637,6 +6579,35 @@
 "won",
 "york"
 ]
+},
+{
+"e": [
+"december",
+"exchange",
+"largest",
+"launch",
+"moex",
+"moscow",
+"russia",
+"stock",
+"trading"
+],
+"k": [],
+"t": 1795581972.2113385,
+"u": [
+"https://t.me/wublockchainenglish/26943"
+],
+"w": [
+"december",
+"exchange",
+"largest",
+"launch",
+"moex",
+"moscow",
+"russia",
+"stock",
+"trading"
+]
 }
 ],
 "stories": {},
@@ -6644,64 +6615,64 @@
 "top": [
 [
 "ed26ebe9edd3",
-17,
-343,
+15,
+353,
 3
 ],
 [
 "62284273bbac",
-27,
-188,
+26,
+199,
+1
+],
+[
+"e3033216d888",
+10,
+9,
 1
 ],
 [
 "b24c3f07e00f",
 16,
-67,
+77,
 1
 ],
 [
 "c623e31fba89",
 10,
-63,
+73,
 1
 ],
 [
 "5cd4257a29d9",
-26,
-197,
+25,
+208,
 1
 ],
 [
 "e3d193eedec5",
 16,
-168,
+178,
+1
+],
+[
+"0ccf75826339",
+9,
+188,
 1
 ],
 [
 "b289d11221ff",
 45,
-13,
+24,
 1
 ],
 [
-"0ccf75826339",
-10,
-178,
-1
-],
-[
-"431253948963",
-18,
-35,
-1
-],
-[
-"3c27de2e4eba",
-55,
-100,
+"466425a9bea0",
+3,
+240,
 1
 ]
 ],
-"top_at": 1795581659.6480446
+"top_at": 1795582277.9417748
 }
