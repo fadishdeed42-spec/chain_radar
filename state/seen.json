@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795470349.8308902,
 1795486146.5561724,
 1795489934.6297452,
 1795504584.1802838,
@@ -18,7 +17,8 @@
 1795536028.5079677,
 1795537267.6506667,
 1795538498.0320816,
-1795545536.3327165
+1795545536.3327165,
+1795570584.5070019
 ],
 "menu": {
 "0052e4b58051": {
@@ -812,6 +812,20 @@
 "url": "https://t.me/lookonchainchannel/11232",
 "urls": []
 },
+"2f820311033c": {
+"coin": "bitcoin",
+"src": "The Motley Fool",
+"srcs": [
+"Cryptonews.net",
+"The Motley Fool"
+],
+"t": 1795570278.8702366,
+"t0": 1795553442.0,
+"tgtext": "",
+"title": "Crypto Market Today, Nov. 24: Bitcoin Falls Below $60,000 as ETF Outflows Hit a Record $4.7 Billion",
+"url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPLTNtZEtTS2JrekFZdEt1TTVjWEJIMG5zOUVRdUpVYTFfblo4MkhMNlRxbzRINzVXU3doTi0yNkM5amZKQnpva3VObXBNdFVsWGR0T3lYNy02ZjlVWk41VEE5Wnh0MU5qeHh5MzlZVFJUUWg4cmNXcHFZVXE5dGtoR0VHRTlGTGtKWFNVVFB4OFdNdlA0TTVhc2JGTTBma2RXR0JlMEhLOS1pcFlOQldpcmVlRkNWLXF2Rmx1UDA0LVdLY19pdjhSTHNrX0U1bHNLTjhwQ2FiU05KZ2tVVXRUUVJhY3lGazEyTU01bXNOclg4d2s?oc=5",
+"urls": []
+},
 "32d7a460e995": {
 "coin": "",
 "src": "Cointelegraph",
@@ -898,7 +912,7 @@
 "srcs": [
 "Yahoo! Finance Canada"
 ],
-"t": 1795569663.862083,
+"t": 1795570278.8702366,
 "t0": 1795553045.0,
 "tgtext": "",
 "title": "Securitize\u2019s Average Tokenized Assets Grew 39%. Can It Close the Profit Gap?",
@@ -1204,7 +1218,7 @@
 "srcs": [
 "Moomoo"
 ],
-"t": 1795569353.8102608,
+"t": 1795570584.5070019,
 "t0": 1795567893.0,
 "tgtext": "",
 "title": "Bitcoin Shows Signs of Capitulation: U.S. Equities Under Pressure, Potential Break Below $60,000 to Test $53,000",
@@ -1352,7 +1366,7 @@
 "srcs": [
 "KuCoin"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795550001.0,
 "tgtext": "",
 "title": "PEPE Price Faces Key Resistance and Liquidation Clusters",
@@ -1717,7 +1731,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795569814.0,
 "tgtext": "X Wins Lawsuit Against Fake Bitcoin News Bot Farm Operators Over Alleged $277,000 Creator Fund Fraud\n\nAccording to UK High Court filings, the court has entered a judgment in default in favor of X against defendants Vivek Kumar Sen and Zamyang Sherpa over their operation of a fake bitcoin news bot farm, after both failed to file an acknowledgment of service or a defense within the prescribed deadlines, with the specific amount of damages and interest to be determined at a subsequent Disposal Hearing. Previously, X filed suit in London in September alleging that the pair operated a nine-account network\u2014including Vivek4real_ and Bitcoin_Teddy\u2014that circulated fabricated breaking news and generated fake engagement to fraudulently collect at least \u00a3207,000 ($277,000) from the platform's creator fund. \u2014 link",
 "title": "X Wins Lawsuit Against Fake Bitcoin News Bot Farm Operators Over Alleged $277,000 Creator Fund Fraud",
@@ -1840,6 +1854,19 @@
 "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX1lHVHZFdHZEc1FkVVE5aVZCTHltRjlQck5LTUtmZ1VuZ3JxUml5bjZ5OVBqYmp4NTdzcFZCNHFNanlvRWV3RHpzNjVDM1RfWTloMjdjc3lVZ0x1T3ZlWE1ZV2haZ190Z25VNWZzdDlsY2JJUkQ2TFoxNm1qVXhtQU9TallFNkltb0FrNm5PSk1iUTFreU1VN01qWnZWX2E2UGxLYVhiU0xHMlVha2FzSGd3b2k?oc=5",
 "urls": []
 },
+"62284273bbac": {
+"coin": "ethereum",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795570584.5070019,
+"t0": 1795570363.0,
+"tgtext": "Whale 0x2aB3 dumped 17,183 $ETH for 28.68M $DAI at $1,669 just 8 hours ago.\n\nhttps://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
+"title": "Whale 0x2aB3 dumped 17,183 ETH for 28.68M DAI at $1,669 just 8 hours ago.",
+"url": "https://t.me/lookonchainchannel/11263",
+"urls": []
+},
 "628e89bd63cb": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -1881,7 +1908,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795549851.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Hackers breach CIA and US intelligence systems, exposing unclassified government data in cyberattack, NYT reports.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.\n\nNews | Markets | YouTube",
 "title": "The CIA and the Office of the Director of National Intelligence suffered a cybersecurity breach exposing unclassified information, per The New York Times.",
@@ -3305,7 +3332,7 @@
 "FXStreet",
 "www.tmgm.com"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795554056.0,
 "tgtext": "",
 "title": "Ethereum Price Forecast: ETH falls below $1,700 as tariff fears weigh on crypto",
@@ -3897,7 +3924,7 @@
 "TradingView",
 "bloomingbit"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795549463.0,
 "tgtext": "",
 "title": "21Shares Says Bitcoin's Slide Was Mostly a Leverage Flush, Flags $53,250 as Key Level",
@@ -3956,7 +3983,7 @@
 "srcs": [
 "The Motley Fool"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795560062.0,
 "tgtext": "",
 "title": "In Response to the Turmoil at Nvidia, Bitcoin Drops Below $70,000. Is This a Buy-the-Dip Opportunity?",
@@ -4427,7 +4454,7 @@
 "FF News",
 "Pluang"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795551910.0,
 "tgtext": "",
 "title": "21Shares flags Bitcoin's $53,250 realized price as key support amid ETF outflows and liquidations.",
@@ -4539,7 +4566,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795569969.3556852,
+"t": 1795570584.5070019,
 "t0": 1795561096.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is willing to pardon Nvidia $NVDA CEO Jensen Huang if necessary.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says he's open to a pardon for Nvidia CEO Jensen Huang if needed, but believes he won't need one, per New York Post.\n\nNews | Markets | YouTube",
 "title": "President Trump says he's open to a pardon for Nvidia CEO Jensen Huang if needed, but believes he won't need one, per New York Post.",
@@ -4818,26 +4845,26 @@
 "1c09d1c3c478": 0.035,
 "2350ed2e8675": 0.014,
 "26fe5f415ee9": 0.033,
-"371b627af665": 0.107,
+"3ada6a3bf7cc": 0.027,
+"466425a9bea0": 0.183,
 "4a986385f439": 0.071,
 "4bc450bcc4e5": 0.178,
-"4cc37d957f93": 0.013,
 "4df031d3a867": 0.032,
-"552fb5364eb3": 0.062,
-"5cd4257a29d9": 0.766,
+"5cd4257a29d9": 0.712,
 "6154715dab3d": 0.042,
+"62284273bbac": 0.933,
 "64f0bf396498": 0.84,
 "6610cf7a94db": 0.109,
 "6b6c77965aed": 0.044,
 "6f875c5b230d": 0.035,
-"73ecbe745a53": 0.05,
 "78f7a83e386d": 0.086,
-"84b6e78dfd0f": 0.542,
 "8eb90809c5f9": 0.038,
 "8f4e11ed7aa8": 0.049,
 "92ac0f71bafd": 0.119,
+"97c364f826e8": 0.039,
 "9d6f12eab49b": 0.029,
 "a4cee22dedd6": 0.036,
+"a8e5c2560f4f": 0.043,
 "af2f9cc8eccd": 0.196,
 "b29819b863ee": 0.07,
 "b3762f17ade9": 0.023,
@@ -4846,7 +4873,7 @@
 "d98e26a34fcf": 0.032,
 "dfb9fc8de21e": 0.029,
 "e4253fb16122": 0.07,
-"e4760d7c6a51": 0.279,
+"e4760d7c6a51": 0.078,
 "e9c67ddf9455": 0.173,
 "ed26ebe9edd3": 0.612,
 "f8dce938fef3": 0.044
@@ -6467,71 +6494,97 @@
 "operators",
 "wins"
 ]
+},
+{
+"e": [
+"dai",
+"whale"
+],
+"k": [
+"crash"
+],
+"t": 1795570584.5070019,
+"u": [
+"https://t.me/lookonchainchannel/11263"
+],
+"w": [
+"0x2ab3",
+"183",
+"669",
+"68m",
+"ago",
+"dai",
+"dumped",
+"eth",
+"hours",
+"just",
+"whale"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"62284273bbac",
+28,
+4,
+1
+],
+[
 "64f0bf396498",
-25,
-335,
+23,
+346,
 2
 ],
 [
 "5cd4257a29d9",
 28,
-3,
+13,
 1
 ],
 [
 "ed26ebe9edd3",
 28,
-148,
+158,
 2
-],
-[
-"84b6e78dfd0f",
-71,
-179,
-3
 ],
 [
 "c73c77a3b06b",
-64,
-342,
+63,
+352,
 6
-],
-[
-"e4760d7c6a51",
-40,
-344,
-2
 ],
 [
 "caf63d166456",
 10,
-165,
+175,
 1
 ],
 [
 "af2f9cc8eccd",
-9,
-265,
+8,
+275,
 2
 ],
 [
+"466425a9bea0",
+10,
+45,
+1
+],
+[
 "4bc450bcc4e5",
-5,
-333,
+4,
+343,
 1
 ],
 [
 "e9c67ddf9455",
-48,
-301,
+47,
+311,
 2
 ]
 ],
-"top_at": 1795569969.3556852
+"top_at": 1795570584.5070019
 }
