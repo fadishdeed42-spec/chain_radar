@@ -5,7 +5,6 @@
 },
 "init": true,
 "log": [
-1795504584.1802838,
 1795511882.8644881,
 1795513411.6701093,
 1795514024.0284457,
@@ -18,7 +17,8 @@
 1795545536.3327165,
 1795570584.5070019,
 1795581972.2113385,
-1795585971.3006525
+1795585971.3006525,
+1795591646.22162
 ],
 "menu": {
 "0052e4b58051": {
@@ -256,7 +256,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795570995.0,
 "tgtext": "\u26a1\ufe0f BRIAN ARMSTRONG: \u201cIn the same way that crypto decentralized the financial system to preserve freedom, we need to decentralize AI to preserve freedom.\u201d\n\nNews | Markets | YouTube",
 "title": "BRIAN ARMSTRONG: \u201cIn the same way that crypto decentralized the financial system to preserve freedom, we need to decentralize AI to preserve freedom.\u201d",
@@ -856,6 +856,19 @@
 "https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"33a380da0344": {
+"coin": "tether",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795591950.4698422,
+"t0": 1795591421.0,
+"tgtext": "Bloomberg: Tether Has Sought 20% Reissuance Fees From Some Crypto Hack Victims\n\nAccording to a Bloomberg investigation, Tether has sought 20% reissuance fees from some victims seeking the return of frozen USDT. Singapore-based crypto exchange Bittok, which lost $50 million in a 2020 hack, has yet to recover its frozen USDT more than five years later. Tether CEO Paolo Ardoino said the company reissues funds in stages in civil cases to manage legal risks amid a lack of clear legal guidance. A Tether spokesperson said the company has reissued $1.2 billion in USDT to date, with fees helping cover the reissuance process and legal costs. Tether is also establishing direct emergency communication channels with major crypto exchanges. \u2014 link",
+"title": "Bloomberg: Tether Has Sought 20% Reissuance Fees From Some Crypto Hack Victims",
+"url": "https://t.me/wublockchainenglish/26944",
+"urls": []
+},
 "348e72257911": {
 "coin": "",
 "src": "Lookonchain",
@@ -1354,7 +1367,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795585664.0,
 "tgtext": "loracle.hl (@loraclexyz) closed his $BTC long 4 hours ago after holding it for over 50 days, taking a $23.77M loss.\n\nHe then flipped short on 462 $BTC ($27.14M).\n\nhttps://hyperbot.network/trader/0xefe4c06b6d310978bead596e1798a4fc1d9d194b",
 "title": "loracle.hl (@loraclexyz) closed his BTC long 4 hours ago after holding it for over 50 days, taking a $23.77M loss.",
@@ -1869,7 +1882,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795570363.0,
 "tgtext": "Whale 0x2aB3 dumped 17,183 $ETH for 28.68M $DAI at $1,669 just 8 hours ago.\n\nhttps://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
 "title": "Whale 0x2aB3 dumped 17,183 ETH for 28.68M DAI at $1,669 just 8 hours ago.",
@@ -2535,7 +2548,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795584319.0,
 "tgtext": "\ud83d\udea8 JUST IN: The US Treasury's financial crimes unit FinCEN disclosed a cybersecurity incident that gave unauthorized access to part of its systems.\n\nIt has taken some systems offline as a precaution.\n\nNews | Markets | YouTube",
 "title": "The US Treasury's financial crimes unit FinCEN disclosed a cybersecurity incident that gave unauthorized access to part of its systems.",
@@ -3445,7 +3458,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795577628.0,
 "tgtext": "Trader 0xab96, who has won 10 straight trades, just opened another long on 80,000 $NVDA ($12.17M)!\n\nHe has completed 30 trades with a 77% win rate, making $7.4M in realized profit.\n\nhttps://hyperbot.network/trader/0xab961d7c42bbcd454a54b342bd191a8f090219e6",
 "title": "Trader 0xab96, who has won 10 straight trades, just opened another long on 80,000 NVDA ($12.17M)!",
@@ -3957,7 +3970,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795577884.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury suffers cyberattack.\n\nThe US Treasury's financial crimes agency, FinCEN, is investigating a cybersecurity breach and has taken some systems offline as a precaution.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US Treasury suffers cyberattack.",
@@ -4059,7 +4072,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795589013.0,
 "tgtext": "\ud83d\udd25 INTERESTING: A trader turned $19,000 in Nvidia call options into a $376,900 profit, a 1,984% gain, after Jensen Huang's return as CEO, per Bloomberg.\n\nNews | Markets | YouTube",
 "title": "INTERESTING: A trader turned $19,000 in Nvidia call options into a $376,900 profit, a 1,984% gain, after Jensen Huang's return as CEO, per Bloomberg.",
@@ -4465,7 +4478,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795571575.0,
 "tgtext": "Abraxas Capital sold 219,081 $HYPE ($13.25M) and then bought 4,230 $ETH ($7.09M).\n\nAbraxas Capital has now withdrawn all its funds from Hyperliquid, after generating $12.49B in perp trading volume and making $552.49M in profit.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital sold 219,081 HYPE ($13.25M) and then bought 4,230 ETH ($7.09M).",
@@ -4881,7 +4894,7 @@
 "Insurance Journal",
 "U.Today"
 ],
-"t": 1795591338.5239103,
+"t": 1795591950.4698422,
 "t0": 1795573871.0,
 "tgtext": "",
 "title": "US Moves to Recover $1.1 Billion From Binance Hack, Saylor's Strategy Buys 457 BTC, XRP Briefly Reclaims $1 \u2014 U.Today Crypto Digest",
@@ -4974,15 +4987,17 @@
 "probs": {
 "07d53e6b4cfc": 0.099,
 "0a19343bc4b5": 0.041,
-"0c592f628dc2": 0.065,
+"0c592f628dc2": 0.21,
 "1e5236996388": 0.047,
 "200b63e03fda": 0.068,
 "28a0d1230652": 0.247,
+"33a380da0344": 0.965,
 "374e8eb7c379": 0.043,
 "431253948963": 0.175,
 "43846882b5d0": 0.019,
 "48b2d67d1d14": 0.735,
 "49ae9f0b131d": 0.019,
+"4d38492b2a83": 0.165,
 "58d3b964fed7": 0.03,
 "704af41f59b4": 0.072,
 "72dcff6c993b": 0.088,
@@ -4991,27 +5006,25 @@
 "7bb0c789f05d": 0.277,
 "7d56773ab164": 0.042,
 "7d6b07a9cea8": 0.436,
-"996c92047ce9": 0.023,
+"80053aa32c36": 0.084,
 "a815bb9c29e8": 0.084,
 "ac33d5867b44": 0.042,
 "af027915fc48": 0.007,
-"b24c3f07e00f": 0.383,
 "b289d11221ff": 0.213,
-"b47cfef443f5": 0.288,
 "b8c6984b2784": 0.038,
 "bf644fdb880d": 0.017,
 "cd737ad39bc1": 0.435,
-"d0be50c5d2bb": 0.083,
+"d0be50c5d2bb": 0.194,
 "d21cc70a61ba": 0.033,
 "d2cf5066f483": 0.106,
 "d8df0744bbf5": 0.017,
 "d8f35daf1926": 0.017,
 "da3fa97c5d7d": 0.018,
+"da57c6b22796": 0.023,
 "df578c5be9de": 0.043,
 "e22e4f3bb9b6": 0.037,
 "e3033216d888": 0.181,
-"f931e20a1c06": 0.797,
-"feb1ef1e094c": 0.005
+"f931e20a1c06": 0.735
 },
 "sent": [
 {
@@ -6628,71 +6641,100 @@
 "loss",
 "taking"
 ]
+},
+{
+"e": [
+"bloomberg",
+"fees",
+"hack",
+"reissuance",
+"some",
+"sought",
+"tether",
+"victims"
+],
+"k": [
+"hack"
+],
+"t": 1795591646.22162,
+"u": [
+"https://t.me/wublockchainenglish/26944"
+],
+"w": [
+"bloomberg",
+"fees",
+"hack",
+"reissuance",
+"some",
+"sought",
+"tether",
+"victims"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"62284273bbac",
-6,
-350,
+"33a380da0344",
+43,
+9,
 1
 ],
 [
-"f931e20a1c06",
-61,
-291,
-3
+"62284273bbac",
+5,
+360,
+1
 ],
 [
 "48b2d67d1d14",
 16,
-95,
+105,
 1
+],
+[
+"f931e20a1c06",
+59,
+301,
+3
 ],
 [
 "e3d193eedec5",
 0,
-329,
+340,
 1
 ],
 [
 "0ccf75826339",
 0,
-339,
+349,
 1
 ],
 [
-"5cd4257a29d9",
-5,
-359,
+"b24c3f07e00f",
+9,
+239,
 1
 ],
 [
 "7d6b07a9cea8",
 10,
-117,
+127,
 1
 ],
 [
 "cd737ad39bc1",
 10,
-39,
-1
-],
-[
-"b24c3f07e00f",
-10,
-229,
+49,
 1
 ],
 [
 "c623e31fba89",
-5,
-224,
+3,
+234,
 1
 ]
 ],
-"top_at": 1795591338.5239103
+"top_at": 1795591950.4698422
 }
