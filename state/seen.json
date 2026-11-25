@@ -21,6 +21,19 @@
 1795609625.3425126
 ],
 "menu": {
+"005064432d65": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795613592.006607,
+"t0": 1795613160.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: The Trump administration proposes new tariffs targeting dozens of countries, including China, Japan and EU members, citing unfair trade practices.\n\nNews | Markets | YouTube",
+"title": "The Trump administration proposes new tariffs targeting dozens of countries, including China, Japan and EU members, citing unfair trade practices.",
+"url": "https://t.me/cointelegraph/73519",
+"urls": []
+},
 "0052e4b58051": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -291,7 +304,7 @@
 "The Block",
 "Wu Blockchain"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795598208.0,
 "tgtext": "\ud83c\uddef\ud83c\uddf5 JUST IN: SBI Holdings, SMFG and the Solana Foundation launch SBI Solana Global to expand Japan\u2019s onchain financial market.\n\nNews | Markets | YouTube\nJapan's SBI, SMBC Group, and Solana Foundation Partner as SBI Solana Global Launches On-Chain Finance Operations\n\nSBI Holdings, a major Japanese internet-based financial group, Sumitomo Mitsui Financial Group (SMBC Group), Japan's second-largest banking group, and the Solana Foundation announced the completion of agreements for a new joint venture structure. SBI R3 Japan has been renamed SBI Solana Global and commenced full-scale operations. The company will focus on four areas: stablecoin payments and cross-border remittances, financial asset tokenization, real-world asset tokenization, and on-chain asset management using stablecoins and tokenized assets. It plans to establish operations in Japan before expanding across Asia and globally. \u2014 link",
 "title": "SBI Holdings, SMFG and the Solana Foundation launch SBI Solana Global to expand Japan\u2019s onchain financial market.",
@@ -700,7 +713,7 @@
 "Coinpaper",
 "Yahoo Finance"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795598856.0,
 "tgtext": "",
 "title": "Ethereum (ETH) Price Prediction: $1,500 Make-or-Break Support Could Decide Between $2,000 Rally and Sub $1,000-Crash",
@@ -804,7 +817,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795612404.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddea\ud83c\uddfa US proposes tariffs of up to 20% on the European Union following trade investigation.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddea\ud83c\uddfa US proposes tariffs of up to 20% on the European Union following trade investigation.",
@@ -1149,7 +1162,7 @@
 "Decrypt",
 "Watcher.Guru"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795602957.0,
 "tgtext": "JUST IN: \ud83c\uddeb\ud83c\uddf7 French Senate rejects proposal requiring citizens to declare crypto holdings of \u20ac100,000 or more held in self-custody wallets.\n\n@WatcherGuru",
 "title": "\ud83c\uddeb\ud83c\uddf7 French Senate rejects proposal requiring citizens to declare crypto holdings of \u20ac100,000 or more held in self-custody wallets.",
@@ -1670,7 +1683,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795604587.0,
 "tgtext": "\ud83c\uddfa\ud83c\udde6 JUST IN: Ukraine's parliament passes a bill establishing a regulatory and tax framework for crypto. \n\nNews | Markets | YouTube",
 "title": "Ukraine's parliament passes a bill establishing a regulatory and tax framework for crypto.",
@@ -2738,7 +2751,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795604906.0,
 "tgtext": "Does this whale know something we don't?\n\nHe bought another 815.58B $PEPE ($2.81M) ~30 mins ago, bringing his total purchases to 4.16T $PEPE ($15M)!\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F",
 "title": "Does this whale know something we don't?",
@@ -3219,24 +3232,6 @@
 "url": "https://t.me/wublockchainenglish/26927",
 "urls": []
 },
-"b17ded3f03b0": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"Blockonomi",
-"Cointelegraph",
-"Pluang",
-"TradingView"
-],
-"t": 1795440319.1891546,
-"t0": 1795430448.0,
-"tgtext": "",
-"title": "Bitcoin rebounds to $61,500 after a sharp drop amid heavy short liquidations and bearish market sentiment.",
-"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMGE4T2xmQnJvQ0t3VzZ2SndMajhjd0V6bm5tTnZRUHlybFdzYk1Dbmk2U2lFUnR3ZGRoVmFIRUUzRm1CY0FzRkxBdzVvUjdYYWxjZXR2bHhVaGU5OVJPY2dZTzJOZFpYOXZna2xVMmFWczgyNVZZZVFjTGxuemhMcFBESnExQ09YdUc0b1lsUlBTVTRkMEE?oc=5",
-"urls": [
-"https://cointelegraph.com/markets/btc-price-stock-futures-rebound-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "b1c32bb67dea": {
 "coin": "bitcoin",
 "src": "Bitcoin Magazine",
@@ -3491,9 +3486,10 @@
 "src": "BeInCrypto",
 "srcs": [
 "BeInCrypto",
+"KuCoin",
 "The Cryptonomist"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795598856.0,
 "tgtext": "",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
@@ -3587,20 +3583,6 @@
 "tgtext": "",
 "title": "Bitcoin Price on Black Friday 2026: Will BTC Rally or Crash Again?",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwZjJLemwxdkQxTlVybFNLX1JraXRWU2lqbHF0Qklxc1NiNTR1S1lCcURHSG5Ib1ZfU1dRRE9peEVMMXBTeFplN1pCQVZBTFpDM3Y3SkZZcDI?oc=5",
-"urls": []
-},
-"be707c0137b3": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"BigGo Finance",
-"Wu Blockchain"
-],
-"t": 1795440626.9710596,
-"t0": 1795419177.0,
-"tgtext": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History\n\nCryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4.5 billion over the past year and remains down nearly 40%. In July, the decline exceeded 45%, equivalent to $6.25 billion, marking the largest deleveraging event in Bitcoin's history in dollar terms. Binance accounts for over 34% of total Bitcoin open interest. Darkfost attributed the contraction to macroeconomic uncertainty, geopolitical tensions, tighter monetary policy, voluntary position closures, forced liquidations, and declining Bitcoin prices. In 2026 alone, the broader crypto market has recorded at least eight days with liquidations exceeding $1.5 billion. \u2014 link",
-"title": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History",
-"url": "https://t.me/wublockchainenglish/26921",
 "urls": []
 },
 "bfc8fb178301": {
@@ -3975,7 +3957,7 @@
 "CoinGape",
 "Wu Blockchain"
 ],
-"t": 1795609929.0526521,
+"t": 1795613288.484194,
 "t0": 1795593453.0,
 "tgtext": "Spot Bitcoin ETFs Record $232M Total Net Outflow, Extending Streak to Six Consecutive Days\n\nAccording to SoSoValue data, spot Bitcoin ETFs saw a total net outflow of $232 million on November 24 (ET), marking six consecutive days of net outflows. Meanwhile, spot Ethereum ETFs recorded a total net outflow of $64.02 million yesterday, extending their net outflow streak to eight consecutive days. \u2014 link",
 "title": "Spot Bitcoin ETFs Record $232M Total Net Outflow, Extending Streak to Six Consecutive Days",
@@ -4322,7 +4304,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795608116.0,
 "tgtext": "\ud83d\udd25 LATEST: Bitcoin has fallen below the lowest band of the Bitcoin Rainbow Chart, labeled \"Basically a Fire Sale.\"\n\nAre you buying the dip? \n\nNews | Markets | YouTube",
 "title": "Bitcoin has fallen below the lowest band of the Bitcoin Rainbow Chart, labeled \"Basically a Fire Sale.\"",
@@ -4629,7 +4611,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795612981.433399,
+"t": 1795613592.006607,
 "t0": 1795612062.0,
 "tgtext": "Binance Wallet Launches Real Graded Card Gacha Packs with Physical Card NFT Certificates\n\nBinance Wallet has integrated Renaiss Protocol to launch Gacha, allowing users to purchase packs with USDT and reveal real, professionally authenticated and graded trading cards. The physical cards are held in custody, while ownership is represented by NFTs on BNB Smart Chain. Card pools, rarity odds, and rules are disclosed, with results generated using a verifiable random function (VRF). Users can sell cards back at quoted prices within 72 hours, after which unsold cards are transferred to their Binance Wallets as NFTs. Physical redemption is not yet available but is planned for a future release. \u2014 link",
 "title": "Binance Wallet Launches Real Graded Card Gacha Packs with Physical Card NFT Certificates",
@@ -4777,79 +4759,48 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
+"005064432d65": 0.904,
 "0c537fd4424e": 0.243,
 "0f2807054960": 0.965,
+"1992792e3fed": 0.038,
+"19e8e6793c3f": 0.052,
 "1b9406747964": 0.127,
 "25cf80f5a604": 0.555,
 "2edcbd6b8137": 0.189,
-"3140192b2d63": 0.407,
 "323d52dee9e9": 0.057,
-"33a380da0344": 0.946,
-"38a011ab8261": 0.217,
-"3bb5602f817d": 0.054,
+"3d96fd58c994": 0.294,
 "40131e8bd5fe": 0.814,
-"472aa411def5": 0.147,
 "48ef458a9c31": 0.19,
 "54a7a22ab0f0": 0.505,
 "54aefa3724fc": 0.056,
 "577dadb975cd": 0.271,
 "606b27bc41f4": 0.266,
+"60ed3f23a2c3": 0.535,
 "735035179efb": 0.158,
 "773c3399fe40": 0.09,
-"7dfc5387b950": 0.102,
 "8f528cfd259d": 0.672,
 "970d8c41cc49": 0.093,
 "97d86f9250f7": 0.148,
-"a0ff1764ffb7": 0.041,
+"9a30b2a8aa49": 0.048,
+"a0ff1764ffb7": 0.026,
 "a569b4801d3b": 0.212,
 "a68c58404f64": 0.151,
+"abe82fc6bee4": 0.086,
 "ac86cd44c4ab": 0.207,
-"b982ddd8512b": 0.539,
+"b982ddd8512b": 0.794,
 "cc8a83eecbcf": 0.106,
+"d0c115224353": 0.162,
 "d48798aa8e3a": 0.272,
-"d72f323422c4": 0.068,
 "e784f21f68b2": 0.887,
 "e9dd783882b0": 0.08,
 "f1fae55ad06f": 0.538,
-"f2a66664948b": 0.982,
+"f2a66664948b": 0.843,
 "f3cd01b200da": 0.273,
 "f416d8f38575": 0.435,
 "f63165bbaef5": 0.121,
-"f83d02288e8b": 0.154,
 "f88b8063db19": 0.065
 },
 "sent": [
-{
-"e": [
-"buyback",
-"expands",
-"preferred",
-"program",
-"spends",
-"stock",
-"strategy",
-"strc"
-],
-"k": [],
-"t": 1795439706.3392165,
-"u": [
-"https://t.me/wublockchainenglish/26924"
-],
-"w": [
-"$212m",
-"$30m",
-"$4b",
-"bitcoin",
-"buyback",
-"expands",
-"preferred",
-"program",
-"spends",
-"stock",
-"strategy",
-"strc"
-]
-},
 {
 "e": [
 "announces",
@@ -6475,71 +6426,100 @@
 "real",
 "wallet"
 ]
+},
+{
+"e": [
+"china",
+"japan",
+"trump"
+],
+"k": [],
+"t": 1795613592.006607,
+"u": [
+"https://t.me/cointelegraph/73519"
+],
+"w": [
+"administration",
+"china",
+"citing",
+"countries",
+"dozens",
+"including",
+"japan",
+"members",
+"practices",
+"proposes",
+"targeting",
+"tariffs",
+"trade",
+"trump",
+"unfair"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"f2a66664948b",
+"0f2807054960",
+20,
+256,
+3
+],
+[
+"005064432d65",
 18,
-15,
+7,
 1
 ],
 [
-"0f2807054960",
-22,
+"e784f21f68b2",
+20,
+91,
+2
+],
+[
+"f2a66664948b",
+18,
+26,
+1
+],
+[
+"40131e8bd5fe",
+20,
+177,
+2
+],
+[
+"b982ddd8512b",
+67,
 246,
 3
 ],
 [
 "2c8c0ba003a1",
 10,
-10,
+20,
 1
-],
-[
-"33a380da0344",
-62,
-359,
-4
-],
-[
-"e784f21f68b2",
-20,
-81,
-2
-],
-[
-"40131e8bd5fe",
-20,
-167,
-2
 ],
 [
 "8f528cfd259d",
 18,
-135,
+145,
 1
 ],
 [
 "5a16c57ae1b6",
 10,
-140,
+150,
 1
 ],
 [
 "25cf80f5a604",
-57,
-235,
+56,
+246,
 5
-],
-[
-"b982ddd8512b",
-54,
-235,
-2
 ]
 ],
-"top_at": 1795612981.433399
+"top_at": 1795613592.006607
 }
