@@ -787,7 +787,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795654482.0,
 "tgtext": "Galaxy Withdraws Bitcoin Bear Market Bottom Call, Citing Potential Downside to $48,500 or $28,200\n\nGalaxy Head of Firmwide Research Alex Thorn withdrew his October call that Bitcoin\u2019s bear market had ended in June, after BTC lost both its 50-week and 200-week moving averages. Galaxy noted that if Bitcoin closes below its June low of $58,525, all seven comparable historical bear market breakdowns saw further declines of at least 17%, with a median of 52%, implying potential lows of approximately $48,500 and $28,200, respectively. Only two of Galaxy\u2019s 13 bear market bottom indicators have been met. While the current bear market has already lasted longer than previous cycles, its drawdown remains considerably shallower. \u2014 link",
 "title": "Galaxy Withdraws Bitcoin Bear Market Bottom Call, Citing Potential Downside to $48,500 or $28,200",
@@ -858,7 +858,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795646957.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia NVDA CEO after he stepped down, WaPo reports.",
@@ -1150,7 +1150,7 @@
 },
 "47fa041139ba": {
 "coin": "chainlink",
-"src": "Wu Blockchain",
+"src": "bloomingbit",
 "srcs": [
 "Altcoin Buzz",
 "CoinGape",
@@ -1158,11 +1158,11 @@
 "Pluang",
 "Wu Blockchain"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795636803.0,
 "tgtext": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK\n\nFidelity has filed an S-1 registration statement with the SEC to launch a spot Chainlink ETF, expected to trade on Nasdaq under the ticker FLNK. The fund would hold LINK directly and track its price without staking or distributing staking rewards. Anchorage Digital Bank, BitGo and Coinbase Custody would serve as custodians, with share creations and redemptions available in LINK or cash.\n\nGrayscale and Bitwise already offer spot Chainlink ETFs in the U.S., with approximately $112 million and $42 million in assets under management, respectively, as of November 24. \u2014 link",
-"title": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK",
-"url": "https://t.me/wublockchainenglish/26952",
+"title": "Fidelity Files for Spot Chainlink ETF, Seeks Nasdaq Listing Under Ticker FLNK",
+"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yeFFXay1QTWR4MF8xUUhJa21XQzFDQkFyc2tlQWc4ajhuMWlGM21zU3BsU2pDV0RPR3p1Z0dDUjhWUFlqQ2hKeWNnOHNsS3E3M1dYXw?oc=5",
 "urls": []
 },
 "483897858a14": {
@@ -1262,6 +1262,19 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $3.3 trillion added to the US stock market today.",
 "url": "https://t.me/WatcherGuru/16295",
+"urls": []
+},
+"5154e7edd0e6": {
+"coin": "bitcoin",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795658128.7006297,
+"t0": 1795651887.0,
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.\n\n@WatcherGuru",
+"title": "\ud83c\uddfa\ud83c\uddf8 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.",
+"url": "https://t.me/WatcherGuru/16350",
 "urls": []
 },
 "54a7a22ab0f0": {
@@ -1671,23 +1684,6 @@
 "urls": [
 "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
 "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
-"6f2261686e80": {
-"coin": "zcash",
-"src": "CoinMarketCap",
-"srcs": [
-"CoinMarketCap",
-"Crypto Economy",
-"The Block"
-],
-"t": 1795485111.3491542,
-"t0": 1795467840.0,
-"tgtext": "",
-"title": "Zcash Surges 3.80% on ETF News, Relief Rally, Short Squeeze",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYUzduX0VRRlh5YXo4c3ZNaGpfVHVsc0poakRlRkZaQ0VUZkhSMjg0bHB0YnVJU2NGNmw2U2FkQUxEdTMycHZJcWxKTmlVUWlLaGZ2aXJCajZBaDR1NkVHRDZlX0ZNVFpLX0JUNElBWGg?oc=5",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407"
 ]
 },
 "6fd65a81a242": {
@@ -2153,27 +2149,6 @@
 "url": "https://t.me/WatcherGuru/16303",
 "urls": []
 },
-"8373e8e5cc4d": {
-"coin": "usd-coin",
-"src": "The Block",
-"srcs": [
-"CoinMarketCap",
-"Coinpedia",
-"Cointelegraph",
-"Cryptonews.net",
-"Decrypt"
-],
-"t": 1795484804.7673388,
-"t0": 1795463485.0,
-"tgtext": "",
-"title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
-"url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-"urls": [
-"https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-"https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
-"https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "84b6e78dfd0f": {
 "coin": "bitcoin",
 "src": "Moomoo",
@@ -2378,7 +2353,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795657480.0,
 "tgtext": "An #EthereumOG dumped 32,010 $ETH ($53.3M) over the past 9 hours!\n\nThis OG bought 100,000 $ETH during the ICO at just $0.31 each, spending only $31K.\n\nHe made a 5,372x return on this sale!\n\nhttps://arkm.com/explorer/address/0x0980B34aDE9476Dba81BCDB0F865a333793Ad1c2\nhttps://etherscan.io/address/0x6C67D6DB1d03516C128b8FF234bf3d49b26d2941",
 "title": "An EthereumOG dumped 32,010 ETH ($53.3M) over the past 9 hours!",
@@ -3323,7 +3298,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795640615.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 FDA approves Elon Musk's Neuralink brain implant trials.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 FDA approves Elon Musk's Neuralink brain implant trials.",
@@ -3366,7 +3341,7 @@
 "Cryptonews.net",
 "bloomingbit"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795644475.0,
 "tgtext": "",
 "title": "DOJ\u2019s Largest-Ever Scam Crackdown Reports $1 Billion in Crypto Frozen Across 800 Defendants",
@@ -3753,7 +3728,7 @@
 "Altcoin Buzz",
 "KuCoin"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795641674.0,
 "tgtext": "",
 "title": "HYPE Will Join Franklin Templeton's Crypto ETF On Dec. 1, Expanding Its Basket to 8 Assets",
@@ -3794,7 +3769,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795656528.0,
 "tgtext": "Whale 0x2aB3 dumped 17,183 $ETH for 28.68M $DAI at $1,669 just 8 hours ago.  https://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
 "title": "Whale 0x2aB3 dumped 17,183 ETH for 28.68M DAI at $1,669 just 8 hours ago. https://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
@@ -3887,7 +3862,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795657517.4273024,
+"t": 1795658128.7006297,
 "t0": 1795656176.0,
 "tgtext": "Highlight Clip: Arthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity\n\nArthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that excessive AI investment and capital misallocation could trigger a global crisis resembling 1929. Asked about a forecast of Bitcoin falling to $10,000, Hayes said that outcome is possible if governments choose austerity and allow credit to contract. However, he expects policymakers to print money and reinflate asset prices, leaving debt problems to future administrations. He sees inflation as less painful than clearing out bad credit, a view underpinning his bullish stance on Bitcoin and gold.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity",
@@ -4162,10 +4137,11 @@
 },
 "probs": {
 "0fefdf050e3f": 0.017,
+"1b3c76d6a8e5": 0.025,
 "1e3419910dea": 0.108,
 "20dbb466917b": 0.042,
-"27ef2da9b036": 0.054,
-"28bb1beab67c": 0.082,
+"27ef2da9b036": 0.029,
+"28bb1beab67c": 0.102,
 "290e0826d299": 0.057,
 "2c4c92c8a612": 0.025,
 "398d944643e9": 0.266,
@@ -4173,34 +4149,33 @@
 "3e20b170fe9e": 0.027,
 "47fa041139ba": 0.701,
 "4be9c5456dec": 0.158,
-"4c43189f55d4": 0.1,
 "4f13105cc4a5": 0.044,
-"545251354ae3": 0.057,
+"5154e7edd0e6": 0.365,
 "572c4e81232b": 0.032,
 "604c079d8514": 0.117,
 "6257587ea5c6": 0.039,
 "65a791a388cb": 0.071,
-"738635ad1148": 0.074,
+"738635ad1148": 0.041,
 "77ebaf366f07": 0.022,
 "78f7a83e386d": 0.086,
+"79ec80bbed76": 0.032,
 "7b6fd429c454": 0.019,
-"823395f3a6cc": 0.034,
 "8a1ddafaf619": 0.127,
 "91ec8f15d35a": 0.082,
-"95d0d5262ef8": 0.833,
+"95d0d5262ef8": 0.972,
 "aa9894efffe7": 0.064,
 "ab618620c505": 0.088,
+"c10b00e9a90c": 0.012,
 "d15a191c0162": 0.287,
 "d1b6f1ef9739": 0.014,
-"d3965c556ac4": 0.394,
+"d3965c556ac4": 0.315,
 "dea2f11ea53e": 0.049,
 "e6691fca9931": 0.16,
 "e709bb793cf3": 0.39,
 "e9820f03eafe": 0.927,
+"e988076363be": 0.009,
 "eb947fd7621c": 0.064,
-"ec764323ceff": 0.509,
-"f131015cb516": 0.088,
-"f7c79eeeb1a3": 0.063
+"ec764323ceff": 0.428
 },
 "sent": [
 {
@@ -5782,65 +5757,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"e9820f03eafe",
-28,
-16,
+"95d0d5262ef8",
+26,
+11,
 1
 ],
 [
-"95d0d5262ef8",
-26,
-1,
+"e9820f03eafe",
+28,
+27,
 1
 ],
 [
 "47fa041139ba",
-32,
-345,
-6
-],
-[
-"ec764323ceff",
-10,
-22,
-1
+31,
+355,
+8
 ],
 [
 "3bbc1f971ca1",
 18,
-176,
+186,
+1
+],
+[
+"ec764323ceff",
+10,
+33,
+1
+],
+[
+"e709bb793cf3",
+22,
+274,
+2
+],
+[
+"5154e7edd0e6",
+10,
+104,
 1
 ],
 [
 "d3965c556ac4",
-61,
-217,
-2
-],
-[
-"e709bb793cf3",
-23,
-264,
-2
-],
-[
-"d491bcec9774",
-0,
-355,
+59,
+228,
 2
 ],
 [
 "d15a191c0162",
-5,
-282,
+4,
+292,
 1
 ],
 [
 "398d944643e9",
 10,
-51,
+61,
 1
 ]
 ],
-"top_at": 1795657517.4273024
+"top_at": 1795658128.7006297
 }
