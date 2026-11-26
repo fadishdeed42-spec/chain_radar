@@ -273,7 +273,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795696886.0,
 "tgtext": "Hong Kong-Based Market Maker Auros, Which Survived the FTX Collapse, Is Gradually Winding Down Operations\n\nAccording to CoinDesk, citing two sources familiar with the matter, Hong Kong-based crypto market maker Auros is gradually winding down operations. The reasons and timeline remain unclear, and the firm has not responded to requests for comment.\n\nFounded in 2019, Auros estimated it handled around 4% of global crypto exchange trading volume, according to co-founder and CIO Ben Roth in July 2024. After FTX\u2019s collapse in 2022 left some of its assets trapped, Auros entered court-supervised restructuring in the British Virgin Islands before exiting provisional liquidation in March 2023 following a $17 million funding round led by Vivienne Court, with participation from Bit Digital.\n\nAuros later invested in projects including Pyth and Berachain and launched Aurora, an institutional trading portal connecting centralized and decentralized markets, in September 2026. \u2014 link",
 "title": "Hong Kong-Based Market Maker Auros, Which Survived the FTX Collapse, Is Gradually Winding Down Operations",
@@ -322,7 +322,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795709461.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: Trump uses his Thanksgiving message to demand an investigation into alleged pre-election GDP data manipulation and call for mass deportations of Somali immigrants receiving government assistance. \n\nHe also defends his White House renovations and touts his administration\u2019s immigration crackdown.\n\nNews | Markets | YouTube",
 "title": "NOW: Trump uses his Thanksgiving message to demand an investigation into alleged pre-election GDP data manipulation and call for mass deportations of Somali immigrants receiving government assistance.",
@@ -335,7 +335,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795709153.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.",
@@ -841,7 +841,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795701594.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa JUST IN: BIS General Manager Pablo Hern\u00e1ndez de Cos is set to succeed Christine Lagarde as European Central Bank president in February 2027.\n\nNews | Markets | YouTube",
 "title": "BIS General Manager Pablo Hern\u00e1ndez de Cos is set to succeed Christine Lagarde as European Central Bank president in February 2027.",
@@ -1151,10 +1151,9 @@
 "coin": "bitcoin",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph",
-"TradingView"
+"Cointelegraph"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795699907.0,
 "tgtext": "\ud83c\udfa5 WATCH: Could Strategy survive a decade-long crypto winter even if Bitcoin crashes to $20,000?\n\nTD Cowen's Lance Vitanza thinks so. However, he believes many other Bitcoin treasury companies won't survive a prolonged bear market.\n\nFind out why:\n\nhttps://www.youtube.com/watch?v=pXb9CDrYIhI\n\nNews | Markets | YouTube",
 "title": "WATCH: Could Strategy survive a decade-long crypto winter even if Bitcoin crashes to $20,000?",
@@ -1389,7 +1388,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795710071.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russian President Putin warns AI has the potential to become a dangerous force capable of harming humanity.\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa Russian President Putin warns AI has the potential to become a dangerous force capable of harming humanity.",
@@ -2108,6 +2107,23 @@
 "url": "https://t.me/lookonchainchannel/11290",
 "urls": []
 },
+"8898c06035d1": {
+"coin": "",
+"src": "Crypto Economy",
+"srcs": [
+"CoinCodex",
+"Crypto Economy",
+"Gadgets 360",
+"Traders Union",
+"ValueWalk"
+],
+"t": 1795715750.8242757,
+"t0": 1795694942.0,
+"tgtext": "",
+"title": "UK FCA Pushes Ahead With Tighter DeFi Rules, Citing $6.3B Binance Hack",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uYWxWNW9EcFlnMkdvMk95d0s1MW1LZEJNMVpuczJfY0hNTG9sZDhWdXkyNk9VRDBTdlVRdWZYbE9DUmJIMFlkZElSc2lXN2RycmNPMGROZ0FrazF3Rl9fYUVtN2V2eloya0FUT1h6RzVOZS0wRXBpMFFEZw?oc=5",
+"urls": []
+},
 "889d376bdf61": {
 "coin": "bitcoin",
 "src": "Cryptonews.net",
@@ -2765,7 +2781,7 @@
 "CoinDesk",
 "Decrypt"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795701958.0,
 "tgtext": "",
 "title": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
@@ -2883,20 +2899,6 @@
 "urls": [
 "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
 ]
-},
-"c2b230bc650d": {
-"coin": "bitcoin",
-"src": "The Motley Fool",
-"srcs": [
-"The Motley Fool",
-"Watcher.Guru"
-],
-"t": 1795542786.7814486,
-"t0": 1795523402.0,
-"tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
-"title": "Can Bitcoin Regain the $90,000 Price Level by Year End? Galaxy Digital CEO Mike Novogratz Says It's Unlikely.",
-"url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORW9yZGFKZWNaM1p4M2xXUHBfRFpUOU5STnRyRnF6MGRqcnU0cGdxSG01VXVhbzctRUxkUEdWT1NsWmU5bmRDMmZ3dmhtUzdqc0RwUDB1cjkxZ0U3TWxjNFZIVk43ajhDdGJBZXlZRVE0UmVPS0xFRzNqblg0UWJkMmVHYkRFN0tGZEdtVWo2TlRLVUNha3VBUE1zbERtcElNczFVU2dDQmdoVlBzSmFzbGdKT3BIaFc4MEk4RzRYUGFMdXYzd0NJVGpVR0hhVnRtNnNnTlJIeEJmRXBIcldrSg?oc=5",
-"urls": []
 },
 "c351ba45fe0f": {
 "coin": "",
@@ -3260,7 +3262,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795708536.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump calls for an immediate investigation into \"fake economic numbers\" released before midterm elections, after US GDP growth was revised up from 3.4% to 4.3%.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Donald Trump calls for an immediate investigation into \"fake economic numbers\" released before midterm elections, after US GDP growth was revised up from 3.4% to 4.3%.",
@@ -3598,7 +3600,7 @@
 "TradingView",
 "Wu Blockchain"
 ],
-"t": 1795715135.110298,
+"t": 1795715750.8242757,
 "t0": 1795709904.0,
 "tgtext": "JPMorgan: Strategy\u2019s mNAV Hits Record Low of 0.88x, Below Previous Low in Late June\n\nJPMorgan analysts said Strategy\u2019s valuation relative to its bitcoin holdings has fallen to a record low of around 0.88x, below its previous low in late June, signaling capitulation in the bitcoin market. BlackRock\u2019s spot bitcoin ETF (IBIT) continued to see outflows despite a brief recovery in bitcoin\u2019s price, with the pace of outflows appearing to exceed that observed from early May to late June. The analysts previously said retail investors likely drove much of the recent crypto ETF outflows and may have shifted funds into equity ETFs. They also noted that the widening gap between bitcoin\u2019s market price and their estimated production cost of around $86,000 was likely increasing pressure on higher-cost miners to sell bitcoin from their reserves. \u2014 link",
 "title": "JPMorgan: Strategy\u2019s mNAV Hits Record Low of 0.88x, Below Previous Low in Late June",
@@ -3886,26 +3888,6 @@
 "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one"
 ]
 },
-"ee3df520304d": {
-"coin": "",
-"src": "bloomingbit",
-"srcs": [
-"Bitcoin Magazine",
-"Bloomberg",
-"Businesskorea",
-"Crypto Economy",
-"Decrypt"
-],
-"t": 1795542479.3455803,
-"t0": 1795520887.0,
-"tgtext": "",
-"title": "Binance Says It Is Working With DOJ to Freeze, Recover Assets Stolen in October Hack",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qTl90RnczNkdOZFZhX2p1N0pfMHVGLXhnNGp6T09jdDFKbC0tdzNtRDV2VWVOam1SRzJQb0tIR1g5ZWN5U0VEUl80RVNNd2VldDdyeA?oc=5",
-"urls": [
-"https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
-"https://bitcoinmagazine.com/news/doj-forfeit-usdc-binance-hack"
-]
-},
 "ef13af99cb82": {
 "coin": "bitcoin",
 "src": "The Economic Times",
@@ -4125,41 +4107,41 @@
 "12da46d6c31b": 0.085,
 "1c2ba3b03358": 0.695,
 "1c5af34aca92": 0.016,
-"1c720358aba8": 0.103,
 "1d843664b3a5": 0.735,
-"218d09fc83a4": 0.022,
+"218d09fc83a4": 0.012,
 "31a8acb2bfa6": 0.056,
 "3cf8ca649898": 0.154,
 "40af6ead6478": 0.199,
 "423da3c05efb": 0.04,
-"4ccdbf1e074f": 0.512,
+"52e6aa61938e": 0.051,
 "549edaa40eac": 0.166,
 "5558e550af19": 0.141,
+"5b74a3671af5": 0.069,
 "5eafd9c889cf": 0.091,
-"5f3e27ffa04c": 0.07,
 "671e1fb3fe86": 0.046,
+"67b0458d2476": 0.135,
 "7341a475eb99": 0.101,
 "7df5741179e1": 0.183,
 "7f384b57b84c": 0.091,
 "873b933f055d": 0.111,
 "876730d017ea": 0.065,
-"92e11d62ccca": 0.135,
+"8898c06035d1": 0.798,
 "9a891e774ec6": 0.151,
 "a2e602e6106e": 0.026,
 "a302f5c92a17": 0.042,
 "aa58d24b866b": 0.068,
 "bb914d613e1e": 0.495,
-"c50ef519bb22": 0.043,
 "cc7d3a69c0b9": 0.048,
 "d1732677a237": 0.837,
-"d9ba7ae34d04": 0.471,
 "d9d0f6880e43": 0.252,
 "db102f6b80ec": 0.034,
+"dc180e90cad9": 0.095,
 "dd33cc19e027": 0.971,
 "dfdc2d772903": 0.061,
 "e149eda8f0e3": 0.024,
 "f491e6b4e00e": 0.065,
 "f966b2653c4b": 0.087,
+"f99c26ffd4ac": 0.15,
 "ff5cd646ed87": 0.022
 },
 "sent": [
@@ -5756,63 +5738,63 @@
 [
 "dd33cc19e027",
 42,
-87,
+97,
 3
 ],
 [
 "d1732677a237",
 18,
-110,
+120,
 1
+],
+[
+"8898c06035d1",
+63,
+347,
+6
 ],
 [
 "1d843664b3a5",
 24,
-100,
+110,
 1
 ],
 [
 "1c2ba3b03358",
 18,
-95,
+105,
 1
 ],
 [
-"4ccdbf1e074f",
-21,
-254,
-2
-],
-[
 "bb914d613e1e",
-47,
-220,
+46,
+230,
 3
 ],
 [
-"d9ba7ae34d04",
-62,
-355,
-7
-],
-[
 "1ad97955b97a",
-4,
-304,
+3,
+314,
 1
 ],
 [
 "41633dda18e9",
-4,
-226,
+3,
+236,
 1
 ],
 [
 "5ef4ff508fa7",
 10,
-84,
+95,
+1
+],
+[
+"4ccdbf1e074f",
+9,
+264,
 1
 ]
 ],
-"top_at": 1795715135.110298
+"top_at": 1795715750.8242757
 }
