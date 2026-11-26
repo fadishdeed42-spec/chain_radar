@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1795601453.0620627,
-1795602066.1571677,
 1795609625.3425126,
 1795620008.5190043,
 1795622144.2538316,
@@ -17,7 +15,8 @@
 1795670564.9851964,
 1795673014.247192,
 1795681614.4104238,
-1795687723.2234907
+1795687723.2234907,
+1795691434.0943713
 ],
 "menu": {
 "005064432d65": {
@@ -335,7 +334,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795687516.0,
 "tgtext": "\ud83d\udd25 JUST IN: Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d\n\nNews | Markets | YouTube",
 "title": "Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d",
@@ -1009,7 +1008,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795676559.0,
 "tgtext": "A #Zcash OG deposited 15,750 $ZEC ($11.39M) into #Kraken 12 hours ago after 9 years of inactivity.\n\nThe OG bought 23,412 $ZEC ($5.04M) at an average price of $215 nine years ago.\n\nAfter holding for 9 years, he's finally selling, with a total profit of $12M+!\n\nhttps://arkm.com/explorer/address/t1K1yA7L7SKtF2chEUY7aWH2ehB5Dh58LdB",
 "title": "A Zcash OG deposited 15,750 ZEC ($11.39M) into Kraken 12 hours ago after 9 years of inactivity.",
@@ -1196,19 +1195,19 @@
 "urls": []
 },
 "49596ef50b4f": {
-"coin": "",
-"src": "The Block",
+"coin": "bitcoin",
+"src": "Crypto News",
 "srcs": [
 "Cointelegraph",
+"Crypto News",
 "The Block",
-"TradingView",
-"finews.com"
+"TradingView"
 ],
-"t": 1795690695.943428,
+"t": 1795691611.4730413,
 "t0": 1795674600.0,
 "tgtext": "",
-"title": "Europe\u2019s only spot bitcoin ETF starts trading in Switzerland, BIT says",
-"url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
+"title": "Switzerland\u2019s first spot Bitcoin ETF debuts with 350 BTC in assets and a 0.19% annual fee",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XbHdHWHl5aTItRmNEc0tKaFRsRkNRUjAxdXoyVm9IZ2RKbGFGWXVGcFpLNUJETjNTRWJuWUtKSklGWnZ4NGhxeTdYcVlDdk91TGR2YWhuVTVUZnlaX3NfRHptS093VU5Xa3MyeUtHS1g1UUd3VU1qbGhBYw?oc=5",
 "urls": [
 "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
 "https://cointelegraph.com/markets/bit-debuts-switzerlands-first-spot-bitcoin-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -1404,7 +1403,7 @@
 "Crypto News",
 "Wu Blockchain"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795676564.0,
 "tgtext": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse\n\nCrypto asset manager 21Shares said in a November 24 report that the Binance hack merely triggered Bitcoin's recent selloff, while capital outflows and leveraged liquidations drove most of the losses.\n\nStablecoin supply fell $10.7 billion following the attack, marking the largest 18-day decline in dollar terms since the Terra collapse in 2022. The firm warned that rallies may struggle to hold until stablecoin supply and spot ETF inflows recover. It identified Bitcoin's realized price of $53,250 as a key downside level, with deeper declines to $37,200\u2013$43,800 possible under historical bear-market scenarios, though it considers such outcomes unlikely. \u2014 link",
 "title": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse",
@@ -1516,11 +1515,12 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Wu Blockchain"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795690872.0,
-"tgtext": "\ud83d\udea8 JUST IN: Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.\n\nNews | Markets | YouTube",
+"tgtext": "\ud83d\udea8 JUST IN: Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.\n\nNews | Markets | YouTube\nReuters: Standard Chartered\u2019s Crypto Custody Unit Zodia Suffers Security Breach\n\nAccording to Reuters, Standard Chartered\u2019s crypto custody unit Zodia Custody suffered a security breach this week, exposing client and employee data, including names and email addresses. Zodia Custody CEO Richard Clark confirmed the incident in an emailed statement to Reuters, saying the breach was discovered on November 23. It remains unclear whether any crypto assets held in custody were affected. \u2014 link",
 "title": "Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.",
 "url": "https://t.me/cointelegraph/73544",
 "urls": []
@@ -1664,7 +1664,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795690923.0,
 "tgtext": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 $BTC ($93.85M), making another $1.8M!\n\nHe's made a total of $7.27M over the past week.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 BTC ($93.85M), making another $1.8M!",
@@ -2305,7 +2305,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795676292.0,
 "tgtext": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nMichael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nOn November 20, 2026, Strategy Executive Chairman Michael Saylor said in an interview with Natalie Brunell that Strategy's current U.S. dollar cash reserves are sufficient to cover approximately 3.4 years of expenses, even if the company is unable to sell any securities for three consecutive years. He said the company is confident it can find reasonably valued financing or asset sale opportunities during market downturns, raising capital through credit instruments, equity and derivatives. If market conditions continue to deteriorate, Strategy will also proactively reduce its risk exposure and adjust its balance sheet and capital structure rather than passively waiting for a crisis. \u2014 link",
 "title": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years",
@@ -2586,6 +2586,19 @@
 "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack"
 ]
 },
+"a5728023b855": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795691307.402088,
+"t0": 1795690922.0,
+"tgtext": "\ud83d\udea8 JUST IN: The Bank of England warns that quantum computing could break the public-key cryptography behind financial transactions and digital signatures.\n\nIt calls moving to quantum-resistant cryptography an \"immediate\" financial stability priority.\n\nNews | Markets | YouTube",
+"title": "The Bank of England warns that quantum computing could break the public-key cryptography behind financial transactions and digital signatures.",
+"url": "https://t.me/cointelegraph/73546",
+"urls": []
+},
 "a5db0d4b696b": {
 "coin": "",
 "src": "Lookonchain",
@@ -2743,19 +2756,6 @@
 "tgtext": "",
 "title": "Ethereum Price Forecast: ETH falls below $1,700 as tariff fears weigh on crypto",
 "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeFJGREZSSnhZU3R2M1hxX1RqZlAwYkhQTkVrWnZPR0pUZ3VFeXhNd19PTTVsYU1hSEdKSDYybGJZaEg2aTI1eTZwTFpFU2VRaHo5TlRla0xoMEJ2UHAxa3FmTk1MTEtiSFU5dW1MMGluUkx5RGxlRzZkNm83VEFkdC1Ub2J5R0d5ZG1WQnBsWURlVFJZejR5RDZ0Rmo2OUZ6eE5VSDh2Rk9BcUxFZzE3VGt5LW5reHpVZ3FpSnlRcUFLcldfTVh2RnR6X3d5bzNjZU9z?oc=5",
-"urls": []
-},
-"b0b942b530e4": {
-"coin": "bitcoin",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795518310.816651,
-"t0": 1795518259.0,
-"tgtext": "\ud83d\udea8 INSIGHT: Bitcoin's bear market is now its longest on record at 411+ days, but also its shallowest, per Grayscale.\n\nNews | Markets | YouTube",
-"title": "INSIGHT: Bitcoin's bear market is now its longest on record at 411+ days, but also its shallowest, per Grayscale.",
-"url": "https://t.me/cointelegraph/73494",
 "urls": []
 },
 "b24c3f07e00f": {
@@ -3152,7 +3152,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795672739.0,
 "tgtext": "\ud83c\udded\ud83c\uddf0 BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.\n\nNews | Markets | YouTube",
 "title": "BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.",
@@ -3398,7 +3398,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795674021.0,
 "tgtext": "A whale deposited 47,501 $ZEC($35.8M) into #Binance over the past 12 hours.\n\nhttps://arkm.com/explorer/address/t1bMwm4ymfWtYvtTsBiJSSRPS9xUpMWDdb4",
 "title": "A whale deposited 47,501 ZEC($35.8M) into Binance over the past 12 hours.",
@@ -3485,7 +3485,7 @@
 "Finance Magnates",
 "The Crypto Times"
 ],
-"t": 1795690999.9476464,
+"t": 1795691611.4730413,
 "t0": 1795670847.0,
 "tgtext": "",
 "title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
@@ -4149,72 +4149,47 @@
 },
 "probs": {
 "07f6c21b3284": 0.032,
-"0f0fae4f1db1": 0.032,
-"16d40d2318b3": 0.429,
+"16d40d2318b3": 0.352,
 "3100a11eb69c": 0.3,
 "3673792bc13b": 0.027,
 "4039d4aeace6": 0.077,
 "438592885e7f": 0.024,
 "463b146885ed": 0.046,
-"47ccde87e6c6": 0.031,
-"47f4e895f04e": 0.083,
-"49596ef50b4f": 0.16,
+"47f4e895f04e": 0.121,
+"49596ef50b4f": 0.372,
 "4ae6fb7a939f": 0.154,
 "4c6a9d381ba2": 0.234,
 "57ba8dee9540": 0.446,
 "59f8cf01b223": 0.023,
-"5f27a813a034": 0.396,
-"6781dc3860f9": 0.12,
-"67a68ae532ad": 0.609,
-"6892d28efce0": 0.046,
+"5f27a813a034": 0.989,
+"5fa5aea6e1e7": 0.075,
+"642e115e6b7c": 0.063,
+"6781dc3860f9": 0.157,
+"67a68ae532ad": 0.909,
+"682d9b0c6f41": 0.036,
 "68f2f482624c": 0.046,
 "6f48e103f3e2": 0.079,
+"707610e001e7": 0.1,
 "79eb5c3d2ceb": 0.089,
-"8cb04923ec29": 0.605,
-"9bf8cc5b75fd": 0.051,
 "a0c2097687e1": 0.251,
 "a9422d4ba28e": 0.302,
-"b1084454b0cc": 0.088,
+"ae24d6596da7": 0.034,
+"c3450d7e70ae": 0.083,
 "c3a2341f03e7": 0.042,
-"caabce0fddc5": 0.467,
-"cb1f72831fec": 0.166,
+"caabce0fddc5": 0.143,
+"cb1f72831fec": 0.049,
 "d1dcccc1a801": 0.044,
 "d2f75a0fcbba": 0.903,
 "d7623dfe5404": 0.819,
 "daa7c26db82e": 0.024,
-"dc180e90cad9": 0.243,
-"f200d96e229c": 0.321,
-"f3cf99b70a3b": 0.209,
+"dc180e90cad9": 0.087,
+"e595180cabae": 0.09,
+"f3cf99b70a3b": 0.069,
+"f51047e2eb7b": 0.099,
 "f62a95d7dcd2": 0.088,
-"fcd5a31e145b": 0.037,
-"fd5e0972636a": 0.02
+"fcd5a31e145b": 0.037
 },
 "sent": [
-{
-"e": [
-"ansem"
-],
-"k": [
-"hack",
-"crash"
-],
-"t": 1795515248.8856928,
-"u": [
-"https://t.me/cointelegraph/73492"
-],
-"w": [
-"15m",
-"ansem",
-"community",
-"crashes",
-"flags",
-"hack",
-"hour",
-"involving",
-"suspected",
-"usdc"
-]
-},
 {
 "e": [
 "aave",
@@ -5780,71 +5755,106 @@
 "vitalik",
 "your"
 ]
+},
+{
+"e": [
+"chartered",
+"custody",
+"reuters",
+"standard",
+"zodia"
+],
+"k": [
+"hack"
+],
+"t": 1795691307.402088,
+"u": [
+"https://t.me/cointelegraph/73544",
+"https://t.me/wublockchainenglish/26961"
+],
+"w": [
+"addresses",
+"breach",
+"chartered",
+"client",
+"custody",
+"email",
+"employee",
+"exposing",
+"names",
+"per",
+"reuters",
+"security",
+"standard",
+"suffers",
+"unit",
+"zodia"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"d2f75a0fcbba",
-19,
-283,
-1
-],
-[
-"d7623dfe5404",
-65,
-336,
-7
+"5f27a813a034",
+53,
+12,
+2
 ],
 [
 "67a68ae532ad",
 16,
-1,
+11,
 1
 ],
 [
+"d2f75a0fcbba",
+17,
+293,
+1
+],
+[
+"d7623dfe5404",
+63,
+346,
+5
+],
+[
 "8cb04923ec29",
-10,
-245,
+8,
+255,
 1
 ],
 [
 "c72525c508e3",
 0,
-304,
+315,
 1
 ],
 [
-"caabce0fddc5",
-60,
-123,
-3
-],
-[
 "426b05a8540f",
-8,
-241,
+7,
+251,
 1
 ],
 [
 "57ba8dee9540",
-22,
-241,
+21,
+251,
 2
+],
+[
+"49596ef50b4f",
+41,
+284,
+4
 ],
 [
 "16d40d2318b3",
 18,
-58,
-1
-],
-[
-"5f27a813a034",
-35,
-2,
+68,
 1
 ]
 ],
-"top_at": 1795690999.9476464
+"top_at": 1795691611.4730413
 }
