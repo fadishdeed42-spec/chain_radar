@@ -64,26 +64,6 @@
 "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTFhza3Fia2EtdjhKZVFCeVMwVG91MldsX3pXSlJjUFVia0RlMFJMbjJwbjZxclA0ZTNDbDhvODZuV0dFYWlkV19wcDREVFhVbUpSVmxwamJEcExQdGl5Z3pqSVhhYXB4TTlKa3NjaUxIWVVDemJIeWJBUm9Xa1B5N1lNNWtDXzZYczhIekh6ejFhUFNxRnZ2eHI5TmtDdkZNb0FJSkotZlM4R2dVMmpzOHJDUm1vTFNONVJoaW50NkI0STl3Q2lSb3M5aGtZb2diYkR5cXJ3a3UzdHJuc1c2WnMyakFFZk1xLVVkcTZuYWlrdmcxM3hPMVJtNzfSAYICQVVfeXFMTVBXeFNNNV9BUEswTDhiTWFYa0lJRnlhc3pQVzJxMVc3aG9qT3paUjBPUnNYRmM5Qy1fc2J5NkRyX0VINDl6UkY4N09kSGJZS3NyeVFFODVpM3pia09uSGZnWnFUdmJ0YXZvVVZQc0h3dmVpVXJhUHk2NDZXTmgzQUlCcXgwNHBESFI2V01uakNwWmdqSzVvaGo4NjliMWdRZGR1SXc1dHVzaWtReGpVZVJxREt0Wl8tLXhuVFRrUGFsRmFQTjRONTJwaTlzOHhiY2lnbjZfRzFqUE5TbGFyaVFjVmhZaWo3NmJmUk85by1KbzlUQU5nTF9FZ20tX1MwUkt3?oc=5",
 "urls": []
 },
-"02c5a1342322": {
-"coin": "bitcoin",
-"src": "CoinDesk",
-"srcs": [
-"CoinDesk",
-"Crypto News",
-"Forbes",
-"NewsBytes",
-"bloomingbit"
-],
-"t": 1795532340.597078,
-"t0": 1795514918.0,
-"tgtext": "",
-"title": "Bitcoin (BTC) price drops below $60,000 as Nvidia (NVDA)-led rally loses steam",
-"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObGQ2cVJSaWR2bG9CS2lhQjNwSDZPU3lrVjFneVFLMDBadVFjT1llYlVQc053ODVNOGJkeFFhclplZGZodVBnSEo5MzJ1WUhGWl9JbWJVOTNhXzlnTWlnd3BENk5hSl95bjUtNWltbGJhUXJ3Y25JaDU3cWp5VEhOdE1lUk5RclRtQkxWZ2lRTWZua3VFT0VTOU1DVXFwM3lGVVFqN0hWMTQweXc2bWFYdm84WVBJQmRoWXFRaQ?oc=5",
-"urls": [
-"https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
-"https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto"
-]
-},
 "04cd07e79187": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -264,6 +244,25 @@
 "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto"
 ]
 },
+"16cb30f69eef": {
+"coin": "",
+"src": "Finance Magnates",
+"srcs": [
+"Crypto Economy",
+"Daily Beirut",
+"Decrypt",
+"Finance Magnates",
+"Gadgets 360"
+],
+"t": 1795705393.8059134,
+"t0": 1795689785.0,
+"tgtext": "",
+"title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZElDVDU3Q2ZGaXFCOWpSVkFrNkMwSjRScXpDeUk2WnpiVWtpNEd0R0RjNjZEelNOZUlyR29TVklKUUliNmNIbmNaSXp1N1pKZWJsVDBlODlxQ2J4d25tZEVfOEdBNDV4WGphLVkxSGFvQ2ZaS1NaWHZnbFljOEpvQVd6MnlXZGFkUmNtV3hselpMOS1zLVN2V0hMbEl1Vl9UTmZoMW1pSk1JcFdvRTFwYUY2Qk9BVEMxZDAyMGF3WHdVQmFJ?oc=5",
+"urls": [
+"https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
+]
+},
 "16d13126730c": {
 "coin": "",
 "src": "CryptoSlate",
@@ -290,7 +289,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795687516.0,
 "tgtext": "\ud83d\udd25 JUST IN: Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d\n\nNews | Markets | YouTube",
 "title": "Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d",
@@ -950,7 +949,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795701594.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa JUST IN: BIS General Manager Pablo Hern\u00e1ndez de Cos is set to succeed Christine Lagarde as European Central Bank president in February 2027.\n\nNews | Markets | YouTube",
 "title": "BIS General Manager Pablo Hern\u00e1ndez de Cos is set to succeed Christine Lagarde as European Central Bank president in February 2027.",
@@ -1231,7 +1230,7 @@
 "CoinDesk",
 "Decrypt"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795689633.0,
 "tgtext": "",
 "title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
@@ -1486,7 +1485,7 @@
 "Incrypted",
 "Wu Blockchain"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795690872.0,
 "tgtext": "\ud83d\udea8 JUST IN: Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.\n\nNews | Markets | YouTube\nReuters: Standard Chartered\u2019s Crypto Custody Unit Zodia Suffers Security Breach\n\nAccording to Reuters, Standard Chartered\u2019s crypto custody unit Zodia Custody suffered a security breach this week, exposing client and employee data, including names and email addresses. Zodia Custody CEO Richard Clark confirmed the incident in an emailed statement to Reuters, saying the breach was discovered on November 23. It remains unclear whether any crypto assets held in custody were affected. \u2014 link",
 "title": "Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.",
@@ -1636,7 +1635,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795690923.0,
 "tgtext": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 $BTC ($93.85M), making another $1.8M!\n\nHe's made a total of $7.27M over the past week.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 BTC ($93.85M), making another $1.8M!",
@@ -2245,7 +2244,7 @@
 "Coinpaper",
 "Cryptonews.net"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795691137.0,
 "tgtext": "",
 "title": "Bitcoin Price Prediction: Can the Strategic Reserve Bill Push BTC Back Above $65,000?",
@@ -2364,7 +2363,7 @@
 "CoinDesk",
 "Wu Blockchain"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795692470.0,
 "tgtext": "Hong Kong-Based Market Maker Auros, Which Survived the FTX Collapse, Is Gradually Winding Down Operations\n\nAccording to CoinDesk, citing two sources familiar with the matter, Hong Kong-based crypto market maker Auros is gradually winding down operations. The reasons and timeline remain unclear, and the firm has not responded to requests for comment.\n\nFounded in 2019, Auros estimated it handled around 4% of global crypto exchange trading volume, according to co-founder and CIO Ben Roth in July 2024. After FTX\u2019s collapse in 2022 left some of its assets trapped, Auros entered court-supervised restructuring in the British Virgin Islands before exiting provisional liquidation in March 2023 following a $17 million funding round led by Vivienne Court, with participation from Bit Digital.\n\nAuros later invested in projects including Pyth and Berachain and launched Aurora, an institutional trading portal connecting centralized and decentralized markets, in September 2026. \u2014 link",
 "title": "Hong Kong-Based Market Maker Auros, Which Survived the FTX Collapse, Is Gradually Winding Down Operations",
@@ -2956,19 +2955,6 @@
 "url": "https://t.me/WatcherGuru/16332",
 "urls": []
 },
-"ba3829356fad": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795532340.597078,
-"t0": 1795526086.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US prepares to raise tariffs on China, European Union and 14 other countries.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
-"title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US prepares to raise tariffs on China, European Union and 14 other countries.",
-"url": "https://t.me/WatcherGuru/16305",
-"urls": []
-},
 "bbc27eada5e6": {
 "coin": "",
 "src": "BeInCrypto",
@@ -3338,7 +3324,7 @@
 "Watcher.Guru",
 "Yahoo Finance"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795684695.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\udded Switzerland approves its first spot Bitcoin ETF on its SIX Swiss Exchange.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\udded Switzerland approves its first spot Bitcoin ETF on its SIX Swiss Exchange.",
@@ -3640,7 +3626,7 @@
 "Finance Magnates",
 "Gadgets 360"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795686695.0,
 "tgtext": "",
 "title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
@@ -3791,7 +3777,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795705086.2853959,
+"t": 1795705697.8297431,
 "t0": 1795692613.0,
 "tgtext": "JUST IN: Nvidia $NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:\n\n\u2022 Thailand\n\u2022 Malaysia\n\u2022 Indonesia\n\u2022 Singapore\n\n@WatcherGuru",
 "title": "Nvidia NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:",
@@ -4310,46 +4296,46 @@
 },
 "movers": {},
 "probs": {
-"05b174e9d586": 0.244,
-"18ce8b32f3b0": 0.197,
-"1f616a8d0b1e": 0.044,
-"218d09fc83a4": 0.033,
-"2295203cb513": 0.038,
-"2c8775c12b72": 0.07,
-"34ee78298b89": 0.039,
-"39e87a2a157f": 0.039,
-"4a20f6962581": 0.142,
-"4c6a9d381ba2": 0.487,
-"59f8cf01b223": 0.094,
-"5f27a813a034": 0.943,
-"5f3e27ffa04c": 0.132,
-"6a9807512684": 0.062,
-"6f48e103f3e2": 0.277,
-"70e558fd641d": 0.051,
-"7341a475eb99": 0.061,
-"7df5741179e1": 0.451,
-"873b933f055d": 0.16,
-"898a09e5d60c": 0.557,
-"90b1127de9a2": 0.057,
-"9163cafa1b0b": 0.652,
-"abca05552e92": 0.037,
-"b2b756e9686b": 0.185,
-"bb914d613e1e": 0.32,
-"c10b00e9a90c": 0.018,
-"c3a2341f03e7": 0.475,
-"c50ef519bb22": 0.182,
-"c6b273845127": 0.022,
-"caabce0fddc5": 0.432,
-"cc343c75e468": 0.148,
-"cdd41df3a17a": 0.147,
-"cdf064e46ff0": 0.541,
-"d962fd06adba": 0.568,
-"d9d0f6880e43": 0.305,
-"daa7c26db82e": 0.1,
-"dc180e90cad9": 0.138,
-"dfdc2d772903": 0.09,
-"e11f38ea6e9f": 0.692,
-"ff5cd646ed87": 0.059
+"05b174e9d586": 0.174,
+"0de42312f463": 0.023,
+"18ce8b32f3b0": 0.138,
+"1f616a8d0b1e": 0.029,
+"218d09fc83a4": 0.022,
+"2295203cb513": 0.025,
+"2c8775c12b72": 0.047,
+"34ee78298b89": 0.026,
+"39e87a2a157f": 0.026,
+"4a20f6962581": 0.097,
+"4c6a9d381ba2": 0.383,
+"4ccdbf1e074f": 0.282,
+"582803f9d346": 0.012,
+"59f8cf01b223": 0.064,
+"5f27a813a034": 0.915,
+"5f3e27ffa04c": 0.05,
+"5fa5aea6e1e7": 0.067,
+"6f48e103f3e2": 0.2,
+"7341a475eb99": 0.041,
+"77df41e7d268": 0.032,
+"7df5741179e1": 0.349,
+"873b933f055d": 0.111,
+"898a09e5d60c": 0.451,
+"9163cafa1b0b": 0.551,
+"b2b756e9686b": 0.129,
+"bb914d613e1e": 0.319,
+"c3a2341f03e7": 0.371,
+"c50ef519bb22": 0.031,
+"cc343c75e468": 0.102,
+"cdf064e46ff0": 0.436,
+"d962fd06adba": 0.462,
+"d9d0f6880e43": 0.223,
+"daa7c26db82e": 0.068,
+"db102f6b80ec": 0.062,
+"dc180e90cad9": 0.095,
+"dfdc2d772903": 0.061,
+"e11f38ea6e9f": 0.595,
+"fafa37f33213": 0.252,
+"fe71dd5d3071": 0.228,
+"ff5cd646ed87": 0.04
 },
 "sent": [
 {
@@ -5992,64 +5978,64 @@
 "top": [
 [
 "5f27a813a034",
-58,
-237,
+57,
+247,
 5
 ],
 [
 "67a68ae532ad",
-9,
-236,
+8,
+246,
 1
 ],
 [
 "e11f38ea6e9f",
-29,
-208,
+27,
+218,
 1
 ],
 [
 "9163cafa1b0b",
-26,
-210,
+25,
+220,
 2
 ],
 [
 "41633dda18e9",
 10,
-58,
+68,
 1
 ],
 [
 "d962fd06adba",
-69,
-307,
+67,
+317,
 7
 ],
 [
 "898a09e5d60c",
-24,
-232,
+22,
+243,
 3
 ],
 [
 "cdf064e46ff0",
-33,
-340,
+32,
+350,
 4
 ],
 [
 "16d40d2318b3",
-3,
-293,
+2,
+303,
 1
 ],
 [
 "4c6a9d381ba2",
-25,
-258,
+24,
+268,
 2
 ]
 ],
-"top_at": 1795705086.2853959
+"top_at": 1795705697.8297431
 }
