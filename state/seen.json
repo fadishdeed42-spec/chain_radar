@@ -246,27 +246,6 @@
 "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcHU5N2pmX2dzdTJEMGVvdWhtWUhjbHRKYTk3b3dGRTg0YUUwdHRHLUxfYXlDT000SDZGUDVWelFTVUZLN2k0TENLRmdrcUZrVFl3cUFqbFZfT3RhWTNNVTJQa1hhTWV1c3VHYUhac0xQS1ZYS0ZqUHBweVpZX0RfeXI4bkFmTTZWVzBZQzFCNk95a0ZlUUU2emRhVmhLYVQ1TmxPQmpfVHZzQ1lNQnN3TU5zQnYybzI3aEp2ZTFrc0Nmdw?oc=5",
 "urls": []
 },
-"19142631673e": {
-"coin": "bitcoin",
-"src": "Traders Union",
-"srcs": [
-"Bitcoin Magazine",
-"Cointelegraph",
-"Crypto Economy",
-"CryptoSlate",
-"Pluang"
-],
-"t": 1795552120.629528,
-"t0": 1795530600.0,
-"tgtext": "",
-"title": "21Shares says weak demand, liquidations deepen Bitcoin sell-off after Binance hack",
-"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjAtamlvYXN1b2NUdTV3YkNtMzZGd1k2Xy1oV3dyZ1RvYWlMSnowYnlhRGlGeS1PQTd0RURlbTFxNHVheVNDRUVPTWxZT1o2bEFNRzdEX1ByRWdPSmh3QUZJUlppdzZvQWxJX3pMME9GNW5BTURTN2IxaXkta0dDcXJRR3lFUDZleFdtWElXelI0dG56YW4xYUNsT3ZvVmNq?oc=5",
-"urls": [
-"https://bitcoinmagazine.com/news/doj-forfeit-usdc-binance-hack",
-"https://cryptoslate.com/us-moves-to-seize-1-1-billion-from-binance-hackers-without-accessing-their-wallets/",
-"https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "1a568a7b1b84": {
 "coin": "chainlink",
 "src": "Wu Blockchain",
@@ -316,7 +295,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795709461.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 NOW: Trump uses his Thanksgiving message to demand an investigation into alleged pre-election GDP data manipulation and call for mass deportations of Somali immigrants receiving government assistance. \n\nHe also defends his White House renovations and touts his administration\u2019s immigration crackdown.\n\nNews | Markets | YouTube",
 "title": "NOW: Trump uses his Thanksgiving message to demand an investigation into alleged pre-election GDP data manipulation and call for mass deportations of Somali immigrants receiving government assistance.",
@@ -329,7 +308,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795709153.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.",
@@ -842,7 +821,7 @@
 "Pluang",
 "Wisevoter"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795718674.0,
 "tgtext": "",
 "title": "Fidelity Pushes Beyond Bitcoin With Chainlink ETF Filing",
@@ -1312,7 +1291,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795710071.0,
 "tgtext": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russian President Putin warns AI has the potential to become a dangerous force capable of harming humanity.\n\n@WatcherGuru",
 "title": "\ud83c\uddf7\ud83c\uddfa Russian President Putin warns AI has the potential to become a dangerous force capable of harming humanity.",
@@ -1448,12 +1427,11 @@
 "coin": "bitcoin",
 "src": "Coinpedia",
 "srcs": [
-"Brave New Coin",
 "Coinpedia",
 "Decrypt",
 "TradingView"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795714202.0,
 "tgtext": "",
 "title": "Bitcoin Price Rebounds Above $60K, but 150K BTC Whale Sell-Off Keeps Recovery at Risk",
@@ -1972,6 +1950,21 @@
 "title": "Tether sought fees of up to 20% from hack victims before returning frozen USDT, Bloomberg reports",
 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdklYbTE1aWFXaWlOekViNEJET1lpdEUyYlVIQVZDQlYtZWctWTdxdndQTG41YnQ5ZWl0MTB5dDZPZllGeURhX3VkSjduTHJBeEdKVHNxeUF5X3oxVVRDbGRNV1NwN2NwTS05WUZGZUM1ZE1WeEFIcEktMTVKRWdzbTlkMEp3dVdzbkVDUHZidGlIZ0dvT2NNWk5oeVdYUTBNc1hUMFk2cmlaVF8wZHpkMXh2SVN4TFhrOHViYmhza1k?oc=5",
 "urls": []
+},
+"873b933f055d": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Decrypt"
+],
+"t": 1795724688.5843441,
+"t0": 1795703182.0,
+"tgtext": "",
+"title": "Cournot Raises $5M to Build AI-Native Oracle for Verifiable Intelligence",
+"url": "https://decrypt.co/384036/cournot-raises-5m-to-build-ai-native-oracle-for-verifiable-intelligence",
+"urls": [
+"https://decrypt.co/384036/cournot-raises-5m-to-build-ai-native-oracle-for-verifiable-intelligence"
+]
 },
 "87f7856108c3": {
 "coin": "bitcoin",
@@ -3069,7 +3062,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795709670.0,
 "tgtext": "",
 "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
@@ -3130,7 +3123,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795708536.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump calls for an immediate investigation into \"fake economic numbers\" released before midterm elections, after US GDP growth was revised up from 3.4% to 4.3%.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 President Donald Trump calls for an immediate investigation into \"fake economic numbers\" released before midterm elections, after US GDP growth was revised up from 3.4% to 4.3%.",
@@ -3446,9 +3439,10 @@
 "src": "Wu Blockchain",
 "srcs": [
 "The Block",
+"TradingView",
 "Wu Blockchain"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795709904.0,
 "tgtext": "JPMorgan: Strategy\u2019s mNAV Hits Record Low of 0.88x, Below Previous Low in Late June\n\nJPMorgan analysts said Strategy\u2019s valuation relative to its bitcoin holdings has fallen to a record low of around 0.88x, below its previous low in late June, signaling capitulation in the bitcoin market. BlackRock\u2019s spot bitcoin ETF (IBIT) continued to see outflows despite a brief recovery in bitcoin\u2019s price, with the pace of outflows appearing to exceed that observed from early May to late June. The analysts previously said retail investors likely drove much of the recent crypto ETF outflows and may have shifted funds into equity ETFs. They also noted that the widening gap between bitcoin\u2019s market price and their estimated production cost of around $86,000 was likely increasing pressure on higher-cost miners to sell bitcoin from their reserves. \u2014 link",
 "title": "JPMorgan: Strategy\u2019s mNAV Hits Record Low of 0.88x, Below Previous Low in Late June",
@@ -3906,10 +3900,10 @@
 "Altcoin Buzz",
 "CoinCodex",
 "Crypto Economy",
-"Latest news from Azerbaijan",
-"The420"
+"Crypto News",
+"Latest news from Azerbaijan"
 ],
-"t": 1795724378.6186986,
+"t": 1795724994.4361932,
 "t0": 1795707936.0,
 "tgtext": "",
 "title": "Elliptic: $247M of Binance hack loot laundered through Bitcoin coinjoins",
@@ -3963,6 +3957,19 @@
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPazJkQ0Y3TU56WjNyUm1hbXowN3NpQXpFUVh3R1ZvVHV6NTd2RlJDRjR6OUswTG5aR3ZxNW5jODdsZUp2YjVuUmxTa19ndy0yZ1BJX09uaklIdy1nUXpkTmp5Tk13WkFEbWdEbllhTUlodGR1SlhKS1pFWmRYSTMtWVlIekdaN2dhZ2ZiekdnUFd4WE5LVlFHbUJNMkxlNUdJZjI4UmhGUQ?oc=5",
 "urls": []
 },
+"fba8c6eb339c": {
+"coin": "ethereum",
+"src": "Crypto News",
+"srcs": [
+"Crypto News"
+],
+"t": 1795724994.4361932,
+"t0": 1795706718.0,
+"tgtext": "",
+"title": "Ethereum price falls 29%: Can ETH reclaim $1,730?",
+"url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lS0pKVDNtYnNNUlZIOVZVdkVwbVEyaVpabEhpbENDemN2aV9kMHgwQnRYbGZQa2VSLUtTUV96cVZBcTZiNW1lLUVCMnJnWDlDY3NlOHptdXZjYmFseEJWYzVR?oc=5",
+"urls": []
+},
 "fe7bf1cb8f6f": {
 "coin": "ethereum",
 "src": "FXStreet",
@@ -3984,43 +3991,43 @@
 },
 "probs": {
 "0d66ca5e1582": 0.027,
-"10ad5fe03c30": 0.017,
+"192670561044": 0.021,
 "1d843664b3a5": 0.331,
 "31a8acb2bfa6": 0.011,
+"378b3f8b5b29": 0.044,
 "3cf8ca649898": 0.031,
 "465679e94feb": 0.155,
-"4b8679da265d": 0.017,
 "52e6aa61938e": 0.018,
-"545bc1758d53": 0.022,
+"545bc1758d53": 0.028,
 "549edaa40eac": 0.037,
+"5558e550af19": 0.028,
 "60670fb6ffd2": 0.044,
 "62dcf4ecca1f": 0.005,
-"67b0458d2476": 0.27,
+"67b0458d2476": 0.075,
 "691cee88e90d": 0.017,
 "6fa0d13c4f5b": 0.036,
-"7a0c331f29dc": 0.023,
-"7df5741179e1": 0.04,
+"718cb55c0423": 0.036,
+"7661cff0716c": 0.024,
+"7df5741179e1": 0.028,
 "7f384b57b84c": 0.018,
 "802dff21b2e9": 0.015,
-"84b8ac80c1fe": 0.005,
 "876730d017ea": 0.032,
 "9a891e774ec6": 0.024,
 "9ef6b62ad304": 0.009,
 "9fbf62824a21": 0.027,
 "a2d4473d3a32": 0.032,
 "a2e602e6106e": 0.018,
-"a4b092f1c38e": 0.019,
-"b4c19cd56f0a": 0.029,
+"b4c19cd56f0a": 0.032,
 "b644bd2e427a": 0.013,
 "cdd55c800ae6": 0.023,
-"cf8926a6dee9": 0.019,
 "cf8a22a69f3d": 0.255,
 "d0c80f752339": 0.014,
 "d47d56effea9": 0.017,
-"dd33cc19e027": 0.446,
+"dd33cc19e027": 0.712,
 "ddf6e7bbeb8c": 0.01,
 "e5ff00a212db": 0.014,
-"f282abf4688a": 0.009,
+"f2330c755244": 0.012,
+"f282abf4688a": 0.012,
 "f874cd2f9c33": 0.225,
 "f87d72a64807": 0.011
 },
@@ -5616,65 +5623,65 @@
 "tg_offset": 138489119,
 "top": [
 [
+"dd33cc19e027",
+33,
+252,
+3
+],
+[
 "d1732677a237",
-7,
-264,
+6,
+274,
 1
 ],
 [
 "1c2ba3b03358",
-9,
-249,
+8,
+259,
 1
-],
-[
-"dd33cc19e027",
-24,
-241,
-2
 ],
 [
 "1d843664b3a5",
-15,
-254,
+13,
+264,
 1
 ],
 [
-"67b0458d2476",
-48,
-170,
-4
-],
-[
 "cf8a22a69f3d",
-44,
-245,
+42,
+255,
 3
 ],
 [
 "f874cd2f9c33",
-73,
-274,
-9
+72,
+284,
+10
 ],
 [
 "5ef4ff508fa7",
-3,
-238,
+1,
+249,
 1
 ],
 [
 "465679e94feb",
 44,
-95,
+105,
 3
 ],
 [
-"349f4369ba6d",
+"67b0458d2476",
+38,
+180,
+3
+],
+[
+"fba8c6eb339c",
 0,
-359,
+305,
 1
 ]
 ],
-"top_at": 1795724378.6186986
+"top_at": 1795724994.4361932
 }
