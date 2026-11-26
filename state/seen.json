@@ -315,7 +315,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795691919.2578347,
+"t": 1795692530.5997417,
 "t0": 1795687516.0,
 "tgtext": "\ud83d\udd25 JUST IN: Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d\n\nNews | Markets | YouTube",
 "title": "Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d",
@@ -989,7 +989,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795676559.0,
 "tgtext": "A #Zcash OG deposited 15,750 $ZEC ($11.39M) into #Kraken 12 hours ago after 9 years of inactivity.\n\nThe OG bought 23,412 $ZEC ($5.04M) at an average price of $215 nine years ago.\n\nAfter holding for 9 years, he's finally selling, with a total profit of $12M+!\n\nhttps://arkm.com/explorer/address/t1K1yA7L7SKtF2chEUY7aWH2ehB5Dh58LdB",
 "title": "A Zcash OG deposited 15,750 ZEC ($11.39M) into Kraken 12 hours ago after 9 years of inactivity.",
@@ -1234,6 +1234,41 @@
 "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcHpKdDRlUm16dWZBQktkYnJxMXA3dG9GSWh2UGhyUFlyY0I2eUtCekl0YXJQT1FtUXRXMzVyY2xBQmdRUFN6ZU53ZktuNDhRMkl4bXZNVUNxZUFENl80VDItX1lNZ3A0OGJPUVRaYmpnVlBtNGdqUjhVNk11SG5mNm0zY3o?oc=5",
 "urls": []
 },
+"4c130a0a09b7": {
+"coin": "",
+"src": "Finance Magnates",
+"srcs": [
+"Cointelegraph",
+"Crypto News",
+"Finance Magnates",
+"The Crypto Times"
+],
+"t": 1795692530.5997417,
+"t0": 1795672388.0,
+"tgtext": "",
+"title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZElDVDU3Q2ZGaXFCOWpSVkFrNkMwSjRScXpDeUk2WnpiVWtpNEd0R0RjNjZEelNOZUlyR29TVklKUUliNmNIbmNaSXp1N1pKZWJsVDBlODlxQ2J4d25tZEVfOEdBNDV4WGphLVkxSGFvQ2ZaS1NaWHZnbFljOEpvQVd6MnlXZGFkUmNtV3hselpMOS1zLVN2V0hMbEl1Vl9UTmZoMW1pSk1JcFdvRTFwYUY2Qk9BVEMxZDAyMGF3WHdVQmFJ?oc=5",
+"urls": [
+"https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
+"4c6a9d381ba2": {
+"coin": "",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Decrypt"
+],
+"t": 1795692834.5521033,
+"t0": 1795689633.0,
+"tgtext": "",
+"title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
+"url": "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+"urls": [
+"https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+"https://decrypt.co/384025/new-york-wins-1-37b-judgment-against-novatech-founders-who-fled-the-us"
+]
+},
 "4c953be6afd4": {
 "coin": "",
 "src": "Watcher.Guru",
@@ -1381,10 +1416,11 @@
 "src": "Wu Blockchain",
 "srcs": [
 "Crypto News",
+"The Crypto Times",
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795676564.0,
 "tgtext": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse\n\nCrypto asset manager 21Shares said in a November 24 report that the Binance hack merely triggered Bitcoin's recent selloff, while capital outflows and leveraged liquidations drove most of the losses.\n\nStablecoin supply fell $10.7 billion following the attack, marking the largest 18-day decline in dollar terms since the Terra collapse in 2022. The firm warned that rallies may struggle to hold until stablecoin supply and spot ETF inflows recover. It identified Bitcoin's realized price of $53,250 as a key downside level, with deeper declines to $37,200\u2013$43,800 possible under historical bear-market scenarios, though it considers such outcomes unlikely. \u2014 link",
 "title": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse",
@@ -1499,7 +1535,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795690872.0,
 "tgtext": "\ud83d\udea8 JUST IN: Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.\n\nNews | Markets | YouTube\nReuters: Standard Chartered\u2019s Crypto Custody Unit Zodia Suffers Security Breach\n\nAccording to Reuters, Standard Chartered\u2019s crypto custody unit Zodia Custody suffered a security breach this week, exposing client and employee data, including names and email addresses. Zodia Custody CEO Richard Clark confirmed the incident in an emailed statement to Reuters, saying the breach was discovered on November 23. It remains unclear whether any crypto assets held in custody were affected. \u2014 link",
 "title": "Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.",
@@ -1645,7 +1681,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795690923.0,
 "tgtext": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 $BTC ($93.85M), making another $1.8M!\n\nHe's made a total of $7.27M over the past week.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 BTC ($93.85M), making another $1.8M!",
@@ -2286,7 +2322,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795676292.0,
 "tgtext": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nMichael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nOn November 20, 2026, Strategy Executive Chairman Michael Saylor said in an interview with Natalie Brunell that Strategy's current U.S. dollar cash reserves are sufficient to cover approximately 3.4 years of expenses, even if the company is unable to sell any securities for three consecutive years. He said the company is confident it can find reasonably valued financing or asset sale opportunities during market downturns, raising capital through credit instruments, equity and derivatives. If market conditions continue to deteriorate, Strategy will also proactively reduce its risk exposure and adjust its balance sheet and capital structure rather than passively waiting for a crisis. \u2014 link",
 "title": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years",
@@ -3117,7 +3153,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795672739.0,
 "tgtext": "\ud83c\udded\ud83c\uddf0 BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.\n\nNews | Markets | YouTube",
 "title": "BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.",
@@ -3363,7 +3399,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795692223.2756462,
+"t": 1795692834.5521033,
 "t0": 1795674021.0,
 "tgtext": "A whale deposited 47,501 $ZEC($35.8M) into #Binance over the past 12 hours.\n\nhttps://arkm.com/explorer/address/t1bMwm4ymfWtYvtTsBiJSSRPS9xUpMWDdb4",
 "title": "A whale deposited 47,501 ZEC($35.8M) into Binance over the past 12 hours.",
@@ -3536,6 +3572,25 @@
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2a3RjSWxfTV9sUEhsbXlqQm4tNUltZ1c1Y3pxZUZ1SjR4WEh0S1Nud055VDNJZmlZRlc2X0NXdWN0emxRbEJUNVhUM1VuUzJkcmlrOFZLVGM?oc=5",
 "urls": []
 },
+"db43471a4f69": {
+"coin": "",
+"src": "Finance Magnates",
+"srcs": [
+"Cointelegraph",
+"Crypto News",
+"Daily Beirut",
+"Finance Magnates",
+"The Crypto Times"
+],
+"t": 1795692834.5521033,
+"t0": 1795672380.0,
+"tgtext": "",
+"title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
+"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZElDVDU3Q2ZGaXFCOWpSVkFrNkMwSjRScXpDeUk2WnpiVWtpNEd0R0RjNjZEelNOZUlyR29TVklKUUliNmNIbmNaSXp1N1pKZWJsVDBlODlxQ2J4d25tZEVfOEdBNDV4WGphLVkxSGFvQ2ZaS1NaWHZnbFljOEpvQVd6MnlXZGFkUmNtV3hselpMOS1zLVN2V0hMbEl1Vl9UTmZoMW1pSk1JcFdvRTFwYUY2Qk9BVEMxZDAyMGF3WHdVQmFJ?oc=5",
+"urls": [
+"https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "dbfcf00084a6": {
 "coin": "bitcoin",
 "src": "The Economic Times",
@@ -3596,6 +3651,19 @@
 "tgtext": "\ud83d\udea8 ALERT: $ANSEM crashes 60% in an hour as community flags a suspected hack involving $2.15M USDC.\n\nNews | Markets | YouTube",
 "title": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
 "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZEJEbVE2bDdBd1NSSmhvYkRHVkVscjNUNGRYbnFfSkdOSkhRaXNQUm1NSHNXOGJBZ1RrRVJ5U21LeTZIaG5oVEhreno4ZmEwbzE2dV9SNFl5clN6VEsyRld3NHVJd1RXRVhCcTZRd1dyRWVFcDYwR3lpb3ZyT29zOGlGeGhET3RKbVBjekdlYWZJaUQtLWQ4?oc=5",
+"urls": []
+},
+"e11f38ea6e9f": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795692834.5521033,
+"t0": 1795692613.0,
+"tgtext": "JUST IN: Nvidia $NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:\n\n\u2022 Thailand\n\u2022 Malaysia\n\u2022 Indonesia\n\u2022 Singapore\n\n@WatcherGuru",
+"title": "Nvidia NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:",
+"url": "https://t.me/WatcherGuru/16353",
 "urls": []
 },
 "e2a37edc8a0c": {
@@ -4113,42 +4181,42 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
+"1013108739c1": 0.058,
+"140a23f711d8": 0.119,
 "16d40d2318b3": 0.352,
 "23733997e816": 0.095,
-"2f233d919647": 0.097,
+"306487ac90d1": 0.251,
+"30cacd89ec2e": 0.02,
 "3100a11eb69c": 0.3,
 "3673792bc13b": 0.027,
 "38fe958c76fa": 0.055,
 "4039d4aeace6": 0.077,
 "438592885e7f": 0.024,
-"463b146885ed": 0.046,
-"47ccde87e6c6": 0.031,
-"47f4e895f04e": 0.121,
-"49596ef50b4f": 0.643,
+"47f4e895f04e": 0.186,
+"49596ef50b4f": 0.103,
 "4ae6fb7a939f": 0.154,
-"4c6a9d381ba2": 0.234,
-"57ba8dee9540": 0.491,
-"582803f9d346": 0.01,
+"4c6a9d381ba2": 0.492,
+"57ba8dee9540": 0.457,
 "59f8cf01b223": 0.023,
-"5f27a813a034": 0.895,
+"5f27a813a034": 0.866,
 "5fa5aea6e1e7": 0.075,
 "642e115e6b7c": 0.063,
-"6781dc3860f9": 0.157,
 "67a68ae532ad": 0.955,
-"68f2f482624c": 0.046,
+"6bfb1c6a906e": 0.034,
 "6f48e103f3e2": 0.079,
 "707610e001e7": 0.1,
-"79eb5c3d2ceb": 0.089,
+"79eb5c3d2ceb": 0.086,
 "82029b1ee4db": 0.032,
-"a0c2097687e1": 0.251,
+"a9422d4ba28e": 0.302,
 "ae24d6596da7": 0.034,
 "c3a2341f03e7": 0.042,
-"caabce0fddc5": 0.467,
+"caabce0fddc5": 0.143,
 "cb1f72831fec": 0.049,
 "d2f75a0fcbba": 0.903,
-"d7623dfe5404": 0.819,
 "daa7c26db82e": 0.024,
-"dc180e90cad9": 0.087,
+"db43471a4f69": 0.675,
+"dc180e90cad9": 0.243,
+"e11f38ea6e9f": 0.688,
 "e595180cabae": 0.09,
 "f51047e2eb7b": 0.099,
 "f62a95d7dcd2": 0.088,
@@ -5763,63 +5831,63 @@
 [
 "67a68ae532ad",
 16,
-22,
+32,
 1
 ],
 [
 "d2f75a0fcbba",
-16,
-303,
+15,
+314,
 1
 ],
 [
 "5f27a813a034",
 53,
-23,
+33,
 2
 ],
 [
-"d7623dfe5404",
-62,
-356,
-5
-],
-[
-"8cb04923ec29",
-7,
-266,
+"e11f38ea6e9f",
+32,
+4,
 1
 ],
 [
-"49596ef50b4f",
-29,
-294,
-3
+"db43471a4f69",
+64,
+341,
+8
+],
+[
+"8cb04923ec29",
+6,
+276,
+1
 ],
 [
 "c72525c508e3",
 0,
-325,
+335,
 1
+],
+[
+"4c6a9d381ba2",
+43,
+53,
+2
 ],
 [
 "57ba8dee9540",
-30,
-261,
-3
-],
-[
-"caabce0fddc5",
-60,
-143,
-3
+38,
+271,
+4
 ],
 [
 "426b05a8540f",
-6,
-261,
+4,
+271,
 1
 ]
 ],
-"top_at": 1795692223.2756462
+"top_at": 1795692834.5521033
 }
