@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1795609625.3425126,
 1795620008.5190043,
 1795622144.2538316,
 1795623672.6664793,
@@ -17,7 +16,8 @@
 1795681614.4104238,
 1795687723.2234907,
 1795691434.0943713,
-1795695594.8416145
+1795695594.8416145,
+1795697150.2028682
 ],
 "menu": {
 "005064432d65": {
@@ -303,7 +303,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795687516.0,
 "tgtext": "\ud83d\udd25 JUST IN: Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d\n\nNews | Markets | YouTube",
 "title": "Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d",
@@ -963,7 +963,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795676559.0,
 "tgtext": "A #Zcash OG deposited 15,750 $ZEC ($11.39M) into #Kraken 12 hours ago after 9 years of inactivity.\n\nThe OG bought 23,412 $ZEC ($5.04M) at an average price of $215 nine years ago.\n\nAfter holding for 9 years, he's finally selling, with a total profit of $12M+!\n\nhttps://arkm.com/explorer/address/t1K1yA7L7SKtF2chEUY7aWH2ehB5Dh58LdB",
 "title": "A Zcash OG deposited 15,750 ZEC ($11.39M) into Kraken 12 hours ago after 9 years of inactivity.",
@@ -1387,12 +1387,11 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
-"Crypto News",
 "The Crypto Times",
 "Wu Blockchain",
 "Yahoo Finance"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795676564.0,
 "tgtext": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse\n\nCrypto asset manager 21Shares said in a November 24 report that the Binance hack merely triggered Bitcoin's recent selloff, while capital outflows and leveraged liquidations drove most of the losses.\n\nStablecoin supply fell $10.7 billion following the attack, marking the largest 18-day decline in dollar terms since the Terra collapse in 2022. The firm warned that rallies may struggle to hold until stablecoin supply and spot ETF inflows recover. It identified Bitcoin's realized price of $53,250 as a key downside level, with deeper declines to $37,200\u2013$43,800 possible under historical bear-market scenarios, though it considers such outcomes unlikely. \u2014 link",
 "title": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse",
@@ -1482,17 +1481,18 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
+"CoinDesk",
 "Cointelegraph",
-"The Crypto Times",
 "Wu Blockchain"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795690872.0,
 "tgtext": "\ud83d\udea8 JUST IN: Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.\n\nNews | Markets | YouTube\nReuters: Standard Chartered\u2019s Crypto Custody Unit Zodia Suffers Security Breach\n\nAccording to Reuters, Standard Chartered\u2019s crypto custody unit Zodia Custody suffered a security breach this week, exposing client and employee data, including names and email addresses. Zodia Custody CEO Richard Clark confirmed the incident in an emailed statement to Reuters, saying the breach was discovered on November 23. It remains unclear whether any crypto assets held in custody were affected. \u2014 link",
 "title": "Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.",
 "url": "https://t.me/cointelegraph/73544",
 "urls": [
-"https://cointelegraph.com/news/standard-chartered-zodia-suffers-data-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/standard-chartered-zodia-suffers-data-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/tech/2026/11/26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information"
 ]
 },
 "5fc298fedad0": {
@@ -1634,7 +1634,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795690923.0,
 "tgtext": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 $BTC ($93.85M), making another $1.8M!\n\nHe's made a total of $7.27M over the past week.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 BTC ($93.85M), making another $1.8M!",
@@ -2246,7 +2246,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795676292.0,
 "tgtext": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nMichael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nOn November 20, 2026, Strategy Executive Chairman Michael Saylor said in an interview with Natalie Brunell that Strategy's current U.S. dollar cash reserves are sufficient to cover approximately 3.4 years of expenses, even if the company is unable to sell any securities for three consecutive years. He said the company is confident it can find reasonably valued financing or asset sale opportunities during market downturns, raising capital through credit instruments, equity and derivatives. If market conditions continue to deteriorate, Strategy will also proactively reduce its risk exposure and adjust its balance sheet and capital structure rather than passively waiting for a crisis. \u2014 link",
 "title": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years",
@@ -2311,6 +2311,22 @@
 "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPLTNtZEtTS2JrekFZdEt1TTVjWEJIMG5zOUVRdUpVYTFfblo4MkhMNlRxbzRINzVXU3doTi0yNkM5amZKQnpva3VObXBNdFVsWGR0T3lYNy02ZjlVWk41VEE5Wnh0MU5qeHh5MzlZVFJUUWg4cmNXcHFZVXE5dGtoR0VHRTlGTGtKWFNVVFB4OFdNdlA0TTVhc2JGTTBma2RXR0JlMEhLOS1pcFlOQldpcmVlRkNWLXF2Rmx1UDA0LVdLY19pdjhSTHNrX0U1bHNLTjhwQ2FiU05KZ2tVVXRUUVJhY3lGazEyTU01bXNOclg4d2s?oc=5",
 "urls": [
 "https://cryptoslate.com/bitcoins-60000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter/"
+]
+},
+"9163cafa1b0b": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"CoinDesk",
+"Wu Blockchain"
+],
+"t": 1795697124.8599684,
+"t0": 1795692470.0,
+"tgtext": "Hong Kong-Based Market Maker Auros, Which Survived the FTX Collapse, Is Gradually Winding Down Operations\n\nAccording to CoinDesk, citing two sources familiar with the matter, Hong Kong-based crypto market maker Auros is gradually winding down operations. The reasons and timeline remain unclear, and the firm has not responded to requests for comment.\n\nFounded in 2019, Auros estimated it handled around 4% of global crypto exchange trading volume, according to co-founder and CIO Ben Roth in July 2024. After FTX\u2019s collapse in 2022 left some of its assets trapped, Auros entered court-supervised restructuring in the British Virgin Islands before exiting provisional liquidation in March 2023 following a $17 million funding round led by Vivienne Court, with participation from Bit Digital.\n\nAuros later invested in projects including Pyth and Berachain and launched Aurora, an institutional trading portal connecting centralized and decentralized markets, in September 2026. \u2014 link",
+"title": "Hong Kong-Based Market Maker Auros, Which Survived the FTX Collapse, Is Gradually Winding Down Operations",
+"url": "https://t.me/wublockchainenglish/26962",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources"
 ]
 },
 "92ac0f71bafd": {
@@ -2848,25 +2864,6 @@
 "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRnltSTdFdzNfZHc5b2NmXzluYVVSdEJ2anVWNUVYTkJKNlNtbWtxbnVBR0xiZFNkV3Y3V012RnpjNzJSZUJ0OFgtcDZKRDlWLTNsQkhkOUtNWUNyZmJTN0JaYlg1WUV0eFBRZjhqQXFLbEs0Wjhtc0dGVlVDUkE4VEsyM1A3aF9rN3VKRW5LZWtmM1poSDhvMWJVaVRyZTNPUk1LSlY1MHJiX3BJNHpTVlVSdmMyX2FnQzZrbDhQUGwtMFR6UUJFVXRPMzZRSlFtYVpVSEhzV21ZbExhckpMeGR5SDM?oc=5",
 "urls": []
 },
-"b8eaa2a595cb": {
-"coin": "usd-coin",
-"src": "CoinDesk",
-"srcs": [
-"21Shares",
-"Altcoin Buzz",
-"CoinDesk",
-"FinanceFeeds",
-"bloomingbit"
-],
-"t": 1795524129.7423406,
-"t0": 1795505519.0,
-"tgtext": "",
-"title": "DOJ moves to forfeit $1.1 billion in frozen USDC from Binance hack as billions remain unrecovered",
-"url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYjI5MnZGSDN3TWFNUndOdWNXZXNDTVNBT2tuemZseGhXQXZmaWQ3OXR3dEZPM1E1QUt1ZE1EbUxqSkM0ZzkxX2xINmpDZzRxQlhjMTByRy1qSVhvS3N1MjZCQTgyR2JjRWtPOXdzUnZYMFY3LThsbjZnbFJhWnI4bzlta1N2MFp2dFpDM08tMEowVUN2amZ2Zmw2WFhPOW15cVNqN0U2SmJMcnV6MElPTjAweWlsenh4c0RJODdVb01SZw?oc=5",
-"urls": [
-"https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
-]
-},
 "b95a13e584f2": {
 "coin": "",
 "src": "Finance Magnates",
@@ -3064,13 +3061,13 @@
 "coin": "",
 "src": "Finance Magnates",
 "srcs": [
+"CoinGeek",
 "Daily Beirut",
 "Decrypt",
 "Finance Magnates",
-"Gadgets 360",
-"NewsCord"
+"Gadgets 360"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795678803.0,
 "tgtext": "",
 "title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
@@ -3626,7 +3623,7 @@
 "BeInCrypto",
 "Cryptonews.net"
 ],
-"t": 1795695899.0461,
+"t": 1795697124.8599684,
 "t0": 1795682280.0,
 "tgtext": "",
 "title": "ICO-Era Whale Unloads $53 Million of Ethereum (ETH) a Decade Later",
@@ -3682,7 +3679,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795696513.344556,
+"t": 1795697124.8599684,
 "t0": 1795692613.0,
 "tgtext": "JUST IN: Nvidia $NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:\n\n\u2022 Thailand\n\u2022 Malaysia\n\u2022 Indonesia\n\u2022 Singapore\n\n@WatcherGuru",
 "title": "Nvidia NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries:",
@@ -4131,7 +4128,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795696513.344556,
+"t": 1795696820.8456297,
 "t0": 1795682700.0,
 "tgtext": "",
 "title": "CleanSpark's $6.6 Billion Georgia Lease Turns a Bitcoin Miner Into a Landlord, With a $179 Million Interest Bill Due First",
@@ -4204,41 +4201,41 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
-"0de42312f463": 0.034,
 "16d40d2318b3": 0.477,
 "18ce8b32f3b0": 0.197,
-"23733997e816": 0.132,
-"30cacd89ec2e": 0.033,
 "3100a11eb69c": 0.278,
 "3673792bc13b": 0.11,
+"39e87a2a157f": 0.072,
 "4039d4aeace6": 0.123,
 "40af6ead6478": 0.218,
-"47f4e895f04e": 0.467,
+"47f4e895f04e": 0.231,
 "4ae6fb7a939f": 0.14,
 "4c6a9d381ba2": 0.263,
-"57ba8dee9540": 0.586,
+"57ba8dee9540": 0.806,
 "59f8cf01b223": 0.038,
-"5a59e0072cfb": 0.068,
-"5f27a813a034": 0.939,
+"5f27a813a034": 0.938,
 "5f3e27ffa04c": 0.132,
 "5fa5aea6e1e7": 0.105,
-"67a68ae532ad": 0.723,
+"67a68ae532ad": 0.654,
+"682d9b0c6f41": 0.144,
+"696abee1caf2": 0.28,
 "6f48e103f3e2": 0.126,
-"79eb5c3d2ceb": 0.08,
-"82029b1ee4db": 0.052,
+"707610e001e7": 0.157,
+"79eb5c3d2ceb": 0.078,
+"9163cafa1b0b": 0.755,
 "a0c2097687e1": 0.259,
+"a9422d4ba28e": 0.137,
 "ae24d6596da7": 0.056,
-"bbc19f8c5106": 0.246,
-"c0e6793ac900": 0.309,
+"c0e6793ac900": 0.32,
 "c10b00e9a90c": 0.033,
 "c3a2341f03e7": 0.068,
 "c50ef519bb22": 0.182,
 "caabce0fddc5": 0.087,
 "cb1f72831fec": 0.08,
+"cbce954687cb": 0.13,
 "cc343c75e468": 0.246,
-"cdf064e46ff0": 0.179,
 "daa7c26db82e": 0.04,
-"dc180e90cad9": 0.138,
+"dc180e90cad9": 0.589,
 "e11f38ea6e9f": 0.458,
 "e595180cabae": 0.143,
 "f51047e2eb7b": 0.157,
@@ -5814,6 +5811,43 @@
 "spot",
 "switzerland"
 ]
+},
+{
+"e": [
+"auros",
+"based",
+"collapse",
+"ftx",
+"gradually",
+"hong",
+"kong",
+"maker",
+"operations",
+"survived",
+"which",
+"winding"
+],
+"k": [],
+"t": 1795697124.8599684,
+"u": [
+"https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources",
+"https://t.me/wublockchainenglish/26962"
+],
+"w": [
+"auros",
+"based",
+"collapse",
+"ftx",
+"gradually",
+"hong",
+"kong",
+"maker",
+"market",
+"operations",
+"survived",
+"which",
+"winding"
+]
 }
 ],
 "stories": {},
@@ -5822,63 +5856,63 @@
 [
 "5f27a813a034",
 55,
-94,
+104,
+3
+],
+[
+"57ba8dee9540",
+19,
+343,
 3
 ],
 [
 "8cb04923ec29",
 0,
-337,
+347,
 1
+],
+[
+"9163cafa1b0b",
+30,
+78,
+2
 ],
 [
 "67a68ae532ad",
 16,
-93,
+103,
 1
 ],
 [
 "426b05a8540f",
 0,
-333,
+343,
 1
 ],
 [
-"57ba8dee9540",
-30,
-332,
-4
+"dc180e90cad9",
+26,
+247,
+2
 ],
 [
 "16d40d2318b3",
 18,
-150,
+160,
 1
-],
-[
-"47f4e895f04e",
-63,
-346,
-5
 ],
 [
 "e11f38ea6e9f",
 32,
-65,
+75,
 1
 ],
 [
 "c0e6793ac900",
-70,
-295,
-8
-],
-[
-"f62a95d7dcd2",
-25,
-230,
-1
+69,
+305,
+9
 ]
 ],
-"top_at": 1795696513.344556
+"top_at": 1795697124.8599684
 }
