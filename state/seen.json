@@ -1,7 +1,6 @@
 {
 "hacks": {
-"Bullpen1795478400": 1795543090.5658305,
-"Endurance Bridge1795305600": 1795391846.557197
+"Bullpen1795478400": 1795543090.5658305
 },
 "init": true,
 "log": [
@@ -491,7 +490,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795630554.0,
 "tgtext": "\ud83d\udea8 ALERT: 1Password confirms a breach through an employee\u2019s GitHub account exposed customer names and emails, but says password vaults were not accessed.\n\nNews | Markets | YouTube",
 "title": "1Password confirms a breach through an employee\u2019s GitHub account exposed customer names and emails, but says password vaults were not accessed.",
@@ -538,7 +537,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795630463.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 93% chance the Fed hikes interest rates by 25 basis points at the next FOMC meeting.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 93% chance the Fed hikes interest rates by 25 basis points at the next FOMC meeting.",
@@ -857,7 +856,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795646957.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia NVDA CEO after he stepped down, WaPo reports.",
@@ -1501,6 +1500,21 @@
 "https://cryptoslate.com/bitcoins-5000-price-swing-and-anthropics-ipo-decline-expose-cracks-in-ai-driven-market-rally/"
 ]
 },
+"604c079d8514": {
+"coin": "",
+"src": "Decrypt",
+"srcs": [
+"Decrypt"
+],
+"t": 1795651378.035028,
+"t0": 1795637163.0,
+"tgtext": "",
+"title": "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach",
+"url": "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach",
+"urls": [
+"https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach"
+]
+},
 "614b43cad418": {
 "coin": "",
 "src": "bloomingbit",
@@ -1884,7 +1898,7 @@
 "Cryptonews.net",
 "MLQ.ai"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795635120.0,
 "tgtext": "",
 "title": "Fidelity files to launch Chainlink ETF, adding a new option for LINK investors in the U.S.",
@@ -2024,17 +2038,19 @@
 },
 "7d7daf8e8d3c": {
 "coin": "",
-"src": "BigGo Finance",
+"src": "OneBullEx",
 "srcs": [
 "BigGo Finance",
 "CoinMarketCap",
-"Cryptonews.net"
+"Crypto News",
+"Cryptonews.net",
+"OneBullEx"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795629995.0,
 "tgtext": "",
-"title": "DOJ Scam Sweep Reaches 800 Defendants as FBI Restrains Nearly $17 Billion",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZmlMSTIwRFhHZFA5dFI2eC1EUGZfT0kxekN2YTE3VGFOY3lTSGdETGhtNkFkek44eHJXeWFmRjE4S2tmZUU1QXV2ZE9tM2l6cGZac25fMkdUbjJ3NmNjRkM5dFZFdzM2V1FheEVydkFWbnFOZ1E?oc=5",
+"title": "DOJ November 24 Sweep Targets 800 Defendants But Withholds Charge Counts And Fraud Value",
+"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRUp1Z29EOExNOTN3R3R5dWRmbDhHNWx0V0EtUDc5LW05RU5IVTRybjlNbVNsNzlkOGFrcEhzeEVYZWc4WXpwY0ZNQXhYN21DTTVUX29jVGk4TmUwTFkxMkVhRHJCcmItdHhQZ0JIVXdHV3dGMUdWSWlQMlgtZUh6eEwwbVRKYU8wZ2FtRHdvMUkxcGxydmkzaWd1d1hDQ09TUHhrOWotSEtCUFlZSllrQVhRcTY2WUFBNGtDM2haYjVJYkNaamhV?oc=5",
 "urls": []
 },
 "7d93dd8f2d30": {
@@ -2059,7 +2075,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795632208.0,
 "tgtext": "JUST IN: S&P considers lowering Nvidia's $NVDA credit rating.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 BIG: S&P Global places Nvidia\u2019s $NVDA \u2018AA\u2019 credit rating on negative watch, warning of a potential downgrade within 90 days amid rising management and corporate governance concerns.\n\nNews | Markets | YouTube",
 "title": "BIG: S&P Global places Nvidia\u2019s NVDA \u2018AA\u2019 credit rating on negative watch, warning of a potential downgrade within 90 days amid rising management and corporate governance concerns.",
@@ -2140,6 +2156,21 @@
 "tgtext": "This whale is already down over $8M on his long of 203,333 $HYPE ($11.55M), but he just created a new wallet and opened another 10x long on 200,000 $HYPE ($11.38M)!\n\nLiquidation prices: $45.41 and $43.74\n\nhttps://hypurrscan.io/address/0x97f8219e401f07752a60ddb0a75efda96d1389d9#perps\nhttps://hypurrscan.io/address/0xddd5e6ed7bb662ae6b65e2149f89337d3d0000e6#perps",
 "title": "This whale is already down over $8M on his long of 203,333 HYPE ($11.55M), but he just created a new wallet and opened another 10x long on 200,000 HYPE ($11.38M)!",
 "url": "https://t.me/lookonchainchannel/11278",
+"urls": []
+},
+"8232961e9374": {
+"coin": "hyperliquid",
+"src": "Altcoin Buzz",
+"srcs": [
+"Altcoin Buzz",
+"KuCoin",
+"Yahoo Finance"
+],
+"t": 1795651378.035028,
+"t0": 1795630500.0,
+"tgtext": "",
+"title": "HYPE Will Join Franklin Templeton's Crypto ETF On Dec. 1, Expanding Its Basket to 8 Assets",
+"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWxEanNRdkt5Y0lGM21vT01iWVNCa1JMbHgzQnktd0hKWV9hSDZpYUZOZ1hBMFZIbVpKQ3NoT24zNHlxbF9oNDBkdk1pZHM0Z1d3OE04ZVNXRmZ0TnYzcm04Y1NFbkVDeTVpVjIwaTg5VVMzQTZRUVJ6QWlCUG9rR1N3WDNjdXNucnlxQ1NGcnBkQnIzVWhINzB1S1FheHJpNkdvVm1mMnJhUWVub2hBSU9tME5GQQ?oc=5",
 "urls": []
 },
 "8241efefbd22": {
@@ -2865,7 +2896,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795632931.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.",
@@ -3398,7 +3429,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795650767.0903938,
+"t": 1795651378.035028,
 "t0": 1795640615.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 FDA approves Elon Musk's Neuralink brain implant trials.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 FDA approves Elon Musk's Neuralink brain implant trials.",
@@ -3978,20 +4009,6 @@
 "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"ef2de23c331a": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Wu Blockchain"
-],
-"t": 1795478045.1215563,
-"t0": 1795456690.0,
-"tgtext": "EU Proposes 22nd Russia Sanctions Package Targeting Crypto Platforms and 60 Banks\n\nEuropean Commission President Ursula von der Leyen announced on November 23 a proposed 22nd sanctions package against Russia, seeking to extend transaction bans to approximately 60 Russian banks and remove them from the SWIFT system. The proposal also targets cryptocurrency platforms and payment networks in Russia and third countries facilitating sanctions evasion. Von der Leyen said the EU has launched a Crypto Sanctions Task Force to strengthen enforcement. Additional measures include expanded energy restrictions, sanctions targeting Russia's shadow fleet, and a ban on EU citizens holding management positions in Russian companies. The package remains subject to approval. \u2014 link\n\ud83d\udea8 NEW: The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.\n\n\u201cWe are striking harder at Russia\u2019s ways to finance its war,\u201d said Ursula von der Leyen.\n\nAll 27 member states still need to sign off.\n\nNews | Markets | YouTube",
-"title": "The EU proposes its 22nd sanctions package against Russia, targeting crypto platforms and around 60 Russian banks.",
-"url": "https://t.me/cointelegraph/73476",
-"urls": []
-},
 "f0af040f7881": {
 "coin": "",
 "src": "Lookonchain",
@@ -4123,7 +4140,7 @@
 "Decrypt",
 "The Block"
 ],
-"t": 1795650156.5664506,
+"t": 1795651074.5434709,
 "t0": 1795629613.0,
 "tgtext": "",
 "title": "Nvidia agrees to $290 million settlement over crypto mining disclosures amid Jensen Huang turmoil",
@@ -4169,46 +4186,46 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
-"04273ea8f6c0": 0.012,
-"1825d4421f64": 0.016,
-"1fb6f0cbeee0": 0.232,
-"20dbb466917b": 0.017,
-"28bb1beab67c": 0.043,
-"290e0826d299": 0.021,
-"33adc516ebe8": 0.057,
-"377d30242986": 0.016,
-"3bbc1f971ca1": 0.297,
-"3e20b170fe9e": 0.005,
-"4872ea4ea516": 0.029,
-"4be9c5456dec": 0.03,
-"4c43189f55d4": 0.042,
-"604c079d8514": 0.11,
-"6257587ea5c6": 0.016,
-"65a791a388cb": 0.053,
-"6d46bfd40280": 0.019,
-"738635ad1148": 0.038,
-"742dcad6e780": 0.037,
-"753906088eb6": 0.211,
-"77ebaf366f07": 0.006,
-"78f7a83e386d": 0.036,
-"7b6fd429c454": 0.008,
-"7d7daf8e8d3c": 0.209,
-"801c63d67d0b": 0.038,
-"8031c0a0b0d9": 0.129,
-"88e93b49e2bb": 0.018,
-"8cc9e80f8648": 0.103,
-"8e95569e8f84": 0.031,
-"9308e03f4dc2": 0.009,
-"b500ebd8e4ae": 0.253,
-"d15a191c0162": 0.137,
-"d1b6f1ef9739": 0.006,
-"d406a2bf120a": 0.057,
-"e6691fca9931": 0.035,
-"efc27dbfb1d9": 0.065,
-"f131015cb516": 0.037,
-"f40cfccd3faa": 0.025,
-"f7c79eeeb1a3": 0.026,
-"f90000b64554": 0.104
+"04273ea8f6c0": 0.024,
+"1825d4421f64": 0.038,
+"1e3419910dea": 0.108,
+"1fb6f0cbeee0": 0.377,
+"20dbb466917b": 0.033,
+"27ef2da9b036": 0.054,
+"28bb1beab67c": 0.082,
+"290e0826d299": 0.041,
+"377d30242986": 0.032,
+"3bbc1f971ca1": 0.458,
+"3e20b170fe9e": 0.01,
+"4be9c5456dec": 0.066,
+"4c43189f55d4": 0.081,
+"4f13105cc4a5": 0.044,
+"604c079d8514": 0.199,
+"6257587ea5c6": 0.031,
+"6d46bfd40280": 0.046,
+"738635ad1148": 0.074,
+"742dcad6e780": 0.072,
+"753906088eb6": 0.349,
+"77ebaf366f07": 0.012,
+"78f7a83e386d": 0.07,
+"7b6fd429c454": 0.015,
+"7d7daf8e8d3c": 0.284,
+"8232961e9374": 0.476,
+"88e93b49e2bb": 0.035,
+"9308e03f4dc2": 0.021,
+"9a599d3de3c3": 0.036,
+"b500ebd8e4ae": 0.404,
+"d15a191c0162": 0.241,
+"d1b6f1ef9739": 0.011,
+"d406a2bf120a": 0.108,
+"dea2f11ea53e": 0.049,
+"e6691fca9931": 0.067,
+"eb947fd7621c": 0.064,
+"efc27dbfb1d9": 0.122,
+"f131015cb516": 0.071,
+"f40cfccd3faa": 0.048,
+"f4f2328379d9": 0.078,
+"f7c79eeeb1a3": 0.051
 },
 "sent": [
 {
@@ -5805,64 +5822,64 @@
 "top": [
 [
 "7e36a8523669",
-3,
-309,
+2,
+320,
 2
 ],
 [
 "217bf7a48a8c",
-3,
-338,
+2,
+349,
 1
+],
+[
+"8232961e9374",
+22,
+348,
+3
 ],
 [
 "3bbc1f971ca1",
 18,
-64,
+74,
 1
 ],
 [
 "b500ebd8e4ae",
-13,
-297,
+12,
+307,
 1
 ],
 [
 "1fb6f0cbeee0",
-15,
-337,
+13,
+347,
 1
 ],
 [
 "753906088eb6",
-44,
-261,
+42,
+271,
 8
 ],
 [
 "7d7daf8e8d3c",
-53,
-346,
-3
-],
-[
-"a0f2d9521f60",
-1,
-360,
-1
+62,
+356,
+5
 ],
 [
 "d15a191c0162",
 18,
-169,
+179,
 1
 ],
 [
-"8031c0a0b0d9",
-24,
-262,
+"604c079d8514",
+28,
+237,
 1
 ]
 ],
-"top_at": 1795650767.0903938
+"top_at": 1795651378.035028
 }
