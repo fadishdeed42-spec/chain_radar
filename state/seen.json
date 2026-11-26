@@ -174,25 +174,6 @@
 "url": "https://t.me/WatcherGuru/16307",
 "urls": []
 },
-"0a6099b52454": {
-"coin": "bitcoin",
-"src": "BigGo Finance",
-"srcs": [
-"BigGo Finance",
-"CoinDesk",
-"CryptoTicker.io",
-"The Block"
-],
-"t": 1795519230.6914992,
-"t0": 1795497900.0,
-"tgtext": "",
-"title": "Jensen Huang's Return Can't Rescue Bitcoin: Price Whipsaws at $60,600 as $762 Million in Positions Liquidated",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsUWEtdzhmdFdRMkJKNTEyWUM2V1JMSXdYbktRdkdmTmMxRlA4RG0xLTV0WkVra2ZVZTMxT3N3WTVzZ3NaaTJMUWpPUVpJdjhWTC1WYmNUSUVHVWZFTS1wUTRpNXBjUklSNDdyX19PZElDOXR2ekE?oc=5",
-"urls": [
-"https://www.theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
-"https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades"
-]
-},
 "0c592f628dc2": {
 "coin": "",
 "src": "Cointelegraph",
@@ -334,7 +315,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795691611.4730413,
+"t": 1795691919.2578347,
 "t0": 1795687516.0,
 "tgtext": "\ud83d\udd25 JUST IN: Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d\n\nNews | Markets | YouTube",
 "title": "Vitalik Buterin advocates for open-source hardware to improve security and verifiability, introducing a new mantra: \u201cNot your silicon, not your keys.\u201d",
@@ -1008,7 +989,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795676559.0,
 "tgtext": "A #Zcash OG deposited 15,750 $ZEC ($11.39M) into #Kraken 12 hours ago after 9 years of inactivity.\n\nThe OG bought 23,412 $ZEC ($5.04M) at an average price of $215 nine years ago.\n\nAfter holding for 9 years, he's finally selling, with a total profit of $12M+!\n\nhttps://arkm.com/explorer/address/t1K1yA7L7SKtF2chEUY7aWH2ehB5Dh58LdB",
 "title": "A Zcash OG deposited 15,750 ZEC ($11.39M) into Kraken 12 hours ago after 9 years of inactivity.",
@@ -1200,10 +1181,9 @@
 "srcs": [
 "Cointelegraph",
 "Crypto News",
-"The Block",
-"TradingView"
+"The Block"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795674600.0,
 "tgtext": "",
 "title": "Switzerland\u2019s first spot Bitcoin ETF debuts with 350 BTC in assets and a 0.19% annual fee",
@@ -1401,9 +1381,10 @@
 "src": "Wu Blockchain",
 "srcs": [
 "Crypto News",
-"Wu Blockchain"
+"Wu Blockchain",
+"Yahoo Finance"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795676564.0,
 "tgtext": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse\n\nCrypto asset manager 21Shares said in a November 24 report that the Binance hack merely triggered Bitcoin's recent selloff, while capital outflows and leveraged liquidations drove most of the losses.\n\nStablecoin supply fell $10.7 billion following the attack, marking the largest 18-day decline in dollar terms since the Terra collapse in 2022. The firm warned that rallies may struggle to hold until stablecoin supply and spot ETF inflows recover. It identified Bitcoin's realized price of $53,250 as a key downside level, with deeper declines to $37,200\u2013$43,800 possible under historical bear-market scenarios, though it considers such outcomes unlikely. \u2014 link",
 "title": "21Shares Warns Bitcoin Could Fall to $53,250 as Stablecoin Supply Sees Sharpest Drop Since Terra Collapse",
@@ -1518,7 +1499,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795690872.0,
 "tgtext": "\ud83d\udea8 JUST IN: Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.\n\nNews | Markets | YouTube\nReuters: Standard Chartered\u2019s Crypto Custody Unit Zodia Suffers Security Breach\n\nAccording to Reuters, Standard Chartered\u2019s crypto custody unit Zodia Custody suffered a security breach this week, exposing client and employee data, including names and email addresses. Zodia Custody CEO Richard Clark confirmed the incident in an emailed statement to Reuters, saying the breach was discovered on November 23. It remains unclear whether any crypto assets held in custody were affected. \u2014 link",
 "title": "Standard Chartered\u2019s crypto custody unit Zodia Custody suffers a security breach exposing client and employee names and email addresses, per Reuters.",
@@ -1664,7 +1645,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795690923.0,
 "tgtext": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 $BTC ($93.85M), making another $1.8M!\n\nHe's made a total of $7.27M over the past week.\n\nhttps://hyperbot.network/trader/0x1f250Df59A777d61Cb8bd043c12970F3AFE4F925",
 "title": "Aguila Trades(@AguilaTrades) just closed his long on 1,548.7 BTC ($93.85M), making another $1.8M!",
@@ -2305,7 +2286,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795676292.0,
 "tgtext": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nMichael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years\n\nOn November 20, 2026, Strategy Executive Chairman Michael Saylor said in an interview with Natalie Brunell that Strategy's current U.S. dollar cash reserves are sufficient to cover approximately 3.4 years of expenses, even if the company is unable to sell any securities for three consecutive years. He said the company is confident it can find reasonably valued financing or asset sale opportunities during market downturns, raising capital through credit instruments, equity and derivatives. If market conditions continue to deteriorate, Strategy will also proactively reduce its risk exposure and adjust its balance sheet and capital structure rather than passively waiting for a crisis. \u2014 link",
 "title": "Highlight Clip: Michael Saylor on Strategy's Worst-Case Scenario: Unable to Raise Capital for Three Consecutive Years",
@@ -2664,22 +2645,6 @@
 "tgtext": "",
 "title": "Stablecoins saved the day when Binance was exploited for $6.3B",
 "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM1h1YVpETEI5cl83Z1loM1pUUVc0VklMdi16c2xuMTNQY0YwMDZ3TE5fTFBIN0prOUFRTEJmcElETHdlSERyRGpWWWVYSTdGTEQxRmZzTmZIcU14Z3VJRFVaRlBvSzM3a2J1VUM1NlNVd05wMURsVDZTUG5DS3dNaElOUXBsZVF1eFE?oc=5",
-"urls": []
-},
-"aa64503255ea": {
-"coin": "bitcoin",
-"src": "CoinGape",
-"srcs": [
-"CoinGape",
-"Crypto News",
-"CryptoTicker.io",
-"Wu Blockchain"
-],
-"t": 1795518922.9378424,
-"t0": 1795497510.0,
-"tgtext": "U.S. Bitcoin ETFs Shed $570 Million, Extending Outflow Streak to Five Straight Days\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $570 million in net outflows on November 23, while Fidelity's FBTC led individual fund inflows with $13.29 million. Spot Ethereum ETFs saw $84.96 million in net outflows, with Fidelity's FETH posting the largest inflow at $5.58 million. \u2014 link",
-"title": "Bitcoin Price Drops to $60k as Nvidia Rally Fades and ETFs Shed $570M: What\u2019s Next?",
-"url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWGxaVy1FdW90U3hDZG04dzV1dFIzTkloRDRudGc2X2pETHltLUlJQUU1bWNHellQaHNkY04wZFBJaE9ocGhYM3pkT3RMM2ZUTm14bTJyT1JEeGhSRnJiUVBqTFpxZjFscmN3dG5MMkwtdzNlbS1SVDlPeDhleWZlbVQySWpodzV6bUJhVjFwZDF6bmhiR1pXZUdmXzFLMExJODNDbEFsRVA0TUdQ?oc=5",
 "urls": []
 },
 "ab8080a77b20": {
@@ -3152,7 +3117,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795672739.0,
 "tgtext": "\ud83c\udded\ud83c\uddf0 BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.\n\nNews | Markets | YouTube",
 "title": "BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.",
@@ -3229,7 +3194,7 @@
 "Cryptonews.net",
 "Invezz"
 ],
-"t": 1795690999.9476464,
+"t": 1795692223.2756462,
 "t0": 1795683622.0,
 "tgtext": "",
 "title": "Inside Bitcoin\u2019s $16B short liquidation zone: Could BTC bears get squeezed again?",
@@ -3398,7 +3363,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795674021.0,
 "tgtext": "A whale deposited 47,501 $ZEC($35.8M) into #Binance over the past 12 hours.\n\nhttps://arkm.com/explorer/address/t1bMwm4ymfWtYvtTsBiJSSRPS9xUpMWDdb4",
 "title": "A whale deposited 47,501 ZEC($35.8M) into Binance over the past 12 hours.",
@@ -3485,7 +3450,7 @@
 "Finance Magnates",
 "The Crypto Times"
 ],
-"t": 1795691611.4730413,
+"t": 1795692223.2756462,
 "t0": 1795670847.0,
 "tgtext": "",
 "title": "Binance Hack Highlights Money Laundering Risks as FCA Plans Tighter DeFi Rules",
@@ -4148,43 +4113,43 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
-"07f6c21b3284": 0.032,
 "16d40d2318b3": 0.352,
+"23733997e816": 0.095,
+"2f233d919647": 0.097,
 "3100a11eb69c": 0.3,
 "3673792bc13b": 0.027,
+"38fe958c76fa": 0.055,
 "4039d4aeace6": 0.077,
 "438592885e7f": 0.024,
 "463b146885ed": 0.046,
+"47ccde87e6c6": 0.031,
 "47f4e895f04e": 0.121,
-"49596ef50b4f": 0.372,
+"49596ef50b4f": 0.643,
 "4ae6fb7a939f": 0.154,
 "4c6a9d381ba2": 0.234,
-"57ba8dee9540": 0.446,
+"57ba8dee9540": 0.491,
+"582803f9d346": 0.01,
 "59f8cf01b223": 0.023,
-"5f27a813a034": 0.989,
+"5f27a813a034": 0.895,
 "5fa5aea6e1e7": 0.075,
 "642e115e6b7c": 0.063,
 "6781dc3860f9": 0.157,
-"67a68ae532ad": 0.909,
-"682d9b0c6f41": 0.036,
+"67a68ae532ad": 0.955,
 "68f2f482624c": 0.046,
 "6f48e103f3e2": 0.079,
 "707610e001e7": 0.1,
 "79eb5c3d2ceb": 0.089,
+"82029b1ee4db": 0.032,
 "a0c2097687e1": 0.251,
-"a9422d4ba28e": 0.302,
 "ae24d6596da7": 0.034,
-"c3450d7e70ae": 0.083,
 "c3a2341f03e7": 0.042,
-"caabce0fddc5": 0.143,
+"caabce0fddc5": 0.467,
 "cb1f72831fec": 0.049,
-"d1dcccc1a801": 0.044,
 "d2f75a0fcbba": 0.903,
 "d7623dfe5404": 0.819,
 "daa7c26db82e": 0.024,
 "dc180e90cad9": 0.087,
 "e595180cabae": 0.09,
-"f3cf99b70a3b": 0.069,
 "f51047e2eb7b": 0.099,
 "f62a95d7dcd2": 0.088,
 "fcd5a31e145b": 0.037
@@ -5796,65 +5761,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"5f27a813a034",
-53,
-12,
-2
-],
-[
 "67a68ae532ad",
 16,
-11,
+22,
 1
 ],
 [
 "d2f75a0fcbba",
-17,
-293,
+16,
+303,
 1
 ],
 [
+"5f27a813a034",
+53,
+23,
+2
+],
+[
 "d7623dfe5404",
-63,
-346,
+62,
+356,
 5
 ],
 [
 "8cb04923ec29",
-8,
-255,
+7,
+266,
 1
+],
+[
+"49596ef50b4f",
+29,
+294,
+3
 ],
 [
 "c72525c508e3",
 0,
-315,
-1
-],
-[
-"426b05a8540f",
-7,
-251,
+325,
 1
 ],
 [
 "57ba8dee9540",
-21,
-251,
-2
+30,
+261,
+3
 ],
 [
-"49596ef50b4f",
-41,
-284,
-4
+"caabce0fddc5",
+60,
+143,
+3
 ],
 [
-"16d40d2318b3",
-18,
-68,
+"426b05a8540f",
+6,
+261,
 1
 ]
 ],
-"top_at": 1795691611.4730413
+"top_at": 1795692223.2756462
 }
