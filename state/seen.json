@@ -357,20 +357,20 @@
 "urls": []
 },
 "250e36740155": {
-"coin": "hyperliquid",
-"src": "OneBullEx",
+"coin": "",
+"src": "TradingView",
 "srcs": [
 "Altcoin Buzz",
 "Cointelegraph",
-"Crypto Briefing",
 "Crypto Economy",
-"Crypto News"
+"Crypto News",
+"Dosya Haber"
 ],
-"t": 1795736141.3312507,
+"t": 1795736754.59503,
 "t0": 1795716800.0,
 "tgtext": "",
-"title": "Ali Martinez Names Hyperliquid, Pepe, And Stacks As Altcoins Holding Key Fibonacci Levels After Binance Hack",
-"url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW0xTVRQUFViQXlMalBiSndWYnRBNVF3VFVISUc4OVNoUl9mTVAxRnVMc3ZkQk51RHEtVzVfX1VDdVlXcmd4QWlYQTd4RzlxZWxVNUpuS1NZNEhnSmF4RjVjdVVVcXhVaEYtVk1aRWZvUEpFMFo5MnExRDBBdzdtS3N6NGl3X2gyam5HRFRXSVU0MXdXMWRUOElfTkx4MmNmcGU2STB2MFZDMTJXRU9ZT1pTalNpcU9jUHdHMG5ZcXczMHpsZ2VROFRzd3kzRkxmVW5GMzdYcV9xLW1fN2xF?oc=5",
+"title": "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
+"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamRPQnZtZGczYnh0dXpWTFFvQXJRWnNPNmt0MkRsYlQwTjU1WHlJOEtYVFBVOEFVZWNXc3pxTnd0eGMwT3NYMTNEUDhjeWdTQkVuQkYxM3p1bzh4T0ZEelV1R0M4MmVkMDkxU3N2aC00SlRJUXN2c3BRdVBfQTVIMVRVM1VXMmJWSnRaYlZLNkNHanJCbzZaUUM2ZUIxTHBRZV9wNUhMYW0yTi1WcGRkakJqZGFkeTlKRlQzQWVmUlBIdk9xYVlFOFhTRTF5NjhFdTU3WERTWkQ3QmdfeTU1Vk1mR1gydlNpUUE?oc=5",
 "urls": [
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -861,23 +861,6 @@
 "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
-"47f01fa5103c": {
-"coin": "",
-"src": "CoinDesk",
-"srcs": [
-"CoinDesk",
-"Cointelegraph"
-],
-"t": 1795563719.807601,
-"t0": 1795542608.0,
-"tgtext": "",
-"title": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
-"url": "https://www.coindesk.com/policy/2026/11/24/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
-"urls": [
-"https://www.coindesk.com/policy/2026/11/24/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
-"https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "47f4e895f04e": {
 "coin": "bitcoin",
 "src": "FinanceFeeds",
@@ -1207,7 +1190,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1795736141.3312507,
+"t": 1795736754.59503,
 "t0": 1795730400.0,
 "tgtext": "",
 "title": "A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call",
@@ -1309,7 +1292,7 @@
 "srcs": [
 "AllHipHop"
 ],
-"t": 1795736141.3312507,
+"t": 1795736754.59503,
 "t0": 1795721917.0,
 "tgtext": "",
 "title": "N3on Impersonator Gets 47 Months In $260,000 Crypto Fraud",
@@ -1520,7 +1503,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795735836.7068112,
+"t": 1795736754.59503,
 "t0": 1795723518.0,
 "tgtext": "",
 "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
@@ -1571,7 +1554,7 @@
 "srcs": [
 "Coinpedia"
 ],
-"t": 1795734609.7777362,
+"t": 1795736754.59503,
 "t0": 1795725231.0,
 "tgtext": "",
 "title": "Bitcoin Miners Just Hit Capitulation as BTC Falls $26K Below Production Cost",
@@ -2063,7 +2046,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795736141.3312507,
+"t": 1795736754.59503,
 "t0": 1795728585.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX $SPCX stock to every child in America every year.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX SPCX stock to every child in America every year.",
@@ -2138,7 +2121,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795736141.3312507,
+"t": 1795736754.59503,
 "t0": 1795727633.0,
 "tgtext": "",
 "title": "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase",
@@ -2297,6 +2280,19 @@
 "https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study"
 ]
 },
+"a3f551f6200b": {
+"coin": "bitcoin",
+"src": "Crypto Headlines",
+"srcs": [
+"Crypto Headlines"
+],
+"t": 1795736754.59503,
+"t0": 1795725014.0,
+"tgtext": "\ud83e\udd28 Deribit: 27 \u043d\u043e\u044f\u0431\u0440\u044f \u0441\u043e\u0441\u0442\u043e\u0438\u0442\u0441\u044f \u044d\u043a\u0441\u043f\u0438\u0440\u0430\u0446\u0438\u044f \u043f\u043e\u0447\u0442\u0438 \u043d\u0430 $7,500,000,000 \u0432 \u043e\u043f\u0446\u0438\u043e\u043d\u0430\u0445 \u043d\u0430 BTC \u0438 ETH.\n\nCrypto Headlines",
+"title": "Deribit: 27 \u043d\u043e\u044f\u0431\u0440\u044f \u0441\u043e\u0441\u0442\u043e\u0438\u0442\u0441\u044f \u044d\u043a\u0441\u043f\u0438\u0440\u0430\u0446\u0438\u044f \u043f\u043e\u0447\u0442\u0438 \u043d\u0430 $7,500,000,000 \u0432 \u043e\u043f\u0446\u0438\u043e\u043d\u0430\u0445 \u043d\u0430 BTC \u0438 ETH.",
+"url": "https://t.me/crypto_hd/32966",
+"urls": []
+},
 "a5728023b855": {
 "coin": "",
 "src": "Cointelegraph",
@@ -2321,6 +2317,19 @@
 "tgtext": "Introducing Lowered Binance U.S. Stock Trading Fees With VIP Tiers - 2026-11-25\n\n\nTo further optimize the stock trading experience, Binance will adjust the Spread Fee and Platform Fee for stock trading starting from 2026-11-25 08:00 (UTC).\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Introducing Lowered Binance U.S. Stock Trading Fees With VIP Tiers - 2026-11-25",
 "url": "https://t.me/binance_announcements/9161",
+"urls": []
+},
+"a7482c542d1b": {
+"coin": "bitcoin",
+"src": "TradingView",
+"srcs": [
+"TradingView"
+],
+"t": 1795736754.59503,
+"t0": 1795723529.0,
+"tgtext": "",
+"title": "Stacks Labs is researching a way to borrow against Bitcoin without handing it over",
+"url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpPbEJkVlA5UDZpd2lCMm83ejhQMzhrNVpMVGZTRTVHQWhad0xOTDZ5TVd3LWNqQ09lenBOb2NBSVFIN1V5Y3plaVNUVE9GSXd6Ykt3YlFvMV9YeDlWMEc4Y2RoSzhUdGo5N1lsd2E2NW02UllDZzdqS2I3b3kzZ2lBRnRiMFlqLUxLVndjYWxhck9BbmQ3bmY5Mk5rSFM4SkZsekE0Rk82aU1jZGdReDYwNTlKcTE4aXp3R0txZnVjNWxTZmJuN1RySGNaUFFZQ19OMmZnb3ZReTlaS18yUw?oc=5",
 "urls": []
 },
 "a9422d4ba28e": {
@@ -2453,24 +2462,6 @@
 "title": "Ansem says multimillion-dollar token dump was caused by hack",
 "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcWZod0VrVTljTEc2LWFhNFlFakdhYnpDdkZ0ZE1tcXloeHpJaV94SVVRdmZvUTV3OS1xcXdWV2FPUjFNSGU5Njl6R3kzRGNFVHRPNjMxNklIZm05TFNTdmVZMTVXeVY1ZUozRjRWYk5tNEJMVXJwT3dMSnVIYnlUU0JvTkVsaWpfSHpYT2dYc0hJQkJUYTg1TlhReDQ2MGs?oc=5",
 "urls": []
-},
-"b3091bc1b5b5": {
-"coin": "",
-"src": "CryptoSlate",
-"srcs": [
-"CryptoSlate",
-"Decrypt",
-"The Crypto Times"
-],
-"t": 1795563719.807601,
-"t0": 1795542183.0,
-"tgtext": "",
-"title": "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions",
-"url": "https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/",
-"urls": [
-"https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach",
-"https://cryptoslate.com/ansem-claims-wallet-hack-after-a-87-million-ansem-token-dump-but-on-chain-data-raises-questions/"
-]
 },
 "b37664220d94": {
 "coin": "bitcoin",
@@ -2768,6 +2759,22 @@
 "title": "Jim Cramer says it's \"time\" to buy.",
 "url": "https://t.me/WatcherGuru/16317",
 "urls": []
+},
+"c0802f855fa5": {
+"coin": "bitcoin",
+"src": "The Economic Times",
+"srcs": [
+"CryptoSlate",
+"The Economic Times"
+],
+"t": 1795736449.7037437,
+"t0": 1795721423.0,
+"tgtext": "",
+"title": "Bitcoin price prediction 2027: BTC USD today rebounds above $60,000 after crashing to $57,500 - can the la",
+"url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPYmVHMkRLajNTLU5mS1hJTWdqZHpOVkFXSERRLW9GVTNrRFQ5NkkzT3FIZ0I5SUlmc2dXVGFBXy1kelFYdVpFbTlTTC1QMzB2THhQaUg5WDFFcnNRMHRaUGpsamFmWDdLbzZvYnBvc2l2SnBfaWF5OWVWa2VaNkgtM2JNeUg3SWR3ODFtRmg0cWJlU19XTnhBb2dsZUdSM19OaTV0aEZyZ2tvQkZHaXkxb2pKU1RGdFdDZ1g5VTRodm1JY1Mxb1E1X3MzbC1MUXhZeUdvR1RNMElhck51amhvXzJGckd1T0tMdU5zRFpZZy1LaUNOUjFhXzZENW5OMUtWaHE0Ti00c1RRMzB1NjFJVHVzWFdqMEFkUHJfenJsRlZGYUY0WUZ0QnQ3ZjVNaXYzbUJqcFVrbm5yNkpyc0NQSDZEQmtoZ3hUaWpRcFlSSGF3SFVfUDhfZFVQOFZqMHBiZ25DU2l0YTTSAeICQVVfeXFMT09adWpZbEMxN3dUcXlFaDdxOVY3aUJ6amFjazdXeFR3UWFMMlJ0OGZ2VDBacFRnTVQ0WEg5SWxaVFpuMnBqbWRTLUxiUU13Q1FLYzdObWFjQWxnMnRxcTE1SktTdUM4MHlpVWQ3QVh0djdQOHhmcERleGdxYmxQR0tDZHNOMWRGRVlIb3RfMnc3VUd6UTBuZWtTQXdwdmpRbk5IeFBGSHRjbmc2bjRjUXF2WFY0QklwLVIyM0h2Y1BiMl9DeExzUUV3aXZWWUVKbGwxTnhCX1lRS3F6TDRUZFRFdUJyUXhsOUE4VDhvQ1dCM3FDYWd0aF9XbkwtX2Vna2lQTEdsV0NOUGZfb0ZOSXZXeVpBR3F3c2liZnlUMmptYTRTQUl0Ti1HOWFiUGtCRVNWRUJaOFVacnNEVEgtRjZYUTRFMzNmc3ZuLWlWSU9ZaTh0OFMtR1FPcEs2UlJ2ejN3?oc=5",
+"urls": [
+"https://cryptoslate.com/bitcoins-60000-recovery-masks-a-growing-threat-that-could-push-its-price-as-low-as-29000/"
+]
 },
 "c0e6793ac900": {
 "coin": "",
@@ -3090,7 +3097,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1795736141.3312507,
+"t": 1795736449.7037437,
 "t0": 1795724060.0,
 "tgtext": "",
 "title": "Michael Saylor\u2019s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet",
@@ -3150,19 +3157,6 @@
 "tgtext": "A whale deposited 47,501 $ZEC($35.8M) into #Binance over the past 12 hours.\n\nhttps://arkm.com/explorer/address/t1bMwm4ymfWtYvtTsBiJSSRPS9xUpMWDdb4",
 "title": "A whale deposited 47,501 ZEC($35.8M) into Binance over the past 12 hours.",
 "url": "https://t.me/lookonchainchannel/11291",
-"urls": []
-},
-"d34e9c9768fc": {
-"coin": "bitcoin",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795563412.5036232,
-"t0": 1795541962.0,
-"tgtext": "JUST IN: 60% chance Bitcoin falls below $55,000 before the end of this year.\n\n@WatcherGuru",
-"title": "60% chance Bitcoin falls below $55,000 before the end of this year.",
-"url": "https://t.me/WatcherGuru/16315",
 "urls": []
 },
 "d3965c556ac4": {
@@ -3604,7 +3598,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795735836.7068112,
+"t": 1795736754.59503,
 "t0": 1795729363.0,
 "tgtext": "",
 "title": "BNB Chain details new layer-1 for trading, private finance and AI",
@@ -4024,15 +4018,15 @@
 },
 "probs": {
 "072223e4378c": 0.017,
+"0d66ca5e1582": 0.04,
 "13feaf2f89ec": 0.011,
+"2052bb631299": 0.042,
 "20740f66d9e5": 0.017,
 "2482abcee4ad": 0.015,
-"250e36740155": 0.675,
-"276d411c7b25": 0.008,
-"378b3f8b5b29": 0.036,
-"465679e94feb": 0.045,
+"250e36740155": 0.836,
+"465679e94feb": 0.019,
 "48901c1df67d": 0.042,
-"4ae69f827d75": 0.084,
+"4d64bbf88816": 0.023,
 "4ef0ddef68c5": 0.019,
 "52e6aa61938e": 0.014,
 "5807c5328a7c": 0.012,
@@ -4040,28 +4034,28 @@
 "5ee2dfdb2bd1": 0.016,
 "60670fb6ffd2": 0.088,
 "61a0a6894125": 0.036,
+"691cee88e90d": 0.026,
 "6fa0d13c4f5b": 0.054,
-"71b9391c0e1b": 0.051,
+"71b9391c0e1b": 0.064,
 "78f7a83e386d": 0.036,
 "802dff21b2e9": 0.012,
+"84b8ac80c1fe": 0.025,
 "85d9795b165f": 0.008,
 "8d79b819ff03": 0.106,
 "8fcd1ce94a55": 0.009,
 "93b77a109498": 0.061,
-"9a891e774ec6": 0.04,
 "9f47a6d4a799": 0.015,
 "9fbf62824a21": 0.021,
-"a3f551f6200b": 0.044,
+"a3f551f6200b": 0.055,
 "a7482c542d1b": 0.048,
 "a82772c0cc10": 0.016,
 "b75a06fc4dfc": 0.047,
-"d05a91ffb818": 0.175,
+"d05a91ffb818": 0.044,
 "d0c80f752339": 0.021,
-"d8984aa5c4d3": 0.137,
-"de818bf8abfc": 0.01,
+"dc1649455628": 0.017,
 "e04d466ba224": 0.02,
 "e7075033426d": 0.056,
-"ec8f4d9bd7c7": 0.083,
+"f2330c755244": 0.02,
 "fa0e3c709d62": 0.015
 },
 "sent": [
@@ -5657,64 +5651,64 @@
 "top": [
 [
 "250e36740155",
-67,
-322,
-13
-],
-[
-"d05a91ffb818",
-41,
-201,
-1
-],
-[
-"d8984aa5c4d3",
-48,
-149,
-1
+65,
+333,
+9
 ],
 [
 "8d79b819ff03",
 18,
-126,
+136,
 1
 ],
 [
 "60670fb6ffd2",
-21,
-237,
+20,
+247,
 1
 ],
 [
-"807bc0da25bb",
-0,
-357,
-1
-],
-[
-"4ae69f827d75",
-24,
-40,
-1
-],
-[
-"ec8f4d9bd7c7",
-42,
-125,
+"71b9391c0e1b",
+9,
+192,
 1
 ],
 [
 "5b770edabd40",
 26,
-96,
+106,
 1
 ],
 [
 "93b77a109498",
 18,
-142,
+152,
+1
+],
+[
+"e7075033426d",
+10,
+123,
+1
+],
+[
+"a3f551f6200b",
+8,
+196,
+1
+],
+[
+"6fa0d13c4f5b",
+5,
+221,
+1
+],
+[
+"a7482c542d1b",
+5,
+220,
 1
 ]
 ],
-"top_at": 1795736141.3312507
+"top_at": 1795736754.59503
 }
