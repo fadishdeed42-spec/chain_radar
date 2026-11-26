@@ -357,20 +357,20 @@
 "urls": []
 },
 "250e36740155": {
-"coin": "",
-"src": "TradingView",
+"coin": "hyperliquid",
+"src": "OneBullEx",
 "srcs": [
 "Altcoin Buzz",
 "Cointelegraph",
+"Crypto Briefing",
 "Crypto Economy",
-"Crypto News",
-"Dosya Haber"
+"Crypto News"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795716800.0,
 "tgtext": "",
-"title": "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
-"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamRPQnZtZGczYnh0dXpWTFFvQXJRWnNPNmt0MkRsYlQwTjU1WHlJOEtYVFBVOEFVZWNXc3pxTnd0eGMwT3NYMTNEUDhjeWdTQkVuQkYxM3p1bzh4T0ZEelV1R0M4MmVkMDkxU3N2aC00SlRJUXN2c3BRdVBfQTVIMVRVM1VXMmJWSnRaYlZLNkNHanJCbzZaUUM2ZUIxTHBRZV9wNUhMYW0yTi1WcGRkakJqZGFkeTlKRlQzQWVmUlBIdk9xYVlFOFhTRTF5NjhFdTU3WERTWkQ3QmdfeTU1Vk1mR1gydlNpUUE?oc=5",
+"title": "Ali Martinez Names Hyperliquid, Pepe, And Stacks As Altcoins Holding Key Fibonacci Levels After Binance Hack",
+"url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW0xTVRQUFViQXlMalBiSndWYnRBNVF3VFVISUc4OVNoUl9mTVAxRnVMc3ZkQk51RHEtVzVfX1VDdVlXcmd4QWlYQTd4RzlxZWxVNUpuS1NZNEhnSmF4RjVjdVVVcXhVaEYtVk1aRWZvUEpFMFo5MnExRDBBdzdtS3N6NGl3X2gyam5HRFRXSVU0MXdXMWRUOElfTkx4MmNmcGU2STB2MFZDMTJXRU9ZT1pTalNpcU9jUHdHMG5ZcXczMHpsZ2VROFRzd3kzRkxmVW5GMzdYcV9xLW1fN2xF?oc=5",
 "urls": [
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -980,7 +980,7 @@
 "srcs": [
 "Crypto Economy"
 ],
-"t": 1795733996.2142,
+"t": 1795736141.3312507,
 "t0": 1795733744.0,
 "tgtext": "",
 "title": "Injective Pushes SEC to Approve Onchain Order Books for Tokenized U.S. Stocks",
@@ -1207,7 +1207,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795730400.0,
 "tgtext": "",
 "title": "A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call",
@@ -1309,7 +1309,7 @@
 "srcs": [
 "AllHipHop"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795721917.0,
 "tgtext": "",
 "title": "N3on Impersonator Gets 47 Months In $260,000 Crypto Fraud",
@@ -1520,7 +1520,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795735528.1815681,
+"t": 1795735836.7068112,
 "t0": 1795723518.0,
 "tgtext": "",
 "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
@@ -1803,7 +1803,7 @@
 "srcs": [
 "Brave New Coin"
 ],
-"t": 1795734914.684801,
+"t": 1795736141.3312507,
 "t0": 1795714747.0,
 "tgtext": "",
 "title": "Bitcoin (BTC) Price Today: Whale Selling Near $60K Adds to Glassnode's Warning for Wall Street",
@@ -2063,7 +2063,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795728585.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX $SPCX stock to every child in America every year.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX SPCX stock to every child in America every year.",
@@ -2138,7 +2138,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795727633.0,
 "tgtext": "",
 "title": "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase",
@@ -3090,7 +3090,7 @@
 "srcs": [
 "TradingView"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795724060.0,
 "tgtext": "",
 "title": "Michael Saylor\u2019s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet",
@@ -3275,28 +3275,13 @@
 "url": "https://t.me/wublockchainenglish/26952",
 "urls": []
 },
-"d7f1f6e1419d": {
-"coin": "bitcoin",
-"src": "Pluang",
-"srcs": [
-"BigGo Finance",
-"Crypto News",
-"Pluang"
-],
-"t": 1795562801.98095,
-"t0": 1795550985.0,
-"tgtext": "",
-"title": "21Shares flags Bitcoin's $53,250 realized price as key support amid ETF outflows and liquidations.",
-"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT3lKVWsyb0dwM2FfUTIxaDhVanEtdUZsMUlHWV9ITEF2a2FweW1DNllMZk8zdnBVV2UzZGJKdjg5YTJpNm1GVHF4bEU2ZGc1b0ctUi1XZjFFbU4zNk9td3BIRWlvSjVYbzktNnZTTDBsTWN5NWRtaEpMVlF6Qkpscw?oc=5",
-"urls": []
-},
 "d8984aa5c4d3": {
 "coin": "zcash",
 "src": "CoinMarketCap",
 "srcs": [
 "CoinMarketCap"
 ],
-"t": 1795735528.1815681,
+"t": 1795736141.3312507,
 "t0": 1795727190.0,
 "tgtext": "",
 "title": "Zcash (ZEC) Drops 3.59% Amid Whale Deposits, Liquidations",
@@ -3619,7 +3604,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795735528.1815681,
+"t": 1795735836.7068112,
 "t0": 1795729363.0,
 "tgtext": "",
 "title": "BNB Chain details new layer-1 for trading, private finance and AI",
@@ -3730,6 +3715,19 @@
 "tgtext": "Highlight Clip: Arthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity\n\nArthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that excessive AI investment and capital misallocation could trigger a global crisis resembling 1929. Asked about a forecast of Bitcoin falling to $10,000, Hayes said that outcome is possible if governments choose austerity and allow credit to contract. However, he expects policymakers to print money and reinflate asset prices, leaving debt problems to future administrations. He sees inflation as less painful than clearing out bad credit, a view underpinning his bullish stance on Bitcoin and gold.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity",
 "url": "https://t.me/wublockchainenglish/26954",
+"urls": []
+},
+"ec8f4d9bd7c7": {
+"coin": "bitcoin",
+"src": "CoinMarketCap",
+"srcs": [
+"CoinMarketCap"
+],
+"t": 1795736141.3312507,
+"t0": 1795728623.0,
+"tgtext": "",
+"title": "Crypto News Today: DOJ Scam Sweep Hits 800, Swiss BTC ETF Opens, Zodia Breached",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EaXl1ekJXOE81VVpKWTl1X1h3aTdwdHVJZmtvc3A0S2ljTXZwN2p0cFJwN1pFWEFaY0tic0czanJERmIyS2RiSktScGp4WWptRDkzOUFkOGl3c3lSTjJHYkxjdVdObVQ3SmREYUNCazdSTWxvaVE1MkFaRQ?oc=5",
 "urls": []
 },
 "ecb0be37c09e": {
@@ -4027,22 +4025,23 @@
 "probs": {
 "072223e4378c": 0.017,
 "13feaf2f89ec": 0.011,
-"2052bb631299": 0.042,
 "20740f66d9e5": 0.017,
-"250e36740155": 0.836,
+"2482abcee4ad": 0.015,
+"250e36740155": 0.675,
 "276d411c7b25": 0.008,
-"2b1ea48b711a": 0.169,
-"423e28a939cd": 0.012,
+"378b3f8b5b29": 0.036,
 "465679e94feb": 0.045,
 "48901c1df67d": 0.042,
-"4d64bbf88816": 0.023,
+"4ae69f827d75": 0.084,
+"4ef0ddef68c5": 0.019,
+"52e6aa61938e": 0.014,
 "5807c5328a7c": 0.012,
 "5b770edabd40": 0.063,
 "5ee2dfdb2bd1": 0.016,
 "60670fb6ffd2": 0.088,
 "61a0a6894125": 0.036,
 "6fa0d13c4f5b": 0.054,
-"721fec21c367": 0.019,
+"71b9391c0e1b": 0.051,
 "78f7a83e386d": 0.036,
 "802dff21b2e9": 0.012,
 "85d9795b165f": 0.008,
@@ -4054,16 +4053,15 @@
 "9fbf62824a21": 0.021,
 "a3f551f6200b": 0.044,
 "a7482c542d1b": 0.048,
-"aff76ea1b9f1": 0.027,
+"a82772c0cc10": 0.016,
 "b75a06fc4dfc": 0.047,
-"b9f96cfa4c59": 0.051,
 "d05a91ffb818": 0.175,
 "d0c80f752339": 0.021,
 "d8984aa5c4d3": 0.137,
-"dc1649455628": 0.017,
+"de818bf8abfc": 0.01,
 "e04d466ba224": 0.02,
 "e7075033426d": 0.056,
-"f2330c755244": 0.037,
+"ec8f4d9bd7c7": 0.083,
 "fa0e3c709d62": 0.015
 },
 "sent": [
@@ -5659,64 +5657,64 @@
 "top": [
 [
 "250e36740155",
-68,
-312,
-9
+67,
+322,
+13
 ],
 [
 "d05a91ffb818",
-42,
-191,
+41,
+201,
 1
-],
-[
-"2b1ea48b711a",
-15,
-355,
-3
 ],
 [
 "d8984aa5c4d3",
 48,
-139,
+149,
 1
 ],
 [
 "8d79b819ff03",
 18,
-116,
+126,
 1
 ],
 [
 "60670fb6ffd2",
-22,
-227,
+21,
+237,
+1
+],
+[
+"807bc0da25bb",
+0,
+357,
+1
+],
+[
+"4ae69f827d75",
+24,
+40,
+1
+],
+[
+"ec8f4d9bd7c7",
+42,
+125,
 1
 ],
 [
 "5b770edabd40",
 26,
-85,
+96,
 1
 ],
 [
 "93b77a109498",
 18,
-132,
-1
-],
-[
-"e7075033426d",
-10,
-103,
-1
-],
-[
-"6fa0d13c4f5b",
-8,
-200,
+142,
 1
 ]
 ],
-"top_at": 1795735528.1815681
+"top_at": 1795736141.3312507
 }
