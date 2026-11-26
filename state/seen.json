@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1795581972.2113385,
 1795585971.3006525,
 1795591646.22162,
 1795598384.8937256,
@@ -17,7 +16,8 @@
 1795625505.0288599,
 1795625808.421675,
 1795632891.7301338,
-1795658739.2706923
+1795658739.2706923,
+1795670564.9851964
 ],
 "menu": {
 "005064432d65": {
@@ -122,7 +122,7 @@
 "Wu Blockchain",
 "grafa.com"
 ],
-"t": 1795669606.651469,
+"t": 1795670260.8135967,
 "t0": 1795653177.0,
 "tgtext": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK\n\nFidelity has filed an S-1 registration statement with the SEC to launch a spot Chainlink ETF, expected to trade on Nasdaq under the ticker FLNK. The fund would hold LINK directly and track its price without staking or distributing staking rewards. Anchorage Digital Bank, BitGo and Coinbase Custody would serve as custodians, with share creations and redemptions available in LINK or cash.\n\nGrayscale and Bitwise already offer spot Chainlink ETFs in the U.S., with approximately $112 million and $42 million in assets under management, respectively, as of November 24. \u2014 link",
 "title": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK",
@@ -835,14 +835,18 @@
 "coin": "bitcoin",
 "src": "Wu Blockchain",
 "srcs": [
+"FXStreet",
+"The Block",
 "Wu Blockchain"
 ],
-"t": 1795660878.7052002,
+"t": 1795670564.9851964,
 "t0": 1795654482.0,
 "tgtext": "Galaxy Withdraws Bitcoin Bear Market Bottom Call, Citing Potential Downside to $48,500 or $28,200\n\nGalaxy Head of Firmwide Research Alex Thorn withdrew his October call that Bitcoin\u2019s bear market had ended in June, after BTC lost both its 50-week and 200-week moving averages. Galaxy noted that if Bitcoin closes below its June low of $58,525, all seven comparable historical bear market breakdowns saw further declines of at least 17%, with a median of 52%, implying potential lows of approximately $48,500 and $28,200, respectively. Only two of Galaxy\u2019s 13 bear market bottom indicators have been met. While the current bear market has already lasted longer than previous cycles, its drawdown remains considerably shallower. \u2014 link",
 "title": "Galaxy Withdraws Bitcoin Bear Market Bottom Call, Citing Potential Downside to $48,500 or $28,200",
 "url": "https://t.me/wublockchainenglish/26953",
-"urls": []
+"urls": [
+"https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-call-446786"
+]
 },
 "39dc1f521d8a": {
 "coin": "",
@@ -1006,7 +1010,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795665534.0,
 "tgtext": "CZ Urges 1Password Users to Change All Passwords After Security Breach\n\n1Password, a leading password management provider, disclosed a security breach in which attackers compromised an employee's corporate GitHub account, injected malicious code into backend systems and stole customer information, including names, email addresses, account identifiers and certain invitation and recovery tokens.\n\nAttackers also accessed private source code and the company's CI/CD system. 1Password said customer vaults, passwords and encryption keys remained secure, with no evidence of account takeovers. Binance founder CZ nevertheless urged users to change all their passwords, calling it \"a pain in the neck, but necessary.\" \u2014 link",
 "title": "CZ Urges 1Password Users to Change All Passwords After Security Breach",
@@ -1038,7 +1042,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670260.8135967,
 "t0": 1795660967.0,
 "tgtext": "U.S. Senators Push to Revoke SEC Exemptions for Tokenized Stock Platforms Including OKXICE\n\nAccording to journalist Eleanor Terrett, U.S. Democratic senators including Elizabeth Warren and Chris Van Hollen sent two letters to SEC Chair Paul Atkins urging the agency to revoke its five-year innovation exemption for tokenized securities trading platforms such as OKXICE and withdraw its proposed Regulation Crypto Assets framework.\n\nSeparately, the House Financial Services Committee formally reported an amended strategic Bitcoin reserve bill, placing it on the House calendar, though a floor vote remains unlikely before year-end. Senator Patty Murray also accused President Trump of selling access to the White House through a dinner for major TRUMP token holders. \u2014 link",
 "title": "U.S. Senators Push to Revoke SEC Exemptions for Tokenized Stock Platforms Including OKXICE",
@@ -1317,7 +1321,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795651887.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.",
@@ -1627,7 +1631,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795662178.0,
 "tgtext": "Even in a falling market, gambler \"0x069a\" keeps getting liquidated while shorting $BTC!\n\nSo far, he's had a total of 947.67 $BTC ($62.75M) liquidated, losing $8.76M in total!\n\nhttps://hypurrscan.io/address/0x069ad3d4dd1ca686ef78d065fbc6208fdcede58d#more\nhttps://app.hyperliquid.xyz/tradeHistory/0x069ad3d4dd1ca686ef78d065fbc6208fdcede58d",
 "title": "Even in a falling market, gambler \"0x069a\" keeps getting liquidated while shorting BTC!",
@@ -2251,7 +2255,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795664321.0,
 "tgtext": "Trader 0x5c80 on @Aster_DEX opened 20x longs on 100 $BTC ($6.07M) and 11,000 $ETH ($18.66M) at the market bottom 14 hours ago and is already up $828K in unrealized profit!\n\nhttps://www.asterdex.com/en/explorer/address/0x5c80Ff713F49aE5B8c02A9c3668233f88a183fFD",
 "title": "Trader 0x5c80 on @Aster_DEX opened 20x longs on 100 BTC ($6.07M) and 11,000 ETH ($18.66M) at the market bottom 14 hours ago and is already up $828K in unrealized profit!",
@@ -2358,7 +2362,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795658819.0,
 "tgtext": "Pump fun Targets Token Launch Manipulation With New Fee, Earmarks 50% for PUMP Buybacks\n\nPump fun co-founder Alon announced that the Solana-based memecoin launchpad will introduce a \"Block0 fee\" on December 4 for trades made by non-creator wallets in the same block as a token's launch. The measure aims to curb developers' use of multiple linked wallets to buy tokens early and conceal their actual holdings. Purchases made through the original creator wallet will be exempt. Half of the additional fee revenue will fund automated PUMP token buybacks and burns, with the remaining 50% allocated to ecosystem growth, trading rewards and platform development. \u2014 link",
 "title": "Pump fun Targets Token Launch Manipulation With New Fee, Earmarks 50% for PUMP Buybacks",
@@ -2371,7 +2375,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795665884.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Senator Elizabeth Warren and other Democrats urged the SEC to scrap its proposed \"Regulation Crypto Assets\" rule. \n\nThey also want it to withdraw exemptions for tokenized securities platforms, saying both weaken investor protections.\n\nNews | Markets | YouTube",
 "title": "Senator Elizabeth Warren and other Democrats urged the SEC to scrap its proposed \"Regulation Crypto Assets\" rule.",
@@ -2403,7 +2407,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795657480.0,
 "tgtext": "An #EthereumOG dumped 32,010 $ETH ($53.3M) over the past 9 hours!\n\nThis OG bought 100,000 $ETH during the ICO at just $0.31 each, spending only $31K.\n\nHe made a 5,372x return on this sale!\n\nhttps://arkm.com/explorer/address/0x0980B34aDE9476Dba81BCDB0F865a333793Ad1c2\nhttps://etherscan.io/address/0x6C67D6DB1d03516C128b8FF234bf3d49b26d2941",
 "title": "An EthereumOG dumped 32,010 ETH ($53.3M) over the past 9 hours!",
@@ -3752,7 +3756,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795669910.7259185,
+"t": 1795670564.9851964,
 "t0": 1795656528.0,
 "tgtext": "Whale 0x2aB3 dumped 17,183 $ETH for 28.68M $DAI at $1,669 just 8 hours ago.  https://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
 "title": "Whale 0x2aB3 dumped 17,183 ETH for 28.68M DAI at $1,669 just 8 hours ago. https://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
@@ -3931,6 +3935,19 @@
 "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVE1UWk5kZXltcm9ON2Zyd2VkRG5jVFVkU2hfaHNJZFpDU0FUTDdhenZhcTRtVGVWZkFuWDROMVFmNzY3QXNmYWhDcTl1eW1ZZmRQV2w4RUg3VnhqRUpWTGoyUTJPajBINVBqSUJKa0VVaGNpeTNKUVZIcm5KNGItRUxtMUtnWndYak56RmpFckVhWURIR19wX2YwN3BIbXF2R0oxRlRFQmkyMnAw?oc=5",
 "urls": []
 },
+"f200d96e229c": {
+"coin": "bitcoin",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795670564.9851964,
+"t0": 1795670415.0,
+"tgtext": "U.S. Bitcoin and Ether ETFs Shed $522 Million, Led by BlackRock\n\nAccording to SoSoValue, U.S. spot Bitcoin ETFs recorded $453 million in net outflows on November 25, led by BlackRock's IBIT with $330 million. Spot Ethereum ETFs saw $68.51 million in net outflows, with BlackRock's ETHA also recording $68.51 million in withdrawals. \u2014 link",
+"title": "U.S. Bitcoin and Ether ETFs Shed $522 Million, Led by BlackRock",
+"url": "https://t.me/wublockchainenglish/26958",
+"urls": []
+},
 "f28fea2da1b1": {
 "coin": "",
 "src": "The Block",
@@ -4082,13 +4099,13 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
-"063757084c2f": 0.136,
+"063757084c2f": 0.122,
 "0fefdf050e3f": 0.021,
 "1a61510fb34c": 0.045,
 "1b3c76d6a8e5": 0.03,
 "2252c5a19628": 0.093,
 "2c4c92c8a612": 0.03,
-"398d944643e9": 0.176,
+"398d944643e9": 0.588,
 "3fcb47724758": 0.667,
 "40dc966b858b": 0.028,
 "40fcf3202227": 0.559,
@@ -4109,15 +4126,17 @@
 "9eb59a8a1436": 0.032,
 "9fb945cabaa1": 0.007,
 "aa58d24b866b": 0.047,
+"c236d9ba915e": 0.087,
 "ca3cd64eb0aa": 0.347,
-"cc52a9f169f5": 0.113,
+"cc52a9f169f5": 0.139,
 "d71f4ece01ce": 0.51,
 "d9f3bed8c6f1": 0.019,
 "dea2f11ea53e": 0.058,
 "e9820f03eafe": 0.696,
 "e988076363be": 0.011,
 "ec764323ceff": 0.476,
-"ecb0be37c09e": 0.215,
+"ecb0be37c09e": 0.067,
+"f200d96e229c": 0.915,
 "f5bbd8651cc2": 0.128
 },
 "sent": [
@@ -5697,71 +5716,97 @@
 "services",
 "strategic"
 ]
+},
+{
+"e": [
+"blackrock",
+"ether",
+"led",
+"million",
+"shed"
+],
+"k": [
+"etf"
+],
+"t": 1795670564.9851964,
+"u": [
+"https://t.me/wublockchainenglish/26958"
+],
+"w": [
+"$522",
+"bitcoin",
+"blackrock",
+"etfs",
+"ether",
+"led",
+"million",
+"shed"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"f200d96e229c",
+24,
+2,
+1
+],
+[
 "95d0d5262ef8",
-23,
-207,
+21,
+218,
 1
 ],
 [
 "651991b6c993",
 25,
-129,
+140,
 1
 ],
 [
 "5154e7edd0e6",
-14,
-300,
+13,
+311,
 3
 ],
 [
 "e9820f03eafe",
-23,
-223,
+21,
+234,
 1
 ],
 [
 "3fcb47724758",
 43,
-73,
+84,
 1
 ],
 [
 "87f7856108c3",
 16,
-93,
+104,
 1
 ],
 [
 "93e4edcfc8af",
-25,
-185,
+23,
+196,
 1
+],
+[
+"398d944643e9",
+19,
+268,
+3
 ],
 [
 "946f7b0a7038",
 24,
-67,
-1
-],
-[
-"40fcf3202227",
-34,
-149,
-2
-],
-[
-"d71f4ece01ce",
-10,
-129,
+78,
 1
 ]
 ],
-"top_at": 1795669910.7259185
+"top_at": 1795670564.9851964
 }
