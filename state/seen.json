@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1795585971.3006525,
 1795591646.22162,
 1795598384.8937256,
 1795601453.0620627,
@@ -17,7 +16,8 @@
 1795625808.421675,
 1795632891.7301338,
 1795658739.2706923,
-1795670564.9851964
+1795670564.9851964,
+1795673014.247192
 ],
 "menu": {
 "005064432d65": {
@@ -118,11 +118,11 @@
 "srcs": [
 "BeInCrypto",
 "BigGo Finance",
-"TradingView",
-"Wu Blockchain",
-"grafa.com"
+"Cryptonews.net",
+"The Crypto Times",
+"Wu Blockchain"
 ],
-"t": 1795670260.8135967,
+"t": 1795672710.004384,
 "t0": 1795653177.0,
 "tgtext": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK\n\nFidelity has filed an S-1 registration statement with the SEC to launch a spot Chainlink ETF, expected to trade on Nasdaq under the ticker FLNK. The fund would hold LINK directly and track its price without staking or distributing staking rewards. Anchorage Digital Bank, BitGo and Coinbase Custody would serve as custodians, with share creations and redemptions available in LINK or cash.\n\nGrayscale and Bitwise already offer spot Chainlink ETFs in the U.S., with approximately $112 million and $42 million in assets under management, respectively, as of November 24. \u2014 link",
 "title": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK",
@@ -996,7 +996,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795665534.0,
 "tgtext": "CZ Urges 1Password Users to Change All Passwords After Security Breach\n\n1Password, a leading password management provider, disclosed a security breach in which attackers compromised an employee's corporate GitHub account, injected malicious code into backend systems and stole customer information, including names, email addresses, account identifiers and certain invitation and recovery tokens.\n\nAttackers also accessed private source code and the company's CI/CD system. 1Password said customer vaults, passwords and encryption keys remained secure, with no evidence of account takeovers. Binance founder CZ nevertheless urged users to change all their passwords, calling it \"a pain in the neck, but necessary.\" \u2014 link",
 "title": "CZ Urges 1Password Users to Change All Passwords After Security Breach",
@@ -1028,7 +1028,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795672402.1416674,
+"t": 1795672710.004384,
 "t0": 1795660967.0,
 "tgtext": "U.S. Senators Push to Revoke SEC Exemptions for Tokenized Stock Platforms Including OKXICE\n\nAccording to journalist Eleanor Terrett, U.S. Democratic senators including Elizabeth Warren and Chris Van Hollen sent two letters to SEC Chair Paul Atkins urging the agency to revoke its five-year innovation exemption for tokenized securities trading platforms such as OKXICE and withdraw its proposed Regulation Crypto Assets framework.\n\nSeparately, the House Financial Services Committee formally reported an amended strategic Bitcoin reserve bill, placing it on the House calendar, though a floor vote remains unlikely before year-end. Senator Patty Murray also accused President Trump of selling access to the White House through a dinner for major TRUMP token holders. \u2014 link",
 "title": "U.S. Senators Push to Revoke SEC Exemptions for Tokenized Stock Platforms Including OKXICE",
@@ -1292,7 +1292,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795666985.5897915,
+"t": 1795673014.247192,
 "t0": 1795658554.0,
 "tgtext": "Whales are accumulating $PEPE!\n\nMysterious whale 0x5011 keeps buying $PEPE, accumulating 5.15T $PEPE ($18.28M) over the past 8 days \u2014 1.22% of the total supply!\n\nAnother whale, 0x6246, also accumulated 868.16B $PEPE ($2.88M) 11 hours ago.\n\nhttps://arkm.com/explorer/address/0x50118fd0e3cA3117CcDccF180481524b45626C3F\nhttps://arkm.com/explorer/address/0x624698bb841f344A200Fe6AdB695E8fF695bCad7",
 "title": "Whales are accumulating PEPE!",
@@ -1307,7 +1307,7 @@
 "The Block",
 "Watcher.Guru"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795651887.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.",
@@ -1617,7 +1617,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795672402.1416674,
+"t": 1795672710.004384,
 "t0": 1795662178.0,
 "tgtext": "Even in a falling market, gambler \"0x069a\" keeps getting liquidated while shorting $BTC!\n\nSo far, he's had a total of 947.67 $BTC ($62.75M) liquidated, losing $8.76M in total!\n\nhttps://hypurrscan.io/address/0x069ad3d4dd1ca686ef78d065fbc6208fdcede58d#more\nhttps://app.hyperliquid.xyz/tradeHistory/0x069ad3d4dd1ca686ef78d065fbc6208fdcede58d",
 "title": "Even in a falling market, gambler \"0x069a\" keeps getting liquidated while shorting BTC!",
@@ -1725,7 +1725,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795659541.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump administration officials reportedly considered the Defense Production Act as a way to pressure Nvidia into reinstating Jensen Huang as CEO, per The Washington Post. \n\nThe Pentagon denies the talks took place.\n\nNews | Markets | YouTube",
 "title": "Trump administration officials reportedly considered the Defense Production Act as a way to pressure Nvidia into reinstating Jensen Huang as CEO, per The Washington Post.",
@@ -2254,7 +2254,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795664321.0,
 "tgtext": "Trader 0x5c80 on @Aster_DEX opened 20x longs on 100 $BTC ($6.07M) and 11,000 $ETH ($18.66M) at the market bottom 14 hours ago and is already up $828K in unrealized profit!\n\nhttps://www.asterdex.com/en/explorer/address/0x5c80Ff713F49aE5B8c02A9c3668233f88a183fFD",
 "title": "Trader 0x5c80 on @Aster_DEX opened 20x longs on 100 BTC ($6.07M) and 11,000 ETH ($18.66M) at the market bottom 14 hours ago and is already up $828K in unrealized profit!",
@@ -2361,7 +2361,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795672097.3093975,
+"t": 1795673014.247192,
 "t0": 1795658819.0,
 "tgtext": "Pump fun Targets Token Launch Manipulation With New Fee, Earmarks 50% for PUMP Buybacks\n\nPump fun co-founder Alon announced that the Solana-based memecoin launchpad will introduce a \"Block0 fee\" on December 4 for trades made by non-creator wallets in the same block as a token's launch. The measure aims to curb developers' use of multiple linked wallets to buy tokens early and conceal their actual holdings. Purchases made through the original creator wallet will be exempt. Half of the additional fee revenue will fund automated PUMP token buybacks and burns, with the remaining 50% allocated to ecosystem growth, trading rewards and platform development. \u2014 link",
 "title": "Pump fun Targets Token Launch Manipulation With New Fee, Earmarks 50% for PUMP Buybacks",
@@ -2374,7 +2374,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795665884.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Senator Elizabeth Warren and other Democrats urged the SEC to scrap its proposed \"Regulation Crypto Assets\" rule. \n\nThey also want it to withdraw exemptions for tokenized securities platforms, saying both weaken investor protections.\n\nNews | Markets | YouTube",
 "title": "Senator Elizabeth Warren and other Democrats urged the SEC to scrap its proposed \"Regulation Crypto Assets\" rule.",
@@ -2406,7 +2406,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795657480.0,
 "tgtext": "An #EthereumOG dumped 32,010 $ETH ($53.3M) over the past 9 hours!\n\nThis OG bought 100,000 $ETH during the ICO at just $0.31 each, spending only $31K.\n\nHe made a 5,372x return on this sale!\n\nhttps://arkm.com/explorer/address/0x0980B34aDE9476Dba81BCDB0F865a333793Ad1c2\nhttps://etherscan.io/address/0x6C67D6DB1d03516C128b8FF234bf3d49b26d2941",
 "title": "An EthereumOG dumped 32,010 ETH ($53.3M) over the past 9 hours!",
@@ -3742,7 +3742,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795672402.1416674,
+"t": 1795673014.247192,
 "t0": 1795656528.0,
 "tgtext": "Whale 0x2aB3 dumped 17,183 $ETH for 28.68M $DAI at $1,669 just 8 hours ago.  https://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
 "title": "Whale 0x2aB3 dumped 17,183 ETH for 28.68M DAI at $1,669 just 8 hours ago. https://arkm.com/explorer/address/0x2aB339Bb82F3dF18444C0214963d3E03AF820be5",
@@ -3820,6 +3820,20 @@
 "tgtext": "Highlight Clip: Arthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity\n\nArthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that excessive AI investment and capital misallocation could trigger a global crisis resembling 1929. Asked about a forecast of Bitcoin falling to $10,000, Hayes said that outcome is possible if governments choose austerity and allow credit to contract. However, he expects policymakers to print money and reinflate asset prices, leaving debt problems to future administrations. He sees inflation as less painful than clearing out bad credit, a view underpinning his bullish stance on Bitcoin and gold.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Bitcoin Could Fall to $10,000 if Governments Choose Austerity",
 "url": "https://t.me/wublockchainenglish/26954",
+"urls": []
+},
+"ecb0be37c09e": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Watcher.Guru"
+],
+"t": 1795673014.247192,
+"t0": 1795663787.0,
+"tgtext": "JUST IN: Banking giant HSBC's crypto stablecoin surpasses 100,000 users in its first month.\n\n@WatcherGuru\n\ud83c\udded\ud83c\uddf0 BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.\n\nNews | Markets | YouTube",
+"title": "BIG: HSBC's Hong Kong dollar-backed stablecoin RedCoin drew over 100,000 users in its first month after launch, per SCMP.",
+"url": "https://t.me/cointelegraph/73538",
 "urls": []
 },
 "ed26ebe9edd3": {
@@ -4085,46 +4099,46 @@
 "ethereum": 1795444347.8612816
 },
 "probs": {
-"063757084c2f": 0.409,
-"0fefdf050e3f": 0.021,
-"1a61510fb34c": 0.045,
-"1b3c76d6a8e5": 0.03,
-"2252c5a19628": 0.115,
-"23612c00d966": 0.012,
-"398d944643e9": 0.526,
-"3fcb47724758": 0.667,
-"40fcf3202227": 0.559,
-"47ccde87e6c6": 0.039,
-"50065ea6dd19": 0.351,
-"5154e7edd0e6": 0.848,
-"572c4e81232b": 0.038,
-"651991b6c993": 0.546,
-"6781dc3860f9": 0.032,
-"6d439733bbd1": 0.101,
-"6dd878d0e4af": 0.701,
-"719faad6281d": 0.119,
-"87f7856108c3": 0.614,
-"88c6d6a54852": 0.092,
-"8a1ddafaf619": 0.149,
-"93e4edcfc8af": 0.439,
-"946f7b0a7038": 0.579,
-"95d0d5262ef8": 0.718,
-"9eb59a8a1436": 0.032,
-"9fb945cabaa1": 0.005,
-"aa58d24b866b": 0.117,
-"be7e0e62ab96": 0.03,
-"ca3cd64eb0aa": 0.347,
-"cc52a9f169f5": 0.139,
-"d71f4ece01ce": 0.214,
-"d7623dfe5404": 0.2,
-"d9f3bed8c6f1": 0.019,
-"e9820f03eafe": 0.549,
-"e988076363be": 0.011,
-"ec764323ceff": 0.476,
-"ecb0be37c09e": 0.067,
-"f200d96e229c": 0.363,
-"f5bbd8651cc2": 0.128,
-"fbfda7c38d72": 0.037
+"063757084c2f": 0.395,
+"0fefdf050e3f": 0.02,
+"1a61510fb34c": 0.043,
+"1b3c76d6a8e5": 0.028,
+"2252c5a19628": 0.11,
+"23612c00d966": 0.011,
+"398d944643e9": 0.512,
+"3fcb47724758": 0.654,
+"40fcf3202227": 0.545,
+"47ccde87e6c6": 0.037,
+"50065ea6dd19": 0.662,
+"5154e7edd0e6": 0.84,
+"572c4e81232b": 0.036,
+"651991b6c993": 0.532,
+"6781dc3860f9": 0.03,
+"6d439733bbd1": 0.096,
+"6dd878d0e4af": 0.689,
+"719faad6281d": 0.114,
+"756dad605382": 0.014,
+"78f7a83e386d": 0.063,
+"87f7856108c3": 0.6,
+"88c6d6a54852": 0.087,
+"93e4edcfc8af": 0.739,
+"946f7b0a7038": 0.566,
+"95d0d5262ef8": 0.902,
+"9eb59a8a1436": 0.03,
+"9fb945cabaa1": 0.006,
+"aa58d24b866b": 0.111,
+"be7e0e62ab96": 0.029,
+"c236d9ba915e": 0.194,
+"ca3cd64eb0aa": 0.334,
+"cc52a9f169f5": 0.132,
+"d71f4ece01ce": 0.204,
+"d7623dfe5404": 0.378,
+"d9f3bed8c6f1": 0.018,
+"e9820f03eafe": 0.816,
+"ecb0be37c09e": 0.984,
+"f200d96e229c": 0.35,
+"f5bbd8651cc2": 0.122,
+"fbfda7c38d72": 0.035
 },
 "sent": [
 {
@@ -5729,71 +5743,106 @@
 "million",
 "shed"
 ]
+},
+{
+"e": [
+"big",
+"hong",
+"hsbc",
+"kong",
+"redcoin",
+"scmp"
+],
+"k": [],
+"t": 1795673014.247192,
+"u": [
+"https://t.me/WatcherGuru/16352",
+"https://t.me/cointelegraph/73538"
+],
+"w": [
+"000",
+"100",
+"backed",
+"big",
+"dollar",
+"drew",
+"first",
+"hong",
+"hsbc",
+"kong",
+"launch",
+"month",
+"per",
+"redcoin",
+"scmp",
+"stablecoin",
+"users"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"5154e7edd0e6",
-9,
-342,
-3
+"ecb0be37c09e",
+20,
+154,
+2
 ],
 [
 "95d0d5262ef8",
-17,
-249,
+16,
+259,
+1
+],
+[
+"5154e7edd0e6",
+8,
+352,
+3
+],
+[
+"e9820f03eafe",
+16,
+275,
+1
+],
+[
+"93e4edcfc8af",
+18,
+237,
 1
 ],
 [
 "6dd878d0e4af",
-14,
-214,
+13,
+225,
+1
+],
+[
+"50065ea6dd19",
+10,
+241,
 1
 ],
 [
 "3fcb47724758",
 43,
-114,
+125,
 1
 ],
 [
 "87f7856108c3",
 16,
-135,
+145,
 1
 ],
 [
 "946f7b0a7038",
 24,
-109,
+119,
 1
-],
-[
-"40fcf3202227",
-33,
-191,
-2
-],
-[
-"e9820f03eafe",
-17,
-265,
-1
-],
-[
-"651991b6c993",
-25,
-170,
-1
-],
-[
-"398d944643e9",
-5,
-299,
-2
 ]
 ],
-"top_at": 1795672402.1416674
+"top_at": 1795673014.247192
 }
