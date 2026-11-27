@@ -32,19 +32,6 @@
 "url": "https://t.me/cointelegraph/73519",
 "urls": []
 },
-"0052e4b58051": {
-"coin": "",
-"src": "Watcher.Guru",
-"srcs": [
-"Watcher.Guru"
-],
-"t": 1795567819.3751888,
-"t0": 1795546253.0,
-"tgtext": "JUST IN: Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.\n\n@WatcherGuru",
-"title": "Binance's tokenized stock platform 'bStocks' surpasses $1,300,000,000 assets under management.",
-"url": "https://t.me/WatcherGuru/16318",
-"urls": []
-},
 "00a7b77def28": {
 "coin": "tether",
 "src": "Gadgets 360",
@@ -962,7 +949,7 @@
 "srcs": [
 "Crypto Economy"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795733744.0,
 "tgtext": "",
 "title": "Injective Pushes SEC to Approve Onchain Order Books for Tokenized U.S. Stocks",
@@ -1136,20 +1123,20 @@
 ]
 },
 "5541d1149082": {
-"coin": "hyperliquid",
-"src": "OneBullEx",
+"coin": "",
+"src": "TradingView",
 "srcs": [
 "Cointelegraph",
-"Crypto Briefing",
 "Crypto Economy",
 "Crypto News",
-"Dosya Haber"
+"Dosya Haber",
+"Latest news from Azerbaijan"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795720956.0,
 "tgtext": "",
-"title": "Ali Martinez Names Hyperliquid, Pepe, And Stacks As Altcoins Holding Key Fibonacci Levels After Binance Hack",
-"url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW0xTVRQUFViQXlMalBiSndWYnRBNVF3VFVISUc4OVNoUl9mTVAxRnVMc3ZkQk51RHEtVzVfX1VDdVlXcmd4QWlYQTd4RzlxZWxVNUpuS1NZNEhnSmF4RjVjdVVVcXhVaEYtVk1aRWZvUEpFMFo5MnExRDBBdzdtS3N6NGl3X2gyam5HRFRXSVU0MXdXMWRUOElfTkx4MmNmcGU2STB2MFZDMTJXRU9ZT1pTalNpcU9jUHdHMG5ZcXczMHpsZ2VROFRzd3kzRkxmVW5GMzdYcV9xLW1fN2xF?oc=5",
+"title": "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
+"url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamRPQnZtZGczYnh0dXpWTFFvQXJRWnNPNmt0MkRsYlQwTjU1WHlJOEtYVFBVOEFVZWNXc3pxTnd0eGMwT3NYMTNEUDhjeWdTQkVuQkYxM3p1bzh4T0ZEelV1R0M4MmVkMDkxU3N2aC00SlRJUXN2c3BRdVBfQTVIMVRVM1VXMmJWSnRaYlZLNkNHanJCbzZaUUM2ZUIxTHBRZV9wNUhMYW0yTi1WcGRkakJqZGFkeTlKRlQzQWVmUlBIdk9xYVlFOFhTRTF5NjhFdTU3WERTWkQ3QmdfeTU1Vk1mR1gydlNpUUE?oc=5",
 "urls": [
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
@@ -1208,7 +1195,7 @@
 "srcs": [
 "Yahoo Finance"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795730400.0,
 "tgtext": "",
 "title": "A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call",
@@ -1525,7 +1512,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795737676.1796224,
+"t": 1795740743.4476826,
 "t0": 1795723518.0,
 "tgtext": "",
 "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
@@ -1576,7 +1563,7 @@
 "srcs": [
 "Coinpedia"
 ],
-"t": 1795740435.1713085,
+"t": 1795740743.4476826,
 "t0": 1795725231.0,
 "tgtext": "",
 "title": "Bitcoin Miners Just Hit Capitulation as BTC Falls $26K Below Production Cost",
@@ -1621,7 +1608,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795740130.6159248,
+"t": 1795741048.0893626,
 "t0": 1795737300.0,
 "tgtext": "",
 "title": "Strategy's Market Value Falls to 0.88x Its Bitcoin Holdings \u2014 Lowest Premium on Record Signals 'Capitulation Selling'",
@@ -2065,11 +2052,12 @@
 "coin": "",
 "src": "Watcher.Guru",
 "srcs": [
+"Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795728585.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX $SPCX stock to every child in America every year.\n\n@WatcherGuru",
+"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX $SPCX stock to every child in America every year.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 ELON MUSK: \u201cI will be donating another share of SpaceX to all kids in America every year.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX SPCX stock to every child in America every year.",
 "url": "https://t.me/WatcherGuru/16359",
 "urls": []
@@ -2142,7 +2130,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795740435.1713085,
+"t": 1795740743.4476826,
 "t0": 1795727633.0,
 "tgtext": "",
 "title": "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase",
@@ -2215,7 +2203,7 @@
 "srcs": [
 "Coin Edition"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795736593.0,
 "tgtext": "",
 "title": "Bitcoin Price Rebounds as $16B in Shorts Face Liquidation Risk",
@@ -2320,7 +2308,7 @@
 "srcs": [
 "Crypto Headlines"
 ],
-"t": 1795739821.1936514,
+"t": 1795740743.4476826,
 "t0": 1795725014.0,
 "tgtext": "\ud83e\udd28 Deribit: 27 \u043d\u043e\u044f\u0431\u0440\u044f \u0441\u043e\u0441\u0442\u043e\u0438\u0442\u0441\u044f \u044d\u043a\u0441\u043f\u0438\u0440\u0430\u0446\u0438\u044f \u043f\u043e\u0447\u0442\u0438 \u043d\u0430 $7,500,000,000 \u0432 \u043e\u043f\u0446\u0438\u043e\u043d\u0430\u0445 \u043d\u0430 BTC \u0438 ETH.\n\nCrypto Headlines",
 "title": "Deribit: 27 \u043d\u043e\u044f\u0431\u0440\u044f \u0441\u043e\u0441\u0442\u043e\u0438\u0442\u0441\u044f \u044d\u043a\u0441\u043f\u0438\u0440\u0430\u0446\u0438\u044f \u043f\u043e\u0447\u0442\u0438 \u043d\u0430 $7,500,000,000 \u0432 \u043e\u043f\u0446\u0438\u043e\u043d\u0430\u0445 \u043d\u0430 BTC \u0438 ETH.",
@@ -2374,7 +2362,7 @@
 "CryptoRank",
 "investingLive"
 ],
-"t": 1795740435.1713085,
+"t": 1795740743.4476826,
 "t0": 1795729903.0,
 "tgtext": "",
 "title": "Strategy's Market Value Falls to 0.88x Its Bitcoin Holdings \u2014 Lowest Premium on Record Signals 'Capitulation Selling'",
@@ -2689,7 +2677,7 @@
 "srcs": [
 "Coinpedia"
 ],
-"t": 1795740130.6159248,
+"t": 1795741048.0893626,
 "t0": 1795725048.0,
 "tgtext": "",
 "title": "Bitcoin Miners Just Hit Capitulation as BTC Falls $26K Below Production Cost",
@@ -3056,6 +3044,21 @@
 "https://cointelegraph.com/markets/bit-debuts-switzerlands-first-spot-bitcoin-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"ce8aae9bd5ce": {
+"coin": "bitcoin",
+"src": "Businesskorea",
+"srcs": [
+"Bitcoin News",
+"Businesskorea",
+"Wisevoter"
+],
+"t": 1795741048.0893626,
+"t0": 1795723379.0,
+"tgtext": "",
+"title": "Bitcoin Rebounds Above $60,000 as Spot ETF Outflows Hit Record",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Za0tFM1djcmcwd1V0b3VJR0xuZVZzYjVud2xZMjVVSHd1WVUzSXd0cmxBRHh2N0ZLVmczN1J1VG5Cc25QNnAtVGZTTGZIbXRNSlFia2J4NlE5YXZlS2FhVmRtaXZjSnRIM18xSFFMakRnYmVn?oc=5",
+"urls": []
+},
 "cf8a22a69f3d": {
 "coin": "",
 "src": "Decrypt",
@@ -3291,7 +3294,7 @@
 "srcs": [
 "CoinMarketCap"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795727190.0,
 "tgtext": "",
 "title": "Zcash (ZEC) Drops 3.59% Amid Whale Deposits, Liquidations",
@@ -3601,7 +3604,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795740435.1713085,
+"t": 1795741048.0893626,
 "t0": 1795729363.0,
 "tgtext": "",
 "title": "BNB Chain details new layer-1 for trading, private finance and AI",
@@ -4019,185 +4022,48 @@
 "monero": 1795706624.3533547
 },
 "probs": {
+"01f140612fa2": 0.034,
 "05f2ba7fab85": 0.054,
 "072223e4378c": 0.033,
 "13feaf2f89ec": 0.027,
-"192670561044": 0.061,
+"2052bb631299": 0.081,
 "20740f66d9e5": 0.042,
+"276d411c7b25": 0.016,
 "3612c3e02956": 0.067,
-"483b64d79a89": 0.043,
+"378b3f8b5b29": 0.099,
 "48901c1df67d": 0.08,
 "4a8892118dcf": 0.051,
 "4ae69f827d75": 0.154,
 "4d64bbf88816": 0.046,
 "4ef0ddef68c5": 0.048,
-"5541d1149082": 0.765,
+"5541d1149082": 0.824,
 "5807c5328a7c": 0.03,
 "5b770edabd40": 0.119,
-"5ee2dfdb2bd1": 0.041,
 "60670fb6ffd2": 0.056,
 "61a0a6894125": 0.07,
-"71b9391c0e1b": 0.12,
+"734c8ce8d707": 0.293,
 "78f7a83e386d": 0.07,
 "802dff21b2e9": 0.029,
-"84b8ac80c1fe": 0.049,
 "85d9795b165f": 0.016,
 "8abeea16c7ae": 0.023,
-"8d79b819ff03": 0.192,
+"8d79b819ff03": 0.844,
 "8fcd1ce94a55": 0.019,
 "93b77a109498": 0.116,
+"9713d13a3149": 0.031,
 "9a1e4828ddf8": 0.274,
 "9f47a6d4a799": 0.03,
 "9fbf62824a21": 0.061,
-"a82772c0cc10": 0.604,
-"b644bd2e427a": 0.037,
-"ce8aae9bd5ce": 0.099,
+"ce8aae9bd5ce": 0.526,
 "d05a91ffb818": 0.085,
 "d8984aa5c4d3": 0.188,
 "dc1649455628": 0.033,
 "e04d466ba224": 0.04,
-"e7075033426d": 0.107,
+"e7075033426d": 0.131,
 "ec6fb4dc6ac6": 0.053,
-"fa0e3c709d62": 0.03
+"fa0e3c709d62": 0.03,
+"ff68450a1fa8": 0.079
 },
 "sent": [
-{
-"e": [
-"anthropic",
-"below",
-"billion",
-"binance",
-"exceeds",
-"falls",
-"futures",
-"hyperliquid",
-"ipo",
-"perpetual",
-"trading",
-"volume"
-],
-"k": [],
-"t": 1795540029.5036578,
-"u": [
-"https://t.me/WatcherGuru/16308",
-"https://t.me/wublockchainenglish/26940"
-],
-"w": [
-"anthropic",
-"below",
-"billion",
-"binance",
-"exceeds",
-"falls",
-"futures",
-"hyperliquid",
-"ipo",
-"perpetual",
-"price",
-"trading",
-"volume"
-]
-},
-{
-"e": [
-"bullpen"
-],
-"k": [
-"hack"
-],
-"t": 1795543090.5658305,
-"u": [],
-"w": [
-"bullpen",
-"hacked",
-"million"
-]
-},
-{
-"e": [
-"coinbase",
-"korean",
-"north"
-],
-"k": [
-"hack"
-],
-"t": 1795545536.3327165,
-"u": [
-"https://t.me/cointelegraph/73500"
-],
-"w": [
-"coinbase",
-"combat",
-"crime",
-"cyberattacks",
-"cybersecurity",
-"experts",
-"korean",
-"north",
-"prevent",
-"sessions",
-"sponsoring"
-]
-},
-{
-"e": [
-"binance"
-],
-"k": [],
-"t": 1795546459.2593842,
-"u": [
-"https://t.me/WatcherGuru/16318"
-],
-"w": [
-"000",
-"300",
-"assets",
-"binance",
-"bstocks",
-"management",
-"platform",
-"stock",
-"surpasses",
-"tokenized",
-"under"
-]
-},
-{
-"e": [
-"cia",
-"director",
-"intelligence",
-"national",
-"office",
-"times",
-"york"
-],
-"k": [
-"hack"
-],
-"t": 1795550592.9016657,
-"u": [
-"https://t.me/WatcherGuru/16319",
-"https://t.me/cointelegraph/73502"
-],
-"w": [
-"breach",
-"cia",
-"cybersecurity",
-"director",
-"exposing",
-"information",
-"intelligence",
-"national",
-"office",
-"per",
-"suffered",
-"times",
-"unclassified",
-"york"
-]
-},
 {
 "e": [
 "against",
@@ -5646,71 +5512,101 @@
 "record",
 "strategy"
 ]
+},
+{
+"e": [
+"america",
+"elon",
+"musk",
+"spacex",
+"spcx"
+],
+"k": [],
+"t": 1795741048.0893626,
+"u": [
+"https://t.me/WatcherGuru/16359",
+"https://t.me/cointelegraph/73553"
+],
+"w": [
+"america",
+"child",
+"donate",
+"elon",
+"every",
+"his",
+"musk",
+"pledges",
+"share",
+"spacex",
+"spcx",
+"stock",
+"year"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"5541d1149082",
-66,
-325,
-11
+"8d79b819ff03",
+25,
+208,
+2
 ],
 [
-"a82772c0cc10",
-50,
-176,
+"5541d1149082",
+65,
+335,
+7
+],
+[
+"ce8aae9bd5ce",
+41,
+294,
 3
+],
+[
+"734c8ce8d707",
+22,
+62,
+1
 ],
 [
 "9a1e4828ddf8",
 40,
-64,
-1
-],
-[
-"8d79b819ff03",
-16,
-198,
+74,
 1
 ],
 [
 "d8984aa5c4d3",
-43,
-221,
+42,
+231,
 1
 ],
 [
 "4ae69f827d75",
 24,
-112,
+122,
 1
 ],
 [
-"71b9391c0e1b",
-1,
-253,
+"e7075033426d",
+9,
+195,
+1
+],
+[
+"b9f96cfa4c59",
+0,
+267,
 1
 ],
 [
 "5b770edabd40",
 26,
-167,
-1
-],
-[
-"93b77a109498",
-14,
-213,
-1
-],
-[
-"e7075033426d",
-10,
-185,
+177,
 1
 ]
 ],
-"top_at": 1795740435.1713085
+"top_at": 1795741048.0893626
 }
