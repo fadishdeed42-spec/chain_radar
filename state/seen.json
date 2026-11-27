@@ -184,7 +184,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795751455.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says Jensen Huang is a very important part of Nvidia.\n\n\u201cI think it's a great thing that he's going back.\u201d\n\nNews | Markets | YouTube",
 "title": "President Trump says Jensen Huang is a very important part of Nvidia.",
@@ -376,7 +376,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795761811.0,
 "tgtext": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nBrian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nOn November 25, 2026, Coinbase CEO Brian Armstrong said in an interview with WOLF Financial that companies must assume employees could be exposed to malware attacks and incorporate this risk into their security systems from the outset. As hackers increasingly use AI to launch attacks, defenders must also leverage AI to strengthen their security capabilities. Coinbase has deployed dedicated AI agents for cybersecurity to review every line of code before it goes live. Discussing the previous extortion attempt against Coinbase, Armstrong said the company chose not to give in to the hackers, instead publicly responding and offering a bounty for information that could help identify and apprehend the attackers, while cooperating with law enforcement to hold them accountable. \u2014 link",
 "title": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt",
@@ -817,7 +817,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795770178.511988,
+"t": 1795770493.4479578,
 "t0": 1795748915.0,
 "tgtext": "Trader 0xda26 closed his short on 30,602 $ETH ($53.43M) 40 minutes ago, taking a $3.22M loss.\n\nHe then flipped long on 15,388 $ETH ($26.56M).\n\nLiquidation price: $1,649.15\n\nhttps://hyperbot.network/trader/0xda26ab2a88881523ce002477fdee2f4ac9eb572a",
 "title": "Trader 0xda26 closed his short on 30,602 ETH ($53.43M) 40 minutes ago, taking a $3.22M loss.",
@@ -1603,11 +1603,11 @@
 "srcs": [
 "Benzinga",
 "CoinDesk",
-"CryptoNinjas",
 "Forbes Middle East",
-"Startup Fortune"
+"Startup Fortune",
+"The Cryptonomist"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795752619.0,
 "tgtext": "",
 "title": "Binance Lifts Withdrawal Suspension After Record $6.3 Billion Hack, but USDC Withdrawals Stay Paused",
@@ -2005,7 +2005,7 @@
 "Kriptofoni",
 "Wu Blockchain"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795750804.0,
 "tgtext": "Reuters: Over $600M in Stolen Binance Funds Flowed Through THORChain, Potentially Including Repeated Transfers; Another $342M Moved via CoinJoin\n\nAccording to Reuters, citing blockchain analytics firms including Chainalysis and Elliptic, North Korean hackers are moving crypto stolen in the Binance hack through THORChain and CoinJoin services. The firms estimate that over $600 million in stolen funds has flowed through THORChain, potentially including funds counted multiple times, while approximately $342 million has been moved through CoinJoin. TRM Labs estimates THORChain earned up to $1 million in fees from the related swaps.\n\nThe Binance hack resulted in approximately $6.3 billion in stolen crypto assets, of which around $2.85 billion has been frozen by token issuers. Researchers say the laundering activity could continue for months or even years. \u2014 link",
 "title": "Reuters: Over $600M in Stolen Binance Funds Flowed Through THORChain, Potentially Including Repeated Transfers; Another $342M Moved via CoinJoin",
@@ -2319,6 +2319,19 @@
 "url": "https://t.me/cointelegraph/73546",
 "urls": []
 },
+"a68c57f1c54c": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795770802.649778,
+"t0": 1795770267.0,
+"tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa EU to launch upgraded crypto registry in mid-2027, making it easier to verify authorized crypto companies.\n\n@WatcherGuru",
+"title": "\ud83c\uddea\ud83c\uddfa EU to launch upgraded crypto registry in mid-2027, making it easier to verify authorized crypto companies.",
+"url": "https://t.me/WatcherGuru/16361",
+"urls": []
+},
 "a7482c542d1b": {
 "coin": "bitcoin",
 "src": "TradingView",
@@ -2365,7 +2378,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795770178.511988,
+"t": 1795770493.4479578,
 "t0": 1795748925.0,
 "tgtext": "Upbit to Add BTC and USDT Trading Pairs for KGEN and FLR, and a KRW Trading Pair for HAEDAL\n\nAccording to an official announcement, South Korea's largest cryptocurrency exchange, Upbit, will add BTC and USDT trading pairs for KGEN and FLR. KGeN is a blockchain-based data infrastructure project, while Flare is an AI infrastructure protocol.\n\nAdditionally, Upbit will add a KRW trading pair for HAEDAL. Haedal Protocol is a liquid staking protocol built on the Sui network. \u2014 link",
 "title": "Upbit to Add BTC and USDT Trading Pairs for KGEN and FLR, and a KRW Trading Pair for HAEDAL",
@@ -2522,7 +2535,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795755070.9745371,
+"t": 1795770802.649778,
 "t0": 1795752132.0,
 "tgtext": "Binance Will Support the 0G (0G) BEP20 Contract Swap\n\nBinance will support the 0G (0G) contract swap on BNB Smart Chain (BEP20) network.\n\n\ud83d\udc49\ud83c\udffbLearn more here",
 "title": "Binance Will Support the 0G (0G) BEP20 Contract Swap",
@@ -2822,7 +2835,7 @@
 "Menafn",
 "Traders Union"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795756920.0,
 "tgtext": "",
 "title": "Japan\u2019s JPCrypto-ISAC partners with SEAL to strengthen crypto hack detection, incident response",
@@ -3701,7 +3714,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795754856.0,
 "tgtext": "\ud83d\udea8 NOW: Ethereum developers set Dec. 15 for Glamsterdam's launch on the Hoodi testnet, nearly two months after the original date slipped over concerns about gas pricing changes.\n\nNews | Markets | YouTube",
 "title": "NOW: Ethereum developers set Dec. 15 for Glamsterdam's launch on the Hoodi testnet, nearly two months after the original date slipped over concerns about gas pricing changes.",
@@ -3866,7 +3879,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795768999.0,
 "tgtext": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest\n\nBinance has posted two equity capital markets (ECM) roles to build tokenized equity products from scratch, suggesting potential plans for on-chain IPOs. The business development and research analyst roles cover issuer engagement, deal structuring, due diligence, financial modeling, pricing and allocation. Both require familiarity with IPOs and follow-on offerings. \u2014 link",
 "title": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest",
@@ -3924,7 +3937,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795770178.511988,
+"t": 1795770802.649778,
 "t0": 1795767456.0,
 "tgtext": "",
 "title": "Cyber Reopens CYBER Bridge With Four-Verifier Requirement After $1.1M Exploit",
@@ -4028,42 +4041,42 @@
 "probs": {
 "065ad09120a0": 0.052,
 "1056a046cac6": 0.078,
-"11709c272b30": 0.019,
-"1a8e22f71d58": 0.042,
 "1aa0bef49142": 0.068,
 "26e18f1511cb": 0.482,
 "2f87e097b939": 0.026,
 "3e9760589ad4": 0.227,
-"3fe490440bff": 0.042,
+"459933594b38": 0.076,
 "4ce5ecce63a0": 0.031,
 "513288f26654": 0.019,
 "519621dfe40c": 0.05,
 "639f3a123dfc": 0.068,
 "645f3f159530": 0.049,
 "74abe9586207": 0.165,
-"78f7a83e386d": 0.079,
-"7934418c0ec4": 0.772,
+"78f7a83e386d": 0.098,
+"7934418c0ec4": 0.811,
 "7c0adacdb682": 0.059,
 "8462c91da7cc": 0.052,
-"8cdc30451ed1": 0.917,
+"8cdc30451ed1": 0.708,
 "8df31cca8bcf": 0.045,
 "92a100dd0a23": 0.021,
 "94628a227fd9": 0.065,
 "97434753840f": 0.038,
 "a68777e402b8": 0.036,
+"a68c57f1c54c": 0.343,
 "ade4b6938943": 0.286,
 "b0b026398155": 0.222,
 "b2792e8041bd": 0.031,
 "bc2eb87a24d5": 0.057,
 "bd2bc65057ed": 0.038,
 "c23c1f73bc76": 0.058,
-"c5ea040c94ca": 0.411,
+"c5ea040c94ca": 0.331,
+"da7480c0ace0": 0.293,
 "dccd6cf41462": 0.037,
 "e85a090db51f": 0.144,
 "eb1b9ef659d5": 0.149,
 "efc260dfc632": 0.048,
 "f2fa23d49679": 0.052,
-"f5443614b2f4": 0.96,
+"f5443614b2f4": 0.697,
 "f888ae331375": 0.429,
 "f9b4ef214e4c": 0.029
 },
@@ -5624,65 +5637,65 @@
 "tg_offset": 138489119,
 "top": [
 [
-"f5443614b2f4",
-18,
-20,
-1
-],
-[
-"8cdc30451ed1",
-40,
-323,
-2
-],
-[
 "ecb99cc9b558",
 0,
-255,
+266,
 1
 ],
 [
 "7934418c0ec4",
-70,
-293,
-8
+69,
+303,
+6
 ],
 [
-"4624501cfd58",
-0,
-354,
-1
+"8cdc30451ed1",
+39,
+333,
+2
 ],
 [
-"aae23ad01c66",
-0,
-354,
+"f5443614b2f4",
+18,
+30,
 1
 ],
 [
 "1770a2979f9f",
-1,
-312,
+0,
+322,
 1
 ],
 [
 "26e18f1511cb",
 18,
-139,
+150,
 1
 ],
 [
 "f888ae331375",
 41,
-45,
+56,
+1
+],
+[
+"b4ee5b1ac70f",
+1,
+311,
+1
+],
+[
+"a68c57f1c54c",
+10,
+9,
 1
 ],
 [
 "c5ea040c94ca",
-60,
-221,
+59,
+231,
 7
 ]
 ],
-"top_at": 1795770178.511988
+"top_at": 1795770802.649778
 }
