@@ -326,10 +326,9 @@
 "srcs": [
 "Cointelegraph",
 "Cryptonews.net",
-"KuCoin",
-"TradingView"
+"KuCoin"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795798131.0,
 "tgtext": "",
 "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
@@ -948,7 +947,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795799172.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa NEW: Russia\u2019s VTB Bank has launched over-the-counter cryptocurrency trading for qualified investors through its investment app, ahead of the Moscow Exchange\u2019s planned crypto trading launch on December 1.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's Central Bank grants crypto exchange Binance regulatory approval to operate as foreign exchange broker.\n\n@WatcherGuru",
 "title": "Russia\u2019s VTB Bank has launched over-the-counter cryptocurrency trading for qualified investors through its investment app, ahead of the Moscow Exchange\u2019s planned crypto trading launch on December 1.",
@@ -1287,6 +1286,20 @@
 "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
 "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
 ]
+},
+"57653d52517a": {
+"coin": "bitcoin",
+"src": "BigGo Finance",
+"srcs": [
+"BeInCrypto",
+"BigGo Finance"
+],
+"t": 1795819032.2854345,
+"t0": 1795797775.0,
+"tgtext": "",
+"title": "JPMorgan Says Bitcoin Has Bottomed as ETF Outflows Hit Record $5 Billion and Strategy's Premium Collapses",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93OTFkR0Uwemkwc2ZEaTgtQVdieEswN0laYURLSWtWLWlKTzY5WDFZbDhTempWQ3hlRmtHRm9jd0I3c29sTVNicjRXQXpIQkpidV9mVEpSU1ZmU01sVUxTZC1xNU9yS203d0JuZFAtcjVlQThDYUE?oc=5",
+"urls": []
 },
 "57ba8dee9540": {
 "coin": "bitcoin",
@@ -2327,7 +2340,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795801753.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3 China announces new rules for a government-backed blockchain-powered digital identity system.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3 China announces new rules for a government-backed blockchain-powered digital identity system.",
@@ -2903,7 +2916,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795801043.0,
 "tgtext": "\ud83c\udde8\ud83c\uddf3 NEW: China has issued new blockchain-based digital identity regulations, effective March 1, 2027, enabling cross-platform identity verification while limiting personal data collection.\n\nNews | Markets | YouTube",
 "title": "China has issued new blockchain-based digital identity regulations, effective March 1, 2027, enabling cross-platform identity verification while limiting personal data collection.",
@@ -3000,26 +3013,6 @@
 "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamRPQnZtZGczYnh0dXpWTFFvQXJRWnNPNmt0MkRsYlQwTjU1WHlJOEtYVFBVOEFVZWNXc3pxTnd0eGMwT3NYMTNEUDhjeWdTQkVuQkYxM3p1bzh4T0ZEelV1R0M4MmVkMDkxU3N2aC00SlRJUXN2c3BRdVBfQTVIMVRVM1VXMmJWSnRaYlZLNkNHanJCbzZaUUM2ZUIxTHBRZV9wNUhMYW0yTi1WcGRkakJqZGFkeTlKRlQzQWVmUlBIdk9xYVlFOFhTRTF5NjhFdTU3WERTWkQ3QmdfeTU1Vk1mR1gydlNpUUE?oc=5",
 "urls": [
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
-"bfe3e0149fe1": {
-"coin": "",
-"src": "The Block",
-"srcs": [
-"Cointelegraph",
-"Decrypt",
-"The Block",
-"Wu Blockchain"
-],
-"t": 1795646222.1468163,
-"t0": 1795624785.0,
-"tgtext": "Nvidia Agrees to $290M Settlement Over Crypto Mining Revenue Disclosures\n\nAccording to Reuters, Nvidia has agreed to pay $290 million to settle an investor class action lawsuit filed in 2018. The plaintiffs alleged that Nvidia misled investors by attributing rapid growth in gaming-related revenue to gaming demand rather than cryptocurrency mining, understating the contribution of crypto miners to its GPU sales. Nvidia denied any wrongdoing, and the proposed settlement remains subject to court approval. Plaintiffs\u2019 lawyers plan to seek up to $62 million in legal fees, representing 21.4% of the settlement fund. \u2014 link",
-"title": "Nvidia agrees to $290 million settlement over crypto mining disclosures amid Jensen Huang turmoil",
-"url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
-"urls": [
-"https://cointelegraph.com/news/nvidia-agrees-290m-settlement-crypto-mining-revenue-disclosures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
-"https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit"
 ]
 },
 "c0802f855fa5": {
@@ -3199,7 +3192,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795811641.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f LATEST: OpenAI has filed a countersuit against Apple, alleging theft of trade secrets, according to CNBC.\n\nNews | Markets | YouTube",
 "title": "OpenAI has filed a countersuit against Apple, alleging theft of trade secrets, according to CNBC.",
@@ -3476,7 +3469,7 @@
 "Altcoin Buzz",
 "Benzinga"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795806372.0,
 "tgtext": "",
 "title": "Bitcoin Price Falls as $183 Million in Liquidations Hit Ahead of $6.8 Billion Options Expiry",
@@ -3509,7 +3502,7 @@
 "Altcoin Buzz",
 "BigGo Finance"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795799100.0,
 "tgtext": "",
 "title": "Ethereum ETF Outflows Hit Record 643,000 ETH as Analyst Sentiment Cools",
@@ -3770,7 +3763,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795815301.0,
 "tgtext": "\ud83d\udea8 TODAY: Telegram is urging iPhone users to update their iOS immediately, warning that security vulnerabilities in outdated versions put their data and accounts at risk.\n\nNews | Markets | YouTube",
 "title": "TODAY: Telegram is urging iPhone users to update their iOS immediately, warning that security vulnerabilities in outdated versions put their data and accounts at risk.",
@@ -3783,7 +3776,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795818419.0015428,
+"t": 1795819032.2854345,
 "t0": 1795815312.0,
 "tgtext": "JUST IN: Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.\n\n@WatcherGuru",
 "title": "Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.",
@@ -3836,6 +3829,19 @@
 "urls": [
 "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678"
 ]
+},
+"e3e12fb0278d": {
+"coin": "bitcoin",
+"src": "Bitcoin Foundation",
+"srcs": [
+"Bitcoin Foundation"
+],
+"t": 1795818728.078638,
+"t0": 1795810887.0,
+"tgtext": "",
+"title": "BTC Price Prediction: Whales Add Over 120,000 BTC",
+"url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQlhoZTVpbE5zVlpiaWgwbW9zOXl5V0o4dXFsdndWb202Q0pSZm5ZdTFTTjF5aUZhWW15am9kYWlkLTBjRmNUc05mdzRvZXhPN1M3ZURWYlIzcTFkMUtqNFpQd05VODhSSzNGSHdNZ2s0VGVjMWswMGRSZGZ1VTE3YjFtcVlxdlJEOG80NjFPNnNNRkZyQXZpNHNjVlNVcXpl?oc=5",
+"urls": []
 },
 "e6691fca9931": {
 "coin": "",
@@ -4348,40 +4354,40 @@
 },
 "probs": {
 "12ffaf7f4bd7": 0.015,
-"1485661d221c": 0.063,
-"215a3bd4c43a": 0.153,
+"1485661d221c": 0.078,
+"215a3bd4c43a": 0.21,
 "24f7249e1093": 0.017,
 "2fb382154c3e": 0.027,
+"33c300d4022f": 0.014,
 "38b3f547b615": 0.116,
 "39461af23676": 0.031,
-"4690109551bc": 0.964,
-"481471870a42": 0.016,
+"4690109551bc": 0.934,
 "4d049404343e": 0.006,
-"584bf20a50a2": 0.031,
+"57653d52517a": 0.12,
 "5f684e313810": 0.017,
 "672478cedda6": 0.046,
 "67e2e2109d88": 0.039,
+"72dffa32b4a5": 0.012,
 "739663005cc7": 0.016,
 "78f7a83e386d": 0.036,
 "877fe2ac49a0": 0.003,
 "87df89afd065": 0.021,
 "8e50debfb391": 0.026,
+"a0aa318f2485": 0.114,
+"ae812cdefd65": 0.023,
 "b18ff5995173": 0.011,
 "b5e71bc5e749": 0.096,
 "b9c5cd6e5c66": 0.018,
 "c2f9a772f718": 0.053,
-"c9435e1cd5d5": 0.115,
 "cb4c59739151": 0.556,
 "d2c30263ac2c": 0.005,
 "d405a0bb9933": 0.016,
-"d50f2a4fb2ec": 0.007,
+"d50f2a4fb2ec": 0.009,
 "d546ecef5f83": 0.324,
 "d562ee8887be": 0.053,
 "d670dab116e4": 0.117,
-"d6882a49d90d": 0.028,
 "d690d8bdd6db": 0.112,
 "d86d5fe9edff": 0.021,
-"d8bb90582960": 0.028,
 "dd588be6f65c": 0.264,
 "e03a27ebfb2c": 0.274,
 "e3e12fb0278d": 0.117,
@@ -5740,64 +5746,64 @@
 "top": [
 [
 "4690109551bc",
-20,
-321,
+18,
+331,
 3
-],
-[
-"d015b5ca8281",
-0,
-356,
-1
 ],
 [
 "cb4c59739151",
 20,
-113,
+123,
 2
 ],
 [
 "947eced8bc45",
 0,
-278,
+288,
 1
 ],
 [
 "d546ecef5f83",
-54,
-201,
+52,
+211,
 2
 ],
 [
 "b99d7e8dd888",
 0,
-290,
+300,
 1
 ],
 [
 "e03a27ebfb2c",
 18,
-52,
+62,
 1
 ],
 [
 "dd588be6f65c",
 10,
-52,
+62,
 1
 ],
 [
 "215a3bd4c43a",
-19,
-338,
-4
+8,
+348,
+3
+],
+[
+"57653d52517a",
+42,
+354,
+2
 ],
 [
 "d670dab116e4",
-47,
-322,
+45,
+332,
 2
 ]
 ],
-"top_at": 1795818419.0015428
+"top_at": 1795819032.2854345
 }
