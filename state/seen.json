@@ -2,7 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1795712046.2549496,
 1795742315.576642,
 1795748754.0752318,
 1795749062.2780993,
@@ -15,7 +14,8 @@
 1795790385.089649,
 1795792144.6724732,
 1795793135.7068365,
-1795796836.5423794
+1795796836.5423794,
+1795803308.2048519
 ],
 "menu": {
 "005064432d65": {
@@ -75,7 +75,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795795801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says the US has \"the best economy\" with \"88 all-time record days in the stock market\" as stocks and bitcoin rebound after Thanksgiving.\n\nNews | Markets | YouTube",
 "title": "President Trump says the US has \"the best economy\" with \"88 all-time record days in the stock market\" as stocks and bitcoin rebound after Thanksgiving.",
@@ -101,7 +101,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795796641.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 UPDATE: Risk-sensitive currencies rallied as tech stocks rebounded, while the US dollar remained on track for a weekly gain amid expectations of a December Fed rate hike.\n\nNews | Markets | YouTube",
 "title": "Risk-sensitive currencies rallied as tech stocks rebounded, while the US dollar remained on track for a weekly gain amid expectations of a December Fed rate hike.",
@@ -495,7 +495,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1795802998.5952814,
+"t": 1795803308.2048519,
 "t0": 1795791720.0,
 "tgtext": "",
 "title": "Bitcoin Suddenly Tanks Below $60K Again as Hourly Liquidations Near $200M",
@@ -1679,7 +1679,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795796321.0,
 "tgtext": "JUST IN: \ud83c\uddeb\ud83c\uddf7 France officially enters a technical recession.\n\n@WatcherGuru",
 "title": "\ud83c\uddeb\ud83c\uddf7 France officially enters a technical recession.",
@@ -1993,25 +1993,6 @@
 "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGpYUHltaXBMTzJkOFdXWUllM2xCSVJrWmdaU1g4SmRKTEJObkxmbllYUW9qZU5sQ1NiQWJqLWRsbUVPOGZORjRPUU5ORTlLSDZfZHlacmlraUJDSUVGSTdXWlNJQ1JKU2owbFlVOF8wY0M2S1hrRmotQmpScnB5U0dybHVPNUd5QXE3TkYzdmtuaWhIaFJtV25TaUJpMUVQazYxNWJaYw?oc=5",
 "urls": []
 },
-"8c55ff7702f5": {
-"coin": "hyperliquid",
-"src": "CoinGape",
-"srcs": [
-"Benzinga",
-"Bitcoin Sistemi",
-"CoinGape",
-"Coinfomania",
-"Crypto News"
-],
-"t": 1795630657.1514711,
-"t0": 1795613368.0,
-"tgtext": "Franklin Crypto Index ETF to Add HYPE Holdings on December 1\n\nAccording to an SEC filing, the Franklin Crypto Index ETF will add Hyperliquid (HYPE) to its holdings on or around December 1. Its underlying index, the CF Institutional Digital Asset Index, will add HYPE on December 1, bringing its constituents to BTC, ETH, XRP, SOL, DOGE, ADA, XLM, and HYPE. The ETF will allocate assets according to their index weights, with the index continuing to rebalance quarterly. \u2014 link",
-"title": "Franklin Templeton Expands Crypto Index ETF to Include Hyperliquid\u2019s HYPE Token",
-"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVEFmQXctSlFDRjF0ZGJxTDJobmJ1MzJWUS1rLXlEZDI5STlQM2VjQzZud3QtYXpDTHlmZXdoTmpGTWxIZExwR3NpRThUVzU2M0k4VlRJUzdGRmFrQWhqZE5GSmg0X19nOEcyNHJTWXVMcFdvTmVaM1dpblp3ZFllSVZ2dUdsYXVIeEd3aEpKNW5MS2lqUHhHMGU2SkJfUXB2bFE?oc=5",
-"urls": [
-"https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
-]
-},
 "8cb04923ec29": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2230,7 +2211,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795801753.0,
 "tgtext": "JUST IN: \ud83c\udde8\ud83c\uddf3 China announces new rules for a government-backed blockchain-powered digital identity system.\n\n@WatcherGuru",
 "title": "\ud83c\udde8\ud83c\uddf3 China announces new rules for a government-backed blockchain-powered digital identity system.",
@@ -2559,7 +2540,7 @@
 "Lookonchain",
 "www.tokenpost.com"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795784000.0,
 "tgtext": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!\n\nLiquidation price: $59,101.24\nhttps://x.com/lookonchain/status/2125907891324658057\nAguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!  Liquidation price: $59,101.24 https://x.com/lookonchain/status/2125907891324658057",
 "title": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 BTC ($122.9M)! Liquidation price: $59,101.24 https://x.com/lookonchain/status/2125907891324658057",
@@ -2815,6 +2796,21 @@
 "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZElDVDU3Q2ZGaXFCOWpSVkFrNkMwSjRScXpDeUk2WnpiVWtpNEd0R0RjNjZEelNOZUlyR29TVklKUUliNmNIbmNaSXp1N1pKZWJsVDBlODlxQ2J4d25tZEVfOEdBNDV4WGphLVkxSGFvQ2ZaS1NaWHZnbFljOEpvQVd6MnlXZGFkUmNtV3hselpMOS1zLVN2V0hMbEl1Vl9UTmZoMW1pSk1JcFdvRTFwYUY2Qk9BVEMxZDAyMGF3WHdVQmFJ?oc=5",
 "urls": [
 "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
+]
+},
+"b99d7e8dd888": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795803613.8777502,
+"t0": 1795801043.0,
+"tgtext": "\ud83c\udde8\ud83c\uddf3 NEW: China has issued new blockchain-based digital identity regulations, effective March 1, 2027, enabling cross-platform identity verification while limiting personal data collection.\n\nNews | Markets | YouTube",
+"title": "China has issued new blockchain-based digital identity regulations, effective March 1, 2027, enabling cross-platform identity verification while limiting personal data collection.",
+"url": "https://t.me/cointelegraph/73572",
+"urls": [
+"https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
 "b9f96cfa4c59": {
@@ -3211,7 +3207,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795797038.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1 trillion added to the US stock market today in the first two hours of trading.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1 trillion added to the US stock market today in the first two hours of trading.",
@@ -3839,9 +3835,10 @@
 "src": "Crypto Briefing",
 "srcs": [
 "Crypto Briefing",
+"Crypto News",
 "TradingView"
 ],
-"t": 1795799609.4076116,
+"t": 1795803613.8777502,
 "t0": 1795785983.0,
 "tgtext": "",
 "title": "Bitcoin whales add 121,117 BTC as price falls nearly 30% in Q4",
@@ -3855,7 +3852,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795792765.0,
 "tgtext": "JUST IN: $250,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$250,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -4002,7 +3999,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795802998.5952814,
+"t": 1795803613.8777502,
 "t0": 1795785101.0,
 "tgtext": "WuBlockchain Weekly: UK Tightens DeFi Oversight, US Bitcoin Reserve Bill Advances, ECB Approves Tokenized Securities as Collateral\n\nThe UK plans to restrict retail DeFi trading via regulated exchanges. The US Strategic Bitcoin Reserve bill advanced to the House calendar. The ECB approved tokenized securities as collateral. CFTC prediction market rules advanced to White House review, while the US DOJ seeks to seize over $1B in crypto stolen in the Binance hack. OKXICE faced objections from 56 listed companies. For the full weekly roundup, subscribe to our Substack: \u2014 link",
 "title": "WuBlockchain Weekly: UK Tightens DeFi Oversight, US Bitcoin Reserve Bill Advances, ECB Approves Tokenized Securities as Collateral",
@@ -4247,100 +4244,47 @@
 },
 "probs": {
 "021cb036732d": 0.093,
+"044eb9fc4c1c": 0.017,
 "08adbb843608": 0.046,
 "0a3b8bc43c4a": 0.758,
-"0a7dbe5dc048": 0.008,
-"0c7b94a269ac": 0.014,
 "11080b596df0": 0.243,
-"122d9295c63b": 0.405,
 "1485661d221c": 0.128,
-"1eed8c9e1511": 0.02,
+"14b4381ac5d2": 0.011,
+"1c9aa69308b8": 0.129,
 "25e94aef8ef4": 0.07,
 "2919bb18ddeb": 0.041,
-"2b8fced77cbd": 0.174,
-"31c6805d3a6e": 0.01,
+"2b8fced77cbd": 0.043,
+"31c6805d3a6e": 0.026,
 "31e77d5eaf2d": 0.026,
 "32bb76a9a5d5": 0.025,
 "4d49021b5417": 0.121,
-"584bf20a50a2": 0.049,
 "5fe524c4811f": 0.007,
-"6546fd5dd6b8": 0.14,
+"6546fd5dd6b8": 0.08,
 "672478cedda6": 0.108,
 "6763bf839cec": 0.027,
+"67f411f9d04d": 0.012,
 "6cee9edc5191": 0.012,
 "72dffa32b4a5": 0.007,
 "736ac13ba065": 0.018,
 "7c52fcbcbcc8": 0.021,
 "87783345641b": 0.098,
 "9db301992710": 0.015,
+"a27208db044e": 0.031,
 "a2ca1eae2b0b": 0.028,
 "a93a0c93d30f": 0.005,
 "aa6c75bce1fe": 0.769,
-"b0323d63e849": 0.149,
-"cb4ff715e2c1": 0.014,
+"b99d7e8dd888": 0.849,
 "cbb68fb0acf3": 0.022,
-"d58e30ea9e98": 0.017,
-"d7ba28a8ef6c": 0.017,
+"d50f2a4fb2ec": 0.012,
+"d7ba28a8ef6c": 0.014,
 "daf4d8e0d034": 0.124,
+"ecf21f298fdc": 0.402,
 "ed32e761a77a": 0.779,
 "ed8dc3e358e5": 0.024,
 "eda5f7abf945": 0.017,
 "f1fff580ed20": 0.029
 },
 "sent": [
-{
-"e": [
-"agrees",
-"disclosures",
-"mining",
-"nvidia",
-"revenue",
-"settlement"
-],
-"k": [],
-"t": 1795625505.0288599,
-"u": [
-"https://t.me/wublockchainenglish/26950"
-],
-"w": [
-"$290m",
-"agrees",
-"disclosures",
-"mining",
-"nvidia",
-"revenue",
-"settlement"
-]
-},
-{
-"e": [
-"elon",
-"fcc",
-"musk",
-"spacex"
-],
-"k": [],
-"t": 1795625808.421675,
-"u": [
-"https://t.me/WatcherGuru/16339",
-"https://t.me/cointelegraph/73528"
-],
-"w": [
-"authorized",
-"centers",
-"data",
-"deploy",
-"elon",
-"fcc",
-"first",
-"history",
-"million",
-"musk",
-"satellites",
-"space",
-"spacex"
-]
-},
 {
 "e": [
 "github"
@@ -5676,71 +5620,106 @@
 "weekly",
 "while"
 ]
+},
+{
+"e": [
+"china",
+"march"
+],
+"k": [
+"legal"
+],
+"t": 1795803308.2048519,
+"u": [
+"https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://t.me/cointelegraph/73572"
+],
+"w": [
+"2027",
+"based",
+"blockchain",
+"china",
+"collection",
+"cross",
+"data",
+"digital",
+"effective",
+"enabling",
+"identity",
+"issued",
+"limiting",
+"march",
+"personal",
+"platform",
+"regulations",
+"verification",
+"while"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"b99d7e8dd888",
+18,
+43,
+1
+],
+[
 "ed32e761a77a",
 41,
-171,
+181,
 2
 ],
 [
 "aa6c75bce1fe",
-31,
-317,
+30,
+327,
 2
 ],
 [
 "0a3b8bc43c4a",
 30,
-120,
+130,
 1
 ],
 [
 "d015b5ca8281",
 10,
-99,
+110,
 1
 ],
 [
-"122d9295c63b",
-25,
-284,
-2
+"ecf21f298fdc",
+33,
+294,
+3
 ],
 [
 "947eced8bc45",
 10,
-21,
+31,
 1
 ],
 [
 "11080b596df0",
 24,
-106,
+116,
 1
 ],
 [
 "f3c0be464e3d",
 0,
-298,
+309,
 1
-],
-[
-"2b8fced77cbd",
-60,
-188,
-3
 ],
 [
 "7d7f45462899",
 10,
-111,
+122,
 1
 ]
 ],
-"top_at": 1795802998.5952814
+"top_at": 1795803613.8777502
 }
