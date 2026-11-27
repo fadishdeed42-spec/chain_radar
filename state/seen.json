@@ -395,7 +395,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795761811.0,
 "tgtext": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nBrian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nOn November 25, 2026, Coinbase CEO Brian Armstrong said in an interview with WOLF Financial that companies must assume employees could be exposed to malware attacks and incorporate this risk into their security systems from the outset. As hackers increasingly use AI to launch attacks, defenders must also leverage AI to strengthen their security capabilities. Coinbase has deployed dedicated AI agents for cybersecurity to review every line of code before it goes live. Discussing the previous extortion attempt against Coinbase, Armstrong said the company chose not to give in to the hackers, instead publicly responding and offering a bounty for information that could help identify and apprehend the attackers, while cooperating with law enforcement to hold them accountable. \u2014 link",
 "title": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt",
@@ -506,7 +506,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795776687.0,
 "tgtext": "\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.\n\nThe platform is expected to go live in Q1 2027 to facilitate digital asset settlements.\n\nNews | Markets | YouTube\nBrazil\u2019s B3 and Six Financial Institutions to Launch Real-Pegged Stablecoin in Q1 2027\n\nAccording to Valor Econ\u00f4mico, Brazilian stock exchange B3 has partnered with Bradesco, BTG Pactual, Ita\u00fa Unibanco, Safra, Santander and XP to launch Open BRL in Q1 2027. Issued by Banco B3 and backed 1:1 by Brazilian reais, the stablecoin will facilitate cross-institution transfers and tokenized stock settlement. The partners will jointly fund the project, with investment amounts undisclosed. Other financial institutions can join from launch. \u2014 link",
 "title": "Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.",
@@ -728,7 +728,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795762960.0,
 "tgtext": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-11-28\n\n\nU.S. Stock Trading on Binance will be temporarily unavailable due to a scheduled system upgrade by our partner broker. During this period, users will not be able to place stock trading orders. \n- System Upgrade Window: 2026-11-28 21:50 (UTC) - 2026-11-29 00:30 (UTC)\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-11-28",
@@ -1337,6 +1337,23 @@
 "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
 ]
 },
+"638c8c804505": {
+"coin": "",
+"src": "unchainedcrypto.com",
+"srcs": [
+"CoinCodex",
+"CryptoNinjas",
+"Forbes Middle East",
+"The Cryptonomist",
+"The Defiant"
+],
+"t": 1795780751.1340988,
+"t0": 1795760702.0,
+"tgtext": "",
+"title": "Binance Lifts Withdrawal Suspension From $6.3 Billion Hack, Says Recovery Is Complete",
+"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaHg3SUlLT3VQcWo5bkdMN1F3bldCZVU1ZzNhUUw1bWFqYlVkU252OHJVSkd5Tm9naEMtQkMtMzkta04wQ1JGZTR1R3l1LVJJNTVsMW04VTJ3bzBuSms0SXlmSzFhQktLcURGLUgwU0g4Zm1PNElIN2pGSmxSRktWM0phWmY4MS1SbmNPMTRrSEpHOHlwUktXT08zdmdQRmMxSW9PZTZqQ1dzcjdlNllnY093?oc=5",
+"urls": []
+},
 "6477a430a377": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -1524,7 +1541,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795769700.0,
 "tgtext": "",
 "title": "Fluid Halts DEX Swaps After Anthropic's Mythos 5.2 Security Review, $5.57B in Monthly Volume Suspended",
@@ -2119,7 +2136,7 @@
 "Benzinga",
 "Cointelegraph"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795770461.0,
 "tgtext": "",
 "title": "JPMorgan Reportedly Spots Bitcoin \u2018Capitulation\u2019 Signal in Michael Saylor\u2019s Strategy as MSTR Stock Hits 52-Week Low",
@@ -2174,13 +2191,32 @@
 "url": "https://t.me/wublockchainenglish/26955",
 "urls": []
 },
+"9437fbca4b1b": {
+"coin": "ethereum",
+"src": "BigGo Finance",
+"srcs": [
+"BigGo Finance",
+"Crypto News",
+"Decrypt",
+"The Block"
+],
+"t": 1795780751.1340988,
+"t0": 1795760640.0,
+"tgtext": "",
+"title": "Ethereum Developers Lock In Dec. 15 Hoodi Test for Glamsterdam Upgrade, With Up to 15,000 Contracts Exposed",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyU1lyRjJxLWlBcEl1ZG8wYkRzbEJ6RmJ6WUoxQlRfTFBPdGxFZlNlMW16QmlUR05sSzZya1V5SDFiaWU0UEpyRDkycHZMeDNDcm5vUFJuTUJIUV9XRmQwMGh6aEdkcE9paXlPVGpWRkN1QjRDTEE?oc=5",
+"urls": [
+"https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
+"https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
+]
+},
 "94628a227fd9": {
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795766679.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa NEW: The EU is set to overhaul its MiCA crypto register by mid-2027, introducing a searchable platform, automated data checks and version histories for crypto white papers.\n\nhttps://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027\n\nNews | Markets | YouTube",
 "title": "The EU is set to overhaul its MiCA crypto register by mid-2027, introducing a searchable platform, automated data checks and version histories for crypto white papers.",
@@ -2456,7 +2492,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795771675.0,
 "tgtext": "Whale \"0x69b5\" bought the dip 6 days ago, buying 9,425 $ETH ($15.08M) at an average price of $1,600.\n\nOver the past hour, he sold it all at $1,733, making $1.25M in profit!\n\nhttps://arkm.com/explorer/address/0x69b590d9d761b396Db4465F3Dee34d43Afa0e378",
 "title": "Whale \"0x69b5\" bought the dip 6 days ago, buying 9,425 ETH ($15.08M) at an average price of $1,600.",
@@ -3954,7 +3990,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795780138.029389,
+"t": 1795780751.1340988,
 "t0": 1795768999.0,
 "tgtext": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest\n\nBinance has posted two equity capital markets (ECM) roles to build tokenized equity products from scratch, suggesting potential plans for on-chain IPOs. The business development and research analyst roles cover issuer engagement, deal structuring, due diligence, financial modeling, pricing and allocation. Both require familiarity with IPOs and follow-on offerings. \u2014 link",
 "title": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest",
@@ -4132,41 +4168,41 @@
 },
 "probs": {
 "065ad09120a0": 0.028,
-"0768f2c79b7b": 0.174,
 "0df5928b3ddb": 0.034,
 "1632fadd49f0": 0.162,
 "17167a74cd97": 0.058,
-"17751a59a271": 0.145,
 "1a7178e9799e": 0.02,
-"2f3b36e7e69c": 0.04,
 "3069247c320a": 0.836,
-"3ea18d854fde": 0.012,
 "40257d1cab35": 0.089,
 "40579092fdea": 0.041,
-"416ed6514518": 0.048,
-"44b1d40824d3": 0.578,
 "4b3f6ec510ab": 0.05,
-"4ce5ecce63a0": 0.031,
-"691c2fcdb64f": 0.156,
+"4ce5ecce63a0": 0.079,
+"57653d52517a": 0.053,
+"638c8c804505": 0.747,
+"67f411f9d04d": 0.059,
+"691c2fcdb64f": 0.118,
 "701d5ae27cda": 0.309,
-"74abe9586207": 0.079,
+"74abe9586207": 0.044,
 "7e0bad302e6b": 0.021,
 "843e153cb82d": 0.036,
 "8a294b7e6c7d": 0.198,
 "8d3641b3634e": 0.029,
+"8df31cca8bcf": 0.063,
 "9178128f467f": 0.347,
+"9437fbca4b1b": 0.498,
 "967a17c46c39": 0.073,
 "97434753840f": 0.038,
 "9846e6b19dfd": 0.261,
-"a68c57f1c54c": 0.222,
+"99bc86c91b4a": 0.21,
+"a68c57f1c54c": 0.069,
 "a7a72f45b9e4": 0.962,
 "aa31bedb38ff": 0.04,
 "ade4b6938943": 0.176,
 "ae5e2f7032f0": 0.007,
+"b823109d6d5b": 0.03,
 "da7480c0ace0": 0.072,
-"e2e99c4b7107": 0.044,
-"eaede2851cb6": 0.073,
-"efc260dfc632": 0.048,
+"eaede2851cb6": 0.175,
+"efc260dfc632": 0.181,
 "f2fa23d49679": 0.069,
 "f5443614b2f4": 0.557,
 "f888ae331375": 0.141,
@@ -5633,63 +5669,63 @@
 [
 "a7a72f45b9e4",
 24,
-141,
+151,
 1
 ],
 [
 "3069247c320a",
-38,
-58,
+30,
+68,
 3
 ],
 [
+"638c8c804505",
+65,
+334,
+8
+],
+[
 "3e9760589ad4",
-4,
-286,
+3,
+297,
 1
 ],
 [
-"44b1d40824d3",
-62,
-359,
-9
-],
-[
 "f5443614b2f4",
-18,
-186,
+16,
+196,
 1
 ],
 [
 "26e18f1511cb",
-2,
-305,
+0,
+316,
 1
 ],
 [
+"9437fbca4b1b",
+20,
+335,
+4
+],
+[
 "94628a227fd9",
-5,
-224,
+3,
+235,
 1
 ],
 [
 "9178128f467f",
 28,
-161,
+172,
 2
 ],
 [
 "701d5ae27cda",
 47,
-174,
-1
-],
-[
-"9846e6b19dfd",
-10,
-122,
+184,
 1
 ]
 ],
-"top_at": 1795780138.029389
+"top_at": 1795780751.1340988
 }
