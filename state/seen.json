@@ -4,9 +4,6 @@
 },
 "init": true,
 "log": [
-1795670564.9851964,
-1795673014.247192,
-1795681614.4104238,
 1795687723.2234907,
 1795691434.0943713,
 1795695594.8416145,
@@ -17,7 +14,8 @@
 1795748754.0752318,
 1795749062.2780993,
 1795749062.2780993,
-1795751206.7804928
+1795751206.7804928,
+1795769256.1924787
 ],
 "menu": {
 "005064432d65": {
@@ -186,7 +184,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795751455.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says Jensen Huang is a very important part of Nvidia.\n\n\u201cI think it's a great thing that he's going back.\u201d\n\nNews | Markets | YouTube",
 "title": "President Trump says Jensen Huang is a very important part of Nvidia.",
@@ -378,7 +376,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795761811.0,
 "tgtext": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nBrian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nOn November 25, 2026, Coinbase CEO Brian Armstrong said in an interview with WOLF Financial that companies must assume employees could be exposed to malware attacks and incorporate this risk into their security systems from the outset. As hackers increasingly use AI to launch attacks, defenders must also leverage AI to strengthen their security capabilities. Coinbase has deployed dedicated AI agents for cybersecurity to review every line of code before it goes live. Discussing the previous extortion attempt against Coinbase, Armstrong said the company chose not to give in to the hackers, instead publicly responding and offering a bounty for information that could help identify and apprehend the attackers, while cooperating with law enforcement to hold them accountable. \u2014 link",
 "title": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt",
@@ -833,7 +831,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795748915.0,
 "tgtext": "Trader 0xda26 closed his short on 30,602 $ETH ($53.43M) 40 minutes ago, taking a $3.22M loss.\n\nHe then flipped long on 15,388 $ETH ($26.56M).\n\nLiquidation price: $1,649.15\n\nhttps://hyperbot.network/trader/0xda26ab2a88881523ce002477fdee2f4ac9eb572a",
 "title": "Trader 0xda26 closed his short on 30,602 ETH ($53.43M) 40 minutes ago, taking a $3.22M loss.",
@@ -1619,11 +1617,11 @@
 "srcs": [
 "Benzinga",
 "CoinDesk",
+"CryptoNinjas",
 "Forbes Middle East",
-"Startup Fortune",
-"The Crypto Times"
+"Startup Fortune"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795752619.0,
 "tgtext": "",
 "title": "Binance Lifts Withdrawal Suspension After Record $6.3 Billion Hack, but USDC Withdrawals Stay Paused",
@@ -2021,7 +2019,7 @@
 "Kriptofoni",
 "Wu Blockchain"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795750804.0,
 "tgtext": "Reuters: Over $600M in Stolen Binance Funds Flowed Through THORChain, Potentially Including Repeated Transfers; Another $342M Moved via CoinJoin\n\nAccording to Reuters, citing blockchain analytics firms including Chainalysis and Elliptic, North Korean hackers are moving crypto stolen in the Binance hack through THORChain and CoinJoin services. The firms estimate that over $600 million in stolen funds has flowed through THORChain, potentially including funds counted multiple times, while approximately $342 million has been moved through CoinJoin. TRM Labs estimates THORChain earned up to $1 million in fees from the related swaps.\n\nThe Binance hack resulted in approximately $6.3 billion in stolen crypto assets, of which around $2.85 billion has been frozen by token issuers. Researchers say the laundering activity could continue for months or even years. \u2014 link",
 "title": "Reuters: Over $600M in Stolen Binance Funds Flowed Through THORChain, Potentially Including Repeated Transfers; Another $342M Moved via CoinJoin",
@@ -2381,7 +2379,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795748925.0,
 "tgtext": "Upbit to Add BTC and USDT Trading Pairs for KGEN and FLR, and a KRW Trading Pair for HAEDAL\n\nAccording to an official announcement, South Korea's largest cryptocurrency exchange, Upbit, will add BTC and USDT trading pairs for KGEN and FLR. KGeN is a blockchain-based data infrastructure project, while Flare is an AI infrastructure protocol.\n\nAdditionally, Upbit will add a KRW trading pair for HAEDAL. Haedal Protocol is a liquid staking protocol built on the Sui network. \u2014 link",
 "title": "Upbit to Add BTC and USDT Trading Pairs for KGEN and FLR, and a KRW Trading Pair for HAEDAL",
@@ -3717,7 +3715,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795754856.0,
 "tgtext": "\ud83d\udea8 NOW: Ethereum developers set Dec. 15 for Glamsterdam's launch on the Hoodi testnet, nearly two months after the original date slipped over concerns about gas pricing changes.\n\nNews | Markets | YouTube",
 "title": "NOW: Ethereum developers set Dec. 15 for Glamsterdam's launch on the Hoodi testnet, nearly two months after the original date slipped over concerns about gas pricing changes.",
@@ -3876,6 +3874,19 @@
 "https://www.theblock.co/newsletters/the-daily/2026-11-26-fidelity-chainlink-etf-musk-x-ruling-alleged-bitcoin-content-farm-case-more-crypto-news-446755"
 ]
 },
+"f5443614b2f4": {
+"coin": "",
+"src": "Wu Blockchain",
+"srcs": [
+"Wu Blockchain"
+],
+"t": 1795769562.0701375,
+"t0": 1795768999.0,
+"tgtext": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest\n\nBinance has posted two equity capital markets (ECM) roles to build tokenized equity products from scratch, suggesting potential plans for on-chain IPOs. The business development and research analyst roles cover issuer engagement, deal structuring, due diligence, financial modeling, pricing and allocation. Both require familiarity with IPOs and follow-on offerings. \u2014 link",
+"title": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest",
+"url": "https://t.me/wublockchainenglish/26972",
+"urls": []
+},
 "f62a95d7dcd2": {
 "coin": "bitcoin",
 "src": "BigGo Finance",
@@ -3927,7 +3938,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795767456.0,
 "tgtext": "",
 "title": "Cyber Reopens CYBER Bridge With Four-Verifier Requirement After $1.1M Exploit",
@@ -4004,7 +4015,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795768946.7057905,
+"t": 1795769562.0701375,
 "t0": 1795748448.0,
 "tgtext": "A whale swapped 1,023 $BTC ($62.5M) for 36,195 $ETH ($62.5M) via #THORChain over the past 3 days.\n\nhttps://arkm.com/explorer/entity/06a0c05c-1663-4099-9e80-f1a797b85b31",
 "title": "A whale swapped 1,023 BTC ($62.5M) for 36,195 ETH ($62.5M) via THORChain over the past 3 days.",
@@ -4029,26 +4040,26 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"0159ef2c96dd": 0.248,
-"05cd04c1ea08": 0.532,
 "065ad09120a0": 0.041,
-"0d9da0f6ffeb": 0.049,
 "1056a046cac6": 0.063,
 "11709c272b30": 0.012,
 "1a8e22f71d58": 0.027,
 "26e18f1511cb": 0.425,
-"294c8ef75ef3": 0.07,
+"294c8ef75ef3": 0.179,
 "2f87e097b939": 0.021,
 "3e9760589ad4": 0.188,
-"513288f26654": 0.015,
+"459933594b38": 0.061,
+"4cd32975bc72": 0.049,
+"4ce5ecce63a0": 0.025,
 "519621dfe40c": 0.04,
-"57653d52517a": 0.074,
 "639f3a123dfc": 0.055,
 "645f3f159530": 0.04,
+"74abe9586207": 0.135,
 "78f7a83e386d": 0.063,
-"7934418c0ec4": 0.747,
+"7934418c0ec4": 0.729,
 "7c0adacdb682": 0.047,
 "8462c91da7cc": 0.041,
+"87b6f4e112ae": 0.055,
 "8cdc30451ed1": 0.898,
 "8df31cca8bcf": 0.036,
 "92a100dd0a23": 0.016,
@@ -4061,106 +4072,16 @@
 "bd2bc65057ed": 0.03,
 "c23c1f73bc76": 0.047,
 "c5ea040c94ca": 0.356,
+"c79c5317ddf6": 0.03,
 "dccd6cf41462": 0.03,
 "e85a090db51f": 0.118,
-"e87a24f04ba4": 0.018,
-"eb1b9ef659d5": 0.049,
-"f24bb741a35f": 0.089,
-"f33560103013": 0.014,
+"eb1b9ef659d5": 0.192,
+"efc260dfc632": 0.038,
+"f5443614b2f4": 0.814,
 "f888ae331375": 0.373,
 "f9b4ef214e4c": 0.023
 },
 "sent": [
-{
-"e": [],
-"k": [],
-"t": 1795585971.3006525,
-"u": [
-"https://t.me/lookonchainchannel/11272"
-],
-"w": [
-"$23",
-"77m",
-"ago",
-"btc",
-"closed",
-"days",
-"his",
-"holding",
-"hours",
-"long",
-"loracle",
-"loraclexyz",
-"loss",
-"taking"
-]
-},
-{
-"e": [
-"bloomberg",
-"fees",
-"hack",
-"reissuance",
-"some",
-"sought",
-"tether",
-"victims"
-],
-"k": [
-"hack"
-],
-"t": 1795591646.22162,
-"u": [
-"https://t.me/wublockchainenglish/26944"
-],
-"w": [
-"bloomberg",
-"fees",
-"hack",
-"reissuance",
-"some",
-"sought",
-"tether",
-"victims"
-]
-},
-{
-"e": [
-"consecutive",
-"days",
-"extending",
-"net",
-"outflow",
-"record",
-"six",
-"spot",
-"streak",
-"total"
-],
-"k": [
-"etf",
-"record"
-],
-"t": 1795593786.391078,
-"u": [
-"https://t.me/wublockchainenglish/26945"
-],
-"w": [
-"$232m",
-"bitcoin",
-"consecutive",
-"days",
-"etfs",
-"extending",
-"net",
-"outflow",
-"record",
-"six",
-"spot",
-"streak",
-"total"
-]
-},
 {
 "e": [
 "ahead",
@@ -5684,6 +5605,33 @@
 "testnet",
 "two"
 ]
+},
+{
+"e": [
+"binance",
+"chain",
+"ipos",
+"job",
+"may",
+"postings",
+"preparing",
+"suggest"
+],
+"k": [],
+"t": 1795769256.1924787,
+"u": [
+"https://t.me/wublockchainenglish/26972"
+],
+"w": [
+"binance",
+"chain",
+"ipos",
+"job",
+"may",
+"postings",
+"preparing",
+"suggest"
+]
 }
 ],
 "stories": {},
@@ -5691,64 +5639,64 @@
 "top": [
 [
 "fc5806454425",
-3,
-342,
+2,
+352,
 1
 ],
 [
 "8cdc30451ed1",
-43,
-302,
+42,
+313,
 2
 ],
 [
+"f5443614b2f4",
+18,
+9,
+1
+],
+[
 "ecb99cc9b558",
-3,
-235,
+2,
+245,
 1
 ],
 [
 "7934418c0ec4",
-73,
-272,
+72,
+282,
 7
 ],
 [
 "4624501cfd58",
 0,
-334,
+344,
 1
-],
-[
-"05cd04c1ea08",
-55,
-180,
-3
 ],
 [
 "aae23ad01c66",
 0,
-334,
+344,
 1
 ],
 [
 "1770a2979f9f",
-4,
-292,
+2,
+302,
 1
 ],
 [
 "26e18f1511cb",
 18,
-119,
+129,
 1
 ],
 [
 "f888ae331375",
 41,
-25,
+35,
 1
 ]
 ],
-"top_at": 1795768946.7057905
+"top_at": 1795769562.0701375
 }
