@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1795709693.6405027,
 1795712046.2549496,
 1795742315.576642,
 1795748754.0752318,
@@ -17,7 +16,8 @@
 1795784153.82351,
 1795790385.089649,
 1795792144.6724732,
-1795793135.7068365
+1795793135.7068365,
+1795796836.5423794
 ],
 "menu": {
 "005064432d65": {
@@ -77,7 +77,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795795801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says the US has \"the best economy\" with \"88 all-time record days in the stock market\" as stocks and bitcoin rebound after Thanksgiving.\n\nNews | Markets | YouTube",
 "title": "President Trump says the US has \"the best economy\" with \"88 all-time record days in the stock market\" as stocks and bitcoin rebound after Thanksgiving.",
@@ -95,6 +95,19 @@
 "tgtext": "Bitcoin Core Contributor Finds $0.35 Attack Could Link Bitcoin Addresses to Node IPs\n\nBitcoin Core contributor Abubakar Sadiq Ismail disclosed on Delving Bitcoin that a long-known privacy weakness in Bitcoin Core\u2019s wallet rebroadcast mechanism could allow attackers to link Bitcoin addresses to the IP addresses of nodes tracking them for less than $0.35 per attempt. The method achieved a 100% success rate across 30 simulated attributions on a regression test network (regtest), but has not been validated on mainnet. The weakness affects both hot and watch-only wallets, meaning an identified node does not necessarily control the associated funds. Other potentially affected software includes Bitcoin Knots, Sparrow in Bitcoin Core mode, Specter Desktop, Liana and Electrum Personal Server. Disabling wallet broadcasting can mitigate the risk but requires users to broadcast their transactions manually. A proposed code change, PR #36482, remains unreleased and does not eliminate all rebroadcast-related privacy risks. \u2014 link",
 "title": "Bitcoin Core Contributor Finds $0.35 Attack Could Link Bitcoin Addresses to Node IPs",
 "url": "https://t.me/wublockchainenglish/26964",
+"urls": []
+},
+"11080b596df0": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph"
+],
+"t": 1795796836.5423794,
+"t0": 1795796641.0,
+"tgtext": "\ud83c\uddfa\ud83c\uddf8 UPDATE: Risk-sensitive currencies rallied as tech stocks rebounded, while the US dollar remained on track for a weekly gain amid expectations of a December Fed rate hike.\n\nNews | Markets | YouTube",
+"title": "Risk-sensitive currencies rallied as tech stocks rebounded, while the US dollar remained on track for a weekly gain amid expectations of a December Fed rate hike.",
+"url": "https://t.me/cointelegraph/73568",
 "urls": []
 },
 "115eaf047771": {
@@ -453,7 +466,7 @@
 "CryptoPotato",
 "CryptoRank"
 ],
-"t": 1795795913.614782,
+"t": 1795796836.5423794,
 "t0": 1795791720.0,
 "tgtext": "",
 "title": "Bitcoin Suddenly Tanks Below $60K Again as Hourly Liquidations Near $200M",
@@ -485,7 +498,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795776687.0,
 "tgtext": "\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.\n\nThe platform is expected to go live in Q1 2027 to facilitate digital asset settlements.\n\nNews | Markets | YouTube\nBrazil\u2019s B3 and Six Financial Institutions to Launch Real-Pegged Stablecoin in Q1 2027\n\nAccording to Valor Econ\u00f4mico, Brazilian stock exchange B3 has partnered with Bradesco, BTG Pactual, Ita\u00fa Unibanco, Safra, Santander and XP to launch Open BRL in Q1 2027. Issued by Banco B3 and backed 1:1 by Brazilian reais, the stablecoin will facilitate cross-institution transfers and tokenized stock settlement. The partners will jointly fund the project, with investment amounts undisclosed. Other financial institutions can join from launch. \u2014 link",
 "title": "Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.",
@@ -622,7 +635,7 @@
 "Newsmax",
 "newsalert.com.pk"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795780995.0,
 "tgtext": "",
 "title": "Binance: 'Withdrawal Recovery Work' Complete After $6.3 Billion Crypto Heist",
@@ -1650,6 +1663,19 @@
 "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRUp1Z29EOExNOTN3R3R5dWRmbDhHNWx0V0EtUDc5LW05RU5IVTRybjlNbVNsNzlkOGFrcEhzeEVYZWc4WXpwY0ZNQXhYN21DTTVUX29jVGk4TmUwTFkxMkVhRHJCcmItdHhQZ0JIVXdHV3dGMUdWSWlQMlgtZUh6eEwwbVRKYU8wZ2FtRHdvMUkxcGxydmkzaWd1d1hDQ09TUHhrOWotSEtCUFlZSllrQVhRcTY2WUFBNGtDM2haYjVJYkNaamhV?oc=5",
 "urls": []
 },
+"7d7f45462899": {
+"coin": "",
+"src": "Watcher.Guru",
+"srcs": [
+"Watcher.Guru"
+],
+"t": 1795796836.5423794,
+"t0": 1795796321.0,
+"tgtext": "JUST IN: \ud83c\uddeb\ud83c\uddf7 France officially enters a technical recession.\n\n@WatcherGuru",
+"title": "\ud83c\uddeb\ud83c\uddf7 France officially enters a technical recession.",
+"url": "https://t.me/WatcherGuru/16365",
+"urls": []
+},
 "7df5741179e1": {
 "coin": "pieverse",
 "src": "The Crypto Times",
@@ -1950,7 +1976,7 @@
 "Coinpaper",
 "Crypto Briefing"
 ],
-"t": 1795796219.5369265,
+"t": 1795796530.2138693,
 "t0": 1795793142.0,
 "tgtext": "",
 "title": "Hyperliquid Price Prediction: HYPE Up 6% Ahead of Franklin Templeton ETF Entry",
@@ -2300,7 +2326,7 @@
 "Altcoin Buzz",
 "Wu Blockchain"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795788074.0,
 "tgtext": "KuCoin to Delist Privacy Coin Monero (XMR) on November 30, Following Binance and OKX\n\nKuCoin announced it will delist all Monero (XMR) spot trading pairs on November 30. XMR deposits have been permanently disabled, while withdrawals are scheduled to close on December 31. KuCoin will also discontinue XMR savings, conversion and spot trading bot services. Binance and OKX previously delisted XMR in 2024, while Kraken has discontinued XMR trading for users in several jurisdictions, including the EEA, Canada and India. \u2014 link",
 "title": "KuCoin to Delist Privacy Coin Monero (XMR) on November 30, Following Binance and OKX",
@@ -2523,7 +2549,7 @@
 "Lookonchain",
 "www.tokenpost.com"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795784000.0,
 "tgtext": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!\n\nLiquidation price: $59,101.24\nhttps://x.com/lookonchain/status/2125907891324658057\nAguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!  Liquidation price: $59,101.24 https://x.com/lookonchain/status/2125907891324658057",
 "title": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 BTC ($122.9M)! Liquidation price: $59,101.24 https://x.com/lookonchain/status/2125907891324658057",
@@ -3793,7 +3819,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795792765.0,
 "tgtext": "JUST IN: $250,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$250,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -3940,7 +3966,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795796219.5369265,
+"t": 1795796836.5423794,
 "t0": 1795785101.0,
 "tgtext": "WuBlockchain Weekly: UK Tightens DeFi Oversight, US Bitcoin Reserve Bill Advances, ECB Approves Tokenized Securities as Collateral\n\nThe UK plans to restrict retail DeFi trading via regulated exchanges. The US Strategic Bitcoin Reserve bill advanced to the House calendar. The ECB approved tokenized securities as collateral. CFTC prediction market rules advanced to White House review, while the US DOJ seeks to seize over $1B in crypto stolen in the Binance hack. OKXICE faced objections from 56 listed companies. For the full weekly roundup, subscribe to our Substack: \u2014 link",
 "title": "WuBlockchain Weekly: UK Tightens DeFi Oversight, US Bitcoin Reserve Bill Advances, ECB Approves Tokenized Securities as Collateral",
@@ -4184,84 +4210,48 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"00247598d0f4": 0.075,
 "08adbb843608": 0.127,
-"0a3b8bc43c4a": 0.988,
-"1381998e0367": 0.034,
-"14b4381ac5d2": 0.022,
-"1910b2aad590": 0.049,
-"25e94aef8ef4": 0.236,
-"27109c01a363": 0.025,
-"28402770d69d": 0.068,
-"29c6f8bcdd23": 0.049,
-"2b8fced77cbd": 0.134,
+"0a3b8bc43c4a": 0.945,
+"0a7dbe5dc048": 0.022,
+"11080b596df0": 0.895,
+"122d9295c63b": 0.159,
+"1381998e0367": 0.046,
+"25e94aef8ef4": 0.183,
+"2b8fced77cbd": 0.381,
 "300423ddf3c9": 0.048,
 "3069247c320a": 0.853,
 "31e77d5eaf2d": 0.266,
 "32bb76a9a5d5": 0.126,
 "3821749d6377": 0.476,
-"39770193963e": 0.3,
+"39770193963e": 0.306,
 "476c7c6327e4": 0.133,
-"4d49021b5417": 0.291,
-"4ff7dcb7c3fd": 0.369,
+"4d49021b5417": 0.222,
+"5fe524c4811f": 0.022,
 "6763bf839cec": 0.077,
 "67f411f9d04d": 0.064,
 "691c2fcdb64f": 0.173,
 "736ac13ba065": 0.053,
 "80a1ba039c63": 0.141,
-"8c1ecffaa230": 0.425,
-"99bc86c91b4a": 0.134,
-"9db301992710": 0.525,
+"8c1ecffaa230": 0.139,
+"8eaa7ff55ab1": 0.083,
+"969784f5bb9d": 0.14,
+"9db301992710": 0.445,
+"a84dfecd9851": 0.035,
 "aa6c75bce1fe": 0.988,
-"bb1bea785c97": 0.035,
-"be7edf6a676d": 0.052,
-"c71715e4ff5e": 0.071,
-"cc36071a7b44": 0.086,
+"c2893172a499": 0.072,
+"c71715e4ff5e": 0.24,
+"cbb68fb0acf3": 0.031,
+"d790cb628de1": 0.278,
 "daf4d8e0d034": 0.298,
-"ea20634d4de8": 0.011,
+"ea5f29a8e866": 0.022,
 "ed32e761a77a": 0.936,
 "ed8dc3e358e5": 0.068,
+"eda5f7abf945": 0.05,
+"eebfbbc42751": 0.11,
 "f1fff580ed20": 0.144,
-"f3c0be464e3d": 0.362,
-"f848b00e742f": 0.073
+"f848b00e742f": 0.214
 },
 "sent": [
-{
-"e": [
-"big",
-"nvidia",
-"reuters"
-],
-"k": [
-"legal"
-],
-"t": 1795623672.6664793,
-"u": [
-"https://t.me/cointelegraph/73526"
-],
-"w": [
-"$290",
-"2018",
-"about",
-"agreed",
-"alleging",
-"big",
-"cryptocurrency",
-"generated",
-"investor",
-"lawsuit",
-"million",
-"mining",
-"misled",
-"nvidia",
-"pay",
-"per",
-"reuters",
-"revenue",
-"settle",
-"shareholders"
-]
-},
 {
 "e": [
 "agrees",
@@ -5617,71 +5607,104 @@
 "time",
 "trump"
 ]
+},
+{
+"e": [
+"december",
+"fed",
+"risk"
+],
+"k": [],
+"t": 1795796836.5423794,
+"u": [
+"https://t.me/cointelegraph/73568"
+],
+"w": [
+"amid",
+"currencies",
+"december",
+"dollar",
+"expectations",
+"fed",
+"gain",
+"hike",
+"rallied",
+"rate",
+"rebounded",
+"remained",
+"risk",
+"sensitive",
+"stocks",
+"tech",
+"track",
+"weekly",
+"while"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"aa6c75bce1fe",
+45,
+214,
+2
+],
+[
 "0a3b8bc43c4a",
 30,
-7,
+17,
 1
 ],
 [
-"aa6c75bce1fe",
-46,
-204,
+"ed32e761a77a",
+41,
+68,
 2
 ],
 [
-"ed32e761a77a",
-49,
-58,
-2
+"11080b596df0",
+24,
+3,
+1
 ],
 [
 "3069247c320a",
-11,
-326,
+10,
+336,
+3
+],
+[
+"7d7f45462899",
+10,
+9,
+1
+],
+[
+"3821749d6377",
+64,
+264,
 3
 ],
 [
 "9db301992710",
 43,
-136,
+146,
 2
-],
-[
-"3821749d6377",
-66,
-254,
-3
-],
-[
-"8c1ecffaa230",
-42,
-51,
-2
-],
-[
-"4ff7dcb7c3fd",
-48,
-282,
-4
 ],
 [
 "f3c0be464e3d",
-10,
-185,
+8,
+196,
 1
 ],
 [
-"778160d28b9d",
-10,
-44,
-1
+"2b8fced77cbd",
+41,
+85,
+2
 ]
 ],
-"top_at": 1795796219.5369265
+"top_at": 1795796836.5423794
 }
