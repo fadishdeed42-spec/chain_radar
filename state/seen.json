@@ -4,8 +4,6 @@
 },
 "init": true,
 "log": [
-1795625808.421675,
-1795632891.7301338,
 1795658739.2706923,
 1795670564.9851964,
 1795673014.247192,
@@ -15,7 +13,8 @@
 1795695594.8416145,
 1795697150.2028682,
 1795709693.6405027,
-1795712046.2549496
+1795712046.2549496,
+1795742315.576642
 ],
 "menu": {
 "005064432d65": {
@@ -949,7 +948,7 @@
 "srcs": [
 "Crypto Economy"
 ],
-"t": 1795741997.9751308,
+"t": 1795742620.2582495,
 "t0": 1795733744.0,
 "tgtext": "",
 "title": "Injective Pushes SEC to Approve Onchain Order Books for Tokenized U.S. Stocks",
@@ -1074,6 +1073,19 @@
 "https://cryptoslate.com/chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem/"
 ]
 },
+"4dd591c61a0e": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795742620.2582495,
+"t0": 1795742146.0,
+"tgtext": "Abraxas Capital bought another 1,700 $BTC ($103M)!\n\nOver the past week, Abraxas Capital has accumulated a total of 21,520 $BTC ($1.285B) at an average price of $59,739.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
+"title": "Abraxas Capital bought another 1,700 BTC ($103M)!",
+"url": "https://t.me/lookonchainchannel/11297",
+"urls": []
+},
 "50065ea6dd19": {
 "coin": "",
 "src": "Lookonchain",
@@ -1132,7 +1144,7 @@
 "Dosya Haber",
 "Latest news from Azerbaijan"
 ],
-"t": 1795741997.9751308,
+"t": 1795742315.576642,
 "t0": 1795720956.0,
 "tgtext": "",
 "title": "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
@@ -1408,6 +1420,19 @@
 "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery"
 ]
 },
+"67e15a628eda": {
+"coin": "bitcoin",
+"src": "Cryptonews.net",
+"srcs": [
+"Cryptonews.net"
+],
+"t": 1795742620.2582495,
+"t0": 1795741603.0,
+"tgtext": "",
+"title": "Bitcoin Price Rebounds as $16B in Shorts Face Liquidation Risk",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45MkFWZTNqWWFGamhDZnRvT3hHRjN1YU9IalFsTVFBT2JBNkV4NjJsOFNoLVlHYlRTRk9pNndTZV9SMmV5RXF5emdmQUt0eDBDZVdtWUo0VlM?oc=5",
+"urls": []
+},
 "696abee1caf2": {
 "coin": "bitcoin",
 "src": "Watcher.Guru",
@@ -1608,7 +1633,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795741356.2108626,
+"t": 1795742315.576642,
 "t0": 1795737300.0,
 "tgtext": "",
 "title": "Strategy's Market Value Falls to 0.88x Its Bitcoin Holdings \u2014 Lowest Premium on Record Signals 'Capitulation Selling'",
@@ -2055,7 +2080,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795741997.9751308,
+"t": 1795742620.2582495,
 "t0": 1795728585.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX $SPCX stock to every child in America every year.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 ELON MUSK: \u201cI will be donating another share of SpaceX to all kids in America every year.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX SPCX stock to every child in America every year.",
@@ -2091,21 +2116,6 @@
 "https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources"
 ]
 },
-"92ac0f71bafd": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795569663.862083,
-"t0": 1795553307.0,
-"tgtext": "",
-"title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
-"url": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"urls": [
-"https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-]
-},
 "92e11d62ccca": {
 "coin": "bitcoin",
 "src": "Coinpedia",
@@ -2130,7 +2140,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795740743.4476826,
+"t": 1795742620.2582495,
 "t0": 1795727633.0,
 "tgtext": "",
 "title": "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase",
@@ -2309,7 +2319,7 @@
 "BigGo Finance",
 "investingLive"
 ],
-"t": 1795741661.0773616,
+"t": 1795742620.2582495,
 "t0": 1795732106.0,
 "tgtext": "",
 "title": "Strategy's Market Value Falls to 0.88x Its Bitcoin Holdings \u2014 Lowest Premium on Record Signals 'Capitulation Selling'",
@@ -2817,11 +2827,11 @@
 "CryptoSlate",
 "The Economic Times"
 ],
-"t": 1795741997.9751308,
+"t": 1795742620.2582495,
 "t0": 1795721423.0,
 "tgtext": "",
 "title": "Bitcoin price prediction 2027: BTC USD today rebounds above $60,000 after crashing to $57,500 - can the la",
-"url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPYmVHMkRLajNTLU5mS1hJTWdqZHpOVkFXSERRLW9GVTNrRFQ5NkkzT3FIZ0I5SUlmc2dXVGFBXy1kelFYdVpFbTlTTC1QMzB2THhQaUg5WDFFcnNRMHRaUGpsamFmWDdLbzZvYnBvc2l2SnBfaWF5OWVWa2VaNkgtM2JNeUg3SWR3ODFtRmg0cWJlU19XTnhBb2dsZUdSM19OaTV0aEZyZ2tvQkZHaXkxb2pKU1RGdFdDZ1g5VTRodm1JY1Mxb1E1X3MzbC1MUXhZeUdvR1RNMElhck51amhvXzJGckd1T0tMdU5zRFpZZy1LaUNOUjFhXzZENW5OMUtWaHE0Ti00c1RRMzB1NjFJVHVzWFdqMEFkUHJfenJsRlZGYUY0WUZ0QnQ3ZjVNaXYzbUJqcFVrbm5yNkpyc0NQSDZEQmtoZ3hUaWpRcFlSSGF3SFVfUDhfZFVQOFZqMHBiZ25DU2l0YTTSAeICQVVfeXFMT09adWpZbEMxN3dUcXlFaDdxOVY3aUJ6amFjazdXeFR3UWFMMlJ0OGZ2VDBacFRnTVQ0WEg5SWxaVFpuMnBqbWRTLUxiUU13Q1FLYzdObWFjQWxnMnRxcTE1SktTdUM4MHlpVWQ3QVh0djdQOHhmcERleGdxYmxQR0tDZHNOMWRGRVlIb3RfMnc3VUd6UTBuZWtTQXdwdmpRbk5IeFBGSHRjbmc2bjRjUXF2WFY0QklwLVIyM0h2Y1BiMl9DeExzUUV3aXZWWUVKbGwxTnhCX1lRS3F6TDRUZFRFdUJyUXhsOUE4VDhvQ1dCM3FDYWd0aF9XbkwtX2Vna2lQTEdsV0NOUGZfb0ZOSXZXeVpBR3F3c2liZnlUMmptYTRTQUl0Ti1HOWFiUGtCRVNWRUJaOFVacnNEVEgtRjZYUTRFMzNmc3ZuLWlWSU9ZaTh0OFMtR1FPcEs2UlJ2ejN3?oc=5",
+"url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxPT1p1allsQzE3d1RxeUVoN3E5VjdpQnpqYWNrN1d4VHdRYUwyUnQ4ZnZUMFpwVGdNVDRYSDlJbFpUWm4ycGptZFMtTGJRTXdDUUtjN05tYWNBbGcydHFxMTVKS1N1QzgweWlVZDdBWHR2N1A4eGZwRGV4Z3FibFBHS0Nkc04xZEZFWUhvdF8ydzdVR3pRMG5la1NBd3B2alFuTkh4UEZIdGNuZzZuNGNRcXZYVjRCSXAtUjIzSHZjUGIyX0N4THNRRXdpdlZZRUpsbDFOeEJfWVFLcXpMNFRkVEV1QnJReGw5QThUOG9DV0IzcUNhZ3RoX1duTC1fZWdraVBMR2xXQ05QZl9vRk5Jdld5WkFHcXdzaWJmeVQyam1hNFNBSXROLUc5YWJQa0JFU1ZFQlo4VVpyc0RUSC1GNlhRNEUzM2Zzdm4taVZJT1lpOHQ4Uy1HUU9wSzZSUnZ6M3fSAeICQVVfeXFMT09adWpZbEMxN3dUcXlFaDdxOVY3aUJ6amFjazdXeFR3UWFMMlJ0OGZ2VDBacFRnTVQ0WEg5SWxaVFpuMnBqbWRTLUxiUU13Q1FLYzdObWFjQWxnMnRxcTE1SktTdUM4MHlpVWQ3QVh0djdQOHhmcERleGdxYmxQR0tDZHNOMWRGRVlIb3RfMnc3VUd6UTBuZWtTQXdwdmpRbk5IeFBGSHRjbmc2bjRjUXF2WFY0QklwLVIyM0h2Y1BiMl9DeExzUUV3aXZWWUVKbGwxTnhCX1lRS3F6TDRUZFRFdUJyUXhsOUE4VDhvQ1dCM3FDYWd0aF9XbkwtX2Vna2lQTEdsV0NOUGZfb0ZOSXZXeVpBR3F3c2liZnlUMmptYTRTQUl0Ti1HOWFiUGtCRVNWRUJaOFVacnNEVEgtRjZYUTRFMzNmc3ZuLWlWSU9ZaTh0OFMtR1FPcEs2UlJ2ejN3?oc=5",
 "urls": [
 "https://cryptoslate.com/bitcoins-60000-recovery-masks-a-growing-threat-that-could-push-its-price-as-low-as-29000/"
 ]
@@ -3129,7 +3139,7 @@
 "CryptoRank",
 "TradingView"
 ],
-"t": 1795741997.9751308,
+"t": 1795742620.2582495,
 "t0": 1795724060.0,
 "tgtext": "",
 "title": "Bitcoin Price Analysis: Can BTC Hold $60K as Apparent Demand Plunges to Record Lows?",
@@ -3252,6 +3262,25 @@
 "https://bitcoinmagazine.com/news/strategic-bitcoin-reserve-bill-house-floor"
 ]
 },
+"d56721388626": {
+"coin": "hyperliquid",
+"src": "OneBullEx",
+"srcs": [
+"Cointelegraph",
+"Crypto Briefing",
+"Crypto Economy",
+"Crypto News",
+"Dosya Haber"
+],
+"t": 1795742620.2582495,
+"t0": 1795721090.0,
+"tgtext": "",
+"title": "Ali Martinez Names Hyperliquid, Pepe, And Stacks As Altcoins Holding Key Fibonacci Levels After Binance Hack",
+"url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbW0xTVRQUFViQXlMalBiSndWYnRBNVF3VFVISUc4OVNoUl9mTVAxRnVMc3ZkQk51RHEtVzVfX1VDdVlXcmd4QWlYQTd4RzlxZWxVNUpuS1NZNEhnSmF4RjVjdVVVcXhVaEYtVk1aRWZvUEpFMFo5MnExRDBBdzdtS3N6NGl3X2gyam5HRFRXSVU0MXdXMWRUOElfTkx4MmNmcGU2STB2MFZDMTJXRU9ZT1pTalNpcU9jUHdHMG5ZcXczMHpsZ2VROFRzd3kzRkxmVW5GMzdYcV9xLW1fN2xF?oc=5",
+"urls": [
+"https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "d71f4ece01ce": {
 "coin": "bitcoin",
 "src": "Cointelegraph",
@@ -3307,7 +3336,7 @@
 "srcs": [
 "CoinMarketCap"
 ],
-"t": 1795741997.9751308,
+"t": 1795742315.576642,
 "t0": 1795727190.0,
 "tgtext": "",
 "title": "Zcash (ZEC) Drops 3.59% Amid Whale Deposits, Liquidations",
@@ -3617,7 +3646,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795741997.9751308,
+"t": 1795742315.576642,
 "t0": 1795729363.0,
 "tgtext": "",
 "title": "BNB Chain details new layer-1 for trading, private finance and AI",
@@ -4023,7 +4052,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795741997.9751308,
+"t": 1795742620.2582495,
 "t0": 1795741425.0,
 "tgtext": "Binance Will Support the Cash Dividend Distribution of The Wendy's Company (WEN), NVIDIA Corporation (NVDA), Qualcomm Incorporated (QCOM), PayPal Holdings, Inc. (PYPL), and Western Digital Corporation (WDC) via bStocks\n\n\nBinance will support The Wendy's Company (WEN), NVIDIA Corporation (NVDA), Qualcomm Incorporated (QCOM), PayPal Holdings, Inc. (PYPL), and Western Digital Corporation (WDC) cash dividend distribution via bStocks for WENB, NVDAB, QCOMB, PYPLB, and WDCB holders. Net amount of the cash dividend will be reinvested after applicable withholding taxes, fees, costs, and other deductions, into additional units or fractions of the same underlying security. Eligible users will receive dividends in the form of WENB, NVDAB, QCOMB, PYPLB and WDCB bStocks respectively.\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support the Cash Dividend Distribution of The Wendy's Company (WEN), NVIDIA Corporation (NVDA), Qualcomm Incorporated (QCOM), PayPal Holdings, Inc. (PYPL), and Western Digital Corporation (WDC) via bStocks",
@@ -4037,44 +4066,44 @@
 "probs": {
 "05f2ba7fab85": 0.054,
 "072223e4378c": 0.042,
-"13feaf2f89ec": 0.027,
-"2052bb631299": 0.043,
-"276d411c7b25": 0.034,
+"0c23da4b7058": 0.085,
+"276d411c7b25": 0.016,
+"3612c3e02956": 0.083,
 "378b3f8b5b29": 0.099,
+"483b64d79a89": 0.043,
 "48901c1df67d": 0.08,
 "4a8892118dcf": 0.051,
 "4ae69f827d75": 0.154,
+"4d64bbf88816": 0.057,
+"4dd591c61a0e": 0.73,
 "4ef0ddef68c5": 0.048,
-"5541d1149082": 0.824,
-"5807c5328a7c": 0.03,
 "5b770edabd40": 0.119,
 "60670fb6ffd2": 0.069,
 "61a0a6894125": 0.087,
+"67e15a628eda": 0.214,
 "6fa0d13c4f5b": 0.102,
-"78f7a83e386d": 0.07,
+"78f7a83e386d": 0.086,
 "802dff21b2e9": 0.029,
 "85d9795b165f": 0.016,
 "8d79b819ff03": 0.748,
 "8fcd1ce94a55": 0.019,
-"93b77a109498": 0.116,
+"93b77a109498": 0.142,
 "9713d13a3149": 0.031,
-"9a1e4828ddf8": 0.274,
 "9f47a6d4a799": 0.03,
-"a3f551f6200b": 0.104,
+"9fbf62824a21": 0.061,
+"a3f08b2df337": 0.214,
 "a7482c542d1b": 0.091,
-"a82772c0cc10": 0.139,
-"b9f96cfa4c59": 0.12,
 "c0802f855fa5": 0.206,
 "ce8aae9bd5ce": 0.107,
-"d05a91ffb818": 0.338,
-"d8984aa5c4d3": 0.212,
-"e04d466ba224": 0.04,
+"d05a91ffb818": 0.438,
+"d56721388626": 0.826,
+"d8984aa5c4d3": 0.055,
+"dc1649455628": 0.084,
+"e04d466ba224": 0.05,
 "e7075033426d": 0.131,
 "ec6fb4dc6ac6": 0.053,
-"ec8f4d9bd7c7": 0.038,
-"f8b3ff283637": 0.03,
 "fa0e3c709d62": 0.038,
-"fe895f955da4": 0.428
+"fe895f955da4": 0.163
 },
 "sent": [
 {
@@ -5555,71 +5584,91 @@
 "stock",
 "year"
 ]
+},
+{
+"e": [
+"abraxas",
+"capital"
+],
+"k": [],
+"t": 1795742315.576642,
+"u": [
+"https://t.me/lookonchainchannel/11297"
+],
+"w": [
+"$103m",
+"700",
+"abraxas",
+"another",
+"bought",
+"btc",
+"capital"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"5541d1149082",
-63,
-351,
-7
+"d56721388626",
+62,
+359,
+11
 ],
 [
 "8d79b819ff03",
-23,
-224,
+21,
+234,
+2
+],
+[
+"4dd591c61a0e",
+16,
+8,
+1
+],
+[
+"d05a91ffb818",
+48,
+309,
+2
+],
+[
+"a3f08b2df337",
+32,
+175,
+2
+],
+[
+"67e15a628eda",
+48,
+17,
+1
+],
+[
+"c0802f855fa5",
+7,
+353,
 2
 ],
 [
 "fe895f955da4",
 18,
-10,
+20,
 1
-],
-[
-"d05a91ffb818",
-50,
-299,
-2
-],
-[
-"9a1e4828ddf8",
-40,
-90,
-1
-],
-[
-"d8984aa5c4d3",
-40,
-247,
-1
-],
-[
-"c0802f855fa5",
-9,
-343,
-2
 ],
 [
 "4ae69f827d75",
 24,
-138,
+148,
 1
 ],
 [
-"a82772c0cc10",
-38,
-202,
-2
-],
-[
-"e7075033426d",
-6,
-211,
+"93b77a109498",
+9,
+250,
 1
 ]
 ],
-"top_at": 1795741997.9751308
+"top_at": 1795742620.2582495
 }
