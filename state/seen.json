@@ -4,9 +4,6 @@
 },
 "init": true,
 "log": [
-1795691434.0943713,
-1795695594.8416145,
-1795697150.2028682,
 1795709693.6405027,
 1795712046.2549496,
 1795742315.576642,
@@ -16,7 +13,8 @@
 1795751206.7804928,
 1795769256.1924787,
 1795773000.908115,
-1795777659.946888
+1795777659.946888,
+1795784153.82351
 ],
 "menu": {
 "005064432d65": {
@@ -506,7 +504,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795776687.0,
 "tgtext": "\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.\n\nThe platform is expected to go live in Q1 2027 to facilitate digital asset settlements.\n\nNews | Markets | YouTube\nBrazil\u2019s B3 and Six Financial Institutions to Launch Real-Pegged Stablecoin in Q1 2027\n\nAccording to Valor Econ\u00f4mico, Brazilian stock exchange B3 has partnered with Bradesco, BTG Pactual, Ita\u00fa Unibanco, Safra, Santander and XP to launch Open BRL in Q1 2027. Issued by Banco B3 and backed 1:1 by Brazilian reais, the stablecoin will facilitate cross-institution transfers and tokenized stock settlement. The partners will jointly fund the project, with investment amounts undisclosed. Other financial institutions can join from launch. \u2014 link",
 "title": "Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.",
@@ -574,7 +572,7 @@
 "The Defiant",
 "Yahoo Finance"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795764059.0,
 "tgtext": "",
 "title": "Binance Restores Crypto Withdrawals Following $6.3B Hack, Ending Weeks of Disruption",
@@ -746,7 +744,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795762960.0,
 "tgtext": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-11-28\n\n\nU.S. Stock Trading on Binance will be temporarily unavailable due to a scheduled system upgrade by our partner broker. During this period, users will not be able to place stock trading orders. \n- System Upgrade Window: 2026-11-28 21:50 (UTC) - 2026-11-29 00:30 (UTC)\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-11-28",
@@ -1753,22 +1751,6 @@
 "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
 ]
 },
-"80053aa32c36": {
-"coin": "bitcoin",
-"src": "CryptoTicker.io",
-"srcs": [
-"CryptoTicker.io",
-"The Block"
-],
-"t": 1795611456.8352869,
-"t0": 1795591617.0,
-"tgtext": "",
-"title": "Bitcoin price ahead of PCE data: a sixth straight day of ETF outflows pushes BTC to $59,200",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpQzB3cHd3bkZKaGpaTmpucERSX1RtMlRHSndzeUFnMmNhc3B4UWJBZG00Q1Y4dXNPeW1fSm5wdkRaSVdTbjRHOWhaNS14bEN3ZTREV3pxdHdzS2gyZkRRdnJMUURHcDBQcTVSRnk0N2lBVDBiTlE?oc=5",
-"urls": [
-"https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109"
-]
-},
 "8031c0a0b0d9": {
 "coin": "",
 "src": "Tampa Free Press",
@@ -2138,7 +2120,7 @@
 "Cointelegraph",
 "TradingView"
 ],
-"t": 1795783846.0001626,
+"t": 1795784153.82351,
 "t0": 1795770461.0,
 "tgtext": "",
 "title": "JPMorgan Reportedly Spots Bitcoin \u2018Capitulation\u2019 Signal in Michael Saylor\u2019s Strategy as MSTR Stock Hits 52-Week Low",
@@ -2218,7 +2200,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795766679.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa NEW: The EU is set to overhaul its MiCA crypto register by mid-2027, introducing a searchable platform, automated data checks and version histories for crypto white papers.\n\nhttps://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027\n\nNews | Markets | YouTube",
 "title": "The EU is set to overhaul its MiCA crypto register by mid-2027, introducing a searchable platform, automated data checks and version histories for crypto white papers.",
@@ -2278,7 +2260,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795781995.417129,
+"t": 1795784463.8261507,
 "t0": 1795772789.0,
 "tgtext": "JUST IN: World's second-largest insurance broker Aon settles its first crypto stablecoin insurance premiums on Solana $SOL.\n\n@WatcherGuru",
 "title": "World's second-largest insurance broker Aon settles its first crypto stablecoin insurance premiums on Solana SOL.",
@@ -2468,7 +2450,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795770267.0,
 "tgtext": "JUST IN: \ud83c\uddea\ud83c\uddfa EU to launch upgraded crypto registry in mid-2027, making it easier to verify authorized crypto companies.\n\n@WatcherGuru",
 "title": "\ud83c\uddea\ud83c\uddfa EU to launch upgraded crypto registry in mid-2027, making it easier to verify authorized crypto companies.",
@@ -2494,7 +2476,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795771675.0,
 "tgtext": "Whale \"0x69b5\" bought the dip 6 days ago, buying 9,425 $ETH ($15.08M) at an average price of $1,600.\n\nOver the past hour, he sold it all at $1,733, making $1.25M in profit!\n\nhttps://arkm.com/explorer/address/0x69b590d9d761b396Db4465F3Dee34d43Afa0e378",
 "title": "Whale \"0x69b5\" bought the dip 6 days ago, buying 9,425 ETH ($15.08M) at an average price of $1,600.",
@@ -2526,6 +2508,19 @@
 "tgtext": "",
 "title": "Ethereum Price Reclaims $1,700: Network Activity Defies 39% Crash, $80M Shorts Liquidated",
 "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTzNSM0I4WkxHSC1Ea1R3S01OaUtQeUNNZzJUd2RSeTBNYi1Id042UXBrS1lYWmVRT3N2YUw3SERVbkVYUFFqc0RhZjZaMEhvZlhIeUZTZkFaMkZCWl9tb0NXZC02dFFPT1ZHNUJZYmd5UUM5bFpmWklGYWpsNFBTY3JQRWg2cGpUVHphVXdqTEMzZDg?oc=5",
+"urls": []
+},
+"aa6c75bce1fe": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795784463.8261507,
+"t0": 1795784000.0,
+"tgtext": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!\n\nLiquidation price: $59,101.24\nhttps://x.com/lookonchain/status/2125907891324658057",
+"title": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 BTC ($122.9M)!",
+"url": "https://t.me/lookonchainchannel/11303",
 "urls": []
 },
 "aae23ad01c66": {
@@ -3995,7 +3990,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795768999.0,
 "tgtext": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest\n\nBinance has posted two equity capital markets (ECM) roles to build tokenized equity products from scratch, suggesting potential plans for on-chain IPOs. The business development and research analyst roles cover issuer engagement, deal structuring, due diligence, financial modeling, pricing and allocation. Both require familiarity with IPOs and follow-on offerings.\n\nBinance co-CEO Yi He said at BNB Demo Night in Bangkok that Binance plans to introduce more asset types, including RWA products, tokenized IPOs and dedicated IPO subscription services, pending regulatory approval. She noted that RWAs, global stablecoin adoption and 24/7 trading of tokenized U.S. stocks are becoming a reality. \u2014 link",
 "title": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest",
@@ -4053,7 +4048,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795783846.0001626,
+"t": 1795784463.8261507,
 "t0": 1795767456.0,
 "tgtext": "",
 "title": "Cyber Reopens CYBER Bridge With Four-Verifier Requirement After $1.1M Exploit",
@@ -4169,98 +4164,52 @@
 }
 },
 "movers": {
+"bitway": 1795784463.8261507,
 "monero": 1795706624.3533547
 },
 "probs": {
-"0768f2c79b7b": 0.261,
+"03018a173976": 0.124,
+"03a21ba520ec": 0.045,
+"065ad09120a0": 0.058,
 "0df5928b3ddb": 0.031,
-"1632fadd49f0": 0.148,
-"17167a74cd97": 0.052,
+"0fce2d64fd3e": 0.172,
 "17751a59a271": 0.222,
-"1a7178e9799e": 0.033,
-"1ed413c99798": 0.309,
-"2f3b36e7e69c": 0.066,
+"1a7178e9799e": 0.041,
 "3069247c320a": 0.861,
 "3416436403f4": 0.723,
-"3ea18d854fde": 0.021,
+"35f34fc25be6": 0.073,
+"390cf952ce84": 0.072,
 "40257d1cab35": 0.141,
-"40579092fdea": 0.067,
 "4ce5ecce63a0": 0.126,
+"4ff7dcb7c3fd": 0.06,
 "5265be6773a2": 0.051,
 "67f411f9d04d": 0.095,
 "691c2fcdb64f": 0.183,
-"701d5ae27cda": 0.429,
-"74abe9586207": 0.071,
+"701d5ae27cda": 0.141,
+"76b5d598096e": 0.078,
 "7e0bad302e6b": 0.035,
 "843e153cb82d": 0.058,
 "8a294b7e6c7d": 0.294,
-"8df31cca8bcf": 0.101,
-"9178128f467f": 0.436,
-"97ef4ca28248": 0.092,
-"9846e6b19dfd": 0.373,
+"9846e6b19dfd": 0.429,
+"99bc86c91b4a": 0.309,
 "a7a72f45b9e4": 0.977,
-"aa31bedb38ff": 0.065,
-"ae5e2f7032f0": 0.017,
-"ca287d92c71e": 0.03,
+"aa31bedb38ff": 0.081,
+"aa6c75bce1fe": 0.888,
+"c5cbf79072d1": 0.039,
+"c71715e4ff5e": 0.038,
 "d7099959e078": 0.31,
 "da7480c0ace0": 0.335,
 "e2e99c4b7107": 0.071,
-"ea20634d4de8": 0.024,
+"e679ae62fd45": 0.135,
 "eaede2851cb6": 0.262,
 "efc260dfc632": 0.075,
-"f2fa23d49679": 0.111,
-"f5443614b2f4": 0.679,
+"f1d939f95bb0": 0.021,
+"f2fa23d49679": 0.25,
+"f5443614b2f4": 0.728,
 "f888ae331375": 0.425,
 "f8ffb53d66e9": 0.181
 },
 "sent": [
-{
-"e": [
-"does"
-],
-"k": [],
-"t": 1795605135.3592253,
-"u": [
-"https://t.me/lookonchainchannel/11275"
-],
-"w": [
-"does",
-"don",
-"know",
-"something",
-"whale"
-]
-},
-{
-"e": [
-"basically",
-"chart",
-"fire",
-"rainbow",
-"sale"
-],
-"k": [
-"ban"
-],
-"t": 1795609625.3425126,
-"u": [
-"https://t.me/cointelegraph/73518",
-"https://news.google.com/rss/articles/CBMic0FVX3lxTE5uVkdWV0Z6YmExWFZqQmhGU3MzN2JrYlRnam9nLVpXWlRtVXROaVhHdEx0UlhyNldyZzhfVVVoN2haUVY3ZDVERm1oWjJvd0hCeGRxSEpVZ3VwQnhoSlktbjM3bVB0MGxHM0w2cG5nXzNNMGs?oc=5"
-],
-"w": [
-"band",
-"basically",
-"below",
-"bitcoin",
-"chart",
-"fallen",
-"fire",
-"labeled",
-"lowest",
-"rainbow",
-"sale"
-]
-},
 {
 "e": [
 "binance",
@@ -5666,6 +5615,26 @@
 "stablecoin",
 "stock"
 ]
+},
+{
+"e": [
+"aguilatrades"
+],
+"k": [],
+"t": 1795784153.82351,
+"u": [
+"https://t.me/lookonchainchannel/11303"
+],
+"w": [
+"$122",
+"000",
+"40x",
+"aguilatrades",
+"btc",
+"just",
+"long",
+"opened"
+]
 }
 ],
 "stories": {},
@@ -5673,64 +5642,64 @@
 "top": [
 [
 "a7a72f45b9e4",
-21,
-203,
+20,
+213,
+1
+],
+[
+"aa6c75bce1fe",
+16,
+8,
 1
 ],
 [
 "3069247c320a",
 30,
-119,
+130,
 3
 ],
 [
+"f5443614b2f4",
+8,
+258,
+1
+],
+[
 "3416436403f4",
-66,
-330,
+64,
+340,
 6
 ],
 [
 "3e9760589ad4",
 0,
-348,
-1
-],
-[
-"f5443614b2f4",
-10,
-247,
+358,
 1
 ],
 [
 "94628a227fd9",
 0,
-286,
+296,
 1
 ],
 [
-"9178128f467f",
-33,
-223,
-3
-],
-[
-"701d5ae27cda",
-40,
-236,
+"9846e6b19dfd",
+9,
+195,
 1
 ],
 [
 "f888ae331375",
-29,
-273,
+28,
+283,
 1
 ],
 [
 "a68c57f1c54c",
-4,
-226,
+3,
+237,
 1
 ]
 ],
-"top_at": 1795783846.0001626
+"top_at": 1795784463.8261507
 }
