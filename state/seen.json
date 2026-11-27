@@ -450,9 +450,10 @@
 "coin": "bitcoin",
 "src": "CryptoPotato",
 "srcs": [
-"CryptoPotato"
+"CryptoPotato",
+"CryptoRank"
 ],
-"t": 1795794061.529372,
+"t": 1795795600.272413,
 "t0": 1795791720.0,
 "tgtext": "",
 "title": "Bitcoin Suddenly Tanks Below $60K Again as Hourly Liquidations Near $200M",
@@ -484,7 +485,7 @@
 "Cointelegraph",
 "Wu Blockchain"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795776687.0,
 "tgtext": "\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.\n\nThe platform is expected to go live in Q1 2027 to facilitate digital asset settlements.\n\nNews | Markets | YouTube\nBrazil\u2019s B3 and Six Financial Institutions to Launch Real-Pegged Stablecoin in Q1 2027\n\nAccording to Valor Econ\u00f4mico, Brazilian stock exchange B3 has partnered with Bradesco, BTG Pactual, Ita\u00fa Unibanco, Safra, Santander and XP to launch Open BRL in Q1 2027. Issued by Banco B3 and backed 1:1 by Brazilian reais, the stablecoin will facilitate cross-institution transfers and tokenized stock settlement. The partners will jointly fund the project, with investment amounts undisclosed. Other financial institutions can join from launch. \u2014 link",
 "title": "Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.",
@@ -685,23 +686,6 @@
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 JUST IN: Trump administration officials reportedly considered the Defense Production Act as a way to pressure Nvidia into reinstating Jensen Huang as CEO, per The Washington Post. \n\nThe Pentagon denies the talks took place.\n\nNews | Markets | YouTube",
 "title": "Trump administration officials reportedly considered the Defense Production Act as a way to pressure Nvidia into reinstating Jensen Huang as CEO, per The Washington Post.",
 "url": "https://t.me/cointelegraph/73533",
-"urls": []
-},
-"3e3085aed670": {
-"coin": "tether",
-"src": "Gadgets 360",
-"srcs": [
-"Coin Edition",
-"Coin Gabbar",
-"Coinfomania",
-"Gadgets 360",
-"Incrypted"
-],
-"t": 1795622451.667702,
-"t0": 1795601025.0,
-"tgtext": "",
-"title": "Tether Accused of Seeking 20 Percent Cut From Hack Victims to Release Frozen USDT",
-"url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTFhza3Fia2EtdjhKZVFCeVMwVG91MldsX3pXSlJjUFVia0RlMFJMbjJwbjZxclA0ZTNDbDhvODZuV0dFYWlkV19wcDREVFhVbUpSVmxwamJEcExQdGl5Z3pqSVhhYXB4TTlKa3NjaUxIWVVDemJIeWJBUm9Xa1B5N1lNNWtDXzZYczhIekh6ejFhUFNxRnZ2eHI5TmtDdkZNb0FJSkotZlM4R2dVMmpzOHJDUm1vTFNONVJoaW50NkI0STl3Q2lSb3M5aGtZb2diYkR5cXJ3a3UzdHJuc1c2WnMyakFFZk1xLVVkcTZuYWlrdmcxM3hPMVJtNzfSAYICQVVfeXFMTVBXeFNNNV9BUEswTDhiTWFYa0lJRnlhc3pQVzJxMVc3aG9qT3paUjBPUnNYRmM5Qy1fc2J5NkRyX0VINDl6UkY4N09kSGJZS3NyeVFFODVpM3pia09uSGZnWnFUdmJ0YXZvVVZQc0h3dmVpVXJhUHk2NDZXTmgzQUlCcXgwNHBESFI2V01uakNwWmdqSzVvaGo4NjliMWdRZGR1SXc1dHVzaWtReGpVZVJxREt0Wl8tLXhuVFRrUGFsRmFQTjRONTJwaTlzOHhiY2lnbjZfRzFqUE5TbGFyaVFjVmhZaWo3NmJmUk85by1KbzlUQU5nTF9FZ20tX1MwUkt3?oc=5",
 "urls": []
 },
 "3e9760589ad4": {
@@ -1048,6 +1032,23 @@
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uMDVBYVRVN0dqQWM5eHB1LW90ZTUxSkxuQmVTUlRyZ3daWC13SmdUWDVGcjdDeFdZV1g3ZGtoTGZ6TFpIZnNhbjlKNlZkZnF0anVzTjExcEtvb2l4U2hmVUwtN3VhT3R1Yk82UElpbDFlaUQxLWpV?oc=5",
 "urls": [
 "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
+]
+},
+"4ff7dcb7c3fd": {
+"coin": "bitcoin",
+"src": "CoinDesk",
+"srcs": [
+"CoinDesk",
+"Crypto Briefing",
+"www.tokenpost.com"
+],
+"t": 1795795293.9230654,
+"t0": 1795779277.0,
+"tgtext": "",
+"title": "Live updates: Bitcoin drops below $60,000 as Nasdaq 100 gives up most of its early gains",
+"url": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+"urls": [
+"https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains"
 ]
 },
 "50065ea6dd19": {
@@ -1590,7 +1591,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795793581.0,
 "tgtext": "\ud83c\udde6\ud83c\uddea BLOCKCHAIN LIFE 2026 IS COMING TO DUBAI\n\nOn December 1\u20132, Blockchain Life 2026 will bring together 15,000+ attendees from 130+ countries, 200+ speakers and 200+ sponsors.\n\nThe event will feature industry leaders from Circle, VeChain, Bybit, Mastercard, VARA and more.\n\nGet 10% off your tickets with promo code Cointelegraph.\n\n\ud83c\udf9f Register here: https://blockchain-life.com/\n\nNews | Markets | YouTube",
 "title": "BLOCKCHAIN LIFE 2026 IS COMING TO DUBAI",
@@ -1933,7 +1934,7 @@
 "Coinpaper",
 "Crypto Briefing"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795793142.0,
 "tgtext": "",
 "title": "Hyperliquid Price Prediction: HYPE Up 6% Ahead of Franklin Templeton ETF Entry",
@@ -2283,7 +2284,7 @@
 "Altcoin Buzz",
 "Wu Blockchain"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795788074.0,
 "tgtext": "KuCoin to Delist Privacy Coin Monero (XMR) on November 30, Following Binance and OKX\n\nKuCoin announced it will delist all Monero (XMR) spot trading pairs on November 30. XMR deposits have been permanently disabled, while withdrawals are scheduled to close on December 31. KuCoin will also discontinue XMR savings, conversion and spot trading bot services. Binance and OKX previously delisted XMR in 2024, while Kraken has discontinued XMR trading for users in several jurisdictions, including the EEA, Canada and India. \u2014 link",
 "title": "KuCoin to Delist Privacy Coin Monero (XMR) on November 30, Following Binance and OKX",
@@ -2466,7 +2467,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795794601.0,
 "tgtext": "\ud83d\udd25 BIG: Anthropic is now worth more than Bitcoin.\n\nNews | Markets | YouTube",
 "title": "BIG: Anthropic is now worth more than Bitcoin.",
@@ -2506,7 +2507,7 @@
 "Lookonchain",
 "www.tokenpost.com"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795784000.0,
 "tgtext": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!\n\nLiquidation price: $59,101.24\nhttps://x.com/lookonchain/status/2125907891324658057\nAguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 $BTC ($122.9M)!  Liquidation price: $59,101.24 https://x.com/lookonchain/status/2125907891324658057",
 "title": "AguilaTrades(@AguilaTrades) just opened a 40x long on 2,000 BTC ($122.9M)! Liquidation price: $59,101.24 https://x.com/lookonchain/status/2125907891324658057",
@@ -3578,19 +3579,6 @@
 "url": "https://t.me/WatcherGuru/16353",
 "urls": []
 },
-"e2f5244ff115": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph"
-],
-"t": 1795622451.667702,
-"t0": 1795620901.0,
-"tgtext": "\ud83d\udea8 Black Friday started early? \n\nBitcoin fell below $58K, US stocks lost $1.7 trillion at market open, and gold dropped below $3,500.\n\nNews | Markets | YouTube",
-"title": "Black Friday started early?",
-"url": "https://t.me/cointelegraph/73524",
-"urls": []
-},
 "e3905a888e6e": {
 "coin": "bitcoin",
 "src": "The Block",
@@ -3789,7 +3777,7 @@
 "Crypto Briefing",
 "Watcher.Guru"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795792765.0,
 "tgtext": "JUST IN: $250,000,000 worth of crypto longs liquidated in the past 30 minutes.\n\n@WatcherGuru",
 "title": "$250,000,000 worth of crypto longs liquidated in the past 30 minutes.",
@@ -3936,7 +3924,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795785101.0,
 "tgtext": "WuBlockchain Weekly: UK Tightens DeFi Oversight, US Bitcoin Reserve Bill Advances, ECB Approves Tokenized Securities as Collateral\n\nThe UK plans to restrict retail DeFi trading via regulated exchanges. The US Strategic Bitcoin Reserve bill advanced to the House calendar. The ECB approved tokenized securities as collateral. CFTC prediction market rules advanced to White House review, while the US DOJ seeks to seize over $1B in crypto stolen in the Binance hack. OKXICE faced objections from 56 listed companies. For the full weekly roundup, subscribe to our Substack: \u2014 link",
 "title": "WuBlockchain Weekly: UK Tightens DeFi Oversight, US Bitcoin Reserve Bill Advances, ECB Approves Tokenized Securities as Collateral",
@@ -4154,20 +4142,20 @@
 "urls": []
 },
 "ff46d153d0b4": {
-"coin": "ethereum",
-"src": "www.tokenpost.com",
+"coin": "bitcoin",
+"src": "Pragativadi",
 "srcs": [
 "Asaase Radio",
 "CoinCodex",
 "Decrypt",
-"Newsmax",
+"Pragativadi",
 "Yahoo Finance"
 ],
-"t": 1795794984.2660136,
+"t": 1795795600.272413,
 "t0": 1795774518.0,
 "tgtext": "",
-"title": "Nearly 12,000 ETH Moves From Wallet Tied to 2026 Binance Hack",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52WGM0NjFfWFUyT1c4bWZYWG5nV3A5NXFFMHlJSUxjVEIwN2NwZnY5MUNmNDlGcmtJS1VGNWJFQk9hTUdkVXJsSkRHMDNVVC02Z2VzVUxxU2I2UjQ?oc=5",
+"title": "Bitcoin Falls to Two-Year Low of $55,533 Amid AI Sell-Off, Binance Hack & Rate Fears",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GME9Wd3JMRmxKZzIzT1ZsRi13QXhiN3ZoTXc3ZzBlTjJzcEsxcTV1RXRUUkUwUFRwM1kyOWJjNDA4VWwxeTVXYVN4cDFVTEc3NjBzMWwtU19ybTZ4MzNZWkp1WjNmc0JyallRQlp6ZlYxTFlhQ09FU3dpNA?oc=5",
 "urls": [
 "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
 ]
@@ -4180,46 +4168,46 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"0a7dbe5dc048": 0.108,
-"0f22014f832a": 0.071,
-"122d9295c63b": 0.151,
+"08adbb843608": 0.127,
+"0a7dbe5dc048": 0.022,
+"0f22014f832a": 0.034,
+"122d9295c63b": 0.159,
 "1381998e0367": 0.046,
-"25e94aef8ef4": 0.402,
-"27109c01a363": 0.053,
-"28402770d69d": 0.078,
-"2b8fced77cbd": 0.319,
-"300423ddf3c9": 0.099,
+"1910b2aad590": 0.049,
+"25e94aef8ef4": 0.236,
+"27109c01a363": 0.025,
+"29c6f8bcdd23": 0.049,
+"2b8fced77cbd": 0.381,
+"300423ddf3c9": 0.048,
+"3069247c320a": 0.853,
 "31e77d5eaf2d": 0.266,
-"32bb76a9a5d5": 0.059,
-"40257d1cab35": 0.07,
+"32bb76a9a5d5": 0.126,
+"40257d1cab35": 0.034,
 "476c7c6327e4": 0.133,
-"4ff7dcb7c3fd": 0.279,
-"508ed3cbd8e9": 0.161,
+"4ff7dcb7c3fd": 0.1,
 "639f3a123dfc": 0.074,
-"6546fd5dd6b8": 0.11,
+"6763bf839cec": 0.077,
 "67f411f9d04d": 0.064,
 "691c2fcdb64f": 0.281,
-"843e153cb82d": 0.013,
-"84b5f3e548bd": 0.054,
-"8c1ecffaa230": 0.461,
-"8eaa7ff55ab1": 0.165,
-"9db301992710": 0.508,
-"a84dfecd9851": 0.072,
-"aa6c75bce1fe": 0.994,
-"bb1bea785c97": 0.073,
-"be7edf6a676d": 0.106,
-"c71715e4ff5e": 0.142,
-"cc36071a7b44": 0.17,
-"d790cb628de1": 0.143,
-"d8d545f407f2": 0.021,
+"736ac13ba065": 0.053,
+"80a1ba039c63": 0.141,
+"8c1ecffaa230": 0.425,
+"8eaa7ff55ab1": 0.083,
+"99bc86c91b4a": 0.134,
+"9db301992710": 0.525,
+"a84dfecd9851": 0.035,
+"aa6c75bce1fe": 0.998,
+"be7edf6a676d": 0.052,
+"c71715e4ff5e": 0.24,
+"d790cb628de1": 0.278,
 "daf4d8e0d034": 0.298,
-"e755457f1418": 0.16,
 "ed32e761a77a": 0.936,
-"ed8dc3e358e5": 0.031,
+"ed8dc3e358e5": 0.068,
 "eda5f7abf945": 0.05,
-"f3c0be464e3d": 0.552,
-"f848b00e742f": 0.171,
-"ff46d153d0b4": 0.572
+"f1fff580ed20": 0.144,
+"f3c0be464e3d": 0.362,
+"f848b00e742f": 0.045,
+"ff46d153d0b4": 0.529
 },
 "sent": [
 {
@@ -5648,64 +5636,64 @@
 "top": [
 [
 "aa6c75bce1fe",
-59,
-183,
+48,
+193,
 2
 ],
 [
 "ed32e761a77a",
 49,
-37,
+47,
 2
 ],
 [
 "3069247c320a",
-14,
-305,
+12,
+315,
 3
 ],
 [
 "a88b185bd34c",
-20,
-6,
+10,
+17,
 1
 ],
 [
 "ff46d153d0b4",
-74,
-341,
+63,
+351,
 6
-],
-[
-"f3c0be464e3d",
-20,
-165,
-1
 ],
 [
 "9db301992710",
 43,
-115,
+125,
 2
 ],
 [
 "8c1ecffaa230",
 42,
-31,
+41,
 2
-],
-[
-"25e94aef8ef4",
-28,
-55,
-1
 ],
 [
 "778160d28b9d",
 10,
-23,
+34,
+1
+],
+[
+"2b8fced77cbd",
+41,
+65,
+2
+],
+[
+"f3c0be464e3d",
+10,
+175,
 1
 ]
 ],
-"top_at": 1795794984.2660136
+"top_at": 1795795600.272413
 }
