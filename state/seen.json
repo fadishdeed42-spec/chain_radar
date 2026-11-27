@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1795658739.2706923,
 1795670564.9851964,
 1795673014.247192,
 1795681614.4104238,
@@ -14,7 +13,8 @@
 1795697150.2028682,
 1795709693.6405027,
 1795712046.2549496,
-1795742315.576642
+1795742315.576642,
+1795748754.0752318
 ],
 "menu": {
 "005064432d65": {
@@ -335,7 +335,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795747862.0,
 "tgtext": "Bluefin, Which Accounted for 95% of Sui's Historical Perpetual Futures Trading Volume, to Shut Down Perps Trading on December 4\n\nBluefin, a Sui-based decentralized trading platform, announced it will shut down Bluefin Perps at 21:00 UTC on December 4. Users must close their positions before the deadline, with withdrawals remaining available temporarily afterward.\n\nAs Sui brings more perpetual futures development in-house, Bluefin will focus on Bluefin Spot, tokenization, and real-world assets (RWAs). Bluefin reported over $100 billion in cumulative trading volume and 2.5 million accounts, with Bluefin Perps accounting for 95% of Sui's all-time perpetual futures trading volume. Its trading infrastructure will remain available to the community and potential partners through the Bluefin Liquidity Network. \u2014 link",
 "title": "Bluefin, Which Accounted for 95% of Sui's Historical Perpetual Futures Trading Volume, to Shut Down Perps Trading on December 4",
@@ -763,21 +763,6 @@
 "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYXVVVmpBaTVtem9KTnozSzdkbmNlMk43aW96NmZRdHhQRXUxZ3hkTURBNFBZNGNYa3NRaEROTm43a2RBcjdQZV9BUkpkUjNGRWhybUZnalpFOEs3MXFWY20yaUhSUVZ3d3UyTmlBeHBRWEVwLXBqUEVQc1NkWUVBTS1IYXFZbi1KdU1JRTUxYzlQNnhjc0J4LWl5RGwwRjV5YTJTaw?oc=5",
 "urls": []
 },
-"46344fe06322": {
-"coin": "bitcoin",
-"src": "CryptoSlate",
-"srcs": [
-"CryptoSlate"
-],
-"t": 1795575815.0742419,
-"t0": 1795575000.0,
-"tgtext": "",
-"title": "The CFTC opens the door to Bitcoin reserves at US exchanges with a 20% catch",
-"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNllNQ0pfTmpIeVBjeTRCMXpxaW5SNXIyUXZvNVJTLV9xVjBvUXlrX1d4QmJQYWVjODlDVXl5azJoajdLNlhWc0hSMEZPbmpyZGI1TjV5MXR3QXV3ZnlNYS14blZaaDd0dUZFN3NLQzJzMGg3NzlMT1VWNHNfU0FmeGdpblBmbGo0UVJFelhBelhRRWw0STU5WFlGXzdnaWcxdGc?oc=5",
-"urls": [
-"https://cryptoslate.com/the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch/"
-]
-},
 "465679e94feb": {
 "coin": "bitcoin",
 "src": "Bitcoin News",
@@ -1026,7 +1011,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795742146.0,
 "tgtext": "Abraxas Capital bought another 1,700 $BTC ($103M)!\n\nOver the past week, Abraxas Capital has accumulated a total of 21,520 $BTC ($1.285B) at an average price of $59,739.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital bought another 1,700 BTC ($103M)!",
@@ -1802,23 +1787,6 @@
 "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yeFFXay1QTWR4MF8xUUhJa21XQzFDQkFyc2tlQWc4ajhuMWlGM21zU3BsU2pDV0RPR3p1Z0dDUjhWUFlqQ2hKeWNnOHNsS3E3M1dYXw?oc=5",
 "urls": []
 },
-"84b6e78dfd0f": {
-"coin": "bitcoin",
-"src": "Moomoo",
-"srcs": [
-"CryptoSlate",
-"Moomoo",
-"The Motley Fool"
-],
-"t": 1795575815.0742419,
-"t0": 1795559200.0,
-"tgtext": "",
-"title": "Bitcoin Shows Signs of Capitulation: U.S. Equities Under Pressure, Potential Break Below $60,000 to Test $53,000",
-"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV1hnTl9pckQ2N0h6UURqOFdpRld1OG5qRlVFbTlWZlpodzR4V0sxblNUc3lOdEprYldLVVdKcTlIalFLMW9RWl9qM2dfaVlhcmppb1J4TnNuZVZ0U2NEZkU4ZXMxZmtETGVPcE9DN3htRWpPSjhPblpkZ0xDQnBISDdQS0ZFc2ItOXFTVl93V0V0eC1lTkRyN2ZGWC1zbWlvRVRKeXhjUDl1OWlpV3psdmY1VVRRTFk?oc=5",
-"urls": [
-"https://cryptoslate.com/bitcoins-60000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter/"
-]
-},
 "860712892d7a": {
 "coin": "",
 "src": "The Block",
@@ -1997,7 +1965,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795728585.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX $SPCX stock to every child in America every year.\n\n@WatcherGuru\n\ud83c\uddfa\ud83c\uddf8 ELON MUSK: \u201cI will be donating another share of SpaceX to all kids in America every year.\u201d\n\nNews | Markets | YouTube",
 "title": "\ud83c\uddfa\ud83c\uddf8 Elon Musk pledges to donate a share of his SpaceX SPCX stock to every child in America every year.",
@@ -2236,7 +2204,7 @@
 "BigGo Finance",
 "investingLive"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795732106.0,
 "tgtext": "",
 "title": "Strategy's Market Value Falls to 0.88x Its Bitcoin Holdings \u2014 Lowest Premium on Record Signals 'Capitulation Selling'",
@@ -2262,7 +2230,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795745959.0,
 "tgtext": "EU Proposes Adding Kyrgyzstan to Crypto Sanctions List, Potentially Making It the First Country Listed\n\nThe European Union is proposing to add Kyrgyzstan to its crypto-related sanctions list, prohibiting EU operators from engaging in direct or indirect transactions with crypto service providers established in the country to prevent sanctions evasion through crypto services. Kyrgyzstan could become the first country added to the list. Previously, the U.S. Treasury stated that after Russian crypto exchange Garantex was targeted by enforcement action in March 2025, its employees established Grinex in Kyrgyzstan and transferred customer deposits there. As of November 26, the proposal still requires unanimous approval from all 27 EU member states and has not taken effect. \u2014 link",
 "title": "EU Proposes Adding Kyrgyzstan to Crypto Sanctions List, Potentially Making It the First Country Listed",
@@ -2390,9 +2358,11 @@
 "coin": "bitcoin",
 "src": "The Economic Times",
 "srcs": [
-"The Economic Times"
+"CryptoRank",
+"The Economic Times",
+"TradingView"
 ],
-"t": 1795746300.6723158,
+"t": 1795748754.0752318,
 "t0": 1795732560.0,
 "tgtext": "",
 "title": "Bitcoin price prediction 2027: BTC USD today rebounds above $60,000 after crashing to $57,500 - can the la",
@@ -2777,7 +2747,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795745376.0,
 "tgtext": "\ud83d\udea8 NOW: Arthur Hayes says crypto could get dumped this weekend ahead of Monday's open if the Fed doesn't turn dovish before its pre-FOMC blackout starts Friday.\n\nNews | Markets | YouTube",
 "title": "NOW: Arthur Hayes says crypto could get dumped this weekend ahead of Monday's open if the Fed doesn't turn dovish before its pre-FOMC blackout starts Friday.",
@@ -3232,7 +3202,7 @@
 "srcs": [
 "CryptoSlate"
 ],
-"t": 1795748141.032529,
+"t": 1795748449.279725,
 "t0": 1795745455.0,
 "tgtext": "",
 "title": "Bought Nvidia stock during the 2017 crypto boom? You could qualify for a $290 million settlement",
@@ -3429,9 +3399,9 @@
 "Crypto Briefing",
 "Crypto Economy",
 "Dosya Haber",
-"MLQ.ai"
+"TradingView"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795728827.0,
 "tgtext": "",
 "title": "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
@@ -3603,7 +3573,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795748141.032529,
+"t": 1795748754.0752318,
 "t0": 1795742991.0,
 "tgtext": "Highlight Clip: Arthur Hayes: Bullish on DeFi Long Term, but More Downside Ahead\n\nArthur Hayes: Bullish on DeFi Long Term, but More Downside Ahead\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that AI agents will increasingly use DeFi, but investors still need to see tangible results. In the current risk-off environment, investors are focused on raising cash and reducing positions, so DeFi will fall alongside the broader market. He believes that if AI-related assets face a broad sell-off over the next three to six months, buying selected DeFi projects at attractive prices could offer compelling opportunities. However, DeFi will not escape the broader downturn.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Bullish on DeFi Long Term, but More Downside Ahead",
@@ -3962,13 +3932,26 @@
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"fc5806454425": {
+"coin": "bitcoin",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795748754.0752318,
+"t0": 1795748448.0,
+"tgtext": "A whale swapped 1,023 $BTC ($62.5M) for 36,195 $ETH ($62.5M) via #THORChain over the past 3 days.\n\nhttps://arkm.com/explorer/entity/06a0c05c-1663-4099-9e80-f1a797b85b31",
+"title": "A whale swapped 1,023 BTC ($62.5M) for 36,195 ETH ($62.5M) via THORChain over the past 3 days.",
+"url": "https://t.me/lookonchainchannel/11298",
+"urls": []
+},
 "fe895f955da4": {
 "coin": "",
 "src": "Binance",
 "srcs": [
 "Binance"
 ],
-"t": 1795748141.032529,
+"t": 1795748449.279725,
 "t0": 1795741425.0,
 "tgtext": "Binance Will Support the Cash Dividend Distribution of The Wendy's Company (WEN), NVIDIA Corporation (NVDA), Qualcomm Incorporated (QCOM), PayPal Holdings, Inc. (PYPL), and Western Digital Corporation (WDC) via bStocks\n\n\nBinance will support The Wendy's Company (WEN), NVIDIA Corporation (NVDA), Qualcomm Incorporated (QCOM), PayPal Holdings, Inc. (PYPL), and Western Digital Corporation (WDC) cash dividend distribution via bStocks for WENB, NVDAB, QCOMB, PYPLB, and WDCB holders. Net amount of the cash dividend will be reinvested after applicable withholding taxes, fees, costs, and other deductions, into additional units or fractions of the same underlying security. Eligible users will receive dividends in the form of WENB, NVDAB, QCOMB, PYPLB and WDCB bStocks respectively.\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support the Cash Dividend Distribution of The Wendy's Company (WEN), NVIDIA Corporation (NVDA), Qualcomm Incorporated (QCOM), PayPal Holdings, Inc. (PYPL), and Western Digital Corporation (WDC) via bStocks",
@@ -3980,92 +3963,48 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"05f2ba7fab85": 0.054,
-"13feaf2f89ec": 0.027,
-"2052bb631299": 0.056,
-"24785237e1a4": 0.815,
-"276d411c7b25": 0.041,
-"378b3f8b5b29": 0.099,
-"48901c1df67d": 0.099,
-"4a6b95dfce9b": 0.035,
-"4a8892118dcf": 0.051,
-"4ae69f827d75": 0.089,
-"4dd591c61a0e": 0.597,
-"4ef0ddef68c5": 0.048,
-"512f5211a6ed": 0.034,
-"5807c5328a7c": 0.03,
-"5af82616a539": 0.028,
-"5b770edabd40": 0.067,
-"5bcfc0f5a69e": 0.083,
-"5d62ee23c435": 0.066,
-"85d9795b165f": 0.023,
-"8d79b819ff03": 0.667,
-"8fcd1ce94a55": 0.024,
-"93b77a109498": 0.142,
-"9713d13a3149": 0.031,
-"9a1e4828ddf8": 0.076,
-"9f47a6d4a799": 0.037,
-"9fbf62824a21": 0.061,
-"a3f08b2df337": 0.421,
-"a40662ff3cfd": 0.539,
-"c3b75d28d6c8": 0.814,
+"05f2ba7fab85": 0.06,
+"0b97a70d63a1": 0.034,
+"0c23da4b7058": 0.082,
+"2052bb631299": 0.054,
+"24785237e1a4": 0.466,
+"276d411c7b25": 0.007,
+"294c8ef75ef3": 0.124,
+"378b3f8b5b29": 0.095,
+"4a6b95dfce9b": 0.057,
+"4a8892118dcf": 0.049,
+"4ae69f827d75": 0.086,
+"4dd591c61a0e": 0.587,
+"512f5211a6ed": 0.035,
+"5af82616a539": 0.093,
+"5b770edabd40": 0.065,
+"5bcfc0f5a69e": 0.08,
+"5bdda0a5c049": 0.144,
+"5d62ee23c435": 0.063,
+"6043e0a54583": 0.02,
+"85d9795b165f": 0.022,
+"8d79b819ff03": 0.657,
+"9713d13a3149": 0.03,
+"9a1e4828ddf8": 0.074,
+"9fbf62824a21": 0.059,
+"a3f08b2df337": 0.411,
+"a40662ff3cfd": 0.529,
+"aaf02fd006ba": 0.134,
+"b0c39618a5d3": 0.629,
+"bd872b2b5320": 0.054,
+"c3b75d28d6c8": 0.807,
 "c667d1ede639": 0.017,
-"d7c2316b16dd": 0.216,
-"d8984aa5c4d3": 0.075,
-"e05c594ff4a8": 0.883,
-"e7075033426d": 0.131,
-"ea1e06825648": 0.137,
-"eac6dd7ddfdc": 0.496,
-"eb6766fd8de1": 0.049,
-"ec6fb4dc6ac6": 0.029,
-"ec8f4d9bd7c7": 0.096,
-"fe895f955da4": 0.163
+"d7c2316b16dd": 0.209,
+"d8984aa5c4d3": 0.111,
+"dc1649455628": 0.032,
+"e05c594ff4a8": 0.885,
+"eac6dd7ddfdc": 0.486,
+"eb6766fd8de1": 0.047,
+"ec6fb4dc6ac6": 0.028,
+"fc5806454425": 0.998,
+"fe895f955da4": 0.158
 },
 "sent": [
-{
-"e": [
-"billion",
-"binance",
-"briefly",
-"buys",
-"digest",
-"hack",
-"moves",
-"reclaims",
-"recover",
-"saylor",
-"strategy",
-"today",
-"xrp"
-],
-"k": [
-"hack"
-],
-"t": 1795575815.0742419,
-"u": [
-"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VVElKOFZPRHFVb0RVUDhJeHlGYnNVR19CbzQ4c0ZYeGFLajZoQncwNEpXVVVNSlAyaDNVcjctQzFqUGw3Q3pPTzhfWUh3NDVUVGtUMQ?oc=5",
-"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcHU5N2pmX2dzdTJEMGVvdWhtWUhjbHRKYTk3b3dGRTg0YUUwdHRHLUxfYXlDT000SDZGUDVWelFTVUZLN2k0TENLRmdrcUZrVFl3cUFqbFZfT3RhWTNNVTJQa1hhTWV1c3VHYUhac0xQS1ZYS0ZqUHBweVpZX0RfeXI4bkFmTTZWVzBZQzFCNk95a0ZlUUU2emRhVmhLYVQ1TmxPQmpfVHZzQ1lNQnN3TU5zQnYybzI3aEp2ZTFrc0Nmdw?oc=5",
-"https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3J3d256V2Fsb0dicHF2Uk1NS0thSFNmVXNGNHNtT3Q2QkEwcnkzbFVsa1pERC1MOTJfS25uMGExc3ZHaVYtZlJyNDNIT2hxZWhDSGZ2UXVlYllQOUxXVTV6UVdQbUtHdk55TGN5UTJnRXZtbEphVmpIYVlOVUJKek1taGxoX2FzdkRNTXptUjhRYUtyYlZDdUNSYmxPbmIxWmo1ZEVpRklhR3FEYXoyQnBxX2ZqUdIBuwFBVV95cUxNMEJNc05rQm03eDZSb014RVhhanBJS0FBb3FHWGNzODJ3aTJySFpCakRzbE95ZU9zX09wbnJRMkhYN0ZxZzRWSFQ5Rzh3UVl2VGl5NkkwUU5XT3l4LXBLZWZyNE54ZHUwdWZHTXRVUUxvdDRxeGQ1Qm0xbVFUejIwZkpwck53cUpPQ3VfYjZTbjlfV2l1TW1XRmVVTGs5SEc4QVhLYjhBVFJfazZJTFJYdHRtOGdqWFVVQk1J?oc=5",
-"https://news.google.com/rss/articles/CBMipgFBVV95cUxPbHZlMXpTaWR1cl9WeDdzeUFrZGQ3ejFPNk5MMHRDOVAzcV9oSlJIYTFOZHR2Tm5NYUhfcHk5ZzRfbDhLcE1jRzFZcDJ6dWtmaFlGandKZG42OUM1SXU3OHVuMGROZE95aWhRVzRvRVlBdUlibUpHYmlWRXJ4bWdLMmdXNU1yX3dSVDBPamxtMXVVOHdEM1U3dm4wWmhENUFjX2ZuRG9R?oc=5"
-],
-"w": [
-"457",
-"billion",
-"binance",
-"briefly",
-"btc",
-"buys",
-"digest",
-"hack",
-"moves",
-"reclaims",
-"recover",
-"saylor",
-"strategy",
-"today",
-"xrp"
-]
-},
 {
 "e": [
 "huang",
@@ -5529,71 +5468,94 @@
 "volume",
 "which"
 ]
+},
+{
+"e": [
+"thorchain"
+],
+"k": [],
+"t": 1795748754.0752318,
+"u": [
+"https://t.me/lookonchainchannel/11298"
+],
+"w": [
+"$62",
+"023",
+"195",
+"btc",
+"days",
+"eth",
+"past",
+"swapped",
+"thorchain",
+"via",
+"whale"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
-"e05c594ff4a8",
-67,
-322,
-8
-],
-[
-"24785237e1a4",
-10,
+"fc5806454425",
+24,
 5,
 1
 ],
 [
+"e05c594ff4a8",
+65,
+332,
+6
+],
+[
 "c3b75d28d6c8",
 34,
-46,
+56,
 1
 ],
 [
 "8d79b819ff03",
-9,
-326,
+8,
+336,
 2
+],
+[
+"b0c39618a5d3",
+41,
+270,
+3
 ],
 [
 "4dd591c61a0e",
 16,
-100,
+110,
 1
 ],
 [
 "a40662ff3cfd",
 10,
-36,
+47,
 1
 ],
 [
 "eac6dd7ddfdc",
 10,
-86,
+96,
+1
+],
+[
+"24785237e1a4",
+10,
+15,
 1
 ],
 [
 "a3f08b2df337",
-21,
-267,
+20,
+277,
 2
-],
-[
-"d7c2316b16dd",
-16,
-45,
-1
-],
-[
-"fe895f955da4",
-18,
-112,
-1
 ]
 ],
-"top_at": 1795748141.032529
+"top_at": 1795748754.0752318
 }
