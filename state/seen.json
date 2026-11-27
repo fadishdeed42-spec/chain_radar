@@ -61,7 +61,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795795801.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says the US has \"the best economy\" with \"88 all-time record days in the stock market\" as stocks and bitcoin rebound after Thanksgiving.\n\nNews | Markets | YouTube",
 "title": "President Trump says the US has \"the best economy\" with \"88 all-time record days in the stock market\" as stocks and bitcoin rebound after Thanksgiving.",
@@ -87,7 +87,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795815358.5637372,
+"t": 1795816582.4865465,
 "t0": 1795796641.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 UPDATE: Risk-sensitive currencies rallied as tech stocks rebounded, while the US dollar remained on track for a weekly gain amid expectations of a December Fed rate hike.\n\nNews | Markets | YouTube",
 "title": "Risk-sensitive currencies rallied as tech stocks rebounded, while the US dollar remained on track for a weekly gain amid expectations of a December Fed rate hike.",
@@ -329,7 +329,7 @@
 "KuCoin",
 "TradingView"
 ],
-"t": 1795815358.5637372,
+"t": 1795816278.217678,
 "t0": 1795798131.0,
 "tgtext": "",
 "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
@@ -948,7 +948,7 @@
 "Cointelegraph",
 "Watcher.Guru"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795799172.0,
 "tgtext": "\ud83c\uddf7\ud83c\uddfa NEW: Russia\u2019s VTB Bank has launched over-the-counter cryptocurrency trading for qualified investors through its investment app, ahead of the Moscow Exchange\u2019s planned crypto trading launch on December 1.\n\nNews | Markets | YouTube\nJUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's Central Bank grants crypto exchange Binance regulatory approval to operate as foreign exchange broker.\n\n@WatcherGuru",
 "title": "Russia\u2019s VTB Bank has launched over-the-counter cryptocurrency trading for qualified investors through its investment app, ahead of the Moscow Exchange\u2019s planned crypto trading launch on December 1.",
@@ -1854,7 +1854,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795815358.5637372,
+"t": 1795816582.4865465,
 "t0": 1795796321.0,
 "tgtext": "JUST IN: \ud83c\uddeb\ud83c\uddf7 France officially enters a technical recession.\n\n@WatcherGuru",
 "title": "\ud83c\uddeb\ud83c\uddf7 France officially enters a technical recession.",
@@ -2949,7 +2949,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795801043.0,
 "tgtext": "\ud83c\udde8\ud83c\uddf3 NEW: China has issued new blockchain-based digital identity regulations, effective March 1, 2027, enabling cross-platform identity verification while limiting personal data collection.\n\nNews | Markets | YouTube",
 "title": "China has issued new blockchain-based digital identity regulations, effective March 1, 2027, enabling cross-platform identity verification while limiting personal data collection.",
@@ -3047,20 +3047,6 @@
 "urls": [
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"befa347d032a": {
-"coin": "",
-"src": "Cointelegraph",
-"srcs": [
-"Cointelegraph",
-"Watcher.Guru"
-],
-"t": 1795643478.0101523,
-"t0": 1795622072.0,
-"tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 US intelligence finds no evidence China directed Alice Huang to spy on Nvidia $NVDA CEO Jensen Huang.\n\n\ud83d\udcf0 https://watcherguru.com\n\n@WatcherGuru\n\ud83d\udea8 UPDATE: U.S. officials told Congress there is no evidence that Chinese intelligence orchestrated Nvidia CEO Jensen Huang\u2019s reported affair, per WSJ.\n\nNews | Markets | YouTube",
-"title": "U.S. officials told Congress there is no evidence that Chinese intelligence orchestrated Nvidia CEO Jensen Huang\u2019s reported affair, per WSJ.",
-"url": "https://t.me/cointelegraph/73525",
-"urls": []
 },
 "bfe3e0149fe1": {
 "coin": "",
@@ -3256,14 +3242,17 @@
 "coin": "",
 "src": "Cointelegraph",
 "srcs": [
-"Cointelegraph"
+"Cointelegraph",
+"Decrypt"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795811641.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f LATEST: OpenAI has filed a countersuit against Apple, alleging theft of trade secrets, according to CNBC.\n\nNews | Markets | YouTube",
 "title": "OpenAI has filed a countersuit against Apple, alleging theft of trade secrets, according to CNBC.",
 "url": "https://t.me/cointelegraph/73574",
-"urls": []
+"urls": [
+"https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
+]
 },
 "cbce954687cb": {
 "coin": "chainlink",
@@ -3372,7 +3361,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795797038.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 $1 trillion added to the US stock market today in the first two hours of trading.\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 $1 trillion added to the US stock market today in the first two hours of trading.",
@@ -3528,17 +3517,16 @@
 },
 "d546ecef5f83": {
 "coin": "bitcoin",
-"src": "112.ua",
+"src": "Benzinga",
 "srcs": [
-"112.ua",
 "Altcoin Buzz",
 "Benzinga"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795806372.0,
 "tgtext": "",
-"title": "Bitcoin Drops to $59,000 Amid $190 Million Liquidations and $6.8 Billion Options Expiry",
-"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1JZlRlLTZWLThFbXFIQkZ6QWJXclNKNkN5STV3ekFwcGMtN3dvXzZQWDBhSFdjQjRaRzlPa2d1bW04MFRDbE43ajVYQ2haY0d1ZTBfNUp0T2lreXY4N2x1WDNUNlU1NUpsNFBNMUFWYUhLWmxDQWhvRFNfWWxoV1ROVS12eHUzb2Zjb2JaRHZwR25JZUVrYW84UXB0cUh4ZjdRc2xNX21UcmM?oc=5",
+"title": "Bitcoin Price Falls as $183 Million in Liquidations Hit Ahead of $6.8 Billion Options Expiry",
+"url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcURXT1VQVEhKd0xjVjlzUm84dzYtTmRNRHB6LU5uaXo3Qkp5SU5JUlBDOVQ5NnJqcy03MEUxNkxlYVVtSExzYl9reTNzTVpHbHBhODA0cnNGbFRidC1KUnNCMi1fdkdUTjN5R2Z2MTBJMFloa2FvSFM1LVVEMkNibzlsSG82V3Y0NlY1ZjJuYUtnVHM5NTgxLTVFMENlbHVlSGJ5QUlGTUUyV2J2RGJfZkpPUVpMMlh3RVVpY3c4V1BjZV9XSFhIR3V3SlNEQnVqa3pabHBEZjBSTWNCQ0JvTGdyZTBTVTQ?oc=5",
 "urls": []
 },
 "d56721388626": {
@@ -3814,7 +3802,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795815301.0,
 "tgtext": "\ud83d\udea8 TODAY: Telegram is urging iPhone users to update their iOS immediately, warning that security vulnerabilities in outdated versions put their data and accounts at risk.\n\nNews | Markets | YouTube",
 "title": "TODAY: Telegram is urging iPhone users to update their iOS immediately, warning that security vulnerabilities in outdated versions put their data and accounts at risk.",
@@ -3827,7 +3815,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795815970.6855137,
+"t": 1795816582.4865465,
 "t0": 1795815312.0,
 "tgtext": "JUST IN: Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.\n\n@WatcherGuru",
 "title": "Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.",
@@ -4391,43 +4379,43 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"0a3b8bc43c4a": 0.842,
+"0a3b8bc43c4a": 0.87,
 "12ffaf7f4bd7": 0.028,
-"215a3bd4c43a": 0.254,
-"2919bb18ddeb": 0.629,
+"1485661d221c": 0.063,
+"215a3bd4c43a": 0.173,
+"24f7249e1093": 0.017,
 "2fb382154c3e": 0.01,
-"33c300d4022f": 0.014,
+"38b3f547b615": 0.116,
 "39461af23676": 0.057,
 "4690109551bc": 0.964,
-"485a34c90669": 0.802,
 "4d049404343e": 0.028,
 "4d49021b5417": 0.087,
-"5143d1c5c8d3": 0.021,
-"57653d52517a": 0.12,
+"584bf20a50a2": 0.031,
 "672478cedda6": 0.046,
 "67e2e2109d88": 0.054,
-"72dffa32b4a5": 0.005,
 "739663005cc7": 0.016,
 "877fe2ac49a0": 0.003,
 "87df89afd065": 0.021,
 "8e50debfb391": 0.026,
-"a0aa318f2485": 0.092,
+"ae812cdefd65": 0.023,
+"b030dd61a902": 0.008,
 "b18ff5995173": 0.011,
+"b5e71bc5e749": 0.096,
 "b9c5cd6e5c66": 0.018,
-"be7edf6a676d": 0.027,
 "c2f9a772f718": 0.053,
-"c9435e1cd5d5": 0.115,
-"cb4c59739151": 0.3,
-"cbb68fb0acf3": 0.018,
+"cb4c59739151": 0.556,
 "d2c30263ac2c": 0.005,
-"d405a0bb9933": 0.016,
-"d50f2a4fb2ec": 0.003,
-"d546ecef5f83": 0.605,
+"d405a0bb9933": 0.029,
+"d50f2a4fb2ec": 0.014,
+"d546ecef5f83": 0.324,
 "d562ee8887be": 0.053,
 "d670dab116e4": 0.08,
+"d6882a49d90d": 0.028,
+"d690d8bdd6db": 0.112,
 "d86d5fe9edff": 0.021,
-"dd588be6f65c": 0.83,
-"e03a27ebfb2c": 0.343,
+"d8bb90582960": 0.028,
+"dd588be6f65c": 0.321,
+"e03a27ebfb2c": 0.274,
 "e3e12fb0278d": 0.117,
 "e48f09c2249b": 0.02,
 "fd4af80ee0f6": 0.043
@@ -5784,64 +5772,64 @@
 "top": [
 [
 "4690109551bc",
-25,
-280,
+24,
+290,
 3
 ],
 [
 "0a3b8bc43c4a",
-10,
-336,
-1
-],
-[
-"dd588be6f65c",
-10,
-11,
-1
-],
-[
-"485a34c90669",
 8,
-356,
+346,
 1
-],
-[
-"2919bb18ddeb",
-21,
-359,
-3
-],
-[
-"d546ecef5f83",
-66,
-160,
-3
 ],
 [
 "d015b5ca8281",
 0,
-316,
+326,
+1
+],
+[
+"cb4c59739151",
+20,
+82,
+2
+],
+[
+"d546ecef5f83",
+56,
+170,
+2
+],
+[
+"dd588be6f65c",
+10,
+21,
+1
+],
+[
+"b99d7e8dd888",
+0,
+259,
 1
 ],
 [
 "e03a27ebfb2c",
 18,
-11,
+21,
 1
 ],
 [
-"b99d7e8dd888",
-1,
-249,
+"7d7f45462899",
+0,
+338,
 1
 ],
 [
-"cb4c59739151",
-10,
-72,
+"11080b596df0",
+4,
+332,
 1
 ]
 ],
-"top_at": 1795815970.6855137
+"top_at": 1795816582.4865465
 }
