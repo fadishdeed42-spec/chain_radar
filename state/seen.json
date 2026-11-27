@@ -182,7 +182,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795751455.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 JUST IN: President Trump says Jensen Huang is a very important part of Nvidia.\n\n\u201cI think it's a great thing that he's going back.\u201d\n\nNews | Markets | YouTube",
 "title": "President Trump says Jensen Huang is a very important part of Nvidia.",
@@ -338,7 +338,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795747862.0,
 "tgtext": "Bluefin, Which Accounted for 95% of Sui's Historical Perpetual Futures Trading Volume, to Shut Down Perps Trading on December 4\n\nBluefin, a Sui-based decentralized trading platform, announced it will shut down Bluefin Perps at 21:00 UTC on December 4. Users must close their positions before the deadline, with withdrawals remaining available temporarily afterward.\n\nAs Sui brings more perpetual futures development in-house, Bluefin will focus on Bluefin Spot, tokenization, and real-world assets (RWAs). Bluefin reported over $100 billion in cumulative trading volume and 2.5 million accounts, with Bluefin Perps accounting for 95% of Sui's all-time perpetual futures trading volume. Its trading infrastructure will remain available to the community and potential partners through the Bluefin Liquidity Network. \u2014 link",
 "title": "Bluefin, Which Accounted for 95% of Sui's Historical Perpetual Futures Trading Volume, to Shut Down Perps Trading on December 4",
@@ -1058,7 +1058,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795742146.0,
 "tgtext": "Abraxas Capital bought another 1,700 $BTC ($103M)!\n\nOver the past week, Abraxas Capital has accumulated a total of 21,520 $BTC ($1.285B) at an average price of $59,739.\n\nhttps://arkm.com/explorer/entity/abraxas-capital-heka-funds",
 "title": "Abraxas Capital bought another 1,700 BTC ($103M)!",
@@ -1544,13 +1544,13 @@
 "coin": "",
 "src": "Crypto Economy",
 "srcs": [
+"Benzinga",
 "CoinDesk",
 "Crypto Economy",
 "Kriptofoni",
-"Startup Fortune",
-"Tech in Asia"
+"Startup Fortune"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795741954.0,
 "tgtext": "",
 "title": "UK FCA Pushes Ahead With Tighter DeFi Rules, Citing $6.3B Binance Hack",
@@ -1566,7 +1566,7 @@
 "BeInCrypto",
 "BigGo Finance"
 ],
-"t": 1795756918.0408628,
+"t": 1795757534.9205773,
 "t0": 1795737300.0,
 "tgtext": "",
 "title": "Strategy's Market Value Falls to 0.88x Its Bitcoin Holdings \u2014 Lowest Premium on Record Signals 'Capitulation Selling'",
@@ -1801,6 +1801,25 @@
 "url": "https://t.me/cointelegraph/73529",
 "urls": []
 },
+"830cd3a97329": {
+"coin": "",
+"src": "Kriptofoni",
+"srcs": [
+"Benzinga",
+"CoinDesk",
+"Kriptofoni",
+"Startup Fortune",
+"Tech in Asia"
+],
+"t": 1795757534.9205773,
+"t0": 1795746420.0,
+"tgtext": "",
+"title": "Binance Hack: More Than $600 Million in Stolen Funds Passed Through THORChain",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01T1dQTWRaTDFnUm5YV24wYkRITWxxNlRkQnBNT1h4RF9zZ1ZacE1ndWVGQUx1ZFQxS2M4dzdJOWFoY2VXUGlBTDdubW1ZU0J2RGVlU0c3Ym41cWdCeGJoQkZVTWFuZGsyVWpzWFF4d1k4YWc?oc=5",
+"urls": [
+"https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+]
+},
 "8345d7fdd0ca": {
 "coin": "chainlink",
 "src": "bloomingbit",
@@ -1995,7 +2014,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795750804.0,
 "tgtext": "Reuters: Over $600M in Stolen Binance Funds Flowed Through THORChain, Potentially Including Repeated Transfers; Another $342M Moved via CoinJoin\n\nAccording to Reuters, citing blockchain analytics firms including Chainalysis and Elliptic, North Korean hackers are moving crypto stolen in the Binance hack through THORChain and CoinJoin services. The firms estimate that over $600 million in stolen funds has flowed through THORChain, potentially including funds counted multiple times, while approximately $342 million has been moved through CoinJoin. TRM Labs estimates THORChain earned up to $1 million in fees from the related swaps.\n\nThe Binance hack resulted in approximately $6.3 billion in stolen crypto assets, of which around $2.85 billion has been frozen by token issuers. Researchers say the laundering activity could continue for months or even years. \u2014 link",
 "title": "Reuters: Over $600M in Stolen Binance Funds Flowed Through THORChain, Potentially Including Repeated Transfers; Another $342M Moved via CoinJoin",
@@ -2289,7 +2308,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795757223.8731718,
+"t": 1795757534.9205773,
 "t0": 1795745959.0,
 "tgtext": "EU Proposes Adding Kyrgyzstan to Crypto Sanctions List, Potentially Making It the First Country Listed\n\nThe European Union is proposing to add Kyrgyzstan to its crypto-related sanctions list, prohibiting EU operators from engaging in direct or indirect transactions with crypto service providers established in the country to prevent sanctions evasion through crypto services. Kyrgyzstan could become the first country added to the list. Previously, the U.S. Treasury stated that after Russian crypto exchange Garantex was targeted by enforcement action in March 2025, its employees established Grinex in Kyrgyzstan and transferred customer deposits there. As of November 26, the proposal still requires unanimous approval from all 27 EU member states and has not taken effect. \u2014 link",
 "title": "EU Proposes Adding Kyrgyzstan to Crypto Sanctions List, Potentially Making It the First Country Listed",
@@ -2355,7 +2374,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795748925.0,
 "tgtext": "Upbit to Add BTC and USDT Trading Pairs for KGEN and FLR, and a KRW Trading Pair for HAEDAL\n\nAccording to an official announcement, South Korea's largest cryptocurrency exchange, Upbit, will add BTC and USDT trading pairs for KGEN and FLR. KGeN is a blockchain-based data infrastructure project, while Flare is an AI infrastructure protocol.\n\nAdditionally, Upbit will add a KRW trading pair for HAEDAL. Haedal Protocol is a liquid staking protocol built on the Sui network. \u2014 link",
 "title": "Upbit to Add BTC and USDT Trading Pairs for KGEN and FLR, and a KRW Trading Pair for HAEDAL",
@@ -2669,6 +2688,23 @@
 "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
 },
+"bbfca085ace9": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"Cointelegraph",
+"Crypto Briefing",
+"Traders Union"
+],
+"t": 1795757840.9451654,
+"t0": 1795756956.0,
+"tgtext": "",
+"title": "Japan\u2019s crypto security group taps SEAL to speed up hack response",
+"url": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"urls": [
+"https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+]
+},
 "bc154b428f53": {
 "coin": "",
 "src": "Wu Blockchain",
@@ -2804,7 +2840,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795745376.0,
 "tgtext": "\ud83d\udea8 NOW: Arthur Hayes says crypto could get dumped this weekend ahead of Monday's open if the Fed doesn't turn dovish before its pre-FOMC blackout starts Friday.\n\nNews | Markets | YouTube",
 "title": "NOW: Arthur Hayes says crypto could get dumped this weekend ahead of Monday's open if the Fed doesn't turn dovish before its pre-FOMC blackout starts Friday.",
@@ -3634,7 +3670,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795755686.7326078,
+"t": 1795757840.9451654,
 "t0": 1795742991.0,
 "tgtext": "Highlight Clip: Arthur Hayes: Bullish on DeFi Long Term, but More Downside Ahead\n\nArthur Hayes: Bullish on DeFi Long Term, but More Downside Ahead\n\nOn November 17, 2026, Maelstrom CIO Arthur Hayes said on the New Era Finance podcast that AI agents will increasingly use DeFi, but investors still need to see tangible results. In the current risk-off environment, investors are focused on raising cash and reducing positions, so DeFi will fall alongside the broader market. He believes that if AI-related assets face a broad sell-off over the next three to six months, buying selected DeFi projects at attractive prices could offer compelling opportunities. However, DeFi will not escape the broader downturn.\n\nWuBlockchain notes that Arthur Hayes has a mixed track record of market predictions and frequently revises his views. Readers should focus on his analytical framework rather than treating specific price targets or timelines as investment guidance. \u2014 link",
 "title": "Highlight Clip: Arthur Hayes: Bullish on DeFi Long Term, but More Downside Ahead",
@@ -3981,7 +4017,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795757223.8731718,
+"t": 1795757840.9451654,
 "t0": 1795748448.0,
 "tgtext": "A whale swapped 1,023 $BTC ($62.5M) for 36,195 $ETH ($62.5M) via #THORChain over the past 3 days.\n\nhttps://arkm.com/explorer/entity/06a0c05c-1663-4099-9e80-f1a797b85b31",
 "title": "A whale swapped 1,023 BTC ($62.5M) for 36,195 ETH ($62.5M) via THORChain over the past 3 days.",
@@ -4006,46 +4042,46 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"05f2ba7fab85": 0.029,
 "085b62fd0886": 0.067,
+"0b97a70d63a1": 0.102,
 "11709c272b30": 0.012,
 "1770a2979f9f": 0.444,
 "24785237e1a4": 0.323,
 "276d411c7b25": 0.018,
-"294c8ef75ef3": 0.112,
-"362b36c1ce94": 0.144,
-"378b3f8b5b29": 0.066,
+"339132308c68": 0.038,
 "37cc7fe721be": 0.039,
-"3b7b885a5c7c": 0.244,
+"3b7b885a5c7c": 0.189,
 "4624501cfd58": 0.25,
 "4a6b95dfce9b": 0.034,
 "4ae69f827d75": 0.086,
-"4dd591c61a0e": 0.643,
-"512f5211a6ed": 0.049,
+"519621dfe40c": 0.042,
+"562502c442c1": 0.044,
+"5697e83306d6": 0.02,
 "57bb7f2dd005": 0.022,
 "5bcfc0f5a69e": 0.08,
-"5d62ee23c435": 0.079,
 "6043e0a54583": 0.02,
-"72792482f3e7": 0.604,
+"6e937c8a8c0a": 0.039,
+"72792482f3e7": 0.52,
+"734c8ce8d707": 0.256,
+"8225220cf2c8": 0.199,
+"87cea1a00eaa": 0.094,
 "8cdc30451ed1": 0.903,
-"9a1e4828ddf8": 0.101,
-"9fbf62824a21": 0.04,
-"a40662ff3cfd": 0.27,
+"9a1e4828ddf8": 0.173,
 "aae23ad01c66": 0.449,
-"aaf02fd006ba": 0.134,
-"b0838f40e677": 0.237,
+"aaf02fd006ba": 0.18,
+"b126c90af6b7": 0.062,
 "b4ee5b1ac70f": 0.097,
-"bbfca085ace9": 0.041,
+"bbfca085ace9": 0.322,
 "c3b75d28d6c8": 0.522,
 "c667d1ede639": 0.017,
 "d7c2316b16dd": 0.209,
+"e5988f84bdb0": 0.037,
 "e603395001f6": 0.05,
-"eb1b9ef659d5": 0.02,
-"ec6fb4dc6ac6": 0.039,
+"eb6766fd8de1": 0.046,
+"ec6fb4dc6ac6": 0.03,
 "ecb99cc9b558": 0.109,
 "f9b4ef214e4c": 0.045,
-"fc5806454425": 0.956,
-"fe895f955da4": 0.192
+"fc5806454425": 0.956
 },
 "sent": [
 {
@@ -5600,6 +5636,31 @@
 "targeting",
 "trading"
 ]
+},
+{
+"e": [
+"japan",
+"seal"
+],
+"k": [
+"hack"
+],
+"t": 1795757840.9451654,
+"u": [
+"https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://news.google.com/rss/articles/CBMipwFBVV95cUxPcnlTUTVkbzJ3SXRmSERIQ29mUjRxQ01TcUxWdkRtVkV0UUdUNGpNUXBaMGFlMG1mZjhRdllaZGFySmNhZTBaUjJldHRXTHJ2VnJPVzB2ZDgyS2JveVZhb1dWYlZNTzNmRkV2YllLQmlqNjZLZ1JBNFhtdzN0bGVsQWw5b2VVbHBScjYzYi15X2haaVRSUVgtVG8tVEFveUJ4SjhnQjd0MA?oc=5",
+"https://news.google.com/rss/articles/CBMihgFBVV95cUxPR2RLVFdibm1pVVVpcHByWERVbmY2MGVtMU8wZTBfclJoVnk1WEdPVy0xWUVFeEcxOGhNbXAtYkpmOEk2czhJY1pNZ0phNm9QY240aFMtaXJ3S0NEZXVKMVctR3h5dTVWTzU3X0dtaG0wRlI5TnQwUEJQV3EtaWtUallQTm1BUQ?oc=5"
+],
+"w": [
+"group",
+"hack",
+"japan",
+"response",
+"seal",
+"security",
+"speed",
+"taps"
+]
 }
 ],
 "stories": {},
@@ -5608,63 +5669,63 @@
 [
 "fc5806454425",
 24,
-146,
+157,
 1
 ],
 [
 "8cdc30451ed1",
 49,
-107,
+117,
 1
 ],
 [
 "4dd591c61a0e",
-7,
-251,
+6,
+262,
+1
+],
+[
+"eac6dd7ddfdc",
+2,
+247,
+1
+],
+[
+"c3b75d28d6c8",
+31,
+208,
 1
 ],
 [
 "72792482f3e7",
-76,
-254,
-5
-],
-[
-"c3b75d28d6c8",
-32,
-197,
-1
+74,
+265,
+6
 ],
 [
 "aae23ad01c66",
 10,
-138,
+149,
 1
 ],
 [
 "1770a2979f9f",
 18,
-96,
+106,
 1
 ],
 [
 "24785237e1a4",
 10,
-156,
+166,
 1
 ],
 [
-"a40662ff3cfd",
-9,
-188,
-1
-],
-[
-"4624501cfd58",
-16,
-138,
-1
+"bbfca085ace9",
+63,
+15,
+3
 ]
 ],
-"top_at": 1795757223.8731718
+"top_at": 1795757840.9451654
 }
