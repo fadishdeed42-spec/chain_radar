@@ -4,7 +4,6 @@
 },
 "init": true,
 "log": [
-1795687723.2234907,
 1795691434.0943713,
 1795695594.8416145,
 1795697150.2028682,
@@ -16,7 +15,8 @@
 1795749062.2780993,
 1795751206.7804928,
 1795769256.1924787,
-1795773000.908115
+1795773000.908115,
+1795777659.946888
 ],
 "menu": {
 "005064432d65": {
@@ -152,12 +152,12 @@
 "src": "Benzinga",
 "srcs": [
 "Benzinga",
+"Coin Gabbar",
 "CryptoNinjas",
 "Forbes Middle East",
-"The Cryptonomist",
-"The Defiant"
+"The Cryptonomist"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795757086.0,
 "tgtext": "",
 "title": "Binance Lifts Withdrawal Suspension After Record $6.3 Billion Hack, but USDC Withdrawals Stay Paused",
@@ -394,7 +394,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795761811.0,
 "tgtext": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nBrian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt\n\nOn November 25, 2026, Coinbase CEO Brian Armstrong said in an interview with WOLF Financial that companies must assume employees could be exposed to malware attacks and incorporate this risk into their security systems from the outset. As hackers increasingly use AI to launch attacks, defenders must also leverage AI to strengthen their security capabilities. Coinbase has deployed dedicated AI agents for cybersecurity to review every line of code before it goes live. Discussing the previous extortion attempt against Coinbase, Armstrong said the company chose not to give in to the hackers, instead publicly responding and offering a bounty for information that could help identify and apprehend the attackers, while cooperating with law enforcement to hold them accountable. \u2014 link",
 "title": "Highlight Clip: Brian Armstrong: Hackers Tried to Extort Coinbase, Only to Face a Bounty Hunt",
@@ -513,6 +513,22 @@
 "title": "Bitcoin Price Risks $55K Crash After US Spot ETFs\u2019 Record Biggest Monthly Outflow Since Launch",
 "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wU3V2SV83dm5KLTZ3WXhsak9zblNXMmNXT0drR0w2ckNfT3VWVE53QkpmMmhubmNvUFd0Z3FheHhmekJlMzN6cmp1OGNVd19CME1GR2hpcm0?oc=5",
 "urls": []
+},
+"3069247c320a": {
+"coin": "",
+"src": "Cointelegraph",
+"srcs": [
+"CoinDesk",
+"Cointelegraph"
+],
+"t": 1795777659.946888,
+"t0": 1795776687.0,
+"tgtext": "\ud83c\udde7\ud83c\uddf7 NEW: Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.\n\nThe platform is expected to go live in Q1 2027 to facilitate digital asset settlements.\n\nNews | Markets | YouTube",
+"title": "Brazil\u2019s stock exchange B3 has partnered with six major financial institutions to launch a real-backed stablecoin called Open BRL.",
+"url": "https://t.me/cointelegraph/73560",
+"urls": [
+"https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin"
+]
 },
 "3100a11eb69c": {
 "coin": "bitcoin",
@@ -727,7 +743,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795768640.2000418,
+"t": 1795777659.946888,
 "t0": 1795762960.0,
 "tgtext": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-11-28\n\n\nU.S. Stock Trading on Binance will be temporarily unavailable due to a scheduled system upgrade by our partner broker. During this period, users will not be able to place stock trading orders. \n- System Upgrade Window: 2026-11-28 21:50 (UTC) - 2026-11-29 00:30 (UTC)\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "Binance Will Support Scheduled Upgrade for Stock Trading Services - 2026-11-28",
@@ -1504,7 +1520,7 @@
 "srcs": [
 "BigGo Finance"
 ],
-"t": 1795777024.1224468,
+"t": 1795777338.8109238,
 "t0": 1795769700.0,
 "tgtext": "",
 "title": "Fluid Halts DEX Swaps After Anthropic's Mythos 5.2 Security Review, $5.57B in Monthly Volume Suspended",
@@ -1715,7 +1731,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795758515.0,
 "tgtext": "\ud83d\udea8 NOW: Ethereum developers set Dec. 15 for Glamsterdam's launch on the Hoodi testnet, nearly two months after the original date slipped over concerns about gas pricing changes.\n\nNews | Markets | YouTube",
 "title": "NOW: Ethereum developers set Dec. 15 for Glamsterdam's launch on the Hoodi testnet, nearly two months after the original date slipped over concerns about gas pricing changes.",
@@ -2151,7 +2167,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795766679.0,
 "tgtext": "\ud83c\uddea\ud83c\uddfa NEW: The EU is set to overhaul its MiCA crypto register by mid-2027, introducing a searchable platform, automated data checks and version histories for crypto white papers.\n\nhttps://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027\n\nNews | Markets | YouTube",
 "title": "The EU is set to overhaul its MiCA crypto register by mid-2027, introducing a searchable platform, automated data checks and version histories for crypto white papers.",
@@ -2427,7 +2443,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795771675.0,
 "tgtext": "Whale \"0x69b5\" bought the dip 6 days ago, buying 9,425 $ETH ($15.08M) at an average price of $1,600.\n\nOver the past hour, he sold it all at $1,733, making $1.25M in profit!\n\nhttps://arkm.com/explorer/address/0x69b590d9d761b396Db4465F3Dee34d43Afa0e378",
 "title": "Whale \"0x69b5\" bought the dip 6 days ago, buying 9,425 ETH ($15.08M) at an average price of $1,600.",
@@ -2548,7 +2564,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795777024.1224468,
+"t": 1795777338.8109238,
 "t0": 1795763984.0,
 "tgtext": "",
 "title": "New York AG secures $1.37B court judgment against NovaTech founders",
@@ -2926,7 +2942,7 @@
 "Menafn",
 "Traders Union"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795756920.0,
 "tgtext": "",
 "title": "Japan\u2019s JPCrypto-ISAC partners with SEAL to strengthen crypto hack detection, incident response",
@@ -3941,7 +3957,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795768999.0,
 "tgtext": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest\n\nBinance has posted two equity capital markets (ECM) roles to build tokenized equity products from scratch, suggesting potential plans for on-chain IPOs. The business development and research analyst roles cover issuer engagement, deal structuring, due diligence, financial modeling, pricing and allocation. Both require familiarity with IPOs and follow-on offerings. \u2014 link",
 "title": "Binance May Be Preparing for On-Chain IPOs, Job Postings Suggest",
@@ -3999,7 +4015,7 @@
 "srcs": [
 "The Crypto Times"
 ],
-"t": 1795777024.1224468,
+"t": 1795777659.946888,
 "t0": 1795767456.0,
 "tgtext": "",
 "title": "Cyber Reopens CYBER Bridge With Four-Verifier Requirement After $1.1M Exploit",
@@ -4104,130 +4120,45 @@
 "05cd04c1ea08": 0.241,
 "065ad09120a0": 0.052,
 "0d9da0f6ffeb": 0.033,
-"1056a046cac6": 0.078,
-"1596c9752617": 0.764,
+"0df5928b3ddb": 0.034,
+"1596c9752617": 0.748,
 "17167a74cd97": 0.046,
-"1a7178e9799e": 0.02,
 "1aa0bef49142": 0.068,
-"1dd8832ef78a": 0.191,
-"3e9760589ad4": 0.227,
+"3069247c320a": 0.974,
+"3e9760589ad4": 0.529,
 "416ed6514518": 0.048,
-"4209bb9d305b": 0.153,
+"459933594b38": 0.027,
 "4ce5ecce63a0": 0.031,
-"5697e83306d6": 0.206,
+"5697e83306d6": 0.096,
+"639f3a123dfc": 0.037,
 "67f411f9d04d": 0.059,
-"701d5ae27cda": 0.309,
-"7e0bad302e6b": 0.021,
 "843e153cb82d": 0.036,
+"8500c6f35032": 0.075,
+"8a294b7e6c7d": 0.198,
+"8d3641b3634e": 0.029,
 "8df31cca8bcf": 0.111,
+"8ead0a813498": 0.043,
 "9178128f467f": 0.124,
 "94628a227fd9": 0.305,
 "97434753840f": 0.038,
 "9846e6b19dfd": 0.261,
 "a68c57f1c54c": 0.222,
 "a7a72f45b9e4": 0.962,
-"aa01c3b4e6c7": 0.049,
-"aa31bedb38ff": 0.04,
-"ade4b6938943": 0.286,
+"ade4b6938943": 0.176,
 "ae5e2f7032f0": 0.007,
 "b0b026398155": 0.189,
 "b823109d6d5b": 0.03,
 "bc2eb87a24d5": 0.057,
 "c5ea040c94ca": 0.429,
-"da7480c0ace0": 0.231,
-"e2e99c4b7107": 0.044,
+"d98b882abc52": 0.063,
+"da7480c0ace0": 0.072,
 "eaede2851cb6": 0.073,
-"f24bb741a35f": 0.062,
-"f2fa23d49679": 0.052,
+"f2fa23d49679": 0.254,
 "f5443614b2f4": 0.557,
-"f888ae331375": 0.429
+"f888ae331375": 0.429,
+"f8ffb53d66e9": 0.194
 },
 "sent": [
-{
-"e": [
-"big",
-"binance",
-"black",
-"bonanza",
-"frenzy",
-"friday",
-"giving",
-"share",
-"thanksgiving"
-],
-"k": [],
-"t": 1795601453.0620627,
-"u": [
-"https://t.me/binance_announcements/9168"
-],
-"w": [
-"000",
-"big",
-"binance",
-"black",
-"bonanza",
-"frenzy",
-"friday",
-"giving",
-"share",
-"thanksgiving",
-"usdc"
-]
-},
-{
-"e": [
-"july",
-"ukraine"
-],
-"k": [],
-"t": 1795602066.1571677,
-"u": [
-"https://t.me/cointelegraph/73514"
-],
-"w": [
-"2027",
-"271",
-"bill",
-"effect",
-"favor",
-"july",
-"law",
-"legalization",
-"parliament",
-"passes",
-"set",
-"take",
-"ukraine",
-"votes"
-]
-},
-{
-"e": [
-"french",
-"senate"
-],
-"k": [],
-"t": 1795603292.5262396,
-"u": [
-"https://t.me/WatcherGuru/16323"
-],
-"w": [
-"000",
-"100",
-"citizens",
-"custody",
-"declare",
-"french",
-"held",
-"holdings",
-"proposal",
-"rejects",
-"requiring",
-"self",
-"senate",
-"wallets"
-]
-},
 {
 "e": [
 "does"
@@ -5650,71 +5581,101 @@
 "stablecoin",
 "world"
 ]
+},
+{
+"e": [
+"brazil",
+"brl",
+"open"
+],
+"k": [],
+"t": 1795777659.946888,
+"u": [
+"https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+"https://t.me/cointelegraph/73560"
+],
+"w": [
+"backed",
+"brazil",
+"brl",
+"called",
+"exchange",
+"financial",
+"institutions",
+"launch",
+"major",
+"open",
+"partnered",
+"real",
+"six",
+"stablecoin",
+"stock"
+]
 }
 ],
 "stories": {},
 "tg_offset": 138489119,
 "top": [
 [
+"3069247c320a",
+28,
+16,
+2
+],
+[
 "a7a72f45b9e4",
 24,
-89,
+100,
 1
 ],
 [
 "7f176dcd1e06",
 0,
-308,
+319,
 1
 ],
 [
 "1596c9752617",
-65,
-332,
+64,
+343,
 8
 ],
 [
 "f5443614b2f4",
 18,
-134,
+144,
 1
 ],
 [
 "26e18f1511cb",
-9,
-254,
+7,
+264,
+1
+],
+[
+"3e9760589ad4",
+10,
+245,
 1
 ],
 [
 "c5ea040c94ca",
-45,
-335,
+43,
+346,
 7
 ],
 [
 "f888ae331375",
 41,
-159,
-1
-],
-[
-"701d5ae27cda",
-47,
-122,
+170,
 1
 ],
 [
 "94628a227fd9",
 10,
-172,
-1
-],
-[
-"ade4b6938943",
-21,
-217,
+183,
 1
 ]
 ],
-"top_at": 1795777024.1224468
+"top_at": 1795777659.946888
 }
