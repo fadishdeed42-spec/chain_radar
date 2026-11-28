@@ -2,11 +2,6 @@
 "hacks": {},
 "init": true,
 "log": [
-1795742315.576642,
-1795748754.0752318,
-1795749062.2780993,
-1795749062.2780993,
-1795751206.7804928,
 1795769256.1924787,
 1795773000.908115,
 1795777659.946888,
@@ -15,7 +10,8 @@
 1795792144.6724732,
 1795793135.7068365,
 1795796836.5423794,
-1795803308.2048519
+1795803308.2048519,
+1795848904.7954261
 ],
 "menu": {
 "05cd04c1ea08": {
@@ -233,7 +229,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795848577.0,
 "tgtext": "Trader 0x70a0 on @Aster_DEX is up $4.3M in just 10 days!\n\nHe opened a 2x long on 4.41M $BTW ($6.15M) 10 days ago and is now sitting on $4.3M in unrealized profit, with a 139.85% ROI!\n\nhttps://www.asterdex.com/en/explorer/address/0x70a0b4bB84fd0A4281b27Fb0a33b7D1400703EdC",
 "title": "Trader 0x70a0 on @Aster_DEX is up $4.3M in just 10 days!",
@@ -783,23 +779,6 @@
 "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV2NXeGFoR3llbmVsT3JvZmR3djFnM3ZLWHJPc1hyWmd5STNONFdRRlVOOVFNOEdwT21Da2NtRy1VdDlIT21hZ1VxUlBLYWlHRWhybGwyRnVheEM0SkpIWVh1NGZ1cFRPcGVnSk1jREhVWmh5VVFQblJVak8wQ3hlZFVmeFhiaVNuSHkwWllGeTY3aHF0QzlPb3hVQng0Q1E4cUMxUGc0dU8tM0FLX0JhVW40TFZ5bXJSb3RYdjNKNzl5SGNHMVE?oc=5",
 "urls": []
 },
-"398d944643e9": {
-"coin": "bitcoin",
-"src": "Wu Blockchain",
-"srcs": [
-"The Block",
-"Wu Blockchain",
-"shattered.io"
-],
-"t": 1795676073.8647962,
-"t0": 1795654482.0,
-"tgtext": "Galaxy Withdraws Bitcoin Bear Market Bottom Call, Citing Potential Downside to $48,500 or $28,200\n\nGalaxy Head of Firmwide Research Alex Thorn withdrew his October call that Bitcoin\u2019s bear market had ended in June, after BTC lost both its 50-week and 200-week moving averages. Galaxy noted that if Bitcoin closes below its June low of $58,525, all seven comparable historical bear market breakdowns saw further declines of at least 17%, with a median of 52%, implying potential lows of approximately $48,500 and $28,200, respectively. Only two of Galaxy\u2019s 13 bear market bottom indicators have been met. While the current bear market has already lasted longer than previous cycles, its drawdown remains considerably shallower. \u2014 link",
-"title": "Galaxy Withdraws Bitcoin Bear Market Bottom Call, Citing Potential Downside to $48,500 or $28,200",
-"url": "https://t.me/wublockchainenglish/26953",
-"urls": [
-"https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-call-446786"
-]
-},
 "3b7b885a5c7c": {
 "coin": "binancecoin",
 "src": "Wu Blockchain",
@@ -970,6 +949,19 @@
 "urls": [
 "https://bitcoinmagazine.com/news/russia-vtb-bitcoin-trading-crypto-test"
 ]
+},
+"46a330b8f9e8": {
+"coin": "",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795849208.317836,
+"t0": 1795849108.0,
+"tgtext": "Meet 0x0488, a big gambler on #Hyperliquid!\n\nOver the past 16 days, he has made 52 trades on $BTC with a 52% win rate, earning a total profit of $3.4M.\n\nHe has now opened another 12x short on 1,000 $BTC ($59.7M).\n\nLiquidation price: $64,860.1\n\nhttps://hyperbot.network/trader/0x04889bbfa46fcf754ba06b1ca6d3e83265dcd87d",
+"title": "Meet 0x0488, a big gambler on Hyperliquid!",
+"url": "https://t.me/lookonchainchannel/11309",
+"urls": []
 },
 "476c7c6327e4": {
 "coin": "bitcoin",
@@ -1477,7 +1469,7 @@
 "bsinews.id",
 "www.tokenpost.com"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795840680.0,
 "tgtext": "JUST IN: Trump family's World Liberty Financial $WLFI cryptocurrency crashes over 35% in 15 minutes.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru\n\ud83d\udea8 JUST IN: Trump-backed World Liberty Financial\u2019s WLFI token plunges 45% in 24 hours, dropping to $0.02289.\n\nNews | Markets | YouTube\nTrump-Backed WLFI Plunges Over 59% in 24 Hours\n\nAccording to Binance market data, WLFI, the governance token of Trump family-backed DeFi project World Liberty Financial, fell to a 24-hour low of 0.0158 USDT before rebounding to 0.0171 USDT, down 59.19% over the past 24 hours. \u2014 link",
 "title": "Trump-backed World Liberty Financial\u2019s WLFI token plunges 45% in 24 hours, dropping to $0.02289.",
@@ -1853,7 +1845,7 @@
 "srcs": [
 "Wu Blockchain"
 ],
-"t": 1795841887.2671661,
+"t": 1795849208.317836,
 "t0": 1795834571.0,
 "tgtext": "Halogen Capital to Launch World's First Shariah-Compliant Bitcoin ETF, Bursa Malaysia's First Digital Currency ETF\n\nAccording to Halogen Capital, the Halogen Shariah Bitcoin ETF will list on Bursa Malaysia's Main Market on December 2, 2026. The company describes it as the world's first Shariah-compliant Bitcoin ETF and the exchange's first digital currency ETF. The fund directly holds spot Bitcoin and aims to track the FTSE Bitcoin Index, with Amanie Advisors serving as its Shariah adviser. It will trade in Malaysian ringgit and US dollars under the tickers 0840EA and 0840EB, respectively, with an annual management fee of up to 0.60% of its net asset value. \u2014 link",
 "title": "Halogen Capital to Launch World's First Shariah-Compliant Bitcoin ETF, Bursa Malaysia's First Digital Currency ETF",
@@ -1988,7 +1980,7 @@
 "Instagram",
 "The Times of India"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795836988.0,
 "tgtext": "",
 "title": "The Brief A Florida man was sentenced for defrauding memecoin investors of over $260,000 by using AI voice-cloning software and faked agreements to impersonate popular streamer N3on. One victim told the court the man laundered the stolen crypto into ca",
@@ -2374,10 +2366,9 @@
 "srcs": [
 "BigGo Finance",
 "Wu Blockchain",
-"Yahoo Finance",
 "www.tokenpost.com"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795827900.0,
 "tgtext": "Bitcoin and Ethereum Spot ETFs See $389M and $69.27M in Net Outflows on November 27 (ET)\n\nAccording to SoSoValue data, U.S. spot Bitcoin ETFs recorded total net outflows of $389 million on November 27 (ET), marking eight consecutive trading days of net outflows. BlackRock's IBIT led with $327 million in net outflows. Spot Ethereum ETFs recorded total net outflows of $69.27 million, marking ten consecutive trading days of net outflows. BlackRock's ETHA led with $57.27 million in net outflows. \u2014 link",
 "title": "Bitcoin Falls Below $60,000 Again; $228 Million Liquidated in a Single Hour, U.S. ETFs Post Record Monthly Outflows",
@@ -2477,7 +2468,7 @@
 "srcs": [
 "Binance"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795845746.0,
 "tgtext": "SAFU Update: Adjusting Fund Holdings\n\nThe Secure Asset Fund for Users (SAFU) is an emergency insurance fund that Binance established in July 2018 to protect users\u2019 assets. The SAFU fund offers protection to Binance users and their funds in the event of extreme situations.\n\n\ud83d\udc49\ud83c\udffb Learn more here",
 "title": "SAFU Update: Adjusting Fund Holdings",
@@ -3186,7 +3177,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795840500.0,
 "tgtext": "\ud83c\uddfa\ud83c\uddf8 LATEST: Trump\u2019s backing of Nvidia CEO Jensen Huang and the broader AI industry risks political backlash from Americans concerned about job losses and corporate favoritism, per WSJ.\n\nNews | Markets | YouTube",
 "title": "Trump\u2019s backing of Nvidia CEO Jensen Huang and the broader AI industry risks political backlash from Americans concerned about job losses and corporate favoritism, per WSJ.",
@@ -3898,7 +3889,7 @@
 "srcs": [
 "Crypto Briefing"
 ],
-"t": 1795848598.1115737,
+"t": 1795848904.7954261,
 "t0": 1795845903.0,
 "tgtext": "",
 "title": "Over $407M in crypto positions liquidated in 24 hours as longs take the hit",
@@ -3939,7 +3930,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795844919.0,
 "tgtext": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Federal regulators officially shut down $6 billion United Fidelity Bank, marking the biggest US bank failure since April 2024.\n\n\ud83d\udcf0 https://watcherguru.com/\n\n@WatcherGuru",
 "title": "\ud83c\uddfa\ud83c\uddf8 Federal regulators officially shut down $6 billion United Fidelity Bank, marking the biggest US bank failure since April 2024.",
@@ -4263,7 +4254,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795848598.1115737,
+"t": 1795849208.317836,
 "t0": 1795830897.0,
 "tgtext": "WLFI(@worldlibertyfi) sold 10,600 $ETH($17.58M) and 1,378 $mETH($2.48M) 4 hours ago.\n\nhttps://arkm.com/explorer/entity/worldlibertyfi",
 "title": "WLFI(@worldlibertyfi) sold 10,600 ETH($17.58M) and 1,378 mETH($2.48M) 4 hours ago.",
@@ -4398,14 +4389,16 @@
 "bitcoin": 1795791926.3014584,
 "bitway": 1795784463.8261507,
 "ethereum": 1795791926.3014584,
-"monero": 1795706624.3533547
+"monero": 1795706624.3533547,
+"world-liberty-financial": 1795849208.317836
 },
 "probs": {
+"08089674b592": 0.026,
 "093253057fc1": 0.101,
-"0efc2b86ac28": 0.008,
+"0efc2b86ac28": 0.021,
 "105a9079a414": 0.017,
 "1469b3498558": 0.019,
-"18b1afc19598": 0.139,
+"18b1afc19598": 0.53,
 "1af0c79e573c": 0.032,
 "20c54306b4b6": 0.033,
 "24c1e0a6f63e": 0.057,
@@ -4414,91 +4407,34 @@
 "35c94a9448a9": 0.031,
 "364a9a2d4bca": 0.094,
 "3e48005cbcac": 0.127,
+"46a330b8f9e8": 0.45,
 "49b4d1c7e8cf": 0.033,
 "4a67a77364de": 0.037,
 "60225f130060": 0.066,
-"64a82014b51d": 0.994,
+"64a82014b51d": 0.992,
 "7878e6680e30": 0.063,
-"7d44927b00a3": 0.044,
+"7d44927b00a3": 0.149,
 "7e2ecddebdbc": 0.096,
 "82a9602e75ab": 0.084,
 "839bbd29c0ae": 0.864,
 "8e0ae91f91aa": 0.03,
-"91c480388b2a": 0.046,
-"9677c2c91465": 0.767,
+"9677c2c91465": 0.875,
 "a04887c3bf23": 0.291,
 "a49ff907dd03": 0.03,
 "b71b7f890c11": 0.037,
 "c73b7b96e16c": 0.657,
+"ce3f0029b6ef": 0.041,
 "dacf11d76c81": 0.022,
 "dc6dc950657f": 0.039,
 "deeafe8e32c0": 0.044,
 "e3189090567f": 0.142,
-"e8d722fce1af": 0.59,
+"e8d722fce1af": 0.273,
 "ec05b12a0ac7": 0.059,
 "ee405784e48c": 0.039,
-"f2ea2bee34f4": 0.021,
 "f4c39ef8f41a": 0.011,
-"f95784b3f05a": 0.302,
 "ffc7b728f0df": 0.058
 },
 "sent": [
-{
-"e": [
-"big",
-"hong",
-"hsbc",
-"kong",
-"redcoin",
-"scmp"
-],
-"k": [],
-"t": 1795673014.247192,
-"u": [
-"https://t.me/WatcherGuru/16352",
-"https://t.me/cointelegraph/73538"
-],
-"w": [
-"000",
-"100",
-"backed",
-"big",
-"dollar",
-"drew",
-"first",
-"hong",
-"hsbc",
-"kong",
-"launch",
-"month",
-"per",
-"redcoin",
-"scmp",
-"stablecoin",
-"users"
-]
-},
-{
-"e": [
-"binance",
-"zec"
-],
-"k": [],
-"t": 1795674237.774783,
-"u": [
-"https://t.me/lookonchainchannel/11291"
-],
-"w": [
-"$35",
-"501",
-"binance",
-"deposited",
-"hours",
-"past",
-"whale",
-"zec"
-]
-},
 {
 "e": [
 "collapse",
@@ -5690,6 +5626,24 @@
 "wlfi",
 "world"
 ]
+},
+{
+"e": [
+"trader"
+],
+"k": [],
+"t": 1795848904.7954261,
+"u": [
+"https://t.me/lookonchainchannel/11308"
+],
+"w": [
+"0x70a0",
+"aster",
+"days",
+"dex",
+"just",
+"trader"
+]
 }
 ],
 "stories": {},
@@ -5698,63 +5652,63 @@
 [
 "64a82014b51d",
 94,
-132,
+142,
 5
 ],
 [
-"839bbd29c0ae",
-72,
-194,
+"9677c2c91465",
+40,
+355,
 3
 ],
 [
-"9677c2c91465",
-64,
-345,
-4
+"839bbd29c0ae",
+70,
+204,
+3
 ],
 [
 "c73b7b96e16c",
 18,
-135,
-1
-],
-[
-"e8d722fce1af",
-25,
-61,
+145,
 1
 ],
 [
 "f95784b3f05a",
-1,
-295,
-1
-],
-[
-"a04887c3bf23",
-10,
-48,
-1
-],
-[
-"e3189090567f",
-31,
-45,
+0,
+305,
 1
 ],
 [
 "18b1afc19598",
 16,
-0,
+11,
 1
 ],
 [
-"3e48005cbcac",
+"46a330b8f9e8",
+10,
+2,
+1
+],
+[
+"a04887c3bf23",
+10,
+58,
+1
+],
+[
+"e8d722fce1af",
 25,
-158,
+71,
+1
+],
+[
+"7d44927b00a3",
+16,
+244,
 1
 ]
 ],
-"top_at": 1795848598.1115737
+"top_at": 1795849208.317836
 }
