@@ -215,7 +215,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795813632.0,
 "tgtext": "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's Central Bank grants crypto exchange Binance regulatory approval to operate as foreign exchange broker.\n\n@WatcherGuru",
 "title": "\ud83c\udde7\ud83c\uddf7 Brazil's Central Bank grants crypto exchange Binance regulatory approval to operate as foreign exchange broker.",
@@ -715,6 +715,19 @@
 "urls": [
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
+},
+"364a9a2d4bca": {
+"coin": "solana",
+"src": "Lookonchain",
+"srcs": [
+"Lookonchain"
+],
+"t": 1795831899.5749686,
+"t0": 1795831242.0,
+"tgtext": "dogeftw.sol unstaked 527,861 $SOL ($37.21M) 10 hours ago and then deposited 144,464 $SOL ($10.32M) into #FalconX to sell.\n\nhttps://arkm.com/explorer/address/E3NiM5n6s5CKKWrrhaeVjVSTKscRrysCtZeXnxn6yMgp",
+"title": "dogeftw.sol unstaked 527,861 SOL ($37.21M) 10 hours ago and then deposited 144,464 SOL ($10.32M) into FalconX to sell.",
+"url": "https://t.me/lookonchainchannel/11307",
+"urls": []
 },
 "3821749d6377": {
 "coin": "",
@@ -1602,15 +1615,18 @@
 },
 "6efc5ab90c0c": {
 "coin": "bitcoin",
-"src": "Benzinga",
+"src": "BigGo Finance",
 "srcs": [
-"Benzinga"
+"Benzinga",
+"BigGo Finance",
+"UrduPoint",
+"www.tokenpost.com"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795811413.0,
 "tgtext": "",
-"title": "Bitcoin Price Falls as $183 Million in Liquidations Hit Ahead of $6.8 Billion Options Expiry",
-"url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcURXT1VQVEhKd0xjVjlzUm84dzYtTmRNRHB6LU5uaXo3Qkp5SU5JUlBDOVQ5NnJqcy03MEUxNkxlYVVtSExzYl9reTNzTVpHbHBhODA0cnNGbFRidC1KUnNCMi1fdkdUTjN5R2Z2MTBJMFloa2FvSFM1LVVEMkNibzlsSG82V3Y0NlY1ZjJuYUtnVHM5NTgxLTVFMENlbHVlSGJ5QUlGTUUyV2J2RGJfZkpPUVpMMlh3RVVpY3c4V1BjZV9XSFhIR3V3SlNEQnVqa3pabHBEZjBSTWNCQ0JvTGdyZTBTVTQ?oc=5",
+"title": "Bitcoin Falls Below $60,000 Again; $228 Million Liquidated in a Single Hour, U.S. ETFs Post Record Monthly Outflows",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CQlJYX2JOaFJRdVVJdnVXS042cEQ4UUF0SUhtSmQ3dWxLc254LUVCSGlJUDhrSE1fS3gwQnZIMEpvNjNyemlfRTFQSWxfX21vTmlxelV4QThlRXNEZlk4NFFUOWJ4R1pSMjFfOWxlWVl1UUEzdXc?oc=5",
 "urls": []
 },
 "6fa0d13c4f5b": {
@@ -1816,7 +1832,7 @@
 "Cointelegraph",
 "NewsCord"
 ],
-"t": 1795831287.7644138,
+"t": 1795831595.2221808,
 "t0": 1795814129.0,
 "tgtext": "",
 "title": "Franklin Templeton Adds Hyperliquid\u2019s HYPE to Crypto Index ETF EZPZ Starting December 1: 12 outlets compared",
@@ -3023,7 +3039,7 @@
 "srcs": [
 "TechBullion"
 ],
-"t": 1795829451.1272461,
+"t": 1795831899.5749686,
 "t0": 1795812362.0,
 "tgtext": "",
 "title": "HyperPerps Launches a Free Hyperliquid Liquidation Heatmap Built on Real Positions",
@@ -3062,10 +3078,9 @@
 "coin": "bitcoin",
 "src": "The Globe and Mail",
 "srcs": [
-"The Globe and Mail",
-"UrduPoint"
+"The Globe and Mail"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795818845.0,
 "tgtext": "",
 "title": "Crypto Market Today, Nov. 27: Bitcoin Falls Below $60,000 as Crypto Markets Struggle Despite Wall Street's Biggest Rally in Over a Year",
@@ -3092,7 +3107,7 @@
 "Cointelegraph",
 "Decrypt"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795811641.0,
 "tgtext": "\ud83d\udea8\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f\ufe0f LATEST: OpenAI has filed a countersuit against Apple, alleging theft of trade secrets, according to CNBC.\n\nNews | Markets | YouTube",
 "title": "OpenAI has filed a countersuit against Apple, alleging theft of trade secrets, according to CNBC.",
@@ -3388,14 +3403,17 @@
 "srcs": [
 "Altcoin Buzz",
 "CoinMarketCap",
-"CryptoRank"
+"CryptoRank",
+"CryptoSlate"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795812322.0,
 "tgtext": "",
 "title": "Crypto News Today: DOJ Targets $1.1B in Binance Hack Funds as ETF Outflows Hit Records",
 "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcmpoa2ZVcnU5NDdXQjM3dEFaNHRBM2tUckRzY2c3dWpvd1VqTUNHMGFYVlY1d3NxRjJhOVdHdFNVMDV0RjhxTmhuWVFFMlJrUDA2UnlsVG8xMGNkZl8xekFETmxjSlBzS3FLZ0J5ZUw5WDgzV1VFZkdRcFJzLVBJbktHbk1iNTc3UW5xb25OdjVyN3J3LVBNWnVGanJGcWhYc1k3WkY0VE8xNlFDelVlSA?oc=5",
-"urls": []
+"urls": [
+"https://cryptoslate.com/binance-withdrawals-are-back-after-octobers-hack-and-heres-why-yours-might-still-be-blocked/"
+]
 },
 "d670dab116e4": {
 "coin": "ethereum",
@@ -3470,23 +3488,6 @@
 "urls": [
 "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ]
-},
-"d7add54c62a8": {
-"coin": "chainlink",
-"src": "Wu Blockchain",
-"srcs": [
-"Altcoin Buzz",
-"Crypto News",
-"Pluang",
-"Wu Blockchain",
-"Yahoo Finance"
-],
-"t": 1795658739.2706923,
-"t0": 1795637199.0,
-"tgtext": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK\n\nFidelity has filed an S-1 registration statement with the SEC to launch a spot Chainlink ETF, expected to trade on Nasdaq under the ticker FLNK. The fund would hold LINK directly and track its price without staking or distributing staking rewards. Anchorage Digital Bank, BitGo and Coinbase Custody would serve as custodians, with share creations and redemptions available in LINK or cash.\n\nGrayscale and Bitwise already offer spot Chainlink ETFs in the U.S., with approximately $112 million and $42 million in assets under management, respectively, as of November 24. \u2014 link",
-"title": "Fidelity Files for Spot Chainlink ETF, Plans Nasdaq Listing Under FLNK",
-"url": "https://t.me/wublockchainenglish/26952",
-"urls": []
 },
 "d7c2316b16dd": {
 "coin": "",
@@ -3664,7 +3665,7 @@
 "srcs": [
 "Cointelegraph"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795815301.0,
 "tgtext": "\ud83d\udea8 TODAY: Telegram is urging iPhone users to update their iOS immediately, warning that security vulnerabilities in outdated versions put their data and accounts at risk.\n\nNews | Markets | YouTube",
 "title": "TODAY: Telegram is urging iPhone users to update their iOS immediately, warning that security vulnerabilities in outdated versions put their data and accounts at risk.",
@@ -3677,7 +3678,7 @@
 "srcs": [
 "Watcher.Guru"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795815312.0,
 "tgtext": "JUST IN: Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.\n\n@WatcherGuru",
 "title": "Elon Musk says the goal of Grok Bot is to allow users to build an entire company with AI.",
@@ -4076,7 +4077,7 @@
 "srcs": [
 "Lookonchain"
 ],
-"t": 1795831287.7644138,
+"t": 1795831899.5749686,
 "t0": 1795830897.0,
 "tgtext": "WLFI(@worldlibertyfi) sold 10,600 $ETH($17.58M) and 1,378 $mETH($2.48M) 4 hours ago.\n\nhttps://arkm.com/explorer/entity/worldlibertyfi",
 "title": "WLFI(@worldlibertyfi) sold 10,600 ETH($17.58M) and 1,378 mETH($2.48M) 4 hours ago.",
@@ -4214,39 +4215,38 @@
 "monero": 1795706624.3533547
 },
 "probs": {
-"06d59157824d": 0.032,
 "171ec461b880": 0.199,
 "24f7249e1093": 0.042,
 "3274c044eed2": 0.08,
 "35c94a9448a9": 0.05,
-"364a9a2d4bca": 0.083,
-"38b3f547b615": 0.109,
+"364a9a2d4bca": 0.325,
+"481471870a42": 0.017,
 "5f684e313810": 0.042,
 "604f9b76d57b": 0.017,
 "6b127ddd837d": 0.112,
-"6efc5ab90c0c": 0.368,
+"6efc5ab90c0c": 0.462,
 "72ec6d730b3f": 0.071,
-"739663005cc7": 0.022,
 "7878e6680e30": 0.122,
 "78f7a83e386d": 0.086,
-"7f4b5656e51e": 0.189,
+"7f4b5656e51e": 0.111,
 "877fe2ac49a0": 0.006,
+"87df89afd065": 0.059,
 "8e1b13be377d": 0.057,
 "90083ee8fa1e": 0.066,
 "9bf205736811": 0.096,
 "b030dd61a902": 0.02,
 "c59aef98edbf": 0.015,
 "c7bc0192ef6a": 0.034,
-"cac0792a9aca": 0.147,
+"c9435e1cd5d5": 0.149,
+"cac0792a9aca": 0.173,
 "cb4c59739151": 0.629,
 "d2c30263ac2c": 0.013,
-"d64350078530": 0.247,
+"d64350078530": 0.209,
 "d86d5fe9edff": 0.05,
 "dd588be6f65c": 0.396,
 "deeafe8e32c0": 0.035,
 "e03a27ebfb2c": 0.199,
 "e48f09c2249b": 0.049,
-"ef713a02e08b": 0.147,
 "f246f9bbf69b": 0.085,
 "f2ea2bee34f4": 0.019,
 "f95784b3f05a": 0.667
@@ -5638,63 +5638,63 @@
 [
 "f95784b3f05a",
 16,
-7,
+17,
 1
 ],
 [
 "cb4c59739151",
-1,
-327,
+0,
+338,
 2
+],
+[
+"6efc5ab90c0c",
+64,
+341,
+4
 ],
 [
 "dd588be6f65c",
 0,
-266,
+277,
 1
 ],
 [
-"6efc5ab90c0c",
-26,
-331,
+"364a9a2d4bca",
+16,
+11,
 1
 ],
 [
 "d64350078530",
-57,
-316,
-3
+66,
+326,
+4
 ],
 [
 "e03a27ebfb2c",
-7,
-266,
+6,
+276,
 1
 ],
 [
 "171ec461b880",
-3,
-294,
+2,
+304,
 1
-],
-[
-"7f4b5656e51e",
-20,
-286,
-2
 ],
 [
 "cac0792a9aca",
-17,
-207,
-2
+5,
+218,
+1
 ],
 [
-"ef713a02e08b",
-24,
-114,
+"c9435e1cd5d5",
+6,
+326,
 1
 ]
 ],
-"top_at": 1795831287.7644138
+"top_at": 1795831899.5749686
 }
